@@ -1,0 +1,93 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+const blocked = [
+  ["The two Brisbane immigration files","NAA: J25, 1971/9830 and J25, 1972/4964",
+   "Paper only, held in Brisbane, not digitised. Case files of this era normally carry the sponsor, the addresses, the occupations, and often photographs. 1972/4964 is already marked Open.",
+   "Anyone can order a copy through the National Archives of Australia."],
+  ["The restricted Caserta images","FamilySearch, several Caserta collections",
+   "Some record images return “This record can only be displayed on certain accounts.” The index and the machine transcriptions are open; the scans are not.",
+   "A visit to a FamilySearch centre or an affiliate library unlocks them."],
+  ["Antenati","antenati.cultura.gov.it",
+   "The Italian State Archives portal holds the Arienzo civil registers directly, and would settle several of the questions below. It blocks automated access and sits behind a CAPTCHA.",
+   "A person with a browser. There is no way around this one."],
+  ["The Museo Alfonsiano, Arienzo","The old bishop's palace beside Sant'Andrea",
+   "It stands next to the church in which this family was baptised for two centuries, and may hold or know of parish material that was never filmed.",
+   "A letter, or a visit."],
+  ["DNA","MyHeritage / 23andMe",
+   "Matches on the Falco and Zampiello sides could confirm or break the Annecchino descent below, and could find living cousins in Campania. No register can do that.",
+   "The family already has tests in play; the matches need working through."],
+];
+const questions = [
+  ["Who was Matteo Falco's father?","The line's own frontier",
+   "Matteo was an adult by 1759 and fathering children from 1767. His marriage to Francesca Crisci — which would name his father — should sit in the Arienzo marriage register between about 1760 and 1766. It was searched for across 2,056 transcribed pages and not found. His baptism would fall in the gap the baptism register leaves between 1738 and 1761.",
+   "Try the bishop's duplicate series, the Stato delle Anime, or Antenati."],
+  ["Is Francesco Falco of Paolisi an ancestor?","1714–1726",
+   "The earliest Arienzo Falco household with a stated origin. The dates would allow him to be Matteo's grandfather. No document joins them, and this archive has not joined them.",
+   "The 1672–1738 baptism register, read properly."],
+  ["Filomena Annecchino's act of birth","10 April 1897, Forchia",
+   "The descent from Carmine Annecchino and Maria Carfora fits the tree exactly — including the grandfather's name — but her own birth record was not found. The harvest is capped by FamilySearch's paging limit and by fuzzy matching across Annecchino, Annecchini and Anicchino.",
+   "Full-text search on the Benevento collection, or the Forchia register images."],
+  ["Angelo Zampiello's birth, and his war","31 August 1895, Arpaia",
+   "Neither his birth record nor the family's account of the Second Italo-Abyssinian War — Eritrea, 1935, decorated for saving many lives — has been corroborated.",
+   "The fogli matricolari for men of the province are at the Archivio di Stato di Benevento."],
+  ["When did Carminantonio and Filomena arrive?","Before 1964",
+   "Both died in Brisbane, but neither appears in the passenger arrivals index. They came separately from their sons, and the voyage is untraced. A Giuseppe Falco arrived at Brisbane on 15 September 1925 per the Palermo, who may be Raffaele's brother of 1883 and the anchor the chain hung from — untested.",
+   "The J25 files may answer it."],
+  ["Two Carmine Annecchinos","Forchia, 1883",
+   "One with a wife Maria Carfora, one with Maria Giovanna Crisci — and children twelve days apart in September 1883. Two men, or an indexing error.",
+   "The Forchia baptisms, read directly."],
+  ["Arcangelo Crisci, twice","Arienzo, c. 1817 and 1820",
+   "He appears as Andreana Crisci's father and as the husband of Anna Falco, who died at 22 in 1820. Two men of the same name, or a widower's remarriage.",
+   "The Crisci baptisms."],
+  ["The unnamed child","25 November 1777",
+   "Matteo and Francesca baptised a child that day whose name the transcription does not carry.",
+   "The register image."],
+  ["Two daughters called Maria","1789 and 1790",
+   "Pasquale and Chiara named a daughter Maria in September 1789 and again in October 1790. Ordinarily that means the first died. No burial has been found.",
+   "The Arienzo death register, 1789–90."],
+];
+---
+<Base title="Open questions">
+  <h1>Open questions</h1>
+  <p class="lede">What this archive does not know, why it does not know it, and — where it matters — what
+  it would take to find out. Published because the person holding the missing piece is more likely to be
+  a stranger than the person who wrote this.</p>
+
+  <h2>Doors that need a person</h2>
+  <p>These are not research problems. They are things a machine cannot do and a human can.</p>
+  {blocked.map(([t,w,d,who]) => (
+    <section class="card" style="margin:1rem 0">
+      <h3 style="margin-bottom:.2rem">{t}</h3>
+      <p class="small mono" style="margin:.1rem 0 .5rem">{w}</p>
+      <p style="margin:.2rem 0">{d}</p>
+      <p style="margin:.5rem 0 0"><strong>What would open it:</strong> {who}</p>
+    </section>
+  ))}
+
+  <h2>Questions the records have not answered</h2>
+  {questions.map(([t,w,d,how]) => (
+    <section class="card" style="margin:1rem 0">
+      <h3 style="margin-bottom:.2rem">{t}</h3>
+      <p class="small mono" style="margin:.1rem 0 .5rem">{w}</p>
+      <p style="margin:.2rem 0">{d}</p>
+      <p class="small" style="margin:.5rem 0 0"><strong>Where to look:</strong> {how}</p>
+    </section>
+  ))}
+
+  <h2>Where the searching has already failed</h2>
+  <p>Recorded so that the next attempt does not repeat it. Matteo Falco's marriage was searched across
+  2,056 transcribed marriage and death pages, including 173 carrying 1750s Latin date-words and 58
+  carrying 1760s ones. Filomena Annecchino's birth was searched across 681 harvested Annecchino records.
+  Angelo Zampiello's birth was searched to the limit of FamilySearch's deep-paging cap in both
+  directions. <strong>Trove is a dead end for this family</strong> — its newspapers largely stop at 1955,
+  before these people arrived in Australia.</p>
+
+  <h2>If you are a Falco</h2>
+  <p>There are other Arienzo Falco households in these registers that have not been joined to this
+  line — Francesco &amp; Maria Angela Ulivieccio, Giuseppe &amp; Gelsumina Vigliotta, Antonio &amp;
+  Carmela Guida, Vincenzo &amp; Angela Pellone, Angelo &amp; Maria Cimmino, Nicola &amp; Carmela
+  Terracciano. Several are probably cousins. If one of them is yours, the
+  <a href={u("/households")}>households</a> are the place to start, and a correction is the most
+  valuable thing you can send.</p>
+</Base>

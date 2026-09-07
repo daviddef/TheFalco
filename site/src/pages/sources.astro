@@ -1,30 +1,39 @@
 ---
 import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
 import sources from "../data/sources.json";
+const groups = [...new Set(sources.map(s => s.g))];
 ---
 <Base title="Sources">
   <h1>Sources</h1>
-  <p class="lede">What has been read, and where it is.</p>
-  {sources.map(s => (
-    <section class="card" style="margin:.9rem 0">
-      <h3 style="margin-bottom:.3rem">{s.t}</h3>
-      <p style="margin:0">{s.d}</p>
+  <p class="lede">What has been read, where it is, and what it actually established. Fourteen sources
+  across four countries' worth of record-keeping.</p>
+
+  {groups.map(g => (
+    <section>
+      <h2>{g}</h2>
+      {sources.filter(s => s.g === g).map(s => (
+        <div class="card" style="margin:.9rem 0">
+          <h3 style="margin-bottom:.35rem">{s.t}</h3>
+          <p style="margin:.2rem 0 .5rem">{s.d}</p>
+          {s.id !== "—" ? <p class="small mono" style="margin:.2rem 0">{s.id}</p> : null}
+          <p class="small" style="margin:.35rem 0 0"><strong>What it established:</strong> {s.use}</p>
+        </div>
+      ))}
     </section>
   ))}
-  <h2>Records cited in the direct line</h2>
-  <p>Twenty-six record citations underlie the pedigree, drawn from three civil collections and the Arienzo
-  parish books. They are listed in full in <span class="mono">data/record-citations.tsv</span> in the
-  repository, with the archival reference for each.</p>
-  <h2>Not yet reached</h2>
-  <ul>
-    <li>The Arienzo baptism register of <strong>1672–1738</strong> — unexamined. This is where a generation
-    above Pasquale Falco would be found, if it is to be found at all.</li>
-    <li>The <strong>marriage supplements</strong> (<em>processetti</em>) for Arienzo. These attach earlier
-    documents — often parish extracts reaching back two generations — to a marriage file, and are the
-    single richest source for pushing past 1809.</li>
-    <li>The <strong>Archdiocese of Benevento</strong> church records, 1575–1908, for the Arpaia and Forchia
-    years and the Zampiello family.</li>
-    <li>Certain FamilySearch record images for Caserta are restricted to accounts at a FamilySearch centre
-    or affiliate library, and could not be opened for this build.</li>
-  </ul>
+
+  <h2>Currency</h2>
+  <p>Every source above was consulted on <strong>7 September 2026</strong>. Nothing here is quoted from
+  memory or from another family tree: each claim on this site traces to one of these, or is marked
+  <span class="chip">inferred</span> and reasoned out in the open.</p>
+  <p>The twenty-six record citations carried over from the family's own MyHeritage tree are listed in
+  full, with their archival references, in <span class="mono">data/record-citations.tsv</span> in the
+  repository. The forty-three register entries behind the households are in
+  <span class="mono">data/households.tsv</span>.</p>
+
+  <h2>What has not been read</h2>
+  <p>Set out in full, with the reason in each case, on <a href={u("/open-questions")}>Open questions</a>.
+  The short version: the two Brisbane immigration files, the Archdiocese of Benevento church records,
+  the Arienzo marriage supplements, and everything on Antenati.</p>
 </Base>
