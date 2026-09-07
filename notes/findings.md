@@ -106,6 +106,44 @@ Gelsumina Vigliotta (son Domenico m. 1844 Maria Antonia Frasca) · Antonio Falco
 Vincenzo Falco & Angela Pellone · Angelo Falco & Maria Cimmino (son Pasquale, *carrettiere*, m.
 Mariangela Attanasi of Paolisi) · Nicola Falco & Carmela Terracciano.
 
+
+## The collateral branches (added on the second sweep)
+
+**Giuseppe Falco & Antonia di Guida** — Giuseppe is Matteo's son ("Josephum Falco filium Matthei, e
+Franciscae Crisci"); Antonia is "filiam Josephi e Magdalenae Pivera". Children: **Mattheus** bapt. 1807
+and d. 28 Aug 1809 (named for his grandfather — the naming pattern independently corroborates Matteo);
+**Giovanni** d. 27 Nov 1841 aged ~24; **Crescenzo**.
+
+**Crescenzo Falco & Angela Maria Morgillo** — married *medio dispensatione obtenta a Sanctissimo
+Domino Papa nostro **Gregorio** super **quarto gradu consanguinitatis*** (`3Q9M-CSMY-B7HC-V`) — a papal
+dispensation for kinship in the fourth degree, under Gregory XVI (1831–46). They were third cousins and
+the parish said so on the page. Son Giuseppe died in infancy, 1818.
+
+**More children of Vincenzo Falco & Andreana Crisci** — **Angelo**, m. Maria Cimmino 17 Apr 1847;
+**Nunziata**, m. 1855; a further daughter m. an Antonino Mario…; besides Raffaele 1818, Luigi 1819
+(d. 1864), Pasquale 1830, Antonio 1843 (m. 1869) and Andrea.
+
+**Francesco Falco & Raffaela Falco** — a Falco who married a Falco. Son Clemente d. 14 Aug 1855 aged 5.
+
+**Francesco Falco & Maria Angela Ulivieccio** — daughter Margarita m. Domenico Crisci.
+
+Other Arienzo Falco households seen but not yet joined: Giuseppe Falco & Gelsumina Vigliotta (son
+Domenico m. 1844 Maria Antonia Frasca, of the parish of S. Maria a Vico) · Antonio Falco & Carmela
+Guida · Vincenzo Falco & Angela Pellone (daughter Pasqualina d. aged 24, wife of Raffaele Crisci, of
+via Sant'Andrea) · Angelo Falco & Maria Cimmino (son Pasquale, *carrettiere*, m. Mariangela Attanasi of
+Paolisi, 1896) · Nicola Falco & Carmela Terracciano · Gaetano Falco (daughter Maria Felice).
+
+## Where the trail stops, and why
+
+**Matteo Falco's marriage to Francesca Crisci** — expected c. 1760–66 — was searched for directly across
+2,056 transcribed marriage and death pages, including 173 pages carrying 1750s Latin date-words and 58
+carrying 1760s ones. **Not found.** Either it is not among the transcribed pages or the relevant leaves
+are not filmed. Matteo's own baptism would fall in the **gap the baptism register leaves between 1738
+and 1761**.
+
+That is the frontier. It is a real one, not a shrug: the searching that failed is recorded above so the
+next attempt does not repeat it.
+
 ## Access note
 
 FamilySearch record *images* for several Caserta collections return "This record can only be displayed

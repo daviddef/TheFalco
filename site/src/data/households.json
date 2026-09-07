@@ -271,6 +271,146 @@
     "place": "Arienzo",
     "evidence": "Andream Falco Vincentii et Andreanae Crisci filium m. Maria Carmela, dau of Onofrio & Angela Imbimbo",
     "ark": "3Q9M-CSMY-B7SN-P"
+   },
+   {
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Angelo Falco",
+    "role": "child",
+    "event": "marriage",
+    "date": "17 Apr 1847",
+    "place": "Arienzo",
+    "evidence": "Angelo Falco filium Vincentii et Andreanae Crisci m. Maria Cimmino, dau of … & Rosa Solli",
+    "ark": "3Q9M-CSMY-B7HQ-P"
+   },
+   {
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Nunziata Falco",
+    "role": "child",
+    "event": "marriage",
+    "date": "13 [Nov] 1855",
+    "place": "Arienzo",
+    "evidence": "Nuntiatam Falco filiam Vincentii, et Andreanae Crisci",
+    "ark": "3Q9M-CSMY-B7H3-C"
+   },
+   {
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "[daughter] Falco",
+    "role": "child",
+    "event": "marriage",
+    "date": "c. 1840s",
+    "place": "Arienzo",
+    "evidence": "… Falco filiam Vincentii, e Andreanae Crisci m. Antonino Mario…",
+    "ark": "3Q9M-CSMY-B7HD-K"
+   }
+  ]
+ },
+ {
+  "name": "Giuseppe Falco & Antonia di Guida",
+  "members": [
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Giuseppe Falco",
+    "role": "father",
+    "event": "marriage",
+    "date": "—",
+    "place": "Arienzo",
+    "evidence": "Josephum Falco filium Matthei, e Franciscae Crisci — son of Matteo",
+    "ark": "3Q9M-CSMY-B74R-4"
+   },
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Antonia di Guida",
+    "role": "mother",
+    "event": "",
+    "date": "",
+    "place": "Arienzo",
+    "evidence": "filiam Josephi e Magdalenae Pivera",
+    "ark": "3Q9M-CSMY-B74R-4"
+   },
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Mattheus (Matteo) Falco",
+    "role": "child",
+    "event": "baptism",
+    "date": "1807",
+    "place": "Arienzo",
+    "evidence": "named for his grandfather",
+    "ark": "3Q9M-CSD3-13DN-H"
+   },
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Matteo Falco",
+    "role": "child",
+    "event": "death",
+    "date": "28 Aug 1809",
+    "place": "Arienzo",
+    "evidence": "Matthaeus Falco filius Josephi e Antoniae di Guida coniugum",
+    "ark": "3Q9M-CSMY-B74S-F"
+   },
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Giovanni Falco",
+    "role": "child",
+    "event": "death",
+    "date": "27 Nov 1841",
+    "place": "Arienzo",
+    "evidence": "Joannes Falco filius Josephi et Antoniae di Guida, aetatis suae annorum 24 circiter",
+    "ark": "3Q9M-CSMY-B7WY-G"
+   },
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Crescenzo Falco",
+    "role": "child",
+    "event": "marriage",
+    "date": "c. 1831-46",
+    "place": "Arienzo",
+    "evidence": "dispensatione obtenta a … Papa nostro Gregorio super quarto gradu consanguinitatis … Crescentium Falco, filium Josephi, e Antoniae di Guida m. Angela Maria Morgillo",
+    "ark": "3Q9M-CSMY-B7HC-V"
+   }
+  ]
+ },
+ {
+  "name": "Crescenzo Falco & Angela Maria Morgillo",
+  "members": [
+   {
+    "household": "Crescenzo Falco & Angela Maria Morgillo",
+    "person": "Giuseppe Falco",
+    "role": "child",
+    "event": "death",
+    "date": "1818",
+    "place": "Arienzo",
+    "evidence": "Joseph Falco filius Crescentii et Mariae Morgillo, aetatis paucorum dierum",
+    "ark": "3Q9M-CSMY-B73M-D"
+   }
+  ]
+ },
+ {
+  "name": "Francesco Falco & Maria Angela Ulivieccio",
+  "members": [
+   {
+    "household": "Francesco Falco & Maria Angela Ulivieccio",
+    "person": "Margarita Falco",
+    "role": "child",
+    "event": "marriage",
+    "date": "—",
+    "place": "Arienzo",
+    "evidence": "Margaritam Falco filiam Francisci, et Mariae Angelae Ulivieccio m. Domenico Crisci",
+    "ark": "3Q9M-CSMY-B7QN-8"
+   }
+  ]
+ },
+ {
+  "name": "Francesco Falco & Raffaela Falco",
+  "members": [
+   {
+    "household": "Francesco Falco & Raffaela Falco",
+    "person": "Clemente Falco",
+    "role": "child",
+    "event": "death",
+    "date": "14 Aug 1855",
+    "place": "Arienzo",
+    "evidence": "Clemens Falco filius Francisci, et Raphaelae Falco, aetatis suae annorum quinque — a Falco who married a Falco",
+    "ark": "3Q9M-CSMY-B733-G"
    }
   ]
  }
