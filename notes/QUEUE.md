@@ -84,11 +84,25 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       Annecchino descent and find living cousins in Campania. Tests are already in play; the matches
       need working through.
 
+## Pasquale Falco's death — the live target
+- [x] Bracketed to **1829-1843** (alive at Vincenzo's marriage Dec 1814 and in daughter Angela's 1829
+      death entry; Chiara is his widow in 1843).
+- [x] **Chiara Rivetti's death found** — 1843, aged 80, daughter of the late **Nicola Rivetti** and
+      **Anna**. New generation on her side.
+- [ ] **Read the Arienzo civil death registers 1829-1843** — `an_ua14331` (1829) to `an_ua14345`
+      (1843), 15 volumes, 53-65 pp. each, ~850 pages, **no alphabetical index**. A civil death act
+      names the parents, so his would name Matteo Falco and Francesca Crisci. This is now the single
+      best route above Matteo.
+- [ ] Also look for **Nicola Rivetti's** death, and Chiara's baptism (c.1763 per her stated age).
+
 ## Dead ends, recorded so they are not repeated
 - **Arienzo processetti 1814 (an_ua14154, 290 pp.)** — worked from the back. Contains acts up to
   **25** and then goes straight into 1815. **The file for act 26 (Falco x Crisci) is not in it**, nor
   in the short second 1814 volume (an_ua14155). Do not search these two again.
 - The 1817 processetti volume is **the wrong year** — the marriage was 15 Dec 1814.
+- **Pasquale Falco's death is NOT** in the 1,145 harvested pages of the Arienzo parish death register,
+  nor in FamilySearch's index of Caserta civil registration 1809-1866 (all 1,162 Falco records checked,
+  249 of them 1826-1848). Do not re-run those two searches.
 - **Matteo Falco's marriage** — searched across 2,056 transcribed marriage/death pages, including 173
   with 1750s Latin date-words and 58 with 1760s. Not found.
 - **Filomena Annecchino's birth** — searched across 681 harvested Annecchino records. Not found.

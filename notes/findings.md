@@ -476,6 +476,55 @@ established — but it is not on Antenati.
 (`/pct:x,y,w,h/1600,/0/default.jpg`) crops and magnifies server-side, which makes the handwriting
 legible. That is what made this readable at all.
 
+
+## Pasquale Falco's death: bracketed, not found — and a new generation on the Rivetti side
+
+Hunting Pasquale's death act produced his **wife's** instead, and it is worth more than expected.
+
+**Arienzo parish deaths, 1843** (`3Q9M-CSMY-B7HW-R`):
+
+> …die vero decima sexta 16: **Clara Rivetti**, *uxor quondam **Paschalis Falco***, *filia quondam
+> **Nicolai** et **Anna**…*, aetatis suae annorum **octoginta 80**, omnibus Sacramentis munita, in
+> Communione S. M. Ecclesiae obiit, et in Sodalitate Sanctae Mariae Gratiarum eius cadaver humatum est.
+> — Michael Angelus Cillo, Archipresbyter
+
+Two things:
+
+1. **A new generation.** Chiara Rivetti was the daughter of the late **Nicola Rivetti** and **Anna**.
+   Nothing above her was known before. (The Rivetti of Arienzo were people of some standing — one is
+   styled *Doctoris Physici* in a marriage record, and members carry *Don*.)
+2. **She was already a widow**, so **Pasquale Falco was dead by September 1843**. Her age of 80 puts
+   her birth about 1763 — the tree says 1772, so one of the two is loose; death-record ages are
+   routinely approximate.
+
+**The window on Pasquale is now 1829–1843:**
+
+- **15 December 1814** — the civil marriage act calls Vincenzo "figlio maggiore di **Pasquale Falco**",
+  no *fu*. Alive.
+- **1829** — the parish death of his daughter **Angela Falco** names her "figlia **Paschalis**, e Clarae
+  Rivetta *coniugum*", again without *quondam* (`3Q9M-CSMY-B74X-F`). Probably still alive.
+- **1843** — Chiara is *uxor quondam Paschalis*. Dead.
+
+### Where it was searched for, and not found
+
+- **1,145 pages** of the Arienzo parish death register harvested from FamilySearch full text
+  (`data/arienzo-deaths-pages.tsv`; decade coverage 1830s 142 pp., 1840s 297 pp.). Searched by name,
+  by loose OCR variants, and by male-adult-with-age in 1828–1845. **Nothing.**
+- **FamilySearch's index of Caserta civil registration 1809–1866** (collection 2718545), all 1,162
+  Falco records: 249 fall in 1826–1848, and the only "Pasquale Falco" principals are two **Falcone**
+  men of other families. **Nothing.**
+
+### The remaining target, precisely specified
+
+**Arienzo civil death registers, one volume per year, 1829–1843** — arks **`an_ua14331`** (1829)
+through **`an_ua14345`** (1843), all digitised on Antenati. A *civil* death act names the deceased's
+**parents** outright, so Pasquale's would name **Matteo Falco and Francesca Crisci** — and possibly
+Matteo's own father if the clerk was thorough.
+
+**But there is no shortcut.** Volumes run 53–65 pages each — roughly **850 pages** — and they carry
+**no alphabetical index**: checked the last pages of the 1829 volume and they are death acts to the
+end. Finding him means reading linearly. That is a real job, not a lookup.
+
 ## Access note
 
 FamilySearch record *images* for several Caserta collections return "This record can only be displayed
