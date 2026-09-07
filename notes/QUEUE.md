@@ -89,7 +89,9 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       death entry; Chiara is his widow in 1843).
 - [x] **Chiara Rivetti's death found** — 1843, aged 80, daughter of the late **Nicola Rivetti** and
       **Anna**. New generation on her side.
-- [ ] **Read the Arienzo civil death registers 1829-1843** — START AT 1835 (`an_ua14337`, 46 pp.),
+- [x] **1835 (`an_ua14337`) READ IN FULL AND ELIMINATED** — 46 images, ~75 acts, Jan-Dec 1835,
+      no Falco of any age. See `notes/1835-death-register-progress.md` for the act-by-act table.
+- [ ] **Read the Arienzo civil death registers 1829-1843** — NEXT: 1836 (`an_ua14338`) (`an_ua14337`, 46 pp.),
       then 1836, 1834, 1837, working outward. ~90 acts/year, ~1,350 total. **No index, no indice
       decennale, no marginal surnames** — all three checked and absent. One screenshot per act.
       Crop recipe: left act `pct:4,27,46,22`, right act `pct:52,27,46,22`, render width 2000.

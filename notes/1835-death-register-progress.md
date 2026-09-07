@@ -71,8 +71,44 @@ screenshot per act is the floor.
 | 26 | Anna di Silvio, days, d. of Fedele (falegname), d. 6 Aug | Camilla Sepitelli, 1, d. of Angelo, d. 9 Aug |
 | 27 | Angelo [d'Ajuzzo], s. of Filippo Diglio (sartore), d. 11 Aug | Nunzia d'Ajuzzo, 12, d. of Giulio, d. 10 Aug |
 | 28 | *(duplicate of p27)* | *(duplicate of p27)* |
+| 29 | Giuseppe Sepitelli, 47, s. of Angelo, d. 22 Aug | Antonia Cimmino, 54, w. of Giuseppe Diglio, d. of Domenico (dec.), d. 25 Aug |
+| 30 | Angelo Mauro, 15 mths, s. of Andrea (vaticale), d. 3 Sep | Francesco Morgillo, 13 mths, s. of Domenico, d. 4 Sep |
+| 31 | Mariantonia Marletta, mths, d. of Gennaro, d. 9 Aug | Vincenzo Martone, 76, h. of Maria Giuseppa, s. of Gaspare (dec.), d. 10 Sep |
+| 32 | Antonia Diglio, 9 mths, d. of Pasquale, d. 13 Sep | Angelo Diglio, 2 mths, s. of Tiberio, d. 21 Sep |
+| 33 | **Signora Elisabetta d'Ambrogio**, 34, *possidente*, d. of Antonio (*possidente*), d. 21 Sep | Felicia Sepitelli, 1, d. of Gennaro (*possidente*), d. 24 Sep |
+| 34 | Antonia Laudato, 6 mths, d. of Clemente, d. 24 Sep | **Raffaela della Selva, 88**, d. of Francesco (dec.), d. 2 Oct |
+| 35 | *(duplicate of p34)* | *(duplicate of p34)* |
+| 36 | Francesco Zimbardo, 70, h. of Maria Giuseppa, s. of Aniello, vaticale, d. 10 Oct | Marianna d'Ajuzzo, 30, w. of Angelo Diglio — **died in the hospital** |
+| 37 | Alessandra Carfora, mths, d. of Sabatino, d. 20 Oct | Clementina Carfora, mths, d. of Michele, d. 24 Oct |
+| 38 | Giovanni d'Ambrogio, 45, *sartore*, s. of Gregorio (sartore), d. 25 Oct | Francesco di Gennaro, 80, h. of Nicola Laudato, s. of Vincenzo (dec.), d. 22 Oct |
+| 39 | Antonio Crisci, days, s. of Fabrizio (*vinicendolo*), d. 6 Nov | Maurizio delle Cave, 17 days, s. of Aniello, d. 7 Nov |
+| 40 | Pasquale Carfora, b. Santa Maria a Vico, s. of Ferdinando, d. 20 Nov | **Suor Giovanna di Lucia, 50, *monaca*** — died in the **monastero di Ave Gratia Plena**, d. of Pasquale (*possidente*, dec.), d. 27 Nov |
+| 41 | Angelantonio Diglio, days, s. of Vincenzo, d. 30 Nov | **Fra Michele delle Cave, 84, *ex laico agostiniano scalzo***, s. of Giuseppe (dec.), d. 14 Dec |
+| 42 | *(duplicate of p41)* | *(duplicate of p41)* |
+| 43 | Angela Migliore, 45, w. of Crisci, d. of Giacinto, d. 13 Dec | **Margarita Morgillo, 88**, widow, d. of Nicola (dec.), d. 28 Dec |
+| 44 | **Angela Laudato, 80**, widow, d. of Francescantonio (dec.), d. 31 Dec | Chiara Porrino, 70, w. of Giuseppe Duca, d. of Pasquale (dec.), d. 31 Dec |
+| 45 | *closing certification page — end of volume* | — |
 
-**~50 acts read, pages 2–28, covering January to late August 1835. No Falco of any age.**
+## RESULT: 1835 COMPLETE — Pasquale Falco is NOT in it
+
+**All 46 images read, roughly 75 acts, January to 31 December 1835. There is no Falco of any age,
+sex or condition anywhere in the Arienzo civil death register for 1835.**
+
+The year is eliminated. Pasquale Falco died in one of the other fourteen years of the 1829–1843 window.
+
+### What the year shows about the parish
+
+The recurring surnames are **Ciuffi, Diglio, Carfora, Martone, Laudato, d'Ajuzzo, Zimbardo,
+d'Ambrogio, Sepitelli, Morgillo, Crisci** — a cast that overlaps the Falco in-law network only at
+Morgillo, Crisci and Martone. Deaths are heavily weighted to infants and the very old; several
+reached 80, 84 and 88.
+
+Two religious among them: **Suor Giovanna di Lucia**, a nun of the monastery of *Ave Gratia Plena*,
+and **Fra Michele delle Cave**, 84, an *ex laico agostiniano scalzo* — a discalced Augustinian lay
+brother. Two women died in the hospital rather than at home. One entry is a transcription recording
+a death at **Naples**.
+
+
 
 ## Notes that change the estimate
 
@@ -85,9 +121,11 @@ screenshot per act is the floor.
 - Arienzo's death rate in early 1835 is heavily weighted to infants; adult deaths are the minority,
   which makes scanning faster than the act count suggests.
 
-## Resume here
+## Resume here — 1835 is done, move to the next year
 
-**Next page: index 29.** Continue to index 45 (17 pages left in 1835). Then 1836 (`an_ua14338`), 1834 (`an_ua14336`),
+**1835 (`an_ua14337`) is fully read and eliminated.** Next: **1836 (`an_ua14338`)**, then 1834
+(`an_ua14336`), 1837 (`an_ua14339`), 1833 (`an_ua14335`) — working outward from the middle of the
+bracket. Then 1836 (`an_ua14338`), 1834 (`an_ua14336`),
 1837 (`an_ua14339`), working outward from 1835.
 
 Full year list: 1829 `an_ua14331` · 1830 `14332` · 1831 `14333` · 1832 `14334` · 1833 `14335` ·
