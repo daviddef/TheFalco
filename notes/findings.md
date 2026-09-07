@@ -173,6 +173,60 @@ and 1761**.
 That is the frontier. It is a real one, not a shrug: the searching that failed is recorded above so the
 next attempt does not repeat it.
 
+
+## AUSTRALIA — found beyond FamilySearch (Nudgee Cemetery + National Archives)
+
+**Two Falco brothers married two Zampiello sisters.** National Archives of Australia, Brisbane series
+**J25** (naturalisation and immigration case files):
+
+- **J25 1971/9830** — *"Falco, Carmine; wife Francesca [nee Zampiello]; and child Giuseppina [known as
+  Josephine]"*, 1957–1977, item 5115541.
+- **J25 1972/4964** — *"Falco, Raffaele [Italian, born 1925]; wife Caterina [nee Zampiello]; and
+  children Filomena and Antonio"*, 1959–1979, item 5054689, **Open**.
+
+Carmine (b. Forchia 1930) and Raffaele (b. 1925) are both sons of Carminantonio & Filomena. This
+**resolves the tree's "birth of son 1925, Benevento"** — that son was Raffaele. Caterina b. 7 Jul 1925
+is not their child but Raffaele's wife, and a Zampiello.
+
+**Four Zampiello sisters reached Queensland**: Francesca (m. Carmine Falco), Caterina (m. Raffaele
+Falco), **Raffaela** (m. Angelo Michele Servodio, J25 1972/5134), and **Filomena b. 24 Aug 1932**
+(m. Umberto Miceli, per ship **ROMA** 1960 under the Australian/Italian Assisted Migration Agreement,
+A2478 MICELI U). Their father **Angelo Zampiello** has his own Brisbane file, **J25 1964/1364**.
+
+**Giovanni Zampiello, b. 1 Dec 1911** — Italian prisoner of war / internee in Australia, PWI60047,
+three files 1939–46 (MP1103/1, MP1103/2, K1174). Kinship untested; Zampiello is a one-village name.
+
+**Nudgee Cemetery (Catholic Archdiocese of Brisbane), five Falco burials** — `data/nudgee-burials.tsv`:
+
+| Name | Born | Died | Plot |
+|---|---|---|---|
+| Carmine Falco | | **27 Apr 1985** | CHAP-082-B2 |
+| Filomena Falco | | **10 Aug 1988** | CHAP-082-B1 |
+| Raffaele Falco | | interred 30 Sep 1988 | V-0946 |
+| Caterina Falco | 7 Jul 1925 | 14 Feb 2004 | V-0947 |
+| Francesca Falco | 27 Apr 1928 | **10 Sep 2022** | V-0949 |
+
+**TWO CORRECTIONS TO THE TREE**: Carminantonio died **27 April 1985**, not 1988 — 1988 is his *wife's*
+death year. And Filomena's death date, blank in the tree, is **10 August 1988**.
+
+**How it was found**: a scan attached to the MyHeritage tree that was not a photograph but a typed
+**burial index dated 2 Jan 1991**, listing FALCO Carmine Antonio (p.504), Caterina (284), Filomena
+(504), Raffaele (284). The unaccounted-for Caterina and Raffaele led to the Nudgee registers, and
+searching NAA for the rare name *Zampiello* produced the immigration files that explained them.
+
+**Search endpoint that worked** (Nudgee / Brisbane Catholic cemeteries):
+`POST https://search.cemsearch.com.au/mapguide/BrisbaneRCA/Private/query.php?type=Deceased`
+with `type=Deceased&CemeteryCode=%&SectionCode=%&Surname=<NAME>&GivenNames=`. `%` is the wildcard.
+No Zampiello, Annecchino, Maione or Defranceski burials there; 7 Bucolo, 4 Ferrara, 12 Mazza.
+
+**NAA RecordSearch** works as a guest at
+`https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/SearchScreens/NameSearch.aspx` — an ASP.NET
+form; set the category dropdown first (it postbacks and clears the name field), then refill and submit.
+Category 1 = All records, 20 = Immigration and naturalisation, 28 = Passenger arrivals.
+
+**Trove** did not render results in this browser, and its newspapers largely stop at 1955 — before this
+family arrived — so it is low-yield here. Not pursued further.
+
 ## Access note
 
 FamilySearch record *images* for several Caserta collections return "This record can only be displayed

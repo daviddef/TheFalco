@@ -1,0 +1,104 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import plates from "../data/plates.json";
+const naa = [
+  ["J25","1971/9830","Falco, Carmine; wife Francesca [nee Zampiello]; and child Giuseppina [known as Josephine]","1957–1977","5115541"],
+  ["J25","1972/4964","Falco, Raffaele [Italian, born 1925]; wife Caterina [nee Zampiello]; and children Filomena and Antonio","1959–1979","5054689"],
+  ["J25","1964/1364","Zampiello, Angelo","1964","1692778"],
+  ["J25","1972/5134","Servodio, Angelo Michele; wife Raffaela [nee Zampiello]; and children Maria, Angelo","1960–1976","5072004"],
+  ["A2478","MICELI U","MICELI Umberto b. 1934; Filomena (nee Zampiello) b. 24 Aug 1932 — per ship ROMA, 1960","1960","1415472"],
+];
+const graves = [
+  ["Falco","Carmine","","27 Apr 1985","CHAP-082-B2","Carminantonio, b. Arienzo 1901"],
+  ["Falco","Filomena","","10 Aug 1988","CHAP-082-B1","Filomena Annecchino, b. 1897 — beside her husband"],
+  ["Falco","Raffaele","","interred 30 Sep 1988","V-0946","b. 1925, son of Carminantonio"],
+  ["Falco","Caterina","7 Jul 1925","14 Feb 2004","V-0947","Caterina Zampiello, Raffaele's wife"],
+  ["Falco","Francesca","27 Apr 1928","10 Sep 2022","V-0949","Francesca Zampiello, Carmine's wife"],
+];
+---
+<Base title="Australia">
+  <h1>Australia</h1>
+  <p class="lede">The Italian half of this archive was built out of parish registers. The Australian half
+  was built out of a cemetery index, and it answered a question the registers could not.</p>
+
+  <h2>Two brothers married two sisters</h2>
+  <p>This is the finding. The National Archives of Australia holds, in its Brisbane office, the
+  immigration files of both couples:</p>
+  <blockquote>
+    <strong>Falco, Carmine; wife Francesca [nee Zampiello]; and child Giuseppina [known as Josephine]</strong><br/>
+    <strong>Falco, Raffaele [Italian, born 1925]; wife Caterina [nee Zampiello]; and children Filomena and Antonio</strong>
+  </blockquote>
+  <p><strong>Carmine</strong> (born Forchia, 1930) and <strong>Raffaele</strong> (born 1925) were
+  brothers — both sons of Carminantonio Falco and Filomena Annecchino. <strong>Francesca</strong> (born
+  Arpaia, 1928) and <strong>Caterina</strong> (born 7 July 1925) were both Zampiello. Two Falco brothers
+  of Forchia married two Zampiello sisters of Arpaia, and both couples came to Brisbane.</p>
+  <p>And they were not the only sisters to come. <strong>Raffaela Zampiello</strong> arrived with her
+  husband Angelo Michele Servodio; <strong>Filomena Zampiello</strong>, born 24 August 1932, arrived on
+  the <em>Roma</em> in 1960 with her husband Umberto Miceli under the Australian–Italian Assisted
+  Migration Agreement. Their father <strong>Angelo Zampiello</strong> has a Brisbane file of his own,
+  dated 1964.</p>
+  <p class="small">Giuseppina is recorded in her family's own immigration file as
+  <em>"known as Josephine"</em> — the small administrative act by which an Italian child becomes an
+  Australian one.</p>
+
+  <h2>The files</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Series</th><th>Control symbol</th><th>Title</th><th>Dates</th><th>Item ID</th></tr></thead>
+    <tbody>{naa.map(([s,c,t,d,i]) => (
+      <tr><td class="mono">{s}</td><td class="mono">{c}</td><td>{t}</td><td class="mono">{d}</td>
+        <td class="mono">{i}</td></tr>))}</tbody>
+  </table></div>
+  <p class="small"><strong>J25</strong> is the Brisbane series of naturalisation and immigration case
+  files. None of these are digitised — they exist on paper in Brisbane and can be ordered or read in
+  person. They are the single most promising unread source for this family.</p>
+
+  <h2>Nudgee Cemetery</h2>
+  <p>Five Falco burials, with exact dates and plot numbers — and two corrections to what the family
+  record said.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Name</th><th>Born</th><th>Died</th><th>Plot</th><th>Who</th></tr></thead>
+    <tbody>{graves.map(([s,g,b,d,l,w]) => (
+      <tr><td><strong>{g} {s}</strong></td><td class="mono">{b}</td><td class="mono">{d}</td>
+        <td class="mono">{l}</td><td>{w}</td></tr>))}</tbody>
+  </table></div>
+  <p><strong>Carminantonio Falco died on 27 April 1985, not in 1988.</strong> The family record carried
+  1988 — which is in fact the year his wife died. And <strong>Filomena Annecchino's death date, blank in
+  the family record, was 10 August 1988</strong>. They lie in adjacent niches, CHAP-082-B1 and B2.</p>
+  <p>Raffaele, Caterina and Francesca lie in adjacent plots — V-0946, V-0947, V-0949.</p>
+
+  <h2>How this was found</h2>
+  <p>Among the photographs attached to the family tree was one that was not a photograph: a scan of a
+  typed <strong>burial index dated 2 January 1991</strong>, listing four Falcos with page numbers. That
+  scrap named a Caterina and a Raffaele Falco nobody had accounted for. Searching the Nudgee registers
+  for those two names produced the plot numbers and dates; searching the National Archives for
+  <em>Zampiello</em> — a surname with about 123 bearers in the world — produced the immigration files
+  that explained who they were.</p>
+
+  <h2>Plates</h2>
+  <div class="grid two">
+    {plates.map(p => (
+      <figure style="margin:0" class="card">
+        <img src={u("/plates/" + p.f)} alt={p.t} loading="lazy"
+             style="width:100%;height:auto;border-radius:.35rem;display:block" />
+        <figcaption style="margin-top:.6rem">
+          <strong>{p.t}</strong><br/><span class="small">{p.c}</span>
+        </figcaption>
+      </figure>
+    ))}
+  </div>
+  <p class="small">From the family's own scans. <strong>Living people are omitted from this build</strong> —
+  a further nineteen photographs in the family tree show living members and are not published here.</p>
+
+  <h2>Still to do</h2>
+  <ul>
+    <li><strong>Order the J25 files.</strong> Immigration case files typically contain the ship, the
+    arrival date, the sponsor, addresses, occupations and photographs. Item 1972/4964 is already
+    marked <em>Open</em>.</li>
+    <li><strong>Angelo Zampiello's 1964 Brisbane file</strong> may settle whether he emigrated or was
+    merely sponsored — and may carry his Abyssinia service.</li>
+    <li><strong>Giovanni Zampiello</strong>, born 1 December 1911, appears in three files as an Italian
+    prisoner of war or internee in Australia, 1939–46, PWI60047. Whether he is kin is untested — but
+    Zampiello is a one-village name, and that village is Arpaia.</li>
+  </ul>
+</Base>
