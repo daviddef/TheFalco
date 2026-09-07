@@ -1,0 +1,87 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+const idx = [
+  ["Zampiello", 439, 259, 104, 16, 19, 10, 0],
+  ["Annecchino", 603, 63, 215, 237, 40, 0, 9],
+];
+const avail = [
+  ["Arpaia", 99, 61, 61, 43, "Zampiello home town"],
+  ["Forchia", 110, 71, 73, 73, "Annecchino home town"],
+  ["Moiano", 131, 82, 109, 99, "second cluster of both — unexamined"],
+  ["Paolisi", 100, 70, 63, 43, "where Francesco Falco came from in 1714 — unexamined"],
+];
+---
+<Base title="Antenati">
+  <h1>What Antenati holds</h1>
+  <p class="lede">The Italian State Archives' own portal, which for most of this research was closed to
+  us. Opened by hand, it answers two questions that had been left hanging — and the answers are not the
+  ones we wanted.</p>
+
+  <h2>Two missing volumes</h2>
+  <p>Two people in this archive could not be documented: <strong>Angelo Zampiello</strong>, born at
+  Arpaia on 31 August 1895, and <strong>Filomena Annecchino</strong>, born at Forchia on 10 April 1897.
+  Neither appears in FamilySearch, and neither appears in Antenati's name index.</p>
+  <p>The reason is now clear, and it is the same in both cases. <strong>The volume is not
+  digitised.</strong> The archive's own shelf-marks give it away — they run consecutively and skip a
+  year:</p>
+  <div class="grid two">
+    <div class="card">
+      <h3>Arpaia, births</h3>
+      <p class="mono small">1890·591 · 1891·592 · 1892·593 · 1893·594 · 1894·595 —
+      <strong style="color:var(--accent)">1895 absent</strong> —
+      1896·596 · 1897·597 · 1898·598 · 1899·599 · 1900·600</p>
+      <p class="small">The shelf-marks do not skip. The year does.</p>
+    </div>
+    <div class="card">
+      <h3>Forchia, births</h3>
+      <p class="mono small">1890·3654 · 1891·3655 · 1892·3656 · 1893·3657 · 1894·3658 · 1895·3659 ·
+      1896·3660 — <strong style="color:var(--accent)">1897 absent</strong> —
+      1898·3661 · 1899·3662 · 1900·3663</p>
+      <p class="small">The same pattern, two years and one province apart.</p>
+    </div>
+  </div>
+  <p>So these are not research failures. They are <strong>two specific volumes</strong>, each holding one
+  of the two births this archive cannot prove, and each sitting un-scanned in the
+  <strong>Archivio di Stato di Benevento</strong>. Anyone able to order or read them would close both
+  questions at once.</p>
+
+  <h2>Moiano — a cluster nobody had looked at</h2>
+  <p>Antenati's name index was harvested in full for both surnames: <strong>439 Zampiello</strong> and
+  <strong>603 Annecchino</strong> records. They do not sort the way the FamilySearch harvest suggested.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Surname</th><th>Total</th><th>Arpaia</th><th>Moiano</th><th>Forchia</th><th>S. Agata</th><th>Airola</th><th>Dugenta</th></tr></thead>
+    <tbody>{idx.map(([n,t,a,m,f,s,ai,d]) => (
+      <tr><td><strong>{n}</strong></td><td class="mono">{t}</td><td class="mono">{a}</td>
+        <td class="mono" style="background:var(--bg)"><strong>{m}</strong></td>
+        <td class="mono">{f}</td><td class="mono">{s}</td><td class="mono">{ai}</td><td class="mono">{d}</td></tr>))}</tbody>
+  </table></div>
+  <p><strong>Moiano is the second stronghold of both families</strong> — 104 Zampiello and 215
+  Annecchino — and until now this archive had never once looked there. It sits in the same valley, about
+  ten kilometres from Arpaia. Whether the Moiano Zampiello are the same kindred as the Arpaia Zampiello
+  is untested; with 37 bearers left in Italy it would be surprising if they were not.</p>
+
+  <h2>The seam that has not been touched</h2>
+  <p>Beyond the name index, Antenati holds the register images themselves — and among them the
+  <em>processetti</em>, the marriage supplement files. These are the richest genealogical source in the
+  Italian system: attached to each marriage are the couple's birth extracts, the parents' consents, and
+  the death certificates of any parent already dead. One file can carry two generations backwards.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Town</th><th>Births</th><th>Marriages</th><th>Deaths</th><th>Processetti</th><th></th></tr></thead>
+    <tbody>{avail.map(([t,n,m,d,p,w]) => (
+      <tr><td><strong>{t}</strong></td><td class="mono">{n}</td><td class="mono">{m}</td>
+        <td class="mono">{d}</td><td class="mono"><strong>{p}</strong></td><td class="small">{w}</td></tr>))}</tbody>
+  </table></div>
+  <p><strong>258 volumes of marriage supplements</strong> across these four towns, none of them read.
+  That is where Matteo Falco's parentage would be found, if it survives anywhere.</p>
+
+  <h2>What this changes</h2>
+  <ul>
+    <li>Antenati is <strong>reachable</strong>. Earlier work recorded it as blocked; it is not, and the
+    <a href={u("/open-questions")}>open questions</a> have been updated accordingly.</li>
+    <li>Two unproven births are now <strong>located rather than merely missing</strong> — a specific
+    volume each, in a specific archive.</li>
+    <li><strong>Moiano and Paolisi</strong> join the list of places this family has to be searched in.</li>
+    <li>The <em>processetti</em> are the largest unworked seam in the whole project.</li>
+  </ul>
+</Base>

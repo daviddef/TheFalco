@@ -68,8 +68,16 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
 ## 8. Blocked / needs a human
 - [ ] Several Caserta record images are restricted to FamilySearch-centre accounts. An affiliate
       library visit would unlock them.
-- [ ] **Antenati** (antenati.cultura.gov.it) blocks automated access and sits behind reCAPTCHA.
-      Human-in-the-loop only. It holds the Arienzo civil registers directly.
+- [x] **Antenati works** — opened by hand, both search endpoints usable (`s_page` paginates).
+- [ ] **Order two volumes from the Archivio di Stato di Benevento**: **Arpaia births 1895** and
+      **Forchia births 1897**. Neither is digitised; between them they hold Angelo Zampiello's and
+      Filomena Annecchino's births — the two this archive cannot prove.
+- [ ] **The processetti** — 258 volumes across Arpaia, Forchia, Moiano and Paolisi, none read. The
+      largest unworked seam in the project, and where Matteo Falco's parentage would be if anywhere.
+- [ ] **MOIANO** — second stronghold of both Zampiello (104) and Annecchino (215). Never examined.
+- [ ] **PAOLISI** — where Francesco Falco came from in 1714. Never examined.
+- [ ] Sweep **Falco** on Antenati filtered by town (10,500 records nationally — too many raw).
+- [ ] Check **Benevento city** registers — a hospital birth would register there, not in the comune.
 - [ ] The **Museo Alfonsiano** at Arienzo, in the old bishop's palace beside Sant'Andrea, may hold or
       know of parish material not filmed.
 - [ ] **DNA.** MyHeritage/23andMe matches on the Falco and Zampiello sides could confirm or break the

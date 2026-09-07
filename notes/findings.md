@@ -308,6 +308,64 @@ Category 1 = All records, 20 = Immigration and naturalisation, 28 = Passenger ar
 **Trove** did not render results in this browser, and its newspapers largely stop at 1955 — before this
 family arrived — so it is low-yield here. Not pursued further.
 
+
+## ANTENATI — reachable after all, and it locates both missing births
+
+Earlier work recorded Antenati as blocked (403 + reCAPTCHA). **It is not.** Opened by hand it works
+fully, and both search endpoints are usable:
+
+- `/search-nominative/?cognome=X&localita=Y&anno=Z&s_page=N` — the name index, with parents
+- `/search-registry?localita=X&tipologia=Nati&anno_inizio=&anno_fine=` — the register images
+
+Pagination is **`s_page`**; results sit in `ul.no-appearance > li`; the facet block gives locality counts.
+
+### The two missing births are two missing volumes
+
+| | shelf-marks | gap |
+|---|---|---|
+| **Arpaia, births** | 1890·591 … 1894·595, 1896·596 … 1900·600 | **1895 absent** |
+| **Forchia, births** | 1890·3654 … 1896·3660, 1898·3661 … 1900·3663 | **1897 absent** |
+
+The shelf-marks run consecutively and skip the year. So **Angelo Zampiello (b. Arpaia 31 Aug 1895)**
+and **Filomena Annecchino (b. Forchia 10 Apr 1897)** are undocumented for the same reason: their
+volumes are **not digitised**. Both sit in the **Archivio di Stato di Benevento**. These are no longer
+research failures — they are two specific volumes to order.
+
+Also: **no Arpaia or Forchia marriage registers 1915–1930** are digitised, so Carminantonio and
+Filomena's marriage is not reachable there either.
+
+### The name index, harvested in full
+
+`data/antenati-zampiello-annecchino.tsv` — **1,042 records** (439 Zampiello, 603 Annecchino) with
+parents where given.
+
+| | total | Arpaia | **Moiano** | Forchia | S. Agata | Airola | Dugenta |
+|---|---|---|---|---|---|---|---|
+| Zampiello | 439 | 259 | **104** | 16 | 19 | 10 | — |
+| Annecchino | 603 | 63 | **215** | 237 | 40 | — | 9 |
+
+**MOIANO is the second stronghold of both surnames and had never been looked at.** ~10 km from Arpaia,
+same valley. Whether the Moiano Zampiello are the same kindred as the Arpaia Zampiello is untested —
+with 37 bearers left in Italy it would be surprising if not.
+
+Falco has **10,500** records in the Antenati index — too many to sweep by name; must be filtered by town.
+
+### The largest unworked seam: the processetti
+
+`data/antenati-availability.tsv`:
+
+| Town | Nati | Matrimoni | Morti | **Processetti** |
+|---|---|---|---|---|
+| Arpaia | 99 | 61 | 61 | **43** |
+| Forchia | 110 | 71 | 73 | **73** |
+| Moiano | 131 | 82 | 109 | **99** |
+| Paolisi | 100 | 70 | 63 | **43** |
+
+**258 volumes of marriage supplements**, none read. Processetti attach the couple's birth extracts,
+parental consents, and death certificates of parents already dead — one file can carry two generations
+backwards. This is where Matteo Falco's parentage would be found if it survives anywhere. **Paolisi**
+matters independently: Francesco Falco came from there in 1714.
+
 ## Access note
 
 FamilySearch record *images* for several Caserta collections return "This record can only be displayed
