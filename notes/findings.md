@@ -525,6 +525,39 @@ Matteo's own father if the clerk was thorough.
 **no alphabetical index**: checked the last pages of the 1829 volume and they are death acts to the
 end. Finding him means reading linearly. That is a real job, not a lookup.
 
+
+## The 1835 death register: reconnaissance, and why the linear read is a real job
+
+Opened the Arienzo civil death register for **1835** (`an_ua14337`, **46 pages**) and worked out how to
+read it. Three shortcuts were tested and all three fail:
+
+1. **No alphabetical index in the volume.** The last pages of the 1829 register (`an_ua14331`, 65 pp.)
+   are death acts to the end.
+2. **No indice decennale on Antenati for Arienzo.** The "Diversi" series (45 vols) is annual and small
+   — the 1835 one (`an_ua14084`) is **4 pages** and contains a death notice transcribed from the
+   Segretario di Stato, i.e. a death that happened elsewhere. Not an index.
+3. **No marginal surnames.** The left margin of the acts is blank gutter; there is no finding-aid
+   annotation to skim.
+
+**What the read actually costs.** Each spread carries **two acts**. The deceased's name and parentage
+sit in a band about 27–50% down the page. At full-spread width the hand is not legible; it only becomes
+readable when cropped to **one act at a time** (IIIF `pct:` region, roughly 46% width × 20% height off a
+2000px render). So it is **one screenshot per act** — about **90 per year**, and **~1,350 across
+1829–1843**.
+
+That is a genuine transcription job, not a lookup. It is entirely doable by a person, or across many
+sessions; it is not doable inside one.
+
+**Method that works, for whoever picks it up:** inject the IIIF URL as an `<img>` into a page on the
+`antenati.cultura.gov.it` origin (direct fetch is Cloudflare-blocked), and use IIIF region syntax
+`/pct:x,y,w,h/2000,/0/default.jpg` to crop and magnify server-side. Left act ≈ `pct:4,27,46,22`,
+right act ≈ `pct:52,27,46,22`.
+
+**What to look for:** the civil formula runs *"…è morto **[NAME]**, di anni **[N]**, di professione
+**[X]**, domiciliato in…, **figlio di [FATHER] e di [MOTHER]**, marito di **[SPOUSE]**"*. Pasquale
+would be **aged 62–76**, a **contadino** of Arienzo, **marito di Chiara Rivetti**, and — the prize —
+**figlio di Matteo Falco e Francesca Crisci**.
+
 ## Access note
 
 FamilySearch record *images* for several Caserta collections return "This record can only be displayed
