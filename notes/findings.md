@@ -196,6 +196,20 @@ A2478 MICELI U). Their father **Angelo Zampiello** has his own Brisbane file, **
 **Giovanni Zampiello, b. 1 Dec 1911** — Italian prisoner of war / internee in Australia, PWI60047,
 three files 1939–46 (MP1103/1, MP1103/2, K1174). Kinship untested; Zampiello is a one-village name.
 
+**THE ARRIVAL — 26 March 1964, Brisbane, per the *Sydney* from Naples.** NAA passenger arrivals index,
+item **12100311** = **NAA: K269, 26 MAR 1964 SYDNEY**, "Incoming passenger list to Fremantle 'Sydney'
+26 March 1964", **42 pages, digitised** (images need a RecordSearch session).
+
+Four Falcos on the voyage: **Carmine, Francesca, Giuseppina** (aged 8) **and ANTONIO** — a fourth
+person not named in the J25 immigration file, almost certainly the "Anthony Falco" of the family tree
+and Giuseppina's brother. First document to place him.
+
+The **SS *Sydney*** was a **Flotta Lauro** liner, on the Europe–Australia migrant run from 1951 with her
+sister the ***Roma***, 800 passengers, from Genoa/Naples/Messina. Francesca's sister **Filomena
+Zampiello came out on the *Roma* in 1960** — the two sisters crossed on sister ships.
+
+No Zampiello appears in the passenger arrivals index (it is not comprehensive).
+
 **Nudgee Cemetery (Catholic Archdiocese of Brisbane), five Falco burials** — `data/nudgee-burials.tsv`:
 
 | Name | Born | Died | Plot |
