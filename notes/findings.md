@@ -171,6 +171,38 @@ Vincenzo Falco & Angela Pellone · Angelo Falco & Maria Cimmino (son Pasquale, *
 Mariangela Attanasi of Paolisi) · Nicola Falco & Carmela Terracciano.
 
 
+
+## Before Matteo: the Falco at Arienzo in the 1600s and early 1700s
+
+Mining the pages of the corpus dated entirely before 1740:
+
+- **1637, San Felice a Cancello** — *"ho battezzato la figlia di **Tomaso Falco e Marta Mara** coniugi
+  … e li ho imposto nome Lucretia"* (`3Q9M-CSMB-X98Q-C`). Written in Italian, not Latin. The earliest
+  Falco named anywhere in this research.
+- **1654** — an index page of the Arienzo register lists *Dominica Falco*, *Dominicus Antonius Falco*
+  and others among Crisci, Morgillo, Martone, Rivetti, Carfora, de Lucia and Porrino
+  (`3Q9M-CSD3-13VN-R`). The whole in-law network is already in place in the 1650s.
+- **1656–58** — *Catarina de Lucia Falco* and *Anna Falco* appear as midwives or witnesses.
+- **1678** — a Falco among the witnesses at a marriage (`3Q9M-CSD3-132R-1`).
+
+**The best early household, and it has a stated origin:**
+
+> Anno Domini 1714 … infanti nato ex **Francisco Falco *Casalis Paulisii*** et **Antonia Loffreda
+> filia Dominici** … imposui nomen **Joseph** — `3Q9M-CSD3-13FG-G`
+
+***Casalis Paulisii*** — of the hamlet of **Paolisi**, the next comune east, over the border in
+Benevento. **Francesco Falco was an incomer to Arienzo.** With Antonia Loffreda he had at Sant'Andrea:
+**Giuseppe** (Jul 1714), a son baptised **20 [Sep] 1717** whose name the machine reads as *"Mart[?]es"*
+— possibly Matteo, possibly Martino, **not legible enough to claim** — and **Domenico** (Feb 1726).
+
+**Is Francesco the ancestor of Matteo?** The dates allow it — Matteo was an adult by 1759 and fathering
+children 1767–86, so he is plausibly Francesco's grandson, or conceivably the son of 1717 (which would
+make him 50 at Pasquale's birth and 69 at Rosa's — possible, but old). **No document joins them.**
+Recorded as the earliest Falco household at Arienzo, not as an ancestor.
+
+A footnote with a long echo: in **1896** a Pasquale Falco of Arienzo, *carrettiere*, married Mariangela
+Attanasi **born at Paolisi**. The traffic ran both ways for two centuries.
+
 ## The collateral branches (added on the second sweep)
 
 **Giuseppe Falco & Antonia di Guida** — Giuseppe is Matteo's son ("Josephum Falco filium Matthei, e
