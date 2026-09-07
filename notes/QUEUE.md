@@ -43,7 +43,16 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       or full-text search on the Benevento collection.
 - [ ] Test whether the **Maione** of Arienzo and the **Maione** of Arpaia are one kindred.
 
-## 6. The emigration
+## 6. The Annecchino
+- [x] Established that the Annecchino are a **Forchia** family — which explains the Falco move north.
+- [ ] **Filomena Annecchino's act of birth, 10 Apr 1897, Forchia** — not found; the harvest is capped
+      by paging and fuzzy matching. Try full-text search on the Benevento collection, or the Forchia
+      register images directly. Until then the descent from Carmine Annecchino & Maria Carfora is
+      *inferred*, not documented.
+- [ ] Resolve the two Carmine Annecchinos (one m. Maria Carfora, one m. Maria Giovanna Crisci) whose
+      children are 12 days apart in Sept 1883.
+
+## 7. The emigration
 - [ ] Ship and year for **Carminantonio Falco** and **Filomena Annecchino** to Australia. Try the
       National Archives of Australia (passenger and naturalisation records). Post-war wave: 360,000
       Italians 1947–76, Campania prominent.

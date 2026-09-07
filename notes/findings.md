@@ -100,6 +100,41 @@ from the Archivio di Stato di Caserta to that of Benevento.
 - Giuseppa Ferrara = "Giuseppa Alfonsina Maria Ferraro, 1881"? Flagged uncertain in the tree; still is.
 
 
+
+## The Annecchino are a Forchia family — which explains the move north
+
+Harvested 681 unique Annecchino records from the Benevento civil registers (collection 2475030). The
+place distribution is decisive:
+
+**Campolattaro 224 · Forchia 173 · Moiano 126 · San Giorgio la Molara 81 · Arpaia 51 ·
+Montesarchio 40 · Sant'Agata de' Goti 26**
+
+**Forchia** is where Carmine Falco was born in 1930 — and it is an Annecchino town. The Falco did not
+drift north for no reason: **Carminantonio Falco of Arienzo married Filomena Annecchino of Forchia**,
+and the family followed the wife's parish. That is the explanation for the 1913 move that the Italian
+records alone never gave.
+
+A well-evidenced Forchia household fits the tree exactly (`data/annecchino-forchia.tsv`):
+**Carmine Annecchino & Maria Carfora** — children Giacinta 1883, Agata 1884, **Giacomo 1887**,
+Agata 1889, Lucia and Alfonso 1892, Alfonso Carmine 1894, **Giacomo 1901**.
+
+The tree gives Filomena's father as **Carmine Annecchino** and her grandfather as **Giacomo
+Annecchino**. Under the Neapolitan naming convention the first son takes the paternal grandfather's
+name — and this Carmine named a son Giacomo, twice. That is exactly what the tree predicts.
+
+**But Filomena's own birth record (10 Apr 1897) was NOT found.** She would fall between the 1894 and
+1901 children. The harvest is capped by FamilySearch's ~1,100-result paging limit and by fuzzy matching
+that pulls in Annecchini, Anicchino and others. So: **consistent, and strongly suggestive, but not
+proven.** Do not state the descent as documented until her act of birth is in hand.
+
+A second Carmine Annecchino appears with a wife **Maria Giovanna Crisci** (children 1878, 1880, 1883).
+Since a child by Crisci (6 Sep 1883) and one by Carfora (18 Sep 1883) are twelve days apart, these must
+be two different men, or an indexing error. Unresolved.
+
+Forchia in-law surnames around the Annecchino: **Carfora, Crisci, Lauriello, d'Apruzzo, Stroffolino,
+Porrino, Izzo, Piccolo, Pozzella.** *Crisci*, *Carfora* and *Porrino* all also appear in the Arienzo
+registers — the Valle Caudina is one marriage pool, not three villages.
+
 ## Zampiello is the name of one village
 
 **226 Zampiello records** recovered from the Benevento civil registers (collection 2475030),

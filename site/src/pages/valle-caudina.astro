@@ -1,0 +1,69 @@
+---
+import Base from "../layouts/Base.astro";
+const ann = [
+  ["Campolattaro",224],["Forchia",173],["Moiano",126],["San Giorgio la Molara",81],
+  ["Arpaia",51],["Montesarchio",40],["Sant'Agata de' Goti",26],["Guardia Sanframondi",14],
+];
+const kids = [
+  ["Giacinta","18 Sep 1883"],["Agata","8 Oct 1884"],["Giacomo","22 Jun 1887"],["Agata","29 Jan 1889"],
+  ["Lucia","2 Aug 1892"],["Alfonso","2 Aug 1892"],["Alfonso Carmine","17 Jul 1894"],["Giacomo","2 Feb 1901"],
+];
+const shared = [
+  ["Crisci","Arienzo (Falco in-laws), Arpaia (Zampiello in-laws), Forchia (Annecchino in-laws)"],
+  ["Carfora","Arienzo and Forchia"],
+  ["Porrino","Arienzo and Forchia"],
+  ["Maione","Arienzo and Arpaia"],
+  ["De Lucia","Arienzo and Arpaia"],
+  ["Cimmino","Arienzo and Arpaia"],
+];
+---
+<Base title="The Valle Caudina">
+  <h1>The Valle Caudina</h1>
+  <p class="lede">Three villages, four kilometres apart, in two provinces — and one marriage pool.</p>
+
+  <h2>Why the family left Arienzo</h2>
+  <p>For two centuries every Falco generation was born, married and buried at Arienzo. Then, in 1913, a
+  son is registered at <strong>Arpaia</strong>; by 1930 the family is at <strong>Forchia</strong>. The
+  Italian records alone never explained why.</p>
+  <p>The Annecchino records do. Six hundred and eighty-one Annecchino entries were harvested from the
+  Benevento civil registers, and they sort like this:</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Town</th><th>Records</th></tr></thead>
+    <tbody>{ann.map(([t,n]) => (
+      <tr><td>{t}{t === "Forchia" ? <> <span class="chip doc">the Falco's new home</span></> : null}</td>
+        <td class="mono">{n}</td></tr>))}</tbody>
+  </table></div>
+  <p><strong>Forchia is an Annecchino town.</strong> Carminantonio Falco of Arienzo married
+  <strong>Filomena Annecchino</strong>, and the family followed the wife's parish. That is the answer:
+  the move north was a marriage, not a migration.</p>
+
+  <h2>The Forchia household</h2>
+  <p>One family fits the record exactly — <strong>Carmine Annecchino and Maria Carfora</strong>:</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Child</th><th>Born</th></tr></thead>
+    <tbody>{kids.map(([n,d]) => <tr><td>{n}</td><td class="mono">{d}</td></tr>)}</tbody>
+  </table></div>
+  <p>The family record gives Filomena's father as <strong>Carmine Annecchino</strong> and her
+  grandfather as <strong>Giacomo</strong>. Under the Neapolitan naming convention the first son takes
+  the paternal grandfather's name — and this Carmine named a son Giacomo, twice. Filomena, born
+  10 April 1897, would fall neatly between the children of 1894 and 1901.</p>
+  <p><strong>Her own act of birth has not been found.</strong> FamilySearch caps deep paging at about
+  1,100 results and treats <em>Annecchino</em>, <em>Annecchini</em> and <em>Anicchino</em> as one name,
+  so the harvest is incomplete. This is <span class="chip">inferred</span>, not documented, and it is
+  set out here so it can be checked rather than inherited.</p>
+
+  <h2>One marriage pool, not three villages</h2>
+  <p>Read the three in-law networks side by side and the same surnames keep appearing across the
+  provincial border:</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Surname</th><th>Appears among</th></tr></thead>
+    <tbody>{shared.map(([n,w]) => <tr><td><strong>{n}</strong></td><td>{w}</td></tr>)}</tbody>
+  </table></div>
+  <p>Arienzo sits in Caserta; Arpaia and Forchia in Benevento. The boundary matters enormously to
+  archivists and not at all to the people who lived there. When Carmine Falco of Forchia married
+  Francesca Zampiello of Arpaia in 1955, and his brother Raffaele married her sister Caterina, they were
+  marrying the next village along — as their families had done for two hundred years.</p>
+  <p class="small">The shared surnames are a pattern, not a proven kinship. Falco, Crisci and Carfora
+  were all invented independently in many places, and two Criscis four kilometres apart need not be
+  cousins. What the pattern does establish is the shape of the world these families moved in.</p>
+</Base>
