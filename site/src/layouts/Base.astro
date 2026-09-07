@@ -4,8 +4,9 @@ import { u } from "../lib/url.js";
 const { title, description = "An evidence-first archive of the Falco family of Arienzo, the Valle Caudina and Brisbane." } = Astro.props;
 const path = Astro.url.pathname.replace(/\/$/, "");
 const nav = [
-  ["/", "Home"], ["/direct-line", "The line"], ["/arienzo", "Arienzo"],
-  ["/name", "The name"], ["/places", "Places"], ["/method", "Method"], ["/sources", "Sources"],
+  ["/", "Home"], ["/direct-line", "The line"], ["/households", "Households"],
+  ["/arienzo", "Arienzo"], ["/liguori", "The bishop"], ["/name", "The name"],
+  ["/places", "Places"], ["/method", "Method"], ["/sources", "Sources"],
 ];
 const here = (p) => (u(p).replace(/\/$/, "") === path ? "page" : undefined);
 ---

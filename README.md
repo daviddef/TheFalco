@@ -11,21 +11,26 @@ Campania) — and of Arpaia, Forchia, Benevento, and Brisbane.
 
 ## What is here
 
-- **Nine generations**, eight of them resting on a named record, from Pasquale Falco and Chiara
-  Rivetti — a married couple of the Collegiate parish of Sant'Andrea at Arienzo in the 1790s — down
-  to Brisbane.
-- **The three welds** that join the generations: the 1875 death of Vincenzo Falco naming his father
-  Pasquale; the 1880 death of Raffaele naming his father Vincenzo; the 1850 birth of Carmine Antonio
-  naming his father Raffaele.
-- **The Arienzo registers**: baptisms 1672–1738 and 1761–1837, marriages 1754–1900, deaths
-  1733–1888 — digitised, and now searchable by machine handwriting recognition.
-- **The marriage network**: 361 register pages mentioning a Falco, read for the other names on the
-  same pages. Crisci on 113, Morgillo on 76, Martone on 49, de Lucia on 40, Rivetti on 17,
-  Arricale on 15. Every in-law surname of the direct line is there, repeatedly.
-- **The case against Agostino Falcone** — the generation above Pasquale that is commonly asserted
-  and that this archive does not accept. See `/method/`.
-- **The name**: 46,749 bearers worldwide, its two independent origins, and why the Portuguese and
-  Angolan Falcos are almost certainly a different name entirely.
+- **Nine generations, every one documented**, from **Matteo Falco** and **Francesca Crisci** of the
+  parish of Sant'Andrea at Arienzo — whose children were baptised there from 1767 — down to Brisbane.
+- **Pasquale Falco's baptism, 24 October 1767**, naming his parents: *infantem natum ex Mattheo Falco,
+  ed Francisca Crisci … qui nominatus est Paschalis*. It replaced an asserted ancestor,
+  Agostino Falcone, for whom no record has ever been produced.
+- **Three reconstructed households** — Matteo's, Pasquale's and Vincenzo's — 26 register entries with
+  citations, including the children who died: Maria Angela, baptised February 1802, buried March 1805
+  *aetatis suae annorum 3 circiter*.
+- **The marriage that welds the line**: *Vincentium Falco filium Paschalis, e Clarae Rivetta, e
+  Andreanam Crisci filiam Arcangeli* — four people named in one sentence.
+- **A date contradiction closed**: an entry machine-read as 1780 says, in Latin words,
+  *octogesimo nono* — 1789. Words beat digits.
+- **The Arienzo registers**: baptisms 1672–1738 and 1761–1837, marriages 1754–1900, deaths 1733–1888.
+  11.3 MB of machine transcription harvested and searched — 2,059 baptism pages, 1,596 marriage and
+  death pages.
+- **The bishop next door** — the church in these registers was the second seat of the bishop of
+  Sant'Agata de' Goti, and from 1762 to 1775 that bishop was **Alfonso Maria de' Liguori**, who lived
+  in the palace beside it. He did not baptise anyone here; the archive says so plainly.
+- **The names**: Falco, 46,749 bearers and two independent origins; **Zampiello, about 123 in the
+  world** — 37 of them in Italy.
 
 ## Method
 
@@ -33,6 +38,7 @@ Campania) — and of Arpaia, Forchia, Benevento, and Brisbane.
 |---|---|
 | **Documented** | A named source with a reference, and where possible the scan. |
 | **Inferred** | A reasoned conclusion from documented facts, with the reasoning written out so it can be overturned. |
+| **Superseded** | Asserted in the family record, and now displaced by a document that says otherwise. |
 | **Disputed** | Asserted in the family record but unsupported, or contradicted, by what can be seen. |
 | **Family lore** | Told, remembered, not corroborated. Kept because it is precious; labelled because pretending otherwise is how family myths become family history. |
 
@@ -53,7 +59,9 @@ Deploys to GitHub Pages on every push to `main`.
 ## Layout
 
 ```
-data/                            direct-line.tsv, record-citations.tsv, arienzo-baptisms-fulltext.tsv
+data/                            direct-line.tsv, record-citations.tsv, households.tsv,
+                                 falco-parentage.tsv, arienzo-pages.tsv,
+                                 arienzo-marr-death-pages.tsv
 notes/                           baseline-surname.md, findings.md, QUEUE.md
 site/src/data/                   line, places, sources
 site/src/pages/                  the archive itself
@@ -66,4 +74,5 @@ Civil Registration (Tribunale), 1866–1929 · Italy, Caserta, Civil Registratio
 1809–1866 · Italy, Benevento, Civil Registration (State Archive), 1810–1942 · Archdiocese of Benevento
 Catholic Church Records, 1575–1908 · FamilySearch · Forebears · Cognomix.
 
-Nothing here yet reaches past 1790. That is the work.
+The line now reaches 1767 with a document, and Matteo Falco was an adult by 1759. Above him the
+baptism register has a gap between 1738 and 1761. Closing it is the work.
