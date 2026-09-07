@@ -1,0 +1,76 @@
+---
+import Base from "../layouts/Base.astro";
+const world = [
+  ["Italy",17819,"1:3,432"],["United States",6389,"1:56,732"],["Argentina",3424,"1:12,483"],
+  ["Portugal",3057,"1:3,408"],["Angola",2958,"1:9,124"],["Spain",2852,"1:16,393"],
+  ["Brazil",2700,"1:79,287"],["Philippines",1795,"1:56,400"],["France",1763,"1:37,676"],
+  ["Colombia",796,"1:60,018"],["Uruguay",575,"1:5,968"],["England",460,"1:121,126"],
+  ["Canada",430,"1:85,687"],["Venezuela",369,"1:81,854"],["Australia",215,"1:125,561"],
+];
+const variants = [
+  ["Falco, De Falco, Di Falco","the South — De Falco above all Campanian, and Neapolitan"],
+  ["Falcone, Falconio, Falconieri","the South"],
+  ["Falchi, Falchieri","Emilia; Falchi also Sardinia"],
+  ["Falcoz","Valle d'Aosta"],
+  ["Falconèr","the Venetie"],
+];
+---
+<Base title="The name">
+  <h1>The name</h1>
+  <p class="lede"><em>Falco</em> is the Latin and Italian for <strong>falcon</strong>. It becomes a surname
+  by two quite separate roads, and telling them apart is the first problem of any Falco genealogy.</p>
+
+  <h2>Two origins, not one</h2>
+  <div class="grid two">
+    <div class="card">
+      <h3>As a Lombard personal name</h3>
+      <p><em>Falco</em> was a common given name among the Lombards. Where the surname descends by this
+      road it is a <strong>patronymic</strong> — the family of a man called Falco — and carries no
+      suggestion of birds or hunting at all.</p>
+      <p class="small">This matters here more than usual. Arienzo sits at the edge of the Valle Caudina,
+      in the orbit of <strong>Benevento</strong> — the seat of the greatest of the Lombard duchies of
+      southern Italy, which outlasted the northern kingdom by three hundred years.</p>
+    </div>
+    <div class="card">
+      <h3>As a nickname or a trade</h3>
+      <p>For a man quick, sharp-eyed or predatory; or for a <em>falconiere</em>, a falconer — an occupation
+      of real standing in the Norman and Angevin south, where hawking was a courtly art.</p>
+      <p class="small">Frederick II, who ruled this country, wrote the treatise on it.</p>
+    </div>
+  </div>
+  <p><strong>The consequence is a rule, not a caveat.</strong> A name that can be invented anywhere will be
+  invented everywhere. Two Falco families sharing nothing but the name are the norm, not the exception,
+  and no Falco line may be joined to another on the strength of the surname alone.</p>
+
+  <h2>Where the name is</h2>
+  <p>Forebears counts <strong>46,749</strong> bearers worldwide, the 12,010th commonest surname on earth.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Country</th><th>Bearers</th><th>Density</th></tr></thead>
+    <tbody>{world.map(([c,n,d]) => (
+      <tr><td>{c}</td><td class="mono">{n.toLocaleString()}</td><td class="mono">{d}</td></tr>))}</tbody>
+  </table></div>
+  <p class="small"><strong>Read the Iberian rows with care.</strong> Portugal, Angola and the Philippines
+  are almost certainly a different name — Portuguese and Galician <em>Falco</em>, and Catalan
+  <em>Falcó</em> — carried by Portuguese and Spanish colonial settlement, not by Italian emigration. The
+  Italian diaspora is the United States, Argentina, Brazil, France, Uruguay, Venezuela, Canada and
+  Australia. Folding Angola into an Italian story would be a mistake.</p>
+
+  <h2>Within Italy</h2>
+  <p>Roughly <strong>7,826 Falco families</strong>. Around 60% are in the south and the islands, 32% in the
+  north, 8% in the centre. The named strongholds are <strong>Sicily</strong>, <strong>Calabria</strong> and
+  <strong>Campania</strong>. The northern third is probably in large part twentieth-century internal
+  migration to Milan and Turin rather than an old northern population — but that is a hypothesis, and it
+  should be tested against pre-1900 records rather than assumed.</p>
+
+  <h2>The variants, and why the prefix matters</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Form</th><th>Where it dominates</th></tr></thead>
+    <tbody>{variants.map(([a,b]) => <tr><td><strong>{a}</strong></td><td>{b}</td></tr>)}</tbody>
+  </table></div>
+  <p><strong>De Falco is strongly Campanian.</strong> Clerks moved between <em>Falco</em> and
+  <em>De Falco</em> freely, and one family can appear under both within a generation. In the Arienzo civil
+  records the registrar himself is at one point a <em>Giacomo De Falco</em> — no relation established, but
+  a useful reminder that the prefix is a scribal habit, not a different family.</p>
+  <p class="small">FamilySearch's own index treats <em>Falco</em> and <em>Falcone</em> as variants of one
+  another and returns both for either query. Convenient for searching; dangerous for concluding.</p>
+</Base>

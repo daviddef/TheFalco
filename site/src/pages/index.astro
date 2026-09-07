@@ -1,0 +1,60 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import line from "../data/line.json";
+const documented = line.filter(g => g.confidence === "documented").length;
+---
+<Base title="Home">
+  <h1>The Falco Archive</h1>
+  <p class="lede">
+    An evidence-first archive of the <strong>Falco</strong> family of <strong>Arienzo</strong> in the
+    province of Caserta — and of the Valle Caudina, the province of Benevento, and Brisbane.
+  </p>
+
+  <blockquote>
+    <em>Falco</em> is the Latin for falcon. It became a surname twice over: as a Lombard personal name,
+    handed down as a patronymic, and as a nickname for the quick, the sharp-eyed, or the falconer.
+    It was therefore coined independently, many times, in many places.
+    <strong>There is no single founding Falco family.</strong> The work of this archive is to establish
+    which Falcos are actually connected, and to say plainly where the evidence stops.
+  </blockquote>
+
+  <h2>What is established</h2>
+  <div class="grid two">
+    <div class="card">
+      <h3>Nine generations, eight of them documented</h3>
+      <p>From <strong>Pasquale Falco</strong> and <strong>Chiara Rivetti</strong>, a married couple of the
+      Collegiate parish of Sant'Andrea at Arienzo in the 1790s, down to the present. {documented} of the
+      nine generations rest on a named record.
+      <a href={u("/direct-line")}>Walk the line →</a></p>
+    </div>
+    <div class="card">
+      <h3>The registers survive, and they are readable</h3>
+      <p>Arienzo's parish books run from <strong>1672</strong> for baptisms, 1733 for deaths and 1754 for
+      marriages. They are digitised, and machine handwriting-recognition now makes them searchable by name.
+      <a href={u("/arienzo")}>What is in them →</a></p>
+    </div>
+    <div class="card">
+      <h3>One family, one parish, for two centuries</h3>
+      <p>The in-law surnames of the line — Crisci, Morgillo, Martone, Rivetti, de Lucia, Arricale, Maione —
+      all appear in the same Arienzo registers, repeatedly. This was a family that married its neighbours.
+      <a href={u("/arienzo")}>The marriage network →</a></p>
+    </div>
+    <div class="card">
+      <h3>And one claim that does not hold</h3>
+      <p>The line is often carried back a further generation to an <strong>Agostino Falcone</strong> of about
+      1740. <em>Falcone</em> is all but absent from the Arienzo registers. That link is not proven, and this
+      archive does not assert it. <a href={u("/method")}>Why we say so →</a></p>
+    </div>
+  </div>
+
+  <h2>The shape of the journey</h2>
+  <p>Arienzo, in the province of Caserta, is the home parish — every generation from Pasquale to Raffaele is
+  born, married and buried there. In <strong>1913</strong> a son is registered not at Arienzo but at
+  <strong>Arpaia</strong>, four kilometres away and across the provincial line into Benevento. From there the
+  family moves to <strong>Forchia</strong>, then <strong>Benevento</strong>, and then to
+  <strong>Brisbane</strong>. <a href={u("/places")}>The places →</a></p>
+
+  <p class="small">Nothing here is taken on trust because it is in a family tree. Where a record has been
+  seen, it is cited. Where it has not, the claim is marked. See <a href={u("/method")}>Method</a>.</p>
+</Base>

@@ -1,0 +1,38 @@
+---
+import Base from "../layouts/Base.astro";
+import places from "../data/places.json";
+---
+<Base title="Places">
+  <h1>Places</h1>
+  <p class="lede">Six places carry this family: one parish held for two centuries, a short move of four
+  kilometres that crossed a provincial border, and then the other side of the world.</p>
+
+  {places.map(p => (
+    <section class="card" style="margin:1rem 0">
+      <h3 style="margin-bottom:.3rem">{p.name} <span class="small" style="font-weight:400">· {p.prov}</span>
+        <span class="chip" style="float:right">{p.from} – {p.to}</span></h3>
+      <p style="margin:.4rem 0 0">{p.what}</p>
+    </section>
+  ))}
+
+  <h2>The Valle Caudina</h2>
+  <p>Arienzo, Arpaia and Forchia lie within a few kilometres of one another along the valley road that runs
+  east from the plain of Naples towards Benevento. The provincial boundary between Caserta and Benevento
+  cuts across it. A family moving from Arienzo to Arpaia moved almost no distance at all — but it changed
+  which archive holds its records, which is why the paper trail appears to break in 1913 when it does not.</p>
+  <p><strong>Forchia</strong> takes its name from the <em>Forche Caudine</em>, the Caudine Forks, where in
+  321 BC a Roman consular army was trapped by the Samnites and made to pass under the yoke. It is the
+  most famous humiliation in the early Republic, and it happened in the fields where this family later
+  farmed.</p>
+
+  <h2>Why the records split</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Place</th><th>Province</th><th>Where the records are</th></tr></thead>
+    <tbody>
+      <tr><td>Arienzo, San Felice a Cancello</td><td>Caserta</td>
+        <td>Tribunal copies at Santa Maria Capua Vetere, 1866–1929; State Archive series 1809–1866; and the parish books of Sant'Andrea</td></tr>
+      <tr><td>Arpaia, Forchia, Benevento</td><td>Benevento</td>
+        <td>Archivio di Stato di Benevento, 1810–1942; and the Archdiocese of Benevento church records, 1575–1908</td></tr>
+    </tbody>
+  </table></div>
+</Base>

@@ -1,0 +1,30 @@
+---
+import Base from "../layouts/Base.astro";
+import sources from "../data/sources.json";
+---
+<Base title="Sources">
+  <h1>Sources</h1>
+  <p class="lede">What has been read, and where it is.</p>
+  {sources.map(s => (
+    <section class="card" style="margin:.9rem 0">
+      <h3 style="margin-bottom:.3rem">{s.t}</h3>
+      <p style="margin:0">{s.d}</p>
+    </section>
+  ))}
+  <h2>Records cited in the direct line</h2>
+  <p>Twenty-six record citations underlie the pedigree, drawn from three civil collections and the Arienzo
+  parish books. They are listed in full in <span class="mono">data/record-citations.tsv</span> in the
+  repository, with the archival reference for each.</p>
+  <h2>Not yet reached</h2>
+  <ul>
+    <li>The Arienzo baptism register of <strong>1672–1738</strong> — unexamined. This is where a generation
+    above Pasquale Falco would be found, if it is to be found at all.</li>
+    <li>The <strong>marriage supplements</strong> (<em>processetti</em>) for Arienzo. These attach earlier
+    documents — often parish extracts reaching back two generations — to a marriage file, and are the
+    single richest source for pushing past 1809.</li>
+    <li>The <strong>Archdiocese of Benevento</strong> church records, 1575–1908, for the Arpaia and Forchia
+    years and the Zampiello family.</li>
+    <li>Certain FamilySearch record images for Caserta are restricted to accounts at a FamilySearch centre
+    or affiliate library, and could not be opened for this build.</li>
+  </ul>
+</Base>

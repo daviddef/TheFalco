@@ -1,0 +1,44 @@
+---
+import Base from "../layouts/Base.astro";
+import line from "../data/line.json";
+const shown = line.filter(g => !g.living);
+---
+<Base title="The direct line">
+  <h1>The direct line</h1>
+  <p class="lede">Nine generations from the Arienzo of the 1790s to Brisbane. Each row says what the
+  evidence is, and each generation is joined to the one above it by a record that names a father.</p>
+
+  {shown.map(g => (
+    <section class="card" style="margin:1rem 0">
+      <h3 style="margin-bottom:.35rem">
+        <span class="mono" style="color:var(--ink-3)">{g.gen}.</span> {g.name}
+        {" "}<span class={"chip " + (g.confidence === "documented" ? "doc" : "dis")}>{g.confidence}</span>
+      </h3>
+      <p class="small" style="margin:.1rem 0 .6rem">
+        b. {g.born}{g.bornPlace ? ", " + g.bornPlace : ""}
+        {g.died ? " · d. " + g.died + (g.diedPlace ? ", " + g.diedPlace : "") : ""}
+        {g.spouse ? " · m. " + g.spouse : ""}
+        {g.spouseBorn ? " (b. " + g.spouseBorn + ")" : ""}
+        {g.married ? " · " + g.married : ""}
+        {g.trade ? " · " + g.trade : ""}
+      </p>
+      <p style="margin:0">{g.note}</p>
+    </section>
+  ))}
+
+  <h2>The welds</h2>
+  <p>A pedigree is only as good as the joins. Three records carry this one:</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Record</th><th>Date</th><th>What it says</th><th>Joins</th></tr></thead>
+    <tbody>
+      <tr><td>Death of Vincenzo Falco</td><td>15 May 1875, Arienzo</td>
+        <td>Names his father as <strong>Pasquale</strong></td><td>gen 3 → gen 2</td></tr>
+      <tr><td>Death of Raffaele Falco</td><td>21 Apr 1880, Arienzo</td>
+        <td>Names his father as <strong>Vincenzo</strong></td><td>gen 4 → gen 3</td></tr>
+      <tr><td>Birth of Carmine Antonio Falco</td><td>10 Jul 1850, Arienzo</td>
+        <td>Names his father as <strong>Raffaele</strong></td><td>gen 5 → gen 4</td></tr>
+    </tbody>
+  </table></div>
+  <p class="small">Above generation 2 there is no weld. That is the frontier of this research, and it is
+  where the Arienzo baptism register of 1761–1837 — and the earlier book of 1672–1738 — should be read next.</p>
+</Base>
