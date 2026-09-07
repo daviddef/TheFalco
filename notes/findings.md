@@ -366,6 +366,74 @@ parental consents, and death certificates of parents already dead — one file c
 backwards. This is where Matteo Falco's parentage would be found if it survives anywhere. **Paolisi**
 matters independently: Francesco Falco came from there in 1714.
 
+
+## Moiano and Paolisi — and a caution
+
+Harvested Antenati's name index by town (`data/antenati-valle-caudina.tsv`, 1,087 records):
+
+| Town | Falco | Zampiello | Annecchino |
+|---|---:|---:|---:|
+| **Paolisi** | **406** | 0 | 1 |
+| **Moiano** | **310** | 104 | 215 |
+| Forchia | 31 | 16 | 237 |
+| Arpaia | 22 | 259 | 63 |
+| **Arienzo** | **0 — not name-indexed at all** | — | — |
+
+**Paolisi holds the largest Falco cluster in the valley** — and Francesco Falco *Casalis Paulisii*
+came from there to Arienzo in 1714. Moiano is second, and is also the second stronghold of both
+Zampiello and Annecchino.
+
+**But the in-law networks barely overlap with Arienzo's, and that matters.** The Arienzo Falco marry
+Crisci (113 register pages), Morgillo (76), Martone (49), de Lucia (40). Cross-referencing those
+against the Paolisi and Moiano Falco in-laws:
+
+- **Paolisi** in-laws: Carbone, Maietta, Lanni, De Gregorio, Nola, Maddaloni, Perrotta, Guerriero,
+  Mauro, Girardi, Tirone, Cioffi — **shared with Arienzo: only Ruggiero and Rivetti**
+- **Moiano** in-laws: Amoriello, Maglione, Tedesco, Massaro, Cesare, Tirino, Buonanno, Palma,
+  Mauriello, Izzo, Ciaramella, Iodice — **shared with Arienzo: only Morgillo**
+
+So the 716 Paolisi and Moiano Falco are **largely a different population** from the Arienzo Falco —
+exactly what this archive's founding premise predicts, since *Falco* was coined independently many
+times. **Caveat**: this compares 1861–1942 civil records against 1650–1830 parish records, so some
+divergence is expected from the date gap alone. It is suggestive, not conclusive. **Do not merge these
+Falco into the line.**
+
+Also established: **no Zampiello × Annecchino marriage anywhere in the 1,042-record index.** The two
+families lived in the same four towns for a century without marrying each other, so far as the index
+shows.
+
+Moiano Zampiello households: Giuseppe & Angela Matera · Giuseppe & Catarina Iuliucci · Sabbatino &
+Anna di Mauro · Luigi & Maria Carmina Iuliucci · Clemente & Teresa Pietrosanto.
+Moiano Annecchino households: Giuseppe & Rosa Cuozzo · Antonio & Rosa Saccone · Sabbatino & Domenica
+Di Stasi · Giuseppe & Agata Morzillo · Vincenzo & Rosa Di Stasi · Salvatore & Francesca di Cuozzo.
+
+## The processetti: reconnaissance done, and one prime target
+
+`data/antenati-processetti.tsv`. **321 volumes** across the five towns — Arienzo 63, Forchia 73,
+Arpaia 43, Moiano 99, Paolisi 43.
+
+**Three hard constraints found:**
+
+1. **They stop at 1865.** Forchia and Arpaia both return nothing for 1866–1950. So the marriages of
+   Carminantonio × Filomena (1920s) and Angelo Zampiello × Giuseppa Ferrara (c. 1920) are **not** in
+   the processetti, and neither are the marriage registers for those years.
+2. **Arienzo has no name index on Antenati at all** — Falco 0, Crisci 0. Everything for the home
+   parish must be done by reading images.
+3. **Images are Cloudflare-blocked to direct fetch.** The IIIF manifest is readable
+   (`dam-antenati.cultura.gov.it/antenati/containers/<id>/manifest`, giving
+   `iiif-antenati.cultura.gov.it/iiif/2/<id>/full/full/0/default.jpg`), but fetching those URLs
+   returns a Cloudflare block. They render **only inside the Mirador viewer** on the record page.
+
+**The prime target is identified**: **Arienzo processetti 1817**, ark **`an_ua14158`**, shelf-mark
+66.1021, **310 pages**. Vincenzo Falco married Andreana Crisci about 1817. Under Neapolitan practice
+the marriage file attaches the groom's birth extract, the parents' consents, and **the death
+certificates of any parent or paternal grandparent already dead**. If Matteo Falco's death act is
+anywhere, it is most likely in that volume — and it would name **Matteo's own father**, closing the
+question this archive has not been able to answer.
+
+Reading it means paging the Mirador viewer through 310 images. That is feasible but slow, and it is
+the obvious next piece of work.
+
 ## Access note
 
 FamilySearch record *images* for several Caserta collections return "This record can only be displayed
