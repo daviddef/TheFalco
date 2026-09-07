@@ -30,9 +30,10 @@
   "diedPlace": "Arienzo",
   "spouse": "Andrea / Andreana Crisci",
   "spouseBorn": "",
-  "trade": "",
+  "trade": "contadino",
   "confidence": "documented",
-  "note": "His marriage record names him as “Vincentium Falco filium Paschalis, e Clarae Rivetta” and his wife as “Andreanam Crisci filiam Arcangeli” — welding generation 3 to generation 2 and naming Andreana's own father. His death record of 15 May 1875 names his father as Pasquale a second time."
+  "note": "His civil marriage act — Arienzo, act 26 of 15 December 1814 — records him as aged 21, a contadino, and “figlio maggiore di Pasquale Falco”: eldest son, and his father named without “fu”, so Pasquale was still living. His wife Andreana is “figlia di Arcangelo”. The parish record of the same marriage names his mother Chiara Rivetti and Andreana's mother Ruggiero. His death record of 15 May 1875 names Pasquale a third time.",
+  "married": "15 Dec 1814, Arienzo"
  },
  {
   "gen": 4,
