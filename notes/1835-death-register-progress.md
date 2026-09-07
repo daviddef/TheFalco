@@ -56,20 +56,38 @@ screenshot per act is the floor.
 | 11 | Teresa Bizzarro, 80, d. of Lorenzo, d. 9 Mar | Angela Palumbo, 80, widow of Nicola Baletta, d. of Aniello, d. 11 Mar |
 | 12 | (gutter, unreadable) | Anna Ciuffi, 3, d. of Pellegrino, d. 22 Mar |
 | 13 | Paolo Olivetti, 2, d. 11 Apr | Marcantonio Ciuffi, 1, s. of Pasquale, d. 16 Apr |
+| 14 | Maria Carmela Venapia, 1, d. of Andrea (muratore), d. 16 Aug | Cipriano Laudato, 3, s. of the late Cipriano (muratore), d. 17 Aug |
+| 15 | **Donna Alessandra Diglio**, 75, *gentildonna*, d. of Filippo (dec.), d. 21 Aug | Maria Carfora, 13 days, d. of Aniello, d. 24 Aug |
+| 16 | **Donna Violetta d'Ambrogio**, 54, *gentildonna*, w. of Rossi, d. of Don Pietro (*proprietario*), d. 28 Aug | Carmela Ciuffi, 28, w. of Pietro Carfora, d. of Ignazio (dec.), d. 28 Aug |
+| 17 | Carmela Martone, 7 mths, d. of Clemente, d. 7 May | Arcangelo Martone, 6 mths, s. of Angelo, d. 15 May |
+| 18 | Angelo Ciuffi, 70, s. of Vincenzo, d. 25 May | Maria Grazia Laudato, 50, widow of Angelo Sorrento, d. of Andrea (dec.) — **died in the hospital**, d. 1 Jun |
+| 19 | Giovanni Macchia, 50, s. of Francesco, d. 3 Jun | Donato Naddeo, 1 mth, s. of Vincenzo, d. 4 Jun |
+| 20 | *(duplicate of p19)* | *(duplicate of p19)* |
+| 21 | Marta Diglio, 65, widow Varrecchia, d. of Pietro (dec.), d. 5 Jun | Angelo Zimbardo, 80, h. of Maria Maccariello, s. of Giovanbattista (dec.), d. 11 Jun |
+| 22 | Carmela Majone, 3, d. of Clemente, d. 3 Jul | **Palma Bruno, 90**, widow of Gregorio Mauro, d. of Alessandro (*possidente*, dec.), d. 6 Jul |
+| 23 | Giuseppa Diglio, 4, d. of Pietro (vaticale), d. 9 Jul | Anna Ciuffi, 40, w. of Majo Porrino, d. of Vincenzo, d. 10 Jul |
+| 24 | Maddalena Diglio, 70, widow, *mendica*, b. San Nicola di Bari, dom. San Felice, d. of Lorenzo (dec.), d. 21 Jul | Tommaso Marchese, 1, s. of Aniello, d. 29 Jul |
+| 25 | Arcangelo Attarelli, 5 mths, s. of Nicola, d. 30 Jul | Gennaro Loffredo, 70, h. of Apollonia Zimbardo, s. of Andrea (dec.), d. 2 Aug |
+| 26 | Anna di Silvio, days, d. of Fedele (falegname), d. 6 Aug | Camilla Sepitelli, 1, d. of Angelo, d. 9 Aug |
+| 27 | Angelo [d'Ajuzzo], s. of Filippo Diglio (sartore), d. 11 Aug | Nunzia d'Ajuzzo, 12, d. of Giulio, d. 10 Aug |
+| 28 | *(duplicate of p27)* | *(duplicate of p27)* |
 
-**~24 acts read, January to mid-April 1835. No Falco of any age.**
+**~50 acts read, pages 2–28, covering January to late August 1835. No Falco of any age.**
 
 ## Notes that change the estimate
 
-- **The register is bound in duplicate.** Page 10 repeats page 9's two acts. If that holds throughout,
-  the 46 images carry roughly **46 unique acts**, not 90 — so 1835 is about **half the work**
-  originally estimated. Worth confirming as the sweep continues.
+- **The register is bound in duplicate, but only intermittently.** Pages 9/10, 19/20 and 27/28 each
+  repeat their neighbour; pages 14–18 and 21–26 do not. So the saving is real but partial — expect
+  roughly **75–80 unique acts per year**, not 46 and not 90.
+- **The acts are not in strict date order.** Page 13 is mid-April, page 14 jumps to August, page 17
+  returns to May. The two bound originals interleave. **Do not stop early on the assumption that a
+  month has been passed** — the whole volume has to be read.
 - Arienzo's death rate in early 1835 is heavily weighted to infants; adult deaths are the minority,
   which makes scanning faster than the act count suggests.
 
 ## Resume here
 
-**Next page: index 14.** Continue to index 45. Then 1836 (`an_ua14338`), 1834 (`an_ua14336`),
+**Next page: index 29.** Continue to index 45 (17 pages left in 1835). Then 1836 (`an_ua14338`), 1834 (`an_ua14336`),
 1837 (`an_ua14339`), working outward from 1835.
 
 Full year list: 1829 `an_ua14331` · 1830 `14332` · 1831 `14333` · 1832 `14334` · 1833 `14335` ·
