@@ -53,15 +53,37 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       children are 12 days apart in Sept 1883.
 
 ## 7. The emigration
-- [ ] Ship and year for **Carminantonio Falco** and **Filomena Annecchino** to Australia. Try the
-      National Archives of Australia (passenger and naturalisation records). Post-war wave: 360,000
-      Italians 1947–76, Campania prominent.
-- [ ] **Nudgee Cemetery, Brisbane** — burial records for Carminantonio (d. 1988) and Filomena.
+- [x] **Found the ship** — Carmine, Francesca, Giuseppina and **Antonio** Falco arrived **Brisbane,
+      26 March 1964, per the *Sydney* from Naples**. NAA: K269, 26 MAR 1964 SYDNEY, item 12100311,
+      digitised, 42 pp.
+- [x] **Nudgee Cemetery** — five Falco burials with plots and exact dates; corrected Carminantonio's
+      death to **27 Apr 1985** (not 1988) and supplied Filomena's, **10 Aug 1988**.
+- [ ] **Order NAA J25 1971/9830 and J25 1972/4964** — Brisbane immigration case files. Should add
+      sponsor, addresses, occupations and often photographs. **Highest-value remaining action.**
+- [ ] Read the 42 digitised pages of K269, 26 MAR 1964 SYDNEY for the family's own line.
+- [ ] **When did Carminantonio and Filomena arrive?** Neither is in the passenger index. A Giuseppe
+      Falco reached Brisbane 15 Sep 1925 per the *Palermo* — possibly Raffaele's brother b. 1883, and
+      possibly the chain-migration anchor. Untested.
 
-## 7. Blocked / needs a human
-- [ ] Several Caserta record images are restricted to FamilySearch-centre accounts. An affiliate library
-      visit would unlock them.
+## 8. Blocked / needs a human
+- [ ] Several Caserta record images are restricted to FamilySearch-centre accounts. An affiliate
+      library visit would unlock them.
 - [ ] **Antenati** (antenati.cultura.gov.it) blocks automated access and sits behind reCAPTCHA.
       Human-in-the-loop only. It holds the Arienzo civil registers directly.
 - [ ] The **Museo Alfonsiano** at Arienzo, in the old bishop's palace beside Sant'Andrea, may hold or
       know of parish material not filmed.
+- [ ] **DNA.** MyHeritage/23andMe matches on the Falco and Zampiello sides could confirm or break the
+      Annecchino descent and find living cousins in Campania. Tests are already in play; the matches
+      need working through.
+
+## Dead ends, recorded so they are not repeated
+- **Matteo Falco's marriage** — searched across 2,056 transcribed marriage/death pages, including 173
+  with 1750s Latin date-words and 58 with 1760s. Not found.
+- **Filomena Annecchino's birth** — searched across 681 harvested Annecchino records. Not found.
+- **Angelo Zampiello's birth** — searched to the deep-paging cap in both directions. Not found.
+- **Trove** — the API needs a key, the UI would not render, and its newspapers largely stop at 1955,
+  before this family arrived. Low yield; not worth returning to.
+- **No Zampiello, Annecchino, Maione or Defranceski burials** at any of the nine Brisbane Catholic
+  cemeteries.
+
+*All of the above is published on the site at `/open-questions/`.*
