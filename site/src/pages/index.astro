@@ -2,7 +2,7 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import line from "../data/line.json";
-const documented = line.filter(g => g.confidence === "documented").length;
+
 ---
 <Base title="Home">
   <h1>The Falco Archive</h1>
@@ -22,29 +22,40 @@ const documented = line.filter(g => g.confidence === "documented").length;
   <h2>What is established</h2>
   <div class="grid two">
     <div class="card">
-      <h3>Nine generations, eight of them documented</h3>
-      <p>From <strong>Pasquale Falco</strong> and <strong>Chiara Rivetti</strong>, a married couple of the
-      Collegiate parish of Sant'Andrea at Arienzo in the 1790s, down to the present. {documented} of the
-      nine generations rest on a named record.
+      <h3>Nine generations, every one documented</h3>
+      <p>From <strong>Matteo Falco</strong> and <strong>Francesca Crisci</strong>, whose children were
+      baptised at Arienzo from 1767, down to the present. The head of the line is no longer a guess.
       <a href={u("/direct-line")}>Walk the line →</a></p>
     </div>
     <div class="card">
-      <h3>The registers survive, and they are readable</h3>
-      <p>Arienzo's parish books run from <strong>1672</strong> for baptisms, 1733 for deaths and 1754 for
-      marriages. They are digitised, and machine handwriting-recognition now makes them searchable by name.
-      <a href={u("/arienzo")}>What is in them →</a></p>
+      <h3>Pasquale's baptism, found</h3>
+      <p>24 October 1767, in the Collegiate Church of Sant'Andrea: <em>infantem natum ex Mattheo Falco,
+      ed Francisca Crisci … qui nominatus est Paschalis</em>. It replaced an ancestor who was never
+      there. <a href={u("/method")}>What it displaced →</a></p>
+    </div>
+    <div class="card">
+      <h3>Three households, read entry by entry</h3>
+      <p>Twenty-six register entries reconstruct the families of Matteo, of Pasquale, and of Vincenzo —
+      their children, their baptisms, and the children who did not live.
+      <a href={u("/households")}>The households →</a></p>
+    </div>
+    <div class="card">
+      <h3>The bishop next door</h3>
+      <p>The church in these registers was the second seat of the bishop of Sant'Agata de' Goti — and
+      from 1762 to 1775 that bishop was <strong>Alfonso Maria de' Liguori</strong>, who lived in the
+      palace beside it. <a href={u("/liguori")}>What that does and does not mean →</a></p>
     </div>
     <div class="card">
       <h3>One family, one parish, for two centuries</h3>
-      <p>The in-law surnames of the line — Crisci, Morgillo, Martone, Rivetti, de Lucia, Arricale, Maione —
-      all appear in the same Arienzo registers, repeatedly. This was a family that married its neighbours.
+      <p>Crisci, Morgillo, Martone, Rivetti, de Lucia, Arricale, Maione — every in-law surname of the
+      line appears in the same Arienzo books, over and over. The Crisci marry in three times.
       <a href={u("/arienzo")}>The marriage network →</a></p>
     </div>
     <div class="card">
-      <h3>And one claim that does not hold</h3>
-      <p>The line is often carried back a further generation to an <strong>Agostino Falcone</strong> of about
-      1740. <em>Falcone</em> is all but absent from the Arienzo registers. That link is not proven, and this
-      archive does not assert it. <a href={u("/method")}>Why we say so →</a></p>
+      <h3>And a name rarer than the family's own</h3>
+      <p><strong>Zampiello</strong>, which marries in at Arpaia in the 1950s, has about
+      <strong>123 bearers in the world</strong> — 37 of them in Italy.
+      <a href={u("/name")}>The names →</a></p>
     </div>
   </div>
 

@@ -1,0 +1,44 @@
+---
+import Base from "../layouts/Base.astro";
+import households from "../data/households.json";
+---
+<Base title="The households">
+  <h1>The households</h1>
+  <p class="lede">Three reconstructed families of the parish of Sant'Andrea at Arienzo, covering the years
+  1759 to 1869 — read out of the parish registers entry by entry.</p>
+
+  {households.map(h => (
+    <section style="margin:2rem 0">
+      <h2 style="margin-top:1rem">{h.name}</h2>
+      <div class="scroll"><table>
+        <thead><tr><th>Person</th><th>Event</th><th>Date</th><th>What the register says</th></tr></thead>
+        <tbody>{h.members.map(m => (
+          <tr>
+            <td><strong>{m.person}</strong><br/><span class="small">{m.role}</span></td>
+            <td>{m.event}</td>
+            <td class="mono">{m.date}</td>
+            <td><em>{m.evidence}</em>{m.ark ? <><br/><span class="mono small">{m.ark}</span></> : null}</td>
+          </tr>))}</tbody>
+      </table></div>
+    </section>
+  ))}
+
+  <h2>What these three tables establish</h2>
+  <ul>
+    <li><strong>The line reaches a generation further back than it did.</strong> Pasquale Falco's own
+    baptism of 24 October 1767 names his father <strong>Matteo Falco</strong> and his mother
+    <strong>Francesca Crisci</strong>. Matteo replaces the unproven Agostino Falcone.</li>
+    <li><strong>Vincenzo's marriage names four people at once</strong> — himself, his father Pasquale, his
+    mother Chiara Rivetti, and his wife Andreana's father Arcangelo Crisci. It is the single most
+    load-bearing document found.</li>
+    <li><strong>The Crisci marry in twice.</strong> Matteo Falco married a Crisci in the 1760s; his
+    great-grandson Vincenzo married another, Andreana, two generations later. Anna Falco — Pasquale's
+    daughter — married an Arcangelo Crisci and died at 22 in 1820.</li>
+    <li><strong>Children die.</strong> Maria Angela, baptised February 1802, was buried in March 1805
+    aged about three. Giovanna was buried the same year. The name Maria was given twice, in 1789 and
+    again in 1790 — the ordinary arithmetic of an 18th-century parish.</li>
+    <li><strong>The same women recur.</strong> <em>Cecilia Martone</em> appears as midwife or godmother
+    across some twenty years of these registers; <em>Gelsumina Ruggiero</em> stands godmother to
+    Vincenzo's children. A parish is a small number of people doing the same offices for one another.</li>
+  </ul>
+</Base>

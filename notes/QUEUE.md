@@ -1,40 +1,54 @@
 # Research queue
 
-Ordered by what would most change the archive.
+Updated 7 September 2026, after Pasquale Falco's baptism was found.
 
-## 1. Break the 1790 wall
-- [ ] Read the **Arienzo baptism register 1761–1837** for Pasquale Falco's own baptism (c.1765) —
-      it should name his father. This is the single highest-value target.
-- [ ] Read the **Arienzo baptism register 1672–1738** for the Falco households of the late 1600s.
-- [ ] Find the **marriage** of Pasquale Falco and Chiara Rivetti in the marriage register 1754–1900
-      (expect c. 1790–93). Neapolitan marriage records name both fathers.
+## Done
+- [x] **Pasquale Falco's baptism** — 24 Oct 1767, naming Matteo Falco & Francesca Crisci.
+- [x] **Marriage of Vincenzo Falco & Andreana Crisci** — names Pasquale, Chiara Rivetti and Arcangelo Crisci.
+- [x] **Raffaele Falco's baptism, 1818** — names Vincenzo and Andreana.
+- [x] **The 1780/1789 date contradiction** — resolved from the Latin words.
+
+## 1. Push above Matteo Falco (b. by c. 1735)
+- [ ] The Arienzo baptism register has a **gap 1738–1761**; Matteo's own baptism probably falls in it.
+      Check whether a duplicate series (the bishop's copy, or the *Stato delle Anime*) covers those years.
+- [ ] Find **Matteo Falco's marriage to Francesca Crisci** — expect c. 1760–66 in the marriage register
+      (1754–1900). A Neapolitan marriage record names both fathers. **This is now the highest-value target.**
+- [ ] The **Arienzo baptism register 1672–1738** — read for Falco households of the late 1600s, to see
+      whether Matteo's father can be reached from below.
 
 ## 2. The processetti
-- [ ] Arienzo **marriage supplements** (*processetti*). These attach parish extracts, often reaching
-      two generations back, to each marriage file. Supplements for 1896, 1897 and 1909 are already
-      known to be digitised; find the earlier ones.
+- [ ] Arienzo **marriage supplements** (*processetti*). They attach parish extracts reaching two
+      generations back. Supplements for 1896, 1897 and 1909 are digitised; find the earlier ones.
 
-## 3. Resolve the flagged contradictions
-- [ ] Confirm or correct the **1780** baptism date at `3Q9M-CSD3-1386-4` against the image.
-- [ ] Reconcile the tree's children of Pasquale (1793, 1795, 1799, 1808) with the register's
-      (1794, 1795, 1799, 1802).
+## 3. Loose ends in the reconstruction
+- [ ] **Arcangelo Crisci** appears both as Andreana's father and as Anna Falco's husband. Two men, or a
+      widower's remarriage? Resolve from the Crisci baptisms.
+- [ ] Name the child baptised **25 Nov 1777** to Matteo & Francesca.
+- [ ] Two daughters named **Maria** (1789, 1790). Did the first die? Look for a burial 1789–90.
+- [ ] The 1904 Arienzo birth cited as "Entry for **Anna del Giudice** and Raffaele Falco" — daughter,
+      second wife, or indexing error?
 - [ ] Settle whether **Giuseppa Ferrara** is "Giuseppa Alfonsina Maria Ferraro, 1881".
-- [ ] The 1904 Arienzo birth citation reads "Entry for **Anna del Giudice** and Raffaele Falco" —
-      establish whether this is a daughter, a second wife, or an indexing error.
 
-## 4. Angelo Zampiello's war
-- [ ] Verify the Second Italo-Abyssinian War service and decorations (1935, Eritrea). Italian
-      military service records — *fogli matricolari* — are held at the Archivio di Stato di Benevento
-      for men of that province.
+## 4. Join up the other Arienzo Falco households
+Francesco Falco & Maria Angela Ulivieccio · Giuseppe Falco & Gelsumina Vigliotta · Antonio Falco &
+Carmela Guida · Vincenzo Falco & Angela Pellone · Angelo Falco & Maria Cimmino · Nicola Falco &
+Carmela Terracciano. Several are probably collateral branches from Matteo or earlier.
 
-## 5. The emigration
-- [ ] Find the **ship and the year** for Carminantonio Falco and Filomena Annecchino to Australia.
-      Try NAA (National Archives of Australia) passenger and naturalisation records.
-- [ ] Nudgee Cemetery, Brisbane — burial records for Carminantonio (d. 1988) and Filomena.
+## 5. Angelo Zampiello's war
+- [ ] Verify the Second Italo-Abyssinian War service and decorations (1935, Eritrea). *Fogli
+      matricolari* for men of the province are at the **Archivio di Stato di Benevento**.
+- [ ] Trace the whole **Zampiello** surname in Italy — only ~37 people. Small enough to do exhaustively.
 
-## 6. Blocked / needs a human
-- [ ] Several Caserta record images are restricted to FamilySearch centre accounts. A visit to an
-      affiliate library would unlock them.
-- [ ] Antenati (antenati.cultura.gov.it) — the Italian State Archives portal — blocks automated
-      access and is behind reCAPTCHA. Human-in-the-loop only. It holds the Arienzo civil registers
-      directly.
+## 6. The emigration
+- [ ] Ship and year for **Carminantonio Falco** and **Filomena Annecchino** to Australia. Try the
+      National Archives of Australia (passenger and naturalisation records). Post-war wave: 360,000
+      Italians 1947–76, Campania prominent.
+- [ ] **Nudgee Cemetery, Brisbane** — burial records for Carminantonio (d. 1988) and Filomena.
+
+## 7. Blocked / needs a human
+- [ ] Several Caserta record images are restricted to FamilySearch-centre accounts. An affiliate library
+      visit would unlock them.
+- [ ] **Antenati** (antenati.cultura.gov.it) blocks automated access and sits behind reCAPTCHA.
+      Human-in-the-loop only. It holds the Arienzo civil registers directly.
+- [ ] The **Museo Alfonsiano** at Arienzo, in the old bishop's palace beside Sant'Andrea, may hold or
+      know of parish material not filmed.
