@@ -1,0 +1,61 @@
+---
+import Base from "../layouts/Base.astro";
+const inlaws = [
+  ["Fucci / Fuccio", 32], ["d'Onofrio", 30], ["Magliano", 16], ["d'Ambrosio", 15],
+  ["Caserta", 14], ["De Lucia", 14], ["Esposito", 12], ["Maione", 10],
+  ["Petrarca", 10], ["Cimmino", 6], ["Castaldo", 5], ["Crisci", 4], ["Girardi", 4],
+];
+const shared = ["Maione", "Crisci", "De Lucia", "Cimmino"];
+---
+<Base title="Zampiello">
+  <h1>Zampiello</h1>
+  <p class="lede">The rarest name in this family by a wide margin — and, it turns out, the name of one
+  village.</p>
+
+  <h2>About 123 people in the world</h2>
+  <p>Forebears counts roughly <strong>123 bearers of Zampiello worldwide</strong>: 84 in the United
+  States, <strong>37 in Italy</strong>, 2 in France. It is the 1,628,521st commonest surname on earth.
+  Set beside Falco's 46,749, the difference is not one of degree.</p>
+  <p>A name that rare is, in practice, a single family. And the records say where it lives.</p>
+
+  <h2>It is an Arpaia name</h2>
+  <p><strong>226 Zampiello records</strong> were recovered from the civil registers of the province of
+  Benevento, running from <strong>1861 to 1915</strong>. Every one of them is registered at
+  <strong>Arpaia</strong> — the comune of some eight hundred people, four kilometres from Arienzo across
+  the provincial border, where Francesca Zampiello was born in 1928.</p>
+  <p>The given names repeat as tightly as the surname: Francesco (14), Giuseppe (10), Antonio (10),
+  Caterina (10), Maria Grazia (8), Michele, Marta, Filomena, Raffaele, Tommaso, Angelo.</p>
+
+  <h2>Who they married</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Surname</th><th>Records</th><th></th></tr></thead>
+    <tbody>{inlaws.map(([n,c]) => (
+      <tr><td><strong>{n}</strong></td><td class="mono">{c}</td>
+        <td>{shared.includes(n) ? <span class="chip doc">also an Arienzo Falco in-law name</span> : null}</td></tr>))}</tbody>
+  </table></div>
+
+  <h2>The two families' worlds already overlapped</h2>
+  <p>Carmine Falco married Francesca Zampiello at Benevento in 1955, and it is easy to read that as two
+  strangers meeting. The registers suggest otherwise. <strong>Maione, Crisci, De Lucia and
+  Cimmino</strong> all appear as in-law names in <em>both</em> networks — among the Falco of Arienzo and
+  among the Zampiello of Arpaia — a century before that marriage.</p>
+  <p>Costanza <strong>Maione</strong> married Raffaele Falco at Arienzo in 1897. Raffaella
+  <strong>Maione</strong> appears as a Zampiello mother at Arpaia in 1899. Whether these are one kindred
+  is untested, and the surname alone does not prove it — but four shared names across two villages four
+  kilometres apart is not nothing.</p>
+  <p class="small">Stated as a pattern, not a conclusion. It is exactly the kind of claim this archive
+  exists to be careful about.</p>
+
+  <h2>What is still missing</h2>
+  <ul>
+    <li><strong>Angelo Zampiello's own birth record</strong> (31 August 1895) has not been recovered.
+    FamilySearch's search caps deep paging at about 1,100 results and treats <em>Zampiello</em> as
+    interchangeable with <em>Zampella</em>, <em>Zampillo</em> and <em>Campiello</em>, which floods the
+    result set. His parents are therefore still unnamed.</li>
+    <li><strong>His war.</strong> The family record says he served in the
+    <strong>Second Italo-Abyssinian War in 1935</strong>, spent time in Eritrea, saved a large number of
+    people and was decorated. <em>None of this is yet corroborated.</em> Italian service records —
+    <em>fogli matricolari</em> — for men of this province are held at the Archivio di Stato di Benevento.</li>
+    <li>His son Angelo, born at Arpaia in 1935, <strong>died there the same year</strong>, on 26 April.</li>
+  </ul>
+</Base>

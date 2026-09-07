@@ -99,6 +99,35 @@ from the Archivio di Stato di Caserta to that of Benevento.
 - Daughter **Francesca** b. 27 Apr 1928 Arpaia, d. 2022 Brisbane.
 - Giuseppa Ferrara = "Giuseppa Alfonsina Maria Ferraro, 1881"? Flagged uncertain in the tree; still is.
 
+
+## Zampiello is the name of one village
+
+**226 Zampiello records** recovered from the Benevento civil registers (collection 2475030),
+**1861–1915**, in `data/zampiello-arpaia.tsv`. **Every one is registered at Arpaia.** With ~37 bearers
+left in Italy, the surname is effectively one Arpaia family.
+
+Given names repeat tightly: Francesco 14, Giuseppe 10, Antonio 10, Caterina 10, Maria Grazia 8,
+Michele, Marta, Filomena, Raffaele, Tommaso, Angelo.
+
+In-law surnames at Arpaia: **Fucci/Fuccio 32, d'Onofrio 30, Magliano 16, d'Ambrosio 15, Caserta 14,
+De Lucia 14, Esposito 12, Maione 10, Petrarca 10, Cimmino 6, Castaldo 5, Crisci 4, Girardi 4.**
+
+**Four of those — Maione, Crisci, De Lucia, Cimmino — are also Arienzo Falco in-law names.** Costanza
+Maione m. Raffaele Falco at Arienzo 1897; Raffaella Maione appears as a Zampiello mother at Arpaia
+1899. So the two families' worlds overlapped a century before Carmine Falco married Francesca
+Zampiello in 1955. **Stated as a pattern, not a conclusion** — shared surnames across two villages
+4 km apart are suggestive, not probative.
+
+Zampiello households visible at Arpaia include: Antonio Zampiello & Pasqualina Caserta · Michele
+Zampiello & Francesca Magliano · Francesco Zampiello & Francesca De Lucia · Tommaso Zampiello & Rosa
+Crisci · Giuseppe Zampiello & Raffaella Maione · Giuseppe Zampiello & Rosa [Zampiello] · Filomena
+Zampiello & Vincenzo Girardi · Pasqualina Zampiello & Domenico Fucci · Maria Zampiello & Pasquale
+Castaldo.
+
+**Angelo Zampiello's own 1895 birth record was not recovered.** FamilySearch caps deep paging at
+~1,100 and treats Zampiello as interchangeable with Zampella/Zampillo/Campiello, flooding the result
+set. His parents remain unnamed. His war service remains uncorroborated.
+
 ## Other Falco households of Arienzo (not yet joined to the line)
 
 Francesco Falco & Maria Angela Ulivieccio (dau. Margarita m. Domenico Crisci) · Giuseppe Falco &

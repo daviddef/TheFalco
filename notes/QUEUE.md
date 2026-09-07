@@ -37,7 +37,11 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
 ## 5. Angelo Zampiello's war
 - [ ] Verify the Second Italo-Abyssinian War service and decorations (1935, Eritrea). *Fogli
       matricolari* for men of the province are at the **Archivio di Stato di Benevento**.
-- [ ] Trace the whole **Zampiello** surname in Italy — only ~37 people. Small enough to do exhaustively.
+- [x] Traced the Zampiello in the Benevento civil registers: 226 records, 1861-1915, **all at Arpaia**.
+- [ ] **Angelo Zampiello's birth record, 31 Aug 1895** — not recovered; the search API's ~1,100 paging
+      cap plus fuzzy matching on Zampella/Zampillo blocks it. Try the Arpaia register images directly,
+      or full-text search on the Benevento collection.
+- [ ] Test whether the **Maione** of Arienzo and the **Maione** of Arpaia are one kindred.
 
 ## 6. The emigration
 - [ ] Ship and year for **Carminantonio Falco** and **Filomena Annecchino** to Australia. Try the
