@@ -434,6 +434,48 @@ question this archive has not been able to answer.
 Reading it means paging the Mirador viewer through 310 images. That is feasible but slow, and it is
 the obvious next piece of work.
 
+
+## THE CIVIL MARRIAGE ACT FOUND — act 26, 15 December 1814
+
+Read directly from the Antenati images (`an_ua14218`, Arienzo Matrimoni 1814, p.9):
+
+> **Numero d'ordine 26.** L'anno mille ottocento **quattordici**, a dì **quindici 15** del mese di
+> **Dicembre**… nella casa Comunale… è comparso **Vincenzo Falco**, di anni **ventuno**, di
+> professione **contadino**, domiciliato in questo Comune… **figlio maggiore di Pasquale Falco**…
+> e comparsa egualmente **Andreana [Crisci]**… **figlia di Arcangelo**…
+
+This is new and load-bearing:
+- **The marriage is 15 December 1814, not 1817** — the year was inferred wrongly from the parish
+  register's page context and is now fixed by the civil act itself.
+- **Vincenzo was 21**, so born 1793 — the tree's date confirmed from a second, independent record.
+- **His trade: *contadino*** — a peasant farmer. First occupation recorded for this generation.
+- **"figlio maggiore di Pasquale Falco"** — *eldest son*, and Pasquale is named without *fu*, so
+  **Pasquale Falco was still alive in December 1814**.
+
+That last detail matters for the search above him: because the father was living, the marriage file
+would carry **Pasquale's consent**, not the death certificates of dead ancestors. Matteo Falco's death
+act was never going to be attached to this particular marriage.
+
+### And the processetto for act 26 is not in the volume
+
+Worked the 1814 processetti (`an_ua14154`, 290 pp.) from the back:
+
+- index 283 — **act 25**, publication: *Francesco Crisci fu Alessandro e Carmela Porrino* × *Teresa
+  Morgillo figlia di Mario e Marta Villano*, 20 November 1814
+- index 285 — the archpriest's certificate for that same act 25
+- index 286 — a divider card: **"Anno 1815 / Arienzo (66) / dal n° 1 al n° 25"**
+- index 288 — 1815, act 1, dated 8 January 1815
+
+So the volume runs to **act 25 and then straight into 1815**. The second 1814 volume
+(`an_ua14155`, 13 pp.) is a separate small series beginning again at n° 1. **Act 26's supporting file
+is not in either.** Whether it was never filed, was lost, or sits in an unscanned volume is not
+established — but it is not on Antenati.
+
+**Method note.** Antenati's IIIF images are Cloudflare-blocked to direct fetch, but they render if the
+`<img>` is injected into a page on the `antenati.cultura.gov.it` origin, and IIIF region syntax
+(`/pct:x,y,w,h/1600,/0/default.jpg`) crops and magnifies server-side, which makes the handwriting
+legible. That is what made this readable at all.
+
 ## Access note
 
 FamilySearch record *images* for several Caserta collections return "This record can only be displayed
