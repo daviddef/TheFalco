@@ -1,0 +1,38 @@
+---
+import "../styles/global.css";
+import { u } from "../lib/url.js";
+const { title, description = "An evidence-first archive of the Falco family of Arienzo, the Valle Caudina and Brisbane." } = Astro.props;
+const path = Astro.url.pathname.replace(/\/$/, "");
+const nav = [
+  ["/", "Home"], ["/direct-line", "The line"], ["/arienzo", "Arienzo"],
+  ["/name", "The name"], ["/places", "Places"], ["/method", "Method"], ["/sources", "Sources"],
+];
+const here = (p) => (u(p).replace(/\/$/, "") === path ? "page" : undefined);
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} · The Falco Archive</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    <header class="site">
+      <div class="wrap">
+        <a class="brand" href={u("/")}>The Falco Archive</a>
+        <nav>
+          {nav.map(([p, label]) => <a href={u(p)} aria-current={here(p)}>{label}</a>)}
+        </nav>
+      </div>
+    </header>
+    <main class="wrap"><slot /></main>
+    <footer class="site">
+      <div class="wrap">
+        <p>The Falco family of Arienzo, Caserta — and of Arpaia, Forchia, Benevento and Brisbane.
+        Every claim on this site carries a source or is labelled as unproven.</p>
+        <p class="small">Living people are omitted from this build. Corrections are welcome and are the most
+        valuable thing you can send.</p>
+      </div>
+    </footer>
+  </body>
+</html>

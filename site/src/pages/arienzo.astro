@@ -1,0 +1,65 @@
+---
+import Base from "../layouts/Base.astro";
+const inlaws = [
+  ["Crisci", 113, "Andreana Crisci married Vincenzo Falco. The commonest in-law name in the registers."],
+  ["Morgillo", 76, "Angela Rosa Morgillo, daughter of Orazio, married Raffaele Falco."],
+  ["Martone", 49, "Anna Martone married Aniello Maione; their daughter Costanza married into the Falco line."],
+  ["de Lucia", 40, "Repeatedly beside Falco on the same register pages."],
+  ["Rivetti", 17, "Chiara Rivetti, wife of Pasquale Falco."],
+  ["Arricale", 15, "Giovanna Arricole, wife of Carmine Antonio Falco. Spelled Arricale in the registers."],
+  ["Maione / Majone", 9, "Aniello Maione, father of Costanza. The register clerk used both spellings."],
+  ["Ferrara", 3, "Also the family of Giuseppa Ferrara, who married Angelo Zampiello at Arpaia."],
+  ["Falcone", 2, "Two glancing mentions only — which is the problem with generation 1."],
+];
+const books = [
+  ["Baptisms", "1672–1738, 1761–1837", "Collegiate Church of Sant'Andrea Apostolo"],
+  ["Marriages", "1754–1900", "with marriage supplements and proclamations into the 1920s"],
+  ["Deaths", "1733–1888", "bound with the marriage series"],
+];
+---
+<Base title="Arienzo">
+  <h1>Arienzo</h1>
+  <p class="lede">A comune of some six thousand people in the province of Caserta, at the western mouth of
+  the Valle Caudina. For at least two centuries it was the whole world of this family.</p>
+
+  <h2>What survives</h2>
+  <p>The parish registers of the Collegiate Church of <strong>Sant'Andrea Apostolo</strong> are digitised
+  and, since FamilySearch applied handwriting recognition to them, searchable by name rather than only
+  page by page.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Series</th><th>Years covered</th><th>Note</th></tr></thead>
+    <tbody>{books.map(([a,b,c]) => <tr><td><strong>{a}</strong></td><td class="mono">{b}</td><td>{c}</td></tr>)}</tbody>
+  </table></div>
+  <p class="small">There is a gap in the baptism series between 1738 and 1761. Civil registration begins
+  separately in 1809, when the Kingdom of Naples adopted the Napoleonic system.</p>
+
+  <h2>A family that married its neighbours</h2>
+  <p>Three hundred and sixty-one pages of the Arienzo baptism registers mention a Falco. Reading them for
+  the other surnames on the same pages gives the shape of the family's world — and every in-law name in
+  the direct line is there, over and over.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Surname</th><th>Pages</th><th>Why it matters</th></tr></thead>
+    <tbody>{inlaws.map(([n,c,w]) => (
+      <tr><td><strong>{n}</strong></td><td class="mono">{c}</td><td>{w}</td></tr>))}</tbody>
+  </table></div>
+  <p class="small">Counts are of register pages in which the name appears anywhere, not of individuals.
+  The handwriting recognition is imperfect on 18th-century Latin hands — <em>Crisci</em> is also read as
+  <em>Crisei</em>, <em>Morgillo</em> as <em>Morgitto</em> — and the counts above merge those variants.</p>
+
+  <h2>The couple at the frontier</h2>
+  <p>The oldest members of this line who can be shown to exist are
+  <strong>Pasquale Falco</strong> and <strong>Chiara Rivetti</strong>. They appear together, named as a
+  married couple of the parish, in the baptisms of their children:</p>
+  <blockquote>
+    …baptizavit infantem natam ex <strong>Paschale Falco</strong>, et <strong>Clara Rivetta</strong>
+    coniugibus huius Parochiae, cui dedit nomen Maria Raphaela.
+    <span class="small">— Arienzo baptisms, 24 February 1794</span>
+  </blockquote>
+  <p>Further entries for the same couple fall in 1795, twice in 1799 (a son, Domenico) and in
+  February 1802 (a daughter, Maria Angela). The parish is named in one of them in full: the
+  <em>insignis archipresbyteralis collegiata ecclesia Sancti Andreae</em> of Arienzo.</p>
+  <p class="small">A note of caution. The family tree gives Pasquale's birth as 1765 and Chiara's as 1772.
+  One further entry for the couple appears to read 1780, which cannot be right if those birth years are —
+  Chiara would have been eight. Either the date or the birth years are wrong. The digits are the least
+  reliable part of a machine reading of an 18th-century hand, and this needs a human eye on the page.</p>
+</Base>
