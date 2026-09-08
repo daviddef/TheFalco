@@ -129,12 +129,51 @@ Plate: `site/public/plates/raffaele-falco-birth-1818.jpg`
 | 44 | L | Fausto de Martino | 28 | bracciale | — |
 | 44 | R | Francesco Crisci | 28 | bracciale | Croce dell'Ospedale |
 
+## FOUND: Giuseppe Falco of strada Camellara — image 46 (right), act 57, foglio 154
+
+> …è comparso **GIUSEPPE FALCO**, di anni **trentasei**, di professione **contadino**, domiciliato in
+> questo comune, **strada Camellara**, ed ha dichiarato che il giorno sopraindicato ad ore quindici è
+> nata nella sua propria casa, da lui dichiarante, e da **ANTONIA DI GUIDA sua moglie legittima,
+> d'anni trenta**, una femina che ci ha presentata, **a cui si è dato il nome di MADDALENA**.
+> — 7 June 1818
+
+Plate: `site/public/plates/giuseppe-falco-birth-1818.jpg`
+
+**This is the most structurally important find of the volume.** The wife is the identification:
+the parish marriage record names *«Josephum Falco filium Matthei, e Franciscae Crisci»* marrying
+**Antonia di Guida**. So this Giuseppe is **a documented son of Matteo Falco and Francesca Crisci —
+Pasquale's own brother — and he is living on strada Camellara.**
+
+Four weeks earlier, on the same street, his nephew Raffaele was born to his brother's son Vincenzo.
+
+**What strada Camellara now is.** Not merely "the Falco street" but demonstrably **Matteo Falco's
+family's street**, across two generations and several siblings:
+
+| Who | Relation to the line | On the street |
+|---|---|---|
+| **Giuseppe Falco** & Antonia di Guida | **son of Matteo** — Pasquale's brother | June 1818 |
+| **Rosa Falco** & Carlantonio Morgillo | **daughter of Matteo** — Pasquale's sister | died there 1830 |
+| **Pasquale Falco** & Chiara Rivetti | **son of Matteo** — the line | died there 1834 |
+| **Vincenzo Falco** & Andreana Crisci | Pasquale's son | May 1818, and throughout |
+| Michele, Michelangelo, Francesco Falco | **not established** | 1831–36 |
+
+Three of Matteo's children are now placed on one short street. That does not prove Michele,
+Michelangelo and Francesco are his too — but it makes the 1831 act, in which Vincenzo calls
+Michelangelo's daughter kin, much easier to read.
+
+Also new: **Antonia di Guida was 30** in June 1818, so born about 1788; and Giuseppe at 36 was born
+about 1782, which sits neatly between Matteo's known children Joachim (1779) and Rosa (1786).
+
 ## Resume point
-**Image 45.** Still hunting **Maria Rosa Falco**, daughter of the Michele Falco of strada Camellara,
+**Image 69.** Images 2–68 are read — January to November, roughly acts 1–90 of about 95. Still hunting **Maria Rosa Falco**, daughter of the Michele Falco of strada Camellara,
 who died aged sixteen in May 1834 and so was born about 1818 — her act would give Michele's age and
 his wife's name, which is the whole reason for reading the birth registers.
 
-**Antenati is throttling**: a single IIIF tile now takes about 13 seconds against well under one
-earlier, so a six-page strip exceeds the 45-second script limit. Fetch one page (two tiles) per call
-while it is in this state, or wait for it to recover.
+**Maria Rosa Falco has NOT been found.** She was sixteen when she died in May 1834, so born about
+1817–18; she is not in the 1818 acts read so far, which makes **1817 (`an_ua14414`)** the next volume
+to try if the aim is to date the Michele Falco of strada Camellara.
+
+**Antenati throttles unpredictably**: cached tiles return in under half a second, new ones took 13
+and then 17 seconds, so a six-page strip can exceed the 45-second script limit without warning. Drop
+to one page per call when that happens; it recovers on its own.
 
