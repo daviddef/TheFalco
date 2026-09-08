@@ -47,6 +47,53 @@ She died in the same house as **Suor Giovanna di Lucia**, the nun recorded in th
 
 **Pasquale Falco has not appeared. The sweep continues.**
 
+
+## SECOND FALCO — 13 May 1836 — and it joins a household we already had
+
+Page index 17, right-hand act:
+
+> …nel giorno **tredici** del mese di **Maggio**, anno corrente, alle ore otto, è morta nella sua
+> propria casa **Margarita Falco, di anni sessanta, moglie di Domenico [Crisci]**, nata in Arienzo,
+> di professione **contadina**, domiciliata ivi, figlia di **Francesco Falco defunto**, di professione
+> **contadino**, domiciliato ivi.
+
+This is a person the archive already held. The Arienzo parish marriage register records
+*"Dominicum Crisci filium Vincentii et Mariae di Lucia, et **Margaritam Falco filiam Francisci, et
+Mariae Angelae Ulivieccio**"* (`3Q9M-CSMY-B7QN-8`). **Same woman.** The civil death act now supplies
+her age — 60, so born about **1776** — and her exact date of death.
+
+### And it separates two men of the same name
+
+Compare the two 1836 acts:
+
+| | Raffaela, 7 March | Margarita, 13 May |
+|---|---|---|
+| Her father | **Don Francesco Falco** | **Francesco Falco** |
+| His condition | ***proprietario*** | ***contadino*** |
+| Her own condition | *monaca*, in the monastery | *contadina*, in her own house |
+
+**There were two Francesco Falcos in Arienzo at the same period — one gentry, one peasant — and the
+clerk distinguishes them.** The archive must not merge them. Margarita's father, the *contadino*
+married to Maria Angela Ulivieccio, is the one whose world the documented line belongs to; Don
+Francesco the *proprietario* is a separate man and probably a separate branch.
+
+Margarita, born about 1776, is a near-contemporary of **Pasquale Falco (b. 1767)**. Whether Francesco
+the contadino was Pasquale's brother, cousin or no relation is **not established**.
+
+## Coverage — pages 12–18
+
+| Page | Left act | Right act |
+|---|---|---|
+| 12 | **Alessandra Ruggiero, *levatrice*** (midwife), d. of Pasquale (*calzolaio*), d. 11 Mar | Giuseppa Manna, 74, widow of Domenico Laudato, d. of Sebastiano (dec.), d. 17 Mar |
+| 13 | *(duplicate of p12)* | *(duplicate of p12)* |
+| 14 | Clemente Sadutto, mths, s. of Giovanbattista (*muratore*), d. 25 Mar | Maria Zimbardo, 38, w. of Onorio Macciariello, d. of Antonio, d. 21 Mar |
+| 15 | Domenico Ciuffi, 7, s. of Pasquale, d. 6 Apr | Domenico Attarelli, 14 mths, s. of Aniello (*agrimensore*), d. 7 Apr |
+| 16 | Domenica Ciuffi, 10 days, d. of Tommaso, d. 12 Apr | Alessandro Lettieri, 8 mths, s. of Carmine, d. 15 Apr |
+| 17 | Antonio Mauro, 8, s. of Raffaele (*vaticale*), d. 4 May | **MARGARITA FALCO, 60, *contadina*, w. of Domenico [Crisci], d. of Francesco (*contadino*, dec.) — d. 13 May** |
+| 18 | Vincenzo Zimbardo, mths, s. of Pasquale, d. 19 May | Raffaele Macciariello, 1, s. of Francesco, d. 26 May |
+
+**Pasquale Falco still has not appeared.**
+
 ## Resume here
 
-**Next page: index 12.** Continue to index 50.
+**Next page: index 19.** Continue to index 50.
