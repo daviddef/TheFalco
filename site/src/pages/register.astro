@@ -15,7 +15,7 @@ const linked = register.filter((r) => r.link).length;
 const distinct = new Set(register.map((r) => r.name.toLowerCase())).size;
 const KIND = {
   index: "surname index", record: "record", cited: "cited by this archive",
-  burial: "burial", file: "archive file", household: "reconstructed",
+  burial: "burial", file: "archive file", household: "reconstructed", swept: "read in the register",
 };
 ---
 <Base title="The register"
@@ -29,6 +29,12 @@ const KIND = {
     FamilySearch harvests. <strong>A shared surname is not a relationship.</strong> The Falco of
     Paolisi and Moiano in particular are largely a different population: their in-laws barely overlap
     with the Crisci, Morgillo, Martone and Rivetti that this family married into.</p>
+    <p style="margin-top:.6rem">Entries marked <em>read in the register</em> are people this archive
+    met while reading the Arienzo death registers act by act — neighbours, declarants, the families who
+    buried each other's children on strada Camellara. They are here because they were found, not
+    because they are kin. Only <strong>1834</strong> was logged act-by-act; the other seven years were
+    read in full but recorded selectively, so most of those people are named in the
+    <a href="https://github.com/daviddef/TheFalco/tree/main/notes">reading logs</a> rather than here.</p>
     <p style="margin-top:.6rem">The <span class="chip doc">reconstructed</span> entries are the ones
     this archive has actually joined into households from the words of a record. Those names link to
     a <a href={u("/people")}>person page</a>. Everything else links out to the source and is offered

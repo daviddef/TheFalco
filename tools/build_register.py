@@ -83,6 +83,15 @@ for r in rd("data/naa-records.tsv"):
                                r.get("date_range"), r.get("location"), r.get("access")] if x),
         "National Archives of Australia", link, "file", r.get("date_range") or "")
 
+# --- everyone read act-by-act in the 1834 death-register sweep ---
+if os.path.exists("data/sweep-people.tsv"):
+    for r in rd("data/sweep-people.tsv"):
+        add(r["name"], sur(r["name"]),
+            " · ".join(x for x in [(r["age"] if r["age"] not in ("", "—") else ""),
+                                   r["detail"]] if x),
+            f'Arienzo death register {r["year"]}, image {r["img"]}{r["side"]}',
+            AN + r["ark"] if r["ark"] else "", "swept", r["year"])
+
 # --- the reconstructed households (already have full pages) ---
 hh = json.load(open("site/src/data/households.json"))
 for h in hh:
