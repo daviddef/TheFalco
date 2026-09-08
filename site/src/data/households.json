@@ -261,6 +261,16 @@
     "place": "Arienzo",
     "evidence": "Anna Falco figlia Paschalis et Clara Rivetta, ed uxor Archangeli Crisci, aetatis suae annorum 22 circiter",
     "ark": "3Q9M-CSMY-B77F-V"
+   },
+   {
+    "household": "Pasquale Falco & Chiara Rivetti",
+    "person": "Pasquale Falco",
+    "role": "father",
+    "event": "death",
+    "date": "1 Oct 1834",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "è morto nella sua propria casa Pasquale Falco, d'anni settantaquattro, marito di Chiara Rivetti, di professione contadino, nato in Arienzo, figlio di Matteo Falco, defunto, e di Francesca Crisci, defunta",
+    "ark": "ANTENATI an_ua14336 img43 act69"
    }
   ]
  },
@@ -376,6 +386,26 @@
     "place": "Arienzo",
     "evidence": "… Falco filiam Vincentii, e Andreanae Crisci m. Antonino Mario…",
     "ark": "3Q9M-CSMY-B7HD-K"
+   },
+   {
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Pasquale Falco",
+    "role": "child",
+    "event": "death",
+    "date": "25 Dec 1834",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "Pasquale Falco, di giorni dieci, nato in Arienzo, figlio di Vincenzo Falco — b. c.15 Dec 1834, named for his grandfather who died 1 Oct",
+    "ark": "ANTENATI an_ua14336 img53r"
+   },
+   {
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Pasquale Falco",
+    "role": "child",
+    "event": "death",
+    "date": "22 Feb 1833",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "Pasquale Falco, di anni tre, nato in Arienzo, figlio di Vincenzo Falco, di professione contadino, e di Andreana Crisci — b. c.1830; a first child of this name, twenty-two months before the second",
+    "ark": "ANTENATI an_ua14335 img9l act16"
    }
   ]
  },
@@ -486,6 +516,36 @@
     "place": "Arienzo",
     "evidence": "Clemens Falco filius Francisci, et Raphaelae Falco, aetatis suae annorum quinque — a Falco who married a Falco",
     "ark": "3Q9M-CSMY-B733-G"
+   }
+  ]
+ },
+ {
+  "name": "Michele Falco (strada Camellara)",
+  "members": [
+   {
+    "household": "Michele Falco (strada Camellara)",
+    "person": "Maria Rosa Falco",
+    "role": "child",
+    "event": "death",
+    "date": "30 May 1834",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "Maria Rosa Falco, d'anni sedici, contadina, figlia di Michele Falco, contadino",
+    "ark": "ANTENATI an_ua14336 img23r"
+   }
+  ]
+ },
+ {
+  "name": "Michelangelo Falco (strada Camellara)",
+  "members": [
+   {
+    "household": "Michelangelo Falco (strada Camellara)",
+    "person": "Anna Falco",
+    "role": "child",
+    "event": "death",
+    "date": "7 Mar 1834",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "Anna Falco, di giorni otto, figlia di Michelangelo Falco, contadino",
+    "ark": "ANTENATI an_ua14336 img10l"
    }
   ]
  }

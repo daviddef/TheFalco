@@ -626,3 +626,27 @@ unrelated is **not established**. The Arienzo civil birth registers would settle
 ### Registers now read in full and eliminated
 1834 (found), 1835, 1836. Remaining unread from the old bracket: 1829–33, 1837–43 — no longer needed
 for Pasquale, but they hold the rest of this Camellara cluster.
+
+## 1833 Arienzo civil death register — read in full (8 Sep 2026)
+
+`an_ua14335`, 58 images. Acts 5 Jan – 29 Dec. Duplicate bindings 11≡10, 16≡15, 22≡21, 33≡32, 49≡48, 53≡52.
+
+**One Falco: Pasquale Falco, aged 3, died 22 February 1833 at one in the morning** — act no. 16,
+image 9 left. *"figlio di Vincenzo Falco, di professione contadino, e di Andreana Crisci"*,
+strada Camellara. Declarants Grazio Torrino (40) and Angelo Lombardo (30), both *contadini* of the
+same street.
+
+1. **First civil record placing Vincenzo Falco and Andreana Crisci together as a household**, with an
+   address. Previously the couple rested on the 1814 marriage act and their son Raffaele's 1818 baptism.
+2. **Vincenzo named a son for his father twice and lost both.** This one (b. c.1830, d. Feb 1833) while
+   the grandfather was alive; the next (b. c.15 Dec 1834, d. 25 Dec 1834) named after the grandfather's
+   death on 1 Oct 1834.
+
+### Why the 1829–43 hunt could not be shortcut
+Each volume has a printed **"Tavola alfabetica annuale de' Morti"** bound into the back — ruled columns
+for surname, forename, *patria*, profession, parents and date of death. **In Arienzo it was left blank.**
+The clerk signed the closing certificate and never completed the table. The volumes do not lack an index;
+the index was never filled in.
+
+### Registers now read in full
+1833, 1834 (target found), 1835, 1836. Remaining from the old bracket: 1829–32, 1837–43.

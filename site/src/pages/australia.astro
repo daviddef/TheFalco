@@ -101,7 +101,7 @@ const graves = [
 
   <h2>Plates</h2>
   <div class="grid two">
-    {plates.map(p => (
+    {plates.filter(p => p.k !== "register").map(p => (
       <figure style="margin:0" class="card">
         <img src={u("/plates/" + p.f)} alt={p.t} loading="lazy"
              style="width:100%;height:auto;border-radius:.35rem;display:block" />
