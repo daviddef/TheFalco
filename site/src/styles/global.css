@@ -71,7 +71,7 @@ blockquote{margin:1.2rem 0;padding:.2rem 0 .2rem 1.1rem;border-left:3px solid va
 /* The generation spine: ten lives as one vertical run */
 .spine{position:relative;margin:2rem 0 2.5rem;padding-left:2.6rem}
 .spine::before{content:"";position:absolute;left:.86rem;top:.4rem;bottom:.4rem;width:2px;
-  background:linear-gradient(var(--gold),var(--accent-2))}
+  background:linear-gradient(transparent,var(--gold) 12%,var(--accent-2))}
 .gen{position:relative;margin:0 0 1.15rem}
 .gen::before{content:"";position:absolute;left:-2.03rem;top:.42rem;width:.72rem;height:.72rem;
   border-radius:50%;background:var(--bg);border:2px solid var(--accent-2)}

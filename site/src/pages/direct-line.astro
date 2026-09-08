@@ -6,12 +6,13 @@ const shown = line.filter(g => !g.living);
 ---
 <Base title="The direct line">
   <h1>The direct line</h1>
-  <p class="lede">Nine generations from the Arienzo of the 1790s to Brisbane. Each row says what the
-  evidence is, and each generation is joined to the one above it by a record that names a father.</p>
+  <p class="lede">Nine generations from the Arienzo of the 1730s to Brisbane. Each row says what the
+  evidence is, and each generation is joined to the one above it by a record that names a father.
+  The ninth is living and is not published here; eight are shown.</p>
 
   <div class="spine">
     {shown.map(g => (
-      <div class={"gen" + (g.confidence === "documented" ? "" : " undoc")}>
+      <div class={"gen" + (g.gen === 1 ? " undoc" : "")}>
         <div><span class="yr">{g.gen}</span><span class="who">{g.name}</span></div>
         <div class="whr">
           {g.born ? "b. " + g.born : ""}
@@ -23,7 +24,8 @@ const shown = line.filter(g => !g.living);
     ))}
   </div>
   <p class="spine-key">A solid ring is a generation joined to the one above it by a record that names
-  a father. A dashed ring is not.</p>
+  a father. <strong>Matteo's ring is open</strong>: no record has been found that names <em>his</em>
+  father, and the line stops there. That gap is the point of the drawing.</p>
 
   {shown.map(g => (
     <section class="card" style="margin:1rem 0">
