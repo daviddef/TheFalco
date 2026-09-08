@@ -1,0 +1,114 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+const REPO = "https://github.com/daviddef/TheFalco";
+
+/* What has been read, page by page, and what was in it — including the years
+   that held nothing. A null is a result: it is what stops the next person
+   reading the same volume again. */
+const READ = [
+  { kind: "Deaths", year: "1829", ark: "an_ua14331", imgs: 65, falco: 0,
+    found: "Nothing. The only year of the eight with no Falco in it at all — not deceased, not parent, not declarant.",
+    note: "The null matters: it cuts against a parish entry of 1829 this archive had relied on to show Pasquale was alive. That entry needs re-reading." },
+  { kind: "Deaths", year: "1830", ark: "an_ua14332", imgs: 59, falco: 1,
+    found: "Rosa Falco, 42, wife of Carlantonio Morgillo — daughter of Matteo Falco and Francesca Crisci. Pasquale's sister.",
+    note: "Names the line's founding couple a second time, from a second child, four years before Pasquale's own act." },
+  { kind: "Deaths", year: "1831", ark: "an_ua14333", imgs: 62, falco: 1,
+    found: "Anna Falco, 13 months, daughter of Michelangelo Falco and Mariantonia Vigliotta. Plus Vincenzo Falco and Giuseppe Falco alive, as declarants.",
+    note: "Vincenzo declares it as «parente» where the other declarant is «vicino» — the first kinship joining the line to another Camellara household." },
+  { kind: "Deaths", year: "1832", ark: "an_ua14334", imgs: 53, falco: 2,
+    found: "Giovanna Falco, 70, daughter of Michele Falco and Vincenza Esposito. Carmina Falco, 6 months, daughter of Francesco Falco and Raffaela Falco.",
+    note: "A second founding-generation couple — and a Falco who married a Falco." },
+  { kind: "Deaths", year: "1833", ark: "an_ua14335", imgs: 58, falco: 1,
+    found: "Pasquale Falco, 3, son of Vincenzo Falco and Andreana Crisci.",
+    note: "The first civil record placing that couple together as a household, with an address." },
+  { kind: "Deaths", year: "1834", ark: "an_ua14336", imgs: 57, falco: 3,
+    found: "PASQUALE FALCO, 1 October — the record the whole search was for. Also Maria Rosa Falco, 16, daughter of Michele; Anna Falco, 8 days, daughter of Michelangelo; and Pasquale Falco, 10 days, son of Vincenzo.",
+    note: "All 101 acts of this year are logged individually in the reading log." },
+  { kind: "Deaths", year: "1835", ark: "an_ua14337", imgs: 46, falco: 0,
+    found: "Nothing.",
+    note: "Read in full while hunting Pasquale, and eliminated." },
+  { kind: "Deaths", year: "1836", ark: "an_ua14338", imgs: 51, falco: 4,
+    found: "Donna Raffaela de Falco, 67, a nun, daughter of Don Francesco Falco, proprietario. Margarita Falco, 60. Salvatore Falco, 14 months, son of Michele. Pasqualina Falco, 10 months, daughter of Francesco.",
+    note: "Revealed a gentry Falco branch at Arienzo, spelled «de Falco», never joined to this family." },
+  { kind: "Births", year: "1816", ark: "an_ua14413", imgs: 66, falco: 2,
+    found: "Raffaele Falco, 25 April, son of Vincenzo Falco and Andreana Crisci. Domenico Falco, 25 November, son of a DIFFERENT Giuseppe Falco and Gelsomina Vigliotta, of strada Costa.",
+    note: "The 1816 Raffaele unsettles generation four. The register closed at 123 acts; all 122 fathers read are logged." },
+  { kind: "Births", year: "1817", ark: "an_ua14414", imgs: 48, falco: 0,
+    found: "No Falco. But two Arcangelo Crisci, aged 52 and 30, declaring births in the same year — which answers a standing question.",
+    note: "All 77 fathers read are logged with age, trade and street." },
+  { kind: "Births", year: "1818", ark: "an_ua14415", imgs: 85, falco: 2,
+    found: "Raffaele Falco, 10 May, son of Vincenzo and Andreana — generation four. Maddalena Falco, 7 June, daughter of Giuseppe Falco and Antonia di Guida, of strada Camellara.",
+    note: "Giuseppe is a documented son of Matteo — so a child of the founding couple is placed on the family's street." },
+];
+
+const NOT_FOUND = [
+  ["Pasquale Falco's death, in the parish registers",
+   "1,145 pages of the Arienzo parish death register, harvested from FamilySearch's full text and searched by name, by OCR variant, and by male-adult-with-age across 1828–1845.",
+   "It is not there. It was found only in the civil register, by reading 1834 act by act."],
+  ["Pasquale Falco, in the FamilySearch index",
+   "All 1,162 Falco records in FamilySearch's index of Caserta civil registration 1809–1866, of which 249 fall in the window.",
+   "The only «Pasquale Falco» principals are two Falcone men of other families."],
+  ["Maria Rosa Falco's birth",
+   "The Arienzo birth registers for 1816, 1817 and 1818, all read act by act.",
+   "Absent from all three. She was sixteen at her death in May 1834. Either the age was loose by more than two years, she was born outside Arienzo, or she was baptised without a civil act. Michele Falco of strada Camellara therefore remains undated."],
+  ["Matteo Falco's marriage",
+   "2,056 transcribed pages of the Arienzo marriage and death registers, searched for a marriage to Francesca Crisci between about 1760 and 1766.",
+   "Not found. It would name his father, and it is the line's frontier. His own baptism falls in the gap the register leaves between 1738 and 1761."],
+  ["The Arienzo processetti of 1817",
+   "Antenati — the marriage supplement file for Vincenzo Falco's marriage of December 1814.",
+   "The 1814 volume runs to act 25 and stops; act 26's file is in neither volume. Whether it was never filed, was lost, or sits unscanned is not established."],
+  ["Angelo Zampiello's and Filomena Annecchino's births",
+   "Antenati — Arpaia births 1895 and Forchia births 1897.",
+   "Neither volume was digitised: the shelf-marks run consecutively and skip those years. Both are at the Archivio di Stato di Benevento and must be ordered."],
+];
+const totalImgs = READ.reduce((a, r) => a + r.imgs, 0);
+const totalFalco = READ.reduce((a, r) => a + r.falco, 0);
+---
+<Base title="What has been read"
+      eyebrow="Coverage, including the years that held nothing"
+      dek={`Eleven annual registers read page by page — ${totalImgs} images, some two thousand acts, ${totalFalco} Falco. This page exists so that a null is not lost: knowing a volume has been read and held nothing is worth as much as knowing what it held.`}>
+
+  <div class="card" style="border-left:3px solid var(--accent)">
+    <p><strong>Why record the negatives.</strong> A family archive that only publishes its finds
+    invites the next person to repeat every search that failed. Three of the eleven volumes below
+    contained no Falco at all, and one of those nulls overturned something this archive had been
+    relying on. Every one of these years is logged act by act in the
+    <a href={REPO + "/tree/main/notes"}>reading logs</a>, with each father's age, trade and street.</p>
+  </div>
+
+  <h2>Registers read in full</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Register</th><th class="m">Ark</th><th class="m">Images</th><th class="m">Falco</th><th>What was in it</th></tr></thead>
+    <tbody>
+      {READ.map((r) => (
+        <tr>
+          <td><strong>{r.kind} {r.year}</strong></td>
+          <td class="m">{r.ark}</td>
+          <td class="m">{r.imgs}</td>
+          <td class="m">{r.falco === 0 ? <span class="chip dis">none</span> : r.falco}</td>
+          <td>{r.found}<br/><span class="small">{r.note}</span></td>
+        </tr>
+      ))}
+    </tbody>
+  </table></div>
+
+  <h2>Searched and not found</h2>
+  <p class="dek">Set down so nobody repeats them.</p>
+  {NOT_FOUND.map(([what, where, result]) => (
+    <section class="card" style="margin:1rem 0">
+      <h3 style="margin-bottom:.3rem">{what}</h3>
+      <p class="small mono" style="margin:.1rem 0 .5rem">{where}</p>
+      <p style="margin:.2rem 0">{result}</p>
+    </section>
+  ))}
+
+  <h2>Still to read</h2>
+  <p class="dek">The Arienzo death registers for <strong>1837–1843</strong>, and for
+  <strong>1816–1818</strong> — the last of which would settle which Raffaele is generation four by
+  finding, or failing to find, a burial for the child born in April 1816. The birth registers before
+  1816 and after 1818. And the <em>processetti</em>, 258 volumes across four towns, of which none
+  have been read.</p>
+  <p class="small">Everything above is in <a href={u("/open-questions")}>Open questions</a> with what
+  it would take to answer it.</p>
+</Base>
