@@ -124,8 +124,32 @@ and **Raffaele Rivetti**, an infant son of Francesco Rivetti. Chiara Rivetti —
 that the Rivetti of Arienzo appear at both social levels: a *Doctoris Physici* in one marriage record,
 *contadini* here.
 
+| 31 | Pasquale di Guida, 57, ***sensale*** (broker), h. of a Sepitelli, s. of Giuseppe, d. 11 Aug | Francesco Liparulo, 10 mths, s. of Clemente (*sartore*), d. 27 Aug |
+| 32 | Elena Cerrone, 70, s. of Domenico — **died in the Ave Gratia Plena hospital**, d. 28 Aug | **PASQUALINA FALCO, 10 months, d. of FRANCESCO FALCO, *contadino*, strada Camellara — d. 14 Sep** |
+| 33 | *(blank)* | Angelo Martone, mths, s. of Clemente, d. 22 Sep |
+
+## FOURTH FALCO — 14 September 1836 — and the street emerges
+
+> …nel giorno **quattordici** del mese di **Settembre**… è morta nella sua propria casa
+> **Pasqualina Falco, di mesi dieci**, nata in Arienzo… figlia di **Francesco Falco**, di professione
+> **contadino**, domiciliato ivi, **strada Camellara**.
+
+**Two things.**
+
+1. **A living Francesco Falco, *contadino*.** Margarita's father Francesco was already *defunto* in
+   May 1836, so this is a different man — a son, nephew or namesake. There were at least **three
+   Francesco Falcos** in Arienzo across this period: Don Francesco the *proprietario*, Francesco the
+   *contadino* married to Maria Angela Ulivieccio (dead by 1836), and this one, living.
+2. **The peasant Falco lived in *strada Camellara*.** Michele Falco, who buried Salvatore five weeks
+   earlier, is recorded at the same street. **Michele and Francesco were neighbours, and very
+   probably kin.** This is the first time the archive has had an *address* for the Arienzo Falco.
+
+The child's name is **Pasqualina** — the feminine of Pasquale. Under the Neapolitan naming convention
+that would ordinarily point to a grandfather called Pasquale. **It is not evidence**, and Pasquale was
+among the commonest names in the parish, but it is worth writing down.
+
 **Pasquale Falco still has not appeared.**
 
 ## Resume here
 
-**Next page: index 31.** Continue to index 50. Pages 2–30 read (January to early August 1836); **three Falco found — Raffaela the nun, Margarita, and the infant Salvatore — none of them Pasquale.**
+**Next page: index 34.** Continue to index 50. Pages 2–33 read (January to late September 1836); **four Falco found — Raffaela the nun, Margarita, and the infants Salvatore and Pasqualina — none of them Pasquale.**
