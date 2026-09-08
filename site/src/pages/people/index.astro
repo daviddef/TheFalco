@@ -1,0 +1,32 @@
+---
+import Base from "../../layouts/Base.astro";
+import { u } from "../../lib/url.js";
+import { people } from "../../lib/people.js";
+const sorted = [...people].sort((a, b) => a.name.localeCompare(b.name));
+const groups = {};
+for (const p of sorted) {
+  const k = (p.name.match(/[A-Za-z]/) || ["?"])[0].toUpperCase();
+  (groups[k] ||= []).push(p);
+}
+const keys = Object.keys(groups).sort();
+const withEvents = people.filter((p) => p.events.length).length;
+---
+<Base title="The people"
+      eyebrow="Everyone this archive can name"
+      dek={`${people.length} people, of whom ${withEvents} have at least one dated record. Every one of them has a page, whether they continued the line or not.`}>
+  {keys.map((k) => (
+    <section style="margin:1.4rem 0">
+      <h2 style="margin-bottom:.5rem">{k}</h2>
+      <div class="grid two">
+        {groups[k].map((p) => (
+          <div class="card" style="padding:14px 16px">
+            <a href={u("/people/" + p.slug)}><strong>{p.name}</strong></a>
+            {p.gen ? <span class="chip doc" style="margin-left:.5rem">gen {p.gen}</span> : null}
+            <div class="small">{p.household}</div>
+            {p.events.length ? <div class="small mono">{p.events.map((e) => e.date).filter((d) => d && d !== "—").join(" · ")}</div> : null}
+          </div>
+        ))}
+      </div>
+    </section>
+  ))}
+</Base>

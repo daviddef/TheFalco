@@ -1,11 +1,13 @@
 ---
 import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
 import households from "../data/households.json";
+import { findPerson } from "../lib/people.js";
 ---
 <Base title="The households">
   <h1>The households</h1>
-  <p class="lede">Ten reconstructed families of the parish of Sant'Andrea at Arienzo, covering
-  1637 to 1869 — read out of the parish registers entry by entry.</p>
+  <p class="lede">{households.length} reconstructed families of the parish of Sant'Andrea at Arienzo and
+  of the civil registers after it — read entry by entry. Every name below is a link to that person.</p>
 
   {households.map(h => (
     <section style="margin:2rem 0">
@@ -14,7 +16,7 @@ import households from "../data/households.json";
         <thead><tr><th>Person</th><th>Event</th><th>Date</th><th>What the register says</th></tr></thead>
         <tbody>{h.members.map(m => (
           <tr>
-            <td><strong>{m.person}</strong><br/><span class="small">{m.role}</span></td>
+            <td><strong><a href={u("/people/" + (findPerson(m.person, h.name)||{}).slug)}>{m.person}</a></strong><br/><span class="small">{m.role}</span></td>
             <td>{m.event}</td>
             <td class="mono">{m.date}</td>
             <td><em>{m.evidence}</em>{m.ark ? <><br/><span class="mono small">{m.ark}</span></> : null}</td>

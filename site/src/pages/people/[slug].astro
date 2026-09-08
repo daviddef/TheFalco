@@ -1,0 +1,72 @@
+---
+import Base from "../../layouts/Base.astro";
+import { u } from "../../lib/url.js";
+import { people } from "../../lib/people.js";
+
+export function getStaticPaths() {
+  return people.map((p) => ({ params: { slug: p.slug }, props: { p } }));
+}
+const { p } = Astro.props;
+const sameName = people.filter((q) => q.slug !== p.slug && q.name === p.name);
+const siblings = people.filter((q) => q.household === p.household && q.slug !== p.slug && q.role === "child");
+const family  = people.filter((q) => q.household === p.household && q.role !== "child");
+---
+<Base title={p.name}
+      eyebrow={p.gen ? `Generation ${p.gen} of the direct line` : p.household}
+      dek={p.gen ? p.line.note : `Recorded in the household of ${p.household}.`}>
+
+  <div class="grid two">
+    <div class="card">
+      <h3>What the registers say</h3>
+      {p.events.length ? (
+        <ul style="margin:.4rem 0">
+          {p.events.map((e) => (
+            <li style="margin:.6rem 0">
+              <strong>{e.event}</strong>{e.date && e.date !== "—" ? <span> — {e.date}</span> : null}
+              {e.place ? <span>, {e.place}</span> : null}
+              {e.evidence ? <div class="small" style="margin-top:.25rem">“{e.evidence}”</div> : null}
+              {e.ark ? <div class="small mono">{e.ark}</div> : null}
+            </li>
+          ))}
+        </ul>
+      ) : <p class="small">No event is recorded for this person beyond their being named.</p>}
+    </div>
+
+    <div class="card">
+      <h3>Household</h3>
+      <p><a href={u("/households")}>{p.household}</a></p>
+      {p.parents && p.parents.length === 2 ? (
+        <p class="small">Child of {p.parents.map((x, i) => (
+          <span>{i ? " and " : ""}{x.slug ? <a href={u("/people/" + x.slug)}>{x.name}</a> : x.name}</span>
+        ))}.</p>
+      ) : null}
+      {family.length ? (
+        <p class="small">With: {family.map((q, i) => (
+          <span>{i ? ", " : ""}<a href={u("/people/" + q.slug)}>{q.name}</a></span>
+        ))}</p>
+      ) : null}
+      {siblings.length ? (
+        <>
+          <h3 style="margin-top:1rem">Others in the same house</h3>
+          <p class="small">{siblings.map((q, i) => (
+            <span>{i ? ", " : ""}<a href={u("/people/" + q.slug)}>{q.name}</a></span>
+          ))}</p>
+        </>
+      ) : null}
+      {p.gen ? <p class="small" style="margin-top:.8rem"><a href={u("/direct-line")}>See this generation on the spine →</a></p> : null}
+    </div>
+  </div>
+
+  {sameName.length ? (
+    <>
+      <h2>Others of the same name</h2>
+      <p class="small">This parish repeats its names relentlessly. These are different people, kept apart
+      on purpose rather than merged into one.</p>
+      <ul>{sameName.map((q) => (
+        <li><a href={u("/people/" + q.slug)}>{q.name}</a> <span class="small">— {q.household}</span></li>
+      ))}</ul>
+    </>
+  ) : null}
+
+  <p class="small" style="margin-top:2rem"><a href={u("/people")}>← All the people</a></p>
+</Base>

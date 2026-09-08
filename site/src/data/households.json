@@ -603,5 +603,30 @@
     "ark": "ANTENATI an_ua14334 img20l act32"
    }
   ]
+ },
+ {
+  "name": "Tommaso Zampiello",
+  "members": [
+   {
+    "household": "Tommaso Zampiello",
+    "person": "Tommaso Zampiello",
+    "role": "father",
+    "event": "—",
+    "date": "—",
+    "place": "Arpaia",
+    "evidence": "named as the father on his son's War Merit Cross certificate: «all'operaio Zampiello Angelo di Tommaso»",
+    "ark": "Croce al Merito di Guerra n. 18745, 1938"
+   },
+   {
+    "household": "Tommaso Zampiello",
+    "person": "Angelo Zampiello",
+    "role": "child",
+    "event": "decoration",
+    "date": "24 Sep 1938",
+    "place": "Roma",
+    "evidence": "Croce al Merito di Guerra, conferred for operations in East Africa from 3 October 1935; b. 31 Aug 1895, d. 25 Apr 1972 per his memorial card",
+    "ark": "Croce al Merito di Guerra n. 18745"
+   }
+  ]
  }
 ]
