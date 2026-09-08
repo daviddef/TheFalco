@@ -685,3 +685,37 @@ the browser pane entirely. Use this for all future volumes.
 
 ### Registers read in full
 1832, 1833, 1834 (target found), 1835, 1836. Remaining: 1829–31, 1837–43.
+
+## 1829–1831 Arienzo civil death registers (8–9 Sep 2026)
+
+### 1831 — the kinship
+`an_ua14333`, 62 images. **Anna Falco, 13 months, d. 4 May 1831**, act 33 p.67 — *figlia di
+Michelangelo Falco e di Mariantonia Vigliotta*, strada Camellara. **Second declarant: VINCENZO FALCO,
+38, «parente della defunta»** where the first is «vicino». Vincenzo is gen 3 (b. 1793). **The first
+record joining the direct line to another Camellara household.** Degree unstated. Also: Giuseppe
+Falco, 46, *colono*, a sixth Falco householder on the street.
+
+### 1830 — the sister
+`an_ua14332`, 59 images. **Rosa Falco, 42, d. 16 Oct 1830**, act 53 p.89 — *moglie di Carlantonio
+Morgillo … figlia di Matteo Falco defunto e di Francesca Crisci defunta*. **Pasquale's sister**, and
+the founding couple named a second time from a second child, four years before Pasquale's own act.
+Matches the Rosa baptised 5 Jan 1786. **The Falco and Morgillo married twice, two generations apart** —
+Rosa m. Carlantonio Morgillo c.1810; Raffaele Falco (gen 4) m. Angela Rosa Morgillo. Morgillo were
+neighbours on the street throughout.
+
+### 1829 — a null, and a problem
+`an_ua14331`, 65 images. **No Falco at all** — not deceased, not parent, not declarant. The only such
+year in the eight.
+
+**This cuts against a claim the archive was relying on.** The statement that Pasquale was alive in
+1829 rested on a *parish* entry (machine transcription) naming him without *quondam* at the death of a
+daughter Angela. The *civil* register for 1829 has no Angela Falco and no Falco of any name. A death
+at Arienzo should be in both books. **Re-read the parish entry against the image.** Logged as an open
+question. It does not disturb the line — the 1834 death act settles that independently.
+
+### Administrative
+Arienzo's district is **Nola** in 1829–31 and **Caserta** from 1832. The blank *Tavola alfabetica* is
+present in every one of the eight volumes.
+
+### State
+**1829–1836 read end to end** — ~460 images, ~900 acts, twelve Falco deaths. Remaining: 1837–1843.
