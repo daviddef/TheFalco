@@ -190,9 +190,11 @@ const H = 400;
     font-size:14px;line-height:1.55;color:var(--ink-2);min-height:52px}
   .ruleread[data-kind="world"]{border-left-color:var(--ochre)}
   .ruleread[data-kind="rule"]{border-left-color:var(--ink-3)}
-  .ruleread .rr-kind{display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;
-    text-transform:uppercase;color:var(--ink-3);margin-bottom:4px}
-  .ruleread .rr-year{font-family:var(--mono);font-size:13px;color:var(--ink);margin-right:9px}
+  .ruleread :global(.rr-kind){display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--ink-3);margin-bottom:5px}
+  .ruleread :global(.rr-year){display:inline-block;font-family:var(--mono);font-size:13px;
+    color:var(--ink);margin-right:10px;font-weight:600}
+  .ruleread :global(.rr-what){display:inline}
   .rl-key{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:14px}
   .rl-sw{font-family:var(--sans);font-size:11.5px;color:var(--ink-2);display:inline-flex;
     align-items:center;gap:6px}
