@@ -5,6 +5,7 @@ import re, csv, glob, os
 
 ARK = {"1829":"an_ua14331","1830":"an_ua14332","1831":"an_ua14333","1832":"an_ua14334",
        "1833":"an_ua14335","1834":"an_ua14336","1835":"an_ua14337","1836":"an_ua14338"}
+BIRTH_ARK = {"1816":"an_ua14413","1817":"an_ua14414","1818":"an_ua14415"}
 rows=[]
 for path in sorted(glob.glob("notes/18*-death-register-progress.md")):
     year = re.search(r"(18\d\d)", os.path.basename(path)).group(1)
@@ -21,6 +22,27 @@ for path in sorted(glob.glob("notes/18*-death-register-progress.md")):
                          age=re.sub(r"\*","",age).strip(),
                          detail=re.sub(r"\*\*|\*","",detail).strip(),
                          ark=ARK.get(year,"")))
+# birth registers: | img | side | father | age | trade | street |
+for path in sorted(glob.glob("notes/18*-birth-register-progress.md")):
+    year = re.search(r"(18\d\d)", os.path.basename(path)).group(1)
+    for ln in open(path):
+        if not ln.startswith("|"): continue
+        c=[x.strip() for x in ln.strip().strip("|").split("|")]
+        if len(c)<6: continue
+        img,side,name,age,trade,street = c[0],c[1],c[2],c[3],c[4],c[5]
+        if not re.fullmatch(r"\d+", img): continue
+        name = re.sub(r"\*\*|\*", "", name).strip()
+        if not name or name.startswith("(") or "duplicat" in name.lower(): continue
+        if len(name)<3: continue
+        det=[]
+        if age and age not in ("—","-"): det.append("aged "+re.sub(r"\*","",age))
+        if trade and trade not in ("—","-"): det.append(re.sub(r"\*","",trade))
+        if street and street not in ("—","-"): det.append("strada "+re.sub(r"\*\*|\*","",street))
+        det.append("declares a birth")
+        rows.append(dict(year=year, img=img, side=side, name=name,
+                         age=re.sub(r"\*","",age).strip(),
+                         detail=" · ".join(det), ark=BIRTH_ARK.get(year,"")))
+
 with open("data/sweep-people.tsv","w",newline="") as f:
     w=csv.DictWriter(f,delimiter="\t",fieldnames=["year","img","side","name","age","detail","ark"])
     w.writeheader(); w.writerows(rows)
