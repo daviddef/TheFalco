@@ -27,7 +27,7 @@ const LANES = [
       ["Michelangelo", "1831", "Michelangelo Falco and Mariantonia Vigliotta bury Anna, thirteen months — and VINCENZO FALCO of the direct line declares it as «parente», a kinsman. The one household on this street that is proved kin"],
       ["Michele", "1834", "A Michele Falco of the same street buries Maria Rosa, sixteen, and in 1836 a son of fourteen months"],
     ],
-    ends: ["Michelangelo: kin, degree unstated", "The other three: unjoined"],
+    ends: ["Michelangelo — kin", "The other three — not"],
   },
   {
     key: "paolisi", colour: "var(--terra)", label: "Out of Paolisi — the oldest claim",
@@ -37,7 +37,7 @@ const LANES = [
       ["Paolisi", "1714", "Francesco Falco, the earliest Arienzo Falco household with a stated place of origin"],
       ["Arienzo", "1726", "and still at Arienzo twelve years later, with children in the books"],
     ],
-    ends: ["Might be Matteo's grandfather", "Nothing joins them"],
+    ends: ["Possibly Matteo's kin", "Nothing joins them"],
   },
   {
     key: "zampiello", colour: "var(--r-italy)", label: "The Zampiello, out of Arpaia",
@@ -57,17 +57,17 @@ const LANES = [
       ["Don Francesco", "1836", "Don Francesco Falco, proprietario — a landowner, not a contadino"],
       ["Donna Raffaela", "1836", "His daughter, a nun of the Ave Gratia Plena, dead at sixty-seven"],
     ],
-    ends: ["Elsewhere in the town", "Never joined to this line"],
+    ends: ["Elsewhere in the town", "Never joined"],
   },
 ];
 
-const W = 1040;
+const W = 1180;
 const BANDS = [ {y0:34,sp:112,h:150}, {y0:192,sp:268,h:140}, {y0:340,sp:408,h:126},
                 {y0:478,sp:552,h:140}, {y0:630,sp:698,h:126} ];
-const X0 = 152, X1 = 690, XE = 878;
+const X0 = 150, X1 = 660, XE = 812;
 ---
 <figure class="rivers">
-  <svg viewBox="0 0 1040 774" role="img" aria-labelledby="riversttl">
+  <svg viewBox="0 0 1180 774" role="img" aria-labelledby="riversttl">
     <title id="riversttl">The Falco strands of Arienzo, and what each of them joins to</title>
     {LANES.map((lane, li) => {
       const b = BANDS[li];
@@ -75,7 +75,7 @@ const X0 = 152, X1 = 690, XE = 878;
       const step = n > 2 ? (X1 - X0) / (n - 1) : (X1 - X0) / 2;
       const lineEnd = X0 + step * (n - 1);
       const ends = lane.ends;
-      const spread = Math.min(b.h / 2 - 18, 16 + ends.length * 14);
+      const spread = Math.min(b.h / 2 - 18, 16 + ends.length * 14, b.sp - (b.y0 + 48));
       return (
         <g>
           <rect x="0" y={b.y0} width={W} height={b.h} rx="10"
@@ -84,7 +84,7 @@ const X0 = 152, X1 = 690, XE = 878;
                 stroke-dasharray={lane.parallel ? "5 5" : ""} stroke-opacity="0.4" />
           <text x="12" y={b.y0 + 21} class="lane-label" fill={lane.colour}>{lane.label}</text>
           <text x="12" y={b.y0 + 37} class="lane-conf">{lane.conf}</text>
-          <a href={u(lane.href)} class="lane-link"><text x={W - 14} y={b.y0 + 21} class="lane-read" fill={lane.colour}>{lane.read}</text></a>
+          <a href={u(lane.href)} class="lane-link"><text x={12} y={b.y0 + b.h - 10} class="lane-read" fill={lane.colour}>{lane.read}</text></a>
 
           <line x1={X0} y1={b.sp} x2={Math.max(lineEnd, X1)} y2={b.sp} stroke={lane.colour}
                 stroke-width="5" stroke-linecap="round" opacity="0.34"
@@ -164,7 +164,7 @@ const X0 = 152, X1 = 690, XE = 878;
   .lane-label{font-family:var(--sans);font-size:13px;font-weight:600}
   .lane-conf{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;
     text-transform:uppercase;fill:var(--ink-3)}
-  .lane-read{font-family:var(--sans);font-size:12px;font-weight:600;text-anchor:end}
+  .lane-read{font-family:var(--sans);font-size:11.5px;font-weight:600}
   .lane-link{text-decoration:none}
   .lane-link:hover .lane-read{text-decoration:underline}
   .place{font-family:var(--sans);font-size:12.5px;font-weight:600;fill:var(--ink);
@@ -181,11 +181,12 @@ const X0 = 152, X1 = 690, XE = 878;
   .riverread{margin-top:18px;padding:14px 18px;border-left:3px solid var(--accent);
     background:var(--panel-2);border-radius:0 10px 10px 0;font-family:var(--sans);
     font-size:14px;line-height:1.55;color:var(--ink-2);min-height:52px}
-  .riverread .rr-lane{display:block;font-family:var(--mono);font-size:9.5px;
-    letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin-bottom:4px}
-  .riverread .rr-place{color:var(--ink);font-size:16px}
-  .riverread .rr-year{font-family:var(--mono);font-size:12px;color:var(--accent);margin-left:9px}
-  .riverread .rr-why{display:block;margin-top:5px}
+  .riverread :global(.rr-lane){display:block;font-family:var(--mono);font-size:9.5px;
+    letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin-bottom:5px}
+  .riverread :global(.rr-place){display:inline-block;color:var(--ink);font-size:16px;font-weight:600}
+  .riverread :global(.rr-year){display:inline-block;font-family:var(--mono);font-size:12px;
+    color:var(--accent);margin-left:10px}
+  .riverread :global(.rr-why){display:block;margin-top:6px}
   .rivers figcaption{font-family:var(--sans);font-size:13px;color:var(--ink-2);
     margin-top:14px;max-width:78ch;line-height:1.6}
   @media (max-width:700px){
