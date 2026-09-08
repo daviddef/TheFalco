@@ -83,6 +83,24 @@ for r in rd("data/naa-records.tsv"):
                                r.get("date_range"), r.get("location"), r.get("access")] if x),
         "National Archives of Australia", link, "file", r.get("date_range") or "")
 
+# --- the family tree itself: every DECEASED person on the Falco side ---
+# Living people are excluded entirely, as everywhere else in this build.
+if os.path.exists("data/myheritage-falco-tree.json"):
+    tree = json.load(open("data/myheritage-falco-tree.json"))
+    for x in tree:
+        if x.get("alive"): continue
+        nm = re.sub(r"\s*[✔⭐]\s*", " ", x.get("name") or "").strip(" ,")
+        if not nm or nm.startswith("["): continue
+        bits = []
+        if x.get("b"):  bits.append("b. " + x["b"] + (", " + x["bp"] if x.get("bp") else ""))
+        elif x.get("bp"): bits.append("of " + x["bp"])
+        if x.get("d"):  bits.append("d. " + x["d"] + (", " + x["dp"] if x.get("dp") else ""))
+        rels = [f'{r["rel"]} {r["n"]}' for r in (x.get("relatives") or [])][:4]
+        if rels: bits.append(" · ".join(rels))
+        add(nm, sur(re.sub(r"\(.*?\)", "", nm)), " · ".join(bits),
+            "The family tree (unverified unless a record is cited)", "", "tree",
+            x.get("b") or "")
+
 # --- everyone read act-by-act in the 1834 death-register sweep ---
 if os.path.exists("data/sweep-people.tsv"):
     for r in rd("data/sweep-people.tsv"):
