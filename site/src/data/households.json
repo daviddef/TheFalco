@@ -733,5 +733,40 @@
     "ark": "ANTENATI an_ua14334"
    }
   ]
+ },
+ {
+  "name": "Giuseppe Falco & Gelsomina Vigliotta",
+  "members": [
+   {
+    "household": "Giuseppe Falco & Gelsomina Vigliotta",
+    "person": "Giuseppe Falco",
+    "role": "father",
+    "event": "—",
+    "date": "b. c.1780",
+    "place": "Arienzo, strada Costa",
+    "evidence": "Giuseppe Falco, di anni trentasei, di professione massaro di campo, domiciliato in detto comune, strada Costa — NOT the Giuseppe of strada Camellara",
+    "ark": "ANTENATI an_ua14413 img59l act116"
+   },
+   {
+    "household": "Giuseppe Falco & Gelsomina Vigliotta",
+    "person": "Gelsomina Vigliotta",
+    "role": "mother",
+    "event": "—",
+    "date": "b. c.1784",
+    "place": "Arienzo, strada Costa",
+    "evidence": "da Gelsomina Vigliotta, d'anni trentadue, sua moglie legittima",
+    "ark": "ANTENATI an_ua14413 img59l act116"
+   },
+   {
+    "household": "Giuseppe Falco & Gelsomina Vigliotta",
+    "person": "Domenico Falco",
+    "role": "child",
+    "event": "birth",
+    "date": "25 Nov 1816",
+    "place": "Arienzo, strada Costa",
+    "evidence": "e nato nella sua propria casa... un maschio... a cui si e dato il nome di Domenico — born at four in the night",
+    "ark": "ANTENATI an_ua14413 img59l act116"
+   }
+  ]
  }
 ]
