@@ -1,0 +1,101 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import households from "../data/households.json";
+import line from "../data/line.json";
+
+const lineNames = new Set(line.map(g => g.name.split(" (")[0].trim()));
+const isLine = (p) => lineNames.has(String(p).split(" (")[0].trim());
+
+const total = households.reduce((a, h) => a + h.members.length, 0);
+const people = new Set();
+households.forEach(h => h.members.forEach(m => people.add(m.person)));
+const collateral = [...people].filter(p => !isLine(p));
+
+// households that contain nobody from the direct line at all
+const sideBranches = households.filter(h => !h.members.some(m => isLine(m.person)));
+const lineHouseholds = households.filter(h => h.members.some(m => isLine(m.person)));
+---
+<Base title="The wider family">
+  <h1>The wider family</h1>
+  <p class="lede">This archive is not a pedigree. A pedigree keeps one child in each generation and
+  discards the rest; most of the people here were discarded by that logic and are recorded anyway —
+  the brothers and sisters, the households that never left Arienzo, and the Falco who are plainly
+  related to this family but cannot yet be joined to it.</p>
+
+  <div class="grid two">
+    <div class="card">
+      <h3>{people.size} people</h3>
+      <p>documented across <strong>{households.length} households</strong> and
+      <strong>{total} register entries</strong>.</p>
+    </div>
+    <div class="card">
+      <h3>{collateral.length} of them</h3>
+      <p>are <strong>not</strong> in the direct line. The line is {lineNames.size} people; nearly
+      everything else on this site is somebody else's family.</p>
+    </div>
+  </div>
+
+  <h2>Households the line passes through</h2>
+  <p>In each of these, one child continued the line and the others did not. The others are here.</p>
+  {lineHouseholds.map(h => {
+    const sibs = h.members.filter(m => m.role === "child" && !isLine(m.person));
+    return (
+      <section class="card" style="margin:1rem 0">
+        <h3 style="margin-bottom:.3rem">{h.name}</h3>
+        <p class="small" style="margin:.1rem 0 .6rem">
+          {h.members.length} entries · {sibs.length} {sibs.length === 1 ? "child" : "children"} outside the line
+        </p>
+        {sibs.length ? (
+          <ul style="margin:.3rem 0">
+            {sibs.map(m => (
+              <li>
+                <strong>{m.person}</strong>
+                {m.event && m.date ? <span class="small"> — {m.event}, {m.date}</span> : null}
+              </li>
+            ))}
+          </ul>
+        ) : <p class="small" style="margin:.2rem 0">No siblings recorded yet.</p>}
+      </section>
+    );
+  })}
+
+  <h2>Falco households not yet joined to the line</h2>
+  <p>Every one of these is a Falco family of Arienzo, in the same parish and often the same street.
+  None of them has been joined to the direct line by a record, and this archive does not join them by
+  assumption. They are published so that somebody with the missing act can.</p>
+  {sideBranches.map(h => (
+    <section class="card" style="margin:1rem 0">
+      <h3 style="margin-bottom:.3rem">{h.name} <span class="chip dis">unjoined</span></h3>
+      <ul style="margin:.4rem 0">
+        {h.members.map(m => (
+          <li>
+            <strong>{m.person}</strong> <span class="small">({m.role})</span>
+            {m.event && m.date ? <span class="small"> — {m.event}, {m.date}</span> : null}
+            {m.place ? <span class="small">, {m.place}</span> : null}
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+
+  <h2>Where this is thin, and honestly so</h2>
+  <p>The collateral work is strong for Arienzo in the seventeen and eighteen hundreds, and weak after
+  it. Two gaps are worth naming rather than papering over:</p>
+  <ul>
+    <li><strong>The siblings who stayed in Italy.</strong> Raffaele Falco and Costanza Maione had
+    children at Arienzo in 1898 and 1913 besides Carminantonio, who left. What became of them, and of
+    their descendants, is not traced. There are almost certainly Falco cousins in Campania today.</li>
+    <li><strong>The generation that emigrated is only half followed.</strong> Carminantonio's son
+    Raffaele reached Brisbane too, married Caterina Zampiello, and is buried at Nudgee — he is
+    recorded, but his family is not worked through. Four Zampiello sisters reached Queensland; two of
+    them married out, into <em>Servodio</em> and <em>Miceli</em>, and those lines are named and then
+    dropped. See <a href={u("/australia")}>the Australian chapter</a>.</li>
+  </ul>
+  <p>Both are ordinary research, not blocked doors. They are listed among the
+  <a href={u("/open-questions")}>open questions</a> so they are not quietly forgotten.</p>
+
+  <p class="small">Every person above is carried with the words of the record that names them, in
+  <a href="https://github.com/daviddef/TheFalco/blob/main/data/households.tsv">households.tsv</a>.
+  The full household detail is on <a href={u("/households")}>The households</a>.</p>
+</Base>
