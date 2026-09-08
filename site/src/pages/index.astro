@@ -1,8 +1,21 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
-import line from "../data/line.json";
+import BranchRivers from "../components/BranchRivers.astro";
+import households from "../data/households.json";
+import { people } from "../lib/people.js";
 
+const entries = households.reduce((a, h) => a + h.members.length, 0);
+const more = [
+  ["/rule", "Under whose rule", "Spanish viceroys, Austrians, Bourbons, the French, then Italy — and why a Napoleonic filing rule is the reason this archive can go back past 1809 at all."],
+  ["/arienzo", "Arienzo", "The home parish, and the Collegiate Church of Sant'Andrea, which holds baptisms from 1672."],
+  ["/liguori", "The bishop next door", "From 1762 to 1775 the bishop of Sant'Agata de' Goti kept his second seat beside this church, and he was Alfonso Maria de' Liguori."],
+  ["/valle-caudina", "The Valle Caudina", "Three villages four kilometres apart in two provinces, and the marriage pool that moved the family north."],
+  ["/zampiello", "The Zampiello of Arpaia", "A surname with about 123 bearers in the world, four sisters who reached Queensland, and a war decoration found in the family's own papers."],
+  ["/australia", "Brisbane", "Two brothers who married two sisters, the ship, and four Falco graves at Nudgee."],
+  ["/name", "The name", "Falco was coined independently many times over. What that means for anyone searching it."],
+  ["/places", "Places", "The six places that carry this family, and the four kilometres that crossed a border."],
+];
 ---
 <Base title="The Falco Archive" bare={true}>
   <figure class="fhero">
@@ -10,113 +23,105 @@ import line from "../data/line.json";
     <figcaption class="cap">
       <div class="kick">A family history, kept honestly</div>
       <h1>Nine generations, on one street in Campania.</h1>
-      <p class="sub">Arienzo · Arpaia · Forchia · Benevento · Brisbane — a family written into the
-      parish books of Sant'Andrea from 1767, and into the civil registers of four regimes after that.</p>
+      <p class="sub">Arienzo · Arpaia · Forchia · Benevento · Brisbane — written into the parish books
+      of Sant'Andrea from 1767, and into the civil registers of four regimes after that.</p>
     </figcaption>
   </figure>
-  <p class="lede" style="margin-top:28px">
-    An evidence-first archive of the <strong>Falco</strong> family of <strong>Arienzo</strong> in the
-    province of Caserta — and of the Valle Caudina, the province of Benevento, and Brisbane.
-  </p>
 
-  <blockquote>
-    <em>Falco</em> is the Latin for falcon. It became a surname twice over: as a Lombard personal name,
-    handed down as a patronymic, and as a nickname for the quick, the sharp-eyed, or the falconer.
-    It was therefore coined independently, many times, in many places.
-    <strong>There is no single founding Falco family.</strong> The work of this archive is to establish
-    which Falcos are actually connected, and to say plainly where the evidence stops.
-  </blockquote>
+  <section class="blk">
+    <p class="lede">This is an archive of <strong>the Falco of Arienzo</strong> — a parish, a street and
+    the families on it — and of the one branch of them that reached Brisbane. It is not a pedigree.
+    Of the {people.length} people named here, {people.length - 8} are not in the direct line.</p>
+    <blockquote>
+      <em>Falco</em> is the Latin for falcon, and it became a surname twice over: as a Lombard personal
+      name handed down as a patronymic, and as a nickname for the quick, the sharp-eyed, or the
+      falconer. It was coined independently, many times, in many places.
+      <strong>There is no single founding Falco family.</strong> The work here is to establish which
+      Falco are actually connected, and to say plainly where the evidence stops.
+    </blockquote>
+  </section>
 
-  <div class="hero-plate">
-    <img src={u("/plates/pasquale-falco-death-1834.jpg")} alt="Arienzo civil death register 1834, act 69 — the death of Pasquale Falco" />
-    <div>
-      <h2 style="margin-top:0">The record this archive was looking for</h2>
-      <p>For as long as there has been a Falco pedigree in this family, the head of it was a guess.
-      On <strong>1 October 1834</strong>, at five in the morning, two neighbours from
-      <strong>strada Camellara</strong> walked to the town hall at Arienzo and reported the death of
-      the man next door.</p>
-      <blockquote style="margin:.9rem 0">…è morto nella sua propria casa <strong>Pasquale Falco</strong>,
-      d'anni settantaquattro, <em>marito di <strong>Chiara Rivetti</strong></em>, di professione
-      contadino, <em>figlio di <strong>Matteo Falco, defunto</strong>… e di
-      <strong>Francesca Crisci, defunta</strong></em>.</blockquote>
-      <p>One act names his wife, both his parents, his trade and his street — and confirms, from the
-      civil register, what a parish baptism of 1767 had said sixty-seven years earlier.
-      <a href={u("/antenati")}>How it was found →</a></p>
-    </div>
-  </div>
+  <section class="blk">
+    <div class="lab">Several Falco, one town</div>
+    <h2 style="margin-top:.4rem">Where each of them came from, and what joins them</h2>
+    <p class="dek" style="margin:.7rem 0 1.4rem">A shared surname in one small town is suggestive and
+    nothing more. Two Falco households on the same street may be brothers, cousins, or unrelated men
+    who happen to carry a common Campanian name. This archive joins two of them only when a record says
+    so — and draws the rest apart, even where joining them would make the better story.</p>
+    <BranchRivers />
+    <p style="margin-top:1.2rem"><a href={u("/lines")}>The lines, in full →</a></p>
+  </section>
 
-  <h2>What is established</h2>
-  <div class="grid two">
-    <div class="card">
-      <h3>Nine generations, every one documented</h3>
-      <p>From <strong>Matteo Falco</strong> and <strong>Francesca Crisci</strong>, whose children were
-      baptised at Arienzo from 1767, down to the present. The head of the line is no longer a guess.
-      <a href={u("/direct-line")}>Walk the line →</a></p>
+  <section class="blk">
+    <div class="lab">The document at the centre of it</div>
+    <h2 style="margin-top:.4rem">1 October 1834, five in the morning</h2>
+    <div class="hero-plate" style="margin-top:1.2rem">
+      <img src={u("/plates/pasquale-falco-death-1834.jpg")} alt="Arienzo civil death register 1834, act 69 — the death of Pasquale Falco" />
+      <div>
+        <p>For as long as this family has had a pedigree, the head of it was a guess. Then two
+        neighbours from <strong>strada Camellara</strong> walked to the town hall at Arienzo and
+        reported the death of the man next door.</p>
+        <blockquote style="margin:.9rem 0">…è morto nella sua propria casa <strong>Pasquale Falco</strong>,
+        d'anni settantaquattro, <em>marito di <strong>Chiara Rivetti</strong></em>, di professione
+        contadino, <em>figlio di <strong>Matteo Falco, defunto</strong>… e di
+        <strong>Francesca Crisci, defunta</strong></em>.</blockquote>
+        <p>One act names his wife, both his parents, his trade and his street — and confirms, from the
+        civil register, what a parish baptism of 1767 had said sixty-seven years earlier.
+        <a href={u("/antenati")}>How it was found →</a></p>
+      </div>
     </div>
-    <div class="card">
-      <h3>Pasquale's baptism, found</h3>
-      <p>24 October 1767, in the Collegiate Church of Sant'Andrea: <em>infantem natum ex Mattheo Falco,
-      ed Francisca Crisci … qui nominatus est Paschalis</em>. It replaced an ancestor who was never
-      there. <a href={u("/method")}>What it displaced →</a></p>
-    </div>
-    <div class="card">
-      <h3>Twelve households, read entry by entry</h3>
-      <p>Fifty-two register entries reconstruct the Falco families of Arienzo — their children, their
-      baptisms, the marriage that needed a papal dispensation, and the children who did not live.
-      <a href={u("/households")}>The households →</a></p>
-    </div>
-    <div class="card">
-      <h3>An address, at last</h3>
-      <p>Four annual death registers, read act by act, put the family on one street:
-      <strong>strada Camellara</strong>. Pasquale, his son Vincenzo, and three more Falco householders
-      all lived on it, all <em>contadini</em>, and the neighbours who reported each death came from
-      the same few doors. <a href={u("/antenati")}>The street →</a></p>
-    </div>
-    <div class="card">
-      <h3>The bishop next door</h3>
-      <p>The church in these registers was the second seat of the bishop of Sant'Agata de' Goti — and
-      from 1762 to 1775 that bishop was <strong>Alfonso Maria de' Liguori</strong>, who lived in the
-      palace beside it. <a href={u("/liguori")}>What that does and does not mean →</a></p>
-    </div>
-    <div class="card">
-      <h3>Why they left Arienzo</h3>
-      <p>Forchia, where the family surfaces in 1930, is an <strong>Annecchino</strong> town — and
-      Carminantonio married Filomena Annecchino. The move north was a marriage, not a migration.
-      <a href={u("/valle-caudina")}>The Valle Caudina →</a></p>
-    </div>
-    <div class="card">
-      <h3>One family, one parish, for two centuries</h3>
-      <p>Crisci, Morgillo, Martone, Rivetti, de Lucia, Arricale, Maione — every in-law surname of the
-      line appears in the same Arienzo books, over and over. The Crisci marry in three times.
-      <a href={u("/arienzo")}>The marriage network →</a></p>
-    </div>
-    <div class="card">
-      <h3>Two brothers married two sisters</h3>
-      <p>The Brisbane immigration files show Carmine and Raffaele Falco, brothers of Forchia, married
-      Francesca and Caterina Zampiello, sisters of Arpaia — and four Zampiello sisters in all reached
-      Queensland. <a href={u("/australia")}>The Australian chapter →</a></p>
-    </div>
-    <div class="card">
-      <h3>And a name rarer than the family's own</h3>
-      <p><strong>Zampiello</strong>, which marries in at Arpaia in the 1950s, has about
-      <strong>123 bearers in the world</strong> — 37 of them in Italy.
-      <a href={u("/name")}>The names →</a></p>
-    </div>
-  </div>
+  </section>
 
-  <h2>The shape of the journey</h2>
-  <p>Arienzo, in the province of Caserta, is the home parish — every generation from Pasquale to Raffaele is
-  born, married and buried there. In <strong>1913</strong> a son is registered not at Arienzo but at
-  <strong>Arpaia</strong>, four kilometres away and across the provincial line into Benevento. From there the
-  family moves to <strong>Forchia</strong>, then <strong>Benevento</strong>, and then to
-  <strong>Brisbane</strong>. <a href={u("/places")}>The places →</a></p>
+  <section class="blk">
+    <h2>Four things this archive has established</h2>
+    <div class="grid two" style="margin-top:1rem">
+      <div class="card">
+        <h3>A head to the line</h3>
+        <p><strong>Matteo Falco</strong> and <strong>Francesca Crisci</strong>, whose children were
+        baptised at Arienzo from 1767 — replacing an ancestor who was never there.
+        <a href={u("/direct-line")}>The spine →</a></p>
+      </div>
+      <div class="card">
+        <h3>An address</h3>
+        <p><strong>Strada Camellara.</strong> Five Falco householders on one short street, all
+        <em>contadini</em>, and the neighbours who reported each death lived a few doors along.
+        <a href={u("/lines")}>The street →</a></p>
+      </div>
+      <div class="card">
+        <h3>{people.length} people, not eight</h3>
+        <p>{households.length} households and {entries} register entries, most of them belonging to
+        somebody who never continued the line. <a href={u("/wider-family")}>The wider family →</a></p>
+      </div>
+      <div class="card">
+        <h3>One kinship, proved</h3>
+        <p>In 1831 <strong>Vincenzo Falco</strong> declared a neighbour's death as <em>parente</em> — a
+        kinsman — joining the line to a second Camellara household. Three others remain unjoined.
+        <a href={u("/lines")}>What joins them →</a></p>
+      </div>
+    </div>
+  </section>
 
-  <h2>What is still missing</h2>
-  <p>Nine questions this archive cannot answer, and five doors that need a person rather than a
-  machine — the two unread Brisbane immigration files, the restricted Caserta scans, Antenati, the
-  Museo Alfonsiano at Arienzo, and the DNA matches. All of it, with the searches that have already
-  failed, is at <a href={u("/open-questions")}>Open questions</a>.</p>
+  <section class="blk">
+    <h2>Elsewhere in the archive</h2>
+    <div class="grid two" style="margin-top:1rem">
+      {more.map(([href, t, d]) => (
+        <a class="cardlink" href={u(href)}>
+          <div class="nm">{t}</div>
+          <p class="small" style="margin-top:.4rem">{d}</p>
+        </a>
+      ))}
+    </div>
+  </section>
 
-  <p class="small">Nothing here is taken on trust because it is in a family tree. Where a record has been
-  seen, it is cited. Where it has not, the claim is marked. See <a href={u("/method")}>Method</a>.</p>
+  <section class="blk" style="border-bottom:0">
+    <h2>What is still missing</h2>
+    <p class="dek">Eleven questions this archive cannot answer, and five doors that need a person
+    rather than a machine — the unread Brisbane immigration files, the restricted Caserta scans, two
+    volumes at Benevento that were never digitised, the marriage supplements, and the DNA matches.
+    All of it, with the searches that have already failed, is set out at
+    <a href={u("/open-questions")}>Open questions</a>.</p>
+    <p class="small" style="margin-top:1rem">Nothing here is taken on trust because it appears in a
+    family tree. Where a record has been seen, it is cited; where it has not, the claim is marked.
+    See <a href={u("/method")}>Method</a>.</p>
+  </section>
 </Base>
