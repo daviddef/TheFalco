@@ -91,9 +91,16 @@ the contadino was Pasquale's brother, cousin or no relation is **not established
 | 16 | Domenica Ciuffi, 10 days, d. of Tommaso, d. 12 Apr | Alessandro Lettieri, 8 mths, s. of Carmine, d. 15 Apr |
 | 17 | Antonio Mauro, 8, s. of Raffaele (*vaticale*), d. 4 May | **MARGARITA FALCO, 60, *contadina*, w. of Domenico [Crisci], d. of Francesco (*contadino*, dec.) — d. 13 May** |
 | 18 | Vincenzo Zimbardo, mths, s. of Pasquale, d. 19 May | Raffaele Macciariello, 1, s. of Francesco, d. 26 May |
+| 19 | *(blank)* | **Don Gennaro de Cesare, 90, *sacerdote*** (priest), s. of Nicola (dec.), Jun |
+| 20 | Maria Macciariello, 70, widow of Angelo Zimbardo, d. of Angelo (dec.), d. 7 Jun | *(duplicate of p19)* |
+| 21 | Antonia Grafiu, 5 days, d. of Angelo, Jun | Marianna Menechino, 54, w. of Pellegrino Ruggiero, **b. Caserta**, d. 24 Jun — **died in the Ave Gratia Plena hospital** |
+| 22 | **Don Antonio Cimmino, 24, *proprietario***, s. of Don Giacomo (*proprietario*), d. 1 Jul | Giovanni Iannone, 2 mths, s. of Giovanni (*muratore*), d. 2 Jul |
+| 23 | Antonio Zimbardo, mths, s. of Francesco, d. 3 Jul | Giuseppe Zimbardo, mths, s. of Clemente, d. 3 Jul |
+| 24 | Nicoletta Ciuffi, mths, d. of Clemente, d. 9 Jul | Maria Sadutto, 4 mths, d. of Gennaro, d. 13 Jul |
+| 25 | Maria Giuseppa Macciariello, 1, d. of Antonio, d. 13 Jul | Anna Ciuffi, 5 mths, d. of Gennaro, d. 14 Jul |
 
 **Pasquale Falco still has not appeared.**
 
 ## Resume here
 
-**Next page: index 19.** Continue to index 50.
+**Next page: index 26.** Continue to index 50. Pages 2–25 read (January to mid-July 1836); two Falco women found, Pasquale not among them.
