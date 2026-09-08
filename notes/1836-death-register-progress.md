@@ -99,8 +99,33 @@ the contadino was Pasquale's brother, cousin or no relation is **not established
 | 24 | Nicoletta Ciuffi, mths, d. of Clemente, d. 9 Jul | Maria Sadutto, 4 mths, d. of Gennaro, d. 13 Jul |
 | 25 | Maria Giuseppa Macciariello, 1, d. of Antonio, d. 13 Jul | Anna Ciuffi, 5 mths, d. of Gennaro, d. 14 Jul |
 
+| 26 | *(duplicate of p25)* | *(duplicate of p25)* |
+| 27 | Sabata Majone, 2, d. 15 Jul | **Margarita Rivetti, 89**, widow of Gennaro Majone, d. of Francesco Rivetti, d. 3 Aug |
+| 28 | Francesco Attarelli, 48, *possidente*, h. of a Rivotti, s. of Matteo (dec.), d. 4 Aug | Raffaele Rivetti, 1, s. of Francesco Rivetti, d. 5 Aug |
+| 29 | Maria Spunzo, 2, d. of Antonio, d. 8 Aug | **SALVATORE FALCO, 14 months, s. of MICHELE FALCO, *contadino*, strada Camellara — d. 9 Aug** |
+| 30 | *(duplicate of p29)* | *(duplicate of p29)* |
+
+## THIRD FALCO — 9 August 1836 — a new household
+
+> …nel giorno **nove** del mese di **Agosto**… è morto nella sua propria casa **Salvatore Falco, di
+> mesi quattordici**, nato in Arienzo… figlio di **Michele Falco**, di professione **contadino**,
+> domiciliato ivi, strada Camellara.
+
+**Michele Falco, a *contadino* of strada Camellara, buried a son of fourteen months.** A Falco
+household the archive had not seen. He is of the peasant Falco — the same social world as the
+documented line — and therefore a better candidate for kinship than Don Francesco's branch, though
+nothing links him yet.
+
+## The Rivetti surface too
+
+**Margarita Rivetti, 89** (born about 1747), widow of Gennaro Majone, daughter of Francesco Rivetti;
+and **Raffaele Rivetti**, an infant son of Francesco Rivetti. Chiara Rivetti — Pasquale's wife — was
+*filia quondam Nicolai*, so these are a different Rivetti line or a collateral of it. Worth noting
+that the Rivetti of Arienzo appear at both social levels: a *Doctoris Physici* in one marriage record,
+*contadini* here.
+
 **Pasquale Falco still has not appeared.**
 
 ## Resume here
 
-**Next page: index 26.** Continue to index 50. Pages 2–25 read (January to mid-July 1836); two Falco women found, Pasquale not among them.
+**Next page: index 31.** Continue to index 50. Pages 2–30 read (January to early August 1836); **three Falco found — Raffaela the nun, Margarita, and the infant Salvatore — none of them Pasquale.**
