@@ -15,7 +15,7 @@ const linked = register.filter((r) => r.link).length;
 const distinct = new Set(register.map((r) => r.name.toLowerCase())).size;
 const KIND = {
   index: "surname index", record: "record", cited: "cited by this archive",
-  burial: "burial", file: "archive file", household: "reconstructed", swept: "read in the register",
+  burial: "burial", file: "archive file", household: "reconstructed", swept: "read in the register", tree: "family tree",
 };
 ---
 <Base title="The register"
@@ -29,6 +29,12 @@ const KIND = {
     FamilySearch harvests. <strong>A shared surname is not a relationship.</strong> The Falco of
     Paolisi and Moiano in particular are largely a different population: their in-laws barely overlap
     with the Crisci, Morgillo, Martone and Rivetti that this family married into.</p>
+    <p style="margin-top:.6rem">Entries marked <em>family tree</em> come from the family's own
+    MyHeritage tree — <strong>290 deceased people on the Falco side</strong>, walked out from
+    Giuseppina Falco. They are what the family believes, not what a record proves: treat each as a
+    claim until it appears somewhere else on this page with a source beside it. The
+    <strong>137 living</strong> people on that side are excluded entirely, as everywhere else in this
+    build, and the tree is private, so these entries carry no link.</p>
     <p style="margin-top:.6rem">Entries marked <em>read in the register</em> are people this archive
     met while reading the Arienzo death registers act by act — neighbours, declarants, the families who
     buried each other's children on strada Camellara. They are here because they were found, not
