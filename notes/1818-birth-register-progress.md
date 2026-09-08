@@ -1,4 +1,4 @@
-# Arienzo civil BIRTH register 1818 — sweep in progress
+# Arienzo civil BIRTH register 1818 — sweep COMPLETE
 
 **Volume:** `an_ua14415` (Arienzo, Nati 1818), **85 images**.
 **Why this volume:** it should hold the civil birth act of **Raffaele Falco, generation 4** — known
@@ -164,8 +164,38 @@ Michelangelo's daughter kin, much easier to read.
 Also new: **Antonia di Guida was 30** in June 1818, so born about 1788; and Giuseppe at 36 was born
 about 1782, which sits neatly between Matteo's known children Joachim (1779) and Rosa (1786).
 
-## Resume point
-**Image 69.** Images 2–68 are read — January to November, roughly acts 1–90 of about 95. Still hunting **Maria Rosa Falco**, daughter of the Michele Falco of strada Camellara,
+## Complete
+**Images 2–79 read; the year runs to about act 118 and ends in late December at image 79.**
+Later images are blank forms.
+
+## The two Falco of 1818
+| act | date | child | father | mother | street |
+|---|---|---|---|---|---|
+| **47**, f.149 | 10 May | **Raffaele Falco** — generation 4 | **Vincenzo Falco**, 27, contadino | **Andreana Crisci**, 20 | **Camellara** |
+| **57**, f.154 | 7 June | **Maddalena Falco** | **Giuseppe Falco**, 36, contadino | **Antonia di Guida**, 30 | **Camellara** |
+
+Four weeks apart, on the same street: a man and his uncle.
+
+## What was NOT found, and what follows
+**Maria Rosa Falco is not in the 1818 births.** She was sixteen at her death in May 1834, so born
+about 1817–18; she is the daughter who would date **Michele Falco** of strada Camellara and name his
+wife. **The next volume for that question is 1817, `an_ua14414`** — or her stated age was loose, in
+which case 1816 (`an_ua14413`) too.
+
+## The street, from the birth register
+Households declaring a birth from **strada Camellara** in 1818 alone: **Falco** (Vincenzo; Giuseppe),
+**Rivetti** (Giuseppe, 36; Francesco, 40), Perrotta, Carfora, Belletta, Giglio, Gimbardo. The Rivetti
+are worth noting — Pasquale Falco had married a Chiara Rivetti, and Rivetti households sit on the
+same street.
+
+## Traps in this volume, recorded so nobody repeats them
+1. **Two copies.** Images 2–13 are one copy of the year, images 17 onward the second and complete one;
+   acts at 17–28 duplicate 2–7 exactly. Read the second.
+2. **The year is pre-printed "sedici" (1816) and corrected by hand to "diciotto"** in every act. It is
+   1818 throughout; do not be misled by the printed word.
+3. **Surnames can run into the left margin.** Act 110 reads «è comparso Michelangelo…» with *Crisci*
+   written in the margin — briefly mistaken for Michelangelo Falco. Always widen the crop before
+   claiming a name. Still hunting **Maria Rosa Falco**, daughter of the Michele Falco of strada Camellara,
 who died aged sixteen in May 1834 and so was born about 1818 — her act would give Michele's age and
 his wife's name, which is the whole reason for reading the birth registers.
 
