@@ -20,8 +20,17 @@ const spouse = parts.length > 1
   : null;
 const children = members.filter((p) => p.role === "child");
 
-const lineNames = new Set(line.map((g) => clean(g.name)));
-const inLine = (p) => lineNames.has(clean(p.name || p));
+/* A child carries the line only if it is the NEXT generation of it. Vincenzo
+   and Andreana called two sons Pasquale; neither is Pasquale of generation two,
+   and matching on the name alone would ring a dead infant as the ancestor. */
+const headGen = (() => {
+  const h = line.find((g) => clean(g.name) === clean(parts[0]));
+  return h ? h.gen : null;
+})();
+const nextName = headGen != null
+  ? (line.find((g) => g.gen === headGen + 1) || {}).name
+  : null;
+const inLine = (p) => !!nextName && clean(p.name) === clean(nextName);
 
 const when = (p) => {
   if (!p || !p.events) return "";
@@ -55,7 +64,7 @@ const href = (p) => (p && p.slug ? u("/people/" + p.slug) : null);
     {spouse ? (
       <>
         <div class="lab sec">{/mother|wife/i.test(spouse.role || "") ? "Wife" : "Spouse"}</div>
-        <div class="rowwrap one">
+        <div class="rowwrap solo">
           <div class="cell">
             <span class="nm">{href(spouse) ? <a href={href(spouse)}>{spouse.name}</a> : spouse.name}</span>
             {when(spouse) ? <span class="dt">{when(spouse)}</span> : null}
@@ -96,12 +105,12 @@ const href = (p) => (p && p.slug ? u("/people/" + p.slug) : null);
   .htree .rowwrap{position:relative;display:flex;flex-wrap:wrap;gap:.6rem;padding-top:1.1rem}
   .htree .rowwrap::before{content:"";position:absolute;left:.9rem;right:.9rem;top:.45rem;
     height:1px;background:var(--rule-strong)}
-  .htree .rowwrap.one::before{left:50%;right:50%;width:0}
+  .htree .rowwrap.solo::before{left:50%;right:50%;width:0}
   .htree .cell{position:relative;border:1px solid var(--rule-strong);background:var(--ground);
     border-radius:5px;padding:.5rem .75rem;min-width:9rem;flex:0 1 auto}
   .htree .cell::before{content:"";position:absolute;left:50%;top:-.65rem;width:1px;height:.65rem;
     background:var(--rule-strong)}
-  .htree .rowwrap.one{justify-content:center}
+  .htree .rowwrap.solo{justify-content:center}
   .htree .cell.carries{border-color:var(--accent-2);box-shadow:inset 0 0 0 1px var(--accent-2)}
   .htree .nm{display:block;font-family:var(--sans);font-size:14px;color:var(--ink)}
   .htree .nm a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule-strong)}
