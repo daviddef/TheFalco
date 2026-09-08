@@ -1,13 +1,14 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+const REPO = "https://github.com/daviddef/TheFalco";
 import sources from "../data/sources.json";
 const groups = [...new Set(sources.map(s => s.g))];
 ---
 <Base title="Sources">
   <h1>Sources</h1>
-  <p class="lede">What has been read, where it is, and what it actually established. Fourteen sources
-  across four countries' worth of record-keeping.</p>
+  <p class="lede">What has been read, where it is, and what it actually established. Fifteen sources
+  across four countries' worth of record-keeping, and the repository files that carry every citation.</p>
 
   {groups.map(g => (
     <section>
@@ -23,17 +24,37 @@ const groups = [...new Set(sources.map(s => s.g))];
     </section>
   ))}
 
+  <h2>The underlying files</h2>
+  <p>Every claim on this site resolves to a row in one of three files. They are plain tab-separated
+  text, kept in the repository so that anyone can check the working rather than take it on trust.</p>
+  <ul>
+    <li><a href={REPO + "/blob/main/data/record-citations.tsv"}><strong>record-citations.tsv</strong></a>
+    — <strong>33</strong> record citations: archival reference, collection, event, date, place, subject
+    and the named parent or spouse.</li>
+    <li><a href={REPO + "/blob/main/data/households.tsv"}><strong>households.tsv</strong></a>
+    — <strong>52</strong> register entries behind the households, each with the quoted words of the
+    record and the reference it came from.</li>
+    <li><a href={REPO + "/blob/main/data/direct-line.tsv"}><strong>direct-line.tsv</strong></a>
+    — the ten generations, with the evidence for each link stated in its own column.</li>
+  </ul>
+  <p class="small">Also in the repository: the page-by-page reading logs for the civil death registers
+  (<a href={REPO + "/blob/main/notes/1833-death-register-progress.md"}>1833</a>,
+  <a href={REPO + "/blob/main/notes/1834-death-register-progress.md"}>1834</a>,
+  <a href={REPO + "/blob/main/notes/1835-death-register-progress.md"}>1835</a>,
+  <a href={REPO + "/blob/main/notes/1836-death-register-progress.md"}>1836</a>), which record every act
+  read, not only the ones that mattered — so that nobody has to read them again.</p>
+
   <h2>Currency</h2>
-  <p>Every source above was consulted on <strong>7 September 2026</strong>. Nothing here is quoted from
-  memory or from another family tree: each claim on this site traces to one of these, or is marked
+  <p>Every source above was consulted on or before <strong>8 September 2026</strong>. Nothing here is
+  quoted from memory or from another family tree: each claim traces to one of these, or is marked
   <span class="chip">inferred</span> and reasoned out in the open.</p>
-  <p>The twenty-six record citations carried over from the family's own MyHeritage tree are listed in
-  full, with their archival references, in <span class="mono">data/record-citations.tsv</span> in the
-  repository. The forty-three register entries behind the households are in
-  <span class="mono">data/households.tsv</span>.</p>
 
   <h2>What has not been read</h2>
   <p>Set out in full, with the reason in each case, on <a href={u("/open-questions")}>Open questions</a>.
   The short version: the two Brisbane immigration files, the Archdiocese of Benevento church records,
-  the Arienzo marriage supplements, and everything on Antenati.</p>
+  the Arienzo marriage supplements, and the two un-scanned volumes at Benevento.</p>
+  <p class="small"><strong>Correction.</strong> An earlier version of this page listed “everything on
+  Antenati” as unread. That is no longer true and had become misleading: four annual civil death
+  registers have since been read in full, act by act. What remains unread there is set out on the
+  <a href={u("/antenati")}>Antenati</a> page.</p>
 </Base>
