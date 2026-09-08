@@ -511,6 +511,16 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "«è comparso Giuseppe Falco, di anni trentasei, contadino… strada Camellara… da Antonia di Guida sua moglie legittima, d'anni trenta, una femina… a cui si è dato il nome di Maddalena»",
     "ark": "ANTENATI an_ua14415 img46r act57"
+   },
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Giuseppe Falco",
+    "role": "father",
+    "event": "named as declarant",
+    "date": "1 Dec 1816",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«e di Giuseppe Falco, di anni trentadue, massaro di campagna, domiciliato ugualmente nel luogo indicato» — declaring the death of Crescenzo Rivetti alongside Gioacchino Falco, the two of them «parenti del defunto». PLACED HERE WITH RESERVATION: the street matches this household, but the age does not. This man is 32 in December 1816; the Giuseppe of strada Camellara is 36 in June 1818, which would make him 34 here. The trade differs too — massaro di campagna against contadino. It may be the same man loosely aged, or a third Giuseppe.",
+    "ark": "ANTENATI an_ua14318 img42l act76"
    }
   ]
  },
@@ -707,9 +717,9 @@
     "person": "Carlantonio Morgillo",
     "role": "father",
     "event": "—",
-    "date": "b. c.1784",
+    "date": "b. 1780×1786 — not settled",
     "place": "Arienzo, strada Maddalena (1817)",
-    "evidence": "named as the husband on his wife's death act of 1830 — and found declaring a birth in September 1817 as «Carlantonio Morgillo, di anni trentatre, bracciale, strada Maddalena», which puts his birth about 1784 and his household on strada Maddalena thirteen years before Rosa died on strada Camellara",
+    "evidence": "named as the husband on his wife's death act of 1830. His age will not settle: three sightings inside twenty months give thirty (Feb 1816), thirty-six (Oct 1816) and thirty-three (Sept 1817) — «Carlantonio Morgillo, di anni trentatre, bracciale, strada Maddalena». Birth therefore somewhere in 1780×1786; this archive formerly printed «about 1784» from the 1817 act alone, which overstated it. Constant across all three: bracciale, and the household on strada Maddalena in 1817, thirteen years before Rosa died on strada Camellara.",
     "ark": "ANTENATI an_ua14414 img35l"
    },
    {
@@ -801,6 +811,81 @@
     "place": "Arienzo",
     "evidence": "Donna Francesca Rivetti, figlia del fu Don Nicola, e Donn'Anna Quotolo, moglie di Don Claudio Cimmino",
     "ark": "ANTENATI an_ua14318 img7l act12"
+   }
+  ]
+ },
+ {
+  "name": "Pasquale Rivetti & Giovanna Perrotta",
+  "members": [
+   {
+    "household": "Pasquale Rivetti & Giovanna Perrotta",
+    "person": "Pasquale Rivetti",
+    "role": "father",
+    "event": "—",
+    "date": "d. before Dec 1816",
+    "place": "Arienzo",
+    "evidence": "«figlio del fu Pasquale Rivetti» — dead by December 1816",
+    "ark": "ANTENATI an_ua14318 img42l act76"
+   },
+   {
+    "household": "Pasquale Rivetti & Giovanna Perrotta",
+    "person": "Giovanna Perrotta",
+    "role": "mother",
+    "event": "—",
+    "date": "—",
+    "place": "Arienzo",
+    "evidence": "«e di Giovanna Perrotta» — named as living, no age given",
+    "ark": "ANTENATI an_ua14318 img42l act76"
+   },
+   {
+    "household": "Pasquale Rivetti & Giovanna Perrotta",
+    "person": "Crescenzo Rivetti",
+    "role": "child",
+    "event": "death",
+    "date": "1 Dec 1816",
+    "place": "Arienzo",
+    "evidence": "«Crescenzo Rivetti figlio del fu Pasquale Rivetti e di Giovanna Perrotta, marito di Angela Falco» — died at 11 in the morning; no age recorded",
+    "ark": "ANTENATI an_ua14318 img42l act76"
+   }
+  ]
+ },
+ {
+  "name": "Crescenzo Rivetti & Angela Falco",
+  "members": [
+   {
+    "household": "Crescenzo Rivetti & Angela Falco",
+    "person": "Crescenzo Rivetti",
+    "role": "father",
+    "event": "death",
+    "date": "1 Dec 1816",
+    "place": "Arienzo",
+    "evidence": "«marito di Angela Falco» — the act that names the marriage is his death act",
+    "ark": "ANTENATI an_ua14318 img42l act76"
+   },
+   {
+    "household": "Crescenzo Rivetti & Angela Falco",
+    "person": "Angela Falco",
+    "role": "mother",
+    "event": "widowed",
+    "date": "1 Dec 1816",
+    "place": "Arienzo",
+    "evidence": "named only as «Angela Falco», wife of the deceased; no age, no parents, no children named",
+    "ark": "ANTENATI an_ua14318 img42l act76"
+   }
+  ]
+ },
+ {
+  "name": "Gioacchino Falco (strada Camellara)",
+  "members": [
+   {
+    "household": "Gioacchino Falco (strada Camellara)",
+    "person": "Gioacchino Falco",
+    "role": "father",
+    "event": "named as declarant",
+    "date": "1 Dec 1816",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«Gioacchino Falco, di anni trentasei, massaro di campagna, domiciliato in questo comune, strada Camellara» — declaring the death of Crescenzo Rivetti as a «parente del defunto». Aged 36, so born about 1780.",
+    "ark": "ANTENATI an_ua14318 img42l act76"
    }
   ]
  }
