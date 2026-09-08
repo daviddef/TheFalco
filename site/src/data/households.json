@@ -555,21 +555,6 @@
   ]
  },
  {
-  "name": "Michelangelo Falco (strada Camellara)",
-  "members": [
-   {
-    "household": "Michelangelo Falco (strada Camellara)",
-    "person": "Anna Falco",
-    "role": "child",
-    "event": "death",
-    "date": "7 Mar 1834",
-    "place": "Arienzo, strada Camellara",
-    "evidence": "Anna Falco, di giorni otto, figlia di Michelangelo Falco, contadino",
-    "ark": "ANTENATI an_ua14336 img10l"
-   }
-  ]
- },
- {
   "name": "Michele Falco & Vincenza Esposito",
   "members": [
    {
@@ -626,6 +611,51 @@
     "place": "Roma",
     "evidence": "Croce al Merito di Guerra, conferred for operations in East Africa from 3 October 1935; b. 31 Aug 1895, d. 25 Apr 1972 per his memorial card",
     "ark": "Croce al Merito di Guerra n. 18745"
+   }
+  ]
+ },
+ {
+  "name": "Michelangelo Falco & Mariantonia Vigliotta",
+  "members": [
+   {
+    "household": "Michelangelo Falco & Mariantonia Vigliotta",
+    "person": "Michelangelo Falco",
+    "role": "father",
+    "event": "—",
+    "date": "—",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "figlia di Michelangelo Falco, di professione contadino, domiciliato ivi",
+    "ark": "ANTENATI an_ua14333 img19r act33"
+   },
+   {
+    "household": "Michelangelo Falco & Mariantonia Vigliotta",
+    "person": "Mariantonia Vigliotta",
+    "role": "mother",
+    "event": "—",
+    "date": "—",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "e di Mariantonia Vigliotta",
+    "ark": "ANTENATI an_ua14333 img19r act33"
+   },
+   {
+    "household": "Michelangelo Falco & Mariantonia Vigliotta",
+    "person": "Anna Falco",
+    "role": "child",
+    "event": "death",
+    "date": "4 May 1831",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "Anna Falco, di mesi tredici, nata in Arienzo — declared by Vincenzo Falco, 38, as PARENTE della defunta",
+    "ark": "ANTENATI an_ua14333 img19r act33"
+   },
+   {
+    "household": "Michelangelo Falco & Mariantonia Vigliotta",
+    "person": "Anna Falco",
+    "role": "child",
+    "event": "death",
+    "date": "7 Mar 1834",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "a second daughter of the same name, 8 days old",
+    "ark": "ANTENATI an_ua14336 img10l"
    }
   ]
  }
