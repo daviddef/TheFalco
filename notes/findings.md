@@ -585,3 +585,44 @@ See `familysearch-fulltext-method` in project memory. In short:
 
 **Years are written in Latin words** in the 18th-century entries (*septingentesimo sexagesimo septimo*),
 so digit-year search misses them — and where words and digits disagree, trust the words.
+
+## Pasquale Falco's death act — found (8 Sep 2026)
+
+**Arienzo, Stato civile della restaurazione, Morti 1834 — Antenati `an_ua14336`, image 43 of 57,
+page 236, atto no. 69. Died 1 October 1834, five in the morning, at his own house, strada Camellara.**
+
+Named as *marito di Chiara Rivetti*, *contadino*, born Arienzo, *figlio di Matteo Falco, defunto,
+contadino, e di Francesca Crisci, defunta*. Declarants Virgilio Saccavino (45) and Nicola Corsi (30),
+both *contadini* of strada Camellara, described as *vicino del defunto*. Stated age 74 — inconsistent
+with the baptism of 24 Oct 1767 (age 66), and recorded as the loose figure.
+
+Significance:
+1. Closes the 1829–1843 bracket that stood since the discovery of Chiara Rivetti's 1843 death.
+2. Confirms Matteo Falco + Francesca Crisci as his parents from the **civil** series, independent of
+   the 1767 parish baptism. Two institutions, two record types, one answer.
+3. Establishes both parents dead by 1834, and Chiara Rivetti alive.
+4. Fixes the family's address: **strada Camellara**.
+
+Found by linear reading. It is absent from the 1,145 harvested parish death pages and from all 1,162
+Falco records in FamilySearch's Caserta civil index — both previously recorded as dead ends, correctly.
+
+### Three other Falco deaths in the 1834 volume
+| | | |
+|---|---|---|
+| Anna Falco, 8 days | 7 Mar | d. of **Michelangelo Falco**, contadino, strada Camellara |
+| Maria Rosa Falco, 16, contadina | 30 May | d. of **Michele Falco**, contadino, strada Camellara |
+| Pasquale Falco, 10 days | 25 Dec | s. of **Vincenzo Falco**, strada Camellara — the ancestor's grandson and namesake |
+
+**Vincenzo Falco** is documented as Pasquale's eldest son (marriage act, Arienzo, 15 Dec 1814, no. 26:
+*"Vincenzo Falco, 21, contadino, figlio maggiore di Pasquale Falco"*). His newborn, born about
+15 December 1834, was named for the grandfather who had died eleven weeks earlier.
+
+### Strada Camellara
+Five Falco householders on one street in 1834–36: Pasquale, Vincenzo, Michele, Michelangelo, Francesco —
+all *contadini*. Whether Michele, Michelangelo and Francesco are Pasquale's other sons, his nephews, or
+unrelated is **not established**. The Arienzo civil birth registers would settle it. The gentry Falco
+(Don Francesco, *proprietario*; Donna Raffaela, *monaca*) are a separate, unjoined branch.
+
+### Registers now read in full and eliminated
+1834 (found), 1835, 1836. Remaining unread from the old bracket: 1829–33, 1837–43 — no longer needed
+for Pasquale, but they hold the rest of this Camellara cluster.

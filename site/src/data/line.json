@@ -17,9 +17,11 @@
   "bornPlace": "Arienzo",
   "spouse": "Chiara Rivetti / Rivotti",
   "spouseBorn": "1772",
-  "trade": "",
+  "trade": "contadino",
   "confidence": "documented",
-  "note": "Baptised in the Collegiate Church of Sant'Andrea at Arienzo on 24 October 1767 — the record names his father Matteo and his mother Francesca Crisci. He married Chiara Rivetti and their children were baptised in the same church from 1789 to 1802."
+  "note": "Baptised in the Collegiate Church of Sant'Andrea at Arienzo on 24 October 1767 — the record names his father Matteo and his mother Francesca Crisci. He married Chiara Rivetti and their children were baptised in the same church from 1789 to 1802. He died at five in the morning on 1 October 1834 at his own house on strada Camellara; the civil act, given by two neighbours, names him husband of Chiara Rivetti and son of the late Matteo Falco and the late Francesca Crisci — confirming the 1767 baptism from an entirely separate record series. It gives his age as 74, which the baptism does not support; stated ages in these registers are approximate.",
+  "died": "1 Oct 1834",
+  "diedPlace": "Arienzo, strada Camellara"
  },
  {
   "gen": 3,
