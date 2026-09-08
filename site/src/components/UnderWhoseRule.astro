@@ -1,0 +1,201 @@
+---
+/* Arienzo did not sit still under one flag while this family was in it.
+   The band across the middle is who governed the place; the red dots above
+   are this family's own dated records; the ochre dots below are what the
+   town was living through. The regimes and the pressures are ordinary
+   history, not findings of this archive, and are labelled as such. */
+const T0 = 1650, T1 = 2000;
+const W = 1040, X0 = 168, X1 = 1006;
+const x = (y) => X0 + ((y - T0) / (T1 - T0)) * (X1 - X0);
+
+const LANES = [
+  {
+    name: "Arienzo", sub: "Terra di Lavoro · Caserta",
+    bands: [
+      [1650, 1707, "Kingdom of Naples — Spanish viceroys", "var(--r-feudal)"],
+      [1707, 1734, "Austrian Habsburg", "var(--r-habsburg)"],
+      [1734, 1806, "Bourbon Kingdom of Naples", "var(--r-venice)"],
+      [1806, 1815, "Napoleonic — Joseph Bonaparte, then Murat", "var(--r-napo)"],
+      [1815, 1860, "Bourbon restoration — the Two Sicilies", "var(--r-venice)"],
+      [1860, 1946, "Kingdom of Italy", "var(--r-italy)"],
+      [1946, 2000, "Italian Republic", "var(--r-croatia)"],
+    ],
+  },
+  {
+    name: "Arpaia & Forchia", sub: "the Valle Caudina · Benevento",
+    bands: [
+      [1650, 1806, "Kingdom of Naples — Principato Ultra", "var(--r-feudal)"],
+      [1806, 1815, "Napoleonic", "var(--r-napo)"],
+      [1815, 1860, "Bourbon restoration", "var(--r-venice)"],
+      [1860, 1946, "Kingdom of Italy — province of Benevento from 1861", "var(--r-italy)"],
+      [1946, 2000, "Italian Republic", "var(--r-croatia)"],
+    ],
+  },
+  {
+    name: "Benevento city", sub: "a papal enclave until 1860",
+    bands: [
+      [1650, 1806, "Papal State — an enclave inside the Kingdom of Naples", "var(--r-yugo)"],
+      [1806, 1815, "French occupation — Talleyrand's principality", "var(--r-napo)"],
+      [1815, 1860, "returned to the Papal State", "var(--r-yugo)"],
+      [1860, 1946, "Kingdom of Italy", "var(--r-italy)"],
+      [1946, 2000, "Italian Republic", "var(--r-croatia)"],
+    ],
+  },
+];
+
+/* This family's own dated records — every one of them from a document on this site. */
+const FAMILY = [
+  [1759, "Matteo Falco witnesses a marriage at Arienzo — the earliest sighting of the line"],
+  [1767, "Pasquale Falco baptised at Sant'Andrea, 24 October"],
+  [1789, "Pasquale and Chiara Rivetti begin baptising children"],
+  [1805, "Two of their children die within six months"],
+  [1814, "Vincenzo Falco marries Andreana Crisci, 15 December"],
+  [1818, "Raffaele Falco baptised"],
+  [1820, "Anna Falco dies at twenty-two"],
+  [1831, "Vincenzo Falco declares a death as «parente» — the kinship link on strada Camellara"],
+  [1832, "Giovanna Falco, 70, dies — naming a second founding couple, Michele Falco and Vincenza Esposito"],
+  [1833, "Pasquale Falco, three years old, dies on strada Camellara"],
+  [1834, "Pasquale Falco dies, 1 October, at five in the morning"],
+  [1843, "Chiara Rivetti dies a widow, aged eighty"],
+  [1850, "Carmine Antonio Falco born"],
+  [1873, "Raffaele Falco born"],
+  [1875, "Vincenzo Falco dies"],
+  [1897, "Filomena Annecchino born at Forchia"],
+  [1901, "Carminantonio Falco born, 11 January"],
+  [1913, "Gerardo Falco registered at Arpaia — the family crosses the provincial line"],
+  [1928, "Francesca Zampiello born at Arpaia, 27 April"],
+  [1930, "Carmine Falco born at Forchia, 8 June"],
+  [1938, "Angelo Zampiello receives the Croce al Merito di Guerra"],
+  [1955, "Carmine Falco marries Francesca Zampiello at Arpaia, 15 January"],
+  [1964, "The ship Sydney reaches Brisbane, 26 March"],
+  [1985, "Carminantonio Falco dies at Brisbane"],
+];
+
+/* What the town was living through. Ordinary history, for context. */
+const WORLD = [
+  [1656, "Plague sweeps the Kingdom of Naples; perhaps half the capital dies"],
+  [1707, "Austrian armies take Naples from Spain"],
+  [1734, "Charles of Bourbon takes the kingdom back and rules it from Naples"],
+  [1764, "Famine across the kingdom — three years before Pasquale's baptism"],
+  [1799, "The Parthenopean Republic, and the bloody restoration that followed"],
+  [1806, "The French invade; feudalism is abolished by decree"],
+  [1809, "Civil registration begins — the reason the records this archive reads exist at all"],
+  [1815, "The Bourbons return; the registers are renamed «della restaurazione»"],
+  [1820, "The Carbonari rising and the constitution granted, then withdrawn"],
+  [1837, "Cholera through the province"],
+  [1860, "Garibaldi crosses; the Two Sicilies fall; the Papal enclave at Benevento ends"],
+  [1861, "Unification, then a decade of brigandage in these hills"],
+  [1884, "Cholera again, chiefly at Naples"],
+  [1915, "Italy enters the First World War; the class of 1895 is called up"],
+  [1935, "Italy invades Ethiopia, 3 October — the campaign Angelo Zampiello was decorated for"],
+  [1943, "The Allies land at Salerno; the front runs through Campania"],
+  [1946, "The Republic"],
+  [1955, "Assisted migration to Australia gathers pace"],
+];
+
+const LANE_Y = [96, 168, 240];
+const H = 400;
+---
+<figure class="rule">
+  <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-labelledby="rulettl">
+    <title id="rulettl">Who governed Arienzo, Arpaia and Benevento while this family lived there</title>
+
+    <text x="12" y="46" class="rl-head">This family</text>
+    <line x1={X0} y1="52" x2={X1} y2="52" stroke="var(--rule)" stroke-width="1" />
+    {FAMILY.map(([y, what]) => (
+      <g class="ev" tabindex="0" role="button" data-kind="family" data-year={y} data-what={what}>
+        <title>{y} — {what}</title>
+        <circle cx={x(y)} cy="52" r="4.2" fill="var(--accent)" />
+      </g>
+    ))}
+
+    {LANES.map((lane, li) => (
+      <g>
+        <text x="12" y={LANE_Y[li] + 14} class="rl-lane">{lane.name}</text>
+        <text x="12" y={LANE_Y[li] + 28} class="rl-sub">{lane.sub}</text>
+        {lane.bands.map(([a, b, label, colour]) => (
+          <g class="bd" tabindex="0" role="button" data-kind="rule" data-year={`${a}–${b === 2000 ? "" : b}`} data-what={label}>
+            <title>{a}–{b === 2000 ? "now" : b} — {label}</title>
+            <rect x={x(a)} y={LANE_Y[li]} width={Math.max(2, x(b) - x(a))} height="34"
+                  fill={colour} opacity="0.88" />
+          </g>
+        ))}
+      </g>
+    ))}
+
+    {[1650, 1700, 1750, 1800, 1850, 1900, 1950, 2000].map((y) => (
+      <g>
+        <line x1={x(y)} y1="86" x2={x(y)} y2="292" stroke="var(--panel)" stroke-width="1" opacity="0.5" />
+        <text x={x(y)} y="308" class="rl-tick">{y}</text>
+      </g>
+    ))}
+
+    <text x="12" y="346" class="rl-head rl-ochre">What they were up against</text>
+    <line x1={X0} y1="352" x2={X1} y2="352" stroke="var(--rule)" stroke-width="1" />
+    {WORLD.map(([y, what]) => (
+      <g class="ev" tabindex="0" role="button" data-kind="world" data-year={y} data-what={what}>
+        <title>{y} — {what}</title>
+        <rect x={x(y) - 3.4} y="348" width="6.8" height="8" fill="var(--ochre)" />
+      </g>
+    ))}
+  </svg>
+
+  <div class="ruleread" id="ruleread" aria-live="polite">
+    <b>Hover or tab any marker.</b> Red above the bands is this family; ochre below is the world around it.
+  </div>
+
+  <div class="rl-key">
+    {[["Kingdom of Naples · Spanish", "var(--r-feudal)"], ["Austrian Habsburg", "var(--r-habsburg)"],
+      ["Bourbon Naples / Two Sicilies", "var(--r-venice)"], ["Napoleonic 1806–15", "var(--r-napo)"],
+      ["Papal State", "var(--r-yugo)"], ["Kingdom of Italy", "var(--r-italy)"],
+      ["Italian Republic", "var(--r-croatia)"]].map(([l, c]) => (
+      <span class="rl-sw"><i style={`background:${c}`}></i>{l}</span>
+    ))}
+  </div>
+</figure>
+
+<script is:inline>
+  (function () {
+    var host = document.getElementById("ruleread");
+    if (!host) return;
+    function show(g) {
+      host.innerHTML = '<span class="rr-kind"></span><b class="rr-year"></b><span class="rr-what"></span>';
+      var k = g.getAttribute("data-kind");
+      host.querySelector(".rr-kind").textContent =
+        k === "family" ? "This family" : k === "world" ? "What they were up against" : "Who governed the place";
+      host.querySelector(".rr-year").textContent = g.getAttribute("data-year");
+      host.querySelector(".rr-what").textContent = g.getAttribute("data-what");
+      host.setAttribute("data-kind", k);
+    }
+    document.querySelectorAll(".rule .ev, .rule .bd").forEach(function (g) {
+      ["click", "mouseenter", "focus"].forEach(function (t) { g.addEventListener(t, function () { show(g); }); });
+    });
+  })();
+</script>
+
+<style>
+  .rule{margin:0}
+  .rule svg{width:100%;height:auto;display:block;overflow:visible}
+  .rl-head{font-family:var(--sans);font-size:12px;font-weight:600;fill:var(--accent)}
+  .rl-head.rl-ochre{fill:var(--ochre)}
+  .rl-lane{font-family:var(--sans);font-size:12px;font-weight:600;fill:var(--ink)}
+  .rl-sub{font-family:var(--sans);font-size:10px;fill:var(--ink-3)}
+  .rl-tick{font-family:var(--mono);font-size:10px;fill:var(--ink-3);text-anchor:middle}
+  .rule .ev,.rule .bd{cursor:help}
+  .rule .ev:focus,.rule .bd:focus{outline:none}
+  .rule .ev:hover circle,.rule .ev:focus circle{r:6.4}
+  .rule .bd:hover rect,.rule .bd:focus rect{opacity:1;stroke:var(--ink);stroke-width:1.4}
+  .ruleread{margin-top:16px;padding:14px 18px;border-left:3px solid var(--accent);
+    background:var(--panel-2);border-radius:0 10px 10px 0;font-family:var(--sans);
+    font-size:14px;line-height:1.55;color:var(--ink-2);min-height:52px}
+  .ruleread[data-kind="world"]{border-left-color:var(--ochre)}
+  .ruleread[data-kind="rule"]{border-left-color:var(--ink-3)}
+  .ruleread .rr-kind{display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--ink-3);margin-bottom:4px}
+  .ruleread .rr-year{font-family:var(--mono);font-size:13px;color:var(--ink);margin-right:9px}
+  .rl-key{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:14px}
+  .rl-sw{font-family:var(--sans);font-size:11.5px;color:var(--ink-2);display:inline-flex;
+    align-items:center;gap:6px}
+  .rl-sw i{width:11px;height:11px;border-radius:2px;display:inline-block}
+  @media (max-width:760px){.rule svg{min-width:700px}.rule{overflow-x:auto}}
+</style>

@@ -1,0 +1,33 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import BranchRivers from "../components/BranchRivers.astro";
+---
+<Base title="The Lines"
+      eyebrow="Several Falco, one town"
+      dek="Falco is a name that was coined independently, many times, in many places — so there is no single Falco family to find. What there is, at Arienzo, is a handful of separate Falco strands living in the same parish and often the same street. This is what each of them is, and what joins them.">
+
+  <BranchRivers />
+
+  <h2>The rule this page follows</h2>
+  <p>A shared surname in one small town is <strong>suggestive and not evidence</strong>. Two Falco
+  households on the same street may be brothers, cousins, or unrelated men who happen to share a
+  common Campanian name. This archive joins two people only when a record says so, and draws
+  everything else apart — even where joining them would make a better story.</p>
+
+  <h2>What has changed</h2>
+  <p>Until the 1831 register was read, the honest position was that <em>none</em> of the strada
+  Camellara households could be joined to the line. That is no longer quite true.</p>
+  <blockquote>
+    …sono comparsi <strong>Andrea Crisci</strong>, di anni cinquantotto, contadino, strada Camellara,
+    <em>vicino della defunta</em>, e <strong>Vincenzo Falco</strong>, di anni trentotto, contadino,
+    strada Camellara, <strong><em>parente della defunta</em></strong>…
+    <span class="small">— Arienzo, Morti 1831, atto 33, on the death of Anna Falco, thirteen months,
+    daughter of Michelangelo Falco and Mariantonia Vigliotta</span>
+  </blockquote>
+  <p>The clerk drew the distinction himself: one declarant a <em>neighbour</em>, the other a
+  <strong>kinsman</strong>. Vincenzo Falco, thirty-eight in 1831, is generation three of this line.
+  So <strong>Michelangelo Falco's household is kin</strong> — degree unstated. The other three
+  Camellara households remain unjoined. One joined, three not.
+  <a href={u("/wider-family")}>The wider family →</a></p>
+</Base>

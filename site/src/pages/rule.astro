@@ -1,0 +1,35 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import UnderWhoseRule from "../components/UnderWhoseRule.astro";
+---
+<Base title="Under Whose Rule"
+      eyebrow="Three hundred years, six regimes, one parish"
+      dek="Arienzo did not sit still under one flag while this family was in it. Spanish viceroys, Austrians, Bourbons, the French, the Bourbons again, then Italy — and four kilometres away, across a border, a papal enclave. The bands are who governed the place; the red is this family's own records; the ochre is what the town was living through.">
+
+  <UnderWhoseRule />
+
+  <h2>Why this is on an archive of one family</h2>
+  <p>Because the regimes made the records. Everything this archive can read about the Falco before
+  1809 comes from a parish priest, because the parish was the only institution writing anything down.
+  Then the French arrived, abolished feudalism, and in <strong>1809</strong> ordered civil registration
+  — births, marriages and deaths recorded by the mayor, in duplicate, on printed forms, with the
+  parents of the deceased named in every death act.</p>
+  <p>That single administrative decision is the reason <a href={u("/antenati")}>Pasquale Falco's death
+  act</a> exists and can be read two hundred years later. The parish books say a man died; the civil
+  act says whose son he was. The whole spine of this archive above generation three rests on a
+  Napoleonic filing requirement.</p>
+  <p>The Bourbons came back in 1815 and kept the system, which is why the volumes are catalogued as
+  <em>Stato civile della restaurazione</em> — the restoration's civil registers. The name on the
+  spine of the book is a regime change.</p>
+
+  <h2>What this page is, and is not</h2>
+  <p class="small"><strong>The red markers are evidence</strong> — every one is a document reproduced
+  or cited elsewhere on this site. <strong>The bands and the ochre markers are not.</strong> They are
+  ordinary published history, put here as context so the family's dates can be read against the world
+  that produced them. Where the two touch — 1809, 1935, 1955 — that is said explicitly.</p>
+  <p class="small">One local detail worth its own line: the 1831 death acts give Arienzo's district as
+  <strong>Nola</strong>, and the 1832 acts onward give <strong>Caserta</strong>. The district appears
+  to have been redrawn between them. Observed in the registers; not yet verified against an
+  administrative source.</p>
+</Base>
