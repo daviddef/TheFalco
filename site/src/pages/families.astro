@@ -1,0 +1,194 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import register from "../data/register.json";
+import households from "../data/households.json";
+import line from "../data/line.json";
+import { findPerson } from "../lib/people.js";
+
+const rows = (sn) => register.filter((r) => r.surname === sn).length;
+const P = (name, house) => {
+  const p = findPerson(name, house);
+  return p ? u("/people/" + p.slug) : null;
+};
+
+/* Eight families married into the direct line, and the collaterals married more.
+   Each of these is a family in its own right, not a surname hanging off a Falco. */
+const FAM = [
+  {
+    sn: "CRISCI", name: "Crisci", where: "Arienzo — they have a street named after them",
+    times: "Twice into the direct line, and again into the collaterals",
+    into: [["1", "Matteo Falco", "Francesca Crisci"], ["3", "Vincenzo Falco", "Andreana Crisci"]],
+    body: `The Crisci are the family this one is most bound to. <strong>Francesca Crisci</strong> married
+    Matteo at the head of the line, and two generations later <strong>Andreana Crisci</strong> married
+    Vincenzo — she was twenty at her son Raffaele's birth in May 1818, so born about 1798, and had
+    married in December 1814 at about sixteen. Arienzo has a <em>strada Crisci</em>, and the register
+    is thick with them: Domenico Crisci witnessed Raffaele's birth; Andrea Crisci, fifty-eight, was
+    the neighbour who reported Anna Falco's death in 1831; Giuseppe Crisci, a shoemaker of strada
+    Camellara, reported Rosa Falco's in 1830.`,
+    note: `<strong>There were two Arcangelo Crisci.</strong> He appeared both as Andreana's father and
+    as the husband of Anna Falco, dead at twenty-two in 1820 — one man twice married, or two? The 1817
+    birth register has <strong>two</strong> of them declaring births in the same year, aged fifty-two
+    and thirty. Two men, born about 1765 and about 1787. The elder fits Andreana's father; the younger
+    fits Anna Falco's husband.`,
+  },
+  {
+    sn: "MORGILLO", name: "Morgillo", where: "Arienzo — and on strada Camellara before they were in-laws",
+    times: "Three marriages across three generations",
+    into: [["4", "Raffaele Falco", "Angela Rosa Morgillo"], ["—", "Rosa Falco", "Carlantonio Morgillo"],
+           ["—", "Crescenzo Falco", "Angela Maria Morgillo"]],
+    body: `The Morgillo married Falco three times. <strong>Rosa Falco</strong> — Pasquale's sister —
+    married <strong>Carlantonio Morgillo</strong> around 1810; he was thirty-three when he declared a
+    birth in September 1817, so born about 1784, his household then on strada Maddalena. Their son
+    Raffaele Morgillo died on <strong>strada Camellara</strong> in 1832, aged twenty-two. Two
+    generations after Rosa, <strong>Raffaele Falco</strong> of the direct line married
+    <strong>Angela Rosa Morgillo</strong>.`,
+    note: `So the family generation four married into were <strong>his great-aunt's people, and his
+    neighbours</strong>. Salvatore Morgillo, eighty-seven, a carpenter, died on that street in November
+    1830; Anna Morgillo, eighty-two, widow of a Francesco Crisci, died there the same month.`,
+  },
+  {
+    sn: "RIVETTI", name: "Rivetti", where: "Arienzo — peasants on strada Camellara, and an apothecary in town",
+    times: "Once into the direct line",
+    into: [["2", "Pasquale Falco", "Chiara Rivetti"]],
+    body: `<strong>Chiara Rivetti</strong> married Pasquale and outlived him by nine years, dying in
+    1843 at a stated eighty. Her death entry is the only record that names her parents:
+    <em>filia quondam <strong>Nicolai</strong> et <strong>Anna</strong></em> — a whole generation this
+    archive would otherwise not have. The Rivetti were on the family's own street: Giuseppe Rivetti,
+    thirty-six, and Francesco Rivetti, forty, both declared births from strada Camellara in 1818.`,
+    note: `They were not only <em>contadini</em>. <strong>Don Giovanbattista Rivetti</strong>, thirty,
+    declared a birth in 1818 as <em>speziale di medicina</em> — an apothecary — and a Donna Rivetti
+    married Don Claudio Cimmino, a <em>proprietario</em>. Whether the peasant and professional Rivetti
+    are one family is <span class="chip dis">not established</span>.`,
+  },
+  {
+    sn: "ZAMPIELLO", name: "Zampiello", where: "Arpaia, in the province of Benevento",
+    times: "Once into the direct line — and a second Falco brother married a second sister",
+    into: [["8", "Carmine Falco", "Francesca Zampiello"]],
+    body: `A surname with about 123 bearers in the world. <strong>Francesca Zampiello</strong>, born at
+    Arpaia on 27 April 1928 to <strong>Angelo Zampiello</strong> and <strong>Giuseppa Ferrara</strong>,
+    married Carmine Falco at Arpaia on 15 January 1955. Her sister <strong>Caterina</strong> married
+    Carmine's brother Raffaele — two brothers, two sisters. Two more sisters reached Queensland and
+    married out, into <em>Servodio</em> and <em>Miceli</em>.`,
+    note: `Angelo Zampiello's own father was <strong>Tommaso Zampiello</strong>, named on the War Merit
+    Cross conferred on him in 1938 — a generation recovered from a certificate the family had, filed
+    under the wrong caption. <a href="/TheFalco/documents/">The certificate →</a>`,
+  },
+  {
+    sn: "ANNECCHINO", name: "Annecchino", where: "Forchia, in the Valle Caudina",
+    times: "Once into the direct line — and it moved the family north",
+    into: [["7", "Carminantonio Falco", "Filomena Annecchino"]],
+    body: `<strong>Filomena Annecchino</strong>, born 10 April 1897, married Carminantonio Falco. Her
+    family were of <strong>Forchia</strong> — and Forchia is where the Falco surface in 1930. The
+    move out of Arienzo, after two centuries in one parish, was <strong>a marriage rather than a
+    migration</strong>.`,
+    note: `Her own birth act has never been found: the Forchia births of 1897 are one of the two
+    volumes at the Archivio di Stato di Benevento that were never digitised. The descent from Carmine
+    Annecchino and Maria Carfora fits exactly, including the grandfather's name, but rests on that gap.`,
+  },
+  {
+    sn: "GUIDA", name: "di Guida", where: "Arienzo — on strada Camellara",
+    times: "Once, into Pasquale's own brother",
+    into: [["—", "Giuseppe Falco", "Antonia di Guida"]],
+    body: `<strong>Antonia di Guida</strong> was thirty when her daughter Maddalena was born on
+    7 June 1818, so born about 1788. Her husband <strong>Giuseppe Falco</strong> is the son of Matteo
+    and Francesca Crisci — Pasquale's brother — and that birth act is what places him, and so a
+    documented child of the founding couple, on <strong>strada Camellara</strong>.`,
+    note: `Other di Guida declare births in these same years: Angelo, thirty-six, and Raffaele,
+    forty-two, both in 1817. None has yet been joined to Antonia.`,
+  },
+  {
+    sn: "MAIONE", name: "Maione", where: "Arienzo",
+    times: "Once into the direct line",
+    into: [["6", "Raffaele Falco", "Costanza Maione"]],
+    body: `<strong>Costanza Maione</strong> was born at Arienzo on 2 May 1876, daughter of
+    <strong>Aniello Maione</strong>. She married Raffaele Falco in 1897 and was the mother of
+    Carminantonio, the generation that left for Brisbane.`,
+    note: `Maione appear throughout the Arienzo registers a century earlier — Filippo, thirty-eight,
+    on strada Calbarola in 1817; Gennaro, forty, in the same year — but no line yet joins them to
+    Costanza.`,
+  },
+  {
+    sn: "ARRICALE", name: "Arricale", where: "Arienzo — chiefly strada Capodiconca",
+    times: "Once into the direct line",
+    into: [["5", "Carmine Antonio Falco", "Giovanna Arricale"]],
+    body: `<strong>Giovanna Arricale</strong> married Carmine Antonio Falco, born 1850. The Arricale
+    are one of the steadiest families in the registers, and almost always <em>vaticali</em> — carriers
+    — of strada Capodiconca: Carmine at twenty-six, Giuseppe at thirty, Domenico at thirty-five and
+    Aniello at twenty-five all declared births in 1818 alone.`,
+    note: `The spelling wanders between <em>Arricale</em>, <em>Arrigale</em> and <em>Arricole</em> in
+    the same decade and sometimes the same hand.`,
+  },
+  {
+    sn: "ESPOSITO", name: "Esposito", where: "Arienzo",
+    times: "Once, into the second founding household",
+    into: [["—", "Michele Falco", "Vincenza Esposito"]],
+    body: `<strong>Vincenza Esposito</strong> married <strong>Michele Falco</strong> — not the Michele
+    of strada Camellara but a man of Matteo's own generation. They are named together on the 1832
+    death act of their daughter Giovanna, aged seventy, and they are the reason this archive knows
+    there were <strong>two peasant Falco couples raising children at Arienzo in the early 1760s</strong>.`,
+    note: `<em>Esposito</em> is also the surname given to foundlings across southern Italy, so it
+    carries no presumption of kinship between bearers.`,
+  },
+  {
+    sn: "VIGLIOTTA", name: "Vigliotta", where: "Arienzo — strada Camellara",
+    times: "Once, into the household that is proved kin",
+    into: [["—", "Michelangelo Falco", "Mariantonia Vigliotta"]],
+    body: `<strong>Mariantonia Vigliotta</strong> and <strong>Michelangelo Falco</strong> buried a
+    daughter Anna, thirteen months old, in May 1831 — and the second man to swear that act was
+    <strong>Vincenzo Falco</strong> of the direct line, described not as a neighbour but as
+    <em>parente</em>, a kinsman. Theirs is the one Camellara household proved related to the line.`,
+    note: `They used the name Anna twice: this child, and another dead at eight days in March 1834.
+    How Michelangelo is kin — brother, cousin, nephew — the act does not say.`,
+  },
+];
+---
+<Base title="The families"
+      eyebrow="Ten families, not one surname"
+      dek="A family history that follows only one surname is half a history. These are the families the Falco married — what is known of each in its own right, how often they married in, and where the evidence for them stops.">
+
+  <div class="card" style="border-left:3px solid var(--accent)">
+    <p>Every generation of this line is half somebody else's family. Where a Falco married, the wife's
+    people are a family with their own street, their own trades and their own gaps — and in three
+    cases they married in more than once, so the two families are woven rather than joined.</p>
+    <p class="small" style="margin-top:.6rem">Counts below are rows in
+    <a href={u("/register")}>the register</a>, which includes surname-index hits — a count is a measure
+    of what has been gathered, not of proven kinship.</p>
+  </div>
+
+  {FAM.map((f) => (
+    <section class="blk">
+      <div class="lab">{f.where}</div>
+      <h2 style="margin-top:.3rem">{f.name} <span class="small mono">{rows(f.sn)} records</span></h2>
+      <p class="dek" style="margin:.4rem 0 1rem"><strong>{f.times}</strong></p>
+
+      <div class="scroll"><table>
+        <thead><tr><th>Generation</th><th>Falco</th><th>married</th></tr></thead>
+        <tbody>
+          {f.into.map(([g, a, b]) => (
+            <tr>
+              <td class="m">{g === "—" ? "collateral" : "gen " + g}</td>
+              <td>{P(a) ? <a href={P(a)}>{a}</a> : a}</td>
+              <td>{P(b) ? <a href={P(b)}>{b}</a> : b}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table></div>
+
+      <p style="margin-top:1rem" set:html={f.body}></p>
+      <p class="small" style="margin-top:.7rem" set:html={f.note}></p>
+    </section>
+  ))}
+
+  <section class="blk" style="border-bottom:0">
+    <h2>Families married by the collaterals</h2>
+    <p class="dek">Beyond the ten above, the Falco households this archive has reconstructed also
+    married <strong>Loffreda</strong> (Francesco Falco × Antonia Loffreda), <strong>Mara</strong>
+    (Tommaso Falco × Marta Mara) and <strong>Ulivieccio</strong> (Francesco Falco × Maria Angela
+    Ulivieccio) — and, in 1832, <strong>a Falco married a Falco</strong>: Francesco Falco and Raffaela
+    Falco of strada Camellara, which in a town this size ordinarily means cousins and a dispensation.</p>
+    <p class="small" style="margin-top:.8rem">Every person named on this page has a page of their own
+    at <a href={u("/people")}>The people</a>, or an entry with its source at
+    <a href={u("/register")}>The register</a>.</p>
+  </section>
+</Base>
