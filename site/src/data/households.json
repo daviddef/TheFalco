@@ -289,6 +289,16 @@
   "members": [
    {
     "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Andreana Crisci",
+    "role": "mother",
+    "event": "—",
+    "date": "—",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "aged 20 at her son Raffaele's birth in May 1818, so born about 1798 — the first record to give her an age",
+    "ark": "ANTENATI an_ua14415 img41r act47"
+   },
+   {
+    "household": "Vincenzo Falco & Andreana Crisci",
     "person": "Vincenzo Falco",
     "role": "father",
     "event": "marriage",
@@ -301,11 +311,11 @@
     "household": "Vincenzo Falco & Andreana Crisci",
     "person": "Raffaele Falco",
     "role": "child",
-    "event": "baptism",
-    "date": "1818",
-    "place": "Arienzo",
-    "evidence": "ex Vincentio Falco, e Andreana Crisci ... nomen Raphael. Matrina Gelsumina Ruggiero",
-    "ark": "3Q9M-CSD3-1381-R"
+    "event": "birth",
+    "date": "10 May 1818",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "civil act 47, foglio 149: «è comparso Vincenzo Falco, di anni ventisette, contadino, strada Camellara… è nato nella sua propria casa, da lui dichiarante e da Andreana Crisci sua moglie legittima, d'anni venti, un maschio… a cui si è dato il nome di Raffaele» — born at three in the afternoon",
+    "ark": "ANTENATI an_ua14415 img41r act47"
    },
    {
     "household": "Vincenzo Falco & Andreana Crisci",
