@@ -91,13 +91,17 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       **Anna**. New generation on her side.
 - [x] **1835 (`an_ua14337`) READ IN FULL AND ELIMINATED** — 46 images, ~75 acts, Jan-Dec 1835,
       no Falco of any age. See `notes/1835-death-register-progress.md` for the act-by-act table.
-- [ ] **1836 (`an_ua14338`) IN PROGRESS** — pages 2-11 read; resume at page 12. See
-      `notes/1836-death-register-progress.md`.
+- [x] **1836 (`an_ua14338`) READ IN FULL AND ELIMINATED** — 51 images, Jan-Dec 1836. Pasquale absent.
+      **Four Falco found**: Donna Raffaela the nun, Margarita (w. of Domenico Crisci), and the infants
+      Salvatore and Pasqualina. See `notes/1836-death-register-progress.md`.
 - [ ] **NEW LEAD: a gentry Falco branch.** Donna Raffaela de Falco, nun, d. 7 Mar 1836 aged 67,
       daughter of **Don Francesco Falco, *proprietario***. Not our line so far as anything shows —
       ours are contadini — but the first Falco the death sweep has turned up. Worth tracing Don
       Francesco separately.
-- [ ] **Read the Arienzo civil death registers 1829-1843** — after 1836: 1834, 1837, 1833 (`an_ua14337`, 46 pp.),
+- [ ] **Read the Arienzo civil death registers** — 1835 and 1836 done. NEXT: **1834 (`an_ua14336`)**,
+      then 1837, 1833, 1838, working outward. Twelve years remain.
+- [ ] **Trace the strada Camellara Falco** — Michele and Francesco, both contadini, both on that
+      street in 1836. Nearest thing yet to a peasant Falco cluster; likely kin to the line. (`an_ua14337`, 46 pp.),
       then 1836, 1834, 1837, working outward. ~90 acts/year, ~1,350 total. **No index, no indice
       decennale, no marginal surnames** — all three checked and absent. One screenshot per act.
       Crop recipe: left act `pct:4,27,46,22`, right act `pct:52,27,46,22`, render width 2000.
