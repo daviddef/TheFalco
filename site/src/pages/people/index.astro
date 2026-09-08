@@ -13,7 +13,14 @@ const withEvents = people.filter((p) => p.events.length).length;
 ---
 <Base title="The people"
       eyebrow="Everyone this archive can name"
-      dek={`${people.length} people, of whom ${withEvents} have at least one dated record. Every one of them has a page, whether they continued the line or not.`}>
+      dek={`${people.length} people reconstructed into households from the words of a record — each with a page, whether they continued the line or not.`}>
+  <div class="card" style="margin-bottom:1.4rem">
+    <p>These are the people this archive has actually <strong>joined into families</strong>. They are
+    the minority of what has been found. Every other named individual — some two thousand of them,
+    from the Antenati surname indexes and the record harvests — is listed with its source at
+    <a href={u("/register")}><strong>The register</strong></a>, and labelled there as the lead it is
+    rather than the conclusion it is not.</p>
+  </div>
   {keys.map((k) => (
     <section style="margin:1.4rem 0">
       <h2 style="margin-bottom:.5rem">{k}</h2>
