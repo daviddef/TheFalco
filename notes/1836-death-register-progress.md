@@ -127,6 +127,53 @@ that the Rivetti of Arienzo appear at both social levels: a *Doctoris Physici* i
 | 31 | Pasquale di Guida, 57, ***sensale*** (broker), h. of a Sepitelli, s. of Giuseppe, d. 11 Aug | Francesco Liparulo, 10 mths, s. of Clemente (*sartore*), d. 27 Aug |
 | 32 | Elena Cerrone, 70, s. of Domenico — **died in the Ave Gratia Plena hospital**, d. 28 Aug | **PASQUALINA FALCO, 10 months, d. of FRANCESCO FALCO, *contadino*, strada Camellara — d. 14 Sep** |
 | 33 | *(blank)* | Angelo Martone, mths, s. of Clemente, d. 22 Sep |
+| 34 | Luigia di Fiore, mths, d. of Angelantonio (*sartore*), d. 30 Sep | Alfonso Diglio, 4, s. of Clemente (*sartore*), d. 2 Oct |
+| 35 | Domenica Zimbardo, 40s, w. of a Coppa, d. of Antonio, d. 6 Oct | **Donna Carlotta Ruoti, 78, *monaca***, Ave Gratia Plena, d. of Don Alfonso (*proprietario*, dec.), d. 9 Oct |
+| 36 | Carmela Zimbardo, mths, d. of Clemente, d. 11 Oct | Francesco Carbone, 70s, *calzolaio*, widower of Mariantonia Verdicchio, d. 19 Oct |
+| 37 | Pasquale Diglio, 54, *calzolaio*, s. of Felice (*sensale*, dec.), d. 21 Oct | Pasquale Ruoti, 4, s. of Giuseppe (*sartore*), d. 25 Oct |
+| 38 | *(duplicate of p37)* | *(duplicate of p37)* |
+| 39 | Maria Crisci, 40 days, d. of Domenico, d. 25 Oct | **Don Alessandro Bruno, 27, *sacerdote***, s. of Don Costantino (***chirurgo***, dec.), d. 1 Nov |
+| 40 | Aniello Diglio, 24, s. of Pasquale (dec.), d. 3 Nov | Rosa Rizzoli, 70, widow of Fedele Gingone, d. of Romualdo (*possidente*, dec.), Nov |
+| 41 | Nicola Cimmino, 55, *vaticale*, s. of Domenico, d. 9 Nov | Mario Vetrone, 70s, h. of Maria Capitale, s. of Mario (dec.), d. 6 Nov |
+| 42 | Lazzaro Martone, 80, ***barbiere***, d. 14 Nov | **Suor Fedela Ruggiero, 70s, *monaca conversa***, Ave Gratia Plena, d. 15 Nov |
+| 43 | **Don Francesco de Nuptis, 47, *sacerdote*, b. Napoli**, s. of Don Matteo (*possidente*), d. 18 Dec | Tommaso Spunzo, 60s, s. of Domenico (dec.), d. 28 Nov |
+| 44 | Felice **Cospi**, 80, *contadino*, h. of Marta Cospi, s. of Giuseppe (dec.) — strada Cospi *(checked: not Falco)* | Clemente Morgillo, 2, s. of Vincenzo, Nov |
+| 45 | **Donna Luigia Sorgente, 70s, *proprietaria***, d. of Don Pietro (dec.), d. 18 Nov | Domenico Acquavella, 25, *proprietario*, s. of Don Tommaso, d. 20 Nov |
+| 46 | Maria Filomena Pellone, mths, d. of Clemente, d. 26 Nov | Maria Verdicchio, 70s, widow, d. of Carmine (dec.), Nov |
+| 47 | Giulia Cacace, 70s, widow of Giuseppe Pirone — **died in the Ave Gratia Plena hospital**, d. 20 Nov | Venerata Cospi, 74, d. of Giovanni (dec.), strada Camellara, d. 1 Dec |
+| 48 | **Don Biagio Diglio, 79, *sacerdote*** — son of **Pasquale Diglio, *contadino*** (dec.), d. 6 Dec | Massimo Vetrone, 87, *sartore*, s. of Marco (dec.), d. 9 Dec |
+| 49 | Maria Grazia Laudato, d. of Pasquale, d. 20 Dec | *(blank form)* |
+| 50 | *closing certification — end of volume* | — |
+
+## RESULT: 1836 COMPLETE — Pasquale Falco is NOT in it
+
+**All 51 images read, 1 January to 31 December 1836. Pasquale Falco does not appear.**
+
+**Four Falco were found, and all four are recorded:**
+
+| | | |
+|---|---|---|
+| **Donna Raffaela de Falco** | 67, *monaca*, Ave Gratia Plena | d. of **Don Francesco Falco, *proprietario*** — 7 Mar |
+| **Margarita Falco** | 60, *contadina*, w. of Domenico Crisci | d. of **Francesco Falco, *contadino*** (dec.) — 13 May |
+| **Salvatore Falco** | 14 months | s. of **Michele Falco, *contadino***, strada Camellara — 9 Aug |
+| **Pasqualina Falco** | 10 months | d. of **Francesco Falco, *contadino***, strada Camellara — 14 Sep |
+
+**Two years now eliminated: 1835 and 1836.** Twelve remain in the 1829–1843 bracket.
+
+### What the two years have established beyond the search
+
+- **Three distinct Francesco Falcos** in Arienzo — Don Francesco the *proprietario*, Francesco the
+  *contadino* married to Maria Angela Ulivieccio (dead by 1836), and a third *contadino* living in 1836.
+- **The peasant Falco lived in *strada Camellara***, where both Michele and Francesco are recorded.
+- **A gentry Falco branch existed**, distinct from the documented line.
+- Arienzo supported a **monastery (Ave Gratia Plena, with its own hospital)** that took gentry
+  daughters — four religious women recorded across the two years — and a clerical class that included
+  a surgeon's son and a peasant's son who both became priests.
+
+## Resume here — 1836 is done
+
+Next: **1834 (`an_ua14336`)**, then 1837 (`an_ua14339`), 1833 (`an_ua14335`), 1838 (`an_ua14340`) —
+working outward from the middle of the bracket.
 
 ## FOURTH FALCO — 14 September 1836 — and the street emerges
 
@@ -148,8 +195,8 @@ The child's name is **Pasqualina** — the feminine of Pasquale. Under the Neapo
 that would ordinarily point to a grandfather called Pasquale. **It is not evidence**, and Pasquale was
 among the commonest names in the parish, but it is worth writing down.
 
-**Pasquale Falco still has not appeared.**
+
 
 ## Resume here
 
-**Next page: index 34.** Continue to index 50. Pages 2–33 read (January to late September 1836); **four Falco found — Raffaela the nun, Margarita, and the infants Salvatore and Pasqualina — none of them Pasquale.**
+
