@@ -1,0 +1,97 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import register from "../data/register.json";
+import { people as reconstructed } from "../lib/people.js";
+
+const bySlug = new Map(reconstructed.map((p) => [p.name.toLowerCase(), p.slug]));
+const groups = new Map();
+for (const r of register) {
+  if (!groups.has(r.surname)) groups.set(r.surname, []);
+  groups.get(r.surname).push(r);
+}
+const surnames = [...groups.keys()].sort((a, b) => groups.get(b).length - groups.get(a).length || a.localeCompare(b));
+const linked = register.filter((r) => r.link).length;
+const distinct = new Set(register.map((r) => r.name.toLowerCase())).size;
+const KIND = {
+  index: "surname index", record: "record", cited: "cited by this archive",
+  burial: "burial", file: "archive file", household: "reconstructed",
+};
+---
+<Base title="The register"
+      eyebrow="Every named individual this archive has found"
+      dek={`${register.length} entries for ${distinct} distinct names, ${linked} of them with a link to the source that names them. This is the raw catch — not a family tree, and most of it is not this family.`}>
+
+  <div class="card" style="border-left:3px solid var(--accent)">
+    <h3 style="margin-bottom:.4rem">Read this before you read the list</h3>
+    <p>Most of these entries come from <strong>surname indexes</strong> — every Falco, Zampiello and
+    Annecchino the Antenati name index holds for the Valle Caudina towns, and every hit from the
+    FamilySearch harvests. <strong>A shared surname is not a relationship.</strong> The Falco of
+    Paolisi and Moiano in particular are largely a different population: their in-laws barely overlap
+    with the Crisci, Morgillo, Martone and Rivetti that this family married into.</p>
+    <p style="margin-top:.6rem">The <span class="chip doc">reconstructed</span> entries are the ones
+    this archive has actually joined into households from the words of a record. Those names link to
+    a <a href={u("/people")}>person page</a>. Everything else links out to the source and is offered
+    as a lead, not a conclusion.</p>
+  </div>
+
+  <div class="card" style="margin:1.2rem 0">
+    <label class="lab" for="q">Filter by name, place, year or source</label>
+    <input id="q" type="search" placeholder="Camellara · 1832 · Michelangelo · Arpaia …"
+           style="width:100%;margin-top:.5rem;padding:.6rem .7rem;font-family:var(--sans);
+                  font-size:15px;border:1px solid var(--rule-strong);border-radius:4px;
+                  background:var(--ground);color:var(--ink)" />
+    <p class="small" id="count" style="margin-top:.5rem">{register.length} entries shown</p>
+  </div>
+
+  {surnames.map((sn) => (
+    <section class="sur" data-sur={sn} style="margin:1.6rem 0">
+      <h2 style="margin-bottom:.3rem">{sn} <span class="small mono">{groups.get(sn).length}</span></h2>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Name</th><th>What the source says</th><th>Source</th></tr></thead>
+          <tbody>
+            {groups.get(sn).map((r) => (
+              <tr class="row" data-hay={(r.name + " " + r.detail + " " + r.source).toLowerCase()}>
+                <td>
+                  {bySlug.has(r.name.toLowerCase())
+                    ? <a href={u("/people/" + bySlug.get(r.name.toLowerCase()))}>{r.name}</a>
+                    : r.name}
+                  {r.kind === "household" ? <><br/><span class="chip doc">reconstructed</span></> : null}
+                </td>
+                <td>{r.detail}</td>
+                <td class="small">
+                  {r.link ? <a href={r.link} rel="noopener">{KIND[r.kind] || r.kind} ↗</a>
+                          : (KIND[r.kind] || r.kind)}
+                  <br/><span style="color:var(--ink-3)">{r.source}</span>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  ))}
+
+  <script is:inline>
+    (function () {
+      var q = document.getElementById("q"), count = document.getElementById("count");
+      var rows = [].slice.call(document.querySelectorAll("tr.row"));
+      var secs = [].slice.call(document.querySelectorAll("section.sur"));
+      var t;
+      function run() {
+        var v = q.value.trim().toLowerCase();
+        var n = 0;
+        rows.forEach(function (r) {
+          var hit = !v || r.getAttribute("data-hay").indexOf(v) !== -1;
+          r.hidden = !hit; if (hit) n++;
+        });
+        secs.forEach(function (s) {
+          s.hidden = !s.querySelector("tr.row:not([hidden])");
+        });
+        count.textContent = n + (n === 1 ? " entry shown" : " entries shown");
+      }
+      q.addEventListener("input", function () { clearTimeout(t); t = setTimeout(run, 120); });
+    })();
+  </script>
+</Base>
