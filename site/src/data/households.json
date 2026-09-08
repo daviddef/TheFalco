@@ -438,8 +438,8 @@
     "role": "father",
     "event": "marriage",
     "date": "—",
-    "place": "Arienzo",
-    "evidence": "Josephum Falco filium Matthei, e Franciscae Crisci — son of Matteo",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "Josephum Falco filium Matthei, e Franciscae Crisci — son of Matteo — and in June 1818 he declares a daughter's birth as a contadino of STRADA CAMELLARA, aged 36, which puts his own birth about 1782 and places a documented son of Matteo Falco on the family's street.",
     "ark": "3Q9M-CSMY-B74R-4"
    },
    {
@@ -491,6 +491,16 @@
     "place": "Arienzo",
     "evidence": "dispensatione obtenta a … Papa nostro Gregorio super quarto gradu consanguinitatis … Crescentium Falco, filium Josephi, e Antoniae di Guida m. Angela Maria Morgillo",
     "ark": "3Q9M-CSMY-B7HC-V"
+   },
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Maddalena Falco",
+    "role": "child",
+    "event": "birth",
+    "date": "7 Jun 1818",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«è comparso Giuseppe Falco, di anni trentasei, contadino… strada Camellara… da Antonia di Guida sua moglie legittima, d'anni trenta, una femina… a cui si è dato il nome di Maddalena»",
+    "ark": "ANTENATI an_ua14415 img46r act57"
    }
   ]
  },
