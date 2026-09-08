@@ -1,0 +1,194 @@
+---
+import { u } from "../lib/url.js";
+/* The Falco of Arienzo are not one family, and the ones this archive can
+   actually join to each other are fewer still. Each lane is a strand the
+   registers give us; the dots are places a document can be put; the fan
+   on the right is where that strand ends up — or that it ends nowhere. */
+const LANES = [
+  {
+    key: "line", colour: "var(--accent)", label: "The line, out of Arienzo by marriage",
+    href: "/direct-line", read: "The spine →", conf: "documented",
+    nodes: [
+      ["Arienzo", "1767", "Pasquale Falco baptised in the Collegiate Church of Sant'Andrea, 24 October — the record naming Matteo Falco and Francesca Crisci"],
+      ["Camellara", "1834", "Pasquale dies at five in the morning on strada Camellara; his son Vincenzo's household is on the same street"],
+      ["Arpaia", "1913", "Gerardo Falco registered at Arpaia, four kilometres away and across the provincial line into Benevento"],
+      ["Forchia", "1930", "Carmine Falco born at Forchia — an Annecchino town, and Carminantonio had married Filomena Annecchino"],
+      ["Benevento", "1955", "Giuseppina Falco born at Benevento, the last generation before the ship"],
+    ],
+    ends: ["Brisbane"],
+  },
+  {
+    key: "camellara", colour: "var(--ochre)", label: "The Camellara neighbours — same street, unjoined",
+    href: "/wider-family", read: "The wider family →", conf: "documented · not yet joined",
+    nodes: [
+      ["Michele", "1832", "Michele Falco and Vincenza Esposito, from their daughter Giovanna's death act — a second Falco couple of the founding generation"],
+      ["Francesco", "1832", "Francesco Falco and Raffaela Falco bury a six-month-old daughter, Carmina — a Falco married to a Falco"],
+      ["Michelangelo", "1834", "Michelangelo Falco of strada Camellara buries Anna, eight days old"],
+      ["Michele", "1834", "A Michele Falco of the same street buries Maria Rosa, sixteen, and in 1836 a son of fourteen months"],
+    ],
+    ends: ["No record joins them"],
+  },
+  {
+    key: "paolisi", colour: "var(--terra)", label: "Out of Paolisi — the oldest claim",
+    href: "/open-questions", read: "Open questions →", conf: "documented · link unproven",
+    parallel: true,
+    nodes: [
+      ["Paolisi", "1714", "Francesco Falco, the earliest Arienzo Falco household with a stated place of origin"],
+      ["Arienzo", "1726", "and still at Arienzo twelve years later, with children in the books"],
+    ],
+    ends: ["Might be Matteo's grandfather", "Nothing joins them"],
+  },
+  {
+    key: "zampiello", colour: "var(--r-italy)", label: "The Zampiello, out of Arpaia",
+    href: "/zampiello", read: "The Zampiello →", conf: "documented",
+    nodes: [
+      ["Arpaia", "1895", "Angelo Zampiello born at Arpaia — a surname with about 123 bearers in the world"],
+      ["Four sisters", "1925–32", "Francesca, Caterina, Raffaela and Filomena, and two Falco brothers marrying two of them"],
+      ["Sydney", "1964", "The ship Sydney reaches Brisbane, 26 March 1964"],
+    ],
+    ends: ["Brisbane", "Servodio", "Miceli"],
+  },
+  {
+    key: "gentry", colour: "var(--r-habsburg)", label: "The gentry Falco of Arienzo — not this family",
+    href: "/antenati", read: "The registers →", conf: "documented · a different household",
+    parallel: true,
+    nodes: [
+      ["Don Francesco", "1836", "Don Francesco Falco, proprietario — a landowner, not a contadino"],
+      ["Donna Raffaela", "1836", "His daughter, a nun of the Ave Gratia Plena, dead at sixty-seven"],
+    ],
+    ends: ["Elsewhere in the town", "Never joined to this line"],
+  },
+];
+
+const W = 1040;
+const BANDS = [ {y0:34,sp:112,h:150}, {y0:192,sp:268,h:140}, {y0:340,sp:408,h:126},
+                {y0:478,sp:552,h:140}, {y0:630,sp:698,h:126} ];
+const X0 = 152, X1 = 690, XE = 878;
+---
+<figure class="rivers">
+  <svg viewBox="0 0 1040 774" role="img" aria-labelledby="riversttl">
+    <title id="riversttl">The Falco strands of Arienzo, and what each of them joins to</title>
+    {LANES.map((lane, li) => {
+      const b = BANDS[li];
+      const n = lane.nodes.length;
+      const step = n > 2 ? (X1 - X0) / (n - 1) : (X1 - X0) / 2;
+      const lineEnd = X0 + step * (n - 1);
+      const ends = lane.ends;
+      const spread = Math.min(b.h / 2 - 18, 16 + ends.length * 14);
+      return (
+        <g>
+          <rect x="0" y={b.y0} width={W} height={b.h} rx="10"
+                fill={lane.colour} opacity={lane.parallel ? 0.04 : 0.055}
+                stroke={lane.parallel ? lane.colour : "none"}
+                stroke-dasharray={lane.parallel ? "5 5" : ""} stroke-opacity="0.4" />
+          <text x="12" y={b.y0 + 21} class="lane-label" fill={lane.colour}>{lane.label}</text>
+          <text x="12" y={b.y0 + 37} class="lane-conf">{lane.conf}</text>
+          <a href={u(lane.href)} class="lane-link"><text x={W - 14} y={b.y0 + 21} class="lane-read" fill={lane.colour}>{lane.read}</text></a>
+
+          <line x1={X0} y1={b.sp} x2={Math.max(lineEnd, X1)} y2={b.sp} stroke={lane.colour}
+                stroke-width="5" stroke-linecap="round" opacity="0.34"
+                stroke-dasharray={lane.parallel ? "12 7" : ""} />
+
+          {ends.map((e, ei) => {
+            const y = ends.length === 1 ? b.sp
+              : b.sp - spread + (ei * (spread * 2) / (ends.length - 1));
+            return (
+              <g>
+                <path d={`M ${X1} ${b.sp} C ${X1 + 80} ${b.sp}, ${XE - 80} ${y}, ${XE} ${y}`}
+                      fill="none" stroke={lane.colour} stroke-width="1.6" opacity="0.5"
+                      stroke-dasharray={lane.parallel ? "4 4" : ""} />
+                <circle cx={XE} cy={y} r="3.4" fill={lane.colour} opacity={lane.parallel ? 0.55 : 1} />
+                <text x={XE + 9} y={y + 4} class="endlab">{e}</text>
+              </g>
+            );
+          })}
+
+          {lane.nodes.map(([place, year, why], i) => {
+            const x = X0 + i * step;
+            return (
+              <g class="node" tabindex="0" role="button"
+                 data-place={place} data-year={year} data-why={why} data-lane={lane.label}>
+                <title>{place}{year !== "—" ? ` · ${year}` : ""} — {why}</title>
+                <circle cx={x} cy={b.sp} r="8.5" fill="var(--panel)" stroke={lane.colour} stroke-width="2.6" />
+                <circle cx={x} cy={b.sp} r="3" fill={lane.colour} />
+                <text x={x} y={b.sp - 19} class="place">{place}</text>
+                <text x={x} y={b.sp + 27} class="year" fill={lane.colour}>{year}</text>
+              </g>
+            );
+          })}
+        </g>
+      );
+    })}
+  </svg>
+  <div class="riverread" id="riverread" aria-live="polite">
+    <b>Click or tab any dot</b> — it will tell you what the document behind it says.
+  </div>
+  <figcaption>The red lane is the one this archive descends from. <strong>The two dashed lanes are drawn
+  apart on purpose</strong> — the Paolisi household because nothing joins it to the line, and the gentry
+  Falco because they are plainly a different family living elsewhere in the same town. The ochre lane is
+  the hardest and most interesting: four Falco households on one short street, none of them yet joined
+  to each other or to the line.</figcaption>
+</figure>
+
+<script is:inline>
+  (function () {
+    var host = document.getElementById("riverread");
+    if (!host) return;
+    function show(g) {
+      var place = g.getAttribute("data-place"), year = g.getAttribute("data-year"),
+          why = g.getAttribute("data-why"), lane = g.getAttribute("data-lane");
+      host.innerHTML = '<span class="rr-lane"></span><b class="rr-place"></b>'
+        + '<span class="rr-year"></span><span class="rr-why"></span>';
+      host.querySelector(".rr-lane").textContent = lane;
+      host.querySelector(".rr-place").textContent = place;
+      host.querySelector(".rr-year").textContent = year && year !== "—" ? year : "";
+      host.querySelector(".rr-why").textContent = why;
+      document.querySelectorAll(".rivers .node").forEach(function (n) { n.classList.remove("sel"); });
+      g.classList.add("sel");
+    }
+    document.querySelectorAll(".rivers .node").forEach(function (g) {
+      g.addEventListener("click", function () { show(g); });
+      g.addEventListener("mouseenter", function () { show(g); });
+      g.addEventListener("focus", function () { show(g); });
+      g.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); show(g); }
+      });
+    });
+  })();
+</script>
+
+<style>
+  .rivers{margin:0}
+  .rivers svg{width:100%;height:auto;display:block;overflow:visible}
+  .lane-label{font-family:var(--sans);font-size:13px;font-weight:600}
+  .lane-conf{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;
+    text-transform:uppercase;fill:var(--ink-3)}
+  .lane-read{font-family:var(--sans);font-size:12px;font-weight:600;text-anchor:end}
+  .lane-link{text-decoration:none}
+  .lane-link:hover .lane-read{text-decoration:underline}
+  .place{font-family:var(--sans);font-size:12.5px;font-weight:600;fill:var(--ink);
+    text-anchor:middle;paint-order:stroke;stroke:var(--panel);stroke-width:3.4px}
+  .year{font-family:var(--mono);font-size:10.5px;text-anchor:middle;
+    paint-order:stroke;stroke:var(--panel);stroke-width:3px}
+  .endlab{font-family:var(--sans);font-size:11.5px;fill:var(--ink-2)}
+  .rivers .node{cursor:help}
+  .rivers .node:hover circle:first-of-type,
+  .rivers .node:focus circle:first-of-type{r:11}
+  .rivers .node:focus{outline:none}
+  .rivers .node:focus .place{fill:var(--accent)}
+  .rivers .node.sel circle:first-of-type{r:11;stroke-width:3.4}
+  .riverread{margin-top:18px;padding:14px 18px;border-left:3px solid var(--accent);
+    background:var(--panel-2);border-radius:0 10px 10px 0;font-family:var(--sans);
+    font-size:14px;line-height:1.55;color:var(--ink-2);min-height:52px}
+  .riverread .rr-lane{display:block;font-family:var(--mono);font-size:9.5px;
+    letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin-bottom:4px}
+  .riverread .rr-place{color:var(--ink);font-size:16px}
+  .riverread .rr-year{font-family:var(--mono);font-size:12px;color:var(--accent);margin-left:9px}
+  .riverread .rr-why{display:block;margin-top:5px}
+  .rivers figcaption{font-family:var(--sans);font-size:13px;color:var(--ink-2);
+    margin-top:14px;max-width:78ch;line-height:1.6}
+  @media (max-width:700px){
+    .rivers svg{min-width:680px}
+    .rivers{overflow-x:auto}
+  }
+</style>

@@ -4,9 +4,17 @@ import { u } from "../lib/url.js";
 import line from "../data/line.json";
 
 ---
-<Base title="Home">
-  <h1>The Falco Archive</h1>
-  <p class="lede">
+<Base title="The Falco Archive" bare={true}>
+  <figure class="fhero">
+    <img src={u("/hero/arienzo-piazza.jpg")} alt="The piazza and collegiate church of a hill town in Campania" />
+    <figcaption class="cap">
+      <div class="kick">A family history, kept honestly</div>
+      <h1>Nine generations, on one street in Campania.</h1>
+      <p class="sub">Arienzo · Arpaia · Forchia · Benevento · Brisbane — a family written into the
+      parish books of Sant'Andrea from 1767, and into the civil registers of four regimes after that.</p>
+    </figcaption>
+  </figure>
+  <p class="lede" style="margin-top:28px">
     An evidence-first archive of the <strong>Falco</strong> family of <strong>Arienzo</strong> in the
     province of Caserta — and of the Valle Caudina, the province of Benevento, and Brisbane.
   </p>

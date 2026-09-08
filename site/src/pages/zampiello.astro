@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
 const inlaws = [
   ["Fucci / Fuccio", 32], ["d'Onofrio", 30], ["Magliano", 16], ["d'Ambrosio", 15],
   ["Caserta", 14], ["De Lucia", 14], ["Esposito", 12], ["Maione", 10],
@@ -35,7 +36,7 @@ const shared = ["Maione", "Crisci", "De Lucia", "Cimmino"];
   </table></div>
 
   <h2>The two families' worlds already overlapped</h2>
-  <p>Carmine Falco married Francesca Zampiello at Benevento in 1955, and it is easy to read that as two
+  <p>Carmine Falco married Francesca Zampiello at Arpaia on 15 January 1955, and it is easy to read that as two
   strangers meeting. The registers suggest otherwise. <strong>Maione, Crisci, De Lucia and
   Cimmino</strong> all appear as in-law names in <em>both</em> networks — among the Falco of Arienzo and
   among the Zampiello of Arpaia — a century before that marriage.</p>
@@ -53,10 +54,20 @@ const shared = ["Maione", "Crisci", "De Lucia", "Cimmino"];
     FamilySearch's search caps deep paging at about 1,100 results and treats <em>Zampiello</em> as
     interchangeable with <em>Zampella</em>, <em>Zampillo</em> and <em>Campiello</em>, which floods the
     result set. His parents are therefore still unnamed.</li>
-    <li><strong>His war.</strong> The family record says he served in the
-    <strong>Second Italo-Abyssinian War in 1935</strong>, spent time in Eritrea, saved a large number of
-    people and was decorated. <em>None of this is yet corroborated.</em> Italian service records —
-    <em>fogli matricolari</em> — for men of this province are held at the Archivio di Stato di Benevento.</li>
+    <li><strong>His war — corroborated, and by the family's own paper.</strong> The certificate was in
+    the family scans all along, filed under the wrong caption. The <strong>Ministero dell'Africa
+    Italiana</strong> conferred the <strong>Croce al Merito di Guerra</strong> by decree of 14 September
+    1938 on <em>«all'operaio <strong>Zampiello Angelo di Tommaso</strong>»</em>, under the royal decree
+    extending the award to those who took part in operations in East Africa <strong>from 3 October
+    1935</strong> — the day Italy crossed into Ethiopia.
+    <br/>Two things follow. He was there as an <strong><em>operaio</em>, a workman</strong>, not a
+    soldier: Italy sent tens of thousands of labourers to build the roads that campaign ran on, and the
+    1936 decree exists to extend a military award to them. And the certificate names
+    <strong>his father, Tommaso Zampiello</strong> — a generation this archive did not have.
+    <br/><em>The part still unproven is the bravery.</em> A merit cross is for service in a theatre of
+    operations; an act of gallantry would ordinarily carry a <em>Medaglia al Valor Militare</em>. The
+    family's account of lives saved may be true and separately awarded, or it may be their gloss on this
+    same certificate. See <a href={u("/documents")}>the certificate</a>.</li>
     <li>His son Angelo, born at Arpaia in 1935, <strong>died there the same year</strong>, on 26 April.</li>
   </ul>
 </Base>
