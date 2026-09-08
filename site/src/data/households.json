@@ -516,6 +516,26 @@
     "place": "Arienzo",
     "evidence": "Clemens Falco filius Francisci, et Raphaelae Falco, aetatis suae annorum quinque — a Falco who married a Falco",
     "ark": "3Q9M-CSMY-B733-G"
+   },
+   {
+    "household": "Francesco Falco & Raffaela Falco",
+    "person": "Carmina Falco",
+    "role": "child",
+    "event": "death",
+    "date": "19 Dec 1832",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "Carmina Falco, di mesi sei, figlia di Francesco Falco, contadino, e di Raffaela Falco",
+    "ark": "ANTENATI an_ua14334 img48r act80"
+   },
+   {
+    "household": "Francesco Falco & Raffaela Falco",
+    "person": "Pasqualina Falco",
+    "role": "child",
+    "event": "death",
+    "date": "14 Sep 1836",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "daughter of Francesco Falco, strada Camellara, aged 10 months",
+    "ark": "ANTENATI an_ua14338"
    }
   ]
  },
@@ -546,6 +566,41 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "Anna Falco, di giorni otto, figlia di Michelangelo Falco, contadino",
     "ark": "ANTENATI an_ua14336 img10l"
+   }
+  ]
+ },
+ {
+  "name": "Michele Falco & Vincenza Esposito",
+  "members": [
+   {
+    "household": "Michele Falco & Vincenza Esposito",
+    "person": "Michele Falco",
+    "role": "father",
+    "event": "—",
+    "date": "—",
+    "place": "Arienzo",
+    "evidence": "named as the deceased's father, \"figlia di Michele Falco, defunto, di professione contadino\"",
+    "ark": "ANTENATI an_ua14334 img20l act32"
+   },
+   {
+    "household": "Michele Falco & Vincenza Esposito",
+    "person": "Vincenza Esposito",
+    "role": "mother",
+    "event": "—",
+    "date": "—",
+    "place": "Arienzo",
+    "evidence": "e di Vincenza Esposito, defunta, domiciliata ivi",
+    "ark": "ANTENATI an_ua14334 img20l act32"
+   },
+   {
+    "household": "Michele Falco & Vincenza Esposito",
+    "person": "Giovanna Falco",
+    "role": "child",
+    "event": "death",
+    "date": "13 May 1832",
+    "place": "Arienzo",
+    "evidence": "Giovanna Falco, d'anni settanta, moglie di Antonio Sett[embre], nata in Arienzo, contadina — b. c.1762",
+    "ark": "ANTENATI an_ua14334 img20l act32"
    }
   ]
  }

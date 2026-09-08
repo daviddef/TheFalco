@@ -9,6 +9,22 @@ const shown = line.filter(g => !g.living);
   <p class="lede">Nine generations from the Arienzo of the 1790s to Brisbane. Each row says what the
   evidence is, and each generation is joined to the one above it by a record that names a father.</p>
 
+  <div class="spine">
+    {shown.map(g => (
+      <div class={"gen" + (g.confidence === "documented" ? "" : " undoc")}>
+        <div><span class="yr">{g.gen}</span><span class="who">{g.name}</span></div>
+        <div class="whr">
+          {g.born ? "b. " + g.born : ""}
+          {g.died ? " · d. " + g.died : ""}
+          {g.bornPlace ? " · " + g.bornPlace : ""}
+          {g.spouse ? " · m. " + g.spouse : ""}
+        </div>
+      </div>
+    ))}
+  </div>
+  <p class="spine-key">A solid ring is a generation joined to the one above it by a record that names
+  a father. A dashed ring is not.</p>
+
   {shown.map(g => (
     <section class="card" style="margin:1rem 0">
       <h3 style="margin-bottom:.35rem">

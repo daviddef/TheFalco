@@ -650,3 +650,38 @@ the index was never filled in.
 
 ### Registers now read in full
 1833, 1834 (target found), 1835, 1836. Remaining from the old bracket: 1829–32, 1837–43.
+
+## 1832 Arienzo civil death register — read in full (8 Sep 2026)
+
+`an_ua14334`, 53 images, acts 3 Jan – 30 Dec. Duplicates 9≡8, 14≡13, 18≡17, 22≡21, 27≡26, 37≡36, 40≡39, 51≡50.
+
+**Two Falco, and the first is the most significant find since the death act itself.**
+
+### Giovanna Falco, 70 — act 32, 13 May 1832
+*"figlia di **Michele Falco**, defunto, di professione contadino, e di **Vincenza Esposito**, defunta"*,
+wife of Antonio Sett[embre], born Arienzo c.1762. Declarants Gennaro Crisci (30) and Clemente Crisci (28),
+strada Coppa.
+
+**A second peasant Falco household of the founding generation.** Michele Falco + Vincenza Esposito
+sit alongside Matteo Falco + Francesca Crisci, both raising children in the early 1760s in the same
+small town. Whether Michele and Matteo were brothers is **NOT established** — obvious reading, no proof.
+This is the first real handhold above Matteo, and a plausible origin for the Michele and Michelangelo
+Falco of strada Camellara in the 1830s.
+
+### Carmina Falco, 6 months — act 80, p. 145, 19 December 1832
+*"figlia di **Francesco Falco**, di professione contadino, e di **Raffaela Falco**"*, strada Camellara.
+Declarants Giovanni Crisci (32) and Francesco Lettieri (40), both of that street.
+**Francesco Falco married a Raffaela Falco** — Falco to Falco, which in a town this size normally means
+cousins and a dispensation. Same Francesco whose daughter Pasqualina died there in Sep 1836.
+
+### The Morgillo were neighbours first
+Raffaele Morgillo, 22, s. Carlantonio Morgillo, died on **strada Camellara** 9 May 1832. Two generations
+later Raffaele Falco (gen 4) married Angela Rosa Morgillo.
+
+### Method improvement
+IIIF crops are now fetched as blobs, drawn stacked eight-to-a-canvas, exported as one JPEG and read
+directly — four pages per round trip, and more legible than screen capture. Removes the dependency on
+the browser pane entirely. Use this for all future volumes.
+
+### Registers read in full
+1832, 1833, 1834 (target found), 1835, 1836. Remaining: 1829–31, 1837–43.
