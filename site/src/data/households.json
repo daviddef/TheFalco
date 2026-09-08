@@ -768,5 +768,40 @@
     "ark": "ANTENATI an_ua14413 img59l act116"
    }
   ]
+ },
+ {
+  "name": "Don Nicola Rivetti & Donna Anna Quotolo",
+  "members": [
+   {
+    "household": "Don Nicola Rivetti & Donna Anna Quotolo",
+    "person": "Don Nicola Rivetti",
+    "role": "father",
+    "event": "—",
+    "date": "d. before 1816",
+    "place": "Arienzo",
+    "evidence": "figlia del fu Don Nicola — dead by January 1816",
+    "ark": "ANTENATI an_ua14318 img7l act12"
+   },
+   {
+    "household": "Don Nicola Rivetti & Donna Anna Quotolo",
+    "person": "Donna Anna Quotolo",
+    "role": "mother",
+    "event": "—",
+    "date": "—",
+    "place": "Arienzo",
+    "evidence": "e Donn'Anna Quotolo — the first record to give this Anna a surname",
+    "ark": "ANTENATI an_ua14318 img7l act12"
+   },
+   {
+    "household": "Don Nicola Rivetti & Donna Anna Quotolo",
+    "person": "Donna Francesca Rivetti",
+    "role": "child",
+    "event": "death",
+    "date": "26 Jan 1816",
+    "place": "Arienzo",
+    "evidence": "Donna Francesca Rivetti, figlia del fu Don Nicola, e Donn'Anna Quotolo, moglie di Don Claudio Cimmino",
+    "ark": "ANTENATI an_ua14318 img7l act12"
+   }
+  ]
  }
 ]
