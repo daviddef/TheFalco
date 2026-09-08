@@ -2,51 +2,38 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import line from "../data/line.json";
+import { people } from "../lib/people.js";
 const shown = line.filter(g => !g.living);
+const clean = s => String(s||"").replace(/\s*\(.*?\)\s*/g," ").replace(/\s+/g," ").trim();
+const slugFor = (g) => {
+  const p = people.find(q => q.gen === g.gen && clean(q.name) === clean(g.name));
+  return p ? p.slug : null;
+};
+const heading = (g) => g.spouse ? `${g.name} and ${g.spouse}` : g.name;
 ---
-<Base title="The direct line">
-  <h1>The direct line</h1>
-  <p class="lede">Nine generations from the Arienzo of the 1730s to Brisbane. Each row says what the
-  evidence is, and each generation is joined to the one above it by a record that names a father.
-  The ninth is living and is not published here; eight are shown.</p>
+<Base title="The direct line"
+      eyebrow="Nine generations, the ninth living and withheld"
+      dek="From the Arienzo of the 1730s to Brisbane. Each generation is joined to the one above it by a record that names a father — except the first, where the line stops.">
 
-  <div class="spine">
+  <div class="dline">
     {shown.map(g => (
-      <div class={"gen" + (g.gen === 1 ? " undoc" : "")}>
-        <div><span class="yr">{g.gen}</span><span class="who">{g.name}</span></div>
-        <div class="whr">
-          {g.born ? "b. " + g.born : ""}
-          {g.died ? " · d. " + g.died : ""}
-          {g.bornPlace ? " · " + g.bornPlace : ""}
-          {g.spouse ? " · m. " + g.spouse : ""}
-        </div>
-      </div>
+      <section class={"dgen" + (g.gen === 1 ? " frontier" : "")}>
+        <div class="lab">Generation {g.gen}</div>
+        <h2>{slugFor(g) ? <a href={u("/people/" + slugFor(g))}>{heading(g)}</a> : heading(g)}</h2>
+        <p class="facts">
+          {g.born ? <><span class="k">born</span>{g.born}{g.bornPlace ? ", " + g.bornPlace : ""}</> : null}
+          {g.died ? <><span class="k">died</span>{g.died}{g.diedPlace ? ", " + g.diedPlace : ""}</> : null}
+          {g.married ? <><span class="k">married</span>{g.married}</> : null}
+          {g.trade ? <><span class="k">trade</span>{g.trade}</> : null}
+          <span class={"chip " + (g.confidence === "documented" ? "doc" : "dis")}>{g.confidence}</span>
+        </p>
+        <p class="tale">{g.note}</p>
+      </section>
     ))}
   </div>
-  <p class="spine-key">A solid ring is a generation joined to the one above it by a record that names
-  a father. <strong>Matteo's ring is open</strong>: no record has been found that names <em>his</em>
-  father, and the line stops there. That gap is the point of the drawing.</p>
-
-  {shown.map(g => (
-    <section class="card" style="margin:1rem 0">
-      <h3 style="margin-bottom:.35rem">
-        <span class="mono" style="color:var(--ink-3)">{g.gen}.</span> {g.name}
-        {" "}<span class={"chip " + (g.confidence === "documented" ? "doc" : "dis")}>{g.confidence}</span>
-      </h3>
-      <p class="small" style="margin:.1rem 0 .6rem">
-        b. {g.born}{g.bornPlace ? ", " + g.bornPlace : ""}
-        {g.died ? " · d. " + g.died + (g.diedPlace ? ", " + g.diedPlace : "") : ""}
-        {g.spouse ? " · m. " + g.spouse : ""}
-        {g.spouseBorn ? " (b. " + g.spouseBorn + ")" : ""}
-        {g.married ? " · " + g.married : ""}
-        {g.trade ? " · " + g.trade : ""}
-      </p>
-      <p style="margin:0">{g.note}</p>
-    </section>
-  ))}
 
   <h2>The welds</h2>
-  <p>A pedigree is only as good as the joins. Three records carry this one:</p>
+  <p>A pedigree is only as good as its joins. Four records carry this one.</p>
   <div class="scroll"><table>
     <thead><tr><th>Record</th><th>Date</th><th>What it says</th><th>Joins</th></tr></thead>
     <tbody>
@@ -61,14 +48,34 @@ const shown = line.filter(g => !g.living);
         and his wife as <strong>Chiara Rivetti</strong></td><td>gen 2 → gen 1</td></tr>
       <tr><td><strong>Death of Rosa Falco</strong>, his sister</td><td>16 Oct 1830, Arienzo</td>
         <td>Names the <strong>same two parents</strong> again, from a different child, four years
-        earlier — and her husband as <strong>Carlantonio Morgillo</strong></td><td>gen 2 → gen 1, twice over</td></tr>
+        earlier — and her husband as <strong>Carlantonio Morgillo</strong></td>
+        <td>gen 2 → gen 1, twice over</td></tr>
     </tbody>
   </table></div>
-  <p class="small">Generation 2 is now welded upward three times: by Pasquale's baptism of 1767 in the
-  parish register; by his own civil death act of 1834; and by his sister Rosa's civil death act of 1830,
-  which names the same two parents from a different child four years earlier. One parish record and two
-  civil ones, from two archives. <strong>Above Matteo there is no weld.</strong>
-  His marriage to Francesca Crisci would name his father; it was searched for across 2,056 transcribed
-  pages and not found, and his own baptism falls in the gap the register leaves between 1738 and 1761.
-  That is the frontier of this research. See <a href={u("/open-questions")}>Open questions</a>.</p>
+  <p class="small">Generation 2 is welded upward three times: by Pasquale's baptism of 1767 in the
+  parish register; by his own civil death act of 1834; and by his sister Rosa's civil death act of
+  1830. One parish record and two civil ones, from two archives.
+  <strong>Above Matteo there is nothing.</strong> His marriage to Francesca Crisci would name his
+  father; it was searched for across 2,056 transcribed pages and not found, and his own baptism falls
+  in the gap the register leaves between 1738 and 1761. That is the frontier of this research. See
+  <a href={u("/open-questions")}>Open questions</a>.</p>
 </Base>
+
+<style>
+  .dline{position:relative;margin:1.6rem 0 2.6rem;padding-left:2.9rem}
+  .dline::before{content:"";position:absolute;left:.6rem;top:1.1rem;bottom:2.2rem;width:1px;
+    background:var(--rule-strong)}
+  .dgen{position:relative;padding:0 0 1.6rem;margin-bottom:1.6rem;border-bottom:1px solid var(--rule)}
+  .dgen:last-child{border-bottom:0;margin-bottom:0}
+  .dgen::before{content:"";position:absolute;left:-2.6rem;top:.35rem;width:.72rem;height:.72rem;
+    border-radius:50%;background:var(--ground);border:2px solid var(--accent-2)}
+  .dgen.frontier::before{border-color:var(--accent);border-style:dashed}
+  .dgen h2{font-size:clamp(22px,3vw,31px);margin:.25rem 0 .5rem;line-height:1.12}
+  .dgen h2 a{color:var(--ink);text-decoration:none}
+  .dgen h2 a:hover{color:var(--accent)}
+  .dgen .facts{font-family:var(--sans);font-size:13px;color:var(--ink-2);
+    display:flex;flex-wrap:wrap;gap:.35rem 1.15rem;align-items:center;margin-bottom:.7rem}
+  .dgen .facts .k{font-size:10px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;
+    color:var(--ink-3);margin-right:.4rem}
+  .dgen .tale{max-width:74ch}
+</style>
