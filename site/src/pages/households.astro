@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import households from "../data/households.json";
 import { findPerson } from "../lib/people.js";
+import HouseholdTree from "../components/HouseholdTree.astro";
 ---
 <Base title="The households">
   <h1>The households</h1>
@@ -10,8 +11,9 @@ import { findPerson } from "../lib/people.js";
   of the civil registers after it — read entry by entry. Every name below is a link to that person.</p>
 
   {households.map(h => (
-    <section style="margin:2rem 0">
+    <section style="margin:2.4rem 0">
       <h2 style="margin-top:1rem">{h.name}</h2>
+      <HouseholdTree household={h} showHead={false} />
       <div class="scroll"><table>
         <thead><tr><th>Person</th><th>Event</th><th>Date</th><th>What the register says</th></tr></thead>
         <tbody>{h.members.map(m => (

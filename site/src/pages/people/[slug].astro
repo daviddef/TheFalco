@@ -2,6 +2,8 @@
 import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
 import { people } from "../../lib/people.js";
+import households from "../../data/households.json";
+import HouseholdTree from "../../components/HouseholdTree.astro";
 
 export function getStaticPaths() {
   return people.map((p) => ({ params: { slug: p.slug }, props: { p } }));
@@ -10,10 +12,16 @@ const { p } = Astro.props;
 const sameName = people.filter((q) => q.slug !== p.slug && q.name === p.name);
 const siblings = people.filter((q) => q.household === p.household && q.slug !== p.slug && q.role === "child");
 const family  = people.filter((q) => q.household === p.household && q.role !== "child");
+const clean = (s) => String(s||"").replace(/\s*\(.*?\)\s*/g," ").replace(/\s+/g," ").trim();
+const ownHouse = households.find((h) => h.name.split(/\s*&\s*/).some((n) => clean(n) === clean(p.name)));
+const inHouse  = households.find((h) => h.name === p.household);
 ---
 <Base title={p.name}
       eyebrow={p.gen ? `Generation ${p.gen} of the direct line` : p.household}
       dek={p.gen ? p.line.note : `Recorded in the household of ${p.household}.`}>
+
+  {ownHouse ? <HouseholdTree household={ownHouse} eyebrow="The household this person headed" /> : null}
+  {!ownHouse && inHouse ? <HouseholdTree household={inHouse} eyebrow={"In the household of " + inHouse.name} showHead={false} /> : null}
 
   <div class="grid two">
     <div class="card">

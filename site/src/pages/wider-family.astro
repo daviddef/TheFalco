@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import households from "../data/households.json";
 import { findPerson } from "../lib/people.js";
+import HouseholdTree from "../components/HouseholdTree.astro";
 import line from "../data/line.json";
 
 const lineNames = new Set(line.map(g => g.name.split(" (")[0].trim()));
@@ -68,6 +69,7 @@ const lineHouseholds = households.filter(h => h.members.some(m => isLine(m.perso
   {sideBranches.map(h => (
     <section class="card" style="margin:1rem 0">
       <h3 style="margin-bottom:.3rem">{h.name} <span class="chip dis">unjoined</span></h3>
+      <HouseholdTree household={h} showHead={false} />
       <ul style="margin:.4rem 0">
         {h.members.map(m => (
           <li>

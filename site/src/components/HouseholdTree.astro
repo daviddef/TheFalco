@@ -1,0 +1,111 @@
+---
+import { u } from "../lib/url.js";
+import { people as ALL } from "../lib/people.js";
+import line from "../data/line.json";
+
+/* One household drawn as a household: the couple, then the children they
+   had in that house, with the one who carried the line marked. Everything
+   here comes from households.json — nothing is inferred to fill a gap. */
+const { household, eyebrow, showHead = true } = Astro.props;
+
+const members = ALL.filter((p) => p.household === household.name);
+const parts = household.name.split(/\s*&\s*/).map((s) => s.trim());
+const clean = (s) => String(s || "").replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
+
+const head = members.find((p) => clean(p.name) === clean(parts[0]))
+          || members.find((p) => p.role === "father");
+const spouse = parts.length > 1
+  ? (members.find((p) => clean(p.name) === clean(parts[1]))
+     || { name: parts[1], events: [] })
+  : null;
+const children = members.filter((p) => p.role === "child");
+
+const lineNames = new Set(line.map((g) => clean(g.name)));
+const inLine = (p) => lineNames.has(clean(p.name || p));
+
+const when = (p) => {
+  if (!p || !p.events) return "";
+  const b = p.events.find((e) => /birth|bapt/i.test(e.event || ""));
+  const d = p.events.find((e) => /death|buri/i.test(e.event || ""));
+  if (b && d) return `${b.date} – ${d.date}`;
+  if (b) return `b. ${b.date}`;
+  if (d) return `d. ${d.date}`;
+  const any = p.events.find((e) => e.date && e.date !== "—");
+  return any ? any.date : "";
+};
+const gen = head && head.gen ? head.gen : null;
+const conf = gen ? (head.line && head.line.confidence) : null;
+const href = (p) => (p && p.slug ? u("/people/" + p.slug) : null);
+---
+<figure class="htree">
+  {showHead && head ? (
+    <header>
+      {(eyebrow || gen) && <div class="lab">{eyebrow || `Generation ${gen} of the direct line`}</div>}
+      <h3>{href(head) ? <a href={href(head)}>{head.name}</a> : head.name}</h3>
+      <p class="meta">
+        {when(head) ? <><span class="k">dates</span> {when(head)}</> : null}
+        {head.events && head.events[0] && head.events[0].place
+          ? <><span class="k">where</span> {head.events[0].place}</> : null}
+        {conf ? <span class={"chip " + (conf === "documented" ? "doc" : "dis")}>{conf}</span> : null}
+      </p>
+    </header>
+  ) : null}
+
+  <div class="box">
+    {spouse ? (
+      <>
+        <div class="lab sec">{/mother|wife/i.test(spouse.role || "") ? "Wife" : "Spouse"}</div>
+        <div class="rowwrap one">
+          <div class="cell">
+            <span class="nm">{href(spouse) ? <a href={href(spouse)}>{spouse.name}</a> : spouse.name}</span>
+            {when(spouse) ? <span class="dt">{when(spouse)}</span> : null}
+          </div>
+        </div>
+      </>
+    ) : null}
+
+    {children.length ? (
+      <>
+        <div class="lab sec">{children.length === 1 ? "Child in the house" : "Children in the house"}</div>
+        <div class="rowwrap">
+          {children.map((c) => (
+            <div class={"cell" + (inLine(c) ? " carries" : "")}>
+              <span class="nm">{href(c) ? <a href={href(c)}>{c.name}</a> : c.name}</span>
+              {when(c) ? <span class="dt">{when(c)}</span> : <span class="dt">—</span>}
+            </div>
+          ))}
+        </div>
+      </>
+    ) : <p class="small" style="margin:.4rem 0 0">No children of this house are yet recorded.</p>}
+  </div>
+</figure>
+
+<style>
+  .htree{margin:1.4rem 0 1.8rem}
+  .htree header{margin-bottom:.7rem}
+  .htree h3{margin:.25rem 0 .3rem;font-size:24px}
+  .htree h3 a{color:var(--ink);text-decoration:none}
+  .htree h3 a:hover{color:var(--accent)}
+  .htree .meta{font-family:var(--sans);font-size:13px;color:var(--ink-2);
+    display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;align-items:center}
+  .htree .meta .k{font-size:10px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;
+    color:var(--ink-3);margin-right:.35rem}
+  .htree .box{border:1px solid var(--rule);background:var(--panel);border-radius:8px;
+    padding:1rem 1.15rem 1.15rem}
+  .htree .lab.sec{margin:.2rem 0 .1rem}
+  .htree .rowwrap{position:relative;display:flex;flex-wrap:wrap;gap:.6rem;padding-top:1.1rem}
+  .htree .rowwrap::before{content:"";position:absolute;left:.9rem;right:.9rem;top:.45rem;
+    height:1px;background:var(--rule-strong)}
+  .htree .rowwrap.one::before{left:50%;right:50%;width:0}
+  .htree .cell{position:relative;border:1px solid var(--rule-strong);background:var(--ground);
+    border-radius:5px;padding:.5rem .75rem;min-width:9rem;flex:0 1 auto}
+  .htree .cell::before{content:"";position:absolute;left:50%;top:-.65rem;width:1px;height:.65rem;
+    background:var(--rule-strong)}
+  .htree .rowwrap.one{justify-content:center}
+  .htree .cell.carries{border-color:var(--accent-2);box-shadow:inset 0 0 0 1px var(--accent-2)}
+  .htree .nm{display:block;font-family:var(--sans);font-size:14px;color:var(--ink)}
+  .htree .nm a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule-strong)}
+  .htree .nm a:hover{color:var(--accent);border-color:var(--accent)}
+  .htree .dt{display:block;font-family:var(--mono);font-size:11px;color:var(--ink-3);margin-top:.15rem}
+  @media(max-width:640px){.htree .cell{min-width:0;flex:1 1 45%}}
+</style>
