@@ -6,7 +6,7 @@ const path = Astro.url.pathname.replace(/\/$/, "");
 const nav = [
   ["/", "Home"], ["/direct-line", "The line"], ["/households", "Households"],
   ["/arienzo", "Arienzo"], ["/liguori", "The bishop"], ["/australia", "Australia"], ["/zampiello", "Zampiello"], ["/name", "The name"],
-  ["/valle-caudina", "Valle Caudina"], ["/antenati", "Antenati"], ["/places", "Places"], ["/method", "Method"], ["/open-questions", "Open questions"], ["/sources", "Sources"],
+  ["/valle-caudina", "Valle Caudina"], ["/antenati", "Antenati"], ["/documents", "Documents"], ["/places", "Places"], ["/method", "Method"], ["/open-questions", "Open questions"], ["/sources", "Sources"],
 ];
 const here = (p) => (u(p).replace(/\/$/, "") === path ? "page" : undefined);
 ---
@@ -35,7 +35,7 @@ const here = (p) => (u(p).replace(/\/$/, "") === path ? "page" : undefined);
         valuable thing you can send.</p>
         <p class="small">Every citation, reading log and data file behind this archive is public:
         <a href="https://github.com/daviddef/TheFalco">github.com/daviddef/TheFalco</a> ·
-        <a href={u("/sources")}>Sources</a> · <a href={u("/method")}>Method</a> ·
+        <a href={u("/documents")}>Documents</a> · <a href={u("/sources")}>Sources</a> · <a href={u("/method")}>Method</a> ·
         <a href={u("/open-questions")}>Open questions</a></p>
       </div>
     </footer>

@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
 import line from "../data/line.json";
 const shown = line.filter(g => !g.living);
 ---
@@ -37,8 +38,15 @@ const shown = line.filter(g => !g.living);
         <td>Names his father as <strong>Vincenzo</strong></td><td>gen 4 → gen 3</td></tr>
       <tr><td>Birth of Carmine Antonio Falco</td><td>10 Jul 1850, Arienzo</td>
         <td>Names his father as <strong>Raffaele</strong></td><td>gen 5 → gen 4</td></tr>
+      <tr><td><strong>Death of Pasquale Falco</strong></td><td>1 Oct 1834, Arienzo</td>
+        <td>Names his parents as <strong>Matteo Falco</strong> and <strong>Francesca Crisci</strong>,
+        and his wife as <strong>Chiara Rivetti</strong></td><td>gen 2 → gen 1</td></tr>
     </tbody>
   </table></div>
-  <p class="small">Above generation 2 there is no weld. That is the frontier of this research, and it is
-  where the Arienzo baptism register of 1761–1837 — and the earlier book of 1672–1738 — should be read next.</p>
+  <p class="small">Generation 2 is now welded upward twice over: by Pasquale's baptism of 1767 in the
+  parish register, and independently by his civil death act of 1834, which names the same two parents
+  from a different archive and a different kind of record. <strong>Above Matteo there is no weld.</strong>
+  His marriage to Francesca Crisci would name his father; it was searched for across 2,056 transcribed
+  pages and not found, and his own baptism falls in the gap the register leaves between 1738 and 1761.
+  That is the frontier of this research. See <a href={u("/open-questions")}>Open questions</a>.</p>
 </Base>

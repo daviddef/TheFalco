@@ -1,0 +1,66 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import plates from "../data/plates.json";
+const REPO = "https://github.com/daviddef/TheFalco";
+const registers = plates.filter(p => p.k === "register");
+const photos = plates.filter(p => p.k !== "register");
+---
+<Base title="Documents">
+  <h1>Documents</h1>
+  <p class="lede">The images this archive actually rests on: the register pages that carry the
+  evidence, and the family's own photographs. Every register plate below is reproduced with the
+  archival reference that identifies it, so the claim and the page that proves it sit together.</p>
+
+  <h2>Register pages</h2>
+  <p>Reproduced from the Portale Antenati, which publishes the civil registers of the Archivio di
+  Stato di Caserta. The transcription and translation of each is on the page linked beneath it.</p>
+
+  {registers.map(p => (
+    <figure class="plate">
+      <img src={u("/plates/" + p.f)} alt={p.t} loading="lazy" />
+      <figcaption>
+        <h3>{p.t}</h3>
+        {p.when ? <p class="small mono">{p.when}</p> : null}
+        <p>{p.c}</p>
+        <p class="small">{p.cite}</p>
+        {p.see ? <p class="small"><a href={u(p.see)}>Read the act in full →</a></p> : null}
+      </figcaption>
+    </figure>
+  ))}
+
+  <h2>Photographs</h2>
+  <p>From the family's own scans. <strong>Living people are omitted from this build</strong> — a
+  further nineteen photographs in the family tree show living members and are not published here.
+  That is a deliberate choice, not an oversight.</p>
+  <div class="grid two">
+    {photos.map(p => (
+      <figure style="margin:0" class="card">
+        <img src={u("/plates/" + p.f)} alt={p.t} loading="lazy"
+             style="width:100%;height:auto;border-radius:.35rem;display:block" />
+        <figcaption style="margin-top:.6rem">
+          <strong>{p.t}</strong><br/><span class="small">{p.c}</span>
+        </figcaption>
+      </figure>
+    ))}
+  </div>
+
+  <h2>The written record</h2>
+  <p>Behind these images sit the files that carry every citation in the archive. They are plain
+  tab-separated text, kept public so the working can be checked rather than trusted.</p>
+  <ul>
+    <li><a href={REPO + "/blob/main/data/record-citations.tsv"}>record-citations.tsv</a> — every
+    record citation, with its archival reference.</li>
+    <li><a href={REPO + "/blob/main/data/households.tsv"}>households.tsv</a> — every register entry
+    behind the households, quoted in the words of the record.</li>
+    <li><a href={REPO + "/blob/main/data/direct-line.tsv"}>direct-line.tsv</a> — the generations, and
+    the evidence for each join.</li>
+  </ul>
+  <p class="small">The page-by-page reading logs for the civil death registers —
+  <a href={REPO + "/blob/main/notes/1833-death-register-progress.md"}>1833</a>,
+  <a href={REPO + "/blob/main/notes/1834-death-register-progress.md"}>1834</a>,
+  <a href={REPO + "/blob/main/notes/1835-death-register-progress.md"}>1835</a>,
+  <a href={REPO + "/blob/main/notes/1836-death-register-progress.md"}>1836</a> — record every act
+  read, not only the ones that mattered, so that nobody has to read them again.
+  Full list of sources on the <a href={u("/sources")}>Sources</a> page.</p>
+</Base>

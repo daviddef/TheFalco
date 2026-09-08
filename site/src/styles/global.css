@@ -54,3 +54,16 @@ th,td{text-align:left;padding:.5rem .6rem;border-bottom:1px solid var(--line);ve
 th{font-family:var(--sans);font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-3)}
 .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
 blockquote{margin:1.2rem 0;padding:.2rem 0 .2rem 1.1rem;border-left:3px solid var(--gold);color:var(--ink-2);font-style:italic}
+
+/* Register plates: the document itself, given room to be read */
+.plate{margin:1.6rem 0 2.2rem;border:1px solid var(--line);background:var(--bg-2);
+  border-radius:.6rem;overflow:hidden}
+.plate img{display:block;width:100%;height:auto;background:#fff;
+  border-bottom:1px solid var(--line)}
+.plate figcaption{padding:1rem 1.25rem 1.2rem}
+.plate figcaption h3{margin:0 0 .2rem}
+.plate figcaption p{margin:.3rem 0}
+.hero-plate{display:grid;gap:1.25rem;align-items:start;margin:1.5rem 0 2rem}
+@media(min-width:60rem){.hero-plate{grid-template-columns:1.1fr 1fr}}
+.hero-plate img{width:100%;height:auto;display:block;border:1px solid var(--line);
+  border-radius:.5rem;background:#fff}
