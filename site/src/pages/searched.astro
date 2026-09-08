@@ -31,6 +31,9 @@ const READ = [
   { kind: "Deaths", year: "1836", ark: "an_ua14338", imgs: 51, falco: 4,
     found: "Donna Raffaela de Falco, 67, a nun, daughter of Don Francesco Falco, proprietario. Margarita Falco, 60. Salvatore Falco, 14 months, son of Michele. Pasqualina Falco, 10 months, daughter of Francesco.",
     note: "Revealed a gentry Falco branch at Arienzo, spelled «de Falco», never joined to this family." },
+  { kind: "Deaths", year: "1816", ark: "an_ua14318", imgs: 47, falco: 0,
+    found: "No Falco died. But act 76 names TWO Falco declarants of strada Camellara — Gioacchino Falco, 36, and Giuseppe Falco, 32 — described as «parenti del defunto», and the dead man, Crescenzo Rivetti, is «marito di Angela Falco».",
+    note: "A Falco head this archive had never met, and a Falco marriage it did not have. The null matters more: no burial for the Raffaele born 25 April 1816, so generation four stays disputed." },
   { kind: "Births", year: "1816", ark: "an_ua14413", imgs: 66, falco: 2,
     found: "Raffaele Falco, 25 April, son of Vincenzo Falco and Andreana Crisci. Domenico Falco, 25 November, son of a DIFFERENT Giuseppe Falco and Gelsomina Vigliotta, of strada Costa.",
     note: "The 1816 Raffaele unsettles generation four. The register closed at 123 acts; all 122 fathers read are logged." },
@@ -67,13 +70,13 @@ const totalFalco = READ.reduce((a, r) => a + r.falco, 0);
 ---
 <Base title="What has been read"
       eyebrow="Coverage, including the years that held nothing"
-      dek={`Eleven annual registers read page by page — ${totalImgs} images, some two thousand acts, ${totalFalco} Falco. This page exists so that a null is not lost: knowing a volume has been read and held nothing is worth as much as knowing what it held.`}>
+      dek={`Twelve annual registers read page by page — ${totalImgs} images, some two thousand acts, ${totalFalco} Falco. This page exists so that a null is not lost: knowing a volume has been read and held nothing is worth as much as knowing what it held.`}>
 
   <div class="card" style="border-left:3px solid var(--accent)">
     <p><strong>Why record the negatives.</strong> A family archive that only publishes its finds
-    invites the next person to repeat every search that failed. Three of the eleven volumes below
-    contained no Falco at all, and one of those nulls overturned something this archive had been
-    relying on. Every one of these years is logged act by act in the
+    invites the next person to repeat every search that failed. Four of the twelve volumes below
+    contained no Falco deceased at all, and two of those nulls overturned or unsettled something this
+    archive had been relying on. Every one of these years is logged act by act in the
     <a href={REPO + "/tree/main/notes"}>reading logs</a>, with each father's age, trade and street.</p>
   </div>
 
@@ -104,11 +107,15 @@ const totalFalco = READ.reduce((a, r) => a + r.falco, 0);
   ))}
 
   <h2>Still to read</h2>
-  <p class="dek">The Arienzo death registers for <strong>1837–1843</strong>, and for
-  <strong>1816–1818</strong> — the last of which would settle which Raffaele is generation four by
-  finding, or failing to find, a burial for the child born in April 1816. The birth registers before
-  1816 and after 1818. And the <em>processetti</em>, 258 volumes across four towns, of which none
-  have been read.</p>
+  <p class="dek">The Arienzo death registers for <strong>1817 and 1818</strong> — which would settle
+  which Raffaele is generation four by finding, or failing to find, a burial for the child born in
+  April 1816. <strong>1816 has now been read and did not hold it.</strong> Then the death registers
+  for <strong>1837–1843</strong>, the birth registers before 1816 and after 1818, and the
+  <em>processetti</em>, 258 volumes across four towns, of which none have been read.</p>
+  <p class="small">One qualification on the table above, stated rather than hidden: for the 1816
+  death register, images 3–39 were read in full <em>for Falco</em> — and the Falco answer is firm —
+  but the act-by-act roster of the other families in that stretch was not written down at the time.
+  Recovering it needs a second pass, and that pass is queued.</p>
   <p class="small">Everything above is in <a href={u("/open-questions")}>Open questions</a> with what
   it would take to answer it.</p>
 </Base>
