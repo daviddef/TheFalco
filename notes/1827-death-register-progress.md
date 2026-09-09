@@ -126,7 +126,21 @@ Either there are two Angelo Morgillo, or one of the two ages is wrong. Both read
 Antonia di Guida, wife of Giuseppe Falco, still has no named parents. These are the first di Guida in
 the civil series with an age, a trade and a street, and the first on the family's own road.
 
-## The reading this volume will not settle
+## The reading this volume would not settle — since settled from outside it
+
+**Atto 84** buried a priest, **«Don Giuseppe C—, d'anni cinquantasei, sacerdote, figlio di ANDREA —,
+possidente, e di ORSOLA ZIMBARDO»**, and no magnification would separate *Crisci* from *Cossi* in
+this hand. The archive published the doubt instead of choosing.
+
+> **It is answered, and not from this volume.** On **3 June 1843** the Arienzo register buries
+> **CELIA CIOFFI**, eighty, of strada Porta di Sopra, *«figlia di ANDREA CIOFFI defunto, di
+> professione POSSIDENTE … e di ORSOLA ZIMBARDO defunta»* — the same father, the same trade and the
+> same mother, written plainly by a different clerk sixteen years later.
+> **The priest was DON GIUSEPPE CIOFFI**, and Celia was his sister. The lesson is in
+> `site/src/pages/method.astro`: a hand that will not resolve is sometimes resolved by another hand
+> in another decade, which is an argument for reading whole volumes rather than hunting single acts.
+
+## The other reading this volume will not settle
 
 The clerk of 1827 writes the surname of the strada Cossi family in a way that reads **CIOFFI** —
 a clear «i» after the C, then the double long-s. He writes the sindaco's own name **Cioffari** with
