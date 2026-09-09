@@ -2163,5 +2163,60 @@
     "ark": "ANTENATI an_ua14345 img21r atto29"
    }
   ]
+ },
+ {
+  "name": "Michele Falco & Antonia Migliore",
+  "members": [
+   {
+    "household": "Michele Falco & Antonia Migliore",
+    "person": "Michele Falco",
+    "role": "father",
+    "event": "—",
+    "date": "alive Aug 1842",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«figlio di MICHELE FALCO, di professione contadino, domiciliato ivi» — from the death act of his two-year-old son Matteo Falco, Arienzo Morti 1842 atto 55, 25 August 1842, read at 2800px. Named WITHOUT «fu», so alive. A contadino on strada Camellara, the street of Pasquale Falco and Chiara Rivetti. NO ACT NAMES HIS PARENTS. He is not placed in the line here, and the archive will not place him until an act does.",
+    "ark": "ANTENATI an_ua14344 img35r atto55"
+   },
+   {
+    "household": "Michele Falco & Antonia Migliore",
+    "person": "Antonia Migliore",
+    "role": "mother",
+    "event": "—",
+    "date": "alive Aug 1842",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«e di ANTONIA MIGLIORE, domiciliata ivi» — same act, also without «fu», so alive in 1842. Migliore is a common Arienzo surname and no parents are named for her.",
+    "ark": "ANTENATI an_ua14344 img35r atto55"
+   },
+   {
+    "household": "Michele Falco & Antonia Migliore",
+    "person": "Matteo Falco",
+    "role": "child",
+    "event": "death",
+    "date": "24 Aug 1842",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«è morto nella sua propria casa MATTEO FALCO D'ANNI DUE, nato in Arienzo» — died at ten at night on 24 August 1842, aged two, so born about 1840. HIS NAME IS THE QUESTION. Neapolitan custom named a first son for his father's father, and the name at the head of this line is MATTEO FALCO, who married Francesca Crisci. That is a reason to look for Michele among Matteo's sons. IT IS NOT EVIDENCE. A naming habit is not a record, and this archive does not build a generation out of one.",
+    "ark": "ANTENATI an_ua14344 img35r atto55"
+   },
+   {
+    "household": "Michele Falco & Antonia Migliore",
+    "person": "Giovanni Cioffi",
+    "role": "declarant",
+    "event": "—",
+    "date": "25 Aug 1842",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "Forty-seven, a contadino of strada Camellara. THIRTEEN MONTHS LATER, at forty-eight, the same man reports the death of CHIARA RIVETTI on the same street. In a register that gives Giuseppe Falco four different ages, this one holds. He is a neighbour; the act does not call him kin, and these registers write «parente» when they mean it.",
+    "ark": "ANTENATI an_ua14344 img35r atto55"
+   },
+   {
+    "household": "Michele Falco & Antonia Migliore",
+    "person": "Antonio Cioffi",
+    "role": "declarant",
+    "event": "—",
+    "date": "25 Aug 1842",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "Thirty-two, a contadino of strada Camellara — a further Cioffi on the Falco street, alongside Vincenzo Cioffi the vinivendolo (atto 41), Luca Cioffi the sartore and Giovanni Cioffi (1843).",
+    "ark": "ANTENATI an_ua14344 img35r atto55"
+   }
+  ]
  }
 ]
