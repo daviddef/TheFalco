@@ -1795,10 +1795,10 @@
   ]
  },
  {
-  "name": "Francesco Cossi & Maria Falco",
+  "name": "Francesco Cioffi & Maria Falco",
   "members": [
    {
-    "household": "Francesco Cossi & Maria Falco",
+    "household": "Francesco Cioffi & Maria Falco",
     "person": "Francesco Cossi",
     "role": "father",
     "event": "—",
@@ -1808,7 +1808,7 @@
     "ark": "ANTENATI an_ua14325 img21r atto39"
    },
    {
-    "household": "Francesco Cossi & Maria Falco",
+    "household": "Francesco Cioffi & Maria Falco",
     "person": "Maria Falco",
     "role": "mother",
     "event": "—",
@@ -1818,7 +1818,7 @@
     "ark": "ANTENATI an_ua14325 img21r atto39"
    },
    {
-    "household": "Francesco Cossi & Maria Falco",
+    "household": "Francesco Cioffi & Maria Falco",
     "person": "Antonia Cossi",
     "role": "child",
     "event": "death",
@@ -1828,7 +1828,7 @@
     "ark": "ANTENATI an_ua14325 img21r atto39"
    },
    {
-    "household": "Francesco Cossi & Maria Falco",
+    "household": "Francesco Cioffi & Maria Falco",
     "person": "Giuseppe Cossi",
     "role": "child",
     "event": "death",
@@ -1838,7 +1838,7 @@
     "ark": "ANTENATI an_ua14326 img9l atto8"
    },
    {
-    "household": "Francesco Cossi & Maria Falco",
+    "household": "Francesco Cioffi & Maria Falco",
     "person": "Giuseppa Cossi",
     "role": "child",
     "event": "death",
@@ -1848,7 +1848,7 @@
     "ark": "ANTENATI an_ua14327 img10r"
    },
    {
-    "household": "Francesco Cossi & Maria Falco",
+    "household": "Francesco Cioffi & Maria Falco",
     "person": "Mariantonia Cossi",
     "role": "child",
     "event": "death",
@@ -1858,7 +1858,7 @@
     "ark": "ANTENATI an_ua14330 img36l atto54"
    },
    {
-    "household": "Francesco Cossi & Maria Falco",
+    "household": "Francesco Cioffi & Maria Falco",
     "person": "Maria Falco",
     "role": "mother",
     "event": "—",
@@ -1866,6 +1866,16 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "«figlia di FRANCESCO COSSI, di professione contadino, e di MARIA FALCO» — and the declarant Giuseppe Falco is «PARENTE DELLA DEFUNTA». After five acts calling him only a neighbour, the register states the kinship. This is the evidence the archive's open question on the third Maria Falco was waiting for.",
     "ark": "ANTENATI an_ua14330 img36l atto54"
+   },
+   {
+    "household": "Francesco Cioffi & Maria Falco",
+    "person": "Francesco Cioffi",
+    "role": "father",
+    "event": "—",
+    "date": "correction, read 1825",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "CORRECTION, LEFT VISIBLE. This archive carried this household as «Francesco COSSI & Maria Falco» from 1823 to 1828. It is CIOFFI. The 1825 register, read at full resolution, writes the strada Camellara family with a dotted «i» after the C — «Cesare Cioffi», «Francesco Cioffi», «Giuseppa Cioffi» — and writes the strada Cossi family, in the same volume and the same hand, without one: «Domenico Cossi», «Crescenzo Cossi», «strada Cossi». Two different families, distinguished by the clerk and conflated by this archive. Everything else about the household stands.",
+    "ark": "ANTENATI an_ua14327 img17l atto30"
    }
   ]
  },

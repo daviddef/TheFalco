@@ -1,5 +1,12 @@
 # Arienzo civil death register 1828 — sweep complete
 
+> **CORRECTION (published, not swapped).** Where this file reads **«Cossi»** for the household
+> of **Francesco Cossi and Maria Falco of strada Camellara**, and for the **Cesare** and
+> **Marcello** who declare with Giuseppe Falco on that street, the register actually reads
+> **CIOFFI**. The 1825 volume distinguishes the two families in one hand: *Cioffi* with a
+> dotted «i» after the C, *Cossi* — of strada Cossi — without. See
+> `site/public/plates/cioffi-not-cossi-1825.jpg`. The text below is left as it was read.
+
 **Volume:** `an_ua14330` (Arienzo, Morti 1828), 48 images. **Read in full, act by act.**
 **Acts:** 70, running 16 January – 22 December 1828, plus one death transcribed in from Aversa.
 **Officers:** **AGOSTINO COSSI, *secondo eletto***, almost throughout; **SAVERIO CIOFFARI, *sindaco***,

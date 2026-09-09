@@ -1,5 +1,12 @@
 # Arienzo civil death register 1823 — sweep complete
 
+> **CORRECTION (published, not swapped).** Where this file reads **«Cossi»** for the household
+> of **Francesco Cossi and Maria Falco of strada Camellara**, and for the **Cesare** and
+> **Marcello** who declare with Giuseppe Falco on that street, the register actually reads
+> **CIOFFI**. The 1825 volume distinguishes the two families in one hand: *Cioffi* with a
+> dotted «i» after the C, *Cossi* — of strada Cossi — without. See
+> `site/public/plates/cioffi-not-cossi-1825.jpg`. The text below is left as it was read.
+
 **Volume:** `an_ua14325` (Arienzo, Morti 1823), 64 images — the largest volume of the run.
 **Acts:** 117, running 20 January – 31 December 1823. **Read in full.**
 **Officer:** **Vincenzo Morgillo, Sindaco**, throughout. *Distretto di Nola*. The 1820 form.
