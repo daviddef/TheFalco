@@ -281,6 +281,36 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "è morto nella sua propria casa Pasquale Falco, d'anni settantaquattro, marito di Chiara Rivetti, di professione contadino, nato in Arienzo, figlio di Matteo Falco, defunto, e di Francesca Crisci, defunta",
     "ark": "ANTENATI an_ua14336 img43 act69"
+   },
+   {
+    "household": "Pasquale Falco & Chiara Rivetti",
+    "person": "Anna Falco",
+    "role": "child",
+    "event": "death",
+    "date": "23 Aug 1820",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«è morta nella sua propria casa ANNA FALCO di anni venticinque, moglie di ARCANGELO CRISCI, nata in Arienzo, di professione Contadina, domiciliata ivi strada Camellara, FIGLIA DI PASQUALE FALCO, di professione Contadino, domiciliato ivi strada Camellara, E DI CHIARA RIVETTI, domiciliata ivi» — atto 47. A DAUGHTER OF THE DIRECT LINE'S GENERATION TWO, and a sister of Vincenzo Falco. Aged twenty-five, so born about 1795. She had buried a two-day-old son, Fortunato Crisci, seven months earlier.",
+    "ark": "ANTENATI an_ua14322 img26r atto47"
+   },
+   {
+    "household": "Pasquale Falco & Chiara Rivetti",
+    "person": "Pasquale Falco",
+    "role": "father",
+    "event": "named as living",
+    "date": "23 Aug 1820",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "On his daughter Anna's death act he is «PASQUALE FALCO, di professione Contadino, domiciliato ivi strada Camellara» — WITHOUT «fu» or «defunto». So he was alive on 23 August 1820, a contadino, living on strada Camellara, fourteen years before his own death act of 1 October 1834. This is an independent civil sighting of the ancestor between his marriage and his death.",
+    "ark": "ANTENATI an_ua14322 img26r atto47"
+   },
+   {
+    "household": "Pasquale Falco & Chiara Rivetti",
+    "person": "Chiara (Clara) Rivetti",
+    "role": "mother",
+    "event": "named as living",
+    "date": "23 Aug 1820",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«e di CHIARA RIVETTI, domiciliata ivi» — named without «fu» on her daughter Anna's death act, so alive in August 1820 and living on strada Camellara. Until now the only record naming her at all was her own Latin burial entry of 1843.",
+    "ark": "ANTENATI an_ua14322 img26r atto47"
    }
   ]
  },
@@ -1421,6 +1451,51 @@
     "place": "Arienzo, strada Maddalena",
     "evidence": "«e di Giuseppe di Guida, di anni sessantotto, di professione massaro di campagna, domiciliato in questo comune, strada Maddalena» — born about 1751. A LEAD: a Giuseppe di Guida is named in October 1817 as the father of Angelo Andrea di Guida by Michedalena Rivetti, and Giuseppe Falco of strada Camellara married an ANTONIA DI GUIDA. A man of sixty-eight in 1819 is the right age to be father to both. Nothing here names Antonia, so it is not asserted.",
     "ark": "ANTENATI an_ua14321 img29r"
+   }
+  ]
+ },
+ {
+  "name": "Arcangelo Crisci & Anna Falco",
+  "members": [
+   {
+    "household": "Arcangelo Crisci & Anna Falco",
+    "person": "Arcangelo Crisci",
+    "role": "father",
+    "event": "—",
+    "date": "living 24 Jan 1820",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«figlio di ARCANGELO CRISCI, di professione Contadino, domiciliato ivi strada Camellara» — the FIRST CIVIL RECORD to place this marriage on the ground. Until now the archive knew of Arcangelo Crisci's marriage to Anna Falco only at second hand. He is a contadino, and he lives on the family's own street.",
+    "ark": "ANTENATI an_ua14322 img5r act5"
+   },
+   {
+    "household": "Arcangelo Crisci & Anna Falco",
+    "person": "Anna Falco",
+    "role": "mother",
+    "event": "—",
+    "date": "living 24 Jan 1820",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«e di ANNA FALCO, domiciliata ivi» — alive on 24 January 1820, and bearing a child two days earlier. She is said to have died at twenty-two later in this same year, which would put her birth about 1798.",
+    "ark": "ANTENATI an_ua14322 img5r act5"
+   },
+   {
+    "household": "Arcangelo Crisci & Anna Falco",
+    "person": "Fortunato Crisci",
+    "role": "child",
+    "event": "death",
+    "date": "24 Jan 1820",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«è morto nella sua propria casa FORTUNATO CRISCI di giorni due, nato in Arienzo, domiciliato ivi strada Camellara» — two days old. Declared by ANDREA CRISCI, 60, and MARCELLO CRISCI, 25, both contadini of strada Camellara, each «vicino del defunto». The Andrea Crisci who reported Anna Falco's namesake's death in 1831 is given as fifty-eight, which fits this man.",
+    "ark": "ANTENATI an_ua14322 img5r act5"
+   },
+   {
+    "household": "Arcangelo Crisci & Anna Falco",
+    "person": "Anna Falco",
+    "role": "mother",
+    "event": "death",
+    "date": "23 Aug 1820",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«ANNA FALCO di anni venticinque, moglie di ARCANGELO CRISCI … figlia di PASQUALE FALCO … e di CHIARA RIVETTI» — she is a daughter of the direct line's generation two. Declared by Giuseppe Martone, 40, and Domenico Martone, 36, both contadini of strada Camellara.",
+    "ark": "ANTENATI an_ua14322 img26r atto47"
    }
   ]
  }
