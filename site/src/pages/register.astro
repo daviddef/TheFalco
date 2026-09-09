@@ -17,10 +17,19 @@ const KIND = {
   index: "surname index", record: "record", cited: "cited by this archive",
   burial: "burial", file: "archive file", household: "reconstructed", swept: "read in the register", tree: "family tree",
 };
+// Every row either links to its source or says here why it cannot.
+const WHYNOLINK = {
+  tree: "no link — the family tree is private",
+  burial: "no link — the cemetery portal answers only to a POST, so a row has no address of its own",
+  cited: "no link — held as a family scan, not published",
+  household: "no link — joined from records listed elsewhere on this page",
+  swept: "no link — the volume is not yet on Antenati",
+};
+const unlinked = register.length - linked;
 ---
 <Base title="The register"
       eyebrow="Every named individual this archive has found"
-      dek={`${register.length} entries for ${distinct} distinct names, ${linked} of them with a link to the source that names them. This is the raw catch — not a family tree, and most of it is not this family.`}>
+      dek={`${register.length} entries for ${distinct} distinct names, ${linked} of them with a link to the source that names them; the other ${unlinked} say in the Source column why no link exists. This is the raw catch — not a family tree, and most of it is not this family.`}>
 
   <div class="card" style="border-left:3px solid var(--accent)">
     <h3 style="margin-bottom:.4rem">Read this before you read the list</h3>
@@ -38,13 +47,14 @@ const KIND = {
     <p style="margin-top:.6rem">Entries marked <em>read in the register</em> are people this archive
     met while reading the Arienzo registers act by act — neighbours, declarants, the families who
     buried each other's children on strada Camellara. They are here because they were found, not
-    because they are kin. <strong>1834</strong> and the whole of <strong>1817</strong> are logged
-    act by act, and for 1817 every person in every act is here: the deceased, both parents, the
-    spouse, and both declarants with age, trade and street. The birth registers of
-    <strong>1816–1818</strong> contribute every father read. The one gap, stated rather than hidden,
-    is the first thirty-nine images of the <strong>1816 death register</strong>: they were read in
-    full for Falco — and held none — but the roster of the other families in them was not written
-    down at the time, and recovering it needs a second pass. Everything is also in the
+    because they are kin. <strong>Nineteen annual death registers are now logged act by act —
+    1816 to 1826, and 1829 to 1836</strong> — and from 1820 on, when the Arienzo form grew fuller,
+    every person in every act is here: the deceased, both parents, the spouse, and both declarants
+    with age, trade and street. The birth registers of <strong>1816–1818</strong> contribute every
+    father read. The one gap, stated rather than hidden, is the first thirty-nine images of the
+    <strong>1816 death register</strong>: they were read in full for Falco — and held none — but the
+    roster of the other families in them was not written down at the time, and recovering it needs a
+    second pass. Everything is also in the
     <a href="https://github.com/daviddef/TheFalco/tree/main/notes">reading logs</a>.</p>
     <p style="margin-top:.6rem">The <span class="chip doc">reconstructed</span> entries are the ones
     this archive has actually joined into households from the words of a record. Those names link to
@@ -79,7 +89,7 @@ const KIND = {
                 <td>{r.detail}</td>
                 <td class="small">
                   {r.link ? <a href={r.link} rel="noopener">{KIND[r.kind] || r.kind} ↗</a>
-                          : (KIND[r.kind] || r.kind)}
+                          : <span title={WHYNOLINK[r.kind] || "no public link"}>{(KIND[r.kind] || r.kind) + " · " + (WHYNOLINK[r.kind] || "no public link")}</span>}
                   <br/><span style="color:var(--ink-3)">{r.source}</span>
                 </td>
               </tr>

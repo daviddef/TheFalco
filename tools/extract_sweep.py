@@ -3,8 +3,7 @@
 and into structured rows, so they reach the register instead of sitting in prose."""
 import re, csv, glob, os
 
-ARK = {"1829":"an_ua14331","1830":"an_ua14332","1831":"an_ua14333","1832":"an_ua14334",
-       "1833":"an_ua14335","1834":"an_ua14336","1835":"an_ua14337","1836":"an_ua14338"}
+ARK = {str(y): "an_ua%d" % (14311 + y - 1809) for y in range(1809, 1845)}
 BIRTH_ARK = {"1816":"an_ua14413","1817":"an_ua14414","1818":"an_ua14415"}
 rows=[]
 for path in sorted(glob.glob("notes/18*-death-register-progress.md")):
@@ -54,7 +53,8 @@ for path in sorted(glob.glob("notes/18*-birth-register-progress.md")):
 # | act | img | date | deceased | parents | spouse | declarants |
 # Every person named is emitted separately, so a neighbour or a declarant is
 # as findable as the deceased. Nothing read is left sitting only in prose.
-DEATH_ARK_2 = {"1816":"an_ua14318","1817":"an_ua14319","1818":"an_ua14320"}
+# Arienzo civil death registers: verified, not extrapolated — 1809 is an_ua14311, +1 a year.
+DEATH_ARK_2 = {str(y): "an_ua%d" % (14311 + y - 1809) for y in range(1809, 1845)}
 NOISE = re.compile(r"^(—|-|\?|blank.*|duplicate.*|widow|the volume ends.*)?$", re.I)
 
 def clean_name(t):
