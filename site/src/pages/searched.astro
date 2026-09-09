@@ -49,6 +49,9 @@ const READ = [
   { kind: "Deaths", year: "1821", ark: "an_ua14323", imgs: 37, falco: 0,
     found: "Nothing — 77 acts and not one Falco, as deceased, parent, spouse or declarant. But CARMINE RIVETTI, 53, a contadino, «figlio di NICOLA RIVETTI Defunto, di professione CONTADINO, e di ANNA DI RUGGIO Defunta» — a rival and better-fitting candidate for Chiara Rivetti's parents than the gentry couple of 1816.",
     note: "Also a third Carlantonio Morgillo, checked and cleared; and a death in the Regie Prigioni of Arienzo, declared by the gaol's keeper — this archive did not know the town had a prison." },
+  { kind: "Deaths", year: "1822", ark: "an_ua14324", imgs: 44, falco: 1,
+    found: "ANGELA FALCO, 17 October, aged fifty-one — «vedova di CRESCENZO RIVETTI … FIGLIA DI MATTEO FALCO Defunto … E DI FRANCESCA CRISCI Defunta». A daughter of the founding couple, and a sister of Pasquale.",
+    note: "The earliest of three separate children's death acts to name Matteo and Francesca. It also explains why Gioacchino Falco and Giuseppe Falco declared her husband's death in 1816 as «parenti» — they were his wife's brothers." },
   { kind: "Births", year: "1816", ark: "an_ua14413", imgs: 66, falco: 2,
     found: "Raffaele Falco, 25 April, son of Vincenzo Falco and Andreana Crisci. Domenico Falco, 25 November, son of a DIFFERENT Giuseppe Falco and Gelsomina Vigliotta, of strada Costa.",
     note: "The 1816 Raffaele unsettled generation four for a time; the 1817 death register has since closed it. The register ran to 123 acts; all 122 fathers read are logged." },
@@ -94,11 +97,11 @@ const totalFalco = READ.reduce((a, r) => a + r.falco, 0);
 ---
 <Base title="What has been read"
       eyebrow="Coverage, including the years that held nothing"
-      dek={`Seventeen annual registers read page by page — ${totalImgs} images, some two thousand acts, ${totalFalco} Falco. This page exists so that a null is not lost: knowing a volume has been read and held nothing is worth as much as knowing what it held.`}>
+      dek={`Eighteen annual registers read page by page — ${totalImgs} images, some two thousand acts, ${totalFalco} Falco. This page exists so that a null is not lost: knowing a volume has been read and held nothing is worth as much as knowing what it held.`}>
 
   <div class="card" style="border-left:3px solid var(--accent)">
     <p><strong>Why record the negatives.</strong> A family archive that only publishes its finds
-    invites the next person to repeat every search that failed. Six of the seventeen volumes below
+    invites the next person to repeat every search that failed. Six of the eighteen volumes below
     contained no Falco deceased at all, and two of those nulls overturned or unsettled something this
     archive had been relying on. Every one of these years is logged act by act in the
     <a href={REPO + "/tree/main/notes"}>reading logs</a>, with each father's age, trade and street.</p>
@@ -131,7 +134,7 @@ const totalFalco = READ.reduce((a, r) => a + r.falco, 0);
   ))}
 
   <h2>Still to read</h2>
-  <p class="dek">The Arienzo death registers for <strong>1822–1828</strong> and
+  <p class="dek">The Arienzo death registers for <strong>1823–1828</strong> and
   <strong>1837–1843</strong>, the birth registers before 1816 and after 1818, and the
   <em>processetti</em>, 258 volumes across four towns, of which none have been read.</p>
   <p class="small"><strong>1816, 1817 and 1818 have now been read in full, and they closed the
