@@ -961,6 +961,26 @@
     "place": "Arienzo",
     "evidence": "Donna Francesca Rivetti, figlia del fu Don Nicola, e Donn'Anna Quotolo, moglie di Don Claudio Cimmino",
     "ark": "ANTENATI an_ua14318 img7l act12"
+   },
+   {
+    "household": "Don Nicola Rivetti & Donna Anna Quotolo",
+    "person": "Donna Anna Quotolo",
+    "role": "mother",
+    "event": "death",
+    "date": "25 Apr 1824",
+    "place": "Arienzo, strada Croce dell'Ospedale",
+    "evidence": "«è morta nella sua propria casa DONN'ANNA QUOTOLO di anni OTTANTOTTO, vedova di DON NICOLA RIVETTI, nata in Arienzo, di professione GENTILDONNA, figlia di SILVESTRO QUOTOLO Defunto, di professione POSSIDENTE, e di Maria d'Isteria(?) Defunta» — atto 20. Eighty-eight, so born about 1736. She outlived Don Nicola by at least eight years and was living on strada Croce dell'Ospedale, where the two neighbours who declared her death are both contadini Migliore. This is the woman named on Donna Francesca Rivetti's act of January 1816, now with her own death, her age, her father and his station.",
+    "ark": "ANTENATI an_ua14326 img16l atto20"
+   },
+   {
+    "household": "Don Nicola Rivetti & Donna Anna Quotolo",
+    "person": "Silvestro Quotolo",
+    "role": "—",
+    "event": "named as Anna's father",
+    "date": "d. before 1824",
+    "place": "Arienzo",
+    "evidence": "«figlia di SILVESTRO QUOTOLO Defunto, di professione POSSIDENTE» — Donn'Anna's father, a propertied man. So the Quotolo, like the Rivetti, run from massari di campagna on strada Maddalena to a possidente.",
+    "ark": "ANTENATI an_ua14326 img16l atto20"
    }
   ]
  },
