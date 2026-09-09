@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
 const world = [
   ["Italy",17819,"1:3,432"],["United States",6389,"1:56,732"],["Argentina",3424,"1:12,483"],
   ["Portugal",3057,"1:3,408"],["Angola",2958,"1:9,124"],["Spain",2852,"1:16,393"],
@@ -73,6 +74,20 @@ const variants = [
         <td>84 in the United States, <strong>37 in Italy</strong>, 2 in France — the 1,628,521st commonest
         surname on earth. Francesca Zampiello of Arpaia married Carmine Falco in 1955. A name this rare is
         effectively a single family, and the Italian remnant is small enough to be traceable in full.</td></tr>
+      <tr><td><strong>Annecchino</strong></td><td class="mono">734 records here</td>
+        <td><strong>Generation seven's wife.</strong> Filomena Annecchino married Carminantonio Falco.
+        The largest surname in this archive after Falco itself, clustered hard on <strong>Moiano</strong>
+        (193 records) and <strong>Forchia</strong> (79) at the head of the Valle Caudina.
+        <a href={u("/annecchino")}>The Annecchino &rarr;</a></td></tr>
+      <tr><td><strong>Maione / Majone</strong></td><td class="mono">69 records here</td>
+        <td><strong>Generation six's wife.</strong> Costanza Maione of Arienzo, born 2 May 1876, married
+        Raffaele Falco &mdash; and hers is <em>the one wife's birth in the spine with a record behind
+        it</em>. Written <em>Majone</em> throughout the nineteenth-century registers.
+        <a href={u("/maione")}>The Maione &rarr;</a></td></tr>
+      <tr><td><strong>Ferrara / Ferraro</strong></td><td class="mono">14 records here</td>
+        <td><strong>Francesca Zampiello's mother.</strong> Giuseppa Ferrara married Angelo Zampiello.
+        The family writes her <em>Ferrara</em>; every Italian civil record found so far writes her
+        <strong>Ferraro</strong>. <a href={u("/ferrara")}>The Ferrara &rarr;</a></td></tr>
       <tr><td><strong>Crisci</strong>, <strong>Morgillo</strong>, <strong>Martone</strong>,
         <strong>Rivetti</strong>, <strong>Arricale</strong></td><td class="mono">—</td>
         <td>The Arienzo in-law names. All present in the parish registers alongside Falco across two
