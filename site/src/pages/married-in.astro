@@ -1,0 +1,105 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import groups from "../data/married-in.json";
+
+const other = groups.filter((g) => g.surname !== "Falco");
+const named = other.reduce((a, g) => a + g.n, 0);
+const withheld = other.reduce((a, g) => a + g.withheld, 0);
+const big = other.filter((g) => g.n >= 3);
+const small = other.filter((g) => g.n > 0 && g.n < 3);
+const onlyLiving = other.filter((g) => g.n === 0);
+const span = (g) => (g.first && g.last ? (g.first === g.last ? `${g.first}` : `${g.first}–${g.last}`) : "—");
+---
+<Base title="Married in"
+      eyebrow="The families who joined this one"
+      dek={`${other.length} surnames married into the Falco line. ${named} of their people are named here; ${withheld} more are alive and are not published. If one of these is your family, this page is for you.`}>
+
+  <div class="card" style="border-left:3px solid var(--accent)">
+    <h3 style="margin-bottom:.4rem">Why this page exists</h3>
+    <p>A pedigree keeps one child a generation and throws the rest away. Cousins go first, and the
+    families who married in go with them. This page is the opposite of a pedigree: it is a list of
+    <strong>every surname that joined this line</strong>, from the Crisci who married into it at
+    Arienzo in the seventeen-hundreds to the Sicilian and Calabrian families who joined it in
+    Brisbane in the twentieth century.</p>
+    <p style="margin-top:.6rem"><strong>The living are not here.</strong> That is this archive's
+    standing rule and it is not bent for anyone: {withheld} people in these families are alive and
+    are excluded from the public build entirely — no names, no dates, no places. What you will find
+    is their dead: parents, grandparents, the ones who made the crossing. Where a family appears
+    below with <em>no named people at all</em>, it means every person the archive holds for that
+    surname is living.</p>
+    <p style="margin-top:.6rem"><strong>If this is your family and something here is wrong, it is
+    wrong in public and can be fixed.</strong> Most of what is on this page comes from the family's
+    own tree rather than from a record, and is marked as such throughout the archive. A date you
+    know first-hand beats a date somebody typed.</p>
+  </div>
+
+  {big.map((g) => (
+    <section style="margin:1.8rem 0">
+      <h2 style="margin-bottom:.2rem">{g.surname}
+        <span class="small mono" style="font-weight:400">{g.n} named{g.withheld ? ` · ${g.withheld} living, withheld` : ""}</span></h2>
+      <p class="small" style="color:var(--ink-3);margin-bottom:.5rem">
+        {span(g)}{g.places.length ? " · " + g.places.join(" · ") : ""}
+        {" · "}<a href={u("/register") + "?q=" + encodeURIComponent(g.surname)}>every {g.surname} in the register →</a>
+      </p>
+      {g.marriages.length ? (
+        <p class="small" style="margin-bottom:.5rem"><strong>Joined by marriage:</strong>{" "}
+          {g.marriages.map((m, i) => (<span>{i ? " · " : ""}{m.who} &amp; {m.to}</span>))}</p>
+      ) : null}
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Name</th><th>Born</th><th>Died</th></tr></thead>
+          <tbody>
+            {g.people.map((p) => (
+              <tr>
+                <td>{p.name}</td>
+                <td class="small mono">{[p.b, p.bp].filter(Boolean).join(" · ") || "—"}</td>
+                <td class="small mono">{[p.d, p.dp].filter(Boolean).join(" · ") || "—"}</td>
+              </tr>))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  ))}
+
+  <h2 style="margin-top:2rem">One and two at a time</h2>
+  <p>These surnames are in the archive but thinly — often a single wife, or a single couple, with
+  nothing yet behind them. Each is a thread somebody could pull.</p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Surname</th><th>Who</th><th>When</th><th>Where</th><th></th></tr></thead>
+      <tbody>
+        {small.map((g) => (
+          <tr>
+            <td><strong>{g.surname}</strong>{g.withheld ? <><br/><span class="small" style="color:var(--ink-3)">{g.withheld} living, withheld</span></> : null}</td>
+            <td>{g.people.map((p, i) => (<span>{i ? " · " : ""}{p.name}</span>))}</td>
+            <td class="small mono">{span(g)}</td>
+            <td class="small">{g.places.join(" · ") || "—"}</td>
+            <td class="small"><a href={u("/register") + "?q=" + encodeURIComponent(g.surname)}>register →</a></td>
+          </tr>))}
+      </tbody>
+    </table>
+  </div>
+
+  {onlyLiving.length ? (
+    <>
+      <h2 style="margin-top:2rem">Families held but not shown</h2>
+      <p>For these surnames the archive holds people, and every one of them is living. Nothing is
+      published: no names, no dates. They are listed here only so that a descendant searching for the
+      surname can see that the family <em>is</em> in the record, and ask.</p>
+      <p style="margin-top:.6rem">{onlyLiving.map((g, i) => (
+        <span>{i ? " · " : ""}<strong>{g.surname}</strong> <span class="small mono">({g.withheld})</span></span>))}</p>
+    </>
+  ) : null}
+
+  <h2 style="margin-top:2rem">What would help</h2>
+  <ul>
+    <li><strong>A death date, a town, a ship.</strong> Most of the thin entries above lack all three.</li>
+    <li><strong>Photographs with names on the back.</strong> The archive already holds one portrait it
+    cannot attribute — filed under two different couples in two different scans.</li>
+    <li><strong>Anything from the Italian side after 1900.</strong> The registers close to the public
+    at a century; the family's own papers do not.</li>
+  </ul>
+  <p class="small">Sources for everything on this page: <a href={u("/sources")}>Sources</a> ·
+  <a href={u("/register")}>The Register</a> · <a href={u("/wider-family")}>The Wider Family</a></p>
+</Base>
