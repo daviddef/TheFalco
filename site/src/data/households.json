@@ -721,6 +721,16 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "«Sono comparsi GIUSEPPE FALCO, di anni QUARANTA, di professione COLONO, domiciliato in strada Camellara, vicino del Defunto» — declaring atto 30, the death of Giuseppe Cossi, aged one, son of Francesco Cossi. THE FOURTH CHILD OF THAT HOUSEHOLD he has declared (1823, 1824, 1825, 1827); the register calls him «vicino» every time and never «parente». NOTE THE AGE: 37 in 1817, 40 in 1825, 46 twice in 1826, 40 here — and the trade slides from massaro di campagna to massaro to colono. Either the clerks guessed or there are two Giuseppe Falco on that street.",
     "ark": "ANTENATI an_ua14329 img17l atto30"
+   },
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Giuseppe Falco",
+    "role": "father",
+    "event": "—",
+    "date": "24 Oct 1828",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«Sono comparsi GIUSEPPE FALCO, di anni CINQUANTASEI, di professione POSSIDENTE, domiciliato in strada Camellara, PARENTE DELLA DEFUNTA» — atto 54, on the death of Mariantonia Cossi, seven months, daughter of Francesco Cossi and Maria Falco. THE FIFTH CHILD OF THAT HOUSE HE HAS DECLARED, and the FIRST TIME THE REGISTER CALLS HIM PARENTE rather than vicino. The kinship between Maria Falco and this Giuseppe Falco is now stated by the record; the degree is not. Caution: he is 56 and a possidente here, against 40 and a colono eighteen months earlier — either the clerks guessed, or there are two Giuseppe Falco on that street.",
+    "ark": "ANTENATI an_ua14330 img36l atto54"
    }
   ]
  },
@@ -1836,6 +1846,26 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "«GIUSEPPA COSSI, di mesi otto, nata in Arienzo, di professione contadina, figlia di FRANCESCO COSSI, di professione Contadino, e di MARIA FALCO» — the third child of this house to die in three years, all three declared by GIUSEPPE FALCO of strada Camellara.",
     "ark": "ANTENATI an_ua14327 img10r"
+   },
+   {
+    "household": "Francesco Cossi & Maria Falco",
+    "person": "Mariantonia Cossi",
+    "role": "child",
+    "event": "death",
+    "date": "23 Oct 1828",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "Seven months old — the fifth child of this household to be buried since 1823. The act is the one in which GIUSEPPE FALCO is entered as «PARENTE DELLA DEFUNTA».",
+    "ark": "ANTENATI an_ua14330 img36l atto54"
+   },
+   {
+    "household": "Francesco Cossi & Maria Falco",
+    "person": "Maria Falco",
+    "role": "mother",
+    "event": "—",
+    "date": "24 Oct 1828",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«figlia di FRANCESCO COSSI, di professione contadino, e di MARIA FALCO» — and the declarant Giuseppe Falco is «PARENTE DELLA DEFUNTA». After five acts calling him only a neighbour, the register states the kinship. This is the evidence the archive's open question on the third Maria Falco was waiting for.",
+    "ark": "ANTENATI an_ua14330 img36l atto54"
    }
   ]
  },
@@ -1901,6 +1931,66 @@
     "place": "Arienzo, strada Porta di Sopra",
     "evidence": "«e MATTEO FALCO, di anni VENTOTTO, di professione POSSIDENTE, regnicolo, domiciliato in strada Porta di Sopra, vicino del Defunto» — declaring atto 52 of 1827. Born about 1799. THE ONLY FALCO IN TWENTY ANNUAL REGISTERS DESCRIBED AS A POSSIDENTE, and not on strada Camellara. He carries the founding ancestor's name; nothing yet names his father. UNJOINED to this line.",
     "ark": "ANTENATI an_ua14329 img32l atto52"
+   }
+  ]
+ },
+ {
+  "name": "Angelo Morgillo (colono, Monticello de' Cappuccini)",
+  "members": [
+   {
+    "household": "Angelo Morgillo (colono, Monticello de' Cappuccini)",
+    "person": "Angelo Morgillo",
+    "role": "head",
+    "event": "—",
+    "date": "31 Oct 1828",
+    "place": "Arienzo, strada Cappuccini",
+    "evidence": "«ANGELO MORGILLO, di anni SETTANTA, di professione COLONO, domiciliato in strada Cappuccini» — declaring atto 56. Born about 1758. A SECOND Angelo Morgillo, distinct from the Angelo, 58, of strada Nuova di San Gaetano buried in October 1826; the distinction resolves the age conflict raised by Saveria Morgillo's act of 1827, whose father he is very likely to be.",
+    "ark": "ANTENATI an_ua14330 img38l atto56"
+   },
+   {
+    "household": "Angelo Morgillo (colono, Monticello de' Cappuccini)",
+    "person": "Nicola Morgillo",
+    "role": "son",
+    "event": "—",
+    "date": "1828",
+    "place": "Arienzo, Monticello de' Cappuccini",
+    "evidence": "34 in 1828, contadino. Husband of Maria Majone; their eight-year-old Raffaele died in May (atto 14). He declares his brother's child's death as «zio della defunta» (atto 56), which makes him and Vincenzo brothers.",
+    "ark": "ANTENATI an_ua14330 img10l atto14"
+   },
+   {
+    "household": "Angelo Morgillo (colono, Monticello de' Cappuccini)",
+    "person": "Vincenzo Morgillo",
+    "role": "son",
+    "event": "—",
+    "date": "1828",
+    "place": "Arienzo, Monticello de' Cappuccini",
+    "evidence": "29 in May 1828, 32 in December. Husband of Felicetta Rivetti; their one-year-old Grazia died on 30 October, declared by his brother Nicola as «zio della defunta».",
+    "ark": "ANTENATI an_ua14330 img38l atto56"
+   }
+  ]
+ },
+ {
+  "name": "Biagio Morgillo & Vincenza Vece (strada Nuova di San Gaetano)",
+  "members": [
+   {
+    "household": "Biagio Morgillo & Vincenza Vece (strada Nuova di San Gaetano)",
+    "person": "Biagio Morgillo",
+    "role": "father",
+    "event": "—",
+    "date": "14 Mar 1828",
+    "place": "Arienzo, strada Nuova di San Gaetano",
+    "evidence": "«figlia di BIAGIO MORGILLO, di professione contadino, e di VINCENZA VECE» — atto 11. He is the Biagio Morgillo, 30, who declared his own father Angelo Morgillo's death in October 1826 as «figlio del defunto».",
+    "ark": "ANTENATI an_ua14330 img7r atto11"
+   },
+   {
+    "household": "Biagio Morgillo & Vincenza Vece (strada Nuova di San Gaetano)",
+    "person": "Clementina Morgillo",
+    "role": "child",
+    "event": "death",
+    "date": "14 Mar 1828",
+    "place": "Arienzo, strada Nuova di San Gaetano",
+    "evidence": "Twenty-six months old. Declared by ANTONIO MORGILLO, 27, and SIMONE MORGILLO, 24, both of the same street and both entered as «parente della defunta» — very probably her father's brothers.",
+    "ark": "ANTENATI an_ua14330 img7r atto11"
    }
   ]
  }
