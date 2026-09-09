@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
 ---
 <Base title="Method">
   <h1>Method</h1>
@@ -53,7 +54,7 @@ import Base from "../layouts/Base.astro";
   machine-read date is load-bearing it is flagged, and it should be confirmed against the image before it
   is believed. One such case is on the <a href="./arienzo/">Arienzo</a> page.</p>
 
-  <h2>Three things the Arienzo registers taught us to distrust</h2>
+  <h2>Four things the Arienzo registers taught us to distrust</h2>
   <p>Reading twenty annual volumes act by act turns up habits of the source that are easy to miss from a
   single record, and each of them qualifies claims this archive itself has made.</p>
 
@@ -78,6 +79,24 @@ import Base from "../layouts/Base.astro";
   Crisci — all alive or dying within a decade of one another. Identity here rests on the
   <em>combination</em> of parents, spouse, street and trade. A matching forename is where an
   identification starts, never where it ends.</p>
+
+  <h3>Two surnames can be one letter apart, and the clerk knew the difference</h3>
+  <p>From 1823 this archive recorded a household as <strong>«Francesco Cossi and Maria Falco» of strada
+  Camellara</strong> — the house whose five dead children Giuseppe Falco declared, and the strongest
+  Falco kinship lead outside the direct line. <strong>It is CIOFFI.</strong> Read at full resolution,
+  the 1825 volume writes the Camellara family with a dotted <em>i</em> after the C — <em>Cesare
+  Cioffi</em>, <em>Francesco Cioffi</em>, <em>Giuseppa Cioffi</em> — and, in the same hand and the same
+  book, writes the unrelated family of <strong>strada Cossi</strong> without one: <em>Domenico Cossi</em>,
+  <em>Crescenzo Cossi</em>. The clerk distinguished two families; this archive conflated them for five
+  years across six annual registers.</p>
+  <p>The correction is <strong>published rather than swapped</strong>. The reading logs keep the original
+  text and carry a banner saying what was wrong; the plate showing the four words side by side is on the
+  <a href={u("/documents")}>Documents</a> page. Two lessons follow. The first is procedural: a surname
+  read at strip resolution is a hypothesis, and only a full-resolution reading of a <em>distinguishing
+  pair</em> — the same clerk writing both candidates — settles it. The second is that the same doubt is
+  still open elsewhere: a priest buried in 1827 is <em>Don Giuseppe Cr-i-sci or C-o-ssi</em>, and the
+  household this archive holds as <em>Marcello Crisci &amp; Maria Rosa Mauro</em> appears in 1828 as
+  <em>Marcello Cossi</em> with the same wife. Neither is settled here.</p>
 
   <h2>What is not known</h2>
   <p>An archive that only publishes its findings is half a record. Everything this one has failed to
