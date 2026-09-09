@@ -103,6 +103,9 @@ const unlinked = register.length - linked;
   <script is:inline>
     (function () {
       var q = document.getElementById("q"), count = document.getElementById("count");
+      // /register?q=Mazza — so other pages can deep-link straight to a surname
+      var pre = new URLSearchParams(location.search).get("q");
+      if (pre) q.value = pre;
       var rows = [].slice.call(document.querySelectorAll("tr.row"));
       var secs = [].slice.call(document.querySelectorAll("section.sur"));
       var t;
@@ -119,6 +122,7 @@ const unlinked = register.length - linked;
         count.textContent = n + (n === 1 ? " entry shown" : " entries shown");
       }
       q.addEventListener("input", function () { clearTimeout(t); t = setTimeout(run, 120); });
+      if (pre) run();
     })();
   </script>
 </Base>
