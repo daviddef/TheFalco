@@ -321,6 +321,16 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "«e di CHIARA RIVETTI, domiciliata ivi» — named without «fu» on her daughter Anna's death act, so alive in August 1820 and living on strada Camellara. Until now the only record naming her at all was her own Latin burial entry of 1843.",
     "ark": "ANTENATI an_ua14322 img26r atto47"
+   },
+   {
+    "household": "Pasquale Falco & Chiara Rivetti",
+    "person": "Pasquale Falco",
+    "role": "father",
+    "event": "named as declarant",
+    "date": "25 Mar 1824",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«sono comparsi PASQUALE FALCO, di anni cinquantacinque, di professione COLONO, regnicolo, domiciliato in questo comune, strada Camellara, vicino del defunto, e GIUSEPPE FALCO, di anni quarantadue, di professione colono, domiciliato ivi strada Camellara» — atto 8. THE ONLY RECORD IN WHICH PASQUALE FALCO ACTS FOR HIMSELF. Every other sighting has him named by somebody else: on his children's acts, or on his own death act of 1834. Here he walks into the town hall with his brother Giuseppe and reports a neighbour's child dead. He is fifty-five, which against his baptism of 24 October 1767 is one year out — ordinary. And his trade is given as COLONO, a tenant farmer, where his death act of 1834 calls him contadino.",
+    "ark": "ANTENATI an_ua14326 img9l atto8"
    }
   ]
  },
@@ -611,6 +621,16 @@
     "place": "Arienzo, strada Sant'Andrea",
     "evidence": "«sono comparsi GIUSEPPE FALCO FU MATTEO, di anni quarantadue, di professione Contadino, domiciliato in questo comune, strada Sant'Andrea, vicino della defunta» — atto 39, the SECOND «fu Matteo» sighting in two days, at the death of Antonia Cossi, nine months old, daughter of Francesco Cossi and a MARIA FALCO. TWO CAUTIONS. He is forty-two here and forty-three the day before, from the same clerk — a plain measure of how loosely these ages are kept. And he is given here on STRADA SANT'ANDREA where the day before he is on strada Camellara: in this form a declarant described as «vicino» is recorded at the street of the house where the death happened, so a declarant's street is NOT reliable evidence of where he himself lived.",
     "ark": "ANTENATI an_ua14325 img21r atto39"
+   },
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Giuseppe Falco",
+    "role": "father",
+    "event": "named as declarant",
+    "date": "25 Mar 1824",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«e GIUSEPPE FALCO, di anni quarantadue, di professione colono, regnicolo, domiciliato ivi strada Camellara, vicino del defunto» — declaring beside his brother PASQUALE FALCO. The only act found so far in which the two brothers appear together, and the first to give Giuseppe's trade as colono rather than contadino. Forty-two here, so born about 1782.",
+    "ark": "ANTENATI an_ua14326 img9l atto8"
    }
   ]
  },
@@ -1686,6 +1706,16 @@
     "place": "Arienzo, strada Sant'Andrea",
     "evidence": "«ANTONIA COSSI, di mesi nove, nata in Arienzo» — atto 39, died at fifteen hours",
     "ark": "ANTENATI an_ua14325 img21r atto39"
+   },
+   {
+    "household": "Francesco Cossi & Maria Falco",
+    "person": "Giuseppe Cossi",
+    "role": "child",
+    "event": "death",
+    "date": "25 Mar 1824",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«GIUSEPPE CRISCI(?), di anni cinque, nato in Arienzo, di professione contadino, domiciliato ivi strada Camellara, figlio di FRANCESCO COSSI, di professione contadino, e di MARIA FALCO» — a second child of this house to die, after Antonia in June 1823. THE SURNAME IS AMBIGUOUS IN THE HAND: it can be read Cossi or Crisci, and the 1823 act was read Cossi. Recorded as Cossi with the doubt stated. Note that the household is here on STRADA CAMELLARA, where the 1823 act placed it on strada Sant'Andrea.",
+    "ark": "ANTENATI an_ua14326 img9l atto8"
    }
   ]
  },
