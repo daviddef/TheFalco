@@ -1,11 +1,11 @@
 # Arienzo civil death register 1843 — sweep IN PROGRESS
 
 **Volume:** `an_ua14345` (Arienzo, Morti 1843), 44 images.
-**Read so far: images 3–14, acts 1–17.** The rest is unread. This file is published in that state
+**Read so far: images 3–16, acts 1–19.** The rest is unread. This file is published in that state
 rather than held back, because a partial sweep with its edge marked is worth more than a promise.
 **Officer:** **Gaspare de' Nuzzo, sindaco**. The district line now reads **Caserta**, not Nola —
 the administrative reorganisation has reached the form.
-**Duplicate bindings so far:** 5≡4, 8≡7, 10≡9, 13≡12.
+**Duplicate bindings so far:** 5≡4, 8≡7, 10≡9, 13≡12, 16≡15.
 
 ## Why this volume was opened first
 
@@ -75,4 +75,17 @@ spelled by ear. The archive now holds three spellings of one place and says so.
 | 14L (atto 16) | 24 May | Angela Macariello, 37, contadina, strada Croce | Pasquale Macariello, contadino, & fu Domenica Martone | — | Agostino Marrone 40 contadino, strada Croce; Domenico Sposito 51 **panettiere** |
 | **14R (atto 17)** | 10 Jun | Antonio Cioffi, 17 days, **strada Cioffi** | **RAFFAELE CIOFFI**, contadino, & **«DOMENICA FALCO» — read at strip resolution only, NOT enlarged, and therefore a hypothesis, not a finding** | — | Domenico Cioffi 70 **guarnitore**, strada Cioffi; Sabatino Cioffi 34 contadino, strada Cioffi |
 
-**Images 15–44 are unread.** Chiara Rivetti's act, if it is here, is in that stretch.
+| 15L (atto 18) | 19 Apr | Vincenza Migliore, 7 months, strada Croce | Stanislao Migliore, **guarniciere**, & fu Angela Zimbardo | — | Arcangelo Zimbardo 57 contadino, strada Croce; Carlantonio Migliore 57 contadino |
+| **15R (atto 19)** | 19 Apr | **Anna Zimbardo, 80, contadina, strada Camellara** — a NEAR MISS, recorded so nobody chases it twice | fu **Nicola** Zimbardo, contadino, & fu Rosa Cimmino | ved. **Pasquale** Cimmino | Pietro Mauro 44 sartore, **strada Camellara**; Raffaele Mauro 34 vaticale, **strada Camellara** |
+| 16L / 16R | — | *duplicate binding — acts 18 and 19 repeated* | | | |
+
+## A near miss worth recording
+
+**Atto 19 is not Chiara Rivetti, and it is close enough to be worth saying so.** Chiara's Latin
+burial entry reads *«uxor quondam PASCHALIS Falco, filia quondam NICOLAI et Anna, aetatis suae
+annorum OCTOGINTA»*. Atto 19 buries **Anna Zimbardo, eighty**, of **strada Camellara**, *«vedova di
+PASQUALE Cimmino, figlia di NICOLA Zimbardo e Rosa Cimmino»*. Same street, same age, a Pasquale for
+a husband and a Nicola for a father — and the wrong surnames throughout. It is a coincidence, and it
+is logged here so that the next reader does not spend an hour on it.
+
+**Images 17–44 are unread.** Chiara Rivetti's act, if it is here, is in that stretch.
