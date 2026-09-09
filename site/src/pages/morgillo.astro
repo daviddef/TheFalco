@@ -1,0 +1,135 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import register from "../data/register.json";
+
+const all = register.filter((r) => r.surname === "MORGILLO");
+const byYear = {};
+for (const r of all) {
+  const y = (r.year || "").slice(0, 4);
+  if (/^18\d\d$/.test(y)) byYear[y] = (byYear[y] || 0) + 1;
+}
+const years = Object.keys(byYear).sort();
+
+// The Monticello de' Cappuccini house
+const monticello = [
+  ["Angelo Morgillo", "b. c. 1758", "colono", "strada Cappuccini", "Alive and declaring, 31 October 1828, aged seventy. Almost certainly the father of Nicola and Vincenzo, and of Saveria."],
+  ["Nicola Morgillo", "b. c. 1794", "contadino", "Monticello de' Cappuccini", "34 in 1828. Married Maria Majone; their eight-year-old Raffaele died in May 1828. He declares his brother's child's death as «zio della defunta»."],
+  ["Vincenzo Morgillo", "b. c. 1797", "contadino", "Monticello de' Cappuccini", "29 in May 1828, 32 in December. Married Felicetta Rivetti; their one-year-old Grazia died on 30 October 1828."],
+  ["Saveria Morgillo", "b. c. 1779, d. 29 Nov 1827", "contadina", "strada Rejola", "«figlia di ANGELO MORGILLO». Married Carlantonio Porrino; buried a fourteen-month-old Raffaele in September 1826."],
+];
+
+// The strada Nuova di San Gaetano house
+const gaetano = [
+  ["Angelo Morgillo", "b. c. 1768, d. 4 Oct 1826", "contadino", "strada Nuova di San Gaetano", "«figlio di AMORE MORGILLO e di CATERINA LAUDATO». Married Marianna di Silvio. His son Biagio declared his death."],
+  ["Biagio Morgillo", "b. c. 1796", "contadino", "strada Nuova di San Gaetano", "30 in 1826, when he declares his father's death as «figlio del defunto». Married Vincenza Vece; their 26-month-old Clementina died in March 1828."],
+  ["Antonio Morgillo", "b. c. 1801", "contadino", "strada San Gaetano", "27 in March 1828, declaring his niece's death as «parente»."],
+  ["Domenico Morgillo", "b. c. 1803", "contadino", "strada San Gaetano", "25 in September 1828, declaring as «parente»."],
+  ["Simone Morgillo", "b. c. 1804", "contadino", "strada San Gaetano", "24 in March 1828, declaring as «parente»."],
+];
+
+// The generation whose parents the registers name
+const elders = [
+  ["Grazia Morgillo", "c. 1741 – 20 May 1826", "fu Nicola Morgillo & fu Orsola Diglio", "m. Giacinto Migliore"],
+  ["Anna Morgillo", "c. 1743 – 3 Sep 1828", "fu Nicola Morgillo & fu Rosolina Bruno", "ved. Sabato Cossi"],
+  ["Ovidia Morgillo", "c. 1736 – 14 Jun 1826", "fu Gennaro Morgillo & fu Maddalena d'Ambrosio", "ved. Raffaele — or Pasquale — Diglio"],
+  ["Vittoria Morgillo", "c. 1798 – 4 Sep 1828", "fu Giuseppe Morgillo & Gelsomina Rivetti", "—"],
+];
+---
+<Base title="Morgillo"
+      eyebrow="The house the line married into"
+      dek={`${all.length} Morgillo are recorded in this archive. Until 2026 almost none of them were joined to each other. The Arienzo death registers of 1826, 1827 and 1828, read act by act, put two Morgillo households on the ground for the first time.`}>
+
+  <h2>Why the Morgillo matter</h2>
+  <p><strong>Raffaele Falco, generation four, married Angela Rosa Morgillo</strong> — born at San Felice
+  on 24 February 1818, daughter of Orazio, dead at Arienzo six days before her husband in April 1880.
+  That marriage is the second of the two welds that make this family: the Crisci married in twice in
+  generation two, the Morgillo once in generation four.</p>
+  <p>But Angela Rosa arrived from outside. <strong>Orazio Morgillo's own house has never been
+  reconstructed</strong>, and until the 1826–28 registers were read, the Morgillo of Arienzo were a
+  scatter of names with no households behind them. They are now two houses, a hamlet and a street.</p>
+
+  <h2>The house on Monticello de' Cappuccini</h2>
+  <p>A hamlet on the hill above the town, beside the Capuchin convent. Its Morgillo and its Rivetti
+  declare each other's deaths again and again.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Name</th><th>Dates</th><th>Trade</th><th>Where</th><th>What the register says</th></tr></thead>
+    <tbody>{monticello.map(([n,d,t,w,e]) => (
+      <tr><td><strong>{n}</strong></td><td class="small mono">{d}</td><td class="small">{t}</td>
+        <td class="small">{w}</td><td class="small">{e}</td></tr>))}</tbody>
+  </table></div>
+  <p><strong>Nicola and Vincenzo are proved brothers</strong> by a single word: on 31 October 1828
+  Nicola declares the death of Vincenzo's one-year-old daughter as <em>«zio della defunta»</em> — her
+  uncle. Angelo, seventy and a <em>colono</em> of the same hamlet, declares beside him.</p>
+
+  <h2>The house on strada Nuova di San Gaetano</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Name</th><th>Dates</th><th>Trade</th><th>Where</th><th>What the register says</th></tr></thead>
+    <tbody>{gaetano.map(([n,d,t,w,e]) => (
+      <tr><td><strong>{n}</strong></td><td class="small mono">{d}</td><td class="small">{t}</td>
+        <td class="small">{w}</td><td class="small">{e}</td></tr>))}</tbody>
+  </table></div>
+  <p>Antonio, Domenico and Simone all declare for Biagio's household as <em>parenti</em>, all live on
+  the same street and all are within eight years of him. <strong>They are very probably his
+  brothers</strong> — but no act says so, and this archive does not say so either.</p>
+
+  <h2>Two men called Angelo Morgillo</h2>
+  <p>This mattered more than it looks. In November 1827 <strong>Saveria Morgillo, forty-eight</strong>,
+  died <em>«figlia di ANGELO MORGILLO»</em>. The only Angelo Morgillo then in the archive was the man
+  buried in October 1826, given as <strong>fifty-eight</strong> — which would have made him
+  <strong>eleven</strong> at her birth. The archive recorded the impossibility rather than explain it
+  away.</p>
+  <p>The 1828 register resolves it. On 31 October a <strong>second Angelo Morgillo, seventy, a
+  <em>colono</em> of strada Cappuccini</strong>, walks into the town hall alive. Born about 1758, he is
+  twenty-one at Saveria's birth. <strong>There are two men of that name</strong>, one on the hill and
+  one on San Gaetano, and the age conflict was the evidence for it.</p>
+
+  <h2>The generation the registers name backwards</h2>
+  <p>Four Morgillo women died old enough that their acts name parents born in the seventeen-twenties and
+  thirties — the deepest the civil series reaches for this surname.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Name</th><th>Dates</th><th>Parents</th><th>Married</th></tr></thead>
+    <tbody>{elders.map(([n,d,p,m]) => (
+      <tr><td><strong>{n}</strong></td><td class="small mono">{d}</td><td class="small">{p}</td>
+        <td class="small">{m}</td></tr>))}</tbody>
+  </table></div>
+  <p><strong>Two Nicola Morgillo and a Gennaro</strong> stand at the head of these, all dead before 1826.
+  <em>Amore Morgillo</em>, father of the Angelo of San Gaetano, is the strangest forename in the whole
+  archive and ought to be findable in the parish books.</p>
+
+  <h2>Two d'Addio women married two Morgillo men</h2>
+  <p><strong>Rosa d'Addio</strong>, seventy, widow of <strong>Biagio Morgillo</strong>, died in the
+  Ospedale di Ave Gratia Plena on 23 May 1828. <strong>Mariantonia d'Addio</strong>, thirty-one, a
+  <em>filatrice</em> of strada Capodichina and wife of <strong>Pellegrino Morgillo</strong>, was
+  murdered in the spring of 1827 — her body found buried in a wood, her face disfigured, part of the
+  skull gone. The Royal Magistrate's own letter about it is sewn into the 1827 death register, asking
+  the sindaco for a copy of the act <em>«per allegarla ad un processo criminale»</em>.
+  <a href={u("/documents")}>The letter is on the Documents page.</a></p>
+
+  <h2>Carlantonio Morgillo, three times over</h2>
+  <p>There are <strong>at least three men called Carlantonio Morgillo</strong> alive in Arienzo in the
+  eighteen-twenties: one of strada Capodiuomo who married Anna Arrigale, one of strada Capodichina aged
+  thirty in 1828, and one of <strong>strada Camellara aged forty-six in 1826</strong>. The last of these
+  is the one that matters — on <strong>28 October 1826</strong> he signed a death act
+  <strong>beside Giuseppe Falco</strong>, both forty-six, both of Camellara. It is the first act in the
+  whole Arienzo series in which a Falco and a Morgillo stand together, twenty-odd years before the two
+  houses married.</p>
+
+  <h2>Every Morgillo this archive holds</h2>
+  <p class="small">{all.length} entries. Most are not kin to this family and are here because they were
+  found. <a href={u("/register") + "?q=Morgillo"}>Open them in the register →</a></p>
+  <div class="scroll"><table>
+    <thead><tr><th>Year</th><th>Entries</th></tr></thead>
+    <tbody>{years.map((y) => (<tr><td class="mono">{y}</td><td class="mono">{byYear[y]}</td></tr>))}</tbody>
+  </table></div>
+
+  <h2>What would settle the rest</h2>
+  <ul>
+    <li><strong>Orazio Morgillo of San Felice.</strong> Angela Rosa's father. San Felice a Cancello is a
+    separate comune with its own registers, none of which this archive has read.</li>
+    <li><strong>The Arienzo marriage registers.</strong> A marriage act names both fathers. One would
+    join the Monticello brothers to Angelo, and the San Gaetano brothers to Biagio, in a line of print.</li>
+    <li><strong>Amore Morgillo.</strong> A forename that rare should be traceable in the parish books
+    back into the seventeen-hundreds.</li>
+  </ul>
+</Base>
