@@ -331,6 +331,36 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "«sono comparsi PASQUALE FALCO, di anni cinquantacinque, di professione COLONO, regnicolo, domiciliato in questo comune, strada Camellara, vicino del defunto, e GIUSEPPE FALCO, di anni quarantadue, di professione colono, domiciliato ivi strada Camellara» — atto 8. THE ONLY RECORD IN WHICH PASQUALE FALCO ACTS FOR HIMSELF. Every other sighting has him named by somebody else: on his children's acts, or on his own death act of 1834. Here he walks into the town hall with his brother Giuseppe and reports a neighbour's child dead. He is fifty-five, which against his baptism of 24 October 1767 is one year out — ordinary. And his trade is given as COLONO, a tenant farmer, where his death act of 1834 calls him contadino.",
     "ark": "ANTENATI an_ua14326 img9l atto8"
+   },
+   {
+    "household": "Pasquale Falco & Chiara Rivetti",
+    "person": "Maria Falco",
+    "role": "child",
+    "event": "death",
+    "date": "25 Apr 1826",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«è morta nella sua propria casa MARIA FALCO d'anni TRENTADUE, moglie di ALFONSO DIGLIO, nata in Arienzo, di professione Contadina, domiciliata ivi, FIGLIA DI PASQUALE FALCO, di professione Contadino, domiciliato ivi, E DI CHIARA RIVETTI, domiciliata ivi» — atto 22. A SECOND DAUGHTER OF GENERATION TWO, and a sister of Vincenzo Falco and of Anna Falco. Aged thirty-two, so born about 1794 — which sits between, and matches neither of, the two Maria Falco baptisms of 1789 and 1790 in this house. Either an age given loosely, or a third daughter of the name.",
+    "ark": "ANTENATI an_ua14328 img13l atto22"
+   },
+   {
+    "household": "Pasquale Falco & Chiara Rivetti",
+    "person": "Pasquale Falco",
+    "role": "father",
+    "event": "—",
+    "date": "living 25 Apr 1826",
+    "place": "Arienzo",
+    "evidence": "Named without «fu» in his daughter Maria's death act, and still a CONTADINO. The second civil sighting of him alive between his 1780s marriage and his death on 1 October 1834; the first is Anna's act of August 1820.",
+    "ark": "ANTENATI an_ua14328 img13l atto22"
+   },
+   {
+    "household": "Pasquale Falco & Chiara Rivetti",
+    "person": "Chiara Rivetti",
+    "role": "mother",
+    "event": "—",
+    "date": "living 25 Apr 1826",
+    "place": "Arienzo",
+    "evidence": "Named without «fu» in her daughter Maria's death act — alive in April 1826, seventeen years before her Latin burial entry of 1843.",
+    "ark": "ANTENATI an_ua14328 img13l atto22"
    }
   ]
  },
@@ -661,6 +691,26 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "«è morto nella sua propria casa CLEMENTE FALCO, di mesi QUINDICI, nato in Arienzo, di professione contadino, domiciliato ivi strada Camellara, figlio di GIUSEPPE FALCO, di professione contadino, e di ANTONIA DI GUIDA» — born about March 1824, a child of this house the archive did not have. HE DIED NINETEEN DAYS AFTER HIS SISTER MADDALENA, who was seven. Declared by MARCELLO COSSI, 35, and ANIELLO DIGLIO, 50, both of strada Camellara — Diglio is the same neighbour who stood with Giuseppe in April, when he was given as forty-six.",
     "ark": "ANTENATI an_ua14327 img20l"
+   },
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Giuseppe Falco",
+    "role": "father",
+    "event": "—",
+    "date": "9 Aug 1826",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«e GIUSEPPE FALCO, di anni QUARANTASEI, di professione MASSARO, regnicolo, domiciliato in strada Camellara, vicino del Defunto» — declaring atto 56, the death of Giuseppe Cossi, two, son of Gaspare Cossi and Maria Sposito. Aged 46, so born about 1780; he was 37 and «massaro di campagna» on the same street in October 1817.",
+    "ark": "ANTENATI an_ua14328 img32l atto56"
+   },
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Giuseppe Falco",
+    "role": "father",
+    "event": "—",
+    "date": "28 Oct 1826",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "Declaring atto 73 TOGETHER WITH CARLANTONIO MORGILLO, 46, contadino, of the same street — the FIRST ACT IN THE WHOLE ARIENZO SERIES in which a Falco and a Morgillo stand side by side. Both are entered as «vicini», so it is not a kinship statement; it is the earliest evidence that the two houses the line would later join were already neighbours.",
+    "ark": "ANTENATI an_ua14328 img41r atto73"
    }
   ]
  },
@@ -1801,6 +1851,31 @@
     "place": "Arienzo, strada Fontana",
     "evidence": "named as his wife; no age, no parents, no children",
     "ark": "ANTENATI an_ua14325 img55r"
+   }
+  ]
+ },
+ {
+  "name": "Alfonso Diglio & Maria Falco",
+  "members": [
+   {
+    "household": "Alfonso Diglio & Maria Falco",
+    "person": "Maria Falco",
+    "role": "wife",
+    "event": "death",
+    "date": "25 Apr 1826",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«MARIA FALCO d'anni trentadue, MOGLIE DI ALFONSO DIGLIO … figlia di PASQUALE FALCO … e di CHIARA RIVETTI» — a daughter of the direct line's generation two. Declared by Angelo Sansone, 45, and Tomaso Sposito, 50, both contadini of strada Camellara, each as «vicino», not «parente».",
+    "ark": "ANTENATI an_ua14328 img13l atto22"
+   },
+   {
+    "household": "Alfonso Diglio & Maria Falco",
+    "person": "Alfonso Diglio",
+    "role": "husband",
+    "event": "—",
+    "date": "living 25 Apr 1826",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "Named as the husband in his wife's death act. A FOURTH surname married into the line's own generation two, beside Crisci (Anna) and the Falco–Morgillo weld that comes later. Nothing yet names his parents.",
+    "ark": "ANTENATI an_ua14328 img13l atto22"
    }
   ]
  }
