@@ -781,6 +781,16 @@
     "place": "Arienzo, strada Maddalena",
     "evidence": "«Carlantonio Morgillo, di anni trentatre, di professione contadino, domiciliato in questo comune, strada Maddalena» — declaring the death of GIUDITTA MORGILLO as «vicino, parente», with Matteo Migliore of San Felice. A FOURTH sighting, and it tightens the age: thirty-three in September 1817 and thirty-three again in August 1818, against thirty in February 1816 and thirty-six in October 1816. The two later readings agree on a birth about 1784–85. AND A LEAD: Giuditta is daughter of the LATE Carlantonio Morgillo and Manilia Rivetti, and this Carlantonio declares her death as kin. He is very plausibly her brother, which would give this man's own parents. The act says «parente» without saying how, so it is not asserted.",
     "ark": "ANTENATI an_ua14320 img38r"
+   },
+   {
+    "household": "Carlantonio Morgillo & Rosa Falco",
+    "person": "Carlantonio Morgillo",
+    "role": "father",
+    "event": "named as declarant",
+    "date": "20 Oct 1819",
+    "place": "Arienzo",
+    "evidence": "«Carlantonio Morgillo, di anni trentacinque, contadino» — a FIFTH sighting. Thirty-three in August 1818 and thirty-five fourteen months later: fast by a year, but the run 33 (Sept 1817), 33 (Aug 1818), 35 (Oct 1819) is broadly consistent and keeps the birth around 1784-85. The outliers remain the two 1816 readings, thirty and thirty-six.",
+    "ark": "ANTENATI an_ua14321 img32l"
    }
   ]
  },
@@ -816,6 +826,26 @@
     "place": "Arienzo, strada Costa",
     "evidence": "e nato nella sua propria casa... un maschio... a cui si e dato il nome di Domenico — born at four in the night",
     "ark": "ANTENATI an_ua14413 img59l act116"
+   },
+   {
+    "household": "Giuseppe Falco & Gelsomina Vigliotta",
+    "person": "Domenico Falco",
+    "role": "child",
+    "event": "death",
+    "date": "15 Mar 1819",
+    "place": "Arienzo",
+    "evidence": "«Domenico Falco figlio di Giuseppe Falco, e Gelsomina Vigliotta» — died at twelve o'clock, aged about two years and four months; he was born 25 November 1816. Declared by Francesco Martone, cantiniere, and Michele Bordica, 27, contadino, both «nella Camellara, vicini».",
+    "ark": "ANTENATI an_ua14321 img8l"
+   },
+   {
+    "household": "Giuseppe Falco & Gelsomina Vigliotta",
+    "person": "Rosaria Falco",
+    "role": "child",
+    "event": "death",
+    "date": "15 Mar 1819",
+    "place": "Arienzo",
+    "evidence": "«Rosaria Falco figlia di Giuseppe Falco, e Gelsomina Vigliotta» — died at twenty-three hours THE SAME DAY as her brother Domenico, eleven hours after him. No birth act has been found for her: she is not in the Arienzo birth registers of 1816, 1817 or 1818, so she was born earlier. Declared by a neighbour of strada Sossi and Francesco Martone, 47, cantiniere, of strada Camellara.",
+    "ark": "ANTENATI an_ua14321 img8r"
    }
   ]
  },
@@ -911,6 +941,16 @@
     "place": "Arienzo",
     "evidence": "named only as «Angela Falco», wife of the deceased; no age, no parents, no children named",
     "ark": "ANTENATI an_ua14318 img42l act76"
+   },
+   {
+    "household": "Crescenzo Rivetti & Angela Falco",
+    "person": "Angelandrea Rivetti",
+    "role": "child",
+    "event": "death",
+    "date": "12 Feb 1819",
+    "place": "Arienzo",
+    "evidence": "«Angelandrea Rivetti figlia del fu Crescenzo Rivetti, ed Angela Falco» — died at eight in the morning, two years and two months after her father. THE FIRST CHILD OF THIS MARRIAGE TO BE FOUND, and the second record anywhere to name Angela Falco. Declared by Arcangelo Anigale, 48, fruttajolo, and Raffaele Rivetti, 26, contadino, as «vicino e parente». Angela is named without «fu», so she was still living in February 1819.",
+    "ark": "ANTENATI an_ua14321 img5l"
    }
   ]
  },
@@ -1296,6 +1336,91 @@
     "place": "Arienzo, strada Sant'Andrea",
     "evidence": "«sono comparsi D. Giuseppe Rivetti, di anni quarantuno, di professione SACERDOTE, domiciliato in questo comune, strada Sant'Andrea» — a Rivetti priest, born about 1777. With the Donna Francesca Rivetti of January 1816, daughter of Don Nicola Rivetti and Donn'Anna Quotolo, he is the second sign of a Rivetti branch of standing at Arienzo. He is recorded as a household of one because a priest has no wife; «father» is only the schema's word for a head.",
     "ark": "ANTENATI an_ua14320 img47r"
+   }
+  ]
+ },
+ {
+  "name": "Don Giuseppe Rivetti (the elder) & Giovanna Bega",
+  "members": [
+   {
+    "household": "Don Giuseppe Rivetti (the elder) & Giovanna Bega",
+    "person": "Don Giuseppe Rivetti (the elder)",
+    "role": "father",
+    "event": "—",
+    "date": "d. before Mar 1819",
+    "place": "Arienzo",
+    "evidence": "«figlia delli fu Don Giuseppe Rivetti» — dead by March 1819, and therefore NOT the Don Giuseppe Rivetti, sacerdote, aged forty-one, who was declaring deaths in October 1818. A priest would in any case have no legitimate daughter. Two men of the name in one gentry house.",
+    "ark": "ANTENATI an_ua14321 img10l"
+   },
+   {
+    "household": "Don Giuseppe Rivetti (the elder) & Giovanna Bega",
+    "person": "Giovanna Bega",
+    "role": "mother",
+    "event": "—",
+    "date": "d. before Mar 1819",
+    "place": "Arienzo",
+    "evidence": "«e Giovanna Bega» — «delli fu» governs both parents",
+    "ark": "ANTENATI an_ua14321 img10l"
+   },
+   {
+    "household": "Don Giuseppe Rivetti (the elder) & Giovanna Bega",
+    "person": "Suor Maria Maddalena Rivetti",
+    "role": "child",
+    "event": "death",
+    "date": "30 Mar 1819",
+    "place": "Arienzo",
+    "evidence": "«Suor Maria Maddalena Rivetti figlia delli fu Don Giuseppe Rivetti, e Giovanna Bega» — a nun, died at twenty-two hours. The third and clearest sign of a Rivetti house of standing at Arienzo, beside Donna Francesca Rivetti of 1816, the apothecary Don Giovanbattista, and the priest Don Giuseppe.",
+    "ark": "ANTENATI an_ua14321 img10l"
+   }
+  ]
+ },
+ {
+  "name": "Francesco Quotolo & Vittoria di Guida",
+  "members": [
+   {
+    "household": "Francesco Quotolo & Vittoria di Guida",
+    "person": "Francesco Quotolo",
+    "role": "father",
+    "event": "—",
+    "date": "—",
+    "place": "Arienzo, strada Maddalena",
+    "evidence": "«figlio di Francesco Quotolo» — the living Francesco Quotolo of strada Maddalena, not the late husband of Maria Falco",
+    "ark": "ANTENATI an_ua14321 img29r"
+   },
+   {
+    "household": "Francesco Quotolo & Vittoria di Guida",
+    "person": "Vittoria di Guida",
+    "role": "mother",
+    "event": "—",
+    "date": "—",
+    "place": "Arienzo, strada Maddalena",
+    "evidence": "«e Vittoria di Guida» — a Quotolo–di Guida marriage on the same street",
+    "ark": "ANTENATI an_ua14321 img29r"
+   },
+   {
+    "household": "Francesco Quotolo & Vittoria di Guida",
+    "person": "Angelo Quotolo",
+    "role": "child",
+    "event": "death",
+    "date": "6 Sep 1819",
+    "place": "Arienzo",
+    "evidence": "«Angelo Quotolo figlio di Francesco Quotolo, e Vittoria di Guida» — died at eleven",
+    "ark": "ANTENATI an_ua14321 img29r"
+   }
+  ]
+ },
+ {
+  "name": "Giuseppe di Guida (strada Maddalena)",
+  "members": [
+   {
+    "household": "Giuseppe di Guida (strada Maddalena)",
+    "person": "Giuseppe di Guida",
+    "role": "father",
+    "event": "named as declarant",
+    "date": "6 Sep 1819",
+    "place": "Arienzo, strada Maddalena",
+    "evidence": "«e di Giuseppe di Guida, di anni sessantotto, di professione massaro di campagna, domiciliato in questo comune, strada Maddalena» — born about 1751. A LEAD: a Giuseppe di Guida is named in October 1817 as the father of Angelo Andrea di Guida by Michedalena Rivetti, and Giuseppe Falco of strada Camellara married an ANTONIA DI GUIDA. A man of sixty-eight in 1819 is the right age to be father to both. Nothing here names Antonia, so it is not asserted.",
+    "ark": "ANTENATI an_ua14321 img29r"
    }
   ]
  }
