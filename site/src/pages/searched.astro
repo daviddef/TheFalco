@@ -37,6 +37,9 @@ const READ = [
   { kind: "Deaths", year: "1817", ark: "an_ua14319", imgs: 89, falco: 3,
     found: "THE BURIAL OF THE FIRST RAFFAELE FALCO, 28 October — son of Vincenzo and Andreana, aged about eighteen months, declared by Giuseppe Falco of strada Camellara as a «parente». Also Maria Falco, 24 July, daughter of a Giuseppe Falco and Rosa Sossi neither of them known before; and, in the 1818 acts bound at the back, Angela Majone, daughter of a second Maria Falco.",
     note: "The volume that answered the archive's largest open question. Nearly twice the size of 1816 because 1817 was the famine year after Tambora — whole households die within days of each other." },
+  { kind: "Deaths", year: "1818", ark: "an_ua14320", imgs: 55, falco: 0,
+    found: "No Falco died. But Giuseppe Falco of strada Camellara declares again on 8 May — thirty-six, contadino — four weeks before his own daughter's birth act gives exactly the same age, trade and street, which proves the five sightings are one man. Also a SECOND Carlantonio Morgillo, older and already dead; an Orazio Morgillo of the right age to be Angela Rosa's father; and Don Giuseppe Rivetti, a priest.",
+    note: "Its first eleven images are a second original of acts the 1817 volume already held — two clerks who disagree in detail, which caught a misreading in this archive's own notes." },
   { kind: "Births", year: "1816", ark: "an_ua14413", imgs: 66, falco: 2,
     found: "Raffaele Falco, 25 April, son of Vincenzo Falco and Andreana Crisci. Domenico Falco, 25 November, son of a DIFFERENT Giuseppe Falco and Gelsomina Vigliotta, of strada Costa.",
     note: "The 1816 Raffaele unsettled generation four for a time; the 1817 death register has since closed it. The register ran to 123 acts; all 122 fathers read are logged." },
@@ -82,11 +85,11 @@ const totalFalco = READ.reduce((a, r) => a + r.falco, 0);
 ---
 <Base title="What has been read"
       eyebrow="Coverage, including the years that held nothing"
-      dek={`Thirteen annual registers read page by page — ${totalImgs} images, some two thousand acts, ${totalFalco} Falco. This page exists so that a null is not lost: knowing a volume has been read and held nothing is worth as much as knowing what it held.`}>
+      dek={`Fourteen annual registers read page by page — ${totalImgs} images, some two thousand acts, ${totalFalco} Falco. This page exists so that a null is not lost: knowing a volume has been read and held nothing is worth as much as knowing what it held.`}>
 
   <div class="card" style="border-left:3px solid var(--accent)">
     <p><strong>Why record the negatives.</strong> A family archive that only publishes its finds
-    invites the next person to repeat every search that failed. Four of the thirteen volumes below
+    invites the next person to repeat every search that failed. Five of the fourteen volumes below
     contained no Falco deceased at all, and two of those nulls overturned or unsettled something this
     archive had been relying on. Every one of these years is logged act by act in the
     <a href={REPO + "/tree/main/notes"}>reading logs</a>, with each father's age, trade and street.</p>
@@ -119,13 +122,13 @@ const totalFalco = READ.reduce((a, r) => a + r.falco, 0);
   ))}
 
   <h2>Still to read</h2>
-  <p class="dek">The Arienzo death register for <strong>1818</strong> — of which the first
-  twenty-two acts, to 27 February, are already read: the 1817 volume carries them at the back. Then
-  the death registers for <strong>1837–1843</strong>, the birth registers before 1816 and after
-  1818, and the <em>processetti</em>, 258 volumes across four towns, of which none have been read.</p>
-  <p class="small"><strong>1816 and 1817 have now been read in full, and they closed the question
-  they were opened for:</strong> the Raffaele Falco born in April 1816 was buried on 28 October 1817,
-  so the Raffaele born in May 1818 is generation four.</p>
+  <p class="dek">The Arienzo death registers for <strong>1819–1828</strong> and
+  <strong>1837–1843</strong>, the birth registers before 1816 and after 1818, and the
+  <em>processetti</em>, 258 volumes across four towns, of which none have been read.</p>
+  <p class="small"><strong>1816, 1817 and 1818 have now been read in full, and they closed the
+  question they were opened for:</strong> the Raffaele Falco born in April 1816 was buried on 28
+  October 1817, so the Raffaele born in May 1818 is generation four. Across the three years the
+  Falco dead are: none in 1816, Maria Falco and the infant Raffaele in 1817, none in 1818.</p>
   <p class="small">One qualification on the table above, stated rather than hidden: for the 1816
   death register, images 3–39 were read in full <em>for Falco</em> — and the Falco answer is firm —
   but the act-by-act roster of the other families in that stretch was not written down at the time.
