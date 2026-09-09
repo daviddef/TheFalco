@@ -601,6 +601,16 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "«e GIUSEPPE FALCO FU MATTEO, di anni quarantatre, di professione Contadino, regnicolo, domiciliato strada Camellara» — THE FIRST CIVIL RECORD TO STATE HIS PARENTAGE OUTRIGHT. The clerk adds «fu Matteo» to tell him from the other Giuseppe Falco of the town, and in doing so confirms from the civil series what the archive previously had only from the parish books: this Giuseppe is a son of the late Matteo Falco. Forty-three here, so born about 1780 — which agrees with the thirty-seven he gives in October 1817. He declares with Cesare Giglio, 50, of the same street, at the death of Maria Crisci, three years old, daughter of Marcello Crisci and Maria Rosa Mauro.",
     "ark": "ANTENATI an_ua14325 img20r"
+   },
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Giuseppe Falco",
+    "role": "father",
+    "event": "named as declarant",
+    "date": "20 Jun 1823",
+    "place": "Arienzo, strada Sant'Andrea",
+    "evidence": "«sono comparsi GIUSEPPE FALCO FU MATTEO, di anni quarantadue, di professione Contadino, domiciliato in questo comune, strada Sant'Andrea, vicino della defunta» — atto 39, the SECOND «fu Matteo» sighting in two days, at the death of Antonia Cossi, nine months old, daughter of Francesco Cossi and a MARIA FALCO. TWO CAUTIONS. He is forty-two here and forty-three the day before, from the same clerk — a plain measure of how loosely these ages are kept. And he is given here on STRADA SANT'ANDREA where the day before he is on strada Camellara: in this form a declarant described as «vicino» is recorded at the street of the house where the death happened, so a declarant's street is NOT reliable evidence of where he himself lived.",
+    "ark": "ANTENATI an_ua14325 img21r atto39"
    }
   ]
  },
@@ -966,6 +976,26 @@
     "place": "Arienzo",
     "evidence": "«Crescenzo Rivetti figlio del fu Pasquale Rivetti e di Giovanna Perrotta, marito di Angela Falco» — died at 11 in the morning; no age recorded",
     "ark": "ANTENATI an_ua14318 img42l act76"
+   },
+   {
+    "household": "Pasquale Rivetti & Giovanna Perrotta",
+    "person": "Paolo Rivetti",
+    "role": "child",
+    "event": "death",
+    "date": "9 Oct 1823",
+    "place": "Arienzo, strada Fontana",
+    "evidence": "«è morto nella sua propria casa PAOLO RIVETTI, di anni cinquanta, marito di ANGELA ESPOSITELLA, nato in Arienzo, di professione Contadino, domiciliato ivi strada Fontana, figlio di PASQUALE RIVETTI Defunto, di professione contadino, e di GIOVANNA PERROTTA, domiciliata ivi» — the same couple named as CRESCENZO RIVETTI's parents in the act of 1 December 1816. So Paolo is Crescenzo's BROTHER, and therefore Angela Falco's brother-in-law. Born about 1773. Declared by GIOVANNI RIVETTI, 23, POSSIDENTE of strada Capodiuomo, as «NIPOTE» — nephew — which ties the propertied Rivetti of that street to this family.",
+    "ark": "ANTENATI an_ua14325 img55r"
+   },
+   {
+    "household": "Pasquale Rivetti & Giovanna Perrotta",
+    "person": "Giovanna Perrotta",
+    "role": "mother",
+    "event": "named as living",
+    "date": "9 Oct 1823",
+    "place": "Arienzo",
+    "evidence": "«e di GIOVANNA PERROTTA, domiciliata ivi» — named WITHOUT «fu» on her son Paolo's death act, so still alive in October 1823, seven years after her son Crescenzo's death.",
+    "ark": "ANTENATI an_ua14325 img55r"
    }
   ]
  },
@@ -1621,6 +1651,66 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "«MARIA CRISCI, di anni tre, nata in Arienzo, di professione contadina» — declared by Cesare Giglio and GIUSEPPE FALCO FU MATTEO, both of strada Camellara",
     "ark": "ANTENATI an_ua14325 img20r"
+   }
+  ]
+ },
+ {
+  "name": "Francesco Cossi & Maria Falco",
+  "members": [
+   {
+    "household": "Francesco Cossi & Maria Falco",
+    "person": "Francesco Cossi",
+    "role": "father",
+    "event": "—",
+    "date": "living Jun 1823",
+    "place": "Arienzo, strada Sant'Andrea",
+    "evidence": "«figlia di FRANCESCO COSSI, di professione contadino, domiciliato ivi» — named without «fu», so living",
+    "ark": "ANTENATI an_ua14325 img21r atto39"
+   },
+   {
+    "household": "Francesco Cossi & Maria Falco",
+    "person": "Maria Falco",
+    "role": "mother",
+    "event": "—",
+    "date": "living Jun 1823",
+    "place": "Arienzo, strada Sant'Andrea",
+    "evidence": "«e di MARIA FALCO, domiciliata ivi» — A LIVING MARIA FALCO in 1823, and therefore a third woman of the name. She is not the Maria Falco buried on 24 July 1817 (daughter of Giuseppe Falco and Rosa Sossi, widow of Francesco Quotolo), nor the Maria Falco who was already dead in February 1818 as the mother of Angela Majone. Her own parents are not named here. The declarant is GIUSEPPE FALCO FU MATTEO, who gives himself as a «vicino» and not as kin — so nothing in the act joins her to the line.",
+    "ark": "ANTENATI an_ua14325 img21r atto39"
+   },
+   {
+    "household": "Francesco Cossi & Maria Falco",
+    "person": "Antonia Cossi",
+    "role": "child",
+    "event": "death",
+    "date": "20 Jun 1823",
+    "place": "Arienzo, strada Sant'Andrea",
+    "evidence": "«ANTONIA COSSI, di mesi nove, nata in Arienzo» — atto 39, died at fifteen hours",
+    "ark": "ANTENATI an_ua14325 img21r atto39"
+   }
+  ]
+ },
+ {
+  "name": "Paolo Rivetti & Angela Espositella",
+  "members": [
+   {
+    "household": "Paolo Rivetti & Angela Espositella",
+    "person": "Paolo Rivetti",
+    "role": "father",
+    "event": "death",
+    "date": "9 Oct 1823",
+    "place": "Arienzo, strada Fontana",
+    "evidence": "«marito di ANGELA ESPOSITELLA» — brother of Crescenzo Rivetti, who married Angela Falco",
+    "ark": "ANTENATI an_ua14325 img55r"
+   },
+   {
+    "household": "Paolo Rivetti & Angela Espositella",
+    "person": "Angela Espositella",
+    "role": "mother",
+    "event": "widowed",
+    "date": "9 Oct 1823",
+    "place": "Arienzo, strada Fontana",
+    "evidence": "named as his wife; no age, no parents, no children",
+    "ark": "ANTENATI an_ua14325 img55r"
    }
   ]
  }
