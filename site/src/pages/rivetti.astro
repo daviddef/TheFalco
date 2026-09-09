@@ -1,0 +1,130 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import register from "../data/register.json";
+const rows = register.filter((r) => (r.surname || "").toUpperCase() === "RIVETTI");
+const swept = rows.filter((r) => r.kind === "swept").length;
+---
+<Base title="Rivetti"
+      eyebrow="Generation two married a Rivetti"
+      dek="Chiara Rivetti, who outlived Pasquale Falco by nine years — and the two Rivetti families of Arienzo, one of them gentry, that the archive spent five years telling apart.">
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>Chiara Rivetti was the oldest open question this archive had</strong>, and closing it in
+    2026 was the single biggest find of the register sweeps. She still had no page. This is it.</p>
+  </div>
+
+  <h2>Chiara Rivetti</h2>
+  <p class="lede">She married <strong>Pasquale Falco</strong> in the 1780s and was still alive on
+  <strong>strada Camellara</strong> when he died there on 1 October 1834. She outlived him by nearly
+  nine years, and died in her own house at eight in the evening on <strong>3 September 1843</strong>,
+  aged eighty.</p>
+
+  <blockquote>
+    <p>…è morta nella sua propria casa <strong>CHIARA RIVETTI VEDOVA DI PASQUALE FALCO</strong>, nata
+    in Arienzo, di anni <strong>OTTANTA</strong>, di professione <strong>CONTADINA</strong>, domiciliata
+    ivi, <strong>figlia di NICOLA RIVETTI Defunto, di professione CONTADINO</strong>, domiciliato ivi,
+    <strong>e di ANNA DI RUGGIO Defunta</strong>, domiciliata ivi.</p>
+  </blockquote>
+  <p class="small">Arienzo, Morti 1843, atto 43. Two Cioffi of strada Camellara walked to the town hall
+  to report it. Plate on the <a href={u("/documents")}>Documents</a> page.</p>
+
+  <h2>Why one word in that act mattered so much</h2>
+  <p>Her Latin burial entry called her only <em>«filia quondam NICOLAI et ANNA»</em> — daughter of the
+  late Nicola and Anna. <strong>Two Arienzo couples answered to that.</strong></p>
+  <div class="scroll"><table>
+    <thead><tr><th>Couple</th><th>Who they were</th><th>What the archive did</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Don NICOLA RIVETTI</strong> × <strong>Donn'Anna Quotolo</strong></td>
+        <td><strong>Gentry.</strong> She died on 25 April 1824, aged eighty-eight, a <em>gentildonna</em>
+        of strada Croce dell'Ospedale, daughter of the late <strong>Silvestro Quotolo,
+        possidente</strong>. Their daughter <strong>Donna Francesca Rivetti</strong> died in January
+        1816, wife of <strong>Don Claudio Cimmino</strong>.</td>
+        <td>Ruled out.</td></tr>
+      <tr><td><strong>NICOLA RIVETTI, <em>contadino</em></strong> × <strong>Anna di Ruggio</strong></td>
+        <td><strong>Day-labourers.</strong> Named in the 1821 death act of their son <strong>Carmine
+        Rivetti</strong>, buried at fifty-three from <strong>strada Monticello de' Cappuccini</strong>.</td>
+        <td><strong>Chiara's parents.</strong> The 1843 act writes her father's trade out —
+        <em>contadino</em> — and that single word decides it.</td></tr>
+    </tbody>
+  </table></div>
+  <p>The archive had preferred the labouring couple for years, on the reasoning that Chiara married a
+  <em>contadino</em> and lived among day-labourers — <strong>and refused to claim it, because a
+  preference is not a record</strong>. It waited for the word. <strong>And it makes CARMINE RIVETTI,
+  buried in 1821 at fifty-three, her brother</strong>, born about 1768.</p>
+
+  <h2>The other Rivetti of Arienzo — the ones with the Don</h2>
+  <p>The gentry Rivetti are worth knowing precisely so that nobody mistakes them for Chiara's people.
+  They are a different family in the same town, and the registers keep them apart with an honorific.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Who</th><th>What the register says</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Don GIOVANBATTISTA RIVETTI</strong></td>
+        <td><em>«FARMACISTA»</em> — <strong>the apothecary</strong>. Married Donna Caterina Espositella,
+        a <em>gentildonna</em> of strada Porta di Sopra. Their three-year-old son Raffaele Ottaviano is
+        entered as a <em>gentiluomo</em>.</td></tr>
+      <tr><td><strong>Don Giuseppe Rivetti</strong> the elder × Giovanna Bega</td>
+        <td>Both dead before March 1819.</td></tr>
+      <tr><td><strong>Don Nicola Rivetti</strong> × Donn'Anna Quotolo</td>
+        <td>See above. She was eighty-eight at her death in 1824.</td></tr>
+      <tr><td>A Rivetti in a marriage record</td>
+        <td>Styled <em><strong>Doctoris Physici</strong></em> — a physician.</td></tr>
+    </tbody>
+  </table></div>
+  <p class="small"><strong>An apothecary, a physician and three Don in one surname</strong>, alongside
+  a household of <em>contadini</em> who buried their dead from Monticello de' Cappuccini. Same name,
+  same parish, two worlds.</p>
+
+  <h2>A Rivetti married a Falco daughter too</h2>
+  <p><strong>Crescenzo Rivetti</strong> married <strong>Angela Falco</strong> — a daughter of
+  <strong>Matteo Falco and Francesca Crisci</strong>, so a sister of Pasquale of generation two.
+  Their daughter Angelandrea Rivetti died on 12 February 1819. When Crescenzo died in December 1816,
+  <strong>Gioacchino Falco (36) and Giuseppe Falco (32), both of strada Camellara, declared it as
+  «parenti del defunto»</strong> — they were his wife's brothers, and that stated word is what makes
+  Gioacchino a candidate fifth child of the founding couple.</p>
+  <p><strong>So the two names cross in both directions in the founding generation</strong>: Chiara
+  Rivetti marries in, Angela Falco marries out.</p>
+
+  <h2>The Rivetti on the ground, 1816–1843</h2>
+  <p>{swept} of these {rows.length} records were read off the death registers line by line. What they
+  show is a family spread across Arienzo — <strong>Monticello de' Cappuccini</strong>, Via Nuova,
+  Capodiuomo, Sant'Andrea, San Giuseppe, and <strong>strada Camellara</strong> itself.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Who</th><th>What the act says</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Alessio Rivetti</strong> × <strong>Orsola Diglio</strong>, strada Camellara</td>
+        <td><strong>Wife and daughter dead on the same day.</strong> Grazia Rivetti, nine years old, at
+        six in the morning on 28 August 1842; her mother Orsola, thirty-six, four hours earlier. The
+        same two men reported both.</td></tr>
+      <tr><td>A Rivetti of strada Camellara × <strong>Chiara Sorrino</strong></td>
+        <td><strong>Two children dead in two days</strong> — Paolo, three, on 23 August; Grazia, seven
+        months, on the 24th.</td></tr>
+      <tr><td><strong>Felicia Rivetti</strong> × <strong>Vincenzo Morgillo</strong></td>
+        <td>Died 30 January 1839 at thirty-seven, <em>«figlia di ANTONIO RIVETTI»</em>, a
+        <em>contadino</em> still living, <em>«e di Marchetta Quotolo»</em>. <strong>A Rivetti woman
+        married into a Morgillo household</strong> — the other name that flanks this line. See
+        <a href={u("/morgillo")}>Morgillo</a>.</td></tr>
+      <tr><td><strong>Angelo Rivetti</strong>, 28, <em>calzolajo</em></td>
+        <td>Declares at the death of Salvatore Rivetti, 58, <em>vaticale</em> of strada Sant'Andrea —
+        and the register calls him <em><strong>NIPOTE</strong></em>, nephew. <strong>A stated kinship,
+        not an inferred one.</strong></td></tr>
+      <tr><td><strong>Antonio Rivetti</strong>, 40, of strada Via Nuova</td>
+        <td>Reports the death of his own twenty-day-old son Paolo, and the clerk writes
+        <em><strong>PADRE</strong></em>.</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>What would move this line</h2>
+  <ul>
+    <li><strong>The marriage of Pasquale Falco and Chiara Rivetti</strong>, Arienzo, 1780s. It would
+    name all four parents at once and is the oldest document this archive is still looking for.</li>
+    <li><strong>Nicola Rivetti and Anna di Ruggio's own marriage</strong>, about 1760, which would take
+    the labouring Rivetti back another generation.</li>
+    <li><strong>Whether the two Rivetti families are one family that divided.</strong> An apothecary
+    and a day-labourer of one surname in one small town is not two families by default — but nothing
+    found so far joins them, and the archive does not assume it.</li>
+  </ul>
+
+  <p class="small" style="margin-top:1.2rem">All {rows.length} Rivetti records are listed with their
+  sources at <a href={u("/register") + "?q=Rivetti"}>the register →</a></p>
+</Base>

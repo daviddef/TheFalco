@@ -1,0 +1,99 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import register from "../data/register.json";
+const rows = register.filter((r) => (r.surname || "").toUpperCase() === "CRISCI");
+const swept = rows.filter((r) => r.kind === "swept").length;
+---
+<Base title="Crisci"
+      eyebrow="The family the Falco married eleven times"
+      dek="Generations one and three both married a Crisci. So did five Falco daughters, in the other direction — and the last of them married one in Australia.">
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>Crisci is not an in-law name. It is half the family.</strong> The archive can count
+    <strong>eleven marriages</strong> between the two surnames across roughly two hundred years — six
+    Crisci women marrying Falco men, five Falco women marrying Crisci men. It stands at the very head
+    of this line, and it is still there in the Brisbane generation. It had no page.</p>
+  </div>
+
+  <h2>Twice in the spine</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Gen</th><th>The marriage</th><th>How the archive knows</th></tr></thead>
+    <tbody>
+      <tr><td class="mono"><strong>1</strong></td>
+        <td><strong>FRANCESCA CRISCI</strong> × <strong>Matteo Falco</strong> — the founding couple</td>
+        <td>Named as the parents in <strong>three separate children's death acts</strong>: Angela in
+        1822, Rosa in 1830, Pasquale in 1834. No act names Francesca's own parents.</td></tr>
+      <tr><td class="mono"><strong>3</strong></td>
+        <td><strong>ANDREANA CRISCI</strong> × <strong>Vincenzo Falco</strong></td>
+        <td>Named as a parent of Raffaele Falco, and placed on <strong>strada Camellara</strong>.</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>And a Falco daughter married out, on the same street, in the same years</h2>
+  <p class="lede"><strong>Anna Falco</strong> — a daughter of Pasquale Falco and Chiara Rivetti, so a
+  sister of generation three — married <strong>Arcangelo Crisci</strong> and lived on
+  <strong>strada Camellara</strong>. She died there on 23 August 1820, aged twenty-five. Seven months
+  earlier the couple had buried a two-day-old son, <strong>Fortunato Crisci</strong>, on the same
+  street.</p>
+  <p>This is what closed an old question here. The archive had two men called <strong>Arcangelo
+  Crisci</strong> — one aged fifty-two and one aged thirty, both declaring births in 1817 — and could
+  not tell which was which. Anna's act settles that <em>the younger one married the line's own
+  daughter</em>. <strong>The Crisci married into this family twice in a single generation</strong>:
+  Andreana marrying in, Anna marrying out.</p>
+
+  <h2>The eleven crossings</h2>
+  <p class="small">Six Crisci women in, five Falco women out. Dates where the archive has them.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Crisci</th><th>married</th><th>Falco</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Francesca Crisci</strong></td><td class="mono">→</td><td><strong>Matteo Falco</strong> — generation one</td></tr>
+      <tr><td><strong>Andreana Crisci</strong></td><td class="mono">→</td><td><strong>Vincenzo Falco</strong> — generation three</td></tr>
+      <tr><td>Alessandra Crisci <span class="mono small">b. 1817, d. 14 Nov 1869</span></td><td class="mono">→</td><td>Matteo Falco <span class="small">(the later Matteo, b. 1810)</span></td></tr>
+      <tr><td>Andreana Crisci <span class="mono small">b. 1852</span></td><td class="mono">→</td><td>Gioacchino / Guglielmo Falco</td></tr>
+      <tr><td>Chiara Crisci</td><td class="mono">→</td><td>Pasquale Falco</td></tr>
+      <tr><td>Lelia Crisci</td><td class="mono">→</td><td>Giuseppe Falco</td></tr>
+      <tr><td colspan="3" class="small" style="background:var(--ground)"><strong>and in the other direction —</strong></td></tr>
+      <tr><td>Arcangelo Crisci</td><td class="mono">←</td><td><strong>Anna Falco</strong> <span class="mono small">d. 23 Aug 1820, strada Camellara</span></td></tr>
+      <tr><td>Aniello Crisci <span class="mono small">12 Nov 1807 – 25 Nov 1884</span></td><td class="mono">←</td><td>Giovanna Falco</td></tr>
+      <tr><td>Antonio Crisci <span class="mono small">b. 1825</span></td><td class="mono">←</td><td>Filomena Falco</td></tr>
+      <tr><td>Raffaele Crisci <span class="mono small">b. 1811</span></td><td class="mono">←</td><td>Francesca Falco <span class="mono small">1813 – 8 Jun 1876</span></td></tr>
+      <tr><td><strong>Pasquale Crisci</strong></td><td class="mono">←</td><td><strong>Costanza Falco</strong> — <em>daughter of Carminantonio and Filomena Annecchino</em></td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="card" style="margin:1.1rem 0">
+    <p><strong>The last row is the one to sit with.</strong> Costanza Falco, sister of the Carmine
+    Falco who married Francesca Zampiello, married a <strong>Pasquale Crisci</strong> — the same two
+    surnames, and one of the same forenames, that stand at the head of this line in the 1780s. Whether
+    there is any descent between the two is <strong>not known and not claimed</strong>. In a town
+    where both names were common, recurrence is what you would expect. It is set down because it is
+    true, not because it means anything yet.</p>
+  </div>
+
+  <h2>The Crisci on the ground</h2>
+  <p>{swept} of these {rows.length} records were read off the Arienzo death registers act by act.
+  They put Crisci households on <strong>strada Camellara</strong> — the Falco street — and across the
+  town. Two things they show:</p>
+  <ul>
+    <li><strong>A Crisci × Morgillo couple of the founding generation.</strong> The 1843 register
+    buries <strong>Fortunato Crisci, 59</strong>, born about 1784, <em>«figlio di PASQUALE CRISCI
+    defunto … e di ANNA MORGILLO defunta»</em> — the two surnames that flank this family, in one
+    household, in the right decade. <strong>Nothing links it to the Falco</strong>, and the archive
+    says so on the page where it is recorded.</li>
+    <li><strong>Crisci married into the Annecchino too.</strong> At Forchia, <strong>Giovanna
+    Crisci</strong> married a <strong>Carmine Annecchino</strong> — so the name touches
+    <a href={u("/annecchino")}>generation seven's line</a> as well as generations one and three.</li>
+  </ul>
+
+  <h2>The reading that is still open</h2>
+  <p>One Crisci household is <strong>not settled</strong> and is published in that state. The 1823
+  register gives <em>«Marcello Crisci &amp; Maria Rosa Mauro»</em>; the 1828 register gives
+  <em>«Marcello <strong>Cossi</strong>»</em> with the identical wife. This archive has already been
+  caught once by exactly that pair of shapes — five years of <em>Cossi</em> turned out to be
+  <em>Cioffi</em> — so the doubt is left standing rather than resolved by preference. The full account
+  is under <a href={u("/method")}>Method</a>.</p>
+
+  <p class="small" style="margin-top:1.2rem">All {rows.length} Crisci records are listed with their
+  sources at <a href={u("/register") + "?q=Crisci"}>the register →</a></p>
+</Base>
