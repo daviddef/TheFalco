@@ -77,8 +77,13 @@ for path in sorted(glob.glob("notes/18*-death-register-progress.md")):
     for ln in open(path):
         if ln.startswith("|") and "parents" in ln.lower():
             in_tbl = True; continue
-        if not ln.startswith("|"):
+        # A roster table may be interrupted by prose — blockquote notes explaining a
+        # correction or a contradiction sit between rows. Those must NOT end the table:
+        # doing so silently dropped most of 1840 and part of 1841 and 1842. Only a
+        # markdown heading closes it.
+        if ln.startswith("#"):
             in_tbl = False; continue
+        if not ln.startswith("|"): continue
         if not in_tbl: continue
         c = [x.strip() for x in ln.strip().strip("|").split("|")]
         if set(c[0]) <= set("-: "): continue
