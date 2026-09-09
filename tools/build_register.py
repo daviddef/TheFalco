@@ -10,10 +10,41 @@ def add(name, surname, detail, source, link, kind, sortkey=""):
     ROWS.append(dict(name=name, surname=surname, detail=detail.strip(" ·—"),
                      source=source, link=link, kind=kind, sort=sortkey))
 
-def sur(n):
+# Trades and descriptors the registers append to a name. They are NOT surnames, and
+# taking the last word blindly filed 179 real people under "CONTADINO" — unfindable by
+# the name they actually had. Stripped before the surname is taken; never discarded,
+# because the trade is carried in the detail line already.
+TRADES = {
+    "contadino", "contadina", "colono", "colona", "vaticale", "possidente", "proprietario",
+    "proprietaria", "sartore", "sarto", "sarta", "calzolajo", "calzolaio", "barbiere",
+    "macellajo", "macellaio", "ferraro", "fabbro", "oste", "locandiere", "bottegajo",
+    "bottegaio", "panettiere", "pastaio", "pastajo", "filatrice", "tessitrice", "massaro",
+    "guarniciere", "guarnitore", "ortolano", "pettinatore", "cappellaio", "cappellajo",
+    "sportaro", "vinivendolo", "rivenditore", "rivendugliolo", "serviente", "gentildonna",
+    "gentiluomo", "monaca", "conversa", "arciprete", "sacerdote", "notaro", "notaio",
+    "corattiere", "recimaro", "recimatore", "vaticaro", "gabelloto", "pizzajolo",
+    "defunto", "defunta", "vedovo", "vedova", "regnicolo", "regnicola",
+}
+
+def _clean(n):
+    """Drop trailing trade/descriptor words so the surname is the surname."""
     n = re.sub(r"\s+", " ", (n or "").strip())
-    parts = [p for p in n.split(" ") if p]
-    return parts[-1].upper() if parts else "?"
+    n = re.sub(r"[,;]\s*$", "", n)
+    parts = [p for p in n.split(" ") if p and p.strip(",.;·—-")]
+    while len(parts) > 1 and parts[-1].strip(",.;").lower() in TRADES:
+        parts.pop()
+    if parts:
+        parts[-1] = parts[-1].rstrip(",;")
+    return parts
+
+def sur(n):
+    parts = _clean(n)
+    if not parts: return "?"
+    last = parts[-1].upper()
+    # "di Lucia", "de Guida", "d'Ambrosio" are one surname, not a particle plus a name.
+    if len(parts) > 1 and parts[-2].lower() in {"di", "de", "del", "della", "lo", "la"}:
+        last = (parts[-2] + " " + parts[-1]).upper()
+    return last or "?"
 
 AN = "https://antenati.cultura.gov.it/ark:/12657/"
 def fs(ark):
