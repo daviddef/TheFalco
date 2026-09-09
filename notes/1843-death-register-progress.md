@@ -62,12 +62,30 @@ what a guess looks like, not what two men look like.
 ### A Falco woman the archive did not have — atto 17, 10 June
 
 Antonio Cioffi, seventeen days old, of **strada Cioffi**, is entered as *«figlio di RAFFAELE
-CIOFFI, contadino»* and — read at strip resolution — *«e di DOMENICA FALCO»*.
+CIOFFI, contadino»* and — read at strip resolution — ~~*«e di DOMENICA FALCO»*~~.
 
-**This is recorded as a hypothesis, not a finding.** The surname was not enlarged before this file
-was written, and the correction made earlier in this project — that five years of *Cossi* were
-really *Cioffi* — is exactly what happens when a surname is read at strip resolution and written
-down as fact. **It needs a full-resolution reading before it is claimed.**
+**That reading was published as a hypothesis, and the hypothesis was wrong.**
+
+> **CORRECTION, from the 1842 volume.** Arienzo, Morti 1842 (`an_ua14344`), **atto 2, 2 January**,
+> buries **Luigi Cioffi, one day old**, of strada Cioffi: *«figlio di **RAFFAELE CIOFFI** di
+> professione contadino, domiciliato ivi, **e di FRANCESCA FALCO**, domiciliata ivi.»* Read at
+> 2600px, not at strip width. The forename is **FRANCESCA**, not Domenica.
+
+The correction is left standing beside the error rather than swapped in silently, because the point
+of flagging the reading as a hypothesis was to make exactly this possible. **The method worked:** a
+doubt was recorded, the enlargement was refused until it could be done properly, and a different act
+in a different year supplied it.
+
+**Raffaele Cioffi and Francesca Falco lost two infants in fourteen months** — Luigi at one day old
+on 2 January 1842, Antonio at seventeen days on 10 June 1843 — on strada Cioffi. Both parents are
+named without *«fu»* in both acts, so both were alive through 1843.
+
+**She is not the other Francesca Falco.** The archive already holds a **Francesca Falco, wife of
+GIOACCHINO Cioffi**, both dead by 1843, named in the death act of their son **Aniello Cioffi, aged
+seventy-six** — so born in the 1740s, of the founding generation. The Francesca Falco of atto 2 is
+bearing children in 1842. **They are two women, two generations apart, each married to a Cioffi**,
+and the archive keeps them apart deliberately. Neither one's parents are named by any act yet, and
+neither is guessed at here.
 
 ### And the street is called Cioffi
 
@@ -98,7 +116,7 @@ spelled by ear. The archive now holds three spellings of one place and says so.
 | 12R (atto 15) | May | Speranza Liparulo, 40 days, strada Annunziata | Clemente Liparulo, sartore, & Gelsomina Carbone | — | Clemente Porrino 44 sartore, strada Annunziata; Domenico Porrino 35 calzolajo |
 | 13L / 13R | — | *duplicate binding — acts 14 and 15 repeated* | | | |
 | 14L (atto 16) | 24 May | Angela Macariello, 37, contadina, strada Croce | Pasquale Macariello, contadino, & fu Domenica Martone | — | Agostino Marrone 40 contadino, strada Croce; Domenico Sposito 51 **panettiere** |
-| **14R (atto 17)** | 10 Jun | Antonio Cioffi, 17 days, **strada Cioffi** | **RAFFAELE CIOFFI**, contadino, & **«DOMENICA FALCO» — read at strip resolution only, NOT enlarged, and therefore a hypothesis, not a finding** | — | Domenico Cioffi 70 **guarnitore**, strada Cioffi; Sabatino Cioffi 34 contadino, strada Cioffi |
+| **14R (atto 17)** | 10 Jun | Antonio Cioffi, 17 days, **strada Cioffi** | **RAFFAELE CIOFFI**, contadino, & **~~«DOMENICA FALCO»~~ → FRANCESCA FALCO — CORRECTED.** *The forename was read here at strip resolution and flagged as a hypothesis. The 1842 volume, atto 2, names the same father's wife at full resolution: «figlio di RAFFAELE CIOFFI … e di **FRANCESCA FALCO**». The hypothesis was wrong and the correction stands in place of it.* | — | Domenico Cioffi 70 **guarnitore**, strada Cioffi; Sabatino Cioffi 34 contadino, strada Cioffi |
 | 17L (atto 20) | 8 May | Domenico Diglio, 6 months, strada Porta di Sopra | Angelo Diglio, contadino, & **Carmina Cioffi** | — | **Nicola Cioffi 44 contadino, strada Porta di Sopra**; Tomaso Bottalino 40 contadino |
 | 17R (atto 21) | May | — di Rizzo, 50, contadina, strada Croce | fu Filippo di Rizzo, contadino, & fu Antonia Diglio | m. Stefano Carfora | Angelo Migliore 56 sartore, strada Croce; Nicola Saviello 50 cappellaro |
 | 18L (atto 22) | 22 May | (name uncertain), 70 — died in the **Ospedale di Ave Gratia Plena** | fu **Pasquale Cioffi**, contadino, & fu **ANNA MORGILLO** | m./ved. Giovanni Porrino | Domenico Migliore 70 calzolajo, **of San Felice a Cancello**; Angelo Diglio 50 oste |
@@ -233,8 +251,8 @@ means a lost act: in this volume, six missing leaves are documented as having be
 
 ## What is still open in 1843
 
-- **Atto 17, «Domenica Falco»** — still read at strip resolution only. **Still a hypothesis.** The
-  enlargement has not been done, and this file will not promote it until it has.
+- **Atto 17, «Domenica Falco»** — **closed, as a correction.** She is **Francesca Falco**; see
+  above. The enlargement came from the 1842 volume, not from this one.
 - **Alfonso Diglio, 44, of strada Cioffi** — a name match, not a proven identity.
 - Several minor surnames left with the hand unresolved and marked as such in the roster:
   *Lazzara [S/Z]orbone* (atto 48), *Rosa Quotolo or Diodato* (atto 52), *Alfonso Marra* (atto 58).
