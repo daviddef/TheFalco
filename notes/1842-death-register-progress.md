@@ -1,11 +1,12 @@
-# Arienzo civil death register 1842 — sweep IN PROGRESS
+# Arienzo civil death register 1842 — sweep COMPLETE
 
 **Volume:** `an_ua14344` (Arienzo, Morti 1842), 56 images.
-**Read so far: images 2–30, acts 1–45.** The rest is unread. Published in that state rather than
-held back: a partial sweep with its edge marked is worth more than a promise.
+**Read: images 2–56, acts 1–86. The volume is finished.** The pre-printed form for act 87 was
+never filled in, so 86 is the last act of the year.
 **Officer:** **Raffaele de' Nuzzo, sindaco** — *not* the Gaspare de' Nuzzo of 1843. The surname is
 firm, the forename is read at strip width and should be confirmed.
-**District:** Caserta. **Duplicate openings verified so far:** 6≡5, 9≡8, 14≡13, 19≡18, 21≡20, 26≡25.
+**District:** Caserta. **Duplicate openings, every one verified from the printed act number:**
+6≡5, 9≡8, 14≡13, 19≡18, 21≡20, 26≡25, 39≡38, 41≡40, 44≡43, 49≡48.
 
 > **On the duplicates.** They are irregular. An earlier draft of this file recorded «image 8
 > re-shoots image 7» from the look of the sequence; checking the printed act numbers showed the
@@ -142,7 +143,63 @@ family's other lines come from, which is worth noting and is not, by itself, a c
 > settles it — there the same word is followed by *«**Donna** Maria Giuseppa Calabria»* — and 1842
 > repeats the construction twice. The 1843 file now carries the correction.
 
-## The roster so far
+### The Morgillo of 1842 — seven households, no bridge to the Falco
+
+This one volume names **eleven Morgillo**. They do not resolve into one family, and the archive is
+not going to force them to:
+
+| act | Morgillo | what the act says |
+|---|---|---|
+| 7 | **Angela Morgillo**, 80, d. Feb | *figlia di **Simone Morgillo** e Vittoria Diglio*; widow of Gaspare Ummarino |
+| 4 | **Angela Morgillo** | wife of Nunzio Lettieri, **alive** in January |
+| 11 | **Giovanni Morgillo**, 55 | declarant, strada Cioffi |
+| 85 | **Giovanni Morgillo** | father of Antonio Morgillo, 11, with **Lucia di Lucia**, strada Santa Lucia |
+| 12 | **Teresa Morgillo** | mother of Angela Maria Saccone, strada Porta di Sopra |
+| 24 | **Giuseppe Morgillo**, 44 | declarant, strada Costa |
+| 31 | **Carlantonio Morgillo**, 70 | *figlio di **Carlantonio Morgillo** defunto*; died in the ospedale |
+| 46 | **Maria Morgillo** | wife of Luca Zimbardo, strada Capodiconca |
+| 80 | **Maria Morgillo** | wife of Angelo Cioffi, strada Cioffi — **a different woman** |
+| 52 | **Giuditta Morgillo** | mother of Clemente Zimbardo, dead by August |
+| 76 | **Gennaro Morgillo**, 45 | declarant, strada Cioffi |
+| 81 | **Leopoldo Morgillo** & **Marco Morgillo** | father of Costantina, 16, and a declarant, strada Capodiconca |
+
+**Angela Rosa Morgillo, who married Raffaele Falco, is not among them, and no act here reaches her.**
+The point of the table is the opposite of a connection: it shows how common the surname was in
+Arienzo, and therefore how little a Morgillo in a record proves on its own.
+
+Two names do land on existing threads. **Simone Morgillo** is the name of one of four brothers in
+the San Gaetano household built from the 1828 volume. And **Carlantonio Morgillo son of Carlantonio
+Morgillo** puts two of that name in one line — the Morgillo page already carries three. Which men
+these are is **not settled here**.
+
+### Both registers end with the same 1849 audit — and only one of them was finished
+
+Image 56 is not an act. It is a printed ministerial letter — *Grazia e Giustizia, Napoli, 4 July
+1849, no. 5322* — approving a procedure for stripping blank leaves out of civil-status registers,
+over the *Procuratore del Re* of the Tribunale Civile di Terra di Lavoro and the *Vice-Archivario
+Provinciale*. The identical sheet closes the 1843 volume.
+
+**In 1843 the counts were filled in: six sheets removed. Here they are blank.** The audit reached
+every register in the province; it was not completed in every one. Worth knowing before a gap in
+the foliation is read as a loss.
+
+### What the ages did in this volume
+
+The archive's standing note is that these clerks guessed ages. 1842 is the proof, and not only for
+Giuseppe Falco:
+
+- **Angelo Diglio**, the hospital's regular declarant, is **72 · 73 · 73 · 77 · 72** across five acts
+  in eleven months — and *contadino* in January, *oste* in November.
+- **Nicola d'Ambrosio**, a *possidente*, is **50** in August and **53** five weeks later.
+- **Nicola Cioffi** the innkeeper is a **52**-year-old *locandiere* in February and a **53**-year-old
+  *oste* in April.
+- **Filippo Giglio** is **32** in September and **30** four weeks later.
+- **Giuseppe Falco** is **52** here and **56** ten months later.
+
+Against all that, one man's age holds: **Giovanni Cioffi of strada Camellara is 47 in August 1842
+and 48 in September 1843.** The clerks were not incapable of it. They simply did not usually bother.
+
+## The roster
 
 | img | act / date | deceased | parents | spouse | declarants |
 |---|---|---|---|---|---|
@@ -197,5 +254,52 @@ family's other lines come from, which is worth noting and is not, by itself, a c
 | 29R (atto 43) | d. 29 Jul, ore 17 | Carmine Marletta, **15 months**, strada Capodiconca | **Antonio Marletta**, contadino, & **Carmela di Lillo** | — | Lorenzo Zimbardo 35 contadino, strada Capodiconca; Luca Zimbardo 40 contadino, strada Capodiconca |
 | 30L (atto 44) | d. 29 Jul, ore 14 | Angela Cioffi, **8 months**, strada Cioffi | **Clemente Cioffi**, contadino, & **Andreana Saccavino** | — | Domenico Cioffi 50 contadino, strada Cioffi; Giuseppe Cioffi 70 contadino, strada Cioffi |
 | 30R (atto 45) | d. 1 Aug, ore 5 | Biagio Bruno, 53, ***barbiere***, strada Annunziata | fu **Pasquale Bruno, *barbiere*** — *the trade passed from father to son* — & fu **Carmina Lettieri** (uncertain) | m. **Angela Sabino** | Domenico Porrino 38 *calzolajo*, strada Annunziata; Gaetano Liparulo 46 *sartore*, strada Annunziata |
+| **31L (atto 46)** | d. 2 Aug, ore 2 | Antonio Zimbardo, **22 days**, strada Capodiconca | **Luca Zimbardo**, contadino, **& MARIA MORGILLO** — *living* | — | Lorenzo Zimbardo 35 contadino, strada Capodiconca; Domenico Zimbardo 36 contadino, strada Capodiconca |
+| 31R (atto 47) | d. 4 Aug, ore 16 | Brigida Diena(?), **90**, contadina, strada Croce — *surname uncertain* | **Angelantonio Diena, *sartore***, & **Mariantonia Anzivino** | — | Clemente d'Ambrosio 40 *sartore*, strada Croce; Angelo Ferrara 50 contadino, strada Croce |
+| 32L (atto 48) | d. 8 Aug, ore 2 | Mariantonia [Brigido?], 66, contadina, strada Capodiconca — *surname uncertain* | **Marcello [Brigido?], *vaticale***, & **Salvatora Cioffi** | — | Pasquale [Brigido?] 47 contadino; Saverio [Brigido?] 44 contadino |
+| 32R (atto 49) | d. 9 Aug | Mariangela Martone, **3**, strada Capodiconca | **Antonio Martone**, contadino, & **Peppa Carpora** | — | Clemente Martone 39 contadino, strada Capodiconca; Bartolomeo Majone 36 contadino, strada Capodiconca |
+| 33L (atto 50) | d. 12 Aug | Carmela Porrino, **9 months**, strada Cioffi | **Antonio Porrino**, contadino, & **Carmina Cioffi** | — | Giuseppe Cioffi 45 contadino, strada Cioffi; Clemente Cioffi contadino, strada Cioffi |
+| 33R (atto 51) | d. 12 Aug, ore 3 | **Donna ELISABETTA TORRE(?), 79, *gentildonna*, strada Santa Lucia** — *surname uncertain* | fu **Don Arcangelo [de Dio?], *possidente***, & fu **Donna Maria Perciavillo(?)** | m. **Don Francesco Nasso(?)** | Clemente Mercola 32 ***vinivendolo***, strada Santa Lucia; **Nicola d'Ambrosio 50 *possidente***, strada Santa Lucia |
+| **34L (atto 52)** | d. 19 Aug, ore 15 | Clemente Zimbardo, 35, contadino, strada Capodiconca | fu **Giuseppe Zimbardo**, contadino, **& fu GIUDITTA MORGILLO** | m. **Marta Martone** | Aniello Altarelli 30 contadino, strada Capodiconca; Antonio Zimbardo 40 contadino, strada Capodiconca |
+| **34R (atto 53)** | d. 19 Aug | Clemente Laudato, **6 months**, strada Sant'Andrea | **Pasquale Laudato, *calzolajo***, **& ANGELA RIVETTI** — *living; a second Rivetti household in this volume, and again no link to the direct line is claimed* | — | Clemente Giglio 33 ***falegname***, strada Sant'Andrea; Salvatore Laudato 34 *calzolajo*, strada Sant'Andrea |
+| 35L (atto 54) | d. 23 Aug, ore 10 | Maria Giglio, 35, contadina, of strada Croce — **died «nell'Ospedale d'Ave Gratia Plena»** | fu **Alfonso Giglio, *barbiere***, & fu **Maria Macariello** | m. **Salvatore di Marzo** | Domenico Migliore 72 *calzolajo*; **Angelo Diglio 77 contadino** — the hospital's declarant for the fourth time, and his stated age has moved from 72 (atto 3, January) to 77 (August) |
+| **35R (atto 55)** | **d. 24 Aug, ore 22** | **MATTEO FALCO, TWO YEARS OLD, strada CAMELLARA** | **MICHELE FALCO, contadino, & ANTONIA MIGLIORE — both living, both named without «fu». A Falco household the archive did not have.** | — | Antonio Cioffi 32 contadino, **strada Camellara**; **GIOVANNI CIOFFI, 47, contadino, strada Camellara** — *the same man, at 48, who reports Chiara Rivetti's death in September 1843. Thirteen months, one year: **this clerk got an age right**.* Plate: `matteo-falco-1842.jpg` |
+| 36L (atto 56) | d. 27 Aug, ore 5 | Ruggiero d'Aveta, **1 year**, strada Croce | **Clemente d'Aveta**, contadino | — | Angelo Migliore 40 *sartore*, strada Croce; Francescantonio d'Aveta 55 contadino, strada Croce |
+| 36R (atto 57) | d. Aug | Carmela [Villa?], **18 months**, strada Porta di Sopra — *surname uncertain* | **Domenico [Villa?]** | — | Biagio Grazia 38 *guarniciere*, strada Porta di Sopra; Pasquale Montefusco 42, strada Porta di Sopra |
+| **37L (atto 58)** | **d. 28 Aug, ore 6** | **GRAZIA RIVETTI, NINE YEARS OLD, strada CAMELLARA** | **ALESSIO RIVETTI**, contadino, **& ORSOLA DIGLIO** | — | **Alessandro Diglio 28 contadino, strada CAMELLARA; Giovanni Cioffi 42 contadino, strada CAMELLARA** |
+| **37R (atto 59)** | **d. 28 Aug, ore 2** | **ORSOLA DIGLIO, 36, contadina, strada CAMELLARA — the mother of atto 58, dead the SAME DAY, four hours earlier** | **Clemente Diglio**, contadino, & **Antonia Cioffi** | m. **ALESSIO RIVETTI** | Alessandro Diglio 28 contadino, **strada CAMELLARA**; Giovanni Cioffi 42 contadino, **strada CAMELLARA** — *the same two men walked to the town hall twice; Alessandro Diglio was declaring the deaths of his own kinswomen, and the register does not say so* |
+| 38L (atto 60) | d. 3 Sep, ore 24 | Rosa d'Ambrosio, 70, contadina, strada Capodiconca | fu **Giovanni d'Ambrosio**, contadino, & fu **Lucia Petrella** | ved. **Angelo Cimmino** | Giuseppe Cimmino 53 *vaticale*, strada Capodiconca; Felice Sepistella 57 contadino |
+| 38R (atto 61) | d. 4 Sep, ore 13 | Vincenzo Migliore, 59, ***calzolajo***, strada Croce | fu **Domenico Migliore, *calzolajo*** — *trade from father to son* — & fu **[—] Laudato** | m. **Mariantonia Fornella** | Carlantonio Migliore 56 contadino, strada Croce; Arcangelo Zimbardo 53 contadino, strada Croce |
+| 39L / 39R ≡ 38L / 38R | — | *duplicate photograph — image 39 re-shoots image 38, acts 60 and 61 (verified from the printed act numbers)* | | | |
+| 40L (atto 62) | d. 9 Sep, ore 16 | Andrea Deletto(?), **one day old**, strada Porta di Sopra | **Tomaso Deletto, *cappellajo***, & **Maddalena Giglio** — *surname uncertain* | — | Lorenzo Sotto 37, strada Porta di Sopra; Sabatino Saccavino 47 *fruttajolo*, strada Porta di Sopra |
+| 40R (atto 63) | d. 13 Sep, ore 16 | [—] Amigale(?), 27, contadino, strada Capodiconca — *surname uncertain* | fu **Francesco Amigale(?)**, contadino, & fu **Modesta Giglio** | m. **Mariantonia Bruno** | Egidio Anzivino *vaticale*, strada Capodiconca; Gregorio Martone 30 contadino, strada Capodiconca |
+| 41L / 41R ≡ 40L / 40R | — | *duplicate photograph — image 41 re-shoots image 40, acts 62 and 63 (verified from the printed act numbers)* | | | |
+| 42L (atto 64) | d. 20 Sep | Andrea Altarelli, 22, contadino, strada Capodiconca | fu **Francesco Altarelli**, & **Anna Serena** (uncertain) | — | Egidio Anzivino *vaticale*, strada Capodiconca; Gregorio Martone 30 contadino, strada Capodiconca |
+| 42R (atto 65) | d. Sep | Pasquale Cerreto(?), **1 year**, strada Santa Lucia — *surname uncertain* | **Giuseppe Cerreto(?), *vaticale***, & **Maria Cioffi** | — | Pasquale Greco 32 *fruttajolo*, strada Santa Lucia; **Nicola d'Ambrosio, 53, *possidente***, strada Santa Lucia — *stated **50** in atto 51 five weeks earlier. Another age that moved three years in five weeks.* |
+| 43L (atto 66) | d. 21 Sep, ore 10 | Carmine Cappuccia(?), **18 months**, strada Croce | **Ignazio Cappuccia(?)**, contadino, & **Mariantonia Ri[v]etti(?)** — *both surnames read at strip width; the mother's could be Rivetti or Rinaldi and is not claimed either way* | — | Filippo Giglio 32 *sartore*, strada Croce; Fabio Giglio contadino, strada Croce |
+| 43R (atto 67) | d. 11 Oct, ore 8 | **Donna VITTORIA CIMMINO, SIX MONTHS OLD — and the clerk still wrote «di professione *gentildonna*»** for her. The form was filled in by rank, not by life. | **Don Nicola Cimmino, *proprietario***, & **Donna Maria Giuseppa d'Ambrosio** | — | Lorenzo Genovese 42 contadino, strada Capodiconca; Aniello Zimbardo 36 contadino, strada Capodiconca |
+| 44L / 44R ≡ 43L / 43R | — | *duplicate photograph — image 44 re-shoots image 43, acts 66 and 67 (verified from the printed act numbers)* | | | |
+| 45L (atto 68) | d. 16 Oct, ore 4 | Antonia Sepistella, **18 months**, strada Croce | **Angelo Sepistella**, contadino, & **Marta Zimbardo** | — | Francescantonio Macariello 70 contadino, strada Croce; Angelo Sansone 40 contadino, strada Croce |
+| 45R (atto 69) | d. 18 Oct, ore 7 | Elisabetta Anzivola(?), **40 days**, strada Croce | **Salvatore Anzivola(?), *vaticale***, & **Rosa Migliore** | — | Arcangelo Zimbardo 53 contadino, strada Croce; Filippo Giglio 30 *sartore*, strada Croce — *stated 32 four weeks earlier in atto 66* |
+| 46L (atto 70) | d. 21 Oct | Clemente Zimbardo, 22, contadino, strada Capodiconca | **Angelo Zimbardo**, contadino, & **Maddalena Anzivola** | — | Gennaro Zimbardo 40 contadino, strada Capodiconca; Giovanni Ruggiero 52 contadino, strada Capodiconca |
+| 46R (atto 71) | d. 27 Oct, ore 2 | Beppa Martone, **9**, strada Porta di Sopra | **Litterio Martone, *barbiere***, & **[—] d'Aveta** | — | Antonio Porrino 34 ***cappelliere***, strada Porta di Sopra; Domenico Cito 30 *pettinatore*, strada Porta di Sopra |
+| 47L (atto 72) | d. 23 Oct, ore 13 | Giuseppe Cimmino, **6**, strada Capodiconca | **Antonio Cimmino, *vaticale***, & **Lucia Alma(?)** | — | Raffaele Cimmino 40 *vaticale*, strada Capodiconca; Giorgio Cimmino 50 *vaticale*, strada Capodiconca |
+| 47R (atto 73) | d. 28 Oct, ore 10 | Angelo Cimmino, **45 days**, strada Capodiconca | **Giovanni Cimmino**, contadino | — | Nicola Zimbardo 35 *vaticale*, strada Capodiconca; Luca Zimbardo 40 contadino, strada Capodiconca |
+| **48L (atto 74)** | d. 4 Nov | **Antonia Sepistella, «D'ANNI NOVANTACINQUE» — 95**, contadina, strada Porta di Sopra. *The second-highest stated age in these registers, after the hundred-year-old basket maker of 1843. Stated, not proven.* | fu **Antonio Sepistella**, contadino, & fu **Teresa Sepistella** | ved. **Pasquale Sottone(?)** | **Litterio Martone 47 *barbiere*** — *the father of the child in atto 71, declaring again a week later*; Domenico Cito 30 *pettinatore* |
+| 48R (atto 75) | d. Nov | Teresa Verdicchio(?), 70, contadina of strada Porta di Sopra — **died «nell'Ospedale d'Ave [Gratia] Plena»** | fu **Giuseppe Verdicchio, *calzolajo***, & fu **Anna Sturzo(?)** | m. **Angelo Anzivino** | **Angelo Diglio, 72, «*oste*», of SAN FELICE A CANCELLO; Domenico Migliore 75 *calzolajo*, strada dell'Ospedale** — *the hospital's pair for the fifth time. Angelo Diglio's stated age across this one volume runs **72 · 73 · 73 · 77 · 72**, and his trade is «contadino» in January and «oste» in November.* |
+| 49L / 49R ≡ 48L / 48R | — | *duplicate photograph — image 49 re-shoots image 48, acts 74 and 75 (verified from the printed act numbers)* | | | |
+| **50L (atto 76)** | d. 8 Nov, ore 12 | Carmela Cioffi, **8**, strada Cioffi | **Giuseppe Cioffi**, contadino, & **Lucia Merenna(?)** | — | **GENNARO MORGILLO, 45, contadino, strada CIOFFI** — *a third man of that name. 1843 gives a Gennaro Morgillo of 53 on strada Camellara and another of 40, a vaticale, on strada Sant'Andrea. Three streets, three ages; **not merged**.*; Matteo Vigliotti 46 *vaticale*, strada Cioffi |
+| 50R (atto 77) | d. 9 Nov, ore 14 | Clemente Carpora, **6 months** | **Stefano Carpora**, contadino, & **Marta d'Abenna(?)** | — | Sabato Sepistella 47 contadino; Michele Carpora 46 contadino |
+| 51L (atto 78) | d. 6 Nov, ore 11 | Alessandro Sotti, **6 months**, strada Capodiconca | **Pellegrino Sotti**, contadino, & **Maddalena Zimbardo** | — | Francesco Sposito 34 *vaticale*, strada Capodiconca; Lorenzo Martone 38 contadino, strada Capodiconca |
+| 51R (atto 79) | d. 22 Nov, ore 8 | Bartolomeo Giglio, 54, ***massaro***, strada Capodiconca | fu **Filippo Giglio, *vaticale***, & fu **Teresa Maurizio(?)** | m. **Flavia Gagliardo** | Antonio d'Alessio contadino, strada Capodiconca; Pietro Sposito 40 contadino, strada Capodiconca |
+| **52L (atto 80)** | d. 24 Nov, ore 8 | Rosa Cioffi, **10 days**, strada Cioffi | **Angelo Cioffi**, contadino, **& MARIA MORGILLO** — *living. A different woman from the Maria Morgillo who is Luca Zimbardo's wife in atto 46: different husbands, same name, kept apart.* | — | Antonio d'Ischia 40 contadino, strada Cioffi; **RAFFAELE CIOFFI, 36, contadino, strada Cioffi** — ***the husband of Francesca Falco*** (atto 2), here alive and declaring; b. ~1806 on this act's arithmetic |
+| **52R (atto 81)** | d. 24 Nov, ore 9 | **Costantina Morgillo, 16, contadina, strada Capodiconca** | **LEOPOLDO MORGILLO**, contadino, & **Giulia Petrella** — *a further Morgillo household, both parents living* | — | Raffaele Bruno 66 *fruttajolo*, strada Capodiconca; **MARCO MORGILLO**, trade unresolved, strada Capodiconca |
+| 53L (atto 82) | d. 29 Nov, ore 8 | Simone Sotti, 50, contadino, strada Croce | fu **Giovanbattista Sotti**, contadino, & fu **Teresa Canneci(?)** | m. **Nicoletta d'Alessio** | Giudicandrea Sotto 42 contadino, strada Croce; Angelo Navarello 36 contadino, strada Croce |
+| 53R (atto 83) | d. Nov | Antonio Marchese, **1 month**, strada Santa Lucia | **Pasquale Marchese**, contadino, & **[—] Sansone** | — | Raffaele Zappa contadino, strada Santa Lucia; Clemente Diglio 31 *vaticale*, strada Santa Lucia |
+| 54L (atto 84) | d. 4 Dec, ore 10 | Francesca Cimmino, 40, contadina, strada Capodiconca | fu **Angelo Cimmino**, contadino, & fu **Mariangela Martone** | m. **Clemente Martone** | Giuseppe Giglio 48 *sartore*, strada Capodiconca; Domenico Zimbardo 42 contadino, strada Capodiconca |
+| **54R (atto 85)** | d. 24 Dec, ore 9 | **ANTONIO MORGILLO, 11**, strada Santa Lucia | **GIOVANNI MORGILLO**, contadino, & **Lucia di Lucia** — *both living. This is almost certainly the Giovanni Morgillo, 55, of strada Cioffi who declares atto 11 in February; the act does not say so, and the street differs.* | — | Raffaele Rossi 36 *fruttajolo*, strada Santa Lucia; Pietro Verdicchio 76 contadino, strada Santa Lucia |
+| 55L (atto 86) | d. 16 Dec, ore 11 | Giovanna Giglio, 80, contadina | fu **Cosimo Giglio**, contadino, & fu **Prospera Giglio** | ved. **Fabio Carpora** | Gennaro Sepistella 22 contadino; Sabato Sepistella 45 contadino |
+| **55R (atto 87)** | — | **BLANK.** *The pre-printed form for act 87 was never filled in. **The register ends at atto 86.*** | | | |
+| **56R** | — | **Closing certificate, not an act.** The same printed ministerial letter as 1843 — *Grazia e Giustizia, Napoli, **4 July 1849**, no. 5322* — approving the removal of blank leaves from civil-status registers, over the *Procuratore del Re* of the Tribunale Civile di Terra di Lavoro and the *Vice-Archivario Provinciale*. **Here the counts are LEFT BLANK.** In 1843 the same form was filled in and recorded six sheets removed. The audit reached every volume; it was not completed in every volume. | | | |
 
-**Images 31–56 are unread.**
+**VOLUME COMPLETE.** Arienzo, Morti 1842 (`an_ua14344`): **images 2–56, acts 1–86** (the pre-printed form for act 87 was never filled in), plus **eleven duplicate openings** and the 1849 closing certificate.
