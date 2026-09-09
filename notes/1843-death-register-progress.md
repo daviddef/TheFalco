@@ -1,18 +1,42 @@
 # Arienzo civil death register 1843 — sweep IN PROGRESS
 
 **Volume:** `an_ua14345` (Arienzo, Morti 1843), 44 images.
-**Read so far: images 3–16, acts 1–19.** The rest is unread. This file is published in that state
+**Read so far: images 3–30, acts 1–43.** The rest is unread. This file is published in that state
 rather than held back, because a partial sweep with its edge marked is worth more than a promise.
 **Officer:** **Gaspare de' Nuzzo, sindaco**. The district line now reads **Caserta**, not Nola —
 the administrative reorganisation has reached the form.
 **Duplicate bindings so far:** 5≡4, 8≡7, 10≡9, 13≡12, 16≡15.
 
-## Why this volume was opened first
+## Why this volume was opened first — and what it gave
 
-Chiara Rivetti, who married Pasquale Falco of generation two, is known to have died in **1843**; the
-only record naming her parents is a Latin parish burial entry of that year. The civil register for
-1843 should hold her too, with an age, a street and both parents in Italian. **She has not yet been
-reached** — the sweep is only as far as June.
+Chiara Rivetti, who married Pasquale Falco of generation two, died in **1843**; the only record
+naming her parents was a Latin parish burial entry calling her *«filia quondam Nicolai et Anna»*.
+**The civil act has now been found.**
+
+### Atto 43, 3 September 1843 — the oldest question in the archive, closed
+
+> …sono comparsi **LUCA CIOFFI**, di anni trentatré, di professione **sartore**, domiciliato in
+> strada **CAMELLARA**, e **GIOVANNI CIOFFI**, di anni quarantotto, contadino, domiciliato in strada
+> **CAMELLARA**, i quali han dichiarato, che nel giorno **TRE** del mese di **Settembre** anno
+> corrente, alle ore **venti**, è morta nella sua propria casa **CHIARA RIVETTI VEDOVA DI PASQUALE
+> FALCO**, nata in Arienzo, di anni **OTTANTA**, di professione **CONTADINA**, domiciliata ivi,
+> **figlia di NICOLA RIVETTI Defunto, di professione CONTADINO**, domiciliato ivi, **e di ANNA DI
+> RUGGIO Defunta**, domiciliata ivi.
+
+Plate: `site/public/plates/chiara-rivetti-death-1843.jpg`
+
+**Two couples had answered to «Nicola and Anna».** The gentry **Don Nicola Rivetti × Donn'Anna
+Quotolo**, both with acts of their own in 1816 and 1824. And the labouring **Nicola Rivetti,
+*contadino*, × Anna di Ruggio**, named in the 1821 death act of their son Carmine. The archive said
+the labouring couple was the better fit — Chiara married a *contadino* and lived among day-labourers
+— and then refused to claim it, because a preference is not a record.
+
+**The act writes the father's trade out: *contadino*.** The gentry couple is ruled out. And
+**CARMINE RIVETTI**, buried in 1821 at fifty-three as a son of that same couple, **was Chiara's
+brother**, born about 1768.
+
+She died at eight in the evening in her own house, having outlived Pasquale by nearly nine years,
+and two Cioffi of strada Camellara walked to the town hall to say so.
 
 ## What the first seventeen acts hold
 

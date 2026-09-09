@@ -1,9 +1,9 @@
 [
  {
-  "name": "Nicola Rivetti & Anna",
+  "name": "Nicola Rivetti (contadino) & Anna di Ruggio",
   "members": [
    {
-    "household": "Nicola Rivetti & Anna",
+    "household": "Nicola Rivetti (contadino) & Anna di Ruggio",
     "person": "Chiara (Clara) Rivetti",
     "role": "daughter",
     "event": "death",
@@ -11,6 +11,46 @@
     "place": "Arienzo",
     "evidence": "\"Clara Rivetti, uxor quondam Paschalis Falco, filia quondam Nicolai et Anna…, aetatis suae annorum octoginta 80\" — the only record naming her parents",
     "ark": "3Q9M-CSMY-B7HW-R"
+   },
+   {
+    "household": "Nicola Rivetti (contadino) & Anna di Ruggio",
+    "person": "Nicola Rivetti",
+    "role": "father",
+    "event": "—",
+    "date": "dead by 1821",
+    "place": "Arienzo",
+    "evidence": "«figlia di NICOLA RIVETTI defunto, di professione CONTADINO, domiciliato ivi» — from his daughter Chiara's civil death act of 3 September 1843, read at full resolution. THE TRADE IS THE POINT: he is a contadino, not a Don. That rules out the gentry couple, Don Nicola Rivetti and Donn'Anna Quotolo, which this archive had carried as the rival candidate since 2026.",
+    "ark": "ANTENATI an_ua14345 img30r atto43"
+   },
+   {
+    "household": "Nicola Rivetti (contadino) & Anna di Ruggio",
+    "person": "Anna di Ruggio",
+    "role": "mother",
+    "event": "—",
+    "date": "dead by 1821",
+    "place": "Arienzo",
+    "evidence": "«e di ANNA DI RUGGIO defunta, domiciliata ivi» — from Chiara's death act of 1843, confirming the reading already taken from the 1821 act of her son Carmine Rivetti.",
+    "ark": "ANTENATI an_ua14345 img30r atto43"
+   },
+   {
+    "household": "Nicola Rivetti (contadino) & Anna di Ruggio",
+    "person": "Chiara (Clara) Rivetti",
+    "role": "daughter",
+    "event": "death",
+    "date": "3 Sep 1843",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«CHIARA RIVETTI VEDOVA DI PASQUALE FALCO, nata in Arienzo, di anni OTTANTA, di professione contadina» — died at eight in the evening on 3 September 1843, in her own house. Born about 1763. Declared by Luca Cioffi, 33, sartore, and Giovanni Cioffi, 48, contadino, both of strada Camellara. She had outlived her husband by nearly nine years.",
+    "ark": "ANTENATI an_ua14345 img30r atto43"
+   },
+   {
+    "household": "Nicola Rivetti (contadino) & Anna di Ruggio",
+    "person": "Carmine Rivetti",
+    "role": "son",
+    "event": "death",
+    "date": "1821",
+    "place": "Arienzo, strada Monticello de' Cappuccini",
+    "evidence": "«CARMINE RIVETTI, di anni cinquantatré, contadino … figlio di NICOLA RIVETTI Defunto, di professione CONTADINO, e di ANNA DI RUGGIO Defunta» — read in 1821 and set beside Chiara as a possible brother. The 1843 act makes him HER BROTHER, born about 1768.",
+    "ark": "ANTENATI an_ua14323"
    }
   ]
  },
@@ -2006,6 +2046,16 @@
     "place": "Arienzo, strada Trave",
     "evidence": "«GAETANA LAUDATO figlia delli fu Giacinto Laudato e Giovanna —, VEDOVA DI SIMONE MORGILLO, di anni SETTANTOTTO, contadina, domiciliata nella strada Trave» — born about 1738, the deepest this archive reaches into the Morgillo.",
     "ark": "ANTENATI an_ua14318 img13r atto23"
+   },
+   {
+    "household": "Angelo Morgillo (colono, Monticello de' Cappuccini)",
+    "person": "Gennaro Morgillo",
+    "role": "son",
+    "event": "death",
+    "date": "14 Aug 1843",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«GENNARO MORGILLO, vedovo di Felicia Sompone, nato in Arienzo, di anni cinquantatré, di professione COLONO, domiciliato STRADA CAMELLARA, figlio di ANGELO MORGILLO defunto, di professione COLONO» — born about 1790. A THIRD SON of the colono Angelo, and the one who left the hill: he lived on strada Camellara, the Falco street. HIS DEATH WAS DECLARED BY GIUSEPPE FALCO, colono of the same street. It is the closest the record comes to the Falco-Morgillo marriage that was still thirty years away.",
+    "ark": "ANTENATI an_ua14345 img24r atto33"
    }
   ]
  },
@@ -2076,6 +2126,41 @@
     "place": "Arienzo, strada Porta di Sopra",
     "evidence": "«CELIA CIOFFI, vedova di Gabriele Biondello, di anni ottanta, contadina, domiciliata strada Porta di Sopra» — died in the Ospedale di Ave Gratia Plena. Born about 1763. A contadina, though her father was a possidente and her brother a priest.",
     "ark": "ANTENATI an_ua14345 img18r atto23"
+   }
+  ]
+ },
+ {
+  "name": "Gioacchino Cioffi & Francesca Falco",
+  "members": [
+   {
+    "household": "Gioacchino Cioffi & Francesca Falco",
+    "person": "Francesca Falco",
+    "role": "mother",
+    "event": "—",
+    "date": "dead by 1843",
+    "place": "Arienzo",
+    "evidence": "«figlio di GIOACCHINO CIOFFI defunto, di professione contadino, domiciliato ivi, E DI FRANCESCA FALCO defunta» — from the death act of her son Aniello Cioffi, 27 July 1843, verified at full resolution. Her son was seventy-six, so born about 1767, which places her marriage in the seventeen-sixties and her own birth in the seventeen-forties: the generation of MATTEO FALCO himself. NOTHING NAMES HER PARENTS and this archive does not guess at them.",
+    "ark": "ANTENATI an_ua14345 img21r atto29"
+   },
+   {
+    "household": "Gioacchino Cioffi & Francesca Falco",
+    "person": "Gioacchino Cioffi",
+    "role": "father",
+    "event": "—",
+    "date": "dead by 1843",
+    "place": "Arienzo, strada Cioffi",
+    "evidence": "A contadino, dead before July 1843. Named only in his son's death act. Note the forename: a GIOACCHINO FALCO, thirty-six, declares on strada Camellara in 1816 and is a candidate fifth child of Matteo Falco — the name runs in both houses, which is suggestive and nothing more.",
+    "ark": "ANTENATI an_ua14345 img21r atto29"
+   },
+   {
+    "household": "Gioacchino Cioffi & Francesca Falco",
+    "person": "Aniello Cioffi",
+    "role": "child",
+    "event": "death",
+    "date": "27 Jul 1843",
+    "place": "Arienzo, strada Cioffi",
+    "evidence": "«ANIELLO CIOFFI, marito di Giovanna Laudato, nato in Arienzo, di anni SETTANTASEI, contadino» — born about 1767, the same year as Pasquale Falco of generation two.",
+    "ark": "ANTENATI an_ua14345 img21r atto29"
    }
   ]
  }
