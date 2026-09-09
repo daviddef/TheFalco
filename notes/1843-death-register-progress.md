@@ -157,7 +157,7 @@ spelled by ear. The archive now holds three spellings of one place and says so.
 | **37L (atto 54)** | d. 8 Oct, ore 20 | **NICOLA MORGILLO, 50, contadino**, strada Capodiconca — b. ~1793 | fu **GAETANO MORGILLO, contadino**, & fu **MARIA CIOFFI** — ***the same couple as atto 49. Nicola is Francesca Morgillo's brother, dead nine days after her, entered by the same clerk.*** The repetition settles the mother's surname as **Cioffi**. | — | Andrea Zimbardo 30 contadino, strada Capodiconca; **Gennaro Cioffi 40 contadino, strada Capodiconca** |
 | 37R (atto 55) | d. 9 Oct, ore 2 | Clemente Vigliotta, ~22, contadino, strada Cioffi | **Pellegrino Vigliotta**, contadino, & **Carmina Diglio** | — | Gasparo Diglio 26 contadino, strada Cioffi; Sabatino Saccavino 52 contadino, strada Cioffi |
 | 38L (atto 56) | d. 12 Oct, ore 16 | Gennaro Maggiore, ~65, contadino, strada Cioffi | fu **Gennaro Maggiore**, contadino, & fu **Margarita Diletti** (surname uncertain) | m. **Maddalena Lettieri** | Pasquale Domino 50 contadino, strada Cioffi; Antonio Lopardo 66 contadino, strada Cioffi |
-| **38R (atto 57)** | d. 11 Oct, ore 5 | **Suor ELENA GIULIA MIGLIORE, 80, *conversa* — died NOT at home but «nel monastero di Ave Grazia»**, the Ave Gratia Plena house at Arienzo. The only enclosed-religious death in this volume so far. | fu **Nicola Migliore**, trade unresolved (*pizzajolo?*), & fu **[—] d'Amato** — mother's forename runs off the crop | — | Salvatore Lettieri 59 contadino, **strada Annunziata**; Gaetano Sposato 45 *sartore* |
+| **38R (atto 57)** | d. 11 Oct, ore 5 | **~~Suor ELENA Giulia Migliore~~ → GIULIA MIGLIORE, 80, *conversa* — CORRECTED.** *«Elena» was never her name: it is the house's own word **PLENA**, and the clerk writes «morta nel monastero di Ave Gratia **Plena** — [name]» with no break. Three acts settle it — atto 62 below runs «Ave Grazia Piena **Donna** Maria Giuseppa Calabria», where the word cannot be a forename, and 1842 atti 29 and 31 repeat the same phrase in the same hand.* Died in the monastery, not at home. | fu **Nicola Migliore**, trade unresolved (*pizzajolo?*), & fu **[—] d'Amato** — mother's forename runs off the crop | — | Salvatore Lettieri 59 contadino, **strada Annunziata**; Gaetano Sposato 45 *sartore* |
 | 39L (atto 58) | d. 16 Oct, ore 18 | Anna Maria Ristorato (or *Restaurato*), 67, contadina, strada Pantano | fu **Alfonso Marra** (surname uncertain — *it does not match the deceased's, and I have not reconciled them*), contadino | ved. **Giuseppe Diglio** | Nicola de Bianco 50 *sartore*, strada Pantano; Pasquale Longarino 36, trade unresolved |
 | 39R (atto 59) | d. 17 Oct, ore 21 | Francesco Enosi, **5 months**, strada Santa Lucia | **Giuseppe Enosi, *sartore***, & **Anna C[a]l[b]i** — mother's surname runs off the crop | — | [Gaspare Porpora?] 57 *rivenditore*, strada Santa Lucia; Biagio del Vecchio 60 contadino, strada Santa Lucia |
 | **40L (atto 60)** | d. 21 Oct, ore 3 | Marta di Lucia, **15 days** (*the clerk struck «anni» and wrote «giorni»*), strada Capodiconca | **Alessandro di Lucia**, contadino, & **MADDALENA MORGILLO** — *both living. A fourth Morgillo woman on strada Capodiconca in this one year.* | — | [Antonio Maggiore?] 40 contadino, strada Capodiconca; Clemente Zimmarino 46 *ortolano*, strada Capodiconca |
@@ -220,9 +220,17 @@ because it means anything yet.
 
 ### Two nuns of the Ave Grazia Piena — atti 57 and 62
 
-Two women died *«nel monastero di Ave Grazia Piena»* five weeks apart: **Suor Elena Giulia
-Migliore, 80, *conversa*** (a lay sister; atto 57, 11 October), and **Donna Maria Giuseppa
-Calabria, 80, *monaca***, daughter of a *proprietario* (atto 62, 6 November). The distinction
+Two women died *«nel monastero di Ave Grazia Piena»* five weeks apart: **Giulia Migliore, 80,
+*conversa*** (a lay sister; atto 57, 11 October), and **Donna Maria Giuseppa Calabria, 80,
+*monaca***, daughter of a *proprietario* (atto 62, 6 November).
+
+> **Correction, forced by the 1842 volume.** This file first called the lay sister *«Suor **Elena**
+> Giulia Migliore»*. There is no Elena. The clerk writes *«è morta nel monastero di Ave Gratia
+> **Plena** — [name]»* as one unbroken line, and the word taken for a forename is the second half of
+> the **Ave Gratia Plena**, the house's own name. Atto 62 proves it: there the same phrase is
+> followed by *«**Donna** Maria Giuseppa Calabria»*, and a *Donna* cannot follow a forename. The
+> 1842 register repeats the construction twice more (atti 29 and 31), in the same hand. Her name was
+> **Giulia Migliore**. The distinction
 between *conversa* and *monaca* is the class line running straight through the cloister wall —
 the lay sister's father was probably a tradesman, the choir nun's a property owner.
 
