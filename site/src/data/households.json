@@ -1498,5 +1498,65 @@
     "ark": "ANTENATI an_ua14322 img26r atto47"
    }
   ]
+ },
+ {
+  "name": "Nicola Rivetti & Anna di Ruggio",
+  "members": [
+   {
+    "household": "Nicola Rivetti & Anna di Ruggio",
+    "person": "Nicola Rivetti",
+    "role": "father",
+    "event": "—",
+    "date": "d. before Sep 1821",
+    "place": "Arienzo",
+    "evidence": "«figlio di NICOLA RIVETTI Defunto, di professione Contadino» — a CONTADINO Nicola Rivetti, dead by September 1821. THE BEST CANDIDATE YET FOR CHIARA RIVETTI'S FATHER: Chiara, who married Pasquale Falco, is «filia quondam NICOLAI et ANNA» in her 1843 Latin burial entry and was born about 1763; this Nicola's son Carmine was born about 1768. Same forename, same generation, and the same station — Chiara married a contadino.",
+    "ark": "ANTENATI an_ua14323 img23r"
+   },
+   {
+    "household": "Nicola Rivetti & Anna di Ruggio",
+    "person": "Anna di Ruggio",
+    "role": "mother",
+    "event": "—",
+    "date": "d. before Sep 1821",
+    "place": "Arienzo",
+    "evidence": "«e di ANNA DI RUGGIO Defunta» — IF this is Chiara Rivetti's mother, then the «Anna» of the 1843 entry was ANNA DI RUGGIO, and the Rivetti of this line were contadini, not the Don Nicola / Donn'Anna Quotolo house of the 1816 lead. Not established.",
+    "ark": "ANTENATI an_ua14323 img23r"
+   },
+   {
+    "household": "Nicola Rivetti & Anna di Ruggio",
+    "person": "Carmine Rivetti",
+    "role": "child",
+    "event": "death",
+    "date": "15 Sep 1821",
+    "place": "Arienzo, strada Monticello de' Cappuccini",
+    "evidence": "«CARMINE RIVETTI di anni cinquantatre, marito di GIUSTINA MORGILLO, nato in Arienzo, di professione Contadino» — born about 1768. Declared by Marcello Rivetti, 36, of the same street, and Giovanni Morgillo fu Raffaele, 45, «parente del defunto».",
+    "ark": "ANTENATI an_ua14323 img23r"
+   }
+  ]
+ },
+ {
+  "name": "Carmine Rivetti & Giustina Morgillo",
+  "members": [
+   {
+    "household": "Carmine Rivetti & Giustina Morgillo",
+    "person": "Carmine Rivetti",
+    "role": "father",
+    "event": "death",
+    "date": "15 Sep 1821",
+    "place": "Arienzo, strada Monticello de' Cappuccini",
+    "evidence": "«marito di Giustina Morgillo»",
+    "ark": "ANTENATI an_ua14323 img23r"
+   },
+   {
+    "household": "Carmine Rivetti & Giustina Morgillo",
+    "person": "Giustina Morgillo",
+    "role": "mother",
+    "event": "widowed",
+    "date": "15 Sep 1821",
+    "place": "Arienzo",
+    "evidence": "named as his wife — another Morgillo–Rivetti marriage",
+    "ark": "ANTENATI an_ua14323 img23r"
+   }
+  ]
  }
 ]
