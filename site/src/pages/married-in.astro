@@ -9,6 +9,70 @@ const withheld = other.reduce((a, g) => a + g.withheld, 0);
 const big = other.filter((g) => g.n >= 3);
 const small = other.filter((g) => g.n > 0 && g.n < 3);
 const onlyLiving = other.filter((g) => g.n === 0);
+
+// A short account for the branches big enough to have one. Everything here is
+// either in the tables below or sourced elsewhere on the site; nothing new is asserted.
+const STORY = {
+  "Zampiello": `The rarest name in this family by a wide margin — about <strong>123 bearers in the
+    world</strong>, and in the Italian records only one town: <strong>Arpaia</strong>, eight hundred
+    people, four kilometres from Arienzo across the provincial border. Two Falco brothers of Forchia
+    married two Zampiello sisters of Arpaia and both couples came to Brisbane; two more sisters
+    followed, marrying into <strong>Servodio</strong> and <strong>Miceli</strong>. Their father
+    <strong>Angelo Zampiello</strong>, born 31 August 1895, holds the family's Croce al Merito di
+    Guerra for East Africa. <a href="/TheFalco/zampiello/">The Zampiello page</a>.`,
+  "Crisci": `The family that married into this line <strong>twice in one generation</strong> —
+    Andreana Crisci to Vincenzo Falco, and Arcangelo Crisci to Vincenzo's sister Anna. There are two
+    Arcangelo Crisci alive at once, aged fifty-two and thirty in 1817, and the 1820 register settled
+    which was which. They are of strada Camellara, the family's own street.`,
+  "Annecchino": `A <strong>Forchia</strong> name, and the one that brought this line north out of
+    Arienzo: Carminantonio Falco married <strong>Filomena Annecchino</strong>, born 10 April 1897, and
+    the couple are buried side by side at Nudgee in Brisbane. Her own birth act has never been found —
+    the Forchia births of 1897 are one of two volumes at Benevento that were never digitised.`,
+  "Morgillo": `The second weld. Raffaele Falco of generation four married <strong>Angela Rosa
+    Morgillo</strong>, born at San Felice on 24 February 1818. The Arienzo Morgillo are now two
+    households — one on Monticello de' Cappuccini, one on strada Nuova di San Gaetano — and one of
+    them stood beside a Falco at a town-hall desk in 1826.
+    <a href="/TheFalco/morgillo/">The Morgillo page</a>.`,
+  "Falcone": `<strong>Not, on this archive's reading, the same family.</strong> The Falcone of
+    <strong>Capua and Caserta</strong> — Agostino, born about 1740, and his descendants through Capua,
+    Galluccio and Frosinone — were once carried at the head of this line. They were removed:
+    <strong>Matteo Falco of Arienzo replaces Agostino Falcone</strong>, on the evidence of the Arienzo
+    baptisms. FamilySearch's index still treats Falco and Falcone as one name, which is how the
+    confusion began. They are kept here because the tree keeps them, and because a reader looking for
+    Falcone of Caserta should find what this archive holds and what it decided.`,
+  "Mazza": `A <strong>Sicilian</strong> branch, and the only one in this archive from outside Campania
+    proper. <strong>Giovanni Mazza</strong> was born at <strong>Piedimonte Etneo</strong>, on the
+    eastern slope of Etna, on 28 April 1875 and died there in 1960; his son <strong>Sebastian</strong>,
+    born 1920 in the same town, died at <strong>Brisbane</strong> in 2002. The family therefore crossed
+    the same water as the Falco and the Zampiello, from the other end of Italy, and met them here.`,
+  "Prostamo": `From <strong>Briatico</strong> in Calabria, on the Tyrrhenian coast north of Vibo
+    Valentia. <strong>Domenica Prostamo</strong>, born March 1928 at Briatico, died at Brisbane in
+    2010, having married into the Sicilian Mazza. One detail in this branch is worth more work than it
+    has had: her mother <strong>Maria Rosa Melluso was born in NEW YORK</strong> on 14 October 1907 and
+    died at Briatico in 1994 — an emigration and a return, two generations before the Australian one.`,
+  "Zaino": `From <strong>Durazzano</strong>, a Benevento comune a few kilometres from Arpaia, and a
+    name that also appears in the Arienzo registers. Lorenzo Zaino (1860–1945) and Costanza Abatiello
+    (1871–1955) both lived and died there; their son <strong>Bartolomeo Michael Zaino</strong>, born at
+    Durazzano on 20 June 1894, died at <strong>Westbury, Nassau County, New York</strong> in 1963. The
+    same valley sent people to two continents.`,
+  "Servodio": `<strong>Michele Servodio</strong> (1930–2021) married <strong>Raffaela Zampiello</strong>
+    (1930–2021), one of the four Arpaia sisters who reached Queensland. They died at Brisbane six weeks
+    apart. Their Brisbane immigration file is named in the National Archives and has never been read.`,
+  "Ferrara": `Two Ferrara families sit here and this archive has not joined them. One is of
+    <strong>Arpaia</strong>, where Giuseppa Ferrara was born on 29 June 1912 and where a Ferrara married
+    Angelo Zampiello. The other is of <strong>San Felice a Cancello</strong>, where Giovanni Ferrara was
+    born in 1848 and married a Maria Falco. Three more Ferrara lie at Nudgee in Brisbane.`,
+  "Bucolo": `Seven Bucolo are buried at <strong>Nudgee Cemetery</strong> in Brisbane, and every one of
+    them is in this archive only because of that index. The family tree marks its Bucolo as living; the
+    graves say otherwise, which is why they appear here. Nothing yet places them in Italy.`,
+  "Rivetti": `Chiara Rivetti married Pasquale Falco of generation two, and her parents are the oldest
+    unanswered question in this archive: her 1843 burial calls her «filia quondam NICOLAI et ANNA», and
+    <strong>two different couples of Arienzo answer to those names</strong> — one gentry, one labouring.
+    Reading twenty registers has shown the Rivetti spanning the whole social range of the town, from
+    bracciali to a Don, an apothecary, a priest and a nun, so the forenames settle nothing.
+    <a href="/TheFalco/open-questions/">Open questions</a>.`,
+};
+
 const span = (g) => (g.first && g.last ? (g.first === g.last ? `${g.first}` : `${g.first}–${g.last}`) : "—");
 ---
 <Base title="Married in"
@@ -42,6 +106,7 @@ const span = (g) => (g.first && g.last ? (g.first === g.last ? `${g.first}` : `$
         {span(g)}{g.places.length ? " · " + g.places.join(" · ") : ""}
         {" · "}<a href={u("/register") + "?q=" + encodeURIComponent(g.surname)}>every {g.surname} in the register →</a>
       </p>
+      {STORY[g.surname] ? <p set:html={STORY[g.surname]} /> : null}
       {g.marriages.length ? (
         <p class="small" style="margin-bottom:.5rem"><strong>Joined by marriage:</strong>{" "}
           {g.marriages.map((m, i) => (<span>{i ? " · " : ""}{m.who} &amp; {m.to}</span>))}</p>
