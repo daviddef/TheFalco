@@ -1516,6 +1516,16 @@
     "place": "Arienzo, strada Travo",
     "evidence": "«Angelo Morgillo fu Simone, di anni cinquanta, di professione contadino, domiciliato in questo comune, strada Travo» — born about 1768",
     "ark": "ANTENATI an_ua14320 img31r"
+   },
+   {
+    "household": "Angelo Morgillo fu Simone (strada Travo)",
+    "person": "Angelo Morgillo",
+    "role": "head",
+    "event": "—",
+    "date": "1816 and 1828",
+    "place": "Arienzo, strada Trave, later strada Cappuccini",
+    "evidence": "JOINED. The 1816 register (atto 23) buries GAETANA LAUDATO, 78, «vedova di SIMONE MORGILLO», of strada Trave, and the declarants are ANGELO MORGILLO, 58, of that street and Giuseppe Morgillo, «figlio della defunta». Angelo at 58 in 1816 is exactly the ANGELO MORGILLO, 70, COLONO of strada Cappuccini who declares in 1828 and heads the Monticello de' Cappuccini household. So this man and the head of that house are the same, and his parents are SIMONE MORGILLO and GAETANA LAUDATO (b. c. 1738).",
+    "ark": "ANTENATI an_ua14318 img13r atto23"
    }
   ]
  },
@@ -1976,6 +1986,26 @@
     "place": "Arienzo, Monticello de' Cappuccini",
     "evidence": "29 in May 1828, 32 in December. Husband of Felicetta Rivetti; their one-year-old Grazia died on 30 October, declared by his brother Nicola as «zio della defunta».",
     "ark": "ANTENATI an_ua14330 img38l atto56"
+   },
+   {
+    "household": "Angelo Morgillo (colono, Monticello de' Cappuccini)",
+    "person": "Angelo Morgillo",
+    "role": "head",
+    "event": "—",
+    "date": "1816",
+    "place": "Arienzo, strada Trave",
+    "evidence": "His parents, from the 1816 register: SIMONE MORGILLO and GAETANA LAUDATO, who died on 9 March 1816 aged seventy-eight, «vedova di Simone Morgillo», of strada Trave. Angelo declared it himself, aged fifty-eight — which is exactly seventy in 1828.",
+    "ark": "ANTENATI an_ua14318 img13r atto23"
+   },
+   {
+    "household": "Angelo Morgillo (colono, Monticello de' Cappuccini)",
+    "person": "Gaetana Laudato",
+    "role": "mother",
+    "event": "death",
+    "date": "9 Mar 1816",
+    "place": "Arienzo, strada Trave",
+    "evidence": "«GAETANA LAUDATO figlia delli fu Giacinto Laudato e Giovanna —, VEDOVA DI SIMONE MORGILLO, di anni SETTANTOTTO, contadina, domiciliata nella strada Trave» — born about 1738, the deepest this archive reaches into the Morgillo.",
+    "ark": "ANTENATI an_ua14318 img13r atto23"
    }
   ]
  },
