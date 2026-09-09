@@ -116,7 +116,7 @@ says so, rather than silently averaging the ages.
 Falco, and until now the Rivetti were a surname with almost nothing behind it. This volume names:
 **Francesco Rivetti** (35, *vaticale*, strada Sant'Andrea — three sightings), **Salvatore Rivetti**
 (44, same trade and street), **Giuseppe Rivetti** (25, Sant'Andrea; and 38, *bracciale*, **strada
-Camellara**), **Luigi Rivetti** (75 — born about 1743, the oldest Rivetti found anywhere),
+Camellara**), **Nunzio Rivetti** (35, *bracciale*, **strada Camellara**),
 **Maria Rivetti** (daughter of Paolo Rivetti and Caterina Madonna, wife of Giuseppe Martone),
 another **Maria Rivetti** (daughter of Francesco Rivetti and Andreana Laudato), **Alessandra
 Rivetti** (wife of Domenico d'Onofrio) and **Michedalena Rivetti** (see below).
@@ -147,6 +147,26 @@ gives Andreana Crisci's mother.
 **The clergy and gentry of Arienzo, incidentally.** Padre Agostino Pignatelli; Don Antonio Martone
 and Don Biaggio Giglio, both *sacerdoti*; Donn'Angela Piccolo, widow of Don Tomaso d'Ambrosio;
 Don Giuseppe Migliore; Don Sabbatino Sossi; Don Gianvincenzo Sanseverino; Suor Andreana Sgambato.
+
+## Two originals exist, and they do not always agree — read the clearer one
+
+`an_ua14320` (Arienzo, Morti 1818) opens with the **same acts** that close this volume: its images
+3–13 are the 1818 acts that `an_ua14319` carries at images 78–88. They are **two independent
+originals** of the same register — the law required a second copy — written out by two clerks, and
+they differ in detail.
+
+The one that caught this archive out: the declarant at the death of Maria Rivetti on 1 January 1818.
+In `an_ua14319` this reading first recorded **«Luigi Rivetti, 75, bracciale, strada Annunziata»**.
+The `an_ua14320` copy is cleaner and reads, unambiguously at full resolution, **«Nunzio Rivetti, di
+anni trentacinque, di professione bracciale»**, of **strada Camellara**. Name, age and street all
+wrong in the first reading, and the corrected version is the more interesting one — another Rivetti
+on the family's street. Corrected throughout.
+
+Other small divergences in the overlap: Bartolomeo Diglio 30 vs 31; Francesco Martone 48 vs 34 vs
+40 in three different acts.
+
+**The rule this gives:** where an act exists in both originals, read both, and prefer the clearer
+hand. An age or a street from a single copy is one clerk's word, not the register's.
 
 ## A note on how these volumes are bound
 
@@ -302,7 +322,7 @@ are written down as read rather than left out.
 | img | date | deceased | parents | spouse | declarants |
 |---|---|---|---|---|---|
 | 77R | 1 Jan | Andrea Saccavino | — | m. Margarita Verdicchio | Nicola Sossi 38 bottegaio; **Ruggiero Crisci 61 contadino**, strada Porta di Sopra |
-| 78L | 1 Jan | Maria Rivetti | **Francesco Rivetti** & Andreana Laudato | — | **Luigi Rivetti 75 bracciale**, strada Annunziata (the oldest Rivetti yet); Domenico Copa 45 — vicino e **parente** |
+| 78L | 1 Jan | Maria Rivetti | **Francesco Rivetti** & Andreana Laudato | — | **Nunzio Rivetti 35 bracciale, strada Camellara**; Domenico Copa 45 — vicino e **parente** |
 | 78R | 3 Jan | Antonia Sforza | fu Decio Sforza & Francesca Cimmino | ved. Gennaro Maggiore | Bartolomeo Diglio 30 contadino, **strada Camellara**; Francesco Martone 48 cantiniere, **strada Camellara** |
 | 79L | 4 Jan | Antonia Cimmino | Nunzio Cimmino & Teresa Diglio | m. Raffaele Grasso | Giovanni Morgillo 24 contadino; Antonio Cimmino 36 vaticale |
 | 79R | 4 Jan | Nicola Morgillo | fu Nicola Morgillo & Rosolina Bruno | — | **Nicola Morgillo 30 cavajolo, strada Camellara; Luigi Giglio 37 falegname, strada Camellara** — a MORGILLO HOUSEHOLD ON CAMELLARA |
