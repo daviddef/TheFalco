@@ -7,7 +7,7 @@ the *Distretto di Nola* line that appears in the 1829–36 volumes is not yet in
 **Layout:** unlike the 1829–36 volumes, the 1816 form runs the deceased, **both parents** and the
 spouse together in one sentence low in the act, and gives **no age for the deceased** in most acts.
 The crop that works is left `10,26,44,15` / right `52,26,44,15` at width 1200.
-**Images 46–47** hold a blank form and a second, partial copy of the register's opening (act 1 again).
+**Image 46 (right)** is a blank form and **image 47 holds the first act of 1817**, bound on at the end — not, as first read, a re-photograph of this year's act 1.
 
 ## The headline: no Falco died in Arienzo in 1816 — but two Falco appear, and a Falco marriage surfaces
 
@@ -63,12 +63,11 @@ reservation written into the evidence line, not silently merged.**
 
 ## The null that matters most
 
-**No burial of Raffaele Falco.** Vincenzo Falco and Andreana Crisci registered a son **Raffaele on
-25 April 1816** and registered a son **Raffaele again on 10 May 1818**. Neapolitan families reused a
-name only after the first child died. The whole point of reading this volume was to find the first
-Raffaele's burial between those dates. **It is not in the 1816 death register** — all 84 acts read.
-That leaves 1817 (`an_ua14320` is 1818; 1817 is `an_ua14319`) and the first four months of 1818.
-Until one of those produces him, **generation four stays `disputed`.**
+**No burial of Raffaele Falco here** — all 84 acts read. Vincenzo Falco and Andreana Crisci
+registered a son **Raffaele on 25 April 1816** and again on **10 May 1818**, and the point of this
+sweep was to find the first one's burial between those dates. It is not in this volume.
+**It is in the next one:** `an_ua14319`, image 61 left, **28 October 1817**. Generation four is
+settled and no longer `disputed`. See `notes/1817-death-register-progress.md`.
 
 No Falco of any kind is recorded as dying in Arienzo in 1816.
 
@@ -99,9 +98,13 @@ No Falco of any kind is recorded as dying in Arienzo in 1816.
   Declarant **Nicola Morgillo**, 27, bracciale.
 - **Act 84, 27 December — Teresa Diglio**, daughter of Salvatore Diglio and Maria di Felice.
   Declarant **Domenico Sarno**, 28, bracciale. The last act of the year.
-- **Act 1, 6 January (re-photographed at image 47) — Carmina Zampano**, 78, *filatrice*, daughter of
-  the late Nicola Zampano and Domenica di S. Felice, widow of ——. Declarants **Michele Angioino**,
-  41, *calzolaio*, and Giuseppe Sparano(?), 29, bracciale.
+- **Image 47 is not 1816 at all — it is the first act of 1817**, bound into the tail of this volume:
+  **Carmina Zampano**, 78, *filatrice*, daughter of the late Nicola Zampano and Domenica di S.
+  Felice, widow of Gennaro Latorre, 6 January 1817. Declarants **Michele Angioino**, 41,
+  *calzolaio*, and Giuseppe Sparano(?), 29, bracciale. (Corrected after reading `an_ua14319`, which
+  opens with the same act. The binder ran the year's spare leaves on into the next year — the 1817
+  volume does the same thing, carrying the first two months of 1818. See
+  `notes/1817-death-register-progress.md`.)
 
 Names marked (?) are the ones the strip did not settle; they are written down as read rather than
 left out, and none of them is a Falco.

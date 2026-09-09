@@ -342,3 +342,795 @@ year	img	side	name	age	detail	ark
 1818	43	R	Fortunato Giglio	41	aged 41 · falegname · strada Sant'Andrea · declares a birth	an_ua14415
 1818	44	L	Fausto de Martino	28	aged 28 · bracciale · declares a birth	an_ua14415
 1818	44	R	Francesco Crisci	28	aged 28 · bracciale · strada Croce dell'Ospedale · declares a birth	an_ua14415
+1817	47		Nicola Zampano		named as a parent of Carmina Zampano, 78, filatrice, strada Torre Amonte, 6 Jan	an_ua14319
+1817	47		Domenica di S. Felice		named as a parent of Carmina Zampano, 78, filatrice, strada Torre Amonte, 6 Jan	an_ua14319
+1817	47		Gennaro Latorre		named as the spouse of Carmina Zampano, 78, filatrice, strada Torre Amonte, 6 Jan	an_ua14319
+1817	47		Michele Angioino		declarant at the death of Carmina Zampano, 78, filatrice, strada Torre Amonte, 6 Jan — Michele Angioino 41 calzolaio	an_ua14319
+1817	47		Giuseppe Sparano		declarant at the death of Carmina Zampano, 78, filatrice, strada Torre Amonte, 6 Jan — Giuseppe Sparano 29 bracciale	an_ua14319
+1817	3		Vincenzo Anigale		died 14 Jan — read in the death register	an_ua14319
+1817	3		Salvatore Anigale		named as a parent of Vincenzo Anigale, 14 Jan	an_ua14319
+1817	3		Rosa Altavilla		named as a parent of Vincenzo Anigale, 14 Jan	an_ua14319
+1817	3		Nicoletta Ruggiero		named as the spouse of Vincenzo Anigale, 14 Jan	an_ua14319
+1817	3		Giacinto Laudato		declarant at the death of Vincenzo Anigale, 14 Jan — Giacinto Laudato 34 bracciale, strada Croce	an_ua14319
+1817	3		Luca Diglio		declarant at the death of Vincenzo Anigale, 14 Jan — Luca Diglio	an_ua14319
+1817	3		Antonio Cimmino		died 21 Jan — read in the death register	an_ua14319
+1817	3		Alessandro Cimmino		named as a parent of Antonio Cimmino, 21 Jan	an_ua14319
+1817	3		Rosa —		named as a parent of Antonio Cimmino, 21 Jan	an_ua14319
+1817	3		Domenico Cimmino bracciale		declarant at the death of Antonio Cimmino, 21 Jan — Domenico Cimmino bracciale (zio del defunto)	an_ua14319
+1817	4		Orsola Angioino		died 21 Jan — read in the death register	an_ua14319
+1817	4		Giuseppe Angioino		named as a parent of Orsola Angioino, 21 Jan	an_ua14319
+1817	4		Ippolita Fal—tillo		named as a parent of Orsola Angioino, 21 Jan	an_ua14319
+1817	4		Andrea Sossi		declarant at the death of Orsola Angioino, 21 Jan — Andrea Sossi 56 bracciale, strada Camellara	an_ua14319
+1817	4		Marcello Sossi		declarant at the death of Orsola Angioino, 21 Jan — Marcello Sossi 26 bracciale	an_ua14319
+1817	4		Francesco Sansone		died 22 Jan — read in the death register	an_ua14319
+1817	4		Giuseppe Sansone		named as a parent of Francesco Sansone, 22 Jan	an_ua14319
+1817	4		Chiara Vecchio		named as a parent of Francesco Sansone, 22 Jan	an_ua14319
+1817	4		Maria Rosa Panella		named as the spouse of Francesco Sansone, 22 Jan	an_ua14319
+1817	4		Nicola Sossi		declarant at the death of Francesco Sansone, 22 Jan — Nicola Sossi 38 barbiere, strada Sotto le Logge	an_ua14319
+1817	4		Giuseppe delle Cave		declarant at the death of Francesco Sansone, 22 Jan — Giuseppe delle Cave 42 bracciale	an_ua14319
+1817	5		Maria Gaeta		died 24 Jan — read in the death register	an_ua14319
+1817	5		Aniello Gaeta		named as a parent of Maria Gaeta, 24 Jan	an_ua14319
+1817	5		Teresa Vecone		named as a parent of Maria Gaeta, 24 Jan	an_ua14319
+1817	5		Vincenzo Detto		named as the spouse of Maria Gaeta, 24 Jan	an_ua14319
+1817	5		Febbronia di Sortella		died 25 Jan — read in the death register	an_ua14319
+1817	5		Giuseppe di Sortella		named as a parent of Febbronia di Sortella, 25 Jan	an_ua14319
+1817	5		Rosa Sossi		named as a parent of Febbronia di Sortella, 25 Jan	an_ua14319
+1817	6		Domenico Ruggiero		died 21 Jan — read in the death register	an_ua14319
+1817	6		Matteo Ruggiero		named as a parent of Domenico Ruggiero, 21 Jan	an_ua14319
+1817	6		Maria Rosa Migliore		named as a parent of Domenico Ruggiero, 21 Jan	an_ua14319
+1817	6		Angelo Bernardo		declarant at the death of Domenico Ruggiero, 21 Jan — Angelo Bernardo 40 falegname, strada Croce	an_ua14319
+1817	6		Raffaele Verdicchio		declarant at the death of Domenico Ruggiero, 21 Jan — Raffaele Verdicchio 22	an_ua14319
+1817	6		Giovanna Perignano		died 30 Jan — read in the death register	an_ua14319
+1817	6		Gennaro Perignano		named as a parent of Giovanna Perignano, 30 Jan	an_ua14319
+1817	6		Rosa di Biondo		named as a parent of Giovanna Perignano, 30 Jan	an_ua14319
+1817	6		Giuseppe Sansone		named as the spouse of Giovanna Perignano, 30 Jan	an_ua14319
+1817	6		Matteo Diglio		declarant at the death of Giovanna Perignano, 30 Jan — Matteo Diglio 40 calzolaio, strada Mercato di S. Angelo	an_ua14319
+1817	7		Rosa Terracciano		died 3 Feb — read in the death register	an_ua14319
+1817	7		Gennaro Terracciano		named as a parent of Rosa Terracciano, 3 Feb	an_ua14319
+1817	7		Rosa Sorrino		named as a parent of Rosa Terracciano, 3 Feb	an_ua14319
+1817	7		Carmine Marletta		declarant at the death of Rosa Terracciano, 3 Feb — Carmine Marletta 28 bracciale, strada Croce	an_ua14319
+1817	7		Domenico delle Cave		declarant at the death of Rosa Terracciano, 3 Feb — Domenico delle Cave 25 bracciale	an_ua14319
+1817	7		Antonio Grasso		died 4 Feb — read in the death register	an_ua14319
+1817	7		Girolamo Grasso		named as a parent of Antonio Grasso, 4 Feb	an_ua14319
+1817	7		Domenica Salsi		named as a parent of Antonio Grasso, 4 Feb	an_ua14319
+1817	7		Giovanni Gimbardo		declarant at the death of Antonio Grasso, 4 Feb — Giovanni Gimbardo 50 bracciale, strada Capodiuomo	an_ua14319
+1817	7		Luigi Mentone		declarant at the death of Antonio Grasso, 4 Feb — Luigi Mentone 40 colono	an_ua14319
+1817	8		Clemente Gimbardo		died 11 Feb — read in the death register	an_ua14319
+1817	8		Francesco Gimbardo		named as a parent of Clemente Gimbardo, 11 Feb	an_ua14319
+1817	8		Maria Diglio		named as a parent of Clemente Gimbardo, 11 Feb	an_ua14319
+1817	8		Aniello Diglio		declarant at the death of Clemente Gimbardo, 11 Feb — Aniello Diglio 46 bracciale, strada Capodiuomo	an_ua14319
+1817	8		Giovanni Gimbardo		declarant at the death of Clemente Gimbardo, 11 Feb — Giovanni Gimbardo 50 bracciale	an_ua14319
+1817	8		Gennaro Sansone		died 12 Feb — read in the death register	an_ua14319
+1817	8		Fabrizio Sansone		named as a parent of Gennaro Sansone, 12 Feb	an_ua14319
+1817	8		Angela Maria —		named as a parent of Gennaro Sansone, 12 Feb	an_ua14319
+1817	8		Angelo Sansone		declarant at the death of Gennaro Sansone, 12 Feb — Angelo Sansone 55 bracciale, strada Camellara, parente	an_ua14319
+1817	8		Giovanni Saccavino		declarant at the death of Gennaro Sansone, 12 Feb — Giovanni Saccavino 45 bracciale	an_ua14319
+1817	9		Maria Migliore		died 27 Feb — read in the death register	an_ua14319
+1817	9		Fabio Migliore		named as a parent of Maria Migliore, 27 Feb	an_ua14319
+1817	9		Giovanna Laudato		named as a parent of Maria Migliore, 27 Feb	an_ua14319
+1817	9		Matteo Cimmino		named as the spouse of Maria Migliore, 27 Feb	an_ua14319
+1817	9		Fortunato Giglio		declarant at the death of Maria Migliore, 27 Feb — Fortunato Giglio 40 falegname, strada Sant'Andrea	an_ua14319
+1817	9		Angelo Cimmino		declarant at the death of Maria Migliore, 27 Feb — Angelo Cimmino 41 bracciale	an_ua14319
+1817	9		Colomba Laudato		died 1 Mar — read in the death register	an_ua14319
+1817	9		Aniello Laudato		named as a parent of Colomba Laudato, 1 Mar	an_ua14319
+1817	9		Marta Martone		named as a parent of Colomba Laudato, 1 Mar	an_ua14319
+1817	9		Stefano Cimmino		declarant at the death of Colomba Laudato, 1 Mar — Stefano Cimmino 63 contadino, strada Capodiuomo	an_ua14319
+1817	9		Raffaele Martone		declarant at the death of Colomba Laudato, 1 Mar — Raffaele Martone 70 contadino	an_ua14319
+1817	10		Mariantonia Terracciano		died 12 Mar — read in the death register	an_ua14319
+1817	10		Gennaro Terracciano		named as a parent of Mariantonia Terracciano, 12 Mar	an_ua14319
+1817	10		Teresa Sorrino		named as a parent of Mariantonia Terracciano, 12 Mar	an_ua14319
+1817	10		Francesco delle Cave		declarant at the death of Mariantonia Terracciano, 12 Mar — Francesco delle Cave 21 bracciale, strada dell'Ospedale	an_ua14319
+1817	10		Antonio Anigale		died 21 Mar — read in the death register	an_ua14319
+1817	10		Domenico Anigale		named as a parent of Antonio Anigale, 21 Mar	an_ua14319
+1817	10		Giovanna Migliore		named as a parent of Antonio Anigale, 21 Mar	an_ua14319
+1817	10		Vincenzo Grasso		declarant at the death of Antonio Anigale, 21 Mar — Vincenzo Grasso 22 vaticale, strada Capodiuomo	an_ua14319
+1817	10		Girolamo Grasso		declarant at the death of Antonio Anigale, 21 Mar — Girolamo Grasso 47 vaticale	an_ua14319
+1817	11		Donn'Antonia Melillo		died 20 Mar — read in the death register	an_ua14319
+1817	11		Don Giuseppe Melillo		named as a parent of Donn'Antonia Melillo, 20 Mar	an_ua14319
+1817	11		Donna Fiaschina degli Filippi		named as a parent of Donn'Antonia Melillo, 20 Mar	an_ua14319
+1817	11		Don Salvatore Romano		named as the spouse of Donn'Antonia Melillo, 20 Mar	an_ua14319
+1817	11		Giuseppe Sorrino		declarant at the death of Donn'Antonia Melillo, 20 Mar — Giuseppe Sorrino 57 sartore	an_ua14319
+1817	11		Nicola Sorrino		declarant at the death of Donn'Antonia Melillo, 20 Mar — Nicola Sorrino 42 sartore	an_ua14319
+1817	11		Vincenzo Pacchiuto		died 23 Mar — read in the death register	an_ua14319
+1817	11		Andrea Pacchiuto		named as a parent of Vincenzo Pacchiuto, 23 Mar	an_ua14319
+1817	11		Antonia Tuorto		named as a parent of Vincenzo Pacchiuto, 23 Mar	an_ua14319
+1817	11		Giuseppe Sorrino		declarant at the death of Vincenzo Pacchiuto, 23 Mar — Giuseppe Sorrino 55 sartore	an_ua14319
+1817	11		Nicola Sorrino		declarant at the death of Vincenzo Pacchiuto, 23 Mar — Nicola Sorrino 42 sarto	an_ua14319
+1817	12		Francesco Bruno		died 1 Apr — read in the death register	an_ua14319
+1817	12		Don Carlantonio Bruno		named as a parent of Francesco Bruno, 1 Apr	an_ua14319
+1817	12		Donna Teresa Migliore		named as a parent of Francesco Bruno, 1 Apr	an_ua14319
+1817	12		Ottavio Migliore		declarant at the death of Francesco Bruno, 1 Apr — Ottavio Migliore 40 barbiere, strada Croce	an_ua14319
+1817	12		Tomase Bruno		declarant at the death of Francesco Bruno, 1 Apr — Tomase Bruno 59 vetturale, strada Portella	an_ua14319
+1817	12		Giovanna Giglio		died 7 Apr — read in the death register	an_ua14319
+1817	12		Fabrizio Giglio		named as a parent of Giovanna Giglio, 7 Apr	an_ua14319
+1817	12		Anna Scafora		named as a parent of Giovanna Giglio, 7 Apr	an_ua14319
+1817	12		Antonio d'Ambrosio		named as the spouse of Giovanna Giglio, 7 Apr	an_ua14319
+1817	12		Raffaele Saggese		declarant at the death of Giovanna Giglio, 7 Apr — Raffaele Saggese 60 fruttajolo, strada Santa Lucia	an_ua14319
+1817	12		Gregorio Diglio		declarant at the death of Giovanna Giglio, 7 Apr — Gregorio Diglio 32 fruttajolo	an_ua14319
+1817	13		Gelsomina Laudato		died 9 Apr — read in the death register	an_ua14319
+1817	13		Andrea Laudato		named as a parent of Gelsomina Laudato, 9 Apr	an_ua14319
+1817	13		Rosalia Montefusco		named as a parent of Gelsomina Laudato, 9 Apr	an_ua14319
+1817	13		Francesco Rivetti		declarant at the death of Gelsomina Laudato, 9 Apr — Francesco Rivetti 35 vaticale, strada Sant'Andrea	an_ua14319
+1817	13		Giuseppe Rivetti		declarant at the death of Gelsomina Laudato, 9 Apr — Giuseppe Rivetti 25 vaticale	an_ua14319
+1817	13		Angela Raffaela Coppola		died 12 Apr — read in the death register	an_ua14319
+1817	13		Vincenzo Coppola		named as a parent of Angela Raffaela Coppola, 12 Apr	an_ua14319
+1817	13		Felice di Sortella		named as a parent of Angela Raffaela Coppola, 12 Apr	an_ua14319
+1817	13		Michele Angioino		declarant at the death of Angela Raffaela Coppola, 12 Apr — Michele Angioino 41 calzolaio, strada Annunziata	an_ua14319
+1817	13		Stefano Bernardo		declarant at the death of Angela Raffaela Coppola, 12 Apr — Stefano Bernardo 34 sartore	an_ua14319
+1817	14		Faustina Crisci		died 13 Apr — read in the death register	an_ua14319
+1817	14		Angelo Crisci		named as a parent of Faustina Crisci, 13 Apr	an_ua14319
+1817	14		Elena Buono		named as a parent of Faustina Crisci, 13 Apr	an_ua14319
+1817	14		Vincenzo Diglio		named as the spouse of Faustina Crisci, 13 Apr	an_ua14319
+1817	14		Francesco Diglio		declarant at the death of Faustina Crisci, 13 Apr — Francesco Diglio 59 bracciale, strada Sotto le Logge	an_ua14319
+1817	14		Raffaele Diglio		declarant at the death of Faustina Crisci, 13 Apr — Raffaele Diglio 30 calzolaio, strada Portella	an_ua14319
+1817	14		Teresa Laudato		died 19 Apr — read in the death register	an_ua14319
+1817	14		Pietro Laudato		named as a parent of Teresa Laudato, 19 Apr	an_ua14319
+1817	14		Santa Majella		named as a parent of Teresa Laudato, 19 Apr	an_ua14319
+1817	14		Angelo Sansone		named as the spouse of Teresa Laudato, 19 Apr	an_ua14319
+1817	14		Domenico Migliore		declarant at the death of Teresa Laudato, 19 Apr — Domenico Migliore 56 calzolaio, strada Croce	an_ua14319
+1817	14		Giacinto Laudato		declarant at the death of Teresa Laudato, 19 Apr — Giacinto Laudato 30 vaticale	an_ua14319
+1817	15		Suor Andreana Sgambato		died 22 Apr — read in the death register	an_ua14319
+1817	15		Margarita Iannone		named as a parent of Suor Andreana Sgambato, 22 Apr	an_ua14319
+1817	15		Lorenzo Martone		declarant at the death of Suor Andreana Sgambato, 22 Apr — Lorenzo Martone 55 sartore, strada Annunziata	an_ua14319
+1817	15		Felice de Addio		declarant at the death of Suor Andreana Sgambato, 22 Apr — Felice de Addio 52 sarto	an_ua14319
+1817	15		Maria Giovanna di Cesare		died 24 Apr — read in the death register	an_ua14319
+1817	15		Don Domenico di Cesare		named as a parent of Maria Giovanna di Cesare, 24 Apr	an_ua14319
+1817	15		Angela Maria di Ciccio		named as a parent of Maria Giovanna di Cesare, 24 Apr	an_ua14319
+1817	15		Agostino Sciascia		declarant at the death of Maria Giovanna di Cesare, 24 Apr — Agostino Sciascia 30 fondachiere	an_ua14319
+1817	15		Nicola Loffredo		declarant at the death of Maria Giovanna di Cesare, 24 Apr — Nicola Loffredo 32 bracciale, strada Santa Lucia	an_ua14319
+1817	16		Mattia Oliva		died 28 Apr — read in the death register	an_ua14319
+1817	16		Raffaele Oliva		named as a parent of Mattia Oliva, 28 Apr	an_ua14319
+1817	16		Rosa Scafora		named as a parent of Mattia Oliva, 28 Apr	an_ua14319
+1817	16		Grazia Saccavino		named as the spouse of Mattia Oliva, 28 Apr	an_ua14319
+1817	16		Matteo Migliore		declarant at the death of Mattia Oliva, 28 Apr — Matteo Migliore 41 calzolaio (comune di Santa Felicia), strada Sajanella	an_ua14319
+1817	16		Angelo Diglio		declarant at the death of Mattia Oliva, 28 Apr — Angelo Diglio 50 vaticale	an_ua14319
+1817	16		Caterina Sossi		died 1 May — read in the death register	an_ua14319
+1817	16		Francesco Sossi		named as a parent of Caterina Sossi, 1 May	an_ua14319
+1817	16		Claudia di Lucia		named as a parent of Caterina Sossi, 1 May	an_ua14319
+1817	16		Giacchino Sossi		declarant at the death of Caterina Sossi, 1 May — Giacchino Sossi 22 bracciale, strada Sossi	an_ua14319
+1817	16		Luca Sossi		declarant at the death of Caterina Sossi, 1 May — Luca Sossi 50 bracciale	an_ua14319
+1817	17		Marta Ruggiero		died 2 May — read in the death register	an_ua14319
+1817	17		Aniello Ruggiero		named as a parent of Marta Ruggiero, 2 May	an_ua14319
+1817	17		Angela Vassallo		named as a parent of Marta Ruggiero, 2 May	an_ua14319
+1817	17		Bartolomeo Domenella		declarant at the death of Marta Ruggiero, 2 May — Bartolomeo Domenella 33 bracciale, strada Sotto le Logge	an_ua14319
+1817	17		Domenico Sansone		declarant at the death of Marta Ruggiero, 2 May — Domenico Sansone 30 bracciale	an_ua14319
+1817	17		Gregorio Giglio		died 3 May — read in the death register	an_ua14319
+1817	17		Segismondo Giglio		named as a parent of Gregorio Giglio, 3 May	an_ua14319
+1817	17		Fortunato Giglio		declarant at the death of Gregorio Giglio, 3 May — Fortunato Giglio 48 falegname, strada Sant'Andrea	an_ua14319
+1817	17		Salvatore Fabrizio		declarant at the death of Gregorio Giglio, 3 May — Salvatore Fabrizio 50 pettinatore	an_ua14319
+1817	18		Raffaele Verdicchio		died 8 May — read in the death register	an_ua14319
+1817	18		Paolo Verdicchio		named as a parent of Raffaele Verdicchio, 8 May	an_ua14319
+1817	18		Maria Tofano		named as a parent of Raffaele Verdicchio, 8 May	an_ua14319
+1817	18		Raffaele Verdicchio		declarant at the death of Raffaele Verdicchio, 8 May — Raffaele Verdicchio 48 corriere, strada Torre Amonte	an_ua14319
+1817	18		Raffaele di Sortella		declarant at the death of Raffaele Verdicchio, 8 May — Raffaele di Sortella 27	an_ua14319
+1817	18		Carmina Palumbo		died 17 May — read in the death register	an_ua14319
+1817	18		Giuseppe Palumbo		named as a parent of Carmina Palumbo, 17 May	an_ua14319
+1817	18		Giuseppe Martone		declarant at the death of Carmina Palumbo, 17 May — Giuseppe Martone 46 contadino, strada Santa Lucia	an_ua14319
+1817	18		Diego Sansone		declarant at the death of Carmina Palumbo, 17 May — Diego Sansone 27 contadino	an_ua14319
+1817	19		Raffaele Cimmino		died 20 May — read in the death register	an_ua14319
+1817	19		Ciofaro Cimmino		named as a parent of Raffaele Cimmino, 20 May	an_ua14319
+1817	19		Nicoletta Sossi		named as a parent of Raffaele Cimmino, 20 May	an_ua14319
+1817	19		Matteo Martone		declarant at the death of Raffaele Cimmino, 20 May — Matteo Martone 5x contadino, strada Capodiuomo	an_ua14319
+1817	19		Raffaele Martone		declarant at the death of Raffaele Cimmino, 20 May — Raffaele Martone 74 contadino	an_ua14319
+1817	19		Clemente Giovanni Esposito		died 1 Jun — read in the death register	an_ua14319
+1817	19		Biaggio Esposito		named as a parent of Clemente Giovanni Esposito, 1 Jun	an_ua14319
+1817	19		Gaetana Gabriele		named as a parent of Clemente Giovanni Esposito, 1 Jun	an_ua14319
+1817	19		Salvatore Latino		declarant at the death of Clemente Giovanni Esposito, 1 Jun — Salvatore Latino 33 sartore	an_ua14319
+1817	19		Eugenio Martone		declarant at the death of Clemente Giovanni Esposito, 1 Jun — Eugenio Martone 36 inserviente	an_ua14319
+1817	20		Gaetana Gabriele		died 4 Jun — read in the death register	an_ua14319
+1817	20		Leonardo Gabriele		named as a parent of Gaetana Gabriele, 4 Jun	an_ua14319
+1817	20		Angela Testa		named as a parent of Gaetana Gabriele, 4 Jun	an_ua14319
+1817	20		Biaggio Esposito		named as the spouse of Gaetana Gabriele, 4 Jun	an_ua14319
+1817	20		Domenico Turco		declarant at the death of Gaetana Gabriele, 4 Jun — Domenico Turco 70 corriere	an_ua14319
+1817	20		Michele Angioino		declarant at the death of Gaetana Gabriele, 4 Jun — Michele Angioino 48 calzolaio	an_ua14319
+1817	20		Paolo Verdicchio		died 8 Jun — read in the death register	an_ua14319
+1817	20		Angelo Verdicchio		named as a parent of Paolo Verdicchio, 8 Jun	an_ua14319
+1817	20		Rosa Turco		named as a parent of Paolo Verdicchio, 8 Jun	an_ua14319
+1817	20		Elena Tofano		named as the spouse of Paolo Verdicchio, 8 Jun	an_ua14319
+1817	20		Matteo Migliore		declarant at the death of Paolo Verdicchio, 8 Jun — Matteo Migliore 41 calzolaio	an_ua14319
+1817	20		Angelo Diglio		declarant at the death of Paolo Verdicchio, 8 Jun — Angelo Diglio 50 vaticale	an_ua14319
+1817	21		Domenico Mancuso		died 9 Jun — read in the death register	an_ua14319
+1817	21		Antonio Mancuso		named as a parent of Domenico Mancuso, 9 Jun	an_ua14319
+1817	21		Anna Esposito		named as a parent of Domenico Mancuso, 9 Jun	an_ua14319
+1817	21		Matteo Migliore		declarant at the death of Domenico Mancuso, 9 Jun — Matteo Migliore 44 calzolaio, comune di San Felice	an_ua14319
+1817	21		Angelo Diglio		declarant at the death of Domenico Mancuso, 9 Jun — Angelo Diglio 50 vaticale	an_ua14319
+1817	21		Rosa Turco		died 9 Jun — read in the death register	an_ua14319
+1817	21		Angelo Turco		named as a parent of Rosa Turco, 9 Jun	an_ua14319
+1817	21		Ippolita Saggese		named as a parent of Rosa Turco, 9 Jun	an_ua14319
+1817	21		Angelo Verdicchio		named as the spouse of Rosa Turco, 9 Jun	an_ua14319
+1817	21		Domenico Turco		declarant at the death of Rosa Turco, 9 Jun — Domenico Turco 70 corriere	an_ua14319
+1817	21		Raffaele Verdicchio		declarant at the death of Rosa Turco, 9 Jun — Raffaele Verdicchio 48 corriere	an_ua14319
+1817	22		Pietro Ignazio Sossi		died 15 Jun — read in the death register	an_ua14319
+1817	22		Andrea Sossi		named as a parent of Pietro Ignazio Sossi, 15 Jun	an_ua14319
+1817	22		Giuditta de Sortella		named as the spouse of Pietro Ignazio Sossi, 15 Jun	an_ua14319
+1817	22		Angelo de Sortella		declarant at the death of Pietro Ignazio Sossi, 15 Jun — Angelo de Sortella 33 vaticale, strada Sossi	an_ua14319
+1817	22		Aniello Saccavino		declarant at the death of Pietro Ignazio Sossi, 15 Jun — Aniello Saccavino 38	an_ua14319
+1817	22		Angelo Turco		named as a parent of Domenico Turco, 70, corriere, 30 Jun	an_ua14319
+1817	22		Ippolita Saggese		named as a parent of Domenico Turco, 70, corriere, 30 Jun	an_ua14319
+1817	22		Francesca Sansone		named as the spouse of Domenico Turco, 70, corriere, 30 Jun	an_ua14319
+1817	22		Cesare Diglio		declarant at the death of Domenico Turco, 70, corriere, 30 Jun — Cesare Diglio 48 contadino	an_ua14319
+1817	22		Antonio Fiso		declarant at the death of Domenico Turco, 70, corriere, 30 Jun — Antonio Fiso 35 pettinatore	an_ua14319
+1817	24		Carmina Vallone		died 19 Jun — read in the death register	an_ua14319
+1817	24		Stefano Vallone		named as a parent of Carmina Vallone, 19 Jun	an_ua14319
+1817	24		Rosa Rasparella		named as a parent of Carmina Vallone, 19 Jun	an_ua14319
+1817	24		Saverio Raffaella		declarant at the death of Carmina Vallone, 19 Jun — Saverio Raffaella 40 sportellaro	an_ua14319
+1817	24		Michele Angioino		declarant at the death of Carmina Vallone, 19 Jun — Michele Angioino 44 calzolaio	an_ua14319
+1817	24		Raffaela Montefusco		died 21 Jun — read in the death register	an_ua14319
+1817	24		Luigi Montefusco		named as a parent of Raffaela Montefusco, 21 Jun	an_ua14319
+1817	24		Francesca Saggese		named as a parent of Raffaela Montefusco, 21 Jun	an_ua14319
+1817	24		Andrea Laudato		named as the spouse of Raffaela Montefusco, 21 Jun	an_ua14319
+1817	24		Francesco Rivetti		declarant at the death of Raffaela Montefusco, 21 Jun — Francesco Rivetti 35 vaticale, strada Sant'Andrea (2nd sighting)	an_ua14319
+1817	24		Fedele Laudato		declarant at the death of Raffaela Montefusco, 21 Jun — Fedele Laudato 28 vaticale	an_ua14319
+1817	25		Stefano Vallone		died 24 Jun — read in the death register	an_ua14319
+1817	25		Raffaele Vallone		named as a parent of Stefano Vallone, 24 Jun	an_ua14319
+1817	25		Vittoria de Sortella		named as a parent of Stefano Vallone, 24 Jun	an_ua14319
+1817	25		Rosa Rasparella		named as the spouse of Stefano Vallone, 24 Jun	an_ua14319
+1817	25		Raffaele Vallone		declarant at the death of Stefano Vallone, 24 Jun — Raffaele Vallone 40 contadino	an_ua14319
+1817	25		Saverio Rasparella		declarant at the death of Stefano Vallone, 24 Jun — Saverio Rasparella 47	an_ua14319
+1817	25		Maria Rosa Sansone		died 21 Jun — read in the death register	an_ua14319
+1817	25		Salvatore Sansone		named as a parent of Maria Rosa Sansone, 21 Jun	an_ua14319
+1817	25		Gaetano Venafra		declarant at the death of Maria Rosa Sansone, 21 Jun — Gaetano Venafra 30 calzolajo, strada Santa Lucia	an_ua14319
+1817	25		Antonio Cesarino		declarant at the death of Maria Rosa Sansone, 21 Jun — Antonio Cesarino 34 contadino	an_ua14319
+1817	26		Maro Esposito		died 28 Jun — read in the death register	an_ua14319
+1817	26		Fano Esposito		named as a parent of Maro Esposito, 28 Jun	an_ua14319
+1817	26		Antonia Affinita		named as a parent of Maro Esposito, 28 Jun	an_ua14319
+1817	26		Angela Martone		named as the spouse of Maro Esposito, 28 Jun	an_ua14319
+1817	26		Matteo Migliore		declarant at the death of Maro Esposito, 28 Jun — Matteo Migliore 44 calzolaio	an_ua14319
+1817	26		Giuseppe Luca Venafra		died 30 Jun — read in the death register	an_ua14319
+1817	26		Andrea Venafra		named as a parent of Giuseppe Luca Venafra, 30 Jun	an_ua14319
+1817	26		Giuseppa Daddo		named as a parent of Giuseppe Luca Venafra, 30 Jun	an_ua14319
+1817	26		Angelo Migliore		declarant at the death of Giuseppe Luca Venafra, 30 Jun — Angelo Migliore 32 sartore, strada Croce	an_ua14319
+1817	26		Cosstantino di Meo		declarant at the death of Giuseppe Luca Venafra, 30 Jun — Cosstantino di Meo 28	an_ua14319
+1817	27		Aniello Vetrone		died 2 Jul — read in the death register	an_ua14319
+1817	27		Damiano Vetrone		named as a parent of Aniello Vetrone, 2 Jul	an_ua14319
+1817	27		Vittoria Martone		named as the spouse of Aniello Vetrone, 2 Jul	an_ua14319
+1817	27		Marzio Marletta		declarant at the death of Aniello Vetrone, 2 Jul — Marzio Marletta 54 sarto, strada Torre Mercato	an_ua14319
+1817	27		Luigi Verdicchio		declarant at the death of Aniello Vetrone, 2 Jul — Luigi Verdicchio 28 calzolaio	an_ua14319
+1817	27		Nicola Lettiero		died 6 Jul — read in the death register	an_ua14319
+1817	27		Biaggio Lettiero		named as a parent of Nicola Lettiero, 6 Jul	an_ua14319
+1817	27		Sabrina Spanella		named as a parent of Nicola Lettiero, 6 Jul	an_ua14319
+1817	27		Domenico Latino		declarant at the death of Nicola Lettiero, 6 Jul — Domenico Latino 50 contadino, strada Coppa	an_ua14319
+1817	27		Giuseppe Sorrino		declarant at the death of Nicola Lettiero, 6 Jul — Giuseppe Sorrino 30 contadino	an_ua14319
+1817	29		Giovanni Majone		died 9 Jul — read in the death register	an_ua14319
+1817	29		Nicola Majone		named as a parent of Giovanni Majone, 9 Jul	an_ua14319
+1817	29		Maria Casella		named as a parent of Giovanni Majone, 9 Jul	an_ua14319
+1817	29		Rosa Gimbardo		named as the spouse of Giovanni Majone, 9 Jul	an_ua14319
+1817	29		Pietro Saggese		declarant at the death of Giovanni Majone, 9 Jul — Pietro Saggese 31 vaticale, strada Croce	an_ua14319
+1817	29		Antonio Sansone		declarant at the death of Giovanni Majone, 9 Jul — Antonio Sansone 44 contadino	an_ua14319
+1817	29		Gelsomina Manarella		died 10 Jul — read in the death register	an_ua14319
+1817	29		Francescantonio Manarella		named as a parent of Gelsomina Manarella, 10 Jul	an_ua14319
+1817	29		Gasparino delle Selva		named as the spouse of Gelsomina Manarella, 10 Jul	an_ua14319
+1817	29		Arcangelo Gimbardo		declarant at the death of Gelsomina Manarella, 10 Jul — Arcangelo Gimbardo 38 contadino, strada Coppa	an_ua14319
+1817	29		Vincenzo Verdicchio		declarant at the death of Gelsomina Manarella, 10 Jul — Vincenzo Verdicchio 46 contadino	an_ua14319
+1817	31		Carmina de Rosa		died 12 Jul — read in the death register	an_ua14319
+1817	31		Francescantonio de Rosa		named as a parent of Carmina de Rosa, 12 Jul	an_ua14319
+1817	31		Gelsomina delle Cave		named as a parent of Carmina de Rosa, 12 Jul	an_ua14319
+1817	31		Francescantonio Manarella		declarant at the death of Carmina de Rosa, 12 Jul — Francescantonio Manarella 45 bracciale, strada Croce	an_ua14319
+1817	31		Arcangelo Gimbardo		declarant at the death of Carmina de Rosa, 12 Jul — Arcangelo Gimbardo 38 contadino	an_ua14319
+1817	31		Anna Francesca Gimbardo		died 15 Jul — read in the death register	an_ua14319
+1817	31		Antonio Gimbardo		named as a parent of Anna Francesca Gimbardo, 15 Jul	an_ua14319
+1817	31		Gelsomina Scafora		named as a parent of Anna Francesca Gimbardo, 15 Jul	an_ua14319
+1817	31		Antonio de Sortella		declarant at the death of Anna Francesca Gimbardo, 15 Jul — Antonio de Sortella 30 contadino	an_ua14319
+1817	31		Nicola Morgillo		declarant at the death of Anna Francesca Gimbardo, 15 Jul — Nicola Morgillo 28 contadino	an_ua14319
+1817	32		Giovanna Sossi		died 15 Jul — read in the death register	an_ua14319
+1817	32		Aniello Sossi		named as a parent of Giovanna Sossi, 15 Jul	an_ua14319
+1817	32		Gelsomina Terracciano		named as a parent of Giovanna Sossi, 15 Jul	an_ua14319
+1817	32		Gennaro Lettiero		declarant at the death of Giovanna Sossi, 15 Jul — Gennaro Lettiero 36 contadino, strada Sossi	an_ua14319
+1817	32		Antonio Lettiero		declarant at the death of Giovanna Sossi, 15 Jul — Antonio Lettiero 38 contadino	an_ua14319
+1817	32		Raffaele Gaggiano		died 19 Jul — read in the death register	an_ua14319
+1817	32		Cesare Gaggiano		named as a parent of Raffaele Gaggiano, 19 Jul	an_ua14319
+1817	32		Carmina Sorrino		named as a parent of Raffaele Gaggiano, 19 Jul	an_ua14319
+1817	32		Fortunata Medina		named as the spouse of Raffaele Gaggiano, 19 Jul	an_ua14319
+1817	32		Arcangelo Sossi		declarant at the death of Raffaele Gaggiano, 19 Jul — Arcangelo Sossi 50 contadino, strada Portella	an_ua14319
+1817	32		Luigi Verdicchio		declarant at the death of Raffaele Gaggiano, 19 Jul — Luigi Verdicchio 38 calzolaio	an_ua14319
+1817	33		Antonio Sossi		died 16 Jul — read in the death register	an_ua14319
+1817	33		Paolo Sossi		named as a parent of Antonio Sossi, 16 Jul	an_ua14319
+1817	33		Teresa Martone		named as a parent of Antonio Sossi, 16 Jul	an_ua14319
+1817	33		Ferdinando Martone		declarant at the death of Antonio Sossi, 16 Jul — Ferdinando Martone 54 contadino	an_ua14319
+1817	33		Matteo Martone		declarant at the death of Antonio Sossi, 16 Jul — Matteo Martone 40 contadino	an_ua14319
+1817	33		Maria Solli		died 20 Jul — read in the death register	an_ua14319
+1817	33		Leonardo Solli		named as a parent of Maria Solli, 20 Jul	an_ua14319
+1817	33		Nicoletta di Ruggio		named as a parent of Maria Solli, 20 Jul	an_ua14319
+1817	33		Carmine Gondraio		declarant at the death of Maria Solli, 20 Jul — Carmine Gondraio 36 contadino	an_ua14319
+1817	33		Domenico delle Cave		declarant at the death of Maria Solli, 20 Jul — Domenico delle Cave 30 contadino	an_ua14319
+1817	34		MARIA FALCO		died 24 Jul — read in the death register	an_ua14319
+1817	34		GIUSEPPE FALCO		named as a parent of MARIA FALCO, 24 Jul	an_ua14319
+1817	34		ROSA SOSSI		named as a parent of MARIA FALCO, 24 Jul	an_ua14319
+1817	34		Francesco Quotolo		named as the spouse of MARIA FALCO, 24 Jul	an_ua14319
+1817	34		Giuseppe Quotolo		declarant at the death of MARIA FALCO, 24 Jul — Giuseppe Quotolo 65 massaro di campagna, strada Maddalena	an_ua14319
+1817	34		Aniello Diglio		declarant at the death of MARIA FALCO, 24 Jul — Aniello Diglio 45 contadino	an_ua14319
+1817	34		Angelo Sossi		died 25 Jul — read in the death register	an_ua14319
+1817	34		Domenico Sossi		named as a parent of Angelo Sossi, 25 Jul	an_ua14319
+1817	34		Palma Sossi		named as a parent of Angelo Sossi, 25 Jul	an_ua14319
+1817	34		Francesco Sossi		declarant at the death of Angelo Sossi, 25 Jul — Francesco Sossi 28 bracciale, strada Sossi	an_ua14319
+1817	34		Sabbatino Sossi		declarant at the death of Angelo Sossi, 25 Jul — Sabbatino Sossi 55 contadino	an_ua14319
+1817	35		Raffaele Diglio		died 28 Jul — read in the death register	an_ua14319
+1817	35		Giuseppe Diglio		named as a parent of Raffaele Diglio, 28 Jul	an_ua14319
+1817	35		Gelsomina Diglio		named as a parent of Raffaele Diglio, 28 Jul	an_ua14319
+1817	35		Pellegrino Martone		declarant at the death of Raffaele Diglio, 28 Jul — Pellegrino Martone 30 barbiere	an_ua14319
+1817	35		Gaetano Laudato		declarant at the death of Raffaele Diglio, 28 Jul — Gaetano Laudato 28 bracciale	an_ua14319
+1817	35		Isabella d'Arienzo		died 30 Jul — read in the death register	an_ua14319
+1817	35		Andrea d'Arienzo		named as a parent of Isabella d'Arienzo, 30 Jul	an_ua14319
+1817	35		Marta Gaudi		named as a parent of Isabella d'Arienzo, 30 Jul	an_ua14319
+1817	35		Tomaso d'Arienzo		named as the spouse of Isabella d'Arienzo, 30 Jul	an_ua14319
+1817	35		Filippo Divenuto		declarant at the death of Isabella d'Arienzo, 30 Jul — Filippo Divenuto 30 sartore, strada Terra	an_ua14319
+1817	35		Arcangelo Angelo		declarant at the death of Isabella d'Arienzo, 30 Jul — Arcangelo Angelo 40 contadino	an_ua14319
+1817	36		Mariantonia Migliore		died 3 Aug — read in the death register	an_ua14319
+1817	36		Filippo Migliore		named as a parent of Mariantonia Migliore, 3 Aug	an_ua14319
+1817	36		Lucrezia Marchese		named as a parent of Mariantonia Migliore, 3 Aug	an_ua14319
+1817	36		Giuseppe Saccavino		declarant at the death of Mariantonia Migliore, 3 Aug — Giuseppe Saccavino 55 bracciale, strada Croce	an_ua14319
+1817	36		Raffaele Verdicchio		declarant at the death of Mariantonia Migliore, 3 Aug — Raffaele Verdicchio 39 bracciale	an_ua14319
+1817	36		Francesca Gimbardo		died 5 Aug — read in the death register	an_ua14319
+1817	36		Matteo Gimbardo		named as a parent of Francesca Gimbardo, 5 Aug	an_ua14319
+1817	36		Anna Cimmino		named as a parent of Francesca Gimbardo, 5 Aug	an_ua14319
+1817	36		Luigi Martone		declarant at the death of Francesca Gimbardo, 5 Aug — Luigi Martone 44 contadino, strada Capodiuomo	an_ua14319
+1817	36		Antonio Gimbardo		declarant at the death of Francesca Gimbardo, 5 Aug — Antonio Gimbardo 55 contadino	an_ua14319
+1817	37		Maria Carmela Macariello		died 6 Aug — read in the death register	an_ua14319
+1817	37		Raffaele Macariello		named as a parent of Maria Carmela Macariello, 6 Aug	an_ua14319
+1817	37		Domenica Martone		named as a parent of Maria Carmela Macariello, 6 Aug	an_ua14319
+1817	37		Lorenzo Laudato		declarant at the death of Maria Carmela Macariello, 6 Aug — Lorenzo Laudato 60 massaro, strada Croce	an_ua14319
+1817	37		Angelo Cimmino		declarant at the death of Maria Carmela Macariello, 6 Aug — Angelo Cimmino 44 contadino	an_ua14319
+1817	37		Felicella Morgillo		died 6 Aug — read in the death register	an_ua14319
+1817	37		Nicola Morgillo		named as a parent of Felicella Morgillo, 6 Aug	an_ua14319
+1817	37		Maria Sarro		named as a parent of Felicella Morgillo, 6 Aug	an_ua14319
+1817	37		Lazzaro Pisano		declarant at the death of Felicella Morgillo, 6 Aug — Lazzaro Pisano 60 fruttajolo	an_ua14319
+1817	37		Francescantonio Cimmino		declarant at the death of Felicella Morgillo, 6 Aug — Francescantonio Cimmino 55 fruttajolo	an_ua14319
+1817	38		Francesca Sansone		died 10 Aug — read in the death register	an_ua14319
+1817	38		Andrea Sansone		named as a parent of Francesca Sansone, 10 Aug	an_ua14319
+1817	38		Costanza di Sortella		named as a parent of Francesca Sansone, 10 Aug	an_ua14319
+1817	38		Domenico Turco		named as the spouse of Francesca Sansone, 10 Aug	an_ua14319
+1817	38		Matteo Migliore		declarant at the death of Francesca Sansone, 10 Aug — Matteo Migliore 40 calzolaio	an_ua14319
+1817	38		Angelo Diglio		declarant at the death of Francesca Sansone, 10 Aug — Angelo Diglio 50 vaticale	an_ua14319
+1817	38		Anna Recchino		died 10 Aug — read in the death register	an_ua14319
+1817	38		Giuseppe Recchino		named as a parent of Anna Recchino, 10 Aug	an_ua14319
+1817	38		Giuseppe Macariello		declarant at the death of Anna Recchino, 10 Aug — Giuseppe Macariello 57 contadino, strada Croce	an_ua14319
+1817	38		Angelo Cimmino		declarant at the death of Anna Recchino, 10 Aug — Angelo Cimmino 42 contadino	an_ua14319
+1817	40		Ippolito Grasso		died 21 Aug — read in the death register	an_ua14319
+1817	40		Pietro Grasso		named as a parent of Ippolito Grasso, 21 Aug	an_ua14319
+1817	40		Maria Cimmino		named as a parent of Ippolito Grasso, 21 Aug	an_ua14319
+1817	40		Nicola Morgillo		declarant at the death of Ippolito Grasso, 21 Aug — Nicola Morgillo 36 contadino, strada Capodiuomo	an_ua14319
+1817	40		Giuseppe Angioino		died 15 Aug — read in the death register	an_ua14319
+1817	40		Aniello Angioino		named as a parent of Giuseppe Angioino, 15 Aug	an_ua14319
+1817	40		Vincenza Diglio		named as a parent of Giuseppe Angioino, 15 Aug	an_ua14319
+1817	40		Raffaele Verdicchio		declarant at the death of Giuseppe Angioino, 15 Aug — Raffaele Verdicchio 58 contadino	an_ua14319
+1817	40		Marcello Angioino		declarant at the death of Giuseppe Angioino, 15 Aug — Marcello Angioino 30 vaticale	an_ua14319
+1817	41		Gelsomina Gimbardo		died 22 Aug — read in the death register	an_ua14319
+1817	41		Sabino Gimbardo		named as a parent of Gelsomina Gimbardo, 22 Aug	an_ua14319
+1817	41		Eugenia Martone		named as a parent of Gelsomina Gimbardo, 22 Aug	an_ua14319
+1817	41		Celeste Macariello		declarant at the death of Gelsomina Gimbardo, 22 Aug — Celeste Macariello 30 contadino	an_ua14319
+1817	41		Agostino Giglio		declarant at the death of Gelsomina Gimbardo, 22 Aug — Agostino Giglio 34 contadino	an_ua14319
+1817	41		Rosa Saggese		died 23 Aug — read in the death register	an_ua14319
+1817	41		Pietro Saggese		named as a parent of Rosa Saggese, 23 Aug	an_ua14319
+1817	41		Andreana Scafora		named as a parent of Rosa Saggese, 23 Aug	an_ua14319
+1817	41		Giuseppe Diglio		declarant at the death of Rosa Saggese, 23 Aug — Giuseppe Diglio 40 contadino	an_ua14319
+1817	41		Nicola Giglio		declarant at the death of Rosa Saggese, 23 Aug — Nicola Giglio 35 bottegaio	an_ua14319
+1817	42		Raffaele Sossi		died 23 Aug — read in the death register	an_ua14319
+1817	42		Angelo Sossi		named as a parent of Raffaele Sossi, 23 Aug	an_ua14319
+1817	42		Carmina Scafora		named as a parent of Raffaele Sossi, 23 Aug	an_ua14319
+1817	42		Andrea Sossi		declarant at the death of Raffaele Sossi, 23 Aug — Andrea Sossi 42 contadino, strada Sossi	an_ua14319
+1817	42		Giuseppe Vaccaro		declarant at the death of Raffaele Sossi, 23 Aug — Giuseppe Vaccaro 46 contadino	an_ua14319
+1817	42		Giuliana Sossi		died 24 Aug — read in the death register	an_ua14319
+1817	42		Ignazio Sossi		named as a parent of Giuliana Sossi, 24 Aug	an_ua14319
+1817	42		Maria Laudato		named as a parent of Giuliana Sossi, 24 Aug	an_ua14319
+1817	42		Raffaele Sorrino		declarant at the death of Giuliana Sossi, 24 Aug — Raffaele Sorrino 24 contadino	an_ua14319
+1817	43		Giuseppantonio Martone		died 24 Aug — read in the death register	an_ua14319
+1817	43		Bellino Martone		named as a parent of Giuseppantonio Martone, 24 Aug	an_ua14319
+1817	43		Maria Rosa Ravenna		named as a parent of Giuseppantonio Martone, 24 Aug	an_ua14319
+1817	43		Custode Sossi		declarant at the death of Giuseppantonio Martone, 24 Aug — Custode Sossi 34 bracciale	an_ua14319
+1817	43		Gaetano Tofano		declarant at the death of Giuseppantonio Martone, 24 Aug — Gaetano Tofano 25 contadino	an_ua14319
+1817	43		Mariangela Majone		died 23 Aug — read in the death register	an_ua14319
+1817	43		Francesco Majone		named as a parent of Mariangela Majone, 23 Aug	an_ua14319
+1817	43		Antonia Diglio		named as a parent of Mariangela Majone, 23 Aug	an_ua14319
+1817	43		Carlo Grotti		declarant at the death of Mariangela Majone, 23 Aug — Carlo Grotti 40 massaro di campagna, strada Cappuccini	an_ua14319
+1817	43		Marcello Grotti		declarant at the death of Mariangela Majone, 23 Aug — Marcello Grotti 30 contadino	an_ua14319
+1817	44		Carmina de Biase		died 25 Aug — read in the death register	an_ua14319
+1817	44		Domenico de Biase		named as a parent of Carmina de Biase, 25 Aug	an_ua14319
+1817	44		Sara Fiore		named as a parent of Carmina de Biase, 25 Aug	an_ua14319
+1817	44		Giovanni Sossi		named as the spouse of Carmina de Biase, 25 Aug	an_ua14319
+1817	44		Vincenzo d'Ambrosio		died 26 Aug — read in the death register	an_ua14319
+1817	44		Giuseppe d'Ambrosio		named as a parent of Vincenzo d'Ambrosio, 26 Aug	an_ua14319
+1817	44		Rosa Martone		named as a parent of Vincenzo d'Ambrosio, 26 Aug	an_ua14319
+1817	44		Bernardo d'Ambrosio		declarant at the death of Vincenzo d'Ambrosio, 26 Aug — Bernardo d'Ambrosio 70 calzolaio	an_ua14319
+1817	44		Raffaele Laudato		declarant at the death of Vincenzo d'Ambrosio, 26 Aug — Raffaele Laudato 32 calzolaio	an_ua14319
+1817	45		Salvatore Laudato		died 26 Aug — read in the death register	an_ua14319
+1817	45		Giuseppe Laudato		named as a parent of Salvatore Laudato, 26 Aug	an_ua14319
+1817	45		Camilla Rosponi		named as a parent of Salvatore Laudato, 26 Aug	an_ua14319
+1817	45		Salvatore Fattorusso		declarant at the death of Salvatore Laudato, 26 Aug — Salvatore Fattorusso 40 pettinatore, strada Sant'Andrea	an_ua14319
+1817	45		Bartolomeo Sampognaro		declarant at the death of Salvatore Laudato, 26 Aug — Bartolomeo Sampognaro 32 saponaro	an_ua14319
+1817	45		Bartolomeo Sossi		died 27 Aug — read in the death register	an_ua14319
+1817	45		Cesare Sossi		named as a parent of Bartolomeo Sossi, 27 Aug	an_ua14319
+1817	45		Angela Quotolo		named as a parent of Bartolomeo Sossi, 27 Aug	an_ua14319
+1817	45		Domenico Sossi		declarant at the death of Bartolomeo Sossi, 27 Aug — Domenico Sossi 38 contadino, strada Sossi	an_ua14319
+1817	45		Giuseppe Sossi		declarant at the death of Bartolomeo Sossi, 27 Aug — Giuseppe Sossi 48 contadino	an_ua14319
+1817	46		Antonio Diliegro		died 30 Aug — read in the death register	an_ua14319
+1817	46		Domenico Diliegro		named as a parent of Antonio Diliegro, 30 Aug	an_ua14319
+1817	46		Teresa Lettiero		named as a parent of Antonio Diliegro, 30 Aug	an_ua14319
+1817	46		Alessandro Martone		declarant at the death of Antonio Diliegro, 30 Aug — Alessandro Martone 50 contadino, strada Croce	an_ua14319
+1817	46		Antonio di Nisco		declarant at the death of Antonio Diliegro, 30 Aug — Antonio di Nisco 40 contadino	an_ua14319
+1817	46		Giovanni Scafora		died 2 Sep — read in the death register	an_ua14319
+1817	46		Guglielmo Scafora		named as a parent of Giovanni Scafora, 2 Sep	an_ua14319
+1817	46		Rosa Laudato		named as a parent of Giovanni Scafora, 2 Sep	an_ua14319
+1817	46		Marta del Prete		named as the spouse of Giovanni Scafora, 2 Sep	an_ua14319
+1817	46		Gennaro d'Ambrosio		declarant at the death of Giovanni Scafora, 2 Sep — Gennaro d'Ambrosio 50 sartore	an_ua14319
+1817	46		Gaetano Scafora		declarant at the death of Giovanni Scafora, 2 Sep — Gaetano Scafora 28 calzolaio	an_ua14319
+1817	47		Carmina Martone		died 2 Sep — read in the death register	an_ua14319
+1817	47		Luigi Martone		named as a parent of Carmina Martone, 2 Sep	an_ua14319
+1817	47		Orsola Vaccubia		named as a parent of Carmina Martone, 2 Sep	an_ua14319
+1817	47		Arcangelo Martone		declarant at the death of Carmina Martone, 2 Sep — Arcangelo Martone 38 contadino, strada Capodiuomo	an_ua14319
+1817	47		Cesare Martone		declarant at the death of Carmina Martone, 2 Sep — Cesare Martone 42 contadino	an_ua14319
+1817	47		Clemente Diglio		died 4 Sep — read in the death register	an_ua14319
+1817	47		Carmine Diglio		named as a parent of Clemente Diglio, 4 Sep	an_ua14319
+1817	47		Mariangela Sgambato		named as a parent of Clemente Diglio, 4 Sep	an_ua14319
+1817	47		Francesco Martone		declarant at the death of Clemente Diglio, 4 Sep — Francesco Martone 57 contadino	an_ua14319
+1817	47		Michele Diglio		declarant at the death of Clemente Diglio, 4 Sep — Michele Diglio 55 contadino	an_ua14319
+1817	48		Gaetano Peggiato		died 5 Sep — read in the death register	an_ua14319
+1817	48		Giuseppe Peggiato		named as a parent of Gaetano Peggiato, 5 Sep	an_ua14319
+1817	48		Andreana Gimbardo		named as a parent of Gaetano Peggiato, 5 Sep	an_ua14319
+1817	48		Ottavio Gimbardo		declarant at the death of Gaetano Peggiato, 5 Sep — Ottavio Gimbardo 34 contadino	an_ua14319
+1817	48		Stefano Cimmino		declarant at the death of Gaetano Peggiato, 5 Sep — Stefano Cimmino 40 contadino	an_ua14319
+1817	48		Angelo Laudato		died 17 Sep — read in the death register	an_ua14319
+1817	48		Andrea Laudato		named as a parent of Angelo Laudato, 17 Sep	an_ua14319
+1817	48		Gelsomina Montefusco		named as a parent of Angelo Laudato, 17 Sep	an_ua14319
+1817	48		Francesco Rivetti		declarant at the death of Angelo Laudato, 17 Sep — Francesco Rivetti 30 vaticale (3rd sighting	an_ua14319
+1817	48		Salvatore Rivetti		declarant at the death of Angelo Laudato, 17 Sep — Salvatore Rivetti 44 vaticale, both strada Sant'Andrea	an_ua14319
+1817	49		Caterina Tofano		died 20 Sep — read in the death register	an_ua14319
+1817	49		Fedele Tofano		named as a parent of Caterina Tofano, 20 Sep	an_ua14319
+1817	49		Emanuela d'Onofrio		named as a parent of Caterina Tofano, 20 Sep	an_ua14319
+1817	49		Gennaro d'Onofrio		declarant at the death of Caterina Tofano, 20 Sep — Gennaro d'Onofrio 37, strada Sotto le Logge	an_ua14319
+1817	49		Salvatore Fattorusso		declarant at the death of Caterina Tofano, 20 Sep — Salvatore Fattorusso 45 pettinatore	an_ua14319
+1817	49		Claudia d'Onofrio		died 20 Sep — read in the death register	an_ua14319
+1817	49		Filippo d'Onofrio		named as a parent of Claudia d'Onofrio, 20 Sep	an_ua14319
+1817	49		Teresa Martone		named as a parent of Claudia d'Onofrio, 20 Sep	an_ua14319
+1817	49		Gennaro di Russo		named as the spouse of Claudia d'Onofrio, 20 Sep	an_ua14319
+1817	49		Matteo Sossi		declarant at the death of Claudia d'Onofrio, 20 Sep — Matteo Sossi 34 muratore	an_ua14319
+1817	49		Leopoldo Corvo calzolaio		declarant at the death of Claudia d'Onofrio, 20 Sep — Leopoldo Corvo calzolaio	an_ua14319
+1817	50		Gaetana Giordano		died 21 Sep — read in the death register	an_ua14319
+1817	50		Donato Giordano		named as a parent of Gaetana Giordano, 21 Sep	an_ua14319
+1817	50		Teresa Catapano		named as a parent of Gaetana Giordano, 21 Sep	an_ua14319
+1817	50		Alessandro Pilelli		declarant at the death of Gaetana Giordano, 21 Sep — Alessandro Pilelli 36	an_ua14319
+1817	50		Arcangelo Pedotto		declarant at the death of Gaetana Giordano, 21 Sep — Arcangelo Pedotto 32 muratore	an_ua14319
+1817	50		Angela Maria Mauro		died 22 Sep — read in the death register	an_ua14319
+1817	50		Raffaele Mauro		named as a parent of Angela Maria Mauro, 22 Sep	an_ua14319
+1817	50		Sabato Vassallo castaldo		declarant at the death of Angela Maria Mauro, 22 Sep — Sabato Vassallo castaldo	an_ua14319
+1817	50		Raffaele Grosso vaticale, strada Sant'Andrea		declarant at the death of Angela Maria Mauro, 22 Sep — Raffaele Grosso vaticale, strada Sant'Andrea	an_ua14319
+1817	51		Sabato Martone		died 22 Sep — read in the death register	an_ua14319
+1817	51		Stefano Martone		named as a parent of Sabato Martone, 22 Sep	an_ua14319
+1817	51		Caterina Franco		named as a parent of Sabato Martone, 22 Sep	an_ua14319
+1817	51		Giuseppe Angelo		named as the spouse of Sabato Martone, 22 Sep	an_ua14319
+1817	51		Arcangelo Martone		declarant at the death of Sabato Martone, 22 Sep — Arcangelo Martone 50 massaro di campagna, strada Sajanella	an_ua14319
+1817	51		Giuseppe Angelo		declarant at the death of Sabato Martone, 22 Sep — Giuseppe Angelo 30 vaticale	an_ua14319
+1817	51		Fortunato Verdicchio		died 22 Sep — read in the death register	an_ua14319
+1817	51		Giuseppe Verdicchio		named as a parent of Fortunato Verdicchio, 22 Sep	an_ua14319
+1817	51		Sabina Bruno		named as a parent of Fortunato Verdicchio, 22 Sep	an_ua14319
+1817	51		Raffaela Grotti		named as the spouse of Fortunato Verdicchio, 22 Sep	an_ua14319
+1817	51		Matteo Migliore		declarant at the death of Fortunato Verdicchio, 22 Sep — Matteo Migliore 44 calzolaio	an_ua14319
+1817	51		Angelo Diglio		declarant at the death of Fortunato Verdicchio, 22 Sep — Angelo Diglio 50 vaticale	an_ua14319
+1817	52		Nicoletta Leonardo		died 22 Sep — read in the death register	an_ua14319
+1817	52		Felice Leonardo		named as a parent of Nicoletta Leonardo, 22 Sep	an_ua14319
+1817	52		Raffaela Rasparella		named as a parent of Nicoletta Leonardo, 22 Sep	an_ua14319
+1817	52		Aniello Leonardo		declarant at the death of Nicoletta Leonardo, 22 Sep — Aniello Leonardo 39 calzolaio	an_ua14319
+1817	52		Giuseppe Perrino falegname		declarant at the death of Nicoletta Leonardo, 22 Sep — Giuseppe Perrino falegname	an_ua14319
+1817	52		Giuseppe di Mayo		died 24 Sep — read in the death register	an_ua14319
+1817	52		Francesco di Mayo		named as a parent of Giuseppe di Mayo, 24 Sep	an_ua14319
+1817	52		Giuseppa Bruno		named as a parent of Giuseppe di Mayo, 24 Sep	an_ua14319
+1817	52		Stefano Bernardo		declarant at the death of Giuseppe di Mayo, 24 Sep — Stefano Bernardo 34 sartore	an_ua14319
+1817	53		Raffaele Sossi		died 27 Sep — read in the death register	an_ua14319
+1817	53		Alessandro Sossi		named as a parent of Raffaele Sossi, 27 Sep	an_ua14319
+1817	53		Margarita Venafra		named as a parent of Raffaele Sossi, 27 Sep	an_ua14319
+1817	53		Paolo Venafra		declarant at the death of Raffaele Sossi, 27 Sep — Paolo Venafra 60 contadino	an_ua14319
+1817	53		Gregorio Sossi		declarant at the death of Raffaele Sossi, 27 Sep — Gregorio Sossi 62 contadino	an_ua14319
+1817	53		Paolo Sossi		died 29 Sep — read in the death register	an_ua14319
+1817	53		Agostino Sossi		named as a parent of Paolo Sossi, 29 Sep	an_ua14319
+1817	53		Orsola Sossi		named as a parent of Paolo Sossi, 29 Sep	an_ua14319
+1817	53		Domenico Sossi		declarant at the death of Paolo Sossi, 29 Sep — Domenico Sossi 36 contadino, strada Sossi	an_ua14319
+1817	53		Francesco Sossi		declarant at the death of Paolo Sossi, 29 Sep — Francesco Sossi 22 contadino	an_ua14319
+1817	54		Angela Quotolo		died 28 Sep — read in the death register	an_ua14319
+1817	54		Pietro Quotolo		named as a parent of Angela Quotolo, 28 Sep	an_ua14319
+1817	54		Sofia Sossi		named as a parent of Angela Quotolo, 28 Sep	an_ua14319
+1817	54		Francesco Quotolo		declarant at the death of Angela Quotolo, 28 Sep — Francesco Quotolo 39 contadino, strada Maddalena (a SECOND Francesco Quotolo	an_ua14319
+1817	54		Giuseppe Quotolo		declarant at the death of Angela Quotolo, 28 Sep — Giuseppe Quotolo 65 massaro, strada Maddalena (same man who declared Maria Falco's death)	an_ua14319
+1817	54		Gelsomina Sossi		died 28 Sep — read in the death register	an_ua14319
+1817	54		Domenico Sossi		named as a parent of Gelsomina Sossi, 28 Sep	an_ua14319
+1817	54		Orsola Sossi		named as a parent of Gelsomina Sossi, 28 Sep	an_ua14319
+1817	54		Vincenzo Sossi		declarant at the death of Gelsomina Sossi, 28 Sep — Vincenzo Sossi 30 contadino	an_ua14319
+1817	54		Nicola Morgillo		declarant at the death of Gelsomina Sossi, 28 Sep — Nicola Morgillo 28 contadino, strada Sossi (3rd Nicola Morgillo entry, 3rd street)	an_ua14319
+1817	55		Raffaele Sossi		died 30 Sep — read in the death register	an_ua14319
+1817	55		Matteo Sossi		named as a parent of Raffaele Sossi, 30 Sep	an_ua14319
+1817	55		Nunzia Martone		named as a parent of Raffaele Sossi, 30 Sep	an_ua14319
+1817	55		Alessandro Sossi		declarant at the death of Raffaele Sossi, 30 Sep — Alessandro Sossi 30 contadino	an_ua14319
+1817	55		Domenico Sossi		declarant at the death of Raffaele Sossi, 30 Sep — Domenico Sossi 35 contadino	an_ua14319
+1817	55		Rosa Leo		died 4 Oct — read in the death register	an_ua14319
+1817	55		Alessandro Leo		named as a parent of Rosa Leo, 4 Oct	an_ua14319
+1817	55		Petronilla Martone		named as a parent of Rosa Leo, 4 Oct	an_ua14319
+1817	55		Alessandro Martone		declarant at the death of Rosa Leo, 4 Oct — Alessandro Martone 30 calzolaio	an_ua14319
+1817	55		Ciofaro Martone		declarant at the death of Rosa Leo, 4 Oct — Ciofaro Martone 45 bicchierajo	an_ua14319
+1817	56		Andrea Giacinto Sossi		died 7 Oct — read in the death register	an_ua14319
+1817	56		Michelangelo Sossi		named as a parent of Andrea Giacinto Sossi, 7 Oct	an_ua14319
+1817	56		Mariangela di Sortella		named as a parent of Andrea Giacinto Sossi, 7 Oct	an_ua14319
+1817	56		Gennaro Sossi		declarant at the death of Andrea Giacinto Sossi, 7 Oct — Gennaro Sossi 42 bracciale, strada Coppa	an_ua14319
+1817	56		Giuseppe Sorrino		declarant at the death of Andrea Giacinto Sossi, 7 Oct — Giuseppe Sorrino 36 contadino	an_ua14319
+1817	56		Carolina Martone		died 7 Oct — read in the death register	an_ua14319
+1817	56		Lazzaro Martone		named as a parent of Carolina Martone, 7 Oct	an_ua14319
+1817	56		Maddalena Gimbardo		named as a parent of Carolina Martone, 7 Oct	an_ua14319
+1817	56		Giuseppe Sossi		declarant at the death of Carolina Martone, 7 Oct — Giuseppe Sossi 36 calzolaio, strada Camellara	an_ua14319
+1817	56		Angelo Sansone		declarant at the death of Carolina Martone, 7 Oct — Angelo Sansone 36 contadino, strada Camellara	an_ua14319
+1817	57		Clemente Saccavino		died 11 Oct — read in the death register	an_ua14319
+1817	57		Giuseppe Saccavino		named as a parent of Clemente Saccavino, 11 Oct	an_ua14319
+1817	57		Raffaela Sossi		named as a parent of Clemente Saccavino, 11 Oct	an_ua14319
+1817	57		Pietro Saccavino		declarant at the death of Clemente Saccavino, 11 Oct — Pietro Saccavino 65 bracciale, strada Sossi	an_ua14319
+1817	57		Angelantonio Sossi		declarant at the death of Clemente Saccavino, 11 Oct — Angelantonio Sossi 50 contadino	an_ua14319
+1817	57		Margarita Manna		died 20 Oct — read in the death register	an_ua14319
+1817	57		Giacinto Manna		named as a parent of Margarita Manna, 20 Oct	an_ua14319
+1817	57		Alessandra di Sortella		named as a parent of Margarita Manna, 20 Oct	an_ua14319
+1817	57		Nicola Sossi		declarant at the death of Margarita Manna, 20 Oct — Nicola Sossi 35 massaro, strada Sossi	an_ua14319
+1817	57		Raffaele Sorrino		declarant at the death of Margarita Manna, 20 Oct — Raffaele Sorrino 27 corriere, strada Coste di Sopra	an_ua14319
+1817	58		Giovanna Scafora		died 16 Oct — read in the death register	an_ua14319
+1817	58		Cesare Scafora		named as a parent of Giovanna Scafora, 16 Oct	an_ua14319
+1817	58		Maddalena Sossi		named as a parent of Giovanna Scafora, 16 Oct	an_ua14319
+1817	58		Giovanni Maria Sossi		declarant at the death of Giovanna Scafora, 16 Oct — Giovanni Maria Sossi 50 bracciale, strada Santa Lucia	an_ua14319
+1817	58		Antonio Sorrino		declarant at the death of Giovanna Scafora, 16 Oct — Antonio Sorrino 54 bracciale	an_ua14319
+1817	58		Antonio Sorrino		died 17 Oct — read in the death register	an_ua14319
+1817	58		Alessandro Sorrino		named as a parent of Antonio Sorrino, 17 Oct	an_ua14319
+1817	58		Ortenzia Sossi		named as a parent of Antonio Sorrino, 17 Oct	an_ua14319
+1817	58		Gennaro Sossi		declarant at the death of Antonio Sorrino, 17 Oct — Gennaro Sossi 36 contadino, strada Costa	an_ua14319
+1817	58		Giuseppe Sorrino		declarant at the death of Antonio Sorrino, 17 Oct — Giuseppe Sorrino 41 contadino	an_ua14319
+1817	59		Maria Giglio		died 18 Oct — read in the death register	an_ua14319
+1817	59		Domenico Giglio		named as a parent of Maria Giglio, 18 Oct	an_ua14319
+1817	59		Orsola Martone		named as a parent of Maria Giglio, 18 Oct	an_ua14319
+1817	59		Sebastiano Sossi		named as the spouse of Maria Giglio, 18 Oct	an_ua14319
+1817	59		Vincenzo Sorrino		declarant at the death of Maria Giglio, 18 Oct — Vincenzo Sorrino 52 massaro di campagna, strada Costa	an_ua14319
+1817	59		Alessandro Sorrino		declarant at the death of Maria Giglio, 18 Oct — Alessandro Sorrino 70 contadino	an_ua14319
+1817	59		Angelo Andrea di Guida		died 21 Oct — read in the death register	an_ua14319
+1817	59		Giuseppe di Guida		named as a parent of Angelo Andrea di Guida, 21 Oct	an_ua14319
+1817	59		Michedalena RIVETTI		named as a parent of Angelo Andrea di Guida, 21 Oct	an_ua14319
+1817	59		Teresa VIGLIOTTA		named as the spouse of Angelo Andrea di Guida, 21 Oct	an_ua14319
+1817	59		Francesco Quotolo		declarant at the death of Angelo Andrea di Guida, 21 Oct — Francesco Quotolo 33 & Pietro Quotolo 30, massari di campagna, strada Maddalena	an_ua14319
+1817	60		Carmine Diglio		died 28 Oct — read in the death register	an_ua14319
+1817	60		Vincenzo Diglio		named as a parent of Carmine Diglio, 28 Oct	an_ua14319
+1817	60		Faustina Crisci		named as a parent of Carmine Diglio, 28 Oct	an_ua14319
+1817	60		Domenico Diglio		declarant at the death of Carmine Diglio, 28 Oct — Domenico Diglio 76 contadino	an_ua14319
+1817	60		Francesco Diglio		declarant at the death of Carmine Diglio, 28 Oct — Francesco Diglio 60 contadino	an_ua14319
+1817	60		Marianna Petrillo		died 24 Oct — read in the death register	an_ua14319
+1817	60		Marzio Petrillo		named as a parent of Marianna Petrillo, 24 Oct	an_ua14319
+1817	60		Ginevra d'Onofrio		named as a parent of Marianna Petrillo, 24 Oct	an_ua14319
+1817	60		Domenico Balletta		declarant at the death of Marianna Petrillo, 24 Oct — Domenico Balletta 40 sartore, strada Camellara	an_ua14319
+1817	60		GIUSEPPE FALCO		declarant at the death of Marianna Petrillo, 24 Oct — GIUSEPPE FALCO 37 massaro di campagna, strada Camellara	an_ua14319
+1817	61		RAFFAELE FALCO		died 28 Oct — read in the death register	an_ua14319
+1817	61		VINCENZO FALCO		named as a parent of RAFFAELE FALCO, 28 Oct	an_ua14319
+1817	61		ANDREANA CRISCI		named as a parent of RAFFAELE FALCO, 28 Oct	an_ua14319
+1817	61		Sabato Vassallo		declarant at the death of RAFFAELE FALCO, 28 Oct — Sabato Vassallo 26 sportellaro, strada Porta di Sopra	an_ua14319
+1817	61		GIUSEPPE FALCO		declarant at the death of RAFFAELE FALCO, 28 Oct — GIUSEPPE FALCO 37 massaro di campagna, strada Camellara	an_ua14319
+1817	61		Raffaele Scafora		died 28 Oct — read in the death register	an_ua14319
+1817	61		Raffaele Scafora		named as a parent of Raffaele Scafora, 28 Oct	an_ua14319
+1817	61		Elisabetta d'Ambrosio		named as a parent of Raffaele Scafora, 28 Oct	an_ua14319
+1817	61		Maria Carbone		named as the spouse of Raffaele Scafora, 28 Oct	an_ua14319
+1817	61		Sabbatino Scafora		declarant at the death of Raffaele Scafora, 28 Oct — Sabbatino Scafora 50 contadino, strada Camellara	an_ua14319
+1817	61		Tomaso Esposito		declarant at the death of Raffaele Scafora, 28 Oct — Tomaso Esposito 49 contadino, strada Camellara	an_ua14319
+1817	62		Nicola di Lucia		died 28 Oct — read in the death register	an_ua14319
+1817	62		Angelantonio di Lucia		named as a parent of Nicola di Lucia, 28 Oct	an_ua14319
+1817	62		Angela di Sortella		named as a parent of Nicola di Lucia, 28 Oct	an_ua14319
+1817	62		Michele Altavilla		declarant at the death of Nicola di Lucia, 28 Oct — Michele Altavilla 22 contadino	an_ua14319
+1817	62		Pellegrino di Lucia		declarant at the death of Nicola di Lucia, 28 Oct — Pellegrino di Lucia 21 fabbricatore	an_ua14319
+1817	62		Alfonso Altavilla		died 29 Oct — read in the death register	an_ua14319
+1817	62		Signor Raffaele Altavilla		named as a parent of Alfonso Altavilla, 29 Oct	an_ua14319
+1817	62		Maria Rosa Cimmino		named as a parent of Alfonso Altavilla, 29 Oct	an_ua14319
+1817	62		Aniello Diglio contadino, strada Capodiuomo		declarant at the death of Alfonso Altavilla, 29 Oct — Aniello Diglio contadino, strada Capodiuomo	an_ua14319
+1817	62		Arcangelo Anigale		declarant at the death of Alfonso Altavilla, 29 Oct — Arcangelo Anigale 40 vaticale	an_ua14319
+1817	63		Gennaro Alessandro Sossi		died 30 Oct — read in the death register	an_ua14319
+1817	63		Domenico Sossi		named as a parent of Gennaro Alessandro Sossi, 30 Oct	an_ua14319
+1817	63		Maria Giuseppa Silvestro		named as a parent of Gennaro Alessandro Sossi, 30 Oct	an_ua14319
+1817	63		Raffaele Diglio		declarant at the death of Gennaro Alessandro Sossi, 30 Oct — Raffaele Diglio 32 calzolaio	an_ua14319
+1817	63		Raffaele Angioino		declarant at the death of Gennaro Alessandro Sossi, 30 Oct — Raffaele Angioino 19 sartore	an_ua14319
+1817	63		Mariantonia Loffreda		died 2 Dec — read in the death register	an_ua14319
+1817	63		Nicola Loffreda		named as a parent of Mariantonia Loffreda, 2 Dec	an_ua14319
+1817	63		Giovanna Ferrara		named as a parent of Mariantonia Loffreda, 2 Dec	an_ua14319
+1817	63		Raffaele Martone		declarant at the death of Mariantonia Loffreda, 2 Dec — Raffaele Martone 68 bracciale, strada Capodiuomo	an_ua14319
+1817	63		Ferdinando Martone		declarant at the death of Mariantonia Loffreda, 2 Dec — Ferdinando Martone 53 massaro	an_ua14319
+1817	64		Rosa Oliva		died 5 Nov — read in the death register	an_ua14319
+1817	64		Mattia Oliva		named as a parent of Rosa Oliva, 5 Nov	an_ua14319
+1817	64		Anna Saccavino		named as a parent of Rosa Oliva, 5 Nov	an_ua14319
+1817	64		Tomaso Biondello		declarant at the death of Rosa Oliva, 5 Nov — Tomaso Biondello 41 contadino, strada Camellara	an_ua14319
+1817	64		Tomaso Esposito		declarant at the death of Rosa Oliva, 5 Nov — Tomaso Esposito 47 contadino	an_ua14319
+1817	64		Rosa Laudato		died 9 Nov — read in the death register	an_ua14319
+1817	64		Simone Laudato		named as a parent of Rosa Laudato, 9 Nov	an_ua14319
+1817	64		Maria Marchese		named as a parent of Rosa Laudato, 9 Nov	an_ua14319
+1817	64		Salvatore Fattorusso		named as the spouse of Rosa Laudato, 9 Nov	an_ua14319
+1817	64		Angelo Laudato		declarant at the death of Rosa Laudato, 9 Nov — Angelo Laudato 36 calzolaio	an_ua14319
+1817	64		Raffaele Laudato		declarant at the death of Rosa Laudato, 9 Nov — Raffaele Laudato 33 calzolaio	an_ua14319
+1817	66		Padre Agostino Pignatelli		died 13 Nov — read in the death register	an_ua14319
+1817	66		Nicola Pignatelli		named as a parent of Padre Agostino Pignatelli, 13 Nov	an_ua14319
+1817	66		Grazia Sossi		named as a parent of Padre Agostino Pignatelli, 13 Nov	an_ua14319
+1817	66		Antonio Bernardi		declarant at the death of Padre Agostino Pignatelli, 13 Nov — Antonio Bernardi 41 vaticale	an_ua14319
+1817	66		Andrea Martone		declarant at the death of Padre Agostino Pignatelli, 13 Nov — Andrea Martone 62 contadino	an_ua14319
+1817	66		Donn'Angela Piccolo		died 17 Nov — read in the death register	an_ua14319
+1817	66		Don Andrea Piccolo		named as a parent of Donn'Angela Piccolo, 17 Nov	an_ua14319
+1817	66		Alessandra Pagnozzi		named as a parent of Donn'Angela Piccolo, 17 Nov	an_ua14319
+1817	66		Don Tomaso d'Ambrosio		named as the spouse of Donn'Angela Piccolo, 17 Nov	an_ua14319
+1817	66		Luigi Martone		declarant at the death of Donn'Angela Piccolo, 17 Nov — Luigi Martone 45 contadino	an_ua14319
+1817	66		Antonio Gimbardo		declarant at the death of Donn'Angela Piccolo, 17 Nov — Antonio Gimbardo 48 bracciale	an_ua14319
+1817	68		Don Luigi MORGILLO		died 20 Nov — read in the death register	an_ua14319
+1817	68		Don Lelio Morgillo		named as a parent of Don Luigi MORGILLO, 20 Nov	an_ua14319
+1817	68		Donna Carmela d'Ambrosio		named as a parent of Don Luigi MORGILLO, 20 Nov	an_ua14319
+1817	68		Andrea Vaccubia		declarant at the death of Don Luigi MORGILLO, 20 Nov — Andrea Vaccubia 52 calzolaio	an_ua14319
+1817	68		Luigi Verdicchio		declarant at the death of Don Luigi MORGILLO, 20 Nov — Luigi Verdicchio 42 calzolaio	an_ua14319
+1817	68		Pasquale d'Addio		died 30 Nov — read in the death register	an_ua14319
+1817	68		Felice d'Addio		named as a parent of Pasquale d'Addio, 30 Nov	an_ua14319
+1817	68		Domenica Laudato		named as a parent of Pasquale d'Addio, 30 Nov	an_ua14319
+1817	68		Lorenzo Martone		declarant at the death of Pasquale d'Addio, 30 Nov — Lorenzo Martone 38 contadino	an_ua14319
+1817	68		Domenico Sansone		declarant at the death of Pasquale d'Addio, 30 Nov — Domenico Sansone 27 contadino	an_ua14319
+1817	69		Angela Sorrino		died 1 Dec — read in the death register	an_ua14319
+1817	69		Aniello Sorrino		named as a parent of Angela Sorrino, 1 Dec	an_ua14319
+1817	69		Alessandra di Biondo		named as a parent of Angela Sorrino, 1 Dec	an_ua14319
+1817	69		Salvatore Sbarro		named as the spouse of Angela Sorrino, 1 Dec	an_ua14319
+1817	69		Lorenzo Martone		declarant at the death of Angela Sorrino, 1 Dec — Lorenzo Martone 38 contadino, strada del Bosco	an_ua14319
+1817	69		Giuseppe delle Cave		declarant at the death of Angela Sorrino, 1 Dec — Giuseppe delle Cave 41 contadino	an_ua14319
+1817	69		Matteo Melillo		died 1 Dec — read in the death register	an_ua14319
+1817	69		Pietro Melillo		named as a parent of Matteo Melillo, 1 Dec	an_ua14319
+1817	69		Teresa Verdicchio		named as a parent of Matteo Melillo, 1 Dec	an_ua14319
+1817	69		GIUSEPPE RIVETTI		declarant at the death of Matteo Melillo, 1 Dec — GIUSEPPE RIVETTI 38 bracciale, strada Camellara	an_ua14319
+1817	69		Giovanni Saccavino		declarant at the death of Matteo Melillo, 1 Dec — Giovanni Saccavino 42 bracciale, strada Camellara	an_ua14319
+1817	70		Gelsomina di Biondo		died 3 Dec — read in the death register	an_ua14319
+1817	70		Francesco di Biondo		named as a parent of Gelsomina di Biondo, 3 Dec	an_ua14319
+1817	70		Carmina Sorrino		named as a parent of Gelsomina di Biondo, 3 Dec	an_ua14319
+1817	70		Matteo Migliore		declarant at the death of Gelsomina di Biondo, 3 Dec — Matteo Migliore 44 calzolaio, comune di San Felice	an_ua14319
+1817	70		Angelo Diglio		declarant at the death of Gelsomina di Biondo, 3 Dec — Angelo Diglio 50 vaticale	an_ua14319
+1817	70		Maria RIVETTI		died 6 Dec — read in the death register	an_ua14319
+1817	70		Paolo Rivetti		named as a parent of Maria RIVETTI, 6 Dec	an_ua14319
+1817	70		Caterina Madonna		named as a parent of Maria RIVETTI, 6 Dec	an_ua14319
+1817	70		Giuseppe Martone		named as the spouse of Maria RIVETTI, 6 Dec	an_ua14319
+1817	70		Tomaso Esposito		declarant at the death of Maria RIVETTI, 6 Dec — Tomaso Esposito 47 contadino, strada Camellara	an_ua14319
+1817	70		Giuseppe Sossi		declarant at the death of Maria RIVETTI, 6 Dec — Giuseppe Sossi 35 calzolaio, strada Camellara	an_ua14319
+1817	71		Sara Ruggiero		died 13 Dec — read in the death register	an_ua14319
+1817	71		Raffaele Ruggiero		named as a parent of Sara Ruggiero, 13 Dec	an_ua14319
+1817	71		Fortunata Villano		named as a parent of Sara Ruggiero, 13 Dec	an_ua14319
+1817	71		Arcangelo Sossi		named as the spouse of Sara Ruggiero, 13 Dec	an_ua14319
+1817	71		Giacinto Manna		declarant at the death of Sara Ruggiero, 13 Dec — Giacinto Manna 36 massaro di campagna	an_ua14319
+1817	71		Andrea Grotti		declarant at the death of Sara Ruggiero, 13 Dec — Andrea Grotti 60 bracciale	an_ua14319
+1817	71		Samuele d'Onofrio		died 14 Dec — read in the death register	an_ua14319
+1817	71		Domenico d'Onofrio		named as a parent of Samuele d'Onofrio, 14 Dec	an_ua14319
+1817	71		Alessandra RIVETTI		named as a parent of Samuele d'Onofrio, 14 Dec	an_ua14319
+1817	71		Gaetana Giorgio		named as the spouse of Samuele d'Onofrio, 14 Dec	an_ua14319
+1817	71		Giacinto Manna		declarant at the death of Samuele d'Onofrio, 14 Dec — Giacinto Manna 36 massaro di campagna	an_ua14319
+1817	71		Andrea Grotti		declarant at the death of Samuele d'Onofrio, 14 Dec — Andrea Grotti 60 bracciale	an_ua14319
+1817	72		Fortunata Sossi		died 20 Dec — read in the death register	an_ua14319
+1817	72		Arcangelo Sossi		named as a parent of Fortunata Sossi, 20 Dec	an_ua14319
+1817	72		Sara Ruggiero		named as a parent of Fortunata Sossi, 20 Dec	an_ua14319
+1817	72		Francesco Vassallo		declarant at the death of Fortunata Sossi, 20 Dec — Francesco Vassallo 60 sportellaro, strada Porta di Sopra	an_ua14319
+1817	72		Giuseppe FALIO		declarant at the death of Fortunata Sossi, 20 Dec — «Giuseppe FALIO», 38, contadino	an_ua14319
+1817	72		Clemente Manna		died 19 Dec — read in the death register	an_ua14319
+1817	72		Carlo Manna		named as a parent of Clemente Manna, 19 Dec	an_ua14319
+1817	72		Sabata Martone		named as a parent of Clemente Manna, 19 Dec	an_ua14319
+1817	72		Giovanni Saccavino		declarant at the death of Clemente Manna, 19 Dec — Giovanni Saccavino 42 contadino	an_ua14319
+1817	72		Ignazio Biondello		declarant at the death of Clemente Manna, 19 Dec — Ignazio Biondello 38 contadino, strada Camellara	an_ua14319
+1817	74		Caterina Sossi		died 22 Dec — read in the death register	an_ua14319
+1817	74		Gaspare Sossi		named as a parent of Caterina Sossi, 22 Dec	an_ua14319
+1817	74		Giuseppa Saditto		named as a parent of Caterina Sossi, 22 Dec	an_ua14319
+1817	74		Gaetano Sansone		declarant at the death of Caterina Sossi, 22 Dec — Gaetano Sansone 21 bracciale	an_ua14319
+1817	74		Luigi Verdicchio calzolaio		declarant at the death of Caterina Sossi, 22 Dec — Luigi Verdicchio calzolaio	an_ua14319
+1817	74		Giuseppe Cimmino		died 28 Dec — read in the death register	an_ua14319
+1817	74		Antonio Cimmino		named as a parent of Giuseppe Cimmino, 28 Dec	an_ua14319
+1817	74		Agnese Durante		named as a parent of Giuseppe Cimmino, 28 Dec	an_ua14319
+1817	74		Agnese Tofano		named as the spouse of Giuseppe Cimmino, 28 Dec	an_ua14319
+1817	74		Francesco Vassallo sportellaro		declarant at the death of Giuseppe Cimmino, 28 Dec — Francesco Vassallo sportellaro	an_ua14319
+1817	74		Custode Sossi bracciale		declarant at the death of Giuseppe Cimmino, 28 Dec — Custode Sossi bracciale	an_ua14319
+1818	77		Andrea Saccavino		died 1 Jan — read in the death register	an_ua14319
+1818	77		Margarita Verdicchio		named as the spouse of Andrea Saccavino, 1 Jan	an_ua14319
+1818	77		Nicola Sossi		declarant at the death of Andrea Saccavino, 1 Jan — Nicola Sossi 38 bottegaio	an_ua14319
+1818	77		Ruggiero Crisci		declarant at the death of Andrea Saccavino, 1 Jan — Ruggiero Crisci 61 contadino, strada Porta di Sopra	an_ua14319
+1818	78		Maria Rivetti		died 1 Jan — read in the death register	an_ua14319
+1818	78		Francesco Rivetti		named as a parent of Maria Rivetti, 1 Jan	an_ua14319
+1818	78		Andreana Laudato		named as a parent of Maria Rivetti, 1 Jan	an_ua14319
+1818	78		Luigi Rivetti		declarant at the death of Maria Rivetti, 1 Jan — Luigi Rivetti 75 bracciale, strada Annunziata (the oldest Rivetti yet)	an_ua14319
+1818	78		Domenico Copa		declarant at the death of Maria Rivetti, 1 Jan — Domenico Copa 45	an_ua14319
+1818	78		Antonia Sforza		died 3 Jan — read in the death register	an_ua14319
+1818	78		Decio Sforza		named as a parent of Antonia Sforza, 3 Jan	an_ua14319
+1818	78		Francesca Cimmino		named as a parent of Antonia Sforza, 3 Jan	an_ua14319
+1818	78		Gennaro Maggiore		named as the spouse of Antonia Sforza, 3 Jan	an_ua14319
+1818	78		Bartolomeo Diglio		declarant at the death of Antonia Sforza, 3 Jan — Bartolomeo Diglio 30 contadino, strada Camellara	an_ua14319
+1818	78		Francesco Martone		declarant at the death of Antonia Sforza, 3 Jan — Francesco Martone 48 cantiniere, strada Camellara	an_ua14319
+1818	79		Antonia Cimmino		died 4 Jan — read in the death register	an_ua14319
+1818	79		Nunzio Cimmino		named as a parent of Antonia Cimmino, 4 Jan	an_ua14319
+1818	79		Teresa Diglio		named as a parent of Antonia Cimmino, 4 Jan	an_ua14319
+1818	79		Raffaele Grasso		named as the spouse of Antonia Cimmino, 4 Jan	an_ua14319
+1818	79		Giovanni Morgillo		declarant at the death of Antonia Cimmino, 4 Jan — Giovanni Morgillo 24 contadino	an_ua14319
+1818	79		Antonio Cimmino		declarant at the death of Antonia Cimmino, 4 Jan — Antonio Cimmino 36 vaticale	an_ua14319
+1818	79		Nicola Morgillo		died 4 Jan — read in the death register	an_ua14319
+1818	79		Nicola Morgillo		named as a parent of Nicola Morgillo, 4 Jan	an_ua14319
+1818	79		Rosolina Bruno		named as a parent of Nicola Morgillo, 4 Jan	an_ua14319
+1818	79		Nicola Morgillo		declarant at the death of Nicola Morgillo, 4 Jan — Nicola Morgillo 30 cavajolo, strada Camellara	an_ua14319
+1818	79		Luigi Giglio		declarant at the death of Nicola Morgillo, 4 Jan — Luigi Giglio 37 falegname, strada Camellara	an_ua14319
+1818	80		Raffaele Sossi		died 5 Jan — read in the death register	an_ua14319
+1818	80		Nicola Sossi		named as a parent of Raffaele Sossi, 5 Jan	an_ua14319
+1818	80		Maria Maggiore		named as a parent of Raffaele Sossi, 5 Jan	an_ua14319
+1818	80		Carmina Guida		named as the spouse of Raffaele Sossi, 5 Jan	an_ua14319
+1818	80		Custode Sossi		declarant at the death of Raffaele Sossi, 5 Jan — Custode Sossi 34 contadino	an_ua14319
+1818	80		Sabbato Vassallo		declarant at the death of Raffaele Sossi, 5 Jan — Sabbato Vassallo 27 sportellaro (the man who declared Raffaele Falco's death)	an_ua14319
+1818	80		Don Giuseppe Migliore		died 6 Jan — read in the death register	an_ua14319
+1818	80		Fabio Migliore		named as a parent of Don Giuseppe Migliore, 6 Jan	an_ua14319
+1818	80		Giovanna Laudato		named as a parent of Don Giuseppe Migliore, 6 Jan	an_ua14319
+1818	80		Don Alessandro Cimmino		declarant at the death of Don Giuseppe Migliore, 6 Jan — Don Alessandro Cimmino 28	an_ua14319
+1818	80		Don Biaggio Giglio, sacerdote		declarant at the death of Don Giuseppe Migliore, 6 Jan — Don Biaggio Giglio, sacerdote	an_ua14319
+1818	81		Angela Migliore		died 7 Jan — read in the death register	an_ua14319
+1818	81		Domenico Migliore		named as a parent of Angela Migliore, 7 Jan	an_ua14319
+1818	81		Anna Migliore		named as a parent of Angela Migliore, 7 Jan	an_ua14319
+1818	81		Giovanni Zenolato		named as the spouse of Angela Migliore, 7 Jan	an_ua14319
+1818	81		Carmine Migliore		declarant at the death of Angela Migliore, 7 Jan — Carmine Migliore 21 contadino	an_ua14319
+1818	81		Antonio di Nisco		declarant at the death of Angela Migliore, 7 Jan — Antonio di Nisco 26	an_ua14319
+1818	81		Angela Altavilla		died 10 Jan — read in the death register	an_ua14319
+1818	81		Sabatino Altavilla		named as a parent of Angela Altavilla, 10 Jan	an_ua14319
+1818	81		Maria Rosa Ferraro		named as a parent of Angela Altavilla, 10 Jan	an_ua14319
+1818	81		Carmine Gimbardo		declarant at the death of Angela Altavilla, 10 Jan — Carmine Gimbardo 30 bracciale	an_ua14319
+1818	81		Giuseppe di Sortella		declarant at the death of Angela Altavilla, 10 Jan — Giuseppe di Sortella 30 contadino	an_ua14319
+1818	82		Salvatore Anigale		died 11 Jan — read in the death register	an_ua14319
+1818	82		Vincenzo Anigale		named as a parent of Salvatore Anigale, 11 Jan	an_ua14319
+1818	82		Chiara Morgillo		named as a parent of Salvatore Anigale, 11 Jan	an_ua14319
+1818	82		Vincenzo Anigale		declarant at the death of Salvatore Anigale, 11 Jan — Vincenzo Anigale 50 fruttajolo	an_ua14319
+1818	82		Nicola Diglio		declarant at the death of Salvatore Anigale, 11 Jan — Nicola Diglio 51 contadino	an_ua14319
+1818	82		Don Sabbatino Sossi		died 20 Jan — read in the death register	an_ua14319
+1818	82		Ambrosio Sossi		named as a parent of Don Sabbatino Sossi, 20 Jan	an_ua14319
+1818	82		Nicola Sossi		declarant at the death of Don Sabbatino Sossi, 20 Jan — Nicola Sossi 40 bracciale, strada Costa	an_ua14319
+1818	82		Vincenzo Sorrino		declarant at the death of Don Sabbatino Sossi, 20 Jan — Vincenzo Sorrino 60 contadino	an_ua14319
+1818	83		Don Gianvincenzo Sanseverino		died 20 Jan — read in the death register	an_ua14319
+1818	83		Don Vincenzo Sanseverino		named as a parent of Don Gianvincenzo Sanseverino, 20 Jan	an_ua14319
+1818	83		Donna Sabbata Sorrentino		named as a parent of Don Gianvincenzo Sanseverino, 20 Jan	an_ua14319
+1818	83		Angelo Diglio		declarant at the death of Don Gianvincenzo Sanseverino, 20 Jan — Angelo Diglio 50 vaticale	an_ua14319
+1818	83		Matteo Migliore		declarant at the death of Don Gianvincenzo Sanseverino, 20 Jan — Matteo Migliore 44 calzolaio	an_ua14319
+1818	83		Raffaele Scafora		died 21 Jan — read in the death register	an_ua14319
+1818	83		Biaggio Scafora		named as a parent of Raffaele Scafora, 21 Jan	an_ua14319
+1818	83		Vincenza Diglio		named as a parent of Raffaele Scafora, 21 Jan	an_ua14319
+1818	83		Antonia Cimmino		named as the spouse of Raffaele Scafora, 21 Jan	an_ua14319
+1818	83		Antonio Perrotta		declarant at the death of Raffaele Scafora, 21 Jan — Antonio Perrotta 30 vaticale, strada Santa Lucia	an_ua14319
+1818	83		Luigi Verdicchio		declarant at the death of Raffaele Scafora, 21 Jan — Luigi Verdicchio 32 calzolaio	an_ua14319
+1818	84		Maria Esposito		died 22 Jan — read in the death register	an_ua14319
+1818	84		Gioacchino Esposito		named as a parent of Maria Esposito, 22 Jan	an_ua14319
+1818	84		Doralice Grosso		named as a parent of Maria Esposito, 22 Jan	an_ua14319
+1818	84		Giovanni Sossi		declarant at the death of Maria Esposito, 22 Jan — Giovanni Sossi 66 bracciale, strada Sossi	an_ua14319
+1818	84		Lorenzo Martone		declarant at the death of Maria Esposito, 22 Jan — Lorenzo Martone 32	an_ua14319
+1818	84		Virgilio Sossi		died 30 Jan — read in the death register	an_ua14319
+1818	84		Nicola Sossi		named as a parent of Virgilio Sossi, 30 Jan	an_ua14319
+1818	84		Maria Maggiore		named as a parent of Virgilio Sossi, 30 Jan	an_ua14319
+1818	84		Maddalena di Lucia		named as the spouse of Virgilio Sossi, 30 Jan	an_ua14319
+1818	84		Sabato Vassallo		declarant at the death of Virgilio Sossi, 30 Jan — Sabato Vassallo 26 sportellaro	an_ua14319
+1818	84		Francesco Vassallo		declarant at the death of Virgilio Sossi, 30 Jan — Francesco Vassallo 55 sportellaro	an_ua14319
+1818	85		Rosa Cimmino		died 31 Jan — read in the death register	an_ua14319
+1818	85		Domenico Cimmino		named as a parent of Rosa Cimmino, 31 Jan	an_ua14319
+1818	85		Mariangela Martone		named as a parent of Rosa Cimmino, 31 Jan	an_ua14319
+1818	85		Pietro Tofano		declarant at the death of Rosa Cimmino, 31 Jan — Pietro Tofano 25 vaticale	an_ua14319
+1818	85		Don Antonio Martone		declarant at the death of Rosa Cimmino, 31 Jan — Don Antonio Martone 25, sacerdote	an_ua14319
+1818	85		Nicoletta Diglio		died 5 Feb — read in the death register	an_ua14319
+1818	85		Raffaele Diglio		named as a parent of Nicoletta Diglio, 5 Feb	an_ua14319
+1818	85		Rosa Martone		named as a parent of Nicoletta Diglio, 5 Feb	an_ua14319
+1818	85		Francesco —		named as the spouse of Nicoletta Diglio, 5 Feb	an_ua14319
+1818	85		Giuseppe Diglio		declarant at the death of Nicoletta Diglio, 5 Feb — Giuseppe Diglio 41 contadino, strada Camellara	an_ua14319
+1818	85		Nicola Diglio		declarant at the death of Nicoletta Diglio, 5 Feb — Nicola Diglio 36 contadino, strada Camellara	an_ua14319
+1818	86		Raffaele Macariello		died 11 Feb — read in the death register	an_ua14319
+1818	86		Raffaele Macariello		named as a parent of Raffaele Macariello, 11 Feb	an_ua14319
+1818	86		Domenica Martone		named as a parent of Raffaele Macariello, 11 Feb	an_ua14319
+1818	86		Giuseppe Martone		declarant at the death of Raffaele Macariello, 11 Feb — Giuseppe Martone 48 bracciale	an_ua14319
+1818	86		Costanzo Laudato		declarant at the death of Raffaele Macariello, 11 Feb — Costanzo Laudato 65	an_ua14319
+1818	86		Donn'Andrea di Sortella		died 12 Feb — read in the death register	an_ua14319
+1818	86		Domenico di Sortella		named as a parent of Donn'Andrea di Sortella, 12 Feb	an_ua14319
+1818	86		Orsola Sossi		named as a parent of Donn'Andrea di Sortella, 12 Feb	an_ua14319
+1818	86		Raffaele Fiorella		declarant at the death of Donn'Andrea di Sortella, 12 Feb — Raffaele Fiorella 27	an_ua14319
+1818	86		Bernardo d'Onofrio		declarant at the death of Donn'Andrea di Sortella, 12 Feb — Bernardo d'Onofrio 72 calzolaio	an_ua14319
+1818	87		Maria Laudato		died 18 Feb — read in the death register	an_ua14319
+1818	87		Giovanni Laudato		named as a parent of Maria Laudato, 18 Feb	an_ua14319
+1818	87		Laura Sossi		named as a parent of Maria Laudato, 18 Feb	an_ua14319
+1818	87		Domenico Sossi		declarant at the death of Maria Laudato, 18 Feb — Domenico Sossi 32 contadino, strada Sossi	an_ua14319
+1818	87		Angelo Sossi		declarant at the death of Maria Laudato, 18 Feb — Angelo Sossi 41 contadino	an_ua14319
+1818	87		Felice Martone		died 20 Feb — read in the death register	an_ua14319
+1818	87		Lazzaro Martone		named as a parent of Felice Martone, 20 Feb	an_ua14319
+1818	87		Antonia Martone		named as a parent of Felice Martone, 20 Feb	an_ua14319
+1818	87		Pietro Diglio		declarant at the death of Felice Martone, 20 Feb — Pietro Diglio 42 contadino	an_ua14319
+1818	87		Raffaele Laudato		declarant at the death of Felice Martone, 20 Feb — Raffaele Laudato 53 contadino	an_ua14319
+1818	88		Salvatore Diglio		died 23 Feb — read in the death register	an_ua14319
+1818	88		Alfonso Diglio		named as a parent of Salvatore Diglio, 23 Feb	an_ua14319
+1818	88		Maria Martone		named as a parent of Salvatore Diglio, 23 Feb	an_ua14319
+1818	88		Francesco Martone		declarant at the death of Salvatore Diglio, 23 Feb — Francesco Martone 42 contadino, strada Sajanella	an_ua14319
+1818	88		Cesare Diglio		declarant at the death of Salvatore Diglio, 23 Feb — Cesare Diglio 49 contadino	an_ua14319
+1818	88		ANGELA seu LELLA MAJONE		died 27 Feb — read in the death register	an_ua14319
+1818	88		Nicola Majone		named as a parent of ANGELA seu LELLA MAJONE, 27 Feb	an_ua14319
+1818	88		MARIA FALCO		named as a parent of ANGELA seu LELLA MAJONE, 27 Feb	an_ua14319
+1818	88		Giuseppe Sossi		named as the spouse of ANGELA seu LELLA MAJONE, 27 Feb	an_ua14319
+1818	88		Aniello Saccavino		declarant at the death of ANGELA seu LELLA MAJONE, 27 Feb — Aniello Saccavino 71 contadino, strada Sossi	an_ua14319
+1818	88		Antonio Sossi		declarant at the death of ANGELA seu LELLA MAJONE, 27 Feb — Antonio Sossi 36 contadino	an_ua14319

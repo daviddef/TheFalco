@@ -1093,5 +1093,65 @@
     "ark": "ANTENATI an_ua14319 img59r"
    }
   ]
+ },
+ {
+  "name": "Nicola Majone & Maria Falco",
+  "members": [
+   {
+    "household": "Nicola Majone & Maria Falco",
+    "person": "Nicola Majone",
+    "role": "father",
+    "event": "—",
+    "date": "d. before Feb 1818",
+    "place": "Arienzo",
+    "evidence": "«figlia delli fu Nicola Majone» — dead by February 1818. NOT the Nicola Majone whose wife was Maria Casella and whose son Giovanni died 9 July 1817; that is a different couple in the same register.",
+    "ark": "ANTENATI an_ua14319 img88r"
+   },
+   {
+    "household": "Nicola Majone & Maria Falco",
+    "person": "Maria Falco",
+    "role": "mother",
+    "event": "—",
+    "date": "d. before Feb 1818",
+    "place": "Arienzo",
+    "evidence": "«e Maria Falco» — «delli fu» governs both parents, so she too was dead by February 1818. A FALCO WOMAN MARRIED INTO THE MAJONE. Whether she is the Maria Falco buried on 24 July 1817 — «figlia delli fu Giuseppe Falco e Rosa Sossi, vedova di Francesco Quotolo» — is NOT established. One woman twice widowed would fit the dates; so would two women of the same name. Nothing here decides it.",
+    "ark": "ANTENATI an_ua14319 img88r"
+   },
+   {
+    "household": "Nicola Majone & Maria Falco",
+    "person": "Angela (Lella) Majone",
+    "role": "child",
+    "event": "death",
+    "date": "27 Feb 1818",
+    "place": "Arienzo",
+    "evidence": "«Angela, seu Lella Majone, figlia delli fu Nicola Majone, e Maria Falco, moglie di Giuseppe Sossi» — died at nineteen hours. «seu» = «or», the register giving both the formal name and the one she was called by.",
+    "ark": "ANTENATI an_ua14319 img88r"
+   }
+  ]
+ },
+ {
+  "name": "Giuseppe Sossi & Angela (Lella) Majone",
+  "members": [
+   {
+    "household": "Giuseppe Sossi & Angela (Lella) Majone",
+    "person": "Giuseppe Sossi",
+    "role": "father",
+    "event": "—",
+    "date": "—",
+    "place": "Arienzo",
+    "evidence": "«moglie di Giuseppe Sossi» — alive in February 1818, no age given",
+    "ark": "ANTENATI an_ua14319 img88r"
+   },
+   {
+    "household": "Giuseppe Sossi & Angela (Lella) Majone",
+    "person": "Angela (Lella) Majone",
+    "role": "mother",
+    "event": "death",
+    "date": "27 Feb 1818",
+    "place": "Arienzo",
+    "evidence": "the act naming this marriage is her own death act",
+    "ark": "ANTENATI an_ua14319 img88r"
+   }
+  ]
  }
 ]
