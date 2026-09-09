@@ -1,0 +1,98 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import register from "../data/register.json";
+
+const rows = register.filter((r) => ["MAIONE", "MAJONE"].includes((r.surname || "").toUpperCase()));
+const swept = rows.filter((r) => r.kind === "swept").length;
+---
+<Base title="Maione"
+      eyebrow="Generation six married a Maione"
+      dek="Costanza Maione of Arienzo — the mother of Carminantonio, and the one wife in the spine whose own birth record has actually been found.">
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>Maione is the second maternal line this archive left unwritten.</strong> Like
+    <a href={u("/annecchino")}>Annecchino</a> it belongs to the direct line, not to the margins:
+    <strong>Costanza Maione married Raffaele Falco</strong>, and their son Carminantonio carried the
+    name to Australia. The archive held {rows.length} Maione and Majone records and gave the family
+    no page.</p>
+  </div>
+
+  <h2>Costanza Maione</h2>
+  <p class="lede">Born at <strong>Arienzo on 2 May 1876</strong>. She married <strong>Raffaele
+  Falco</strong>, born at Arienzo 6 April 1873, and the children the archive can name are
+  <strong>Giovanna</strong> (1898), <strong>Carminantonio</strong> (1901), <strong>Anna del
+  Giudice</strong> (1904), <strong>Gerardo</strong> (1913), and <strong>Giacoma</strong> and
+  <strong>Aniello</strong>, undated.</p>
+
+  <div class="card" style="margin:1rem 0">
+    <p><strong>Hers is the one wife's birth in the spine with a record behind it.</strong> Filomena
+    Annecchino's birth is known only from the family tree; Costanza's is
+    <strong>cited</strong> — a Caserta <em>Stato Civile</em> entry of 2 May 1876 which also names her
+    father, <strong>Aniello Maione</strong>. That is why this page can say more about 1876 than the
+    Annecchino page can about 1897.</p>
+  </div>
+
+  <h2>Her household at Arienzo</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Who</th><th>Born</th><th>What the archive has</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Aniello Maione / Majone</strong>, her father</td><td class="mono">1841, Arienzo</td>
+        <td>Named in Costanza's own birth entry, and in the tree.</td></tr>
+      <tr><td><strong>Anna Martone</strong>, her mother</td><td class="mono">1846, Arienzo</td>
+        <td>The tree. <strong>Martone is one of the commonest Arienzo names in these registers</strong> —
+        375 records — so she is not yet joined to any Martone household.</td></tr>
+      <tr><td><strong>Costanza Maione</strong></td><td class="mono">2 May 1876, Arienzo</td>
+        <td><strong>Cited record.</strong> Married Raffaele Falco.</td></tr>
+      <tr><td>Michel'angelo Maione, her brother</td><td class="mono">10 Mar 1881, Arienzo</td><td>The tree.</td></tr>
+      <tr><td>Maria Maione, her sister</td><td class="mono">1 Dec 1884, Arienzo</td><td>The tree.</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>One spelling, three shapes</h2>
+  <p>The family is written <strong>Maione</strong> in the twentieth-century papers and
+  <strong>Majone</strong> throughout the nineteenth-century Arienzo registers — the same name with the
+  older orthography. A third form, <strong>Maggiore</strong>, is a <em>different</em> Arienzo family
+  and is not merged here, although the hands of the 1820s and 1840s make the two look alike. The rule
+  this archive follows for that kind of pair is set out under <a href={u("/method")}>Method</a>.</p>
+
+  <h2>The Majone on the ground, 1816–1843</h2>
+  <p>{swept} of these records were read off the Arienzo death registers line by line rather than
+  found in an index. They put the family in specific streets, in specific trades:</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Who</th><th>What the register says</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Don Raffaele Majone</strong></td><td>Died at <strong>eighty-four</strong>,
+        <em>«di professione SACERDOTE»</em> — a priest, son of Tomaso Majone. <strong>The family put a
+        son into the Church.</strong></td></tr>
+      <tr><td><strong>Francesco Majone</strong></td><td>Forty-five, <em>«massaro di campagna»</em> —
+        a farm overseer, not a day labourer. The same rank the register gives Giuseppe Falco in 1817.</td></tr>
+      <tr><td><strong>Celestino Majone</strong></td><td>Forty-six, <em>sartore</em>, declaring at the
+        death of a <em>gentildonna</em>.</td></tr>
+      <tr><td><strong>Gennaro, Giuseppe, Filippo Majone</strong></td><td><em>Contadini</em> and
+        <em>bracciali</em> of <strong>strada Cossi / Cioffi</strong>, strada Caldarola and strada
+        Capodiconca, declaring across the 1820s to the 1840s.</td></tr>
+      <tr><td><strong>Gaspare Majone</strong></td><td>Twenty-three in 1840 on <strong>strada
+        Costa</strong>, declaring twice in five days; thirty-four by the December of that year.</td></tr>
+      <tr><td><strong>Antonio Majone</strong></td><td>Given as thirty-two, thirty-six, forty-five and
+        fifty in four different acts — <em>the age problem, in one family</em>.</td></tr>
+    </tbody>
+  </table></div>
+
+  <p class="small"><strong>None of these has been joined to Aniello Maione of 1841.</strong> They are
+  the family in its town, forty years before Costanza was born, and they are published as that rather
+  than as a pedigree.</p>
+
+  <h2>What would move this line</h2>
+  <ul>
+    <li><strong>Aniello Maione's birth act, about 1841, Arienzo.</strong> It would name his parents and
+    reach back into the swept Majone above — several of whom are the right age to be his father.</li>
+    <li><strong>The marriage of Aniello Maione and Anna Martone</strong>, about 1865–1875. It names
+    both fathers.</li>
+    <li><strong>The marriage of Raffaele Falco and Costanza Maione</strong>, about 1895. It would tie
+    the two families together in one document and name four parents at once.</li>
+  </ul>
+
+  <p class="small" style="margin-top:1.2rem">All {rows.length} Maione and Majone records are listed with
+  their sources at <a href={u("/register") + "?q=Majone"}>the register →</a></p>
+</Base>
