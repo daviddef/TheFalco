@@ -591,6 +591,16 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "«e di Giuseppe Falco, di anni trentasei, di professione contadino, domiciliato in questo comune, strada Camellara» — declaring the death of a neighbour, Emanuela d'Onofrio, with Domenico Balletta, 40, sartore, of the same street. THIS IS THE SIGHTING THAT TIES THE OTHERS TOGETHER: one month later, on 7 June 1818, the birth act of his daughter Maddalena gives him as thirty-six, contadino, of strada Camellara, husband of Antonia di Guida. Same age, same trade, same street, four weeks apart — one man, not two. Balletta is his neighbour in October 1817 as well.",
     "ark": "ANTENATI an_ua14320 img24l"
+   },
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Giuseppe Falco",
+    "role": "father",
+    "event": "named as declarant",
+    "date": "20 Jun 1823",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«e GIUSEPPE FALCO FU MATTEO, di anni quarantatre, di professione Contadino, regnicolo, domiciliato strada Camellara» — THE FIRST CIVIL RECORD TO STATE HIS PARENTAGE OUTRIGHT. The clerk adds «fu Matteo» to tell him from the other Giuseppe Falco of the town, and in doing so confirms from the civil series what the archive previously had only from the parish books: this Giuseppe is a son of the late Matteo Falco. Forty-three here, so born about 1780 — which agrees with the thirty-seven he gives in October 1817. He declares with Cesare Giglio, 50, of the same street, at the death of Maria Crisci, three years old, daughter of Marcello Crisci and Maria Rosa Mauro.",
+    "ark": "ANTENATI an_ua14325 img20r"
    }
   ]
  },
@@ -1576,6 +1586,41 @@
     "place": "Arienzo",
     "evidence": "named as his wife — another Morgillo–Rivetti marriage",
     "ark": "ANTENATI an_ua14323 img23r"
+   }
+  ]
+ },
+ {
+  "name": "Marcello Crisci & Maria Rosa Mauro",
+  "members": [
+   {
+    "household": "Marcello Crisci & Maria Rosa Mauro",
+    "person": "Marcello Crisci",
+    "role": "father",
+    "event": "—",
+    "date": "living 1823",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«figlia di MARCELLO CRISCI, di professione contadino» — the Marcello Crisci, 25, who declared the death of Fortunato Crisci, son of Arcangelo Crisci and Anna Falco, on strada Camellara in January 1820",
+    "ark": "ANTENATI an_ua14325 img20r"
+   },
+   {
+    "household": "Marcello Crisci & Maria Rosa Mauro",
+    "person": "Maria Rosa Mauro",
+    "role": "mother",
+    "event": "—",
+    "date": "living 1823",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«e di MARIA ROSA MAURO, domiciliata ivi»",
+    "ark": "ANTENATI an_ua14325 img20r"
+   },
+   {
+    "household": "Marcello Crisci & Maria Rosa Mauro",
+    "person": "Maria Crisci",
+    "role": "child",
+    "event": "death",
+    "date": "19 Jun 1823",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«MARIA CRISCI, di anni tre, nata in Arienzo, di professione contadina» — declared by Cesare Giglio and GIUSEPPE FALCO FU MATTEO, both of strada Camellara",
+    "ark": "ANTENATI an_ua14325 img20r"
    }
   ]
  }
