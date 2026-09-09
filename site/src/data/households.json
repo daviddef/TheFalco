@@ -436,6 +436,16 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "«è comparso Vincenzo Falco, di anni trentacinque, bracciale… strada Camellara… da Andreana Crisci sua moglie legittima, d'anni venticinque, un maschio… a cui si è dato il nome di Raffaele» — a FIRST child of this name, two years before the Raffaele of 10 May 1818. Ordinarily the first died; which of the two is generation four is now an open question",
     "ark": "ANTENATI an_ua14413 img29l act56"
+   },
+   {
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Raffaele Falco",
+    "role": "child",
+    "event": "death",
+    "date": "28 Oct 1817",
+    "place": "Arienzo",
+    "evidence": "«Raffaele Falco figlio di Vincenzo Falco, e d'Andreana Crisci» — died at seven in the morning, aged about eighteen months. THIS IS THE BURIAL OF THE FIRST RAFFAELE, born 25 April 1816, and it settles generation four: the Raffaele of 10 May 1818 is the one who lived. Declared by Sabato Vassallo, 26, sportellaro of strada Porta di Sopra, and by GIUSEPPE FALCO, 37, massaro di campagna of strada Camellara, the two of them «PARENTI» — kin.",
+    "ark": "ANTENATI an_ua14319 img61l"
    }
   ]
  },
@@ -521,6 +531,16 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "«e di Giuseppe Falco, di anni trentadue, massaro di campagna, domiciliato ugualmente nel luogo indicato» — declaring the death of Crescenzo Rivetti alongside Gioacchino Falco, the two of them «parenti del defunto». PLACED HERE WITH RESERVATION: the street matches this household, but the age does not. This man is 32 in December 1816; the Giuseppe of strada Camellara is 36 in June 1818, which would make him 34 here. The trade differs too — massaro di campagna against contadino. It may be the same man loosely aged, or a third Giuseppe.",
     "ark": "ANTENATI an_ua14318 img42l act76"
+   },
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Giuseppe Falco",
+    "role": "father",
+    "event": "named as declarant",
+    "date": "24 and 28 Oct 1817",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«Giuseppe Falco, di anni trentasette, di professione massaro di campagna, domiciliato in questo comune, strada Camellara» — twice in five days: on 24 October for a neighbour, Marianna Petrillo, and on 28 October for Vincenzo Falco's infant son Raffaele, where he and Sabato Vassallo are called «PARENTI». Vincenzo is a grandson of Matteo; Giuseppe is a documented son of Matteo, which would make him Vincenzo's uncle — and the register's own word for the relationship is kin. Aged 37 here, so born about 1780.",
+    "ark": "ANTENATI an_ua14319 img61l"
    }
   ]
  },
@@ -886,6 +906,191 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "«Gioacchino Falco, di anni trentasei, massaro di campagna, domiciliato in questo comune, strada Camellara» — declaring the death of Crescenzo Rivetti as a «parente del defunto». Aged 36, so born about 1780.",
     "ark": "ANTENATI an_ua14318 img42l act76"
+   }
+  ]
+ },
+ {
+  "name": "Giuseppe Falco & Rosa Sossi",
+  "members": [
+   {
+    "household": "Giuseppe Falco & Rosa Sossi",
+    "person": "Giuseppe Falco",
+    "role": "father",
+    "event": "—",
+    "date": "d. before Jul 1817",
+    "place": "Arienzo",
+    "evidence": "«figlia delli fu Giuseppe Falco» — dead by July 1817. A Falco head of the founding generation, distinct from every Giuseppe Falco so far recorded: the others are alive in 1816 and 1818.",
+    "ark": "ANTENATI an_ua14319 img34l"
+   },
+   {
+    "household": "Giuseppe Falco & Rosa Sossi",
+    "person": "Rosa Sossi",
+    "role": "mother",
+    "event": "—",
+    "date": "d. before Jul 1817",
+    "place": "Arienzo",
+    "evidence": "«e Rosa Sossi» — «delli fu» governs both parents, so she too was dead by July 1817. The Sossi are one of the largest families in the 1817 register.",
+    "ark": "ANTENATI an_ua14319 img34l"
+   },
+   {
+    "household": "Giuseppe Falco & Rosa Sossi",
+    "person": "Maria Falco",
+    "role": "child",
+    "event": "death",
+    "date": "24 Jul 1817",
+    "place": "Arienzo",
+    "evidence": "«Maria Falco figlia delli fu Giuseppe Falco e Rosa Sossi, vedova di Francesco Quotolo» — died at twelve o'clock. No age is given; the 1816–18 form does not ask for one.",
+    "ark": "ANTENATI an_ua14319 img34l"
+   }
+  ]
+ },
+ {
+  "name": "Francesco Quotolo & Maria Falco",
+  "members": [
+   {
+    "household": "Francesco Quotolo & Maria Falco",
+    "person": "Francesco Quotolo",
+    "role": "father",
+    "event": "—",
+    "date": "d. before Jul 1817",
+    "place": "Arienzo",
+    "evidence": "«vedova di Francesco Quotolo» — dead by July 1817",
+    "ark": "ANTENATI an_ua14319 img34l"
+   },
+   {
+    "household": "Francesco Quotolo & Maria Falco",
+    "person": "Maria Falco",
+    "role": "mother",
+    "event": "death",
+    "date": "24 Jul 1817",
+    "place": "Arienzo",
+    "evidence": "the act that names this marriage is her own death act; no children are named",
+    "ark": "ANTENATI an_ua14319 img34l"
+   }
+  ]
+ },
+ {
+  "name": "Giuseppe Quotolo (strada Maddalena)",
+  "members": [
+   {
+    "household": "Giuseppe Quotolo (strada Maddalena)",
+    "person": "Giuseppe Quotolo",
+    "role": "father",
+    "event": "named as declarant",
+    "date": "24 Jul 1817",
+    "place": "Arienzo, strada Maddalena",
+    "evidence": "«Giuseppe Quotolo, di anni sessantacinque, di professione massaro di campagna, domiciliato in questo comune, strada Maddalena» — declaring Maria Falco's death as a parente, with Aniello Diglio, 45, contadino. Aged 65, so born about 1752 — the oldest man this archive has placed in a Falco household's orbit.",
+    "ark": "ANTENATI an_ua14319 img34l"
+   }
+  ]
+ },
+ {
+  "name": "Giuseppe di Guida & Michedalena Rivetti",
+  "members": [
+   {
+    "household": "Giuseppe di Guida & Michedalena Rivetti",
+    "person": "Giuseppe di Guida",
+    "role": "father",
+    "event": "—",
+    "date": "—",
+    "place": "Arienzo",
+    "evidence": "«figlio di Giuseppe di Guida» — no «fu», so alive in October 1817",
+    "ark": "ANTENATI an_ua14319 img59r"
+   },
+   {
+    "household": "Giuseppe di Guida & Michedalena Rivetti",
+    "person": "Michedalena Rivetti",
+    "role": "mother",
+    "event": "—",
+    "date": "—",
+    "place": "Arienzo",
+    "evidence": "«e Michedalena Rivetti» — the scribe breaks the name across a line as «e Miche-/dalena», a Campanian blend of Michela and Maddalena. A Rivetti woman married into the di Guida.",
+    "ark": "ANTENATI an_ua14319 img59r"
+   },
+   {
+    "household": "Giuseppe di Guida & Michedalena Rivetti",
+    "person": "Angelo Andrea di Guida",
+    "role": "child",
+    "event": "death",
+    "date": "21 Oct 1817",
+    "place": "Arienzo",
+    "evidence": "«Angelo Andrea di Guida figlio di Giuseppe di Guida e Michedalena Rivetti, marito di Teresa Vigliotta» — died at seven in the morning; no age given",
+    "ark": "ANTENATI an_ua14319 img59r"
+   }
+  ]
+ },
+ {
+  "name": "Angelo Andrea di Guida & Teresa Vigliotta",
+  "members": [
+   {
+    "household": "Angelo Andrea di Guida & Teresa Vigliotta",
+    "person": "Angelo Andrea di Guida",
+    "role": "father",
+    "event": "death",
+    "date": "21 Oct 1817",
+    "place": "Arienzo",
+    "evidence": "the act naming this marriage is his own death act",
+    "ark": "ANTENATI an_ua14319 img59r"
+   },
+   {
+    "household": "Angelo Andrea di Guida & Teresa Vigliotta",
+    "person": "Teresa Vigliotta",
+    "role": "mother",
+    "event": "widowed",
+    "date": "21 Oct 1817",
+    "place": "Arienzo",
+    "evidence": "named only as his wife; no age, no parents, no children",
+    "ark": "ANTENATI an_ua14319 img59r"
+   }
+  ]
+ },
+ {
+  "name": "Pietro Quotolo & Sofia Sossi",
+  "members": [
+   {
+    "household": "Pietro Quotolo & Sofia Sossi",
+    "person": "Pietro Quotolo",
+    "role": "father",
+    "event": "named as declarant",
+    "date": "21 Oct 1817",
+    "place": "Arienzo, strada Maddalena",
+    "evidence": "«Pietro Quotolo, di anni trenta, di professione massaro di campagna, domiciliato in questo comune, strada Maddalena». Born about 1787.",
+    "ark": "ANTENATI an_ua14319 img59r"
+   },
+   {
+    "household": "Pietro Quotolo & Sofia Sossi",
+    "person": "Sofia Sossi",
+    "role": "mother",
+    "event": "—",
+    "date": "—",
+    "place": "Arienzo",
+    "evidence": "named as the mother on their daughter's death act three weeks earlier",
+    "ark": "ANTENATI an_ua14319 img54l"
+   },
+   {
+    "household": "Pietro Quotolo & Sofia Sossi",
+    "person": "Angela Quotolo",
+    "role": "child",
+    "event": "death",
+    "date": "28 Sep 1817",
+    "place": "Arienzo",
+    "evidence": "«Angela Quotolo figlia di Pietro Quotolo e Sofia Sossi»",
+    "ark": "ANTENATI an_ua14319 img54l"
+   }
+  ]
+ },
+ {
+  "name": "Francesco Quotolo (strada Maddalena, living 1817)",
+  "members": [
+   {
+    "household": "Francesco Quotolo (strada Maddalena, living 1817)",
+    "person": "Francesco Quotolo",
+    "role": "father",
+    "event": "named as declarant",
+    "date": "28 Sep and 21 Oct 1817",
+    "place": "Arienzo, strada Maddalena",
+    "evidence": "Declares twice in three weeks and the ages do not match: «di anni trentanove, contadino» on 28 September, «di anni trentatre, massaro di campagna» on 21 October. Almost certainly one man loosely aged rather than two. HE IS NOT the Francesco Quotolo who married Maria Falco — that one was already dead by July 1817.",
+    "ark": "ANTENATI an_ua14319 img59r"
    }
   ]
  }
