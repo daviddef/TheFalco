@@ -2218,5 +2218,140 @@
     "ark": "ANTENATI an_ua14344 img35r atto55"
    }
   ]
+ },
+ {
+  "name": "Raffaele Cioffi & Francesca Falco",
+  "members": [
+   {
+    "household": "Raffaele Cioffi & Francesca Falco",
+    "person": "Francesca Falco",
+    "role": "mother",
+    "event": "—",
+    "date": "alive 1840–1843",
+    "place": "Arienzo, strada Cioffi",
+    "evidence": "Named in THREE acts, all without «fu», so alive throughout: Morti 1840 atto 50 (17 Aug 1840), Morti 1842 atto 2 (2 Jan 1842) and Morti 1843 atto 17 (10 Jun 1843). The 1843 act was read at strip resolution and published as «DOMENICA Falco» — explicitly flagged at the time as a hypothesis, not a finding. The 1840 and 1842 acts, both read at 2600–2800px, give FRANCESCA. The correction stands beside the error in the notes rather than replacing it. NO ACT NAMES HER PARENTS, and the archive does not guess at them. She is NOT the older Francesca Falco who married Gioacchino Cioffi and whose son died at seventy-six in 1843 — that woman was born in the 1740s; this one is bearing children in 1840. Two women, two generations apart, each married to a Cioffi.",
+    "ark": "ANTENATI an_ua14342 img32l atto50"
+   },
+   {
+    "household": "Raffaele Cioffi & Francesca Falco",
+    "person": "Raffaele Cioffi",
+    "role": "father",
+    "event": "—",
+    "date": "alive 1840–1843",
+    "place": "Arienzo, strada Cioffi",
+    "evidence": "A contadino of strada Cioffi, named without «fu» in all three acts. He appears in person as a declarant in Morti 1842 atto 80, aged THIRTY-SIX, which would put his birth about 1806.",
+    "ark": "ANTENATI an_ua14344 img52l atto80"
+   },
+   {
+    "household": "Raffaele Cioffi & Francesca Falco",
+    "person": "Maddalena Cioffi",
+    "role": "child",
+    "event": "death",
+    "date": "17 Aug 1840",
+    "place": "Arienzo, strada Cioffi",
+    "evidence": "«È morta nella sua propria casa MADDALENA CIOFFI D'UN ANNO.» One year old. The earliest of the three acts.",
+    "ark": "ANTENATI an_ua14342 img32l atto50"
+   },
+   {
+    "household": "Raffaele Cioffi & Francesca Falco",
+    "person": "Luigi Cioffi",
+    "role": "child",
+    "event": "death",
+    "date": "2 Jan 1842",
+    "place": "Arienzo, strada Cioffi",
+    "evidence": "«È morto nella sua propria casa LUIGI CIOFFI DI UN GIORNO.» One day old.",
+    "ark": "ANTENATI an_ua14344 img03l atto2"
+   },
+   {
+    "household": "Raffaele Cioffi & Francesca Falco",
+    "person": "Antonio Cioffi",
+    "role": "child",
+    "event": "death",
+    "date": "10 Jun 1843",
+    "place": "Arienzo, strada Cioffi",
+    "evidence": "Seventeen days old. This is the act whose mother's name the archive first misread; see Francesca Falco above.",
+    "ark": "ANTENATI an_ua14345 img14r atto17"
+   }
+  ]
+ },
+ {
+  "name": "Giovanni Cioffi & Maria Porrino",
+  "members": [
+   {
+    "household": "Giovanni Cioffi & Maria Porrino",
+    "person": "Giovanni Cioffi",
+    "role": "father",
+    "event": "—",
+    "date": "1840–1843",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "A contadino of STRADA CAMELLARA — the street of Pasquale Falco and Chiara Rivetti. He is one of the two men who report CHIARA RIVETTI'S DEATH on 3 September 1843. He declares on that street across four volumes, and his stated age is, after the first entry, the steadiest series in these registers: FORTY in 1840, FORTY-SEVEN in August 1842, FORTY-EIGHT in September 1843. In a register that gives Giuseppe Falco eleven different ages, this clerk got one right. HE IS A NEIGHBOUR. No act calls him kin to the Falco, and these registers write «parente» when they mean it.",
+    "ark": "ANTENATI an_ua14342 img45r atto73"
+   },
+   {
+    "household": "Giovanni Cioffi & Maria Porrino",
+    "person": "Maria Porrino",
+    "role": "mother",
+    "event": "—",
+    "date": "alive Nov 1840",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "Named without «fu» in the death act of their infant daughter, so alive in November 1840. Nothing else in these registers names her.",
+    "ark": "ANTENATI an_ua14342 img45r atto73"
+   },
+   {
+    "household": "Giovanni Cioffi & Maria Porrino",
+    "person": "Marta Cioffi",
+    "role": "child",
+    "event": "death",
+    "date": "Nov 1840",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«È morta nella sua propria casa MARTA CIOFFI D'UN MESE.» One month old. Declared by Clemente Cioffi and Virgilio Cioffi, both of strada Camellara — a fourth and fifth Cioffi on the Falco street.",
+    "ark": "ANTENATI an_ua14342 img45r atto73"
+   }
+  ]
+ },
+ {
+  "name": "Stefano Scarpati & [Serafina/Faustina] Cimmino",
+  "members": [
+   {
+    "household": "Stefano Scarpati & [Serafina/Faustina] Cimmino",
+    "person": "Don Stefano Scarpati",
+    "role": "father",
+    "event": "—",
+    "date": "dead by 1840",
+    "place": "Arienzo",
+    "evidence": "A POSSIDENTE, dead before 1840. Named in two death acts a generation apart, with the same rank and trade both times: as father of MARIA GIUSEPPA SCARPATI (Morti 1840 atto 28) and as father of DON ANGELO SCARPATI, ARCIPRETE OF ARIENZO (Morti 1842 atto 15).",
+    "ark": "ANTENATI an_ua14342 img17l atto28"
+   },
+   {
+    "household": "Stefano Scarpati & [Serafina/Faustina] Cimmino",
+    "person": "Donna Serafina Cimmino",
+    "role": "mother",
+    "event": "—",
+    "date": "dead by 1840",
+    "place": "Arienzo",
+    "evidence": "THE ONE DISCREPANCY, AND IT IS PUBLISHED RATHER THAN RESOLVED. The 1840 act names the mother SERAFINA Cimmino; the 1842 act names her FAUSTINA Cimmino. Same surname, same rank, same husband's name and trade, children born about 1766 and 1768. Either a clerk misread a forename, or Stefano Scarpati married twice. The archive records both readings and joins the two children as a STRONG INFERENCE, not a proven sibling pair.",
+    "ark": "ANTENATI an_ua14342 img17l atto28"
+   },
+   {
+    "household": "Stefano Scarpati & [Serafina/Faustina] Cimmino",
+    "person": "Maria Giuseppa Scarpati",
+    "role": "child",
+    "event": "death",
+    "date": "9 Apr 1840",
+    "place": "Arienzo, Conservatorio di San Filippo",
+    "evidence": "Seventy-two, «DI PROFESSIONE SORORA DEL CONSERVATORIO», died «NEL CONSERVATORIO DI SAN FILIPPO [NERI]» — a SECOND religious house in Arienzo, distinct from the Ave Gratia Plena where every other institutional death in these registers happens. Atto 46 of the same volume names a STRADA SAN FILIPPO NERI, which corroborates the dedication from the other direction. Born about 1768.",
+    "ark": "ANTENATI an_ua14342 img17l atto28"
+   },
+   {
+    "household": "Stefano Scarpati & [Serafina/Faustina] Cimmino",
+    "person": "Don Angelo Scarpati",
+    "role": "child",
+    "event": "death",
+    "date": "26 Feb 1842",
+    "place": "Arienzo",
+    "evidence": "Seventy-six, «DI PROFESSIONE ARCIPRETE» — the archpriest of Arienzo, born about 1766. This archive has been reading Latin parish burial entries from Arienzo for months; the man who presided over the parish through most of that period now has a name, an age and a family. WHAT IT DOES NOT ESTABLISH is that he wrote any particular entry: an archpriest presides, curates write. Chiara Rivetti's 1843 burial entry was made after his death.",
+    "ark": "ANTENATI an_ua14344 img11r atto15"
+   }
+  ]
  }
 ]
