@@ -2033,5 +2033,50 @@
     "ark": "ANTENATI an_ua14330 img7r atto11"
    }
   ]
+ },
+ {
+  "name": "Andrea Cioffi & Orsola Zimbardo (possidenti, strada Porta di Sopra)",
+  "members": [
+   {
+    "household": "Andrea Cioffi & Orsola Zimbardo (possidenti, strada Porta di Sopra)",
+    "person": "Andrea Cioffi",
+    "role": "father",
+    "event": "—",
+    "date": "dead by 1827",
+    "place": "Arienzo, strada Porta di Sopra",
+    "evidence": "«figlia di ANDREA CIOFFI defunto, di professione POSSIDENTE» — from his daughter Celia's death act of 3 June 1843. The same man, with the same trade and the same wife, is named in the 1827 act of Don Giuseppe, priest, whose surname that hand would not settle.",
+    "ark": "ANTENATI an_ua14345 img18r atto23"
+   },
+   {
+    "household": "Andrea Cioffi & Orsola Zimbardo (possidenti, strada Porta di Sopra)",
+    "person": "Orsola Zimbardo",
+    "role": "mother",
+    "event": "—",
+    "date": "dead by 1827",
+    "place": "Arienzo",
+    "evidence": "Named as the mother in both her son's act (1827) and her daughter's (1843). It is the coincidence of both parents, and the father's trade, that joins the two records.",
+    "ark": "ANTENATI an_ua14345 img18r atto23"
+   },
+   {
+    "household": "Andrea Cioffi & Orsola Zimbardo (possidenti, strada Porta di Sopra)",
+    "person": "Don Giuseppe Cioffi",
+    "role": "child",
+    "event": "death",
+    "date": "4 Dec 1827",
+    "place": "Arienzo",
+    "evidence": "«D. GIUSEPPE C—, d'anni cinquantasei, nato in Arienzo, di professione SACERDOTE, figlio di Andrea —, possidente, e di Orsola Zimbardo, defunti.» Born about 1771. The archive read the surname as Crisci-or-Cossi and refused to choose; the 1843 act of his sister settles it as CIOFFI.",
+    "ark": "ANTENATI an_ua14329 img47l atto84"
+   },
+   {
+    "household": "Andrea Cioffi & Orsola Zimbardo (possidenti, strada Porta di Sopra)",
+    "person": "Celia Cioffi",
+    "role": "child",
+    "event": "death",
+    "date": "3 Jun 1843",
+    "place": "Arienzo, strada Porta di Sopra",
+    "evidence": "«CELIA CIOFFI, vedova di Gabriele Biondello, di anni ottanta, contadina, domiciliata strada Porta di Sopra» — died in the Ospedale di Ave Gratia Plena. Born about 1763. A contadina, though her father was a possidente and her brother a priest.",
+    "ark": "ANTENATI an_ua14345 img18r atto23"
+   }
+  ]
  }
 ]
