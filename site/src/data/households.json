@@ -711,6 +711,16 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "Declaring atto 73 TOGETHER WITH CARLANTONIO MORGILLO, 46, contadino, of the same street — the FIRST ACT IN THE WHOLE ARIENZO SERIES in which a Falco and a Morgillo stand side by side. Both are entered as «vicini», so it is not a kinship statement; it is the earliest evidence that the two houses the line would later join were already neighbours.",
     "ark": "ANTENATI an_ua14328 img41r atto73"
+   },
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Giuseppe Falco",
+    "role": "father",
+    "event": "—",
+    "date": "1 May 1827",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«Sono comparsi GIUSEPPE FALCO, di anni QUARANTA, di professione COLONO, domiciliato in strada Camellara, vicino del Defunto» — declaring atto 30, the death of Giuseppe Cossi, aged one, son of Francesco Cossi. THE FOURTH CHILD OF THAT HOUSEHOLD he has declared (1823, 1824, 1825, 1827); the register calls him «vicino» every time and never «parente». NOTE THE AGE: 37 in 1817, 40 in 1825, 46 twice in 1826, 40 here — and the trade slides from massaro di campagna to massaro to colono. Either the clerks guessed or there are two Giuseppe Falco on that street.",
+    "ark": "ANTENATI an_ua14329 img17l atto30"
    }
   ]
  },
@@ -1876,6 +1886,21 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "Named as the husband in his wife's death act. A FOURTH surname married into the line's own generation two, beside Crisci (Anna) and the Falco–Morgillo weld that comes later. Nothing yet names his parents.",
     "ark": "ANTENATI an_ua14328 img13l atto22"
+   }
+  ]
+ },
+ {
+  "name": "Matteo Falco (possidente, strada Porta di Sopra)",
+  "members": [
+   {
+    "household": "Matteo Falco (possidente, strada Porta di Sopra)",
+    "person": "Matteo Falco",
+    "role": "head",
+    "event": "—",
+    "date": "living 12 Oct 1827",
+    "place": "Arienzo, strada Porta di Sopra",
+    "evidence": "«e MATTEO FALCO, di anni VENTOTTO, di professione POSSIDENTE, regnicolo, domiciliato in strada Porta di Sopra, vicino del Defunto» — declaring atto 52 of 1827. Born about 1799. THE ONLY FALCO IN TWENTY ANNUAL REGISTERS DESCRIBED AS A POSSIDENTE, and not on strada Camellara. He carries the founding ancestor's name; nothing yet names his father. UNJOINED to this line.",
+    "ark": "ANTENATI an_ua14329 img32l atto52"
    }
   ]
  }
