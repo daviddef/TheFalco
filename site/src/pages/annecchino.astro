@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import register from "../data/register.json";
 
@@ -32,8 +33,8 @@ const givens = [["Maria", 45], ["Giuseppe", 41], ["Sabatino", 37], ["Antonio", 2
   </div>
 
   <h2>Filomena Annecchino, and how the line runs through her</h2>
-  <p class="lede"><strong>Filomena Annecchino</strong> — born <strong>10 April 1897</strong> — married
-  <strong>Carminantonio Falco</strong>, born at Arienzo on 11 January 1901. She is not an in-law of
+  <p class="lede"><P n="Filomena Annecchino" bold={true} /> — born <strong>10 April 1897</strong> — married
+  <P n="Carminantonio Falco" bold={true} />, born at Arienzo on 11 January 1901. She is not an in-law of
   this family. <strong>She is half of generation seven</strong>, and every Falco of the Brisbane
   generations descends from her as much as from him.</p>
 
@@ -42,13 +43,13 @@ const givens = [["Maria", 45], ["Giuseppe", 41], ["Sabatino", 37], ["Antonio", 2
     <tbody>
       <tr><td><strong>Born</strong></td><td class="mono">10 Apr 1897</td>
         <td>The family tree. <strong>No birth record has been found</strong> — see the open question below.</td></tr>
-      <tr><td>Married <strong>Carminantonio Falco</strong></td><td class="mono">—</td>
+      <tr><td>Married <P n="Carminantonio Falco" bold={true} /></td><td class="mono">—</td>
         <td>The tree. <strong>The marriage act has not been found either.</strong> It would name both
         fathers in one line and is the single most valuable document still missing for this line.</td></tr>
-      <tr><td>Her son <strong>Aniello Falco</strong> dies at Forchia</td><td class="mono">2 Aug 1937</td>
+      <tr><td>Her son <P n="Aniello Falco" bold={true} /> dies at Forchia</td><td class="mono">2 Aug 1937</td>
         <td>Antenati name index, two entries — one of which names <em>both</em> parents,
         «Carminantonio Falco · Filomena Annecchino».</td></tr>
-      <tr><td>Her daughter <strong>Maria Annunziata Falco</strong> dies at Forchia, aged about five</td>
+      <tr><td>Her daughter <P n="Maria Annunziata Falco" bold={true} /> dies at Forchia, aged about five</td>
         <td class="mono">31 Jul 1938</td>
         <td>The tree, and an Antenati death index entry of that date filed under Annecchino.</td></tr>
       <tr><td><strong>Died</strong>, Brisbane</td><td class="mono">10 Aug 1988</td>
@@ -81,23 +82,23 @@ const givens = [["Maria", 45], ["Giuseppe", 41], ["Sabatino", 37], ["Antonio", 2
     <tbody>
       <tr><td>Giacinta Annecchino</td><td class="mono">18 Sep 1883</td><td>Forchia</td></tr>
       <tr><td>Agata Annecchino</td><td class="mono">8 Oct 1884</td><td>Forchia</td></tr>
-      <tr><td><strong>Giacomo Annecchino</strong></td><td class="mono">22 Jun 1887</td><td>Forchia</td></tr>
+      <tr><td><P n="Giacomo Annecchino" bold={true} /></td><td class="mono">22 Jun 1887</td><td>Forchia</td></tr>
       <tr><td>Agata Annecchino <span class="small">— the name given again</span></td><td class="mono">29 Jan 1889</td><td>Forchia</td></tr>
       <tr><td>Lucia Annecchino</td><td class="mono">2 Aug 1892</td><td>Forchia</td></tr>
       <tr><td>Alfonso Annecchino <span class="small">— same day as Lucia: <strong>twins</strong></span></td><td class="mono">2 Aug 1892</td><td>Forchia</td></tr>
       <tr><td>Alfonso Carmine Annecchino <span class="small">— the name given again</span></td><td class="mono">17 Jul 1894</td><td>Forchia</td></tr>
       <tr><td style="background:var(--ground)"><strong>FILOMENA — 10 Apr 1897 — the year that is missing</strong></td>
         <td class="mono">—</td><td>—</td></tr>
-      <tr><td><strong>Giacomo Annecchino</strong> <span class="small">— the name given again</span></td><td class="mono">2 Feb 1901</td><td>Benevento prov.</td></tr>
+      <tr><td><P n="Giacomo Annecchino" bold={true} /> <span class="small">— the name given again</span></td><td class="mono">2 Feb 1901</td><td>Benevento prov.</td></tr>
     </tbody>
   </table></div>
 
   <h3>Why it holds</h3>
   <ul>
     <li><strong>The father's name matches.</strong> The tree gives Filomena's father as
-    <strong>Carmine Annecchino</strong>.</li>
+    <P n="Carmine Annecchino" bold={true} />.</li>
     <li><strong>The brother's name matches, exactly.</strong> The tree gives her brother as
-    <strong>Giacomo Annecchino</strong> — and this household has <em>two</em> sons of that name, in
+    <P n="Giacomo Annecchino" bold={true} /> — and this household has <em>two</em> sons of that name, in
     1887 and again in 1901.</li>
     <li><strong>The town matches.</strong> Forchia is where Filomena's own two children died in 1937
     and 1938.</li>
@@ -111,7 +112,7 @@ const givens = [["Maria", 45], ["Giuseppe", 41], ["Sabatino", 37], ["Antonio", 2
     <li><strong>No record found names Filomena's mother.</strong> This is an argument from a household
     and a gap, not a document.</li>
     <li><strong>There is at least one other Carmine Annecchino at Forchia</strong>, married to
-    <strong>Giovanna Crisci</strong>, with children indexed in 1878 and 1880. He may be a different
+    <P n="Giovanna Crisci" bold={true} />, with children indexed in 1878 and 1880. He may be a different
     man — or <em>the same man</em>, widowed and remarried about 1882, which would make Filomena's
     half-siblings older than the household above. The archive does not choose.</li>
     <li>This household lost children and reused their names <strong>three times</strong> — two Agata,
@@ -158,13 +159,13 @@ const givens = [["Maria", 45], ["Giuseppe", 41], ["Sabatino", 37], ["Antonio", 2
   <div class="scroll"><table>
     <thead><tr><th>Father</th><th>Mother</th><th>A child, with a date</th></tr></thead>
     <tbody>
-      <tr><td><strong>Sabatino Annecchino</strong></td><td><strong>Mariantonia Carfora</strong></td>
+      <tr><td><P n="Sabatino Annecchino" bold={true} /></td><td><P n="Mariantonia Carfora" bold={true} /></td>
         <td>Maria Filomena, 24 Dec 1864; Carmine Maria, 13 Feb 1867</td></tr>
-      <tr><td><strong>Carmine Annecchino</strong></td><td><strong>Giovanna Crisci</strong></td>
+      <tr><td><P n="Carmine Annecchino" bold={true} /></td><td><P n="Giovanna Crisci" bold={true} /></td>
         <td>Maria Filomena, 7 Jun 1878</td></tr>
-      <tr><td><strong>Carmine Annecchino</strong></td><td><strong>Maria Carfora</strong></td>
+      <tr><td><P n="Carmine Annecchino" bold={true} /></td><td><strong>Maria Carfora</strong></td>
         <td>Agata, 8 Oct 1884; Agata again, 29 Jan 1889 — <em>the name given a second time</em></td></tr>
-      <tr><td><strong>Sabatino Annecchino</strong></td><td><strong>Maria Michela Piccolo</strong></td>
+      <tr><td><P n="Sabatino Annecchino" bold={true} /></td><td><strong>Maria Michela Piccolo</strong></td>
         <td>Agnese, 14 Sep 1893</td></tr>
     </tbody>
   </table></div>

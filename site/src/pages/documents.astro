@@ -17,7 +17,7 @@ const photos = plates.filter(p => p.k !== "register");
   Stato di Caserta. The transcription and translation of each is on the page linked beneath it.</p>
 
   {registers.map(p => (
-    <figure class="plate">
+    <figure class="plate" id={p.f.replace(/\.jpg$/, "")}>
       <img src={u("/plates/" + p.f)} alt={p.t} loading="lazy" />
       <figcaption>
         <h3>{p.t}</h3>
@@ -35,7 +35,7 @@ const photos = plates.filter(p => p.k !== "register");
   That is a deliberate choice, not an oversight.</p>
   <div class="grid two">
     {photos.map(p => (
-      <figure style="margin:0" class="card">
+      <figure style="margin:0" class="card" id={p.f.replace(/\.jpg$/, "")}>
         <img src={u("/plates/" + p.f)} alt={p.t} loading="lazy"
              style="width:100%;height:auto;border-radius:.35rem;display:block" />
         <figcaption style="margin-top:.6rem">
@@ -63,4 +63,13 @@ const photos = plates.filter(p => p.k !== "register");
   <a href={REPO + "/blob/main/notes/1836-death-register-progress.md"}>1836</a> — record every act
   read, not only the ones that mattered, so that nobody has to read them again.
   Full list of sources on the <a href={u("/sources")}>Sources</a> page.</p>
+<style is:global>
+    /* A plate reached by a link from another page announces itself, so the
+       reader can see which of sixty-odd images the citation meant. */
+    figure.plate, figure.card { scroll-margin-top: 4rem; }
+    figure.plate:target, figure.card:target {
+      outline: 2px solid var(--rule, currentColor);
+      outline-offset: .6rem; border-radius: .3rem;
+    }
+  </style>
 </Base>

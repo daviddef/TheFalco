@@ -1,6 +1,9 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import P from "../components/P.astro";
+import Src from "../components/Src.astro";
+const AN = "https://antenati.cultura.gov.it/ark:/12657/";
 ---
 <Base title="Ferrara"
       eyebrow="The Zampiello maternal name"
@@ -9,26 +12,30 @@ import { u } from "../lib/url.js";
   <div class="card" style="margin-bottom:1.2rem">
     <p><strong>This page corrects an omission, and says so.</strong> The archive has a
     <a href={u("/zampiello")}>Zampiello page</a> which follows that family from Arpaia to Brisbane.
-    It did not contain the word <em>Ferrara</em>. Giuseppa Ferrara is <strong>Francesca Zampiello's
+    It did not contain the word <em>Ferrara</em>. Giuseppa Ferrara is <strong><P n="Francesca Zampiello (Falco)">Francesca Zampiello</P>'s
     mother</strong> — a grandmother of the Brisbane generation — and she was missing from the page
     about her own daughters.</p>
   </div>
 
   <h2>Giuseppa Ferrara, and the spelling problem in her own records</h2>
-  <p class="lede">She married <strong>Angelo Zampiello</strong> — born 31 August 1895, died 25 April
+  <p class="lede">She married <P n="Angelo Zampiello" bold={true} /> — born 31 August 1895, died 25 April
   1972 — and the archive can name <strong>five of their children</strong>. The family papers write her
   <strong>Ferrara</strong>. <strong>The Italian civil records write her FERRARO</strong>, in every one
   of the three entries found so far.</p>
 
   <div class="scroll"><table>
-    <thead><tr><th>Record</th><th>Date</th><th>How it spells her</th></tr></thead>
+    <thead><tr><th>Record</th><th>Date</th><th>How it spells her</th><th>Source</th></tr></thead>
     <tbody>
-      <tr><td>Death of her infant son <strong>Angelo Zampiello</strong>, Arpaia</td>
-        <td class="mono">26 Apr 1935</td><td><em>parents: Angelo · <strong>Giuseppa Ferraro</strong></em></td></tr>
+      <tr><td>Death of her infant son <P n="Angelo Zampiello" bold={true} />, Arpaia</td>
+        <td class="mono">26 Apr 1935</td><td><em>parents: Angelo · <strong>Giuseppa Ferraro</strong></em></td>
+        <td><Src href={AN + "an_ud1197792"} label="Antenati index" note="Antenati name index an_ud1197792 — morte, 26 Aprile 1935" /></td></tr>
       <tr><td>The same death, second index entry</td><td class="mono">26 Apr 1935</td>
-        <td><em>parents: Angelo Zampiello · <strong>Giuseppa Ferraro</strong></em></td></tr>
-      <tr><td>Marriage of her daughter <strong>Tommasina Zampiello</strong>, Arpaia</td>
-        <td class="mono">26 Aug 1939</td><td><em>parents: Angelo Zampiello · <strong>Giuseppa Ferraro</strong></em></td></tr>
+        <td><em>parents: Angelo Zampiello · <strong>Giuseppa Ferraro</strong></em></td>
+        <td><Src href={AN + "an_ud1197796"} label="Antenati index" note="Antenati name index an_ud1197796" />
+            <Src href="https://www.familysearch.org/ark:/61903/1:1:QLK5-DKRD" label="FamilySearch" note="Benevento Stato Civile (Archivio di Stato) 1810–1942" /></td></tr>
+      <tr><td>Marriage of her daughter <P n="Tommasina Zampiello (Ruggiero)">Tommasina Zampiello</P>, Arpaia</td>
+        <td class="mono">26 Aug 1939</td><td><em>parents: Angelo Zampiello · <strong>Giuseppa Ferraro</strong></em></td>
+        <td><Src href={AN + "an_ud1197203"} label="Antenati index" note="Antenati name index an_ud1197203 — matrimonio, 26 Agosto 1939" /></td></tr>
     </tbody>
   </table></div>
 
@@ -36,59 +43,85 @@ import { u } from "../lib/url.js";
   <em>Ferrara</em> are both real southern surnames, the civil clerk had one and the family kept the
   other, and a name that changes between the register and the household is a fact about the family
   worth keeping rather than tidying. Both spellings are carried, and the register indexes her under
-  each.</p>
+  each: <a href={u("/register") + "?q=Ferrara"}>Ferrara</a> · <a href={u("/register") + "?q=Ferraro"}>Ferraro</a>.</p>
 
   <h2>Her children</h2>
   <div class="scroll"><table>
     <thead><tr><th>Child</th><th>Dates</th><th>Note</th></tr></thead>
     <tbody>
-      <tr><td><strong>Tommasina Zampiello</strong> (Ruggiero)</td><td class="mono">9 Feb 1921 – 2 Jun 2004</td>
-        <td>Married Michele Ruggiero. Her 1939 marriage act is one of the three records that name her mother.</td></tr>
-      <tr><td><strong>Francesca Zampiello</strong> (Falco)</td><td class="mono">27 Apr 1928 – 10 Sep 2022</td>
-        <td>Married <strong>Carmine Falco</strong> in 1955. <strong>Generation eight of the direct line.</strong></td></tr>
-      <tr><td><strong>Caterina Zampiello</strong> (Falco)</td><td class="mono">—</td>
-        <td>Married <strong>Raffaele Falco</strong>. <em>Two Zampiello sisters married two Falco brothers</em>,
-        and both households went to Brisbane.</td></tr>
-      <tr><td><strong>Angelo Zampiello</strong></td><td class="mono">1935 – 26 Apr 1935</td><td rowspan="2">
+      <tr><td><P n="Tommasina Zampiello (Ruggiero)" bold={true} /></td><td class="mono">9 Feb 1921 – 2 Jun 2004</td>
+        <td>Married Michele Ruggiero. Her 1939 marriage act is one of the three records that name her
+        mother — <Src href={AN + "an_ud1197203"} label="the act" note="Antenati an_ud1197203" />.</td></tr>
+      <tr><td><P n="Francesca Zampiello (Falco)" bold={true} /></td><td class="mono">27 Apr 1928 – 10 Sep 2022</td>
+        <td>Married <P n="Carmine Falco" bold={true} /> in 1955. <strong>Generation eight of the
+        <a href={u("/direct-line")}>direct line</a>.</strong> Her birth is on an <em>estratto</em> from
+        the Comune di Arpaia — <Src label="cited, not linked" note="Comune di Arpaia (BN), estratto issued 2003, from the family's own scans. Not online." /></td></tr>
+      <tr><td><P n="Caterina Zampiello (Falco)" bold={true} /></td><td class="mono">—</td>
+        <td>Married <P n="Raffaele Falco" bold={true} />. <em>Two Zampiello sisters married two Falco brothers</em>,
+        and both households went to <a href={u("/australia")}>Brisbane</a>.</td></tr>
+      <tr><td><P n="Angelo Zampiello" bold={true} /></td><td class="mono">1935 – 26 Apr 1935</td><td rowspan="2">
         <strong>Two infant sons, both born in 1935 and both dead on 26 April 1935.</strong> The civil
-        index carries the death twice. Whether they were twins the record does not say in so many
+        index carries the death twice —
+        <Src href={AN + "an_ud1197792"} label="an_ud1197792" note="Antenati name index" /> and
+        <Src href={AN + "an_ud1197796"} label="an_ud1197796" note="Antenati name index" />.
+        Whether they were twins the record does not say in so many
         words — but two sons of one couple dying on one day, in one year of birth, is what it shows,
         and it is set down here rather than left out because it is hard to read.</td></tr>
-      <tr><td><strong>Aniello Zampiello</strong></td><td class="mono">1935 – 26 Apr 1935</td></tr>
+      <tr><td><P n="Aniello Zampiello" bold={true} /></td><td class="mono">1935 – 26 Apr 1935</td></tr>
     </tbody>
   </table></div>
 
   <h2>Her own parents — where the tree contradicts itself</h2>
   <p>Two versions sit in the family tree and <strong>they do not agree</strong>:</p>
   <ul>
-    <li>A <strong>Giuseppa Ferrara born 29 June 1912 at Arpaia</strong>, daughter of <strong>Antonio
-    Ferrara</strong> and <strong>Felicia Mauro</strong>.</li>
-    <li>A <strong>Caterina Ferrara</strong> entered as the mother of «Giuseppa Ferrara (Zampiello)».</li>
+    <li>A <strong><P n="Giuseppa Ferrara">Giuseppa Ferrara</P> born 29 June 1912 at Arpaia</strong>, daughter of
+    <P n="Antonio Ferrara" bold={true} /> and <P n="Felicia Mauro Ferrara">Felicia Mauro</P>.
+    <Src label="family tree" note="MyHeritage tree entry — unverified. No record has been found behind it." /></li>
+    <li>A <P n="Caterina Ferrara" bold={true} /> entered as the mother of «Giuseppa Ferrara (Zampiello)».
+    <Src label="family tree" note="MyHeritage tree entry — unverified, and it contradicts the entry above." /></li>
   </ul>
   <p><strong>The 1912 birth date is the problem.</strong> A woman born in June 1912 would have been
   eight years old when Tommasina was born in February 1921. So either the 1912 Giuseppa is a
   different person of the same name — Arpaia is small and the name is not rare — or the date is
   wrong. <strong>No record has been found that names Giuseppa's parents</strong>, and this archive
   will not choose between two tree entries when it has none.</p>
+  <p class="small">One candidate has been looked at and <strong>not accepted</strong>: a
+  <strong>Giuseppa Alfonsina Maria Ferraro</strong>, born 1881 in the Benevento civil registers,
+  flagged «is this her?» in the tree. <strong>1881 is as unlikely as 1912</strong>, in the other
+  direction, and nothing but the forename joins her to this family.
+  <Src href="https://www.familysearch.org/ark:/61903/1:1:QGJ2-KRY1" label="FamilySearch" note="Benevento Stato Civile (Archivio di Stato) 1810–1942 — the record itself, offered so the reader can judge the candidate that was rejected" /></p>
 
   <h2>The other Ferrara this archive has met</h2>
-  <p>The name turns up twice more, in two different centuries, and neither is joined to Giuseppa.</p>
+  <p>The name turns up four more times, in two different centuries, and <strong>none is joined to
+  Giuseppa</strong>. Each row links to the register volume it was read from.</p>
   <div class="scroll"><table>
-    <thead><tr><th>Where</th><th>Who</th><th>What it says</th></tr></thead>
+    <thead><tr><th>Where</th><th>Who</th><th>What it says</th><th>Source</th></tr></thead>
     <tbody>
-      <tr><td><strong>Arienzo, 1826 and 1828</strong></td><td><strong>Michele Ferrara</strong>, <em>contadino</em></td>
+      <tr><td><strong>Arienzo, 1826 and 1828</strong></td>
+        <td><P n="Michele Ferrara, contadino">Michele Ferrara</P>, <em>contadino</em></td>
         <td>Buries a two-year-old son Carmine in August 1826 and a seven-month-old daughter Carmina in
         November 1828 — <strong>both on STRADA CAMELLARA</strong>, the Falco street. Read off the
-        death registers act by act.</td></tr>
-      <tr><td>Arienzo, 1842</td><td>Angelo Ferrara, 50, <em>contadino</em></td><td>Declares on strada Croce.</td></tr>
-      <tr><td>Arienzo, 1817</td><td>Giovanna Ferrara</td><td>Named as a parent in a December act.</td></tr>
+        death registers act by act.</td>
+        <td><Src ark="an_ua14328" img={33} note="Arienzo death register 1826, image 33" label="1826" />
+            <Src ark="an_ua14330" img={39} note="Arienzo death register 1828, image 39" label="1828" /></td></tr>
+      <tr><td>Arienzo, 1842</td><td><P n="Angelo Ferrara">Angelo Ferrara</P>, 50, <em>contadino</em></td>
+        <td>Declares on strada Croce.</td>
+        <td><Src ark="an_ua14344" img={31} note="Arienzo death register 1842, image 31" label="1842" /></td></tr>
+      <tr><td>Arienzo, 1817</td><td><P n="Giovanna Ferrara">Giovanna Ferrara</P></td>
+        <td>Named as a parent in a December act.</td>
+        <td><Src ark="an_ua14319" img={63} note="Arienzo death register 1817, image 63" label="1817" /></td></tr>
+      <tr><td><strong>Arienzo, 1839</strong></td><td><P n="Maria Rosa Ferrara">Maria Rosa Ferrara</P></td>
+        <td>Named as a parent of Agostino Sansone, five, of strada Porta di Sopra, dead 31 January.
+        <strong>New from the 1839 sweep.</strong></td>
+        <td><Src ark="an_ua14341" img={14} note="Arienzo death register 1839, image 14, atto 20" label="1839" /></td></tr>
       <tr><td><strong>Nudgee Cemetery, Brisbane</strong></td><td><strong>Paolino Ferrara</strong> and
         <strong>Elisa Ferrara</strong></td>
         <td>Buried <strong>1994 and 2021 in adjoining niches, CHAP-070-R2 and R1</strong>. A third,
         Antonio Ferrara, cremated 2019. The archive's own note on the Elisa record reads:
         <em>«Ferrara is also the Zampiello maternal surname; connection untested.»</em>
         <strong>It is still untested.</strong> Chapel 070 is not the chapel the Falco lie in — they are
-        in 082 — so proximity is not evidence either way.</td></tr>
+        in 082 — so proximity is not evidence either way.</td>
+        <td><Src label="Nudgee, no link" note="Nudgee Cemetery's search returns records but not stable per-record URLs. The method is on the Australia page." /></td></tr>
     </tbody>
   </table></div>
 

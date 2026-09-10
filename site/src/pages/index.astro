@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import BranchRivers from "../components/BranchRivers.astro";
 import households from "../data/households.json";
@@ -63,8 +64,8 @@ const more = [
         <p>For as long as this family has had a pedigree, the head of it was a guess. Then two
         neighbours from <strong>strada Camellara</strong> walked to the town hall at Arienzo and
         reported the death of the man next door.</p>
-        <blockquote style="margin:.9rem 0">…è morto nella sua propria casa <strong>Pasquale Falco</strong>,
-        d'anni settantaquattro, <em>marito di <strong>Chiara Rivetti</strong></em>, di professione
+        <blockquote style="margin:.9rem 0">…è morto nella sua propria casa <P n="Pasquale Falco" bold={true} />,
+        d'anni settantaquattro, <em>marito di <P n="Chiara Rivetti" bold={true} /></em>, di professione
         contadino, <em>figlio di <strong>Matteo Falco, defunto</strong>… e di
         <strong>Francesca Crisci, defunta</strong></em>.</blockquote>
         <p>One act names his wife, both his parents, his trade and his street — and confirms, from the
@@ -79,7 +80,7 @@ const more = [
     <div class="grid two" style="margin-top:1rem">
       <div class="card">
         <h3>A head to the line</h3>
-        <p><strong>Matteo Falco</strong> and <strong>Francesca Crisci</strong>, whose children were
+        <p><P n="Matteo Falco" bold={true} /> and <P n="Francesca Crisci" bold={true} />, whose children were
         baptised at Arienzo from 1767 — replacing an ancestor who was never there. Two of those
         children's death acts name them again — Rosa's in 1830, Pasquale's in 1834.
         <a href={u("/direct-line")}>The spine →</a></p>
@@ -97,7 +98,7 @@ const more = [
       </div>
       <div class="card">
         <h3>One kinship, proved</h3>
-        <p>In 1831 <strong>Vincenzo Falco</strong> declared a neighbour's death as <em>parente</em> — a
+        <p>In 1831 <P n="Vincenzo Falco" bold={true} /> declared a neighbour's death as <em>parente</em> — a
         kinsman — joining the line to a second Camellara household. Three others remain unjoined.
         <a href={u("/lines")}>What joins them →</a></p>
       </div>

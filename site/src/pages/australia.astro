@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import plates from "../data/plates.json";
 const naa = [
@@ -33,10 +34,10 @@ const graves = [
   brothers — both sons of Carminantonio Falco and Filomena Annecchino. <strong>Francesca</strong> (born
   Arpaia, 1928) and <strong>Caterina</strong> (born 7 July 1925) were both Zampiello. Two Falco brothers
   of Forchia married two Zampiello sisters of Arpaia, and both couples came to Brisbane.</p>
-  <p>And they were not the only sisters to come. <strong>Raffaela Zampiello</strong> arrived with her
-  husband Angelo Michele Servodio; <strong>Filomena Zampiello</strong>, born 24 August 1932, arrived on
+  <p>And they were not the only sisters to come. <P n="Raffaela Zampiello" bold={true} /> arrived with her
+  husband Angelo Michele Servodio; <P n="Filomena Zampiello" bold={true} />, born 24 August 1932, arrived on
   the <em>Roma</em> in 1960 with her husband Umberto Miceli under the Australian–Italian Assisted
-  Migration Agreement. Their father <strong>Angelo Zampiello</strong> has a Brisbane file of his own,
+  Migration Agreement. Their father <P n="Angelo Zampiello" bold={true} /> has a Brisbane file of his own,
   dated 1964.</p>
   <p class="small">Giuseppina is recorded in her family's own immigration file as
   <em>"known as Josephine"</em> — the small administrative act by which an Italian child becomes an
@@ -150,7 +151,7 @@ const graves = [
     SYDNEY</span> to find the family's own line — age, occupation, and intended address in Australia.</li>
     <li><strong>Angelo Zampiello's 1964 Brisbane file</strong> may settle whether he emigrated or was
     merely sponsored — and may carry his Abyssinia service.</li>
-    <li><strong>Giovanni Zampiello</strong>, born 1 December 1911, appears in three files as an Italian
+    <li><P n="Giovanni Zampiello" bold={true} />, born 1 December 1911, appears in three files as an Italian
     prisoner of war or internee in Australia, 1939–46, PWI60047. Whether he is kin is untested — but
     Zampiello is a one-village name, and that village is Arpaia.</li>
   </ul>
