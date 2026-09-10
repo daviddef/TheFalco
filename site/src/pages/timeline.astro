@@ -10,6 +10,9 @@ const yearOf = (s) => { const m = String(s || "").match(/\b(1[6-9]\d\d|20\d\d)\b
 const START = 1720, END = 2026, SPAN = END - START;
 const pos = (y) => ((y - START) / SPAN) * 100;
 
+/* A living generation is plotted at TODAY, never at their birth year.
+   Positioning the dot by a date this site refuses to print would leak it
+   through the geometry — the reader could read it straight off the axis. */
 const livingGen = new Set(people.filter((p) => p.living && p.gen).map((p) => p.gen));
 const gens = line.map((g) => {
   const living = g.living || livingGen.has(g.gen);
@@ -64,7 +67,7 @@ const RULE = [
     <div class="lab">The nine generations</div>
     <div class="band gens">
       {gens.map((g, i) => (
-        <div class="gen" style={`left:${g.y ? pos(g.y) : pos(1955)}%`}>
+        <div class="gen" style={`left:${g.y ? pos(g.y) : pos(END)}%`}>
           <i></i>
           <span class="gtxt"><b>{g.gen}</b> {g.living ? "living — named only" : g.born}</span>
         </div>
