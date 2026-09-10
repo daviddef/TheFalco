@@ -1,0 +1,522 @@
+[
+ {
+  "name": "Nancy Arena (Mazza)",
+  "surname": "ARENA",
+  "rel": "relative"
+ },
+ {
+  "name": "Anna Bucolo (Servodio)",
+  "surname": "BUCOLO",
+  "rel": "relative"
+ },
+ {
+  "name": "Imperia \"Bez\" Bucolo (Falco)",
+  "surname": "BUCOLO",
+  "rel": "relative"
+ },
+ {
+  "name": "Maria Bucolo (Falco)",
+  "surname": "BUCOLO",
+  "rel": "relative"
+ },
+ {
+  "name": "Jack Calahorra",
+  "surname": "CALAHORRA",
+  "rel": "relative"
+ },
+ {
+  "name": "Luka Calahorra",
+  "surname": "CALAHORRA",
+  "rel": "relative"
+ },
+ {
+  "name": "Robert Calahorra",
+  "surname": "CALAHORRA",
+  "rel": "relative"
+ },
+ {
+  "name": "Stefanie Calahorra",
+  "surname": "CALAHORRA",
+  "rel": "relative"
+ },
+ {
+  "name": "Adam Crisci",
+  "surname": "CRISCI",
+  "rel": "relative"
+ },
+ {
+  "name": "Ben Crisci",
+  "surname": "CRISCI",
+  "rel": "relative"
+ },
+ {
+  "name": "Elisa Crisci (Militano)",
+  "surname": "CRISCI",
+  "rel": "relative"
+ },
+ {
+  "name": "Michael Crisci",
+  "surname": "CRISCI",
+  "rel": "relative"
+ },
+ {
+  "name": "Cristina Adele D'Arcy (Defranceski)",
+  "surname": "D'ARCY",
+  "rel": "your wife"
+ },
+ {
+  "name": "Sister DNA D'Arcy",
+  "surname": "D'ARCY",
+  "rel": "relative"
+ },
+ {
+  "name": "Stefanie Francesca D'Arcy (Mazza)",
+  "surname": "D'ARCY",
+  "rel": "relative"
+ },
+ {
+  "name": "Bruce De Roo",
+  "surname": "DE ROO",
+  "rel": "relative"
+ },
+ {
+  "name": "Gabriel De Roo",
+  "surname": "DE ROO",
+  "rel": "relative"
+ },
+ {
+  "name": "Justin De Roo",
+  "surname": "DE ROO",
+  "rel": "relative"
+ },
+ {
+  "name": "Alessio David Defranceski",
+  "surname": "DEFRANCESKI",
+  "rel": "your son"
+ },
+ {
+  "name": "David Ivan Defranceski",
+  "surname": "DEFRANCESKI",
+  "rel": "you"
+ },
+ {
+  "name": "Mateo Cristian Defranceski",
+  "surname": "DEFRANCESKI",
+  "rel": "your son"
+ },
+ {
+  "name": "Kye Ellevsen",
+  "surname": "ELLEVSEN",
+  "rel": "relative"
+ },
+ {
+  "name": "Lilith Ellevsen",
+  "surname": "ELLEVSEN",
+  "rel": "relative"
+ },
+ {
+  "name": "Scott Ellevsen",
+  "surname": "ELLEVSEN",
+  "rel": "relative"
+ },
+ {
+  "name": "Xylia Ellevsen",
+  "surname": "ELLEVSEN",
+  "rel": "relative"
+ },
+ {
+  "name": "Angelo Falco",
+  "surname": "FALCO",
+  "rel": "relative"
+ },
+ {
+  "name": "Anielo Falco",
+  "surname": "FALCO",
+  "rel": "relative"
+ },
+ {
+  "name": "Anthony Falco",
+  "surname": "FALCO",
+  "rel": "relative"
+ },
+ {
+  "name": "Anthony Falco",
+  "surname": "FALCO",
+  "rel": "relative"
+ },
+ {
+  "name": "Antonio \"Tony\" Falco",
+  "surname": "FALCO",
+  "rel": "relative"
+ },
+ {
+  "name": "Carla Falco (Halliday)",
+  "surname": "FALCO",
+  "rel": "relative"
+ },
+ {
+  "name": "Carmine Falco",
+  "surname": "FALCO",
+  "rel": "relative"
+ },
+ {
+  "name": "Catherine Falco",
+  "surname": "FALCO",
+  "rel": "relative"
+ },
+ {
+  "name": "Daniella Falco",
+  "surname": "FALCO",
+  "rel": "relative"
+ },
+ {
+  "name": "Jessica Falco",
+  "surname": "FALCO",
+  "rel": "relative"
+ },
+ {
+  "name": "Luigi Falco",
+  "surname": "FALCO",
+  "rel": "relative"
+ },
+ {
+  "name": "Oscar Falco",
+  "surname": "FALCO",
+  "rel": "relative"
+ },
+ {
+  "name": "Rachel Carmen Falco (Hale)",
+  "surname": "FALCO",
+  "rel": "relative"
+ },
+ {
+  "name": "Rene Falco",
+  "surname": "FALCO",
+  "rel": "relative"
+ },
+ {
+  "name": "Rilley Falco",
+  "surname": "FALCO",
+  "rel": "relative"
+ },
+ {
+  "name": "Stephen Falco",
+  "surname": "FALCO",
+  "rel": "relative"
+ },
+ {
+  "name": "Rowan Hale",
+  "surname": "HALE",
+  "rel": "relative"
+ },
+ {
+  "name": "Atlas Antonio Halliday",
+  "surname": "HALLIDAY",
+  "rel": "relative"
+ },
+ {
+  "name": "Rhys Halliday",
+  "surname": "HALLIDAY",
+  "rel": "relative"
+ },
+ {
+  "name": "Quinn Isla",
+  "surname": "ISLA",
+  "rel": "relative"
+ },
+ {
+  "name": "Angela Mazza (Muller)",
+  "surname": "MAZZA",
+  "rel": "relative"
+ },
+ {
+  "name": "Frank Mazza",
+  "surname": "MAZZA",
+  "rel": "relative"
+ },
+ {
+  "name": "Mia Giusepina Mazza",
+  "surname": "MAZZA",
+  "rel": "relative"
+ },
+ {
+  "name": "Michael Rocco Mazza",
+  "surname": "MAZZA",
+  "rel": "relative"
+ },
+ {
+  "name": "Rocco Mazza",
+  "surname": "MAZZA",
+  "rel": "relative"
+ },
+ {
+  "name": "Nerina Michieletto (Falco)",
+  "surname": "MICHIELETTO",
+  "rel": "relative"
+ },
+ {
+  "name": "Olga Michieletto",
+  "surname": "MICHIELETTO",
+  "rel": "relative"
+ },
+ {
+  "name": "Connie Militano (Ellevsen)",
+  "surname": "MILITANO",
+  "rel": "relative"
+ },
+ {
+  "name": "Jennifer Militano",
+  "surname": "MILITANO",
+  "rel": "relative"
+ },
+ {
+  "name": "John Militano",
+  "surname": "MILITANO",
+  "rel": "relative"
+ },
+ {
+  "name": "Kelly Militano",
+  "surname": "MILITANO",
+  "rel": "relative"
+ },
+ {
+  "name": "Layla Militano",
+  "surname": "MILITANO",
+  "rel": "relative"
+ },
+ {
+  "name": "London Ava Militano",
+  "surname": "MILITANO",
+  "rel": "relative"
+ },
+ {
+  "name": "Michelle Militano",
+  "surname": "MILITANO",
+  "rel": "relative"
+ },
+ {
+  "name": "Robert Militano",
+  "surname": "MILITANO",
+  "rel": "relative"
+ },
+ {
+  "name": "Reinhard Muller",
+  "surname": "MULLER",
+  "rel": "relative"
+ },
+ {
+  "name": "Ari Reid",
+  "surname": "REID",
+  "rel": "relative"
+ },
+ {
+  "name": "Marco Ricci",
+  "surname": "RICCI",
+  "rel": "relative"
+ },
+ {
+  "name": "Giuseppe Ruggiero",
+  "surname": "RUGGIERO",
+  "rel": "relative"
+ },
+ {
+  "name": "John Ruggiero",
+  "surname": "RUGGIERO",
+  "rel": "relative"
+ },
+ {
+  "name": "Joseph Ruggiero",
+  "surname": "RUGGIERO",
+  "rel": "relative"
+ },
+ {
+  "name": "Michael Ruggiero",
+  "surname": "RUGGIERO",
+  "rel": "relative"
+ },
+ {
+  "name": "Teresa Ruggiero (Schettini)",
+  "surname": "RUGGIERO",
+  "rel": "relative"
+ },
+ {
+  "name": "Baladino Schettini",
+  "surname": "SCHETTINI",
+  "rel": "relative"
+ },
+ {
+  "name": "Clementtina Schettini (Ricci)",
+  "surname": "SCHETTINI",
+  "rel": "relative"
+ },
+ {
+  "name": "Lorenzo Schettini",
+  "surname": "SCHETTINI",
+  "rel": "relative"
+ },
+ {
+  "name": "Angelo Servodio",
+  "surname": "SERVODIO",
+  "rel": "relative"
+ },
+ {
+  "name": "Antonio Servodio",
+  "surname": "SERVODIO",
+  "rel": "relative"
+ },
+ {
+  "name": "Lisamarie Servodio",
+  "surname": "SERVODIO",
+  "rel": "relative"
+ },
+ {
+  "name": "Maria Servodio (Smith)",
+  "surname": "SERVODIO",
+  "rel": "relative"
+ },
+ {
+  "name": "Samantha Servodio (Dreghorn)",
+  "surname": "SERVODIO",
+  "rel": "relative"
+ },
+ {
+  "name": "Sara Servodio",
+  "surname": "SERVODIO",
+  "rel": "relative"
+ },
+ {
+  "name": "Nick Simonetta",
+  "surname": "SIMONETTA",
+  "rel": "relative"
+ },
+ {
+  "name": "Raffaela Smith",
+  "surname": "SMITH",
+  "rel": "relative"
+ },
+ {
+  "name": "Rosa Smith (deRoo)",
+  "surname": "SMITH",
+  "rel": "relative"
+ },
+ {
+  "name": "Rene Turner (Calahorra)",
+  "surname": "TURNER",
+  "rel": "relative"
+ },
+ {
+  "name": "Rosina Zampiello",
+  "surname": "ZAMPIELLO",
+  "rel": "relative"
+ },
+ {
+  "name": "Angelina Zavaglia (Zavalia)",
+  "surname": "ZAVAGLIA",
+  "rel": "relative"
+ },
+ {
+  "name": "Josephine Zavaglia",
+  "surname": "ZAVAGLIA",
+  "rel": "relative"
+ },
+ {
+  "name": "Julia Zavaglia",
+  "surname": "ZAVAGLIA",
+  "rel": "relative"
+ },
+ {
+  "name": "Vince Zavalia",
+  "surname": "ZAVALIA",
+  "rel": "relative"
+ },
+ {
+  "name": "Adam",
+  "surname": "—",
+  "rel": "relative"
+ },
+ {
+  "name": "Alesandra Schettini",
+  "surname": "—",
+  "rel": "relative"
+ },
+ {
+  "name": "Amy Falco",
+  "surname": "—",
+  "rel": "relative"
+ },
+ {
+  "name": "Barbara Ruggiero",
+  "surname": "—",
+  "rel": "relative"
+ },
+ {
+  "name": "Bobby",
+  "surname": "—",
+  "rel": "relative"
+ },
+ {
+  "name": "Cooper",
+  "surname": "—",
+  "rel": "relative"
+ },
+ {
+  "name": "Crystal",
+  "surname": "—",
+  "rel": "relative"
+ },
+ {
+  "name": "Federico",
+  "surname": "—",
+  "rel": "relative"
+ },
+ {
+  "name": "Filomena Simonetta",
+  "surname": "—",
+  "rel": "relative"
+ },
+ {
+  "name": "Madonna Falco",
+  "surname": "—",
+  "rel": "relative"
+ },
+ {
+  "name": "Raya",
+  "surname": "—",
+  "rel": "relative"
+ },
+ {
+  "name": "Rome",
+  "surname": "—",
+  "rel": "relative"
+ },
+ {
+  "name": "Shane",
+  "surname": "—",
+  "rel": "relative"
+ },
+ {
+  "name": "Sienna",
+  "surname": "—",
+  "rel": "relative"
+ },
+ {
+  "name": "Summer",
+  "surname": "—",
+  "rel": "relative"
+ },
+ {
+  "name": "Taine",
+  "surname": "—",
+  "rel": "relative"
+ },
+ {
+  "name": "Tanya Falco",
+  "surname": "—",
+  "rel": "relative"
+ },
+ {
+  "name": "Valentino",
+  "surname": "—",
+  "rel": "relative"
+ }
+]
