@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import line from "../data/line.json";
 import { people } from "../lib/people.js";
@@ -51,11 +52,11 @@ const heading = (g) => g.spouse ? `${g.name} and ${g.spouse}` : g.name;
       <tr><td>Birth of Carmine Antonio Falco</td><td>10 Jul 1850, Arienzo</td>
         <td>Names his father as <strong>Raffaele</strong></td><td>gen 5 → gen 4</td></tr>
       <tr><td><strong>Death of Pasquale Falco</strong></td><td>1 Oct 1834, Arienzo</td>
-        <td>Names his parents as <strong>Matteo Falco</strong> and <strong>Francesca Crisci</strong>,
-        and his wife as <strong>Chiara Rivetti</strong></td><td>gen 2 → gen 1</td></tr>
+        <td>Names his parents as <P n="Matteo Falco" bold={true} /> and <P n="Francesca Crisci" bold={true} />,
+        and his wife as <P n="Chiara Rivetti" bold={true} /></td><td>gen 2 → gen 1</td></tr>
       <tr><td><strong>Death of Rosa Falco</strong>, his sister</td><td>16 Oct 1830, Arienzo</td>
         <td>Names the <strong>same two parents</strong> again, from a different child, four years
-        earlier — and her husband as <strong>Carlantonio Morgillo</strong></td>
+        earlier — and her husband as <P n="Carlantonio Morgillo" bold={true} /></td>
         <td>gen 2 → gen 1, twice over</td></tr>
     </tbody>
   </table></div>

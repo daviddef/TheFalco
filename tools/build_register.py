@@ -14,37 +14,91 @@ def add(name, surname, detail, source, link, kind, sortkey=""):
 # taking the last word blindly filed 179 real people under "CONTADINO" — unfindable by
 # the name they actually had. Stripped before the surname is taken; never discarded,
 # because the trade is carried in the detail line already.
-TRADES = {
-    "contadino", "contadina", "colono", "colona", "vaticale", "possidente", "proprietario",
-    "proprietaria", "sartore", "sarto", "sarta", "calzolajo", "calzolaio", "barbiere",
-    "macellajo", "macellaio", "ferraro", "fabbro", "oste", "locandiere", "bottegajo",
-    "bottegaio", "panettiere", "pastaio", "pastajo", "filatrice", "tessitrice", "massaro",
-    "guarniciere", "guarnitore", "ortolano", "pettinatore", "cappellaio", "cappellajo",
-    "sportaro", "vinivendolo", "rivenditore", "rivendugliolo", "serviente", "gentildonna",
-    "gentiluomo", "monaca", "conversa", "arciprete", "sacerdote", "notaro", "notaio",
-    "corattiere", "recimaro", "recimatore", "vaticaro", "gabelloto", "pizzajolo",
+# Two lists, because one word can be two things.
+#
+# «Contadino» is never anybody's surname in this corpus, so it can be stripped
+# wherever it falls. But FERRARO is a blacksmith AND a surname — it is the
+# Zampiello maternal name — and SARTORE and MASSARO are the same. Stripping
+# those blind filed Giuseppa Ferraro under MARIA, her middle name, and put
+# Maria Rosa Ferraro under ROSA.
+#
+# The registers themselves settle it: in 555 of 568 rows a trade is written
+# after a COMMA and a surname is not. So an ambiguous word is only a trade
+# when the comma says so.
+TRADES_ONLY = {
+    "contadino", "contadina", "colono", "colona", "vaticale", "possidente",
+    "proprietario", "proprietaria", "calzolajo", "calzolaio", "locandiere",
+    "bottegajo", "bottegaio", "panettiere", "filatrice", "tessitrice",
+    "guarniciere", "guarnitore", "ortolano", "pettinatore", "cappellaio",
+    "cappellajo", "sportaro", "vinivendolo", "rivenditore", "rivendugliolo",
+    "serviente", "gentildonna", "gentiluomo", "monaca", "conversa",
+    "arciprete", "sacerdote", "corattiere", "recimaro", "recimatore",
+    "vaticaro", "gabelloto", "pizzajolo", "inservidente", "sensale",
     "defunto", "defunta", "vedovo", "vedova", "regnicolo", "regnicola",
 }
+TRADE_OR_SURNAME = {
+    "ferraro", "sartore", "sarto", "sarta", "massaro", "fabbro",
+    "barbiere", "macellajo", "macellaio", "oste", "pastaio", "pastajo",
+    "notaro", "notaio", "corriere", "falegname", "muratore", "fornaro",
+}
+
+PARTICLES = {"di", "de", "de'", "del", "della", "dell'", "d'", "lo", "la", "le", "li"}
 
 def _clean(n):
-    """Drop trailing trade/descriptor words so the surname is the surname."""
+    """Drop trailing trade words and record-keeping tails, so the surname is
+    the surname — without eating a surname that happens to name a trade."""
     n = re.sub(r"\s+", " ", (n or "").strip())
+    had_comma = "," in n
+
+    # record-keeping tails the index adds: "(b. 1930)", "m. Francesca …",
+    # "Coniuge Maria …", "fu Simone", "del fu Simone". None is part of the name.
+    n = re.sub(r"\s*\([^)]*\)", " ", n)
+    n = re.sub(r"\s+(?:m\.|Coniuge|coniuge)\s.*$", "", n)
+    n = re.sub(r"\s+(?:del\s+)?fu\s+\S+.*$", "", n, flags=re.I)
+    n = re.sub(r"\s*—.*$", "", n)          # "Maria —" records no surname at all
+    n = re.sub(r"\s+\d+\b.*$", "", n)       # "Chiara Rivetti 80" — the age is not a name
+    n = re.sub(r"[⚠★✔]", "", n)             # reading-flags the notes carry, not part of the name
+    n = re.sub(r"\s+[-–]\s+\S+$", "", n)    # "ZAMPIELLO Giovanni - PWI60047" — a file reference
     n = re.sub(r"[,;]\s*$", "", n)
+
     parts = [p for p in n.split(" ") if p and p.strip(",.;·—-")]
-    while len(parts) > 1 and parts[-1].strip(",.;").lower() in TRADES:
+    # Trailing scraps that are not names: an abbreviation left behind by the
+    # date-strip ("b."), a multiplicity marker ("x2"), any token with a digit.
+    while len(parts) > 1 and (
+            re.fullmatch(r"[a-z]{1,2}\.?", parts[-1]) or
+            re.fullmatch(r"[xX]\d+", parts[-1]) or
+            re.search(r"\d", parts[-1])):
         parts.pop()
+    while len(parts) > 1:
+        w = parts[-1].strip(",.;").lower()
+        if w in TRADES_ONLY or (had_comma and w in TRADE_OR_SURNAME):
+            parts.pop()
+        else:
+            break
     if parts:
         parts[-1] = parts[-1].rstrip(",;")
+    # "LUCIA COPPA /CIOFFI" is one surname the archive reads two ways; keep it
+    # as the pair rather than filing her under a slash.
+    if len(parts) > 1 and parts[-1].startswith("/"):
+        parts[-2:] = [parts[-2] + parts[-1]]
     return parts
 
 def sur(n):
     parts = _clean(n)
-    if not parts: return "?"
+    if not parts:
+        return "?"
+    # A single word left over is a forename with the surname unrecorded —
+    # "Maria —", "Antonio —". Filing those under MARIA and ANTONIO invented a
+    # surname the register never gave, so they are marked unknown instead.
+    if len(parts) == 1:
+        return "?"
     last = parts[-1].upper()
-    # "di Lucia", "de Guida", "d'Ambrosio" are one surname, not a particle plus a name.
-    if len(parts) > 1 and parts[-2].lower() in {"di", "de", "del", "della", "lo", "la"}:
+    # "di Lucia", "de' Rosa", "d'Ambrosio" are one surname, not a particle
+    # plus a name.
+    if len(parts) > 1 and parts[-2].lower() in PARTICLES:
         last = (parts[-2] + " " + parts[-1]).upper()
     return last or "?"
+
 
 AN = "https://antenati.cultura.gov.it/ark:/12657/"
 def fs(ark):
@@ -74,7 +128,13 @@ for path, place_col in [("data/antenati-valle-caudina.tsv", "town"),
         if rel: bits.append("parents: " + rel)
         if r.get("child"): bits.append("child: " + r["child"])
         ark = (r.get("ark") or "").strip()
-        add(nm, r.get("surname") or sur(nm), " · ".join(bits),
+        # A source file's own surname column is trusted only when it looks
+        # like a surname. One row arrived as "(B." — the head of "(b. 8 Jun
+        # 1930)" — and filed a direct-line marriage under a bracket.
+        given = (r.get("surname") or "").strip()
+        if not re.fullmatch(r"[A-Za-zÀ-ÿ' ]{2,}", given):
+            given = ""
+        add(nm, given or sur(nm), " · ".join(bits),
             "Antenati name index", AN + ark if ark.startswith("an_") else "", "index",
             r.get("actdate") or r.get("birthdate") or "")
 
@@ -117,7 +177,7 @@ for r in rd("data/annecchino-forchia.tsv"):
 for r in rd("data/record-citations.tsv"):
     ark = (r.get("ark") or "").strip()
     link = AN + re.search(r"an_ua\d+", ark).group(0) if "an_ua" in ark else fs(ark.split()[0] if ark else "")
-    add(r.get("subject"), sur(re.split(r",| \d", r.get("subject") or "")[0]),
+    add(r.get("subject"), sur(r.get("subject")),
         " · ".join(x for x in [r.get("event"), r.get("date"), r.get("place"),
                                r.get("father_or_spouse")] if x),
         r.get("collection") or "", link, "cited", r.get("date") or "")
