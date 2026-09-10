@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 const idx = [
   ["Zampiello", 439, 259, 104, 16, 19, 10, 0],
@@ -19,8 +20,8 @@ const avail = [
   ones we wanted.</p>
 
   <h2>Two missing volumes</h2>
-  <p>Two people in this archive could not be documented: <strong>Angelo Zampiello</strong>, born at
-  Arpaia on 31 August 1895, and <strong>Filomena Annecchino</strong>, born at Forchia on 10 April 1897.
+  <p>Two people in this archive could not be documented: <P n="Angelo Zampiello" bold={true} />, born at
+  Arpaia on 31 August 1895, and <P n="Filomena Annecchino" bold={true} />, born at Forchia on 10 April 1897.
   Neither appears in FamilySearch, and neither appears in Antenati's name index.</p>
   <p>The reason is now clear, and it is the same in both cases. <strong>The volume is not
   digitised.</strong> The archive's own shelf-marks give it away — they run consecutively and skip a
@@ -143,7 +144,7 @@ const avail = [
   <blockquote>
     <strong>Numero d'ordine 26.</strong> L'anno mille ottocento <strong>quattordici</strong>, a dì
     <strong>quindici 15</strong> del mese di <strong>Dicembre</strong>… è comparso
-    <strong>Vincenzo Falco</strong>, di anni <strong>ventuno</strong>, di professione
+    <P n="Vincenzo Falco" bold={true} />, di anni <strong>ventuno</strong>, di professione
     <strong>contadino</strong>… <strong>figlio maggiore di Pasquale Falco</strong>… e comparsa
     egualmente <strong>Andreana [Crisci]</strong>… <strong>figlia di Arcangelo</strong>.
     <span class="small">— Arienzo, civil marriages 1814, act 26</span>
@@ -179,15 +180,14 @@ const avail = [
   <strong>Pasquale Falco's own death act</strong>: a civil death record names the deceased's parents
   outright. The hunt turned up his wife's instead, and it was worth more than expected.</p>
   <blockquote>
-    …die vero decima sexta 16: <strong>Clara Rivetti</strong>, <em>uxor quondam <strong>Paschalis
-    Falco</strong></em>, <em>filia quondam <strong>Nicolai</strong> et <strong>Anna</strong></em>…,
+    …die vero decima sexta 16: <P n="Clara Rivetti" bold={true} />, <em>uxor quondam <P n="Paschalis Falco" bold={true} /></em>, <em>filia quondam <strong>Nicolai</strong> et <strong>Anna</strong></em>…,
     aetatis suae annorum <strong>octoginta 80</strong>… obiit, et in Sodalitate Sanctae Mariae
     Gratiarum eius cadaver humatum est.
     <span class="small">— Arienzo parish deaths, 1843</span>
   </blockquote>
   <ul>
     <li><strong>A generation nobody had.</strong> Chiara Rivetti was the daughter of the late
-    <strong>Nicola Rivetti</strong> and <strong>Anna</strong>.</li>
+    <P n="Nicola Rivetti" bold={true} /> and <strong>Anna</strong>.</li>
     <li><strong>She was already a widow</strong>, so Pasquale was dead by September 1843. Her stated age
     of 80 puts her birth near 1763; the family record says 1772, so one of the two is loose. Ages in
     death records are routinely approximate.</li>
@@ -201,12 +201,12 @@ const avail = [
   <h2>Found: 1 October 1834</h2>
   <p>Arienzo, <span class="mono">an_ua14336</span>, image 43 of 57, page 236, <strong>act no. 69</strong>.</p>
   <blockquote>
-    …sono comparsi <strong>Virgilio Saccavino</strong>, di anni quarantacinque, di professione
+    …sono comparsi <P n="Virgilio Saccavino" bold={true} />, di anni quarantacinque, di professione
     contadino, domiciliato ivi, <strong>strada Camellara</strong>, vicino del defunto, e
-    <strong>Nicola Corsi</strong>, di anni trenta… i quali han dichiarato, che nel giorno
+    <P n="Nicola Corsi" bold={true} />, di anni trenta… i quali han dichiarato, che nel giorno
     <strong>primo</strong> del mese di <strong>Ottobre</strong>, anno corrente, alle ore
-    <strong>cinque</strong>, è morto nella sua propria casa <strong>Pasquale Falco</strong>, d'anni
-    settantaquattro, <em>marito di <strong>Chiara Rivetti</strong></em>, di professione
+    <strong>cinque</strong>, è morto nella sua propria casa <P n="Pasquale Falco" bold={true} />, d'anni
+    settantaquattro, <em>marito di <P n="Chiara Rivetti" bold={true} /></em>, di professione
     <strong>contadino</strong>, nato in Arienzo, <em>figlio di <strong>Matteo Falco, defunto</strong>,
     di professione contadino, e di <strong>Francesca Crisci, defunta</strong></em>.
     <span class="small">— Arienzo, Stato civile della restaurazione, Morti 1834, atto 69</span>
@@ -235,15 +235,15 @@ const avail = [
   together they put an address on the family.</p>
   <ul>
     <li><strong>Pasquale Falco, ten days old</strong>, died 25 December 1834, son of
-    <strong>Vincenzo Falco</strong> of strada Camellara. Vincenzo is the elder Pasquale's eldest son —
+    <P n="Vincenzo Falco" bold={true} /> of strada Camellara. Vincenzo is the elder Pasquale's eldest son —
     named as such in his own marriage act of 15 December 1814. This child was born about a fortnight
     before he died, eleven weeks after his grandfather, and given his name. He is the ancestor's
     namesake and his grandson, and he lived ten days.</li>
     <li><strong>Maria Rosa Falco, sixteen</strong>, <em>contadina</em>, died 30 May 1834, daughter of
-    <strong>Michele Falco</strong> of strada Camellara. Michele's household buried a fourteen-month-old
+    <P n="Michele Falco" bold={true} /> of strada Camellara. Michele's household buried a fourteen-month-old
     son, Salvatore, in August 1836.</li>
     <li><strong>Anna Falco, eight days old</strong>, died 7 March 1834, daughter of
-    <strong>Michelangelo Falco</strong> of strada Camellara — a name new to this archive.</li>
+    <P n="Michelangelo Falco" bold={true} /> of strada Camellara — a name new to this archive.</li>
   </ul>
 
   <h2>Going back a year further: 1833</h2>
@@ -257,8 +257,8 @@ const avail = [
     giorno <strong>ventidue</strong> del mese di <strong>Febrajo</strong>, anno corrente,
     <strong>alle ore una di notte</strong>, è morto nella sua propria casa
     <strong>Pasquale Falco, di anni tre</strong>, nato in Arienzo, <em>figlio di
-    <strong>Vincenzo Falco</strong>, di professione contadino, e di
-    <strong>Andreana Crisci</strong></em>.
+    <P n="Vincenzo Falco" bold={true} />, di professione contadino, e di
+    <P n="Andreana Crisci" bold={true} /></em>.
     <span class="small">— Arienzo, Morti 1833, atto 16</span>
   </blockquote>
   <figure style="margin:1.2rem 0">
@@ -290,9 +290,9 @@ const avail = [
     <figcaption class="small">Act no. 32. Archivio di Stato di Caserta, via Antenati.</figcaption>
   </figure>
   <p>Giovanna was born about <strong>1762</strong>, five years before Pasquale. Her father was
-  <strong>Michele Falco</strong>, a <em>contadino</em>, married to <strong>Vincenza Esposito</strong>.
-  Pasquale's father was <strong>Matteo Falco</strong>, a <em>contadino</em>, married to
-  <strong>Francesca Crisci</strong>.</p>
+  <P n="Michele Falco" bold={true} />, a <em>contadino</em>, married to <P n="Vincenza Esposito" bold={true} />.
+  Pasquale's father was <P n="Matteo Falco" bold={true} />, a <em>contadino</em>, married to
+  <P n="Francesca Crisci" bold={true} />.</p>
   <p>So there were <strong>two peasant Falco households at Arienzo in the founding generation</strong>,
   both raising children in the early 1760s, in a town of a few thousand people. Whether Michele and
   Matteo were brothers is <span class="chip dis">not established</span> — it is the obvious reading,
@@ -304,8 +304,8 @@ const avail = [
   <p>The second, on the last page of the year:</p>
   <blockquote>
     …è morta nella sua propria casa <strong>Carmina Falco, di mesi sei</strong>, nata in Arienzo,
-    <em>figlia di <strong>Francesco Falco</strong>, di professione contadino, e di
-    <strong>Raffaela Falco</strong></em>.
+    <em>figlia di <P n="Francesco Falco" bold={true} />, di professione contadino, e di
+    <P n="Raffaela Falco" bold={true} /></em>.
     <span class="small">— Arienzo, Morti 1832, atto 80, p. 145, 19 December 1832</span>
   </blockquote>
   <p>Both declarants — Giovanni Crisci, thirty-two, and Francesco Lettieri, forty — were
@@ -315,9 +315,9 @@ const avail = [
   Pasqualina died on that street in September 1836: his household now stands at both ends of the sweep.</p>
 
   <h2>The Morgillo were already neighbours</h2>
-  <p>On 9 May 1832 <strong>Raffaele Morgillo</strong>, twenty-two, son of Carlantonio Morgillo, died on
-  <strong>strada Camellara</strong>. Two generations later <strong>Raffaele Falco</strong> — the
-  fourth generation of this line — married <strong>Angela Rosa Morgillo</strong>. The family he married
+  <p>On 9 May 1832 <P n="Raffaele Morgillo" bold={true} />, twenty-two, son of Carlantonio Morgillo, died on
+  <strong>strada Camellara</strong>. Two generations later <P n="Raffaele Falco" bold={true} /> — the
+  fourth generation of this line — married <P n="Angela Rosa Morgillo" bold={true} />. The family he married
   into were living a few doors away before either of them was born. That is what these registers are
   for: not only the line, but the street it happened on.</p>
 

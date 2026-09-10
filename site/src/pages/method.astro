@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 ---
 <Base title="Method">
@@ -23,15 +24,15 @@ import { u } from "../lib/url.js";
   </table></div>
 
   <h2>Agostino Falcone, and what replaced him</h2>
-  <p>The line was previously carried above Pasquale Falco to an <strong>Agostino Falcone</strong> born
-  about 1740, with a wife <strong>Elisabetta Sabina</strong>. That link has now been not merely doubted
+  <p>The line was previously carried above Pasquale Falco to an <P n="Agostino Falcone" bold={true} /> born
+  about 1740, with a wife <P n="Elisabetta Sabina" bold={true} />. That link has now been not merely doubted
   but <strong>superseded</strong>. Pasquale's own baptism has been found.</p>
   <blockquote>Anno Domini millesimo septingentesimo sexagesimo septimo, die vero vigesima quarta …
   baptizavi infantem natum ex <strong>Mattheo Falco</strong>, ed <strong>Francisca Crisci</strong>
   coniugibus huius archipresbyteralis collegiatae ecclesiae Sanctae Andreae Apostoli Terrae Argenti,
   qui nominatus est <strong>Paschalis</strong>.
   <span class="small">— Arienzo baptisms, 24 October 1767</span></blockquote>
-  <p>The father is <strong>Matteo Falco</strong>, not Agostino Falcone. The reasons the Falcone claim was
+  <p>The father is <P n="Matteo Falco" bold={true} />, not Agostino Falcone. The reasons the Falcone claim was
   doubted before the baptism turned up are worth keeping, because they are the reasons it should have
   been doubted:</p>
   <ul>
@@ -96,7 +97,7 @@ import { u } from "../lib/url.js";
   pair</em> — the same clerk writing both candidates — settles it. The second is that the same doubt is
   still open elsewhere — or was. The priest buried in 1827 as <em>Don Giuseppe Cr-i-sci or C-o-ssi,
   son of Andrea, possidente, and Orsola Zimbardo</em> was settled sixteen years later by an act
-  nobody was looking for: in June 1843 the register buries <strong>Celia Cioffi</strong>, eighty,
+  nobody was looking for: in June 1843 the register buries <P n="Celia Cioffi" bold={true} />, eighty,
   <em>«figlia di ANDREA CIOFFI defunto, di professione POSSIDENTE … e di ORSOLA ZIMBARDO defunta»</em>.
   Same father, same trade, same mother, spelled plainly. <strong>He was Don Giuseppe Cioffi.</strong>
   Which is the third lesson: a hand that will not resolve is sometimes resolved by a different clerk
