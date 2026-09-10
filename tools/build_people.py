@@ -151,7 +151,11 @@ def birth_year(p):
 
 # line.json marks a generation living in the archive's own words. That
 # marking wins over anything the tree says.
-LINE_LIVING = {clean(g["name"]).lower() for g in line if g.get("living")}
+LINE_LIVING = {clean(g["name"]).lower() for g in line if g.get("living") is True}
+# An explicit `living: false` in line.json is the archive stating that someone
+# the tree still flags as alive has died. The tree is not re-exported every
+# time somebody dies; this file is the archive's own word and it wins.
+LINE_DEAD = {clean(g["name"]).lower() for g in line if g.get("living") is False}
 
 def really_living(p):
     """The tree's own flag means 'no death date recorded', which is not the
@@ -168,7 +172,10 @@ def really_living(p):
     """
     if is_placeholder(p.get("name")):
         return False
-    if clean(p.get("name")).lower() in LINE_LIVING:
+    nm = clean(p.get("name")).lower()
+    if nm in LINE_DEAD:
+        return False                     # the archive says they have died
+    if nm in LINE_LIVING:
         return True                      # the archive says so; that settles it
     if not p.get("alive"):
         return False

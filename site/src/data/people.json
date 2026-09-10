@@ -10212,7 +10212,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "carmine-antonio-falco",
@@ -10305,6 +10305,8 @@
 }
 ],
 "treeId": 4000025,
+"b": "June 8 1930",
+"bp": "Forchia, Benevento, Campania, Italy",
 "gen": 8,
 "line": {
 "gen": 8,
@@ -10316,7 +10318,10 @@
 "married": "1955, Benevento",
 "trade": "",
 "confidence": "documented",
-"note": "Born at Forchia in the Valle Caudina. He and Francesca reached Brisbane on the ss «Sydney» of the Lauro Lines, out of Naples, arriving 26 MARCH 1964 — the Quarantine Service passenger list of that voyage enters them at numbers 492 and 493, bound for 43 Mount Joy, Petrie Terrace, Brisbane, an address given on 2 September 1963. Two further passengers of the same surname travel with them and are withheld here. The archive previously said «about 1957»; that was an inference from the 1957–1977 span of their Brisbane immigration file, and the passenger list corrects it. Francesca died at Brisbane on 10 September 2022 and is buried at Nudgee, plot V-0949."
+"note": "Born at Forchia in the Valle Caudina. He and Francesca reached Brisbane on the ss «Sydney» of the Lauro Lines, out of Naples, arriving 26 MARCH 1964 — the Quarantine Service passenger list of that voyage enters them at numbers 492 and 493, bound for 43 Mount Joy, Petrie Terrace, Brisbane, an address given on 2 September 1963. Two further passengers of the same surname travel with them and are withheld here. The archive previously said «about 1957»; that was an inference from the 1957–1977 span of their Brisbane immigration file, and the passenger list corrects it. Francesca died at Brisbane on 10 September 2022 and is buried at Nudgee, plot V-0949.",
+"living": false,
+"died": "2026",
+"diedNote": "Family knowledge, given by David de Franceski on 10 September 2026. No death record has been read for him, and none is claimed."
 }
 },
 {
@@ -10510,7 +10515,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "raffaele-falco-3",
