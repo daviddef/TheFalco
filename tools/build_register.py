@@ -84,6 +84,29 @@ for r in rd("data/zampiello-arpaia.tsv"):
     add(r.get("principal"), sur(r.get("principal")),
         " · ".join(x for x in [r.get("date"), r.get("place"), ("with " + rel) if rel else ""] if x),
         "FamilySearch, Arpaia", fs(r.get("ark")), "record", r.get("date") or "")
+# --- Benevento civil registration, harvested from FamilySearch 10 Sep 2026 ---
+# 962 Annecchino from Italy, Benevento, Civil Registration (State Archive) 1810-1942,
+# collection 2475030. No per-row ark was captured, so these carry a source but no link:
+# they are evidence with a citable collection, not one-click documents.
+def _split4(path):
+    out = []
+    with open(path) as f:
+        head = f.readline().rstrip("\n").split("\t")
+        for ln in f:
+            parts = ln.rstrip("\n").split("\t")
+            if len(parts) == len(head):
+                out.append(dict(zip(head, parts)))
+    return out
+
+for r in _split4("data/annecchino-benevento-fs.tsv"):
+    nm = r.get("name") or ""
+    bits = [x for x in [r.get("birthdate"), r.get("place")] if x]
+    par = (r.get("parents") or "").replace(" ; ", " · ")
+    if par: bits.append("parents: " + par)
+    add(nm, sur(nm), " · ".join(bits),
+        "FamilySearch — Benevento Civil Registration (State Archive) 1810–1942", "",
+        "index", r.get("birthdate") or "")
+
 for r in rd("data/annecchino-forchia.tsv"):
     add(r.get("child"), sur(r.get("child")),
         " · ".join(x for x in [r.get("date"), r.get("place"),

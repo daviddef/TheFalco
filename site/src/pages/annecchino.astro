@@ -7,24 +7,28 @@ const rows = register.filter((r) => (r.surname || "").toUpperCase() === "ANNECCH
 const kinds = {};
 for (const r of rows) kinds[r.kind] = (kinds[r.kind] || 0) + 1;
 
-const places = [["Moiano", 193], ["Forchia", 79], ["Arpaia", 15], ["Sant'Agata de' Goti", 3],
-                ["Airola", 1], ["Paolisi", 1]];
+const places = [["Moiano", 214], ["Forchia", 106], ["Benevento prov.", 65], ["Arpaia", 16],
+                ["Sant'Agata de' Goti", 3], ["Paolisi", 2], ["Airola", 1]];
 const acts = [["births", 519], ["deaths", 147], ["marriages", 44]];
+const sources = [["Antenati name index", 710],
+                 ["FamilySearch — Benevento civil registration", 359],
+                 ["FamilySearch, Forchia", 15], ["The family tree", 9]];
 const givens = [["Maria", 45], ["Giuseppe", 41], ["Sabatino", 37], ["Antonio", 27], ["Maddalena", 26],
                 ["Teresa", 23], ["Filomena", 20], ["Domenico", 19], ["Maria Rosa", 19],
                 ["Mariantonia", 19], ["Pietro", 19], ["Salvatore", 18]];
 ---
 <Base title="Annecchino"
       eyebrow="Generation seven married an Annecchino"
-      dek="The largest surname in this archive after Falco itself — 734 records, and until now not a single page of its own.">
+      dek="Now the largest surname in this archive, ahead of Falco itself — and on 10 September 2026 it gave up the name of Filomena's mother.">
 
   <div class="card" style="margin-bottom:1.2rem">
     <p><strong>This page exists because its absence was noticed.</strong> The archive had been built
     outward from the Falco name, and the families that married <em>into</em> it were treated as
-    context rather than as families. Annecchino is the plainest case: <strong>734 records</strong> —
-    more than any surname here except Falco — belonging to the woman who is <strong>generation
-    seven's wife</strong>, and it had no page, no entry in the names table, and no account of where
-    it comes from.</p>
+    context rather than as families. Annecchino is the plainest case: it had <strong>734
+    records</strong> — more than any surname here except Falco — belonging to the woman who is
+    <strong>generation seven's wife</strong>, and no page, no entry in the names table, and no account
+    of where it comes from. Going after it properly added <strong>359 more</strong>, and made it the
+    <strong>largest surname in the archive</strong>.</p>
   </div>
 
   <h2>Filomena Annecchino, and how the line runs through her</h2>
@@ -60,17 +64,82 @@ const givens = [["Maria", 45], ["Giuseppe", 41], ["Sabatino", 37], ["Antonio", 2
     — and because both deaths are indexed under <em>her</em> name, not his.</p>
   </div>
 
-  <h2>Where she came from — and where the trail stops</h2>
-  <p>Her father was <strong>Carmine Annecchino</strong>. Her brother was <strong>Giacomo
-  Annecchino</strong>, and her father's father appears in the tree as another <strong>Giacomo
-  Annecchino</strong> — the alternating-forename pattern these registers show everywhere.</p>
-  <p><strong>Her mother has no name.</strong> The tree carries her as «Unknown Annecchino» and no
-  record found so far supplies one. That is the point at which this line currently ends, and it is
-  written here rather than left as a gap in a chart.</p>
+  <h2>Her mother — a name at last, and what it rests on</h2>
+  <p>Until 10 September 2026 this section said <em>«her mother has no name»</em>. The family tree
+  carried her only as «Unknown Annecchino». A harvest of the <strong>Benevento civil registration</strong>
+  through FamilySearch has now produced a candidate, and it is set out here with its reasoning so
+  that a reader can weigh it rather than take it.</p>
+
+  <div class="card" style="margin:1rem 0">
+    <p style="font-size:1.05rem"><strong>Filomena Annecchino was very probably the daughter of
+    CARMINE ANNECCHINO and MARIA CARFORA, of Forchia.</strong></p>
+  </div>
+
+  <h3>The household, from the indexed births</h3>
+  <div class="scroll"><table>
+    <thead><tr><th>Child</th><th>Born</th><th>Where</th></tr></thead>
+    <tbody>
+      <tr><td>Giacinta Annecchino</td><td class="mono">18 Sep 1883</td><td>Forchia</td></tr>
+      <tr><td>Agata Annecchino</td><td class="mono">8 Oct 1884</td><td>Forchia</td></tr>
+      <tr><td><strong>Giacomo Annecchino</strong></td><td class="mono">22 Jun 1887</td><td>Forchia</td></tr>
+      <tr><td>Agata Annecchino <span class="small">— the name given again</span></td><td class="mono">29 Jan 1889</td><td>Forchia</td></tr>
+      <tr><td>Lucia Annecchino</td><td class="mono">2 Aug 1892</td><td>Forchia</td></tr>
+      <tr><td>Alfonso Annecchino <span class="small">— same day as Lucia: <strong>twins</strong></span></td><td class="mono">2 Aug 1892</td><td>Forchia</td></tr>
+      <tr><td>Alfonso Carmine Annecchino <span class="small">— the name given again</span></td><td class="mono">17 Jul 1894</td><td>Forchia</td></tr>
+      <tr><td style="background:var(--ground)"><strong>FILOMENA — 10 Apr 1897 — the year that is missing</strong></td>
+        <td class="mono">—</td><td>—</td></tr>
+      <tr><td><strong>Giacomo Annecchino</strong> <span class="small">— the name given again</span></td><td class="mono">2 Feb 1901</td><td>Benevento prov.</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>Why it holds</h3>
+  <ul>
+    <li><strong>The father's name matches.</strong> The tree gives Filomena's father as
+    <strong>Carmine Annecchino</strong>.</li>
+    <li><strong>The brother's name matches, exactly.</strong> The tree gives her brother as
+    <strong>Giacomo Annecchino</strong> — and this household has <em>two</em> sons of that name, in
+    1887 and again in 1901.</li>
+    <li><strong>The town matches.</strong> Forchia is where Filomena's own two children died in 1937
+    and 1938.</li>
+    <li><strong>The date fits the gap.</strong> 10 April 1897 sits between Alfonso Carmine (July 1894)
+    and the second Giacomo (February 1901) — squarely inside a childbearing span that runs 1883 to
+    1901.</li>
+  </ul>
+
+  <h3>Why it is not yet proof</h3>
+  <ul>
+    <li><strong>No record found names Filomena's mother.</strong> This is an argument from a household
+    and a gap, not a document.</li>
+    <li><strong>There is at least one other Carmine Annecchino at Forchia</strong>, married to
+    <strong>Giovanna Crisci</strong>, with children indexed in 1878 and 1880. He may be a different
+    man — or <em>the same man</em>, widowed and remarried about 1882, which would make Filomena's
+    half-siblings older than the household above. The archive does not choose.</li>
+    <li>This household lost children and reused their names <strong>three times</strong> — two Agata,
+    two Alfonso, two Giacomo. Where names repeat that freely, an identification made on a forename
+    needs a document behind it.</li>
+  </ul>
+
+  <h2>Why her birth act could not be found — the hole is in the harvest</h2>
+  <p>The reason this took so long is worth publishing, because it tells the next reader exactly where
+  to go. <strong>Filomena's birth year is missing from both indexes this archive can reach.</strong></p>
+  <div class="scroll"><table>
+    <thead><tr><th>Town</th><th>Birth years absent from the Antenati harvest, 1890–1915</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Forchia</strong></td><td class="mono">1890, <strong>1895, 1896, 1897, 1898, 1899, 1900</strong>, 1902, 1903, 1905–1911</td></tr>
+      <tr><td><strong>Arpaia</strong></td><td class="mono">1891, 1894, 1895, <strong>1897</strong>, 1903, 1905–1910</td></tr>
+      <tr><td>Moiano</td><td class="mono">1895, 1898–1901, 1903–1909, 1911, 1915 — <em>1897 IS present, and holds no Filomena Annecchino</em></td></tr>
+    </tbody>
+  </table></div>
+  <p><strong>Forchia's births run 1861 to 1894 and then jump to 1901.</strong> FamilySearch's Benevento
+  index has the same shape — the Carfora household's own Forchia births stop in 1894 and resume in
+  1901. So the absence of a 1897 act proves nothing at all: <strong>nobody has indexed the year.</strong>
+  The Forchia birth register for 1897 exists on Antenati as images. It has to be read by eye, the way
+  the Arienzo death registers were.</p>
 
   <h2>The Annecchino of the Valle Caudina</h2>
   <p>The surname belongs to a tight cluster of towns at the head of the valley. Of the {rows.length}
-  records, the ones that carry a place divide like this:</p>
+  records — <strong>359 of them added on 10 September 2026</strong> from the Benevento civil
+  registration — the ones that carry a place divide like this:</p>
 
   <div class="grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:.6rem;margin:.9rem 0">
     {places.map(([p, n]) => (
@@ -112,16 +181,52 @@ const givens = [["Maria", 45], ["Giuseppe", 41], ["Sabatino", 37], ["Antonio", 2
     ))}
   </div>
 
+  <h2>Who the Annecchino married</h2>
+  <p>The 359 newly harvested births name both parents, which puts real couples on the ground for the
+  first time. Five of the surnames they married are surnames <em>this</em> family also married:</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Surname</th><th>Annecchino couples</th><th>Where else it appears here</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Carfora</strong></td><td>Carmine × <strong>Maria Carfora</strong>; Sabatino × Mariantonia Carfora</td>
+        <td><strong>Filomena's probable mother</strong>, above.</td></tr>
+      <tr><td><strong>Crisci</strong></td><td>Carmine × Giovanna Crisci; Antonio × Maria Giovanna Crisci; Vincenzo × Maria Crisci</td>
+        <td><a href={u("/crisci")}>Generations one and three</a> of the Falco spine.</td></tr>
+      <tr><td><strong>Ferraro</strong></td><td>Pietro, Domenico and Gerardo Annecchino × Maria Grazia Ferraro; Raffaele × Marianna Ferraro</td>
+        <td><a href={u("/ferrara")}>Francesca Zampiello's mother</a> is written <em>Ferraro</em> in every civil record.</td></tr>
+      <tr><td><strong>Maione</strong></td><td>Antonio × Anna Maria Maione; Raffaele × Anna Maria Maione</td>
+        <td><a href={u("/maione")}>Generation six.</a></td></tr>
+      <tr><td><strong>Diglio</strong></td><td>Sabatino, Giuseppe and Gerardo Annecchino × Vittoria Diglio</td>
+        <td>216 Diglio records here, all over the Arienzo registers.</td></tr>
+    </tbody>
+  </table></div>
+  <p class="small"><strong>Read this carefully rather than excitedly.</strong> These are the commonest
+  surnames of a small group of neighbouring towns, and a family marrying them is a family marrying its
+  neighbours. <strong>It is a pattern of regional endogamy, not evidence of a connection to the
+  Falco.</strong> It is set out because it shows the world these people actually lived in — and because
+  the same five names keep arriving from every direction.</p>
+
   <h2>What would move this line</h2>
   <ul>
-    <li><strong>Filomena Annecchino's birth act, 10 April 1897.</strong> The town is the unknown —
-    Forchia, Moiano and Arpaia are all candidates. It would name her father and, crucially,
-    <strong>her mother</strong>.</li>
+    <li><strong>The FORCHIA BIRTH REGISTER FOR 1897, read by eye.</strong> This is now the single
+    most valuable unread document for this family. It is on Antenati as images, it is indexed by
+    nobody, and it would confirm or destroy the Maria Carfora identification in one line.</li>
     <li><strong>Her marriage to Carminantonio Falco.</strong> A Neapolitan marriage act names both
     fathers. One document would join this line to the Falco spine in print.</li>
     <li><strong>The Moiano registers.</strong> 193 Annecchino records point there and this archive has
     read none of them act by act, the way it has read Arienzo.</li>
   </ul>
+
+  <h2>Where these {rows.length} records come from</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Source</th><th>Records</th></tr></thead>
+    <tbody>{sources.map(([k, n]) => (<tr><td>{k}</td><td class="mono">{n}</td></tr>))}</tbody>
+  </table></div>
+  <p class="small">The 359 from the Benevento civil registration were harvested on 10 September 2026
+  and carry a citable collection but <strong>no per-record link</strong> — they are evidence with a
+  source, not one-click documents. A further 603 rows returned by that search were
+  <strong>discarded</strong>: FamilySearch's matching had fuzzed <em>Annecchino</em> into Zacchino,
+  Bollecchino, Trabacchino and Lupacchino, and letting them in would have polluted the archive with
+  three hundred people of another name.</p>
 
   <p class="small" style="margin-top:1.2rem">All {rows.length} Annecchino records are listed with their
   sources at <a href={u("/register") + "?q=Annecchino"}>the register →</a></p>
