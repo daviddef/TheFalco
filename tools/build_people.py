@@ -149,14 +149,32 @@ def birth_year(p):
     m = re.search(r"\b(1[6-9]\d\d|20\d\d)\b", str(p.get("b") or ""))
     return int(m.group(1)) if m else None
 
+# line.json marks a generation living in the archive's own words. That
+# marking wins over anything the tree says.
+LINE_LIVING = {clean(g["name"]).lower() for g in line if g.get("living")}
+
 def really_living(p):
     """The tree's own flag means 'no death date recorded', which is not the
-    same thing. Same three filters as build_living.py."""
-    if not p.get("alive"): return False
-    if is_placeholder(p.get("name")): return False
+    same thing — left alone it marks a man born in 1832 as alive. Two filters
+    correct it: a placeholder is not a person, and a birth before 1920 means
+    dead whatever the flag says.
+
+    What must NOT be used here is the ancestor test. build_living.py excludes
+    ancestors because it is listing living *relatives* and an ancestor is not
+    one. Reusing that predicate to decide REDACTION was a serious mistake: the
+    wife's own mother is an ancestor AND alive, so it published the birth date
+    of a living woman — the exact leak the direct-line page had already been
+    fixed for. Ancestry has nothing to do with whether someone is alive.
+    """
+    if is_placeholder(p.get("name")):
+        return False
+    if clean(p.get("name")).lower() in LINE_LIVING:
+        return True                      # the archive says so; that settles it
+    if not p.get("alive"):
+        return False
     by = birth_year(p)
-    if by is not None and by < 1920: return False
-    if p.get("id") in ANCESTORS: return False
+    if by is not None and by < 1920:
+        return False
     return True
 
 # households.json does not use one word for a child. It uses «child», but also
