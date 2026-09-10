@@ -1,0 +1,91 @@
+{
+ "towns": [
+  {
+   "town": "Paolisi",
+   "falco_records": "406",
+   "zampiello": "0",
+   "annecchino": "1",
+   "shared_inlaws_with_arienzo": "Ruggiero, Rivetti",
+   "note": "Largest Falco cluster in the valley. Francesco Falco \"Casalis Paulisii\" came from here to Arienzo in 1714."
+  },
+  {
+   "town": "Moiano",
+   "falco_records": "310",
+   "zampiello": "104",
+   "annecchino": "215",
+   "shared_inlaws_with_arienzo": "Morgillo",
+   "note": "Second cluster of all three surnames. Never previously examined."
+  },
+  {
+   "town": "Forchia",
+   "falco_records": "31",
+   "zampiello": "16",
+   "annecchino": "237",
+   "shared_inlaws_with_arienzo": "—",
+   "note": "Annecchino home town; few Falco."
+  },
+  {
+   "town": "Arpaia",
+   "falco_records": "22",
+   "zampiello": "259",
+   "annecchino": "63",
+   "shared_inlaws_with_arienzo": "—",
+   "note": "Zampiello home town; few Falco."
+  },
+  {
+   "town": "Arienzo",
+   "falco_records": "0 (not indexed)",
+   "zampiello": "—",
+   "annecchino": "—",
+   "shared_inlaws_with_arienzo": "—",
+   "note": "Antenati holds Arienzo register IMAGES but has NO name index for it at all."
+  }
+ ],
+ "processetti": [
+  {
+   "town": "Arienzo",
+   "province": "Caserta",
+   "processetti_volumes": "63",
+   "earliest": "1809",
+   "latest": "1865",
+   "name_indexed": "NO — zero name-indexed records for Arienzo",
+   "note": "The home parish. 1817 volume = ark an_ua14158, 310 pages. PRIME TARGET: Vincenzo Falco m. Andreana Crisci c.1817."
+  },
+  {
+   "town": "Forchia",
+   "province": "Benevento",
+   "processetti_volumes": "73",
+   "earliest": "1809",
+   "latest": "1865",
+   "name_indexed": "partial",
+   "note": "Annecchino town. Nothing after 1865, so Carminantonio x Filomena (1920s) is not here."
+  },
+  {
+   "town": "Arpaia",
+   "province": "Benevento",
+   "processetti_volumes": "43",
+   "earliest": "1817",
+   "latest": "1865",
+   "name_indexed": "partial",
+   "note": "Zampiello town. Nothing after 1865, so Angelo Zampiello x Giuseppa Ferrara (c.1920) is not here."
+  },
+  {
+   "town": "Moiano",
+   "province": "Benevento",
+   "processetti_volumes": "99",
+   "earliest": "—",
+   "latest": "1865",
+   "name_indexed": "partial",
+   "note": "Largest processetti holding in the valley. Unexamined."
+  },
+  {
+   "town": "Paolisi",
+   "province": "Benevento",
+   "processetti_volumes": "43",
+   "earliest": "—",
+   "latest": "1865",
+   "name_indexed": "partial",
+   "note": "Where Francesco Falco came from in 1714. Unexamined."
+  }
+ ]
+}

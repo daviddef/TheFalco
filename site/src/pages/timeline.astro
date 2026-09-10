@@ -1,0 +1,146 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import line from "../data/line.json";
+import plates from "../data/plates.json";
+import register from "../data/register.json";
+import { people } from "../lib/people.js";
+
+const yearOf = (s) => { const m = String(s || "").match(/\b(1[6-9]\d\d|20\d\d)\b/); return m ? +m[1] : null; };
+const START = 1720, END = 2026, SPAN = END - START;
+const pos = (y) => ((y - START) / SPAN) * 100;
+
+const livingGen = new Set(people.filter((p) => p.living && p.gen).map((p) => p.gen));
+const gens = line.map((g) => {
+  const living = g.living || livingGen.has(g.gen);
+  return { ...g, living, y: living ? null : yearOf(g.born) };
+});
+
+/* Which years of register the archive has actually read, from the sources it
+   cites. This is coverage, not events — and the gaps are the point. */
+const readYears = new Set();
+for (const r of register) {
+  if (r.kind !== "swept") continue;
+  const y = yearOf(r.source); if (y) readYears.add(y);
+}
+const years = [...readYears].sort((a, b) => a - b);
+const runs = [];
+for (const y of years) {
+  const last = runs[runs.length - 1];
+  if (last && y === last[1] + 1) last[1] = y; else runs.push([y, y]);
+}
+
+/* Dated plates are the archive's own documented moments. */
+const events = plates.filter((p) => p.when && yearOf(p.when))
+  .map((p) => ({ y: yearOf(p.when), when: p.when, t: p.t, f: p.f }))
+  .sort((a, b) => a.y - b.y);
+
+const RULE = [
+  [1720, 1806, "Bourbon Naples", "The parish books are the only record. No civil register exists."],
+  [1806, 1815, "The French decade", "Civil registration begins — the reason this archive can exist at all."],
+  [1815, 1861, "Bourbon restoration", "«Corpo d'Arienzo, Distretto di Caserta, Provincia di Terra di Lavoro» — the heading on every act read here."],
+  [1861, 1946, "The Kingdom of Italy", ""],
+  [1946, 2026, "The Republic", "Generation eight leaves for Brisbane."],
+];
+---
+<Base title="Timeline"
+      eyebrow="Nine generations, three hundred years, and what has actually been read"
+      dek="The line, the regimes it lived under, and — laid underneath — the exact years of register this archive has read act by act. The gaps in that band are the honest part.">
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>Three bands, and the bottom one is the useful one.</strong> The first is who was alive.
+    The second is who was in charge. <strong>The third is what has actually been read</strong> —
+    every year of the Arienzo registers swept line by line. <strong>Where that band is empty, this
+    archive is guessing or silent</strong>, and it says so rather than filling in.</p>
+  </div>
+
+  <figure class="tl">
+    <div class="scale">
+      {[1750, 1800, 1850, 1900, 1950, 2000].map((y) => (
+        <span class="tick" style={`left:${pos(y)}%`}><i></i><b>{y}</b></span>
+      ))}
+    </div>
+
+    <div class="lab">The nine generations</div>
+    <div class="band gens">
+      {gens.map((g, i) => (
+        <div class="gen" style={`left:${g.y ? pos(g.y) : pos(1955)}%`}>
+          <i></i>
+          <span class="gtxt"><b>{g.gen}</b> {g.living ? "living — named only" : g.born}</span>
+        </div>
+      ))}
+    </div>
+
+    <div class="lab">Under whose rule</div>
+    <div class="band rule">
+      {RULE.map(([a, b, name]) => (
+        <div class="seg" style={`left:${pos(a)}%;width:${pos(b) - pos(a)}%`} title={name}>
+          <span>{name}</span>
+        </div>
+      ))}
+    </div>
+
+    <div class="lab">Registers read act by act</div>
+    <div class="band read">
+      {runs.map(([a, b]) => (
+        <div class="run" style={`left:${pos(a)}%;width:${Math.max(pos(b + 1) - pos(a), 0.35)}%`}
+             title={a === b ? String(a) : `${a}–${b}`}></div>
+      ))}
+    </div>
+    <figcaption class="small">Read: {runs.map(([a, b]) => (a === b ? a : `${a}–${b}`)).join(" · ")}.
+    <strong>Everything else is unread</strong> — see <a href={u("/searched")}>what has been read</a>.</figcaption>
+  </figure>
+
+  <h2>The generations</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Gen</th><th>Born</th><th>Where</th><th>Trade</th><th>Confidence</th></tr></thead>
+    <tbody>
+      {gens.map((g) => (
+        <tr>
+          <td class="mono"><a href={u("/direct-line") + "#gen-" + g.gen}>{g.gen}</a></td>
+          <td>{g.living ? <em class="dim">living — named only</em> : <strong>{g.name}</strong>}
+            {g.living ? null : <><br/><span class="small mono">{g.born}</span></>}</td>
+          <td class="small">{g.living ? "" : (g.bornPlace || "")}</td>
+          <td class="small">{g.living ? "" : (g.trade || "")}</td>
+          <td class="small">{g.living ? "" : <span class="chip doc">{g.confidence}</span>}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table></div>
+
+  <h2>Dated documents, in order</h2>
+  <p class="small">{events.length} plates in this archive carry a date. They are the moments it can
+  actually put a piece of paper behind.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>When</th><th>What</th></tr></thead>
+    <tbody>
+      {events.map((e) => (
+        <tr><td class="mono small" style="white-space:nowrap">{e.when}</td>
+          <td><a href={u("/documents") + "#" + e.f.replace(/\.jpg$/, "")}>{e.t}</a></td></tr>
+      ))}
+    </tbody>
+  </table></div>
+
+<style is:global>
+  .tl{margin:1.4rem 0 2rem;padding:1rem 1rem 1.2rem;border:1px solid var(--rule);border-radius:.4rem}
+  .tl .scale{position:relative;height:1.3rem;margin-bottom:.4rem}
+  .tl .tick{position:absolute;transform:translateX(-50%);font-family:var(--mono);font-size:10px;color:var(--ink-3)}
+  .tl .tick i{display:block;width:1px;height:.4rem;background:var(--rule-strong);margin:0 auto}
+  .tl .lab{font-family:var(--sans);font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;
+           color:var(--ink-3);margin:.9rem 0 .3rem}
+  .tl .band{position:relative;height:1.5rem;background:var(--ground);border-radius:2px}
+  .tl .band.gens{height:2.6rem}
+  .tl .gen{position:absolute;top:0}
+  .tl .gen i{display:block;width:.6rem;height:.6rem;border-radius:50%;background:var(--accent);
+             transform:translateX(-50%)}
+  .tl .gtxt{position:absolute;left:0;top:.75rem;transform:translateX(-50%);white-space:nowrap;
+            font-family:var(--mono);font-size:9px;color:var(--ink-2)}
+  .tl .gen:nth-child(even) .gtxt{top:1.6rem}
+  .tl .seg{position:absolute;top:0;height:1.5rem;border-left:1px solid var(--rule-strong);
+           display:flex;align-items:center;overflow:hidden}
+  .tl .seg span{font-family:var(--sans);font-size:10px;color:var(--ink-2);padding-left:.35rem;white-space:nowrap}
+  .tl .run{position:absolute;top:.25rem;height:1rem;background:var(--accent);border-radius:1px}
+  .tl figcaption{margin-top:.6rem}
+  @media(max-width:640px){.tl .seg span{display:none}}
+</style>
+</Base>

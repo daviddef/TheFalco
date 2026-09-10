@@ -1,0 +1,57 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import changes from "../data/changes.json";
+const KIND = { sweep: "a register read", find: "a find", fix: "a fix or a withdrawal",
+               site: "the site itself", other: "other" };
+const byDay = [];
+for (const c of changes) {
+  if (!byDay.length || byDay[byDay.length - 1].day !== c.date) byDay.push({ day: c.date, rows: [] });
+  byDay[byDay.length - 1].rows.push(c);
+}
+const n = (k) => changes.filter((c) => c.kind === k).length;
+const REPO = "https://github.com/daviddef/TheFalco/commit/";
+---
+<Base title="What changed"
+      eyebrow={`${changes.length} changes, ${byDay.length} working days`}
+      dek="Generated from this archive's own commit history, not written by hand — so it cannot drift from what actually happened. Every entry is a real commit and links to it.">
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>This page is not a summary. It is the log.</strong> It is built by
+    <span class="mono small">tools/build_changes.py</span> straight out of git, which means
+    <strong>it cannot flatter the work</strong>: the withdrawals and the leaks are in it on the same
+    footing as the finds.</p>
+    <p class="small" style="margin-top:.6rem">Where a change altered something already published, it
+    is also on <a href={u("/corrections")}>Corrections</a>, with what caught it.</p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.6rem;margin:1rem 0">
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{n("sweep")}</div><div class="small">register reads</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{n("find")}</div><div class="small">finds</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{n("fix")}</div><div class="small">fixes and withdrawals</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{n("site")}</div><div class="small">changes to the site</div></div>
+  </div>
+
+  {byDay.map((d) => (
+    <section style="margin:1.6rem 0">
+      <h2 style="margin-bottom:.4rem">{d.day} <span class="small mono">{d.rows.length}</span></h2>
+      {d.rows.map((c) => (
+        <div class="chg">
+          <div class="small"><span class={"chip " + (c.kind === "fix" ? "dis" : c.kind === "find" ? "doc" : "")}>{KIND[c.kind]}</span>
+            <a class="mono" href={REPO + c.sha} rel="noopener" style="margin-left:.5rem">{c.sha} ↗</a></div>
+          <p style="margin:.3rem 0 .2rem"><strong>{c.title}</strong></p>
+          {c.summary ? <p class="small" style="max-width:80ch">{c.summary}</p> : null}
+        </div>
+      ))}
+    </section>
+  ))}
+
+  <p class="small" style="margin-top:2rem">
+    <a href={u("/corrections")}>Corrections</a> ·
+    <a href={u("/searched")}>What has been read</a> ·
+    <a href={u("/open-questions")}>What is still open</a></p>
+
+<style is:global>
+  .chg{border-top:1px solid var(--rule);padding:.7rem 0}
+</style>
+</Base>

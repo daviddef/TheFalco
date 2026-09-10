@@ -1,0 +1,92 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import register from "../data/register.json";
+import { people } from "../lib/people.js";
+import changes from "../data/changes.json";
+import corrections from "../data/corrections.json";
+---
+<Base title="About"
+      eyebrow="What this is, who it is for, and the rules it keeps"
+      dek="An evidence-first archive of one family's maternal line — Arienzo in the province of Caserta, to Brisbane. Every claim carries its confidence or is marked unproven.">
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>This is the maternal line of one family, followed backwards from Brisbane to a single
+    street in a small town in Campania.</strong> Nine generations, from a Matteo Falco born by about
+    1735 on <strong>strada Camellara</strong> in Arienzo, to a generation living in Australia now.</p>
+    <p style="margin-top:.6rem">It is built for <strong>one reader's descendants</strong>, and it is
+    public because a family history that lives on one laptop dies with the laptop.</p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.6rem;margin:1rem 0">
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{register.length.toLocaleString()}</div><div class="small">records</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{people.length}</div><div class="small">people identified</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{corrections.length}</div><div class="small">published corrections</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{changes.length}</div><div class="small">recorded changes</div></div>
+  </div>
+
+  <h2>The five rules</h2>
+  <ol class="rules">
+    <li><strong>Every claim carries its confidence, or is marked unproven.</strong> Documented,
+    inferred, disputed, family lore — and <a href={u("/dna")}>dna</a>, which ranks below documented
+    because a register entry names a person and an estimate names a probability.</li>
+
+    <li><strong>Negatives and nulls are published.</strong> If a search was run and found nothing,
+    that is written down, so nobody repeats it. <a href={u("/searched")}>What has been read →</a></li>
+
+    <li><strong>Corrections are visible, never silent.</strong> A withdrawn reading stays on the page
+    that carried it. Where the family tree still asserts something this archive discarded — Agostino
+    Falcone at the head of the line — <strong>he is drawn struck through beside the man who replaced
+    him.</strong> <a href={u("/corrections")}>Corrections →</a></li>
+
+    <li><strong>A name is not a person, and a shared surname is not a relationship.</strong> This
+    parish has three Maria Falco and four Pasquale; «Pasquale Falco» alone carries seventy-nine
+    records. <strong>Nothing is merged on a name.</strong> <a href={u("/method")}>Method →</a></li>
+
+    <li><strong>Living people are named, and nothing more.</strong> A name and a relationship — never
+    a date, a place, a record or a photograph. That line was drawn on 10 September 2026, and
+    <strong>the one time it slipped, the failure is on the corrections page.</strong></li>
+  </ol>
+
+  <h2>Where the evidence comes from</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Body</th><th>What it gives</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Antenati</strong> — the Italian state archives' portal</td>
+        <td>The Arienzo civil death registers, <strong>read act by act rather than searched</strong>.
+        Twenty-one volumes so far. <a href={u("/antenati")}>How →</a></td></tr>
+      <tr><td><strong>FamilySearch</strong></td>
+        <td>Handwriting-recognition full text over parish books nobody has indexed by hand, and the
+        Benevento civil registration index.</td></tr>
+      <tr><td><strong>Nudgee Cemetery, Brisbane</strong></td>
+        <td>Fifteen burials, including generation seven and his wife in adjoining niches.
+        <a href={u("/graves")}>Graves →</a></td></tr>
+      <tr><td><strong>The family's own papers</strong></td>
+        <td>An <em>estratto</em> from the Comune di Arpaia, a War Merit Cross citation, photographs,
+        and a MyHeritage tree of 427 people — <strong>the last of which is unverified and labelled as
+        such everywhere it appears.</strong></td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>How it is built</h2>
+  <p>Static pages generated with Astro from plain JSON and TSV, all of it in
+  <a href="https://github.com/daviddef/TheFalco" rel="noopener">the public repository ↗</a> — including
+  the <a href={u("/research-log")}>working notes</a>, which keep the wrong readings alongside the
+  corrections. <strong>Nothing on this site is asserted that cannot be traced back to a file you can
+  open.</strong></p>
+
+  <h2>What it is not</h2>
+  <ul>
+    <li><strong>Not a genealogy service.</strong> It follows one line and the town around it.</li>
+    <li><strong>Not finished.</strong> <strong>258 volumes of <em>processetti</em> have never been
+    opened</strong>, and the act that would settle generation seven's mother is in an unindexed
+    Forchia register. <a href={u("/open-questions")}>Open questions →</a></li>
+    <li><strong>Not neutral about its own mistakes.</strong> Twice in two days the same misreading was
+    made, and saying so is treated as more useful than the finds.</li>
+  </ul>
+
+<style is:global>
+  .rules{max-width:80ch}
+  .rules li{margin:.7rem 0;line-height:1.6}
+</style>
+</Base>

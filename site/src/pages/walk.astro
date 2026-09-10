@@ -1,0 +1,69 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import register from "../data/register.json";
+const STREETS = [
+  ["Camellara", "The family's own street. Falco, Cioffi, Morgillo, Carfora, Martone, Giglio, Sepistella, Belletta, Majone, Manna and della Cava all lived on it, and stood as witnesses at each other's deaths. If there is one place to stand, it is here."],
+  ["Cioffi", "A street named for a family — and the Cioffi are the surname this archive once misread for five years as «Cossi»."],
+  ["Capodiconca", "The Cimmino, Arrigale and Zimbardo streets. Densest in vaticali — carters."],
+  ["Croce", "The Lettieri and the Laudato, and three generations of di Lucia masons."],
+  ["Sant'Andrea", "Named for the Collegiate Church of Sant'Andrea Apostolo, whose books begin in 1672 and are the spine of everything before 1809."],
+  ["Santa Lucia", "The d'Ambrosio possidenti, and a gentleman Cioffi."],
+  ["Porta di Sopra", "The gate street: hatters, a barber, a possidente, and the Matteo Falco of 1827 who has never been joined to this line."],
+  ["Terra Murata", "The walled ground — an oste, a fruttajolo, and Maria Elisabetta Baumgarten, a Neapolitan officer's daughter working as a spinner."],
+  ["Monticello de' Cappuccini", "Named for the Capuchin convent, whose friars appear in the 1837 register. Chiara Rivetti's brother Carmine was buried from here in 1821."],
+  ["San Gaetano", "The other Morgillo — Biagio, Antonio, Simone and Domenico — and ORAZIO MORGILLO, generation four's father-in-law, found here in 1837."],
+  ["Torricella de' Saponari", "The soap-makers'. A street named for what was made in it."],
+  ["Signorella", "The Carfora street — Giovanni, Agostino, Francesco, Michele, Stefano and Agnese, ninety years old."],
+];
+const count = (s) => register.filter((r) => ((r.detail || "") + " " + (r.source || "")).includes(s)).length;
+---
+<Base title="Walk the line"
+      eyebrow="Twelve streets in one small town"
+      dek="If you went to Arienzo tomorrow, this is the route — the streets the registers name, in the order the evidence makes them matter, and what happened on each."
+      >
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>The whole of this archive before 1900 happens inside about one square kilometre.</strong>
+    These are the streets the death registers write, read off the acts themselves — <strong>not from a
+    map, because the archive has not matched a single one of them to a modern street name.</strong></p>
+    <p class="small" style="margin-top:.6rem"><strong>That is the honest caveat for anyone who
+    actually goes.</strong> Arienzo has renamed most of its streets since 1843. The names below are
+    what the clerk wrote; finding them on the ground is work nobody here has done.</p>
+  </div>
+
+  <figure class="walk">
+    {STREETS.map(([s, what], i) => (
+      <div class="stop">
+        <div class="num mono">{i + 1}</div>
+        <div class="body">
+          <h3>strada {s} <span class="mono small dim">{count(s).toLocaleString()} records</span></h3>
+          <p>{what}</p>
+          <p class="small"><a href={u("/register") + "?q=" + encodeURIComponent(s)}>Every record from this street →</a></p>
+        </div>
+      </div>
+    ))}
+  </figure>
+
+  <h2>What to look for when you get there</h2>
+  <ul>
+    <li><strong>The Collegiate Church of Sant'Andrea Apostolo.</strong> Its books — baptisms from
+    1672, marriages from 1754, deaths from 1733 — are the only record of this family before civil
+    registration began. <strong>Nobody in this archive has ever seen them on paper.</strong></li>
+    <li><strong>The Capuchin convent</strong>, if anything is left of it. The 1837 register buries
+    three of its men, including the house's <em>lettore</em>.</li>
+    <li><strong>The Ospedale di «Ave Gratia Plena»</strong> — the hospital whose name this archive
+    once misread as a nun.</li>
+    <li><strong>Photographs of any of it.</strong> There is not one image of Arienzo in this archive.
+    <a href={u("/gallery")}>Gallery →</a></li>
+  </ul>
+
+<style is:global>
+  .walk{margin:1.4rem 0}
+  .walk .stop{display:grid;grid-template-columns:2rem 1fr;gap:.9rem;padding:0 0 1.1rem}
+  .walk .num{position:relative;color:var(--ink-3);font-size:12px;padding-top:.35rem;text-align:right}
+  .walk .body{border-left:2px solid var(--rule);padding:.2rem 0 .2rem .9rem}
+  .walk h3{margin:.1rem 0 .3rem;display:flex;gap:.7rem;align-items:baseline;flex-wrap:wrap}
+  .walk p{margin:.25rem 0;max-width:76ch}
+</style>
+</Base>
