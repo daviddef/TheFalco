@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
 const inlaws = [
   ["Crisci", 113, "Andreana Crisci married Vincenzo Falco. The commonest in-law name in the registers."],
   ["Morgillo", 76, "Angela Rosa Morgillo, daughter of Orazio, married Raffaele Falco."],
@@ -48,7 +49,7 @@ const books = [
 
   <h2>The couple at the frontier</h2>
   <p>The oldest members of this line who can be shown to exist are
-  <strong>Pasquale Falco</strong> and <strong>Chiara Rivetti</strong>. They appear together, named as a
+  <P n="Pasquale Falco" bold={true} /> and <P n="Chiara Rivetti" bold={true} />. They appear together, named as a
   married couple of the parish, in the baptisms of their children:</p>
   <blockquote>
     …baptizavit infantem natam ex <strong>Paschale Falco</strong>, et <strong>Clara Rivetta</strong>

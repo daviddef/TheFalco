@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import register from "../data/register.json";
 
@@ -98,9 +99,9 @@ const elders = [
   archive and ought to be findable in the parish books.</p>
 
   <h2>Two d'Addio women married two Morgillo men</h2>
-  <p><strong>Rosa d'Addio</strong>, seventy, widow of <strong>Biagio Morgillo</strong>, died in the
-  Ospedale di Ave Gratia Plena on 23 May 1828. <strong>Mariantonia d'Addio</strong>, thirty-one, a
-  <em>filatrice</em> of strada Capodichina and wife of <strong>Pellegrino Morgillo</strong>, was
+  <p><strong>Rosa d'Addio</strong>, seventy, widow of <P n="Biagio Morgillo" bold={true} />, died in the
+  Ospedale di Ave Gratia Plena on 23 May 1828. <P n="Mariantonia d'Addio" bold={true} />, thirty-one, a
+  <em>filatrice</em> of strada Capodichina and wife of <P n="Pellegrino Morgillo" bold={true} />, was
   murdered in the spring of 1827 — her body found buried in a wood, her face disfigured, part of the
   skull gone. The Royal Magistrate's own letter about it is sewn into the 1827 death register, asking
   the sindaco for a copy of the act <em>«per allegarla ad un processo criminale»</em>.
@@ -133,13 +134,13 @@ const elders = [
     <thead><tr><th>Act</th><th>Who</th><th>What the act says</th></tr></thead>
     <tbody>
       <tr><td class="mono">1843, atti 49 &amp; 54</td><td><strong>Francesca</strong>, 56, and <strong>Nicola</strong>, 50</td><td><strong>Sister and brother</strong>, dead nine days apart, both <em>«figli di GAETANO MORGILLO defunto e MARIA CIOFFI defunta»</em>, strada Capodiconca. The repetition is what settles the mother's surname.</td></tr>
-      <tr><td class="mono">1842, atto 7</td><td><strong>Angela</strong>, 80</td><td><em>«figlia di SIMONE MORGILLO defunto e VITTORIA DIGLIO defunta»</em>, widow of Gaspare Ummarino. Born about 1762. A <strong>Simone Morgillo</strong> is one of the San Gaetano brothers above — same name, right generation, <strong>not merged</strong>.</td></tr>
-      <tr><td class="mono">1842, atto 31</td><td><strong>Carlantonio</strong>, 70</td><td>Son of <strong>Carlantonio Morgillo</strong>; died in the ospedale. See above.</td></tr>
+      <tr><td class="mono">1842, atto 7</td><td><strong>Angela</strong>, 80</td><td><em>«figlia di SIMONE MORGILLO defunto e VITTORIA DIGLIO defunta»</em>, widow of Gaspare Ummarino. Born about 1762. A <P n="Simone Morgillo" bold={true} /> is one of the San Gaetano brothers above — same name, right generation, <strong>not merged</strong>.</td></tr>
+      <tr><td class="mono">1842, atto 31</td><td><strong>Carlantonio</strong>, 70</td><td>Son of <P n="Carlantonio Morgillo" bold={true} />; died in the ospedale. See above.</td></tr>
       <tr><td class="mono">1841 atto 21; 1841 atto 82</td><td><strong>Nicola</strong>, 55 and 50</td><td>A <em>colono</em> of Capodiconca and a <em>calzolajo</em> of <strong>strada CAMELLARA</strong>. Different streets, different trades, five years apart in age. <strong>Two men, or one clerk guessing twice.</strong> Not merged — and the second is a Morgillo living on the Falco street.</td></tr>
       <tr><td class="mono">1841 atto 19; 1841 atto 54; 1843 atto 38</td><td><strong>Gennaro</strong>, <em>vaticale</em></td><td>Of strada Sant'Andrea, across three acts. His son <strong>Simone</strong> died at sixteen months in 1841. The register makes him <strong>45 in 1841 and 40 in 1843</strong>.</td></tr>
-      <tr><td class="mono">1841 atto 71; 1842 atto 80</td><td><strong>Maria Giuseppa</strong></td><td>Wife of Angelo Cioffi of strada Cioffi. The 1842 act writes her simply «Maria Morgillo»; the 1841 act gives the full name. <strong>She is not the Maria Morgillo who married Luca Zimbardo</strong> — that is a different woman, on a different street.</td></tr>
-      <tr><td class="mono">1841 atto 47; 1842 atto 46</td><td><strong>Maria</strong></td><td>Wife of <strong>Luca Zimbardo</strong>, strada Capodiconca. They buried <strong>two sons, both named Antonio</strong> — one at sixteen months in August 1841, one at twenty-two days in August 1842. The name was given again after the first died.</td></tr>
-      <tr><td class="mono">1841, atto 66</td><td><strong>Giovanna</strong>, 10</td><td>Daughter of <strong>Pasquale Morgillo</strong> and Carmina Cioffi, strada Cioffi.</td></tr>
+      <tr><td class="mono">1841 atto 71; 1842 atto 80</td><td><P n="Maria Giuseppa" bold={true} /></td><td>Wife of Angelo Cioffi of strada Cioffi. The 1842 act writes her simply «Maria Morgillo»; the 1841 act gives the full name. <strong>She is not the Maria Morgillo who married Luca Zimbardo</strong> — that is a different woman, on a different street.</td></tr>
+      <tr><td class="mono">1841 atto 47; 1842 atto 46</td><td><strong>Maria</strong></td><td>Wife of <P n="Luca Zimbardo" bold={true} />, strada Capodiconca. They buried <strong>two sons, both named Antonio</strong> — one at sixteen months in August 1841, one at twenty-two days in August 1842. The name was given again after the first died.</td></tr>
+      <tr><td class="mono">1841, atto 66</td><td><strong>Giovanna</strong>, 10</td><td>Daughter of <P n="Pasquale Morgillo" bold={true} /> and Carmina Cioffi, strada Cioffi.</td></tr>
       <tr><td class="mono">1842, atto 81</td><td><strong>Costantina</strong>, 16; <strong>Marco</strong></td><td>Daughter of <strong>Leopoldo Morgillo</strong> and Giulia Petrella, strada Capodiconca; Marco Morgillo declares.</td></tr>
       <tr><td class="mono">1842, atto 85; 1842 atto 11</td><td><strong>Giovanni</strong>, 55</td><td>With <strong>Lucia di Lucia</strong>; their son Antonio died at eleven. He declares on strada Cioffi in February and is named as a father on strada Santa Lucia in December.</td></tr>
       <tr><td class="mono">1842 atti 12, 24, 52, 60; 1841 atti 9, 23, 50</td><td><strong>Teresa · Giuseppe · Giuditta · Maddalena · Andrea · Angela</strong></td><td>Scattered singletons — a mother on Porta di Sopra, a declarant on strada Costa, a dead mother, a wife on Capodiconca, a declarant of 32 on strada Cioffi, a wife on Terra Murata. Recorded, unjoined.</td></tr>

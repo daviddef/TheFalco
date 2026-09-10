@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import households from "../data/households.json";
 import { findPerson } from "../lib/people.js";
@@ -30,8 +31,8 @@ import HouseholdTree from "../components/HouseholdTree.astro";
   <h2>What these tables establish</h2>
   <ul>
     <li><strong>The line reaches a generation further back than it did.</strong> Pasquale Falco's
-    baptism of 24 October 1767 names his father <strong>Matteo Falco</strong> and his mother
-    <strong>Francesca Crisci</strong>. Matteo replaces the unproven Agostino Falcone.</li>
+    baptism of 24 October 1767 names his father <P n="Matteo Falco" bold={true} /> and his mother
+    <P n="Francesca Crisci" bold={true} />. Matteo replaces the unproven Agostino Falcone.</li>
     <li><strong>Vincenzo's marriage names four people at once</strong> — himself, his father Pasquale,
     his mother Chiara Rivetti, and his wife Andreana's father Arcangelo Crisci. It is the single most
     load-bearing document found.</li>
@@ -70,7 +71,7 @@ import HouseholdTree from "../components/HouseholdTree.astro";
   <p><strong>Is he Matteo's ancestor?</strong> The dates allow it — Matteo was an adult by 1759, so he
   could be Francesco's grandson, or just possibly the son of 1717. <strong>No document joins them</strong>,
   and this archive will not join them for the sake of a tidy line.</p>
-  <p>Further back still: a <strong>Tommaso Falco</strong> and Marta Mara baptised a daughter Lucretia at
+  <p>Further back still: a <P n="Tommaso Falco" bold={true} /> and Marta Mara baptised a daughter Lucretia at
   <strong>San Felice a Cancello in 1637</strong> — the entry written in Italian, not Latin. And an index
   page of 1654 already lists Falcos among Crisci, Morgillo, Martone, Rivetti, Carfora, de Lucia and
   Porrino: the whole in-law network was in place before the Restoration.</p>

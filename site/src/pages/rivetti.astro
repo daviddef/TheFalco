@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import register from "../data/register.json";
 const rows = register.filter((r) => (r.surname || "").toUpperCase() === "RIVETTI");
@@ -15,7 +16,7 @@ const swept = rows.filter((r) => r.kind === "swept").length;
   </div>
 
   <h2>Chiara Rivetti</h2>
-  <p class="lede">She married <strong>Pasquale Falco</strong> in the 1780s and was still alive on
+  <p class="lede">She married <P n="Pasquale Falco" bold={true} /> in the 1780s and was still alive on
   <strong>strada Camellara</strong> when he died there on 1 October 1834. She outlived him by nearly
   nine years, and died in her own house at eight in the evening on <strong>3 September 1843</strong>,
   aged eighty.</p>
@@ -35,15 +36,14 @@ const swept = rows.filter((r) => r.kind === "swept").length;
   <div class="scroll"><table>
     <thead><tr><th>Couple</th><th>Who they were</th><th>What the archive did</th></tr></thead>
     <tbody>
-      <tr><td><strong>Don NICOLA RIVETTI</strong> × <strong>Donn'Anna Quotolo</strong></td>
+      <tr><td><strong>Don NICOLA RIVETTI</strong> × <P n="Donn'Anna Quotolo" bold={true} /></td>
         <td><strong>Gentry.</strong> She died on 25 April 1824, aged eighty-eight, a <em>gentildonna</em>
         of strada Croce dell'Ospedale, daughter of the late <strong>Silvestro Quotolo,
-        possidente</strong>. Their daughter <strong>Donna Francesca Rivetti</strong> died in January
+        possidente</strong>. Their daughter <P n="Donna Francesca Rivetti" bold={true} /> died in January
         1816, wife of <strong>Don Claudio Cimmino</strong>.</td>
         <td>Ruled out.</td></tr>
-      <tr><td><strong>NICOLA RIVETTI, <em>contadino</em></strong> × <strong>Anna di Ruggio</strong></td>
-        <td><strong>Day-labourers.</strong> Named in the 1821 death act of their son <strong>Carmine
-        Rivetti</strong>, buried at fifty-three from <strong>strada Monticello de' Cappuccini</strong>.</td>
+      <tr><td><strong>NICOLA RIVETTI, <em>contadino</em></strong> × <P n="Anna di Ruggio" bold={true} /></td>
+        <td><strong>Day-labourers.</strong> Named in the 1821 death act of their son <P n="Carmine Rivetti" bold={true} />, buried at fifty-three from <strong>strada Monticello de' Cappuccini</strong>.</td>
         <td><strong>Chiara's parents.</strong> The 1843 act writes her father's trade out —
         <em>contadino</em> — and that single word decides it.</td></tr>
     </tbody>
@@ -63,9 +63,9 @@ const swept = rows.filter((r) => r.kind === "swept").length;
         <td><em>«FARMACISTA»</em> — <strong>the apothecary</strong>. Married Donna Caterina Espositella,
         a <em>gentildonna</em> of strada Porta di Sopra. Their three-year-old son Raffaele Ottaviano is
         entered as a <em>gentiluomo</em>.</td></tr>
-      <tr><td><strong>Don Giuseppe Rivetti</strong> the elder × Giovanna Bega</td>
+      <tr><td><P n="Don Giuseppe Rivetti" bold={true} /> the elder × Giovanna Bega</td>
         <td>Both dead before March 1819.</td></tr>
-      <tr><td><strong>Don Nicola Rivetti</strong> × Donn'Anna Quotolo</td>
+      <tr><td><P n="Don Nicola Rivetti" bold={true} /> × Donn'Anna Quotolo</td>
         <td>See above. She was eighty-eight at her death in 1824.</td></tr>
       <tr><td>A Rivetti in a marriage record</td>
         <td>Styled <em><strong>Doctoris Physici</strong></em> — a physician.</td></tr>
@@ -76,7 +76,7 @@ const swept = rows.filter((r) => r.kind === "swept").length;
   same parish, two worlds.</p>
 
   <h2>A Rivetti married a Falco daughter too</h2>
-  <p><strong>Crescenzo Rivetti</strong> married <strong>Angela Falco</strong> — a daughter of
+  <p><P n="Crescenzo Rivetti" bold={true} /> married <P n="Angela Falco" bold={true} /> — a daughter of
   <strong>Matteo Falco and Francesca Crisci</strong>, so a sister of Pasquale of generation two.
   Their daughter Angelandrea Rivetti died on 12 February 1819. When Crescenzo died in December 1816,
   <strong>Gioacchino Falco (36) and Giuseppe Falco (32), both of strada Camellara, declared it as
@@ -92,23 +92,23 @@ const swept = rows.filter((r) => r.kind === "swept").length;
   <div class="scroll"><table>
     <thead><tr><th>Who</th><th>What the act says</th></tr></thead>
     <tbody>
-      <tr><td><strong>Alessio Rivetti</strong> × <strong>Orsola Diglio</strong>, strada Camellara</td>
+      <tr><td><P n="Alessio Rivetti" bold={true} /> × <P n="Orsola Diglio" bold={true} />, strada Camellara</td>
         <td><strong>Wife and daughter dead on the same day.</strong> Grazia Rivetti, nine years old, at
         six in the morning on 28 August 1842; her mother Orsola, thirty-six, four hours earlier. The
         same two men reported both.</td></tr>
-      <tr><td>A Rivetti of strada Camellara × <strong>Chiara Sorrino</strong></td>
+      <tr><td>A Rivetti of strada Camellara × <P n="Chiara Sorrino" bold={true} /></td>
         <td><strong>Two children dead in two days</strong> — Paolo, three, on 23 August; Grazia, seven
         months, on the 24th.</td></tr>
-      <tr><td><strong>Felicia Rivetti</strong> × <strong>Vincenzo Morgillo</strong></td>
+      <tr><td><P n="Felicia Rivetti" bold={true} /> × <P n="Vincenzo Morgillo" bold={true} /></td>
         <td>Died 30 January 1839 at thirty-seven, <em>«figlia di ANTONIO RIVETTI»</em>, a
         <em>contadino</em> still living, <em>«e di Marchetta Quotolo»</em>. <strong>A Rivetti woman
         married into a Morgillo household</strong> — the other name that flanks this line. See
         <a href={u("/morgillo")}>Morgillo</a>.</td></tr>
-      <tr><td><strong>Angelo Rivetti</strong>, 28, <em>calzolajo</em></td>
+      <tr><td><P n="Angelo Rivetti" bold={true} />, 28, <em>calzolajo</em></td>
         <td>Declares at the death of Salvatore Rivetti, 58, <em>vaticale</em> of strada Sant'Andrea —
         and the register calls him <em><strong>NIPOTE</strong></em>, nephew. <strong>A stated kinship,
         not an inferred one.</strong></td></tr>
-      <tr><td><strong>Antonio Rivetti</strong>, 40, of strada Via Nuova</td>
+      <tr><td><P n="Antonio Rivetti" bold={true} />, 40, of strada Via Nuova</td>
         <td>Reports the death of his own twenty-day-old son Paolo, and the clerk writes
         <em><strong>PADRE</strong></em>.</td></tr>
     </tbody>

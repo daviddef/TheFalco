@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 const inlaws = [
   ["Fucci / Fuccio", 32], ["d'Onofrio", 30], ["Magliano", 16], ["d'Ambrosio", 15],
@@ -48,7 +49,7 @@ const shared = ["Maione", "Crisci", "De Lucia", "Cimmino"];
   exists to be careful about.</p>
 
   <h2>Francesca's mother — the name this page was missing</h2>
-  <p>Francesca Zampiello's parents were <strong>Angelo Zampiello</strong> (31 August 1895 – 25 April
+  <p>Francesca Zampiello's parents were <P n="Angelo Zampiello" bold={true} /> (31 August 1895 – 25 April
   1972) and <strong>GIUSEPPA FERRARA</strong>. <strong>Until 2026 this page did not name her once</strong>
   — an archive built outward from the Falco surname had followed the Zampiello men and let the woman
   who bore the Zampiello daughters fall out of the account. That is now corrected, and the omission is

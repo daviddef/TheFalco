@@ -1,0 +1,49 @@
+---
+/* <Src plate="chiara-rivetti-death-1843.jpg" /> — the record behind a claim.
+ * <Src ark="an_ua14341" img={63} note="atto 102" />
+ * <Src href="https://…" note="FamilySearch" />
+ *
+ * Every claim on this site is supposed to carry its evidence. Until now the
+ * evidence was named in the prose but not reachable from it. This makes the
+ * citation itself the link.
+ */
+import { u } from "../lib/url.js";
+import plates from "../data/plates.json";
+
+const { plate, ark, img, href, note, label } = Astro.props;
+
+const p = plate ? plates.find((x) => x.f === plate) : null;
+
+let to = href || null;
+let title = note || "";
+
+if (p) {
+  to = u("/documents") + "#" + p.f.replace(/\.jpg$/, "");
+  title = p.cite || p.t || "";
+} else if (ark) {
+  /* Antenati serves a volume at its ark; the image number is a fragment the
+     viewer understands. Linking the volume is honest even when the deep link
+     to one leaf does not survive their viewer changing. */
+  to = `https://antenati.cultura.gov.it/ark:/12657/${ark}/`;
+  title = [note, `Antenati ${ark}${img ? `, img ${img}` : ""}`].filter(Boolean).join(" — ");
+}
+
+const text = label || note || (p ? "plate" : ark ? "register image" : "source");
+---
+{to ? (
+  <a class="src" href={to} title={title} rel={href || ark ? "noopener" : null}>{text}{(href || ark) ? " ↗" : ""}</a>
+) : (
+  <span class="src src-none" title="No reachable source — this is stated, not linked">{text}</span>
+)}
+
+<style is:global>
+  a.src, span.src {
+    font-size: .82em; letter-spacing: .02em; white-space: nowrap;
+    padding: .05em .38em; border-radius: 3px;
+    background: color-mix(in srgb, currentColor 7%, transparent);
+    color: inherit; text-decoration: none;
+    border: 1px solid color-mix(in srgb, currentColor 16%, transparent);
+  }
+  a.src:hover { background: color-mix(in srgb, currentColor 14%, transparent); }
+  span.src-none { opacity: .55; font-style: italic; }
+</style>

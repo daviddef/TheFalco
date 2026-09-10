@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
 const ann = [
   ["Campolattaro",224],["Forchia",173],["Moiano",126],["San Giorgio la Molara",81],
   ["Arpaia",51],["Montesarchio",40],["Sant'Agata de' Goti",26],["Guardia Sanframondi",14],
@@ -34,7 +35,7 @@ const shared = [
         <td class="mono">{n}</td></tr>))}</tbody>
   </table></div>
   <p><strong>Forchia is an Annecchino town.</strong> Carminantonio Falco of Arienzo married
-  <strong>Filomena Annecchino</strong>, and the family followed the wife's parish. That is the answer:
+  <P n="Filomena Annecchino" bold={true} />, and the family followed the wife's parish. That is the answer:
   the move north was a marriage, not a migration.</p>
 
   <h2>The Forchia household</h2>
@@ -43,7 +44,7 @@ const shared = [
     <thead><tr><th>Child</th><th>Born</th></tr></thead>
     <tbody>{kids.map(([n,d]) => <tr><td>{n}</td><td class="mono">{d}</td></tr>)}</tbody>
   </table></div>
-  <p>The family record gives Filomena's father as <strong>Carmine Annecchino</strong> and her
+  <p>The family record gives Filomena's father as <P n="Carmine Annecchino" bold={true} /> and her
   grandfather as <strong>Giacomo</strong>. Under the Neapolitan naming convention the first son takes
   the paternal grandfather's name — and this Carmine named a son Giacomo, twice. Filomena, born
   10 April 1897, would fall neatly between the children of 1894 and 1901.</p>

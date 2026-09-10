@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import register from "../data/register.json";
 
@@ -19,17 +20,15 @@ const swept = rows.filter((r) => r.kind === "swept").length;
   </div>
 
   <h2>Costanza Maione</h2>
-  <p class="lede">Born at <strong>Arienzo on 2 May 1876</strong>. She married <strong>Raffaele
-  Falco</strong>, born at Arienzo 6 April 1873, and the children the archive can name are
-  <strong>Giovanna</strong> (1898), <strong>Carminantonio</strong> (1901), <strong>Anna del
-  Giudice</strong> (1904), <strong>Gerardo</strong> (1913), and <strong>Giacoma</strong> and
+  <p class="lede">Born at <strong>Arienzo on 2 May 1876</strong>. She married <P n="Raffaele Falco" bold={true} />, born at Arienzo 6 April 1873, and the children the archive can name are
+  <strong>Giovanna</strong> (1898), <strong>Carminantonio</strong> (1901), <P n="Anna del Giudice" bold={true} /> (1904), <strong>Gerardo</strong> (1913), and <strong>Giacoma</strong> and
   <strong>Aniello</strong>, undated.</p>
 
   <div class="card" style="margin:1rem 0">
     <p><strong>Hers is the one wife's birth in the spine with a record behind it.</strong> Filomena
     Annecchino's birth is known only from the family tree; Costanza's is
     <strong>cited</strong> — a Caserta <em>Stato Civile</em> entry of 2 May 1876 which also names her
-    father, <strong>Aniello Maione</strong>. That is why this page can say more about 1876 than the
+    father, <P n="Aniello Maione" bold={true} />. That is why this page can say more about 1876 than the
     Annecchino page can about 1897.</p>
   </div>
 
@@ -39,10 +38,10 @@ const swept = rows.filter((r) => r.kind === "swept").length;
     <tbody>
       <tr><td><strong>Aniello Maione / Majone</strong>, her father</td><td class="mono">1841, Arienzo</td>
         <td>Named in Costanza's own birth entry, and in the tree.</td></tr>
-      <tr><td><strong>Anna Martone</strong>, her mother</td><td class="mono">1846, Arienzo</td>
+      <tr><td><P n="Anna Martone" bold={true} />, her mother</td><td class="mono">1846, Arienzo</td>
         <td>The tree. <strong>Martone is one of the commonest Arienzo names in these registers</strong> —
         375 records — so she is not yet joined to any Martone household.</td></tr>
-      <tr><td><strong>Costanza Maione</strong></td><td class="mono">2 May 1876, Arienzo</td>
+      <tr><td><P n="Costanza Maione" bold={true} /></td><td class="mono">2 May 1876, Arienzo</td>
         <td><strong>Cited record.</strong> Married Raffaele Falco.</td></tr>
       <tr><td>Michel'angelo Maione, her brother</td><td class="mono">10 Mar 1881, Arienzo</td><td>The tree.</td></tr>
       <tr><td>Maria Maione, her sister</td><td class="mono">1 Dec 1884, Arienzo</td><td>The tree.</td></tr>
@@ -62,19 +61,19 @@ const swept = rows.filter((r) => r.kind === "swept").length;
   <div class="scroll"><table>
     <thead><tr><th>Who</th><th>What the register says</th></tr></thead>
     <tbody>
-      <tr><td><strong>Don Raffaele Majone</strong></td><td>Died at <strong>eighty-four</strong>,
+      <tr><td><P n="Don Raffaele Majone" bold={true} /></td><td>Died at <strong>eighty-four</strong>,
         <em>«di professione SACERDOTE»</em> — a priest, son of Tomaso Majone. <strong>The family put a
         son into the Church.</strong></td></tr>
-      <tr><td><strong>Francesco Majone</strong></td><td>Forty-five, <em>«massaro di campagna»</em> —
+      <tr><td><P n="Francesco Majone" bold={true} /></td><td>Forty-five, <em>«massaro di campagna»</em> —
         a farm overseer, not a day labourer. The same rank the register gives Giuseppe Falco in 1817.</td></tr>
-      <tr><td><strong>Celestino Majone</strong></td><td>Forty-six, <em>sartore</em>, declaring at the
+      <tr><td><P n="Celestino Majone" bold={true} /></td><td>Forty-six, <em>sartore</em>, declaring at the
         death of a <em>gentildonna</em>.</td></tr>
       <tr><td><strong>Gennaro, Giuseppe, Filippo Majone</strong></td><td><em>Contadini</em> and
         <em>bracciali</em> of <strong>strada Cossi / Cioffi</strong>, strada Caldarola and strada
         Capodiconca, declaring across the 1820s to the 1840s.</td></tr>
-      <tr><td><strong>Gaspare Majone</strong></td><td>Twenty-three in 1840 on <strong>strada
+      <tr><td><P n="Gaspare Majone" bold={true} /></td><td>Twenty-three in 1840 on <strong>strada
         Costa</strong>, declaring twice in five days; thirty-four by the December of that year.</td></tr>
-      <tr><td><strong>Antonio Majone</strong></td><td>Given as thirty-two, thirty-six, forty-five and
+      <tr><td><P n="Antonio Majone" bold={true} /></td><td>Given as thirty-two, thirty-six, forty-five and
         fifty in four different acts — <em>the age problem, in one family</em>.</td></tr>
     </tbody>
   </table></div>
