@@ -139,6 +139,78 @@ import { u } from "../lib/url.js";
   <a href="../open-questions/">Open questions</a>, including the ground already covered, so that the
   next attempt does not repeat it.</p>
 
+  <h2>How a person page is built, and what it refuses to do</h2>
+  <p>A person page used to be built from the register households alone. Those are excellent on
+  Arienzo before 1850 and nearly empty after it, because the later generations lived at Arpaia and
+  Brisbane. So <strong>Angelo Zampiello's page showed one box — him, in his father's house, with no
+  wife and no children — while the <a href={u("/ferrara")}>Ferrara</a> page three clicks away named
+  his wife and five of their children.</strong> That was fixed on <strong>10 September 2026</strong>.</p>
+  <p>The pages now merge the registers with the family tree. The tree is unverified, and the answer
+  was not to choose between them but to <strong>merge and say which is which on every single
+  edge</strong>:</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Marked</th><th>Means</th></tr></thead>
+    <tbody>
+      <tr><td class="mono"><strong>line</strong></td><td>the archive's own identification, argued act
+        by act on <a href={u("/direct-line")}>the direct line</a></td></tr>
+      <tr><td class="mono"><strong>register</strong></td><td>a clerk wrote this relationship down and
+        the act has been read</td></tr>
+      <tr><td class="mono"><strong>tree</strong></td><td>the family tree says so, and
+        <strong>nothing has verified it</strong></td></tr>
+    </tbody>
+  </table></div>
+  <p>An edge keeps <em>every</em> source that carries it, so a reader can see when two independent
+  sources agree — Pasquale Falco's marriage to Chiara Rivetti is marked <span class="mono">line +
+  register + tree</span>, and that is worth more than any one of them.</p>
+
+  <h3>What the merge refuses to do</h3>
+  <p>Joining records is where an archive invents people, so the joins are narrow and each one is
+  named on the page it affects. <strong>Every rule below exists because it caught a real error while
+  this was being built:</strong></p>
+  <ul>
+    <li><strong>A witness is never a relative.</strong> A <em>declarant</em> is the man who walked to
+    the town hall, very often a neighbour. The whole value of the 1828 «<em>parente della defunta</em>»
+    find is that the register says so <em>when</em> he is kin. Turning every witness into family would
+    throw that away.</li>
+    <li><strong>A daughter is not a parent.</strong> The household files use <em>child</em>, but also
+    <em>daughter</em> and <em>son</em>; reading only the first put real children in the parents' row,
+    which is how <strong>Chiara Rivetti briefly had her own father and mother listed as her
+    husbands</strong>.</li>
+    <li><strong>One woman, not two.</strong> A woman is a daughter in her father's house and a wife in
+    her husband's, so she arrived as two records and her husband's page listed her twice, as two
+    different wives. The two are joined only when the name leaves no room — exactly one child of that
+    name in the whole file and exactly one head — and then only if the join passes the next test.</li>
+    <li><strong>Nobody may become their own ancestor.</strong> Vincenzo Falco and Andreana Crisci
+    called a son <strong>Pasquale</strong>. Joining that child to the one head called Pasquale Falco
+    made <strong>generation two his own grandson</strong> — a dead infant promoted into the direct
+    line by a forename. The name is only ever a candidate; the test is that the parent graph must
+    stay acyclic, and <strong>a parent must be an earlier generation than their child</strong>.</li>
+    <li><strong>A generation is a couple, not a forename.</strong> Matching generations by name alone
+    labelled <strong>four different Matteo Falco "Generation 1"</strong>, including the
+    <em>possidente</em> of strada Porta di Sopra whom this archive has always called unjoined. A
+    generation is now identified only when the ancestor <em>and</em> their spouse both agree.</li>
+    <li><strong>Where the name repeats, nothing is joined at all.</strong> The tree holds four Angelo
+    Falco, four Francesco, three Giovanni and three Crescenzo. None of them is merged with anything.
+    They are drawn separately and the reader is told why.</li>
+  </ul>
+  <p>The builder <strong>refuses to write the file at all</strong> if any of this fails: no cycles, no
+  marriage only one party is in, no parent without the child back, and <strong>no date on a living
+  person</strong>.</p>
+
+  <h3>The claim this archive already withdrew, still on the page</h3>
+  <p>The family tree gives <strong>Pasquale Falco of generation two</strong> a father called
+  <strong>Agostino Falcone</strong> — the ancestor examined and discarded at the top of this page.
+  Drawing him without a word would quietly put a retracted claim back on the site. <strong>He is drawn,
+  struck through, and labelled superseded</strong>, beside the Matteo Falco who replaced him.
+  Corrections stay visible here; they are not deleted.</p>
+
+  <h3>And the tree's own spine stops one generation short</h3>
+  <p>The nine generations were checked by walking the family tree upward from the living generation
+  and comparing each step with what this archive publishes. <strong>They agree for eight
+  generations and then part company</strong>: at the ninth step the tree still reaches Agostino
+  Falcone. So <strong>generation one is taken from the registers alone</strong>, and the tree's own
+  head of line is left unlabelled. The disagreement is the check working, not a fault in it.</p>
+
   <h2>What the links mean</h2>
   <p><strong>A link on this site never claims more than the archive knows.</strong> Names in the prose
   became clickable on <strong>10 September 2026</strong>, after the question was asked why a person

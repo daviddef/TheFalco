@@ -52,7 +52,7 @@ const lineHouseholds = households.filter(h => h.members.some(m => isLine(m.perso
           <ul style="margin:.3rem 0">
             {sibs.map(m => (
               <li>
-                <strong><a href={u("/people/" + (findPerson(m.person, h.name)||{}).slug)}>{m.person}</a></strong>
+                <strong>{(findPerson(m.person, h.name)||{}).slug ? <a href={u("/people/" + findPerson(m.person, h.name).slug)}>{m.person}</a> : m.person}</strong>
                 {m.event && m.date ? <span class="small"> — {m.event}, {m.date}</span> : null}
               </li>
             ))}
@@ -73,7 +73,7 @@ const lineHouseholds = households.filter(h => h.members.some(m => isLine(m.perso
       <ul style="margin:.4rem 0">
         {h.members.map(m => (
           <li>
-            <strong><a href={u("/people/" + (findPerson(m.person, h.name)||{}).slug)}>{m.person}</a></strong> <span class="small">({m.role})</span>
+            <strong>{(findPerson(m.person, h.name)||{}).slug ? <a href={u("/people/" + findPerson(m.person, h.name).slug)}>{m.person}</a> : m.person}</strong> <span class="small">({m.role})</span>
             {m.event && m.date ? <span class="small"> — {m.event}, {m.date}</span> : null}
             {m.place ? <span class="small">, {m.place}</span> : null}
           </li>
