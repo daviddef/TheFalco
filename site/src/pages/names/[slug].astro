@@ -1,0 +1,139 @@
+---
+/* One page per NAME in the register — not per person.
+ *
+ * The de Franceschi roster gives every row a page. Falco's roster lists
+ * RECORDS, and its 10,432 rows carry only 4,820 distinct names, so the obvious
+ * copy — one page per name, presented as one person — would be a lie:
+ * «Pasquale Falco» alone names seventy-nine records across sixty years and is
+ * certainly several men.
+ *
+ * So this is a NAME page and it says so at the top. It gathers every record
+ * carrying the name, links the page that argues about the surname, and points
+ * at the person pages where the archive has actually identified somebody.
+ * It never merges.
+ */
+import Base from "../../layouts/Base.astro";
+import { u } from "../../lib/url.js";
+import register from "../../data/register.json";
+import { people } from "../../lib/people.js";
+import { writtenUp } from "../../lib/writtenup.js";
+
+const bare = (n) => String(n || "").replace(/\s*\(.*?\)\s*/g, " ")
+  .replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim();
+
+export function getStaticPaths() {
+  const bare = (n) => String(n || "").replace(/\s*\(.*?\)\s*/g, " ")
+    .replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim();
+  const slugify = (s) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const isName = (n) => {
+    const t = String(n || "").trim();
+    return t.length >= 2 && t.length <= 64 && t.split(/\s+/).length <= 7
+        && !/[.;:\u2014]\s|\u00ab|\u00bb|\bthe\b|\bnot an\b/i.test(t);
+  };
+  const by = new Map();
+  for (const r of register) {
+    const n = bare(r.name);
+    if (!isName(n)) continue;
+    const s = slugify(n);
+    if (!s) continue;
+    if (!by.has(s)) by.set(s, { name: n, rows: [] });
+    by.get(s).rows.push(r);
+  }
+  return [...by.entries()].map(([slug, v]) => ({ params: { slug }, props: v }));
+}
+
+const { name, rows } = Astro.props;
+const surname = (rows.find((r) => r.surname && r.surname !== "?") || {}).surname || "";
+const wu = writtenUp(surname);
+const identified = people.filter((p) => bare(p.name).toLowerCase() === name.toLowerCase());
+
+const KIND = { swept: "read off a register", index: "a name index", tree: "the family tree",
+               cited: "a cited document", burial: "a burial record", record: "a record",
+               household: "a reconstructed household", file: "a family file" };
+const LINKLABEL = { swept: "register image", index: "surname index", record: "record",
+                    cited: "record", burial: "burial", household: "household", file: "file" };
+const kinds = [...new Set(rows.map((r) => r.kind))];
+const years = rows.map((r) => (String(r.sort || "") + " " + String(r.detail || ""))
+  .match(/\b(1[6-9]\d\d|20\d\d)\b/)).filter(Boolean).map((m) => +m[1]).sort((a, b) => a - b);
+const span = years.length > 1 && years[0] !== years[years.length - 1]
+  ? `${years[0]}–${years[years.length - 1]}` : (years[0] ? String(years[0]) : "");
+const withLink = rows.filter((r) => r.link).length;
+---
+<Base title={name}
+      eyebrow={`${rows.length} record${rows.length === 1 ? "" : "s"} carry this name${span ? " · " + span : ""}`}
+      dek={rows.length === 1
+        ? "One record in this archive carries this name."
+        : `This is a NAME, not a person. ${rows.length} records carry it, and they may belong to several different people.`}>
+
+  {rows.length > 1 ? (
+    <div class="card" style="margin-bottom:1.2rem;border-left:3px solid var(--accent)">
+      <p><strong>A name is not a person.</strong> This parish repeats its forenames relentlessly —
+      there are three Maria Falco and four Pasquale in the direct line's own orbit, and
+      <strong> «Pasquale Falco» alone names seventy-nine records across sixty years</strong>.
+      <strong>These {rows.length} records are gathered because they share a name, and for no other
+      reason.</strong> Where the archive has actually identified somebody it says so below and links
+      their page. Everything else is a lead.</p>
+    </div>
+  ) : null}
+
+  <div class="grid two" style="margin-bottom:1.2rem">
+    <div class="card">
+      <h3>Where this name is written up</h3>
+      {wu ? (
+        <p><a href={u(wu[0])}><strong>{wu[1]} →</strong></a><br/>
+        <span class="small">The page that argues about the <strong>{surname}</strong> in this archive.</span></p>
+      ) : (
+        <p class="small"><strong>No page of this archive writes the {surname || "name"} up.</strong>
+        That is a gap, not an oversight — it is recorded here so it can be seen.</p>
+      )}
+      <p class="small" style="margin-top:.6rem">
+        <a href={u("/register") + "?q=" + encodeURIComponent(name)}>The same records grouped by source →</a></p>
+    </div>
+    <div class="card">
+      <h3>Has the archive identified anyone of this name?</h3>
+      {identified.length ? (
+        <ul style="margin:.3rem 0">
+          {identified.map((p) => (
+            <li><a href={u("/people/" + p.slug)}><strong>{p.name}</strong></a>
+              <span class="small"> — {p.gen ? `generation ${p.gen} of the direct line`
+                : p.household ? `in the household of ${p.household}`
+                : p.living ? "living" : "from the family tree"}</span></li>
+          ))}
+        </ul>
+      ) : (
+        <p class="small"><strong>No.</strong> This name appears in the records and has not been
+        attached to a person the archive can follow. <strong>That is the ordinary case</strong>, and
+        it is what most of a parish register is.</p>
+      )}
+      {identified.length > 1 ? (
+        <p class="small"><strong>More than one</strong> — they are kept apart on purpose.</p>
+      ) : null}
+    </div>
+  </div>
+
+  <h2>Every record that carries the name</h2>
+  <p class="small"><strong>{withLink}</strong> of {rows.length} link to a source.
+  {kinds.length ? " From: " + kinds.map((k) => KIND[k] || k).join(", ") + "." : ""}</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Name as written</th><th>What the source says</th><th>Source</th></tr></thead>
+    <tbody>
+      {rows.map((r) => (
+        <tr>
+          <td>{r.name}</td>
+          <td class="small">{r.detail}</td>
+          <td class="small">
+            {r.link
+              ? <a href={r.link} rel="noopener">{LINKLABEL[r.kind] || "source"} ↗</a>
+              : <span class="dim">{KIND[r.kind] || r.kind} · no public link</span>}
+            <br/><span class="dim">{r.source}</span>
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table></div>
+
+  <p class="small" style="margin-top:1.6rem">
+    <a href={u("/people")}>← All the people and records</a> ·
+    <a href={u("/method")}>Why this archive does not merge names</a></p>
+</Base>

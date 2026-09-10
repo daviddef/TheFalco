@@ -5,13 +5,22 @@ import { people } from "../../lib/people.js";
 import register from "../../data/register.json";
 import line from "../../data/line.json";
 import living from "../../data/living.json";
+import { writtenUp } from "../../lib/writtenup.js";
 
 const clean = (s) => String(s || "").replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
 const key = (s) => clean(s).replace(/\//g, " ").replace(/\s+/g, " ").trim().toLowerCase();
 
-/* Person pages exist only for people reconstructed into a household. */
+/* A name gets a person-page link only when EXACTLY ONE person answers to it.
+   Where several do — three Maria Falco, two Raffaele Falco — the row goes to
+   the name page instead, which lists them and lets the reader choose. The
+   archive does not pick for them. */
 const slugByName = new Map();
-for (const p of people) if (!slugByName.has(clean(p.name))) slugByName.set(clean(p.name), p.slug);
+const sharedName = new Set();
+for (const p of people) {
+  const k = clean(p.name);
+  if (slugByName.has(k)) sharedName.add(k); else slugByName.set(k, p.slug);
+}
+for (const k of sharedName) slugByName.delete(k);
 
 /* RELATIONSHIP TO THE ANCHOR. The MyHeritage tree marks one person «This is you»
    — David — and the Falco line is his WIFE's maternal line, so relationships run
@@ -75,7 +84,7 @@ const rows = register.map((r) => {
     myLine: attached && spine.has(key(r.name)),
     rel: (attached && relByName.get(key(r.name))) || "",
     living: false,
-    slug: r.kind === "household" ? slugByName.get(clean(r.name)) : undefined,
+    slug: slugByName.get(clean(r.name)),
   };
 });
 
@@ -85,52 +94,130 @@ for (const L of living) {
     name: L.name, surname: L.surname, detail: "", source: "Family tree — living",
     link: "", kind: "living", place: "—", attached: true, inTree: true,
     inHousehold: false, myLine: L.rel !== "relative", rel: L.rel === "relative" ? "" : L.rel,
-    living: true, slug: undefined,
+    living: true, slug: slugByName.get(clean(L.name)),
   });
 }
 
-const count = (fn) => rows.filter(fn).length;
+/* ------------------------------------------------------------------ *
+ * FROM RECORDS TO PEOPLE
+ *
+ * This page and /register were two renderings of the same 10,432 rows, which
+ * is genuinely confusing: a reader could not tell what the difference was
+ * meant to be. So the split is now real and it is the obvious one —
+ *
+ *   /people    WHO the archive can name   (one row per person)
+ *   /register  WHAT it found              (one row per record)
+ *
+ * Collapsing is by name, and that is NOT the same as identifying a person.
+ * «Pasquale Falco» carries seventy-nine records across sixty years and is
+ * certainly several men. Every row therefore says how many records stand
+ * behind it and links a page that repeats the warning.
+ * ------------------------------------------------------------------ */
+const slugify = (x) => String(x).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+  .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const yearOf = (r) => {
+  const m = ((r.detail || "") + " " + (r.source || "")).match(/\b(1[6-9]\d\d|20\d\d)\b/);
+  return m ? +m[1] : null;
+};
+
+/* Some register rows carry prose in the name field — a whole transcribed act,
+   or an editorial note that began a table cell. They are not names, they must
+   not become pages, and one of them is 300 characters long. */
+const isName = (n) => {
+  const t = String(n || "").trim();
+  return t.length >= 2 && t.length <= 64 && t.split(/\s+/).length <= 7
+      && !/[.;:—]\s|«|»|\bthe\b|\bnot an\b/i.test(t);
+};
+
+const folkMap = new Map();
+for (const r of rows) {
+  const k = key(r.name);
+  if (!k || !isName(r.name)) continue;
+  if (!folkMap.has(k)) {
+    folkMap.set(k, {
+      name: r.name, surname: r.surname, n: 0, nLink: 0, years: [], places: {},
+      attached: false, inTree: false, inHousehold: false, myLine: false,
+      living: false, rel: "", slug: undefined, kinds: new Set(), sources: new Set(),
+    });
+  }
+  const f = folkMap.get(k);
+  f.n++;
+  if (r.name.length > f.name.length) f.name = r.name;      // keep the fullest form
+  if (r.surname && r.surname !== "—" && r.surname !== "?") f.surname = r.surname;
+  if (r.link) f.nLink++;
+  const y = yearOf(r); if (y) f.years.push(y);
+  if (r.place && r.place !== "—") f.places[r.place] = (f.places[r.place] || 0) + 1;
+  f.attached ||= r.attached; f.inTree ||= r.inTree; f.inHousehold ||= r.inHousehold;
+  f.myLine ||= r.myLine; f.living ||= r.living;
+  if (!f.rel && r.rel) f.rel = r.rel;
+  if (!f.slug && r.slug) f.slug = r.slug;
+  if (r.kind) f.kinds.add(r.kind);
+  if (r.source) f.sources.add(r.source);
+}
+
+const folk = [...folkMap.values()].map((f) => {
+  f.years.sort((a, b) => a - b);
+  const lo = f.years[0], hi = f.years[f.years.length - 1];
+  const place = Object.entries(f.places).sort((a, b) => b[1] - a[1])[0];
+  return {
+    ...f,
+    span: lo ? (lo === hi ? String(lo) : lo + "–" + hi) : "",
+    place: place ? place[0] : "—",
+    nameSlug: slugify(f.name.replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim()),
+    wu: writtenUp(f.surname),
+    src: [...f.sources][0] || "",
+  };
+}).sort((a, b) => a.surname.localeCompare(b.surname) || a.name.localeCompare(b.name));
+
+const count = (fn) => folk.filter(fn).length;
 const bySurname = {};
-for (const r of rows) bySurname[r.surname] = (bySurname[r.surname] || 0) + 1;
+for (const r of folk) bySurname[r.surname] = (bySurname[r.surname] || 0) + 1;
 const topSurnames = Object.entries(bySurname)
   .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 12);
 
 const byPlace = {};
-for (const r of rows) byPlace[r.place] = (byPlace[r.place] || 0) + 1;
+for (const r of folk) byPlace[r.place] = (byPlace[r.place] || 0) + 1;
 const topPlaces = Object.entries(byPlace)
   .filter(([p]) => p !== "—")
   .sort((a, b) => b[1] - a[1]).slice(0, 9);
 
-const distinct = new Set(rows.map((r) => key(r.name))).size;
+const nRecords = rows.length;
+const distinct = folk.length;
 const nMyLine = count((r) => r.myLine);
 const nTree = count((r) => r.inTree);
 const nHH = count((r) => r.inHousehold);
 const nAttached = count((r) => r.attached);
-const nLink = count((r) => r.link);
+const nLink = count((r) => r.nLink);
 const nLiving = count((r) => r.living);
 ---
 <Base title="The people"
       eyebrow="Everyone this archive can name"
-      dek={`${rows.length.toLocaleString()} records naming ${distinct.toLocaleString()} distinct people — the whole roster, filterable by family, by place and by name.`}>
+      dek={`${distinct.toLocaleString()} people the archive can name, drawn from ${nRecords.toLocaleString()} records — filterable by family, by place and by name. Every one has a page.`}>
 
   <div class="card" style="margin-bottom:1.2rem">
-    <p><strong>This is everyone.</strong> Every named individual the archive holds — the Antenati
-    indexes, the FamilySearch harvests, the Nudgee burials, the family tree, and the Arienzo registers
-    read line by line — in one searchable list, each with its source.</p>
+    <p><strong>This is everyone, one row per person.</strong> Every named individual the archive
+    holds — the Antenati indexes, the FamilySearch harvests, the Nudgee burials, the family tree and
+    the Arienzo registers read line by line. <strong>Every name here has its own page.</strong></p>
+    <p style="margin-top:.6rem"><strong>This page is WHO; <a href={u("/register")}>the register</a>
+    is WHAT.</strong> They used to be two lists of the same ten thousand rows, which helped nobody.
+    Now this one answers <em>who can this archive name?</em> — one row each — and the register
+    answers <em>what did it find?</em>, one row per record, grouped by surname.</p>
     <p style="margin-top:.6rem"><strong>Most of these people are not your relatives.</strong> Six
     thousand of them were read off the Arienzo death registers act by act: they are the town, not the
     family. Use <span class="chip doc">★ My line</span> and <span class="chip doc">In my tree</span>
     to cut to the people actually attached to this family.</p>
-    <p class="small" style="margin-top:.6rem"><strong>Identity here is by record, not by resolved
-    individual.</strong> Two rows may be one person. Names repeat constantly — three Maria Falco, four
-    Pasquale, three men called Sebastiano Lettieri on one street, five Angela Morgillo. <strong>A
-    matching surname is not a match</strong>, and a matching surname with a plausible age is still not
-    a match. See <a href={u("/method")}>Method</a>.</p>
+    <p class="small" style="margin-top:.6rem"><strong>A row here is a NAME, not a resolved
+    individual.</strong> Records are gathered under a name because they share it, and for no other
+    reason. Names repeat relentlessly — three Maria Falco, four Pasquale, three men called Sebastiano
+    Lettieri on one street, five Angela Morgillo, and <strong>seventy-nine records carrying «Pasquale
+    Falco»</strong>. <strong>A matching surname is not a match</strong>, and a matching surname with a
+    plausible age is still not a match. Each page repeats the warning. See
+    <a href={u("/method")}>Method</a>.</p>
   </div>
 
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.6rem;margin:1rem 0">
-    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{rows.length.toLocaleString()}</div><div class="small">records</div></div>
-    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{distinct.toLocaleString()}</div><div class="small">distinct names</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{distinct.toLocaleString()}</div><div class="small">people, each with a page</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{nRecords.toLocaleString()}</div><div class="small">records behind them</div></div>
     <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{nAttached}</div><div class="small">attached to the family</div></div>
     <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{Object.keys(bySurname).length}</div><div class="small">surnames</div></div>
     <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{nLink.toLocaleString()}</div><div class="small">link to a source</div></div>
@@ -170,12 +257,14 @@ const nLiving = count((r) => r.living);
       ))}
     </div>
 
-    <p class="small" id="count" style="margin-top:.7rem">{rows.length.toLocaleString()} shown</p>
-    <p class="small">Grouped by source instead at <a href={u("/register")}>the register →</a></p>
+    <p class="small" id="count" style="margin-top:.7rem">{distinct.toLocaleString()} shown</p>
+    <p class="small"><strong>Looking for the records themselves?</strong>
+    <a href={u("/register")}>The register →</a> lists all {nRecords.toLocaleString()} of them,
+    one row per record, grouped by surname, each linked to its source.</p>
   </div>
 
   <div class="card" style="margin:1rem 0;border-left:3px solid var(--rule-strong)">
-    <p class="small"><strong>What “★ My line” means, exactly.</strong> It is the {nMyLine} rows whose
+    <p class="small"><strong>What “★ My line” means, exactly.</strong> It is the {nMyLine} people whose
     name matches one of the eighteen names in the direct spine — the nine generations and their
     spouses — <strong>and</strong> which the archive has actually attached to this family through a
     household, the tree, a cited document or a burial. <strong>Name-matching alone was deliberately
@@ -186,26 +275,31 @@ const nLiving = count((r) => r.living);
 
   <div class="scroll">
     <table id="ptable">
-      <thead><tr><th>Name</th><th>Family</th><th>Relationship</th><th>Place</th><th>What the record says</th><th>Source</th></tr></thead>
+      <thead><tr><th>Name</th><th>Family</th><th>Relationship</th><th>Place</th><th>Years</th><th>Records</th><th>Written up</th></tr></thead>
       <tbody>
-        {rows.map((r) => (
+        {folk.map((r) => (
           <tr class="prow" data-sur={r.surname} data-place={r.place}
               data-line={r.myLine ? "1" : "0"} data-tree={r.inTree ? "1" : "0"}
               data-hh={r.inHousehold ? "1" : "0"} data-att={r.attached ? "1" : "0"}
               data-liv={r.living ? "1" : "0"}
-              data-hay={(r.name + " " + r.surname + " " + r.detail + " " + r.source).toLowerCase()}>
+              data-hay={(r.name + " " + r.surname + " " + r.place + " " + r.span + " " + r.src).toLowerCase()}>
             <td>
-              {r.slug ? <a href={u("/people/" + r.slug)}>{r.name}</a> : r.name}
+              <a href={u(r.slug ? "/people/" + r.slug : "/names/" + r.nameSlug)}>{r.name}</a>
               {r.living ? <><br/><span class="chip doc">living</span></>
                 : r.myLine ? <><br/><span class="chip doc">★ my line</span></>
+                : r.slug ? <><br/><span class="chip doc">identified</span></>
                 : r.inHousehold ? <><br/><span class="chip doc">household</span></>
                 : r.inTree ? <><br/><span class="chip doc">tree</span></> : null}
             </td>
             <td class="small mono">{r.surname}</td>
             <td class="small">{r.rel}</td>
             <td class="small">{r.place === "—" ? "" : r.place}</td>
-            <td class="small">{r.detail}</td>
-            <td class="small">{r.link ? <a href={r.link} rel="noopener">{r.source}</a> : r.source}</td>
+            <td class="small mono">{r.span}</td>
+            <td class="small mono">
+              <a href={u(r.slug ? "/people/" + r.slug : "/names/" + r.nameSlug)}>{r.n}</a>
+              {r.nLink ? <span class="dim"> · {r.nLink} linked</span> : <span class="dim"> · none linked</span>}
+            </td>
+            <td class="small">{r.wu ? <a href={u(r.wu[0])}>{r.wu[1]}</a> : ""}</td>
           </tr>
         ))}
       </tbody>

@@ -4,7 +4,24 @@ import { u } from "../lib/url.js";
 import register from "../data/register.json";
 import { people as reconstructed } from "../lib/people.js";
 
-const bySlug = new Map(reconstructed.map((p) => [p.name.toLowerCase(), p.slug]));
+/* A name links to a person page only when EXACTLY ONE person answers to it —
+   the same rule /people uses — and otherwise to the name page, which lists
+   every record carrying it and refuses to merge them. */
+const bySlug = new Map();
+const shared = new Set();
+for (const p of reconstructed) {
+  const k = p.name.toLowerCase();
+  if (bySlug.has(k)) shared.add(k); else bySlug.set(k, p.slug);
+}
+for (const k of shared) bySlug.delete(k);
+const nameSlug = (n) => String(n).replace(/\s*\(.*?\)\s*/g, " ").replace(/[\u2019\u2018]/g, "'")
+  .replace(/\s+/g, " ").trim().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+  .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const isName = (n) => {
+  const t = String(n || "").trim();
+  return t.length >= 2 && t.length <= 64 && t.split(/\s+/).length <= 7
+      && !/[.;:\u2014]\s|\u00ab|\u00bb|\bthe\b|\bnot an\b/i.test(t);
+};
 const groups = new Map();
 for (const r of register) {
   if (!groups.has(r.surname)) groups.set(r.surname, []);
@@ -28,11 +45,17 @@ const WHYNOLINK = {
 const unlinked = register.length - linked;
 ---
 <Base title="The register"
-      eyebrow="Every named individual this archive has found"
+      eyebrow="Every record this archive has found"
       dek={`${register.length} entries for ${distinct} distinct names, ${linked} of them with a link to the source that names them; the other ${unlinked} say in the Source column why no link exists. This is the raw catch — not a family tree, and most of it is not this family.`}>
 
   <div class="card" style="border-left:3px solid var(--accent)">
     <h3 style="margin-bottom:.4rem">Read this before you read the list</h3>
+    <p><strong>This page is WHAT the archive found; <a href={u("/people")}>the people</a> is WHO
+    it can name.</strong> They were once two lists of the same ten thousand rows, which helped
+    nobody. Now <strong>this one has a row per RECORD</strong>, grouped by surname and each linked to
+    its source or told why it cannot be — and <strong>the people page has a row per PERSON</strong>,
+    each with a page of their own.</p>
+
     <p>Most of these entries come from <strong>surname indexes</strong> — every Falco, Zampiello and
     Annecchino the Antenati name index holds for the Valle Caudina towns, and every hit from the
     FamilySearch harvests. <strong>A shared surname is not a relationship.</strong> The Falco of
@@ -85,7 +108,9 @@ const unlinked = register.length - linked;
                 <td>
                   {bySlug.has(r.name.toLowerCase())
                     ? <a href={u("/people/" + bySlug.get(r.name.toLowerCase()))}>{r.name}</a>
-                    : r.name}
+                    : isName(r.name)
+                      ? <a href={u("/names/" + nameSlug(r.name))}>{r.name}</a>
+                      : r.name}
                   {r.kind === "household" ? <><br/><span class="chip doc">reconstructed</span></> : null}
                 </td>
                 <td>{r.detail}</td>
