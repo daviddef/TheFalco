@@ -1,32 +1,59 @@
 ---
 import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
-import { people } from "../../lib/people.js";
+import { people, bySlug } from "../../lib/people.js";
 import households from "../../data/households.json";
+import PersonTree from "../../components/PersonTree.astro";
 import HouseholdTree from "../../components/HouseholdTree.astro";
 
 export function getStaticPaths() {
   return people.map((p) => ({ params: { slug: p.slug }, props: { p } }));
 }
 const { p } = Astro.props;
-const sameName = people.filter((q) => q.slug !== p.slug && q.name === p.name);
-const siblings = people.filter((q) => q.household === p.household && q.slug !== p.slug && q.role === "child");
-const family  = people.filter((q) => q.household === p.household && q.role !== "child");
 const clean = (s) => String(s||"").replace(/\s*\(.*?\)\s*/g," ").replace(/\s+/g," ").trim();
-const ownHouse = households.find((h) => h.name.split(/\s*&\s*/).some((n) => clean(n) === clean(p.name)));
-const inHouse  = households.find((h) => h.name === p.household);
+
+/* line.json's notes are written in markdown, and the dek is plain text — the
+   asterisks were being printed literally under the name. Take the first
+   sentence and drop the emphasis marks. */
+const plain = (s) => String(s || "").replace(/\*\*(.*?)\*\*/g, "$1").replace(/[*_`]/g, "");
+const firstSentence = (s) => {
+  const t = plain(s).trim();
+  const m = t.match(/^[\s\S]*?[.!?](?=\s|$)/);
+  return (m ? m[0] : t).trim();
+};
+
+const sameName = people.filter((q) => q.slug !== p.slug && clean(q.name) === clean(p.name));
+const ownHouse = p.household
+  ? households.find((h) => h.name.split(/\s*&\s*/).some((n) => clean(n) === clean(p.name)))
+  : null;
+
+const kin = ["parents","spouses","children","siblings"];
+const edges = kin.flatMap((b) => p[b] || []);
+const fromRegister = edges.filter((e) => e.via !== "tree").length;
+const fromTree     = edges.filter((e) => e.via === "tree").length;
+
+/* What to put under the name. A living person gets their place in the family
+   and nothing else — no dates, no places. */
+const dek = p.living
+  ? "A living relative. This archive publishes their name and their place in the family, and nothing else."
+  : p.gen
+  ? firstSentence(p.line.note)
+  : p.household
+  ? `Recorded in the household of ${p.household}.`
+  : edges.length
+  ? "Known from the family tree. No register act has been read for this person yet."
+  : "Named in this archive, with no relationship recorded for them yet.";
 ---
 <Base title={p.name}
-      eyebrow={p.gen ? `Generation ${p.gen} of the direct line` : p.household}
-      dek={p.gen ? p.line.note : `Recorded in the household of ${p.household}.`}>
+      eyebrow={p.gen ? `Generation ${p.gen} of the direct line` : (p.household || p.surname)}
+      dek={dek}>
 
-  {ownHouse ? <HouseholdTree household={ownHouse} eyebrow="The household this person headed" /> : null}
-  {!ownHouse && inHouse ? <HouseholdTree household={inHouse} eyebrow={"In the household of " + inHouse.name} showHead={false} /> : null}
+  <PersonTree person={p} />
 
   <div class="grid two">
     <div class="card">
       <h3>What the registers say</h3>
-      {p.events.length ? (
+      {p.events && p.events.length ? (
         <ul style="margin:.4rem 0">
           {p.events.map((e) => (
             <li style="margin:.6rem 0">
@@ -37,41 +64,66 @@ const inHouse  = households.find((h) => h.name === p.household);
             </li>
           ))}
         </ul>
-      ) : <p class="small">No event is recorded for this person beyond their being named.</p>}
+      ) : p.living ? (
+        <p class="small"><strong>Withheld on purpose.</strong> This person is living. The archive
+        holds records for them and publishes <strong>none</strong> of them — not a birth date, not a
+        place, not a photograph. Their name and their place in the family are the whole entry, and
+        that is the rule, not a gap. See <a href={u("/method")}>Method</a>.</p>
+      ) : (
+        <p class="small">No act has been read for this person. What is known of them comes from the
+        family tree, and is <strong>unverified</strong> —
+        <a href={u("/register") + "?q=" + encodeURIComponent(clean(p.name))}>search the register for the name →</a></p>
+      )}
+      {!p.living && (p.bp || p.dp) ? (
+        <p class="small">{p.bp ? <span><strong>born</strong> {p.bp}</span> : null}
+        {p.bp && p.dp ? " · " : null}
+        {p.dp ? <span><strong>died</strong> {p.dp}</span> : null}</p>
+      ) : null}
     </div>
 
     <div class="card">
-      <h3>Household</h3>
-      <p><a href={u("/households")}>{p.household}</a></p>
-      {p.parents && p.parents.length === 2 ? (
-        <p class="small">Child of {p.parents.map((x, i) => (
-          <span>{i ? " and " : ""}{x.slug ? <a href={u("/people/" + x.slug)}>{x.name}</a> : x.name}</span>
-        ))}.</p>
+      <h3>Where this comes from</h3>
+      <p class="small">
+        {fromRegister ? <span><strong>{fromRegister}</strong> of the {edges.length} relationships
+          shown above {fromRegister === 1 ? "is" : "are"} written in a record this archive has read.
+        </span> : null}
+        {fromTree ? <span> <strong>{fromTree}</strong> {fromTree === 1 ? "comes" : "come"} from the
+          family tree and {fromTree === 1 ? "is" : "are"} <strong>unverified</strong>.</span> : null}
+        {!edges.length ? <span>No relationship is recorded for this person.</span> : null}
+      </p>
+      {p.mergedOn ? (
+        <p class="small"><strong>This page joins two records</strong> — one from the registers, one
+        from the family tree — matched on <strong>{p.mergedOn}</strong>.
+        {p.mergedOn === "name alone"
+          ? " No date confirms the join. It is the only person of this name on either side, which is why it was made, and it is said here rather than hidden."
+          : " Their years agree, which is what allowed the join."}</p>
       ) : null}
-      {family.length ? (
-        <p class="small">With: {family.map((q, i) => (
-          <span>{i ? ", " : ""}<a href={u("/people/" + q.slug)}>{q.name}</a></span>
-        ))}</p>
+      {p.household ? (
+        <p class="small"><strong>Household:</strong> <a href={u("/households")}>{p.household}</a></p>
       ) : null}
-      {siblings.length ? (
-        <>
-          <h3 style="margin-top:1rem">Others in the same house</h3>
-          <p class="small">{siblings.map((q, i) => (
-            <span>{i ? ", " : ""}<a href={u("/people/" + q.slug)}>{q.name}</a></span>
-          ))}</p>
-        </>
-      ) : null}
-      {p.gen ? <p class="small" style="margin-top:.8rem"><a href={u("/direct-line")}>See this generation on the spine →</a></p> : null}
+      {p.gen ? <p class="small"><a href={u("/direct-line") + "#gen-" + p.gen}>See this generation on the spine →</a></p> : null}
+      {p.living ? (
+        <p class="small"><strong>No register link is offered for a living person.</strong> The
+        registers do hold people of this name — they are <em>other people</em>, dead a century or
+        more, and pointing at them from here would invite the reader to read a stranger's death act
+        as this person's record.</p>
+      ) : (
+        <p class="small"><a href={u("/register") + "?q=" + encodeURIComponent(clean(p.name))}>Every record naming {clean(p.name)} →</a></p>
+      )}
     </div>
   </div>
+
+  {ownHouse ? <HouseholdTree household={ownHouse} eyebrow="The household as the registers built it" /> : null}
 
   {sameName.length ? (
     <>
       <h2>Others of the same name</h2>
-      <p class="small">This parish repeats its names relentlessly. These are different people, kept apart
-      on purpose rather than merged into one.</p>
+      <p class="small">This parish repeats its names relentlessly — there are three Maria Falco and
+      four Pasquale. <strong>These are different people, kept apart on purpose rather than merged
+      into one.</strong></p>
       <ul>{sameName.map((q) => (
-        <li><a href={u("/people/" + q.slug)}>{q.name}</a> <span class="small">— {q.household}</span></li>
+        <li><a href={u("/people/" + q.slug)}>{q.name}</a>
+          <span class="small"> — {q.household || (q.living ? "living" : "from the family tree")}</span></li>
       ))}</ul>
     </>
   ) : null}

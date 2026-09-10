@@ -30,9 +30,11 @@ const photos = plates.filter(p => p.k !== "register");
   ))}
 
   <h2>Photographs</h2>
-  <p>From the family's own scans. <strong>Living people are omitted from this build</strong> — a
-  further nineteen photographs in the family tree show living members and are not published here.
-  That is a deliberate choice, not an oversight.</p>
+  <p>From the family's own scans. <strong>No photograph of a living person is published here</strong> — a
+  further nineteen photographs in the family tree show living members and are held back. Their
+  <em>names</em> are published, on the <a href={u("/people")}>people</a> pages; their faces, dates and
+  records are not. That line was drawn on 10 September 2026 and the reasoning is on
+  <a href={u("/method")}>Method</a>.</p>
   <div class="grid two">
     {photos.map(p => (
       <figure style="margin:0" class="card" id={p.f.replace(/\.jpg$/, "")}>

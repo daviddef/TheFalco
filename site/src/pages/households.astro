@@ -19,7 +19,9 @@ import HouseholdTree from "../components/HouseholdTree.astro";
         <thead><tr><th>Person</th><th>Event</th><th>Date</th><th>What the register says</th></tr></thead>
         <tbody>{h.members.map(m => (
           <tr>
-            <td><strong><a href={u("/people/" + (findPerson(m.person, h.name)||{}).slug)}>{m.person}</a></strong><br/><span class="small">{m.role}</span></td>
+            <td><strong>{(findPerson(m.person, h.name)||{}).slug
+              ? <a href={u("/people/" + findPerson(m.person, h.name).slug)}>{m.person}</a>
+              : m.person}</strong><br/><span class="small">{m.role}</span></td>
             <td>{m.event}</td>
             <td class="mono">{m.date}</td>
             <td><em>{m.evidence}</em>{m.ark ? <><br/><span class="mono small">{m.ark}</span></> : null}</td>
