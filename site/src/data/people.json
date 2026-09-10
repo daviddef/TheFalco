@@ -310,7 +310,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [],
 "spouses": [],
 "children": [
@@ -4694,7 +4694,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [],
 "spouses": [
 {
@@ -4734,9 +4734,7 @@
 }
 ],
 "siblings": [],
-"treeId": 4000006,
-"b": "Jan 1 1955",
-"bp": "Boothville Hospital, Brisbane, Queensland, Australia"
+"treeId": 4000006
 },
 {
 "slug": "sister-dna-d-arcy",
@@ -10214,7 +10212,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [
 {
 "slug": "carmine-antonio-falco",
@@ -10307,8 +10305,6 @@
 }
 ],
 "treeId": 4000025,
-"b": "June 8 1930",
-"bp": "Forchia, Benevento, Campania, Italy",
 "gen": 8,
 "line": {
 "gen": 8,
@@ -16371,7 +16367,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [
 {
 "slug": "carmine-falco",
@@ -16447,8 +16443,6 @@
 }
 ],
 "treeId": 4000007,
-"b": "Sep 3 1955",
-"bp": "Benevento, Province of Benevento, Campania, Italy",
 "gen": 9,
 "line": {
 "gen": 9,

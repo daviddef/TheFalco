@@ -4,7 +4,12 @@ import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import line from "../data/line.json";
 import { people } from "../lib/people.js";
-const shown = line;
+/* Whether a generation is living is decided by the person graph, not by a hand
+   flag in line.json. line.json marked only generation nine, so generation
+   EIGHT — alive, and with a birth date in the file — was being published in
+   full. The graph applies one rule to everybody; this page follows it. */
+const livingGen = new Set(people.filter((p) => p.living && p.gen).map((p) => p.gen));
+const shown = line.map((g) => ({ ...g, living: g.living || livingGen.has(g.gen) }));
 const clean = s => String(s||"").replace(/\s*\(.*?\)\s*/g," ").replace(/\s+/g," ").trim();
 const slugFor = (g) => {
   const p = people.find(q => q.gen === g.gen && clean(q.name) === clean(g.name));
