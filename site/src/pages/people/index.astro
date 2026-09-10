@@ -2,102 +2,97 @@
 import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
 import { people } from "../../lib/people.js";
+import register from "../../data/register.json";
 
 const clean = (s) => String(s || "").replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
-const surnameOf = (n) => {
-  const parts = clean(n).split(" ").filter(Boolean);
-  if (!parts.length) return "—";
-  const last = parts[parts.length - 1];
-  const prev = parts[parts.length - 2];
-  if (prev && ["di", "de", "del", "della", "d'", "lo", "la"].includes(prev.toLowerCase()))
-    return (prev + " " + last).toUpperCase();
-  return last.toUpperCase();
-};
 
-const rows = [...people]
-  .map((p) => {
-    const dates = p.events.map((e) => e.date).filter((d) => d && d !== "—");
-    const places = [...new Set(p.events.map((e) => e.place).filter((x) => x && x !== "—"))];
-    return {
-      ...p,
-      surname: surnameOf(p.name),
-      dates: [...new Set(dates)],
-      place: places[0] || "",
-      evcount: p.events.length,
-    };
-  })
-  .sort((a, b) => a.surname.localeCompare(b.surname) || a.name.localeCompare(b.name));
+/* Person pages exist only for the people actually reconstructed into a household.
+   Everyone else is a record with a source. Both belong on this page. */
+const slugByName = new Map();
+for (const p of people) if (!slugByName.has(clean(p.name))) slugByName.set(clean(p.name), p.slug);
+
+const rows = register.map((r) => ({
+  name: r.name,
+  surname: r.surname || "—",
+  detail: r.detail || "",
+  source: r.source || "",
+  link: r.link || "",
+  kind: r.kind || "",
+  slug: r.kind === "household" ? slugByName.get(clean(r.name)) : undefined,
+}));
 
 const bySurname = {};
 for (const r of rows) bySurname[r.surname] = (bySurname[r.surname] || 0) + 1;
 const topSurnames = Object.entries(bySurname)
   .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-  .slice(0, 10);
+  .slice(0, 14);
 
-const inLine = rows.filter((r) => r.gen).length;
-const withEvents = rows.filter((r) => r.evcount).length;
-const roleCounts = {};
-for (const r of rows) roleCounts[r.role || "—"] = (roleCounts[r.role || "—"] || 0) + 1;
+const distinct = new Set(rows.map((r) => clean(r.name).toLowerCase())).size;
+const inHousehold = rows.filter((r) => r.kind === "household").length;
+const withLink = rows.filter((r) => r.link).length;
 ---
 <Base title="The people"
-      eyebrow="Everyone this archive has joined into a family"
-      dek={`${rows.length} people reconstructed into households from the words of a record — each with a page, whether they continued the line or not.`}>
+      eyebrow="Everyone this archive can name"
+      dek={`${rows.length.toLocaleString()} records naming ${distinct.toLocaleString()} distinct people — the whole roster, in one searchable list.`}>
 
   <div class="card" style="margin-bottom:1.2rem">
-    <p>These are the people this archive has actually <strong>joined into families</strong> — where a
-    record names a parent, a spouse or a stated relationship, and the join can be shown. They are the
-    minority of what has been found. Every other named individual — some eight thousand of them, from
-    the Antenati indexes, the record harvests and the register sweeps — is listed with its source at
-    <a href={u("/register")}><strong>The register</strong></a>, and labelled there as the lead it is
-    rather than the conclusion it is not.</p>
-    <p class="small" style="margin-top:.6rem"><strong>Identity here is by household, not by name.</strong>
-    Names repeat constantly in this parish — three Maria Falco, four Pasquale, three men called
-    Sebastiano Lettieri on one street — so a person is a name <em>inside a household</em>, and two of
-    them are never silently merged. That is why the same name can appear twice below with different
-    households: they are different people, and the archive says so rather than choosing.</p>
+    <p><strong>This is everyone.</strong> Every named individual the archive holds, from the Antenati
+    indexes, the FamilySearch harvests, the Nudgee burials, the family tree, and the Arienzo registers
+    read line by line — in one place, searchable, with the source of each.</p>
+    <p style="margin-top:.6rem"><strong>Identity here is by record, not by resolved individual.</strong>
+    Two rows may be one person. Where the archive knows they are, it has joined them into a
+    household — <strong>{inHousehold} rows</strong> are marked
+    <span class="chip doc">household</span> and their names open a <a href={u("/people/")}>person
+    page</a>. Everything else is offered as <strong>the lead it is rather than the conclusion it is
+    not</strong>.</p>
+    <p class="small" style="margin-top:.6rem">Names repeat constantly in this parish — three Maria
+    Falco, four Pasquale, three men called Sebastiano Lettieri on one street, five Angela Morgillo.
+    <strong>A matching surname is not a match</strong>, and a matching surname with a plausible age is
+    still not a match. What joins two records here is a named parent, a named spouse, a stated
+    relationship, or a street plus a trade repeated across volumes — the rule is set out under
+    <a href={u("/method")}>Method</a>.</p>
   </div>
 
-  <div class="grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.6rem;margin:1rem 0">
-    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{rows.length}</div><div class="small">people</div></div>
-    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{inLine}</div><div class="small">in the direct line</div></div>
-    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{withEvents}</div><div class="small">with a dated event</div></div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:.6rem;margin:1rem 0">
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{rows.length.toLocaleString()}</div><div class="small">records</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{distinct.toLocaleString()}</div><div class="small">distinct names</div></div>
     <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{Object.keys(bySurname).length}</div><div class="small">surnames</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{inHousehold}</div><div class="small">joined into a household</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{withLink.toLocaleString()}</div><div class="small">link to a source</div></div>
   </div>
 
   <div class="card" style="margin:1.2rem 0">
-    <label class="lab" for="q">Search a name, a household, a place or a year</label>
-    <input id="q" type="search" placeholder="Camellara · Rivetti · 1843 · Morgillo …"
+    <label class="lab" for="q">Search a name, a place, a year, a trade or a source</label>
+    <input id="q" type="search" placeholder="Annecchino · Camellara · 1843 · Carfora · colono …"
            style="width:100%;margin-top:.5rem;padding:.6rem .7rem;font-family:var(--sans);
                   font-size:15px;border:1px solid var(--rule-strong);border-radius:4px;
                   background:var(--ground);color:var(--ink)" />
     <div id="chips" style="margin-top:.7rem;display:flex;flex-wrap:wrap;gap:.35rem">
       <button class="fchip on" data-f="all">ALL</button>
-      <button class="fchip" data-f="line">★ DIRECT LINE</button>
+      <button class="fchip" data-f="hh">★ IN A HOUSEHOLD</button>
       {topSurnames.map(([sn, n]) => (
         <button class="fchip" data-f={"sur:" + sn}>{sn} <span class="mono small">{n}</span></button>
       ))}
     </div>
-    <p class="small" id="count" style="margin-top:.6rem">{rows.length} people shown</p>
+    <p class="small" id="count" style="margin-top:.6rem">{rows.length.toLocaleString()} shown</p>
+    <p class="small" style="margin-top:.3rem">Grouped by source instead at
+    <a href={u("/register")}>the register →</a></p>
   </div>
 
   <div class="scroll">
     <table id="ptable">
-      <thead><tr>
-        <th>Name</th><th>Gen</th><th>Role</th><th>Household</th><th>Dates</th><th>Place</th>
-      </tr></thead>
+      <thead><tr><th>Name</th><th>Family</th><th>What the record says</th><th>Source</th></tr></thead>
       <tbody>
         {rows.map((r) => (
-          <tr class="prow"
-              data-sur={r.surname}
-              data-line={r.gen ? "1" : "0"}
-              data-hay={(r.name + " " + r.household + " " + r.surname + " " + (r.role || "") + " " +
-                         r.dates.join(" ") + " " + r.place).toLowerCase()}>
-            <td><a href={u("/people/" + r.slug)}>{r.name}</a></td>
-            <td class="mono small">{r.gen ? <span class="chip doc">gen {r.gen}</span> : ""}</td>
-            <td class="small">{r.role && r.role !== "—" ? r.role : ""}</td>
-            <td class="small">{r.household}</td>
-            <td class="mono small">{r.dates.join(" · ")}</td>
-            <td class="small">{r.place}</td>
+          <tr class="prow" data-sur={r.surname} data-hh={r.kind === "household" ? "1" : "0"}
+              data-hay={(r.name + " " + r.surname + " " + r.detail + " " + r.source).toLowerCase()}>
+            <td>
+              {r.slug ? <a href={u("/people/" + r.slug)}>{r.name}</a> : r.name}
+              {r.kind === "household" ? <><br/><span class="chip doc">household</span></> : null}
+            </td>
+            <td class="small mono">{r.surname}</td>
+            <td class="small">{r.detail}</td>
+            <td class="small">{r.link ? <a href={r.link} rel="noopener">{r.source}</a> : r.source}</td>
           </tr>
         ))}
       </tbody>
@@ -127,9 +122,8 @@ for (const r of rows) roleCounts[r.role || "—"] = (roleCounts[r.role || "—"]
         var terms = v ? v.split(/\s+/) : [];
         var shown = 0;
         for (var i = 0; i < rows.length; i++) {
-          var r = rows[i];
-          var ok = true;
-          if (filter === "line") ok = r.getAttribute("data-line") === "1";
+          var r = rows[i], ok = true;
+          if (filter === "hh") ok = r.getAttribute("data-hh") === "1";
           else if (filter.indexOf("sur:") === 0) ok = r.getAttribute("data-sur") === filter.slice(4);
           if (ok && terms.length) {
             var hay = r.getAttribute("data-hay");
@@ -140,7 +134,7 @@ for (const r of rows) roleCounts[r.role || "—"] = (roleCounts[r.role || "—"]
           r.style.display = ok ? "" : "none";
           if (ok) shown++;
         }
-        count.textContent = shown + (shown === 1 ? " person shown" : " people shown");
+        count.textContent = shown.toLocaleString() + (shown === 1 ? " shown" : " shown");
       }
 
       chips.forEach(function (c) {
@@ -153,7 +147,7 @@ for (const r of rows) roleCounts[r.role || "—"] = (roleCounts[r.role || "—"]
       });
 
       var t;
-      q.addEventListener("input", function () { clearTimeout(t); t = setTimeout(run, 100); });
+      q.addEventListener("input", function () { clearTimeout(t); t = setTimeout(run, 120); });
 
       var pre = new URLSearchParams(location.search).get("q");
       if (pre) { q.value = pre; run(); }
