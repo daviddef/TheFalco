@@ -20,6 +20,13 @@ import { u } from "../lib/url.js";
       <tr><td><span class="chip">family lore</span></td>
         <td>Told and remembered, not corroborated. Kept because it is precious; labelled because pretending
         otherwise is how family myths become family history.</td></tr>
+      <tr><td><span class="chip dna">dna</span></td>
+        <td><strong>Added 10 September 2026, and it ranks BELOW <em>documented</em>.</strong> An
+        ethnicity estimate is not a document — it is a statistical fit of one genome against reference
+        panels of living people, printed to one decimal place because the software can.
+        <strong>A register entry names a person; an estimate names a probability.</strong> Everything
+        on <a href={u("/dna")}>the DNA page</a> carries this grade, including the parts that agree with
+        the registers.</td></tr>
     </tbody>
   </table></div>
 
@@ -138,6 +145,19 @@ import { u } from "../lib/url.js";
   establish — and every search that came back empty — is set out at
   <a href="../open-questions/">Open questions</a>, including the ground already covered, so that the
   next attempt does not repeat it.</p>
+
+  <h2>What a DNA test can and cannot reach</h2>
+  <p><strong>Autosomal DNA halves at every generation, and the reporting floor on a consumer estimate
+  is about one per cent.</strong> Six generations back an ancestor contributes about 1.5% of a
+  descendant; seven back, under 1% — beneath what the test reports at all.</p>
+  <p>For this family the arithmetic lands somewhere pointed. Generation eight was tested, so
+  <strong>generation two sits at 1.56% and generation one — <em>Matteo Falco, the founding ancestor of
+  this entire archive</em> — sits at 0.78%, below the floor.</strong> The paper reaches nine
+  generations; the DNA reaches about six.</p>
+  <p><strong>They are therefore not two views of the same distance</strong>, and the consequence is a
+  rule: <strong>an absence in a DNA result is a fact about the test, not about the family.</strong>
+  Where the two overlap they agree exactly. Beyond the overlap the test is silent, and silence is not
+  evidence. The full working is on <a href={u("/dna")}>the DNA page</a>.</p>
 
   <h2>How a person page is built, and what it refuses to do</h2>
   <p>A person page used to be built from the register households alone. Those are excellent on
