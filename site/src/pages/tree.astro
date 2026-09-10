@@ -1,0 +1,134 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import { people, bySlug } from "../lib/people.js";
+import line from "../data/line.json";
+
+const gens = [...line].sort((a, b) => a.gen - b.gen);
+const spine = gens.map((g) => people.find((p) => p.gen === g.gen) || null);
+const livingGen = new Set(people.filter((p) => p.living && p.gen).map((p) => p.gen));
+
+function kin(p, bucket) {
+  return (p && p[bucket] ? p[bucket] : []).map((e) => ({ ...e, rec: bySlug.get(e.slug) }));
+}
+const rows = spine.map((p, i) => {
+  if (!p) return null;
+  const nextSlug = spine[i + 1] ? spine[i + 1].slug : null;
+  const spouses = kin(p, "spouses");
+  const children = kin(p, "children");
+  return {
+    p, g: gens[i], living: p.living || livingGen.has(p.gen),
+    spouses,
+    heir: children.find((c) => c.slug === nextSlug) || null,
+    others: children.filter((c) => c.slug !== nextSlug),
+  };
+}).filter(Boolean);
+
+const totalKids = rows.reduce((a, r) => a + r.others.length + (r.heir ? 1 : 0), 0);
+const dates = (r) => {
+  if (!r || r.living) return "";
+  if (r.b && r.d) return `${r.b} – ${r.d}`;
+  if (r.b) return `b. ${r.b}`;
+  if (r.d) return `d. ${r.d}`;
+  return "";
+};
+---
+<Base title="The Tree"
+      eyebrow="Nine generations, drawn"
+      dek="The whole documented line in one figure — each generation, who they married, which child carried the line, and every sibling the archive can name beside them."
+      >
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>The spine runs straight down the middle.</strong> Beside each generation is the person
+    they married; beneath, <strong>the child who carried the line is marked</strong>, and every other
+    child the archive can name stands next to them — <strong>because most of them died small, and a
+    tree that shows only the survivors is a lie about what these households were.</strong></p>
+    <p class="small" style="margin-top:.6rem">Every name links to its own page.
+    <a href={u("/direct-line")}>The direct line</a> argues each generation act by act;
+    this page is the shape of it.</p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.6rem;margin:1rem 0">
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{rows.length}</div><div class="small">generations</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{totalKids}</div><div class="small">children named</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{rows.filter((r) => r.spouses.length).length}</div><div class="small">marriages</div></div>
+  </div>
+
+  <figure class="ftree">
+    {rows.map((r, i) => (
+      <div class="grow">
+        <div class="gnum">{r.g.gen}</div>
+        <div class="gmain">
+          <div class="couple">
+            <div class="node me">
+              {r.living ? <span class="nm">{r.p.name}</span>
+                        : <a class="nm" href={u("/people/" + r.p.slug)}>{r.p.name}</a>}
+              <span class="dt">{r.living ? "living — named only" : dates(r.p)}</span>
+              {r.g.trade ? <span class="dt">{r.g.trade}</span> : null}
+            </div>
+            {r.spouses.map((s) => (
+              <div class="node sp">
+                <span class="mar">married</span>
+                {s.rec && s.rec.living ? <span class="nm">{s.name}</span>
+                  : <a class="nm" href={u("/people/" + s.slug)}>{s.name}</a>}
+                <span class="dt">{dates(s.rec)}</span>
+              </div>
+            ))}
+          </div>
+
+          {(r.heir || r.others.length) ? (
+            <div class="kids">
+              {r.heir ? (
+                <a class="kid heir" href={u("/people/" + r.heir.slug)}>
+                  <span>{r.heir.name}</span><i>carried the line</i></a>
+              ) : null}
+              {r.others.map((c) => (
+                c.rec && c.rec.living
+                  ? <span class="kid dim">{c.name}</span>
+                  : <a class="kid" href={u("/people/" + c.slug)}>{c.name}</a>
+              ))}
+            </div>
+          ) : (
+            <p class="small dim" style="margin:.3rem 0 0">No child of this generation is named in the
+            archive beyond the one who carried the line.</p>
+          )}
+        </div>
+        {i < rows.length - 1 ? <div class="drop"></div> : null}
+      </div>
+    ))}
+  </figure>
+
+  <div class="card" style="margin:1.4rem 0">
+    <p><strong>What this figure does not show.</strong> It draws the nine generations of the spine and
+    their children. It does <strong>not</strong> draw the <strong>{people.length - totalKids} other
+    people</strong> the archive can name — the wider Arienzo of Cioffi, Morgillo, Martone and Giglio
+    who fill <a href={u("/people")}>the people pages</a>, or the
+    <a href={u("/households")}>fifty-three reconstructed households</a>. A spine is not a family.</p>
+  </div>
+
+<style is:global>
+  .ftree{margin:1.4rem 0}
+  .ftree .grow{position:relative;display:grid;grid-template-columns:2.2rem 1fr;gap:.8rem;
+               padding:0 0 .2rem}
+  .ftree .gnum{font-family:var(--mono);font-size:11px;color:var(--ink-3);padding-top:.55rem;
+               text-align:right}
+  .ftree .gmain{border-left:2px solid var(--rule);padding:.5rem 0 1rem .9rem}
+  .ftree .couple{display:flex;flex-wrap:wrap;gap:.5rem}
+  .ftree .node{border:1px solid var(--rule);border-radius:.3rem;padding:.45rem .65rem;
+               background:var(--panel);min-width:11rem}
+  .ftree .node.me{border-color:var(--ink);border-width:2px}
+  .ftree .nm{display:block;font-weight:600;color:inherit;text-decoration:none}
+  .ftree a.nm:hover{color:var(--accent)}
+  .ftree .dt{display:block;font-family:var(--mono);font-size:10.5px;color:var(--ink-2)}
+  .ftree .mar{display:block;font-family:var(--sans);font-size:9px;letter-spacing:.13em;
+              text-transform:uppercase;color:var(--ink-3)}
+  .ftree .kids{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.6rem}
+  .ftree .kid{font-family:var(--sans);font-size:11.5px;padding:.2rem .5rem;border:1px solid var(--rule);
+              border-radius:3px;text-decoration:none;color:var(--ink-2);background:var(--ground)}
+  .ftree a.kid:hover{border-color:var(--accent);color:var(--ink)}
+  .ftree .kid.heir{border-color:var(--accent);color:var(--accent);font-weight:600}
+  .ftree .kid.heir i{font-style:normal;font-size:9px;letter-spacing:.1em;text-transform:uppercase;
+                     margin-left:.4rem;opacity:.8}
+  .ftree .drop{position:absolute;left:2.2rem;bottom:0;width:2px;height:.2rem;background:var(--rule)}
+</style>
+</Base>

@@ -1,0 +1,92 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import D from "../data/diaspora.json";
+import register from "../data/register.json";
+const towns = D.towns.map((t) => ({ ...t, falco: +t.falco_records || 0,
+  zamp: +t.zampiello || 0, ann: +t.annecchino || 0 }))
+  .sort((a, b) => (b.falco + b.zamp + b.ann) - (a.falco + a.zamp + a.ann));
+const max = Math.max(...towns.map((t) => t.falco + t.zamp + t.ann), 1);
+const tot = towns.reduce((a, t) => a + t.falco + t.zamp + t.ann, 0);
+---
+<Base title="Where the name went"
+      eyebrow="Falco, Zampiello and Annecchino across the Valle Caudina"
+      dek="Five towns within a day's walk hold thousands of records under these three surnames. Almost none of them are this family — and knowing which is the whole problem."
+      >
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>A surname is not a family, and in this valley it is barely even a clue.</strong> The
+    Antenati indexes hold <strong>{tot.toLocaleString()} records</strong> under Falco, Zampiello and
+    Annecchino across five neighbouring comuni. <strong>This archive can attach fewer than nine
+    hundred of them to anybody.</strong></p>
+    <p class="small" style="margin-top:.6rem">The bars below are why <a href={u("/people")}>the
+    people page</a> keeps a «★ my line» filter and why it was built on <em>attachment</em> rather than
+    name-matching: name-matching alone would have pulled in every Pasquale Falco in the valley.</p>
+  </div>
+
+  <div class="dbars">
+    {towns.map((t) => (
+      <div class="row">
+        <div class="nm"><strong>{t.town}</strong></div>
+        <div class="bwrap">
+          {t.falco ? <div class="bar f" style={`width:${(t.falco / max) * 100}%`} title={`Falco ${t.falco}`}></div> : null}
+          {t.zamp ? <div class="bar z" style={`width:${(t.zamp / max) * 100}%`} title={`Zampiello ${t.zamp}`}></div> : null}
+          {t.ann ? <div class="bar a" style={`width:${(t.ann / max) * 100}%`} title={`Annecchino ${t.ann}`}></div> : null}
+          <span class="v mono">{(t.falco + t.zamp + t.ann).toLocaleString()}</span>
+        </div>
+      </div>
+    ))}
+    <p class="key small"><span class="sw f"></span> Falco &nbsp; <span class="sw z"></span> Zampiello
+      &nbsp; <span class="sw a"></span> Annecchino</p>
+  </div>
+
+  <div class="scroll"><table>
+    <thead><tr><th>Town</th><th>Falco</th><th>Zampiello</th><th>Annecchino</th><th>In-laws shared with Arienzo</th><th>What it means</th></tr></thead>
+    <tbody>
+      {towns.map((t) => (
+        <tr>
+          <td><strong>{t.town}</strong></td>
+          <td class="mono small">{t.falco || ""}</td>
+          <td class="mono small">{t.zamp || ""}</td>
+          <td class="mono small">{t.ann || ""}</td>
+          <td class="small">{t.shared_inlaws_with_arienzo}</td>
+          <td class="small">{t.note}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table></div>
+
+  <div class="card" style="margin:1.2rem 0;border-left:3px solid var(--accent)">
+    <p><strong>Paolisi is the one to sit with.</strong> It holds the largest Falco cluster in the
+    valley — and <strong>a Francesco Falco «Casalis Paulisii» came from there to Arienzo in
+    1714</strong>, a generation before Matteo. <strong>Nothing joins him to this line</strong>, and
+    the archive does not claim it. But if the Falco of Arienzo came from anywhere, Paolisi is where
+    the next search goes.</p>
+    <p style="margin-top:.6rem"><strong>Moiano holds all three surnames at once</strong> — 310 Falco,
+    104 Zampiello, 215 Annecchino — and shares the Morgillo with Arienzo. <strong>It has never been
+    examined.</strong></p>
+  </div>
+
+  <h2>Where the name went after Italy</h2>
+  <p><strong>Brisbane, and almost nowhere else this archive can see.</strong> Generation eight
+  crossed in the twentieth century and <a href={u("/graves")}>lies at Nudgee</a>. There is no evidence
+  here of a Falco diaspora to the Americas, to Argentina or to northern Europe — <strong>which is not
+  the same as saying there wasn't one.</strong> It means nobody has looked, and the sources that
+  would show it (passenger lists, naturalisations, parish books outside Campania) are
+  <a href={u("/open-questions")}>on the list of things not yet read</a>.</p>
+
+<style is:global>
+  .dbars{margin:1rem 0 1.4rem;font-family:var(--sans)}
+  .dbars .row{display:grid;grid-template-columns:9rem 1fr;gap:.7rem;align-items:center;
+              padding:.3rem 0;border-bottom:1px solid var(--rule)}
+  .dbars .bwrap{display:flex;align-items:center;gap:2px}
+  .dbars .bar{height:.6rem;border-radius:1px;min-width:2px}
+  .dbars .bar.f{background:var(--accent)}
+  .dbars .bar.z{background:var(--terra)}
+  .dbars .bar.a{background:var(--ochre)}
+  .dbars .v{font-size:11px;color:var(--ink-2);margin-left:.5rem}
+  .dbars .key{margin-top:.7rem}
+  .dbars .sw{display:inline-block;width:.7rem;height:.55rem;border-radius:2px;vertical-align:middle}
+  .dbars .sw.f{background:var(--accent)} .dbars .sw.z{background:var(--terra)} .dbars .sw.a{background:var(--ochre)}
+</style>
+</Base>

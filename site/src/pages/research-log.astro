@@ -1,0 +1,76 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import log from "../data/researchlog.json";
+const GH = "https://github.com/daviddef/TheFalco/blob/main/notes/";
+const vols = log.filter((r) => r.year);
+const other = log.filter((r) => !r.year);
+const done = vols.filter((r) => r.complete);
+const words = log.reduce((a, r) => a + r.bytes, 0) / 6;
+const acts = log.reduce((a, r) => a + (r.acts || 0), 0);
+---
+<Base title="Research log"
+      eyebrow={`${log.length} working files, ${done.length} volumes finished`}
+      dek="The actual working notes — one file per register volume, written while reading and never tidied afterwards. This page indexes them; the files themselves are public."
+      >
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>These are not write-ups. They are the working notes</strong>, kept act by act while
+    reading, with the wrong readings still in them and the corrections written underneath rather than
+    over the top. <strong>They are the reason anything on this site can be checked.</strong></p>
+    <p class="small" style="margin-top:.6rem">Every one is plain markdown in the repository, linked
+    below. About <strong>{Math.round(words / 1000)},000 words</strong> of them.</p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.6rem;margin:1rem 0">
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{done.length}</div><div class="small">volumes read end to end</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{acts.toLocaleString()}</div><div class="small">acts in the finished ones</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{log.length}</div><div class="small">working files</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{Math.round(words / 1000)}k</div><div class="small">words of notes</div></div>
+  </div>
+
+  <h2>The register volumes</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Year</th><th>What</th><th>State</th><th>Acts</th><th>Images</th><th>Duplicates</th><th>Notes</th></tr></thead>
+    <tbody>
+      {vols.map((r) => (
+        <tr>
+          <td class="mono">{r.year}</td>
+          <td class="small">{r.kind}</td>
+          <td>{r.complete ? <span class="chip doc">complete</span> : <span class="chip lore">partial</span>}</td>
+          <td class="mono small">{r.acts || ""}</td>
+          <td class="mono small">{r.images || ""}</td>
+          <td class="mono small">{r.dupes || ""}</td>
+          <td class="small"><a href={GH + r.file} rel="noopener">{r.file} ↗</a></td>
+        </tr>
+      ))}
+    </tbody>
+  </table></div>
+
+  <h2>Everything else in the log</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>File</th><th>What it is</th></tr></thead>
+    <tbody>
+      {other.map((r) => (
+        <tr>
+          <td><a href={GH + r.file} rel="noopener"><strong>{r.file}</strong> ↗</a></td>
+          <td class="small">{r.lead || r.title}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table></div>
+
+  <div class="card" style="margin:1.4rem 0;border-left:3px solid var(--accent)">
+    <p><strong>Why the failures are left in.</strong> The notes carry every misreading this archive
+    made, with the correction written underneath — a woman read twice as «Maria Carfora» who was
+    twice somebody else, an age that would have been the most spectacular in the archive and was my
+    own eye, a date of 29 February in a year that had none.</p>
+    <p style="margin-top:.6rem"><strong>A researcher who only publishes what worked has published an
+    advertisement.</strong> <a href={u("/corrections")}>Corrections →</a></p>
+  </div>
+
+  <p class="small" style="margin-top:1.6rem">
+    <a href={u("/searched")}>What has been read</a> · <a href={u("/changes")}>What changed</a> ·
+    <a href={u("/open-questions")}>What is still open</a> ·
+    <a href="https://github.com/daviddef/TheFalco/tree/main/notes" rel="noopener">All the notes on GitHub ↗</a></p>
+</Base>

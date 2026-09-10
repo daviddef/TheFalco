@@ -10,9 +10,13 @@ import aliases from './src/data/people-aliases.json' with { type: 'json' };
    itself — without it the meta-refresh sends the reader to
    daviddef.github.io/people/… and straight into a 404. */
 const BASE = '/TheFalco';
-const redirects = Object.fromEntries(
-  Object.entries(aliases).map(([from, to]) => [`/people/${from}`, `${BASE}/people/${to}`])
-);
+const redirects = Object.fromEntries([
+  ...Object.entries(aliases).map(([from, to]) => [`/people/${from}`, `${BASE}/people/${to}`]),
+  /* /emigration is the de Franceschi name for what this site already covers in
+     full at /australia — the 1964 crossing, the ship, the arrival. The URL
+     exists so the two archives line up; a second thin page would not. */
+  ["/emigration", `${BASE}/australia`],
+]);
 
 // GitHub Pages project site. To serve from a custom domain later,
 // set base to '/' and site to that domain.

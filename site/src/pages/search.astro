@@ -1,0 +1,125 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import idx from "../data/searchindex.json";
+import collections from "../data/register.json";
+const base = u("");
+const n = (k) => idx.filter((e) => e.k === k).length;
+---
+<Base title="Search"
+      eyebrow={`${idx.length.toLocaleString()} things, one box`}
+      dek="Every page, every person, every name, every source and every plate — searchable in one place. Until now each list on this site could only search itself.">
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>One box for the whole archive.</strong> Type a surname, a street, a year, a trade or a
+    page title. <strong>It searches pages as well as people</strong>, which no other box on this site
+    does.</p>
+    <p class="small" style="margin-top:.6rem"><strong>It deliberately does not index all
+    {collections.length.toLocaleString()} records</strong> — that is what
+    <a href={u("/register")}>the register</a> and the name pages are for, and shipping them twice
+    would put four megabytes into a search box for nothing.</p>
+  </div>
+
+  <div class="card" style="margin:1.2rem 0">
+    <label class="lab" for="sq">Search everything</label>
+    <input id="sq" type="search" autocomplete="off" autofocus
+           placeholder="Camellara · Annecchino · 1837 · colono · Capuchin · Ferraro …"
+           style="width:100%;margin-top:.5rem;padding:.7rem .8rem;font-family:var(--sans);
+                  font-size:16px;border:1px solid var(--rule-strong);border-radius:4px;
+                  background:var(--ground);color:var(--ink)" />
+    <div class="sfilt">
+      <button class="sf on" data-k="all">Everything <span class="mono">{idx.length.toLocaleString()}</span></button>
+      <button class="sf" data-k="page">Pages <span class="mono">{n("page")}</span></button>
+      <button class="sf" data-k="person">People <span class="mono">{n("person")}</span></button>
+      <button class="sf" data-k="name">Names <span class="mono">{n("name").toLocaleString()}</span></button>
+      <button class="sf" data-k="plate">Plates <span class="mono">{n("plate")}</span></button>
+      <button class="sf" data-k="source">Sources <span class="mono">{n("source")}</span></button>
+    </div>
+    <p class="small" id="scount" style="margin-top:.7rem">Type to search.</p>
+  </div>
+
+  <ol id="sres" class="sres"></ol>
+
+  <p class="small" style="margin-top:2rem">Looking for a record rather than a person?
+  <a href={u("/register")}>The register</a> holds all {collections.length.toLocaleString()},
+  grouped by surname and each linked to its source.</p>
+
+<style is:global>
+  .sfilt{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.8rem}
+  .sf{font-family:var(--sans);font-size:11px;letter-spacing:.05em;text-transform:uppercase;
+      padding:.3rem .6rem;border:1px solid var(--rule-strong);border-radius:3px;
+      background:var(--ground);color:var(--ink);cursor:pointer}
+  .sf.on{background:var(--ink);color:var(--ground);border-color:var(--ink)}
+  .sres{list-style:none;padding:0;margin:1rem 0}
+  .sres li{border-top:1px solid var(--rule);padding:.65rem 0}
+  .sres .st{font-weight:600}
+  .sres .sk{font-family:var(--sans);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;
+            color:var(--ink-3);margin-left:.5rem}
+  .sres .sd{display:block;font-size:13px;color:var(--ink-2);margin-top:.15rem}
+  .sres mark{background:var(--accent-wash);color:inherit;padding:0 .1em}
+</style>
+
+<script is:inline define:vars={{ IDX: idx, BASE: base }}>
+  (function () {
+    var q = document.getElementById("sq"), out = document.getElementById("sres"),
+        cnt = document.getElementById("scount"), kind = "all";
+    var RANK = { page: 0, person: 1, plate: 2, source: 3, name: 4 };
+    var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
+
+    function hl(text, terms) {
+      var s = esc(text);
+      terms.forEach(function (t) {
+        if (t.length < 2) return;
+        s = s.replace(new RegExp("(" + t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig"), "<mark>$1</mark>");
+      });
+      return s;
+    }
+
+    function run() {
+      var v = q.value.trim().toLowerCase();
+      out.innerHTML = "";
+      if (v.length < 2) { cnt.textContent = "Type to search."; return; }
+      var terms = v.split(/\s+/);
+      var hits = [];
+      for (var i = 0; i < IDX.length; i++) {
+        var e = IDX[i];
+        if (kind !== "all" && e.k !== kind) continue;
+        var hay = (e.t + " " + e.d).toLowerCase();
+        var ok = true, score = 0;
+        for (var j = 0; j < terms.length; j++) {
+          var p = hay.indexOf(terms[j]);
+          if (p === -1) { ok = false; break; }
+          if (e.t.toLowerCase().indexOf(terms[j]) === 0) score -= 6;
+          else if (e.t.toLowerCase().indexOf(terms[j]) !== -1) score -= 3;
+        }
+        if (!ok) continue;
+        hits.push({ e: e, s: score + RANK[e.k] });
+        if (hits.length > 4000) break;
+      }
+      hits.sort(function (a, b) { return a.s - b.s || a.e.t.localeCompare(b.e.t); });
+      cnt.textContent = hits.length.toLocaleString() + (hits.length === 1 ? " result" : " results")
+        + (hits.length > 200 ? " — showing the first 200" : "");
+      var frag = document.createDocumentFragment();
+      hits.slice(0, 200).forEach(function (h) {
+        var li = document.createElement("li");
+        li.innerHTML = '<a class="st" href="' + BASE + esc(h.e.u) + '">' + hl(h.e.t, terms) + "</a>"
+          + '<span class="sk">' + h.e.k + "</span>"
+          + (h.e.d ? '<span class="sd">' + hl(h.e.d, terms) + "</span>" : "");
+        frag.appendChild(li);
+      });
+      out.appendChild(frag);
+    }
+
+    [].slice.call(document.querySelectorAll(".sf")).forEach(function (b) {
+      b.addEventListener("click", function () {
+        document.querySelectorAll(".sf").forEach(function (x) { x.classList.remove("on"); });
+        b.classList.add("on"); kind = b.getAttribute("data-k"); run();
+      });
+    });
+    var t; q.addEventListener("input", function () { clearTimeout(t); t = setTimeout(run, 110); });
+    var pre = new URLSearchParams(location.search).get("q");
+    if (pre) { q.value = pre; run(); }
+  })();
+</script>
+</Base>

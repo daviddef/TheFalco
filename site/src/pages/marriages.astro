@@ -1,0 +1,136 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import { people } from "../lib/people.js";
+import line from "../data/line.json";
+import register from "../data/register.json";
+import { writtenUp } from "../lib/writtenup.js";
+
+/* Every marriage the person graph carries, deduplicated to one row per couple.
+   The source of each edge is kept — line / register / tree — because a marriage
+   the archive argued for is not the same as one the family tree asserts. */
+const seen = new Set();
+const couples = [];
+for (const p of people) {
+  for (const e of p.spouses || []) {
+    const k = [p.slug, e.slug].sort().join("|");
+    if (seen.has(k)) continue;
+    seen.add(k);
+    const q = people.find((x) => x.slug === e.slug);
+    if (!q) continue;
+    const gen = p.gen || q.gen || null;
+    couples.push({
+      a: p, b: q, gen, vias: e.vias || [e.via],
+      kids: (p.children || []).filter((c) => (q.children || []).some((d) => d.slug === c.slug)).length,
+      living: p.living || q.living,
+    });
+  }
+}
+const rank = { line: 0, register: 1, tree: 2 };
+couples.sort((x, y) => (x.gen ? 0 : 1) - (y.gen ? 0 : 1) || (x.gen || 99) - (y.gen || 99)
+  || rank[x.vias[0]] - rank[y.vias[0]] || x.a.surname.localeCompare(y.a.surname));
+
+const spine = couples.filter((c) => c.gen);
+const nLine = couples.filter((c) => c.vias.includes("line")).length;
+const nReg = couples.filter((c) => c.vias.includes("register")).length;
+const nTree = couples.filter((c) => c.vias.every((v) => v === "tree")).length;
+
+/* Marriage records in the register — mostly Antenati index hits, which name a
+   date but not always both parties. */
+const acts = register.filter((r) => /matrimonio|marriage/i.test(r.detail || ""));
+---
+<Base title="Marriages"
+      eyebrow={`${couples.length} couples the archive can name`}
+      dek="Who married whom, where the archive knows it — and, on every row, whether it knows because a clerk wrote it down, because the line argues it, or because the family tree says so.">
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>A marriage is the hardest thing in this archive to prove and the most valuable to
+    have.</strong> A marriage act names <em>all four parents at once</em> — which is why
+    <strong>the marriage of Pasquale Falco and Chiara Rivetti, Arienzo, some time in the 1780s, is
+    the oldest document this archive is still looking for.</strong></p>
+    <p class="small" style="margin-top:.6rem">Every row says where it comes from.
+    <span class="chip doc">line</span> is this archive's own argued identification,
+    <span class="chip">register</span> a clerk's own words, and
+    <span class="chip lore">tree</span> the family tree, <strong>unverified</strong>.</p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.6rem;margin:1rem 0">
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{couples.length}</div><div class="small">couples</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{spine.length}</div><div class="small">in the direct line</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{nReg}</div><div class="small">a register says so</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{nTree}</div><div class="small">the tree alone</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{acts.length}</div><div class="small">marriage records indexed</div></div>
+  </div>
+
+  <div class="card" style="margin:1.2rem 0;border-left:3px solid var(--accent)">
+    <p><strong>Eleven times, the Falco married a Crisci.</strong> Six Crisci women marrying Falco
+    men, five Falco women marrying Crisci men, across roughly two hundred years — and generations
+    <strong>one and three both did it</strong>. <a href={u("/crisci")}>The Crisci page counts them →</a></p>
+    <p style="margin-top:.6rem"><strong>Two Zampiello sisters married two Falco brothers</strong>, and
+    both households went to Brisbane. <strong>This is what endogamy looks like from the paper side</strong>
+    — and <a href={u("/dna")}>the DNA measures the same thing from the other end</a>: two people born
+    eight kilometres apart who are, at the test's resolution, the same person.</p>
+  </div>
+
+  <h2>The spine — nine generations, nine marriages</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Gen</th><th>Married</th><th>Children the archive can name</th><th>Known from</th></tr></thead>
+    <tbody>
+      {spine.map((c) => (
+        <tr>
+          <td class="mono"><a href={u("/direct-line") + "#gen-" + c.gen}>{c.gen}</a></td>
+          <td>
+            {c.a.living ? <em class="dim">living — named only</em> : <a href={u("/people/" + c.a.slug)}><strong>{c.a.name}</strong></a>}
+            <span class="dim"> × </span>
+            {c.b.living ? <em class="dim">living — named only</em> : <a href={u("/people/" + c.b.slug)}><strong>{c.b.name}</strong></a>}
+          </td>
+          <td class="mono small">{c.kids || ""}</td>
+          <td class="small">{c.vias.map((v) => <span class={"chip " + (v === "line" ? "doc" : v === "tree" ? "lore" : "")}>{v}</span>)}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table></div>
+
+  <h2>Every other couple</h2>
+  <p class="small">{couples.length - spine.length} more, ordered by family. A shared surname is not a
+  relationship — see <a href={u("/method")}>Method</a>.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Married</th><th>Family</th><th>Children</th><th>Known from</th><th>Written up</th></tr></thead>
+    <tbody>
+      {couples.filter((c) => !c.gen).map((c) => {
+        const wu = writtenUp(c.a.surname) || writtenUp(c.b.surname);
+        return (
+        <tr>
+          <td>
+            {c.a.living ? <em class="dim">living</em> : <a href={u("/people/" + c.a.slug)}>{c.a.name}</a>}
+            <span class="dim"> × </span>
+            {c.b.living ? <em class="dim">living</em> : <a href={u("/people/" + c.b.slug)}>{c.b.name}</a>}
+          </td>
+          <td class="small mono">{c.a.surname}</td>
+          <td class="mono small">{c.kids || ""}</td>
+          <td class="small">{c.vias.map((v) => <span class={"chip " + (v === "line" ? "doc" : v === "tree" ? "lore" : "")}>{v}</span>)}</td>
+          <td class="small">{wu ? <a href={u(wu[0])}>{wu[1]}</a> : ""}</td>
+        </tr>);
+      })}
+    </tbody>
+  </table></div>
+
+  <h2>What is missing</h2>
+  <ul>
+    <li><strong>The marriage of Pasquale Falco and Chiara Rivetti</strong>, Arienzo, 1780s. It would
+    name all four parents at once. <strong>The oldest document this archive still wants.</strong></li>
+    <li><strong>Orazio Morgillo and Vincenza Pesce</strong>, about 1817 — now that
+    <a href={u("/searched")}>Orazio has been found alive in 1837 on strada Nuova di San Gaetano</a>,
+    this is the next act to look for.</li>
+    <li><strong>Giuseppa Ferrara and Angelo Zampiello</strong>, Arpaia, about 1920. It names both
+    fathers and would fix <a href={u("/ferrara")}>the Ferrara/Ferraro spelling</a> in the hand of a
+    clerk who had to ask her.</li>
+    <li><strong>The <em>processetti</em></strong> — the marriage dossiers. <strong>258 volumes across
+    four towns, and not one has been read.</strong> They are the largest untouched body of evidence
+    this archive knows about, and they exist precisely to prove who could marry whom.</li>
+  </ul>
+
+  <p class="small" style="margin-top:1.6rem">
+    <a href={u("/households")}>Households</a> · <a href={u("/married-in")}>Married in</a> ·
+    <a href={u("/direct-line")}>The direct line</a> · <a href={u("/open-questions")}>Open questions</a></p>
+</Base>

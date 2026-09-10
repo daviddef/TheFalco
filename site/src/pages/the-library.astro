@@ -1,0 +1,93 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import sources from "../data/sources.json";
+import log from "../data/researchlog.json";
+import D from "../data/diaspora.json";
+const groups = [...new Set(sources.map((s) => s.g))];
+const GH = "https://github.com/daviddef/TheFalco/blob/main/data/";
+const FILES = [
+  ["antenati-processetti.tsv", "The 258 unread marriage-dossier volumes, by town, with arks"],
+  ["antenati-falco-by-town.tsv", "Falco, Zampiello and Annecchino counts across the valley"],
+  ["antenati-name-index.tsv", "The Antenati name index, harvested"],
+  ["antenati-valle-caudina.tsv", "Register availability across the valley's comuni"],
+  ["arienzo-baptisms-fulltext.tsv", "FamilySearch full-text over the Arienzo baptism books"],
+  ["arienzo-deaths-pages.tsv", "Page-level index of the Arienzo death books"],
+  ["annecchino-benevento-fs.tsv", "369 Annecchino records, filtered from 962"],
+  ["annecchino-forchia.tsv", "The Forchia Annecchino"],
+  ["record-citations.tsv", "Every record this archive cites directly"],
+  ["nudgee-burials.tsv", "The Brisbane burials"],
+  ["myheritage-falco-tree.json", "The family tree — 427 people, unverified"],
+];
+const procVols = D.processetti.reduce((a, r) => a + (+r.processetti_volumes || 0), 0);
+---
+<Base title="The Library"
+      eyebrow="Everything consulted, and everything still on the shelf"
+      dek="The bibliography of this archive — the record sets it has read, the working data it keeps in the open, and the very much larger body it has not touched.">
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>A source list is only honest if it also lists what has not been opened.</strong> This
+    page does both. The read shelf is at the top; <strong>the unread shelf at the bottom is
+    bigger.</strong></p>
+  </div>
+
+  {groups.map((g) => (
+    <section style="margin:1.4rem 0">
+      <h2>{g}</h2>
+      <div class="scroll"><table>
+        <thead><tr><th>Source</th><th>What it is</th><th>What it gave</th></tr></thead>
+        <tbody>
+          {sources.filter((s) => s.g === g).map((s) => (
+            <tr>
+              <td><strong>{s.t}</strong>{s.id ? <><br/><span class="small mono">{s.id}</span></> : null}</td>
+              <td class="small">{s.d}</td>
+              <td class="small">{s.use}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table></div>
+    </section>
+  ))}
+
+  <h2>The working data, in the open</h2>
+  <p>Every table behind this site is plain text in the repository, <strong>so the working can be
+  checked rather than trusted</strong>.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>File</th><th>What it holds</th></tr></thead>
+    <tbody>
+      {FILES.map(([f, d]) => (
+        <tr><td><a href={GH + f} rel="noopener" class="mono small">{f} ↗</a></td>
+          <td class="small">{d}</td></tr>
+      ))}
+    </tbody>
+  </table></div>
+  <p class="small">And <strong>{log.length} working note files</strong> —
+  <a href={u("/research-log")}>the research log →</a></p>
+
+  <h2>The unread shelf</h2>
+  <div class="card" style="border-left:3px solid var(--accent)">
+    <p><strong>{procVols} volumes of <em>processetti</em> — the marriage dossiers — across five towns,
+    and not one has been opened.</strong> They are the single largest body of evidence this archive
+    knows about and has not touched, and they exist precisely to prove who could marry whom: a
+    <em>processetto</em> gathers the baptism extracts and death certificates of everyone in the way of
+    a wedding.</p>
+  </div>
+  <div class="scroll"><table>
+    <thead><tr><th>Town</th><th>Province</th><th>Volumes</th><th>Covering</th><th>Name-indexed?</th><th>What is in them</th></tr></thead>
+    <tbody>
+      {D.processetti.map((r) => (
+        <tr><td><strong>{r.town}</strong></td><td class="small">{r.province}</td>
+          <td class="mono">{r.processetti_volumes}</td>
+          <td class="mono small" style="white-space:nowrap">{r.earliest}–{r.latest}</td>
+          <td class="small">{r.name_indexed}</td>
+          <td class="small">{r.note}</td></tr>
+      ))}
+    </tbody>
+  </table></div>
+
+  <p style="margin-top:1rem"><strong>Also unread:</strong> the Arienzo birth registers before 1816 and
+  after 1818; <strong>the Forchia birth register for 1897</strong>, which nobody has indexed and which
+  holds the act that would settle generation seven's mother; and the Moiano registers, which carry all
+  three of this family's surnames and have never been examined.
+  <a href={u("/open-questions")}>Open questions →</a></p>
+</Base>

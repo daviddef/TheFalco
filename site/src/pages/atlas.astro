@@ -1,0 +1,125 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import places from "../data/places.json";
+import register from "../data/register.json";
+
+/* How often each town actually appears in the records, counted rather than
+   asserted. The order on this page is the order of the evidence. */
+const TOWNS = ["Arienzo", "Moiano", "Paolisi", "Benevento", "Arpaia", "Forchia",
+  "Santa Maria a Vico", "San Felice", "Sant'Agata", "Montesarchio", "Durazzano",
+  "Cautano", "Airola", "Napoli", "Caserta", "Acerra", "Maddaloni", "Lauro",
+  "Melizzano", "Bisaccia", "Aversa", "Nudgee", "Brisbane", "Australia"];
+const counts = {};
+for (const r of register) {
+  const hay = (r.detail || "") + " " + (r.source || "");
+  for (const t of TOWNS) if (hay.includes(t)) { counts[t] = (counts[t] || 0) + 1; break; }
+}
+const ranked = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+const max = ranked.length ? ranked[0][1] : 1;
+const known = new Map(places.map((p) => [p.name, p]));
+
+/* Streets of Arienzo, read off the death registers. The archive's densest
+   geography is not a map of towns — it is one town's streets. */
+const STREETS = ["Camellara", "Cioffi", "Capodiconca", "Croce", "Sant'Andrea", "Santa Lucia",
+  "Porta di Sopra", "Terra Murata", "Capodiuomo", "Signorella", "Monticello",
+  "San Gaetano", "Annunziata", "Cappelletta", "Maddalena", "San Filippo",
+  "Torricella de' Saponari", "Vespriano", "Mercato"];
+const scount = {};
+for (const r of register) {
+  const hay = (r.detail || "") + " " + (r.source || "");
+  for (const s of STREETS) if (hay.includes(s)) scount[s] = (scount[s] || 0) + 1;
+}
+const sranked = Object.entries(scount).sort((a, b) => b[1] - a[1]);
+const smax = sranked.length ? sranked[0][1] : 1;
+---
+<Base title="The Atlas"
+      eyebrow="Everywhere this family has been recorded"
+      dek="Six towns of the Valle Caudina, one cemetery in Brisbane — and, underneath, the nineteen streets of one small town that carry almost all of the evidence."
+      >
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>This family did not travel far until it travelled very far indeed.</strong> Eight
+    generations lived within <strong>eight kilometres</strong> of each other in the Valle Caudina;
+    the ninth is in Brisbane. Everything between those two facts is on this page.</p>
+    <p class="small" style="margin-top:.6rem"><strong>The bars are counted, not asserted</strong> —
+    they are how often each place actually appears in the {register.length.toLocaleString()} records.</p>
+  </div>
+
+  <h2>The towns</h2>
+  <div class="atbars">
+    {ranked.map(([t, n]) => {
+      const k = known.get(t) || known.get(t === "Nudgee" ? "Brisbane" : t);
+      return (
+        <div class="row">
+          <div class="nm">{t}{k ? <span class="dim small"> · {k.prov}</span> : null}</div>
+          <div class="bwrap"><div class="bar" style={`width:${Math.max((n / max) * 100, 0.6)}%`}></div>
+            <span class="v mono">{n.toLocaleString()}</span></div>
+        </div>
+      );
+    })}
+  </div>
+
+  <h2>The six places that matter</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Place</th><th>Province</th><th>When</th><th>Why it is here</th></tr></thead>
+    <tbody>
+      {places.map((p) => (
+        <tr>
+          <td><strong>{p.name}</strong>{counts[p.name] ? <><br/><span class="small mono">{counts[p.name].toLocaleString()} records</span></> : null}</td>
+          <td class="small">{p.prov}</td>
+          <td class="small mono" style="white-space:nowrap">{p.from} – {p.to}</td>
+          <td class="small">{p.what}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table></div>
+
+  <h2>The streets of Arienzo</h2>
+  <p><strong>The real geography of this archive is not a map of towns. It is nineteen streets.</strong>
+  Read off the death registers act by act, they are how the sweeps tell one household from another —
+  and <strong>strada Camellara is the family's own.</strong></p>
+  <div class="atbars">
+    {sranked.map(([s, n]) => (
+      <div class="row">
+        <div class="nm">{s === "Camellara" ? <strong>strada {s}</strong> : <>strada {s}</>}</div>
+        <div class="bwrap"><div class={"bar" + (s === "Camellara" ? " hot" : "")}
+          style={`width:${Math.max((n / smax) * 100, 0.6)}%`}></div>
+          <span class="v mono">{n.toLocaleString()}</span></div>
+      </div>
+    ))}
+  </div>
+
+  <div class="card" style="margin:1.2rem 0;border-left:3px solid var(--accent)">
+    <p><strong>Strada Camellara is the whole archive in one line.</strong> Across four volumes it has
+    given up <strong>Falco, Cioffi, Morgillo, Carfora, Martone, Giglio, Sepistella, Belletta, Majone,
+    Manna and della Cava</strong> — every surname that flanks this line, living on one street, standing
+    as witnesses at each other's deaths. <a href={u("/arienzo")}>Arienzo →</a></p>
+  </div>
+
+  <h2>What is not on this map</h2>
+  <ul>
+    <li><strong>No coordinates, and no map tiles.</strong> This page counts places; it does not plot
+    them. Drawing a map would need a geocode for every street of a town that has renamed most of
+    them, and the archive has not done that work.</li>
+    <li><strong>Melizzano, Bisaccia, Montesarchio, Aversa</strong> appear only as birthplaces of
+    incomers — a man dead in an Arienzo inn, a family of hatters, two Capuchin friars, a gentlewoman.
+    <strong>They are where other people came from, not where this family went.</strong></li>
+  </ul>
+
+  <p class="small" style="margin-top:1.6rem">
+    <a href={u("/places")}>Places</a> · <a href={u("/arienzo")}>Arienzo</a> ·
+    <a href={u("/valle-caudina")}>The Valle Caudina</a> · <a href={u("/australia")}>Australia</a></p>
+
+<style is:global>
+  .atbars{margin:1rem 0 1.6rem;font-family:var(--sans)}
+  .atbars .row{display:grid;grid-template-columns:13rem 1fr;gap:.7rem;align-items:center;
+               padding:.22rem 0;border-bottom:1px solid var(--rule)}
+  .atbars .nm{font-size:13px}
+  .atbars .bwrap{display:flex;align-items:center;gap:.5rem}
+  .atbars .bar{height:.55rem;border-radius:2px;background:var(--ink-3);min-width:2px}
+  .atbars .bar.hot{background:var(--accent)}
+  .atbars .v{font-size:11px;color:var(--ink-2)}
+  @media(max-width:640px){.atbars .row{grid-template-columns:8.5rem 1fr}}
+</style>
+</Base>

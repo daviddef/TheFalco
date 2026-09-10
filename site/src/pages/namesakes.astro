@@ -1,0 +1,46 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import register from "../data/register.json";
+const falco = register.filter((r) => (r.surname || "").toUpperCase() === "FALCO").length;
+---
+<Base title="Namesakes"
+      eyebrow="Famous people called Falco, and why none of them is on this page"
+      dek="The de Franceschi archive has a namesakes page because its surname is rare enough that a Venetian printer or a Hungarian bishop is worth chasing. Falco is not that kind of name — and saying so is the finding.">
+
+  <div class="card" style="margin-bottom:1.2rem;border-left:3px solid var(--accent)">
+    <p><strong>This page exists to record a decision not to do something.</strong></p>
+    <p style="margin-top:.6rem">A namesakes page collects notable people who share a surname, on the
+    reasoning that a rare name makes a shared origin plausible. <strong>That reasoning does not hold
+    for Falco.</strong></p>
+  </div>
+
+  <h2>Why not</h2>
+  <ul>
+    <li><strong>Falco is a common noun before it is a surname.</strong> It is the Italian for
+    <em>falcon</em>, and it became a personal name — then a family name — independently, in many
+    places, from the Lombard period onwards. <a href={u("/name")}>The Name →</a></li>
+    <li><strong>It is common in exactly the region this family comes from.</strong> The Antenati
+    indexes hold <strong>{falco.toLocaleString()} Falco records in this archive alone</strong>, and
+    <a href={u("/diaspora")}>Paolisi and Moiano hold hundreds more within a day's walk</a>. A famous
+    Falco in Naples is no more likely to be kin than a famous Smith is to an English Smith.</li>
+    <li><strong>The archive already refuses this reasoning everywhere else.</strong> The
+    <a href={u("/people")}>people page</a> was deliberately built on <em>attachment</em> rather than
+    name-matching, because name-matching alone would have pulled in every Pasquale Falco in the
+    valley. <strong>A namesakes page would be the same mistake with better lighting.</strong></li>
+    <li><strong>The DNA says the same thing from the other side.</strong> Every «notable individual»
+    the test offered scored in its own «Distant» band — and the list turned out to be
+    <a href={u("/dna")}>a map of which graves have been sequenced</a>, not of anyone's ancestry.</li>
+  </ul>
+
+  <h2>What would change this</h2>
+  <p>One thing only: <strong>a record.</strong> If a document put a named Falco of some other place
+  into this family's descent, they would go on <a href={u("/direct-line")}>the direct line</a> or
+  <a href={u("/wider-family")}>the wider family</a>, where evidence goes — not on a page of
+  coincidences.</p>
+  <p><strong>The nearest thing to a lead this archive holds is not famous at all:</strong> a
+  <strong>Francesco Falco «Casalis Paulisii»</strong> who came from Paolisi to Arienzo in
+  <strong>1714</strong>, a generation before Matteo. <strong>Nothing joins him to this line</strong>,
+  and he is recorded as what he is — the best available guess about where the Arienzo Falco came from,
+  and not yet an ancestor. <a href={u("/diaspora")}>Where the name went →</a></p>
+</Base>

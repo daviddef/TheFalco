@@ -1,0 +1,84 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import plates from "../data/plates.json";
+
+const yearOf = (s) => { const m = String(s || "").match(/\b(1[6-9]\d\d|20\d\d)\b/); return m ? +m[1] : null; };
+const rows = plates.map((p) => ({ ...p, y: yearOf(p.when) || yearOf(p.cite) || null }))
+  .sort((a, b) => (a.y || 9999) - (b.y || 9999));
+const KIND = { register: "register act", photo: "photograph", record: "record" };
+const kinds = [...new Set(rows.map((r) => r.k || "other"))];
+const n = (k) => rows.filter((r) => (r.k || "other") === k).length;
+---
+<Base title="Gallery"
+      eyebrow={`${rows.length} plates, every one of them evidence`}
+      dek="Every image this archive holds, in one contact sheet, oldest first. Click any of them for the transcription and the citation."
+      >
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>This is the whole visual holding of the archive in one screen.</strong>
+    <a href={u("/documents")}>Documents</a> reads them one at a time, with the Italian transcribed and
+    translated; this page is for finding the one you want.</p>
+    <p class="small" style="margin-top:.6rem"><strong>No photograph of a living person is
+    published</strong> — a further nineteen in the family tree are held back. Their names are
+    published, on <a href={u("/people")}>the people pages</a>; their faces are not.</p>
+  </div>
+
+  <div class="gfilt">
+    <button class="gf on" data-k="all">Everything <span class="mono">{rows.length}</span></button>
+    {kinds.map((k) => <button class="gf" data-k={k}>{KIND[k] || k} <span class="mono">{n(k)}</span></button>)}
+  </div>
+
+  <div class="gsheet">
+    {rows.map((r) => (
+      <a class="gcell" data-k={r.k || "other"} href={u("/documents") + "#" + r.f.replace(/\.jpg$/, "")}>
+        <img src={u("/plates/" + r.f)} alt={r.t} loading="lazy" />
+        <span class="gmeta">
+          {r.when ? <b class="mono">{r.when}</b> : null}
+          <span>{r.t}</span>
+        </span>
+      </a>
+    ))}
+  </div>
+
+  <h2>What is not here</h2>
+  <ul>
+    <li><strong>Not one photograph of a grave.</strong> Chapel 082 at Nudgee holds generation seven,
+    husband and wife in adjoining niches, and nobody has stood there with a camera.
+    <a href={u("/graves")}>Graves →</a></li>
+    <li><strong>Not one image of Arienzo itself</strong> — not strada Camellara, not the Collegiate
+    Church of Sant'Andrea, not the Capuchin convent whose friars are in the 1837 register.</li>
+    <li><strong>258 volumes of <em>processetti</em></strong>, unread and unphotographed.
+    <a href={u("/open-questions")}>Open questions →</a></li>
+  </ul>
+
+<style is:global>
+  .gfilt{display:flex;flex-wrap:wrap;gap:.35rem;margin:1rem 0}
+  .gf{font-family:var(--sans);font-size:11px;letter-spacing:.05em;text-transform:uppercase;
+      padding:.3rem .6rem;border:1px solid var(--rule-strong);border-radius:3px;
+      background:var(--ground);color:var(--ink);cursor:pointer}
+  .gf.on{background:var(--ink);color:var(--ground);border-color:var(--ink)}
+  .gsheet{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.7rem;margin:1.2rem 0}
+  .gcell{display:block;text-decoration:none;color:inherit;border:1px solid var(--rule);
+         border-radius:.3rem;overflow:hidden;background:var(--panel)}
+  .gcell:hover{border-color:var(--accent)}
+  .gcell img{display:block;width:100%;height:135px;object-fit:cover;object-position:top}
+  .gmeta{display:block;padding:.4rem .5rem;font-family:var(--sans);font-size:11px;line-height:1.35}
+  .gmeta b{display:block;font-size:10px;color:var(--ink-3);margin-bottom:.15rem}
+</style>
+<script is:inline>
+  (function () {
+    var cells = [].slice.call(document.querySelectorAll(".gcell"));
+    [].slice.call(document.querySelectorAll(".gf")).forEach(function (b) {
+      b.addEventListener("click", function () {
+        document.querySelectorAll(".gf").forEach(function (x) { x.classList.remove("on"); });
+        b.classList.add("on");
+        var k = b.getAttribute("data-k");
+        cells.forEach(function (c) {
+          c.style.display = (k === "all" || c.getAttribute("data-k") === k) ? "" : "none";
+        });
+      });
+    });
+  })();
+</script>
+</Base>

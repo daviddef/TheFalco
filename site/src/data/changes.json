@@ -1,0 +1,828 @@
+[
+{
+"sha": "6520c99",
+"date": "2026-09-10",
+"title": "Split /people and /register into WHO and WHAT, and give every name a page",
+"summary": "David: \"the register vs the people — it's going to confuse people being 2 things!\" He was right. Both pages rendered the same 10,432 rows; a reader could not tell what the difference was meant to be.",
+"kind": "fix"
+},
+{
+"sha": "d97f761",
+"date": "2026-09-10",
+"title": "1837 read end to end — the 1837-1843 run is complete",
+"summary": "Arienzo, Morti 1837 (an_ua14339) — images 2 to 78, all 129 acts, eleven duplicate openings each verified from the printed act number. The largest volume in the run, and the arithmetic checks exactly: 1 + 150 - 22 = 129.",
+"kind": "sweep"
+},
+{
+"sha": "0d61bf4",
+"date": "2026-09-10",
+"title": "ORAZIO MORGILLO found — generation four's father-in-law, first record ever",
+"summary": "1837 images 2-57 of 78, acts 1-95.",
+"kind": "sweep"
+},
+{
+"sha": "fc5fd8d",
+"date": "2026-09-10",
+"title": "1837: the two Falco together in 1837, and a claim of mine withdrawn",
+"summary": "Images 2-37 of 78, acts 1-61.",
+"kind": "sweep"
+},
+{
+"sha": "30531ec",
+"date": "2026-09-10",
+"title": "1837 sweep opened — 21 acts, a centenarian, and the town's other mayor",
+"summary": "Arienzo, Morti 1837 (an_ua14339), 78 images — the largest volume in the run. Images 2-15 read, acts 1-21. Work in progress.",
+"kind": "sweep"
+},
+{
+"sha": "fdcb775",
+"date": "2026-09-10",
+"title": "1838 death register read end to end — 91 acts, four Falco, and a new household",
+"summary": "Arienzo, Morti 1838 (an_ua14340) — images 2 to 53, all 91 acts, five duplicate openings each verified from the printed act number. Officer: Filippo Troisi. First volume read with tools/antenati.py rather than a browser.",
+"kind": "sweep"
+},
+{
+"sha": "c0f725c",
+"date": "2026-09-10",
+"title": "Rework /dna against the de Franceschi page — borrow the horizon, keep the endogamy",
+"summary": "David asked to compare with daviddef.github.io/TheDefranceski/dna/ and take the best of both. That page is better than mine in four specific ways, and three of them transfer directly.",
+"kind": "find"
+},
+{
+"sha": "ac6b5d3",
+"date": "2026-09-10",
+"title": "Add /dna — what two ethnicity tests say, and what they refuse to claim",
+"summary": "David supplied the MyHeritage results for generation eight: Carmine Falco and Francesca Zampiello, ethnicity v2.5 plus Ancient Origins \"Notable Individuals\".",
+"kind": "site"
+},
+{
+"sha": "75fcd25",
+"date": "2026-09-10",
+"title": "Fix a living-person date leak I introduced with the person graph",
+"summary": "tools/build_people.py decided whether to redact a person's dates by reusing really_living() from build_living.py — including its ancestor test. That test belongs in build_living.py, which lists living RELATIVES and rightly excludes ancestors. Reusing it for REDACTION was wrong, because ancestry has nothing to do with whether someone is alive.",
+"kind": "fix"
+},
+{
+"sha": "11630cb",
+"date": "2026-09-10",
+"title": "Person pages draw a real tree, from the registers and the tree merged",
+"summary": "Clicking a name on the Ferrara page took you to Angelo Zampiello and showed one box: him, in his father's house, with no wife and no children — while the page you had just left named his wife and five of their children.",
+"kind": "fix"
+},
+{
+"sha": "c02fe94",
+"date": "2026-09-10",
+"title": "Fix the surname bug that filed Giuseppa Ferraro under her middle name",
+"summary": "Found while building the source links for the Ferrara page: FERRARO is both a surname — the Zampiello maternal name — and the Italian word for a blacksmith. The register builder stripped trailing trade words blind, so it ate the surname and filed her under MARIA. Maria Rosa Ferraro went to ROSA, Antonio Ferraro to ANTONIO. The surname filter on /people was offering forenames.",
+"kind": "fix"
+},
+{
+"sha": "6a00630",
+"date": "2026-09-10",
+"title": "1839 death register read end to end; names and sources become links",
+"summary": "Arienzo, Morti 1839 (an_ua14341) — images 2 to 69, all 110 acts, seven duplicate openings each verified from the printed act number.",
+"kind": "sweep"
+},
+{
+"sha": "0baafb5",
+"date": "2026-09-10",
+"title": "Living people are now named, and «My line» carries the relationship to you",
+"summary": "Two requests from David, one of which reverses a standing editorial rule.",
+"kind": "site"
+},
+{
+"sha": "edf4594",
+"date": "2026-09-10",
+"title": "The People: place pills, and a «My line» filter that refuses to guess",
+"summary": "Two things David asked for after comparing this page with the de Franceschi «Everyone» page.",
+"kind": "site"
+},
+{
+"sha": "91f6508",
+"date": "2026-09-10",
+"title": "The People: show EVERYONE, not just the 170 in reconstructed households",
+"summary": "David: «still seeing nothing of annecchino ... only 170 searchable?» He was right, and this was my design error, not a data gap.",
+"kind": "site"
+},
+{
+"sha": "13f6225",
+"date": "2026-09-10",
+"title": "ANNECCHINO: a name for Filomena's mother, and why the birth act was unfindable",
+"summary": "Going after the family properly while Antenati was rate-limiting. Antenati's image server was 403 all morning, so this went through FAMILYSEARCH instead - a different host, and one the archive had barely used for Benevento.",
+"kind": "site"
+},
+{
+"sha": "5d2a52a",
+"date": "2026-09-10",
+"title": "CRISCI and RIVETTI pages — the two oldest maternal lines",
+"summary": "Completes the audit David's question started. Eight generations, eight wives:",
+"kind": "find"
+},
+{
+"sha": "2e97f2a",
+"date": "2026-09-10",
+"title": "The maternal lines: pages for ANNECCHINO, MAIONE and FERRARA",
+"summary": "David noticed the shape of a gap, not three separate oversights. This archive was built outward from the Falco surname, and the families that married INTO it were treated as context. Every wife in the recent spine was under-served:",
+"kind": "fix"
+},
+{
+"sha": "f133efe",
+"date": "2026-09-10",
+"title": "The People: replace the card grid with a searchable, filterable table",
+"summary": "The card grid was the worst view of the best data. This brings /people up to the treatment used on the de Franceschi archive's «Everyone» page: stat counts, a search box, filter chips (direct line, and the ten commonest surnames), and a real table with Name / Gen / Role / Household / Dates / Place, filtered live.",
+"kind": "site"
+},
+{
+"sha": "85d3f5b",
+"date": "2026-09-10",
+"title": "Method: a fifth thing to distrust — a name is not a person",
+"summary": "Three hundred and thirty acts read end to end across 1840-1843 forced this: the same name belongs to several people at once, on one street, in one year, and the ages do not rescue you. Sets out the rule the archive actually follows for joining two records - a named parent, a named spouse, a stated relationship, or a street plus trade repeated across volumes - and says plainly that a matching surname with a plausible ",
+"kind": "sweep"
+},
+{
+"sha": "a52d159",
+"date": "2026-09-10",
+"title": "Add three households from the 1840-1843 sweep",
+"summary": "- RAFFAELE CIOFFI & FRANCESCA FALCO, strada Cioffi: three children buried in four years, and the record of how «Domenica» became «Francesca». - GIOVANNI CIOFFI & MARIA PORRINO, strada Camellara: the household of the man who reported Chiara Rivetti's death. Recorded as NEIGHBOURS, not kin. - STEFANO SCARPATI & [Serafina/Faustina] CIMMINO: the archpriest of Arienzo and his sister the conservatorio sister, joined as a s",
+"kind": "sweep"
+},
+{
+"sha": "a93da8c",
+"date": "2026-09-10",
+"title": "1840 death register COMPLETE — 87 acts; and a parser bug that was dropping rows",
+"summary": "Arienzo Morti 1840 (an_ua14342): images 2-54, all 87 acts, eight duplicate openings each verified from the printed act number.",
+"kind": "sweep"
+},
+{
+"sha": "6e0dcd7",
+"date": "2026-09-10",
+"title": "Morgillo page: the eleven Morgillo of 1841-1843, and the two Carlantonio",
+"summary": "Adds the Morgillo harvest from the three volumes read today. The table is published to make the opposite of a connection: none of these people reaches Angela Rosa Morgillo, and the point is that the surname was COMMON, so a Morgillo in a record proves nothing alone.",
+"kind": "site"
+},
+{
+"sha": "4d4fe8e",
+"date": "2026-09-10",
+"title": "1841 death register COMPLETE — 91 acts, three Falco sightings, one new name",
+"summary": "Arienzo Morti 1841 (an_ua14343): images 2-55, all 91 acts, nine duplicate openings each verified from the printed act number.",
+"kind": "fix"
+},
+{
+"sha": "f4c2e2b",
+"date": "2026-09-10",
+"title": "Add the Michele Falco & Antonia Migliore household",
+"summary": "The 1842 act gives a Falco household on strada Camellara that the archive did not have. Recorded as a household with the naming-pattern lead stated AND refused as evidence: no act names Michele Falco's parents, so he is not placed in the line.",
+"kind": "site"
+},
+{
+"sha": "343e41c",
+"date": "2026-09-10",
+"title": "1842 death register COMPLETE — 86 acts, two Falco sightings, a new Falco household",
+"summary": "Arienzo Morti 1842 (an_ua14344): images 2-56, all 86 acts. The pre-printed form for act 87 was never filled in. Eleven duplicate openings, every one verified from the printed act number rather than inferred from the pattern.",
+"kind": "sweep"
+},
+{
+"sha": "f77f5ed",
+"date": "2026-09-10",
+"title": "1842: a Falco on strada Camellara, and a second correction to 1843",
+"summary": "Images 2-30, acts 1-45 of Arienzo Morti 1842 (an_ua14344).",
+"kind": "sweep"
+},
+{
+"sha": "fab45b1",
+"date": "2026-09-10",
+"title": "1842 sweep opened; CORRECTION: Domenica Falco is FRANCESCA FALCO",
+"summary": "Arienzo Morti 1842 (an_ua14344), 56 images. Images 2-15, acts 1-21 read.",
+"kind": "sweep"
+},
+{
+"sha": "410646c",
+"date": "2026-09-10",
+"title": "1843 death register COMPLETE — acts 44 to 67",
+"summary": "Finished the Arienzo Morti 1843 volume (an_ua14345): images 3-44, all 67 acts.",
+"kind": "sweep"
+},
+{
+"sha": "ab7ed67",
+"date": "2026-09-10",
+"title": "CHIARA RIVETTI FOUND — the archive's oldest open question is closed",
+"summary": "Arienzo, Morti 1843, atto 43, 3 September:",
+"kind": "sweep"
+},
+{
+"sha": "fb9650a",
+"date": "2026-09-10",
+"title": "1827 notes: record that the priest's surname was settled from the 1843 volume",
+"summary": "",
+"kind": "sweep"
+},
+{
+"sha": "6d8a71c",
+"date": "2026-09-10",
+"title": "The 1827 priest is DON GIUSEPPE CIOFFI — settled by an act sixteen years later",
+"summary": "On 4 December 1827 the register buried 'Don Giuseppe C—, 56, SACERDOTE, figlio di ANDREA —, POSSIDENTE, e di ORSOLA ZIMBARDO', and no magnification would separate Crisci from Cossi in that hand. This archive published the doubt rather than guessing.",
+"kind": "site"
+},
+{
+"sha": "813bc82",
+"date": "2026-09-10",
+"title": "1843: two more acts, and a near miss logged so nobody chases it twice",
+"summary": "Atto 19 buries Anna Zimbardo, eighty, of strada Camellara, 'vedova di PASQUALE Cimmino, figlia di NICOLA Zimbardo e Rosa Cimmino'. Chiara Rivetti's Latin burial entry reads 'uxor quondam PASCHALIS Falco, filia quondam NICOLAI et Anna, aetatis suae annorum OCTOGINTA'. Same street, same age, a Pasquale for a husband and a Nicola for a father, and every surname wrong. It is a coincidence; it is written down so the next ",
+"kind": "sweep"
+},
+{
+"sha": "a818031",
+"date": "2026-09-10",
+"title": "1843 deaths, acts 1-17: the age question answered by accident",
+"summary": "Opened 1843 first because Chiara Rivetti died that year and her civil act should be in it. She has NOT been reached — images 15-44 are unread, and the notes and coverage table both say so rather than implying a finished sweep.",
+"kind": "sweep"
+},
+{
+"sha": "e1cfb94",
+"date": "2026-09-10",
+"title": "1816 deaths, images 3-39: the second pass, and the gap closed",
+"summary": "The register page has confessed for months that the first thirty-nine images of the 1816 death register were read for Falco and no further. They are now rostered act by act — acts 1 to 71, with every declarant's age, trade and street — and the confession is replaced by the roster.",
+"kind": "sweep"
+},
+{
+"sha": "a09a36b",
+"date": "2026-09-09",
+"title": "The Morgillo get a page; Married In gets its branch stories; di Guida updated",
+"summary": "- New /morgillo page, linked in the nav: the Monticello de' Cappuccini house (Angelo, 70, colono, with his sons Nicola and Vincenzo, proved brothers by a 'zio della defunta'), the strada Nuova di San Gaetano house (Biagio with Antonio, Domenico and Simone), the two men called Angelo Morgillo and why the age conflict was the evidence for them, the generation the registers name backwards, the two d'Addio women who marr",
+"kind": "site"
+},
+{
+"sha": "2f1c983",
+"date": "2026-09-09",
+"title": "Correction: the Camellara household is CIOFFI, not Cossi",
+"summary": "Read at full resolution, the 1825 volume distinguishes two families in one clerk's hand: the strada Camellara family is written with a dotted i after the C — Cesare Cioffi, Francesco Cioffi, Giuseppa Cioffi — and the unrelated family of strada Cossi without one — Domenico Cossi, Crescenzo Cossi.",
+"kind": "sweep"
+},
+{
+"sha": "509fabe",
+"date": "2026-09-09",
+"title": "1828 deaths read in full — 70 acts; «parente della defunta» at last",
+"summary": "THE FINDING. Atto 54, 24 October 1828: «GIUSEPPE FALCO, di anni cinquantasei, di professione POSSIDENTE, domiciliato in strada CAMELLARA, PARENTE DELLA DEFUNTA» — declaring the death of the FIFTH child of Francesco Cossi and the third Maria Falco. Five acts across six years had called him only 'vicino'; this one calls him kin, and writes the word twice. The archive's standing question on the third Maria Falco is clos",
+"kind": "fix"
+},
+{
+"sha": "81570ea",
+"date": "2026-09-09",
+"title": "1827 deaths read in full — 68 acts; a second Falco household, and a murder",
+"summary": "- MATTEO FALCO, 28, POSSIDENTE of strada Porta di Sopra (atto 52), verified at full resolution against the known FALIO trap. The only propertied Falco in twenty registers; bears the founding ancestor's name; unjoined. - GIUSEPPE FALCO, 40, colono of strada Camellara, declares for the Francesco Cossi household a FOURTH time (atto 30). His age is now inconsistent across 1817/1825/1826/1827 and the notes say so rather t",
+"kind": "sweep"
+},
+{
+"sha": "82085cc",
+"date": "2026-09-09",
+"title": "Married In: a page for every family that joined this line",
+"summary": "- tools/build_marriedin.py builds site/src/data/married-in.json from the family tree plus the Nudgee burials: 77 surnames, 294 named dead, 98 living withheld. - New /married-in page, linked in the Families nav. Each surname gets its date span, its towns, the marriages that joined it, and a table of its dead. - Surnames whose every person is living (Militano, Ellevsen, Schettini, Zavaglia, Bucolo before the graves, ..",
+"kind": "site"
+},
+{
+"sha": "0bf7ed8",
+"date": "2026-09-09",
+"title": "The 1964 arrival, read from the ship's own list — and a date corrected",
+"summary": "NAA K269 item 12100311 pulled and read (42 pages, open, no login).",
+"kind": "fix"
+},
+{
+"sha": "76bfae6",
+"date": "2026-09-09",
+"title": "Register: every swept row now links to its volume; the rest say why they cannot",
+"summary": "- extract_sweep.py derived the Antenati ark only for 1816-1818 in the newer act-per-row tables, so 2,336 people read from the 1819-1826 registers had no link. Both ark maps now compute from the verified rule (deaths 1809 = an_ua14311, +1 a year). Linked rows: 3,830 -> 6,173 of 6,485. - The Source column now states, for each unlinked row, why no link exists. - Refreshed the register's standing prose: nineteen annual d",
+"kind": "sweep"
+},
+{
+"sha": "0320592",
+"date": "2026-09-09",
+"title": "1826 deaths read in full — 88 acts; Maria Falco, and a Falco beside a Morgillo",
+"summary": "- Maria Falco, 32, wife of Alfonso Diglio, died 25 April 1826: a second daughter of Pasquale Falco and Chiara Rivetti, both named without «fu», so both alive. Second civil sighting of Pasquale between 1820 and 1834. - Giuseppe Falco, 46, massaro of strada Camellara, declares twice; on 28 October he signs atto 73 beside Carlantonio Morgillo, 46, of the same street — the first act in the series with a Falco and a Morgi",
+"kind": "other"
+},
+{
+"sha": "84c6ea8",
+"date": "2026-09-09",
+"title": "1825 deaths read in full — 59 acts; Giuseppe Falco buries two children",
+"summary": "an_ua14327, 39 images, 20 Jan to 28 Dec 1825. Full act-by-act roster in notes/1825-death-register-progress.md.",
+"kind": "sweep"
+},
+{
+"sha": "a99f7bd",
+"date": "2026-09-09",
+"title": "1825 (part): MADDALENA FALCO's death, and a pattern of two houses",
+"summary": "Two finds from the first half of an_ua14327, both verified at full resolution.",
+"kind": "other"
+},
+{
+"sha": "affefde",
+"date": "2026-09-09",
+"title": "Families page: di Guida rewritten, Quotolo added as an eleventh family",
+"summary": "The 1817-1824 death registers found the di Guida themselves, and they are not on strada Camellara where the archive had them by marriage - they are on STRADA MADDALENA, a street of massari di campagna. Giuseppe di Guida appears there aged 68 in 1819 and again in 1822 declaring an infant Quotolo's death as her AVO. The entry now names Raffaele, Gennaro, Simone and LUIGI DI GUIDA, a possidente, and a separate branch un",
+"kind": "find"
+},
+{
+"sha": "40fb4f8",
+"date": "2026-09-09",
+"title": "Method page: three things twenty volumes taught us to distrust",
+"summary": "Reading the Arienzo death registers act by act from 1816 to 1824 has turned up habits of the source that qualify claims this archive itself has made. They belong on the method page, not buried in reading logs.",
+"kind": "site"
+},
+{
+"sha": "6c935c1",
+"date": "2026-09-09",
+"title": "1824 deaths read in full — 85 acts, and Donn'Anna Quotolo's own death",
+"summary": "an_ua14326, 52 images, 7 Jan to 30 Dec 1824. Full act-by-act roster in notes/1824-death-register-progress.md.",
+"kind": "fix"
+},
+{
+"sha": "d8790c1",
+"date": "2026-09-09",
+"title": "1824: PASQUALE FALCO acts for himself, beside his brother Giuseppe",
+"summary": "Arienzo, Morti 1824, atto 8, 25 March 1824:",
+"kind": "find"
+},
+{
+"sha": "3f740cd",
+"date": "2026-09-09",
+"title": "1823 deaths read in full — 117 acts, the largest volume of the run",
+"summary": "an_ua14325, 64 images, 20 Jan to 31 Dec 1823. Full act-by-act roster in notes/1823-death-register-progress.md.",
+"kind": "sweep"
+},
+{
+"sha": "4f62ee4",
+"date": "2026-09-09",
+"title": "1823 begun (images 3-20 of 64): 'GIUSEPPE FALCO FU MATTEO'",
+"summary": "Arienzo, Morti 1823, image 20 right, 20 June 1823:",
+"kind": "find"
+},
+{
+"sha": "5190f89",
+"date": "2026-09-09",
+"title": "1822 deaths read in full — 82 acts, and Angela Falco's parentage",
+"summary": "an_ua14324, 44 images, 4 Jan to 31 Dec 1822. Full act-by-act roster in notes/1822-death-register-progress.md.",
+"kind": "find"
+},
+{
+"sha": "97b963f",
+"date": "2026-09-09",
+"title": "1822: ANGELA FALCO, a daughter of Matteo Falco and Francesca Crisci",
+"summary": "Arienzo, Morti 1822, atto 65, 17 October 1822:",
+"kind": "fix"
+},
+{
+"sha": "1ba96b1",
+"date": "2026-09-09",
+"title": "1821 deaths read in full — no Falco, but the best lead yet on Chiara Rivetti",
+"summary": "an_ua14323, 37 images, 77 acts, 5 Jan to 30 Dec 1821. Full act-by-act roster in notes/1821-death-register-progress.md.",
+"kind": "sweep"
+},
+{
+"sha": "9615349",
+"date": "2026-09-09",
+"title": "1820 deaths read in full — 66 acts, and the year that gave us Anna Falco",
+"summary": "an_ua14322, 43 images, 8 Jan to 30 Dec 1820. Full act-by-act roster in notes/1820-death-register-progress.md.",
+"kind": "sweep"
+},
+{
+"sha": "d60dfc5",
+"date": "2026-09-09",
+"title": "1820: ANNA FALCO, daughter of Pasquale Falco and Chiara Rivetti",
+"summary": "Arienzo, Morti 1820, atto 47, 23 August 1820:",
+"kind": "sweep"
+},
+{
+"sha": "30b6117",
+"date": "2026-09-09",
+"title": "1819 deaths read in full — three Falco entries, two on one day",
+"summary": "an_ua14321, 37 images, ~60 acts, 9 Jan to 20 Dec 1819. Notes with the full act-by-act roster in notes/1819-death-register-progress.md.",
+"kind": "find"
+},
+{
+"sha": "f8bf301",
+"date": "2026-09-09",
+"title": "Families page brought up to date with the 1816-18 sweep",
+"summary": "The three volumes turned bare surnames into populations, and the page was still describing the old state.",
+"kind": "sweep"
+},
+{
+"sha": "d77b1c5",
+"date": "2026-09-09",
+"title": "1818 deaths read in full — the three-year sweep is complete",
+"summary": "an_ua14320, 55 images, ~80 acts, 1 Jan to 19 Dec 1818. NO FALCO DIED. Notes: notes/1818-death-register-progress.md with the full act-by-act roster.",
+"kind": "sweep"
+},
+{
+"sha": "ab780b5",
+"date": "2026-09-09",
+"title": "FindMyPast swept: one real lead, and several firm nulls",
+"summary": "Searched every family surname with name variants on, worldwide and filtered to Australia & New Zealand. Full write-up in notes/findmypast-sweep-2026-09-09.md; rows in data/findmypast-harvest.tsv.",
+"kind": "sweep"
+},
+{
+"sha": "92e6c23",
+"date": "2026-09-09",
+"title": "1818 deaths begun (images 3-19 of 55); a misreading corrected",
+"summary": "The 1818 volume an_ua14320 opens with a SECOND ORIGINAL of the twenty-two acts the 1817 volume carries at its back. Two clerks, two copies, and they do not agree in detail - which caught a mistake in this archive's own reading: the declarant at Maria Rivetti's death, 1 Jan 1818, is NUNZIO RIVETTI, 35, bracciale, of strada Camellara, not 'Luigi Rivetti, 75, of strada Annunziata'. Corrected in the notes and the registe",
+"kind": "sweep"
+},
+{
+"sha": "0359dde",
+"date": "2026-09-09",
+"title": "1817 deaths read in full, and every person in it put on the site",
+"summary": "The volume is done: 89 images, ~130 acts of 1817 plus the first two months of 1818 bound in at the back. Notes: notes/1817-death-register-progress.md, with the complete act-by-act roster.",
+"kind": "sweep"
+},
+{
+"sha": "35bdb23",
+"date": "2026-09-09",
+"title": "1817 deaths: the burial that settles generation four",
+"summary": "RAFFAELE FALCO, son of Vincenzo Falco and Andreana Crisci, died at Arienzo on 28 OCTOBER 1817 at seven in the morning, aged about eighteen months. That is the child born 25 April 1816. The Raffaele born 10 May 1818 is therefore the one who lived, married Angela Rosa Morgillo and died in 1880.",
+"kind": "sweep"
+},
+{
+"sha": "a904c7c",
+"date": "2026-09-09",
+"title": "1816 death register: sweep complete — Gioacchino Falco, and a Falco marriage",
+"summary": "Act 76, 1 December 1816: the death of Crescenzo Rivetti, declared by GIOACCHINO FALCO, 36, and GIUSEPPE FALCO, 32, both massari di campagna of strada Camellara, both described as «parenti del defunto». The dead man is «marito di ANGELA FALCO».",
+"kind": "sweep"
+},
+{
+"sha": "0fa2737",
+"date": "2026-09-09",
+"title": "1816 deaths: Donna Francesca Rivetti, and a lead on Chiara's parents",
+"summary": "Started the Arienzo death registers for 1816-1818 (an_ua14318-20; the sequence runs unbroken from 1809 = an_ua14311, verified rather than extrapolated). Their layout differs from the 1829-36 volumes - the deceased and BOTH parents run together mid-act - so the crop is recalibrated and recorded.",
+"kind": "sweep"
+},
+{
+"sha": "f42684e",
+"date": "2026-09-09",
+"title": "Write down the 1816 and 1817 rosters before they are lost, and publish what has been read",
+"summary": "Asked to make sure nothing is lost, the honest finding was that the 1816 and 1817 sweeps existed only in the running conversation. No notes file had been written for 1816 at all, and 1817 had prose but no roster. If this session had ended, two full years of reading would have gone.",
+"kind": "sweep"
+},
+{
+"sha": "b1c7fc1",
+"date": "2026-09-09",
+"title": "1816: a second Giuseppe Falco, and the Vigliotta married Falco twice",
+"summary": "Act 116 of 25 November 1816:",
+"kind": "sweep"
+},
+{
+"sha": "a6fad7f",
+"date": "2026-09-09",
+"title": "A second Raffaele Falco, born 1816 - generation four is no longer settled",
+"summary": "The 1816 birth register (an_ua14413) has, at act 56 of 25 April:",
+"kind": "sweep"
+},
+{
+"sha": "d61fae8",
+"date": "2026-09-09",
+"title": "Add \"The families\": the ten families the Falco married, treated as families",
+"summary": "A family history that follows one surname is half a history. Every generation of this line is half somebody else's family, and the site had those families as names hanging off a Falco rather than as families.",
+"kind": "find"
+},
+{
+"sha": "d232d2b",
+"date": "2026-09-09",
+"title": "Get the sweep rosters onto the site, not just into the notes",
+"summary": "Asked whether everything found was reaching the site - Carlantonio Morgillo's age was the example - the answer was partly, and the honest part was no.",
+"kind": "sweep"
+},
+{
+"sha": "0ea29d4",
+"date": "2026-09-08",
+"title": "Read the 1817 birth register: no Falco, but it answers the Arcangelo Crisci question",
+"summary": "1817 (an_ua14414, 48 images) read in full. Not one Falco appears - not as a father, not as a declarant.",
+"kind": "site"
+},
+{
+"sha": "91e56b3",
+"date": "2026-09-08",
+"title": "Finish the 1818 birth register: two Falco, four weeks and one street apart",
+"summary": "Images 2-79 read; the year runs to about act 118 and ends in late December. Two Falco births, and they sit together:",
+"kind": "sweep"
+},
+{
+"sha": "33a9184",
+"date": "2026-09-08",
+"title": "Find Giuseppe Falco - Pasquale's brother - living on strada Camellara",
+"summary": "Arienzo, Nati 1818, image 46 right, act 57, foglio 154:",
+"kind": "sweep"
+},
+{
+"sha": "109818d",
+"date": "2026-09-08",
+"title": "Find the civil birth act of Raffaele Falco, generation 4 — 10 May 1818",
+"summary": "Arienzo, Nati 1818 (an_ua14415), image 41 right, act 47, foglio 149:",
+"kind": "sweep"
+},
+{
+"sha": "e1d56e9",
+"date": "2026-09-08",
+"title": "Bring the family tree itself into the archive: 427 people walked, 290 deceased listed",
+"summary": "Asked whether every Falco in the MyHeritage tree and their relatives were represented, the answer was no, and data/myheritage-facts.tsv had been an empty header file since the project began - the tree was the baseline for this whole archive and its people were never captured.",
+"kind": "site"
+},
+{
+"sha": "4b93ff7",
+"date": "2026-09-08",
+"title": "Add the 1834 sweep's 88 read acts to the register",
+"summary": "The 1834 death register was logged act by act in a table; the other seven years were read in full but written up selectively. tools/extract_sweep.py pulls that table into data/sweep-people.tsv and the register, so the people met while reading - neighbours, declarants, the families burying each other's children on strada Camellara - are listed rather than left in prose.",
+"kind": "sweep"
+},
+{
+"sha": "c81f449",
+"date": "2026-09-08",
+"title": "Record the 1818 birth sweep so far, and the volume map for Arienzo births",
+"summary": "Antenati rate-limited mid-sweep. Committing what is read (images 2-7, twelve acts, no Falco) plus two things worth keeping regardless.",
+"kind": "sweep"
+},
+{
+"sha": "44e6a27",
+"date": "2026-09-08",
+"title": "Fix two faults in the household trees",
+"summary": "A red rectangle was being drawn round every spouse row. My single-cell modifier was called \"one\", and the stylesheet already has a global .one rule - a terracotta-bordered panel used elsewhere. Renamed to .solo.",
+"kind": "fix"
+},
+{
+"sha": "a1715f4",
+"date": "2026-09-08",
+"title": "Draw households as trees, and recast the direct line as a spine",
+"summary": "Two presentation changes asked for, both modelled on the Defranceschi pages.",
+"kind": "site"
+},
+{
+"sha": "599eb5f",
+"date": "2026-09-08",
+"title": "Add the register: all 2,194 named individuals, with links to their sources",
+"summary": "The site was showing 45 people. The archive had found far more and left it in TSVs that never reached a page - in particular two Antenati name-index harvests, 1,087 and 1,042 rows, that had been sitting unused since the Valle Caudina sweep.",
+"kind": "sweep"
+},
+{
+"sha": "006ce2f",
+"date": "2026-09-08",
+"title": "Fix the lines and rule diagrams: collided labels and missing spaces",
+"summary": "Two real rendering faults, both mine.",
+"kind": "fix"
+},
+{
+"sha": "79bfbae",
+"date": "2026-09-08",
+"title": "Read the 1829 Arienzo death register: no Falco, and a claim that needs re-checking",
+"summary": "1829 (an_ua14331, 65 images) read in full, 2 January to 29 December. The result is a null: not one Falco appears in the whole volume - not as a deceased, not as a parent, not as a declarant. It is the only such year of the eight now read.",
+"kind": "sweep"
+},
+{
+"sha": "d8b7695",
+"date": "2026-09-08",
+"title": "Correct two errors introduced in the last commit",
+"summary": "The home page said Matteo and Francesca's children's death acts named them \"thirty years apart\". They are four years apart - Rosa's in October 1830, Pasquale's in October 1834. Corrected.",
+"kind": "sweep"
+},
+{
+"sha": "4318ff1",
+"date": "2026-09-08",
+"title": "Read the 1830 Arienzo death register: Pasquale's sister, and the founding couple named a second time",
+"summary": "1830 (an_ua14332, 59 images) read in full, 8 January to 29 December. One Falco death, and it is a sibling of the direct line.",
+"kind": "sweep"
+},
+{
+"sha": "1ad6456",
+"date": "2026-09-08",
+"title": "Read the 1831 Arienzo death register: the first kinship joining the line to strada Camellara",
+"summary": "1831 (an_ua14333, 62 images) read in full, 13 January to 31 December. One Falco death, and it is the most consequential act since the death of Pasquale himself.",
+"kind": "sweep"
+},
+{
+"sha": "cd41b74",
+"date": "2026-09-08",
+"title": "Re-cut as the Falco of Arienzo; add the Lines and Under Whose Rule; declutter home",
+"summary": "The framing was a Brisbane pedigree with the rest appended. It is now what the evidence supports: an archive of the Falco of Arienzo - a parish, a street, and the families on it - and of the one branch that reached Brisbane. The home page says so in its first sentence, and says that 41 of the 49 people named are not in the direct line.",
+"kind": "fix"
+},
+{
+"sha": "4af373c",
+"date": "2026-09-08",
+"title": "Audit every image; find a war decoration filed as \"a second portrait\"",
+"summary": "Asked whether the documents had actually been looked at, the answer was no. Every photograph plate had been captioned from its filename. The audit is written up in full in notes/plate-audit-2026-09-08.md; the headline is that four of them were not photographs at all.",
+"kind": "fix"
+},
+{
+"sha": "67ba59d",
+"date": "2026-09-08",
+"title": "Add \"The wider family\": the 36 people who are not in the direct line",
+"summary": "The archive documents 39 people across 13 households and 54 register entries, and only 8 of them are in the direct line to Brisbane. The site did not say so anywhere. Everything collateral - the brothers and sisters who stayed, the Falco households never joined to the line - was buried inside the households page or the TSVs, while the front of the site read as a pedigree.",
+"kind": "site"
+},
+{
+"sha": "ae19819",
+"date": "2026-09-08",
+"title": "Make the generation spine honest about where the line stops",
+"summary": "Every ring was drawn solid, including Matteo's - but Matteo is precisely the generation nothing joins upward. No record has been found naming his father. His ring is now open and the spine fades out above him, so the drawing shows the frontier instead of implying an unbroken chain.",
+"kind": "fix"
+},
+{
+"sha": "1d80fd0",
+"date": "2026-09-08",
+"title": "Read the 1832 Arienzo death register: a second Falco household in the founding generation",
+"summary": "1832 (an_ua14334, 53 images) read in full. Two Falco, and the first is the most significant find since the death act itself.",
+"kind": "sweep"
+},
+{
+"sha": "c9b0dea",
+"date": "2026-09-08",
+"title": "Add a Documents page; bring the front page back in sync with the research",
+"summary": "The archive's two strongest images - the register pages carrying Pasquale Falco's death act of 1834 and his grandson's of 1833 - were buried inside the Antenati page, and the thirteen family photographs inside the Australia page. Neither was reachable from the navigation, and the front page carried no image at all.",
+"kind": "find"
+},
+{
+"sha": "32791d6",
+"date": "2026-09-08",
+"title": "Read the 1833 Arienzo death register; repair source linkage across the site",
+"summary": "1833 (an_ua14335, 58 images) read in full, act by act. One Falco, act no. 16:",
+"kind": "sweep"
+},
+{
+"sha": "f6746b7",
+"date": "2026-09-08",
+"title": "Find Pasquale Falco's death act: Arienzo, 1 October 1834",
+"summary": "Read the Arienzo civil death register for 1834 (Antenati an_ua14336) in full, all 57 images, act by act. Act no. 69, page 236, image 43:",
+"kind": "sweep"
+},
+{
+"sha": "10a3a22",
+"date": "2026-09-08",
+"title": "1836 read in full: Pasquale absent, four other Falco recorded",
+"summary": "All 51 images, 1 January to 31 December 1836. Pasquale Falco does not appear. Two years now eliminated, twelve remain.",
+"kind": "find"
+},
+{
+"sha": "4f27c0c",
+"date": "2026-09-08",
+"title": "1836: a fourth Falco, and the street the family lived on",
+"summary": "Pages 31-33. Pasqualina Falco, ten months old, died 14 September 1836, daughter of Francesco Falco, contadino, of strada Camellara.",
+"kind": "site"
+},
+{
+"sha": "9095484",
+"date": "2026-09-08",
+"title": "1836: a third Falco, and a new peasant household",
+"summary": "Pages 26-30. Salvatore Falco, fourteen months old, died 9 August 1836, son of Michele Falco, contadino, of strada Camellara.",
+"kind": "find"
+},
+{
+"sha": "50fde28",
+"date": "2026-09-08",
+"title": "1836 sweep: pages 19-25, January to mid-July covered",
+"summary": "Pasquale Falco still absent. The half-year read so far turns up the two Falco women already logged and no others.",
+"kind": "sweep"
+},
+{
+"sha": "5ac7058",
+"date": "2026-09-08",
+"title": "1836: find Margarita Falco, and separate two men called Francesco",
+"summary": "Pages 12-18. A second Falco, and this one the archive already half-held.",
+"kind": "find"
+},
+{
+"sha": "88bf63c",
+"date": "2026-09-08",
+"title": "1836 sweep: find Donna Raffaela de Falco, a nun, and a gentry branch",
+"summary": "Pages 2-11 of the Arienzo civil death register for 1836. Pasquale Falco has not appeared, but the sweep has turned up its first Falco.",
+"kind": "sweep"
+},
+{
+"sha": "aa39cf5",
+"date": "2026-09-08",
+"title": "1835 death register read in full: Pasquale Falco is not in it",
+"summary": "All 46 images, roughly 75 acts, 1 January to 31 December 1835. There is no Falco of any age, sex or condition in the Arienzo civil death register for that year. The year is eliminated; Pasquale died in one of the other fourteen years of the 1829-1843 bracket.",
+"kind": "sweep"
+},
+{
+"sha": "d24d7c2",
+"date": "2026-09-08",
+"title": "1835 death register: pages 14-28 read, no Falco",
+"summary": "Extends the sweep from page 13 to page 28 - roughly 50 acts now read, covering January to late August 1835. No Falco of any age.",
+"kind": "sweep"
+},
+{
+"sha": "4d0cb4e",
+"date": "2026-09-08",
+"title": "Sweep the 1835 death register to page 13; log progress for resumption",
+"summary": "Read pages 2-13 of Arienzo civil deaths 1835 (an_ua14337) act by act - about 24 acts, January to mid-April. No Falco of any age.",
+"kind": "sweep"
+},
+{
+"sha": "1a69a04",
+"date": "2026-09-08",
+"title": "Reconnoitre the 1835 death register; establish the read is a real job",
+"summary": "Opened Arienzo civil deaths 1835 (an_ua14337, 46 pp.) and tested three shortcuts to finding Pasquale Falco. All three fail:",
+"kind": "site"
+},
+{
+"sha": "9d472d1",
+"date": "2026-09-08",
+"title": "Bracket Pasquale's death to 1829-1843; find Chiara Rivetti's parents",
+"summary": "Hunting Pasquale Falco's death act turned up his wife's instead, and it carries more than expected.",
+"kind": "find"
+},
+{
+"sha": "e4005e4",
+"date": "2026-09-08",
+"title": "Read the 1814 civil marriage act from the Antenati images",
+"summary": "Antenati's IIIF images are Cloudflare-blocked to direct fetch, but render when injected into a page on Antenati's own origin, and IIIF region syntax crops and magnifies them server-side. That made the hand legible.",
+"kind": "sweep"
+},
+{
+"sha": "19802c1",
+"date": "2026-09-08",
+"title": "Sweep Moiano and Paolisi; reconnoitre the processetti",
+"summary": "Moiano and Paolisi, both previously unexamined:",
+"kind": "sweep"
+},
+{
+"sha": "e03e1d8",
+"date": "2026-09-08",
+"title": "Antenati works: locate both missing births, and find Moiano",
+"summary": "Earlier work recorded Antenati as blocked. Opened by hand it is not, and it answers two questions that had been left hanging.",
+"kind": "find"
+},
+{
+"sha": "7e151fb",
+"date": "2026-09-08",
+"title": "Publish what the archive does not know, and bring the sources current",
+"summary": "The sources page listed five sources when the archive rests on fourteen, and the open questions existed only in the repo. Both fixed.",
+"kind": "fix"
+},
+{
+"sha": "e3b87c4",
+"date": "2026-09-07",
+"title": "Push the Falco back to 1637, and find an incomer from Paolisi",
+"summary": "Mining the register pages dated entirely before 1740:",
+"kind": "find"
+},
+{
+"sha": "a1a5ee6",
+"date": "2026-09-07",
+"title": "Why the family left Arienzo: Forchia is an Annecchino town",
+"summary": "681 Annecchino records harvested from the Benevento civil registers. They sort by town, and Forchia - where Carmine Falco was born in 1930 - is one of the two Annecchino strongholds.",
+"kind": "find"
+},
+{
+"sha": "4bc27ab",
+"date": "2026-09-07",
+"title": "Find the ship: Brisbane, 26 March 1964, per the Sydney from Naples",
+"summary": "NAA: K269, 26 MAR 1964 SYDNEY - the incoming passenger list, digitised in 42 pages - names four Falcos on the voyage: Carmine, Francesca, Giuseppina aged eight, and an Antonio who appears in no other record here. He is almost certainly Giuseppina's brother, and this is the first document to place him.",
+"kind": "find"
+},
+{
+"sha": "b480a83",
+"date": "2026-09-07",
+"title": "The Australian chapter: two brothers married two sisters",
+"summary": "Found outside FamilySearch, from a cemetery index scan attached to the family tree.",
+"kind": "fix"
+},
+{
+"sha": "109520a",
+"date": "2026-09-07",
+"title": "Correct the household count on the home page",
+"summary": "",
+"kind": "fix"
+},
+{
+"sha": "71c3d72",
+"date": "2026-09-07",
+"title": "Trace the Zampiello: 226 records, and all of them Arpaia",
+"summary": "With about 123 bearers worldwide and 37 left in Italy, Zampiello is effectively one family — and the registers say which village.",
+"kind": "other"
+},
+{
+"sha": "50a54ab",
+"date": "2026-09-07",
+"title": "Add the collateral Falco branches of Arienzo",
+"summary": "Seven reconstructed households now, 38 cited register entries.",
+"kind": "find"
+},
+{
+"sha": "01f97cc",
+"date": "2026-09-07",
+"title": "Find Pasquale Falco's baptism; replace Agostino Falcone with Matteo Falco",
+"summary": "The head of the line is no longer a guess. Arienzo baptisms, 24 October 1767: \"infantem natum ex Mattheo Falco, ed Francisca Crisci ... qui nominatus est Paschalis\" — in the collegiate church of Sant'Andrea, Terrae Argenti.",
+"kind": "find"
+},
+{
+"sha": "ea996db",
+"date": "2026-09-07",
+"title": "The Falco Archive: first build",
+"summary": "An evidence-first archive of the Falco family of Arienzo (Caserta), the Valle Caudina and Brisbane.",
+"kind": "site"
+},
+{
+"sha": "ae055a3",
+"date": "2026-09-07",
+"title": "Initial commit",
+"summary": "",
+"kind": "other"
+}
+]

@@ -1,0 +1,104 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import register from "../data/register.json";
+import P from "../components/P.astro";
+
+const rows = register.filter((r) => r.kind === "burial").map((r) => {
+  const d = r.detail || "";
+  const date = (d.match(/buried (\d{4}-\d{2}-\d{2})/) || [])[1] || "";
+  const plot = (d.match(/·\s*([A-Z]+-\d+-[A-Z0-9]+|V-\d+|\(crematorium\))/) || [])[1] || "";
+  const note = d.split("·").slice(3).join("·").trim();
+  return { ...r, date, plot, note, chapel: (plot.match(/^CHAP-(\d+)/) || [])[1] || "" };
+}).sort((a, b) => (a.plot || "zz").localeCompare(b.plot || "zz"));
+
+const chapels = [...new Set(rows.map((r) => r.chapel).filter(Boolean))].sort();
+const byChapel = (c) => rows.filter((r) => r.chapel === c);
+const vaults = rows.filter((r) => /^V-/.test(r.plot));
+const other = rows.filter((r) => !r.chapel && !/^V-/.test(r.plot));
+---
+<Base title="Graves"
+      eyebrow={`${rows.length} burials at Nudgee, Brisbane`}
+      dek="Where the line ends up. Every burial this archive has found in Australia, with its plot — and what the plots do and do not prove about who lies beside whom."
+      >
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>Nudgee Catholic Cemetery, Brisbane.</strong> Eight thousand kilometres and nine
+    generations from strada Camellara, this is where the family the Arienzo registers describe is
+    actually buried. <strong>{rows.length} burials</strong> across three surnames — Falco, Bucolo and
+    Ferrara — and the plot numbers are the interesting part.</p>
+  </div>
+
+  <div class="card" style="margin:1.2rem 0;border-left:3px solid var(--accent)">
+    <p><strong>Chapel 082 holds generation seven, together.</strong>
+    <strong>CHAP-082-B1</strong> and <strong>B2</strong> are <P n="Filomena Annecchino (Falco)">Filomena
+    Annecchino</P> and <P n="Carmine Antonio (Carminantonio) Falco">Carminantonio Falco</P> — husband
+    and wife, adjacent niches, buried three years apart in 1985 and 1988.</p>
+    <p style="margin-top:.6rem"><strong>And the vault row V-0946 to V-0949 holds four more</strong>:
+    Raffaele Falco (1988), Caterina Falco (2004), and
+    <P n="Francesca Zampiello (Falco)">Francesca Zampiello</P> (2022) at V-0949.
+    <strong>Adjacency is evidence of intention, not of descent</strong> — a family buys plots
+    together — but the archive records the numbers because they are the only thing at Nudgee that
+    encodes a relationship at all.</p>
+    <p class="small" style="margin-top:.6rem"><strong>Chapel 070 is not the family's chapel.</strong>
+    Paolino and Elisa Ferrara lie there in adjoining niches. <em>Ferrara is also the Zampiello
+    maternal surname</em> — and <strong>the connection is untested</strong>. Being in a different
+    chapel from the Falco is not evidence either way. See <a href={u("/ferrara")}>Ferrara</a>.</p>
+  </div>
+
+  {chapels.map((c) => (
+    <section style="margin:1.4rem 0">
+      <h2>Chapel {c} <span class="small mono">{byChapel(c).length}</span></h2>
+      <div class="scroll"><table>
+        <thead><tr><th>Plot</th><th>Name</th><th>Buried</th><th>What the archive knows</th></tr></thead>
+        <tbody>{byChapel(c).map((r) => (
+          <tr><td class="mono small">{r.plot}</td>
+            <td><P n={r.name} bold={true} /></td>
+            <td class="mono small">{r.date}</td>
+            <td class="small">{r.note}</td></tr>
+        ))}</tbody>
+      </table></div>
+    </section>
+  ))}
+
+  <section style="margin:1.4rem 0">
+    <h2>The vault row <span class="small mono">{vaults.length}</span></h2>
+    <div class="scroll"><table>
+      <thead><tr><th>Plot</th><th>Name</th><th>Buried</th><th>What the archive knows</th></tr></thead>
+      <tbody>{vaults.map((r) => (
+        <tr><td class="mono small">{r.plot}</td>
+          <td><P n={r.name} bold={true} /></td>
+          <td class="mono small">{r.date}</td>
+          <td class="small">{r.note}</td></tr>
+      ))}</tbody>
+    </table></div>
+  </section>
+
+  {other.length ? (
+    <section style="margin:1.4rem 0">
+      <h2>Elsewhere <span class="small mono">{other.length}</span></h2>
+      <div class="scroll"><table>
+        <thead><tr><th>Plot</th><th>Name</th><th>Buried</th><th>What the archive knows</th></tr></thead>
+        <tbody>{other.map((r) => (
+          <tr><td class="mono small">{r.plot || "—"}</td>
+            <td><P n={r.name} bold={true} /></td>
+            <td class="mono small">{r.date}</td>
+            <td class="small">{r.note}</td></tr>
+        ))}</tbody>
+      </table></div>
+    </section>
+  ) : null}
+
+  <h2>What this page cannot do</h2>
+  <p><strong>Nudgee's search answers only to a POST</strong>, so a burial there has no address of its
+  own — <strong>not one row on this page can be linked to its source</strong>, and the register says
+  so on every one of them rather than pretending otherwise.</p>
+  <p><strong>And there are no photographs.</strong> Nobody has stood in chapel 082 with a camera. Of
+  everything this archive is missing, <strong>that is the cheapest to fix and the least likely to
+  survive another generation</strong> — headstones weather, and the people who know which niche is
+  whose are the ones in <a href={u("/people")}>the living roster</a>.</p>
+
+  <p class="small" style="margin-top:1.6rem">
+    <a href={u("/australia")}>How the family got to Brisbane</a> ·
+    <a href={u("/register") + "?q=Nudgee"}>The burial records in the register</a></p>
+</Base>

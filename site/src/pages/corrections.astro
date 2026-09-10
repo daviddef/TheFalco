@@ -1,0 +1,84 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import C from "../data/corrections.json";
+const rows = [...C].sort((a, b) => b.when.localeCompare(a.when) ||
+  (a.sev === b.sev ? 0 : a.sev === "major" ? -1 : 1));
+const KIND = { reading: "a misreading", claim: "an argument", identification: "an identification",
+               code: "a fault in the software", privacy: "a privacy failure" };
+const n = (k) => rows.filter((r) => r.what === k).length;
+const major = rows.filter((r) => r.sev === "major").length;
+---
+<Base title="Corrections"
+      eyebrow={`${rows.length} things this archive got wrong and says so`}
+      dek="Every correction is kept on the page it corrects. Nothing here has been deleted — the wrong reading stays beside the right one, because the failure is usually the more useful half.">
+
+  <div class="card" style="margin-bottom:1.2rem;border-left:3px solid var(--accent)">
+    <p><strong>An archive that only shows its successes is advertising, not evidence.</strong>
+    This page is the opposite list: <strong>{rows.length} corrections</strong>, {major} of them
+    material, each naming what was published, what replaced it, and <strong>what caught it</strong>.</p>
+    <p style="margin-top:.6rem"><strong>The rule is that corrections are visible, not silent.</strong>
+    A withdrawn reading stays on the page that carried it, struck through or annotated. Where the
+    family tree still asserts something this archive has discarded — <a href={u("/people/pasquale-falco-of-pasquale-falco-chiara-rivetti")}>Agostino
+    Falcone as generation two's father</a> — he is drawn on the page, struck through and labelled
+    superseded, beside the man who replaced him.</p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.6rem;margin:1rem 0">
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{n("reading")}</div><div class="small">misreadings</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{n("claim")}</div><div class="small">arguments withdrawn</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{n("identification")}</div><div class="small">identifications changed</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{n("code") + n("privacy")}</div><div class="small">faults in the software</div></div>
+  </div>
+
+  <div class="card" style="margin:1.2rem 0">
+    <h3>The one that repeated</h3>
+    <p><strong>Twice in two days, in two different volumes, I read a woman as «MARIA CARFORA» — the
+    single name this archive most wants to find — and twice at 3400 px she was somebody else.</strong>
+    Maria <strong>Carbone</strong> in 1838; Marta <strong>Carfora</strong> in 1837.</p>
+    <p style="margin-top:.6rem"><strong>Two failures of the same kind stop being an anecdote about
+    handwriting and become a measurement of the reader.</strong> The defence that worked both times is
+    now a rule of method: <strong>when a reading is the one you were hoping for, zoom it before you
+    write it down.</strong> It is why <a href={u("/searched")}>one widow's surname is left
+    deliberately blank</a> — at 3400 px it would not resolve between three candidates, and two of them
+    were names being hunted.</p>
+  </div>
+
+  {rows.map((r) => (
+    <section class="corr" id={r.when + "-" + r.what}>
+      <div class="chead">
+        <span class="mono small">{r.when}</span>
+        <span class={"chip " + (r.sev === "major" ? "dis" : "")}>{KIND[r.what] || r.what}</span>
+        {r.sev === "major" ? <span class="chip doc">material</span> : null}
+      </div>
+      <div class="cbody">
+        <p class="was"><span class="lab">was</span> {r.was}</p>
+        <p class="now"><span class="lab">now</span> <strong>{r.now}</strong></p>
+        <p class="small how"><span class="lab">how</span> {r.how}</p>
+        <p class="why">{r.why}</p>
+        <p class="small foot">
+          <span class="dim">Caught by {r.by}.</span>
+          {r.where ? <> · <a href={u(r.where)}>Where it lives now →</a></> : null}
+          {r.plate ? <> · <a href={u("/documents") + "#" + r.plate.replace(/\.jpg$/, "")}>the plate</a></> : null}
+        </p>
+      </div>
+    </section>
+  ))}
+
+  <p class="small" style="margin-top:2rem">
+    How this archive decides what to claim: <a href={u("/method")}>Method</a> ·
+    What it still cannot answer: <a href={u("/open-questions")}>Open questions</a> ·
+    What has been read: <a href={u("/searched")}>Searched</a></p>
+
+<style is:global>
+  .corr{border-top:1px solid var(--rule);padding:1.1rem 0}
+  .corr .chead{display:flex;gap:.5rem;align-items:center;margin-bottom:.5rem;flex-wrap:wrap}
+  .corr .lab{font-family:var(--sans);font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;
+             color:var(--ink-3);margin-right:.5rem}
+  .corr p{margin:.25rem 0}
+  .corr .was{color:var(--ink-2);text-decoration:line-through;text-decoration-color:var(--rule-strong)}
+  .corr .now{color:var(--ink)}
+  .corr .why{margin-top:.5rem;max-width:74ch}
+  .corr .foot{margin-top:.5rem}
+</style>
+</Base>
