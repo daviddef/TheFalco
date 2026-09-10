@@ -48,7 +48,11 @@ tree       = json.load(open(path("data/myheritage-falco-tree.json")))
 # ---------------------------------------------------------------- helpers
 
 def strip_ticks(n):
-    return re.sub(r"[✔⭐★⚠]", "", str(n or "")).strip()
+    """Drop the tree's verification ticks and any punctuation they leave behind.
+    The anchor arrives as «David Ivan Defranceski, ✔ ⭐» and the trailing comma
+    survived, so his own name failed to match itself between two files."""
+    n = re.sub(r"[✔⭐★⚠]", "", str(n or ""))
+    return re.sub(r"[,;·\s]+$", "", n).strip()
 
 def clean(s):
     """Drop parenthetical married names and collapse space — the shape the old
