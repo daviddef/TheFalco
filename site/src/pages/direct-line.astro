@@ -3,7 +3,7 @@ import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import line from "../data/line.json";
 import { people } from "../lib/people.js";
-const shown = line.filter(g => !g.living);
+const shown = line;
 const clean = s => String(s||"").replace(/\s*\(.*?\)\s*/g," ").replace(/\s+/g," ").trim();
 const slugFor = (g) => {
   const p = people.find(q => q.gen === g.gen && clean(q.name) === clean(g.name));
@@ -12,7 +12,7 @@ const slugFor = (g) => {
 const heading = (g) => g.spouse ? `${g.name} and ${g.spouse}` : g.name;
 ---
 <Base title="The direct line"
-      eyebrow="Nine generations, the ninth living and withheld"
+      eyebrow="Nine generations, the ninth living and named"
       dek="From the Arienzo of the 1730s to Brisbane. Each generation is joined to the one above it by a record that names a father — except the first, where the line stops.">
 
   <div class="dline">
@@ -21,13 +21,20 @@ const heading = (g) => g.spouse ? `${g.name} and ${g.spouse}` : g.name;
         <div class="lab">Generation {g.gen}</div>
         <h2>{slugFor(g) ? <a href={u("/people/" + slugFor(g))}>{heading(g)}</a> : heading(g)}</h2>
         <p class="facts">
-          {g.born ? <><span class="k">born</span>{g.born}{g.bornPlace ? ", " + g.bornPlace : ""}</> : null}
-          {g.died ? <><span class="k">died</span>{g.died}{g.diedPlace ? ", " + g.diedPlace : ""}</> : null}
-          {g.married ? <><span class="k">married</span>{g.married}</> : null}
-          {g.trade ? <><span class="k">trade</span>{g.trade}</> : null}
-          <span class={"chip " + (g.confidence === "documented" ? "doc" : "dis")}>{g.confidence}</span>
+          {g.living ? <span class="chip doc">living — named only</span> : <>
+            {g.born ? <><span class="k">born</span>{g.born}{g.bornPlace ? ", " + g.bornPlace : ""}</> : null}
+            {g.died ? <><span class="k">died</span>{g.died}{g.diedPlace ? ", " + g.diedPlace : ""}</> : null}
+            {g.married ? <><span class="k">married</span>{g.married}</> : null}
+            {g.trade ? <><span class="k">trade</span>{g.trade}</> : null}
+            <span class={"chip " + (g.confidence === "documented" ? "doc" : "dis")}>{g.confidence}</span>
+          </>}
         </p>
-        <p class="tale">{g.note}</p>
+        {g.living
+          ? <p class="tale"><strong>This generation is living, so it is named and nothing more.</strong>
+            No date of birth, no place, no detail — the rule is set out under
+            <a href={u("/method")}>Method</a>. The line continues past this page into people who are
+            alive, and the archive stops describing them here.</p>
+          : <p class="tale">{g.note}</p>}
       </section>
     ))}
   </div>
