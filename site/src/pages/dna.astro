@@ -1,0 +1,194 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import P from "../components/P.astro";
+import Src from "../components/Src.astro";
+import dna from "../data/dna.json";
+
+const [carmine, francesca] = dna.people;
+const groups = [...new Set(dna.people.flatMap((p) => p.ethnicity.map((e) => e.group)))];
+const pct = (p, g) => (p.ethnicity.find((e) => e.group === g) || {}).pct || 0;
+const allFits = dna.people.flatMap((p) => p.notable.map((n) => n.fit));
+const best = Math.min(...allFits);
+const distant = allFits.filter((f) => f > 5.0).length;
+---
+<Base title="What the DNA says"
+      eyebrow="Two tests, generation eight"
+      dek="Carmine Falco and Francesca Zampiello were tested. The result is not a surprise — it is a confirmation, and the most useful thing on this page is what it refuses to claim.">
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>Why these results are here at all.</strong> This archive publishes nothing but a name
+    and a relationship for a living person, and DNA is further inside that line than a birth date.
+    <strong><P n="Carmine Falco">Carmine Falco</P> died in 2026</strong> and
+    <strong><P n="Francesca Zampiello (Falco)">Francesca Zampiello</P> on 10 September 2022</strong>.
+    Neither is living. <strong>No living person's DNA appears on this site</strong>, and none will.</p>
+    <p class="small">{dna.test}. Read {dna.read}.
+    <Src label="MyHeritage, not linked" note="The results sit behind a private MyHeritage account. The figures are transcribed here in full so the reasoning can be checked; the account itself is not public." /></p>
+  </div>
+
+  <h2>The headline is that there isn't one</h2>
+  <p class="lede">Two people born <strong>eight kilometres apart</strong> — Arienzo and Arpaia —
+  who married in 1955. At the resolution this test offers, <strong>they are the same person.</strong></p>
+
+  <div class="scroll"><table>
+    <thead><tr><th>Component</th><th>Carmine <span class="small">Arienzo, 1930</span></th>
+      <th>Francesca <span class="small">Arpaia, 1928</span></th><th>Difference</th></tr></thead>
+    <tbody>
+      {groups.map((g) => {
+        const a = pct(carmine, g), b = pct(francesca, g);
+        return (
+          <tr>
+            <td>{g === "South Italian" ? <strong>{g}</strong> : g}</td>
+            <td class="mono">{a ? a.toFixed(1) + "%" : "—"}</td>
+            <td class="mono">{b ? b.toFixed(1) + "%" : "—"}</td>
+            <td class="mono small">{a && b ? (Math.abs(a - b)).toFixed(1) + " pts" : "—"}</td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table></div>
+
+  <p><strong>Both come back around eighty per cent South Italian, and both are pinned by the model to
+  the sub-region <em>Campania</em>.</strong> Every other difference in that table is smaller than the
+  wobble between one version of an ethnicity model and the next.</p>
+
+  <div class="card" style="margin:1.1rem 0">
+    <p><strong>That sameness is the finding, and the registers explain it.</strong> The sweeps count
+    <strong>eleven marriages between Falco and Crisci alone</strong>. Two Zampiello sisters married two
+    Falco brothers. The same twenty-odd surnames — Cioffi, Morgillo, Martone, Giglio, Zimbardo,
+    Sepistella — fill two hundred years of one town's death register, and the Falco street holds
+    Falco, Cioffi, Morgillo and Carfora households at once.</p>
+    <p><strong>This is what endogamy looks like from the inside of a genome.</strong> The DNA is not
+    telling the archive something new; it is measuring, from the other end, the same closed valley the
+    <a href={u("/register")}>register</a> has been documenting act by act. <strong>A confirmation is a
+    result</strong>, and this archive publishes those too.</p>
+  </div>
+
+  <h2>What this does <em>not</em> mean</h2>
+  <p>Both profiles carry small Eastern Mediterranean and North African components —
+  <strong>Syrian {carmine.ethnicity.find(e=>e.group==="Syrian").pct}% and {francesca.ethnicity.find(e=>e.group==="Syrian").pct}%</strong>,
+  Egyptian, Armenian, Tunisian. The obvious reading is a Syrian ancestor, an Egyptian
+  great-grandmother. <strong>That reading is wrong, and it is worth saying so plainly.</strong></p>
+  <ul>
+    <li><strong>Campania was Greek before it was Roman.</strong> Cumae was settled in the eighth
+    century BC; <em>Naples</em> is a Greek name. A Greek component in a Campanian is not an immigrant
+    ancestor, it is the population itself.</li>
+    <li><strong>The whole Mediterranean basin is in these percentages.</strong> Phoenician, Greek,
+    Roman, Byzantine, Arab and Norman contact across three thousand years leaves exactly this kind of
+    small, broad Levantine and North African signal in southern Italian reference populations.
+    <strong>A five per cent «Syrian» reading is a statement about the Bronze Age, not about a
+    great-great-grandparent.</strong></li>
+    <li><strong>These are the least stable numbers in the test.</strong> They are the ones that move
+    when the vendor changes model version — which is why the version, <strong>v2.5</strong>, is
+    recorded at the top of this page rather than left out.</li>
+    <li><strong>«Greek and Albanian» is one cluster, not two.</strong> The test cannot separate them,
+    so neither can this page.</li>
+  </ul>
+
+  <h2>The «Notable Individuals», and the number nobody reads</h2>
+  <p class="lede">Both results offer a ranked list of famous ancient and historical people
+  «most similar to you genetically». <strong>On the vendor's own scale, not one of them is a
+  match.</strong></p>
+
+  <div class="grid two">
+    <div class="card">
+      <h3>What the score means</h3>
+      <p class="small"><em>“{dna.fitDefinition}”</em></p>
+      <div class="scroll"><table>
+        <thead><tr><th>Band</th><th>Genetic Fit</th></tr></thead>
+        <tbody>{dna.fitScale.map((f) => (
+          <tr><td>{f.band === "Distant" ? <strong>{f.band}</strong> : f.band}</td>
+              <td class="mono">{f.band === "Distant" ? <strong>{f.range}</strong> : f.range}</td></tr>
+        ))}</tbody>
+      </table></div>
+    </div>
+    <div class="card">
+      <h3>What the two lists actually score</h3>
+      <p><strong>{distant} of {allFits.length} entries — every single one — score above 5.0.</strong>
+      The closest of them all is <strong>{best}</strong>, on Francesca's list.</p>
+      <p><strong>By MyHeritage's own legend, that is «Distant match».</strong> The list is a ranking of
+      things that do not match, ordered by how much they do not match.</p>
+    </div>
+  </div>
+
+  <div class="scroll"><table>
+    <thead><tr><th>Notable individual</th><th>Where and when</th>
+      <th>Carmine</th><th>Francesca</th><th>Band</th></tr></thead>
+    <tbody>
+      {[...new Set(dna.people.flatMap(p=>p.notable.map(n=>n.name)))].map((nm) => {
+        const a = carmine.notable.find((x) => x.name === nm);
+        const b = francesca.notable.find((x) => x.name === nm);
+        const where = (a || b).where;
+        return (
+          <tr>
+            <td>{nm}</td>
+            <td class="small">{where}</td>
+            <td class="mono">{a ? a.fit.toFixed(3) : "—"}</td>
+            <td class="mono">{b ? b.fit.toFixed(3) : "—"}</td>
+            <td class="small"><strong>Distant</strong></td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table></div>
+
+  <div class="card" style="margin:1.1rem 0">
+    <p><strong>Three things in that table are worth more than the names in it.</strong></p>
+    <ul style="margin:.5rem 0 0">
+      <li><strong>The two lists are almost the same list, in almost the same order.</strong> The top
+      four are identical for both. That is not two people sharing an ancestry with Hungarian princes —
+      it is the list being a function of <em>being South Italian</em>, which both of them are.</li>
+      <li><strong>Francesca scores closer than Carmine on every single entry.</strong> A uniform offset
+      across an entire list is the signature of a difference in overall model fit, <strong>not</strong>
+      of a relationship. Reading it as «Francesca is more related to Beethoven» would be exactly the
+      mistake the shape of the data warns against.</li>
+      <li><strong>The geography does not cohere.</strong> Hungary, Galicia, Mycenaean Pylos, Iron Age
+      Iran, the Copper Age Alps, Bonn, revolutionary Paris. <strong>No family goes there.</strong> A
+      list that lands everywhere at once is not tracking descent.</li>
+    </ul>
+  </div>
+
+  <h2>What the DNA cannot settle here</h2>
+  <p>It is worth being blunt about this, because a test that tells you about the Bronze Age tells you
+  nothing about the questions this archive is actually stuck on. <strong>None of the open questions
+  moves an inch:</strong></p>
+  <ul>
+    <li>whether generation three's wife was <strong>Andreana Crisci</strong> or
+    <strong>Andriana Cioffi</strong> — <a href={u("/crisci")}>Crisci</a>;</li>
+    <li>whether <strong>Maria Carfora</strong> was Filomena Annecchino's mother —
+    <a href={u("/annecchino")}>Annecchino</a>;</li>
+    <li>which <strong>Matteo Falco</strong> is which, or whether <strong>Gioacchino Falco</strong>
+    belongs to the founding couple;</li>
+    <li>whether the gentry <strong>Rivetti</strong> and the labouring Rivetti are one family —
+    <a href={u("/rivetti")}>Rivetti</a>.</li>
+  </ul>
+  <p><strong>An ethnicity percentage cannot name a parent.</strong> Only a record can, which is why the
+  rest of this site looks the way it does.</p>
+
+  <h2>What would actually move it</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Test</th><th>What it would reach</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Y-DNA</strong></td>
+        <td><strong>This is the one to do.</strong> Y-DNA passes father to son, which is precisely the
+        spine of this archive: <a href={u("/direct-line")}>Matteo → Pasquale → Vincenzo → Raffaele →
+        Carmine Antonio → Raffaele → Carminantonio → Carmine</a>. A haplogroup and its matches are
+        <strong>directly testable against the paper line</strong> in a way a percentage never is — and
+        a Y-match to another Falco line would be real evidence about the surname's origin.</td></tr>
+      <tr><td><strong>mtDNA</strong></td>
+        <td>Follows the female line the site has spent this year building — Morgillo, Maione,
+        Annecchino, Zampiello, <a href={u("/ferrara")}>Ferrara</a>. It would test the maternal chain
+        end to end.</td></tr>
+      <tr><td><strong>DNA Matches</strong></td>
+        <td>Far more evidentiary than any of the above. <strong>A shared-centimorgan match with a
+        documented descendant of a named household tests a named claim.</strong> That is the only part
+        of a consumer DNA test that can settle a genealogical question, and it is the part nobody
+        looks at.</td></tr>
+    </tbody>
+  </table></div>
+
+  <p class="small" style="margin-top:1.2rem">Figures transcribed in full from the MyHeritage results of
+  10 September 2026, ethnicity model v2.5. <strong>Where the numbers here disagree with a later
+  version of that model, the version is the reason</strong> — and this page will say so rather than
+  quietly restate them. Method: <a href={u("/method")}>how this archive decides what to claim</a>.</p>
+</Base>

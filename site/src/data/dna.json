@@ -1,0 +1,65 @@
+{
+ "test": "MyHeritage DNA — Ethnicity Estimate v2.5, and Ancient Origins «Notable Individuals»",
+ "read": "10 September 2026",
+ "note": "Both tests were taken by generation eight. Carmine Falco died in 2026; Francesca Zampiello died on 10 September 2022. Neither is a living person, which is why these results appear here at all.",
+ "people": [
+  {
+   "who": "Carmine Falco",
+   "gen": 8,
+   "born": "Arienzo, 8 June 1930",
+   "ethnicity": [
+    {"group": "South Italian", "pct": 80.1, "sub": "Italy · Italy (Campania)", "region": "Europe"},
+    {"group": "Greek and Albanian", "pct": 6.7, "region": "Europe"},
+    {"group": "North Italian", "pct": 2.9, "region": "Europe"},
+    {"group": "Syrian", "pct": 4.9, "region": "Middle East"},
+    {"group": "Egyptian", "pct": 3.2, "region": "Middle East"},
+    {"group": "Armenian", "pct": 2.2, "region": "Asia"}
+   ],
+   "notable": [
+    {"name": "Prince Christophorus Corvinus (Hunyadi)", "fit": 6.483, "where": "Hungary, 15th c."},
+    {"name": "Bishop Teodomiro of Iria Flavia", "fit": 7.372, "where": "Galicia, 9th c."},
+    {"name": "Duke Béla of Macsó", "fit": 7.672, "where": "Hungary, 13th c."},
+    {"name": "Prince Johannes Corvinus (Hunyadi)", "fit": 8.420, "where": "Hungary, 15th c."},
+    {"name": "Griffin Warrior", "fit": 8.962, "where": "Pylos, Mycenaean Greece, 15th c. BC"},
+    {"name": "Hasanlu Lovers", "fit": 9.269, "where": "Iran, 8th c. BC"},
+    {"name": "Ötzi", "fit": 9.955, "where": "the Alps, c. 3200 BC"},
+    {"name": "Báthory Family", "fit": 10.140, "where": "Hungary"},
+    {"name": "Aba Family", "fit": 10.235, "where": "Hungary"},
+    {"name": "Ludwig van Beethoven", "fit": 10.849, "where": "Bonn, 1770–1827"},
+    {"name": "Jean-Paul Marat", "fit": 10.895, "where": "Switzerland/France, 1743–1793"}
+   ]
+  },
+  {
+   "who": "Francesca Zampiello",
+   "gen": 8,
+   "born": "Arpaia, 27 April 1928",
+   "ethnicity": [
+    {"group": "South Italian", "pct": 81.5, "sub": "Italy (Campania)", "region": "Europe"},
+    {"group": "North Italian", "pct": 4.3, "region": "Europe"},
+    {"group": "Greek and Albanian", "pct": 3.9, "region": "Europe"},
+    {"group": "Syrian", "pct": 6.3, "region": "Middle East"},
+    {"group": "Egyptian", "pct": 2.4, "region": "Middle East"},
+    {"group": "Tunisian", "pct": 1.6, "region": "Africa"}
+   ],
+   "notable": [
+    {"name": "Prince Christophorus Corvinus (Hunyadi)", "fit": 5.728, "where": "Hungary, 15th c."},
+    {"name": "Bishop Teodomiro of Iria Flavia", "fit": 6.725, "where": "Galicia, 9th c."},
+    {"name": "Duke Béla of Macsó", "fit": 7.026, "where": "Hungary, 13th c."},
+    {"name": "Prince Johannes Corvinus (Hunyadi)", "fit": 7.341, "where": "Hungary, 15th c."},
+    {"name": "Báthory Family", "fit": 9.173, "where": "Hungary"},
+    {"name": "Aba Family", "fit": 9.220, "where": "Hungary"},
+    {"name": "Griffin Warrior", "fit": 9.310, "where": "Pylos, Mycenaean Greece, 15th c. BC"},
+    {"name": "Hasanlu Lovers", "fit": 9.740, "where": "Iran, 8th c. BC"},
+    {"name": "Ötzi", "fit": 9.770, "where": "the Alps, c. 3200 BC"},
+    {"name": "Ludwig van Beethoven", "fit": 9.942, "where": "Bonn, 1770–1827"}
+   ]
+  }
+ ],
+ "fitScale": [
+  {"band": "Very close", "range": "below 1.0"},
+  {"band": "Close", "range": "1.0 – 3.0"},
+  {"band": "Moderate", "range": "3.0 – 5.0"},
+  {"band": "Distant", "range": "above 5.0"}
+ ],
+ "fitDefinition": "The Genetic Fit score indicates how closely the model matches your DNA, reflecting how well the combination of ancient populations aligns with your genetics. A lower score means a closer match."
+}
