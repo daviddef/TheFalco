@@ -99,9 +99,18 @@ apart (1841) · 52 (1842). **He is younger in 1838 than he was in 1828.**
 
 Also: Gaspare Giglio 70 / 73 / 72 inside three months; Gennaro Morgillo 40 then 48 nineteen days
 apart; Domenico Morgillo 30 here and 28 in 1839; Giuseppe Mastandrea 76 here and 70 in 1839; the
-Lettieri brothers moving eight years in nine months. **Antonio Bernardo** is the useful counter-case
-— 70, 76, 70, 70 across four acts, three of them agreeing. **The ages are not noise; they are a
-number a man gives and a clerk writes, and it is wrong often enough that nothing may rest on it.**
+Lettieri brothers moving eight years in nine months.
+
+> **CORRECTED, 10 September 2026.** This file originally offered **Antonio Bernardo** as *«the useful
+> counter-case — 70, 76, 70, 70 across four acts, three of them agreeing»*, and argued from him that
+> the ages are not random noise. **The 1837 volume then produced him at FIFTY-THREE** (atto 52,
+> June 1837, read at 3400 px) — eight months before the first of those seventies, and on a different
+> street. **Either there are two Antonio Bernardo, both *possidenti*, or one man aged seventeen years
+> in eight months.** The counter-case is withdrawn. It is left standing here, struck through by this
+> note rather than deleted, **because the argument was published and the correction is the point.**
+
+**The ages are what a man says and a clerk writes, and they are wrong often enough that nothing may
+rest on them.**
 
 ---
 
