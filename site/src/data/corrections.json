@@ -334,5 +334,17 @@
   "where": "/crisci",
   "plate": "",
   "by": "the 1814 processetti"
+ },
+ {
+  "when": "2026-09-13",
+  "what": "a hundred finding aids recorded as non-existent",
+  "sev": "major",
+  "was": "«No index, no indice decennale, no marginal surnames — all three checked and absent. ~90 acts/year, ~1,350 total. ONE SCREENSHOT PER ACT.» That recipe governed twenty-eight years of death-register sweeps.",
+  "now": "Antenati lists 100 INDEX VOLUMES for Arienzo alone — 39 for deaths, 44 for marriages, 17 for «diversi» — and 79 more for San Felice a Cancello. Arienzo death indexes run 1809 = an_ua14271, +1 per year, verified at 1818, 1828 and 1834. Each is ONE TO FOUR IMAGES and lists every death of the year with BOTH PARENTS NAMED.",
+  "how": "Reading the catalogue's own facet list instead of paging the volumes. The facet is spelled «Morti, indice» and «Matrimoni, processetti» — query for «Processetti» alone and you get nothing, which is part of how this was missed.",
+  "why": "This is the third wrong negative of the same shape in a single day — the 1814 processetto «not in the volume», San Felice «unread», and now indexes «absent». Each came from checking once, concluding, and writing the conclusion down as a rule that stopped anyone looking again. The acts are still worth reading for what an index omits — street, hour, declarants, the «parente» wording this archive's best finds turn on — but the register is no longer the place to START. Two cautions are published with it: the sort order changes year to year, and the scans are not always complete, so an absence in an index is not a negative.",
+  "where": "/antenati",
+  "plate": "",
+  "by": "reading the catalogue"
  }
 ]
