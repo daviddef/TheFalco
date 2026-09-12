@@ -748,6 +748,81 @@ def self_check(recs):
             bad("somebody is their own ancestor", r["name"])
     return problems, detail
 
+# ------------------------------------------- the register's own prose
+#
+# The register carries 2,768 rows that say, in words, "named as a parent of X"
+# and 544 that say "named as the spouse of X". Until now the graph ignored all
+# of them, which is why thirteen people sat in this archive joined to nobody
+# while a clerk had written down exactly who they belonged to.
+#
+# It is read under the SAME rule the rest of the site uses for a name: an edge
+# is made only when BOTH sides answer to exactly ONE person in the graph. Where
+# a name is shared the join is refused and counted, because a guess dressed as
+# an edge is worse than an isolate. This is why the yield is small relative to
+# the 2,768 — most of those rows name people the graph does not hold.
+import re as _re
+
+_by_name = collections.defaultdict(list)
+for _r in people.values():
+    _by_name[clean(_r["name"]).lower()].append(_r)
+
+def _only(nm):
+    """The one person of this name, or None if none or several."""
+    hits = _by_name.get(clean(strip_ticks(nm or "")).lower(), [])
+    return hits[0] if len(hits) == 1 else None
+
+_prose_added, _prose_refused = 0, collections.Counter()
+for _row in json.load(open(path("site/src/data/register.json"), encoding="utf-8")):
+    _d = _row.get("detail") or ""
+    _who = _only(_row.get("name"))
+
+    _m = _re.match(r"named as a parent of ([^,;·]+)", _d)
+    if _m:
+        _child = _only(_m.group(1))
+        if _who and _child and _who["slug"] != _child["slug"]:
+            put(_who,   "children", _child["slug"], _child["name"], "register")
+            put(_child, "parents",  _who["slug"],   _who["name"],   "register")
+            _prose_added += 1
+        else:
+            _prose_refused["parent-of: a name answering to none or several"] += 1
+        continue
+
+    # A third phrasing, and the one that kept Silvestro Quotolo alone: the row
+    # says "named as ANNA's father" — the child by FORENAME ONLY — and appends
+    # the household, "Don Nicola Rivetti & Donna Anna Quotolo". A bare forename
+    # is not an identification, so it is resolved against THAT HOUSEHOLD and
+    # nowhere else, and only when exactly one member of it answers to the name.
+    _m = _re.match(r"named as ([A-Z][\w'’]+)(?:'s|’s) (father|mother)\b", _d)
+    if _m:
+        _fore, _role = _m.group(1), _m.group(2)
+        _house = [h.strip() for h in _re.split(r"\s*&\s*", _d.split("·")[-1])]
+        _cands = [_only(h) for h in _house]
+        _cands = [c for c in _cands
+                  if c and clean(c["name"]).lower().split()[-1:] != []
+                  and _fore.lower() in clean(c["name"]).lower().split()]
+        _cands = [c for c in _cands if c and (not _who or c["slug"] != _who["slug"])]
+        if _who and len(_cands) == 1:
+            _child = _cands[0]
+            put(_who,   "children", _child["slug"], _child["name"], "register")
+            put(_child, "parents",  _who["slug"],   _who["name"],   "register")
+            _prose_added += 1
+        else:
+            _prose_refused["forename-only: the household does not answer to it"] += 1
+        continue
+
+    _m = _re.match(r"named as the spouse of ([^,;·]+)", _d)
+    if _m:
+        _sp = _only(_m.group(1))
+        if _who and _sp and _who["slug"] != _sp["slug"]:
+            put(_who, "spouses", _sp["slug"], _sp["name"], "register")
+            put(_sp,  "spouses", _who["slug"], _who["name"], "register")
+            _prose_added += 1
+        else:
+            _prose_refused["spouse-of: a name answering to none or several"] += 1
+
+print(f"  register prose read: {_prose_added} edges added, "
+      f"{sum(_prose_refused.values())} refused for an ambiguous name")
+
 out = sorted(people.values(), key=lambda r: (r["surname"], clean(r["name"])))
 _p, _d = self_check(out)
 if _p:

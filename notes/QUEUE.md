@@ -134,8 +134,10 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
   1818, imgs ~40-63 births 1818 **on forms PRE-PRINTED FOR 1816**, every act reading "mille
   ottocento sedici" with "diciotto" written above. At survey resolution it looks like the wrong
   volume. Check for the interlinear correction before rejecting a volume.
-- [ ] **Orazio x Vincenza's marriage** — NOT in San Felice 1817 (`an_ua50229`, read in full).
-      **Next: San Felice Matrimoni 1816 = `an_ua50228`.**
+- [x] **Orazio x Vincenza's marriage — NOT in San Felice 1816 OR 1817.** Both read act by act
+      (`an_ua50229`, 22 imgs; `an_ua50228`, 26 imgs). Do not re-read either.
+- [ ] Remaining window: **San Felice Matrimoni 1813-1815** (`an_ua50225`-`50227`), or another
+      parish if Vincenza Pesce was not of the town. She was 27 in Feb 1818, he 26.
 - [ ] **Two Orazio Morgillo, both 26 in 1818?** One at San Felice (Massaria delle Fosse, 24 Feb),
       one at Arienzo (strada Travo, 6 Jul). One man in two places or two men. Undecided.
 - [ ] **Vincenza Pesce's parents** — lead only: Felice Pesce & Antonia Cerrone, if she is the sister
