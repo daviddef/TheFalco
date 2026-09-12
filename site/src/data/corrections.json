@@ -303,10 +303,10 @@
   "when": "2026-09-13",
   "what": "a living person's birth date, published — for the third time",
   "sev": "major",
-  "was": "The rebuilt Lines diagram printed «9 · Giuseppina Falco — 3 Sep 1955» under the heading BORN HERE, on /lines and on the home page. Generation nine is LIVING.",
+  "was": "The rebuilt Lines diagram printed generation nine's FULL DATE OF BIRTH beside her name, under the heading BORN HERE — on /lines and, because the home page embeds the same figure, on the front page of the site. She is living.",
   "now": "«9 · Giuseppina Falco — living — named only», under the heading LIVING. The 1955 on the Benevento stop now belongs to generation eight's marriage, where it is a fact about two people who are dead.",
   "how": "Sweeping the built site for the date and finding it in the raw HTML of two pages. The visible text of /direct-line was correct; the diagram was not.",
-  "why": "This archive has now leaked this exact birth year THREE times: once through a redaction function reused from the wrong place, once through the timeline's geometry — and now through a diagram I built myself on the day this correction was written, hours after re-reading the standing rule. Textual fixes have not held, so THE FIX IS STRUCTURAL: the diagram now looks every date up against the person graph and prints «living — named only» instead, whatever the underlying data says. Data can be wrong; the guard cannot be bypassed by editing a string.",
+  "why": "This archive has now leaked this exact birth year THREE times: once through a redaction function reused from the wrong place, once through the timeline's geometry — and now through a diagram I built myself on the day this correction was written, hours after re-reading the standing rule. Textual fixes have not held, so THE FIX IS STRUCTURAL: the diagram now looks every date up against the person graph and prints «living — named only» instead, whatever the underlying data says. Data can be wrong; the guard cannot be bypassed by editing a string. And this entry had to be written twice: the first version QUOTED THE DATE IT WAS CORRECTING, which republished it on a page nobody would think to check. The release gate caught that on its first run. A correction must describe a leak without reproducing it.",
   "where": "/lines",
   "plate": "",
   "by": "auditing the built HTML, not the source"
