@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
+import Src from "../components/Src.astro";
 import { u } from "../lib/url.js";
 import register from "../data/register.json";
 
@@ -46,9 +47,9 @@ const elders = [
   on 24 February 1818, daughter of Orazio, dead at Arienzo six days before her husband in April 1880.
   That marriage is the second of the two welds that make this family: the Crisci married in twice in
   generation two, the Morgillo once in generation four.</p>
-  <p>But Angela Rosa arrived from outside. <strong>Orazio Morgillo's own house has never been
-  reconstructed</strong>, and until the 1826–28 registers were read, the Morgillo of Arienzo were a
-  scatter of names with no households behind them. They are now two houses, a hamlet and a street.</p>
+  <p>But Angela Rosa arrived from outside, and for years <strong>Orazio Morgillo's own house could
+  not be reconstructed at all</strong>. <strong>It can now.</strong> Her birth act has been found at
+  San Felice a Cancello — see below — and it gives him an age, a trade and an address.</p>
 
   <h2>The house on Monticello de' Cappuccini</h2>
   <p>A hamlet on the hill above the town, beside the Capuchin convent. Its Morgillo and its Rivetti
@@ -158,6 +159,43 @@ const elders = [
     <tbody>{years.map((y) => (<tr><td class="mono">{y}</td><td class="mono">{byYear[y]}</td></tr>))}</tbody>
   </table></div>
 
+  <h2>Angela Rosa Morgillo's birth act — found</h2>
+  <div class="card" style="margin-bottom:1.1rem;border-left:3px solid var(--accent)">
+    <blockquote style="margin:0 0 .7rem"><p>L'anno mille ottocento <strong>diciotto</strong> a' dì
+    <strong>ventiquattro</strong> del mese di <strong>Febrajo</strong> ad ore tredici … è comparso
+    <strong>ORAZIO MORGILLO</strong> di anni <strong>ventisei</strong>, di professione
+    <strong>bracciale</strong>, domiciliato in detto Comune <strong>MASSARIA DELLE FOSSE</strong>, ed
+    ha dichiarato che nel detto dì ad ora <strong>sette</strong> è nato una bambina nella sua propria
+    casa di esso dichiarante, e da <strong>VINCENZA PESCE</strong> d'anni <strong>ventisette</strong>,
+    di professione <strong>filatrice</strong>, sua legittima moglie … a cui si è dato il nome di
+    <strong>ANGIOLA ROSA</strong>.</p></blockquote>
+    <p class="small">San Felice a Cancello, Nati 1818, atto 32.
+    <Src plate="angela-rosa-morgillo-birth-1818.jpg" label="the act" /></p>
+  </div>
+
+  <p><strong>This is the first primary record of generation four's mother-in-law and father-in-law.</strong>
+  <P n="Orazio Morgillo" bold={true} /> and <strong>VINCENZA PESCE</strong> were carried on the family
+  tree and nowhere else. They are now in a register, with ages, a trade and an address:</p>
+  <ul>
+    <li><strong>Orazio Morgillo</strong>, twenty-six in February 1818, so born about
+    <strong>1792</strong> — a <em>bracciale</em>, a day-labourer.</li>
+    <li><strong>Vincenza Pesce</strong>, twenty-seven, a <em>filatrice</em>, so born about
+    <strong>1791</strong>. <strong>The first date this archive has ever had for her.</strong></li>
+    <li><strong>The Massaria delle Fosse</strong> — a <em>massaria</em> is a farmstead, not a street.
+    Angela Rosa was born on a farm, at seven in the morning, in her father's own house.</li>
+    <li>Her name at the font is <strong>Angiola Rosa</strong>.</li>
+  </ul>
+  <div class="card" style="margin:1.1rem 0">
+    <p><strong>And it settles the shape of the search that found it.</strong> The 1817 marriages of
+    San Felice were read first and did not contain this couple — a negative published below. The
+    birth act reached them anyway, which is the better lesson: <strong>a birth act names both parents
+    outright, and a marriage act has to be found first.</strong></p>
+    <p class="small">One caution, recorded rather than resolved. An <em>Orazio Morgillo, aged
+    twenty-six, of strada Travo at ARIENZO</em>, declares a death there on 6 July 1818 — the same
+    name and the same age, in a different town, five months later. One man with land in both places,
+    or two men of an age. <strong>Not decided here.</strong></p>
+  </div>
+
   <h2>San Felice a Cancello — reachable all along</h2>
   <div class="card" style="margin-bottom:1.1rem;border-left:3px solid var(--accent)">
     <p>This page said, until 13 September 2026, that San Felice a Cancello was <em>“a separate comune
@@ -172,6 +210,8 @@ const elders = [
   </div>
 
   <h3>The 1817 marriages, read — and Orazio is not in them</h3>
+  <p class="small"><strong>Read this after the birth act above, not instead of it.</strong> This
+  sweep was the first attempt and it failed; the birth act is what succeeded.</p>
   <p>Angela Rosa was born at San Felice on 24 February 1818, so her parents should have married in
   1816 or 1817, and in the bride's parish. <strong>San Felice's marriages for 1817 — twenty-two
   images, about forty acts — have now been read act by act. There is no Orazio Morgillo and no
