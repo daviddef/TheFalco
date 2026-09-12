@@ -4,6 +4,8 @@ import { u } from "../lib/url.js";
 import households from "../data/households.json";
 import { findPerson } from "../lib/people.js";
 import HouseholdTree from "../components/HouseholdTree.astro";
+import P from "../components/P.astro";
+import Src from "../components/Src.astro";
 import line from "../data/line.json";
 
 const lineNames = new Set(line.map(g => g.name.split(" (")[0].trim()));
@@ -36,6 +38,35 @@ const lineHouseholds = households.filter(h => h.members.some(m => isLine(m.perso
       <p>are <strong>not</strong> in the direct line. The line is {lineNames.size} people; nearly
       everything else on this site is somebody else's family.</p>
     </div>
+  </div>
+
+  <h2>A Falco household at San Felice a Cancello</h2>
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>Found on 13 September 2026, in the Arienzo marriage register of 1815.</strong>
+    <P n="Luigi Falco" bold={true} />, eighteen, a <strong><em>sapunaro</em> — a soap-maker</strong>,
+    married at Arienzo that year. He was a minor, so his parents had to consent and the act names
+    them: <strong>SEBASTIANO FALCO</strong>, of the same trade, and <strong>COLOMBA
+    MONTEFUSCO</strong>, fifty-five, a <em>filatrice</em>.
+    <Src plate="luigi-falco-marriage-1815.jpg" label="the act" /></p>
+    <p style="margin-top:.6rem"><strong>They do not live at Arienzo.</strong> The act puts them in
+    the «<strong>Comune de' SEI CASALI</strong>» — the Six Hamlets of Arienzo, which is the name
+    <a href={u("/morgillo")}>San Felice a Cancello</a> uses for itself in its own registers — on
+    <strong>strada Croce di San Felice</strong>.</p>
+  </div>
+  <p><strong>Why that matters, and how far it does not.</strong> Generation four's wife,
+  <P n="Angela Rosa Morgillo" bold={true} />, <strong>was born at San Felice on 24 February
+  1818</strong> — three years after this act, in the town where these Falco were living. This
+  archive had always treated San Felice as somewhere the family merely married into. There were
+  Falco there.</p>
+  <div class="card" style="margin:1.1rem 0">
+    <p><strong>No connection to this line is claimed, and the trade argues against one.</strong>
+    Every Falco this archive has traced is a <em>contadino</em>, a <em>colono</em> or a
+    <em>bracciale</em> — people of the land. Sebastiano and Luigi make soap. A shared surname in one
+    district is suggestive and is not evidence, and that rule is not suspended because the
+    coincidence is a pleasing one.</p>
+    <p class="small"><strong>What would test it:</strong> a death act for Sebastiano or Colomba in
+    San Felice's own registers — newly reachable — naming Sebastiano's parents; Luigi's baptism,
+    about 1797; and the processetto for this marriage, which carries both baptism extracts.</p>
   </div>
 
   <h2>Households the line passes through</h2>
