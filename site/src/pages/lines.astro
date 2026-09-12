@@ -10,6 +10,18 @@ import BranchRivers from "../components/BranchRivers.astro";
 
   <BranchRivers />
 
+  <div class="card" style="margin-bottom:1.1rem;border-left:3px solid var(--rule,currentColor)">
+    <p><strong>Generation nine is living, and this diagram got that wrong on the day it was built.</strong>
+    Its first version printed her full date of birth under the heading <em>BORN HERE</em>. The rule on
+    this site is that living people are named and nothing more — no date, no place, no detail — and
+    this archive has now broken it with that same date <strong>three times</strong>.</p>
+    <p class="small">So the fix is not a corrected string. The figure now checks every date it is
+    about to print against the person graph and prints «<em>living — named only</em>» instead if the
+    person is alive, <strong>whatever the data behind it says</strong>. The 1955 beside Benevento is
+    generation eight's marriage year — a fact about two people who have died.
+    <a href={u("/corrections")}>Corrections →</a></p>
+  </div>
+
   <h2>How to read the diagram</h2>
   <p><strong>The spine is places, not names.</strong> Names hang beneath the place they belong to.
   A family drawn <em>above</em> the channel married into the line <strong>and brought a new town with

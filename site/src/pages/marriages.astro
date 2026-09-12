@@ -41,7 +41,8 @@ const acts = register.filter((r) => /matrimonio|marriage/i.test(r.detail || ""))
 ---
 <Base title="Marriages"
       eyebrow={`${couples.length} couples the archive can name`}
-      dek="Who married whom, where the archive knows it — and, on every row, whether it knows because a clerk wrote it down, because the line argues it, or because the family tree says so.">
+      dek="Who married whom, where the archive knows it — and, on every row, whether it knows because a clerk wrote it down, because the line argues it, or because the family tree says so."
+      noindex={true}>
 
   <div class="card" style="margin-bottom:1.2rem">
     <p><strong>A marriage is the hardest thing in this archive to prove and the most valuable to

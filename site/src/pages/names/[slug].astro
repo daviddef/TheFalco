@@ -13,6 +13,7 @@
  * It never merges.
  */
 import Base from "../../layouts/Base.astro";
+import { nameTouchesLiving } from "../../lib/people.js";
 import { u } from "../../lib/url.js";
 import register from "../../data/register.json";
 import { people } from "../../lib/people.js";
@@ -64,7 +65,8 @@ const withLink = rows.filter((r) => r.link).length;
       eyebrow={`${rows.length} record${rows.length === 1 ? "" : "s"} carry this name${span ? " · " + span : ""}`}
       dek={rows.length === 1
         ? "One record in this archive carries this name."
-        : `This is a NAME, not a person. ${rows.length} records carry it, and they may belong to several different people.`}>
+        : `This is a NAME, not a person. ${rows.length} records carry it, and they may belong to several different people.`}
+      noindex={nameTouchesLiving(name)}>
 
   {rows.length > 1 ? (
     <div class="card" style="margin-bottom:1.2rem;border-left:3px solid var(--accent)">

@@ -192,7 +192,8 @@ const nLiving = count((r) => r.living);
 ---
 <Base title="The people"
       eyebrow="Everyone this archive can name"
-      dek={`${distinct.toLocaleString()} people the archive can name, drawn from ${nRecords.toLocaleString()} records — filterable by family, by place and by name. Every one has a page.`}>
+      dek={`${distinct.toLocaleString()} people the archive can name, drawn from ${nRecords.toLocaleString()} records — filterable by family, by place and by name. Every one has a page.`}
+      noindex={true}>
 
   <div class="card" style="margin-bottom:1.2rem">
     <p><strong>This is everyone, one row per person.</strong> Every named individual the archive

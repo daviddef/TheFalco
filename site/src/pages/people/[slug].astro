@@ -1,7 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
-import { people, bySlug } from "../../lib/people.js";
+import { people, bySlug, touchesLiving } from "../../lib/people.js";
 import households from "../../data/households.json";
 import PersonTree from "../../components/PersonTree.astro";
 import HouseholdTree from "../../components/HouseholdTree.astro";
@@ -47,7 +47,7 @@ const dek = p.living
 <Base title={p.name}
       eyebrow={p.gen ? `Generation ${p.gen} of the direct line` : (p.household || p.surname)}
       dek={dek}
-      noindex={!!p.living}>
+      noindex={touchesLiving(p)}>
 
   <PersonTree person={p} />
 
