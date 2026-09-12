@@ -190,7 +190,7 @@ down as read rather than left out.
 | 43R | 29 Aug | Giuseppa Gimbardo | fu Antonio Gimbardo & Carmina Diglio | ved. Giuseppe Saccavino | Sabbatino Altavilli 38 contadino, strada Capodiuomo; Aniello Laudato 20 contadino |
 | 44L | 30 Aug | Antonia Sossi | fu Pasquale Sossi & Lucrezia Fornella | — | Luigi Verdicchio 40 fondachiere, strada Terra Murata; Tomaso della Silva 72 |
 | 44R | 4 Sep | Rosa Sossi | fu Matteo Sossi & Teresa Diglio | — | Raffaele Vaccubia 45 vaticale, strada Capodiuomo; Giuseppe Diglio 30 contadino |
-| 45L | 7 Sep | **Marcello RIVETTI** | **Giuseppe Rivetti & Lucia Silvestro** | — | **Salvatore Rivetti 30 vaticale; Francesco Rivetti 47 vaticale**, both strada Sant'Andrea — **parenti**. NOTE the Rivetti ages will not reconcile: Salvatore is 44 in Sept 1817 and 30 here; Francesco is 35 in Apr 1817, 30 in Sept 1817 and 47 here. |
+| 45L | 7 Sep | **Marcello RIVETTI** | **Giuseppe Rivetti & Lucia Silvestro** | — | **Salvatore Rivetti 30 vaticale; Francesco Rivetti 47 vaticale**, both strada Sant'Andrea — **parenti**. (NOTE the Rivetti ages will not reconcile: Salvatore is 44 in Sept 1817 and 30 here; Francesco is 35 in Apr 1817, 30 in Sept 1817 and 47 here.) |
 | 45R | 10 Sep | Mariangela Gimbardo | fu Raffaele Gimbardo & Giovanna Casale | ved. **Arcangelo Morgillo** | Giovan Maria Sossi 40 contadino, strada Santa Lucia; Pietro Sossi 47 contadino |
 | 46L | 11 Sep | Carmina Diglio | Agostino Diglio & Francesca Cimmino | — | Francesco Cimmino 55 fruttajolo, strada Capodiuomo; Tomaso Anigale 36 fruttajolo |
 | 46R | 16 Sep | Francescantonio d'Ambrosio | fu Clemente d'Ambrosio & **Giuliana Pacchiotti** (she died 27 Nov 1816 — see the 1816 volume) | — | Alessandro d'Ambrosio 42 bottegajo; Grazia d'Ambrosio 32 vaticale |

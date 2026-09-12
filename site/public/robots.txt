@@ -1,0 +1,28 @@
+# The Falco Archive — https://daviddef.github.io/TheFalco/
+#
+# Living people on this site are published with a NAME AND A RELATIONSHIP ONLY:
+# never a date of birth, a place, a record, or a photograph. Their individual
+# pages additionally carry <meta name="robots" content="noindex, nofollow">.
+#
+# This file asks crawlers not to index them either. It is a request, not a
+# control — the pages remain publicly reachable to anyone with the link.
+
+User-agent: *
+Allow: /
+
+# Ask the large language-model crawlers to leave the whole archive alone.
+# The records are public; the family's living members did not ask to be training data.
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
