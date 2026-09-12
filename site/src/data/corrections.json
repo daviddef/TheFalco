@@ -250,5 +250,17 @@
   "where": "/processetti",
   "plate": "",
   "by": "reading all seventeen bundle covers"
+ },
+ {
+  "when": "2026-09-13",
+  "what": "a diagram that misled",
+  "sev": "major",
+  "was": "The Lines diagram drew the ZAMPIELLO as a separate stream running alongside this family, omitted SAN FELICE A CANCELLO and FORCHIA as places entirely, and used one visual grammar — a dot on a lane — for places, for people, and once for a ship.",
+  "now": "A place-spine. The Zampiello, Annecchino and Morgillo are drawn JOINING the line at the generation and town where they join. Names sit under the place they belong to.",
+  "how": "Checked the diagram's places against places.json and the atlas. It showed seven places; it was missing San Felice a Cancello — where Angela Rosa Morgillo, generation four's wife, was born — and never drew Forchia as the Annecchino's town even though that marriage is the reason generation eight was born there. Two of the five lanes had people, not places, as their nodes, and one had the ship Sydney.",
+  "why": "The Zampiello error was the worst of it: drawn as a parallel river, they read as a different family being compared with this one, when Francesca Zampiello married Carmine Falco in 1955 and from generation eight onward they ARE this family. A diagram that is wrong is worse than no diagram, because nobody checks a picture against the prose. Raised by David, who spotted all three faults from the image alone.",
+  "where": "/lines",
+  "plate": "",
+  "by": "the reader"
  }
 ]
