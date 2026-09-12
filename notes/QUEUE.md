@@ -102,8 +102,11 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       then 1837, 1833, 1838, working outward. Twelve years remain.
 - [ ] **Trace the strada Camellara Falco** — Michele and Francesco, both contadini, both on that
       street in 1836. Nearest thing yet to a peasant Falco cluster; likely kin to the line. (`an_ua14337`, 46 pp.),
-      then 1836, 1834, 1837, working outward. ~90 acts/year, ~1,350 total. **No index, no indice
-      decennale, no marginal surnames** — all three checked and absent. One screenshot per act.
+      then 1836, 1834, 1837, working outward. ~90 acts/year, ~1,350 total. ~~**No index, no indice
+      decennale, no marginal surnames** — all three checked and absent. One screenshot per act.~~
+      **WRONG — struck 13 Sep 2026. THERE ARE 100 INDEX VOLUMES FOR ARIENZO** (39 deaths, 44
+      marriages, 17 diversi). Death indexes: **1809 = `an_ua14271`, +1/year**, 1-4 images each,
+      listing every death of the year WITH BOTH PARENTS NAMED. See `notes/antenati-indexes.md`.
       Crop recipe: left act `pct:4,27,46,22`, right act `pct:52,27,46,22`, render width 2000.
       Look for: contadino, aged 62-76, marito di Chiara Rivetti, figlio di Matteo Falco e Francesca Crisci.
 - [ ] (superseded wording) — `an_ua14331` (1829) to `an_ua14345`
