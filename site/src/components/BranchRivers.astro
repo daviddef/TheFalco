@@ -1,134 +1,237 @@
 ---
 import { u } from "../lib/url.js";
-/* The Falco of Arienzo are not one family, and the ones this archive can
-   actually join to each other are fewer still. Each lane is a strand the
-   registers give us; the dots are places a document can be put; the fan
-   on the right is where that strand ends up — or that it ends nowhere. */
-const LANES = [
-  {
-    key: "line", colour: "var(--accent)", label: "The line, out of Arienzo by marriage",
-    href: "/direct-line", read: "The spine →", conf: "documented",
-    nodes: [
-      ["Arienzo", "1767", "Pasquale Falco baptised in the Collegiate Church of Sant'Andrea, 24 October — the record naming Matteo Falco and Francesca Crisci"],
-      ["Camellara", "1830", "Rosa Falco, Pasquale's sister, dies on strada Camellara — her act names Matteo Falco and Francesca Crisci a second time, from a second child"],
-      ["Camellara", "1834", "Pasquale dies at five in the morning on the same street; his son Vincenzo's household is there too"],
-      ["Arpaia", "1913", "Gerardo Falco registered at Arpaia, four kilometres away and across the provincial line into Benevento"],
-      ["Forchia", "1930", "Carmine Falco born at Forchia — an Annecchino town, and Carminantonio had married Filomena Annecchino"],
-      ["Benevento", "1955", "Giuseppina Falco born at Benevento, the last generation before the ship"],
-    ],
-    ends: ["Brisbane"],
-  },
-  {
-    key: "camellara", colour: "var(--ochre)", label: "The Camellara neighbours — one joined, three not",
-    href: "/wider-family", read: "The wider family →", conf: "documented · one kinship proved",
-    nodes: [
-      ["Michele", "1832", "Michele Falco and Vincenza Esposito, from their daughter Giovanna's death act — a second Falco couple of the founding generation"],
-      ["Francesco", "1832", "Francesco Falco and Raffaela Falco bury a six-month-old daughter, Carmina — a Falco married to a Falco"],
-      ["Michelangelo", "1831", "Michelangelo Falco and Mariantonia Vigliotta bury Anna, thirteen months — and VINCENZO FALCO of the direct line declares it as «parente», a kinsman. The one household on this street that is proved kin"],
-      ["Michele", "1834", "A Michele Falco of the same street buries Maria Rosa, sixteen, and in 1836 a son of fourteen months"],
-    ],
-    ends: ["Michelangelo — kin", "The other three — not"],
-  },
-  {
-    key: "paolisi", colour: "var(--terra)", label: "Out of Paolisi — the oldest claim",
-    href: "/open-questions", read: "Open questions →", conf: "documented · link unproven",
-    parallel: true,
-    nodes: [
-      ["Paolisi", "1714", "Francesco Falco, the earliest Arienzo Falco household with a stated place of origin"],
-      ["Arienzo", "1726", "and still at Arienzo twelve years later, with children in the books"],
-    ],
-    ends: ["Possibly Matteo's kin", "Nothing joins them"],
-  },
-  {
-    key: "zampiello", colour: "var(--r-italy)", label: "The Zampiello, out of Arpaia",
-    href: "/zampiello", read: "The Zampiello →", conf: "documented",
-    nodes: [
-      ["Arpaia", "1895", "Angelo Zampiello born at Arpaia — a surname with about 123 bearers in the world"],
-      ["Four sisters", "1925–32", "Francesca, Caterina, Raffaela and Filomena, and two Falco brothers marrying two of them"],
-      ["Sydney", "1964", "The ship Sydney reaches Brisbane, 26 March 1964"],
-    ],
-    ends: ["Brisbane", "Servodio", "Miceli"],
-  },
-  {
-    key: "gentry", colour: "var(--r-habsburg)", label: "The gentry Falco of Arienzo — not this family",
-    href: "/antenati", read: "The registers →", conf: "documented · a different household",
-    parallel: true,
-    nodes: [
-      ["Don Francesco", "1836", "Don Francesco Falco, proprietario — a landowner, not a contadino"],
-      ["Donna Raffaela", "1836", "His daughter, a nun of the Ave Gratia Plena, dead at sixty-seven"],
-    ],
-    ends: ["Elsewhere in the town", "Never joined"],
-  },
+/* A PLACE diagram, not a name diagram.
+ *
+ * The first version of this drew five parallel "rivers" whose nodes were
+ * sometimes places, sometimes people, and once a ship — and it drew the
+ * Zampiello as a separate stream when in fact they MARRIED INTO the line.
+ * Three families that brought a new town with them were missing altogether.
+ *
+ * So: the spine is the movement between places. Names hang under the place
+ * they belong to. A family that married in is a tributary joining the spine at
+ * the place and generation where it joins. The strands that genuinely never
+ * join are drawn touching the same ground with a visible GAP, because "these
+ * do not connect" is the whole argument of this page. */
+
+const Y_SPINE = 300;
+const A0 = 96, A1 = 520;              /* the Arienzo reach: seven generations */
+const GX = (g) => A0 + (g - 1) * ((A1 - A0) / 6);
+const X_FORCHIA = 646, X_BENEV = 818, X_BRIS = 990;
+
+const ARIENZO = [
+  ["1", "Matteo Falco", "by c. 1735", "Arienzo",
+   "The head of the line. Named as the father in three of his children's death acts, and in a notarial act of 8 December 1814 that calls his son «Pasquale Falco del fu Matteo» — the earliest document that names him and the earliest that proves him dead."],
+  ["2", "Pasquale Falco", "24 Oct 1767", "Arienzo",
+   "Baptised in the Collegiate Church of Sant'Andrea. Died at five in the morning on 1 October 1834 in his own house on strada Camellara."],
+  ["3", "Vincenzo Falco", "1 Feb 1792", "strada Camellara",
+   "Baptised Vincenzo RAFFAELE, liber IX fol. 47v. Married Adriana Crisci of the same street on 15 December 1814."],
+  ["4", "Raffaele Falco", "10 May 1818", "strada Camellara",
+   "Born at three in the afternoon in his father's own house on strada Camellara. Married Angela Rosa Morgillo, who was born at SAN FELICE A CANCELLO — the first time this family's geography leaves Arienzo at all."],
+  ["5", "Carmine Antonio Falco", "10 Jul 1850", "Arienzo",
+   "Married Giovanna Arricole at Arienzo in 1872."],
+  ["6", "Raffaele Falco", "6 Apr 1873", "Arienzo",
+   "Married Costanza Maione of Arienzo on 26 September 1897."],
+  ["7", "Carminantonio Falco", "11 Jan 1901", "Arienzo",
+   "The last generation born at Arienzo. He married Filomena Annecchino — and the Annecchino were of FORCHIA, which is why his son was born there."],
 ];
 
-const W = 1180;
-const BANDS = [ {y0:34,sp:112,h:150}, {y0:192,sp:268,h:140}, {y0:340,sp:408,h:126},
-                {y0:478,sp:552,h:140}, {y0:630,sp:698,h:126} ];
-const X0 = 150, X1 = 660, XE = 812;
+const STOPS = [
+  { key: "forchia", name: "Forchia", x: X_FORCHIA, prov: "Benevento", when: "1930",
+    people: [["8", "Carmine Falco", "8 Jun 1930", "Forchia",
+      "Born at Forchia, not Arienzo — the family had followed his mother's people. He married Francesca Zampiello of Arpaia at Benevento in 1955."]] },
+  { key: "benevento", name: "Benevento", x: X_BENEV, prov: "the city", when: "1955",
+    people: [["9", "Giuseppina Falco", "3 Sep 1955", "Benevento",
+      "Born at Benevento, the last generation born in Italy. She was eight years old when the family sailed."]] },
+  { key: "brisbane", name: "Brisbane", x: X_BRIS, prov: "Queensland · Nudgee", when: "1964",
+    arrival: true,
+    people: [["—", "Carmine & Francesca", "arrived 26 Mar 1964", "Genoa → Brisbane",
+      "Not a birthplace but a landfall. They came on the ss SYDNEY of the Lauro Lines, official number 668, master Leopoldo Cafiero, Genoa to Brisbane — «FALCO Carmine — Tourist — Naples — BRISBANE — 43 Mount Joy, Petrie Terrace», an address notified nearly seven months before they sailed. Giuseppina was eight. The family's graves are at Nudgee."]] },
+];
+
+/* Families that married in AND brought a new town with them. */
+const TRIBS = [
+  { fam: "Morgillo", from: "San Felice a Cancello", dist: "7 km west",
+    who: "Angela Rosa Morgillo", yr: "b. 24 Feb 1818", gen: "4", x: GX(4), y: 200,
+    href: "/morgillo",
+    why: "The first town other than Arienzo to enter this line. She was the daughter of Orazio Morgillo, and she died six days before her husband in 1880." },
+  { fam: "Annecchino", from: "Forchia", dist: "5 km north-east",
+    who: "Filomena Annecchino", yr: "b. 10 Apr 1897", gen: "7", x: GX(7), y: 128,
+    href: "/annecchino",
+    why: "The marriage that moved the family. Generation eight was born at Forchia because generation seven had married an Annecchino of Forchia — the tributary and the next stop on the spine are the same town." },
+  { fam: "Zampiello", from: "Arpaia", dist: "4 km north, across into Benevento",
+    who: "Francesca Zampiello", yr: "b. 27 Apr 1928", gen: "8", x: X_BENEV, y: 56,
+    href: "/zampiello",
+    why: "A surname with about 123 bearers in the world. Angelo Zampiello was born at Arpaia in 1895; four of his daughters married, two of them to Falco brothers. Francesca married Carmine Falco at Benevento in 1955 and sailed with him in 1964. THE ZAMPIELLO ARE NOT A SEPARATE FAMILY — they are this one, from generation eight onward." },
+];
+
+/* Marriages made inside Arienzo itself — no new town, so no tributary. */
+const INTOWN = [
+  { fam: "Crisci", gens: "1", x: GX(1), note: "Francesca Crisci, wife of Matteo Falco — named in three of her children's death acts", href: "/crisci" },
+  { fam: "Rivetti", gens: "2", x: GX(2), note: "Chiara Rivetti, daughter of the late Nicola Rivetti, a contadino and not a Don", href: "/rivetti" },
+  { fam: "Crisci", gens: "3", x: GX(3), note: "Adriana Crisci of strada Camellara, baptised 30 November 1796 — the second Crisci in the spine, and one of eleven crossings between the two surnames", href: "/crisci" },
+  { fam: "Arricole", gens: "5", x: GX(5), note: "Giovanna Arricole, married at Arienzo in 1872", href: "/wider-family" },
+  { fam: "Maione", gens: "6", x: GX(6), note: "Costanza Maione of Arienzo, married 26 September 1897", href: "/maione" },
+];
+
+/* Strands that touch the same ground and do NOT join. Drawn with a real gap. */
+const APART = [
+  { key: "camellara", label: "Four Falco households on strada Camellara", y: 682,
+    colour: "var(--ochre)", href: "/wider-family", read: "The wider family →",
+    joined: "Michelangelo Falco — PROVED KIN",
+    joinedWhy: "On 25 May 1831 Vincenzo Falco of this line declared the death of Michelangelo's thirteen-month-old daughter Anna and is recorded as «PARENTE della defunta» — a kinsman, where the other declarant is only a «vicino», a neighbour. The clerk drew the distinction himself. The degree is not stated.",
+    apartLabel: "Michele · Francesco · a second Michele — NOT joined",
+    apartWhy: "Three more Falco households on the same short street in the same decade. Nothing in any register joins them to the line or to each other. A shared surname in one small town is suggestive and is not evidence." },
+  { key: "paolisi", label: "Out of Paolisi — the oldest Falco claim", y: 786,
+    colour: "var(--terra)", href: "/open-questions", read: "Open questions →",
+    joined: null,
+    apartLabel: "Francesco Falco, Paolisi 1714 → Arienzo 1726 — NOT joined",
+    apartWhy: "The earliest Arienzo Falco household with a stated place of origin, twelve years before Matteo's generation. It would be a satisfying answer to where the family came from. Nothing whatever joins it to this line." },
+  { key: "gentry", label: "The gentry Falco of Arienzo", y: 862,
+    colour: "var(--r-habsburg)", href: "/antenati", read: "The registers →",
+    joined: null,
+    apartLabel: "Don Francesco Falco, proprietario · Donna Raffaela, nun — NOT joined",
+    apartWhy: "A landowner and his daughter, a nun of the Ave Gratia Plena dead at sixty-seven in 1836. Ours are contadini. Plainly a different household living elsewhere in the same town." },
+];
+
+const H = 928;
 ---
 <figure class="rivers">
-  <svg viewBox="0 0 1180 774" role="img" aria-labelledby="riversttl">
-    <title id="riversttl">The Falco strands of Arienzo, and what each of them joins to</title>
-    {LANES.map((lane, li) => {
-      const b = BANDS[li];
-      const n = lane.nodes.length;
-      const step = n > 2 ? (X1 - X0) / (n - 1) : (X1 - X0) / 2;
-      const lineEnd = X0 + step * (n - 1);
-      const ends = lane.ends;
-      const spread = Math.min(b.h / 2 - 18, 16 + ends.length * 14, b.sp - (b.y0 + 48));
-      return (
+  <svg viewBox={`0 0 1180 ${H}`} role="img" aria-labelledby="riversttl">
+    <title id="riversttl">Where this family lived, in the order they lived there — and which other families joined them, and which never did</title>
+
+    <text x="12" y="26" class="band-ttl" fill="var(--ink-2)">Families that married in, and brought a new town with them</text>
+
+    {TRIBS.map((t) => (
+      <g class="node trib" tabindex="0" role="button"
+         data-place={t.from} data-year={t.yr} data-lane={`${t.fam} — joins at generation ${t.gen}`}
+         data-why={`${t.who}, ${t.yr}. ${t.why}`}>
+        <title>{t.from} — {t.fam}, joins the line at generation {t.gen}</title>
+        <path d={`M ${t.x} ${t.y + 16} C ${t.x} ${t.y + 90}, ${t.x} ${Y_SPINE - 70}, ${t.x} ${Y_SPINE - 12}`}
+              fill="none" stroke="var(--r-italy)" stroke-width="2.4" opacity="0.55" />
+        <circle cx={t.x} cy={t.y + 16} r="5.5" fill="var(--panel)" stroke="var(--r-italy)" stroke-width="2.4" />
+        <text x={t.x} y={t.y} class="trib-place">{t.from}</text>
+        <text x={t.x} y={t.y + 34} class="trib-fam" fill="var(--r-italy)">{t.fam}</text>
+        <text x={t.x} y={t.y + 48} class="trib-who">{t.who}</text>
+        <text x={t.x} y={t.y + 61} class="trib-gen">joins at gen {t.gen} · {t.dist}</text>
+        <polygon points={`${t.x - 5},${Y_SPINE - 16} ${t.x + 5},${Y_SPINE - 16} ${t.x},${Y_SPINE - 6}`}
+                 fill="var(--r-italy)" opacity="0.8" />
+      </g>
+    ))}
+
+    <g class="node" tabindex="0" role="button"
+       data-place="Forchia" data-year="1897 → 1930" data-lane="Why the family left Arienzo"
+       data-why="Forchia appears twice on this diagram and it is the same town both times. It arrives first as a tributary — Carminantonio Falco married Filomena Annecchino, and the Annecchino were of Forchia. It then becomes the next stop on the spine, because their son Carmine was born there in 1930. Seven generations had not left Arienzo; this marriage is what moved them.">
+      <title>The Annecchino tributary and the Forchia stop are the same town</title>
+      <path d={`M ${GX(7)} ${128 + 16} C ${GX(7) + 70} ${150}, ${X_FORCHIA - 40} ${190}, ${X_FORCHIA} ${Y_SPINE - 40}`}
+            fill="none" stroke="var(--r-italy)" stroke-width="1.3" opacity="0.45" stroke-dasharray="3 4" />
+      <text x={(GX(7) + X_FORCHIA) / 2 + 46} y={168} fill="var(--r-italy)"
+            style="font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-anchor:middle;paint-order:stroke;stroke:var(--panel);stroke-width:3px">the same town</text>
+    </g>
+
+    <g>
+      <rect x={A0 - 14} y={Y_SPINE - 13} width={A1 - A0 + 28} height="26" rx="13"
+            fill="var(--accent)" opacity="0.16" />
+      <line x1={A0} y1={Y_SPINE} x2={X_BRIS} y2={Y_SPINE}
+            stroke="var(--accent)" stroke-width="5.5" stroke-linecap="round" opacity="0.45" />
+      <text x={(A0 + A1) / 2} y={Y_SPINE - 24} class="reach-ttl" fill="var(--accent)">ARIENZO — seven generations, 1767 to 1901</text>
+      <text x={(A0 + A1) / 2} y={Y_SPINE + 34} class="reach-sub">most of it on one street: strada Camellara</text>
+    </g>
+
+    {ARIENZO.map(([g, name, yr, where, why]) => (
+      <g class="node gen" tabindex="0" role="button"
+         data-place={where} data-year={yr} data-lane={`Arienzo — generation ${g}`} data-why={why}>
+        <title>Generation {g}: {name}, {yr}</title>
+        <circle cx={GX(Number(g))} cy={Y_SPINE} r="7.5" fill="var(--panel)" stroke="var(--accent)" stroke-width="2.6" />
+        <circle cx={GX(Number(g))} cy={Y_SPINE} r="2.6" fill="var(--accent)" />
+        <text x={GX(Number(g))} y={Y_SPINE + 58} class="gen-num" fill="var(--accent)">{g}</text>
+      </g>
+    ))}
+
+    {INTOWN.map((m) => (
+      <g class="node intown" tabindex="0" role="button"
+         data-place="Arienzo" data-year={`generation ${m.gens}`} data-lane={`${m.fam} — married in, within the town`}
+         data-why={`${m.note}. No move: the bride was already of Arienzo, so this marriage brings no new place onto the map.`}>
+        <title>{m.fam} — married in at Arienzo</title>
+        <line x1={m.x} y1={Y_SPINE + 13} x2={m.x} y2={Y_SPINE + 72} stroke="var(--ochre)" stroke-width="1.4" opacity="0.5" stroke-dasharray="3 3" />
+        <text x={m.x} y={Y_SPINE + 84} class="intown-lab" fill="var(--ochre)">{m.fam}</text>
+      </g>
+    ))}
+
+    <g class="names">
+      {ARIENZO.map(([g, name, yr], i) => (
         <g>
-          <rect x="0" y={b.y0} width={W} height={b.h} rx="10"
-                fill={lane.colour} opacity={lane.parallel ? 0.04 : 0.055}
-                stroke={lane.parallel ? lane.colour : "none"}
-                stroke-dasharray={lane.parallel ? "5 5" : ""} stroke-opacity="0.4" />
-          <text x="12" y={b.y0 + 21} class="lane-label" fill={lane.colour}>{lane.label}</text>
-          <text x="12" y={b.y0 + 37} class="lane-conf">{lane.conf}</text>
-          <a href={u(lane.href)} class="lane-link"><text x={12} y={b.y0 + b.h - 10} class="lane-read" fill={lane.colour}>{lane.read}</text></a>
-
-          <line x1={X0} y1={b.sp} x2={Math.max(lineEnd, X1)} y2={b.sp} stroke={lane.colour}
-                stroke-width="5" stroke-linecap="round" opacity="0.34"
-                stroke-dasharray={lane.parallel ? "12 7" : ""} />
-
-          {ends.map((e, ei) => {
-            const y = ends.length === 1 ? b.sp
-              : b.sp - spread + (ei * (spread * 2) / (ends.length - 1));
-            return (
-              <g>
-                <path d={`M ${X1} ${b.sp} C ${X1 + 80} ${b.sp}, ${XE - 80} ${y}, ${XE} ${y}`}
-                      fill="none" stroke={lane.colour} stroke-width="1.6" opacity="0.5"
-                      stroke-dasharray={lane.parallel ? "4 4" : ""} />
-                <circle cx={XE} cy={y} r="3.4" fill={lane.colour} opacity={lane.parallel ? 0.55 : 1} />
-                <text x={XE + 9} y={y + 4} class="endlab">{e}</text>
-              </g>
-            );
-          })}
-
-          {lane.nodes.map(([place, year, why], i) => {
-            const x = X0 + i * step;
-            return (
-              <g class="node" tabindex="0" role="button"
-                 data-place={place} data-year={year} data-why={why} data-lane={lane.label}>
-                <title>{place}{year !== "—" ? ` · ${year}` : ""} — {why}</title>
-                <circle cx={x} cy={b.sp} r="8.5" fill="var(--panel)" stroke={lane.colour} stroke-width="2.6" />
-                <circle cx={x} cy={b.sp} r="3" fill={lane.colour} />
-                <text x={x} y={b.sp - 19} class="place">{place}</text>
-                <text x={x} y={b.sp + 27} class="year" fill={lane.colour}>{year}</text>
-              </g>
-            );
-          })}
+          <text x={A0 - 14} y={448 + i * 21} class="nm-g" fill="var(--accent)">{g}</text>
+          <text x={A0 + 12} y={448 + i * 21} class="nm">{name}</text>
+          <text x={A1 + 6} y={448 + i * 21} class="nm-y">{yr}</text>
         </g>
-      );
-    })}
+      ))}
+      <text x={A0 - 14} y={424} class="col-ttl">WHO WAS BORN HERE</text>
+    </g>
+
+    {STOPS.map((s) => (
+      <g>
+        <g class="node stop" tabindex="0" role="button"
+           data-place={s.name} data-year={s.when} data-lane={`The spine moves to ${s.name}`}
+           data-why={s.people[0][4]}>
+          <title>{s.name}, {s.when}</title>
+          <circle cx={s.x} cy={Y_SPINE} r="9.5" fill="var(--panel)" stroke="var(--accent)" stroke-width="3" />
+          <circle cx={s.x} cy={Y_SPINE} r="3.2" fill="var(--accent)" />
+          <text x={s.x} y={Y_SPINE - 24} class="stop-ttl">{s.name}</text>
+          <text x={s.x} y={Y_SPINE + 34} class="stop-when" fill="var(--accent)">{s.when}</text>
+          <text x={s.x} y={Y_SPINE + 48} class="stop-prov">{s.prov}</text>
+        </g>
+        {s.people.map(([g, name, yr]) => (
+          <g>
+            <text x={s.x} y={430} class="nm-kind">{s.arrival ? "ARRIVED" : "BORN HERE"}</text>
+            <text x={s.x} y={448} class="nm-s">{g === "—" ? "" : g + " · "}{name}</text>
+            <text x={s.x} y={466} class="nm-ys">{yr}</text>
+          </g>
+        ))}
+      </g>
+    ))}
+
+    <line x1="12" y1="614" x2="1168" y2="614" stroke="var(--rule)" stroke-width="1" opacity="0.45" />
+    <text x="12" y="648" class="band-ttl" fill="var(--ink-2)">Falco who lived on the same ground and are NOT joined to this line</text>
+
+    {APART.map((a) => (
+      <g>
+        <text x="12" y={a.y} class="apart-ttl" fill={a.colour}>{a.label}</text>
+        {a.joined && (
+          <g class="node" tabindex="0" role="button"
+             data-place="strada Camellara" data-year="25 May 1831" data-lane="One household IS kin"
+             data-why={a.joinedWhy}>
+            <title>{a.joined}</title>
+            <line x1="470" y1={a.y - 5} x2="612" y2={a.y - 5} stroke={a.colour} stroke-width="3" stroke-linecap="round" opacity="0.7" />
+            <circle cx="612" cy={a.y - 5} r="5" fill={a.colour} />
+            <text x="624" y={a.y - 1} class="apart-lab" fill={a.colour}>{a.joined}</text>
+          </g>
+        )}
+        <g class="node" tabindex="0" role="button"
+           data-place="Arienzo" data-year="—" data-lane={a.label} data-why={a.apartWhy}>
+          <title>{a.apartLabel}</title>
+          <line x1="470" y1={a.y + (a.joined ? 17 : 0)} x2="556" y2={a.y + (a.joined ? 17 : 0)}
+                stroke={a.colour} stroke-width="3" stroke-linecap="round" opacity="0.45" stroke-dasharray="7 6" />
+          <circle cx="600" cy={a.y + (a.joined ? 17 : 0)} r="4.5" fill="none" stroke={a.colour} stroke-width="1.8" stroke-dasharray="2.5 2.5" />
+          <text x="612" y={a.y + (a.joined ? 21 : 4)} class="apart-lab" fill="var(--ink-3)">{a.apartLabel}</text>
+        </g>
+        <a href={u(a.href)} class="lane-link"><text x="12" y={a.y + 20} class="lane-read" fill={a.colour}>{a.read}</text></a>
+      </g>
+    ))}
   </svg>
+
   <div class="riverread" id="riverread" aria-live="polite">
-    <b>Click or tab any dot</b> — it will tell you what the document behind it says.
+    <b>Click or tab any dot</b> — the place, the person, and what the document behind it says.
   </div>
-  <figcaption>The red lane is the one this archive descends from. <strong>The two dashed lanes are drawn
-  apart on purpose</strong> — the Paolisi household because nothing joins it to the line, and the gentry
-  Falco because they are plainly a different family living elsewhere in the same town. The ochre lane is
-  the hardest and most interesting: four Falco households on one short street, none of them yet joined
-  to each other or to the line.</figcaption>
+
+  <figcaption><strong>The red channel is the movement of this line through places</strong>, and the
+  names beneath each place are the people born there. <strong>Seven generations never left
+  Arienzo</strong>; the last three moves happened inside fifty years. The three families above the
+  channel each married in <em>and brought a new town with them</em> — the Annecchino tributary and
+  the next stop on the spine are the same town, Forchia, which is the whole reason generation eight
+  was born there. <strong>The Zampiello are drawn joining, not running alongside, because they are
+  this family from generation eight onward.</strong> Below the rule are the Falco who lived on the
+  same street and in the same parish and whom no record joins to this line — one household
+  excepted, and the gaps are drawn deliberately.</figcaption>
 </figure>
 
 <script is:inline>
@@ -161,23 +264,45 @@ const X0 = 150, X1 = 660, XE = 812;
 <style>
   .rivers{margin:0}
   .rivers svg{width:100%;height:auto;display:block;overflow:visible}
-  .lane-label{font-family:var(--sans);font-size:13px;font-weight:600}
-  .lane-conf{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;
-    text-transform:uppercase;fill:var(--ink-3)}
-  .lane-read{font-family:var(--sans);font-size:11.5px;font-weight:600}
+  .band-ttl{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase}
+  .trib-place{font-family:var(--sans);font-size:12.5px;font-weight:600;fill:var(--ink);text-anchor:middle;
+    paint-order:stroke;stroke:var(--panel);stroke-width:3.4px}
+  .trib-fam{font-family:var(--sans);font-size:11.5px;font-weight:600;text-anchor:middle;
+    paint-order:stroke;stroke:var(--panel);stroke-width:3px}
+  .trib-who{font-family:var(--serif,inherit);font-size:11px;fill:var(--ink-2);text-anchor:middle;
+    paint-order:stroke;stroke:var(--panel);stroke-width:3px}
+  .trib-gen{font-family:var(--mono);font-size:9px;fill:var(--ink-3);text-anchor:middle;
+    paint-order:stroke;stroke:var(--panel);stroke-width:3px}
+  .reach-ttl{font-family:var(--sans);font-size:13px;font-weight:600;text-anchor:middle;
+    letter-spacing:.02em;paint-order:stroke;stroke:var(--panel);stroke-width:3.4px}
+  .reach-sub{font-family:var(--sans);font-size:11px;fill:var(--ink-2);text-anchor:middle;
+    paint-order:stroke;stroke:var(--panel);stroke-width:3px}
+  .gen-num{font-family:var(--mono);font-size:10.5px;font-weight:500;text-anchor:middle;
+    paint-order:stroke;stroke:var(--panel);stroke-width:3px}
+  .intown-lab{font-family:var(--sans);font-size:10px;text-anchor:middle;
+    paint-order:stroke;stroke:var(--panel);stroke-width:3px}
+  .col-ttl{font-family:var(--mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;fill:var(--ink-3)}
+  .nm-g{font-family:var(--mono);font-size:10.5px;font-weight:600}
+  .nm{font-family:var(--sans);font-size:12.5px;fill:var(--ink)}
+  .nm-y{font-family:var(--mono);font-size:10.5px;fill:var(--ink-3);text-anchor:end}
+  .nm-kind{font-family:var(--mono);font-size:8.5px;letter-spacing:.14em;fill:var(--ink-3);text-anchor:middle}
+  .nm-s{font-family:var(--sans);font-size:12px;fill:var(--ink);text-anchor:middle;font-weight:500}
+  .nm-ys{font-family:var(--mono);font-size:10px;fill:var(--ink-3);text-anchor:middle}
+  .stop-ttl{font-family:var(--sans);font-size:13.5px;font-weight:600;fill:var(--ink);text-anchor:middle;
+    paint-order:stroke;stroke:var(--panel);stroke-width:3.6px}
+  .stop-when{font-family:var(--mono);font-size:11px;text-anchor:middle;
+    paint-order:stroke;stroke:var(--panel);stroke-width:3px}
+  .stop-prov{font-family:var(--sans);font-size:10px;fill:var(--ink-3);text-anchor:middle}
+  .apart-ttl{font-family:var(--sans);font-size:12.5px;font-weight:600}
+  .apart-lab{font-family:var(--sans);font-size:11px}
+  .lane-read{font-family:var(--sans);font-size:11px;font-weight:600}
   .lane-link{text-decoration:none}
   .lane-link:hover .lane-read{text-decoration:underline}
-  .place{font-family:var(--sans);font-size:12.5px;font-weight:600;fill:var(--ink);
-    text-anchor:middle;paint-order:stroke;stroke:var(--panel);stroke-width:3.4px}
-  .year{font-family:var(--mono);font-size:10.5px;text-anchor:middle;
-    paint-order:stroke;stroke:var(--panel);stroke-width:3px}
-  .endlab{font-family:var(--sans);font-size:11.5px;fill:var(--ink-2)}
   .rivers .node{cursor:help}
-  .rivers .node:hover circle:first-of-type,
-  .rivers .node:focus circle:first-of-type{r:11}
   .rivers .node:focus{outline:none}
-  .rivers .node:focus .place{fill:var(--accent)}
-  .rivers .node.sel circle:first-of-type{r:11;stroke-width:3.4}
+  .rivers .node.sel circle{stroke-width:3.6}
+  .rivers .node:hover .trib-place,.rivers .node:focus .trib-place,
+  .rivers .node:hover .stop-ttl,.rivers .node:focus .stop-ttl{fill:var(--accent)}
   .riverread{margin-top:18px;padding:14px 18px;border-left:3px solid var(--accent);
     background:var(--panel-2);border-radius:0 10px 10px 0;font-family:var(--sans);
     font-size:14px;line-height:1.55;color:var(--ink-2);min-height:52px}
@@ -189,8 +314,8 @@ const X0 = 150, X1 = 660, XE = 812;
   .riverread :global(.rr-why){display:block;margin-top:6px}
   .rivers figcaption{font-family:var(--sans);font-size:13px;color:var(--ink-2);
     margin-top:14px;max-width:78ch;line-height:1.6}
-  @media (max-width:700px){
-    .rivers svg{min-width:680px}
+  @media (max-width:820px){
+    .rivers svg{min-width:820px}
     .rivers{overflow-x:auto}
   }
 </style>
