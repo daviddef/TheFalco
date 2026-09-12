@@ -3114,6 +3114,65 @@
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
+"slug": "andrea-andreana-crisci",
+"name": "Andrea / Andreana Crisci (Falco)",
+"surname": "CRISCI",
+"household": null,
+"role": null,
+"events": [],
+"sources": [
+"tree"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "vincenzo-falco",
+"name": "Vincenzo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"children": [
+{
+"slug": "raffaele-falco",
+"name": "Raffaele Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "luigi-falco-3",
+"name": "Luigi Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "antonio-falco",
+"name": "Antonio Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "giuseppe-falco-7",
+"name": "Giuseppe Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"siblings": [],
+"treeId": 4512467
+},
+{
 "slug": "andreana-crisci",
 "name": "Andreana Crisci",
 "surname": "CRISCI",
@@ -3129,55 +3188,35 @@
 }
 ],
 "sources": [
-"register",
-"tree"
+"register"
 ],
 "living": false,
 "parents": [],
 "spouses": [
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
-"register",
-"tree"
+"register"
 ]
 }
 ],
 "children": [
 {
+"slug": "pasquale-falco",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "raffaele-falco",
 "name": "Raffaele Falco",
 "via": "register",
 "vias": [
-"register",
-"tree"
-]
-},
-{
-"slug": "luigi-falco-3",
-"name": "Luigi Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "antonio-falco",
-"name": "Antonio Falco",
-"via": "register",
-"vias": [
-"register",
-"tree"
-]
-},
-{
-"slug": "giuseppe-falco-7",
-"name": "Giuseppe Falco",
-"via": "tree",
-"vias": [
-"tree"
+"register"
 ]
 },
 {
@@ -3197,8 +3236,8 @@
 ]
 },
 {
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Pasquale Falco",
+"slug": "antonio-falco",
+"name": "Antonio Falco",
 "via": "register",
 "vias": [
 "register"
@@ -3237,9 +3276,7 @@
 ]
 }
 ],
-"siblings": [],
-"mergedOn": "the same generation of the direct line — she is the wife the line names, on both sides",
-"treeId": 4512467
+"siblings": []
 },
 {
 "slug": "andreana-crisci-2",
@@ -3507,7 +3544,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "pasquale-falco-2",
+"slug": "pasquale-falco-3",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -5538,7 +5575,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-3",
+"slug": "pasquale-falco-4",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -6118,7 +6155,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -6204,7 +6241,7 @@
 ]
 },
 {
-"slug": "pasquale-falco",
+"slug": "pasquale-falco-2",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -6220,7 +6257,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-2",
+"slug": "pasquale-falco-3",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -6252,6 +6289,14 @@
 ]
 },
 {
+"slug": "pasquale-falco",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "raffaele-falco",
 "name": "Raffaele Falco",
 "via": "register",
@@ -6270,14 +6315,6 @@
 {
 "slug": "luigi-falco-of-vincenzo-falco-andreana-crisci-2",
 "name": "Luigi Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -7093,7 +7130,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -7104,6 +7141,14 @@
 "spouses": [],
 "children": [],
 "siblings": [
+{
+"slug": "pasquale-falco",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
 {
 "slug": "raffaele-falco",
 "name": "Raffaele Falco",
@@ -7123,14 +7168,6 @@
 {
 "slug": "luigi-falco-of-vincenzo-falco-andreana-crisci-2",
 "name": "Luigi Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -7287,7 +7324,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-4",
+"slug": "pasquale-falco-5",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -7345,7 +7382,7 @@
 ]
 },
 {
-"slug": "pasquale-falco",
+"slug": "pasquale-falco-2",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -7361,7 +7398,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-2",
+"slug": "pasquale-falco-3",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -7787,7 +7824,7 @@
 "living": false,
 "parents": [
 {
-"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+"slug": "pasquale-falco",
 "name": "Pasquale Falco",
 "via": "register",
 "vias": [
@@ -7809,6 +7846,14 @@
 {
 "slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -7841,14 +7886,6 @@
 {
 "slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco",
-"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -8380,7 +8417,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-4",
+"slug": "pasquale-falco-5",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -8664,19 +8701,33 @@
 {
 "slug": "vincenzo-falco",
 "name": "Vincenzo Falco",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
+"tree"
+]
+},
+{
+"slug": "andrea-andreana-crisci",
+"name": "Andrea / Andreana Crisci (Falco)",
+"via": "tree",
+"vias": [
 "tree"
 ]
 },
 {
 "slug": "andreana-crisci",
-"name": "Andrea / Andreana Crisci (Falco)",
+"name": "Andreana Crisci",
 "via": "register",
 "vias": [
-"register",
-"tree"
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
 ]
 }
 ],
@@ -8740,7 +8791,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-3",
+"slug": "pasquale-falco-4",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -8799,6 +8850,14 @@
 ]
 },
 {
+"slug": "pasquale-falco",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Luigi (Aloysius) Falco",
 "via": "register",
@@ -8809,14 +8868,6 @@
 {
 "slug": "luigi-falco-of-vincenzo-falco-andreana-crisci-2",
 "name": "Luigi Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -9178,7 +9229,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-3",
+"slug": "pasquale-falco-4",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -9227,7 +9278,7 @@
 "living": false,
 "parents": [
 {
-"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+"slug": "pasquale-falco",
 "name": "Pasquale / Pascuale Falco",
 "via": "tree",
 "vias": [
@@ -11665,7 +11716,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-3",
+"slug": "pasquale-falco-4",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -12296,7 +12347,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-3",
+"slug": "pasquale-falco-4",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -12397,7 +12448,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-3",
+"slug": "pasquale-falco-4",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -12504,7 +12555,7 @@
 "living": false,
 "parents": [
 {
-"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+"slug": "pasquale-falco",
 "name": "Pasquale Falco",
 "via": "register",
 "vias": [
@@ -12526,6 +12577,14 @@
 {
 "slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -12558,14 +12617,6 @@
 {
 "slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco",
-"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -12712,7 +12763,7 @@
 ]
 },
 {
-"slug": "pasquale-falco",
+"slug": "pasquale-falco-2",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -12728,7 +12779,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-2",
+"slug": "pasquale-falco-3",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -12827,7 +12878,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-3",
+"slug": "pasquale-falco-4",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -13213,7 +13264,7 @@
 "living": false,
 "parents": [
 {
-"slug": "pasquale-falco",
+"slug": "pasquale-falco-2",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -13251,7 +13302,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "pasquale-falco",
+"slug": "pasquale-falco-2",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -13386,7 +13437,7 @@
 ]
 },
 {
-"slug": "pasquale-falco",
+"slug": "pasquale-falco-2",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -13402,7 +13453,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-2",
+"slug": "pasquale-falco-3",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -13616,7 +13667,7 @@
 ]
 },
 {
-"slug": "pasquale-falco",
+"slug": "pasquale-falco-2",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -13632,7 +13683,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-2",
+"slug": "pasquale-falco-3",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -13748,7 +13799,7 @@
 ]
 },
 {
-"slug": "pasquale-falco",
+"slug": "pasquale-falco-2",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -13756,7 +13807,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-2",
+"slug": "pasquale-falco-3",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -13803,7 +13854,7 @@
 "living": false,
 "parents": [
 {
-"slug": "pasquale-falco-2",
+"slug": "pasquale-falco-3",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -14447,7 +14498,7 @@
 "living": false,
 "parents": [
 {
-"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+"slug": "pasquale-falco",
 "name": "Pasquale Falco",
 "via": "register",
 "vias": [
@@ -14469,6 +14520,14 @@
 {
 "slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -14501,14 +14560,6 @@
 {
 "slug": "maria-angela-falco",
 "name": "Maria Angela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco",
-"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -14836,7 +14887,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-3",
+"slug": "pasquale-falco-4",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -15858,7 +15909,7 @@
 ]
 },
 {
-"slug": "pasquale-falco",
+"slug": "pasquale-falco-2",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -15874,7 +15925,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-2",
+"slug": "pasquale-falco-3",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -16270,7 +16321,7 @@
 ]
 },
 {
-"slug": "andreana-crisci",
+"slug": "andrea-andreana-crisci",
 "name": "Andrea / Andreana Crisci (Falco)",
 "via": "tree",
 "vias": [
@@ -16511,7 +16562,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-4",
+"slug": "pasquale-falco-5",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -16787,7 +16838,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -16799,6 +16850,14 @@
 "children": [],
 "siblings": [
 {
+"slug": "pasquale-falco",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "raffaele-falco",
 "name": "Raffaele Falco",
 "via": "register",
@@ -16809,14 +16868,6 @@
 {
 "slug": "luigi-falco-of-vincenzo-falco-andreana-crisci-2",
 "name": "Luigi Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -16893,7 +16944,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -16905,6 +16956,14 @@
 "children": [],
 "siblings": [
 {
+"slug": "pasquale-falco",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "raffaele-falco",
 "name": "Raffaele Falco",
 "via": "register",
@@ -16915,14 +16974,6 @@
 {
 "slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Luigi (Aloysius) Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -17208,7 +17259,7 @@
 ]
 },
 {
-"slug": "andreana-crisci",
+"slug": "andrea-andreana-crisci",
 "name": "Andrea / Andreana Crisci (Falco)",
 "via": "tree",
 "vias": [
@@ -17341,7 +17392,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-3",
+"slug": "pasquale-falco-4",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -17579,7 +17630,7 @@
 "living": false,
 "parents": [
 {
-"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+"slug": "pasquale-falco",
 "name": "Pasquale Falco",
 "via": "register",
 "vias": [
@@ -17601,6 +17652,14 @@
 {
 "slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -17633,14 +17692,6 @@
 {
 "slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco",
-"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -17827,7 +17878,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-4",
+"slug": "pasquale-falco-5",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -17934,7 +17985,7 @@
 "living": false,
 "parents": [
 {
-"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+"slug": "pasquale-falco",
 "name": "Pasquale Falco",
 "via": "register",
 "vias": [
@@ -17953,6 +18004,14 @@
 "spouses": [],
 "children": [],
 "siblings": [
+{
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
 {
 "slug": "maria-raffaela-falco",
 "name": "Maria Raffaela Falco",
@@ -17988,14 +18047,6 @@
 {
 "slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco",
-"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -18473,7 +18524,7 @@
 "living": false,
 "parents": [
 {
-"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+"slug": "pasquale-falco",
 "name": "Pasquale / Pascuale Falco",
 "via": "tree",
 "vias": [
@@ -18753,7 +18804,7 @@
 "living": false,
 "parents": [
 {
-"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+"slug": "pasquale-falco",
 "name": "Pasquale Falco",
 "via": "register",
 "vias": [
@@ -18775,6 +18826,14 @@
 {
 "slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -18807,14 +18866,6 @@
 {
 "slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco",
-"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -18919,7 +18970,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-3",
+"slug": "pasquale-falco-4",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -19097,7 +19148,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+"slug": "pasquale-falco",
 "name": "Pasquale Falco",
 "via": "line",
 "vias": [
@@ -19116,7 +19167,8 @@
 "spouseBorn": "",
 "trade": "",
 "confidence": "documented",
-"note": "Named as the father in the baptisms of at least five children at Arienzo between 1767 and 1786, and again in his son Giuseppe's marriage record. He appears as a witness at an Arienzo marriage in 1759, so he was an adult by then. He replaces the Agostino Falcone previously carried at the head of this line. **A third child, found in 1822, names them again — and earliest of all.** On 17 October 1822 **ANGELA FALCO**, fifty-one, widow of Crescenzo Rivetti, died on strada Capodiuomo, «figlia di MATTEO FALCO Defunto, di professione Contadino, e di FRANCESCA CRISCI Defunta». Born about 1771. The founding couple is now named from the death acts of THREE separate children — Angela's in 1822, Rosa's in 1830 and Pasquale's in 1834 — and Angela's is the earliest. It also resolves an act found earlier in this research: when her husband Crescenzo Rivetti died in December 1816, **Gioacchino Falco** and **Giuseppe Falco** declared it as «parenti del defunto». They were his wife's brothers — which makes **Gioacchino Falco a strong candidate for a fifth child of Matteo and Francesca**, though no record yet names his parents."
+"note": "Named as the father in the baptisms of at least five children at Arienzo between 1767 and 1786, and again in his son Giuseppe's marriage record. He appears as a witness at an Arienzo marriage in 1759, so he was an adult by then. He replaces the Agostino Falcone previously carried at the head of this line. **A third child, found in 1822, names them again — and earliest of all.** On 17 October 1822 **ANGELA FALCO**, fifty-one, widow of Crescenzo Rivetti, died on strada Capodiuomo, «figlia di MATTEO FALCO Defunto, di professione Contadino, e di FRANCESCA CRISCI Defunta». Born about 1771. The founding couple is now named from the death acts of THREE separate children — Angela's in 1822, Rosa's in 1830 and Pasquale's in 1834 — and Angela's is the earliest. It also resolves an act found earlier in this research: when her husband Crescenzo Rivetti died in December 1816, **Gioacchino Falco** and **Giuseppe Falco** declared it as «parenti del defunto». They were his wife's brothers — which makes **Gioacchino Falco a strong candidate for a fifth child of Matteo and Francesca**, though no record yet names his parents.\n\n**And now he is named in his own lifetime's paperwork.** The marriage dossier of his grandson Vincenzo, found in the 1814 processetti in September 2026, contains a notarial act of **8 December 1814** before Felice Morgillo in which «li conjugi **PASQUALE FALCO del fu MATTEO**, e **CHIARA RIVETTI del fu NICOLA**» consent to their son's marriage. This is **the earliest document that names Matteo Falco, and the earliest that proves him dead** — eight years earlier than Angela's act of 1822, and from a notary's instrument rather than a register clerk's recollection. **The bracket on his death closes from [1786, Oct 1822] to [1786, 8 Dec 1814].**",
+"died": "by 8 Dec 1814"
 }
 },
 {
@@ -19348,7 +19400,7 @@
 ]
 },
 {
-"slug": "pasquale-falco",
+"slug": "pasquale-falco-2",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -19364,7 +19416,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-2",
+"slug": "pasquale-falco-3",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -19684,7 +19736,7 @@
 ]
 },
 {
-"slug": "pasquale-falco",
+"slug": "pasquale-falco-2",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -19700,7 +19752,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-2",
+"slug": "pasquale-falco-3",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -19947,7 +19999,7 @@
 "living": false,
 "parents": [
 {
-"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+"slug": "pasquale-falco",
 "name": "Pasquale / Pascuale Falco",
 "via": "tree",
 "vias": [
@@ -20060,7 +20112,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -20071,6 +20123,14 @@
 "spouses": [],
 "children": [],
 "siblings": [
+{
+"slug": "pasquale-falco",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
 {
 "slug": "raffaele-falco",
 "name": "Raffaele Falco",
@@ -20090,14 +20150,6 @@
 {
 "slug": "luigi-falco-of-vincenzo-falco-andreana-crisci-2",
 "name": "Luigi Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -20408,7 +20460,7 @@
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
-"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+"slug": "pasquale-falco",
 "name": "Pasquale Falco",
 "surname": "FALCO",
 "household": "Pasquale Falco & Chiara Rivetti",
@@ -20441,6 +20493,27 @@
 "place": "Arienzo",
 "evidence": "Named without «fu» in his daughter Maria's death act, and still a CONTADINO. The second civil sighting of him alive between his 1780s marriage and his death on 1 October 1834; the first is Anna's act of August 1820.",
 "ark": "ANTENATI an_ua14328 img13l atto22"
+},
+{
+"event": "baptism",
+"date": "24 Mar 1830",
+"place": "Arienzo",
+"evidence": "ex Vincentio Falco et Andreana [Crisci] ... [nomen] Paschale",
+"ark": "3Q9M-CSD3-138C-5"
+},
+{
+"event": "death",
+"date": "25 Dec 1834",
+"place": "Arienzo, strada Camellara",
+"evidence": "Pasquale Falco, di giorni dieci, nato in Arienzo, figlio di Vincenzo Falco — b. c.15 Dec 1834, named for his grandfather who died 1 Oct",
+"ark": "ANTENATI an_ua14336 img53r"
+},
+{
+"event": "death",
+"date": "22 Feb 1833",
+"place": "Arienzo, strada Camellara",
+"evidence": "Pasquale Falco, di anni tre, nato in Arienzo, figlio di Vincenzo Falco, di professione contadino, e di Andreana Crisci — b. c.1830; a first child of this name, twenty-two months before the second",
+"ark": "ANTENATI an_ua14335 img9l act16"
 }
 ],
 "sources": [
@@ -20466,6 +20539,22 @@
 "tree"
 ],
 "superseded": "The family tree makes this person a parent of generation 2. This archive does not: it identifies generation 1 as Matteo Falco. The reasoning is on the Method page."
+},
+{
+"slug": "andreana-crisci",
+"name": "Andreana Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
 },
 {
 "slug": "matteo-falco-of-matteo-falco-francesca-crisci",
@@ -20500,10 +20589,8 @@
 {
 "slug": "vincenzo-falco",
 "name": "Vincenzo Falco",
-"via": "line",
+"via": "tree",
 "vias": [
-"line",
-"register",
 "tree"
 ]
 },
@@ -20526,6 +20613,14 @@
 {
 "slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -20580,81 +20675,7 @@
 "vias": [
 "tree"
 ]
-}
-],
-"mergedOn": "the same generation of the direct line — name and spouse both agree",
-"treeId": 4512469,
-"b": "1765",
-"bp": "Arienzo, Caserta, Campania, Italy",
-"gen": 2,
-"line": {
-"gen": 2,
-"name": "Pasquale (Pascuale) Falco",
-"born": "24 Oct 1767",
-"bornPlace": "Arienzo",
-"spouse": "Chiara Rivetti / Rivotti",
-"spouseBorn": "1772",
-"trade": "contadino",
-"confidence": "documented",
-"note": "Baptised in the Collegiate Church of Sant'Andrea at Arienzo on 24 October 1767 — the record names his father Matteo and his mother Francesca Crisci. He married Chiara Rivetti and their children were baptised in the same church from 1789 to 1802. He died at five in the morning on 1 October 1834 at his own house on strada Camellara; the civil act, given by two neighbours, names him husband of Chiara Rivetti and son of the late Matteo Falco and the late Francesca Crisci — confirming the 1767 baptism from an entirely separate record series. It gives his age as 74, which the baptism does not support; stated ages in these registers are approximate. **A daughter found in 1820 adds a third independent sighting.** On 23 August 1820 his daughter **ANNA FALCO**, twenty-five, wife of Arcangelo Crisci, died on strada Camellara, and her act names her «figlia di PASQUALE FALCO, di professione Contadino, domiciliato ivi strada Camellara, e di CHIARA RIVETTI, domiciliata ivi» — **both parents WITHOUT «fu»**. So Pasquale was alive, a contadino, and on the family's street in August 1820, fourteen years before his own death act; and Chiara, whom no record but her 1843 burial had ever named, was alive beside him. Anna was born about 1795 and had buried a two-day-old son seven months earlier. **And once, in 1824, he speaks for himself.** On 25 March 1824 the register opens: «sono comparsi **PASQUALE FALCO**, di anni **cinquantacinque**, di professione **COLONO**, regnicolo, domiciliato in questo comune, **strada Camellara**, vicino del defunto, e **GIUSEPPE FALCO**, di anni quarantadue, di professione colono, domiciliato ivi strada Camellara» — the two brothers together, reporting a neighbour's five-year-old dead. **It is the only record in which Pasquale acts rather than being named**: everywhere else somebody else is speaking of him. It gives his trade as *colono*, a tenant farmer, where his death act ten years later calls him *contadino*; and his age as fifty-five, one year out against the baptism of 1767, which is ordinary in these registers. **HER PARENTS ARE NOW NAMED BY A CIVIL ACT.** She died on 3 September 1843 at eight in the evening, in her own house, aged eighty, a *contadina*: «CHIARA RIVETTI VEDOVA DI PASQUALE FALCO … figlia di NICOLA RIVETTI defunto, di professione CONTADINO, e di ANNA DI RUGGIO defunta». The archive had carried two rival couples for her parents since 2026 — the gentry Don Nicola Rivetti and Donn'Anna Quotolo, and the labouring Nicola Rivetti and Anna di Ruggio — and had said the labouring couple was the better fit without claiming it. The act settles it: her father was a contadino.",
-"died": "1 Oct 1834",
-"diedPlace": "Arienzo, strada Camellara"
-}
 },
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Pasquale Falco",
-"surname": "FALCO",
-"household": "Vincenzo Falco & Andreana Crisci",
-"role": "child",
-"events": [
-{
-"event": "baptism",
-"date": "24 Mar 1830",
-"place": "Arienzo",
-"evidence": "ex Vincentio Falco et Andreana [Crisci] ... [nomen] Paschale",
-"ark": "3Q9M-CSD3-138C-5"
-},
-{
-"event": "death",
-"date": "25 Dec 1834",
-"place": "Arienzo, strada Camellara",
-"evidence": "Pasquale Falco, di giorni dieci, nato in Arienzo, figlio di Vincenzo Falco — b. c.15 Dec 1834, named for his grandfather who died 1 Oct",
-"ark": "ANTENATI an_ua14336 img53r"
-},
-{
-"event": "death",
-"date": "22 Feb 1833",
-"place": "Arienzo, strada Camellara",
-"evidence": "Pasquale Falco, di anni tre, nato in Arienzo, figlio di Vincenzo Falco, di professione contadino, e di Andreana Crisci — b. c.1830; a first child of this name, twenty-two months before the second",
-"ark": "ANTENATI an_ua14335 img9l act16"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "andreana-crisci",
-"name": "Andreana Crisci",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco",
-"name": "Vincenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
 {
 "slug": "raffaele-falco",
 "name": "Raffaele Falco",
@@ -20719,10 +20740,28 @@
 "register"
 ]
 }
-]
+],
+"mergedOn": "the same generation of the direct line — name and spouse both agree",
+"treeId": 4512469,
+"b": "1765",
+"bp": "Arienzo, Caserta, Campania, Italy",
+"gen": 2,
+"line": {
+"gen": 2,
+"name": "Pasquale (Pascuale) Falco",
+"born": "24 Oct 1767",
+"bornPlace": "Arienzo",
+"spouse": "Chiara Rivetti / Rivotti",
+"spouseBorn": "1772",
+"trade": "contadino",
+"confidence": "documented",
+"note": "Baptised in the Collegiate Church of Sant'Andrea at Arienzo on 24 October 1767 — the record names his father Matteo and his mother Francesca Crisci. He married Chiara Rivetti and their children were baptised in the same church from 1789 to 1802. He died at five in the morning on 1 October 1834 at his own house on strada Camellara; the civil act, given by two neighbours, names him husband of Chiara Rivetti and son of the late Matteo Falco and the late Francesca Crisci — confirming the 1767 baptism from an entirely separate record series. It gives his age as 74, which the baptism does not support; stated ages in these registers are approximate. **A daughter found in 1820 adds a third independent sighting.** On 23 August 1820 his daughter **ANNA FALCO**, twenty-five, wife of Arcangelo Crisci, died on strada Camellara, and her act names her «figlia di PASQUALE FALCO, di professione Contadino, domiciliato ivi strada Camellara, e di CHIARA RIVETTI, domiciliata ivi» — **both parents WITHOUT «fu»**. So Pasquale was alive, a contadino, and on the family's street in August 1820, fourteen years before his own death act; and Chiara, whom no record but her 1843 burial had ever named, was alive beside him. Anna was born about 1795 and had buried a two-day-old son seven months earlier. **And once, in 1824, he speaks for himself.** On 25 March 1824 the register opens: «sono comparsi **PASQUALE FALCO**, di anni **cinquantacinque**, di professione **COLONO**, regnicolo, domiciliato in questo comune, **strada Camellara**, vicino del defunto, e **GIUSEPPE FALCO**, di anni quarantadue, di professione colono, domiciliato ivi strada Camellara» — the two brothers together, reporting a neighbour's five-year-old dead. **It is the only record in which Pasquale acts rather than being named**: everywhere else somebody else is speaking of him. It gives his trade as *colono*, a tenant farmer, where his death act ten years later calls him *contadino*; and his age as fifty-five, one year out against the baptism of 1767, which is ordinary in these registers. **HER PARENTS ARE NOW NAMED BY A CIVIL ACT.** She died on 3 September 1843 at eight in the evening, in her own house, aged eighty, a *contadina*: «CHIARA RIVETTI VEDOVA DI PASQUALE FALCO … figlia di NICOLA RIVETTI defunto, di professione CONTADINO, e di ANNA DI RUGGIO defunta». The archive had carried two rival couples for her parents since 2026 — the gentry Don Nicola Rivetti and Donn'Anna Quotolo, and the labouring Nicola Rivetti and Anna di Ruggio — and had said the labouring couple was the better fit without claiming it. The act settles it: her father was a contadino.\n\n**His first age outside a death act — and it is wrong by fourteen years.** The banns of his son Vincenzo's marriage, published at Arienzo on Sunday **11 September 1814** and again on Sunday 18 September, describe the groom as «Maggiore assistito da **Pasquale suo Padre di Anni Sessanta**, di Professione **contadino**», with «**Chiara Rivetti sua Madre, di Anni quarantasette**, domiciliata in casa di suo Marito». Sixty in September 1814 implies a birth about 1754; his baptism of 24 October 1767 makes him **forty-six**. The same two acts give his son's age and his son's bride's age correctly to the year. **The clerk was accurate about the people standing in front of him and careless about everyone else** — which is the pattern this archive has argued for volumes, here proved in both directions by a single document. Chiara's forty-seven implies 1767; her 1843 burial implied 1763 and the family tree says 1772. Three estimates that still do not converge.",
+"died": "1 Oct 1834",
+"diedPlace": "Arienzo, strada Camellara"
+}
 },
 {
-"slug": "pasquale-falco",
+"slug": "pasquale-falco-2",
 "name": "Pasquale Falco",
 "surname": "FALCO",
 "household": null,
@@ -20811,7 +20850,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-2",
+"slug": "pasquale-falco-3",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -20846,7 +20885,7 @@
 "treeId": 4512505
 },
 {
-"slug": "pasquale-falco-2",
+"slug": "pasquale-falco-3",
 "name": "Pasquale Falco",
 "surname": "FALCO",
 "household": null,
@@ -20927,7 +20966,7 @@
 ]
 },
 {
-"slug": "pasquale-falco",
+"slug": "pasquale-falco-2",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -20970,7 +21009,7 @@
 "treeId": 4512531
 },
 {
-"slug": "pasquale-falco-3",
+"slug": "pasquale-falco-4",
 "name": "Pasquale Falco",
 "surname": "FALCO",
 "household": null,
@@ -21079,7 +21118,7 @@
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
-"slug": "pasquale-falco-4",
+"slug": "pasquale-falco-5",
 "name": "Pasquale Falco",
 "surname": "FALCO",
 "household": null,
@@ -21552,20 +21591,35 @@
 {
 "slug": "vincenzo-falco",
 "name": "Vincenzo Falco",
-"via": "line",
+"via": "tree",
 "vias": [
-"line",
-"register",
 "tree"
-]
+],
+"superseded": "The family tree makes this person a parent of generation 4. This archive does not: it identifies generation 3 as someone else. The reasoning is on the Method page."
+},
+{
+"slug": "andrea-andreana-crisci",
+"name": "Andrea / Andreana Crisci (Falco)",
+"via": "tree",
+"vias": [
+"tree"
+],
+"superseded": "The family tree makes this person a parent of generation 4. This archive does not: it identifies generation 3 as someone else. The reasoning is on the Method page."
 },
 {
 "slug": "andreana-crisci",
-"name": "Andrea / Andreana Crisci (Falco)",
+"name": "Andreana Crisci",
 "via": "register",
 "vias": [
-"register",
-"tree"
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
 ]
 }
 ],
@@ -21626,6 +21680,14 @@
 ]
 },
 {
+"slug": "pasquale-falco",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Luigi (Aloysius) Falco",
 "via": "register",
@@ -21636,14 +21698,6 @@
 {
 "slug": "luigi-falco-of-vincenzo-falco-andreana-crisci-2",
 "name": "Luigi Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -21700,7 +21754,7 @@
 "spouseBorn": "24 Feb 1818, San Felice",
 "trade": "",
 "confidence": "documented",
-"note": "Baptised at Arienzo in 1818 — “ex Vincentio Falco, e Andreana Crisci coniugibus huius Parochiae, cui imposuit nomen Raphael”, with Gelsumina Ruggiero as godmother. His death record of 21 April 1880 names his father as Vincenzo. His wife Angela Rosa Morgillo, daughter of Orazio, died six days before him. His civil birth act — Arienzo, act 47 of 10 May 1818 — has him born at three in the afternoon in his father's own house on strada Camellara, and gives both parents' ages: Vincenzo twenty-seven, Andreana Crisci twenty. It is the first record to date her at all, putting her birth about 1798 and her marriage, in December 1814, at about sixteen. **The complication is now closed.** Vincenzo and Andreana had named an earlier son Raffaele on 25 April 1816, and for a time this archive could not say which of the two was generation four — the generation was carried as *disputed*. The 1817 death register settles it: on **28 October 1817** the first Raffaele was buried, «figlio di Vincenzo Falco, e d'Andreana Crisci», aged about eighteen months. The child of 10 May 1818 is the one who lived. The burial was declared by **Giuseppe Falco, 37, massaro di campagna of strada Camellara**, called a «parente» of the family — a documented son of Matteo, and so Vincenzo's uncle. One warning survives: the two birth acts give irreconcilable ages for the father, Vincenzo thirty-five in 1816 and twenty-seven in 1818."
+"note": "Baptised at Arienzo in 1818 — “ex Vincentio Falco, e Andreana Crisci coniugibus huius Parochiae, cui imposuit nomen Raphael”, with Gelsumina Ruggiero as godmother. His death record of 21 April 1880 names his father as Vincenzo. His wife Angela Rosa Morgillo, daughter of Orazio, died six days before him. His civil birth act — Arienzo, act 47 of 10 May 1818 — has him born at three in the afternoon in his father's own house on strada Camellara, and gives both parents' ages: Vincenzo twenty-seven, Andreana Crisci twenty. It is the first record to date her at all, putting her birth about 1798 and her marriage, in December 1814, at about sixteen. **The complication is now closed.** Vincenzo and Andreana had named an earlier son Raffaele on 25 April 1816, and for a time this archive could not say which of the two was generation four — the generation was carried as *disputed*. The 1817 death register settles it: on **28 October 1817** the first Raffaele was buried, «figlio di Vincenzo Falco, e d'Andreana Crisci», aged about eighteen months. The child of 10 May 1818 is the one who lived. The burial was declared by **Giuseppe Falco, 37, massaro di campagna of strada Camellara**, called a «parente» of the family — a documented son of Matteo, and so Vincenzo's uncle. One warning survives: the two birth acts give irreconcilable ages for the father, Vincenzo thirty-five in 1816 and twenty-seven in 1818.\n\n**The father's age problem is now explained rather than merely noted.** Vincenzo Falco was baptised on 1 February 1792, so he was **24** when the 1816 act called him thirty-five and **26** when the 1818 act called him twenty-seven. The 1818 figure is right by the reckoning these clerks used; the 1816 figure is simply an error. The warning that closed this entry can be retired."
 }
 },
 {
@@ -22735,19 +22789,12 @@
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Vincenzo Falco",
 "surname": "FALCO",
-"household": "Vincenzo Falco & Andreana Crisci",
-"role": "father",
+"household": "Pasquale Falco & Chiara Rivetti",
+"role": "child",
 "events": [
-{
-"event": "marriage",
-"date": "—",
-"place": "Arienzo",
-"evidence": "Vincentium Falco filium Paschalis, e Clarae Rivetta, e Andreanam Crisci filiam Arcangeli, e [Rosae] Ruggiero",
-"ark": "3Q9M-CSMY-B79D-B"
-},
 {
 "event": "birth",
 "date": "1793",
@@ -22757,96 +22804,12 @@
 }
 ],
 "sources": [
-"register",
-"tree"
+"register"
 ],
 "living": false,
 "parents": [
 {
-"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Pasquale / Pascuale Falco",
-"via": "line",
-"vias": [
-"line",
-"register",
-"tree"
-]
-},
-{
-"slug": "chiara-rivetti",
-"name": "Chiara Rivetti / Rivotti (Falco)",
-"via": "register",
-"vias": [
-"register",
-"tree"
-]
-}
-],
-"spouses": [
-{
-"slug": "andreana-crisci",
-"name": "Andrea / Andreana Crisci (Falco)",
-"via": "register",
-"vias": [
-"register",
-"tree"
-]
-}
-],
-"children": [
-{
-"slug": "raffaele-falco",
-"name": "Raffaele Falco",
-"via": "line",
-"vias": [
-"line",
-"register",
-"tree"
-]
-},
-{
-"slug": "luigi-falco-3",
-"name": "Luigi Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "antonio-falco",
-"name": "Antonio Falco",
-"via": "register",
-"vias": [
-"register",
-"tree"
-]
-},
-{
-"slug": "giuseppe-falco-7",
-"name": "Giuseppe Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Luigi (Aloysius) Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Luigi Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
+"slug": "pasquale-falco",
 "name": "Pasquale Falco",
 "via": "register",
 "vias": [
@@ -22854,63 +22817,17 @@
 ]
 },
 {
-"slug": "andrea-falco",
-"name": "Andrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "nunziata-falco",
-"name": "Nunziata Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "daughter-falco",
-"name": "[daughter] Falco",
+"slug": "chiara-rivetti",
+"name": "Chiara (Clara) Rivetti",
 "via": "register",
 "vias": [
 "register"
 ]
 }
 ],
+"spouses": [],
+"children": [],
 "siblings": [
-{
-"slug": "michele-falco",
-"name": "Michele Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "benedetto-falco",
-"name": "Benedetto Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "maria-falco-4",
-"name": "Maria Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
 {
 "slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Maria Falco",
@@ -22959,28 +22876,218 @@
 "register"
 ]
 }
+]
+},
+{
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Vincenzo Falco",
+"surname": "FALCO",
+"household": "Vincenzo Falco & Andreana Crisci",
+"role": "father",
+"events": [
+{
+"event": "marriage",
+"date": "—",
+"place": "Arienzo",
+"evidence": "Vincentium Falco filium Paschalis, e Clarae Rivetta, e Andreanam Crisci filiam Arcangeli, e [Rosae] Ruggiero",
+"ark": "3Q9M-CSMY-B79D-B"
+}
 ],
-"mergedOn": "name and dates",
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "andreana-crisci",
+"name": "Andreana Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "pasquale-falco",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco",
+"name": "Raffaele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Luigi (Aloysius) Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci-2",
+"name": "Luigi Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonio-falco",
+"name": "Antonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "andrea-falco",
+"name": "Andrea Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nunziata-falco",
+"name": "Nunziata Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "daughter-falco",
+"name": "[daughter] Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
+"slug": "vincenzo-falco",
+"name": "Vincenzo Falco",
+"surname": "FALCO",
+"household": null,
+"role": null,
+"events": [],
+"sources": [
+"tree"
+],
+"living": false,
+"parents": [
+{
+"slug": "pasquale-falco",
+"name": "Pasquale / Pascuale Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "chiara-rivetti",
+"name": "Chiara Rivetti / Rivotti (Falco)",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"spouses": [
+{
+"slug": "andrea-andreana-crisci",
+"name": "Andrea / Andreana Crisci (Falco)",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"children": [
+{
+"slug": "raffaele-falco",
+"name": "Raffaele Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "luigi-falco-3",
+"name": "Luigi Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "antonio-falco",
+"name": "Antonio Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "giuseppe-falco-7",
+"name": "Giuseppe Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"siblings": [
+{
+"slug": "michele-falco",
+"name": "Michele Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "benedetto-falco",
+"name": "Benedetto Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "maria-falco-4",
+"name": "Maria Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
 "treeId": 4512466,
 "b": "1793",
 "d": "May 15 1875",
 "bp": "Arienzo, Caserta, Campania, Italia",
-"dp": "Arienzo, Caserta, Campania, Italia",
-"gen": 3,
-"line": {
-"gen": 3,
-"name": "Vincenzo Falco",
-"born": "1793",
-"bornPlace": "Arienzo",
-"died": "15 May 1875",
-"diedPlace": "Arienzo",
-"spouse": "Andrea / Andreana Crisci",
-"spouseBorn": "",
-"trade": "contadino",
-"confidence": "documented",
-"note": "His civil marriage act — Arienzo, act 26 of 15 December 1814 — records him as aged 21, a contadino, and “figlio maggiore di Pasquale Falco”: eldest son, and his father named without “fu”, so Pasquale was still living. His wife Andreana is “figlia di Arcangelo”. The parish record of the same marriage names his mother Chiara Rivetti and Andreana's mother Ruggiero. His death record of 15 May 1875 names Pasquale a third time. The civil death registers place his household on strada Camellara at Arienzo, the same street as his father’s, and name him with his wife Andreana Crisci. He called a son Pasquale after his father twice: the first died aged three on 22 February 1833, while the grandfather still lived; the second was born about a fortnight after the grandfather’s death and lived ten days, dying on Christmas Day 1834.",
-"married": "15 Dec 1814, Arienzo"
-}
+"dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "vincenzo-falco-2",
@@ -23023,7 +23130,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-4",
+"slug": "pasquale-falco-5",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -23125,7 +23232,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-3",
+"slug": "pasquale-falco-4",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -23232,7 +23339,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -23243,6 +23350,14 @@
 "spouses": [],
 "children": [],
 "siblings": [
+{
+"slug": "pasquale-falco",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
 {
 "slug": "raffaele-falco",
 "name": "Raffaele Falco",
@@ -23262,14 +23377,6 @@
 {
 "slug": "luigi-falco-of-vincenzo-falco-andreana-crisci-2",
 "name": "Luigi Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -23333,7 +23440,7 @@
 ],
 "children": [
 {
-"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+"slug": "pasquale-falco",
 "name": "Pasquale / Pascuale Falco",
 "via": "tree",
 "vias": [
@@ -23436,7 +23543,7 @@
 ]
 },
 {
-"slug": "pasquale-falco",
+"slug": "pasquale-falco-2",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -23452,7 +23559,7 @@
 ]
 },
 {
-"slug": "pasquale-falco-2",
+"slug": "pasquale-falco-3",
 "name": "Pasquale Falco",
 "via": "tree",
 "vias": [
@@ -23561,7 +23668,7 @@
 ],
 "siblings": [
 {
-"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+"slug": "pasquale-falco",
 "name": "Pasquale / Pascuale Falco",
 "via": "tree",
 "vias": [
@@ -29659,7 +29766,7 @@
 ],
 "spouses": [
 {
-"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+"slug": "pasquale-falco",
 "name": "Pasquale / Pascuale Falco",
 "via": "line",
 "vias": [
@@ -29681,9 +29788,8 @@
 {
 "slug": "vincenzo-falco",
 "name": "Vincenzo Falco",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
@@ -29706,6 +29812,14 @@
 {
 "slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -30927,7 +31041,7 @@
 ],
 "children": [
 {
-"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+"slug": "pasquale-falco",
 "name": "Pasquale / Pascuale Falco",
 "via": "tree",
 "vias": [

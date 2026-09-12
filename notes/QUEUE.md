@@ -113,12 +113,12 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
 - [ ] Also look for **Nicola Rivetti's** death, and Chiara's baptism. Her age is stated three ways and
       none agree: **47 in Sept 1814** (b. 1767, from the banns), **80 at her 1843 burial** (b. 1763),
       and **1772** in the family tree. The baptism would settle it.
-- [ ] **NEW — Sara Ruggiero's death, in the Arienzo death registers 1815-1818.** A dated,
-      falsifiable search. Andreana's baptism of 30 Nov 1796 already proves her father is the ELDER
-      Arcangelo Crisci (52 in 1817, b. c.1765) — the younger (30 in 1817, b. c.1787) was nine years
-      old in 1796 and cannot be him. What remains open is which Arcangelo Anna Falco married. The
-      standing reading is the younger. The elder is only possible if Sara died between Dec 1814,
-      when she consented before a notary, and c.1818. That window is the search.
+- [x] **Sara Ruggiero's death — ANSWERED: she did not die in the window.** 1815 (`an_ua14317`,
+      49 images, 77 acts) READ IN FULL. No Sara Ruggiero. And act 4 of 9 Jan 1815 records the death
+      of CARMELA CRISCI, 7 days, daughter of Arcangelo Crisci and Sara Ruggiero, strada Camellara —
+      so Sara bore a child in the first week of 1815. TWO Arcangelo Crisci; Anna Falco married the
+      younger. Trap recorded: a DIFFERENT Sara Ruggiero (fu Raffaele, m. Arcangelo SOSSI) died
+      13 Dec 1817. See `notes/1815-death-register-progress.md`. Do not re-read 1815.
 - [ ] **NEW — Nicola Crisci** (Arcangelo's father, dead by Dec 1814) and **Pasquale Ruggiero**
       (Sara's father, living Dec 1814). Two generations added by the 1814 dossier, nothing else known.
 - [ ] **NEW — the Arienzo parish baptism register, liber IX.** Cited twice in the 1814 dossier

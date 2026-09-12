@@ -1,5 +1,29 @@
 [
 {
+"file": "1814-processetti-dossier.md",
+"title": "The 1814 marriage dossier — FOUND, and it was here all along",
+"year": "1814",
+"kind": "other",
+"complete": true,
+"acts": null,
+"images": 274,
+"dupes": 0,
+"lead": "That was wrong, and the reasoning behind it was wrong in an instructive way.",
+"bytes": 15607
+},
+{
+"file": "1815-death-register-progress.md",
+"title": "Arienzo civil deaths, 1815 — READ IN FULL",
+"year": "1815",
+"kind": "deaths",
+"complete": false,
+"acts": null,
+"images": null,
+"dupes": 0,
+"lead": "The declarants are the two families side by side",
+"bytes": 9379
+},
+{
 "file": "1816-birth-register-progress.md",
 "title": "Arienzo civil BIRTH register 1816 — sweep complete",
 "year": "1816",
@@ -390,10 +414,10 @@
 "kind": "other",
 "complete": false,
 "acts": null,
-"images": null,
+"images": 274,
 "dupes": 0,
 "lead": "",
-"bytes": 9714
+"bytes": 11721
 },
 {
 "file": "baseline-surname.md",
@@ -414,10 +438,10 @@
 "kind": "other",
 "complete": false,
 "acts": null,
-"images": null,
+"images": 274,
 "dupes": 0,
 "lead": "But Filomena's own birth record (10 Apr 1897) was NOT found.",
-"bytes": 42960
+"bytes": 43924
 },
 {
 "file": "findmypast-sweep-2026-09-09.md",
