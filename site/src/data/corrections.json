@@ -286,5 +286,17 @@
   "where": "/rivetti",
   "plate": "",
   "by": "re-reading at native resolution"
+ },
+ {
+  "when": "2026-09-13",
+  "what": "a town recorded as unreachable that was never searched for",
+  "sev": "major",
+  "was": "“San Felice a Cancello is a separate comune with its own registers, NONE OF WHICH THIS ARCHIVE HAS READ.” San Felice is where generation four's wife, Angela Rosa Morgillo, was born.",
+  "now": "Its registers are on Antenati and have been all along — Archivio di Stato di Caserta, marriages from 1809 at an_ua50221. The 1817 marriages have now been read.",
+  "why": "The wording said “has not read” and was heard, including by me, as “cannot read”. In fact nobody had looked. It was missed because Antenati catalogues the town under its older name, «San Felice (oggi San Felice a Cancello)», and because this archive reached Antenati by guessing arks from an arithmetic rule derived by hand for Arienzo alone — a method that can only ever find what it already knows about.",
+  "how": "A search endpoint that returns ark ids in plain HTML: search-registry/?localita=<town>. Resolving those arks gives the series arithmetic for any town. The archive's own survey covers five Valle Caudina towns and does not include San Felice at all.",
+  "where": "/morgillo",
+  "plate": "",
+  "by": "looking properly"
  }
 ]
