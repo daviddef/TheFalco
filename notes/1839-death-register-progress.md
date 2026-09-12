@@ -90,7 +90,7 @@ to be.**
 
 > «…è morto nella sua propria casa **Don GIOVANBATTISTA RIVETTI d'anni CINQUANTACINQUE**, nato in
 > Arienzo, di professione **FARMACISTA**, domiciliato ivi, **figlio di GIUSEPPE RIVETTI Defunto**,
-> di professione **POSSIDENTE**, domiciliato ivi, **e di LUCIA COPPA(?) Defunta**.»
+> di professione **POSSIDENTE**, domiciliato ivi, **e di LUCIA CIOFFI Defunta**.»
 
 Plate: `site/public/plates/rivetti-farmacista-1839.jpg`
 
@@ -335,13 +335,13 @@ resolved**; both figures stand.
 > transcription slip on this side: both were read off the page. It is the same thing the Falco ages
 > keep showing — **the clerks wrote down what they were told, and nobody was counting.**
 | 57L (atto 94) | d. **3 Nov** ore 22 | Giovanni Lettieri, **1 year**, strada Croce | **Felice Lettieri**, contadino, & **Maria Verrocchio(?)** | — | Giuseppe Lettieri 60 contadino, strada Croce; Angelo Lettieri 30 contadino |
-| 57R (atto 95) | d. **7 Nov** ore 5 | **Don GIOVANBATTISTA RIVETTI, 55, *FARMACISTA***, *marito di Maria Giulia di Sessi(?)*, strada Monticello | **GIUSEPPE RIVETTI, *defunto*, *POSSIDENTE***, & **LUCIA COPPA(?)/CIOFFI, *defunta*** | **The Arienzo apothecary — and the gentry Rivetti pushed back a generation** | **VINCENZO MORGILLO 38 contadino, strada Monticello**; Pietro Melillo 46 ***inservidente***, strada Monticello |
+| 57R (atto 95) | d. **7 Nov** ore 5 | **Don GIOVANBATTISTA RIVETTI, 55, *FARMACISTA***, *marito di Maria Giulia di Sessi(?)*, strada Monticello | **GIUSEPPE RIVETTI, *defunto*, *POSSIDENTE***, & **LUCIA CIOFFI, *defunta*** | **The Arienzo apothecary — and the gentry Rivetti pushed back a generation** | **VINCENZO MORGILLO 38 contadino, strada Monticello**; Pietro Melillo 46 ***inservidente***, strada Monticello |
 | 58 | — | **DUPLICATE of image 57** — verified from the printed act numbers (94, 95) | — | — | — |
 
 > **Atto 95 — the apothecary's own death act, and a conflict with what this archive publishes.**
 > «…è morto nella sua propria casa **Don GIOVANBATTISTA RIVETTI d'anni CINQUANTACINQUE**, nato in
 > Arienzo, di professione **FARMACISTA**, domiciliato ivi, **figlio di GIUSEPPE RIVETTI Defunto**,
-> di professione **POSSIDENTE**, domiciliato ivi, **e di LUCIA COPPA(?) Defunta**.» Read at 3400 px.
+> di professione **POSSIDENTE**, domiciliato ivi, **e di LUCIA CIOFFI Defunta**.» Read at 3400 px — and RE-READ at native resolution on 13 Sep 2026, which resolves the surname to **CIOFFI**, not Coppa. The double-f is unmistakable at full size and was not at 3400.
 >
 > Born about **1784**. The [Rivetti](/rivetti) page has **Don Giuseppe Rivetti the elder × Giovanna
 > Bega**, both dead before March 1819. This act gives Giuseppe a wife called **Lucia**, not Giovanna.

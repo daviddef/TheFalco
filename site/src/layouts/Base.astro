@@ -1,6 +1,6 @@
 ---
 import { u } from "../lib/url.js";
-const { title, description = "", dek, eyebrow, bare } = Astro.props;
+const { title, description = "", dek, eyebrow, bare, noindex = false } = Astro.props;
 const SITE = "The Falco Archive";
 const nav = [
   ["Start", [["/", "Home"], ["/about", "About"], ["/search", "Search"], ["/tree", "The Tree"],
@@ -36,6 +36,8 @@ const on = (h) => here === u(h).replace(/\/$/, "");
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>{title === SITE ? SITE : `${title} — ${SITE}`}</title>
 <meta name="description" content={dek || description} />
+{noindex && <meta name="robots" content="noindex, nofollow" />}
+{noindex && <meta name="googlebot" content="noindex, nofollow" />}
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Libre+Franklin:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" />

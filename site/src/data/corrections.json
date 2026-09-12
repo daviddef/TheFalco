@@ -274,5 +274,17 @@
   "where": "/direct-line#gen-4",
   "plate": "raffaele-falco-birth-1818.jpg",
   "by": "the 1814 processetti"
+ },
+ {
+  "when": "2026-09-13",
+  "what": "an uncertain reading, resolved",
+  "sev": "minor",
+  "was": "The apothecary's mother recorded as «LUCIA COPPA(?)/CIOFFI» — read at 3400px and left with a question mark and an alternative.",
+  "now": "LUCIA CIOFFI. Read at native resolution: «e di Lucia Cioffi Defunta».",
+  "how": "Re-fetching the act as a IIIF region at the image's own resolution rather than scaling the whole leaf. The double-f ligature is unmistakable at full size and was not at 3400px.",
+  "why": "A name carried with a question mark for weeks is a name nobody can search for. It also changes what the record means: CIOFFI is a gentry surname at Arienzo, and in February 1815 a Don Saverio CIOFFI was married to a Donna Anna Maria RIVETTI. The two families married in both directions.",
+  "where": "/rivetti",
+  "plate": "",
+  "by": "re-reading at native resolution"
  }
 ]

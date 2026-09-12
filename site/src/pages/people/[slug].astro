@@ -46,7 +46,8 @@ const dek = p.living
 ---
 <Base title={p.name}
       eyebrow={p.gen ? `Generation ${p.gen} of the direct line` : (p.household || p.surname)}
-      dek={dek}>
+      dek={dek}
+      noindex={!!p.living}>
 
   <PersonTree person={p} />
 
