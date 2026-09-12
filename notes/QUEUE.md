@@ -125,6 +125,29 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       (fol. 47v Vincenzo 1792, fol. 94v Adriana 1796). Not on Antenati. If it survives it holds the
       baptisms of this whole generation. Ask the Museo Alfonsiano / the parish.
 
+## NEW METHOD — discover Antenati holdings instead of guessing arks
+- **`https://antenati.cultura.gov.it/search-registry/?localita=<TOWN>[&tipologia=Nati]`** returns
+  ark ids in plain HTML. curl + the usual UA/Referer. Ten results at a time; `&start=` is ignored.
+  Resolve the arks with `tools/antenati.py ids` and recover the +1/year series arithmetic from the
+  labels. **Before recording a town as unavailable, query this.**
+  See `notes/antenati-holdings-discovery.md`.
+- [x] **SAN FELICE A CANCELLO IS ON ANTENATI** — catalogued as "San Felice (oggi San Felice a
+  Cancello)". Matrimoni 1809 = `an_ua50221`, +1/year. The archive believed this town unreachable
+  for five years; generation four's wife was born there.
+- [x] **Orazio Morgillo x Vincenza Pesce — SEARCHED, NOT FOUND** in San Felice Matrimoni 1817
+  (`an_ua50229`, 22 imgs, ~40 acts, every act's name band read). Morgillo ARE at San Felice
+  (Andriana, two Antonia, Angiola) and so are the Pesce — GIOVANNA PESCA, 48, "figlia delli furono
+  FELICE PESCE ed ANTONIA CERRONE", m. 8 Mar 1817, and VENERANDA PESCE. **Lead: if Vincenza was
+  Giovanna's sister her parents are Felice Pesce and Antonia Cerrone. Not claimed.**
+- [ ] **NEXT: San Felice Matrimoni 1816 = `an_ua50228`** — the other half of the window.
+- [ ] **NEXT, and better: Angela Rosa Morgillo's BIRTH ACT**, San Felice, 24 Feb 1818. Names both
+      parents outright. The Nati series for San Felice is NOT yet mapped (`an_ua50395` was a guess
+      and is marriages). Query `?localita=San+Felice+a+Cancello&tipologia=Nati`.
+- [ ] **Forchia 1897 (Filomena Annecchino's birth) — NOT REACHED.** Forchia's Caserta-held births
+      run 1820 (`an_ua29049`) to 1861 (`an_ua29090`), then the arks move to Formicola. Post-1861
+      Forchia is Benevento, *Stato civile italiano* — fondo not located. The search page confirms
+      Forchia records exist to 1899, so 1897 IS held; only the ark is missing.
+
 ## Dead ends, recorded so they are not repeated
 - ~~**Arienzo processetti 1814 (an_ua14154, 290 pp.)** — worked from the back. Contains acts up to
   **25** and then goes straight into 1815. **The file for act 26 (Falco x Crisci) is not in it**, nor
