@@ -110,13 +110,34 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       (1843), 15 volumes, 53-65 pp. each, ~850 pages, **no alphabetical index**. A civil death act
       names the parents, so his would name Matteo Falco and Francesca Crisci. This is now the single
       best route above Matteo.
-- [ ] Also look for **Nicola Rivetti's** death, and Chiara's baptism (c.1763 per her stated age).
+- [ ] Also look for **Nicola Rivetti's** death, and Chiara's baptism. Her age is stated three ways and
+      none agree: **47 in Sept 1814** (b. 1767, from the banns), **80 at her 1843 burial** (b. 1763),
+      and **1772** in the family tree. The baptism would settle it.
+- [ ] **NEW — Sara Ruggiero's death, in the Arienzo death registers 1815-1818.** A dated,
+      falsifiable search. Andreana's baptism of 30 Nov 1796 already proves her father is the ELDER
+      Arcangelo Crisci (52 in 1817, b. c.1765) — the younger (30 in 1817, b. c.1787) was nine years
+      old in 1796 and cannot be him. What remains open is which Arcangelo Anna Falco married. The
+      standing reading is the younger. The elder is only possible if Sara died between Dec 1814,
+      when she consented before a notary, and c.1818. That window is the search.
+- [ ] **NEW — Nicola Crisci** (Arcangelo's father, dead by Dec 1814) and **Pasquale Ruggiero**
+      (Sara's father, living Dec 1814). Two generations added by the 1814 dossier, nothing else known.
+- [ ] **NEW — the Arienzo parish baptism register, liber IX.** Cited twice in the 1814 dossier
+      (fol. 47v Vincenzo 1792, fol. 94v Adriana 1796). Not on Antenati. If it survives it holds the
+      baptisms of this whole generation. Ask the Museo Alfonsiano / the parish.
 
 ## Dead ends, recorded so they are not repeated
-- **Arienzo processetti 1814 (an_ua14154, 290 pp.)** — worked from the back. Contains acts up to
+- ~~**Arienzo processetti 1814 (an_ua14154, 290 pp.)** — worked from the back. Contains acts up to
   **25** and then goes straight into 1815. **The file for act 26 (Falco x Crisci) is not in it**, nor
-  in the short second 1814 volume (an_ua14155). Do not search these two again.
-- The 1817 processetti volume is **the wrong year** — the marriage was 15 Dec 1814.
+  in the short second 1814 volume (an_ua14155). Do not search these two again.~~
+  **WRONG — struck 13 Sept 2026. The file IS in the volume, at bundle 16, images 265-274.**
+  Processetti bundles are numbered in the order the BANNS were published, not by the number the
+  marriage later received. This couple published in September and married in December, so their
+  file is bundle 16 while their marriage is act 26. Bundle 25's publication is dated 20 November,
+  two months LATER than theirs; the volume was never truncated. See
+  `notes/1814-processetti-dossier.md`. **Standing rule: in a processetti volume, match on the names
+  and the publication date, never on the marriage act number.**
+- The 1817 processetti volume is **the wrong year** — the marriage was 15 Dec 1814, and its
+  supporting file is in the 1814 volume (above).
 - **Pasquale Falco's death is NOT** in the 1,145 harvested pages of the Arienzo parish death register,
   nor in FamilySearch's index of Caserta civil registration 1809-1866 (all 1,162 Falco records checked,
   249 of them 1826-1848). Do not re-run those two searches.
