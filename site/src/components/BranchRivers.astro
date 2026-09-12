@@ -1,5 +1,6 @@
 ---
 import { u } from "../lib/url.js";
+import { people } from "../lib/people.js";
 /* A PLACE diagram, not a name diagram.
  *
  * The first version of this drew five parallel "rivers" whose nodes were
@@ -12,6 +13,21 @@ import { u } from "../lib/url.js";
  * the place and generation where it joins. The strands that genuinely never
  * join are drawn touching the same ground with a visible GAP, because "these
  * do not connect" is the whole argument of this page. */
+
+
+/* No date may be printed beside a living person in this figure.
+ *
+ * The rule is David's and it is absolute: living people are named and nothing
+ * more. This archive has now leaked generation nine's birth year THREE times —
+ * once through a redaction function reused from the wrong place, once through
+ * the timeline's geometry, and once here, in the first version of this very
+ * component, written on 13 September 2026. Textual fixes did not hold, so the
+ * guard is structural: the date is looked up against the person graph and
+ * dropped if the person is living, whatever the data says. */
+const LIVING_NAMES = new Set(
+  people.filter((p) => p.living && p.name).map((p) => String(p.name).trim().toLowerCase()));
+const isLivingName = (n) => LIVING_NAMES.has(String(n || "").trim().toLowerCase());
+const safeDate = (name, date) => (isLivingName(name) ? "living — named only" : date);
 
 const Y_SPINE = 300;
 const A0 = 96, A1 = 520;              /* the Arienzo reach: seven generations */
@@ -39,9 +55,9 @@ const STOPS = [
   { key: "forchia", name: "Forchia", x: X_FORCHIA, prov: "Benevento", when: "1930",
     people: [["8", "Carmine Falco", "8 Jun 1930", "Forchia",
       "Born at Forchia, not Arienzo — the family had followed his mother's people. He married Francesca Zampiello of Arpaia at Benevento in 1955."]] },
-  { key: "benevento", name: "Benevento", x: X_BENEV, prov: "the city", when: "1955",
-    people: [["9", "Giuseppina Falco", "3 Sep 1955", "Benevento",
-      "Born at Benevento, the last generation born in Italy. She was eight years old when the family sailed."]] },
+  { key: "benevento", name: "Benevento", x: X_BENEV, prov: "where they married", when: "1955",
+    people: [["9", "Giuseppina Falco", "living — named only", "Benevento",
+      "The spine reaches Benevento because CARMINE FALCO AND FRANCESCA ZAMPIELLO MARRIED THERE IN 1955 — that is generation eight's date, and both of them are now dead. Generation nine is LIVING and is named here and nothing more: no date of birth, no place, no detail. That is this archive's standing rule, and this diagram broke it on the day it was built."]] },
   { key: "brisbane", name: "Brisbane", x: X_BRIS, prov: "Queensland · Nudgee", when: "1964",
     arrival: true,
     people: [["—", "Carmine & Francesca", "arrived 26 Mar 1964", "Genoa → Brisbane",
@@ -162,7 +178,7 @@ const H = 928;
         <g>
           <text x={A0 - 14} y={448 + i * 21} class="nm-g" fill="var(--accent)">{g}</text>
           <text x={A0 + 12} y={448 + i * 21} class="nm">{name}</text>
-          <text x={A1 + 6} y={448 + i * 21} class="nm-y">{yr}</text>
+          <text x={A1 + 6} y={448 + i * 21} class="nm-y">{safeDate(name, yr)}</text>
         </g>
       ))}
       <text x={A0 - 14} y={424} class="col-ttl">WHO WAS BORN HERE</text>
@@ -182,9 +198,9 @@ const H = 928;
         </g>
         {s.people.map(([g, name, yr]) => (
           <g>
-            <text x={s.x} y={430} class="nm-kind">{s.arrival ? "ARRIVED" : "BORN HERE"}</text>
+            <text x={s.x} y={430} class="nm-kind">{isLivingName(s.people[0][1]) ? "LIVING" : s.arrival ? "ARRIVED" : "BORN HERE"}</text>
             <text x={s.x} y={448} class="nm-s">{g === "—" ? "" : g + " · "}{name}</text>
-            <text x={s.x} y={466} class="nm-ys">{yr}</text>
+            <text x={s.x} y={466} class="nm-ys">{safeDate(name, yr)}</text>
           </g>
         ))}
       </g>

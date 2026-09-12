@@ -195,3 +195,32 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
   cemeteries.
 
 *All of the above is published on the site at `/open-questions/`.*
+
+## THE LIVING-PEOPLE RULE — how it is now enforced (13 Sep 2026)
+David's rule: living people are named and NOTHING MORE — no date of birth, no place, no record,
+no photograph. It has been broken THREE times with the same date (generation nine's birth year):
+1. `really_living()` reusing the ancestor filter for redaction;
+2. the timeline positioning living generations at `pos(1955)` — leaking it through geometry;
+3. the rebuilt Lines diagram printing it under "BORN HERE", on /lines AND the home page.
+
+**Textual fixes did not hold. The enforcement is now structural:**
+- `tools/build_people.py` `self_check()` REFUSES TO WRITE if a living person carries a date.
+- `site/src/components/BranchRivers.astro` looks every date up against the person graph and
+  prints "living — named only" if the person is alive, whatever the data says.
+- **Audit the BUILT HTML, not the source.** /direct-line's visible text was correct while the
+  diagram embedded in the same site was not. The test that found it:
+  `grep -rl "<the date>" site/dist --include=index.html`
+
+**Standing checks before any release:**
+- no living person's name within 160 chars of their year anywhere in `site/dist`
+- `people.json` carries zero date/event fields for anyone marked living
+
+## NOINDEX POLICY (13 Sep 2026) — a page that NAMES A LIVING PERSON is not offered to search
+Computed, not a hand-kept list, so it keeps holding as the graph changes. NOT a fence: every page
+stays public to anyone with the link.
+- `/people/<slug>` — noindexed if the person OR any kin drawn in beside them is living
+  (`touchesLiving()` in `site/src/lib/people.js`)
+- `/names/<slug>` — noindexed if any person of that name is living (`nameTouchesLiving()`)
+- `/people` (the roster), `/search`, `/register`, `/tree`, `/marriages` — noindexed outright
+- `robots.txt` states the policy and shuts out GPTBot, CCBot, Google-Extended, anthropic-ai, ClaudeBot
+- **157 pages carry noindex.** To reverse any one, drop its `noindex` prop.
