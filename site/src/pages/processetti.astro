@@ -45,6 +45,26 @@ const series = [
   ["A declaration, 1831", "38", "39", "close", null],
   ["Death register, 1839", "42", "47", "wrong by 5", false],
 ];
+
+const census = [
+  ["1","—","not located — before image 3","none"],
+  ["2","3","Pasquale Ruggiero × …","survey"],
+  ["3","19","ORAZIO VILLANO fu Luca, e di ANTONIA CRISCI × Grazia Carp…","read"],
+  ["4","38","Gaspare M… × …","survey"],
+  ["5","53","…","survey"],
+  ["6","—","not located — somewhere in images 54–106","none"],
+  ["7","107","Gennaro Terracciano di Andrea, e di Maria Esposito × Teresa …","survey"],
+  ["8","122","Vincenzo Alb… di Giovanni, e di Elena di Sapri… × …","survey"],
+  ["9","136","…","survey"],
+  ["10","151","Angelandrea … × …","survey"],
+  ["11","171","Crescenzo R… × …","survey"],
+  ["12","182","Angelo Indimbo(?) di Pasquale, e della fu Teresa Madonna × …","survey"],
+  ["13","200","Angelo figlio di Nicola, e d’Antonia Abbratelli(?) × Margarita …","survey"],
+  ["14","225","Domenico Vendicchio di Vincenzo, e di Rosa Marrone × Sara Auricolo(?) di Alessandro","survey"],
+  ["15","238","Lorenzo Sdal…(?) figlio de’ Francesco, ed Elena …","survey"],
+  ["16","265","VINCENZO FALCO di Pasquale e Chiara Rivetti × ADRIANA CRISCI di Arcangelo e Sara Ruggiero","full"],
+  ["17","275","FRANCESCO CRISCI figlio del fu Alessandro, e di Carmina … × TERESA MORGILLO","read"],
+];
 ---
 <Base title="The Processetti"
       eyebrow="The marriage files — 321 volumes, one read"
@@ -195,17 +215,70 @@ const series = [
   vague question into a dated, falsifiable search — the Arienzo death registers, 1815 to 1818.
   See <a href={u("/open-questions")}>Open Questions</a>.</p>
 
+  <h2>Every marriage at Arienzo in 1814</h2>
+  <p class="lede">Having found one bundle, the obvious question was what else the volume held. All
+  <strong>290 images</strong> were swept as contact sheets and every bundle cover read. The volume
+  holds <strong>seventeen bundles</strong> — seventeen marriages, each wrapped in a sheet that names
+  <em>both</em> sets of parents before any act is opened.</p>
+
+  <div class="card" style="margin:1.1rem 0">
+    <p><strong>Read this table for what it is.</strong> Only bundle 16 has been read through. Bundles
+    3 and 17 had their covers read at full magnification because they carry surnames from this line.
+    <strong>Everything marked <em>survey</em> was read from a contact sheet at a fifth of full
+    resolution and is provisional</strong> — forenames especially. It is published unfinished because
+    an unfinished census that says so is more use than a finished one nobody can check, and because
+    the next person to open this volume should not have to sweep it again.</p>
+  </div>
+
+  <div class="scroll"><table>
+    <thead><tr><th>Bundle</th><th>Cover at image</th><th>The marriage</th><th>How well read</th></tr></thead>
+    <tbody>
+      {census.map(([n, img, who, how]) => (
+        <tr style={how === "full" ? "background:var(--ground)" : null}>
+          <td class="mono"><strong>{n}</strong></td>
+          <td class="mono small">{img}</td>
+          <td class={how === "full" ? "" : "small"}>{how === "full" ? <strong>{who}</strong> : who}</td>
+          <td class="small">{how === "full" ? "✓ read in full" : how === "read" ? "cover verified" : how === "none" ? "not located" : "survey only"}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table></div>
+
+  <h3>Three of the seventeen touch this line</h3>
+  <ul>
+    <li><strong>Bundle 16 — the marriage this archive came for.</strong> Read end to end; everything
+    above comes out of it.</li>
+    <li><strong>Bundle 17 — <P n="Francesco Crisci" bold={true} /> figlio del fu Alessandro, e di Carmina …,
+    marrying a <P n="Teresa Morgillo" bold={true} /></strong>, published 20 November 1814. A Crisci
+    marrying a Morgillo in the same town in the same year as our Falco married a Crisci. No connection
+    to this line is claimed — both surnames are common at Arienzo — but it is set down because the
+    archive counts eleven Falco–Crisci crossings and would rather record a near-miss than lose it.</li>
+    <li><strong>Bundle 3 — <P n="Orazio Villano" bold={true} />, son of the late Luca Villano and
+    <strong>ANTONIA CRISCI</strong>.</strong> A third Crisci woman, and a second man called Orazio in a
+    town where generation four would marry the daughter of an <P n="Orazio Morgillo" bold={true} />.</li>
+  </ul>
+
+  <p class="small">The 1814 section ends at image 286; image 287 is the divider card
+  «Anno 1815 / Arienzo (66) / dal n° 1 al n° 25».</p>
+
   <h2>How this file was nearly lost</h2>
   <div class="card" style="margin:1.1rem 0;border-left:3px solid var(--rule,currentColor)">
     <p>An earlier session worked this volume from the back, found a bundle numbered 25 and then the
     1815 divider, and concluded that the volume stopped short of act 26. It wrote the conclusion into
     the research queue under <em>“Dead ends, recorded so they are not repeated — do not search these
     two again.”</em></p>
-    <p><strong>It was wrong.</strong> Processetti bundles are numbered <strong>in the order the banns
-    were published</strong>, not by the number the marriage later received in the marriage register.
-    This couple published in September and married in December: <strong>bundle 16, act 26</strong>.
-    Bundle 25's publication is dated 20 November — two months <em>later</em> than theirs. The volume
-    was never truncated; the search was looking for the wrong number.</p>
+    <p><strong>It was wrong.</strong> Processetti bundles are numbered in their own sequence,
+    <strong>in the order the banns were published</strong> — not by the number the marriage later
+    received in the marriage register. The 1814 volume holds <strong>seventeen bundles</strong>, and
+    this couple published in September and married in December: <strong>bundle 16, act 26</strong>.
+    The volume was never truncated; the search was looking for the wrong number.</p>
+    <p class="small"><strong>And this paragraph had to be corrected too.</strong> When it was first
+    published, hours earlier the same day, it said <em>“bundle 25's publication is dated 20 November”</em>
+    — a figure carried straight out of the note it was overturning, without checking. There is no
+    bundle 25. The <em>25</em> was a publication act number inside <strong>bundle 17</strong>, the last
+    of the year. The mechanism was right; the illustration was inherited rather than verified, which is
+    the very failure the paragraph above is about. It is on
+    <a href={u("/corrections")}>Corrections</a> as its own entry.</p>
     <p class="small">Two rules came out of it. <strong>In a processetti volume, match on the names and
     the publication date, never on the marriage act number.</strong> And a wrong negative is the most
     expensive mistake an archive can make, because it stops anyone looking again — so every

@@ -466,8 +466,9 @@ act was never going to be attached to this particular marriage.
 >
 > **The error was in the numbering, not the reading.** Processetti bundles run in the order the
 > banns were published; marriages are numbered in the order they were celebrated. This couple
-> published in September and married in December — bundle 16, act 26. The "act 25" found at the
-> end of the volume is bundle 25, published 20 November, two months later than theirs.
+> published in September and married in December — bundle 16, act 26. The volume holds SEVENTEEN
+> bundles, all covers read; the "act 25" found at the end of it is a publication act number inside
+> **bundle 17**, which is Francesco Crisci fu Alessandro x Teresa Morgillo.
 
 
 Worked the 1814 processetti (`an_ua14154`, 290 pp.) from the back:

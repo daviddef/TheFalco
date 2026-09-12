@@ -24,11 +24,17 @@ single document this archive has found.
 
 The bundles in a processetti volume are numbered **by their own sequence, in the order the
 banns were published** — not by the number the marriage later received in the marriage
-register. Vincenzo and Andreana published their banns in **September** but did not marry until
-**15 December**, so their file sits at bundle **16** while their marriage is act **26**.
-Bundle 25 — the one the earlier session found at the end of the volume — carries a publication
-of **20 November**, two months *later* than ours. The volume was never truncated. The search
-was looking for the wrong number.
+register. **The 1814 volume holds seventeen bundles**, verified by sweeping all 290 images and
+reading every cover. Vincenzo and Adriana published their banns in **September** but did not
+marry until **15 December**, so their file sits at bundle **16** while their marriage is act
+**26**. The volume was never truncated. The search was looking for the wrong number.
+
+> **This paragraph was itself wrong when first written**, and the first version said *"bundle 25
+> — the one the earlier session found at the end of the volume — carries a publication of 20
+> November."* There is no bundle 25. The **25** was a *publication act number* inside **bundle
+> 17**, the last bundle of 1814 — which is **Francesco Crisci fu Alessandro × Teresa Morgillo**.
+> The figure was carried out of the note being overturned without being checked. Corrected the
+> same day and published on /corrections.
 
 The lesson is now a standing rule: **in a processetti volume, match on the names and the
 publication date, never on the marriage act number.** And a second: a "do not search again"
@@ -241,3 +247,52 @@ Recorded so the search is not repeated:
 - Parish baptisms, Arienzo, Sant'Andrea Apostolo, *liber IX*, fol. 47v (Vincenzo Falco, 1792) —
   quoted in the extract above; the register itself is not on Antenati
 - Parish baptisms, Arienzo, *liber IX*, fol. 94v (Adriana Crisci, 1796) — likewise
+
+---
+
+## The whole volume, swept
+
+Having found one bundle, all **290 images** were swept as contact sheets (`tools/antenati.py sweep`,
+added for this) and every bundle cover read. **The 1814 section holds seventeen bundles**, images
+1–286; image 287 is the divider card «Anno 1815 / Arienzo (66) / dal n° 1 al n° 25».
+
+| Bundle | Cover at | The marriage | Read to |
+|---|---|---|---|
+| 1 | — | not located, before image 3 | — |
+| 2 | 3 | Pasquale Ruggiero × … | survey |
+| 3 | 19 | **ORAZIO VILLANO fu Luca, e di ANTONIA CRISCI** × Grazia Carp… | **native res** |
+| 4 | 38 | Gaspare M… | survey |
+| 5 | 53 | … | survey |
+| 6 | — | not located, somewhere in 54–106 | — |
+| 7 | 107 | Gennaro Terracciano di Andrea, e di Maria Esposito × Teresa … | survey |
+| 8 | 122 | Vincenzo Alb… di Giovanni, e di Elena di Sapri… | survey |
+| 9 | 136 | … | survey |
+| 10 | 151 | Angelandrea … | survey |
+| 11 | 171 | Crescenzo R… | survey |
+| 12 | 182 | Angelo Indimbo(?) di Pasquale, e della fu Teresa Madonna | survey |
+| 13 | 200 | Angelo figlio di Nicola, e d'Antonia Abbratelli(?) × Margarita … | survey |
+| 14 | 225 | Domenico Vendicchio di Vincenzo, e di Rosa Marrone × Sara Auricolo(?) di Alessandro | survey |
+| 15 | 238 | Lorenzo Sdal…(?) figlio de' Francesco, ed Elena … | survey |
+| **16** | **265** | **VINCENZO FALCO × ADRIANA CRISCI** | **read in full** |
+| 17 | 275 | **FRANCESCO CRISCI figlio del fu Alessandro, e di Carmina …** × **TERESA MORGILLO** | **native res** |
+
+**Everything marked *survey* was read from a contact sheet at a fifth of full resolution and is
+provisional** — forenames especially. Published unfinished, and saying so, because the next person
+to open this volume should not have to sweep it again.
+
+### Three of the seventeen touch this line
+
+- **Bundle 16** — ours.
+- **Bundle 17** — a **Crisci** marrying a **Morgillo**, published 20 November 1814. This is the
+  bundle whose publication act, numbered 25, stopped the earlier search. **No connection to this
+  line is claimed** — both surnames are common at Arienzo.
+- **Bundle 3** — **Antonia Crisci** as a groom's mother, and a second man named **Orazio** in the
+  town where generation four would marry Orazio Morgillo's daughter.
+
+### A note on the images
+
+Antenati's capture of this volume **duplicates some openings** — images 264 and 265 are two shots of
+the same leaf, both showing bundle 16's cover. Do not read a duplicate as a second document.
+
+Also: the big pencil numerals in the gutter are **on the facing verso**, so pencil *N* sits opposite
+cover *N+1*. Reading the pencil as the bundle number gives an off-by-one.

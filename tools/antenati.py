@@ -19,7 +19,7 @@ Usage
     python3 tools/antenati.py strip an_ua14340 2 3 --width 1800 --out d38-02-03.jpg
     python3 tools/antenati.py zoom  an_ua14340 63 --width 3400 --band 0.30 0.20 --half L
 """
-import json, os, re, sys, subprocess, argparse, concurrent.futures
+import json, os, re, sys, time, subprocess, argparse, concurrent.futures
 from io import BytesIO
 from PIL import Image
 
@@ -76,10 +76,20 @@ def leaf(ark, n, width, refresh=False):
     ids = ids_for(ark, refresh)
     if not 1 <= n <= len(ids):
         raise SystemExit(f"{ark} has {len(ids)} images; {n} is out of range")
-    raw = fetch(IIIF.format(id=ids[n - 1], w=width), binary=True)
-    if raw[:2] != b"\xff\xd8":
-        raise SystemExit(f"image {n}: not a JPEG — {raw[:80]!r}")
-    return Image.open(BytesIO(raw))
+    url = IIIF.format(id=ids[n - 1], w=width)
+    # Cloudflare answers a burst of requests with an HTML challenge instead of
+    # the image. It is a rate limit, not a width limit — the same URL succeeds
+    # a moment later. Back off and retry rather than hunting for a "good" width,
+    # which is what sent an earlier session chasing a self-inflicted block.
+    for attempt in range(4):
+        raw = fetch(url, binary=True)
+        if raw[:2] == b"\xff\xd8":
+            return Image.open(BytesIO(raw))
+        if raw[:9].lower() == b"<!doctype":
+            time.sleep(2 * (attempt + 1))
+            continue
+        break
+    raise SystemExit(f"image {n}: not a JPEG — {raw[:80]!r}")
 
 # The two halves of an opening, as fractions of the page. Arienzo's registers
 # put one act per half from 1839 on; these are the bands the sweeps have used.
@@ -101,9 +111,29 @@ def stack(tiles, gap=14):
         out.paste(t.convert("L"), (0, y)); y += t.height + gap
     return out
 
+
+def grid(tiles, labels, cols, pad=6, label_h=16):
+    """A contact sheet. Used to find where the BUNDLES start in a processetti
+    volume: a bundle cover is a near-blank leaf with four lines at the top and a
+    big pencil number, and that shape is recognisable long before the words are.
+    One sheet of forty replaces forty page reads."""
+    from PIL import ImageDraw
+    tw = max(t.width for t in tiles); th = max(t.height for t in tiles)
+    rows = (len(tiles) + cols - 1) // cols
+    out = Image.new("L", (cols * (tw + pad) + pad,
+                          rows * (th + label_h + pad) + pad), 255)
+    d = ImageDraw.Draw(out)
+    for i, (t, lab) in enumerate(zip(tiles, labels)):
+        r, c = divmod(i, cols)
+        x = pad + c * (tw + pad); y = pad + r * (th + label_h + pad)
+        out.paste(t.convert("L").resize((tw, th)), (x, y))
+        d.rectangle([x, y, x + tw, y + th], outline=0)
+        d.text((x + 2, y + th + 2), str(lab), fill=0)
+    return out
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["ids", "strip", "zoom", "page"])
+    ap.add_argument("cmd", choices=["ids", "strip", "zoom", "page", "sweep"])
     ap.add_argument("ark")
     ap.add_argument("pages", nargs="*", type=int)
     ap.add_argument("--width", type=int, default=1800)
@@ -112,6 +142,8 @@ def main():
     ap.add_argument("--half", default="LR", help="which halves: L, R or LR")
     ap.add_argument("--out", default="strip.jpg")
     ap.add_argument("--refresh", action="store_true")
+    ap.add_argument("--cols", type=int, default=8)
+    ap.add_argument("--range", nargs=2, type=int, metavar=("FROM", "TO"))
     a = ap.parse_args()
 
     if a.cmd == "ids":
@@ -121,11 +153,24 @@ def main():
         print(f"{len(ids)} images  ->  {os.path.join(CACHE, a.ark + '.json')}")
         return
 
+    if a.range:
+        a.pages = list(range(a.range[0], a.range[1] + 1))
+
     imgs = {}
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as ex:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as ex:
         futs = {ex.submit(leaf, a.ark, n, a.width, a.refresh): n for n in a.pages}
         for f in concurrent.futures.as_completed(futs):
             imgs[futs[f]] = f.result()
+
+    if a.cmd == "sweep":
+        top, height = a.band
+        tiles, labels = [], []
+        for n in a.pages:
+            for h in a.half:
+                tiles.append(band(imgs[n], h, top, height)); labels.append(f"{n}{h}")
+        grid(tiles, labels, a.cols).save(a.out, quality=80)
+        print(f"{a.out}  {len(tiles)} tiles from images {a.pages[0]}-{a.pages[-1]}")
+        return
 
     if a.cmd == "page":
         for n in a.pages:
