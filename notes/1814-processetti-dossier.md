@@ -296,3 +296,47 @@ the same leaf, both showing bundle 16's cover. Do not read a duplicate as a seco
 
 Also: the big pencil numerals in the gutter are **on the facing verso**, so pencil *N* sits opposite
 cover *N+1*. Reading the pencil as the bundle number gives an off-by-one.
+
+---
+
+# BUNDLE 13 — three generations of Crisci, and a marriage that lasted months
+
+Read 13 September 2026, to settle whether the **MARGARITA CRISCI** who married in bundle 13 is the
+**Margarita Crisci, 32**, buried at Arienzo on **6 February 1815**. **She is.**
+
+A processetto had to carry the death certificates of any dead parent or grandparent. Margarita's
+parents were both dead, so this bundle carries **three generations** — and reaches back to 1789,
+twenty years before civil registration begins.
+
+| Image | Extract | What it says |
+|---|---|---|
+| 204 | **Baptism**, *liber VIII baptizatorum fol. 166* | «Anno Domini … **1780**, die vero **vigesima septima 27 Septembris** … D. **Salvatore Carolo Crisci** Substitutus baptizavit infantem natam ex **ANGELO CRISCI** et **GRAZIA MOSCATO(?)** Conjugibus hujus Parochiae, quae nominata est **MARGARITA**» |
+| 207 | **Death**, *liber VII defunctorum fol. 52* | **ANGELO CRISCI**, her father, died **20 August 1812** |
+| 208 | **Death**, *liber VII defunctorum fol. 34* | **GRAZIA [MOSCATO]**, her mother, died **16 September 1809** |
+| 209 | **Death**, *liber VI defunctorum fol. 65* | «Anno Domini … **1789**, die vero **vigesimaprima 21 Martii**, **THOMAS CRISCI** Viduus quondam **URSULAE di GUARINO(?)**, aetatis suae annorum **46**» — her **grandfather** |
+
+## The pedigree this gives
+
+- **TOMMASO CRISCI** × **ORSOLA di GUARINO(?)** — he died 21 March 1789 **aged 46**, so born about
+  **1743**, and he was already a widower. *Read at native resolution; her surname is the least
+  certain word on the page.*
+- **ANGELO CRISCI** (their son) × **GRAZIA MOSCATO(?)** — she died 1809, he died 1812.
+- **MARGARITA CRISCI**, baptised **27 September 1780**.
+
+## And the marriage lasted months
+
+Margarita married in **1814** (bundle 13, to «**ANGELO** figlio di Nicola, e d'Antonia Abbratelli»).
+On **6 February 1815** the Arienzo death register records *Margarita Crisci, thirty-two, daughter of
+the late Angelo Crisci and Grazia, **wife of Angelo Diglio***.
+
+**The parents match exactly, and both are named as already dead in both documents.** The
+identification is no longer probable but established. Her stated age of thirty-two makes her born
+1782 against a baptism of 1780 — the usual two-year wobble, and no obstacle.
+
+**What is still not proved is the groom's surname.** Bundle 13's cover gives him as «Angelo figlio
+di Nicola», and the 1815 death act calls her husband **Angelo Diglio**. Nothing in the pages read so
+far writes his surname out. It is almost certainly Diglio; it is not yet demonstrated.
+
+> **Why this bundle matters beyond one woman.** It reached **1789** — twenty years before civil
+> registration begins in 1809, and four years before the earliest Falco act this archive holds. The
+> processetti carry the parish books inside them. That is the argument for reading the other 320.

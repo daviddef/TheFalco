@@ -214,6 +214,26 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
 
 *All of the above is published on the site at `/open-questions/`.*
 
+## [x] ITEM 1 — Arienzo marriages 1815 (`an_ua14219`) READ END TO END
+- 30 images, **exactly 25 acts**. The ONLY Falco is **LUIGI FALCO of San Felice** (img 8).
+  **No Crisci.** Do not re-read this volume.
+
+## [x] ITEM 9 — Margarita Crisci: ESTABLISHED, and three Crisci generations with her
+- Bundle 13 of the 1814 processetti (`an_ua14154`, imgs 202-210) carries her baptism AND the death
+  extracts of her dead parents and grandfather:
+  - **TOMMASO CRISCI** x **ORSOLA di GUARINO(?)** — he d. **21 Mar 1789 aged 46** (b. c.1743),
+    already a widower. Read at native resolution; her surname is the least certain word.
+  - **ANGELO CRISCI** x **GRAZIA MOSCATO(?)** — she d. 16 Sep 1809, he d. 20 Aug 1812
+  - **MARGARITA CRISCI** — baptised **27 Sep 1780**
+- The 1815 death act names the SAME two parents, both dead. Same woman. Married 1814, buried
+  6 Feb 1815.
+- [ ] **STILL OPEN: the groom's surname.** The cover gives only "Angelo figlio di Nicola, e
+      d'Antonia Abbratelli". The 1815 act calls her husband **Angelo DIGLIO**. Almost certainly
+      Diglio; not demonstrated. His baptism extract should be elsewhere in bundle 13 (imgs 200-212).
+- **THE ARGUMENT FOR READING THE OTHER 320 VOLUMES**: this bundle reached **1789** — twenty years
+  before civil registration begins, and four years before the oldest Falco act this archive holds.
+  Processetti carry the parish books inside them.
+
 ## THE LIVING-PEOPLE RULE — how it is now enforced (13 Sep 2026)
 David's rule: living people are named and NOTHING MORE — no date of birth, no place, no record,
 no photograph. It has been broken THREE times with the same date (generation nine's birth year):
