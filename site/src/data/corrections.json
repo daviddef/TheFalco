@@ -197,7 +197,7 @@
   "sev": "major",
   "was": "“The file for marriage act 26 (Falco × Crisci) is not in the 1814 processetti. Do not search these two again.”",
   "now": "It was there — bundle 16, images 265–274 — and it is the richest document this archive has found.",
-  "how": "An earlier session worked the volume from the back, found bundle 25 dated 20 November 1814 and the 1815 divider, and concluded the volume stopped short of act 26. But processetti bundles are numbered in the order the BANNS were published, not by the number the marriage later received. Vincenzo and Andreana published in September and married in December: bundle 16, act 26.",
+  "how": "An earlier session worked the volume from the back, found a publication act numbered 25 dated 20 November 1814 and then the 1815 divider, and concluded the volume stopped short of act 26. But processetti BUNDLES are numbered in their own sequence, in the order the banns were published — not by the number the marriage later received in the marriage register. The 1814 volume holds SEVENTEEN bundles; Vincenzo and Adriana published in September and married in December, so their file is bundle 16 while their marriage is act 26. The «25» that stopped the earlier search was a publication act number inside bundle 17, the last of the year.",
   "why": "This is the most expensive kind of error an archive can make — a wrong negative, written down as a rule, that stops anyone looking again. It stayed in QUEUE.md under “Dead ends, recorded so they are not repeated” for weeks. The standing rule is now: in a processetti volume match on names and publication date, never on the marriage act number — and every “do not search again” note must carry the reasoning that produced it, so the reasoning can be checked.",
   "where": "/processetti",
   "plate": "processetto-1814-cover.jpg",
@@ -238,5 +238,17 @@
   "where": "/direct-line#gen-1",
   "plate": "falco-consent-1814-act85.jpg",
   "by": "the 1814 processetti"
+ },
+ {
+  "when": "2026-09-13",
+  "what": "a correction, corrected",
+  "sev": "minor",
+  "was": "This page said, hours earlier on the same day: “Bundle 25's publication is dated 20 November, two months later than ours.”",
+  "now": "There is no bundle 25. The 1814 volume holds seventeen bundles. The «25» was a publication act number inside bundle 17.",
+  "how": "Sweeping all 290 images of the volume as contact sheets and reading every bundle cover. Each is headed «Numero N — Comune Corpo d'Arienzo»; they run 1 to 17, and bundle 17 is Francesco Crisci fu Alessandro × Teresa Morgillo, published 20 November 1814.",
+  "why": "I repeated a number out of the earlier session's note while writing the correction that overturned that very note — without checking it. The mechanism I described was right and is unchanged; the illustration was wrong. It is published because a correction that quietly acquires its own errors is worse than no correction, and because this is exactly the failure the same day's other entry warns about: a figure inherited rather than verified.",
+  "where": "/processetti",
+  "plate": "",
+  "by": "reading all seventeen bundle covers"
  }
 ]

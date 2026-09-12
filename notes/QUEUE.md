@@ -132,8 +132,9 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
   **WRONG — struck 13 Sept 2026. The file IS in the volume, at bundle 16, images 265-274.**
   Processetti bundles are numbered in the order the BANNS were published, not by the number the
   marriage later received. This couple published in September and married in December, so their
-  file is bundle 16 while their marriage is act 26. Bundle 25's publication is dated 20 November,
-  two months LATER than theirs; the volume was never truncated. See
+  file is bundle 16 while their marriage is act 26. The volume holds SEVENTEEN bundles (all 290
+  images swept, every cover read); it was never truncated. The "25" that stopped the earlier
+  search is a publication act number inside bundle 17, the last of 1814. See
   `notes/1814-processetti-dossier.md`. **Standing rule: in a processetti volume, match on the names
   and the publication date, never on the marriage act number.**
 - The 1817 processetti volume is **the wrong year** — the marriage was 15 Dec 1814, and its
