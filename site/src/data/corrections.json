@@ -310,5 +310,17 @@
   "where": "/lines",
   "plate": "",
   "by": "auditing the built HTML, not the source"
+ },
+ {
+  "when": "2026-09-13",
+  "what": "a search recorded as promising that was not",
+  "sev": "minor",
+  "was": "Orazio Morgillo × Vincenza Pesce would be found in the San Felice marriage registers of 1816 or 1817.",
+  "now": "Neither year holds them. Both volumes have been read act by act and the couple is not in either.",
+  "how": "San Felice a Cancello, Matrimoni 1817 (an_ua50229, 22 images) and 1816 (an_ua50228, 26 images), swept in full.",
+  "why": "Published as a negative so the two years are not read again. The couple was reached anyway, and by a better route: their daughter's BIRTH act, which names both parents outright. The lesson is recorded on /morgillo — when the target is a couple and a child's date is known, go to the birth register, because a birth act names both parents and a marriage act has to be found first. The marriage is still open; the remaining window is San Felice 1813-1815, or another parish if Vincenza was not of the town.",
+  "where": "/morgillo",
+  "plate": "",
+  "by": "reading both volumes"
  }
 ]
