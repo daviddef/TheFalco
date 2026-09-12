@@ -456,7 +456,19 @@ That last detail matters for the search above him: because the father was living
 would carry **Pasquale's consent**, not the death certificates of dead ancestors. Matteo Falco's death
 act was never going to be attached to this particular marriage.
 
-### And the processetto for act 26 is not in the volume
+### ~~And the processetto for act 26 is not in the volume~~ — WRONG, and found
+
+> **Struck 13 September 2026.** Everything in this section below is left standing because this
+> archive does not quietly delete what it got wrong. **The dossier IS in the volume**, at bundle
+> **16**, images 265-274, and it is the richest document found so far — it names Matteo Falco in
+> 1814, gives Vincenzo Falco's baptism (1 Feb 1792) and Adriana Crisci's (30 Nov 1796), and adds
+> two new generations on the Crisci side. See `notes/1814-processetti-dossier.md`.
+>
+> **The error was in the numbering, not the reading.** Processetti bundles run in the order the
+> banns were published; marriages are numbered in the order they were celebrated. This couple
+> published in September and married in December — bundle 16, act 26. The "act 25" found at the
+> end of the volume is bundle 25, published 20 November, two months later than theirs.
+
 
 Worked the 1814 processetti (`an_ua14154`, 290 pp.) from the back:
 

@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
+import Src from "../components/Src.astro";
 import { u } from "../lib/url.js";
 import register from "../data/register.json";
 const rows = register.filter((r) => (r.surname || "").toUpperCase() === "RIVETTI");
@@ -29,6 +30,21 @@ const swept = rows.filter((r) => r.kind === "swept").length;
   </blockquote>
   <p class="small">Arienzo, Morti 1843, atto 43. Two Cioffi of strada Camellara walked to the town hall
   to report it. Plate on the <a href={u("/documents")}>Documents</a> page.</p>
+
+  <div class="card" style="margin:1.1rem 0">
+    <p><strong>And a second series now says the same thing, twenty-nine years earlier.</strong> Her
+    son Vincenzo's marriage dossier of 1814 — found in September 2026 — contains a notarial act of
+    <strong>8 December 1814</strong> in which «li conjugi Pasquale Falco del fu Matteo, e
+    <strong>CHIARA RIVETTI del fu NICOLA</strong>» consent to their son's marriage. A notary's
+    instrument and a parish burial, three decades and two record series apart, agree on her father.
+    <Src plate="falco-consent-1814-act85.jpg" label="the act" /></p>
+    <p class="small">The same dossier gives her an age for the first time outside a death act. The
+    banns of 11 September 1814 make her <strong>forty-seven</strong>, implying a birth about
+    <strong>1767</strong>. Her 1843 burial implied <strong>1763</strong>; the family tree says
+    <strong>1772</strong>. <strong>Three estimates, no two agreeing</strong> — and in the same act the
+    clerk gets her son's age and her son's bride's age right to the year. Her baptism is the next
+    target. <a href={u("/processetti")}>The Processetti →</a></p>
+  </div>
 
   <h2>Why one word in that act mattered so much</h2>
   <p>Her Latin burial entry called her only <em>«filia quondam NICOLAI et ANNA»</em> — daughter of the

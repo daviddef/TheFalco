@@ -8,7 +8,18 @@ import line from "../data/line.json";
    here comes from households.json — nothing is inferred to fill a gap. */
 const { household, eyebrow, showHead = true } = Astro.props;
 
-const members = ALL.filter((p) => p.household === household.name);
+/* households.json does not use one word for a child: «child», but also
+   «daughter» and «son». Reading only the first dropped six real children out of
+   these diagrams AND pushed them into the parents' row, because anyone not
+   matched as a child fell through to the head list. «declarant» must never
+   appear at all — a declarant is the man who walked to the town hall, usually
+   a neighbour, and the whole value of the 1828 «parente della defunta» find is
+   that the register says so WHEN he is kin. Same rule as tools/build_people.py. */
+const CHILD_ROLES = new Set(["child", "daughter", "son"]);
+const NOT_KIN = new Set(["declarant", "—", ""]);
+const members = ALL.filter((p) => p.household === household.name
+  || p.alsoChildIn === household.name)
+  .filter((p) => !NOT_KIN.has(String(p.role || "").toLowerCase()));
 const parts = household.name.split(/\s*&\s*/).map((s) => s.trim());
 const clean = (s) => String(s || "").replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
 
@@ -18,7 +29,8 @@ const spouse = parts.length > 1
   ? (members.find((p) => clean(p.name) === clean(parts[1]))
      || { name: parts[1], events: [] })
   : null;
-const children = members.filter((p) => p.role === "child");
+const children = members.filter((p) => CHILD_ROLES.has(p.role)
+  || p.alsoChildIn === household.name);
 
 /* A child carries the line only if it is the NEXT generation of it. Vincenzo
    and Andreana called two sons Pasquale; neither is Pasquale of generation two,
@@ -31,6 +43,7 @@ const nextName = headGen != null
   ? (line.find((g) => g.gen === headGen + 1) || {}).name
   : null;
 const inLine = (p) => !!nextName && clean(p.name) === clean(nextName);
+const orphaned = members.filter((p) => p !== head && p !== spouse && !children.includes(p));
 
 const when = (p) => {
   if (!p || !p.events) return "";

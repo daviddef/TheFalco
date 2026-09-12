@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
+import Src from "../components/Src.astro";
 import { u } from "../lib/url.js";
 import register from "../data/register.json";
 const rows = register.filter((r) => (r.surname || "").toUpperCase() === "CRISCI");
@@ -26,10 +27,41 @@ const swept = rows.filter((r) => r.kind === "swept").length;
         <td>Named as the parents in <strong>three separate children's death acts</strong>: Angela in
         1822, Rosa in 1830, Pasquale in 1834. No act names Francesca's own parents.</td></tr>
       <tr><td class="mono"><strong>3</strong></td>
-        <td><strong>ANDREANA CRISCI</strong> × <P n="Vincenzo Falco" bold={true} /></td>
-        <td>Named as a parent of Raffaele Falco, and placed on <strong>strada Camellara</strong>.</td></tr>
+        <td><strong>ADRIANA (“Andreana”) CRISCI</strong> × <P n="Vincenzo Falco" bold={true} />
+          <span class="mono small">b. 30 Nov 1796</span></td>
+        <td><strong>Her own baptism extract, found in the 1814 marriage dossier</strong>, names her
+        parents — <strong>Arcangelo Crisci</strong> and <strong>Sara Ruggiero</strong> — and gives her
+        the name <strong>Adriana</strong> at the font. <Src plate="adriana-crisci-baptism-1796.jpg" label="the extract" /></td></tr>
     </tbody>
   </table></div>
+
+  <h2>Two generations above her, found in 1814</h2>
+  <p class="lede">Until September 2026 the Crisci of generation three stopped at Andreana. Her marriage
+  dossier reaches two names further back. <a href={u("/processetti")}>The Processetti →</a></p>
+  <div class="scroll"><table>
+    <thead><tr><th>Name</th><th>Living or dead in Dec 1814</th><th>How the archive knows</th></tr></thead>
+    <tbody>
+      <tr><td><strong>ARCANGELO CRISCI</strong> × <strong>SARA RUGGIERO</strong><br/>
+        <span class="small">Andreana's parents, of strada Camellara</span></td>
+        <td class="small"><strong>Both living.</strong> They appear before the notary Salvio Morgillo
+        on 8 December 1814 to consent to their daughter's marriage.</td>
+        <td class="small">«li conjugi ARCANGELO CRISCI fu NICOLA, e SARA RUGGIERO di Pasquale,
+        domiciliati … strada Camellara»
+        <Src plate="crisci-consent-1814-act26.jpg" label="the act" /></td></tr>
+      <tr><td><strong>NICOLA CRISCI</strong><br/><span class="small">Arcangelo's father</span></td>
+        <td class="small"><strong>Dead.</strong> His son is «<em>fu</em> Nicola».</td>
+        <td class="small">The same act. Nothing else is known of him — not a date, not a trade.</td></tr>
+      <tr><td><strong>PASQUALE RUGGIERO</strong><br/><span class="small">Sara's father</span></td>
+        <td class="small"><strong>Living.</strong> His daughter is «<em>di</em> Pasquale», not «fu».</td>
+        <td class="small">The same act, and the only record of him anywhere in this archive.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="card" style="margin:1.1rem 0">
+    <p><strong>And the Crisci lived on strada Camellara.</strong> Not near it — on it, the same
+    short street as <P n="Pasquale Falco" bold={true} /> and his household. The two families were
+    neighbours before they were in-laws, which is the plainest explanation this archive has yet
+    found for why these two surnames cross eleven times.</p>
+  </div>
 
   <h2>And a Falco daughter married out, on the same street, in the same years</h2>
   <p class="lede"><P n="Anna Falco" bold={true} /> — a daughter of Pasquale Falco and Chiara Rivetti, so a
@@ -39,7 +71,10 @@ const swept = rows.filter((r) => r.kind === "swept").length;
   street.</p>
   <p>This is what closed an old question here. The archive had two men called <P n="Arcangelo Crisci" bold={true} /> — one aged fifty-two and one aged thirty, both declaring births in 1817 — and could
   not tell which was which. Anna's act settles that <em>the younger one married the line's own
-  daughter</em>. <strong>The Crisci married into this family twice in a single generation</strong>:
+  daughter</em>. <strong>And Andreana's baptism now settles the other man.</strong> She was baptised
+  on 30 November 1796, so her father was already married with a child that year: the elder Arcangelo,
+  fifty-two in 1817, was thirty-one in 1796 — the younger was <strong>nine</strong>. Andreana's father
+  is the elder, and that is fixed by arithmetic rather than inference. <strong>The Crisci married into this family twice in a single generation</strong>:
   Andreana marrying in, Anna marrying out.</p>
 
   <h2>The eleven crossings</h2>

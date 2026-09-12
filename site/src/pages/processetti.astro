@@ -1,0 +1,223 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import Src from "../components/Src.astro";
+import { u } from "../lib/url.js";
+
+const bundle = [
+  { img: "265", doc: "The wrapper", date: "—",
+    what: "«Documenti del Matrimonio tra Vincenzo Falco di Pasquale, e di Chiara Rivetti, ed Andreana Crisci di Arcangelo, e di Sara Ruggiero»",
+    plate: "processetto-1814-cover.jpg" },
+  { img: "266", doc: "Vincenzo Falco's baptism extract", date: "issued 13 Sept 1814",
+    what: "Copied from liber IX, fol. 47 a tergo. Baptised 1 February 1792, named Vincentius Raphael.",
+    plate: "vincenzo-falco-baptism-1792.jpg" },
+  { img: "268", doc: "Adriana Crisci's baptism extract", date: "issued 13 Sept 1814",
+    what: "Liber IX, fol. 94 a tergo. Baptised 30 November 1796, daughter of Archangelo Crisci and Sara Ruggiero.",
+    plate: "adriana-crisci-baptism-1796.jpg" },
+  { img: "269", doc: "Notarial act 85 — the groom's parents consent", date: "8 December 1814",
+    what: "Before Felice Morgillo. «li conjugi PASQUALE FALCO del fu MATTEO, e CHIARA RIVETTI del fu NICOLA…»",
+    plate: "falco-consent-1814-act85.jpg" },
+  { img: "270", doc: "Notarial act 26 — the bride's parents consent", date: "8 December 1814",
+    what: "Before Salvio Morgillo. «li conjugi ARCANGELO CRISCI fu NICOLA, e SARA RUGGIERO di Pasquale…»",
+    plate: "crisci-consent-1814-act26.jpg" },
+  { img: "271", doc: "Civil publication act 33 — first banns", date: "Sunday 11 September 1814",
+    what: "Read by the sindaco before the door of the town hall at one o'clock. States four ages.",
+    plate: "falco-crisci-banns-1814.jpg" },
+  { img: "272", doc: "Civil publication act 40 — second banns", date: "Sunday 18 September 1814",
+    what: "The same four ages, repeated a week later — an independent check on the reading.", plate: "" },
+  { img: "273", doc: "The archpriest's certificate of the church banns", date: "Sunday 9 October 1814",
+    what: "Giacinto Morgillo certifies the denuncia was read in Sant'Andrea and no impediment was raised.", plate: "" },
+];
+
+const ages = [
+  { who: "Vincenzo Falco", said: "23", implies: "c. 1791", against: "baptised 1 Feb 1792 — he was 22 years 7 months", ok: true },
+  { who: "Andreana Crisci", said: "17 compiti", implies: "c. 1797", against: "baptised 30 Nov 1796 — days off her eighteenth", ok: true },
+  { who: "Chiara Rivetti", said: "47", implies: "c. 1767", against: "her 1843 burial implied 1763; the tree says 1772", ok: null },
+  { who: "Pasquale Falco", said: "60", implies: "c. 1754", against: "baptised 24 Oct 1767 — he was 46. Wrong by fourteen.", ok: false },
+];
+
+const series = [
+  ["Banns, 11 Sept 1814", "23", "22y 7m", "right — in his 23rd year", true],
+  ["Banns, 18 Sept 1814", "23", "22y 7m", "right", true],
+  ["Marriage act, 15 Dec 1814", "21", "22y 10m", "wrong by 2", false],
+  ["Raffaele I's birth, 25 Apr 1816", "35", "24", "wrong by 11", false],
+  ["Raffaele II's birth, 10 May 1818", "27", "26y 3m", "right — in his 27th year", true],
+  ["A declaration, 1831", "38", "39", "close", null],
+  ["Death register, 1839", "42", "47", "wrong by 5", false],
+];
+---
+<Base title="The Processetti"
+      eyebrow="The marriage files — 321 volumes, one read"
+      dek="A processetto is everything a couple had to prove before they could marry: their baptisms, their parents' consent, their banns. The first one this archive opened turned out to be the richest document it has.">
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>Under the Napoleonic code a marriage generated a file, not just an entry.</strong>
+    The couple had to produce baptism extracts, death certificates for any dead parent, the consent
+    of living parents where either was under age, and proof that the banns had been read twice in
+    the town and once in the church. All of it was bundled and kept. The bundles survive for the
+    Valle Caudina as <strong>321 volumes</strong> — and until 13 September 2026 this archive had
+    never read one.</p>
+  </div>
+
+  <h2>Bundle 16 of 1814 — Falco × Crisci</h2>
+  <p class="lede">The file behind <P n="Vincenzo Falco" bold={true} />'s marriage to
+  <P n="Andreana Crisci" bold={true} /> on 15 December 1814. Eight documents, three hands, four
+  months. <Src ark="an_ua14154" img={265} note="Arienzo processetti 1814" /></p>
+
+  <div class="scroll"><table>
+    <thead><tr><th>Image</th><th>Document</th><th>Date</th><th>What it says</th><th>Plate</th></tr></thead>
+    <tbody>
+      {bundle.map((b) => (
+        <tr>
+          <td class="mono">{b.img}</td>
+          <td><strong>{b.doc}</strong></td>
+          <td class="mono small">{b.date}</td>
+          <td class="small">{b.what}</td>
+          <td>{b.plate ? <Src plate={b.plate} label="plate" /> : <span class="small" style="opacity:.5">—</span>}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table></div>
+
+  <p class="small">Every weekday the documents claim — 11 September, 18 September and 9 October 1814,
+  each called <em>giorno di Domenica</em> — is in fact a Sunday. The bundle checks out against the
+  calendar.</p>
+
+  <h2>What it settled</h2>
+
+  <div class="card" style="margin:1.1rem 0">
+    <p><strong>Matteo Falco, named in 1814.</strong> Vincenzo was twenty-three — under the Code's
+    threshold of twenty-five — so his parents had to consent in person. They did, before the notary
+    Felice Morgillo: «li conjugi <strong>PASQUALE FALCO del fu MATTEO</strong>, e <strong>CHIARA
+    RIVETTI del fu NICOLA</strong>, domiciliati … <strong>strada Camellara</strong>».
+    This is <strong>the earliest document that names <P n="Matteo Falco" bold={true} /></strong>, and
+    the earliest that proves him dead. His death bracket closes from <span class="mono">[1786, Oct
+    1822]</span> to <span class="mono">[1786, 8 Dec 1814]</span>.
+    <Src plate="falco-consent-1814-act85.jpg" label="the act" /></p>
+  </div>
+
+  <h3>Vincenzo Falco's baptism — and the end of the age problem</h3>
+  <p>The archpriest <strong>Giacinto Morgillo</strong> copied it out of the parish register on
+  13 September 1814: «Anno Domini … <strong>1792</strong>, die vero prima <strong>1 Februarii</strong>
+  … baptizavi infantem natum ex <strong>Paschale Falco</strong>, et <strong>Clara Rivetta</strong>
+  Conjugibus … cui dedi nomen <strong>Vincentius Raphael</strong>.»
+  <Src plate="vincenzo-falco-baptism-1792.jpg" label="the extract" /></p>
+
+  <p>This archive has published his stated ages as a warning for a long time — twenty-one, then
+  thirty-five, then twenty-seven, then forty-two. Measured against a real birth date, <strong>three
+  of them are exactly right</strong>, provided you count the way the clerks counted: by the year a
+  man is <em>in</em>, not the years he has finished.</p>
+
+  <div class="scroll"><table>
+    <thead><tr><th>Record</th><th>Stated</th><th>Actually</th><th>Verdict</th></tr></thead>
+    <tbody>
+      {series.map(([rec, said, real, v, ok]) => (
+        <tr>
+          <td>{rec}</td>
+          <td class="mono"><strong>{said}</strong></td>
+          <td class="mono">{real}</td>
+          <td class="small" style={ok === true ? "color:var(--good,inherit)" : ok === false ? "opacity:.75" : "opacity:.6"}>
+            {ok === true ? "✓ " : ""}{v}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table></div>
+
+  <p class="small">He was also christened <strong>Vincenzo Raffaele</strong> — which is why he named
+  a son Raffaele in 1816 and, when that child died, named the next one Raffaele too. He was passing
+  on his own second name, not a grandfather's.</p>
+
+  <h3>Adriana Crisci — and a conflict closed</h3>
+  <p>The same archpriest, the same day: «… <strong>1796</strong>, die vero trigesima
+  <strong>30 Novembris</strong> … infantem natam ex <strong>Archangelo Crisci</strong>, et
+  <strong>Sara Ruggiero</strong> Conjugibus … cui dedit nomen <strong>Adriana</strong>.»
+  <Src plate="adriana-crisci-baptism-1796.jpg" label="the extract" /></p>
+  <p><strong>Adriana is the name she was given at the font</strong> — and the root of every variant
+  the registers throw at her: Andreana, Andriana, Andrea. The 1839 death register was read here as
+  «Andriana <strong>Cioffi</strong>», and this site carried Crisci-versus-Cioffi as a live conflict.
+  Six documents of 1814 say <strong>Crisci</strong> and four of them name her parents. The conflict
+  is closed, and the wrong reading stays on <a href={u("/corrections")}>Corrections</a> rather than
+  being quietly swapped.</p>
+
+  <h3>Two new generations</h3>
+  <p>The bride's consent act names people no record had reached before —
+  <strong>NICOLA CRISCI</strong>, Arcangelo's father, already dead by December 1814
+  (<em>fu</em>), and <strong>PASQUALE RUGGIERO</strong>, Sara's father, still living
+  (<em>di</em>, not <em>fu</em>). And it puts the Crisci on <strong>strada Camellara</strong>:
+  the two families were neighbours before they were in-laws.
+  <Src plate="crisci-consent-1814-act26.jpg" label="the act" /></p>
+
+  <h2>The four ages in one act</h2>
+  <p class="lede">The banns state everyone's age at once — which makes them a controlled experiment
+  in how much a register clerk actually knew.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Who</th><th>Said, Sept 1814</th><th>Implies born</th><th>Against the record</th></tr></thead>
+    <tbody>
+      {ages.map((a) => (
+        <tr>
+          <td><strong>{a.who}</strong></td>
+          <td class="mono">{a.said}</td>
+          <td class="mono small">{a.implies}</td>
+          <td class="small">{a.ok === true ? "✓ " : a.ok === false ? "✗ " : ""}{a.against}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table></div>
+  <div class="card" style="margin:1.1rem 0">
+    <p>The clerk got <strong>both young people right to the year</strong> and <strong>the father
+    wrong by fourteen</strong>. That is the thesis this archive has been arguing across a dozen
+    volumes — the registers are accurate about whoever is standing in front of the clerk and careless
+    about everyone else — and here a single document proves it in both directions at once.</p>
+  </div>
+
+  <h2>A standing question, half of it now closed</h2>
+  <p><P n="Vincenzo Falco" bold={true} />'s sister <P n="Anna Falco" bold={true} /> (d. 23 August 1820,
+  aged 25) was the wife of an <strong>Arcangelo Crisci</strong>. Andreana's father is an
+  <strong>Arcangelo Crisci</strong>, of the same street. This site has asked before whether that is
+  one man twice married or two men of a name — and the 1817 birth register already answered half of
+  it: <strong>two Arcangelo Crisci declare births in that single year, one aged 52 and one aged
+  30</strong>.</p>
+
+  <div class="card" style="margin:1.1rem 0">
+    <p><strong>The baptism decides which one fathered Andreana, by arithmetic.</strong> She was
+    baptised on 30 November 1796, so her father was a married man with a child that year. The elder
+    Arcangelo — 52 in 1817, so born about 1765 — was <strong>31</strong> in 1796. The younger — 30 in
+    1817, born about 1787 — was <strong>nine years old</strong>. He cannot be her father.</p>
+    <p class="small">So <strong>Andreana Crisci's father is the elder Arcangelo Crisci, born about
+    1765</strong>. That is fixed.</p>
+  </div>
+
+  <p><strong>Which of them Anna Falco married is still not fixed.</strong> This archive's standing
+  reading is the younger, and it remains the simpler one — Anna was born about 1795 and married by
+  about 1819. But the elder cannot be ruled out: it would need Sara Ruggiero to have died between
+  December 1814, when she stood before a notary and consented to her daughter's marriage, and about
+  1818. <strong>The test is Sara Ruggiero's death</strong>, and this dossier has turned that from a
+  vague question into a dated, falsifiable search — the Arienzo death registers, 1815 to 1818.
+  See <a href={u("/open-questions")}>Open Questions</a>.</p>
+
+  <h2>How this file was nearly lost</h2>
+  <div class="card" style="margin:1.1rem 0;border-left:3px solid var(--rule,currentColor)">
+    <p>An earlier session worked this volume from the back, found a bundle numbered 25 and then the
+    1815 divider, and concluded that the volume stopped short of act 26. It wrote the conclusion into
+    the research queue under <em>“Dead ends, recorded so they are not repeated — do not search these
+    two again.”</em></p>
+    <p><strong>It was wrong.</strong> Processetti bundles are numbered <strong>in the order the banns
+    were published</strong>, not by the number the marriage later received in the marriage register.
+    This couple published in September and married in December: <strong>bundle 16, act 26</strong>.
+    Bundle 25's publication is dated 20 November — two months <em>later</em> than theirs. The volume
+    was never truncated; the search was looking for the wrong number.</p>
+    <p class="small">Two rules came out of it. <strong>In a processetti volume, match on the names and
+    the publication date, never on the marriage act number.</strong> And a wrong negative is the most
+    expensive mistake an archive can make, because it stops anyone looking again — so every
+    “do not search this again” note here now carries the reasoning that produced it, where the
+    reasoning can be checked.</p>
+  </div>
+
+  <h2>What remains</h2>
+  <p><strong>320 volumes.</strong> Arienzo's own runs are the priority; <strong>Moiano (99
+  volumes)</strong> and <strong>Paolisi (43)</strong> have never been opened. Each bundle carries
+  baptism extracts, which reach a generation earlier than the civil registers begin — this one
+  reached back to a parish register of 1792 that is not itself online. That is the argument for
+  reading the rest. <a href={u("/antenati")}>How these are read →</a></p>
+
+</Base>
