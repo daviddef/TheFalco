@@ -125,6 +125,26 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       (fol. 47v Vincenzo 1792, fol. 94v Adriana 1796). Not on Antenati. If it survives it holds the
       baptisms of this whole generation. Ask the Museo Alfonsiano / the parish.
 
+## A FALCO HOUSEHOLD AT SAN FELICE A CANCELLO — found 13 Sep 2026
+- **SEBASTIANO FALCO x COLOMBA MONTEFUSCO**, of the Comune de' Sei Casali (= San Felice a
+  Cancello), **strada Croce di San Felice**. Trade: ***SAPUNARO*, soap-maker** — father and son.
+  Their son **LUIGI FALCO**, 18, married at Arienzo in 1815 (`an_ua14219`, img 8, read at native
+  resolution). Bride: "[?]ietta RENCHIELLO(?)", 18, filatrice, strada del Borgo, Arienzo.
+- **NO CONNECTION TO THIS LINE IS CLAIMED.** But generation four's wife ANGELA ROSA MORGILLO was
+  born at San Felice on 24 Feb 1818 — three years later, same town. Worth testing, not believing.
+- [ ] **San Felice death registers** — an act for Sebastiano or Colomba would name Sebastiano's
+      parents. San Felice is now reachable; see the method section below.
+- [ ] **Luigi Falco's baptism** — b. c.1797, San Felice parish books.
+- [ ] **The processetto for this marriage** — Arienzo 1815, `an_ua14156`, bundle not identified.
+      It carries both baptism extracts.
+
+## Arienzo marriages 1815 (`an_ua14219`) — PARTIALLY READ
+- **Exactly 25 acts**, fixed by the closing certificate. Images **2-16 read** (~acts 1-13) at
+  survey resolution. **Images 17-30 NOT READ** — resume there.
+- No Crisci and no second Falco in images 2-16.
+- **Arienzo processetti 1815 (`an_ua14156`, 385 imgs)**: contact-sheet sweep run for images 1-200
+  only. Covers at 3 (Numero 2), 20 (3), 29 (4), 33 (5). **Images 201-385 not swept.**
+
 ## NEW METHOD — discover Antenati holdings instead of guessing arks
 - **`https://antenati.cultura.gov.it/search-registry/?localita=<TOWN>[&tipologia=Nati]`** returns
   ark ids in plain HTML. curl + the usual UA/Referer. Ten results at a time; `&start=` is ignored.
