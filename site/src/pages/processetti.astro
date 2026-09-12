@@ -47,21 +47,21 @@ const series = [
 ];
 
 const census = [
-  ["1","—","not located — before image 3","none"],
-  ["2","3","Pasquale Ruggiero × …","survey"],
+  ["1","—","cover not photographed — the scan opens inside bundle 1, at the archpriest's certificate of 16 January 1814","none"],
+  ["2","3","PASQUALE RUGGIERO figlio di Giovanni, ed Orsola Espositella, vedovo di Lucia Giovanna Martone × Giovanna …","read"],
   ["3","19","ORAZIO VILLANO fu Luca, e di ANTONIA CRISCI × Grazia Carp…","read"],
-  ["4","38","Gaspare M… × …","survey"],
-  ["5","53","…","survey"],
-  ["6","—","not located — somewhere in images 54–106","none"],
-  ["7","107","Gennaro Terracciano di Andrea, e di Maria Esposito × Teresa …","survey"],
-  ["8","122","Vincenzo Alb… di Giovanni, e di Elena di Sapri… × …","survey"],
-  ["9","136","…","survey"],
-  ["10","151","Angelandrea … × …","survey"],
-  ["11","171","Crescenzo R… × …","survey"],
-  ["12","182","Angelo Indimbo(?) di Pasquale, e della fu Teresa Madonna × …","survey"],
-  ["13","200","Angelo figlio di Nicola, e d’Antonia Abbratelli(?) × Margarita …","survey"],
-  ["14","225","Domenico Vendicchio di Vincenzo, e di Rosa Marrone × Sara Auricolo(?) di Alessandro","survey"],
-  ["15","238","Lorenzo Sdal…(?) figlio de’ Francesco, ed Elena …","survey"],
+  ["4","38","GASPARE MORGILLO di Marco, e di Caterina Ruggiero × ANNA ARRICOLE di Angelo, e fu Rosa Sirelli","read"],
+  ["5","53","DOMENICO VALENTINO figlio del fu Gennaro, e di Maria …","read"],
+  ["6","78","FRANCESCO LICCINELLO(?) delli furono Vincenzo, ed Andreana …","read"],
+  ["7","107","GENNARO TERRACCIANO di Andrea, e di Maria Esposito × TERESA LORRINO del fu Pasquale, e di Angela Laudato","read"],
+  ["8","122","VINCENZO ALBANELLI(?) figlio di Giovanni, e di Elena di Saprio × MARIA TERESA MARRONE figlia di Agostino","read"],
+  ["9","136","FRANCESCANTONIO SADEROSA(?) figlio di Agostino Saderosa …","read"],
+  ["10","151","ANGELANDREA DI LUCIA figlio delli furono Lorenzo di Lucia e Marianna Taddeo, vedovo di Anna …","read"],
+  ["11","171","CRESCENZO PORRINO figlio di Vincenzo, e di Agnese Carrecchia × … figlia di Felice","read"],
+  ["12","182","ANGELO INDIMBO di Pasquale, e della fu Teresa Madonna × MARIA DI LUCIA figlia di Domenico, e della fu Teresa Coppola","read"],
+  ["13","200","ANGELO figlio di Nicola, e d'Antonia Abbratelli × MARGARITA CRISCI figlia de' furono Angelo Crisci, e Grazia","read"],
+  ["14","225","DOMENICO VENDICCHIO figlio di Vincenzo, e di Rosa Marrone × SARA ARRICOLE di Alessandro, e della fu Lucrezia Marrone","read"],
+  ["15","238","LORENZO SDALLENA(?) figlio de' furono Francesco, ed ELENA CRISCI, vedovo di Maria Tadaresa × MARIA RAFFAELE MORGILLO figlia del fu Mat…","read"],
   ["16","265","VINCENZO FALCO di Pasquale e Chiara Rivetti × ADRIANA CRISCI di Arcangelo e Sara Ruggiero","full"],
   ["17","275","FRANCESCO CRISCI figlio del fu Alessandro, e di Carmina … × TERESA MORGILLO","read"],
 ];
@@ -246,12 +246,22 @@ const census = [
   <em>both</em> sets of parents before any act is opened.</p>
 
   <div class="card" style="margin:1.1rem 0">
-    <p><strong>Read this table for what it is.</strong> Only bundle 16 has been read through. Bundles
-    3 and 17 had their covers read at full magnification because they carry surnames from this line.
-    <strong>Everything marked <em>survey</em> was read from a contact sheet at a fifth of full
-    resolution and is provisional</strong> — forenames especially. It is published unfinished because
-    an unfinished census that says so is more use than a finished one nobody can check, and because
-    the next person to open this volume should not have to sweep it again.</p>
+    <p><strong>Read this table for what it is.</strong> Only bundle 16 has been read through, act by
+    act. <strong>Every other row is its cover sheet only</strong> — read at full magnification, so the
+    surnames are sound, but a cover names four parents and nothing else. Readings marked (?) are
+    uncertain. <strong>Bundle 1's cover was never photographed</strong>: the scan opens partway into
+    it, at the archpriest's certificate of 16 January 1814, so that couple is unknown.</p>
+  </div>
+
+  <div class="card" style="margin:1.1rem 0;border-left:3px solid var(--ochre)">
+    <p><strong>One of these women was dead within months.</strong> Bundle 13 marries
+    <strong>MARGARITA CRISCI</strong>, «figlia de' furono Angelo Crisci, e Grazia». On
+    <strong>6 February 1815</strong> the Arienzo death register records <em>Margarita Crisci, thirty-two,
+    daughter of the late Angelo Crisci and Grazia, wife of Angelo Diglio</em> — and bundle 13's groom
+    is «Angelo figlio di Nicola». <strong>Almost certainly the same woman</strong>, married in 1814 and
+    buried before the next winter was out. The two volumes were read on the same day and neither knew
+    about the other. It is set down as <em>probable</em>, not proved: the groom's surname is not on the
+    cover.</p>
   </div>
 
   <div class="scroll"><table>
@@ -262,13 +272,13 @@ const census = [
           <td class="mono"><strong>{n}</strong></td>
           <td class="mono small">{img}</td>
           <td class={how === "full" ? "" : "small"}>{how === "full" ? <strong>{who}</strong> : who}</td>
-          <td class="small">{how === "full" ? "✓ read in full" : how === "read" ? "cover verified" : how === "none" ? "not located" : "survey only"}</td>
+          <td class="small">{how === "full" ? "✓ act by act" : how === "read" ? "cover read" : "not in the scan"}</td>
         </tr>
       ))}
     </tbody>
   </table></div>
 
-  <h3>Three of the seventeen touch this line</h3>
+  <h3>Six of the seventeen touch this line</h3>
   <ul>
     <li><strong>Bundle 16 — the marriage this archive came for.</strong> Read end to end; everything
     above comes out of it.</li>
@@ -280,7 +290,19 @@ const census = [
     <li><strong>Bundle 3 — <P n="Orazio Villano" bold={true} />, son of the late Luca Villano and
     <strong>ANTONIA CRISCI</strong>.</strong> A third Crisci woman, and a second man called Orazio in a
     town where generation four would marry the daughter of an <P n="Orazio Morgillo" bold={true} />.</li>
+    <li><strong>Bundle 4 — a <strong>MORGILLO</strong> marrying an <strong>ARRICOLE</strong>.</strong>
+    «GASPARE MORGILLO di Marco, e di Caterina Ruggiero × ANNA ARRICOLE di Angelo». Three surnames
+    from this line in one marriage: Morgillo, who marry into it at generation four; Arricole, who marry
+    into it at generation five; and Ruggiero, Adriana Crisci's mother's name.</li>
+    <li><strong>Bundle 14 — <strong>SARA ARRICOLE</strong></strong>, «di Alessandro, e della fu
+    Lucrezia Marrone». A second Arricole, and a second woman of Arienzo called Sara.</li>
+    <li><strong>Bundle 15 — <strong>ELENA CRISCI</strong> as a groom's mother, and
+    <strong>MARIA RAFFAELE MORGILLO</strong> as the bride.</strong></li>
   </ul>
+  <p class="small"><strong>No descent from any of these is claimed.</strong> Crisci appears on 113 of
+  361 Arienzo register pages and Morgillo on 76. Six of seventeen marriages touching one of this
+  archive's surnames is close to what chance predicts in this town, and that is exactly why the
+  archive counts them rather than connecting them.</p>
 
   <p class="small">The 1814 section ends at image 286; image 287 is the divider card
   «Anno 1815 / Arienzo (66) / dal n° 1 al n° 25».</p>
