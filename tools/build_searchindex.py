@@ -16,16 +16,19 @@ register and the name pages are for, and shipping them twice would put four
 megabytes into a search box for no gain.
 """
 import json, os, re, collections
+import sys
 
 # --- the shared row contract -------------------------------------------------
 # All seven archives now emit {k,t,s,h,q}: kind, title, subtitle, href, and a
 # lowercased accent-folded haystack. The box that reads it is one component in
 # @daviddef/archive-kit, so the schema has to be the same everywhere.
-def _fold(s):
-    import unicodedata
-    s = unicodedata.normalize("NFD", str(s or ""))
-    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
-    return s.replace("\u0111", "d").replace("\u0110", "D").lower()
+# One fold, shared with the search box and the other six archives.
+sys.path.insert(0, os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    "site", "node_modules", "@daviddef", "archive-kit", "kit", "tools"))
+import searchkit  # noqa: E402
+
+_fold = searchkit.fold
 
 def to_contract(rows):
     out = []
@@ -35,8 +38,7 @@ def to_contract(rows):
         s = r.get("s", r.get("d", ""))
         h = r.get("h", r.get("u", ""))
         q = r.get("q", r.get("x", ""))
-        out.append({"k": k, "t": t, "s": s, "h": h,
-                    "q": _fold(" ".join([str(t), str(s), str(q)]))})
+        out.append(searchkit.row(k, t, s, h, q))
     return out
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
