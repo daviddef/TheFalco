@@ -63,8 +63,30 @@ This is the trap this entry exists to disarm. **A Matteo Falco did die at Arienz
 Raffaele, aged two, in 1815. Our Matteo was married to Francesca Crisci with children baptised from
 **1767**, so he was born about 1740 and would have been near seventy in 1809, with parents long dead.
 
-> **What would settle it beyond doubt**: the act itself, which states an age. The index does not.
-> Arienzo Morti 1809 = `an_ua14311`.
+**AND THE ACT HAS NOW BEEN READ.** Arienzo Morti 1809, `an_ua14311`, image 40 right, at native
+resolution:
+
+> Oggi, che sono li **ventotto** del mese di **Agosto** dell'anno mille ottocento nove … ed hanno
+> dichiarato, che oggi suddetto giorno ad ore **cinque** è morto **MATTEO FALCO** — di
+> **[ANNI struck, MESI written over it] QUINDICI**, di professione contadino…
+
+**Fifteen.** The clerk corrected himself between *anni* and *mesi*, and on either reading the
+deceased is a child or a youth. **The founder would have been sixty-nine.** The trap is disarmed.
+
+Declarants: **Agostino Cioffi**, 44, and **Giuseppe Cioffi**, 38, both *bracciali* of strada
+Sant'Andrea.
+
+### And Nicola Falco was two years old
+
+The other 1809 Falco, read the same day: «è morto **NICOLA FALCO** d'anni **DUE**, di professione
+contadino … abitante nella **strada della CAMELLARA**, figlio di Gi[useppe]…» — **on the family's
+own street**, and declared by **FRANCESCO FALCO, about sixty-six, a *bracciale* of strada
+Camellara**, with Cesare d'Iglio.
+
+> **FRANCESCO FALCO is new, and he is of the founder's own generation** — about sixty-six in 1809
+> means born about **1743**, within three years of Matteo, living on the same street. Nothing joins
+> him to this line. He is set down because an adult Falco of that generation on strada Camellara is
+> exactly the kind of person the archive has been looking for.
 
 ### Giuseppe Falco and Antonia di Guida lost TWO sons called Raffaele
 

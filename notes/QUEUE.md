@@ -304,8 +304,13 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       called Vincenzo (23 Aug 1810, 5 Jan 1812). Margarita was one of the isolates.
 - [ ] **OPEN: one Giuseppe Falco twice married, or two Giuseppe Falco?** 1809 gives two Falco
       children of a Giuseppe with DIFFERENT mothers — Antonia di [Guida] and GELSOMINA VIGLIOTTA.
-- [ ] **Arienzo Morti 1809 (`an_ua14311`), act for Matteo Falco of 28 Aug 1809** — the act states an
-      age and would settle the namesake outright.
+- [x] **Arienzo Morti 1809 act READ (`an_ua14311`, img 40 R).** «è morto MATTEO FALCO — di
+      [ANNI struck, MESI over it] QUINDICI» — **FIFTEEN**, the clerk correcting himself. A child on
+      either reading; the founder would have been 69. TRAP DISARMED.
+      NICOLA FALCO (3 Sep) likewise: «d'anni DUE», **strada CAMELLARA**.
+- [ ] **NEW — FRANCESCO FALCO, c.66 in 1809 (b. c.1743), BRACCIALE of STRADA CAMELLARA**, who
+      declared Nicola Falco's death. **An adult Falco of the founder's own generation on the family
+      street.** Nothing joins him to the line. Find his death and his household.
 
 ## THE LIVING-PEOPLE RULE — how it is now enforced (13 Sep 2026)
 David's rule: living people are named and NOTHING MORE — no date of birth, no place, no record,
