@@ -83,7 +83,28 @@ def _clean(n):
         parts[-2:] = [parts[-2] + parts[-1]]
     return parts
 
+# Some "names" in the sources are not names at all but a description of what
+# could not be read — "a daughter, name not legible (machine gives «proja»)".
+# Fed to the surname deriver those file the child under LEGIBLE, which invents
+# a family. A description opens with an article, or says in words that the
+# reading failed.
+#
+# NOT a comma test. A comma here almost always separates a name from a trade —
+# "Agostino Anigale, vaticale" — and screening on it re-filed 1,133 correctly
+# surnamed people as unknown.
+_NOT_A_NAME = ("not legible", "illegible", "name unknown", "machine gives",
+               "not recorded", "unnamed", "no name")
+
+def is_description(n):
+    t = str(n or "").strip().lower()
+    if not t:
+        return False
+    return (t.startswith(("a ", "an ", "the "))
+            or any(k in t for k in _NOT_A_NAME))
+
 def sur(n):
+    if is_description(n):
+        return "?"
     parts = _clean(n)
     if not parts:
         return "?"
