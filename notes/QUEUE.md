@@ -231,8 +231,11 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
 - **NO grandparent certificate, and the absence is structural**: both Luigi's parents were alive and
   consenting, so the Code required none. **The route to Sebastiano's parents is a DEATH ACT for him
   or Colomba in San Felice** — 27 "Morti, indice" volumes to search, not 30 registers.
-- [ ] The bride: cover says "[C]ecilia VECCHIO(?) figlia del fu Sabbatino"; the marriage act said
-      "[?]ietta Renchiello(?)". **The two readings do not agree.** Neither settled.
+- [x] **The bride's SURNAME settled: VECCHILLO / VECCHIO.** Re-read at native resolution: «E
+      comparsa egualmente [F]ietta VECCHILLO di anni diciotto». "Renchiello" was MY misreading and
+      never existed. Daughter of the late SABBATINO, filatrice, strada del Borgo, Arienzo.
+- [ ] Her FORENAME is still open — "Fietta" in the act against "[C]ecilia" on the cover. Fietta may
+      be a contraction of Felicetta.
 - [ ] **The parish books of San Felice Martire, diocese of Sant'Agata de' Goti** — cited here by
       volume and folio. Never approached.
 
