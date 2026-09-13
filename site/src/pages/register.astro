@@ -33,6 +33,7 @@ const distinct = new Set(register.map((r) => r.name.toLowerCase())).size;
 const KIND = {
   index: "surname index", record: "record", cited: "cited by this archive",
   burial: "burial", file: "archive file", household: "reconstructed", swept: "read in the register", tree: "family tree",
+  parish: "parish register",
 };
 // Every row either links to its source or says here why it cannot.
 const WHYNOLINK = {
@@ -41,6 +42,7 @@ const WHYNOLINK = {
   cited: "no link — held as a family scan, not published",
   household: "no link — joined from records listed elsewhere on this page",
   swept: "no link — the volume is not yet on Antenati",
+  parish: "no link — the act was found by full-text search and no image address was captured",
 };
 const unlinked = register.length - linked;
 ---

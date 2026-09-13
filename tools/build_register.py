@@ -182,6 +182,36 @@ for r in rd("data/record-citations.tsv"):
                                r.get("father_or_spouse")] if x),
         r.get("collection") or "", link, "cited", r.get("date") or "")
 
+# --- Arienzo parish books, opened 13 Sep 2026 ---
+# The civil registers begin in 1809. Everything before that — and every child who
+# died before one — lives only here. Rows carry READ: "image" means the handwriting
+# itself was read at magnification; "transcription" means FamilySearch's
+# handwriting-recognition only, which has already been caught turning 1802 into
+# 1902. The distinction is published on the row, not buried in a note.
+for r in rd("data/arienzo-parish-acts.tsv"):
+    read = (r.get("read") or "").strip()
+    mark = "READ FROM THE IMAGE" if read == "image" else "machine transcription — unverified"
+    ev = (r.get("event") or "").strip()
+    parents = " & ".join(x for x in [r.get("father"), r.get("mother")] if x)
+    common = [r.get("date"), r.get("place"), r.get("priest")]
+    # the principal
+    bits = [ev, r.get("date"), r.get("place")]
+    if r.get("spouse"): bits.append("m. " + r["spouse"])
+    if parents: bits.append("of " + parents)
+    for x in (r.get("priest"), r.get("others"), r.get("note")):
+        if x: bits.append(x)
+    bits.append(mark)
+    link = fs(r.get("ark"))
+    add(r.get("principal"), sur(r.get("principal")), " · ".join(x for x in bits if x),
+        "Arienzo parish registers (FamilySearch)", link, "parish", r.get("date") or "")
+    # everyone else the act names, so they are findable by their own name
+    for role, who in [("father of", r.get("father")), ("mother of", r.get("mother")),
+                      ("married", r.get("spouse"))]:
+        if not who: continue
+        add(who, sur(who), " · ".join(x for x in
+            [role + " " + (r.get("principal") or ""), ev, r.get("date"), r.get("place"), mark] if x),
+            "Arienzo parish registers (FamilySearch)", link, "parish", r.get("date") or "")
+
 # --- Australia ---
 for r in rd("data/nudgee-burials.tsv"):
     nm = f"{r.get('given','')} {r.get('surname','')}".strip()
