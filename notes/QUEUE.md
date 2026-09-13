@@ -103,10 +103,13 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
 
 ## 6. The Annecchino
 - [x] Established that the Annecchino are a **Forchia** family — which explains the Falco move north.
-- [ ] **Filomena Annecchino's act of birth, 10 Apr 1897, Forchia** — not found; the harvest is capped
-      by paging and fuzzy matching. Try full-text search on the Benevento collection, or the Forchia
-      register images directly. Until then the descent from Carmine Annecchino & Maria Carfora is
-      *inferred*, not documented.
+- [ ] **Filomena Annecchino's act of birth, 10 Apr 1897, FORCHIA (BN)** — not found. **The Forchia
+      question is settled (13 Sep 2026): it is the COMUNE of Forchia, Benevento — Forchia di Cervino
+      is a frazione of CERVINO and Antenati holds Cervino separately with 386 registers of its own.**
+      **But the Antenati Caserta series for Forchia STOPS AT 1861**, so her 1897 act was never going
+      to be in it. **The target is FamilySearch's «Benevento Civil Registration (State Archive)
+      1810–1942»** — the one collection not yet exhausted. Until it is, the descent from Carmine
+      Annecchino & Maria Carfora is *inferred*, not documented.
 - [ ] Resolve the two Carmine Annecchinos (one m. Maria Carfora, one m. Maria Giovanna Crisci) whose
       children are 12 days apart in Sept 1883.
 
