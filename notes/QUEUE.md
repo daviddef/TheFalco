@@ -1,6 +1,22 @@
 # Research queue
 
-Updated 7 September 2026, after Pasquale Falco's baptism was found.
+Updated **13 September 2026**, after the founding couple's deaths were read and the Brisbane
+arrivals were found.
+
+## CLOSED THIS WEEK
+- [x] **MATTEO FALCO'S DEATH — 18 July 1802**, «annorum 55 circiter» (b. c. 1747), buried *in
+      Archipresbyterali Coemeterio*. Ark `3Q9M-CSMY-B744-5`, **read from the image**.
+- [x] **FRANCESCA CRISCI'S DEATH — 31 December 1805**, «VIDUA MAT-THEI FALCO, annorum 60 circiter»
+      (b. c. 1745), buried in the confraternity of Santa Maria delle Grazie. Ark `3Q9M-CSMY-B772-V`.
+      **The archive's central question is answered at both ends.**
+- [x] **Generation four's marriage — 5 March 1844, Sant'Agnese, Arienzo.**
+- [x] **Gioacchino Falco × Vittoria Cimmino — 16 May 1796**, naming both sets of parents.
+- [x] **Carminantonio and Filomena's arrivals** — see §7.
+
+## THE LIVE TARGET, now that Matteo is closed
+**Matteo Falco's own marriage, c. 1760–66**, in the parish marriage register — collection
+`M9J1-9B4` on FamilySearch full-text, and the forty marriage-index leaves. **A Neapolitan marriage
+act names both fathers**, so this is the one record that would push the line above him.
 
 ## Done
 - [x] **Pasquale Falco's baptism** — 24 Oct 1767, naming Matteo Falco & Francesca Crisci.
@@ -61,10 +77,22 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       death to **27 Apr 1985** (not 1988) and supplied Filomena's, **10 Aug 1988**.
 - [ ] **Order NAA J25 1971/9830 and J25 1972/4964** — Brisbane immigration case files. Should add
       sponsor, addresses, occupations and often photographs. **Highest-value remaining action.**
-- [ ] Read the 42 digitised pages of K269, 26 MAR 1964 SYDNEY for the family's own line.
-- [ ] **When did Carminantonio and Filomena arrive?** Neither is in the passenger index. A Giuseppe
-      Falco reached Brisbane 15 Sep 1925 per the *Palermo* — possibly Raffaele's brother b. 1883, and
-      possibly the chain-migration anchor. Untested.
+- [x] Read the 42 digitised pages of K269, 26 MAR 1964 SYDNEY — the family is in the **Quarantine
+      Service list bound in behind** the Fremantle return, at numbers 492 onward.
+- [x] **When did Carminantonio and Filomena arrive? — ANSWERED 13 Sep 2026.** FILOMENA **5 Feb 1968**
+      (NAA 9788535 p.251); CARMINANTONIO **19 May 1969** (NAA 12211391 p.1711); a second crossing by
+      him **24 Jul 1972** (NAA 12047001 p.1605). Found on FindMyPast **from inside the paywall** —
+      the earlier "neither is in the passenger index" was written from a signed-out session.
+      **Chain migration**: the son landed March 1964, his mother followed, then his father.
+- [ ] **PULL THE THREE NAA IMAGES.** The transcripts give a name, a year and a date and nothing else —
+      no age, no ship, no port. `recordsearch.naa.gov.au/SearchNRetrieve/Interface/ViewImage.aspx?B=<barcode>&S=<page>`.
+      Until then the identification rests on the forename and the dates. **This is the cheapest
+      unproven claim on the site to turn into a documented one.**
+- [ ] A Giuseppe Falco reached Brisbane 15 Sep 1925 per the *Palermo* — possibly Raffaele's brother
+      b. 1883, and possibly the chain-migration anchor. Untested.
+- [ ] **Two withheld FindMyPast records**: a **Francesca Falco** arriving 9 Jun 1968 (same NAA volume
+      as Filomena, p.253) and a **Giorgia Falco** 28 Aug 1972 (p.1607). May be family; the archive
+      cannot show either is deceased, so neither is published.
 
 ## 8. Blocked / needs a human
 - [ ] Several Caserta record images are restricted to FamilySearch-centre accounts. An affiliate
