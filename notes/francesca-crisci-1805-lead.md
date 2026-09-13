@@ -7,9 +7,9 @@
 > suae annorum **[…] circiter**, omnibus Sacramentis munita, in Comm[unione] S. M. E. obiit, et
 > **in Sodalitate S. Mariae Gratiarum** ejus cadaver [humatum est]. **Hyacinthus Archip. Morgillo**»
 >
-> *The machine renders the age as «annovembocircite». **The number is not legible.** An earlier
-> version of this page read it as «ottanta» — about eighty — and built an objection on it. That was
-> over-reading, and the objection is withdrawn below.*
+> **THE AGE IS NOW READ FROM THE IMAGE: «annorum 70 circiter» — SEVENTY.** Not the «ottanta» first
+> published here and then withdrawn as an over-read of an illegible machine word; **seventy**. Born
+> about **1735**.
 
 The year is fixed by the entry that follows it on the same leaf: «Anno D[omi]ni **1806**, die vero
 **prima Januarii**, Francisca Cillo uxor Vincentii Laudato…». So this is **31 December 1805**.
@@ -42,10 +42,15 @@ ex **MATTHEO FALCO, ET FRANCISCA CRISCI** conjugibus hujus Parochiae», matrina 
 *(If it is ROSA, this is the Rosa Falco who married Carlo Antonio Morgillo in July 1802 and died in
 1830 — which would make her sixteen at her marriage. Not claimed; flagged.)*
 
-**WHAT REMAINS.** Francesca Crisci bore children from **1767 to 1786**, so she was born around
-**1745** and would be about **sixty** in 1805 — perfectly possible. **The only real question left is
-whether the «Falco» after *vidua* is MATTEO.** The machine renders that word «Manel». It could be
-Matthei. It could be anything.
+**WHAT REMAINS, AND IT IS HARDER THAN IT WAS.** The image gives **seventy**, so she was born about
+**1735** — which makes her **fifty-one at the 1786 birth that is documented as hers**, and **twelve
+years older than Matteo Falco**, whose own act (read the same hour) makes him about **fifty-five** in
+1802. Fifty-one is at the edge of possible. A wife twelve years older is unusual but not rare.
+**Neither is comfortable, and «circiter» covers a great deal.**
+
+**The only thing that would settle it is the word after *vidua*.** The machine renders it «Manel». It
+could be **Matthei**. It could be anything. **That read was stopped twice by rate limits and is the
+first thing to do when they lift.**
 
 **And the standing warning applies**: this town has produced two Arcangelo Crisci, two Giuseppe
 Falco, three Michele Falco and two entire Falco families. **A Francesca Crisci widowed of a Falco is

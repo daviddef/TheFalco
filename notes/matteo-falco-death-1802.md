@@ -2,16 +2,25 @@
 
 **Arienzo parish death register, ark `3Q9M-CSMY-B744-5`.** Margin: «**Mattheus Falco**».
 
-> «**Anno Domini Millesimo Octingentesimo SECUNDO 1802, die vero DECIMA OCTAVA 18 JULII, MATTHEUS
-> FALCO, VIR FRANCISCAE CRISCI**, aetatis suae annorum […] circiter, **omnibus Sacramentis munitus**,
-> in Comm[unione] S. M. E. **obiit**, et **in Archipresbyterali Coemeterio ejus cadaver humatum est**.
-> **Hyacinthus Archipresbyter Morgillo**»
+> «**Anno Domini Millesimo octingentesimo secundo 1802, die vero decimo octavo 18 Julii, MATTHAEUS
+> FALCO VIR FRANCISCAE CRISCI, aetatis suae annorum 55 circiter**, omnibus Sacramentis munitus in
+> Comm[unione] S. M. E. **obiit**, et **in Archip[resbyter]ali Coemeterio ejus cadaver humatum est**.
+> **Hyacinthus Archip[resbyte]r Morgillo**»
 
-> **How much weight this carries.** **The image has not been read** — the attempt hit a FamilySearch
-> rate limit — so this is machine transcription. But **the year and the day are each written twice,
-> in words and in digits, and the two agree**: *millesimo octingentesimo secundo* / **1802**, *decima
-> octava* / **18**. The archive's own rule is that where words and digits agree the reading is safe.
-> **The age is garbled and is not reported here.**
+> **READ FROM THE IMAGE, 13 September 2026.** The margin carries his name and a cross. The hand on
+> this leaf is unusually clear.
+
+## HE WAS ABOUT FIFTY-FIVE — so he was born about 1747
+
+«**aetatis suae annorum 55 circiter**». This archive has carried **«born about 1740»** since the
+beginning, from nothing better than the date of his first known child.
+
+**Fifty-five fits everything.** He fathered children from **1767 to 1786** — from twenty to thirty-nine
+— and he married by 1766, at about nineteen. The 1740 guess made him twenty-seven at his first child
+and forty-six at his last, which was never impossible and was never evidence either.
+
+*The figure is written «55». In this hand the two glyphs are identical to each other; the second could
+be an 8. **About fifty-five, and born about 1744–1747**, is what the archive will say.*
 
 ---
 
@@ -63,8 +72,7 @@ believing the father was alive at both. **He was alive at one of them.**
 
 ## What is still open
 
-- [ ] **READ THE IMAGE.** The age is garbled, and the age is the only thing in the entry that would
-      date his birth.
+- [x] **THE IMAGE IS READ.** «annorum 55 circiter» — born about **1747**.
 - [ ] **FRANCESCA CRISCI.** She was his widow from 18 July 1802 — which makes the "«FRANCISCA CRISCI,
       VIDUA […] FALCO», 31 December 1805" entry, published as a lead this afternoon, **much more
       likely to be hers**. Same register, same confraternity of Santa Maria delle Grazie. It still
