@@ -277,6 +277,17 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       **CAUTION RECORDED: the 1851 index's act-number column does NOT reliably give the act number.**
       The 1809 index says its numbers do; 1851's did not match. Verify against the act.
 
+## STANDING RULE ADDED 13 Sep 2026 — check a find against what is already held, IN THE SAME PASS
+- The 1812 GIOVANNA FALCO was published as "a daughter of generation two this archive did not have".
+  **The archive already held a Giovanna Falco of the same parents who died 15 Sep 1805** (parish
+  register, FS 3Q9M-CSMY-B743-H). The 1812 girl is a SECOND daughter given her dead sister's name —
+  still new, wrongly framed. The claim stood for an hour; the query that caught it takes seconds.
+- **Before publishing a new person, run the archive's own register for that surname.**
+  `python3 -c "import json; [print(x) for x in json.load(open('site/src/data/register.json')) if ...]"`
+- The family's naming pattern is now FOUR-fold: two Raffaele (Vincenzo's), two Raffaele (Giuseppe's),
+  two Pasquale, two Maria, two Giovanna — and two Vincenzo Crisci in the Margarita Falco household.
+  **A "new" child of a name already in the family is more likely a replacement than a discovery.**
+
 ## [x] ITEMS 1 & 3 — the 1809-1814 death INDEXES read, and the index method controlled
 - **CONTROL FIRST.** Ran the indexes against known answers before trusting them. Chiara Rivetti is
   in the 1843 index with both parents, matching the act — the method works. AND IT CAUGHT TWO
