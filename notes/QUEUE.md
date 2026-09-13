@@ -31,8 +31,11 @@ arrivals were found.
 - **THE FAMILYSEARCH RATE BUDGET IS ~25 REQUESTS PER HALF HOUR**, tiles and `image.xml` together.
   Exceed it and everything 403s for ~30 minutes. **Budget one act per window**: overview at level L−2
   (12–15 tiles), then the entry only (6–10 tiles). Use the screenshot `zoom` action to find the
-  margin label — **it costs no requests.** And never `sleep()` inside the page: a background tab
-  throttles `setTimeout` to once a minute and the render looks frozen.
+  margin label first. **CORRECTION, same day: that does not work.** The `zoom` action crops the
+  screenshot already taken — it re-captures nothing, so upscaling an overview recovers no detail.
+  **Locate the entry by rendering a narrow band at the native level and stepping down the page**,
+  reading the act's own opening line rather than a neighbour's. And never `sleep()` inside the page:
+  a background tab throttles `setTimeout` to once a minute and the render looks frozen.
 
 ## THE LIVE TARGET, now that Matteo is closed
 **Matteo Falco's own marriage, c. 1760–66**, in the parish marriage register — collection
@@ -61,11 +64,11 @@ act names both fathers**, so this is the one record that would push the line abo
 ## 3. Loose ends in the reconstruction
 - [ ] **Arcangelo Crisci** appears both as Andreana's father and as Anna Falco's husband. Two men, or a
       widower's remarriage? Resolve from the Crisci baptisms.
-- [ ] **Name the child baptised 25 Nov 1777 to Matteo & Francesca** — `3Q9M-CSD3-13H2-1`, THE LAST
-      UNNAMED CHILD OF THE FOUNDERS. Attempted 13 Sep: the overview is a two-page spread whose
-      right-hand page carries a Falco margin label, but the first crop landed on a **1774** act.
-      Re-render the level-10 overview, **zoom the margin in the screenshot** to fix the label, then
-      crop the entry.
+- [x] **THE LAST UNNAMED CHILD IS NAMED — and there was no child of 1777.** `3Q9M-CSD3-13H2-1` read
+      from the image: «*Anno Domini … septuagesimo qua[rto] … die vero VIGESIMAQUINTA 25 NOVEMBRIS …
+      Canonicus BRUNO Substituens baptizavit … ex MATTHEO FALCO, et FRANCISCA CRISCI*», margin
+      «**Joachim Falco — obiit die 11 Decembris 1777**». The «[unnamed] child of 25 Nov 1777» was
+      this act with the year out by three. **The founders' six children are now all named.**
 - [ ] Two daughters named **Maria** (1789, 1790). Did the first die? Look for a burial 1789–90.
 - [ ] **The five Giuseppe Falco × Antonia di Guida baptism images** — `138R-9`, `13CP-B`, `13CY-2`,
       `1381-R`, `132V-3`. One per rate window.
