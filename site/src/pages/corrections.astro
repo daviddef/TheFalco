@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import plates from "../data/plates.json";
 import C from "../data/corrections.json";
 const rows = [...C].sort((a, b) => b.when.localeCompare(a.when) ||
   (a.sev === b.sev ? 0 : a.sev === "major" ? -1 : 1));
@@ -8,6 +9,11 @@ const KIND = { reading: "a misreading", claim: "an argument", identification: "a
                code: "a fault in the software", privacy: "a privacy failure" };
 const n = (k) => rows.filter((r) => r.what === k).length;
 const major = rows.filter((r) => r.sev === "major").length;
+
+/* A correction may name a plate that /documents does not actually publish —
+   eight of them did, and each one shipped a link to an anchor that was not
+   there. Offer the link only when the plate exists. */
+const published = new Set(plates.map(p => String(p.f).replace(/\.jpg$/, "")));
 ---
 <Base title="Corrections"
       eyebrow={`${rows.length} things this archive got wrong and says so`}
@@ -59,7 +65,9 @@ const major = rows.filter((r) => r.sev === "major").length;
         <p class="small foot">
           <span class="dim">Caught by {r.by}.</span>
           {r.where ? <> · <a href={u(r.where)}>Where it lives now →</a></> : null}
-          {r.plate ? <> · <a href={u("/documents/") + "#" + r.plate.replace(/\.jpg$/, "")}>the plate</a></> : null}
+          {r.plate && published.has(r.plate.replace(/\.jpg$/, ""))
+            ? <> · <a href={u("/documents/") + "#" + r.plate.replace(/\.jpg$/, "")}>the plate</a></>
+            : null}
         </p>
       </div>
     </section>
