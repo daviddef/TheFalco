@@ -114,3 +114,45 @@ small orbit two generations on.
 years apart, nine years of ageing. The archive has already documented that the Arienzo clerks guessed
 ages; **this is the same phenomenon inside one man's own lifetime, in two documents five years apart.**
 The recorded birth of **10 July 1850** sits between the two.
+
+---
+
+# GENERATION FIVE'S OWN DOSSIER IS NOT THERE — and the reason is the filming
+
+**14 September 2026.** Having opened generation six's fascicolo, the obvious next move was
+**generation five's**: Carminantonio Falco × Giovanna Arricale, who must have married about
+**1870–72** — their son Raffaele was born 6 April 1873 and his father was twenty-two.
+
+**It is not in collection 2043630, and it was never going to be.**
+
+## The evidence
+
+Five hundred Falco pages of the collection were harvested and their year-mentions counted **for
+Arienzo only**:
+
+> 1865:2 · **1871:1 · 1872:2 · 1873:1 · 1874:3** · **1875:19** · 1877:4 · 1878:4 · 1879:4 · 1880:5 ·
+> 1881:2 · 1882:1 · 1883:4 · 1885:10 …
+
+**The series is almost empty before 1875 and dense after it.** And every one of the seven pre-1875
+mentions, read individually, is **a birth extract QUOTED INSIDE A LATER DOSSIER** — each certified in
+the 1890s:
+
+- «*Estratto … per l'anno **1873** … Raffaele Falco*» — inside the **1897** Falco–Maione fascicolo.
+- «*Estratto … per l'anno **1872** … Maria Carmina Loffredo*» — «*conforme all'originale, Arienzo
+  **22 Aprile 1897***».
+- «*Estratto … per l'anno **1871** … Giuseppe Genovese*».
+- «*Estratto … dell'anno **1872** … Perrotta Filomena*» — «*Dato ad Arienzo il dì **7 Febbraio 1896***»,
+  on a form printed «**(Modulo 1865 al 1874)**».
+- «*Estratto … per l'anno **1874** … Morgillo Alessandra*» — «*Visto Arienzo **14 Dicembre 1895***».
+
+**Not one is a fascicolo of its own.** The years 1866–1874 survive in this collection only as
+**documents copied into marriages of the 1890s**.
+
+## What that means
+
+**The Arienzo *allegati* in this collection begin about 1875.** Generation five married before that,
+so **their dossier is outside the filmed range** — not missed, not mis-indexed, simply not there.
+
+**This is a holdings fact, not a search failure**, and it is on the Holdings page so nobody hunts it
+again. The remaining route to their marriage is the **Arienzo civil marriage registers themselves**
+for 1870–72, which Antenati holds — a reading job, like the deaths after 1858.
