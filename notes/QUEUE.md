@@ -17,7 +17,8 @@ Updated 7 September 2026, after Pasquale Falco's baptism was found.
       whether Matteo's father can be reached from below.
 
 ## 2. The processetti
-- [ ] Arienzo **marriage supplements** (*processetti*). They attach parish extracts reaching two
+- [~] Arienzo **marriage supplements** (*processetti*) — 1814 and 1815 now read in full; 61 volumes
+      remain. They attach parish extracts reaching two
       generations back. Supplements for 1896, 1897 and 1909 are digitised; find the earlier ones.
 
 ## 3. Loose ends in the reconstruction
@@ -98,8 +99,9 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       daughter of **Don Francesco Falco, *proprietario***. Not our line so far as anything shows —
       ours are contadini — but the first Falco the death sweep has turned up. Worth tracing Don
       Francesco separately.
-- [ ] **Read the Arienzo civil death registers** — 1835 and 1836 done. NEXT: **1834 (`an_ua14336`)**,
-      then 1837, 1833, 1838, working outward. Twelve years remain.
+- [x] **Arienzo civil death registers 1815-1843 ARE NOW READ IN FULL** — every year, act by act.
+      STILL UNREAD: **1809-1814**, and everything after 1843.
+      **DO NOT read them act by act — use the indexes (`an_ua14271` = 1809, +1/year).**
 - [ ] **Trace the strada Camellara Falco** — Michele and Francesco, both contadini, both on that
       street in 1836. Nearest thing yet to a peasant Falco cluster; likely kin to the line. (`an_ua14337`, 46 pp.),
       then 1836, 1834, 1837, working outward. ~90 acts/year, ~1,350 total. ~~**No index, no indice
@@ -155,9 +157,9 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
   born at San Felice on 24 Feb 1818 — three years later, same town. Worth testing, not believing.
 - [ ] **San Felice death registers** — an act for Sebastiano or Colomba would name Sebastiano's
       parents. San Felice is now reachable; see the method section below.
-- [ ] **Luigi Falco's baptism** — b. c.1797, San Felice parish books.
-- [ ] **The processetto for this marriage** — Arienzo 1815, `an_ua14156`, bundle not identified.
-      It carries both baptism extracts.
+- [x] **Luigi Falco's baptism — FOUND 13 Sep 2026: 27 Feb 1797**, parish of SAN FELICE MARTIRE,
+      diocese of Sant'Agata de' Goti, liber VII baptizatorum fol. 148. In his processetto, bundle 8.
+- [x] **The processetto — FOUND: bundle 8, `an_ua14156` imgs 123-142.** Whole volume swept.
 
 ## Arienzo marriages 1815 (`an_ua14219`) — PARTIALLY READ
 - **Exactly 25 acts**, fixed by the closing certificate. Images **2-16 read** (~acts 1-13) at
@@ -180,7 +182,7 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
   (Andriana, two Antonia, Angiola) and so are the Pesce — GIOVANNA PESCA, 48, "figlia delli furono
   FELICE PESCE ed ANTONIA CERRONE", m. 8 Mar 1817, and VENERANDA PESCE. **Lead: if Vincenza was
   Giovanna's sister her parents are Felice Pesce and Antonia Cerrone. Not claimed.**
-- [ ] **NEXT: San Felice Matrimoni 1816 = `an_ua50228`** — the other half of the window.
+- [x] **San Felice Matrimoni 1816 (`an_ua50228`) READ IN FULL** — no Morgillo x Pesce. Nor 1817.
 - [ ] **NEXT, and better: Angela Rosa Morgillo's BIRTH ACT**, San Felice, 24 Feb 1818. Names both
       parents outright. The Nati series for San Felice is NOT yet mapped (`an_ua50395` was a guess
       and is marriages). Query `?localita=San+Felice+a+Cancello&tipologia=Nati`.
