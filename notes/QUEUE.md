@@ -265,10 +265,15 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       **The volume is not digitised**, which is why Filomena Annecchino's act has never been found.
       The old explanation — FamilySearch's paging cap and fuzzy matching — **was wrong**. Birth
       indexes are no help either: 30 of them, stopping at **1849**.
-- [ ] **THE PROCESSETTI ARE THE LIVE ROUTE — 73 Forchia volumes, already digitised.** A marriage
-      dossier copies the bride's **birth extract** in full, so Filomena's marriage to Carminantonio
-      Falco would reproduce the act itself. **NEXT QUERY, and it is one query: how late do the
-      Forchia processetti run?** `?localita=Forchia&tipologia=Matrimoni%2C%20processetti&s_page=N`.
+- [x] **THE PROCESSETTI ROUTE IS CLOSED.** The 73 Forchia processetti volumes **run 1809 to 1865 and
+      stop**, all Caserta, *napoleonico e della restaurazione*. No post-1861 processetti exist for
+      Forchia on Antenati, so no marriage dossier of Filomena's can be read there.
+- [ ] **THE ONLY LIVE ROUTE LEFT: FamilySearch's «Benevento Civil Registration (State Archive)
+      1810–1942».** A **separate filming** from Antenati's. **Do not assume it lacks 1897** — this
+      archive's own harvest from it holds a birth of 22 Nov 1897 at **Moiano**, so the collection
+      reaches the year. **The test is whether it reaches FORCHIA in 1897.** If it does, the original
+      explanation (paging cap + fuzzy matching across Annecchino/Annecchini/Anicchino) was right all
+      along and she is findable.
       **Also worth noting: 1897 aside, the archive has never touched the Benevento «Stato civile
       italiano» Forchia series at all — 1866–1915 of births, marriages and deaths, unread.**
 
