@@ -24,10 +24,15 @@ Births in the *Stato civile italiano* run:
 
 **THERE IS NO 1897.** Not at Benevento, not at Caserta, not in any fondo.
 
-**Filomena Annecchino was born on 10 April 1897.** Her act has been hunted for weeks across
-FamilySearch and Antenati and the archive blamed *«FamilySearch's paging limit and fuzzy matching
-across Annecchino, Annecchini and Anicchino»*. **That was the wrong explanation. The volume is not
-digitised, and no amount of searching was ever going to find it.**
+**Filomena Annecchino was born on 10 April 1897.** **Antenati cannot supply her act.**
+
+**But be careful here, and this note was not careful for about an hour.** It first said the old
+explanation — *«FamilySearch's paging limit and fuzzy matching across Annecchino, Annecchini and
+Anicchino»* — **«was the wrong explanation»**, and that **«no amount of searching was ever going to
+find it»**. **That was too strong.** FamilySearch's *«Benevento Civil Registration (State Archive)
+1810–1942»* is a **separate filming**, and this archive's own harvest from it holds a birth of
+**22 November 1897 — at MOIANO**. **The collection reaches the year.** Whether it reaches **Forchia**
+in that year is untested, so **the paging explanation is not refuted**.
 
 This had been *inferred* before, from ark arithmetic — the shelf-marks skip the year. It is now
 **read off the holdings list**, which is a different and better kind of evidence.
@@ -36,14 +41,16 @@ This had been *inferred* before, from ark arithmetic — the shelf-marks skip th
 
 1. **The register itself**, at the **Archivio di Stato di Benevento**, unscanned. Needs a person in
    the building, or a paid order.
-2. **THE PROCESSETTI — and this is the better bet, because they are already digitised.** Forchia has
-   **73 processetti volumes**, beginning in 1809. **A marriage dossier copies out the bride's BIRTH
-   EXTRACT in full**, so **Filomena's marriage to Carminantonio Falco would reproduce the very act
-   that cannot be read directly.** What is not yet known is **how late the Forchia processetti run** —
-   the enumeration was cut short when Antenati began throttling. **That is the next question, and it
-   is one query.**
+2. ~~**THE PROCESSETTI** — a marriage dossier copies out the bride's birth extract in full, so
+   Filomena's marriage to Carminantonio Falco would reproduce the act.~~ **CLOSED, same day.** The
+   **73 Forchia processetti volumes run 1809 to 1865 and stop** — all of them Caserta, *napoleonico e
+   della restaurazione*. There are **no post-1861 processetti** for Forchia on Antenati.
 
-**Birth INDEXES are not a route**: Forchia has 30 of them and they stop at **1849**.
+**Birth INDEXES are not a route either**: Forchia has 30 of them and they stop at **1849**.
+
+3. **FAMILYSEARCH'S BENEVENTO COLLECTION — the live one, and the only one left.** A separate filming
+   from Antenati's. **Test whether it holds Forchia births for 1897 at all**, rather than assuming
+   either way.
 
 ## Method
 
