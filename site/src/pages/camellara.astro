@@ -1,0 +1,139 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import register from "../data/register.json";
+
+// Every row in the archive that names strada Camellara. The street is spelt
+// several ways by several clerks; all of them are caught.
+const RE = /camell?ara|camelara|cammellara/i;
+const rows = register.filter((r) => RE.test(r.detail || ""));
+
+// Group by surname so the street reads as a set of households, not a list.
+const bySur = {};
+for (const r of rows) {
+  const s = (r.surname || "?").toUpperCase();
+  (bySur[s] ||= []).push(r);
+}
+const surnames = Object.entries(bySur)
+  .map(([s, rs]) => ({ surname: s, n: rs.length, rows: rs }))
+  .sort((a, b) => b.n - a.n || a.surname.localeCompare(b.surname));
+
+const named = surnames.filter((s) => s.surname !== "?");
+const falco = bySur["FALCO"] || [];
+
+// The years the street is actually attested, from the sort key.
+const years = rows.map((r) => (String(r.sort || "").match(/\b(1[678]\d\d|19\d\d)\b/) || [])[1])
+                  .filter(Boolean).map(Number).sort((a, b) => a - b);
+const first = years[0], last = years[years.length - 1];
+
+// The households this archive has put on the street from an act, with the thing
+// that fixes them there. Hand-kept: each one is a reading, not a query.
+const HOUSEHOLDS = [
+  { who: "PASQUALE FALCO × CHIARA RIVETTI", when: "1789 – 1843",
+    how: "Nine parish baptisms, and Anna's act of 1820 which puts Pasquale alive on the street. He died here 1 Oct 1834; she 13 Sep 1843.", ours: true },
+  { who: "GIUSEPPE FALCO × ANTONIA DI GUIDA", when: "1802 – 1854",
+    how: "Married 4 Aug 1802. Seven children, including Don Giovanni the deacon and Raffaela. Alive here in April 1854, aged about seventy-four.", ours: true },
+  { who: "GIOACCHINO FALCO × VITTORIA CIMMINO", when: "1796 – 1851",
+    how: "Married 16 May 1796. He died here 14 Feb 1851, aged seventy-two.", ours: true },
+  { who: "VINCENZO FALCO × ANDREANA CRISCI", when: "1814 – ",
+    how: "Married December 1814. Their son Raffaele born here 10 May 1818.", ours: true },
+  { who: "RAFFAELE FALCO × ANGELA ROSA MORGILLO", when: "1844 – 1880",
+    how: "Married 5 Mar 1844 at Sant'Agnese. Both died in April 1880, six days apart.", ours: true },
+  { who: "FRANCESCO FALCO × RAFFAELA FALCO", when: "1850 – 1855",
+    how: "Four deaths in one house in five years: Antonio (2) in 1850, Clemente (5) in 1853, the mother in 1854, Giovanni (3) in 1855.", ours: true },
+  { who: "NICOLA DIGLIO, contadino", when: "1818 – 1844",
+    how: "A declarant on the street in 1818, with Giuseppe Diglio, 41, beside him. His daughter Nicoletta married off it in 1844 — and a Nicoletta Diglio had been buried on it in 1818.", ours: false },
+  { who: "MARCO MORGILLO × PASQUALINA VILLOTTO [?]", when: "27 Oct 1844",
+    how: "Both of the street. He is 24, contadino, son of the late Pasquale Morgillo; her father Pietro is a zampognaro — a bagpiper.", ours: false },
+  { who: "MICHELE FALCO and FRANCESCO FALCO, contadini", when: "1836",
+    how: "Two men of the name on the street in one year. The nearest thing yet to a peasant Falco cluster, and still unattached to the line.", ours: false },
+  { who: "GAETANO CIOFFI, sartore", when: "d. 21 Nov 1839",
+    how: "A tailor of the street, aged seventy, so born about 1769.", ours: false },
+  { who: "BERNARDO LANDATO × NICOLETTA SARNONE", when: "1844",
+    how: "Their daughter Giovanna Margarita, 23, married off the street on 30 December 1844.", ours: false },
+  { who: "MICHELE SARNONE, sartore", when: "1844",
+    how: "A second tailor. His daughter Francesca, 35, married off the street on 6 December 1844.", ours: false },
+];
+---
+<Base title="Strada Camellara"
+      eyebrow="One street, four generations"
+      dek="The surname Falco identifies nobody at Arienzo. The street does. Four generations of this family lived on strada Camellara, and where a record gives a street and nothing else, the street is the evidence.">
+
+  <div class="card" style="margin-bottom:1.4rem;border-left:3px solid var(--accent)">
+    <p><strong>This page exists because the name does not work.</strong> Arienzo holds at least a dozen
+    Falco households and probably two unrelated Falco stocks — a labouring one and a gentry one with a
+    Don for a father, a nun for a daughter and a priest for a son.
+    <a href={u("/which-falco")}>Which Falco? →</a></p>
+    <p style="margin-top:.6rem">What separates them is the <strong>street</strong>, the
+    <strong>trade</strong>, the <strong>parish</strong> and the <strong>spouse</strong>. For this
+    family the street does most of the work, and the street is <strong>Camellara</strong>.</p>
+    <p style="margin-top:.6rem">The archive holds <strong>{rows.length.toLocaleString()} records</strong>
+    that name it, across <strong>{named.length}</strong> surnames.
+    <strong>{falco.length}</strong> of them are Falco.</p>
+    <p style="margin-top:.6rem">The dated ones run from <strong>{first}</strong> to
+    <strong>{last}</strong>. <strong>That is the span of the registers that have been read, not the
+    life of the street</strong> — the parish baptisms put a Falco household on it from
+    <strong>1789</strong>, and nothing suggests it began there either.</p>
+  </div>
+
+  <h2>What kind of street it was</h2>
+  <p>Every trade the records attach to a Camellara household is a working one:
+  <strong>contadino</strong> and <strong>colono</strong> over and over, a <strong>vaticale</strong>
+  (a carrier with a mule), two <strong>sartori</strong>, a <strong>filatrice</strong> at nearly every
+  hearth — and, in 1844, a <strong>zampognaro</strong>, a bagpiper.</p>
+  <p><strong>No Don lives here.</strong> That single fact is what lets the archive refuse the gentry
+  Falco: <a href={u("/corrections")}>reading a «Don» as decoration rather than as class</a> is a
+  mistake this archive has already made once and published.</p>
+
+  <h2>The households</h2>
+  <p>Each one is a reading of an act, not a search result. <strong>The six marked in bold are this
+  family. No kinship is claimed for any of the others</strong> — they are here so the next record
+  naming a street can be checked before anybody is attached to anything.</p>
+
+  <div class="stack">
+    {HOUSEHOLDS.map((h) => (
+      <div class="card" style={h.ours ? "border-left:3px solid var(--accent)" : ""}>
+        <h3 style="margin:0">{h.ours ? <strong>{h.who}</strong> : h.who}</h3>
+        <p style="margin:.3rem 0 0;opacity:.85">{h.when}</p>
+        <p style="margin:.45rem 0 0">{h.how}</p>
+      </div>
+    ))}
+  </div>
+
+  <h2>Every surname recorded on the street</h2>
+  <p>Counted from the register. A large number means the family was numerous, long-lived on the
+  street, or simply that the years covering it happen to be the years already read — <strong>it is not
+  a measure of importance</strong>.</p>
+  <ul class="cols">
+    {named.map((s) => (
+      <li><a href={u("/names/" + s.surname.toLowerCase().replace(/[^a-z0-9]+/g, "-"))}>{s.surname}</a>
+      <span style="opacity:.6"> · {s.n}</span></li>
+    ))}
+  </ul>
+
+  <h2>What this page cannot do</h2>
+  <ul>
+    <li><strong>It cannot place a house.</strong> Neapolitan civil acts give a street, never a number.
+    Two households on Camellara may have been neighbours or may have been at opposite ends.</li>
+    <li><strong>It cannot prove kinship.</strong> A shared street is strong and it is not an act. The
+    archive has been wrong about this before: a Giuseppe Falco was attached to the founder on
+    <em>street and trade alone</em> before an act proved it — and it could as easily have gone the
+    other way.</li>
+    <li><strong>It is not a complete street.</strong> It is a complete list of what has been read.
+    The Arienzo death registers are read out for 1815–1843; the baptisms and marriages are not.</li>
+  </ul>
+
+  <p style="margin-top:1.2rem">
+    <a href={u("/which-falco")}>Which Falco? →</a> &nbsp;·&nbsp;
+    <a href={u("/direct-line")}>The direct line →</a> &nbsp;·&nbsp;
+    <a href={u("/households")}>Reconstructed households →</a> &nbsp;·&nbsp;
+    <a href={u("/register")}>The register →</a>
+  </p>
+</Base>
+
+<style>
+  .stack { display:grid; gap:.7rem; margin:.8rem 0 1.4rem; }
+  .stack h3 { font-size:1rem; letter-spacing:.02em; }
+  .cols { columns: 4 9rem; gap:1.2rem; list-style:none; padding:0; }
+  .cols li { break-inside:avoid; margin:.15rem 0; }
+</style>
