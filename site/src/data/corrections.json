@@ -508,5 +508,14 @@
   "now": "**The sweep was searching the wrong shelf.** Every parish sweep this archive has run used FamilySearch collection `M9J1-7MY`. The marriage register is a different collection, `M9J1-9B4` — and the Falco marriage act read three hours earlier, which carries both the searched word and the name, **was not among the 340**. The re-run on the right collection returns **1,260 Falco pages** and **forty alphabetical marriage-index leaves**.",
   "how": "Checked by asking which collection the known act belongs to, instead of trusting that one collection meant «the parish books».",
   "why": "**This would have been the fourth wrong negative of the same shape** — look once, fail, write the failure down as a rule, never look again. It is published as a correction even though nothing incorrect ever reached the site, because the near miss is the finding. Matteo Falco's marriage is still **not found and not ruled out**."
+ },
+ {
+  "when": "2026-09-13",
+  "what": "a marriage this archive had never located at all",
+  "sev": "addition",
+  "was": "Generation four — **Raffaele Falco and Angela Rosa Morgillo** — held as married, with **no record of the marriage and no date**. Angela Rosa was known as Orazio Morgillo's daughter only from the civil registers.",
+  "now": "**Found in the alphabetical index to the Arienzo parish marriage volumes**, read from the image: «**Raphael Falco cum Angela Rosa Morgillo filia Horatii — fol. 2 a tergo**». The act is at **folio 2 verso**; it has not been read, and the date is still unknown.",
+  "how": "The parish marriage collection — M9J1-9B4, the shelf this archive had been failing to search — and then the index page itself, enlarged.",
+  "why": "Published as a location, not a date. The temptation is to write «married about 1843» from where the leaf sits; the index gives a folio and two names and nothing else, and that is exactly what is recorded."
  }
 ]

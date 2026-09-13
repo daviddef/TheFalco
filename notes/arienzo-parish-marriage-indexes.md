@@ -68,7 +68,7 @@ Falco entries read off them so far — machine transcription, folios as given:
 | entry | folio | |
 |---|---|---|
 | **Carlo Antonio Morgillo e ROSA FALCO** | **3** | the act read today, 12 July 1802 — and the leaf's own page number is 3 ✔ |
-| **RAFFAELE FALCO con ANGELA ROSA MO[RGILLO]** | — | **generation four's marriage, in the parish books.** The archive has never held it |
+| **RAFFAELE FALCO cum ANGELA ROSA MORGILLO filia HORATII** | **2 a tergo** | **READ FROM THE IMAGE.** Generation four's marriage, which this archive had never located. Angela Rosa named as Orazio's daughter in the parish's own hand |
 | **JOACHIM FALCO** | 19? | Gioacchino — his marriage to Vittoria Cimmino |
 | **DOMENICO FALCO con DOMENICA VIGLIOTTO** | 114 | |
 | Vincenzo Mazzone e **MARIA FALCO** | 60 | |
@@ -94,6 +94,8 @@ Falco entries read off them so far — machine transcription, folios as given:
    already visible in the machine text; the images will give the rest, the spouses and the folios.
 2. **Find an index covering the 1750s and 1760s.** That is where Matteo Falco's marriage would be
    listed, and it is the only instrument that can turn "not found" into "not there".
-3. **Raffaele Falco × Angela Rosa Morgillo** — the archive holds this marriage from the civil side
-   only. The parish act will name the witnesses and the priest.
+3. **Raffaele Falco × Angela Rosa Morgillo — the index entry is READ; get the act, at folio 2 verso.**
+   It will give the date, the celebrant and the witnesses, none of which this archive holds. Resist
+   writing «about 1843» from where the leaf sits: the index gives a folio and two names, and nothing
+   else.
 4. **Gioacchino Falco × Vittoria Cimmino**, folio 19.
