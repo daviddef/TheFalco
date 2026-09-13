@@ -346,5 +346,29 @@
   "where": "/antenati",
   "plate": "",
   "by": "reading the catalogue"
+ },
+ {
+  "when": "2026-09-13",
+  "what": "a date, misread as a shorter word",
+  "sev": "major",
+  "was": "Chiara Rivetti died on 3 SEPTEMBER 1843. Published on /rivetti, /direct-line and in the memory of this project, and used to date the widowhood that brackets Pasquale Falco's death.",
+  "now": "13 SEPTEMBER 1843. The act says «il dì TREDICI del mese di Settembre» in its heading and «nel giorno TREDICI … alle ore venti» in the declaration — twice. TREDICI was read as TRE.",
+  "how": "The 1843 death INDEX, found the same day, gives «Rivetti Chiara … 13 7bre 1843». The act was then re-read at native resolution and says thirteen in both places.",
+  "why": "It also removes an oddity nobody had questioned: the parish buried her on 16 September, which is a strange thirteen-day wait after a death on the 3rd and an ordinary three-day one after the 13th. THIS IS THE INDEX METHOD EARNING ITS KEEP ON ITS FIRST CONTROL TEST — it was run against a known answer precisely to see whether it could be trusted, and it caught an error in the known answer.",
+  "where": "/rivetti",
+  "plate": "chiara-rivetti-death-1843.jpg",
+  "by": "the 1843 death index"
+ },
+ {
+  "when": "2026-09-13",
+  "what": "two witnesses given the wrong surname",
+  "sev": "minor",
+  "was": "«Two CIOFFI of strada Camellara walked to the town hall to report it.»",
+  "now": "LUCA COSSI, 33, a SARTORE, and GIOVANNI COSSI, 43, a contadino — both of strada Camellara. Cossi, not Cioffi.",
+  "how": "Re-reading the act at native resolution. Cossi is short with a double-s; Cioffi is longer and carries the -ffi ligature. At the resolution the plate was cropped to, they are not distinguishable.",
+  "why": "Both are common Arienzo surnames and both appear all over this archive, so the confusion will recur. Recorded with the tell: at plate resolution you cannot separate them — go to the image.",
+  "where": "/rivetti",
+  "plate": "chiara-rivetti-death-1843.jpg",
+  "by": "re-reading at native resolution"
  }
 ]
