@@ -297,7 +297,9 @@ See `notes/1844-1847-death-indexes.md`.
       Maddalena Stellato); ANGELANTONIO of S. Maria a Vico (atto 66); ANTONIO (atto 67). Index only.
       **AND GIUSEPPE FALCO DID NOT DIE IN 1850** — the Falco block runs Angela Maria, Angelantonio,
       Antonio and stops.
-- [ ] **1848 — no index at all. The register (an_ua14350) must be read act by act.**
+- [x] **1848 READ act by act** (no index exists). **TWO FALCO**: GIUSEPPE, aged one, 2 June; GENNARO,
+      two days old, 3 June — brothers, «figlio di CRESCENZO FALCO e di MARIA MORGILLO». A household
+      never held here. Method limit stated in the note: a name-line sweep, not a word-by-word reading.
 - [ ] The three 1850 Falco ACTS. Note the act numbers from the index are NOT reliable.
 - [ ] **Giuseppe Falco's death, after 1850** — 1851 index was already read for Gioacchino; check it
       for Giuseppe too, then 1852 onward.
