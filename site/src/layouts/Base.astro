@@ -1,5 +1,6 @@
 ---
 import { u } from "../lib/url.js";
+import SiblingArchives from "../components/SiblingArchives.astro";
 const { title, description = "", dek, eyebrow, bare, noindex = false } = Astro.props;
 const SITE = "The Falco Archive";
 const nav = [
@@ -86,6 +87,7 @@ const on = (h) => here === u(h).replace(/\/$/, "");
 
 <footer class="site">
   <div class="wrap">
+    <SiblingArchives />
     <p class="foot">An evidence-first archive of the Falco family of Arienzo in the province of Caserta —
     and of Arpaia, Forchia, Benevento and Brisbane. Every claim carries its confidence, or is marked as
     unproven. <strong>Living people are named</strong> — name and relationship only, never a date, a
