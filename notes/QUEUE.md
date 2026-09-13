@@ -277,6 +277,36 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       **CAUTION RECORDED: the 1851 index's act-number column does NOT reliably give the act number.**
       The 1809 index says its numbers do; 1851's did not match. Verify against the act.
 
+## ARIENZO DEATHS 1844-1850 — half done, 13 Sep 2026
+Indexes: **1844 an_ua14305 · 1845 an_ua14306 · 1846 an_ua14307 · 1847 an_ua14308 · 1849 an_ua14309.
+1848 HAS NO INDEX.** Registers: 1844 an_ua14346 … 1850 an_ua14352 (+1/yr from 1809 = an_ua14311).
+See `notes/1844-1847-death-indexes.md`.
+
+- [x] **1844, 1845 — NO FALCO.** Both tavole read end to end, both halves of every leaf.
+- [x] **1846 — CHIARA FALCO, atto 39, 6 July 1846, aged seven**, di Michele Falco e Antonia Vigliotta.
+      A THIRD Michele Falco. Act read from the image.
+- [x] **1847 — VINCENZA FALCO, atto 85, 21 Nov 1847, di giorni UNO**, di Raffaele Falco e Angela Rosa
+      Morgillo, **strada Camellara**. First primary record of generation four as a couple, and it
+      bounds their marriage to **1846 or earlier**.
+- [ ] **1848** (no index — read the register), **1849** (an_ua14309), **1850** (an_ua14352).
+- [ ] The acts behind the 1844-45 Crisci (4), Rivetti (2) and Morgillo (6) index entries.
+- [ ] **Michele Falco x Antonia Vigliotta** — their marriage and their other children.
+- [ ] **THE GENNARO MORGILLO PROBLEM**: one in the 1843 register, one at 1844 atto 52, one at 1845
+      atto 42. At least two men. Acts not read.
+
+## SAN FELICE A CANCELLO CIVIL MARRIAGES — the whole holdings, 13 Sep 2026
+`search-registry/?localita=San+Felice+a+Cancello&tipologia=Matrimoni&s_page=N` (**the paging param is
+`s_page`**). **1809 = an_ua50221, +1/yr to 1819 = an_ua50231. THEN A GAP: 1820-1824 ARE NOT THERE.**
+1825 = an_ua50232 and +1/yr with doubled years from 1836. 1863-65 jump to an_ua50092-50094.
+
+**The small 3-7 image volumes paired with each year from 1840 are NOT indexes** — they are the
+*Archivio Suppletorio* duplicates, a title page and a closing statement, often «contenente atti num.
+uno». **Checked before it was written down as a rule.**
+
+- [ ] **Raffaele Falco x Angela Rosa Morgillo's civil marriage act**, 1846 or earlier — try
+      an_ua50260 (1846), 50258 (1845), 50256 (1844), 50254 (1843). No annual index: the 1843 register
+      ends at atto 53 with a blank form and «END», no tavola.
+
 ## NAVIGATING A FAMILYSEARCH FILM BY IMAGE NUMBER — found 13 Sep 2026
 The film viewer's filmstrip holds an **image-number → ark map** in the DOM: every thumbnail is
 `<img alt="Image 1873" src=".../dz/v1/3:1:<ARK>/thumb_p200.jpg">`, and about **280 at a time** are
