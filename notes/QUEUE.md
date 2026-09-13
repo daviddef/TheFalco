@@ -316,8 +316,15 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       Two more Falco found finishing them: **NICOLA FALCO** (3 Sep 1809, s. of Giuseppe &
       Gelsomina Vigliotta) and **MARGARITA FALCO x Domenico Crisci**, who lost TWO sons both
       called Vincenzo (23 Aug 1810, 5 Jan 1812). Margarita was one of the isolates.
-- [ ] **OPEN: one Giuseppe Falco twice married, or two Giuseppe Falco?** 1809 gives two Falco
-      children of a Giuseppe with DIFFERENT mothers — Antonia di [Guida] and GELSOMINA VIGLIOTTA.
+- [x] **ANSWERED: TWO Giuseppe Falco**, distinguished by STREET and WIFE. Two birth acts already
+      held: «25 Nov 1816, strada COSTA, Giuseppe Falco 36 MASSARO DI CAMPO e GELSOMINA VIGLIOTTA»
+      and «7 Jun 1818, strada CAMELLARA, Giuseppe Falco 36 CONTADINO e ANTONIA DI GUIDA». Same name,
+      same stated age, different streets, different wives, and both burying children in 1809.
+      **OURS is the CAMELLARA one — «GIUSEPPE FALCO FU MATTEO».**
+- [x] **CONSEQUENCE: the Matteo Falco who died 28 Aug 1809 (15 months) is PROBABLY THE FOUNDER'S
+      GRANDSON**, not "a child of another household" as first published. Son of Giuseppe Falco fu
+      Matteo. Probable, not proved — rests on street/trade/period, not one act naming both.
+- [ ] **Prove it**: an act naming Giuseppe Falco as BOTH «fu Matteo» AND husband of Antonia di Guida.
 - [x] **Arienzo Morti 1809 act READ (`an_ua14311`, img 40 R).** «è morto MATTEO FALCO — di
       [ANNI struck, MESI over it] QUINDICI» — **FIFTEEN**, the clerk correcting himself. A child on
       either reading; the founder would have been 69. TRAP DISARMED.
