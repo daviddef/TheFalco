@@ -17,6 +17,28 @@ megabytes into a search box for no gain.
 """
 import json, os, re, collections
 
+# --- the shared row contract -------------------------------------------------
+# All seven archives now emit {k,t,s,h,q}: kind, title, subtitle, href, and a
+# lowercased accent-folded haystack. The box that reads it is one component in
+# @daviddef/archive-kit, so the schema has to be the same everywhere.
+def _fold(s):
+    import unicodedata
+    s = unicodedata.normalize("NFD", str(s or ""))
+    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
+    return s.replace("\u0111", "d").replace("\u0110", "D").lower()
+
+def to_contract(rows):
+    out = []
+    for r in rows:
+        k = r.get("k", "Page")
+        t = r.get("t", "")
+        s = r.get("s", r.get("d", ""))
+        h = r.get("h", r.get("u", ""))
+        q = r.get("q", r.get("x", ""))
+        out.append({"k": k, "t": t, "s": s, "h": h,
+                    "q": _fold(" ".join([str(t), str(s), str(q)]))})
+    return out
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 def path(*p): return os.path.join(ROOT, *p)
 def load(f): return json.load(open(path("site/src/data", f)))
@@ -82,6 +104,9 @@ for p in load("plates.json"):
     out.append({"t": p.get("t", ""), "u": "/documents#" + p["f"].replace(".jpg", ""),
                 "k": "plate", "d": (str(p.get("when", "")) + " " + p.get("cite", ""))[:300]})
 
+out = to_contract(out)
+for _r in out:
+    _r["k"] = _r["k"][:1].upper() + _r["k"][1:]
 json.dump(out, open(path("site/src/data/searchindex.json"), "w"), ensure_ascii=False,
           separators=(",", ":"))
 size = os.path.getsize(path("site/src/data/searchindex.json"))
