@@ -22,6 +22,16 @@ Three grooms of 1844, each act naming his parents:
 | 17 | Sept 1844 | **CLEMENTE MAJONE** | 33 | Filippo Majone dec., contadino, and Maria Martini [?] |
 | 26 | 24 Nov 1844 | **RAFFAELE MAJONE** | 37 | Filippo Majone dec., colono, and Maria Martino [?] |
 
+**And a fourth, found the same day by reading 1843 out as well:**
+
+| act | date | bride | age | «figlia di» |
+|---|---|---|---|---|
+| 1843/21 | 10 July 1843 | **MARIA GIULIA MAJONE**, of strada Stella | 34 | **FILIPPO MAJONE defunto, colono, and MARIA MARTINI, contadina** |
+
+**She marries first, sixteen months before her brothers, and her act writes the mother's name
+plainly — «MARIA MARTINI».** That settles a reading which had gone into the 1844 rows marked `[?]`.
+Four children of one house married inside seventeen months, the daughter leading.
+
 **Same father, same mother, same year.** Three brothers married within six months of each other,
 five years after their father's death — which is what an estate being settled looks like from the
 outside.
@@ -36,9 +46,13 @@ Ages fit without strain: Filippo born c. 1769, his sons c. 1807, c. 1811 and c. 
 
 ## What is NOT claimed
 
-- **GIOVANNA MAJONE**, 27, of strada Stella, who married Antonio Bartolomeo Giordano [?] on
-  12 June 1844 (act 10), is «figlia di … Majone **defunto**». Her father's forename was not read with
-  confidence. **She may be a fourth child of this house and she is not entered as one.**
+- **GIOVANNA MAJONE**, 27, **of strada Stella** — the same street as Maria Giulia and Raffaele — who
+  married Antonio Bartolomeo Giordano [?] on 12 June 1844 (act 10), is «figlia di … Majone
+  **defunto**». Her father's forename was not read with confidence. **She may be a fifth child of this
+  house and she is not entered as one.**
+- **MARIANGELA MAJONE**, who married Carmine Pasqualiello on 24 July 1843 (act 23), is **NOT** of this
+  house: her father **CLEMENTE Majone is alive** and her mother is Rosa Martone. A different Majone
+  household, and a reminder that the surname alone settles nothing here either.
 - Whether the mother is **Martini** or **Martino** is unsettled; both readings are in the acts.
 
 ## AND IT ANSWERS A STANDING QUESTION — partly
