@@ -390,7 +390,14 @@ Campania collections: **M9J1-7MY** Religious 1551-1975 · **M9J1-SMK** Deaths ·
       instrument that can turn "not found" into "not there" for Matteo.
 - [ ] **RAFFAELE FALCO x ANGELA ROSA MORGILLO is in a parish marriage index** — generation four's
       marriage, which this archive holds only from the civil side. Get the act.
-- [ ] **Gioacchino Falco x Vittoria Cimmino**, marriage index folio 19.
+- [!] **Gioacchino Falco x Vittoria Cimmino**, marriage index folio 19 — **NOW URGENT.** A daughter
+      GIOVANNA was baptised to them on **6 May 1797**, which would make our Gioacchino (bapt. Feb
+      1779) a father at eighteen. The marriage act names his parents and settles whether the 1797
+      father is our man or another Gioacchino Falco. See `notes/gioacchino-and-vittoria-1797.md`.
+- [ ] **Read the 1797 baptism image** `3Q9M-CSD3-13K1-N`, and **the 1779 baptism image**
+      `3Q9M-CSD3-138Q-4` — the latter is transcription only and load-bearing.
+- [ ] **Gioacchino/Guglielmo Falco x ANDREANA CRISCI** — a fourth child, CARMELA, and the mother's
+      surname, both new. Ark `3Q9M-CSD3-13JJ-W`; the year on that leaf is not legible.
 - [ ] **Pasquale Falco as a witness, late 1786**, ark `3Q9M-CSMY-B7M2-N` — read as «Paschale Falco
       filio Mat[the]i». If that is right it is a new sighting of the founder. LEAD, needs the image.
 - [x] **The "1777" child of Matteo & Francesca — READ, and it is not 1777.** Baptised **25 November
