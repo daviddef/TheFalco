@@ -69,6 +69,17 @@ def _clean(n):
             re.fullmatch(r"[xX]\d+", parts[-1]) or
             re.search(r"\d", parts[-1])):
         parts.pop()
+    # This archive's own doubt-marker is not a surname: an uncertain reading is
+    # published as "Cioffi [?]", which left alone files her under [?].
+    #
+    # "maggiore" and "minore" are NOT stripped here even though a civil marriage
+    # act uses them for of-age and under-age. MAGGIORE IS A REAL ARIENZO SURNAME
+    # — Silvestro, Carmine the declarant, Maria Carmina — and stripping it
+    # globally deleted eleven real people and refiled a twelfth under CARMINA.
+    # The act register strips it locally, where the source settles the meaning.
+    NOT_SURNAMES = {"[?]", "(?)", "?", "dec.", "defunto", "defunta"}
+    while len(parts) > 1 and parts[-1].strip(",.;").lower() in NOT_SURNAMES:
+        parts.pop()
     while len(parts) > 1:
         w = parts[-1].strip(",.;").lower()
         if w in TRADES_ONLY or (had_comma and w in TRADE_OR_SURNAME):
@@ -232,6 +243,39 @@ for r in rd("data/arienzo-parish-acts.tsv"):
         add(who, sur(who), " · ".join(x for x in
             [role + " " + (r.get("principal") or ""), ev, r.get("date"), r.get("place"), mark] if x),
             "Arienzo parish registers (FamilySearch)", link, "parish", r.get("date") or "")
+
+# --- Arienzo civil marriage acts, 1843-1844 -----------------------------------
+# Read out act by act looking for generation four's civil marriage, which is NOT
+# in either volume. The people the search passed over are published anyway: a
+# marriage act names both spouses with age, trade and street, and four parents
+# besides, and none of that becomes less true because the act was not the one
+# being hunted. Rows whose names could not be read carry NOT SECURELY READ and
+# are not given a person of their own.
+for r in rd("data/arienzo-civil-marriages-1843-1844.tsv"):
+    ark = (r.get("ark") or "").strip()
+    img = (r.get("image") or "").strip()
+    link = "https://antenati.cultura.gov.it/ark:/12657/" + ark if ark else ""
+    where = f"Arienzo civil marriages {r.get('year')}, act {r.get('act')}, image {img}"
+    when = r.get("date") or ""
+    def status(n):
+        """In THIS source maggiore/minore are of-age/under-age, not a surname."""
+        m = re.search(r"\b(maggiore|minore)\b\s*$", (n or "").strip(), re.I)
+        return (re.sub(r"\s*\b(maggiore|minore)\b\s*$", "", n or "", flags=re.I).strip(),
+                m.group(1).lower() if m else None)
+
+    for who, detail, role in ((r.get("groom"), r.get("groom_detail"), "married"),
+                              (r.get("bride"), r.get("bride_detail"), "married")):
+        if not who or "NOT SECURELY READ" in who:
+            continue
+        other = r.get("bride") if who == r.get("groom") else r.get("groom")
+        other, _ = status(other)
+        who, st = status(who)
+        bits = ["civil marriage act", when,
+                (role + " " + other) if other and "NOT SECURELY" not in other else None,
+                detail, ("«" + st + "» — of age" if st == "maggiore" else
+                         "«minore» — under age" if st else None),
+                "READ FROM THE IMAGE"]
+        add(who, sur(who), " · ".join(x for x in bits if x), where, link, "civil", when)
 
 # --- Australia ---
 for r in rd("data/nudgee-burials.tsv"):
