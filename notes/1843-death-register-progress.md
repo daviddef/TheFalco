@@ -14,7 +14,7 @@ Chiara Rivetti, who married Pasquale Falco of generation two, died in **1843**; 
 naming her parents was a Latin parish burial entry calling her *«filia quondam Nicolai et Anna»*.
 **The civil act has now been found.**
 
-### Atto 43, 3 September 1843 — the oldest question in the archive, closed
+### Atto 43, 13 September 1843 — the oldest question in the archive, closed
 
 > …sono comparsi **LUCA CIOFFI**, di anni trentatré, di professione **sartore**, domiciliato in
 > strada **CAMELLARA**, e **GIOVANNI CIOFFI**, di anni quarantotto, contadino, domiciliato in strada
