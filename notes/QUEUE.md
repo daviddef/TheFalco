@@ -277,6 +277,32 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       **CAUTION RECORDED: the 1851 index's act-number column does NOT reliably give the act number.**
       The 1809 index says its numbers do; 1851's did not match. Verify against the act.
 
+## [x] THE PARISH BOOKS ARE OPEN — FamilySearch full-text, 13 Sep 2026
+Method confirmed working from a logged-in browser tab; see `familysearch-fulltext-method` in memory.
+Campania collections: **M9J1-7MY** Religious 1551-1975 · **M9J1-SMK** Deaths · **M9J1-9B4** Marriages.
+
+- [x] **GIUSEPPE FALCO x ANTONIA DI GUIDA, c. Aug 1802** — «JOSEPHUM FALCO FILIUM MATTHEI, e
+      FRANCISCE CRISCI et ANTONIAM DI GUIDA filiam JOSEPHI e MAGDALENE». **PROVES Giuseppe is
+      Matteo's son**, and therefore that the infant Matteo Falco of 28 Aug 1809 is the founder's
+      GRANDSON. Ark `3Q9M-CSMY-B74R-4`.
+- [x] **ROSA FALCO x CAROLUS ANTONIUS MORGILLO**, same leaf — «filium quondam Caroli Antonii, et
+      Emiliae … e Rosa Falco filiam Matthei, e Franciscae Crisci». **TWO Carlantonio Morgillo,
+      father and son.** Her marriage was not previously held.
+- [x] **ANTONIA DI GUIDA's parents: GIUSEPPE DI GUIDA & MADDALENA PIVERA(?)** — new generation.
+- [x] **GIOACCHINO FALCO BAPTISED 2 FEB 1779** — «qui nominatus est JOACHIM», midwife Cecilia
+      Martone. Corrects the "about 1775" derived from his death act's stated age of 76: he was 72.
+- [x] **MATTEO FALCO's DEATH: NOT in the Arienzo parish death collection.** All 703 entries scanned
+      end to end. **WEAK NEGATIVE** — that collection's coverage of the 1750s-90s is thin (6, 1, 11
+      and 23 mentions per decade against 112 for the 1800s).
+
+- [ ] **READ THE IMAGES.** Everything above is FamilySearch machine transcription, which renders the
+      1802 year as "1902". Names are legible and consistent; **dates are NOT verified**.
+- [ ] **Matteo Falco's own marriage, c.1760-66** — try collection M9J1-9B4 and the Benevento
+      archdiocese set `1483010`, and query on words every page carries (denunciationibus, conjunxi).
+- [ ] **The 1777 child of Matteo & Francesca** (25 Nov) — the transcription cuts at "qui [nominatus
+      est]". A marginal "Joachin" sits near it, which would make the 1779 Joachim a SECOND of the
+      name. Read the image: ark `3Q9M-CSD3-13H2-1`.
+
 ## STANDING RULE ADDED 13 Sep 2026 — check a find against what is already held, IN THE SAME PASS
 - The 1812 GIOVANNA FALCO was published as "a daughter of generation two this archive did not have".
   **The archive already held a Giovanna Falco of the same parents who died 15 Sep 1805** (parish
