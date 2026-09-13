@@ -69,11 +69,11 @@ const dek = p.living
         <p class="small"><strong>Withheld on purpose.</strong> This person is living. The archive
         holds records for them and publishes <strong>none</strong> of them — not a birth date, not a
         place, not a photograph. Their name and their place in the family are the whole entry, and
-        that is the rule, not a gap. See <a href={u("/method")}>Method</a>.</p>
+        that is the rule, not a gap. See <a href={u("/method/")}>Method</a>.</p>
       ) : (
         <p class="small">No act has been read for this person. What is known of them comes from the
         family tree, and is <strong>unverified</strong> —
-        <a href={u("/register") + "?q=" + encodeURIComponent(clean(p.name))}>search the register for the name →</a></p>
+        <a href={u("/register/") + "?q=" + encodeURIComponent(clean(p.name))}>search the register for the name →</a></p>
       )}
       {!p.living && (p.bp || p.dp) ? (
         <p class="small">{p.bp ? <span><strong>born</strong> {p.bp}</span> : null}
@@ -100,16 +100,16 @@ const dek = p.living
           : " Their years agree, which is what allowed the join."}</p>
       ) : null}
       {p.household ? (
-        <p class="small"><strong>Household:</strong> <a href={u("/households")}>{p.household}</a></p>
+        <p class="small"><strong>Household:</strong> <a href={u("/households/")}>{p.household}</a></p>
       ) : null}
-      {p.gen ? <p class="small"><a href={u("/direct-line") + "#gen-" + p.gen}>See this generation on the spine →</a></p> : null}
+      {p.gen ? <p class="small"><a href={u("/direct-line/") + "#gen-" + p.gen}>See this generation on the spine →</a></p> : null}
       {p.living ? (
         <p class="small"><strong>No register link is offered for a living person.</strong> The
         registers do hold people of this name — they are <em>other people</em>, dead a century or
         more, and pointing at them from here would invite the reader to read a stranger's death act
         as this person's record.</p>
       ) : (
-        <p class="small"><a href={u("/register") + "?q=" + encodeURIComponent(clean(p.name))}>Every record naming {clean(p.name)} →</a></p>
+        <p class="small"><a href={u("/register/") + "?q=" + encodeURIComponent(clean(p.name))}>Every record naming {clean(p.name)} →</a></p>
       )}
     </div>
   </div>
@@ -129,5 +129,5 @@ const dek = p.living
     </>
   ) : null}
 
-  <p class="small" style="margin-top:2rem"><a href={u("/people")}>← All the people</a></p>
+  <p class="small" style="margin-top:2rem"><a href={u("/people/")}>← All the people</a></p>
 </Base>

@@ -17,11 +17,11 @@ const n = (k) => rows.filter((r) => (r.k || "other") === k).length;
 
   <div class="card" style="margin-bottom:1.2rem">
     <p><strong>This is the whole visual holding of the archive in one screen.</strong>
-    <a href={u("/documents")}>Documents</a> reads them one at a time, with the Italian transcribed and
+    <a href={u("/documents/")}>Documents</a> reads them one at a time, with the Italian transcribed and
     translated; this page is for finding the one you want.</p>
     <p class="small" style="margin-top:.6rem"><strong>No photograph of a living person is
     published</strong> — a further nineteen in the family tree are held back. Their names are
-    published, on <a href={u("/people")}>the people pages</a>; their faces are not.</p>
+    published, on <a href={u("/people/")}>the people pages</a>; their faces are not.</p>
   </div>
 
   <div class="gfilt">
@@ -31,7 +31,7 @@ const n = (k) => rows.filter((r) => (r.k || "other") === k).length;
 
   <div class="gsheet">
     {rows.map((r) => (
-      <a class="gcell" data-k={r.k || "other"} href={u("/documents") + "#" + r.f.replace(/\.jpg$/, "")}>
+      <a class="gcell" data-k={r.k || "other"} href={u("/documents/") + "#" + r.f.replace(/\.jpg$/, "")}>
         <img src={u("/plates/" + r.f)} alt={r.t} loading="lazy" />
         <span class="gmeta">
           {r.when ? <b class="mono">{r.when}</b> : null}
@@ -45,11 +45,11 @@ const n = (k) => rows.filter((r) => (r.k || "other") === k).length;
   <ul>
     <li><strong>Not one photograph of a grave.</strong> Chapel 082 at Nudgee holds generation seven,
     husband and wife in adjoining niches, and nobody has stood there with a camera.
-    <a href={u("/graves")}>Graves →</a></li>
+    <a href={u("/graves/")}>Graves →</a></li>
     <li><strong>Not one image of Arienzo itself</strong> — not strada Camellara, not the Collegiate
     Church of Sant'Andrea, not the Capuchin convent whose friars are in the 1837 register.</li>
     <li><strong>258 volumes of <em>processetti</em></strong>, unread and unphotographed.
-    <a href={u("/open-questions")}>Open questions →</a></li>
+    <a href={u("/open-questions/")}>Open questions →</a></li>
   </ul>
 
 <style is:global>

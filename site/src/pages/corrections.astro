@@ -19,7 +19,7 @@ const major = rows.filter((r) => r.sev === "major").length;
     material, each naming what was published, what replaced it, and <strong>what caught it</strong>.</p>
     <p style="margin-top:.6rem"><strong>The rule is that corrections are visible, not silent.</strong>
     A withdrawn reading stays on the page that carried it, struck through or annotated. Where the
-    family tree still asserts something this archive has discarded — <a href={u("/people/pasquale-falco-of-pasquale-falco-chiara-rivetti")}>Agostino
+    family tree still asserts something this archive has discarded — <a href={u("/people/pasquale-falco-of-pasquale-falco-chiara-rivetti/")}>Agostino
     Falcone as generation two's father</a> — he is drawn on the page, struck through and labelled
     superseded, beside the man who replaced him.</p>
   </div>
@@ -39,7 +39,7 @@ const major = rows.filter((r) => r.sev === "major").length;
     <p style="margin-top:.6rem"><strong>Two failures of the same kind stop being an anecdote about
     handwriting and become a measurement of the reader.</strong> The defence that worked both times is
     now a rule of method: <strong>when a reading is the one you were hoping for, zoom it before you
-    write it down.</strong> It is why <a href={u("/searched")}>one widow's surname is left
+    write it down.</strong> It is why <a href={u("/searched/")}>one widow's surname is left
     deliberately blank</a> — at 3400 px it would not resolve between three candidates, and two of them
     were names being hunted.</p>
   </div>
@@ -59,16 +59,16 @@ const major = rows.filter((r) => r.sev === "major").length;
         <p class="small foot">
           <span class="dim">Caught by {r.by}.</span>
           {r.where ? <> · <a href={u(r.where)}>Where it lives now →</a></> : null}
-          {r.plate ? <> · <a href={u("/documents") + "#" + r.plate.replace(/\.jpg$/, "")}>the plate</a></> : null}
+          {r.plate ? <> · <a href={u("/documents/") + "#" + r.plate.replace(/\.jpg$/, "")}>the plate</a></> : null}
         </p>
       </div>
     </section>
   ))}
 
   <p class="small" style="margin-top:2rem">
-    How this archive decides what to claim: <a href={u("/method")}>Method</a> ·
-    What it still cannot answer: <a href={u("/open-questions")}>Open questions</a> ·
-    What has been read: <a href={u("/searched")}>Searched</a></p>
+    How this archive decides what to claim: <a href={u("/method/")}>Method</a> ·
+    What it still cannot answer: <a href={u("/open-questions/")}>Open questions</a> ·
+    What has been read: <a href={u("/searched/")}>Searched</a></p>
 
 <style is:global>
   .corr{border-top:1px solid var(--rule);padding:1.1rem 0}

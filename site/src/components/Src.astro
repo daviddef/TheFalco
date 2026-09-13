@@ -18,7 +18,7 @@ let to = href || null;
 let title = note || "";
 
 if (p) {
-  to = u("/documents") + "#" + p.f.replace(/\.jpg$/, "");
+  to = u("/documents/") + "#" + p.f.replace(/\.jpg$/, "");
   title = p.cite || p.t || "";
 } else if (ark) {
   /* Antenati serves a volume at its ark; the image number is a fragment the

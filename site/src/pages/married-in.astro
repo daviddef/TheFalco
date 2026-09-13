@@ -89,7 +89,7 @@ const span = (g) => (g.first && g.last ? (g.first === g.last ? `${g.first}` : `$
     <p style="margin-top:.6rem"><strong>The living are named now — but only named.</strong> This
     page still counts {withheld} living people separately, and still shows no date, no place and no
     detail for any of them, because that is the rule: <strong>a name and a relationship, nothing
-    else</strong>. Their names are on <a href={u("/people")}>The People</a> under the
+    else</strong>. Their names are on <a href={u("/people/")}>The People</a> under the
     <em>Living</em> filter. What you will find below is their dead: parents, grandparents, the ones
     who made the crossing. Where a family appears here with <em>no named people at all</em>, it means
     every person the archive holds for that surname is living.</p>
@@ -105,7 +105,7 @@ const span = (g) => (g.first && g.last ? (g.first === g.last ? `${g.first}` : `$
         <span class="small mono" style="font-weight:400">{g.n} named{g.withheld ? ` · ${g.withheld} living, withheld` : ""}</span></h2>
       <p class="small" style="color:var(--ink-3);margin-bottom:.5rem">
         {span(g)}{g.places.length ? " · " + g.places.join(" · ") : ""}
-        {" · "}<a href={u("/register") + "?q=" + encodeURIComponent(g.surname)}>every {g.surname} in the register →</a>
+        {" · "}<a href={u("/register/") + "?q=" + encodeURIComponent(g.surname)}>every {g.surname} in the register →</a>
       </p>
       {STORY[g.surname] ? <p set:html={STORY[g.surname]} /> : null}
       {g.marriages.length ? (
@@ -141,7 +141,7 @@ const span = (g) => (g.first && g.last ? (g.first === g.last ? `${g.first}` : `$
             <td>{g.people.map((p, i) => (<span>{i ? " · " : ""}{p.name}</span>))}</td>
             <td class="small mono">{span(g)}</td>
             <td class="small">{g.places.join(" · ") || "—"}</td>
-            <td class="small"><a href={u("/register") + "?q=" + encodeURIComponent(g.surname)}>register →</a></td>
+            <td class="small"><a href={u("/register/") + "?q=" + encodeURIComponent(g.surname)}>register →</a></td>
           </tr>))}
       </tbody>
     </table>
@@ -166,6 +166,6 @@ const span = (g) => (g.first && g.last ? (g.first === g.last ? `${g.first}` : `$
     <li><strong>Anything from the Italian side after 1900.</strong> The registers close to the public
     at a century; the family's own papers do not.</li>
   </ul>
-  <p class="small">Sources for everything on this page: <a href={u("/sources")}>Sources</a> ·
-  <a href={u("/register")}>The Register</a> · <a href={u("/wider-family")}>The Wider Family</a></p>
+  <p class="small">Sources for everything on this page: <a href={u("/sources/")}>Sources</a> ·
+  <a href={u("/register/")}>The Register</a> · <a href={u("/wider-family/")}>The Wider Family</a></p>
 </Base>

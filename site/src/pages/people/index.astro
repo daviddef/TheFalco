@@ -199,7 +199,7 @@ const nLiving = count((r) => r.living);
     <p><strong>This is everyone, one row per person.</strong> Every named individual the archive
     holds — the Antenati indexes, the FamilySearch harvests, the Nudgee burials, the family tree and
     the Arienzo registers read line by line. <strong>Every name here has its own page.</strong></p>
-    <p style="margin-top:.6rem"><strong>This page is WHO; <a href={u("/register")}>the register</a>
+    <p style="margin-top:.6rem"><strong>This page is WHO; <a href={u("/register/")}>the register</a>
     is WHAT.</strong> They used to be two lists of the same ten thousand rows, which helped nobody.
     Now this one answers <em>who can this archive name?</em> — one row each — and the register
     answers <em>what did it find?</em>, one row per record, grouped by surname.</p>
@@ -213,7 +213,7 @@ const nLiving = count((r) => r.living);
     Lettieri on one street, five Angela Morgillo, and <strong>seventy-nine records carrying «Pasquale
     Falco»</strong>. <strong>A matching surname is not a match</strong>, and a matching surname with a
     plausible age is still not a match. Each page repeats the warning. See
-    <a href={u("/method")}>Method</a>.</p>
+    <a href={u("/method/")}>Method</a>.</p>
   </div>
 
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.6rem;margin:1rem 0">
@@ -260,7 +260,7 @@ const nLiving = count((r) => r.living);
 
     <p class="small" id="count" style="margin-top:.7rem">{distinct.toLocaleString()} shown</p>
     <p class="small"><strong>Looking for the records themselves?</strong>
-    <a href={u("/register")}>The register →</a> lists all {nRecords.toLocaleString()} of them,
+    <a href={u("/register/")}>The register →</a> lists all {nRecords.toLocaleString()} of them,
     one row per record, grouped by surname, each linked to its source.</p>
   </div>
 
