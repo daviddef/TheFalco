@@ -10,7 +10,8 @@
     "check": "python3 ../tools/check_release.py",
     "build:nocheck": "astro build",
     "sitemap": "python3 ../tools/sitemap.py",
-    "publish:index": "node -e \"require('fs').copyFileSync('src/data/searchindex.json','public/searchindex.json')\""
+    "publish:index": "node -e \"require('fs').copyFileSync('src/data/searchindex.json','public/searchindex.json')\"",
+    "check:kit": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkarchive.py --dist dist"
   },
   "dependencies": {
     "@daviddef/archive-kit": "github:daviddef/TheArchiveKit",
