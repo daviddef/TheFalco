@@ -305,9 +305,15 @@ See `notes/1844-1847-death-indexes.md`.
       for Giuseppe too, then 1852 onward.
 - [ ] **Don Giovanni Falco's baptism, c.1824**, and the **Sant'Agata de' Goti ordination registers** —
       an archive this project has never touched.
-- [~] **Giuseppe Falco's own death** — **NOT in 1850, 1851, 1852, 1853 or 1854**; he is alive in
-      **April 1854** at about seventy-four (Morti 1854 atto 34, his daughter Raffaela's act). Continue
-      from 1855: an_ua14357 (1855) ... an_ua14367 (1865), then the post-1865 Italian series.
+- [~] **Giuseppe Falco's own death** — **NOT in 1850, 1851, 1852, 1853, 1854 or 1855**; alive in
+      **April 1854** at about seventy-four. **1855 has NO INDEX at either end** (63 images, 111 deaths,
+      a cholera year) and was read act by act. Continue: 1856 an_ua14358 ... 1865 an_ua14367, then the
+      post-1865 Italian series.
+- [x] **MARGHERITA FALCO is no longer an isolate.** Her husband **DOMENICO CRISCI** died 9 Jan 1855
+      aged 80, contadino of **strada Crisci**, son of the fu Vincenzo Crisci and the fu Maria di Lucia
+      — and a **widower**, so she died before 1855. Whose daughter she was is still unknown.
+- [x] **FRANCESCO FALCO's household**: wife Raffaela d. Apr 1854; sons GIOVANNI (3) d. 29 Jun 1855 and
+      CLEMENTE (5) d. 14 Aug 1855. Still to find: his own parents and the marriage, c.1848.
 - [ ] **FRANCESCO FALCO, husband of Raffaela Falco** — who was he? Their son Clemente d. 14 Aug 1855
       aged five. Find their marriage (Arienzo parish, c.1848) and Francesco's own parents.
 - [ ] **THE FALCO-FALCO MARRIAGES.** Four at Arienzo in 1850-54: Francesco x Raffaela; Domenico x

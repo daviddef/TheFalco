@@ -1,4 +1,4 @@
-# RAFFAELA FALCO — a daughter of the founder's son, and a Falco who married a Falco
+# RAFFAELA FALCO — a daughter of the founder's son, a Falco who married a Falco, and a household that did not survive 1855
 
 **Arienzo, Morti 1854 (`an_ua14356`), atto 34**, image 24, read from the image, 13 September 2026.
 
@@ -43,7 +43,22 @@ months after his mother. A civil act and a parish entry, found by different meth
 days, reconstructing one household:
 
 > **FRANCESCO FALCO × RAFFAELA FALCO** *(d. 20 Apr 1854, strada Camellara)*
-> └── **CLEMENTE FALCO**, b. c.1850, d. 14 Aug 1855
+> ├── **CLEMENTE FALCO**, b. c.1850, d. **14 Aug 1855**, aged five *(parish register)*
+> └── **GIOVANNI FALCO**, b. c.1852, d. **29 Jun 1855**, aged three *(Arienzo, Morti 1855, image 25R)*
+
+**The second son found the same day**, and from the civil side:
+
+> «…nel giorno **ventinove** del mese di **GIUGNO** … alle ore ventitré, è morto nella sua propria casa
+> **GIOVANNI FALCO**, nato in Arienzo, **di anni TRE**, di professione contadino, domiciliato **STRADA
+> CAMELLARA**, **figlio di FRANCESCO** di professione simile, domiciliato strada Camellara, **e della
+> FU RAFFAELA FALCO**.»
+
+«**della fu** Raffaela Falco» — the act itself confirms she was already dead.
+
+> **FRANCESCO FALCO LOST HIS WIFE IN APRIL 1854 AND BOTH KNOWN SONS IN THE SUMMER OF 1855**, six weeks
+> apart, in the house on strada Camellara. **1855 was a cholera year in the Kingdom**: Arienzo
+> registered **111 deaths**, against sixty-five in 1844. That is the context; the acts give no cause,
+> and none is claimed.
 
 *The 1853 index's «Falco Clemente, di Falco Emmanuele e Falco Giuseppa» is a **different** child of a
 **different** couple. Checked before it was joined to this one.*
@@ -65,3 +80,35 @@ days, reconstructing one household:
 - **1851**: one Falco only — **Gioacchino, atto 7** (the known act). **No Giuseppe Falco.**
 - **1852**: **no Falco at all** — the index runs Diglio → Ferro → Guida.
 - **1853**: **Falco Clemente, atto 46**, «di Falco Emmanuele e Falco Giuseppa».
+
+
+---
+
+# 1855 — one Falco, and the husband of Margherita Falco
+
+**`an_ua14357`, 63 images, 111 deaths — and NO INDEX at either end.** Read act by act, the name line of
+every act on images 3–63.
+
+- **The only Falco is GIOVANNI, aged three** (above).
+- **GIUSEPPE FALCO IS NOT IN IT.** He was alive in April 1854 at about seventy-four, and he did not
+  die in 1850, 1851, 1852, 1853, 1854 or 1855 — six consecutive years now read out.
+
+## DOMENICO CRISCI, «vedovo di MARGHERITA FALCO» — 9 January 1855
+
+> «…nel giorno **NOVE** del mese di **GENNAJO** … alle ore cinque, è morto nella sua propria casa
+> **DOMENICO CRISCI, VEDOVO DI MARGHERITA FALCO**, nato in Arienzo, **di anni OTTANTA**, di professione
+> contadino, domiciliato ivi **STRADA CRISCI**, **figlio del fu VINCENZO** di professione simile … **e
+> della fu MARIA DI LUCIA**.»
+>
+> Declared by a *contadino* of forty-nine and **Mattia Vigliotti, 50, contadino**, both of **strada
+> Crisci**.
+
+**This closes an open item.** The archive had «dominico Crisci e Margaria Falco» from a fragment of a
+parish baptism and nothing else — Margherita Falco was an isolate. Now her husband is documented:
+born about **1775**, a *contadino* of **strada Crisci** — a street named for his own family — son of
+**Vincenzo Crisci** and **Maria di Lucia**, and **a widower**, so **Margherita Falco died before
+January 1855**.
+
+**Whose daughter she was is still unknown.** A woman married to a man born about 1775 was most likely
+born in the same decade, which would put her in **Matteo Falco's generation or the next** — but that
+is arithmetic, not evidence, and it is left as arithmetic.
