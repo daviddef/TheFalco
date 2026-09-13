@@ -303,9 +303,19 @@ Campania collections: **M9J1-7MY** Religious 1551-1975 · **M9J1-SMK** Deaths ·
       New lead: **Rivetta / Rivetti** — gen 3 married a Chiara Rivetti. Untested.
 - [ ] **Matteo Falco's own marriage, c.1760-66** — try collection M9J1-9B4 and the Benevento
       archdiocese set `1483010`, and query on words every page carries (denunciationibus, conjunxi).
-- [ ] **The 1777 child of Matteo & Francesca** (25 Nov) — the transcription cuts at "qui [nominatus
-      est]". A marginal "Joachin" sits near it, which would make the 1779 Joachim a SECOND of the
-      name. Read the image: ark `3Q9M-CSD3-13H2-1`.
+- [x] **The "1777" child of Matteo & Francesca — READ, and it is not 1777.** Baptised **25 November
+      1774**; the margin carries a cross, "JOACHIM FALCO" and **"obiit die 11 Decembris 1777"**. The
+      1779 Joachim IS a second of the name. Six documented children now, not five.
+      See `notes/rivetti-baptisms-and-the-first-joachim.md`.
+- [x] **CHIARA RIVETTI's baptism — 14 December 1766**, read from the image. She was 77 at death, not
+      80. Her mother is **ANNA DI NUZZO** in the parish and **ANNA DI RUGGIO** in the civil series:
+      **an open conflict, published as one.** Brother Carmine's baptism (26 May 1768) confirms the
+      1821 identification; both Nicola Rivetta households are now visible side by side.
+- [ ] **Pasquale Falco x Chiara Rivetti's nine parish baptisms** — machine transcription only, images
+      NOT read. And **the Giovanna problem**: a Giovanna dead in 1805, a Giovanna baptised 1810, a
+      Giovanna born 1812. Three records, at most two children, possibly two Pasquale. OPEN.
+- [ ] **Anna Falco b. 28 Dec 1795** and **Dominicus b. 18 Jun 1799** — check against the tree before
+      treating either as new.
 
 ## STANDING RULE ADDED 13 Sep 2026 — check a find against what is already held, IN THE SAME PASS
 - The 1812 GIOVANNA FALCO was published as "a daughter of generation two this archive did not have".
