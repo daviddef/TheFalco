@@ -288,7 +288,13 @@ See `notes/1844-1847-death-indexes.md`.
 - [x] **1847 — VINCENZA FALCO, atto 85, 21 Nov 1847, di giorni UNO**, di Raffaele Falco e Angela Rosa
       Morgillo, **strada Camellara**. First primary record of generation four as a couple, and it
       bounds their marriage to **1846 or earlier**.
-- [ ] **1848** (no index — read the register), **1849** (an_ua14309), **1850** (an_ua14352).
+- [x] **1849 index read.** **DON GIOVANNI FALCO, DIACONO, atto 66, died 26 Nov 1849 aged 25** — son
+      of Giuseppe Falco (colono, ALIVE) and Antonia di Guida. The founder's grandson, in orders.
+      See `notes/don-giovanni-falco-deacon-1849.md`.
+- [ ] **1848** (no index — read the register) and **1850** (an_ua14352).
+- [ ] **Don Giovanni Falco's baptism, c.1824**, and the **Sant'Agata de' Goti ordination registers** —
+      an archive this project has never touched.
+- [ ] **Giuseppe Falco's own death** — alive Nov 1849, about seventy. Try the 1850+ indexes.
 - [ ] The acts behind the 1844-45 Crisci (4), Rivetti (2) and Morgillo (6) index entries.
 - [ ] **Michele Falco x Antonia Vigliotta** — their marriage and their other children.
 - [ ] **THE GENNARO MORGILLO PROBLEM**: one in the 1843 register, one at 1844 atto 52, one at 1845
