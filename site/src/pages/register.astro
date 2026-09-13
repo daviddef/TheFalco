@@ -113,7 +113,7 @@ const unlinked = register.length - linked;
                   {bySlug.has(r.name.toLowerCase())
                     ? <a href={u("/people/" + bySlug.get(r.name.toLowerCase()))}>{r.name}</a>
                     : isName(r.name)
-                      ? <a href={u("/names/" + nameSlug(r.name))}>{r.name}</a>
+                      ? <a href={u("/who/" + nameSlug(r.name))}>{r.name}</a>
                       : r.name}
                   {r.kind === "household" ? <><br/><span class="chip doc">reconstructed</span></> : null}
                 </td>

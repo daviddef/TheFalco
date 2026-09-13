@@ -110,7 +110,7 @@ const HOUSEHOLDS = [
   a measure of importance</strong>.</p>
   <ul class="cols">
     {named.map((s) => (
-      <li><a href={u("/names/" + s.surname.toLowerCase().replace(/[^a-z0-9]+/g, "-"))}>{s.surname}</a>
+      <li><a href={u("/families/")}>{s.surname}</a>
       <span style="opacity:.6"> · {s.n}</span></li>
     ))}
   </ul>

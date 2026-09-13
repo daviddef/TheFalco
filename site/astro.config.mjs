@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import aliases from './src/data/people-aliases.json' with { type: 'json' };
+import register from './src/data/register.json' with { type: 'json' };
 
 /* Joining two half-records into one person changes that person's address —
    Chiara Rivetti used to live at two URLs, one per household, and now lives at
@@ -20,9 +21,29 @@ const redirects = Object.fromEntries([
 
 // GitHub Pages project site. To serve from a custom domain later,
 // set base to '/' and site to that domain.
+/* Six of the seven archives call the name namespace /who/. This one called it
+   /names/ until Phase 6b. The slugs did not change, only the prefix — and this
+   archive's own rule is that a published address does not rot, so all 4,682 of
+   them are kept alive. Derived from the register with the same rules the page
+   itself uses, so the two cannot drift apart. */
+const bare = (n) => String(n || "").replace(/\s*\(.*?\)\s*/g, " ")
+  .replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim();
+const nameSlug = (s) => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+  .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const isName = (n) => {
+  const t = String(n || "").trim();
+  return t.length >= 2 && t.length <= 64 && t.split(/\s+/).length <= 7
+      && !/[.;:\u2014]\s|\u00ab|\u00bb|\bthe\b|\bnot an\b/i.test(t);
+};
+const nameRedirects = Object.fromEntries(
+  [...new Set(register.filter((r) => isName(bare(r.name))).map((r) => nameSlug(bare(r.name))))]
+    .filter(Boolean)
+    .map((slug) => [`/names/${slug}`, `${BASE}/who/${slug}/`])
+);
+
 export default defineConfig({
   site: 'https://daviddef.github.io',
   base: '/TheFalco',
   build: { format: 'directory' },
-  redirects,
+  redirects: { ...redirects, ...nameRedirects, '/names': `${BASE}/who/` },
 });
