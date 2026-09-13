@@ -244,6 +244,34 @@ for r in rd("data/arienzo-parish-acts.tsv"):
             [role + " " + (r.get("principal") or ""), ev, r.get("date"), r.get("place"), mark] if x),
             "Arienzo parish registers (FamilySearch)", link, "parish", r.get("date") or "")
 
+# --- Antenati's NAME index (Benevento province) ------------------------------
+# `/search-nominative/` gives the person AND their parents, which the register
+# search does not. It covers Forchia and Arpaia; it does NOT cover Arienzo —
+# "Nessun risultato trovato … solo una parte dei registri è stata indicizzata".
+import glob as _glob
+for _f in sorted(_glob.glob("data/antenati-names-*.tsv")):
+    _town = _f.rsplit("-", 1)[-1].replace(".tsv", "").title()
+    for r in rd(_f):
+        nm = (r.get("name") or "").strip()
+        if not nm or is_description(nm):
+            continue
+        bits = []
+        info = (r.get("info") or "").strip()
+        if info: bits.append(info)
+        rel = (r.get("rel") or "").replace("=", " ").replace(" ; ", " · ")
+        if rel: bits.append(rel)
+        acts = [a for a in (r.get("acts") or "").split(" ; ") if a]
+        ark = ""
+        for a in acts:
+            parts = a.split("|")
+            if len(parts) == 3:
+                bits.append(parts[0] + (" " + parts[1] if parts[1] and "senza data" not in parts[1] else ""))
+                ark = ark or parts[2]
+        bits.append("INDEX ENTRY — the act itself is not read")
+        add(nm, sur(nm), " · ".join(x for x in bits if x),
+            f"Antenati name index — {_town}", AN + ark if ark else "", "index",
+            (re.search(r"\b(1[789]\d\d)\b", info + " " + (r.get("acts") or "")) or [""])[0] if re.search(r"\b(1[789]\d\d)\b", info + " " + (r.get("acts") or "")) else "")
+
 # --- Arienzo civil marriage acts, 1843-1844 -----------------------------------
 # Read out act by act looking for generation four's civil marriage, which is NOT
 # in either volume. The people the search passed over are published anyway: a
