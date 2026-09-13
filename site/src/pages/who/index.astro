@@ -1,0 +1,56 @@
+---
+/* Every name in the register, and how many records carry it.
+   Not how many people: this archive is explicit that a name is not a person —
+   «Pasquale Falco» alone names seventy-nine records across sixty years and is
+   certainly several men. */
+import Base from "../../layouts/Base.astro";
+import { u } from "../../lib/url.js";
+import register from "../../data/register.json";
+
+const bare = (n) => String(n || "").replace(/\s*\(.*?\)\s*/g, " ")
+  .replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim();
+const slugify = (s) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "")
+  .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const isName = (n) => {
+  const t = String(n || "").trim();
+  return t.length >= 2 && t.length <= 64 && t.split(/\s+/).length <= 7
+      && !/[.;:—]\s|«|»|\bthe\b|\bnot an\b/i.test(t);
+};
+
+const by = new Map();
+for (const r of register) {
+  const n = bare(r.name);
+  if (!isName(n)) continue;
+  const k = slugify(n);
+  if (!k) continue;
+  if (!by.has(k)) by.set(k, { name: n, n: 0 });
+  by.get(k).n += 1;
+}
+const names = [...by.entries()].map(([slug, v]) => ({ slug, ...v }))
+  .sort((a, b) => b.n - a.n || a.name.localeCompare(b.name));
+const many = names.filter(n => n.n > 1).length;
+---
+<Base title="Every name"
+      eyebrow={`${names.length.toLocaleString()} names · ${many.toLocaleString()} carried by more than one record`}
+      dek="A name is not a person. This is every name in the register, and how many records carry it.">
+  <section class="blk">
+    <p class="prose">The register holds {register.length.toLocaleString()} records and only
+    {names.length.toLocaleString()} distinct names, so most of these names are worn by more than one
+    person. That is why each opens a <strong>name</strong> page rather than a person page, and why
+    it never merges them. Where this archive has actually identified somebody, the name page points
+    at their <a href={u("/people/")}>person page</a>.</p>
+    <div class="scroll" style="margin-top:18px">
+      <table>
+        <thead><tr><th>Name</th><th>Records</th></tr></thead>
+        <tbody>
+          {names.map(n => (
+            <tr>
+              <td><a href={u(`/who/${n.slug}/`)}>{n.name}</a></td>
+              <td class="mono">{n.n}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</Base>

@@ -285,7 +285,7 @@ const nLiving = count((r) => r.living);
               data-liv={r.living ? "1" : "0"}
               data-hay={(r.name + " " + r.surname + " " + r.place + " " + r.span + " " + r.src).toLowerCase()}>
             <td>
-              <a href={u(r.slug ? "/people/" + r.slug : "/names/" + r.nameSlug)}>{r.name}</a>
+              <a href={u(r.slug ? "/people/" + r.slug : "/who/" + r.nameSlug)}>{r.name}</a>
               {r.living ? <><br/><span class="chip doc">living</span></>
                 : r.myLine ? <><br/><span class="chip doc">★ my line</span></>
                 : r.slug ? <><br/><span class="chip doc">identified</span></>
@@ -297,7 +297,7 @@ const nLiving = count((r) => r.living);
             <td class="small">{r.place === "—" ? "" : r.place}</td>
             <td class="small mono">{r.span}</td>
             <td class="small mono">
-              <a href={u(r.slug ? "/people/" + r.slug : "/names/" + r.nameSlug)}>{r.n}</a>
+              <a href={u(r.slug ? "/people/" + r.slug : "/who/" + r.nameSlug)}>{r.n}</a>
               {r.nLink ? <span class="dim"> · {r.nLink} linked</span> : <span class="dim"> · none linked</span>}
             </td>
             <td class="small">{r.wu ? <a href={u(r.wu[0])}>{r.wu[1]}</a> : ""}</td>
