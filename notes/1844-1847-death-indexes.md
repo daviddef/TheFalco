@@ -136,3 +136,41 @@ page.** Always confirm the number by opening the act and reading the name back.
 A **Gennaro Morgillo** dies in the **1843** register, at **1844 atto 52**, at **1845 atto 42** and at
 **1850 atto 75**. Four deaths, four years, one name. At least two men and probably three. **None of
 the acts has been read and no reconstruction is offered.**
+
+
+---
+
+# 1848 — the year with no index, read act by act
+
+**`an_ua14350`, 51 images, no *tavola* in the volume and no separate index volume.** Read by rendering
+the name line of every act on **images 4–51** and looking at each one.
+
+## TWO FALCO DEATHS, ON CONSECUTIVE DAYS
+
+Both on image 20, both read from the image:
+
+> **GIUSEPPE FALCO, di anni UNO — died 2 June 1848, alle ore sedici**, in his own house.
+> **GENNARO FALCO, di giorni DUE — died 3 June 1848, alle ore sedici**, in his own house.
+>
+> Both «**figlio di CRESCENZO FALCO** di professione **contadino** … **e di MARIA MORGILLO**».
+
+**A year-old boy and a two-day-old baby, brothers, dead a day apart.** The likeliest reading is a
+confinement that killed the newborn and took the toddler with it, but the acts say only what they say.
+
+**CRESCENZO FALCO × MARIA MORGILLO is a household this archive has never held.** Another Falco
+married to a Morgillo, and another *Crescenzo* — the name of Crescenzo Rivetti, who married the
+founder's daughter Angela Falco. **No kinship is claimed.**
+
+> **Corrected in the reading.** The first act's father was read as *Giuseppe* on the first pass — the
+> child and the father would then share a name. Setting the two «figlio di …» lines side by side at
+> magnification shows **both say CRESCENZO**. Recorded because it was nearly published.
+
+## What this sweep is, and is not
+
+It is a **name-line sweep of every act in the volume**, not a word-by-word reading of each act. The
+band that catches the name line does not catch it on every act — a handful of panels show only the
+printed «i quali han dichiarato» and no name. **So: a strong sweep, and not an exhaustive reading.**
+Anyone checking this should say so too.
+
+Also seen in passing, not chased: **Gelsomina Rivetti** (July), **Antonio Rivetti figlio di Chiara
+Lettieri** (March), **Angela Migliore moglie di Morgillo** (September).
