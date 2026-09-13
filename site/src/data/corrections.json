@@ -517,5 +517,14 @@
   "now": "**Found in the alphabetical index to the Arienzo parish marriage volumes**, read from the image: «**Raphael Falco cum Angela Rosa Morgillo filia Horatii — fol. 2 a tergo**». The act is at **folio 2 verso**; it has not been read, and the date is still unknown.",
   "how": "The parish marriage collection — M9J1-9B4, the shelf this archive had been failing to search — and then the index page itself, enlarged.",
   "why": "Published as a location, not a date. The temptation is to write «married about 1843» from where the leaf sits; the index gives a folio and two names and nothing else, and that is exactly what is recorded."
+ },
+ {
+  "when": "2026-09-13",
+  "what": "a correction that named the wrong parish, corrected within the hour",
+  "sev": "minor",
+  "was": "The entry above places Raffaele Falco and Angela Rosa Morgillo's marriage index **in «the Arienzo parish marriage volumes»**. That was written from a search filtered on `anyPlace=Arienzo` and never checked against the volume itself.",
+  "now": "**The index is SAN FELICE A CANCELLO's** — film 007786833, image 1873. The entry stands word for word; only the parish was wrong. **And the right parish is the better fact**: Angela Rosa was baptised at San Felice on 24 February 1818 and married in her own parish, which is the ordinary pattern and explains why the Arienzo registers never held this marriage.",
+  "how": "Opened the volume in the viewer and read its title, instead of trusting the search filter that had returned it.",
+  "why": "`anyPlace=Arienzo` is a **weighting, not a filter**: the same result set carries San Felice, Santa Maria a Vico, Parete, Dragoni and Aversa. Which means the negative published an hour ago — «1,260 Arienzo pages, no marriage act for a Matteo Falco» — is over a corpus that is **about 87 per cent Arienzo, not all of it**. That negative was already labelled as not ruling anything out; it is now labelled as covering fewer Arienzo pages than it claimed."
  }
 ]

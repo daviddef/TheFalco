@@ -29,7 +29,12 @@ carries both the word and the name, was not among the 340.
 
 ## 2. WHAT THE RIGHT SHELF HOLDS
 
-**1,260 distinct pages** of the Arienzo marriage collection that name a Falco were read.
+**1,260 distinct pages** of the marriage collection that name a Falco were read.
+
+> **CORRECTED, an hour later.** `q.anyPlace=Arienzo` is a **weighting, not a filter**. A sample of the
+> result set is **349 Arienzo pages to 51 from elsewhere** — San Felice a Cancello, Santa Maria a Vico,
+> Parete, Dragoni, Aversa, Alvignano, Trentola, Castellammare. So the 1,260 are **about 87 per cent
+> Arienzo**, and every count below should be read that way.
 
 ### NO MARRIAGE ACT FOR MATTEO FALCO — and what that is worth
 
@@ -68,7 +73,7 @@ Falco entries read off them so far — machine transcription, folios as given:
 | entry | folio | |
 |---|---|---|
 | **Carlo Antonio Morgillo e ROSA FALCO** | **3** | the act read today, 12 July 1802 — and the leaf's own page number is 3 ✔ |
-| **RAFFAELE FALCO cum ANGELA ROSA MORGILLO filia HORATII** | **2 a tergo** | **READ FROM THE IMAGE.** Generation four's marriage, which this archive had never located. Angela Rosa named as Orazio's daughter in the parish's own hand |
+| **RAFFAELE FALCO cum ANGELA ROSA MORGILLO filia HORATII** | **2 a tergo** | **READ FROM THE IMAGE — and it is SAN FELICE A CANCELLO's index, not Arienzo's** (film 007786833, image 1873). Generation four's marriage, in the bride's own parish. Angela Rosa named as Orazio's daughter in the parish's own hand |
 | **JOACHIM FALCO** | 19? | Gioacchino — his marriage to Vittoria Cimmino |
 | **DOMENICO FALCO con DOMENICA VIGLIOTTO** | 114 | |
 | Vincenzo Mazzone e **MARIA FALCO** | 60 | |
