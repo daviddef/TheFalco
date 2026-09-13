@@ -286,6 +286,16 @@ Collection **M9J1-SMK** is the deaths set; the 703-entry sweep that found no Mat
 collection, so **either the reading missed him, or those years are not transcribed, or the leaves are
 in a collection not yet searched.** Check which before concluding anything.
 
+**A LEAD THAT WOULD CUT IT TO THREE YEARS — `notes/francesca-crisci-1805-lead.md`:**
+«**FRANCISCA CRISCI, VIDUA [q.m ?] FALCO**, annorum **ottanta circiter**, **31 December 1805**»,
+ark `3Q9M-CSMY-B772-V`, buried in the Sodalitas S. Mariae Gratiarum. **PUBLISHED AS A LEAD ONLY:
+the age puts her birth at c.1725 and Matteo's children run to 1786, which is impossible.**
+- [ ] **READ THAT IMAGE.** The word after *vidua* is «Manel» in the machine and is the whole question.
+- [ ] Recheck the **1786 baptism** that gives Matteo a child that late.
+
+**The 1852-1858 death indexes also show NO Falco in 1852, 1856 or 1858** — see the table in
+`notes/the-other-falco-of-arienzo.md`.
+
 ## ARIENZO DEATHS 1844-1850 — half done, 13 Sep 2026
 Indexes: **1844 an_ua14305 · 1845 an_ua14306 · 1846 an_ua14307 · 1847 an_ua14308 · 1849 an_ua14309.
 1848 HAS NO INDEX.** Registers: 1844 an_ua14346 … 1850 an_ua14352 (+1/yr from 1809 = an_ua14311).
