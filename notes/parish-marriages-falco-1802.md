@@ -76,8 +76,11 @@ are now documented twice over, by marriage as well as by death.
 
 - [x] **READ THE IMAGE — DONE.** Dates, parents and celebrant verified. See the box at the head of
       this file for what changed.
-- [ ] **Emilia's surname** — the Morgillo groom's mother. Unreadable at this scan's resolution. Try
-      the same couple's other children's baptisms, or Carlo Antonio the elder's own death act.
+- [x] **Emilia's surname — ANSWERED, and it is RIVETTI.** Carlo Antonio Morgillo's own death entry,
+      **17 June 1842**, calls him «**filius q[uonda]m Caroli Antonii, et q[uonda]m MARIA RIVETTI, ac
+      VIDUUS ROSAE FALCO**», aged **sixty**, buried **in the church of San Giovanni**. The 1802
+      marriage act's «et Emiliae …» is therefore «Emilia Maria Rivetti» or the two acts name her
+      differently; **the surname is Rivetti either way**. Ark `3Q9M-CSMB-99JW`, transcription only.
 - [ ] **The witnesses** — named but not yet read letter by letter at magnification.
 - The same collection was scanned end to end for a **Matteo Falco death** and returned **nothing** —
   703 entries, every one checked. See the caveat: the collection's coverage of the 1750s–1790s is
