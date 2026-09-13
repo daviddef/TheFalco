@@ -1,4 +1,4 @@
-# THE ARIENZO DEATH INDEXES, 1844–1847 — two Falco found, and two years with none
+# THE ARIENZO DEATH INDEXES, 1844–1850 — five Falco found, and two years with none
 
 **Read 13 September 2026** from the «Morti, indice» series on Antenati, by the method in
 `notes/antenati-indexes.md`. Arks: **1844 `an_ua14305` · 1845 `an_ua14306` · 1846 `an_ua14307` ·
@@ -93,3 +93,46 @@ acts have not been read and no reconstruction is offered.**
 - [ ] **1849** (`an_ua14309`) and **1850** (`an_ua14352`).
 - [ ] The acts behind the 1844–45 Crisci, Rivetti and Morgillo index entries.
 - [ ] **Michele Falco × Antonia Vigliotta** — find their marriage and their other children.
+
+
+---
+
+# 1849 AND 1850 — a deacon, a nun, and Giuseppe Falco still alive
+
+**1849** (`an_ua14309`, a separate index volume) and **1850** (**no separate volume — the *tavola* is
+bound at the FRONT of the register `an_ua14352`, images 2–6**). That is the changeover the archive
+had already noticed for 1851; it begins in 1850.
+
+## 1849 — one Falco
+
+| act | | |
+|---|---|---|
+| **66** | **DON GIOVANNI FALCO, DIACONO, aged 25, 26 November 1849** | «Falco Giuseppe e Guida Antonia» — **read from the image**, see `notes/don-giovanni-falco-deacon-1849.md` |
+
+## 1850 — three Falco, and one of them a nun
+
+| act | | |
+|---|---|---|
+| 37 or 87 *(the digit is not certain)* | **FALCO DONNA ANGELA MARIA — *MONACA*** — «**Falco D. FRANCESCO e Stellato D. MADDALENA**» — **14 November 1850** | **index only; the act has not been read.** A *Don* and a *Donna* for parents: a **gentry Falco household**, socially a world away from the *coloni* of strada Camellara. **No kinship is claimed.** |
+| 66 | **FALCO ANGELANTONIO**, *of **SANTA MARIA [A VICO]***, contadino — «Falco Domenico e **Falco** Mariantonia» — 20 October | a **Falco who married a Falco**. Index only. |
+| 67 | **FALCO ANTONIO**, Arienzo, contadino — «Falco Francesco e **Falco** Giuseppa» — 23 October | a second Falco–Falco marriage. Index only. |
+
+### AND A NEGATIVE THAT MATTERS
+
+**GIUSEPPE FALCO DID NOT DIE IN 1850.** The 1850 *tavola* is alphabetical by surname and then by
+forename, and the Falco block runs **Angela Maria → Angelantonio → Antonio** and stops. He was alive
+in November 1849 at about seventy; he was still alive at the end of 1850.
+
+### A TRAP THIS INDEX SET HAS NOW SPRUNG TWICE
+
+In **1846** the entry for **Falco Chiara** sits directly beneath **Ferro Antonio, act 29**, and its
+own number was read as 29 — the act at 29 is Ferro. In **1850** the entry for **Falco D. Angela
+Maria** sits directly beneath **Finelli Clemente, act 39**, and its number was read as 39 — the act
+at 39 is Finelli. **In this hand, act numbers in adjacent rows are the least legible thing on the
+page.** Always confirm the number by opening the act and reading the name back.
+
+## The Gennaro Morgillo problem, now worse
+
+A **Gennaro Morgillo** dies in the **1843** register, at **1844 atto 52**, at **1845 atto 42** and at
+**1850 atto 75**. Four deaths, four years, one name. At least two men and probably three. **None of
+the acts has been read and no reconstruction is offered.**

@@ -553,5 +553,23 @@
   "now": "**DON GIOVANNI FALCO, DIACONO**, died at Arienzo on **26 November 1849, aged twenty-five** — **son of GIUSEPPE FALCO, colono, and ANTONIA DI GUIDA**, and therefore **Matteo Falco's grandson**. Born about 1824.",
   "how": "Arienzo, Morti 1849, atto 66, found through the annual death index and read from the image.",
   "why": "Published because it changes the shape of the family, not just its size. It also puts **Giuseppe Falco alive in November 1849** at about seventy — no «fu» before his name — and it puts the declarants, two Cioffi, **on strada Camellara** again. *The index calls him* suddiacono *and the act* diacono; both are recorded."
+ },
+ {
+  "when": "2026-09-13",
+  "what": "an act number misread from an index — twice, in the same way",
+  "sev": "method",
+  "was": "**1846**: «Falco Chiara» read as **act 29**. **1850**: «Falco D. Angela Maria» read as **act 39**.",
+  "now": "**Both were the number of the row ABOVE.** Act 29 of 1846 is **Ferro Antonio**; act 39 of 1850 is **Finelli Clemente**. Chiara Falco is act **39** of 1846; Angela Maria Falco's number is still not certain, and the site says so.",
+  "how": "Opened each act and read the name back before believing the index.",
+  "why": "Recorded as a method note because it is now a **pattern, not a slip**: in this clerk's hand the act numbers of adjacent rows are the least legible thing on the page, and a Falco entry has twice sat directly beneath a similar-looking number. **Confirm every index act number by opening the act.**"
+ },
+ {
+  "when": "2026-09-13",
+  "what": "a nun and two Falco-Falco marriages, all from an index and none from an act",
+  "sev": "addition",
+  "was": "Nothing — none of these people was held here.",
+  "now": "**FALCO DONNA ANGELA MARIA, *MONACA***, died **14 November 1850**, daughter of **Don Francesco Falco and Donna Maddalena Stellato** — a **gentry** Falco household. **FALCO ANGELANTONIO** of **Santa Maria a Vico**, 20 October 1850, «Falco Domenico e Falco Mariantonia»; and **FALCO ANTONIO**, 23 October 1850, «Falco Francesco e Falco Giuseppa» — **two Falco men who married Falco women**.",
+  "how": "The 1850 death tavola, bound at the front of the register itself rather than in a separate volume.",
+  "why": "Published **at index strength and no higher** — none of the three acts has been read, and no kinship to this line is claimed. The *Don* and *Donna* matter: a gentry Falco household at Arienzo is a different world from the *coloni* of strada Camellara, and the archive should stop assuming every Falco in this town is a relation."
  }
 ]
