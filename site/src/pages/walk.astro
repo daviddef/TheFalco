@@ -39,7 +39,7 @@ const count = (s) => register.filter((r) => ((r.detail || "") + " " + (r.source 
         <div class="body">
           <h3>strada {s} <span class="mono small dim">{count(s).toLocaleString()} records</span></h3>
           <p>{what}</p>
-          <p class="small"><a href={u("/register") + "?q=" + encodeURIComponent(s)}>Every record from this street →</a></p>
+          <p class="small"><a href={u("/register/") + "?q=" + encodeURIComponent(s)}>Every record from this street →</a></p>
         </div>
       </div>
     ))}
@@ -55,7 +55,7 @@ const count = (s) => register.filter((r) => ((r.detail || "") + " " + (r.source 
     <li><strong>The Ospedale di «Ave Gratia Plena»</strong> — the hospital whose name this archive
     once misread as a nun.</li>
     <li><strong>Photographs of any of it.</strong> There is not one image of Arienzo in this archive.
-    <a href={u("/gallery")}>Gallery →</a></li>
+    <a href={u("/gallery/")}>Gallery →</a></li>
   </ul>
 
 <style is:global>

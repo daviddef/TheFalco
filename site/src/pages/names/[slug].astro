@@ -90,7 +90,7 @@ const withLink = rows.filter((r) => r.link).length;
         That is a gap, not an oversight — it is recorded here so it can be seen.</p>
       )}
       <p class="small" style="margin-top:.6rem">
-        <a href={u("/register") + "?q=" + encodeURIComponent(name)}>The same records grouped by source →</a></p>
+        <a href={u("/register/") + "?q=" + encodeURIComponent(name)}>The same records grouped by source →</a></p>
     </div>
     <div class="card">
       <h3>Has the archive identified anyone of this name?</h3>
@@ -136,6 +136,6 @@ const withLink = rows.filter((r) => r.link).length;
   </table></div>
 
   <p class="small" style="margin-top:1.6rem">
-    <a href={u("/people")}>← All the people and records</a> ·
-    <a href={u("/method")}>Why this archive does not merge names</a></p>
+    <a href={u("/people/")}>← All the people and records</a> ·
+    <a href={u("/method/")}>Why this archive does not merge names</a></p>
 </Base>

@@ -38,7 +38,7 @@ const heading = (g) => g.spouse ? `${g.name} and ${g.spouse}` : g.name;
         {g.living
           ? <p class="tale"><strong>This generation is living, so it is named and nothing more.</strong>
             No date of birth, no place, no detail — the rule is set out under
-            <a href={u("/method")}>Method</a>. The line continues past this page into people who are
+            <a href={u("/method/")}>Method</a>. The line continues past this page into people who are
             alive, and the archive stops describing them here.</p>
           : <p class="tale">{g.note}</p>}
       </section>
@@ -71,7 +71,7 @@ const heading = (g) => g.spouse ? `${g.name} and ${g.spouse}` : g.name;
   <strong>Above Matteo there is nothing.</strong> His marriage to Francesca Crisci would name his
   father; it was searched for across 2,056 transcribed pages and not found, and his own baptism falls
   in the gap the register leaves between 1738 and 1761. That is the frontier of this research. See
-  <a href={u("/open-questions")}>Open questions</a>.</p>
+  <a href={u("/open-questions/")}>Open questions</a>.</p>
 </Base>
 
 <style>

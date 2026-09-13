@@ -66,10 +66,10 @@ const acts = register.filter((r) => /matrimonio|marriage/i.test(r.detail || ""))
   <div class="card" style="margin:1.2rem 0;border-left:3px solid var(--accent)">
     <p><strong>Eleven times, the Falco married a Crisci.</strong> Six Crisci women marrying Falco
     men, five Falco women marrying Crisci men, across roughly two hundred years — and generations
-    <strong>one and three both did it</strong>. <a href={u("/crisci")}>The Crisci page counts them →</a></p>
+    <strong>one and three both did it</strong>. <a href={u("/crisci/")}>The Crisci page counts them →</a></p>
     <p style="margin-top:.6rem"><strong>Two Zampiello sisters married two Falco brothers</strong>, and
     both households went to Brisbane. <strong>This is what endogamy looks like from the paper side</strong>
-    — and <a href={u("/dna")}>the DNA measures the same thing from the other end</a>: two people born
+    — and <a href={u("/dna/")}>the DNA measures the same thing from the other end</a>: two people born
     eight kilometres apart who are, at the test's resolution, the same person.</p>
   </div>
 
@@ -79,7 +79,7 @@ const acts = register.filter((r) => /matrimonio|marriage/i.test(r.detail || ""))
     <tbody>
       {spine.map((c) => (
         <tr>
-          <td class="mono"><a href={u("/direct-line") + "#gen-" + c.gen}>{c.gen}</a></td>
+          <td class="mono"><a href={u("/direct-line/") + "#gen-" + c.gen}>{c.gen}</a></td>
           <td>
             {c.a.living ? <em class="dim">living — named only</em> : <a href={u("/people/" + c.a.slug)}><strong>{c.a.name}</strong></a>}
             <span class="dim"> × </span>
@@ -94,7 +94,7 @@ const acts = register.filter((r) => /matrimonio|marriage/i.test(r.detail || ""))
 
   <h2>Every other couple</h2>
   <p class="small">{couples.length - spine.length} more, ordered by family. A shared surname is not a
-  relationship — see <a href={u("/method")}>Method</a>.</p>
+  relationship — see <a href={u("/method/")}>Method</a>.</p>
   <div class="scroll"><table>
     <thead><tr><th>Married</th><th>Family</th><th>Children</th><th>Known from</th><th>Written up</th></tr></thead>
     <tbody>
@@ -121,10 +121,10 @@ const acts = register.filter((r) => /matrimonio|marriage/i.test(r.detail || ""))
     <li><strong>The marriage of Pasquale Falco and Chiara Rivetti</strong>, Arienzo, 1780s. It would
     name all four parents at once. <strong>The oldest document this archive still wants.</strong></li>
     <li><strong>Orazio Morgillo and Vincenza Pesce</strong>, about 1817 — now that
-    <a href={u("/searched")}>Orazio has been found alive in 1837 on strada Nuova di San Gaetano</a>,
+    <a href={u("/searched/")}>Orazio has been found alive in 1837 on strada Nuova di San Gaetano</a>,
     this is the next act to look for.</li>
     <li><strong>Giuseppa Ferrara and Angelo Zampiello</strong>, Arpaia, about 1920. It names both
-    fathers and would fix <a href={u("/ferrara")}>the Ferrara/Ferraro spelling</a> in the hand of a
+    fathers and would fix <a href={u("/ferrara/")}>the Ferrara/Ferraro spelling</a> in the hand of a
     clerk who had to ask her.</li>
     <li><strong>The <em>processetti</em></strong> — the marriage dossiers. <strong>258 volumes across
     four towns, and not one has been read.</strong> They are the largest untouched body of evidence
@@ -132,6 +132,6 @@ const acts = register.filter((r) => /matrimonio|marriage/i.test(r.detail || ""))
   </ul>
 
   <p class="small" style="margin-top:1.6rem">
-    <a href={u("/households")}>Households</a> · <a href={u("/married-in")}>Married in</a> ·
-    <a href={u("/direct-line")}>The direct line</a> · <a href={u("/open-questions")}>Open questions</a></p>
+    <a href={u("/households/")}>Households</a> · <a href={u("/married-in/")}>Married in</a> ·
+    <a href={u("/direct-line/")}>The direct line</a> · <a href={u("/open-questions/")}>Open questions</a></p>
 </Base>

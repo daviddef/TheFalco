@@ -91,7 +91,7 @@ const RULE = [
       ))}
     </div>
     <figcaption class="small">Read: {runs.map(([a, b]) => (a === b ? a : `${a}–${b}`)).join(" · ")}.
-    <strong>Everything else is unread</strong> — see <a href={u("/searched")}>what has been read</a>.</figcaption>
+    <strong>Everything else is unread</strong> — see <a href={u("/searched/")}>what has been read</a>.</figcaption>
   </figure>
 
   <h2>The generations</h2>
@@ -100,7 +100,7 @@ const RULE = [
     <tbody>
       {gens.map((g) => (
         <tr>
-          <td class="mono"><a href={u("/direct-line") + "#gen-" + g.gen}>{g.gen}</a></td>
+          <td class="mono"><a href={u("/direct-line/") + "#gen-" + g.gen}>{g.gen}</a></td>
           <td>{g.living ? <em class="dim">living — named only</em> : <strong>{g.name}</strong>}
             {g.living ? null : <><br/><span class="small mono">{g.born}</span></>}</td>
           <td class="small">{g.living ? "" : (g.bornPlace || "")}</td>
@@ -119,7 +119,7 @@ const RULE = [
     <tbody>
       {events.map((e) => (
         <tr><td class="mono small" style="white-space:nowrap">{e.when}</td>
-          <td><a href={u("/documents") + "#" + e.f.replace(/\.jpg$/, "")}>{e.t}</a></td></tr>
+          <td><a href={u("/documents/") + "#" + e.f.replace(/\.jpg$/, "")}>{e.t}</a></td></tr>
       ))}
     </tbody>
   </table></div>

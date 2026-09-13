@@ -117,15 +117,15 @@ export function personLink(name) {
 
   if (genByName.has(n) && !genShared.has(n)) {
     const g = genByName.get(n);
-    return { href: u("/direct-line") + "#gen-" + g.gen, kind: "gen",
+    return { href: u("/direct-line/") + "#gen-" + g.gen, kind: "gen",
              title: `Generation ${g.gen} of the direct line` };
   }
   if (genShared.has(n)) {
-    return { href: u("/people") + "?q=" + encodeURIComponent(bare(name)), kind: "several",
+    return { href: u("/people/") + "?q=" + encodeURIComponent(bare(name)), kind: "several",
              title: `More than one person in this archive is called ${bare(name)} — the archive does not decide which is meant` };
   }
   if (livingNames.has(n)) {
-    return { href: u("/people") + "?q=" + encodeURIComponent(name), kind: "living",
+    return { href: u("/people/") + "?q=" + encodeURIComponent(name), kind: "living",
              title: "A living relative — this archive publishes their name and nothing else" };
   }
 
@@ -135,14 +135,14 @@ export function personLink(name) {
   }
   if (shared.has(n)) {
     const many = people.filter((p) => norm(p.name) === n).length;
-    return { href: u("/people") + "?q=" + encodeURIComponent(name), kind: "several",
+    return { href: u("/people/") + "?q=" + encodeURIComponent(name), kind: "several",
              title: `${many} people of this name are recorded — the archive does not decide which is which` };
   }
   const hits = registerHits(name);
   if (hits > 0) {
     /* the normalised form, not the raw one: the roster searches row text, and
        no row says "Caterina Zampiello (Falco)" — they say "Caterina Zampiello". */
-    return { href: u("/register") + "?q=" + encodeURIComponent(bare(name).replace(HONORIFIC, "").trim()), kind: "register",
+    return { href: u("/register/") + "?q=" + encodeURIComponent(bare(name).replace(HONORIFIC, "").trim()), kind: "register",
              title: `${hits} record${hits === 1 ? "" : "s"} in the register name ${name}` };
   }
   return null;

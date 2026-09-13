@@ -17,7 +17,7 @@ const n = (k) => idx.filter((e) => e.k === k).length;
     does.</p>
     <p class="small" style="margin-top:.6rem"><strong>It deliberately does not index all
     {collections.length.toLocaleString()} records</strong> — that is what
-    <a href={u("/register")}>the register</a> and the name pages are for, and shipping them twice
+    <a href={u("/register/")}>the register</a> and the name pages are for, and shipping them twice
     would put four megabytes into a search box for nothing.</p>
   </div>
 
@@ -42,7 +42,7 @@ const n = (k) => idx.filter((e) => e.k === k).length;
   <ol id="sres" class="sres"></ol>
 
   <p class="small" style="margin-top:2rem">Looking for a record rather than a person?
-  <a href={u("/register")}>The register</a> holds all {collections.length.toLocaleString()},
+  <a href={u("/register/")}>The register</a> holds all {collections.length.toLocaleString()},
   grouped by surname and each linked to its source.</p>
 
 <style is:global>
