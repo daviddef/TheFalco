@@ -295,8 +295,12 @@ Campania collections: **M9J1-7MY** Religious 1551-1975 · **M9J1-SMK** Deaths ·
       end to end. **WEAK NEGATIVE** — that collection's coverage of the 1750s-90s is thin (6, 1, 11
       and 23 mentions per decade against 112 for the 1800s).
 
-- [ ] **READ THE IMAGES.** Everything above is FamilySearch machine transcription, which renders the
-      1802 year as "1902". Names are legible and consistent; **dates are NOT verified**.
+- [x] **READ THE IMAGES — DONE, the same day.** Method in memory: `familysearch-image-reading`.
+      Verified: Giuseppe x Antonia **4 Aug 1802**; Rosa x Carlo Antonio **12 Jul 1802** (three weeks
+      apart, not the same day); the bride's mother is **MAGDALENA RIVETTA**, not "Pivera"; celebrant
+      **D. Luca Verdicchio, Missionarius**, under archpriest **Giacinto Morgillo**.
+      Still unread: **Emilia's surname** (Morgillo's mother) — below this scan's resolution.
+      New lead: **Rivetta / Rivetti** — gen 3 married a Chiara Rivetti. Untested.
 - [ ] **Matteo Falco's own marriage, c.1760-66** — try collection M9J1-9B4 and the Benevento
       archdiocese set `1483010`, and query on words every page carries (denunciationibus, conjunxi).
 - [ ] **The 1777 child of Matteo & Francesca** (25 Nov) — the transcription cuts at "qui [nominatus
