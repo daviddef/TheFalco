@@ -1,0 +1,86 @@
+{
+ "note": "The Falco line and the families of the Valle Caudina it married. State is derived from what this archive actually publishes: a line is DRAWN only where a chart of it exists, DRAWABLE where there are enough people to chart and no chart yet, and a ROUTE where there are too few.",
+ "rows": [
+  {
+   "name": "Falco",
+   "ours": true,
+   "state": "drawn",
+   "depth": "207 people of the name",
+   "what": "Nine documented generations in one valley — the line this archive carries, and the only one of these that is charted.",
+   "gap": null,
+   "href": "/families/",
+   "cta": "See the families →"
+  },
+  {
+   "name": "Crisci",
+   "ours": false,
+   "state": "drawable",
+   "depth": "29 people of the name",
+   "what": "Married into the line at Arienzo. 29 people of the name are recorded here, and there is a page about them — but no chart.",
+   "gap": "No chart of this family has been drawn.",
+   "href": "/crisci/",
+   "cta": "Read about them →"
+  },
+  {
+   "name": "Zampiello",
+   "ours": false,
+   "state": "drawable",
+   "depth": "24 people of the name",
+   "what": "Married into the line at Arienzo. 24 people of the name are recorded here, and there is a page about them — but no chart.",
+   "gap": "No chart of this family has been drawn.",
+   "href": "/zampiello/",
+   "cta": "Read about them →"
+  },
+  {
+   "name": "Morgillo",
+   "ours": false,
+   "state": "drawable",
+   "depth": "20 people of the name",
+   "what": "Married into the line at Arienzo. 20 people of the name are recorded here, and there is a page about them — but no chart.",
+   "gap": "No chart of this family has been drawn.",
+   "href": "/morgillo/",
+   "cta": "Read about them →"
+  },
+  {
+   "name": "Rivetti",
+   "ours": false,
+   "state": "drawable",
+   "depth": "19 people of the name",
+   "what": "Married into the line at Arienzo. 19 people of the name are recorded here, and there is a page about them — but no chart.",
+   "gap": "No chart of this family has been drawn.",
+   "href": "/rivetti/",
+   "cta": "Read about them →"
+  },
+  {
+   "name": "Cioffi",
+   "ours": false,
+   "state": "drawable",
+   "depth": "14 people of the name",
+   "what": "Married into the line at Arienzo. 14 people of the name are recorded here.",
+   "gap": "No chart of this family has been drawn.",
+   "href": "/families/",
+   "cta": "See the families →"
+  },
+  {
+   "name": "Falcone",
+   "ours": false,
+   "state": "route",
+   "depth": "9 people of the name",
+   "what": "Married into the line at Arienzo. 9 people of the name are recorded here.",
+   "gap": "No chart of this family has been drawn.",
+   "href": "/families/",
+   "cta": "See the families →"
+  },
+  {
+   "name": "Mazza",
+   "ours": false,
+   "state": "route",
+   "depth": "9 people of the name",
+   "what": "Married into the line at Arienzo. 9 people of the name are recorded here.",
+   "gap": "No chart of this family has been drawn.",
+   "href": "/families/",
+   "cta": "See the families →"
+  }
+ ],
+ "close": "Only one of these is drawn. The others have enough people to chart and nobody has charted them, which is a to-do rather than a limit of the evidence."
+}
