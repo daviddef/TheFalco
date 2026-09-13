@@ -29,9 +29,13 @@ arrivals were found.
       has been calling Sant'Agnese one of Arienzo's three parishes, on the strength of the FILM the
       act sits in — and a film label covers a whole reel. **Re-read `3Q9M-CSMB-9K6F` for the act's own
       words for the place**, and check which parish the film actually covers. One rate window.
-- [ ] **VINCENZO FALCO after March 1844.** He is alive on strada Cammellara on 7 Mar 1844, thirty
-      years after his marriage. His death is untraced; the Arienzo death registers 1844-1858 are read
-      and he is NOT in them, so look **after 1858**, or at San Felice.
+- [x] **VINCENZO FALCO — the PARISH register is eliminated (13 Sep 2026).** FamilySearch `M9J1-SMK`
+      (Arienzo deaths 1733–1888) returns **703 Falco pages; all 703 were read** and no Vincenzo Falco
+      death is among them. The two apparent hits are a registrar «Vincenzo De Falco» of Pomigliano and
+      a «Falcone Vincenzo». Caveats: the OCR mangles the surname, and the collection stops at 1888.
+- [ ] **SO READ THE CIVIL DEATHS AFTER 1858.** Antenati's Arienzo death series runs on past 1858 and
+      has **never been read beyond it**. He was 52 in March 1844; his father reached 67. This is a
+      reading job, not a search, and it is the only untried route left for generation three.
 
 ## TWO WARNINGS FROM 13 SEPTEMBER — read before trusting a nil
 
