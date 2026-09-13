@@ -73,7 +73,7 @@ Falco entries read off them so far — machine transcription, folios as given:
 | entry | folio | |
 |---|---|---|
 | **Carlo Antonio Morgillo e ROSA FALCO** | **3** | the act read today, 12 July 1802 — and the leaf's own page number is 3 ✔ |
-| **RAFFAELE FALCO cum ANGELA ROSA MORGILLO filia HORATII** | **2 a tergo** | **READ FROM THE IMAGE — and it is SAN FELICE A CANCELLO's index, not Arienzo's** (film 007786833, image 1873). Generation four's marriage, in the bride's own parish. Angela Rosa named as Orazio's daughter in the parish's own hand |
+| **RAFFAELE FALCO cum ANGELA ROSA MORGILLO filia HORATII** | **2 a tergo** | **READ FROM THE IMAGE. WHICH PARISH IS UNRESOLVED** — film 007786833 image 1873 is labelled *San Felice a Cancello*, but the register bound directly after the index says «Parochus Ecclesiae S. AGNETIS … TERRAE ARGENTII» — **Sant'Agnese, Arienzo** — with acts of **1843**. Generation four's marriage, in the bride's own parish. Angela Rosa named as Orazio's daughter in the parish's own hand |
 | **JOACHIM FALCO** | 19? | Gioacchino — his marriage to Vittoria Cimmino |
 | **DOMENICO FALCO con DOMENICA VIGLIOTTO** | 114 | |
 | Vincenzo Mazzone e **MARIA FALCO** | 60 | |
@@ -104,3 +104,26 @@ Falco entries read off them so far — machine transcription, folios as given:
    writing «about 1843» from where the leaf sits: the index gives a folio and two names, and nothing
    else.
 4. **Gioacchino Falco × Vittoria Cimmino**, folio 19.
+
+
+---
+
+## POSTSCRIPT — the parish is an open question, and the archive got it wrong both ways
+
+**13 September 2026, later the same day.** The index leaf naming Raffaele Falco was published first as
+Arienzo's, then corrected to San Felice a Cancello's on the strength of FamilySearch's film label.
+**Neither is established.**
+
+- **FamilySearch's catalogue** calls film **007786833** *Registri ecclesiastici di San Felice a
+  Cancello (Caserta)* — but a film label covers a **whole reel**, and a reel can hold several parishes.
+- **The register bound immediately after the index** — images 1880 onward of that same film — says in
+  its own acts: «Ego infrascriptus **Parochus Ecclesiae S. AGNETIS Virginis et Martyris TERRAE
+  ARGENTII**». That is **Sant'Agnese in Arienzo**, and its first folios are **1843**.
+
+What is certain: the entry «**Raphael Falco cum Angela Rosa Morgillo filia Horatii — fol. 2 a tergo**»,
+read from the image; that **folio 2 of the volume that follows is 1843**, agreeing with the stray
+«18 43» in the machine text beside the entry; and — from the civil registers, independently — that
+**they were married in 1846 or earlier**, because their daughter Vincenza was born in November 1847.
+
+**Reading folio 2 a tergo settles all of it at once.** The images either side of it are mapped
+(1880–1890); the walk stopped at a FamilySearch **403 rate-limit**, not a wall.
