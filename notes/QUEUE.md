@@ -308,7 +308,13 @@ See `notes/1844-1847-death-indexes.md`.
 - [~] **Giuseppe Falco's own death** — **NOT in 1850, 1851, 1852, 1853, 1854 or 1855**; alive in
       **April 1854** at about seventy-four. **1855 has NO INDEX at either end** (63 images, 111 deaths,
       a cholera year) and was read act by act. Continue: 1856 an_ua14358 ... 1865 an_ua14367, then the
-      post-1865 Italian series.
+      post-1865 Italian series. **NOW READ OUT: 1844-1858, fifteen consecutive years.** Continue at
+      1859 an_ua14361 ... 1865 an_ua14367.
+      **The post-1865 Italian series IS full-text searchable on FamilySearch** (collection `2043630`,
+      1,503 Falco pages for Arienzo) — unlike the Bourbon series `2718545`, which returns 0.
+- [ ] **THE OTHER FALCO OF ARIENZO** — Don Francesco Falco x Donna Maddalena Stellato, whose daughter
+      was a nun (d. 1850) and whose son was a priest (d. 1857). Index entries only; read the acts.
+      See `notes/the-other-falco-of-arienzo.md`.
 - [x] **MARGHERITA FALCO is no longer an isolate.** Her husband **DOMENICO CRISCI** died 9 Jan 1855
       aged 80, contadino of **strada Crisci**, son of the fu Vincenzo Crisci and the fu Maria di Lucia
       — and a **widower**, so she died before 1855. Whose daughter she was is still unknown.
