@@ -4,8 +4,12 @@
 — the image has NOT been read** (the attempt hit a rate limit). Everything below is at that strength.
 
 > «Anno D[omi]ni 180[5], die vero **31 Decembris**. **FRANCISCA CRISCI, VIDUA [q.m …] FALCO**, aetatis
-> suae annorum **[ott]anta circiter**, omnibus Sacramentis munita, in Comm[unione] S. M. E. obiit, et
+> suae annorum **[…] circiter**, omnibus Sacramentis munita, in Comm[unione] S. M. E. obiit, et
 > **in Sodalitate S. Mariae Gratiarum** ejus cadaver [humatum est]. **Hyacinthus Archip. Morgillo**»
+>
+> *The machine renders the age as «annovembocircite». **The number is not legible.** An earlier
+> version of this page read it as «ottanta» — about eighty — and built an objection on it. That was
+> over-reading, and the objection is withdrawn below.*
 
 The year is fixed by the entry that follows it on the same leaf: «Anno D[omi]ni **1806**, die vero
 **prima Januarii**, Francisca Cillo uxor Vincentii Laudato…». So this is **31 December 1805**.
@@ -19,22 +23,33 @@ at Arienzo on **31 December 1805**, is the obvious candidate. If she is the same
 > **MATTEO FALCO DIED BETWEEN AUGUST 1802 AND DECEMBER 1805** — and the seven-year window published
 > this afternoon becomes **three and a half years**.
 
-## AND WHY IT IS NOT PUBLISHED AS A FINDING
+## AND WHY IT IS STILL NOT PUBLISHED AS A FINDING
 
-**The age does not work.** «Annorum **ottanta** circiter» — about eighty — puts her birth about
-**1725**. But Matteo Falco is «named as the father in the baptisms of at least five children at
-Arienzo **between 1767 and 1786**». A woman born in 1725 would be **forty-two at the first and
-sixty-one at the last**. The last is impossible.
+**Two objections were raised against it within the hour. One has been withdrawn and one has been
+checked and eliminated. What is left is the single word the whole thing turns on.**
 
-**Three ways out, and the archive does not know which:**
+**WITHDRAWN — the age.** This page first read «annorum **ottanta** circiter», put her birth at about
+1725, and argued that she could not then have borne a child in 1786. **The machine's word is
+«annovembocircite» and the number in it is not legible.** «Ottanta» was an over-reading, and the
+objection built on it is withdrawn. *Recorded rather than deleted, because the archive that quietly
+removes its own bad arguments is the archive that repeats them.*
 
-1. **The age is simply wrong.** It is written *circiter* — "about" — by a priest looking at an old
-   woman's body, and this archive has now overturned **five** stated ages with baptisms in a single
-   week. Sixty-five or seventy would fit.
-2. **The 1786 child is not hers** — or not Matteo's.
-3. **This is a different Francesca Crisci**, widow of a different Falco. **Crisci is the commonest
-   surname in these registers after Martone**, and the archive has already found two Arcangelo
-   Crisci, two Giuseppe Falco, three Michele Falco and two whole Falco families in this one town.
+**CHECKED AND ELIMINATED — the 1786 child.** The obvious alternative was that the child baptised in
+1786 was Matteo's by someone else. It is not: ark `3Q9M-CSD3-13XZ-1` reads «Anno D[omi]ni Millesimo
+Septingentesimo **octogesimo sexto 1786**, die vero **quinta 5 Januarii** … baptizavit infantem natam
+ex **MATTHEO FALCO, ET FRANCISCA CRISCI** conjugibus hujus Parochiae», matrina **Cecilia Martone**.
+**The child is hers**, and her name is garbled by the machine — *«proja»* — and has not been read.
+*(If it is ROSA, this is the Rosa Falco who married Carlo Antonio Morgillo in July 1802 and died in
+1830 — which would make her sixteen at her marriage. Not claimed; flagged.)*
+
+**WHAT REMAINS.** Francesca Crisci bore children from **1767 to 1786**, so she was born around
+**1745** and would be about **sixty** in 1805 — perfectly possible. **The only real question left is
+whether the «Falco» after *vidua* is MATTEO.** The machine renders that word «Manel». It could be
+Matthei. It could be anything.
+
+**And the standing warning applies**: this town has produced two Arcangelo Crisci, two Giuseppe
+Falco, three Michele Falco and two entire Falco families. **A Francesca Crisci widowed of a Falco is
+not automatically this one.**
 
 ## What settles it
 

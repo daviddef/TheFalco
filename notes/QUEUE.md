@@ -291,7 +291,11 @@ in a collection not yet searched.** Check which before concluding anything.
 ark `3Q9M-CSMY-B772-V`, buried in the Sodalitas S. Mariae Gratiarum. **PUBLISHED AS A LEAD ONLY:
 the age puts her birth at c.1725 and Matteo's children run to 1786, which is impossible.**
 - [ ] **READ THAT IMAGE.** The word after *vidua* is «Manel» in the machine and is the whole question.
-- [ ] Recheck the **1786 baptism** that gives Matteo a child that late.
+- [x] **The 1786 baptism IS Francesca Crisci's** — ark `3Q9M-CSD3-13XZ-1`, 5 Jan 1786, «infantem
+      natam ex MATTHEO FALCO, ET FRANCISCA CRISCI», matrina Cecilia Martone. **The child's name is
+      garbled («proja») and unread** — if it is ROSA, this is the Rosa Falco who married Carlo
+      Antonio Morgillo in July 1802, aged sixteen. NOT CLAIMED.
+- [ ] **Read the 1786 image** for the daughter's name.
 
 **The 1852-1858 death indexes also show NO Falco in 1852, 1856 or 1858** — see the table in
 `notes/the-other-falco-of-arienzo.md`.
