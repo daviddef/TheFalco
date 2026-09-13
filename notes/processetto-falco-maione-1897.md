@@ -67,3 +67,50 @@ made look like three different Falco–Falco couples, until the acts dissolved t
 
 **The attribution is stated carefully: this extract is in the same bound volume, not in Raffaele and
 Costanza's fascicolo.** It was found because the volume is searchable, not because it belongs to them.
+
+---
+
+# THE PUBLICATION ACTS — two more households, from the same collection
+
+## The banns of 26 August 1897 (`3QS7-997F-M4CW`) — the fullest statement of generation six
+
+> «*è comparso **FALCO RAFFAELE, di anni VENTIQUATTRO**, contadino, residente in Arienzo, **figlio di
+> CARMINANTONIO, di anni QUARANTASEI**, contadino, residente in Arienzo, e figlio di **GIOVANNA
+> ARRICALE**, contadina, residente in Arienzo. E pure comparsa: **MAIONE COSTANZA, di anni VENTUNO**,
+> contadina, residente in Arienzo, **figlia di ANIELLO, di anni CINQUANTASEI**, contadino, residente
+> in Arienzo, **e figlia di MARTONE ANNA**, contadina, residente in Arienzo*»
+
+- **COSTANZA MAIONE'S MOTHER WAS ANNA MARTONE.** New — the archive had neither parent until today,
+  and now has both, with the father's age.
+- **ANIELLO MAIONE was fifty-six in August 1897** → born about **1841**, a *contadino*, **still
+  living**, as was his wife.
+- **Costanza was twenty-one** → born about 1876, against a recorded **2 May 1876**. Confirmed.
+- **Carminantonio was forty-six** → born about **1851**, against a recorded **10 July 1850**.
+
+## The banns of August 1902 (`3QS7-8976-3K95`) — A DAUGHTER FOR GENERATION FIVE
+
+> «*Esposito **FRANCESCO**, di anni **ventisei**, colono, residente in **San Felice a Cancello**,
+> figlio di **PAOLO**, di anni **sessantatre**, colono, … e figlio **della fu MORGILLO MARTA** …
+> E pure comparsa: **FALCO ANGELA ROSA, di anni VENTIDUE**, contadina, **figlia di CARMINANTONIO**,
+> residente in Arienzo, di anni **cinquantacinque**, contadino, **e figlia di ARRICALE GIOVANNA**,
+> contadina*»
+
+**ANGELA ROSA FALCO, born about 1880, daughter of Carminantonio Falco and Giovanna Arricale** — **a
+child of generation five this archive did not have**, and Raffaele's sister. She married **FRANCESCO
+ESPOSITO** of **San Felice a Cancello**, son of **Paolo Esposito** and the late **MARTA MORGILLO**;
+the banns ran 24 August, 31 August and 4 September 1902.
+
+**She is named ANGELA ROSA after her own grandmother** — **Angela Rosa Morgillo**, generation four's
+wife, who had died in April 1880, about when this child was born. **The naming-after-the-dead runs
+right through this family**, and here it is again in living memory rather than in Latin.
+
+**And the groom's mother was a MORGILLO of San Felice a Cancello** — which is exactly what generation
+four's wife was. **No kinship is claimed**; the two families were clearly still moving in the same
+small orbit two generations on.
+
+## A discrepancy, published rather than smoothed
+
+**Carminantonio's age is given as FORTY-SIX in August 1897 and FIFTY-FIVE in August 1902** — five
+years apart, nine years of ageing. The archive has already documented that the Arienzo clerks guessed
+ages; **this is the same phenomenon inside one man's own lifetime, in two documents five years apart.**
+The recorded birth of **10 July 1850** sits between the two.
