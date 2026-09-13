@@ -12,6 +12,27 @@ arrivals were found.
 - [x] **Generation four's marriage — 5 March 1844, Sant'Agnese, Arienzo.**
 - [x] **Gioacchino Falco × Vittoria Cimmino — 16 May 1796**, naming both sets of parents.
 - [x] **Carminantonio and Filomena's arrivals** — see §7.
+- [x] **Gioacchino's baptism, 2 Feb 1779, READ FROM THE IMAGE** (`3Q9M-CSD3-138Q-4`). Every word the
+      machine gave is confirmed.
+- [x] **«proja» WAS ROSA MARIA** (`3Q9M-CSD3-13XZ-1`, read from the image). The founders' «unnamed
+      daughter of 5 Jan 1786» is the **Rosa Falco** who married Carlo Antonio Morgillo in 1802 and
+      died on strada Camellara in 1830. **One child fewer**, and a citation moved off `13XB-R`.
+- [x] **Arienzo civil marriages 1844 READ END TO END** (`an_ua14248`, 29 acts) and **1843 acts 29-35**
+      (`an_ua14247`). **NO FALCO.** Generation four's civil marriage act is not where it must be.
+      See `notes/arienzo-civil-marriages-1843-1844.md`.
+- [x] **FOUR GENERATIONS OF MAJONE** joined from the 1839 death act and three 1844 marriage acts.
+
+## TWO WARNINGS FROM 13 SEPTEMBER — read before trusting a nil
+
+- **«CORPO D'ARIENZO».** Every act in the 1843 civil marriage volume says *comune di Corpo d'Arienzo*;
+  every act in 1844 says *comune di Arienzo*. Both are catalogued as "Arienzo". **Until this is
+  settled, no 1843 nil can be said to cover both jurisdictions** — and several published eliminations
+  run through that year.
+- **THE FAMILYSEARCH RATE BUDGET IS ~25 REQUESTS PER HALF HOUR**, tiles and `image.xml` together.
+  Exceed it and everything 403s for ~30 minutes. **Budget one act per window**: overview at level L−2
+  (12–15 tiles), then the entry only (6–10 tiles). Use the screenshot `zoom` action to find the
+  margin label — **it costs no requests.** And never `sleep()` inside the page: a background tab
+  throttles `setTimeout` to once a minute and the render looks frozen.
 
 ## THE LIVE TARGET, now that Matteo is closed
 **Matteo Falco's own marriage, c. 1760–66**, in the parish marriage register — collection
@@ -40,8 +61,14 @@ act names both fathers**, so this is the one record that would push the line abo
 ## 3. Loose ends in the reconstruction
 - [ ] **Arcangelo Crisci** appears both as Andreana's father and as Anna Falco's husband. Two men, or a
       widower's remarriage? Resolve from the Crisci baptisms.
-- [ ] Name the child baptised **25 Nov 1777** to Matteo & Francesca.
+- [ ] **Name the child baptised 25 Nov 1777 to Matteo & Francesca** — `3Q9M-CSD3-13H2-1`, THE LAST
+      UNNAMED CHILD OF THE FOUNDERS. Attempted 13 Sep: the overview is a two-page spread whose
+      right-hand page carries a Falco margin label, but the first crop landed on a **1774** act.
+      Re-render the level-10 overview, **zoom the margin in the screenshot** to fix the label, then
+      crop the entry.
 - [ ] Two daughters named **Maria** (1789, 1790). Did the first die? Look for a burial 1789–90.
+- [ ] **The five Giuseppe Falco × Antonia di Guida baptism images** — `138R-9`, `13CP-B`, `13CY-2`,
+      `1381-R`, `132V-3`. One per rate window.
 - [ ] The 1904 Arienzo birth cited as "Entry for **Anna del Giudice** and Raffaele Falco" — daughter,
       second wife, or indexing error?
 - [ ] Settle whether **Giuseppa Ferrara** is "Giuseppa Alfonsina Maria Ferraro, 1881".
