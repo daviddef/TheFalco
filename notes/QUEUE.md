@@ -265,8 +265,14 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
   (1834), Giuseppe, **Gioacchino (1851)**.
 - The 1816 inference — Gioacchino and Giuseppe declaring Crescenzo Rivetti's death as «parenti»,
   Crescenzo being married to their sister Angela — **is vindicated by a document.**
-- [ ] **Get the ACT itself** (1851, atto 7) — it gives his age, street, trade and declarants, and
-      an age would date his birth.
+- [x] **THE ACT ITSELF IS READ** (`an_ua14353`, img 11 right — NOT atto 7; the index's number
+      column did not line up, act 7 is a death of 8 Feb). «è morto nella sua propria casa GIOACCHINO
+      FALCO marito di **VITTORIA CIMMINO**, nato in Arienzo, di anni **SETTANTASEI**, di professione
+      ***COLONO***, figlio di **MATTEO FALCO defunto** … e di **FRANCESCA CRISCI defunta**.»
+      **Born about 1775** — confirming the family tree exactly. Declared by **Mariantonio Crisci**,
+      41, calzolajo, and **Gaspare d'Onofrio**, 38, sartore, **BOTH OF STRADA CAMELLARA**.
+      **CAUTION RECORDED: the 1851 index's act-number column does NOT reliably give the act number.**
+      The 1809 index says its numbers do; 1851's did not match. Verify against the act.
 
 ## [x] ITEMS 1 & 3 — the 1809-1814 death INDEXES read, and the index method controlled
 - **CONTROL FIRST.** Ran the indexes against known answers before trusting them. Chiara Rivetti is
