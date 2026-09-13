@@ -63,3 +63,32 @@ returns a true `found` count. **`MaxProfiles` caps the reported total**, so a sm
 surname look like it has one profile — set it high or the counts lie. The `.htm` form of the same URL
 renders names, dates and places; the `Fields=` parameter does nothing. The main `api.wikitree.com`
 `getProfile` endpoint answered **«Limit exceeded»** and was not needed.
+
+---
+
+# RESOLVED, the same day
+
+**The archive has been searching the right Forchia.** Two independent checks say so.
+
+**1. Antenati indexes by COMUNE, and a frazione has no civil register of its own.** *Forchia di
+Cervino* is a hamlet of **CERVINO**, and Antenati holds **Cervino separately, with 386 registers** of
+its own in the same Archivio di Stato di Caserta. The «Forchia» series this archive reads
+(`an_ua29049`–`an_ua29090`) resolves to *Archivio di Stato di Caserta > Stato civile napoleonico e
+della restaurazione > **Forchia***, and it **runs 1820 to 1861 and then stops** — precisely when
+Forchia passed out of Terra di Lavoro into the new province of Benevento.
+
+**2. The families cross-check across all three holdings.** **SABATINO ANNECCHINO × MARIANTONIA
+CARFORA** appear in the **Antenati comune-of-Forchia** series (Maria Rosa, b. 7 Mar 1861), in the
+**FamilySearch «Forchia»** harvest (Maria Filomena 1864, Carmine Maria 1867) **and** in the
+**FamilySearch Benevento Civil Registration** collection (Maria Pascalina 1863, Michele Maria 1870).
+One couple, three books — and the one that is unambiguous by construction settles the other two.
+
+**What was done about it:** every «Forchia» place-cell in the data now reads **«Forchia (BN)»** —
+**133 of them** — so the ambiguity cannot come back. One reading was **withdrawn**: a groom of 1843
+recorded as born at «Forchia di Cervinara» is now marked **either Forchia di Cervino (CE) or
+Cervinara (AV), not settled** — it is certainly not the comune of Forchia.
+
+**And the real lesson, which is not about Forchia at all:** **Filomena Annecchino was born in 1897,
+and the Antenati Caserta series stops in 1861.** Her act was never going to be in it. It belongs to
+Benevento's *Stato civile italiano* — FamilySearch's **«Benevento Civil Registration (State Archive)
+1810–1942»**. That is the collection to hammer, and it is the one place not yet exhausted.
