@@ -23,12 +23,18 @@ one in Don Giovanni's act.
 **3. STRADA CAMELLARA.** She died on it. Four generations of this family are now documented there.
 
 **4. A FALCO MARRIED A FALCO, INSIDE THE FOUNDER'S OWN FAMILY.** Raffaela's husband is **FRANCESCO
-FALCO**. This is not an isolated curiosity: the 1850 index carries **Falco Angelantonio «di Falco
-Domenico e Falco Mariantonia»** and **Falco Antonio «di Falco Francesco e Falco Giuseppa»**, and the
-1853 index carries **Falco Clemente «di Falco Emmanuele e Falco Giuseppa»**. **Four Falco–Falco
-marriages at Arienzo in four years.** Either the surname is common enough there to be two or more
-unrelated stocks — which the *Don* and *Donna* Falco of 1850 already suggest — or the family married
-cousins. **The archive does not know which, and does not guess.**
+FALCO**.
+
+> **CORRECTED, later the same day.** This section first claimed **four** Falco–Falco marriages at
+> Arienzo in four years, on the strength of the 1850 and 1853 death indexes. **Two of the four did not
+> survive contact with the acts.** The index's «Falco Angelantonio **di Falco Domenico e Falco
+> Mariantonia**» is, in the act, «figlio di **DOMENICO FALCO** … e di **MARIANTONIA FRASCA**»; and
+> «Falco Antonio **di Falco Francesco e Falco Giuseppa**» is, in the act, «figlio di **FRANCESCO
+> FALCO** … e di **RAFFAELA FALCO**» — **this very household, not a new one.**
+>
+> **What is left is two**: Francesco × Raffaela, read from two acts; and Emmanuele × Giuseppa of the
+> 1853 index, **which has not been checked against its act and should not be counted until it is.**
+> The index misled twice on one page, in exactly the way this archive had warned about that morning.
 
 ## AND THE PARISH REGISTER JOINS ON
 
@@ -43,8 +49,13 @@ months after his mother. A civil act and a parish entry, found by different meth
 days, reconstructing one household:
 
 > **FRANCESCO FALCO × RAFFAELA FALCO** *(d. 20 Apr 1854, strada Camellara)*
+> ├── **ANTONIO FALCO**, b. c.1848, d. **23 Oct 1850**, aged two *(Arienzo, Morti 1850, atto 67 — act read)*
 > ├── **CLEMENTE FALCO**, b. c.1850, d. **14 Aug 1855**, aged five *(parish register)*
 > └── **GIOVANNI FALCO**, b. c.1852, d. **29 Jun 1855**, aged three *(Arienzo, Morti 1855, image 25R)*
+
+**FOUR DEATHS IN ONE HOUSE ON STRADA CAMELLARA**: a two-year-old in October 1850, the mother in April
+1854, a three-year-old in June 1855 and a five-year-old six weeks after him. Antonio's age puts the
+marriage at **1847 or earlier**.
 
 **The second son found the same day**, and from the civil side:
 
