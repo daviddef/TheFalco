@@ -305,7 +305,16 @@ See `notes/1844-1847-death-indexes.md`.
       for Giuseppe too, then 1852 onward.
 - [ ] **Don Giovanni Falco's baptism, c.1824**, and the **Sant'Agata de' Goti ordination registers** —
       an archive this project has never touched.
-- [ ] **Giuseppe Falco's own death** — alive Nov 1849, about seventy. Try the 1850+ indexes.
+- [~] **Giuseppe Falco's own death** — **NOT in 1850, 1851, 1852, 1853 or 1854**; he is alive in
+      **April 1854** at about seventy-four (Morti 1854 atto 34, his daughter Raffaela's act). Continue
+      from 1855: an_ua14357 (1855) ... an_ua14367 (1865), then the post-1865 Italian series.
+- [ ] **FRANCESCO FALCO, husband of Raffaela Falco** — who was he? Their son Clemente d. 14 Aug 1855
+      aged five. Find their marriage (Arienzo parish, c.1848) and Francesco's own parents.
+- [ ] **THE FALCO-FALCO MARRIAGES.** Four at Arienzo in 1850-54: Francesco x Raffaela; Domenico x
+      Mariantonia Falco; Francesco x Giuseppa Falco; Emmanuele x Giuseppa Falco. Cousins, or two
+      unrelated Falco stocks in one town? The gentry Don Francesco Falco of 1850 suggests the latter.
+- [ ] **1855-1865 death indexes.** NOTE: the format changes year to year — 1854's is a numbered list
+      BY ACT NUMBER with both parents, not alphabetical, and 1855's is not at images 2-3 at all.
 - [ ] The acts behind the 1844-45 Crisci (4), Rivetti (2) and Morgillo (6) index entries.
 - [ ] **Michele Falco x Antonia Vigliotta** — their marriage and their other children.
 - [ ] **THE GENNARO MORGILLO PROBLEM**: one in the 1843 register, one at 1844 atto 52, one at 1845
