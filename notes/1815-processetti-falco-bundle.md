@@ -35,8 +35,14 @@ nothing. **The only method that works is sweeping the whole volume.**
 > **SEBASTIANO**, e di **COLOMBA MONTEFUSCO**, e **[C]ecilia VECCHIO(?)** figlia del fu
 > **SABBATINO**…»
 
-The bride's forename and surname are the least certain words; the marriage act itself gave her as
-«[?]ietta Renchiello(?)». **The two readings do not agree and neither is settled.**
+**The surname is now settled and my earlier reading of it was wrong.** Re-read at native resolution,
+the marriage act says «E comparsa egualmente **[F]ietta VECCHILLO** di anni **diciotto**» — which is
+the cover's **VECCHIO** in a fuller spelling, not the «Renchiello» this archive first recorded.
+
+> **The bride is [?]ietta VECCHILLO / VECCHIO, eighteen, a *filatrice* of strada del Borgo at
+> Arienzo, daughter of the late SABBATINO.** Her **forename remains uncertain** — «Fietta» in the
+> act, «[C]ecilia» on the cover; «Fietta» may be a contraction of Felicetta. **The surname is no
+> longer in doubt.**
 
 ---
 
