@@ -268,12 +268,19 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
 - [x] **THE PROCESSETTI ROUTE IS CLOSED.** The 73 Forchia processetti volumes **run 1809 to 1865 and
       stop**, all Caserta, *napoleonico e della restaurazione*. No post-1861 processetti exist for
       Forchia on Antenati, so no marriage dossier of Filomena's can be read there.
-- [ ] **THE ONLY LIVE ROUTE LEFT: FamilySearch's «Benevento Civil Registration (State Archive)
-      1810–1942».** A **separate filming** from Antenati's. **Do not assume it lacks 1897** — this
-      archive's own harvest from it holds a birth of 22 Nov 1897 at **Moiano**, so the collection
-      reaches the year. **The test is whether it reaches FORCHIA in 1897.** If it does, the original
-      explanation (paging cap + fuzzy matching across Annecchino/Annecchini/Anicchino) was right all
-      along and she is findable.
+- [x] **TESTED — FamilySearch DOES cover Forchia in 1897, AND SHE IS NOT THERE.** Collection
+      **2475030**, flag `m.queryRequireDefault=on`. Control on **IULIANO** returns ~30 Forchia records
+      in every year 1894–1899. Searching **father Carmine Annecchino + mother Maria Carfora** returns
+      their children — Giacinta 1883, Agata 1884, Giacomo 1887, Agata 1889, Lucia and Alfonso both
+      2 Aug 1892, Alfonso Carmine 1894, Giacomo 1901 — **no child of 1897**. By name, a Filomena
+      Annecchino born 1895–99: **nothing**.
+- [ ] **SO TEST THE PREMISE, NOT THE SOURCE.** Every supposed sibling is indexed and she alone is not,
+      which is the shape of a wrong premise rather than a missing page. **Her birth date and place come
+      from the family tree.** Look for (a) **her MARRIAGE to Carminantonio Falco** — it states her age
+      and birthplace on a record's authority; Forchia marriages are digitised **1931–1941**, and they
+      married before 1930, so try **ARIENZO and ARPAIA** too; (b) births in the neighbouring comuni and
+      Benevento city; (c) her **death** record (she d. 10 Aug 1988, Brisbane — Nudgee) for a stated
+      birth date.
       **Also worth noting: 1897 aside, the archive has never touched the Benevento «Stato civile
       italiano» Forchia series at all — 1866–1915 of births, marriages and deaths, unread.**
 
