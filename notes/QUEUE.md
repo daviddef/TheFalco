@@ -277,6 +277,15 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       **CAUTION RECORDED: the 1851 index's act-number column does NOT reliably give the act number.**
       The 1809 index says its numbers do; 1851's did not match. Verify against the act.
 
+## *** THE SINGLE MOST VALUABLE SEVEN YEARS: ARIENZO PARISH DEATHS 1802-1809 ***
+**MATTEO FALCO WAS ALIVE ON 4 AUGUST 1802** (no «quondam» in either child's marriage act, and this
+scribe uses it) and **dead by 1814**, and **the civil death indexes 1809-1814 have all been read**.
+**So he died between Aug 1802 and 1809, and his death is in the ARIENZO PARISH DEATH REGISTER.**
+Same for **FRANCESCA CRISCI** (alive Aug 1802, «defunta» by 1822).
+Collection **M9J1-SMK** is the deaths set; the 703-entry sweep that found no Matteo covered the whole
+collection, so **either the reading missed him, or those years are not transcribed, or the leaves are
+in a collection not yet searched.** Check which before concluding anything.
+
 ## ARIENZO DEATHS 1844-1850 — half done, 13 Sep 2026
 Indexes: **1844 an_ua14305 · 1845 an_ua14306 · 1846 an_ua14307 · 1847 an_ua14308 · 1849 an_ua14309.
 1848 HAS NO INDEX.** Registers: 1844 an_ua14346 … 1850 an_ua14352 (+1/yr from 1809 = an_ua14311).
@@ -390,7 +399,13 @@ Campania collections: **M9J1-7MY** Religious 1551-1975 · **M9J1-SMK** Deaths ·
       instrument that can turn "not found" into "not there" for Matteo.
 - [ ] **RAFFAELE FALCO x ANGELA ROSA MORGILLO is in a parish marriage index** — generation four's
       marriage, which this archive holds only from the civil side. Get the act.
-- [!] **Gioacchino Falco x Vittoria Cimmino**, marriage index folio 19 — **NOW URGENT.** A daughter
+- [x] **GIOACCHINO FALCO x VITTORIA CIMMINO — FOUND AND READ. 16 May 1796**, Sant'Andrea Apostolo,
+      «JOACHIM FALCO FILIUM MATTHEI, ET FRANCISCAE CRISCI; et VICTORIAM CIMMINO FILIAM MATTHEI, ET
+      MARIAE MIGLIORE». Ark `3Q9M-CSMY-B7M1-T`. See `notes/gioacchino-vittoria-marriage-1796.md`.
+      **Found by searching the marriage collection for the BRIDE's surname, not the groom's.**
+- [ ] **Matteo Cimmino x Maria Migliore** — Vittoria's parents, new.
+- [ ] **The other children of Gioacchino and Vittoria** — one known, Giovanna 6 May 1797.
+- [~] *(superseded)* **Gioacchino x Vittoria**, marriage index folio 19 — A daughter
       GIOVANNA was baptised to them on **6 May 1797**, which would make our Gioacchino (bapt. Feb
       1779) a father at eighteen. The marriage act names his parents and settles whether the 1797
       father is our man or another Gioacchino Falco. See `notes/gioacchino-and-vittoria-1797.md`.
