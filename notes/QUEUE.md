@@ -291,7 +291,16 @@ See `notes/1844-1847-death-indexes.md`.
 - [x] **1849 index read.** **DON GIOVANNI FALCO, DIACONO, atto 66, died 26 Nov 1849 aged 25** — son
       of Giuseppe Falco (colono, ALIVE) and Antonia di Guida. The founder's grandson, in orders.
       See `notes/don-giovanni-falco-deacon-1849.md`.
-- [ ] **1848** (no index — read the register) and **1850** (an_ua14352).
+- [x] **1850 read.** The tavola is **bound at the front of the register** (an_ua14352, images 2-6),
+      not a separate volume — the changeover the archive had noticed for 1851 actually begins in 1850.
+      **Three Falco**: D. ANGELA MARIA, *MONACA* (14 Nov, gentry parents Don Francesco Falco & Donna
+      Maddalena Stellato); ANGELANTONIO of S. Maria a Vico (atto 66); ANTONIO (atto 67). Index only.
+      **AND GIUSEPPE FALCO DID NOT DIE IN 1850** — the Falco block runs Angela Maria, Angelantonio,
+      Antonio and stops.
+- [ ] **1848 — no index at all. The register (an_ua14350) must be read act by act.**
+- [ ] The three 1850 Falco ACTS. Note the act numbers from the index are NOT reliable.
+- [ ] **Giuseppe Falco's death, after 1850** — 1851 index was already read for Gioacchino; check it
+      for Giuseppe too, then 1852 onward.
 - [ ] **Don Giovanni Falco's baptism, c.1824**, and the **Sant'Agata de' Goti ordination registers** —
       an archive this project has never touched.
 - [ ] **Giuseppe Falco's own death** — alive Nov 1849, about seventy. Try the 1850+ indexes.
