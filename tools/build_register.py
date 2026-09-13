@@ -311,6 +311,26 @@ for r in rd("data/nudgee-burials.tsv"):
     add(nm, sur(nm), " · ".join(x for x in ["buried " + (r.get("interred") or ""),
         r.get("location"), r.get("cemetery"), r.get("identification")] if x),
         "Nudgee Cemetery", "", "burial", r.get("interred") or "")
+# Queensland's own historical index, swept by surname in September 2026. The
+# rows that are this family are marked «ours» in the TSV; the rest are carried
+# too, because a Falco who is NOT ours is a name somebody would otherwise
+# search a second time. The registration number is the point: it is what makes
+# a certificate orderable, and the archive had none for the Brisbane deaths.
+for r in rd("data/qld-bdm.tsv"):
+    nm = f"{r.get('given','')} {r.get('surname','')}".strip()
+    verdict = (r.get("verdict") or "").strip()
+    parents = " & ".join(x for x in [r.get("father"), r.get("mother")] if x)
+    bits = [(r.get("type") or "") + " registration " + (r.get("event_date") or ""),
+            "registration " + r["reg"] if r.get("reg") else None,
+            "born " + r["born"] if r.get("born") else None,
+            "parents " + parents if parents else None,
+            "spouse " + r["other_party"] if r.get("other_party") else None,
+            None if verdict == "ours" else f"«{verdict}»",
+            r.get("identification")]
+    add(nm, sur(nm), " · ".join(x for x in bits if x),
+        "Queensland BDM historical index", r.get("url") or "", "index",
+        r.get("event_date") or "")
+
 for r in rd("data/naa-records.tsv"):
     t = r.get("title") or ""
     link = ("https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/DetailsReports/ItemDetail.aspx?Barcode="
