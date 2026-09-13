@@ -22,6 +22,17 @@ arrivals were found.
       See `notes/arienzo-civil-marriages-1843-1844.md`.
 - [x] **FOUR GENERATIONS OF MAJONE** joined from the 1839 death act and three 1844 marriage acts.
 
+## THE LIVE TARGET as at the evening of 13 September
+- [ ] **WHERE IS SANT'AGNESE?** The parish act of generation four's marriage names «**Josaphat
+      Ruggiero, parroco di Sant'Agnese**» and makes the BRIDE his parishioner. The civil act, found
+      the same day, says she was **born and still domiciled at SAN FELICE A CANCELLO**. The archive
+      has been calling Sant'Agnese one of Arienzo's three parishes, on the strength of the FILM the
+      act sits in — and a film label covers a whole reel. **Re-read `3Q9M-CSMB-9K6F` for the act's own
+      words for the place**, and check which parish the film actually covers. One rate window.
+- [ ] **VINCENZO FALCO after March 1844.** He is alive on strada Cammellara on 7 Mar 1844, thirty
+      years after his marriage. His death is untraced; the Arienzo death registers 1844-1858 are read
+      and he is NOT in them, so look **after 1858**, or at San Felice.
+
 ## TWO WARNINGS FROM 13 SEPTEMBER — read before trusting a nil
 
 - **«CORPO D'ARIENZO».** Every act in the 1843 civil marriage volume says *comune di Corpo d'Arienzo*;
