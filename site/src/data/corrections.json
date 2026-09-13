@@ -634,5 +634,23 @@
   "now": "**He is in none of the death registers of 1844 to 1858.** Fifteen consecutive years read — 1848 and 1855 act by act, because they have **no index at all**, and the rest through their *tavole*. Every Falco in those fifteen years is now listed on the site, with the act read where it matters.",
   "how": "Antenati, `an_ua14346`–`an_ua14360`. The index format changes almost every year: a separate volume to 1849, bound into the register from 1850, alphabetical by surname to 1853, **by act number in 1854**, absent in 1855, and alphabetical by letter-section from 1856.",
   "why": "Recorded as a method note so the shape of the negative is on the record, not just its conclusion. **Fifteen years of not finding a man is worth publishing only if the reader can see exactly which years were read and how.**"
+ },
+ {
+  "when": "2026-09-13",
+  "what": "an infant's year, missing until the baptism ten days before was found",
+  "sev": "minor",
+  "was": "A parish burial: «**Raphael Falco filius Josephi e Antonia di Guida, infans**», dated **26 February** — **with no year**, and carried on the site that way.",
+  "now": "**Born 16 February 1811, buried 26 February 1811 — TEN DAYS OLD.** The baptism is on the same leaf, and the margin beside it reads «**Raphael Falco obiit die 26 Februarii 1811**».",
+  "how": "A sweep of the Arienzo parish baptisms for «Antonia di Guida», which returned five children of Giuseppe Falco this archive did not have.",
+  "why": "Recorded because the fix came from the same page the problem was on. The burial note and the baptism were **ten days and two lines apart**, and the archive had one without the other for weeks."
+ },
+ {
+  "when": "2026-09-13",
+  "what": "a fifth stated age overturned by a baptism, in one week",
+  "sev": "minor",
+  "was": "**DON GIOVANNI FALCO, DIACONO**, «di anni **VENTICINQUE**» in his death act of 26 November 1849 — so born about 1824.",
+  "now": "**Baptised in APRIL 1825** — «baptizavit infantem natum ex Josepho Falco, et Antonia di Guida … cui dedit nomen Joannes». **He was TWENTY-FOUR.**",
+  "how": "Arienzo parish baptisms via FamilySearch's full-text. **Machine transcription — the image has not been read, and the day is not legible in it.**",
+  "why": "The fifth in a week: Vincenzo (1792), Gioacchino (1779), Chiara Rivetti (1766), the «about 1775» of the first Gioacchino, and now Giovanni. **A stated age in these registers is an estimate, and this archive now treats it as one.** Published at transcription strength: if the day were read as March the arithmetic would still give twenty-four, so the conclusion survives the uncertainty — which is why it is published at all."
  }
 ]
