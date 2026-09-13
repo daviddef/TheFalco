@@ -499,5 +499,14 @@
   "now": "**A FIRST JOACHIM FALCO, baptised 25 November 1774**, whose entry carries a drawn cross and the marginal **«obiit die 11 Decembris 1777»**. The Gioacchino who lived was baptised fourteen months later and **carries his dead brother's name**. The documented children rise to **six**.",
   "how": "Arienzo parish baptisms, the 1774 leaf, read from the image.",
   "why": "Recorded because it is the second necronym in this one household — Giovanna Falco is the other — and because it is a reminder that a child who died in 1777 leaves no trace whatever in the civil registers this archive spent months reading. It also does NOT rescue the «about 1775»: the boy of 1774 was dead by 1777."
+ },
+ {
+  "when": "2026-09-13",
+  "what": "a negative produced by searching the wrong collection",
+  "sev": "method",
+  "was": "A word-sweep of the Arienzo parish books returned **340 marriage-style leaves with no Falco on any of them** — which read like a clean negative on Matteo Falco's marriage.",
+  "now": "**The sweep was searching the wrong shelf.** Every parish sweep this archive has run used FamilySearch collection `M9J1-7MY`. The marriage register is a different collection, `M9J1-9B4` — and the Falco marriage act read three hours earlier, which carries both the searched word and the name, **was not among the 340**. The re-run on the right collection returns **1,260 Falco pages** and **forty alphabetical marriage-index leaves**.",
+  "how": "Checked by asking which collection the known act belongs to, instead of trusting that one collection meant «the parish books».",
+  "why": "**This would have been the fourth wrong negative of the same shape** — look once, fail, write the failure down as a rule, never look again. It is published as a correction even though nothing incorrect ever reached the site, because the near miss is the finding. Matteo Falco's marriage is still **not found and not ruled out**."
  }
 ]

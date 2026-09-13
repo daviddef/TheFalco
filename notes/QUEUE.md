@@ -301,8 +301,17 @@ Campania collections: **M9J1-7MY** Religious 1551-1975 · **M9J1-SMK** Deaths ·
       **D. Luca Verdicchio, Missionarius**, under archpriest **Giacinto Morgillo**.
       Still unread: **Emilia's surname** (Morgillo's mother) — below this scan's resolution.
       New lead: **Rivetta / Rivetti** — gen 3 married a Chiara Rivetti. Untested.
-- [ ] **Matteo Falco's own marriage, c.1760-66** — try collection M9J1-9B4 and the Benevento
-      archdiocese set `1483010`, and query on words every page carries (denunciationibus, conjunxi).
+- [~] **Matteo Falco's own marriage, c.1760-66** — M9J1-9B4 IS the marriage collection (7MY is not;
+      `1483010` returns nothing for Arienzo). 1,260 Falco pages read: **no act marries a Matteo Falco.
+      NOT FOUND, NOT RULED OUT** — limits written up in `notes/arienzo-parish-marriage-indexes.md`.
+- [ ] **READ THE FORTY MARRIAGE-INDEX PAGES.** Alphabetical indexes to the parish marriage volumes,
+      couple + folio. Thirty-one Falco entries already visible in the machine text. This is the
+      instrument that can turn "not found" into "not there" for Matteo.
+- [ ] **RAFFAELE FALCO x ANGELA ROSA MORGILLO is in a parish marriage index** — generation four's
+      marriage, which this archive holds only from the civil side. Get the act.
+- [ ] **Gioacchino Falco x Vittoria Cimmino**, marriage index folio 19.
+- [ ] **Pasquale Falco as a witness, late 1786**, ark `3Q9M-CSMY-B7M2-N` — read as «Paschale Falco
+      filio Mat[the]i». If that is right it is a new sighting of the founder. LEAD, needs the image.
 - [x] **The "1777" child of Matteo & Francesca — READ, and it is not 1777.** Baptised **25 November
       1774**; the margin carries a cross, "JOACHIM FALCO" and **"obiit die 11 Decembris 1777"**. The
       1779 Joachim IS a second of the name. Six documented children now, not five.
