@@ -32,7 +32,14 @@
 > **A 15 Decembre 1812**
 
 **GIOVANNA FALCO, a daughter of Pasquale Falco and Chiara Rivetti — a sister of Vincenzo of
-generation three, and a child this archive did not have.** The surname and both parents are
+generation three.**
+
+> **CORRECTED THE SAME DAY.** This was first written here as «a child this archive did not have».
+> It is not. The archive already held a **Giovanna Falco who died 15 September 1805**, daughter of
+> the same parents, from the Arienzo PARISH register. **The 1812 Giovanna is a SECOND daughter given
+> her dead sister's name** — the pattern this family repeats throughout: two Raffaele, two Pasquale,
+> two Maria. Still a new child; wrongly framed. The check that caught it — querying the archive's own
+> register for every Falco death — should have run before the claim, not after. The surname and both parents are
 confirmed at full magnification; the forename sits in the page gutter and reads «…anna», which is
 why it is given as Giovanna and not asserted beyond that.
 
