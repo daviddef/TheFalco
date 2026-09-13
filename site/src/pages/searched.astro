@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 const REPO = "https://github.com/daviddef/TheFalco";
 
@@ -144,6 +145,23 @@ const totalFalco = READ.reduce((a, r) => a + r.falco, 0);
     contained no Falco deceased at all, and two of those nulls overturned or unsettled something this
     archive had been relying on. Every one of these years is logged act by act in the
     <a href={REPO + "/tree/main/notes"}>reading logs</a>, with each father's age, trade and street.</p>
+  </div>
+
+  <h2>Six more years, read a different way</h2>
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>The Arienzo death registers for 1809–1814</strong> — six years nobody had touched —
+    were read on 13 September 2026 <strong>through their indexes rather than act by act</strong>. Each
+    year is one to five images instead of about fifty, and each index lists every death of the year
+    <strong>with both parents named</strong>.</p>
+    <p style="margin-top:.6rem">They produced <strong>six Falco</strong>, including a daughter of
+    generation two this archive did not have — <P n="Giovanna Falco" bold={true} />, died 15 December
+    1812 — and the confirmation, from the 1851 index, that
+    <P n="Gioacchino Falco" bold={true} /> was a son of <P n="Matteo Falco" bold={true} /> and
+    <P n="Francesca Crisci" bold={true} />.</p>
+    <p class="small" style="margin-top:.6rem"><strong>Completeness, stated honestly:</strong> 1811,
+    1813 and 1814 were read in full. For <strong>1809, 1810 and 1812 only some pages were read</strong>
+    — in each case including the stretch where a <em>Matteo</em> would fall, since those indexes sort
+    by forename. <a href={u("/method")}>Why this replaced the act-by-act sweep →</a></p>
   </div>
 
   <h2>Registers read in full</h2>
