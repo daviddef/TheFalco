@@ -277,6 +277,19 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       **CAUTION RECORDED: the 1851 index's act-number column does NOT reliably give the act number.**
       The 1809 index says its numbers do; 1851's did not match. Verify against the act.
 
+## NAVIGATING A FAMILYSEARCH FILM BY IMAGE NUMBER — found 13 Sep 2026
+The film viewer's filmstrip holds an **image-number → ark map** in the DOM: every thumbnail is
+`<img alt="Image 1873" src=".../dz/v1/3:1:<ARK>/thumb_p200.jpg">`, and about **280 at a time** are
+present. Harvest with one line of JS. That is the FamilySearch equivalent of the Antenati ark
+arithmetic in `tools/antenati.py` — it makes a whole volume walkable.
+
+- San Felice a Cancello marriages = **film 007786833**, 2,383 images. The index leaf under R that
+  names Raffaele Falco is **image 1873** (`3Q9M-CSMB-92SK`).
+- [ ] **READ FOLIO 2 A TERGO** and get generation four's marriage date. The register pages around
+      1874-1885 are mapped; reading them was stopped by a **403 rate-limit**, not by a wall.
+- **RATE LIMIT.** Roughly twenty-odd rapid requests earns a blanket 403 for a few minutes — it hits
+  the image tiles as well as the search endpoint. Space the work out.
+
 ## [x] THE PARISH BOOKS ARE OPEN — FamilySearch full-text, 13 Sep 2026
 Method confirmed working from a logged-in browser tab; see `familysearch-fulltext-method` in memory.
 Campania collections: **M9J1-7MY** Religious 1551-1975 · **M9J1-SMK** Deaths · **M9J1-9B4** Marriages.
