@@ -248,6 +248,22 @@ for r in rd("data/arienzo-parish-acts.tsv"):
             [role + " " + (r.get("principal") or ""), ev, r.get("date"), r.get("place"), mark] if x),
             "Arienzo parish registers (FamilySearch)", link, "parish", r.get("date") or "")
 
+# --- Arienzo death-register INDEXES (tavole alfabetiche) ---------------------
+# The year's own alphabetical table names the parents, which the acts would take
+# a full reading to yield. One page per year instead of sixty-eight.
+for r in rd("data/arienzo-deaths-1859-index.tsv"):
+    who = (r.get("name") or "").strip()
+    if not who:
+        continue
+    par = " & ".join(x for x in [r.get("father"), r.get("mother")] if x)
+    bits = ["died " + (r.get("date") or ""), r.get("profession"), r.get("patria"),
+            ("of " + par) if par else None,
+            f"act {r.get('act')}",
+            "read from the year's TAVOLA ALFABETICA, not from the act"]
+    add(who, sur(who), " · ".join(x for x in bits if x),
+        f"Arienzo Morti {r.get('year')} — tavola alfabetica (Antenati)",
+        AN + (r.get("ark") or ""), "index", r.get("date") or "")
+
 # --- Antenati's NAME index (Benevento province) ------------------------------
 # `/search-nominative/` gives the person AND their parents, which the register
 # search does not. It covers Forchia and Arpaia; it does NOT cover Arienzo —
