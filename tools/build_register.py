@@ -166,8 +166,12 @@ for path, place_col in [("data/antenati-valle-caudina.tsv", "town"),
         given = (r.get("surname") or "").strip()
         if not re.fullmatch(r"[A-Za-zÀ-ÿ' ]{2,}", given):
             given = ""
+        # This is the Antenati PORTAL harvest (the register search), not the
+        # /search-nominative/ name index loaded further down. The two were both
+        # labelled "Antenati name index" and mean different things: this one
+        # carries an act and sometimes a parent, that one always carries parents.
         add(nm, given or sur(nm), " · ".join(bits),
-            "Antenati name index", AN + ark if ark.startswith("an_") else "", "index",
+            "Antenati portal harvest", AN + ark if ark.startswith("an_") else "", "index",
             r.get("actdate") or r.get("birthdate") or "")
 
 # --- FamilySearch structured harvests ---
@@ -269,7 +273,7 @@ for _f in sorted(_glob.glob("data/antenati-names-*.tsv")):
                 ark = ark or parts[2]
         bits.append("INDEX ENTRY — the act itself is not read")
         add(nm, sur(nm), " · ".join(x for x in bits if x),
-            f"Antenati name index — {_town}", AN + ark if ark else "", "index",
+            f"Antenati name index (with parents) — {_town}", AN + ark if ark else "", "index",
             (re.search(r"\b(1[789]\d\d)\b", info + " " + (r.get("acts") or "")) or [""])[0] if re.search(r"\b(1[789]\d\d)\b", info + " " + (r.get("acts") or "")) else "")
 
 # --- Arienzo civil marriage acts, 1843-1844 -----------------------------------

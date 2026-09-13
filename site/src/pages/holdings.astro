@@ -1,0 +1,142 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+
+// What exists, where, for the towns this family lived in — and what does not.
+// Every line is something this archive established by enumerating a holding,
+// not by guessing an ark. Gaps are the point of the page.
+const TOWNS = [
+  {
+    town: "ARIENZO", prov: "Caserta",
+    who: "The line itself, 1717–1880s. Seven households, mostly on strada Camellara.",
+    rows: [
+      ["Parish baptisms", "FamilySearch M9J1-7MY", "1672–1738 and 1761–1837", "A GAP 1738–1761 — and Matteo Falco's own baptism, and probably Francesca Crisci's, fall in it."],
+      ["Parish marriages + deaths", "FamilySearch M9J1-9B4", "1700–1899, densely", "A MIXED film: the machine labels its pages «Death, Marriage». The 1760s are well covered — 1762 appears 36 times across 500 pages."],
+      ["Parish deaths", "FamilySearch M9J1-SMK", "1733–1888", "1,101 pages carry «sacramentis»."],
+      ["Civil marriages", "Antenati", "1809 onward, one volume a year", "1843 = an_ua14247 · 1844 = an_ua14248. Both READ END TO END: 35 and 29 acts, no Falco."],
+      ["Civil deaths", "Antenati", "1809 onward", "READ ACT BY ACT 1815–1843 and 1844–1858. Unread: 1809–1814 and after 1858."],
+      ["NAME INDEX", "Antenati /search-nominative/", "NONE", "«Nessun risultato trovato» — Arienzo is NOT name-indexed. Here you read images."],
+    ],
+  },
+  {
+    town: "FORCHIA", prov: "Benevento (Terra di Lavoro until 1861)",
+    who: "The Annecchino, and the Falco household from the 1930s. Filomena Annecchino's town.",
+    rows: [
+      ["Births", "Antenati — Caserta, then BENEVENTO «Stato civile italiano»", "1809–1865, then 1866–1904, 1910, 1912–1915", "1897 IS ABSENT — the year Filomena Annecchino was born. Also missing: 1905–1909, 1911."],
+      ["Marriages", "Antenati", "1809–1865, then 1931–1941", "NOTHING BETWEEN 1866 AND 1930. Carmine Annecchino × Maria Carfora married about 1880, and Carminantonio × Filomena before 1930 — both inside the gap."],
+      ["Deaths", "Antenati", "1809–1865, then 1931–1942", "Same gap. The 1937 and 1939 volumes gave this family three acts."],
+      ["Birth indexes", "Antenati", "1820–1849 only", "No help after that."],
+      ["Processetti", "Antenati", "1809–1865, 73 volumes", "Stop at 1865, so no marriage dossier of Filomena's can be read."],
+      ["NAME INDEX", "Antenati /search-nominative/", "1861–1942", "WORKS, and gives PARENTS: 237 Annecchino, 261 Carfora, 31 Falco."],
+    ],
+  },
+  {
+    town: "ARPAIA", prov: "Benevento",
+    who: "The Zampiello, and the Falco between about 1913 and 1916.",
+    rows: [
+      ["Marriages", "Antenati", "61 registers from 1809", "Not yet read."],
+      ["Births", "Antenati name index", "1862–1940, THIN", "Births indexed per year 1885–1905 run 4, 2, 4, 2, 4, 1, 0, 3, 2, 0, 0, 1, 0, 2, 1, 1, 0, 0, 0, 1, 0. Angelo Zampiello's 1895 birth is missing because the source barely covers the town."],
+      ["NAME INDEX", "Antenati /search-nominative/", "1862–1940", "WORKS: 259 Zampiello harvested, with parents."],
+    ],
+  },
+  {
+    town: "SAN FELICE A CANCELLO", prov: "Caserta",
+    who: "Generation four's wife was born here, and their CIVIL marriage was drawn here.",
+    rows: [
+      ["Marriages", "Antenati", "1809–1819, gap 1820–1824, 1825 onward", "1843 = an_ua50254 · 1844 = an_ua50256, which holds atto 12, the marriage of Raffaele Falco and Angela Rosa Morgillo."],
+      ["Births", "Antenati", "1818 onward at least", "an_ua50395 is catalogued «Nati 1818» and is a COMPOSITE — marriages first, then births on forms pre-printed for 1816."],
+    ],
+  },
+  {
+    town: "CERVINO", prov: "Caserta",
+    who: "Not this family — but it holds FORCHIA DI CERVINO, which is not Forchia.",
+    rows: [["All series", "Antenati", "386 registers", "A frazione has no register of its own, so anything at «Forchia di Cervino» is filed under CERVINO. This is what proves the archive's Forchia work is on the right Forchia."]],
+  },
+  {
+    town: "MOIANO", prov: "Benevento",
+    who: "The second stronghold of both Annecchino and Zampiello. NEVER EXAMINED.",
+    rows: [["All series", "Antenati", "557 registers", "Untouched. The largest unworked holding the family plausibly appears in."]],
+  },
+];
+
+const COLLECTIONS = [
+  ["FamilySearch full-text", "M9J1-7MY / M9J1-9B4 / M9J1-SMK", "Arienzo parish registers. Machine transcripts of WHOLE PAGES; the search ORs its terms, so a two-surname query returns MORE than one. Enumerate on a word every act carries instead — «denunciationibus» for marriages, «sacramentis» for deaths."],
+  ["FamilySearch", "2043630 — Caserta, S. Maria Capua Vetere Tribunale, 1866–1929", "THE PROCESSETTI: marriage supplements, proclamations and bann supplements across many Caserta comuni. 1,503 Falco pages. Carminantonio × Filomena are NOT in it."],
+  ["FamilySearch", "2475030 — Benevento Civil Registration, 1810–1942", "A SEPARATE filming from Antenati's. It DOES cover Forchia in 1897 — a control on the surname IULIANO returns about thirty Forchia records in every year 1894–1899 — and Filomena Annecchino is still not in it."],
+  ["FamilySearch", "2718545 — Caserta 1809–1866", "Returns 0. Not transcribed."],
+];
+---
+<Base title="Holdings"
+      eyebrow="What exists, where — and what does not"
+      dek="A map of the registers themselves. Most of the dead ends in this archive were not failures of searching but failures of knowing what had been filmed, and each one had to be rediscovered by hand. This page is so that no gap is ever found twice.">
+
+  <div class="card" style="margin-bottom:1.4rem;border-left:3px solid var(--accent)">
+    <p><strong>A nil is only worth what its boundaries are worth.</strong> Before this page existed the
+    archive recorded a Benevento fondo as «not located» when it was on Antenati all along, hunted a
+    birth act for weeks in a year that is simply not digitised, and read sixty-four marriage acts in
+    the wrong town.</p>
+    <p style="margin-top:.6rem"><strong>Every line below was established by enumerating a holding</strong>
+    — paging the catalogue until it ran out — <strong>not by guessing at shelf-marks.</strong></p>
+  </div>
+
+  {TOWNS.map((t) => (
+    <section style="margin-bottom:1.8rem">
+      <h2 style="margin-bottom:.2rem">{t.town} <span style="font-weight:400;opacity:.65;font-size:.8em">· {t.prov}</span></h2>
+      <p style="margin:.1rem 0 .7rem;opacity:.85">{t.who}</p>
+      <div style="overflow-x:auto">
+        <table>
+          <thead><tr><th>Series</th><th>Where</th><th>Covered</th><th>What to know</th></tr></thead>
+          <tbody>
+            {t.rows.map((r) => (
+              <tr>
+                <td><strong>{r[0]}</strong></td>
+                <td style="white-space:nowrap">{r[1]}</td>
+                <td>{r[2]}</td>
+                <td>{r[3]}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  ))}
+
+  <h2>The collections, and how each one lies to you</h2>
+  <div class="stack">
+    {COLLECTIONS.map((c) => (
+      <div class="card">
+        <h3 style="margin:0">{c[1]}</h3>
+        <p style="margin:.2rem 0 0;opacity:.7">{c[0]}</p>
+        <p style="margin:.45rem 0 0">{c[2]}</p>
+      </div>
+    ))}
+  </div>
+
+  <h2>What no search can reach</h2>
+  <ul>
+    <li><strong>Forchia births 1897</strong> and <strong>Arpaia births 1895</strong> — not digitised by
+    anyone. Between them they hold <strong>Filomena Annecchino's birth and Angelo Zampiello's</strong>,
+    the two this archive cannot prove. They exist on paper at the <strong>Archivio di Stato di
+    Benevento</strong>.</li>
+    <li><strong>Forchia marriages and deaths, 1866–1930.</strong> Not filmed. Two marriages this family
+    needs are inside it.</li>
+    <li><strong>NAA A1197 passenger cards</strong> — paper only at Canberra. The scans are FindMyPast's,
+    not the Archives'.</li>
+    <li>Some <strong>Caserta images are restricted to FamilySearch affiliate libraries</strong>.</li>
+  </ul>
+
+  <p style="margin-top:1.2rem">
+    <a href={u("/antenati")}>Antenati →</a> &nbsp;·&nbsp;
+    <a href={u("/searched")}>What has been read →</a> &nbsp;·&nbsp;
+    <a href={u("/open-questions")}>Open questions →</a> &nbsp;·&nbsp;
+    <a href={u("/method")}>Method →</a>
+  </p>
+</Base>
+
+<style>
+  .stack { display:grid; gap:.7rem; margin:.8rem 0 1.4rem; }
+  .stack h3 { font-size:.95rem; letter-spacing:.02em; }
+  table { border-collapse:collapse; width:100%; font-size:.88rem; }
+  th, td { text-align:left; vertical-align:top; padding:.42rem .6rem; border-bottom:1px solid var(--rule, #ddd); }
+  th { font-weight:600; opacity:.75; font-size:.8rem; text-transform:uppercase; letter-spacing:.04em; }
+</style>
