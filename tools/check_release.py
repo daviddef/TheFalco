@@ -39,9 +39,19 @@ def main():
             fails.append(f"people.json: {p['slug']} is living and carries a date/event")
 
     # 2. a living person's own dates, from the tree, must not sit beside their name
+    # The tree export is the private source: it carries every living person in
+    # full, so it is gitignored and CI never sees it. Absent, this guard runs on
+    # the committed data alone — which is the material that actually ships — and
+    # says so rather than quietly checking less than it claims.
     tree_path = os.path.join(ROOT, "data", "myheritage-falco-tree.json")
-    tree = json.load(open(tree_path, encoding="utf-8"))
-    tree = tree if isinstance(tree, list) else (tree.get("people") or tree.get("individuals") or [])
+    if os.path.exists(tree_path):
+        tree = json.load(open(tree_path, encoding="utf-8"))
+        tree = tree if isinstance(tree, list) else (tree.get("people") or tree.get("individuals") or [])
+    else:
+        tree = []
+        print("check_release: no myheritage-falco-tree.json — the private export is not "
+              "in this checkout, so the tree's own dates cannot be screened. line.json "
+              "and people.json still are, and so is every page.")
     # WHY THIS IS AN EXACT-STRING TEST AND NOT A PROXIMITY ONE.
     #
     # Two earlier designs failed. Screening on BARE YEARS passed vacuously —
