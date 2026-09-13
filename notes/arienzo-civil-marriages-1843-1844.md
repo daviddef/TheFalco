@@ -14,35 +14,41 @@ family could still have.
 - **Arienzo, Matrimoni 1844 = `an_ua14248`, 32 images — READ END TO END.** Exactly **29 acts**,
   **6 January to 30 December**, closing with a blank form numbered 30 and the Procuratore del Re's
   certificate. **No Falco appears in any of them**, as groom, as bride, or as a parent.
-- **Arienzo, Matrimoni 1843 = `an_ua14247`, 38 images — acts 29 to 35 read** (8 October to
-  28 December 1843), the window in which a promise for a March 1844 wedding would fall. **No Falco.**
-  The volume ends at **act 35**.
+- **Arienzo, Matrimoni 1843 = `an_ua14247`, 38 images — READ END TO END.** **35 acts**, 1 January to
+  28 December 1843. **No Falco.**
+
+**Sixty-four consecutive marriage acts, two whole years, and not one Falco in any role.**
 - **There is no index.** Checked, not assumed: the last leaves of both volumes carry the closing
   certificate and no *tavola*.
 
 ## What that leaves
 
-Three possibilities, none of them yet tested, and **the archive is not choosing between them**:
+Two possibilities now, and **the archive is not choosing between them**:
 
-1. **The act is in the earlier part of 1843** (acts 1–28), if the promise ran long before the wedding.
-   Cheapest next test, and the one to do first.
-2. **It is at SAN FELICE A CANCELLO**, the bride's comune of birth — she was born there
+1. **It is at SAN FELICE A CANCELLO**, the bride's comune of birth — she was born there
    24 February 1818. Against this: the priest at Sant'Agnese called her «*mea Parochiana*» in 1844, so
    she was living in Arienzo by then.
-3. **There is no civil act.** Possible, and not as strange as it sounds in a town where the church
+2. **There is no civil act.** Possible, and not as strange as it sounds in a town where the church
    register and the civil register plainly did not always speak to each other.
 
-## AND A WARNING ABOUT WHAT THE COMUNE IS CALLED
+**The third possibility — that it sat in the earlier part of 1843 — is now closed.** Those acts have
+been read.
 
-Every act read in the **1843** volume says «*Civile del comune di **CORPO D'ARIENZO***», while every
-act in the **1844** volume says «*comune di **Arienzo***». Both are catalogued by the Archivio di
-Stato di Caserta under the single heading "Arienzo".
+## THE «CORPO D'ARIENZO» WARNING — RAISED AND WITHDRAWN THE SAME DAY
 
-**This archive does not yet know what that means** — whether Corpo di Arienzo was a distinct comune
-with registers of its own, or simply how the clerk of 1843 styled the main body of the town. It is
-recorded here because **it would change what a negative result is worth**: a sweep that eliminated
-"Arienzo" for a year may have eliminated only one of two jurisdictions. **Do not treat any 1843 nil
-as covering both until this is settled.**
+Reading the back of the 1843 volume first, every act said «*Civile del comune di **CORPO
+D'ARIENZO***» while every act of 1844 said «*comune di **Arienzo***. Both are catalogued under the one
+heading. **A warning went up** that a sweep eliminating "Arienzo" for a year might have eliminated
+only one of two jurisdictions — which would have undercut several published eliminations.
+
+**Reading the volume from the front settles it. Acts 1, 2 and 3 of 1843 say «comune di ARIENZO».
+Act 4 and everything after says «comune di CORPO D'ARIENZO» — and act 3 and act 4 are three weeks
+apart, before the same officer, RAFFAELE DE MIERI, sindaco, in the same book.**
+
+**One comune, two ways of writing it.** The likely sense of *corpo* is the ordinary administrative
+one — the main built-up body of a comune as against its outlying casali, as in *Corpo di Cava* — but
+that reading is offered, not proved. What is proved is that **it is not a second jurisdiction**, and
+**the warning is withdrawn**.
 
 ## THE BY-PRODUCT, which is worth more than it looks
 

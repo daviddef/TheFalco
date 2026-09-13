@@ -841,5 +841,23 @@
   "now": "**One act, one child.** Read from the image: «*Anno Domini Millesimo septingentesimo septuagesimo qua[rto] … die vero **VIGESIMAQUINTA 25 NOVEMBRIS** … Canonicus **BRUNO** Substituens baptizavit … ex **MATTHEO FALCO**, et **FRANCISCA CRISCI** Conjugibus*», the margin reading **«Joachim Falco — OBIIT DIE 11 DECEMBRIS 1777»**. The year is **1774**, the day 25 November, and the child is **JOACHIM**. The «25 Nov 1777» row was the same act with the year out by three.",
   "how": "The act read at native resolution, **and the year line read on its own** rather than inferred from the act above it. The archive has been wrong before by taking a number from a neighbouring line, so the year was fetched as a separate crop even though the answer looked obvious.",
   "why": "**With this the founders' children are complete and every one of them is named**: Pasquale (1767), Francisca Anna Angela (1771), Giuseppe, **Joachim (1774–1777)**, **Gioacchino (1779)** and **Rosa Maria (1786)**. Two «unnamed children» have been dissolved in one day and **both turned out to be people the archive already knew**. \\n\\nAnd the naming is now documented at both ends from the images: **Joachim died on 11 December 1777 and the name was given again on 2 February 1779**, fourteen months later. This family named children after their dead — it did so again with the two Giovannas — and that is no longer an inference."
+ },
+ {
+  "when": "2026-09-13",
+  "what": "the CORPO D'ARIENZO warning, raised and withdrawn on the same day",
+  "sev": "withdrawn",
+  "was": "Reading the **back** of the 1843 marriage volume, every act said «*comune di **CORPO D'ARIENZO***» while every act of 1844 said «*comune di **Arienzo***», both catalogued under the one heading. **A warning went up here this morning**: that a sweep eliminating \"Arienzo\" for a year might have covered only one of two jurisdictions — which would have undercut several of this archive's published eliminations.",
+  "now": "**Reading the same volume from the FRONT settles it.** Acts **1, 2 and 3** of 1843 say «*comune di **ARIENZO***». **Act 4 and everything after says «comune di CORPO D'ARIENZO»** — and acts 3 and 4 are three weeks apart, **before the same officer, RAFFAELE DE MIERI, sindaco, in the same book.** One comune, two ways of writing it. **The warning is withdrawn.**",
+  "how": "Reading the volume end to end instead of sampling it — which was going to happen anyway for a different reason.",
+  "why": "**The warning is left standing on this page rather than deleted, because raising it was right.** On the evidence available at the time — seven consecutive acts, all saying Corpo d'Arienzo — the honest move was to flag that every 1843 nil might be worth less than it looked. **It cost one morning of doubt and bought certainty about fifteen years of eliminations.** \\n\\nThe likely sense of *corpo* is the ordinary administrative one, the main built-up body of a comune as against its outlying casali, as in *Corpo di Cava*. **That reading is offered, not proved.** What is proved is that it is not a second jurisdiction."
+ },
+ {
+  "when": "2026-09-13",
+  "what": "sixty-four marriage acts, two whole years, and no Falco at all",
+  "sev": "open",
+  "was": "This morning the archive could say only that **1844 held no Falco marriage** and that acts 29–35 of 1843 held none either — leaving open the possibility that generation four's civil act sat in the earlier part of 1843.",
+  "now": "**It does not.** Arienzo *Matrimoni* **1843** (`an_ua14247`) is now **read end to end** as well — **35 acts, 1 January to 28 December**. With 1844's 29 acts that is **sixty-four consecutive marriage acts across two whole years, and not one Falco in any role** — groom, bride, or parent of either.",
+  "how": "Every act's name band rendered from the Antenati images and read. All sixty-four are published in `data/arienzo-civil-marriages-1843-1844.tsv`, uncertain words marked `[?]`.",
+  "why": "**Two possibilities are left and the archive is not choosing between them.** Either the act is at **SAN FELICE A CANCELLO**, the bride's comune of birth — though the priest at Sant'Agnese called her «*mea Parochiana*» in 1844, so she was living in Arienzo by then — or **no civil act was ever drawn**, which is not as strange as it sounds in a town whose church and civil registers plainly did not always speak to each other. \\n\\n**What the sixty-four acts did give** is a whole working town: four more households on **strada Camellara**, a **fourth child** of the Majone house, and the confirmation of a name that had gone in marked uncertain."
  }
 ]
