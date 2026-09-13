@@ -1,0 +1,95 @@
+# THE ARIENZO DEATH INDEXES, 1844–1847 — two Falco found, and two years with none
+
+**Read 13 September 2026** from the «Morti, indice» series on Antenati, by the method in
+`notes/antenati-indexes.md`. Arks: **1844 `an_ua14305` · 1845 `an_ua14306` · 1846 `an_ua14307` ·
+1847 `an_ua14308`**. (1848 has **no index volume**; 1849 is `an_ua14309`.)
+
+---
+
+## 1. VINCENZA FALCO — one day old, 21 November 1847
+
+**Arienzo, Morti 1847 (`an_ua14349`), atto 85**, read from the image:
+
+> «…nel giorno **ventuno** del mese di **Novembre** anno corrente, alle ore **sedici**, è morta nella
+> sua propria casa **VINCENZA FALCO**, nata in Arienzo, **di giorni UNO**, domiciliata ivi, **figlia
+> di RAFFAELE FALCO** di professione **contadino**, domiciliato ivi, **e di ANGELA ROSA MORGILLO**,
+> domiciliata ivi.»
+>
+> Declared by **Raffaele Cioffi, 40, contadino, strada CAMELLARA** and **Angelo Zimbardo, ~25,
+> contadino, strada CAMELLARA** — both marked as unable to write.
+
+**This is the first primary record of generation four as a married couple.** The archive held
+Vincenza only from the family tree (born 20 November 1847, died 21 November 1847). The act confirms
+the tree to the day — *di giorni uno* — and adds what a tree cannot: **the street**. Raffaele Falco
+was living on **strada Camellara**, his grandfather's and great-grandfather's street.
+
+**And it bounds the marriage.** A child born in November 1847 was conceived in February 1847, so
+**Raffaele Falco and Angela Rosa Morgillo were married in 1846 or earlier** — which narrows the hunt
+for the act behind the San Felice parish index entry at *folio 2 a tergo*.
+
+> **A near miss, recorded.** The index reads the name as *Falco Vincenz**o***, and for an hour this
+> looked like an unknown SON of generation four, dying a month before his sister was born — a second
+> necronym to set beside Gioacchino's. **The act says VINCENZA, and the archive already held her.**
+> The rule that caught it is the one added this week: *check a find against what is already held in
+> the same pass that publishes it.*
+
+---
+
+## 2. CHIARA FALCO, aged seven — 6 July 1846, and a Falco household this archive did not have
+
+**Arienzo, Morti 1846 (`an_ua14348`), atto 39**, read from the image:
+
+> «…nel giorno **sei** del mese di **LUGLIO** anno corrente, alle ore **una di notte**, è morta nella
+> sua propria casa **CHIARA FALCO**, nata in Arienzo, **di anni SETTE**, domiciliata ivi, **figlia di
+> MICHELE FALCO** di professione **contadino**, domiciliato ivi, **e di ANTONIA VIGLIOTTA**,
+> domiciliata ivi.»
+>
+> Declared by **Angelo Martone, 57, sartore, strada CAMELLARA** and **LUCA CIOFFI, 33, sartore,
+> strada CAMELLARA**.
+
+**MICHELE FALCO × ANTONIA VIGLIOTTA is a household this archive has never held.** It is not the
+Michele Falco × Vincenza Esposito of the 1832 act, and not the Michele Falco × Maria Giovanna
+d'Ambrosio of 1850. That makes **three men called Michele Falco** at Arienzo, distinguished only by
+their wives — the same trap as the two Giuseppe Falco. No kinship is claimed.
+
+**VIGLIOTTA is not a new name here**: the Giuseppe Falco of **strada Costa** married **Gelsomina
+Vigliotta**. Two Falco–Vigliotta marriages in one small town is worth noticing and nothing more.
+
+### TWO CORRECTIONS FELL OUT OF THIS ONE ACT
+
+1. **The index dates the death 6 AGOSTO. The act says 6 LUGLIO.** The act wins. One more reason the
+   index is a finding aid, never a source.
+2. **LUCA CIOFFI, 33, sartore, of strada Camellara** declared **Chiara Rivetti's death in September
+   1843** — where he is also **33**. Three years apart, the same age. The archive's standing
+   observation that *the clerks guessed* now has its cleanest single example.
+
+---
+
+## 3. THE TWO YEARS WITH NO FALCO AT ALL — 1844 and 1845
+
+Both indexes read end to end, both halves of every leaf.
+
+| year | F block | what is there instead |
+|---|---|---|
+| **1844** | **Franchi Francesco · Fusco Biagio · Finelli Carmela — NO FALCO** | 65 deaths in all. **Crisci ×4** (Clementina 23 Jan; Angelo 23 Jan; Pasquale 29 May, *di Arcangelo e Antonia*; Carmela 1 Jun, *di Clemente e Andreana*). **Rivetti ×2** (Aniello, atto 19, *di Antonio e Rosa*; Angela, atto 33, *di Vincenzo*). **Morgillo Gennaro, atto 52.** |
+| **1845** | **the index runs D → G with no E and no F at all** | **Morgillo ×5**, including **D. Lelio Morgillo, *notajo*, atto 1** — a notary in the family's own surname-world. Also Morgillo Francesco (30), Gennaro (42), Carmina (46), Carmela (80). |
+
+> **What this negative is worth.** It is a real negative for these two years: the tavola is the
+> comune's own alphabetical list of every death it registered, and it closes with a count. It is
+> **not** a negative for anyone who died elsewhere, and it says nothing about 1848 — **which has no
+> index volume at all** — or 1850.
+
+## 4. AND A MORGILLO PROBLEM, STATED NOT SOLVED
+
+A **Gennaro Morgillo** appears in the 1843 register (*colono*, strada Camellara, son of Angelo
+Morgillo — declared by Giuseppe Falco), again in the **1844** index at atto 52, and again in the
+**1845** index at atto 42. Three deaths, three years, one name. The 1844 entry's parents are read as
+«Morgillo [Giuseppe] e Antonia», which is **not** the 1843 man's parents — so at least two men. **The
+acts have not been read and no reconstruction is offered.**
+
+## Still to do
+
+- [ ] **1848** — no index. The register must be read act by act.
+- [ ] **1849** (`an_ua14309`) and **1850** (`an_ua14352`).
+- [ ] The acts behind the 1844–45 Crisci, Rivetti and Morgillo index entries.
+- [ ] **Michele Falco × Antonia Vigliotta** — find their marriage and their other children.

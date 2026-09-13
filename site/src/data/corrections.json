@@ -526,5 +526,23 @@
   "now": "**The index is SAN FELICE A CANCELLO's** — film 007786833, image 1873. The entry stands word for word; only the parish was wrong. **And the right parish is the better fact**: Angela Rosa was baptised at San Felice on 24 February 1818 and married in her own parish, which is the ordinary pattern and explains why the Arienzo registers never held this marriage.",
   "how": "Opened the volume in the viewer and read its title, instead of trusting the search filter that had returned it.",
   "why": "`anyPlace=Arienzo` is a **weighting, not a filter**: the same result set carries San Felice, Santa Maria a Vico, Parete, Dragoni and Aversa. Which means the negative published an hour ago — «1,260 Arienzo pages, no marriage act for a Matteo Falco» — is over a corpus that is **about 87 per cent Arienzo, not all of it**. That negative was already labelled as not ruling anything out; it is now labelled as covering fewer Arienzo pages than it claimed."
+ },
+ {
+  "when": "2026-09-13",
+  "what": "an index that dated a death a month late, and an age given twice three years apart",
+  "sev": "minor",
+  "was": "The 1846 Arienzo death index dates **Chiara Falco's** death **6 Agosto**. The archive's 1843 entry for **Luca Cioffi** gives him as **33, sartore, of strada Camellara**.",
+  "now": "**The act says 6 LUGLIO 1846** — «nel giorno sei del mese di Luglio … alle ore una di notte». And the same **Luca Cioffi, sartore, strada Camellara**, declaring a death in **1846**, is again **33**. Three years on, the same age.",
+  "how": "Arienzo, Morti 1846, atto 39, read from the image after the index pointed at it.",
+  "why": "Two small things that are really one thing. **The index is a finding aid and never a source** — it has now been caught on an act number and a month in a single year. And the ages in these acts are estimates: this is the cleanest example the archive has, one man given the same age three years apart, in a series it once used to date births."
+ },
+ {
+  "when": "2026-09-13",
+  "what": "a third Michele Falco, and a household not previously held",
+  "sev": "addition",
+  "was": "Two men called Michele Falco at Arienzo — one married to **Vincenza Esposito**, one to **Maria Giovanna d'Ambrosio**.",
+  "now": "**A third: MICHELE FALCO × ANTONIA VIGLIOTTA**, named as the parents of **Chiara Falco, aged seven**, who died on 6 July 1846. No kinship to this line is claimed.",
+  "how": "Arienzo, Morti 1846, atto 39, found through the annual death index.",
+  "why": "Recorded because a name identifies nobody in this town and the archive keeps proving it — two Giuseppe Falco, two Carlantonio Morgillo, two Arcangelo Crisci, two Angelo Morgillo, two Gennaro Morgillo, and now three Michele Falco. **VIGLIOTTA is also the surname of the strada Costa Giuseppe Falco's wife, Gelsomina.** Two Falco–Vigliotta marriages in one small town is worth noticing and nothing more."
  }
 ]
