@@ -370,5 +370,29 @@
   "where": "/rivetti",
   "plate": "chiara-rivetti-death-1843.jpg",
   "by": "re-reading at native resolution"
+ },
+ {
+  "when": "2026-09-13",
+  "what": "a death bracket, narrowed by a negative",
+  "sev": "minor",
+  "was": "Matteo Falco, head of the line: dead by 8 December 1814, with 1786 to 1814 open.",
+  "now": "Probably dead BEFORE 1809 — which puts his death in the parish register and nowhere else.",
+  "how": "The Arienzo death indexes for 1809-1814, read in a fraction of the time the registers would take. No Matteo Falco of the founder's generation is in them.",
+  "why": "Published because a negative that moves a bracket is worth as much as a positive, and because it redirects the search: the civil registers cannot hold him, so the parish books must. Held as PROBABLE and not proved — three of the six years were not read page for page, and saying so is the point.",
+  "where": "/direct-line#gen-1",
+  "plate": "",
+  "by": "the death indexes"
+ },
+ {
+  "when": "2026-09-13",
+  "what": "a namesake that will mislead the next searcher",
+  "sev": "minor",
+  "was": "Nothing published — this is a trap set for the future rather than an error corrected.",
+  "now": "A MATTEO FALCO died at Arienzo on 28 August 1809, and he is NOT the head of this line.",
+  "how": "The 1809 death index names his parents «Giuseppe, ed Antonia di [Guida]» WITHOUT «fu», so both were living; the same couple bury a Raffaele in 1811 and another, aged two, in 1815. The founder was born about 1740 and had children baptised from 1767.",
+  "why": "Anyone searching «Matteo Falco death Arienzo» will land on this record, and it is exactly the shape of a find that looks like the answer. The act itself states an age and would settle it outright: Arienzo Morti 1809, an_ua14311.",
+  "where": "/direct-line#gen-1",
+  "plate": "",
+  "by": "the 1809 death index"
  }
 ]

@@ -256,6 +256,32 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
   before civil registration begins, and four years before the oldest Falco act this archive holds.
   Processetti carry the parish books inside them.
 
+## [x] ITEMS 1 & 3 — the 1809-1814 death INDEXES read, and the index method controlled
+- **CONTROL FIRST.** Ran the indexes against known answers before trusting them. Chiara Rivetti is
+  in the 1843 index with both parents, matching the act — the method works. AND IT CAUGHT TWO
+  ERRORS IN THE KNOWN ANSWER: she died **13** September 1843 (not 3 — *tredici* read as *tre*), and
+  the declarants are **LUCA and GIOVANNI COSSI**, not "two Cioffi".
+- **ARK CAVEAT**: 1809 = `an_ua14271` +1/year holds to 1834, then SLIPS — `an_ua14305` is 1844, not
+  1843. After 1834 resolve the label, do not compute. 1843 = `an_ua14304`.
+- **SORT ORDER VARIES**: 1809-1814 and 1818 sort by FORENAME; 1834 and 1843 by SURNAME.
+- **SIX FALCO FOUND** in 1809-1814. See `notes/1809-1814-death-indexes.md`:
+  - **GIOVANNA FALCO**, d. 15 Dec 1812, **daughter of PASQUALE FALCO & CHIARA RIVETTI** — A NEW
+    CHILD OF GENERATION TWO, sister of Vincenzo
+  - GIROLAMO FALCO, bracciale, d. 1 Apr 1810, son of the late Vincenzo Falco & Aurelia Giglio(?)
+  - RAFFAELE FALCO, d. 26 Feb 1811, son of Giuseppe Falco & Antonia di Guida — their FIRST son of
+    that name; a second Raffaele died 9 Oct 1815 aged 2
+  - FRANCESCA FALCO, contadina, d. 11 9bre 1813, daughter of the late Giuseppe (act 76)
+  - MATTEO FALCO, d. 28 Aug 1809 — **NOT THE FOUNDER**, a child of Giuseppe & Antonia di Guida
+  - Falco women as mothers: ANGELA FALCO x Crescenzo Rivetti (their daughter Maria d. 4 Nov 1809 —
+    a granddaughter of generation one); FRANCESCA FALCO; ROSA FALCO x Carlantonio Morgillo;
+    MADDALENA(?) FALCO x Bartolomeo Martone
+- **MATTEO FALCO IS NOT IN 1809-1814** as an adult, and he is dead by Dec 1814. **So he probably
+  died BEFORE 1809 — his death is in the PARISH register, not the civil one.** PROBABLE, not proved:
+  1809, 1810 and 1812 were not read page for page.
+- [ ] **Finish 1809, 1810, 1812 page for page** to convert that probable into proved.
+- [ ] **Arienzo Morti 1809 (`an_ua14311`), act for Matteo Falco of 28 Aug 1809** — the act states an
+      age and would settle the namesake outright.
+
 ## THE LIVING-PEOPLE RULE — how it is now enforced (13 Sep 2026)
 David's rule: living people are named and NOTHING MORE — no date of birth, no place, no record,
 no photograph. It has been broken THREE times with the same date (generation nine's birth year):
