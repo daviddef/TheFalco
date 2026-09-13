@@ -91,8 +91,16 @@ record that would push the line above him.
       «**Joachim Falco — obiit die 11 Decembris 1777**». The «[unnamed] child of 25 Nov 1777» was
       this act with the year out by three. **The founders' six children are now all named.**
 - [ ] Two daughters named **Maria** (1789, 1790). Did the first die? Look for a burial 1789–90.
-- [ ] **The five Giuseppe Falco × Antonia di Guida baptism images** — `138R-9`, `13CP-B`, `13CY-2`,
-      `1381-R`, `132V-3`. One per rate window.
+- [x] **FOUR of the five Giuseppe × Antonia baptisms READ FROM THE IMAGE (14 Sep 2026):**
+      `138R-9` **Giovanna, 13 Aug 1805** (matrina Fortunata Villano) · `13CP-B` **Raffaele, 16 Feb
+      1811**, «obiit die 26 Februarii 1811» — ten days old (matrina **Sara Ruggiero**, of the
+      Arcangelo Crisci household on strada Camellara) · `13CY-2` **Francesca Maria, 27 Oct 1812**
+      (matrina **Vittoria Cimmino**, the child's aunt — wife of Gioacchino Falco) · `132V-3`
+      **Giovanni, 6 Apr 1825**, later DON GIOVANNI the deacon.
+- [ ] **`1381-R` — MADDALENA, 7 June 1818 — STILL UNREAD.** Two passes spent hunting the margin: the
+      left page of that spread runs to **24 May 1818** (Hortensia Crisci, act of Francesco Crisci ×
+      Orsola Migliore), so **7 June is further down the left page or at the head of the RIGHT page.**
+      Start there and save the two wasted renders.
 - [ ] The 1904 Arienzo birth cited as "Entry for **Anna del Giudice** and Raffaele Falco" — daughter,
       second wife, or indexing error?
 - [ ] Settle whether **Giuseppa Ferrara** is "Giuseppa Alfonsina Maria Ferraro, 1881".
