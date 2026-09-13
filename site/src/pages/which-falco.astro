@@ -1,0 +1,207 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import register from "../data/register.json";
+
+const falcoRows = register.filter((r) => (r.surname || "").toUpperCase() === "FALCO").length;
+
+// Every distinct Falco household this archive has documented at Arienzo and around it.
+// «sep» is the thing that actually separates it from the others — street, trade, parish or spouse.
+const LINE = [
+  {
+    couple: "MATTEO FALCO × FRANCESCA CRISCI",
+    sep: "the founders — Sant'Andrea Apostolo",
+    when: "married by 1766; both alive 4 Aug 1802",
+    known: "Pasquale (b. 1767), Giuseppe, Rosa, Angela, Gioacchino (b. 1779), a first Gioacchino (1774–1777), a daughter (bapt. 5 Jan 1786)",
+    href: "/direct-line",
+  },
+  {
+    couple: "PASQUALE FALCO × CHIARA RIVETTI",
+    sep: "strada Camellara",
+    when: "married by 1789; he d. 1 Oct 1834, she d. 13 Sep 1843",
+    known: "nine parish baptisms 1789–1810, plus Anna (1820)",
+    href: "/direct-line",
+  },
+  {
+    couple: "GIUSEPPE FALCO × ANTONIA DI GUIDA",
+    sep: "strada Camellara — married 4 Aug 1802",
+    when: "he was still alive in April 1854, aged about seventy-four",
+    known: "seven children 1805–1825, including DON GIOVANNI the deacon and RAFFAELA",
+    href: "/direct-line",
+  },
+  {
+    couple: "GIOACCHINO FALCO × VITTORIA CIMMINO",
+    sep: "strada Camellara — married 16 May 1796",
+    when: "he d. 14 Feb 1851, aged seventy-two",
+    known: "Giovanna (bapt. 6 May 1797)",
+    href: "/direct-line",
+  },
+  {
+    couple: "VINCENZO FALCO × ANDREANA CRISCI",
+    sep: "strada Camellara — married Dec 1814",
+    when: "he was baptised 1 Feb 1792; she 30 Nov 1796",
+    known: "Raffaele (b. 10 May 1818)",
+    href: "/direct-line",
+  },
+  {
+    couple: "RAFFAELE FALCO × ANGELA ROSA MORGILLO",
+    sep: "strada Camellara — married 5 Mar 1844 at Sant'Agnese",
+    when: "he d. 21 Apr 1880; she d. 15 Apr 1880, six days before",
+    known: "Vincenza (b. and d. Nov 1847), Carmine Antonio (b. 10 Jul 1850)",
+    href: "/direct-line",
+  },
+  {
+    couple: "FRANCESCO FALCO × RAFFAELA FALCO",
+    sep: "strada Camellara — she was Giuseppe's daughter",
+    when: "she d. 20 Apr 1854, aged thirty-four",
+    known: "Clemente (d. 14 Aug 1855, aged 5), Giovanni (d. 29 Jun 1855, aged 3)",
+    href: "/corrections",
+  },
+];
+
+const OTHERS = [
+  {
+    couple: "GIUSEPPE FALCO × GELSOMINA VIGLIOTTA",
+    sep: "strada COSTA — parish of SANTA MARIA AD NIVES",
+    note: "The other Giuseppe Falco, and the reason the archive nearly attached the wrong man to the founder. Their son Domenico married Mariantonia Frasca on 1 July 1844.",
+  },
+  {
+    couple: "DON FRANCESCO FALCO × DONNA MADDALENA STELLATO",
+    sep: "a Don and a Donna — gentry",
+    note: "Their daughter DONNA ANGELA MARIA was a nun (d. 14 Nov 1850); their son DON GIACOMO was a priest (d. 20 Jun 1857). A different social world in the same parish. No kinship claimed or suspected.",
+  },
+  {
+    couple: "CRESCENZO FALCO × MARIA MORGILLO",
+    sep: "three children buried 1848–1857",
+    note: "Giuseppe (1) and Gennaro (2 days) died on consecutive days in June 1848; Antonio on 30 October 1857.",
+  },
+  {
+    couple: "MICHELE FALCO × ANTONIA VIGLIOTTA",
+    sep: "one of THREE men called Michele Falco",
+    note: "Their daughter Chiara died 6 July 1846, aged seven.",
+  },
+  {
+    couple: "MICHELE FALCO × VINCENZA ESPOSITO",
+    sep: "the second Michele",
+    note: "Their daughter Giovanna died 13 May 1832, aged seventy — so this household is eighteenth-century.",
+  },
+  {
+    couple: "MICHELE FALCO × MARIA GIOVANNA D'AMBROSIO",
+    sep: "the third Michele",
+    note: "Their daughter Antonia was born 19 November 1850.",
+  },
+  {
+    couple: "EMMANUELE FALCO × GIUSEPPA FALCO",
+    sep: "a Falco who married a Falco",
+    note: "Their son Clemente died in 1853.",
+  },
+  {
+    couple: "FRANCESCO FALCO × GIUSEPPA FALCO",
+    sep: "a second Falco–Falco couple",
+    note: "Their son Antonio died 23 October 1850.",
+  },
+  {
+    couple: "DOMENICO FALCO × MARIANTONIA FALCO",
+    sep: "a third Falco–Falco couple",
+    note: "Their son Angelantonio died 20 October 1850, at Santa Maria a Vico.",
+  },
+  {
+    couple: "ANGELO FALCO × ANNAMARIA CIMMINO",
+    sep: "Corso Caudino",
+    note: "Their son Vincenzo, a vaticale, died 13 September 1889 aged thirty-nine — not the Vincenzo of this line.",
+  },
+  {
+    couple: "GIOACCHINO / GUGLIELMO FALCO × ANDREANA CRISCI",
+    sep: "late nineteenth century",
+    note: "Children born at Arienzo in 1880, 1883 and 1891, and a fourth, Carmela, from the parish register.",
+  },
+  {
+    couple: "SEBASTIANO FALCO × COLOMBA MONTEFUSCO",
+    sep: "SAN FELICE A CANCELLO — sapunari, soap-makers",
+    note: "Their son Luigi was baptised 27 February 1797 in the parish of San Felice Martire. A different town and a different trade.",
+  },
+];
+---
+<Base title="Which Falco?"
+      eyebrow="The name identifies nobody"
+      dek="Arienzo holds at least a dozen Falco households and probably two unrelated Falco stocks. Four generations of this family are day-labourers on one street; another house has a Don for a father, a nun for a daughter and a priest for a son. This page is the answer to the question every record forces: which Falco is this?">
+
+  <div class="card" style="margin-bottom:1.4rem;border-left:3px solid var(--accent)">
+    <p><strong>What separates people here is never the name.</strong> It is the
+    <strong>street</strong>, the <strong>trade</strong>, the <strong>parish</strong> and the
+    <strong>spouse</strong> — and where a record gives none of those, this archive attaches the
+    person to nobody.</p>
+    <p style="margin-top:.6rem">The register holds <strong>{falcoRows.toLocaleString()} rows</strong>
+    under the surname FALCO. Almost none of them belong to this family.</p>
+  </div>
+
+  <h2>The line</h2>
+  <p>Seven households, one street. <strong>Strada Camellara</strong> runs through four generations,
+  and it does more identifying work than any name on this page.</p>
+
+  <div class="stack">
+    {LINE.map((h) => (
+      <div class="card">
+        <h3 style="margin:0">{h.couple}</h3>
+        <p style="margin:.3rem 0 0"><strong>{h.sep}</strong></p>
+        <p style="margin:.3rem 0 0;opacity:.85">{h.when}</p>
+        <p style="margin:.45rem 0 0">{h.known}</p>
+      </div>
+    ))}
+  </div>
+
+  <h2>Every other Falco this archive has documented</h2>
+  <p><strong>No kinship to the line is claimed for any household below.</strong> They are here so
+  that the next record naming a Falco can be checked against them before anybody is attached to
+  anything.</p>
+
+  <div class="stack">
+    {OTHERS.map((h) => (
+      <div class="card">
+        <h3 style="margin:0">{h.couple}</h3>
+        <p style="margin:.3rem 0 0"><strong>{h.sep}</strong></p>
+        <p style="margin:.45rem 0 0">{h.note}</p>
+      </div>
+    ))}
+  </div>
+
+  <h2>Three parishes, and why that matters</h2>
+  <p>Arienzo is not one parish. This archive was reading it as one until September 2026, and that was
+  a mistake with consequences.</p>
+  <ul>
+    <li><strong>Sant'Andrea Apostolo</strong> — the collegiate church. <em>This</em> family: Matteo,
+    Gioacchino, Pasquale, Vincenzo, Raffaele.</li>
+    <li><strong>Sant'Agnese</strong> — where Raffaele Falco married Angela Rosa Morgillo on
+    5 March 1844, because she was the priest's own parishioner: «<em>mea Parochiana</em>».</li>
+    <li><strong>Santa Maria ad Nives</strong> — the parish of Domenico Falco, son of the
+    <em>other</em> Giuseppe and Gelsomina Vigliotta.</li>
+  </ul>
+  <p><strong>Which parish a household belongs to is evidence</strong>, and it is cheap to record and
+  hard to fake. The archive now records it.</p>
+
+  <h2>How the archive gets this wrong</h2>
+  <p>Every one of these is a real mistake this archive made, caught, and published on
+  <a href={u("/corrections")}>the corrections page</a>:</p>
+  <ul>
+    <li>Reading a <strong>Don</strong> before a name as decoration rather than as class — and nearly
+    filing a labourer's son who took orders with a gentleman's son who did the same.</li>
+    <li>Attaching a <strong>Giuseppe Falco</strong> to the founder on street and trade alone, before
+    an act proved it. <em>(It did prove it — but it could as easily have gone the other way.)</em></li>
+    <li>Treating a <strong>name plus a date</strong> as an identification, when this town buries a
+    Gennaro Morgillo in four different years and calls three different men Michele Falco.</li>
+    <li>Publishing a find before <strong>checking it against what is already held</strong> — which is
+    how a «new» Giovanna Falco turned out to be a second daughter given a dead sister's name.</li>
+  </ul>
+
+  <p style="margin-top:1.2rem">
+    <a href={u("/corrections")}>Corrections →</a> &nbsp;·&nbsp;
+    <a href={u("/namesakes")}>Why there is no namesakes page →</a> &nbsp;·&nbsp;
+    <a href={u("/register")}>The register →</a> &nbsp;·&nbsp;
+    <a href={u("/households")}>Reconstructed households →</a>
+  </p>
+</Base>
+
+<style>
+  .stack { display:grid; gap:.7rem; margin:.8rem 0 1.4rem; }
+  .stack h3 { font-size:1rem; letter-spacing:.02em; }
+</style>
