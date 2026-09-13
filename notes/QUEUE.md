@@ -49,9 +49,15 @@ arrivals were found.
   a background tab throttles `setTimeout` to once a minute and the render looks frozen.
 
 ## THE LIVE TARGET, now that Matteo is closed
-**Matteo Falco's own marriage, c. 1760–66**, in the parish marriage register — collection
-`M9J1-9B4` on FamilySearch full-text, and the forty marriage-index leaves. **A Neapolitan marriage
-act names both fathers**, so this is the one record that would push the line above him.
+**FIND FRANCESCA CRISCI, NOT MATTEO.** The Arienzo marriage film `M9J1-9B4` was **enumerated** on
+13 Sep 2026 — 500 of its 515 «denunciationibus» pages harvested — and **no Falco marriage exists in it
+between 1750 and 1779**, though the 1760s are densely covered. The earliest Falco marriage page is
+**1782**. \
+**A couple marries in the BRIDE'S parish** — proved twice today, at Sant'Agnese and at San Felice.
+Matteo is at Arienzo in **1759** as a witness; **Francesca Crisci need not have been.** So look for
+**her**: a Crisci baptism c. 1740–45, and the Crisci of **San Felice a Cancello, Santa Maria a Vico,
+Arpaia, Forchia, Cervino**. A Neapolitan marriage act names both fathers, so it is still the one
+record that would push the line above him.
 
 ## Done
 - [x] **Pasquale Falco's baptism** — 24 Oct 1767, naming Matteo Falco & Francesca Crisci.
