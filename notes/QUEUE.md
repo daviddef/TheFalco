@@ -290,7 +290,14 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
 - **MATTEO FALCO IS NOT IN 1809-1814** as an adult, and he is dead by Dec 1814. **So he probably
   died BEFORE 1809 — his death is in the PARISH register, not the civil one.** PROBABLE, not proved:
   1809, 1810 and 1812 were not read page for page.
-- [ ] **Finish 1809, 1810, 1812 page for page** to convert that probable into proved.
+- [x] **1809, 1810, 1812 FINISHED page for page.** ALL SIX YEARS 1809-1814 now read in full.
+      Year totals from the indexes: 1809=138, 1810=80, 1811=90, 1812=78, 1813=86 deaths.
+      **PROVED: no Falco of the founder's generation dies at Arienzo 1809-1814.**
+      Two more Falco found finishing them: **NICOLA FALCO** (3 Sep 1809, s. of Giuseppe &
+      Gelsomina Vigliotta) and **MARGARITA FALCO x Domenico Crisci**, who lost TWO sons both
+      called Vincenzo (23 Aug 1810, 5 Jan 1812). Margarita was one of the isolates.
+- [ ] **OPEN: one Giuseppe Falco twice married, or two Giuseppe Falco?** 1809 gives two Falco
+      children of a Giuseppe with DIFFERENT mothers — Antonia di [Guida] and GELSOMINA VIGLIOTTA.
 - [ ] **Arienzo Morti 1809 (`an_ua14311`), act for Matteo Falco of 28 Aug 1809** — the act states an
       age and would settle the namesake outright.
 

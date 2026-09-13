@@ -5,10 +5,22 @@
 1813 `an_ua14275`, 1814 `an_ua14276` — **one to five images each**, against ~50 per register.
 **Read**: 13 September 2026.
 
-> **HOW COMPLETE THIS IS.** 1811, 1813 and 1814 were read in full. For **1809, 1810 and 1812 only
-> some pages were read** — in each case including the stretch where a *Matteo* would fall, since
-> these indexes sort by FORENAME. Any claim below about those three years is limited to the pages
-> read, and that is why the negative at the end is stated the way it is.
+> **HOW COMPLETE THIS IS: ALL SIX YEARS ARE NOW READ PAGE FOR PAGE.** The first pass left 1809,
+> 1810 and 1812 partial; they were finished on the same day. Every page of every index for
+> 1809–1814 has been read. The negative at the end is therefore **proved**, not probable.
+
+## The year totals, from the indexes' own closing lines
+
+| Year | Deaths | Falco deaths | Falco named as a parent |
+|---|---|---|---|
+| **1809** | **138** | **MATTEO** (28 Aug) · **NICOLA** (3 Sep) | Angela Falco × Crescenzo Rivetti; Francesca Falco |
+| **1810** | **80** | **GIROLAMO** (1 Apr) | Margarita Falco × Domenico Crisci |
+| **1811** | **90** | **RAFFAELE** (26 Feb) | — |
+| **1812** | **78** | **GIOVANNA** (15 Dec) | Rosa Falco × Carlantonio Morgillo; Margarita Falco × Domenico Crisci |
+| **1813** | **86** | **FRANCESCA** (11 9bre) | — |
+| **1814** | — | *none* | Rosa Falco × Carlantonio Morgillo; Maddalena(?) Falco × Bartolomeo Martone |
+
+**Six Falco deaths in six years**, none of them previously in this archive.
 
 ---
 
@@ -34,6 +46,7 @@ Angela, Raffaele, and the two Pasquales of the next generation.
 | Year | Who | Parents | Died |
 |---|---|---|---|
 | **1809** | **MATTEO FALCO** | **Giuseppe, ed Antonia di [Guida?]** | 28 August 1809 |
+| **1809** | **NICOLA FALCO** | **Giuseppe, e Gelsomina Vigliotta** | 3 September 1809 |
 | **1810** | **GIROLAMO FALCO**, *bracciale* | fu **Vincenzo**, e d'**Aurelia Giglio(?)** | 1 April 1810 |
 | **1811** | **RAFFAELE FALCO** (act 79) | **Giuseppe, ed Antonia di Guida** | 26 February 1811 |
 | **1812** | **GIOVANNA FALCO**, *contadina* | **Pasquale, e Chiara Rivetti** | 15 December 1812 |
@@ -63,6 +76,17 @@ buried him in 1817, and named the next one Raffaele too.
 after him.** The recurrence is set down as an observation. It is *not* evidence of a Raffaele in the
 generation above, and this archive does not treat naming custom as descent.
 
+### A second Giuseppe Falco — or a second wife
+
+**1809 gives two Falco deaths, and both are children of a Giuseppe** — but with **different
+mothers**: Matteo's is «Antonia di [Guida?]», Nicola's is «**Gelsomina Vigliotta**». The 1811
+Raffaele is again «Giuseppe, ed Antonia di Guida», and the 1813 Francesca is «fu Giuseppe».
+
+**Either one Giuseppe Falco married twice, or there were two Giuseppe Falco at Arienzo in the
+1800s.** Nothing read so far decides it, and the archive already holds a Giuseppe Falco (a son of
+Matteo, born about 1780) married to Antonia di Guida and alive into the 1840s. **Recorded as an open
+question, not resolved.**
+
 ### Falco women, named as mothers
 
 - **1809** — **ANGELA FALCO** × **Crescenzo Rivetti**: their daughter **Maria Rivetti** died
@@ -70,8 +94,13 @@ generation above, and this archive does not treat naming custom as descent.
   **Maria Rivetti is a granddaughter of generation one** and is new.
 - **1809** — **FRANCESCA FALCO**, mother of Francesco Cossi, *bracciale*, d. 4 February 1809, by the
   late Gioacchino Cossi.
-- **1814** — **ROSA FALCO** × Carlantonio Morgillo, and a **MADDALENA(?) FALCO** × Bartolomeo
-  Martone, whose son Raffaele Martone, *possidente*, died 2 March 1814.
+- **1810 and 1812** — **MARGARITA FALCO** × **Domenico Crisci**. They lost **two sons both called
+  Vincenzo**: one on 23 August 1810, one on 5 January 1812. Margarita is one of the people this
+  archive could join to nobody; she now has a husband and two children.
+- **1812 and 1814** — **ROSA FALCO** × **Carlantonio Morgillo**; their son Tomaso Morgillo died
+  7 February 1812.
+- **1814** — a **MADDALENA(?) FALCO** × Bartolomeo Martone, whose son Raffaele Martone,
+  *possidente*, died 2 March 1814.
 
 ---
 
@@ -88,8 +117,13 @@ not.
 > **His death is therefore in the PARISH register and nowhere else**, and the bracket on it narrows
 > from [1786, 8 Dec 1814] to roughly **[1786, 1809]**.
 
-**Held as probable, not proved**, for one honest reason: 1809, 1810 and 1812 were not read page for
-page. Completing those three closes it.
+**This is now PROVED rather than probable.** All six years have been read page for page. The one
+Matteo who appears is a child of another household, and no Falco of the founder's generation dies
+at Arienzo between 1809 and 1814.
+
+> **Taken with the marriage indexes — which also begin in 1809 — BOTH of Matteo Falco's vital
+> events lie outside the civil series entirely.** His marriage (c.1760–66) and his death are in the
+> parish books of Sant'Andrea or nowhere. That is now the only front on which he can be reached.
 
 ## Volume facts recorded
 
