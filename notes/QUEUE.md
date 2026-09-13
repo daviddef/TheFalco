@@ -256,6 +256,18 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
   before civil registration begins, and four years before the oldest Falco act this archive holds.
   Processetti carry the parish books inside them.
 
+## [x] ITEM 2 — GIOACCHINO FALCO IS MATTEO'S SON. Confirmed 13 Sep 2026.
+- Arienzo deaths **1851** (`an_ua14353`) carries its OWN alphabetical index bound at the front —
+  **post-1847 registers do this; the separate "Morti, indice" series runs 1809-1847 only (39 vols).**
+- «**7. FALCO GIOACCHINO** | Arienzo | **CONTADINO** | **FALCO MATTEO, e CRISCI FRANCESCA** |
+  **14 Febrajo**» — read at native resolution.
+- **The founding couple now has FIVE documented children**: Angela (1822), Rosa (1830), Pasquale
+  (1834), Giuseppe, **Gioacchino (1851)**.
+- The 1816 inference — Gioacchino and Giuseppe declaring Crescenzo Rivetti's death as «parenti»,
+  Crescenzo being married to their sister Angela — **is vindicated by a document.**
+- [ ] **Get the ACT itself** (1851, atto 7) — it gives his age, street, trade and declarants, and
+      an age would date his birth.
+
 ## [x] ITEMS 1 & 3 — the 1809-1814 death INDEXES read, and the index method controlled
 - **CONTROL FIRST.** Ran the indexes against known answers before trusting them. Chiara Rivetti is
   in the 1843 index with both parents, matching the act — the method works. AND IT CAUGHT TWO
