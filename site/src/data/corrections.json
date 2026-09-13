@@ -472,5 +472,32 @@
   "now": "**Giuseppe Falco married Antonia di Guida on 4 AUGUST 1802. Rosa Falco married Carlo Antonio Morgillo on 12 JULY 1802** — the same leaf, but three weeks apart. Brother and sister, married in the same summer by the same priest, **Don Luca Verdicchio, Missionarius**, under the archpriest **Giacinto Morgillo**'s licence.",
   "how": "Read from the image. FamilySearch's transcription gave the year as «1902» throughout; the hand gives 1802, and the leaf sits in the section headed «A Mense Aprilis».",
   "why": "Recorded because the archive published the machine's reading at midday with a written warning that the dates were unverified, and then verified them. The warning is what made this correction small instead of embarrassing."
+ },
+ {
+  "when": "2026-09-13",
+  "what": "another age taken from a death act, corrected by a baptism",
+  "sev": "minor",
+  "was": "Chiara Rivetti «di anni OTTANTA» at her death on 13 September 1843, and so born about 1763.",
+  "now": "**BAPTISED 14 DECEMBER 1766.** «baptizavit infantem natam ex NICOLAO RIVETTA et ANNA DI NUZZO conjugibus … cui imposui nomen CLARA.» **She was seventy-seven.**",
+  "how": "The Arienzo parish baptism register, read from the image — Collegiata di Sant'Andrea Apostolo, the 1766 leaf.",
+  "why": "The third stated age this archive has overturned with a baptism in one day. The pattern is now firm enough to state as a rule: **an age given by a declarant is an estimate, and this archive should stop treating it as evidence of a birth year when a parish register can be reached instead.**"
+ },
+ {
+  "when": "2026-09-13",
+  "what": "a mother's surname that two document series do not agree on",
+  "sev": "open",
+  "was": "Chiara Rivetti's mother published as **ANNA DI RUGGIO**, from her civil death act of 1843 and her brother Carmine's of 1821.",
+  "now": "**The parish books call her ANNA DI NUZZO** — in Chiara's own baptism and across five of her children's. Neither reading is doubtful in its own document. **This is left open and unresolved**, and both names are now carried on the site.",
+  "how": "Read from the 1766 baptism image; the civil acts were read from Antenati.",
+  "why": "Published rather than quietly reconciled. Writing «di Nuzzo (or di Ruggio)» would hide that two independent record series say two different things twenty-two years apart, which is itself the finding."
+ },
+ {
+  "when": "2026-09-13",
+  "what": "a child this archive never knew existed, and a name explained",
+  "sev": "addition",
+  "was": "Matteo Falco and Francesca Crisci held as the parents of five documented children; Gioacchino's name treated as simply his own.",
+  "now": "**A FIRST JOACHIM FALCO, baptised 25 November 1774**, whose entry carries a drawn cross and the marginal **«obiit die 11 Decembris 1777»**. The Gioacchino who lived was baptised fourteen months later and **carries his dead brother's name**. The documented children rise to **six**.",
+  "how": "Arienzo parish baptisms, the 1774 leaf, read from the image.",
+  "why": "Recorded because it is the second necronym in this one household — Giovanna Falco is the other — and because it is a reminder that a child who died in 1777 leaves no trace whatever in the civil registers this archive spent months reading. It also does NOT rescue the «about 1775»: the boy of 1774 was dead by 1777."
  }
 ]
