@@ -313,6 +313,13 @@ if os.path.exists("data/myheritage-falco-tree.json"):
 # --- everyone read act-by-act in the 1834 death-register sweep ---
 if os.path.exists("data/sweep-people.tsv"):
     for r in rd("data/sweep-people.tsv"):
+        # The sweep's name column sometimes holds a note about the LEAF rather
+        # than a person — "A blank leaf, photographed at an angle. Not an act",
+        # "The volume's own INDEX … Not an act". Those were being published as
+        # people with an unknown surname. The observation is worth keeping; a
+        # person page for it is not.
+        if is_description(r["name"]):
+            continue
         add(r["name"], sur(r["name"]),
             " · ".join(x for x in [(r["age"] if r["age"] not in ("", "—") else ""),
                                    r["detail"]] if x),
