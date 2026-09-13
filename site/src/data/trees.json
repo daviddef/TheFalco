@@ -1,86 +1,63 @@
 {
- "note": "The Falco line and the families of the Valle Caudina it married. State is derived from what this archive actually publishes: a line is DRAWN only where a chart of it exists, DRAWABLE where there are enough people to chart and no chart yet, and a ROUTE where there are too few.",
+ "note": "A tree with invented joins in it is worse than no tree, so none of these has any. Each line is drawn in the form its own evidence supports. Here the difficulty is not depth but identity: the registers are rich and the names repeat.",
  "rows": [
   {
-   "name": "Falco",
+   "name": "Falco — out of Arienzo",
    "ours": true,
    "state": "drawn",
-   "depth": "207 people of the name",
-   "what": "Nine documented generations in one valley — the line this archive carries, and the only one of these that is charted.",
+   "depth": "Nine documented generations in one valley, 1767 to now",
+   "what": "Born, married and buried in the same parish under the hills near Naples, for nine generations. On 24 October 1767 a priest wrote Pasquale Falco into a book, and that page still exists.",
+   "gap": "Depth here is a fact about paper as much as about people: the registers of Arienzo survived, and that is why this line is nine deep and its neighbours are not.",
+   "href": "/direct-line/",
+   "cta": "The spine →"
+  },
+  {
+   "name": "The married-in families",
+   "ours": false,
+   "state": "drawable",
+   "depth": "Crisci · Zampiello · Morgillo · Rivetti · Cioffi and the rest of the Valle Caudina",
+   "what": "Each of these is a family in its own right, recorded in the same registers. Between them they are most of the 549 people this archive holds.",
+   "gap": "None of them is charted. There are enough people in each to draw one, and nobody has.",
+   "href": "/families/",
+   "cta": "The families →"
+  },
+  {
+   "name": "The register as a whole",
+   "ours": false,
+   "state": "web",
+   "depth": "10,432 records carrying only 4,820 distinct names",
+   "what": "Most names in this archive are worn by more than one person — «Pasquale Falco» alone names seventy-nine records across sixty years and is certainly several men. So the register is a web of records, not a tree of people, and the name pages never merge them.",
    "gap": null,
-   "href": "/families/",
-   "cta": "See the families →"
+   "href": "/who/",
+   "cta": "Every name →"
   },
   {
-   "name": "Crisci",
-   "ours": false,
-   "state": "drawable",
-   "depth": "29 people of the name",
-   "what": "Married into the line at Arienzo. 29 people of the name are recorded here, and there is a page about them — but no chart.",
-   "gap": "No chart of this family has been drawn.",
-   "href": "/crisci/",
-   "cta": "Read about them →"
-  },
-  {
-   "name": "Zampiello",
-   "ours": false,
-   "state": "drawable",
-   "depth": "24 people of the name",
-   "what": "Married into the line at Arienzo. 24 people of the name are recorded here, and there is a page about them — but no chart.",
-   "gap": "No chart of this family has been drawn.",
-   "href": "/zampiello/",
-   "cta": "Read about them →"
-  },
-  {
-   "name": "Morgillo",
-   "ours": false,
-   "state": "drawable",
-   "depth": "20 people of the name",
-   "what": "Married into the line at Arienzo. 20 people of the name are recorded here, and there is a page about them — but no chart.",
-   "gap": "No chart of this family has been drawn.",
-   "href": "/morgillo/",
-   "cta": "Read about them →"
-  },
-  {
-   "name": "Rivetti",
-   "ours": false,
-   "state": "drawable",
-   "depth": "19 people of the name",
-   "what": "Married into the line at Arienzo. 19 people of the name are recorded here, and there is a page about them — but no chart.",
-   "gap": "No chart of this family has been drawn.",
-   "href": "/rivetti/",
-   "cta": "Read about them →"
-  },
-  {
-   "name": "Cioffi",
-   "ours": false,
-   "state": "drawable",
-   "depth": "14 people of the name",
-   "what": "Married into the line at Arienzo. 14 people of the name are recorded here.",
-   "gap": "No chart of this family has been drawn.",
-   "href": "/families/",
-   "cta": "See the families →"
-  },
-  {
-   "name": "Falcone",
+   "name": "The crossing",
    "ours": false,
    "state": "route",
-   "depth": "9 people of the name",
-   "what": "Married into the line at Arienzo. 9 people of the name are recorded here.",
-   "gap": "No chart of this family has been drawn.",
-   "href": "/families/",
-   "cta": "See the families →"
-  },
-  {
-   "name": "Mazza",
-   "ours": false,
-   "state": "route",
-   "depth": "9 people of the name",
-   "what": "Married into the line at Arienzo. 9 people of the name are recorded here.",
-   "gap": "No chart of this family has been drawn.",
-   "href": "/families/",
-   "cta": "See the families →"
+   "depth": "Arienzo to Brisbane, about 1957",
+   "what": "A husband, a wife and a little girl of about two. The Australian file that records them arriving is still sitting in the National Archives, unopened.",
+   "gap": null,
+   "href": "/australia/",
+   "cta": "Australia →"
   }
  ],
- "close": "Only one of these is drawn. The others have enough people to chart and nobody has charted them, which is a to-do rather than a limit of the evidence."
+ "close": "The form is checked, not asserted: a line counts as drawn only where this archive actually publishes a chart of it.",
+ "doors": [
+  [
+   "/families/",
+   "The families",
+   "Everyone the Falcos married in one valley."
+  ],
+  [
+   "/who/",
+   "Every name",
+   "4,820 of them, and why a name is not a person."
+  ],
+  [
+   "/people/",
+   "The people",
+   "Where this archive has actually identified somebody."
+  ]
+ ]
 }
