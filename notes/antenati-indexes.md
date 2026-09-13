@@ -19,6 +19,16 @@ Cancello** 28 + 27 + 20 + 4 = **79**; Moiano, Paolisi and Arpaia likewise.
 
 ## The ark arithmetic — verified
 
+**Arienzo MARRIAGE indexes: 1809 = `an_ua14108`, +1 per year** (1818 = `an_ua14117` ✓), 44 volumes,
+so **1809 to about 1852**. Two to four images each.
+
+> **They cannot reach Matteo Falco's marriage.** He married Francesca Crisci about 1760–66, half a
+> century before civil registration begins. **That marriage is in the parish books or nowhere** —
+> which is the same conclusion the death indexes force about his death. Both of the founder's
+> vital events are outside the civil series entirely.
+
+## The DEATH ark arithmetic — verified
+
 **Arienzo death indexes: 1809 = `an_ua14271`, +1 per year.**
 Checked: 1818 = `an_ua14280` ✓, 1828 = `an_ua14290` ✓, 1834 = `an_ua14296` ✓.
 
@@ -63,4 +73,9 @@ and `notes/antenati-holdings-discovery.md`.
   instead of 30 death registers.
 - **Gioacchino Falco**, whose parents no record names — his death is given as 14 Feb 1851.
 - **The second Giuseppe Rivetti** — which of the two, Giovanna Bega's husband or Lucia Cioffi's.
-- Every year of Arienzo deaths **1809–1815**, still unread, at a fraction of the cost.
+- ~~Every year of Arienzo deaths 1809–1815~~ — **DONE 13 Sep 2026**, see
+  `notes/1809-1814-death-indexes.md`. Six Falco, including a new daughter of generation two.
+- **The separate «Morti, indice» series runs 1809–1847 — thirty-nine volumes, matching the
+  catalogue count exactly. AFTER 1847 the index is BOUND INTO THE REGISTER ITSELF**, at the front
+  (verified in 1851, `an_ua14353`). So every year has a finding aid in one form or the other, and
+  the act-by-act sweep was never necessary for any of them.
