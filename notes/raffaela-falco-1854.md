@@ -49,13 +49,21 @@ months after his mother. A civil act and a parish entry, found by different meth
 days, reconstructing one household:
 
 > **FRANCESCO FALCO × RAFFAELA FALCO** *(d. 20 Apr 1854, strada Camellara)*
-> ├── **ANTONIO FALCO**, b. c.1848, d. **23 Oct 1850**, aged two *(Arienzo, Morti 1850, atto 67 — act read)*
-> ├── **CLEMENTE FALCO**, b. c.1850, d. **14 Aug 1855**, aged five *(parish register)*
-> └── **GIOVANNI FALCO**, b. c.1852, d. **29 Jun 1855**, aged three *(Arienzo, Morti 1855, image 25R)*
+> ├── **ANTONIO FALCO**, aged two, d. **23 Oct 1850** *(Morti 1850, atto 67 — act read)*
+> ├── **CLEMENTE FALCO**, aged five, d. **14 Aug 1853** *(Morti 1853, atto 46 — act read)*
+> └── **GIOVANNI FALCO**, aged three, d. **29 Jun 1855** *(Morti 1855, image 25R — act read)*
+>
+> and their mother **RAFFAELA**, aged thirty-four, **20 Apr 1854**.
 
-**FOUR DEATHS IN ONE HOUSE ON STRADA CAMELLARA**: a two-year-old in October 1850, the mother in April
-1854, a three-year-old in June 1855 and a five-year-old six weeks after him. Antonio's age puts the
-marriage at **1847 or earlier**.
+**FOUR DEATHS IN ONE HOUSE ON STRADA CAMELLARA IN FIVE YEARS.** A two-year-old, a five-year-old, the
+mother, and a three-year-old. Antonio's age puts the marriage at **1847 or earlier**.
+
+> **CORRECTED.** Clemente's death was first published here as **14 August 1855**, from the parish
+> register's «Anno Domini **1855**, die vero 14 Augusti, obiit Clemens Falco filius Francisci, et
+> Raphaelae Falco, aetatis suae annorum quinque». **The civil act says 14 August 1853** — same day,
+> same month, same age, same parents — and **the civil act was read from the image while the parish
+> entry is machine transcription**, which has been caught on digits repeatedly. **They are one death,
+> and the year is 1853.** It matters: Clemente died *before* his mother, not after.
 
 **The second son found the same day**, and from the civil side:
 

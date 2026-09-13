@@ -54,7 +54,7 @@ const LINE = [
     couple: "FRANCESCO FALCO × RAFFAELA FALCO",
     sep: "strada Camellara — she was Giuseppe's daughter",
     when: "she d. 20 Apr 1854, aged thirty-four",
-    known: "Antonio (d. 23 Oct 1850, aged 2), Clemente (d. 14 Aug 1855, aged 5), Giovanni (d. 29 Jun 1855, aged 3) — four deaths in one house",
+    known: "Antonio (2) d. 1850, Clemente (5) d. 1853, the mother d. 1854, Giovanni (3) d. 1855 — four deaths in one house in five years",
     href: "/corrections",
   },
 ];
@@ -91,11 +91,6 @@ const OTHERS = [
     note: "Their daughter Antonia was born 19 November 1850.",
   },
   {
-    couple: "EMMANUELE FALCO × GIUSEPPA FALCO",
-    sep: "a Falco who married a Falco — INDEX ONLY",
-    note: "Their son Clemente died in 1853. The act has not been read, and after two «Falco–Falco» couples from these indexes dissolved on contact with their acts, this one should not be counted until it is.",
-  },
-  {
     couple: "DOMENICO FALCO × MARIANTONIA FRASCA",
     sep: "SANTA MARIA A VICO — married 1 July 1844",
     note: "Domenico is the son of the other Giuseppe Falco and Gelsomina Vigliotta. Their son Angelantonio, ten months old, died on 20 October 1850 at Arienzo in the house of his wet-nurse Grazia Diglio. The 1850 index calls the mother «Falco Mariantonia»; the act says FRASCA.",
@@ -126,6 +121,10 @@ const OTHERS = [
     <strong>street</strong>, the <strong>trade</strong>, the <strong>parish</strong> and the
     <strong>spouse</strong> — and where a record gives none of those, this archive attaches the
     person to nobody.</p>
+    <p style="margin-top:.6rem"><strong>And not the index either.</strong> Three separate entries in
+    the Arienzo death indexes looked like three different Falco couples who had married Falco women.
+    All three acts name the <em>same</em> household, and the index had the mother's name wrong every
+    time. <a href={u("/corrections")}>How that was caught →</a></p>
     <p style="margin-top:.6rem">The register holds <strong>{falcoRows.toLocaleString()} rows</strong>
     under the surname FALCO. Almost none of them belong to this family.</p>
   </div>

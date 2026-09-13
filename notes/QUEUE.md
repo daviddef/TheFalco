@@ -342,8 +342,8 @@ See `notes/1844-1847-death-indexes.md`.
       aged 80, contadino of **strada Crisci**, son of the fu Vincenzo Crisci and the fu Maria di Lucia
       — and a **widower**, so she died before 1855. Whose daughter she was is still unknown.
 - [x] **FRANCESCO FALCO's household**: wife Raffaela d. Apr 1854; sons GIOVANNI (3) d. 29 Jun 1855 and
-      CLEMENTE (5) d. 14 Aug 1855. Still to find: his own parents and the marriage, c.1848.
-- [ ] **FRANCESCO FALCO, husband of Raffaela Falco** — who was he? Their son Clemente d. 14 Aug 1855
+      CLEMENTE (5) d. 14 Aug 1853. Still to find: his own parents and the marriage, c.1848.
+- [ ] **FRANCESCO FALCO, husband of Raffaela Falco** — who was he? Their son Clemente d. 14 Aug 1853
       aged five. Find their marriage (Arienzo parish, c.1848) and Francesco's own parents.
 - [ ] **THE FALCO-FALCO MARRIAGES.** Four at Arienzo in 1850-54: Francesco x Raffaela; Domenico x
       Mariantonia Falco; Francesco x Giuseppa Falco; Emmanuele x Giuseppa Falco. Cousins, or two

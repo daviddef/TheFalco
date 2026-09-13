@@ -219,7 +219,7 @@ the parish said so on the page. Son Giuseppe died in infancy, 1818.
 **Nunziata**, m. 1855; a further daughter m. an Antonino Mario…; besides Raffaele 1818, Luigi 1819
 (d. 1864), Pasquale 1830, Antonio 1843 (m. 1869) and Andrea.
 
-**Francesco Falco & Raffaela Falco** — a Falco who married a Falco. Son Clemente d. 14 Aug 1855 aged 5.
+**Francesco Falco & Raffaela Falco** — a Falco who married a Falco. Son Clemente d. 14 Aug 1853 aged 5.
 
 **Francesco Falco & Maria Angela Ulivieccio** — daughter Margarita m. Domenico Crisci.
 
