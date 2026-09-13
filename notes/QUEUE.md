@@ -258,10 +258,19 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
 - [ ] **NEXT, and better: Angela Rosa Morgillo's BIRTH ACT**, San Felice, 24 Feb 1818. Names both
       parents outright. The Nati series for San Felice is NOT yet mapped (`an_ua50395` was a guess
       and is marriages). Query `?localita=San+Felice+a+Cancello&tipologia=Nati`.
-- [ ] **Forchia 1897 (Filomena Annecchino's birth) — NOT REACHED.** Forchia's Caserta-held births
-      run 1820 (`an_ua29049`) to 1861 (`an_ua29090`), then the arks move to Formicola. Post-1861
-      Forchia is Benevento, *Stato civile italiano* — fondo not located. The search page confirms
-      Forchia records exist to 1899, so 1897 IS held; only the ark is missing.
+- [x] **THE POST-1861 FONDO IS LOCATED (13 Sep 2026).** Forchia has **500 registers** on Antenati
+      across **two archives** — Caserta (*napoleonico e della restaurazione*, 1809–1865) and
+      **BENEVENTO (*STATO CIVILE ITALIANO*, 1866 on)**. It was recorded here as «not located».
+- [x] **AND 1897 IS NOT THERE.** Births run …1894, 1895, 1896, **[no 1897]**, 1898, 1899, 1900…
+      **The volume is not digitised**, which is why Filomena Annecchino's act has never been found.
+      The old explanation — FamilySearch's paging cap and fuzzy matching — **was wrong**. Birth
+      indexes are no help either: 30 of them, stopping at **1849**.
+- [ ] **THE PROCESSETTI ARE THE LIVE ROUTE — 73 Forchia volumes, already digitised.** A marriage
+      dossier copies the bride's **birth extract** in full, so Filomena's marriage to Carminantonio
+      Falco would reproduce the act itself. **NEXT QUERY, and it is one query: how late do the
+      Forchia processetti run?** `?localita=Forchia&tipologia=Matrimoni%2C%20processetti&s_page=N`.
+      **Also worth noting: 1897 aside, the archive has never touched the Benevento «Stato civile
+      italiano» Forchia series at all — 1866–1915 of births, marriages and deaths, unread.**
 
 ## Dead ends, recorded so they are not repeated
 - ~~**Arienzo processetti 1814 (an_ua14154, 290 pp.)** — worked from the back. Contains acts up to
