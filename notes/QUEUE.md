@@ -217,6 +217,23 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
 
 *All of the above is published on the site at `/open-questions/`.*
 
+## [x] LUIGI FALCO'S PROCESSETTO — bundle 8, `an_ua14156` imgs 123-142. VOLUME FULLY SWEPT.
+- All **385 images** swept, **all 25 covers read**. Do not sweep this volume again.
+- **THE BUNDLES ARE NOT IN NUMERIC ORDER**: 1@20, 2@3, 3@33, 4@106, 5@90, 6@71, 7@55, **8@123**,
+  9@143, 10@162, 11@187, 12@200, 13@214, 14@235, 15@246, 16@258, 17@275, 18@284, 19@295, 20@308,
+  21@317, 22@335, 23@351, 24@365, 25@372. 1815 ends at img 384; img 385 = "Anno 1816" divider.
+- **LUIGI FALCO baptised 27 Feb 1797**, parish of **SAN FELICE MARTIRE**, **Diocese of SANT'AGATA
+  DE' GOTI**, *liber VII baptizatorum fol. 148*, son of **SEBASTIANO FALCO & COLOMBA MONTEFUSCO**.
+- Banns published by the sindaco of the **"Comune de' CASALI UNITI d'Arienzo"** — a THIRD name for
+  San Felice a Cancello, alongside "sei Casali d'Arienzo" and the catalogue's "San Felice (oggi...)".
+- **NO grandparent certificate, and the absence is structural**: both Luigi's parents were alive and
+  consenting, so the Code required none. **The route to Sebastiano's parents is a DEATH ACT for him
+  or Colomba in San Felice** — 27 "Morti, indice" volumes to search, not 30 registers.
+- [ ] The bride: cover says "[C]ecilia VECCHIO(?) figlia del fu Sabbatino"; the marriage act said
+      "[?]ietta Renchiello(?)". **The two readings do not agree.** Neither settled.
+- [ ] **The parish books of San Felice Martire, diocese of Sant'Agata de' Goti** — cited here by
+      volume and folio. Never approached.
+
 ## [x] ITEM 1 — Arienzo marriages 1815 (`an_ua14219`) READ END TO END
 - 30 images, **exactly 25 acts**. The ONLY Falco is **LUIGI FALCO of San Felice** (img 8).
   **No Crisci.** Do not re-read this volume.
