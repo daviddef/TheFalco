@@ -20,6 +20,7 @@
 import { u } from "../lib/url.js";
 import { bySlug } from "../lib/people.js";
 import PersonTree from "@daviddef/archive-kit/components/PersonTree.astro";
+import "@daviddef/archive-kit/styles/persontree.css";
 
 const { person: p } = Astro.props;
 
@@ -74,7 +75,7 @@ const beside = (e, mark) => ({
 const superseded = [...parents, ...spouses, ...children, ...siblings].filter((e) => e.superseded);
 ---
 <PersonTree
-  self={{ name: p.name, dates: dates(p), gen: p.gen, note: p.living ? "living — name only" : "", noteCls: "living" }}
+  self={{ name: p.name, dates: dates(p), gen: p.gen ? `generation ${p.gen}` : "", note: p.living ? "living — name only" : "", noteCls: "living" }}
   parents={parents.map(lineage)}
   spouses={spouses.map((e) => beside(e, true))}
   children={children.map(lineage)}
