@@ -77,3 +77,71 @@ machine could not render.
 **The deliberately loose regex is the point.** Searching for «Rivetta» alone would have missed
 «Riverra», «Riveta» and «Riuetta», which is how these acts stayed unfound. See the corrections page on
 PIVERA.
+
+---
+
+## Later, the same day: Angelo Andrea's own children
+
+The sweep that went looking for **Antonia's death** did not find it, and found her nephew and niece
+instead. Both from the Arienzo parish death/marriage films, **machine transcript only**.
+
+- **AGOSTINO DI GUIDA**, d. **24 July 1844** — «*Anno D̄ni Millesimo octingentesimo quadragesimo quarto
+  1844, die vero vigesima quarta 24 Julii, **Agostinus di Guida vir Gratiae Rivetti, filius Andreae
+  [et] Theresiae Viglioti**, aetatis suae annorum **32**, omnibus Sacramentis munitus…*» —
+  `3Q9M-CSMY-B7HW-7`. Born about **1812**, five years before his father died.
+- **MADDALENA DI GUIDA**, m. **Angelo Cillo** about 1845 — «*non dum uxorato **Angelino Cillo**
+  quondam **Antonii**, e **Maria Antonia Romanella** [cum] **Magdalena di Guida** [filia] quondam
+  **Angeli Andreae**, et **Theresiae Viglioti***» — `3Q9M-CSMY-B7S3-L`, margin «Angelus Cillo |
+  Magdalena di Guida». **The act is badly machine-read and the date is not secure.** The structure and
+  the margin are.
+
+**The name is the point.** Angelo Andrea called a daughter **Maddalena** — his own mother's name.
+Naming a daughter for the paternal grandmother is Campanian practice, not law, so its absence would
+have proved nothing; **its presence is a test the reconstruction was not built on and did not have to
+pass.** Corroboration, not proof. The proof remains his baptism of 29 November 1791 set against his
+civil death act of 21 October 1817.
+
+## Where Antonia's own death is NOT
+
+Collection `M9J1-SMK`, `q.anyPlace=Arienzo`, `q.text=Guida` — **2,306 results, 1,621 distinct pages**,
+every one scanned for *Antonia* within ~200 characters of a Guida-shape **and** a death word
+(*obiit · mortua · defuncta · uxor · vidua · cadaver · sepulta*). **Sixty-seven passages matched;
+none is her.**
+
+**This is a bounded negative, not a nil.** It does not exclude that she is entered under her husband's
+surname — these books often give a married woman as «*uxor Josephi Falco*» with her own surname left
+off — nor that the engine mangled *Guida* past the regex on her page. **Next: the Falco side of the
+same register**, which is also where **Giuseppe Falco's** death should be. That sweep is queued, not
+done — the endpoint started returning empty while it ran.
+
+## Also surfaced, and worth its own visit
+
+The same collection holds **alphabetical marriage-index leaves with folio numbers**, by the groom's
+forename:
+
+- `3Q9M-CSMY-B79W-2` — the *Joseph* leaf. «**Joseph Falco, [et] Antonia di Guida — fol. 3**» and,
+  separately, «**Joseph Falco, e[t] Gesummina Vigliotta — fol. 6**». **The index itself distinguishes
+  the two Giuseppe Falco of this town**, which is a thing this archive has spent months doing by hand.
+- `3Q9M-CSMY-B74T-M` — «**Joachim Falco — fol. 19**».
+
+If a leaf of this index survives for **M**, it would give **Matteo Falco**'s marriage and a folio to
+open it at. The Joseph leaf's folios are low single digits for 1802, so this particular register
+probably begins about 1800 and will not reach the 1760s — **but the instrument is the right one**, and
+the question is only which volume's index to find. See [matteo-falco-marriage-search-1760s.md](matteo-falco-marriage-search-1760s.md).
+
+## And a second filming of a load-bearing act
+
+`3Q9M-CSD3-13HT-V` is **a second photograph of the page carrying Gioacchino Falco's baptism of
+2 February 1779** — the act the open-questions page flags as «*transcription only, and it is
+load-bearing*», because it is what makes Gioacchino a documented son of Matteo and Francesca.
+
+Two independent films, two independent machine passes, and they agree:
+
+> «…baptizavit infantem natum ex **Mattheo Falco, et Francisca Crisci** conjugibus hujus Parochiae,
+> qui nominatus est **Joachim**; Commater fuit **Dorothea d'Adio**, Obstetrix vero **Cecilia
+> Martone**.» — Antonius Archipr. Romano
+
+**That is corroboration, not an image read.** The read was started — the page overview is in hand, the
+margin «Joachim» located, the act's opening line «*Anno D̄ni Millesimo Septingentesimo Se[ptuagesimo
+nono]*» rendered — and **FamilySearch rate-limited the next tile request before the body**. It stays
+listed as *transcription* until the body is read. One render finishes it.
