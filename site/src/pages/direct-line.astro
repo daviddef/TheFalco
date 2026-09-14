@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
+import { md } from "@daviddef/archive-kit/lib/md.js";
 import line from "../data/line.json";
 import { people } from "../lib/people.js";
 /* Whether a generation is living is decided by the person graph, not by a hand
@@ -40,7 +41,7 @@ const heading = (g) => g.spouse ? `${g.name} and ${g.spouse}` : g.name;
             No date of birth, no place, no detail — the rule is set out under
             <a href={u("/method/")}>Method</a>. The line continues past this page into people who are
             alive, and the archive stops describing them here.</p>
-          : <p class="tale">{g.note}</p>}
+          : <p class="tale" set:html={md(g.note)}></p>}
       </section>
     ))}
   </div>
