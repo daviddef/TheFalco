@@ -1,6 +1,8 @@
 ---
 import Base from "../layouts/Base.astro";
 import places from "../data/places.json";
+import atlas from "../../public/atlas-data.json";
+import { u } from "../lib/url.js";
 ---
 <Base title="Places">
   <p class="lede">Six places carry this family: one parish held for two centuries, a short move of four
@@ -34,4 +36,16 @@ import places from "../data/places.json";
         <td>Archivio di Stato di Benevento, 1810–1942; and the Archdiocese of Benevento church records, 1575–1908</td></tr>
     </tbody>
   </table></div>
+
+<section class="blk" id="every-place">
+  <h2>Every place with a page of its own</h2>
+  <p class="dek">One page per place the atlas can put a person in, listing who was born, married or
+    buried there and what the archive read to know it. These were reachable only by clicking a marker
+    on the map, which meant a reader without JavaScript — and a search engine — could not get to any
+    of them.</p>
+  <p class="placelist">{atlas.places.filter((p) => p.slug).sort((a, b) =>
+      (a.place || a.name || "").localeCompare(b.place || b.name || "")).map((p, i) => (
+    <>{i > 0 && <span class="sep"> · </span>}<a href={u(`/places/${p.slug}/`)}>{p.place || p.name}</a></>
+  ))}</p>
+</section>
 </Base>
