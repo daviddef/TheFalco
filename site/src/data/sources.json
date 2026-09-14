@@ -138,5 +138,12 @@
   "d": "Swept three times: 9 September 2026 signed-out, 13 September from inside a trial, and 15 September enumerated in full before the trial lapsed. 183 records saved to data/findmypast-australasia-2026-09-15.tsv — 107 Falco passenger entries, 39 Falco births, marriages, deaths and cemetery entries, 21 Maione, 14 Carfora, 2 Zampiello.",
   "id": "Australia, Inward, Outward & Coastal Passenger Lists 1826–1972 · Queensland Burials & Memorials · Australia, Civil Deaths & Burials 1780–1985 · Australia Electoral Rolls",
   "use": "MEDIUM, and narrowing. It closed one real question — the arrivals of Filomena (5 Feb 1968) and Carminantonio (19 May 1969). Beyond that its transcripts carry no age, ship or port; the value is the NAA barcode, and the NAA image is free. Its Italian records are the IGI re-hosted under FamilySearch licence and are worthless here. ANNECCHINO and ARRICALE return nothing at all; ZAMPIELLO has two records on the whole site, both American."
+ },
+ {
+  "g": "Cemetery index, Australia",
+  "t": "Find a Grave — Nudgee Cemetery and Crematorium, Brisbane",
+  "d": "Cemetery 2188553, 35,848 memorials, about half photographed. Searched 15 September 2026 — the first time this archive has opened a grave index at all. Five Falco memorials, four of them carrying transcribed Queensland death registrations with the deceased's parents named. Saved to data/nudgee-graves.tsv.",
+  "id": "Memorials 183378272, 183378273, 183378275, 183378276, 247996006",
+  "use": "HIGH, and it should have been opened a year ago. It dated Carminantonio Falco (1900–1985) and Filomena Annecchino (1897–1988), named both their fathers, produced a whole generation the archive lacked — Raffaele Falco, b. Forchia 25 Aug 1925 — and joined the Falco to the Zampiello. CAUTION: locationId values are not guessable. Australia is country_15 and Queensland state_576; a guessed country_14 returns SWITZERLAND and reads exactly like a nil."
  }
 ]

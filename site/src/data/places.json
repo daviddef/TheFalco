@@ -1,8 +1,93 @@
 [
-  {"name":"Arienzo","prov":"Caserta","from":"1672","to":"1913","what":"The home parish. The Collegiate Church of Sant'Andrea Apostolo holds baptisms from 1672, marriages from 1754 and deaths from 1733. Every Falco generation from Pasquale to Raffaele was born, married and buried here."},
-  {"name":"San Felice a Cancello","prov":"Caserta","from":"1818","to":"1818","what":"Birthplace of Angela Rosa Morgillo, who married into the line in the 1840s. The next comune west of Arienzo."},
-  {"name":"Arpaia","prov":"Benevento","from":"1913","to":"1935","what":"Across the provincial border, four kilometres from Arienzo. Gerardo Falco was born here in 1913; the Zampiello family were here through the 1920s and 1930s."},
-  {"name":"Forchia","prov":"Benevento","from":"1930","to":"1938","what":"Where Carmine Falco was born in 1930. The comune takes its name from the Forche Caudine — the Caudine Forks, where the Roman army was made to pass under the yoke in 321 BC."},
-  {"name":"Benevento","prov":"Benevento","from":"1955","to":"1955","what":"Where Carmine Falco and Francesca Zampiello married, and where Giuseppina was born in 1955. Capital of the Lombard duchy that gave southern Italy the personal name Falco."},
-  {"name":"Brisbane","prov":"Queensland","from":"20th c.","to":"present","what":"Where the line arrives. Carminantonio Falco and Filomena Annecchino are buried at Nudgee Cemetery."}
+ {
+  "name": "Arienzo",
+  "prov": "Caserta",
+  "from": "1672",
+  "to": "1913",
+  "what": "The home parish. The Collegiate Church of Sant'Andrea Apostolo holds baptisms from 1672, marriages from 1754 and deaths from 1733. Every Falco generation from Pasquale to Raffaele was born, married and buried here."
+ },
+ {
+  "name": "San Felice a Cancello",
+  "prov": "Caserta",
+  "from": "1818",
+  "to": "1818",
+  "what": "Birthplace of Angela Rosa Morgillo, who married into the line in the 1840s. The next comune west of Arienzo."
+ },
+ {
+  "name": "Arpaia",
+  "prov": "Benevento",
+  "from": "1913",
+  "to": "1935",
+  "what": "Across the provincial border, four kilometres from Arienzo. Gerardo Falco was born here in 1913; the Zampiello family were here through the 1920s and 1930s."
+ },
+ {
+  "name": "Forchia",
+  "prov": "Benevento",
+  "from": "1897",
+  "to": "1938",
+  "what": "Filomena Annecchino was born here in 1897 and her son Raffaele on 25 August 1925 — both dated from their Brisbane graves and Queensland death registrations, not from any Italian record. Her own birth act has never been found: Antenati holds no Forchia births for 1897 in any fondo. The family is documented here to 1938, when Carminantonio declared his infant son Aniello's death at Contrada Case Sparse 68."
+ },
+ {
+  "name": "Benevento",
+  "prov": "Benevento",
+  "from": "1955",
+  "to": "1955",
+  "what": "Where Carmine Falco and Francesca Zampiello married, and where Giuseppina was born in 1955. Capital of the Lombard duchy that gave southern Italy the personal name Falco."
+ },
+ {
+  "name": "Brisbane",
+  "prov": "Queensland",
+  "from": "1964",
+  "to": "present",
+  "what": "Where the line ends. Carmine arrived 26 March 1964, his mother Filomena on 5 February 1968, his father Carminantonio on 19 May 1969. Four of them are buried at Nudgee Cemetery — Carminantonio (d. 1985) and Filomena (d. 1988) in adjoining plots, their son Raffaele (d. 1988) and his wife Caterina Zampiello (d. 2004) in another pair."
+ },
+ {
+  "name": "Moiano",
+  "prov": "Benevento",
+  "from": "1810",
+  "to": "1942",
+  "what": "1,296 register rows, from the Antenati name index — 310 Falco and 215 Annecchino. NO KINSHIP IS CLAIMED: the Moiano Falco and the Moiano Annecchino were harvested precisely to test whether either joined this family, and both are separate stocks. The town is listed because the archive holds records here, not because the line passes through it."
+ },
+ {
+  "name": "Paolisi",
+  "prov": "Benevento",
+  "from": "1810",
+  "to": "1942",
+  "what": "511 register rows. Also the oldest unresolved question in the archive: Francesco Falco of Paolisi, 1714–1726, is the earliest Arienzo Falco household with a stated origin, and the dates would allow him to be Matteo's grandfather. No document joins them and this archive has not joined them."
+ },
+ {
+  "name": "Santa Maria a Vico",
+  "prov": "Caserta",
+  "from": "1760",
+  "to": "1941",
+  "what": "The parish of Santa Maria ad Nives, where Domenico Falco — son of the OTHER Giuseppe Falco, of strada Costa — married Mariantonia Frasca on 1 July 1844. Thirty-odd rows. It matters as a control: it is where the Falco this archive is not descended from can be found."
+ },
+ {
+  "name": "Cervinara",
+  "prov": "Avellino",
+  "from": "1827",
+  "to": "1843",
+  "what": "Thin — about a dozen rows, all from the Arienzo civil registers where a Cervinara birth or spouse is named in passing. No household here has been reconstructed."
+ },
+ {
+  "name": "Durazzano",
+  "prov": "Benevento",
+  "from": "1825",
+  "to": "1963",
+  "what": "Thin — about a dozen rows. Named in Arienzo acts as a place of origin; nothing more has been read here."
+ },
+ {
+  "name": "Airola",
+  "prov": "Benevento",
+  "from": "1883",
+  "to": "1883",
+  "what": "TWO ROWS, and they are listed to be honest about how little that is. The archive's only Airola material is an 1883 mention in the Benevento civil series."
+ },
+ {
+  "name": "Cervino",
+  "prov": "Caserta",
+  "from": "1843",
+  "to": "1843",
+  "what": "ONE ROW. Named once, in 1843. Listed so the atlas does not imply the archive has looked here and found nothing — it has barely looked."
+ }
 ]
