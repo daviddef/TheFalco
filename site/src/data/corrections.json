@@ -1444,5 +1444,59 @@
   "now": "**There is no civil death act for him.** All ninety acts of the Arienzo death register for 1841 have been read, every one, and **not one Falco is among the dead**. The register runs straight from act 86, a child buried 26 November, to act 87, a tailor of eighty buried 7 December. The days on either side of 27 November are accounted for.",
   "how": "ANTENATI `an_ua14343`, images 8–54, swept in four contact sheets at the band where the deceased's name and age sit, then the November acts rendered whole and read.",
   "why": "**Published as a bounded negative so nobody reads this volume again**, and because it changes what the two-Giovanni question is about. Arienzo's civil and parish registers normally agree; a burial with no civil act is unusual enough to be evidence in itself. It now seems more likely that the 1841 transcript is **wrong, or belongs to another parish in the same filmed set**, than that this household really kept two living sons of one name. \n\nThat cannot be settled from here: **the image behind the transcript has not been read**, and reading it needs the FamilySearch viewer."
+ },
+ {
+  "when": "2026-09-14",
+  "sev": "method",
+  "what": "Forty-four marriage indexes this archive wrote down and never opened",
+  "was": "A research note recorded, in one line, that Antenati holds **44 «Matrimoni, indice» volumes for Arienzo, 1809 = `an_ua14108`, +1/year**. That line was written when the death indexes were found, and **nothing was ever read from it**. Marriages in this family were being reconstructed from death acts, which name a spouse but never a date.",
+  "now": "**They are the richest finding aid in the whole Arienzo series.** Each is one to four images, and each line gives the **act number, BOTH spouses, each one's patria, BOTH sets of parents, and the date of the church wedding**. A whole year of marriages fits on two pages. Nine years have now been read and **three marriages came out of them**.",
+  "how": "`python3 tools/antenati.py ids an_ua<14108 + year − 1809>`, then every image rendered at 2100px. The sort order is not stable — **1818 is by FORENAME, 1821 to 1824 by SURNAME** — so a letter has to be found before it can be searched.",
+  "why": "**This is the third time the same failure has been published here**: a source found, summarised in a note, and then treated as though the note were the source. The Nudgee graves were already in three files when they were announced as a discovery; three lines had no household while their documents sat harvested elsewhere; and now a finding aid that answers questions on the open-questions page has been sitting in a memo for a week. \n\n**A source is not held until something has been read out of it.** The note is not the holding."
+ },
+ {
+  "when": "2026-09-14",
+  "sev": "resolved",
+  "what": "Anna Falco's wedding day, and her husband's parents",
+  "was": "**ANNA FALCO**, daughter of Pasquale Falco and Chiara Rivetti, baptised 28 October 1795. The archive knew she was married because **her death act said so** — «*moglie di **ARCANGELO CRISCI***», 23 August 1820, strada Camellara — and because his two-day-old son Fortunato was buried in January of the same year. **No wedding date. No parents for him. Nothing before 1820.**",
+  "now": "**Married before the church on 3 MAY 1818**, and his parents are named: «*fu **NICOLA**, e **CHIARA MAJONE***» — his father already dead. The entry gives her as «*di **PASQUALE**, e **CHIARA RIVETTI***», with no «fu» before either, which is consistent: Pasquale Falco lived until 1834.",
+  "how": "The 1818 Arienzo marriage tavola, `an_ua14117` — a two-page index sorted by forename, so she is under **A** for Anna.",
+  "why": "It closes the shape of a very short life. **Baptised 1795, married at twenty-two, buried a son at twenty-four, dead three months later.** \n\n**One thing is deliberately left unresolved.** The index writes the groom's surname **COSSI**; the 1820 acts, also read from the image, write **CRISCI**. This archive has already recorded that the two are not reliably separable in this scribe's hand — it happened once before, over a child's burial in 1824. The identification does not depend on it: there is one Anna Falco of Pasquale and Chiara, and one Arcangelo she was married to. **The spelling is reported as found, in both places, and not reconciled.**"
+ },
+ {
+  "when": "2026-09-14",
+  "sev": "new",
+  "what": "Two more grandchildren for Matteo Falco, through his daughter Angela",
+  "was": "**ANGELA FALCO**, daughter of Matteo Falco and Francesca Crisci, married **CRESCENZO RIVETTI** — a marriage the archive knew only from **his death act** of 1 December 1816, where Giuseppe Falco and Gioacchino Falco declared him as «*parenti*». She was widowed at forty-five and died 17 October 1822. **One child was on record**: Angelandrea Rivetti, buried 12 February 1819.",
+  "now": "**Two sons, both with wedding dates.** «*7. **RIVETTI GIOVANNI** ed Attarelli Mariangela | Rivetti **Crescenzo**, e **Falco Angela** | A dì **23 Xbre 1821***». And «*18. **RIVETTI PASQUALE** | Rivetti **Crescenzo**, e **Falco Angela** | A **29 Luglio 1824***», his bride Agnese Vetrone of Serfasali. **Angela Falco lived to see the first wedding and not the second** — she died ten months after Giovanni's and twenty-one months before Pasquale's.",
+  "how": "The Arienzo marriage tavole for 1821 and 1824, both read from the image and both rows magnified to the word before the parents were accepted.",
+  "why": "**The founder's line had been traced almost entirely through his sons.** Angela was a name on a death act and a widow in a register; she is now a woman with a household and descendants who married into the Attarelli and the Vetrone. \n\nAnd a trap worth publishing: **the 1824 tavola holds a second Pasquale Rivetti**, act 23, son of **PAOLO** Rivetti — who was Crescenzo's brother. Two first cousins of the same name marrying in the same year, in the same town, four months apart. **Nothing but the parents' column tells them apart**, which is exactly why an index that carries both parents is worth more than one that does not."
+ },
+ {
+  "when": "2026-09-14",
+  "sev": "resolved",
+  "what": "The fourth Maria Falco, named — twenty-four hours after this archive said it could not name her",
+  "was": "Published here **yesterday** as an open question. A **MARIA FALCO, thirty-three**, wife of **ALFONSO DIGLIO** of strada Camellara, bore a daughter on 30 May 1825. The entry said: «*Which Falco house she comes from is open … Pasquale Falco and Chiara Rivetti baptised a Maria on 30 October 1790, which would make her thirty-four here rather than thirty-three — inside this register's proven margin, and **not enough**.*»",
+  "now": "**It is her house.** «*…è morta nella sua propria casa **MARIA FALCO, d'anni TRENTADUE, MOGLIE DI ALFONSO DIGLIO**, nata in Arienzo, di professione contadina … **FIGLIA DI PASQUALE FALCO**, di professione contadino, domiciliato ivi, **E DI CHIARA RIVETTI**, domiciliata ivi*» — **25 April 1826**, at nine in the morning, act 22. She was **a daughter of generation four**, and a sister of the Anna Falco whose wedding was published this morning.",
+  "how": "Not by looking for her. The **1827 marriage tavola** showed **Alfonso Diglio marrying again** — «*Diglio Cesare, e M[anna] Sara*» for parents, and a Cesare Diglio of strada Camellara had witnessed his daughter's birth. A second marriage dates a first wife's death, so the window was **30 May 1825 to 2 April 1827**; the death index for 1826 had her in it, and the act named her parents outright.",
+  "why": "**The method is the point.** She was invisible from her own side — no age fits, no baptism can be matched, and this archive holds four women of her name. She became findable through **her husband's second wedding**, which is not a record about her at all. \n\nTwo cautions kept. **Which Maria she is remains open**: this couple baptised a Maria on 13 September 1789 and another on 30 October 1790, and the stated age of thirty-two fits neither. And the declarants are carefully **«vicino della defunta»** — neighbours. The register distinguishes that from «parente», and so does this archive."
+ },
+ {
+  "when": "2026-09-14",
+  "sev": "new",
+  "what": "A fourth child for Angela Falco, and a Falco woman at Paolisi",
+  "was": "Angela Falco, the founder's daughter, had **one recorded child** yesterday morning and **three** by the evening.",
+  "now": "**Four.** «*5. **CIMMINO ANTONIO** ed **RIVETTI LUCIA** | Rivetti **Crescenzo**, e **Falco Angela** | A **7 Febrajo 1825***». **Lucia Rivetti married as an orphan** — her father dead since 1816, her mother since October 1822. \n\nAnd separately, in 1826: «*LETTIERI **LUDOVICO** | **PAOLISI** | Lettieri **Antonio**, e **FALCO GIOVANNA***». A son marrying in 1826 puts his mother's birth around **1770–1785** — the founders' generation.",
+  "how": "The Arienzo marriage tavole for 1825 and 1826, read from the image.",
+  "why": "Angela Falco was a name on her husband's death act two days ago. She now has **four children, three wedding dates and two families married into** — the Attarelli, the Vetrone and the Cimmino. \n\n**The Giovanna Falco of Paolisi is a lead and is filed as one.** She is far too old to be either Giovanna this archive already holds — Gioacchino's daughter of 1797 or Giuseppe's of 1805 — which leaves the founders' own household as the obvious place to look and **no act yet that names her parents**. **Paolisi** went onto this archive's map only last week, on the strength of a place-name in a register; there is now a person standing in it."
+ },
+ {
+  "when": "2026-09-14",
+  "sev": "minor",
+  "what": "The marriage-index arithmetic slips after 1835, and the series stops in 1849",
+  "was": "The rule recorded this morning: **Arienzo marriage indexes, `an_ua14108` + (year − 1809)**, published as continuous.",
+  "now": "**It holds only to 1835.** `an_ua14135` is **1837, not 1836** — so from 1837 the ark is `14107 + (year − 1809)`. **1836 is missing from the series altogether**, and `an_ua14148` returns no manifest at all. The last index is **1849** (`an_ua14147`); `an_ua14149` onward belong to a different series.",
+  "how": "Resolving the label of every volume from 1825 to 1852 instead of trusting the formula past the years that had been checked.",
+  "why": "**The death indexes slip in exactly the same way, after 1834** — that was already recorded here. Two independent Arienzo series, both drifting by one volume in the mid-1830s, is not a coincidence; something was lost or re-bound from that decade in both. \n\nPublished because an arithmetic rule that is right for twenty-six years and wrong afterwards is **more dangerous than no rule at all**: it returns a real volume for the wrong year, and every negative taken from it would be false."
  }
 ]
