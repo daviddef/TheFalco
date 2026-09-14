@@ -131,5 +131,12 @@
   "d": "The state's own index, free to search: births to 1926, marriages to 1951, deaths to 1996. Swept surname by surname in September 2026 on exact match, across all three registers, for thirty-nine surnames drawn from this archive and its neighbours.",
   "id": "familyhistory.bdm.qld.gov.au",
   "use": "It gave four members of Carminantonio's Brisbane household with their registration numbers — which is what makes a certificate orderable, and the archive had none. Raffaele's entry names both his parents, which turned the Nudgee register's «probably the son» into a documented one. It also corrected this archive's claim that every Queensland Falco was a Burdekin Falco."
+ },
+ {
+  "g": "Subscription index, Australia",
+  "t": "FindMyPast — Australasian records",
+  "d": "Swept three times: 9 September 2026 signed-out, 13 September from inside a trial, and 15 September enumerated in full before the trial lapsed. 183 records saved to data/findmypast-australasia-2026-09-15.tsv — 107 Falco passenger entries, 39 Falco births, marriages, deaths and cemetery entries, 21 Maione, 14 Carfora, 2 Zampiello.",
+  "id": "Australia, Inward, Outward & Coastal Passenger Lists 1826–1972 · Queensland Burials & Memorials · Australia, Civil Deaths & Burials 1780–1985 · Australia Electoral Rolls",
+  "use": "MEDIUM, and narrowing. It closed one real question — the arrivals of Filomena (5 Feb 1968) and Carminantonio (19 May 1969). Beyond that its transcripts carry no age, ship or port; the value is the NAA barcode, and the NAA image is free. Its Italian records are the IGI re-hosted under FamilySearch licence and are worthless here. ANNECCHINO and ARRICALE return nothing at all; ZAMPIELLO has two records on the whole site, both American."
  }
 ]
