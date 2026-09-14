@@ -17,7 +17,14 @@ perishable asset was never the record; it was the list of pointers. That list is
 and **barcode 12100311** at the NAA. Recording 107 hrefs as barcodes would have produced a file of
 plausible, checkable, wrong numbers.
 
-## WHAT THIS CORRECTS IN THIS ARCHIVE
+## WHAT I WRONGLY THOUGHT THIS CORRECTED
+
+> **WITHDRAWN.** The verdict sentence reads «*no electoral roll, no BDM, no cemetery index **for any
+> of them***» — *them* being the six passenger records of THIS FAMILY, not the surname. It is correct
+> as written. And `/searched` has carried since September: «*all 56 Australian birth, marriage and
+> death records for Falco, and all 31 electoral-roll entries, **read individually***», with the
+> Burdekin household and Mary Rubiolo already named. **None of the section below was new.**
+
 
 The September verdict said of this family: «*no electoral roll, no BDM, no cemetery index*», and
 «**FindMyPast's entire holding for this family is passenger lists**».
