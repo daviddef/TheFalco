@@ -1498,5 +1498,23 @@
   "now": "**It holds only to 1835.** `an_ua14135` is **1837, not 1836** — so from 1837 the ark is `14107 + (year − 1809)`. **1836 is missing from the series altogether**, and `an_ua14148` returns no manifest at all. The last index is **1849** (`an_ua14147`); `an_ua14149` onward belong to a different series.",
   "how": "Resolving the label of every volume from 1825 to 1852 instead of trusting the formula past the years that had been checked.",
   "why": "**The death indexes slip in exactly the same way, after 1834** — that was already recorded here. Two independent Arienzo series, both drifting by one volume in the mid-1830s, is not a coincidence; something was lost or re-bound from that decade in both. \n\nPublished because an arithmetic rule that is right for twenty-six years and wrong afterwards is **more dangerous than no rule at all**: it returns a real volume for the wrong year, and every negative taken from it would be false."
+ },
+ {
+  "when": "2026-09-14",
+  "sev": "resolved",
+  "what": "Giovanna Falco married — half of the «two daughters» question closed",
+  "was": "On the open-questions page: «*GIOVANNA and FRANCESCA MARIA LUCIA, daughters of Giuseppe Falco and Antonia di Guida, are baptised and neither appears in the Arienzo death registers of 1844–1858. **They married, died before 1844, or left.***» Three possibilities and no way to choose between them.",
+  "now": "**She married.** «*10. **CRISCI ANIELLO** | Crisci Crescenzo, e Quotolo Angela*» ed «***FALCO GIOVANNA** | **Falco Giuseppe, e Guida Antonia** | A **6 7bre 1829***». Baptised 1805, married at **twenty-four**, to the son of Crescenzo Crisci and Angela Quotolo.",
+  "how": "The 1829 marriage tavola — a single sheet, filmed sideways, carrying the whole year's sixteen marriages. The month was settled by comparison: two rows below sits «10 **Xbre** 1829», whose X is nothing like this 7.",
+  "why": "**FRANCESCA MARIA LUCIA IS STILL OPEN.** Half a question closed is not a question closed, and the page now says so. \n\nWhat the answer adds is a pattern rather than a fact. **This is the second Falco woman to marry a Crisci in eleven years** — Anna Falco, daughter of Pasquale, in 1818, and now Giovanna, daughter of Giuseppe, in 1829. The two brides were **first cousins**. The Crisci are already the Falco's nearest neighbours on strada Camellara, already their co-declarants, and already the family a Falco widow's son was buried by. Marrying next door is what these households did."
+ },
+ {
+  "when": "2026-09-14",
+  "sev": "major",
+  "what": "Raffaela Falco married her first cousin — and the «Francesco Falco» this archive could not place is named",
+  "was": "**RAFFAELA FALCO**, daughter of Giuseppe Falco and Antonia di Guida, died 20 April 1854 on strada Camellara, «*moglie di **FRANCESCO FALCO***». Her household was published here yesterday with three dead children and this caveat: «*Her husband was also a Falco, which at Arienzo is common enough to **prove nothing on its own**.*»",
+  "now": "**He was her first cousin.** «*8. **FALCO FRANCESCANTONIO** | **Falco Pasquale, e Rivetti Chiara***» ed «***FALCO RAFFAELA** | **Falco Giuseppe, e Guida Antonia*** | A **16 [Luglio] 1832***». **Giuseppe and Pasquale Falco were brothers**, both sons of Matteo. So their children married, and **Francescantonio is a new son for generation four** — Pasquale and Chiara had no son of that name on record.",
+  "how": "The 1832 marriage tavola, both rows magnified to the word. The parents' column is what carries it; the surname alone would have proved nothing, exactly as the caveat said.",
+  "why": "**It closes a loop the archive had left open on purpose**, and it does it the way the caveat implied it would have to be done — by a record that states both parentages, not by a matching surname. \n\nIt also changes what the three dead children are. **Carmina, Clemente and Pasqualina Falco are Matteo Falco's great-grandchildren through BOTH of his sons at once.** \n\n**One thing does not fit and is left showing.** Raffaela's death act makes her thirty-four in 1854, so born about 1820 — which would have her marrying at twelve. Both figures are read from the image and they cannot both be right. Her brother Crescenzo's marriage carries a papal dispensation «*super quarto gradu consanguinitatis*», so cousin-marriage in this house is documented; a bride of twelve is not, and the birth year is the likelier error."
  }
 ]
