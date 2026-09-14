@@ -144,7 +144,25 @@ Two independent films, two independent machine passes, and they agree:
 > qui nominatus est **Joachim**; Commater fuit **Dorothea d'Adio**, Obstetrix vero **Cecilia
 > Martone**.» — Antonius Archipr. Romano
 
-**That is corroboration, not an image read.** The read was started — the page overview is in hand, the
-margin «Joachim» located, the act's opening line «*Anno D̄ni Millesimo Septingentesimo Se[ptuagesimo
-nono]*» rendered — and **FamilySearch rate-limited the next tile request before the body**. It stays
-listed as *transcription* until the body is read. One render finishes it.
+**And then it was read.** Four renders after the rate limit cleared, off the second film:
+
+> «Anno D̄ni Millesimo Septingentesimo Septuagesimo nono **1779**, die vero **secunda 2 Februarii**,
+> R̄dus D̄nus D. **Joseph Migliore** Substitutus baptizavit infantem natum ex **Mattheo Falco, et
+> Francisca Crisci** conjugibus hujus Parochiae, qui nominatus est **Joachim**; Commater fuit
+> **Dorothea d'Addio**, Obstetrix vero **Cecilia Martone**.» — Antonius Archipr. Romano
+
+Margin «*Joachim Falco*». **Two films, two machine transcripts and one image reading, all agreeing.**
+The open question is answered and the act is no longer load-bearing on a machine.
+
+**A second filming is the cheapest corroboration this archive has, and nobody had been looking for
+one.** These parishes were filmed more than once; a load-bearing act read from one photograph can
+usually be checked against another — different exposure, different focus, and a wholly independent
+pass by the recogniser. That is now a standing move for any act the line depends on.
+
+**And it joined two spellings.** The *Dorotea d'Adio* of 1779 and the *Dorothea d'Addio* who is
+godmother to Maddalena Falco in 1818 are one name, thirty-nine years apart — see
+[maddalena-falco-1818.md](maddalena-falco-1818.md).
+
+**One more thing on that spread:** the facing margin is «**Vittoria di Guida**» — the daughter of
+Filippo di Guida and Margherita Rivetta. The founders' son and the *other* di Guida–Rivetta couple's
+daughter were baptised thirteen days apart and are written on the same opening.
