@@ -2615,7 +2615,8 @@
 "via": "register",
 "vias": [
 "register"
-]
+],
+"superseded": "RETIRED READING, KEPT VISIBLE. This archive carried the household as «Francesco COSSI & Maria Falco» from 1823 to 1828 and then corrected it to CIOFFI: the 1825 register, read at full resolution, writes the strada Camellara family with a DOTTED «i» after the C — «Cesare Cioffi», «Francesco Cioffi» — and writes the strada Cossi family, in the same volume and the same hand, without one. FRANCESCO CIOFFI is the father. «Francesco Cossi» is the same man under the discarded spelling, left standing because corrections in this archive are shown, not swapped. Re-confirmed 15 September 2026 on the 1824 birth act at four times magnification, after this reader had re-made the old mistake that morning."
 },
 {
 "slug": "maria-falco-of-francesco-cioffi-maria-falco",
@@ -2763,7 +2764,8 @@
 "via": "register",
 "vias": [
 "register"
-]
+],
+"superseded": "RETIRED READING, KEPT VISIBLE. This archive carried the household as «Francesco COSSI & Maria Falco» from 1823 to 1828 and then corrected it to CIOFFI: the 1825 register, read at full resolution, writes the strada Camellara family with a DOTTED «i» after the C — «Cesare Cioffi», «Francesco Cioffi» — and writes the strada Cossi family, in the same volume and the same hand, without one. FRANCESCO CIOFFI is the father. «Francesco Cossi» is the same man under the discarded spelling, left standing because corrections in this archive are shown, not swapped. Re-confirmed 15 September 2026 on the 1824 birth act at four times magnification, after this reader had re-made the old mistake that morning."
 },
 {
 "slug": "maria-falco-of-francesco-cioffi-maria-falco",
@@ -2837,7 +2839,8 @@
 "via": "register",
 "vias": [
 "register"
-]
+],
+"superseded": "RETIRED READING, KEPT VISIBLE. This archive carried the household as «Francesco COSSI & Maria Falco» from 1823 to 1828 and then corrected it to CIOFFI: the 1825 register, read at full resolution, writes the strada Camellara family with a DOTTED «i» after the C — «Cesare Cioffi», «Francesco Cioffi» — and writes the strada Cossi family, in the same volume and the same hand, without one. FRANCESCO CIOFFI is the father. «Francesco Cossi» is the same man under the discarded spelling, left standing because corrections in this archive are shown, not swapped. Re-confirmed 15 September 2026 on the 1824 birth act at four times magnification, after this reader had re-made the old mistake that morning."
 },
 {
 "slug": "maria-falco-of-francesco-cioffi-maria-falco",
@@ -2911,7 +2914,8 @@
 "via": "register",
 "vias": [
 "register"
-]
+],
+"superseded": "RETIRED READING, KEPT VISIBLE. This archive carried the household as «Francesco COSSI & Maria Falco» from 1823 to 1828 and then corrected it to CIOFFI: the 1825 register, read at full resolution, writes the strada Camellara family with a DOTTED «i» after the C — «Cesare Cioffi», «Francesco Cioffi» — and writes the strada Cossi family, in the same volume and the same hand, without one. FRANCESCO CIOFFI is the father. «Francesco Cossi» is the same man under the discarded spelling, left standing because corrections in this archive are shown, not swapped. Re-confirmed 15 September 2026 on the 1824 birth act at four times magnification, after this reader had re-made the old mistake that morning."
 },
 {
 "slug": "maria-falco-of-francesco-cioffi-maria-falco",
@@ -8738,7 +8742,9 @@
 "via": "tree",
 "vias": [
 "tree"
-]
+],
+"sameAs": "andreana-crisci",
+"kept": "THE SAME WOMAN, DELIBERATELY NOT MERGED. This is ANDREANA CRISCI of the registers under the family tree's spelling. This archive does not merge two records because their names match: THERE ARE TWO ANDREANA CRISCI IN THE TREE and no date yet separates them. Merging them is a judgement for whoever next reads the register, not something the person-graph should do on a name — the rule exists because a name-level merge once nearly deleted a true fact about a different man. Both spellings stand until an act decides it."
 },
 {
 "slug": "andreana-crisci",
@@ -20558,7 +20564,7 @@
 "vias": [
 "tree"
 ],
-"superseded": "The family tree makes this person a parent of generation 2. This archive does not: it identifies generation 1 as Matteo Falco. The reasoning is on the Method page."
+"superseded": "RETIRED — THE ANCESTOR THIS ARCHIVE DISCARDED. The family tree heads the line with AGOSTINO FALCONE and ELISABETTA SABINA. This archive replaced that head with MATTEO FALCO, argued act by act; the whole first section of the Method page is that argument, and the surname in the tree is FALCONE, not FALCO. The claim is kept on the record rather than deleted so that a reader who finds it in the tree can see it was examined and why it was dropped."
 },
 {
 "slug": "elisabetta-sabina",
@@ -20567,7 +20573,7 @@
 "vias": [
 "tree"
 ],
-"superseded": "The family tree makes this person a parent of generation 2. This archive does not: it identifies generation 1 as Matteo Falco. The reasoning is on the Method page."
+"superseded": "RETIRED — THE ANCESTOR THIS ARCHIVE DISCARDED. The family tree heads the line with AGOSTINO FALCONE and ELISABETTA SABINA. This archive replaced that head with MATTEO FALCO, argued act by act; the whole first section of the Method page is that argument, and the surname in the tree is FALCONE, not FALCO. The claim is kept on the record rather than deleted so that a reader who finds it in the tree can see it was examined and why it was dropped."
 },
 {
 "slug": "matteo-falco-of-matteo-falco-francesca-crisci",
@@ -21781,7 +21787,8 @@
 "vias": [
 "tree"
 ],
-"superseded": "The family tree makes this person a parent of generation 4. This archive does not: it identifies generation 3 as someone else. The reasoning is on the Method page."
+"sameAs": "andreana-crisci",
+"kept": "THE SAME WOMAN, DELIBERATELY NOT MERGED. This is ANDREANA CRISCI of the registers under the family tree's spelling. This archive does not merge two records because their names match: THERE ARE TWO ANDREANA CRISCI IN THE TREE and no date yet separates them. Merging them is a judgement for whoever next reads the register, not something the person-graph should do on a name — the rule exists because a name-level merge once nearly deleted a true fact about a different man. Both spellings stand until an act decides it."
 },
 {
 "slug": "andreana-crisci",
@@ -28279,7 +28286,8 @@
 "via": "register",
 "vias": [
 "register"
-]
+],
+"superseded": "DISPROVED BY DATES. Gaetana Laudato was «di anni SETTANTOTTO» when she died on 9 March 1816, so born about 1738, and she stands in this household as the WIDOW OF SIMONE MORGILLO — a generation above its head. Vincenzo Morgillo was twenty-nine in May 1828, so born about 1799. She was sixty-one at his birth. She is the house's elder, not his mother, and the graph read the role «mother» as a relationship to every child recorded in the same house."
 },
 {
 "slug": "giuseppe-morgillo",
@@ -28287,7 +28295,8 @@
 "via": "register",
 "vias": [
 "register"
-]
+],
+"superseded": "DISPROVED — A DIFFERENT VINCENZO MORGILLO. The register names Giuseppe Morgillo «as a parent of Vincenzo Morgillo, FOUR DAYS OLD, strada Salvatorella», who died on 25 January 1816 (Arienzo death register 1816, image 6). The Vincenzo Morgillo of this record was twenty-nine in May 1828, a contadino of STRADA CAPPUCCINI and husband of Felicetta Rivetti, who declared two deaths at the Capuchin monastery in 1823 and 1826. An infant dead at four days in 1816 is not a man of twenty-nine in 1828, and the streets differ. Merged on the forename alone."
 }
 ],
 "spouses": [],
