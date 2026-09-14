@@ -99,8 +99,20 @@ def is_placeholder(n):
 
 def forms(n):
     """"Andrea / Andreana Crisci" is one woman written two ways."""
+    raw = re.sub(r"\s+", " ", strip_ticks(n or "")).strip()
     n = clean(n)
     out = {norm(n)}
+    # "Adriana (Andreana) Crisci" is the same thing done with brackets: the
+    # archive's line file spells generation three's wife that way and every
+    # act spells her ANDREANA CRISCI, so the two never met and generation
+    # three went unassigned. Emit the name WITHOUT the bracket, and the name
+    # with the bracketed word PUT IN PLACE OF the word before it. Never the
+    # bracketed word on its own — "Giuseppa Ferrara (Zampiello)" is a married
+    # surname, and "Zampiello" alone would match the wrong people.
+    if "(" in raw and ")" in raw:
+        m = re.search(r"(\S+)\s*\(([^)]*)\)", raw)
+        if m:
+            out.add(norm(raw[:m.start(1)] + m.group(2) + raw[m.end(0):]))
     if "/" in n:
         head = n.split("/")[0].strip().split()
         tail = n.split("/")[-1].strip().split()
