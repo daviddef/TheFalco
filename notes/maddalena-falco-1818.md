@@ -51,25 +51,47 @@ Checking the find against existing holdings — in the same pass, as the rule re
    marriage act of 4 August 1802 calls her «*filiam Josephi e Magdalenae*». The open question is
    whether that Giuseppe is the massaro of strada Maddalena — not whether a record exists.
 
-## And one genuinely open thing
+## SETTLED THE SAME DAY: the surname is RIVETTA — and it joined two households
 
-The 1802 act's reading of the mother's surname **splits between two files**: `PIVERA`
-(`data/households.tsv`) and `RIVETTA` (`data/arienzo-parish-acts.tsv`, in a row marked *read from
-the image*), off the one ark `3Q9M-CSMY-B74R-4`.
+The 1802 act's mother's surname split between `PIVERA` (`data/households.tsv`) and `RIVETTA`
+(`data/arienzo-parish-acts.tsv`). Traced to source, `households.tsv` was carrying **the OCR, copied**;
+the same engine renders Rivetta as «Riveta» and «Rivera» three lines earlier on the same page.
 
-**Traced to source the same day, and the split is not even.** The page's machine transcript reads
-«*Antonian di Guida filian Josephi e Magdele **PIVERA***» — so `households.tsv` is carrying **the
-OCR, copied**. And the OCR fails on this very letter three lines earlier: in Rosa Falco's marriage
-of 12 July 1802, on the same page, it renders what are almost certainly Rivetta as «**Riveta**»
-once and «**Rivera**» once.
+**Then re-rendered at magnification** (`3Q9M-CSMY-B74R-4`, 2258×1650, level 12, band
+`x 1650 y 1195 w 400 h 85` at zoom 1.95 — **three tiles**):
 
-So this is a machine artefact weighed against a human reading, not two witnesses. **Neither form is
-adopted** — RIVETTA is also the commonest surname in the corpus, which is precisely the shape of
-the «proja» error. The act still wants re-rendering at magnification.
+> «…et **Antoniam di Guida filiam Josephi, et Magdalenæ RIVETTA**, utrosq̃ meos parochianos, servata
+> forma Ritu: Roma:…»
 
-**Blocked on this, 14 September:** the Browser pane was hidden, so the page composites no frames and
-screenshots time out. `__meta` and tile fetches still work — the block is display, not FamilySearch.
-The overview tiles for `3Q9M-CSMY-B74R-4` (2258×1650, level 12) are already fetched and cached.
+**The control is inside the same frame.** The next line reads «*servata forma **R**itu: **R**oma:*» —
+two capital R from the same pen at the same size, matching the initial of *Rivetta* exactly. Double
+**t**, terminal **-a**. **PIVERA was the machine; the archive's own earlier human reading was right.**
+
+**The method that settled it, and the one that would have got lucky.** RIVETTA is this corpus's
+commonest surname, so adopting it on frequency would have produced the right answer for a bad reason.
+What actually settled it was **finding the same scribe writing the same letter a few words away**.
+That is now the standard here for any single-letter dispute.
+
+### What the letter was blocking
+
+With the surname fixed, two records the archive had been keeping apart are one:
+
+- **4 Aug 1802**, the marriage act — Antonia di Guida is «*filiam **Josephi**, et **Magdalenæ
+  Rivetta***».
+- **21 Oct 1817**, an Arienzo death act — **Angelo Andrea di Guida**, husband of Teresa Vigliotta, is
+  «*figlio di **Giuseppe di Guida** e **Michedalena Rivetti***». The archive had already worked out
+  that «*Miche-/dalena*» is the scribe's own line-break, a Campanian blend for **Maddalena**.
+- **6 Sep 1819** — «*Giuseppe di Guida, di anni sessantotto, massaro di campagna … **strada
+  Maddalena***», born about 1751.
+
+So **Antonia's parents were Giuseppe di Guida and Maddalena Rivetti of strada Maddalena**, and
+**Angelo Andrea di Guida was her brother**. **Probable, not proven**: a matched *pair* of parent names
+in one small comune is much stronger than a matched name, but nothing yet excludes a second such
+couple. Antonia's own death act, or a di Guida baptism naming both parents, would close it.
+
+**And a pattern, recorded not interpreted:** Matteo Falco's two sons married a Rivetti and a Rivetti's
+daughter — Pasquale took Chiara Rivetti, Giuseppe took Maddalena Rivetti's daughter. No kinship
+between the two Rivetti houses is claimed.
 
 ## A thread worth pulling: the d'Addio at the font
 
