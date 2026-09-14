@@ -25,7 +25,7 @@ The September verdict said of this family: «*no electoral roll, no BDM, no ceme
 **As a statement about the datasets, that was wrong.** With the travel-and-migration filter removed,
 FALCO returns **56 BMD and cemetery records**, 39 of them Australian — Victoria and New South Wales
 births, marriages and deaths from the 1890s, South Australian deaths, BillionGraves entries, and
-**four in Queensland that this archive had never seen**:
+four in Queensland — **three of which this archive had already assessed**, with more detail than FindMyPast gives:
 
 | record | |
 |---|---|
@@ -34,11 +34,10 @@ births, marriages and deaths from the 1890s, South Australian deaths, BillionGra
 | **Giuseppe Falco**, b. 1898, d. **1979** | buried **8 June 1979, Home Hill Cemetery**, aged 81 |
 | **Giuseppe Falco**, m. **2 April 1932** | Queensland Marriages, reg. 1932/001027, to **Mary Rubiolo** |
 
-**And they are almost certainly not this family.** *Home Hill* is the **Burdekin sugar district of
+**And this archive had already ruled on them.** `data/qld-bdm.tsv` carries Bartolomeo (1990/53930), Giuseppe (1979/C/1878 and the 1932 marriage) and Maria Margherita (1986/54962) — graded **candidate**, **candidate** and **not ours**, and naming a father FindMyPast never shows: **Domenico Falco**. Maria Margherita is not even a Falco by birth — her parents are Camisassia Francesco and Camilla Ramero. **My «never seen» was wrong.** What the FindMyPast pass adds is the burial place, *Home Hill*, and that is worth having: *Home Hill* is the **Burdekin sugar district of
 North Queensland**, a thousand kilometres from Brisbane and the destination of a largely Sicilian and
-northern-Italian cane-cutting migration; *Rubiolo* is a Piedmontese surname. Nothing ties them to
-Arienzo. **They are recorded, with that reasoning, so that the next person does not spend a week on
-them** — and so that if an Arienzo link ever appears, the records are already to hand.
+northern-Italian cane-cutting migration; *Rubiolo* is a Piedmontese surname. Nothing ties them to Arienzo, and a **Domenico** Falco heads that household. The grading already in
+`qld-bdm.tsv` stands; Home Hill strengthens it.
 
 **The narrower claim survives**: for *this* family — Carminantonio, Filomena, Carmine — FindMyPast
 still holds nothing but passenger lists.
