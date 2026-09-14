@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "astro dev --port 4322",
-    "build": "npm run publish:index && astro build && npm run check && npm run sitemap && npm run check:living && npm run check:kit",
+    "atlas": "python3 ../tools/atlas.py",
+    "build": "npm run atlas && npm run publish:index && astro build && npm run check && npm run sitemap && npm run check:living && npm run check:kit",
     "preview": "astro preview --port 4322",
     "check": "python3 ../tools/check_release.py",
     "build:nocheck": "astro build",
@@ -15,7 +16,7 @@
     "check:living": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkliving.py --dist dist --data src/data --policy named-bare"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#152ca28",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#1784e99",
     "astro": "^5.18.2"
   }
 }

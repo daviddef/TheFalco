@@ -1,15 +1,15 @@
-node_modules/
-dist/
-.DS_Store
-*.log
-.env
-
-site/.astro/
 
 # The private MyHeritage exports. They carry every living person in full —
-# names, birth dates, birth places — and this repository is public. The
 # archive's own data under site/src/data is the redacted, publishable form;
+# names, birth dates, birth places — and this repository is public. The
 # these are the raw source and must never be committed again.
-data/myheritage-falco-tree.json
+*.log
+.DS_Store
+.env
 data/myheritage-facts.tsv
+data/myheritage-falco-tree.json
 data/myheritage-missing.json
+dist/
+node_modules/
+site/.astro/
+site/public/atlas-data.json
