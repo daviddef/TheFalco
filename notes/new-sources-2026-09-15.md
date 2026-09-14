@@ -3,14 +3,18 @@
 Find a Grave, BillionGraves, Trove and Matricula had **zero mentions** in an archive of 11,760
 register rows. One of them rewrote a generation; three are now closed with reasons.
 
-## 1. FIND A GRAVE — the largest single find of the year
+## 1. FIND A GRAVE — claimed as the find of the year, and it was not
 
-See [nudgee-graves.md](nudgee-graves.md) and `data/nudgee-graves.tsv`. Five Falco memorials in
+> **CORRECTED, two hours later.** Everything below that was announced as new **was already held** — in
+> `data/nudgee-burials.tsv` (all five graves, same plots), `data/qld-bdm.tsv` (all three death
+> registrations with parents transcribed, marked «ours») and `data/naa-records.tsv` (**J25 1972/4964**,
+> «*Falco, Raffaele … wife Caterina [nee Zampiello]; and children Filomena and Antonio*»). Caterina's
+> descent from Angelo Zampiello, called «not established», is in the harvested tree. **What survives is
+> the location-id trap below, and five memorial ids as a second witness.** See /corrections.
+
+`data/nudgee-graves.tsv`. Five Falco memorials in
 **Nudgee Cemetery and Crematorium**, Brisbane, four carrying **transcribed Queensland death
-registrations with the parents named**. It dated Carminantonio (1900–1985) and Filomena (1897–1988),
-**settled Filomena's contested birth at Forchia**, produced **a whole generation the archive lacked**
-— Raffaele Falco, b. Forchia 25 Aug 1925 — and **joined the Falco to the Zampiello** through his wife
-Caterina.
+registrations with the parents named**. **None of which was new.** The archive's own figures are better: Carminantonio **b. 11 Jan 1901**, Filomena **b. 10 Apr 1897**.
 
 **HOW IT NEARLY PRODUCED TWO FALSE NILS.** Find a Grave's `locationId` values are opaque integers and
 **not guessable**:

@@ -142,9 +142,9 @@
  {
   "g": "Cemetery index, Australia",
   "t": "Find a Grave — Nudgee Cemetery and Crematorium, Brisbane",
-  "d": "Cemetery 2188553, 35,848 memorials, about half photographed. Searched 15 September 2026 — the first time this archive has opened a grave index at all. Five Falco memorials, four of them carrying transcribed Queensland death registrations with the deceased's parents named. Saved to data/nudgee-graves.tsv.",
+  "d": "Cemetery 2188553, 35,848 memorials, about half photographed. Searched 15 September 2026 — the first time this archive has opened THIS grave index — the cemetery's own portal had already been harvested. Five Falco memorials, four of them carrying transcribed Queensland death registrations with the deceased's parents named. Saved to data/nudgee-graves.tsv.",
   "id": "Memorials 183378272, 183378273, 183378275, 183378276, 247996006",
-  "use": "HIGH, and it should have been opened a year ago. It dated Carminantonio Falco (1900–1985) and Filomena Annecchino (1897–1988), named both their fathers, produced a whole generation the archive lacked — Raffaele Falco, b. Forchia 25 Aug 1925 — and joined the Falco to the Zampiello. CAUTION: locationId values are not guessable. Australia is country_15 and Queensland state_576; a guessed country_14 returns SWITZERLAND and reads exactly like a nil."
+  "use": "LOW — and this entry originally claimed HIGH, wrongly. Every burial it returns was already held: data/nudgee-burials.tsv (from the cemetery's own portal), data/qld-bdm.tsv (the death registrations, with parents transcribed) and NAA J25 1972/4964. It is a useful SECOND WITNESS and nothing more. CAUTION, and this is the real value: locationId values are not guessable. Australia is country_15 and Queensland state_576; a guessed country_14 returns SWITZERLAND while the page still reads «Australia», and a wrong state id returns a clean-looking nil."
  },
  {
   "g": "Cemetery index, Australia",
