@@ -54,9 +54,22 @@ Checking the find against existing holdings — in the same pass, as the rule re
 ## And one genuinely open thing
 
 The 1802 act's reading of the mother's surname **splits between two files**: `PIVERA`
-(`data/households.tsv`) and `RIVETTA` (`data/arienzo-parish-acts.tsv`), off the one ark
-`3Q9M-CSMY-B74R-4`. Neither is adopted. Rivetta being the commonest surname in the corpus is a
-reason to distrust it here, not to prefer it.
+(`data/households.tsv`) and `RIVETTA` (`data/arienzo-parish-acts.tsv`, in a row marked *read from
+the image*), off the one ark `3Q9M-CSMY-B74R-4`.
+
+**Traced to source the same day, and the split is not even.** The page's machine transcript reads
+«*Antonian di Guida filian Josephi e Magdele **PIVERA***» — so `households.tsv` is carrying **the
+OCR, copied**. And the OCR fails on this very letter three lines earlier: in Rosa Falco's marriage
+of 12 July 1802, on the same page, it renders what are almost certainly Rivetta as «**Riveta**»
+once and «**Rivera**» once.
+
+So this is a machine artefact weighed against a human reading, not two witnesses. **Neither form is
+adopted** — RIVETTA is also the commonest surname in the corpus, which is precisely the shape of
+the «proja» error. The act still wants re-rendering at magnification.
+
+**Blocked on this, 14 September:** the Browser pane was hidden, so the page composites no frames and
+screenshots time out. `__meta` and tile fetches still work — the block is display, not FamilySearch.
+The overview tiles for `3Q9M-CSMY-B74R-4` (2258×1650, level 12) are already fetched and cached.
 
 ## A thread worth pulling: the d'Addio at the font
 
