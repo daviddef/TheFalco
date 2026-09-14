@@ -111,6 +111,38 @@ def main():
     NOINDEX = 'content="noindex'
     n_noindex = sum(1 for f in pages
                     if NOINDEX in open(f, encoding="utf-8", errors="replace").read())
+    # --- the two household files must not drift apart again -----------------
+    #
+    # data/households.tsv is where this archive's reconstructed families are
+    # written; site/src/data/households.json is what the site is BUILT from.
+    # They silently diverged once, and two days of findings sat in the TSV
+    # while the site showed none of them — and the TSV kept a household name
+    # the JSON had already corrected, so a retracted reading was republished
+    # from it. Every TSV row must be present in the JSON.
+    import csv as _csv
+    _tsv = os.path.join(ROOT, "data", "households.tsv")
+    _js  = os.path.join(ROOT, "site", "src", "data", "households.json")
+    if os.path.exists(_tsv) and os.path.exists(_js):
+        _H = json.load(open(_js, encoding="utf-8"))
+        _RENAME = {"Francesco Cossi & Maria Falco": "Francesco Cioffi & Maria Falco"}
+        _have = {(h["name"], m.get("person", ""), m.get("event") or "", m.get("date") or "")
+                 for h in _H for m in h["members"]}
+        _names = {h["name"] for h in _H}
+        _missing = []
+        for _r in _csv.DictReader(open(_tsv, encoding="utf-8"), delimiter="\t"):
+            _n = _RENAME.get(_r["household"], _r["household"])
+            if _n not in _names:
+                _missing.append(f"household absent from households.json: {_n}")
+            elif (_n, _r["person"], _r["event"], _r["date"]) not in _have:
+                _missing.append(f"{_n}: {_r['person']} / {_r['event']} / {_r['date']}")
+        print(f"check_release: households.tsv {'in step with' if not _missing else 'AHEAD OF'} households.json")
+        if _missing:
+            print(f"\nFAILED — {len(_missing)} row(s) in data/households.tsv are not in the file the")
+            print("site builds from. Findings written there will not appear on the archive:\n")
+            for _x in _missing[:20]:
+                print("   ", _x)
+            sys.exit(1)
+
     print(f"check_release: {len(pages)} pages, {len(living)} living people, {n_noindex} noindexed")
     if fails:
         print("\nFAILED — the living-people rule is broken:\n")

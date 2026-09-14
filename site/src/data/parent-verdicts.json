@@ -38,20 +38,6 @@
    "reason": "DISPROVED — A DIFFERENT VINCENZO MORGILLO. The register names Giuseppe Morgillo «as a parent of Vincenzo Morgillo, FOUR DAYS OLD, strada Salvatorella», who died on 25 January 1816 (Arienzo death register 1816, image 6). The Vincenzo Morgillo of this record was twenty-nine in May 1828, a contadino of STRADA CAPPUCCINI and husband of Felicetta Rivetti, who declared two deaths at the Capuchin monastery in 1823 and 1826. An infant dead at four days in 1816 is not a man of twenty-nine in 1828, and the streets differ. Merged on the forename alone."
   },
   {
-   "child": "antonio-falco",
-   "parent": "andrea-andreana-crisci",
-   "verdict": "same-as",
-   "sameAs": "andreana-crisci",
-   "reason": "THE SAME WOMAN, DELIBERATELY NOT MERGED. This is ANDREANA CRISCI of the registers under the family tree's spelling. This archive does not merge two records because their names match: THERE ARE TWO ANDREANA CRISCI IN THE TREE and no date yet separates them. Merging them is a judgement for whoever next reads the register, not something the person-graph should do on a name — the rule exists because a name-level merge once nearly deleted a true fact about a different man. Both spellings stand until an act decides it."
-  },
-  {
-   "child": "raffaele-falco",
-   "parent": "andrea-andreana-crisci",
-   "verdict": "same-as",
-   "sameAs": "andreana-crisci",
-   "reason": "THE SAME WOMAN, DELIBERATELY NOT MERGED. This is ANDREANA CRISCI of the registers under the family tree's spelling. This archive does not merge two records because their names match: THERE ARE TWO ANDREANA CRISCI IN THE TREE and no date yet separates them. Merging them is a judgement for whoever next reads the register, not something the person-graph should do on a name — the rule exists because a name-level merge once nearly deleted a true fact about a different man. Both spellings stand until an act decides it."
-  },
-  {
    "child": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
    "parent": "agostino-falcone",
    "verdict": "retired",
@@ -62,6 +48,73 @@
    "parent": "elisabetta-sabina",
    "verdict": "retired",
    "reason": "RETIRED — THE ANCESTOR THIS ARCHIVE DISCARDED. The family tree heads the line with AGOSTINO FALCONE and ELISABETTA SABINA. This archive replaced that head with MATTEO FALCO, argued act by act; the whole first section of the Method page is that argument, and the surname in the tree is FALCONE, not FALCO. The claim is kept on the record rather than deleted so that a reader who finds it in the tree can see it was examined and why it was dropped."
+  },
+  {
+   "child": "angela-rosa-falco",
+   "parent": "giovanna-arricole",
+   "verdict": "same-as",
+   "sameAs": "giovanna-arricale",
+   "reason": "ONE WOMAN, TWO SPELLINGS, DELIBERATELY NOT MERGED. The family tree writes her «Giovanna Arricole»; the registers write her «Giovanna Arricale». The 1873 birth extract of her son Raffaele spells her «GIOVANNA ARRICALE FU FRANCESCO», which is the reading this archive follows. This archive does not merge two records on a matching name — that judgement belongs to whoever next reads an act that settles the spelling, and until then both records stand and the chart can say which is which."
+  },
+  {
+   "child": "maria-giuseppa-falco",
+   "parent": "giovanna-arricole",
+   "verdict": "same-as",
+   "sameAs": "giovanna-arricale",
+   "reason": "ONE WOMAN, TWO SPELLINGS, DELIBERATELY NOT MERGED. The family tree writes her «Giovanna Arricole»; the registers write her «Giovanna Arricale». The 1873 birth extract of her son Raffaele spells her «GIOVANNA ARRICALE FU FRANCESCO», which is the reading this archive follows. This archive does not merge two records on a matching name — that judgement belongs to whoever next reads an act that settles the spelling, and until then both records stand and the chart can say which is which."
+  },
+  {
+   "child": "caterina-zampiello",
+   "parent": "giuseppa-ferrara",
+   "verdict": "same-as",
+   "sameAs": "giuseppa-ferraro",
+   "reason": "ONE WOMAN, TWO SPELLINGS, DELIBERATELY NOT MERGED. The family tree writes her «Giuseppa Ferrara»; the registers write her «Giuseppa Ferraro». The Arpaia marriage act of 26 August 1939, which documents this couple, gives FERRARO. This archive does not merge two records on a matching name — that judgement belongs to whoever next reads an act that settles the spelling, and until then both records stand and the chart can say which is which."
+  },
+  {
+   "child": "francesca-zampiello",
+   "parent": "giuseppa-ferrara",
+   "verdict": "same-as",
+   "sameAs": "giuseppa-ferraro",
+   "reason": "ONE WOMAN, TWO SPELLINGS, DELIBERATELY NOT MERGED. The family tree writes her «Giuseppa Ferrara»; the registers write her «Giuseppa Ferraro». The Arpaia marriage act of 26 August 1939, which documents this couple, gives FERRARO. This archive does not merge two records on a matching name — that judgement belongs to whoever next reads an act that settles the spelling, and until then both records stand and the chart can say which is which."
+  },
+  {
+   "child": "raffaela-zampiello",
+   "parent": "giuseppa-ferrara",
+   "verdict": "same-as",
+   "sameAs": "giuseppa-ferraro",
+   "reason": "ONE WOMAN, TWO SPELLINGS, DELIBERATELY NOT MERGED. The family tree writes her «Giuseppa Ferrara»; the registers write her «Giuseppa Ferraro». The Arpaia marriage act of 26 August 1939, which documents this couple, gives FERRARO. This archive does not merge two records on a matching name — that judgement belongs to whoever next reads an act that settles the spelling, and until then both records stand and the chart can say which is which."
+  },
+  {
+   "child": "rosina-zampiello",
+   "parent": "giuseppa-ferrara",
+   "verdict": "same-as",
+   "sameAs": "giuseppa-ferraro",
+   "reason": "ONE WOMAN, TWO SPELLINGS, DELIBERATELY NOT MERGED. The family tree writes her «Giuseppa Ferrara»; the registers write her «Giuseppa Ferraro». The Arpaia marriage act of 26 August 1939, which documents this couple, gives FERRARO. This archive does not merge two records on a matching name — that judgement belongs to whoever next reads an act that settles the spelling, and until then both records stand and the chart can say which is which."
+  },
+  {
+   "child": "tommasina-zampiello",
+   "parent": "giuseppa-ferrara",
+   "verdict": "same-as",
+   "sameAs": "giuseppa-ferraro",
+   "reason": "ONE WOMAN, TWO SPELLINGS, DELIBERATELY NOT MERGED. The family tree writes her «Giuseppa Ferrara»; the registers write her «Giuseppa Ferraro». The Arpaia marriage act of 26 August 1939, which documents this couple, gives FERRARO. This archive does not merge two records on a matching name — that judgement belongs to whoever next reads an act that settles the spelling, and until then both records stand and the chart can say which is which."
+  },
+  {
+   "child": "giuseppa-cioffi",
+   "parent": "francesco-cossi",
+   "verdict": "retired",
+   "reason": "RETIRED READING, KEPT VISIBLE. The household was carried as «Francesco COSSI & Maria Falco» from 1823 to 1828 and corrected to CIOFFI on the dotted «i» this clerk uses to separate the strada Camellara family from the strada Cossi one. FRANCESCO CIOFFI is the father; «Francesco Cossi» is the same man under the discarded spelling, left standing because corrections in this archive are shown and not swapped."
+  },
+  {
+   "child": "carmina-falco",
+   "parent": "gioacchino-guglielmo-falco",
+   "verdict": "retired",
+   "reason": "RETIRED — THE TREE IS DESCRIBING A DIFFERENT CARMINA FALCO. This Carmina is documented by a single act: she died on 19 December 1832 «di mesi SEI» — at six months old — «figlia di FRANCESCO FALCO, contadino, e di RAFFAELA FALCO», on strada Camellara. Her father is FRANCESCANTONIO FALCO, identified from the 1832 marriage index. An infant who lived six months has no descendants, so the Carmina the family tree carries, with different parents, is another woman of the name; the two records were joined on the forename. The tree's parents are kept on the record rather than deleted, so that a reader who finds them there can see they were examined."
+  },
+  {
+   "child": "carmina-falco",
+   "parent": "andreana-crisci-2",
+   "verdict": "retired",
+   "reason": "RETIRED — THE TREE IS DESCRIBING A DIFFERENT CARMINA FALCO. This Carmina is documented by a single act: she died on 19 December 1832 «di mesi SEI» — at six months old — «figlia di FRANCESCO FALCO, contadino, e di RAFFAELA FALCO», on strada Camellara. Her father is FRANCESCANTONIO FALCO, identified from the 1832 marriage index. An infant who lived six months has no descendants, so the Carmina the family tree carries, with different parents, is another woman of the name; the two records were joined on the forename. The tree's parents are kept on the record rather than deleted, so that a reader who finds them there can see they were examined."
   }
  ]
 }
