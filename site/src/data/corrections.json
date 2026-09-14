@@ -1597,5 +1597,23 @@
   "now": "**A fourth.** «*8. **LUIGI FALCO** | Arienzo | Di **SEBASTIANO, e COLOMBA MONTEFUSCO***» ed «***GIUSTINA PETRILLO** | Fu Sabatino, e Brigida Cossi*», married **1815**. **Neither Sebastiano Falco nor Colomba Montefusco appears anywhere in this archive** — not in the households, not in the register, not among the 549 people.",
   "how": "The 1815 marriage tavola, read while looking for something else entirely.",
   "why": "**Published because the archive's position costs something to hold.** Saying «the surname identifies nobody» is easy when the other Falco are safely elsewhere; it is worth more when a fourth household turns up in the same parish, in the same decade, with a son marrying a local woman. \n\nAnd a trap avoided by arithmetic alone: **the Luigi Falco of strada Camellara was baptised in December 1819** to Vincenzo Falco and Andreana Crisci. He was four years from being born when this Luigi married. The names match perfectly and the men cannot be the same."
+ },
+ {
+  "when": "2026-09-15",
+  "sev": "major",
+  "what": "Generation three married on 15 October 1814 — and a daughter found yesterday was named for her grandmother",
+  "was": "**VINCENZO FALCO and ANDREANA CRISCI** are the couple this whole line descends through, and the households file has carried **an em-dash in the date column** for their marriage since the archive began. The parish act names the parties and no day: «*Vincentium Falco **filium Paschalis, e Clarae Rivetta**, e Andreanam Crisci **filiam Arcangeli, e [Rosae] Ruggiero***» — the bride's mother in **brackets**, this archive's mark for a reading it does not trust.",
+  "now": "**«*16. **VINCENZO FALCO**, ed | Arienzo | **Pasquale, e Chiara Rivetti** | A **15 OTTOBRE 1814***» ed «***ANDREANA CRISCI** | Arienzo | **Arcangelo, e SARA RUGGIERO***».** He was **twenty-two**, baptised 1 February 1792; she was **seventeen**, baptised 30 November 1796. And her mother is **SARA**, not Rosa.",
+  "how": "The 1814 marriage tavola, reached on the last unread block of the series. The row was magnified twice — once for the groom's line and the date, once for the bride's parents.",
+  "why": "**The forename is the part that pays.** Yesterday this archive published a new daughter for this couple: **SARA FALCO, born 19 December 1828** — the only Sara in the household, found in a tavola whose F group ran across a page break. She was named **for her mother's mother**, and neither fact could be seen without the other. \n\nIt also sharpens a caution rather than removing it. The midwife who declared Sara's birth was **GELSOMINA RUGGIERO, sixty**, and a Gelsomina Ruggiero stood *matrina* at this couple's son Raffaele's baptism in 1818. With Andreana's mother now firmly a **Ruggiero**, a kinship is **more likely than it was**. It is still not claimed, and it will not be until an act says so."
+ },
+ {
+  "when": "2026-09-15",
+  "sev": "method",
+  "what": "Read the tavola's own heading, not the catalogue label",
+  "was": "Every year in this sweep has been addressed by **arithmetic on the ark** and trusted on **Antenati's catalogue label** — «*Arienzo > 1814*» and so on.",
+  "now": "**The volume catalogued 1814 contains a tavola headed «*nell'Anno 1812*» on one leaf and a 1814 tavola on the next**, with the left-hand page of the opening a blank printed **1813** form. Three years in three leaves of one volume.",
+  "how": "Noticed only because the dates in the entries disagreed with the folder the file had been saved into.",
+  "why": "**Every tavola states its own year in its heading, and that is the only figure worth trusting.** The ark arithmetic already failed once in this series — `an_ua14135` is 1837, not 1836 — and the death indexes slip the same way after 1834. This is the third instance and the first where the mismatch is *inside a single volume*. \n\n**A negative taken from the label rather than the heading is worthless**: it would say «no Falco married in 1814» on the strength of a page about 1812. Every year reported as read on the searched page was checked against its own heading before it was written down."
  }
 ]
