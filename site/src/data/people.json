@@ -5577,6 +5577,13 @@
 "ark": "ANTENATI an_ua14322 img5r act5"
 },
 {
+"event": "marriage",
+"date": "3 May 1818",
+"place": "Arienzo",
+"evidence": "THE DATE OF A MARRIAGE THIS ARCHIVE HELD ONLY AS A FACT. The 1818 Tavola Alfabetica annuale de' Matrimonj pairs «ARCANGELO COSSI» with «ANNA FALCO», her parents given as «DI PASQUALE, e CHIARA RIVETTI» — no «fu» before either, and Pasquale Falco did not die until 1834. Married before the church 3 MAGGIO 1818. Anna was baptised 28 October 1795, so she married at TWENTY-TWO and was dead at twenty-four, on 23 August 1820. THE SURNAME IS WRITTEN COSSI HERE AND CRISCI IN THE 1820 ACTS — both read from the image, and this archive has already recorded that Cossi and Crisci are not reliably separable in this hand. The identification does not rest on it: there is one Anna Falco of Pasquale and Chiara, and one Arcangelo she was married to",
+"ark": "ANTENATI an_ua14117 (Arienzo, Matrimonj indice 1818) img 1 — READ FROM THE IMAGE"
+},
+{
 "event": "named in a marriage index",
 "date": "3 May 1818",
 "place": "Arienzo",
@@ -6090,11 +6097,37 @@
 }
 ],
 "sources": [
-"register"
+"register",
+"tree"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "giuseppe-falco-3",
+"name": "Giuseppe Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "antonia-guida-guido",
+"name": "Antonia Guida / Guido (Falco)",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
 "spouses": [
+{
+"slug": "raffaele-crisci",
+"name": "Raffaele Crisci",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
 {
 "slug": "matteo-falco-of-matteo-falco-francesca-crisci",
 "name": "Matteo Falco",
@@ -6179,7 +6212,46 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [
+{
+"slug": "giovanna-falco-2",
+"name": "Giovanna Falco (Crisci)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "matteo-falco-2",
+"name": "Matteo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "maria-falco",
+"name": "Maria Falco (Morgillo)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "crescenzo-falco-2",
+"name": "Crescenzo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"mergedOn": "name alone",
+"treeId": 4512408,
+"b": "1813",
+"d": "June 8 1876",
+"bp": "Arienzo, Caserta, Campania, Italy",
+"dp": "Arienzo, Caserta, Campania, Italy"
 },
 {
 "slug": "giovanna-crisci",
@@ -6701,7 +6773,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "francesca-falco",
+"slug": "francesca-crisci",
 "name": "Francesca Falco (Crisci)",
 "via": "tree",
 "vias": [
@@ -6784,30 +6856,6 @@
 "treeId": 4512412,
 "b": "Dec 24 1836",
 "bp": "Arienzo, Caserta, Campania, Italy"
-},
-{
-"slug": "vincenzo-falco-andreana-crisci",
-"name": "Vincenzo Falco & Andreana Crisci",
-"surname": "CRISCI",
-"household": "Vincenzo Falco & Andreana Crisci",
-"role": "—",
-"events": [
-{
-"event": "marriage",
-"date": "15 Oct 1814",
-"place": "Arienzo",
-"evidence": "GENERATION THREE'S OWN WEDDING DAY, WHICH THIS ARCHIVE HAS NEVER HAD. «16. VINCENZO FALCO, ed | Arienzo | PASQUALE, e CHIARA RIVETTI | A 15 OTTOBRE 1814» ed «ANDREANA CRISCI | Arienzo | ARCANGELO, e SARA RUGGIERO». The households row for this marriage has carried an em-dash in the date column since the archive began; the parish act («Vincentium Falco filium Paschalis, e Clarae Rivetta, e Andreanam Crisci filiam Arcangeli, e [Rosae] Ruggiero») gives the parties and no day. He was TWENTY-TWO — baptised 1 February 1792 — and she was SEVENTEEN, baptised 30 November 1796",
-"ark": "ANTENATI an_ua14113 (Arienzo, Matrimonj indice 1814) img 3 atto 16 — READ FROM THE IMAGE"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [],
-"children": [],
-"siblings": []
 },
 {
 "slug": "maria-giovanna-d-ambrosio",
@@ -9133,6 +9181,13 @@
 "ark": "ANTENATI an_ua14422 (Arienzo, Nati 1825) atto 72, folio 321, img 65r-66l — READ FROM THE IMAGE"
 },
 {
+"event": "marriage",
+"date": "19 Nov 1813",
+"place": "Arienzo",
+"evidence": "THE MISSING MARRIAGE, FOUND. «13. ALFONSO DIGLIO | Arienzo | Di CESARE, ed ANNA MANNA» ed «MAGGIA FALCO | Arienzo | Di PASQUALE, e CHIARA RIVETTI | A 19 9bre 1813». THE BRIDE'S GIVEN NAME IS WRITTEN «MAGGIA» HERE and MARIA everywhere else — in her own death act of 25 April 1826, which names the same husband and the same two parents. The identification does not rest on the forename: one Alfonso Diglio, son of Cesare, one wife, one set of parents. The spelling is reported as found and NOT reconciled, the same treatment given to the Cossi/Crisci pair. She married at TWENTY-THREE or TWENTY-FOUR (baptised 1789 or 1790), bore Clementina in May 1825 and died eleven months later",
+"ark": "ANTENATI an_ua14112 (Arienzo, Matrimonj indice 1813) img 1 atto 13 — READ FROM THE IMAGE"
+},
+{
 "event": "named in a marriage index",
 "date": "19 Nov 1813",
 "place": "Arienzo",
@@ -9493,30 +9548,6 @@
 ]
 }
 ],
-"siblings": []
-},
-{
-"slug": "alfonso-diglio-maria-falco",
-"name": "Alfonso Diglio & Maria Falco",
-"surname": "FALCO",
-"household": "Alfonso Diglio & Maria Falco",
-"role": "—",
-"events": [
-{
-"event": "marriage",
-"date": "19 Nov 1813",
-"place": "Arienzo",
-"evidence": "THE MISSING MARRIAGE, FOUND. «13. ALFONSO DIGLIO | Arienzo | Di CESARE, ed ANNA MANNA» ed «MAGGIA FALCO | Arienzo | Di PASQUALE, e CHIARA RIVETTI | A 19 9bre 1813». THE BRIDE'S GIVEN NAME IS WRITTEN «MAGGIA» HERE and MARIA everywhere else — in her own death act of 25 April 1826, which names the same husband and the same two parents. The identification does not rest on the forename: one Alfonso Diglio, son of Cesare, one wife, one set of parents. The spelling is reported as found and NOT reconciled, the same treatment given to the Cossi/Crisci pair. She married at TWENTY-THREE or TWENTY-FOUR (baptised 1789 or 1790), bore Clementina in May 1825 and died eleven months later",
-"ark": "ANTENATI an_ua14112 (Arienzo, Matrimonj indice 1813) img 1 atto 13 — READ FROM THE IMAGE"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [],
-"children": [],
 "siblings": []
 },
 {
@@ -10195,7 +10226,7 @@
 ]
 },
 {
-"slug": "rosa-zimbardo",
+"slug": "rosa-falco",
 "name": "Rosa Zimbardo (Falco)",
 "via": "tree",
 "vias": [
@@ -11301,7 +11332,7 @@
 ]
 },
 {
-"slug": "rosa-zimbardo",
+"slug": "rosa-falco",
 "name": "Rosa Zimbardo (Falco)",
 "via": "tree",
 "vias": [
@@ -12968,30 +12999,6 @@
 "dp": "Santa Maria a Vico, Caserta, Campania, Italia"
 },
 {
-"slug": "arcangelo-crisci-anna-falco",
-"name": "Arcangelo Crisci & Anna Falco",
-"surname": "FALCO",
-"household": "Arcangelo Crisci & Anna Falco",
-"role": "—",
-"events": [
-{
-"event": "marriage",
-"date": "3 May 1818",
-"place": "Arienzo",
-"evidence": "THE DATE OF A MARRIAGE THIS ARCHIVE HELD ONLY AS A FACT. The 1818 Tavola Alfabetica annuale de' Matrimonj pairs «ARCANGELO COSSI» with «ANNA FALCO», her parents given as «DI PASQUALE, e CHIARA RIVETTI» — no «fu» before either, and Pasquale Falco did not die until 1834. Married before the church 3 MAGGIO 1818. Anna was baptised 28 October 1795, so she married at TWENTY-TWO and was dead at twenty-four, on 23 August 1820. THE SURNAME IS WRITTEN COSSI HERE AND CRISCI IN THE 1820 ACTS — both read from the image, and this archive has already recorded that Cossi and Crisci are not reliably separable in this hand. The identification does not rest on it: there is one Anna Falco of Pasquale and Chiara, and one Arcangelo she was married to",
-"ark": "ANTENATI an_ua14117 (Arienzo, Matrimonj indice 1818) img 1 — READ FROM THE IMAGE"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [],
-"children": [],
-"siblings": []
-},
-{
 "slug": "assunta-falco",
 "name": "Assunta Falco",
 "surname": "FALCO",
@@ -13690,7 +13697,7 @@
 ]
 },
 {
-"slug": "rosa-zimbardo",
+"slug": "rosa-falco",
 "name": "Rosa Zimbardo (Falco)",
 "via": "tree",
 "vias": [
@@ -15268,7 +15275,7 @@
 ]
 },
 {
-"slug": "rosa-zimbardo",
+"slug": "rosa-falco",
 "name": "Rosa Zimbardo (Falco)",
 "via": "tree",
 "vias": [
@@ -15941,7 +15948,7 @@
 ]
 },
 {
-"slug": "francesca-falco",
+"slug": "francesca-crisci",
 "name": "Francesca Falco (Crisci)",
 "via": "tree",
 "vias": [
@@ -17197,86 +17204,6 @@
 },
 {
 "slug": "francesca-falco",
-"name": "Francesca Falco (Crisci)",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "giuseppe-falco-3",
-"name": "Giuseppe Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "antonia-guida-guido",
-"name": "Antonia Guida / Guido (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [
-{
-"slug": "raffaele-crisci",
-"name": "Raffaele Crisci",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"children": [],
-"siblings": [
-{
-"slug": "giovanna-falco-2",
-"name": "Giovanna Falco (Crisci)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "matteo-falco-2",
-"name": "Matteo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "maria-falco",
-"name": "Maria Falco (Morgillo)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "crescenzo-falco-2",
-"name": "Crescenzo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4512408,
-"b": "1813",
-"d": "June 8 1876",
-"bp": "Arienzo, Caserta, Campania, Italy",
-"dp": "Arienzo, Caserta, Campania, Italy"
-},
-{
-"slug": "francesca-falco-2",
 "name": "Francesca Falco",
 "surname": "FALCO",
 "household": null,
@@ -17336,7 +17263,7 @@
 ],
 "children": [
 {
-"slug": "francesca-falco-2",
+"slug": "francesca-falco",
 "name": "Francesca Falco",
 "via": "tree",
 "vias": [
@@ -19295,7 +19222,7 @@
 ]
 },
 {
-"slug": "francesca-falco",
+"slug": "francesca-crisci",
 "name": "Francesca Falco (Crisci)",
 "via": "tree",
 "vias": [
@@ -20871,7 +20798,7 @@
 ]
 },
 {
-"slug": "francesca-falco",
+"slug": "francesca-crisci",
 "name": "Francesca Falco (Crisci)",
 "via": "tree",
 "vias": [
@@ -21186,7 +21113,7 @@
 ],
 "spouses": [
 {
-"slug": "rosa-zimbardo",
+"slug": "rosa-falco",
 "name": "Rosa Zimbardo (Falco)",
 "via": "tree",
 "vias": [
@@ -23089,7 +23016,7 @@
 ]
 },
 {
-"slug": "rosa-zimbardo",
+"slug": "rosa-falco",
 "name": "Rosa Zimbardo (Falco)",
 "via": "tree",
 "vias": [
@@ -23687,7 +23614,7 @@
 ]
 },
 {
-"slug": "francesca-falco",
+"slug": "francesca-crisci",
 "name": "Francesca Falco (Crisci)",
 "via": "tree",
 "vias": [
@@ -25170,7 +25097,7 @@
 ]
 },
 {
-"slug": "francesca-falco",
+"slug": "francesca-crisci",
 "name": "Francesca Falco (Crisci)",
 "via": "tree",
 "vias": [
@@ -26420,8 +26347,9 @@
 {
 "slug": "vincenzo-falco",
 "name": "Vincenzo Falco",
-"via": "register",
+"via": "line",
 "vias": [
+"line",
 "register",
 "tree"
 ]
@@ -26867,7 +26795,7 @@
 ],
 "children": [
 {
-"slug": "francesca-falco-2",
+"slug": "francesca-falco",
 "name": "Francesca Falco",
 "via": "tree",
 "vias": [
@@ -28410,11 +28338,11 @@
 {
 "slug": "vincenzo-falco",
 "name": "Vincenzo Falco",
-"via": "tree",
+"via": "line",
 "vias": [
+"line",
 "tree"
-],
-"superseded": "The family tree makes this person a parent of generation 4. This archive does not: it identifies generation 3 as someone else. The reasoning is on the Method page."
+]
 },
 {
 "slug": "andreana-crisci",
@@ -28422,8 +28350,7 @@
 "via": "tree",
 "vias": [
 "tree"
-],
-"superseded": "The family tree makes this person a parent of generation 4. This archive does not: it identifies generation 3 as someone else. The reasoning is on the Method page."
+]
 }
 ],
 "spouses": [
@@ -28893,7 +28820,8 @@
 }
 ],
 "sources": [
-"register"
+"register",
+"tree"
 ],
 "living": false,
 "parents": [
@@ -28916,6 +28844,14 @@
 ],
 "spouses": [
 {
+"slug": "giuseppe-falco-7",
+"name": "Giuseppe Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
 "slug": "carlantonio-morgillo-of-carlantonio-morgillo-rosa-falco",
 "name": "Carlantonio Morgillo",
 "via": "register",
@@ -28925,6 +28861,46 @@
 }
 ],
 "children": [
+{
+"slug": "maria-carmina-falco",
+"name": "Maria Carmina Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "carmela-falco-3",
+"name": "Carmela Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "angelo-falco-5",
+"name": "Angelo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "clemente-falco-2",
+"name": "Clemente Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "angela-falco-2",
+"name": "Angela Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
 {
 "slug": "raffaele-morgillo",
 "name": "Raffaele Morgillo",
@@ -28999,7 +28975,13 @@
 "register"
 ]
 }
-]
+],
+"mergedOn": "name alone",
+"treeId": 4512524,
+"b": "1829",
+"d": "Aug 12 1889",
+"bp": "Arienzo, Caserta, Campania, Italia",
+"dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "rosaria-falco",
@@ -29484,6 +29466,13 @@
 "ark": "ANTENATI an_ua14425 (Arienzo, Nati 1828) atto 118, img 122l — READ FROM THE IMAGE"
 },
 {
+"event": "marriage",
+"date": "15 Oct 1814",
+"place": "Arienzo",
+"evidence": "GENERATION THREE'S OWN WEDDING DAY, WHICH THIS ARCHIVE HAS NEVER HAD. «16. VINCENZO FALCO, ed | Arienzo | PASQUALE, e CHIARA RIVETTI | A 15 OTTOBRE 1814» ed «ANDREANA CRISCI | Arienzo | ARCANGELO, e SARA RUGGIERO». The households row for this marriage has carried an em-dash in the date column since the archive began; the parish act («Vincentium Falco filium Paschalis, e Clarae Rivetta, e Andreanam Crisci filiam Arcangeli, e [Rosae] Ruggiero») gives the parties and no day. He was TWENTY-TWO — baptised 1 February 1792 — and she was SEVENTEEN, baptised 30 November 1796",
+"ark": "ANTENATI an_ua14113 (Arienzo, Matrimonj indice 1814) img 3 atto 16 — READ FROM THE IMAGE"
+},
+{
 "event": "birth",
 "date": "1793",
 "place": "Arienzo",
@@ -29500,8 +29489,9 @@
 {
 "slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Pasquale / Pascuale Falco",
-"via": "register",
+"via": "line",
 "vias": [
+"line",
 "register",
 "tree"
 ]
@@ -29531,8 +29521,9 @@
 {
 "slug": "raffaele-falco-3",
 "name": "Raffaele Falco",
-"via": "tree",
+"via": "line",
 "vias": [
+"line",
 "tree"
 ]
 },
@@ -29753,7 +29744,22 @@
 "b": "1793",
 "d": "May 15 1875",
 "bp": "Arienzo, Caserta, Campania, Italia",
-"dp": "Arienzo, Caserta, Campania, Italia"
+"dp": "Arienzo, Caserta, Campania, Italia",
+"gen": 3,
+"line": {
+"gen": 3,
+"name": "Vincenzo Falco",
+"born": "1 Feb 1792",
+"bornPlace": "Arienzo — baptised in the Collegiate Church of Sant’Andrea Apostolo",
+"died": "15 May 1875",
+"diedPlace": "Arienzo",
+"spouse": "Adriana (Andreana) Crisci",
+"spouseBorn": "30 Nov 1796, Arienzo",
+"trade": "contadino",
+"confidence": "documented",
+"note": "His civil marriage act — Arienzo, act 26 of 15 December 1814 — records him as aged 21, a contadino, and “figlio maggiore di Pasquale Falco”: eldest son, and his father named without “fu”, so Pasquale was still living. His wife Andreana is “figlia di Arcangelo”. The parish record of the same marriage names his mother Chiara Rivetti and Andreana's mother Ruggiero. His death record of 15 May 1875 names Pasquale a third time. The civil death registers place his household on strada Camellara at Arienzo, the same street as his father’s, and name him with his wife Andreana Crisci. He called a son Pasquale after his father twice: the first died aged three on 22 February 1833, while the grandfather still lived; the second was born about a fortnight after the grandfather’s death and lived ten days, dying on Christmas Day 1834.\n\n**His baptism has been found, and it settles the age series.** His marriage dossier — Arienzo processetti 1814, bundle 16 — contains the extract the archpriest **Giacinto Morgillo** copied out of the parish register on 13 September 1814, citing **liber IX baptizatorum, folio 47 a tergo**: «Anno Domini Millesimo septingentesimo nonagesimo secundo **1792**, die vero prima **1 Februarii** … baptizavi infantem natum ex **Paschale Falco**, et **Clara Rivetta** Conjugibus … cui dedi nomen **Vincentius Raphael**.» \n\nTwo things follow. **He was born about 1 February 1792, not 1793** — the date this archive published is corrected. And **his own second name was Raffaele**, which is why he named a son Raffaele in 1816 and, when that child died, named the next one Raffaele too. \n\nMeasured against a real date, the notorious age series stops looking like one man changing his story. The banns of September 1814 call him **23** when he was 22 years and 7 months — right, if you count the year a man is *in* rather than the years he has completed, which is how these clerks counted. The 1818 birth act calls him **27** at 26 years 3 months — right the same way. **Three of the statements are exact.** The marriage act's 21, the 1839 register's 42 and above all the 1816 act's **35** — when he was 24 — are the clerks guessing. \n\n**And his wife is settled too.** The same bundle holds her baptism extract: **Adriana**, baptised at Arienzo on **30 November 1796**, daughter of **Arcangelo Crisci** and **Sara Ruggiero**. Adriana is the name she was given at the font, and it is the root of every variant the registers throw up — Andreana, Andriana, Andrea. The 1839 death register was read here as «Andriana **Cioffi**», and this archive carried Crisci-vs-Cioffi as an open conflict; **six documents of 1814 now say Crisci and name her parents**, so the conflict is closed and the wrong reading stays on /corrections rather than being quietly swapped.",
+"married": "15 Dec 1814, Arienzo — banns 11 & 18 Sept"
+}
 },
 {
 "slug": "vincenzo-falco-2",
@@ -31691,7 +31697,7 @@
 ]
 },
 {
-"slug": "francesca-falco",
+"slug": "francesca-crisci",
 "name": "Francesca Falco (Crisci)",
 "via": "tree",
 "vias": [
@@ -42830,77 +42836,6 @@
 }
 ],
 "siblings": []
-},
-{
-"slug": "rosa-zimbardo",
-"name": "Rosa Zimbardo (Falco)",
-"surname": "ZIMBARDO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [],
-"spouses": [
-{
-"slug": "giuseppe-falco-7",
-"name": "Giuseppe Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"children": [
-{
-"slug": "maria-carmina-falco",
-"name": "Maria Carmina Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "carmela-falco-3",
-"name": "Carmela Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "angelo-falco-5",
-"name": "Angelo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "clemente-falco-2",
-"name": "Clemente Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "angela-falco-2",
-"name": "Angela Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [],
-"treeId": 4512524,
-"b": "1829",
-"d": "Aug 12 1889",
-"bp": "Arienzo, Caserta, Campania, Italia",
-"dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "adam",
