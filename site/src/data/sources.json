@@ -145,5 +145,26 @@
   "d": "Cemetery 2188553, 35,848 memorials, about half photographed. Searched 15 September 2026 — the first time this archive has opened a grave index at all. Five Falco memorials, four of them carrying transcribed Queensland death registrations with the deceased's parents named. Saved to data/nudgee-graves.tsv.",
   "id": "Memorials 183378272, 183378273, 183378275, 183378276, 247996006",
   "use": "HIGH, and it should have been opened a year ago. It dated Carminantonio Falco (1900–1985) and Filomena Annecchino (1897–1988), named both their fathers, produced a whole generation the archive lacked — Raffaele Falco, b. Forchia 25 Aug 1925 — and joined the Falco to the Zampiello. CAUTION: locationId values are not guessable. Australia is country_15 and Queensland state_576; a guessed country_14 returns SWITZERLAND and reads exactly like a nil."
+ },
+ {
+  "g": "Cemetery index, Australia",
+  "t": "BillionGraves — Australia",
+  "d": "Reached through FindMyPast's «Australia BillionGraves Cemetery Index» rather than the site itself, whose own search will not complete in a headless browser. Enumerated 15 September 2026 for Falco, Maione, Carfora, Zampiello and Annecchino.",
+  "id": "US/BMD/BILLION/*",
+  "use": "LOW for this family, and now closed. Every Australian BillionGraves entry under these surnames is SOUTH AUSTRALIAN — Port Elliot, Cheltenham, Payneham South — and none is in Queensland. Checking the aggregator first would have saved the attempt on the site."
+ },
+ {
+  "g": "Newspapers, Australia",
+  "t": "Trove — National Library of Australia",
+  "d": "Searched 15 September 2026, the first time. ANNECCHINO: no results. ZAMPIELLO: no results. FALCO returns a great deal and none of it is this family — the Queensland hits are pre-1947 and dominated by a serial called Falconhurst and by OCR breaking «Falcon» into «Falco».",
+  "id": "trove.nla.gov.au/search/category/newspapers (the v1 API is decommissioned)",
+  "use": "LOW, and the nil is real rather than a coverage artefact: Falco across Australia in 1960–69 returns 753 results, so Trove does reach the decades this family lived in. NOT ESTABLISHED: whether any Queensland paper is digitised for the 1960s — the state-plus-decade filter renders an empty panel with no count, and no reading could be got from it."
+ },
+ {
+  "g": "Parish registers",
+  "t": "Matricula Online",
+  "d": "Checked 15 September 2026. Its entire Italian holding is two dioceses: Reggio Calabria and Südtirol / Bozen-Brixen.",
+  "id": "data.matricula-online.eu",
+  "use": "NIL, and permanently so unless they add dioceses. There is no Campania — nothing for Arienzo, Forchia, Arpaia or Moiano. The cheapest negative in the archive, and worth recording precisely because it looks like it ought to be a good source."
  }
 ]
