@@ -1,7 +1,19 @@
 ---
 import { u } from "../lib/url.js";
 import { people } from "../lib/people.js";
-/* A PLACE diagram, not a name diagram.
+/* ONE line, with the families that married into it — not the kit's
+   BranchRivers, which draws several families of a surname as parallel rivers.
+   Two different drawings had the same name across two archives and were
+   quietly drifting apart; this one is named for what it is now.
+
+   It stays here rather than going to the kit, and the reason is in the data:
+   STOPS carries its own x-coordinates (X_FORCHIA, GX(4)), so the geometry and
+   the content are interleaved. Lifting it out is a rewrite, not an extraction,
+   and it would also have to carry the living-name guard below, which depends
+   on this archive's own people file. Worth doing; not worth pretending it is a
+   five-minute promotion.
+
+   A PLACE diagram, not a name diagram.
  *
  * The first version of this drew five parallel "rivers" whose nodes were
  * sometimes places, sometimes people, and once a ship — and it drew the
