@@ -849,6 +849,39 @@ print(f"  {len(alias)} old person URLs kept alive as redirects")
 
 print("  self-check: clean — no cycles, no one-sided marriages, no dates on the living")
 
+# ------------------------------------------- verdicts on contested parents
+#
+# Some people carry more than two parents. That is not always a disagreement:
+# it can be a correction this archive keeps visible, a second record of one
+# person it refuses to merge on a name, or a claim it examined and dropped.
+# The chart cannot tell those apart from the edge alone, so the verdict is
+# written down beside the edge instead of being argued only in prose.
+#
+#   retired  -> superseded, with the reason this archive disproved it
+#   same-as  -> the same person as another parent already listed, left unmerged
+_vpath = path("site/src/data/parent-verdicts.json")
+if os.path.exists(_vpath):
+    _v = json.load(open(_vpath, encoding="utf-8"))
+    _applied = _missed = 0
+    for _vd in _v.get("verdicts", []):
+        _rec = people.get(_vd["child"])
+        if not _rec:
+            _missed += 1; continue
+        for _e in _rec["parents"]:
+            if _e["slug"] != _vd["parent"]:
+                continue
+            if _vd["verdict"] == "retired":
+                _e["superseded"] = _vd["reason"]
+            elif _vd["verdict"] == "same-as":
+                _e["sameAs"] = _vd.get("sameAs")
+                _e.pop("superseded", None)
+                _e["kept"] = _vd["reason"]
+            _applied += 1
+            break
+        else:
+            _missed += 1
+    print(f"  parent verdicts applied  : {_applied}" + (f", {_missed} no longer match an edge" if _missed else ""))
+
 json.dump(out, open(path("site/src/data/people.json"), "w"), ensure_ascii=False, indent=0)
 
 # --------------------------------------------------------------- report
