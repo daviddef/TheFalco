@@ -1,9 +1,14 @@
 ---
 import Base from "../layouts/Base.astro";
+import Numbers from "@daviddef/archive-kit/components/Numbers.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import BranchRivers from "../components/BranchRivers.astro";
 import households from "../data/households.json";
+import register from "../data/register.json";
+import line from "../data/line.json";
+import corrections from "../data/corrections.json";
+import atlas from "../../public/atlas-data.json";
 import { people } from "../lib/people.js";
 
 const entries = households.reduce((a, h) => a + h.members.length, 0);
@@ -76,7 +81,7 @@ const more = [
   </section>
 
   <section class="blk">
-    <h2>Four things this archive has established</h2>
+    <h2>What this archive has established</h2>
     <div class="grid two" style="margin-top:1rem">
       <div class="card">
         <h3>A head to the line</h3>
@@ -128,4 +133,13 @@ const more = [
     family tree. Where a record has been seen, it is cited; where it has not, the claim is marked.
     See <a href={u("/method/")}>Method</a>.</p>
   </section>
+
+  <Numbers rows={[
+    [register.length, "acts read in the parish registers of Arienzo and its neighbours", u("/register/")],
+    [people.length, "people published, each on a page of their own", u("/people/")],
+    [line.length, "generations of one descent, 1767 to now, every link on a record", u("/tree/")],
+    [atlas.places.reduce((a, p) => a + (p.nfilms || 0), 0), "register volumes reachable from the place they were kept in", u("/atlas/")],
+    [corrections.length, "claims this archive has withdrawn or corrected", u("/corrections/")],
+    [households.length, "households reconstructed from the acts", u("/households/")],
+  ]} />
 </Base>
