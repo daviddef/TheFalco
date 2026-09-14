@@ -1147,5 +1147,23 @@
   "now": "**She was baptised on 31 October 1783**, so she was **thirty-four** in June 1818 and **eighteen** at her marriage in August 1802. The «about 1788» was five years late.",
   "how": "Her own baptism, found in a full-text sweep of the Arienzo baptism register and read from the image.",
   "why": "**This archive already knew these clerks guessed.** The age series for Giuseppe Falco runs thirty-two, thirty-seven, thirty-six, forty-three, forty-two, forty-two, forty across nine years of acts. Antonia's «trenta» was used anyway, because it was the only figure available — and a figure that is the only one available still is not evidence. **Where a derived birth year rests on a stated age, the page should say so**, and this one now does."
+ },
+ {
+  "when": "2026-09-14",
+  "what": "a granddaughter called Maddalena — the di Guida reconstruction predicted a name, and the register has it",
+  "sev": "new",
+  "was": "Nothing. Angelo Andrea di Guida was a name in a death act of 21 October 1817 with a widow, Teresa Vigliotta, and «no age, no parents, no children».",
+  "now": "**He had at least two children, and one of them is the corroboration.** **AGOSTINO DI GUIDA**, «*vir Gratiae Rivetti, filius Andreae [et] Theresiae Viglioti, aetatis suae annorum **32***», died **24 July 1844** — born about **1812**, five years before his father. And **MADDALENA DI GUIDA**, who married **Angelo Cillo**, son of the late Antonio Cillo and Maria Antonia Romanella, about 1845: «*quondam **Angeli Andreae**, et **Theresiae Viglioti***». **Angelo Andrea named a daughter Maddalena — his own mother's name**, which is exactly what this archive's reconstruction of his parents predicts.",
+  "how": "A sweep of the Arienzo parish death register for *Guida* — 1,621 distinct pages — run to look for Antonia di Guida's own death. It did not find that. It found her nephew and her niece instead.",
+  "why": "**A prediction that could have failed is worth more than a match that could not.** Naming a daughter for the paternal grandmother is Campanian practice, not law, so its absence would have proved nothing — but its presence is a check the reconstruction was not built on and did not have to pass. It is recorded as corroboration, not as proof: the proof is still Angelo Andrea's own baptism of 29 November 1791 set against his civil death act of 1817."
+ },
+ {
+  "when": "2026-09-14",
+  "what": "WHERE ANTONIA DI GUIDA'S DEATH IS NOT — 1,621 pages, published so the search is not repeated",
+  "sev": "searched",
+  "was": "Her last certain sighting is **27 November 1841**, named without «fu» as the living mother of Giovanni Falco in his death act, and again in Crescenzo Falco's marriage act. After that the archive has nothing.",
+  "now": "**Not in the Arienzo parish death register's Guida pages.** The full-text sweep of collection `M9J1-SMK` (`q.anyPlace=Arienzo`, `q.text=Guida`) returned 2,306 results and **1,621 distinct pages**. Every one was scanned for *Antonia* standing within ~200 characters of a Guida-shape **and** a death word — *obiit, mortua, defuncta, uxor, vidua, cadaver, sepulta*. **Sixty-seven passages matched and not one of them is her.** They are other people: Anna Sposito wife of Domenico Antonio di Guida (d. 1775), Antonia Zimbardo widow of Nicola Cimmino, Agostino di Guida of 1844, and so on.",
+  "how": "The same loose-shape method that found the di Guida baptisms: sweep on the stable half of the name, then regex the transcripts locally for the unstable half.",
+  "why": "**This is a bounded negative, not a nil.** What it rules out is one register searched one way. It does **not** rule out that she is recorded under her husband's surname — a married woman in these books is often «*uxor Josephi Falco*» with her own surname left off — or that the engine mangled *Guida* past the regex on her page. **The next move is therefore the Falco side of the same register**, which is also where Giuseppe Falco's own death should be, and that sweep is queued rather than done: the endpoint began returning empty while it was running."
  }
 ]
