@@ -130,6 +130,15 @@ const more = [
     </div>
   </section>
 
+  <Numbers rows={[
+    [register.length, "acts read in the parish registers of Arienzo and its neighbours", u("/register/")],
+    [people.length, "people published, each on a page of their own", u("/people/")],
+    [line.length, "generations of one descent, 1767 to now, every link on a record", u("/tree/")],
+    [atlas.places.reduce((a, p) => a + (p.nfilms || 0), 0), "register volumes reachable from the place they were kept in", u("/atlas/")],
+    [corrections.length, "claims this archive has withdrawn or corrected", u("/corrections/")],
+    [households.length, "households reconstructed from the acts", u("/households/")],
+  ]} />
+
   <section class="blk" style="border-bottom:0">
     <h2>What is still missing</h2>
     <p class="dek">Eleven questions this archive cannot answer, and five doors that need a person
@@ -142,12 +151,4 @@ const more = [
     See <a href={u("/method/")}>Method</a>.</p>
   </section>
 
-  <Numbers rows={[
-    [register.length, "acts read in the parish registers of Arienzo and its neighbours", u("/register/")],
-    [people.length, "people published, each on a page of their own", u("/people/")],
-    [line.length, "generations of one descent, 1767 to now, every link on a record", u("/tree/")],
-    [atlas.places.reduce((a, p) => a + (p.nfilms || 0), 0), "register volumes reachable from the place they were kept in", u("/atlas/")],
-    [corrections.length, "claims this archive has withdrawn or corrected", u("/corrections/")],
-    [households.length, "households reconstructed from the acts", u("/households/")],
-  ]} />
 </Base>
