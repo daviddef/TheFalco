@@ -8,12 +8,12 @@ import ring from "@daviddef/archive-kit/data/archives.json";
 const { title, description = "", dek, eyebrow, bare, noindex = false } = Astro.props;
 const SITE = "The Falco Archive";
 const nav = [
-  ["Start", [["/", "Home"], ["/about", "About"], ["/search", "Search"], ["/trees/", "The Trees"], ["/tree", "The Tree"], ["/timeline", "Timeline"], ["/dna", "The DNA"], ["/lines", "The Lines"], ["/rule", "Under Whose Rule"]]],
-  ["Our line", [["/direct-line", "The Spine"], ["/tree", "The Tree"], ["/timeline", "Timeline"], ["/marriages", "Marriages"], ["/households", "Households"], ["/graves", "Graves"], ["/australia", "Australia"]]],
+  ["Start", [["/", "Home"], ["/about", "About"], ["/search", "Search"], ["/trees/", "The trees"], ["/tree", "Our line, drawn"], ["/timeline", "Timeline"], ["/dna", "The DNA"], ["/lines", "The Lines"], ["/rule", "Under Whose Rule"]]],
+  ["Our line", [["/direct-line", "The Spine"], ["/timeline", "Timeline"], ["/marriages", "Marriages"], ["/households", "Households"], ["/graves", "Graves"], ["/australia", "Australia"]]],
   ["The families", [["/families", "The Families"], ["/people", "The People"], ["/register", "The Register"], ["/marriages", "Marriages"], ["/wider-family", "The Wider Family"], ["/married-in", "Married In"], ["/households", "Households"], ["/zampiello", "Zampiello"], ["/annecchino", "Annecchino"], ["/maione", "Maione"], ["/ferrara", "Ferrara"], ["/morgillo", "Morgillo"], ["/crisci", "Crisci"], ["/rivetti", "Rivetti"], ["/liguori", "The Bishop"]]],
   ["Go there", [["/atlas", "The Atlas"], ["/walk", "Walk the Line"], ["/journeys", "Journeys"], ["/places", "Places"], ["/arienzo", "Arienzo"], ["/camellara", "Strada Camellara"], ["/valle-caudina", "Valle Caudina"], ["/diaspora", "Where the Name Went"]]],
   ["The name", [["/name", "The Name"], ["/which-falco", "Which Falco?"], ["/namesakes", "Namesakes"], ["/arms", "Arms"]]],
-  ["Evidence", [["/documents", "Documents"], ["/gallery", "Gallery"], ["/antenati", "Antenati"], ["/processetti", "The Processetti"], ["/sources", "Sources"], ["/holdings", "Holdings"], ["/the-library", "The Library"], ["/dna", "The DNA"], ["/method", "Method"], ["/searched", "What Has Been Read"], ["/research-log", "Research Log"], ["/changes", "What Changed"], ["/corrections", "Corrections"], ["/open-questions", "Open Questions"], ["/about", "About"]]],
+  ["Evidence", [["/documents", "Documents"], ["/gallery", "Gallery"], ["/antenati", "Antenati"], ["/processetti", "The Processetti"], ["/sources", "Sources"], ["/holdings", "Holdings"], ["/the-library", "The Library"], ["/dna", "The DNA"], ["/method", "Method"], ["/searched", "What Has Been Read"], ["/research-log", "Research Log"], ["/changes", "What Changed"], ["/corrections", "Corrections"], ["/open-questions", "Open Questions"], ["/about", "About"]]]
 ];
 const here = Astro.url.pathname.replace(/\/$/, "");
 const on = (h) => here === u(h).replace(/\/$/, "");
