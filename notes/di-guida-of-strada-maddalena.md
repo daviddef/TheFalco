@@ -68,10 +68,11 @@ the few things in these registers that tracks real association rather than admin
 
 ## Method
 
-A full-text sweep of `M9J1-7MY` (`q.anyPlace=Arienzo`, `q.text=Guida`) returned **1,349 results,
-1,298 distinct pages**. Then a regex across the machine transcripts for any *di Guida* standing within
+A full-text sweep of `M9J1-7MY` (`q.anyPlace=Arienzo`, `q.text=Guida`) returned **1,349 results, 1,298 distinct pages — of which 317 are Arienzo (24%)**. The rest are
+Santa Maria a Vico, San Felice a Cancello, San Prisco and their neighbours; `q.anyPlace` is a
+weighting, not a filter. Then a regex across the machine transcripts for any *di Guida* standing within
 170 characters of a Rivetta-shaped surname — `Rivet|Riveta|Rivera|Pivera|Riuet`, because the engine
-cannot hold that word steady. **Ten acts fell out of 1,298 pages.** One image read fixed the year the
+cannot hold that word steady. **Ten acts fell out — from the 317 Arienzo pages of the 1,298 returned.** One image read fixed the year the
 machine could not render.
 
 **The deliberately loose regex is the point.** Searching for «Rivetta» alone would have missed
@@ -103,10 +104,12 @@ civil death act of 21 October 1817.
 
 ## Where Antonia's own death is NOT
 
-Collection `M9J1-SMK`, `q.anyPlace=Arienzo`, `q.text=Guida` — **2,306 results, 1,621 distinct pages**,
+Collection `M9J1-SMK`, `q.anyPlace=Arienzo`, `q.text=Guida` — **2,306 results, 1,621 distinct pages of which only 229 are Arienzo (14%)**,
 every one scanned for *Antonia* within ~200 characters of a Guida-shape **and** a death word
-(*obiit · mortua · defuncta · uxor · vidua · cadaver · sepulta*). **Sixty-seven passages matched;
-none is her.**
+(*obiit · mortua · defuncta · uxor · vidua · cadaver · sepulta*). **Sixty-seven passages matched; none is her.**
+
+**The honest denominator is 229, not 1,621** — see the corrections page. 229 pages is nowhere near a
+complete death register for 1733–1888, so this rules out very little.
 
 **This is a bounded negative, not a nil.** It does not exclude that she is entered under her husband's
 surname — these books often give a married woman as «*uxor Josephi Falco*» with her own surname left
