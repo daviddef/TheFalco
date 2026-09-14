@@ -119,6 +119,14 @@ The recorded birth of **10 July 1850** sits between the two.
 
 # GENERATION FIVE'S OWN DOSSIER IS NOT THERE — and the reason is the filming
 
+> **QUALIFIED, 15 September 2026.** The *dossier* may still be absent, but **the marriage is indexed
+> in collection 2043630 after all** — record `1:2:HHBF-FZWK`, image `3QS7-L976-QW8C`: Carmine Antonio
+> Falco × **Giovanna Arricale**, **18 November 1872 at Arienzo**, with her parents given as
+> **Francesco [Arricale]** and **Pasqua Falco**. Every pass below searched on **FALCO**; searching the
+> **BRIDE** returns it. The conclusion «*it was never going to be there*» was too strong — what the
+> evidence below actually supports is that the pre-1875 *paper* is thin, not that the record is
+> unreachable.
+
 **14 September 2026.** Having opened generation six's fascicolo, the obvious next move was
 **generation five's**: Carminantonio Falco × Giovanna Arricale, who must have married about
 **1870–72** — their son Raffaele was born 6 April 1873 and his father was twenty-two.
