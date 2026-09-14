@@ -1,10 +1,79 @@
 ---
 import Base from "../layouts/Base.astro";
+import AncChart from "@daviddef/archive-kit/components/AncChart.astro";
+import { lineage } from "@daviddef/archive-kit/lib/ahnen.js";
 import { u } from "../lib/url.js";
 import { people, bySlug } from "../lib/people.js";
 import line from "../data/line.json";
 
 const gens = [...line].sort((a, b) => a.gen - b.gen);
+
+/* The same nine generations as the figure below, drawn the way the other six
+   archives draw theirs.
+
+   A single descent is a degenerate ancestor tree — the father of generation n
+   is generation n-1, and the mother is the woman he married — so the shared
+   chart takes it with no new data at all. It is here as well as the figure,
+   not instead of it: the figure names every child of every couple, which the
+   chart cannot do, and that is the better record of what these households
+   were. This answers a different question — how far back, and on what. */
+/* Identity comes from the generation number, never from the name. Falco
+   repeats names relentlessly — two Raffaele Falcos, two Carmine Antonios —
+   and matching on the name sent two boxes to other men's pages. The build
+   gate caught it. people.json carries `gen` on each line member, which is
+   exact, and each member's own spouses list gives his wife's slug. */
+const byGenPerson = new Map(people.filter((x) => x.gen).map((x) => [x.gen, x]));
+const asRow = (g, which) => {
+  if (!g) return null;
+  const name = which === "f" ? g.name : g.spouse;
+  if (!name) return null;
+  const member = byGenPerson.get(g.gen);
+  const wife = member && (member.spouses || [])[0];
+  const rec = which === "f" ? member : (wife && bySlug.get(wife.slug)) || null;
+  return {
+    gen: g.gen, which, name,
+    born: which === "f" ? g.born : g.spouseBorn,
+    died: which === "f" ? g.died : null,
+    place: which === "f" ? g.bornPlace : "",
+    conf: g.confidence,
+    /* Link only a page that is actually built, and never a living person. */
+    slug: rec && !rec.living && bySlug.has(rec.slug) ? rec.slug : null,
+    living: rec ? !!rec.living : false,
+  };
+};
+const byGen = new Map(gens.map((g) => [g.gen, g]));
+const ancRoot = lineage(asRow(byGen.get(Math.max(...gens.map((g) => g.gen))), "f"), {
+  /* Up the chain: a line member's father is the generation above; his wife is
+     that generation's mother. A wife is a leaf — her own family is on
+     /families/, not here. */
+  parentsOf: (r) =>
+    r.which === "f" && byGen.has(r.gen - 1)
+      ? { f: asRow(byGen.get(r.gen - 1), "f"), m: asRow(byGen.get(r.gen - 1), "m") }
+      : { f: null, m: null },
+  born: (r) => (String(r.born || "").match(/\d{4}/) || [""])[0],
+  died: (r) => (String(r.died || "").match(/\d{4}/) || [""])[0],
+  place: (r) => r.place || "",
+  living: (r) => r.living,
+  conf: (r) => (r.living ? "living" : r.conf === "documented" ? "doc" : "lore"),
+  extra: (r) => ({ slug: r.slug }),
+  /* A wife is a leaf here, not a wall: her own family is followed on
+     /families/, so drawing a dead end above her would claim the archive had
+     looked and found nothing. Only the top of the male line is a real wall. */
+  wall: (r, b) => r.which !== "f" ? null : ({
+    wall: true, kind: "unworked",
+    label: `Before Arienzo, ${(b.d.match(/\d{4}/) || ["1747"])[0]}`,
+    note: `The registers of Arienzo do not name a father for **${b.n}**. `
+        + `This is where the line stops, and it is a fact about surviving paper `
+        + `as much as about people.`,
+  }),
+});
+/* /people/<slug> is the person page — one page per person. /who/<slug> is a
+   different thing on this archive: a name page built from the register, where
+   both Raffaele Falcos share one entry. A chart of individuals wants the
+   former. */
+const ancHref = (b) => (b.slug ? u(`/people/${b.slug}/`) : null);
+let ancDrawn = 0;
+(function c(x) { if (!x || x.wall) return; ancDrawn++; c(x.f); c(x.m); })(ancRoot);
 const spine = gens.map((g) => people.find((p) => p.gen === g.gen) || null);
 const livingGen = new Set(people.filter((p) => p.living && p.gen).map((p) => p.gen));
 
@@ -35,7 +104,7 @@ const dates = (r) => {
 ---
 <Base title="Our line, drawn"
       eyebrow="Nine generations, drawn"
-      dek="The whole documented line in one figure — each generation, who they married, which child carried the line, and every sibling the archive can name beside them."
+      dek="The whole documented line, drawn twice: as the chart every archive in the estate now shares, and as this archive's own figure — each generation, who they married, which child carried the line, and every sibling the archive can name beside them."
       noindex={true}>
 
   <div class="card" style="margin-bottom:1.2rem">
@@ -53,6 +122,16 @@ const dates = (r) => {
     <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{totalKids}</div><div class="small">children named</div></div>
     <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{rows.filter((r) => r.spouses.length).length}</div><div class="small">marriages</div></div>
   </div>
+
+  <h2 style="margin:34px 0 4px">The line as a chart</h2>
+  <p class="small" style="margin-bottom:2px">The same nine generations drawn the way the other six
+  archives draw theirs — {ancDrawn} people, each couple on its own rung, and one wall at the top
+  where the Arienzo registers stop naming fathers. The figure below does what this cannot: it names
+  every child of every couple, not only the one who carried the line.</p>
+
+  <AncChart root={ancRoot} personHref={ancHref} />
+
+  <h2 style="margin:38px 0 4px">The line as a household figure</h2>
 
   <figure class="ftree">
     {rows.map((r, i) => (
