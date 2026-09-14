@@ -52,6 +52,11 @@ pages_dir = path("site/src/pages")
 for fn in sorted(os.listdir(pages_dir)):
     if not fn.endswith(".astro"):
         continue
+    # 404.astro is emitted as 404.html, not 404/index.html, so a search hit on
+    # it would point at a page the archive check cannot find. It is also not a
+    # destination anyone searches for. The stale index hid this for weeks.
+    if fn == "404.astro":
+        continue
     src = open(os.path.join(pages_dir, fn), encoding="utf-8").read()
     def grab(k):
         m = re.search(rf'{k}="([^"]{{3,400}})"', src) or re.search(rf'{k}=\{{`([^`]{{3,400}})`\}}', src)

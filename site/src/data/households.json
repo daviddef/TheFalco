@@ -459,12 +459,12 @@
    },
    {
     "household": "Vincenzo Falco & Andreana Crisci",
-    "person": "Pasquale Falco",
+    "person": "Pasquale Falco (of Vincenzo, 1830-1833)",
     "role": "child",
     "event": "baptism",
     "date": "24 Mar 1830",
     "place": "Arienzo",
-    "evidence": "ex Vincentio Falco et Andreana [Crisci] ... [nomen] Paschale",
+    "evidence": "ex Vincentio Falco et Andreana [Crisci] ... [nomen] Paschale  [DISAMBIGUATED 15 Sep 2026: this row used to read simply «Pasquale Falco», which merged these infants with their own great-grandfather, PASQUALE FALCO of generation two, who died on 1 October 1834 aged seventy-four as the husband of Chiara Rivetti. That merge gave generation two a baptism of 1830 and two deaths that were not his, and it made VINCENZO FALCO — his son — into his parent, which is the cycle the person-graph builder refused to close.]",
     "ark": "3Q9M-CSD3-138C-5"
    },
    {
@@ -529,22 +529,22 @@
    },
    {
     "household": "Vincenzo Falco & Andreana Crisci",
-    "person": "Pasquale Falco",
+    "person": "Pasquale Falco (of Vincenzo, the second, 1834)",
     "role": "child",
     "event": "death",
     "date": "25 Dec 1834",
     "place": "Arienzo, strada Camellara",
-    "evidence": "Pasquale Falco, di giorni dieci, nato in Arienzo, figlio di Vincenzo Falco — b. c.15 Dec 1834, named for his grandfather who died 1 Oct",
+    "evidence": "Pasquale Falco, di giorni dieci, nato in Arienzo, figlio di Vincenzo Falco — b. c.15 Dec 1834, named for his grandfather who died 1 Oct  [DISAMBIGUATED 15 Sep 2026: this row used to read simply «Pasquale Falco», which merged these infants with their own great-grandfather, PASQUALE FALCO of generation two, who died on 1 October 1834 aged seventy-four as the husband of Chiara Rivetti. That merge gave generation two a baptism of 1830 and two deaths that were not his, and it made VINCENZO FALCO — his son — into his parent, which is the cycle the person-graph builder refused to close.]",
     "ark": "ANTENATI an_ua14336 img53r"
    },
    {
     "household": "Vincenzo Falco & Andreana Crisci",
-    "person": "Pasquale Falco",
+    "person": "Pasquale Falco (of Vincenzo, 1830-1833)",
     "role": "child",
     "event": "death",
     "date": "22 Feb 1833",
     "place": "Arienzo, strada Camellara",
-    "evidence": "Pasquale Falco, di anni tre, nato in Arienzo, figlio di Vincenzo Falco, di professione contadino, e di Andreana Crisci — b. c.1830; a first child of this name, twenty-two months before the second",
+    "evidence": "Pasquale Falco, di anni tre, nato in Arienzo, figlio di Vincenzo Falco, di professione contadino, e di Andreana Crisci — b. c.1830; a first child of this name, twenty-two months before the second  [DISAMBIGUATED 15 Sep 2026: this row used to read simply «Pasquale Falco», which merged these infants with their own great-grandfather, PASQUALE FALCO of generation two, who died on 1 October 1834 aged seventy-four as the husband of Chiara Rivetti. That merge gave generation two a baptism of 1830 and two deaths that were not his, and it made VINCENZO FALCO — his son — into his parent, which is the cycle the person-graph builder refused to close.]",
     "ark": "ANTENATI an_ua14335 img9l act16"
    },
    {
