@@ -53,7 +53,7 @@ const dek = p.living
 
   <div class="grid two">
     <div class="card">
-      <h3>What the registers say</h3>
+      <h2 class="ct">What the registers say</h2>
       {p.events && p.events.length ? (
         <ul style="margin:.4rem 0">
           {p.events.map((e) => (
@@ -83,7 +83,7 @@ const dek = p.living
     </div>
 
     <div class="card">
-      <h3>Where this comes from</h3>
+      <h2 class="ct">Where this comes from</h2>
       <p class="small">
         {fromRegister ? <span><strong>{fromRegister}</strong> of the {edges.length} relationships
           shown above {fromRegister === 1 ? "is" : "are"} written in a record this archive has read.

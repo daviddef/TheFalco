@@ -81,7 +81,7 @@ const withLink = rows.filter((r) => r.link).length;
 
   <div class="grid two" style="margin-bottom:1.2rem">
     <div class="card">
-      <h3>Where this name is written up</h3>
+      <h2 class="ct">Where this name is written up</h2>
       {wu ? (
         <p><a href={u(wu[0])}><strong>{wu[1]} →</strong></a><br/>
         <span class="small">The page that argues about the <strong>{surname}</strong> in this archive.</span></p>
@@ -93,7 +93,7 @@ const withLink = rows.filter((r) => r.link).length;
         <a href={u("/register/") + "?q=" + encodeURIComponent(name)}>The same records grouped by source →</a></p>
     </div>
     <div class="card">
-      <h3>Has the archive identified anyone of this name?</h3>
+      <h2 class="ct">Has the archive identified anyone of this name?</h2>
       {identified.length ? (
         <ul style="margin:.3rem 0">
           {identified.map((p) => (
