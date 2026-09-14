@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import WaysIn from "@daviddef/archive-kit/components/WaysIn.astro";
 import Numbers from "@daviddef/archive-kit/components/Numbers.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
@@ -49,7 +50,14 @@ const more = [
     </blockquote>
   </section>
 
-  <section class="blk">
+  
+  <WaysIn doors={[
+    { href: u("/direct-line/"), name: "The spine, act by act", blurb: "Nine generations in one valley, 1767 to now, each joined to the one above it by a record that names a father — except the first, where the line stops.", cta: "Start at Arienzo →" },
+    { href: u("/processetti/"), name: "The marriage dossiers", blurb: "The processetti: the paperwork a couple had to assemble before they could marry, naming parents, grandparents and the dead. The richest single source this archive has.", cta: "Open the dossiers →" },
+    { href: u("/atlas/"), name: "Where it happened", blurb: "Six parishes and a crossing to Brisbane — and behind the markers, the register volumes themselves, opened at page one.", cta: "Open the atlas →" },
+  ]} />
+
+<section class="blk">
     <div class="lab">Several Falco, one town</div>
     <h2 style="margin-top:.4rem">Where each of them came from, and what joins them</h2>
     <p class="dek" style="margin:.7rem 0 1.4rem">A shared surname in one small town is suggestive and
