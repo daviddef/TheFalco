@@ -229,11 +229,17 @@ const GROUPED = GROUPS.map((grp) => {
       { k: "register", cls: "", note: "a clerk's own words" },
       { k: "tree", cls: "lore", note: "the family tree, unverified" },
     ]}
+    subject="Falco"
     spine={spine.map((c) => ({
       gen: c.gen, genHref: "/direct-line/#gen-" + c.gen, a: c.a, b: c.b, kids: c.kids, vias: c.vias,
     }))}
     spineTitle="The spine — nine generations, nine marriages"
-    spineNote="The couples the direct line is made of. Every other couple the archive can name sits under the family they belong to, below."
+    spineNote="The couples the direct line is made of."
+    couples={couples.filter((c) => !c.gen).map((c) => ({
+      a: c.a, b: c.b, kids: c.kids, vias: c.vias,
+    }))}
+    couplesTitle="Every other couple"
+    couplesNote={`${couples.length - spine.length} more, ordered by family. A shared surname is not a relationship — see <a href="${u("/method/")}">Method</a>.`}
     groups={GROUPED}
     livingNote={`Living people are on <a href="${u("/people/")}">The People</a> under the <em>Living</em> filter.`}>
 
