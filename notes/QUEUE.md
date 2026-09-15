@@ -6,6 +6,11 @@ unless contradicted here.
 
 ---
 
+> **The live queue now lives at `site/src/data/worklist.json`, rendered at `/worklist/`.**
+> It is gated — `npm run check:worklist` refuses a row with no owner or a state outside the five.
+> This file stays as the deep register: the per-year detail, the warnings, and the leads too raw
+> to carry an owner yet. **When something here becomes actionable, promote it to the work list.**
+
 ## 15 SEPTEMBER — CLOSED
 
 - [x] **The two household files reconciled.** `data/households.tsv` (66 households) and
