@@ -1391,6 +1391,16 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "named as the husband on his wife's death act",
     "ark": "ANTENATI an_ua14332 img36r act53"
+   },
+   {
+    "household": "Carlantonio Morgillo & Rosa Falco",
+    "person": "Raffaela Morgillo",
+    "role": "child",
+    "event": "death",
+    "date": "9 Mar 1832",
+    "place": "Arienzo",
+    "evidence": "A CONFLICT, PUBLISHED AS ONE. The 1832 death index reads «14. MORGILLO RAFFAELA | Arienzo | contadina | MORGILLO CARLANTONIO, e FALCO ROSA | A 9 MARZO 1832». This archive already holds, from the act, «RAFFAELE MORGILLO, 22, CONTADINO, figlio di Carlantonio Morgillo», died 9 MAY 1832. SAME DAY OF THE MONTH, DIFFERENT MONTH, DIFFERENT ENDING, DIFFERENT SEX. Either this couple lost two children nine weeks apart, or one record has been read two ways — «Marzo» and «Maggio» begin alike, and so do «Raffaela» and «Raffaele». THE ACT IS THE STRONGER SOURCE for the age and the trade; the index is a clerk's copy. NOT RESOLVED: reading atto 14 of 1832 and comparing it with the act already held would settle it in one pass",
+    "ark": "ANTENATI an_ua14294 (Arienzo, Morti indice 1832) atto 14 — READ FROM THE IMAGE"
    }
   ]
  },
@@ -2426,6 +2436,26 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "«MARIA FALCO sua moglie legittima, di anni VENTICINQUE» — twenty-five in June 1824 gives b. c.1799. THIS SEPARATES HER CLEANLY FROM THE FOURTH MARIA FALCO found the same day in the 1825 register, who was thirty-three in May 1825 and gives b. c.1792 and whose husband was ALFONSO DIGLIO. Seven years apart, two living husbands, two women. Neither is yet attached to a Falco household, and the two Pasquale-and-Chiara daughters called Maria (baptised 1789 and 1790) fit NEITHER of them well",
     "ark": "ANTENATI an_ua14421 atto 73 img 75l — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Francesco Cioffi & Maria Falco",
+    "person": "Giuseppe Cioffi (the second)",
+    "role": "child",
+    "event": "death",
+    "date": "5 Dec 1830",
+    "place": "Arienzo",
+    "evidence": "«50. CIOFFI GIUSEPPE | Arienzo | contadino | CIOFFI FRANCESCO, e FALCO MARIA | A 5 Xbre 1830» — A SECOND GIUSEPPE. The first died on 25 March 1824, aged five, so this child was born after that and named for him. The seventh necronym documented in this family. FROM THE INDEX, NOT THE ACT: atto 50 is unread and no age is given here",
+    "ark": "ANTENATI an_ua14292 (Arienzo, Morti indice 1830) atto 50 — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Francesco Cioffi & Maria Falco",
+    "person": "Mariantonia Cioffi (the second)",
+    "role": "child",
+    "event": "death",
+    "date": "3 Dec 1832",
+    "place": "Arienzo",
+    "evidence": "«64. CIOFFI MARIANTONIA | Arienzo | contadina | CIOFFI FRANCESCO, e FALCO MARIA | A 3 detto» — A SECOND MARIANTONIA, the first having died on 23 October 1828. THE MONTH IS FIXED BY THE DITTO CHAIN: act 62 on the same page reads «A 2 Xbre 1832», act 63 «A detto dì», and act 64 «A 3 detto» — so 3 DECEMBER 1832. FROM THE INDEX, NOT THE ACT",
+    "ark": "ANTENATI an_ua14294 (Arienzo, Morti indice 1832) atto 64 — READ FROM THE IMAGE"
    }
   ]
  },
