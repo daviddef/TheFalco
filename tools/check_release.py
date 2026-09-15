@@ -16,7 +16,11 @@ gate before a release, and it is meant to be annoying.
 import json, glob, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DIST = os.path.join(ROOT, "site", "dist")
+# --dist lets this gate run against an isolated build. Another session builds into
+# site/dist continuously, and reading that directory mid-write is how this check
+# once came back with a missing page that was never missing.
+DIST = os.path.join(ROOT, "site",
+                    sys.argv[sys.argv.index("--dist") + 1] if "--dist" in sys.argv else "dist")
 DATA = os.path.join(ROOT, "site", "src", "data")
 
 def load(n): return json.load(open(os.path.join(DATA, n), encoding="utf-8"))
