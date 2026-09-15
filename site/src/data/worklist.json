@@ -1,7 +1,7 @@
 {
  "title": "The work list",
  "dek": "What is being done here, as opposed to what is known.",
- "lead": "Every other register in this archive answers what it knows. **What has been read** carries the negatives, **Open questions** carries what is unanswered, **Corrections** carries what it got wrong. None of them answered what is actually being *done*, so that lived in a chat window — and on 15 September a whole day went into re-reading two registers that `notes/` already recorded as swept, because the thing that knew was a conversation and conversations end. This page is the register that outlives the session.",
+ "lead": "Every other register in this archive answers what it knows. **What has been read** carries the negatives, **Open questions** carries what is unanswered, **Corrections** carries what it got wrong. None of them answered what is actually being *done*, so that lived in a chat window — and on 15 September a whole day went into re-reading two registers that `notes/` already recorded as swept, because the thing that knew was a conversation and conversations end. This page is the register that outlives the session. **The rows are in the order they would be done** — finish what is started, then what is cheapest against what it settles, then what is expensive but unavoidable, and last what is waiting on somebody outside this archive.",
  "close": "Nothing here is a research finding. Those belong on [What has been read](/searched/), [Open questions](/open-questions/) and [Corrections](/corrections/). This list answers one question only: **who has to move it next.**",
  "rows": [
   {
@@ -14,11 +14,11 @@
   },
   {
    "n": 2,
-   "what": "Audit the 180 corrections entries for ones now superseded",
+   "what": "Verify three index readings deliberately left unpublished",
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Five withdrawals were published in two days.** That rate is not a run of bad luck, it is evidence that older entries have gone stale without anyone re-reading them. The audit is the only way to find out how many, and it has never been done."
+   "note": "Three rows were seen in the death indexes on 15 September and **not published, because the crop missed the line twice and this archive had already mis-read that hand three times in a week**. A possible second «Cioffi Giuseppe» in 1830, which would be a necronym; a «Morgillo **Raffaela**, 9 **Marzo** 1832» against the held «Raffaele Morgillo, 9 **May** 1832»; and a «Cioffi Mariantonia» in 1832 against one held dying in 1828. Each is either a new child or a misreading. **Magnify to the word before accepting any of them.**"
   },
   {
    "n": 3,
@@ -30,142 +30,6 @@
   },
   {
    "n": 4,
-   "what": "Sara Falco's parish baptism",
-   "state": "next",
-   "owner": "this archive",
-   "since": "2026-09-14",
-   "note": "She was found in the 1828 tavola and read from her civil act on 14 September. A **cached parish index leaf already transcribes a «Sara Falco» with a folio number** — if it is hers it is a second, independent witness to a child this archive did not know existed a week ago."
-  },
-  {
-   "n": 5,
-   "what": "Find the second filming of the 1825 birth tavola",
-   "state": "next",
-   "owner": "this archive",
-   "since": "2026-09-14",
-   "note": "The 1825 index leaf is **covered by an inserted sheet** in the filming held here, and the photographer's own card lies across the frame reading *THIS INDEX HAS BEEN MICROFILMED ALREADY*. So it exists. The method that found Gioacchino's 1779 baptism — regexing already-cached transcripts for a duplicate shoot — is the way in."
-  },
-  {
-   "n": 6,
-   "what": "Explain why the 1841 civil register holds no Falco death",
-   "state": "next",
-   "owner": "this archive",
-   "since": "2026-09-14",
-   "note": "The parish buried **Joannes Falco** on 27 November 1841 and the act has now been read from the image. **All ninety acts of the civil death register for that year hold no Falco at all.** Arienzo's two registers normally agree, so this is an anomaly with something behind it, not a gap."
-  },
-  {
-   "n": 7,
-   "what": "Birth tavole 1818–1820, 1829 onward, and 1845–1860 for Giovanna Arricale's siblings",
-   "state": "next",
-   "owner": "this archive",
-   "since": "2026-09-14",
-   "note": "The remaining unread stretch of the Arienzo birth series. The 1845–1860 block is the one that would give **generation five's wife a household** — her own act is read and her siblings are not."
-  },
-  {
-   "n": 8,
-   "what": "The eighteenth-century parish marriage register",
-   "state": "next",
-   "owner": "this archive",
-   "since": "2026-09-13",
-   "note": "Two things sit in it. **Matteo Falco's own marriage**, which would name his father and break the line's frontier; and the **Maria Falco × Francesco Cioffi** marriage, which the civil series cannot hold because the Arienzo civil registers begin in 1809 and that marriage is older than they are."
-  },
-  {
-   "n": 9,
-   "what": "Read the FamilySearch image behind a machine transcript",
-   "state": "blocked",
-   "owner": "David",
-   "since": "2026-09-14",
-   "note": "Screenshots need the **Browser pane displayed** in the desktop app, and it is not. There is a workaround — compose the DeepZoom tiles inside the page and carry the render back as data — and it worked for the 1841 burial, but it is slow and costs a great deal of context per look. **Showing the pane makes this ordinary again.**"
-  },
-  {
-   "n": 10,
-   "what": "Ancestry and MyHeritage for the Australian end",
-   "state": "blocked",
-   "owner": "David",
-   "since": "2026-09-13",
-   "note": "Passenger lists and naturalisation files for the Brisbane generations. Both need a subscription this archive does not have. **Nothing here can move it.**"
-  },
-  {
-   "n": 11,
-   "what": "The two un-scanned Benevento volumes",
-   "state": "blocked",
-   "owner": "David",
-   "since": "2026-09-12",
-   "note": "**Arpaia births 1895** and **Forchia births 1897** are not digitised — first inferred from ark arithmetic, since the shelf-marks run consecutively and skip those years, and since confirmed. They are what still blocks Filomena Annecchino's birth. Ordering or reading them at the Archivio di Stato di Benevento is the only route."
-  },
-  {
-   "n": 12,
-   "what": "The processetti — 258 volumes across four towns",
-   "state": "blocked",
-   "owner": "David",
-   "since": "2026-09-11",
-   "note": "Marriage supplement files: birth extracts, parental consents, death certificates of parents already dead. **One file can carry two generations backwards.** None have been read. This is the largest unworked seam in the project and it needs time rather than a decision."
-  },
-  {
-   "n": 13,
-   "what": "FreeBMD, RootsChat and Arcanum — deliberately not searched",
-   "state": "done",
-   "owner": "this archive",
-   "since": "2026-09-14",
-   "note": "**A decision, recorded so nobody spends a day rediscovering it.** This family has no English and no Habsburg generations. All three are wrong for it, and saying so on [What has been read](/searched/) is worth more than searching them would have been."
-  },
-  {
-   "n": 14,
-   "what": "Two tool bugs that may exist in every sibling archive",
-   "state": "next",
-   "owner": "the Falco session",
-   "since": "2026-09-15",
-   "note": "Both were found here and **neither is peculiar to this archive**. First: the person-graph builder cleans names to keep old URLs alive, and that cleaning **strips brackets before comparing them** — which cost this archive an entire generation of its own direct line, because `line.json` spelt a wife «Adriana (Andreana) Crisci» and every act spells her ANDREANA. Second: the search index indexed `404.astro`, which Astro emits as `404.html` and never as a page, so the archive check failed on a row pointing at a page that is never built. **Any archive sharing these tools has both.**"
-  },
-  {
-   "n": 15,
-   "what": "Re-reading registers that notes/ already recorded as swept",
-   "state": "struck",
-   "owner": "this archive",
-   "since": "2026-09-15",
-   "note": "**Founded on a mistake, kept rather than deleted.** A day went into reading the 1816 and 1817 birth registers and into deriving the trap that these forms carry a *printed* year the clerk strikes and corrects by hand. Both were already written up in `notes/1817-birth-register-progress.md`, which says *«Result: no Falco at all»* and, in its second line, *«every act is pre-printed sedici and corrected by hand to diciassette»*. The negatives stand and were already this archive's negatives. **The standing rule now is to read `notes/QUEUE.md` and the 83 per-year progress files before opening any register.**"
-  },
-  {
-   "n": 16,
-   "what": "Verify three index readings deliberately left unpublished",
-   "state": "next",
-   "owner": "this archive",
-   "since": "2026-09-15",
-   "note": "Three rows were seen in the death indexes on 15 September and **not published, because the crop missed the line twice and this archive had already mis-read that hand three times in a week**. A possible second «Cioffi Giuseppe» in 1830, which would be a necronym; a «Morgillo **Raffaela**, 9 **Marzo** 1832» against the held «Raffaele Morgillo, 9 **May** 1832»; and a «Cioffi Mariantonia» in 1832 against one held dying in 1828. Each is either a new child or a misreading. **Magnify to the word before accepting any of them.**"
-  },
-  {
-   "n": 17,
-   "what": "Test whether Giuseppe Nunzio and Nunziata carry one family name",
-   "state": "next",
-   "owner": "this archive",
-   "since": "2026-09-15",
-   "note": "Vincenzo Falco and Andreana Crisci have a son christened **GIUSEPPE NUNZIO** (25 March 1824) who is in no death index for seven years, and a daughter **NUNZIATA** known from her 1855 marriage alone. Either a coincidence or a name being carried — and this family reuses names relentlessly. Marriage indexes after 1849 and death registers from 1831."
-  },
-  {
-   "n": 18,
-   "what": "Where is Sant'Agnese?",
-   "state": "next",
-   "owner": "this archive",
-   "since": "2026-09-13",
-   "note": "Generation four's marriage act names «*Josaphat Ruggiero, parroco di **Sant'Agnese***» and makes the bride his parishioner; the civil act, found the same day, says she was **born and still domiciled at San Felice a Cancello**. This archive has been calling Sant'Agnese one of Arienzo's three parishes on the strength of **the film the act sits in** — and a film label covers a whole reel. One rate window: re-read the act for its own words for the place."
-  },
-  {
-   "n": 19,
-   "what": "Maddalena Falco's baptism — two passes spent, still unread",
-   "state": "next",
-   "owner": "this archive",
-   "since": "2026-09-13",
-   "note": "Ark `3Q9M-CSD3-1381-R`, 7 June 1818. Two rendering passes went on hunting the margin label and neither reached the entry. **Depends on row 9** — with the Browser pane displayed this is ordinary work rather than a tile-by-tile reconstruction."
-  },
-  {
-   "n": 20,
-   "what": "Arcangelo Crisci — one man or two?",
-   "state": "next",
-   "owner": "this archive",
-   "since": "2026-09-13",
-   "note": "The name appears both as **Andreana Crisci's father** — «Arcangelo, e Sara Ruggiero», from the 1814 marriage index — and as **Anna Falco's husband**, from her death act of 1820. If they are one man he married his own daughter's sister-in-law, which is ordinary; if two, the archive is carrying a collision it has not noticed. Untested either way."
-  },
-  {
-   "n": 21,
    "what": "Find the finding aid for Arienzo marriages after 1849",
    "state": "next",
    "owner": "this archive",
@@ -173,15 +37,71 @@
    "note": "The «Matrimoni, indice» series **stops at 1849** — 40 volumes, 1836 missing, all read. Nunziata Falco married in **November 1855** and Antonio Falco in **June 1869**, so the instrument that covered 1809–1849 covers neither. Either the index is bound into the register from 1850, as the death indexes are from 1848, or it is a separate series not yet located."
   },
   {
-   "n": 22,
-   "what": "Moiano and Paolisi — never examined",
+   "n": 5,
+   "what": "Sara Falco's parish baptism",
    "state": "next",
    "owner": "this archive",
-   "since": "2026-09-12",
-   "note": "**Moiano** is the second stronghold of both Zampiello (104 records) and Annecchino (215). **Paolisi** is where Francesco Falco came from in 1714, and where the Giovanna Falco found this week married a Lettieri. Neither town has ever been opened."
+   "since": "2026-09-14",
+   "note": "She was found in the 1828 tavola and read from her civil act on 14 September. A **cached parish index leaf already transcribes a «Sara Falco» with a folio number** — if it is hers it is a second, independent witness to a child this archive did not know existed a week ago."
   },
   {
-   "n": 23,
+   "n": 6,
+   "what": "Arcangelo Crisci — one man or two?",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-13",
+   "note": "The name appears both as **Andreana Crisci's father** — «Arcangelo, e Sara Ruggiero», from the 1814 marriage index — and as **Anna Falco's husband**, from her death act of 1820. If they are one man he married his own daughter's sister-in-law, which is ordinary; if two, the archive is carrying a collision it has not noticed. Untested either way."
+  },
+  {
+   "n": 7,
+   "what": "Test whether Giuseppe Nunzio and Nunziata carry one family name",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Vincenzo Falco and Andreana Crisci have a son christened **GIUSEPPE NUNZIO** (25 March 1824) who is in no death index for seven years, and a daughter **NUNZIATA** known from her 1855 marriage alone. Either a coincidence or a name being carried — and this family reuses names relentlessly. Marriage indexes after 1849 and death registers from 1831."
+  },
+  {
+   "n": 8,
+   "what": "Audit the 180 corrections entries for ones now superseded",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Five withdrawals were published in two days.** That rate is not a run of bad luck, it is evidence that older entries have gone stale without anyone re-reading them. The audit is the only way to find out how many, and it has never been done."
+  },
+  {
+   "n": 9,
+   "what": "Birth tavole 1818–1820, 1829 onward, and 1845–1860 for Giovanna Arricale's siblings",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-14",
+   "note": "The remaining unread stretch of the Arienzo birth series. The 1845–1860 block is the one that would give **generation five's wife a household** — her own act is read and her siblings are not."
+  },
+  {
+   "n": 10,
+   "what": "Find the second filming of the 1825 birth tavola",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-14",
+   "note": "The 1825 index leaf is **covered by an inserted sheet** in the filming held here, and the photographer's own card lies across the frame reading *THIS INDEX HAS BEEN MICROFILMED ALREADY*. So it exists. The method that found Gioacchino's 1779 baptism — regexing already-cached transcripts for a duplicate shoot — is the way in."
+  },
+  {
+   "n": 11,
+   "what": "Where is Sant'Agnese?",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-13",
+   "note": "Generation four's marriage act names «*Josaphat Ruggiero, parroco di **Sant'Agnese***» and makes the bride his parishioner; the civil act, found the same day, says she was **born and still domiciled at San Felice a Cancello**. This archive has been calling Sant'Agnese one of Arienzo's three parishes on the strength of **the film the act sits in** — and a film label covers a whole reel. One rate window: re-read the act for its own words for the place."
+  },
+  {
+   "n": 12,
+   "what": "Explain why the 1841 civil register holds no Falco death",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-14",
+   "note": "The parish buried **Joannes Falco** on 27 November 1841 and the act has now been read from the image. **All ninety acts of the civil death register for that year hold no Falco at all.** Arienzo's two registers normally agree, so this is an anomaly with something behind it, not a gap."
+  },
+  {
+   "n": 13,
    "what": "Promote the harvested files into households",
    "state": "next",
    "owner": "a machine",
@@ -189,7 +109,47 @@
    "note": "`data/antenati-valle-caudina.tsv` and the Moiano harvests hold documents for lines that still have **no reconstructed household**. This is the failure this archive has named four times — a source harvested into a file and never read into the family. It is mechanical work, which is why it keeps not happening."
   },
   {
-   "n": 24,
+   "n": 14,
+   "what": "Moiano and Paolisi — never examined",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-12",
+   "note": "**Moiano** is the second stronghold of both Zampiello (104 records) and Annecchino (215). **Paolisi** is where Francesco Falco came from in 1714, and where the Giovanna Falco found this week married a Lettieri. Neither town has ever been opened."
+  },
+  {
+   "n": 15,
+   "what": "The eighteenth-century parish marriage register",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-13",
+   "note": "Two things sit in it. **Matteo Falco's own marriage**, which would name his father and break the line's frontier; and the **Maria Falco × Francesco Cioffi** marriage, which the civil series cannot hold because the Arienzo civil registers begin in 1809 and that marriage is older than they are."
+  },
+  {
+   "n": 16,
+   "what": "Maddalena Falco's baptism — two passes spent, still unread",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-13",
+   "note": "Ark `3Q9M-CSD3-1381-R`, 7 June 1818. Two rendering passes went on hunting the margin label and neither reached the entry. **Depends on row 9** — with the Browser pane displayed this is ordinary work rather than a tile-by-tile reconstruction."
+  },
+  {
+   "n": 17,
+   "what": "Two tool bugs that may exist in every sibling archive",
+   "state": "next",
+   "owner": "the Falco session",
+   "since": "2026-09-15",
+   "note": "Both were found here and **neither is peculiar to this archive**. First: the person-graph builder cleans names to keep old URLs alive, and that cleaning **strips brackets before comparing them** — which cost this archive an entire generation of its own direct line, because `line.json` spelt a wife «Adriana (Andreana) Crisci» and every act spells her ANDREANA. Second: the search index indexed `404.astro`, which Astro emits as `404.html` and never as a page, so the archive check failed on a row pointing at a page that is never built. **Any archive sharing these tools has both.**"
+  },
+  {
+   "n": 18,
+   "what": "Read the FamilySearch image behind a machine transcript",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-14",
+   "note": "Screenshots need the **Browser pane displayed** in the desktop app, and it is not. There is a workaround — compose the DeepZoom tiles inside the page and carry the render back as data — and it worked for the 1841 burial, but it is slow and costs a great deal of context per look. **Showing the pane makes this ordinary again.**"
+  },
+  {
+   "n": 19,
    "what": "The National Archives of Australia files",
    "state": "blocked",
    "owner": "David",
@@ -197,7 +157,7 @@
    "note": "**J25 1971/9830** and **J25 1972/4964** — Brisbane immigration case files, paper only, not digitised. Files of this era normally carry the sponsor, the addresses, the occupations and often photographs, and 1972/4964 is already marked Open. There are also **three NAA passenger images** whose transcripts give a name, a year and nothing else. Anyone can order copies."
   },
   {
-   "n": 25,
+   "n": 20,
    "what": "The restricted Caserta images, and the Museo Alfonsiano",
    "state": "blocked",
    "owner": "David",
@@ -205,12 +165,52 @@
    "note": "Several Caserta record images return *«This record can only be displayed on certain accounts»* — the index and machine transcripts are open, the scans are not. **A visit to a FamilySearch centre or an affiliate library unlocks them.** Separately, the **Museo Alfonsiano** stands in the old bishop's palace beside Sant'Andrea, the church this family was baptised in for two centuries, and may hold or know of parish material that was never filmed. That needs a letter or a visit."
   },
   {
-   "n": 26,
+   "n": 21,
+   "what": "The two un-scanned Benevento volumes",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-12",
+   "note": "**Arpaia births 1895** and **Forchia births 1897** are not digitised — first inferred from ark arithmetic, since the shelf-marks run consecutively and skip those years, and since confirmed. They are what still blocks Filomena Annecchino's birth. Ordering or reading them at the Archivio di Stato di Benevento is the only route."
+  },
+  {
+   "n": 22,
+   "what": "The processetti — 258 volumes across four towns",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-11",
+   "note": "Marriage supplement files: birth extracts, parental consents, death certificates of parents already dead. **One file can carry two generations backwards.** None have been read. This is the largest unworked seam in the project and it needs time rather than a decision."
+  },
+  {
+   "n": 23,
+   "what": "Ancestry and MyHeritage for the Australian end",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-13",
+   "note": "Passenger lists and naturalisation files for the Brisbane generations. Both need a subscription this archive does not have. **Nothing here can move it.**"
+  },
+  {
+   "n": 24,
    "what": "DNA matches on the Falco and Zampiello sides",
    "state": "blocked",
    "owner": "David",
    "since": "2026-09-11",
    "note": "Matches could confirm or break the Annecchino descent, and could find living cousins in Campania. **No register can do that.** The family already has tests in play; the matches need working through."
+  },
+  {
+   "n": 25,
+   "what": "FreeBMD, RootsChat and Arcanum — deliberately not searched",
+   "state": "done",
+   "owner": "this archive",
+   "since": "2026-09-14",
+   "note": "**A decision, recorded so nobody spends a day rediscovering it.** This family has no English and no Habsburg generations. All three are wrong for it, and saying so on [What has been read](/searched/) is worth more than searching them would have been."
+  },
+  {
+   "n": 26,
+   "what": "Re-reading registers that notes/ already recorded as swept",
+   "state": "struck",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Founded on a mistake, kept rather than deleted.** A day went into reading the 1816 and 1817 birth registers and into deriving the trap that these forms carry a *printed* year the clerk strikes and corrects by hand. Both were already written up in `notes/1817-birth-register-progress.md`, which says *«Result: no Falco at all»* and, in its second line, *«every act is pre-printed sedici and corrected by hand to diciassette»*. The negatives stand and were already this archive's negatives. **The standing rule now is to read `notes/QUEUE.md` and the 83 per-year progress files before opening any register.**"
   }
  ]
 }
