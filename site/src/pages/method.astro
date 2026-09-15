@@ -335,6 +335,50 @@ import { u } from "../lib/url.js";
   unverified entry in the family tree — <strong>the citation says so in place of a link</strong>,
   rather than leaving the reader to assume there is a record behind it.</p>
 
+  <h2 id="ages">What a stated age is worth</h2>
+  <p><strong>Every «b. c.1792» on this site is an inference from an age a clerk wrote down, and this
+  is how much those ages are worth.</strong> It is measurable for exactly one man, because he is the
+  only one in the archive with a proven baptism and a long run of civil acts: <strong>VINCENZO FALCO,
+  generation three, baptised 1 February 1792</strong>, read from the parish act.</p>
+
+  <table class="ages">
+    <thead><tr><th>the act</th><th>stated</th><th>true</th><th>error</th></tr></thead>
+    <tbody>
+      <tr><td>25 Apr 1816 — Raffaele, the first of the name</td><td>35</td><td>24.2</td><td class="bad">+10.8</td></tr>
+      <tr><td>10 May 1818 — Raffaele, generation four</td><td>27</td><td>26.3</td><td>+0.7</td></tr>
+      <tr><td>21 Dec 1819 — Luigi</td><td>26</td><td>27.9</td><td>−1.9</td></tr>
+      <tr><td>25 Mar 1824 — Giuseppe Nunzio</td><td>33</td><td>32.1</td><td>+0.9</td></tr>
+      <tr><td>12 Sep 1826 — Angelandrea</td><td>32</td><td>34.6</td><td>−2.6</td></tr>
+      <tr><td>19 Dec 1828 — Sara</td><td>36</td><td>36.9</td><td>−0.9</td></tr>
+    </tbody>
+  </table>
+
+  <p><strong>Six sightings of one man across twelve years, and five of them are within three years of
+  the truth.</strong> That is the working figure: <strong>a stated age in this register is good to
+  about two or three years, and no better.</strong> It is why this archive dates Vincenzo from the
+  font and not from any of the six.</p>
+
+  <p><strong>The sixth is the interesting one, and it is not smoothed away.</strong> In April 1816 he
+  is <strong>thirty-five</strong> when he was twenty-four, and his wife <strong>Andreana Crisci is
+  twenty-five</strong> in the same act when the next two make her twenty and twenty-two. <strong>Both
+  spouses inflated, in one act, by roughly ten years and five.</strong> He is also a
+  <em>bracciale</em> there and a <em>contadino</em> in every later act.</p>
+
+  <p><strong>Two readings, and this archive is not choosing.</strong> Either one clerk guessed high
+  for both of them on the same afternoon — which the rest of the table says is possible — or
+  <strong>the 1816 act belongs to a different Vincenzo Falco and Andreana Crisci on the same
+  street</strong>, in a town that has already produced two Arcangelo Crisci, two Giuseppe Falco on one
+  street in one year, two Andreana Crisci and three Michele Falco. <strong>What holds the first
+  reading together is the burial</strong>: the infant Raffaele of that act died on 28 October 1817 and
+  his father is named in the act as a <em>parente</em> of the house.</p>
+
+  <p class="small"><strong>Elsewhere in the archive the same problem, without the baptism to measure
+  it against:</strong> Giuseppe Falco is <strong>forty on 2 April 1825 and forty-five four days
+  later</strong>; thirty-six in June 1818 and forty in October 1819. Gioacchino Falco is seventy-six by
+  his death act and seventy-two by his baptism. The civil clerks put Antonia di Guida about five years
+  out. <strong>None of these is a scribal slip — they are what the desk did when nobody had a
+  document.</strong></p>
+
   <h2>Living people</h2>
   <p><strong>This rule changed on 10 September 2026, at the request of the family whose archive this
   is.</strong> It is recorded as a change rather than presented as though it had always been so.</p>
@@ -352,4 +396,11 @@ import { u } from "../lib/url.js";
   living. Of 137 flagged, <strong>104 are published and 33 were filtered out</strong>.</p>
   <p><strong>A removal request is honoured within days, without argument and without requiring a
   reason</strong> — and that promise now matters more than it did.</p>
+<style>
+  .ages{border-collapse:collapse;margin:1rem 0;font-size:14.5px}
+  .ages th,.ages td{border-bottom:1px solid var(--rule);padding:.35rem .8rem .35rem 0;text-align:left}
+  .ages th{font-family:var(--sans);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+  .ages td:nth-child(2),.ages td:nth-child(3),.ages td:nth-child(4){font-family:var(--mono);text-align:right}
+  .ages .bad{font-weight:700}
+</style>
 </Base>
