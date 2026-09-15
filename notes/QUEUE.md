@@ -1,5 +1,70 @@
 # Research queue
 
+Updated **15 September 2026**. The section below supersedes the dating in the paragraph that
+follows it; everything under "CLOSED THIS WEEK" and later is from 13 September and still stands
+unless contradicted here.
+
+---
+
+## 15 SEPTEMBER — CLOSED
+
+- [x] **The two household files reconciled.** `data/households.tsv` (66 households) and
+      `site/src/data/households.json` (53) had drifted in BOTH directions and nothing synced them.
+      Merged additively: 77 households, 337 members; person graph 549 → 620 people; site 10,147 →
+      10,272 pages. **`npm run check` now FAILS a release whose TSV is ahead of the JSON.**
+- [x] **The Arienzo MARRIAGE indexes, 1809–1849, read in full** (`an_ua14108`+, **1836 missing**).
+      Twelve Falco marriages, none previously dated. Both daughters of Giuseppe Falco and Antonia di
+      Guida married — and both married CRISCI; five Falco–Crisci marriages across two generations.
+- [x] **Generation three restored.** No person carried `gen: 3`; `line.json` spells the wife
+      «Adriana (Andreana) Crisci» and the name-cleaner strips brackets before comparing.
+- [x] **All eighteen contested parent edges carry a verdict** in `site/src/data/parent-verdicts.json`.
+      Nobody has more than two accepted parents.
+- [x] **The 1841 burial read from the image.** Transcript confirmed; the household really did have
+      **two living sons named Giovanni**.
+- [x] **Death indexes 1824–1830 read** — Giuseppe Nunzio Falco is in none of them.
+
+## 15 SEPTEMBER — LIVE, IN ORDER
+
+- [ ] **Finish the F leaves of the DEATH indexes 1831–1843.** 1833 done (one Falco, already held);
+      1831 and 1832 rendered but only their C–D and L–M leaves read. This closes **Antonia di
+      Guida's death** and **Pasqua Falco**. Arks: 1831 `an_ua14293` … 1835 `an_ua14297`, then
+      1837 `an_ua14298` … 1843 `an_ua14304`. **1836 does not exist.**
+- [ ] **AUDIT THE 180 CORRECTIONS ENTRIES.** Five withdrawals were published in two days. That rate
+      says older entries are stale too.
+- [ ] **Giuseppe Falco's death, 1859 onward** — the «Morti, indice» series stops at 1847; after that
+      the index is bound into the register. Morti = year + 12502.
+- [ ] **Sara Falco's parish baptism** — a cached parish index leaf already transcribes a «Sara Falco»
+      with a folio.
+- [ ] **The second filming of the 1825 tavola** — the photographer's card says it exists.
+- [ ] **Why the 1841 CIVIL register holds no Falco death** when the parish buried one. All ninety
+      acts read. Arienzo's two registers normally agree.
+- [ ] Birth tavole **1818–1820** and **1829 onward**; **1845–1860** for Giovanna Arricale's siblings.
+- [ ] The eighteenth-century **parish** marriage register — Matteo × Francesca Crisci, and the
+      pre-1809 Maria Falco × Francesco Cioffi marriage the civil series cannot hold.
+
+## 15 SEPTEMBER — LOOSE OBSERVATIONS, recorded so they are not lost
+
+- [ ] **1830 death index** appears to hold a SECOND «Cioffi Giuseppe» of Francesco Cioffi and Maria
+      Falco (the first died 25 Mar 1824) — a necronym. **NOT VERIFIED**; two crops missed the row and
+      it was deliberately not published.
+- [ ] **1832 death index** reads «Morgillo **Raffaela** … A 9 **Marzo** 1832» where this archive
+      holds «Raffaele Morgillo, 22, d. 9 **May** 1832». Two children, or one misreading.
+- [ ] **1832 death index** reads «Cioffi Mariantonia … e Falco Maria» where this archive holds
+      Mariantonia dying in **1828**. Same question.
+- [ ] **GIUSEPPE NUNZIO / NUNZIATA.** This household has a daughter Nunziata known from her 1855
+      marriage alone. Test in the marriage indexes after 1849 and the death registers from 1831.
+
+## 15 SEPTEMBER — A STANDING INSTRUCTION TO WHOEVER READS NEXT
+
+**Read `notes/` and this file before starting any register.** There are 83 progress files, one per
+year. On 15 September a whole day's work re-read the 1816 and 1817 birth registers, and re-derived
+the printed-year trap, both of which were already written up in
+`notes/1817-birth-register-progress.md`. Four separate duplications in one week, every one of them
+avoidable by looking first.
+
+---
+
+
 Updated **13 September 2026**, after the founding couple's deaths were read and the Brisbane
 arrivals were found.
 
