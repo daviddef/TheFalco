@@ -214,7 +214,7 @@
    },
    {
     "who": "Crescenzo Falco",
-    "whoSlug": "crescenzo-falco-2",
+    "whoSlug": "crescenzo-falco",
     "to": "Maria Concetta Morgillo (Falco)",
     "toSlug": "maria-concetta-morgillo",
     "into": "Morgillo",
@@ -320,7 +320,7 @@
     "who": "Pasquale / Pascuale Falco",
     "whoSlug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
     "to": "Chiara Rivetti / Rivotti (Falco)",
-    "toSlug": "chiara-rivetti",
+    "toSlug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
     "into": "Rivetti / Rivotti",
     "living": false
    },
@@ -584,7 +584,7 @@
    },
    {
     "name": "Crescenzo Falco",
-    "slug": "crescenzo-falco-2",
+    "slug": "crescenzo-falco",
     "b": "1819",
     "bp": "Arienzo",
     "d": "Aug 1 1898",
@@ -1072,7 +1072,7 @@
    },
    {
     "name": "Crescenzo Falco",
-    "slug": "crescenzo-falco-4",
+    "slug": "crescenzo-falco-3",
     "b": "Aug 17 1878",
     "bp": "Arienzo",
     "d": "",
@@ -1120,7 +1120,7 @@
    },
    {
     "name": "Crescenzo Falco",
-    "slug": "crescenzo-falco-3",
+    "slug": "crescenzo-falco-2",
     "b": "Mar 23 1881",
     "bp": "Arienzo",
     "d": "",
@@ -2498,7 +2498,7 @@
     "who": "Maria Concetta Morgillo (Falco)",
     "whoSlug": "maria-concetta-morgillo",
     "to": "Crescenzo Falco",
-    "toSlug": "crescenzo-falco-2",
+    "toSlug": "crescenzo-falco",
     "into": "Falco",
     "living": false
    },
@@ -4558,7 +4558,7 @@
   "marriages": [
    {
     "who": "Chiara Rivetti / Rivotti (Falco)",
-    "whoSlug": "chiara-rivetti",
+    "whoSlug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
     "to": "Pasquale / Pascuale Falco",
     "toSlug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
     "into": "Falco",
@@ -4568,7 +4568,7 @@
   "people": [
    {
     "name": "Chiara Rivetti / Rivotti (Falco)",
-    "slug": "chiara-rivetti",
+    "slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
     "b": "1772",
     "bp": "Arienzo",
     "d": "",

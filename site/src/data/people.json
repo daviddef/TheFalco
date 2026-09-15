@@ -7006,6 +7006,47 @@
 "siblings": []
 },
 {
+"slug": "giovanna-d-ambrogio",
+"name": "Giovanna d'Ambrogio",
+"surname": "D'AMBROGIO",
+"household": "Michele Falco & Maria Giovanna Ambrogio",
+"role": "mother",
+"events": [
+{
+"event": "marriage",
+"date": "12 Feb 1850",
+"place": "Arienzo",
+"evidence": "NINETEEN, contadina, marrying a widower of forty-three. She is the «Maria Giovanna d'Ambrosio» of the household this archive recorded separately from the Vigliotta one; **the 1859 death index clipped her name, and this act gives it whole.** Her daughter Antonia was born 19 November 1850, nine months later.",
+"ark": "ANTENATI an_ua14254 img11r act6"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [
+{
+"slug": "maria-falco-of-michele-falco-maria-giovanna-ambro",
+"name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-michele-falco-maria-giovanna-ambro",
+"name": "Raffaele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
 "slug": "maria-giovanna-d-ambrosio",
 "name": "Maria Giovanna d'Ambrosio (Falco)",
 "surname": "D'AMBROSIO",
@@ -9269,7 +9310,7 @@
 ]
 },
 {
-"slug": "chiara-rivetti",
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
 "name": "Chiara (Clara) Rivetti",
 "via": "register",
 "vias": [
@@ -11747,7 +11788,7 @@
 ]
 },
 {
-"slug": "chiara-rivetti",
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
 "name": "Chiara (Clara) Rivetti",
 "via": "register",
 "vias": [
@@ -13275,7 +13316,7 @@
 ]
 },
 {
-"slug": "chiara-rivetti",
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
 "name": "Chiara Rivetti / Rivotti (Falco)",
 "via": "tree",
 "vias": [
@@ -16862,7 +16903,7 @@
 ]
 },
 {
-"slug": "chiara-rivetti",
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
 "name": "Chiara (Clara) Rivetti",
 "via": "register",
 "vias": [
@@ -17733,7 +17774,7 @@
 ]
 },
 {
-"slug": "chiara-rivetti",
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
 "name": "Chiara (Clara) Rivetti",
 "via": "register",
 "vias": [
@@ -19073,7 +19114,7 @@
 ]
 },
 {
-"slug": "chiara-rivetti",
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
 "name": "Chiara (Clara) Rivetti",
 "via": "register",
 "vias": [
@@ -23058,7 +23099,7 @@
 ]
 },
 {
-"slug": "chiara-rivetti",
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
 "name": "Chiara (Clara) Rivetti",
 "via": "register",
 "vias": [
@@ -23429,7 +23470,7 @@
 ]
 },
 {
-"slug": "chiara-rivetti",
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
 "name": "Chiara (Clara) Rivetti",
 "via": "register",
 "vias": [
@@ -23786,7 +23827,16 @@
 "register"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "giovanna-d-ambrogio",
+"name": "Giovanna d'Ambrogio",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "spouses": [],
 "children": [],
 "siblings": [
@@ -24048,7 +24098,7 @@
 ]
 },
 {
-"slug": "chiara-rivetti",
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
 "name": "Chiara Rivetti / Rivotti (Falco)",
 "via": "tree",
 "vias": [
@@ -24366,7 +24416,7 @@
 ]
 },
 {
-"slug": "chiara-rivetti",
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
 "name": "Chiara (Clara) Rivetti",
 "via": "register",
 "vias": [
@@ -25766,7 +25816,7 @@
 ]
 },
 {
-"slug": "chiara-rivetti",
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
 "name": "Chiara (Clara) Rivetti",
 "via": "register",
 "vias": [
@@ -25962,6 +26012,39 @@
 "siblings": []
 },
 {
+"slug": "michele-falco-of-michele-falco-antonia-vigliotta",
+"name": "Michele Falco",
+"surname": "FALCO",
+"household": "Michele Falco & Antonia Vigliotta",
+"role": "father",
+"events": [
+{
+"event": "marriage",
+"date": "12 Feb 1850",
+"place": "Arienzo, strada Camellara",
+"evidence": "THE ACT THAT JOINS TWO HOUSEHOLDS THIS ARCHIVE KEPT APART. «*sono comparsi nella Casa Comunale **MICHELE FALCO maggiore, di anni QUARANTATRE, nato in ARIENZO, di professione COLONO, domiciliato in STRADA CAMELLARA, figlio di **RAFFAELE FALCO DEFUNTO**, di professione simile, domiciliato ivi, e di **CHIARA RIVETTI DEFUNTA**, di professione filatrice … **VEDOVO DI ANTONIA VIGLIOTI** … e **GIOVANNA D'AMBROGIO maggiore, di anni DICIANNOVE**, di professione contadina*». **«Michele Falco & Antonia Vigliotta» and «Michele Falco & Maria Giovanna d'Ambrogio» are ONE MAN AND TWO MARRIAGES.** The d'Ambrogio household was known only by a daughter **Antonia born 19 November 1850** — nine months after this wedding.",
+"ark": "ANTENATI an_ua14254 img11r act6"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "antonia-vigliotta",
+"name": "Antonia Vigliotta",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [],
+"siblings": []
+},
+{
 "slug": "michele-falco",
 "name": "Michele Falco",
 "surname": "FALCO",
@@ -25982,7 +26065,7 @@
 ]
 },
 {
-"slug": "chiara-rivetti",
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
 "name": "Chiara Rivetti / Rivotti (Falco)",
 "via": "tree",
 "vias": [
@@ -26664,11 +26747,10 @@
 ],
 "spouses": [
 {
-"slug": "chiara-rivetti",
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
 "name": "Chiara Rivetti / Rivotti (Falco)",
-"via": "line",
+"via": "register",
 "vias": [
-"line",
 "register",
 "tree"
 ]
@@ -28459,7 +28541,16 @@
 "register"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "giovanna-d-ambrogio",
+"name": "Giovanna d'Ambrogio",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "spouses": [],
 "children": [],
 "siblings": [
@@ -28472,6 +28563,30 @@
 ]
 }
 ]
+},
+{
+"slug": "raffaele-falco-of-michele-falco-antonia-vigliotta",
+"name": "Raffaele Falco",
+"surname": "FALCO",
+"household": "Michele Falco & Antonia Vigliotta",
+"role": "grandfather",
+"events": [
+{
+"event": "death window",
+"date": "before 12 Feb 1850",
+"place": "Arienzo, strada Camellara",
+"evidence": "MICHELE FALCO'S FATHER, NAMED FOR THE FIRST TIME: «*figlio di **RAFFAELE FALCO DEFUNTO**, di professione **simile** [colono], domiciliato **ivi** [strada Camellara]*». A generation this archive did not have for this house. NOT joined to the direct line's Raffaele Falco of 1818, who was thirty-one and alive in 1850.",
+"ark": "ANTENATI an_ua14254 img11r act6"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
 },
 {
 "slug": "raffaele-falco",
@@ -29933,7 +30048,7 @@
 ]
 },
 {
-"slug": "chiara-rivetti",
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
 "name": "Chiara Rivetti / Rivotti (Falco)",
 "via": "register",
 "vias": [
@@ -37595,7 +37710,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "chiara-rivetti",
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
 "name": "Chiara (Clara) Rivetti",
 "via": "register",
 "vias": [
@@ -37679,7 +37794,7 @@
 "siblings": []
 },
 {
-"slug": "chiara-rivetti",
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
 "name": "Chiara (Clara) Rivetti",
 "surname": "RIVETTI",
 "household": "Pasquale Falco & Chiara Rivetti",
@@ -37748,9 +37863,8 @@
 {
 "slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Pasquale / Pascuale Falco",
-"via": "line",
+"via": "register",
 "vias": [
-"line",
 "register",
 "tree"
 ]
@@ -37865,10 +37979,34 @@
 ]
 }
 ],
-"mergedOn": "name alone",
+"mergedOn": "the same generation of the direct line — she is the wife the line names, on both sides",
 "treeId": 4512470,
 "b": "1772",
 "bp": "Arienzo, Caserta, Campania, Italy"
+},
+{
+"slug": "chiara-rivetti-of-michele-falco-antonia-vigliotta",
+"name": "Chiara Rivetti (of Raffaele Falco)",
+"surname": "RIVETTI",
+"household": "Michele Falco & Antonia Vigliotta",
+"role": "grandmother",
+"events": [
+{
+"event": "death window",
+"date": "before 12 Feb 1850",
+"place": "Arienzo",
+"evidence": "«*e di **CHIARA RIVETTI DEFUNTA**, di professione **filatrice***». **A NAME THIS ARCHIVE ALREADY HAS, AND THIS IS ALMOST CERTAINLY NOT HER.** Generation two's wife CHIARA RIVETTI was the widow of **PASQUALE** Falco, died 13 September 1843 aged eighty, and bore Pasquale children from 1789 to 1802 — so she cannot have been married to a Raffaele Falco when this Michele was born about 1807. **Either a second Chiara Rivetti, on a street where the Rivetti are dense, or Michele's stated age is badly wrong. Nothing is merged and nothing is chosen.**",
+"ark": "ANTENATI an_ua14254 img11r act6"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
 },
 {
 "slug": "crescenzo-rivetti",
@@ -38479,7 +38617,7 @@
 ]
 },
 {
-"slug": "chiara-rivetti",
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
 "name": "Chiara (Clara) Rivetti",
 "via": "register",
 "vias": [
@@ -40785,6 +40923,39 @@
 ],
 "siblings": [],
 "treeId": 4512472
+},
+{
+"slug": "antonia-vigliotta",
+"name": "Antonia Vigliotta",
+"surname": "VIGLIOTTA",
+"household": "Michele Falco & Antonia Vigliotta",
+"role": "mother",
+"events": [
+{
+"event": "death window",
+"date": "before 12 Feb 1850",
+"place": "Arienzo",
+"evidence": "«*VEDOVO DI ANTONIA VIGLIOTI*» — she was dead by 12 February 1850. Her daughter Chiara died in 1846 aged seven and her daughter Carmela on 4 August 1859, which is AFTER this date and therefore a child of the first marriage buried nine years into the second.",
+"ark": "ANTENATI an_ua14254 img11r act6"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "michele-falco-of-michele-falco-antonia-vigliotta",
+"name": "Michele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [],
+"siblings": []
 },
 {
 "slug": "gelsomina-vigliotta",
