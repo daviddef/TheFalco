@@ -22,7 +22,18 @@ const published = new Set(plates.map(p => String(p.f).replace(/\.jpg$/, "")));
    claim it killed, and a reader landing on the old one was told nothing. Each
    superseded entry now names its successor and links to it. Nothing is deleted:
    the stale text stays, struck through, under the notice. */
-const anchor = (when, what) => "#" + encodeURIComponent(when + "-" + what);
+/* ONE slug for the section id AND for the link to it. The first version
+   encodeURIComponent'd the href while the id stayed raw, so five supersession
+   links pointed at anchors that did not exist — caught by checkarchive, which
+   compares them literally and was right to. */
+const slug = (when, what) =>
+  (when + "-" + what).toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 90);
+/* The kit's Corrections component runs u() over this href, and u() prepends the
+   deployment base to anything — including a bare "#fragment", which became
+   /TheFalco/#slug and pointed at the site root. So hand it a site-root PATH and
+   let u() do what it is for. */
+const anchor = (when, what) => "/corrections/#" + slug(when, what);
 const stale = rows.filter((r) => r.superseded).length;
 ---
 <Base title="Corrections"
@@ -64,7 +75,7 @@ const stale = rows.filter((r) => r.superseded).length;
   </div>
 
   <Corrections u={u} rows={rows.map((r) => ({
-    id: r.when + "-" + r.what,
+    id: slug(r.when, r.what),
     when: r.when,
     kind: KIND[r.what] || r.what,
     sev: r.sev,
