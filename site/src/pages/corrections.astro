@@ -14,6 +14,28 @@ const major = rows.filter((r) => r.sev === "major").length;
    eight of them did, and each one shipped a link to an anchor that was not
    there. Offer the link only when the plate exists. */
 const published = new Set(plates.map(p => String(p.f).replace(/\.jpg$/, "")));
+
+/* An entry can be overturned by a later one. The withdrawal used to be published
+   as a new entry at the top and nothing else — so it sat sixty rows away from the
+   claim it killed, and a reader landing on the old one was told nothing. Each
+   superseded entry now names its successor and links to it. Nothing is deleted:
+   the stale text stays, struck through, under the notice. */
+/* Every entry on this page is written in markdown and, until this audit, every
+   entry was printed with its asterisks and backticks showing — 151 of them.
+   Rendered here rather than at write time so the data file stays plain text. */
+const esc = (t) => String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+/* Bold must be non-greedy and must allow a single-asterisk italic inside it —
+   «**San Felice a Cancello, *Matrimoni* 1844**» is the common shape here, and a
+   [^*] bold pattern mis-pairs across it and nests the tags wrongly. */
+const md = (t) => esc(t)
+  .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, a, b) => `<a href="${b.startsWith("/") ? u(b) : b}">${a}</a>`)
+  .replace(/\*\*([\s\S]+?)\*\*/g, "<strong>$1</strong>")
+  .replace(/\*([^*\n]+)\*/g, "<em>$1</em>")
+  .replace(/`([^`]+)`/g, "<code>$1</code>")
+  .replace(/\n\s*\n/g, "<br><br>");
+
+const anchor = (when, what) => "#" + encodeURIComponent(when + "-" + what);
+const stale = rows.filter((r) => r.superseded).length;
 ---
 <Base title="Corrections"
       eyebrow={`${rows.length} things this archive got wrong and says so`}
@@ -24,7 +46,10 @@ const published = new Set(plates.map(p => String(p.f).replace(/\.jpg$/, "")));
     This page is the opposite list: <strong>{rows.length} corrections</strong>, {major} of them
     material, each naming what was published, what replaced it, and <strong>what caught it</strong>.</p>
     <p style="margin-top:.6rem"><strong>The rule is that corrections are visible, not silent.</strong>
-    A withdrawn reading stays on the page that carried it, struck through or annotated. Where the
+    A withdrawn reading stays on the page that carried it, struck through or annotated —
+    and since this page was first audited, <strong>{stale} entries here that a later finding
+    overturned carry that finding by name at the top of their own text</strong>, because a
+    correction nobody can reach from the thing it corrects is a note, not a correction. Where the
     family tree still asserts something this archive has discarded — <a href={u("/people/pasquale-falco-of-pasquale-falco-chiara-rivetti/")}>Agostino
     Falcone as generation two's father</a> — he is drawn on the page, struck through and labelled
     superseded, beside the man who replaced him.</p>
@@ -58,12 +83,19 @@ const published = new Set(plates.map(p => String(p.f).replace(/\.jpg$/, "")));
         {r.sev === "major" ? <span class="chip doc">material</span> : null}
       </div>
       <div class="cbody">
-        <p class="was"><span class="lab">was</span> {r.was}</p>
-        <p class="now"><span class="lab">now</span> <strong>{r.now}</strong></p>
-        <p class="small how"><span class="lab">how</span> {r.how}</p>
-        <p class="why">{r.why}</p>
+        {r.superseded ? (
+          <p class="sup">
+            <span class="lab">superseded</span>
+            <Fragment set:html={md(r.superseded.note)} />
+            <a href={anchor(r.superseded.when, r.superseded.what)}>{r.superseded.what.replace(/\*\*/g, "")} →</a>
+          </p>
+        ) : null}
+        <p class="was"><span class="lab">was</span> <Fragment set:html={md(r.was)} /></p>
+        <p class="now"><span class="lab">now</span> <strong><Fragment set:html={md(r.now)} /></strong></p>
+        <p class="small how"><span class="lab">how</span> <Fragment set:html={md(r.how)} /></p>
+        <p class="why"><Fragment set:html={md(r.why)} /></p>
         <p class="small foot">
-          <span class="dim">Caught by {r.by}.</span>
+          {r.by ? <span class="dim">Caught by {r.by}.</span> : null}
           {r.where ? <> · <a href={u(r.where)}>Where it lives now →</a></> : null}
           {r.plate && published.has(r.plate.replace(/\.jpg$/, ""))
             ? <> · <a href={u("/documents/") + "#" + r.plate.replace(/\.jpg$/, "")}>the plate</a></>
@@ -88,5 +120,9 @@ const published = new Set(plates.map(p => String(p.f).replace(/\.jpg$/, "")));
   .corr .now{color:var(--ink)}
   .corr .why{margin-top:.5rem;max-width:74ch}
   .corr .foot{margin-top:.5rem}
+  .corr code{font-family:var(--mono);font-size:.88em}
+  .corr .sup{border-left:3px solid var(--accent);background:var(--wash,transparent);
+             padding:.5rem .8rem;margin:0 0 .6rem;max-width:74ch}
+  .corr .sup a{display:block;margin-top:.35rem;font-family:var(--sans);font-size:12px}
 </style>
 </Base>

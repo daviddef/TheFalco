@@ -708,3 +708,55 @@ stays public to anyone with the link.
 - `/people` (the roster), `/search`, `/register`, `/tree`, `/marriages` — noindexed outright
 - `robots.txt` states the policy and shuts out GPTBot, CCBot, Google-Extended, anthropic-ai, ClaudeBot
 - **157 pages carry noindex.** To reverse any one, drop its `noindex` prop.
+
+---
+
+## 15 September — the corrections page audited for the first time (work list row 8)
+
+**192 entries read end to end. Five findings, and none of them is about genealogy.**
+
+**1. Nineteen entries were still asserting something a later finding had overturned.**
+Eleven were still labelled `open` and were not open — generation four's civil marriage
+act "not where it has to be" (found that afternoon at San Felice a Cancello); the
+Sant'Agnese parish "open question again" (settled by the act that night); the founders'
+death window "the arithmetic stops" (closed by the act itself, 18 July 1802); Filomena
+Annecchino's birthplace, doubted twice (established from this repository's own file);
+Pasqua Falco's birth, "every route tried and closed" (read out of the 1823 register two
+days later). Each of the nineteen now carries its successor, named and linked, above its
+own text. **Nothing deleted, nothing reworded.**
+
+**The structural cause:** a withdrawal was published as a new entry at the top, and the
+page sorts by date descending — so it sat sixty rows from the claim it killed. The
+correction was visible and the supersession was not.
+
+**2. Forty volumes of marriage indexes were closed against a surname this archive had
+retired.** The sweep hunted "Maria Falco × Francesco COSSI"; the man is Francesco
+CIOFFI, corrected months ago, re-broken and re-corrected the SAME DAY that negative was
+published. "Not in any of them" is a fact about a spelling. The 1820s–30s volumes sort
+by surname, so a Falco × Cioffi entry sits elsewhere on the page. The inference that the
+couple married before 1809 — and the plan to go to the eighteenth-century parish
+register next — has nothing under it. **Work list row 27.**
+
+**3. "1859 opened" duplicated an entry published the day before, on this same page.**
+Same tavola, same three acts, same conclusions — including a household called "one this
+archive has never recorded" that had been named there with what it was previously known
+by. **Sixth duplication in one week; five of the six re-derived something already
+written down.** Reading the notes first is a habit and habits have failed six times:
+work list row 30 asks for a gate instead.
+
+**4. A correction reopened.** "Luca and Giovanni COSSI, not Cioffi" (13 Sep) was made at
+a resolution its own method note calls insufficient — "at the resolution the plate was
+cropped to, they are not distinguishable" — and runs against both later findings.
+Neither reading asserted; needs the dot-o-r test at 8×. **Work list row 28.**
+
+**5. The page had been printing its own markdown for a week.** 151 entries published
+with literal asterisks, 60 with literal backticks, paragraph breaks collapsed. Invisible
+from the source and from the data; only visible in the built HTML. Now rendered at build
+time, escaped first.
+
+**The method note worth keeping: a page that is only ever appended to drifts in every
+way at once** — in what it claims, and in whether it renders. Row 29 makes the audit
+recurring at 250 entries.
+
+**Also:** `tools/check_release.py` now takes `--dist`, so the gate can run against an
+isolated build instead of racing the other session's `site/dist`.
