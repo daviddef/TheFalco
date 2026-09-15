@@ -5416,7 +5416,7 @@
 ]
 },
 {
-"slug": "carmela-falco",
+"slug": "carmela-falco-2",
 "name": "Carmela Falco (Ruotolo)",
 "via": "tree",
 "vias": [
@@ -10212,7 +10212,7 @@
 ]
 },
 {
-"slug": "carmela-falco-2",
+"slug": "carmela-falco-3",
 "name": "Carmela Falco",
 "via": "tree",
 "vias": [
@@ -10538,7 +10538,7 @@
 ]
 },
 {
-"slug": "carmela-falco-3",
+"slug": "carmela-falco-4",
 "name": "Carmela Falco",
 "via": "tree",
 "vias": [
@@ -10856,7 +10856,7 @@
 ],
 "siblings": [
 {
-"slug": "carmela-falco",
+"slug": "carmela-falco-2",
 "name": "Carmela Falco (Ruotolo)",
 "via": "tree",
 "vias": [
@@ -11628,7 +11628,7 @@
 ]
 },
 {
-"slug": "carmela-falco-3",
+"slug": "carmela-falco-4",
 "name": "Carmela Falco",
 "via": "tree",
 "vias": [
@@ -12012,6 +12012,14 @@
 {
 "slug": "matteo-falco-of-michelangelo-falco-mariantonia-vig",
 "name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco",
+"name": "Carmela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -12416,7 +12424,7 @@
 ]
 },
 {
-"slug": "carmela-falco",
+"slug": "carmela-falco-2",
 "name": "Carmela Falco (Ruotolo)",
 "via": "tree",
 "vias": [
@@ -13095,7 +13103,7 @@
 ]
 },
 {
-"slug": "carmela-falco-2",
+"slug": "carmela-falco-3",
 "name": "Carmela Falco",
 "via": "tree",
 "vias": [
@@ -13573,7 +13581,7 @@
 ]
 },
 {
-"slug": "carmela-falco-2",
+"slug": "carmela-falco-3",
 "name": "Carmela Falco",
 "via": "tree",
 "vias": [
@@ -13689,7 +13697,7 @@
 ]
 },
 {
-"slug": "carmela-falco-2",
+"slug": "carmela-falco-3",
 "name": "Carmela Falco",
 "via": "tree",
 "vias": [
@@ -13734,6 +13742,64 @@
 },
 {
 "slug": "carmela-falco",
+"name": "Carmela Falco",
+"surname": "FALCO",
+"household": "Michelangelo Falco & Mariantonia Vigliotta",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "4 Aug 1859",
+"place": "Arienzo",
+"evidence": "A FOURTH CHILD. «55. FALCO CARMELA | Arienzo | contad[ina] | MICHELE, e VIGLIATO ANT[ONI]A | 4 AGOSTO [1859]». THE SAME SHORTENING AS THE 1842 ACT AND THE SAME CAUTION: the head of this house is MICHELANGELO FALCO and his wife MARIANTONIA VIGLIOTTA, and the index gives both forenames clipped. VIGLIOTTA — here written VIGLIATO — is the half that identifies. A separate Michele Falco married to an Antonia is not impossible, and only the act settles it. Her siblings are two ANNA (d. 1831, d. 1834) and MATTEO (d. 1842)",
+"ark": "ANTENATI an_ua14361 (Arienzo, Morti 1859) tavola, img 4l, atto 55 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "michelangelo-falco",
+"name": "Michelangelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "mariantonia-vigliotta",
+"name": "Mariantonia Vigliotta",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "anna-falco-of-michelangelo-falco-mariantonia-vig",
+"name": "Anna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-michelangelo-falco-mariantonia-vig",
+"name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
+"slug": "carmela-falco-2",
 "name": "Carmela Falco (Ruotolo)",
 "surname": "FALCO",
 "household": null,
@@ -13845,7 +13911,7 @@
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
-"slug": "carmela-falco-2",
+"slug": "carmela-falco-3",
 "name": "Carmela Falco",
 "surname": "FALCO",
 "household": null,
@@ -13954,7 +14020,7 @@
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
-"slug": "carmela-falco-3",
+"slug": "carmela-falco-4",
 "name": "Carmela Falco",
 "surname": "FALCO",
 "household": null,
@@ -14676,7 +14742,7 @@
 ]
 },
 {
-"slug": "carmela-falco-2",
+"slug": "carmela-falco-3",
 "name": "Carmela Falco",
 "via": "tree",
 "vias": [
@@ -14878,7 +14944,7 @@
 ]
 },
 {
-"slug": "carmela-falco-2",
+"slug": "carmela-falco-3",
 "name": "Carmela Falco",
 "via": "tree",
 "vias": [
@@ -14994,7 +15060,7 @@
 ]
 },
 {
-"slug": "carmela-falco-2",
+"slug": "carmela-falco-3",
 "name": "Carmela Falco",
 "via": "tree",
 "vias": [
@@ -15103,7 +15169,7 @@
 ]
 },
 {
-"slug": "carmela-falco-2",
+"slug": "carmela-falco-3",
 "name": "Carmela Falco",
 "via": "tree",
 "vias": [
@@ -15588,7 +15654,7 @@
 ]
 },
 {
-"slug": "carmela-falco-3",
+"slug": "carmela-falco-4",
 "name": "Carmela Falco",
 "via": "tree",
 "vias": [
@@ -15725,7 +15791,7 @@
 ]
 },
 {
-"slug": "carmela-falco",
+"slug": "carmela-falco-2",
 "name": "Carmela Falco (Ruotolo)",
 "via": "tree",
 "vias": [
@@ -16506,7 +16572,7 @@
 ]
 },
 {
-"slug": "carmela-falco",
+"slug": "carmela-falco-2",
 "name": "Carmela Falco (Ruotolo)",
 "via": "tree",
 "vias": [
@@ -17288,7 +17354,7 @@
 ]
 },
 {
-"slug": "carmela-falco",
+"slug": "carmela-falco-2",
 "name": "Carmela Falco (Ruotolo)",
 "via": "tree",
 "vias": [
@@ -21196,7 +21262,7 @@
 ]
 },
 {
-"slug": "carmela-falco",
+"slug": "carmela-falco-2",
 "name": "Carmela Falco (Ruotolo)",
 "via": "tree",
 "vias": [
@@ -21439,7 +21505,7 @@
 ]
 },
 {
-"slug": "carmela-falco-3",
+"slug": "carmela-falco-4",
 "name": "Carmela Falco",
 "via": "tree",
 "vias": [
@@ -22263,7 +22329,7 @@
 ]
 },
 {
-"slug": "carmela-falco-2",
+"slug": "carmela-falco-3",
 "name": "Carmela Falco",
 "via": "tree",
 "vias": [
@@ -22379,7 +22445,7 @@
 ]
 },
 {
-"slug": "carmela-falco-2",
+"slug": "carmela-falco-3",
 "name": "Carmela Falco",
 "via": "tree",
 "vias": [
@@ -23189,7 +23255,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "carmela-falco-3",
+"slug": "carmela-falco-4",
 "name": "Carmela Falco",
 "via": "tree",
 "vias": [
@@ -23734,6 +23800,39 @@
 "siblings": []
 },
 {
+"slug": "maria-falco-of-michele-falco-maria-giovanna-ambro",
+"name": "Maria Falco",
+"surname": "FALCO",
+"household": "Michele Falco & Maria Giovanna Ambrogio",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "4 Mar 1859",
+"place": "Arienzo",
+"evidence": "A FALCO HOUSEHOLD NEW TO THIS ARCHIVE. «19. FALCO MARIA | Arienzo | contadina | MICHELE, ed AMBROGIO GIOV[ANN]A | 4 MARZO [1859]». NO AMBROGIO HAS EVER APPEARED HERE AS A FALCO WIFE. This is NOT Michele Falco & Vincenza Esposito, nor Michelangelo Falco & Mariantonia Vigliotta, both of whom this archive holds; the mother's surname separates them. FROM THE BOUND INDEX, NOT THE ACT: atto 19 is unread and no age is given",
+"ark": "ANTENATI an_ua14361 (Arienzo, Morti 1859) tavola bound at the front, img 4l, atto 19 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "raffaele-falco-of-michele-falco-maria-giovanna-ambro",
+"name": "Raffaele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
 "slug": "maria-falco",
 "name": "Maria Falco (Morgillo)",
 "surname": "FALCO",
@@ -23863,7 +23962,7 @@
 ]
 },
 {
-"slug": "carmela-falco",
+"slug": "carmela-falco-2",
 "name": "Carmela Falco (Ruotolo)",
 "via": "tree",
 "vias": [
@@ -24997,6 +25096,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "carmela-falco",
+"name": "Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -25250,7 +25357,7 @@
 ]
 },
 {
-"slug": "carmela-falco",
+"slug": "carmela-falco-2",
 "name": "Carmela Falco (Ruotolo)",
 "via": "tree",
 "vias": [
@@ -25721,6 +25828,14 @@
 {
 "slug": "matteo-falco-of-michelangelo-falco-mariantonia-vig",
 "name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco",
+"name": "Carmela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -28329,6 +28444,39 @@
 ]
 },
 {
+"slug": "raffaele-falco-of-michele-falco-maria-giovanna-ambro",
+"name": "Raffaele Falco",
+"surname": "FALCO",
+"household": "Michele Falco & Maria Giovanna Ambrogio",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "17 Aug 1859",
+"place": "Arienzo",
+"evidence": "«60. FALCO RAFFAELE | Arienzo | contadino | MICHELE, ed AMBROGIO MARIA GIOVANNA | 17 detto [AGOSTO 1859]» — a second child of the same house, dead five months after his sister. The mother is written more fully here, MARIA GIOVANNA AMBROGIO, which is what fixes the household's name. FROM THE INDEX, NOT THE ACT",
+"ark": "ANTENATI an_ua14361 (Arienzo, Morti 1859) tavola, img 4l, atto 60 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "maria-falco-of-michele-falco-maria-giovanna-ambro",
+"name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
 "slug": "raffaele-falco",
 "name": "Raffaele Falco",
 "surname": "FALCO",
@@ -29139,7 +29287,7 @@
 ]
 },
 {
-"slug": "carmela-falco-3",
+"slug": "carmela-falco-4",
 "name": "Carmela Falco",
 "via": "tree",
 "vias": [
@@ -29599,7 +29747,7 @@
 ]
 },
 {
-"slug": "carmela-falco",
+"slug": "carmela-falco-2",
 "name": "Carmela Falco (Ruotolo)",
 "via": "tree",
 "vias": [
@@ -35820,7 +35968,7 @@
 ]
 },
 {
-"slug": "carmela-falco-2",
+"slug": "carmela-falco-3",
 "name": "Carmela Falco",
 "via": "tree",
 "vias": [
@@ -38908,7 +39056,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "carmela-falco",
+"slug": "carmela-falco-2",
 "name": "Carmela Falco (Ruotolo)",
 "via": "tree",
 "vias": [
@@ -40464,6 +40612,14 @@
 {
 "slug": "matteo-falco-of-michelangelo-falco-mariantonia-vig",
 "name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco",
+"name": "Carmela Falco",
 "via": "register",
 "vias": [
 "register"

@@ -1326,6 +1326,16 @@
     "place": "Arienzo",
     "evidence": "A THIRD CHILD, and the first of this house who is not called Anna. «55. FALCO MATTEO | Arienzo | contadino | FALCO MICHELE, e VIGLIOTTA ANTONIA | 24 detto [AGOSTO] 1842». THE FORENAMES ARE SHORTENED, which this register does constantly: the household head is MICHELANGELO FALCO, son of Pasquale Falco and Chiara Rivetti, and his wife is MARIANTONIA VIGLIOTTA — her surname is the distinctive half and it matches. THE ARCHIVE DOES NOT CLAIM THIS ABSOLUTELY: a separate «Michele Falco» married to an Antonia is not impossible at Arienzo, and only the act itself would settle it. His two sisters, both called ANNA, died in 1831 and 1834. FROM THE INDEX, NOT THE ACT",
     "ark": "ANTENATI an_ua14303 (Arienzo, Morti indice 1842) atto 55 — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Michelangelo Falco & Mariantonia Vigliotta",
+    "person": "Carmela Falco",
+    "role": "child",
+    "event": "death",
+    "date": "4 Aug 1859",
+    "place": "Arienzo",
+    "evidence": "A FOURTH CHILD. «55. FALCO CARMELA | Arienzo | contad[ina] | MICHELE, e VIGLIATO ANT[ONI]A | 4 AGOSTO [1859]». THE SAME SHORTENING AS THE 1842 ACT AND THE SAME CAUTION: the head of this house is MICHELANGELO FALCO and his wife MARIANTONIA VIGLIOTTA, and the index gives both forenames clipped. VIGLIOTTA — here written VIGLIATO — is the half that identifies. A separate Michele Falco married to an Antonia is not impossible, and only the act settles it. Her siblings are two ANNA (d. 1831, d. 1834) and MATTEO (d. 1842)",
+    "ark": "ANTENATI an_ua14361 (Arienzo, Morti 1859) tavola, img 4l, atto 55 — READ FROM THE IMAGE"
    }
   ]
  },
@@ -3811,6 +3821,31 @@
     "place": "Arienzo",
     "evidence": "A SECOND GIOVANNA FALCO OF THE FOUNDERS' GENERATION — OR THE SAME ONE, TWICE MARRIED, AND THE ARCHIVE DOES NOT SAY WHICH. «PASCALE LETTIERI | Arienzo | Fu AGOSTINO, e ROSA SPOSITO» ed «MARIA MICHELA MIGLIORE | Arienzo | DI GIUSEPPE, e GIOVANNA FALCO | A dì 14 GENNAJO [1819]». The «DI» before Giuseppe, where this scribe writes «FU» for the dead all down the same column, puts GIUSEPPE MIGLIORE ALIVE in January 1819. THE OTHER GIOVANNA FALCO in these indexes is the wife of ANTONIO LETTIERI of Paolisi, whose children married at Arienzo in 1826 and 1837. Two husbands. EITHER TWO WOMEN OF ONE NAME IN ONE GENERATION, OR ONE WOMAN WIDOWED AND REMARRIED BETWEEN 1819 AND 1826 — nothing read so far decides it, and neither is claimed. Note also that the groom here is a LETTIERI and so is the other Giovanna Falco's husband",
     "ark": "ANTENATI an_ua14118 (Arienzo, Matrimonj indice 1819) img 2 — READ FROM THE IMAGE"
+   }
+  ]
+ },
+ {
+  "name": "Michele Falco & Maria Giovanna Ambrogio",
+  "members": [
+   {
+    "household": "Michele Falco & Maria Giovanna Ambrogio",
+    "person": "Maria Falco",
+    "role": "child",
+    "event": "death",
+    "date": "4 Mar 1859",
+    "place": "Arienzo",
+    "evidence": "A FALCO HOUSEHOLD NEW TO THIS ARCHIVE. «19. FALCO MARIA | Arienzo | contadina | MICHELE, ed AMBROGIO GIOV[ANN]A | 4 MARZO [1859]». NO AMBROGIO HAS EVER APPEARED HERE AS A FALCO WIFE. This is NOT Michele Falco & Vincenza Esposito, nor Michelangelo Falco & Mariantonia Vigliotta, both of whom this archive holds; the mother's surname separates them. FROM THE BOUND INDEX, NOT THE ACT: atto 19 is unread and no age is given",
+    "ark": "ANTENATI an_ua14361 (Arienzo, Morti 1859) tavola bound at the front, img 4l, atto 19 — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Michele Falco & Maria Giovanna Ambrogio",
+    "person": "Raffaele Falco",
+    "role": "child",
+    "event": "death",
+    "date": "17 Aug 1859",
+    "place": "Arienzo",
+    "evidence": "«60. FALCO RAFFAELE | Arienzo | contadino | MICHELE, ed AMBROGIO MARIA GIOVANNA | 17 detto [AGOSTO 1859]» — a second child of the same house, dead five months after his sister. The mother is written more fully here, MARIA GIOVANNA AMBROGIO, which is what fixes the household's name. FROM THE INDEX, NOT THE ACT",
+    "ark": "ANTENATI an_ua14361 (Arienzo, Morti 1859) tavola, img 4l, atto 60 — READ FROM THE IMAGE"
    }
   ]
  }
