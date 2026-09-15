@@ -5863,7 +5863,7 @@
 "bp": "Arienzo, Caserta, Campania, Italy"
 },
 {
-"slug": "arcangelo-crisci",
+"slug": "arcangelo-crisci-of-arcangelo-crisci-anna-falco",
 "name": "Arcangelo Crisci",
 "surname": "CRISCI",
 "household": "Arcangelo Crisci & Anna Falco",
@@ -5910,6 +5910,48 @@
 {
 "slug": "fortunato-crisci",
 "name": "Fortunato Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
+"slug": "arcangelo-crisci-of-arcangelo-crisci-sara-ruggiero",
+"name": "Arcangelo Crisci",
+"surname": "CRISCI",
+"household": "Arcangelo Crisci & Sara Ruggiero",
+"role": "father",
+"events": [
+{
+"event": "named as declarant",
+"date": "1817",
+"place": "Arienzo, strada Camellara",
+"evidence": "ANDREANA CRISCI'S FATHER, WITH AN AGE AT LAST. «è comparso ARCANGELO CRISCI di anni CINQUANTADUE di professione CONTADINO domiciliato in detto comune, STRADA CAMELLARA» — fifty-two in 1817 gives b. c.1765. HE IS NOT THE ARCANGELO CRISCI WHO MARRIED ANNA FALCO. The same 1817 volume holds a SECOND Arcangelo Crisci, «di anni TRENTA», contadino of STRADA CAPODICONCA, married to MARIA MARTONE — twenty-two years younger, a different street, a different wife. Both read from the image",
+"ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) img 33l — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "sara-ruggiero-of-arcangelo-crisci-sara-ruggiero",
+"name": "Sara Ruggiero",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "son-crisci",
+"name": "[son] Crisci",
 "via": "register",
 "vias": [
 "register"
@@ -6361,7 +6403,7 @@
 "living": false,
 "parents": [
 {
-"slug": "arcangelo-crisci",
+"slug": "arcangelo-crisci-of-arcangelo-crisci-anna-falco",
 "name": "Arcangelo Crisci",
 "via": "register",
 "vias": [
@@ -7156,6 +7198,47 @@
 "treeId": 4512412,
 "b": "Dec 24 1836",
 "bp": "Arienzo, Caserta, Campania, Italy"
+},
+{
+"slug": "son-crisci",
+"name": "[son] Crisci",
+"surname": "CRISCI",
+"household": "Arcangelo Crisci & Sara Ruggiero",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "1817",
+"place": "Arienzo, strada Camellara",
+"evidence": "«…è nato nella sua propria casa da lui dichiarante, e da SARA RUGGIERO sua moglie legittima d'anni quarantacinque, un MASCHIO che ci ha presentato» — A BROTHER FOR ANDREANA CRISCI. The child's given name is further down the act and was NOT REACHED in this pass. The archive also holds, from its own earlier harvest, a sister: CARMELA CRISCI, seven days old, died 9 January 1815, «figlia d'ARCANGELO CRISCI e SARA RUGGIERO», strada Camellara",
+"ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) img 33l — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "arcangelo-crisci-of-arcangelo-crisci-sara-ruggiero",
+"name": "Arcangelo Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "sara-ruggiero-of-arcangelo-crisci-sara-ruggiero",
+"name": "Sara Ruggiero",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": []
 },
 {
 "slug": "maria-giovanna-d-ambrosio",
@@ -12056,7 +12139,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "arcangelo-crisci",
+"slug": "arcangelo-crisci-of-arcangelo-crisci-anna-falco",
 "name": "Arcangelo Crisci",
 "via": "register",
 "vias": [
@@ -38981,7 +39064,7 @@
 "b": "1919"
 },
 {
-"slug": "sara-ruggiero",
+"slug": "sara-ruggiero-of-vincenzo-falco-andreana-crisci",
 "name": "Sara Ruggiero",
 "surname": "RUGGIERO",
 "household": "Vincenzo Falco & Andreana Crisci",
@@ -39009,6 +39092,48 @@
 "parents": [],
 "spouses": [],
 "children": [],
+"siblings": []
+},
+{
+"slug": "sara-ruggiero-of-arcangelo-crisci-sara-ruggiero",
+"name": "Sara Ruggiero",
+"surname": "RUGGIERO",
+"household": "Arcangelo Crisci & Sara Ruggiero",
+"role": "mother",
+"events": [
+{
+"event": "named in a birth act",
+"date": "1817",
+"place": "Arienzo, strada Camellara",
+"evidence": "«e da SARA RUGGIERO sua moglie legittima D'ANNI QUARANTACINQUE» — FORTY-FIVE IN 1817, so b. c.1772, and STILL BEARING CHILDREN AT FORTY-FIVE. Her daughter Andreana was baptised 30 November 1796, when she was about twenty-four. This is the first age this archive has ever had for her; two days ago she was a bracketed «[Rosae]» in a machine transcript",
+"ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) img 33l — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "arcangelo-crisci-of-arcangelo-crisci-sara-ruggiero",
+"name": "Arcangelo Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "son-crisci",
+"name": "[son] Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "siblings": []
 },
 {
