@@ -194,7 +194,7 @@
    "state": "next",
    "owner": "the Falco session",
    "since": "2026-09-15",
-   "note": "Both were found here and **neither is peculiar to this archive**. First: the person-graph builder cleans names to keep old URLs alive, and that cleaning **strips brackets before comparing them** — which cost this archive an entire generation of its own direct line, because `line.json` spelt a wife «Adriana (Andreana) Crisci» and every act spells her ANDREANA. Second: the search index indexed `404.astro`, which Astro emits as `404.html` and never as a page, so the archive check failed on a row pointing at a page that is never built. **Any archive sharing these tools has both.**"
+   "note": "Both were found here and **neither is peculiar to this archive**. First: the person-graph builder cleans names to keep old URLs alive, and that cleaning **strips brackets before comparing them** — which cost this archive an entire generation of its own direct line, because `line.json` spelt a wife «Adriana (Andreana) Crisci» and every act spells her ANDREANA. Second: the search index indexed `404.astro`, which Astro emits as `404.html` and never as a page, so the archive check failed on a row pointing at a page that is never built. **Any archive sharing these tools has both.**\n\n**A THIRD, FOUND 15 SEPTEMBER: `WorkList.astro`'s markdown renderer drops code spans and mis-pairs bold.** Its `md()` handles `&`, `<`, links, `**bold**` and «guillemets» — **but not backticks**, so every ark number in a note (`an_ua14362`) renders with its backticks showing. **This page has forty-six of them.**\n\n**And its bold is `\\*\\*([^*]+)\\*\\*`** — the greedy no-nested-italic form. On «**San Felice a Cancello, *Matrimoni* 1844**», the common shape in these archives, it mis-pairs across the inner italic and nests the tags wrongly. **Both are fixed in this archive's own `site/src/lib/md.js`** — non-greedy `[\\s\\S]+?` bold, then italics, then code — and the fix is four lines. **Every sibling archive using WorkList with ark numbers in its notes has this.**"
   },
   {
    "n": 18,
@@ -428,10 +428,10 @@
   {
    "n": 46,
    "what": "Sweep the MARGINS of every Falco birth act this archive already holds",
-   "state": "next",
+   "state": "running",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Discovered today and not yet exploited: a civil birth act can carry the child's marriage in its margin, including a marriage in another comune.** Domenico Clemente Falco's did, and that is the only reason this archive knows he married at Santa Maria a Vico in 1856. **Every Falco birth act already found should be re-rendered at the annotation band** (`--band 0.415 0.06`, below «che mi ha presentato») **before any new volume is opened.** These are acts already in hand; the marriages may be free. It is the cheapest unread source the archive has."
+   "note": "**Started, and it found something else first: the citation it opened did not resolve.** Eight birth-act citations were one page early — every one copied from a note written on **zero-based harvest numbering** — and all are now corrected. See the correction of 15 September.\n\n**The margin sweep itself is under way.** **LUIGI FALCO's act of 21 December 1819 has NO annotation** — clean whitespace where Domenico Clemente's carries his 1856 marriage. That is a real negative for row 41. **Still to do: the 1816 and 1818 acts at their corrected images**, and the question the negative raises — whether the practice is systematic enough for an absence to mean anything, which needs a control on an act whose marriage is known."
   },
   {
    "n": 47,
@@ -476,26 +476,26 @@
   {
    "n": 52,
    "what": "Audit every published COUNT for the living-people zero",
-   "state": "next",
+   "state": "done",
    "owner": "a machine",
    "since": "2026-09-15",
-   "note": "**The front-page blood chart plotted `n` — people the archive can publish — under a heading about blood, and drew eight living branches as empty bars.** `n` is used all over this archive. **Find every other place a total is displayed** and ask what it excludes: `/marriages/` uses `g.n` for its families and `withheld` separately; the Numbers block on the front page; the people counts on `/people/`; anything summing `register.json`. **The failure is silent by construction** — a count that omits the living looks exactly like a count, and only the family concerned can see the gap."
+   "note": "**Done. The front-page chart was the only place it had gone wrong, and the reason is worth keeping.** Everything else that displays a total counts a source that already includes the living: the front-page Numbers block counts `people.json`, which holds **all 106 living people** with pages of their own; `/marriages/` counts named and withheld **separately and says so in its dek**; `register.length` counts acts, not people.\n\n**The chart was the one total built from a field that means «publishable».** `n` is `len(g[\"people\"])` in `build_marriedin.py`, and the living never reach that list. **The lesson generalises past this archive**: a count is safe when it is drawn from the population, and dangerous when it is drawn from what the archive is allowed to print about the population."
   },
   {
    "n": 53,
    "what": "Audit every page that renders text from a JSON data file for raw markdown",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**The corrections page printed its own asterisks for a week** — 151 entries with literal `**`, 60 with literal backticks, paragraph breaks collapsed — and it was invisible from the source and from the data, appearing only in the built HTML. **The same data style is used elsewhere**: `searched.astro`, `open-questions.astro`, `worklist.json`, the household `evidence` strings that reach person pages. **Grep the BUILT HTML for `**` and for backticks**, which is the only place the fault shows, and fix or render accordingly."
+   "note": "**Done. It was on twenty-three more pages.** The built HTML — the only place the fault shows — carried raw markdown on **/worklist (46 backticks), /register (34), /searched (28), /households and /people/crescenzo-falco (13 bold each)** and **nineteen /who/ pages** printing a plate filename in backticks.\n\n**Fixed by one renderer rather than five.** `site/src/lib/md.js` now holds it, `/corrections/` was moved off its private copy onto the shared one, and `/households/`, `/register/`, `/searched/`, `/people/[slug]` and `/who/[slug]` were put on it. Escape first, then render, so no markup inside a transcription can get through.\n\n**/worklist is the exception and it is not this archive's to fix** — see row 17."
   },
   {
    "n": 54,
    "what": "Check whether /marriages/ carries the same defect the front page did",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**The two pages were just refactored onto one shared rule**, `site/src/lib/marriedin.js`, precisely so they could not drift. The front page's chart was then found to be measuring the wrong thing. **The marriages page builds its own richer version on top of the same filing** and sums `g.n` for its «named» total and `g.withheld` for its withheld total. **Read the page as a stranger would and ask whether any sentence on it claims something `n` cannot support** — particularly any sentence under the blood heading."
+   "note": "**Done — and the answer is no, it does not. /marriages/ solved this problem and the chart then reintroduced it.** That page buckets its families three ways: `families` where `n >= 3`, `thin` where `0 < n < 3`, and **`held` where `n === 0`** — and a held family is rendered with its **withheld** count instead of a bar, under a sentence that says it outright: «*Where a family appears with **no named people at all**, every person the archive holds for that surname is living.*»\n\n**So the older page knew.** The shared rule was extracted into `marriedin.js` precisely so the two could not drift — and the chart drifted anyway, by taking `n` from the shared filing and **leaving behind the treatment of zero that was never in the lib.** **Extracting a rule moves the rule, not the knowledge around it.**"
   },
   {
    "n": 55,
@@ -520,6 +520,14 @@
    "owner": "a machine",
    "since": "2026-09-15",
    "note": "**`data/falco-baptisms-parsed.tsv` has rows with the CHILD COLUMN BLANK and the father's name present.** One of them was Crescenzo Falco's baptism, sitting unparsed while a Crescenzo three files away had no birth date at all. **It was joined today only because a civil act supplied the parents and the month.** The Latin is mangled — «*Cresantios*» for *Crescentius* — so the parser gave up. **A blank child column with a Falco father is a finding waiting for a second source**, and nobody knows how many there are. Count them first."
+  },
+  {
+   "n": 58,
+   "what": "Verify that the remaining 171 ANTENATI citations resolve to the acts they name",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Eight were wrong and were found by accident.** 179 household records cite an ANTENATI volume and image; eight have been corrected and a handful of death citations spot-checked as sound. **161 have never been followed.**\n\n**No gate can catch this** — `checkarchive` checks that links reach pages, and nothing opens an image. The check is a reading job: render the cited band, confirm the act number, the date and the name. **Prioritise by load**: the citations that carry a claim nothing else supports. A wrong image on a fact with three sources is untidy; a wrong image on a fact with one is a fact with none."
   }
  ]
 }

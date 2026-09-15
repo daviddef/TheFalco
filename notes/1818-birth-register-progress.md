@@ -207,3 +207,24 @@ to try if the aim is to date the Michele Falco of strada Camellara.
 and then 17 seconds, so a six-page strip can exceed the 45-second script limit without warning. Drop
 to one page per call when that happens; it recovers on its own.
 
+
+---
+
+## ⚠ IMAGE NUMBERS IN THIS FILE ARE ZERO-BASED — ADD ONE FOR `tools/antenati.py`
+
+**Verified 15 September 2026 on six acts, all shifted by exactly one.** This note was written
+from a harvest whose page numbers start at zero. `tools/antenati.py` is one-based.
+
+| this note says | antenati.py | what is actually there |
+|---|---|---|
+| 1816 img 29 L | **30 L** | Raffaele Falco, 25 Apr 1816 — Vincenzo Falco 35, Andreana Crisci 25 |
+| 1816 img 59 L | **60 L** | Domenico Falco, 25 Nov 1816 — Giuseppe Falco 36 *massaro*, strada COSTA, Gelsomina Vigliotta 32 |
+| 1817 img 35 L | **36 L** | Carlantonio Morgillo 33, strada Maddalena, Rosa Falco 32, 22 Sep 1817 |
+| 1818 img 41 R | **42 R** | Raffaele Falco, 10 May 1818, folio 149 — Vincenzo Falco 27, Andreana Crisci 20 |
+| 1818 img 46 R | **47 R** | Maddalena Falco, 7 Jun 1818, folio 154 — Giuseppe Falco 36 *contadino*, strada CAMELLARA, Antonia di Guida 30 |
+
+**Eight citations in `site/src/data/households.json` carried the unconverted number and pointed at
+the wrong act.** All corrected 15 September. **The DEATH register notes do not have this problem** —
+they were written with `antenati.py` directly and their citations land exactly right.
+
+**Before copying an image number out of any note, ask which tool wrote it.**

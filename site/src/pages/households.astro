@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
+import { md } from "../lib/md.js";
 import households from "../data/households.json";
 import { findPerson } from "../lib/people.js";
 import HouseholdTree from "../components/HouseholdTree.astro";
@@ -23,7 +24,7 @@ import HouseholdTree from "../components/HouseholdTree.astro";
               : m.person}</strong><br/><span class="small">{m.role}</span></td>
             <td>{m.event}</td>
             <td class="mono">{m.date}</td>
-            <td><em>{m.evidence}</em>{m.ark ? <><br/><span class="mono small">{m.ark}</span></> : null}</td>
+            <td><em><Fragment set:html={md(m.evidence, u)} /></em>{m.ark ? <><br/><span class="mono small">{m.ark}</span></> : null}</td>
           </tr>))}</tbody>
       </table></div>
     </section>

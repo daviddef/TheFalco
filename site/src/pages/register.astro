@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import { md } from "../lib/md.js";
 import register from "../data/register.json";
 import { people as reconstructed } from "../lib/people.js";
 
@@ -117,7 +118,7 @@ const unlinked = register.length - linked;
                       : r.name}
                   {r.kind === "household" ? <><br/><span class="chip doc">reconstructed</span></> : null}
                 </td>
-                <td>{r.detail}</td>
+                <td><Fragment set:html={md(r.detail, u)} /></td>
                 <td class="small">
                   {r.link ? <a href={r.link} rel="noopener">{KIND[r.kind] || r.kind} ↗</a>
                           : <span title={WHYNOLINK[r.kind] || "no public link"}>{(KIND[r.kind] || r.kind) + " · " + (WHYNOLINK[r.kind] || "no public link")}</span>}
