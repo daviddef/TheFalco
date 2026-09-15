@@ -1,0 +1,128 @@
+{
+ "title": "The work list",
+ "dek": "What is being done here, as opposed to what is known.",
+ "lead": "Every other register in this archive answers what it knows. **What has been read** carries the negatives, **Open questions** carries what is unanswered, **Corrections** carries what it got wrong. None of them answered what is actually being *done*, so that lived in a chat window — and on 15 September a whole day went into re-reading two registers that `notes/` already recorded as swept, because the thing that knew was a conversation and conversations end. This page is the register that outlives the session.",
+ "close": "Nothing here is a research finding. Those belong on [What has been read](/searched/), [Open questions](/open-questions/) and [Corrections](/corrections/). This list answers one question only: **who has to move it next.**",
+ "rows": [
+  {
+   "n": 1,
+   "what": "Finish the F leaves of the Arienzo death indexes, 1831–1843",
+   "state": "running",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Mid-way. **1833 is done** — one Falco, Pasquale of Vincenzo, already held. **1831 and 1832 are rendered but only their C–D and L–M leaves have been read**, not their F. Finishing this closes two long-standing questions at once: **Antonia di Guida's death** and **Pasqua Falco**. Arks run `an_ua14293` (1831) to `an_ua14297` (1835), then `an_ua14298` (1837) to `an_ua14304` (1843) — **1836 does not exist in the series**, exactly as it does not in the marriage indexes."
+  },
+  {
+   "n": 2,
+   "what": "Audit the 180 corrections entries for ones now superseded",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Five withdrawals were published in two days.** That rate is not a run of bad luck, it is evidence that older entries have gone stale without anyone re-reading them. The audit is the only way to find out how many, and it has never been done."
+  },
+  {
+   "n": 3,
+   "what": "Giuseppe Falco's death, 1859 onward",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-14",
+   "note": "The founder's son was alive and named as a living father in **April 1854**, at about seventy-four. Fifteen consecutive years of death registers, 1844–1858, are read and he is in none of them. The «Morti, indice» series **stops at 1847**; after that the index is bound into the register itself, so this is a reading job rather than a search. Morti = year + 12502."
+  },
+  {
+   "n": 4,
+   "what": "Sara Falco's parish baptism",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-14",
+   "note": "She was found in the 1828 tavola and read from her civil act on 14 September. A **cached parish index leaf already transcribes a «Sara Falco» with a folio number** — if it is hers it is a second, independent witness to a child this archive did not know existed a week ago."
+  },
+  {
+   "n": 5,
+   "what": "Find the second filming of the 1825 birth tavola",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-14",
+   "note": "The 1825 index leaf is **covered by an inserted sheet** in the filming held here, and the photographer's own card lies across the frame reading *THIS INDEX HAS BEEN MICROFILMED ALREADY*. So it exists. The method that found Gioacchino's 1779 baptism — regexing already-cached transcripts for a duplicate shoot — is the way in."
+  },
+  {
+   "n": 6,
+   "what": "Explain why the 1841 civil register holds no Falco death",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-14",
+   "note": "The parish buried **Joannes Falco** on 27 November 1841 and the act has now been read from the image. **All ninety acts of the civil death register for that year hold no Falco at all.** Arienzo's two registers normally agree, so this is an anomaly with something behind it, not a gap."
+  },
+  {
+   "n": 7,
+   "what": "Birth tavole 1818–1820, 1829 onward, and 1845–1860 for Giovanna Arricale's siblings",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-14",
+   "note": "The remaining unread stretch of the Arienzo birth series. The 1845–1860 block is the one that would give **generation five's wife a household** — her own act is read and her siblings are not."
+  },
+  {
+   "n": 8,
+   "what": "The eighteenth-century parish marriage register",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-13",
+   "note": "Two things sit in it. **Matteo Falco's own marriage**, which would name his father and break the line's frontier; and the **Maria Falco × Francesco Cioffi** marriage, which the civil series cannot hold because the Arienzo civil registers begin in 1809 and that marriage is older than they are."
+  },
+  {
+   "n": 9,
+   "what": "Read the FamilySearch image behind a machine transcript",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-14",
+   "note": "Screenshots need the **Browser pane displayed** in the desktop app, and it is not. There is a workaround — compose the DeepZoom tiles inside the page and carry the render back as data — and it worked for the 1841 burial, but it is slow and costs a great deal of context per look. **Showing the pane makes this ordinary again.**"
+  },
+  {
+   "n": 10,
+   "what": "Ancestry and MyHeritage for the Australian end",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-13",
+   "note": "Passenger lists and naturalisation files for the Brisbane generations. Both need a subscription this archive does not have. **Nothing here can move it.**"
+  },
+  {
+   "n": 11,
+   "what": "The two un-scanned Benevento volumes",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-12",
+   "note": "**Arpaia births 1895** and **Forchia births 1897** are not digitised — first inferred from ark arithmetic, since the shelf-marks run consecutively and skip those years, and since confirmed. They are what still blocks Filomena Annecchino's birth. Ordering or reading them at the Archivio di Stato di Benevento is the only route."
+  },
+  {
+   "n": 12,
+   "what": "The processetti — 258 volumes across four towns",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-11",
+   "note": "Marriage supplement files: birth extracts, parental consents, death certificates of parents already dead. **One file can carry two generations backwards.** None have been read. This is the largest unworked seam in the project and it needs time rather than a decision."
+  },
+  {
+   "n": 13,
+   "what": "FreeBMD, RootsChat and Arcanum — deliberately not searched",
+   "state": "done",
+   "owner": "this archive",
+   "since": "2026-09-14",
+   "note": "**A decision, recorded so nobody spends a day rediscovering it.** This family has no English and no Habsburg generations. All three are wrong for it, and saying so on [What has been read](/searched/) is worth more than searching them would have been."
+  },
+  {
+   "n": 14,
+   "what": "Two tool bugs that may exist in every sibling archive",
+   "state": "next",
+   "owner": "the Falco session",
+   "since": "2026-09-15",
+   "note": "Both were found here and **neither is peculiar to this archive**. First: the person-graph builder cleans names to keep old URLs alive, and that cleaning **strips brackets before comparing them** — which cost this archive an entire generation of its own direct line, because `line.json` spelt a wife «Adriana (Andreana) Crisci» and every act spells her ANDREANA. Second: the search index indexed `404.astro`, which Astro emits as `404.html` and never as a page, so the archive check failed on a row pointing at a page that is never built. **Any archive sharing these tools has both.**"
+  },
+  {
+   "n": 15,
+   "what": "Re-reading registers that notes/ already recorded as swept",
+   "state": "struck",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Founded on a mistake, kept rather than deleted.** A day went into reading the 1816 and 1817 birth registers and into deriving the trap that these forms carry a *printed* year the clerk strikes and corrects by hand. Both were already written up in `notes/1817-birth-register-progress.md`, which says *«Result: no Falco at all»* and, in its second line, *«every act is pre-printed sedici and corrected by hand to diciassette»*. The negatives stand and were already this archive's negatives. **The standing rule now is to read `notes/QUEUE.md` and the 83 per-year progress files before opening any register.**"
+  }
+ ]
+}

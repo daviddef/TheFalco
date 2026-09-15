@@ -1,0 +1,21 @@
+---
+import Base from "../layouts/Base.astro";
+import WorkList from "@daviddef/archive-kit/components/WorkList.astro";
+import { u } from "../lib/url.js";
+import work from "../data/worklist.json";
+
+const open = work.rows.filter(r => ["running", "next", "blocked"].includes(r.state)).length;
+const waiting = work.rows.filter(r => r.state === "blocked").length;
+---
+
+<Base title={work.title}
+      eyebrow="What is being done, as opposed to what is known"
+      dek={`${open} items open, ${waiting} of them waiting on somebody outside this archive. Every other register here answers what the archive knows; this one answers who has to move it next.`}>
+
+  <WorkList work={work} u={u} />
+
+  <p class="small">The registers that answer <em>what is known</em> are
+  <a href={u("/searched/")}>What has been read</a>,
+  <a href={u("/open-questions/")}>Open questions</a> and
+  <a href={u("/corrections/")}>Corrections</a>.</p>
+</Base>
