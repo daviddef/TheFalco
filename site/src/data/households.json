@@ -776,6 +776,36 @@
     "place": "Arienzo, Sant'Andrea Apostolo",
     "evidence": "SHE IS THE THREAD THROUGH THE WHOLE FALCO CONNECTION. «Matrina fuit SARA RUGGIERO» appears on TEN PAGES of the Arienzo parish baptism harvest, standing godmother to children of AT LEAST SIX FALCO HOUSEHOLDS: PASQUALE FALCO & CHIARA RIVETTI (generation four); GIUSEPPE FALCO & GELSOMINA VIGLIOTTA of strada Costa; GIOACCHINO FALCO & VITTORIA CIMMINO; DOMENICO CRISCI & MARGARITA FALCO, on three separate pages; ANTONIO MORGILLO & ROSA FALCO — the founders' daughter; and VINCENZO FALCO & ANDREANA CRISCI, which is her OWN DAUGHTER. A Giuseppe Falco and Antonia di Guida baptism carries her too. AT TRANSCRIPT STRENGTH ONLY: every one of these is a machine reading and the OCR mangles the names — «Andreana Cini», «Tesummina Vigliotta», «Cara Ricesta». NONE HAS BEEN READ FROM THE IMAGE. Arks: 3Q9M-CSD3-132K-G, 13L4-T, 132G-3, 1325-J, 13CP-4, 13DW-3, 13N4-R, 13NC-8, 13NK-T",
     "ark": "FamilySearch Arienzo parish baptisms, ten pages of the harvest — MACHINE TRANSCRIPTS, NOT READ FROM THE IMAGE"
+   },
+   {
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Luigi (Aloysius) Falco",
+    "role": "child",
+    "event": "birth",
+    "date": "21 Dec 1819",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "THE CIVIL ACT BEHIND A BAPTISM THIS ARCHIVE ALREADY HELD — not a new child. Act 133: «è comparso VINCENZO FALCO, di anni VENTISEI, di professione CONTADINO, domiciliato in questo comune, STRADA CAMELLARA … ad ore dieci è nato nella sua propria casa da lui dichiarante e da ANDREANA CRISCI sua moglie legitima d'Anni VENTIDUE, un MASCHIO … a cui si è dato il nome di LUIGI». The parish entry gave only «Dec 1819» and «nominatus est Aloysius»; this gives the day, the hour, the street and both parents' ages.",
+    "ark": "ANTENATI an_ua14416 img71l act133"
+   },
+   {
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Vincenzo Falco",
+    "role": "father",
+    "event": "named as declarant",
+    "date": "21 Dec 1819",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«di anni VENTISEI» — twenty-six. He was given as TWENTY-SEVEN on 10 May 1818, nineteen months earlier: HE GETS YOUNGER BY A YEAR WHILE NINETEEN MONTHS PASS. His baptism of 1 February 1792 makes him twenty-seven here, so both civil figures are wrong and the register is the reason the archive dates him from the font instead.",
+    "ark": "ANTENATI an_ua14416 img71l act133"
+   },
+   {
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Andreana Crisci",
+    "role": "mother",
+    "event": "named in a birth act",
+    "date": "21 Dec 1819",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«d'Anni VENTIDUE» — twenty-two, so b. c.1797. This is the Andreana Crisci who married Vincenzo Falco in December 1814, on his own street and in his own house; she is not the other Andreana Crisci this archive keeps separate.",
+    "ark": "ANTENATI an_ua14416 img71l act133"
    }
   ]
  },
@@ -1111,6 +1141,36 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "«…è morto nella sua propria casa DON GIOVANNI FALCO, nato in Arienzo, di anni VENTICINQUE, di professione DIACONO … figlio di GIUSEPPE FALCO di professione COLONO … e di ANTONIA DI GUIDA» — 26 November 1849, ore ventidue. THE ONLY MAN IN THIS FAMILY KNOWN TO HAVE TAKEN ORDERS, from a household of contadini on strada Camellara. Born 6 April 1825 by both his civil act and his parish baptism, so he was TWENTY-FOUR YEARS AND SEVEN MONTHS, and the act rounds it to twenty-five. NOT the Giovanni Falco of this house who was buried on 27 November 1841 «annorum 24 circiter» — two brothers of one name, alive together for sixteen years. The declarants are GENNARO CIOFFI, 52, and FRANCESCO CIOFFI, 56, both contadini of strada Camellara. The act also keeps GIUSEPPE FALCO ALIVE in November 1849 at about seventy, with no «fu» before his name. ADDED TO THE HOUSEHOLD FILE 15 Sep 2026: the act was read from the image on 13 September and had lived only in this archive's corrections log since",
     "ark": "ANTENATI an_ua14351 (Arienzo, Morti 1849) atto 66, img 42 — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Crescenzo Falco",
+    "role": "child",
+    "event": "birth",
+    "date": "11 Oct 1819",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "HIS BIRTH DATE, FOUND AT LAST — he was held by his marriages alone. Civil act 99, folio 239: «è comparso GIUSEPPE FALCO, di anni QUARANTA, di professione CONTADINO, domiciliato in questo comune, STRADA CAMELLARA … ad ore cinque è nato nella sua propria casa da lui dichiarante, e da ANTONIA DI GUIDA sua moglie legitima d'anni TRENTUNO, un MASCHIO». THE GIVEN NAME DID NOT RESOLVE IN THE CIVIL HAND at the leaf's maximum resolution. It is supplied by the PARISH page, which was already harvested into this repository and never parsed: `3Q9M-CSD3-13CH-7`, an October 1819 baptism «et Josepho Falco et Anto[nia] di [Guida] Conjugibus», margin «Cresantios» = CRESCENTIUS. Two independent sources, same parents, same month. Graded PROBABLE on the civil act and PROVEN on the join.",
+    "ark": "ANTENATI an_ua14416 img51r act99"
+   },
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Giuseppe Falco",
+    "role": "father",
+    "event": "named as declarant",
+    "date": "11 Oct 1819",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "Aged FORTY, contadino. He was given as THIRTY-SIX on 7 June 1818, sixteen months earlier — four years of ageing in sixteen months, from one clerk's desk. A fresh instance of the stated-age problem, in the household that supplies most of them.",
+    "ark": "ANTENATI an_ua14416 img51r act99"
+   },
+   {
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Antonia di Guida",
+    "role": "mother",
+    "event": "named in a birth act",
+    "date": "11 Oct 1819",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«d'anni TRENTUNO» — thirty-one, so b. c.1788. This archive has already established that the civil clerks' age for her is about five years out; the figure is recorded, not believed.",
+    "ark": "ANTENATI an_ua14416 img51r act99"
    }
   ]
  },
@@ -1526,6 +1586,46 @@
     "place": "Arienzo",
     "evidence": "«VEDOVO DI GELSOMINA VIGLIOTTI» in her husband's remarriage act of 13 December 1854, and «GELSOMINA VIGLIOTTA DEFUNTA» in her daughter Pasqua's marriage act of 9 September 1856. TWO INDEPENDENT ACTS, TWO YEARS APART, BOTH READ FROM THE IMAGE. Her death is therefore before December 1854 and is not yet found; the Arienzo death registers 1844-1858 have been read out, so she should be in them",
     "ark": "ANTENATI an_ua14258 atto 3 and an_ua14260 atto 29 — BOTH READ FROM THE IMAGE"
+   },
+   {
+    "household": "Giuseppe Falco & Gelsomina Vigliotta",
+    "person": "Domenico Clemente Falco",
+    "role": "child",
+    "event": "birth",
+    "date": "18 Mar 1819",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "A NECRONYM, THREE DAYS AFTER A DOUBLE BURIAL. Act 33, folio 206: «è comparso GIUSEPPE FALCO … di professione MASSARO DI CAMPAGNA, domiciliato in detto comune, STRADA CAMELLARA … ad ore sette e mezza è nato … e da GELSOMINA VIGLIOTTA sua moglie legitima … un MASCHIO … a cui si è dato il nome di DOMENICO CLEMENTE». THIS ARCHIVE ALREADY HELD THAT THIS COUPLE BURIED TWO CHILDREN ON 15 MARCH 1819 — Domenico, aged two years and four months, and his sister Rosaria eleven hours later. Three days after, a son was born and given the dead boy's name.",
+    "ark": "ANTENATI an_ua14416 img18r act33"
+   },
+   {
+    "household": "Giuseppe Falco & Gelsomina Vigliotta",
+    "person": "Domenico Clemente Falco",
+    "role": "child",
+    "event": "marriage",
+    "date": "6 Aug 1856",
+    "place": "Santa Maria a Vico",
+    "evidence": "FROM THE MARGIN OF HIS OWN BIRTH ACT, not from any marriage register: «Con atto 6 agosto 1856 atto 21 in S[anta] Maria a Vico il Falco sposò DOMENICA VIGLIOTTI di Giuseppe». The registrar's later cross-reference reaches a marriage in ANOTHER COMUNE. It is the first time this archive has used a birth-act annotation as a finding aid, and it agrees with the household's known link to Santa Maria a Vico, where the father was living in December 1854.",
+    "ark": "ANTENATI an_ua14416 img18r act33 (marginal annotation)"
+   },
+   {
+    "household": "Giuseppe Falco & Gelsomina Vigliotta",
+    "person": "Giuseppe Falco",
+    "role": "father",
+    "event": "named as declarant",
+    "date": "18 Mar 1819",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "MASSARO DI CAMPAGNA, and on STRADA CAMELLARA — this archive has the household at STRADA COSTA in 1816. Either they moved, or the street is not the identifier here. He is NOT the Giuseppe Falco of the same street who declared a birth seven months later: that one is a CONTADINO married to ANTONIA DI GUIDA. Two Giuseppe Falco on one street in one year, separated by trade and by wife.",
+    "ark": "ANTENATI an_ua14416 img18r act33"
+   },
+   {
+    "household": "Giuseppe Falco & Gelsomina Vigliotta",
+    "person": "Gelsomina Vigliotta",
+    "role": "mother",
+    "event": "named in a birth act",
+    "date": "18 Mar 1819",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "Alive and bearing a child on 18 March 1819, three days after burying two. Her age is given in this act; it is recorded rather than relied on.",
+    "ark": "ANTENATI an_ua14416 img18r act33"
    }
   ]
  },
