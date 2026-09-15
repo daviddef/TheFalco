@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
+import { md } from "../lib/md.js";
 const REPO = "https://github.com/daviddef/TheFalco";
 
 /* What has been read, page by page, and what was in it — including the years
@@ -231,7 +232,7 @@ const totalFalco = READ.reduce((a, r) => a + r.falco, 0);
           <td class="m">{r.ark}</td>
           <td class="m">{r.imgs}</td>
           <td class="m">{r.falco === 0 ? <span class="chip dis">none</span> : r.falco}</td>
-          <td>{r.found}<br/><span class="small">{r.note}</span></td>
+          <td><Fragment set:html={md(r.found, u)} /><br/><span class="small"><Fragment set:html={md(r.note, u)} /></span></td>
         </tr>
       ))}
     </tbody>
@@ -242,8 +243,8 @@ const totalFalco = READ.reduce((a, r) => a + r.falco, 0);
   {NOT_FOUND.map(([what, where, result]) => (
     <section class="card" style="margin:1rem 0">
       <h3 style="margin-bottom:.3rem">{what}</h3>
-      <p class="small mono" style="margin:.1rem 0 .5rem">{where}</p>
-      <p style="margin:.2rem 0">{result}</p>
+      <p class="small mono" style="margin:.1rem 0 .5rem"><Fragment set:html={md(where, u)} /></p>
+      <p style="margin:.2rem 0"><Fragment set:html={md(result, u)} /></p>
     </section>
   ))}
 

@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import { md } from "../lib/md.js";
 import plates from "../data/plates.json";
 import C from "../data/corrections.json";
 const rows = [...C].sort((a, b) => b.when.localeCompare(a.when) ||
@@ -20,20 +21,6 @@ const published = new Set(plates.map(p => String(p.f).replace(/\.jpg$/, "")));
    claim it killed, and a reader landing on the old one was told nothing. Each
    superseded entry now names its successor and links to it. Nothing is deleted:
    the stale text stays, struck through, under the notice. */
-/* Every entry on this page is written in markdown and, until this audit, every
-   entry was printed with its asterisks and backticks showing — 151 of them.
-   Rendered here rather than at write time so the data file stays plain text. */
-const esc = (t) => String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-/* Bold must be non-greedy and must allow a single-asterisk italic inside it —
-   «**San Felice a Cancello, *Matrimoni* 1844**» is the common shape here, and a
-   [^*] bold pattern mis-pairs across it and nests the tags wrongly. */
-const md = (t) => esc(t)
-  .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, a, b) => `<a href="${b.startsWith("/") ? u(b) : b}">${a}</a>`)
-  .replace(/\*\*([\s\S]+?)\*\*/g, "<strong>$1</strong>")
-  .replace(/\*([^*\n]+)\*/g, "<em>$1</em>")
-  .replace(/`([^`]+)`/g, "<code>$1</code>")
-  .replace(/\n\s*\n/g, "<br><br>");
-
 const anchor = (when, what) => "#" + encodeURIComponent(when + "-" + what);
 const stale = rows.filter((r) => r.superseded).length;
 ---
@@ -86,14 +73,14 @@ const stale = rows.filter((r) => r.superseded).length;
         {r.superseded ? (
           <p class="sup">
             <span class="lab">superseded</span>
-            <Fragment set:html={md(r.superseded.note)} />
+            <Fragment set:html={md(r.superseded.note, u)} />
             <a href={anchor(r.superseded.when, r.superseded.what)}>{r.superseded.what.replace(/\*\*/g, "")} →</a>
           </p>
         ) : null}
-        <p class="was"><span class="lab">was</span> <Fragment set:html={md(r.was)} /></p>
-        <p class="now"><span class="lab">now</span> <strong><Fragment set:html={md(r.now)} /></strong></p>
-        <p class="small how"><span class="lab">how</span> <Fragment set:html={md(r.how)} /></p>
-        <p class="why"><Fragment set:html={md(r.why)} /></p>
+        <p class="was"><span class="lab">was</span> <Fragment set:html={md(r.was, u)} /></p>
+        <p class="now"><span class="lab">now</span> <strong><Fragment set:html={md(r.now, u)} /></strong></p>
+        <p class="small how"><span class="lab">how</span> <Fragment set:html={md(r.how, u)} /></p>
+        <p class="why"><Fragment set:html={md(r.why, u)} /></p>
         <p class="small foot">
           {r.by ? <span class="dim">Caught by {r.by}.</span> : null}
           {r.where ? <> · <a href={u(r.where)}>Where it lives now →</a></> : null}

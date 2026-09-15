@@ -15,6 +15,7 @@
 import Base from "../../layouts/Base.astro";
 import { nameTouchesLiving } from "../../lib/people.js";
 import { u } from "../../lib/url.js";
+import { md } from "../../lib/md.js";
 import register from "../../data/register.json";
 import { people } from "../../lib/people.js";
 import { writtenUp } from "../../lib/writtenup.js";
@@ -123,7 +124,7 @@ const withLink = rows.filter((r) => r.link).length;
       {rows.map((r) => (
         <tr>
           <td>{r.name}</td>
-          <td class="small">{r.detail}</td>
+          <td class="small"><Fragment set:html={md(r.detail, u)} /></td>
           <td class="small">
             {r.link
               ? <a href={r.link} rel="noopener">{LINKLABEL[r.kind] || "source"} ↗</a>

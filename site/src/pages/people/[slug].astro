@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
+import { md } from "../../lib/md.js";
 import { people, bySlug, touchesLiving } from "../../lib/people.js";
 import households from "../../data/households.json";
 import PersonTree from "../../components/PersonTree.astro";
@@ -60,7 +61,7 @@ const dek = p.living
             <li style="margin:.6rem 0">
               <strong>{e.event}</strong>{e.date && e.date !== "—" ? <span> — {e.date}</span> : null}
               {e.place ? <span>, {e.place}</span> : null}
-              {e.evidence ? <div class="small" style="margin-top:.25rem">“{e.evidence}”</div> : null}
+              {e.evidence ? <div class="small" style="margin-top:.25rem">“<Fragment set:html={md(e.evidence, u)} />”</div> : null}
               {e.ark ? <div class="small mono">{e.ark}</div> : null}
             </li>
           ))}
