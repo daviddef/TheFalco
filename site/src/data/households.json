@@ -513,9 +513,9 @@
     "role": "child",
     "event": "death",
     "date": "16 Dec 1864",
-    "place": "Arienzo",
-    "evidence": "Entry for Luigi Falco and Vincenzo Falco",
-    "ark": "XS2D-NL5H"
+    "place": "Arienzo, Contrada Capodiconca",
+    "evidence": "READ FROM THE IMAGE — this record was a FamilySearch index stub («Entry for Luigi Falco and Vincenzo Falco») until 16 September 2026. Arienzo *Morti 1864*, atto 47: «*…è morto nella sua casa **LUIGI FALCO = MARITO DI CAROLINA CIMMINO** — nato in **Arienzo**, di anni **QUARANTUNO**, di professione **INDUSTRIANTE**, domiciliato **Contrada Capodiconca**, figlio di **VINCENZO**, di professione **colono**, domiciliato **alla CAMELLARA**, e di **ANDREANA CRISCI**, domiciliata ivi*». Declared by **Fabrizio Crisci**, 62, *cantiniere*, and **Francesco di Lucia**, 40, *trainante*, both of Capodiconca. **HE WAS MARRIED**, which this archive did not know, and **he had left strada Camellara** — an *industriante* of Capodiconca while his father was still a *colono* of Camellara. **The stated age is wrong by three**: born 21 December 1819, he died five days short of forty-five and the act says forty-one.",
+    "ark": "ANTENATI an_ua14366 img51r atto47"
    },
    {
     "household": "Vincenzo Falco & Andreana Crisci",
@@ -806,6 +806,36 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "«d'Anni VENTIDUE» — twenty-two, so b. c.1797. This is the Andreana Crisci who married Vincenzo Falco in December 1814, on his own street and in his own house; she is not the other Andreana Crisci this archive keeps separate.",
     "ark": "ANTENATI an_ua14416 img71l act133"
+   },
+   {
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Carolina Cimmino",
+    "role": "married in",
+    "event": "named as living",
+    "date": "16 Dec 1864",
+    "place": "Arienzo, Contrada Capodiconca",
+    "evidence": "«*MARITO DI **CAROLINA CIMMINO***» — Luigi Falco's widow, and a person this archive did not know existed. Nothing else about her is established: no marriage act, no parents, no age. **The Arienzo civil marriage record is complete 1809–1858 and holds no Falco–Cimmino wedding**, so they married after 1858 or not at Arienzo.",
+    "ark": "ANTENATI an_ua14366 img51r atto47"
+   },
+   {
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Vincenzo Falco",
+    "role": "father",
+    "event": "named as living",
+    "date": "16 Dec 1864",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "GENERATION THREE, ALIVE AT SEVENTY-TWO — twenty years later than any sighting this archive had. «*figlio di **VINCENZO**, di professione **colono**, domiciliato **alla Camellara***», with **no «fu» and no «defunto»**. **THE FORM MARKS THE DEAD AND THIS REGISTER USES IT**: on the same opening, act 41 gives «*figlio di **fu** Nicola … e della **fu** Colomba Capezzo*», act 43 «*figlia del **fu** Giuseppe … e della **fu** Cecilia Silvestri*», act 45 «*figlia del **fu** Don Stefano … e della **fu** Donna Faustina Cimmino*», act 49 «*figlio del **fu** Filippo … e della **fu** Lucrezia Varrecchia*». Four dead parents marked on one sheet, and these two not. His baptism of 1 February 1792 makes him seventy-two.",
+    "ark": "ANTENATI an_ua14366 img51r atto47"
+   },
+   {
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Andreana Crisci",
+    "role": "mother",
+    "event": "named as living",
+    "date": "16 Dec 1864",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«*e di **ANDREANA CRISCI**, domiciliata **ivi***» — alive, unmarked, on the same evidence as her husband. Her latest previous sighting was her son Raffaele's marriage act of 7 March 1844.",
+    "ark": "ANTENATI an_ua14366 img51r atto47"
    }
   ]
  },
