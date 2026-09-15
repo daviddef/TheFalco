@@ -120,7 +120,7 @@
 "living": false,
 "parents": [
 {
-"slug": "carmine-annecchino",
+"slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
 "name": "Carmine Annecchino",
 "via": "register",
 "vias": [
@@ -210,7 +210,7 @@
 "living": false,
 "parents": [
 {
-"slug": "carmine-annecchino",
+"slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
 "name": "Carmine Annecchino",
 "via": "register",
 "vias": [
@@ -300,7 +300,7 @@
 "living": false,
 "parents": [
 {
-"slug": "carmine-annecchino",
+"slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
 "name": "Carmine Annecchino",
 "via": "register",
 "vias": [
@@ -370,7 +370,7 @@
 ]
 },
 {
-"slug": "carmine-annecchino",
+"slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
 "name": "Carmine Annecchino",
 "surname": "ANNECCHINO",
 "household": "Carmine Annecchino & Maria Carfora",
@@ -385,20 +385,10 @@
 }
 ],
 "sources": [
-"register",
-"tree"
+"register"
 ],
 "living": false,
-"parents": [
-{
-"slug": "giacomo-annecchino-3",
-"name": "Giacomo Annecchino",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"parents": [],
 "spouses": [
 {
 "slug": "maria-carfora",
@@ -410,23 +400,6 @@
 }
 ],
 "children": [
-{
-"slug": "filomena-annecchino",
-"name": "Filomena Annecchino (Falco)",
-"via": "register",
-"vias": [
-"register",
-"tree"
-]
-},
-{
-"slug": "giacomo-annecchino-2",
-"name": "Giacomo Annecchino",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
 {
 "slug": "giacinta-annecchino",
 "name": "Giacinta Annecchino",
@@ -474,10 +447,83 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "filomena-annecchino",
+"name": "Filomena Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
+"slug": "carmine-annecchino-of-sabatino-annecchino-mariantonia-ca",
+"name": "Carmine Annecchino",
+"surname": "ANNECCHINO",
+"household": "Sabatino Annecchino & Mariantonia Carfora",
+"role": "grandfather",
+"events": [
+{
+"event": "death window",
+"date": "before 20 Jan 1860",
+"place": "Forchia",
+"evidence": "SABATINO'S FATHER, AND A GENERATION THIS ARCHIVE DID NOT HAVE. «*figlio di **fu CARMINE ANNECCHINO**, di professione **contadino***» — dead before January 1860, of Forchia. **NOT the Carmine Annecchino who married Maria Carfora and fathered Filomena in 1897**; that one was bearing children from 1883 and is two generations later. **The name recurs in this family**, which is worth holding onto rather than resolving.",
+"ark": "ANTENATI an_ua14264 img5r act3"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
+"slug": "carmine-annecchino",
+"name": "Carmine Annecchino",
+"surname": "ANNECCHINO",
+"household": null,
+"role": null,
+"events": [],
+"sources": [
+"tree"
+],
+"living": false,
+"parents": [
+{
+"slug": "giacomo-annecchino-3",
+"name": "Giacomo Annecchino",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"spouses": [],
+"children": [
+{
+"slug": "filomena-annecchino",
+"name": "Filomena Annecchino (Falco)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "giacomo-annecchino-2",
+"name": "Giacomo Annecchino",
+"via": "tree",
+"vias": [
+"tree"
+]
 }
 ],
 "siblings": [],
-"mergedOn": "name alone",
 "treeId": 4506158
 },
 {
@@ -630,10 +676,17 @@
 {
 "slug": "carmine-annecchino",
 "name": "Carmine Annecchino",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
+"name": "Carmine Annecchino",
 "via": "register",
 "vias": [
-"register",
-"tree"
+"register"
 ]
 },
 {
@@ -780,7 +833,7 @@
 "living": false,
 "parents": [
 {
-"slug": "carmine-annecchino",
+"slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
 "name": "Carmine Annecchino",
 "via": "register",
 "vias": [
@@ -877,7 +930,7 @@
 "living": false,
 "parents": [
 {
-"slug": "carmine-annecchino",
+"slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
 "name": "Carmine Annecchino",
 "via": "register",
 "vias": [
@@ -1028,7 +1081,7 @@
 "living": false,
 "parents": [
 {
-"slug": "carmine-annecchino",
+"slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
 "name": "Carmine Annecchino",
 "via": "register",
 "vias": [
@@ -1563,6 +1616,13 @@
 "place": "Forchia, Benevento",
 "evidence": "A SECOND Annecchino household at Forchia, and NO KINSHIP TO CARMINE IS CLAIMED",
 "ark": "FamilySearch, Benevento Civil Registration (State Archive) 1810-1942, collection 2475030 — harvested to data/annecchino-benevento-fs.tsv"
+},
+{
+"event": "marriage",
+"date": "20 Jan 1860",
+"place": "Arienzo",
+"evidence": "THE MARRIAGE, FOUND — this archive held the household from its children alone. «*sono comparsi nella Casa Comunale **SABBATINO ANNECCHINO**, di anni **trentaquattro**, nato in **FORCHIA**, di professione **contadino**, domiciliato in **FORCHIA**, figlio di **fu CARMINE ANNECCHINO**, di professione contadino, e di **fu ROSA CEGLIA** … e **MARIA ANTONIA CARFORA**, di anni **ventinove**, nata in **ARIENZO**, domiciliata in Arienzo, figlia di **fu [?]ERIO CARFORA**, di professione contadino, e di **fu PASQUA MORGILLO***». Witnesses **Pasquale Laudato** and a **di Antonio Crispi**. Their first known child, Maria Rosa, was born 7 March 1861 — thirteen months later.",
+"ark": "ANTENATI an_ua14264 img5r act3"
 }
 ],
 "sources": [
@@ -3483,7 +3543,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "carmine-annecchino",
+"slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
 "name": "Carmine Annecchino",
 "via": "register",
 "vias": [
@@ -3564,6 +3624,13 @@
 "place": "Forchia, Benevento",
 "evidence": "A SECOND Carfora woman married to an Annecchino man. Recorded and not interpreted",
 "ark": "FamilySearch, Benevento Civil Registration (State Archive) 1810-1942, collection 2475030 — harvested to data/annecchino-benevento-fs.tsv"
+},
+{
+"event": "marriage",
+"date": "20 Jan 1860",
+"place": "Arienzo",
+"evidence": "«*MARIA ANTONIA CARFORA, di anni **ventinove**, **nata in ARIENZO***» — so born about 1831, and **an Arienzo woman, not a Forchia one**. This archive had her only as a mother of four daughters born 1861–1866.",
+"ark": "ANTENATI an_ua14264 img5r act3"
 }
 ],
 "sources": [
@@ -3663,6 +3730,30 @@
 "siblings": []
 },
 {
+"slug": "erio-carfora",
+"name": "[?]erio Carfora",
+"surname": "CARFORA",
+"household": "Sabatino Annecchino & Mariantonia Carfora",
+"role": "grandfather",
+"events": [
+{
+"event": "death window",
+"date": "before 20 Jan 1860",
+"place": "Arienzo",
+"evidence": "MARIA ANTONIA CARFORA'S FATHER — a **CARFORA OF ARIENZO**, contadino, dead before January 1860. **HIS FORENAME DOES NOT RESOLVE**: the word reads «[L/t]erio» at four times magnification and is left unread rather than guessed, as this archive leaves one widow's surname blank for the same reason. **The Carfora are therefore an Arienzo family as well as a Forchia one** — which bears on the three closed routes to Maria Carfora's parents, all of which were run at Forchia.",
+"ark": "ANTENATI an_ua14264 img5r act3"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
 "slug": "letizia-casolla-casella",
 "name": "Letizia Casolla / Casella (Falcone)",
 "surname": "CASOLLA / CASELLA",
@@ -3688,6 +3779,30 @@
 "siblings": [],
 "treeId": 4512603,
 "b": "1799"
+},
+{
+"slug": "rosa-ceglia",
+"name": "Rosa Ceglia",
+"surname": "CEGLIA",
+"household": "Sabatino Annecchino & Mariantonia Carfora",
+"role": "grandmother",
+"events": [
+{
+"event": "death window",
+"date": "before 20 Jan 1860",
+"place": "Forchia",
+"evidence": "«*e di **fu ROSA CEGLIA***» — Sabatino Annecchino's mother, dead before January 1860. **CEGLIA HAS NEVER APPEARED IN THIS ARCHIVE**, under any spelling.",
+"ark": "ANTENATI an_ua14264 img5r act3"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
 },
 {
 "slug": "carolina-cimmino",
@@ -35656,6 +35771,30 @@
 "siblings": [],
 "mergedOn": "name alone",
 "treeId": 4512368
+},
+{
+"slug": "pasqua-morgillo",
+"name": "Pasqua Morgillo",
+"surname": "MORGILLO",
+"household": "Sabatino Annecchino & Mariantonia Carfora",
+"role": "grandmother",
+"events": [
+{
+"event": "death window",
+"date": "before 20 Jan 1860",
+"place": "Arienzo",
+"evidence": "«*e di **fu PASQUA MORGILLO***» — Maria Antonia Carfora's mother, dead before January 1860. **A CARFORA–MORGILLO marriage at Arienzo**, in the generation born about 1800.",
+"ark": "ANTENATI an_ua14264 img5r act3"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
 },
 {
 "slug": "pasquale-morgillo",

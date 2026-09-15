@@ -332,10 +332,10 @@
   {
    "n": 34,
    "what": "The Arienzo MARRIAGE REGISTERS after 1849 — there is no index at all",
-   "state": "done",
+   "state": "running",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**DONE, and the series is shorter than the row assumed.** `an_ua14213` + (year − 1809) reaches **1858 = `14262`** and then stops: `14263`, `14264`, `14265`, `14268` have **no manifest**, and by `14272` the arks are already a different series — the Morti indexes, where `14272` is 1810. **So «after 1849» is NINE years, not fifteen.**\n\n**All nine read act by act. They hold ONE Falco marriage.** 1850 (11 acts): **act 6, MICHELE FALCO**, *vedovo di Antonia Viglioti*, marrying Giovanna d'Ambrogio — merging two households and naming his parents. 1851 (24), 1852 (two bound registers, ~9 then 30), 1853 (29), 1857 (32), 1858 (36): **no Falco in any.** 1854–1856 were read earlier and gave three Falco weddings.\n\n**What this closes:** the Arienzo civil marriage record is now **complete from 1809 to 1858** — forty index volumes and nine registers. **A Falco who married at Arienzo in that half-century is either found or does not exist.**"
+   "note": "**REOPENED. The series does not end at 1858 — I read a rate-limit refusal as an absence.** `an_ua14264` is **Matrimoni 1860, 38 images**; `14267` is **1863, 24 images**; the town's year facet gives **Nati, Matrimoni and Morti all 1809–1865**.\n\n**READ: 1850 (act 6 is MICHELE FALCO), 1851, 1852, 1853, 1857, 1858** — plus 1854–1856 earlier. **READ SINCE: 1859 (25 acts, no Falco) and 1860 (no Falco — but act 3 is the ANNECCHINO–CARFORA marriage of 20 January 1860, which gives that line a generation). UNREAD: 1861, 1862, 1863, 1864, 1865** = `an_ua14263`–`14269`.\n\n**`tools/antenati.py` now stops on a 403 and says «RATE LIMITED, not missing».** It reported the refusal in the same words it uses for a volume that does not exist, which is how a published conclusion came to rest on four failed fetches."
   },
   {
    "n": 35,
@@ -559,7 +559,15 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-16",
-   "note": "**Three of this archive's oldest questions now point at one missing series.** **VINCENZO FALCO** alive December 1864 and not in 1865; **GIUSEPPE FALCO of Antonia di Guida** alive November 1849 and in no volume since; **PASQUA FALCO'S second marriage of 30 December 1880**, known only from a margin. **All three are after Antenati's Arienzo holdings stop in 1865.**\n\n**Antenati holds post-Unification registers for other towns in this fondo's province** — the Forchia and Moiano series were found that way. **The holdings-discovery endpoint returned 403 on 15 September under rate limiting**, so retry it: `/search-registry/?localita=Arienzo&tipologia=Morti`, with a browser User-Agent, a Referer and `--compressed`. **Failing that, collection 2043630 (1866–1929) is already open and indexed** and covers Caserta comuni; it is the fallback for all three."
+   "note": "**Three of this archive's oldest questions now point at one missing series.** **VINCENZO FALCO** alive December 1864 and not in 1865; **GIUSEPPE FALCO of Antonia di Guida** alive November 1849 and in no volume since; **PASQUA FALCO'S second marriage of 30 December 1880**, known only from a margin. **All three are after Antenati's Arienzo holdings stop in 1865.**\n\n**Antenati holds post-Unification registers for other towns in this fondo's province** — the Forchia and Moiano series were found that way. **The holdings-discovery endpoint returned 403 on 15 September under rate limiting**, so retry it: `/search-registry/?localita=Arienzo&tipologia=Morti`, with a browser User-Agent, a Referer and `--compressed`. **Failing that, collection 2043630 (1866–1929) is already open and indexed** and covers Caserta comuni; it is the fallback for all three.\n\n**CONFIRMED FROM THE FACET, 16 September — and it is a real nil.** `tools/antenati_holdings.py Arienzo` reads the year facet the search page leaves in its Solr query (`facet.limit=200`), so it lists **every** year the town has, not just the ten rendered. **Nati, Matrimoni and Morti each run 1809–1865 and stop.** *Diversi* is patchy to 1865. **There is nothing for Arienzo after 1865 on Antenati in any series** — so this row stands, and the post-Unification registers must come from elsewhere."
+  },
+  {
+   "n": 63,
+   "what": "The Carfora of ARIENZO — a family this archive never knew to look for",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "**Every route to Maria Carfora's parents was run at FORCHIA and all three shut.** The Arienzo marriage of 20 January 1860 names **«fu [?]ERIO CARFORA», contadino of Arienzo, and «fu PASQUA MORGILLO»** — **a Carfora house at Arienzo, marrying a Morgillo, in the generation born about 1800.**\n\n**Their daughter Maria Antonia was born at Arienzo about 1831**, so her birth act is in `an_ua14406` + (1831 − 1809) = **`an_ua14428`**, and it would give her father's forename — which does not resolve on the marriage act. **Then run the Arienzo registers for CARFORA the way they have been run for FALCO.** The surname was never searched here because the family was assumed to be Forchia's."
   }
  ]
 }
