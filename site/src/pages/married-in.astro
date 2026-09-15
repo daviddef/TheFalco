@@ -4,6 +4,14 @@ import { u } from "../lib/url.js";
 import groups from "../data/married-in.json";
 
 const other = groups.filter((g) => g.surname !== "Falco");
+
+/* A name becomes a link only where the DATA carries the slug. build_marriedin.py
+   joins it on the tree id both builds share, never on the name: 103 of these
+   people share a name with somebody else in the archive — there are three
+   separate Marta Zampiello — so a name would point a third of the links at a
+   guess. The eleven without one are Nudgee burials, documented dead who are not
+   in the tree and so have no page to point at. */
+const P = (name, slug) => ({ name, slug });
 const named = other.reduce((a, g) => a + g.n, 0);
 const withheld = other.reduce((a, g) => a + g.withheld, 0);
 const big = other.filter((g) => g.n >= 3);
@@ -110,7 +118,10 @@ const span = (g) => (g.first && g.last ? (g.first === g.last ? `${g.first}` : `$
       {STORY[g.surname] ? <p set:html={STORY[g.surname]} /> : null}
       {g.marriages.length ? (
         <p class="small" style="margin-bottom:.5rem"><strong>Joined by marriage:</strong>{" "}
-          {g.marriages.map((m, i) => (<span>{i ? " · " : ""}{m.who} &amp; {m.to}</span>))}</p>
+          {g.marriages.map((m, i) => (<span>{i ? " · " : ""}
+            {m.whoSlug ? <a href={u("/people/" + m.whoSlug + "/")}>{m.who}</a> : m.who}
+            {" & "}
+            {m.toSlug ? <a href={u("/people/" + m.toSlug + "/")}>{m.to}</a> : m.to}</span>))}</p>
       ) : null}
       <div class="scroll">
         <table>
@@ -118,7 +129,7 @@ const span = (g) => (g.first && g.last ? (g.first === g.last ? `${g.first}` : `$
           <tbody>
             {g.people.map((p) => (
               <tr>
-                <td>{p.name}</td>
+                <td>{p.slug ? <a href={u("/people/" + p.slug + "/")}>{p.name}</a> : p.name}</td>
                 <td class="small mono">{[p.b, p.bp].filter(Boolean).join(" · ") || "—"}</td>
                 <td class="small mono">{[p.d, p.dp].filter(Boolean).join(" · ") || "—"}</td>
               </tr>))}
@@ -138,7 +149,8 @@ const span = (g) => (g.first && g.last ? (g.first === g.last ? `${g.first}` : `$
         {small.map((g) => (
           <tr>
             <td><strong>{g.surname}</strong>{g.withheld ? <><br/><span class="small" style="color:var(--ink-3)">{g.withheld} living, withheld</span></> : null}</td>
-            <td>{g.people.map((p, i) => (<span>{i ? " · " : ""}{p.name}</span>))}</td>
+            <td>{g.people.map((p, i) => (<span>{i ? " · " : ""}
+              {p.slug ? <a href={u("/people/" + p.slug + "/")}>{p.name}</a> : p.name}</span>))}</td>
             <td class="small mono">{span(g)}</td>
             <td class="small">{g.places.join(" · ") || "—"}</td>
             <td class="small"><a href={u("/register/") + "?q=" + encodeURIComponent(g.surname)}>register →</a></td>

@@ -1,7 +1,7 @@
 [
  {
   "surname": "Falco",
-  "n": 132,
+  "n": 129,
   "withheld": 17,
   "first": 1744,
   "last": 2018,
@@ -14,223 +14,310 @@
   "marriages": [
    {
     "who": "Carmine Antonio (Carminantonio) Falco",
+    "whoSlug": "carmine-antonio-falco-2",
     "to": "Filomena Annecchino (Falco)",
+    "toSlug": "filomena-annecchino",
     "into": "Annecchino"
    },
    {
     "who": "Raffaele Falco",
+    "whoSlug": "raffaele-falco",
     "to": "Caterina Zampiello (Falco)",
+    "toSlug": "caterina-zampiello",
     "into": "Zampiello"
    },
    {
     "who": "Costanza Falco (Crisci)",
+    "whoSlug": "costanza-falco",
     "to": "Pasquale Crisci",
+    "toSlug": "pasquale-crisci",
     "into": "Crisci"
    },
    {
     "who": "Raffaele Falco",
+    "whoSlug": "raffaele-falco-2",
     "to": "Constanza Maione (Falco)",
+    "toSlug": "constanza-maione",
     "into": "Maione"
    },
    {
     "who": "Carmine Antonio Falco",
+    "whoSlug": "carmine-antonio-falco",
     "to": "Giovanna Arricole (Falco)",
+    "toSlug": "giovanna-arricole",
     "into": "Arricole"
    },
    {
     "who": "Raffaele Falco",
+    "whoSlug": "raffaele-falco-3",
     "to": "Angela Rosa Morgillo (Falco)",
+    "toSlug": "angela-rosa-morgillo",
     "into": "Morgillo"
    },
    {
     "who": "Pasquale Antonio Falco",
+    "whoSlug": "pasquale-antonio-falco",
     "to": "Maria Amelia / Amalia Guida / Guido (Falco)",
+    "toSlug": "maria-amelia-amalia-guida-guido",
     "into": "Guida / Guido"
    },
    {
     "who": "Pasquale Antonio Falco",
+    "whoSlug": "pasquale-antonio-falco",
     "to": "Elisabetta Sadutto (Falco)",
+    "toSlug": "elisabetta-sadutto",
     "into": "Sadutto"
    },
    {
     "who": "Gioacchino / Guglielmo Falco",
+    "whoSlug": "gioacchino-guglielmo-falco",
     "to": "Andreana Crisci (Falco)",
+    "toSlug": "andreana-crisci-2",
     "into": "Crisci"
    },
    {
     "who": "Michele Falco",
+    "whoSlug": "michele-falco",
     "to": "Maria Giovanna d'Ambrosio (Falco)",
+    "toSlug": "maria-giovanna-d-ambrosio",
     "into": "d'Ambrosio"
    },
    {
     "who": "Gioacchino Falco",
+    "whoSlug": "gioacchino-falco-2",
     "to": "Vittoria Cimmino (Falco)",
+    "toSlug": "vittoria-cimmino",
     "into": "Cimmino"
    },
    {
     "who": "Giuseppe Falco",
+    "whoSlug": "giuseppe-falco-2",
     "to": "Gelsomina Nobile Vigliotti (Falco)",
+    "toSlug": "gelsomina-nobile-vigliotti",
     "into": "Vigliotti"
    },
    {
     "who": "Francesco Falco",
+    "whoSlug": "francesco-falco-2",
     "to": "Francesca Maione (Falco)",
+    "toSlug": "francesca-maione",
     "into": "Maione"
    },
    {
     "who": "Giuseppe Falco",
+    "whoSlug": "giuseppe-falco-3",
     "to": "Antonia Guida / Guido (Falco)",
+    "toSlug": "antonia-guida-guido",
     "into": "Guida / Guido"
    },
    {
     "who": "Giovanna Falco (Crisci)",
+    "whoSlug": "giovanna-falco-2",
     "to": "Aniello Crisci",
+    "toSlug": "aniello-crisci",
     "into": "Crisci"
    },
    {
     "who": "Matteo Falco",
+    "whoSlug": "matteo-falco-2",
     "to": "Alessandra Crisci (Falco)",
+    "toSlug": "alessandra-crisci",
     "into": "Crisci"
    },
    {
     "who": "Francesca Falco (Crisci)",
+    "whoSlug": "francesca-crisci",
     "to": "Raffaele Crisci",
+    "toSlug": "raffaele-crisci",
     "into": "Crisci"
    },
    {
     "who": "Maria Falco (Morgillo)",
+    "whoSlug": "maria-falco",
     "to": "Raffaele Morgillo",
+    "toSlug": "raffaele-morgillo",
     "into": "Morgillo"
    },
    {
     "who": "Crescenzo Falco",
+    "whoSlug": "crescenzo-falco-2",
     "to": "Maria Concetta Morgillo (Falco)",
+    "toSlug": "maria-concetta-morgillo",
     "into": "Morgillo"
    },
    {
     "who": "Carmela Falco (Ruotolo)",
+    "whoSlug": "carmela-falco-2",
     "to": "Michele Ruotolo",
+    "toSlug": "michele-ruotolo",
     "into": "Ruotolo"
    },
    {
     "who": "Filomena Falco (Crisci)",
+    "whoSlug": "filomena-falco",
     "to": "Antonio Crisci",
+    "toSlug": "antonio-crisci",
     "into": "Crisci"
    },
    {
     "who": "Giuseppe Falco",
+    "whoSlug": "giuseppe-falco-4",
     "to": "Nicoletta Nuzzo (Falco)",
+    "toSlug": "nicoletta-nuzzo",
     "into": "Nuzzo"
    },
    {
     "who": "Vincenza Falco (Morgillo)",
+    "whoSlug": "vincenza-falco",
     "to": "Carmine Morgillo",
+    "toSlug": "carmine-morgillo",
     "into": "Morgillo"
    },
    {
     "who": "Maria Falco (Ferrara)",
+    "whoSlug": "maria-falco-2",
     "to": "Giovanni Ferrara",
+    "toSlug": "giovanni-ferrara",
     "into": "Ferrara"
    },
    {
     "who": "Domenica Falco (Guida)",
+    "whoSlug": "domenica-falco",
     "to": "Pasqualantonio Guida",
+    "toSlug": "pasqualantonio-guida",
     "into": "Guida"
    },
    {
     "who": "Giovanni Falco",
+    "whoSlug": "giovanni-falco-2",
     "to": "Giuseppa Martone (Falco)",
+    "toSlug": "giuseppa-martone",
     "into": "Martone"
    },
    {
     "who": "Carmine Falco",
+    "whoSlug": "carmine-falco-3",
     "to": "Giovanna Pellone (Falco)",
+    "toSlug": "giovanna-pellone",
     "into": "Pellone"
    },
    {
     "who": "Luigi Falco",
+    "whoSlug": "luigi-falco-3",
     "to": "Carolina Cimmino (Falco)",
+    "toSlug": "carolina-cimmino",
     "into": "Cimmino"
    },
    {
     "who": "Vincenzo Falco",
+    "whoSlug": "vincenzo-falco",
     "to": "Andrea / Andreana Crisci (Falco)",
+    "toSlug": "andreana-crisci",
     "into": "Crisci"
    },
    {
     "who": "Pasquale / Pascuale Falco",
+    "whoSlug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
     "to": "Chiara Rivetti / Rivotti (Falco)",
+    "toSlug": "chiara-rivetti",
     "into": "Rivetti / Rivotti"
    },
    {
     "who": "Matteo Falco",
+    "whoSlug": "matteo-falco-3",
     "to": "Agnese di Lucia (Falco)",
+    "toSlug": "agnese-di-lucia",
     "into": "di Lucia"
    },
    {
     "who": "Andrea Falco",
+    "whoSlug": "andrea-falco",
     "to": "Carmela Buono (Falco)",
+    "toSlug": "carmela-buono",
     "into": "Buono"
    },
    {
     "who": "Antonio Falco",
+    "whoSlug": "antonio-falco",
     "to": "(Maria) Carmela di Guida / Guido (Falco)",
+    "toSlug": "carmela-di-guida-guido",
     "into": "di Guida / Guido"
    },
    {
     "who": "Antonio Falco",
+    "whoSlug": "antonio-falco-4",
     "to": "Vincenza Della Sorca (Falco)",
+    "toSlug": "vincenza-della-sorca",
     "into": "Della Sorca"
    },
    {
     "who": "Francesco Falco",
+    "whoSlug": "francesco-falco-3",
     "to": "Maddalena Siciliatto (Falco)",
+    "toSlug": "maddalena-siciliatto",
     "into": "Siciliatto"
    },
    {
     "who": "Angelo Falco",
+    "whoSlug": "angelo-falco-4",
     "to": "Vincenza De Lucia (Falco)",
+    "toSlug": "vincenza-de-lucia",
     "into": "De Lucia"
    },
    {
     "who": "Francesco Falco",
+    "whoSlug": "francesco-falco-4",
     "to": "Mariangela Martenisi (Falco)",
+    "toSlug": "mariangela-martenisi",
     "into": "Martenisi"
    },
    {
     "who": "Giuseppe Falco",
+    "whoSlug": "giuseppe-falco-6",
     "to": "Lelia Crisci (Falco)",
+    "toSlug": "lelia-crisci",
     "into": "Crisci"
    },
    {
     "who": "Giuseppe Falco",
+    "whoSlug": "giuseppe-falco-7",
     "to": "Rosa Zimbardo (Falco)",
+    "toSlug": "rosa-falco",
     "into": "Zimbardo"
    },
    {
     "who": "Pasquale Falco",
+    "whoSlug": "pasquale-falco-2",
     "to": "Chiara Crisci (Falco)",
+    "toSlug": "chiara-crisci",
     "into": "Crisci"
    },
    {
     "who": "Francesco Falco",
+    "whoSlug": "francesco-falco-5",
     "to": "Carmela Sadutto (Falco)",
+    "toSlug": "carmela-sadutto",
     "into": "Sadutto"
    },
    {
     "who": "Domenico Falco",
+    "whoSlug": "domenico-falco",
     "to": "Mariantonia Frasca (Falco)",
+    "toSlug": "mariantonia-frasca",
     "into": "Frasca"
    },
    {
     "who": "Matteo Falco",
+    "whoSlug": "matteo-falco-4",
     "to": "Giovanna Martone (Falco)",
+    "toSlug": "giovanna-martone",
     "into": "Martone"
    }
   ],
   "people": [
    {
     "name": "Matteo Falco",
+    "slug": "matteo-falco",
     "b": "1744",
     "bp": "Arienzo",
     "d": "July 18 1802",
@@ -238,6 +325,7 @@
    },
    {
     "name": "Pasquale / Pascuale Falco",
+    "slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
     "b": "1765",
     "bp": "Arienzo",
     "d": "",
@@ -245,6 +333,7 @@
    },
    {
     "name": "Angela Maria Falco",
+    "slug": "angela-maria-falco",
     "b": "1772",
     "bp": "",
     "d": "Sep 14 1850",
@@ -252,6 +341,7 @@
    },
    {
     "name": "Gioacchino Falco",
+    "slug": "gioacchino-falco-2",
     "b": "1775",
     "bp": "Arienzo",
     "d": "Feb 14 1851",
@@ -259,6 +349,7 @@
    },
    {
     "name": "Giuseppe Falco",
+    "slug": "giuseppe-falco-6",
     "b": "1775",
     "bp": "Arienzo",
     "d": "Feb 10 1872",
@@ -266,6 +357,7 @@
    },
    {
     "name": "Giuseppe Falco",
+    "slug": "giuseppe-falco-3",
     "b": "1776",
     "bp": "Arienzo",
     "d": "Dec 10 1871",
@@ -273,6 +365,7 @@
    },
    {
     "name": "Vincenzo Falco",
+    "slug": "vincenzo-falco",
     "b": "1793",
     "bp": "Arienzo",
     "d": "May 15 1875",
@@ -280,6 +373,7 @@
    },
    {
     "name": "Maria Falco",
+    "slug": "maria-falco-4",
     "b": "1795",
     "bp": "Arienzo",
     "d": "May 1 1862",
@@ -287,6 +381,7 @@
    },
    {
     "name": "Benedetto Falco",
+    "slug": "benedetto-falco",
     "b": "1799",
     "bp": "Arienzo",
     "d": "Mar 16 1861",
@@ -294,6 +389,7 @@
    },
    {
     "name": "Giovanna Falco (Crisci)",
+    "slug": "giovanna-falco-2",
     "b": "Aug 13 1805",
     "bp": "Arienzo",
     "d": "Oct 14 1872",
@@ -301,6 +397,7 @@
    },
    {
     "name": "Francesco Falco",
+    "slug": "francesco-falco-5",
     "b": "1806",
     "bp": "Arienzo",
     "d": "Aug 8 1882",
@@ -308,6 +405,7 @@
    },
    {
     "name": "Matteo Falco",
+    "slug": "matteo-falco-3",
     "b": "1807",
     "bp": "Arienzo",
     "d": "Apr 7 1880",
@@ -315,6 +413,7 @@
    },
    {
     "name": "Michele Falco",
+    "slug": "michele-falco",
     "b": "1808",
     "bp": "Arienzo",
     "d": "Sep 28 1879",
@@ -322,6 +421,7 @@
    },
    {
     "name": "Antonio Falco",
+    "slug": "antonio-falco-4",
     "b": "Circa 1810",
     "bp": "Arienzo",
     "d": "May 8 1880",
@@ -329,6 +429,7 @@
    },
    {
     "name": "Francesco Falco",
+    "slug": "francesco-falco-2",
     "b": "1810",
     "bp": "Arienzo",
     "d": "Mar 19 1898",
@@ -336,6 +437,7 @@
    },
    {
     "name": "Matteo Falco",
+    "slug": "matteo-falco-2",
     "b": "1810",
     "bp": "Arienzo",
     "d": "Dec 12 1867",
@@ -343,6 +445,7 @@
    },
    {
     "name": "Francesca Falco (Crisci)",
+    "slug": "francesca-crisci",
     "b": "1813",
     "bp": "Arienzo",
     "d": "June 8 1876",
@@ -350,6 +453,7 @@
    },
    {
     "name": "Maria Falco (Morgillo)",
+    "slug": "maria-falco",
     "b": "1818",
     "bp": "Arienzo",
     "d": "Oct 3 1871",
@@ -357,6 +461,7 @@
    },
    {
     "name": "Raffaele Falco",
+    "slug": "raffaele-falco-3",
     "b": "1818",
     "bp": "Arienzo",
     "d": "Apr 21 1880",
@@ -364,6 +469,7 @@
    },
    {
     "name": "Crescenzo Falco",
+    "slug": "crescenzo-falco-2",
     "b": "1819",
     "bp": "Arienzo",
     "d": "Aug 1 1898",
@@ -371,6 +477,7 @@
    },
    {
     "name": "Raffaela Falco",
+    "slug": "raffaela-falco",
     "b": "1820",
     "bp": "Arienzo",
     "d": "Apr 20 1854",
@@ -378,6 +485,7 @@
    },
    {
     "name": "Luigi Falco",
+    "slug": "luigi-falco-3",
     "b": "1823",
     "bp": "Arienzo",
     "d": "Dec 16 1864",
@@ -385,6 +493,7 @@
    },
    {
     "name": "Giuseppe Falco",
+    "slug": "giuseppe-falco-7",
     "b": "1824",
     "bp": "Arienzo",
     "d": "May 3 1882",
@@ -392,6 +501,7 @@
    },
    {
     "name": "Carmela Falco (Ruotolo)",
+    "slug": "carmela-falco-2",
     "b": "1837",
     "bp": "Arienzo",
     "d": "May 25 1883",
@@ -399,6 +509,7 @@
    },
    {
     "name": "Filomena Falco (Crisci)",
+    "slug": "filomena-falco",
     "b": "1839",
     "bp": "Arienzo",
     "d": "",
@@ -406,6 +517,7 @@
    },
    {
     "name": "Pasquale Antonio Falco",
+    "slug": "pasquale-antonio-falco",
     "b": "1839",
     "bp": "Arienzo",
     "d": "Sep 26 1883",
@@ -413,6 +525,7 @@
    },
    {
     "name": "Angela Rosa Falco (Abatiello)",
+    "slug": "angela-rosa-falco-2",
     "b": "1841",
     "bp": "Arienzo",
     "d": "",
@@ -420,6 +533,7 @@
    },
    {
     "name": "Giuseppe Falco",
+    "slug": "giuseppe-falco-4",
     "b": "1841",
     "bp": "Arienzo",
     "d": "",
@@ -427,6 +541,7 @@
    },
    {
     "name": "Gioacchino / Guglielmo Falco",
+    "slug": "gioacchino-guglielmo-falco",
     "b": "1842",
     "bp": "Arienzo",
     "d": "",
@@ -434,6 +549,7 @@
    },
    {
     "name": "Vincenza Falco (Morgillo)",
+    "slug": "vincenza-falco",
     "b": "1842",
     "bp": "Arienzo",
     "d": "",
@@ -441,6 +557,7 @@
    },
    {
     "name": "Antonio Falco",
+    "slug": "antonio-falco",
     "b": "May 13 1843",
     "bp": "Arienzo",
     "d": "",
@@ -448,6 +565,7 @@
    },
    {
     "name": "Chiara Falco",
+    "slug": "chiara-falco",
     "b": "Dec 19 1843",
     "bp": "",
     "d": "",
@@ -455,6 +573,7 @@
    },
    {
     "name": "Maria Falco (Ferrara)",
+    "slug": "maria-falco-2",
     "b": "1843",
     "bp": "Arienzo",
     "d": "",
@@ -462,6 +581,7 @@
    },
    {
     "name": "Maria Falco",
+    "slug": "maria-falco-3",
     "b": "Apr 12 1844",
     "bp": "Arienzo",
     "d": "",
@@ -469,6 +589,7 @@
    },
    {
     "name": "Maria Felica Falco",
+    "slug": "maria-felica-falco",
     "b": "Nov 21 1845",
     "bp": "Arienzo",
     "d": "",
@@ -476,6 +597,7 @@
    },
    {
     "name": "Clemente Falco",
+    "slug": "clemente-falco",
     "b": "Jan 19 1846",
     "bp": "Arienzo",
     "d": "Aug 14 1853",
@@ -483,6 +605,7 @@
    },
    {
     "name": "Domenica Falco (Guida)",
+    "slug": "domenica-falco",
     "b": "Sep 13 1846",
     "bp": "Arienzo",
     "d": "",
@@ -490,6 +613,7 @@
    },
    {
     "name": "Maria Concetta Falco",
+    "slug": "maria-concetta-falco",
     "b": "Feb 19 1847",
     "bp": "Arienzo",
     "d": "",
@@ -497,6 +621,7 @@
    },
    {
     "name": "Vincenza Falco",
+    "slug": "vincenza-falco-2",
     "b": "Nov 20 1847",
     "bp": "Arienzo",
     "d": "Nov 21 1847",
@@ -504,6 +629,7 @@
    },
    {
     "name": "Antonia Falco",
+    "slug": "antonia-falco-2",
     "b": "Feb 20 1848",
     "bp": "Arienzo",
     "d": "",
@@ -511,6 +637,7 @@
    },
    {
     "name": "Antonio Falco",
+    "slug": "antonio-falco-3",
     "b": "Sep 26 1848",
     "bp": "Arienzo",
     "d": "Oct 23 1850",
@@ -518,6 +645,7 @@
    },
    {
     "name": "Clementina Falco (Biondo)",
+    "slug": "clementina-falco",
     "b": "Dec 18 1848",
     "bp": "Arienzo",
     "d": "Sep 20 1900",
@@ -525,6 +653,7 @@
    },
    {
     "name": "Gennaro Falco",
+    "slug": "gennaro-falco",
     "b": "June 1 1848",
     "bp": "Arienzo",
     "d": "June 3 1848",
@@ -532,6 +661,7 @@
    },
    {
     "name": "Giuseppe Falco",
+    "slug": "giuseppe-falco-5",
     "b": "June 1 1848",
     "bp": "Arienzo",
     "d": "June 2 1848",
@@ -539,6 +669,7 @@
    },
    {
     "name": "Antonia Falco",
+    "slug": "antonia-falco-3",
     "b": "Nov 19 1850",
     "bp": "Arienzo",
     "d": "",
@@ -546,6 +677,7 @@
    },
    {
     "name": "Carmine Antonio Falco",
+    "slug": "carmine-antonio-falco",
     "b": "July 10 1850",
     "bp": "Arienzo",
     "d": "",
@@ -553,6 +685,7 @@
    },
    {
     "name": "Giovanni Falco",
+    "slug": "giovanni-falco-2",
     "b": "Mar 5 1850",
     "bp": "Arienzo",
     "d": "",
@@ -560,6 +693,7 @@
    },
    {
     "name": "Vincenzo Falco",
+    "slug": "vincenzo-falco-2",
     "b": "Feb 26 1850",
     "bp": "Arienzo",
     "d": "Sep 12 1889",
@@ -567,6 +701,7 @@
    },
    {
     "name": "Antonia Falco",
+    "slug": "antonia-falco",
     "b": "Dec 15 1851",
     "bp": "Arienzo",
     "d": "June 17 1866",
@@ -574,6 +709,7 @@
    },
    {
     "name": "Giovanni Falco",
+    "slug": "giovanni-falco-3",
     "b": "Mar 27 1851",
     "bp": "Arienzo",
     "d": "June 29 1855",
@@ -581,6 +717,7 @@
    },
    {
     "name": "Marianna Falco",
+    "slug": "marianna-falco",
     "b": "July 25 1851",
     "bp": "Arienzo",
     "d": "",
@@ -588,6 +725,7 @@
    },
    {
     "name": "Carmine Falco",
+    "slug": "carmine-falco-3",
     "b": "1852",
     "bp": "Arienzo",
     "d": "",
@@ -595,6 +733,7 @@
    },
    {
     "name": "Antonia Falco",
+    "slug": "antonia-falco-4",
     "b": "1853",
     "bp": "Arienzo",
     "d": "Apr 30 1857",
@@ -602,6 +741,7 @@
    },
    {
     "name": "Andreana Falco",
+    "slug": "andreana-falco-2",
     "b": "1854",
     "bp": "",
     "d": "",
@@ -609,6 +749,7 @@
    },
    {
     "name": "Angelo Falco",
+    "slug": "angelo-falco-5",
     "b": "1856",
     "bp": "",
     "d": "Jan 29 1875",
@@ -616,6 +757,7 @@
    },
    {
     "name": "Maria Falco",
+    "slug": "maria-falco-5",
     "b": "1856",
     "bp": "Arienzo",
     "d": "Mar 4 1859",
@@ -623,6 +765,7 @@
    },
    {
     "name": "Clemente Falco",
+    "slug": "clemente-falco-2",
     "b": "1858",
     "bp": "Arienzo",
     "d": "Oct 9 1875",
@@ -630,6 +773,7 @@
    },
    {
     "name": "Gelsomina Falco",
+    "slug": "gelsomina-falco",
     "b": "Jan 17 1858",
     "bp": "Santa Maria a Vico",
     "d": "",
@@ -637,6 +781,7 @@
    },
    {
     "name": "Raffaele Falco",
+    "slug": "raffaele-falco-7",
     "b": "1858",
     "bp": "Arienzo",
     "d": "Aug 17 1859",
@@ -644,6 +789,7 @@
    },
    {
     "name": "Angela Falco",
+    "slug": "angela-falco-3",
     "b": "1860",
     "bp": "Arienzo",
     "d": "Feb 20 1860",
@@ -651,6 +797,7 @@
    },
    {
     "name": "Isidoro Falco",
+    "slug": "isidoro-falco",
     "b": "1861",
     "bp": "Arienzo",
     "d": "June 26 1862",
@@ -658,6 +805,7 @@
    },
    {
     "name": "Angelo Falco",
+    "slug": "angelo-falco-4",
     "b": "1862",
     "bp": "",
     "d": "",
@@ -665,6 +813,7 @@
    },
    {
     "name": "Pasquale Falco",
+    "slug": "pasquale-falco-4",
     "b": "Apr 20 1867",
     "bp": "Arienzo",
     "d": "",
@@ -672,6 +821,7 @@
    },
    {
     "name": "Raffaela Falco",
+    "slug": "raffaela-falco-3",
     "b": "1868",
     "bp": "Arienzo",
     "d": "Sep 13 1868",
@@ -679,6 +829,7 @@
    },
    {
     "name": "Carmela Falco",
+    "slug": "carmela-falco-4",
     "b": "1869",
     "bp": "",
     "d": "",
@@ -686,6 +837,7 @@
    },
    {
     "name": "Fabrizio Falco",
+    "slug": "fabrizio-falco",
     "b": "Dec 22 1870",
     "bp": "Arienzo",
     "d": "",
@@ -693,6 +845,7 @@
    },
    {
     "name": "Raffaele Falco",
+    "slug": "raffaele-falco-5",
     "b": "Aug 15 1870",
     "bp": "Arienzo",
     "d": "Aug 9 1871",
@@ -700,6 +853,7 @@
    },
    {
     "name": "Luigi Falco",
+    "slug": "luigi-falco-4",
     "b": "Apr 11 1872",
     "bp": "Arienzo",
     "d": "",
@@ -707,6 +861,7 @@
    },
    {
     "name": "Maria Carmina Falco",
+    "slug": "maria-carmina-falco",
     "b": "1872",
     "bp": "",
     "d": "",
@@ -714,6 +869,7 @@
    },
    {
     "name": "Raffaele Falco",
+    "slug": "raffaele-falco-2",
     "b": "Apr 6 1873",
     "bp": "Arienzo",
     "d": "",
@@ -721,6 +877,7 @@
    },
    {
     "name": "Domenica Falco",
+    "slug": "domenica-falco-2",
     "b": "Sep 20 1874",
     "bp": "Arienzo",
     "d": "",
@@ -728,6 +885,7 @@
    },
    {
     "name": "Maria Teresa Falco",
+    "slug": "maria-teresa-falco",
     "b": "Sep 20 1874",
     "bp": "Arienzo",
     "d": "",
@@ -735,6 +893,7 @@
    },
    {
     "name": "Raffaele Falco",
+    "slug": "raffaele-falco-4",
     "b": "June 28 1874",
     "bp": "Arienzo",
     "d": "",
@@ -742,6 +901,7 @@
    },
    {
     "name": "Maria Giuseppa Falco",
+    "slug": "maria-giuseppa-falco",
     "b": "Mar 19 1875",
     "bp": "Arienzo",
     "d": "",
@@ -749,6 +909,7 @@
    },
    {
     "name": "Angela Falco",
+    "slug": "angela-falco-2",
     "b": "Jan 21 1876",
     "bp": "",
     "d": "",
@@ -756,6 +917,7 @@
    },
    {
     "name": "Carolina Falco",
+    "slug": "carolina-falco-2",
     "b": "1876",
     "bp": "Arienzo",
     "d": "",
@@ -763,6 +925,7 @@
    },
    {
     "name": "Pasquale Falco",
+    "slug": "pasquale-falco-3",
     "b": "Feb 9 1877",
     "bp": "Arienzo",
     "d": "",
@@ -770,6 +933,7 @@
    },
    {
     "name": "Pasqualina Falco",
+    "slug": "pasqualina-falco",
     "b": "Feb 1 1877",
     "bp": "Arienzo",
     "d": "",
@@ -777,6 +941,7 @@
    },
    {
     "name": "Raffaele Falco",
+    "slug": "raffaele-falco-6",
     "b": "Mar 8 1877",
     "bp": "Arienzo",
     "d": "Nov 5 1878",
@@ -784,6 +949,7 @@
    },
    {
     "name": "Angela Rosa Falco",
+    "slug": "angela-rosa-falco",
     "b": "Jan 31 1878",
     "bp": "Arienzo",
     "d": "Feb 6 1879",
@@ -791,6 +957,7 @@
    },
    {
     "name": "Crescenzo Falco",
+    "slug": "crescenzo-falco-4",
     "b": "Aug 17 1878",
     "bp": "Arienzo",
     "d": "",
@@ -798,6 +965,7 @@
    },
    {
     "name": "Luigi Falco",
+    "slug": "luigi-falco-2",
     "b": "1878",
     "bp": "Arienzo",
     "d": "",
@@ -805,6 +973,7 @@
    },
    {
     "name": "Angela Rosa Falco",
+    "slug": "angela-rosa-falco-3",
     "b": "Oct 30 1879",
     "bp": "Arienzo",
     "d": "",
@@ -812,6 +981,7 @@
    },
    {
     "name": "Vincenzo Falco",
+    "slug": "vincenzo-falco-3",
     "b": "Apr 9 1879",
     "bp": "Arienzo",
     "d": "",
@@ -819,6 +989,7 @@
    },
    {
     "name": "Luigi Falco",
+    "slug": "luigi-falco",
     "b": "1880",
     "bp": "",
     "d": "",
@@ -826,6 +997,7 @@
    },
    {
     "name": "Raffaela Falco",
+    "slug": "raffaela-falco-2",
     "b": "Jan 24 1880",
     "bp": "Arienzo",
     "d": "",
@@ -833,6 +1005,7 @@
    },
    {
     "name": "Crescenzo Falco",
+    "slug": "crescenzo-falco-3",
     "b": "Mar 23 1881",
     "bp": "Arienzo",
     "d": "",
@@ -840,6 +1013,7 @@
    },
    {
     "name": "Antonio Falco",
+    "slug": "antonio-falco-2",
     "b": "July 6 1882",
     "bp": "Arienzo",
     "d": "July 14 1883",
@@ -847,6 +1021,7 @@
    },
    {
     "name": "Domenico Antonio Falco",
+    "slug": "domenico-antonio-falco",
     "b": "Feb 25 1883",
     "bp": "Arienzo",
     "d": "",
@@ -854,6 +1029,7 @@
    },
    {
     "name": "Giovanni Falco",
+    "slug": "giovanni-falco",
     "b": "Feb 9 1883",
     "bp": "Arienzo",
     "d": "",
@@ -861,6 +1037,7 @@
    },
    {
     "name": "Giuseppa Falco",
+    "slug": "giuseppa-falco",
     "b": "Nov 9 1883",
     "bp": "Arienzo",
     "d": "",
@@ -868,6 +1045,7 @@
    },
    {
     "name": "Giuseppe Falco",
+    "slug": "giuseppe-falco",
     "b": "Mar 19 1883",
     "bp": "Arienzo",
     "d": "1959",
@@ -875,6 +1053,7 @@
    },
    {
     "name": "Carlo Falco",
+    "slug": "carlo-falco",
     "b": "1884",
     "bp": "",
     "d": "",
@@ -882,6 +1061,7 @@
    },
    {
     "name": "Assunta Falco",
+    "slug": "assunta-falco",
     "b": "Jan 7 1886",
     "bp": "Arienzo",
     "d": "",
@@ -889,6 +1069,7 @@
    },
    {
     "name": "Carmine Falco",
+    "slug": "carmine-falco-2",
     "b": "Apr 3 1886",
     "bp": "Arienzo",
     "d": "Mar 31 1887",
@@ -896,6 +1077,7 @@
    },
    {
     "name": "Carolina Falco",
+    "slug": "carolina-falco-3",
     "b": "1886",
     "bp": "",
     "d": "",
@@ -903,6 +1085,7 @@
    },
    {
     "name": "Francesca Falco",
+    "slug": "francesca-falco",
     "b": "Nov 4 1886",
     "bp": "Arienzo",
     "d": "",
@@ -910,6 +1093,7 @@
    },
    {
     "name": "Carmela Falco",
+    "slug": "carmela-falco-3",
     "b": "June 14 1888",
     "bp": "Arienzo",
     "d": "",
@@ -917,6 +1101,7 @@
    },
    {
     "name": "Costanza Falco",
+    "slug": "costanza-falco-2",
     "b": "Jan 31 1888",
     "bp": "Arienzo",
     "d": "",
@@ -924,6 +1109,7 @@
    },
    {
     "name": "Carlo Falco",
+    "slug": "carlo-falco-2",
     "b": "1891",
     "bp": "",
     "d": "",
@@ -931,6 +1117,7 @@
    },
    {
     "name": "Carmina Falco",
+    "slug": "carmina-falco",
     "b": "July 8 1891",
     "bp": "Arienzo",
     "d": "",
@@ -938,6 +1125,7 @@
    },
    {
     "name": "Giovanna Falco",
+    "slug": "giovanna-falco-3",
     "b": "May 10 1891",
     "bp": "Arienzo",
     "d": "",
@@ -945,6 +1133,7 @@
    },
    {
     "name": "Carolina Falco",
+    "slug": "carolina-falco",
     "b": "1893",
     "bp": "",
     "d": "",
@@ -952,6 +1141,7 @@
    },
    {
     "name": "Andreana Falco",
+    "slug": "andreana-falco",
     "b": "Aug 15 1898",
     "bp": "Arienzo",
     "d": "Jan 19 1899",
@@ -959,6 +1149,7 @@
    },
    {
     "name": "Giovanna Falco",
+    "slug": "giovanna-falco",
     "b": "July 9 1898",
     "bp": "Arienzo",
     "d": "",
@@ -966,6 +1157,7 @@
    },
    {
     "name": "Crescenzo Francesco Falco",
+    "slug": "crescenzo-francesco-falco",
     "b": "Apr 16 1900",
     "bp": "Arienzo",
     "d": "",
@@ -973,6 +1165,7 @@
    },
    {
     "name": "Carmine Antonio (Carminantonio) Falco",
+    "slug": "carmine-antonio-falco-2",
     "b": "Jan 11 1901",
     "bp": "Caserta",
     "d": "Apr 27 1988",
@@ -980,6 +1173,7 @@
    },
    {
     "name": "Anna del Giudice Falco",
+    "slug": "anna-del-giudice-falco",
     "b": "Sep 7 1904",
     "bp": "Arienzo",
     "d": "",
@@ -987,6 +1181,7 @@
    },
    {
     "name": "Gerardo Falco",
+    "slug": "gerardo-falco",
     "b": "Oct 29 1913",
     "bp": "Arpaia",
     "d": "",
@@ -994,6 +1189,7 @@
    },
    {
     "name": "Anthony Falco",
+    "slug": "anthony-falco-3",
     "b": "1921",
     "bp": "",
     "d": "2018",
@@ -1009,6 +1205,7 @@
    },
    {
     "name": "Raffaele Falco",
+    "slug": "raffaele-falco",
     "b": "Aug 25 1925",
     "bp": "Benevento",
     "d": "Sep 28 1988",
@@ -1016,6 +1213,7 @@
    },
    {
     "name": "Maria Annunziata Falco",
+    "slug": "maria-annunziata-falco",
     "b": "1933",
     "bp": "Forchia",
     "d": "July 31 1938",
@@ -1023,6 +1221,7 @@
    },
    {
     "name": "Andrea Falco",
+    "slug": "andrea-falco",
     "b": "",
     "bp": "",
     "d": "",
@@ -1030,6 +1229,7 @@
    },
    {
     "name": "Angelo Falco",
+    "slug": "angelo-falco-3",
     "b": "",
     "bp": "",
     "d": "",
@@ -1037,6 +1237,7 @@
    },
    {
     "name": "Aniello Falco",
+    "slug": "aniello-falco",
     "b": "",
     "bp": "",
     "d": "",
@@ -1044,13 +1245,7 @@
    },
    {
     "name": "Aniello Falco",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "Arienzo, Caserta, Campania, Italia [Unconfirmed Family] Falco",
+    "slug": "aniello-falco-2",
     "b": "",
     "bp": "",
     "d": "",
@@ -1058,6 +1253,7 @@
    },
    {
     "name": "Costanza Falco (Crisci)",
+    "slug": "costanza-falco",
     "b": "",
     "bp": "",
     "d": "",
@@ -1065,6 +1261,7 @@
    },
    {
     "name": "Domenico Falco",
+    "slug": "domenico-falco",
     "b": "",
     "bp": "",
     "d": "",
@@ -1080,6 +1277,7 @@
    },
    {
     "name": "Francesco Antonio Falco",
+    "slug": "francesco-antonio-falco",
     "b": "",
     "bp": "Arienzo",
     "d": "",
@@ -1087,6 +1285,7 @@
    },
    {
     "name": "Francesco Falco",
+    "slug": "francesco-falco-3",
     "b": "",
     "bp": "",
     "d": "",
@@ -1094,6 +1293,7 @@
    },
    {
     "name": "Francesco Falco",
+    "slug": "francesco-falco-4",
     "b": "",
     "bp": "",
     "d": "",
@@ -1101,6 +1301,7 @@
    },
    {
     "name": "Giacoma Falco",
+    "slug": "giacoma-falco",
     "b": "",
     "bp": "",
     "d": "",
@@ -1108,6 +1309,7 @@
    },
    {
     "name": "Giuseppe Falco",
+    "slug": "giuseppe-falco-2",
     "b": "",
     "bp": "",
     "d": "",
@@ -1115,6 +1317,7 @@
    },
    {
     "name": "Jiuseppe \"Pep\" Falco",
+    "slug": "jiuseppe-pep-falco",
     "b": "",
     "bp": "",
     "d": "",
@@ -1122,6 +1325,7 @@
    },
    {
     "name": "Matteo Falco",
+    "slug": "matteo-falco-4",
     "b": "",
     "bp": "",
     "d": "",
@@ -1129,6 +1333,7 @@
    },
    {
     "name": "Pasquale Falco",
+    "slug": "pasquale-falco",
     "b": "",
     "bp": "",
     "d": "",
@@ -1136,20 +1341,7 @@
    },
    {
     "name": "Pasquale Falco",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "UNKNOWN Falco",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "Unknown Falco",
+    "slug": "pasquale-falco-2",
     "b": "",
     "bp": "",
     "d": "",
@@ -1159,7 +1351,7 @@
  },
  {
   "surname": "Zampiello",
-  "n": 23,
+  "n": 22,
   "withheld": 1,
   "first": 1869,
   "last": 2022,
@@ -1172,48 +1364,65 @@
   "marriages": [
    {
     "who": "Angelo Zampiello",
+    "whoSlug": "angelo-zampiello",
     "to": "Giuseppa Ferrara (Zampiello)",
+    "toSlug": "giuseppa-ferrara",
     "into": "Ferrara"
    },
    {
     "who": "Tommasina Zampiello (Ruggiero)",
+    "whoSlug": "tommasina-zampiello",
     "to": "Michele Ruggiero",
+    "toSlug": "michele-ruggiero",
     "into": "Ruggiero"
    },
    {
     "who": "Caterina Zampiello (Falco)",
+    "whoSlug": "caterina-zampiello",
     "to": "Raffaele Falco",
+    "toSlug": "raffaele-falco",
     "into": "Falco"
    },
    {
     "who": "Raffaela Zampiello (Servodio)",
+    "whoSlug": "raffaela-zampiello",
     "to": "Michele Servodio",
+    "toSlug": "michele-servodio",
     "into": "Servodio"
    },
    {
     "who": "Simone Zampiello",
+    "whoSlug": "simone-zampiello",
     "to": "Carmela? Fuccio (Zampiello)",
+    "toSlug": "carmela-fuccio",
     "into": "Fuccio"
    },
    {
     "who": "Maria Grazia Zampiello (Gagliotti)",
+    "whoSlug": "maria-grazia-zampiello",
     "to": "Vincenzo Gagliotti",
+    "toSlug": "vincenzo-gagliotti",
     "into": "Gagliotti"
    },
    {
     "who": "Simone Zampiello",
+    "whoSlug": "simone-zampiello-2",
     "to": "Angela Fuccio (Zampiello)",
+    "toSlug": "angela-fuccio",
     "into": "Fuccio"
    },
    {
     "who": "Simone Zampiello",
+    "whoSlug": "simone-zampiello-3",
     "to": "Maria Michela Servodio (Zampiello)",
+    "toSlug": "maria-michela-servodio",
     "into": "Servodio"
    }
   ],
   "people": [
    {
     "name": "Maria Zampiello",
+    "slug": "maria-zampiello",
     "b": "Oct 1 1869",
     "bp": "",
     "d": "",
@@ -1221,6 +1430,7 @@
    },
    {
     "name": "Mariangela Marta Zampiello",
+    "slug": "mariangela-marta-zampiello",
     "b": "July 15 1872",
     "bp": "",
     "d": "",
@@ -1228,6 +1438,7 @@
    },
    {
     "name": "Marta Zampiello",
+    "slug": "marta-zampiello-3",
     "b": "May 2 1874",
     "bp": "Arpaia",
     "d": "",
@@ -1235,6 +1446,7 @@
    },
    {
     "name": "Angela Zampiello",
+    "slug": "angela-zampiello",
     "b": "May 11 1877",
     "bp": "Arpaia",
     "d": "",
@@ -1242,6 +1454,7 @@
    },
    {
     "name": "Maria Rosa Zampiello",
+    "slug": "maria-rosa-zampiello",
     "b": "July 24 1878",
     "bp": "Arpaia",
     "d": "",
@@ -1249,6 +1462,7 @@
    },
    {
     "name": "Antonio Zampiello",
+    "slug": "antonio-zampiello",
     "b": "Oct 29 1881",
     "bp": "",
     "d": "",
@@ -1256,6 +1470,7 @@
    },
    {
     "name": "Maria Grazia Zampiello (Gagliotti)",
+    "slug": "maria-grazia-zampiello",
     "b": "July 13 1884",
     "bp": "Arpaia",
     "d": "",
@@ -1263,6 +1478,7 @@
    },
    {
     "name": "Marta Zampiello",
+    "slug": "marta-zampiello-2",
     "b": "Oct 4 1885",
     "bp": "Arpaia",
     "d": "",
@@ -1270,6 +1486,7 @@
    },
    {
     "name": "Francesco Zampiello",
+    "slug": "francesco-zampiello-2",
     "b": "Nov 26 1887",
     "bp": "",
     "d": "",
@@ -1277,6 +1494,7 @@
    },
    {
     "name": "Francesco Zampiello",
+    "slug": "francesco-zampiello",
     "b": "July 7 1889",
     "bp": "Arpaia",
     "d": "",
@@ -1284,6 +1502,7 @@
    },
    {
     "name": "Marta Zampiello",
+    "slug": "marta-zampiello",
     "b": "Nov 27 1892",
     "bp": "Arpaia",
     "d": "",
@@ -1291,6 +1510,7 @@
    },
    {
     "name": "Angelo Zampiello",
+    "slug": "angelo-zampiello",
     "b": "Aug 31 1895",
     "bp": "Italy",
     "d": "Apr 25 1972",
@@ -1298,6 +1518,7 @@
    },
    {
     "name": "Tommasina Zampiello (Ruggiero)",
+    "slug": "tommasina-zampiello",
     "b": "Feb 9 1921",
     "bp": "Arpaia",
     "d": "June 2 2004",
@@ -1305,6 +1526,7 @@
    },
    {
     "name": "Caterina Zampiello (Falco)",
+    "slug": "caterina-zampiello",
     "b": "July 7 1925",
     "bp": "Benevento",
     "d": "Feb 14 2004",
@@ -1312,6 +1534,7 @@
    },
    {
     "name": "Francesca Zampiello (Falco)",
+    "slug": "francesca-zampiello",
     "b": "Apr 27 1928",
     "bp": "Arpaia",
     "d": "Sep 10 2022",
@@ -1319,6 +1542,7 @@
    },
    {
     "name": "Raffaela Zampiello (Servodio)",
+    "slug": "raffaela-zampiello",
     "b": "Nov 28 1930",
     "bp": "Italy",
     "d": "July 4 2021",
@@ -1326,6 +1550,7 @@
    },
    {
     "name": "Giuseppe Zampiello",
+    "slug": "giuseppe-zampiello",
     "b": "1933",
     "bp": "Arpaia",
     "d": "June 4 1933",
@@ -1333,6 +1558,7 @@
    },
    {
     "name": "Angelo Zampiello",
+    "slug": "angelo-zampiello-2",
     "b": "1935",
     "bp": "Arpaia",
     "d": "Apr 26 1935",
@@ -1340,6 +1566,7 @@
    },
    {
     "name": "Aniello Zampiello",
+    "slug": "aniello-zampiello",
     "b": "1935",
     "bp": "Arpaia",
     "d": "Apr 26 1935",
@@ -1347,6 +1574,7 @@
    },
    {
     "name": "Simone Zampiello",
+    "slug": "simone-zampiello",
     "b": "",
     "bp": "",
     "d": "",
@@ -1354,6 +1582,7 @@
    },
    {
     "name": "Simone Zampiello",
+    "slug": "simone-zampiello-2",
     "b": "",
     "bp": "",
     "d": "",
@@ -1361,13 +1590,7 @@
    },
    {
     "name": "Simone Zampiello",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "Unknown Zampiello",
+    "slug": "simone-zampiello-3",
     "b": "",
     "bp": "",
     "d": "",
@@ -1379,7 +1602,7 @@
   "surname": "Crisci",
   "n": 15,
   "withheld": 8,
-  "first": 1807,
+  "first": 1796,
   "last": 1941,
   "places": [
    "Arienzo",
@@ -1388,68 +1611,101 @@
   "marriages": [
    {
     "who": "Pasquale Crisci",
+    "whoSlug": "pasquale-crisci",
     "to": "Costanza Falco (Crisci)",
+    "toSlug": "costanza-falco",
     "into": "Falco"
    },
    {
     "who": "Andreana Crisci (Falco)",
+    "whoSlug": "andreana-crisci-2",
     "to": "Gioacchino / Guglielmo Falco",
+    "toSlug": "gioacchino-guglielmo-falco",
     "into": "Falco"
    },
    {
     "who": "Aniello Crisci",
+    "whoSlug": "aniello-crisci",
     "to": "Giovanna Falco (Crisci)",
+    "toSlug": "giovanna-falco-2",
     "into": "Falco"
    },
    {
     "who": "Alessandra Crisci (Falco)",
+    "whoSlug": "alessandra-crisci",
     "to": "Matteo Falco",
+    "toSlug": "matteo-falco-2",
     "into": "Falco"
    },
    {
     "who": "Raffaele Crisci",
+    "whoSlug": "raffaele-crisci",
     "to": "Francesca Falco (Crisci)",
+    "toSlug": "francesca-crisci",
     "into": "Falco"
    },
    {
     "who": "Antonio Crisci",
+    "whoSlug": "antonio-crisci",
     "to": "Filomena Falco (Crisci)",
+    "toSlug": "filomena-falco",
     "into": "Falco"
    },
    {
     "who": "Marta Crisci (Pellone)",
+    "whoSlug": "marta-crisci",
     "to": "Antonio Pellone",
+    "toSlug": "antonio-pellone",
     "into": "Pellone"
    },
    {
     "who": "Andrea / Andreana Crisci (Falco)",
+    "whoSlug": "andreana-crisci",
     "to": "Vincenzo Falco",
+    "toSlug": "vincenzo-falco",
     "into": "Falco"
    },
    {
     "who": "Lelia Crisci (Falco)",
+    "whoSlug": "lelia-crisci",
     "to": "Giuseppe Falco",
+    "toSlug": "giuseppe-falco-6",
     "into": "Falco"
    },
    {
     "who": "Chiara Crisci (Falco)",
+    "whoSlug": "chiara-crisci",
     "to": "Pasquale Falco",
+    "toSlug": "pasquale-falco-2",
     "into": "Falco"
    },
    {
     "who": "Giovanna Crisci (Annecchino)",
+    "whoSlug": "giovanna-crisci",
     "to": "Carmine Annecchino Annecchino",
+    "toSlug": "carmine-annecchino-annecchino",
     "into": "Annecchino"
    },
    {
     "who": "Giuseppa Crisci (Martone)",
+    "whoSlug": "giuseppa-crisci",
     "to": "Angelo Martone",
+    "toSlug": "angelo-martone",
     "into": "Martone"
    }
   ],
   "people": [
    {
+    "name": "Andrea / Andreana Crisci (Falco)",
+    "slug": "andreana-crisci",
+    "b": "1796",
+    "bp": "",
+    "d": "",
+    "dp": ""
+   },
+   {
     "name": "Aniello Crisci",
+    "slug": "aniello-crisci",
     "b": "Nov 12 1807",
     "bp": "Arienzo",
     "d": "Nov 25 1884",
@@ -1457,6 +1713,7 @@
    },
    {
     "name": "Raffaele Crisci",
+    "slug": "raffaele-crisci",
     "b": "1811",
     "bp": "Arienzo",
     "d": "",
@@ -1464,6 +1721,7 @@
    },
    {
     "name": "Alessandra Crisci (Falco)",
+    "slug": "alessandra-crisci",
     "b": "1817",
     "bp": "Arienzo",
     "d": "Nov 14 1869",
@@ -1471,6 +1729,7 @@
    },
    {
     "name": "Antonio Crisci",
+    "slug": "antonio-crisci",
     "b": "1825",
     "bp": "Arienzo",
     "d": "",
@@ -1478,6 +1737,7 @@
    },
    {
     "name": "Concetta Crisci (Ruotolo)",
+    "slug": "concetta-crisci",
     "b": "May 19 1851",
     "bp": "Santa Maria a Vico",
     "d": "Apr 8 1941",
@@ -1485,20 +1745,15 @@
    },
    {
     "name": "Andreana Crisci (Falco)",
+    "slug": "andreana-crisci-2",
     "b": "1852",
     "bp": "",
     "d": "",
     "dp": ""
    },
    {
-    "name": "Andrea / Andreana Crisci (Falco)",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
     "name": "Chiara Crisci (Falco)",
+    "slug": "chiara-crisci",
     "b": "",
     "bp": "",
     "d": "",
@@ -1506,6 +1761,7 @@
    },
    {
     "name": "Clemente Crisci",
+    "slug": "clemente-crisci",
     "b": "",
     "bp": "",
     "d": "",
@@ -1513,6 +1769,7 @@
    },
    {
     "name": "Giovanna Crisci (Annecchino)",
+    "slug": "giovanna-crisci",
     "b": "",
     "bp": "",
     "d": "",
@@ -1520,6 +1777,7 @@
    },
    {
     "name": "Giuseppa Crisci (Martone)",
+    "slug": "giuseppa-crisci",
     "b": "",
     "bp": "",
     "d": "",
@@ -1527,6 +1785,7 @@
    },
    {
     "name": "Lelia Crisci (Falco)",
+    "slug": "lelia-crisci",
     "b": "",
     "bp": "",
     "d": "",
@@ -1534,6 +1793,7 @@
    },
    {
     "name": "Linda Crisci",
+    "slug": "linda-crisci",
     "b": "",
     "bp": "",
     "d": "",
@@ -1541,6 +1801,7 @@
    },
    {
     "name": "Marta Crisci (Pellone)",
+    "slug": "marta-crisci",
     "b": "",
     "bp": "",
     "d": "",
@@ -1548,98 +1809,7 @@
    },
    {
     "name": "Pasquale Crisci",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   }
-  ]
- },
- {
-  "surname": "Annecchino",
-  "n": 9,
-  "withheld": 1,
-  "first": 1864,
-  "last": 1897,
-  "places": [
-   "Forchia"
-  ],
-  "marriages": [
-   {
-    "who": "Filomena Annecchino (Falco)",
-    "to": "Carmine Antonio (Carminantonio) Falco",
-    "into": "Falco"
-   },
-   {
-    "who": "Carmine Annecchino Annecchino",
-    "to": "Giovanna Crisci (Annecchino)",
-    "into": "Crisci"
-   },
-   {
-    "who": "Sabatino Annecchino",
-    "to": "Mariantonia Carfora (Annecchino)",
-    "into": "Carfora"
-   }
-  ],
-  "people": [
-   {
-    "name": "Maria Filomena Annecchino",
-    "b": "Dec 24 1864",
-    "bp": "Forchia",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "Maria Filomena Annecchino",
-    "b": "June 7 1878",
-    "bp": "Forchia",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "Filomena Annecchino (Falco)",
-    "b": "Apr 10 1897",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "Carmine Annecchino",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "Carmine Annecchino Annecchino",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "Forchia Annecchino [not confirmed family] Annecchino",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "Giacomo Annecchino",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "Sabatino Annecchino",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "Unknown Annecchino",
+    "slug": "pasquale-crisci",
     "b": "",
     "bp": "",
     "d": "",
@@ -1662,48 +1832,65 @@
   "marriages": [
    {
     "who": "Agostino Falcone",
+    "whoSlug": "agostino-falcone",
     "to": "Elisabetta Sabina (Falcone)",
+    "toSlug": "elisabetta-sabina",
     "into": "Sabina"
    },
    {
     "who": "Domenico Pascale Falcone",
+    "whoSlug": "domenico-pascale-falcone",
     "to": "Maria Teresa Natale (Falcone)",
+    "toSlug": "maria-teresa-natale",
     "into": "Natale"
    },
    {
     "who": "Marianna Elisabetta Falcone (Russo)",
+    "whoSlug": "marianna-elisabetta-falcone",
     "to": "Catiello Russo",
+    "toSlug": "catiello-russo",
     "into": "Russo"
    },
    {
     "who": "Giovan Battista Falcone",
+    "whoSlug": "giovan-battista-falcone",
     "to": "Emanuela Ferrante (Falcone)",
+    "toSlug": "emanuela-ferrante",
     "into": "Ferrante"
    },
    {
     "who": "Michele Falcone",
+    "whoSlug": "michele-falcone",
     "to": "Angela Maria Petriccione (Falcone)",
+    "toSlug": "angela-maria-petriccione",
     "into": "Petriccione"
    },
    {
     "who": "Francesca Falcone (Pasquali)",
+    "whoSlug": "francesca-falcone",
     "to": "Serafino Antonio Pasquali",
+    "toSlug": "serafino-antonio-pasquali",
     "into": "Pasquali"
    },
    {
     "who": "Pasquale Falcone",
+    "whoSlug": "pasquale-falcone",
     "to": "Letizia Casolla / Casella (Falcone)",
+    "toSlug": "letizia-casolla-casella",
     "into": "Casolla / Casella"
    },
    {
     "who": "Agostino Falcone",
+    "whoSlug": "agostino-falcone-2",
     "to": "Grazia Natale (Falcone)",
+    "toSlug": "grazia-natale",
     "into": "Natale"
    }
   ],
   "people": [
    {
     "name": "Agostino Falcone",
+    "slug": "agostino-falcone",
     "b": "Circa 1740",
     "bp": "Caserta",
     "d": "",
@@ -1711,6 +1898,7 @@
    },
    {
     "name": "Domenico Pascale Falcone",
+    "slug": "domenico-pascale-falcone",
     "b": "1767",
     "bp": "Caserta",
     "d": "Apr 29 1837",
@@ -1718,6 +1906,7 @@
    },
    {
     "name": "Pasquale Falcone",
+    "slug": "pasquale-falcone-2",
     "b": "1767",
     "bp": "Capua",
     "d": "June 14 1839",
@@ -1725,6 +1914,7 @@
    },
    {
     "name": "Marianna Elisabetta Falcone (Russo)",
+    "slug": "marianna-elisabetta-falcone",
     "b": "Nov 3 1813",
     "bp": "Capua",
     "d": "",
@@ -1732,6 +1922,7 @@
    },
    {
     "name": "Giovan Battista Falcone",
+    "slug": "giovan-battista-falcone",
     "b": "1820",
     "bp": "Capua",
     "d": "July 8 1868",
@@ -1739,6 +1930,7 @@
    },
    {
     "name": "Michele Falcone",
+    "slug": "michele-falcone",
     "b": "1821",
     "bp": "Caserta",
     "d": "May 2 1871",
@@ -1746,6 +1938,7 @@
    },
    {
     "name": "Francesca Falcone (Pasquali)",
+    "slug": "francesca-falcone",
     "b": "1827",
     "bp": "Galluccio",
     "d": "Apr 18 1891",
@@ -1753,6 +1946,7 @@
    },
    {
     "name": "Pasquale Falcone",
+    "slug": "pasquale-falcone",
     "b": "1827",
     "bp": "Caserta",
     "d": "",
@@ -1760,6 +1954,7 @@
    },
    {
     "name": "Agostino Falcone",
+    "slug": "agostino-falcone-2",
     "b": "",
     "bp": "",
     "d": "",
@@ -1768,87 +1963,93 @@
   ]
  },
  {
-  "surname": "Ferrara",
-  "n": 8,
-  "withheld": 0,
-  "first": 1848,
-  "last": 2021,
+  "surname": "Annecchino",
+  "n": 7,
+  "withheld": 1,
+  "first": 1864,
+  "last": 1897,
   "places": [
-   "Arpaia",
-   "Brisbane",
-   "Italy",
-   "San Felice A Cancello"
+   "Forchia"
   ],
   "marriages": [
    {
-    "who": "Giuseppa Ferrara (Zampiello)",
-    "to": "Angelo Zampiello",
-    "into": "Zampiello"
+    "who": "Filomena Annecchino (Falco)",
+    "whoSlug": "filomena-annecchino",
+    "to": "Carmine Antonio (Carminantonio) Falco",
+    "toSlug": "carmine-antonio-falco-2",
+    "into": "Falco"
    },
    {
-    "who": "Giovanni Ferrara",
-    "to": "Maria Falco (Ferrara)",
-    "into": "Falco"
+    "who": "Carmine Annecchino Annecchino",
+    "whoSlug": "carmine-annecchino-annecchino",
+    "to": "Giovanna Crisci (Annecchino)",
+    "toSlug": "giovanna-crisci",
+    "into": "Crisci"
+   },
+   {
+    "who": "Sabatino Annecchino",
+    "whoSlug": "sabatino-annecchino",
+    "to": "Mariantonia Carfora (Annecchino)",
+    "toSlug": "mariantonia-carfora",
+    "into": "Carfora"
    }
   ],
   "people": [
    {
-    "name": "Giovanni Ferrara",
-    "b": "1848",
-    "bp": "San Felice A Cancello",
+    "name": "Maria Filomena Annecchino",
+    "slug": "maria-filomena-annecchino",
+    "b": "Dec 24 1864",
+    "bp": "Forchia",
     "d": "",
     "dp": ""
    },
    {
-    "name": "Giuseppa Ferrara",
-    "b": "June 29 1912",
-    "bp": "Arpaia",
+    "name": "Maria Filomena Annecchino",
+    "slug": "maria-filomena-annecchino-2",
+    "b": "June 7 1878",
+    "bp": "Forchia",
     "d": "",
     "dp": ""
    },
    {
-    "name": "Elisa Ferrara",
-    "b": "1930-05-29",
-    "bp": "",
-    "d": "2021-07-20",
-    "dp": "Nudgee Cemetery, Brisbane",
-    "src": "Nudgee Cemetery"
-   },
-   {
-    "name": "Antonio Ferrara",
-    "b": "",
+    "name": "Filomena Annecchino (Falco)",
+    "slug": "filomena-annecchino",
+    "b": "Apr 10 1897",
     "bp": "",
     "d": "",
     "dp": ""
    },
    {
-    "name": "Arpaia [Unconfirmed Family] Ferrara",
-    "b": "",
-    "bp": "Arpaia",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "Caterina Ferrara",
+    "name": "Carmine Annecchino",
+    "slug": "carmine-annecchino",
     "b": "",
     "bp": "",
     "d": "",
     "dp": ""
    },
    {
-    "name": "Giuseppa Ferrara (Zampiello)",
+    "name": "Carmine Annecchino Annecchino",
+    "slug": "carmine-annecchino-annecchino",
     "b": "",
-    "bp": "Italy",
+    "bp": "",
     "d": "",
     "dp": ""
    },
    {
-    "name": "Paolino Ferrara",
+    "name": "Giacomo Annecchino",
+    "slug": "giacomo-annecchino-2",
     "b": "",
     "bp": "",
-    "d": "1994-04-18",
-    "dp": "Nudgee Cemetery, Brisbane",
-    "src": "Nudgee Cemetery"
+    "d": "",
+    "dp": ""
+   },
+   {
+    "name": "Sabatino Annecchino",
+    "slug": "sabatino-annecchino",
+    "b": "",
+    "bp": "",
+    "d": "",
+    "dp": ""
    }
   ]
  },
@@ -1922,6 +2123,93 @@
   ]
  },
  {
+  "surname": "Ferrara",
+  "n": 7,
+  "withheld": 0,
+  "first": 1848,
+  "last": 2021,
+  "places": [
+   "Arpaia",
+   "Brisbane",
+   "Italy",
+   "San Felice A Cancello"
+  ],
+  "marriages": [
+   {
+    "who": "Giuseppa Ferrara (Zampiello)",
+    "whoSlug": "giuseppa-ferrara",
+    "to": "Angelo Zampiello",
+    "toSlug": "angelo-zampiello",
+    "into": "Zampiello"
+   },
+   {
+    "who": "Giovanni Ferrara",
+    "whoSlug": "giovanni-ferrara",
+    "to": "Maria Falco (Ferrara)",
+    "toSlug": "maria-falco-2",
+    "into": "Falco"
+   }
+  ],
+  "people": [
+   {
+    "name": "Giovanni Ferrara",
+    "slug": "giovanni-ferrara",
+    "b": "1848",
+    "bp": "San Felice A Cancello",
+    "d": "",
+    "dp": ""
+   },
+   {
+    "name": "Giuseppa Ferrara",
+    "slug": "giuseppa-ferrara-2",
+    "b": "June 29 1912",
+    "bp": "Arpaia",
+    "d": "",
+    "dp": ""
+   },
+   {
+    "name": "Elisa Ferrara",
+    "b": "1930-05-29",
+    "bp": "",
+    "d": "2021-07-20",
+    "dp": "Nudgee Cemetery, Brisbane",
+    "src": "Nudgee Cemetery"
+   },
+   {
+    "name": "Antonio Ferrara",
+    "slug": "antonio-ferrara",
+    "b": "",
+    "bp": "",
+    "d": "",
+    "dp": ""
+   },
+   {
+    "name": "Caterina Ferrara",
+    "slug": "caterina-ferrara",
+    "b": "",
+    "bp": "",
+    "d": "",
+    "dp": ""
+   },
+   {
+    "name": "Giuseppa Ferrara (Zampiello)",
+    "slug": "giuseppa-ferrara",
+    "b": "",
+    "bp": "Italy",
+    "d": "",
+    "dp": ""
+   },
+   {
+    "name": "Paolino Ferrara",
+    "b": "",
+    "bp": "",
+    "d": "1994-04-18",
+    "dp": "Nudgee Cemetery, Brisbane",
+    "src": "Nudgee Cemetery"
+   }
+  ]
+ },
+ {
   "surname": "Morgillo",
   "n": 6,
   "withheld": 0,
@@ -1934,38 +2222,51 @@
   "marriages": [
    {
     "who": "Angela Rosa Morgillo (Falco)",
+    "whoSlug": "angela-rosa-morgillo",
     "to": "Raffaele Falco",
+    "toSlug": "raffaele-falco-3",
     "into": "Falco"
    },
    {
     "who": "Orazio Morgillo",
+    "whoSlug": "orazio-morgillo",
     "to": "Vincenza Pesce (Morgillo)",
+    "toSlug": "vincenza-pesce",
     "into": "Pesce"
    },
    {
     "who": "Raffaele Morgillo",
+    "whoSlug": "raffaele-morgillo",
     "to": "Maria Falco (Morgillo)",
+    "toSlug": "maria-falco",
     "into": "Falco"
    },
    {
     "who": "Maria Concetta Morgillo (Falco)",
+    "whoSlug": "maria-concetta-morgillo",
     "to": "Crescenzo Falco",
+    "toSlug": "crescenzo-falco-2",
     "into": "Falco"
    },
    {
     "who": "Carmine Morgillo",
+    "whoSlug": "carmine-morgillo",
     "to": "Vincenza Falco (Morgillo)",
+    "toSlug": "vincenza-falco",
     "into": "Falco"
    },
    {
     "who": "Francescantonio Morgillo",
+    "whoSlug": "francescantonio-morgillo",
     "to": "Francesca Gelsomina Pesce (Morgillo)",
+    "toSlug": "francesca-gelsomina-pesce",
     "into": "Pesce"
    }
   ],
   "people": [
    {
     "name": "Angela Rosa Morgillo (Falco)",
+    "slug": "angela-rosa-morgillo",
     "b": "Feb 24 1818",
     "bp": "San Felice",
     "d": "Apr 15 1880",
@@ -1973,6 +2274,7 @@
    },
    {
     "name": "Carmine Morgillo",
+    "slug": "carmine-morgillo",
     "b": "1848",
     "bp": "Arienzo",
     "d": "",
@@ -1980,6 +2282,7 @@
    },
    {
     "name": "Francescantonio Morgillo",
+    "slug": "francescantonio-morgillo",
     "b": "",
     "bp": "",
     "d": "",
@@ -1987,6 +2290,7 @@
    },
    {
     "name": "Maria Concetta Morgillo (Falco)",
+    "slug": "maria-concetta-morgillo",
     "b": "",
     "bp": "",
     "d": "",
@@ -1994,6 +2298,7 @@
    },
    {
     "name": "Orazio Morgillo",
+    "slug": "orazio-morgillo",
     "b": "",
     "bp": "",
     "d": "",
@@ -2001,6 +2306,7 @@
    },
    {
     "name": "Raffaele Morgillo",
+    "slug": "raffaele-morgillo",
     "b": "",
     "bp": "",
     "d": "",
@@ -2021,6 +2327,7 @@
   "people": [
    {
     "name": "Matteo Biondo",
+    "slug": "matteo-biondo",
     "b": "June 28 1879",
     "bp": "Arienzo",
     "d": "May 17 1880",
@@ -2028,6 +2335,7 @@
    },
    {
     "name": "Silvestro Biondo",
+    "slug": "silvestro-biondo",
     "b": "June 28 1879",
     "bp": "Arienzo",
     "d": "June 14 1881",
@@ -2035,6 +2343,7 @@
    },
    {
     "name": "Raffaella Biondo",
+    "slug": "raffaella-biondo",
     "b": "Mar 7 1881",
     "bp": "Arienzo",
     "d": "Nov 18 1897",
@@ -2042,6 +2351,7 @@
    },
    {
     "name": "Rosa Biondo",
+    "slug": "rosa-biondo",
     "b": "Nov 8 1884",
     "bp": "Arienzo",
     "d": "Aug 21 1885",
@@ -2049,6 +2359,7 @@
    },
    {
     "name": "Domenico Biondo",
+    "slug": "domenico-biondo",
     "b": "Aug 22 1889",
     "bp": "Arienzo",
     "d": "Aug 22 1890",
@@ -2068,23 +2379,30 @@
   "marriages": [
    {
     "who": "Constanza Maione (Falco)",
+    "whoSlug": "constanza-maione",
     "to": "Raffaele Falco",
+    "toSlug": "raffaele-falco-2",
     "into": "Falco"
    },
    {
     "who": "Francesca Maione (Falco)",
+    "whoSlug": "francesca-maione",
     "to": "Francesco Falco",
+    "toSlug": "francesco-falco-2",
     "into": "Falco"
    },
    {
     "who": "Michele Angelo Maione",
+    "whoSlug": "michele-angelo-maione",
     "to": "Carmina Zimbardo (Maione)",
+    "toSlug": "carmina-zimbardo",
     "into": "Zimbardo"
    }
   ],
   "people": [
    {
     "name": "Constanza Maione (Falco)",
+    "slug": "constanza-maione",
     "b": "May 2 1876",
     "bp": "Arienzo",
     "d": "",
@@ -2092,6 +2410,7 @@
    },
    {
     "name": "Michel'angelo Maione",
+    "slug": "michel-angelo-maione",
     "b": "Mar 10 1881",
     "bp": "Arienzo",
     "d": "",
@@ -2099,6 +2418,7 @@
    },
    {
     "name": "Maria Maione",
+    "slug": "maria-maione",
     "b": "Dec 1 1884",
     "bp": "Arienzo",
     "d": "",
@@ -2106,6 +2426,7 @@
    },
    {
     "name": "Francesca Maione (Falco)",
+    "slug": "francesca-maione",
     "b": "",
     "bp": "",
     "d": "",
@@ -2113,6 +2434,7 @@
    },
    {
     "name": "Michele Angelo Maione",
+    "slug": "michele-angelo-maione",
     "b": "",
     "bp": "",
     "d": "",
@@ -2132,33 +2454,44 @@
   "marriages": [
    {
     "who": "Anna Martone (Maione / Majone)",
+    "whoSlug": "anna-martone",
     "to": "Aniello Maione / Majone",
+    "toSlug": "aniello-maione-majone",
     "into": "Maione / Majone"
    },
    {
     "who": "Giuseppa Martone (Falco)",
+    "whoSlug": "giuseppa-martone",
     "to": "Giovanni Falco",
+    "toSlug": "giovanni-falco-2",
     "into": "Falco"
    },
    {
     "who": "Antonio Martone",
+    "whoSlug": "antonio-martone",
     "to": "Crescenza Verdicchio (Martone)",
+    "toSlug": "crescenza-verdicchio",
     "into": "Verdicchio"
    },
    {
     "who": "Giovanna Martone (Falco)",
+    "whoSlug": "giovanna-martone",
     "to": "Matteo Falco",
+    "toSlug": "matteo-falco-4",
     "into": "Falco"
    },
    {
     "who": "Angelo Martone",
+    "whoSlug": "angelo-martone",
     "to": "Giuseppa Crisci (Martone)",
+    "toSlug": "giuseppa-crisci",
     "into": "Crisci"
    }
   ],
   "people": [
    {
     "name": "Anna Martone (Maione / Majone)",
+    "slug": "anna-martone",
     "b": "1846",
     "bp": "Arienzo",
     "d": "",
@@ -2166,6 +2499,7 @@
    },
    {
     "name": "Giuseppa Martone (Falco)",
+    "slug": "giuseppa-martone",
     "b": "1850",
     "bp": "Arienzo",
     "d": "",
@@ -2173,6 +2507,7 @@
    },
    {
     "name": "Angelo Martone",
+    "slug": "angelo-martone",
     "b": "",
     "bp": "",
     "d": "",
@@ -2180,6 +2515,7 @@
    },
    {
     "name": "Antonio Martone",
+    "slug": "antonio-martone",
     "b": "",
     "bp": "",
     "d": "",
@@ -2187,6 +2523,7 @@
    },
    {
     "name": "Giovanna Martone (Falco)",
+    "slug": "giovanna-martone",
     "b": "",
     "bp": "",
     "d": "",
@@ -2207,18 +2544,23 @@
   "marriages": [
    {
     "who": "Sebastian Mazza",
+    "whoSlug": "sebastian-mazza",
     "to": "Domenica Prostamo (Mazza)",
+    "toSlug": "domenica-prostamo",
     "into": "Prostamo"
    },
    {
     "who": "Giovanni Mazza",
+    "whoSlug": "giovanni-mazza",
     "to": "Maria Constanzo (Mazza)",
+    "toSlug": "maria-constanzo",
     "into": "Constanzo"
    }
   ],
   "people": [
    {
     "name": "Giovanni Mazza",
+    "slug": "giovanni-mazza",
     "b": "Apr 28 1875",
     "bp": "Piedimonte Etneo",
     "d": "Nov 4 1960",
@@ -2226,6 +2568,7 @@
    },
    {
     "name": "Vincenzo Mazza",
+    "slug": "vincenzo-mazza",
     "b": "Dec 25 1911",
     "bp": "",
     "d": "Oct 14 1962",
@@ -2233,6 +2576,7 @@
    },
    {
     "name": "Sebastian Mazza",
+    "slug": "sebastian-mazza",
     "b": "1920",
     "bp": "Piedimonte Etneo",
     "d": "Apr 2 2002",
@@ -2240,6 +2584,7 @@
    },
    {
     "name": "Rosario Mazza",
+    "slug": "rosario-mazza",
     "b": "",
     "bp": "",
     "d": "",
@@ -2259,28 +2604,37 @@
   "marriages": [
    {
     "who": "Vincenza Pesce (Morgillo)",
+    "whoSlug": "vincenza-pesce",
     "to": "Orazio Morgillo",
+    "toSlug": "orazio-morgillo",
     "into": "Morgillo"
    },
    {
     "who": "Giuseppe Pesce",
+    "whoSlug": "giuseppe-pesce",
     "to": "Claudia di Lucia (Pesce)",
+    "toSlug": "claudia-di-lucia",
     "into": "di Lucia"
    },
    {
     "who": "Francesca Gelsomina Pesce (Morgillo)",
+    "whoSlug": "francesca-gelsomina-pesce",
     "to": "Francescantonio Morgillo",
+    "toSlug": "francescantonio-morgillo",
     "into": "Morgillo"
    },
    {
     "who": "Formauro Pellegrino Pesce",
+    "whoSlug": "formauro-pellegrino-pesce",
     "to": "Grazia Sgambato (Pesce)",
+    "toSlug": "grazia-sgambato",
     "into": "Sgambato"
    }
   ],
   "people": [
    {
     "name": "Vincenza Pesce (Morgillo)",
+    "slug": "vincenza-pesce",
     "b": "1789",
     "bp": "Arienzo",
     "d": "June 12 1859",
@@ -2288,6 +2642,7 @@
    },
    {
     "name": "Francesca Gelsomina Pesce (Morgillo)",
+    "slug": "francesca-gelsomina-pesce",
     "b": "1801",
     "bp": "Arienzo",
     "d": "",
@@ -2295,6 +2650,7 @@
    },
    {
     "name": "Formauro Pellegrino Pesce",
+    "slug": "formauro-pellegrino-pesce",
     "b": "",
     "bp": "",
     "d": "",
@@ -2302,6 +2658,7 @@
    },
    {
     "name": "Giuseppe Pesce",
+    "slug": "giuseppe-pesce",
     "b": "",
     "bp": "",
     "d": "",
@@ -2322,18 +2679,23 @@
   "marriages": [
    {
     "who": "Domenica Prostamo (Mazza)",
+    "whoSlug": "domenica-prostamo",
     "to": "Sebastian Mazza",
+    "toSlug": "sebastian-mazza",
     "into": "Mazza"
    },
    {
     "who": "Francesco Prostamo",
+    "whoSlug": "francesco-prostamo",
     "to": "Maria Rosa Melluso (Prostamo)",
+    "toSlug": "maria-rosa-melluso",
     "into": "Melluso"
    }
   ],
   "people": [
    {
     "name": "Francesco Prostamo",
+    "slug": "francesco-prostamo",
     "b": "Nov 16 1900",
     "bp": "Briatico",
     "d": "Aug 21 1983",
@@ -2341,6 +2703,7 @@
    },
    {
     "name": "Domenica Prostamo (Mazza)",
+    "slug": "domenica-prostamo",
     "b": "Mar 1928",
     "bp": "Briatico",
     "d": "Jan 29 2010",
@@ -2348,6 +2711,7 @@
    },
    {
     "name": "Domenico Prostamo",
+    "slug": "domenico-prostamo",
     "b": "Oct 18 1930",
     "bp": "Briatico",
     "d": "",
@@ -2355,6 +2719,7 @@
    },
    {
     "name": "Alfonso Prostamo",
+    "slug": "alfonso-prostamo",
     "b": "1936",
     "bp": "Briatico",
     "d": "1980",
@@ -2374,23 +2739,30 @@
   "marriages": [
    {
     "who": "Maria Teresa Natale (Falcone)",
+    "whoSlug": "maria-teresa-natale",
     "to": "Domenico Pascale Falcone",
+    "toSlug": "domenico-pascale-falcone",
     "into": "Falcone"
    },
    {
     "who": "Vincenzo Natale",
+    "whoSlug": "vincenzo-natale",
     "to": "Maria Giuseppa Liccese (Natale)",
+    "toSlug": "maria-giuseppa-liccese",
     "into": "Liccese"
    },
    {
     "who": "Grazia Natale (Falcone)",
+    "whoSlug": "grazia-natale",
     "to": "Agostino Falcone",
+    "toSlug": "agostino-falcone-2",
     "into": "Falcone"
    }
   ],
   "people": [
    {
     "name": "Vincenzo Natale",
+    "slug": "vincenzo-natale",
     "b": "1750",
     "bp": "",
     "d": "",
@@ -2398,6 +2770,7 @@
    },
    {
     "name": "Maria Teresa Natale (Falcone)",
+    "slug": "maria-teresa-natale",
     "b": "1783",
     "bp": "Caserta",
     "d": "",
@@ -2405,6 +2778,7 @@
    },
    {
     "name": "Grazia Natale (Falcone)",
+    "slug": "grazia-natale",
     "b": "",
     "bp": "",
     "d": "",
@@ -2424,18 +2798,23 @@
   "marriages": [
    {
     "who": "Vittoria Cimmino (Falco)",
+    "whoSlug": "vittoria-cimmino",
     "to": "Gioacchino Falco",
+    "toSlug": "gioacchino-falco-2",
     "into": "Falco"
    },
    {
     "who": "Carolina Cimmino (Falco)",
+    "whoSlug": "carolina-cimmino",
     "to": "Luigi Falco",
+    "toSlug": "luigi-falco-3",
     "into": "Falco"
    }
   ],
   "people": [
    {
     "name": "Vittoria Cimmino (Falco)",
+    "slug": "vittoria-cimmino",
     "b": "1877",
     "bp": "Arienzo",
     "d": "Feb 7 1857",
@@ -2443,6 +2822,7 @@
    },
    {
     "name": "Carolina Cimmino (Falco)",
+    "slug": "carolina-cimmino",
     "b": "",
     "bp": "",
     "d": "",
@@ -2460,18 +2840,23 @@
   "marriages": [
    {
     "who": "Carmela? Fuccio (Zampiello)",
+    "whoSlug": "carmela-fuccio",
     "to": "Simone Zampiello",
+    "toSlug": "simone-zampiello",
     "into": "Zampiello"
    },
    {
     "who": "Angela Fuccio (Zampiello)",
+    "whoSlug": "angela-fuccio",
     "to": "Simone Zampiello",
+    "toSlug": "simone-zampiello-2",
     "into": "Zampiello"
    }
   ],
   "people": [
    {
     "name": "Angela Fuccio (Zampiello)",
+    "slug": "angela-fuccio",
     "b": "",
     "bp": "",
     "d": "",
@@ -2479,6 +2864,7 @@
    },
    {
     "name": "Carmela? Fuccio (Zampiello)",
+    "slug": "carmela-fuccio",
     "b": "",
     "bp": "",
     "d": "",
@@ -2498,13 +2884,16 @@
   "marriages": [
    {
     "who": "Vincenzo Gagliotti",
+    "whoSlug": "vincenzo-gagliotti",
     "to": "Maria Grazia Zampiello (Gagliotti)",
+    "toSlug": "maria-grazia-zampiello",
     "into": "Zampiello"
    }
   ],
   "people": [
    {
     "name": "Concetta Gagliotti",
+    "slug": "concetta-gagliotti",
     "b": "1940",
     "bp": "Arpaia",
     "d": "July 5 1940",
@@ -2512,6 +2901,7 @@
    },
    {
     "name": "Vincenzo Gagliotti",
+    "slug": "vincenzo-gagliotti",
     "b": "",
     "bp": "",
     "d": "",
@@ -2531,18 +2921,23 @@
   "marriages": [
    {
     "who": "Pasqualantonio Guida",
+    "whoSlug": "pasqualantonio-guida",
     "to": "Domenica Falco (Guida)",
+    "toSlug": "domenica-falco",
     "into": "Falco"
    },
    {
     "who": "Giuseppe Guida",
+    "whoSlug": "giuseppe-guida",
     "to": "Maddalena Rivetti (Guida)",
+    "toSlug": "maddalena-rivetti",
     "into": "Rivetti"
    }
   ],
   "people": [
    {
     "name": "Giuseppe Guida",
+    "slug": "giuseppe-guida",
     "b": "1757",
     "bp": "Arienzo",
     "d": "1812",
@@ -2550,6 +2945,7 @@
    },
    {
     "name": "Pasqualantonio Guida",
+    "slug": "pasqualantonio-guida",
     "b": "1841",
     "bp": "Arienzo",
     "d": "May 25 1875",
@@ -2569,18 +2965,23 @@
   "marriages": [
    {
     "who": "Maria Amelia / Amalia Guida / Guido (Falco)",
+    "whoSlug": "maria-amelia-amalia-guida-guido",
     "to": "Pasquale Antonio Falco",
+    "toSlug": "pasquale-antonio-falco",
     "into": "Falco"
    },
    {
     "who": "Antonia Guida / Guido (Falco)",
+    "whoSlug": "antonia-guida-guido",
     "to": "Giuseppe Falco",
+    "toSlug": "giuseppe-falco-3",
     "into": "Falco"
    }
   ],
   "people": [
    {
     "name": "Antonia Guida / Guido (Falco)",
+    "slug": "antonia-guida-guido",
     "b": "Oct 31 1783",
     "bp": "Arienzo",
     "d": "",
@@ -2588,6 +2989,7 @@
    },
    {
     "name": "Maria Amelia / Amalia Guida / Guido (Falco)",
+    "slug": "maria-amelia-amalia-guida-guido",
     "b": "",
     "bp": "",
     "d": "",
@@ -2607,18 +3009,23 @@
   "marriages": [
    {
     "who": "Giovanna Pellone (Falco)",
+    "whoSlug": "giovanna-pellone",
     "to": "Carmine Falco",
+    "toSlug": "carmine-falco-3",
     "into": "Falco"
    },
    {
     "who": "Antonio Pellone",
+    "whoSlug": "antonio-pellone",
     "to": "Marta Crisci (Pellone)",
+    "toSlug": "marta-crisci",
     "into": "Crisci"
    }
   ],
   "people": [
    {
     "name": "Antonio Pellone",
+    "slug": "antonio-pellone",
     "b": "",
     "bp": "",
     "d": "",
@@ -2626,6 +3033,7 @@
    },
    {
     "name": "Giovanna Pellone (Falco)",
+    "slug": "giovanna-pellone",
     "b": "",
     "bp": "Arienzo",
     "d": "",
@@ -2643,18 +3051,23 @@
   "marriages": [
    {
     "who": "Michele Ruggiero",
+    "whoSlug": "michele-ruggiero",
     "to": "Tommasina Zampiello (Ruggiero)",
+    "toSlug": "tommasina-zampiello",
     "into": "Zampiello"
    },
    {
     "who": "Giuseppe Ruggiero",
+    "whoSlug": "giuseppe-ruggiero",
     "to": "Teresa D'Iglio (Ruggiero)",
+    "toSlug": "teresa-d-iglio",
     "into": "D'Iglio"
    }
   ],
   "people": [
    {
     "name": "Michele Ruggiero",
+    "slug": "michele-ruggiero",
     "b": "1919",
     "bp": "",
     "d": "",
@@ -2662,6 +3075,7 @@
    },
    {
     "name": "Giuseppe Ruggiero",
+    "slug": "giuseppe-ruggiero",
     "b": "",
     "bp": "",
     "d": "",
@@ -2681,18 +3095,23 @@
   "marriages": [
    {
     "who": "Elisabetta Sadutto (Falco)",
+    "whoSlug": "elisabetta-sadutto",
     "to": "Pasquale Antonio Falco",
+    "toSlug": "pasquale-antonio-falco",
     "into": "Falco"
    },
    {
     "who": "Carmela Sadutto (Falco)",
+    "whoSlug": "carmela-sadutto",
     "to": "Francesco Falco",
+    "toSlug": "francesco-falco-5",
     "into": "Falco"
    }
   ],
   "people": [
    {
     "name": "Carmela Sadutto (Falco)",
+    "slug": "carmela-sadutto",
     "b": "1799",
     "bp": "Arienzo",
     "d": "July 3 1874",
@@ -2700,6 +3119,7 @@
    },
    {
     "name": "Elisabetta Sadutto (Falco)",
+    "slug": "elisabetta-sadutto",
     "b": "1839",
     "bp": "Arienzo",
     "d": "May 31 1869",
@@ -2720,18 +3140,23 @@
   "marriages": [
    {
     "who": "Michele Servodio",
+    "whoSlug": "michele-servodio",
     "to": "Raffaela Zampiello (Servodio)",
+    "toSlug": "raffaela-zampiello",
     "into": "Zampiello"
    },
    {
     "who": "Maria Michela Servodio (Zampiello)",
+    "whoSlug": "maria-michela-servodio",
     "to": "Simone Zampiello",
+    "toSlug": "simone-zampiello-3",
     "into": "Zampiello"
    }
   ],
   "people": [
    {
     "name": "Michele Servodio",
+    "slug": "michele-servodio",
     "b": "Feb 11 1930",
     "bp": "Italy",
     "d": "June 13 2021",
@@ -2739,6 +3164,7 @@
    },
    {
     "name": "Maria Michela Servodio (Zampiello)",
+    "slug": "maria-michela-servodio",
     "b": "",
     "bp": "",
     "d": "",
@@ -2759,13 +3185,16 @@
   "marriages": [
    {
     "who": "Lorenzo Zaino",
+    "whoSlug": "lorenzo-zaino",
     "to": "Costanza Abatiello (Zaino)",
+    "toSlug": "costanza-abatiello",
     "into": "Abatiello"
    }
   ],
   "people": [
    {
     "name": "Lorenzo Zaino",
+    "slug": "lorenzo-zaino",
     "b": "Sep 19 1860",
     "bp": "Durazzano",
     "d": "Oct 18 1945",
@@ -2773,6 +3202,7 @@
    },
    {
     "name": "Bartolomeo Michael Zaino",
+    "slug": "bartolomeo-michael-zaino",
     "b": "June 20 1894",
     "bp": "Durazzano",
     "d": "Aug 3 1963",
@@ -2792,18 +3222,23 @@
   "marriages": [
    {
     "who": "Rosa Zimbardo (Falco)",
+    "whoSlug": "rosa-falco",
     "to": "Giuseppe Falco",
+    "toSlug": "giuseppe-falco-7",
     "into": "Falco"
    },
    {
     "who": "Carmina Zimbardo (Maione)",
+    "whoSlug": "carmina-zimbardo",
     "to": "Michele Angelo Maione",
+    "toSlug": "michele-angelo-maione",
     "into": "Maione"
    }
   ],
   "people": [
    {
     "name": "Rosa Zimbardo (Falco)",
+    "slug": "rosa-falco",
     "b": "1829",
     "bp": "Arienzo",
     "d": "Aug 12 1889",
@@ -2811,6 +3246,7 @@
    },
    {
     "name": "Carmina Zimbardo (Maione)",
+    "slug": "carmina-zimbardo",
     "b": "",
     "bp": "",
     "d": "",
@@ -2832,18 +3268,23 @@
   "marriages": [
    {
     "who": "Agnese di Lucia (Falco)",
+    "whoSlug": "agnese-di-lucia",
     "to": "Matteo Falco",
+    "toSlug": "matteo-falco-3",
     "into": "Falco"
    },
    {
     "who": "Claudia di Lucia (Pesce)",
+    "whoSlug": "claudia-di-lucia",
     "to": "Giuseppe Pesce",
+    "toSlug": "giuseppe-pesce",
     "into": "Pesce"
    }
   ],
   "people": [
    {
     "name": "Claudia di Lucia (Pesce)",
+    "slug": "claudia-di-lucia",
     "b": "1760",
     "bp": "Santa Maria A Vico",
     "d": "Dec 20 1830",
@@ -2851,6 +3292,7 @@
    },
    {
     "name": "Agnese di Lucia (Falco)",
+    "slug": "agnese-di-lucia",
     "b": "",
     "bp": "Arienzo",
     "d": "",
@@ -2870,13 +3312,16 @@
   "marriages": [
    {
     "who": "Costanza Abatiello (Zaino)",
+    "whoSlug": "costanza-abatiello",
     "to": "Lorenzo Zaino",
+    "toSlug": "lorenzo-zaino",
     "into": "Zaino"
    }
   ],
   "people": [
    {
     "name": "Costanza Abatiello (Zaino)",
+    "slug": "costanza-abatiello",
     "b": "Jan 25 1871",
     "bp": "Durazzano",
     "d": "Dec 27 1955",
@@ -2894,13 +3339,16 @@
   "marriages": [
    {
     "who": "Giovanna Arricole (Falco)",
+    "whoSlug": "giovanna-arricole",
     "to": "Carmine Antonio Falco",
+    "toSlug": "carmine-antonio-falco",
     "into": "Falco"
    }
   ],
   "people": [
    {
     "name": "Giovanna Arricole (Falco)",
+    "slug": "giovanna-arricole",
     "b": "1848",
     "bp": "",
     "d": "",
@@ -2918,13 +3366,16 @@
   "marriages": [
    {
     "who": "Carmela Buono (Falco)",
+    "whoSlug": "carmela-buono",
     "to": "Andrea Falco",
+    "toSlug": "andrea-falco",
     "into": "Falco"
    }
   ],
   "people": [
    {
     "name": "Carmela Buono (Falco)",
+    "slug": "carmela-buono",
     "b": "",
     "bp": "",
     "d": "",
@@ -2942,13 +3393,16 @@
   "marriages": [
    {
     "who": "Mariantonia Carfora (Annecchino)",
+    "whoSlug": "mariantonia-carfora",
     "to": "Sabatino Annecchino",
+    "toSlug": "sabatino-annecchino",
     "into": "Annecchino"
    }
   ],
   "people": [
    {
     "name": "Mariantonia Carfora (Annecchino)",
+    "slug": "mariantonia-carfora",
     "b": "",
     "bp": "",
     "d": "",
@@ -2966,13 +3420,16 @@
   "marriages": [
    {
     "who": "Letizia Casolla / Casella (Falcone)",
+    "whoSlug": "letizia-casolla-casella",
     "to": "Pasquale Falcone",
+    "toSlug": "pasquale-falcone",
     "into": "Falcone"
    }
   ],
   "people": [
    {
     "name": "Letizia Casolla / Casella (Falcone)",
+    "slug": "letizia-casolla-casella",
     "b": "1799",
     "bp": "",
     "d": "",
@@ -2990,13 +3447,16 @@
   "marriages": [
    {
     "who": "Maria Constanzo (Mazza)",
+    "whoSlug": "maria-constanzo",
     "to": "Giovanni Mazza",
+    "toSlug": "giovanni-mazza",
     "into": "Mazza"
    }
   ],
   "people": [
    {
     "name": "Maria Constanzo (Mazza)",
+    "slug": "maria-constanzo",
     "b": "Oct 6 1881",
     "bp": "",
     "d": "Jan 23 1958",
@@ -3014,13 +3474,16 @@
   "marriages": [
    {
     "who": "Teresa D'Iglio (Ruggiero)",
+    "whoSlug": "teresa-d-iglio",
     "to": "Giuseppe Ruggiero",
+    "toSlug": "giuseppe-ruggiero",
     "into": "Ruggiero"
    }
   ],
   "people": [
    {
     "name": "Teresa D'Iglio (Ruggiero)",
+    "slug": "teresa-d-iglio",
     "b": "",
     "bp": "",
     "d": "",
@@ -3038,13 +3501,16 @@
   "marriages": [
    {
     "who": "Vincenza De Lucia (Falco)",
+    "whoSlug": "vincenza-de-lucia",
     "to": "Angelo Falco",
+    "toSlug": "angelo-falco-4",
     "into": "Falco"
    }
   ],
   "people": [
    {
     "name": "Vincenza De Lucia (Falco)",
+    "slug": "vincenza-de-lucia",
     "b": "1875",
     "bp": "",
     "d": "",
@@ -3062,13 +3528,16 @@
   "marriages": [
    {
     "who": "Vincenza Della Sorca (Falco)",
+    "whoSlug": "vincenza-della-sorca",
     "to": "Antonio Falco",
+    "toSlug": "antonio-falco-4",
     "into": "Falco"
    }
   ],
   "people": [
    {
     "name": "Vincenza Della Sorca (Falco)",
+    "slug": "vincenza-della-sorca",
     "b": "",
     "bp": "",
     "d": "",
@@ -3089,13 +3558,16 @@
   "marriages": [
    {
     "who": "Emanuela Ferrante (Falcone)",
+    "whoSlug": "emanuela-ferrante",
     "to": "Giovan Battista Falcone",
+    "toSlug": "giovan-battista-falcone",
     "into": "Falcone"
    }
   ],
   "people": [
    {
     "name": "Emanuela Ferrante (Falcone)",
+    "slug": "emanuela-ferrante",
     "b": "Circa 1826",
     "bp": "Napoli",
     "d": "Mar 16 1854",
@@ -3113,13 +3585,16 @@
   "marriages": [
    {
     "who": "Mariantonia Frasca (Falco)",
+    "whoSlug": "mariantonia-frasca",
     "to": "Domenico Falco",
+    "toSlug": "domenico-falco",
     "into": "Falco"
    }
   ],
   "people": [
    {
     "name": "Mariantonia Frasca (Falco)",
+    "slug": "mariantonia-frasca",
     "b": "",
     "bp": "",
     "d": "",
@@ -3137,13 +3612,16 @@
   "marriages": [
    {
     "who": "Maria Giuseppa Liccese (Natale)",
+    "whoSlug": "maria-giuseppa-liccese",
     "to": "Vincenzo Natale",
+    "toSlug": "vincenzo-natale",
     "into": "Natale"
    }
   ],
   "people": [
    {
     "name": "Maria Giuseppa Liccese (Natale)",
+    "slug": "maria-giuseppa-liccese",
     "b": "Circa 1745",
     "bp": "",
     "d": "",
@@ -3163,13 +3641,16 @@
   "marriages": [
    {
     "who": "Aniello Maione / Majone",
+    "whoSlug": "aniello-maione-majone",
     "to": "Anna Martone (Maione / Majone)",
+    "toSlug": "anna-martone",
     "into": "Martone"
    }
   ],
   "people": [
    {
     "name": "Aniello Maione / Majone",
+    "slug": "aniello-maione-majone",
     "b": "1841",
     "bp": "Arienzo",
     "d": "",
@@ -3187,13 +3668,16 @@
   "marriages": [
    {
     "who": "Mariangela Martenisi (Falco)",
+    "whoSlug": "mariangela-martenisi",
     "to": "Francesco Falco",
+    "toSlug": "francesco-falco-4",
     "into": "Falco"
    }
   ],
   "people": [
    {
     "name": "Mariangela Martenisi (Falco)",
+    "slug": "mariangela-martenisi",
     "b": "",
     "bp": "",
     "d": "",
@@ -3214,13 +3698,16 @@
   "marriages": [
    {
     "who": "Maria Rosa Melluso (Prostamo)",
+    "whoSlug": "maria-rosa-melluso",
     "to": "Francesco Prostamo",
+    "toSlug": "francesco-prostamo",
     "into": "Prostamo"
    }
   ],
   "people": [
    {
     "name": "Maria Rosa Melluso (Prostamo)",
+    "slug": "maria-rosa-melluso",
     "b": "Oct 14 1907",
     "bp": "New York",
     "d": "1994",
@@ -3239,6 +3726,7 @@
   "people": [
    {
     "name": "Orfei Michieletto",
+    "slug": "orfei-michieletto",
     "b": "",
     "bp": "",
     "d": "",
@@ -3258,13 +3746,16 @@
   "marriages": [
    {
     "who": "Nicoletta Nuzzo (Falco)",
+    "whoSlug": "nicoletta-nuzzo",
     "to": "Giuseppe Falco",
+    "toSlug": "giuseppe-falco-4",
     "into": "Falco"
    }
   ],
   "people": [
    {
     "name": "Nicoletta Nuzzo (Falco)",
+    "slug": "nicoletta-nuzzo",
     "b": "1855",
     "bp": "Arienzo",
     "d": "",
@@ -3282,13 +3773,16 @@
   "marriages": [
    {
     "who": "Serafino Antonio Pasquali",
+    "whoSlug": "serafino-antonio-pasquali",
     "to": "Francesca Falcone (Pasquali)",
+    "toSlug": "francesca-falcone",
     "into": "Falcone"
    }
   ],
   "people": [
    {
     "name": "Serafino Antonio Pasquali",
+    "slug": "serafino-antonio-pasquali",
     "b": "",
     "bp": "",
     "d": "",
@@ -3306,13 +3800,16 @@
   "marriages": [
    {
     "who": "Angela Maria Petriccione (Falcone)",
+    "whoSlug": "angela-maria-petriccione",
     "to": "Michele Falcone",
+    "toSlug": "michele-falcone",
     "into": "Falcone"
    }
   ],
   "people": [
    {
     "name": "Angela Maria Petriccione (Falcone)",
+    "slug": "angela-maria-petriccione",
     "b": "",
     "bp": "",
     "d": "",
@@ -3332,13 +3829,16 @@
   "marriages": [
    {
     "who": "Maddalena Rivetti (Guida)",
+    "whoSlug": "maddalena-rivetti",
     "to": "Giuseppe Guida",
+    "toSlug": "giuseppe-guida",
     "into": "Guida"
    }
   ],
   "people": [
    {
     "name": "Maddalena Rivetti (Guida)",
+    "slug": "maddalena-rivetti",
     "b": "1760",
     "bp": "Arienzo",
     "d": "Aug 6 1812",
@@ -3358,13 +3858,16 @@
   "marriages": [
    {
     "who": "Chiara Rivetti / Rivotti (Falco)",
+    "whoSlug": "chiara-rivetti",
     "to": "Pasquale / Pascuale Falco",
+    "toSlug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
     "into": "Falco"
    }
   ],
   "people": [
    {
     "name": "Chiara Rivetti / Rivotti (Falco)",
+    "slug": "chiara-rivetti",
     "b": "1772",
     "bp": "Arienzo",
     "d": "",
@@ -3382,13 +3885,16 @@
   "marriages": [
    {
     "who": "Michele Ruotolo",
+    "whoSlug": "michele-ruotolo",
     "to": "Carmela Falco (Ruotolo)",
+    "toSlug": "carmela-falco-2",
     "into": "Falco"
    }
   ],
   "people": [
    {
     "name": "Michele Ruotolo",
+    "slug": "michele-ruotolo",
     "b": "",
     "bp": "",
     "d": "",
@@ -3406,13 +3912,16 @@
   "marriages": [
    {
     "who": "Catiello Russo",
+    "whoSlug": "catiello-russo",
     "to": "Marianna Elisabetta Falcone (Russo)",
+    "toSlug": "marianna-elisabetta-falcone",
     "into": "Falcone"
    }
   ],
   "people": [
    {
     "name": "Catiello Russo",
+    "slug": "catiello-russo",
     "b": "",
     "bp": "",
     "d": "",
@@ -3432,13 +3941,16 @@
   "marriages": [
    {
     "who": "Elisabetta Sabina (Falcone)",
+    "whoSlug": "elisabetta-sabina",
     "to": "Agostino Falcone",
+    "toSlug": "agostino-falcone",
     "into": "Falcone"
    }
   ],
   "people": [
    {
     "name": "Elisabetta Sabina (Falcone)",
+    "slug": "elisabetta-sabina",
     "b": "Circa 1745",
     "bp": "Italia",
     "d": "",
@@ -3456,13 +3968,16 @@
   "marriages": [
    {
     "who": "Grazia Sgambato (Pesce)",
+    "whoSlug": "grazia-sgambato",
     "to": "Formauro Pellegrino Pesce",
+    "toSlug": "formauro-pellegrino-pesce",
     "into": "Pesce"
    }
   ],
   "people": [
    {
     "name": "Grazia Sgambato (Pesce)",
+    "slug": "grazia-sgambato",
     "b": "",
     "bp": "",
     "d": "",
@@ -3480,13 +3995,16 @@
   "marriages": [
    {
     "who": "Maddalena Siciliatto (Falco)",
+    "whoSlug": "maddalena-siciliatto",
     "to": "Francesco Falco",
+    "toSlug": "francesco-falco-3",
     "into": "Falco"
    }
   ],
   "people": [
    {
     "name": "Maddalena Siciliatto (Falco)",
+    "slug": "maddalena-siciliatto",
     "b": "",
     "bp": "",
     "d": "",
@@ -3507,6 +4025,7 @@
   "people": [
    {
     "name": "Franco Smith",
+    "slug": "franco-smith",
     "b": "Feb 10 1951",
     "bp": "Napoli",
     "d": "Mar 19 2020",
@@ -3524,13 +4043,16 @@
   "marriages": [
    {
     "who": "Crescenza Verdicchio (Martone)",
+    "whoSlug": "crescenza-verdicchio",
     "to": "Antonio Martone",
+    "toSlug": "antonio-martone",
     "into": "Martone"
    }
   ],
   "people": [
    {
     "name": "Crescenza Verdicchio (Martone)",
+    "slug": "crescenza-verdicchio",
     "b": "",
     "bp": "",
     "d": "",
@@ -3548,13 +4070,16 @@
   "marriages": [
    {
     "who": "Gelsomina Nobile Vigliotti (Falco)",
+    "whoSlug": "gelsomina-nobile-vigliotti",
     "to": "Giuseppe Falco",
+    "toSlug": "giuseppe-falco-2",
     "into": "Falco"
    }
   ],
   "people": [
    {
     "name": "Gelsomina Nobile Vigliotti (Falco)",
+    "slug": "gelsomina-nobile-vigliotti",
     "b": "",
     "bp": "",
     "d": "",
@@ -3572,13 +4097,16 @@
   "marriages": [
    {
     "who": "Maria Giovanna d'Ambrosio (Falco)",
+    "whoSlug": "maria-giovanna-d-ambrosio",
     "to": "Michele Falco",
+    "toSlug": "michele-falco",
     "into": "Falco"
    }
   ],
   "people": [
    {
     "name": "Maria Giovanna d'Ambrosio (Falco)",
+    "slug": "maria-giovanna-d-ambrosio",
     "b": "",
     "bp": "",
     "d": "",
@@ -3596,13 +4124,16 @@
   "marriages": [
    {
     "who": "(Maria) Carmela di Guida / Guido (Falco)",
+    "whoSlug": "carmela-di-guida-guido",
     "to": "Antonio Falco",
+    "toSlug": "antonio-falco",
     "into": "Falco"
    }
   ],
   "people": [
    {
     "name": "(Maria) Carmela di Guida / Guido (Falco)",
+    "slug": "carmela-di-guida-guido",
     "b": "1849",
     "bp": "",
     "d": "",
