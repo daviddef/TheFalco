@@ -6,6 +6,7 @@ import { people } from "../lib/people.js";
 import { writtenUp } from "../lib/writtenup.js";
 import register from "../data/register.json";
 import groups from "../data/married-in.json";
+import { other, primary, GROUPS as REACH } from "../lib/marriedin.js";
 
 /* Two pages until now: a register of couples, and a list of surnames that
    married in. They answer one question from two ends — a surname is here
@@ -114,7 +115,7 @@ const STORY = {
 };
 
 /* ---- the families, placed by descent ---- */
-const other = groups.filter((g) => g.surname !== "Falco");
+
 const named = other.reduce((a, g) => a + g.n, 0);
 const withheld = other.reduce((a, g) => a + g.withheld, 0);
 
@@ -123,9 +124,6 @@ const withheld = other.reduce((a, g) => a + g.withheld, 0);
    family is filed under the STRONGEST reach any of its people has, in this
    order, so the filing is deterministic rather than whichever reach happened to
    be commonest. */
-const STRENGTH = ["blood", "married", "kin", "second", "unconnected"];
-const primary = (g) => STRENGTH.find((s) => (g.reach || []).includes(s)) || "unconnected";
-
 const GROUPS = [
   { key: "blood", label: "They carry this family's blood",
     blurb: `A Falco daughter married into these families, so their children are of this line by

@@ -3,6 +3,8 @@ import Base from "../layouts/Base.astro";
 import WaysIn from "@daviddef/archive-kit/components/WaysIn.astro";
 import Numbers from "@daviddef/archive-kit/components/Numbers.astro";
 import PlaceSpark from "@daviddef/archive-kit/components/PlaceSpark.astro";
+import MarriageChart from "@daviddef/archive-kit/components/MarriageChart.astro";
+import { chartGroups } from "../lib/marriedin.js";
 import atlas from "../../public/atlas-data.json";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
@@ -123,6 +125,16 @@ const more = [
     <PlaceSpark places={atlas.places} href={u("/atlas/")}
                 label={`${atlas.places.length} places — the towns this family can be put in`} />
   </section>
+</section>
+
+
+<section class="blk">
+  <h2>The families who married in</h2>
+  <p class="dek">Seventy-six surnames joined this line, and each is here for one reason — that a
+  person married a person. They are grouped by <strong>how they reach this family</strong>,
+  computed over people and never over spelling.
+  <a href={u("/marriages/")}>The marriages, in full →</a></p>
+  <MarriageChart groups={chartGroups} subject="Falco" unit="how many of their people reach this line" />
 </section>
 
 <section class="blk">
