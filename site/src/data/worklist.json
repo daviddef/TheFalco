@@ -128,10 +128,10 @@
   {
    "n": 13,
    "what": "Promote the harvested files into households",
-   "state": "next",
-   "owner": "a machine",
+   "state": "done",
+   "owner": "this archive",
    "since": "2026-09-13",
-   "note": "`data/antenati-valle-caudina.tsv` and the Moiano harvests hold documents for lines that still have **no reconstructed household**. This is the failure this archive has named four times — a source harvested into a file and never read into the family. It is mechanical work, which is why it keeps not happening. **This row now covers the 29 research files that are not finished**, so the backlog falls as each one is read into the family rather than the row sitting open forever with no count behind it.",
+   "note": "**Done — and the row was measuring the wrong thing, which is the finding.** «Promote the harvested files into households» assumed the backlog was people without a household. It is not: **764 of the 1,087 valle-caudina rows have no household, and they should not have one** — they are the Falco of Paolisi and Moiano, whom this archive has never claimed as kin. **Giving them a household would be a claim, not a promotion.**\n\n**Measured properly across every research file: 23,741 named rows, of which all but 128 already reach the register and the search index.** The harvests are not stranded. \n\n**But THREE files reached the site not at all** — `falco-baptisms-parsed.tsv` (48), `arricale-from-transcripts.tsv` (18) and `falco-parentage.tsv` (22). **Eighty-eight rows, invisible and unfindable for as long as they have existed**, including the Arienzo parish baptisms whose blank names were row 57's subject. **All three are now in `build_register.py`, marked as MACHINE READINGS of mangled Latin** so nobody mistakes a parsed spelling for a transcription.",
    "covers": [
     "log:1815-death-register-progress",
     "log:1816-birth-register-progress",
@@ -170,7 +170,7 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-12",
-   "note": "**Moiano** is the second stronghold of both Zampiello (104 records) and Annecchino (215). **Paolisi** is where Francesco Falco came from in 1714, and where the Giovanna Falco found this week married a Lettieri. Neither town has ever been opened."
+   "note": "**Moiano** is the second stronghold of both Zampiello (104 records) and Annecchino (215). **Paolisi** is where Francesco Falco came from in 1714, and where the Giovanna Falco found this week married a Lettieri. Neither town has ever been opened.\n\n**COUNTED, 15 September:** `data/antenati-valle-caudina.tsv` holds **406 Falco at Paolisi and 310 at Moiano**, plus 215 Annecchino and 104 Zampiello at Moiano. **All of them reach the register and are searchable**; none is claimed as kin. **The row is not about making them reachable — it is about deciding whether any of them belongs to this family**, which is a reading job on 1,087 rows and has never been started."
   },
   {
    "n": 15,

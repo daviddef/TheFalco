@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Consolidate every named individual this archive has found into one register,
 each with the source that names them and, where one exists, a link to it."""
+import os as _os_boot
+ROOT = _os_boot.path.dirname(_os_boot.path.dirname(_os_boot.path.abspath(__file__)))
 import csv, json, re, os, collections
 
 ROWS = []
@@ -422,6 +424,53 @@ if os.path.exists("data/sweep-people.tsv"):
                                    r["detail"]] if x),
             f'Arienzo death register {r["year"]}, image {r["img"]}{r["side"]}',
             AN + r["ark"] if r["ark"] else "", "swept", r["year"])
+
+# --- three harvests that reached NOTHING ---
+# Measured 15 September 2026 across every research file: 23,741 named rows, and
+# all but 128 already reach the register. THESE THREE reached it not at all —
+# eighty-eight rows, invisible on the site and unfindable by search, for as long
+# as they have existed. They are parsed out of mangled OCR and their spellings
+# are the machine's, which is why they were never promoted; but an unreachable
+# row helps nobody, and a row marked as a machine's reading helps the next
+# person decide whether to spend a render on it.
+FS = "https://www.familysearch.org/ark:/61903/"
+def _tsv(p):
+    import csv as _c, os as _o
+    return list(_c.DictReader(open(_o.path.join(ROOT, p), encoding="utf-8", errors="replace"),
+                              delimiter="\t")) if _o.path.exists(_o.path.join(ROOT, p)) else []
+
+for r in _tsv("data/falco-baptisms-parsed.tsv"):
+    child = (r.get("child") or "").strip()
+    if not child:
+        continue                       # the 44 whose snippet never reached the name
+    bits = [x for x in ["baptism", r.get("year"), "Arienzo",
+                        "of " + (r.get("father") or "?"),
+                        "and " + (r.get("mother") or "?")] if x and x.strip(" of and")]
+    add(child, sur(child), " · ".join(bits) + " · MACHINE READING of the Latin",
+        "Arienzo parish baptisms, parsed from page transcripts",
+        FS + (r.get("id") or "").replace("3:1:", "3:1:") if r.get("id") else "",
+        "parsed", r.get("year") or "")
+
+for r in _tsv("data/arricale-from-transcripts.tsv"):
+    child = (r.get("child") or "").strip()
+    if not child:
+        continue
+    bits = [x for x in ["act", r.get("year"),
+                        "of " + (r.get("father") or "?"),
+                        "and " + (r.get("mother") or "?")] if x and x.strip(" of and")]
+    add(child, sur(child), " · ".join(bits) + " · MACHINE READING; spellings as the machine read them",
+        "Arricale, parsed from OCR page transcripts", "", "parsed", r.get("year") or "")
+
+for r in _tsv("data/falco-parentage.tsv"):
+    child = (r.get("child") or "").strip()
+    if not child:
+        continue
+    bits = [x for x in [r.get("kind") == "lat" and "Latin act" or "act", r.get("year"),
+                        "of " + (r.get("father") or "?"),
+                        "and " + (r.get("mother") or "?")] if x and str(x).strip(" of and")]
+    add(child, sur(child), " · ".join(str(b) for b in bits) + " · MACHINE READING of the Latin",
+        "Falco parentage, parsed from page transcripts",
+        FS + "3:1:3Q9M-CS" + r["id"] if r.get("id") else "", "parsed", r.get("year") or "")
 
 # --- the reconstructed households (already have full pages) ---
 hh = json.load(open("site/src/data/households.json"))
