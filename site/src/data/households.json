@@ -1496,6 +1496,36 @@
     "place": "Arienzo, strada Costa",
     "evidence": "A NEW DAUGHTER for the OTHER Giuseppe Falco, found by reading the 1823 birth register end to end. «…nata da GELSOMINA VIGLIOTTA sua moglie legittima, di anni TRENTOTTO … nel giorno TRENTA del mese di MARZO … alle ore DIECI … il nome di PASQUA». Her mother's age agrees with this household's other act to within a year — thirty-two in 1816, thirty-eight in 1823. THE MARGIN RECORDS HER MARRIAGE: «A 30 Dic. 1880 l'uff. dello stato civile d'Arienzo … PASQUA FALCO con PASQUALE CARFORA», certified Caserta 27 Aug 1881. SHE IS NOT JOINED TO GIOVANNA ARRICALE'S MOTHER — but she is the ONLY Pasqua born at Arienzo in the whole window Giovanna's act implies: 1822 and 1823 were both read end to end, 239 acts, and 1822 holds no Pasqua at all. Joining them would marry the Camellara Falco to the strada Costa Falco on a forename and an age the clerks are known to have guessed by up to five years. See the corrections page",
     "ark": "ANTENATI an_ua14420 (Arienzo, Nati 1823) img 41 — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Giuseppe Falco & Gelsomina Vigliotta",
+    "person": "Pasqua Falco",
+    "role": "child",
+    "event": "marriage",
+    "date": "9 Sep 1856",
+    "place": "Arienzo",
+    "evidence": "SHE MARRIED, AND THE ARCHIVE'S REFUSAL TO JOIN HER TO ANOTHER WOMAN IS VINDICATED. «Atto di solenne promessa di matrimonio, Num. d'ordine 29», 9 SETTEMBRE 1856: «…sono comparsi ANGELO MAJONE … figlio di FRANCESCO MAJONE DEFUNTO … e di MARTA DIGLIO DEFUNTA … e PASQUA FALCO, di anni TRENTATRE, nata in ARIENZO, domiciliata in Arienzo, figlia di GIUSEPPE FALCO di professione CONTADINO domiciliato in Arienzo, e di GELSOMINA VIGLIOTTA DEFUNTA». Thirty-three in September 1856 gives b. c.1823, and her birth act of 30 March 1823 is already held. THE MARGIN CERTIFIES THE CHURCH on the thirteenth of September. SHE IS NOT CALLED A WIDOW — and that is the whole point",
+    "ark": "ANTENATI an_ua14260 (Arienzo, Matrimoni 1856) atto 29, img 55r, folio 48 — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Giuseppe Falco & Gelsomina Vigliotta",
+    "person": "Giuseppe Falco",
+    "role": "father",
+    "event": "marriage",
+    "date": "13 Dec 1854",
+    "place": "Arienzo; living Santa Maria a Vico",
+    "evidence": "HIS PARENTS, NAMED FOR THE FIRST TIME — AND HE REMARRIED. «Atto di solenne promessa di matrimonio, Num. d'ordine 3», 13 DICEMBRE 1854: «…sono comparsi GIUSEPPE FALCO maggiore, di anni SETTANTUNO, nato in ARIENZO, di professione COLONO, domiciliato in SANTA MARIA A VICO, figlio del fu FRANCESCO di professione simile domiciliato in Arienzo, e della fu MARIANGELA GIULIANI, domiciliata ivi, VEDOVO DI GELSOMINA VIGLIOTTI; ed ANGELA CARFORA maggiore, di anni CINQUANTANOVE, nata in Arienzo…». Seventy-one in December 1854 gives b. c.1783. THE ARCHIVE HOLDS A «FRANCESCO FALCO & MARIA ANGELA ULIVIECCIO» whose daughter Margarita married Domenico Crisci; whether MARIANGELA GIULIANI is that woman under another surname is NOT ESTABLISHED and is not claimed",
+    "ark": "ANTENATI an_ua14258 (Arienzo, Matrimoni 1854) atto 3, img 7r — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Giuseppe Falco & Gelsomina Vigliotta",
+    "person": "Gelsomina Vigliotta",
+    "role": "mother",
+    "event": "death window",
+    "date": "before 13 Dec 1854",
+    "place": "Arienzo",
+    "evidence": "«VEDOVO DI GELSOMINA VIGLIOTTI» in her husband's remarriage act of 13 December 1854, and «GELSOMINA VIGLIOTTA DEFUNTA» in her daughter Pasqua's marriage act of 9 September 1856. TWO INDEPENDENT ACTS, TWO YEARS APART, BOTH READ FROM THE IMAGE. Her death is therefore before December 1854 and is not yet found; the Arienzo death registers 1844-1858 have been read out, so she should be in them",
+    "ark": "ANTENATI an_ua14258 atto 3 and an_ua14260 atto 29 — BOTH READ FROM THE IMAGE"
    }
   ]
  },
@@ -3916,6 +3946,21 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "«…è nato nella sua propria casa da lui dichiarante, e da SARA RUGGIERO sua moglie legittima d'anni quarantacinque, un MASCHIO che ci ha presentato» — A BROTHER FOR ANDREANA CRISCI. The child's given name is further down the act and was NOT REACHED in this pass. The archive also holds, from its own earlier harvest, a sister: CARMELA CRISCI, seven days old, died 9 January 1815, «figlia d'ARCANGELO CRISCI e SARA RUGGIERO», strada Camellara",
     "ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) img 33l — READ FROM THE IMAGE"
+   }
+  ]
+ },
+ {
+  "name": "Angelo Majone & Pasqua Falco",
+  "members": [
+   {
+    "household": "Angelo Majone & Pasqua Falco",
+    "person": "Angelo Majone",
+    "role": "father",
+    "event": "marriage",
+    "date": "9 Sep 1856",
+    "place": "Arienzo",
+    "evidence": "«ANGELO MAJONE, nato in Arienzo, di professione CONTADINO, domiciliato in Arienzo, figlio di FRANCESCO MAJONE defunto, di professione contadino, e di MARTA DIGLIO defunta» — both his parents already dead. A MAJONE MARRIES A FALCO, and generation six's wife is COSTANZA MAIONE; this archive also holds an «Angelo Maione, dec. by 1880». NO CONNECTION IS CLAIMED between them — Majone is among the commonest surnames at Arienzo and this archive has already been caught once by a Majone collision",
+    "ark": "ANTENATI an_ua14260 (Arienzo, Matrimoni 1856) atto 29, img 55r — READ FROM THE IMAGE"
    }
   ]
  }
