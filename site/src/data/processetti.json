@@ -1,0 +1,71 @@
+{
+  "note": "The marriage dossiers: the paperwork a couple had to assemble before they could marry, naming parents, grandparents and the dead. The largest untouched body of evidence this archive knows about. Written from data/antenati-processetti.tsv; the key is the town and does not move.",
+  "rows": [
+    {
+      "key": "arienzo",
+      "town": "Arienzo",
+      "province": "Caserta",
+      "volumes": 63,
+      "earliest": "1809",
+      "latest": "1865",
+      "nameIndexed": "NO — zero name-indexed records for Arienzo",
+      "state": "read",
+      "note": "The home parish. 1814 volume = ark an_ua14154, 290 pages. FOUND 13 Sep 2026: Vincenzo Falco m. Adriana Crisci, banns 11+18 Sep 1814, married 15 Dec 1814 — dossier at bundle 16, imgs 265-274. (The old note here said c.1817 and pointed at an_ua14158; both were wrong.)"
+    },
+    {
+      "key": "forchia",
+      "town": "Forchia",
+      "province": "Benevento",
+      "volumes": 73,
+      "earliest": "1809",
+      "latest": "1865",
+      "nameIndexed": "partial",
+      "state": "read",
+      "note": "Annecchino town. Nothing after 1865, so Carminantonio x Filomena (1920s) is not here."
+    },
+    {
+      "key": "arpaia",
+      "town": "Arpaia",
+      "province": "Benevento",
+      "volumes": 43,
+      "earliest": "1817",
+      "latest": "1865",
+      "nameIndexed": "partial",
+      "state": "read",
+      "note": "Zampiello town. Nothing after 1865, so Angelo Zampiello x Giuseppa Ferrara (c.1920) is not here."
+    },
+    {
+      "key": "moiano",
+      "town": "Moiano",
+      "province": "Benevento",
+      "volumes": 99,
+      "earliest": "—",
+      "latest": "1865",
+      "nameIndexed": "partial",
+      "state": "unexamined",
+      "note": "Largest processetti holding in the valley. Unexamined."
+    },
+    {
+      "key": "paolisi",
+      "town": "Paolisi",
+      "province": "Benevento",
+      "volumes": 43,
+      "earliest": "—",
+      "latest": "1865",
+      "nameIndexed": "partial",
+      "state": "unexamined",
+      "note": "Where Francesco Falco came from in 1714. Unexamined."
+    },
+    {
+      "key": "san-felice-a-cancello",
+      "town": "San Felice A Cancello",
+      "province": "Caserta",
+      "volumes": 57,
+      "earliest": "1809",
+      "latest": "1866",
+      "nameIndexed": "no",
+      "state": "unexamined",
+      "note": "NOT SURVEYED until 13 Sep 2026, and it should have been — generation four's wife ANGELA ROSA MORGILLO was born here 24 Feb 1818. Catalogued on Antenati as \"San Felice (oggi San Felice a Cancello)\", which is why it never turned up. Matrimoni 1809 = an_ua50221, +1/year (1816 an_ua50228 and 1817 an_ua50229 BOTH READ, no Morgillo x Pesce). 57 PROCESSETTI volumes from 1817 (an_ua50166+). 340 registers in total, incl. 79 INDEX volumes. ANGELA ROSA MORGILLO b. 24 Feb 1818 found here: Nati an_ua50395 img 55. In its own acts the town calls itself \"Comune di sei Casali d'Arienzo\"."
+    }
+  ]
+}
