@@ -11700,7 +11700,16 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [
+{
+"slug": "matteo-falco-of-michelangelo-falco-mariantonia-vig",
+"name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
 },
 {
 "slug": "anna-falco-of-arcangelo-crisci-anna-falco",
@@ -13794,6 +13803,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "pasquale-falco-of-francesco-falco-raffaela-falco",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "mergedOn": "name alone",
@@ -15128,6 +15145,14 @@
 {
 "slug": "pasqualina-falco-of-francesco-falco-raffaela-falco",
 "name": "Pasqualina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-francesco-falco-raffaela-falco",
+"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -17511,6 +17536,14 @@
 {
 "slug": "pasqualina-falco-of-francesco-falco-raffaela-falco",
 "name": "Pasqualina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-francesco-falco-raffaela-falco",
+"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -24594,6 +24627,56 @@
 ]
 },
 {
+"slug": "matteo-falco-of-michelangelo-falco-mariantonia-vig",
+"name": "Matteo Falco",
+"surname": "FALCO",
+"household": "Michelangelo Falco & Mariantonia Vigliotta",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "24 Aug 1842",
+"place": "Arienzo",
+"evidence": "A THIRD CHILD, and the first of this house who is not called Anna. «55. FALCO MATTEO | Arienzo | contadino | FALCO MICHELE, e VIGLIOTTA ANTONIA | 24 detto [AGOSTO] 1842». THE FORENAMES ARE SHORTENED, which this register does constantly: the household head is MICHELANGELO FALCO, son of Pasquale Falco and Chiara Rivetti, and his wife is MARIANTONIA VIGLIOTTA — her surname is the distinctive half and it matches. THE ARCHIVE DOES NOT CLAIM THIS ABSOLUTELY: a separate «Michele Falco» married to an Antonia is not impossible at Arienzo, and only the act itself would settle it. His two sisters, both called ANNA, died in 1831 and 1834. FROM THE INDEX, NOT THE ACT",
+"ark": "ANTENATI an_ua14303 (Arienzo, Morti indice 1842) atto 55 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "michelangelo-falco",
+"name": "Michelangelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "mariantonia-vigliotta",
+"name": "Mariantonia Vigliotta",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "anna-falco-of-michelangelo-falco-mariantonia-vig",
+"name": "Anna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
 "slug": "matteo-falco-of-matteo-falco-possidente-strada-por",
 "name": "Matteo Falco",
 "surname": "FALCO",
@@ -25306,6 +25389,14 @@
 {
 "slug": "anna-falco-of-michelangelo-falco-mariantonia-vig",
 "name": "Anna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-michelangelo-falco-mariantonia-vig",
+"name": "Matteo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -26544,6 +26635,64 @@
 ]
 },
 {
+"slug": "pasquale-falco-of-francesco-falco-raffaela-falco",
+"name": "Pasquale Falco",
+"surname": "FALCO",
+"household": "Francesco Falco & Raffaela Falco",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "30 Oct 1838",
+"place": "Arienzo",
+"evidence": "A FOURTH CHILD FOR THE FIRST-COUSIN MARRIAGE, and the third of them to die small. «71. FALCO PASQUALE | Arienzo | contadino | FALCO FRANCESCO, e FALCO RAFFAELA | A 30 detto [OTTOBRE] 1838» — the row above it is dated 10 Ottobre, which fixes the month. This household is FRANCESCANTONIO FALCO, son of Pasquale Falco and Chiara Rivetti, and RAFFAELA FALCO, daughter of Giuseppe Falco and Antonia di Guida — first cousins, married 16 July 1832. Their children now run CARMINA (d. 19 Dec 1832), PASQUALINA (d. 14 Sep 1836), PASQUALE (d. 30 Oct 1838) and CLEMENTE (d. 14 Aug 1853). FROM THE INDEX, NOT THE ACT: atto 71 has not been read, and no age is recorded here",
+"ark": "ANTENATI an_ua14299 (Arienzo, Morti indice 1838) atto 71 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "francescantonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Francescantonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco",
+"name": "Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmina-falco",
+"name": "Carmina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasqualina-falco-of-francesco-falco-raffaela-falco",
+"name": "Pasqualina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
 "surname": "FALCO",
@@ -27028,6 +27177,14 @@
 {
 "slug": "carmina-falco",
 "name": "Carmina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-francesco-falco-raffaela-falco",
+"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -39900,6 +40057,14 @@
 {
 "slug": "anna-falco-of-michelangelo-falco-mariantonia-vig",
 "name": "Anna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-michelangelo-falco-mariantonia-vig",
+"name": "Matteo Falco",
 "via": "register",
 "vias": [
 "register"
