@@ -31,10 +31,10 @@
   {
    "n": 4,
    "what": "Find the finding aid for Arienzo marriages after 1849",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "The «Matrimoni, indice» series **stops at 1849** — 40 volumes, 1836 missing, all read. Nunziata Falco married in **November 1855** and Antonio Falco in **June 1869**, so the instrument that covered 1809–1849 covers neither. Either the index is bound into the register from 1850, as the death indexes are from 1848, or it is a separate series not yet located."
+   "note": "**Answered 15 September: the register is the finding aid.** The «Matrimoni, indice» series stops at 1849, but the **Matrimoni registers run on** at `an_ua14213` + (year − 1809) — 28 to 37 acts a year, each an «atto di solenne promessa» naming **both spouses, both sets of parents, and the parish celebration date in the margin**. Small enough to read outright. \n\nThe first volume opened produced **Sara Falco's marriage** (14 Feb 1855, to Antonio Mauro, fruttajolo). **Nunziata is not in it**, which is now its own question on the searched page. Antonio Falco's 1869 marriage is beyond this series, which ends with the Restoration in 1865."
   },
   {
    "n": 5,
