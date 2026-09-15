@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Corrections from "@daviddef/archive-kit/components/Corrections.astro";
 import { u } from "../lib/url.js";
 import { md } from "../lib/md.js";
 import plates from "../data/plates.json";
@@ -62,35 +63,25 @@ const stale = rows.filter((r) => r.superseded).length;
     were names being hunted.</p>
   </div>
 
-  {rows.map((r) => (
-    <section class="corr" id={r.when + "-" + r.what}>
-      <div class="chead">
-        <span class="mono small">{r.when}</span>
-        <span class={"chip " + (r.sev === "major" ? "dis" : "")}>{KIND[r.what] || r.what}</span>
-        {r.sev === "major" ? <span class="chip doc">material</span> : null}
-      </div>
-      <div class="cbody">
-        {r.superseded ? (
-          <p class="sup">
-            <span class="lab">superseded</span>
-            <Fragment set:html={md(r.superseded.note, u)} />
-            <a href={anchor(r.superseded.when, r.superseded.what)}>{r.superseded.what.replace(/\*\*/g, "")} →</a>
-          </p>
-        ) : null}
-        <p class="was"><span class="lab">was</span> <Fragment set:html={md(r.was, u)} /></p>
-        <p class="now"><span class="lab">now</span> <strong><Fragment set:html={md(r.now, u)} /></strong></p>
-        <p class="small how"><span class="lab">how</span> <Fragment set:html={md(r.how, u)} /></p>
-        <p class="why"><Fragment set:html={md(r.why, u)} /></p>
-        <p class="small foot">
-          {r.by ? <span class="dim">Caught by {r.by}.</span> : null}
-          {r.where ? <> · <a href={u(r.where)}>Where it lives now →</a></> : null}
-          {r.plate && published.has(r.plate.replace(/\.jpg$/, ""))
-            ? <> · <a href={u("/documents/") + "#" + r.plate.replace(/\.jpg$/, "")}>the plate</a></>
-            : null}
-        </p>
-      </div>
-    </section>
-  ))}
+  <Corrections u={u} rows={rows.map((r) => ({
+    id: r.when + "-" + r.what,
+    when: r.when,
+    kind: KIND[r.what] || r.what,
+    sev: r.sev,
+    was: md(r.was, u),
+    now: md(r.now, u),
+    how: md(r.how, u),
+    why: md(r.why, u),
+    by: r.by,
+    where: r.where,
+    superseded: r.superseded ? {
+      label: r.superseded.what.replace(/\*\*/g, ""),
+      href: anchor(r.superseded.when, r.superseded.what),
+      note: md(r.superseded.note, u),
+    } : null,
+    extra: (r.plate && published.has(r.plate.replace(/\.jpg$/, "")))
+      ? ` · <a href="${u("/documents/")}#${r.plate.replace(/\.jpg$/, "")}">the plate</a>` : "",
+  }))} />
 
   <p class="small" style="margin-top:2rem">
     How this archive decides what to claim: <a href={u("/method/")}>Method</a> ·
