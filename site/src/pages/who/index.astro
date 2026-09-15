@@ -4,6 +4,7 @@
    «Pasquale Falco» alone names seventy-nine records across sixty years and is
    certainly several men. */
 import Base from "../../layouts/Base.astro";
+import EveryName from "@daviddef/archive-kit/components/EveryName.astro";
 import { u } from "../../lib/url.js";
 import register from "../../data/register.json";
 
@@ -39,18 +40,6 @@ const many = names.filter(n => n.n > 1).length;
     person. That is why each opens a <strong>name</strong> page rather than a person page, and why
     it never merges them. Where this archive has actually identified somebody, the name page points
     at their <a href={u("/people/")}>person page</a>.</p>
-    <div class="scroll" style="margin-top:18px">
-      <table>
-        <thead><tr><th>Name</th><th>Records</th></tr></thead>
-        <tbody>
-          {names.map(n => (
-            <tr>
-              <td><a href={u(`/who/${n.slug}/`)}>{n.name}</a></td>
-              <td class="mono">{n.n}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
+    <EveryName names={names} u={u} unit="records" />
   </section>
 </Base>
