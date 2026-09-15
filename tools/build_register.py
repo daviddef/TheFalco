@@ -113,6 +113,26 @@ def is_description(n):
     return (t.startswith(("a ", "an ", "the "))
             or any(k in t for k in _NOT_A_NAME))
 
+# Surnames this archive already holds, used ONLY to detect the Italian index's
+# SURNAME-FIRST order. THE THRESHOLD IS THE WHOLE POINT: a first attempt took
+# every surname in people.json and the fix did not fire, because CARMELA had
+# ALREADY become a "known surname" there, from this very bug. A mis-parse that
+# teaches the detector its own mistake cannot be detected by it. Requiring
+# several bearers breaks the loop — FALCO has hundreds, CARMELA had one.
+def _known(min_bearers=5):
+    import json as _j, os as _o, collections as _c
+    d = _o.path.join(_o.path.dirname(_o.path.dirname(_o.path.abspath(__file__))),
+                     "site", "src", "data")
+    c = _c.Counter()
+    p = _o.path.join(d, "people.json")
+    if _o.path.exists(p):
+        for x in _j.load(open(p, encoding="utf-8")):
+            v = (x.get("surname") or "").strip().upper()
+            if v and v != "?" and " " not in v:
+                c[v] += 1
+    return {k for k, n in c.items() if n >= min_bearers}
+KNOWN_SURNAMES = _known()
+
 def sur(n):
     if is_description(n):
         return "?"
@@ -129,6 +149,15 @@ def sur(n):
     # plus a name.
     if len(parts) > 1 and parts[-2].lower() in PARTICLES:
         last = (parts[-2] + " " + parts[-1]).upper()
+
+    # THE ITALIAN INDEX WRITES THE SURNAME FIRST. Entries copied verbatim out of
+    # a tavola read "FALCO CARMELA", and taking the last word filed sixteen
+    # people under CARMELA, CLEMENTE, ANTONIO and COSTANZA — so a search for
+    # FALCO did not return them. If the FIRST word is a well-attested surname
+    # and the last is not, the index's order is the right one.
+    first = parts[0].upper()
+    if len(parts) > 1 and first in KNOWN_SURNAMES and last not in KNOWN_SURNAMES:
+        return first
     return last or "?"
 
 
