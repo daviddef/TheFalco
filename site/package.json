@@ -19,7 +19,7 @@
     "check:corrections": "python3 ../tools/check_corrections.py"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#aade3d0941c07a0e37f285a0cb80253d28472194",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#a3263e762f466aa0518967ce578a2ab52b3d0732",
     "astro": "^5.18.2"
   }
 }
