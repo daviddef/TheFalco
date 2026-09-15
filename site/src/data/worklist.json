@@ -311,7 +311,7 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**A birth act can carry a marriage, and this archive only learned that today.** Act 33 of 1819 has the registrar's later note across its foot: «*Con atto 6 agosto 1856 atto 21 in S. Maria a Vico il Falco sposò Domenica Vigliotti*» — **a wedding in another comune, recorded nowhere an Arienzo marriage register would show it.** Work-list row 7 closed with Nunziata Falco absent from the Arienzo marriage registers of 1854, 1855 and 1856, all read act by act. **That absence now has a second possible explanation and a way to test it.** First find her birth act, then read its margin."
+   "note": "**A birth act can carry a marriage, and this archive only learned that today.** Act 33 of 1819 has the registrar's later note across its foot: «*Con atto 6 agosto 1856 atto 21 in S. Maria a Vico il Falco sposò Domenica Vigliotti*» — **a wedding in another comune, recorded nowhere an Arienzo marriage register would show it.** Work-list row 7 closed with Nunziata Falco absent from the Arienzo marriage registers of 1854, 1855 and 1856, all read act by act. **That absence now has a second possible explanation and a way to test it.** First find her birth act, then read its margin.\n\n**PROMOTED by the pattern found on 15 September.** The annotation practice appears to begin between 1845 and 1856 — absent on marriages of 1844 and 1845, present on 1856 and 1880. **Nunziata married on 13 November 1855, which is exactly on that boundary.** Her margin is now the most informative one in the archive either way: it either gives her marriage, or it dates the practice to after November 1855."
   },
   {
    "n": 32,
@@ -428,10 +428,10 @@
   {
    "n": 46,
    "what": "Sweep the MARGINS of every Falco birth act this archive already holds",
-   "state": "running",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Started, and it found something else first: the citation it opened did not resolve.** Eight birth-act citations were one page early — every one copied from a note written on **zero-based harvest numbering** — and all are now corrected. See the correction of 15 September.\n\n**The margin sweep itself is under way.** **LUIGI FALCO's act of 21 December 1819 has NO annotation** — clean whitespace where Domenico Clemente's carries his 1856 marriage. That is a real negative for row 41. **Still to do: the 1816 and 1818 acts at their corrected images**, and the question the negative raises — whether the practice is systematic enough for an absence to mean anything, which needs a control on an act whose marriage is known."
+   "note": "**Done, and it produced three things.**\n\n**1. Eight citations pointed at the wrong act** — the whole harvest-numbering problem, found because the first act opened was not the act its citation named. Corrected; see row 58 for the 161 never followed.\n\n**2. A marriage nobody would have looked for.** **PASQUA FALCO married PASQUALE CARFORA on 30 December 1880**, written across the foot of her own birth act of 1823. Her second marriage, at fifty-seven, and her first dated sighting after 1856.\n\n**3. THE INSTRUMENT HAS A DATE.** Four acts, sorted by the MARRIAGE: **1844 Raffaele — none. 1845 Crescenzo — none. 1856 Domenico Clemente — annotated. 1880 Pasqua — annotated.** The birth volumes span 1818–1823 and do not predict it; the marriage dates do. **The claim published an hour ago that Luigi Falco's blank margin was «a real negative» is corrected** — the control had not been run. It now means only that he did not marry after about 1855 where Arienzo was told."
   },
   {
    "n": 47,
@@ -444,10 +444,10 @@
   {
    "n": 48,
    "what": "Identify the twenty-one-row list at the back of the 1819 birth volume",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Not the year's tavola** — twenty-one rows against 137 acts — but a list of **parents and birth dates** scattered across the whole year, headed «*Nomi, e cognomi de' genitori | Giorno della nascita | Osservazioni*», facing the Procuratore's certificate about removing blank leaves. **If it is a list of births declared late or out of series, it explains missing acts** — and this archive has exactly such a problem in Rosaria Falco. **Check whether the same list exists at the back of other years**, and whether its entries also appear in the main sequence."
+   "note": "**Done, and the hypothesis it was raised to test is dead.** The same list is at the back of the **1818** volume too — same header «*Nomi, e cognomi de' genitori | Giorno della nascita | Osservazioni*», facing the same 1849 **Procuratore del Re** certificate about counting sheets and removing the blank ones. The «Osservazioni» column carries a roman numeral: **VIII in 1818, XI in 1819**.\n\n**It is NOT a list of births missing from the register.** Its second row in 1818 is «*[Vince]nzo **FALCO** ed Andreana **CRISCI** — **10 Maggio 1818***» — which is **Raffaele Falco, generation four, act 47, folio 149**, sitting in the main sequence at image 42R where it always was. **So it cannot explain Rosaria Falco's absence**, which was the reason for asking.\n\n**What it IS remains open** — the roman numeral and the certificate about removed leaves suggest a reconciliation list for renumbered folios, but that is a guess and is recorded as one.\n\n**What is certain is that it is USABLE.** Parents and a date, one page, at the back of a volume — **and in a year with no annual tavola, such as 1819, it is the only index that exists.** Check the last leaf of every birth volume."
   },
   {
    "n": 49,
@@ -528,6 +528,14 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "**Eight were wrong and were found by accident.** 179 household records cite an ANTENATI volume and image; eight have been corrected and a handful of death citations spot-checked as sound. **161 have never been followed.**\n\n**No gate can catch this** — `checkarchive` checks that links reach pages, and nothing opens an image. The check is a reading job: render the cited band, confirm the act number, the date and the name. **Prioritise by load**: the citations that carry a claim nothing else supports. A wrong image on a fact with three sources is untidy; a wrong image on a fact with one is a fact with none."
+  },
+  {
+   "n": 59,
+   "what": "The Arienzo civil marriage register for 30 December 1880",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**A dated marriage with both names, known only from a margin.** «*A 30 Dic.re 1880 l'Uf.le dello Stato Civile d'Arienzo sposò PASQUA FALCO con PASQUALE CARFORA*». **The register act would confirm the chain from a second document**: it names Pasquale Carfora's parents, and it should give Pasqua as **vedova di Angelo Majone**, which is the reading this archive is currently inferring rather than reading. **First check whether Antenati holds Arienzo marriages that late at all** — the death series stops at 1865 and the marriage series has never been enumerated past it. If not, collection 2043630 covers 1866–1929 and has already been mined for other years."
   }
  ]
 }
