@@ -71,10 +71,10 @@
   {
    "n": 9,
    "what": "Birth tavole 1818–1820, 1829 onward, and 1845–1860 for Giovanna Arricale's siblings",
-   "state": "next",
+   "state": "running",
    "owner": "this archive",
    "since": "2026-09-14",
-   "note": "The remaining unread stretch of the Arienzo birth series. The 1845–1860 block is the one that would give **generation five's wife a household** — her own act is read and her siblings are not."
+   "note": "**1819 is done** — 137 acts, act by act, because the volume has **no annual tavola** (both ends checked; the twenty-one-row list on the last leaf is a supplementary list, not the year's index). **Three Falco births, all on strada Camellara**: Domenico Clemente (18 Mar), **Crescenzo — a birth date for a man held by his marriages alone** (11 Oct), and Luigi's civil act (21 Dec). **Rosaria Falco is not in it either**, which closes the last year her birth act could have been in. **Next: 1820** (`an_ua14417`, 143 images) — still hunting **Maria Rosa Falco**, absent from 1817, 1818 and 1819. Then 1829 onward and 1845–1860."
   },
   {
    "n": 10,
@@ -243,6 +243,22 @@
    "owner": "a machine",
    "since": "2026-09-15",
    "note": "**Six duplicated findings in one week, and the sixth duplicated an entry on the corrections page itself.** Five of the six were re-derived from something this archive had already written down — `notes/`, a household file, a data file, this page. **Reading the notes first is a habit and habits have now failed six times.** What would have caught every one of them is a gate: before a finding is written up, grep the corrections, the notes and the data for its act number, its ark and its names. Cheap, and it belongs beside the other four gates."
+  },
+  {
+   "n": 31,
+   "what": "Look for Nunziata Falco's marriage in the MARGIN of her birth act",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**A birth act can carry a marriage, and this archive only learned that today.** Act 33 of 1819 has the registrar's later note across its foot: «*Con atto 6 agosto 1856 atto 21 in S. Maria a Vico il Falco sposò Domenica Vigliotti*» — **a wedding in another comune, recorded nowhere an Arienzo marriage register would show it.** Work-list row 7 closed with Nunziata Falco absent from the Arienzo marriage registers of 1854, 1855 and 1856, all read act by act. **That absence now has a second possible explanation and a way to test it.** First find her birth act, then read its margin."
+  },
+  {
+   "n": 32,
+   "what": "Read the given name of act 99 of 1819 from a third source",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**CRESCENZO is carried on the parish page, not on the civil act.** The civil hand would not resolve the name even at the leaf's maximum — Antenati caps this image below 3400 px — so the reading rests on the join: same parents, same month, two series. **It is graded probable and should not quietly become proven.** A third source would settle it: his marriage act of 3 February 1845, or the 1845 marriage index entry, either of which states his age and would confirm a birth in October 1819."
   }
  ]
 }
