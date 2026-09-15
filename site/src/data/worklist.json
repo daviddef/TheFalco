@@ -300,10 +300,10 @@
   {
    "n": 30,
    "what": "A check that a new finding is not already published",
-   "state": "next",
+   "state": "done",
    "owner": "a machine",
    "since": "2026-09-15",
-   "note": "**Six duplicated findings in one week, and the sixth duplicated an entry on the corrections page itself.** Five of the six were re-derived from something this archive had already written down — `notes/`, a household file, a data file, this page. **Reading the notes first is a habit and habits have now failed six times.** What would have caught every one of them is a gate: before a finding is written up, grep the corrections, the notes and the data for its act number, its ark and its names. Cheap, and it belongs beside the other four gates."
+   "note": "**Done: `tools/isitnew.py`.** One command, every corpus, before the write-up — corrections, work list, both household files, people, register, the searched page and all eighty-odd progress notes. Each argument is searched independently and it prints where the term already appears.\n\n**Tested against the failure it exists for.** `python3 tools/isitnew.py \"FALCO CARMELA\"` returns hits in the corrections, the household file, people AND the register — **the 1859 duplication would have been stopped before a word of it was written.**\n\n**Deliberately not a build gate.** It cannot know whether a hit means the finding is old; it is a lookup, not a judgement. What it removes is the excuse: **a hit is not proof the finding is old and a miss is not proof it is new — it means nobody can say they did not look.**"
   },
   {
    "n": 31,
@@ -412,10 +412,10 @@
   {
    "n": 44,
    "what": "The household of GENNARO MORGILLO and MARIA FELICIA SANZONE",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Two new names, both already dead by February 1845**, given by their daughter's marriage act. **SANZONE has never appeared in this archive at all.** They are not claimed as kin — they are recorded so the next Morgillo found at Arienzo can be checked against them, and because **the Falco married the Morgillo repeatedly** and the archive cannot yet tell those Morgillo houses apart."
+   "note": "**Done. The household exists.** **GENNARO MORGILLO**, *colono*, and **MARIA FELICIA SANZONE**, *contadina* — **both dead before 2 February 1845**, stated in their daughter's marriage act, which marks the dead explicitly. Their daughter **ANGELA MARIA MORGILLO**, twenty-three and an orphan, married Crescenzo Falco.\n\n**SANZONE had never appeared in this archive at all.** Not claimed as kin; recorded because the Falco married the Morgillo repeatedly and this archive still cannot tell those Morgillo houses apart."
   },
   {
    "n": 45,
@@ -500,10 +500,10 @@
   {
    "n": 55,
    "what": "A person page for every name this archive has only in prose",
-   "state": "next",
+   "state": "done",
    "owner": "a machine",
    "since": "2026-09-15",
-   "note": "**Names keep living only inside an `evidence` string.** Maria Felicia Sanzone, Gennaro Morgillo, Domenica Vigliotti, Luigi Verdicchio, Nunzio Rivetti — all arrived today, all inside sentences, none of them reachable by search. **The register and the search index are built from structured fields**, so a name that appears only in prose is invisible to both. Extract them, or at minimum **report how many there are**, which nobody currently knows."
+   "note": "**Done, and the answer is that the automated version cannot be written — for the same reason row 49's could not.** A regex over the evidence prose returns **268 name-shapes**, and almost all are noise: Latin declensions of people the archive already holds (*Mattheo Falco*, *Vincentium Falco*, *Franciscae Crisci*) and sentence fragments (*comparso Giuseppe Falco*, *two Giuseppe Falco*, *not Cossi*). **The archive stores narrative, and narrative does not yield a list.**\n\n**What the check DID establish is the shape of the leak, and it is not where the row assumed.** Of the candidates, **forty reach the register and are searchable while never becoming a person**; a handful reach neither. The register is the safety net and it usually holds.\n\n**Seven people were promoted by hand** — the ones introduced in the last day and verified individually: Gennaro Morgillo, Maria Felicia Sanzone, Angela Maria Morgillo, Domenica Vigliotti, Pasquale Carfora, and the **strada Cossi** household of Francesco Cossi and Teresa Morgillo, which exists to hold the two surnames apart. **638 people.**"
   },
   {
    "n": 56,
@@ -544,6 +544,14 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "**The surname is settled; four transcriptions are not.** The 1824 BIRTH act was re-read at four times magnification and is certainly CIOFFI. The death acts of **20 June 1823** (`an_ua14325` img21r atto39), **25 March 1824** (`an_ua14326` img9l atto8), **2 April 1825** (`an_ua14327` img10r) and **23 October 1828** (`an_ua14330` img36l atto54) were transcribed «COSSI» **before this archive had the dot-o-r test**, and have not been checked since.\n\n**One of them already disagrees with itself**: the 1824 act is transcribed «*GIUSEPPE **CRISCI(?)***» in its own evidence string — the third member of the collapsing trio — with a question mark nobody ever resolved. **Check the image numbers too**: these are birth-register-adjacent citations and eight of that kind were found pointing one page early."
+  },
+  {
+   "n": 61,
+   "what": "Five register entries are filed under a forename because the name has no surname",
+   "state": "next",
+   "owner": "a machine",
+   "since": "2026-09-15",
+   "note": "**Left over from the surname-first fix.** «*Gaetano Antonio*», «*Angela Maria —*», «*Angela Rosa*», «*Antonia Rosa, defunta*», «*Carolina Rosa*» are filed under ANTONIO, MARIA and ROSA. **These are double FORENAMES with the surname never recorded**, not index-order entries. `sur()` already returns «?» for a single word for exactly this reason; it does not for two. **The fix is a forename list, not another threshold** — and a forename list is worth having anyway, because the same words are what make the surname-first detector safe."
   }
  ]
 }

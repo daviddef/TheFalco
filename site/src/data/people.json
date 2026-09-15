@@ -3639,6 +3639,30 @@
 "treeId": 4512577
 },
 {
+"slug": "pasquale-carfora",
+"name": "Pasquale Carfora",
+"surname": "CARFORA",
+"household": "Giuseppe Falco & Gelsomina Vigliotta",
+"role": "married in",
+"events": [
+{
+"event": "marriage",
+"date": "30 Dec 1880",
+"place": "Arienzo",
+"evidence": "«*l'Uf.le dello Stato Civile d'Arienzo sposò PASQUA FALCO con **PASQUALE CARFORA***» — her second husband, married when she was fifty-seven. **NOT claimed as kin to the Carfora of Forchia** whom this archive hunts elsewhere; the surname is common in both towns and nothing joins them.",
+"ark": "ANTENATI an_ua14420 img40r-41l act38 (marginal annotation)"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
 "slug": "letizia-casolla-casella",
 "name": "Letizia Casolla / Casella (Falcone)",
 "surname": "CASOLLA / CASELLA",
@@ -5024,6 +5048,39 @@
 "treeId": 4509380,
 "b": "Oct 6 1881",
 "d": "Jan 23 1958"
+},
+{
+"slug": "francesco-cossi",
+"name": "Francesco Cossi",
+"surname": "COSSI",
+"household": "Francesco Cossi & Teresa Morgillo (strada Cossi)",
+"role": "father",
+"events": [
+{
+"event": "named as declarant",
+"date": "19 Feb 1819",
+"place": "Arienzo, strada Cossi",
+"evidence": "THE CONTROL THAT SEPARATES THE TWO SURNAMES. «*è comparso **FRANCESCO COSSI**, di anni **trenta**, di professione **contadino**, domiciliato in detto comune, **strada COSSI***» — the same word twice in one sentence, as a name and as a street, which checks the reading with no judgement at all. Thirty in 1819, so b. c.1789. **The strada Camellara FRANCESCO CIOFFI is twenty-seven in 1824, b. c.1797. Different men, different ages, different streets.** Not kin to the Falco; recorded to hold the two families apart.",
+"ark": "ANTENATI an_ua14416 img13l act22"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "teresa-morgillo",
+"name": "Teresa Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [],
+"siblings": []
 },
 {
 "slug": "adam-crisci",
@@ -34583,7 +34640,7 @@
 "treeId": 4000418
 },
 {
-"slug": "angela-maria-morgillo",
+"slug": "angela-maria-morgillo-of-giuseppe-falco-antonia-di-guida",
 "name": "Angela Maria Morgillo",
 "surname": "MORGILLO",
 "household": "Giuseppe Falco & Antonia di Guida",
@@ -34602,6 +34659,47 @@
 ],
 "living": false,
 "parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
+"slug": "angela-maria-morgillo-of-gennaro-morgillo-maria-felicia-san",
+"name": "Angela Maria Morgillo",
+"surname": "MORGILLO",
+"household": "Gennaro Morgillo & Maria Felicia Sanzone",
+"role": "child",
+"events": [
+{
+"event": "marriage",
+"date": "2 Feb 1845",
+"place": "Arienzo, strada Cappuccini",
+"evidence": "Twenty-three, contadina, born in Arienzo, and an orphan of both parents when she married **CRESCENZO FALCO**. The church act carries a dispensation «*super quarto gradu consanguinitatis*», so she and her husband were third cousins — the fourth Falco marriage inside the fourth degree this archive holds.",
+"ark": "ANTENATI an_ua14249 img4r act3"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "gennaro-morgillo",
+"name": "Gennaro Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-felicia-sanzone",
+"name": "Maria Felicia Sanzone",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "spouses": [],
 "children": [],
 "siblings": []
@@ -35022,9 +35120,16 @@
 "slug": "gennaro-morgillo",
 "name": "Gennaro Morgillo",
 "surname": "MORGILLO",
-"household": "Angelo Morgillo (colono, Monticello de' Cappuccini)",
-"role": "son",
+"household": "Gennaro Morgillo & Maria Felicia Sanzone",
+"role": "father",
 "events": [
+{
+"event": "death window",
+"date": "before 2 Feb 1845",
+"place": "Arienzo",
+"evidence": "NAMED ONLY BY HIS DAUGHTER'S MARRIAGE, and already dead when it happened: «*figlia di **GENNARO MORGILLO DEFUNTO**, di professione **colono***». Not claimed as kin — recorded because the Falco married the Morgillo repeatedly and this archive cannot yet tell those Morgillo houses apart.",
+"ark": "ANTENATI an_ua14249 img4r act3"
+},
 {
 "event": "death",
 "date": "14 Aug 1843",
@@ -35055,8 +35160,26 @@
 ]
 }
 ],
-"spouses": [],
-"children": [],
+"spouses": [
+{
+"slug": "maria-felicia-sanzone",
+"name": "Maria Felicia Sanzone",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "angela-maria-morgillo-of-gennaro-morgillo-maria-felicia-san",
+"name": "Angela Maria Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "siblings": [
 {
 "slug": "nicola-morgillo",
@@ -35580,6 +35703,39 @@
 {
 "slug": "gaetana-laudato",
 "name": "Gaetana Laudato",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [],
+"siblings": []
+},
+{
+"slug": "teresa-morgillo",
+"name": "Teresa Morgillo",
+"surname": "MORGILLO",
+"household": "Francesco Cossi & Teresa Morgillo (strada Cossi)",
+"role": "mother",
+"events": [
+{
+"event": "named in a birth act",
+"date": "19 Feb 1819",
+"place": "Arienzo, strada Cossi",
+"evidence": "«*e da **TERESA MORGILLO** sua moglie legitima d'anni **ventotto***» — twenty-eight, so b. c.1791. She is the wife of the strada Cossi Francesco, NOT of the strada Camellara Francesco Cioffi, whose wife is **MARIA FALCO**.",
+"ark": "ANTENATI an_ua14416 img13l act22"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "francesco-cossi",
+"name": "Francesco Cossi",
 "via": "register",
 "vias": [
 "register"
@@ -39292,6 +39448,48 @@
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
+"slug": "maria-felicia-sanzone",
+"name": "Maria Felicia Sanzone",
+"surname": "SANZONE",
+"household": "Gennaro Morgillo & Maria Felicia Sanzone",
+"role": "mother",
+"events": [
+{
+"event": "death window",
+"date": "before 2 Feb 1845",
+"place": "Arienzo",
+"evidence": "«*e di **MARIA FELICIA SANZONE**, di professione **contadina** … **defunta***». SANZONE HAD NEVER APPEARED IN THIS ARCHIVE AT ALL before 15 September 2026. Not claimed as kin.",
+"ark": "ANTENATI an_ua14249 img4r act3"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "gennaro-morgillo",
+"name": "Gennaro Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "angela-maria-morgillo-of-gennaro-morgillo-maria-felicia-san",
+"name": "Angela Maria Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
 "slug": "don-angelo-scarpati",
 "name": "Don Angelo Scarpati",
 "surname": "SCARPATI",
@@ -40781,6 +40979,30 @@
 ]
 }
 ],
+"siblings": []
+},
+{
+"slug": "domenica-vigliotti",
+"name": "Domenica Vigliotti",
+"surname": "VIGLIOTTI",
+"household": "Giuseppe Falco & Gelsomina Vigliotta",
+"role": "married in",
+"events": [
+{
+"event": "marriage",
+"date": "6 Aug 1856",
+"place": "Santa Maria a Vico",
+"evidence": "«*il Falco sposò **DOMENICA VIGLIOTTI di Giuseppe***» — the wife of DOMENICO CLEMENTE FALCO, from the margin of his own birth act. Her father is **Giuseppe Vigliotti**. Note that the groom's own mother is a **VIGLIOTTA**: whether the two are one family is NOT established and nothing here joins them.",
+"ark": "ANTENATI an_ua14416 img18r act33 (marginal annotation)"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
 "siblings": []
 },
 {
