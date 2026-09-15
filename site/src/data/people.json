@@ -29503,6 +29503,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "A NEW DAUGHTER FOR GENERATION THREE, found in the 1828 tavola and then read from the act itself. «…è nata da ANDREANA CRISPI, di anni VENTISETTE, domiciliata in STRADA CAMELLARA, e da VINCENZO FALCO marito della stessa, di anni TRENTASEI, di professione CONTADINO, domiciliato con detta sua moglie, nel giorno DICIANNOVE del mese di DECEMBRE … alle ore VENTUNO, nella casa d'abitazione di detti conjugi … il nome di SARA». DECLARED THE NEXT DAY BY THE MIDWIFE, «GELSOMINA RUGGIERO, di anni SESSANTA, di professione LEVATRICE, domiciliata in questo comune STRADA PORTA DI SOPRA» — a Gelsomina Ruggiero stood MATRINA at this couple's son Raffaele's baptism in 1818, and Andreana's own mother was a Ruggiero; NO KINSHIP IS CLAIMED, the name is common at Arienzo. Witnesses Pasquale Sansone, 38, contadino of strada Terra Murata, and Carlo Manna, 57, contadino of strada Camellara, both «asserito di non saper pure scrivere per non averlo mai imparato». Baptised at Sant'Andrea Apostolo, notamento returned 20 December. THE 1828 SCRIBE WRITES THE MOTHER'S SURNAME WITH A LIGATURE THIS READER COULD NOT SEPARATE FROM «CRISPI»; five other acts in this household give CRISCI, and the household is fixed by the husband and the street, not by the spelling",
 "ark": "ANTENATI an_ua14425 (Arienzo, Nati 1828) atto 118, folio 325, img 121r-122l — READ FROM THE IMAGE"
+},
+{
+"event": "marriage",
+"date": "14 Feb 1855",
+"place": "Arienzo, strada Camellara",
+"evidence": "SHE LIVED, AND SHE MARRIED. Found in the 1828 tavola three days ago and known only as a birth, Sara Falco is the bride of «ATTO DI SOLENNE PROMESSA DI MATRIMONIO, Num. d'ordine 6», 14 FEBRUARY 1855 at sixteen hours, before CARLO CARFORA, sindaco of Arienzo: «…sono comparsi nella Casa Comunale ANTONIO MAURO MAGGIORE, nato in ARIENZO, di professione FRUTTAJOLO, domiciliato STRADA CROCE, figlio di DOMENICO di professione simile … e di VINCENZA GROSSO … e SARA FALCO MAGGIORE, nata in ARIENZO, domiciliata STRADA CAMELLARA, figlia di VINCENZO di professione COLONO … e di ANDREANA…». THE MARGIN CERTIFIES THE CHURCH: the parroco of Sant'Andrea returned the certificate for the celebration on the FIFTEENTH of February. She was TWENTY-SIX, born 19 December 1828 — and her father is a COLONO here where every earlier act makes him a contadino",
+"ark": "ANTENATI an_ua14259 (Arienzo, Matrimoni 1855) atto 6, img 8r — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -33228,6 +33235,30 @@
 "treeId": 4512448,
 "b": "1850",
 "bp": "Arienzo, Caserta, Campania, Italia"
+},
+{
+"slug": "antonio-mauro",
+"name": "Antonio Mauro",
+"surname": "MAURO",
+"household": "Antonio Mauro & Sara Falco",
+"role": "father",
+"events": [
+{
+"event": "marriage",
+"date": "14 Feb 1855",
+"place": "Arienzo, strada Croce",
+"evidence": "«ANTONIO MAURO MAGGIORE, nato in Arienzo, di professione FRUTTAJOLO, domiciliato STRADA CROCE, figlio di DOMENICO di professione simile, domiciliato ivi, e di VINCENZA GROSSO» — A TRADE THIS ARCHIVE HAS NOT MET. Nine generations of bracciali, contadini, coloni and massari, one deacon, and now a FRUITSELLER. No Mauro has stood in these households before",
+"ark": "ANTENATI an_ua14259 (Arienzo, Matrimoni 1855) atto 6, img 8r — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
 },
 {
 "slug": "maria-rosa-mauro",
