@@ -4076,6 +4076,16 @@
     "place": "Arienzo",
     "evidence": "«60. FALCO RAFFAELE | Arienzo | contadino | MICHELE, ed AMBROGIO MARIA GIOVANNA | 17 detto [AGOSTO 1859]» — a second child of the same house, dead five months after his sister. The mother is written more fully here, MARIA GIOVANNA AMBROGIO, which is what fixes the household's name. FROM THE INDEX, NOT THE ACT",
     "ark": "ANTENATI an_ua14361 (Arienzo, Morti 1859) tavola, img 4l, atto 60 — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Michele Falco & Maria Giovanna Ambrogio",
+    "person": "Giovanna d'Ambrogio",
+    "role": "mother",
+    "event": "marriage",
+    "date": "12 Feb 1850",
+    "place": "Arienzo",
+    "evidence": "NINETEEN, contadina, marrying a widower of forty-three. She is the «Maria Giovanna d'Ambrosio» of the household this archive recorded separately from the Vigliotta one; **the 1859 death index clipped her name, and this act gives it whole.** Her daughter Antonia was born 19 November 1850, nine months later.",
+    "ark": "ANTENATI an_ua14254 img11r act6"
    }
   ]
  },
@@ -4201,6 +4211,51 @@
     "place": "Arienzo, strada Cossi",
     "evidence": "«*e da **TERESA MORGILLO** sua moglie legitima d'anni **ventotto***» — twenty-eight, so b. c.1791. She is the wife of the strada Cossi Francesco, NOT of the strada Camellara Francesco Cioffi, whose wife is **MARIA FALCO**.",
     "ark": "ANTENATI an_ua14416 img13l act22"
+   }
+  ]
+ },
+ {
+  "name": "Michele Falco & Antonia Vigliotta",
+  "members": [
+   {
+    "household": "Michele Falco & Antonia Vigliotta",
+    "person": "Michele Falco",
+    "role": "father",
+    "event": "marriage",
+    "date": "12 Feb 1850",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "THE ACT THAT JOINS TWO HOUSEHOLDS THIS ARCHIVE KEPT APART. «*sono comparsi nella Casa Comunale **MICHELE FALCO maggiore, di anni QUARANTATRE, nato in ARIENZO, di professione COLONO, domiciliato in STRADA CAMELLARA, figlio di **RAFFAELE FALCO DEFUNTO**, di professione simile, domiciliato ivi, e di **CHIARA RIVETTI DEFUNTA**, di professione filatrice … **VEDOVO DI ANTONIA VIGLIOTI** … e **GIOVANNA D'AMBROGIO maggiore, di anni DICIANNOVE**, di professione contadina*». **«Michele Falco & Antonia Vigliotta» and «Michele Falco & Maria Giovanna d'Ambrogio» are ONE MAN AND TWO MARRIAGES.** The d'Ambrogio household was known only by a daughter **Antonia born 19 November 1850** — nine months after this wedding.",
+    "ark": "ANTENATI an_ua14254 img11r act6"
+   },
+   {
+    "household": "Michele Falco & Antonia Vigliotta",
+    "person": "Antonia Vigliotta",
+    "role": "mother",
+    "event": "death window",
+    "date": "before 12 Feb 1850",
+    "place": "Arienzo",
+    "evidence": "«*VEDOVO DI ANTONIA VIGLIOTI*» — she was dead by 12 February 1850. Her daughter Chiara died in 1846 aged seven and her daughter Carmela on 4 August 1859, which is AFTER this date and therefore a child of the first marriage buried nine years into the second.",
+    "ark": "ANTENATI an_ua14254 img11r act6"
+   },
+   {
+    "household": "Michele Falco & Antonia Vigliotta",
+    "person": "Raffaele Falco",
+    "role": "grandfather",
+    "event": "death window",
+    "date": "before 12 Feb 1850",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "MICHELE FALCO'S FATHER, NAMED FOR THE FIRST TIME: «*figlio di **RAFFAELE FALCO DEFUNTO**, di professione **simile** [colono], domiciliato **ivi** [strada Camellara]*». A generation this archive did not have for this house. NOT joined to the direct line's Raffaele Falco of 1818, who was thirty-one and alive in 1850.",
+    "ark": "ANTENATI an_ua14254 img11r act6"
+   },
+   {
+    "household": "Michele Falco & Antonia Vigliotta",
+    "person": "Chiara Rivetti (of Raffaele Falco)",
+    "role": "grandmother",
+    "event": "death window",
+    "date": "before 12 Feb 1850",
+    "place": "Arienzo",
+    "evidence": "«*e di **CHIARA RIVETTI DEFUNTA**, di professione **filatrice***». **A NAME THIS ARCHIVE ALREADY HAS, AND THIS IS ALMOST CERTAINLY NOT HER.** Generation two's wife CHIARA RIVETTI was the widow of **PASQUALE** Falco, died 13 September 1843 aged eighty, and bore Pasquale children from 1789 to 1802 — so she cannot have been married to a Raffaele Falco when this Michele was born about 1807. **Either a second Chiara Rivetti, on a street where the Rivetti are dense, or Michele's stated age is badly wrong. Nothing is merged and nothing is chosen.**",
+    "ark": "ANTENATI an_ua14254 img11r act6"
    }
   ]
  }
