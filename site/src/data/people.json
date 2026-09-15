@@ -8391,6 +8391,13 @@
 "ark": "ANTENATI an_ua14416 img51r act99"
 },
 {
+"event": "named as living",
+"date": "2 Feb 1845",
+"place": "Arienzo, strada Sant'Andrea",
+"evidence": "HER LATEST DATED SIGHTING BY TWENTY-FIVE YEARS. This archive held her on one dated document — her son Crescenzo's birth act of 11 October 1819. Here she is «*di professione contadina domiciliata ivi*», alive, in an act that writes «DEFUNTO» and «DEFUNTA» for the bride's father and mother. HER DEATH HAS BEEN HUNTED THROUGH THE PARISH REGISTER AND NOT FOUND; the window now opens on 2 February 1845 instead of October 1819.",
+"ark": "ANTENATI an_ua14249 img4r act3"
+},
+{
 "event": "baptism",
 "date": "31 Oct 1783",
 "place": "Arienzo",
@@ -16179,6 +16186,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "HIS BIRTH DATE, FOUND AT LAST — he was held by his marriages alone. Civil act 99, folio 239: «è comparso GIUSEPPE FALCO, di anni QUARANTA, di professione CONTADINO, domiciliato in questo comune, STRADA CAMELLARA … ad ore cinque è nato nella sua propria casa da lui dichiarante, e da ANTONIA DI GUIDA sua moglie legitima d'anni TRENTUNO, un MASCHIO». THE GIVEN NAME DID NOT RESOLVE IN THE CIVIL HAND at the leaf's maximum resolution. It is supplied by the PARISH page, which was already harvested into this repository and never parsed: `3Q9M-CSD3-13CH-7`, an October 1819 baptism «et Josepho Falco et Anto[nia] di [Guida] Conjugibus», margin «Cresantios» = CRESCENTIUS. Two independent sources, same parents, same month. Graded PROBABLE on the civil act and PROVEN on the join.",
 "ark": "ANTENATI an_ua14416 img51r act99"
+},
+{
+"event": "marriage",
+"date": "2 Feb 1845",
+"place": "Arienzo, strada Sant'Andrea",
+"evidence": "THE CIVIL ACT BEHIND THE CHURCH DATE, AND IT DATES HIS BIRTH. «*sono comparsi nella Casa Comunale **CRESCENZO FALCO maggiore di anni VENTICINQUE nato in ARIENZO**, di professione **colono**, domiciliato in **strada Sant'Andrea**, figlio di **GIUSEPPE FALCO** di professione simile domiciliato ivi, e di **ANTONIA DI GUIDA** di professione contadina domiciliata ivi*» — bride **ANGELA MARIA MORGILLO**, 23, contadina, of strada Cappuccini, «*figlia di **GENNARO MORGILLO DEFUNTO** … e di **MARIA FELICIA SANZONE** … **defunta***». The INDICAZIONE records the church celebration: **3 February 1845**, parish of **Sant'Andrea Apostolo**, witnesses **Luigi Verdicchio** and **Nunzio Rivetti**. TWENTY-FIVE ON 2 FEBRUARY 1845 puts his birth between 3 February 1819 and 2 February 1820 — and his civil birth act is 11 October 1819.",
+"ark": "ANTENATI an_ua14249 img4r act3"
 }
 ],
 "sources": [
@@ -20773,6 +20787,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "Aged FORTY, contadino. He was given as THIRTY-SIX on 7 June 1818, sixteen months earlier — four years of ageing in sixteen months, from one clerk's desk. A fresh instance of the stated-age problem, in the household that supplies most of them.",
 "ark": "ANTENATI an_ua14416 img51r act99"
+},
+{
+"event": "named as living",
+"date": "2 Feb 1845",
+"place": "Arienzo, strada Sant'Andrea",
+"evidence": "Given with a trade and a domicile and NOT marked «defunto» — in an act that marks BOTH of the bride's parents dead in the same sentence. He was already known alive in November 1849 from his son the deacon's death act; this is an independent sighting on a form that states death explicitly rather than leaving it to be inferred.",
+"ark": "ANTENATI an_ua14249 img4r act3"
 }
 ],
 "sources": [
@@ -34863,6 +34884,30 @@
 "treeId": 4000418
 },
 {
+"slug": "angela-maria-morgillo",
+"name": "Angela Maria Morgillo",
+"surname": "MORGILLO",
+"household": "Giuseppe Falco & Antonia di Guida",
+"role": "married in",
+"events": [
+{
+"event": "marriage",
+"date": "2 Feb 1845",
+"place": "Arienzo, strada Cappuccini",
+"evidence": "Crescenzo Falco's bride: twenty-three, contadina, born in Arienzo, and an orphan — «*figlia di GENNARO MORGILLO defunto, di professione colono … e di MARIA FELICIA SANZONE, di professione contadina … defunta*». The church act carries a dispensation «*super quarto gradu consanguinitatis*», so she and Crescenzo were third cousins.",
+"ark": "ANTENATI an_ua14249 img4r act3"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
 "slug": "angela-rosa-morgillo",
 "name": "Angela Rosa Morgillo (Falco)",
 "surname": "MORGILLO",
@@ -37817,7 +37862,7 @@
 "event": "death",
 "date": "13 Sep 1843",
 "place": "Arienzo, strada Camellara",
-"evidence": "«CHIARA RIVETTI VEDOVA DI PASQUALE FALCO, nata in Arienzo, di anni OTTANTA, di professione contadina» — died at eight in the evening on 13 September 1843, in her own house. Born about 1763. Declared by Luca Cioffi, 33, sartore, and Giovanni Cioffi, 48, contadino, both of strada Camellara. She had outlived her husband by nearly nine years.",
+"evidence": "«CHIARA RIVETTI VEDOVA DI PASQUALE FALCO, nata in Arienzo, di anni OTTANTA, di professione contadina» — died at eight in the evening on 13 September 1843, in her own house. Born about 1763. Declared by LUCA CIOFFI, 33, sartore, and GIOVANNI CIOFFI, 43, contadino, both «regnicolo, domiciliato in strada Camellara». (This archive published «48» for Giovanni and, separately on the corrections page, «COSSI» for both. The act read at magnification on 15 September gives 33 and 43, and the surname carries the tall ff ligature with a long descender — CIOFFI. The age is corrected here; the surname never needed correcting in this file.) She had outlived her husband by nearly nine years.",
 "ark": "ANTENATI an_ua14345 img30r atto43"
 }
 ],
