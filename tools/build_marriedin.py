@@ -49,17 +49,105 @@ def place(s):
 SPOUSE = {"His wife", "Her husband", "His ex-wife", "Her ex-husband",
           "His partner", "Her partner", "Her spouse", "Spouse"}
 
+# --------------------------------------------------------------------------
+# HOW THIS LINE IS REACHED, computed on PEOPLE and never on a surname.
+#
+# This page used to be built from "any surname in the tree that is not Falco".
+# That is a name match, in the archive whose founding rule is that it never
+# merges people on a name — and it showed. Three separate women here are called
+# Filomena Annecchino; three separate people are called D'Arcy. Grouping by the
+# word made them one family each, and produced routes into this line that do
+# not exist.
+#
+# Descent instead:
+#   BLOOD    born Falco, or descended from someone who was. A Falco daughter's
+#            children are Falco by blood whatever surname they carry — which is
+#            how Mia and Rocco Mazza qualify, through their great-grandmother
+#            Giuseppina Falco.
+#   MARRIED  married somebody in BLOOD.
+#   KIN      the blood family a MARRIED person came from — their parents,
+#            siblings and descendants. This is what "the Annecchino" means.
+#   SECOND   married into one of those families.
+CHILD = {"His son", "His daughter", "Her son", "Her daughter"}
+SIB   = {"His brother", "His sister", "Her brother", "Her sister",
+         "Half sister", "Half brother"}
+PAR   = {"His father", "His mother", "Her father", "Her mother"}
+
+def _rel(p, kinds):
+    return [r["id"] for r in p.get("relatives", []) if r["rel"] in kinds and r["id"] in byid]
+
+BLOOD = {p["id"] for p in TREE if surname(p) == "Falco"}
+_grew = True
+while _grew:
+    _grew = False
+    for _p in TREE:
+        if _p["id"] in BLOOD:
+            for _k in _rel(_p, CHILD):
+                if _k not in BLOOD:
+                    BLOOD.add(_k); _grew = True
+
+MARRIED = {}                      # spouse id -> the blood Falco they married
+for _i in BLOOD:
+    for _s in _rel(byid[_i], SPOUSE):
+        if _s not in BLOOD:
+            MARRIED.setdefault(_s, _i)
+
+KIN, _q = set(), list(MARRIED)    # the families those spouses came from
+while _q:
+    _x = _q.pop()
+    for _y in _rel(byid[_x], SIB | PAR | CHILD):
+        if _y not in BLOOD and _y not in KIN and _y not in MARRIED:
+            KIN.add(_y); _q.append(_y)
+
+SECOND = {}
+for _i in KIN:
+    for _s in _rel(byid[_i], SPOUSE):
+        if _s not in BLOOD and _s not in KIN and _s not in MARRIED:
+            SECOND.setdefault(_s, _i)
+
+def reach(pid):
+    if pid in BLOOD:   return "blood"
+    if pid in MARRIED: return "married"
+    if pid in KIN:     return "kin"
+    if pid in SECOND:  return "second"
+    return "unconnected"
+
 groups = collections.defaultdict(lambda: {
     "people": [], "withheld": 0, "places": collections.Counter(),
-    "marriages": [], "first": None, "last": None})
+    "marriages": [], "first": None, "last": None,
+    "reach": collections.Counter(), "withheldNames": set()})
 
 for p in TREE:
     sn = surname(p)
     if not sn or sn == "?" or sn.startswith("["):
         continue
     g = groups[sn]
+    g["reach"][reach(p["id"])] += 1
     if p.get("alive"):
         g["withheld"] += 1
+        g["withheldNames"].add(re.sub(r",? ?[✔⭐]+", "", p["name"]).strip())
+        # A LIVING PERSON IS NAMED AND NOTHING MORE — which includes being named
+        # as somebody's wife. Skipping these entirely is how Bucolo came to show
+        # seven people and no marriage at all: its three Bucolo women married
+        # Anthony Falco, Angelo Falco and Angelo Servodio, all six are living, so
+        # every one of those marriages was dropped and the family that genuinely
+        # married in looked like a family that had married nobody. A name and a
+        # relationship is exactly what the rule permits; no date, no place.
+        for r in p.get("relatives", []):
+            if r["rel"] not in SPOUSE:
+                continue
+            o = byid.get(r["id"])
+            if not o or is_placeholder(o.get("name")):
+                continue
+            osn = surname(o)
+            if osn and osn != sn:
+                g["marriages"].append({
+                    "who": re.sub(r",? ?[✔⭐]+", "", p["name"]).strip(),
+                    "whoSlug": SLUG.get(p["id"], ""),
+                    "to": re.sub(r",? ?[✔⭐]+", "", o["name"]).strip(),
+                    "toSlug": SLUG.get(o["id"], ""),
+                    "into": osn,
+                    "living": True})
         continue
     b, dd = year(p.get("b")), year(p.get("d"))
     for y in (b, dd):
@@ -81,16 +169,17 @@ for p in TREE:
     for r in p.get("relatives", []):
         if r["rel"] in SPOUSE:
             o = byid.get(r["id"])
-            if not o or o.get("alive"):
+            if not o:
                 continue
             osn = surname(o)
-            if osn and osn != sn:
+            if osn and osn != sn and not is_placeholder(o.get("name")):
                 g["marriages"].append({
                     "who": re.sub(r",? ?[✔⭐]+", "", p["name"]).strip(),
                     "whoSlug": SLUG.get(p["id"], ""),
                     "to": re.sub(r",? ?[✔⭐]+", "", o["name"]).strip(),
                     "toSlug": SLUG.get(o["id"], ""),
-                    "into": osn})
+                    "into": osn,
+                    "living": bool(o.get("alive"))})
 
 # --- the Nudgee Cemetery burials: documented dead the tree marks as living ---
 import csv
@@ -112,8 +201,16 @@ with open("data/nudgee-burials.tsv") as f:
             "name": nm, "b": (r.get("born") or "").strip(), "bp": "",
             "d": (r.get("died") or "").strip(), "dp": "Nudgee Cemetery, Brisbane",
             "src": "Nudgee Cemetery"})
-        if g["withheld"]:
-            g["withheld"] -= 1   # the tree's "living" flag is wrong where a grave says otherwise
+        # A burial does NOT reduce the withheld count. This used to decrement
+        # once per grave of the surname, so Bucolo's seven graves — Carmelo,
+        # Sebastiano, Palma, Angelo, Filippo, Rosaria, Muriel — took its three
+        # living women to zero, and an entry with three people withheld read as
+        # none. The narrower repair, decrementing only on an exact name match,
+        # is no better: a Carmine Falco at Nudgee and a Carmine Falco alive
+        # today are two people, and this archive does not merge records on a
+        # name. The tree says who is living; the cemetery index is keyed on a
+        # name and cannot outrank it. Where the two overlap, both are shown and
+        # neither is collapsed into the other.
 
 out = []
 for sn, g in groups.items():
@@ -135,10 +232,27 @@ for sn, g in groups.items():
         "places": [p for p, _ in g["places"].most_common(4)],
         "marriages": marriages,
         "people": g["people"],
+        # how this surname reaches the line, by the people in it rather than the
+        # word: "married" if somebody married a blood Falco, "kin" if they are
+        # the family such a person came from, "second" if they married into one
+        # of those, "blood" if they descend from a Falco whatever name they carry.
+        # burials of this surname that are NOT any withheld person in the tree:
+        # same name, same city, very likely the same family — and not proved, so
+        # not merged.
+        "unjoinedBurials": sum(1 for x in g["people"] if x.get("src") == "Nudgee Cemetery"),
+        "reach": sorted(g["reach"], key=lambda k: -g["reach"][k]),
+        "reachCount": dict(g["reach"]),
     })
 
 out.sort(key=lambda x: (-x["n"], x["surname"]))
 os.makedirs("site/src/data", exist_ok=True)
 json.dump(out, open("site/src/data/married-in.json", "w"), indent=1, ensure_ascii=False)
+def _has(x, k): return k in x["reach"]
 print(f"{len(out)} surnames · {sum(x['n'] for x in out)} named · "
-      f"{sum(x['withheld'] for x in out)} withheld as living")
+      f"{sum(x['withheld'] for x in out)} withheld as living · "
+      f"{sum(len(x['marriages']) for x in out)} marriages")
+print(f"  reaching this line: {sum(1 for x in out if _has(x,'blood'))} carry Falco blood · "
+      f"{sum(1 for x in out if _has(x,'married'))} married one · "
+      f"{sum(1 for x in out if _has(x,'kin'))} are such a family · "
+      f"{sum(1 for x in out if _has(x,'second'))} married into one of those · "
+      f"{sum(1 for x in out if x['reach']==['unconnected'])} reach it not at all")
