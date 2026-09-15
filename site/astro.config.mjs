@@ -17,6 +17,13 @@ const redirects = Object.fromEntries([
      full at /australia — the 1964 crossing, the ship, the arrival. The URL
      exists so the two archives line up; a second thin page would not. */
   ["/emigration", `${BASE}/australia`],
+  /* /married-in and /marriages were two pages answering one question from two
+     ends — a register of couples, and a list of the surnames that joined. A
+     surname is on this archive at all because a person married a person, and
+     neither page could say so while they were apart. They are one page now, at
+     /marriages. The old address has been published and linked, so it redirects
+     rather than 404s. */
+  ["/married-in", `${BASE}/marriages`],
 ]);
 
 // GitHub Pages project site. To serve from a custom domain later,

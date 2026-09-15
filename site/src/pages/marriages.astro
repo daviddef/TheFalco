@@ -1,14 +1,25 @@
 ---
 import Base from "../layouts/Base.astro";
+import Marriages from "@daviddef/archive-kit/components/Marriages.astro";
 import { u } from "../lib/url.js";
 import { people } from "../lib/people.js";
-import line from "../data/line.json";
-import register from "../data/register.json";
 import { writtenUp } from "../lib/writtenup.js";
+import register from "../data/register.json";
+import groups from "../data/married-in.json";
 
-/* Every marriage the person graph carries, deduplicated to one row per couple.
-   The source of each edge is kept — line / register / tree — because a marriage
-   the archive argued for is not the same as one the family tree asserts. */
+/* Two pages until now: a register of couples, and a list of surnames that
+   married in. They answer one question from two ends — a surname is here
+   because a person married a person — and neither page could say so while they
+   were apart. Merged on instruction; the shape is the kit's, the rule for what
+   counts as part of this family is this archive's own and stays here.
+
+   That rule is DESCENT, computed over people in build_marriedin.py, never over
+   spelling. The rule it replaced was "any surname in the tree that is not
+   Falco", which is how Mazza — Sicilian, unrelated to any part of this family —
+   came to sit on a Falco page, while Annecchino and Zampiello, who married into
+   the family without ever marrying the name, read like strangers. */
+
+/* ---- the couples, from the person graph ---- */
 const seen = new Set();
 const couples = [];
 for (const p of people) {
@@ -18,120 +29,247 @@ for (const p of people) {
     seen.add(k);
     const q = people.find((x) => x.slug === e.slug);
     if (!q) continue;
-    const gen = p.gen || q.gen || null;
     couples.push({
-      a: p, b: q, gen, vias: e.vias || [e.via],
+      a: p, b: q, gen: p.gen || q.gen || null, vias: e.vias || [e.via],
       kids: (p.children || []).filter((c) => (q.children || []).some((d) => d.slug === c.slug)).length,
-      living: p.living || q.living,
     });
   }
 }
-const rank = { line: 0, register: 1, tree: 2 };
-couples.sort((x, y) => (x.gen ? 0 : 1) - (y.gen ? 0 : 1) || (x.gen || 99) - (y.gen || 99)
-  || rank[x.vias[0]] - rank[y.vias[0]] || x.a.surname.localeCompare(y.a.surname));
-
-const spine = couples.filter((c) => c.gen);
-const nLine = couples.filter((c) => c.vias.includes("line")).length;
+const spine = couples.filter((c) => c.gen).sort((x, y) => x.gen - y.gen);
 const nReg = couples.filter((c) => c.vias.includes("register")).length;
 const nTree = couples.filter((c) => c.vias.every((v) => v === "tree")).length;
-
-/* Marriage records in the register — mostly Antenati index hits, which name a
-   date but not always both parties. */
 const acts = register.filter((r) => /matrimonio|marriage/i.test(r.detail || ""));
+
+/* A short account for the families big enough to have one. Everything here is
+   either in the tables below or sourced elsewhere on the site; nothing new is
+   asserted. Hand-written, and carried over from the page this one replaces. */
+const STORY = {
+  "Zampiello": `The rarest name in this family by a wide margin — about <strong>123 bearers in the
+    world</strong>, and in the Italian records only one town: <strong>Arpaia</strong>, eight hundred
+    people, four kilometres from Arienzo across the provincial border. Two Falco brothers of Forchia
+    married two Zampiello sisters of Arpaia and both couples came to Brisbane; two more sisters
+    followed, marrying into <strong>Servodio</strong> and <strong>Miceli</strong>. Their father
+    <strong>Angelo Zampiello</strong>, born 31 August 1895, holds the family's Croce al Merito di
+    Guerra for East Africa. <a href="/TheFalco/zampiello/">The Zampiello page</a>.`,
+  "Crisci": `The family that married into this line <strong>twice in one generation</strong> —
+    Andreana Crisci to Vincenzo Falco, and Arcangelo Crisci to Vincenzo's sister Anna. There are two
+    Arcangelo Crisci alive at once, aged fifty-two and thirty in 1817, and the 1820 register settled
+    which was which. They are of strada Camellara, the family's own street.`,
+  "Annecchino": `A <strong>Forchia</strong> name, and the one that brought this line north out of
+    Arienzo: Carminantonio Falco married <strong>Filomena Annecchino</strong>, born 10 April 1897, and
+    the couple are buried side by side at Nudgee in Brisbane. Her own birth act has never been found —
+    the Forchia births of 1897 are one of two volumes at Benevento that were never digitised.`,
+  "Morgillo": `The second weld. Raffaele Falco of generation four married <strong>Angela Rosa
+    Morgillo</strong>, born at San Felice on 24 February 1818. The Arienzo Morgillo are now two
+    households — one on Monticello de' Cappuccini, one on strada Nuova di San Gaetano — and one of
+    them stood beside a Falco at a town-hall desk in 1826.
+    <a href="/TheFalco/morgillo/">The Morgillo page</a>.`,
+  "Falcone": `<strong>Not, on this archive's reading, the same family.</strong> The Falcone of
+    <strong>Capua and Caserta</strong> — Agostino, born about 1740, and his descendants through Capua,
+    Galluccio and Frosinone — were once carried at the head of this line. They were removed:
+    <strong>Matteo Falco of Arienzo replaces Agostino Falcone</strong>, on the evidence of the Arienzo
+    baptisms. FamilySearch's index still treats Falco and Falcone as one name, which is how the
+    confusion began. They are kept here because the tree keeps them, and because a reader looking for
+    Falcone of Caserta should find what this archive holds and what it decided.`,
+  "Mazza": `<strong>The family that prompted this page to be rebuilt.</strong> Asked why a Falco
+    archive carried Mazza marriages, the honest answer under the old rule was that it could not say —
+    the rule was «any surname that is not Falco», so a Sicilian name with no visible link to Campania
+    sat here looking unrelated. The link is real and the tree carries every step of it:
+    <strong>Giuseppina Falco</strong>, daughter of Carmine Falco and Francesca Zampiello, married
+    <strong>Ian Kenneth D'Arcy</strong>; their daughter <strong>Stefanie</strong> married
+    <strong>Michael Rocco Mazza</strong>; and <strong>Mia Giuseppina and Rocco Mazza carry this
+    family's blood</strong>. Michael is the son of Frank, the grandson of Sebastian, the
+    great-grandson of <strong>Giovanni Mazza</strong> — born at <strong>Piedimonte Etneo</strong> on
+    the eastern slope of Etna on 28 April 1875, died there in 1960. So the Sicilian branch and the
+    Brisbane marriage are one family, not two: this line reached Etna by way of a wedding three
+    generations down, and no step of that is a name match.`,
+  "Prostamo": `From <strong>Briatico</strong> in Calabria, on the Tyrrhenian coast north of Vibo
+    Valentia. <strong>Domenica Prostamo</strong>, born March 1928 at Briatico, died at Brisbane in
+    2010, having married into the Sicilian Mazza. One detail in this branch is worth more work than it
+    has had: her mother <strong>Maria Rosa Melluso was born in NEW YORK</strong> on 14 October 1907 and
+    died at Briatico in 1994 — an emigration and a return, two generations before the Australian one.`,
+  "Zaino": `From <strong>Durazzano</strong>, a Benevento comune a few kilometres from Arpaia, and a
+    name that also appears in the Arienzo registers. Lorenzo Zaino (1860–1945) and Costanza Abatiello
+    (1871–1955) both lived and died there; their son <strong>Bartolomeo Michael Zaino</strong>, born at
+    Durazzano on 20 June 1894, died at <strong>Westbury, Nassau County, New York</strong> in 1963. The
+    same valley sent people to two continents.`,
+  "Servodio": `<strong>Michele Servodio</strong> (1930–2021) married <strong>Raffaela Zampiello</strong>
+    (1930–2021), one of the four Arpaia sisters who reached Queensland. They died at Brisbane six weeks
+    apart. Their Brisbane immigration file is named in the National Archives and has never been read.`,
+  "Ferrara": `Two Ferrara families sit here and this archive has not joined them. One is of
+    <strong>Arpaia</strong>, where Giuseppa Ferrara was born on 29 June 1912 and where a Ferrara married
+    Angelo Zampiello. The other is of <strong>San Felice a Cancello</strong>, where Giovanni Ferrara was
+    born in 1848 and married a Maria Falco. Three more Ferrara lie at Nudgee in Brisbane.`,
+  "Bucolo": `Two sets of Bucolo sit here and this archive has not joined them. Seven are buried at
+    <strong>Nudgee Cemetery</strong> in Brisbane \u2014 born between 1927 and 1935, died between 2011 and
+    2022 \u2014 and are in this archive only because of that index. Three are women of the family tree,
+    living, who married Falco and Servodio men. One Brisbane surname, one generation apart, and no
+    record yet that ties a grave to a daughter. Nothing yet places either set in Italy.`,
+  "Rivetti": `Chiara Rivetti married Pasquale Falco of generation two, and her parents are the oldest
+    unanswered question in this archive: her 1843 burial calls her «filia quondam NICOLAI et ANNA», and
+    <strong>two different couples of Arienzo answer to those names</strong> — one gentry, one labouring.
+    Reading twenty registers has shown the Rivetti spanning the whole social range of the town, from
+    bracciali to a Don, an apothecary, a priest and a nun, so the forenames settle nothing.
+    <a href="/TheFalco/open-questions/">Open questions</a>.`,
+};
+
+/* ---- the families, placed by descent ---- */
+const other = groups.filter((g) => g.surname !== "Falco");
+const named = other.reduce((a, g) => a + g.n, 0);
+const withheld = other.reduce((a, g) => a + g.withheld, 0);
+
+/* A family can hold people of several reaches at once — 23 of the 77 do, and a
+   Bucolo is both a woman who married a Falco and the family she came from. The
+   family is filed under the STRONGEST reach any of its people has, in this
+   order, so the filing is deterministic rather than whichever reach happened to
+   be commonest. */
+const STRENGTH = ["blood", "married", "kin", "second", "unconnected"];
+const primary = (g) => STRENGTH.find((s) => (g.reach || []).includes(s)) || "unconnected";
+
+const GROUPS = [
+  { key: "blood", label: "They carry this family's blood",
+    blurb: `A Falco daughter married into these families, so their children are of this line by
+      <strong>descent</strong> and not only by marriage. The name changed; the blood did not.` },
+  { key: "married", label: "They married a Falco",
+    blurb: `The families who joined this one directly — from the Crisci who married into it at
+      <strong>Arienzo</strong> in the seventeen-hundreds to the Sicilian and Calabrian families who
+      joined it at <strong>Brisbane</strong> in the twentieth century.` },
+  { key: "kin", label: "The families they came from",
+    blurb: `These never married the name, and they married into the family all the same: each is the
+      blood family of somebody who married a Falco. <strong>Annecchino</strong> and
+      <strong>Zampiello</strong> are here, and the old rule could not tell them from strangers.` },
+  { key: "second", label: "They married into one of those",
+    blurb: `One step further out: they married into a family that married into this one. They are
+      kept because the archive holds their people, and because the distance is stated rather than
+      hidden.` },
+  { key: "unconnected", label: "Not yet joined to this family",
+    blurb: `The archive holds these people and cannot yet show how they reach this line. An empty
+      section here is the honest outcome; a full one would mean the descent test has work to do.` },
+];
+
+const span = (g) => (g.first && g.last ? (g.first === g.last ? `${g.first}` : `${g.first}–${g.last}`) : "—");
+
+const fam = (g) => ({
+  surname: g.surname, n: g.n, withheld: g.withheld, span: span(g), places: g.places || [],
+  registerHref: "/register/?q=" + encodeURIComponent(g.surname),
+  writtenUp: writtenUp(g.surname) || null,
+  story: STORY[g.surname] || "",
+  people: g.people || [], marriages: g.marriages || [],
+  note: g.unjoinedBurials
+    ? `<strong>${g.unjoinedBurials} of the people above are here from the Nudgee Cemetery index
+       alone.</strong> They share this surname with the family and no record yet ties them to it, so
+       they are shown and not joined.`
+    : "",
+});
+
+/* Every family is filed by REACH first and by size second. Size is a fact about
+   the living-people policy — a family with eight living people and no dead one
+   has nothing to name — and it says nothing about how that family reaches this
+   line. Filing by size first put four of the blood families in a leftovers
+   table and eight more in a footnote, which is the wrong way round: a family
+   that carries this blood is the most connected thing on the page, not the
+   least. So each group keeps its own thin table and its own withheld note. */
+const inGroup = (k) => other.filter((g) => primary(g) === k);
+const GROUPED = GROUPS.map((grp) => {
+  const all = inGroup(grp.key);
+  return {
+    ...grp,
+    families: all.filter((g) => g.n >= 3)
+      .sort((a, b) => b.n - a.n || a.surname.localeCompare(b.surname)).map(fam),
+    thin: all.filter((g) => g.n > 0 && g.n < 3)
+      .sort((a, b) => a.surname.localeCompare(b.surname)).map(fam),
+    held: all.filter((g) => g.n === 0)
+      .sort((a, b) => a.surname.localeCompare(b.surname))
+      .map((g) => ({ surname: g.surname, withheld: g.withheld })),
+    count: all.length,
+  };
+}).filter((grp) => grp.count);
+
+
 ---
-<Base title="Marriages"
-      eyebrow={`${couples.length} couples the archive can name`}
-      dek="Who married whom, where the archive knows it — and, on every row, whether it knows because a clerk wrote it down, because the line argues it, or because the family tree says so."
-      noindex={true}>
+<Base title="The Marriages"
+      eyebrow={`${couples.length} couples · ${other.length} families who joined this one`}
+      dek={`Who married whom, and which families came with them. ${named} of their people are named here; ${withheld} more are alive and are named without a single date. Every row says how the archive knows.`}>
 
-  <div class="card" style="margin-bottom:1.2rem">
-    <p><strong>A marriage is the hardest thing in this archive to prove and the most valuable to
-    have.</strong> A marriage act names <em>all four parents at once</em> — which is why
-    <strong>the marriage of Pasquale Falco and Chiara Rivetti, Arienzo, some time in the 1780s, is
-    the oldest document this archive is still looking for.</strong></p>
-    <p class="small" style="margin-top:.6rem">Every row says where it comes from.
-    <span class="chip doc">line</span> is this archive's own argued identification,
-    <span class="chip">register</span> a clerk's own words, and
-    <span class="chip lore">tree</span> the family tree, <strong>unverified</strong>.</p>
+  <div class="card" style="border-left:3px solid var(--accent)">
+    <h3 style="margin-bottom:.4rem">Why this page exists</h3>
+    <p>A pedigree keeps one child a generation and throws the rest away. Cousins go first, and the
+    families who married in go with them. This page is the opposite of a pedigree: <strong>every
+    surname that joined this line</strong>, and every couple that did the joining, on the one page —
+    because a surname is here for exactly one reason, that a person married a person.</p>
+    <p style="margin-top:.6rem"><strong>A family is placed here by descent, never by spelling.</strong>
+    Born a Falco or descended from one; married such a person; the family that person came from; or
+    married into one of those. The rule this replaced was «any surname in the tree that is not
+    Falco», which is how a Sicilian <strong>Mazza</strong> came to sit on a Falco page with no Falco
+    anywhere near it — while <strong>Annecchino</strong> and <strong>Zampiello</strong>, who married
+    into this family without ever marrying the name, read exactly like strangers.</p>
+    <p style="margin-top:.6rem"><strong>The living are named now — but only named.</strong> This page
+    counts {withheld} living people separately and shows no date, no place and no detail for any of
+    them, because that is the rule: <strong>a name and a relationship, nothing else</strong>. Where a
+    family appears with <em>no named people at all</em>, every person the archive holds for that
+    surname is living.</p>
+    <p style="margin-top:.6rem"><strong>If this is your family and something here is wrong, it is
+    wrong in public and can be fixed.</strong> Most of what is on this page comes from the family's
+    own tree rather than from a record, and is marked as such throughout. A date you know first-hand
+    beats a date somebody typed.</p>
   </div>
 
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.6rem;margin:1rem 0">
-    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{couples.length}</div><div class="small">couples</div></div>
-    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{spine.length}</div><div class="small">in the direct line</div></div>
-    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{nReg}</div><div class="small">a register says so</div></div>
-    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{nTree}</div><div class="small">the tree alone</div></div>
-    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{acts.length}</div><div class="small">marriage records indexed</div></div>
-  </div>
+  <Marriages
+    u={u}
+    metrics={[
+      { n: couples.length, label: "couples" },
+      { n: spine.length, label: "in the direct line", href: "/direct-line/" },
+      { n: other.length, label: "families joined" },
+      { n: nReg, label: "a register says so" },
+      { n: nTree, label: "the tree alone" },
+      { n: acts.length, label: "marriage records indexed" },
+    ]}
+    chips={[
+      { k: "line", cls: "doc", note: "this archive's own argued identification" },
+      { k: "register", cls: "", note: "a clerk's own words" },
+      { k: "tree", cls: "lore", note: "the family tree, unverified" },
+    ]}
+    spine={spine.map((c) => ({
+      gen: c.gen, genHref: "/direct-line/#gen-" + c.gen, a: c.a, b: c.b, kids: c.kids, vias: c.vias,
+    }))}
+    spineTitle="The spine — nine generations, nine marriages"
+    spineNote="The couples the direct line is made of. Every other couple the archive can name sits under the family they belong to, below."
+    groups={GROUPED}
+    livingNote={`Living people are on <a href="${u("/people/")}">The People</a> under the <em>Living</em> filter.`}>
 
-  <div class="card" style="margin:1.2rem 0;border-left:3px solid var(--accent)">
-    <p><strong>Eleven times, the Falco married a Crisci.</strong> Six Crisci women marrying Falco
-    men, five Falco women marrying Crisci men, across roughly two hundred years — and generations
-    <strong>one and three both did it</strong>. <a href={u("/crisci/")}>The Crisci page counts them →</a></p>
-    <p style="margin-top:.6rem"><strong>Two Zampiello sisters married two Falco brothers</strong>, and
-    both households went to Brisbane. <strong>This is what endogamy looks like from the paper side</strong>
-    — and <a href={u("/dna/")}>the DNA measures the same thing from the other end</a>: two people born
-    eight kilometres apart who are, at the test's resolution, the same person.</p>
-  </div>
+    <div slot="highlight" class="card" style="margin:1.2rem 0;border-left:3px solid var(--accent)">
+      <p><strong>Eleven times, the Falco married a Crisci.</strong> Six Crisci women marrying Falco
+      men, five Falco women marrying Crisci men, across roughly two hundred years — and generations
+      <strong>one and three both did it</strong>. <a href={u("/crisci/")}>The Crisci page counts them →</a></p>
+      <p style="margin-top:.6rem"><strong>Two Zampiello sisters married two Falco brothers</strong>, and
+      both households went to Brisbane. <strong>This is what endogamy looks like from the paper side</strong>
+      — and <a href={u("/dna/")}>the DNA measures the same thing from the other end</a>: two people born
+      eight kilometres apart who are, at the test's resolution, the same person.</p>
+    </div>
 
-  <h2>The spine — nine generations, nine marriages</h2>
-  <div class="scroll"><table>
-    <thead><tr><th>Gen</th><th>Married</th><th>Children the archive can name</th><th>Known from</th></tr></thead>
-    <tbody>
-      {spine.map((c) => (
-        <tr>
-          <td class="mono"><a href={u("/direct-line/") + "#gen-" + c.gen}>{c.gen}</a></td>
-          <td>
-            {c.a.living ? <em class="dim">living — named only</em> : <a href={u("/people/" + c.a.slug)}><strong>{c.a.name}</strong></a>}
-            <span class="dim"> × </span>
-            {c.b.living ? <em class="dim">living — named only</em> : <a href={u("/people/" + c.b.slug)}><strong>{c.b.name}</strong></a>}
-          </td>
-          <td class="mono small">{c.kids || ""}</td>
-          <td class="small">{c.vias.map((v) => <span class={"chip " + (v === "line" ? "doc" : v === "tree" ? "lore" : "")}>{v}</span>)}</td>
-        </tr>
-      ))}
-    </tbody>
-  </table></div>
-
-  <h2>Every other couple</h2>
-  <p class="small">{couples.length - spine.length} more, ordered by family. A shared surname is not a
-  relationship — see <a href={u("/method/")}>Method</a>.</p>
-  <div class="scroll"><table>
-    <thead><tr><th>Married</th><th>Family</th><th>Children</th><th>Known from</th><th>Written up</th></tr></thead>
-    <tbody>
-      {couples.filter((c) => !c.gen).map((c) => {
-        const wu = writtenUp(c.a.surname) || writtenUp(c.b.surname);
-        return (
-        <tr>
-          <td>
-            {c.a.living ? <em class="dim">living</em> : <a href={u("/people/" + c.a.slug)}>{c.a.name}</a>}
-            <span class="dim"> × </span>
-            {c.b.living ? <em class="dim">living</em> : <a href={u("/people/" + c.b.slug)}>{c.b.name}</a>}
-          </td>
-          <td class="small mono">{c.a.surname}</td>
-          <td class="mono small">{c.kids || ""}</td>
-          <td class="small">{c.vias.map((v) => <span class={"chip " + (v === "line" ? "doc" : v === "tree" ? "lore" : "")}>{v}</span>)}</td>
-          <td class="small">{wu ? <a href={u(wu[0])}>{wu[1]}</a> : ""}</td>
-        </tr>);
-      })}
-    </tbody>
-  </table></div>
-
-  <h2>What is missing</h2>
-  <ul>
-    <li><strong>The marriage of Pasquale Falco and Chiara Rivetti</strong>, Arienzo, 1780s. It would
-    name all four parents at once. <strong>The oldest document this archive still wants.</strong></li>
-    <li><strong>Orazio Morgillo and Vincenza Pesce</strong>, about 1817 — now that
-    <a href={u("/searched/")}>Orazio has been found alive in 1837 on strada Nuova di San Gaetano</a>,
-    this is the next act to look for.</li>
-    <li><strong>Giuseppa Ferrara and Angelo Zampiello</strong>, Arpaia, about 1920. It names both
-    fathers and would fix <a href={u("/ferrara/")}>the Ferrara/Ferraro spelling</a> in the hand of a
-    clerk who had to ask her.</li>
-    <li><strong>The <em>processetti</em></strong> — the marriage dossiers. <strong>258 volumes across
-    four towns, and not one has been read.</strong> They are the largest untouched body of evidence
-    this archive knows about, and they exist precisely to prove who could marry whom.</li>
-  </ul>
+    <div slot="missing">
+      <h2 style="margin-top:2rem">What is missing</h2>
+      <ul>
+        <li><strong>The marriage of Pasquale Falco and Chiara Rivetti</strong>, Arienzo, 1780s. It would
+        name all four parents at once. <strong>The oldest document this archive still wants.</strong></li>
+        <li><strong>Orazio Morgillo and Vincenza Pesce</strong>, about 1817 — now that
+        <a href={u("/searched/")}>Orazio has been found alive in 1837 on strada Nuova di San Gaetano</a>,
+        this is the next act to look for.</li>
+        <li><strong>Giuseppa Ferrara and Angelo Zampiello</strong>, Arpaia, about 1920. It names both
+        fathers and would fix <a href={u("/ferrara/")}>the Ferrara/Ferraro spelling</a> in the hand of a
+        clerk who had to ask her.</li>
+        <li><strong>The <em>processetti</em></strong> — the marriage dossiers. <strong>258 volumes across
+        four towns, and not one has been read.</strong> They are the largest untouched body of evidence
+        this archive knows about, and they exist precisely to prove who could marry whom.</li>
+        <li><strong>A death date, a town, a ship</strong> for most of the thin entries above, which lack
+        all three. And <strong>anything from the Italian side after 1900</strong> — the registers close
+        to the public at a century; the family's own papers do not.</li>
+      </ul>
+    </div>
+  </Marriages>
 
   <p class="small" style="margin-top:1.6rem">
-    <a href={u("/households/")}>Households</a> · <a href={u("/married-in/")}>Married in</a> ·
-    <a href={u("/direct-line/")}>The direct line</a> · <a href={u("/open-questions/")}>Open questions</a></p>
+    <a href={u("/households/")}>Households</a> · <a href={u("/direct-line/")}>The direct line</a> ·
+    <a href={u("/register/")}>The Register</a> · <a href={u("/wider-family/")}>The Wider Family</a> ·
+    <a href={u("/sources/")}>Sources</a> · <a href={u("/open-questions/")}>Open questions</a></p>
 </Base>
