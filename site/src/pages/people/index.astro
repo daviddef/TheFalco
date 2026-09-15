@@ -1,5 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
+import FilterTable from "@daviddef/archive-kit/components/FilterTable.astro";
 import { u } from "../../lib/url.js";
 import { people } from "../../lib/people.js";
 import register from "../../data/register.json";
@@ -224,42 +225,43 @@ const nLiving = count((r) => r.living);
     <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{nLink.toLocaleString()}</div><div class="small">link to a source</div></div>
   </div>
 
-  <div class="card" style="margin:1.2rem 0">
-    <label class="lab" for="q">Search a name, a place, a year, a trade or a source</label>
-    <input id="q" type="search" placeholder="Annecchino · Camellara · 1843 · Carfora · colono …"
-           style="width:100%;margin-top:.5rem;padding:.6rem .7rem;font-family:var(--sans);
-                  font-size:15px;border:1px solid var(--rule-strong);border-radius:4px;
-                  background:var(--ground);color:var(--ink)" />
-
-    <div class="fgroup" data-group="fam">
-      <span class="flabel">Family</span>
-      <button class="fchip on" data-f="all">Everyone</button>
-      <button class="fchip" data-f="line">★ My line <span class="mono small">{nMyLine}</span></button>
-      <button class="fchip" data-f="tree">In my tree <span class="mono small">{nTree}</span></button>
-      <button class="fchip" data-f="hh">In a household <span class="mono small">{nHH}</span></button>
-      <button class="fchip" data-f="att">Attached to the family <span class="mono small">{nAttached}</span></button>
-      <button class="fchip" data-f="liv">Living <span class="mono small">{nLiving}</span></button>
-    </div>
-
-    <div class="fgroup" data-group="place">
-      <span class="flabel">Place</span>
-      <button class="pchip on" data-p="all">Anywhere</button>
-      {topPlaces.map(([p, n]) => (
-        <button class="pchip" data-p={p}>{p} <span class="mono small">{n}</span></button>
-      ))}
-      <button class="pchip" data-p="—">No place <span class="mono small">{byPlace["—"] || 0}</span></button>
-    </div>
-
-    <div class="fgroup" data-group="sur">
-      <span class="flabel">Family name</span>
-      <button class="schip on" data-s="all">Any</button>
-      {topSurnames.map(([sn, n]) => (
-        <button class="schip" data-s={sn}>{sn} <span class="mono small">{n}</span></button>
-      ))}
-    </div>
-
-    <p class="small" id="count" style="margin-top:.7rem">{distinct.toLocaleString()} shown</p>
-    <p class="small"><strong>Looking for the records themselves?</strong>
+    <FilterTable
+      unit="people"
+      columns={[{ label: "Name" }, { label: "Family", cls: "small mono" }, { label: "Relationship", cls: "small" },
+                { label: "Place", cls: "small" }, { label: "Years", cls: "small mono" },
+                { label: "Records", cls: "small mono" }, { label: "Written up", cls: "small" }]}
+      facets={[
+        { key: "grp", label: "Who", all: "Everyone", options: [
+          { k: "line", v: "1", label: `★ My line <span class="mono small">${nMyLine}</span>` },
+          { k: "tree", v: "1", label: `In my tree <span class="mono small">${nTree}</span>` },
+          { k: "hh",   v: "1", label: `In a household <span class="mono small">${nHH}</span>` },
+          { k: "att",  v: "1", label: `Attached to the family <span class="mono small">${nAttached}</span>` },
+          { k: "liv",  v: "1", label: `Living <span class="mono small">${nLiving}</span>` }] },
+        { key: "place", label: "Place", all: "Anywhere",
+          options: [...topPlaces.map(([p2, n]) => ({ v: p2, label: `${p2} (${n})` })),
+                    { v: "—", label: `No place (${byPlace["—"] || 0})` }] },
+        { key: "sur", label: "Surname", all: "Any",
+          options: topSurnames.map(([sn, n]) => ({ v: sn, label: `${sn} (${n})` })) },
+      ]}
+      rows={folk.map((r) => ({
+        hay: (r.name + " " + r.surname + " " + r.place + " " + r.span + " " + r.src).toLowerCase(),
+        facets: { sur: r.surname, place: r.place, line: r.myLine ? "1" : "0",
+                  tree: r.inTree ? "1" : "0", hh: r.inHousehold ? "1" : "0",
+                  att: r.attached ? "1" : "0", liv: r.living ? "1" : "0" },
+        cells: [
+          `<a href="${u(r.slug ? "/people/" + r.slug + "/" : "/who/" + r.nameSlug + "/")}">${r.name}</a>` +
+            (r.living ? '<br><span class="chip doc">living</span>'
+             : r.myLine ? '<br><span class="chip doc">★ my line</span>'
+             : r.slug ? '<br><span class="chip doc">identified</span>'
+             : r.inHousehold ? '<br><span class="chip doc">household</span>'
+             : r.inTree ? '<br><span class="chip doc">tree</span>' : ""),
+          r.surname, r.rel, r.place === "—" ? "" : r.place, r.span,
+          `<a href="${u(r.slug ? "/people/" + r.slug + "/" : "/who/" + r.nameSlug + "/")}">${r.n}</a>` +
+            (r.nLink ? `<span class="dim"> · ${r.nLink} linked</span>` : '<span class="dim"> · none linked</span>'),
+          r.wu ? `<a href="${u(r.wu[0])}">${r.wu[1]}</a>` : "",
+        ],
+      }))} />
+        <p class="small"><strong>Looking for the records themselves?</strong>
     <a href={u("/register/")}>The register →</a> lists all {nRecords.toLocaleString()} of them,
     one row per record, grouped by surname, each linked to its source.</p>
   </div>
@@ -274,105 +276,5 @@ const nLiving = count((r) => r.living);
     not your line until a record says so.</p>
   </div>
 
-  <div class="scroll">
-    <table id="ptable">
-      <thead><tr><th>Name</th><th>Family</th><th>Relationship</th><th>Place</th><th>Years</th><th>Records</th><th>Written up</th></tr></thead>
-      <tbody>
-        {folk.map((r) => (
-          <tr class="prow" data-sur={r.surname} data-place={r.place}
-              data-line={r.myLine ? "1" : "0"} data-tree={r.inTree ? "1" : "0"}
-              data-hh={r.inHousehold ? "1" : "0"} data-att={r.attached ? "1" : "0"}
-              data-liv={r.living ? "1" : "0"}
-              data-hay={(r.name + " " + r.surname + " " + r.place + " " + r.span + " " + r.src).toLowerCase()}>
-            <td>
-              <a href={u(r.slug ? "/people/" + r.slug : "/who/" + r.nameSlug)}>{r.name}</a>
-              {r.living ? <><br/><span class="chip doc">living</span></>
-                : r.myLine ? <><br/><span class="chip doc">★ my line</span></>
-                : r.slug ? <><br/><span class="chip doc">identified</span></>
-                : r.inHousehold ? <><br/><span class="chip doc">household</span></>
-                : r.inTree ? <><br/><span class="chip doc">tree</span></> : null}
-            </td>
-            <td class="small mono">{r.surname}</td>
-            <td class="small">{r.rel}</td>
-            <td class="small">{r.place === "—" ? "" : r.place}</td>
-            <td class="small mono">{r.span}</td>
-            <td class="small mono">
-              <a href={u(r.slug ? "/people/" + r.slug : "/who/" + r.nameSlug)}>{r.n}</a>
-              {r.nLink ? <span class="dim"> · {r.nLink} linked</span> : <span class="dim"> · none linked</span>}
-            </td>
-            <td class="small">{r.wu ? <a href={u(r.wu[0])}>{r.wu[1]}</a> : ""}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  </div>
 
-  <style is:inline>
-    .fgroup { margin-top:.8rem; display:flex; flex-wrap:wrap; gap:.35rem; align-items:center; }
-    .flabel { font-family:var(--sans); font-size:10px; letter-spacing:.09em; text-transform:uppercase;
-              color:var(--muted); margin-right:.3rem; min-width:5.5rem; }
-    .fchip, .pchip, .schip {
-      font-family: var(--sans); font-size: 11px; letter-spacing: .05em; text-transform: uppercase;
-      padding: .3rem .6rem; border: 1px solid var(--rule-strong); border-radius: 3px;
-      background: var(--ground); color: var(--ink); cursor: pointer;
-    }
-    .fchip.on, .pchip.on, .schip.on { background: var(--ink); color: var(--ground); border-color: var(--ink); }
-    #ptable td { vertical-align: top; }
-  </style>
-
-  <script is:inline>
-    (function () {
-      var q = document.getElementById("q");
-      var rows = [].slice.call(document.querySelectorAll(".prow"));
-      var count = document.getElementById("count");
-      var fam = "all", place = "all", sur = "all";
-
-      function wire(sel, attr, set) {
-        var chips = [].slice.call(document.querySelectorAll(sel));
-        chips.forEach(function (c) {
-          c.addEventListener("click", function () {
-            chips.forEach(function (x) { x.classList.remove("on"); });
-            c.classList.add("on");
-            set(c.getAttribute(attr));
-            run();
-          });
-        });
-      }
-
-      function run() {
-        var v = q.value.trim().toLowerCase();
-        var terms = v ? v.split(/\s+/) : [];
-        var shown = 0;
-        for (var i = 0; i < rows.length; i++) {
-          var r = rows[i], ok = true;
-          if (fam === "line") ok = r.getAttribute("data-line") === "1";
-          else if (fam === "tree") ok = r.getAttribute("data-tree") === "1";
-          else if (fam === "hh") ok = r.getAttribute("data-hh") === "1";
-          else if (fam === "att") ok = r.getAttribute("data-att") === "1";
-          else if (fam === "liv") ok = r.getAttribute("data-liv") === "1";
-          if (ok && place !== "all") ok = r.getAttribute("data-place") === place;
-          if (ok && sur !== "all") ok = r.getAttribute("data-sur") === sur;
-          if (ok && terms.length) {
-            var hay = r.getAttribute("data-hay");
-            for (var j = 0; j < terms.length; j++) {
-              if (hay.indexOf(terms[j]) === -1) { ok = false; break; }
-            }
-          }
-          r.style.display = ok ? "" : "none";
-          if (ok) shown++;
-        }
-        count.textContent = shown.toLocaleString() + " shown";
-      }
-
-      wire(".fchip", "data-f", function (v) { fam = v; });
-      wire(".pchip", "data-p", function (v) { place = v; });
-      wire(".schip", "data-s", function (v) { sur = v; });
-
-      var t;
-      q.addEventListener("input", function () { clearTimeout(t); t = setTimeout(run, 120); });
-
-      var pre = new URLSearchParams(location.search).get("q");
-      if (pre) { q.value = pre; run(); }
-    })();
-  </script>
 </Base>

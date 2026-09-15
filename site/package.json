@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4322",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run atlas && npm run publish:index && astro build && npm run check && npm run sitemap && npm run check:living && npm run check:kit && npm run check:worklist && npm run check:covers",
+    "build": "npm run atlas && npm run publish:index && astro build && npm run check && npm run sitemap && npm run check:living && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:corrections",
     "preview": "astro preview --port 4322",
     "check": "python3 ../tools/check_release.py",
     "build:nocheck": "astro build",
@@ -15,10 +15,11 @@
     "check:kit": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkarchive.py --dist dist",
     "check:living": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkliving.py --dist dist --data src/data --policy named-bare",
     "check:worklist": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkworklist.py --root .",
-    "check:covers": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkcovers.py --root ."
+    "check:covers": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkcovers.py --root .",
+    "check:corrections": "python3 ../tools/check_corrections.py"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#8dde4e4d84461a67b056018e63e25ad1aa2c9477",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#7ab6089575b4dd4203040b34e1a76e7744615d7a",
     "astro": "^5.18.2"
   }
 }
