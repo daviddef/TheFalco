@@ -47,10 +47,10 @@
   {
    "n": 6,
    "what": "Arcangelo Crisci — one man or two?",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-13",
-   "note": "The name appears both as **Andreana Crisci's father** — «Arcangelo, e Sara Ruggiero», from the 1814 marriage index — and as **Anna Falco's husband**, from her death act of 1820. If they are one man he married his own daughter's sister-in-law, which is ordinary; if two, the archive is carrying a collision it has not noticed. Untested either way."
+   "note": "**Done 15 September — two men.** The 1817 birth register holds both: Arcangelo Crisci **52**, strada Camellara, husband of **Sara Ruggiero**; and Arcangelo Crisci **30**, strada Capodiconca, husband of **Maria Martone**. Twenty-two years, two streets, two wives. **Andreana's father is not Anna Falco's husband.** \n\nBoth ages were already in `data/sweep-people.tsv` and had been for weeks. \n\n**A smaller question opened:** Anna's husband is son of «fu Nicola, e Chiara Majone», and the younger Arcangelo was married to Maria Martone in 1817 — so either he remarried within months or there is a third man of the name."
   },
   {
    "n": 7,
