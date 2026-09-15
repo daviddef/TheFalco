@@ -1,5 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
+import register from "../data/register.json";
+import EraTimeline from "@daviddef/archive-kit/components/EraTimeline.astro";
 import Marriages from "@daviddef/archive-kit/components/Marriages.astro";
 import { u } from "../lib/url.js";
 import { people } from "../lib/people.js";
@@ -184,6 +186,16 @@ const GROUPED = GROUPS.map((grp) => {
 }).filter((grp) => grp.count);
 
 
+
+/* This archive has no marriage DATE on a spouse edge, but its register indexes
+   366 dated marriage acts. Those are the dots: an act, not a couple, which is
+   why the caption says act. */
+const MARR = (Array.isArray(register) ? register : register.rows || [])
+  .filter((r) => /matrimoni|marriage/i.test(String(r.detail || "")));
+const yearOf = (r) => (String(r.sort || r.detail || "").match(/\b(1[5-9]\d\d|20\d\d)\b/) || [])[1];
+const timelinePoints = MARR.map((r) => ({ label: r.name || r.surname || "—", year: yearOf(r) }))
+  .filter((p) => p.year && +p.year <= 1950);
+
 ---
 <Base title="The Marriages"
       eyebrow={`${couples.length} couples · ${other.length} families who joined this one`}
@@ -211,6 +223,14 @@ const GROUPED = GROUPS.map((grp) => {
     own tree rather than from a record, and is marked as such throughout. A date you know first-hand
     beats a date somebody typed.</p>
   </div>
+
+  <EraTimeline points={timelinePoints}
+    eras={[[1750,1806,"Kingdom of Naples","--r-venice"],[1806,1815,"Napoleonic Naples","--r-napo"],
+           [1815,1861,"The Two Sicilies restored","--r-habsburg"],[1861,1946,"Kingdom of Italy","--r-italy"],
+           [1946,1950,"Republic","--r-venice"]]}
+    marks={[[1799,"The Parthenopean Republic"],[1861,"Unification"],[1884,"Cholera in Naples"],
+            [1908,"The Messina earthquake"],[1915,"Italy enters the war"]]}
+    what={`${timelinePoints.length} dated marriage acts in the register, to 1950. Each dot is an ACT — the entry a clerk wrote — not a couple this archive has joined up, and the name is the one the act carries.`} />
 
   <Marriages
     u={u}
