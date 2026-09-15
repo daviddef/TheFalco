@@ -452,26 +452,26 @@
   {
    "n": 49,
    "what": "A published table of every stated age against its proven date",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**The archive keeps discovering this one man at a time and it has become a measurement.** Giuseppe Falco: forty on 2 April 1825 and forty-five four days later; thirty-six in June 1818 and forty in October 1819. Vincenzo Falco: twenty-seven in May 1818, twenty-six nineteen months later, and twenty-seven by his baptism. Gioacchino Falco: seventy-six by his death act, seventy-two by his baptism. Antonia di Guida: five years out. **Collected, this stops being a string of anecdotes and becomes a stated error distribution** — which is what every «*b. c.1792*» in this archive is silently relying on. It also gives the reader a number for how much to trust an age."
+   "note": "**Done, and it is on /method.** **VINCENZO FALCO, baptised 1 February 1792**, is the only person in the archive with a proven birth and a long run of civil acts. Six sightings, twelve years: **+10.8, +0.7, −1.9, +0.9, −2.6, −0.9.** **Five of six within three years** — so a stated age here is good to about two or three years and no better, which is now published as the working figure.\n\n**The 1816 outlier is kept**: both spouses inflated by ten years and five in one act, with two readings offered and neither chosen.\n\n**A limit came with it.** It could only be done for one man, because **the archive stores its facts as prose** and the ages sit inside quotations usually attached to somebody else. Any «across all people» question is currently unanswerable here — the same root cause as row 55."
   },
   {
    "n": 50,
    "what": "The necronyms — the children given a dead sibling's name",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Domenico Clemente Falco was born three days after Domenico Falco was buried.** The archive already carries **Maddalena the second**, **Matteo the second**, **two Giovanni alive at once**, and a **first Raffaele of 1816** before the Raffaele of 1818 who is generation four. **Collected, this is a naming rule with evidentiary force**: where a child of a name appears and an earlier child of that name has died, the two are a sequence rather than a contradiction — and where BOTH lived, as with the Giovanni, that is the genuine anomaly. **It would have shortened the two-Giovanni question by weeks.**"
+   "note": "**Done, and it found a live conflation instead.** Grouping each household's children by forename turned up the real necronyms — **DOMENICO CLEMENTE** born three days after Domenico was buried, **Giuseppe** and **Mariantonia Cioffi** each given again, **Maddalena the second**, **Matteo the second**, the **first Raffaele of 1816** — and **three pairs that were not necronyms at all but one child spelled two ways.**\n\n**`francesco-cossi` and `francesco-cioffi` were the same man with two pages**, and four children of an established CIOFFI house still carried COSSI. Merged and corrected; **632 people where there were 634.**\n\n**The finding that matters:** in a house that buried six children in nine years **a repeated name is the ordinary case, not the anomaly** — which is exactly why the two living Giovanni were so hard to credit and took weeks."
   },
   {
    "n": 51,
    "what": "A gate that cross-checks every correction against the data files",
-   "state": "next",
+   "state": "done",
    "owner": "a machine",
    "since": "2026-09-15",
-   "note": "**Twice in two days a correction and the data disagreed and nobody noticed.** «Giuseppa COSSI» was re-published while `households.json` carried the CIOFFI correction; «Cossi, not Cioffi» stood on the corrections page for two days while the household file said Cioffi — **and the household file also carried an age the correction had right.** **Each was found by accident.** A gate can find them on purpose: for every correction naming a person and a date, check that the corresponding household member carries the corrected value, and fail the build when a correction's `now` contradicts the file it corrects. **It belongs beside the other four gates**, and it is the only one that would have caught all three of this week's conflations."
+   "note": "**Done, and it is in the build chain as `check:corrections`.** `tools/check_corrections.py` holds two rules.\n\n**First, a table of RETIRED READINGS.** One row per surname a correction has killed, naming the household it was killed in. The gate fails if any PERSON in that household still carries it — while leaving the ACT's own wording alone, because «*GIUSEPPA COSSI, di mesi otto*» is what the clerk actually wrote and must stay quoted.\n\n**Second, no child of one household may appear under two surnames.** Restricted to `role == child` deliberately: a household legitimately holds **Sara Ruggiero the matrina and Sara Falco her granddaughter**, and a gate that flags those is a gate people learn to ignore.\n\n**Tested against the bug it was written for.** Reintroducing «Antonia Cossi» and «Giuseppa Cossi» into the household file makes it fail with three findings and exit 1; the corrected file passes. **It would have caught all three of this week's conflations**, each of which was found by accident."
   },
   {
    "n": 52,
@@ -536,6 +536,14 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "**A dated marriage with both names, known only from a margin.** «*A 30 Dic.re 1880 l'Uf.le dello Stato Civile d'Arienzo sposò PASQUA FALCO con PASQUALE CARFORA*». **The register act would confirm the chain from a second document**: it names Pasquale Carfora's parents, and it should give Pasqua as **vedova di Angelo Majone**, which is the reading this archive is currently inferring rather than reading. **First check whether Antenati holds Arienzo marriages that late at all** — the death series stops at 1865 and the marriage series has never been enumerated past it. If not, collection 2043630 covers 1866–1929 and has already been mined for other years."
+  },
+  {
+   "n": 60,
+   "what": "Re-magnify the four Cioffi death acts read as «COSSI» before the three-way test existed",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**The surname is settled; four transcriptions are not.** The 1824 BIRTH act was re-read at four times magnification and is certainly CIOFFI. The death acts of **20 June 1823** (`an_ua14325` img21r atto39), **25 March 1824** (`an_ua14326` img9l atto8), **2 April 1825** (`an_ua14327` img10r) and **23 October 1828** (`an_ua14330` img36l atto54) were transcribed «COSSI» **before this archive had the dot-o-r test**, and have not been checked since.\n\n**One of them already disagrees with itself**: the 1824 act is transcribed «*GIUSEPPE **CRISCI(?)***» in its own evidence string — the third member of the collapsing trio — with a question mark nobody ever resolved. **Check the image numbers too**: these are birth-register-adjacent citations and eight of that kind were found pointing one page early."
   }
  ]
 }

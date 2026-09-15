@@ -3881,6 +3881,88 @@
 "siblings": []
 },
 {
+"slug": "antonia-cioffi",
+"name": "Antonia Cioffi",
+"surname": "CIOFFI",
+"household": "Francesco Cioffi & Maria Falco",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "20 Jun 1823",
+"place": "Arienzo, strada Sant'Andrea",
+"evidence": "«ANTONIA COSSI, di mesi nove, nata in Arienzo» — atto 39, died at fifteen hours [PERSON NAME CORRECTED 15 Sep 2026: this archive established months ago that the strada Camellara household is CIOFFI, not Cossi, and applied it to the household name only — the children kept the retired spelling and were built as separate people. The act's own wording is quoted above unchanged.]",
+"ark": "ANTENATI an_ua14325 img21r atto39"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "francesco-cioffi",
+"name": "Francesco Cioffi",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-francesco-cioffi-maria-falco",
+"name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco",
+"name": "Giuseppe Cioffi (the first)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppa-cioffi",
+"name": "Giuseppa Cioffi",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco",
+"name": "Mariantonia Cioffi (the first)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco-2",
+"name": "Giuseppe Cioffi (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco-2",
+"name": "Mariantonia Cioffi (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
 "slug": "antonio-cioffi-of-michele-falco-antonia-migliore",
 "name": "Antonio Cioffi",
 "surname": "CIOFFI",
@@ -4071,6 +4153,13 @@
 "events": [
 {
 "event": "named",
+"date": "living Jun 1823",
+"place": "Arienzo, strada Sant'Andrea",
+"evidence": "«figlia di FRANCESCO COSSI, di professione contadino, domiciliato ivi» — named without «fu», so living [PERSON NAME CORRECTED 15 Sep 2026: this archive established months ago that the strada Camellara household is CIOFFI, not Cossi, and applied it to the household name only — the children kept the retired spelling and were built as separate people. The act's own wording is quoted above unchanged.]",
+"ark": "ANTENATI an_ua14325 img21r atto39"
+},
+{
+"event": "named",
 "date": "correction, read 1825",
 "place": "Arienzo, strada Camellara",
 "evidence": "CORRECTION, LEFT VISIBLE. This archive carried this household as «Francesco COSSI & Maria Falco» from 1823 to 1828. It is CIOFFI. The 1825 register, read at full resolution, writes the strada Camellara family with a dotted «i» after the C — «Cesare Cioffi», «Francesco Cioffi», «Giuseppa Cioffi» — and writes the strada Cossi family, in the same volume and the same hand, without one: «Domenico Cossi», «Crescenzo Cossi», «strada Cossi». Two different families, distinguished by the clerk and conflated by this archive. Everything else about the household stands.",
@@ -4091,14 +4180,6 @@
 "parents": [],
 "spouses": [
 {
-"slug": "francesco-cossi",
-"name": "Francesco Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "maria-falco-of-francesco-cioffi-maria-falco",
 "name": "Maria Falco",
 "via": "register",
@@ -4109,32 +4190,16 @@
 ],
 "children": [
 {
-"slug": "antonia-cossi",
-"name": "Antonia Cossi",
+"slug": "antonia-cioffi",
+"name": "Antonia Cioffi",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "giuseppe-cossi",
-"name": "Giuseppe Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppa-cossi",
-"name": "Giuseppa Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "mariantonia-cossi",
-"name": "Mariantonia Cossi",
+"slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco",
+"name": "Giuseppe Cioffi (the first)",
 "via": "register",
 "vias": [
 "register"
@@ -4149,7 +4214,15 @@
 ]
 },
 {
-"slug": "giuseppe-cioffi",
+"slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco",
+"name": "Mariantonia Cioffi (the first)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco-2",
 "name": "Giuseppe Cioffi (the second)",
 "via": "register",
 "vias": [
@@ -4157,7 +4230,7 @@
 ]
 },
 {
-"slug": "mariantonia-cioffi",
+"slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco-2",
 "name": "Mariantonia Cioffi (the second)",
 "via": "register",
 "vias": [
@@ -4283,6 +4356,13 @@
 "role": "child",
 "events": [
 {
+"event": "death",
+"date": "2 Apr 1825",
+"place": "Arienzo, strada Camellara",
+"evidence": "«GIUSEPPA COSSI, di mesi otto, nata in Arienzo, di professione contadina, figlia di FRANCESCO COSSI, di professione Contadino, e di MARIA FALCO» — the third child of this house to die in three years, all three declared by GIUSEPPE FALCO of strada Camellara. [PERSON NAME CORRECTED 15 Sep 2026: this archive established months ago that the strada Camellara household is CIOFFI, not Cossi, and applied it to the household name only — the children kept the retired spelling and were built as separate people. The act's own wording is quoted above unchanged.]",
+"ark": "ANTENATI an_ua14327 img10r"
+},
+{
 "event": "birth",
 "date": "18 Jun 1824",
 "place": "Arienzo, strada Camellara",
@@ -4296,25 +4376,16 @@
 "living": false,
 "parents": [
 {
-"slug": "francesco-cossi",
-"name": "Francesco Cossi",
-"via": "register",
-"vias": [
-"register"
-],
-"superseded": "RETIRED READING, KEPT VISIBLE. The household was carried as «Francesco COSSI & Maria Falco» from 1823 to 1828 and corrected to CIOFFI on the dotted «i» this clerk uses to separate the strada Camellara family from the strada Cossi one. FRANCESCO CIOFFI is the father; «Francesco Cossi» is the same man under the discarded spelling, left standing because corrections in this archive are shown and not swapped."
-},
-{
-"slug": "maria-falco-of-francesco-cioffi-maria-falco",
-"name": "Maria Falco",
+"slug": "francesco-cioffi",
+"name": "Francesco Cioffi",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "francesco-cioffi",
-"name": "Francesco Cioffi",
+"slug": "maria-falco-of-francesco-cioffi-maria-falco",
+"name": "Maria Falco",
 "via": "register",
 "vias": [
 "register"
@@ -4325,39 +4396,31 @@
 "children": [],
 "siblings": [
 {
-"slug": "antonia-cossi",
-"name": "Antonia Cossi",
+"slug": "antonia-cioffi",
+"name": "Antonia Cioffi",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "giuseppe-cossi",
-"name": "Giuseppe Cossi",
+"slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco",
+"name": "Giuseppe Cioffi (the first)",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "giuseppa-cossi",
-"name": "Giuseppa Cossi",
+"slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco",
+"name": "Mariantonia Cioffi (the first)",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "mariantonia-cossi",
-"name": "Mariantonia Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-cioffi",
+"slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco-2",
 "name": "Giuseppe Cioffi (the second)",
 "via": "register",
 "vias": [
@@ -4365,7 +4428,7 @@
 ]
 },
 {
-"slug": "mariantonia-cioffi",
+"slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco-2",
 "name": "Mariantonia Cioffi (the second)",
 "via": "register",
 "vias": [
@@ -4375,7 +4438,89 @@
 ]
 },
 {
-"slug": "giuseppe-cioffi",
+"slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco",
+"name": "Giuseppe Cioffi (the first)",
+"surname": "CIOFFI",
+"household": "Francesco Cioffi & Maria Falco",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "25 Mar 1824",
+"place": "Arienzo, strada Camellara",
+"evidence": "«GIUSEPPE CRISCI(?), di anni cinque, nato in Arienzo, di professione contadino, domiciliato ivi strada Camellara, figlio di FRANCESCO COSSI, di professione contadino, e di MARIA FALCO» — a second child of this house to die, after Antonia in June 1823. THE SURNAME IS AMBIGUOUS IN THE HAND: it can be read Cossi or Crisci, and the 1823 act was read Cossi. Recorded as Cossi with the doubt stated. Note that the household is here on STRADA CAMELLARA, where the 1823 act placed it on strada Sant'Andrea. [PERSON NAME CORRECTED 15 Sep 2026: this archive established months ago that the strada Camellara household is CIOFFI, not Cossi, and applied it to the household name only — the children kept the retired spelling and were built as separate people. The act's own wording is quoted above unchanged.]",
+"ark": "ANTENATI an_ua14326 img9l atto8"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "francesco-cioffi",
+"name": "Francesco Cioffi",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-francesco-cioffi-maria-falco",
+"name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "antonia-cioffi",
+"name": "Antonia Cioffi",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppa-cioffi",
+"name": "Giuseppa Cioffi",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco",
+"name": "Mariantonia Cioffi (the first)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco-2",
+"name": "Giuseppe Cioffi (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco-2",
+"name": "Mariantonia Cioffi (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
+"slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco-2",
 "name": "Giuseppe Cioffi (the second)",
 "surname": "CIOFFI",
 "household": "Francesco Cioffi & Maria Falco",
@@ -4395,8 +4540,8 @@
 "living": false,
 "parents": [
 {
-"slug": "francesco-cossi",
-"name": "Francesco Cossi",
+"slug": "francesco-cioffi",
+"name": "Francesco Cioffi",
 "via": "register",
 "vias": [
 "register"
@@ -4409,46 +4554,22 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "francesco-cioffi",
-"name": "Francesco Cioffi",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [],
 "children": [],
 "siblings": [
 {
-"slug": "antonia-cossi",
-"name": "Antonia Cossi",
+"slug": "antonia-cioffi",
+"name": "Antonia Cioffi",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "giuseppe-cossi",
-"name": "Giuseppe Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppa-cossi",
-"name": "Giuseppa Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "mariantonia-cossi",
-"name": "Mariantonia Cossi",
+"slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco",
+"name": "Giuseppe Cioffi (the first)",
 "via": "register",
 "vias": [
 "register"
@@ -4463,7 +4584,15 @@
 ]
 },
 {
-"slug": "mariantonia-cioffi",
+"slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco",
+"name": "Mariantonia Cioffi (the first)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco-2",
 "name": "Mariantonia Cioffi (the second)",
 "via": "register",
 "vias": [
@@ -4589,7 +4718,89 @@
 ]
 },
 {
-"slug": "mariantonia-cioffi",
+"slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco",
+"name": "Mariantonia Cioffi (the first)",
+"surname": "CIOFFI",
+"household": "Francesco Cioffi & Maria Falco",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "23 Oct 1828",
+"place": "Arienzo, strada Camellara",
+"evidence": "Seven months old — the fifth child of this household to be buried since 1823. The act is the one in which GIUSEPPE FALCO is entered as «PARENTE DELLA DEFUNTA». [PERSON NAME CORRECTED 15 Sep 2026: this archive established months ago that the strada Camellara household is CIOFFI, not Cossi, and applied it to the household name only — the children kept the retired spelling and were built as separate people. The act's own wording is quoted above unchanged.]",
+"ark": "ANTENATI an_ua14330 img36l atto54"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "francesco-cioffi",
+"name": "Francesco Cioffi",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-francesco-cioffi-maria-falco",
+"name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "antonia-cioffi",
+"name": "Antonia Cioffi",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco",
+"name": "Giuseppe Cioffi (the first)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppa-cioffi",
+"name": "Giuseppa Cioffi",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco-2",
+"name": "Giuseppe Cioffi (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco-2",
+"name": "Mariantonia Cioffi (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
+"slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco-2",
 "name": "Mariantonia Cioffi (the second)",
 "surname": "CIOFFI",
 "household": "Francesco Cioffi & Maria Falco",
@@ -4609,8 +4820,8 @@
 "living": false,
 "parents": [
 {
-"slug": "francesco-cossi",
-"name": "Francesco Cossi",
+"slug": "francesco-cioffi",
+"name": "Francesco Cioffi",
 "via": "register",
 "vias": [
 "register"
@@ -4623,46 +4834,22 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "francesco-cioffi",
-"name": "Francesco Cioffi",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [],
 "children": [],
 "siblings": [
 {
-"slug": "antonia-cossi",
-"name": "Antonia Cossi",
+"slug": "antonia-cioffi",
+"name": "Antonia Cioffi",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "giuseppe-cossi",
-"name": "Giuseppe Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppa-cossi",
-"name": "Giuseppa Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "mariantonia-cossi",
-"name": "Mariantonia Cossi",
+"slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco",
+"name": "Giuseppe Cioffi (the first)",
 "via": "register",
 "vias": [
 "register"
@@ -4677,7 +4864,15 @@
 ]
 },
 {
-"slug": "giuseppe-cioffi",
+"slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco",
+"name": "Mariantonia Cioffi (the first)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco-2",
 "name": "Giuseppe Cioffi (the second)",
 "via": "register",
 "vias": [
@@ -4829,500 +5024,6 @@
 "treeId": 4509380,
 "b": "Oct 6 1881",
 "d": "Jan 23 1958"
-},
-{
-"slug": "antonia-cossi",
-"name": "Antonia Cossi",
-"surname": "COSSI",
-"household": "Francesco Cioffi & Maria Falco",
-"role": "child",
-"events": [
-{
-"event": "death",
-"date": "20 Jun 1823",
-"place": "Arienzo, strada Sant'Andrea",
-"evidence": "«ANTONIA COSSI, di mesi nove, nata in Arienzo» — atto 39, died at fifteen hours",
-"ark": "ANTENATI an_ua14325 img21r atto39"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "francesco-cossi",
-"name": "Francesco Cossi",
-"via": "register",
-"vias": [
-"register"
-],
-"superseded": "RETIRED READING, KEPT VISIBLE. This archive carried the household as «Francesco COSSI & Maria Falco» from 1823 to 1828 and then corrected it to CIOFFI: the 1825 register, read at full resolution, writes the strada Camellara family with a DOTTED «i» after the C — «Cesare Cioffi», «Francesco Cioffi» — and writes the strada Cossi family, in the same volume and the same hand, without one. FRANCESCO CIOFFI is the father. «Francesco Cossi» is the same man under the discarded spelling, left standing because corrections in this archive are shown, not swapped. Re-confirmed 15 September 2026 on the 1824 birth act at four times magnification, after this reader had re-made the old mistake that morning."
-},
-{
-"slug": "maria-falco-of-francesco-cioffi-maria-falco",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "francesco-cioffi",
-"name": "Francesco Cioffi",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "giuseppe-cossi",
-"name": "Giuseppe Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppa-cossi",
-"name": "Giuseppa Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "mariantonia-cossi",
-"name": "Mariantonia Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppa-cioffi",
-"name": "Giuseppa Cioffi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-cioffi",
-"name": "Giuseppe Cioffi (the second)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "mariantonia-cioffi",
-"name": "Mariantonia Cioffi (the second)",
-"via": "register",
-"vias": [
-"register"
-]
-}
-]
-},
-{
-"slug": "francesco-cossi",
-"name": "Francesco Cossi",
-"surname": "COSSI",
-"household": "Francesco Cioffi & Maria Falco",
-"role": "father",
-"events": [
-{
-"event": "named",
-"date": "living Jun 1823",
-"place": "Arienzo, strada Sant'Andrea",
-"evidence": "«figlia di FRANCESCO COSSI, di professione contadino, domiciliato ivi» — named without «fu», so living",
-"ark": "ANTENATI an_ua14325 img21r atto39"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [
-{
-"slug": "maria-falco-of-francesco-cioffi-maria-falco",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "francesco-cioffi",
-"name": "Francesco Cioffi",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"children": [
-{
-"slug": "antonia-cossi",
-"name": "Antonia Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-cossi",
-"name": "Giuseppe Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppa-cossi",
-"name": "Giuseppa Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "mariantonia-cossi",
-"name": "Mariantonia Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppa-cioffi",
-"name": "Giuseppa Cioffi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-cioffi",
-"name": "Giuseppe Cioffi (the second)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "mariantonia-cioffi",
-"name": "Mariantonia Cioffi (the second)",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"siblings": []
-},
-{
-"slug": "giuseppa-cossi",
-"name": "Giuseppa Cossi",
-"surname": "COSSI",
-"household": "Francesco Cioffi & Maria Falco",
-"role": "child",
-"events": [
-{
-"event": "death",
-"date": "2 Apr 1825",
-"place": "Arienzo, strada Camellara",
-"evidence": "«GIUSEPPA COSSI, di mesi otto, nata in Arienzo, di professione contadina, figlia di FRANCESCO COSSI, di professione Contadino, e di MARIA FALCO» — the third child of this house to die in three years, all three declared by GIUSEPPE FALCO of strada Camellara.",
-"ark": "ANTENATI an_ua14327 img10r"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "francesco-cossi",
-"name": "Francesco Cossi",
-"via": "register",
-"vias": [
-"register"
-],
-"superseded": "RETIRED READING, KEPT VISIBLE. This archive carried the household as «Francesco COSSI & Maria Falco» from 1823 to 1828 and then corrected it to CIOFFI: the 1825 register, read at full resolution, writes the strada Camellara family with a DOTTED «i» after the C — «Cesare Cioffi», «Francesco Cioffi» — and writes the strada Cossi family, in the same volume and the same hand, without one. FRANCESCO CIOFFI is the father. «Francesco Cossi» is the same man under the discarded spelling, left standing because corrections in this archive are shown, not swapped. Re-confirmed 15 September 2026 on the 1824 birth act at four times magnification, after this reader had re-made the old mistake that morning."
-},
-{
-"slug": "maria-falco-of-francesco-cioffi-maria-falco",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "francesco-cioffi",
-"name": "Francesco Cioffi",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "antonia-cossi",
-"name": "Antonia Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-cossi",
-"name": "Giuseppe Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "mariantonia-cossi",
-"name": "Mariantonia Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppa-cioffi",
-"name": "Giuseppa Cioffi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-cioffi",
-"name": "Giuseppe Cioffi (the second)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "mariantonia-cioffi",
-"name": "Mariantonia Cioffi (the second)",
-"via": "register",
-"vias": [
-"register"
-]
-}
-]
-},
-{
-"slug": "giuseppe-cossi",
-"name": "Giuseppe Cossi",
-"surname": "COSSI",
-"household": "Francesco Cioffi & Maria Falco",
-"role": "child",
-"events": [
-{
-"event": "death",
-"date": "25 Mar 1824",
-"place": "Arienzo, strada Camellara",
-"evidence": "«GIUSEPPE CRISCI(?), di anni cinque, nato in Arienzo, di professione contadino, domiciliato ivi strada Camellara, figlio di FRANCESCO COSSI, di professione contadino, e di MARIA FALCO» — a second child of this house to die, after Antonia in June 1823. THE SURNAME IS AMBIGUOUS IN THE HAND: it can be read Cossi or Crisci, and the 1823 act was read Cossi. Recorded as Cossi with the doubt stated. Note that the household is here on STRADA CAMELLARA, where the 1823 act placed it on strada Sant'Andrea.",
-"ark": "ANTENATI an_ua14326 img9l atto8"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "francesco-cossi",
-"name": "Francesco Cossi",
-"via": "register",
-"vias": [
-"register"
-],
-"superseded": "RETIRED READING, KEPT VISIBLE. This archive carried the household as «Francesco COSSI & Maria Falco» from 1823 to 1828 and then corrected it to CIOFFI: the 1825 register, read at full resolution, writes the strada Camellara family with a DOTTED «i» after the C — «Cesare Cioffi», «Francesco Cioffi» — and writes the strada Cossi family, in the same volume and the same hand, without one. FRANCESCO CIOFFI is the father. «Francesco Cossi» is the same man under the discarded spelling, left standing because corrections in this archive are shown, not swapped. Re-confirmed 15 September 2026 on the 1824 birth act at four times magnification, after this reader had re-made the old mistake that morning."
-},
-{
-"slug": "maria-falco-of-francesco-cioffi-maria-falco",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "francesco-cioffi",
-"name": "Francesco Cioffi",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "antonia-cossi",
-"name": "Antonia Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppa-cossi",
-"name": "Giuseppa Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "mariantonia-cossi",
-"name": "Mariantonia Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppa-cioffi",
-"name": "Giuseppa Cioffi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-cioffi",
-"name": "Giuseppe Cioffi (the second)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "mariantonia-cioffi",
-"name": "Mariantonia Cioffi (the second)",
-"via": "register",
-"vias": [
-"register"
-]
-}
-]
-},
-{
-"slug": "mariantonia-cossi",
-"name": "Mariantonia Cossi",
-"surname": "COSSI",
-"household": "Francesco Cioffi & Maria Falco",
-"role": "child",
-"events": [
-{
-"event": "death",
-"date": "23 Oct 1828",
-"place": "Arienzo, strada Camellara",
-"evidence": "Seven months old — the fifth child of this household to be buried since 1823. The act is the one in which GIUSEPPE FALCO is entered as «PARENTE DELLA DEFUNTA».",
-"ark": "ANTENATI an_ua14330 img36l atto54"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "francesco-cossi",
-"name": "Francesco Cossi",
-"via": "register",
-"vias": [
-"register"
-],
-"superseded": "RETIRED READING, KEPT VISIBLE. This archive carried the household as «Francesco COSSI & Maria Falco» from 1823 to 1828 and then corrected it to CIOFFI: the 1825 register, read at full resolution, writes the strada Camellara family with a DOTTED «i» after the C — «Cesare Cioffi», «Francesco Cioffi» — and writes the strada Cossi family, in the same volume and the same hand, without one. FRANCESCO CIOFFI is the father. «Francesco Cossi» is the same man under the discarded spelling, left standing because corrections in this archive are shown, not swapped. Re-confirmed 15 September 2026 on the 1824 birth act at four times magnification, after this reader had re-made the old mistake that morning."
-},
-{
-"slug": "maria-falco-of-francesco-cioffi-maria-falco",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "francesco-cioffi",
-"name": "Francesco Cioffi",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "antonia-cossi",
-"name": "Antonia Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-cossi",
-"name": "Giuseppe Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppa-cossi",
-"name": "Giuseppa Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppa-cioffi",
-"name": "Giuseppa Cioffi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-cioffi",
-"name": "Giuseppe Cioffi (the second)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "mariantonia-cioffi",
-"name": "Mariantonia Cioffi (the second)",
-"via": "register",
-"vias": [
-"register"
-]
-}
-]
 },
 {
 "slug": "adam-crisci",
@@ -23900,14 +23601,6 @@
 "parents": [],
 "spouses": [
 {
-"slug": "francesco-cossi",
-"name": "Francesco Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "francesco-cioffi",
 "name": "Francesco Cioffi",
 "via": "register",
@@ -23918,32 +23611,16 @@
 ],
 "children": [
 {
-"slug": "antonia-cossi",
-"name": "Antonia Cossi",
+"slug": "antonia-cioffi",
+"name": "Antonia Cioffi",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "giuseppe-cossi",
-"name": "Giuseppe Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppa-cossi",
-"name": "Giuseppa Cossi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "mariantonia-cossi",
-"name": "Mariantonia Cossi",
+"slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco",
+"name": "Giuseppe Cioffi (the first)",
 "via": "register",
 "vias": [
 "register"
@@ -23958,7 +23635,15 @@
 ]
 },
 {
-"slug": "giuseppe-cioffi",
+"slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco",
+"name": "Mariantonia Cioffi (the first)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco-2",
 "name": "Giuseppe Cioffi (the second)",
 "via": "register",
 "vias": [
@@ -23966,7 +23651,7 @@
 ]
 },
 {
-"slug": "mariantonia-cioffi",
+"slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco-2",
 "name": "Mariantonia Cioffi (the second)",
 "via": "register",
 "vias": [
