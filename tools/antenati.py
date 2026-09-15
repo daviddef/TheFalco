@@ -48,9 +48,18 @@ def ids_for(ark, refresh=False):
         return json.load(open(path))["ids"]
 
     page = fetch(ARK.format(ark=ark))
+    # A REFUSAL IS NOT AN ABSENCE. This host rate-limits, and a 403 page has no
+    # manifest link in it either — so the "is the ark right?" message below was
+    # reporting "the volume does not exist" for volumes that exist and are
+    # digitised. On 16 September that cost a published conclusion: the Arienzo
+    # marriage series was declared to end in 1858 because 1859-1865 were probed
+    # inside a rate-limit window. Say which it is.
+    if "403 Forbidden" in page[:2000] or ("<title>403" in page[:2000]):
+        raise SystemExit(f"{ark}: 403 from the host \u2014 RATE LIMITED, not missing. "
+                         f"Wait a few minutes and retry; do NOT record a negative from this.")
     m = re.search(r"https://dam-antenati\.cultura\.gov\.it/antenati/containers/[A-Za-z0-9]+/manifest", page)
     if not m:
-        raise SystemExit(f"{ark}: no manifest link on the volume page — is the ark right?")
+        raise SystemExit(f"{ark}: no manifest link on the volume page (HTTP 200, {len(page)} bytes) — the ark may be wrong, or the volume catalogued but not digitised. NOT a rate-limit refusal; those say 403.")
     mf = json.loads(fetch(m.group(0)))
 
     canvases = (mf.get("sequences") or [{}])[0].get("canvases") or mf.get("items") or []
