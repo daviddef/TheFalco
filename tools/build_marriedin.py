@@ -9,8 +9,32 @@ import json, re, collections, os
 TREE = json.load(open("data/myheritage-falco-tree.json"))
 byid = {p["id"]: p for p in TREE}
 
+# The slug of each person, taken from the file build_people.py already wrote and
+# keyed on the tree id both builds share. It is joined on the ID, never on the
+# name: 103 of the 294 people on this page share a name with somebody else here
+# — there are three separate Marta Zampiello — so a name would point a third of
+# these links at a guess, in an archive whose whole method is refusing to merge
+# on a name.
+SLUG = {}
+try:
+    _pj = json.load(open("site/src/data/people.json"))
+    for _r in (_pj if isinstance(_pj, list) else _pj.get("people", [])):
+        if _r.get("treeId") is not None:
+            SLUG[_r["treeId"]] = _r["slug"]
+except FileNotFoundError:
+    pass          # people.json is built first; a missing one just means no links
+
 def surname(p):
     return (p.get("last") or "").strip()
+
+def is_placeholder(n):
+    """The same rule build_people.py applies, and for the same reason: the tree
+    carries rows that are not people. Without it this page counted «UNKNOWN
+    Falco», «Unknown Zampiello», and one whose whole name is an address —
+    «Arienzo, Caserta, Campania, Italia [Unconfirmed Family] Falco» — as named
+    people, which is why 18 of its 294 could never have a person page."""
+    n = re.sub(r",? ?[✔⭐]+", "", n or "").strip()
+    return (not n) or n.lower().startswith("unknown") or "[" in n
 
 def year(s):
     m = re.search(r"(1[6-9]\d\d|20\d\d)", s or "")
@@ -45,8 +69,11 @@ for p in TREE:
     for pl in (place(p.get("bp")), place(p.get("dp"))):
         if pl:
             g["places"][pl] += 1
+    if is_placeholder(p.get("name")):
+        continue
     g["people"].append({
         "name": re.sub(r",? ?[✔⭐]+", "", p["name"]).strip(),
+        "slug": SLUG.get(p["id"], ""),
         "b": p.get("b", ""), "bp": place(p.get("bp")),
         "d": p.get("d", ""), "dp": place(p.get("dp")),
     })
@@ -60,7 +87,9 @@ for p in TREE:
             if osn and osn != sn:
                 g["marriages"].append({
                     "who": re.sub(r",? ?[✔⭐]+", "", p["name"]).strip(),
+                    "whoSlug": SLUG.get(p["id"], ""),
                     "to": re.sub(r",? ?[✔⭐]+", "", o["name"]).strip(),
+                    "toSlug": SLUG.get(o["id"], ""),
                     "into": osn})
 
 # --- the Nudgee Cemetery burials: documented dead the tree marks as living ---
