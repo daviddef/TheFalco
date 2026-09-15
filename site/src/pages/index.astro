@@ -2,6 +2,8 @@
 import Base from "../layouts/Base.astro";
 import WaysIn from "@daviddef/archive-kit/components/WaysIn.astro";
 import Numbers from "@daviddef/archive-kit/components/Numbers.astro";
+import PlaceSpark from "@daviddef/archive-kit/components/PlaceSpark.astro";
+import atlas from "../../public/atlas-data.json";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import Tributaries from "../components/Tributaries.astro";
@@ -109,7 +111,21 @@ const more = [
     </div>
   </section>
 
-  <section class="blk">
+  
+<section class="blk">
+  <section class="feat">
+    <h2 style="margin-top:6px">Where this family can actually be put</h2>
+    <p class="dek" style="margin-top:10px">Four kilometres of the Valle Caudina, and then Brisbane.
+    <strong>Every dot is a place this archive can put a named person in.</strong> The coast and the
+    borders under them are real — Natural Earth, clipped to this frame — so a dot can be read as
+    somewhere rather than as a position in an empty box. This archive has had a map on
+    <a href={u("/atlas/")}>its atlas</a> and none on its front page until now.</p>
+    <PlaceSpark places={atlas.places} href={u("/atlas/")}
+                label={`${atlas.places.length} places — the towns this family can be put in`} />
+  </section>
+</section>
+
+<section class="blk">
     <h2>What this archive has established</h2>
     <div class="grid two" style="margin-top:1rem">
       <div class="card">
