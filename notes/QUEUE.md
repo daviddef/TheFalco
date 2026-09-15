@@ -729,13 +729,24 @@ own text. **Nothing deleted, nothing reworded.**
 page sorts by date descending — so it sat sixty rows from the claim it killed. The
 correction was visible and the supersession was not.
 
-**2. Forty volumes of marriage indexes were closed against a surname this archive had
-retired.** The sweep hunted "Maria Falco × Francesco COSSI"; the man is Francesco
-CIOFFI, corrected months ago, re-broken and re-corrected the SAME DAY that negative was
-published. "Not in any of them" is a fact about a spelling. The 1820s–30s volumes sort
-by surname, so a Falco × Cioffi entry sits elsewhere on the page. The inference that the
-couple married before 1809 — and the plan to go to the eighteenth-century parish
-register next — has nothing under it. **Work list row 27.**
+**2. ~~Forty volumes of marriage indexes were closed against a surname this archive had
+retired.~~ WITHDRAWN WITHIN THE HOUR — and this is the more useful half.** The audit read
+the corrections page's prose, saw "Maria Falco × Francesco COSSI", and concluded forty
+volumes had been searched for the wrong man. **They were searched for the BRIDE.** The
+*What has been read* entry lists, year by year, where no FALCO married at Arienzo, and
+reports thirteen Falco marriages found with five more through the parents' column — a
+reader in the F section of a tavola sees a Maria Falco whoever she is marrying. And THIS
+FILE already had the surname right: "the pre-1809 Maria Falco × Francesco CIOFFI marriage
+the civil series cannot hold."
+
+The negative stands; the marriage is older than the civil series; the parish register is
+still the next instrument. What was real is only a wrong name in the prose of two
+published pages, now corrected in both. **Work-list row 27 is struck, not deleted.**
+
+**The lesson is the audit's own, arriving an hour late.** A stale word in a sentence is
+not evidence that the work behind the sentence was stale — and the rule that would have
+caught it is the one already written down: check a find against what is already held IN
+THE SAME PASS that publishes it.
 
 **3. "1859 opened" duplicated an entry published the day before, on this same page.**
 Same tavola, same three acts, same conclusions — including a household called "one this
