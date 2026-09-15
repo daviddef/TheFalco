@@ -2087,5 +2087,15 @@
   "how": "Opening the last leaf of the 1818 volume to see whether the 1819 list recurs. It does.",
   "why": "**A negative about a finding aid is worth as much as a negative about a person**, because the next reader will see the same twenty-one rows and form the same hypothesis. It is now written down that the hypothesis fails and why.\n\n**And the list is worth reading anyway.** It gives **both parents and a date on one page**, and in a year with no annual tavola — 1819 has none, checked at both ends — **it is the only index the volume has.** It is also a second, independent statement of generation four's birth date, which until today rested on one act whose citation pointed at the wrong page.",
   "by": "opening the last leaf of the next volume along"
+ },
+ {
+  "when": "2026-09-15",
+  "sev": "method",
+  "what": "THE PARISH HARVEST IS SNIPPETS, NOT PAGES — the forty-three blank names are a fetching problem and were filed as a parsing one",
+  "was": "This morning, joining Crescenzo Falco's birth to a parish baptism, this archive wrote: «*The Latin is mangled — «Cresantios» for *Crescentius* — **so the parser gave up***», and raised a work-list row to re-parse the harvest for the child names it had dropped. `data/falco-baptisms-parsed.tsv` has **44 of its 92 rows with the child column blank.**",
+  "now": "**There is nothing to re-parse.** Every stored transcript is a snippet of **at most 260 characters**, and the median is **identical** for rows that carry a child's name and rows that do not — 260 and 260. **The name is blank because the window does not reach it**, not because anything failed to read it.\n\n**And the parser did not give up on Crescenzo either.** His snippet contains «*Cresantios Falco*» in the first two words — the **marginal name**, at the very start of the page — and the parser was looking for the name where the Latin puts it, in the body. **It was not defeated by the handwriting. It was looking in the wrong place.**",
+  "how": "Measuring the stored transcripts instead of reading them: the length distribution of the blanks against the named.",
+  "why": "**A wrong diagnosis sends the next person to the wrong tool.** «Re-parse the harvest» is a morning's work on a regular expression that could not possibly succeed, because the text it would parse does not contain the answer. **The right description is «forty-three half-answers waiting on a full page or an image»**, which is a different job with a different cost and a different owner.\n\n**The margin-position extractor was still worth writing.** Eight of the forty-four snippets open with a name-shape and two are real: Crescenzo, and — on a page whose year the OCR gives as both 1811 and 1881 — «*Raphael Falco **Obiit die 26 Februarii**…*». **Generation four has no death in this archive** and would be sixty-two in 1881. That is now a named target on the row that waits for FamilySearch access, with the ambiguity stated rather than resolved by hope.",
+  "by": "measuring the harvest instead of reading it"
  }
 ]

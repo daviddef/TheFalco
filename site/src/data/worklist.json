@@ -202,7 +202,7 @@
    "state": "blocked",
    "owner": "David",
    "since": "2026-09-14",
-   "note": "Screenshots need the **Browser pane displayed** in the desktop app, and it is not. There is a workaround — compose the DeepZoom tiles inside the page and carry the render back as data — and it worked for the 1841 burial, but it is slow and costs a great deal of context per look. **Showing the pane makes this ordinary again.**"
+   "note": "Screenshots need the **Browser pane displayed** in the desktop app, and it is not. There is a workaround — compose the DeepZoom tiles inside the page and carry the render back as data — and it worked for the 1841 burial, but it is slow and costs a great deal of context per look. **Showing the pane makes this ordinary again.**\n\n**A SPECIFIC TARGET, ADDED 15 SEPTEMBER: `3:1:3Q9M-CSD3-13CP-B`.** Its snippet opens «*Raphael Falco **Obiit die 26 Februarii 18[8]1***». **RAFFAELE FALCO, GENERATION FOUR, HAS NO DEATH IN THIS ARCHIVE.** Born 10 May 1818, he would be sixty-two in February 1881, and this is the only candidate ever seen.\n\n**The reading is not safe and that is exactly why it needs the image.** The OCR gives the year as «1811» twice while the harvest's own metadata column says **1881** — and eight and one are the two digits this engine confuses most. **If it is 1811 the man is a stranger born before generation four; if it is 1881 it is very likely him.** One image decides it, and the image is FamilySearch's, behind the session this archive cannot open."
   },
   {
    "n": 19,
@@ -516,10 +516,10 @@
   {
    "n": 57,
    "what": "Re-parse the parish baptism harvest for the child names the parser dropped",
-   "state": "next",
+   "state": "done",
    "owner": "a machine",
    "since": "2026-09-15",
-   "note": "**`data/falco-baptisms-parsed.tsv` has rows with the CHILD COLUMN BLANK and the father's name present.** One of them was Crescenzo Falco's baptism, sitting unparsed while a Crescenzo three files away had no birth date at all. **It was joined today only because a civil act supplied the parents and the month.** The Latin is mangled — «*Cresantios*» for *Crescentius* — so the parser gave up. **A blank child column with a Falco father is a finding waiting for a second source**, and nobody knows how many there are. Count them first."
+   "note": "**Done — and the row's own premise was wrong, which is the finding.** There is nothing to re-parse. **Every stored transcript is a SNIPPET of at most 260 characters**, and the median length is identical for rows that have a child's name (260) and rows that do not (260). The child column is blank not because a parser gave up but because **the 260-character window happens not to contain the name**. Forty-three of the forty-four blanks are like this.\n\n**A margin-position extractor was written and tried**: eight of forty-four snippets open with a name-shape, and only two are real — **«Cresantios Falco»**, already promoted today, and **«Raphael Falco Obiit die 26 Februarii 1881»**, which is a death annotation rather than a baptism and is now a lead on row 18.\n\n**So the queue is a fetch problem, not a parsing problem.** Forty-three half-answers, each needing the full page or the image. **And the Crescenzo case is explained properly now**: his snippet did contain the name, in the margin position at the very start, which the parser never looked at — it was not defeated by the Latin."
   },
   {
    "n": 58,
