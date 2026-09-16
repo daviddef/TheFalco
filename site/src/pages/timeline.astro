@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Timeline from "@daviddef/archive-kit/components/Timeline.astro";
 import { u } from "../lib/url.js";
 import line from "../data/line.json";
 import plates from "../data/plates.json";
@@ -37,6 +38,14 @@ for (const y of years) {
 const events = plates.filter((p) => p.when && yearOf(p.when))
   .map((p) => ({ y: yearOf(p.when), when: p.when, t: p.t, f: p.f }))
   .sort((a, b) => a.y - b.y);
+
+/* The plate's own filename is the anchor on /documents/. Built here rather
+   than in the attribute: a regex literal inside an Astro expression attribute
+   ends that expression at its first slash. */
+const dated = events.map((e) => ({
+  year: e.y, when: e.when, title: e.t,
+  href: "/documents/#" + String(e.f).replace(/\.jpg$/, ""),
+}));
 
 const RULE = [
   [1720, 1806, "Bourbon Naples", "The parish books are the only record. No civil register exists."],
@@ -114,15 +123,7 @@ const RULE = [
   <h2>Dated documents, in order</h2>
   <p class="small">{events.length} plates in this archive carry a date. They are the moments it can
   actually put a piece of paper behind.</p>
-  <div class="scroll"><table>
-    <thead><tr><th>When</th><th>What</th></tr></thead>
-    <tbody>
-      {events.map((e) => (
-        <tr><td class="mono small" style="white-space:nowrap">{e.when}</td>
-          <td><a href={u("/documents/") + "#" + e.f.replace(/\.jpg$/, "")}>{e.t}</a></td></tr>
-      ))}
-    </tbody>
-  </table></div>
+  <Timeline events={dated} u={u} noun="dated plates" />
 
 <style is:global>
   .tl{margin:1.4rem 0 2rem;padding:1rem 1rem 1.2rem;border:1px solid var(--rule);border-radius:.4rem}
