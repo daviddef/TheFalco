@@ -876,6 +876,56 @@
     "place": "Arienzo",
     "evidence": "Stanislao Falco's bride: **twenty-three**, born Arienzo, so b. c.1838. **Her parents are LUIGI DI LUCIA, *muratore*, and MARTA DI NIZZO** — the father's forename is illegible on the marriage act itself and comes from the **NOTIFICAZIONI register bound into the same volume**, which gives the same couple in a clerk's cleaner hand: «*matrimonio tra **STANISLAO FALCO** figlio di **VINCENZO** e di **ANDREANA CRISCI**, e **FILOMENA DI LUCIA** figlia di **LUIGI** e di **MARTA DI NIZZO***». Her father was already dead at the wedding.",
     "ark": "ANTENATI an_ua14265 img18r act16 + img39r (notificazioni)"
+   },
+   {
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Andrea Falco",
+    "role": "child",
+    "event": "marriage",
+    "date": "21 May 1846",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "THE REGISTER ACT BEHIND THE INDEX ENTRY. Act 14: «*sono comparsi nella Casa Comunale **ANDREA FALCO maggiore**, di anni **VENTIQUATTRO**, nato in **Arienzo**, di professione **contadino**, domiciliato in **strada Camellara**, figlio di **VINCENZO FALCO**, di professione **colono**, domiciliato ivi, e di **ANDREANA CRISCI**, di professione **FILATRICE**, domiciliata ivi; e **MARIA CARMELA BUONO maggiore**, di anni ventiquattro, di professione filatrice, nata in Arienzo, domiciliata in **strada Porta di Sopra***». Church **24 May 1846** at Sant'Andrea, which is the date the index gave. Witnesses Agostino di Giglio and **Gennaro Laudato**. **TWENTY-FOUR IN MAY 1846 GIVES b. c.1822** — four years before Angelandrea, and the two are separate men on the ages alone.",
+    "ark": "ANTENATI an_ua14250 img15r act14"
+   },
+   {
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Angelandrea Falco",
+    "role": "child",
+    "event": "marriage",
+    "date": "29 Mar 1847",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "**«MINORE» — AND THAT ONE WORD CONFIRMS HIS BIRTH ACT.** Act on img4r: «*sono comparsi nella Casa Comunale **ANGELANDREA FALCO MINORE**, di anni **venti[…]**, nato in Arienzo, di professione **contadino**, domiciliato in **strada Camellara**, figlio di **VINCENZO FALCO**, **colono**, e di **ANDREANA CRISCI**, **filatrice** … e **MARIA CIMMINO maggiore** … nata in Arienzo, domiciliata in **strada Capodiconca**, figlia di **ALESSANDRO CIMMINO**, contadino*». Church **29 March 1847** at Sant'Andrea. Witnesses **Gennaro Laudato** and Francesco de Angelis. **MAJORITY WAS TWENTY-ONE**, so «minore» puts him under it — and his birth act of **12 September 1826** makes him twenty years and six months. The numeral itself carries a flourish and is not read beyond «venti[…]»; **the word «minore» is what bounds him, and it is unambiguous.** **A DATE CONFLICT, RECORDED NOT RESOLVED:** this archive also holds «Angelo Falco … m. Maria Cimmino» on **17 April 1847** from a parish ark — the same bride, three weeks later. Both are kept.",
+    "ark": "ANTENATI an_ua14251 img4r"
+   },
+   {
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Vincenzo Falco",
+    "role": "father",
+    "event": "named as living",
+    "date": "21 May 1846",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "A SIGHTING IN THE 1844–1861 GAP. «*figlio di **VINCENZO FALCO**, di professione **COLONO**, domiciliato ivi*» — no «fu», in an act whose own next clause marks the bride's father when he is dead. Named the same way again on 29 March 1847.",
+    "ark": "ANTENATI an_ua14250 img15r act14"
+   },
+   {
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Andreana Crisci",
+    "role": "mother",
+    "event": "named as living",
+    "date": "21 May 1846",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "**HER TRADE, FOR THE FIRST TIME: FILATRICE — a spinner.** «*e di **ANDREANA CRISCI**, di professione **filatrice**, domiciliata ivi*». Alive and unmarked, and given the same way again on 29 March 1847. This archive had her age five times and her occupation never.",
+    "ark": "ANTENATI an_ua14250 img15r act14"
+   },
+   {
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Maria Carmela Buono",
+    "role": "married in",
+    "event": "marriage",
+    "date": "21 May 1846",
+    "place": "Arienzo, strada Porta di Sopra",
+    "evidence": "Andrea Falco's bride: twenty-four, **filatrice**, born Arienzo, of **strada Porta di Sopra**, daughter of **ONOFRIO BUONO** and **ANGELA IMBIMBO** — the parents from the index, now with her own age, trade and street.",
+    "ark": "ANTENATI an_ua14250 img15r act14"
    }
   ]
  },
@@ -4151,6 +4201,26 @@
     "place": "Airola",
     "evidence": "A FALCO FROM ANOTHER TOWN, RECORDED SO THAT NOBODY JOINS HIM BY MISTAKE. «20. FALCO FRANCESCO | AIROLA | FALCO PIETRO, e CARBONE […]» ed «RIVETTI GIUSEPPA | Arienzo | RIVETTI GIOVANNI, ed ALTARELLI […] | 23 AGOSTO 1848». His patria is AIROLA, not Arienzo, and his father PIETRO FALCO appears nowhere in this archive. NO KINSHIP TO THIS LINE IS CLAIMED OR SUSPECTED; he is here because the surname is the same and the archive's rule is that the surname identifies nobody",
     "ark": "ANTENATI an_ua14146 (Arienzo, Matrimonj indice 1848) img 2 atto 20 — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Pietro Falco & [Carbone] (Airola)",
+    "person": "Camilla Carbone",
+    "role": "mother",
+    "event": "named in a marriage act",
+    "date": "19 Aug 1848",
+    "place": "Airola",
+    "evidence": "**HER FORENAME AT LAST — CAMILLA.** The index gave only «*CARBONE […]*», which is why this household carries a bracket in its name. The register act reads «*e di **CAMILLA CARBONE detta […]**, di professione **FILATRICE**, domiciliata ivi*» — **and she carries a «detta» alias that does not resolve.** She is alive in August 1848; her husband **PIETRO FALCO** is «**defunto**». **NO KINSHIP TO THIS LINE IS CLAIMED**: the patria is AIROLA.",
+    "ark": "ANTENATI an_ua14252 img21r act20"
+   },
+   {
+    "household": "Pietro Falco & [Carbone] (Airola)",
+    "person": "Francesco Falco",
+    "role": "child",
+    "event": "marriage",
+    "date": "19 Aug 1848",
+    "place": "Airola / Arienzo",
+    "evidence": "THE REGISTER ACT BEHIND THE INDEX. Act 20, civil **19 August 1848**, church **23 August** at Sant'Andrea — the index's date. «*FRANCESCO FALCO maggiore, di anni **trentuno**, **nato in AIROLA**, di professione contadino … figlio di **PIETRO FALCO DEFUNTO** … e di **CAMILLA CARBONE** … e **GIUSEPPA RIVETTI MINORE**, di anni ventisei, contadina, **nata in Arienzo***». Witnesses **Alfonso Verdicchio** and **Salvatore Laudato**. **Thirty-one in 1848 gives b. c.1817.** The bride's parents are **GIOVANNI RIVETTI and [—] ALTARELLI**, exactly as the index read them. **Still no kinship claimed to this line.**",
+    "ark": "ANTENATI an_ua14252 img21r act20"
    }
   ]
  },
