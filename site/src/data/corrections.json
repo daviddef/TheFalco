@@ -1984,7 +1984,12 @@
   "now": "**Three days later a son was born and given the dead boy's name.** Arienzo, *Nati 1819*, **act 33, folio 206, 18 March 1819**, at half past seven in the morning: «*è comparso **GIUSEPPE FALCO** … di professione **massaro di campagna**, domiciliato in detto comune, **strada Camellara** … e da **GELSOMINA VIGLIOTTA** sua moglie legitima … un **maschio** … a cui si è dato il nome di **DOMENICO CLEMENTE***».\n\n**And he lived.** Written later across the foot of his own birth act, in the registrar's hand: «*Con atto **6 agosto 1856** at[to] **21** in **S[anta] Maria a Vico** il Falco sposò **DOMENICA VIGLIOTTI** di Giuseppe*».",
   "how": "The 1819 birth register read act by act; the annotation magnified separately from the act.",
   "why": "**Two things follow and the second is a new instrument.**\n\n**The household is on STRADA CAMELLARA in 1819**, where this archive has it on **strada Costa** in 1816 — so either they moved, or the street does not identify this family. That matters, because **a second Giuseppe Falco declared a birth on the same street seven months later**, and he is a *contadino* married to *Antonia di Guida*. **Two men of one name on one street in one year**, separated only by trade and wife.\n\n**And a birth act can carry a marriage.** The registrar's later cross-reference reached a wedding in **another comune** — one that no Arienzo marriage register would ever have shown. **This archive closed a question three days ago on exactly that shape**: Nunziata Falco is in none of the Arienzo marriage registers of 1854, 1855 or 1856, all read act by act. **If her birth act is found, its margin may hold what the registers do not.**",
-  "by": "the 1819 birth register, read act by act"
+  "by": "the 1819 birth register, read act by act",
+  "superseded": {
+   "when": "2026-09-16",
+   "what": "«SANTA MARIA A VICO» WAS MY GUESS, AND ITS OWN REGISTER EXCLUDES IT — the comune in the margin is not established",
+   "note": "**«Santa Maria a Vico» was a guess and its own 1856 register excludes it** — act 21 there is Don Domenico de Lucia, promised 14 June, and there is no act of 6 August. The comune reads «S[?]basia a Vico» at five times and is **not established**. The bride's father reads **Gaspare**, not Giuseppe. **The marriage itself stands.**"
+  }
  },
  {
   "when": "2026-09-15",
@@ -2233,5 +2238,15 @@
   "how": "Work-list row 61, raised by the surname-first fix as its own leftover.",
   "why": "**A second given name is not a family.** «Carolina Rosa» filed under ROSA invents a Rosa family and puts her in it; the register never gave her a surname and the honest answer is that it did not.\n\n**The list is derived, not written, and that is the point.** A hard-coded forename list is one more thing that must be remembered when the archive grows. This one is rebuilt from `people.json` on every run.\n\n**And it was checked before it shipped**: no word in this corpus is both a frequent forename and an attested surname, so the rule cannot eat a real name. **FALCO is unchanged at 1,478 across the change** — the canary that says a surname fix has not quietly moved somebody.",
   "by": "the leftover from the previous fix"
+ },
+ {
+  "when": "2026-09-16",
+  "sev": "corrected",
+  "what": "«SANTA MARIA A VICO» WAS MY GUESS, AND ITS OWN REGISTER EXCLUDES IT — the comune in the margin is not established",
+  "was": "Published yesterday from the margin of Domenico Clemente Falco's birth act: «*Con atto **6 agosto 1856** at[to] **21** in **S[anta] Maria a Vico** il Falco sposò **DOMENICA VIGLIOTTI** di Giuseppe*» — and, on the strength of it, a household record placing his marriage at **Santa Maria a Vico**, a work-list row to read that act, and a second row to enumerate the comune.",
+  "now": "**The register excludes it.** Santa Maria a Vico, *Matrimoni* **1856** — `an_ua55736`, located through the year facet — has **act 21 as DON DOMENICO DE LUCIA, twenty-nine, born San Felice, promised 14 June 1856**. No Falco. And **no act of 6 August**: act 31 is 3 August, act 32 is 9 August.\n\n**At five times magnification the place reads «S[?]basia a Vico» and resolves no further.** Santa Maria a Vico was the only comune of that shape in this district and it is now ruled out by its own book.\n\n**Two other readings moved with it.** The year is **1856**, checked at six times — a cursive 5, not a 9, and a bridegroom born in 1819 marrying in 1896 would be seventy-seven. The bride's father reads **GASPARE**, not the *Giuseppe* first published.",
+  "how": "Going to the act the annotation names, instead of stopping at the annotation.",
+  "why": "**I read a plausible comune into an illegible word and then published it three times** — in a household record, in a correction, and in two work-list rows that sent the next reader to the wrong archive. **The annotation never said Santa Maria a Vico. I did.**\n\n**What survives is still worth having, and is the part that was actually written down:** a Falco of this house married a **DOMENICA VIGLIOTTI** on **6 August 1856**, recorded as **act 21** somewhere ending «*…a Vico*». That is a dated marriage for a man this archive knew only as a newborn.\n\n**And the instrument still works.** A marginal annotation reached a marriage in another comune, which is what it is for. It is the READING of the annotation that failed, not the method — and the failure is the archive's oldest one: **a name I wanted, in a word that would not resolve.**",
+  "by": "the register the annotation pointed at"
  }
 ]
