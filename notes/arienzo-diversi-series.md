@@ -30,29 +30,66 @@ Antonia di Guida herself — are exactly that shape.
 `tools/antenati_holdings.py Arienzo` lists **Diversi: 40 years — 1703, 1812–1813, 1820,
 1822–1835, 1837–1840, 1842–1850, 1853, 1855–1860, 1864–1865**, first ark `an_ua14064`.
 
-The volumes are **one to eight images each** — the whole series is smaller than a single year
-of deaths. Confirmed arks so far, by asking `tools/antenati.py ids` for the breadcrumb year:
+**THE COMPLETE MAP — 45 VOLUMES, 1812 TO 1865 — read on 17 September, in five requests.**
+
+**YESTERDAY'S TABLE HERE WAS WRONG AND IS REPLACED.** It listed `an_ua14056`–`14062` as Diversi
+volumes, from probing arks one at a time and reading the breadcrumb year. **Those arks are not
+Diversi at all** — they are some other series that happens to sit just below the block. Probing
+gave a year for each and no way to tell what series it belonged to, and the assumption was mine.
+
+**Do not probe arks. Read the holdings list.** `/search-registry/?localita=Arienzo&tipologia=Diversi`
+renders its results as `<li class="search-item" data-id="NNNNN">` with `Registro: YYYY` in the
+`<h3>` — so the ark is `an_ua{data-id}` and the year is beside it. Ten a page, `&s_page=N` to
+continue, five pages for the lot. **`&anno=YYYY` breaks it** — the page comes back with no
+results at all — so page through instead of filtering.
 
 | ark | year | images |
 |---|---|---|
-| `an_ua14056` | 1835 | 1 |
-| `an_ua14057` | 1837 | 1 |
-| `an_ua14058` | 1839 | 1 |
-| `an_ua14059` | 1840 | 2 |
-| `an_ua14060` | 1846 | 2 |
-| `an_ua14061` | 1848 | 1 |
-| `an_ua14062` | 1849 | 1 |
-| `an_ua14071` | 1825 | 4 |
-| `an_ua14080` | 1831 | 2 |
-| `an_ua14095` | 1848 | 8 |
-
-**THE ARITHMETIC IS NOT LINEAR AND MUST NOT BE GUESSED.** `14056`–`14062` run ascending by year
-with gaps, but `14071` is 1825 and `14058` is 1839 — so at least two sub-series are interleaved
-in this ark range. **Probe each ark and read the breadcrumb**; do not extrapolate. This archive
-has already been burned three times by ark arithmetic (see the method page).
-
-**Antenati rate-limits hard.** Seven probes at 0.8 s apart earned a 403 on the eighth. Space
-them, and remember a 403 is «wait», never «missing».
+| `an_ua14064` | 1812 | 66.18139 |
+| `an_ua57637` | 1813 | 66.18154 |
+| `an_ua57638` | 1813 | 66.18155 |
+| `an_ua14065` | 1820 | 66.18141 |
+| `an_ua14066` | 1822 | 66.18141 |
+| `an_ua14067` | 1823 | 66.18141 |
+| `an_ua14068` | 1824 | 66.18140 |
+| `an_ua14069` | 1824 | 66.18141 |
+| `an_ua14070` | 1825 | 66.18140 |
+| `an_ua14071` | 1825 | 66.18141 |
+| `an_ua14072` | 1826 | 66.18140 |
+| `an_ua14073` | 1826 | 66.18141 |
+| `an_ua14074` | 1827 | 66.18140 |
+| `an_ua14075` | 1827 | 66.18141 |
+| `an_ua14076` | 1828 | 66.18140 |
+| `an_ua14077` | 1828 | 66.18141 |
+| `an_ua14078` | 1829 | 66.18141 |
+| `an_ua14079` | 1830 | 66.18142 |
+| `an_ua14080` | 1831 | 66.18142 |
+| `an_ua14081` | 1832 | 66.18142 |
+| `an_ua14082` | 1833 | 66.18142 |
+| `an_ua14083` | 1834 | 66.18142 |
+| `an_ua14084` | 1835 | 66.18142 |
+| `an_ua14085` | 1837 | 66.18142 |
+| `an_ua14086` | 1838 | 66.18142 |
+| `an_ua14087` | 1839 | 66.18142 |
+| `an_ua14088` | 1840 | 66.18143 |
+| `an_ua14089` | 1842 | 66.18143 |
+| `an_ua14090` | 1843 | 66.18143 |
+| `an_ua14091` | 1844 | 66.18143 |
+| `an_ua14092` | 1845 | 66.18143 |
+| `an_ua14093` | 1846 | 66.18143 |
+| `an_ua14094` | 1847 | 66.18143 |
+| `an_ua14095` | 1848 | 66.18143 |
+| `an_ua14096` | 1849 | 66.18143 |
+| `an_ua14097` | 1850 | 66.18144 |
+| `an_ua14098` | 1853 | 66.18145 |
+| `an_ua14099` | 1855 | 66.18146 |
+| `an_ua14100` | 1856 | 66.18147 |
+| `an_ua14101` | 1857 | 66.18148 |
+| `an_ua14102` | 1858 | 66.18149 |
+| `an_ua14103` | 1859 | 66.1815 |
+| `an_ua14104` | 1860 | 66.18151 |
+| `an_ua14105` | 1864 | 66.18152 |
+| `an_ua14106` | 1865 | 66.18153 |
 
 ## What the 1825 volume holds — read from the image
 
@@ -123,3 +160,51 @@ a session that has not just spent the day rendering.** Probe from a cold start, 
 apart, and stop at the first 403 rather than grinding through backoff — the block does not clear
 inside an hour.
 
+
+
+## READING THEM: the heading is a trap
+
+**Sweep the BODY across both halves, not the heading.** Each act is headed «*Atto di morte fuori
+domicilio di [NAME]*», which looks like the perfect band to sweep — and in 1849 and 1850 it is.
+**From 1856 the clerk leaves the printed heading blank and writes only the body**, so a sweep of
+the heading band returns «no acts» for a volume that has five. That false nil was produced here
+on 17 September and caught by re-sweeping both halves.
+
+Use `--band 0.06 0.30 --half LR --cols 4`, eight images to a sheet. The certification chain at
+the foot of a transmitted extract is boilerplate — «*Visto per la legalità della firma del
+Sindaco … Per estratto conforme … Il Giudice … Il Presidente del Tribunale Civile*» — and it is
+full of official surnames that read like family ones. One was misread here as «di Guida» and is
+**«[il] Giudice A. Miele»**. Magnify before believing a name in that block.
+
+## What has been read, 17 September
+
+**1849** (`an_ua14096`, 9 images) — three acts, all «morte fuori domicilio». **No Falco.**
+
+**1850** (`an_ua14097`, 16 images) — and it produced the first find of the kind this series
+exists for. Bound in is an «**ESTRATTO DI MORTE**» from the **Comune di Airola**, act 14 of 1850:
+
+> «*…è morto nella **strada Mercato**, **NICOLA D'ADDIO**, **nato in ARIENZO**, di anni
+> **ventisei**, di professione **Bracciale**, domiciliato in **Airola DI PASSAGGIO**, **figlio di
+> PIETRO**, di professione Bracciale, domiciliato in **Arienzo**, e **fu FLAVIA TANOLLA***»
+
+Declared at Airola on 28 February by Giorgio Sottile, 48, *servente comunale*, and Nicola Tirino,
+60, contadino. **A man of Arienzo who died passing through the next town, and who is invisible to
+every Arienzo death sweep this archive has run.** Not a Falco — but **d'Addio is a surname this
+archive holds**: Dorotea d'Addio stood godmother at Gioacchino Falco's font in 1779 and at
+Maddalena Falco's in 1818, and a **Pietro d'Addio** witnessed Angela Rosa Crisci's wedding on
+1 June 1820. This Pietro is alive at Arienzo in 1850 with a son born about 1824. **No kinship is
+claimed; the name is recorded because this archive watches it.**
+
+**1853** (`an_ua14098`, 20 images) — **two deaths transmitted from NAPLES**, one of them from the
+**Sezione Montecalvario**, «*Estratto da' Registri degli Atti di Morte dell'anno 1853, numero
+d'ordine 866*». Plus two local acts, for **Carmela de Roggio** and **Antonio Rivetti**. Bodies not
+yet read. **No Falco in the headings.**
+
+**1856** (`an_ua14100`) and **1857** (`an_ua14101`) — acts present and unread; 1857 has four,
+headed «Atto di morte n° 204», «n° 66» and two more. This is where the heading trap was found.
+
+## Still to read
+
+**1855 and 1858–1865, and the whole of 1812–1848.** And the bodies of 1853, 1856 and 1857.
+**1855 was swept on the heading band and looked empty — that reading is void** and the volume
+must be swept again on the body band before anything is said about it.

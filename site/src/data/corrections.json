@@ -2448,5 +2448,16 @@
   "why": "**A negative is a statement about the instrument**, and this archive has now said that twice in two days — once about a civil register that lost eleven days, and now about a machine that cannot read the family's own name on a third of the pages it has transcribed.\n\n**The practical rule: in this collection, search the FORENAME and the MOTHER, not the surname**, and treat any surname nil as «not found by this method», never as «not there». **ROSARIA FALCO is still not found, and Santa Maria a Vico is still untried.**",
   "where": "/searched",
   "by": "this archive"
+ },
+ {
+  "when": "2026-09-17",
+  "what": "The ark table published here yesterday was not the Diversi series — and the fix took five requests, not sixty-eight probes",
+  "sev": "minor",
+  "was": "Yesterday this archive found the Arienzo «**Diversi**» register — the volume for people who died away from home — and published a table of «*Confirmed arks so far, by asking `tools/antenati.py ids` for the breadcrumb year*»: **`an_ua14056` 1835, `14057` 1837, `14058` 1839, `14059` 1840, `14060` 1846, `14061` 1848, `14062` 1849**, beside three arks from a different burst. It warned, correctly, that «*the arithmetic is not linear and must not be guessed*».",
+  "now": "**Those seven arks are not Diversi volumes at all.** The real series is **`an_ua14064` to `an_ua14106`, plus `an_ua57637`–`57638`** — **45 volumes, 1812 to 1865**, every one now mapped to its year.\n\n**The warning was right and I broke it anyway.** Probing an ark returns a breadcrumb — «*Arienzo > 1839*» — and **a breadcrumb gives the town and the year and says nothing about the series**. Seven arks answered with a year, and I wrote them down as Diversi because they sat next to one that was.",
+  "how": "Reading the holdings list instead of probing. `/search-registry/?localita=Arienzo&tipologia=Diversi` renders each volume as `<li class=\"search-item\" data-id=\"NNNNN\">` with «*Registro: YYYY*» beside it — ten to a page, `&s_page=N` to continue. **Five requests for all forty-five**, against fifty minutes of probing that returned nothing but 403s the day before.",
+  "why": "**It is the fourth time in two weeks that this archive has been caught identifying a volume by something other than the volume.** Ark arithmetic was wrong once, the catalogue label once, the printed year on the form once — and now a breadcrumb. **The standing rule already covers it: only the manuscript identifies a register.** What is new is that the holdings list identifies the SERIES, which the breadcrumb never did, and it was available the whole time.\n\n**A second thing was published void and is withdrawn here too.** The 1855 volume was swept on the band carrying the act heading, «*Atto di morte fuori domicilio di …*», and reported as empty. **From 1856 this clerk leaves that printed heading blank and writes only the body** — so the heading sweep returns «no acts» for a volume that has five, and the 1855 nil cannot stand. **It must be swept again across both halves before anything is said about it.**",
+  "where": "/method",
+  "by": "this archive"
  }
 ]
