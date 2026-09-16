@@ -1,15 +1,31 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import Documents from "@daviddef/archive-kit/components/Documents.astro";
 import plates from "../data/plates.json";
 const REPO = "https://github.com/daviddef/TheFalco";
 const registers = plates.filter(p => p.k === "register");
 const photos = plates.filter(p => p.k !== "register");
+
+/* A way in. This page reproduces every register plate whole with the archival
+   reference beside it, which is the point of it - but sixty-odd plates with no
+   contents list means finding one is scrolling. The anchors already existed;
+   nothing else about the page changes. */
+const yearOf = (t) => { const m = String(t || "").match(/\b(1[6-9]\d\d|20\d\d)\b/); return m ? +m[1] : null; };
+const index = [...registers, ...photos].map((p) => ({
+  year: yearOf(p.when) || yearOf(p.cite),
+  title: p.t,
+  source: p.cite,
+  href: "#" + String(p.f).replace(/\.jpg$/, ""),
+})).sort((a, b) => (a.year || 9999) - (b.year || 9999));
 ---
 <Base title="Documents">
   <p class="lede">The images this archive actually rests on: the register pages that carry the
   evidence, and the family's own photographs. Every register plate below is reproduced with the
   archival reference that identifies it, so the claim and the page that proves it sit together.</p>
+
+  <h2>What is reproduced here</h2>
+  <Documents rows={index} u={u} unit="plates" />
 
   <h2>Register pages</h2>
   <p>Reproduced from the Portale Antenati, which publishes the civil registers of the Archivio di
