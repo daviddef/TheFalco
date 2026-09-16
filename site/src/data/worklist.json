@@ -436,10 +436,10 @@
   {
    "n": 47,
    "what": "Settle what «ivi» refers to in these acts — the street, or the comune",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**A finding published today rests on it.** Crescenzo Falco's marriage act gives him «*domiciliato in strada Sant'Andrea*» and his father «*domiciliato **ivi***», and this archive read *ivi* as the street and concluded **the household had moved off strada Camellara by 1845.** **If *ivi* means the comune, that conclusion is wrong** and the family may never have left. The test is cheap: find acts where *ivi* follows a person whose street is independently known to differ from the previous person's. **A word used this often should be settled once and written into the method page.**"
+   "note": "**DONE 16 Sep 2026 — «ivi» is the COMUNE, and the finding that rested on it is withdrawn.** The test this row asked for was in three acts already rendered for row 60.\n\n**The proof, three times, in two different printed forms.** The 1824 birth act atto 73 names two witnesses in one sentence: «*Tomaso Esposito … domiciliato **ivi strada Camellara***» and «*Antonio Bernardo … domiciliato **ivi strada Terra Murata***» — one word, two streets. Crescenzo Falco's own 1845 marriage act does it again: groom «*domiciliato **ivi strada Sant'Andrea***», bride «*domiciliata **ivi strada Cappuccini***». And the 1828 death act atto 54 uses «ivi» for the **first** person it names, where the only antecedent is the comune.\n\n**A transcription error was hiding inside it.** The 1845 act reads «domiciliato **ivi** strada Sant'Andrea»; this archive wrote «domiciliato **in** strada Sant'Andrea». Both files are corrected.\n\n**Consequence: a bare «domiciliato ivi» states the comune and gives no street.** So the 1845 act does NOT place Giuseppe Falco off strada Camellara, and the household may never have left. The correction supersedes the published entry; the rest of that finding — Crescenzo's birth date, Antonia di Guida alive in 1845 — is untouched, because it turns on the form marking other parents dead and not these two.\n\n**Written into the method page** as the sixth thing the Arienzo registers taught this archive to distrust, at `/method#ivi`."
   },
   {
    "n": 48,
