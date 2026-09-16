@@ -40,6 +40,6 @@ const many = names.filter(n => n.n > 1).length;
     person. That is why each opens a <strong>name</strong> page rather than a person page, and why
     it never merges them. Where this archive has actually identified somebody, the name page points
     at their <a href={u("/people/")}>person page</a>.</p>
-    <EveryName names={names} u={u} unit="records" />
+    <EveryName names={names} u={u} counts="records" />
   </section>
 </Base>
