@@ -106,3 +106,20 @@ marrying in 1834 — need only have been born before 1810.**
 3. **Look first at 1849 onward** (`an_ua14061`, `an_ua14062` and the 1853–1865 volumes), because
    **Giuseppe Falco of Antonia di Guida is alive in November 1849 and in no volume since**, and
    the one place his death could hide is a comune that is not Arienzo.
+
+## The rate limit, measured — 17 September
+
+An attempt to probe `an_ua14040`–`14107` one ark at a time, **four seconds apart, with backoff
+of 60/120/240/300/420/600 s on each 403**, resolved **nothing in fifty minutes**. Every request
+came back 403, including after a ten-minute wait.
+
+**This is not the endpoint refusing a bad ark — it is a cumulative session block**, earned by
+the day's earlier work: the sweeps for rows 60, 63 and 56 rendered several hundred image tiles.
+`tools/antenati.py` already says so and it is right: **a 403 means «wait», never «missing», and
+never «record a negative».**
+
+**So the ark map above is what one short burst bought before the block, and the rest of it needs
+a session that has not just spent the day rendering.** Probe from a cold start, four seconds
+apart, and stop at the first 403 rather than grinding through backoff — the block does not clear
+inside an hour.
+
