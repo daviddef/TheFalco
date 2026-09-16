@@ -1,5 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
+import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
 import FilterTable from "@daviddef/archive-kit/components/FilterTable.astro";
 import { u } from "../../lib/url.js";
 import { people } from "../../lib/people.js";
@@ -195,6 +196,10 @@ const nLiving = count((r) => r.living);
       eyebrow="Everyone this archive can name"
       dek={`${distinct.toLocaleString()} people the archive can name, drawn from ${nRecords.toLocaleString()} records — filterable by family, by place and by name. Every one has a page.`}
       noindex={true}>
+
+<NameLists here="people" u={u} />
+
+
 
   <div class="card" style="margin-bottom:1.2rem">
     <p><strong>This is everyone, one row per person.</strong> Every named individual the archive

@@ -4,6 +4,7 @@
    «Pasquale Falco» alone names seventy-nine records across sixty years and is
    certainly several men. */
 import Base from "../../layouts/Base.astro";
+import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
 import EveryName from "@daviddef/archive-kit/components/EveryName.astro";
 import { u } from "../../lib/url.js";
 import register from "../../data/register.json";
@@ -34,6 +35,10 @@ const many = names.filter(n => n.n > 1).length;
 <Base title="Every Name"
       eyebrow={`${names.length.toLocaleString()} names · ${many.toLocaleString()} carried by more than one record`}
       dek="A name is not a person. This is every name in the register, and how many records carry it.">
+
+<NameLists here="who" u={u} />
+
+
   <section class="blk">
     <p class="prose">The register holds {register.length.toLocaleString()} records and only
     {names.length.toLocaleString()} distinct names, so most of these names are worn by more than one

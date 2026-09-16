@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
 import Register from "@daviddef/archive-kit/components/Register.astro";
 import { u } from "../lib/url.js";
 import { md } from "../lib/md.js";
@@ -53,6 +54,10 @@ const unlinked = register.length - linked;
       eyebrow="Every record this archive has found"
       dek={`${register.length} entries for ${distinct} distinct names, ${linked} of them with a link to the source that names them; the other ${unlinked} say in the Source column why no link exists. This is the raw catch — not a family tree, and most of it is not this family.`}
       noindex={true}>
+
+<NameLists here="register" u={u} />
+
+
 
   <div class="card" style="border-left:3px solid var(--accent)">
     <h3 style="margin-bottom:.4rem">Read this before you read the list</h3>
