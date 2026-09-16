@@ -4613,5 +4613,100 @@
     "ark": "ANTENATI an_ua14343 (Arienzo, Morti 1841) atto 82, img 50l — READ FROM THE IMAGE"
    }
   ]
+ },
+ {
+  "name": "Crescenzo Crisci & Angela Quotolo",
+  "members": [
+   {
+    "household": "Crescenzo Crisci & Angela Quotolo",
+    "person": "Crescenzo Crisci",
+    "role": "father",
+    "event": "death",
+    "date": "4 Nov 1825",
+    "place": "Masseria di Domenico de Luca, luogo detto Fabrica, Comune di Nola",
+    "evidence": "«*è morto nella **Masseria di Domenico de Luca** … nel luogo detto **Fabrica**, nominato **CRESCENZO CRISCI**, di anni **cinquantatré**, **marito di ANGELA QUOTOLO**, nato in **ARIENZO** … di professione **colono**, domiciliato ivi*» — **HE DIED AWAY FROM HOME, AND THAT IS WHY THIS ACT EXISTS.** The Comune of **Nola** drew it (its act 179 of 1825, on 5 November) and sent a certified copy to Arienzo, which copied it whole into the **«Diversi»** register — the volume for births at sea, recognitions, adoptions, **people who died outside their own domicile**, and stillbirths. **A SERIES THIS ARCHIVE HAD NEVER OPENED**, found on 17 September 2026 while hunting for something else. Fifty-three in November 1825, so born about 1772. Declared at Nola by two of his own brothers, **DOMENICO CRISCI**, colono, and **GABRIELE CRISCI**, both living at Arienzo.",
+    "ark": "ANTENATI an_ua14071 (Arienzo, Diversi 1825) atto 1, img 2r — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Crescenzo Crisci & Angela Quotolo",
+    "person": "Angela Quotolo",
+    "role": "mother",
+    "event": "named as widow",
+    "date": "4 Nov 1825",
+    "place": "Arienzo",
+    "evidence": "«*marito di **ANGELA QUOTOLO***» — named as his wife and not marked dead, so living and widowed on 4 November 1825. **This archive already held her**, but only as a name in a marriage index: the mother of Aniello Crisci, who married Giovanna Falco in 1829. She now has a dated document.",
+    "ark": "ANTENATI an_ua14071 (Arienzo, Diversi 1825) atto 1, img 2r — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Crescenzo Crisci & Angela Quotolo",
+    "person": "Alessandro Crisci",
+    "role": "grandfather",
+    "event": "death window",
+    "date": "before 4 Nov 1825",
+    "place": "Arienzo",
+    "evidence": "«*figlio di **ALESSANDRO CRISCI DEFUNTO***» — a Crisci generation this archive did not have. **NOT the Alessandro Crisci, 49, a bracciale, who declares a death in the 1818 register**: that man was alive in 1818 and this one is «defunto» by 1825, which is possible but not established, and the archive does not merge two men on a forename and a surname.",
+    "ark": "ANTENATI an_ua14071 (Arienzo, Diversi 1825) atto 1, img 2r — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Crescenzo Crisci & Angela Quotolo",
+    "person": "Carmina Sorrino",
+    "role": "grandmother",
+    "event": "named as living",
+    "date": "4 Nov 1825",
+    "place": "Arienzo",
+    "evidence": "«*e di **CARMINA SORRINO**, domiciliata nel medesimo Comune di Arienzo*» — named without «fu» and given a domicile, so alive in November 1825. **NOT the Carmina Sorrino, 18, of strada Santa Lucia, who died in the register this archive has already read** — that one was a girl of eighteen and the daughter of Agata della Vita. Two women of one name, kept apart.",
+    "ark": "ANTENATI an_ua14071 (Arienzo, Diversi 1825) atto 1, img 2r — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Crescenzo Crisci & Angela Quotolo",
+    "person": "Aniello Crisci",
+    "role": "child",
+    "event": "named as a surviving minor",
+    "date": "4 Nov 1825",
+    "place": "Arienzo",
+    "evidence": "«*ha lasciato superstiti quattro figli, cioè **ANIELLO d'anni QUINDICI***» — **so born about 1810, and NINETEEN when he married GIOVANNA FALCO on 6 September 1829.** This archive held that marriage from an index and had no age for him at all.",
+    "ark": "ANTENATI an_ua14071 (Arienzo, Diversi 1825) atto 1, img 2r — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Crescenzo Crisci & Angela Quotolo",
+    "person": "Sante Crisci",
+    "role": "child",
+    "event": "named as a surviving minor",
+    "date": "4 Nov 1825",
+    "place": "Arienzo",
+    "evidence": "«*SANTE d'anni DODICI*» — born about 1813. New to this archive.",
+    "ark": "ANTENATI an_ua14071 (Arienzo, Diversi 1825) atto 1, img 2r — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Crescenzo Crisci & Angela Quotolo",
+    "person": "Carmina Crisci",
+    "role": "child",
+    "event": "named as a surviving minor",
+    "date": "4 Nov 1825",
+    "place": "Arienzo",
+    "evidence": "«*CARMINA d'anni DIECI*» — born about 1815, named for her grandmother Carmina Sorrino. New to this archive.",
+    "ark": "ANTENATI an_ua14071 (Arienzo, Diversi 1825) atto 1, img 2r — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Crescenzo Crisci & Angela Quotolo",
+    "person": "Maria Rosa Crisci",
+    "role": "child",
+    "event": "named as a surviving minor",
+    "date": "4 Nov 1825",
+    "place": "Arienzo",
+    "evidence": "«*e MARIA ROSA d'anni CINQUE*» — born about 1820. New to this archive.",
+    "ark": "ANTENATI an_ua14071 (Arienzo, Diversi 1825) atto 1, img 2r — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Crescenzo Crisci & Angela Quotolo",
+    "person": "Crescenzo Crisci",
+    "role": "father",
+    "event": "the list is of MINORS, and that matters elsewhere",
+    "date": "4 Nov 1825",
+    "place": "Arienzo",
+    "evidence": "**READ THE ARITHMETIC OF THIS ACT BEFORE USING IT.** It names **four** surviving children, aged **fifteen, twelve, ten and five**, and it makes their father **fifty-three**. A man of fifty-three whose eldest living child is fifteen either married at thirty-eight or **has older children who are not on this list** — and these acts list the children who need a tutor, which is to say the minors. **So this is not a complete list of his children and must not be read as one.**\n\n**IT BEARS ON ALESSANDRA CRISCI.** She married **MATTEO FALCO** on 24 January 1834, and the marriage index gives her parents as «*CRISCI [forename lost to the fold shadow], [QUO]TOLO ANGELA*». This archive filed that as **a resemblance and not a fact**, because Angela Quotolo is not a rare name here and the father's forename cannot be read — **and that still stands.** What this act removes is the obvious objection to it: that Alessandra is not among his children. **She would not be, if she was already grown.** A resemblance with a hole in it is now a resemblance without one, and it is still not a fact.",
+    "ark": "ANTENATI an_ua14071 (Arienzo, Diversi 1825) atto 1, img 2r — READ FROM THE IMAGE"
+   }
+  ]
  }
 ]
