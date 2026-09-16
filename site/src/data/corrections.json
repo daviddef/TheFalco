@@ -2426,5 +2426,27 @@
   "why": "**The dating is what makes it hold together.** She married in March 1793 at about twenty-one and Andreana was baptised in November 1796 — three and a half years, with the wedding on the right side. Nothing had to be assumed to fit.\n\n**AND THE IDENTIFICATION RESTS ON THE COUPLE, NOT THE FORENAME.** This archive holds a **second Arcangelo Crisci**, the one who married Anna Falco, and has already been careful to keep them apart. It is the pairing with Sara Ruggiero — in the 1793 act, and again in both children's acts as «*filiam/filium Archangeli, e quondam Sara Ruggiero*» — that separates them. A forename would not have.\n\n**These are machine transcriptions of a parish hand and the images are not read.** The 1793 act is stronger than most because **the same leaf attests it twice**, once in the year's index line and once in the act. It is still a candidate until the image is rendered.\n\n**One by-product for a different question.** Both 1820 acts marry a bride the writer calls «*meam Parochianam*» to a groom «*ex Parrocchia **Sanctae Agnetis***», two days apart — the first evidence about **Sant'Agnese** that does not come from a film label. And both cite «*Episcopalis Curiae **Sanctae Agathae Gothorum***»: **Arienzo answered to the diocese of Sant'Agata de' Goti**, which is where to write for what the parish does not hold.",
   "where": "/households",
   "by": "this archive"
+ },
+ {
+  "when": "2026-09-17",
+  "what": "Maddalena Falco's baptism — and the reason two passes could not find it",
+  "sev": "minor",
+  "was": "**«Maddalena Falco's baptism — two passes spent, still unread.»** The work-list row named the ark `3Q9M-CSD3-1381-R` and the date 7 June 1818, and recorded that **two rendering passes went hunting the margin label and neither reached the entry**.",
+  "now": "**They reached the margin label because the margin label is all that is on that leaf.** «*[Anno] D[omi]ni 1818, die vero **septima 7 Junii**, R. D. **BLASIUS MANSIONARIUS ARRICALE** Substitutus baptizavit infantem **natam** ex **JOSEPHO FALCO et ANTONIA DI GUIDA** conjugibus hujus Parochiae, **cui dedit nomen MAGDALENA. Matrina fuit DOROTHEA D'ADDIO.** HYACINTHUS Archip. MORGILLO*» — and it is on **`3Q9M-CSD3-13LG-7`**, a different leaf altogether.\n\n**In this parish register the year's index and the year's acts are bound apart.** A search that lands on the index will never reach the act, however many tiles it renders.",
+  "how": "FamilySearch full text, quoted phrase «Maddalena Falco» — two hits in the whole baptism collection: the label, and the act.",
+  "why": "**The godmother is the point.** **DOROTEA D'ADDIO** also stood at **Gioacchino Falco's** font in **1779**. One woman at this family's baptisms across forty years, and a second name to put beside Sara Ruggiero as the connective tissue of the street.\n\n**And it is a lesson about where to look, not about how hard to look.** Two passes of tile-by-tile rendering were spent on a leaf that could not contain the answer. **Before rendering, ask the full text which leaf the words are on.**",
+  "where": "/households",
+  "by": "this archive"
+ },
+ {
+  "when": "2026-09-17",
+  "what": "A surname search of the parish baptisms cannot produce a negative — the machine renders FALCO as FALO and FALIO on a third of the pages",
+  "sev": "major",
+  "was": "This archive has used FamilySearch's full text of the Arienzo parish registers as a **finding aid and as a test of absence**, and work-list row 42 proposed exactly that: «*Test the parish baptisms first*» for **ROSARIA FALCO**, whose birth act is in none of the four civil years she could have been born in.",
+  "now": "**The test was run and it is inconclusive, and the collection's own numbers say why.** Same collection, same place filter, one word changed:\n\n| spelling | pages |\n|---|---|\n| `Falco` | **361** |\n| `Falo` | **126** |\n| `Falio` | **92** |\n| `Zalco` | 7 |\n| `Salco` | 6 |\n| `Talco` | 3 |\n\n**Two hundred and eighteen pages carry the name in a form that a search for «Falco» never sees — about a third of the corpus.** And the machine is not even consistent within one leaf: an index page renders the same entry as «*Joseph **Zalco** fol: 185*» and «*Joseph **Falco** fol: 185*» a few words apart.\n\nThe exact Latin form fares worse still: «*ex Josepho Falco*» returns **two pages in the entire collection**, for a household with at least eight children.",
+  "how": "Work-list row 42. Counting the mis-renderings instead of trusting the nil.",
+  "why": "**A negative is a statement about the instrument**, and this archive has now said that twice in two days — once about a civil register that lost eleven days, and now about a machine that cannot read the family's own name on a third of the pages it has transcribed.\n\n**The practical rule: in this collection, search the FORENAME and the MOTHER, not the surname**, and treat any surname nil as «not found by this method», never as «not there». **ROSARIA FALCO is still not found, and Santa Maria a Vico is still untried.**",
+  "where": "/searched",
+  "by": "this archive"
  }
 ]
