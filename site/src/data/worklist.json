@@ -311,7 +311,7 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**A birth act can carry a marriage, and this archive only learned that today.** Act 33 of 1819 has the registrar's later note across its foot: «*Con atto 6 agosto 1856 atto 21 in S. Maria a Vico il Falco sposò Domenica Vigliotti*» — **a wedding in another comune, recorded nowhere an Arienzo marriage register would show it.** Work-list row 7 closed with Nunziata Falco absent from the Arienzo marriage registers of 1854, 1855 and 1856, all read act by act. **That absence now has a second possible explanation and a way to test it.** First find her birth act, then read its margin.\n\n**PROMOTED by the pattern found on 15 September.** The annotation practice appears to begin between 1845 and 1856 — absent on marriages of 1844 and 1845, present on 1856 and 1880. **Nunziata married on 13 November 1855, which is exactly on that boundary.** Her margin is now the most informative one in the archive either way: it either gives her marriage, or it dates the practice to after November 1855."
+   "note": "**A birth act can carry a marriage, and this archive only learned that today.** Act 33 of 1819 has the registrar's later note across its foot: «*Con atto 6 agosto 1856 atto 21 in S. Maria a Vico il Falco sposò Domenica Vigliotti*» — **a wedding in another comune, recorded nowhere an Arienzo marriage register would show it.** Work-list row 7 closed with Nunziata Falco absent from the Arienzo marriage registers of 1854, 1855 and 1856, all read act by act. **That absence now has a second possible explanation and a way to test it.** First find her birth act, then read its margin.\n\n**PROMOTED by the pattern found on 15 September.** The annotation practice appears to begin between 1845 and 1856 — absent on marriages of 1844 and 1845, present on 1856 and 1880. **Nunziata married on 13 November 1855, which is exactly on that boundary.** Her margin is now the most informative one in the archive either way: it either gives her marriage, or it dates the practice to after November 1855.\n\n**A SECOND ROUTE, 16 September.** The marriage volumes carry a **NOTIFICAZIONI register bound in after the acts** — banns, published where the couple lives even when the wedding is celebrated elsewhere. **That is this row's exact shape.** See the new banns row."
   },
   {
    "n": 32,
@@ -332,10 +332,10 @@
   {
    "n": 34,
    "what": "The Arienzo MARRIAGE REGISTERS after 1849 — there is no index at all",
-   "state": "running",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**REOPENED. The series does not end at 1858 — I read a rate-limit refusal as an absence.** `an_ua14264` is **Matrimoni 1860, 38 images**; `14267` is **1863, 24 images**; the town's year facet gives **Nati, Matrimoni and Morti all 1809–1865**.\n\n**READ: 1850 (act 6 is MICHELE FALCO), 1851, 1852, 1853, 1857, 1858** — plus 1854–1856 earlier. **READ SINCE: 1859 (25 acts, no Falco) and 1860 (no Falco — but act 3 is the ANNECCHINO–CARFORA marriage of 20 January 1860, which gives that line a generation). UNREAD: 1861, 1862, 1863, 1864, 1865** = `an_ua14263`–`14269`.\n\n**`tools/antenati.py` now stops on a 403 and says «RATE LIMITED, not missing».** It reported the refusal in the same words it uses for a volume that does not exist, which is how a published conclusion came to rest on four failed fetches."
+   "note": "**DONE — sixteen years, 1850 to 1865, every act read.** The series runs to `an_ua14269`, not to 1858; that earlier claim was four rate-limit refusals read as absences and is withdrawn.\n\n**TWO FALCO MARRIAGES IN SIXTEEN YEARS.** **1850 act 6: MICHELE FALCO**, *vedovo di Antonia Viglioti*, marrying Giovanna d'Ambrogio — merging two households and naming his parents. **1861 act 16: STANISLAO FALCO, 24, PASTORE, son of Vincenzo Falco and Andreana Crisci** — **a child of generation three this archive did not have** — marrying Filomena di Lucia.\n\n**Nil years:** 1851, 1852 (two bound registers), 1853, 1857, 1858, 1859, 1860, 1862, 1863, 1864, 1865. **1854–1856** were read earlier and gave three Falco weddings.\n\n**And the year's best find was not a Falco:** 1860 act 3 is the **ANNECCHINO–CARFORA** marriage that gives that line a generation and puts the Carfora at Arienzo.\n\n**What remains from this row is the banns.** The 1861 volume binds a **notificazioni** register after its acts; see the banns row."
   },
   {
    "n": 35,
@@ -568,6 +568,14 @@
    "owner": "this archive",
    "since": "2026-09-16",
    "note": "**Every route to Maria Carfora's parents was run at FORCHIA and all three shut.** The Arienzo marriage of 20 January 1860 names **«fu [?]ERIO CARFORA», contadino of Arienzo, and «fu PASQUA MORGILLO»** — **a Carfora house at Arienzo, marrying a Morgillo, in the generation born about 1800.**\n\n**Their daughter Maria Antonia was born at Arienzo about 1831**, so her birth act is in `an_ua14406` + (1831 − 1809) = **`an_ua14428`**, and it would give her father's forename — which does not resolve on the marriage act. **Then run the Arienzo registers for CARFORA the way they have been run for FALCO.** The surname was never searched here because the family was assumed to be Forchia's."
+  },
+  {
+   "n": 64,
+   "what": "The NOTIFICAZIONI registers — banns, bound after the marriage acts",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "**Found bound into the 1861 marriage volume and not used before.** After the twenty-nine marriage acts, `an_ua14265` carries a second register of **notificazioni** — the banns — giving each couple with **both sets of parents** in a cleaner hand. It is what supplied **LUIGI DI LUCIA** when the marriage act would not resolve him.\n\n**The reason to read them all: a notificazione is published where the couple LIVES, and the wedding may be celebrated elsewhere.** That is exactly **NUNZIATA FALCO**'s shape — a parish date of 13 November 1855 and no Arienzo marriage act. **Check every volume for a bound-in banns register**, starting with 1855 and 1856."
   }
  ]
 }

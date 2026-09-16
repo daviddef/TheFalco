@@ -5419,6 +5419,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "«*e di **ANDREANA CRISCI**, domiciliata **ivi***» — alive, unmarked, on the same evidence as her husband. Her latest previous sighting was her son Raffaele's marriage act of 7 March 1844.",
 "ark": "ANTENATI an_ua14366 img51r atto47"
+},
+{
+"event": "named as living",
+"date": "19 Sep 1861",
+"place": "Arienzo",
+"evidence": "«*e di **ANDREANA CRISCI**, domiciliata **ivi***» — alive, unmarked, on the same evidence. This is the Andreana Crisci who married Vincenzo Falco in December 1814, not the other woman of the name this archive keeps separate.",
+"ark": "ANTENATI an_ua14265 img18r act16"
 }
 ],
 "sources": [
@@ -5555,6 +5562,14 @@
 {
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "stanislao-falco",
+"name": "Stanislao Falco",
 "via": "register",
 "vias": [
 "register"
@@ -9403,6 +9418,30 @@
 "dp": "Santa Maria a Vico, Caserta, Campania, Italia"
 },
 {
+"slug": "filomena-di-lucia",
+"name": "Filomena di Lucia",
+"surname": "DI LUCIA",
+"household": "Vincenzo Falco & Andreana Crisci",
+"role": "married in",
+"events": [
+{
+"event": "marriage",
+"date": "19 Sep 1861",
+"place": "Arienzo",
+"evidence": "Stanislao Falco's bride: **twenty-three**, born Arienzo, so b. c.1838. **Her parents are LUIGI DI LUCIA, *muratore*, and MARTA DI NIZZO** — the father's forename is illegible on the marriage act itself and comes from the **NOTIFICAZIONI register bound into the same volume**, which gives the same couple in a clerk's cleaner hand: «*matrimonio tra **STANISLAO FALCO** figlio di **VINCENZO** e di **ANDREANA CRISCI**, e **FILOMENA DI LUCIA** figlia di **LUIGI** e di **MARTA DI NIZZO***». Her father was already dead at the wedding.",
+"ark": "ANTENATI an_ua14265 img18r act16 + img39r (notificazioni)"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
 "slug": "anna-di-ruggio-of-nicola-rivetti-contadino-anna-di-r",
 "name": "Anna di Ruggio",
 "surname": "DI RUGGIO",
@@ -10181,6 +10220,14 @@
 {
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "stanislao-falco",
+"name": "Stanislao Falco",
 "via": "register",
 "vias": [
 "register"
@@ -11162,6 +11209,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "stanislao-falco",
+"name": "Stanislao Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -11288,6 +11343,14 @@
 {
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "stanislao-falco",
+"name": "Stanislao Falco",
 "via": "register",
 "vias": [
 "register"
@@ -13062,6 +13125,14 @@
 {
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "stanislao-falco",
+"name": "Stanislao Falco",
 "via": "register",
 "vias": [
 "register"
@@ -21846,6 +21917,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "stanislao-falco",
+"name": "Stanislao Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -22398,6 +22477,14 @@
 {
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "stanislao-falco",
+"name": "Stanislao Falco",
 "via": "register",
 "vias": [
 "register"
@@ -26400,6 +26487,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "stanislao-falco",
+"name": "Stanislao Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -27151,6 +27246,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "stanislao-falco",
+"name": "Stanislao Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -27277,6 +27380,14 @@
 {
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "stanislao-falco",
+"name": "Stanislao Falco",
 "via": "register",
 "vias": [
 "register"
@@ -28585,6 +28696,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "stanislao-falco",
+"name": "Stanislao Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -29876,6 +29995,152 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "stanislao-falco",
+"name": "Stanislao Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
+"slug": "stanislao-falco",
+"name": "Stanislao Falco",
+"surname": "FALCO",
+"household": "Vincenzo Falco & Andreana Crisci",
+"role": "child",
+"events": [
+{
+"event": "marriage",
+"date": "19 Sep 1861",
+"place": "Arienzo",
+"evidence": "A CHILD OF GENERATION THREE THIS ARCHIVE DID NOT HAVE. «*sono comparsi nella Casa Comunale **STANISLAO FALCO**, di anni **VENTIQUATTRO**, nato in **ARIENZO**, di professione **PASTORE**, domiciliato in Arienzo, figlio di **VINCENZO FALCO**, di professione contadino, domiciliato in Arienzo, e di **ANDREANA CRISCI**, domiciliata ivi; e **FILOMENA DI LUCIA**, di anni ventitré, nata in Arienzo, figlia di fu [?] di Lucia, **muratore**, e di **MARTA di NIZZO***». Church celebration **23 September 1861**, parish of **Sant'Andrea Apostolo**. **A PASTORE — a shepherd — in a house of contadini.** Twenty-four in September 1861 gives **b. c.1837**, which would make Andreana Crisci about forty at his birth: late, but this register's ages are good to about three years and no better, and she was bearing children into 1828 on the archive's own reckoning.",
+"ark": "ANTENATI an_ua14265 img18r act16"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "andreana-crisci",
+"name": "Andreana Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Raffaele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Luigi (Aloysius) Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Pasquale Falco (of Vincenzo, 1830-1833)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonio-falco",
+"name": "Antonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "andrea-falco",
+"name": "Andrea Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nunziata-falco",
+"name": "Nunziata Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "daughter-falco",
+"name": "[daughter] Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci-2",
+"name": "Pasquale Falco (of Vincenzo, the second, 1834)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelandrea-falco",
+"name": "Angelandrea Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "sara-falco",
+"name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-nunzio-falco",
+"name": "Giuseppe Nunzio Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -30163,6 +30428,13 @@
 "ark": "ANTENATI an_ua14366 img51r atto47"
 },
 {
+"event": "named as living",
+"date": "19 Sep 1861",
+"place": "Arienzo",
+"evidence": "ALIVE AT SIXTY-NINE, three years before the other sighting. «*figlio di **VINCENZO FALCO**, di professione **contadino**, domiciliato in **Arienzo***» — **no «fu», no «defunto»**, in an act that marks the bride's father dead in the very next clause («*figlia di **fu** [?] di Lucia*»).",
+"ark": "ANTENATI an_ua14265 img18r act16"
+},
+{
 "event": "birth",
 "date": "1793",
 "place": "Arienzo",
@@ -30325,6 +30597,14 @@
 {
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "stanislao-falco",
+"name": "Stanislao Falco",
 "via": "register",
 "vias": [
 "register"
@@ -30787,6 +31067,14 @@
 {
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "stanislao-falco",
+"name": "Stanislao Falco",
 "via": "register",
 "vias": [
 "register"
