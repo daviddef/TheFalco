@@ -527,7 +527,7 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Eight were wrong and were found by accident.** 179 household records cite an ANTENATI volume and image; eight have been corrected and a handful of death citations spot-checked as sound. **161 have never been followed.**\n\n**No gate can catch this** — `checkarchive` checks that links reach pages, and nothing opens an image. The check is a reading job: render the cited band, confirm the act number, the date and the name. **Prioritise by load**: the citations that carry a claim nothing else supports. A wrong image on a fact with three sources is untidy; a wrong image on a fact with one is a fact with none."
+   "note": "**Made executable: `tools/citation_check.py`.** **207 citations, and 134 are the SOLE support for their fact** — that is the priority order the row asked for and could not previously produce. Eight are already corrected.\n\n**It prints the render command for each**, so verifying one is a copy and a glance — does the act number match, does the date, is the name there. `--volume an_uaNNNNN` does a whole volume in one sitting, which is the cheap way to spend it: **`an_ua14319` (deaths 1817) alone holds 22 citations, 12 of them sole support.**\n\n**The top of the list is misleading in one way worth knowing**: the acts read from the image in this session sort first because nothing else supports them, and they are verified by construction. **Start at `an_ua14319` and work the old volumes.**"
   },
   {
    "n": 59,
@@ -600,6 +600,14 @@
    "owner": "this archive",
    "since": "2026-09-16",
    "note": "**162 lines of prose.** Only Defranceschi and D'Arcy hold questions as data, and two of seven is the ceiling until the rest do. The shape is **the question, what is known, what has been tried, and the specific record that would answer it** — that last field is what makes it a queue rather than a list of regrets. Shape: `kit/components/Questions.astro`.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside.\n\n**[State corrected 16 September: this row arrived as `open`, which `checkworklist` rejects — the allowed set is blocked / done / next / running / struck. Read as `next`; nothing else about the row is changed.]**"
+  },
+  {
+   "n": 68,
+   "what": "The deploy workflow's actions all target Node 20, which GitHub has deprecated",
+   "state": "next",
+   "owner": "the Falco session",
+   "since": "2026-09-16",
+   "note": "**Every run of «Build and deploy the archive» carries this annotation:** «*Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: **actions/checkout@v4, actions/configure-pages@v5, actions/setup-node@v4, actions/upload-artifact@v4***».\n\n**Not breaking today — GitHub is force-running them on 24** — but «forced» is not a resting state, and when the runners stop doing it the build stops. **The fix is a version bump on four actions**: checkout@v5, configure-pages@v6, setup-node@v5, upload-artifact@v5.\n\n**This is the shared workflow, so it is every archive in the estate, not this one.** Raised here because this is where it was seen; it belongs to whoever owns `.github/workflows`."
   }
  ]
 }
