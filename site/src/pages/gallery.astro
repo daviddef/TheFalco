@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import Gallery from "@daviddef/archive-kit/components/Gallery.astro";
 import plates from "../data/plates.json";
 
 const yearOf = (s) => { const m = String(s || "").match(/\b(1[6-9]\d\d|20\d\d)\b/); return m ? +m[1] : null; };
@@ -9,6 +10,23 @@ const rows = plates.map((p) => ({ ...p, y: yearOf(p.when) || yearOf(p.cite) || n
 const KIND = { register: "register act", photo: "photograph", record: "record" };
 const kinds = [...new Set(rows.map((r) => r.k || "other"))];
 const n = (k) => rows.filter((r) => (r.k || "other") === k).length;
+
+/* This page was built as an index INTO /documents/, which reads each plate one
+   at a time with the Italian transcribed - so the link stays and the plate now
+   also opens where it is. The anchor is built here: a regex literal inside an
+   Astro attribute ends the expression at its first slash.
+   No separate alt text: this archive has only the title, and the component uses
+   it rather than pretending there are two. */
+const sheet = rows.map((r) => ({
+  src: u("/plates/" + r.f),
+  title: r.t,
+  what: r.c,
+  kind: KIND[r.k] || r.k || "other",
+  when: r.when,
+  source: r.cite,
+  href: "/documents/#" + String(r.f).replace(/\.jpg$/, ""),
+  hrefLabel: "Read it, transcribed",
+}));
 ---
 <Base title="Gallery"
       eyebrow={`${rows.length} plates, every one of them evidence`}
@@ -24,22 +42,7 @@ const n = (k) => rows.filter((r) => (r.k || "other") === k).length;
     published, on <a href={u("/people/")}>the people pages</a>; their faces are not.</p>
   </div>
 
-  <div class="gfilt">
-    <button class="gf on" data-k="all">Everything <span class="mono">{rows.length}</span></button>
-    {kinds.map((k) => <button class="gf" data-k={k}>{KIND[k] || k} <span class="mono">{n(k)}</span></button>)}
-  </div>
-
-  <div class="gsheet">
-    {rows.map((r) => (
-      <a class="gcell" data-k={r.k || "other"} href={u("/documents/") + "#" + r.f.replace(/\.jpg$/, "")}>
-        <img src={u("/plates/" + r.f)} alt={r.t} loading="lazy" />
-        <span class="gmeta">
-          {r.when ? <b class="mono">{r.when}</b> : null}
-          <span>{r.t}</span>
-        </span>
-      </a>
-    ))}
-  </div>
+  <Gallery rows={sheet} u={u} />
 
   <h2>What is not here</h2>
   <ul>
