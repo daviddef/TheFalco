@@ -356,18 +356,18 @@
   {
    "n": 37,
    "what": "Santa Maria a Vico, Matrimoni 1856, atto 21 — Domenico Clemente Falco's marriage",
-   "state": "next",
+   "state": "struck",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**A named act in a named volume in a comune this archive has never opened.** The margin of his birth act says it exactly: «*Con atto **6 agosto 1856** at[to] **21** in S. Maria a Vico il Falco sposò **DOMENICA VIGLIOTTI** di Giuseppe*». The act will give his age — testing the 18 March 1819 birth — his trade, his street, and **whether Giuseppe Falco and Gelsomina Vigliotta were alive or dead in August 1856.** Gelsomina is known dead before December 1854, so the act should say so, which makes it a control on the reading as well as a source."
+   "note": "**STRUCK — founded on a mistake, and kept rather than deleted.** The row existed because I read «S[?]basia a Vico» in a margin as **Santa Maria a Vico**. **That register excludes it**: `an_ua55736`, act 21 is **Don Domenico de Lucia**, promised 14 June 1856, and the year has no act of 6 August at all.\n\n**The marriage is real and the comune is not established.** A Falco married a **Domenica Vigliotti** on 6 August 1856, act 21, somewhere «…a Vico». **Finding where is a live question**; it is just not this row's answer."
   },
   {
    "n": 38,
    "what": "What Antenati holds for SANTA MARIA A VICO at all",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**A comune four kilometres away that this archive has never enumerated, and it keeps appearing.** Giuseppe Falco of strada Costa was living there in December 1854; his son married there in August 1856; the parish death collection that swamped the di Guida sweep was largely Santa Maria a Vico pages. **Run the holdings enumeration before opening any volume** — the method that found San Felice a Cancello after five years of missing it. Which series, which years, where the gaps are."
+   "note": "**Done — and it cost one request, now that `tools/antenati_holdings.py` exists.** Santa Maria a Vico on Antenati: **Nati 1811, 1813–14, 1817–1865** (first ark `an_ua55866`); **Matrimoni 1809–11, 1813–14, 1817–1865** (`an_ua55691`); **Morti 1809–14, 1817–1864** (`an_ua55780`). **1812, 1815 and 1816 are missing from all three.**\n\n**The year filter resolves a year straight to an ark**: `?localita=…&tipologia=…&anno=1856` leaves `+id:\"55736\"` in the page's Solr comment. That is how `an_ua55736` was found without any arithmetic through the gaps.\n\n**The row was raised to reach a marriage that turns out not to be here** — see the struck row — but the enumeration stands and the comune is now open for any other purpose."
   },
   {
    "n": 39,
