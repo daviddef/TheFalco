@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Changes from "@daviddef/archive-kit/components/Changes.astro";
 import { u } from "../lib/url.js";
 import changes from "../data/changes.json";
 const KIND = { sweep: "a register read", find: "a find", fix: "a fix or a withdrawal",
@@ -32,17 +33,15 @@ const REPO = "https://github.com/daviddef/TheFalco/commit/";
     <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{n("site")}</div><div class="small">changes to the site</div></div>
   </div>
 
-  {byDay.map((d) => (
-    <section style="margin:1.6rem 0">
-      <h2 style="margin-bottom:.4rem">{d.day} <span class="small mono">{d.rows.length}</span></h2>
-      {d.rows.map((c) => (
-        <div class="chg">
-          <div class="small"><span class={"chip " + (c.kind === "fix" ? "dis" : c.kind === "find" ? "doc" : "")}>{KIND[c.kind]}</span>
-            <a class="mono" href={REPO + c.sha} rel="noopener" style="margin-left:.5rem">{c.sha} ↗</a></div>
-          <p style="margin:.3rem 0 .2rem"><strong>{c.title}</strong></p>
-          {c.summary ? <p class="small" style="max-width:80ch">{c.summary}</p> : null}
-        </div>
-      ))}
+  <Changes u={u} days={byDay.map((d) => ({
+    when: d.day,
+    entries: d.rows.map((c) => ({
+      title: c.title,
+      kind: KIND[c.kind] || c.kind,
+      did: c.summary || "",
+      href: REPO + c.sha,
+    })),
+  }))} />
     </section>
   ))}
 
