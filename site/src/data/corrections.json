@@ -2248,5 +2248,15 @@
   "how": "Going to the act the annotation names, instead of stopping at the annotation.",
   "why": "**I read a plausible comune into an illegible word and then published it three times** — in a household record, in a correction, and in two work-list rows that sent the next reader to the wrong archive. **The annotation never said Santa Maria a Vico. I did.**\n\n**What survives is still worth having, and is the part that was actually written down:** a Falco of this house married a **DOMENICA VIGLIOTTI** on **6 August 1856**, recorded as **act 21** somewhere ending «*…a Vico*». That is a dated marriage for a man this archive knew only as a newborn.\n\n**And the instrument still works.** A marginal annotation reached a marriage in another comune, which is what it is for. It is the READING of the annotation that failed, not the method — and the failure is the archive's oldest one: **a name I wanted, in a word that would not resolve.**",
   "by": "the register the annotation pointed at"
+ },
+ {
+  "when": "2026-09-16",
+  "sev": "method",
+  "what": "EVERY FINDMYPAST NOTE IN THIS ARCHIVE NAMES THE WRONG DOMAIN — the subscription answers on .co.uk, and .com.au looks exactly like having no subscription",
+  "was": "This archive's FindMyPast method, recorded twice, says to search **`www.findmypast.com.au`** — «*navigate the tab and read the rendered table… `sourcecountry=australasia`, `sourcecategory=…`, `_page=N`*».",
+  "now": "**The live subscription answers on `www.findmypast.co.uk`.** Hitting `.com.au` redirects to `auth.findmypast.com/login` with **`initialScreen=signUp`** — **a page indistinguishable from having no subscription at all.** The same search on `.co.uk` returns twenty-one rows immediately.\n\n**Two more recorded techniques have expired.** The note says to load a search «*in a hidden same-origin iframe and poll for `tr` elements*»: five iframes reached `readyState: complete` on the right path with **`body.innerText.length === 0`**. **The application does not paint offscreen.** And the render takes **longer than six seconds** — a read issued in the same round trip as the navigation returned `rows: 0` and an empty body for a search that has twenty-one rows.",
+  "how": "Being handed a subscription and finding the site apparently signed out.",
+  "why": "**The failure this prevents is a false nil of the worst kind: one that looks like a verdict.** A signed-out FindMyPast returns a sign-up screen, not an error. An archive that searched `.com.au` on a live subscription would record «nothing found» for every surname it tried and have a plausible-looking page to prove it. **This archive has already published one FindMyPast verdict that was wrong because it was measured signed-out**, and corrected it. This is the same trap wearing a different hat.\n\n**And the two expired techniques are a reminder that a method note rots.** The iframe trick was written on 9 September and was dead within a week; the six-second wait was generous then and is not now. **A method note needs a date on every claim**, which these now have.",
+  "by": "a subscription that appeared not to work"
  }
 ]
