@@ -624,6 +624,14 @@
    "owner": "this archive",
    "since": "2026-09-17",
    "note": "**A WHOLE SERIES THIS ARCHIVE HAD NEVER OPENED, found on 17 September while looking for something else.** Its title page: «*Atti per le nascite avvenuti in un viaggio di mare, Per le Ricognizioni, Adozioni, **PERSONE DEFUNTE E FUORI DEL PROPRIO DOMICILIO**, e Morti-Nati*».\n\n**When an Arienzo person died elsewhere, the comune where they died drew the act and sent a certified copy to Arienzo, which copied it in whole** — age, trade, street, both parents, whether they were dead, and the surviving children with their ages. **So a death that is not in the Arienzo death register may be here, because the person did not die at Arienzo.**\n\n**That is exactly the shape of rows 39 and 40.** GIUSEPPE FALCO of Antonia di Guida is alive in November 1849 and in no volume since; ANTONIA DI GUIDA is alive in February 1845 and in none either. **Read 1849 onward first.**\n\n**The series is small.** Forty years — 1703, 1812–1813, 1820, 1822–1835, 1837–1840, 1842–1850, 1853, 1855–1860, 1864–1865 — at **one to eight images each**, so the whole thing is about the size of a single year of deaths.\n\n**THE ARK ARITHMETIC IS NOT LINEAR AND MUST NOT BE GUESSED.** `an_ua14056`–`14062` run 1835, 1837, 1839, 1840, 1846, 1848, 1849 — ascending with gaps — but `an_ua14071` is **1825** and `an_ua14095` is **1848**, so at least two sub-series are interleaved in the range. **Probe each ark and read the breadcrumb.** Antenati rate-limits hard: seven probes 0.8 s apart earned a 403 on the eighth.\n\n**1825 is read** (`an_ua14071`, two acts): a colono who died at a masseria in the **Nola** district, and a woman of fifty-five who died in the **Real Stabilimento delle Donne Matte at Aversa** with her parents left blank. **Method, arks and both transcriptions: `notes/arienzo-diversi-series.md`.**"
+  },
+  {
+   "n": 71,
+   "what": "Dead data: processetti.json is written by nothing and read by nothing",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-17",
+   "note": "**Found while auditing for the Mazza fault.** `site/src/data/processetti.json` is read by **no build script and no page** — `processetti.astro` carries its content inline instead. Its own note says «*Written from data/antenati-processetti.tsv; the key is the town and does not move*», and that TSV is read by nothing either.\n\n**It is not the Mazza fault**: the key is the **town**, not a person, so no one is being told they are undocumented. But it is a file the archive believes is live and is not, and its row for Arienzo carries a finding — the 1814 dossier at bundle 16, images 265–274 — that would silently rot.\n\n**Either wire it into `processetti.astro` or delete it and move the note into the page.** Leaving a data file that nothing reads is how the next person comes to trust a stale number."
   }
  ]
 }
