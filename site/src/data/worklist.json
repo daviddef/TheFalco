@@ -588,18 +588,18 @@
   {
    "n": 66,
    "what": "Turn /searched/ into rows an index can carry",
-   "state": "open",
+   "state": "next",
    "owner": "this archive",
    "since": "2026-09-16",
-   "note": "The page is **273 lines of prose**. Six sibling archives keep this as data — `{when, src, what, got, outcome}` — and the shared register draws from it, counts how many searches returned **nothing**, and lets a reader filter by outcome. **The outcome word stays this archive's**; the estate deliberately does not flatten hit/yield/nothing/pending into a shared five. Until the prose becomes rows this page cannot join them, and its work list could not be counted against it either. Shape: `kit/components/Searched.astro`.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside."
+   "note": "The page is **273 lines of prose**. Six sibling archives keep this as data — `{when, src, what, got, outcome}` — and the shared register draws from it, counts how many searches returned **nothing**, and lets a reader filter by outcome. **The outcome word stays this archive's**; the estate deliberately does not flatten hit/yield/nothing/pending into a shared five. Until the prose becomes rows this page cannot join them, and its work list could not be counted against it either. Shape: `kit/components/Searched.astro`.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside.\n\n**[State corrected 16 September: this row arrived as `open`, which `checkworklist` rejects — the allowed set is blocked / done / next / running / struck. Read as `next`; nothing else about the row is changed.]**"
   },
   {
    "n": 67,
    "what": "Turn /open-questions/ into rows",
-   "state": "open",
+   "state": "next",
    "owner": "this archive",
    "since": "2026-09-16",
-   "note": "**162 lines of prose.** Only Defranceschi and D'Arcy hold questions as data, and two of seven is the ceiling until the rest do. The shape is **the question, what is known, what has been tried, and the specific record that would answer it** — that last field is what makes it a queue rather than a list of regrets. Shape: `kit/components/Questions.astro`.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside."
+   "note": "**162 lines of prose.** Only Defranceschi and D'Arcy hold questions as data, and two of seven is the ceiling until the rest do. The shape is **the question, what is known, what has been tried, and the specific record that would answer it** — that last field is what makes it a queue rather than a list of regrets. Shape: `kit/components/Questions.astro`.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside.\n\n**[State corrected 16 September: this row arrived as `open`, which `checkworklist` rejects — the allowed set is blocked / done / next / running / struck. Read as `next`; nothing else about the row is changed.]**"
   }
  ]
 }
