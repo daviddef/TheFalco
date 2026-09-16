@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Spine from "@daviddef/archive-kit/components/Spine.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import { md } from "@daviddef/archive-kit/lib/md.js";
@@ -22,29 +23,19 @@ const heading = (g) => g.spouse ? `${g.name} and ${g.spouse}` : g.name;
       eyebrow="Nine generations, the ninth living and named"
       dek="From the Arienzo of the 1730s to Brisbane. Each generation is joined to the one above it by a record that names a father — except the first, where the line stops.">
 
-  <div class="dline">
-    {shown.map(g => (
-      <section class={"dgen" + (g.gen === 1 ? " frontier" : "")} id={"gen-" + g.gen}>
-        <div class="lab">Generation {g.gen}</div>
-        <h2>{slugFor(g) ? <a href={u("/people/" + slugFor(g))}>{heading(g)}</a> : heading(g)}</h2>
-        <p class="facts">
-          {g.living ? <span class="chip doc">living — named only</span> : <>
-            {g.born ? <><span class="k">born</span>{g.born}{g.bornPlace ? ", " + g.bornPlace : ""}</> : null}
-            {g.died ? <><span class="k">died</span>{g.died}{g.diedPlace ? ", " + g.diedPlace : ""}</> : null}
-            {g.married ? <><span class="k">married</span>{g.married}</> : null}
-            {g.trade ? <><span class="k">trade</span>{g.trade}</> : null}
-            <span class={"chip " + (g.confidence === "documented" ? "doc" : "dis")}>{g.confidence}</span>
-          </>}
-        </p>
-        {g.living
-          ? <p class="tale"><strong>This generation is living, so it is named and nothing more.</strong>
-            No date of birth, no place, no detail — the rule is set out under
-            <a href={u("/method/")}>Method</a>. The line continues past this page into people who are
-            alive, and the archive stops describing them here.</p>
-          : <p class="tale" set:html={md(g.note)}></p>}
-      </section>
-    ))}
-  </div>
+  <Spine u={u} rows={shown.map((g) => ({
+    gen: g.gen,
+    name: g.name,
+    spouse: g.spouse,
+    href: slugFor(g) ? "/people/" + slugFor(g) + "/" : "",
+    born: g.born, bornPlace: g.bornPlace,
+    died: g.died, diedPlace: g.diedPlace,
+    living: g.living,
+    confidence: g.confidence,
+    weak: g.gen === 1,
+    weakNote: "The line stops here: no record names this man's father.",
+    note: g.note || "",
+  }))} />
 
   <h2>The welds</h2>
   <p>A pedigree is only as good as its joins. Four records carry this one.</p>
