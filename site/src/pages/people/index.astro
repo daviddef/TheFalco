@@ -244,7 +244,13 @@ const nLiving = count((r) => r.living);
           options: topSurnames.map(([sn, n]) => ({ v: sn, label: `${sn} (${n})` })) },
       ]}
       rows={folk.map((r) => ({
-        hay: (r.name + " " + r.surname + " " + r.place + " " + r.span + " " + r.src).toLowerCase(),
+        /* The name, surname, relation, place and span are all cells below and
+           the shared script reads them off the row. THE SOURCE IS NOT A CELL,
+           and it is the one worth keeping searchable: it is how a reader finds
+           every person who came off one register image, or off the Antenati
+           death books for a given year. Deduplicated; a haystack has no use for
+           the same word twice. */
+        extraHay: [...new Set(String(r.src || "").toLowerCase().split(/\s+/).filter(Boolean))].join(" "),
         facets: { sur: r.surname, place: r.place, line: r.myLine ? "1" : "0",
                   tree: r.inTree ? "1" : "0", hh: r.inHousehold ? "1" : "0",
                   att: r.attached ? "1" : "0", liv: r.living ? "1" : "0" },
