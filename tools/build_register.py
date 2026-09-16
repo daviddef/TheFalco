@@ -121,6 +121,26 @@ def is_description(n):
 # ALREADY become a "known surname" there, from this very bug. A mis-parse that
 # teaches the detector its own mistake cannot be detected by it. Requiring
 # several bearers breaks the loop — FALCO has hundreds, CARMELA had one.
+# Forenames this archive has actually seen, harvested from names whose surname
+# is NOT in doubt — the first word of every person filed under a well-attested
+# surname. Built from the data so it grows with the archive rather than being a
+# list somebody has to remember to extend.
+def _forenames(min_seen=3):
+    import json as _j, os as _o, collections as _c, re as _re
+    d = _o.path.join(_o.path.dirname(_o.path.dirname(_o.path.abspath(__file__))),
+                     "site", "src", "data")
+    c = _c.Counter()
+    p = _o.path.join(d, "people.json")
+    if _o.path.exists(p):
+        for x in _j.load(open(p, encoding="utf-8")):
+            sur = (x.get("surname") or "").strip().upper()
+            nm = _re.sub(r"\s*\(.*?\)", "", x.get("name") or "").strip()
+            parts = nm.split()
+            if sur and sur != "?" and len(parts) > 1 and parts[-1].upper() == sur:
+                c[parts[0].upper()] += 1
+    return {k for k, n in c.items() if n >= min_seen}
+FORENAMES = _forenames()
+
 def _known(min_bearers=5):
     import json as _j, os as _o, collections as _c
     d = _o.path.join(_o.path.dirname(_o.path.dirname(_o.path.abspath(__file__))),
@@ -160,6 +180,21 @@ def sur(n):
     first = parts[0].upper()
     if len(parts) > 1 and first in KNOWN_SURNAMES and last not in KNOWN_SURNAMES:
         return first
+
+    # TWO FORENAMES AND NO SURNAME. "Angela Rosa", "Carolina Rosa", "Gaetano
+    # Antonio" were filed under ROSA and ANTONIO, inventing a family from a
+    # second given name. sur() already returns "?" for a single bare word for
+    # exactly this reason; it did not for two. If EVERY word is a forename this
+    # archive has seen, the surname was never recorded.
+    if len(parts) > 1 and all(p.upper() in FORENAMES for p in parts):
+        return "?"
+    # And the same fault where the FIRST word is a forename this archive has
+    # never seen paired with a surname — "Gaetano Antonio", "Joanna Maria".
+    # If the LAST word is a well-attested forename and the first word is not a
+    # surname this archive knows, there is no surname here. Checked safe: no
+    # word in this corpus is both a frequent forename AND an attested surname.
+    if len(parts) > 1 and last in FORENAMES and first not in KNOWN_SURNAMES:
+        return "?"
     return last or "?"
 
 

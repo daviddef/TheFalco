@@ -99,7 +99,7 @@
    "state": "running",
    "owner": "this archive",
    "since": "2026-09-14",
-   "note": "**1819 is done** — 137 acts, act by act, because the volume has **no annual tavola** (both ends checked; the twenty-one-row list on the last leaf is a supplementary list, not the year's index). **Three Falco births, all on strada Camellara**: Domenico Clemente (18 Mar), **Crescenzo — a birth date for a man held by his marriages alone** (11 Oct), and Luigi's civil act (21 Dec). **Rosaria Falco is not in it either**, which closes the last year her birth act could have been in. **Next: 1820** (`an_ua14417`, 143 images) — still hunting **Maria Rosa Falco**, absent from 1817, 1818 and 1819. Then 1829 onward and 1845–1860."
+   "note": "**1819 is done** — 137 acts, act by act, because the volume has **no annual tavola** (both ends checked; the twenty-one-row list on the last leaf is a supplementary list, not the year's index). **Three Falco births, all on strada Camellara**: Domenico Clemente (18 Mar), **Crescenzo — a birth date for a man held by his marriages alone** (11 Oct), and Luigi's civil act (21 Dec). **Rosaria Falco is not in it either**, which closes the last year her birth act could have been in. **Next: 1820** (`an_ua14417`, 143 images) — still hunting **Maria Rosa Falco**, absent from 1817, 1818 and 1819. Then 1829 onward and 1845–1860.\n\n**16 September — the tavole are NOT there for the years that matter.** **1829** (`an_ua14426`, 114 images, **107 acts**) has **no tavola at either end**: image 2 is act 1, image 113 the closing certificate, image 114 the Procuratore's. **1837** (`an_ua14434`, 146 images) likewise — image 2 is act 1. The archival tag «*THIS INDEX HAS BEEN MICROFILMED ALREADY*» on the 1829 endpapers refers to a separately filmed index, **not** to anything bound in.\n\n**So 1829 onward is an act-by-act read at roughly one act per leaf**, and the one-image-per-year economy that made 1828, 1848 and 1859 cheap does not apply. **1830 is 149 images, 1837 is 146.** Budget accordingly; the sheets must be three columns wide to carry a negative, not four."
   },
   {
    "n": 10,
@@ -548,10 +548,10 @@
   {
    "n": 61,
    "what": "Five register entries are filed under a forename because the name has no surname",
-   "state": "next",
+   "state": "done",
    "owner": "a machine",
    "since": "2026-09-15",
-   "note": "**Left over from the surname-first fix.** «*Gaetano Antonio*», «*Angela Maria —*», «*Angela Rosa*», «*Antonia Rosa, defunta*», «*Carolina Rosa*» are filed under ANTONIO, MARIA and ROSA. **These are double FORENAMES with the surname never recorded**, not index-order entries. `sur()` already returns «?» for a single word for exactly this reason; it does not for two. **The fix is a forename list, not another threshold** — and a forename list is worth having anyway, because the same words are what make the surname-first detector safe."
+   "note": "**Done, and the forename list is derived rather than written.** `build_register.py` now harvests the forenames this archive has actually seen — **the first word of every person filed under a well-attested surname** — so it grows with the data instead of being a list somebody must remember to extend.\n\n**Two rules.** If every word of a name is a known forename, the surname was never recorded: «*Angela Rosa*», «*Carolina Rosa*», «*Antonia Rosa, defunta*» → unknown. And if the LAST word is a well-attested forename while the first is not a surname this archive knows: «*Gaetano Antonio*», «*Joanna Maria*» — **neither GAETANO nor JOANNA appears anywhere in this corpus paired with a surname, so no threshold could have reached them.**\n\n**Checked safe before shipping: no word in this archive is both a frequent forename AND an attested surname**, so the rule cannot eat a real surname. FALCO is unchanged at 1,478 across the change. **Five bad rows to zero.**"
   },
   {
    "n": 62,
@@ -572,10 +572,10 @@
   {
    "n": 64,
    "what": "The NOTIFICAZIONI registers — banns, bound after the marriage acts",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-16",
-   "note": "**Found bound into the 1861 marriage volume and not used before.** After the twenty-nine marriage acts, `an_ua14265` carries a second register of **notificazioni** — the banns — giving each couple with **both sets of parents** in a cleaner hand. It is what supplied **LUIGI DI LUCIA** when the marriage act would not resolve him.\n\n**The reason to read them all: a notificazione is published where the couple LIVES, and the wedding may be celebrated elsewhere.** That is exactly **NUNZIATA FALCO**'s shape — a parish date of 13 November 1855 and no Arienzo marriage act. **Check every volume for a bound-in banns register**, starting with 1855 and 1856."
+   "note": "**Done, and the answer is that they do not exist for the year that needed them.** The **notificazioni** register is bound into the **1861** volume only — `an_ua14265`, 76 images for 29 acts, the rest banns. **1855** (`14259`, 30 images) and **1856** (`14260`, 57 images) are acts to the end: image 24 of 1855 is act 22, image 46 of 1856 is act 20. **No banns register in either.** 1859 (28 images/25 acts), 1862 (30/27), 1863 (24/21), 1864 (28/~25) and 1865 (39/~36) have no room for one.\n\n**So the practice appears with the 1861 volume and not before** — which is the year Italy was unified, and a plausible reason. **It cannot reach NUNZIATA FALCO's marriage of 13 November 1855.**\n\n**What the 1861 banns DID give**: both sets of parents in a clerk's cleaner hand, which supplied **LUIGI DI LUCIA** where the marriage act's own writing would not resolve him. **Read them for every year from 1861 on** when a name will not come off an act."
   }
  ]
 }
