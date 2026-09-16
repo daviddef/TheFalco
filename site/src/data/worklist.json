@@ -202,7 +202,7 @@
    "state": "blocked",
    "owner": "David",
    "since": "2026-09-14",
-   "note": "Screenshots need the **Browser pane displayed** in the desktop app, and it is not. There is a workaround — compose the DeepZoom tiles inside the page and carry the render back as data — and it worked for the 1841 burial, but it is slow and costs a great deal of context per look. **Showing the pane makes this ordinary again.**\n\n**A SPECIFIC TARGET, ADDED 15 SEPTEMBER: `3:1:3Q9M-CSD3-13CP-B`.** Its snippet opens «*Raphael Falco **Obiit die 26 Februarii 18[8]1***». **RAFFAELE FALCO, GENERATION FOUR, HAS NO DEATH IN THIS ARCHIVE.** Born 10 May 1818, he would be sixty-two in February 1881, and this is the only candidate ever seen.\n\n**The reading is not safe and that is exactly why it needs the image.** The OCR gives the year as «1811» twice while the harvest's own metadata column says **1881** — and eight and one are the two digits this engine confuses most. **If it is 1811 the man is a stranger born before generation four; if it is 1881 it is very likely him.** One image decides it, and the image is FamilySearch's, behind the session this archive cannot open."
+   "note": "**ONE SIGN-IN UNBLOCKS THIS, and the reason changed on 16 September.** The note used to say the blocker was the desktop Browser pane not being displayed. **It is not that.** FindMyPast signs in fine in the browser context this session drives — twelve surnames were swept through it today. **FamilySearch specifically has no session there**: `/en/tree/find` redirects to `/en/search/tree/`, `/en/home/` to `/en/australia/`, and every image ark bounces to `ident.familysearch.org`. Those are the signed-out paths. **A tab is parked on the target ark**; signing in *in that tab* — not a new window — puts the session where this session can use it. **Credentials are David's to enter and will not be entered here.**\n\n**THE TARGET: `3:1:3Q9M-CSD3-13CP-B`**, whose snippet opens «*Raphael Falco **Obiit die 26 Februarii 18[8]1***». **RAFFAELE FALCO, GENERATION FOUR, HAS NO DEATH IN THIS ARCHIVE.** Born 10 May 1818, he would be **sixty-two** in February 1881, and this is the only candidate ever seen.\n\n**The OCR gives the year as «1811» twice while the harvest's own metadata says 1881** — and eight and one are the two digits this engine confuses most. **If 1811, a stranger born before generation four. If 1881, very likely him.** One image decides it.\n\n**Also waiting on the same sign-in:** row 5 (Sara Falco's parish baptism, folio 47 of `3Q9M-CSD3-1325-9`), row 16 (Maddalena Falco's baptism, `3Q9M-CSD3-1381-R`), and **43 parish-baptism snippets** whose child's name falls outside the 260-character window."
   },
   {
    "n": 19,
@@ -243,11 +243,11 @@
   },
   {
    "n": 23,
-   "what": "Ancestry and MyHeritage for the Australian end",
+   "what": "Ancestry for the Australian end — MyHeritage is already harvested, FindMyPast is now open",
    "state": "blocked",
    "owner": "David",
    "since": "2026-09-13",
-   "note": "Passenger lists and naturalisation files for the Brisbane generations. Both need a subscription this archive does not have. **Nothing here can move it.**"
+   "note": "**Partly unblocked on 16 September, and the row was overstating it.** **MyHeritage is NOT blocked** — this archive already harvests it: `data/myheritage-facts.tsv` holds **427 rows**, and the family tree itself lives there. **FindMyPast is now open** on a one-month subscription David started on 16 September; that work is row 65, running.\n\n**What is genuinely left is ANCESTRY**, for the Brisbane generations' passenger lists and naturalisation files. No subscription, and nothing here can move it. **Before buying one, read row 65's result**: FindMyPast's Australian holding for this family turned out to be six passenger records and the Italian sets are the FamilySearch index re-hosted. **Ancestry may be the same trade twice**, and the thing actually worth paying for is probably the NAA files in row 19, which anyone can order for a copying fee."
   },
   {
    "n": 24,
