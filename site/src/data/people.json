@@ -6051,6 +6051,64 @@
 "b": "1852"
 },
 {
+"slug": "angela-rosa-crisci",
+"name": "Angela Rosa Crisci",
+"surname": "CRISCI",
+"household": "Arcangelo Crisci & Sara Ruggiero",
+"role": "child",
+"events": [
+{
+"event": "marriage",
+"date": "1 Jun 1820",
+"place": "Arienzo, Sant'Andrea Apostolo",
+"evidence": "**A DAUGHTER THIS ARCHIVE DID NOT HAVE, and a sister of Andreana Crisci.** «*Anno D[omi]ni Millesimo octingentesimo vigesimo **1820**, die vero **prima Mensis Junii** … R. D. **Blasius Marius Arricale** Substitutus in Matrimonium benedixit nondum uxoratos **Angelum Clementem Frasca filium Joannis et Catharinae di Rosa, ex Parrocchia **SANCTAE AGNETIS**, ed **ANGELAM ROSAM CRISCI filiam Archangeli, e q[uonda]m SARA RUGGIERO**, meam Parochianam … presentibus testibus Angelo Martone, Petro d'Addio*». **The «quondam» before her mother is what dates Sara Ruggiero's death.**",
+"ark": "FAMILYSEARCH full text, Arienzo parish marriages — 3Q9M-CSMY-B7HM-1 (MACHINE TRANSCRIPTION; the image is not yet read)"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "arcangelo-crisci-of-arcangelo-crisci-sara-ruggiero",
+"name": "Arcangelo Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "sara-ruggiero-of-arcangelo-crisci-sara-ruggiero",
+"name": "Sara Ruggiero",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "son-crisci",
+"name": "[son] Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "lorenzo-crisci",
+"name": "Lorenzo Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
 "slug": "angelo-crisci",
 "name": "Angelo Crisci",
 "surname": "CRISCI",
@@ -6301,6 +6359,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "ANDREANA CRISCI'S FATHER, WITH AN AGE AT LAST. «è comparso ARCANGELO CRISCI di anni CINQUANTADUE di professione CONTADINO domiciliato in detto comune, STRADA CAMELLARA» — fifty-two in 1817 gives b. c.1765. HE IS NOT THE ARCANGELO CRISCI WHO MARRIED ANNA FALCO. The same 1817 volume holds a SECOND Arcangelo Crisci, «di anni TRENTA», contadino of STRADA CAPODICONCA, married to MARIA MARTONE — twenty-two years younger, a different street, a different wife. Both read from the image",
 "ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) img 33l — READ FROM THE IMAGE"
+},
+{
+"event": "marriage",
+"date": "26 Mar 1793",
+"place": "Arienzo, Sant'Andrea Apostolo",
+"evidence": "**THE MARRIAGE, FOUND — AND IT NAMES BOTH THEIR FATHERS.** «*Anno D[omi]ni Millesimo Septingentesimo nonagesimo tertio **1793**, die vero **vigesima sexta 26 M[ensis] Martii**, praemissis tribus denunciationibus de more, decreto Episcopalis Curiae **Sanctae Agathae Gothorum** … R[everen]dus D. **Joseph Crisci Coadjutor** in matrimonio conjunxit nondum uxoratos **ARCHANGELUM CRISCI FILIUM NICOLAI**, et **SARAM RUGGIERO FILIAM PASCHALIS**, utrosque hujus Archipresbyteralis [Ecclesiae] **S. Andreae** … presentibus testibus **Paschale Crisci q[uondam] Josephi**, **Josepho di Lucia de Francisco**, et aliis. **Antonius Archip[resbyter] Romano***».\n\n**He was about twenty-eight** (fifty-two in 1817) and **she about twenty-one** (forty-five in 1817); their daughter **ANDREANA CRISCI**, who married Vincenzo Falco, was baptised **30 November 1796** — three and a half years after this wedding. **The identification rests on the COUPLE, not the forename**: this archive holds a second Arcangelo Crisci, the one who married Anna Falco, and it is the pairing with Sara Ruggiero that separates them.\n\n**ATTESTED TWICE ON ONE PAGE**: the same leaf carries the year's index line «*Archangelus Crisci e Sara Ruggiero **1793***» above the act itself. **Both readings are machine transcriptions of the parish hand and the image has not been read.**",
+"ark": "FAMILYSEARCH full text, Arienzo parish marriages — 3Q9M-CSMY-B7Q8-4 (MACHINE TRANSCRIPTION; the image is not yet read)"
 }
 ],
 "sources": [
@@ -6322,6 +6387,22 @@
 {
 "slug": "son-crisci",
 "name": "[son] Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-rosa-crisci",
+"name": "Angela Rosa Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "lorenzo-crisci",
+"name": "Lorenzo Crisci",
 "via": "register",
 "vias": [
 "register"
@@ -7260,6 +7341,64 @@
 "treeId": 4000419
 },
 {
+"slug": "lorenzo-crisci",
+"name": "Lorenzo Crisci",
+"surname": "CRISCI",
+"household": "Arcangelo Crisci & Sara Ruggiero",
+"role": "child",
+"events": [
+{
+"event": "marriage",
+"date": "25 Mar 1846",
+"place": "Arienzo, Sant'Andrea Apostolo",
+"evidence": "**A SON THIS ARCHIVE DID NOT HAVE.** «*Anno D[omi]ni Millesimo octingentesimo quadragesimo sexto **1846**, die vero **vigesima quinta 25 Martii** … **LAURENTIUS CRISCI filium Archangeli, et quondam SARA RUGGIERO** conjuge, et **MARIAM ANGELICAM RUOTOLO, ANTONII et MARIAE JOANNAE CARFORA filiam***» — and the bride's mother is a **CARFORA**, the surname this archive spent three failed searches chasing at the wrong comune. **No kinship to Maria Carfora of Forchia is claimed; it is recorded because the name is one this archive watches.**",
+"ark": "FAMILYSEARCH full text, Arienzo parish marriages — 3Q9M-CSMY-B74M-S (MACHINE TRANSCRIPTION; the image is not yet read)"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "arcangelo-crisci-of-arcangelo-crisci-sara-ruggiero",
+"name": "Arcangelo Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "sara-ruggiero-of-arcangelo-crisci-sara-ruggiero",
+"name": "Sara Ruggiero",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "son-crisci",
+"name": "[son] Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-rosa-crisci",
+"name": "Angela Rosa Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
 "slug": "luigi-crisci",
 "name": "Luigi Crisci",
 "surname": "CRISCI",
@@ -7562,6 +7701,30 @@
 }
 ],
 "treeId": 4000421
+},
+{
+"slug": "nicola-crisci",
+"name": "Nicola Crisci",
+"surname": "CRISCI",
+"household": "Arcangelo Crisci & Sara Ruggiero",
+"role": "grandfather",
+"events": [
+{
+"event": "named as the groom's father",
+"date": "26 Mar 1793",
+"place": "Arienzo",
+"evidence": "«*ARCHANGELUM CRISCI **FILIUM NICOLAI***» — **Andreana Crisci's paternal grandfather**, and a Crisci generation this archive did not have. Not marked «quondam», so **living in March 1793**. The register already holds a **Nicola Crisci, 32, a bottegajo**, declaring a birth in 1816 — **far too young to be this man** and not joined to him.",
+"ark": "FAMILYSEARCH full text, Arienzo parish marriages — 3Q9M-CSMY-B7Q8-4 (MACHINE TRANSCRIPTION; the image is not yet read)"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
 },
 {
 "slug": "pascalina-crisci",
@@ -7896,7 +8059,24 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [
+{
+"slug": "angela-rosa-crisci",
+"name": "Angela Rosa Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "lorenzo-crisci",
+"name": "Lorenzo Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
 },
 {
 "slug": "giovanna-d-ambrogio",
@@ -40735,6 +40915,30 @@
 "b": "1919"
 },
 {
+"slug": "pasquale-ruggiero",
+"name": "Pasquale Ruggiero",
+"surname": "RUGGIERO",
+"household": "Arcangelo Crisci & Sara Ruggiero",
+"role": "grandfather",
+"events": [
+{
+"event": "named as the bride's father",
+"date": "26 Mar 1793",
+"place": "Arienzo",
+"evidence": "«*SARAM RUGGIERO **FILIAM PASCHALIS***» — **SARA RUGGIERO'S FATHER AT LAST.** She has stood in this archive as a godmother on ten pages of the baptism harvest, at the fonts of at least six Falco households, with no birth, no death, no parents and no marriage. This is the first record to say where she came from. Not marked «quondam», so **living in March 1793**. **Not to be confused with the Pasquale Ruggiero, *rivendolo*, in the 1825 register** — a different man, a generation later, not joined.",
+"ark": "FAMILYSEARCH full text, Arienzo parish marriages — 3Q9M-CSMY-B7Q8-4 (MACHINE TRANSCRIPTION; the image is not yet read)"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
 "slug": "sara-ruggiero-of-vincenzo-falco-andreana-crisci",
 "name": "Sara Ruggiero",
 "surname": "RUGGIERO",
@@ -40778,6 +40982,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "«e da SARA RUGGIERO sua moglie legittima D'ANNI QUARANTACINQUE» — FORTY-FIVE IN 1817, so b. c.1772, and STILL BEARING CHILDREN AT FORTY-FIVE. Her daughter Andreana was baptised 30 November 1796, when she was about twenty-four. This is the first age this archive has ever had for her; two days ago she was a bracketed «[Rosae]» in a machine transcript",
 "ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) img 33l — READ FROM THE IMAGE"
+},
+{
+"event": "death window",
+"date": "between 1817 and 1 Jun 1820",
+"place": "Arienzo",
+"evidence": "**A THREE-YEAR DEATH WINDOW, WHERE THIS ARCHIVE HAD NONE.** She bore a son in **1817**, aged forty-five, and by her daughter's wedding on **1 June 1820** she is «*q[uonda]m Sara Ruggiero*» — dead. **So she died between 1817 and June 1820, aged about forty-five to forty-eight.** Her son-in-law's 1846 marriage act calls her «quondam» again, which corroborates without narrowing.",
+"ark": "FAMILYSEARCH full text, Arienzo parish marriages — 3Q9M-CSMY-B7HM-1 (MACHINE TRANSCRIPTION; the image is not yet read)"
 }
 ],
 "sources": [
@@ -40799,6 +41010,22 @@
 {
 "slug": "son-crisci",
 "name": "[son] Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-rosa-crisci",
+"name": "Angela Rosa Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "lorenzo-crisci",
+"name": "Lorenzo Crisci",
 "via": "register",
 "vias": [
 "register"
