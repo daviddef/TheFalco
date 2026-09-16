@@ -35,21 +35,45 @@ subscription at all**, which is exactly how an hour gets lost.
    a no-results string appears** — never record a zero that arrived with an empty body. This is the
    false nil the 9 September note warned about, and it is still the main hazard.
 
-## First tranche — the branch surnames never swept
+## The sweep — branch surnames, Australasia, name variants on
 
-Australasia, name variants on. **These are PAGE ONE counts, not totals**, and «no Queensland» below
-means *not on page one* — it is not a nil.
+**Every count is PAGE ONE (twenty rows).** Totals are not captured and «no Queensland» means *not on
+page one*. Only **Arricale** produced the rendered words «**No results found**», which is the one
+result here that is a true nil.
 
-| Surname | rows p1 | Queensland p1 | record sets seen |
+| Surname | p1 | Queensland | what is in it |
 |---|---|---|---|
-| **Falcone** | 21 | 0 | Passenger Lists 1826–1972 (Victoria, NSW) |
-| **Biondo** | 21 | 0 | Passenger Lists; **NSW Deceased Estate Files 1880–1923**; WW2 Allies |
-| **Mazza** | 21 | 0 | Passenger Lists |
-| **Abatiello** | **5** | 0 | **WW2 Allies only — every row a UNITED STATES record** mis-tagged into the Australasia filter, the same fault the 9 September sweep found for Zampiello |
-| **Zavaglia** | 21 | 0 | Passenger Lists; WW2 Allies; **Australia, Parish Deaths & Burials 1814–2014** |
+| **Militano** | 20 | **4** | **THE ONE QUEENSLAND FIND** — see below |
+| Falcone | 21 | 0 | Passenger Lists (Victoria, NSW) |
+| Biondo | 21 | 0 | Passenger Lists (Vic); **NSW Deceased Estate Files 1880–1923**; WW2 Allies |
+| Mazza | 21 | 0 | Passenger Lists |
+| Zavaglia | 21 | 0 | Passenger Lists; WW2 Allies; **Australia, Parish Deaths & Burials 1814–2014** |
+| Carfora | 21 | 0 | **Western Australia** arrivals 1959–67, plus US WW2 mis-tagged |
+| Cimmino | 20 | 0 | 14 Australia, 6 United States |
+| Zaino | 20 | 0 | 9 Australia, 11 United States |
+| Crisci | 20 | 0 | Passenger Lists, US WW2 |
+| Vigliotta | 9 | 0 | **Western Australia** arrivals, US WW2 |
+| **Abatiello** | **5** | 0 | **every row a UNITED STATES WW2 record** mis-tagged into the Australasia filter — the same fault the September sweep found for Zampiello |
+| **Arricale** | **0** | — | **«No results found» — a TRUE NIL** |
 
-**Two record sets here were not in the 9 September list of «holdings worth remembering»:** *NSW
-Deceased Estate Files 1880–1923* and *Australia, Parish Deaths & Burials 1814–2014*.
+### The Queensland find, and why it is a lead and not a link
+
+**CONCETTA MILITANO on the Australia Electoral Rolls at INNISFAIL** — Herbert division 1939 (as
+«Coneetta») and 1941, Leichhardt division 1949 and 1959. Four entries across twenty years.
+
+**Innisfail is North Queensland, about fourteen hundred kilometres from Brisbane**, and this archive
+has already met that pattern: the FindMyPast Maione cluster is at **Winton and Charters Towers**,
+also North Queensland, and was logged as unconnected. **Nothing joins Concetta Militano to this
+family.** It is recorded because MILITANO is a branch surname here and the next reader will want it.
+
+**And the living-people rule binds what can be said.** The Militano reach this family through a
+marriage in the living generations; anything published about them is a name and a relationship.
+
+### Record sets not in the September list of «holdings worth remembering»
+
+**NSW Deceased Estate Files 1880–1923** · **Australia, Parish Deaths & Burials 1814–2014** ·
+**Victoria Wills & Probate** · **Victoria Petty Sessions Registers** · **Britain & Ireland, Incoming
+Passenger Lists 1878–1960**. The September note listed four; there are at least nine.
 
 ## Still to do
 
