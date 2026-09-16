@@ -97,6 +97,7 @@ const unlinked = register.length - linked;
     <Register u={u} rows={[...groups.entries()].flatMap(([sn, list]) => list.map((r) => ({
     name: r.name,
     surname: sn,
+    kind: KIND[r.kind] || r.kind,
     href: bySlug.has(r.name.toLowerCase())
       ? "/people/" + bySlug.get(r.name.toLowerCase()) + "/"
       : isName(r.name) ? "/who/" + nameSlug(r.name) + "/" : "",
