@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
+import Distribution from "@daviddef/archive-kit/components/Distribution.astro";
 const world = [
   ["Italy",17819,"1:3,432"],["United States",6389,"1:56,732"],["Argentina",3424,"1:12,483"],
   ["Portugal",3057,"1:3,408"],["Angola",2958,"1:9,124"],["Spain",2852,"1:16,393"],
@@ -9,6 +10,13 @@ const world = [
   ["Colombia",796,"1:60,018"],["Uruguay",575,"1:5,968"],["England",460,"1:121,126"],
   ["Canada",430,"1:85,687"],["Venezuela",369,"1:81,854"],["Australia",215,"1:125,561"],
 ];
+/* Ranked by bearers, which here is the right reading: Italy holds nearly three
+   times the next country and the accent belongs on it. The caution about the
+   Iberian rows - Portugal, Angola and the Philippines are very probably a
+   different name - stays in the prose under the chart, because it is a
+   judgement about the data and not a property of it. */
+const dist = world.map(([c, n, d]) => [c, n, `${n.toLocaleString()} \u00b7 ${d.replace(":", " in ")}`]);
+
 const variants = [
   ["Falco, De Falco, Di Falco","the South — De Falco above all Campanian, and Neapolitan"],
   ["Falcone, Falconio, Falconieri","the South"],
@@ -45,11 +53,9 @@ const variants = [
 
   <h2>Where the name is</h2>
   <p>Forebears counts <strong>46,749</strong> bearers worldwide, the 12,010th commonest surname on earth.</p>
-  <div class="scroll"><table>
-    <thead><tr><th>Country</th><th>Bearers</th><th>Density</th></tr></thead>
-    <tbody>{world.map(([c,n,d]) => (
-      <tr><td>{c}</td><td class="mono">{n.toLocaleString()}</td><td class="mono">{d}</td></tr>))}</tbody>
-  </table></div>
+  <Distribution rows={dist}
+    label="Bearers of the Falco surname worldwide, by country" />
+  <p class="cap" style="margin-top:6px">Beside each bar: bearers, and how many people of that country carry the name.</p>
   <p class="small"><strong>Read the Iberian rows with care.</strong> Portugal, Angola and the Philippines
   are almost certainly a different name — Portuguese and Galician <em>Falco</em>, and Catalan
   <em>Falcó</em> — carried by Portuguese and Spanish colonial settlement, not by Italian emigration. The
