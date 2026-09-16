@@ -604,10 +604,10 @@
   {
    "n": 68,
    "what": "The deploy workflow's actions all target Node 20, which GitHub has deprecated",
-   "state": "next",
+   "state": "done",
    "owner": "the Falco session",
    "since": "2026-09-16",
-   "note": "**Every run of «Build and deploy the archive» carries this annotation:** «*Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: **actions/checkout@v4, actions/configure-pages@v5, actions/setup-node@v4, actions/upload-artifact@v4***».\n\n**Not breaking today — GitHub is force-running them on 24** — but «forced» is not a resting state, and when the runners stop doing it the build stops. **The fix is a version bump on four actions**: checkout@v5, configure-pages@v6, setup-node@v5, upload-artifact@v5.\n\n**This is the shared workflow, so it is every archive in the estate, not this one.** Raised here because this is where it was seen; it belongs to whoever owns `.github/workflows`."
+   "note": "**DONE 16 Sep 2026 — and the versions this row named were mostly wrong.** The row proposed «checkout@v5, configure-pages@v6, setup-node@v5, upload-artifact@v5», written from the deprecation annotation rather than from the registry. **Asked the GitHub API for the latest release of each action instead of guessing**, which is the same discipline as reading a register's own tavola rather than its catalogue label:\n\n| action | was | now | row's guess |\n|---|---|---|---|\n| `actions/checkout` | v4 | **v7.0.1** | v5 |\n| `actions/setup-node` | v4 | **v5** | v5 ✓ |\n| `actions/configure-pages` | v5 | **v6** | v6 ✓ |\n| `actions/upload-pages-artifact` | v3 | **v5** | named as *upload-artifact*, which this workflow does not call directly |\n| `actions/deploy-pages` | v4 | **v5** | not named at all |\n\n**Release notes read before bumping.** Every major here is a Node-runtime and dependency upgrade; **none changes an input this workflow passes** — `checkout` and `configure-pages` are called bare, `setup-node` with `node-version`, `upload-pages-artifact` with `path`, `deploy-pages` with an id. `node-version: 22` is left alone: that is the Node the site builds on, not the Node the actions run on, and 22 is current LTS.\n\n**Two actions the row never mentioned were also on old majors** — `upload-pages-artifact@v3` and `deploy-pages@v4`. **A deprecation annotation lists what the runner noticed, not what is out of date.**"
   },
   {
    "n": 69,
