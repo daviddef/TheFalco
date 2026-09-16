@@ -183,10 +183,10 @@
   {
    "n": 16,
    "what": "Maddalena Falco's baptism — two passes spent, still unread",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-13",
-   "note": "Ark `3Q9M-CSD3-1381-R`, 7 June 1818. Two rendering passes went on hunting the margin label and neither reached the entry. **Depends on row 9** — with the Browser pane displayed this is ordinary work rather than a tile-by-tile reconstruction."
+   "note": "**DONE 17 Sep 2026 — and the two failed passes failed because this row had the wrong leaf.**\n\n«*[Anno] D[omi]ni **1818**, die vero **septima 7 Junii**, R[everendu]s D. **BLASIUS MANSIONARIUS ARRICALE** Substitutus baptizavit infantem **natam** ex **JOSEPHO FALCO et ANTONIA DI GUIDA** conjugibus hujus Parochiae, **cui dedit nomen MAGDALENA. Matrina fuit DOROTHEA D'ADDIO.** HYACINTHUS Archip. MORGILLO*»\n\n**Same day as her civil birth act**, and **the godmother is the same Dorotea d'Addio who stood at Gioacchino Falco's font in 1779** — one woman at this family's baptisms across forty years.\n\n**THE ARK IN THIS ROW IS THE INDEX LEAF, NOT THE ACT.** `3Q9M-CSD3-1381-R` carries the **margin label** «Maddalena Falco», which is what both rendering passes went hunting and found. **The act is on `3Q9M-CSD3-13LG-7`.** In this parish register the year's index and the year's acts are on different leaves, and a search that lands on the label will never reach the entry however many tiles it renders.\n\n**Found by full-text rather than by rendering**, with the quoted phrase «Maddalena Falco» — two hits in the whole baptism collection, one the label and one the act. **Machine transcription; the image is not yet read.**"
   },
   {
    "n": 17,
@@ -399,7 +399,7 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**She died 15 March 1819, eleven hours after her brother, as a daughter of Giuseppe Falco and Gelsomina Vigliotta.** The Arienzo civil birth registers for **1816, 1817, 1818 and 1819** are all read end to end and she is in none of them. **A child dead in March 1819 was born in one of those years.** So either the act was never drawn, or **she was not born at Arienzo** — and this household is the one that turns up at **strada Costa**, then strada Camellara, then Santa Maria a Vico. Test the parish baptisms first, then Santa Maria a Vico."
+   "note": "**She died 15 March 1819, eleven hours after her brother, as a daughter of Giuseppe Falco and Gelsomina Vigliotta.** The Arienzo civil birth registers for **1816, 1817, 1818 and 1819** are all read end to end and she is in none of them. **A child dead in March 1819 was born in one of those years.** So either the act was never drawn, or **she was not born at Arienzo** — and this household is the one that turns up at **strada Costa**, then strada Camellara, then Santa Maria a Vico. Test the parish baptisms first, then Santa Maria a Vico.\n\n**17 September — THE PARISH TEST WAS RUN AND IT CANNOT PRODUCE A NEGATIVE. Here is the proof.**\n\nFamilySearch's full text of the Arienzo parish baptisms was searched for the Latin forms the clerk actually writes. **«*ex Josepho Falco*» returns TWO pages in the entire collection** — for a household with at least eight children — and Rosaria is not among them.\n\n**That is not evidence of absence, because the machine cannot read the surname.** Measured on the same collection, same place filter:\n\n| spelling | pages |\n|---|---|\n| `Falco` | **361** |\n| `Falo` | **126** |\n| `Falio` | **92** |\n| `Zalco` | 7 |\n| `Salco` | 6 |\n| `Talco` | 3 |\n\n**Two hundred and eighteen pages render the name in a form a search for «Falco» never sees — about a third of the corpus.** And one index leaf writes the SAME entry twice, once as «*Joseph Zalco fol: 185*» and once as «*Joseph Falco fol: 185*». **A surname phrase search here is a finding aid, never a negative.**\n\n**What the test did turn up**: Maddalena Falco's baptism of 7 June 1818 (row 16), the day of Matteo's 1807 baptism, and **Domenico Clemente's baptism of 18 March 1819 — three days after this household buried Domenico and Rosaria eleven hours apart.** Rosaria's own act is still not found, and **Santa Maria a Vico is still untried.**"
   },
   {
    "n": 43,
