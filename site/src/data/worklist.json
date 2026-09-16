@@ -120,10 +120,10 @@
   {
    "n": 12,
    "what": "Explain why the 1841 civil register holds no Falco death",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-14",
-   "note": "The parish buried **Joannes Falco** on 27 November 1841 and the act has now been read from the image. **All ninety acts of the civil death register for that year hold no Falco at all.** Arienzo's two registers normally agree, so this is an anomaly with something behind it, not a gap."
+   "note": "**DONE 16 Sep 2026 — THE REGISTER ANSWERS IT ITSELF, AND THE ANSWER IS THAT IT IS NOT CONTINUOUS.**\n\n**Test 1, the numbering gap: there is none.** Acts **78 to 91 run unbroken**, read from the image. And the volume ends at **91**, not ninety — this archive's own statement «*all ninety acts*» was one act short.\n\n**Test 2, a supplementary list at the back: cannot be run on this filming.** There is a tavola leaf after the last act (`an_ua14343` img 55 left), but it is photographed with its ink almost wholly lost and the facing page's writing transferred onto it in mirror. Three order-numbers survive and no names. **Not read, and not recorded as absent.**\n\n**Test 3 is the one that answers the question. THE DEATH DATES HAVE AN ELEVEN-DAY HOLE, AND THE FALCO BURIAL IS INSIDE IT.** Read act by act from the image, the deaths run: **act 84 — 19 November · act 85 — 23 November · act 86 — 26 November · act 87 — 7 DECEMBER.** **The comune registered nothing between 26 November and 7 December 1841. The parish buried JOANNES FALCO on 27 November.**\n\n**And the hole is not special, which is the real finding.** A fortnight earlier the register does it again: **act 80 is a death of 30 October and act 81 a death of 13 November — fourteen days.** Two silences of a fortnight and eleven days in one autumn, in a register that otherwise enters a death every two or three days that season. **This register was not capturing every death at Arienzo**, and its own date sequence proves it without any inference from the parish book.\n\n**So the 1841 civil nil for Falco is not evidence of anything** — and neither is any other nil taken from this volume without checking the dates either side of it. Rows 12 and 56 are the same question and both close here."
   },
   {
    "n": 13,
@@ -508,10 +508,10 @@
   {
    "n": 56,
    "what": "Re-test the 1841 civil nil now that the two-Giovanni question is settled",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Row 12 asks why the 1841 civil register holds no Falco death when the parish buried one.** That question was framed when the parish transcript was suspect. **It no longer is** — the burial was read from the image and the two Giovanni are real. **So the question is sharper, not looser**: a young man of a documented house was buried at Arienzo on 27 November 1841 and the comune recorded nothing. Test whether the register has a gap in its numbering around act 86–87, whether a supplementary list like 1819's exists at the back of the 1841 volume, and whether any 1842 act refers back to a 1841 death."
+   "note": "**DONE 16 Sep 2026 — THE REGISTER ANSWERS IT ITSELF, AND THE ANSWER IS THAT IT IS NOT CONTINUOUS.**\n\n**Test 1, the numbering gap: there is none.** Acts **78 to 91 run unbroken**, read from the image. And the volume ends at **91**, not ninety — this archive's own statement «*all ninety acts*» was one act short.\n\n**Test 2, a supplementary list at the back: cannot be run on this filming.** There is a tavola leaf after the last act (`an_ua14343` img 55 left), but it is photographed with its ink almost wholly lost and the facing page's writing transferred onto it in mirror. Three order-numbers survive and no names. **Not read, and not recorded as absent.**\n\n**Test 3 is the one that answers the question. THE DEATH DATES HAVE AN ELEVEN-DAY HOLE, AND THE FALCO BURIAL IS INSIDE IT.** Read act by act from the image, the deaths run: **act 84 — 19 November · act 85 — 23 November · act 86 — 26 November · act 87 — 7 DECEMBER.** **The comune registered nothing between 26 November and 7 December 1841. The parish buried JOANNES FALCO on 27 November.**\n\n**And the hole is not special, which is the real finding.** A fortnight earlier the register does it again: **act 80 is a death of 30 October and act 81 a death of 13 November — fourteen days.** Two silences of a fortnight and eleven days in one autumn, in a register that otherwise enters a death every two or three days that season. **This register was not capturing every death at Arienzo**, and its own date sequence proves it without any inference from the parish book.\n\n**So the 1841 civil nil for Falco is not evidence of anything** — and neither is any other nil taken from this volume without checking the dates either side of it. Rows 12 and 56 are the same question and both close here."
   },
   {
    "n": 57,
