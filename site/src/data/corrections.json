@@ -2360,5 +2360,27 @@
   "why": "**A negative is a statement about the instrument, and this archive had not examined the instrument.** «No Falco in the 1841 civil register» was treated as a fact about the Falco. It is a fact about a register that lost eleven days in the relevant fortnight and fourteen days in the one before it.\n\n**The rule generalises and this archive should apply it backwards.** Every civil-death nil drawn from these Arienzo volumes needs the dates either side of the window checked before it is allowed to mean anything. That is the same discipline as reading `recordPlace` before quoting a hit count, and the same discipline as not recording a negative from a rate-limited 403.\n\n**One thing came out of the volume that was not being looked for.** Atto 82 is declared by «*ANTONIO CARFORA, di anni **trentasei**, contadino, domiciliato in **strada Camellara***» — and the 1831 birth volume, swept the same day for a different row, has him at **twenty-six on the same street**. **Ten years apart, ten years older, in a register series this archive has spent two months proving invents ages.** Found from opposite directions, in two volumes, on one day.",
   "where": "/searched",
   "by": "this archive"
+ },
+ {
+  "when": "2026-09-16",
+  "what": "A fourth child of Matteo Falco and Alessandra Crisci, and a granddaughter the tree never had",
+  "sev": "minor",
+  "was": "**MATTEO FALCO × ALESSANDRA CRISCI**, married 24 January 1834, stood in this archive's tree with **nine children and not one document against any of them.** This morning three of the nine got an act, from certified extracts bound into the Arienzo marriage supplements of 1891–1910.",
+  "now": "**A fourth.** The proclamation of 1908 names «*FERRARA AGNESE, di anni **venticinque**, contadina, residente in Arienzo, figlia di **GIOVANNI**, di anni **sessanta**, colono, residente in Arienzo, e figlia di **MARIA FALCO**, contadina, residente in Arienzo*». The tree holds **Giovanni Ferrara** married to **Maria Falco (Ferrara)**, daughter of Matteo and Alessandra — with `records: 0` against both of them.\n\n**They are named together, both alive at Arienzo in 1908**, he born about 1848 — and the act carries **a daughter, AGNESE, born about 1883, whom the tree does not hold at all.**",
+  "how": "A second sweep of collection `2043630`, this time on **Carfora** rather than Falco, run for a different row entirely. 171 more Arienzo pages, 347 in all.",
+  "why": "**Filomena, Vincenza, Giuseppe, and now Maria.** Four of nine, each confirmed by a source the tree never saw, each agreeing with the tree on the husband it had already assigned.\n\n**It is still a machine transcription of a handwritten copy and the image is unread** — the same standing as a contact-sheet candidate. What has changed is the odds: **four independent agreements is no longer a coincidence about one clerk's handwriting.**\n\n**And the same sweep closed a household from the other end.** Vincenzo Falco and Angela Pellone of **Corso Caudino 80** — a son born December 1880, his own death September 1889 — now have a daughter: «*Falco PASQUALINA, 21, **figlia del fu VINCENZO** … e di **PELLONE ANGELA***», marrying in 1899, her father given as dead. **Three acts, one household, found in two separate sweeps on two different surnames.**",
+  "where": "/households",
+  "by": "this archive"
+ },
+ {
+  "when": "2026-09-16",
+  "what": "Strada Camellara has three house numbers, not one — and this archive was treating the first as the address",
+  "sev": "minor",
+  "was": "«**Via Camellara number five**» was published here as «*the first house number ever recovered for strada Camellara*», from the 1883 death act of **Pasquale Falco**, and it has been the only one this archive holds.",
+  "now": "**Three, inside three years of each other.** A 1906 marriage supplement quotes an Arienzo birth act of about 1879: «*è comparso **PASQUALE FALCO**, contadino, di anni **trentanove** … nella casa posta in **VIA CUMELLARA AL NUMERO UNDICI**, da **MARIA AMALIA GUIDA***» — **the same couple, at number eleven.** And the 1881 birth of Vincenzo Morgillo puts that family at **via Camellara numero nove**.",
+  "how": "Sweeping FamilySearch collection `2043630` on Carfora for an unrelated row, and reading the extracts rather than the surnames.",
+  "why": "**A house number looks like the most precise thing a register can give, and on this street it is not yet.** Pasquale Falco is at number eleven about 1879 and dies at number five in 1883 — either the family moved a few doors, or the street was renumbered between the two, and **nothing this archive holds decides which.**\n\nThe practical consequence: **a Camellara house number is not an identifier.** It cannot be used to join two records or to separate them, which is exactly the job it looked ready to do.",
+  "where": "/households",
+  "by": "this archive"
  }
 ]

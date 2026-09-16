@@ -178,3 +178,63 @@ now identified, and only one name has been swept through it.
    Annecchino, Carfora, Cimmino, Morgillo and Zampiello have not been run.
 3. **Sweep for the extract wording itself**, not for a surname — `q.text=Estratto` — which
    enumerates every processetto in the collection regardless of whose family it is.
+
+---
+
+## Second pass, 16 September — `q.text=Carfora`
+
+Run for work-list row 59. **2,392 hits, 171 distinct Arienzo pages**, same year span
+(1891–1910). Combined with the Falco sweep that is **347 distinct Arienzo pages** read.
+
+### A fourth child of Matteo Falco and Alessandra Crisci
+
+**1908 proclamation, `3:1:3QS7-8976-3JCW`:** «*…**FERRARA AGNESE**, di anni **venticinque**,
+contadina, residente in Arienzo, figlia di **GIOVANNI**, di anni **sessanta**, colono,
+residente in Arienzo, e figlia di **MARIA FALCO**, contadina, residente in Arienzo…*»
+
+The tree holds **Giovanni Ferrara** married to **Maria Falco (Ferrara)**, daughter of Matteo
+and Alessandra, with `records: 0` against both. Here they are, named together, **both alive at
+Arienzo in 1908**, with Giovanni born about 1848 and **a daughter Agnese born about 1883** whom
+the tree does not have at all. **Four of the nine children now have an act** — Filomena,
+Vincenza, Giuseppe, Maria.
+
+### The direct line's collateral, and a third house number on strada Camellara
+
+**1906 supplement, `3:1:3QS7-897N-P75T`**, quoting an Arienzo birth act of about 1879:
+«*è comparso **PASQUALE FALCO**, contadino, di anni **trentanove**, domiciliato in questo
+Comune … nella casa posta in **VIA CUMELLARA AL NUMERO UNDICI**, da **MARIA AMALIA GUIDA**…*»
+
+That is this archive's own **Pasquale Antonio Falco × Maria Amalia Guida**, and the age agrees
+with his death act — forty-four in 1883, thirty-nine about 1879. **The house number does not.**
+He dies at **via Camellara number five** and this act puts the family at **number eleven**. With
+the Morgillo at **number nine** in 1881, the street now has three numbers where it had one, and
+this archive should not assume they are stable.
+
+### More Falco of Arienzo, all candidates
+
+- **1899 proclamation, `3:1:3QS7-997F-MWKX`:** «*Falco **PASQUALINA**, di anni **ventuno**,
+  donna di casa, residente in Arienzo, **figlia del fu VINCENZO** … e figlia di **PELLONE
+  ANGELA**, donna di casa, residente in Arienzo*», marrying **Crisci Raffaele**, 25, calzolaio,
+  son of Antonio, 56, *piperniere*.
+  **This closes the 1880/1889 pair from the first pass**: Vincenzo Falco × Angela Pellone of
+  Corso Caudino 80, who died in 1889, has a daughter born about 1878 who marries in 1899 and
+  gives her father as **fu**. Three acts, one household, from two separate sweeps.
+  **She is NOT the Pasqualina Falco *di Vincenzo* who was already married with a daughter in
+  July 1872, and NOT this archive's Pasqualina of Pasquale Antonio and Maria Amalia Guida with
+  a birth act of 1877.** Three women, and the parents keep them apart.
+- **1896 publication, `3:1:3QS7-897N-1DG8`:** «*matrimonio da celebrarsi tra **GUIDA FRANCESCO**
+  e **FALCO PASQUALINA**…*» — a fourth appearance of the forename, parents not given on this page.
+- **1900 publication, `3:1:3QS7-997F-MWV8`:** «*Straffolino … **MARIA FRANCESCA**, contadina,
+  nata a **FORCHIA**, residente a Forchia, figlia di **ANGELANTONIO** e **della fu FALCO
+  TERESA**…*» — the 1879 Forchia birth from the first pass, twenty-one years on, and it dates a
+  death: **Teresa Falco di Luigi was dead before 1900.**
+
+### Not found, and this is a measured negative
+
+**The marriage of PASQUA FALCO and PASQUALE CARFORA, 30 December 1880 at Arienzo** — work-list
+row 59, known only from a margin — **is quoted on none of the 347 pages.** The Arienzo material
+in this collection begins at **1891** whatever surname is run (Falco, Carfora and Majone all
+return the same span), so the act itself is not filmed here, and no processetto of 1891–1910
+reproduces it. **A Pasquale Carfora, 43, agricoltore, witnesses an Arienzo birth in 1896** —
+born about 1853, which would make him twenty-seven at that wedding — **and that is a
+coincidence of name and age, not an identification.**
