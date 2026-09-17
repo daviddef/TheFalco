@@ -632,6 +632,14 @@
    "owner": "this archive",
    "since": "2026-09-17",
    "note": "**Found while auditing for the Mazza fault.** `site/src/data/processetti.json` is read by **no build script and no page** — `processetti.astro` carries its content inline instead. Its own note says «*Written from data/antenati-processetti.tsv; the key is the town and does not move*», and that TSV is read by nothing either.\n\n**It is not the Mazza fault**: the key is the **town**, not a person, so no one is being told they are undocumented. But it is a file the archive believes is live and is not, and its row for Arienzo carries a finding — the 1814 dossier at bundle 16, images 265–274 — that would silently rot.\n\n**Either wire it into `processetti.astro` or delete it and move the note into the page.** Leaving a data file that nothing reads is how the next person comes to trust a stale number."
+  },
+  {
+   "n": 72,
+   "what": "WO 32/22147 — a British Army investigation into a killing at Arienzo, March 1945",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-17",
+   "note": "**The only record in the whole of the UK National Archives that touches this family's town.** «*Special Investigation Branch investigation: alleged murder of **Herron FG, Private, 1583838, Argyle and Sutherland Highlanders**, **by two Italian civilians at ARIENZO, Italy, 11 March 1945***». 1–31 March 1945, **open** since 25 August 2017, held at **Kew**, **not digitised**.\n\n**IT IS A LEAD ABOUT ARIENZO, NOT ABOUT THE FALCO, and it is recorded as that.** No Falco is named in the catalogue description and none may be assumed. What makes it worth ordering is that **this archive holds almost nothing from Arienzo in the 1940s** — the civil registers stop at 1865, the processetti at 1865, and the Australian records begin in 1964. A military police file names its accused and its witnesses, and its witnesses would be townspeople.\n\n**It needs a person.** Kew will copy it on request, or it can be read in the reading room. **That is why this row is blocked rather than next.**"
   }
  ]
 }

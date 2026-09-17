@@ -173,5 +173,12 @@
   "d": "Searched 15 September 2026 — ANNECCHINO, ZAMPIELLO and ARRICALE. Until now this site had been cited here once, in a list of surname-frequency lookups beside Forebears and Cognomix, which is not a record harvest.",
   "id": "en.geneanet.org/fonds/individus/",
   "use": "LOW. Its Italian record sets are the FamilySearch index re-hosted, exactly as FindMyPast's are. Its user trees are the real asset and they miss this family: 499 Annecchino all at FOGGIA in Puglia; 29 Zampiello forming a Connecticut and Rhode Island diaspora out of Avellino and Latina, none from Arpaia; no Giovanna Arricale at all. ONE LEAD: two member trees, «marcorlando70» and «jimino», do cover Arienzo, including Marcello Giovanni Arricale b. 1876 Arienzo, d. 1963 Altavilla Irpina — the first user tree found standing on this family's own ground."
+ },
+ {
+  "g": "Catalogue, United Kingdom",
+  "t": "The National Archives (UK), Discovery",
+  "d": "The catalogue over TNA's holdings at Kew and some 2,500 other British archives. Searched 17 September 2026 on all eight family surnames and all three towns. The API answers a browser but refuses a plain client: it sits behind an AWS WAF that returns «202 Accepted» with an empty body and the header «x-amzn-waf-action: challenge».",
+  "id": "discovery.nationalarchives.gov.uk",
+  "use": "CLOSED, with one exception. Seven of the eight surnames return zero; Falco returns 86 and every one is a British soldier, a merchant seaman registered at a UK port, a naturalised Italian resident in Britain, or unrelated. This family has no British generation. The exception is WO 32/22147 — a 1945 Special Investigation Branch file about a killing AT ARIENZO — which is about the town, not the family, and is not digitised."
  }
 ]
