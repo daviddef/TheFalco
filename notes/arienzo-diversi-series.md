@@ -248,6 +248,52 @@ comune read before anything in it is attributed.**
 **NO FALCO ANYWHERE YET, and no DI GUIDA.** The Crisci appear twice in 1812 alone, which is what
 a family living on the same street would do.
 
+## The 1826–1830 Corpo d'Arienzo acts, read 17 September
+
+**Every one is a death away from home, and every one names a hospital or a comune.** None is a
+Falco. The volumes marked **San Felice** below are a different comune and are not this family's.
+
+**1826 `an_ua14073`** (Corpo d'Arienzo, 3 acts) — *`14072` is San Felice.*
+- **GIUSEPPE MACCANIELLO**, 60, *bracciale*, «*figlio del fu **ANGELO***», «*vedovo di **ANTONIA
+  di MIZIO***» — died **26 September 1825 in the OSPEDALE DEGL'INCURABILI, Naples**; transmitted
+  by the Circondario di **San Lorenzo**.
+- **GIUSEPPE DI SILVIO**, 45, *sartore*, «*figlio del fu **COSTANTINO***», «*marito di **MARIA
+  MICHELE FERRO***» — died **1 May 1826, Incurabili, Naples**.
+- **ANDREA MARTONE**, 22, **CHIERICO**, «*nato in Arienzo … figlio di **D. ANGELO MARTONE**, di
+  professione **MEDICO**, domiciliato in Arienzo, e **DONNA ALLEGRANZA D'AVANZO***» — died
+  **26 October 1826 at ACERRA**, in the house of **D. Agostino d'Avanzo**, his mother's kin.
+  **A physician's son, a cleric, dead at twenty-two.**
+
+**1828 `an_ua14077`** (Corpo d'Arienzo, 1 act) — *`14076` is San Felice.*
+- **GENNARO COSSO(?)**, 32, *bracciale*, «*nato in Arienzo … figlio del fu **NICOLA** … e della fu
+  **PETRONILLA CARFORA**(?)*», leaving his wife **MARIA LAVORATO** — died in the **OSPEDALE DI
+  SANT'AGOSTINO DEGLI SCALZI, AVERSA**. *The mother's surname reads Cafora or Carfora and is not
+  settled.*
+
+**1829 `an_ua14078`** (Corpo d'Arienzo, 2 acts)
+- **SALVATORE SANNINO(?)**, 38, *bracciale*, «*nato in Arienzo … figlio del fu **ANTONIO** … e
+  **MARGARITA ZUPPA***», leaving his wife **GIUSEPPA FORTELLACCIA** — **Aversa, Sant'Agostino
+  degli Scalzi**.
+- **PELLEGRINO MORGILLO**, 26, *bracciale*, «***VEDOVO DI MARIANTONIA D'ADDIO***, nato in Arienzo
+  … figlio di **MARIO**, … e di **CATERINA RUGGIERO***» — died **30 July 1828, Aversa,
+  Sant'Agostino degli Scalzi**.
+  **THIS ONE FINISHES A STORY THIS ARCHIVE ALREADY HOLDS.** The 1827 Arienzo death register
+  carries the Giudicato Regio's own letter, sewn in, «*about a body found buried in a wood and
+  identified as **MARIANTONIA D'ADDIO, wife of PELLEGRINO MORGILLO***». **Her widower was dead in
+  a hospital at Aversa within the year, at twenty-six** — and this act names his parents, **Mario
+  Morgillo and Caterina Ruggiero**, whom the archive did not have. *Caterina Ruggiero is also the
+  matrina at Arienzo baptisms of 1818; no identification is claimed.*
+
+**1830 `an_ua14079`** (Corpo d'Arienzo, 1 act)
+- **ARCANGELO SADUTTO(?)**, 46, *muratore*, «*di Arienzo in Terra di Lavoro … figlio del fu
+  **PIETRO** e d'**ANGELA** … marito di **ANTONIA DI LUCIA** … e **non ha lasciato figli***» —
+  died **18 February 1830, OSPEDALE DEGL'INCURABILI, Naples**, act 314.
+
+**The shape of the whole series is now clear.** An Arienzo labourer who fell ill went to one of
+three places — the **Incurabili at Naples**, **Sant'Agostino degli Scalzi at Aversa**, or a
+masseria in the **Nola** district — and if he died there the act came home and was copied into
+this register. **Every one of them is invisible to the Arienzo death register.**
+
 ## Still to read
 
 
