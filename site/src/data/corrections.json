@@ -2470,5 +2470,16 @@
   "why": "**A source nobody had thought to name is worse than a source that failed**, because nothing records the omission. This one is now on the register with its counts, and it will not be searched again.\n\n**AND IT IS NOT QUITE EMPTY.** One file names the town: **WO 32/22147**, «*Special Investigation Branch investigation: alleged murder of **Herron FG, Private, 1583838, Argyle and Sutherland Highlanders**, **by two Italian civilians at ARIENZO, Italy, 11 March 1945***». Open since 2017, held at Kew, **not digitised**.\n\n**No Falco is named in it and none is assumed.** It is worth ordering because **this archive holds almost nothing from Arienzo in the 1940s** — the civil registers stop in 1865 and the Australian records begin in 1964 — and a military police file names its accused and its witnesses, and its witnesses are townspeople. **A lead about the town, filed as that and not as a family record.**",
   "where": "/searched",
   "by": "this archive, at David's prompting"
+ },
+ {
+  "when": "2026-09-17",
+  "what": "«Arienzo» in the holdings list is a DISTRICT, not a town — a third of the volumes belong to other comuni",
+  "sev": "major",
+  "was": "Yesterday and this morning this archive located the **«Diversi»** series — the register of people who died away from home — and published it as **«45 volumes, 1812 to 1865»** for **Arienzo**, mapped ark by year from `/search-registry/?localita=Arienzo&tipologia=Diversi`. The whole set was treated as this family's town.",
+  "now": "**They are not all this family's town.** More than one comune in this district carries «Arienzo» in its name, and the locality filter matches all of them. Read from the volumes' own title pages and act texts:\n\n- `an_ua14064`, `14069`, `14071` — «*Comune di **CORPO D'ARIENZO***». **This family's town.**\n- `an_ua57637`, `an_ua57638` (both 1813) — «*Comune di **SAN FELICE D'ARIENZO***».\n- `an_ua14068` (1824) — «*ed ufiziale dello Stato Civile del Comune di **SAN CASALE DI ARIENZO***».\n\n**The printed heading of every one of these title pages says «CIRCONDARIO DI ARIENZO», and that is the DISTRICT.** The comune is the line beneath it, filled by hand.",
+  "how": "Reading each volume's own title page instead of trusting the query that returned it — which is this archive's oldest standing rule and the fourth time in three days it has had to be re-learned.",
+  "why": "**It would have produced a false Falco.** This archive holds a documented **Falco household at SAN FELICE A CANCELLO** — soap-makers, 1815 — and has deliberately refused to claim them as kin. A Falco found in `an_ua57637` and attributed to Arienzo would have merged two families that this archive has spent months keeping apart.\n\n**And it changes the size of the job honestly.** «Forty-five volumes of Arienzo Diversi» was never true; some unknown fraction belongs to neighbouring comuni, and **each volume's comune has to be read before anything in it is attributed.** That is slower and it is the only safe way.\n\n**Nothing found so far is affected** — the Crisci of 1812, the d'Addio of 1850 and the Crisci of 1825 are all from Corpo d'Arienzo volumes, checked.",
+  "where": "/method",
+  "by": "this archive"
  }
 ]

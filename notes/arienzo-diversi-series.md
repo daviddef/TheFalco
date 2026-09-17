@@ -203,8 +203,61 @@ yet read. **No Falco in the headings.**
 **1856** (`an_ua14100`) and **1857** (`an_ua14101`) — acts present and unread; 1857 has four,
 headed «Atto di morte n° 204», «n° 66» and two more. This is where the heading trap was found.
 
+## THE BIGGEST CAVEAT, FOUND 17 SEPTEMBER: these are not all Arienzo
+
+**`localita=Arienzo` returns volumes from SEVERAL COMUNI, because in this district more than one
+comune has «Arienzo» in its name.** Read from the volumes' own title pages and act texts:
+
+| ark | year | comune, from the manuscript |
+|---|---|---|
+| `an_ua14064` | 1812 | «*Comune di **CORPO D'ARIENZO***» |
+| `an_ua57637`, `an_ua57638` | 1813 | «*Comune di **SAN FELICE D'ARIENZO***» — **not this town** |
+| `an_ua14068` | 1824 | «*ed ufiziale dello Stato Civile del Comune di **SAN CASALE DI ARIENZO***» |
+| `an_ua14069` | 1824 | «*Comune di **CORPO D'ARIENZO***» |
+| `an_ua14070` | 1825 | reads **S. Felice** on the title page |
+| `an_ua14071` | 1825 | «*Comune di **CORPO D'ARIENZO***» |
+
+**The circondario is Arienzo for all of them** — that is the district, and it is what the printed
+title page gives at the top. **The COMUNE is the line below it, and it is the only line that
+matters.** A sweep that reads the top of the title page will call every volume Arienzo and be
+wrong about a third of them.
+
+**This archive's family is of CORPO D'ARIENZO.** San Felice a Cancello and San Casale are
+neighbouring comuni whose records this archive has deliberately kept separate — there is a known
+Falco household at San Felice that is **not claimed as kin**. **So every volume must have its
+comune read before anything in it is attributed.**
+
+## Read so far, 17 September
+
+| volume | comune | what is in it |
+|---|---|---|
+| 1812 `14064` | Corpo d'Arienzo | **2 death acts**: «*l'atto di morte di **MARCO CRISCI**, nativo di questo Comune*», received from the Sindaco of **ACERRA**, inserted 19 May; and a second **CRISCI** received from **MONTESARCHIO**, 30 May. Plus 3 stillbirth acts, not read in detail. **No Falco.** |
+| 1813 ×2 | **San Felice** | not this town |
+| 1820 `14065` | Corpo d'Arienzo | one stillbirth act. **No Falco.** |
+| 1822 `14066` | — | **no acts** — title page and ministerial certificate only |
+| 1823 `14067` | — | **no acts** |
+| 1824 `14068` | **San Casale** | one act, Domenicantonio Verdicchio, 26, *bracciale*, strada Casaniello |
+| 1824 `14069` | Corpo d'Arienzo | **no acts** |
+| 1825 `14070` | S. Felice | **no acts** |
+| 1825 `14071` | Corpo d'Arienzo | **2 acts** — Crescenzo Crisci, died at a masseria in the **Nola** district; a woman of 55 dead in the **Aversa** asylum |
+| 1849 `14096` | Corpo d'Arienzo | 3 acts, all «morte fuori domicilio». **No Falco.** |
+| 1850 `14097` | Corpo d'Arienzo | **NICOLA D'ADDIO**, 26, born Arienzo, died at **AIROLA** «di passaggio» |
+| 1853 `14098` | Corpo d'Arienzo | 2 deaths transmitted from **NAPLES** (Sezione Montecalvario); local acts for Carmela de Roggio and Antonio Rivetti. **Bodies unread.** |
+| 1856 `14100`, 1857 `14101` | Corpo d'Arienzo | acts present, **bodies unread** |
+
+**NO FALCO ANYWHERE YET, and no DI GUIDA.** The Crisci appear twice in 1812 alone, which is what
+a family living on the same street would do.
+
 ## Still to read
 
-**1855 and 1858–1865, and the whole of 1812–1848.** And the bodies of 1853, 1856 and 1857.
-**1855 was swept on the heading band and looked empty — that reading is void** and the volume
-must be swept again on the body band before anything is said about it.
+
+**`an_ua14072`–`14095` — that is 1826, 1827, 1828, 1829, 1830, 1831, 1832, 1833, 1834, 1835,
+1837, 1838, 1839, 1840, 1842, 1843, 1844, 1845, 1846, 1847, 1848 — twenty-four volumes and about
+100 images.** Then **1855 `14099`, 1858 `14102`, 1859 `14103`, 1860 `14104`, 1864 `14105`,
+1865 `14106`**, and the **bodies** of 1853, 1856 and 1857.
+
+**1855 was swept on the heading band and looked empty — that reading is void** and must be redone
+on the body band.
+
+**Read each volume's COMUNE first.** A Falco found in a San Felice or San Casale volume is not
+this family's, and this archive has a standing refusal to claim the San Felice Falco as kin.
