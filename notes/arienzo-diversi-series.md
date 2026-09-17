@@ -294,13 +294,56 @@ three places — the **Incurabili at Naples**, **Sant'Agostino degli Scalzi at A
 masseria in the **Nola** district — and if he died there the act came home and was copied into
 this register. **Every one of them is invisible to the Arienzo death register.**
 
+## THE SHORTCUT: each volume carries its own index of these deaths
+
+**«TAVOLA alfabetica annuale de' DEFUNTI FUORI DEL PROPRIO DOMICILIO».** It is printed in every
+volume, and where it is filled it gives, in columns: **the deceased · BOTH PARENTS · the
+profession · the date of death** — and it is **signed and certified** with the total. The 1833
+one (`an_ua14082` img 3R) reads:
+
+> | N. | de' DEFUNTI | de' GENITORI | PROFESSIONE | della MORTE |
+> |---|---|---|---|---|
+> | 1 | **Massaro Gaetano** | **Massaro Crescenzo e Grazia** | — | **Ottobre 1833** |
+>
+> «*La presente Tavola contiene il suddetto **solo atto**. Arienzo li trentuno Dicembre 1833.
+> Il Sindaco ed uffiziale dello Stato Civile — Francesco d'Ambrosio*»
+
+**Read the tavola first.** Where it is filled and signed it answers the whole year in one page
+and states the count, so nothing can be missed. **Where it is blank the acts must still be read**
+— a blank tavola does not mean an empty year, and 1826 had three acts with no filled tavola.
+
+**And the closing certificate is the second check.** Every volume ends «*abbiamo chiuso e firmato
+il presente registro di fogli scritti num. …, contenente atti num. …*». **1842 closes with the
+word «NIENTE» written three times** — fogli niente, atti niente. That is a register declaring
+itself empty, which is better evidence than any sweep.
+
+## 1831–1844, read 17 September — all Corpo d'Arienzo
+
+| year | ark | what is in it |
+|---|---|---|
+| 1831 | `14080` | **no acts** |
+| 1832 | `14081` | 1 act — **not a death**; a recognition or legitimation, not read out |
+| 1833 | `14082` | 2 acts, **and the filled tavola above**: **GAETANO MASSARO**, son of **Crescenzo Massaro and Grazia**, died **October 1833** |
+| 1834 | `14083` | **no acts** |
+| 1835 | `14084` | 2 acts, transmitted; names not yet read |
+| 1837 | `14085` | 1 act, and it is a **MORTI-NATI** — **Nicola Cioffi, POSSIDENTE**, with D. Vito d'Aprea and Luigi Verdicchio, presenting a stillborn boy, November 1837 |
+| 1838 | `14086` | **no acts** |
+| 1839 | `14087` | 1 act, a transmitted death; closing certificate «*contenente atti num. **uno***» |
+| 1840 | `14088` | 2 acts. One is an **ADOPTION**, homologated by the **Gran Corte Civile di Napoli** over an act made before the Regio Giudice del Circondario d'Arienzo. The other is a death transmitted from **SANTA MARIA MAGGIORE**, received 14 August 1840 by **Filippo Rossi, sindaco** |
+| 1842 | `14089` | **EMPTY, AND THE REGISTER SAYS SO**: «*abbiamo chiuso e firmato il presente registro di fogli scritti num. **niente**, contenenti atti num. **niente***» |
+| 1843 | `14090` | **no acts** |
+| 1844 | `14091` | **no acts** |
+
+**Still no Falco and no di Guida in any volume read.**
+
 ## Still to read
 
 
-**`an_ua14072`–`14095` — that is 1826, 1827, 1828, 1829, 1830, 1831, 1832, 1833, 1834, 1835,
-1837, 1838, 1839, 1840, 1842, 1843, 1844, 1845, 1846, 1847, 1848 — twenty-four volumes and about
-100 images.** Then **1855 `14099`, 1858 `14102`, 1859 `14103`, 1860 `14104`, 1864 `14105`,
-1865 `14106`**, and the **bodies** of 1853, 1856 and 1857.
+**`an_ua14092` (1845), `14093` (1846), `14094` (1847), `14095` (1848)** — 31 images. Then
+**1855 `14099`, 1858 `14102`, 1859 `14103`, 1860 `14104`, 1864 `14105`, 1865 `14106`** — 88
+images. And the **bodies** of 1853, 1856, 1857, and the unread names in 1835, 1839 and 1840.
+
+**Read each one's TAVOLA first** — it may answer the year in a single page.
 
 **1855 was swept on the heading band and looked empty — that reading is void** and must be redone
 on the body band.
