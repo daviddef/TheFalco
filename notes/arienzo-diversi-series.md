@@ -336,12 +336,46 @@ itself empty, which is better evidence than any sweep.
 
 **Still no Falco and no di Guida in any volume read.**
 
+## 1845–1848, read 17 September — and a fifth institution
+
+**THE AVERSA ASYLUM.** Three of these four years send back a death from the **REAL STABILIMENTO
+DE' MATTI** (and its women's side, the **Real Stabilimento delle Donne Matte**) at **Aversa** —
+the Bourbon kingdom's lunatic asylum. The same two men declare every one of them: **ANTONIO
+CAMPANELLA** and **VINCENZO FRANCESE**, both «*di professione **impiegato ne' matti***», asylum
+staff, whose stated ages advance year by year across the acts.
+
+- **1845 `an_ua14092`** — one stillbirth, presented by **Andrea Cioffi**, contadino; and **two**
+  transmitted deaths:
+  - «*è morto nel **Real Stabilimento de' Matti**, **FRANCESCO IMBIMBO**, **nato in ARIENZO** …
+    **figlio d'ANGELO***» — Aversa act 451, died **4 November 1844**.
+  - «*è morta nel Real Stabilimento de' Matti, **RI[?]ETTI [forename not resolved]**, **nata in
+    ARIENZO** … **figlia del fu MATTEO***» — Aversa act 28, died **21 January 1845**.
+    **THE SURNAME IS LEFT UNREAD ON PURPOSE.** It wraps across a line break and magnifies to
+    «Ri[?]etti». **If it is RIVETTI it is a family this archive holds densely, and a daughter of
+    a late Matteo Rivetti would matter** — which is exactly why it is not being guessed. It needs
+    a second filming or a better crop.
+- **1846 `an_ua14093`** — **one act, and the register certifies it**: «*contenente atti num.
+  **uno***». «*è morta nel **Real Stabilimento delle Donne Matte**, **LUCREZIA MARCHESE**,
+  **CONIUGATA**, d'anni ——, **nata in ARIENZO in questa Provincia** … figlia di —— … e di —— ,
+  **ignorandosi da' testimonj il rimanente prescritto dalla Legge***». **Her age, her trade, her
+  parents and her husband are all blank because the asylum did not know them.** The same shape as
+  the woman of 1825.
+- **1847 `an_ua14094`** — **SIX acts**, and this volume fills its headings: «*Atto di morte fuori
+  domicilio di …*» **CARMELA BALLETTA · DOMENICO D'AMBROGIO · ANIELLO BIGLIO**, and three more
+  not yet magnified. **No Falco.**
+- **1848 `an_ua14095`** — three acts: **GIUSEPPE LIGUORI · ANGELO ABENANTE · ALESSANDRO SIMONE**.
+  *Liguori is the surname of the bishop this town keeps a museum for; no connection is implied.*
+
+**THE EARLY BLOCK IS NOW SURVEYED END TO END, 1812 TO 1848, AND THERE IS NO FALCO IN IT.**
+Nor any di Guida.
+
 ## Still to read
 
 
-**`an_ua14092` (1845), `14093` (1846), `14094` (1847), `14095` (1848)** — 31 images. Then
 **1855 `14099`, 1858 `14102`, 1859 `14103`, 1860 `14104`, 1864 `14105`, 1865 `14106`** — 88
-images. And the **bodies** of 1853, 1856, 1857, and the unread names in 1835, 1839 and 1840.
+images, and the only stretch of the series still unsurveyed. Then the **bodies**: the unread
+deceased in **1835, 1839, 1840, 1847 (three of six), 1848, 1853, 1856 and 1857**, and the
+**`RI[?]ETTI` surname of January 1845**.
 
 **Read each one's TAVOLA first** — it may answer the year in a single page.
 
