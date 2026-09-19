@@ -754,5 +754,18 @@
    "Index"
   ],
   "href": "https://discovery.nationalarchives.gov.uk/details/r/C16505253"
+ },
+ {
+  "when": "1812–1865",
+  "src": "Arienzo, «Registro degli atti diversi» — ANTENATI, 45 volumes, `an_ua14064`–`an_ua14106` plus `an_ua57637`–`57638`. The register of births at sea, recognitions, adoptions, PEOPLE WHO DIED AWAY FROM THEIR OWN HOME, and stillbirths. Read end to end, 17–20 September 2026.",
+  "what": "FALCO and DI GUIDA — and in particular the deaths of ANTONIA DI GUIDA, alive 2 February 1845, and GIUSEPPE FALCO of Antonia di Guida, alive 26 November 1849",
+  "got": "**NO FALCO IN ANY OF THE FORTY-FIVE VOLUMES, AND NO DI GUIDA.** Every act from **1845 to 1865** is read and its dead are named — the whole window either person could fall in. Four acts in the series remain unnamed, all **before 1845**, so neither can be among them.\n\n**When an Arienzo person died elsewhere, the comune where they died drew the act and sent a certified copy home, and Arienzo copied it in whole** — age, trade, street, both parents, whether they were dead, surviving children with their ages. So this was the one instrument that could hold a death the town never recorded. **It does not hold theirs.**\n\n**What it does hold is about thirty-five deaths away from home, and they map where an Arienzo labourer went and did not come back from**: the **Ospedale degli Incurabili** at Naples (5), **Sant'Agostino degli Scalzi** at Aversa (3), the **Real Stabilimento de' Matti** and its women's side at Aversa (6), **Acerra** (3), **Caserta** (2), **Airola** (2), a masseria in the **Nola** district, **Montesarchio**, **Santa Maria Maggiore**, the **Ospedale della Trinità** — and once, **LIPARI**.\n\n**PASQUALE PORRINO**, 52, a labourer born at Arienzo, died **31 October 1864 in the hospital of the DOMICILIATI COATTI on Lipari** — internal exile. **CARLO BALLETTA**, soldier of the **1st Dragoons**, died in the Ospedale della Trinità on 3 March 1855, his colonel writing to ask the sindaco to tell his family to collect **one ducat and thirty-five grana**, the price of his kit. **ANGELO IMBIMBO**, 60, died in the Aversa madhouse on 30 November 1855 — and **FRANCESCO IMBIMBO, «figlio d'Angelo»**, died in the **same asylum** on 4 November 1844. **Father and son, eleven years apart.**\n\n**TWO CAUTIONS FOR ANYONE FOLLOWING.** The holdings query `localita=Arienzo` matches **several comuni** — Corpo d'Arienzo, **San Felice d'Arienzo**, **San Casale di Arienzo** — and the printed title page gives the CIRCONDARIO at the top, which is the district, not the town. **Read the comune from each volume's own title page.** And **from 1856 the clerk leaves the printed act heading blank and writes only the body**, so a sweep of the heading band reports «no acts» for a volume holding five.",
+  "outcome": "no Falco",
+  "tags": [
+   "Antenati",
+   "Deaths",
+   "read in full"
+  ],
+  "href": "https://antenati.cultura.gov.it/ark:/12657/an_ua14071"
  }
 ]

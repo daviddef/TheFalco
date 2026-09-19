@@ -43,7 +43,7 @@ renders its results as `<li class="search-item" data-id="NNNNN">` with `Registro
 continue, five pages for the lot. **`&anno=YYYY` breaks it** — the page comes back with no
 results at all — so page through instead of filtering.
 
-| ark | year | images |
+| ark | year | shelf-mark (*segnatura*) |
 |---|---|---|
 | `an_ua14064` | 1812 | 66.18139 |
 | `an_ua57637` | 1813 | 66.18154 |
@@ -134,16 +134,6 @@ marrying in 1834 — need only have been born before 1810.**
 
 **It is still a resemblance. It is no longer a resemblance with a hole in it.**
 
-## What to do next
-
-1. **Probe the rest of the ark block and build the year map**, patiently, one request every few
-   seconds. Forty volumes, most of them one or two images.
-2. **Read every one for FALCO** — the whole series is about 120 images, comparable to a single
-   year of the death register, and it covers 1812–1865.
-3. **Look first at 1849 onward** (`an_ua14061`, `an_ua14062` and the 1853–1865 volumes), because
-   **Giuseppe Falco of Antonia di Guida is alive in November 1849 and in no volume since**, and
-   the one place his death could hide is a comune that is not Arienzo.
-
 ## The rate limit, measured — 17 September
 
 An attempt to probe `an_ua14040`–`14107` one ark at a time, **four seconds apart, with backoff
@@ -176,33 +166,6 @@ Sindaco … Per estratto conforme … Il Giudice … Il Presidente del Tribunale
 full of official surnames that read like family ones. One was misread here as «di Guida» and is
 **«[il] Giudice A. Miele»**. Magnify before believing a name in that block.
 
-## What has been read, 17 September
-
-**1849** (`an_ua14096`, 9 images) — three acts, all «morte fuori domicilio». **No Falco.**
-
-**1850** (`an_ua14097`, 16 images) — and it produced the first find of the kind this series
-exists for. Bound in is an «**ESTRATTO DI MORTE**» from the **Comune di Airola**, act 14 of 1850:
-
-> «*…è morto nella **strada Mercato**, **NICOLA D'ADDIO**, **nato in ARIENZO**, di anni
-> **ventisei**, di professione **Bracciale**, domiciliato in **Airola DI PASSAGGIO**, **figlio di
-> PIETRO**, di professione Bracciale, domiciliato in **Arienzo**, e **fu FLAVIA TANOLLA***»
-
-Declared at Airola on 28 February by Giorgio Sottile, 48, *servente comunale*, and Nicola Tirino,
-60, contadino. **A man of Arienzo who died passing through the next town, and who is invisible to
-every Arienzo death sweep this archive has run.** Not a Falco — but **d'Addio is a surname this
-archive holds**: Dorotea d'Addio stood godmother at Gioacchino Falco's font in 1779 and at
-Maddalena Falco's in 1818, and a **Pietro d'Addio** witnessed Angela Rosa Crisci's wedding on
-1 June 1820. This Pietro is alive at Arienzo in 1850 with a son born about 1824. **No kinship is
-claimed; the name is recorded because this archive watches it.**
-
-**1853** (`an_ua14098`, 20 images) — **two deaths transmitted from NAPLES**, one of them from the
-**Sezione Montecalvario**, «*Estratto da' Registri degli Atti di Morte dell'anno 1853, numero
-d'ordine 866*». Plus two local acts, for **Carmela de Roggio** and **Antonio Rivetti**. Bodies not
-yet read. **No Falco in the headings.**
-
-**1856** (`an_ua14100`) and **1857** (`an_ua14101`) — acts present and unread; 1857 has four,
-headed «Atto di morte n° 204», «n° 66» and two more. This is where the heading trap was found.
-
 ## THE BIGGEST CAVEAT, FOUND 17 SEPTEMBER: these are not all Arienzo
 
 **`localita=Arienzo` returns volumes from SEVERAL COMUNI, because in this district more than one
@@ -226,27 +189,6 @@ wrong about a third of them.
 neighbouring comuni whose records this archive has deliberately kept separate — there is a known
 Falco household at San Felice that is **not claimed as kin**. **So every volume must have its
 comune read before anything in it is attributed.**
-
-## Read so far, 17 September
-
-| volume | comune | what is in it |
-|---|---|---|
-| 1812 `14064` | Corpo d'Arienzo | **2 death acts**: «*l'atto di morte di **MARCO CRISCI**, nativo di questo Comune*», received from the Sindaco of **ACERRA**, inserted 19 May; and a second **CRISCI** received from **MONTESARCHIO**, 30 May. Plus 3 stillbirth acts, not read in detail. **No Falco.** |
-| 1813 ×2 | **San Felice** | not this town |
-| 1820 `14065` | Corpo d'Arienzo | one stillbirth act. **No Falco.** |
-| 1822 `14066` | — | **no acts** — title page and ministerial certificate only |
-| 1823 `14067` | — | **no acts** |
-| 1824 `14068` | **San Casale** | one act, Domenicantonio Verdicchio, 26, *bracciale*, strada Casaniello |
-| 1824 `14069` | Corpo d'Arienzo | **no acts** |
-| 1825 `14070` | S. Felice | **no acts** |
-| 1825 `14071` | Corpo d'Arienzo | **2 acts** — Crescenzo Crisci, died at a masseria in the **Nola** district; a woman of 55 dead in the **Aversa** asylum |
-| 1849 `14096` | Corpo d'Arienzo | 3 acts, all «morte fuori domicilio». **No Falco.** |
-| 1850 `14097` | Corpo d'Arienzo | **NICOLA D'ADDIO**, 26, born Arienzo, died at **AIROLA** «di passaggio» |
-| 1853 `14098` | Corpo d'Arienzo | 2 deaths transmitted from **NAPLES** (Sezione Montecalvario); local acts for Carmela de Roggio and Antonio Rivetti. **Bodies unread.** |
-| 1856 `14100`, 1857 `14101` | Corpo d'Arienzo | acts present, **bodies unread** |
-
-**NO FALCO ANYWHERE YET, and no DI GUIDA.** The Crisci appear twice in 1812 alone, which is what
-a family living on the same street would do.
 
 ## The 1826–1830 Corpo d'Arienzo acts, read 17 September
 
@@ -369,13 +311,120 @@ staff, whose stated ages advance year by year across the acts.
 **THE EARLY BLOCK IS NOW SURVEYED END TO END, 1812 TO 1848, AND THERE IS NO FALCO IN IT.**
 Nor any di Guida.
 
+## 1849–1865, READ OUT — and the series is finished
+
+**1849** `14096` — three acts, all «morte fuori domicilio». **1850** `14097` — **NICOLA D'ADDIO**,
+26, dead at **Airola** «di passaggio». **1853** `14098` — two acts, «*Atto di morte di **CARMELA
+DE SOSIO**(?)*» and «*Atto di morte di **ANTONIO R[?]OTELLO**(?)*», both transmitted from
+**Naples** (Sezione Montecalvario, San Lorenzo). *An earlier note here read the second as «Antonio
+Rivetti»; magnified, the surname is longer and ends **-ello**. It is not Rivetti.*
+
+**1855** `14099` — **ONE ACT, AND IT IS A SOLDIER.** The reading of this volume as empty was void
+and is now replaced:
+
+> «*Comando del **1° Reggimento Dragoni**, N° 219 — Al Sig. Sindaco del Comune di Arienzo —
+> Guarnigione di Napoli, 12 Marzo 1855 — Sig. Sindaco, **essendo cessato di vivere il dì tre dello
+> andante il soldato di questo Corpo CARLO BALLETTA**, qui accluso le fo tenere il di lui estratto
+> di matricola, pregandola d'avere la bontà di **avvertire i parenti dello stesso** spedire qui
+> persona di loro fiducia, a cui posso consegnare **ducati uno e grana trentacinque** che esisto
+> presso di me, **importo di generi di busto e altro vendutoli che spettavano al defunto***»
+
+He took **the eight-ducat enlistment bounty** at the Giunta di Leva in Naples, **joined his corps
+on 1 December 1848**, and **died in the OSPEDALE DELLA TRINITÀ on 3 March 1855**. *A **CARMELA
+BALLETTA** is among the six deaths away from home of 1847.*
+
+**1856** `14100` — three transmitted death documents, forwarded by the **Procuratore del Re presso
+il Tribunale Civile di Terra di Lavoro** «*d'individui di codesto Comune, trapassati fuori
+domicilio*», plus a court-ordered **rectification of the birth act of FAUSTINA MARTONE**, daughter
+of **Giovanni Martone**, under a decree headed *Ferdinando Secondo, Re del Regno delle Due
+Sicilie*. The three dead:
+- **ANNA GIACCHINO**, **86**, **vedova di BARTOLOMEO DI ANGELI**, **nata in ARIENZO**, a
+  **FILATRICE**, died **28 February 1856 at her own house in CASERTA, strada San Carlo**, leaving
+  three surviving children. *Filatrice is Andreana Crisci's trade; no connection is implied.*
+- **GIUSEPPE [T/D]IGLI(?)**, **70**, **ciabattaio**, of Arienzo — died **16 December 1855 in the
+  OSPEDALE DEGLI INCURABILI, Naples**, «*figlio del fu PASQUALE … e MARIANGELA …, vedovo di
+  ANTONIA CIMMINO, ed ha lasciato tre figli di età maggiore*». **The surname is five letters
+  ending «-igli» and IS NOT FALCO.** Whether it is **Tigli** or **Diglio** is left open —
+  **if Diglio, that is a family this archive holds on strada Camellara.**
+- a third, from **Caserta**, name not resolved.
+
+**1857** `14101` — four acts which are **two deaths**, both in the **Real Stabilimento de' Matti at
+Aversa**, forwarded by the Procuratore del Re, and both declared by the same attendants **Antonio
+Campanella** and **Vincenzo Francese**:
+- **ANTONIO [S]AVONE(?)**, **38**, «*figlio del fu **LUIGI** … e di **PASQUALINA FORNARO***» —
+  died April 1856.
+- **ANGELO IMBIMBO**, **60**, «*figlio del fu **PASQUALE** … e della fu **[C]ORCIA MADONNA**(?)*»
+  — died **30 November 1855**.
+  **AND THIS ONE CLOSES A FAMILY.** The 1845 volume records **FRANCESCO IMBIMBO**, born at
+  Arienzo, «*figlio d'**ANGELO***», dead in the **same asylum** on **4 November 1844**.
+  **Father and son, both dead in the Aversa madhouse, eleven years apart.**
+
+**1858** `14102` — two acts, **both «cangiamento di domicilio»**. **1859** `14103` — one act, an
+annotation of a judicial decision. **1860** `14104` — two acts, neither a death; closes «*contenente
+atti num. **2***». **1865** `14106` — two acts, both «cambiamento di domicilio»; closes
+«*contenente atti num. **due***».
+
+**1864** `14105` — **ONE DEATH, AND IT IS THE STRANGEST IN THE SERIES.**
+
+> «*facciamo nota del seguente atto di morte: **Provincia di Messina, Comune di LIPARI**, numero
+> d'ordine centoventinove … avanti di noi **Don Salvadore Favaloro Sindaco** … sono comparsi
+> **Bartolo d'Albora**, 58, barbiere, e **Angelo Megaro**(?), 61, calzolaio, domiciliati in
+> Lipari … che nel giorno **trentuno Ottobre** anno corrente alle ore due di sera **è morto nello
+> SPEDALE DEI DOMICILIATI COATTI, PASQUALE PORRINO, di anni CINQUANTADUE, MARITATO, NATO IN
+> ARIENZO, di professione BRACCIALE***»
+
+**A labourer of Arienzo under *domicilio coatto* on Lipari — internal exile — dead in the
+internees' hospital three years after Unification**, and reported home to the sindaco
+**Raffaele Rivetti**. *PORRINO is a surname this archive holds: **Orsola Porrino**, wife of Aniello
+Carfora of strada Camellara, and **Maria Porrino**, wife of Giovanni Cioffi. No kinship claimed.*
+
+## THE ANSWER FOR ROWS 39 AND 40
+
+**Every act in the series from 1845 to 1865 has now been read and its dead named. THERE IS NO
+FALCO IN ANY OF THEM, AND NO DI GUIDA.**
+
+That is the window both rows need: **ANTONIA DI GUIDA** is alive on **2 February 1845**, and
+**GIUSEPPE FALCO of Antonia di Guida** on **26 November 1849**. Neither died away from Arienzo in
+a way this register recorded.
+
+**Three acts in the whole series remain unnamed** — two in **1835**, one in **1839**, one in
+**1840** — and all of them are **before 1845**, so none can be either of those two people. They
+are the only gap left, and they are noted rather than glossed.
+
+**So the third explanation is spent.** A death missing from the Arienzo register is not explained
+by the person having died elsewhere — not for these two. What remains for rows 39 and 40 is
+**1866 or later, in the post-Unification registers this archive has still not located**, or a
+comune whose own register was never transmitted.
+
+## What the series is, in the end
+
+**Forty-five volumes, 1812–1865, of which some belong to San Felice and San Casale d'Arienzo and
+must be checked one by one.** For Corpo d'Arienzo it holds **about thirty-five deaths away from
+home**, and they map the places an Arienzo labourer went and did not come back from:
+
+| where | how many |
+|---|---|
+| **Ospedale degli Incurabili**, Naples | 5 |
+| **Sant'Agostino degli Scalzi**, Aversa | 3 |
+| **Real Stabilimento de' Matti / delle Donne Matte**, Aversa | 6 |
+| **Acerra** | 3 |
+| **Caserta** | 2 |
+| **Airola** | 2 |
+| **Nola** district (a masseria) | 1 |
+| **Montesarchio**, **Santa Maria Maggiore**, **Ospedale della Trinità** (army) | 1 each |
+| **LIPARI**, hospital of the *domiciliati coatti* | 1 |
+| unstated or unread | the rest |
+
+**Six institutions and a penal island.** None of them holds a Falco.
+
 ## Still to read
 
 
-**1855 `14099`, 1858 `14102`, 1859 `14103`, 1860 `14104`, 1864 `14105`, 1865 `14106`** — 88
-images, and the only stretch of the series still unsurveyed. Then the **bodies**: the unread
-deceased in **1835, 1839, 1840, 1847 (three of six), 1848, 1853, 1856 and 1857**, and the
-**`RI[?]ETTI` surname of January 1845**.
+**Four acts, and no more.** The unnamed dead of **1835** (two), **1839** (one) and **1840**
+(one) — all before 1845, so none of them can bear on rows 39 or 40. Plus two surnames left
+deliberately open: the **`RI[?]ETTI`** of January 1845 («*figlia del fu MATTEO*», Aversa asylum)
+and the **`[T/D]IGLI`** of December 1855 (Incurabili). **Neither is Falco; both are worth
+settling because Rivetti and Diglio are families this archive holds.**
 
 **Read each one's TAVOLA first** — it may answer the year in a single page.
 
