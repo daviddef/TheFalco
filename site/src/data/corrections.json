@@ -2503,5 +2503,16 @@
   "why": "**A number nobody can trace is worse than a wrong one, because it survives being checked.** Each of these four could be defended in isolation, and together they made the holding look like it was shrinking. The page now **derives all four from the six rows** and states the scope every time — «*378 volumes across six towns*», «*320 of the 321 Valle Caudina volumes*» — and renders the table they come from, so the next reader can see which towns are in and which are out.\n\n**One statement was not merely unlabelled but wrong.** *Searched* said the processetti were «*258 volumes across four towns, of which **none have been read***». **One bundle has been read** — Arienzo 1814, bundle 16, the richest document this archive holds — and Arienzo is not one of the four towns in the 258 anyway.",
   "where": "/processetti",
   "by": "this archive"
+ },
+ {
+  "when": "2026-09-20",
+  "what": "GAETANA LAUDATO died in APRIL, not March — and her mother was never unreadable",
+  "sev": "minor",
+  "was": "«*GAETANA LAUDATO figlia delli fu **GIACINTO LAUDATO e GIOVANNA —**, VEDOVA DI SIMONE MORGILLO, di anni SETTANTOTTO, contadina, domiciliata nella strada Trave*» — **death 9 MARCH 1816**. She is the oldest person this archive holds by birth, «*born about 1738, the deepest this archive reaches*», so her act is load-bearing for the whole Morgillo pedigree.",
+  "now": "**The act says April, and it names her mother.** «*…i quali hanno dichiarato che a' detto dì **NOVE** del mese corrente di **APRILE** ad ore dodici, **GAETANA LAUDATO** figlia delli furono **GIACINTO LAUDATO** e **VITTORIA RUOTOLO**, vedova di **SIMONE MORGILLO***».\n\n**The month was wrong by one, and «Giovanna —» — a forename with the surname marked unread — is in fact VITTORIA RUOTOLO, written plainly.** The declarants are her own sons, **ANGELO MORGILLO, 48**, and **GIUSEPPE MORGILLO, 71**, entered as «*figli della defunta*».",
+  "how": "Work-list row 58 — verifying that the archive's ANTENATI citations resolve to the acts they name. `an_ua14318` was the second volume checked.",
+  "why": "**A wrong month is the kind of error that never announces itself.** Nothing downstream contradicted it, and it would have been copied forward every time the Morgillo pedigree was rebuilt.\n\n**The mother is the larger gain.** «Giovanna —» told the next reader the surname was lost to the page. It was not lost; it was never read. **VITTORIA RUOTOLO is a grandmother this archive can now look for**, and the Ruotolo are already in these registers.\n\n**And the same volume produced the other kind of error.** Donna Francesca Rivetti's death was cited at **img7L**; image 7 left carries atto 10, somebody else entirely. **The act is on img8L**, and says exactly what this archive said it says. **The fact was right and the leaf reference was wrong** — which is the failure this row exists to catch, and which no reader could have found without opening the leaf.\n\n**Of 35 citations checked in two volumes, 33 resolve exactly.** The 1817 volume — 22 citations, including the act that settles generation four — is clean.",
+  "where": "/households",
+  "by": "this archive"
  }
 ]
