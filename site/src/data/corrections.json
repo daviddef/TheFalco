@@ -2569,5 +2569,38 @@
   "now": "**The marriage was eighteen months away, and this archive already held it.** On **2 February 1845** **CRESCENZO FALCO**, Giuseppe's son, married **ANGELA MARIA MORGILLO**, twenty-three, of **strada Cappuccini**: «*figlia di **GENNARO MORGILLO DEFUNTO**, di professione **colono**, e di **MARIA FELICIA SANZONE** … **defunta***».\n\nThe two men are now published as **PROBABLY the same man** — forename, surname, trade, the wife's forename, the order in which the couple died, and the street that climbs to his father's hill all agree — and **the identification is graded and not asserted**, because Morgillo is the commonest surname in these registers and this archive already holds two distinct Angelo Morgillo.",
   "how": "Work-list row 58. Verifying the act's DATE meant reading the act, and reading the act meant reading the name in it.",
   "why": "**Nothing was missing. Two files were.** The death act sat in one household and the marriage in another, and the sentence that judged the death act had been written without looking at the marriage. **At this size the likeliest wrong statement in the archive is one of its own, left standing where a finding never travelled** — and this one was wrong by twenty-eight years.\n\n**What it is not, yet, is proven.** The *processetto* for the 1845 marriage must carry Gennaro Morgillo's death certificate with its act number on it. If the number is 33 of 1843, the question closes; that is now work-list row 73."
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "major",
+  "where": "/people",
+  "by": "this archive",
+  "what": "«PIVERA» was corrected on 14 September and the person pages went on publishing it for six days",
+  "was": "**ANTONIA DI GUIDA's mother** was published on her person page and in her household as «*filiam Josephi e **Magdalenae PIVERA***», and again under her husband as «*dau of Giuseppe & Maddalena **Pivera***».",
+  "now": "«*filiam Josephi, et **Magdalenae RIVETTA***», and «*dau of **GIUSEPPE DI GUIDA** & **MADDALENA RIVETTA***».",
+  "how": "Not by reading anything new. **The archive had already read it** — from the image, on 14 September 2026, against a control on the next line of the same act in the same pen, «*servata forma Ritu: Roma:*», whose two capital **R** match the initial exactly. **The corrected reading was written into `data/households.tsv` and never into `site/src/data/households.json`**, and the site is built from the second. Found on 20 September while mirroring an unrelated edit between the two files.",
+  "why": "**PIVERA was never a reading. It was an OCR guess**, copied into this archive without being checked, and the household it belongs to has been called **«Giuseppe di Guida & Michedalena Rivetti»** on this site the whole time — so the archive was contradicting itself on one page.\n\n**The fault is not the letter. It is that a correction stopped halfway.** This archive keeps the same facts in a TSV and a JSON, edits both by hand, and has a gate that checks they agree on *who is in which household* — not on *what the evidence says*. **Thirty-seven rows disagree**; most are harmless drift where one file holds a fuller note, but three carried readings the published site had never seen. All three are now adopted, and **work-list row 75 exists to close the gap properly and to make the gate check the evidence too.**"
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "minor",
+  "where": "/households",
+  "by": "this archive",
+  "what": "The child Giuseppe Falco buried in 1826 was a CIOFFI, and his father was CESARE, not Gaspare Cossi",
+  "was": "Of Giuseppe Falco's appearance as a declarant on 9 August 1826: «*declaring atto 56, the death of **Giuseppe COSSI**, two, son of **GASPARE COSSI** and Maria Sposito*». Arienzo Morti 1826, `an_ua14328` img32L.",
+  "now": "«*è morto nella sua propria casa **GIUSEPPE CIOFFI**, d'anni due … figlio di **CESARE CIOFFI**, di professione contadino, domiciliato ivi, e di **MARIA SPOSITO**, domiciliata ivi*».",
+  "how": "Work-list row 58, the eighth volume. Both names magnified. The surname carries the **double-f ligature with its long descender** that this archive has already had to learn once; the father's forename is **Cesare**, written with the long ſ, which is what was being read as a «p» in «Gaspare».",
+  "why": "**Two misread NAMES — the first this row has found.** Seven volumes and ninety-five citations had produced nothing but wrong numbers, and the archive had begun to say so as if it were a law. **It is not a law. It is a tendency, and this volume broke it.**\n\n**The act also states a kinship the archive was not holding.** Its first declarant is «*SALVATORE SPOSITO, di anni ventisei, contadino … strada Camellara, **ZIO DEL DEFUNTO***» — the dead child's uncle, and so the mother's brother. **The 1826 reading log had recorded that «zio» when the volume was read. It never reached a household**, which is the third time this archive has found a fact harvested and not held.\n\n**One thing that has NOT been done, deliberately.** «Cossi» stands 43 times in this archive's register, nearly all of it harvested from other people's indexes. **One act has now been read at full resolution and it said Cioffi twice.** That is one act, not a rule. Both surnames exist in Arienzo. **Nothing has been renamed in bulk, and nothing should be until the acts are read.**"
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "minor",
+  "where": "/households",
+  "by": "this archive",
+  "what": "Angelo Sansone was forty-six at Maria Falco's death, not forty-five — and his surname settled another act",
+  "was": "«*Declared by **ANGELO SANSONE, 45**, and Tomaso Sposito, 50, both contadini of strada Camellara, each as «vicino», not «parente»*» — at the death of **MARIA FALCO**, wife of Alfonso Diglio, daughter of Pasquale Falco and Chiara Rivetti, 25 April 1826.",
+  "now": "«*di anni **quarantasei***» — **forty-six**. Tomaso Sposito's fifty is right, and so is everything else in the act.",
+  "how": "Work-list row 58. Arienzo Morti 1826, `an_ua14328` img13L act 22.",
+  "why": "**The age is trivial. What his surname did is not.** Magnifying «*Angelo **Sanſone***» in this act gave the archive a control it had been missing two volumes earlier: **the same long ſ, in the same shape, in the same street**. It is what settled the surname of **FELICIA SANSONE**, wife of the Gennaro Morgillo who died in 1843 — published here as «Sompone», where the «p» was a long s all along — and so it is what turned a four-way agreement into a five-way one for the identification of **Crescenzo Falco's father-in-law**.\n\n**A control letter is worth more than a confident reading**, and this archive keeps relearning it."
  }
 ]
