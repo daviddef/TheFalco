@@ -77,7 +77,7 @@ doubt was recorded, the enlargement was refused until it could be done properly,
 in a different year supplied it.
 
 **Raffaele Cioffi and Francesca Falco lost two infants in fourteen months** — Luigi at one day old
-on 2 January 1842, Antonio at seventeen days on 10 June 1843 — on strada Cioffi. Both parents are
+on 2 January 1842, Antonio at seventeen days on 10 April 1843 — on strada Cioffi. Both parents are
 named without *«fu»* in both acts, so both were alive through 1843.
 
 **She is not the other Francesca Falco.** The archive already holds a **Francesca Falco, wife of
@@ -266,3 +266,44 @@ means a lost act: in this volume, six missing leaves are documented as having be
   *Lazzara [S/Z]orbone* (atto 48), *Rosa Quotolo or Diodato* (atto 52), *Alfonso Marra* (atto 58).
   They are flagged rather than smoothed over, because a smoothed-over surname is how *Cossi*
   survived five years.
+
+## Row 58 re-read, 20 September 2026 — five acts checked, three dates wrong
+
+Eleven citations into this volume were verified against the images. The people are right in
+all five acts; the dates were not.
+
+| act | image | archive said | the act says |
+|---|---|---|---|
+| 17 | 14R | 10 June 1843 | **10 April 1843** — «del mese di Aprile» on both date lines |
+| 23 | 18R | 3 June 1843 | 3 June 1843 — correct; the act was drawn on the 4th |
+| 29 | 21R | 27 July 1843 | **26 July 1843** — the act was drawn on the 27th |
+| 33 | 24R | 14 August 1843 | **4 August 1843** — «il dì quattro» |
+| 43 | 30R | 13 September 1843 | 13 September 1843 — correct |
+
+Act 33 is arithmetically settled without reading the word at all: **act 32 is dated 3 August
+and act 35 is dated 10 August**, so act 33 cannot fall on the fourteenth.
+
+Act 29's error is the interesting one, because act 23 on the same run gets it right. The clerk
+writes two dates in every act — the day he draws it and the day the death happened — and the
+archive took the wrong one once in five.
+
+### And act 33 is Crescenzo Falco's probable father-in-law
+
+> «*è morto nella sua propria casa **GENNARO MORGILLO**, **vedovo di Felicia S___**, nato in
+> Arienzo, di anni **cinquantatré**, di professione **COLONO**, domiciliato **strada Camellara**,
+> figlio di **ANGELO MORGILLO defunto**, di professione **COLONO***»
+>
+> — declared by **GIUSEPPE FALCO**, colono of the same street.
+
+Eighteen months later, on 2 February 1845, Giuseppe's son **CRESCENZO FALCO** married **ANGELA
+MARIA MORGILLO**, twenty-three, of **strada Cappuccini**, «*figlia di GENNARO MORGILLO DEFUNTO,
+di professione colono, e di MARIA FELICIA SANZONE … defunta*».
+
+Forename, surname, trade, the wife's forename, the order of the two deaths and the street that
+climbs to Angelo Morgillo's hill all agree. **None of that is a document.** Graded PROBABLE.
+The processetto for the 1845 marriage would settle it by quoting the death act's number —
+work-list row 73.
+
+**The wife's surname cannot be read here.** This file published «Sompone»; the 1845 marriage
+gives «SANZONE». At 1,622 pixels across a half page, which is where this filming stops, the
+word will not separate. It is left as published, and the doubt is recorded instead.

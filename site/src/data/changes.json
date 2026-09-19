@@ -1,5 +1,2203 @@
 [
 {
+"sha": "b48444d",
+"date": "2026-09-20",
+"title": "Luigi Falco's birth is act 134, and act 133 is a family that looks just like his",
+"summary": "The fifth volume of row 58: an_ua14416, Arienzo births 1819, thirteen citations.",
+"kind": "sweep"
+},
+{
+"sha": "09bf10e",
+"date": "2026-09-20",
+"title": "Row 58, four volumes: 59 citations, five errors, and all five are numbers",
+"summary": "an_ua14320 (deaths 1818), 12 citations across four images — all correct, including Giuseppe Falco declaring on 8 May 1818 at thirty-six, contadino of strada Camellara. One act throws in a Carfora household the register had not been read for: Antonio Carfora, son of the late Gennaro Carfora and Francesca Crisci, husband of Maria Turco.",
+"kind": "fix"
+},
+{
+"sha": "8bff6db",
+"date": "2026-09-20",
+"title": "Row 58: two volumes verified, 35 citations, two errors",
+"summary": "an_ua14319, deaths 1817 — 22 citations across five images, all correct. Including the act this archive is built on: «RAFFAELE FALCO figlio di VINCENZO FALCO e ANDREANA CRISCI», declared 28 October 1817 by Giuseppe Falco, 37, massaro di campagna of strada Camellara, «PARENTI». The name reads ANDREANA, not Adriana.",
+"kind": "fix"
+},
+{
+"sha": "e83c028",
+"date": "2026-09-20",
+"title": "Four totals for the processetti, all correct, none labelled",
+"summary": "Row 71. processetti.json was read by no build script and no page — the page carried its numbers as typed literals. It is now wired in and every count on the page is derived from the six rows, rendered as a table beside them.",
+"kind": "fix"
+},
+{
+"sha": "5f037ef",
+"date": "2026-09-20",
+"title": "The register of people who died away from home is read out. No Falco in it.",
+"summary": "Row 70 finished: all 45 volumes, 1812 to 1865. Every act from 1845 to 1865 is read and its dead are named — the whole window rows 39 and 40 need, since Antonia di Guida is alive on 2 February 1845 and Giuseppe Falco on 26 November 1849 — and there is no FALCO and no DI GUIDA among them. Four acts in the whole series remain unnamed and all four are before 1845, so neither can be there.",
+"kind": "sweep"
+},
+{
+"sha": "b1a688d",
+"date": "2026-09-17",
+"title": "Diversi 1845-1848: the Aversa asylum, and the early block is surveyed end to end",
+"summary": "Three of these four years send a death back from the REAL STABILIMENTO DE' MATTI at Aversa — the kingdom's lunatic asylum — and its women's side, the Real Stabilimento delle Donne Matte. The same two men declare every one: Antonio Campanella and Vincenzo Francese, both «impiegato ne' matti», asylum staff whose stated ages advance year by year across the acts.",
+"kind": "sweep"
+},
+{
+"sha": "3b5547e",
+"date": "2026-09-17",
+"title": "Diversi 1831-1844, and the index that was in every volume all along",
+"summary": "Every one of these volumes carries a printed TAVOLA ALFABETICA ANNUALE DE' DEFUNTI FUORI DEL PROPRIO DOMICILIO — an index of exactly the deaths this row is hunting, giving the deceased, BOTH PARENTS, the profession and the date, and signed with the total. The 1833 one names Gaetano Massaro, son of Crescenzo Massaro and Grazia, dead in October 1833, and certifies «contiene il suddetto solo atto». Read the tavola first",
+"kind": "sweep"
+},
+{
+"sha": "850a8da",
+"date": "2026-09-17",
+"title": "Diversi 1826-1830: nine deaths away from home, and a widower's end",
+"summary": "Read the Corpo d'Arienzo volumes for 1826, 1828, 1829 and 1830 — checking each volume's comune first, which put 14072 and 14076 aside as San Felice.",
+"kind": "sweep"
+},
+{
+"sha": "cad568c",
+"date": "2026-09-17",
+"title": "«Arienzo» in the holdings list is a district, not a town",
+"summary": "Working through the Diversi register and the series turned out not to be what its name says. More than one comune in this district carries «Arienzo» in its name, and localita=Arienzo matches all of them. Read from the manuscripts: an_ua14064, 14069 and 14071 are «Comune di CORPO D'ARIENZO» — this family's town. an_ua57637 and 57638, both 1813, are «Comune di SAN FELICE D'ARIENZO». an_ua14068, 1824, is «Comune di SAN ",
+"kind": "find"
+},
+{
+"sha": "c0a3784",
+"date": "2026-09-17",
+"title": "The UK National Archives had never been searched. Now it is, and it is closed",
+"summary": "Answering a question from outside: no, this archive had never looked at discovery.nationalarchives.gov.uk. Not once. It appears nowhere in the repository and is not among the twenty-five sources; every \"National Archives\" here is the National Archives of Australia. The only reasoning ever recorded about Britain ruled out FreeBMD because \"this family has no English generation\" — sound, but it covers births, marriages ",
+"kind": "site"
+},
+{
+"sha": "2f53f55",
+"date": "2026-09-17",
+"title": "The Diversi map is complete, and yesterday's table was the wrong series",
+"summary": "All 45 volumes located, 1812 to 1865, ark by year, in five requests — by reading the holdings list instead of probing arks. Each volume renders as <li class=\"search-item\" data-id=\"NNNNN\"> with «Registro: YYYY» beside it, ten to a page. The real block is an_ua14064 to an_ua14106, plus an_ua57637-57638 for 1813.",
+"kind": "sweep"
+},
+{
+"sha": "d46953e",
+"date": "2026-09-17",
+"title": "Fold yesterday's households into the register TSV",
+"summary": "build_register.py rebuilds site/src/data/register.json from data/people-register.tsv and writes both. register.json was committed with the gate; this is its source file, thirty-two rows behind — the Carfora, Crisci and Falco members added yesterday. Committed together so the pair cannot drift, which is the same failure the households TSV and JSON already have a gate for.",
+"kind": "other"
+},
+{
+"sha": "e1ce1db",
+"date": "2026-09-17",
+"title": "A gate against the Mazza fault — which this archive does not have",
+"summary": "Checked for the fault the estate landing page caught in Mazza: evidence keyed to a person, in a file no build script reads, so the person's page tells the reader nothing has been read about them.",
+"kind": "fix"
+},
+{
+"sha": "08da9db",
+"date": "2026-09-17",
+"title": "Record what the Antenati block actually costs",
+"summary": "Probing the Diversi ark block one request every four seconds, with backoff to ten minutes on each 403, resolved nothing in fifty minutes. Every request was refused, including after the longest wait.",
+"kind": "site"
+},
+{
+"sha": "31d2bd2",
+"date": "2026-09-17",
+"title": "Maddalena's baptism was on the other leaf, and a third of the parish says FALO",
+"summary": "Row 16 spent two rendering passes on ark 3Q9M-CSD3-1381-R and neither reached the entry. That leaf holds the margin label «Maddalena Falco» and nothing else; the act is on 3Q9M-CSD3-13LG-7. In this register the year's index and the year's acts are bound apart, so a search that lands on the label will never reach the act however many tiles it renders. Before rendering, ask the full text which leaf the words are on.",
+"kind": "find"
+},
+{
+"sha": "7ad3b61",
+"date": "2026-09-17",
+"title": "Sara Ruggiero stops being only a godmother",
+"summary": "Row 45. She stood on ten pages of the baptism harvest as matrina to at least six Falco households, she is Andreana Crisci's mother and so generation three's mother-in-law, and this archive had one age for her and nothing else.",
+"kind": "site"
+},
+{
+"sha": "caa03be",
+"date": "2026-09-17",
+"title": "Row 17: measure the renderer bug, test the patch, and correct the diagnosis",
+"summary": "The work-list page renders its notes through the shared kit's own markdown function. Measured on this page: of 70 rows, 42 contain backticks — 148 code spans — and the built HTML carries 296 literal backtick characters and not one <code> tag. There are also 57 single-asterisk italics, and the kit's renderer has no italic rule at all.",
+"kind": "fix"
+},
+{
+"sha": "78f378c",
+"date": "2026-09-17",
+"title": "The register of people who died somewhere else",
+"summary": "Row 10 went looking for the separate filming of the birth tavole. The ark block below the marriage indexes is not that. It is the Arienzo «Diversi» series, and its title page reads: atti per le nascite avvenuti in un viaggio di mare, per le ricognizioni, adozioni, PERSONE DEFUNTE E FUORI DEL PROPRIO DOMICILIO, e morti-nati.",
+"kind": "sweep"
+},
+{
+"sha": "980722b",
+"date": "2026-09-17",
+"title": "Repin: the long registers are laid out in boxes the browser can skip",
+"summary": "A block box per two hundred rows, each holding its own table, sharing one colgroup so the columns still line up. Measured working this time: twenty skip-and-restore events across one scroll of the D'Arcy register, where the previous attempt fired none.",
+"kind": "site"
+},
+{
+"sha": "5390bfe",
+"date": "2026-09-17",
+"title": "A way in to seventy-eight plates",
+"summary": "This page reproduces every register plate whole with the archival reference beside it, which is the point of it - and sixty-odd plates with no contents list means finding one is scrolling. The anchors already existed; nothing else about the page changes.",
+"kind": "site"
+},
+{
+"sha": "c326a2b",
+"date": "2026-09-16",
+"title": "/open-questions/ becomes 37 rows, and two of the answers were wrong",
+"summary": "Row 67. A hundred and sixty-two lines of prose are now data the shared Questions component can filter: 37 questions, 20 open, 6 blocked, 11 answered.",
+"kind": "sweep"
+},
+{
+"sha": "7e3cfc5",
+"date": "2026-09-16",
+"title": "/searched/ becomes 61 rows, and the conversion caught a fourth stale file",
+"summary": "Row 66. Two hundred and seventy-three lines of prose are now data the shared Searched component can filter and count: 61 searches, 20 of them nulls, said in a line a reader can check instead of a claim buried in paragraphs.",
+"kind": "sweep"
+},
+{
+"sha": "652c533",
+"date": "2026-09-16",
+"title": "Domenica Falco, born 1846, married 1874 — and the margin says so",
+"summary": "Row 43 went looking for the children of Crescenzo Falco and Angela Maria Morgillo, married February 1845. It swept the last two months of 1845 and the whole of 1846, and Crescenzo is in neither. Three Falco fathers turned up instead, all of strada Camellara: Michele, 38, in December 1845; Francesco, 42, in January 1846; and Matteo, 38, colono, in September 1846.",
+"kind": "find"
+},
+{
+"sha": "3b1eceb",
+"date": "2026-09-16",
+"title": "The plates onto the shared gallery, with the lightbox that came with them",
+"summary": "Booyzen and Defranceschi had a lightbox; this archive did not. It has one now, along with the filter for what a plate is, and it keeps what it was built to do.",
+"kind": "other"
+},
+{
+"sha": "40af032",
+"date": "2026-09-16",
+"title": "A fourth of Matteo's nine, and a street that has three house numbers",
+"summary": "Row 59 wanted the Arienzo marriage of 30 December 1880. Collection 2043630 was swept a second time, on Carfora — 347 distinct Arienzo pages now read across both surnames — and the act is quoted on none of them. The Arienzo material there begins at 1891 whatever surname is run. Published as a measured negative, with the near miss named as a near miss: a Pasquale Carfora, 43, who witnesses a birth in 1896 is a coincide",
+"kind": "sweep"
+},
+{
+"sha": "0864eb5",
+"date": "2026-09-16",
+"title": "The 1841 register lost eleven days, and the Falco burial is inside them",
+"summary": "Rows 12 and 56 asked why the parish buried Joannes Falco on 27 November 1841 and the comune recorded no Falco all year. Three tests were specified. The answer needed only the dates in the acts already on the page.",
+"kind": "sweep"
+},
+{
+"sha": "a7fbe79",
+"date": "2026-09-16",
+"title": "The Carfora were on strada Camellara the whole time",
+"summary": "Row 63. Every route to Maria Carfora's parents was run at Forchia and all three shut. The 1860 marriage act then put a Carfora house at Arienzo, and this archive had not one Arienzo Carfora record.",
+"kind": "sweep"
+},
+{
+"sha": "3ef3a5e",
+"date": "2026-09-16",
+"title": "The three lists of names say which is which",
+"summary": "The People, Every Name and The Register sound identical in a menu and are genuinely different pages: the people themselves, every name and how many bore it, and one row per source line. A reader arriving at one had no way to tell.",
+"kind": "site"
+},
+{
+"sha": "d88f1e2",
+"date": "2026-09-16",
+"title": "Arienzo's lost registers survive inside the ones that survived",
+"summary": "Row 62. Antenati stops at 1865 for Arienzo in every series, and three of this archive's oldest questions are on the far side of that wall.",
+"kind": "site"
+},
+{
+"sha": "bf6ed1c",
+"date": "2026-09-16",
+"title": "«ivi» is the comune, and a finding that said otherwise is withdrawn",
+"summary": "Row 47 asked for acts where «ivi» follows a person whose street is known to differ. Three of them were already on disk from row 60.",
+"kind": "fix"
+},
+{
+"sha": "7b20a45",
+"date": "2026-09-16",
+"title": "One word settles four years and a signature was waiting at the foot of the leaf",
+"summary": "Row 60 went to re-magnify four death acts transcribed «COSSI» before this archive had the Cossi / Crisci / Cioffi test. All four are CIOFFI — child, father, and in 1828 the second declarant and the officiating eletto too. The «GIUSEPPE CRISCI(?)» question mark of 1824 is answered.",
+"kind": "fix"
+},
+{
+"sha": "8436db6",
+"date": "2026-09-16",
+"title": "Repin: an echoed source label, a retired prop, and tr[hidden] said out loud",
+"summary": "",
+"kind": "other"
+},
+{
+"sha": "79c77cc",
+"date": "2026-09-16",
+"title": "Repin: the table chunking did nothing and is gone",
+"summary": "Measured in a browser: content-visibility on a tbody inside a table never skips, with either table layout, while a plain off-screen div does. The debounce stays.",
+"kind": "other"
+},
+{
+"sha": "49b32ab",
+"date": "2026-09-16",
+"title": "Repin: the bloodline chart fills its box and scales down",
+"summary": "Raised from the Lerena session, fixed in the kit and rolled to all seven rather than pinned on one - the same component rendering two ways across the estate is the drift the kit exists to stop.",
+"kind": "fix"
+},
+{
+"sha": "d8947bf",
+"date": "2026-09-16",
+"title": "The people page stops writing itself out twice: 386 KB of hay becomes 180",
+"summary": "Every row carried a second copy of its own text so the filter could read it. The name, surname, relation, place and span are all cells below and the shared script reads them off the row now.",
+"kind": "site"
+},
+{
+"sha": "0ba6717",
+"date": "2026-09-16",
+"title": "Bring the blocked rows up to date — two of them were overstating the block",
+"summary": "Row 18 said the blocker was the desktop Browser pane not being displayed. It is not. FindMyPast signs in fine in the browser context this session drives — twelve surnames were swept through it today. FamilySearch specifically has no session there: /en/tree/find redirects to /en/search/tree/, /en/home/ to /en/australia/, and every image ark bounces to ident.familysearch.org. Those are the signed-out paths. A tab is pa",
+"kind": "find"
+},
+{
+"sha": "cfac348",
+"date": "2026-09-16",
+"title": "One word settles a separation, and Andreana Crisci gets her trade after five ages",
+"summary": "Row 36 done. Forty index volumes were read for 1809-1849 and thirteen Falco marriages published from them, but only one register had been opened. Four now: 1845, 1846, 1847, 1848. There is no Falco marriage in the 1849 index, so the window the row names is finished.",
+"kind": "sweep"
+},
+{
+"sha": "e14d5cc",
+"date": "2026-09-16",
+"title": "Make row 58 executable: 207 citations, 134 of them the sole support for their fact",
+"summary": "Eight citations were found on 15 September pointing one page early, every one copied from a note written on zero-based harvest numbering. They were found by accident, and nothing in the build can find the rest — checkarchive verifies that links reach pages, and no gate opens an image. So it is a reading job, and the row said to prioritise by load without any way to compute it.",
+"kind": "sweep"
+},
+{
+"sha": "791da6e",
+"date": "2026-09-16",
+"title": "Two worklist rows arrived with a state the gate rejects — and I shipped past a red gate",
+"summary": "Rows 66 and 67 came in from the other session with state `open`. checkworklist allows blocked / done / next / running / struck only, so the build gate has been failing since they landed. Both read as `next`; corrected to that, with a note on each saying what was changed and that nothing else about the row was touched.",
+"kind": "fix"
+},
+{
+"sha": "1da1c62",
+"date": "2026-09-16",
+"title": "Twelve branch surnames swept on FindMyPast — one Queensland lead, one true nil",
+"summary": "Row 65. The September sweeps covered six surnames: Falco, Raffaele Falco, Annecchino, Zampiello, Servodio, Maione. The seventy-odd families who married into this line were never searched. Twelve now are, on David's subscription.",
+"kind": "sweep"
+},
+{
+"sha": "704fe72",
+"date": "2026-09-16",
+"title": "The prose pages that cannot join their siblings, written down where they will be seen",
+"summary": "Three shared pages are stuck, and not on anything the UI can fix. /searched/ sits at four of seven, /open-questions/ at two, /sources/ at two, because the rest of the estate holds those as paragraphs rather than rows. Turning a paragraph into rows means deciding what each search returned and what would answer each question, and that is research this archive owns.",
+"kind": "fix"
+},
+{
+"sha": "d9bf613",
+"date": "2026-09-16",
+"title": "Repin: what the number counts decides what the page may say",
+"summary": "",
+"kind": "site"
+},
+{
+"sha": "2dbed4f",
+"date": "2026-09-16",
+"title": "Eleven ways this archive knows a thing, and a reader can now pick one",
+"summary": "Seven thousand three hundred and eighty-five of these twelve thousand rows were read in a register act by act; 3,252 came out of a surname index and 290 from a family tree. The field was already on every row, spent on a label at the end of the source column.",
+"kind": "site"
+},
+{
+"sha": "aaffe24",
+"date": "2026-09-16",
+"title": "Where the name is, on the estate's chart",
+"summary": "Fifteen countries off a three-column table and onto the shared distribution, ranked by bearers - which here is the right reading, since Italy holds nearly three times the next country. The caution about the Iberian rows stays in the prose beneath: that Portugal, Angola and the Philippines are very probably a different name is a judgement about the data, not a property of it.",
+"kind": "other"
+},
+{
+"sha": "536825d",
+"date": "2026-09-16",
+"title": "Repin: the spine carries the house",
+"summary": "",
+"kind": "other"
+},
+{
+"sha": "e649e50",
+"date": "2026-09-16",
+"title": "Repin: a kind is not a region",
+"summary": "",
+"kind": "other"
+},
+{
+"sha": "8595d6f",
+"date": "2026-09-16",
+"title": "Repin: the chronology picks its headings from the span",
+"summary": "",
+"kind": "other"
+},
+{
+"sha": "f4f3430",
+"date": "2026-09-16",
+"title": "Sixty-four dated plates onto the shared chronology",
+"summary": "The three bands stay - the generations, who was in charge, and the years of register actually read are this archive's own picture and no other archive has one. The two-column table of dated documents underneath becomes the estate's timeline shape, grouped by decade.",
+"kind": "other"
+},
+{
+"sha": "93cfeb0",
+"date": "2026-09-16",
+"title": "FindMyPast: it was already swept twice, and every method note names the wrong domain",
+"summary": "David opened a one-month full subscription and asked whether FindMyPast had been run through. It had — twice, and both times signed in: a full surname sweep on 9 September and a re-sweep from inside the paywall on 13 September. Those found the six passenger-list records that closed generation seven's arrival, established that the Italian sets are the IGI re-hosted and not a second source, and returned zero Annecchino",
+"kind": "sweep"
+},
+{
+"sha": "8d98998",
+"date": "2026-09-16",
+"title": "The spine runs on the shared shape",
+"summary": "The story stays; the chain is shared. A numbered generation, the couple, what is known of them, and a mark on the joint this archive cannot make bear weight — which is the difference between a spine and a pedigree.",
+"kind": "other"
+},
+{
+"sha": "d76e513",
+"date": "2026-09-16",
+"title": "The places register runs on the shared shape",
+"summary": "A place and how many people are in it — the same register on all seven, written seven ways. This one keeps its own columns and its own prose; what is shared is the shape and the filter.",
+"kind": "other"
+},
+{
+"sha": "acfe5eb",
+"date": "2026-09-16",
+"title": "The change feed runs on the shared shape",
+"summary": "A dated note saying what was done and what it turned up — the same job on every archive that keeps one, written four different ways. This page keeps its own words and its own grading; what is shared is that a day groups its entries and that doing and finding are two different fields.",
+"kind": "site"
+},
+{
+"sha": "08bea0a",
+"date": "2026-09-16",
+"title": "\"Santa Maria a Vico\" was my guess, and its own register excludes it",
+"summary": "Yesterday I published, from the margin of Domenico Clemente Falco's birth act: \"Con atto 6 agosto 1856 atto 21 in S. Maria a Vico il Falco sposò Domenica Vigliotti di Giuseppe\" — and on that, a household record placing his marriage at Santa Maria a Vico, a work-list row to go read that act, and a second row to enumerate the comune.",
+"kind": "sweep"
+},
+{
+"sha": "e2683e7",
+"date": "2026-09-16",
+"title": "The banns do not reach 1855, the tavole do not reach 1829, and five more names got their surname back",
+"summary": "Row 64 done. The NOTIFICAZIONI register is bound into the 1861 volume only — an_ua14265, 76 images for 29 acts, the rest banns. 1855 (30 images) and 1856 (57) are acts to the end: image 24 of 1855 is act 22, image 46 of 1856 is act 20. No banns in either, and 1859/1862/1863/1864/1865 have no room for one.",
+"kind": "sweep"
+},
+{
+"sha": "4e4a15a",
+"date": "2026-09-16",
+"title": "Sixteen years of marriage registers, two Falco weddings, and a new child for generation three",
+"summary": "Row 34 done: 1850 to 1865, every act read. The series runs to an_ua14269, not to 1858 — that earlier claim was four rate-limit refusals read as absences and is withdrawn on the corrections page.",
+"kind": "sweep"
+},
+{
+"sha": "c348462",
+"date": "2026-09-16",
+"title": "The register runs on the shared shape",
+"summary": "Two archives had written near-identical register pages: the same three columns, the same search box, the same section per surname. The sections are a facet now, so one surname is a click rather than a scroll past two hundred headings, and the search still runs across all of them at once.",
+"kind": "site"
+},
+{
+"sha": "3f3a3b4",
+"date": "2026-09-16",
+"title": "Pin the kit to the map that draws provincial boundaries",
+"summary": "An inland frame has no coastline in it. The Falco map is 26 km of Campania and drew an empty box; it now carries the provincial line that separates the towns this family married across. The box also follows the shape of the ground rather than a fixed letterbox, and the fine layers are dropped on frames that span continents, where they were 1.1 MB of illegible markup.",
+"kind": "fix"
+},
+{
+"sha": "da74a4c",
+"date": "2026-09-16",
+"title": "I read a rate-limit refusal as an absence, and the fix found the Annecchino",
+"summary": "WITHDRAWN: \"the Arienzo marriage series ends in 1858\". It runs to 1865 and those volumes are digitised — an_ua14264 is Matrimoni 1860, 38 images; 14267 is 1863, 24 images; the town's year facet gives Nati, Matrimoni and Morti all 1809-1865.",
+"kind": "sweep"
+},
+{
+"sha": "532d573",
+"date": "2026-09-16",
+"title": "Generation three was alive in December 1864, and his death is out of reach",
+"summary": "Work-list rows 41 and 3, and rows 34/39/40/59 sharpened.",
+"kind": "sweep"
+},
+{
+"sha": "7b5fbf5",
+"date": "2026-09-15",
+"title": "The marriage registers after the index: four years read, and one word merges two households",
+"summary": "Work-list row 34. The \"Matrimoni, indice\" series stops at 1849, so after it the register IS the index — each act naming both spouses, BOTH sets of parents, the ages, trades, streets, which parents were dead, and the church date facing it. Only 1854-56 had ever been opened, each for one question.",
+"kind": "sweep"
+},
+{
+"sha": "2226811",
+"date": "2026-09-15",
+"title": "Eighty-eight invisible rows, and nineteen supersession links that went nowhere",
+"summary": "Work-list row 13, and a fault found in passing.",
+"kind": "fix"
+},
+{
+"sha": "74b2509",
+"date": "2026-09-15",
+"title": "Corrections run on the shared shape",
+"summary": "Every archive publishes what it got wrong and no two did it the same way. This one keeps its own page title and its own words — the estate settled that a menu label is shared while a page title need not be — and hands the entries to the component that every archive now uses.",
+"kind": "fix"
+},
+{
+"sha": "3b1fa48",
+"date": "2026-09-15",
+"title": "Sixteen people were filed under their own forenames, and a check that asks first",
+"summary": "Work-list rows 30, 44 and 55.",
+"kind": "fix"
+},
+{
+"sha": "0eed1f9",
+"date": "2026-09-15",
+"title": "The people register runs on the shared table",
+"summary": "Seven archives had each written their own long-list-with-a-search-box, and this one hands its rows and its own facets to the shared component now. What stays is everything that is actually its own: the columns it chose, the counts, the caveats, the filter groups it decided a reader needs.",
+"kind": "site"
+},
+{
+"sha": "90728c9",
+"date": "2026-09-15",
+"title": "The Cioffi conflation was still in the data, and a fifth gate to stop the next one",
+"summary": "Work-list rows 49, 50 and 51.",
+"kind": "sweep"
+},
+{
+"sha": "ec4563b",
+"date": "2026-09-15",
+"title": "The people register runs on the shared table",
+"summary": "Three hundred and seventy-eight lines to two hundred and eighty, and the page keeps everything that is its own: the seven columns, the three filter groups with their counts, and the note explaining exactly what \"★ My line\" means and why name-matching alone was refused.",
+"kind": "site"
+},
+{
+"sha": "c9d1d24",
+"date": "2026-09-15",
+"title": "Every Name runs on the shared component now",
+"summary": "Three archives' /who/ pages were byte-identical apart from the line that imports the data, and two more differed only in wording — a copy-paste fork sitting there waiting to drift, which is the thing the kit exists to stop.",
+"kind": "site"
+},
+{
+"sha": "7308e4d",
+"date": "2026-09-15",
+"title": "The harvest is snippets, not pages — a wrong diagnosis, corrected",
+"summary": "Work-list row 57, which asked to re-parse the parish baptism harvest for the child names the parser dropped. There is nothing to re-parse.",
+"kind": "fix"
+},
+{
+"sha": "1e029e5",
+"date": "2026-09-15",
+"title": "A marriage in a margin, fifty-seven years on — and the instrument has a date",
+"summary": "Work-list rows 46 and 48.",
+"kind": "sweep"
+},
+{
+"sha": "917199e",
+"date": "2026-09-15",
+"title": "Eight citations pointed at the wrong page, and the markdown fault was on 24",
+"summary": "Work-list rows 46, 52, 53, 54 — and row 46 found something it was not looking for.",
+"kind": "sweep"
+},
+{
+"sha": "b17cc19",
+"date": "2026-09-15",
+"title": "Twenty-four more rows on the work list, and one of them corrected itself",
+"summary": "The registers first. The largest unread seam is the Arienzo MARRIAGE REGISTERS after 1849, unread because the finding aid stops there: the index series ends at 1849 and after that the register is the index, naming both spouses, both sets of parents and the church date. Only 1854, 1855 and 1856 have been opened, each for one question. The 1845-1849 registers are unread too, behind indexes that were read in full — and ",
+"kind": "sweep"
+},
+{
+"sha": "507840d",
+"date": "2026-09-15",
+"title": "Falco had plenty to count; I had not looked properly",
+"summary": "I recorded that this archive held nothing machine-readable to count its work list against. That was wrong, and looking again took a few minutes.",
+"kind": "fix"
+},
+{
+"sha": "1bbcabb",
+"date": "2026-09-15",
+"title": "Pin the kit to the gate that refuses a key on no rows",
+"summary": "A declared key that matched nothing was being skipped silently, so an archive with outstanding work could report none. It now fails and says so.",
+"kind": "other"
+},
+{
+"sha": "1b00328",
+"date": "2026-09-15",
+"title": "The timeline, on this archive too",
+"summary": "Dated events laid over who was in charge — the Defranceschi chart, promoted to the kit because the idea was never about marriages: it is what this family was doing, and what was happening to them while they did it.",
+"kind": "other"
+},
+{
+"sha": "cd40095",
+"date": "2026-09-15",
+"title": "Crescenzo's birth proven, his mother alive in 1845, and «Cossi» withdrawn",
+"summary": "Work-list rows 32 and 28, both raised by the corrections audit.",
+"kind": "fix"
+},
+{
+"sha": "c32f9d3",
+"date": "2026-09-15",
+"title": "The living branches were drawn as empty bars — the chart counted the dead",
+"summary": "David, reading his own front page: \"how can a Mazza carry Falco blood, but a D'Arcy or a Defranceski can't?\"",
+"kind": "fix"
+},
+{
+"sha": "75dd861",
+"date": "2026-09-15",
+"title": "The families who married in, on the front page too",
+"summary": "All seven home pages now carry the same five sections: where this family can actually be put, the families who married in, what this archive has established, the archive in numbers, and what is still missing. Before this only four of those were shared and the diagram was on none of them.",
+"kind": "site"
+},
+{
+"sha": "35254ca",
+"date": "2026-09-15",
+"title": "The blood chart counts publishable people, not blood — raised, not fixed",
+"summary": "David, reading the front page: \"how can a Mazza carry Falco blood, but a D'Arcy or a Defranceski can't?\"",
+"kind": "fix"
+},
+{
+"sha": "dab0829",
+"date": "2026-09-15",
+"title": "1819 read act by act — a birth date, a necronym, and a marriage in a margin",
+"summary": "Work-list row 9. Arienzo Nati 1819 (an_ua14416), 137 acts, no annual tavola — both ends checked; the twenty-one-row list on the last leaf is a supplementary list, not the year's index. Read in six contact sheets. Three Falco births, all on strada Camellara.",
+"kind": "sweep"
+},
+{
+"sha": "ee81adc",
+"date": "2026-09-15",
+"title": "Rank the families instead of drawing a wheel of them",
+"summary": "The radial chart came from the archive with seventy-four in-law surnames, where a ring is a reasonable shape. At thirteen it was indefensible: a large empty hole, every name sideways or upside down, type shrunk to fit a circumference nothing needed, and most of a wide page unused.",
+"kind": "site"
+},
+{
+"sha": "b2e25bd",
+"date": "2026-09-15",
+"title": "Withdrawn within the hour — the forty volumes were read against the bride",
+"summary": "The audit published, an hour ago, that the Arienzo marriage-index sweep had closed forty volumes against a surname this archive had retired: \"Maria Falco x Francesco COSSI\", when the man is CIOFFI. It raised a work-list row to re-read all forty and said the conclusion built on the negative had nothing under it.",
+"kind": "sweep"
+},
+{
+"sha": "40b47c9",
+"date": "2026-09-15",
+"title": "The corrections page, audited for the first time — nineteen entries were stale",
+"summary": "Work-list row 8. 192 entries read end to end; five findings, none genealogical.",
+"kind": "sweep"
+},
+{
+"sha": "2fe7592",
+"date": "2026-09-15",
+"title": "The marriages page has one shape, and the map has a coast",
+"summary": "Two complaints, both right. The marriages page was standardised in its families section and left different everywhere else — measured after the fact: one archive had a metrics row and six had none, two had a chart and five had none, two had no register of couples at all, and the couples sat above the families on five and below on two. And the place map was a scatter of dots in an empty box, which cannot be read as an",
+"kind": "site"
+},
+{
+"sha": "45eae48",
+"date": "2026-09-15",
+"title": "Pasqua Falco married, and a refusal made on purpose is vindicated",
+"summary": "Row 7 asked whether Giuseppe Nunzio and Nunziata carry one family name. The answer is no, and the test was the marriage registers either side of 1855: Nunziata is in none of 1854, 1855 or 1856, all read act by act. Nothing connects her to Giuseppe Nunzio beyond the root of the name.",
+"kind": "sweep"
+},
+{
+"sha": "d95aa31",
+"date": "2026-09-15",
+"title": "Run the gate that can see a work-list row that is missing",
+"summary": "The existing gate checks the rows this list has; nothing checked for the rows it was missing, which is how a sent letter — the one that named three further doors — stayed off a list where every visible row looked fine.",
+"kind": "other"
+},
+{
+"sha": "ac23eab",
+"date": "2026-09-15",
+"title": "Two Arcangelo Crisci — Andreana's father is not Anna Falco's husband",
+"summary": "The name stood in this archive twice with nothing separating the two: once as Andreana Crisci's father, from the 1814 marriage index read yesterday, and once as Anna Falco's husband, from her death act of 1820. If they were one man, this line's own great-great-grandmother had married into the house her father married into, and nobody had checked.",
+"kind": "sweep"
+},
+{
+"sha": "96a1412",
+"date": "2026-09-15",
+"title": "One name per page, in the menu and on the page itself",
+"summary": "A reader who clicks The Register should land on a page called The Register. Across the seven archives they often did not: the same estate route carried a different title on nearly every site, and sometimes a different one from the menu entry that led to it.",
+"kind": "fix"
+},
+{
+"sha": "3c38165",
+"date": "2026-09-15",
+"title": "Footer: one sentence about living people, on every archive",
+"summary": "Comparing all seven footers turned up one archive saying nothing about living people, one contradicting itself, one label pointing at the wrong page, and three wordings for a single rule.",
+"kind": "fix"
+},
+{
+"sha": "7782e48",
+"date": "2026-09-15",
+"title": "Sara Ruggiero stood at the font for six Falco households",
+"summary": "Work list row 5 went looking for Sara Falco's parish baptism. The cached index leaf reads \"Sara Falco fol. 47\" — an alphabetical index by forename, so she sits in the S run beside Salvatore and Saverio — and reading folio 47 needs the image, which waits on the Browser pane. Row stays running.",
+"kind": "find"
+},
+{
+"sha": "ddc66c4",
+"date": "2026-09-15",
+"title": "Menu: Every Name was live on every site and linked from only five",
+"summary": "Comparing all seven navigations route by route turned up one real hole and two labels that had drifted.",
+"kind": "site"
+},
+{
+"sha": "67cc96a",
+"date": "2026-09-15",
+"title": "Pin the kit to the marriages component all seven now use",
+"summary": "The shared page picked up a chip grid, structured group detail, a per-group count label and a count noun while it was being rolled out, and each of those came from an archive that needed it. Without the repin, CI installs the sha from before them and builds a page the local one does not match.",
+"kind": "site"
+},
+{
+"sha": "923ae64",
+"date": "2026-09-15",
+"title": "The Marriages: the couples and the families they came from, merged",
+"summary": "Two pages until now. /marriages/ was a register of couples; /married-in/ was a list of the surnames that joined. A surname is on this archive for exactly one reason — that a person married a person — and while the two were apart neither page could say it.",
+"kind": "site"
+},
+{
+"sha": "bee7725",
+"date": "2026-09-15",
+"title": "Sara Falco lived, and married a fruitseller",
+"summary": "Work list row 4 asked what finding aid covers Arienzo marriages after 1849, because the Matrimoni indice series stops there. The answer is that the register IS the finding aid: an_ua14213 + (year - 1809), 28 to 37 acts a year, each an \"atto di solenne promessa\" naming both spouses, both sets of parents, and the parish celebration date in the margin.",
+"kind": "sweep"
+},
+{
+"sha": "15ecee9",
+"date": "2026-09-15",
+"title": "How a surname reaches this family, and who is still living",
+"summary": "The register was answering the wrong question. A surname was here because someone of that name married someone of this name, so Mazza sat on a Falco page with no Falco anywhere near it, while Annecchino and Zampiello — who married into the family without ever marrying the name — read the same as a stranger.",
+"kind": "site"
+},
+{
+"sha": "87ab7b4",
+"date": "2026-09-15",
+"title": "Every name on the married-in page is now a link, joined on an id",
+"summary": "294 people and not one of them clickable, because the file carried names and no slugs. Matching them back by name would have been wrong for a third of the page: 103 of these people share a name with somebody else in this archive — there are three separate Marta Zampiello — and this is the archive whose whole method is refusing to merge on a name.",
+"kind": "fix"
+},
+{
+"sha": "5cb3cad",
+"date": "2026-09-15",
+"title": "The Lines was not about lines",
+"summary": "It is about movement: seven generations never left Arienzo, then inside a single lifetime the line moved four times and crossed the world — and beneath that, the other Falco of the same parish and the same street whom no record joins to it. Its own eyebrow said so: \"Where this family went, and who went with them.\"",
+"kind": "site"
+},
+{
+"sha": "4219411",
+"date": "2026-09-15",
+"title": "Four pages moved to the group the rest of the estate keeps them in",
+"summary": "Not a style preference — in each case the archive already HAD the majority group and had put the page somewhere else anyway, so a reader who learned where it lives on three archives would not find it on the fourth.",
+"kind": "find"
+},
+{
+"sha": "08aedd5",
+"date": "2026-09-15",
+"title": "Every menu link resolved a redirect before it resolved a page",
+"summary": "151 of the estate’s 368 menu links had no trailing slash — 67 of D’Arcy’s 72, 50 of Falco’s 54, 33 of Mazza’s 40. These sites build in directory format, so every one of those was a 301 before the page: a wasted round trip on every click, on most of the navigation, on most of the archives.",
+"kind": "site"
+},
+{
+"sha": "cf9730d",
+"date": "2026-09-15",
+"title": "1859 opened — three Falco deaths, a household never seen, and no Giuseppe",
+"summary": "The death registers were read out for 1844-1858 and stopped. Giuseppe Falco was alive and named as a living father in April 1854 at about seventy-four, and the Morti indice series ends at 1847, so everything after needed the registers themselves.",
+"kind": "sweep"
+},
+{
+"sha": "678a331",
+"date": "2026-09-15",
+"title": "Pin the kit where the work list pills filter",
+"summary": "Ten or twenty rows and no way to ask the one question anybody opens that page with: show me only what is blocked. The pills are buttons now — one active at a time, count stays on the pill, and the choice goes into the URL as ?show=blocked so a filtered list can be sent to somebody.",
+"kind": "site"
+},
+{
+"sha": "efc4af1",
+"date": "2026-09-15",
+"title": "Six children buried in nine years, and a conflict left open",
+"summary": "Work list row 2, done. Three rows were seen in the death indexes yesterday and deliberately NOT published, because the crop missed the line twice and this archive had already mis-read that hand three times in a week. They went on the work list instead. All three are now magnified and settled.",
+"kind": "sweep"
+},
+{
+"sha": "0716076",
+"date": "2026-09-15",
+"title": "Thirteen years of death indexes, read by their surname column",
+"summary": "Work list row 1, done. 1831 to 1843 was the one unread stretch between years this archive had gone through act by act — thirteen volumes, 55 images, and 1836 does not exist in the series.",
+"kind": "site"
+},
+{
+"sha": "6d092b2",
+"date": "2026-09-15",
+"title": "Order the work list by the order the work would be done",
+"summary": "Asked twice now what comes next, and the register could say what was outstanding and who owned it but not what to pick up first — n was the order the rows happened to be written. It now means something, and the page says so.",
+"kind": "fix"
+},
+{
+"sha": "f696b13",
+"date": "2026-09-15",
+"title": "Every front page now runs in the same order",
+"summary": "One archive put what it has established ABOVE its own sections; three put Elsewhere in the archive below it. So the seven read: doors, drawing, then whatever that archive is, then established, numbers, missing, the ring.",
+"kind": "site"
+},
+{
+"sha": "fac66a1",
+"date": "2026-09-15",
+"title": "The queue's live items promoted into the work list — 24 open, each owned",
+"summary": "Asked what the next twenty things are, and the answer should no longer be a message in a chat window. Eleven more rows move from notes/QUEUE.md into site/src/data/worklist.json, where they carry an owner and a date and a gate.",
+"kind": "site"
+},
+{
+"sha": "434120c",
+"date": "2026-09-15",
+"title": "One work list, in the shape the estate already agreed",
+"summary": "Eight sessions were each tracking outstanding work a different way, and this one was tracking it in a chat window — which is how a day went into re-reading two registers that notes/ already recorded as swept. The Defranceschi session wrote the right thing and it is in the kit, so this adopts it rather than inventing a ninth.",
+"kind": "fix"
+},
+{
+"sha": "30214f2",
+"date": "2026-09-15",
+"title": "The queue was two days stale, and it cost four duplicated findings",
+"summary": "David asked whether outstanding findings were being tracked centrally. They are — in notes/QUEUE.md, a 640-line research queue, and in notes/, 83 progress files, one per register year. Neither was opened once during two days of work, and the queue's last update was 13 September.",
+"kind": "sweep"
+},
+{
+"sha": "4ccfe4a",
+"date": "2026-09-15",
+"title": "Teach the three words in the first screen, not on the fourth page",
+"summary": "Every archive here grades its claims, and three of the seven said so on the front page before a reader had scrolled — the two standing rules, with Documented, Inferred and Family lore shown inline so the vocabulary is learned where it is first needed rather than discovered later.",
+"kind": "site"
+},
+{
+"sha": "cefe7da",
+"date": "2026-09-15",
+"title": "Giuseppe Nunzio Falco does not die at Arienzo, 1824 to 1830",
+"summary": "He was published this week as a new son for generation three and as a birth and nothing more, because nothing followed his birth act of 25 March 1824. Seven consecutive annual death indexes are now read — 1824 through 1830, the whole of his early childhood — and he is in none of them.",
+"kind": "sweep"
+},
+{
+"sha": "0c449c9",
+"date": "2026-09-15",
+"title": "The elder Giovanni is in neither 1816 nor 1817 — and the printed year lies",
+"summary": "Yesterday's image reading put him at \"annorum 24 circiter\" on 27 November 1841, which points at those two years. Both are now read act by act and he is in neither.",
+"kind": "sweep"
+},
+{
+"sha": "4205a25",
+"date": "2026-09-15",
+"title": "Pin the kit where a dangling edge no longer kills the chart",
+"summary": "The bloodline walk followed every edge carrying a slug and read .parents off whatever was at the other end. On a graph where a record names somebody the graph does not carry, that dereference threw — and it did not drop one line, it killed the whole chart, on a page that built green and passed every gate.",
+"kind": "site"
+},
+{
+"sha": "44b322d",
+"date": "2026-09-15",
+"title": "The two Andreana Crisci separated, and the deacon gets his death back",
+"summary": "The tree holds two women of that name, so the graph refused to merge either with the registers' Andreana — this archive does not merge records on a matching name. They separate on the husband. Tree 4512467 is married to VINCENZO FALCO and its own note carries her baptism: \"baptised ADRIANA, 30 November 1796, daughter of Arcangelo Crisci and Sara Ruggiero\" — which is what the 1814 marriage index gave independently yes",
+"kind": "fix"
+},
+{
+"sha": "ada8c5a",
+"date": "2026-09-15",
+"title": "Generation three exists again — one bracket was hiding it",
+"summary": "No person in this archive carried generation three. line.json names it — VINCENZO FALCO — and the person graph never bound the two, so the direct line ran 1, 2, —, 4, 5, 6, 7, 8, 9. The symptom was live on the site: every generated note about generation four's parentage said this archive \"identifies generation 3 as someone else\", about the man the whole line descends through.",
+"kind": "fix"
+},
+{
+"sha": "99c606d",
+"date": "2026-09-15",
+"title": "Pin the kit that turned the bloodline chart on its side",
+"summary": "Generations were rows, so the width grew with the family. One Blazevic chart ran 25,008px wide against 616px tall — a 41:1 ribbon with every parent-child line flattened into a horizontal dash. Generations are columns now: width is set by how many generations there are, which is small, and a crowded generation costs height instead, which is what a page has to spare.",
+"kind": "site"
+},
+{
+"sha": "8cd23f7",
+"date": "2026-09-15",
+"title": "Two days of findings reach the site, and the household files are one again",
+"summary": "This archive kept its reconstructed families in two files that had drifted: data/households.tsv, which the README calls the family file, and site/src/data/households.json, which is what the site is built from. Nothing synced them. 66 households against 53, differing in BOTH directions — 12 only in the JSON, 25 only in the TSV.",
+"kind": "fix"
+},
+{
+"sha": "d884a45",
+"date": "2026-09-15",
+"title": "The front page ends the same way on all seven now",
+"summary": "The home page audit found the same four sections on every archive in seven different orders, and named the one that mattered: the archive in numbers sat third on two archives and dead last on two others, after the gap list.",
+"kind": "fix"
+},
+{
+"sha": "8dfb284",
+"date": "2026-09-15",
+"title": "Take the chart's stylesheet from the kit rather than bundling it",
+"summary": "The geometry moved to kit/styles/persontree.css so that six archives share one copy instead of six — and so that an archive drawing the same vocabulary WITHOUT the component (Lerena's Taylor chart) can have the geometry without pretending to be a person page.",
+"kind": "site"
+},
+{
+"sha": "6629717",
+"date": "2026-09-15",
+"title": "The chart moves to the kit; what only this archive can say stays here",
+"summary": "Falco, Mazza and Blazevic each drew a person with parents above, the couple in the middle, children below and siblings beside — the same shape, the same class names, three files that had quietly drifted apart on values nobody chose.",
+"kind": "site"
+},
+{
+"sha": "43ad629",
+"date": "2026-09-15",
+"title": "Contested parents now carry their verdict, not just their disagreement",
+"summary": "/bloodline could say that eight people's parents disagree and from how many kinds of source, but not which claim this archive stands behind — the reasoning was in prose and the edges carried nothing.",
+"kind": "fix"
+},
+{
+"sha": "6c3e029",
+"date": "2026-09-15",
+"title": "The eight people with too many parents — and a correction I re-broke",
+"summary": "Working the eight cases from /bloodline found four different conditions, and only two were disagreements.",
+"kind": "fix"
+},
+{
+"sha": "26326be",
+"date": "2026-09-15",
+"title": "The 1841 burial, read at last — and the guess was wrong",
+"summary": "Yesterday this archive said the likelier explanation for two sons named Giovanni was that the 1841 record was wrong. The act had never been read, only machine-transcribed. It has now been read from the image:",
+"kind": "fix"
+},
+{
+"sha": "da7e87f",
+"date": "2026-09-15",
+"title": "Blood relatives, drawn — from the kit",
+"summary": "Choose a person and the chart is built around them: parents above, brothers and sisters beside, children below, and through them the aunts, uncles and cousins, as far as this archive's records reach. Every line takes the colour of the record behind it, at the weaker grade of the two that made it.",
+"kind": "site"
+},
+{
+"sha": "c800844",
+"date": "2026-09-15",
+"title": "The marriage indexes are finished, 1809 to 1849",
+"summary": "Forty volumes, 116 images, every year checked against its own tavola heading rather than the catalogue label and carried to the closing certificate where the register states the year's total. 1836 does not exist in the series. Thirteen Falco marriages found and published, five more Falco reached through the parents' column.",
+"kind": "sweep"
+},
+{
+"sha": "632565b",
+"date": "2026-09-15",
+"title": "Blood relatives, from the kit",
+"summary": "Everyone a chosen person is related to — parents and children, brothers and sisters, and through them the aunts, uncles and cousins — laid out by generation, with every line drawn in the colour of the record behind it.",
+"kind": "site"
+},
+{
+"sha": "4420cf3",
+"date": "2026-09-15",
+"title": "Generation three's wedding day, and the grandmother Sara was named for",
+"summary": "The households file has carried an em-dash in the date column for VINCENZO FALCO and ANDREANA CRISCI since this archive began. The 1814 tavola: \"16. VINCENZO FALCO, ed | Pasquale, e Chiara Rivetti | A 15 OTTOBRE 1814\" ed \"ANDREANA CRISCI | Arcangelo, e SARA RUGGIERO\". He was twenty-two, she was seventeen.",
+"kind": "sweep"
+},
+{
+"sha": "cbcb127",
+"date": "2026-09-15",
+"title": "1815 to 1819 read complete, and the second Maria Falco is not in them",
+"summary": "Five years read out to their closing certificates — 25, 22, 25, 40 and 55 marriages — and the MARIA FALCO who married FRANCESCO COSSI is in none of them. Their son died in March 1824 aged five, so the marriage cannot be later than about 1819. That turns a gap into a harder problem, and the searched page now states the three possibilities without preferring any: the act is in 1809-1814, which makes her sixteen or youn",
+"kind": "find"
+},
+{
+"sha": "6c8e6b2",
+"date": "2026-09-15",
+"title": "Maria Falco's wedding, 1813 — the prediction this page made, and met",
+"summary": "Yesterday's coverage note named the two marriages the sweep had not found and said where they had to be: both MARIA FALCO, and both in 1809-1815, because 1816-1849 was read and neither was in it. One of them turned up in the first of those years opened. Atto 13 of 1813: \"ALFONSO DIGLIO | Di CESARE, ed ANNA MANNA\" ed \"MAGGIA FALCO | Di PASQUALE, e CHIARA RIVETTI\", 19 9bre 1813. She married at twenty-three, bore Clemen",
+"kind": "sweep"
+},
+{
+"sha": "c769f0c",
+"date": "2026-09-15",
+"title": "Two different drawings should not share a name",
+"summary": "This archive and Defranceschi each carried a component called BranchRivers and they draw different things. Defranceschi's is several families of one surname as parallel rivers; this one is a single line with the families that married into it, in SVG rather than a grid, with generation numbers, an in-town band and the names of who was born where. They had been drifting apart for a while, which is what two components s",
+"kind": "fix"
+},
+{
+"sha": "e1b4071",
+"date": "2026-09-14",
+"title": "Five children for Angela Falco, and five Falco-Crisci marriages",
+"summary": "The 1816 tavola: \"26. CLEMENTE COSSI\" ed \"ANGELA MARIA RIVETTI | Di [C]rescenzo, ed ANGELA FALCO\", 26 November 1816. Her father died on 1 December — five days later, in the act that Giuseppe Falco and Gioacchino Falco declared as \"parenti\", and the only document from which this archive knew the marriage existed at all. She married out of a house that was about to lose its head.",
+"kind": "sweep"
+},
+{
+"sha": "25550cd",
+"date": "2026-09-14",
+"title": "Every marriage in two households, dated",
+"summary": "The 1845 and 1846 tavole finish work the parish acts could only start. CRESCENZO FALCO married ANGELA MARIA MORGILLO on 3 February 1845 — a date the archive could only give as \"c. 1831-46\", derived from the fact that a dispensation naming \"Papa nostro GREGORIO\" must mean Gregory XVI. Fourteen years to a day. What it does not explain is the dispensation itself: fourth-degree consanguinity between a Falco of strada Cam",
+"kind": "site"
+},
+{
+"sha": "2a81fa3",
+"date": "2026-09-14",
+"title": "Both daughters married, and both married Crisci",
+"summary": "FRANCESCA MARIA LUCIA FALCO closes the last open half of a question this archive has carried for months. The 1839 tavola, atto 1 of the year: \"CRISCI RAFFAELE | Crisci Giuseppe, e [Quo]tola Paola\" ed \"FALCO FRANCESCA | Falco Giuseppe, [Gui]da Antonia\", 5 January 1839. Baptised 1812, married at twenty-six.",
+"kind": "site"
+},
+{
+"sha": "3792474",
+"date": "2026-09-14",
+"title": "Michelangelo Falco joined to generation four, and a second Matteo",
+"summary": "The 1828 tavola: \"10. FALCO MICHELANGELO | Falco Pasquale, e Rivetti Chiara\" married ANTONIA VIGLIOTTI in December 1828 — the day is behind the fold shadow, the month is not. This archive has carried two households for that man with no father for him, known only from the burials of two daughters both called Anna. He was Vincenzo Falco's brother, which is why Vincenzo declared the 1831 death \"come PARENTE della defunt",
+"kind": "find"
+},
+{
+"sha": "d0849ed",
+"date": "2026-09-14",
+"title": "This archive had no way to search it",
+"summary": "The button in the top right, where all six sibling archives put Search, said Documents here and went to the documents page. So the search page and the search index were both built, on every deploy, and nothing anywhere linked to them: 11,765 register acts indexed and no door into them.",
+"kind": "find"
+},
+{
+"sha": "3b4ab98",
+"date": "2026-09-14",
+"title": "Giovanna Falco married, and Raffaela married her first cousin",
+"summary": "The open-questions page has asked for months what became of two daughters of Giuseppe Falco and Antonia di Guida — \"they married, died before 1844, or left\". GIOVANNA married. The 1829 tavola, a single sideways sheet carrying the whole year, has her at atto 10: \"FALCO GIOVANNA | Falco Giuseppe, e Guida Antonia\", to ANIELLO CRISCI, 6 September 1829, at twenty-four. The month was settled against the \"10 Xbre\" two rows ",
+"kind": "site"
+},
+{
+"sha": "28e1111",
+"date": "2026-09-14",
+"title": "The fourth Maria Falco, named a day after this archive said it could not",
+"summary": "She was invisible from her own side: four women of the name, no age that fits, no baptism matchable. What named her was her husband's SECOND wedding. The 1827 marriage tavola has Alfonso Diglio marrying again, his father Cesare Diglio — who had witnessed his daughter's birth in 1825. A second marriage dates a first wife's death, so the window was 30 May 1825 to 2 April 1827. The 1826 death index held her, and atto 22",
+"kind": "site"
+},
+{
+"sha": "81dfbba",
+"date": "2026-09-14",
+"title": "The place pages could only be reached by clicking a map marker",
+"summary": "These pages were built this afternoon and linked from nowhere a crawler can follow: the only route in was a marker on the atlas, drawn by JavaScript from a data file. A reader without JavaScript could not reach one of them, and neither could a search engine — which for pages whose whole purpose is to be findable is the worst possible failure.",
+"kind": "find"
+},
+{
+"sha": "cfcfa08",
+"date": "2026-09-14",
+"title": "Forty-four marriage indexes this archive wrote down and never opened",
+"summary": "A note from last week recorded that Antenati holds 44 \"Matrimoni, indice\" volumes for Arienzo, 1809 = an_ua14108, +1/year. Nothing was ever read from it. Each is one to four images and each line carries the act number, both spouses, both sets of parents and the date of the church wedding — a whole year of marriages on two pages.",
+"kind": "site"
+},
+{
+"sha": "b961bb8",
+"date": "2026-09-14",
+"title": "1824 read out, and a year of deaths with no Falco in it",
+"summary": "1824's tavola is covered in the filming, like 1825's, so all of it was read. Three Falco acts, and two of them close lives this archive had only opened. CLEMENTE FALCO, born 11 March 1824 at three in the night — he died at \"quindici mesi\", and from 11 March that is fifteen months and eight days. GIUSEPPA COSSI, born 18 June 1824 — dead at \"otto mesi\", nine and a half by the register's own dates, and Giuseppe Falco de",
+"kind": "sweep"
+},
+{
+"sha": "f3f0874",
+"date": "2026-09-14",
+"title": "Tables were squashed to two words a line on a phone",
+"summary": "Column widths on this site are inline rem values chosen for a desktop column, and on a 390px screen a fixed 22rem leaves the column carrying the sentence about nine characters wide. Below 600px the content decides instead and the gutters come in. The shared stylesheet had no narrow-screen rule for tables at all, which is why every archive did it: this one has 145 inline cell widths.",
+"kind": "fix"
+},
+{
+"sha": "803cbd9",
+"date": "2026-09-14",
+"title": "Repin: the place plot no longer lets one emigrant frame the picture",
+"summary": "Fitting the plot from the lowest coordinate to the highest put whichever relative travelled furthest in charge of the whole drawing. The frame is now chosen at build time from three candidates — the tightest window holding four places in five, the same for nine in ten, and the full extent — keeping whichever separates the most places while still holding seventy per cent of them. Places outside it are drawn hollow on ",
+"kind": "fix"
+},
+{
+"sha": "a454a46",
+"date": "2026-09-14",
+"title": "Sara Falco, 19 December 1828 — and a check that stopped a false discovery",
+"summary": "The 1828 tavola's F group ran across a page break. A working note here already said \"1828 holds no Falco\"; the next leaf opened with «118. Falco Sara | Falco Vincenzo, e Crispi Andreana». A ninth child for generation three, read from atto 118: born at twenty-one hours on strada Camellara, declared next day by the midwife Gelsomina Ruggiero, sixty.",
+"kind": "find"
+},
+{
+"sha": "87e80e0",
+"date": "2026-09-14",
+"title": "Marriages, households and graves were filed under \"Our line\"",
+"summary": "Applying the menu canon agreed across the seven. Five items change group here, more than on any other archive, and all five for the same reason: this menu filed things by who they are about rather than by what they are.",
+"kind": "fix"
+},
+{
+"sha": "f7c2654",
+"date": "2026-09-14",
+"title": "1,136 style recalculations per letter typed into the register",
+"summary": "This register holds 12,899 entries under 1,136 surnames, in seven megabytes of markup. Typing one character into its filter ran two loops. The first walked 11,765 rows, read each one's haystack off the DOM and hid the misses. The second walked all 1,136 surname sections and asked the browser to find a surviving row inside each — a \":not([hidden])\" query, which forces a full style recalculation — to recount what the f",
+"kind": "fix"
+},
+{
+"sha": "17ad0be",
+"date": "2026-09-14",
+"title": "A second Maddalena — the name given again twenty-three months later",
+"summary": "The 1827 tavola, page VIII: «52. Falco Maddalena | Falco Giuseppe, e Guida d'Antonia | A dì 4 Maggio 1827».",
+"kind": "site"
+},
+{
+"sha": "9943893",
+"date": "2026-09-14",
+"title": "The menu icon sat twenty pixels below the word beside it, on every phone",
+"summary": "Reported from a phone, and it was the same bug on all seven.",
+"kind": "fix"
+},
+{
+"sha": "037f89c",
+"date": "2026-09-14",
+"title": "A new child for generation three — and the tavola obstruction mapped",
+"summary": "ANGELANDREA FALCO, act 69 of 1826, read from the image after the year's own tavola pointed at it:",
+"kind": "sweep"
+},
+{
+"sha": "c7e4bb0",
+"date": "2026-09-14",
+"title": "Structured data, an honest lastmod, and the last two hand-rolled blocks",
+"summary": "Three findability gaps, all of them estate-wide.",
+"kind": "find"
+},
+{
+"sha": "9714073",
+"date": "2026-09-14",
+"title": "A page for every place, built from the rows the markers are",
+"summary": "The atlas has been offering \"The page that proves it\" on four archives and landing nowhere. 286 pages now, and not one of them hand-kept: the narrative, the people, the dated events and the registers all come from the same atlas data the marker does, so the page and the pin cannot drift apart the way a second list would.",
+"kind": "site"
+},
+{
+"sha": "4e0393f",
+"date": "2026-09-14",
+"title": "1822 read end to end too — the whole age window holds exactly one Pasqua",
+"summary": "Arienzo Nati 1822, an_ua14419 — 136 image openings, 132 acts, every one looked at by the same band sweep. The volume restarts with a fresh «REGISTRO» title page at image 102 and runs on to 139. NOT ONE CHILD IN THE YEAR WAS NAMED PASQUA.",
+"kind": "sweep"
+},
+{
+"sha": "1155277",
+"date": "2026-09-14",
+"title": "A 404 that navigates, a share card, and styles for print",
+"summary": "None of the seven had any of the three.",
+"kind": "find"
+},
+{
+"sha": "7b83ea0",
+"date": "2026-09-14",
+"title": "The 1823 birth register read end to end — one Pasqua, and she stays unjoined",
+"summary": "Every search route was closed, so I read the volume. Arienzo Nati 1823, an_ua14420 — 110 image openings, about 107 acts, every one looked at, by sweeping a narrow band across the «il nome di …» line of each act. Four pictures instead of 110 page reads.",
+"kind": "sweep"
+},
+{
+"sha": "b605ae1",
+"date": "2026-09-14",
+"title": "Repin: the gazetteer no longer plots a town on a shop",
+"summary": "Thirty-three places across the estate were sitting on streets, bus stops and a furniture shop — right country, wrong kind of thing, so nothing caught them.",
+"kind": "other"
+},
+{
+"sha": "daf2493",
+"date": "2026-09-14",
+"title": "Every place this archive names is now on the map",
+"summary": "The last of them were not missing data: HTML entities in a place field, abbreviations no gazetteer knows, two answers in one field, and buildings standing in for the towns they are in.",
+"kind": "other"
+},
+{
+"sha": "88c7270",
+"date": "2026-09-14",
+"title": "Pasqua Falco: all three routes tried, each blocked, each obstruction named",
+"summary": "THE DUPLICATE REGISTER. FamilySearch's Caserta Civil Registration 1809-1866 (collection 2718545) IS a separate filming from Antenati's, but what it indexes for Arienzo is overwhelmingly marriage and processetti material and its Arienzo birth films could not be reached through the index. Its content answers anyway: Pasqua Falco at Arienzo returns ten records and not one is hers — Falcone and De Falco of Aversa, Parete",
+"kind": "fix"
+},
+{
+"sha": "30d2818",
+"date": "2026-09-14",
+"title": "Pasqua Falco's birth: blocked by a paper slip, and by a bug of mine",
+"summary": "NOT A NIL. Two obstacles, one physical and one my own.",
+"kind": "fix"
+},
+{
+"sha": "72064c4",
+"date": "2026-09-14",
+"title": "The submenus: one name per page, and no menu longer than a menu",
+"summary": "Below Start almost nothing was shared. The same page carried four different names across the estate — /searched was \"What Has Been Read\", \"Searched\", \"What Was Searched\" and \"What Has Been Searched\"; /corrections was \"Corrections\", \"What Was Taken Back\", \"What Changed\" and \"For Michael\", which tells a stranger nothing. The Defranceschi archive labelled BOTH /who and /people \"People\", so its own menu had two entries w",
+"kind": "fix"
+},
+{
+"sha": "c9db2a9",
+"date": "2026-09-14",
+"title": "Giovanna Arricale's birth act, read from the image — the register's own index found her",
+"summary": "Both search routes were exhausted this afternoon: the FamilySearch index for 1809-1866 is blind to ARRICALE (1,086 Falco records for Arienzo, effectively no Arricale), Pasqua Falco returns zero as a mother under every spelling, and parsing 1,002 Arricale mentions out of the page transcripts produced eighteen acts and not this one.",
+"kind": "sweep"
+},
+{
+"sha": "32bea3a",
+"date": "2026-09-14",
+"title": "The Arricale mentions parsed — 1,002 tokens, eighteen acts, no Pasqua Falco",
+"summary": "The 1809-1866 index is blind to this surname, so the page transcripts were the only instrument left for Francesco Arricale x Pasqua Falco. Parsed. No new source, no request to anyone's server — a regex over text already held here.",
+"kind": "site"
+},
+{
+"sha": "2c9e90a",
+"date": "2026-09-14",
+"title": "Three ways in, and a drawing, on every front page",
+"summary": "Three archives opened with exactly three doors under the hero. Three offered a flat list instead — D'Arcy's front page carried forty-eight links, which is a directory rather than an offer — and one offered nothing at all.",
+"kind": "fix"
+},
+{
+"sha": "5ad1f38",
+"date": "2026-09-14",
+"title": "Giovanna Arricale's siblings are not findable — the index is blind to the surname",
+"summary": "Her parents, Francesco Arricale and Pasqua Falco, were established hours ago from the marriage of 18 Nov 1872. Their other children would have been born at Arienzo in the 1840s-60s. They are not there, and the reason is the instrument, not the family.",
+"kind": "site"
+},
+{
+"sha": "a28804d",
+"date": "2026-09-14",
+"title": "Generation five married 18 Nov 1872 — and Giovanna Arricale's mother was a Falco",
+"summary": "The marriage was known only as «1872», from the tree, and her parents were not established — a household row written this morning said so outright.",
+"kind": "find"
+},
+{
+"sha": "a048d19",
+"date": "2026-09-14",
+"title": "The home page spine, finished on all seven",
+"summary": "Every archive already opened with a one-line thesis and closed with the sibling footer. In between, a grammar had been started and abandoned: a numbers block on four archives under four names, a claim-card block on four more under two names, and \"what is still missing\" on two.",
+"kind": "site"
+},
+{
+"sha": "234acf7",
+"date": "2026-09-14",
+"title": "Generation five gets a household — the last line that had none",
+"summary": "households.tsv held not one Arricale row and no household for CARMINE ANTONIO FALCO x GIOVANNA ARRICALE — the parents of the Raffaele who married Costanza Maione in 1897. Their children existed only as tree entries and as a paragraph in a note.",
+"kind": "site"
+},
+{
+"sha": "09b771a",
+"date": "2026-09-14",
+"title": "Why Maria Carfora's parents are unreachable — there are two of her",
+"summary": "The standing negative holds, and the Forchia name index now says why rather than just that. She appears there only ever as a MOTHER, never with her own act — and she is not the only Maria Carfora bearing children at Forchia in those years. One is mother to Michele Arcangelo Stroffolino (1 Oct 1874) and Alfonso Stroffolino (10 Jan 1883), and that January 1883 birth is eight months before Giacinta Annecchino, so they c",
+"kind": "other"
+},
+{
+"sha": "5091d4d",
+"date": "2026-09-14",
+"title": "The Annecchino had no household either — and the spacing supports 1897",
+"summary": "households.tsv held not one Annecchino row, though data/annecchino-benevento-fs.tsv has carried 370 harvested births for months and /open-questions lists Filomena's siblings in prose. Generation seven's wife's own parents were nowhere in the household file. Same failure as the Zampiello, found in the same hour: harvesting is not holding.",
+"kind": "fix"
+},
+{
+"sha": "6f9c57c",
+"date": "2026-09-14",
+"title": "The Zampiello had no household here, and the act documenting them was already harvested",
+"summary": "data/households.tsv is where this archive keeps reconstructed family groups with a source against every person. It contained NOT ONE ZAMPIELLO ROW. The line generation eight married into — twice — existed here only as tree entries and 260 rows of a name index, and Angelo Zampiello and Giuseppa Ferrara were carried on a family tree's authority.",
+"kind": "fix"
+},
+{
+"sha": "af8d36f",
+"date": "2026-09-14",
+"title": "Every archive now opens the same way",
+"summary": "Home first, Search as the header pill and nothing else, one entry per page, one label per idea, and the trees / this line drawn / the atlas together at the top of Start. The Atlas moves here from \"Go there\"; Timeline becomes The Timeline; the duplicate About and DNA entries go.",
+"kind": "site"
+},
+{
+"sha": "4859ae0",
+"date": "2026-09-14",
+"title": "Geneanet searched; FreeBMD, RootsChat and Arcanum closed on the page",
+"summary": "GENEANET had been cited here once, in a list of surname-FREQUENCY sites beside Forebears and Cognomix — a lookup, not a harvest. Now searched.",
+"kind": "fix"
+},
+{
+"sha": "7c7ac4a",
+"date": "2026-09-14",
+"title": "I published as new what this archive already held — withdrawn",
+"summary": "Two hours after announcing the Nudgee graves as the find of the year, they turn out to be in four files here already:",
+"kind": "fix"
+},
+{
+"sha": "a57947d",
+"date": "2026-09-14",
+"title": "Trove, BillionGraves and Matricula — three sources opened and closed with reasons",
+"summary": "All three had zero mentions in this archive. None of them holds anything for this family, and each nil now carries the reasoning that produced it.",
+"kind": "find"
+},
+{
+"sha": "a8950e2",
+"date": "2026-09-14",
+"title": "One .prose rule, the one the benchmark arrived at",
+"summary": "Spacing between BLOCK children, not between everything. As a flex column the class made an inline <a> or <strong> inside a <p class=\"prose\"> its own flex item, so a sentence came apart one fragment to a line.",
+"kind": "other"
+},
+{
+"sha": "46cf961",
+"date": "2026-09-14",
+"title": "Nudgee Cemetery — a generation found, and Filomena's birth settled",
+"summary": "Find a Grave and BillionGraves had ZERO mentions in this archive. Nine generations ending in Brisbane and not one grave had ever been looked for. Five Falco memorials sit in one Catholic cemetery at Nudgee, four carrying transcribed Queensland death registrations WITH PARENTS NAMED.",
+"kind": "fix"
+},
+{
+"sha": "8427ba9",
+"date": "2026-09-14",
+"title": "A paragraph is a paragraph, and .prose was stopping it being one",
+"summary": ".prose is two things at once: a flex COLUMN on a <div> wrapping several paragraphs, and a paragraph class on a <p>. On a <p> the flex makes every child its own stacked block, so a sentence with a link in it came out as separate lines down the page.",
+"kind": "site"
+},
+{
+"sha": "1b645c2",
+"date": "2026-09-14",
+"title": "FindMyPast harvested in full before the trial lapses — 183 records",
+"summary": "Third and final sweep, and the first that enumerated the holding instead of stopping at the answer. data/findmypast-australasia-2026-09-15.tsv: 107 Falco passenger entries, 39 Falco BMD and cemetery, 21 Maione, 14 Carfora, 2 Zampiello.",
+"kind": "sweep"
+},
+{
+"sha": "c543f4c",
+"date": "2026-09-14",
+"title": "The registers, reached from the place they were kept in",
+"summary": "The references were always here; nothing could get at them from the map. Now a marker hands back the books.",
+"kind": "site"
+},
+{
+"sha": "32595d9",
+"date": "2026-09-14",
+"title": "An atlas, from places this archive has listed all along",
+"summary": "The place list has been here since the archive was built and carried no geography, so no map could be drawn from it. The names are resolved against a gazetteer the estate now shares, and the people come from data this archive already held rather than anything new.",
+"kind": "site"
+},
+{
+"sha": "b0a2dd9",
+"date": "2026-09-14",
+"title": "The chart the other six have, on the archive that started the complaint",
+"summary": "A single descent is a degenerate ancestor tree — the father of generation n is generation n-1, and the mother is the woman he married — so the shared chart takes this line with no new data. Seventeen boxes: nine generations and the eight women who married into them.",
+"kind": "find"
+},
+{
+"sha": "85b0663",
+"date": "2026-09-14",
+"title": "The trees page never pointed at the tree",
+"summary": "Start → The trees → and then a link called \"The spine\", or \"The line\", or \"Open the line\", every one of them going to the direct-line prose. The chart was reachable from the menu and from nowhere on the page whose entire job is to index this archive's lines.",
+"kind": "site"
+},
+{
+"sha": "2b4a098",
+"date": "2026-09-14",
+"title": "One kit commit across all eight, which is the only way a shared kit holds",
+"summary": "The estate had drifted onto five different pins. Two sites can import the same component name from the same package and get different behaviour when that is true, which defeats the point of having extracted it.",
+"kind": "site"
+},
+{
+"sha": "f25af10",
+"date": "2026-09-14",
+"title": "The page that said \"The Tree\" next to a link saying \"The trees\"",
+"summary": "This is the archive where the confusion was actually noticed, and the nav fix alone did not settle it: the menu had been corrected, and the page itself still announced \"The Tree\" at the top, one letter from the index of every line the family touches.",
+"kind": "fix"
+},
+{
+"sha": "1407b91",
+"date": "2026-09-14",
+"title": "\"The Trees\" and \"The Tree\" are different pages — say which is which",
+"summary": "They are genuinely different and both worth having. Their own deks say so: /trees is the INDEX of every line this archive holds, each drawn in the form its evidence supports; /tree is THIS family's own line, drawn as one figure.",
+"kind": "site"
+},
+{
+"sha": "c771dc0",
+"date": "2026-09-14",
+"title": "The parish marriage indexes read — and generation six's church marriage found",
+"summary": "109 index leaves at Arienzo, 32 of them couple-indexes, detected STRUCTURALLY across 2,256 cached pages (many short name-and-number entries, almost no «Anno Domini») rather than by any query.",
+"kind": "sweep"
+},
+{
+"sha": "4c12b86",
+"date": "2026-09-14",
+"title": "One living-people guard, and this archive names its policy",
+"summary": "Two guards were written separately on the same day and were never duplicates: one read committed data for a living person's DATES, the other read a GEDCOM for their NAMES. Different rules, both right for their archive.",
+"kind": "site"
+},
+{
+"sha": "8d2bec1",
+"date": "2026-09-14",
+"title": "«Quondam» is not evidence of death here — and Matteo's act is read at last",
+"summary": "THE PAIR THAT PROVES IT. One register, one hand, four weeks:",
+"kind": "fix"
+},
+{
+"sha": "c5a3093",
+"date": "2026-09-14",
+"title": "Gioacchino's 1779 baptism read from the image — on a SECOND filming",
+"summary": "The act that makes Gioacchino a documented son of Matteo Falco and Francesca Crisci was flagged on /open-questions as «transcription only, and it is load-bearing». (Meanwhile the data file had it marked «image» all along — the third page-versus-file disagreement found today.)",
+"kind": "find"
+},
+{
+"sha": "38f4d2b",
+"date": "2026-09-14",
+"title": "The negative I published an hour ago was eight times too big",
+"summary": "«Not in 1,621 pages» was a count of the RESULT SET, not of Arienzo. Only 229 of those 1,621 pages are Arienzo — fourteen per cent. The honest statement of that negative is 229 pages, which rules out very little.",
+"kind": "sweep"
+},
+{
+"sha": "bb85127",
+"date": "2026-09-14",
+"title": "A granddaughter called Maddalena, and 1,621 pages where Antonia is not",
+"summary": "Went looking for Antonia di Guida's death. Did not find it. Found her nephew and niece, and a name that tests the reconstruction.",
+"kind": "sweep"
+},
+{
+"sha": "b68e682",
+"date": "2026-09-14",
+"title": "Antonia di Guida: born 31 Oct 1783, nine siblings, and the act that proves it",
+"summary": "Generation three's wife, found four hours after the previous commit called her parentage «probable, not proven» and named the instrument that would close it — a di Guida baptism naming both parents. There are ten.",
+"kind": "sweep"
+},
+{
+"sha": "b8b2b21",
+"date": "2026-09-14",
+"title": "Card titles are h2 now, and look exactly as they did",
+"summary": "A reader using a screen reader moves through a page by heading level. On the person, name and place templates the section titles were h3 sitting directly under the h1, with a real h2 further down — so the page announced a structure it does not have, and the first two sections were buried a level too deep.",
+"kind": "site"
+},
+{
+"sha": "0eeece1",
+"date": "2026-09-14",
+"title": "RIVETTA, not PIVERA — and the letter was blocking Antonia di Guida's parents",
+"summary": "Re-rendered 3Q9M-CSMY-B74R-4 at magnification (three tiles): «et Antoniam di Guida filiam Josephi, et Magdalenæ RIVETTA, utrosq meos parochianos, servata forma Ritu: Roma:». Double t, terminal -a.",
+"kind": "fix"
+},
+{
+"sha": "e6c6966",
+"date": "2026-09-14",
+"title": "PIVERA vs RIVETTA traced to source — it is OCR against a human reading",
+"summary": "The 1802 act's two surnames for Antonia di Guida's mother are not two witnesses. The page's machine transcript reads «filian Josephi e Magdele PIVERA», so households.tsv is carrying the OCR copied; the RIVETTA row in arienzo-parish-acts.tsv is marked read from the image.",
+"kind": "site"
+},
+{
+"sha": "944df3a",
+"date": "2026-09-14",
+"title": "Maddalena Falco's baptism read — and it caught two errors of the archive's own",
+"summary": "7 June 1818, Sant'Andrea Apostolo, ark 3Q9M-CSD3-1381-R, read from the image: «baptizavit infantem natam ex JOSEPHO FALCO et ANTONIA DI GUIDA Conjugibus hujus Parochiae, cui dedit nomen MAGHDALENA; Matrina fuit DOROthea d'ADDIO», celebrant Don Biagio mansionario, vicario sostituto, signed Giacinto Morgillo arciprete. Margin «Maddalena Falco». The same act is filmed twice — 13LG-7 carries an independent machine readin",
+"kind": "find"
+},
+{
+"sha": "8696880",
+"date": "2026-09-14",
+"title": "Strada Camellara has house numbers now, and a claim on that page retires",
+"summary": "The page has said since it was written that Neapolitan civil acts give a street and never a number. That was true of the acts the archive had then. Two extracts copied into other people's marriage dossiers have since given the household of PASQUALE FALCO x MARIA AMALIA GUIDA an actual address: his daughter Pasqualina is born in 1877 'nella casa posta in via Camellara', the number written as ventic[inque], and he dies",
+"kind": "site"
+},
+{
+"sha": "2ab12b7",
+"date": "2026-09-14",
+"title": "An aunt at the font - the 1812 baptism ties two of the founder's sons together",
+"summary": "FRANCESCA FALCO, fourth child of Giuseppe Falco and Antonia di Guida, was a machine transcript. Read from the image, margin \"Francisca Falco\": \"Anno Dni 1812, die vero 27 OCTOBRIS, Rev. D. Joannis Crisci Substitutus ... baptizavit infantem natam ex JOSEPHO FALCO et ANTONIA DI GUIDA Conjugibus hujus Parochiae, cui dedit nomen FRANCISCA MARIA; Matrina fuit VICTORIA CIMMINO.\"",
+"kind": "find"
+},
+{
+"sha": "b50a1d6",
+"date": "2026-09-14",
+"title": "A ten-day life, and the godmother who links two households on one street",
+"summary": "RAFFAELE FALCO, third child of Giuseppe Falco and Antonia di Guida, was a machine transcript: a date, two parents, an \"obiit\" note, on a page the machine renders as \"aria Reggier Io Fiaciache e di Morgistel Anno di 1881 Tevero 16 Mari\".",
+"kind": "site"
+},
+{
+"sha": "7e67253",
+"date": "2026-09-14",
+"title": "The private MyHeritage exports leave a public repository",
+"summary": "This repository is public and it was tracking the raw family export:",
+"kind": "site"
+},
+{
+"sha": "fb72207",
+"date": "2026-09-14",
+"title": "Don Giovanni's baptism day, and the eldest of Giuseppe's seven",
+"summary": "DON GIOVANNI FALCO, the founder's great-grandson and the only man in this family known to have taken orders. The archive had his baptism only as \"April 1825\", a month with no day. Read from the image, margin \"Joannes Falco\": \"Anno Domini 1825 = Die vero 6 APRILIS = Rev. D. Franciscus de Nuprijs Substitutus baptizavit infantem natum ex JOSEPHO FALCO et ANTONIA DI GUIDA Conjugibus\".",
+"kind": "find"
+},
+{
+"sha": "4b9509c",
+"date": "2026-09-14",
+"title": "The living-people rule now gates this build",
+"summary": "David's rule across the estate: a LIVING PERSON IS NAMED AND NOTHING MORE — no date of birth, no date of death, no place. And his age rule: anyone more than eighty years old is treated as deceased, because an archive that cannot say whether somebody is alive has to presume something and that is what it presumes.",
+"kind": "fix"
+},
+{
+"sha": "3830ccd",
+"date": "2026-09-14",
+"title": "The processetti mined out - 1,431 pages, four Arienzo Falco acts, one household twice",
+"summary": "Collection 2043630 holds 1,503 Falco pages for Arienzo. 1,431 harvested and searched. The true yield is four acts, and saying so plainly is the point: deaths 1883 act 60 Pasquale Falco and 1909 act 70 Clementina Falco; births 1873 act 39 Raffaele Falco and 1877 act 20 Pasqualina Falco. Everything else naming a Falco is another comune or another role.",
+"kind": "sweep"
+},
+{
+"sha": "806c011",
+"date": "2026-09-14",
+"title": "Generation five's dossier is outside the filmed range - not missed, not there",
+"summary": "Having opened generation six's fascicolo of 1897, the obvious next target was generation five's: Carminantonio Falco x Giovanna Arricale, married about 1870-72 since their son Raffaele was born 6 April 1873 and his father was twenty-two. The collection runs 1866-1929, so it should hold it.",
+"kind": "site"
+},
+{
+"sha": "1ec8ca2",
+"date": "2026-09-14",
+"title": "A way past the menu",
+"summary": "This archive puts a nav of five to nine collapsible groups between the top of the page and the first word of the reading. Somebody arriving by keyboard or with a screen reader met all of it on every page, and there was no way past — on any of the eight sites.",
+"kind": "site"
+},
+{
+"sha": "ecc0454",
+"date": "2026-09-14",
+"title": "Moiano opened - 525 records, two clean negatives, and the index series mapped",
+"summary": "Moiano has 557 registers and this archive had never examined it, though its own notes called it the second stronghold of both Zampiello and Annecchino. It is name-indexed, so it gives parents.",
+"kind": "sweep"
+},
+{
+"sha": "d8fc4fa",
+"date": "2026-09-14",
+"title": "A third of this stylesheet styled another family's pages",
+"summary": "Six of the seven archives carry a copy of Defranceschi's stylesheet, and each uses about half of it. The rest styles pages this archive does not have and cannot have — Istrian household cards, a Venetian name-form key, an arms figure, a sovereignty ribbon for the Habsburgs — and it shipped on every page load.",
+"kind": "find"
+},
+{
+"sha": "80d3d89",
+"date": "2026-09-14",
+"title": "Moiano tested as Filomena's real birthplace - and it fails",
+"summary": "This archive raised the hypothesis against itself: her siblings are all indexed and she alone is not, so perhaps she was not born at Forchia at all - and Moiano, the Annecchino's other stronghold, was named as the place to test.",
+"kind": "other"
+},
+{
+"sha": "e8dbd6a",
+"date": "2026-09-14",
+"title": "Arienzo deaths 1859 from the year's own index - and the series stops at 1865",
+"summary": "Two things established before a single act was opened. Antenati holds 57 Arienzo death volumes and they run 1809-1865: there are NO post-1865 Arienzo civil deaths on Antenati at all, so this route is seven years long, not open-ended, and anything later must come from FamilySearch or from extracts quoted inside processetti - which is exactly how Pasquale Falco's 1883 death surfaced yesterday.",
+"kind": "sweep"
+},
+{
+"sha": "b0bc96c",
+"date": "2026-09-14",
+"title": "The menu canon: six groups, one order, local colour in the middle",
+"summary": "Seven navigations ran from five groups to eleven, and only the first word was shared. «Our line», «The line», «Her life», «The towns» and «The family» were five names for one idea; sources lived under «Sources» here, «Evidence» there, «The work», «Open» and «Honesty» elsewhere. The pages were canonical, the vocabulary was canonical, the colours were canonical — and the menus still disagreed about where any of it live",
+"kind": "fix"
+},
+{
+"sha": "edbb9a7",
+"date": "2026-09-14",
+"title": "This archive's search index now folds letters the same way as the box",
+"summary": "Its builder had its own fold, and so did the five other archives, and so did the JavaScript inside the search box — seven implementations of one function, each handling the letters its author happened to meet.",
+"kind": "other"
+},
+{
+"sha": "becd113",
+"date": "2026-09-14",
+"title": "A daughter for generation five, and both of Costanza Maione's parents",
+"summary": "Two publication acts from the processetti collection.",
+"kind": "site"
+},
+{
+"sha": "c5c2ca7",
+"date": "2026-09-14",
+"title": "Canonical URLs keep their trailing slash",
+"summary": "These sites build with format: 'directory', so /TheX is a redirect to /TheX/. The home page's canonical was pointing at the redirect.",
+"kind": "site"
+},
+{
+"sha": "23ce238",
+"date": "2026-09-14",
+"title": "This archive now has a face when somebody shares it",
+"summary": "Paste this archive into a message and it showed the bare address: no title, no description, no icon, nothing. Blazevic and the children's site have done it properly all along — the implementation existed, in this estate, working, and six archives never received it. The read-across is what surfaced it, because a missing tag is invisible from inside one repository.",
+"kind": "site"
+},
+{
+"sha": "13e1876",
+"date": "2026-09-14",
+"title": "Generation six's marriage dossier, opened - and it documents the line deeper",
+"summary": "Collection 2043630 was recorded here only as \"Caserta SMCV Tribunale, 1,503 Falco pages\", which says nothing about what it holds. It is THE PROCESSETTI, and generation six's fascicolo is now open: \"1897 - Registro dei Matrimoni - FALCO RAFFAELE, MAIONE COSTANZA - Numero 41 Parte 1a - DOCUMENTI INCLUSI N. SEI\", banns published 12 and 19 September 1897.",
+"kind": "sweep"
+},
+{
+"sha": "f0d4ce2",
+"date": "2026-09-14",
+"title": "Pick up the counter fix, and a check that can actually fail",
+"summary": "The visit counter has been rendering \"—times read\" on every archive: the number and its label are adjacent spans and Astro strips the whitespace between them. The space now comes from CSS, which the compiler cannot strip.",
+"kind": "fix"
+},
+{
+"sha": "e78bf46",
+"date": "2026-09-13",
+"title": "Repin the kit, or every deploy breaks on the new check",
+"summary": "The build now runs checkarchive.py out of node_modules, and CI installs the kit with `npm ci` — which honours the lockfile, not the branch. The lockfile still pointed at b5b7459, a kit commit from before that file existed, so CI would have installed a kit without it and failed on the very first build.",
+"kind": "other"
+},
+{
+"sha": "a96b9b5",
+"date": "2026-09-13",
+"title": "Eight corrections offered a plate that /documents never published",
+"summary": "The shared end-to-end test found them: eight corrections carried a link to /documents/#<plate>, and the anchor was not there. Not a broken link — the page loads — but a promise the archive does not keep, which is the same thing to a reader who clicks it expecting to see the image.",
+"kind": "fix"
+},
+{
+"sha": "be6e7f2",
+"date": "2026-09-13",
+"title": "The shared end-to-end test, available but not yet gating",
+"summary": "All seven archives now carry one test from the kit, run against the built site: links, anchors, contents lists, the search index, the sibling ring, the confidence vocabulary, the visit counter, titles, images and the sitemap.",
+"kind": "fix"
+},
+{
+"sha": "1557945",
+"date": "2026-09-13",
+"title": "Vincenzo Falco is not in the parish death register - all 703 Falco pages read",
+"summary": "Generation three. Vincenzo Falco, baptised 1 February 1792, married December 1814, and - as of this morning's find - alive on strada Cammellara on 7 March 1844, named in his son's marriage act with no quondam before him. The Arienzo civil death registers are read act by act to 1858 and he is not in them.",
+"kind": "find"
+},
+{
+"sha": "0ae1a11",
+"date": "2026-09-13",
+"title": "A HOLDINGS map, and the processetti do not hold generation seven's marriage",
+"summary": "Most of the dead ends in this archive were not failures of searching but failures of knowing what had been filmed, and every one had to be rediscovered by hand: a Benevento fondo recorded as \"not located\" that was on Antenati all along, a birth act hunted for weeks in a year that is simply not digitised, sixty-four marriage acts read in the wrong town. The new /holdings page maps what exists, where, for Arienzo, Forc",
+"kind": "find"
+},
+{
+"sha": "830a2e6",
+"date": "2026-09-13",
+"title": "Fifty-four surnames, not thirty-nine",
+"summary": "The count was written into Searched before the sweep had finished; four more batches went through afterwards, including the Zubrinich spelling that turned up the Queensland marriage in the Blazevic archive. Corrected to the number actually run.",
+"kind": "sweep"
+},
+{
+"sha": "b1cfe16",
+"date": "2026-09-13",
+"title": "The Carfora of Forchia, 260 records - and three shut doors",
+"summary": "Harvested Antenati's name index for Carfora at Forchia: 260 records, 190 births, 59 deaths, 11 marriages. The target was MARIA CARFORA, wife of Carmine Annecchino and, if the tree is right, Filomena Annecchino's mother - a descent this archive calls inferred, not documented.",
+"kind": "other"
+},
+{
+"sha": "7ecd6bb",
+"date": "2026-09-13",
+"title": "Matteo's marriage is not in the Arienzo film - and we may have had the wrong town",
+"summary": "Enumerated rather than searched. Every marriage act carries \"denunciationibus\"; that word returns 515 pages in collection M9J1-9B4, of which 500 were harvested and read by machine transcript. The 1760s are densely covered - 1760:19, 1761:19, 1762:36, 1763:20, 1764:6, 1765:17, 1766:21, 1767:25 - and NOT ONE of those 500 pages carries a legible \"Falco\" with a year between 1750 and 1779. The single apparent hit dissolve",
+"kind": "find"
+},
+{
+"sha": "2dc5c61",
+"date": "2026-09-13",
+"title": "Four of ours in Queensland's own index, and a sentence that was too wide",
+"summary": "The Trove key is still pending, so the question was which free sources had never been tried. Queensland's historical index had never been searched directly — only through FindMyPast's re-hosting of it — and the two are not the same holding.",
+"kind": "fix"
+},
+{
+"sha": "9768628",
+"date": "2026-09-13",
+"title": "The counter goes live",
+"summary": "All seven codes are in, each checked against its own endpoint first rather than assumed: every one answers 200 with the public counter switched on.",
+"kind": "other"
+},
+{
+"sha": "11ae4a2",
+"date": "2026-09-13",
+"title": "A public read count in the footer",
+"summary": "You asked for the number on the page rather than in a dashboard, which decided the tool: GoatCounter publishes a count you can display, and Cloudflare and Plausible keep theirs private.",
+"kind": "site"
+},
+{
+"sha": "89dce83",
+"date": "2026-09-13",
+"title": "A seventh child for generation six, and two Raffaele Falco where we had one",
+"summary": "Forchia, marriages 1937, atto 12, read from the image. On 28 October 1937 at a quarter past six in the morning, in the parish of San Nicola di Mira, \"FALCO RAFFAELE, di anni ventuno, contadino, NATO IN ARPAIA, residente in Forchia, figlio di RAFFAELE e di MAIONE COSTANZA\" married \"CRISCI FRANCESCA, contadina, figlia di Pio e di De Lucia Maria\".",
+"kind": "sweep"
+},
+{
+"sha": "efb2a42",
+"date": "2026-09-13",
+"title": "A second child of generation seven - and my own misreading of the act",
+"summary": "Forchia, Atti di Morte Parte II, 1939, atto 1, read from the image: \"Ufficiale dello Stato Civile del Comune di NAPOLI, MONTECALVARIO, avendo ricevuto dal Direttore Ospedale Pellegrini un avviso ... do atto che a ore pom. dieci del giorno TRENTUNO LUGLIO ultimo scorso, in detto Ospedale e morta FALCO MARIA ANNUNZIATA di ANTONIO e di ANNECCHINO FILOMENA, di anni CINQUE, da FORCHIA\", copied back to Forchia at that comu",
+"kind": "site"
+},
+{
+"sha": "857b31a",
+"date": "2026-09-13",
+"title": "259 Zampiello of Arpaia, name-indexed - and the two silences are not the same",
+"summary": "Antenati's NAME index, /search-nominative/, had never been run on this family. It gives the person AND their parents, which the register search does not. 259 Zampiello records at Arpaia, 1862-1940: 222 births, 29 deaths, 8 marriages. New tool, tools/antenati_names.py - slow, resumable, and patient with a throttle that is cumulative rather than per-minute.",
+"kind": "other"
+},
+{
+"sha": "eccdfa3",
+"date": "2026-09-13",
+"title": "Trees: bring the page up to the standard, not just the shape",
+"summary": "The structure shipped; the content did not. Three faults, all mine.",
+"kind": "site"
+},
+{
+"sha": "ad6ed96",
+"date": "2026-09-13",
+"title": "Phase 6b: /names becomes /who, and gets an index",
+"summary": "Six of the seven archives call the name namespace /who/. This one called it /names/, so the same word meant two different things depending on which archive a reader arrived from.",
+"kind": "fix"
+},
+{
+"sha": "eac6693",
+"date": "2026-09-13",
+"title": "Phase 6a: /trees — every line in the form its evidence supports",
+"summary": "Adopts the model the Defranceschi archive worked out. The transferable part is not the chart, it is refusing to draw a spine you cannot prove, and saying on the page which of the two a reader is looking at.",
+"kind": "fix"
+},
+{
+"sha": "a2025ab",
+"date": "2026-09-13",
+"title": "Filomena's birth, tested properly - and the premise is now the suspect",
+"summary": "Twice today this archive gave a reason why her 10 April 1897 birth act has never been found, and both were guesses about a source rather than tests of it. First \"the volume is not online, no amount of searching was ever going to find it\". Then, pulling that back, \"FamilySearch is a separate filming and reaches 1897, so the old paging-and-fuzzy-matching explanation is not refuted\".",
+"kind": "sweep"
+},
+{
+"sha": "b2f99e8",
+"date": "2026-09-13",
+"title": "Publish the search index as a file, not just as an import",
+"summary": "Caught live, not in a build. These three archives kept searchindex.json in src/data and imported it, which was fine while each had its own search page compiled around it. The shared box fetches /searchindex.json at runtime instead — so on these three the fetch 404'd and search returned nothing, while the box itself rendered perfectly.",
+"kind": "site"
+},
+{
+"sha": "6a89e8e",
+"date": "2026-09-13",
+"title": "Wire in the kit, and one search box for seven archives",
+"summary": "Two jobs the roadmap had left open.",
+"kind": "fix"
+},
+{
+"sha": "0a22e7b",
+"date": "2026-09-13",
+"title": "Sant'Agnese IS at Arienzo - the act says so, and the doubt is withdrawn",
+"summary": "Read tonight from the parish act itself: \"Anno Domini 1844, die 5 mensis Martii ... coram me infrascripto Parocho S. AGNETIS TERRAE ARGENTII, et coram testibus Pasquale Pellone filio Clementis, Angelo di Marzo filio Francisci ... matrimonium contraxerunt in faciem Ecclesiae per verba de praesenti RAPHAEL FALCO filius VINCENTII et ANDREANAE CRISCI, Archipresbyteralis Ecclesiae S. Andreae Apostoli, et mea Parochiana AN",
+"kind": "fix"
+},
+{
+"sha": "7fdafcc",
+"date": "2026-09-13",
+"title": "FILOMENA ANNECCHINO exists in a record at last - her husband declared it",
+"summary": "Forchia (BN), Atti di Morte Parte I, 1937, atto 17, read from the image. On the morning of 2 August 1937, at half past eight, FALCO CARMINANTONIO, di anni TRENTASEI, contadino, domiciliato in Forchia, came to the Casa Comunale with a shoemaker neighbour and declared that at Contrada CASE SPARSE number 68 \"e morto FALCO ANIELLO, di MESI NOVE, nato in Forchia, da Carminantonio, contadino, e da ANNECCHINO FILOMENA, CASA",
+"kind": "find"
+},
+{
+"sha": "76c6768",
+"date": "2026-09-13",
+"title": "Pull back an over-correction of my own, and close the processetti route",
+"summary": "An hour ago, having found no Forchia 1897 births in Antenati's holdings, this archive wrote that the old explanation for Filomena Annecchino's missing birth act - FamilySearch's paging cap and fuzzy matching - \"was the wrong explanation\", and that \"the volume is not online; no amount of searching was ever going to find it\".",
+"kind": "sweep"
+},
+{
+"sha": "ad59ec3",
+"date": "2026-09-13",
+"title": "Queue: the Benevento fondo is located, 1897 is not in it, the processetti are next",
+"summary": "Replaces the entry that recorded the post-1861 Benevento fondo as 'not located' and assumed 1897 was held and only the ark missing. Both halves were wrong: the fondo is on Antenati, and 1897 is absent from it.",
+"kind": "other"
+},
+{
+"sha": "8b2949c",
+"date": "2026-09-13",
+"title": "Filomena's birth act: the volume is not online, and we had the wrong reason",
+"summary": "Enumerated Antenati's complete holdings for Forchia instead of guessing arks. Forchia has 500 registers across TWO archives - Caserta, \"Stato civile napoleonico e della restaurazione\" 1809-1865, and BENEVENTO, including the \"STATO CIVILE ITALIANO\" fondo from 1866. The research queue recorded that fondo as \"not located\". It is located.",
+"kind": "sweep"
+},
+{
+"sha": "fbfff96",
+"date": "2026-09-13",
+"title": "The Forchia problem, fixed - and it was the right Forchia all along",
+"summary": "Two independent checks settle it.",
+"kind": "fix"
+},
+{
+"sha": "f3c4015",
+"date": "2026-09-13",
+"title": "WikiTree searched for the first time - it holds nothing, and that was useful",
+"summary": "David asked whether WikiTree had ever been searched. It had not, and it was not even listed among the sources this archive had considered and rejected.",
+"kind": "fix"
+},
+{
+"sha": "fc7af9b",
+"date": "2026-09-13",
+"title": "Flag the Sant'Agnese claim instead of leaving it asserted",
+"summary": "The site has been calling Sant'Agnese one of Arienzo's three parishes, on the strength of the FILM the marriage act sits in. The civil act found today says the bride - who is explicitly the celebrant's own parishioner, \"mea Parochiana\" - was born and still domiciled at San Felice a Cancello. Her parish priest is therefore more likely San Felice's than Arienzo's.",
+"kind": "fix"
+},
+{
+"sha": "8f4d8e6",
+"date": "2026-09-13",
+"title": "FOUND - generation four's civil marriage act, at the BRIDE's comune",
+"summary": "San Felice a Cancello, Matrimoni 1844, atto 12, 7 MARCH 1844 (an_ua50256 image 13), read from the image:",
+"kind": "sweep"
+},
+{
+"sha": "5f1a698",
+"date": "2026-09-13",
+"title": "Phase 5: a sitemap for every archive, generated from what was built",
+"summary": "No archive had one. Six had no robots.txt either.",
+"kind": "site"
+},
+{
+"sha": "acfd2c2",
+"date": "2026-09-13",
+"title": "Phase 4: close the ring",
+"summary": "Part of standardising the seven family archives. Until now they barely acknowledged each other: D'Arcy linked to five siblings, Mazza to two, Falco and Blazevic to one each, and Booyzen and Defranceschi — the one every other archive points at — linked to nobody at all. A reader landing on one had no way to learn the other six existed.",
+"kind": "fix"
+},
+{
+"sha": "708dd4d",
+"date": "2026-09-13",
+"title": "Sixty-four marriage acts, two whole years, no Falco - and a warning withdrawn",
+"summary": "Arienzo Matrimoni 1843 (an_ua14247) is now read end to end as well: 35 acts, 1 January to 28 December. With 1844's 29 that is sixty-four consecutive acts across two whole years with no Falco in any role - groom, bride, or parent of either. Generation four's civil marriage act is not at Arienzo. Two possibilities are left and the archive is not choosing between them: San Felice a Cancello, the bride's comune of birth,",
+"kind": "sweep"
+},
+{
+"sha": "9b69608",
+"date": "2026-09-13",
+"title": "Phase 2: the five words, used the same way in every archive",
+"summary": "Part of standardising the seven family archives. Nothing existing is regraded — this lays the vocabulary and the component down so that a level means the same thing wherever a reader meets it.",
+"kind": "other"
+},
+{
+"sha": "715991e",
+"date": "2026-09-13",
+"title": "The founders' six children are all named now - and there was no child of 1777",
+"summary": "\"[unnamed] - child - baptism - 25 Nov 1777\" was the first Gioacchino with the year out by three. Read from the image: \"Anno Domini Millesimo septingentesimo septuagesimo qua[rto] ... die vero VIGESIMAQUINTA 25 NOVEMBRIS ... Canonicus BRUNO Substituens baptizavit ... ex MATTHEO FALCO, et FRANCISCA CRISCI\", margin \"Joachim Falco - OBIIT DIE 11 DECEMBRIS 1777\".",
+"kind": "fix"
+},
+{
+"sha": "5f8b00c",
+"date": "2026-09-13",
+"title": "Queue: today's closures, the two warnings, and where the 1777 act got to",
+"summary": "Records what closed - Gioacchino's baptism read from the image, Rosa Maria, the 1843-44 civil marriage sweep, the Majone household - and two things that change how future work is planned: the CORPO D'ARIENZO ambiguity, which means no 1843 nil can yet be said to cover both jurisdictions, and the measured FamilySearch rate budget of about 25 requests per half hour, which makes one act per window the unit of work.",
+"kind": "sweep"
+},
+{
+"sha": "e075a1d",
+"date": "2026-09-13",
+"title": "\"proja\" was ROSA MARIA - and the founders had one child fewer",
+"summary": "Read from the image: \"Sabbatinus Canonicus CRISCI Substituens baptizavit infantem NATAM ex MATTHEO FALCO, et FRANCISCA CRISCI Conjugibus hujus Parochiae, que nominata est ROSA MARIA\". The machine's \"proja\" was Rosa Maria all along.",
+"kind": "find"
+},
+{
+"sha": "82c8350",
+"date": "2026-09-13",
+"title": "STRADA CAMELLARA gets its own page - the thing that identifies this family",
+"summary": "The surname Falco identifies nobody at Arienzo: at least a dozen households and probably two unrelated stocks, one labouring and one with a Don for a father, a nun for a daughter and a priest for a son. What separates them is the street, and for four generations of this family the street is Camellara.",
+"kind": "find"
+},
+{
+"sha": "d1f0993",
+"date": "2026-09-13",
+"title": "Gioacchino's baptism read from the image, and four generations of Majone",
+"summary": "The 1779 act is no longer a machine transcription. Read from the register: \"Anno Domini Millesimo septingentesimo septuagesimo nono 1779, die vero secunda 2 Februarii... baptizavit infantem natum ex MATTHEO FALCO, et FRANCISCA CRISCI Conjugibus hujus Parochiae, qui nominatus est JOACHIM\", with Dorotea d'Adio as godmother and Cecilia Martone as midwife, the margin reading \"Joachim Falco\". Every word the machine gave i",
+"kind": "sweep"
+},
+{
+"sha": "cd2a57d",
+"date": "2026-09-13",
+"title": "The civil marriage that is not there - Arienzo 1843 and 1844 read out",
+"summary": "Generation four married at Sant'Agnese on 5 March 1844. Under the Two Sicilies that wedding must have a civil counterpart naming both fathers AND both mothers with ages, trades and streets - the richest document this family could still recover. It is not in the register.",
+"kind": "sweep"
+},
+{
+"sha": "b63f95c",
+"date": "2026-09-13",
+"title": "Phase 1: trailing slashes",
+"summary": "Part of standardising the seven family archives. Nothing else changed here — this archive already calls its pages by the canonical names, and its rust accent is its own.",
+"kind": "site"
+},
+{
+"sha": "509adad",
+"date": "2026-09-13",
+"title": "Stop filing descriptions as surnames, and bring the queue up to date",
+"summary": "A \"name\" like \"a daughter, name not legible (machine gives «proja»)\" was fed to the surname deriver, which took the last word and filed the child under LEGIBLE. Thirteen rows were doing this — LEGIBLE, ANGLE, DEEP, HOUSEHOLD, GENERATION, ACT — each of them an invented family.",
+"kind": "fix"
+},
+{
+"sha": "4821f56",
+"date": "2026-09-13",
+"title": "CARMINANTONIO AND FILOMENA FOUND — the arrivals that closed generation seven",
+"summary": "Filomena Falco reached Australia on 5 FEBRUARY 1968 (NAA barcode 9788535, p. 251) and Carminantonio on 19 MAY 1969 (barcode 12211391, p. 1711), with a second crossing by him on 24 July 1972 (barcode 12047001, p. 1605). Set beside their son's landing at Brisbane in March 1964, the shape is chain migration and the archive now has the dates for it.",
+"kind": "fix"
+},
+{
+"sha": "dd70ab7",
+"date": "2026-09-13",
+"title": "FRANCESCA CRISCI, VIDUA MATTHEI FALCO — the founding couple closes at both ends",
+"summary": "\"Anno Domini 1805, die vero 31 Decembris, FRANCISCA CRISCI VIDUA MAT-THEI FALCO, aetatis suae annorum 60 circiter, omnibus Sacramentis munita, in Comm. S. M. E. obiit, et IN SODALITATE S. MARIAE GRATIARUM ejus cadaver humatum est. Hyacinthus Archip.r Morgillo\"",
+"kind": "fix"
+},
+{
+"sha": "b6b52b6",
+"date": "2026-09-13",
+"title": "The founder was about fifty-five — and the 1805 widow was seventy, not eighty",
+"summary": "Your Chrome works where the in-app browser is blocked, so both acts could finally be read at magnification. Two numbers, and they pull in opposite directions.",
+"kind": "find"
+},
+{
+"sha": "f539da9",
+"date": "2026-09-13",
+"title": "Emilia's surname, answered from the other end of the man's life",
+"summary": "This morning this archive read the 1802 marriage of Rosa Falco and Carlo Antonio Morgillo at magnification, and published that one word would not come:",
+"kind": "sweep"
+},
+{
+"sha": "ed58a05",
+"date": "2026-09-13",
+"title": "MATTEO FALCO DIED ON 18 JULY 1802 — and the argument I published four hours ago is refuted",
+"summary": "The head of this line. The archive's central open question for months.",
+"kind": "site"
+},
+{
+"sha": "2c02af8",
+"date": "2026-09-13",
+"title": "Open questions, rewritten around what today actually moved",
+"summary": "The page listed \"Who was Matteo Falco's father?\" as the line's frontier and said his marriage had been searched for across 2,056 transcribed pages and not found. That sentence was true and useless: the sweep was searching the wrong collection. Six questions now stand where one did.",
+"kind": "sweep"
+},
+{
+"sha": "5f1f4c9",
+"date": "2026-09-13",
+"title": "The third Falco-Falco couple dissolves too — and Clemente died in 1853, not 1855",
+"summary": "The 1853 index gives \"Falco Clemente, di Falco EMMANUELE e Falco GIUSEPPA\" — the last unchecked Falco-Falco couple on the site. The act says:",
+"kind": "fix"
+},
+{
+"sha": "081e5c5",
+"date": "2026-09-13",
+"title": "Two Falco-Falco marriages dissolve on contact with the acts",
+"summary": "This afternoon this archive published four Falco-Falco marriages at Arienzo in four years, from the death indexes of 1850 and 1853. Two of them did not survive being checked.",
+"kind": "find"
+},
+{
+"sha": "0b036a8",
+"date": "2026-09-13",
+"title": "A new page: Which Falco?",
+"summary": "Today's single most repeated lesson deserved somewhere to live. The archive has spent the day discovering, over and over, that the surname identifies nobody at Arienzo — so there is now a page that says so and shows the working.",
+"kind": "find"
+},
+{
+"sha": "1fd9e83",
+"date": "2026-09-13",
+"title": "Withdrawing my own objection, and checking the child it rested on",
+"summary": "Within an hour of publishing the 1805 burial as a lead, this archive raised two objections against it. One is withdrawn and one is eliminated, and both are on the site.",
+"kind": "fix"
+},
+{
+"sha": "ca269b8",
+"date": "2026-09-13",
+"title": "A burial that would close the founder's window — published as a lead, because the arithmetic fails",
+"summary": "The Arienzo parish death register carries:",
+"kind": "fix"
+},
+{
+"sha": "dae8b52",
+"date": "2026-09-13",
+"title": "THE FOUNDER WAS ALIVE IN 1802 — his death window closes to seven years",
+"summary": "Gioacchino Falco's marriage, read from the image:",
+"kind": "fix"
+},
+{
+"sha": "2fc37ba",
+"date": "2026-09-13",
+"title": "A daughter in 1797 that puts this morning's correction under strain",
+"summary": "\"Anno Domini 1797, die vero 6 Maii ... baptizavit infantem natam ex JOACHIMO FALCO e VICTORIA CEMMINO conjugibus hujus Parochiae, cui dedi nomen JOANNA. Matrina fuit Fortunata Villano.\"",
+"kind": "sweep"
+},
+{
+"sha": "c5aeb3e",
+"date": "2026-09-13",
+"title": "Seven children for Giuseppe Falco and Antonia di Guida, and an infant who lived ten days",
+"summary": "This morning the founder's son and his wife had two known children. They now have seven, spanning twenty years from a marriage of 1802.",
+"kind": "sweep"
+},
+{
+"sha": "7fc83af",
+"date": "2026-09-13",
+"title": "There is another Falco family at Arienzo, and it has a nun and a priest in it",
+"summary": "Four generations of this archive's Falco are bracciali, contadini and coloni, and most of the men who declared their deaths were marked \"non sapere scrivere\". They live on strada Camellara.",
+"kind": "sweep"
+},
+{
+"sha": "0c54711",
+"date": "2026-09-13",
+"title": "A house on strada Camellara empties, and Margherita Falco stops being an isolate",
+"summary": "1855 at Arienzo has no index at either end — 63 images, 111 deaths against sixty-five in 1844, a cholera year in the Kingdom. Read act by act.",
+"kind": "find"
+},
+{
+"sha": "2d7c182",
+"date": "2026-09-13",
+"title": "RAFFAELA FALCO — a granddaughter of the founder, and her household rebuilt from two archives",
+"summary": "Arienzo, Morti 1854, atto 34:",
+"kind": "sweep"
+},
+{
+"sha": "deb35cc",
+"date": "2026-09-13",
+"title": "GENERATION FOUR'S MARRIAGE: 5 March 1844, Sant'Agnese, Arienzo",
+"summary": "The act, read from the image:",
+"kind": "find"
+},
+{
+"sha": "d15c90b",
+"date": "2026-09-13",
+"title": "1848 read act by act — two brothers, dead a day apart",
+"summary": "1848 is the one year in this run with no index at all: no tavola in the volume, no separate index volume. So the register was read act by act — the name line of every act on images 4 to 51, rendered and looked at.",
+"kind": "sweep"
+},
+{
+"sha": "0dc92e5",
+"date": "2026-09-13",
+"title": "The parish of generation four's marriage is an open question again",
+"summary": "This archive published, in one day, that the index naming Raffaele Falco and Angela Rosa Morgillo belonged to Arienzo, then that it belonged to San Felice a Cancello. Neither is established, and the site now says so.",
+"kind": "sweep"
+},
+{
+"sha": "75bc69e",
+"date": "2026-09-13",
+"title": "1849 and 1850: a nun, two Falco who married Falco, and Giuseppe still alive",
+"summary": "The Arienzo death indexes carried through 1850. For 1850 there is no separate index volume — the tavola is BOUND AT THE FRONT OF THE REGISTER ITSELF. The changeover this archive had noticed for 1851 actually begins a year earlier.",
+"kind": "sweep"
+},
+{
+"sha": "fa09276",
+"date": "2026-09-13",
+"title": "DON GIOVANNI FALCO, DEACON — the founder's grandson took orders",
+"summary": "Arienzo, Morti 1849, atto 66, read from the image:",
+"kind": "find"
+},
+{
+"sha": "ba520f7",
+"date": "2026-09-13",
+"title": "Generation four's first child, and two years of Arienzo deaths with no Falco",
+"summary": "The Arienzo death indexes for 1844, 1845, 1846 and 1847, read end to end, both halves of every leaf. Two Falco found, two years with none, and one act that matters more than the rest.",
+"kind": "sweep"
+},
+{
+"sha": "a2e8e57",
+"date": "2026-09-13",
+"title": "A FamilySearch film is walkable — the filmstrip carries an image-to-ark map",
+"summary": "Small find, large consequence. The film viewer's filmstrip holds the whole mapping this archive needed:",
+"kind": "sweep"
+},
+{
+"sha": "8efe18c",
+"date": "2026-09-13",
+"title": "The index was San Felice's, not Arienzo's — and that is the better fact",
+"summary": "An hour ago this archive published that Raffaele Falco and Angela Rosa Morgillo's marriage sits in the index to \"the Arienzo parish marriage volumes\". It does not. The volume is SAN FELICE A CANCELLO's — film 007786833, image 1873.",
+"kind": "sweep"
+},
+{
+"sha": "50beba7",
+"date": "2026-09-13",
+"title": "Generation four's marriage, located at last — folio 2 a tergo",
+"summary": "Raffaele Falco and Angela Rosa Morgillo are the fourth generation of this line. The archive has always held that they married. It has never held the marriage: no act, no date, no witnesses, nothing but the fact that their children exist.",
+"kind": "sweep"
+},
+{
+"sha": "31392e8",
+"date": "2026-09-13",
+"title": "The marriage register was on a different shelf — and it has indexes",
+"summary": "A near miss, published as one.",
+"kind": "sweep"
+},
+{
+"sha": "77f600f",
+"date": "2026-09-13",
+"title": "The parish books enter the register — 65 rows, each marked read or unread",
+"summary": "Until today every parish find lived in a note. The register — the page that claims to list every record this archive has found — had none of them, because nothing in the build read them. That is now wired: data/arienzo-parish-acts.tsv feeds build_register.py, and twenty-one acts put sixty-five names on the page.",
+"kind": "find"
+},
+{
+"sha": "1870971",
+"date": "2026-09-13",
+"title": "A Gioacchino before Gioacchino, and Chiara Rivetti's own baptism",
+"summary": "Two things the parish books settled today, both read from the images.",
+"kind": "fix"
+},
+{
+"sha": "8688dd8",
+"date": "2026-09-13",
+"title": "Read the image, and four things the machine had wrong",
+"summary": "This morning's parish find was published from FamilySearch's handwriting transcription, with a written warning that the dates were not verified. The image has now been read. The warning earned its place.",
+"kind": "sweep"
+},
+{
+"sha": "432a266",
+"date": "2026-09-13",
+"title": "The parish books open — and Giuseppe Falco is PROVED to be Matteo's son",
+"summary": "With FamilySearch logged in, the front that today's work had narrowed to — the parish registers, the only place Matteo Falco can now be reached — is open.",
+"kind": "fix"
+},
+{
+"sha": "44fe177",
+"date": "2026-09-13",
+"title": "Two Giuseppe Falco — and the 1809 namesake is probably Matteo's own grandson",
+"summary": "ITEM 2, answered from records this archive already held rather than from new ones. The question, raised this morning: one Giuseppe Falco twice married, or two Giuseppe Falco? Two birth acts settle it:",
+"kind": "fix"
+},
+{
+"sha": "d98432d",
+"date": "2026-09-13",
+"title": "Correcting my own headline: the 1812 Giovanna is a SECOND Giovanna, not a new name",
+"summary": "Item 1 of the next pass was Francesco Falco. Before reading any index I queried the archive's own register for every Falco death — and that query corrected a claim I had published an hour earlier.",
+"kind": "fix"
+},
+{
+"sha": "eae023e",
+"date": "2026-09-13",
+"title": "Item 14: the bride's surname is VECCHILLO — and \"Renchiello\" was my misreading",
+"summary": "This archive published a disagreement between two sources: the bundle cover gave the bride as \"[C]ecilia VECCHIO\", the marriage act as \"[?]ietta RENCHIELLO\", and the entry said the two readings did not agree and neither was settled.",
+"kind": "site"
+},
+{
+"sha": "a1c400f",
+"date": "2026-09-13",
+"title": "The 1809 Matteo Falco was fifteen — trap disarmed, and a new Falco of the founder's generation",
+"summary": "ITEM 3. The index named the 1809 Matteo Falco's parents but gave no age, so the archive argued from the absence of \"fu\". The act settles it outright:",
+"kind": "fix"
+},
+{
+"sha": "c87eff7",
+"date": "2026-09-13",
+"title": "Gioacchino Falco's own act — born about 1775, a colono of strada Camellara",
+"summary": "ITEM 2 completed. The index named his parents; the act says far more:",
+"kind": "sweep"
+},
+{
+"sha": "f9e9a9a",
+"date": "2026-09-13",
+"title": "1809-1814 finished page for page — Matteo Falco is PROVED to be outside the civil registers",
+"summary": "ITEM 1, completed. The first pass left 1809, 1810 and 1812 partial and the conclusion was published as \"probable\". All six index volumes are now read page for page, and the year totals come from the indexes' own closing lines: 1809 = 138 deaths, 1810 = 80, 1811 = 90, 1812 = 78, 1813 = 86.",
+"kind": "find"
+},
+{
+"sha": "b166cb1",
+"date": "2026-09-13",
+"title": "Item 4: map the Arienzo marriage indexes — 1809 = an_ua14108, +1/year, 44 volumes",
+"summary": "And record the honest limit: they begin in 1809, so Matteo Falco's marriage of about 1760-66 is outside them entirely. Together with the death indexes finding no Matteo in 1809-1814, BOTH of the founder's vital events are now known to lie outside the civil series. The parish books are the only route to either.",
+"kind": "find"
+},
+{
+"sha": "879c2ad",
+"date": "2026-09-13",
+"title": "Item 15: rewrite the method around three wrong negatives found in one day",
+"summary": "/method, /antenati and /searched described act-by-act sweeping as THE method. Today made that obsolete, and the reason it was ever the method is worth teaching, so the page now leads with the failure rather than the fix.",
+"kind": "sweep"
+},
+{
+"sha": "b6ed292",
+"date": "2026-09-13",
+"title": "GIOACCHINO FALCO IS MATTEO'S SON — a years-old question closed by a four-image index",
+"summary": "ITEM 2. This archive has carried Gioacchino Falco for years as \"a strong candidate for a fifth child of Matteo and Francesca, THOUGH NO RECORD YET NAMES HIS PARENTS\", and he sat among the people it could join to nobody.",
+"kind": "sweep"
+},
+{
+"sha": "eb20dae",
+"date": "2026-09-13",
+"title": "Six Falco out of six index volumes — including a new daughter of generation two",
+"summary": "ITEM 1. The Arienzo death indexes for 1809-1814 — one to five images a year, against about fifty for a register. Six years nobody had read, read in an afternoon.",
+"kind": "fix"
+},
+{
+"sha": "b0bdfbb",
+"date": "2026-09-13",
+"title": "The index method's first control test finds two errors in a known answer",
+"summary": "Item 3 of the plan was the guardrail: run the newly-found indexes against answers this archive already has, before trusting them on unknown ones. It immediately earned its keep.",
+"kind": "fix"
+},
+{
+"sha": "434b85a",
+"date": "2026-09-13",
+"title": "Queue: close five entries this session answered",
+"summary": "",
+"kind": "other"
+},
+{
+"sha": "f83e2c6",
+"date": "2026-09-13",
+"title": "The full 385 sweep: Luigi Falco's marriage file is bundle 8, and the bundles are shuffled",
+"summary": "All 385 images of an_ua14156 swept as ten contact sheets. ALL TWENTY-FIVE bundle covers located and read. The 1815 section ends at image 384; image 385 is the \"Anno 1816\" divider.",
+"kind": "sweep"
+},
+{
+"sha": "ab7fa85",
+"date": "2026-09-13",
+"title": "Survey: San Felice's 57 processetti volumes join the holding — 378 across six towns",
+"summary": "",
+"kind": "other"
+},
+{
+"sha": "8ab08e3",
+"date": "2026-09-13",
+"title": "THERE ARE INDEXES — a hundred of them for Arienzo, recorded as absent",
+"summary": "The research queue has said for months: \"No index, no indice decennale, no marginal surnames — all three checked and absent. ~90 acts/year, ~1,350 total, ONE SCREENSHOT PER ACT.\" That recipe governed twenty-eight years of death-register sweeps on this project.",
+"kind": "sweep"
+},
+{
+"sha": "d79901c",
+"date": "2026-09-13",
+"title": "Items 1 and 9: the 1815 marriages finished, and three Crisci generations out of one bundle",
+"summary": "ITEM 1. Arienzo marriages 1815 (an_ua14219) read END TO END — 30 images, exactly 25 acts. The only Falco in the year is LUIGI FALCO of San Felice. No Crisci. Published so the volume is not read again.",
+"kind": "sweep"
+},
+{
+"sha": "2f8779c",
+"date": "2026-09-13",
+"title": "The graph reads the register's own prose — and Silvestro Quotolo gets his daughter",
+"summary": "ITEM 14. The register carried 2,768 rows saying \"named as a parent of X\", 544 saying \"named as the spouse of\", and a third phrasing nobody had handled. The graph ignored all of them, which is why people sat joined to nobody while a clerk had written down exactly who they belonged to.",
+"kind": "site"
+},
+{
+"sha": "af06a96",
+"date": "2026-09-13",
+"title": "ANGELA ROSA MORGILLO'S BIRTH ACT — found, and it names both her parents",
+"summary": "Generation four's wife, from her own birth act. San Felice a Cancello, Nati 1818, an_ua50395 img 55, atto 32, read at native resolution:",
+"kind": "sweep"
+},
+{
+"sha": "e09941e",
+"date": "2026-09-13",
+"title": "Item 15: a release gate that refuses to ship a leak — and two designs that failed first",
+"summary": "`npm run build` now runs tools/check_release.py and exits non-zero if the living-people rule is broken. It reads site/dist, because all three real leaks looked correct in the source and only showed in the built HTML.",
+"kind": "fix"
+},
+{
+"sha": "88fcc4c",
+"date": "2026-09-13",
+"title": "Noindex every page that names a living person — and a third leak of the same date",
+"summary": "David asked for the /people roster to be noindexed too. Auditing what else was exposed found 176 indexed pages naming a living person, led by /search with 91. A roster-only fix would not have been a fence.",
+"kind": "fix"
+},
+{
+"sha": "8baec61",
+"date": "2026-09-13",
+"title": "A Falco household at San Felice a Cancello — soap-makers, 1815",
+"summary": "ITEM 8, partially. Rather than sweep 385 processetti images, went to the marriage REGISTER for 1815 (an_ua14219, 30 images), which lists every couple. The sindaco's closing certificate fixes the year at EXACTLY 25 acts, matching the processetti divider \"dal n° 1 al n° 25\".",
+"kind": "sweep"
+},
+{
+"sha": "bf77802",
+"date": "2026-09-13",
+"title": "San Felice a Cancello was reachable all along — and a way to stop guessing arks",
+"summary": "ITEM 9. Hunting Orazio Morgillo's marriage turned up something larger than the marriage.",
+"kind": "sweep"
+},
+{
+"sha": "78958eb",
+"date": "2026-09-13",
+"title": "Living people noindexed, Lucia Coppa never existed, and the graph's refusals published",
+"summary": "ITEM 15 — the decision offered twice and never answered, now taken the protective way. All 106 living people's pages carry <meta name=\"robots\" content=\"noindex, nofollow\">; verified as exactly the living set, no dead person touched. (The 16 other noindexed files under /people are Astro's own redirect stubs, which it always noindexes.) Added a robots.txt that states the policy in plain words and asks GPTBot, CCBot, Go",
+"kind": "fix"
+},
+{
+"sha": "6f415d1",
+"date": "2026-09-13",
+"title": "All seventeen 1814 covers read, bundle 6 located, and Andreana did not marry at sixteen",
+"summary": "ITEMS 6 AND 7. Every bundle cover in the 1814 processetti is now read at full magnification, not survey resolution. Bundle 6 found at image 78. Bundle 1's cover was NEVER PHOTOGRAPHED — the scan opens partway into it, at the archpriest's certificate of 16 January 1814 — so that couple is unknown and will stay unknown from this volume.",
+"kind": "sweep"
+},
+{
+"sha": "afac872",
+"date": "2026-09-13",
+"title": "1815 read in full — Sara Ruggiero did not die, and the Arcangelo Crisci knot is closed",
+"summary": "The 1814 dossier left one question open: which of the two Arcangelo Crisci married Anna Falco? The elder is proved to be Adriana's father (she was baptised in 1796, when the younger was nine). The elder could only ALSO have married Anna if his wife Sara Ruggiero had died between Dec 1814 and c.1818.",
+"kind": "sweep"
+},
+{
+"sha": "e7191ec",
+"date": "2026-09-13",
+"title": "The Lines: rebuild as a place-spine — the Zampiello join the family, not run beside it",
+"summary": "David read the diagram and found three faults in it, all real:",
+"kind": "fix"
+},
+{
+"sha": "d65f3bb",
+"date": "2026-09-13",
+"title": "Sweep the whole 1814 volume — seventeen bundles, and a correction to a correction",
+"summary": "Having found bundle 16, swept all 290 images of an_ua14154 as contact sheets and read every bundle cover. Adds a `sweep` command to tools/antenati.py that builds a labelled contact sheet, and gives leaf() backoff-and-retry: Cloudflare answers a burst with an HTML challenge, which an earlier session misread as a width limit and went hunting for \"good\" widths.",
+"kind": "sweep"
+},
+{
+"sha": "6318583",
+"date": "2026-09-13",
+"title": "The 1814 marriage dossier found — and Matteo Falco named in his own century",
+"summary": "The file for Vincenzo Falco × Adriana Crisci was recorded here as a dead end: \"the file for act 26 is not in the volume... do not search these two again.\" It was there all along, at bundle 16, images 265-274. Processetti bundles are numbered in the order the BANNS were published, not by the number the marriage later received — this couple published in September and married in December. The volume was never truncated;",
+"kind": "sweep"
+},
+{
+"sha": "8ca604c",
+"date": "2026-09-10",
+"title": "Timeline: plot living generations at today, not at their birth year",
+"summary": "The timeline positioned every generation's dot by birth year, falling back to 1955 for a living one — which is generation nine's ACTUAL birth year. The page correctly printed \"living — named only\" in her row and then leaked the date through the geometry: a reader could have read it straight off the axis.",
+"kind": "fix"
+},
+{
+"sha": "96422d7",
+"date": "2026-09-10",
+"title": "Build every page the Falco site was missing against de Franceschi — 14 new",
+"summary": "Fourteen pages, all built from data this archive already held rather than written as filler, plus one redirect where a second page would have duplicated an existing one.",
+"kind": "sweep"
+},
+{
 "sha": "6520c99",
 "date": "2026-09-10",
 "title": "Split /people and /register into WHO and WHAT, and give every name a page",

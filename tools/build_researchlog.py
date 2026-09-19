@@ -27,7 +27,12 @@ for fn in sorted(os.listdir(NOTES)):
     for m in re.finditer(r"^\*\*(.+?)\*\*", src, re.M):
         t = re.sub(r"\s+", " ", m.group(1)).strip()
         if len(t) > 40: lead = t[:300]; break
-    rows.append({"file": fn, "title": head, "year": year, "kind": kind,
+    # THE KEY IS WHAT THE WORK LIST POINTS AT. `checkcovers.py` resolves a work-list
+    # row's «covers: log:NAME» against this column, and it was missing from this
+    # generator while every consumer expected it — so a regeneration silently blanked
+    # thirty coverage links and the gate refused the build. It is the filename stem,
+    # lowercased, which is how the committed file has always spelt it (QUEUE.md -> queue).
+    rows.append({"file": fn, "key": fn[:-3].lower(), "title": head, "year": year, "kind": kind,
                  "complete": done, "acts": int(acts.group(1)) if acts else None,
                  "images": int(imgs.group(1)) if imgs else None,
                  "dupes": dupes, "lead": lead,

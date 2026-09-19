@@ -27,7 +27,7 @@ This act, read at 2600px, gives the forename as **FRANCESCA**. The 1843 file now
 correction beside the error rather than in place of it.
 
 **Raffaele Cioffi and Francesca Falco lost two infants in fourteen months** on strada Cioffi — Luigi
-at one day old, 2 January 1842; Antonio at seventeen days, 10 June 1843. Both parents are named
+at one day old, 2 January 1842; Antonio at seventeen days, 10 April 1843. Both parents are named
 without *«fu»* in both acts.
 
 **She is not the Francesca Falco the archive already had.** That one is the wife of **Gioacchino**
