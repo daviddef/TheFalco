@@ -2514,5 +2514,16 @@
   "why": "**A wrong month is the kind of error that never announces itself.** Nothing downstream contradicted it, and it would have been copied forward every time the Morgillo pedigree was rebuilt.\n\n**The mother is the larger gain.** «Giovanna —» told the next reader the surname was lost to the page. It was not lost; it was never read. **VITTORIA RUOTOLO is a grandmother this archive can now look for**, and the Ruotolo are already in these registers.\n\n**And the same volume produced the other kind of error.** Donna Francesca Rivetti's death was cited at **img7L**; image 7 left carries atto 10, somebody else entirely. **The act is on img8L**, and says exactly what this archive said it says. **The fact was right and the leaf reference was wrong** — which is the failure this row exists to catch, and which no reader could have found without opening the leaf.\n\n**Of 35 citations checked in two volumes, 33 resolve exactly.** The 1817 volume — 22 citations, including the act that settles generation four — is clean.",
   "where": "/households",
   "by": "this archive"
+ },
+ {
+  "when": "2026-09-20",
+  "what": "Two more dates off by a single day — and the shape of every citation error so far",
+  "sev": "minor",
+  "was": "**SUOR MARIA MADDALENA RIVETTI**, the nun whose act is one of three signs of a Rivetti house of standing at Arienzo, was published as dying **30 March 1819**. **CARLANTONIO MORGILLO** was published as declaring a death on **20 October 1819** — his fifth sighting, and part of the age series this archive uses to show these registers guess.",
+  "now": "**Both are one day out.** The nun's act reads «*L'anno mille ottocento diciannove a' dì **TRENTUNO** del mese di Marzo*», and repeats it: «*a' detto dì trentuno … ad ore ventidue*». **31 March.** Carlantonio Morgillo's reads «*a' dì **VENTUNO** del mese di Ottobre*». **21 October.** Both words were magnified before either record was touched; the «-uno» is unambiguous in each.",
+  "how": "Work-list row 58 — verifying that this archive's ANTENATI citations resolve to the acts they name. Four volumes are now checked: **59 citations, five errors.**",
+  "why": "**The pattern matters more than the two days.** Of the five errors found in fifty-nine citations, **not one is a misread name, a wrong parent, or an invented relationship.** Every single one is **a date word or a leaf number** — «trenta» read for «trentuno», «venti» for «ventuno», «marzo» for «aprile», and an act cited at img7L that is on img8L.\n\n**This archive reads its people well and its numbers carelessly.** That is a useful thing to know about oneself, because a wrong name gets caught — somebody downstream notices a person who cannot exist — and **a wrong day never does.**\n\n**The same pass confirmed the archive's most-quoted detail to the hour.** **DOMENICO FALCO** died «*ad ore dodici*» on 15 March 1819 and **ROSARIA FALCO** «*ad ore ventitré*» the same day: **eleven hours apart**, exactly as published, in two acts drawn on consecutive days by the same clerk.",
+  "where": "/households",
+  "by": "this archive"
  }
 ]
