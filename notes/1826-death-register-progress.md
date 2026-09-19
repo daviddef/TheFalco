@@ -38,8 +38,11 @@ is ambiguous, the running act number decides it.
 
 **GIUSEPPE FALCO, forty-six, *massaro*, of strada Camellara** appears twice as a declarant:
 
-- **atto 56, 9 August** — for **Giuseppe Cossi, two years old**, son of **Gaspare Cossi** and Maria
+- **atto 56, 9 August** — for **GIUSEPPE CIOFFI, two years old**, son of **CESARE CIOFFI** and Maria
   Sposito, of strada Camellara. The other declarant is Salvatore Sposito, 26, the child's *zio*.
+  **(Read here as «Giuseppe Cossi» son of «Gaspare Cossi» until 20 September 2026. At full
+  resolution the surname carries the double-f ligature with its long descender — CIOFFI — and the
+  father's forename is Cesare, written with the long ſ. Work-list row 58.)**
 - **atto 73, 28 October** — for **Sabata Florino, fourteen months**, daughter of Biagio Florino and
   Anna Cossi. His fellow declarant is **CARLANTONIO MORGILLO, forty-six, contadino, of strada
   Camellara**.
@@ -180,7 +183,7 @@ as read rather than left out.
 | 30R (atto 53) | 30 Jul | Fabrizio Carfora, 34, contadino, **strada Camellara** — father of the Angelo Carfora buried 25 Apr (atto 21) | Angelo Carfora, carrese, & Elena Lettieri | m. Angela Martone | Domenico Martone 33 contadino, **strada Camellara**, *cognato*; Paolo Mauro 44 contadino, **strada Camellara** |
 | 31L (atto 54) | 4 Aug | Marianna Imbimbo, 45, **filatrice**, strada Terra Murata | fu Raffaele Imbimbo & fu Teresa Maderna | — | Onofrio Buono 30 barbiere, strada Porta di Sopra, *cognato*; Angelo Imbimbo 29 sartore, *fratello* |
 | 31R (atto 55) | 6 Aug | Domenico Papa, 46, contadino | fu Alessandro Papa, contadino, & fu Serafina Diglio | m. Gaetana Magone | Pellegrino Martone 40 contadino, **strada Camellara**; Paolo Mauro 45 contadino, **strada Camellara** |
-| **32L (atto 56)** | 9 Aug | Giuseppe Cossi, 2, **strada Camellara** | **Gaspare Cossi**, contadino, & Maria Sposito | — | Salvatore Sposito 26 contadino, **strada Camellara**, *zio del defunto*; **GIUSEPPE FALCO, 46, *massaro*, strada Camellara — as neighbour** |
+| **32L (atto 56)** | 9 Aug | **Giuseppe Cioffi**, 2, **strada Camellara** | **Cesare Cioffi**, contadino, & Maria Sposito | — | Salvatore Sposito 26 contadino, **strada Camellara**, *zio del defunto*; **GIUSEPPE FALCO, 46, *massaro*, strada Camellara — as neighbour** |
 | 32R (atto 57) | 19 Aug | Maria Giovanna Majone, 11 months | Clemente Majone, contadino, & Rosa Martone | — | Angelo Migliore 50 sartore, strada Croce dell'Ospedale; Ignazio Cappuccio 57 fruttajolo |
 | 33L (atto 58) | 26 Aug | Carmine Ferrara, 2, **strada Camellara** | Michele Ferrara, contadino, & **Francesca Cossi** | — | Clemente Cossi 23 contadino, **strada Camellara**; Giuseppe Cossi 44 calzolajo, **strada Camellara** |
 | 33R (atto 59) | 30 Aug | **Clemenzia Rivetti, 14 months**, strada Monticello de' Cappuccini | **Antonio Rivetti**, contadino, & **ROSA MORGILLO** | — | **Nicola Morgillo 40 contadino, Monticello de' Cappuccini; Marcello Rivetti 46 contadino, Monticello de' Cappuccini** |
@@ -218,3 +221,13 @@ as read rather than left out.
 | 50R / 51L | — | *blank forms — the register ends at act 88* | | | |
 | 51R | (transcript, 5 Nov) | **Donna ANDREANA SANSONE**, of Arienzo — died **20 October 1826 at Recale**, in the house of Donna Agostina di Lauzo | fu Angelo Sansone & Donna Maddalena di Lauzo | — | (transcription by the sindaco Saverio Cioffari) |
 | 52 | — | ministerial *verbale* of 4 July 1849 on the removal of blank leaves | | | |
+
+## Row 58 re-read, 20 September 2026 — three acts checked against the images
+
+**atto 22 (13L), 25 April 1826** — verified word for word, including the silence that matters: *Pasquale Falco* and *Chiara Rivetti* are named with no «defunto» on a leaf where this scribe does mark the dead. **One error: Angelo Sansone is «di anni quarantasei», forty-six, not forty-five.**
+
+**atto 56 (32L), 9 August 1826** — **two names were wrong, and they are the first misread NAMES this row has found.** The dead child is **Giuseppe CIOFFI**, not Cossi, and his father is **CESARE Cioffi**, not Gaspare Cossi. Everything else holds, and the «*ZIO DEL DEFUNTO*» on Salvatore Sposito was magnified and confirmed.
+
+**atto 73 (41R), 28 October 1826** — clean. Carlantonio Morgillo and Giuseppe Falco, both forty-six, both «vicino della Defunta», at the death of **Sabata Romino, fourteen months old**, who died on the eleventh.
+
+**A caution this volume raises and does not settle.** «Cossi» appears forty-three times in this archive's register, most of it harvested from other people's indexes. **One act has now been read at full resolution and it said Cioffi both times.** That is one act, not a rule, and no other «Cossi» has been re-read. Both surnames exist in Arienzo. **Nothing has been renamed in bulk and nothing should be** until the acts are read.
