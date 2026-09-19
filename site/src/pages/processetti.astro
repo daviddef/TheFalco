@@ -3,6 +3,21 @@ import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import Src from "../components/Src.astro";
 import { u } from "../lib/url.js";
+import proc from "../data/processetti.json";
+
+/* THE VOLUME COUNTS ARE DERIVED, NOT TYPED. Four different totals were written
+   across this archive — 378, 321, 320 and 258 — and every one of them was
+   arithmetically right and counted a DIFFERENT SET OF TOWNS, none of them
+   labelled. 378 is all six; 321 is the five of the Valle Caudina; 258 is the
+   four in Benevento; 320 is 321 less the single bundle that has been read.
+   They are computed here so they cannot drift apart again, and each is said
+   with its scope attached. */
+const towns   = proc.rows;
+const vols    = (rs) => rs.reduce((a, r) => a + r.volumes, 0);
+const ALL     = vols(towns);
+const VALLE   = vols(towns.filter((r) => r.key !== "san-felice-a-cancello"));
+const UNREAD  = VALLE - 1;
+const UNOPEN  = towns.filter((r) => r.state === "unexamined");
 
 const bundle = [
   { img: "265", doc: "The wrapper", date: "—",
@@ -67,7 +82,7 @@ const census = [
 ];
 ---
 <Base title="The Processetti"
-      eyebrow="The marriage files — 321 volumes, one read"
+      eyebrow={`The marriage files — ${ALL} volumes across ${towns.length} towns, one read`}
       dek="A processetto is everything a couple had to prove before they could marry: their baptisms, their parents' consent, their banns. The first one this archive opened turned out to be the richest document it has.">
 
   <div class="card" style="margin-bottom:1.2rem">
@@ -75,7 +90,8 @@ const census = [
     The couple had to produce baptism extracts, death certificates for any dead parent, the consent
     of living parents where either was under age, and proof that the banns had been read twice in
     the town and once in the church. All of it was bundled and kept. The bundles survive for the
-    Valle Caudina as <strong>321 volumes</strong> — and until 13 September 2026 this archive had
+    Valle Caudina as <strong>{VALLE} volumes</strong> across its five towns — <strong>{ALL}</strong>
+    if San Felice a Cancello is counted with them — and until 13 September 2026 this archive had
     never read one.</p>
   </div>
 
@@ -333,10 +349,39 @@ const census = [
   </div>
 
   <h2>What remains</h2>
-  <p><strong>320 volumes.</strong> Arienzo's own runs are the priority; <strong>Moiano (99
-  volumes)</strong> and <strong>Paolisi (43)</strong> have never been opened. Each bundle carries
-  baptism extracts, which reach a generation earlier than the civil registers begin — this one
-  reached back to a parish register of 1792 that is not itself online. That is the argument for
-  reading the rest. <a href={u("/antenati/")}>How these are read →</a></p>
+  <p><strong>{UNREAD} of the {VALLE} Valle Caudina volumes</strong>, and <strong>{ALL - 1} of
+  the {ALL}</strong> if San Felice a Cancello is counted in. Arienzo's own runs are the priority;
+  <strong>{UNOPEN.map((r) => `${r.town} (${r.volumes})`).join(", ")}</strong> have never been
+  opened at all. Each bundle carries baptism extracts, which reach a generation earlier than the
+  civil registers begin — this one reached back to a parish register of 1792 that is not itself
+  online. That is the argument for reading the rest.
+  <a href={u("/antenati/")}>How these are read →</a></p>
+
+  <h2>The six towns, and what is in each</h2>
+  <p class="dek">Every number on this page is computed from this table, so they cannot drift apart
+  again. <strong>Say which towns you mean when you quote a total</strong> — this archive has
+  written {ALL}, {VALLE}, {UNREAD} and {VALLE - 63} in different places, and each was right about
+  a different set.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Town</th><th>Province</th><th class="m">Volumes</th><th class="m">Span</th>
+      <th>Name-indexed</th><th>State</th></tr></thead>
+    <tbody>
+      {towns.map((r) => (
+        <tr>
+          <td><strong>{r.town}</strong></td>
+          <td>{r.province}</td>
+          <td class="m">{r.volumes}</td>
+          <td class="m">{r.earliest}–{r.latest}</td>
+          <td class="small">{r.nameIndexed}</td>
+          <td>{r.state === "unexamined"
+            ? <span class="chip dis">never opened</span>
+            : <span class="chip">{r.state}</span>}</td>
+        </tr>
+      ))}
+      <tr><td><strong>Total</strong></td><td/><td class="m"><strong>{ALL}</strong></td>
+        <td/><td/><td/></tr>
+    </tbody>
+  </table></div>
+  <p class="small">{proc.note}</p>
 
 </Base>
