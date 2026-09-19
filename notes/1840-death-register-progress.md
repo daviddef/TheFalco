@@ -23,7 +23,7 @@ strada Cioffi, buried three children in four years:
 |---|---|---|
 | **Maddalena Cioffi** | one year | **17 August 1840** |
 | **Luigi Cioffi** | one day | **2 January 1842** |
-| **Antonio Cioffi** | seventeen days | **10 June 1843** |
+| **Antonio Cioffi** | seventeen days | **10 April 1843** |
 
 Both parents are named **without «fu»** in all three acts, so both were alive throughout. **Three
 acts, three clerks, one spelling of her name.** The 1843 file published *«Domenica Falco»* as an
@@ -187,7 +187,7 @@ seventy in 1828, **and possibly not**, because a second Angelo Morgillo was aliv
 | **31R (atto 49)** | d. Aug, ore 10 | Giuseppe Lettieri, **9 months**, strada Costa | **SEBASTIANO LETTIERI**, contadino, **& FELICIA CIOFFI** — *1841 atto 28 buries a **Sebastiano Lettieri, 33, «marito di MARIANGELA DOMINO»** on the same street. **Different wife**: two men of the name, or a remarriage in the intervening year. Not resolved.* | — | Felice Lettieri 40 contadino, strada Costa; Angelo Lettieri 35 contadino, strada Costa |
 | **32L (atto 50)** | **d. 17 Aug, ore 11** | **MADDALENA CIOFFI, ONE YEAR OLD**, strada Cioffi | **RAFFAELE CIOFFI**, contadino, **& FRANCESCA FALCO** — *both living. **The third independent act naming this couple**, and the earliest.* | — | Domenico Cioffi 72 contadino, strada Cioffi; Aniello Cioffi 28 contadino, strada Cioffi. Plate: `francesca-falco-1840.jpg` |
 
-> **The household, now complete across four volumes.** **Raffaele Cioffi and Francesca Falco**, of strada Cioffi, buried three children in four years: **Maddalena**, one year old, 17 August 1840; **Luigi**, one day old, 2 January 1842; **Antonio**, seventeen days old, 10 June 1843. Both parents are named without *«fu»* in all three acts, so both were alive throughout. **Three acts, three clerks, one spelling of her name.** The 1843 file's *«Domenica Falco»* is now corrected by two independent readings, not one.
+> **The household, now complete across four volumes.** **Raffaele Cioffi and Francesca Falco**, of strada Cioffi, buried three children in four years: **Maddalena**, one year old, 17 August 1840; **Luigi**, one day old, 2 January 1842; **Antonio**, seventeen days old, **10 April 1843** (published here as 10 June until 20 September 2026; the act is written «del mese di Aprile» on both its date lines). Both parents are named without *«fu»* in all three acts, so both were alive throughout. **Three acts, three clerks, one spelling of her name.** The 1843 file's *«Domenica Falco»* is now corrected by two independent readings, not one.
 
 | 32R (atto 51) | d. 5 Sep, ore 2 | Anna Maria Saluto(?), **13 months**, strada Croce | **Antonio Saluto(?), *MURATORE***, & **Rachela di Felice(?)** | — | Pietro Belletta 28 contadino; Fabio Giglio 34 contadino |
 | 33L (atto 52) | d. 6 Sep, ore 23 | Aniello Martone, **15 months**, strada Capodiconca | **Angelo Martone**, contadino, & **Caterina Laudato** | — | Pietro di Lucia 29 contadino; Antonio Sergone 34, trade unresolved |

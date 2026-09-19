@@ -2536,5 +2536,38 @@
   "why": "**This is the most dangerous kind of citation error this archive has found.** A wrong leaf sends you to a blank page and you notice. **A wrong act number sends you to the act next door**, and here the act next door is a couple with the same two forenames, on the same day, in the same hand. **Nothing but the surname would have stopped a reader adopting it**, and the date and the sex both agree.\n\n**Everything else in the volume verified, including the act this archive's whole margin method was built on.** Domenico Clemente Falco's birth of 18 March 1819 carries, below the act, «*Con atto **6 Agosto 1856** atto **21** in **S. Maria a Vico** il Falco sposò **DOMENICA VIGLIOTTI***» — a marriage in another comune, written in the margin of a birth, exactly as published.\n\n**One date is flagged and deliberately left alone.** Act 22 is cited at 19 February 1819 and the word looks like «diciotto». **At the leaf's full resolution it cannot be separated from «diciannove».** It stays as published. **A date this archive cannot read is not a date it may change.**",
   "where": "/households",
   "by": "this archive"
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "minor",
+  "where": "/households",
+  "by": "this archive",
+  "what": "Giuseppe Falco was forty-two in June 1823, not forty-three",
+  "was": "«*e **GIUSEPPE FALCO FU MATTEO**, di anni **quarantatre**, di professione Contadino, regnicolo, domiciliato strada Camellara*» — Arienzo Morti 1823, `an_ua14325` img20R. The act matters out of all proportion to its size: **it is the first civil record to state his parentage outright**, and the archive reasoned from the age that he was born about 1780.",
+  "now": "The word ends **«-adue»**. It is **«quarantadue»** — forty-two — so born about **1781**.",
+  "how": "Work-list row 58. The tail of the word was magnified against the same clerk's «tre», written three lines below on the same leaf in «Maria Crisci, di anni tre». The two shapes do not match: «tre» is three strokes, open and wide, and the age word has a «d» loop, a two-arched «u» and a compressed «e».",
+  "why": "**The conclusion survives and the number does not.** Forty-two in June 1823 gives about 1781; the thirty-seven he gives in October 1817 gives about 1780. The two still agree within a year, which is inside the noise this archive has already demonstrated — the same registers make one man forty on 2 April 1825 and forty-five four days later. **What changes is the archive's right to quote the word.** It was quoting a word it had not read."
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "minor",
+  "where": "/households",
+  "by": "this archive",
+  "what": "Three dates in the 1843 death register were wrong, and one of them by two months",
+  "was": "From Arienzo Morti 1843, `an_ua14345`: **Antonio Cioffi**, seventeen days old, son of Raffaele Cioffi and Francesca Falco, published at **10 June 1843** (act 17). **Aniello Cioffi**, seventy-six, son of Gioacchino Cioffi and the elder Francesca Falco, published at **27 July 1843** (act 29). **Gennaro Morgillo**, fifty-three, colono, published at **14 August 1843** (act 33).",
+  "now": "**10 APRIL 1843**, **26 JULY 1843** and **4 AUGUST 1843**.",
+  "how": "Work-list row 58, the seventh volume checked. Act 17 is written «*del mese di **Aprile***» on both of its date lines, and the month word was magnified twice. Act 29 is drawn on the twenty-seventh but declares the death «*nel giorno **ventisei***» — the archive had recorded the day the clerk wrote, not the day the man died. Act 33 reads «*il dì **quattro** del mese di Agosto*», and **the acts on either side of it settle it arithmetically**: act 32 is 3 August and act 35 is 10 August, so act 33 cannot be the fourteenth.",
+  "why": "**Three errors in one volume, and all three are the same kind of error this row keeps finding.** Across seven volumes and ninety-five citations there are now ten mistakes, and **not one of them is a misread name, a wrong parent or an invented relationship**. Every one is a number — a date word, an age, a leaf, an act. **The archive reads its people well and its numbers carelessly**, and a number is exactly what no reader downstream can check without going back to the film.\n\nAntonio Cioffi's two months matter most: seventeen days old on 10 April means **born about 24 March 1843**, not late May."
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "major",
+  "where": "/households",
+  "by": "this archive",
+  "what": "The archive said a Falco-Morgillo marriage was thirty years away while holding the act that made it eighteen months",
+  "was": "Of Gennaro Morgillo's death act of 1843: «*It is the closest the record comes to the **Falco-Morgillo marriage that was still thirty years away***.» The act records **GENNARO MORGILLO**, fifty-three, **colono** of **strada Camellara**, **widower of a Felicia**, son of **Angelo Morgillo** defunto, colono of the Monticello de' Cappuccini — and his death was declared by **GIUSEPPE FALCO**, colono of that same street.",
+  "now": "**The marriage was eighteen months away, and this archive already held it.** On **2 February 1845** **CRESCENZO FALCO**, Giuseppe's son, married **ANGELA MARIA MORGILLO**, twenty-three, of **strada Cappuccini**: «*figlia di **GENNARO MORGILLO DEFUNTO**, di professione **colono**, e di **MARIA FELICIA SANZONE** … **defunta***».\n\nThe two men are now published as **PROBABLY the same man** — forename, surname, trade, the wife's forename, the order in which the couple died, and the street that climbs to his father's hill all agree — and **the identification is graded and not asserted**, because Morgillo is the commonest surname in these registers and this archive already holds two distinct Angelo Morgillo.",
+  "how": "Work-list row 58. Verifying the act's DATE meant reading the act, and reading the act meant reading the name in it.",
+  "why": "**Nothing was missing. Two files were.** The death act sat in one household and the marriage in another, and the sentence that judged the death act had been written without looking at the marriage. **At this size the likeliest wrong statement in the archive is one of its own, left standing where a finding never travelled** — and this one was wrong by twenty-eight years.\n\n**What it is not, yet, is proven.** The *processetto* for the 1845 marriage must carry Gennaro Morgillo's death certificate with its act number on it. If the number is 33 of 1843, the question closes; that is now work-list row 73."
  }
 ]
