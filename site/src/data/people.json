@@ -4302,56 +4302,6 @@
 "siblings": []
 },
 {
-"slug": "aniello-cioffi",
-"name": "Aniello Cioffi",
-"surname": "CIOFFI",
-"household": "Gioacchino Cioffi & Francesca Falco",
-"role": "child",
-"events": [
-{
-"event": "death",
-"date": "26 Jul 1843",
-"place": "Arienzo, strada Cioffi",
-"evidence": "«ANIELLO CIOFFI, marito di Giovanna Laudato, nato in Arienzo, di anni SETTANTASEI, contadino» — born about 1767, the same year as Pasquale Falco of generation two.",
-"ark": "ANTENATI an_ua14345 img21r atto29"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "francesca-falco-of-gioacchino-cioffi-francesca-falco",
-"name": "Francesca Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "gioacchino-cioffi",
-"name": "Gioacchino Cioffi",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "luca-cioffi",
-"name": "Luca Cioffi",
-"via": "register",
-"vias": [
-"register"
-]
-}
-]
-},
-{
 "slug": "antonia-cioffi",
 "name": "Antonia Cioffi",
 "surname": "CIOFFI",
@@ -4730,56 +4680,6 @@
 "siblings": []
 },
 {
-"slug": "gioacchino-cioffi",
-"name": "Gioacchino Cioffi",
-"surname": "CIOFFI",
-"household": "Gioacchino Cioffi & Francesca Falco",
-"role": "father",
-"events": [
-{
-"event": "named",
-"date": "dead by 1843",
-"place": "Arienzo, strada Cioffi",
-"evidence": "A contadino, dead before July 1843. Named only in his son's death act. Note the forename: a GIOACCHINO FALCO, thirty-six, declares on strada Camellara in 1816 and is a candidate fifth child of Matteo Falco — the name runs in both houses, which is suggestive and nothing more.",
-"ark": "ANTENATI an_ua14345 img21r atto29"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [
-{
-"slug": "francesca-falco-of-gioacchino-cioffi-francesca-falco",
-"name": "Francesca Falco",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"children": [
-{
-"slug": "aniello-cioffi",
-"name": "Aniello Cioffi",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "luca-cioffi",
-"name": "Luca Cioffi",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"siblings": []
-},
-{
 "slug": "giovanni-cioffi-of-giovanni-cioffi-maria-porrino",
 "name": "Giovanni Cioffi",
 "surname": "CIOFFI",
@@ -5091,56 +4991,6 @@
 {
 "slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco-2",
 "name": "Mariantonia Cioffi (the second)",
-"via": "register",
-"vias": [
-"register"
-]
-}
-]
-},
-{
-"slug": "luca-cioffi",
-"name": "Luca Cioffi",
-"surname": "CIOFFI",
-"household": "Gioacchino Cioffi & Francesca Falco",
-"role": "child",
-"events": [
-{
-"event": "death",
-"date": "16 Jan 1829",
-"place": "Arienzo",
-"evidence": "**A PROBABLE SECOND CHILD OF THIS HOUSEHOLD, FROM THE 1829 DEATH INDEX AND NOT FROM AN ACT.** «*9. **C[?]ffi LUCA** … [figlio di] **GIOACCHINO** e **FALCO FRANCESCA** … 16 [Gennaio 1829]*» — Arienzo, *tavola alfabetica annuale de' Morti* for 1829, first leaf, **act 9**.\n\n**The dead man's surname is in the trap this archive knows** — Crisci, Cossi and Cioffi are one shape in these hands, and an index is written faster than an act. **The parents are not**: «GIOACCHINO» with «FALCO FRANCESCA» is a distinctive pair, and this archive holds exactly one couple of that description — **GIOACCHINO CIOFFI and FRANCESCA FALCO**, known until now from a single document, the 1843 death act of their son **ANIELLO**, seventy-six.\n\n**Published as PROBABLE and marked as an index reading.** **A contact sheet may produce a candidate, never a record**, and a tavola is a contact sheet the clerk made. **Act 9 of the 1829 death register would settle both the surname and his age in one line** — work-list row 80.",
-"ark": "ANTENATI an_ua14291 img1 (Arienzo, tavola alfabetica de' Morti 1829) atto 9 — INDEX, NOT THE ACT"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "francesca-falco-of-gioacchino-cioffi-francesca-falco",
-"name": "Francesca Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "gioacchino-cioffi",
-"name": "Gioacchino Cioffi",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "aniello-cioffi",
-"name": "Aniello Cioffi",
 "via": "register",
 "vias": [
 "register"
@@ -6176,7 +6026,57 @@
 "siblings": []
 },
 {
-"slug": "aniello-crisci",
+"slug": "aniello-crisci-of-gioacchino-crisci-francesca-falco",
+"name": "Aniello Crisci",
+"surname": "CRISCI",
+"household": "Gioacchino Crisci & Francesca Falco",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "26 Jul 1843",
+"place": "Arienzo, strada Cioffi",
+"evidence": "«ANIELLO CIOFFI, marito di Giovanna Laudato, nato in Arienzo, di anni SETTANTASEI, contadino» — born about 1767, the same year as Pasquale Falco of generation two.\n\n**HE HAS A BROTHER.** **LUCA CRISCI**, sixty at his death on 16 January 1829, was born about **1769**; Aniello, seventy-six in July 1843, about **1767**. **Two years apart, the same two parents, both parents already dead in 1829.** Found in the 1829 death register on 20 September 2026 — work-list row 80.",
+"ark": "ANTENATI an_ua14345 img21r atto29"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "francesca-falco-of-gioacchino-crisci-francesca-falco",
+"name": "Francesca Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-crisci",
+"name": "Gioacchino Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "luca-crisci",
+"name": "Luca Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
+"slug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
 "name": "Aniello Crisci",
 "surname": "CRISCI",
 "household": "Aniello Crisci & Giovanna Falco",
@@ -6188,7 +6088,24 @@
 "place": "Arienzo",
 "evidence": "«CRISCI ANIELLO … CRISCI CRESCENZO, e QUOTOLO ANGELA» — his parents named. A SECOND FALCO-CRISCI MARRIAGE in eleven years: Anna Falco, daughter of Pasquale, married an Arcangelo of the same surname in 1818, and Giovanna, daughter of Giuseppe, marries Aniello here. The two brides were FIRST COUSINS",
 "ark": "ANTENATI an_ua14128 (Arienzo, Matrimonj indice 1829) img 1 atto 10 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
 },
+{
+"slug": "aniello-crisci-of-crescenzo-crisci-angela-quotolo",
+"name": "Aniello Crisci",
+"surname": "CRISCI",
+"household": "Crescenzo Crisci & Angela Quotolo",
+"role": "child",
+"events": [
 {
 "event": "named as a surviving minor",
 "date": "4 Nov 1825",
@@ -6198,8 +6115,7 @@
 }
 ],
 "sources": [
-"register",
-"tree"
+"register"
 ],
 "living": false,
 "parents": [
@@ -6220,6 +6136,47 @@
 ]
 }
 ],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "sante-crisci",
+"name": "Sante Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmina-crisci",
+"name": "Carmina Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-crisci-of-crescenzo-crisci-angela-quotolo",
+"name": "Maria Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
+"slug": "aniello-crisci",
+"name": "Aniello Crisci",
+"surname": "CRISCI",
+"household": null,
+"role": null,
+"events": [],
+"sources": [
+"tree"
+],
+"living": false,
+"parents": [],
 "spouses": [
 {
 "slug": "giovanna-falco-2",
@@ -6272,33 +6229,7 @@
 ]
 }
 ],
-"siblings": [
-{
-"slug": "sante-crisci",
-"name": "Sante Crisci",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "carmina-crisci",
-"name": "Carmina Crisci",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-crisci-of-crescenzo-crisci-angela-quotolo",
-"name": "Maria Crisci",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"mergedOn": "name alone",
+"siblings": [],
 "treeId": 4512406,
 "b": "Nov 12 1807",
 "d": "Nov 25 1884",
@@ -6546,7 +6477,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "aniello-crisci",
+"slug": "aniello-crisci-of-crescenzo-crisci-angela-quotolo",
 "name": "Aniello Crisci",
 "via": "register",
 "vias": [
@@ -6896,7 +6827,7 @@
 ],
 "children": [
 {
-"slug": "aniello-crisci",
+"slug": "aniello-crisci-of-crescenzo-crisci-angela-quotolo",
 "name": "Aniello Crisci",
 "via": "register",
 "vias": [
@@ -7285,6 +7216,56 @@
 "siblings": []
 },
 {
+"slug": "gioacchino-crisci",
+"name": "Gioacchino Crisci",
+"surname": "CRISCI",
+"household": "Gioacchino Crisci & Francesca Falco",
+"role": "father",
+"events": [
+{
+"event": "named",
+"date": "dead by 1843",
+"place": "Arienzo, strada Cioffi",
+"evidence": "«*figlio di **GIOACCHINO CRISCI defunto**, di professione contadino, domiciliato ivi*» — named in **both** his sons' death acts, and **dead before January 1829**.\n\n**THE SURNAME WAS PUBLISHED HERE AS CIOFFI UNTIL 20 SEPTEMBER 2026.** Both acts were magnified on that day and **both read CRISCI**: a capital **C**, a narrow **r** shoulder, a long **ſ** with its descender, then **ci**. **No round o, which Cossi needs; no tall double-f ligature, which Cioffi needs.** That is this archive's own three-way test, applied to the two documents this household rests on.\n\n**It matters beyond a letter.** A Falco woman marrying a **CRISCI** joins the surname the direct line married twice — Matteo Falco to Francesca Crisci and Vincenzo Falco to Andreana Crisci. **Nothing here joins her to either, and none is claimed**; but the family she married into is not the one this archive had her in.",
+"ark": "ANTENATI an_ua14345 img21r atto29"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "francesca-falco-of-gioacchino-crisci-francesca-falco",
+"name": "Francesca Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "aniello-crisci-of-gioacchino-crisci-francesca-falco",
+"name": "Aniello Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "luca-crisci",
+"name": "Luca Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
 "slug": "giovanna-crisci",
 "name": "Giovanna Crisci (Annecchino)",
 "surname": "CRISCI",
@@ -7548,6 +7529,56 @@
 ]
 },
 {
+"slug": "luca-crisci",
+"name": "Luca Crisci",
+"surname": "CRISCI",
+"household": "Gioacchino Crisci & Francesca Falco",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "16 Jan 1829",
+"place": "Arienzo",
+"evidence": "«*è morto nella sua propria casa **LUCA CRISCI, di anni SESSANTA, marito di ANTONIA MORGILLO**, nato in **Arienzo**, di professione **contadino**, domiciliato ivi, figlio di **GIOACCHINO CRISCI Defunto**, di professione contadino, domiciliato ivi, e di **FRANCESCA FALCO Defunta**, domiciliata ivi*» — **act 9, image 7 RIGHT**, died **16 January 1829** at twenty-four hours. Born about **1769**.\n\n**A SECOND CHILD FOR A HOUSEHOLD THAT HAD ONE**, and the second document it has ever had. **He is ANIELLO's brother** — seventy-six in July 1843 gives about 1767, two years apart, the same two parents.\n\n**He was married**: **ANTONIA MORGILLO**, another Crisci–Morgillo tie in a town where this archive keeps finding them.\n\n**And both parents are «Defunto» and «Defunta» here**, which moves their deaths from «before 1843» to **before January 1829** — fourteen years.\n\n**Found from the 1829 tavola and then read from the act**, which is the order this archive insists on: the index produced the candidate and the leaf produced the record. **The index spelt him neither Crisci nor Cioffi clearly; the act does.**\n\n**This row replaces an index-only placeholder raised a few hours earlier the same day.** That one read «*C[?]ffi LUCA … [figlio di] GIOACCHINO e FALCO FRANCESCA*» from the 1829 *tavola*, was published as PROBABLE, and said in terms that the surname was in the Crisci/Cossi/Cioffi trap and that **only the act could settle it.** **The act settled it.** The placeholder is not kept beside this one, because two rows for one man is how a person gets counted twice — which this archive did to an Anna Falco and found out the same day.",
+"ark": "ANTENATI an_ua14331 img7r atto9"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "francesca-falco-of-gioacchino-crisci-francesca-falco",
+"name": "Francesca Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-crisci",
+"name": "Gioacchino Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "aniello-crisci-of-gioacchino-crisci-francesca-falco",
+"name": "Aniello Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
 "slug": "luigi-crisci",
 "name": "Luigi Crisci",
 "surname": "CRISCI",
@@ -7740,7 +7771,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "aniello-crisci",
+"slug": "aniello-crisci-of-crescenzo-crisci-angela-quotolo",
 "name": "Aniello Crisci",
 "via": "register",
 "vias": [
@@ -8075,7 +8106,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "aniello-crisci",
+"slug": "aniello-crisci-of-crescenzo-crisci-angela-quotolo",
 "name": "Aniello Crisci",
 "via": "register",
 "vias": [
@@ -18708,17 +18739,17 @@
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
-"slug": "francesca-falco-of-gioacchino-cioffi-francesca-falco",
+"slug": "francesca-falco-of-gioacchino-crisci-francesca-falco",
 "name": "Francesca Falco",
 "surname": "FALCO",
-"household": "Gioacchino Cioffi & Francesca Falco",
+"household": "Gioacchino Crisci & Francesca Falco",
 "role": "mother",
 "events": [
 {
 "event": "named",
 "date": "dead by 1843",
 "place": "Arienzo",
-"evidence": "«figlio di GIOACCHINO CIOFFI defunto, di professione contadino, domiciliato ivi, E DI FRANCESCA FALCO defunta» — from the death act of her son Aniello Cioffi — **who died on 26 July 1843**, in an act drawn the following day and published here as 27 July until 20 September 2026 — verified at full resolution. Her son was seventy-six, so born about 1767, which places her marriage in the seventeen-sixties and her own birth in the seventeen-forties: the generation of MATTEO FALCO himself. NOTHING NAMES HER PARENTS and this archive does not guess at them.",
+"evidence": "«figlio di **GIOACCHINO CRISCI defunto**, di professione contadino, domiciliato ivi, E DI FRANCESCA FALCO defunta» — from the death act of her son Aniello Cioffi — **who died on 26 July 1843**, in an act drawn the following day and published here as 27 July until 20 September 2026 — verified at full resolution. Her son was seventy-six, so born about 1767, which places her marriage in the seventeen-sixties and her own birth in the seventeen-forties: the generation of MATTEO FALCO himself. NOTHING NAMES HER PARENTS and this archive does not guess at them.\n\n**AND HER DEATH WINDOW CLOSES BY FOURTEEN YEARS.** She was «defunta» in her son ANIELLO's act of 27 July 1843; she is **already «defunta» in her son LUCA's act of 16 January 1829**, found on 20 September 2026. **She died before January 1829**, and her husband with her.",
 "ark": "ANTENATI an_ua14345 img21r atto29"
 }
 ],
@@ -18729,8 +18760,8 @@
 "parents": [],
 "spouses": [
 {
-"slug": "gioacchino-cioffi",
-"name": "Gioacchino Cioffi",
+"slug": "gioacchino-crisci",
+"name": "Gioacchino Crisci",
 "via": "register",
 "vias": [
 "register"
@@ -18739,16 +18770,16 @@
 ],
 "children": [
 {
-"slug": "aniello-cioffi",
-"name": "Aniello Cioffi",
+"slug": "aniello-crisci-of-gioacchino-crisci-francesca-falco",
+"name": "Aniello Crisci",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "luca-cioffi",
-"name": "Luca Cioffi",
+"slug": "luca-crisci",
+"name": "Luca Crisci",
 "via": "register",
 "vias": [
 "register"
@@ -38868,7 +38899,7 @@
 ],
 "children": [
 {
-"slug": "aniello-crisci",
+"slug": "aniello-crisci-of-crescenzo-crisci-angela-quotolo",
 "name": "Aniello Crisci",
 "via": "register",
 "vias": [
