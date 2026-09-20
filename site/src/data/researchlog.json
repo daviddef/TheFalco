@@ -103,13 +103,13 @@
 "title": "Arienzo civil marriages, 1815 — PARTIALLY READ, and a new Falco household found",
 "year": "1815",
 "kind": "other",
-"outstanding": true,
-"complete": false,
+"outstanding": false,
+"complete": true,
 "acts": 13,
 "images": 16,
 "dupes": 0,
 "lead": "But the coincidence is worth stating plainly, because it is the kind that misleads.",
-"bytes": 12569
+"bytes": 17050
 },
 {
 "file": "1815-processetti-falco-bundle.md",

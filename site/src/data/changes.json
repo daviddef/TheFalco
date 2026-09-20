@@ -1,5 +1,12 @@
 [
 {
+"sha": "53ff183",
+"date": "2026-09-21",
+"title": "tools/staleness_report.py: sixteen hits across twenty-three open rows, and every one of them is the row that was actually stale",
+"summary": "Row 83&#x27;s deliverable. It pulls every &quot;still to try / what remains / never opened / next&quot; sentence out of the open work-list rows, takes the years and the series out of each, and prints it beside any coverage row covering the same years in the same series. Nothing false anywhere outside row 79.",
+"kind": "sweep"
+},
+{
 "sha": "5cfdcf0",
 "date": "2026-09-21",
 "title": "A work-list row told this archive to read six volumes the coverage page already recorded as read",
