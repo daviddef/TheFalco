@@ -1,5 +1,12 @@
 [
 {
+"sha": "3bc97bf",
+"date": "2026-09-20",
+"title": "Row 74 done: the backlog was forty-four and forty-three of them were finished",
+"summary": "The account was measuring the wrong thing. «Research files not finished» was pointed at `not complete`, and `complete` answers a different question -- was this REGISTER read end to end. A finding file has no reason to contain the word COMPLETE, so all fifty-three of them were being counted as outstanding work: the death of Matteo Falco, the parish marriage indexes, every FindMyPast harvest, the Zampiello of Arpaia, f",
+"kind": "sweep"
+},
+{
 "sha": "daab3fd",
 "date": "2026-09-20",
 "title": "The indexes closed four years, explained an old error, and turned up a child",
