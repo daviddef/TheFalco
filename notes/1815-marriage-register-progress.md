@@ -134,7 +134,7 @@ d'Ambrogio in 1850, pointing the other way.
 # ACT 8 READ AT FULL RESOLUTION — 21 September 2026
 
 > **Numero d'ordine OTTO.** L'anno milleottocento **quindici**, a' dì **diciannove** del mese di
-> **Maggio**, alle ore **tredici**, nella casa Comunale avanti di Noi **Daniele Loria Sindaco** …
+> **MARZO**, alle ore **tredici**, nella casa Comunale avanti di Noi **Daniele Loria Sindaco** …
 > è comparso **LUIGI FALCO** di anni **diciotto compiti**, di professione **SAPUNARO**, domiciliato
 > nel comune de' **SEI CASALI**, **strada Croce di San Felice**, **minore**, assistito da
 > **SEBASTIANO FALCO** suo padre della stessa professione e domicilio, e da **COLOMBA MONTEFUSCO**
@@ -174,3 +174,59 @@ straight into a round o with nothing between.
 **So COSSI is a documented Arienzo surname**, borne by two households in the 1815 marriages alone,
 and the long correction of *Cossi* to *Cioffi* on **strada Camellara** was about **one household**
 and never about the name.
+
+---
+
+# ACTS 1–15 READ AT FULL RESOLUTION — 21 September 2026. THE VOLUME IS COMPLETE
+
+**Images 1–16 hold acts 1 to 15, and IMAGE 14 IS A DUPLICATE PHOTOGRAPH of image 13** — the same
+act 13, folio 43, Domenico di Leva × Angela Rosa Segreto, filmed twice. That is the extra leaf that
+made image *N* right hold act *N* up to image 13 and act *N−1* from image 15 on. With images 24 and
+25 duplicating 22 and 23 in the second half, **this volume contains three duplicate photographs.**
+
+**THE VOLUME IS IN STRICT DATE ORDER FROM 4 FEBRUARY TO 2 DECEMBER**, and that is what corrected the
+Falco act's month: a 19 May at act 8 would sit between 16 March (act 7) and 6 April (act 10). It is
+**19 MARCH**.
+
+| act | date | groom | bride | notes |
+|---|---|---|---|---|
+| 1 | 4 Feb | GIACINTO MAONE, 34, *contadino*, strada Porta di Sopra | ALESSANDRA LESITELLA, 27 | **widower of MARGARITA DI GUIDA**, d. 15 Oct 1814; his mother Olimpia Migliore, 60 |
+| 2 | 4 Feb | LUIGI LESITELLA, 29, *bracciale*, **strada Capodiconca** | ANTONIA SOLLI, 23 | groom an orphan «*privo anche degli avoli ed avole paterni e materni*» |
+| 3 | 27 Feb | AGOSTINO CIMMINO, 22, *viaticale*, strada Capodiconca | TERESA DIGLIO, 40, **widow** | his father d. 21 Nov 1803; her parents d. 1802 and 1793 |
+| 4 | 9 Mar | LORENZO SFORZA, 33, *bracciale* | GIUSEPPA MARTONE, 36 | his father Gioacchino, **72** |
+| 5 | 9 Mar | NICOLA DI RUSSO, 27, **Santa Maria a Vico** | FRANCESCA BRUNO, 31, *tessitrice* | |
+| 6 | 10 Mar | EMANUELE RAPA, 30 | SILVIA QUATOLO, 28, strada Rosciano | her mother **DOROTEA CARFORA**, 49 |
+| 7 | 16 Mar | PASQUALE SILVESTRO, 21, *calzolajo* | ANGELA COPPOLA, 27, **native of PIEDIMONTE D'ALIFE** | her mother of the Sei Casali, strada Piediarienzo |
+| **8** | **19 Mar** | **LUIGI FALCO, 18, *SAPUNARO*, Sei Casali** | **STELLA (GIULIA) PETRILLO, 18** | her mother **BRIGIDA COSSI**, 56 |
+| 9 | 21 Mar | TOMASO D'ANGELO, 19, Sei Casali, strada Cajaniello | CARMINA FERRARA, 18 | |
+| 10 | 6 Apr | ANTONIO DATO, 22, *pastore*, **native of MONTEFALCIONE** | DOMENICA MELILLO, 24, **strada Camellara** | in Arienzo «*da circa un anno*» |
+| 11 | 4 May | AGOSTINO VERDICCHIO, 18, *calzolajo*, **strada Camellara** | MARIA SPOSITO, 18 | her mother **CHIARA COSSI**, 40 |
+| 12 | 4 May | AGOSTINO DIGLIO, 23, *bracciale*, strada Capodiconca | FRANCESCA CIMMINO, 21 | his mother **FAUSTINA COSSI**, 60 |
+| 13 | 16 May | DOMENICO DI LEVA, 25, **Maddaloni**, strada Storta | ANGELA ROSA SEGRETO, 22 | her father a *servitore* |
+| 14 | 14 Jun | PIETRO SGAMBATO, 27, Sei Casali, strada Santo Cristofaro | MARIA DIGLIO, 25, strada Capodiconca | her father Pasquale, **75** |
+| 15 | 22 Jun | **Signor MICHELE MONACO, 32, *MEDICO*, Maddaloni** | **Signora ANGELA ROSA MARTONE** | his parents *proprietari*; her father a *possidente* of Terra Murata |
+
+## What the first half adds
+
+**COSSI, three more times, and it settles the surname.** **BRIGIDA** (act 8), **CHIARA** (act 11)
+and **FAUSTINA** (act 12), beside **ELISABETTA** and **MARINO** in act 21. **Five instances in one
+volume in one hand**, every one written *C + round o + double long ſ + i*, with **no i between the C
+and the o**. Cossi is a real and common Arienzo surname and the long correction of *Cossi* to
+*Cioffi* on strada Camellara was about one household.
+
+**DOROTEA CARFORA**, forty-nine, a *bracciale*'s wife of strada Rosciano — born about 1766, and a
+third social register of Carfora beside the gentry surgeon of act 20 and the *contadini* of strada
+Camellara in 1831. **None of the three is joined to any other.**
+
+**A DI GUIDA WITH A DATED DEATH.** Act 1's groom is «*vedovo di **MARGARITA DI GUIDA**, morta in
+questa stessa comune il giorno **quindici** del mese di **Ottobre** dell'anno **milleottocento­
+quattordici***». Recorded as a lead. Nothing joins her to **Antonia di Guida**, and the coincidence
+that she died on the day generation three married is exactly that.
+
+**Two strada Camellara households**: **Domenica Melillo**, daughter of the late Mattia Melillo and
+Alessandra Mauriello (act 10), and the **Verdicchio** shoemakers, father and son, of act 11.
+
+*One caution recorded rather than resolved.* At contact-sheet resolution the 1815 marriage **index**
+appeared to number Michele Monaco **13** where the register numbers him **15**. The index was not
+read at magnification and a contact sheet is not a reading, so **nothing is claimed** — it is flagged
+for whoever reads that index properly.

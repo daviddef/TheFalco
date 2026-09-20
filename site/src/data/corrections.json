@@ -2,6 +2,18 @@
  {
   "when": "2026-09-21",
   "sev": "minor",
+  "where": "/households",
+  "plate": "",
+  "by": "row 82, and the register's own order",
+  "what": "The Falco of San Felice married in MARCH 1815, not May — and the correction published this morning carried the wrong month too",
+  "was": "**LUIGI FALCO**, the soap-maker's son of San Felice a Cancello, was carried as marrying on «**19 [May] 1815**» — the month in brackets, this archive's mark for a reading it does not trust. **Hours earlier today the bracket was removed and «19 May 1815» published as fact**, in the entry that read his bride's name off the act for the first time.",
+  "now": "**19 MARCH 1815.** The act reads «*a' dì **DICIANNOVE** del mese di **MARZO**, alle ore tredici*» — five letters ending in o, not the double-g descender pair of *Maggio*.",
+  "how": "**The register's own order proves it without the word.** Reading all fifteen acts of the first half in one pass gives an unbroken sequence: act 7 is **16 March**, act 8 is this one, act 9 is **21 March**, act 10 is **6 April**, and the volume runs in strict date order from 4 February to 2 December. **A 19 May here would sit between 16 March and 6 April**, which is impossible.\n\nThe same order was what proved the 1814 marriage act's month this morning, in a different volume. It is becoming this archive's cheapest test.",
+  "why": "**This is the second time today that removing a hedge published an error.** The bracket around «[May]» was there because nobody had read the month; reading the *bride* at last felt like reading the act, and the month went out unbracketed with everything else. **A correction is only as good as the words it actually looked at**, and the ones it did not look at inherit its new authority.\n\nIt also makes the sequence of that spring legible. **Seven marriages in thirty-four days** — 16, 19 and 21 March, then nothing until 6 April — and Luigi Falco, eighteen and a minor, brought his parents down from the Sei Casali to consent in person in the middle of it."
+ },
+ {
+  "when": "2026-09-21",
+  "sev": "minor",
   "where": "/searched",
   "plate": "",
   "by": "row 79, reading its own instructions against the coverage page",
