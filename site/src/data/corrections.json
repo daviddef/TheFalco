@@ -3042,5 +3042,16 @@
   "now": "**He is in none of them.** The *tavole alfabetiche* for **1826, 1827, 1828 and 1829** were read — `an_ua14288` to `an_ua14291` — and in every one of them **the C leaf was opened**. **There is no Giuseppe Cioffi, Crisci or Cossi described as SACERDOTE in any of the four years.** The only religious in the stretch are **Crisci Suor Maria Teresa**, a *monaca*, in 1827, and the trades otherwise run contadino, calzolajo, sartore, sensale, vetrajo, amanuense, proprietario, gentiluomo.",
   "how": "Four index volumes, nine leaves rendered at full page width, the C block read in each.",
   "why": "**A bounded negative is worth as much as a find and this archive publishes them.** Four years are now closed and the next reader does not repeat them.\n\n**What it leaves.** Either the year is wrong by more than two, or **the reading never came from a death act at all** — and the evidence for that is now stronger, because the same four indexes showed that the archive's «Gaspare Cossi» of 1826 was assembled from an index and a machine transcript. **His parents are not in doubt**: his sister CELIA CIOFFI's act of 3 June 1843 names the same father, the same trade and the same mother. **The man stands on his sister's document; it is his own that has gone missing.**"
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "minor",
+  "where": "/worklist",
+  "by": "this archive",
+  "what": "The backlog of «unfinished research files» was forty-four, and forty-three of them were finished",
+  "was": "The work list declared **`unreconciled: 39`** and the coverage gate reported **forty-four outstanding research files with no row against them** — the death of Matteo Falco, the parish marriage indexes, every FindMyPast harvest, the Zampiello of Arpaia, and forty more.",
+  "now": "**Twenty-three**, all of them genuine, **and every one now covered by a row.** **`unreconciled` is 0.**",
+  "how": "Work-list row 74. The account was pointed at **`not complete`**, and `complete` answers a different question — **was this REGISTER read end to end.** A finding file has no reason to contain the word COMPLETE, so all fifty-three of them were counted as unfinished work.\n\n`build_researchlog.py` now writes **`outstanding`** separately: **a file is outstanding when it is a per-volume SWEEP that has not finished.** This archive names those `*-progress.md` — thirty-four of eighty-seven — which is a convention, not a guess.",
+  "why": "**A number that is too big is not a safe error.** It hid the one item that mattered inside forty-three that did not — **the Arienzo civil marriage register for 1815, images 17 to 30, never opened.** About twelve marriages, half a year, in the densest kind of volume this archive reads: both spouses, both sets of parents, ages, trades and streets on one leaf. **The read half of that volume already produced the soap-makers of San Felice a Cancello.** It is now row 81.\n\n**The gate was right and the declaration was wrong.** The coverage gate said something was uncounted; it was the archive's own `accounts` block that told it what to count. **A gate can only be as honest as the thing it is pointed at.**"
  }
 ]
