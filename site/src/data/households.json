@@ -1569,17 +1569,17 @@
     "event": "marriage",
     "date": "Dec 1828",
     "place": "Arienzo",
-    "evidence": "«VIGLIOTTI ANTONIA … VIGLIOTTI FRANCESCO, e REPETELLI VITTORIA» — HER PARENTS, named for the first time. The archive has called her Mariantonia Vigliotta from her children's death acts; the marriage index writes her ANTONIA VIGLIOTTI, and both spellings are kept",
-    "ark": "ANTENATI an_ua14127 (Arienzo, Matrimonj indice 1828) img 2 atto 10 — READ FROM THE IMAGE"
+    "evidence": "«VIGLIOTTI ANTONIA … VIGLIOTTI FRANCESCO, e REPETELLI VITTORIA» — HER PARENTS, named for the first time. The archive has called her Mariantonia Vigliotta from her children's death acts; the marriage index writes her ANTONIA VIGLIOTTI, and both spellings are kept\n\n**HER PARENTS, READ FROM THE IMAGE 20 September 2026**: «***VIGLIOTTI ANTONIA** | ivi | **VIGLIOTTI FRANCESCO, e REPETELLI VITTORIA***». **FRANCESCO VIGLIOTTI and VITTORIA REPETELLI**, neither of whom this archive held. The index writes her **ANTONIA VIGLIOTTI**; the death acts write her **MARIANTONIA VIGLIOTTA**. **She is not the Antonia Vigliotti who married MICHELE FALCO** — see the note on her husband.",
+    "ark": "ANTENATI an_ua14127 (Arienzo, Matrimonj indice 1828) img2 atto10 — READ FROM THE IMAGE"
    },
    {
     "household": "Michelangelo Falco & Mariantonia Vigliotta",
     "person": "Matteo Falco",
     "role": "child",
-    "event": "death",
+    "event": "WITHDRAWN from this household",
     "date": "24 Aug 1842",
     "place": "Arienzo",
-    "evidence": "A THIRD CHILD, and the first of this house who is not called Anna. «55. FALCO MATTEO | Arienzo | contadino | FALCO MICHELE, e VIGLIOTTA ANTONIA | 24 detto [AGOSTO] 1842». THE FORENAMES ARE SHORTENED, which this register does constantly: the household head is MICHELANGELO FALCO, son of Pasquale Falco and Chiara Rivetti, and his wife is MARIANTONIA VIGLIOTTA — her surname is the distinctive half and it matches. THE ARCHIVE DOES NOT CLAIM THIS ABSOLUTELY: a separate «Michele Falco» married to an Antonia is not impossible at Arienzo, and only the act itself would settle it. His two sisters, both called ANNA, died in 1831 and 1834. FROM THE INDEX, NOT THE ACT",
+    "evidence": "**THIS CHILD IS NOT RECORDED AS THIS COUPLE'S, AND THE ROW IS LEFT STANDING RATHER THAN DELETED.** Arienzo Morti 1842 act 55 reads «*figlio di **MICHELE FALCO** … e di **ANTONIA VIGLIOTTA***», and **MICHELE FALCO is a son of RAFFAELE**, not the MICHELANGELO of this household, who is a son of **PASQUALE** — settled on 20 September 2026 from the 1828 marriage index and the 1850 marriage act, both magnified.\n\n**He is published under MICHELE FALCO & ANTONIA VIGLIOTTA.** He had stood in both households at once, which is how a child gets counted twice.",
     "ark": "ANTENATI an_ua14303 (Arienzo, Morti indice 1842) atto 55 — READ FROM THE IMAGE"
    },
    {
@@ -3320,7 +3320,7 @@
     "date": "16 Mar 1834",
     "place": "Arienzo, strada Camellara",
     "ark": "ANTENATI an_ua14336 img11l act16",
-    "evidence": "«*figlia di **MICHELANGELO FALCO**, di professione **contadino**, domiciliato ivi*» — named without «Defunto», so living in March 1834. **Whether he is the Michelangelo Falco who married MARIANTONIA VIGLIOTTA in December 1828 is an open question**, and this archive does not answer it by merging: see the note on Anna Falco."
+    "evidence": "«*figlia di **MICHELANGELO FALCO**, di professione **contadino**, domiciliato ivi*» — named without «Defunto», so living in March 1834. **Whether he is the Michelangelo Falco who married MARIANTONIA VIGLIOTTA in December 1828 is an open question**, and this archive does not answer it by merging: see the note on Anna Falco.\n\n**AND IT IS NOW CLEAR WHICH MICHELANGELO AND WHY THERE ARE TWO WIVES.** He married **ANTONIA VIGLIOTTI** in **December 1828** and buried their daughter Anna, thirteen months old, on **4 May 1831**. By **16 March 1834** he is the father of a second Anna **by RAFFAELA FALCO**. **So Antonia Vigliotti died between May 1831 and March 1834 and he married again** — and this household is his second marriage. **The Antonia Vigliotta who lived until before 1850 is a different woman, married to a different man.**"
    },
    {
     "household": "Michelangelo Falco & Raffaela Falco",
@@ -4504,7 +4504,7 @@
     "event": "marriage",
     "date": "12 Feb 1850",
     "place": "Arienzo, strada Camellara",
-    "evidence": "THE ACT THAT JOINS TWO HOUSEHOLDS THIS ARCHIVE KEPT APART. «*sono comparsi nella Casa Comunale **MICHELE FALCO maggiore, di anni QUARANTATRE, nato in ARIENZO, di professione COLONO, domiciliato in STRADA CAMELLARA, figlio di **RAFFAELE FALCO DEFUNTO**, di professione simile, domiciliato ivi, e di **CHIARA RIVETTI DEFUNTA**, di professione filatrice … **VEDOVO DI ANTONIA VIGLIOTI** … e **GIOVANNA D'AMBROGIO maggiore, di anni DICIANNOVE**, di professione contadina*». **«Michele Falco & Antonia Vigliotta» and «Michele Falco & Maria Giovanna d'Ambrogio» are ONE MAN AND TWO MARRIAGES.** The d'Ambrogio household was known only by a daughter **Antonia born 19 November 1850** — nine months after this wedding.\n\n**Verified against the image, work-list row 58 — act 6, and every word holds.** «*L'anno mille ottocento **cinquanta**, il dì **dodici** del mese di **Febrajo**, alle ore **sedici**, avanti di Noi **ARCANGELO DE FUSCO Sindaco***». **The bride's parents had never been recorded here**: **DOMENICO D'AMBROGIO defunto**, contadino, and **CARMINA MANNA**, **filatrice**, and she is of **strada Sant'Andrea**. The church celebration followed the same day at **Sant'Andrea Apostolo**, before **ALFONSO VERDICCHIO** and a **CLEMENTE MOR[GILLO]**.",
+    "evidence": "THE ACT THAT JOINS TWO HOUSEHOLDS THIS ARCHIVE KEPT APART. «*sono comparsi nella Casa Comunale **MICHELE FALCO maggiore, di anni QUARANTATRE, nato in ARIENZO, di professione COLONO, domiciliato in STRADA CAMELLARA, figlio di **RAFFAELE FALCO DEFUNTO**, di professione simile, domiciliato ivi, e di **CHIARA RIVETTI DEFUNTA**, di professione filatrice … **VEDOVO DI ANTONIA VIGLIOTI** … e **GIOVANNA D'AMBROGIO maggiore, di anni DICIANNOVE**, di professione contadina*». **«Michele Falco & Antonia Vigliotta» and «Michele Falco & Maria Giovanna d'Ambrogio» are ONE MAN AND TWO MARRIAGES.** The d'Ambrogio household was known only by a daughter **Antonia born 19 November 1850** — nine months after this wedding.\n\n**Verified against the image, work-list row 58 — act 6, and every word holds.** «*L'anno mille ottocento **cinquanta**, il dì **dodici** del mese di **Febrajo**, alle ore **sedici**, avanti di Noi **ARCANGELO DE FUSCO Sindaco***». **The bride's parents had never been recorded here**: **DOMENICO D'AMBROGIO defunto**, contadino, and **CARMINA MANNA**, **filatrice**, and she is of **strada Sant'Andrea**. The church celebration followed the same day at **Sant'Andrea Apostolo**, before **ALFONSO VERDICCHIO** and a **CLEMENTE MOR[GILLO]**.\n\n**THE QUESTION IS ANSWERED, 20 September 2026, AND THEY ARE TWO MEN.** The 1828 marriage index was read from the image at last: «*10. **FALCO MICHELANGELO** | Arienzo | **FALCO PASQUALE, e RIVETTI CHIARA*** … ***VIGLIOTTI ANTONIA** | ivi | **VIGLIOTTI FRANCESCO, e REPETELLI VITTORIA*** … **Xbre 1828**». And the 1850 act's father was magnified for the first time: «*figlio di **RAFFAELE FALCO Defunto***», a capital **R**.\n\n**MICHELANGELO FALCO is a son of PASQUALE. MICHELE FALCO is a son of RAFFAELE.** Two fathers, two men — **and both of them married a woman called ANTONIA VIGLIOTTI.** That coincidence is now documented from two marriage records rather than guessed at, and it is what had the two households tangled together.",
     "ark": "ANTENATI an_ua14254 img11r act6"
    },
    {

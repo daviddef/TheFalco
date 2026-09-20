@@ -112,6 +112,7 @@ const unlinked = register.length - linked;
     sourceHref: r.link || "",
     sourceLabel: (KIND[r.kind] || r.kind) + (r.link ? "" : " · " + (WHYNOLINK[r.kind] || "no public link")),
   })))} />
+  </div>
 
 <style is:global>
   /* is:global, deliberately. A scoped <style> makes Astro stamp
