@@ -433,3 +433,25 @@ on the body band.
 
 **Read each volume's COMUNE first.** A Falco found in a San Felice or San Casale volume is not
 this family's, and this archive has a standing refusal to claim the San Felice Falco as kin.
+
+## Row 58 re-read of the 1825 act, 20 September 2026
+
+The act verifies in everything it was quoted for — and it names **two men who were never recorded**.
+
+> «*sono comparsi **DOMENICO CRISCI GERMANO DEL DEFUNTO**, d'anni **quarantanove**, di professione
+> **colono**, regnicolo, domiciliato nel Comune di **Arienzo**, Distretto di Nola, luogo detto
+> **Fabrica**, e **GABRIELE CRISCI GERMANO** [del Defunto] … domiciliato in detto Comune, luogo
+> indicato*»
+
+**«Germano» is full brother.** So **ALESSANDRO CRISCI × CARMINA SORRINO had at least three sons** —
+Crescenzo (b. c. 1772), **Domenico (b. c. 1776)** and **Gabriele**. The act was read for the family it
+buried and not for the family it named.
+
+**Gabriele's age is NOT recorded here.** His line runs into the binding at the right edge of the leaf,
+which on this filming is in shadow, and his age and trade are inside it. A first pass over the page
+produced «d'anni trentuno» for him; **that was the reader's eye filling a gap and it is not in the
+image.** The gutter shadow is where this register will make things up for you.
+
+**The youngest child is MARIA CRISCI, not «Maria Rosa».** The clerk closes the list of children by
+giving the last one the family surname — «*Carmina d'anni dieci, e **Maria Crisci** d'anni cinque*» —
+and the surname had been read as a second forename.
