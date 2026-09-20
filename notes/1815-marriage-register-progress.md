@@ -128,3 +128,49 @@ while making her father **forty**. A man of forty has no daughter of twenty-nine
 **diciannove**, but the word was not magnified and **the act is recorded here as it stands, with the
 arithmetic flagged** — the same pairing of «minore» against a stated age that corrected Giovanna
 d'Ambrogio in 1850, pointing the other way.
+
+---
+
+# ACT 8 READ AT FULL RESOLUTION — 21 September 2026
+
+> **Numero d'ordine OTTO.** L'anno milleottocento **quindici**, a' dì **diciannove** del mese di
+> **Maggio**, alle ore **tredici**, nella casa Comunale avanti di Noi **Daniele Loria Sindaco** …
+> è comparso **LUIGI FALCO** di anni **diciotto compiti**, di professione **SAPUNARO**, domiciliato
+> nel comune de' **SEI CASALI**, **strada Croce di San Felice**, **minore**, assistito da
+> **SEBASTIANO FALCO** suo padre della stessa professione e domicilio, e da **COLOMBA MONTEFUSCO**
+> sua madre di anni **cinquantacinque**, di professione **filatrice**, domiciliati in casa di suo
+> marito, presenti all'atto e dando il loro consenso. È comparsa egualmente **STELLA PETRILLO** di
+> anni **diciotto**, domiciliata in questa suddetta comune, **strada del Borgo**, di professione
+> **filatrice**, **minore**, assistita da **BRIGIDA COSSI** sua madre di anni **cinquantasei**, di
+> professione **contadina**, domiciliata colla figlia, essendo morto il padre **SABBATINO
+> PETRILLO**, come dall'atto di morte a noi esibito…
+
+**Three readings corrected, and one of them was mine, caught before it was published.**
+
+1. **The surname is PETRILLO.** At the width used for the survey this act reads **«Vecchiello»**,
+   and that is what this pass was going to publish. At **twelve times** it is *P‑e‑t‑r‑i‑l‑l‑o*:
+   eight letters, one dotted i, and **no second e before the double l**. The 1815 marriage index,
+   read on the same day, gives Petrillo too. *A word that changes when you magnify it was never
+   read.*
+2. **Her forename is disputed.** The **act** says **STELLA** — an initial that does not descend
+   below the line, then *t‑e‑l‑l‑a*. The **index** says **GIULIA** — a G with a full descending
+   loop, then *i‑u‑l‑i‑a*. This archive had published **«Giustina»**, which is neither. Her parents
+   are identical in both, so she is one woman; both forenames are recorded and neither preferred.
+3. **Her mother is BRIGIDA COSSI**, fifty-six, not the «[An]gela [?]» the note above carried.
+
+## The COSSI test, corrected
+
+This archive's three-way surname test says *Cioffi* has **a tall double-f ligature with a long
+descender** and *Cossi* **a short double-s with no ascender**. It was derived from the 1825
+register. **It does not hold in this hand.** Read at twelve times, the doubled letters of COSSI here
+descend exactly as a double f would — and so do those of **MASSONE** and **SANSONE**, which are
+certainly a long ſ.
+
+**What separates them in any hand is the letter count.** *C‑i‑o‑f‑f‑i* is six letters and carries an
+**i between the C and the o**; *C‑o‑s‑s‑i* is five and does not. Three instances in this one volume —
+**BRIGIDA COSSI** here, **ELISABETTA** and **MARINO COSSI** in act 21 — all show the C running
+straight into a round o with nothing between.
+
+**So COSSI is a documented Arienzo surname**, borne by two households in the 1815 marriages alone,
+and the long correction of *Cossi* to *Cioffi* on **strada Camellara** was about **one household**
+and never about the name.
