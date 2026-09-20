@@ -9501,7 +9501,7 @@
 "event": "named",
 "date": "—",
 "place": "Arienzo",
-"evidence": "«figlio di Giuseppe di Guida» — no «fu», so alive in October 1817",
+"evidence": "«*figlio di **GIUSEPPE DI GUIDA***» — no «fu».\n\n**WEAK INFERENCE ONLY, AND THIS PAGE ASSERTED IT UNTIL 20 SEPTEMBER 2026.** It read «*no «fu», **so alive in October 1817**»** — a flat statement of fact. **On 14 September 2026 this archive DISPROVED the «quondam» signal for the parish Latin register**: Matteo Falco is «*filium Matthaei*», with no «q.», **seventeen days after his own burial**. Civil acts are a different tradition and this one is probably sound, **but it no longer carries the weight the sentence gave it.**\n\n**The downgrade was written into `data/households.tsv` on 14 September and never into the file the site is built from**, so the site went on asserting for six days what the archive had already stopped believing. Found by reconciling the two files — work-list row 75.",
 "ark": "ANTENATI an_ua14319 img59r"
 }
 ],
@@ -10378,7 +10378,7 @@
 "event": "marriage",
 "date": "19 Sep 1861",
 "place": "Arienzo",
-"evidence": "Stanislao Falco's bride: **twenty-three**, born Arienzo, so b. c.1838. **Her parents are LUIGI DI LUCIA, *muratore*, and MARTA DI NIZZO** — the father's forename is illegible on the marriage act itself and comes from the **NOTIFICAZIONI register bound into the same volume**, which gives the same couple in a clerk's cleaner hand: «*matrimonio tra **STANISLAO FALCO** figlio di **VINCENZO** e di **ANDREANA CRISCI**, e **FILOMENA DI LUCIA** figlia di **LUIGI** e di **MARTA DI NIZZO***». Her father was already dead at the wedding.",
+"evidence": "Stanislao Falco's bride: **twenty-three**, born Arienzo, so b. c.1838. **Her parents are LUIGI DI LUCIA, *muratore*, and MARTA DI NIZZO** — the father's forename is illegible on the marriage act itself and comes from the **NOTIFICAZIONI register bound into the same volume**, which gives the same couple in a clerk's cleaner hand: «*matrimonio tra **STANISLAO FALCO** figlio di **VINCENZO** e di **ANDREANA CRISCI**, e **FILOMENA DI LUCIA** figlia di **LUIGI** e di **MARTA DI NIZZO***». Her father was already dead at the wedding. Her father is a ***muratore*** — a mason, **a lettered-adjacent trade in this corpus**, where nearly every man is a contadino, colono or bracciale.",
 "ark": "ANTENATI an_ua14265 img18r act16 + img39r (notificazioni)"
 }
 ],
@@ -12993,7 +12993,7 @@
 "event": "death",
 "date": "4 May 1831",
 "place": "Arienzo, strada Camellara",
-"evidence": "«*è morta nella sua propria casa **ANNA FALCO, di mesi TREDICI**, nata in Arienzo, di professione contadina, domiciliata ivi, **figlia di MICHELANGELO FALCO**, di professione contadino, domiciliato ivi, **e di MARIANTONIA VIGLIOTTA**, domiciliata ivi*» — died **4 May 1831** at thirteen hours, thirteen months old, so born about **April 1830**. **Verified from the image, work-list row 58.**\n\n**THE CITATION POINTED AT IMAGE 19 RIGHT, WHICH IS A DIFFERENT CHILD** — Carmina Maccaniello, ten months, daughter of Pasquale Maccaniello and Raffaela Zimbardo, dead on 28 April. **The act is on IMAGE 20 RIGHT**, found by sweeping the volume's date lines.\n\n**AND IT SHARPENS THE QUESTION RAISED ELSEWHERE TODAY.** This archive now holds **two Anna Falco, three years apart, each «figlia di MICHELANGELO FALCO», with two different mothers**: this one **MARIANTONIA VIGLIOTTA**, and the Anna of 16 March 1834 **RAFFAELA FALCO**. **A remarriage between them is excluded** if this Mariantonia Vigliotta is the woman who was still bearing children to a Michele Falco in 1834, 1836 and 1842 and whom he survived in 1850. **So either there are two Michelangelo Falco at Arienzo, or one of the two mothers is misread.** Both mothers have now been read from the image at full resolution. **Neither reading is in doubt; the identification is.**",
+"evidence": "«*è morta nella sua propria casa **ANNA FALCO, di mesi TREDICI**, nata in Arienzo, di professione contadina, domiciliata ivi, **figlia di MICHELANGELO FALCO**, di professione contadino, domiciliato ivi, **e di MARIANTONIA VIGLIOTTA**, domiciliata ivi*» — died **4 May 1831** at thirteen hours, thirteen months old, so born about **April 1830**. **Verified from the image, work-list row 58.**\n\n**THE CITATION POINTED AT IMAGE 19 RIGHT, WHICH IS A DIFFERENT CHILD** — Carmina Maccaniello, ten months, daughter of Pasquale Maccaniello and Raffaela Zimbardo, dead on 28 April. **The act is on IMAGE 20 RIGHT**, found by sweeping the volume's date lines.\n\n**AND IT SHARPENS THE QUESTION RAISED ELSEWHERE TODAY.** This archive now holds **two Anna Falco, three years apart, each «figlia di MICHELANGELO FALCO», with two different mothers**: this one **MARIANTONIA VIGLIOTTA**, and the Anna of 16 March 1834 **RAFFAELA FALCO**. **A remarriage between them is excluded** if this Mariantonia Vigliotta is the woman who was still bearing children to a Michele Falco in 1834, 1836 and 1842 and whom he survived in 1850. **So either there are two Michelangelo Falco at Arienzo, or one of the two mothers is misread.** Both mothers have now been read from the image at full resolution. **Neither reading is in doubt; the identification is.**\n\n**And the declarant is the reason this household is kin at all**: «*e **VINCENZO FALCO**, di anni **trentotto**, di professione contadino, regnicolo, domiciliato ivi strada Camellara, **PARENTE DELLA DEFUNTA***», where **ANDREA CRISCI, fifty-eight**, beside him is only «**VICINO DELLA DEFUNTA**». **The clerk drew the distinction himself, in one sentence.** Read from the image on 20 September 2026.",
 "ark": "ANTENATI an_ua14333 img20r"
 },
 {
@@ -17959,7 +17959,7 @@
 "event": "marriage",
 "date": "6 Aug 1856",
 "place": "not established — «S[?] …a Vico»",
-"evidence": "FROM THE MARGIN OF HIS OWN BIRTH ACT, not from any marriage register: «*Con atto **6 agosto 1856** at[to] **21** in **S[?] …a Vico** il Falco sposò **DOMENICA VIGLIOTTI** [di] **Gaspare**(?)*». **THE COMUNE IS NOT ESTABLISHED.** At five times magnification the place reads «*S[?]basia a Vico*» and resolves no further. **SANTA MARIA A VICO IS THE OBVIOUS CANDIDATE AND IS EXCLUDED BY ITS OWN REGISTER**: `an_ua55736`, *Matrimoni* 1856, **act 21 is Don Domenico de Lucia, 29, of San Felice, promised 14 June 1856** — no Falco, and no act of 6 August (act 31 is 3 August, act 32 is 9 August). **What is certain is the annotation itself**: a Falco of this house married a DOMENICA VIGLIOTTI on 6 August 1856, recorded as act 21 somewhere «…a Vico». The bride's father reads **Gaspare** rather than the Giuseppe first published. Note that the groom's own mother is a **VIGLIOTTA**; whether the two families are one is NOT established.",
+"evidence": "FROM THE MARGIN OF HIS OWN BIRTH ACT, not from any marriage register: «*Con atto **6 agosto 1856** at[to] **21** in **S[?] …a Vico** il Falco sposò **DOMENICA VIGLIOTTI** [di] **Gaspare**(?)*». **THE COMUNE IS NOT ESTABLISHED.** At five times magnification the place reads «*S[?]basia a Vico*» and resolves no further. **SANTA MARIA A VICO IS THE OBVIOUS CANDIDATE AND IS EXCLUDED BY ITS OWN REGISTER**: `an_ua55736`, *Matrimoni* 1856, **act 21 is Don Domenico de Lucia, 29, of San Felice, promised 14 June 1856** — no Falco, and no act of 6 August (act 31 is 3 August, act 32 is 9 August). **What is certain is the annotation itself**: a Falco of this house married a DOMENICA VIGLIOTTI on 6 August 1856, recorded as act 21 somewhere «…a Vico». The bride's father reads **Gaspare** rather than the Giuseppe first published. Note that the groom's own mother is a **VIGLIOTTA**; whether the two families are one is NOT established.\n\n**IT IS THE FIRST TIME THIS ARCHIVE USED A BIRTH-ACT MARGIN AS A SOURCE**, and the rule it produced — that a civil birth act can carry the child's later marriage, in another comune, where no local register shows it — has since found Pasqua Falco's marriage of 1880, Giovanna Arricale's of 1872 and **both** of Domenica Falco's, of 1874 and 1881.",
 "ark": "ANTENATI an_ua14416 img18r act33 (marginal annotation)"
 },
 {
@@ -20934,7 +20934,7 @@
 "event": "death",
 "date": "27 Nov 1841",
 "place": "Arienzo",
-"evidence": "Joannes Falco filius Josephi et Antoniae di Guida, aetatis suae annorum 24 circiter",
+"evidence": "Joannes Falco filius Josephi et Antoniae di Guida, aetatis suae annorum 24 circiter\n\n**[RE-ATTRIBUTED 15 September 2026.]** This row and the image reading beside it are **the same burial**. It is **left standing as the machine transcript it was**, next to the act itself, because the plain name had put this death on the record of **DON GIOVANNI the deacon**, who was born on 6 April 1825 and died in 1849. **Two brothers of one name, and the register does not merge them.** (Recovered from `data/households.tsv` by work-list row 75, where it had been written and nowhere else.)",
 "ark": "3Q9M-CSMY-B7WY-G"
 },
 {
@@ -24688,7 +24688,7 @@
 "event": "death",
 "date": "25 Apr 1826",
 "place": "Arienzo, strada Camellara",
-"evidence": "«è morta nella sua propria casa MARIA FALCO d'anni TRENTADUE, moglie di ALFONSO DIGLIO, nata in Arienzo, di professione Contadina, domiciliata ivi, FIGLIA DI PASQUALE FALCO, di professione Contadino, domiciliato ivi, E DI CHIARA RIVETTI, domiciliata ivi» — atto 22. A SECOND DAUGHTER OF GENERATION TWO, and a sister of Vincenzo Falco and of Anna Falco. Aged thirty-two, so born about 1794 — which sits between, and matches neither of, the two Maria Falco baptisms of 1789 and 1790 in this house. Either an age given loosely, or a third daughter of the name.",
+"evidence": "**THE FOURTH MARIA FALCO, IDENTIFIED** — and the open question this archive had published about her is answered by her own death act. «è morta nella sua propria casa MARIA FALCO d'anni TRENTADUE, moglie di ALFONSO DIGLIO, nata in Arienzo, di professione Contadina, domiciliata ivi, FIGLIA DI PASQUALE FALCO, di professione Contadino, domiciliato ivi, E DI CHIARA RIVETTI, domiciliata ivi» — atto 22. A SECOND DAUGHTER OF GENERATION TWO, and a sister of Vincenzo Falco and of Anna Falco. Aged thirty-two, so born about 1794 — which sits between, and matches neither of, the two Maria Falco baptisms of 1789 and 1790 in this house. Either an age given loosely, or a third daughter of the name.\n\n(The identifying sentence was in `data/households.tsv` and not in the file the site builds from; recovered by work-list row 75.)",
 "ark": "ANTENATI an_ua14328 img13l atto22"
 }
 ],
@@ -25006,7 +25006,7 @@
 "event": "death",
 "date": "25 Apr 1826",
 "place": "Arienzo, strada Camellara",
-"evidence": "«MARIA FALCO d'anni trentadue, MOGLIE DI ALFONSO DIGLIO … figlia di PASQUALE FALCO … e di CHIARA RIVETTI» — a daughter of the direct line's generation two. Declared by **ANGELO SANSONE, forty-six**, and **TOMASO SPOSITO, fifty**, both contadini of strada Camellara, each as «vicino», not «parente». (Sansone was published at forty-five until 20 September 2026; the act reads «*di anni quarantasei*».)",
+"evidence": "«MARIA FALCO d'anni trentadue, MOGLIE DI ALFONSO DIGLIO … figlia di PASQUALE FALCO … e di CHIARA RIVETTI» — a daughter of the direct line's generation two. Declared by **ANGELO SANSONE, forty-six**, and **TOMASO SPOSITO, fifty**, both contadini of strada Camellara, each as «vicino», not «parente». (Sansone was published at forty-five until 20 September 2026; the act reads «*di anni quarantasei*».)\n\n**Her household lasted at most a few years**: she died **eleven months after her daughter Clementina was born**, and **eleven months before Alfonso Diglio married again**. (Recovered from `data/households.tsv` by work-list row 75.)",
 "ark": "ANTENATI an_ua14328 img13l atto22"
 },
 {
@@ -37046,7 +37046,7 @@
 "event": "named",
 "date": "—",
 "place": "Arienzo",
-"evidence": "«figlio di Giuseppe Morgillo» — no «fu», so alive in July 1818",
+"evidence": "«*figlio di **GIUSEPPE MORGILLO***» — no «fu».\n\n**WEAK INFERENCE ONLY, AND THIS PAGE ASSERTED IT UNTIL 20 SEPTEMBER 2026**, where it read «*no «fu», **so alive in July 1818**»**. See the corrections page on «quondam», 14 September 2026: **the absence of the death mark has been shown not to prove anyone alive** in the parish register, and the civil acts are only probably better. **The downgrade reached `data/households.tsv` and not this file** — work-list row 75.",
 "ark": "ANTENATI an_ua14320 img31r"
 }
 ],
@@ -40723,7 +40723,7 @@
 "event": "death",
 "date": "31 Mar 1819",
 "place": "Arienzo",
-"evidence": "«Suor Maria Maddalena Rivetti figlia delli fu Don Giuseppe Rivetti, e Giovanna Bega» — atto of **31 March 1819**, a nun, died at **twenty-two hours** on the thirty-first. **DATE CORRECTED 20 Sep 2026 from 30 March: the act reads «*a' dì TRENTUNO del mese di Marzo*» and repeats «*a' detto dì trentuno … ad ore ventidue*».** Declared by **Giovanni Sergio**, 53, *bettoliere*, and **Salvatore [?]**, 65, *fruttajolo*, «*croci dell'ospedale, vicini*». The third and clearest sign of a Rivetti house of standing at Arienzo, beside Donna Francesca Rivetti of 1816, the apothecary Don Giovanbattista, and the priest Don Giuseppe.",
+"evidence": "«Suor Maria Maddalena Rivetti figlia delli fu Don Giuseppe Rivetti, e Giovanna Bega» — atto of **31 March 1819**, a nun, died at **twenty-two hours** on the thirty-first. **DATE CORRECTED 20 Sep 2026 from 30 March: the act reads «*a' dì TRENTUNO del mese di Marzo*» and repeats «*a' detto dì trentuno … ad ore ventidue*».** Declared by **Giovanni Sergio**, 53, *bettoliere*, and **Salvatore [?]**, 65, *fruttajolo*, «*croci dell'ospedale, vicini*». The third and clearest sign of a Rivetti house of standing at Arienzo, beside Donna Francesca Rivetti of 1816, the apothecary Don Giovanbattista, and the priest Don Giuseppe.\n\n**And she is the third and clearest sign of a RIVETTI HOUSE OF STANDING at Arienzo** — beside **DONNA FRANCESCA RIVETTI** of January 1816, the apothecary **DON GIOVANBATTISTA**, and the priest **DON GIUSEPPE**. (That sentence was in `data/households.tsv` and not in the file the site builds from; recovered by work-list row 75.)",
 "ark": "ANTENATI an_ua14321 img10l"
 }
 ],
@@ -43161,7 +43161,7 @@
 "event": "marriage",
 "date": "6 Aug 1856",
 "place": "not established — «S[?] …a Vico»",
-"evidence": "«*il Falco sposò **DOMENICA VIGLIOTTI** [di] **Gaspare**(?)*» — from the margin of her husband's birth act. **Her father's forename was first published as Giuseppe and re-reads as GASPARE at five times magnification; neither is certain.** **And the comune is not established**: Santa Maria a Vico, the obvious candidate, is excluded by its own 1856 register, whose act 21 is a de Lucia. Nothing else about her is known.",
+"evidence": "«*il Falco sposò **DOMENICA VIGLIOTTI** [di] **Gaspare**(?)*» — from the margin of her husband's birth act. **Her father's forename was first published as Giuseppe and re-reads as GASPARE at five times magnification; neither is certain.** **And the comune is not established**: Santa Maria a Vico, the obvious candidate, is excluded by its own 1856 register, whose act 21 is a de Lucia. Nothing else about her is known.\n\n**AND A REFUSAL THAT BELONGS BESIDE HER.** The groom's own mother is a **VIGLIOTTA**. **Whether Vigliotti and Vigliotta are one family here is NOT established, and nothing in this margin joins them.** (Written into `data/households.tsv` and not into the file the site builds from; recovered by work-list row 75.)",
 "ark": "ANTENATI an_ua14416 img18r act33 (marginal annotation)"
 }
 ],
