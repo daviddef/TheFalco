@@ -1526,6 +1526,16 @@
         "place": "Arienzo, strada Camellara",
         "evidence": "«*è morta nella sua propria casa **PASQUALINA FALCO, di mesi SEI**, nata in Arienzo, di professione contadina, domiciliata ivi, figlia di **FRANCESCO FALCO**, di professione contadino, domiciliato ivi, e di **RAFFAELA FALCO**, domiciliata ivi*» — **image 33 RIGHT**, 14 September 1836. **Six months, so born about March 1836.**\n\n**SHE WAS PUBLISHED HERE AT TEN MONTHS.** The act says «*di mesi **SEI***». **And her mother is named**: **RAFFAELA FALCO**, which makes her a sister of the CARMINA FALCO buried at six months in December 1832 — the same couple, and the second household this archive was holding apart from itself.\n\n**THIS ROW STOOD IN A HOUSEHOLD OF ITS OWN, «Francesco Falco (living 1836, unjoined)», UNTIL 20 SEPTEMBER 2026.** Reading the act gave the mother's name, and the mother's name joined it to a household this archive already had. **The stub was not a family. It was a line nobody had read.**",
         "ark": "ANTENATI an_ua14338 img33r"
+      },
+      {
+        "household": "Francesco Falco & Raffaela Falco",
+        "person": "Maria Carmela Falco",
+        "role": "child",
+        "event": "birth",
+        "date": "15 Jul 1832",
+        "place": "Arienzo, strada Camellara",
+        "evidence": "**A CHILD BORN THE DAY BEFORE HER PARENTS' WEDDING.** «*la stessa è nata da **MARIA RAFFAELA FALCO, di anni DICIOTTO**, domiciliata in **strada CAMELLARA**, e da **FRANCESCANTONIO FALCO marito della stessa, di anni VENTISEI, di professione CONTADINO**, domiciliato con detta sua moglie, nel giorno **QUINDICI** del mese di **LUGLIO**, anno corrente, alle ore **CINQUE E MEZZA**, nella casa propria di detti conjugi … il nome di **MARIA CARMELA***». Witnessed by **FRANCESCO MACCHIA**, thirty-three, of strada Capodiconca, and **PIETRO VERDICCHIO**, sixty. **This archive dates the marriage of Francescantonio Falco and Raffaela Falco to 16 JULY 1832**, from the marriage index — the day AFTER this birth. The act nevertheless calls him «**marito della stessa**», which is consistent: a birth act is drawn a day or two after the birth, by which time they were married. **Neither date is adjusted to suit the other.** The index date is a church date and has not been read against the civil act. Her mother's stated eighteen puts her birth about 1814; her own death act of 1854 makes her thirty-four, which puts it about 1820. The registers guess.",
+        "ark": "ANTENATI an_ua14429 (Arienzo, Nati 1832) img 66r-67l — READ FROM THE IMAGE"
       }
     ]
   },
@@ -1661,6 +1671,16 @@
         "place": "Arienzo",
         "evidence": "A FOURTH CHILD. «55. FALCO CARMELA | Arienzo | contad[ina] | MICHELE, e VIGLIATO ANT[ONI]A | 4 AGOSTO [1859]». THE SAME SHORTENING AS THE 1842 ACT AND THE SAME CAUTION: the head of this house is MICHELANGELO FALCO and his wife MARIANTONIA VIGLIOTTA, and the index gives both forenames clipped. VIGLIOTTA — here written VIGLIATO — is the half that identifies. A separate Michele Falco married to an Antonia is not impossible, and only the act settles it. Her siblings are two ANNA (d. 1831, d. 1834) and MATTEO (d. 1842)",
         "ark": "ANTENATI an_ua14361 (Arienzo, Morti 1859) tavola, img 4l, atto 55 — READ FROM THE IMAGE"
+      },
+      {
+        "household": "Michelangelo Falco & Mariantonia Vigliotta",
+        "person": "Maria Rosa Falco",
+        "role": "child",
+        "event": "birth",
+        "date": "20 Jul 1832",
+        "place": "Arienzo, strada Camellara",
+        "evidence": "**AND THIS ONE BEARS ON THE DISTINCTION THIS ARCHIVE DREW ON 20 SEPTEMBER.** «*la stessa è nata da **MARIANTONIA VIGLIOTTA, di anni VENTOTTO**, domiciliata in **strada CAMELLARA**, e da **MICHELANGELO FALCO marito della stessa, di anni VENTISEI, di professione CONTADINO**, domiciliato con detta sua moglie, nel giorno **VENTI** del mese di **LUGLIO**, anno corrente, alle ore **UNDICI**, nella casa propria di detti conjugi … il nome di **MARIA ROSA***». Witnessed by **VINCENZO DIGLIO**, thirty-two, of strada Santa Lucia, and **PASQUALE DI RUSSO**, twenty-eight. **This archive files a MARIA ROSA FALCO who died on 30 May 1834 under «Michele Falco & Antonia Vigliotta»** — the other man. Born 20 July 1832, she would be one year and ten months old at that death, which fits. **Either the 1834 act belongs to MICHELANGELO's daughter and the household assignment is wrong, or there were two Maria Rosa Falco of two men whose names and whose wives' names both nearly coincide.** The birth act says MICHELANGELO, in full, twice. **Nothing is moved on the strength of it**: the 1834 death act has not been re-read, and that is the test. See /open-questions.",
+        "ark": "ANTENATI an_ua14429 (Arienzo, Nati 1832) img 68r-69l — READ FROM THE IMAGE"
       }
     ]
   },
@@ -4211,6 +4231,16 @@
         "place": "Arienzo",
         "evidence": "«CRISCI ANIELLO … CRISCI CRESCENZO, e QUOTOLO ANGELA» — his parents named. A SECOND FALCO-CRISCI MARRIAGE in eleven years: Anna Falco, daughter of Pasquale, married an Arcangelo of the same surname in 1818, and Giovanna, daughter of Giuseppe, marries Aniello here. The two brides were FIRST COUSINS",
         "ark": "ANTENATI an_ua14128 (Arienzo, Matrimonj indice 1829) img 1 atto 10 — READ FROM THE IMAGE"
+      },
+      {
+        "household": "Aniello Crisci & Giovanna Falco",
+        "person": "Pasqualina Crisci",
+        "role": "child",
+        "event": "birth",
+        "date": "28 Jun 1832",
+        "place": "Arienzo, strada Crisci",
+        "evidence": "**THE SECOND DOCUMENT THIS HOUSEHOLD HAS EVER HAD, AND ITS FIRST CHILD.** «*la stessa è nata da **GIOVANNA FALCO, di anni VENTOTTO**, domiciliata in **strada CRISCI**, e da **ANIELLO CRISCI marito della stessa, di anni VENTISEI, di professione CONTADINO**, domiciliato con detta sua moglie, nel giorno **VENTOTTO** del mese di **GIUGNO**, anno corrente, alle ore **TREDICI**, nella casa propria di detti conjugi … il nome di **PASQUALINA***». Witnessed by **ANGELO MIGLIORE**, forty-three, *sartore* of strada Croce dell'Ospedale, and **CLEMENTE CRISCI**, twenty-eight, *calzolajo*. The couple married on **6 September 1829**; this child comes two years and nine months later. **Giovanna Falco is a daughter of GIUSEPPE FALCO and ANTONIA DI GUIDA**, so Pasqualina is a granddaughter of the founder's son. Her mother's stated age of twenty-eight puts her birth about 1804.",
+        "ark": "ANTENATI an_ua14429 (Arienzo, Nati 1832) img 63r-64l — READ FROM THE IMAGE"
       }
     ]
   },

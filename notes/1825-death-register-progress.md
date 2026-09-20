@@ -94,7 +94,7 @@ as read rather than left out.
 | img | act / date | deceased | parents | spouse | declarants |
 |---|---|---|---|---|---|
 | 3L | 20 Jan | Giovanna Gimbardo, 6 months | Arcangelo Gimbardo & — | — | Ottavio Migliore 46 barbiere; **Francesco Crisci 34 contadino** |
-| 3R | 3 Feb | **ANNA ARRIGALE, 34, contadina** | Angelo Arrigale & — | **m. CARLANTONIO MORGILLO** — the THIRD man of that name, of strada Capodiuomo | Marco Morgillo 65 contadino; Giuseppe Majone 52 contadino |
+| 3R | 3 Feb | **ANNA ARRIGALE, 34, contadina** | Angelo Arrigale & — | **m. CARLANTONIO MORGILLO** — the THIRD man of that name, of strada Capodiconca | Marco Morgillo 65 contadino; Giuseppe Majone 52 contadino |
 | 4L | 5 Feb | Raffaele Marletta, 15 months | Gennaro Marletta & — | — | Francesco Gimbardo 55 vaticale; Felice Gimbardo 70 contadino |
 | 4R | 6 Feb | Giuseppe Saccavino, 78, born **Durazzano** — died in the **MONASTERO DE' CAPPUCCINI** | ignoto | ved. Teresa | **Carlo Rivetti 70 contadino; Pellegrino Rivetti 36 contadino**, strada Cappuccini |
 | 5L | 14 Feb | Pellegrino Sforza, 1 | Giovan Battista Sforza & — | — | Andrea Morgillo 60 contadino; Giuseppe Perrino 34 contadino |
@@ -158,3 +158,7 @@ as read rather than left out.
 | 37R | act 59, 28 Dec | Angela Migliore, 60 | fu Angelo Migliore & — | — | **Domenico Cossi contadino, strada Camellara**; Nicola Cossi contadino, strada Porta di Sopra — **THE LAST ACT OF THE YEAR** |
 | 38 | — | blank form | | | |
 | 39 | — | the officer's closing certificate, and — bound in later — a printed **ministerial circular of 4 July 1849** from the Real Segreteria di Stato di Grazia e Giustizia at Naples about the keeping of these registers | | | |
+
+---
+
+> **STREET CORRECTED 21 September 2026 — «Capodiuomo» throughout this file is CAPODICONCA.** Six acts were rendered at 3,200 pixels and magnified — 1817 act 11, 1819 act 23, 1821 act 15, 1822 act 65, 1823 act 51 and 1824 act 5 — and every one reads *C-a-p-o-d-i-c-o-n-c-a*, several of them twice in one act. The Arienzo birth registers for 1832 and 1836, read out act by act, give **strada Capodiconca** constantly and **Capodiuomo not once**. The misreading is confined to the 1817–1825 death-register sweeps and is this archive's, not the clerks'.

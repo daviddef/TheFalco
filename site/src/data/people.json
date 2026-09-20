@@ -6127,7 +6127,16 @@
 "living": false,
 "parents": [],
 "spouses": [],
-"children": [],
+"children": [
+{
+"slug": "pasqualina-crisci",
+"name": "Pasqualina Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "siblings": []
 },
 {
@@ -8072,6 +8081,39 @@
 ],
 "siblings": [],
 "treeId": 4000233
+},
+{
+"slug": "pasqualina-crisci",
+"name": "Pasqualina Crisci",
+"surname": "CRISCI",
+"household": "Aniello Crisci & Giovanna Falco",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "28 Jun 1832",
+"place": "Arienzo, strada Crisci",
+"evidence": "**THE SECOND DOCUMENT THIS HOUSEHOLD HAS EVER HAD, AND ITS FIRST CHILD.** «*la stessa è nata da **GIOVANNA FALCO, di anni VENTOTTO**, domiciliata in **strada CRISCI**, e da **ANIELLO CRISCI marito della stessa, di anni VENTISEI, di professione CONTADINO**, domiciliato con detta sua moglie, nel giorno **VENTOTTO** del mese di **GIUGNO**, anno corrente, alle ore **TREDICI**, nella casa propria di detti conjugi … il nome di **PASQUALINA***». Witnessed by **ANGELO MIGLIORE**, forty-three, *sartore* of strada Croce dell'Ospedale, and **CLEMENTE CRISCI**, twenty-eight, *calzolajo*. The couple married on **6 September 1829**; this child comes two years and nine months later. **Giovanna Falco is a daughter of GIUSEPPE FALCO and ANTONIA DI GUIDA**, so Pasqualina is a granddaughter of the founder's son. Her mother's stated age of twenty-eight puts her birth about 1804.",
+"ark": "ANTENATI an_ua14429 (Arienzo, Nati 1832) img 63r-64l — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
+"name": "Aniello Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": []
 },
 {
 "slug": "raffaele-crisci",
@@ -13228,6 +13270,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "maria-rosa-falco-of-michelangelo-falco-mariantonia-vig",
+"name": "Maria Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -15024,6 +15074,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "maria-rosa-falco-of-michelangelo-falco-mariantonia-vig",
+"name": "Maria Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -15410,6 +15468,14 @@
 {
 "slug": "pasquale-falco-of-francesco-falco-raffaela-falco",
 "name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carmela-falco",
+"name": "Maria Carmela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -16756,6 +16822,14 @@
 {
 "slug": "pasquale-falco-of-francesco-falco-raffaela-falco",
 "name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carmela-falco",
+"name": "Maria Carmela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -19289,6 +19363,14 @@
 {
 "slug": "pasquale-falco-of-francesco-falco-raffaela-falco",
 "name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carmela-falco",
+"name": "Maria Carmela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -24676,6 +24758,72 @@
 "dp": "Forchia, Italy"
 },
 {
+"slug": "maria-carmela-falco",
+"name": "Maria Carmela Falco",
+"surname": "FALCO",
+"household": "Francesco Falco & Raffaela Falco",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "15 Jul 1832",
+"place": "Arienzo, strada Camellara",
+"evidence": "**A CHILD BORN THE DAY BEFORE HER PARENTS' WEDDING.** «*la stessa è nata da **MARIA RAFFAELA FALCO, di anni DICIOTTO**, domiciliata in **strada CAMELLARA**, e da **FRANCESCANTONIO FALCO marito della stessa, di anni VENTISEI, di professione CONTADINO**, domiciliato con detta sua moglie, nel giorno **QUINDICI** del mese di **LUGLIO**, anno corrente, alle ore **CINQUE E MEZZA**, nella casa propria di detti conjugi … il nome di **MARIA CARMELA***». Witnessed by **FRANCESCO MACCHIA**, thirty-three, of strada Capodiconca, and **PIETRO VERDICCHIO**, sixty. **This archive dates the marriage of Francescantonio Falco and Raffaela Falco to 16 JULY 1832**, from the marriage index — the day AFTER this birth. The act nevertheless calls him «**marito della stessa**», which is consistent: a birth act is drawn a day or two after the birth, by which time they were married. **Neither date is adjusted to suit the other.** The index date is a church date and has not been read against the civil act. Her mother's stated eighteen puts her birth about 1814; her own death act of 1854 makes her thirty-four, which puts it about 1820. The registers guess.",
+"ark": "ANTENATI an_ua14429 (Arienzo, Nati 1832) img 66r-67l — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "francescantonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Francescantonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco",
+"name": "Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmina-falco",
+"name": "Carmina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasqualina-falco",
+"name": "Pasqualina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-francesco-falco-raffaela-falco",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
 "slug": "maria-carmina-falco",
 "name": "Maria Carmina Falco",
 "surname": "FALCO",
@@ -25922,7 +26070,73 @@
 ]
 },
 {
-"slug": "maria-rosa-falco",
+"slug": "maria-rosa-falco-of-michelangelo-falco-mariantonia-vig",
+"name": "Maria Rosa Falco",
+"surname": "FALCO",
+"household": "Michelangelo Falco & Mariantonia Vigliotta",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "20 Jul 1832",
+"place": "Arienzo, strada Camellara",
+"evidence": "**AND THIS ONE BEARS ON THE DISTINCTION THIS ARCHIVE DREW ON 20 SEPTEMBER.** «*la stessa è nata da **MARIANTONIA VIGLIOTTA, di anni VENTOTTO**, domiciliata in **strada CAMELLARA**, e da **MICHELANGELO FALCO marito della stessa, di anni VENTISEI, di professione CONTADINO**, domiciliato con detta sua moglie, nel giorno **VENTI** del mese di **LUGLIO**, anno corrente, alle ore **UNDICI**, nella casa propria di detti conjugi … il nome di **MARIA ROSA***». Witnessed by **VINCENZO DIGLIO**, thirty-two, of strada Santa Lucia, and **PASQUALE DI RUSSO**, twenty-eight. **This archive files a MARIA ROSA FALCO who died on 30 May 1834 under «Michele Falco & Antonia Vigliotta»** — the other man. Born 20 July 1832, she would be one year and ten months old at that death, which fits. **Either the 1834 act belongs to MICHELANGELO's daughter and the household assignment is wrong, or there were two Maria Rosa Falco of two men whose names and whose wives' names both nearly coincide.** The birth act says MICHELANGELO, in full, twice. **Nothing is moved on the strength of it**: the 1834 death act has not been re-read, and that is the test. See /open-questions.",
+"ark": "ANTENATI an_ua14429 (Arienzo, Nati 1832) img 68r-69l — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "michelangelo-falco-of-michelangelo-falco-mariantonia-vig",
+"name": "Michelangelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "mariantonia-vigliotta",
+"name": "Mariantonia Vigliotta",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "anna-falco-of-michelangelo-falco-mariantonia-vig",
+"name": "Anna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-michelangelo-falco-mariantonia-vig",
+"name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco",
+"name": "Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
+"slug": "maria-rosa-falco-of-michele-falco-antonia-vigliotta",
 "name": "Maria Rosa Falco",
 "surname": "FALCO",
 "household": "Michele Falco & Antonia Vigliotta",
@@ -26584,6 +26798,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "maria-rosa-falco-of-michelangelo-falco-mariantonia-vig",
+"name": "Maria Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -26702,7 +26924,7 @@
 ]
 },
 {
-"slug": "maria-rosa-falco",
+"slug": "maria-rosa-falco-of-michele-falco-antonia-vigliotta",
 "name": "Maria Rosa Falco",
 "via": "register",
 "vias": [
@@ -27468,6 +27690,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "maria-rosa-falco-of-michelangelo-falco-mariantonia-vig",
+"name": "Maria Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": []
@@ -27611,7 +27841,7 @@
 ]
 },
 {
-"slug": "maria-rosa-falco",
+"slug": "maria-rosa-falco-of-michele-falco-antonia-vigliotta",
 "name": "Maria Rosa Falco",
 "via": "register",
 "vias": [
@@ -28839,6 +29069,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "maria-carmela-falco",
+"name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -29391,6 +29629,14 @@
 {
 "slug": "pasquale-falco-of-francesco-falco-raffaela-falco",
 "name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carmela-falco",
+"name": "Maria Carmela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -31273,7 +31519,7 @@
 ]
 },
 {
-"slug": "maria-rosa-falco",
+"slug": "maria-rosa-falco-of-michele-falco-antonia-vigliotta",
 "name": "Maria Rosa Falco",
 "via": "register",
 "vias": [
@@ -43254,7 +43500,7 @@
 ]
 },
 {
-"slug": "maria-rosa-falco",
+"slug": "maria-rosa-falco-of-michele-falco-antonia-vigliotta",
 "name": "Maria Rosa Falco",
 "via": "register",
 "vias": [
@@ -43401,6 +43647,14 @@
 {
 "slug": "carmela-falco",
 "name": "Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-rosa-falco-of-michelangelo-falco-mariantonia-vig",
+"name": "Maria Rosa Falco",
 "via": "register",
 "vias": [
 "register"

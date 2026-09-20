@@ -149,7 +149,7 @@ down as read rather than left out.
 | 20L | 31 Mar | Raffaele Migliore | fu Giuseppe Migliore & Chiara Papa | widower | Angelo Laudato 31 calzolajo; Cesare Martone 48 bracciale — sopra vicino e **parente** |
 | 20R | 5 Apr | Maria Ruggiero | fu Gaetano Ruggiero & Anna Bonomo | — | Michele Angioino 46 calzolajo, strada Terra Murata; Michele Romano 31 bettoliere |
 | 21L (=22L, duplicate) | 6 Apr | Alessio Vincenzo Espositelli | Francesco Espositelli & Anna Esposito | — | **Antonio Rivetti 48 contadino, strada Sajanella; Carlo Rivetti 57 contadino** — vicini |
-| 21R (=22R) | 19 Apr | Crescenzo Anigale | Aniello Anigale & Anna Diglio | — | Arcangelo Anigale 40 vaticale, strada Capodiuomo; Raffaele Vaccubia 50 contadino |
+| 21R (=22R) | 19 Apr | Crescenzo Anigale | Aniello Anigale & Anna Diglio | — | Arcangelo Anigale 40 vaticale, strada Capodiconca; Raffaele Vaccubia 50 contadino |
 | 23L | 20 Apr | Laura Sossi | fu Giuseppe Sossi & **Girolama Rivetti** | — | Matteo Sossi 55 bracciale, strada Sossi; Alessandro Crisci(?) 49 bracciale — vicini e **parenti** |
 | 23R | 29 Apr | Giovanni Cimmino | fu Giuseppe Cimmino & Alessandra Anigale | m. Teresa Gimbardo | Giovanni Gimbardo 70 contadino; Crescenzo Cimmino 22 vaticale |
 | **24L** | **8 May** | Emanuela d'Onofrio | fu Salvatore d'Onofrio & Gaetana di Nisio | — | Domenico Balletta 40 sartore, **strada Camellara**; **GIUSEPPE FALCO 36 contadino, strada Camellara** — vicini |
@@ -158,14 +158,14 @@ down as read rather than left out.
 | 25R | 12 May | Raffaele Sossi | Domenico Sossi & Orsola Sossi | — | Domenico Sossi fu Vincenzo 40 contadino, strada Sossi; Vincenzo Sossi di Sebastiano 30 contadino |
 | 26L | 14 May | Angelo Laudato | fu Simone Laudato & Mariangela — | — | Saverio Rasparella 60 sportellaro; Raffaele Rasparella 25 sportellaro — before **Salvatore Scarpati, secondo eletto** |
 | 26R | 24 May | Teresa Sossi | Francesco Sossi & Rosa Migliore | — | Nicola Cimmino 35 contadino, strada Croce; Filippo Scafora 60 contadino |
-| 27L | 3 Jun | Angelo Cimmino | Alessandro Cimmino & Rosa Solli | — | Arcangelo Sossi 30 vaticale, strada Capodiuomo; Tomaso Gimbardo 40 contadino |
+| 27L | 3 Jun | Angelo Cimmino | Alessandro Cimmino & Rosa Solli | — | Arcangelo Sossi 30 vaticale, strada Capodiconca; Tomaso Gimbardo 40 contadino |
 | 27R | 12 Jun | Clemente Papa | Emanuele Papa & Rosa Bertolo | — | Pellegrino Uglietta 22 bracciale; Sabbatino Papa 20 bracciale, strada Sossi |
 | 28L | 13 Jun | Rosa Russo | fu Tomaso Russo & — | — | **Angelo Sossi 40 sartore, strada Camellara; Carlo Manna 40 contadino, strada Camellara** |
 | 28R | 20 Jun | Angela Grasso | fu Marzio Grasso & Francesca Papa | m. Raffaele Diglio | **Tomaso Giapisto 45 contadino, strada Camellara**; Angelo Scafora 55 canapaio |
 | 29L | 24 Jun | Domenico Diglio | fu Carlantonio Michele Diglio & Giovanna — | — | Giuseppantonio Martone 45; Antonio Sorino 60 contadino — sopra vicino e **parente** |
 | 29R | 25 Jun | Giuseppe Perrotta | Antonio Perrotta & Vincenza Diglio | — | Lelio Diglio 48 vaticale, strada Santa Lucia; Giovan Maria Sossi 52 contadino |
-| 30L | 29 Jun | Angela Maria Giglio | Bartolomeo Giglio & Ilaria Gagliardi | — | Nicola Diglio 70 bracciale, strada Capodiuomo; Cesare Diglio 40 calzolajo |
-| 30R | 5 Jul | **Don** Domenico Altavilli | fu Carmine Altavilli & Anna Diglio | — | **Raffaele Rivetti 28 contadino, strada Sajanella** (22 and of Capodiuomo in March — two men or a loose age); Vincenzo Sossi 25 contadino |
+| 30L | 29 Jun | Angela Maria Giglio | Bartolomeo Giglio & Ilaria Gagliardi | — | Nicola Diglio 70 bracciale, strada Capodiconca; Cesare Diglio 40 calzolajo |
+| 30R | 5 Jul | **Don** Domenico Altavilli | fu Carmine Altavilli & Anna Diglio | — | **Raffaele Rivetti 28 contadino, strada Sajanella** (22 and of Capodiconca in March — two men or a loose age); Vincenzo Sossi 25 contadino |
 | 31L | 6 Jul | Teresa Diglio | fu Pietro Diglio & Rosa Laudato | widow | Luigi Martone 48 cantiniere; Arcangelo Vaccubia 42 sensale |
 | **31R** | **6 Jul** | **Pasquale MORGILLO** | **Giuseppe Morgillo & GELSOMINA RIVETTI** | — | **Angelo Morgillo fu Simone 50 contadino, strada Travo; ORAZIO MORGILLO 26 contadino, strada Travo** |
 | 32L | 9 Jul | Francesco de Lucia | fu Giuseppe de Lucia & Vincenza Sciabica | m. Nicoletta Diglio | Luigi Martone 46 cantiniere; Aniello Angelo 26 vaticale — **parente** e vicino |
@@ -187,17 +187,17 @@ down as read rather than left out.
 | 42L | 20 Aug | Raffaele Solli | Simone Solli & Nicoletta di Mago | — | Carmine Diglio 45 contadino; Domenico delle Cave 30 contadino |
 | 42R | 21 Aug | Antonio Diglio | Nicola Diglio & Maria Verdicchio | — | **Cesare Diglio 47 contadino, strada Camellara; Francesco Martone 42 cantiniere, strada Camellara** |
 | 43L | 22 Aug | Angelo Migliore | Carmine Migliore & Marta Diglio | — | Carmine Marletta 23 contadino; Nicola Cimmino 40 contadino |
-| 43R | 29 Aug | Giuseppa Gimbardo | fu Antonio Gimbardo & Carmina Diglio | ved. Giuseppe Saccavino | Sabbatino Altavilli 38 contadino, strada Capodiuomo; Aniello Laudato 20 contadino |
+| 43R | 29 Aug | Giuseppa Gimbardo | fu Antonio Gimbardo & Carmina Diglio | ved. Giuseppe Saccavino | Sabbatino Altavilli 38 contadino, strada Capodiconca; Aniello Laudato 20 contadino |
 | 44L | 30 Aug | Antonia Sossi | fu Pasquale Sossi & Lucrezia Fornella | — | Luigi Verdicchio 40 fondachiere, strada Terra Murata; Tomaso della Silva 72 |
-| 44R | 4 Sep | Rosa Sossi | fu Matteo Sossi & Teresa Diglio | — | Raffaele Vaccubia 45 vaticale, strada Capodiuomo; Giuseppe Diglio 30 contadino |
+| 44R | 4 Sep | Rosa Sossi | fu Matteo Sossi & Teresa Diglio | — | Raffaele Vaccubia 45 vaticale, strada Capodiconca; Giuseppe Diglio 30 contadino |
 | 45L | 7 Sep | **Marcello RIVETTI** | **Giuseppe Rivetti & Lucia Silvestro** | — | **Salvatore Rivetti 30 vaticale; Francesco Rivetti 47 vaticale**, both strada Sant'Andrea — **parenti**. (NOTE the Rivetti ages will not reconcile: Salvatore is 44 in Sept 1817 and 30 here; Francesco is 35 in Apr 1817, 30 in Sept 1817 and 47 here.) |
 | 45R | 10 Sep | Mariangela Gimbardo | fu Raffaele Gimbardo & Giovanna Casale | ved. **Arcangelo Morgillo** | Giovan Maria Sossi 40 contadino, strada Santa Lucia; Pietro Sossi 47 contadino |
-| 46L | 11 Sep | Carmina Diglio | Agostino Diglio & Francesca Cimmino | — | Francesco Cimmino 55 fruttajolo, strada Capodiuomo; Tomaso Anigale 36 fruttajolo |
+| 46L | 11 Sep | Carmina Diglio | Agostino Diglio & Francesca Cimmino | — | Francesco Cimmino 55 fruttajolo, strada Capodiconca; Tomaso Anigale 36 fruttajolo |
 | 46R | 16 Sep | Francescantonio d'Ambrosio | fu Clemente d'Ambrosio & **Giuliana Pacchiotti** (she died 27 Nov 1816 — see the 1816 volume) | — | Alessandro d'Ambrosio 42 bottegajo; Grazia d'Ambrosio 32 vaticale |
 | 47L | 29 Sep | Angela Maria Migliore | Carlantonio Migliore & Pasqua Diglio | — | Angelo Gimbardo 27 contadino; Pasquale Laudato 45 contadino |
 | **47R** | **6 Oct** | Antonio Carfora | fu Gennaro Carfora & Francesca Sossi | m. Maria Turca | **DON GIUSEPPE RIVETTI, 41, SACERDOTE, strada Sant'Andrea**; Michele Carfora 22 contadino |
 | 48L | 7 Oct | Marta Ottavia Mazzeo | fu Giuseppe Mazzeo & Caterina Sansone | m. **Marco Morgillo** | Giuseppe Morgillo 30 contadino; Antonio Majone 36 contadino — vicini e **parenti** |
-| 48R | 10 Oct | Antonio Gimbardo | fu Giovanbattista Gimbardo & Caterina Benedetto | — | Angelo Gimbardo 55 contadino, strada Capodiuomo; Giuseppe Diglio 21 contadino |
+| 48R | 10 Oct | Antonio Gimbardo | fu Giovanbattista Gimbardo & Caterina Benedetto | — | Angelo Gimbardo 55 contadino, strada Capodiconca; Giuseppe Diglio 21 contadino |
 | 49L | 25 Oct | Teresa Manna | **Carlo Manna & Sabbata Martone** | — | **Giovanni Saccavino 40 contadino, strada Camellara; Giuseppe Martone 43 contadino, strada Camellara** — vicino e **parente** |
 | 49R | 29 Oct | Francesca Solli | fu Tomaso Solli & Vittoria Conte | ved. Pietro Zeffredi | Pietro Diglio 49 contadino; Agostino Martone 50 contadino |
 | 50L (=51L, duplicate) | 1 Nov | Giuseppe Migliore | fu Raffaele Migliore & Teresa Esposito | — | Ciofaro Martone 48 sportajo; Giacinto Palumbo 30 sportellaro |
@@ -218,7 +218,7 @@ acts, images 14–19, are:
 | img | date | deceased | parents | spouse | declarants |
 |---|---|---|---|---|---|
 | 14L | 2 Mar | Chiara Verdicchio | fu Giuseppe Verdicchio & Caterina Bruno | m. — | Luigi Verdicchio 41 calzolajo, strada Santa Lucia; Raffaele Silvestro 25 calzolajo |
-| 14R | 5 Mar | Alessandro Anigale | fu Fabio Anigale & Sara Diglio | ved. Prudenzia Gimbardo | **Raffaele Rivetti 22 contadino, strada Capodiuomo**; **Don Antonio Martone 25, sacerdote** |
+| 14R | 5 Mar | Alessandro Anigale | fu Fabio Anigale & Sara Diglio | ved. Prudenzia Gimbardo | **Raffaele Rivetti 22 contadino, strada Capodiconca**; **Don Antonio Martone 25, sacerdote** |
 | 15L | 7 Mar | Carmina Gimbardo | Francesco Gimbardo & Maria Rosa Verdicchio | — | Raffaele Silvestro 22 calzolajo; Raffaele Vaccubia 48 vaticale |
 | 15R | 7 Mar | Mariantonia Verdicchio | Domenico Verdicchio & Sara Anigale | — | Ottavio Migliore 40 barbiere; Vincenzo Verdicchio 60 contadino |
 | 16L | 16 Mar | Angelo Sansone | fu Antonio Sansone & Antonia Angelanna | widower | Domenico Martone 31 vaticale; Giuseppe di Sortella 28 contadino |
@@ -239,3 +239,7 @@ times), **Angela**, and the two Maria Falco named as mothers.
 
 Still to read: the Arienzo death registers for **1819–1828** and **1837–1843**, the birth registers
 before 1816 and after 1818, and the *processetti*.
+
+---
+
+> **STREET CORRECTED 21 September 2026 — «Capodiuomo» throughout this file is CAPODICONCA.** Six acts were rendered at 3,200 pixels and magnified — 1817 act 11, 1819 act 23, 1821 act 15, 1822 act 65, 1823 act 51 and 1824 act 5 — and every one reads *C-a-p-o-d-i-c-o-n-c-a*, several of them twice in one act. The Arienzo birth registers for 1832 and 1836, read out act by act, give **strada Capodiconca** constantly and **Capodiuomo not once**. The misreading is confined to the 1817–1825 death-register sweeps and is this archive's, not the clerks'.

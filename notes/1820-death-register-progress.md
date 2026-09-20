@@ -103,7 +103,7 @@ not settle; they are written down as read rather than left out.
 | 3L | act 2, 8 Jan | Olimpia Migliore, contadina | fu Francesco Migliore & fu Cecilia Migliore | ved. Pasquale Manna | Onofrio Ruocco 25 barbiere, strada Porta di Sopra; Arcangelo Laudato 35 fabbricatore — vicini |
 | 3R | act 3, 8 Jan | Raffaele Crisci, 30 days, strada Crisci | Crescenzo Crisci & — | — | **Angelo Crisci fu Nicola 44 contadino, strada Crisci, AVO (grandfather); Mattia Crisci 60 contadino** |
 | 4L | act 4, 11 Jan | Francescantonio Lettieri, 47, **strada Camellara** — died in the Ospedale di Ave Grazia Plena | fu Agostino Lettieri & — | — | Angelo Giglio 46 contadino; Domenico Migliore 52 calzolajo |
-| 4R | act 5(?), 16 Jan | Mariantonia Espositella, 8 days, strada Capodiuomo | Felice Espositella & — | — | Vincenzo Anigale 60 fruttajolo; Giovanni Gimbardo 59 bracciale |
+| 4R | act 5(?), 16 Jan | Mariantonia Espositella, 8 days, strada Capodiconca | Felice Espositella & — | — | Vincenzo Anigale 60 fruttajolo; Giovanni Gimbardo 59 bracciale |
 | 5L | 19 Jan | Lucia Cimmino, 78, contadina, strada Sossi | fu Donato Cimmino & — | m. Nicola Saccavino | Giuseppe Saccavino 40 contadino, strada Sossi; Paolo Saccavino 22 contadino |
 | **5R** | **act 5, 24 Jan** | **FORTUNATO CRISCI, 2 days, strada Camellara** | **ARCANGELO CRISCI, contadino, strada Camellara & ANNA FALCO** | — | **Andrea Crisci 60 contadino, strada Camellara; Marcello Crisci 25 contadino, strada Camellara** — vicini |
 | 6L | 22 Jan | Angelo Verdicchio, 6, strada Terra Murata | fu Paolo Verdicchio & — | — | Domenico d'Onofrio 38 vivandiero; Giuseppe Sposato 22 bracciale |
@@ -121,7 +121,7 @@ not settle; they are written down as read rather than left out.
 | 12L | 3 May | Chiara di Giglio, 70, contadina, strada Terra Murata | fu Sabbato di Giglio & — | ved. Aniello Pacello | Giovan Battista di Lucia 28 fabbricatore; Paolo Rasparella 28 sportellaro |
 | 12R | 15 Apr | Giuseppa Imperatore, 32, contadina, strada Coppa | Domenico Vaccaria & Maria Esposito | m. Marcello Sossi | Germano Sossi 40 contadino; Domenico Lettieri 50 contadino |
 | 13L | 28 Apr | Rosa Maccariello, 10, strada Croce dell'Ospedale | Bonifacio Maccariello, contadino & — | — | Ottavio Migliore 42 barbiere; **Nicola Migliore 46, sacerdote** |
-| 13R | 7 May | Salvatore Laudato, 11, strada Capodiuomo | Nicola Laudato, contadino & — | — | Angelo Giglio 50 contadino; Domenico Martone 32 contadino |
+| 13R | 7 May | Salvatore Laudato, 11, strada Capodiconca | Nicola Laudato, contadino & — | — | Angelo Giglio 50 contadino; Domenico Martone 32 contadino |
 | 14L | 20 May | Domenicantonio di Silvio, 33, falegname, strada Santa Lucia | Giuseppe di Silvio, sartore & — | — | Domenico di Silvio 44 falegname; Costantino di Silvio 31 barbiere |
 | 14R | 24 May | Antonio Sansone, 2, **strada Camellara** | Angelo Sansone & — | — | Raffaele Giglio 62 vaticale, **strada Camellara**; **GIUSEPPE CRISCI 37 contadino, strada Camellara** |
 | 15L | 27 May | Mariangela Crisci, 59, contadina, strada Crisci | Domenico Crisci, contadino & — | — | Francesco Morgillo 28 contadino, strada Crisci; Antonio Crisci 50 contadino |
@@ -134,20 +134,20 @@ not settle; they are written down as read rather than left out.
 | 19R | 14 Jun | Carminantonio Roncia, 1, **strada Camellara** | Michele Roncia, contadino & — | — | Cosimo Rivetti 54, **strada Camellara**; Sabbatantonio Corpora 60 contadino, strada Camellara |
 | 20L | 1 Jul | Giuseppe Giglio, 80, scalpellino, strada Sant'Andrea | fu Angelo Giglio, vaticale & — | m. Maria Statica | Filippo Giglio 60 falegname; Andrea Martone 36 falegname |
 | 20R | 7 Jul | Angela Saccavino, 70, contadina, strada Crisci | fu Giuseppe Saccavino & — | ved. Domenico Sossi | Aniello Saccavino 60 contadino, **FRATELLO**; Giovanni Sossi 35 contadino |
-| 21L | 14 Jul | Alessandro Giglio, 8 days, strada Capodiuomo | Agostino Giglio, contadino & — | — | Francesco Cimmino 50 contadino; Aniello Anigale 40 contadino |
-| 21R | 15 Jul | Raffaele Crisci, 6 months, strada Capodiuomo | Fortunato Crisci, contadino & — | — | Antonio Rigatella 30 contadino; Francesco Maccheia 25 contadino |
+| 21L | 14 Jul | Alessandro Giglio, 8 days, strada Capodiconca | Agostino Giglio, contadino & — | — | Francesco Cimmino 50 contadino; Aniello Anigale 40 contadino |
+| 21R | 15 Jul | Raffaele Crisci, 6 months, strada Capodiconca | Fortunato Crisci, contadino & — | — | Antonio Rigatella 30 contadino; Francesco Maccheia 25 contadino |
 | 22L | 19 Jul | Giuseppa Romanella, 16, strada Porta di Sopra | Bartolomeo Romanella & — | — | Nicola Romanella 60 contadino; Angelo Giglio 40 contadino |
-| 22R | 20 Jul | Arcangelo Anigale, 11 months, strada Capodiuomo | Raffaele Anigale & — | — | Domenico Anigale 40 contadino; Giuseppe Anigale 20 vaticale |
-| 23L | 9 Aug | Raffaella Spinola, 40, strada Capodiuomo | Vincenzo Spinola, vivandiero & — | — | Michele Romano 35 vivandiero; Raffaele Espositella 26 |
+| 22R | 20 Jul | Arcangelo Anigale, 11 months, strada Capodiconca | Raffaele Anigale & — | — | Domenico Anigale 40 contadino; Giuseppe Anigale 20 vaticale |
+| 23L | 9 Aug | Raffaella Spinola, 40, strada Capodiconca | Vincenzo Spinola, vivandiero & — | — | Michele Romano 35 vivandiero; Raffaele Espositella 26 |
 | 23R | 10 Aug | Arcangelo Vaccubia, 45 — died in the **Ospedale di Ave Grazia Plena** | Cesare Vaccubia & — | — | Angelo Giglio 47 contadino, comune di San Felice; Domenico Migliore 51 calzolajo |
 | 24L | 7 Aug | Sabata Sossi, 6, strada Sossi | Angelo Sossi & — | — | Andrea Sossi 32 contadino; Gaetano Ruggiero 26 contadino |
 | 24R | 9 Aug | Pietro Sforza, 1, strada Porta di Sopra | Lorenzo Sforza & — | — | Francesco Giglio 60 contadino; Domenico Giglio 50 contadino |
-| 25L | 11 Aug | Rosa Lettieri, 9, strada Capodiuomo | Arcangelo Lettieri & — | — | Gaspare Cimmino 60 contadino; Girolamo Cimmino 46 contadino |
+| 25L | 11 Aug | Rosa Lettieri, 9, strada Capodiconca | Arcangelo Lettieri & — | — | Gaspare Cimmino 60 contadino; Girolamo Cimmino 46 contadino |
 | 25R | 11 Aug | Lorenzo Domino, 15 days, strada Costa | Luigi Domino & — | — | **Gaetano Sossi 32 sartore, strada Camellara**; Michelangelo Sossi 22 contadino |
 | 26L | 21 Aug | Antonio Gimbardo, 11, **strada Camellara** | Angelo Gimbardo & — | — | **Francesco Carbone 50 calzolajo, strada Camellara; Angelo Scafora 22 contadino, strada Camellara** |
 | **26R** | **atto 47, 23 Aug** | **ANNA FALCO, 25, contadina, strada Camellara** | **PASQUALE FALCO, contadino, strada Camellara & CHIARA RIVETTI** — both named WITHOUT «fu» | **m. ARCANGELO CRISCI** | **Giuseppe Martone 40 contadino, strada Camellara; Domenico Martone 36 contadino, strada Camellara** |
 | 27L | 4 Sep | Giuseppe d'Ambrosio, 1y1m, strada Santa Lucia | Clemente d'Ambrosio & — | — | Alessandro d'Ambrosio 44; Nicola d'Ambrosio 36 vivandiero |
-| 27R | 9 Sep | Rosa Carfora, 10, strada Capodiuomo | Antonio Carfora, vaticale & Mariantonia Balletta | — | Pietro Trafio 40 vaticale; Alessandro d'Ambrosio 41 — before **Angelo Martone, secondo eletto** |
+| 27R | 9 Sep | Rosa Carfora, 10, strada Capodiconca | Antonio Carfora, vaticale & Mariantonia Balletta | — | Pietro Trafio 40 vaticale; Alessandro d'Ambrosio 41 — before **Angelo Martone, secondo eletto** |
 | 29L | 15 Sep | Carmina Bruno, 2, strada Porta di Sopra | Onofrio Bruno, barbiere & — | — | Giacinto Manna 40 contadino; Sabbato Sossi 32 contadino |
 | 29R | 27 Sep | Pellegrina Vetrone, 5, strada Terra Murata | fu Aniello Vetrone, sartore & — | — | Marzio Marletta 55 bracciale; Luigi Verdicchio 40 calzolajo |
 | 30L | 20 Sep | Andrea Sossi, 6 months, **strada Camellara** | Grazio Sossi & — | — | **Cesare Giglio 54 contadino, strada Camellara; Alfonzo Giglio 20 contadino, strada Camellara** |
@@ -176,3 +176,7 @@ not settle; they are written down as read rather than left out.
 | 41R | atto 65, 27 Dec | Rosa Lettieri, 7 months, strada Costa | Pasquale Lettieri & — | — | Domenico Lettieri 45 contadino, strada Costa; Marzio Lettieri 34 contadino |
 | 42L | atto 66, 30 Dec | — Sforza, «figli di ignoti» — a foundling | unknown | — | Dio Anzo 50 massaro, strada Rosciano; Francesco Verpisto 40 bracciale — THE LAST ACT OF THE YEAR |
 | 42R–43 | — | blank forms — the volume ends | | | |
+
+---
+
+> **STREET CORRECTED 21 September 2026 — «Capodiuomo» throughout this file is CAPODICONCA.** Six acts were rendered at 3,200 pixels and magnified — 1817 act 11, 1819 act 23, 1821 act 15, 1822 act 65, 1823 act 51 and 1824 act 5 — and every one reads *C-a-p-o-d-i-c-o-n-c-a*, several of them twice in one act. The Arienzo birth registers for 1832 and 1836, read out act by act, give **strada Capodiconca** constantly and **Capodiuomo not once**. The misreading is confined to the 1817–1825 death-register sweeps and is this archive's, not the clerks'.
