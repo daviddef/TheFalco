@@ -1,6 +1,30 @@
 [
  {
   "when": "2026-09-21",
+  "sev": "minor",
+  "where": "/households",
+  "plate": "",
+  "by": "reading the 1832 and 1836 death registers against their own citations",
+  "what": "An index said 3 December and the register says 3 SEPTEMBER — and the act's one word closes a join",
+  "was": "**MARIANTONIA CIOFFI (the second)**, a child of Francesco Cioffi and Maria Falco, published as dying **3 December 1832**, cited to the **INDEX** — `an_ua14294`, *Morti indice 1832*, atto 64. **The register act had never been opened.**",
+  "now": "**3 SEPTEMBER 1832**, and she is «**DI UN ANNO**». Act 64 of `an_ua14334`: «*… che nel giorno **TRE** del mese di **SETTEMBRE**, anno corrente, alle ore **NOVE**, è morta nella sua propria casa **MARIANTONIA CIOFFI, DI UN ANNO** … figlia di **FRANCESCO CIOFFI** … **e di MARIA FALCO***».",
+  "how": "Opening the act the index points at — which nobody had done, because the index gave a name, a number and a date and looked like enough.",
+  "why": "**The age is what the index could not give, and it closes a join this archive flagged and would not claim.** On 21 September the birth act of an **ANTONIA** born **8 August 1831** to the same parents was found. «*Di un anno*» makes this her, dead at **one year and twenty-six days** — and it makes sense of the **second Antonia** the household names in 1831 after burying the first in 1823.\n\n**An index row is not a record.** It gave the right act number and the wrong month, and it gave no age at all. This archive has now been caught by that three times in two days — a marriage index with the wrong day, a death index with the wrong month, and a death index that was the only source for a priest who turns out not to be in any register."
+ },
+ {
+  "when": "2026-09-21",
+  "sev": "major",
+  "where": "/searched",
+  "plate": "",
+  "by": "two death acts of 1836, read against three birth registers",
+  "what": "Two Falco children were alive in 1835 and neither of their births is in any Arienzo register",
+  "was": "**SALVATORE FALCO**, of Michele Falco and Mariantonia Vigliotta, and **PASQUALINA FALCO**, of Francescantonio Falco and Raffaela Falco, were held as two death dates in 1836 with nothing behind them.",
+  "now": "**Their ages, read from the acts, put both births in the middle of 1835 — and the registers do not have them.** Act 49, 9 August 1836: «*è morto … **SALVATORE FALCO, DI MESI QUATTORDICI***». Act 53, 14 September 1836: «*è morta … **PASQUALINA FALCO, DI MESI SEDICI***». Fourteen and sixteen months give **June 1835** and **May 1835**.\n\n**The Arienzo birth registers for 1834, 1835 and 1836 have now been read at BOTH bands** — the parents band end to end and the declarant band end to end — **and there is no Falco in any of the three.**",
+  "how": "Verifying two cited death acts, noticing that the ages pointed at a year this archive had just published as empty, and then going back and reading that year a second way rather than trusting the first pass.",
+  "why": "**One stray age is a clerk guessing. Two, from two households, pointing at the same six months, is something about the record.**\n\n**And these parents registered their other children.** Maria Carmela (1832) and Raffaele (1837) are both in the register, both baptised the day they were born. **So the household's practice was to register, and two births are missing from it.**\n\nWhat is left: the ages are wrong by more than a year in both acts; or both children were born outside Arienzo; or **the 1835 birth register is incomplete**. The third would matter well beyond this family, and it is the one this archive cannot yet test — the volume has **no tavola** to count against.\n\n**A METHOD FAULT IS PUBLISHED WITH IT.** These volumes name the parents on the LEFT page of the next opening — but when the **father** is the declarant the left page says only «*da lui dichiarante*» and **his name is on the right page**. A parents-band sweep therefore catches Falco **mothers** and can miss Falco **fathers**. That gap is now closed for **1834, 1835 and 1836**; the nils already published for **1829, 1831, 1832, 1833, 1837 and 1838** rest on the parents band alone and are **owed a declarant-band pass**. Raised as its own row rather than quietly left."
+ },
+ {
+  "when": "2026-09-21",
   "sev": "major",
   "where": "/households",
   "plate": "",

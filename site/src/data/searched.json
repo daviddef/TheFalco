@@ -1,5 +1,42 @@
 [
  {
+  "when": "1834",
+  "src": "Arienzo BIRTH register, 1834 — ANTENATI an_ua14431, 135 images",
+  "what": "Read at **both** bands — parents and declarant, end to end — hunting the births of **SALVATORE** and **PASQUALINA FALCO**, whose 1836 death acts put them in mid-1835.",
+  "got": "**NO FALCO, at either band.** The year is declared overwhelmingly by two *levatrici*, **CATERINA MAGGIORE** and **ROSA DELLA SELVA**, which is why the parents band works here at all — when a midwife presents the child, both parents are named on the left page.\n\n**1834 is therefore excluded**, and with 1835 and 1836 also excluded at both bands, **the two children have no birth act at Arienzo in the three years around their stated ages.**",
+  "outcome": "no Falco",
+  "tags": [
+   "Births",
+   "Antenati",
+   "read in full"
+  ],
+  "href": "https://antenati.cultura.gov.it/ark:/12657/an_ua14431"
+ },
+ {
+  "when": "1836",
+  "src": "Arienzo DEATH register, 1836 — ANTENATI an_ua14338. **The cited acts read against the images**, after the whole volume had already been swept for religious.",
+  "what": "Verifying every cited act — and following the ages in two of them back into the birth registers.",
+  "got": "**THE CITATIONS HOLD, AND TWO OF THEM OPEN A HOLE.**\n\n**Act 49, 9 August**: «**SALVATORE FALCO, DI MESI QUATTORDICI**», of Michele Falco and Mariantonia Vigliotta, declared by **NICOLA COSPI** and **AGOSTINO CARFORA**, both of strada Camellara. **Act 53, 14 September**: «**PASQUALINA FALCO, DI MESI SEDICI**», of Francesco Falco and Raffaela Falco, declared by **AGOSTINO SANSONE** and **ANGELO COSPI**, ***sartore***, both of strada Camellara.\n\n**Fourteen and sixteen months give June and May 1835 — and neither birth is in any Arienzo register.** 1834, 1835 and 1836 have now been read at **both** the parents band and the declarant band, end to end, and hold **no Falco at all**. *Their parents registered their other children*, so the practice was there and two births are missing from it. **On /corrections, with the method fault that the second pass exposed.**",
+  "outcome": "found",
+  "tags": [
+   "Deaths",
+   "Antenati"
+  ],
+  "href": "https://antenati.cultura.gov.it/ark:/12657/an_ua14338"
+ },
+ {
+  "when": "1832",
+  "src": "Arienzo DEATH register, 1832 — ANTENATI an_ua14334. **The four acts this archive cites to it, read against the images.**",
+  "what": "Verifying every cited act — and opening act 64, which had only ever been read from the INDEX.",
+  "got": "**FOUR ACTS, THREE OF THEM CARRYING SOMETHING THE CITATION DID NOT.**\n\n**Act 64 is 3 SEPTEMBER, not 3 December**, and the child is «**DI UN ANNO**» — which makes **MARIANTONIA CIOFFI** the **ANTONIA born 8 August 1831** to the same parents, dead at one year and twenty-six days. The December date came from the index; the register act of that number is September.\n\n**Act 32 joins two households.** «*è morta … **GIOVANNA FALCO, D'ANNI SESSANTA, MOGLIE D'ANTONIO LETTIERI** … figlia di **MICHELE FALCO Defunto** … e di **VINCENZA SPOSITO Defunta***». This archive holds «Michele Falco & Vincenza Sposito» and «Antonio Lettieri & Giovanna Falco» separately; **the act says both in one sentence.** Declared by **GENNARO** and **CLEMENTE COSPI**, of **strada COSTA**.\n\n**Act 81 dates a birth found three days ago.** «**CARMINA FALCO, DI MESI SEI**», 19 December 1832, of Francesco Falco and Raffaela Falco — and the 1832 birth register gives **MARIA CARMELA**, born 15 July 1832 to the same parents on the same street. Five months and four days, which the register rounds to six.",
+  "outcome": "found",
+  "tags": [
+   "Deaths",
+   "Antenati"
+  ],
+  "href": "https://antenati.cultura.gov.it/ark:/12657/an_ua14334"
+ },
+ {
   "when": "1820",
   "src": "Arienzo BIRTH register, 1820 — ANTENATI an_ua14417, 143 images",
   "what": "Every act at the PARENTS band, hunting **NUNZIATA FALCO**. **This volume is laid out differently** — each act fits on ONE page, so the band is 55–72% of the RIGHT half, not the left.",
