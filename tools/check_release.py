@@ -139,7 +139,45 @@ def main():
                 _missing.append(f"household absent from households.json: {_n}")
             elif (_n, _r["person"], _r["event"], _r["date"]) not in _have:
                 _missing.append(f"{_n}: {_r['person']} / {_r['event']} / {_r['date']}")
+        # AND THE EVIDENCE, NOT ONLY THE NAMES.
+        #
+        # For months this compared only (household, person, event, date), so two
+        # files could agree on WHO was in a household and disagree on WHAT THE
+        # DOCUMENT SAID about them — and they did, on sixty rows. The worst of
+        # them: «Magdalenae RIVETTA» was read from the image on 14 September,
+        # written into the TSV, and never into the JSON, so the site published
+        # the OCR guess «Pivera» for six days. Two rows asserted a man «alive»
+        # from a signal this archive had itself disproved, because the downgrade
+        # reached the TSV alone.
+        #
+        # Compared on WHITESPACE-FLATTENED text, because the TSV cannot hold a
+        # newline and the JSON is written in paragraphs. A row may carry several
+        # entries under one key — a person legitimately appears twice under one
+        # date — so the TSV matches if it equals ANY of them.
+        _ev = {}
+        for _h in _H:
+            for _m in _h["members"]:
+                _k = (_h["name"], _m.get("person", ""), _m.get("date") or "")
+                _e = " ".join((_m.get("evidence") or "").split())
+                _ev.setdefault(_k, set()).add(_e)
+        _drift = []
+        for _r in _csv.DictReader(open(_tsv, encoding="utf-8"), delimiter="\t"):
+            _n = _RENAME.get(_r["household"], _r["household"])
+            _k = (_n, _r["person"], _r["date"])
+            if _k not in _ev:
+                continue
+            if " ".join((_r.get("evidence") or "").split()) not in _ev[_k]:
+                _drift.append(f"{_n}: {_r['person']} / {_r['date']}")
+        if _drift:
+            print(f"\nFAILED — {len(_drift)} row(s) where the two household files disagree about")
+            print("WHAT THE DOCUMENT SAYS. One of them is on the site and one of them is not:\n")
+            for _x in _drift[:20]:
+                print("   ", _x)
+            print("\nMirror the one that is right into the other. Do NOT bulk-copy: the newer text")
+            print("is not always the longer one, and a row may hold a reading the other has lost.")
+            sys.exit(1)
         print(f"check_release: households.tsv {'in step with' if not _missing else 'AHEAD OF'} households.json")
+        print(f"check_release: and the two agree on the evidence, row for row")
         if _missing:
             print(f"\nFAILED — {len(_missing)} row(s) in data/households.tsv are not in the file the")
             print("site builds from. Findings written there will not appear on the archive:\n")
