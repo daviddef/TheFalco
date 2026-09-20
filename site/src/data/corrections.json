@@ -1,6 +1,18 @@
 [
  {
   "when": "2026-09-21",
+  "sev": "major",
+  "where": "/households",
+  "plate": "",
+  "by": "row 85, on the first volume it touched",
+  "what": "The second band found a Falco the first could not — ROSARIA FALCO, 15 March 1821, and a caution about how this archive tells two men apart",
+  "was": "The Arienzo birth register for **1821** was swept on 21 September at the **parents band** and published here as holding **no Falco**. Work-list row **85** was then raised, saying that band can miss a **father** who declares his own child when the mother is not herself a Falco, and listing nine years owed a second pass.",
+  "now": "**The second pass found one in the first volume it touched.** Act 22: «*è comparso **GIUSEPPE FALCO, di anni TRENTOTTO**, di professione contadino, domiciliato in questo Comune, **strada CAMELLARA**, quale ci ha presentato una **FEMINA** … che la stessa è nata da **GELSOMINA VIGLIOTTA sua moglie legittima, di anni TRENTASETTE** … il nome di **ROSARIA***» — **15 March 1821**, at ten in the morning.\n\n**The mother is a VIGLIOTTA.** The parents band reads her name and moves on; the Falco is the father, on the facing page. **That is the exact failure row 85 described, demonstrated within an hour of raising it.**",
+  "how": "Sweeping the declarant band — `--band 0.34 0.19 --half R` — across the volume that had already been read the other way.",
+  "why": "**Two things follow, and the second is the more useful.**\n\n**A second Rosaria.** The first died on **15 March 1819**; this one is born on **15 March 1821**, the same day of the same month, two years later. The coincidence is recorded and not explained. **Work-list row 42 is not answered** — it asks where the FIRST Rosaria's birth act is, and that is still nowhere — but the second Rosaria is now a documented person, and the naming habit that makes them two children is confirmed again.\n\n**AND THE TEST THAT KEEPS THE TWO GIUSEPPE FALCO APART IS HALF WRONG.** This archive separates them «*by street and wife*»: one on **strada COSTA** with **Gelsomina Vigliotta**, one on **strada CAMELLARA** with **Antonia di Guida**. **Here the Gelsomina Vigliotta household is on strada Camellara.** The wife is the half that holds; **the street is not**. Nothing is merged — the 1816 and 1818 acts still name two different wives on one day's difference of stated age, which is the real evidence — but any reading resting on the street alone is unsafe, and at least one on this site did."
+ },
+ {
+  "when": "2026-09-21",
   "sev": "minor",
   "where": "/households",
   "plate": "",

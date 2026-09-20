@@ -9,6 +9,7 @@ import atlas from "../../public/atlas-data.json";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import Tributaries from "../components/Tributaries.astro";
+import Strands from "../components/Strands.astro";
 import households from "../data/households.json";
 import register from "../data/register.json";
 import line from "../data/line.json";
@@ -78,6 +79,15 @@ const more = [
     who happen to carry a common Campanian name. This archive joins two of them only when a record says
     so — and draws the rest apart, even where joining them would make the better story.</p>
     <Tributaries />
+
+    <h3 style="margin:2rem 0 .3rem">And the same question drawn the other way</h3>
+    <p class="dek" style="margin:0 0 1.2rem">The figure above is <strong>one family moving</strong>.
+    This one is <strong>five strands of one surname</strong> — a spine of places in date order, a fan
+    of where each ends up, and a line in small capitals saying how well it is documented.
+    <strong>A dashed strand goes nowhere this archive can follow, or is not this family.</strong>
+    Only the top band is this line.</p>
+    <Strands />
+
     <p style="margin-top:1.2rem"><a href={u("/lines/")}>The lines, in full →</a></p>
   </section>
 
