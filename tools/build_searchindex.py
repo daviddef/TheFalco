@@ -112,6 +112,40 @@ for p in load("plates.json"):
                 "k": "plate", "d": (str(p.get("when", "")) + " " + p.get("cite", ""))[:300]})
 
 out = to_contract(out)
+
+# --- spelling variants, for SEARCH only --------------------------------------
+# `namefold.json` is built by kit/tools/namefold.py and lists variant -> canonical
+# for surnames this archive spells more than one way. It is applied HERE, to the
+# folded haystack, and nowhere else: a row keeps its own spelling, no record is
+# merged with another, and no claim of kinship is made. All it does is let a
+# reader who types the spelling their document uses reach the rows filed under
+# the spelling this archive uses.
+#
+# SANZONE -> SANSONE is the case it was wired for. On 20 September 2026 a
+# declarant published here as SANZONE was shown to be SANSONE: the initial is a
+# long s, tested against the z in «Crescenzo» in the same hand. The wrong
+# spelling stays visible on the row that carried it, which is the house style,
+# and the fold means it is still findable.
+_variants = collections.defaultdict(set)
+try:
+    _nf = load("namefold.json").get("fold", {})
+except (FileNotFoundError, KeyError):
+    _nf = {}
+for _v, _c in _nf.items():
+    if _fold(_v) == _fold(_c):
+        continue
+    _variants[_fold(_c)].add(_fold(_v))
+    _variants[_fold(_v)].add(_fold(_c))
+_widened = 0
+if _variants:
+    for _r in out:
+        _q = _r.get("q", "")
+        _extra = sorted({e for form, es in _variants.items() if form in _q for e in es if e not in _q})
+        if _extra:
+            _r["q"] = _q + " " + " ".join(_extra)
+            _widened += 1
+print(f"namefold: {len(_nf)} form(s), {len(_variants)} folded, {_widened} row(s) widened")
+
 for _r in out:
     _r["k"] = _r["k"][:1].upper() + _r["k"][1:]
 json.dump(out, open(path("site/src/data/searchindex.json"), "w"), ensure_ascii=False,
