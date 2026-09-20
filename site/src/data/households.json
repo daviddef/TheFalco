@@ -1561,11 +1561,11 @@
     "household": "Michelangelo Falco & Mariantonia Vigliotta",
     "person": "Anna Falco",
     "role": "child",
-    "event": "death",
-    "date": "7 Mar 1834",
+    "event": "WITHDRAWN from this household",
+    "date": "16 Mar 1834",
     "place": "Arienzo, strada Camellara",
-    "evidence": "**THIS CITATION IS WITHDRAWN AS UNVERIFIED, 20 September 2026.** It read «`an_ua14336` img10L» — Arienzo Morti 1834 — for an **ANNA FALCO, eight days old, daughter of MICHELANGELO FALCO**, dead on 7 March 1834.\n\n**Image 10 left is MARIA PORRINO**, eight days old, daughter of Angelo Porrino and Pasqua Rivetti, dead on **8** March 1834 — the same age and all but the same day, **which is very likely how the two came to be confused**.\n\n**The leaves around it were opened and none holds her.** Image 8 right, Gelsomina Ditto, 21 February; image 9 left, Carmela Zimbardo, 24 February; image 9 right, Francesco Liparulo, **7 March** — the only act of that day on these leaves; image 10 right, Flavia Zimbardo, 14 March. **No Anna Falco, and no MICHELANGELO FALCO, a forename that appears nowhere else in this archive.**\n\n**The person is not withdrawn and the citation is.** She may be real and filed elsewhere in the volume; she may be a mis-indexed Maria Porrino. **Until the act is found, this page says only that the reference does not hold** — work-list row 78.",
-    "ark": "CITATION WITHDRAWN 20 Sep 2026 — the leaf does not hold her; see the evidence"
+    "evidence": "**THIS CHILD IS NOT RECORDED AS THIS COUPLE'S, AND THE ROW IS LEFT STANDING RATHER THAN DELETED.** Until 20 September 2026 an **ANNA FALCO, eight days old, dead 7 March 1834** stood here as a daughter of Michelangelo Falco and **MARIANTONIA VIGLIOTTA**.\n\n**The act was found and read.** It is act 16, image 11 left, of **16 March 1834**, and it says «*figlia di **MICHELANGELO FALCO** … e di **RAFFAELA FALCO***». **The mother is not Mariantonia Vigliotta.**\n\n**So she is published under MICHELANGELO FALCO & RAFFAELA FALCO instead**, and whether that Michelangelo is this one — widowed and remarried — or a second man of the name is an open question this archive does not close by assuming.",
+    "ark": "ANTENATI an_ua14336 img11l act16 — READ 20 Sep 2026"
    },
    {
     "household": "Michelangelo Falco & Mariantonia Vigliotta",
@@ -3370,17 +3370,37 @@
   ]
  },
  {
-  "name": "Michelangelo Falco (strada Camellara)",
+  "name": "Michelangelo Falco & Raffaela Falco",
   "members": [
    {
-    "household": "Michelangelo Falco (strada Camellara)",
+    "household": "Michelangelo Falco & Raffaela Falco",
     "person": "Anna Falco",
     "role": "child",
     "event": "death",
-    "date": "7 Mar 1834",
+    "date": "16 Mar 1834",
     "place": "Arienzo, strada Camellara",
-    "evidence": "**THIS CITATION IS WITHDRAWN AS UNVERIFIED, 20 September 2026.** It read «`an_ua14336` img10L» — Arienzo Morti 1834 — for an **ANNA FALCO, eight days old, daughter of MICHELANGELO FALCO**, dead on 7 March 1834.\n\n**Image 10 left is MARIA PORRINO**, eight days old, daughter of Angelo Porrino and Pasqua Rivetti, dead on **8** March 1834 — the same age and all but the same day, **which is very likely how the two came to be confused**.\n\n**The leaves around it were opened and none holds her.** Image 8 right, Gelsomina Ditto, 21 February; image 9 left, Carmela Zimbardo, 24 February; image 9 right, Francesco Liparulo, **7 March** — the only act of that day on these leaves; image 10 right, Flavia Zimbardo, 14 March. **No Anna Falco, and no MICHELANGELO FALCO, a forename that appears nowhere else in this archive.**\n\n**The person is not withdrawn and the citation is.** She may be real and filed elsewhere in the volume; she may be a mis-indexed Maria Porrino. **Until the act is found, this page says only that the reference does not hold** — work-list row 78.",
-    "ark": "CITATION WITHDRAWN 20 Sep 2026 — the leaf does not hold her; see the evidence"
+    "evidence": "«*L'anno milleottocento trentaquattro, il dì **SEDICI** del mese di **MARZO** … è morta nella sua propria casa **ANNA FALCO, di giorni OTTO**, nata in Arienzo, di professione contadina, domiciliata ivi, figlia di **MICHELANGELO FALCO**, di professione **contadino**, domiciliato ivi, e di **RAFFAELA FALCO**, domiciliata ivi*» — **act 16, image 11 LEFT**, declared by **GIUSEPPE CARFORA, forty** and **TOMASO SPOSITO, sixty**, both contadini of **STRADA CAMELLARA** and both «vicino della Defunta». Eight days old, so born about **8 March 1834**.\n\n**FOUND ON 20 SEPTEMBER 2026 AFTER THE CITATION FOR HER WAS WITHDRAWN.** This archive had her at image 10 left, dead on **7 March**; image 10 left is **MARIA PORRINO**, eight days old, dead on the **8th** — the same age, all but the same day, and a different child. **The act was found by a contact-sheet sweep of the volume's name lines**, which is what a contact sheet is for: it produced the candidate leaf, and the leaf was then read.\n\n**Her mother is RAFFAELA FALCO, and this archive had never recorded her at all.** Both names were magnified before anything was published.",
+    "ark": "ANTENATI an_ua14336 img11l act16"
+   },
+   {
+    "household": "Michelangelo Falco & Raffaela Falco",
+    "person": "Michelangelo Falco",
+    "role": "father",
+    "event": "named in a death act",
+    "date": "16 Mar 1834",
+    "place": "Arienzo, strada Camellara",
+    "ark": "ANTENATI an_ua14336 img11l act16",
+    "evidence": "«*figlia di **MICHELANGELO FALCO**, di professione **contadino**, domiciliato ivi*» — named without «Defunto», so living in March 1834. **Whether he is the Michelangelo Falco who married MARIANTONIA VIGLIOTTA in December 1828 is an open question**, and this archive does not answer it by merging: see the note on Anna Falco."
+   },
+   {
+    "household": "Michelangelo Falco & Raffaela Falco",
+    "person": "Raffaela Falco",
+    "role": "mother",
+    "event": "named in a death act",
+    "date": "16 Mar 1834",
+    "place": "Arienzo, strada Camellara",
+    "ark": "ANTENATI an_ua14336 img11l act16",
+    "evidence": "«*e di **RAFFAELA FALCO**, domiciliata ivi*» — named without «Defunta», so living in March 1834. **A FALCO MARRIED TO A FALCO**, and this archive had not recorded her.\n\n**She may or may not be the RAFFAELA FALCO who is married to FRANCESCO FALCO** and who buried Carmina Falco, six months old, on 19 December 1832 — fourteen months before this. **Two readings, two husbands' forenames, one wife's name.** Either there are two Raffaela Falco married to two Falco men — which this family's naming habits make entirely possible, four Maria Falco having already had to be separated — or one woman was widowed and remarried inside fourteen months. **Neither is asserted.**"
    }
   ]
  },
