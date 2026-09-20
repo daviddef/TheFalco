@@ -1,5 +1,12 @@
 [
 {
+"sha": "c4e69e0",
+"date": "2026-09-20",
+"title": "Twenty retired readings across nine pages, and a false correction of my own",
+"summary": "After the front-page audit I grepped every page in the site for the readings retired today. Twenty were still standing across nine files, and the data had been correct in all twenty cases.",
+"kind": "fix"
+},
+{
 "sha": "3bc97bf",
 "date": "2026-09-20",
 "title": "Row 74 done: the backlog was forty-four and forty-three of them were finished",
