@@ -1,5 +1,26 @@
 [
 {
+"sha": "18d1e2a",
+"date": "2026-09-20",
+"title": "A strands figure in the de Franceschi grammar: one line, and the four Falco it is not",
+"summary": "David asked for the lines visuals to match the de Franceschi ones. Same grammar: one tinted band per strand, a coloured title, a status line in small capitals saying how well it is documented, a spine of places in date order with circled nodes, and a fan on the right. Dashed means this goes nowhere the archive can follow, or is not this family.",
+"kind": "other"
+},
+{
+"sha": "8f80fe3",
+"date": "2026-09-20",
+"title": "The atlas view is a link now",
+"summary": "Repin. Which colours are switched off, what is typed in the find box, where the map is looking and which place is open all go in the address bar, so a view can be sent rather than only remembered.",
+"kind": "find"
+},
+{
+"sha": "c0209be",
+"date": "2026-09-20",
+"title": "The front page was audited against the day&#x27;s work, and four things in it were wrong",
+"summary": "David asked whether the home-page diagram still matched the research. It did not, in four places.",
+"kind": "fix"
+},
+{
 "sha": "e48754d",
 "date": "2026-09-20",
 "title": "The 1816 volume is wrong about this couple, and one of today&#x27;s own findings is corrected",
