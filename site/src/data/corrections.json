@@ -2,6 +2,18 @@
  {
   "when": "2026-09-21",
   "sev": "minor",
+  "where": "/open-questions",
+  "plate": "",
+  "by": "row 79, the last year with no index",
+  "what": "Don Giuseppe Cioffi's death act does not exist in the Arienzo civil registers, and his reading is now marked as machine-derived",
+  "was": "**DON GIUSEPPE CIOFFI**, fifty-six, *SACERDOTE*, son of Andrea Cioffi the *possidente* and Orsola Zimbardo, published as dying **4 December 1827** and cited to a leaf and an act that do not exist. The negative was then bounded year by year: 1826–1829 first, then the whole indexed run.",
+  "now": "**He is in no Arienzo death index or register from 1824 to 1843.** The last gap was **1836**, the one year of the twenty with **no index in the series at all**. Its register — `an_ua14338`, 51 images — has now been swept at the band that carries the dead person's name, age and trade.\n\n**The year buries eight religious and not one of them is he**: Don Gennaro Esposito, *sacerdote*, **ninety**; Don Alessandro Bruno, *sacerdote*, **twenty-seven**; Don Francesco de Gentij, *sacerdote*, **forty-six**; a Diglio *sacerdote*; Don Antonio Cimmino, ***seminarista***, **twenty-four**; Suor Fedele Ruggiero, **sixty-three**; Donna Carlotta Rauti, **seventy-three**; and **Donna Raffaela de' Falco**, *monaca*, **sixty-seven** — the gentry nun this archive already holds, her act confirmed here by accident.",
+  "how": "One band, four contact sheets, 51 images. The band was chosen to carry the **trade** as well as the name, because *sacerdote* is a word that can be scanned for where a surname cannot.",
+  "why": "**The reading is recorded as MACHINE-DERIVED. It is not retired, and the difference matters.** Every element of it — the age, the trade, both parents — is independently confirmed by his sister **CELIA CIOFFI**'s act of 3 June 1843, which gives the same father, the same trade and the same mother. **The man is not in doubt; his own document is.** Retiring the reading would delete a person the archive can prove existed; leaving it unmarked would let a citation stand that points at nothing.\n\n**What it cost to get here is the point of the entry.** A citation to a leaf that does not exist took twenty years of indexes and one whole register to convert into an honest negative — and the row that ordered the last of that work had **already been answered** by the coverage page, which is a separate entry on this page. A wrong citation is not a small error. It is a bill that comes due in volumes."
+ },
+ {
+  "when": "2026-09-21",
+  "sev": "minor",
   "where": "/households",
   "plate": "",
   "by": "row 82, and the register's own order",

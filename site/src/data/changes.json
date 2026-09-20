@@ -1,5 +1,12 @@
 [
 {
+"sha": "a835418",
+"date": "2026-09-21",
+"title": "The 1815 marriage register is read end to end -- and the Falco act is 19 MARCH, not May",
+"summary": "All fifteen acts of the first half at 3,200 pixels. The volume is now read complete, both halves, every act at full resolution. Roster with both sets of parents, ages, trades and streets in the note.",
+"kind": "sweep"
+},
+{
 "sha": "53ff183",
 "date": "2026-09-21",
 "title": "tools/staleness_report.py: sixteen hits across twenty-three open rows, and every one of them is the row that was actually stale",
