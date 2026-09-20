@@ -8,6 +8,7 @@ cannot drift from what actually happened. Every entry is a real commit.
 The subject line becomes the headline; the first paragraph of the body becomes
 the summary. Merge commits and pure-chore commits are dropped.
 """
+import html
 import json, subprocess, re, os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -44,8 +45,19 @@ for chunk in raw.split("\x1d"):
         if b and not b.startswith(("Co-Authored", "🤖")):
             para = b; break
     para = re.sub(r"\s+", " ", para)
-    rows.append({"sha": sha[:7], "date": date, "title": subject,
-                 "summary": para[:420], "kind": classify(subject, body)})
+    # A COMMIT MESSAGE IS DATA, NOT MARKUP, and the kit renders both of these
+    # fields with `set:html`. On 20 September 2026 a regeneration of this file
+    # pulled in the commit «Living people noindexed …», whose own summary quotes
+    # the tag it had just added — <meta name="robots" content="noindex, nofollow">
+    # — and Astro wrote that STRAIGHT INTO THE HEAD OF /changes. The page
+    # de-indexed itself, the sitemap listed it anyway, and the deploy refused.
+    # Escape here rather than in the page: git is the untrusted input. QUOTES TOO —
+# escaping only the angle brackets still leaves the literal text
+# `name="robots" content="noindex`, which is exactly what checkarchive.py
+# greps for, so the build went on refusing until the quotes were escaped as well.
+    rows.append({"sha": sha[:7], "date": date, "title": html.escape(subject),
+                 "summary": html.escape(para[:420]),
+                 "kind": classify(subject, body)})
 
 json.dump(rows, open(OUT, "w"), ensure_ascii=False, indent=0)
 import collections

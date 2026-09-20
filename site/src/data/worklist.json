@@ -673,6 +673,14 @@
    "since": "2026-09-20",
    "what": "Reconcile households.tsv against households.json, and make the gate check the evidence and not just the names",
    "note": "**This archive keeps the same facts twice** — `data/households.tsv` and `site/src/data/households.json` — and edits both by hand. `check_release.py` refuses when they disagree about **who is in which household**, keyed on «household, person, event, date». **It has never compared the evidence text**, and on 20 September 2026 **thirty-seven rows were found to disagree about what the document actually says.**\n\n**Three of them mattered and are already fixed.** The TSV held «*Magdalenae **RIVETTA*** — READ FROM THE IMAGE 14 Sep 2026» while the JSON, which the site is built from, still said «**Pivera**» — an OCR guess this archive had disproved six days earlier against a control letter in the same pen. It also held the note that Clemente Falco's parish entry says 1855 where the civil act says 1853.\n\n**The rest is drift and has to be walked.** A person can hold several rows under one date, so the mismatch cannot be resolved by a script without choosing between two readings — which is a judgement, not a merge. **Nothing here may be bulk-copied in either direction.**\n\n**Then the gate.** Once the two files agree, `check_release.py` should compare the evidence as well as the names, so the next correction that stops halfway is refused instead of published. **The whole point of keeping the file twice is lost if only one copy is ever read.**"
+  },
+  {
+   "n": 76,
+   "state": "blocked",
+   "owner": "the kit",
+   "since": "2026-09-20",
+   "what": "sitemap.py and checkarchive.py disagree about where a noindex tag may be",
+   "note": "**`sitemap.py` decides whether a page noindexes itself by reading its first 4,000 bytes.** `checkarchive.py` then refuses the build if the sitemap lists any page whose **whole file** contains such a tag. **So a noindex tag below the fold is invisible to the first and fatal to the second**, and the build fails with a message that points at the page rather than at the disagreement.\n\n**That is exactly what happened on 20 September 2026**, twice, when a commit message quoting a robots tag was rendered into the body of `/changes`. The archive's own bug is fixed — `build_changes.py` escapes what it writes — **but the disagreement is still there for the next archive.**\n\n**Both files are in `@daviddef/archive-kit`, which another session owns.** Reported, not patched. The fix is one line: have `sitemap.py` scan the whole file, or have both agree on the same window."
   }
  ]
 }
