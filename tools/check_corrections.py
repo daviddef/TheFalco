@@ -117,6 +117,9 @@ RETIRED_PHRASES = [
      "the notarial consents are 8 SEPTEMBER 1814, registered at Arienzo 12 September"),
     ("Salvio Morgillo",
      "both 1814 consents were taken by FELICE MORGILLO; no Salvio Morgillo appears in the dossier"),
+    ("D'AMBROGIO maggiore, di anni DICIANNOVE",
+     "she is «di anni TRENOVE» \u2014 thirty-nine \u2014 read at the leaf's full 3,200 pixels; the initial is a "
+     "crossed ascender, and the act calls her MAGGIORE, which nineteen could not be"),
 ]
 
 GUILLEMET = re.compile(r"\u00ab.*?\u00bb", re.S)

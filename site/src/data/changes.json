@@ -1,5 +1,26 @@
 [
 {
+"sha": "d475788",
+"date": "2026-09-20",
+"title": "Repin: the living check now reads the JSON an atlas serves",
+"summary": "An atlas fetches its places from a .json in dist and a search box fetches its index the same way. Both are served to anybody with the URL, and check:living walked past every one of them - it read only .html. Raised by the Luwinski session. Measured across the estate before changing anything: no archive is leaking, because every living name in a served JSON is also a published dead person&#x27;s name and the gate already s",
+"kind": "fix"
+},
+{
+"sha": "78b31f9",
+"date": "2026-09-20",
+"title": "Typing SANZONE now reaches the 40 rows this archive files under SANSONE",
+"summary": "namefold.py had the fold sitting there and nothing read it. A variant list that nothing consumes is the Mazza fault again -- data keyed to something the build never opens -- so this wires site/src/data/namefold.json into tools/build_searchindex.py, applied to the folded haystack and nowhere else.",
+"kind": "site"
+},
+{
+"sha": "ed7c80f",
+"date": "2026-09-20",
+"title": "There is no act 26: generation three married on 15 October 1814, and four errors descended from a 1 read as a 2",
+"summary": "The archive held two answers for the wedding day of the couple this whole line descends through, and nothing compared them. households.json had 15 October 1814 from the marriage index; line.json, plates.json and processetti.json had «act 26 of 15 December 1814» from a transcription of the register itself.",
+"kind": "sweep"
+},
+{
 "sha": "bc281a1",
 "date": "2026-09-20",
 "title": "Michele and Michelangelo Falco are two men, and they both married an Antonia Vigliotti",

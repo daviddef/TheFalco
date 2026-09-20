@@ -8,6 +8,7 @@ import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
 import EveryName from "@daviddef/archive-kit/components/EveryName.astro";
 import { u } from "../../lib/url.js";
 import register from "../../data/register.json";
+import nf from "../../data/namefold.json";   /* variant -> canonical, for search only */
 
 const bare = (n) => String(n || "").replace(/\s*\(.*?\)\s*/g, " ")
   .replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim();
@@ -45,6 +46,6 @@ const many = names.filter(n => n.n > 1).length;
     person. That is why each opens a <strong>name</strong> page rather than a person page, and why
     it never merges them. Where this archive has actually identified somebody, the name page points
     at their <a href={u("/people/")}>person page</a>.</p>
-    <EveryName names={names} u={u} counts="records" />
+    <EveryName fold={nf.fold} names={names} u={u} counts="records" />
   </section>
 </Base>
