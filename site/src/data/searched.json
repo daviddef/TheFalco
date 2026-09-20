@@ -704,10 +704,10 @@
  },
  {
   "when": "1817",
-  "src": "Antenati — the marriage supplement file for Vincenzo Falco's marriage of December 1814.",
+  "src": "Antenati — the marriage supplement file for Vincenzo Falco's marriage of 15 October 1814.",
   "what": "The Arienzo processetti of 1817",
-  "got": "The 1814 volume runs to act 25 and stops; act 26's file is in neither volume. Whether it was never filed, was lost, or sits unscanned is not established.",
-  "outcome": "blocked",
+  "got": "FOUND, and the search had been hunting a number that does not exist. The file is in the 1814 volume at BUNDLE 16, images 265-274, and the marriage it supports is ACT 16 of 15 October 1814. This row previously read «the 1814 volume runs to act 25 and stops; act 26's file is in neither volume» — a null built on «act 26 of 15 December 1814», three elements misread off one line of the register in an earlier session. There is no act 26 in the 1814 marriage register: it runs to act 17 and stops. The bundle number and the act number are the same number.",
+  "outcome": "found",
   "tags": [
    "Antenati",
    "Processetti",

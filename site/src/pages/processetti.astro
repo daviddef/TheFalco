@@ -29,11 +29,11 @@ const bundle = [
   { img: "268", doc: "Adriana (Andreana) Crisci's baptism extract", date: "issued 13 Sept 1814",
     what: "Liber IX, fol. 94 a tergo. Baptised 30 November 1796, daughter of Archangelo Crisci and Sara Ruggiero.",
     plate: "adriana-crisci-baptism-1796.jpg" },
-  { img: "269", doc: "Notarial act 85 — the groom's parents consent", date: "8 December 1814",
+  { img: "269", doc: "Notarial act 85 — the groom's parents consent", date: "8 September 1814",
     what: "Before Felice Morgillo. «li conjugi PASQUALE FALCO del fu MATTEO, e CHIARA RIVETTI del fu NICOLA…»",
     plate: "falco-consent-1814-act85.jpg" },
-  { img: "270", doc: "Notarial act 26 — the bride's parents consent", date: "8 December 1814",
-    what: "Before Salvio Morgillo. «li conjugi ARCANGELO CRISCI fu NICOLA, e SARA RUGGIERO di Pasquale…»",
+  { img: "270", doc: "Notarial act 86 — the bride's parents consent", date: "8 September 1814",
+    what: "Before Felice Morgillo, the same notary and the same day as act 85. «li conjugi ARCANGELO CRISCI fu NICOLA, e SARA RUGGIERO di Pasquale…»",
     plate: "crisci-consent-1814-act26.jpg" },
   { img: "271", doc: "Civil publication act 33 — first banns", date: "Sunday 11 September 1814",
     what: "Read by the sindaco before the door of the town hall at one o'clock. States four ages.",
@@ -54,7 +54,7 @@ const ages = [
 const series = [
   ["Banns, 11 Sept 1814", "23", "22y 7m", "right — in his 23rd year", true],
   ["Banns, 18 Sept 1814", "23", "22y 7m", "right", true],
-  ["Marriage act, 15 Dec 1814", "21", "22y 10m", "wrong by 2", false],
+  ["Marriage act, 15 Oct 1814", "23", "22y 8m", "right — in his 23rd year", true],
   ["Raffaele I's birth, 25 Apr 1816", "35", "24", "wrong by 11", false],
   ["Raffaele II's birth, 10 May 1818", "27", "26y 3m", "right — in his 27th year", true],
   ["A declaration, 1831", "38", "39", "close", null],
@@ -97,7 +97,7 @@ const census = [
 
   <h2>Bundle 16 of 1814 — Falco × Crisci</h2>
   <p class="lede">The file behind <P n="Vincenzo Falco" bold={true} />'s marriage to
-  <P n="Andreana Crisci" bold={true} /> on 15 December 1814. Eight documents, three hands, four
+  <P n="Andreana Crisci" bold={true} /> on 15 October 1814. Eight documents, three hands, four
   months. <Src ark="an_ua14154" img={265} note="Arienzo processetti 1814" /></p>
 
   <div class="scroll"><table>
@@ -128,7 +128,7 @@ const census = [
     RIVETTI del fu NICOLA</strong>, domiciliati … <strong>strada Camellara</strong>».
     This is <strong>the earliest document that names <P n="Matteo Falco" bold={true} /></strong>, and
     the earliest that proves him dead. His death bracket closes from <span class="mono">[1786, Oct
-    1822]</span> to <span class="mono">[1786, 8 Dec 1814]</span>.
+    1822]</span> to <span class="mono">[1786, 8 Sep 1814]</span>.
     <Src plate="falco-consent-1814-act85.jpg" label="the act" /></p>
   </div>
 
@@ -177,7 +177,7 @@ const census = [
 
   <h3>Two new generations</h3>
   <p>The bride's consent act names people no record had reached before —
-  <strong>NICOLA CRISCI</strong>, Arcangelo's father, already dead by December 1814
+  <strong>NICOLA CRISCI</strong>, Arcangelo's father, already dead by September 1814
   (<em>fu</em>), and <strong>PASQUALE RUGGIERO</strong>, Sara's father, still living
   (<em>di</em>, not <em>fu</em>). And it puts the Crisci on <strong>strada Camellara</strong>:
   the two families were neighbours before they were in-laws.
@@ -225,7 +225,7 @@ const census = [
 
   <p>This dossier turned the rest of the question into a dated, falsifiable search: the elder
   Arcangelo could only <em>also</em> have married Anna Falco if his wife <strong>Sara Ruggiero</strong>
-  had died between December 1814 and about 1818. <strong>That search has now been run, and it
+  had died between September 1814 and about 1818. <strong>That search has now been run, and it
   answers.</strong></p>
 
   <div class="card" style="margin:1.1rem 0;border-left:3px solid var(--accent)">
@@ -329,11 +329,17 @@ const census = [
     1815 divider, and concluded that the volume stopped short of act 26. It wrote the conclusion into
     the research queue under <em>“Dead ends, recorded so they are not repeated — do not search these
     two again.”</em></p>
-    <p><strong>It was wrong.</strong> Processetti bundles are numbered in their own sequence,
-    <strong>in the order the banns were published</strong> — not by the number the marriage later
-    received in the marriage register. The 1814 volume holds <strong>seventeen bundles</strong>, and
-    this couple published in September and married in December: <strong>bundle 16, act 26</strong>.
-    The volume was never truncated; the search was looking for the wrong number.</p>
+    <p><strong>It was wrong — and so was the explanation this page first gave for why.</strong>
+    The 1814 volume holds <strong>seventeen bundles</strong>, and this couple's file is
+    <strong>bundle 16</strong>. From September 2026 this page said that was because bundles run in
+    <em>publication</em> order while marriages run in celebration order, so «bundle 16, act 26».</p>
+    <p><strong>There is no act 26.</strong> The marriage register for 1814 was read on 20 September
+    2026 and it runs to <strong>act 17</strong>. This couple is <strong>act 16</strong>, 15 October
+    1814 — the same number as their bundle. Francesco Crisci and Teresa Morgillo are bundle 17 and
+    <strong>act 17</strong>, 2 December 1814. <strong>The bundle number and the act number are the
+    same number</strong>, and the mechanism described above was invented to reconcile a discrepancy
+    that did not exist. The volume was never truncated; the search was looking for a number that was
+    never in it.</p>
     <p class="small"><strong>And this paragraph had to be corrected too.</strong> When it was first
     published, hours earlier the same day, it said <em>“bundle 25's publication is dated 20 November”</em>
     — a figure carried straight out of the note it was overturning, without checking. There is no
@@ -341,8 +347,10 @@ const census = [
     of the year. The mechanism was right; the illustration was inherited rather than verified, which is
     the very failure the paragraph above is about. It is on
     <a href={u("/corrections/")}>Corrections</a> as its own entry.</p>
-    <p class="small">Two rules came out of it. <strong>In a processetti volume, match on the names and
-    the publication date, never on the marriage act number.</strong> And a wrong negative is the most
+    <p class="small">One rule came out of it and it still holds, for a better reason than the one
+    first given: <strong>in a processetti volume, match on the names and the publication date.</strong>
+    The act number happens to work for this volume, but nothing in the volume promises that, and a
+    match on names cannot be wrong. And a wrong negative is the most
     expensive mistake an archive can make, because it stops anyone looking again — so every
     “do not search this again” note here now carries the reasoning that produced it, where the
     reasoning can be checked.</p>

@@ -88,6 +88,63 @@ for rule in RETIRED:
             # So the prose is not checked, and that is a known hole, recorded on
             # the corrections page rather than papered over.
 
+# ---------------------------------------------------------------------------
+# RETIRED PHRASES — the hole the comment above describes, closed for the cases
+# where it CAN be closed.
+#
+# Added 20 September 2026, the day «act 26 of 15 December 1814» was found alive
+# in NINE files and on six published pages, a week after the marriage index had
+# given 15 October. Nothing compared them. The surname rules above could not see
+# it, because it is not a surname and not in a `person` field.
+#
+# Why this one is safe where the general prose check was not. A retired SURNAME
+# is a word the documents themselves legitimately contain, so a regex cannot tell
+# the archive's own withdrawal from an uncorrected claim. A retired PHRASE here is
+# this archive's own wording — «act 26 of 15 December 1814» is not something a
+# register says — so any unquoted occurrence is a claim, not a quotation.
+#
+# The one exemption is the house style: this archive shows a retired reading
+# inside GUILLEMETS, beside the thing that replaced it. So guillemet spans are
+# stripped before the search, which lets «…» quote the dead reading forever and
+# still refuses it as a live statement.
+RETIRED_PHRASES = [
+    ("act 26 of 15 December 1814",
+     "the marriage is ACT 16 of 15 OCTOBER 1814 — read from an_ua14218 img 9, and proved by the "
+     "register's order: act 14 is 2 Oct, act 15 is 6 Oct, act 17 is 2 Dec"),
+    ("ACT No. 26",
+     "same — there is no act 26 in the 1814 Arienzo marriage register; it runs to act 17"),
+    ("8 December 1814",
+     "the notarial consents are 8 SEPTEMBER 1814, registered at Arienzo 12 September"),
+    ("Salvio Morgillo",
+     "both 1814 consents were taken by FELICE MORGILLO; no Salvio Morgillo appears in the dossier"),
+]
+
+GUILLEMET = re.compile(r"\u00ab.*?\u00bb", re.S)
+SKIP = {"corrections.json", "searchindex.json", "changes.json", "researchlog.json",
+        "people.json", "register.json", "living.json", "married-in.json",
+        "people-aliases.json", "people-register.tsv"}
+
+def _scan_dir(d, rel):
+    for name in sorted(os.listdir(d)):
+        if name in SKIP or not name.endswith((".json", ".tsv", ".md")):
+            continue
+        p = os.path.join(d, name)
+        if not os.path.isfile(p):
+            continue
+        try:
+            body = open(p, encoding="utf-8").read()
+        except OSError:
+            continue
+        stripped = GUILLEMET.sub(" ", body)
+        for phrase, why in RETIRED_PHRASES:
+            if phrase in stripped:
+                fails.append(f"{rel}/{name}: the retired reading \u00ab{phrase}\u00bb is still stated "
+                             f"as fact (not inside \u00ab\u00bb) \u2014 {why}")
+
+_scan_dir(DATA, "site/src/data")
+_scan_dir(os.path.join(ROOT, "data"), "data")
+
+
 # A CHILD must not exist twice under two spellings of one household's surname.
 # Restricted to role=child on purpose: a household legitimately holds a mother
 # and a daughter of one forename — Sara Ruggiero the matrina and Sara Falco her
@@ -113,7 +170,8 @@ for h in H:
                          f"(the first)/(the second)")
 
 kids = sum(1 for h in H for m in h["members"] if m.get("role") == "child")
-print(f"check_corrections: {len(H)} households, {kids} child records, {len(RETIRED)} retired reading(s) held")
+print(f"check_corrections: {len(H)} households, {kids} child records, "
+      f"{len(RETIRED)} retired surname(s) and {len(RETIRED_PHRASES)} retired phrase(s) held")
 if fails:
     print(f"\nFAILED — {len(fails)} place(s) where a published correction has not reached the data:\n")
     for f in fails:

@@ -152,8 +152,8 @@ Plate: `site/public/plates/pasquale-falco-death-1834.jpg`
 > sua propria casa **Pasquale Falco, di giorni dieci**, nato in Arienzo, domiciliato ivi,
 > **figlio di Vincenzo Falco**… [strada Camellara]
 
-**Vincenzo Falco is Pasquale's eldest son** — documented at his own marriage, 15 December 1814,
-Arienzo act no. 26: *"Vincenzo Falco, 21, contadino, figlio maggiore di Pasquale Falco"*, m. Andreana
+**Vincenzo Falco is Pasquale's eldest son** — documented at his own marriage, 15 October 1814,
+Arienzo act no. 16: *"Vincenzo Falco, 23, contadino, figlio maggiore di Pasquale Falco"*, m. Andreana
 Crisci. This ten-day-old was born about 15 December 1834, eleven weeks after his grandfather died,
 and given his name — the ordinary Neapolitan custom. He lived ten days.
 

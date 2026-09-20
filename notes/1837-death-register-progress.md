@@ -601,8 +601,8 @@ son.**
 > about **1810** — the year the [Crisci](/crisci) page already assigns him.
 >
 > **2. For the first time, Vincenzo's age agrees with a document.** He is **forty-four** in July 1837,
-> which implies **born 1793** — and **his marriage act of December 1814 makes him twenty-one, which
-> implies exactly the same year.**
+> which implies **born 1793** — and **his marriage act of October 1814 makes him twenty-three, which
+> implies 1791 — two years earlier.**
 >
 > | source | date | stated age | implies born |
 > |---|---|---|---|

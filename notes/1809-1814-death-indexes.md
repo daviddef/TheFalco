@@ -138,13 +138,13 @@ question, not resolved.**
 **No Matteo Falco of the founder's generation appears in the death indexes of 1809–1814.** The one
 Matteo who does appear is a child of another household.
 
-He is documented **dead by 8 December 1814** (the notarial consent act: «Pasquale Falco del fu
+He is documented **dead by 8 September 1814** (the notarial consent act: «Pasquale Falco del fu
 Matteo»). If he had died between 1809 and 1814 he should be in these indexes as an adult, and he is
 not.
 
 > **So Matteo Falco very probably died BEFORE 1809** — before civil registration began at Arienzo.
 > **His death is therefore in the PARISH register and nowhere else**, and the bracket on it narrows
-> from [1786, 8 Dec 1814] to roughly **[1786, 1809]**.
+> from [1786, 8 Sep 1814] to roughly **[1786, 1809]**.
 
 **This is now PROVED rather than probable.** All six years have been read page for page. The one
 Matteo who appears is a child of another household, and no Falco of the founder's generation dies
