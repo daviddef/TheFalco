@@ -4763,30 +4763,6 @@
 "siblings": []
 },
 {
-"slug": "giovanni-cioffi-of-michele-falco-antonia-migliore",
-"name": "Giovanni Cioffi",
-"surname": "CIOFFI",
-"household": "Michele Falco & Antonia Migliore",
-"role": "declarant",
-"events": [
-{
-"event": "named",
-"date": "25 Aug 1842",
-"place": "Arienzo, strada Camellara",
-"evidence": "**Forty-seven**, a contadino of strada Camellara — verified from the image, «*di anni quarantasette*». He is a neighbour; the act does not call him kin, and these registers write «parente» when they mean it.\n\n**THE CLAIM THAT USED TO STAND HERE WAS THE OPPOSITE OF THE TRUTH.** This page said: «*Thirteen months later, at forty-eight, the same man reports the death of CHIARA RIVETTI on the same street. In a register that gives Giuseppe Falco four different ages, this one holds.*» **He is not forty-eight in that act. He is forty-three.** The archive read «quarantatre» from the image on 15 September 2026 and corrected Chiara Rivetti's act — and left the boast standing in two other files. **Forty-seven in August 1842, forty-three in September 1843: he lost four years in thirteen months, and this is one more demonstration that the ages in these registers are guessed.**",
-"ark": "ANTENATI an_ua14344 img35r atto55"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [],
-"children": [],
-"siblings": []
-},
-{
 "slug": "giovanni-cioffi-of-giovanni-cioffi-maria-porrino",
 "name": "Giovanni Cioffi",
 "surname": "CIOFFI",
@@ -4826,6 +4802,30 @@
 ]
 }
 ],
+"siblings": []
+},
+{
+"slug": "giovanni-cioffi-of-michele-falco-antonia-vigliotta",
+"name": "Giovanni Cioffi",
+"surname": "CIOFFI",
+"household": "Michele Falco & Antonia Vigliotta",
+"role": "declarant",
+"events": [
+{
+"event": "named",
+"date": "25 Aug 1842",
+"place": "Arienzo, strada Camellara",
+"evidence": "**Forty-seven**, a contadino of strada Camellara — verified from the image, «*di anni quarantasette*». He is a neighbour; the act does not call him kin, and these registers write «parente» when they mean it.\n\n**THE CLAIM THAT USED TO STAND HERE WAS THE OPPOSITE OF THE TRUTH.** This page said: «*Thirteen months later, at forty-eight, the same man reports the death of CHIARA RIVETTI on the same street. In a register that gives Giuseppe Falco four different ages, this one holds.*» **He is not forty-eight in that act. He is forty-three.** The archive read «quarantatre» from the image on 15 September 2026 and corrected Chiara Rivetti's act — and left the boast standing in two other files. **Forty-seven in August 1842, forty-three in September 1843: he lost four years in thirteen months, and this is one more demonstration that the ages in these registers are guessed.**",
+"ark": "ANTENATI an_ua14344 img35r atto55"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
 "siblings": []
 },
 {
@@ -26386,47 +26386,6 @@
 "siblings": []
 },
 {
-"slug": "matteo-falco-of-michele-falco-antonia-migliore",
-"name": "Matteo Falco",
-"surname": "FALCO",
-"household": "Michele Falco & Antonia Migliore",
-"role": "child",
-"events": [
-{
-"event": "death",
-"date": "24 Aug 1842",
-"place": "Arienzo, strada Camellara",
-"evidence": "«è morto nella sua propria casa MATTEO FALCO D'ANNI DUE, nato in Arienzo» — died at ten at night on 24 August 1842, aged two, so born about 1840. HIS NAME IS THE QUESTION. Neapolitan custom named a first son for his father's father, and the name at the head of this line is MATTEO FALCO, who married Francesca Crisci. That is a reason to look for Michele among Matteo's sons. IT IS NOT EVIDENCE. A naming habit is not a record, and this archive does not build a generation out of one.",
-"ark": "ANTENATI an_ua14344 img35r atto55"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "michele-falco-of-michele-falco-antonia-migliore",
-"name": "Michele Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "antonia-migliore",
-"name": "Antonia Migliore",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": []
-},
-{
 "slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
 "name": "Matteo Falco",
 "surname": "FALCO",
@@ -26466,6 +26425,47 @@
 ]
 }
 ],
+"siblings": []
+},
+{
+"slug": "matteo-falco-of-michele-falco-antonia-vigliotta",
+"name": "Matteo Falco",
+"surname": "FALCO",
+"household": "Michele Falco & Antonia Vigliotta",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "24 Aug 1842",
+"place": "Arienzo, strada Camellara",
+"evidence": "«è morto nella sua propria casa MATTEO FALCO D'ANNI DUE, nato in Arienzo» — died at ten at night on 24 August 1842, aged two, so born about 1840. HIS NAME IS THE QUESTION. Neapolitan custom named a first son for his father's father, and the name at the head of this line is MATTEO FALCO, who married Francesca Crisci. That is a reason to look for Michele among Matteo's sons. IT IS NOT EVIDENCE. A naming habit is not a record, and this archive does not build a generation out of one.\n\n**His mother is ANTONIA VIGLIOTTA, not «Antonia Migliore»** — corrected 20 September 2026 from the image, against the same clerk's spelling in the 1834 act and against his father's own remarriage of 1850 as «vedovo di ANTONIA VIGLIOTI».",
+"ark": "ANTENATI an_ua14344 img35r atto55"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "michele-falco-of-michele-falco-antonia-vigliotta",
+"name": "Michele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonia-vigliotta",
+"name": "Antonia Vigliotta",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
 "siblings": []
 },
 {
@@ -27314,48 +27314,6 @@
 "siblings": []
 },
 {
-"slug": "michele-falco-of-michele-falco-antonia-migliore",
-"name": "Michele Falco",
-"surname": "FALCO",
-"household": "Michele Falco & Antonia Migliore",
-"role": "father",
-"events": [
-{
-"event": "named",
-"date": "alive Aug 1842",
-"place": "Arienzo, strada Camellara",
-"evidence": "«figlio di MICHELE FALCO, di professione contadino, domiciliato ivi» — from the death act of his two-year-old son Matteo Falco, Arienzo Morti 1842 atto 55, 25 August 1842, read at 2800px. Named WITHOUT «fu», so alive. A contadino on strada Camellara, the street of Pasquale Falco and Chiara Rivetti. NO ACT NAMES HIS PARENTS. He is not placed in the line here, and the archive will not place him until an act does.",
-"ark": "ANTENATI an_ua14344 img35r atto55"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [
-{
-"slug": "antonia-migliore",
-"name": "Antonia Migliore",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"children": [
-{
-"slug": "matteo-falco-of-michele-falco-antonia-migliore",
-"name": "Matteo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"siblings": []
-},
-{
 "slug": "michele-falco-of-michele-falco-antonia-vigliotta",
 "name": "Michele Falco",
 "surname": "FALCO",
@@ -27366,8 +27324,15 @@
 "event": "marriage",
 "date": "12 Feb 1850",
 "place": "Arienzo, strada Camellara",
-"evidence": "THE ACT THAT JOINS TWO HOUSEHOLDS THIS ARCHIVE KEPT APART. «*sono comparsi nella Casa Comunale **MICHELE FALCO maggiore, di anni QUARANTATRE, nato in ARIENZO, di professione COLONO, domiciliato in STRADA CAMELLARA, figlio di **RAFFAELE FALCO DEFUNTO**, di professione simile, domiciliato ivi, e di **CHIARA RIVETTI DEFUNTA**, di professione filatrice … **VEDOVO DI ANTONIA VIGLIOTI** … e **GIOVANNA D'AMBROGIO maggiore, di anni DICIANNOVE**, di professione contadina*». **«Michele Falco & Antonia Vigliotta» and «Michele Falco & Maria Giovanna d'Ambrogio» are ONE MAN AND TWO MARRIAGES.** The d'Ambrogio household was known only by a daughter **Antonia born 19 November 1850** — nine months after this wedding.",
+"evidence": "THE ACT THAT JOINS TWO HOUSEHOLDS THIS ARCHIVE KEPT APART. «*sono comparsi nella Casa Comunale **MICHELE FALCO maggiore, di anni QUARANTATRE, nato in ARIENZO, di professione COLONO, domiciliato in STRADA CAMELLARA, figlio di **RAFFAELE FALCO DEFUNTO**, di professione simile, domiciliato ivi, e di **CHIARA RIVETTI DEFUNTA**, di professione filatrice … **VEDOVO DI ANTONIA VIGLIOTI** … e **GIOVANNA D'AMBROGIO maggiore, di anni DICIANNOVE**, di professione contadina*». **«Michele Falco & Antonia Vigliotta» and «Michele Falco & Maria Giovanna d'Ambrogio» are ONE MAN AND TWO MARRIAGES.** The d'Ambrogio household was known only by a daughter **Antonia born 19 November 1850** — nine months after this wedding.\n\n**Verified against the image, work-list row 58 — act 6, and every word holds.** «*L'anno mille ottocento **cinquanta**, il dì **dodici** del mese di **Febrajo**, alle ore **sedici**, avanti di Noi **ARCANGELO DE FUSCO Sindaco***». **The bride's parents had never been recorded here**: **DOMENICO D'AMBROGIO defunto**, contadino, and **CARMINA MANNA**, **filatrice**, and she is of **strada Sant'Andrea**. The church celebration followed the same day at **Sant'Andrea Apostolo**, before **ALFONSO VERDICCHIO** and a **CLEMENTE MOR[GILLO]**.",
 "ark": "ANTENATI an_ua14254 img11r act6"
+},
+{
+"event": "named",
+"date": "alive Aug 1842",
+"place": "Arienzo, strada Camellara",
+"evidence": "«figlio di MICHELE FALCO, di professione contadino, domiciliato ivi» — from the death act of his two-year-old son Matteo Falco, Arienzo Morti 1842 atto 55, 25 August 1842, read at 2800px. Named WITHOUT «fu», so alive. A contadino on strada Camellara, the street of Pasquale Falco and Chiara Rivetti. NO ACT NAMES HIS PARENTS. He is not placed in the line here, and the archive will not place him until an act does.",
+"ark": "ANTENATI an_ua14344 img35r atto55"
 }
 ],
 "sources": [
@@ -27385,7 +27350,16 @@
 ]
 }
 ],
-"children": [],
+"children": [
+{
+"slug": "matteo-falco-of-michele-falco-antonia-vigliotta",
+"name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "siblings": []
 },
 {
@@ -33586,7 +33560,7 @@
 "slug": "antonio-gasparo",
 "name": "Antonio Gasparo",
 "surname": "GASPARO",
-"household": "Michele Falco & Antonia Migliore",
+"household": "Michele Falco & Antonia Vigliotta",
 "role": "declarant",
 "events": [
 {
@@ -35758,48 +35732,6 @@
 ],
 "siblings": [],
 "treeId": 4000713
-},
-{
-"slug": "antonia-migliore",
-"name": "Antonia Migliore",
-"surname": "MIGLIORE",
-"household": "Michele Falco & Antonia Migliore",
-"role": "mother",
-"events": [
-{
-"event": "named",
-"date": "alive Aug 1842",
-"place": "Arienzo, strada Camellara",
-"evidence": "«e di ANTONIA MIGLIORE, domiciliata ivi» — same act, also without «fu», so alive in 1842. Migliore is a common Arienzo surname and no parents are named for her.",
-"ark": "ANTENATI an_ua14344 img35r atto55"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [
-{
-"slug": "michele-falco-of-michele-falco-antonia-migliore",
-"name": "Michele Falco",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"children": [
-{
-"slug": "matteo-falco-of-michele-falco-antonia-migliore",
-"name": "Matteo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"siblings": []
 },
 {
 "slug": "maria-michela-migliore",
@@ -42813,6 +42745,13 @@
 "place": "Arienzo",
 "evidence": "«*VEDOVO DI ANTONIA VIGLIOTI*» — she was dead by 12 February 1850. Her daughter Chiara died in 1846 aged seven and her daughter Carmela on 4 August 1859, which is AFTER this date and therefore a child of the first marriage buried nine years into the second.",
 "ark": "ANTENATI an_ua14254 img11r act6"
+},
+{
+"event": "named",
+"date": "alive Aug 1842",
+"place": "Arienzo, strada Camellara",
+"evidence": "«e di ANTONIA MIGLIORE, domiciliata ivi» — same act, also without «fu», so alive in 1842. Migliore is a common Arienzo surname and no parents are named for her.\n\n**HER SURNAME WAS PUBLISHED HERE AS «MIGLIORE» UNTIL 20 SEPTEMBER 2026.** The act reads «*e di **ANTONIA VIGLIOTTA**, domiciliata ivi*», and the word was set beside the same clerk's «Antonia Vigliotta» in the death act of **MARIA ROSA FALCO**, 30 May 1834, and found to be the same word — the same capital **V**, the same «gli» with its tall l, the same «-otta». **Migliore has no V and no double t.**\n\n**And the marriage act settles it from the other end**: on 12 February 1850 **MICHELE FALCO, colono of strada Camellara**, marries again as «***VEDOVO DI ANTONIA VIGLIOTI***». **One wife, one surname, three acts — 1834, 1842 and 1850.**",
+"ark": "ANTENATI an_ua14344 img35r atto55"
 }
 ],
 "sources": [
@@ -42830,7 +42769,16 @@
 ]
 }
 ],
-"children": [],
+"children": [
+{
+"slug": "matteo-falco-of-michele-falco-antonia-vigliotta",
+"name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "siblings": []
 },
 {
