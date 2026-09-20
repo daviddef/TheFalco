@@ -1,5 +1,12 @@
 [
 {
+"sha": "a1f1884",
+"date": "2026-09-20",
+"title": "Row 75 done: two people were published as «alive» on a signal this archive had disproved",
+"summary": "Sixty rows disagreed about what the document says, not the thirty-seven found this morning -- the number had grown all day because this row&#x27;s own verification work was going into the JSON and being mirrored only narrowly.",
+"kind": "fix"
+},
+{
 "sha": "a50eead",
 "date": "2026-09-20",
 "title": "The map can have the screen",
