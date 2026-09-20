@@ -3020,5 +3020,27 @@
   "now": "**The volume has FORTY-TWO images and SIXTY-EIGHT acts.** Image 47 does not exist; act 84 does not exist. **The citation is withdrawn.**",
   "how": "Work-list row 58. The render tool reported «an_ua14329 has 42 images; 47 is out of range» — and **earlier attempts on the same leaf had returned 403, which this archive's rule says means «wait», never «missing».** Both were true at once: the service was throttling **and** the leaf was never there. **The rule held and was not enough**: a 403 tells you nothing about whether the page exists, so a citation can hide behind one indefinitely.\n\nThe volume was then swept three times: the act number on every leaf from image 30 to 42, and the name line on every act from image 20 to 41. **The last act is 68 and the volume closes with three December deaths — Vincenza Di[?], Antonio Lettieri, Raffaela Zimbardo.** No priest among them.",
   "why": "**The man is not in doubt and the reference is.** His sister **CELIA CIOFFI**'s death act of 3 June 1843 names the same father, the same trade and the same mother, so the household stands on two documents and this is one of them going missing, not the family.\n\n**What it costs is the thing this row exists to protect.** A citation that cannot be followed is not evidence; it is a claim with a footnote shape. **Where the act was actually read is now unknown** — another year's volume, or an index rather than an act. Row 79.\n\n**It is the second impossible citation found today**, after the one that sent a reader to a Maria Porrino instead of an Anna Falco. **That one was recoverable in a single contact sheet. This one is not.**"
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "major",
+  "where": "/corrections",
+  "by": "this archive",
+  "what": "Where «Gaspare Cossi» came from: the index said Gaspare, the act says Cesare, and neither said Cossi",
+  "was": "Corrected earlier on **20 September 2026**: the child buried on 9 August 1826 was published as «**Giuseppe COSSI**, son of **GASPARE COSSI** and Maria Sposito», and the act reads «**GIUSEPPE CIOFFI** … figlio di **CESARE CIOFFI** … e di **MARIA SPOSITO**». **What was not known then was where the wrong reading came from.**",
+  "now": "**The 1826 tavola alfabetica, entry 56**: «*56. **CIOFFI GIUSEPPE** … [Cioffi] **GASPARE** e **SPOSITO MARIA** … A dì **9 agosto** 1826*».\n\n**The index says GASPARE and the act says CESARE. The index says CIOFFI and the archive published COSSI.**",
+  "how": "Work-list row 79, reading the death indexes for 1826–1829 at `an_ua14288`–`14291`.",
+  "why": "**One error was assembled out of two sources and neither was the act.** The forename came from the index, which is wrong; the surname came from somewhere else again, because the index has it right. **A reading built from two second-hand sources looks exactly like a reading**, and nothing in the citation said which part came from where.\n\n**It is also the plainest evidence yet for a rule this archive already has.** The *tavola* is the clerk's own contact sheet: written fast, from the acts, at the end of a year. **It may produce a candidate and never a record.** Where the index and the act disagree, **the act governs** — and this archive had been quoting the index inside guillemets as though it were the act."
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "minor",
+  "where": "/open-questions",
+  "by": "this archive",
+  "what": "Don Giuseppe Cioffi is in none of the four likeliest years, and the negative is bounded",
+  "was": "Work-list row 79 was raised this morning when the citation for **DON GIUSEPPE CIOFFI, fifty-six, SACERDOTE** turned out to point at a leaf and an act that do not exist. It named 1826, 1828 and 1829 as where to look, beside 1827.",
+  "now": "**He is in none of them.** The *tavole alfabetiche* for **1826, 1827, 1828 and 1829** were read — `an_ua14288` to `an_ua14291` — and in every one of them **the C leaf was opened**. **There is no Giuseppe Cioffi, Crisci or Cossi described as SACERDOTE in any of the four years.** The only religious in the stretch are **Crisci Suor Maria Teresa**, a *monaca*, in 1827, and the trades otherwise run contadino, calzolajo, sartore, sensale, vetrajo, amanuense, proprietario, gentiluomo.",
+  "how": "Four index volumes, nine leaves rendered at full page width, the C block read in each.",
+  "why": "**A bounded negative is worth as much as a find and this archive publishes them.** Four years are now closed and the next reader does not repeat them.\n\n**What it leaves.** Either the year is wrong by more than two, or **the reading never came from a death act at all** — and the evidence for that is now stronger, because the same four indexes showed that the archive's «Gaspare Cossi» of 1826 was assembled from an index and a machine transcript. **His parents are not in doubt**: his sister CELIA CIOFFI's act of 3 June 1843 names the same father, the same trade and the same mother. **The man stands on his sister's document; it is his own that has gone missing.**"
  }
 ]
