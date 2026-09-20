@@ -1,5 +1,17 @@
 [
  {
+  "when": "2026-09-21",
+  "sev": "minor",
+  "where": "/searched",
+  "plate": "",
+  "by": "row 79, reading its own instructions against the coverage page",
+  "what": "A work-list row told this archive to read six volumes that the coverage page already said were read",
+  "was": "Work-list row 79, on the missing death act of **DON GIUSEPPE CIOFFI**, closed its last section with «***Still to try**: 1830–1835, and the parish burial register*».",
+  "now": "**1830 to 1835 were already read, and so was every year from 1824 to 1843.** *What has been read* carries two rows saying so — the 1824–1830 sweep, and «*thirteen annual volumes, 55 images, every page's surname column cropped and tiled*» for 1831–1843.",
+  "how": "Looking the row's instruction up on the page whose whole purpose is to answer that question, before opening a single image.",
+  "why": "**The negative is now far wider than the row believed, and better bounded.** He is absent from **twenty consecutive years** of Arienzo death indexes, with the **C** leaf opened in each. Only **1836** is unexamined, because that year has **no index in the series at all** — 1834's index is a single leaf, but it covers **A to C**, so it covers him.\n\n**The fault is structural.** A work-list row's «still to try» is a *claim about what has not been done*, and **nothing in this archive checks it against the file that records what has been done.** This row would have sent a reader to open six volumes for nothing.\n\nIt is the same shape as the stale open question that asked what became of a daughter this archive had already buried: **a finding that lands in one file and never propagates to the file still asking the question** — except that here the two files are the **work list** and the **coverage register**, which are this archive's own instruments for not repeating itself."
+ },
+ {
   "when": "2026-09-20",
   "sev": "minor",
   "where": "/households",
