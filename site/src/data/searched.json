@@ -1,9 +1,35 @@
 [
  {
-  "when": "1831 and 1836",
-  "src": "Arienzo BIRTH registers — the annual tavole. ANTENATI an_ua14428 (1831, 100 images) and an_ua14433 (1836, 128 images), the last three openings of each.",
+  "when": "1832",
+  "src": "Arienzo BIRTH register, 1832 — ANTENATI an_ua14429, 117 images",
+  "what": "Every act read at the PARENTS band — «è nato da [mother] … e da [father] marito della stessa» — hunting **NUNZIATA FALCO**, and reading out the year for the surname while there.",
+  "got": "**NO NUNZIATA. Vincenzo Falco and Andreana Crisci have no child in 1832** — the second of the two years where one fits their sibling spacing, and both are now spent.\n\n**But the year gives THREE Falco births, and one of them is the first child this archive has ever had for its household.**\n\n**PASQUALINA CRISCI**, born **28 June 1832** at thirteen hours, **strada Crisci**, to **ANIELLO CRISCI**, twenty-six, and **GIOVANNA FALCO**, twenty-eight — a granddaughter of **Giuseppe Falco and Antonia di Guida**. That household had held **one** record, its marriage of 1829.\n\n**MARIA CARMELA FALCO**, born **15 July 1832** at half past five, **strada Camellara**, to **FRANCESCANTONIO FALCO**, twenty-six, and **MARIA RAFFAELA FALCO**, eighteen — **the day before the marriage this archive dates to 16 July 1832**.\n\n**MARIA ROSA FALCO**, born **20 July 1832** at eleven, **strada Camellara**, to **MICHELANGELO FALCO**, twenty-six, and **MARIANTONIA VIGLIOTTA**, twenty-eight — and this archive files a Maria Rosa Falco's death of 30 May 1834 under **MICHELE** Falco and Antonia Vigliotta, the other man.\n\n**And the year is thick with the surnames this archive tracks**: a **Francesca Crisci** married to Pasquale Crisci, a **Teresa Crisci** married to Angelo Cimmino, a **Cesare Crisci**, an **Angela Rosa Crisci** married to Clemente Crisci, a **Rosa di Guida** of strada Camellara, a **Pasqua Sansone**, an **Angela Maria Rivetti**, and four more strada Camellara households.",
+  "outcome": "found",
+  "tags": [
+   "Births",
+   "Antenati",
+   "read in full"
+  ],
+  "href": "https://antenati.cultura.gov.it/ark:/12657/an_ua14429"
+ },
+ {
+  "when": "1836",
+  "src": "Arienzo BIRTH register, 1836 — ANTENATI an_ua14433, 128 images",
+  "what": "Every act read for **NUNZIATA FALCO**, a daughter of VINCENZO FALCO and ANDREANA CRISCI who married on 13 November 1855 and whose birth this archive has never found. Swept twice: first at the DECLARANT band, then — when that proved insufficient — at the **PARENTS** band, which names the mother and father of every child.",
+  "got": "**NO FALCO AND NO CRISCI IN A HUNDRED AND TWENTY-FIVE ACTS.** Vincenzo Falco fathered no child registered at Arienzo in 1836, and no Crisci mother appears either.\n\n**THE FIRST SWEEP OF THIS VOLUME WAS NOT GOOD ENOUGH AND IS RECORDED HERE RATHER THAN QUIETLY REDONE.** These acts begin on a RIGHT page and the **parents are named at the top of the NEXT LEFT page**; the right page names only the **declarant**, who is very often the **MIDWIFE** rather than the father. A declarant sweep therefore misses any father whose child was presented by a *levatrice* — and 1832, read the same day, is full of them. The nil below rests on the **parents** band, at 2–21% of the left page, three tiles wide at 2,400 pixels.\n\n**What the year holds**, for whoever comes looking: four births on **strada CAMELLARA**, two SANSONE, an **ALESSANDRO DI GUIDA** and a **FAUSTINA DE GUIDA**, an **ANTONIO CARFORA** of strada Sant'Andrea and two possible **CARFORA** mothers, a **Donna Maddalena Cimmino** and a **Donn'Anna Maria Manna**. **Image 5 duplicates image 4.**",
+  "outcome": "no Falco",
+  "tags": [
+   "Births",
+   "Antenati",
+   "read in full"
+  ],
+  "href": "https://antenati.cultura.gov.it/ark:/12657/an_ua14433"
+ },
+ {
+  "when": "1831, 1832 and 1836",
+  "src": "Arienzo BIRTH registers — the annual tavole. ANTENATI an_ua14428 (1831), an_ua14429 (1832) and an_ua14433 (1836), the last openings of each.",
   "what": "Whether the Arienzo birth volumes of the 1830s carry a usable alphabetical tavola, which is the cheap way to find one child in a year of 130 births",
-  "got": "**THEY DO NOT, AND THE TWO YEARS FAIL IN DIFFERENT WAYS.**\n\n**1831 has no tavola at all.** The volume ends with its last acts — 244, 245 and 246, all late December — then two blank leaves and the Procuratore del Re's certificate. There is no index page anywhere at the back.\n\n**1836 has a tavola and it was never filled in.** Image 127 right carries the printed heading «*Tavola alfabetica annuale de' Nati per l'anno milleottocento*» over its ruled columns — **Cognomi e Nomi de' Nati · Cognomi e Nomi de' Genitori · Giorno della Nascita** — and every cell is empty.\n\n**So the shortcut this archive has used for 1824, 1825 and 1828 is not available in the 1830s.** Finding one child in these years means sweeping the register itself at the declarant band, a hundred to a hundred and fifty images a year. **That is a cost to plan for, not a gap to be surprised by** — and a blank tavola is easy to record as «not read» when it is in fact empty.",
+  "got": "**THEY ARE SPORADIC, AND THEY FAIL IN THREE DIFFERENT WAYS.**\n\n**1831 has no tavola at all.** `an_ua14428` ends with its last acts — 244, 245, 246, all late December — then two blank leaves and the Procuratore del Re's certificate.\n\n**1836 has one and it was never filled in.** `an_ua14433` image 127 right carries the printed heading «*Tavola alfabetica annuale de' Nati per l'anno milleottocento*» over its ruled columns, and every cell is empty.\n\n**1832 has one, filled, and it stops at C.** `an_ua14429` image 116 gives «*Circondario di Arienzo — Tavola alfabetica annuale de' Nati per l'anno milleottocento trentadue 1832*», with **Numero d'ordine · Cognomi e Nomi degli Nati · Cognomi e Nomi de' genitori · Giorno della Nascita · Osservazioni**, and it runs Anzivino, Andrea, Arrigale, Ambrosio, Bernardo, Balletta, Crisci, Cimmino — and the volume ends. **F is not in it.**\n\n**That last shape is one this archive has met before**: the 1834 death index is «a single leaf covering A to C and marked END». **An Arienzo index that stops at C is a pattern, not an accident**, and a search that reaches the C page and finds nothing has not reached F at all.\n\n**So the tavola cannot be trusted as the cheap route in this decade**, and a year must be read at the parents band — about seven contact sheets for 120 images.",
   "outcome": "not there",
   "tags": [
    "Births",

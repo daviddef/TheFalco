@@ -100,7 +100,7 @@ says so, rather than silently averaging the ages.
 - **«Giuseppe FALIO», 38, contadino** (image 72 left, 20 December) is **not** a Falco. Enlarged at
   full resolution, the last two letters are «io», not «co». Recorded here so nobody counts him.
 - **Two Nicola Morgillo at least.** 28 and of strada Sferdarola on 15 July; 36 and of strada
-  Capodiuomo on 21 August; 28 and of strada Sossi on 28 September; and a fourth, 30, a *cavajolo*
+  Capodiconca on 21 August; 28 and of strada Sossi on 28 September; and a fourth, 30, a *cavajolo*
   of **strada Camellara** in January 1818.
 - **Two Francesco Quotolo.** One is dead before July 1817 (Maria Falco's husband). The other is
   alive and declaring on strada Maddalena — given as 39 on 28 September and 33 on 21 October, three
@@ -194,13 +194,13 @@ are written down as read rather than left out.
 | 8 | 6L | 21 Jan | Domenico Ruggiero | Matteo Ruggiero & Maria Rosa Migliore | — | Angelo Bernardo 40 falegname, strada Croce; Raffaele Verdicchio 22 — vicini |
 | 9 | 6R | 30 Jan | Giovanna Perignano | fu Gennaro Perignano & Rosa di Biondo | m. Giuseppe Sansone | Matteo Diglio 40 calzolaio, strada Mercato di S. Angelo; — Diglio 50 bracciale — vicini |
 | 10 | 7L | 3 Feb | Rosa Terracciano | Gennaro Terracciano & Rosa Sorrino | — | Carmine Marletta 28 bracciale, strada Croce; Domenico delle Cave 25 bracciale — vicini |
-| 11 | 7R | 4 Feb | Antonio Grasso | Girolamo Grasso & Domenica Salsi | — | Giovanni Gimbardo 50 bracciale, strada Capodiuomo; Luigi Mentone 40 colono — vicini |
-| 12 | 8L | 11 Feb | Clemente Gimbardo | Francesco Gimbardo & Maria Diglio | — | Aniello Diglio 46 bracciale, strada Capodiuomo; Giovanni Gimbardo 50 bracciale — **parenti** |
+| 11 | 7R | 4 Feb | Antonio Grasso | Girolamo Grasso & Domenica Salsi | — | Giovanni Gimbardo 50 bracciale, strada Capodiconca; Luigi Mentone 40 colono — vicini |
+| 12 | 8L | 11 Feb | Clemente Gimbardo | Francesco Gimbardo & Maria Diglio | — | Aniello Diglio 46 bracciale, strada Capodiconca; Giovanni Gimbardo 50 bracciale — **parenti** |
 | 13 | 8R | 12 Feb | Gennaro Sansone | Fabrizio Sansone & Angela Maria — | — | Angelo Sansone 55 bracciale, **strada Camellara**, **parente**; Giovanni Saccavino 45 bracciale |
 | 14 | 9L | 27 Feb | Maria Migliore | fu Fabio Migliore & Giovanna Laudato | m. Matteo Cimmino | Fortunato Giglio 40 falegname, strada Sant'Andrea; Angelo Cimmino 41 bracciale — vicini |
-| 15 | 9R | 1 Mar | Colomba Laudato | Aniello Laudato & Marta Martone | — | Stefano Cimmino 63 contadino, strada Capodiuomo; Raffaele Martone 70 contadino — **parente** |
+| 15 | 9R | 1 Mar | Colomba Laudato | Aniello Laudato & Marta Martone | — | Stefano Cimmino 63 contadino, strada Capodiconca; Raffaele Martone 70 contadino — **parente** |
 | 16 | 10L | 12 Mar | Mariantonia Terracciano | Gennaro Terracciano & Teresa Sorrino | — | Francesco delle Cave 21 bracciale, strada dell'Ospedale; + Alessandro Martone 70 bracciale — vicini |
-| 17 | 10R | 21 Mar | Antonio Anigale | Domenico Anigale & Giovanna Migliore | — | Vincenzo Grasso 22 vaticale, strada Capodiuomo; Girolamo Grasso 47 vaticale — vicini |
+| 17 | 10R | 21 Mar | Antonio Anigale | Domenico Anigale & Giovanna Migliore | — | Vincenzo Grasso 22 vaticale, strada Capodiconca; Girolamo Grasso 47 vaticale — vicini |
 | 18 | 11L | 20 Mar | **Donn'Antonia Melillo** | fu Don Giuseppe Melillo & Donna Fiaschina degli Filippi | ved. **Don Salvatore Romano** | Giuseppe Sorrino 57 sartore; Nicola Sorrino 42 sartore — vicini |
 | 19 | 11R | 23 Mar | Vincenzo Pacchiuto | Andrea Pacchiuto & Antonia Tuorto | — | Giuseppe Sorrino 55 sartore; Nicola Sorrino 42 sarto — vicini |
 | 20 | 12L | 1 Apr | Francesco Bruno | **Don Carlantonio Bruno** & **Donna Teresa Migliore** | — | Ottavio Migliore 40 barbiere, strada Croce; Tomase Bruno 59 vetturale, strada Portella — **parenti** |
@@ -217,7 +217,7 @@ are written down as read rather than left out.
 | 31 | 17R | 3 May | Gregorio Giglio | fu Segismondo Giglio & — | — | Fortunato Giglio 48 falegname, strada Sant'Andrea; Salvatore Fabrizio 50 pettinatore — |
 | 32 | 18L | 8 May | Raffaele Verdicchio | Paolo Verdicchio & Maria Tofano | — | Raffaele Verdicchio 48 corriere, strada Torre Amonte; Raffaele di Sortella 27 |
 | 33 | 18R | 17 May | Carmina Palumbo | Giuseppe Palumbo & — | m. — Martone | Giuseppe Martone 46 contadino, strada Santa Lucia; Diego Sansone 27 contadino |
-| 34 | 19L | 20 May | Raffaele Cimmino | Ciofaro Cimmino & Nicoletta Sossi | — | Matteo Martone 5x contadino, strada Capodiuomo; Raffaele Martone 74 contadino |
+| 34 | 19L | 20 May | Raffaele Cimmino | Ciofaro Cimmino & Nicoletta Sossi | — | Matteo Martone 5x contadino, strada Capodiconca; Raffaele Martone 74 contadino |
 | 35 | 19R | 1 Jun | Clemente Giovanni Esposito | Biaggio Esposito & Gaetana Gabriele | — | Salvatore Latino 33 sartore; Eugenio Martone 36 inserviente |
 | 36 | 20L | 4 Jun | Gaetana Gabriele (mother of act 35, died 3 days later) | Leonardo Gabriele & Angela Testa | m. Biaggio Esposito | Domenico Turco 70 corriere; Michele Angioino 48 calzolaio |
 | 37 | 20R | 8 Jun | Paolo Verdicchio (father of act 32) | fu Angelo Verdicchio & Rosa Turco | m. Elena Tofano | Matteo Migliore 41 calzolaio; Angelo Diglio 50 vaticale |
@@ -247,12 +247,12 @@ are written down as read rather than left out.
 | 60 | 35L | 28 Jul | Raffaele Diglio | Giuseppe Diglio & Gelsomina Diglio | — | Pellegrino Martone 30 barbiere; Gaetano Laudato 28 bracciale |
 | 61 | 35R | 30 Jul | Isabella d'Arienzo | fu Andrea d'Arienzo & Marta Gaudi | m. Tomaso d'Arienzo | Filippo Divenuto 30 sartore, strada Terra; Arcangelo Angelo 40 contadino |
 | 62 | 36L | 3 Aug | Mariantonia Migliore | Filippo Migliore & Lucrezia Marchese | — | Giuseppe Saccavino 55 bracciale, strada Croce; Raffaele Verdicchio 39 bracciale |
-| 63 | 36R | 5 Aug | Francesca Gimbardo | fu Matteo Gimbardo & Anna Cimmino | — | Luigi Martone 44 contadino, strada Capodiuomo; Antonio Gimbardo 55 contadino |
+| 63 | 36R | 5 Aug | Francesca Gimbardo | fu Matteo Gimbardo & Anna Cimmino | — | Luigi Martone 44 contadino, strada Capodiconca; Antonio Gimbardo 55 contadino |
 | 64 | 37L | 6 Aug | Maria Carmela Macariello | Raffaele Macariello & Domenica Martone | — | Lorenzo Laudato 60 massaro, strada Croce; Angelo Cimmino 44 contadino |
 | 65 | 37R | 6 Aug | Felicella Morgillo | **Nicola Morgillo** & Maria Sarro | — | Lazzaro Pisano 60 fruttajolo; Francescantonio Cimmino 55 fruttajolo |
 | 66 | 38L (=39L, duplicate) | 10 Aug | Francesca Sansone (widow of act 41, died 6 weeks after him) | fu Andrea Sansone & Costanza di Sortella | ved. Domenico Turco | Matteo Migliore 40 calzolaio; Angelo Diglio 50 vaticale |
 | 67 | 38R (=39R) | 10 Aug | Anna Recchino | Giuseppe Recchino & — | — | Giuseppe Macariello 57 contadino, strada Croce; Angelo Cimmino 42 contadino |
-| 68 | 40L | 21 Aug | Ippolito Grasso | Pietro Grasso & Maria Cimmino | — | **Nicola Morgillo 36 contadino, strada Capodiuomo** — a SECOND Nicola Morgillo: the one at act 53 is 28 and of strada Sferdarola, five weeks earlier |
+| 68 | 40L | 21 Aug | Ippolito Grasso | Pietro Grasso & Maria Cimmino | — | **Nicola Morgillo 36 contadino, strada Capodiconca** — a SECOND Nicola Morgillo: the one at act 53 is 28 and of strada Sferdarola, five weeks earlier |
 | 69 | 40R | 15 Aug | Giuseppe Angioino | Aniello Angioino & Vincenza Diglio | — | Raffaele Verdicchio 58 contadino; Marcello Angioino 30 vaticale — **parenti** |
 | 70 | 41L | 22 Aug | Gelsomina Gimbardo | Sabino Gimbardo & Eugenia Martone | — | Celeste Macariello 30 contadino; Agostino Giglio 34 contadino |
 | 71 | 41R | 23 Aug | Rosa Saggese | Pietro Saggese & Andreana Scafora | — | Giuseppe Diglio 40 contadino; Nicola Giglio 35 bottegaio |
@@ -266,7 +266,7 @@ are written down as read rather than left out.
 | 79 | 45R | 27 Aug | Bartolomeo Sossi | Cesare Sossi & **Angela Quotolo** | — | Domenico Sossi 38 contadino, strada Sossi; Giuseppe Sossi 48 contadino |
 | 80 | 46L | 30 Aug | Antonio Diliegro | Domenico Diliegro & Teresa Lettiero | — | Alessandro Martone 50 contadino, strada Croce; Antonio di Nisco 40 contadino |
 | 81 | 46R | 2 Sep | Giovanni Scafora | Guglielmo Scafora & Rosa Laudato | m. Marta del Prete | Gennaro d'Ambrosio 50 sartore; Gaetano Scafora 28 calzolaio |
-| 82 | 47L | 2 Sep | Carmina Martone | Luigi Martone & Orsola Vaccubia | — | Arcangelo Martone 38 contadino, strada Capodiuomo; Cesare Martone 42 contadino — vicino e **parente** |
+| 82 | 47L | 2 Sep | Carmina Martone | Luigi Martone & Orsola Vaccubia | — | Arcangelo Martone 38 contadino, strada Capodiconca; Cesare Martone 42 contadino — vicino e **parente** |
 | 83 | 47R | 4 Sep | Clemente Diglio | Carmine Diglio & Mariangela Sgambato | — | Francesco Martone 57 contadino; Michele Diglio 55 contadino |
 | 84 | 48L | 5 Sep | Gaetano Peggiato | fu Giuseppe Peggiato & Andreana Gimbardo | — | Ottavio Gimbardo 34 contadino; Stefano Cimmino 40 contadino — vicino e **parente** |
 | 85 | 48R | 17 Sep | Angelo Laudato | Andrea Laudato & Gelsomina Montefusco | — | **Francesco Rivetti 30 vaticale (3rd sighting; 35 in April — loose); Salvatore Rivetti 44 vaticale**, both strada Sant'Andrea |
@@ -297,9 +297,9 @@ are written down as read rather than left out.
 | 110 | **61L** | **28 Oct** | **RAFFAELE FALCO** (the first, b. 25 Apr 1816, aged ~18 months) | **VINCENZO FALCO & ANDREANA CRISCI** | — | Sabato Vassallo 26 sportellaro, strada Porta di Sopra; **GIUSEPPE FALCO 37 massaro di campagna, strada Camellara — PARENTI** |
 | 111 | 61R | 28 Oct | Raffaele Scafora | fu Raffaele Scafora & Elisabetta d'Ambrosio | m. Maria Carbone | Sabbatino Scafora 50 contadino, **strada Camellara**; Tomaso Esposito 49 contadino, **strada Camellara** |
 | 112 | 62L | 28 Oct | Nicola di Lucia | Angelantonio di Lucia & Angela di Sortella | — | Michele Altavilla 22 contadino; Pellegrino di Lucia 21 fabbricatore — vicino e **parente** |
-| 113 | 62R | 29 Oct | Alfonso Altavilla | **Signor** Raffaele Altavilla & Maria Rosa Cimmino | — | Aniello Diglio contadino, strada Capodiuomo; Arcangelo Anigale 40 vaticale |
+| 113 | 62R | 29 Oct | Alfonso Altavilla | **Signor** Raffaele Altavilla & Maria Rosa Cimmino | — | Aniello Diglio contadino, strada Capodiconca; Arcangelo Anigale 40 vaticale |
 | 114 | 63L | 30 Oct | Gennaro Alessandro Sossi | Domenico Sossi & Maria Giuseppa Silvestro | — | Raffaele Diglio 32 calzolaio; Raffaele Angioino 19 sartore |
-| 115 | 63R | 2 Dec | Mariantonia Loffreda | Nicola Loffreda & Giovanna Ferrara | — | Raffaele Martone 68 bracciale, strada Capodiuomo; Ferdinando Martone 53 massaro |
+| 115 | 63R | 2 Dec | Mariantonia Loffreda | Nicola Loffreda & Giovanna Ferrara | — | Raffaele Martone 68 bracciale, strada Capodiconca; Ferdinando Martone 53 massaro |
 | 116 | 64L (=65L, duplicate) | 5 Nov | Rosa Oliva | fu Mattia Oliva (act 28, d. 28 Apr) & Anna Saccavino | — | **Tomaso Biondello 41 contadino, strada Camellara**; Tomaso Esposito 47 contadino |
 | 117 | 64R (=65R) | 9 Nov | Rosa Laudato | fu Simone Laudato & Maria Marchese | m. Salvatore Fattorusso | Angelo Laudato 36 calzolaio; Raffaele Laudato 33 calzolaio — **parenti** |
 | 118 | 66L (=67L, duplicate) | 13 Nov | **Padre Agostino Pignatelli** (a priest) | fu Nicola Pignatelli & Grazia Sossi | — | Antonio Bernardi 41 vaticale; Andrea Martone 62 contadino |
@@ -345,3 +345,7 @@ are written down as read rather than left out.
 | 88L | 23 Feb | Salvatore Diglio | Alfonso Diglio & Maria Martone | — | Francesco Martone 42 contadino, strada Sajanella; Cesare Diglio 49 contadino |
 | **88R** | **27 Feb** | **ANGELA «seu LELLA» MAJONE** | **fu Nicola Majone & fu MARIA FALCO** | **m. Giuseppe Sossi** | Aniello Saccavino 71 contadino, strada Sossi; Antonio Sossi 36 contadino |
 | 89 | — | blank form — the volume ends | | | |
+
+---
+
+> **STREET CORRECTED 21 September 2026 — «Capodiuomo» throughout this file is CAPODICONCA.** Six acts were rendered at 3,200 pixels and magnified — 1817 act 11, 1819 act 23, 1821 act 15, 1822 act 65, 1823 act 51 and 1824 act 5 — and every one reads *C-a-p-o-d-i-c-o-n-c-a*, several of them twice in one act. The Arienzo birth registers for 1832 and 1836, read out act by act, give **strada Capodiconca** constantly and **Capodiuomo not once**. The misreading is confined to the 1817–1825 death-register sweeps and is this archive's, not the clerks'.

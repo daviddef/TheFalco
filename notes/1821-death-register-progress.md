@@ -43,7 +43,7 @@ DI RUGGIO**. What would settle it is the Rivetti baptisms, or Chiara's own marri
 ## A trap: a third Carlantonio Morgillo
 
 Image 9 (right), 13 April: **Maria Giuseppa Morgillo**, ten, *«figlia di **CARLANTONIO MORGILLO**,
-di professione Contadino… **e di ANNA ANIGALE**»*, of **strada Capodiuomo**.
+di professione Contadino… **e di ANNA ANIGALE**»*, of **strada Capodiconca**.
 
 Checked at full resolution because a daughter of that name and age could have been Rosa Falco's.
 **She is not.** The mother is Anna Anigale. So Arienzo held **three** Carlantonio Morgillo in these
@@ -53,7 +53,7 @@ years:
 |---|---|---|---|
 | the elder | — | **Manilia Rivetti** | dead by August 1818 |
 | **Rosa Falco's husband** | **strada Maddalena** | **ROSA FALCO** | 33 in 1817 and 1818, 35 in 1819 |
-| a third | **strada Capodiuomo** | **Anna Anigale** | daughter Maria Giuseppa d. 1821 |
+| a third | **strada Capodiconca** | **Anna Anigale** | daughter Maria Giuseppa d. 1821 |
 
 ## Also worth having
 
@@ -96,17 +96,17 @@ as read rather than left out.
 | 6R | 15 Feb | Giuseppe delle Cave, 52, contadino, strada Terra Murata | Gennaro delle Cave & — | m. Giuseppina della Silva | Carlo Solduto 40 fabbricatore; Antonio Bernardo 45 vaticale |
 | 7L | 3 Mar | Angela Teresa Laudato, 15 days, strada Sant'Andrea | Biagio Laudato & — | — | Filippo Giglio 70 falegname; Andrea Martone 40 falegname |
 | 7R | 27 Mar | Michele Pellegrino, artista, born **Cerreto, Provincia di Molise** — died in the **Ospedale di Ave Grazia Plena** | — | m. Zaccaria Bonato | Matteo Migliore 41 calzolajo, comune di San Felice; Domenico Migliore 42 calzolajo |
-| 8L | 4 Aug | Giuseppa Cimmino, 28, contadina, strada Capodiuomo | Giovanni Cimmino & — | ved. A. Bera | Silvio di Pistilli 44 contadino; Luigi Martone 47 vivandiere |
+| 8L | 4 Aug | Giuseppa Cimmino, 28, contadina, strada Capodiconca | Giovanni Cimmino & — | ved. A. Bera | Silvio di Pistilli 44 contadino; Luigi Martone 47 vivandiere |
 | 8R | 7 Aug | Francesca Martone, 45, contadina, strada Santa Lucia — died in the **Ospedale** | fu Matteo Martone & — | ved. Domenico Bonato | Matteo Migliore 40 calzolajo; Domenico Migliore 44 calzolajo |
 | 9L | 9 Aug | Gregorio Mauro, 75, falegname | fu Domenico Mauro & Caterina d'Ambrosio | m. Palma Bruno | Luigi Verdicchio 45 calzolajo, **GENERO**; Alfonzo di Biase 50 barbiere |
-| **9R** | **13 Apr** | Maria Giuseppa Morgillo, 10, contadina, strada Capodiuomo | **CARLANTONIO MORGILLO, contadino, & ANNA ANIGALE** — **NOT Rosa Falco's husband**: a THIRD Carlantonio Morgillo, of strada Capodiuomo. Checked at full resolution. | — | **Gaspare Rivetti 30 contadino, strada Capodiuomo**; Luigi Espositella 43 contadino |
+| **9R** | **13 Apr** | Maria Giuseppa Morgillo, 10, contadina, strada Capodiconca | **CARLANTONIO MORGILLO, contadino, & ANNA ANIGALE** — **NOT Rosa Falco's husband**: a THIRD Carlantonio Morgillo, of strada Capodiconca. Checked at full resolution. | — | **Gaspare Rivetti 30 contadino, strada Capodiconca**; Luigi Espositella 43 contadino |
 | 10L | 20 Aug | Domenicantonio Morgillo, 3, contadino | Giovanni Morgillo & Rosa Cossi | — | Francesco Morgillo 22 contadino, strada Cossi; Antonio Cossi 40 contadino |
-| 10R | 24 Aug | Giovanni Cimmino, 15, contadino | Nicola Cimmino & Mariantonia d'Ambrosio | — | Arcangelo Anigale 51 vaticale, strada Capodiuomo; Paolo Cimmino 26 vaticale, **COGNATO** |
+| 10R | 24 Aug | Giovanni Cimmino, 15, contadino | Nicola Cimmino & Mariantonia d'Ambrosio | — | Arcangelo Anigale 51 vaticale, strada Capodiconca; Paolo Cimmino 26 vaticale, **COGNATO** |
 | 11L | 27 Aug | Francescantonio Cossi, 5 months, strada Cossi | Gioachino Cossi & Faustina Saccavino | — | Aniello Saccavino 60 contadino; Giuseppe Saccavino 40 contadino, **PARENTE** |
 | 11R | 1 May | Maria Gervasio Bonito, 74, strada Sant'Andrea | Antonio — & — | ved. Giuseppe Giglio | Lelio Diglio 60, **PARENTE**; Aniello Grasso 40 contadino |
 | 12L | May | Ottavio Villano, 25, macellajo | fu Luca Villano, contadino & — | m. Grazia Carfora | Agostino Vaccubia 60 sartore, strada Saponari; Gennaro d'Onofrio 44 saponaro |
 | 12R | Jun | Aniello Sossi, 80, contadino | fu Grazio Sossi & — | ved. Chiara Martone | Fedele Grasso 40 contadino, **GENERO**; Bellisario Diglio 35 contadino |
-| 13L | Jun | Feliciella Anigale, 1, strada Capodiuomo | Agostino Anigale, vaticale & Emanuela Altavilli | — | Felice di Pistilli 45 contadino; Luigi Martone 50 contadino |
+| 13L | Jun | Feliciella Anigale, 1, strada Capodiconca | Agostino Anigale, vaticale & Emanuela Altavilli | — | Felice di Pistilli 45 contadino; Luigi Martone 50 contadino |
 | 13R | Jul | Salvatore Merenna, 1, strada del Rezzo | **Arcangelo Merenna, sartore & Teresa Rotondo** — the family of the 1818 «Merenna not Annecchino» near-miss | — | Andrea Poppa 60 bracciale, **PARENTE**; Antonio Bonardo 45 vaticale |
 | 14L | 20 Jun | Raffaela Gemmano, 9, strada Terra Murata | Michele Gemmano, vivendolo & Anna Foggiola | — | Saverio Rasparella sportellaro; Pasquale Rasparella 25 sportellaro |
 | 14R | Jun | Pietro Saccavino, 78, contadino | fu Giuseppe Saccavino & fu Andreana Cossi | ved. Lucia Cimino | Giuseppe Saccavino 40 contadino; Ignazio Cossi 45, **PARENTE** |
@@ -139,18 +139,22 @@ as read rather than left out.
 | 28L (=29L) | 30 Oct | Maddalena Coppa, 2 months, strada Porta di Sopra | Pasquale Coppa, vaticale & — | — | Felippantonio della Morte 21, **CUGINO**; Fabrizio Cossi 25 ferraro |
 | 28R (=29R) | 13 Nov | Bernardo d'Onofrio, 78, calzolajo — died in the **Ospedale** | fu Filippo d'Oro & — | ved. Angela Gimbardo (d. Aug, act 21L) | Matteo Migliore 45 calzolajo; Domenico Migliore 43 calzolajo |
 | 30L | 14 Nov | Maddalena Giglio, 20, contadina, strada Santa Lucia | Carmine Giglio & — | — | **Giovanni Morgillo 58 contadino**; Gennaro Diglio 22 contadino |
-| 30R | 14 Nov | Mariantonia Loffredo, strada Capodiuomo | Nicola Loffredo & — | — | Nicola Migliore 40 contadino; Carmine Carfora 30 contadino |
-| 31L | 24 Nov | Gaspare Cossi, strada Capodiuomo | Lelio Cossi & — | — | Raffaele Diglio 70 vaticale; Luigi Espositella 43 contadino |
+| 30R | 14 Nov | Mariantonia Loffredo, strada Capodiconca | Nicola Loffredo & — | — | Nicola Migliore 40 contadino; Carmine Carfora 30 contadino |
+| 31L | 24 Nov | Gaspare Cossi, strada Capodiconca | Lelio Cossi & — | — | Raffaele Diglio 70 vaticale; Luigi Espositella 43 contadino |
 | 31R | 22 Nov | Raffaele Cossi, 8 days, **strada Camellara** | Giuseppe Cossi & — | — | **Angelo Cossi 43 contadino, strada Camellara; Angelo Cossi 47 sartore, strada Camellara** |
 | 32L | 22 Nov | Nunzia Giglio, 3, strada Porta di Sopra | Pellegrino Giglio, contadino & Celeste Caporo | — | Fedele Grasso 42 contadino; Lorenzo Sforza 30 contadino |
 | 32R | 22 Nov | Giuseppe Martone, 60, contadino, strada Croce dell'Ospedale | fu Giovanni Maria Martone & Anna Bruno | m. Chiara Cimmino | Giuseppe Martone 40 contadino; Giuseppa Maccariello 50 |
-| 33L | 4 Dec | Domenica Anigale, strada Capodiuomo | Giuseppe Anigale, contadino & — | — | Vincenzo Cossi 40 vaticale; Alessandro Cimmino contadino |
+| 33L | 4 Dec | Domenica Anigale, strada Capodiconca | Giuseppe Anigale, contadino & — | — | Vincenzo Cossi 40 vaticale; Alessandro Cimmino contadino |
 | 33R | 3 Dec | Giulia Mauro, strada Sant'Andrea | fu Vincenzo Mauro, vaticale & — | ved. Gregorio Giglio | Fortunato Giglio 45 falegname, **COGNATO**; Luigi Giglio 40 falegname |
 | 34L | 15 Dec | Andrea Terracciano, strada Croce dell'Ospedale | Cosmo Terracciano & — | — | Francesco Rocchetta 50 contadino; Nicola Martone 60 contadino |
 | 34R | 15 Dec | — Cossi, **strada Camellara** — *the image is badly overexposed and this act could not be read in full* | — | — | — Cossi contadino, strada Camellara; Virginio Cossi 20 contadino |
 | 35L | 15 Dec | — *badly overexposed; not read in full* | Felice Popolo & — | m. Nicola Ghelardi | **Nicola Cossi 40, possidente**; Pietro d'Elia 26 contadino |
 | 35R | 22 Dec | **Donna Giuseppa Margarita Sasso, 5, gentildonna**, strada Sant'Andrea | **Don Luigi Sasso, possidente** & — | — | Giuseppe Sansone 60 univendolo; Salvatore Fattorusso 51 pettinatore |
 | 36L | atto 66, 22 Dec | Giovanni Cossi, 72, contadino, strada Fontana | fu Francesco Cossi, contadino & — | m. Ortenzia Laudato | Arcangelo Gimbardo 40 contadino; Giuseppe Magiaro 60 contadino |
-| 36R | atto 76, 27 Dec | **Angelo Altavilli, 61, POSSIDENTE**, strada Capodiuomo | fu Aniello Altavilli, possidente & — | m. Rosa d'Attinzo | Agostino Anigale 26 vaticale, **PARENTE**; Giuseppe Anigale 26 contadino |
+| 36R | atto 76, 27 Dec | **Angelo Altavilli, 61, POSSIDENTE**, strada Capodiconca | fu Aniello Altavilli, possidente & — | m. Rosa d'Attinzo | Agostino Anigale 26 vaticale, **PARENTE**; Giuseppe Anigale 26 contadino |
 | 37L | 30 Dec | Leonarda de Filippis, contadina, **strada Camellara** — died in the **Ospedale** | fu Matteo Ma— & Alessandra Mauriel | m. Sabbatino Bruno | Matteo Migliore 46 calzolajo; Domenico Migliore 47 calzolajo — THE LAST ACT OF THE YEAR |
 | 37R | atto 77 | blank form — the volume ends | | | |
+
+---
+
+> **STREET CORRECTED 21 September 2026 — «Capodiuomo» throughout this file is CAPODICONCA.** Six acts were rendered at 3,200 pixels and magnified — 1817 act 11, 1819 act 23, 1821 act 15, 1822 act 65, 1823 act 51 and 1824 act 5 — and every one reads *C-a-p-o-d-i-c-o-n-c-a*, several of them twice in one act. The Arienzo birth registers for 1832 and 1836, read out act by act, give **strada Capodiconca** constantly and **Capodiuomo not once**. The misreading is confined to the 1817–1825 death-register sweeps and is this archive's, not the clerks'.

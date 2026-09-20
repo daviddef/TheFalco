@@ -126,8 +126,8 @@ as read rather than left out.
 | 13L | 27 Apr | Giuseppa Salcagno | fu Andrea Salcagno & Caterina Boneca | ved. Francesco Mazzone | Angelo Sossi 35 contadino; Andrea Sossi 30 contadino |
 | 13R | 20 Apr | Carmela Verdicchio | Raffaele Verdicchio & Anna Martone | — | Lazzaro Martone 35 contadino; Angelo Giglio 24 contadino |
 | 14L | 28 Apr | Angelo Verdicchio | Simone Verdicchio & Gaspara Anigale | — | Angelo Diglio 24 contadino; Giuseppe Sorrino 26 contadino |
-| 14R | 19 May | Carmela Cimmino | Paolo Cimmino & Maria Laudato | — | Clemente Cimmino 21 vaticale, strada Capodiuomo; Raffaele Giglio 21 vaticale |
-| 15L | 20 May | Maria Martone | Arcangelo Martone & Andriana Anigale | — | Giuseppe Majone 40 contadino; **Paolo Rivetti 45 contadino, strada Capodiuomo** — a SECOND Paolo Rivetti; the first died 25 Mar 1818 — vicino e **parente** |
+| 14R | 19 May | Carmela Cimmino | Paolo Cimmino & Maria Laudato | — | Clemente Cimmino 21 vaticale, strada Capodiconca; Raffaele Giglio 21 vaticale |
+| 15L | 20 May | Maria Martone | Arcangelo Martone & Andriana Anigale | — | Giuseppe Majone 40 contadino; **Paolo Rivetti 45 contadino, strada Capodiconca** — a SECOND Paolo Rivetti; the first died 25 Mar 1818 — vicino e **parente** |
 | 15R | 27 May | Clemente Giglio | Giuseppe Giglio & Antonia Cimmino | — | Raffaele Verdicchio 50 vaticale; Agostino Cimmino 25 vaticale |
 | 16L | 27 May | Carmela d'Ambrosio | Francesco d'Ambrosio & — | m. Giuseppe Coviello | Domenico Manno 27 falegname, strada Santa Lucia; Don Tomaso Guerra 42 speziale |
 | 16R | 3 Jun | Francesco Gagliardo | Carmine Gagliardo & Anna Maria Sossi | — | **Marcello Rivetti 55 vaticale, strada Santa Lucia** — a SECOND Marcello Rivetti; the first died 7 Sep 1818; Nicola Sossi 36 cantiniere |
@@ -153,9 +153,9 @@ as read rather than left out.
 | 27R | 23 Aug | Rosa Bruno | **Don Costantino Bruno** & Teresa Migliore | — | Domenico Vaccubia 27 **clerico**, strada Sajanella; Agostino Vaccubia 52 sartore |
 | 28L | 24 Aug | Nunzia di Ruggio | Giulio di Ruggio & Angela Gimbardo | — | Arcangelo Gimbardo 36 contadino, strada Coppa; Domenico di Nesio 30 contadino |
 | 28R | 24 Aug | Alessandro Martone | fu Lorenzo Martone & Antonia Saccavino | m. Pasqua Diglio | Biase Laudato 30 contadino; Antonio di Ruggio 46 contadino |
-| 29L | 30 Aug | Feliciella Anigale | Nicola Anigale & Agnese Maggione | — | **Raffaele Rivetti 26 contadino; Pasquale Rivetti 24 contadino**, both strada Capodiuomo |
+| 29L | 30 Aug | Feliciella Anigale | Nicola Anigale & Agnese Maggione | — | **Raffaele Rivetti 26 contadino; Pasquale Rivetti 24 contadino**, both strada Capodiconca |
 | **29R** | **6 Sep** | Angelo Quotolo | **Francesco Quotolo & Vittoria DI GUIDA** | — | **Giuseppe Quotolo 67** (65 in Jul 1817 — consistent) **and GIUSEPPE DI GUIDA 68, massari di campagna, strada Maddalena** |
-| 30L | 14 Sep | Bartolomeo Anigale | Alessandro Anigale & Agnese Majone | — | **Raffaele Rivetti 28 contadino, strada Capodiuomo**; Pasquale Vaccubia 30 contadino |
+| 30L | 14 Sep | Bartolomeo Anigale | Alessandro Anigale & Agnese Majone | — | **Raffaele Rivetti 28 contadino, strada Capodiconca**; Pasquale Vaccubia 30 contadino |
 | 30R | 12 Sep | Maria Martone | fu Matteo Martone & **Anna RIVETTI** | m. Nicola Diglio | Fernando Martone 60 contadino; Angelo Martone 21 contadino |
 | 31L | 4 Oct | Angela Laudato | fu Tomaso Laudato & Vittoria Sansone | m. Antonio Terracciano | Gennaro Laudato 32 calzolajo; Notario Simeone 62 scalpellino |
 | 31R | 20 Oct | **Maria RIVETTI** | fu **Francesco Rivetti** & **Anna Diglio** | ved. Gaspare Russo | **Domenico Laudato 30 sartore, strada Camellara; Giuseppe Sossi 32 calzolajo, strada Camellara** |
@@ -167,6 +167,10 @@ as read rather than left out.
 | 34R | 19 Nov | Maddalena Gagliardo | Carmine Gagliardo & Anna Maria Sossi | — | Cesare Carfora 26 contadino; Alessandro d'Ambrosio 42 contadino |
 | 35L | 24 Nov | Faustina Sossi | Michelangelo Sossi & Mariangela Espositella | — | Gennaro Sossi 50 contadino, strada Sossi; Vincenzo Sorrino 60 massaro |
 | 35R | 25 Nov | Francesco Martinisi | Nicola Martinisi & Elisabetta Santise | — | Gabriele Martinisi 28 sartore; Marzio Antonio Martini 24 ferraro |
-| 36L | 8 Dec | Rosa Espositella | Giuseppe Espositella & Rosa Sossi | — | Giuseppe Anigale 36 contadino, strada Capodiuomo; Gennaro Martone 60 contadino |
+| 36L | 8 Dec | Rosa Espositella | Giuseppe Espositella & Rosa Sossi | — | Giuseppe Anigale 36 contadino, strada Capodiconca; Gennaro Martone 60 contadino |
 | 36R | 20 Dec | Maria Michele Straffolino | **Don Raffaele Straffolino** & Anna Ciro | — | **Don Michelangelo Litro 40, sacerdote**; **Don Nicola Pignatelli 27, studente** — THE LAST ACT OF THE YEAR |
 | 37 | — | blank forms — the volume ends | | | |
+
+---
+
+> **STREET CORRECTED 21 September 2026 — «Capodiuomo» throughout this file is CAPODICONCA.** Six acts were rendered at 3,200 pixels and magnified — 1817 act 11, 1819 act 23, 1821 act 15, 1822 act 65, 1823 act 51 and 1824 act 5 — and every one reads *C-a-p-o-d-i-c-o-n-c-a*, several of them twice in one act. The Arienzo birth registers for 1832 and 1836, read out act by act, give **strada Capodiconca** constantly and **Capodiuomo not once**. The misreading is confined to the 1817–1825 death-register sweeps and is this archive's, not the clerks'.
