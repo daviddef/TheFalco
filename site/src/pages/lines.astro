@@ -3,12 +3,25 @@ import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import Tributaries from "../components/Tributaries.astro";
+import Strands from "../components/Strands.astro";
 ---
 <Base title="Where they went"
       eyebrow="Where this family went, and who went with them"
       dek="Seven generations never left Arienzo. Then, inside a single lifetime, the line moved four times and crossed the world. This is that movement — and, beneath it, the other Falco of the same parish and the same street whom no record joins to it.">
 
   <Tributaries />
+
+  <h2>Where each of these Falco came from, and where each of them went</h2>
+  <p>The figure above is <strong>one family moving</strong>. This one is <strong>five strands of one
+  surname</strong>, drawn the way the de Franceschi archive draws its five: a spine of places in date
+  order, a fan of where each ends up, and a line in small capitals saying how well it is documented.
+  <strong>A dashed strand goes nowhere this archive can follow, or is not this family.</strong></p>
+  <Strands />
+  <p class="small"><strong>The four households on strada Camellara are deliberately not in it.</strong>
+  They never move, and a figure about where people came from would have to invent a journey for them.
+  They are in the band at the foot of the first figure, which exists to say <em>these do not
+  connect</em>. <strong>Only the top strand is this family.</strong> The other four are Falco this
+  archive can name, date and place — and cannot join.</p>
 
   <div class="card" style="margin-bottom:1.1rem;border-left:3px solid var(--rule,currentColor)">
     <p><strong>Generation nine is living, and this diagram got that wrong on the day it was built.</strong>
