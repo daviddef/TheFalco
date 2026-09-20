@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4322",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run atlas && npm run publish:index && astro build && npm run check && npm run sitemap && npm run check:living && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:corrections && npm run check:evidence",
+    "build": "npm run atlas && npm run publish:index && astro build && npm run check && npm run sitemap && npm run check:living && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:corrections && npm run check:evidence",
     "preview": "astro preview --port 4322",
     "check": "python3 ../tools/check_release.py",
     "build:nocheck": "astro build",
@@ -17,7 +17,8 @@
     "check:worklist": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkworklist.py --root .",
     "check:covers": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkcovers.py --root .",
     "check:corrections": "python3 ../tools/check_corrections.py",
-    "check:evidence": "python3 ../tools/check_person_evidence.py"
+    "check:evidence": "python3 ../tools/check_person_evidence.py",
+    "check:templates": "python3 node_modules/@daviddef/archive-kit/kit/tools/checktemplates.py --root ."
   },
   "dependencies": {
     "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#4400ea8eec9960bb3cfb639a3958c786630176aa",
