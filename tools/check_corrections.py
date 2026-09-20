@@ -40,6 +40,9 @@ RETIRED = [
      "read as GASPARO, probable and unsettled", "Antonio"),
     ("Serafina", "Stefano Scarpati & Faustina Cimmino",
      "both the 1840 and the 1842 act name her FAUSTINA; Serafina was this archive's misreading"),
+    ("Cioffi", "Gioacchino Crisci & Francesca Falco",
+     "both acts this household rests on — Luca's of 1829 and Aniello's of 1843 — read CRISCI at "
+     "magnification: a narrow r, no round o, no double-f ascender"),
 ]
 
 fails = []
