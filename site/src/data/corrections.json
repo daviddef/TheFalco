@@ -2602,5 +2602,16 @@
   "now": "«*di anni **quarantasei***» — **forty-six**. Tomaso Sposito's fifty is right, and so is everything else in the act.",
   "how": "Work-list row 58. Arienzo Morti 1826, `an_ua14328` img13L act 22.",
   "why": "**The age is trivial. What his surname did is not.** Magnifying «*Angelo **Sanſone***» in this act gave the archive a control it had been missing two volumes earlier: **the same long ſ, in the same shape, in the same street**. It is what settled the surname of **FELICIA SANSONE**, wife of the Gennaro Morgillo who died in 1843 — published here as «Sompone», where the «p» was a long s all along — and so it is what turned a four-way agreement into a five-way one for the identification of **Crescenzo Falco's father-in-law**.\n\n**A control letter is worth more than a confident reading**, and this archive keeps relearning it."
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "minor",
+  "where": "/changes",
+  "by": "this archive",
+  "what": "A commit message that quoted a noindex tag became one, and de-indexed the page it was printed on",
+  "was": "**`/changes` is generated from this archive's own commit history**, and the kit renders each entry's summary as HTML. One of those commits is «*Living people noindexed, Lucia Coppa never existed…*», and its summary **quotes the very tag it had just added** — a `robots` meta element carrying *noindex, nofollow*, written out in full, angle brackets and all.\n\n**Astro wrote that straight into the page.** `/changes` de-indexed itself, the build's own sitemap listed it anyway, and **the deploy failed twice before it was found**.",
+  "now": "`tools/build_changes.py` now escapes the subject and the summary — **angle brackets and quotes both** — before writing them. **A commit message is data, not markup.**",
+  "how": "David reported the failed deploy. The job log named the page.",
+  "why": "**The entry had been in the file for nine days and had never rendered, because `changes.json` was stale** — the same fault found the same morning in `researchlog.json`. Regenerating it from git, correctly, is what made the tag real. **A generator that has not been run is not a generator; it is a cache nobody is checking.**\n\n**Escaping only the angle brackets was not enough**, and the second attempt failed too: what the gate greps for is the *text* of the attributes, not the brackets, so the quotation marks had to be escaped as well.\n\n**And then this very correction brought the build down a third time.** Written out plainly, it quoted the tag once more — and `/corrections` renders its own prose as HTML too. **The sentence describing the bug reproduced it.** It is now written in words instead, and that is the standing rule for these pages: **describe markup, never quote it.**\n\n**The two guards also disagree with each other.** The sitemap builder looks for a noindex tag **in the first 4,000 bytes** of a page; the archive checker reads the whole file. A noindex deep in a page's body is therefore invisible to one and fatal to the other. **That is in the shared kit, which another session owns, and it is reported rather than patched here** — work-list row 76."
  }
 ]
