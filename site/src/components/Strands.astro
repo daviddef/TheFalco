@@ -1,0 +1,182 @@
+---
+import { u } from "../lib/url.js";
+/* WHERE EACH OF THESE FALCO CAME FROM, AND WHERE EACH OF THEM WENT.
+ *
+ * The same visual grammar as the de Franceschi archive's strands figure, which
+ * David asked this one to match: one band per strand, a spine of places in date
+ * order, a fan of destinations on the right, and a status line in small capitals
+ * that says how well the strand is documented. Dashed means «this goes nowhere
+ * we can follow» or «this is not this family».
+ *
+ * WHAT THIS FIGURE IS FOR, AND WHY IT IS NOT THE OTHER ONE. The de Franceschi
+ * strands are five families arriving in Istria from five directions. The Falco
+ * problem is the opposite shape: ONE line that stays put for seven generations
+ * and then crosses the world in a single lifetime, and FOUR other groups of the
+ * surname that this archive can name and cannot join to it. So the first band is
+ * the line and the rest are the strands it is not.
+ *
+ * THE FOUR HOUSEHOLDS ON STRADA CAMELLARA ARE DELIBERATELY NOT HERE. They never
+ * move; a figure about where people came from would have to invent a journey for
+ * them. They are drawn on /lines, in the band that exists to say «these do not
+ * connect».
+ *
+ * EVERY NODE IS A DOCUMENT. Nothing in this figure is inferred, and the numbers
+ * in the last band are counts of harvested rows, not of people. */
+
+const BANDS = [
+  {
+    key: "line", tint: "var(--r-italy)", title: "Out of Arienzo, by marriage",
+    status: "DOCUMENTED · SEVEN GENERATIONS, 1767–1901",
+    read: "The seven generations →", href: "/families/",
+    spine: [
+      ["Arienzo", "1767", "Seven generations, most of them on one street — strada Camellara."],
+      ["Forchia", "1930", "Generation eight was born here because generation seven married an Annecchino of Forchia. A marriage moved a family that had not moved in seven generations."],
+      ["Benevento", "1955", "Where Carmine Falco married Francesca Zampiello of Arpaia."],
+      ["Brisbane", "1964", "The ss SYDNEY of the Lauro Lines, Genoa to Brisbane, arrived 26 March 1964."],
+    ],
+    fan: [["Nudgee", false, "Five Falco graves in the Catholic cemetery at Nudgee, Brisbane."]],
+  },
+  {
+    key: "paolisi", tint: "var(--terra)", title: "Out of Paolisi, into Arienzo",
+    status: "DOCUMENTED · NOT JOINED",
+    read: "Open questions →", href: "/open-questions/",
+    spine: [
+      ["Paolisi", "by 1714", "«infanti nato ex FRANCISCO FALCO CASALIS PAULISII» — the baptism states his origin outright. It is the earliest Arienzo Falco household with a stated place of origin."],
+      ["Arienzo", "1714", "Giuseppe, baptised at Sant'Andrea in July 1714."],
+      ["Arienzo", "1717", "A son whose given name will not read as either Matteo or Martino."],
+      ["Arienzo", "1726", "Domenico, baptised February 1726 — the last of them."],
+    ],
+    fan: [["no trace after 1726", true, "Twelve years before Matteo's generation, and nothing whatever joins it to this line. It would be a satisfying answer to where the family came from, which is exactly why it is drawn apart."]],
+  },
+  {
+    key: "sanfelice", tint: "var(--ochre)", title: "The Falco of San Felice a Cancello",
+    status: "DOCUMENTED · NOT CLAIMED",
+    read: "The wider family →", href: "/wider-family/",
+    spine: [
+      ["San Felice a Cancello", "1637", "«ho battezzato la figlia di TOMASO FALCO e MARTA MARA coniugi … e li ho imposto nome LUCRETIA» — written in Italian, not Latin. The earliest Falco entry this archive holds anywhere."],
+      ["San Felice a Cancello", "1815", "SEBASTIANO FALCO and his son LUIGI, eighteen, both SAPUNARO — soap-makers — of strada Croce di San Felice, with COLOMBA MONTEFUSCO, fifty-five, filatrice."],
+      ["Arienzo", "1815", "Luigi Falco marries at Arienzo as a minor, assisted by both parents. It is the only crossing between the two towns in the Falco name."],
+    ],
+    fan: [["Angela Rosa Morgillo, b. 1818", true, "Generation four's wife was born at San Felice a Cancello three years later, on 24 February 1818, at the Massaria delle Fosse. THE SAME TOWN IS NOT A CONNECTION. Nothing joins the soap-makers to her or to this line."]],
+  },
+  {
+    key: "gentry", tint: "var(--r-habsburg)", title: "The gentry Falco of Arienzo",
+    status: "DOCUMENTED · NOT JOINED",
+    read: "The registers →", href: "/antenati/",
+    spine: [
+      ["Arienzo", "by 1769", "DON FRANCESCO FALCO, PROPRIETARIO, and DONNA MADDALENA SICILIANO — her name read from the image on 20 September 2026 and new to this archive."],
+      ["Ave Gratia Plena", "1836", "«è morta nel Monastero d'AVE GRATIA PLENA, DONNA RAFFAELA DE' FALCO, d'anni SESSANTASETTE … di professione MONACA, figlia di DON FRANCESCO FALCO Defunto, di professione PROPRIETARIO»."],
+    ],
+    fan: [["nothing after 1836", true, "A landowner and his daughter, a nun dead at sixty-seven. Ours are contadini and braccianti. Plainly a different household living elsewhere in the same town."]],
+  },
+  {
+    key: "caudina", tint: "var(--r-feudal)", title: "The Falco of the valle Caudina",
+    status: "HARVESTED · NEVER READ · NOT CLAIMED",
+    read: "Open questions →", href: "/open-questions/",
+    spine: [
+      ["Paolisi", "406 rows", "Four hundred and six Falco harvested from the Paolisi registers. All of them reach the register and the search index; not one of them is claimed as kin."],
+      ["Moiano", "310 rows", "Three hundred and ten more. Deciding whether any of these belongs to this family is a reading job on a thousand rows that has never been started."],
+    ],
+    fan: [["no household, by decision", true, "Giving them a household would be a claim, not a promotion. They are searchable and they are unjoined, and that is the honest state of them."]],
+  },
+];
+
+/* ---- geometry ------------------------------------------------------------ */
+const W = 1180;
+const BAND_H = 176, BAND_GAP = 14, PAD_T = 46;
+const SX0 = 232, SX1 = 748;                 /* the spine reach */
+const FAN_X = 952, LAB_X = 968;
+const bandY = (i) => PAD_T + i * (BAND_H + BAND_GAP);
+const H = PAD_T + BANDS.length * (BAND_H + BAND_GAP) + 8;
+const nodeX = (i, n) => (n === 1 ? SX0 : SX0 + i * ((SX1 - SX0) / (n - 1)));
+const fanY = (j, n, y) => (n === 1 ? y : y - 22 + j * (44 / (n - 1)));
+---
+<figure class="strands">
+  <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-labelledby="strandsttl">
+    <title id="strandsttl">Where each of these Falco came from and where each of them went — one line and the four strands of the same surname that no record joins to it</title>
+
+    <text x="12" y="24" class="s-band-ttl" fill="var(--ink-2)">One line, and four strands of the same surname that no record joins to it</text>
+
+    {BANDS.map((b, bi) => {
+      const y0 = bandY(bi), sy = y0 + 104, n = b.spine.length;
+      return (
+        <g class="s-band">
+          <rect x="8" y={y0} width={W - 16} height={BAND_H} rx="10"
+                fill={b.tint} opacity="0.055" />
+          <text x="32" y={y0 + 30} class="s-ttl" fill={b.tint}>{b.title}</text>
+          <text x="32" y={y0 + 50} class="s-status" fill="var(--ink-3)">{b.status}</text>
+          <a href={u(b.href)}>
+            <text x="32" y={y0 + BAND_H - 18} class="s-read" fill={b.tint}>{b.read}</text>
+          </a>
+
+          <line x1={nodeX(0, n)} y1={sy} x2={nodeX(n - 1, n)} y2={sy}
+                stroke={b.tint} stroke-width="3" opacity="0.75" />
+
+          {b.spine.map((s, i) => (
+            <g class="node" tabindex="0" role="button"
+               data-place={s[0]} data-year={s[1]} data-lane={b.title} data-why={s[2]}>
+              <title>{s[0]} — {s[1]}</title>
+              <text x={nodeX(i, n)} y={sy - 26} class="s-place">{s[0]}</text>
+              <circle cx={nodeX(i, n)} cy={sy} r="9" fill="var(--panel)" stroke={b.tint} stroke-width="3" />
+              <circle cx={nodeX(i, n)} cy={sy} r="3.2" fill={b.tint} />
+              <text x={nodeX(i, n)} y={sy + 30} class="s-year" fill={b.tint}>{s[1]}</text>
+            </g>
+          ))}
+
+          {b.fan.map((f, j) => {
+            const ty = fanY(j, b.fan.length, sy);
+            return (
+              <g class="node" tabindex="0" role="button"
+                 data-place={f[0]} data-year="" data-lane={b.title} data-why={f[2]}>
+                <title>{f[0]}</title>
+                <path d={`M ${nodeX(n - 1, n) + 9} ${sy} C ${nodeX(n - 1, n) + 110} ${sy}, ${FAN_X - 90} ${ty}, ${FAN_X} ${ty}`}
+                      fill="none" stroke={b.tint} stroke-width="2.2"
+                      opacity={f[1] ? 0.5 : 0.85}
+                      stroke-dasharray={f[1] ? "7 6" : "0"} />
+                <circle cx={FAN_X} cy={ty} r="4" fill={f[1] ? "var(--panel)" : b.tint}
+                        stroke={b.tint} stroke-width="2" />
+                <text x={LAB_X} y={ty + 4} class={f[1] ? "s-dest s-dim" : "s-dest"}>{f[0]}</text>
+              </g>
+            );
+          })}
+        </g>
+      );
+    })}
+  </svg>
+</figure>
+<p class="s-hint">Swipe the figure sideways to follow each strand to its end.</p>
+
+<style>
+  .strands { margin: 1.4rem 0 1.2rem; }
+  .strands svg { width: 100%; height: auto; display: block; }
+  .s-band-ttl { font: 500 11px/1.2 var(--mono);
+                letter-spacing: .14em; text-transform: uppercase; }
+  .s-ttl    { font: 600 17px/1.2 var(--serif); }
+  .s-status { font: 400 10.5px/1.2 var(--mono);
+              letter-spacing: .13em; }
+  .s-read   { font: 500 13px/1.2 var(--sans); }
+  .s-read:hover { text-decoration: underline; }
+  .s-place  { font: 600 15px/1.2 var(--sans);
+              fill: var(--ink); text-anchor: middle; }
+  .s-year   { font: 400 12.5px/1.2 var(--mono); text-anchor: middle; }
+  .s-dest   { font: 400 14.5px/1.2 var(--sans); fill: var(--ink); }
+  .s-dim    { fill: var(--ink-3); font-style: italic; }
+  .node     { cursor: help; }
+  .node:focus-visible circle { outline: 2px solid var(--accent); outline-offset: 3px; }
+  /* the base rule must precede the media query, or source order wins and the
+     hint never appears — which is how it shipped for one build. */
+  .s-hint { display: none; font: 400 12px/1.4 var(--sans); color: var(--ink-3);
+            margin: .3rem 0 0; }
+  /* ON A NARROW SCREEN THIS FIGURE SCROLLS RATHER THAN SHRINKS.
+     Letting a 1180-unit SVG fit a 375px phone scales it to 29% and every label
+     in it becomes unreadable — the figure is still «there» and says nothing.
+     So below the breakpoint it keeps a legible minimum width and the reader
+     swipes it, which is what the drawing is for. */
+  @media (max-width: 860px) {
+    .strands { overflow-x: auto; -webkit-overflow-scrolling: touch;
+               scrollbar-width: thin; padding-bottom: .4rem; }
+    .strands svg { min-width: 860px; }
+    .s-hint { display: block; }
+  }
+
+</style>
