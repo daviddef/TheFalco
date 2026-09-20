@@ -27,19 +27,33 @@ def load(n): return json.load(open(os.path.join(DATA, n), encoding="utf-8"))
 
 # A retired reading, the household it was retired IN, and the correction that did it.
 # Add a row here whenever a correction retires a name; the gate then holds it.
+# An optional FOURTH element narrows a rule to ONE person's forename. It is there
+# because on 20 September 2026 a declarant published as «Antonio Cioffi» turned
+# out not to be a Cioffi at all — while GIOVANNI CIOFFI, genuinely a Cioffi, sits
+# in the same household two lines below him in the same act. A household-wide
+# rule would have refused the build over a name that is correct.
 RETIRED = [
     ("Cossi",  "Francesco Cioffi & Maria Falco",
      "the strada Camellara household is CIOFFI — corrected from the 1825 register at full resolution"),
+    ("Cioffi", "Michele Falco & Antonia Migliore",
+     "the first declarant of Morti 1842 act 55 has no double-f ligature and is not a Cioffi; "
+     "read as GASPARO, probable and unsettled", "Antonio"),
+    ("Serafina", "Stefano Scarpati & Faustina Cimmino",
+     "both the 1840 and the 1842 act name her FAUSTINA; Serafina was this archive's misreading"),
 ]
 
 fails = []
 H = load("households.json")
-for rule_name, household, why in RETIRED:
+for rule in RETIRED:
+    rule_name, household, why = rule[0], rule[1], rule[2]
+    only = rule[3] if len(rule) > 3 else None
     pat = re.compile(r"\b" + re.escape(rule_name) + r"\b")
     for h in H:
         if h["name"] != household:
             continue
         for m in h["members"]:
+            if only and not str(m.get("person") or "").startswith(only):
+                continue
             # the ACT may spell it the retired way; the PERSON may not.
             if pat.search(str(m.get("person") or "")):
                 fails.append(f"{household}: person «{m['person']}» still carries the retired "

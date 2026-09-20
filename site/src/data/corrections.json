@@ -2613,5 +2613,49 @@
   "now": "`tools/build_changes.py` now escapes the subject and the summary — **angle brackets and quotes both** — before writing them. **A commit message is data, not markup.**",
   "how": "David reported the failed deploy. The job log named the page.",
   "why": "**The entry had been in the file for nine days and had never rendered, because `changes.json` was stale** — the same fault found the same morning in `researchlog.json`. Regenerating it from git, correctly, is what made the tag real. **A generator that has not been run is not a generator; it is a cache nobody is checking.**\n\n**Escaping only the angle brackets was not enough**, and the second attempt failed too: what the gate greps for is the *text* of the attributes, not the brackets, so the quotation marks had to be escaped as well.\n\n**And then this very correction brought the build down a third time.** Written out plainly, it quoted the tag once more — and `/corrections` renders its own prose as HTML too. **The sentence describing the bug reproduced it.** It is now written in words instead, and that is the standing rule for these pages: **describe markup, never quote it.**\n\n**The two guards also disagree with each other.** The sitemap builder looks for a noindex tag **in the first 4,000 bytes** of a page; the archive checker reads the whole file. A noindex deep in a page's body is therefore invisible to one and fatal to the other. **That is in the shared kit, which another session owns, and it is reported rather than patched here** — work-list row 76."
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "major",
+  "where": "/households",
+  "by": "this archive",
+  "what": "Marta Cioffi was seven years old, and the words this archive put in quotation marks are not in the act",
+  "was": "«*È morta nella sua propria casa **MARTA CIOFFI D'UN MESE**.*» **One month old** — published with the Italian in quotation marks, in the household file and in the 1840 reading log. Arienzo Morti 1840, act 73, `an_ua14342` img45R.",
+  "now": "«*è morta nella sua propria casa **MARTA CIOFFI d'anni SETTE***» — **seven years old**, born about 1833. Died at eight in the morning on **6 November 1840**.",
+  "how": "Work-list row 58, the tenth volume. The words were magnified before anything was changed; «d'anni sette» is written plainly and is not close to «d'un mese».",
+  "why": "**This is the worst error this row has found, and it is not the number.** A wrong age is a wrong number and a reader can suspect it. **A quotation the document does not contain cannot be suspected at all** — it is the one thing on this site that is supposed to be beyond argument. **The archive invented a sentence and set it in quotation marks.**\n\n**The same act mis-aged both its declarants**: CLEMENTE CIOFFI is thirty-six, not thirty-four, and VIRGILIO CIOFFI is twenty-three, not twenty-eight.\n\n**Nothing about the family changes.** Marta is still the daughter of Giovanni Cioffi and Maria Porrino of strada Camellara. **What changes is that she lived seven years and this archive had buried her at one month.**"
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "major",
+  "where": "/households",
+  "by": "this archive",
+  "what": "«The steadiest age series in these registers» was wrong at both ends, and the man got younger",
+  "was": "Of **GIOVANNI CIOFFI**, the contadino of strada Camellara who reported Chiara Rivetti's death: «*his stated age is, after the first entry, the steadiest series in these registers: **FORTY in 1840, FORTY-SEVEN in August 1842, FORTY-EIGHT in September 1843**. In a register that gives Giuseppe Falco eleven different ages, **this clerk got one right**.*» A second page said the same thing in fewer words.",
+  "now": "**The 1840 act gives him no age at all.** He appears in it as the dead child's father, and fathers are not aged in these acts. **The 1843 act says FORTY-THREE, not forty-eight.**\n\nThe series is: **forty-seven in August 1842, forty-three in September 1843.** He got four years younger in thirteen months.",
+  "how": "Work-list row 58. «*di anni quarantasette*» and «*di anni quarantatre*» were magnified side by side; they are visibly different words, the second two letters shorter.",
+  "why": "**The archive had already read the 1843 act correctly.** On 15 September 2026 it magnified that act, published thirty-three and forty-three for the two declarants, and corrected Chiara Rivetti's page — **and left «forty-eight» standing in two other files, still carrying the conclusion built on it.** That is the same fault as «Pivera», found the same morning: a correction that reached one file.\n\n**The inversion is what matters.** The one man this archive held up as proof that a clerk could keep an age straight turns out to be another proof that they could not — which is what the rest of the evidence here has said all along."
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "major",
+  "where": "/households",
+  "by": "this archive",
+  "what": "Donna Serafina Cimmino never existed, and neither did the discrepancy built on her",
+  "was": "A household named «**Stefano Scarpati & [Serafina/Faustina] Cimmino**», holding a person called **DONNA SERAFINA CIMMINO**, and this note: «*THE ONE DISCREPANCY, AND IT IS PUBLISHED RATHER THAN RESOLVED. The 1840 act names the mother **SERAFINA** Cimmino; the 1842 act names her **FAUSTINA** Cimmino… Either a clerk misread a forename, or Stefano Scarpati married twice.*»",
+  "now": "**Both acts say FAUSTINA.** The 1840 act reads «*e di **Donna FAUSTINA CIMMINO Defunta**, domiciliata ivi*» — the capital **F** with its crossbar, and the «au» after it. The household is now **Stefano Scarpati & Faustina Cimmino**.",
+  "how": "Work-list row 58. Arienzo Morti 1840 act 28, `an_ua14342` img17L, read at the leaf's full resolution.",
+  "why": "**The misreading was this archive's, and it manufactured two things out of nothing**: a woman with a name and a page, and a genealogical problem — a possible second marriage — that was then published as an open discrepancy, honestly flagged, and entirely imaginary. **Publishing a doubt is only honest when the doubt is real.**\n\n**It buys something back.** The archpriest of Arienzo, **DON ANGELO SCARPATI**, and the sorora of the Conservatorio di San Filippo, **MARIA GIUSEPPA SCARPATI**, are now named in two acts two years apart with **the same father, the same rank, the same trade and the same mother**. It remains an inference — two death acts are not a birth record — but the objection against it is gone."
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "minor",
+  "where": "/households",
+  "by": "this archive",
+  "what": "The man who declared beside Giuseppe Falco's street in 1842 was not a Cioffi",
+  "was": "«**ANTONIO CIOFFI**, thirty-two, a contadino of strada Camellara — a further Cioffi on the Falco street» — the first declarant at the death of the two-year-old Matteo Falco, Arienzo Morti 1842 act 55, `an_ua14344` img35R.",
+  "now": "**He is not a Cioffi.** The control is two lines below him in the same act — **GIOVANNI CIOFFI**, written with the unmistakable double-f ligature and its long descender. **This word has no such ligature.** It reads **«Gasparo»**, and **Gasparo is an Arienzo surname**: the 1834 death register has **Elena Lettieri, «widow of ANGELO GASPARO»**, and the same volume records a **strada Gasparro**.\n\n**The reading «Gasparo» is probable and is not settled** — at this filming's ceiling the capital will not separate from a C. **The negative is settled.** His age, thirty-two, is right.",
+  "how": "Work-list row 58. The two surnames were cropped from the same leaf and set side by side.",
+  "why": "**It thinned a crowd that was being used as an argument.** This archive has been counting the Cioffi on strada Camellara — «*a further Cioffi on the Falco street, alongside Vincenzo Cioffi the vinivendolo, Luca Cioffi the sartore and Giovanni Cioffi*» — as evidence of how thoroughly the two families were mixed. **One of those Cioffi was never a Cioffi.**"
  }
 ]

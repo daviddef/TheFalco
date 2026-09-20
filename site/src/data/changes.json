@@ -1,5 +1,12 @@
 [
 {
+"sha": "0221ebf",
+"date": "2026-09-20",
+"title": "Fix the deploy: a commit message that quoted a noindex tag became one",
+"summary": "The build has been failing since 23:55 last night. /changes is generated from this archive&#x27;s commit history and the kit renders each summary with set:html. One of those commits is «Living people noindexed, Lucia Coppa never existed», and its summary quotes the tag it had just added, written out in full. Astro put it in the page. /changes de-indexed itself, sitemap.py listed it anyway, and checkarchive refused.",
+"kind": "fix"
+},
+{
 "sha": "782ee5e",
 "date": "2026-09-20",
 "title": "Two misread names, a long s that settled a father-in-law, and a correction that stopped halfway",

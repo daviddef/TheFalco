@@ -34,7 +34,7 @@ here names Francesca Falco's own parents, and the archive still does not guess a
 
 **Giovanni Cioffi**, *contadino* of **strada Camellara**, stands beside Luca Cioffi at Chiara
 Rivetti's act in September 1843. This volume gives him a household of his own: on a November day in
-1840 he and **MARIA PORRINO** buried **Marta Cioffi, one month old**. His stated age runs **40**
+1840 he and **MARIA PORRINO** buried **Marta Cioffi, SEVEN YEARS OLD** *(corrected 20 Sep 2026)*. ~~His stated age runs 40~~ — **the 1840 act gives him no age at all, and the 1843 act says forty-three, not forty-eight. See work-list row 58.** The old line ran **40**
 (1840), **47** (August 1842), **48** (September 1843) — after the first entry, the steadiest series
 in these registers. **Virgilio Saccavino**, another Camellara declarant, holds too: **50** here,
 **53** in 1843.
@@ -216,7 +216,7 @@ seventy in 1828, **and possibly not**, because a second Angelo Morgillo was aliv
 | 44L (atto 70) | d. 3 Nov, ore 23 | Salvatore Majone, **9 months**, strada Costa | **Michelangelo Majone**, contadino, & **Caterina Zimbardo** | — | Alfonso Cioffi 70 contadino; Gennaro Porrino 49 contadino |
 | **44R (atto 71)** | d. 4 Nov, ore 11 | **Anna Rivetti, ONE YEAR OLD**, strada Santa Lucia | **GENNARO RIVETTI**, contadino, & **Peppa Zimbardo** — *a third living Rivetti household in this volume (with Lorenzo Rivetti of atto 3), and again **no link to Chiara Rivetti is claimed*** | — | Clemente di Guida 34; **Clemente Mauro 34 *CORRIERE*** — *44 four days earlier in atto 68* |
 | 45L (atto 72) | d. 5 Nov, ore 13 | **Donna REBECCA ALBERGO(?), 71, *gentildonna*, strada Terra Murata** | fu **Don Nicola Albergo(?), *proprietario***, & fu **Donna Agata Lettieri(?)** | m. **Don Gaetano de Musso(?)** | Francesco Tuoto 70 contadino; Giuseppe di Mayo 30 *falegname* |
-| **45R (atto 73)** | d. Nov, ore 8 | **Marta Cioffi, ONE MONTH OLD, strada CAMELLARA** | **GIOVANNI CIOFFI**, contadino, **& MARIA PORRINO** | — | Clemente Cioffi 34 contadino, **strada CAMELLARA**; Virgilio Cioffi 28 contadino, **strada CAMELLARA** |
+| **45R (atto 73)** | d. **6** Nov, ore 8 | **Marta Cioffi, SEVEN YEARS OLD, strada CAMELLARA** *(read here as ONE MONTH until 20 Sep 2026; the act says «d'anni sette»)* | **GIOVANNI CIOFFI**, contadino, **& MARIA PORRINO** | — | Clemente Cioffi **36** contadino, **strada CAMELLARA**; Virgilio Cioffi **23** contadino, **strada CAMELLARA** |
 
 > **This is the household of the man who reported Chiara Rivetti's death.** **Giovanni Cioffi**, *contadino* of strada Camellara, stands beside Luca Cioffi at her act in September 1843; he declares beside **Giuseppe Falco's** street in 1840, 1842 and 1843; and his stated age — 40 (1840), 47 (Aug 1842), 48 (Sept 1843) — is the steadiest in these registers after the first entry. **His wife was MARIA PORRINO**, and they buried a one-month-old daughter, Marta, in November 1840. The Falco's nearest named neighbours on that street now have a household of their own.
 | **46L (atto 74)** | d. 7 Nov, ore 8 | Carmine Lettieri, **6 months**, strada Costa | **SEBASTIANO LETTIERI**, contadino, **& MARGARITA PORRINO** | — | Ludovico Lettieri 35 contadino, strada Costa; Aniello Porrino 32 contadino |
