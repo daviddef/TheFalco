@@ -274,9 +274,9 @@
  },
  {
   "q": "Is Michele Falco's wife ANTONIA VIGLIOTTA or ANTONIA MIGLIORE — or are there two Michele Falco?",
-  "state": "open",
+  "state": "answered",
   "rank": "Arienzo Morti 1834 act at img24R, against Morti 1842 act 55",
-  "known": "On 30 May 1834 a MICHELE FALCO, contadino of Arienzo, buries MARIA ROSA FALCO, twenty-two months old, «figlia di MICHELE FALCO … e di ANTONIA VIGLIOTTA». On 25 August 1842 a MICHELE FALCO, contadino of strada Camellara, buries MATTEO FALCO, two years old, «figlio di MICHELE FALCO … e di ANTONIA MIGLIORE». Same forename, same town, same trade, eight years apart, and the wives share a forename. Neither surname has been magnified against the other.",
+  "known": "On 30 May 1834 a MICHELE FALCO, contadino of Arienzo, buries MARIA ROSA FALCO, twenty-two months old, «figlia di MICHELE FALCO … e di ANTONIA VIGLIOTTA». On 25 August 1842 a MICHELE FALCO, contadino of strada Camellara, buries MATTEO FALCO, two years old, «figlio di MICHELE FALCO … e di ANTONIA MIGLIORE». Same forename, same town, same trade, eight years apart, and the wives share a forename. Neither surname has been magnified against the other.\n\nANSWERED 20 September 2026: the 1842 word was cropped and set beside the 1834 word in the same hand and they are the same — ANTONIA VIGLIOTTA. «Migliore» was a misreading. The 1850 marriage confirms it from the other end: Michele Falco marries again as «VEDOVO DI ANTONIA VIGLIOTI». The two households are merged. What remains open is a different question — whether this Michele Falco, son of RAFFAELE Falco, is the same man as the MICHELANGELO FALCO son of PASQUALE Falco who married a MARIANTONIA VIGLIOTTA in December 1828. The 1850 act says they had different fathers.",
   "settles": "Magnify both surnames at the leaves' full resolution, and read the 1834 act's street. If the two acts give the same street and the surnames are one word misread twice, it is one household; if the streets differ, it is two. A marriage act for either couple would settle it outright."
  },
  {
@@ -285,5 +285,12 @@
   "rank": "Arienzo civil marriages, 1826–1834, and the parish marriage indexes",
   "known": "Two acts, fourteen months apart, name a RAFFAELA FALCO as the mother of a dead infant. Arienzo Morti 1832 act 81 (19 December 1832): CARMINA FALCO, six months, «figlia di FRANCESCO FALCO … e di RAFFAELA FALCO». Arienzo Morti 1834 act 16 (16 March 1834): ANNA FALCO, eight days, «figlia di MICHELANGELO FALCO … e di RAFFAELA FALCO». Both fathers are contadini of Arienzo; Michelangelo Falco and Francescantonio Falco are both sons of Pasquale Falco and Chiara Rivetti. Either there are two Raffaela Falco married to two Falco men, or one woman was widowed and remarried inside fourteen months.",
   "settles": "A marriage act for either couple. The Arienzo civil marriage registers for 1826–1834 are readable and the parish marriage indexes give both spouses and both sets of parents on one line. A death act for Francesco Falco in 1833 would settle it the other way."
+ },
+ {
+  "q": "Are Michele Falco of Raffaele and Michelangelo Falco of Pasquale the same man?",
+  "state": "open",
+  "rank": "The Arienzo marriage register for December 1828, and a death act for either Chiara Rivetti",
+  "known": "Both married a Vigliotta. MICHELE FALCO, forty-three in February 1850 (b. c. 1807), colono of strada Camellara, is «figlio di RAFFAELE FALCO DEFUNTO … e di CHIARA RIVETTI DEFUNTA, di professione filatrice» and «vedovo di ANTONIA VIGLIOTI». MICHELANGELO FALCO, entered here as a son of PASQUALE FALCO and CHIARA RIVETTI, married MARIANTONIA VIGLIOTTA in December 1828. Two fathers, two wives of one surname, two mothers of one name — and generation two's Chiara Rivetti, widow of Pasquale, died in 1843 aged eighty and cannot have been married to a Raffaele Falco.",
+  "settles": "The December 1828 marriage act itself, which names the groom's parents outright. Failing that, a death act for the Chiara Rivetti who was a filatrice and married to Raffaele Falco — she is dead by February 1850 and is not the Chiara Rivetti of 13 September 1843."
  }
 ]
