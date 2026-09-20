@@ -1389,8 +1389,8 @@
     "event": "death",
     "date": "13 May 1836",
     "place": "Arienzo",
-    "evidence": "e morta … Margarita Falco, di anni sessanta, moglie di Domenico [Crisci] … figlia di Francesco Falco defunto, di professione contadino — b. c. 1776; her father a CONTADINO, distinct from Don Francesco Falco the proprietario",
-    "ark": "ANTENATI an_ua14338 p17"
+    "evidence": "«*è morta nella sua propria casa **MARGARITA FALCO, di anni SESSANTA**, moglie di **DOMENICO COSPI**, nata in Arienzo, di professione contadina, domiciliata ivi, figlia di **FRANCESCO FALCO Defunto**, di professione **contadino**, domiciliato ivi, e di **MARIANGELA IULIUCCIO Defunta**, domiciliata ivi*» — **image 18 RIGHT**, 13 May 1836. Born about 1776, and **her father a CONTADINO**, distinct from Don Francesco Falco the proprietario.\n\n**TWO NAMES WERE WRONG HERE UNTIL 20 SEPTEMBER 2026.** Her husband was published as «**Domenico [Crisci]**», in brackets, as a guess. **The act says COSPI** — the surname wraps to the next line and was magnified. And her mother was published as «**Maria Angela ULIVIECCIO**»; the act writes **MARIANGELA IULIUCCIO**, one forename, and the surname has neither the **v** nor the **e** that «Ulivieccio» needs.",
+    "ark": "ANTENATI an_ua14338 img18r"
    }
   ]
  },
@@ -1424,7 +1424,7 @@
     "event": "death",
     "date": "14 Sep 1836",
     "place": "Arienzo, strada Camellara",
-    "evidence": "daughter of Francesco Falco, strada Camellara, aged 10 months",
+    "evidence": "«*è morta nella sua propria casa **PASQUALINA FALCO, di mesi SEI**, nata in Arienzo, di professione contadina, domiciliata ivi, figlia di **FRANCESCO FALCO**, di professione contadino, domiciliato ivi, e di **RAFFAELA FALCO**, domiciliata ivi*» — **image 33 RIGHT**, 14 September 1836. **Six months, so born about March 1836.**\n\n**SHE WAS PUBLISHED HERE AT TEN MONTHS.** The act says «*di mesi **SEI***». **And her mother is named**: **RAFFAELA FALCO**, which makes her a sister of the CARMINA FALCO buried at six months in December 1832 — the same couple, and the second household this archive was holding apart from itself.",
     "ark": "ANTENATI an_ua14338"
    },
    {
@@ -1446,6 +1446,16 @@
     "place": "Arienzo",
     "evidence": "A FOURTH CHILD FOR THE FIRST-COUSIN MARRIAGE, and the third of them to die small. «71. FALCO PASQUALE | Arienzo | contadino | FALCO FRANCESCO, e FALCO RAFFAELA | A 30 detto [OTTOBRE] 1838» — the row above it is dated 10 Ottobre, which fixes the month. This household is FRANCESCANTONIO FALCO, son of Pasquale Falco and Chiara Rivetti, and RAFFAELA FALCO, daughter of Giuseppe Falco and Antonia di Guida — first cousins, married 16 July 1832. Their children now run CARMINA (d. 19 Dec 1832), PASQUALINA (d. 14 Sep 1836), PASQUALE (d. 30 Oct 1838) and CLEMENTE (d. 14 Aug 1853). FROM THE INDEX, NOT THE ACT: atto 71 has not been read, and no age is recorded here",
     "ark": "ANTENATI an_ua14299 (Arienzo, Morti indice 1838) atto 71 — READ FROM THE IMAGE"
+   },
+   {
+    "household": "Francesco Falco & Raffaela Falco",
+    "person": "Pasqualina Falco",
+    "role": "daughter",
+    "event": "death",
+    "date": "14 Sep 1836",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«*è morta nella sua propria casa **PASQUALINA FALCO, di mesi SEI**, nata in Arienzo, di professione contadina, domiciliata ivi, figlia di **FRANCESCO FALCO**, di professione contadino, domiciliato ivi, e di **RAFFAELA FALCO**, domiciliata ivi*» — **image 33 RIGHT**, 14 September 1836. **Six months, so born about March 1836.**\n\n**SHE WAS PUBLISHED HERE AT TEN MONTHS.** The act says «*di mesi **SEI***». **And her mother is named**: **RAFFAELA FALCO**, which makes her a sister of the CARMINA FALCO buried at six months in December 1832 — the same couple, and the second household this archive was holding apart from itself.\n\n**THIS ROW STOOD IN A HOUSEHOLD OF ITS OWN, «Francesco Falco (living 1836, unjoined)», UNTIL 20 SEPTEMBER 2026.** Reading the act gave the mother's name, and the mother's name joined it to a household this archive already had. **The stub was not a family. It was a line nobody had read.**",
+    "ark": "ANTENATI an_ua14338 img33r"
    }
   ]
  },
@@ -3279,38 +3289,8 @@
     "event": "death",
     "date": "7 Mar 1836",
     "place": "Arienzo, Monastero d'Ave Gratia Plena",
-    "evidence": "e morta nel Monastero d'Ave Gratia Plena, Donna Raffaela de Falco, d'anni sessantasette … monaca … figlia di Don Francesco Falco defunto, di professione proprietario — b. c. 1769. A gentry branch; no connection to the documented line established",
-    "ark": "ANTENATI an_ua14338 p11"
-   }
-  ]
- },
- {
-  "name": "Michele Falco (unjoined)",
-  "members": [
-   {
-    "household": "Michele Falco (unjoined)",
-    "person": "Salvatore Falco",
-    "role": "son",
-    "event": "death",
-    "date": "9 Aug 1836",
-    "place": "Arienzo, strada Camellara",
-    "evidence": "e morto … Salvatore Falco, di mesi quattordici … figlio di Michele Falco, di professione contadino — a peasant Falco household new to the archive",
-    "ark": "ANTENATI an_ua14338 p29"
-   }
-  ]
- },
- {
-  "name": "Francesco Falco (living 1836, unjoined)",
-  "members": [
-   {
-    "household": "Francesco Falco (living 1836, unjoined)",
-    "person": "Pasqualina Falco",
-    "role": "daughter",
-    "event": "death",
-    "date": "14 Sep 1836",
-    "place": "Arienzo, strada Camellara",
-    "evidence": "e morta … Pasqualina Falco, di mesi dieci … figlia di Francesco Falco, di professione contadino … strada Camellara — same street as Michele Falco; a THIRD Francesco Falco, living, distinct from Margarita's late father and from Don Francesco",
-    "ark": "ANTENATI an_ua14338 p32"
+    "evidence": "«*è morta nel **Monastero d'AVE GRATIA PLENA**, **DONNA RAFFAELA DE' FALCO, d'anni SESSANTASETTE**, nata in Arienzo, di professione **MONACA**, domiciliata ivi, figlia di **DON FRANCESCO FALCO Defunto**, di professione **PROPRIETARIO**, domiciliato ivi, e di **DONNA MADDALENA SICILIANO Defunta**, domiciliata ivi*» — **image 12 RIGHT**, 7 March 1836. Born about 1769. **A gentry branch; no connection to the documented line is established.**\n\n**HER MOTHER HAD NEVER BEEN RECORDED HERE: DONNA MADDALENA SICILIANO**, read from the image on 20 September 2026 and magnified. **She is the first name this archive holds for the wife of Don Francesco Falco the proprietario.**",
+    "ark": "ANTENATI an_ua14338 img12r"
    }
   ]
  },
@@ -4601,6 +4581,16 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "Thirty-two, a contadino of strada Camellara. **HIS SURNAME WAS PUBLISHED HERE AS «CIOFFI» UNTIL 20 SEPTEMBER 2026 AND IT IS NOT CIOFFI.** The control is two lines below it in the same act: **GIOVANNI CIOFFI**, written with the unmistakable double-f ligature and its long descender. **This word has no such ligature.** It reads **«Gasparo»** — a capital with a descending loop, «a», a long ſ, then «aro».\n\n**Gasparo is an Arienzo surname**, not a guess: the 1834 death register has **Elena Lettieri, «widow of ANGELO GASPARO»**, and the same volume records a **strada Gasparro**. **The reading is probable and is not settled** — at 1,622 pixels across a half page, which is where this filming stops, the capital will not separate from a C. **What is settled is the negative: he is not one of the Cioffi of this street.**",
     "ark": "ANTENATI an_ua14344 img35r atto55"
+   },
+   {
+    "household": "Michele Falco & Antonia Vigliotta",
+    "person": "Salvatore Falco",
+    "role": "son",
+    "event": "death",
+    "date": "9 Aug 1836",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "«*è morto nella sua propria casa **SALVATORE FALCO, di mesi QUATTORDICI**, nato in Arienzo, di professione contadino, domiciliato ivi, figlio di **MICHELE FALCO**, di professione contadino, domiciliato ivi, e di **MARIANTONIA VIGLIOTTA**, domiciliata ivi*» — **image 30 RIGHT**, 9 August 1836. Fourteen months, so born about June 1835.\n\n**HIS MOTHER IS NAMED, AND SHE IS THE REASON THIS HOUSEHOLD IS NO LONGER «UNJOINED».** **MARIANTONIA VIGLIOTTA** is the wife of the **MICHELE FALCO of strada Camellara** whose other children this archive holds — Maria Rosa in 1834, Matteo in 1842 — and who married again in 1850 as «*vedovo di **ANTONIA VIGLIOTI***». **The clerks write her Antonia and Mariantonia indifferently; it is one woman in four acts.**\n\n**THIS ROW STOOD IN A HOUSEHOLD OF ITS OWN, «Michele Falco (unjoined)», UNTIL 20 SEPTEMBER 2026.** Reading the act gave the mother's name, and the mother's name joined it to a household this archive already had. **The stub was not a family. It was a line nobody had read.**",
+    "ark": "ANTENATI an_ua14338 img30r"
    }
   ]
  },
