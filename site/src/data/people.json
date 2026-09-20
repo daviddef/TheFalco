@@ -6067,8 +6067,8 @@
 "children": [],
 "siblings": [
 {
-"slug": "son-crisci",
-"name": "[son] Crisci",
+"slug": "lorenzo-antonio-crisci",
+"name": "Lorenzo Antonio Crisci",
 "via": "register",
 "vias": [
 "register"
@@ -6361,8 +6361,8 @@
 ],
 "children": [
 {
-"slug": "son-crisci",
-"name": "[son] Crisci",
+"slug": "lorenzo-antonio-crisci",
+"name": "Lorenzo Antonio Crisci",
 "via": "register",
 "vias": [
 "register"
@@ -7365,6 +7365,64 @@
 "treeId": 4000419
 },
 {
+"slug": "lorenzo-antonio-crisci",
+"name": "Lorenzo Antonio Crisci",
+"surname": "CRISCI",
+"household": "Arcangelo Crisci & Sara Ruggiero",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "1 Sep 1817",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*a cui si è dato il nome di **LORENZO ANTONIO***» — **ACT 63, image 33 left, born 1 SEPTEMBER 1817** at eighteen hours, «*nella sua propria casa da lui dichiarante, e da **SARA RUGGIERO** sua moglie legittima d'anni **quarantacinque**, un **Maschio***», declared the same day at twenty-one hours by **ARCANGELO CRISCI, fifty-two, contadino of STRADA CAMELLARA**, before **SALVATORE SCARPATI, Secondo Eletto**.\n\n**A NAMED BROTHER FOR ANDREANA CRISCI AT LAST.** This page recorded him as «[son] Crisci» and said plainly that «*the child's given name is further down the act and was NOT REACHED in this pass*». **It was reached on 20 September 2026**, in the course of work-list row 58, and magnified: **Lorenzo Antonio.**\n\n**The act also carries the clerk's own correction**: the year is written **1816** and struck, with **«diciassette»** written above it. The act beside it, three leaves on, does the same.",
+"ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) img 33l — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "arcangelo-crisci-of-arcangelo-crisci-sara-ruggiero",
+"name": "Arcangelo Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "sara-ruggiero-of-arcangelo-crisci-sara-ruggiero",
+"name": "Sara Ruggiero",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "angela-rosa-crisci",
+"name": "Angela Rosa Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "lorenzo-crisci",
+"name": "Lorenzo Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
 "slug": "lorenzo-crisci",
 "name": "Lorenzo Crisci",
 "surname": "CRISCI",
@@ -7405,8 +7463,8 @@
 "children": [],
 "siblings": [
 {
-"slug": "son-crisci",
-"name": "[son] Crisci",
+"slug": "lorenzo-antonio-crisci",
+"name": "Lorenzo Antonio Crisci",
 "via": "register",
 "vias": [
 "register"
@@ -8043,64 +8101,6 @@
 "treeId": 4512412,
 "b": "Dec 24 1836",
 "bp": "Arienzo, Caserta, Campania, Italy"
-},
-{
-"slug": "son-crisci",
-"name": "[son] Crisci",
-"surname": "CRISCI",
-"household": "Arcangelo Crisci & Sara Ruggiero",
-"role": "child",
-"events": [
-{
-"event": "birth",
-"date": "1817",
-"place": "Arienzo, strada Camellara",
-"evidence": "«…è nato nella sua propria casa da lui dichiarante, e da SARA RUGGIERO sua moglie legittima d'anni quarantacinque, un MASCHIO che ci ha presentato» — A BROTHER FOR ANDREANA CRISCI. The child's given name is further down the act and was NOT REACHED in this pass. The archive also holds, from its own earlier harvest, a sister: CARMELA CRISCI, seven days old, died 9 January 1815, «figlia d'ARCANGELO CRISCI e SARA RUGGIERO», strada Camellara",
-"ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) img 33l — READ FROM THE IMAGE"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "arcangelo-crisci-of-arcangelo-crisci-sara-ruggiero",
-"name": "Arcangelo Crisci",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "sara-ruggiero-of-arcangelo-crisci-sara-ruggiero",
-"name": "Sara Ruggiero",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "angela-rosa-crisci",
-"name": "Angela Rosa Crisci",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "lorenzo-crisci",
-"name": "Lorenzo Crisci",
-"via": "register",
-"vias": [
-"register"
-]
-}
-]
 },
 {
 "slug": "giovanna-d-ambrogio",
@@ -18188,7 +18188,7 @@
 "event": "birth",
 "date": "25 Nov 1816",
 "place": "Arienzo, strada Costa",
-"evidence": "e nato nella sua propria casa... un maschio... a cui si e dato il nome di Domenico — born at four in the night",
+"evidence": "e nato nella sua propria casa... un maschio... a cui si e dato il nome di Domenico — born at four in the night\n\n**VERIFIED WORD FOR WORD, work-list row 58** — act 116, image 60 left: «*è comparso **GIUSEPPE FALCO**, di anni **trentasei**, di professione **MASSARO DI CAMPO**, domiciliato in detto comune, **STRADA COSTA** … da **GELSOMINA VIGLIOTTA** d'anni **trentadue**, sua moglie legittima, un **Maschio** … a cui si è dato il nome di **DOMENICO***», born at **four in the night**.\n\n**AND THE STREET IS A WARNING.** This couple are on **strada Costa** in 1816 and on **STRADA CAMELLARA** by March 1823, when the same Giuseppe Falco — forty-two, *massaro di campagna* — declares Pasqua's birth there with the same wife. **The ages agree across both acts** (thirty-six and forty-two; thirty-two and thirty-eight). **So from 1823 the street no longer tells this Giuseppe Falco from the Giuseppe Falco who married Antonia di Guida.** This archive leans on strada Camellara constantly; **it stopped being a discriminator in 1823.**",
 "ark": "ANTENATI an_ua14413 img60l act116  [image number corrected 15 Sep 2026: the note it was copied from used ZERO-BASED harvest numbering]"
 },
 {
@@ -29672,7 +29672,7 @@
 "event": "birth",
 "date": "25 Apr 1816",
 "place": "Arienzo, strada Camellara",
-"evidence": "«è comparso Vincenzo Falco, di anni trentacinque, bracciale… strada Camellara… da Andreana Crisci sua moglie legittima, d'anni venticinque, un maschio… a cui si è dato il nome di Raffaele» — a FIRST child of this name, two years before the Raffaele of 10 May 1818. Ordinarily the first died; which of the two is generation four is now an open question",
+"evidence": "«è comparso Vincenzo Falco, di anni trentacinque, bracciale… strada Camellara… da Andreana Crisci sua moglie legittima, d'anni venticinque, un maschio… a cui si è dato il nome di Raffaele» — a FIRST child of this name, two years before the Raffaele of 10 May 1818. Ordinarily the first died; which of the two is generation four is now an open question **VERIFIED WORD FOR WORD, 20 September 2026, work-list row 58** — act 56, image 30 left, before **Daniele Sorice Sindaco**. **And the father's age is a problem worth stating**: **VINCENZO FALCO is THIRTY-FIVE here**, which gives a birth about **1781** — eleven years before the baptism of 1 February 1792 that this archive read from the parish register, and **two years older than the thirty-three he gives in March 1824**. He got younger. **The baptism dates him; the register does not.**",
 "ark": "ANTENATI an_ua14413 img30l act56  [image number corrected 15 Sep 2026: the note it was copied from used ZERO-BASED harvest numbering]"
 },
 {
@@ -30798,6 +30798,14 @@
 {
 "slug": "raffaela-morgillo",
 "name": "Raffaela Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanna-morgillo",
+"name": "Giovanna Morgillo",
 "via": "register",
 "vias": [
 "register"
@@ -36581,7 +36589,7 @@
 "event": "named",
 "date": "b. 1780×1786 — not settled",
 "place": "Arienzo, strada Maddalena (1817)",
-"evidence": "named as the husband on his wife's death act of 1830. His age will not settle: three sightings inside twenty months give thirty (Feb 1816), thirty-six (Oct 1816) and thirty-three (Sept 1817) — «Carlantonio Morgillo, di anni trentatre, bracciale, strada Maddalena». Birth therefore somewhere in 1780×1786; this archive formerly printed «about 1784» from the 1817 act alone, which overstated it. Constant across all three: bracciale, and the household on strada Maddalena in 1817, thirteen years before Rosa died on strada Camellara.",
+"evidence": "named as the husband on his wife's death act of 1830. His age will not settle: three sightings inside twenty months give thirty (Feb 1816), thirty-six (Oct 1816) and thirty-three (Sept 1817) — «Carlantonio Morgillo, di anni trentatre, bracciale, strada Maddalena». Birth therefore somewhere in 1780×1786; this archive formerly printed «about 1784» from the 1817 act alone, which overstated it. Constant across all three: bracciale, and the household on strada Maddalena in 1817, thirteen years before Rosa died on strada Camellara.\n\n**VERIFIED, work-list row 58 — it is ACT 69, image 36 left, of 22 SEPTEMBER 1817**, and the act gives two things this page did not carry. **His wife has an age**: «*da **ROSA FALCO** sua moglie legittima d'anni **TRENTADUE***» — thirty-two in September 1817, so born about **1785**. **And they have a daughter**: «*una **Femina** che ci ha presentata … a cui si è dato il nome di **GIOVANNA***». **GIOVANNA MORGILLO, born 22 September 1817**, and this archive held no child of this couple at all.",
 "ark": "ANTENATI an_ua14414 img36l  [image number corrected 15 Sep 2026: the note it was copied from used ZERO-BASED harvest numbering]"
 },
 {
@@ -36633,6 +36641,14 @@
 {
 "slug": "raffaela-morgillo",
 "name": "Raffaela Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanna-morgillo",
+"name": "Giovanna Morgillo",
 "via": "register",
 "vias": [
 "register"
@@ -36855,6 +36871,64 @@
 {
 "slug": "vincenzo-morgillo",
 "name": "Vincenzo Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
+"slug": "giovanna-morgillo",
+"name": "Giovanna Morgillo",
+"surname": "MORGILLO",
+"household": "Carlantonio Morgillo & Rosa Falco",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "22 Sep 1817",
+"place": "Arienzo, strada Maddalena",
+"evidence": "«*ed ha dichiarato che il giorno sopraindicato ad ore **tredici** è nata nella sua propria casa … da **ROSA FALCO** sua moglie legittima d'anni trentadue, una **Femina** che ci ha presentata … a cui si è dato il nome di **GIOVANNA***» — **act 69, 22 September 1817**, declared by her father **CARLANTONIO MORGILLO, thirty-three, BRACCIALE of strada Maddalena**.\n\n**The first documented child of this household**, found on 20 September 2026 while verifying a citation that had been made for her father's age alone. **The act had been opened and the child in it had not been read.**",
+"ark": "ANTENATI an_ua14414 img36l act69"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "carlantonio-morgillo-of-carlantonio-morgillo-rosa-falco",
+"name": "Carlantonio Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "rosa-falco",
+"name": "Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "raffaele-morgillo",
+"name": "Raffaele Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaela-morgillo",
+"name": "Raffaela Morgillo",
 "via": "register",
 "vias": [
 "register"
@@ -37293,6 +37367,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giovanna-morgillo",
+"name": "Giovanna Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -37349,6 +37431,14 @@
 {
 "slug": "raffaela-morgillo",
 "name": "Raffaela Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanna-morgillo",
+"name": "Giovanna Morgillo",
 "via": "register",
 "vias": [
 "register"
@@ -41076,8 +41166,8 @@
 ],
 "children": [
 {
-"slug": "son-crisci",
-"name": "[son] Crisci",
+"slug": "lorenzo-antonio-crisci",
+"name": "Lorenzo Antonio Crisci",
 "via": "register",
 "vias": [
 "register"
