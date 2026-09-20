@@ -3639,7 +3639,7 @@
     "event": "—",
     "date": "—",
     "place": "Forchia, Benevento",
-    "evidence": "GENERATION SEVEN'S WIFE'S FATHER, and named twice over: by the civil births of eight children, and — independently, from the other side of the world — by his daughter's Queensland death registration 1988/6856, which gives her father as «Carmine Anechino». CAUTION: this town holds MORE THAN ONE Carmine Annecchino. Another married Maria Giovanna Crisci and had a Maria Filomena in 1878",
+    "evidence": "GENERATION SEVEN'S WIFE'S FATHER, and named twice over: by the civil births of eight children, and — independently, from the other side of the world — by his daughter's Queensland death registration 1988/6856, which gives her father as «Carmine Anechino». CAUTION: this town holds MORE THAN ONE Carmine Annecchino. Another married Maria Giovanna Crisci and had a Maria Filomena in 1878\n\n**AND HIS OWN FATHER'S DEATH ACT IS IN THE DOSSIER.** Item **4** of the eight documents read into this marriage is «*Nell'atto di morte dell'**AVO PATERNO** dello stesso*» — the groom's **paternal grandfather**. **That is a generation beyond Carmine Annecchino, and this archive does not have it.** The Arienzo processetto for 1860 holds the act that names him.",
     "ark": "FamilySearch, Benevento Civil Registration (State Archive) 1810-1942, collection 2475030 — harvested to data/annecchino-benevento-fs.tsv"
    },
    {
@@ -3832,9 +3832,9 @@
     "person": "Sabatino Annecchino",
     "role": "father",
     "event": "marriage",
-    "date": "20 Jan 1860",
+    "date": "21 Jan 1860",
     "place": "Arienzo",
-    "evidence": "THE MARRIAGE, FOUND — this archive held the household from its children alone. «*sono comparsi nella Casa Comunale **SABBATINO ANNECCHINO**, di anni **trentaquattro**, nato in **FORCHIA**, di professione **contadino**, domiciliato in **FORCHIA**, figlio di **fu CARMINE ANNECCHINO**, di professione contadino, e di **fu ROSA CEGLIA** … e **MARIA ANTONIA CARFORA**, di anni **ventinove**, nata in **ARIENZO**, domiciliata in Arienzo, figlia di **fu [?]ERIO CARFORA**, di professione contadino, e di **fu PASQUA MORGILLO***». Witnesses **Pasquale Laudato** and a **di Antonio Crispi**. Their first known child, Maria Rosa, was born 7 March 1861 — thirteen months later.",
+    "evidence": "**THE MARRIAGE, FOUND** — this archive held the household from its children alone. **RE-READ IN FULL FROM THE IMAGE, 20 September 2026, work-list row 58**, and the reading below replaces one that put a «fu» in front of four names the act never puts one in front of.\n\n«*L'anno mille ottocento **sessanta**, il dì **VENTUNO** di **Gennajo**, alle ore ventitre, avanti di Noi **Stefano Sargenti**, uffiziale dello Stato Civile di **ARIENZO**, distretto di **CASERTA** … sono comparsi nella Casa Comunale **SABBATINO ANNECCHINO**, di anni **trentaquattro**, nato in **FORCHIA**, di professione **contadino**, domiciliato in **Forchia**, figlio di **CARMINE ANNECCHINO defunto** … e di **ROSA CEGLIA defunta** … e **MARIA ANTONIA CARFORA**, di anni **ventinove**, nata in **ARIENZO**, domiciliata in Arienzo, figlia di **VALERIO CARFORA**, di professione contadino, domiciliato **ivi**, e di **PASQUA MORGILLO defunta***».\n\n**THREE THINGS CHANGE.** The act is of **21 January**, not the twentieth — «*il dì **ventuno***». The groom's own spelling is **SABBATINO**, with two b. And **the bride's father is not marked dead**: see Valerio Carfora below.\n\nThe church celebration followed on **22 January**, before witnesses read here as **PASQUALE LAUDATO** and **ANTONIO CRISCI** — the last surname is **Crisci**, with no descender, and was published as «Crispi». **How the three lines divide into two witnesses is not certain**: the clerk writes «*Pasquale Lau=/dato, di Antonio/ Crisci*» with no conjunction, and it may be one man «Pasquale Laudato di Antonio» and a second surnamed Crisci. **Left as it reads.**",
     "ark": "ANTENATI an_ua14264 img5r act3"
    },
    {
@@ -3842,7 +3842,7 @@
     "person": "Carmine Annecchino",
     "role": "grandfather",
     "event": "death window",
-    "date": "before 20 Jan 1860",
+    "date": "before 21 Jan 1860",
     "place": "Forchia",
     "evidence": "SABATINO'S FATHER, AND A GENERATION THIS ARCHIVE DID NOT HAVE. «*figlio di **fu CARMINE ANNECCHINO**, di professione **contadino***» — dead before January 1860, of Forchia. **NOT the Carmine Annecchino who married Maria Carfora and fathered Filomena in 1897**; that one was bearing children from 1883 and is two generations later. **The name recurs in this family**, which is worth holding onto rather than resolving.",
     "ark": "ANTENATI an_ua14264 img5r act3"
@@ -3852,9 +3852,9 @@
     "person": "Rosa Ceglia",
     "role": "grandmother",
     "event": "death window",
-    "date": "before 20 Jan 1860",
+    "date": "before 21 Jan 1860",
     "place": "Forchia",
-    "evidence": "«*e di **fu ROSA CEGLIA***» — Sabatino Annecchino's mother, dead before January 1860. **CEGLIA HAS NEVER APPEARED IN THIS ARCHIVE**, under any spelling.",
+    "evidence": "«*e di **ROSA CEGLIA defunta***» — Sabatino Annecchino's mother, dead before January 1860. **CEGLIA HAS NEVER APPEARED IN THIS ARCHIVE**, under any spelling.",
     "ark": "ANTENATI an_ua14264 img5r act3"
    },
    {
@@ -3862,19 +3862,19 @@
     "person": "Mariantonia Carfora",
     "role": "mother",
     "event": "marriage",
-    "date": "20 Jan 1860",
+    "date": "21 Jan 1860",
     "place": "Arienzo",
     "evidence": "«*MARIA ANTONIA CARFORA, di anni **ventinove**, **nata in ARIENZO***» — so born about 1831, and **an Arienzo woman, not a Forchia one**. This archive had her only as a mother of four daughters born 1861–1866.",
     "ark": "ANTENATI an_ua14264 img5r act3"
    },
    {
     "household": "Sabatino Annecchino & Mariantonia Carfora",
-    "person": "[?]erio Carfora",
+    "person": "Valerio Carfora",
     "role": "grandfather",
-    "event": "death window",
-    "date": "before 20 Jan 1860",
+    "event": "named as living",
+    "date": "21 Jan 1860",
     "place": "Arienzo",
-    "evidence": "MARIA ANTONIA CARFORA'S FATHER — a **CARFORA OF ARIENZO**, contadino, dead before January 1860. **HIS FORENAME DOES NOT RESOLVE**: the word reads «[L/t]erio» at four times magnification and is left unread rather than guessed, as this archive leaves one widow's surname blank for the same reason. **The Carfora are therefore an Arienzo family as well as a Forchia one** — which bears on the three closed routes to Maria Carfora's parents, all of which were run at Forchia.",
+    "evidence": "**MARIA ANTONIA CARFORA'S FATHER — AND HE WAS ALIVE, WHICH THIS ARCHIVE HAD SAID HE WAS NOT.** «*figlia di **VALERIO CARFORA**, di professione **contadino**, domiciliato **ivi***» — and **there the sentence stops**. The act writes «**defunto**» after Carmine Annecchino, «**defunta**» after Rosa Ceglia and «**defunta**» after Pasqua Morgillo. **It writes nothing after him.**\n\n**And the act proves it a second time, in its own list of documents.** Item **6** of the eight papers read into the marriage is «*Nel **CONSENSO DEL PADRE** della stessa, **dato nell'atto***» — the bride's father consented **in person, in the act**, on 21 January 1860. **A dead man does not consent.**\n\n**THE FORENAME RESOLVES, AND IT WAS NEVER ILLEGIBLE — IT WAS SPLIT.** This archive recorded «*the word reads «[L/t]erio» at four times magnification and is left unread rather than guessed*». **The word is not one word.** It wraps across the column: the line ends «*figlia di **Va***» and the next begins «***lerio** Carfora*». **VALERIO** — and no other Italian forename ends in *-lerio*. **The archive magnified the second half of a word and called the whole of it illegible.**\n\n**So the Carfora are an Arienzo family as well as a Forchia one**, and **Valerio Carfora, contadino of Arienzo, was living there in January 1860** — a man to look for, not a death to look for.",
     "ark": "ANTENATI an_ua14264 img5r act3"
    },
    {
@@ -3882,9 +3882,9 @@
     "person": "Pasqua Morgillo",
     "role": "grandmother",
     "event": "death window",
-    "date": "before 20 Jan 1860",
+    "date": "before 21 Jan 1860",
     "place": "Arienzo",
-    "evidence": "«*e di **fu PASQUA MORGILLO***» — Maria Antonia Carfora's mother, dead before January 1860. **A CARFORA–MORGILLO marriage at Arienzo**, in the generation born about 1800.",
+    "evidence": "«*e di **PASQUA MORGILLO defunta***» — Maria Antonia Carfora's mother, **dead before 21 January 1860**, and the only one of the bride's two parents the act does mark. **A CARFORA–MORGILLO marriage at Arienzo**, in the generation born about 1800.\n\n**Her death act is in the marriage's own dossier**: item **7** of the eight documents read into the act is «*Nell'atto di morte della madre della stessa*». **The Arienzo processetto for 1860 would hand over the date, the street and her parents in one page.**",
     "ark": "ANTENATI an_ua14264 img5r act3"
    }
   ]
