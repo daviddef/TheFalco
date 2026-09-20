@@ -52,7 +52,7 @@ const ARIENZO = [
   ["2", "Pasquale Falco", "24 Oct 1767", "Arienzo",
    "Baptised in the Collegiate Church of Sant'Andrea. Died at five in the morning on 1 October 1834 in his own house on strada Camellara."],
   ["3", "Vincenzo Falco", "1 Feb 1792", "strada Camellara",
-   "Baptised Vincenzo RAFFAELE, liber IX fol. 47v. Married ANDREANA CRISCI of the same street on 15 December 1814."],
+   "Baptised Vincenzo RAFFAELE, liber IX fol. 47v. Married ADRIANA (ANDREANA) CRISCI of the same street on 15 December 1814 — baptised Adriana, recorded Andreana in every civil act."],
   ["4", "Raffaele Falco", "10 May 1818", "strada Camellara",
    "Born at three in the afternoon in his father's own house on strada Camellara. Married Angela Rosa Morgillo, who was born at SAN FELICE A CANCELLO — the first time this family's geography leaves Arienzo at all."],
   ["5", "Carmine Antonio Falco", "10 Jul 1850", "Arienzo",
@@ -96,7 +96,7 @@ const TRIBS = [
 const INTOWN = [
   { fam: "Crisci", gens: "1", x: GX(1), note: "Francesca Crisci, wife of Matteo Falco — named in three of her children's death acts", href: "/crisci" },
   { fam: "Rivetti", gens: "2", x: GX(2), note: "Chiara Rivetti, daughter of the late Nicola Rivetti, a contadino and not a Don", href: "/rivetti" },
-  { fam: "Crisci", gens: "3", x: GX(3), note: "Andreana Crisci of strada Camellara, baptised 30 November 1796 — the second Crisci in the spine, and one of eleven crossings between the two surnames", href: "/crisci" },
+  { fam: "Crisci", gens: "3", x: GX(3), note: "Adriana Crisci of strada Camellara, baptised 30 November 1796 under that name and recorded ANDREANA in every civil act — the second Crisci in the spine, and one of eleven crossings between the two surnames", href: "/crisci" },
   { fam: "Arricale", gens: "5", x: GX(5), note: "Giovanna Arricale, born 22 December 1848, married at Arienzo on 18 November 1872 — the date is in the margin of her own birth act", href: "/wider-family" },
   { fam: "Maione", gens: "6", x: GX(6), note: "Costanza Maione of Arienzo, married 26 September 1897", href: "/maione" },
 ];
@@ -226,7 +226,7 @@ const H = 928;
         <text x="12" y={a.y} class="apart-ttl" fill={a.colour}>{a.label}</text>
         {a.joined && (
           <g class="node" tabindex="0" role="button"
-             data-place="strada Camellara" data-year="25 May 1831" data-lane="One household IS kin"
+             data-place="strada Camellara" data-year="4 May 1831" data-lane="One household IS kin"
              data-why={a.joinedWhy}>
             <title>{a.joined}</title>
             <line x1="470" y1={a.y - 5} x2="612" y2={a.y - 5} stroke={a.colour} stroke-width="3" stroke-linecap="round" opacity="0.7" />
