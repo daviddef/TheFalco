@@ -5,6 +5,7 @@ import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import { md } from "../lib/md.js";
 import raw from "../data/searched.json";
+import nf from "../data/namefold.json";   /* variant -> canonical, for search only */
 const REPO = "https://github.com/daviddef/TheFalco";
 
 /* What has been read, page by page, and what was in it — including the years
@@ -70,7 +71,7 @@ const imgs = raw.reduce((a, r) => a + (+(String(r.src).match(/(\d+) images/) || 
   <h2>The register of what has been read</h2>
   <p class="dek">Filter by what the search returned, or by what it was about. Set down so nobody
   repeats them.</p>
-  <Searched rows={rows} u={u} nil={NIL} unit="searches" />
+  <Searched fold={nf.fold} rows={rows} u={u} nil={NIL} unit="searches" />
 
   <h2>Still to read</h2>
   <p class="dek"><strong>The 1837–1843 run is finished.</strong> Seven consecutive volumes — 1837,

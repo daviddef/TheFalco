@@ -6,6 +6,7 @@ import { u } from "../lib/url.js";
 import { md } from "../lib/md.js";
 import register from "../data/register.json";
 import { people as reconstructed } from "../lib/people.js";
+import nf from "../data/namefold.json";   /* variant -> canonical, for search only */
 
 /* A name links to a person page only when EXACTLY ONE person answers to it —
    the same rule /people uses — and otherwise to the name page, which lists
@@ -99,7 +100,7 @@ const unlinked = register.length - linked;
   </div>
 
   <div class="card" style="margin:1.2rem 0">
-    <Register u={u} rows={[...groups.entries()].flatMap(([sn, list]) => list.map((r) => ({
+    <Register fold={nf.fold} u={u} rows={[...groups.entries()].flatMap(([sn, list]) => list.map((r) => ({
     name: r.name,
     surname: sn,
     kind: KIND[r.kind] || r.kind,

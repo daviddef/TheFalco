@@ -4,6 +4,7 @@ import Places from "@daviddef/archive-kit/components/Places.astro";
 import places from "../data/places.json";
 import atlas from "../../public/atlas-data.json";
 import { u } from "../lib/url.js";
+import nf from "../data/namefold.json";   /* variant -> canonical, for search only */
 ---
 <Base title="Places">
   <p class="lede">Six places carry this family: one parish held for two centuries, a short move of four
@@ -44,7 +45,7 @@ import { u } from "../lib/url.js";
     buried there and what the archive read to know it. These were reachable only by clicking a marker
     on the map, which meant a reader without JavaScript — and a search engine — could not get to any
     of them.</p>
-  <Places u={u} rows={atlas.places.map((p) => ({
+  <Places fold={nf.fold} u={u} rows={atlas.places.map((p) => ({
     name: p.place || p.name,
     href: p.slug ? `/places/${p.slug}/` : "",
     n: p.n,
