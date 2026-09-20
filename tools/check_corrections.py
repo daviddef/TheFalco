@@ -58,6 +58,32 @@ for rule in RETIRED:
             if pat.search(str(m.get("person") or "")):
                 fails.append(f"{household}: person «{m['person']}» still carries the retired "
                              f"reading «{rule_name}» — {why}")
+            # A PROSE CHECK WAS WRITTEN HERE ON 20 SEPTEMBER 2026 AND TAKEN OUT
+            # THE SAME HOUR, and the reason is worth more than the check was.
+            #
+            # It stripped every «…» quotation from the evidence and looked for the
+            # retired reading in what was left. The motive was real: «Cossi» was
+            # found that morning still standing in the prose of atto 54 of 1828,
+            # beside the corrected person name, months after the rule above was
+            # written to hold it.
+            #
+            # It found that one. It also raised EIGHT false alarms, and six of
+            # them were sentences like «the strada Camellara household is CIOFFI,
+            # NOT COSSI» — the archive's own withdrawals, saying so. One was a
+            # DIFFERENT family, the Cossi of strada Cossi, correctly named.
+            #
+            # THE HOUSE STYLE AND THE GATE CANNOT BOTH EXIST. This archive leaves
+            # a correction visible beside the thing it corrected, on purpose. To a
+            # regular expression a visible withdrawal is indistinguishable from a
+            # correction that never happened. Narrowing it — «flag only when the
+            # right reading is absent from the same sentence» — still failed on
+            # the strada Cossi family, and each narrowing is another rule nobody
+            # will remember. The docstring above already says it: a general
+            # «does the data agree with the prose» checker is not writable, and a
+            # gate that cries wolf gets switched off.
+            #
+            # So the prose is not checked, and that is a known hole, recorded on
+            # the corrections page rather than papered over.
 
 # A CHILD must not exist twice under two spellings of one household's surname.
 # Restricted to role=child on purpose: a household legitimately holds a mother

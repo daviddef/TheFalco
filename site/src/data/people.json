@@ -21753,7 +21753,7 @@
 "event": "named",
 "date": "24 Oct 1828",
 "place": "Arienzo, strada Camellara",
-"evidence": "«Sono comparsi GIUSEPPE FALCO, di anni CINQUANTASEI, di professione POSSIDENTE, domiciliato in strada Camellara, PARENTE DELLA DEFUNTA» — atto 54, on the death of Mariantonia Cossi, seven months, daughter of Francesco Cossi and Maria Falco. THE FIFTH CHILD OF THAT HOUSE HE HAS DECLARED, and the FIRST TIME THE REGISTER CALLS HIM PARENTE rather than vicino. The kinship between Maria Falco and this Giuseppe Falco is now stated by the record; the degree is not. Caution: he is 56 and a possidente here, against 40 and a colono eighteen months earlier — either the clerks guessed, or there are two Giuseppe Falco on that street.",
+"evidence": "«Sono comparsi GIUSEPPE FALCO, di anni CINQUANTASEI, di professione POSSIDENTE, domiciliato in strada Camellara, PARENTE DELLA DEFUNTA» — atto 54, on the death of **MARIANTONIA CIOFFI**, seven months, daughter of **FRANCESCO CIOFFI** and **MARIA FALCO**. (**«Cossi» stood in this sentence until 20 September 2026**, three months after the household itself was corrected to CIOFFI and a rule was written to hold it: `check_corrections.py` reads the PERSON fields and not the prose, so the retired reading survived in the evidence beside the corrected name.) **Verified from the image**: both surnames carry the double-f ligature. **The second declarant is CESARE CIOFFI, thirty-one, of the same street, and he too is «Parente della Defunta»** — the act states kinship twice, not once. THE FIFTH CHILD OF THAT HOUSE HE HAS DECLARED, and the FIRST TIME THE REGISTER CALLS HIM PARENTE rather than vicino. The kinship between Maria Falco and this Giuseppe Falco is now stated by the record; the degree is not. Caution: he is 56 and a possidente here, against 40 and a colono eighteen months earlier — either the clerks guessed, or there are two Giuseppe Falco on that street.",
 "ark": "ANTENATI an_ua14330 img36l atto54"
 },
 {
@@ -36494,14 +36494,14 @@
 "slug": "biagio-morgillo",
 "name": "Biagio Morgillo",
 "surname": "MORGILLO",
-"household": "Biagio Morgillo & Vincenza Vece (strada Nuova di San Gaetano)",
+"household": "Biagio Morgillo & Vincenza Pepe (strada Nuova di San Gaetano)",
 "role": "father",
 "events": [
 {
 "event": "named",
 "date": "14 Mar 1828",
 "place": "Arienzo, strada Nuova di San Gaetano",
-"evidence": "«figlia di BIAGIO MORGILLO, di professione contadino, e di VINCENZA VECE» — atto 11. He is the Biagio Morgillo, 30, who declared his own father Angelo Morgillo's death in October 1826 as «figlio del defunto».",
+"evidence": "«*figlia di **BRAGIO MORGILLO**, di professione contadino, … e di **VINCENZA PEPE***» — atto 11, read from the image. He is the Biagio Morgillo, 30, who declared his own father Angelo Morgillo's death in October 1826 as «figlio del defunto»; the clerk of 1828 writes the Neapolitan **«Bragio»** for Biagio.\n\n**His wife was published here as VINCENZA VECE until 20 September 2026.** The act reads **PEPE**, with the two tall p descenders, and it is not close to Vece.",
 "ark": "ANTENATI an_ua14330 img7r atto11"
 }
 ],
@@ -36677,14 +36677,14 @@
 "slug": "clementina-morgillo",
 "name": "Clementina Morgillo",
 "surname": "MORGILLO",
-"household": "Biagio Morgillo & Vincenza Vece (strada Nuova di San Gaetano)",
+"household": "Biagio Morgillo & Vincenza Pepe (strada Nuova di San Gaetano)",
 "role": "child",
 "events": [
 {
 "event": "death",
 "date": "14 Mar 1828",
 "place": "Arienzo, strada Nuova di San Gaetano",
-"evidence": "Twenty-six months old. Declared by ANTONIO MORGILLO, 27, and SIMONE MORGILLO, 24, both of the same street and both entered as «parente della defunta» — very probably her father's brothers.",
+"evidence": "«*è morta nella sua propria casa **CLEMENTINA MORGILLO, di mesi VENTISEI***» — twenty-six months old, died at eighteen hours on **14 March 1828**. Declared by **ANTONIO MORGILLO, 27**, and **SIMONE MORGILLO, 24**, both of **strada San Gaetano** and both entered as «**parente della defunta**» — very probably her father's brothers. **Every one of those readings was checked against the image on 20 September 2026 and every one holds.**",
 "ark": "ANTENATI an_ua14330 img7r atto11"
 }
 ],
@@ -37033,7 +37033,7 @@
 "event": "named",
 "date": "1828",
 "place": "Arienzo, Monticello de' Cappuccini",
-"evidence": "34 in 1828, contadino. Husband of Maria Majone; their eight-year-old Raffaele died in May (atto 14). He declares his brother's child's death as «zio della defunta» (atto 56), which makes him and Vincenzo brothers.",
+"evidence": "**THIRTY-TWO** in October 1828, contadino of **strada Monticello de' Cappuccini**. Husband of **MARIA MAJONE**; their **eight-year-old PASQUALE** died on 6 May (atto 14). He declares his brother's child's death as «**ZIO DELLA DEFUNTA**» (atto 56), magnified and confirmed, which makes him and Vincenzo brothers.\n\n**TWO THINGS WERE WRONG HERE UNTIL 20 SEPTEMBER 2026.** This page said «34 in 1828» and cited atto 14 for it — **and atto 14 gives him no age at all**: he is named in it as the dead boy's father, and fathers are not aged in these acts. **The only act of 1828 that ages him is atto 56, and it says «di anni trentadue».** And the dead boy was **PASQUALE**, not Raffaele: «*è morto nella sua propria casa **PASCALE MORGILLO, d'anni otto***».\n\n**It is the second time in one morning that an age was attached to a man from an act that never states it** — the first was Giovanni Cioffi's «forty in 1840». **Both came from reading a household into an act instead of reading the act.**",
 "ark": "ANTENATI an_ua14330 img10l atto14"
 }
 ],
@@ -37396,7 +37396,7 @@
 "event": "named",
 "date": "1828",
 "place": "Arienzo, Monticello de' Cappuccini",
-"evidence": "29 in May 1828, 32 in December. Husband of Felicetta Rivetti; their one-year-old Grazia died on 30 October, declared by his brother Nicola as «zio della defunta».",
+"evidence": "**TWENTY-SEVEN** in May 1828 — «*di anni ventisette*», verified from the image — and 32 in December. Husband of **FELICELLA RIVETTI**; their one-year-old **GRAZIA** died on 30 October, declared by his brother Nicola as «zio della defunta».\n\n**Published here as «29 in May 1828» and «Felicetta Rivetti» until 20 September 2026.** The act says ventisette, and her name is written **Felicella**, with two clear l and no crossed tt. **Twenty-seven in May and thirty-two in December is five years in seven months**, which is not a correction of this archive's but a fact about the register.",
 "ark": "ANTENATI an_ua14330 img38l atto56"
 }
 ],

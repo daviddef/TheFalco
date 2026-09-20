@@ -2657,5 +2657,38 @@
   "now": "**He is not a Cioffi.** The control is two lines below him in the same act — **GIOVANNI CIOFFI**, written with the unmistakable double-f ligature and its long descender. **This word has no such ligature.** It reads **«Gasparo»**, and **Gasparo is an Arienzo surname**: the 1834 death register has **Elena Lettieri, «widow of ANGELO GASPARO»**, and the same volume records a **strada Gasparro**.\n\n**The reading «Gasparo» is probable and is not settled** — at this filming's ceiling the capital will not separate from a C. **The negative is settled.** His age, thirty-two, is right.",
   "how": "Work-list row 58. The two surnames were cropped from the same leaf and set side by side.",
   "why": "**It thinned a crowd that was being used as an argument.** This archive has been counting the Cioffi on strada Camellara — «*a further Cioffi on the Falco street, alongside Vincenzo Cioffi the vinivendolo, Luca Cioffi the sartore and Giovanni Cioffi*» — as evidence of how thoroughly the two families were mixed. **One of those Cioffi was never a Cioffi.**"
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "minor",
+  "where": "/households",
+  "by": "this archive",
+  "what": "Nicola Morgillo's dead son was Pasquale, not Raffaele — and the age beside him was never in the act",
+  "was": "«*34 in 1828, contadino. Husband of Maria Majone; their eight-year-old **RAFFAELE** died in May (atto 14).*» Arienzo Morti 1828, `an_ua14330` img10L.",
+  "now": "«*è morto nella sua propria casa **PASCALE MORGILLO, d'anni otto***» — **PASQUALE**, in the Neapolitan spelling the clerk uses. And Nicola is **THIRTY-TWO**, from the only act of that year that ages him at all.",
+  "how": "Work-list row 58, the eleventh volume. Act 14 was read end to end; so was act 56, which is where the thirty-two is written — «*di anni trentadue*», magnified.",
+  "why": "**The age had no source.** Atto 14 was cited for «34 in 1828» and **atto 14 gives him no age**: he appears in it as the dead boy's father, and fathers are not aged in these acts.\n\n**It is the second time in one morning that a number was attached to a man from an act that never states it.** The first was Giovanni Cioffi's «forty in 1840», in a death act where he is likewise only the father. **Both came from reading a household into an act instead of reading the act**, and both had a conclusion resting on them.\n\nThe same act's other declarant, **VINCENZO MORGILLO**, is **twenty-seven** in May 1828, not twenty-nine — and his wife is **FELICELLA** Rivetti, not Felicetta."
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "minor",
+  "where": "/households",
+  "by": "this archive",
+  "what": "Vincenza Vece was Vincenza Pepe, and a household was named after the misreading",
+  "was": "A household «**Biagio Morgillo & VINCENZA VECE** (strada Nuova di San Gaetano)», from the death act of their twenty-six-month-old daughter Clementina: «*figlia di BIAGIO MORGILLO, di professione contadino, e di **VINCENZA VECE***». Arienzo Morti 1828 act 11, `an_ua14330` img7R.",
+  "now": "«*e di **VINCENZA PEPE***» — two tall **p** descenders, and nothing resembling a **V**. The household is now **Biagio Morgillo & Vincenza Pepe**.",
+  "how": "Work-list row 58. The surname was magnified before the household was renamed.",
+  "why": "**Everything else in that act verified exactly** — twenty-six months, the fourteenth of March, and the two declarants **ANTONIO MORGILLO, 27** and **SIMONE MORGILLO, 24**, both «parente della defunta» on strada San Gaetano. **The one word that was wrong is the one the household was named after**, which is how a misreading gets a URL, a page and a place in the index."
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "minor",
+  "where": "/households",
+  "by": "this archive",
+  "what": "«Cossi» survived in the prose of the very act whose household had been corrected to Cioffi",
+  "was": "«*atto 54, on the death of **Mariantonia COSSI**, seven months, daughter of **Francesco COSSI** and Maria Falco*» — inside the evidence for Giuseppe Falco's appearance as «PARENTE DELLA DEFUNTA» on 24 October 1828.",
+  "now": "**MARIANTONIA CIOFFI**, daughter of **FRANCESCO CIOFFI** and **MARIA FALCO** — both surnames carrying the double-f ligature, verified from the image.",
+  "how": "Work-list row 58, while verifying the citation.",
+  "why": "**This archive already knew.** The household was corrected to **Francesco Cioffi & Maria Falco** months ago, and a rule was written into `check_corrections.py` specifically to hold «Cossi» out of it. **The rule reads the PERSON fields and not the prose**, so the retired reading went on standing in the evidence string beside the corrected name, in the same file, on the same page.\n\n**A gate that checks names does not check sentences**, and this archive keeps most of what it knows in sentences.\n\n**The act also states the kinship twice, which had not been recorded**: the second declarant, **CESARE CIOFFI, thirty-one**, of the same street, is «Parente della Defunta» as well.\n\n**A GATE FOR THIS WAS WRITTEN AND TAKEN OUT THE SAME HOUR, AND THE REASON IS WORTH MORE THAN THE GATE WAS.** It stripped every «…» quotation out of the evidence — because a quotation may legitimately spell a name the retired way, that being what the document says — and looked for the retired reading in the archive's own words around it.\n\n**It caught this one. It also raised eight false alarms, and six of them were the archive's own withdrawals saying so**: sentences like «*the strada Camellara household is CIOFFI, **not Cossi***». A seventh was a different family altogether, **the Cossi of strada Cossi**, correctly named in the same volume.\n\n**The house style and the gate cannot both exist.** This archive leaves a correction standing beside the thing it corrected, on purpose, because a quietly swapped reading is how archives lie. **To a regular expression, a visible withdrawal is indistinguishable from a correction that never happened.** Narrowing it — flag only when the right reading is absent from the same sentence — still failed on the strada Cossi family, and every narrowing is one more rule nobody will remember.\n\n**So the prose is not checked, and this is the hole, stated.** It is written into `check_corrections.py` where the next person to have the idea will find it before spending the hour."
  }
 ]
