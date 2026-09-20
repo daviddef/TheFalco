@@ -32,7 +32,22 @@ for fn in sorted(os.listdir(NOTES)):
     # generator while every consumer expected it — so a regeneration silently blanked
     # thirty coverage links and the gate refused the build. It is the filename stem,
     # lowercased, which is how the committed file has always spelt it (QUEUE.md -> queue).
+    # OUTSTANDING IS NOT THE OPPOSITE OF COMPLETE, and conflating them cost a day.
+    #
+    # `complete` answers «was this REGISTER read end to end», and the page shows
+    # it as a chip on each volume. The work list's «research files not finished»
+    # account was pointed at `not complete`, which swept in all fifty-three
+    # FINDING files as well — the death of Matteo Falco, the parish marriage
+    # indexes, every FindMyPast harvest — because a finding file has no reason to
+    # contain the word COMPLETE. Forty-four closed pieces of work were being
+    # counted as outstanding.
+    #
+    # A file is outstanding when it is a per-volume SWEEP that has not finished.
+    # This archive names those `*-progress.md` and nothing else, which is a real
+    # convention and not a guess: thirty-four of the eighty-seven files carry it.
+    progress = fn.endswith("-progress.md")
     rows.append({"file": fn, "key": fn[:-3].lower(), "title": head, "year": year, "kind": kind,
+                 "outstanding": progress and not done,
                  "complete": done, "acts": int(acts.group(1)) if acts else None,
                  "images": int(imgs.group(1)) if imgs else None,
                  "dupes": dupes, "lead": lead,
