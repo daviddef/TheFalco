@@ -1,6 +1,18 @@
 [
  {
   "when": "2026-09-21",
+  "sev": "minor",
+  "where": "/households",
+  "plate": "",
+  "by": "row 31, reading 1821 out",
+  "what": "A household kept a husband's surname this archive had already corrected — and a third act settles him",
+  "was": "The household «**Domenico CRISCI & Margarita Falco**», created from one line of the 1819 Arienzo marriage index: «*ANGELO CRISCI ed ANNA RIVETTI | Arienzo | DI DOMENICO, e MARGARITA FALCO*». **This archive had already published that her husband was DOMENICO COSPI**, from her death act of 13 May 1836 — and the household kept the other name anyway.",
+  "now": "**DOMENICO COSPI**, on a third document and in four separate places on one leaf. Arienzo *Nati* 1821, act 77: «*è comparso **DOMENICO COSPI, di anni CINQUANTASETTE**, di professione contadino, domiciliato in questo Comune, **strada COSPI***» — the margin of the leaf is annotated «**Cospi**», and the parish notice in the INDICAZIONE column names the baptised child «**ANNA MARIA TERESA COSPI**». **The household is renamed.**",
+  "how": "Sweeping the 1821 birth register for a different child entirely — Nunziata Falco, who is not in it.",
+  "why": "**This is the fault this archive keeps finding in itself, in a new file.** A correction was made, published, and left to sit beside a household that went on carrying the retired name — the same shape as the surname conflations the corrections gate was written for, except that **the gate only checks `person` fields and this was in the household's NAME**.\n\n**The son is deliberately left as CRISCI.** The 1819 index spells him *Angelo Crisci*, and that word has not been re-read at magnification. **Either the index misspells him as it misspelled his father, or he is not of this house** — and after a week in which *Cossi*, *Cioffi* and *Crisci* have each turned out to be the other at different magnifications, that is a reading job and not an inference.\n\n**What the act gives beyond the name**: their first child, their street, and both their ages — he fifty-seven, she forty-one. Her death act of 1836 makes her sixty, implying 1776 against this act's 1780. **Four years apart, and neither adopted.**"
+ },
+ {
+  "when": "2026-09-21",
   "sev": "method",
   "where": "/searched",
   "plate": "",
