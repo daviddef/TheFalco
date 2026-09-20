@@ -2811,5 +2811,27 @@
   "now": "«*Carmina d'anni dieci, e **MARIA CRISCI** d'anni cinque*» — **there is no *Rosa* in the act.** The clerk closes the list of children by giving the last one the family surname, and **this archive read the surname as a second forename.**",
   "how": "Work-list row 58. The line was magnified.",
   "why": "**It is a small error of a kind that makes a person unfindable.** A search of any index for *Maria Rosa Crisci* born about 1820 at Arienzo returns nothing, and the child it is looking for is filed under *Maria*. **Everything else in the list — Aniello at fifteen, Sante at twelve, Carmina at ten — verifies exactly**, as does the standing warning attached to it: **the list is of MINORS and not of children**, so it is not a complete family."
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "major",
+  "where": "/households",
+  "by": "this archive",
+  "what": "Five citations into the 1832 register, five errors — and two of them pointed at other families",
+  "was": "Arienzo Morti 1832, `an_ua14334`. **GIOVANNA FALCO**, «*d'anni **SETTANTA**, moglie di **ANTONIO SETT[EMBRE]***», daughter of Michele Falco and **VINCENZA ESPOSITO**, born about **1762**, cited at **img20L act 32**. And **CARMINA FALCO**, six months old, cited at **img48R act 80**.",
+  "now": "**GIOVANNA FALCO, «d'anni SESSANTA, moglie di ANTONIO LETTIERI»**, daughter of Michele Falco and **VINCENZA SPOSITO**, born about **1772** — at **img21L act 32**.\n\n**CARMINA FALCO is ACT 81, on IMAGE 49 RIGHT.**",
+  "how": "Work-list row 58, the twenty-first volume. Every leaf was opened and read.",
+  "why": "**Both citations sent a reader to a different family.** Image 20 left is **act 30**: Michele Morgillo, four years old, son of Nicola Morgillo and Elisabetta Crisci. Image 48 right is **act 79**: **DON FRANCESCANTONIO GESSI, seventy-eight, PROPRIETARIO**, widower of Donna Maria Giuseppa Cinque — a gentry household with nothing to do with a six-month-old girl.\n\n**And the readings themselves were a decade and a name out.** «*ſeſſanta*» is written with two long **ſ** and no crossed **tt**; **sixty, not seventy**, which moves her birth from about 1762 to about **1772**. Her husband is **ANTONIO LETTIERI**. Her mother is **SPOSITO**, with no initial E — the form this archive already holds for the Sposito of strada Camellara, and a different name from *Esposito*, which is the foundling name.\n\n**The evidence for this volume was written in a hand this archive can recognise in itself**: five terse, unformatted lines, no quotation, no magnification, no act quoted in the original. **It was harvested and never read.** Every other volume checked in this row was read at least once; this one was not, and it is the only one where every single citation failed."
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "minor",
+  "where": "/households",
+  "by": "this archive",
+  "what": "Donn'Anna Quotolo's mother was not «d'Isteria», and the archive now says what it can and cannot read",
+  "was": "«*figlia di SILVESTRO QUOTOLO Defunto, di professione POSSIDENTE, e di **Maria d'Isteria(?)** Defunta*» — Arienzo Morti 1824 act 20, `an_ua14326` img16L, with the question mark this archive puts on a word it has not settled.",
+  "now": "**«d'ISTERIA» IS EXCLUDED.** At the leaf's full resolution the word plainly ends **-ustina** — there is no **r** before the last syllable — and it begins **Di**. **The likeliest reading is MARIA DI GIUSTINA**, an attested Campanian surname.",
+  "how": "Work-list row 58. The word was magnified at the filming's ceiling.",
+  "why": "**The middle letter will not separate a g from an f**, so *Difustina* cannot be ruled out, and the positive reading is **published as likely and not as settled**. **The negative is settled**, and that is worth publishing on its own: a reader searching for a *d'Isteria* at Arienzo is searching for a name that is not in this act.\n\nEverything else in that volume verified exactly, including the act this archive had to correct once before: «*PASCALE FALCO, di anni cinquantacinque, COLONO … **ZIO del Defunto**, e GIUSEPPE FALCO, di anni quarantadue, COLONO … **ZIO del Defunto***». **Both «zio», both magnified, both right.** One small fidelity note: the manuscript writes **PASCALE**, and this archive's quotation modernises it to «PASQUALE» inside the guillemets."
  }
 ]

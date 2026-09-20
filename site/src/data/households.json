@@ -1414,8 +1414,8 @@
     "event": "death",
     "date": "19 Dec 1832",
     "place": "Arienzo, strada Camellara",
-    "evidence": "Carmina Falco, di mesi sei, figlia di Francesco Falco, contadino, e di Raffaela Falco",
-    "ark": "ANTENATI an_ua14334 img48r act80"
+    "evidence": "«*è morta nella sua propria casa **CARMINA FALCO, di mesi SEI**, nata in Arienzo, di professione contadina, domiciliata ivi, figlia di **FRANCESCO FALCO**, di professione contadino, domiciliato ivi, e di **RAFFAELA FALCO**, domiciliata ivi*» — died **19 December 1832**, at two in the morning. Six months old, so born about June 1832.\n\n**THE CITATION WAS WRONG IN BOTH ITS PARTS UNTIL 20 SEPTEMBER 2026.** It gave *image 48 right, act 80*. **Image 48 right is act 79**, and act 79 is **DON FRANCESCANTONIO GESSI, seventy-eight, PROPRIETARIO**, widower of Donna Maria Giuseppa Cinque — a gentry household with nothing to do with this child. **Act 80 is image 49 left**, and that is Arcangelo Altarelli, nineteen. **Carmina Falco is ACT 81, on IMAGE 49 RIGHT.**",
+    "ark": "ANTENATI an_ua14334 img49r act81"
    },
    {
     "household": "Francesco Falco & Raffaela Falco",
@@ -1465,37 +1465,37 @@
   ]
  },
  {
-  "name": "Michele Falco & Vincenza Esposito",
+  "name": "Michele Falco & Vincenza Sposito",
   "members": [
    {
-    "household": "Michele Falco & Vincenza Esposito",
+    "household": "Michele Falco & Vincenza Sposito",
     "person": "Michele Falco",
     "role": "father",
     "event": "—",
     "date": "—",
     "place": "Arienzo",
     "evidence": "named as the deceased's father, \"figlia di Michele Falco, defunto, di professione contadino\"",
-    "ark": "ANTENATI an_ua14334 img20l act32"
+    "ark": "ANTENATI an_ua14334 img21l act32"
    },
    {
-    "household": "Michele Falco & Vincenza Esposito",
-    "person": "Vincenza Esposito",
+    "household": "Michele Falco & Vincenza Sposito",
+    "person": "Vincenza Sposito",
     "role": "mother",
     "event": "—",
     "date": "—",
     "place": "Arienzo",
-    "evidence": "e di Vincenza Esposito, defunta, domiciliata ivi",
-    "ark": "ANTENATI an_ua14334 img20l act32"
+    "evidence": "«*e di **VINCENZA SPOSITO**, **Defunta**, domiciliata ivi*» — read from the image on 20 September 2026. **She was published here as «Vincenza ESPOSITO» and the act has no initial E.** **SPOSITO** is the form this archive already holds on the Falco's own street — Tomaso Sposito, Salvatore Sposito, Crescenzo Sposito — and *Esposito*, the foundling name, is a different thing entirely. Dead before May 1832.",
+    "ark": "ANTENATI an_ua14334 img21l act32"
    },
    {
-    "household": "Michele Falco & Vincenza Esposito",
+    "household": "Michele Falco & Vincenza Sposito",
     "person": "Giovanna Falco",
     "role": "child",
     "event": "death",
     "date": "13 May 1832",
     "place": "Arienzo",
-    "evidence": "Giovanna Falco, d'anni settanta, moglie di Antonio Sett[embre], nata in Arienzo, contadina — b. c.1762",
-    "ark": "ANTENATI an_ua14334 img20l act32"
+    "evidence": "«*è morta nella sua propria casa **GIOVANNA FALCO, d'anni SESSANTA**, moglie di **ANTONIO LETTIERI**, nata in Arienzo, di professione contadina, domiciliata ivi, figlia di **MICHELE FALCO Defunto** … e di **VINCENZA SPOSITO Defunta***» — died 13 May 1832, the act drawn the next day. Born about **1772**.\n\n**THREE THINGS ON THIS ONE LINE WERE WRONG UNTIL 20 SEPTEMBER 2026.** She was published at **seventy**, and the word is «*ſeſſanta*» — two long **ſ**, no crossed **tt**. Her husband was published as «**Antonio Sett[embre]**», and the act reads **ANTONIO LETTIERI**. Her mother was published as **Vincenza ESPOSITO**, and the act reads **SPOSITO**, with no initial E — which is the form this archive already holds for the Sposito of strada Camellara.\n\n**And the citation pointed at the wrong leaf.** It gave image 20 left; **image 20 left is act 30, and act 30 is a different family altogether** — Michele Morgillo, four years old, son of Nicola Morgillo and Elisabetta Crisci. **Act 32 is on image 21 left**, drawn 14 May before Francesco d'Ambrosio, sindaco, and declared by **Gennaro Cioffi, thirty** and **Clemente Cioffi, twenty-eight**, both of strada Cossa.",
+    "ark": "ANTENATI an_ua14334 img21l act32"
    }
   ]
  },
@@ -1899,7 +1899,7 @@
     "event": "death",
     "date": "25 Apr 1824",
     "place": "Arienzo, strada Croce dell'Ospedale",
-    "evidence": "«è morta nella sua propria casa DONN'ANNA QUOTOLO di anni OTTANTOTTO, vedova di DON NICOLA RIVETTI, nata in Arienzo, di professione GENTILDONNA, figlia di SILVESTRO QUOTOLO Defunto, di professione POSSIDENTE, e di Maria d'Isteria(?) Defunta» — atto 20. Eighty-eight, so born about 1736. She outlived Don Nicola by at least eight years and was living on strada Croce dell'Ospedale, where the two neighbours who declared her death are both contadini Migliore. This is the woman named on Donna Francesca Rivetti's act of January 1816, now with her own death, her age, her father and his station.",
+    "evidence": "«è morta nella sua propria casa DONN'ANNA QUOTOLO di anni OTTANTOTTO, vedova di DON NICOLA RIVETTI, nata in Arienzo, di professione GENTILDONNA, figlia di SILVESTRO QUOTOLO Defunto, di professione POSSIDENTE, e di **MARIA DI GIUSTINA** Defunta» — atto 20. Eighty-eight, so born about 1736. She outlived Don Nicola by at least eight years and was living on strada Croce dell'Ospedale, where the two neighbours who declared her death are both contadini Migliore. This is the woman named on Donna Francesca Rivetti's act of January 1816, now with her own death, her age, her father and his station.\n\n**THE MOTHER'S SURNAME WAS «Maria d'Isteria(?)» HERE UNTIL 20 SEPTEMBER 2026, AND «d'ISTERIA» IS EXCLUDED.** At the leaf's full resolution the word plainly ends **-ustina** — there is no **r** before the final syllable — and it begins **Di**. **The likeliest reading is DI GIUSTINA**, an attested Campanian surname; the middle letter will not separate a **g** from an **f**, so *Difustina* cannot be ruled out and the reading is **not treated as settled**. **What is settled is the negative.**",
     "ark": "ANTENATI an_ua14326 img16l atto20"
    },
    {
