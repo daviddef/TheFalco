@@ -6223,8 +6223,8 @@
 ]
 },
 {
-"slug": "maria-rosa-crisci",
-"name": "Maria Rosa Crisci",
+"slug": "maria-crisci-of-crescenzo-crisci-angela-quotolo",
+"name": "Maria Crisci",
 "via": "register",
 "vias": [
 "register"
@@ -6495,8 +6495,8 @@
 ]
 },
 {
-"slug": "maria-rosa-crisci",
-"name": "Maria Rosa Crisci",
+"slug": "maria-crisci-of-crescenzo-crisci-angela-quotolo",
+"name": "Maria Crisci",
 "via": "register",
 "vias": [
 "register"
@@ -6853,8 +6853,8 @@
 ]
 },
 {
-"slug": "maria-rosa-crisci",
-"name": "Maria Rosa Crisci",
+"slug": "maria-crisci-of-crescenzo-crisci-angela-quotolo",
+"name": "Maria Crisci",
 "via": "register",
 "vias": [
 "register"
@@ -6869,6 +6869,30 @@
 ]
 }
 ],
+"siblings": []
+},
+{
+"slug": "domenico-crisci",
+"name": "Domenico Crisci",
+"surname": "CRISCI",
+"household": "Crescenzo Crisci & Angela Quotolo",
+"role": "declarant",
+"events": [
+{
+"event": "named as the dead man's brother",
+"date": "5 Nov 1825",
+"place": "Arienzo, luogo Fabrica",
+"evidence": "«*sono comparsi **DOMENICO CRISCI GERMANO DEL DEFUNTO**, d'anni **quarantanove**, di professione **colono**, regnicolo, domiciliato nel Comune di **Arienzo** … luogo detto **Fabrica***» — **«GERMANO» IS FULL BROTHER, AND THIS ARCHIVE HAD NOT RECORDED HIM AT ALL.** Forty-nine at Nola on 5 November 1825, so born about **1776**, four years before Crescenzo. **A brother of Crescenzo Crisci is a son of ALESSANDRO CRISCI and CARMINA SORRINO**, and the word was magnified before this was written.",
+"ark": "ANTENATI an_ua14071 (Arienzo, Diversi 1825) atto 1, img 2r — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
 "siblings": []
 },
 {
@@ -7168,6 +7192,30 @@
 "d": "June 8 1876",
 "bp": "Arienzo, Caserta, Campania, Italy",
 "dp": "Arienzo, Caserta, Campania, Italy"
+},
+{
+"slug": "gabriele-crisci",
+"name": "Gabriele Crisci",
+"surname": "CRISCI",
+"household": "Crescenzo Crisci & Angela Quotolo",
+"role": "declarant",
+"events": [
+{
+"event": "named as the dead man's brother",
+"date": "5 Nov 1825",
+"place": "Arienzo, luogo Fabrica",
+"evidence": "«*e **GABRIELE CRISCI GERMANO** [del Defunto] … domiciliato in detto Comune, luogo indicato*» — **a second full brother, and this archive had not recorded him either.**\n\n**HIS AGE IS NOT READ AND IS NOT GUESSED.** The line runs into the binding at the right edge of the leaf, where this filming is in shadow, and his age and trade are inside it. **What survives is that he was of age, a resident of the same place, and a brother.**",
+"ark": "ANTENATI an_ua14071 (Arienzo, Diversi 1825) atto 1, img 2r — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
 },
 {
 "slug": "giovanna-crisci",
@@ -7475,7 +7523,7 @@
 ],
 "children": [
 {
-"slug": "maria-crisci",
+"slug": "maria-crisci-of-marcello-crisci-maria-rosa-mauro",
 "name": "Maria Crisci",
 "via": "register",
 "vias": [
@@ -7486,7 +7534,7 @@
 "siblings": []
 },
 {
-"slug": "maria-crisci",
+"slug": "maria-crisci-of-marcello-crisci-maria-rosa-mauro",
 "name": "Maria Crisci",
 "surname": "CRISCI",
 "household": "Marcello Crisci & Maria Rosa Mauro",
@@ -7527,8 +7575,8 @@
 "siblings": []
 },
 {
-"slug": "maria-rosa-crisci",
-"name": "Maria Rosa Crisci",
+"slug": "maria-crisci-of-crescenzo-crisci-angela-quotolo",
+"name": "Maria Crisci",
 "surname": "CRISCI",
 "household": "Crescenzo Crisci & Angela Quotolo",
 "role": "child",
@@ -7537,7 +7585,7 @@
 "event": "named as a surviving minor",
 "date": "4 Nov 1825",
 "place": "Arienzo",
-"evidence": "«*e MARIA ROSA d'anni CINQUE*» — born about 1820. New to this archive.",
+"evidence": "«*e **MARIA CRISCI d'anni CINQUE***» — born about 1820. New to this archive.\n\n**SHE WAS PUBLISHED HERE AS «MARIA ROSA» UNTIL 20 SEPTEMBER 2026.** There is no *Rosa* in the act. The clerk closes the list of children by giving the last one the family surname — «*Carmina d'anni dieci, e **Maria Crisci** d'anni cinque*» — and **this archive read the surname as a second forename.**",
 "ark": "ANTENATI an_ua14071 (Arienzo, Diversi 1825) atto 1, img 2r — READ FROM THE IMAGE"
 }
 ],
@@ -7918,8 +7966,8 @@
 ]
 },
 {
-"slug": "maria-rosa-crisci",
-"name": "Maria Rosa Crisci",
+"slug": "maria-crisci-of-crescenzo-crisci-angela-quotolo",
+"name": "Maria Crisci",
 "via": "register",
 "vias": [
 "register"
@@ -34944,7 +34992,7 @@
 ],
 "children": [
 {
-"slug": "maria-crisci",
+"slug": "maria-crisci-of-marcello-crisci-maria-rosa-mauro",
 "name": "Maria Crisci",
 "via": "register",
 "vias": [
@@ -38622,8 +38670,8 @@
 ]
 },
 {
-"slug": "maria-rosa-crisci",
-"name": "Maria Rosa Crisci",
+"slug": "maria-crisci-of-crescenzo-crisci-angela-quotolo",
+"name": "Maria Crisci",
 "via": "register",
 "vias": [
 "register"
