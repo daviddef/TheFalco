@@ -1,5 +1,43 @@
 [
  {
+  "when": "1837",
+  "src": "Arienzo BIRTH register, 1837 — ANTENATI an_ua14434, 146 images",
+  "what": "Every act at the PARENTS band, hunting **NUNZIATA FALCO**, and reading the year out for the surname.",
+  "got": "**NO NUNZIATA — and ONE Falco birth, act 108.** «*è comparso **FRANCESCANTONIO FALCO, di anni TRENTUNO, di professione CONTADINO, domiciliato in STRADA CAMELLARA** … che lo stesso è nato da **RAFFAELA FALCO sua moglie legittima, di anni VENTISEI** … nel giorno **TRENTUNO** del mese di **Agosto** … alle ore **SEI** … il nome di **RAFFAELE***», **baptised at Sant'Andrea the same day**. A sixth child for the first-cousin marriage.\n\n**AND THE YEAR'S TAVOLA PROVES WHY THIS ARCHIVE MUST SWEEP.** The *Tavola Alfabetica Annuale de' Nati* is at image 144, properly headed and filled — and it runs **Arrigale, Affinito, Ambrosio, Amone, Andreana, Altarelli, Anzivino, Bernardo, Cospi, Carfora, Cimmino** and **ends at C**. Image 145 is a **duplicate photograph of 144 with the Archivio's own conservation slip lying across the page**, and image 146 closes the volume. **The rest of the alphabet was never filmed.** **F is unreachable in this tavola**, exactly as it is in 1832's, and as it is in the 1834 death index — «a single leaf covering A to C and marked END». **Three years, one shape: the Arienzo tavole of this period reach A to C and no further.**",
+  "outcome": "found",
+  "tags": [
+   "Births",
+   "Antenati",
+   "read in full"
+  ],
+  "href": "https://antenati.cultura.gov.it/ark:/12657/an_ua14434"
+ },
+ {
+  "when": "1855",
+  "src": "FamilySearch — the parish marriage act of Nunziata Falco, 13 November 1855, ark 3Q9M-CSMY-B7H3-C (film 007786827, Arienzo marriages 1754–1900)",
+  "what": "**Who did she marry?** This archive holds her marriage from a machine transcription that captured only her side — «*Nuntiatam Falco filiam Vincentii, et Andreanae Crisci*» — and has never recorded the groom. His name is on the image and in the full-text transcription of the page.",
+  "got": "**BLOCKED, and not by credentials.** A logged-in FamilySearch session is open in this archive's browser pane and the viewer loads with its signed-in controls, so the image is reachable. **What is missing is a DISPLAYED browser pane**: every screenshot returns «*the Browser pane is not displayed, so the page is not compositing frames*», and the render-and-screenshot loop this archive uses to read FamilySearch handwriting cannot run without one.\n\n**Three things were established that will save the next attempt time.**\n\n**The DeepZoom image is there and its dimensions are known**: `/service/records/storage/deepzoomcloud/dz/v1/3:1:3Q9M-CSMY-B7H3-C/image.xml` returns **2394 × 1831**, tile 256, overlap 1 — so native level 12, and level 10 is a six-tile overview.\n\n**`/das/v2/<ark>/name?namespace=apid` returns the internal asset name** — here **TH-909-54838-142299-56**. That is new to this archive and is what the viewer itself asks for.\n\n**There is no full-text-by-ark endpoint**, or not at any of five obvious addresses: `/service/search/fulltext/<id>`, `/record/<id>`, `/search/record?id=`, `/text?id=` all **404**, and `q.externalRecordId` is rejected as an unmappable field. The page transcription is reachable only through `/service/search/fulltext/search`, whose results carry **`content.textDocument`** — the whole page's text — but the act did not surface in the first hundred results for *Nuntiatam Falco* or *Andreanae Crisci Nuntiatam* in the marriage collection with Arienzo weighting.\n\n**And the rate limit is real**: after about twenty-five requests the endpoint stops answering within the tool's timeout. **Budget one act per half hour.**",
+  "outcome": "blocked",
+  "tags": [
+   "FamilySearch",
+   "Marriages"
+  ],
+  "href": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSMY-B7H3-C"
+ },
+ {
+  "when": "1835",
+  "src": "Arienzo BIRTH register, 1835 — ANTENATI an_ua14432, 118 images",
+  "what": "Every act at the PARENTS band, hunting **NUNZIATA FALCO** — daughter of Vincenzo Falco and Andreana Crisci, married 13 November 1855, birth never found.",
+  "got": "**NO FALCO AND NO CRISCI.** Vincenzo Falco fathered no child registered at Arienzo in 1835. **And the volume has no tavola at all** — image 117 is the closing certificate of 31 December 1835 and 118 is blank.\n\n**The year's one near-miss, recorded so it is not mistaken for ours**: act on image 52, **CARMINA GELSOMINA ALTARELLI** married to **FRANCESCANTONIO CRISCI**, thirty-two, *possidente*, of strada Porta di Sopra — a Crisci father, of a different household and a different rank.\n\n**Three years are now read out for this couple: 1832, 1835 and 1836.** What remains is 1820–1823, 1829, 1831, 1833, 1837 and 1838.",
+  "outcome": "no Falco",
+  "tags": [
+   "Births",
+   "Antenati",
+   "read in full"
+  ],
+  "href": "https://antenati.cultura.gov.it/ark:/12657/an_ua14432"
+ },
+ {
   "when": "1832",
   "src": "Arienzo BIRTH register, 1832 — ANTENATI an_ua14429, 117 images",
   "what": "Every act read at the PARENTS band — «è nato da [mother] … e da [father] marito della stessa» — hunting **NUNZIATA FALCO**, and reading out the year for the surname while there.",
@@ -26,10 +64,10 @@
   "href": "https://antenati.cultura.gov.it/ark:/12657/an_ua14433"
  },
  {
-  "when": "1831, 1832 and 1836",
-  "src": "Arienzo BIRTH registers — the annual tavole. ANTENATI an_ua14428 (1831), an_ua14429 (1832) and an_ua14433 (1836), the last openings of each.",
+  "when": "1831, 1832, 1836 and 1837",
+  "src": "Arienzo BIRTH registers — the annual tavole. ANTENATI an_ua14428 (1831), an_ua14429 (1832), an_ua14433 (1836) and an_ua14434 (1837).",
   "what": "Whether the Arienzo birth volumes of the 1830s carry a usable alphabetical tavola, which is the cheap way to find one child in a year of 130 births",
-  "got": "**THEY ARE SPORADIC, AND THEY FAIL IN THREE DIFFERENT WAYS.**\n\n**1831 has no tavola at all.** `an_ua14428` ends with its last acts — 244, 245, 246, all late December — then two blank leaves and the Procuratore del Re's certificate.\n\n**1836 has one and it was never filled in.** `an_ua14433` image 127 right carries the printed heading «*Tavola alfabetica annuale de' Nati per l'anno milleottocento*» over its ruled columns, and every cell is empty.\n\n**1832 has one, filled, and it stops at C.** `an_ua14429` image 116 gives «*Circondario di Arienzo — Tavola alfabetica annuale de' Nati per l'anno milleottocento trentadue 1832*», with **Numero d'ordine · Cognomi e Nomi degli Nati · Cognomi e Nomi de' genitori · Giorno della Nascita · Osservazioni**, and it runs Anzivino, Andrea, Arrigale, Ambrosio, Bernardo, Balletta, Crisci, Cimmino — and the volume ends. **F is not in it.**\n\n**That last shape is one this archive has met before**: the 1834 death index is «a single leaf covering A to C and marked END». **An Arienzo index that stops at C is a pattern, not an accident**, and a search that reaches the C page and finds nothing has not reached F at all.\n\n**So the tavola cannot be trusted as the cheap route in this decade**, and a year must be read at the parents band — about seven contact sheets for 120 images.",
+  "got": "**THEY ARE SPORADIC, AND THEY FAIL IN THREE DIFFERENT WAYS.**\n\n**1831 has no tavola at all.** `an_ua14428` ends with its last acts — 244, 245, 246, all late December — then two blank leaves and the Procuratore del Re's certificate.\n\n**1836 has one and it was never filled in.** `an_ua14433` image 127 right carries the printed heading «*Tavola alfabetica annuale de' Nati per l'anno milleottocento*» over its ruled columns, and every cell is empty.\n\n**1832 has one, filled, and it stops at C.** `an_ua14429` image 116 gives «*Circondario di Arienzo — Tavola alfabetica annuale de' Nati per l'anno milleottocento trentadue 1832*», with **Numero d'ordine · Cognomi e Nomi degli Nati · Cognomi e Nomi de' genitori · Giorno della Nascita · Osservazioni**, and it runs Anzivino, Andrea, Arrigale, Ambrosio, Bernardo, Balletta, Crisci, Cimmino — and the volume ends. **F is not in it.**\n\n**That last shape is one this archive has met before**: the 1834 death index is «a single leaf covering A to C and marked END». **An Arienzo index that stops at C is a pattern, not an accident**, and a search that reaches the C page and finds nothing has not reached F at all.\n\n**So the tavola cannot be trusted as the cheap route in this decade**, and a year must be read at the parents band — about seven contact sheets for 120 images.\n\n**AND 1837 MAKES IT A PATTERN RATHER THAN A RUN OF BAD LUCK.** Its tavola is at image 144, headed and filled — Arrigale, Affinito, Ambrosio, Amone, Andreana, Altarelli, Anzivino, Bernardo, Cospi, Carfora, Cimmino — and **ends at C**. Image 145 is a **duplicate photograph of 144 with the Archivio's own conservation slip lying across the page**, and 146 closes the volume. **The rest of the alphabet was never filmed.**\n\n**So: 1831 none, 1836 blank, 1832 and 1837 filled and stopping at C** — and the 1834 death index is «a single leaf covering A to C and marked END». **An Arienzo index of this period that reaches C has not reached F**, and for a family called FALCO that is the whole of the difference.",
   "outcome": "not there",
   "tags": [
    "Births",
