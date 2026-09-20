@@ -19041,8 +19041,16 @@
 ]
 },
 {
-"slug": "rosaria-falco",
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta",
 "name": "Rosaria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Rosaria Falco (the second)",
 "via": "register",
 "vias": [
 "register"
@@ -19262,7 +19270,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "rosaria-falco",
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta",
 "name": "Rosaria Falco",
 "via": "register",
 "vias": [
@@ -19272,6 +19280,14 @@
 {
 "slug": "domenico-clemente-falco",
 "name": "Domenico Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Rosaria Falco (the second)",
 "via": "register",
 "vias": [
 "register"
@@ -23082,6 +23098,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "MASSARO DI CAMPAGNA, and on STRADA CAMELLARA — this archive has the household at STRADA COSTA in 1816. Either they moved, or the street is not the identifier here. He is NOT the Giuseppe Falco of the same street who declared a birth seven months later: that one is a CONTADINO married to ANTONIA DI GUIDA. Two Giuseppe Falco on one street in one year, separated by trade and by wife.",
 "ark": "ANTENATI an_ua14416 img18r act33"
+},
+{
+"event": "named as declarant",
+"date": "15 Mar 1821",
+"place": "Arienzo, strada Camellara",
+"evidence": "**AND THIS ACT COMPLICATES THE TEST THAT KEEPS THE TWO GIUSEPPE FALCO APART.** «*GIUSEPPE FALCO, di anni **TRENTOTTO**, di professione contadino, domiciliato in questo Comune, **strada CAMELLARA***» — with **GELSOMINA VIGLIOTTA** as his wife.\n\nThis archive separates the two men of this name «**by street and wife**»: one on **strada COSTA** with **Gelsomina Vigliotta**, one on **strada CAMELLARA** with **Antonia di Guida**. **Here the Gelsomina Vigliotta household is on strada Camellara.** So the two halves of the test do not agree, and **the wife is the half that holds**: the street does not. *Nothing is merged* — the 1816 and 1818 acts that founded the distinction still name two different wives, which is what matters — but a reading that rests on the street alone is not safe.",
+"ark": "ANTENATI an_ua14418 (Arienzo, Nati 1821) img 24r-25l, atto 22 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -23109,7 +23132,7 @@
 ]
 },
 {
-"slug": "rosaria-falco",
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta",
 "name": "Rosaria Falco",
 "via": "register",
 "vias": [
@@ -23119,6 +23142,14 @@
 {
 "slug": "domenico-clemente-falco",
 "name": "Domenico Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Rosaria Falco (the second)",
 "via": "register",
 "vias": [
 "register"
@@ -29244,7 +29275,7 @@
 ]
 },
 {
-"slug": "rosaria-falco",
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta",
 "name": "Rosaria Falco",
 "via": "register",
 "vias": [
@@ -29254,6 +29285,14 @@
 {
 "slug": "domenico-clemente-falco",
 "name": "Domenico Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Rosaria Falco (the second)",
 "via": "register",
 "vias": [
 "register"
@@ -32433,7 +32472,7 @@
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
-"slug": "rosaria-falco",
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta",
 "name": "Rosaria Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
@@ -32475,6 +32514,88 @@
 {
 "slug": "domenico-falco-of-giuseppe-falco-gelsomina-vigliotta",
 "name": "Domenico Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenico-clemente-falco",
+"name": "Domenico Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Rosaria Falco (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasqua-falco",
+"name": "Pasqua Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Rosaria Falco (the second)",
+"surname": "FALCO",
+"household": "Giuseppe Falco & Gelsomina Vigliotta",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "15 Mar 1821",
+"place": "Arienzo, strada Camellara",
+"evidence": "**A SECOND ROSARIA, BORN TWO YEARS TO THE DAY AFTER THE FIRST ONE DIED.** Act 22: «*L'Anno mille ottocento **ventuno**, il dì **QUINDICI** del mese di **MARZO**, ad ore tredici, avanti di Noi **CLAUDIO CIMMINO Sindaco** … è comparso **GIUSEPPE FALCO, di anni TRENTOTTO, di professione CONTADINO, domiciliato in questo Comune, strada CAMELLARA**, quale ci ha presentato una **FEMINA** … che la stessa è nata da **GELSOMINA VIGLIOTTA sua moglie legittima, di anni TRENTASETTE** … nel giorno **QUINDICI** del mese di Marzo, anno corrente, **alle ore DIECI** … il nome di **ROSARIA***». Witnessed by **GENNARO RIVETTI**, twenty-one, of **strada Monticello de' Cappuccini**, and **AGOSTINO CIOFFI**, forty-eight, of **strada Camellara**.\n\n**The first Rosaria died on 15 MARCH 1819.** This one is born on **15 March 1821** — the same day of the same month, two years later. *The coincidence is recorded and not explained.* This household reuses a dead child's name as a matter of course, and so does its neighbour: two Raffaele, two Pasquale, two Antonia, two Maddalena, two Giovanni are already on this site.\n\n**WORK-LIST ROW 42 IS NOT ANSWERED BY THIS.** That row asks where the FIRST Rosaria's birth act is, and it is still in none of the registers for 1816–1819. What this act does is make the second Rosaria a documented person and confirm that the first was a distinct child.",
+"ark": "ANTENATI an_ua14418 (Arienzo, Nati 1821) img 24r-25l, atto 22 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gelsomina-vigliotta",
+"name": "Gelsomina Vigliotta",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "domenico-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Domenico Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Rosaria Falco",
 "via": "register",
 "vias": [
 "register"
@@ -44804,7 +44925,7 @@
 ]
 },
 {
-"slug": "rosaria-falco",
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta",
 "name": "Rosaria Falco",
 "via": "register",
 "vias": [
@@ -44814,6 +44935,14 @@
 {
 "slug": "domenico-clemente-falco",
 "name": "Domenico Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Rosaria Falco (the second)",
 "via": "register",
 "vias": [
 "register"
