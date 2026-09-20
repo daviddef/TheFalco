@@ -1,6 +1,18 @@
 [
  {
   "when": "2026-09-21",
+  "sev": "major",
+  "where": "/households",
+  "plate": "",
+  "by": "row 31, sweeping 1822 for somebody else",
+  "what": "A granddaughter of the founder, in an act that names him — ANGELA MARIA FALCO, 19 January 1822",
+  "was": "**GIUSEPPE FALCO and ANTONIA DI GUIDA** — the founder's son and his wife — were documented with children running **Crescenzo, 11 October 1819**, then nothing until **Clemente, 11 March 1824**. A four-and-a-half-year gap, unexamined because the 1822 birth register had never been read.",
+  "now": "**ANGELA MARIA FALCO, born 19 January 1822 at twelve, on strada Camellara.** Act 8: «*è comparso **GIUSEPPE FALCO FU MATTEO, di anni QUARANTA, di professione MASSARO**, domiciliato in questo Comune, **strada CAMELLARA**, quale ci ha presentato una **FEMINA** … che la stessa è nata da **ANTONIA DI GUIDA sua moglie legittima, di anni QUARANTA** … il nome di **ANGELA MARIA***». Witnessed by **OTTAVIO MIGLIORE**, thirty-nine, of strada Croce dell'Ospedale, and **GENNARO MAJONE SENIORE**, forty-three, *contadino*, of strada Caldarola. Baptised at **Sant'Andrea Apostolo the same day**.",
+  "how": "Sweeping all 141 images of the 1822 birth register at the band that names both parents — looking for **Nunziata Falco**, who is not in it.",
+  "why": "**The act names Matteo.** «*Giuseppe Falco **FU MATTEO***» is the phrase this archive built a generation on: it is what separates the Camellara Giuseppe, this line's own, from the **Giuseppe Falco of strada Costa** who married Gelsomina Vigliotta, and it is why the infant Matteo of 1809 could be identified as the founder's grandson. **Here it is again, in a daughter's birth act, eight years after the notarial consent that first proved Matteo dead** — and it comes with his trade at that date, ***MASSARO***, a tenant farmer with stock rather than the *contadino* of his later acts.\n\n**Both parents are given as forty**, which puts them about 1782. Antonia di Guida's baptism is **31 October 1783**. *Close enough for these registers, and not adopted.*\n\n**And the sweep that found her was looking for someone else entirely.** Ten years of Arienzo birth registers have now been read act by act for a daughter of generation three who is in none of them. **The nils cost the same as the finds and are worth recording as carefully**; this one happened to pay."
+ },
+ {
+  "when": "2026-09-21",
   "sev": "minor",
   "where": "/households",
   "plate": "",
