@@ -14,7 +14,7 @@ single document this archive has found.
 `notes/findings.md` and `notes/QUEUE.md` both said this file did not exist:
 
 > Worked the 1814 processetti (`an_ua14154`, 290 pp.) from the back … So the volume runs to
-> **act 25 and then straight into 1815**. … **Act 26's supporting file is not in either.**
+> **act 25 and then straight into 1815**. … ~~**Act 26's supporting file is not in either.**~~ **There is no act 26.**
 > Whether it was never filed, was lost, or sits in an unscanned volume is not established —
 > but it is not on Antenati.
 
@@ -50,8 +50,8 @@ justify every one it writes.
 | 265 R | Cover sheet, folio **16** | — |
 | 266 R | **Vincenzo Falco's baptism extract** | issued 13 Sept 1814 |
 | 268 R | **Adriana Crisci's baptism extract** | issued 13 Sept 1814 |
-| 269 R | Notarial act **85** — the **groom's** parents consent | 8 Dec 1814 |
-| 270 R | Notarial act **26** — the **bride's** parents consent | 8 Dec 1814 |
+| 269 R | Notarial act **85** — the **groom's** parents consent | **8 Sept 1814** |
+| 270 R | Notarial act **86** — the **bride's** parents consent | **8 Sept 1814** |
 | 271 R | Civil publication act **33** — first banns | Sun 11 Sept 1814 |
 | 272 R | Civil publication act **40** — second banns | Sun 18 Sept 1814 |
 | 273 R | Archpriest's certificate of the church banns | Sun 9 Oct 1814 |
@@ -73,7 +73,7 @@ Four parents named on the wrapper before a single act is opened.
 ## THE BIGGEST FIND: Matteo Falco, named in 1814 (image 269, act 85)
 
 Vincenzo was 23 — under the Code's threshold of 25 — so his parents had to consent in person.
-They did, before **Felice Morgillo**, notary, on 8 December 1814:
+They did, before **Felice Morgillo**, notary, on **8 September 1814** (registered at Arienzo 12 September):
 
 > «…lità ricercate dalla Legge, li conjugi **PASQUALE FALCO del fu MATTEO**, e **CHIARA
 > RIVETTI del fu NICOLA**, domiciliati in questa suddetta comune corpo di Arienzo, **strada
@@ -88,7 +88,7 @@ Until now Matteo rested on the baptisms of his children (1767–1786) and on the
 three of them — Angela's of 1822, Rosa's of 1830, Pasquale's of 1834. The earliest proof that
 he was dead was Angela's act of **17 October 1822**.
 
-**The bracket on Matteo Falco's death now closes from [1786, Oct 1822] to [1786, 8 Dec 1814]** —
+**The bracket on Matteo Falco's death now closes from [1786, Oct 1822] to [1786, 8 Sep 1814]** —
 narrowing it by nearly eight years, and from a notarial instrument rather than a register clerk's
 recollection.
 
@@ -121,7 +121,7 @@ Two things at once:
 |---|---|---|---|
 | Banns, 11 Sept 1814 | 23 | 22y 7m | in his 23rd year — **right by Italian reckoning** |
 | Banns, 18 Sept 1814 | 23 | 22y 7m | **right** |
-| Marriage act, 15 Dec 1814 | 21 | 22y 10m | wrong by 2 |
+| Marriage act, 15 Oct 1814 | 23 | 22y 8m | **right — in his 23rd year** |
 | Raffaele I's birth, 25 Apr 1816 | 35 | 24 | **wrong by 11** |
 | Raffaele II's birth, 10 May 1818 | 27 | 26y 3m | in his 27th year — **right** |
 | Declaration, 1831 | 38 | 39 | close |
@@ -157,7 +157,7 @@ Same archpriest, same day, same formula — this one out of **liber IX, folio 94
 
 ## Two new generations, and a knot
 
-The consent act before notary **Salvio Morgillo** (image 270, act 26) names the bride's side:
+The consent act before notary **Felice Morgillo** — the same notary and the same day as act 85 — (image 270, act **86**) names the bride's side:
 
 > «…li **conjugi ARCANGELO CRISCI fu NICOLA, e SARA RUGGIERO di Pasquale**, domiciliati in
 > questa suddetta Comune Corpo, **strada Camellara**, di età maggiore, a me conosciuti… prestano
@@ -165,7 +165,7 @@ The consent act before notary **Salvio Morgillo** (image 270, act 26) names the 
 
 Two names never recorded before:
 
-- **NICOLA CRISCI** — Arcangelo's father, **already dead** by December 1814 (*fu*).
+- **NICOLA CRISCI** — Arcangelo's father, **already dead** by September 1814 (*fu*).
 - **PASQUALE RUGGIERO** — Sara's father, **still living** (*di*, not *fu*).
 
 And the Crisci lived on **strada Camellara**, the Falco street. The two families were neighbours
@@ -189,7 +189,7 @@ was **nine years old**. He cannot be her father.
 **What is still not fixed is which of them Anna Falco married.** The archive's standing reading
 is the younger, and it remains the simpler one: Anna was born about 1795 and married by about
 1819. But the elder cannot be excluded outright — it would need Sara Ruggiero to have died
-between December 1814, when she was alive and consenting before a notary, and about 1818.
+between September 1814, when she was alive and consenting before a notary, and about 1818.
 
 **The test is Sara Ruggiero's death**, and it is now a specific, dated, falsifiable search rather
 than a vague one: the Arienzo death registers, 1815–1818.
@@ -222,7 +222,7 @@ Four Morgillo run the town between them:
 - **Vincenzo Morgillo** — *Sindaco*, and officer of the civil state
 - **Giacinto Morgillo** — *Archipresbyter* of the collegiate church of Sant'Andrea Apostolo
 - **Felice Morgillo**, son of the late Valeriano — public notary, strada Terra Murata
-- **Salvio Morgillo** — public notary, strada Terra Murata
+- **Felice Morgillo** — public notary, strada Terra Murata (an earlier reading of this dossier gave a second notary, «Salvio Morgillo», for the bride's consent; both consents are Felice's, taken the same day)
 
 Generation four would marry **Angela Rosa Morgillo**, daughter of Orazio, in the next generation.
 The family married into the name that ran the comune.

@@ -14,7 +14,7 @@ Anna Falco?** The archive's standing reading is the younger (30 in 1817, b. c.17
 younger man was nine.
 
 The elder could only *also* be Anna's husband if his wife **Sara Ruggiero** had died between
-December 1814, when she consented before a notary, and about 1818, when Anna married.
+September 1814, when she consented before a notary, and about 1818, when Anna married.
 
 **She did not.** Two findings close it:
 

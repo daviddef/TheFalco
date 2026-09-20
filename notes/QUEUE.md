@@ -374,17 +374,17 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
 
 ## Dead ends, recorded so they are not repeated
 - ~~**Arienzo processetti 1814 (an_ua14154, 290 pp.)** — worked from the back. Contains acts up to
-  **25** and then goes straight into 1815. **The file for act 26 (Falco x Crisci) is not in it**, nor
+  **25** and then goes straight into 1815. ~~**The file for act 26 (Falco x Crisci) is not in it**~~ — **there is no act 26; it is act 16, and the file is bundle 16**, nor
   in the short second 1814 volume (an_ua14155). Do not search these two again.~~
   **WRONG — struck 13 Sept 2026. The file IS in the volume, at bundle 16, images 265-274.**
   Processetti bundles are numbered in the order the BANNS were published, not by the number the
   marriage later received. This couple published in September and married in December, so their
-  file is bundle 16 while their marriage is act 26. The volume holds SEVENTEEN bundles (all 290
+  ~~file is bundle 16 while their marriage is act 26~~ — **WITHDRAWN 20 Sep 2026: the marriage IS act 16, the same number as the bundle.** The volume holds SEVENTEEN bundles (all 290
   images swept, every cover read); it was never truncated. The "25" that stopped the earlier
   search is a publication act number inside bundle 17, the last of 1814. See
   `notes/1814-processetti-dossier.md`. **Standing rule: in a processetti volume, match on the names
   and the publication date, never on the marriage act number.**
-- The 1817 processetti volume is **the wrong year** — the marriage was 15 Dec 1814, and its
+- The 1817 processetti volume is **the wrong year** — the marriage was 15 Oct 1814, and its
   supporting file is in the 1814 volume (above).
 - **Pasquale Falco's death is NOT** in the 1,145 harvested pages of the Arienzo parish death register,
   nor in FamilySearch's index of Caserta civil registration 1809-1866 (all 1,162 Falco records checked,

@@ -25,7 +25,7 @@ celebrazione del matrimonio **è seguita nel giorno NOVE del mese di MARZO anno 
 
 - **VINCENZO FALCO WAS ALIVE ON 7 MARCH 1844** — no *defunto*, «domiciliato **ivi**», on strada
   Cammellara with his son. **A new latest-date for generation three**, who had been traced only to his
-  1792 baptism and his December 1814 marriage.
+  1792 baptism and his October 1814 marriage.
 - **ANDREANA CRISCI was alive too**, a *filatrice* — a spinner — on the same street.
 - **ORAZIO MORGILLO and VINCENZA PESCE were both alive**, at San Felice, he a *colono*.
 - **Both spouses are twenty-six**, which fits: he was baptised 10 May 1818, she born 24 February 1818.

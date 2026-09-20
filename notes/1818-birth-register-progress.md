@@ -73,10 +73,10 @@ Plate: `site/public/plates/raffaele-falco-birth-1818.jpg`
 **What it adds to a generation known only as "1818" from a parish baptism:**
 - **Born 10 May 1818 at three in the afternoon**, in his father's own house.
 - **On strada Camellara** — the family street, now confirmed at a birth as well as at deaths.
-- **Vincenzo was 27**, so born about 1791. His marriage act of December 1814 called him 21 (b. 1793)
+- **Vincenzo was 27**, so born about 1791. His marriage act of October 1814 called him 23 (b. c.1791)
   and his 1831 declaration 38 (b. 1793). The ages wobble by two years; the 1814 and 1831 statements
   agree with each other and are preferred.
-- **Andreana Crisci was 20**, so born about 1798 — she had married in December 1814 at about sixteen.
+- **Andreana Crisci was 20**, so born about 1798 — she had married in October 1814 at about sixteen.
   This is the first record to give her an age at all.
 
 ## Pages read

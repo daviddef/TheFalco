@@ -435,22 +435,34 @@ Reading it means paging the Mirador viewer through 310 images. That is feasible 
 the obvious next piece of work.
 
 
-## THE CIVIL MARRIAGE ACT FOUND — act 26, 15 December 1814
+## THE CIVIL MARRIAGE ACT FOUND — act 16, 15 October 1814
+
+> **Corrected 20 September 2026.** This section was published as «act 26, 15 December 1814,
+> Vincenzo aged 21». Three elements of one line were misread off this same image. The act is
+> **16**, the month is **OTTOBRE**, and the age is **ventitre**. The register's own order proves
+> it: act 14 is 2 October, act 15 is 6 October, act 17 is 2 December, and the volume stops at 17.
+> The original transcription is left below, struck, with the true reading beneath it.
 
 Read directly from the Antenati images (`an_ua14218`, Arienzo Matrimoni 1814, p.9):
 
-> **Numero d'ordine 26.** L'anno mille ottocento **quattordici**, a dì **quindici 15** del mese di
-> **Dicembre**… nella casa Comunale… è comparso **Vincenzo Falco**, di anni **ventuno**, di
-> professione **contadino**, domiciliato in questo Comune… **figlio maggiore di Pasquale Falco**…
-> e comparsa egualmente **Andreana [Crisci]**… **figlia di Arcangelo**…
+> ~~**Numero d'ordine 26.** … del mese di **Dicembre**… **Vincenzo Falco**, di anni **ventuno**…~~
+>
+> **Numero d'ordine 16.** L'anno mille ottocento ~~tredici~~ **quattordici** a' dì **quindici 15**
+> del mese di **OTTOBRE**, ad ore ventitre, nella casa Comunale avanti di noi **Vincenzo Morgillo
+> Sindaco**… è comparso **VINCENZO FALCO** di anni **VENTITRE**, di professione **contadino**,
+> domiciliato in questo Comune, strada **CAMELLARA**, **figlio maggiore di PASQUALE FALCO di anni
+> cinquanta**, della stessa professione, nello stesso domicilio, qui presente e dando il suo
+> consenso; è comparsa egualmente **ANDREANA CRISCI** di anni *dicia-*…, **figlia minore assistita
+> da ARCANGELO CRISCI suo padre di anni quarantaquattro** … **e da SARA RUGGIERO sua madre, di
+> anni quaranta**…
 
 This is new and load-bearing:
-- **The marriage is 15 December 1814, not 1817** — the year was inferred wrongly from the parish
+- **The marriage is 15 October 1814, not 1817 and not December** — the year was inferred wrongly from the parish
   register's page context and is now fixed by the civil act itself.
-- **Vincenzo was 21**, so born 1793 — the tree's date confirmed from a second, independent record.
+- **Vincenzo was 23**, so born about 1791; his baptism of 1 Feb 1792 makes him 22y 8m — the tree's date confirmed from a second, independent record.
 - **His trade: *contadino*** — a peasant farmer. First occupation recorded for this generation.
 - **"figlio maggiore di Pasquale Falco"** — *eldest son*, and Pasquale is named without *fu*, so
-  **Pasquale Falco was still alive in December 1814**.
+  **Pasquale Falco was still alive in October 1814** — indeed present in the room, aged fifty.
 
 That last detail matters for the search above him: because the father was living, the marriage file
 would carry **Pasquale's consent**, not the death certificates of dead ancestors. Matteo Falco's death
@@ -464,9 +476,14 @@ act was never going to be attached to this particular marriage.
 > 1814, gives Vincenzo Falco's baptism (1 Feb 1792) and Adriana Crisci's (30 Nov 1796), and adds
 > two new generations on the Crisci side. See `notes/1814-processetti-dossier.md`.
 >
-> **The error was in the numbering, not the reading.** Processetti bundles run in the order the
+> ~~**The error was in the numbering, not the reading.** Processetti bundles run in the order the
 > banns were published; marriages are numbered in the order they were celebrated. This couple
-> published in September and married in December — bundle 16, act 26. The volume holds SEVENTEEN
+> published in September and married in December — bundle 16, act 26.~~
+>
+> **WITHDRAWN 20 September 2026. The error WAS in the reading.** The marriage is **act 16**, the
+> same number as the bundle, and bundle 17 (Francesco Crisci × Teresa Morgillo) is **act 17**.
+> There is no independent bundle sequence; the rule was invented to explain a discrepancy that
+> did not exist. The volume holds SEVENTEEN
 > bundles, all covers read; the "act 25" found at the end of it is a publication act number inside
 > **bundle 17**, which is Francesco Crisci fu Alessandro x Teresa Morgillo.
 
@@ -480,8 +497,8 @@ Worked the 1814 processetti (`an_ua14154`, 290 pp.) from the back:
 - index 288 — 1815, act 1, dated 8 January 1815
 
 So the volume runs to **act 25 and then straight into 1815**. The second 1814 volume
-(`an_ua14155`, 13 pp.) is a separate small series beginning again at n° 1. **Act 26's supporting file
-is not in either.** Whether it was never filed, was lost, or sits in an unscanned volume is not
+(`an_ua14155`, 13 pp.) is a separate small series beginning again at n° 1. ~~**Act 26's supporting file
+is not in either.**~~ **There is no act 26; the file is bundle 16.** Whether it was never filed, was lost, or sits in an unscanned volume is not
 established — but it is not on Antenati.
 
 **Method note.** Antenati's IIIF images are Cloudflare-blocked to direct fetch, but they render if the
@@ -512,7 +529,7 @@ Two things:
 
 **The window on Pasquale is now 1829–1843:**
 
-- **15 December 1814** — the civil marriage act calls Vincenzo "figlio maggiore di **Pasquale Falco**",
+- **15 October 1814** — the civil marriage act calls Vincenzo "figlio maggiore di **Pasquale Falco**",
   no *fu*. Alive.
 - **1829** — the parish death of his daughter **Angela Falco** names her "figlia **Paschalis**, e Clarae
   Rivetta *coniugum*", again without *quondam* (`3Q9M-CSMY-B74X-F`). Probably still alive.
@@ -626,8 +643,8 @@ Falco records in FamilySearch's Caserta civil index — both previously recorded
 | Maria Rosa Falco, 16, contadina | 30 May | d. of **Michele Falco**, contadino, strada Camellara |
 | Pasquale Falco, 10 days | 25 Dec | s. of **Vincenzo Falco**, strada Camellara — the ancestor's grandson and namesake |
 
-**Vincenzo Falco** is documented as Pasquale's eldest son (marriage act, Arienzo, 15 Dec 1814, no. 26:
-*"Vincenzo Falco, 21, contadino, figlio maggiore di Pasquale Falco"*). His newborn, born about
+**Vincenzo Falco** is documented as Pasquale's eldest son (marriage act, Arienzo, 15 Oct 1814, no. 16:
+*"Vincenzo Falco, 23, contadino, figlio maggiore di Pasquale Falco"*). His newborn, born about
 15 December 1834, was named for the grandfather who had died eleven weeks earlier.
 
 ### Strada Camellara

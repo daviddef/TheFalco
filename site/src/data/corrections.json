@@ -1,5 +1,41 @@
 [
  {
+  "when": "2026-09-20",
+  "sev": "major",
+  "what": "There is no act 26. Generation three married on 15 OCTOBER 1814, and one line of one image was misread three ways",
+  "was": "Published since September 2026, on the front page, on /antenati, on /processetti, on /camellara, on /families and in five data files: «*His civil marriage act — Arienzo, **act 26 of 15 December 1814** — records him as **aged 21**, a contadino, and “figlio maggiore di Pasquale Falco”*». An earlier session transcribed it from the image and cited the ark and the page.",
+  "now": "**«NUMERO D'ORDINE 16. L'anno mille ottocento [tredici struck, QUATTORDICI written above] a' dì QUINDICI 15 del mese di OTTOBRE, ad ore ventitre … è comparso VINCENZO FALCO di anni VENTITRE, di professione CONTADINO, domiciliato in questo Comune, strada CAMELLARA, figlio maggiore di PASQUALE FALCO di anni cinquanta … qui presente e dando il suo consenso.»** Three elements of that one line were wrong: **the act number (16, not 26), the month (October, not December) and the groom's age (twenty-three, not twenty-one)**. The day — «quindici 15», written in words and figures — was right, which is why it survived every re-reading.",
+  "how": "**The register's own order proves the month without reading a letter of it.** The 1814 marriage register runs its even acts down the left page of each opening and its odd acts down the right. Act 14 is **2 October**, act 15 is **6 October**, act 17 is **2 December** — and act 17 sits on the page facing act 16. Act 16 therefore falls between 6 October and 2 December, and **15 December is after act 17 and impossible**. The volume then runs out: folio 29 is a blank pre-printed form and folio 30 closes the book. **There is no act 26 in it.**\n\nThe reading itself was then confirmed letter by letter at the scan's full resolution, and it agrees with the **1814 marriage index**, read independently five days earlier, which gives «*16. VINCENZO FALCO … A 15 OTTOBRE 1814*».",
+  "why": "**The archive had both answers in it at once and neither file could see the other.** `households.json` carried 15 October from the index; `line.json`, `plates.json` and `processetti.json` carried 15 December from this transcription. Nothing compares them, so a contradiction on **the wedding day of the couple this whole line descends through** sat in the published site for five days.\n\n**And the wrong number did damage.** A whole search was mounted for «act 26's supporting file», reported on *Searched* as **blocked** — «*the 1814 volume runs to act 25 and stops; act 26's file is in neither volume*» — and written into the research queue as a dead end. The file was never missing. It is **bundle 16**, which is the number it always should have been.\n\nThe digit that went wrong is the **first** one, and it went wrong the same way three times in this family's paperwork: **16 read as 26**, **86 read as 26**, and — on a heading struck here on 15 September — **1814 read as 1812**. In each case the true digit became a 2.",
+  "where": "/antenati",
+  "plate": "",
+  "by": "reading an_ua14218 image 9 at the scan's limit, and the four acts around it"
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "major",
+  "what": "The parents consented in SEPTEMBER, not December — and Pasquale Falco signed his own name",
+  "was": "«*a notarial act of **8 December 1814** before Felice Morgillo in which “li conjugi PASQUALE FALCO del fu MATTEO, e CHIARA RIVETTI del fu NICOLA” consent*» — on the front page, on /rivetti, on /crisci, on /processetti and in `line.json`, where it also fixed the bracket on Matteo Falco's death at «*[1786, **8 Dec 1814**]*».",
+  "now": "**8 SEPTEMBER 1814.** The act is headed «*Il giorno **OTTO 8** del Mese di **SETTEMBRE** dell'Anno Milleottocento, e quattordici 1814*», and the registration endorsement at its foot reads «*Reg[istra]to in Arienzo li **DODICI SETTEMBRE 1814**.*» The bride's parents consented the same day, before the same notary, in **act 86** — not «act 26», and not before a «Salvio» Morgillo, who never existed: both acts open «*Son comparsi avanti di me **FELICE MORGILLO del fu Valeriano***».",
+  "how": "Magnifying the month. The initial is a long ſ with a descender and **no closed bowl** — the same letter that opens «*Son comparsi*» three lines below it on the same page, and «*sedici*» and «*settembre*» in the banns. A *Dicembre* would begin with a capital D. The endorsement at the foot of the facing page then gives the month again, in a different hand, spelled out.\n\n**The sequence only closes once the December is gone.** Consent on 8 September, registered 12 September, banns on Sunday 11 and Sunday 18 September, marriage on 15 October. With a December consent the parents were signing five weeks *after* the banns and ten weeks after — or, on the old reading, two months *before* — a wedding that had already happened.",
+  "why": "**And there is something in this act that no other document in the archive holds.** The notary closes act 85: «*quindi si è firmato soltanto il detto **PASQUALE FALCO**, avendo la detta **CHIARA RIVETTI** dichiarato di **NON SAPERE SCRIVERE***» — and below it, in a large, slow, unjoined hand quite unlike his own, stands **«PASCALE FALCO»**. He spells it *Pascale*.\n\nIt is **the only autograph of anyone in this line**: seven generations of contadini and braccianti, and one man's name in his own hand, on a September afternoon in a notary's house on strada Terra Murata, consenting to his eldest son's marriage. His wife could not write. Twenty years later he was buried from strada Camellara.",
+  "where": "/processetti",
+  "plate": "falco-consent-1814-act85.jpg",
+  "by": "re-reading an_ua14154 images 269 and 270"
+ },
+ {
+  "when": "2026-09-20",
+  "sev": "withdrawn",
+  "what": "WITHDRAWN — processetti bundles are NOT numbered in a sequence of their own. The rule was invented to reconcile a discrepancy that did not exist",
+  "was": "Published 13 September 2026 and repeated on /processetti and /method ever since: «*processetti **BUNDLES** are numbered in their own sequence, **in the order the banns were published** — not by the number the marriage later received in the marriage register. The 1814 volume holds SEVENTEEN bundles; Vincenzo and Adriana published in September and married in December, so their file is **bundle 16** while their marriage is **act 26***.»",
+  "now": "**Their marriage is act 16.** The bundle number and the act number are the same number. The volume's own second example settles it: the archive identified **bundle 17** as *Francesco Crisci fu Alessandro × Teresa Morgillo*, published 20 November 1814 — and the marriage register's **act 17**, read on 20 September 2026, is *Francesco Crisci and Teresa Morgillo*, 2 December 1814, on the page facing act 16.",
+  "how": "Reading the 1814 marriage register end to end, eleven images, and matching every act number to the bundle covers this archive had already read.",
+  "why": "**This is the same failure as the volume that was said to hold three years, struck here on 15 September — a general rule built on top of a misreading, and published as a method.** The rule was not idly wrong: it told the next reader that bundle *N* has nothing to do with act *N*, which is the opposite of the truth, and it would have sent them past the right bundle.\n\n**The practical advice survives, for a better reason than the one first given.** Match a processetti bundle on the **names and the publication date**, not on the act number — not because the numbers differ, but because nothing in the volume promises they agree, while a match on names cannot be wrong.\n\nWhat it cost is worth naming. The wrong act number produced a wrong negative («act 26's file is not in the volume»), the wrong negative produced a queue entry telling everyone not to look, and when the file was found anyway the discrepancy produced **a false rule** — which then had to be corrected once for a wrong illustration before being withdrawn entirely. **Four errors, all of them descended from a 1 read as a 2.**",
+  "where": "/processetti",
+  "plate": "",
+  "by": "this archive"
+ },
+ {
   "when": "2026-09-13",
   "what": "coverage",
   "sev": "major",
