@@ -59,10 +59,19 @@
 "slug": "vincenzo-abatiello",
 "name": "Vincenzo Abatiello",
 "surname": "ABATIELLO",
-"household": null,
-"role": null,
-"events": [],
+"household": "Matteo Falco & Alessandra Crisci",
+"role": "married in",
+"events": [
+{
+"event": "marriage",
+"date": "23 Jan 1865",
+"place": "Arienzo",
+"evidence": "**ANGELA FALCO'S HUSBAND.** «*VINCENZO ABATIELLO, di anni **quaranta**, nato in **Liveri**, di professione **contadino**, domiciliato ivi, figlio del **fu ANTONIO**, di professione **simile**, e di **fu ALESSANDRA ALVANESE***» — the mother's surname is at the limit of this filming and is recorded as read, not as settled. **Born about 1825 at Liveri**, a comune of the Nola plain about fifteen kilometres from Arienzo; **both his parents were dead** by January 1865.\n\n**ABATIELLO is a surname this archive has met before and never in this family.**",
+"ark": "ANTENATI an_ua14269 img5r act3 — READ FROM THE IMAGE"
+}
+],
 "sources": [
+"register",
 "tree"
 ],
 "living": false,
@@ -88,6 +97,7 @@
 }
 ],
 "siblings": [],
+"mergedOn": "name alone",
 "treeId": 4512421,
 "b": "Jan 19 1824",
 "bp": "Durazzano, Benevento, Campania, Italy"
@@ -7017,7 +7027,7 @@
 "event": "named in a birth act",
 "date": "13 Sep 1846",
 "place": "Arienzo, strada Camellara",
-"evidence": "«*che la stessa è nata da **ALESSANDRA [surname]** sua moglie legittima, di anni **trentasei**, domiciliata collo stesso*» — born about 1810, twelve years married. **HER SURNAME IS NOT LEGIBLE ON THIS FILMING and is deliberately left unread.** The word is a single flourished capital and a tail that runs into «sua», and this is the exact trio — **Crisci, Cossi, Cioffi** — that has caught this archive three times in one week. **The identification does not need it**: a Matteo Falco of strada Camellara whose wife is called **Alessandra**, in a town where this archive holds one Matteo Falco married to an Alessandra, and whose daughter marries a **GUIDA** exactly as the family tree says. **Two hooks, neither of them the surname.**\n\n**THE REFUSAL STANDS, AND IT IS NARROWED, 20 September 2026.** Re-read at the leaf's full resolution, the word has **a narrow shoulder where an r belongs, no round o, and no tall double ascender**. **By this archive's own three-way test — Cioffi's double-f with its long descender, Cossi's short double-s with no ascender, Crisci's narrow r and no round o — CIOFFI IS EXCLUDED and COSSI is unlikely.** What is left is **CRISCI**, which is what the household is called on other evidence. **It is not declared settled**: the archive refused this word deliberately and a marginal reading is not grounds to overrule a considered refusal. **The refusal is narrowed, not withdrawn.**",
+"evidence": "«*che la stessa è nata da **ALESSANDRA [surname]** sua moglie legittima, di anni **trentasei**, domiciliata collo stesso*» — born about 1810, twelve years married. **HER SURNAME IS NOT LEGIBLE ON THIS FILMING and is deliberately left unread.** The word is a single flourished capital and a tail that runs into «sua», and this is the exact trio — **Crisci, Cossi, Cioffi** — that has caught this archive three times in one week. **The identification does not need it**: a Matteo Falco of strada Camellara whose wife is called **Alessandra**, in a town where this archive holds one Matteo Falco married to an Alessandra, and whose daughter marries a **GUIDA** exactly as the family tree says. **Two hooks, neither of them the surname.**\n\n**THE REFUSAL STANDS, AND IT IS NARROWED, 20 September 2026.** Re-read at the leaf's full resolution, the word has **a narrow shoulder where an r belongs, no round o, and no tall double ascender**. **By this archive's own three-way test — Cioffi's double-f with its long descender, Cossi's short double-s with no ascender, Crisci's narrow r and no round o — CIOFFI IS EXCLUDED and COSSI is unlikely.** What is left is **CRISCI**, which is what the household is called on other evidence. **It is not declared settled**: the archive refused this word deliberately and a marginal reading is not grounds to overrule a considered refusal. **The refusal is narrowed, not withdrawn.**\n\n---\n\n**HER SURNAME IS NO LONGER UNREAD — 21 September 2026.** It was left unread here **on purpose**, and that was right: at this filming the word is a single blur. **A different register, in a different hand, nineteen years later, writes it out.** Her daughter Angela's marriage act of **23 January 1865** — Arienzo, act 3 — reads «*figlia di **MATTEO FALCO**, di professione **contadino**, domiciliato **ivi**, e di **ALESSANDRA CRISCI**, domiciliata **ivi***», and at thirteen times magnification the word is **C-r-i-ſ-c-i**: six letters, a dot over the third and the sixth, and the only descender on the long **ſ**. **Not Crispi** — a *p* would carry the descender and the fifth letter has none.\n\n**And the 1834 marriage index said so all along**, «*CRISCI ALESSANDRA*», from a leaf whose father's forename was lost to the page-fold. **Two documents, nineteen years apart, in two hands.**",
 "ark": "ANTENATI an_ua14443 (Arienzo, Nati 1846) img 70r-71l — READ FROM THE IMAGE"
 }
 ],
@@ -7121,6 +7131,14 @@
 {
 "slug": "domenica-falco",
 "name": "Domenica Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-falco-of-matteo-falco-alessandra-crisci",
+"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -8794,6 +8812,14 @@
 ]
 },
 {
+"slug": "angela-falco-of-matteo-falco-francesca-crisci",
+"name": "Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "joachim-falco-the-first-gioacchino",
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "via": "register",
@@ -8812,14 +8838,6 @@
 {
 "slug": "rosa-falco",
 "name": "Rosa Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angela-falco",
-"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -13736,26 +13754,12 @@
 "b": "1854"
 },
 {
-"slug": "angela-falco",
+"slug": "angela-falco-of-matteo-falco-francesca-crisci",
 "name": "Angela Falco",
 "surname": "FALCO",
-"household": "Crescenzo Rivetti & Angela Falco",
-"role": "mother",
+"household": "Matteo Falco & Francesca Crisci",
+"role": "child",
 "events": [
-{
-"event": "widowed",
-"date": "1 Dec 1816",
-"place": "Arienzo",
-"evidence": "named only as «Angela Falco», wife of the deceased; no age, no parents, no children named",
-"ark": "ANTENATI an_ua14318 img42l act76"
-},
-{
-"event": "death",
-"date": "17 Oct 1822",
-"place": "Arienzo, strada Capodiconca",
-"evidence": "«ANGELA FALCO di anni cinquantuno, vedova di CRESCENZO RIVETTI … figlia di MATTEO FALCO Defunto … e di FRANCESCA CRISCI Defunta» — she outlived Crescenzo by nearly six years and had moved from strada Camellara to strada Capodiconca. Declared by Nicola Massone and Alessandro Martone, both twenty-two and both «vicino della defunta». HER PARENTAGE EXPLAINS THE 1816 ACT: when Crescenzo died, GIOACCHINO FALCO and GIUSEPPE FALCO declared it as «parenti del defunto» — they were his wife's brothers.",
-"ark": "ANTENATI an_ua14324 img34r atto65"
-},
 {
 "event": "death",
 "date": "17 Oct 1822",
@@ -13786,58 +13790,8 @@
 ]
 }
 ],
-"spouses": [
-{
-"slug": "crescenzo-rivetti",
-"name": "Crescenzo Rivetti",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"children": [
-{
-"slug": "angelandrea-rivetti",
-"name": "Angelandrea Rivetti",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giovanni-rivetti",
-"name": "Giovanni Rivetti",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-rivetti-of-crescenzo-rivetti-angela-falco",
-"name": "Pasquale Rivetti (of Crescenzo, m. 1824)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "lucia-rivetti",
-"name": "Lucia Rivetti",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angela-maria-rivetti",
-"name": "Angela Maria Rivetti",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
+"spouses": [],
+"children": [],
 "siblings": [
 {
 "slug": "paschalis-falco",
@@ -13906,7 +13860,138 @@
 ]
 },
 {
-"slug": "angela-falco-2",
+"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
+"name": "Angela Falco",
+"surname": "FALCO",
+"household": "Crescenzo Rivetti & Angela Falco",
+"role": "mother",
+"events": [
+{
+"event": "widowed",
+"date": "1 Dec 1816",
+"place": "Arienzo",
+"evidence": "named only as «Angela Falco», wife of the deceased; no age, no parents, no children named",
+"ark": "ANTENATI an_ua14318 img42l act76"
+},
+{
+"event": "death",
+"date": "17 Oct 1822",
+"place": "Arienzo, strada Capodiconca",
+"evidence": "«ANGELA FALCO di anni cinquantuno, vedova di CRESCENZO RIVETTI … figlia di MATTEO FALCO Defunto … e di FRANCESCA CRISCI Defunta» — she outlived Crescenzo by nearly six years and had moved from strada Camellara to strada Capodiconca. Declared by Nicola Massone and Alessandro Martone, both twenty-two and both «vicino della defunta». HER PARENTAGE EXPLAINS THE 1816 ACT: when Crescenzo died, GIOACCHINO FALCO and GIUSEPPE FALCO declared it as «parenti del defunto» — they were his wife's brothers.",
+"ark": "ANTENATI an_ua14324 img34r atto65"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "crescenzo-rivetti",
+"name": "Crescenzo Rivetti",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "angelandrea-rivetti",
+"name": "Angelandrea Rivetti",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-rivetti",
+"name": "Giovanni Rivetti",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-rivetti-of-crescenzo-rivetti-angela-falco",
+"name": "Pasquale Rivetti (of Crescenzo, m. 1824)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "lucia-rivetti",
+"name": "Lucia Rivetti",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-maria-rivetti",
+"name": "Angela Maria Rivetti",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
+"slug": "angela-falco-of-matteo-falco-alessandra-crisci",
+"name": "Angela Falco",
+"surname": "FALCO",
+"household": "Matteo Falco & Alessandra Crisci",
+"role": "child",
+"events": [
+{
+"event": "marriage",
+"date": "23 Jan 1865",
+"place": "Arienzo",
+"evidence": "**A CHILD OF THIS HOUSEHOLD THIS ARCHIVE DID NOT HAVE, AND THE LAST FALCO ACT ANTENATI CAN REACH.** Arienzo, Matrimoni **1865**, **act 3**, image 5 right — the first Falco found in the Arienzo marriage registers of **1861–1865**, which had never been read:\n\n«*ATTO DI SOLENNE PROMESSA DI MATRIMONIO — Num. d'ord. **3**. L'anno mille ottocento **sessantacinque**, il dì **ventitre** di **Gennajo**, alle ore **quindici**, avanti di Noi **RAFFAELE VIVOTTI Sindaco** ed uffiziale dello Stato Civile di **Arienzo**, distretto di **Caserta** … sono comparsi nella Casa Comunale **VINCENZO ABATIELLO**, di anni **quaranta**, nato in **Liveri**, di professione **contadino**, domiciliato ivi, figlio del **fu ANTONIO**, di professione simile, e di **fu ALESSANDRA ALVANESE** — ed **ANGELA FALCO**, di anni **ventotto**, nata in **Arienzo**, domiciliata in **Arienzo**, figlia di **MATTEO FALCO**, di professione **contadino**, domiciliato **ivi**, e di **ALESSANDRA CRISCI**, domiciliata **ivi***».\n\n**TWENTY-EIGHT IN JANUARY 1865 PUTS HER BIRTH ABOUT 1837** — between this couple's marriage in January 1834 and their daughter Domenica of September 1846. *Her birth act has not been looked for; the Arienzo births of 1837 are read and this archive should go back to them with her name.*\n\n**THE ACT DOES TWO OTHER THINGS.** It keeps **both her parents alive on 23 January 1865**, in a sentence that marks the groom's parents dead. And it **spells her mother's surname**, which the 1846 birth act left deliberately unread.\n\n**She marries out of the town.** Vincenzo Abatiello is forty, a *contadino* of **LIVERI**, in the Nola plain — twelve years her senior and an orphan of both parents.",
+"ark": "ANTENATI an_ua14269 img5r act3 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "alessandra-crisci",
+"name": "Alessandra Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
+"name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "domenica-falco",
+"name": "Domenica Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
+"slug": "angela-falco",
 "name": "Angela Falco",
 "surname": "FALCO",
 "household": null,
@@ -13974,7 +14059,7 @@
 "b": "Jan 21 1876"
 },
 {
-"slug": "angela-falco-3",
+"slug": "angela-falco-2",
 "name": "Angela Falco",
 "surname": "FALCO",
 "household": null,
@@ -15138,7 +15223,7 @@
 ]
 },
 {
-"slug": "angela-falco-3",
+"slug": "angela-falco-2",
 "name": "Angela Falco",
 "via": "tree",
 "vias": [
@@ -15214,7 +15299,7 @@
 ]
 },
 {
-"slug": "angela-falco-2",
+"slug": "angela-falco",
 "name": "Angela Falco",
 "via": "tree",
 "vias": [
@@ -16275,7 +16360,7 @@
 ]
 },
 {
-"slug": "angela-falco-3",
+"slug": "angela-falco-2",
 "name": "Angela Falco",
 "via": "tree",
 "vias": [
@@ -17702,7 +17787,7 @@
 ]
 },
 {
-"slug": "angela-falco-2",
+"slug": "angela-falco",
 "name": "Angela Falco",
 "via": "tree",
 "vias": [
@@ -19335,7 +19420,7 @@
 ]
 },
 {
-"slug": "angela-falco-2",
+"slug": "angela-falco",
 "name": "Angela Falco",
 "via": "tree",
 "vias": [
@@ -19877,7 +19962,7 @@
 ]
 },
 {
-"slug": "angela-falco-3",
+"slug": "angela-falco-2",
 "name": "Angela Falco",
 "via": "tree",
 "vias": [
@@ -20285,7 +20370,16 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [
+{
+"slug": "angela-falco-of-matteo-falco-alessandra-crisci",
+"name": "Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
 },
 {
 "slug": "domenica-falco-2",
@@ -22488,6 +22582,14 @@
 ]
 },
 {
+"slug": "angela-falco-of-matteo-falco-francesca-crisci",
+"name": "Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "joachim-falco-the-first-gioacchino",
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "via": "register",
@@ -22506,14 +22608,6 @@
 {
 "slug": "rosa-falco",
 "name": "Rosa Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angela-falco",
-"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -22647,7 +22741,7 @@
 ]
 },
 {
-"slug": "angela-falco-3",
+"slug": "angela-falco-2",
 "name": "Angela Falco",
 "via": "tree",
 "vias": [
@@ -24152,7 +24246,7 @@
 ]
 },
 {
-"slug": "angela-falco-3",
+"slug": "angela-falco-2",
 "name": "Angela Falco",
 "via": "tree",
 "vias": [
@@ -24443,6 +24537,14 @@
 ]
 },
 {
+"slug": "angela-falco-of-matteo-falco-francesca-crisci",
+"name": "Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "joachim-falco-the-first-gioacchino",
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "via": "register",
@@ -24461,14 +24563,6 @@
 {
 "slug": "rosa-falco",
 "name": "Rosa Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angela-falco",
-"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -25477,7 +25571,7 @@
 ]
 },
 {
-"slug": "angela-falco-3",
+"slug": "angela-falco-2",
 "name": "Angela Falco",
 "via": "tree",
 "vias": [
@@ -25619,7 +25713,7 @@
 ]
 },
 {
-"slug": "angela-falco-2",
+"slug": "angela-falco",
 "name": "Angela Falco",
 "via": "tree",
 "vias": [
@@ -26160,6 +26254,14 @@
 ]
 },
 {
+"slug": "angela-falco-of-matteo-falco-francesca-crisci",
+"name": "Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "joachim-falco-the-first-gioacchino",
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "via": "register",
@@ -26178,14 +26280,6 @@
 {
 "slug": "rosa-falco",
 "name": "Rosa Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angela-falco",
-"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -27692,7 +27786,7 @@
 ]
 },
 {
-"slug": "angela-falco-2",
+"slug": "angela-falco",
 "name": "Angela Falco",
 "via": "tree",
 "vias": [
@@ -28739,7 +28833,7 @@
 ]
 },
 {
-"slug": "angela-falco-3",
+"slug": "angela-falco-2",
 "name": "Angela Falco",
 "via": "tree",
 "vias": [
@@ -29437,6 +29531,14 @@
 ]
 },
 {
+"slug": "angela-falco-of-matteo-falco-francesca-crisci",
+"name": "Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "joachim-falco-the-first-gioacchino",
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "via": "register",
@@ -29455,14 +29557,6 @@
 {
 "slug": "rosa-falco",
 "name": "Rosa Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angela-falco",
-"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -29869,7 +29963,7 @@
 "event": "named as declarant",
 "date": "13 Sep 1846",
 "place": "Arienzo, strada Camellara",
-"evidence": "«*avanti di noi **DOMENICO FINELLI Sindaco** ed Uffiziale dello Stato Civile del comune di **Arienzo**, distretto di Caserta, provincia di Terra di Lavoro, è comparso **MATTEO FALCO**, di anni **trentotto**, di professione **COLONO**, domiciliato in **strada Camellara**, quale ci ha presentato una **FEMINA***» — **THE FIRST DOCUMENT THIS ARCHIVE HOLDS OF THIS MAN APART FROM HIS WEDDING LINE IN AN INDEX.** Thirty-eight in September 1846 gives **born about 1808**, and he married in January 1834 at about twenty-six. A **colono of strada Camellara** — the Falco street. **Not to be confused with the founder Matteo Falco, who died 18 July 1802**, nor with the propertied Matteo Falco of strada Porta di Sopra.",
+"evidence": "«*avanti di noi **DOMENICO FINELLI Sindaco** ed Uffiziale dello Stato Civile del comune di **Arienzo**, distretto di Caserta, provincia di Terra di Lavoro, è comparso **MATTEO FALCO**, di anni **trentotto**, di professione **COLONO**, domiciliato in **strada Camellara**, quale ci ha presentato una **FEMINA***» — **THE FIRST DOCUMENT THIS ARCHIVE HOLDS OF THIS MAN APART FROM HIS WEDDING LINE IN AN INDEX.** Thirty-eight in September 1846 gives **born about 1808**, and he married in January 1834 at about twenty-six. A **colono of strada Camellara** — the Falco street. **Not to be confused with the founder Matteo Falco, who died 18 July 1802**, nor with the propertied Matteo Falco of strada Porta di Sopra.\n\n---\n\n**AND HE IS STILL ALIVE IN 1865.** His daughter Angela's marriage act of 23 January 1865 names him «*di professione **contadino**, domiciliato **ivi***» **with no «fu» and no «defunto»** — in an act that marks the groom's father «*fu Antonio*» and the groom's mother «*fu Alessandra Alvanese*» two lines above. **Thirty-eight in 1846 makes him about fifty-seven then.**",
 "ark": "ANTENATI an_ua14443 (Arienzo, Nati 1846) img 70r-71l — READ FROM THE IMAGE"
 }
 ],
@@ -29892,6 +29986,14 @@
 {
 "slug": "domenica-falco",
 "name": "Domenica Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-falco-of-matteo-falco-alessandra-crisci",
+"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -31292,6 +31394,14 @@
 ]
 },
 {
+"slug": "angela-falco-of-matteo-falco-francesca-crisci",
+"name": "Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "joachim-falco-the-first-gioacchino",
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "via": "register",
@@ -31310,14 +31420,6 @@
 {
 "slug": "rosa-falco",
 "name": "Rosa Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angela-falco",
-"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -32866,6 +32968,14 @@
 ]
 },
 {
+"slug": "angela-falco-of-matteo-falco-francesca-crisci",
+"name": "Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "joachim-falco-the-first-gioacchino",
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "via": "register",
@@ -32876,14 +32986,6 @@
 {
 "slug": "rosa-falco",
 "name": "Rosa Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angela-falco",
-"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -34545,7 +34647,7 @@
 ]
 },
 {
-"slug": "angela-falco-2",
+"slug": "angela-falco",
 "name": "Angela Falco",
 "via": "tree",
 "vias": [
@@ -34643,6 +34745,14 @@
 ]
 },
 {
+"slug": "angela-falco-of-matteo-falco-francesca-crisci",
+"name": "Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "joachim-falco-the-first-gioacchino",
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "via": "register",
@@ -34653,14 +34763,6 @@
 {
 "slug": "rosa-maria-falco",
 "name": "ROSA MARIA Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angela-falco",
-"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -37661,6 +37763,14 @@
 ]
 },
 {
+"slug": "angela-falco-of-matteo-falco-francesca-crisci",
+"name": "Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "rosa-maria-falco",
 "name": "ROSA MARIA Falco",
 "via": "register",
@@ -37671,14 +37781,6 @@
 {
 "slug": "rosa-falco",
 "name": "Rosa Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angela-falco",
-"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -41763,7 +41865,7 @@
 ]
 },
 {
-"slug": "angela-falco-3",
+"slug": "angela-falco-2",
 "name": "Angela Falco",
 "via": "tree",
 "vias": [
@@ -44263,7 +44365,7 @@
 ]
 },
 {
-"slug": "angela-falco",
+"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
 "name": "Angela Falco",
 "via": "register",
 "vias": [
@@ -44337,7 +44439,7 @@
 ]
 },
 {
-"slug": "angela-falco",
+"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
 "name": "Angela Falco",
 "via": "register",
 "vias": [
@@ -44815,7 +44917,7 @@
 ],
 "spouses": [
 {
-"slug": "angela-falco",
+"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
 "name": "Angela Falco",
 "via": "register",
 "vias": [
@@ -45096,7 +45198,7 @@
 ]
 },
 {
-"slug": "angela-falco",
+"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
 "name": "Angela Falco",
 "via": "register",
 "vias": [
@@ -45170,7 +45272,7 @@
 ]
 },
 {
-"slug": "angela-falco",
+"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
 "name": "Angela Falco",
 "via": "register",
 "vias": [
@@ -45575,7 +45677,7 @@
 ]
 },
 {
-"slug": "angela-falco",
+"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
 "name": "Angela Falco",
 "via": "register",
 "vias": [
@@ -51410,6 +51512,14 @@
 ]
 },
 {
+"slug": "angela-falco-of-matteo-falco-francesca-crisci",
+"name": "Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "joachim-falco-the-first-gioacchino",
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "via": "register",
@@ -51428,14 +51538,6 @@
 {
 "slug": "rosa-falco",
 "name": "Rosa Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angela-falco",
-"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
