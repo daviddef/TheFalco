@@ -22,7 +22,7 @@
     "check:sources": "python3 node_modules/@daviddef/archive-kit/kit/tools/checksources.py --root . --max-unreachable 2"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#83dd394",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#8348028",
     "astro": "^5.18.2"
   },
   "devDependencies": {
