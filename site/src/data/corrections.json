@@ -2,6 +2,30 @@
  {
   "when": "2026-09-21",
   "sev": "minor",
+  "where": "/method",
+  "plate": "",
+  "by": "row 86, reading the 1819 register",
+  "what": "THE REGISTER RECORDS ONE OF ITS OWN ERRORS — a mother's surname wrong in a birth act, corrected by a court order nineteen years later",
+  "was": "This archive reads its women out of one line of a birth act — «*e da **MARIA FALCO** sua moglie legittima*», «*da **ANDREANA CRISCI** sua moglie legittima*» — and treats the reading problem as one of **handwriting**: a long ſ against a t, an r shoulder against none. **That the clerk might have written the wrong surname altogether has been a possibility, not a documented fact.**",
+  "now": "**It is documented.** Image 59 of the 1819 Arienzo birth register carries a *notamento* of **4 January 1839**: «*Si nota che con deliberazione del Tribunale … di questa Provincia del dì **ventiuno** dell'or caduto mese di **Dicembre**, ed anno mille ottocento **trentotto**, essendosi ordinata la **rettifica dell'errore d'incorso nell'atto di nascita di ANGELA ROSA COSSI** seguita in questo Comune nel giorno **quindici** del mese di **Novembre** dell'anno mille ottocento **diciannove**, descritto sotto il numero d'ordine **CENTOQUATTORDICI** del presente registro, spiegandosi di esser costei **nata da ANGELO COSSI, e da PAOLA BELELLA, e non già da PAOLA VERDICCHIO come sta scritto in esso***».",
+  "how": "Found while reading the 1819 volume act by act for work-list row 86.",
+  "why": "**BELELLA and VERDICCHIO are not a palaeography problem.** They share no letters, no length and no shape. **The clerk simply wrote the wrong woman's surname into the act**, and it stood for nineteen years until a court ordered it corrected and the *sindaco* entered the order in the margin of the register.\n\n**So the mother's line of an Arienzo birth act is not merely hard to read — it can be wrong.** That is a different kind of doubt from the one this archive has been managing, and it cannot be magnified away.\n\n**No Falco act is placed under suspicion by this.** It is published because the possibility is now a documented fact of this register rather than an abstraction, and because **the correction mechanism is itself useful**: a *rettifica* leaves a dated note on the original leaf, which means **any act this archive reads may carry one**, and a margin is the first thing to look at."
+ },
+ {
+  "when": "2026-09-21",
+  "sev": "minor",
+  "where": "/households",
+  "plate": "",
+  "by": "reading the 1819 register for row 86, and checking the find against what was already held",
+  "what": "Strada Camellara stopped telling the two Giuseppe Falco apart in 1819, not 1823 — and the archive held the act that proves it",
+  "was": "«*So from **1823** the street no longer tells this Giuseppe Falco from the Giuseppe Falco who married Antonia di Guida. This archive leans on strada Camellara constantly; it stopped being a discriminator in **1823**.*» — published in two places, on the household page and in work-list row 58.",
+  "now": "**1819.** Act 33 of the 1819 birth register, **18 March**: «*è comparso **GIUSEPPE FALCO**, di anni **TRENTOTTO**, di professione **MASSARO DI CAMPAGNA**, domiciliato in detto comune **strada CAMELLARA** … e da **GELSOMINA VIGLIOTTA** sua moglie legittima, d'anni **TRENTACINQUE***». **Seven months later the other Giuseppe Falco — a *contadino*, married to Antonia di Guida — declares a birth on the same street.**",
+  "how": "The 1819 register was opened for work-list row 86, and the act was checked against the archive before anything was claimed.",
+  "why": "**The act was already here.** It sits on this household's own page, read from the image, with a note that says in so many words «*this archive has the household at STRADA COSTA in 1816. Either they moved, or the street is not the identifier here.*» **Two rows of one household disagreed by four years about when this archive's most-used discriminator failed**, and the wrong one is the one the prose repeats.\n\n**And the check that caught it is the one that matters.** The 1819 act looked like a new find — a Falco on the wrong street, four years early. **Checking it against what was already held turned a false correction into a real one.** A find announced as new that the archive already holds is the mirror of a missed correction, and it is the more embarrassing of the two."
+ },
+ {
+  "when": "2026-09-21",
+  "sev": "minor",
   "where": "/households",
   "plate": "",
   "by": "rows 35 and 86, reading the 1825 volume end to end",
