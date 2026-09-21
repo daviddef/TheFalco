@@ -231,7 +231,7 @@ the cheapest error-detector this archive has, and it only works if the failures 
 | 2L | — | **Title leaf** — «REGISTRO degli atti dello stato civile», not an act | | | |
 | 2R (atto 1) | d. **2 Jan** ore 6 | Alfonso Maria Porrino(?), **3**, strada Annunziata | **Saverio Porrino(?)**, contadino, **& CARMELA CRISCI** | — | Raffaele Laudato(?) 40 ***muratore***; Sabato d'Ambrosio(?) 48, both strada Annunziata |
 | 3L (atto 2) | d. **4 Jan** ore 15 | Rosa Cimmino, **2 months**, strada Santa Lucia | **Antonio Cimmino**, contadino, & **Angela Martone** | — | Clemente Cimmino 30 ***inservidente***; **Nicola d'Ambrosio 44 *possidente***, both Santa Lucia |
-| 3R (atto 3) | d. **10 Jan** ore 8 | **Maria Felice Sansone, 54**, *moglie di **GENNARO MORGILLO***, **strada CAMELLARA** | **Saverio Sansone, *defunto***, contadino, & **Marta lo Casaro(?), *defunta*** | m. **Gennaro Morgillo** | Salvatore d'Angelo(?) 42 contadino, **strada Camellara**; Gaspare Giglio(?) 60 contadino, **strada Camellara** |
+| 3R (atto 3) | d. **10 Jan** ore 8 | **Maria Felice SANSONE, 53**, *moglie di **GENNARO MORGILLO***, **strada CAMELLARA** | **PASQUALE Sansone, *defunto***, contadino, & **Marta LE Casaro, *defunta*** | m. **Gennaro Morgillo** | **SALVATORE SPOSITO 42** contadino, **strada Camellara**; **CESARE DIGLIO 60** contadino, **strada Camellara** — *re-read at 3,200 px, 21 Sep 2026; this row had 54, «Saverio», «Salvatore d'Angelo(?)» and «Gaspare Giglio(?)»* |
 | 4L (atto 4) | d. **9 Jan** ore 4 | **Vittoria Verdicchio, 60**, *vedova di Andrea Sabatino(?)*, **strada CAMELLARA** | **Giuseppe Verdicchio, *defunto*, *calzolajo***, & **Caterina Bruno, *defunta*** | — | Salvatore Sposito 49 contadino, **strada Camellara**; Gaspare Giglio 70 contadino, **strada Camellara** |
 | 4R (atto 5) | d. **11 Jan** ore 6 | Pasquale Porrino, **8 months**, strada Croce | **Luigi Porrino**, contadino, **& MARGARITA MAJONE** | — | Giuseppe Porrino 50 contadino; Gennaro Lettieri 42 contadino, both strada Croce |
 | 5L (atto 6) | d. **12 Jan** ore 10 | **Gennaro Lettieri, 45**, contadino | **Antonio Lettieri, *defunto***, contadino, & **Caterina Martone, *defunta*** | m. — | Alessandro Sepistella 30 contadino, **strada Camellara**; **DOMENICO MORGILLO 30 contadino, strada CAMELLARA** |
@@ -641,3 +641,14 @@ closes 1840, 1841, 1842 and 1843, and **as in 1840, 1841 and 1842 its counts wer
 Only 1843's were ever filled in.
 
 **VOLUME COMPLETE.** Arienzo, Morti 1838 (`an_ua14340`): **images 2–53, acts 1–91**, five duplicate openings, a blank leaf and the 1849 closing certificate.
+
+
+---
+
+## ATTO 3 RE-READ AT FULL RESOLUTION — 21 September 2026
+
+**Five of the six fields this file filled for atto 3 were wrong**, and the act matters: the dead woman is **MARIA FELICE SANSONE, wife of GENNARO MORGILLO**, and their daughter married **CRESCENZO FALCO** seven years later. Work-list row 73 opened the 1845 marriage dossier, found a certified copy of this act made in November 1844, and the copy disagreed with this file — so the leaf was reopened at 3,200 pixels.
+
+She is **cinquantatre**. Her father is **PASQUALE SANSONE**, a looped P with a descender, not Saverio. The first declarant is **SALVATORE SPOSITO** — the same man this file reads correctly two acts later, at atto 4.
+
+**AND THE SECOND DECLARANT IS THE HARD ONE.** Read here as **CESARE DIGLIO**: the forename has **no mid-word descender**, and «Gaspare» must have one for its *p*. **But a GASPARE GIGLIO, contadino of strada Camellara, declares atto 4 on the very next leaf**, and atti 18 and 21 besides, at seventy, seventy-three and seventy-two. **The two names are one stroke apart in this hand and they live on the same street.** This archive also holds a **CESARE DIGLIO, forty-six, of strada Camellara**, witness at a Cioffi birth in 1831 — which is fifty-three in 1838 against this act's sixty. *Neither identification is claimed; the reading is.*
