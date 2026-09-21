@@ -7416,11 +7416,10 @@
 ]
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-2",
 "name": "Antonio Falco",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
@@ -7451,6 +7450,14 @@
 {
 "slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Pasquale Falco (of Vincenzo, 1830-1833)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Antonio Falco",
 "via": "register",
 "vias": [
 "register"
@@ -12304,7 +12311,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-2",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -13631,7 +13638,7 @@
 ]
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Antonio Falco",
 "via": "register",
 "vias": [
@@ -13779,7 +13786,7 @@
 ]
 },
 {
-"slug": "antonio-falco-2",
+"slug": "antonio-falco",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -14828,7 +14835,7 @@
 ]
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Antonio Falco",
 "via": "register",
 "vias": [
@@ -14974,7 +14981,7 @@
 ]
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Antonio Falco",
 "via": "register",
 "vias": [
@@ -16608,7 +16615,7 @@
 "treeId": 4000223
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Antonio Falco",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
@@ -16630,7 +16637,337 @@
 }
 ],
 "sources": [
-"register",
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+"name": "Andreana Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Raffaele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Luigi (Aloysius) Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Pasquale Falco (of Vincenzo, 1830-1833)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "andrea-falco",
+"name": "Andrea Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nunziata-falco",
+"name": "Nunziata Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "daughter-falco",
+"name": "[daughter] Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci-2",
+"name": "Pasquale Falco (of Vincenzo, the second, 1834)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelandrea-falco",
+"name": "Angelandrea Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "sara-falco",
+"name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-nunzio-falco",
+"name": "Giuseppe Nunzio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "stanislao-falco",
+"name": "Stanislao Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
+"slug": "antonio-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Antonio Falco",
+"surname": "FALCO",
+"household": "Giuseppe Falco & Gelsomina Vigliotta",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "5 Jan 1813",
+"place": "Arienzo, strada Costa",
+"evidence": "**THE EARLIEST DATED RECORD THIS HOUSEHOLD HAS, BY FOUR YEARS — AND IT WAS FOUND LOOKING FOR SOMEBODY ELSE.** The Arienzo birth register for **1813** had never been opened here; it was opened on 22 September 2026 to test work-list row 87, and it holds **one Falco act in fifty-three and this is it**:\n\n«*NUMERO D'ORDINE **2**. L'Anno mille ottocento **tredici** a' **dì cinque** del mese di **Gennaro**, ad ore **quindici**, avanti di noi **VINCENZO MORGILLO Sindaco** … del Comune di **Corpo d'Arienzo**, Provincia di Terra di Lavoro, **è comparso GIUSEPPE FALCO, di anni TRENTATRÉ, di professione CONTADINO, domiciliato in detto Comune, STRADA COSTA**, ed ha dichiarato che il giorno sopraindicato ad ore **dodici** è nato nella sua propria casa da lui dichiarante, e da **GELSOMINA VIGLIOTTA sua moglie legittima, di anni VENTOTTO**, un **maschio**, che ci ha presentato. **A cui si è dato il nome di ANTONIO***».\n\n**Both ages agree with what this archive had already inferred.** Giuseppe Falco at thirty-three in January 1813 is born about **1780**; this household says *b. c.1780*. Gelsomina Vigliotta at twenty-eight is born about **1785**; this household says *b. c.1784*. **The two were guesses from an 1816 act and they hold.**\n\n**And the street holds too** — **strada COSTA** in 1813 as in 1816, three years before this family appears on strada Camellara.\n\n**Nothing further is known of him.** He is not among the children this household already carries, and no Antonio Falco of this house has been found in any later act.",
+"ark": "ANTENATI an_ua14410 img4l act2 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gelsomina-vigliotta",
+"name": "Gelsomina Vigliotta",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "domenico-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Domenico Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Rosaria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenico-clemente-falco",
+"name": "Domenico Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Rosaria Falco (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasqua-falco",
+"name": "Pasqua Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
+"slug": "antonio-falco",
+"name": "Antonio Falco",
+"surname": "FALCO",
+"household": null,
+"role": null,
+"events": [],
+"sources": [
+"tree"
+],
+"living": false,
+"parents": [
+{
+"slug": "carmine-falco-3",
+"name": "Carmine Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "giovanna-pellone",
+"name": "Giovanna Pellone (Falco)",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "carolina-falco",
+"name": "Carolina Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "luigi-falco",
+"name": "Luigi Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "andreana-falco",
+"name": "Andreana Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "carlo-falco",
+"name": "Carlo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "carmela-falco-3",
+"name": "Carmela Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "carlo-falco-2",
+"name": "Carlo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "carolina-falco-2",
+"name": "Carolina Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "carolina-falco-3",
+"name": "Carolina Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "luigi-falco-2",
+"name": "Luigi Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"treeId": 4512457,
+"b": "July 6 1882",
+"d": "July 14 1883",
+"bp": "Arienzo, Caserta, Campania, Italia",
+"dp": "Arienzo, Caserta, Campania, Italia"
+},
+{
+"slug": "antonio-falco-2",
+"name": "Antonio Falco",
+"surname": "FALCO",
+"household": null,
+"role": null,
+"events": [],
+"sources": [
 "tree"
 ],
 "living": false,
@@ -16638,18 +16975,16 @@
 {
 "slug": "vincenzo-falco",
 "name": "Vincenzo Falco",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
 {
 "slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
 "name": "Andrea / Andreana Crisci (Falco)",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 }
@@ -16770,227 +17105,11 @@
 "vias": [
 "tree"
 ]
-},
-{
-"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Raffaele Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Luigi (Aloysius) Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Pasquale Falco (of Vincenzo, 1830-1833)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "andrea-falco",
-"name": "Andrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "nunziata-falco",
-"name": "Nunziata Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "daughter-falco",
-"name": "[daughter] Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Pasquale Falco (of Vincenzo, the second, 1834)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "sara-falco",
-"name": "Sara Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-nunzio-falco",
-"name": "Giuseppe Nunzio Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "stanislao-falco",
-"name": "Stanislao Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
-"mergedOn": "name and dates",
 "treeId": 4512495,
 "b": "May 13 1843",
 "bp": "Arienzo, Caserta, Campania, Italia"
-},
-{
-"slug": "antonio-falco-2",
-"name": "Antonio Falco",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "carmine-falco-3",
-"name": "Carmine Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "giovanna-pellone",
-"name": "Giovanna Pellone (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "carolina-falco",
-"name": "Carolina Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "luigi-falco",
-"name": "Luigi Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "andreana-falco",
-"name": "Andreana Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "carlo-falco",
-"name": "Carlo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "carmela-falco-3",
-"name": "Carmela Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "carlo-falco-2",
-"name": "Carlo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "carolina-falco-2",
-"name": "Carolina Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "carolina-falco-3",
-"name": "Carolina Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "luigi-falco-2",
-"name": "Luigi Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4512457,
-"b": "July 6 1882",
-"d": "July 14 1883",
-"bp": "Arienzo, Caserta, Campania, Italia",
-"dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "antonio-falco-3",
@@ -17139,7 +17258,7 @@
 "living": false,
 "parents": [
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-2",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -17432,7 +17551,7 @@
 ]
 },
 {
-"slug": "antonio-falco-2",
+"slug": "antonio-falco",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -17548,7 +17667,7 @@
 ]
 },
 {
-"slug": "antonio-falco-2",
+"slug": "antonio-falco",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -17826,7 +17945,7 @@
 ]
 },
 {
-"slug": "antonio-falco-2",
+"slug": "antonio-falco",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -18624,7 +18743,7 @@
 ]
 },
 {
-"slug": "antonio-falco-2",
+"slug": "antonio-falco",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -18826,7 +18945,7 @@
 ]
 },
 {
-"slug": "antonio-falco-2",
+"slug": "antonio-falco",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -18942,7 +19061,7 @@
 ]
 },
 {
-"slug": "antonio-falco-2",
+"slug": "antonio-falco",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -19051,7 +19170,7 @@
 ]
 },
 {
-"slug": "antonio-falco-2",
+"slug": "antonio-falco",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -19865,7 +19984,7 @@
 "living": false,
 "parents": [
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-2",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -20660,7 +20779,7 @@
 "living": false,
 "parents": [
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-2",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -20769,7 +20888,7 @@
 "living": false,
 "parents": [
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-2",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -20938,6 +21057,14 @@
 {
 "slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
 "name": "Rosaria Falco (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonio-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Antonio Falco",
 "via": "register",
 "vias": [
 "register"
@@ -21181,6 +21308,14 @@
 ]
 },
 {
+"slug": "antonio-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Antonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasqua-falco",
 "name": "Pasqua Falco",
 "via": "register",
@@ -21327,7 +21462,7 @@
 "living": false,
 "parents": [
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-2",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -23932,7 +24067,7 @@
 "living": false,
 "parents": [
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-2",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -25230,6 +25365,14 @@
 ]
 },
 {
+"slug": "antonio-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Antonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasqua-falco",
 "name": "Pasqua Falco",
 "via": "register",
@@ -25999,7 +26142,7 @@
 ]
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-2",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -26078,7 +26221,7 @@
 ]
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Antonio Falco",
 "via": "register",
 "vias": [
@@ -26649,7 +26792,7 @@
 ]
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Antonio Falco",
 "via": "register",
 "vias": [
@@ -26827,7 +26970,7 @@
 ]
 },
 {
-"slug": "antonio-falco-2",
+"slug": "antonio-falco",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -26943,7 +27086,7 @@
 ]
 },
 {
-"slug": "antonio-falco-2",
+"slug": "antonio-falco",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -27038,7 +27181,7 @@
 ]
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-2",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -27073,7 +27216,7 @@
 "living": false,
 "parents": [
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-2",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -27855,7 +27998,7 @@
 ]
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Antonio Falco",
 "via": "register",
 "vias": [
@@ -29557,7 +29700,7 @@
 "living": false,
 "parents": [
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-2",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -31536,7 +31679,7 @@
 ]
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Antonio Falco",
 "via": "register",
 "vias": [
@@ -31879,6 +32022,14 @@
 {
 "slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
 "name": "Rosaria Falco (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonio-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Antonio Falco",
 "via": "register",
 "vias": [
 "register"
@@ -32310,7 +32461,7 @@
 ]
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Antonio Falco",
 "via": "register",
 "vias": [
@@ -32464,7 +32615,7 @@
 ]
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Antonio Falco",
 "via": "register",
 "vias": [
@@ -32943,7 +33094,7 @@
 "living": false,
 "parents": [
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-2",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -33975,7 +34126,7 @@
 ]
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Antonio Falco",
 "via": "register",
 "vias": [
@@ -34359,7 +34510,7 @@
 ]
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-2",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -35376,6 +35527,14 @@
 ]
 },
 {
+"slug": "antonio-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Antonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasqua-falco",
 "name": "Pasqua Falco",
 "via": "register",
@@ -35444,6 +35603,14 @@
 {
 "slug": "domenico-clemente-falco",
 "name": "Domenico Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonio-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Antonio Falco",
 "via": "register",
 "vias": [
 "register"
@@ -35589,7 +35756,7 @@
 ]
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Antonio Falco",
 "via": "register",
 "vias": [
@@ -35742,7 +35909,7 @@
 ]
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Antonio Falco",
 "via": "register",
 "vias": [
@@ -36231,11 +36398,10 @@
 ]
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-2",
 "name": "Antonio Falco",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
@@ -36266,6 +36432,14 @@
 {
 "slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Pasquale Falco (of Vincenzo, 1830-1833)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Antonio Falco",
 "via": "register",
 "vias": [
 "register"
@@ -36539,7 +36713,7 @@
 "living": false,
 "parents": [
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-2",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -36750,7 +36924,7 @@
 ]
 },
 {
-"slug": "antonio-falco",
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Antonio Falco",
 "via": "register",
 "vias": [
@@ -43354,7 +43528,7 @@
 ]
 },
 {
-"slug": "antonio-falco-2",
+"slug": "antonio-falco",
 "name": "Antonio Falco",
 "via": "tree",
 "vias": [
@@ -48770,6 +48944,14 @@
 {
 "slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
 "name": "Rosaria Falco (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonio-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Antonio Falco",
 "via": "register",
 "vias": [
 "register"

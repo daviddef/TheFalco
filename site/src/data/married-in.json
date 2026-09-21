@@ -342,7 +342,7 @@
    },
    {
     "who": "Antonio Falco",
-    "whoSlug": "antonio-falco",
+    "whoSlug": "antonio-falco-2",
     "to": "(Maria) Carmela di Guida / Guido (Falco)",
     "toSlug": "carmela-di-guida-guido",
     "into": "di Guida / Guido",
@@ -672,7 +672,7 @@
    },
    {
     "name": "Antonio Falco",
-    "slug": "antonio-falco",
+    "slug": "antonio-falco-2",
     "b": "May 13 1843",
     "bp": "Arienzo",
     "d": "",
@@ -1128,7 +1128,7 @@
    },
    {
     "name": "Antonio Falco",
-    "slug": "antonio-falco-2",
+    "slug": "antonio-falco",
     "b": "July 6 1882",
     "bp": "Arienzo",
     "d": "July 14 1883",
@@ -4922,7 +4922,7 @@
     "who": "(Maria) Carmela di Guida / Guido (Falco)",
     "whoSlug": "carmela-di-guida-guido",
     "to": "Antonio Falco",
-    "toSlug": "antonio-falco",
+    "toSlug": "antonio-falco-2",
     "into": "Falco",
     "living": false
    }
