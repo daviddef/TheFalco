@@ -32,9 +32,20 @@ def load(n): return json.load(open(os.path.join(DATA, n), encoding="utf-8"))
 # out not to be a Cioffi at all — while GIOVANNI CIOFFI, genuinely a Cioffi, sits
 # in the same household two lines below him in the same act. A household-wide
 # rule would have refused the build over a name that is correct.
+#
+# An optional FIFTH element is the mirror of the fourth: forenames the rule must
+# NOT fire on. On 21 September 2026 the 1819 birth register gave **ANDREA COSSI,
+# thirty-seven, contadino, of STRADA COSSI**, witness at a Cioffi child's birth.
+# He belongs to the household only as a witness, and **his surname really is
+# Cossi** — this archive's own correction says so in as many words: the strada
+# Cossi family are Cossi, and it is the strada Camellara family who are Cioffi.
+# A household-wide rule refused the build over a reading that is right, which is
+# the same fault the fourth element was added for, arriving from the other side.
+# **A witness is not a member of the family whose act he signs.**
 RETIRED = [
     ("Cossi",  "Francesco Cioffi & Maria Falco",
-     "the strada Camellara household is CIOFFI — corrected from the 1825 register at full resolution"),
+     "the strada Camellara household is CIOFFI — corrected from the 1825 register at full resolution",
+     None, ("Andrea",)),
     ("Cioffi", "Michele Falco & Antonia Migliore",
      "the first declarant of Morti 1842 act 55 has no double-f ligature and is not a Cioffi; "
      "read as GASPARO, probable and unsettled", "Antonio"),
@@ -50,12 +61,15 @@ H = load("households.json")
 for rule in RETIRED:
     rule_name, household, why = rule[0], rule[1], rule[2]
     only = rule[3] if len(rule) > 3 else None
+    exempt = rule[4] if len(rule) > 4 else ()
     pat = re.compile(r"\b" + re.escape(rule_name) + r"\b")
     for h in H:
         if h["name"] != household:
             continue
         for m in h["members"]:
             if only and not str(m.get("person") or "").startswith(only):
+                continue
+            if any(str(m.get("person") or "").startswith(e) for e in exempt):
                 continue
             # the ACT may spell it the retired way; the PERSON may not.
             if pat.search(str(m.get("person") or "")):
