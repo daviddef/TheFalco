@@ -35,15 +35,29 @@ for (const y of years) {
 }
 
 /* Dated plates are the archive's own documented moments. */
+/* The plate's kind was being dropped here, so all 65 dated plates arrived at
+   the Timeline as one undifferentiated run and the page offered no filter at
+   all — the only archive in the estate with none. The kinds were in the data
+   the whole time: 56 register pages, 8 processetti, 1 other record.
+   A PROCESSETTO IS NOT A REGISTER PAGE and this archive says so everywhere
+   else — "the marriage supplement files". Losing that distinction on the one
+   page that puts the documents in order was the worst place to lose it. */
+const PKIND = { register: "Register page",
+                processetto: "Processetto — a marriage supplement file",
+                record: "Other record" };
 const events = plates.filter((p) => p.when && yearOf(p.when))
-  .map((p) => ({ y: yearOf(p.when), when: p.when, t: p.t, f: p.f }))
+  .map((p) => ({ y: yearOf(p.when), when: p.when, t: p.t, f: p.f, k: p.k }))
   .sort((a, b) => a.y - b.y);
+/* A kind with no label would reach the reader as a raw key, which is how
+   Booyzen shipped a filter option reading "back". Name them instead. */
+const unlabelled = [...new Set(events.map((e) => e.k).filter((k) => k && !PKIND[k]))];
 
 /* The plate's own filename is the anchor on /documents/. Built here rather
    than in the attribute: a regex literal inside an Astro expression attribute
    ends that expression at its first slash. */
 const dated = events.map((e) => ({
   year: e.y, when: e.when, title: e.t,
+  kind: PKIND[e.k] || e.k,
   href: "/documents/#" + String(e.f).replace(/\.jpg$/, ""),
 }));
 
@@ -123,6 +137,11 @@ const RULE = [
   <h2>Dated documents, in order</h2>
   <p class="small">{events.length} plates in this archive carry a date. They are the moments it can
   actually put a piece of paper behind.</p>
+  {unlabelled.length > 0 && (
+    <p class="small"><strong>Plate kinds with no label:</strong> {unlabelled.join(", ")} — named
+    here rather than reaching the filter as a raw key.</p>
+  )}
+
   <Timeline events={dated} u={u} noun="dated plates" />
 
 <style is:global>
