@@ -295,10 +295,10 @@
   {
    "n": 29,
    "what": "Audit the corrections page again when it passes 250 entries",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**192 entries took one pass and produced five findings.** The page is appended to daily and read back never — which is how nineteen entries came to be standing after the finding that killed them. **Recurring, not one-off**, because the failure is structural: the page grows at the top and nobody walks down it."
+   "note": "**192 entries took one pass and produced five findings.** The page is appended to daily and read back never — which is how nineteen entries came to be standing after the finding that killed them. **Recurring, not one-off**, because the failure is structural: the page grows at the top and nobody walks down it.\n\n## THE SECOND PASS — 326 ENTRIES, THREE FINDINGS — 21 September 2026\n\n**Walked from the top, looking for entries a later finding has killed or answered.** Three, and they are the three shapes this row predicted:\n\n**1. AN ENTRY THAT WAS ANSWERED AND NEVER TOLD.** «*Sara Ruggiero stood godmother to six Falco households*» (15 September) ends on «*That is not a neighbour*» and leaves the reach unexplained. **The 1816 birth register, read today, calls her a LEVATRICE.** A midwife stands godmother to the children she delivers. The entry needed an answer, not a withdrawal, and now has one.\n\n**2. AN ENTRY WHOSE EVIDENCE IS FALSE WHILE ITS CONCLUSION HOLDS.** «*The elder Giovanni Falco is not in the birth registers of 1816 or 1817*» asserts «**not one Falco in the entire year**» for 1817 and «**one Falco act only**» for 1816. **1817 holds two and 1816 holds two**, and **one of each was cited in this archive's own household file on the day the entry was written.** The conclusion — no Giovanni — survives; the argument «*a year that empty is itself a fact about the volume*» does not.\n\n**3. AN ENTRY A LATER ACT COMPLICATES.** The Cospi rename of this morning now has an 1818 act, read in two hands, spelling the man **COSSI**. The name is not changed again — the 1821 leaf says Cospi in four places — but the corrections page now carries the complication instead of only the household file.\n\n**All three were appended to, not rewritten.** *The next audit is due at **500 entries**; the page is growing at roughly twenty a day.*"
   },
   {
    "n": 30,
