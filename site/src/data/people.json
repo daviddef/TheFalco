@@ -9433,6 +9433,30 @@
 "bp": "Arienzo, Caserta, Campania, Italy"
 },
 {
+"slug": "clemente-crispi",
+"name": "Clemente Crispi",
+"surname": "CRISPI",
+"household": "Crescenzo Falco & Angela Maria Morgillo",
+"role": "witness",
+"events": [
+{
+"event": "witness at the birth",
+"date": "21 Nov 1845",
+"place": "Arienzo, strada Crispi",
+"evidence": "«*e di **CLEMENTE CRISPI, di anni TRENTAQUATTRO**, di professione contadino, regnicolo, domiciliato ivi **strada CRISPI***» — the second witness, a man of the street that carries his surname.",
+"ark": "ANTENATI an_ua14442 (Arienzo, Nati 1845) atto 111, foglio 339, img 116r-117l — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
 "slug": "giovanna-d-ambrogio",
 "name": "Giovanna d'Ambrogio",
 "surname": "D'AMBROGIO",
@@ -10720,14 +10744,6 @@
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Maddalena Falco",
 "via": "register",
@@ -10786,6 +10802,14 @@
 {
 "slug": "angela-maria-falco",
 "name": "Angela Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -12203,6 +12227,30 @@
 ]
 },
 {
+"slug": "giuseppe-diglio",
+"name": "Giuseppe Diglio",
+"surname": "DIGLIO",
+"household": "Crescenzo Falco & Angela Maria Morgillo",
+"role": "witness",
+"events": [
+{
+"event": "witness at the birth",
+"date": "1 Jun 1848",
+"place": "Arienzo, strada Porta di Sopra",
+"evidence": "«*alla presenza di **GIUSEPPE DIGLIO, di anni CINQUANTA**, di professione contadino, regnicolo, domiciliato **strada PORTA DI SOPRA***» — witness at Gennaro Falco's birth.",
+"ark": "ANTENATI an_ua14445 (Arienzo, Nati 1848) atto 42, foglio 43, img 43r-44l (duplicated at 45l) — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
 "slug": "salvatore-diglio-of-alfonso-diglio-maria-falco",
 "name": "Salvatore Diglio",
 "surname": "DIGLIO",
@@ -13569,14 +13617,6 @@
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Maddalena Falco",
 "via": "register",
@@ -13627,6 +13667,14 @@
 {
 "slug": "francesca-maria-lucia-falco",
 "name": "Francesca Maria Lucia Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -18479,14 +18527,6 @@
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Maddalena Falco",
 "via": "register",
@@ -18537,6 +18577,14 @@
 {
 "slug": "angela-maria-falco",
 "name": "Angela Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -19151,9 +19199,23 @@
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "surname": "FALCO",
-"household": "Giuseppe Falco & Antonia di Guida",
-"role": "child",
+"household": "Crescenzo Falco & Angela Maria Morgillo",
+"role": "father",
 "events": [
+{
+"event": "named as declarant",
+"date": "21 Nov 1845",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*è comparso **CRESCENZO FALCO, di anni VENTICINQUE**, di professione **CONTADINO**, domiciliato in questo comune **STRADA CAMELLARA***» — **twenty-five in November 1845, and twenty-five at his marriage nine months earlier**; born 11 October 1819, he was twenty-six. **And the street has moved**: his marriage act of 2 February 1845 puts him «*ivi strada Sant'Andrea*» and this one puts him on **strada Camellara**, his father's street, within the year. *He is «contadino» here and «colono» in the marriage act.*",
+"ark": "ANTENATI an_ua14442 (Arienzo, Nati 1845) atto 111, foglio 339, img 116r-117l — READ FROM THE IMAGE"
+},
+{
+"event": "named in a birth act",
+"date": "1 Jun 1848",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*e da esso **CRESCENZO FALCO, di anni VENTOTTO**, di professione **CONTADINO**, domiciliato **strada CAMELLARA***» — **twenty-eight in June 1848 gives b. c.1820, and he was born 11 October 1819.** Right to the year. **And the street holds**: Camellara in November 1845, Camellara here, Camellara in both his sons' death acts. *Only his marriage act of February 1845 puts him on strada Sant'Andrea.*",
+"ark": "ANTENATI an_ua14445 (Arienzo, Nati 1848) atto 42, foglio 43, img 43r-44l (duplicated at 45l) — READ FROM THE IMAGE"
+},
 {
 "event": "marriage",
 "date": "c. 1831-46",
@@ -19230,6 +19292,14 @@
 "vias": [
 "tree"
 ]
+},
+{
+"slug": "angela-maria-morgillo-of-crescenzo-falco-angela-maria-morgi",
+"name": "Angela Maria Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "children": [
@@ -19244,8 +19314,9 @@
 {
 "slug": "gennaro-falco",
 "name": "Gennaro Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -19287,6 +19358,22 @@
 "via": "tree",
 "vias": [
 "tree"
+]
+},
+{
+"slug": "giuseppe-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-felice-falco",
+"name": "Maria Felice Falco",
+"via": "register",
+"vias": [
+"register"
 ]
 }
 ],
@@ -20956,14 +21043,6 @@
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Maddalena Falco",
 "via": "register",
@@ -21014,6 +21093,14 @@
 {
 "slug": "angela-maria-falco",
 "name": "Angela Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -21942,10 +22029,26 @@
 "slug": "gennaro-falco",
 "name": "Gennaro Falco",
 "surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
+"household": "Crescenzo Falco & Angela Maria Morgillo",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "1 Jun 1848",
+"place": "Arienzo, strada Camellara",
+"evidence": "**A LIFE OF FORTY-EIGHT HOURS, DOCUMENTED AT BOTH ENDS.** Act **42**: «*L'anno mille ottocento **QUARANTOTTO**, il dì **PRIMO** del mese di **GIUGNO**, ad ore **DODICI** … è comparsa **FELICIA MARTONE, di anni CINQUANTASETTE, di professione LEVATRICE, domiciliata strada SAN FILIPPO NERI**, quale ci ha presentato un **MASCHIO** … che lo stesso è nato da **MARIA MORGILLO, moglie di CRESCENZO FALCO, di anni VENTICINQUE**, domiciliata **strada CAMELLARA**, e da esso **CRESCENZO FALCO, di anni VENTOTTO**, di professione **CONTADINO**, domiciliato strada Camellara, **nel giorno PRIMO del mese di GIUGNO … alle ore DIECI, nella casa di esso FALCO** … di dare al neonato il nome di **GENNARO***». Baptised at **Sant'Andrea Apostolo the same day**, the notice returned that afternoon.\n\n**He died on 3 June**, act 35 of the death register. **Two days.**\n\n**A MIDWIFE PRESENTED HIM, WHICH IS THE ONLY REASON THIS ACT IS FINDABLE.** Where a *levatrice* declares, **both parents are named on the left page**; where the father declares, his name never appears there. *Work-list row 43's earlier sweeps read the declarant line, which on this act says only FELICIA MARTONE.*\n\nWitnesses **GIUSEPPE DIGLIO, fifty, contadino of strada PORTA DI SOPRA**, and **ANTONIO SORGENTE, forty, contadino of the same street** — *the same Antonio Sorgente who witnesses **GIOVANNA ARRICALE's** birth six months later in this very register, where he is given as forty-eight.*",
+"ark": "ANTENATI an_ua14445 (Arienzo, Nati 1848) atto 42, foglio 43, img 43r-44l (duplicated at 45l) — READ FROM THE IMAGE"
+},
+{
+"event": "death",
+"date": "3 Jun 1848",
+"place": "Arienzo, strada Camellara",
+"evidence": "**DEAD AT TWO DAYS OLD.** Act **35**, foglio 162: «*L'anno mille ottocento **QUARANTOTTO**, il dì **TRE** del mese di **GIUGNO**, alle ore **VENTUNO** … sono comparsi **NICOLA COSSI, di anni CINQUANTA**, di professione **CANTINIERE**, regnicolo, domiciliato **in strada CAMELLARA**, e **ANDREA DIGLIO, di anni VENTICINQUE**, di professione contadino, regnicolo, domiciliato in strada Camellara, i quali àn dichiarato, che nel giorno **TRE** del mese di **GIUGNO** … alle ore **SEDICI** è morto nella sua propria casa **GENNARO FALCO**, nato in Arienzo, **di giorni DUE** … **figlio di CRESCENZO FALCO** di professione contadino domiciliato ivi, **e di MARIA MORGILLO** domiciliata ivi*».\n\n**Born 1 June at ten in the morning, dead 3 June at four in the afternoon.** The two acts are fifty-four hours apart and agree exactly.",
+"ark": "ANTENATI an_ua14350 (Arienzo, Morti 1848) atto 35, foglio 162, img 20r — READ FROM THE IMAGE"
+}
+],
 "sources": [
+"register",
 "tree"
 ],
 "living": false,
@@ -21953,8 +22056,9 @@
 {
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -21964,6 +22068,14 @@
 "via": "tree",
 "vias": [
 "tree"
+]
+},
+{
+"slug": "angela-maria-morgillo-of-crescenzo-falco-angela-maria-morgi",
+"name": "Angela Maria Morgillo",
+"via": "register",
+"vias": [
+"register"
 ]
 }
 ],
@@ -22017,8 +22129,25 @@
 "vias": [
 "tree"
 ]
+},
+{
+"slug": "giuseppe-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-felice-falco",
+"name": "Maria Felice Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
+"mergedOn": "name and dates",
 "treeId": 4512484,
 "b": "June 1 1848",
 "d": "June 3 1848",
@@ -22572,14 +22701,6 @@
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Maddalena Falco",
 "via": "register",
@@ -22630,6 +22751,14 @@
 {
 "slug": "angela-maria-falco",
 "name": "Angela Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -23105,14 +23234,6 @@
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Maddalena Falco",
 "via": "register",
@@ -23171,6 +23292,14 @@
 {
 "slug": "angela-maria-falco",
 "name": "Angela Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -23258,14 +23387,6 @@
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Maddalena Falco",
 "via": "register",
@@ -23316,6 +23437,14 @@
 {
 "slug": "angela-maria-falco",
 "name": "Angela Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -23983,14 +24112,6 @@
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Maddalena Falco",
 "via": "register",
@@ -24055,6 +24176,14 @@
 ]
 },
 {
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "raffaela-falco",
 "name": "Raffaela Falco",
 "via": "register",
@@ -24073,21 +24202,62 @@
 "role": "child",
 "events": [
 {
+"event": "burial",
+"date": "2 Jun 1848",
+"place": "Arienzo, strada Camellara",
+"evidence": "Joseph Falco filius Crescentii et Mariae Morgillo, aetatis paucorum dierum\n\n**THE YEAR ON THIS ROW WAS 1818 AND IT IS 1848 — corrected 21 September 2026, and the household is right.** The parish burial reads «*Joseph Falco filius **Crescentii** et **Mariae Morgillo**, aetate paucorum dierum*», and this archive dated it **1818** from the machine transcript of the page.\n\n**A child of CRESCENZO FALCO cannot have died in 1818: his father was born on 11 October 1819.** The date was the only thing making this row impossible, and it is wrong.\n\n**The civil register settles it.** Arienzo *Morti* **1848**, act **34**: «*nel giorno DUE del mese di GIUGNO … è morto … **GIUSEPPE**, nato in Arienzo, **di anni UNO** … **figlio di CRESCENZO FALCO** … **e di MARIA MORGILLO***». And act **35**, the next day, is his brother **GENNARO**, two days old. **The same parish page carries a SECOND entry for the same couple** — «*[N] Falco filius Crescentii e Maria Morgillo*» — which is Gennaro. **The OCR's «Anno D.ni 1818 die vero 2 Ja[nuarii]» is «1848 … 2 Ju[nii]»**, and the page's other entries are dated across the 1840s and 1850s.\n\n**The first weeks of January 1818 and of January 1848 were both read in the civil death registers to test this, and neither holds a Falco infant.** *The «aetate paucorum dierum» belongs to Gennaro; the civil act makes Giuseppe **one year old**, and the parish clerk has run the two brothers' ages together.*\n\n**Both deaths are now held in this household as their own rows, read from the image.** This row is kept, with its date corrected, because it is the parish witness to the same two burials.",
+"ark": "3Q9M-CSMY-B73M-D (Arienzo parish burials) — the YEAR CORRECTED from 1818 to 1848 against ANTENATI an_ua14350 atto 34"
+},
+{
 "event": "death",
-"date": "1818",
-"place": "Arienzo",
-"evidence": "Joseph Falco filius Crescentii et Mariae Morgillo, aetatis paucorum dierum",
-"ark": "3Q9M-CSMY-B73M-D"
+"date": "2 Jun 1848",
+"place": "Arienzo, strada Camellara",
+"evidence": "**HE DIED THE DAY BEFORE HIS BABY BROTHER.** Act **34**: «*L'anno mille ottocento **QUARANTOTTO**, il dì **DUE** del mese di **GIUGNO**, alle ore **VENTUNO** … sono comparsi **NICOLA COSSI, di anni CINQUANTA**, **CANTINIERE**, domiciliato **in strada CAMELLARA**, e **ANDREA DIGLIO, di anni VENTICINQUE**, contadino, di strada Camellara, i quali han dichiarato, che nel giorno **DUE** del mese di **GIUGNO** … alle ore **SEDICI** è morto nella … casa … **GIUSEPPE**, nato in **ARIENZO**, **di anni UNO** … **figlio di CRESCENZO FALCO** di professione contadino domiciliato ivi, **e di MARIA MORGILLO** domiciliata ivi*».\n\n**A year-old boy dead on 2 June and a two-day-old baby dead on 3 June, brothers, in one house.** The same two neighbours declared both. **The likeliest reading is a confinement that killed the newborn and took the toddler with it**, and the acts say only what they say.\n\n**One year old on 2 June 1848 puts his birth between 3 June 1846 and 2 June 1847.** *His birth act has not been found: the 1846 register has been read at the parents band and holds no Maria Morgillo, and 1847 is not yet finished. **He is named for his paternal grandfather, GIUSEPPE FALCO.***\n\n*Read in an earlier session from the image and set down in `notes/1844-1847-death-indexes.md`, where it stood as «a household this archive has never held» — **it is this one**, and the note's caution was written before the birth act that names the mother MARIA MORGILLO.*",
+"ark": "ANTENATI an_ua14350 (Arienzo, Morti 1848) atto 34, img 20l — READ FROM THE IMAGE"
 }
 ],
 "sources": [
 "register"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-maria-morgillo-of-crescenzo-falco-angela-maria-morgi",
+"name": "Angela Maria Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [
+{
+"slug": "maria-felice-falco",
+"name": "Maria Felice Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gennaro-falco",
+"name": "Gennaro Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
 },
 {
 "slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta",
@@ -26220,14 +26390,6 @@
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "clemente-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Clemente Falco",
 "via": "register",
@@ -26278,6 +26440,14 @@
 {
 "slug": "angela-maria-falco",
 "name": "Angela Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -26358,14 +26528,6 @@
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Maddalena Falco",
 "via": "register",
@@ -26416,6 +26578,14 @@
 {
 "slug": "angela-maria-falco",
 "name": "Angela Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -28058,6 +28228,71 @@
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
+"slug": "maria-felice-falco",
+"name": "Maria Felice Falco",
+"surname": "FALCO",
+"household": "Crescenzo Falco & Angela Maria Morgillo",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "21 Nov 1845",
+"place": "Arienzo, strada Camellara",
+"evidence": "**THE FIRST CHILD OF A HOUSEHOLD THAT HAD NONE — AND HER OWN MARRIAGE COMES WITH HER.** Act **111**: «*L'anno mille ottocento **QUARANTACINQUE**, il dì **VENTIDUE** del mese di **NOVEMBRE**, ad ore **SEDICI** … è comparso **CRESCENZO FALCO, di anni VENTICINQUE, di professione CONTADINO, domiciliato in questo comune STRADA CAMELLARA**, quale ci ha presentato una **FEMINA** … che la stessa è nata da **MARIA MORGILLO sua moglie legittima, di anni VENTITRE**, domiciliata collo stesso, **e da lui dichiarante** … **nel giorno VENTUNO del mese di NOVEMBRE anno corrente, alle ore DUE, nella casa sua propria d'abitazione** … di dare alla neonata il nome di **MARIA FELICE***».\n\n**Born 21 November 1845 at two in the morning; declared the next day; baptised at Sant'Andrea Apostolo on the 23rd**, the parish notice returned the same day and copied into the INDICAZIONE column — «*il Sacramento del Battesimo è stato amministrato a **MARIA FELICIA FALCO***».\n\n**HER PARENTS MARRIED ON 2 FEBRUARY 1845. She was born nine months and nineteen days later.**\n\n## AND THE MARGIN CARRIES HER WEDDING, OUT OF THE LOST YEARS\n\n«*A **3 Febbrajo 1873** l'Uff.e dello Stato Civ.e d'**ARIENZO** sposò **MARIA FELICE FALCO** con **PASQUALE QUOTOLO** — Caserta **18 Giugno 1884***». **Arienzo's civil registers for 1866–1890 are gone**, so this margin is the only record of that marriage this archive can reach — the same shape as Pasqua Falco's of 1880, found in the margin of her own 1823 birth act.\n\nWitnesses **CLEMENTE PORRINO, contadino of strada CAMELLARA**, and **CLEMENTE CRISPI, thirty-four, contadino of strada CRISPI**, «*testimonj … da esso **CRESCENZO FALCO** prodotti*».\n\n**Found by re-sweeping the 1845 register at the PARENTS band for work-list row 43.** *The row's earlier pass swept images **118–135** on the declarant line; **the act is at 116–117**, just outside the window.*",
+"ark": "ANTENATI an_ua14442 (Arienzo, Nati 1845) atto 111, foglio 339, img 116r-117l — READ FROM THE IMAGE"
+},
+{
+"event": "marriage",
+"date": "3 Feb 1873",
+"place": "Arienzo",
+"evidence": "**FROM THE MARGIN OF HER OWN BIRTH ACT, and there is nowhere else it could come from.** «*A **3 Febbrajo 1873** l'Uff.e dello Stato Civ.e d'**ARIENZO** sposò **MARIA FELICE FALCO** con **PASQUALE QUOTOLO*** — Caserta **18 Giugno 1884**». **Arienzo's civil registers for 1866–1890 do not survive**, so a wedding of 1873 is unreachable in the ordinary way; the annotation on the 1845 leaf is the whole record.\n\n**PASQUALE QUOTOLO IS NOT CLAIMED AS KIN TO ANYONE HERE.** The Quotolo of Arienzo recur in these registers — a **FRANCESCO QUOTOLO** of strada Maddalena married to **VITTORIA DI GUIDA** in 1816 and 1818, a **PIETRO QUOTOLO** of the same street in 1818 and 1825, a **GIUSEPPE QUOTOLO**, *massaro*, aged seventy-two in 1818 — and **nothing joins any of them to this man**.",
+"ark": "ANTENATI an_ua14442 (Arienzo, Nati 1845) atto 111, foglio 339, img 116r-117l — READ FROM THE IMAGE (marginal annotation)"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-maria-morgillo-of-crescenzo-falco-angela-maria-morgi",
+"name": "Angela Maria Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "giuseppe-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gennaro-falco",
+"name": "Gennaro Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
 "slug": "maria-giuseppa-falco",
 "name": "Maria Giuseppa Falco",
 "surname": "FALCO",
@@ -28782,14 +29017,6 @@
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Maddalena Falco",
 "via": "register",
@@ -28848,6 +29075,14 @@
 {
 "slug": "angela-maria-falco",
 "name": "Angela Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -28928,14 +29163,6 @@
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Maddalena Falco",
 "via": "register",
@@ -28986,6 +29213,14 @@
 {
 "slug": "angela-maria-falco",
 "name": "Angela Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -29715,14 +29950,6 @@
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Maddalena Falco",
 "via": "register",
@@ -29781,6 +30008,14 @@
 {
 "slug": "angela-maria-falco",
 "name": "Angela Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -32340,14 +32575,6 @@
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Maddalena Falco",
 "via": "register",
@@ -32406,6 +32633,14 @@
 {
 "slug": "angela-maria-falco",
 "name": "Angela Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -38168,6 +38403,30 @@
 "treeId": 4512471
 },
 {
+"slug": "felicia-martone",
+"name": "Felicia Martone",
+"surname": "MARTONE",
+"household": "Crescenzo Falco & Angela Maria Morgillo",
+"role": "midwife",
+"events": [
+{
+"event": "presented the child",
+"date": "1 Jun 1848",
+"place": "Arienzo, strada San Filippo Neri",
+"evidence": "«*è comparsa **FELICIA MARTONE, di anni CINQUANTASETTE**, di professione **LEVATRICE**, domiciliata strada **SAN FILIPPO NERI***» — she presented Gennaro Falco. **She is the midwife who carries the whole of 1837 in the birth register**, where she is forty; here she is fifty-seven, eleven years later. *The register's ages again.*",
+"ark": "ANTENATI an_ua14445 (Arienzo, Nati 1848) atto 42, foglio 43, img 43r-44l (duplicated at 45l) — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
 "slug": "giovanna-martone",
 "name": "Giovanna Martone (Falco)",
 "surname": "MARTONE",
@@ -39688,12 +39947,26 @@
 "siblings": []
 },
 {
-"slug": "angela-maria-morgillo-of-gennaro-morgillo-maria-felicia-san",
+"slug": "angela-maria-morgillo-of-crescenzo-falco-angela-maria-morgi",
 "name": "Angela Maria Morgillo",
 "surname": "MORGILLO",
-"household": "Gennaro Morgillo & Maria Felicia Sansone",
-"role": "child",
+"household": "Crescenzo Falco & Angela Maria Morgillo",
+"role": "mother",
 "events": [
+{
+"event": "named in a birth act",
+"date": "21 Nov 1845",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*nata da **MARIA MORGILLO sua moglie legittima, di anni VENTITRE***» — and **this answers a question the work list raised**. The archive holds her as **ANGELA MARIA MORGILLO**, twenty-three at her marriage in February 1845; **the birth register calls her plainly MARIA MORGILLO**, the same age. *So the family tree's unsourced «Crescenzo Falco × **Maria Concetta** Morgillo» is most likely this woman under a third form of her name, not a second wife — though that is an inference, and the tree's «son Giovanni» is still unattested.*",
+"ark": "ANTENATI an_ua14442 (Arienzo, Nati 1845) atto 111, foglio 339, img 116r-117l — READ FROM THE IMAGE"
+},
+{
+"event": "named in a birth act",
+"date": "1 Jun 1848",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*nato da **MARIA MORGILLO, moglie di CRESCENZO FALCO, di anni VENTICINQUE***» — **b. c.1823**, against twenty-three in November 1845 (b. c.1822) and twenty-three at her marriage in February 1845. **Three readings inside a year of each other.** *She is «ANGELA MARIA MORGILLO» in her marriage act and plain «MARIA MORGILLO» in every birth and death act of her children.*",
+"ark": "ANTENATI an_ua14445 (Arienzo, Nati 1848) atto 42, foglio 43, img 43r-44l (duplicated at 45l) — READ FROM THE IMAGE"
+},
 {
 "event": "marriage",
 "date": "2 Feb 1845",
@@ -39724,8 +39997,42 @@
 ]
 }
 ],
-"spouses": [],
-"children": [],
+"spouses": [
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "giuseppe-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-felice-falco",
+"name": "Maria Felice Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gennaro-falco",
+"name": "Gennaro Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "siblings": []
 },
 {
@@ -40317,7 +40624,7 @@
 ],
 "children": [
 {
-"slug": "angela-maria-morgillo-of-gennaro-morgillo-maria-felicia-san",
+"slug": "angela-maria-morgillo-of-crescenzo-falco-angela-maria-morgi",
 "name": "Angela Maria Morgillo",
 "via": "register",
 "vias": [
@@ -42104,6 +42411,30 @@
 "place": "Arienzo, strada del Borgo",
 "evidence": "THE BRIDE, READ FROM THE ACT AT LAST. «*è comparsa egualmente **STELLA PETRILLO** di anni **DICIOTTO**, domiciliata in questa suddetta comune, **STRADA DEL BORGO**, di professione **FILATRICE**, **MINORE***» — so born about 1797, the same year as her husband. **Her forename is disputed between two documents and this archive had a third.** The civil act says **STELLA**; the 1815 marriage index says **GIULIA**; this archive published **«Giustina»**, which neither document supports. Her parents are identical in both — **fu SABBATINO PETRILLO and BRIGIDA COSSI** — so there is no doubt she is one woman. Both forenames are recorded and neither is preferred. **The surname was misread here first and corrected by magnification**: at the render width used for the survey it reads «Vecchiello», and at twelve times it is **PETRILLO**, eight letters with one dotted i and no second e before the double l. The index gives the same.",
 "ark": "ANTENATI an_ua14219 (Arienzo, Stato civile, Matrimoni 1815) img 8, right page, atto 8 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
+"slug": "clemente-porrino",
+"name": "Clemente Porrino",
+"surname": "PORRINO",
+"household": "Crescenzo Falco & Angela Maria Morgillo",
+"role": "witness",
+"events": [
+{
+"event": "witness at the birth",
+"date": "21 Nov 1845",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*alla presenza di **CLEMENTE PORRINO**, di professione contadino, regnicolo, domiciliato ivi **strada CAMELLARA***» — witness at Maria Felice Falco's birth, and of the family's own street.",
+"ark": "ANTENATI an_ua14442 (Arienzo, Nati 1845) atto 111, foglio 339, img 116r-117l — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -45325,7 +45656,7 @@
 ],
 "children": [
 {
-"slug": "angela-maria-morgillo-of-gennaro-morgillo-maria-felicia-san",
+"slug": "angela-maria-morgillo-of-crescenzo-falco-angela-maria-morgi",
 "name": "Angela Maria Morgillo",
 "via": "register",
 "vias": [
@@ -46414,7 +46745,31 @@
 "treeId": 4506207
 },
 {
-"slug": "antonio-sorgente",
+"slug": "antonio-sorgente-of-crescenzo-falco-angela-maria-morgi",
+"name": "Antonio Sorgente",
+"surname": "SORGENTE",
+"household": "Crescenzo Falco & Angela Maria Morgillo",
+"role": "witness",
+"events": [
+{
+"event": "witness at the birth",
+"date": "1 Jun 1848",
+"place": "Arienzo, strada Porta di Sopra",
+"evidence": "«*e di **ANTONIO SORGENTE, di anni QUARANTA**, di professione contadino, regnicolo, domiciliato strada Porta di Sopra*» — the second witness. **An ANTONIO SORGENTE of the same street and trade witnesses GIOVANNA ARRICALE's birth in this same register on 22 December 1848, where the clerk makes him forty-eight.** Eight years in six months; almost certainly one man.",
+"ark": "ANTENATI an_ua14445 (Arienzo, Nati 1848) atto 42, foglio 43, img 43r-44l (duplicated at 45l) — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
+"slug": "antonio-sorgente-of-francesco-arricale-pasqua-falco",
 "name": "Antonio Sorgente",
 "surname": "SORGENTE",
 "household": "Francesco Arricale & Pasqua Falco",
