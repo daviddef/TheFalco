@@ -10318,6 +10318,13 @@
 "place": "Arienzo",
 "evidence": "the act naming this marriage is his own death act",
 "ark": "ANTENATI an_ua14319 img59r"
+},
+{
+"event": "named as declarant",
+"date": "25 May 1817",
+"place": "Arienzo, strada Maddalena",
+"evidence": "**THE CIVIL REGISTER NAMES HIS FATHER, AND IT AGREES WITH THE PARISH.** «*è comparso **ANGELANDREA DI GUIDA DI GIUSEPPE, di anni VENTISEI**, di professione **CONTADINO**, domiciliato in questo Comune, **strada MADDALENA***».\n\n**This archive had his filiation from the parish baptisms alone** — baptised **29 November 1791**, a child of **GIUSEPPE DI GUIDA and MADDALENA RIVETTA**, which is what makes him **ANTONIA DI GUIDA's brother** and the founder's son's brother-in-law. **«DI GIUSEPPE» in a civil act is an independent document saying the same thing**, and **twenty-six in May 1817 against a baptism of 29 November 1791 is twenty-five and a half** — right to the half-year, which this office almost never manages.\n\n**It is also the only act this archive has of him alive.** He dies on **21 October 1817**, and everything else it holds about him comes from that death.",
+"ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 50, foglio 89, img 25r — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -10887,6 +10894,13 @@
 "place": "Arienzo",
 "evidence": "m. ANGELO CILLO, son of the late Antonio Cillo and Maria Antonia Romanella. NAMED FOR HER GRANDMOTHER, Maddalena Rivetta — which is what the whole di Guida reconstruction predicts",
 "ark": "3Q9M-CSMY-B7S3-L"
+},
+{
+"event": "birth",
+"date": "25 May 1817",
+"place": "Arienzo, strada Maddalena",
+"evidence": "**HER BIRTH ACT — AND IT CLOSES A PREDICTION THIS ARCHIVE MADE FROM A NAME.** Act **50**, foglio 89: «*L'Anno mille ottocento **DICIASSETTE** a' dì **VENTICINQUE** del mese di **MAGGIO**, ad ore **DODICI** … è comparso **ANGELANDREA DI GUIDA DI GIUSEPPE, di anni VENTISEI**, di professione **CONTADINO**, domiciliato in questo Comune, **strada MADDALENA**, ed ha dichiarato che il giorno sopraindicato ad ore **OTTO** è nata nella sua propria casa da lui dichiarante, e da **TERESA VIGLIOTTA sua moglie legittima, d'anni VENTICINQUE**, una **FEMINA** … a cui si è dato il nome di **MADDALENA***». Witnesses **AGOSTINO MORGILLO, forty, contadino of strada Santa Lucia**, and **TOMASO DELLA SELVA, sixty-five, *serviente comunale***.\n\n**This archive already held a MADDALENA DI GUIDA of this household**, known only from her marriage to ANGELO CILLO about 1845, with the note «**NAMED FOR HER GRANDMOTHER, Maddalena Rivetta — which is what the whole di Guida reconstruction predicts**». **Here is the birth the prediction was about**, and the grandmother's name is on the act's own street.\n\n**Her father died five months later**, on 21 October 1817. **She was born into a marriage with twenty weeks left in it.**",
+"ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 50, foglio 89, img 25r — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -11154,6 +11168,13 @@
 "place": "Arienzo",
 "evidence": "A DATE FOR A BAPTISM THIS ARCHIVE COULD NOT DATE. «*è morto nella propria casa **PASQUALE DI GUIDA d'anni CINQUANTASETTE**, marito di [forename unread], nato in **Arienzo**, di professione **SENSALE**, domiciliato ivi, **figlio di GIUSEPPE DI GUIDA**, di professione **contadino**, domiciliato ivi, **e di MADDALENA RIVETTA Defunta**, domiciliata ivi*» — act 50 of 11 August 1836, at twenty hours. **He is a brother of ANTONIA DI GUIDA**, generation four's mother-in-law, on the same two parents the 1802 marriage act gives her. This archive held him only as a parish baptism of **31 January, year unread**; his trade, his death and a stated age are new. **THE STATED AGE DOES NOT FIT THE OBVIOUS YEAR AND IS NOT FORCED TO.** Fifty-seven in August 1836 implies about **1779** — but this household baptised a **Margherita on 14 March 1779**, six weeks after a 31 January, so the two cannot both be 1779. Either his baptism is 31 January of another year, or the register is guessing his age, which it demonstrably does. The age is recorded as the register's, not as a birth year. **And the father is NOT marked defunto while the mother is** — which this archive does not read as proof he was living, for the reason set out on /corrections.",
 "ark": "ANTENATI an_ua14338 (Arienzo, Morti 1836) img 32 LEFT, atto 50 — READ FROM THE IMAGE"
+},
+{
+"event": "named as declarant",
+"date": "18 Jun 1817",
+"place": "Arienzo, strada Maddalena",
+"evidence": "**AN AGE AND A TRADE FOR ANTONIA DI GUIDA'S BROTHER, WHERE THIS ARCHIVE HAD NEITHER.** Act **55**, foglio 91: «*L'Anno mille ottocento **DICIASSETTE** a' dì **DICIOTTO** del mese di **GIUGNO**, ad ore **SEDICI** … è comparso **PASQUALE DI GUIDA, di anni QUARANTADUE**, di professione **MASSARO DI CAMPAGNA**, domiciliato in detto Comune, **strada MADDALENA**, ed ha dichiarato … è nato nella sua propria casa da lui dichiarante, e da **[NICOLETTA] ESPOSITELLA sua moglie legittima, d'anni TRENTADUE**, un **MASCHIO** … il nome di **RAFFAELE***».\n\n**Forty-two in June 1817 gives b. c.1775**, and his baptism in the Arienzo parish book is «*31 January*» with **the year unread**. **This dates it.** He died on 11 August 1836, which would make him about sixty-one.\n\n**AND HE IS A MASSARO DI CAMPAGNA, not a bracciale.** Antonia di Guida's brother farms on his own account, as her husband **GIUSEPPE FALCO, *massaro*,** does. *The di Guida of strada Maddalena are not labourers.*",
+"ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 55, foglio 91, img 28r — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -11759,8 +11780,16 @@
 ]
 },
 {
-"slug": "salvatore-diglio",
+"slug": "salvatore-diglio-of-alfonso-diglio-maria-falco",
 "name": "Salvatore Diglio",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "salvatore-diglio-of-alfonso-diglio-maria-falco-2",
+"name": "Salvatore Diglio (the first)",
 "via": "register",
 "vias": [
 "register"
@@ -11809,6 +11838,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "«*è comparso **ALFONSO DIGLIO, di anni VENTISETTE**, di professione **CONTADINO**, domiciliato in detto comune **strada CAMELLARA***» — **twenty-seven in April 1819 gives b. c.1792**, against the thirty-two he is given in May 1825, which gives c.1793. **Two acts six years apart agreeing to within a year**, which in this register is rare. **And he signs**: «A ALFONSO DIGLIO», in block capitals, where both his witnesses declared they could not write.",
 "ark": "ANTENATI an_ua14416 (Arienzo, Nati 1819) atto 52, img 28l — READ FROM THE IMAGE"
+},
+{
+"event": "named as declarant",
+"date": "15 May 1817",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*è comparso **ALFONSO DIGLIO, di anni VENTOTTO**, di professione **CONTADINO**, domiciliato in detto Comune, **strada CAMELLARA***» — b. c.1789, against twenty-seven in April 1819 (c.1792) and thirty-two in May 1825 (c.1793). *He signs his own name in 1819, which is unusual on this street.*",
+"ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 49, img 25l — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -11836,7 +11872,7 @@
 ]
 },
 {
-"slug": "salvatore-diglio",
+"slug": "salvatore-diglio-of-alfonso-diglio-maria-falco",
 "name": "Salvatore Diglio",
 "via": "register",
 "vias": [
@@ -11846,6 +11882,14 @@
 {
 "slug": "alessandra-diglio",
 "name": "Alessandra Diglio",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "salvatore-diglio-of-alfonso-diglio-maria-falco-2",
+"name": "Salvatore Diglio (the first)",
 "via": "register",
 "vias": [
 "register"
@@ -11903,6 +11947,30 @@
 "siblings": []
 },
 {
+"slug": "cesare-diglio",
+"name": "Cesare Diglio",
+"surname": "DIGLIO",
+"household": "Alfonso Diglio & Maria Falco",
+"role": "witness",
+"events": [
+{
+"event": "witness at the birth",
+"date": "15 May 1817",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*alla presenza di **CESARE DIGLIO, di anni CINQUANTA**, di professione contadino, domiciliato in questo Comune **strada CAMELLARA***» — and **a CESARE DIGLIO, fifty, of the same street witnesses this couple's daughter CLEMENTINA in May 1825**, eight years later, where he is given as fifty again.",
+"ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 49, img 25l — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
 "slug": "clementina-diglio",
 "name": "Clementina Diglio",
 "surname": "DIGLIO",
@@ -11943,7 +12011,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "salvatore-diglio",
+"slug": "salvatore-diglio-of-alfonso-diglio-maria-falco",
 "name": "Salvatore Diglio",
 "via": "register",
 "vias": [
@@ -11957,11 +12025,19 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "salvatore-diglio-of-alfonso-diglio-maria-falco-2",
+"name": "Salvatore Diglio (the first)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
 {
-"slug": "salvatore-diglio",
+"slug": "salvatore-diglio-of-alfonso-diglio-maria-falco",
 "name": "Salvatore Diglio",
 "surname": "DIGLIO",
 "household": "Alfonso Diglio & Maria Falco",
@@ -12003,6 +12079,80 @@
 {
 "slug": "clementina-diglio",
 "name": "Clementina Diglio",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "alessandra-diglio",
+"name": "Alessandra Diglio",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "salvatore-diglio-of-alfonso-diglio-maria-falco-2",
+"name": "Salvatore Diglio (the first)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
+"slug": "salvatore-diglio-of-alfonso-diglio-maria-falco-2",
+"name": "Salvatore Diglio (the first)",
+"surname": "DIGLIO",
+"household": "Alfonso Diglio & Maria Falco",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "15 May 1817",
+"place": "Arienzo, strada Camellara",
+"evidence": "**IN A YEAR THIS ARCHIVE PUBLISHED AS «NO FALCO».** Act **49**: «*L'Anno mille ottocento **DICIASSETTE** a' dì **QUINDICI** del mese di **MAGGIO**, ad ore **VENTI**, avanti di noi **ANDREA SORICE Sindaco** … è comparso **ALFONSO DIGLIO, di anni VENTOTTO**, di professione **CONTADINO**, domiciliato in detto Comune, **strada CAMELLARA**, ed ha dichiarato che il giorno sopraindicato ad ore **DICIANNOVE** è nato nella sua propria casa **da lui dichiarante, e da MARIA FALCO sua moglie legittima, d'anni VENTISETTE**, un **MASCHIO** … a cui si è dato il nome di **SALVATORE***». Witnesses **CESARE DIGLIO, fifty, contadino of strada CAMELLARA**, and **NICOLA DIGLIO, thirty-eight**.\n\n**HE IS THE FIRST SALVATORE.** This household's **SALVATORE DIGLIO born 3 September 1822** is the second — **five years and four months later**, and this family names the next child after the one it buries. *What became of the first is not recorded here and is not assumed.*\n\n**AND HE PUSHES THE HOUSEHOLD BACK AGAIN.** With Alessandra of April 1819 this is now the earliest of its children, two years earlier still, and it puts the couple on **strada Camellara** within four years of their marriage of 19 November 1813.\n\n*Found by reading the 1817 birth register act by act for work-list row 86 — a volume this archive had published as holding no Falco at all.*",
+"ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 49, img 25l — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "maria-falco-of-alfonso-diglio-maria-falco",
+"name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "alfonso-diglio-of-alfonso-diglio-maria-falco",
+"name": "Alfonso Diglio",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "clementina-diglio",
+"name": "Clementina Diglio",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "salvatore-diglio-of-alfonso-diglio-maria-falco",
+"name": "Salvatore Diglio",
 "via": "register",
 "vias": [
 "register"
@@ -27168,6 +27318,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "«*e da **MARIA FALCO sua moglie legittima, d'anni VENTISETTE***» — and **her age series now holds across three acts**: twenty-seven in April 1819 (b. c.1792), thirty-one in September 1822 (c.1791), thirty-three in May 1825 (c.1792). **Three readings within a year of each other**, in an office this archive has repeatedly shown guessing by five. **She is the best-dated of the Maria Falco this archive holds**, and she is still not attached to a Falco household: which one she comes from is unestablished.",
 "ark": "ANTENATI an_ua14416 (Arienzo, Nati 1819) atto 52, img 28l — READ FROM THE IMAGE"
+},
+{
+"event": "named in a birth act",
+"date": "15 May 1817",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*e da **MARIA FALCO sua moglie legittima, d'anni VENTISETTE***» — **b. c.1790.** Her series is now four acts: twenty-seven in May 1817, twenty-seven in April 1819, thirty-one in September 1822, thirty-three in May 1825 — **c.1790, c.1792, c.1791, c.1792.** **Four readings inside three years of each other**, which makes her the best-dated Maria Falco this archive holds. **Which Falco house she comes from is still unestablished.**",
+"ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 49, img 25l — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -27195,7 +27352,7 @@
 ]
 },
 {
-"slug": "salvatore-diglio",
+"slug": "salvatore-diglio-of-alfonso-diglio-maria-falco",
 "name": "Salvatore Diglio",
 "via": "register",
 "vias": [
@@ -27205,6 +27362,14 @@
 {
 "slug": "alessandra-diglio",
 "name": "Alessandra Diglio",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "salvatore-diglio-of-alfonso-diglio-maria-falco-2",
+"name": "Salvatore Diglio (the first)",
 "via": "register",
 "vias": [
 "register"
@@ -46572,6 +46737,13 @@
 "place": "Arienzo",
 "evidence": "named only as his wife; no age, no parents, no children",
 "ark": "ANTENATI an_ua14319 img59r"
+},
+{
+"event": "named in a birth act",
+"date": "25 May 1817",
+"place": "Arienzo, strada Maddalena",
+"evidence": "«*e da **TERESA VIGLIOTTA sua moglie legittima, d'anni VENTICINQUE***» — **b. c.1792**, and **the first age this archive has ever had for her**. She was widowed five months later, at about twenty-five, with a daughter of five months and a son, **AGOSTINO**, who would be born about 1812.",
+"ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 50, foglio 89, img 25r — READ FROM THE IMAGE"
 }
 ],
 "sources": [

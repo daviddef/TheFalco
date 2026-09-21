@@ -2636,6 +2636,36 @@
         "place": "Arienzo",
         "evidence": "m. ANGELO CILLO, son of the late Antonio Cillo and Maria Antonia Romanella. NAMED FOR HER GRANDMOTHER, Maddalena Rivetta — which is what the whole di Guida reconstruction predicts",
         "ark": "3Q9M-CSMY-B7S3-L"
+      },
+      {
+        "household": "Angelo Andrea di Guida & Teresa Vigliotta",
+        "person": "Maddalena di Guida",
+        "role": "child",
+        "event": "birth",
+        "date": "25 May 1817",
+        "place": "Arienzo, strada Maddalena",
+        "ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 50, foglio 89, img 25r — READ FROM THE IMAGE",
+        "evidence": "**HER BIRTH ACT — AND IT CLOSES A PREDICTION THIS ARCHIVE MADE FROM A NAME.** Act **50**, foglio 89: «*L'Anno mille ottocento **DICIASSETTE** a' dì **VENTICINQUE** del mese di **MAGGIO**, ad ore **DODICI** … è comparso **ANGELANDREA DI GUIDA DI GIUSEPPE, di anni VENTISEI**, di professione **CONTADINO**, domiciliato in questo Comune, **strada MADDALENA**, ed ha dichiarato che il giorno sopraindicato ad ore **OTTO** è nata nella sua propria casa da lui dichiarante, e da **TERESA VIGLIOTTA sua moglie legittima, d'anni VENTICINQUE**, una **FEMINA** … a cui si è dato il nome di **MADDALENA***». Witnesses **AGOSTINO MORGILLO, forty, contadino of strada Santa Lucia**, and **TOMASO DELLA SELVA, sixty-five, *serviente comunale***.\n\n**This archive already held a MADDALENA DI GUIDA of this household**, known only from her marriage to ANGELO CILLO about 1845, with the note «**NAMED FOR HER GRANDMOTHER, Maddalena Rivetta — which is what the whole di Guida reconstruction predicts**». **Here is the birth the prediction was about**, and the grandmother's name is on the act's own street.\n\n**Her father died five months later**, on 21 October 1817. **She was born into a marriage with twenty weeks left in it.**"
+      },
+      {
+        "household": "Angelo Andrea di Guida & Teresa Vigliotta",
+        "person": "Angelo Andrea di Guida",
+        "role": "father",
+        "event": "named as declarant",
+        "date": "25 May 1817",
+        "place": "Arienzo, strada Maddalena",
+        "ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 50, foglio 89, img 25r — READ FROM THE IMAGE",
+        "evidence": "**THE CIVIL REGISTER NAMES HIS FATHER, AND IT AGREES WITH THE PARISH.** «*è comparso **ANGELANDREA DI GUIDA DI GIUSEPPE, di anni VENTISEI**, di professione **CONTADINO**, domiciliato in questo Comune, **strada MADDALENA***».\n\n**This archive had his filiation from the parish baptisms alone** — baptised **29 November 1791**, a child of **GIUSEPPE DI GUIDA and MADDALENA RIVETTA**, which is what makes him **ANTONIA DI GUIDA's brother** and the founder's son's brother-in-law. **«DI GIUSEPPE» in a civil act is an independent document saying the same thing**, and **twenty-six in May 1817 against a baptism of 29 November 1791 is twenty-five and a half** — right to the half-year, which this office almost never manages.\n\n**It is also the only act this archive has of him alive.** He dies on **21 October 1817**, and everything else it holds about him comes from that death."
+      },
+      {
+        "household": "Angelo Andrea di Guida & Teresa Vigliotta",
+        "person": "Teresa Vigliotta",
+        "role": "mother",
+        "event": "named in a birth act",
+        "date": "25 May 1817",
+        "place": "Arienzo, strada Maddalena",
+        "ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 50, foglio 89, img 25r — READ FROM THE IMAGE",
+        "evidence": "«*e da **TERESA VIGLIOTTA sua moglie legittima, d'anni VENTICINQUE***» — **b. c.1792**, and **the first age this archive has ever had for her**. She was widowed five months later, at about twenty-five, with a daughter of five months and a son, **AGOSTINO**, who would be born about 1812."
       }
     ]
   },
@@ -3611,6 +3641,46 @@
         "place": "Arienzo, strada Sant'Andrea",
         "evidence": "«*e di **DOMENICO LAUDATO, di anni CINQUANTADUE**, di professione **CONTADINO**, domiciliato in questo Comune, **strada SANT'ANDREA***» — the second witness, who also could not write.",
         "ark": "ANTENATI an_ua14416 (Arienzo, Nati 1819) atto 52, img 28l — READ FROM THE IMAGE"
+      },
+      {
+        "household": "Alfonso Diglio & Maria Falco",
+        "person": "Salvatore Diglio (the first)",
+        "role": "child",
+        "event": "birth",
+        "date": "15 May 1817",
+        "place": "Arienzo, strada Camellara",
+        "ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 49, img 25l — READ FROM THE IMAGE",
+        "evidence": "**IN A YEAR THIS ARCHIVE PUBLISHED AS «NO FALCO».** Act **49**: «*L'Anno mille ottocento **DICIASSETTE** a' dì **QUINDICI** del mese di **MAGGIO**, ad ore **VENTI**, avanti di noi **ANDREA SORICE Sindaco** … è comparso **ALFONSO DIGLIO, di anni VENTOTTO**, di professione **CONTADINO**, domiciliato in detto Comune, **strada CAMELLARA**, ed ha dichiarato che il giorno sopraindicato ad ore **DICIANNOVE** è nato nella sua propria casa **da lui dichiarante, e da MARIA FALCO sua moglie legittima, d'anni VENTISETTE**, un **MASCHIO** … a cui si è dato il nome di **SALVATORE***». Witnesses **CESARE DIGLIO, fifty, contadino of strada CAMELLARA**, and **NICOLA DIGLIO, thirty-eight**.\n\n**HE IS THE FIRST SALVATORE.** This household's **SALVATORE DIGLIO born 3 September 1822** is the second — **five years and four months later**, and this family names the next child after the one it buries. *What became of the first is not recorded here and is not assumed.*\n\n**AND HE PUSHES THE HOUSEHOLD BACK AGAIN.** With Alessandra of April 1819 this is now the earliest of its children, two years earlier still, and it puts the couple on **strada Camellara** within four years of their marriage of 19 November 1813.\n\n*Found by reading the 1817 birth register act by act for work-list row 86 — a volume this archive had published as holding no Falco at all.*"
+      },
+      {
+        "household": "Alfonso Diglio & Maria Falco",
+        "person": "Maria Falco",
+        "role": "mother",
+        "event": "named in a birth act",
+        "date": "15 May 1817",
+        "place": "Arienzo, strada Camellara",
+        "ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 49, img 25l — READ FROM THE IMAGE",
+        "evidence": "«*e da **MARIA FALCO sua moglie legittima, d'anni VENTISETTE***» — **b. c.1790.** Her series is now four acts: twenty-seven in May 1817, twenty-seven in April 1819, thirty-one in September 1822, thirty-three in May 1825 — **c.1790, c.1792, c.1791, c.1792.** **Four readings inside three years of each other**, which makes her the best-dated Maria Falco this archive holds. **Which Falco house she comes from is still unestablished.**"
+      },
+      {
+        "household": "Alfonso Diglio & Maria Falco",
+        "person": "Alfonso Diglio",
+        "role": "father",
+        "event": "named as declarant",
+        "date": "15 May 1817",
+        "place": "Arienzo, strada Camellara",
+        "ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 49, img 25l — READ FROM THE IMAGE",
+        "evidence": "«*è comparso **ALFONSO DIGLIO, di anni VENTOTTO**, di professione **CONTADINO**, domiciliato in detto Comune, **strada CAMELLARA***» — b. c.1789, against twenty-seven in April 1819 (c.1792) and thirty-two in May 1825 (c.1793). *He signs his own name in 1819, which is unusual on this street.*"
+      },
+      {
+        "household": "Alfonso Diglio & Maria Falco",
+        "person": "Cesare Diglio",
+        "role": "witness",
+        "event": "witness at the birth",
+        "date": "15 May 1817",
+        "place": "Arienzo, strada Camellara",
+        "ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 49, img 25l — READ FROM THE IMAGE",
+        "evidence": "«*alla presenza di **CESARE DIGLIO, di anni CINQUANTA**, di professione contadino, domiciliato in questo Comune **strada CAMELLARA***» — and **a CESARE DIGLIO, fifty, of the same street witnesses this couple's daughter CLEMENTINA in May 1825**, eight years later, where he is given as fifty again."
       }
     ]
   },
@@ -4136,6 +4206,16 @@
         "place": "Arienzo, strada Maddalena",
         "evidence": "«*sono comparsi **CLEMENTE DI GUIDA** di anni **trentatré**, di professione **SENSALE**, regnicolo, domiciliato in strada Maddalena*» — born about 1803, and of the dead man's own trade. **A di Guida declaring a di Guida death is the register's usual mark of close kin**, but the act assigns him no relationship word and none is claimed. The second declarant is **CARLANTONIO MORGILLO, fifty, contadino, of strada CAMELLARA** — the Falco's own street, and the second man of that name this archive keeps apart from the Carlantonio Morgillo who married Rosa Falco in 1802.",
         "ark": "ANTENATI an_ua14338 (Arienzo, Morti 1836) img 32 LEFT, atto 50 — READ FROM THE IMAGE"
+      },
+      {
+        "household": "Giuseppe di Guida & Maddalena Rivetta",
+        "person": "Pasquale di Guida",
+        "role": "child",
+        "event": "named as declarant",
+        "date": "18 Jun 1817",
+        "place": "Arienzo, strada Maddalena",
+        "ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 55, foglio 91, img 28r — READ FROM THE IMAGE",
+        "evidence": "**AN AGE AND A TRADE FOR ANTONIA DI GUIDA'S BROTHER, WHERE THIS ARCHIVE HAD NEITHER.** Act **55**, foglio 91: «*L'Anno mille ottocento **DICIASSETTE** a' dì **DICIOTTO** del mese di **GIUGNO**, ad ore **SEDICI** … è comparso **PASQUALE DI GUIDA, di anni QUARANTADUE**, di professione **MASSARO DI CAMPAGNA**, domiciliato in detto Comune, **strada MADDALENA**, ed ha dichiarato … è nato nella sua propria casa da lui dichiarante, e da **[NICOLETTA] ESPOSITELLA sua moglie legittima, d'anni TRENTADUE**, un **MASCHIO** … il nome di **RAFFAELE***».\n\n**Forty-two in June 1817 gives b. c.1775**, and his baptism in the Arienzo parish book is «*31 January*» with **the year unread**. **This dates it.** He died on 11 August 1836, which would make him about sixty-one.\n\n**AND HE IS A MASSARO DI CAMPAGNA, not a bracciale.** Antonia di Guida's brother farms on his own account, as her husband **GIUSEPPE FALCO, *massaro*,** does. *The di Guida of strada Maddalena are not labourers.*"
       }
     ]
   },

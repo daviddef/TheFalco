@@ -15,21 +15,36 @@ import sources from "../data/sources.json";
 // order this archive would want them read, parish registers first.
 const ORDER = [...new Set(sources.map((s) => s.g))];
 
+// The `id` field holds one or more archival references joined with a middot.
+// They go out as separate chips: someone checking a claim needs to copy ONE
+// reference, not find it inside a run of them.
+const cites = (id) => (id && id !== "\u2014" ? id.split(" \u00b7 ") : []);
+
+// An anchor per source, so a person's page can link in to the exact source it
+// rests on. Falco could not do that before; nothing else in the estate can.
+const slug = (t) => t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+  .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 48);
+
 const groups = ORDER.map((g) => ({
   label: g,
   rows: sources.filter((s) => s.g === g).map((s) => ({
+    id: slug(s.t),
     title: s.t,
+    // No URL is invented here. Twenty-six sources, not one of them reachable —
+    // that is this archive's gap to close in the data, not the page's to fake.
     what: s.d,
-    cite: s.id !== "\u2014" ? s.id : null,
+    cites: cites(s.id),
     carries: "<strong>What it established:</strong> " + s.use,
   })),
 }));
+
+const unreachable = sources.filter((s) => !s.url).length;
 ---
 <Base title="Sources">
   <p class="lede">What has been read, where it is, and what it actually established. {sources.length} sources
   across four countries' worth of record-keeping, and the repository files that carry every citation.</p>
 
-  <Sources groups={groups} />
+  <Sources groups={groups} u={u} />
 
   <h2>The underlying files</h2>
   <p>Every claim on this site resolves to a row in one of three files. They are plain tab-separated
