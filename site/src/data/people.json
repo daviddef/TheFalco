@@ -2388,6 +2388,30 @@
 "b": "1848"
 },
 {
+"slug": "marcello-arrigale",
+"name": "Marcello Arrigale",
+"surname": "ARRIGALE",
+"household": "Michelangelo Falco & Mariantonia Vigliotta",
+"role": "witness",
+"events": [
+{
+"event": "witness at the birth",
+"date": "24 Mar 1830",
+"place": "Arienzo, strada Capodiconca",
+"evidence": "«*alla presenza di **MARCELLO ARRIGALE, di anni QUARANTATRE**, di professione **VIATICALE**, regnicolo, domiciliato ivi **strada CAPODICONCA***» — witness at Anna Falco's birth.",
+"ark": "ANTENATI an_ua14427 (Arienzo, Nati 1830) atto 43, folio 44, img 44r-45l — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
 "slug": "giovanna-bega",
 "name": "Giovanna Bega",
 "surname": "BEGA",
@@ -6600,6 +6624,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "«*nato da **ANDREANA CRISCI sua moglie legittima, di anni QUARANTA**, domiciliata collo stesso*» — forty in September 1838 gives b. c.1798 against a baptism of 30 November 1796, **two years out**, where the same register had her exactly right six years earlier. **She was forty-one, and bearing.**",
 "ark": "ANTENATI an_ua14435 (Arienzo, Nati 1838) atto 79, img 81r-82l — READ FROM THE IMAGE"
+},
+{
+"event": "named in a birth act",
+"date": "24 Mar 1830",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*nato da **ANDREANA CRISCI sua moglie legittima, di anni TRENTA***» — thirty in March 1830 gives b. c.1800 against a baptism of 30 November 1796: **four years out**, where two years later the same office had her exactly right.",
+"ark": "ANTENATI an_ua14427 (Arienzo, Nati 1830) atto 42, folio 43, img 43r-44l — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -8168,6 +8199,30 @@
 "d": "June 8 1876",
 "bp": "Arienzo, Caserta, Campania, Italy",
 "dp": "Arienzo, Caserta, Campania, Italy"
+},
+{
+"slug": "francesco-crisci",
+"name": "Francesco Crisci",
+"surname": "CRISCI",
+"household": "Vincenzo Falco & Andreana Crisci",
+"role": "witness",
+"events": [
+{
+"event": "witness at the birth",
+"date": "24 Mar 1830",
+"place": "Arienzo, strada Crisci",
+"evidence": "«*alla presenza di **FRANCESCO CRISCI, di anni QUARANTA**, di professione contadino, regnicolo, domiciliato ivi **strada CRISCI***» — witness at Pasquale Falco's birth. **He carries the mother's surname and lives on the street that carries it**, and the act gives him no relationship word. **Nothing is claimed**; it is recorded because this archive has been looking for Andreana Crisci's kin for months.",
+"ark": "ANTENATI an_ua14427 (Arienzo, Nati 1830) atto 42, folio 43, img 43r-44l — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
 },
 {
 "slug": "gabriele-crisci",
@@ -9912,6 +9967,30 @@
 }
 ],
 "treeId": 4505116
+},
+{
+"slug": "rosa-della-selva",
+"name": "Rosa della Selva",
+"surname": "DELLA SELVA",
+"household": "Michelangelo Falco & Mariantonia Vigliotta",
+"role": "midwife",
+"events": [
+{
+"event": "presented the child",
+"date": "24 Mar 1830",
+"place": "Arienzo, strada Porta di Sopra",
+"evidence": "«*è comparsa **ROSA DELLA SELVA, di anni SETTANTANOVE**, di professione **LEVATRICE**, domiciliata in questo Comune **strada PORTA DI SOPRA***» — she presented Anna Falco, and **she presents a large part of Arienzo between 1825 and 1833**. **Where she declares, both parents are named**, which is the only reason this act was findable at the parents band.",
+"ark": "ANTENATI an_ua14427 (Arienzo, Nati 1830) atto 43, folio 44, img 44r-45l — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
 },
 {
 "slug": "vincenza-della-sorca",
@@ -12157,6 +12236,30 @@
 ]
 }
 ],
+"children": [],
+"siblings": []
+},
+{
+"slug": "nicola-espositella",
+"name": "Nicola Espositella",
+"surname": "ESPOSITELLA",
+"household": "Michelangelo Falco & Mariantonia Vigliotta",
+"role": "witness",
+"events": [
+{
+"event": "witness at the birth",
+"date": "24 Mar 1830",
+"place": "Arienzo, strada Cossi",
+"evidence": "«*e di **NICOLA ESPOSITELLA, di anni QUARANTASEI**, di professione **VIATICALE**, regnicolo, domiciliato ivi **strada COSSI***» — the second witness at Anna Falco's birth.",
+"ark": "ANTENATI an_ua14427 (Arienzo, Nati 1830) atto 43, folio 44, img 44r-45l — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
 "children": [],
 "siblings": []
 },
@@ -14560,6 +14663,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "**THIS CHILD IS NOT RECORDED AS THIS COUPLE'S, AND THE ROW IS LEFT STANDING RATHER THAN DELETED.** Until 20 September 2026 an **ANNA FALCO, eight days old, dead 7 March 1834** stood here as a daughter of Michelangelo Falco and **MARIANTONIA VIGLIOTTA**.\n\n**The act was found and read.** It is act 16, image 11 left, of **16 March 1834**, and it says «*figlia di **MICHELANGELO FALCO** … e di **RAFFAELA FALCO***». **The mother is not Mariantonia Vigliotta.**\n\n**So she is published under MICHELANGELO FALCO & RAFFAELA FALCO instead**, and whether that Michelangelo is this one — widowed and remarried — or a second man of the name is an open question this archive does not close by assuming.",
 "ark": "ANTENATI an_ua14336 img11l act16 — READ 20 Sep 2026"
+},
+{
+"event": "birth",
+"date": "24 Mar 1830",
+"place": "Arienzo, strada Camellara",
+"evidence": "**HER BIRTH — AND IT IS THIS HOUSEHOLD'S FIRST CHILD, FIFTEEN MONTHS AFTER ITS WEDDING.** Act **43**: «*L'anno mille ottocento **TRENTA**, il dì **VENTIQUATTRO** del mese di **MARZO**, ad ore **TREDICI**, avanti di noi **VITO MARIA ROMANO Sindaco** … è comparsa **ROSA DELLA SELVA, di anni SETTANTANOVE**, di professione **LEVATRICE**, domiciliata in questo Comune strada Porta di Sopra, quale ci ha presentato una **FEMINA** … che la stessa è nata da **ANTONIA VIGLIOTTA, di anni VENTICINQUE**, domiciliata in **strada CAMELLARA**, e da **MICHELANGELO FALCO marito della stessa, di anni VENTI**, di professione **CONTADINO** … nel giorno **VENTIQUATTRO** del mese di **MARZO** … **alle ore UNDICI, nella casa d'abitazione di detti conjugi** … di dare alla neonata il nome di **ANNA***». Baptised at **Sant'Andrea Apostolo** the same day. Witnesses **MARCELLO ARRIGALE, forty-three, *viaticale*, of strada CAPODICONCA**, and **NICOLA ESPOSITELLA, forty-six, *viaticale*, of strada COSSI**.\n\n**THE ARITHMETIC CLOSES TO THE WEEK.** Her death act, already held, says «*di mesi **TREDICI***» on **4 May 1831**. **Born 24 March 1830 she was thirteen months and ten days.**\n\n**A MIDWIFE PRESENTED HER, WHICH IS WHY THE PARENTS BAND COULD FIND HER AT ALL** — where a midwife declares, both parents are named on the left page. **This household's whole documented life is now three acts**: the marriage of December 1828, this birth, and this death.\n\n**AND IT MAKES THE AGE PROBLEM WORSE FOR MICHELANGELO FALCO.** He is **twenty** here in March 1830, **twenty-six** in July 1832 and **thirty-four** in September 1838 — **b. c.1810, c.1806, c.1804**. **Fourteen years of ageing in eight.** Whether the Michelangelo of strada Sant'Andrea in 1838 is this man is an open question, and these figures cannot settle it either way.\n\n*The clerk writes the mother **ANTONIA** here and **MARIANTONIA** in 1831; this archive has published that the office uses the two indifferently.*",
+"ark": "ANTENATI an_ua14427 (Arienzo, Nati 1830) atto 43, folio 44, img 44r-45l — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -29433,6 +29543,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "figlia di Michelangelo Falco, di professione contadino, domiciliato ivi",
 "ark": "ANTENATI an_ua14333 img20r"
+},
+{
+"event": "named in a birth act",
+"date": "24 Mar 1830",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*e da **MICHELANGELO FALCO marito della stessa, di anni VENTI**, di professione **CONTADINO**, domiciliato con detta sua moglie*» — **twenty in March 1830 gives b. c.1810**, the youngest figure this archive has for him and six years off the 1832 act's twenty-six. **He had been married fifteen months and was, on this reading, nineteen when he married.**",
+"ark": "ANTENATI an_ua14427 (Arienzo, Nati 1830) atto 43, folio 44, img 44r-45l — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -30562,6 +30679,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "Pasquale Falco, di anni tre, nato in Arienzo, figlio di Vincenzo Falco, di professione contadino, e di Andreana Crisci — b. c.1830; a first child of this name, twenty-two months before the second  [DISAMBIGUATED 15 Sep 2026: this row used to read simply «Pasquale Falco», which merged these infants with their own great-grandfather, PASQUALE FALCO of generation two, who died on 1 October 1834 aged seventy-four as the husband of Chiara Rivetti. That merge gave generation two a baptism of 1830 and two deaths that were not his, and it made VINCENZO FALCO — his son — into his parent, which is the cycle the person-graph builder refused to close.]",
 "ark": "ANTENATI an_ua14335 img10l act16 — READ FROM THE IMAGE [IMAGE NUMBER CORRECTED 20 Sep 2026 from img9l: image 9 left is act 14, 19 February 1833, and the dead there is a woman. Act 16 is on image 10 LEFT. Even acts run down the left page of each opening in this volume and odd acts down the right.]"
+},
+{
+"event": "birth",
+"date": "24 Mar 1830",
+"place": "Arienzo, strada Camellara",
+"evidence": "**HIS CIVIL BIRTH ACT — this archive had him from a machine-read parish baptism and a death act, and now from the register itself.** Act **42**: «*L'anno mille ottocento **TRENTA**, il dì **VENTIQUATTRO** del mese di **MARZO**, ad ore **TREDICI**, avanti di noi **VITO MARIA ROMANO Sindaco** … è comparso **VINCENZO FALCO, di anni TRENTOTTO**, di professione **CONTADINO**, domiciliato in questo Comune **strada CAMELLARA**, quale ci ha presentato un **MASCHIO** … che lo stesso è nato da **ANDREANA CRISCI sua moglie legittima, di anni TRENTA**, domiciliata collo stesso, **e da lui dichiarante** … nel giorno **VENTIQUATTRO** del mese di **MARZO** … **alle ore SEI, nella casa sua propria d'abitazione** … di dare al neonato il nome di **PASQUALE***». Baptised at **Sant'Andrea Apostolo** the same day — **which is the date the parish transcription already gave**, now confirmed from a second and independent document.\n\n**Witnesses: FRANCESCO CRISCI, forty, contadino, of strada CRISCI**, and **VINCENZO MORGILLO, thirty, contadino**. *The act gives Francesco Crisci no relationship word and none is claimed — but he bears the mother's surname and lives on the street that carries it.*\n\n**«E DA LUI DICHIARANTE» — so the parents band could not see this act.** The left page names **ANDREANA CRISCI** and no Falco whatever. It was found at the declarant band, work-list row 86.\n\n**AND TWO FALCO WERE BORN AT ARIENZO ON ONE DAY.** Act 42 is this child; **act 43, the very next, is ANNA FALCO**, born the same 24 March 1830 at eleven o'clock to **MICHELANGELO FALCO and ANTONIA VIGLIOTTA**, also of strada Camellara. **Two Falco households on one street registering children five hours apart.**\n\n*His father's age is exact for the third time in this series: thirty-eight in March 1830 against a baptism of 1 February 1792.*",
+"ark": "ANTENATI an_ua14427 (Arienzo, Nati 1830) atto 42, folio 43, img 43r-44l — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -34230,6 +34354,13 @@
 "ark": "ANTENATI an_ua14435 (Arienzo, Nati 1838) atto 79, img 81r-82l — READ FROM THE IMAGE"
 },
 {
+"event": "named as declarant",
+"date": "24 Mar 1830",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*è comparso **VINCENZO FALCO, di anni TRENTOTTO**, di professione **CONTADINO**, domiciliato in questo Comune **strada CAMELLARA***» — **thirty-eight in March 1830 gives b. c.1792, and his baptism is 1 February 1792.** Exact, as it is in 1828, 1832 and 1838. **This office gets him right and his wife wrong.**",
+"ark": "ANTENATI an_ua14427 (Arienzo, Nati 1830) atto 42, folio 43, img 43r-44l — READ FROM THE IMAGE"
+},
+{
 "event": "birth",
 "date": "1793",
 "place": "Arienzo",
@@ -36857,7 +36988,7 @@
 ]
 },
 {
-"slug": "vincenzo-morgillo",
+"slug": "vincenzo-morgillo-of-angelo-morgillo-colono-monticello-",
 "name": "Vincenzo Morgillo",
 "via": "register",
 "vias": [
@@ -39459,7 +39590,7 @@
 ]
 },
 {
-"slug": "vincenzo-morgillo",
+"slug": "vincenzo-morgillo-of-angelo-morgillo-colono-monticello-",
 "name": "Vincenzo Morgillo",
 "via": "register",
 "vias": [
@@ -39832,7 +39963,7 @@
 ]
 },
 {
-"slug": "vincenzo-morgillo",
+"slug": "vincenzo-morgillo-of-angelo-morgillo-colono-monticello-",
 "name": "Vincenzo Morgillo",
 "via": "register",
 "vias": [
@@ -40080,14 +40211,6 @@
 {
 "slug": "pasquale-morgillo",
 "name": "Pasquale Morgillo",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-morgillo",
-"name": "Vincenzo Morgillo",
 "via": "register",
 "vias": [
 "register"
@@ -40344,7 +40467,7 @@
 ],
 "siblings": [
 {
-"slug": "vincenzo-morgillo",
+"slug": "vincenzo-morgillo-of-angelo-morgillo-colono-monticello-",
 "name": "Vincenzo Morgillo",
 "via": "register",
 "vias": [
@@ -40722,7 +40845,31 @@
 "siblings": []
 },
 {
-"slug": "vincenzo-morgillo",
+"slug": "vincenzo-morgillo-of-vincenzo-falco-andreana-crisci",
+"name": "Vincenzo Morgillo",
+"surname": "MORGILLO",
+"household": "Vincenzo Falco & Andreana Crisci",
+"role": "witness",
+"events": [
+{
+"event": "witness at the birth",
+"date": "24 Mar 1830",
+"place": "Arienzo",
+"evidence": "«*e di **VINCENZO MORGILLO, di anni TRENTA**, di professione contadino, regnicolo*» — the second witness at Pasquale Falco's birth.",
+"ark": "ANTENATI an_ua14427 (Arienzo, Nati 1830) atto 42, folio 43, img 43r-44l — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
+"slug": "vincenzo-morgillo-of-angelo-morgillo-colono-monticello-",
 "name": "Vincenzo Morgillo",
 "surname": "MORGILLO",
 "household": "Angelo Morgillo (colono, Monticello de' Cappuccini)",
@@ -40755,17 +40902,7 @@
 "via": "register",
 "vias": [
 "register"
-],
-"superseded": "DISPROVED BY DATES. Gaetana Laudato was «di anni SETTANTOTTO» when she died on 9 March 1816, so born about 1738, and she stands in this household as the WIDOW OF SIMONE MORGILLO — a generation above its head. Vincenzo Morgillo was twenty-nine in May 1828, so born about 1799. She was sixty-one at his birth. She is the house's elder, not his mother, and the graph read the role «mother» as a relationship to every child recorded in the same house."
-},
-{
-"slug": "giuseppe-morgillo",
-"name": "Giuseppe Morgillo",
-"via": "register",
-"vias": [
-"register"
-],
-"superseded": "DISPROVED — A DIFFERENT VINCENZO MORGILLO. The register names Giuseppe Morgillo «as a parent of Vincenzo Morgillo, FOUR DAYS OLD, strada Salvatorella», who died on 25 January 1816 (Arienzo death register 1816, image 6). The Vincenzo Morgillo of this record was twenty-nine in May 1828, a contadino of STRADA CAPPUCCINI and husband of Felicetta Rivetti, who declared two deaths at the Capuchin monastery in 1823 and 1826. An infant dead at four days in 1816 is not a man of twenty-nine in 1828, and the streets differ. Merged on the forename alone."
+]
 }
 ],
 "spouses": [],
@@ -46355,6 +46492,13 @@
 "place": "Arienzo",
 "evidence": "«VIGLIOTTI ANTONIA … VIGLIOTTI FRANCESCO, e REPETELLI VITTORIA» — HER PARENTS, named for the first time. The archive has called her Mariantonia Vigliotta from her children's death acts; the marriage index writes her ANTONIA VIGLIOTTI, and both spellings are kept\n\n**HER PARENTS, READ FROM THE IMAGE 20 September 2026**: «***VIGLIOTTI ANTONIA** | ivi | **VIGLIOTTI FRANCESCO, e REPETELLI VITTORIA***». **FRANCESCO VIGLIOTTI and VITTORIA REPETELLI**, neither of whom this archive held. The index writes her **ANTONIA VIGLIOTTI**; the death acts write her **MARIANTONIA VIGLIOTTA**. **She is not the Antonia Vigliotti who married MICHELE FALCO** — see the note on her husband.",
 "ark": "ANTENATI an_ua14127 (Arienzo, Matrimonj indice 1828) img2 atto10 — READ FROM THE IMAGE"
+},
+{
+"event": "named in a birth act",
+"date": "24 Mar 1830",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*è nata da **ANTONIA VIGLIOTTA, di anni VENTICINQUE**, domiciliata in **strada CAMELLARA***» — b. c.1805. **Written ANTONIA here and MARIANTONIA in her daughter's death act fourteen months later**, by the same office. Her parents are **FRANCESCO VIGLIOTTI** and **VITTORIA REPETELLI**, from the 1828 marriage index.",
+"ark": "ANTENATI an_ua14427 (Arienzo, Nati 1830) atto 43, folio 44, img 44r-45l — READ FROM THE IMAGE"
 }
 ],
 "sources": [
