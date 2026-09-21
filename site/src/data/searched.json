@@ -1306,5 +1306,19 @@
    "Indexes"
   ],
   "href": "https://antenati.cultura.gov.it/ark:/12657/an_ua14361"
+ },
+ {
+  "when": "1813",
+  "src": "Arienzo BIRTH register, 1813 — ANTENATI `an_ua14410`, 57 images, **53 acts**. **The first of the 1809–1815 volumes this archive has ever opened.** The Napoleonic format: continuous prose, one act to a page, and **the father, the mother and the child's name all in one block** — so a single band reads the whole act, unlike the two-band registers of the 1820s and after.",
+  "what": "**RAFFAELA FALCO**, born about 1813 to **GIUSEPPE FALCO** and **ANTONIA DI GUIDA** — the test work-list row 87 named as cheaper than the three it had first listed",
+  "got": "**SHE IS NOT IN IT. FIFTY-THREE ACTS, ONE FALCO, AND IT IS A DIFFERENT HOUSE.**\n\n**Act 2, 5 January 1813** — «*è comparso **GIUSEPPE FALCO**, di anni **trentatré**, di professione **contadino**, domiciliato in detto Comune, **strada COSTA** … da **GELSOMINA VIGLIOTTA** sua moglie legittima, di anni **ventotto**, un **maschio** … a cui si è dato il nome di **ANTONIO***». **The OTHER Giuseppe Falco** — of strada Costa, not of Antonia di Guida — and **ANTONIO FALCO is a child that household did not have**, four years earlier than anything else it holds.\n\n**No Raffaela Falco. No Antonia di Guida. No second Falco of any kind.** The year is otherwise Cioffi, Figlio, Morgillo, Verrecchia, Rivetti, Saccone and Arricale, with four acts presented by the *levatrici* **Rosa della Selva** and **Caterina Ruggiero**.\n\n**So the 1812–1814 window for Raffaela Falco is down to 1812 and 1814** — `an_ua14409` (93 images) and `an_ua14411` (66). *Nineteen in July 1832 means born between July 1812 and July 1813, so **1812** is the one to read next, and its second half first.*\n\n**A PRACTICAL NOTE FOR THE OTHER SIX VOLUMES OF THIS DECADE.** The band is `--band 0.13 0.25 --half LR --cols 3 --width 2600`, nine images to a sheet. **At four columns the names are gone** — and a negative off an illegible sheet is worth nothing, which is the whole reason this row exists.",
+  "outcome": "found",
+  "tags": [
+   "Antenati",
+   "Births",
+   "Falco",
+   "read in full"
+  ],
+  "href": "https://antenati.cultura.gov.it/ark:/12657/an_ua14410"
  }
 ]
