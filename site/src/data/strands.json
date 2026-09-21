@@ -1,15 +1,15 @@
 {
+ "caption": "Where each of these Falco came from and where each of them went — one line and the four strands of the same surname that no record joins to it",
  "title": "One line, and four strands of the same surname that no record joins to it",
- "alt": "Where each of these Falco came from and where each of them went — one line and the four strands of the same surname that no record joins to it",
- "bands": [
+ "lanes": [
   {
    "key": "line",
-   "tint": "var(--r-italy)",
-   "title": "Out of Arienzo, by marriage",
-   "status": "DOCUMENTED · SEVEN GENERATIONS, 1767–1901",
+   "colour": "var(--r-italy)",
+   "label": "Out of Arienzo, by marriage",
+   "conf": "DOCUMENTED · SEVEN GENERATIONS, 1767–1901",
    "read": "The seven generations →",
    "href": "/families/",
-   "spine": [
+   "nodes": [
     [
      "Arienzo",
      "1767",
@@ -31,22 +31,22 @@
      "The ss SYDNEY of the Lauro Lines, Genoa to Brisbane, arrived 26 March 1964."
     ]
    ],
-   "fan": [
+   "ends": [
     [
      "Nudgee",
-     false,
+     "/families/",
      "Five Falco graves in the Catholic cemetery at Nudgee, Brisbane."
     ]
    ]
   },
   {
    "key": "paolisi",
-   "tint": "var(--terra)",
-   "title": "Out of Paolisi, into Arienzo",
-   "status": "DOCUMENTED · NOT JOINED",
+   "colour": "var(--terra)",
+   "label": "Out of Paolisi, into Arienzo",
+   "conf": "DOCUMENTED · NOT JOINED",
    "read": "Open questions →",
    "href": "/open-questions/",
-   "spine": [
+   "nodes": [
     [
      "Paolisi",
      "by 1714",
@@ -68,22 +68,22 @@
      "Domenico, baptised February 1726 — the last of them."
     ]
    ],
-   "fan": [
+   "ends": [
     [
-     "no trace after 1726",
-     true,
+     "no trace after 1726?",
+     "/open-questions/",
      "Twelve years before Matteo's generation, and nothing whatever joins it to this line. It would be a satisfying answer to where the family came from, which is exactly why it is drawn apart."
     ]
    ]
   },
   {
    "key": "sanfelice",
-   "tint": "var(--ochre)",
-   "title": "The Falco of San Felice a Cancello",
-   "status": "DOCUMENTED · NOT CLAIMED",
+   "colour": "var(--ochre)",
+   "label": "The Falco of San Felice a Cancello",
+   "conf": "DOCUMENTED · NOT CLAIMED",
    "read": "The wider family →",
    "href": "/wider-family/",
-   "spine": [
+   "nodes": [
     [
      "San Felice a Cancello",
      "1637",
@@ -100,22 +100,22 @@
      "Luigi Falco marries at Arienzo as a minor, assisted by both parents. It is the only crossing between the two towns in the Falco name."
     ]
    ],
-   "fan": [
+   "ends": [
     [
-     "Angela Rosa Morgillo, b. 1818",
-     true,
+     "Angela Rosa Morgillo, b. 1818?",
+     "/wider-family/",
      "Generation four's wife was born at San Felice a Cancello three years later, on 24 February 1818, at the Massaria delle Fosse. THE SAME TOWN IS NOT A CONNECTION. Nothing joins the soap-makers to her or to this line."
     ]
    ]
   },
   {
    "key": "gentry",
-   "tint": "var(--r-habsburg)",
-   "title": "The gentry Falco of Arienzo",
-   "status": "DOCUMENTED · NOT JOINED",
+   "colour": "var(--r-habsburg)",
+   "label": "The gentry Falco of Arienzo",
+   "conf": "DOCUMENTED · NOT JOINED",
    "read": "The registers →",
    "href": "/antenati/",
-   "spine": [
+   "nodes": [
     [
      "Arienzo",
      "by 1769",
@@ -127,22 +127,22 @@
      "«è morta nel Monastero d'AVE GRATIA PLENA, DONNA RAFFAELA DE' FALCO, d'anni SESSANTASETTE … di professione MONACA, figlia di DON FRANCESCO FALCO Defunto, di professione PROPRIETARIO»."
     ]
    ],
-   "fan": [
+   "ends": [
     [
-     "nothing after 1836",
-     true,
+     "nothing after 1836?",
+     "/antenati/",
      "A landowner and his daughter, a nun dead at sixty-seven. Ours are contadini and braccianti. Plainly a different household living elsewhere in the same town."
     ]
    ]
   },
   {
    "key": "caudina",
-   "tint": "var(--r-feudal)",
-   "title": "The Falco of the valle Caudina",
-   "status": "HARVESTED · NEVER READ · NOT CLAIMED",
+   "colour": "var(--r-feudal)",
+   "label": "The Falco of the valle Caudina",
+   "conf": "HARVESTED · NEVER READ · NOT CLAIMED",
    "read": "Open questions →",
    "href": "/open-questions/",
-   "spine": [
+   "nodes": [
     [
      "Paolisi",
      "406 rows",
@@ -154,13 +154,15 @@
      "Three hundred and ten more. Deciding whether any of these belongs to this family is a reading job on a thousand rows that has never been started."
     ]
    ],
-   "fan": [
+   "ends": [
     [
-     "no household, by decision",
-     true,
+     "no household, by decision?",
+     "/open-questions/",
      "Giving them a household would be a claim, not a promotion. They are searchable and they are unjoined, and that is the honest state of them."
     ]
    ]
   }
- ]
+ ],
+ "unplaced": [],
+ "loose": []
 }

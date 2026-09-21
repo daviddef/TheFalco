@@ -1,30 +1,29 @@
 ---
 /* Where each of these Falco came from, and where each of them went.
 
-   The figure itself is the kit's now — Defranceski draws five families
-   arriving in Istria from five directions, this archive was asked to match
-   that grammar, and Luwinski hand-rolled the same lanes for the same reason.
-   What stays here is the only part that was ever this archive's: the bands,
-   which used to be a forty-line JavaScript array in this file and are
-   src/data/strands.json now, because a list only a template can reach cannot
-   be counted, checked or added to.
+   A thin wrapper over the kit's BranchRivers, which has drawn families of one
+   surname as lanes since it was promoted out of Defranceschi. This file used
+   to be 182 lines of SVG that copied that figure BY HAND — its old comment
+   said so outright, «the same visual grammar as the de Franceschi archive's
+   strands figure, which David asked this one to match» — and the five bands
+   were a JavaScript array inside it. Both are gone: the drawing is the kit's
+   and the bands are src/data/strands.json.
 
-   WHY THIS ARCHIVE'S FIGURE IS THE OTHER WAY ROUND. The de Franceschi strands
-   are five families arriving from five directions. The Falco problem is the
-   opposite shape: ONE line that stays put for seven generations and then
-   crosses the world in a single lifetime, and FOUR other groups of the
-   surname this archive can name and cannot join to it. So the first band is
-   the line and the rest are the strands it is not.
+   WHY THIS ARCHIVE'S FIGURE IS THE OTHER WAY ROUND. The de Franceschi lanes
+   are five families arriving in Istria from five directions. The Falco
+   problem is the opposite shape: ONE line that stays put for seven
+   generations and then crosses the world in a single lifetime, and FOUR other
+   groups of the surname this archive can name and cannot join to it. So the
+   first lane is the line and the rest are the strands it is not.
 
    THE FOUR HOUSEHOLDS ON STRADA CAMELLARA ARE DELIBERATELY NOT HERE. They
    never move, and a figure about where people came from would have to invent
-   a journey for them. They are drawn on /lines, in the band that exists to
-   say «these do not connect».
+   a journey for them. They are on /lines, in the band that exists to say
+   «these do not connect».
 
    EVERY NODE IS A DOCUMENT. Nothing in this figure is inferred, and the
-   numbers in the last band are counts of harvested rows, not of people. */
-import Strands from "@daviddef/archive-kit/components/Strands.astro";
-import { u } from "../lib/url.js";
+   numbers in the last lane are counts of harvested rows, not of people. */
+import BranchRivers from "@daviddef/archive-kit/components/BranchRivers.astro";
 import data from "../data/strands.json";
 ---
-<Strands bands={data.bands} title={data.title} alt={data.alt} u={u} />
+<BranchRivers rivers={data} caption={data.caption} />
