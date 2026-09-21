@@ -7632,7 +7632,7 @@
 ]
 },
 {
-"slug": "raffaela-falco-2",
+"slug": "raffaela-falco",
 "name": "Raffaela Falco",
 "via": "tree",
 "vias": [
@@ -11348,6 +11348,13 @@
 "ark": "ANTENATI an_ua14264 img10r act8 — READ FROM THE IMAGE"
 },
 {
+"event": "named as living",
+"date": "6 Jul 1832",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*e di **ANTONINA DI GUIDA**, di professione **contadina**, domiciliata **ivi***» — unmarked and alive on 6 July 1832, at her daughter Raffaela's marriage. **The act spells her forename ANTONINA.** *This archive holds her as Antonia di Guida and does not change it on one act's flourish; the variant is recorded because a name that varies is a name that can be missed in an index — and an index is exactly where she has just failed to appear.*",
+"ark": "ANTENATI an_ua14236 img9r act8 — READ FROM THE IMAGE"
+},
+{
 "event": "baptism",
 "date": "31 Oct 1783",
 "place": "Arienzo",
@@ -11453,6 +11460,14 @@
 ]
 },
 {
+"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Matteo Falco (the second)",
 "via": "register",
@@ -11479,14 +11494,6 @@
 {
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaela-falco",
-"name": "Raffaela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -14400,6 +14407,14 @@
 ]
 },
 {
+"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Matteo Falco (the second)",
 "via": "register",
@@ -14418,14 +14433,6 @@
 {
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaela-falco",
-"name": "Raffaela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -15908,7 +15915,7 @@
 ]
 },
 {
-"slug": "raffaela-falco",
+"slug": "raffaela-falco-of-michelangelo-falco-raffaela-falco",
 "name": "Raffaela Falco",
 "via": "register",
 "vias": [
@@ -17006,7 +17013,7 @@
 ]
 },
 {
-"slug": "raffaela-falco",
+"slug": "raffaela-falco-2",
 "name": "Raffaela Falco",
 "via": "tree",
 "vias": [
@@ -17976,6 +17983,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "raffaela-falco-of-francesco-falco-raffaela-falco",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "spouses": [],
@@ -17998,7 +18013,7 @@
 ]
 },
 {
-"slug": "raffaela-falco-2",
+"slug": "raffaela-falco",
 "name": "Raffaela Falco",
 "via": "tree",
 "vias": [
@@ -19143,7 +19158,7 @@
 ]
 },
 {
-"slug": "raffaela-falco",
+"slug": "raffaela-falco-2",
 "name": "Raffaela Falco",
 "via": "tree",
 "vias": [
@@ -19302,6 +19317,14 @@
 ]
 },
 {
+"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Matteo Falco (the second)",
 "via": "register",
@@ -19332,14 +19355,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "raffaela-falco",
-"name": "Raffaela Falco",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ]
 },
@@ -19366,6 +19381,14 @@
 {
 "slug": "francescantonio-falco-of-francesco-falco-raffaela-falco",
 "name": "Francescantonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaela-falco-of-francesco-falco-raffaela-falco",
+"name": "Raffaela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -19438,7 +19461,7 @@
 ]
 },
 {
-"slug": "raffaela-falco",
+"slug": "raffaela-falco-2",
 "name": "Raffaela Falco",
 "via": "tree",
 "vias": [
@@ -20225,6 +20248,14 @@
 ]
 },
 {
+"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Matteo Falco (the second)",
 "via": "register",
@@ -20243,14 +20274,6 @@
 {
 "slug": "angela-maria-falco",
 "name": "Angela Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaela-falco",
-"name": "Raffaela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -21842,6 +21865,14 @@
 ]
 },
 {
+"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Matteo Falco (the second)",
 "via": "register",
@@ -21860,14 +21891,6 @@
 {
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaela-falco",
-"name": "Raffaela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -21994,6 +22017,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "THE «FRANCESCO FALCO» OF THIS HOUSEHOLD IS FRANCESCANTONIO FALCO, SON OF PASQUALE FALCO AND CHIARA RIVETTI. The archive has carried this household since 13 September 2026 with the note that «her husband was also a Falco, which at Arienzo is common enough to prove nothing on its own». The 1832 marriage index proves it: same bride, same parents, and the groom's parentage stated. Their three recorded children — Carmina d. 19 Dec 1832, Clemente d. 14 Aug 1853, Pasqualina d. 14 Sep 1836 — are therefore GRANDCHILDREN OF MATTEO FALCO TWICE OVER, through both of his sons",
 "ark": "ANTENATI an_ua14131 (Arienzo, Matrimonj indice 1832) img 1 atto 8 — READ FROM THE IMAGE"
+},
+{
+"event": "marriage",
+"date": "6 Jul 1832",
+"place": "Arienzo, strada Camellara",
+"evidence": "**THE ACT BEHIND THE INDEX, OPENED 22 SEPTEMBER 2026 — AND THE INDEX WAS RIGHT.** This household rested on one line of the 1832 marriage *tavola*. The act itself:\n\n«*ATTO Della solenne promessa di celebrare IL MATRIMONIO — Num. d'ordine **OTTO**. L'anno mille ottocento **trentadue**, il dì **sei** del mese di **Luglio** … avanti di Noi **FRANCESCO D'AMBROSIO Sindaco** … del Comune di **Corpo d'Arienzo**, Distretto di **Caserta** … sono comparsi nella Casa Comunale **FRANCESCANTONIO FALCO, maggiore**, di anni **ventisei**, nato in **Arienzo**, di professione **contadino**, domiciliato **ivi strada CAMELLARA**, figlio di **PASQUALE FALCO** —, di professione **contadino**, domiciliato **ivi**, e di **CHIARA RIVETTI**, di professione **contadina**, domiciliata **ivi***».\n\n**PASQUALE, and the clerk drew a dash where «defunto» would go and left it empty.** Both his parents are alive on 6 July 1832 — and this archive holds **Pasquale Falco's death on 1 October 1834**, twenty-seven months later, which agrees.\n\n**Twenty-six in July 1832 puts his birth about 1806.** The church celebration followed on **16 July**, before a **VERDICCHIO** and a **DI GUIDA** — the bride's own surname among the witnesses.\n\n**AND THIS DEEPENS WORK-LIST ROW 87 INSTEAD OF CLOSING IT.** Act 20 of the 1854 register gives a **FRANCESCO FALCO**, forty-eight — **born about 1806** — *contadino* of **strada Camellara**, son of the **fu RAFFAELE** and the **fu CHIARA RIVETTI**, **widower of a RAFFAELA FALCO**. **Everything matches except the father**, and the two filiations are each internally consistent: Pasquale is alive in 1832 and died in 1834; Raffaele was dead before February 1850. **Neither act is contradicting itself. They are contradicting each other, or they are two men.**",
+"ark": "ANTENATI an_ua14236 img9r act8 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -22001,7 +22031,16 @@
 ],
 "living": false,
 "parents": [],
-"spouses": [],
+"spouses": [
+{
+"slug": "raffaela-falco-of-francesco-falco-raffaela-falco",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "children": [
 {
 "slug": "clemente-falco-of-francesco-falco-raffaela-falco",
@@ -22068,7 +22107,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "raffaela-falco",
+"slug": "raffaela-falco-2",
 "name": "Raffaela Falco",
 "via": "tree",
 "vias": [
@@ -23169,7 +23208,7 @@
 ]
 },
 {
-"slug": "raffaela-falco",
+"slug": "raffaela-falco-2",
 "name": "Raffaela Falco",
 "via": "tree",
 "vias": [
@@ -23213,7 +23252,7 @@
 ]
 },
 {
-"slug": "raffaela-falco-2",
+"slug": "raffaela-falco",
 "name": "Raffaela Falco",
 "via": "tree",
 "vias": [
@@ -23559,6 +23598,14 @@
 ]
 },
 {
+"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Matteo Falco (the second)",
 "via": "register",
@@ -23585,14 +23632,6 @@
 {
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaela-falco",
-"name": "Raffaela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -24100,6 +24139,14 @@
 ]
 },
 {
+"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Matteo Falco (the second)",
 "via": "register",
@@ -24126,14 +24173,6 @@
 {
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaela-falco",
-"name": "Raffaela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -24245,6 +24284,14 @@
 ]
 },
 {
+"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Matteo Falco (the second)",
 "via": "register",
@@ -24271,14 +24318,6 @@
 {
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaela-falco",
-"name": "Raffaela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -24335,7 +24374,7 @@
 ]
 },
 {
-"slug": "raffaela-falco-2",
+"slug": "raffaela-falco",
 "name": "Raffaela Falco",
 "via": "tree",
 "vias": [
@@ -24487,7 +24526,7 @@
 ]
 },
 {
-"slug": "raffaela-falco",
+"slug": "raffaela-falco-2",
 "name": "Raffaela Falco",
 "via": "tree",
 "vias": [
@@ -24909,6 +24948,13 @@
 "place": "Arienzo",
 "evidence": "**ALIVE ON 14 FEBRUARY 1860 — TEN YEARS AND THREE MONTHS LATER THAN THIS ARCHIVE'S PREVIOUS LATEST SIGHTING OF HIM.** «*figlia di **GIUSEPPE FALCO**, di professione **contadino**, domiciliato **ivi***», and the clause ends there — **in the same sentence that marks his wife «defunta» eight words later**. The clerk had the word in his hand and did not use it for him.\n\n**Born about 1780, he is about eighty.** The founder's son, outliving his wife.\n\n**Work-list row 40 asked where his death is.** It is still not found — but the window has closed from *«after 26 November 1849»* to *«after 14 February 1860»*, and **the Arienzo civil death registers run out five years later, in 1865, with no Falco of his generation in them.** *The row's own answer — 1866 or later, past where Antenati stops — is now very hard to avoid.*",
 "ark": "ANTENATI an_ua14264 img10r act8 — READ FROM THE IMAGE"
+},
+{
+"event": "named as living",
+"date": "6 Jul 1832",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*figlia di **GIUSEPPE FALCO**, di professione **COLONO**, domiciliato **ivi***» — unmarked, and **consenting to a minor daughter's marriage**, which a dead man cannot do. **COLONO**, the same word his son Crescenzo's act uses in 1845.",
+"ark": "ANTENATI an_ua14236 img9r act8 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -24992,6 +25038,14 @@
 ]
 },
 {
+"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Matteo Falco (the second)",
 "via": "register",
@@ -25018,14 +25072,6 @@
 {
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaela-falco",
-"name": "Raffaela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -27269,6 +27315,14 @@
 ]
 },
 {
+"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Matteo Falco (the second)",
 "via": "register",
@@ -27295,14 +27349,6 @@
 {
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaela-falco",
-"name": "Raffaela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -27414,6 +27460,14 @@
 ]
 },
 {
+"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Matteo Falco (the second)",
 "via": "register",
@@ -27440,14 +27494,6 @@
 {
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaela-falco",
-"name": "Raffaela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -27913,6 +27959,14 @@
 {
 "slug": "francescantonio-falco-of-francesco-falco-raffaela-falco",
 "name": "Francescantonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaela-falco-of-francesco-falco-raffaela-falco",
+"name": "Raffaela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -29918,6 +29972,14 @@
 ]
 },
 {
+"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Matteo Falco (the second)",
 "via": "register",
@@ -29944,14 +30006,6 @@
 {
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaela-falco",
-"name": "Raffaela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -30064,6 +30118,14 @@
 ]
 },
 {
+"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "francesca-maria-lucia-falco",
 "name": "Francesca Maria Lucia Falco",
 "via": "register",
@@ -30082,14 +30144,6 @@
 {
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaela-falco",
-"name": "Raffaela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -30859,6 +30913,14 @@
 ]
 },
 {
+"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Matteo Falco (the second)",
 "via": "register",
@@ -30885,14 +30947,6 @@
 {
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaela-falco",
-"name": "Raffaela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -31101,7 +31155,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "raffaela-falco",
+"slug": "raffaela-falco-of-michelangelo-falco-raffaela-falco",
 "name": "Raffaela Falco",
 "via": "register",
 "vias": [
@@ -31853,7 +31907,7 @@
 ]
 },
 {
-"slug": "raffaela-falco",
+"slug": "raffaela-falco-2",
 "name": "Raffaela Falco",
 "via": "tree",
 "vias": [
@@ -32549,6 +32603,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "raffaela-falco-of-francesco-falco-raffaela-falco",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "spouses": [],
@@ -33089,6 +33151,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "raffaela-falco-of-francesco-falco-raffaela-falco",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "spouses": [],
@@ -33348,30 +33418,29 @@
 "treeId": 4000103
 },
 {
-"slug": "raffaela-falco",
+"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "surname": "FALCO",
-"household": "Michelangelo Falco & Raffaela Falco",
-"role": "mother",
+"household": "Giuseppe Falco & Antonia di Guida",
+"role": "child",
 "events": [
-{
-"event": "named in a death act",
-"date": "16 Mar 1834",
-"place": "Arienzo, strada Camellara",
-"evidence": "«*e di **RAFFAELA FALCO**, domiciliata ivi*» — named without «Defunta», so living in March 1834. **A FALCO MARRIED TO A FALCO**, and this archive had not recorded her.\n\n**She may or may not be the RAFFAELA FALCO who is married to FRANCESCO FALCO** and who buried Carmina Falco, six months old, on 19 December 1832 — fourteen months before this. **Two readings, two husbands' forenames, one wife's name.** Either there are two Raffaela Falco married to two Falco men — which this family's naming habits make entirely possible, four Maria Falco having already had to be separated — or one woman was widowed and remarried inside fourteen months. **Neither is asserted.**",
-"ark": "ANTENATI an_ua14336 img11l act16"
-},
 {
 "event": "marriage",
 "date": "16 Jul 1832",
 "place": "Arienzo",
 "evidence": "SHE MARRIED HER FIRST COUSIN. «FALCO RAFFAELA | FALCO GIUSEPPE, e GUIDA ANTONIA» married «FALCO FRANCESCANTONIO | FALCO PASQUALE, e RIVETTI CHIARA» — and GIUSEPPE AND PASQUALE FALCO WERE BROTHERS, both sons of Matteo Falco. Born about 1820, she married at about TWELVE TO FOURTEEN by that reckoning, which is young enough to doubt: her death act of 20 April 1854 gives thirty-four, so b. c.1820, and the two figures cannot both be right. THE MARRIAGE IS READ FROM THE IMAGE; HER BIRTH YEAR IS NOT. Her brother Crescenzo's marriage act carries a papal dispensation «super quarto gradu consanguinitatis», so the house was marrying cousins in this generation as a matter of course",
 "ark": "ANTENATI an_ua14131 (Arienzo, Matrimonj indice 1832) img 1 atto 8 — READ FROM THE IMAGE"
+},
+{
+"event": "marriage",
+"date": "6 Jul 1832",
+"place": "Arienzo, strada Camellara",
+"evidence": "**Arienzo, Matrimoni 1832, act 8** — read from the act on 22 September 2026, where this household had only the index line. **RAFFAELA FALCO, nineteen and a MINOR** (born about **1813**), *contadina* of **strada Camellara**, marrying **FRANCESCANTONIO FALCO**, twenty-six, of the same street — «*figlio di **PASQUALE FALCO**, contadino … e di **CHIARA RIVETTI***».\n\n**Her parents consented: she was under age**, and the act records both of them living. Church **16 July 1832**.",
+"ark": "ANTENATI an_ua14236 img9r act8 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
-"register",
-"tree"
+"register"
 ],
 "living": false,
 "parents": [
@@ -33392,82 +33461,8 @@
 ]
 }
 ],
-"spouses": [
-{
-"slug": "francesco-antonio-falco",
-"name": "Francesco Antonio Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "michelangelo-falco-of-michelangelo-falco-raffaela-falco",
-"name": "Michelangelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"children": [
-{
-"slug": "pasquale-antonio-falco",
-"name": "Pasquale Antonio Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "gioacchino-guglielmo-falco",
-"name": "Gioacchino / Guglielmo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "antonio-falco-3",
-"name": "Antonio Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "chiara-falco",
-"name": "Chiara Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "giovanni-falco-3",
-"name": "Giovanni Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "clemente-falco",
-"name": "Clemente Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "anna-falco-of-michelangelo-falco-raffaela-falco",
-"name": "Anna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
+"spouses": [],
+"children": [],
 "siblings": [
 {
 "slug": "mattheus-falco",
@@ -33565,16 +33560,134 @@
 "register"
 ]
 }
-],
-"mergedOn": "name and dates",
-"treeId": 4512397,
-"b": "1820",
-"d": "Apr 20 1854",
-"bp": "Arienzo, Caserta, Campania, Italia",
-"dp": "Arienzo, Caserta, Campania, Italia"
+]
 },
 {
-"slug": "raffaela-falco-2",
+"slug": "raffaela-falco-of-francesco-falco-raffaela-falco",
+"name": "Raffaela Falco",
+"surname": "FALCO",
+"household": "Francesco Falco & Raffaela Falco",
+"role": "mother",
+"events": [
+{
+"event": "marriage",
+"date": "6 Jul 1832",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*e **RAFFAELA FALCO, MINORE**, di anni **diciannove**, di professione **contadina**, nata in **Arienzo**, domiciliata **ivi strada CAMELLARA**, figlia di **GIUSEPPE FALCO**, di professione **COLONO**, domiciliato **ivi**, e di **ANTONINA DI GUIDA**, di professione **contadina**, domiciliata **ivi***».\n\n**Nineteen and a MINOR in July 1832** — born about **1813**. **A Falco married a Falco**, and the bride is of the **Giuseppe Falco and Antonia di Guida** house while the groom is of the **Pasquale Falco and Chiara Rivetti** house.\n\n**Her father is a COLONO here**, which is the word his son Crescenzo's marriage act uses for him in 1845 and the word the 1843 death register uses. **Her mother's forename is written «ANTONINA»**, not Antonia; this archive keeps *Antonia di Guida* and records the variant.\n\n**BOTH HER PARENTS ARE UNMARKED AND THEREFORE ALIVE ON 6 JULY 1832** — one more dated sighting in a series that now runs to **14 February 1860** for him and ends before it for her.",
+"ark": "ANTENATI an_ua14236 img9r act8 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "francescantonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Francescantonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco",
+"name": "Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmina-falco",
+"name": "Carmina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasqualina-falco",
+"name": "Pasqualina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-francesco-falco-raffaela-falco",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carmela-falco-of-francesco-falco-raffaela-falco",
+"name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-francesco-falco-raffaela-falco",
+"name": "Raffaele Falco (of Francescantonio, 1837)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
+"slug": "raffaela-falco-of-michelangelo-falco-raffaela-falco",
+"name": "Raffaela Falco",
+"surname": "FALCO",
+"household": "Michelangelo Falco & Raffaela Falco",
+"role": "mother",
+"events": [
+{
+"event": "named in a death act",
+"date": "16 Mar 1834",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*e di **RAFFAELA FALCO**, domiciliata ivi*» — named without «Defunta», so living in March 1834. **A FALCO MARRIED TO A FALCO**, and this archive had not recorded her.\n\n**She may or may not be the RAFFAELA FALCO who is married to FRANCESCO FALCO** and who buried Carmina Falco, six months old, on 19 December 1832 — fourteen months before this. **Two readings, two husbands' forenames, one wife's name.** Either there are two Raffaela Falco married to two Falco men — which this family's naming habits make entirely possible, four Maria Falco having already had to be separated — or one woman was widowed and remarried inside fourteen months. **Neither is asserted.**",
+"ark": "ANTENATI an_ua14336 img11l act16"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "michelangelo-falco-of-michelangelo-falco-raffaela-falco",
+"name": "Michelangelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "anna-falco-of-michelangelo-falco-raffaela-falco",
+"name": "Anna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
+"slug": "raffaela-falco",
 "name": "Raffaela Falco",
 "surname": "FALCO",
 "household": null,
@@ -33633,6 +33746,85 @@
 "treeId": 4512391,
 "b": "Jan 24 1880",
 "bp": "Arienzo, Caserta, Campania, Italia"
+},
+{
+"slug": "raffaela-falco-2",
+"name": "Raffaela Falco",
+"surname": "FALCO",
+"household": null,
+"role": null,
+"events": [],
+"sources": [
+"tree"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "francesco-antonio-falco",
+"name": "Francesco Antonio Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"children": [
+{
+"slug": "pasquale-antonio-falco",
+"name": "Pasquale Antonio Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "gioacchino-guglielmo-falco",
+"name": "Gioacchino / Guglielmo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "antonio-falco-3",
+"name": "Antonio Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "chiara-falco",
+"name": "Chiara Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "giovanni-falco-3",
+"name": "Giovanni Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "clemente-falco",
+"name": "Clemente Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"siblings": [],
+"treeId": 4512397,
+"b": "1820",
+"d": "Apr 20 1854",
+"bp": "Arienzo, Caserta, Campania, Italia",
+"dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "raffaela-falco-3",
@@ -33895,6 +34087,14 @@
 {
 "slug": "francescantonio-falco-of-francesco-falco-raffaela-falco",
 "name": "Francescantonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaela-falco-of-francesco-falco-raffaela-falco",
+"name": "Raffaela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -34699,7 +34899,7 @@
 ]
 },
 {
-"slug": "raffaela-falco-2",
+"slug": "raffaela-falco",
 "name": "Raffaela Falco",
 "via": "tree",
 "vias": [
