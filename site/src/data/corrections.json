@@ -2,6 +2,18 @@
  {
   "when": "2026-09-21",
   "sev": "major",
+  "where": "/families",
+  "plate": "",
+  "by": "row 43, in a volume opened to look for somebody else",
+  "what": "GENERATION FOUR HAD NO HOUSEHOLD IN THIS ARCHIVE — and its earliest child is now documented, from an act that proves an unsourced tree claim",
+  "was": "**RAFFAELE FALCO** (b. 10 May 1818) married **ANGELA ROSA MORGILLO** (b. San Felice a Cancello, 24 February 1818) in **1844**, and this archive held **no household for them**. Raffaele appeared only as a child inside his father's house, and their first documented child was **generation five's CARMINE ANTONIO FALCO, born 10 July 1850**. The family tree named a daughter **VINCENZA FALCO**, unsourced.",
+  "now": "**Act 92 of the 1847 Arienzo birth register**: «*il dì **VENTUNO** del mese di **NOVEMBRE** … è comparso **RAFFAELE FALCO, di anni TRENTA**, di professione **CONTADINO**, domiciliato **in strada CAMELLARA** … nata da **ANGELA ROSA MORGILLO sua moglie legittima, di anni VENTINOVE** … nel giorno **VENTI** del mese di **NOVEMBRE** … **alle ore VENTUNO, nella casa sua propria** … il nome di **VINCENZA***». The parish notice, returned the same day, names her «**VINCENZA FALCO**».\n\n**The household «Raffaele Falco & Angela Rosa Morgillo» now exists**, with Vincenza as its earliest child — **two years and eight months older than generation five**.",
+  "how": "The 1847 birth register was read end to end at the **parents band** while hunting a child of a different household for work-list row 43.",
+  "why": "**A TREE ASSERTION BECAME A DOCUMENT.** This archive marks everything from the family tree «*unverified unless a document says so*». **Here is the document**, and it agrees with the tree on the name, the father and the mother.\n\n**And both stated ages are exact** — thirty against a birth of 10 May 1818, twenty-nine against 24 February 1818 — **in an office this archive has repeatedly shown guessing ages by five years**. Two exact readings in one act is rare enough to be worth saying.\n\n**She is named for her paternal grandfather, VINCENZO FALCO**, who was living on the same street.\n\n**THREE WOMEN OF THIS NAME, AND ONLY THIS ONE IS DOCUMENTED FROM HER OWN BIRTH.** A **VINCENZA FALCO, one day old**, died on strada Camellara in 1820; a **VINCENZA FALCO «fu Matteo»** is the wife of **CARMINE MORGILLO** in the 1870s extracts. *This town keeps proving that a name identifies nobody.*\n\n**The find is a by-product.** The volume was opened for **GIUSEPPE FALCO**, a child of Crescenzo Falco — **who is not in it**. *Reading a year out for one household is how the archive finds the others.*"
+ },
+ {
+  "when": "2026-09-21",
+  "sev": "major",
   "where": "/households",
   "plate": "",
   "by": "row 43 — and the archive's own notes had two of these children for days",
