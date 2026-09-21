@@ -30,19 +30,30 @@ const groups = ORDER.map((g) => ({
   rows: sources.filter((s) => s.g === g).map((s) => ({
     id: slug(s.t),
     title: s.t,
-    // No URL is invented here. Twenty-six sources, not one of them reachable —
-    // that is this archive's gap to close in the data, not the page's to fake.
+    // Every url in the data was verified to resolve to the title this archive
+    // already gives the source, or uses a scheme this archive's own data
+    // already relies on. Two sources are paper held by the family and say so
+    // in `held`; two carry no url because no candidate could be verified, and
+    // an unverified link is worse on a sources page than none.
+    url: s.url,
+    held: s.held,
     what: s.d,
     cites: cites(s.id),
     carries: "<strong>What it established:</strong> " + s.use,
+    note: s.note,
   })),
 }));
 
-const unreachable = sources.filter((s) => !s.url).length;
+const reachable = sources.filter((s) => s.url).length;
+const held = sources.filter((s) => !s.url && s.held).length;
 ---
 <Base title="Sources">
   <p class="lede">What has been read, where it is, and what it actually established. {sources.length} sources
   across four countries' worth of record-keeping, and the repository files that carry every citation.</p>
+  <p class="small">Of the {sources.length}, <strong>{reachable}</strong> link to the thing
+  itself, <strong>{held}</strong> are paper held by the family and say where, and
+  <strong>{sources.length - reachable - held}</strong> carry no link because no candidate
+  could be verified — an unverified link on a sources page is worse than none.</p>
 
   <Sources groups={groups} u={u} />
 
