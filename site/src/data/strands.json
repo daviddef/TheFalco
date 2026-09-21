@@ -1,0 +1,166 @@
+{
+ "title": "One line, and four strands of the same surname that no record joins to it",
+ "alt": "Where each of these Falco came from and where each of them went — one line and the four strands of the same surname that no record joins to it",
+ "bands": [
+  {
+   "key": "line",
+   "tint": "var(--r-italy)",
+   "title": "Out of Arienzo, by marriage",
+   "status": "DOCUMENTED · SEVEN GENERATIONS, 1767–1901",
+   "read": "The seven generations →",
+   "href": "/families/",
+   "spine": [
+    [
+     "Arienzo",
+     "1767",
+     "Seven generations, most of them on one street — strada Camellara."
+    ],
+    [
+     "Forchia",
+     "1930",
+     "Generation eight was born here because generation seven married an Annecchino of Forchia. A marriage moved a family that had not moved in seven generations."
+    ],
+    [
+     "Benevento",
+     "1955",
+     "Where Carmine Falco married Francesca Zampiello of Arpaia."
+    ],
+    [
+     "Brisbane",
+     "1964",
+     "The ss SYDNEY of the Lauro Lines, Genoa to Brisbane, arrived 26 March 1964."
+    ]
+   ],
+   "fan": [
+    [
+     "Nudgee",
+     false,
+     "Five Falco graves in the Catholic cemetery at Nudgee, Brisbane."
+    ]
+   ]
+  },
+  {
+   "key": "paolisi",
+   "tint": "var(--terra)",
+   "title": "Out of Paolisi, into Arienzo",
+   "status": "DOCUMENTED · NOT JOINED",
+   "read": "Open questions →",
+   "href": "/open-questions/",
+   "spine": [
+    [
+     "Paolisi",
+     "by 1714",
+     "«infanti nato ex FRANCISCO FALCO CASALIS PAULISII» — the baptism states his origin outright. It is the earliest Arienzo Falco household with a stated place of origin."
+    ],
+    [
+     "Arienzo",
+     "1714",
+     "Giuseppe, baptised at Sant'Andrea in July 1714."
+    ],
+    [
+     "Arienzo",
+     "1717",
+     "A son whose given name will not read as either Matteo or Martino."
+    ],
+    [
+     "Arienzo",
+     "1726",
+     "Domenico, baptised February 1726 — the last of them."
+    ]
+   ],
+   "fan": [
+    [
+     "no trace after 1726",
+     true,
+     "Twelve years before Matteo's generation, and nothing whatever joins it to this line. It would be a satisfying answer to where the family came from, which is exactly why it is drawn apart."
+    ]
+   ]
+  },
+  {
+   "key": "sanfelice",
+   "tint": "var(--ochre)",
+   "title": "The Falco of San Felice a Cancello",
+   "status": "DOCUMENTED · NOT CLAIMED",
+   "read": "The wider family →",
+   "href": "/wider-family/",
+   "spine": [
+    [
+     "San Felice a Cancello",
+     "1637",
+     "«ho battezzato la figlia di TOMASO FALCO e MARTA MARA coniugi … e li ho imposto nome LUCRETIA» — written in Italian, not Latin. The earliest Falco entry this archive holds anywhere."
+    ],
+    [
+     "San Felice a Cancello",
+     "1815",
+     "SEBASTIANO FALCO and his son LUIGI, eighteen, both SAPUNARO — soap-makers — of strada Croce di San Felice, with COLOMBA MONTEFUSCO, fifty-five, filatrice."
+    ],
+    [
+     "Arienzo",
+     "1815",
+     "Luigi Falco marries at Arienzo as a minor, assisted by both parents. It is the only crossing between the two towns in the Falco name."
+    ]
+   ],
+   "fan": [
+    [
+     "Angela Rosa Morgillo, b. 1818",
+     true,
+     "Generation four's wife was born at San Felice a Cancello three years later, on 24 February 1818, at the Massaria delle Fosse. THE SAME TOWN IS NOT A CONNECTION. Nothing joins the soap-makers to her or to this line."
+    ]
+   ]
+  },
+  {
+   "key": "gentry",
+   "tint": "var(--r-habsburg)",
+   "title": "The gentry Falco of Arienzo",
+   "status": "DOCUMENTED · NOT JOINED",
+   "read": "The registers →",
+   "href": "/antenati/",
+   "spine": [
+    [
+     "Arienzo",
+     "by 1769",
+     "DON FRANCESCO FALCO, PROPRIETARIO, and DONNA MADDALENA SICILIANO — her name read from the image on 20 September 2026 and new to this archive."
+    ],
+    [
+     "Ave Gratia Plena",
+     "1836",
+     "«è morta nel Monastero d'AVE GRATIA PLENA, DONNA RAFFAELA DE' FALCO, d'anni SESSANTASETTE … di professione MONACA, figlia di DON FRANCESCO FALCO Defunto, di professione PROPRIETARIO»."
+    ]
+   ],
+   "fan": [
+    [
+     "nothing after 1836",
+     true,
+     "A landowner and his daughter, a nun dead at sixty-seven. Ours are contadini and braccianti. Plainly a different household living elsewhere in the same town."
+    ]
+   ]
+  },
+  {
+   "key": "caudina",
+   "tint": "var(--r-feudal)",
+   "title": "The Falco of the valle Caudina",
+   "status": "HARVESTED · NEVER READ · NOT CLAIMED",
+   "read": "Open questions →",
+   "href": "/open-questions/",
+   "spine": [
+    [
+     "Paolisi",
+     "406 rows",
+     "Four hundred and six Falco harvested from the Paolisi registers. All of them reach the register and the search index; not one of them is claimed as kin."
+    ],
+    [
+     "Moiano",
+     "310 rows",
+     "Three hundred and ten more. Deciding whether any of these belongs to this family is a reading job on a thousand rows that has never been started."
+    ]
+   ],
+   "fan": [
+    [
+     "no household, by decision",
+     true,
+     "Giving them a household would be a claim, not a promotion. They are searchable and they are unjoined, and that is the honest state of them."
+    ]
+   ]
+  }
+ ]
+}
