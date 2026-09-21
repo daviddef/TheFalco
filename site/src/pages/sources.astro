@@ -1,27 +1,35 @@
 ---
 import Base from "../layouts/Base.astro";
+import Sources from "@daviddef/archive-kit/components/Sources.astro";
 import { u } from "../lib/url.js";
 const REPO = "https://github.com/daviddef/TheFalco";
 import sources from "../data/sources.json";
-const groups = [...new Set(sources.map(s => s.g))];
+
+// 21 September 2026. The rendering moved to the kit — every archive in the
+// estate had built its own sources page and no two shared a line. What did NOT
+// move is the grouping: `g` sorts these by record type and country, which is
+// this archive's argument and not Blazevic's (evidential weight) or
+// Defranceski's (format). The component takes the groups as handed to it.
+//
+// First-appearance order, not alphabetical: the data file is written in the
+// order this archive would want them read, parish registers first.
+const ORDER = [...new Set(sources.map((s) => s.g))];
+
+const groups = ORDER.map((g) => ({
+  label: g,
+  rows: sources.filter((s) => s.g === g).map((s) => ({
+    title: s.t,
+    what: s.d,
+    cite: s.id !== "\u2014" ? s.id : null,
+    carries: "<strong>What it established:</strong> " + s.use,
+  })),
+}));
 ---
 <Base title="Sources">
-  <p class="lede">What has been read, where it is, and what it actually established. Fifteen sources
+  <p class="lede">What has been read, where it is, and what it actually established. {sources.length} sources
   across four countries' worth of record-keeping, and the repository files that carry every citation.</p>
 
-  {groups.map(g => (
-    <section>
-      <h2>{g}</h2>
-      {sources.filter(s => s.g === g).map(s => (
-        <div class="card" style="margin:.9rem 0">
-          <h3 style="margin-bottom:.35rem">{s.t}</h3>
-          <p style="margin:.2rem 0 .5rem">{s.d}</p>
-          {s.id !== "—" ? <p class="small mono" style="margin:.2rem 0">{s.id}</p> : null}
-          <p class="small" style="margin:.35rem 0 0"><strong>What it established:</strong> {s.use}</p>
-        </div>
-      ))}
-    </section>
-  ))}
+  <Sources groups={groups} />
 
   <h2>The underlying files</h2>
   <p>Every claim on this site resolves to a row in one of three files. They are plain tab-separated
