@@ -19,10 +19,10 @@
     "check:corrections": "python3 ../tools/check_corrections.py",
     "check:evidence": "python3 ../tools/check_person_evidence.py",
     "check:templates": "python3 node_modules/@daviddef/archive-kit/kit/tools/checktemplates.py --root .",
-    "check:sources": "python3 node_modules/@daviddef/archive-kit/kit/tools/checksources.py --root . --max-unreachable 26"
+    "check:sources": "python3 node_modules/@daviddef/archive-kit/kit/tools/checksources.py --root . --max-unreachable 2"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#c6616e3",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#83dd394",
     "astro": "^5.18.2"
   },
   "devDependencies": {
