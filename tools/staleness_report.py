@@ -67,7 +67,16 @@ for r in load("searched.json"):
                  (r.get("src") or "")[:78], r.get("outcome", "?")))
 
 # --- what the open work list still asks for ----------------------------------
-STILL = re.compile(r"(still to try|still to read|remains?|what remains|not read|never (?:been )?(?:read|opened)|"
+# THE TRIGGER WORDS ARE THE WHOLE TOOL, AND THEY WERE TOO NARROW.
+# On 21 September 2026 row 85 listed «Still owed a second band: 1820-1823, 1829,
+# 1831, 1832, 1833, 1837, 1838» and this report matched NONE of it, because
+# «still owed» was not in the list and «remaining» is not «remains» — `remains?`
+# is followed by \b, which «remaining» fails on its own «i». The coverage page
+# already said 1831 had been read at BOTH bands, and a hundred images were swept
+# again for nothing. A missing trigger word is indistinguishable from a clean
+# report, which is the direction this tool must not fail in.
+STILL = re.compile(r"(still to try|still to read|still owed|still owes|owed a |yet to |outstanding|"
+                   r"remains?|remaining|what remains|not read|never (?:been )?(?:read|opened)|"
                    r"to read|unread|next)\b[^.\n]{0,400}", re.I)
 wl = load("worklist.json")
 rows = wl["rows"] if isinstance(wl, dict) and "rows" in wl else wl
