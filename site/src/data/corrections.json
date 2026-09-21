@@ -1,6 +1,18 @@
 [
  {
   "when": "2026-09-21",
+  "sev": "minor",
+  "where": "/households",
+  "plate": "",
+  "by": "rows 35 and 86, reading a volume that had only ever been indexed",
+  "what": "Maddalena Falco's birth is ACT 57, not act 52 — the number came from the index and the index was misread",
+  "was": "**MADDALENA FALCO (the second), born 4 May 1827**, stood here on the authority of the 1827 *tavola alfabetica* alone, with the note «*the act itself (atto 52) has not been read*» and **no street at all**.",
+  "now": "**ACT 57**, read from the image. The heading says **«Num. d'ordine CINQUANTASETTE»** in both of its columns, and the acts on the leaves either side are **56** and **58**. The act adds what the index could not: the birth is on **strada CAMELLARA**, at **eleven in the morning**, «*nella casa d'abitazione di detti conjugi*»; her father is **GIUSEPPE FALCO, forty-five, COLONO** and her mother **ANTONIA DI GUIDO, forty**; the witnesses are **GENNARO LETTIERI, thirty-two, of strada Costa**, and **RAFFAELE COSSI**.",
+  "how": "The 1827 birth register was read end to end at both bands for the first time, and the act was opened at the image the act-number sweep pointed to.",
+  "why": "**The index is not the act, and this archive has now been caught by that twice in one week.** A *tavola* is contemporaneous and in the registrar's hand, which is why it is trusted for a name and a date — but its act numbers are copied, and a copied numeral is exactly the sort of thing that goes wrong.\n\n**The row said so itself.** It carried «*the act itself (atto 52) has not been read*», which is the honest hedge working as intended: the claim was labelled, and reading it cost one leaf. **What the hedge could not prevent was the number being cited as though it were read.**\n\n**And a volume that has only been indexed is not a volume that has been read.** The 1827 register had never been opened at all before today; the 1826 register had been opened at one page. Between them they gave **three findings the index could never have produced**, because a tavola indexes the CHILD's surname and this family's Falco women are indexed under their husbands'."
+ },
+ {
+  "when": "2026-09-21",
   "sev": "major",
   "where": "/searched",
   "plate": "",
