@@ -77,6 +77,7 @@ for r in load("searched.json"):
 # report, which is the direction this tool must not fail in.
 STILL = re.compile(r"(still to try|still to read|still owed|still owes|owed a |yet to |outstanding|"
                    r"remains?|remaining|what remains|not read|never (?:been )?(?:read|opened)|"
+                   r"next:|next is|next up|to be read|awaiting|"
                    r"to read|unread|next)\b[^.\n]{0,400}", re.I)
 wl = load("worklist.json")
 rows = wl["rows"] if isinstance(wl, dict) and "rows" in wl else wl

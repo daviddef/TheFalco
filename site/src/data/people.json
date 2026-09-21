@@ -4471,6 +4471,30 @@
 "siblings": []
 },
 {
+"slug": "marta-le-casaro",
+"name": "Marta le Casaro",
+"surname": "CASARO",
+"household": "Gennaro Morgillo & Maria Felicia Sansone",
+"role": "grandmother",
+"events": [
+{
+"event": "named as dead",
+"date": "10 Jan 1838",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*e di **MARTA LE CASARO defunta**, domiciliata ivi*» — Maria Felice Sansone's mother, dead before January 1838. **The particle will not settle between «le'» and «lo»**, and the certified copy made of this act in November 1844 writes the surname differently again, «**LE CESA=/RE**», across a line break. **The register is preferred and the copy's spelling is recorded beside it**, because a copyist drifting is exactly how a surname acquires a second life.",
+"ark": "ANTENATI an_ua14340 img3r atto3 — READ FROM THE IMAGE at 3,200 px + ANTENATI an_ua14190 (Arienzo processetti 1845) bundle 3, img 33"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
 "slug": "letizia-casolla-casella",
 "name": "Letizia Casolla / Casella (Falcone)",
 "surname": "CASOLLA / CASELLA",
@@ -19716,6 +19740,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "«*e da esso **CRESCENZO FALCO, di anni VENTOTTO**, di professione **CONTADINO**, domiciliato **strada CAMELLARA***» — **twenty-eight in June 1848 gives b. c.1820, and he was born 11 October 1819.** Right to the year. **And the street holds**: Camellara in November 1845, Camellara here, Camellara in both his sons' death acts. *Only his marriage act of February 1845 puts him on strada Sant'Andrea.*",
 "ark": "ANTENATI an_ua14445 (Arienzo, Nati 1848) atto 42, foglio 43, img 43r-44l (duplicated at 45l) — READ FROM THE IMAGE"
+},
+{
+"event": "marriage",
+"date": "2 Feb 1845",
+"place": "Arienzo, strada Sant'Andrea",
+"evidence": "**THE PROMISE, READ FROM THE DOSSIER'S OWN COPY.** «*ESTRATTO DELLA SOLENNE PROMESSA DI CELEBRARE IL MATRIMONIO — Numero d'ordine **TRE**. L'anno milleottocento **quarantacinque**, il giorno **due** del mese di **Febbrajo**, alle ore **ventuno**, avanti di noi **Domenico Finelli Sindaco** … del Comune d'**Arienzo**, Distretto di **Caserta** … sono comparsi nella casa comunale **CRESCENZO FALCO, maggiore**, di anni **venticinque**, nato in **Arienzo**, di professione **COLONO**, domiciliato in **strada SANT'ANDREA**, figlio di **GIUSEPPE FALCO**, di professione **simile**, domiciliato ivi, e di **ANTONIA DI GUIDA**, di professione **contadina**, domiciliata ivi*».\n\n**BOTH HIS PARENTS ARE ALIVE AND THE ACT SAYS SO BY SAYING NOTHING** — it marks the bride's father and mother «*defunto*» and «*defunta*» four lines below and marks neither of his. **Antonia di Guida alive on 2 February 1845** is a date this archive already held; **Giuseppe Falco a COLONO** is new, and it matches the man who declared Gennaro Morgillo's death on strada Camellara eighteen months earlier, «*di professione colono*».\n\n**Twenty-five in February 1845** puts his birth about 1820. **The banns were posted on the door of the Casa Comunale on Sunday 24 November 1844** and the dossier was assembled that month; the marriage waited ten weeks.",
+"ark": "ANTENATI an_ua14190 (Arienzo processetti 1845) bundle 3, imgs 27-39"
 },
 {
 "event": "marriage",
@@ -40562,8 +40593,29 @@
 "event": "marriage",
 "date": "2 Feb 1845",
 "place": "Arienzo, strada Cappuccini",
+"evidence": "«*e **ANGELA MARIA MORGILLO, maggiore**, di anni **VENTIDUE**, nata in **Arienzo**, di professione **contadina**, domiciliata in **strada CAPPUCCINI**, figlia di **GENNARO MORGILLO defunto**, di professione **colono**, domiciliato ivi, e di **MARIA FELICE SANSONE**, di professione **contadina**, domiciliata ivi **defunta***».\n\n**The dossier's copy says twenty-two; the register's own act 3 says twenty-three.** Her birth act of 2 August 1822 says the copy is right. **An orphan of both parents at twenty-two**, which is why the dossier had to carry both their death acts and why row 73 could be answered at all.",
+"ark": "ANTENATI an_ua14190 (Arienzo processetti 1845) bundle 3, imgs 27-39"
+},
+{
+"event": "birth",
+"date": "2 Aug 1822",
+"place": "Arienzo, strada Vallone",
+"evidence": "**Arienzo, Nati 1822, act 66** — born at seventeen hours in her father's house on **strada Vallone**, presented by **GENNARO MORGILLO**, thirty-six, *massaro di campagna*, and baptised at **Sant'Andrea Apostolo** the same day. Her mother **MARIA FELICE SAN=/SONE**, thirty-four. **Read from the register, not from the certified copy in her marriage dossier.**",
+"ark": "ANTENATI an_ua14419 img68r-69l act66 — READ FROM THE IMAGE"
+},
+{
+"event": "marriage",
+"date": "2 Feb 1845",
+"place": "Arienzo, strada Cappuccini",
 "evidence": "Twenty-three, contadina, born in Arienzo, and an orphan of both parents when she married **CRESCENZO FALCO**. The church act carries a dispensation «*super quarto gradu consanguinitatis*», so she and her husband were third cousins — the fourth Falco marriage inside the fourth degree this archive holds.",
 "ark": "ANTENATI an_ua14249 img4r act3"
+},
+{
+"event": "birth",
+"date": "2 Aug 1822",
+"place": "Arienzo, strada Vallone",
+"evidence": "**HER BIRTH ACT, FOUND AND READ — AND IT MAKES HER A YEAR YOUNGER THAN HER OWN MARRIAGE DOES.** The 1845 dossier carries a certified copy of it as document 2; **the register was then opened at the act it names**, because a copy is not a record.\n\n**Arienzo, Nati 1822, act 66**, images 68 right and 69 left: «*L'Anno mille ottocento **ventidue**, il dì **due** del mese di **Agosto**, ad ore **ventuno**, avanti di Noi **VINCENZO MORGILLO Sindaco** ed Ufiziale dello Stato Civile del Comune di **Corpo d'Arienzo**, Distretto di **Nola** … è comparso **GENNARO MORGILLO**, di anni **trentasei**, di professione **MASSARO DI CAMPAGNA**, domiciliato in questo Comune, **strada VALLONE**, quale ci ha presentato una **femina** … che la stessa è nata da **MARIA FELICE SAN=/SONE sua moglie legittima**, di anni **trentaquattro** … nel giorno **due** del mese di **Agosto** anno corrente, alle ore **diciassette**, nella sua propria di abitazione*». The *indicazione*: baptised at **Sant'Andrea Apostolo** the same day, «*il Sacramento del Battesimo è stato amministrato ad **ANGELA MARIA MORGILLO***».\n\n**SHE WAS TWENTY-TWO WHEN SHE MARRIED, NOT TWENTY-THREE.** Born 2 August 1822, she was twenty-two and six months on 2 February 1845. **The certified copy of the promise in the dossier says «di anni VENTIDUE» and the register's own act 3 says «VENTITRE».** The birth act decides between them, and it decides for the copy. *Nothing turns on the year; it is recorded because this archive has twice found a clerk's age to be a guess and here it can watch one being made.*\n\n**Her father is a MASSARO DI CAMPAGNA here and a COLONO in 1843 and 1845** — a man who kept a farm and ended a labourer on it, or two words for the same work. **The street changes too**: strada Vallone in 1822, strada Cappuccini by 1845.",
+"ark": "ANTENATI an_ua14419 img68r-69l act66 — READ FROM THE IMAGE + ANTENATI an_ua14190 (Arienzo processetti 1845) bundle 3, imgs 27-39"
 }
 ],
 "sources": [
@@ -41182,15 +41234,22 @@
 "event": "death window",
 "date": "before 2 Feb 1845",
 "place": "Arienzo",
-"evidence": "NAMED ONLY BY HIS DAUGHTER'S MARRIAGE, and already dead when it happened: «*figlia di **GENNARO MORGILLO DEFUNTO**, di professione **colono***». Not claimed as kin — recorded because the Falco married the Morgillo repeatedly and this archive cannot yet tell those Morgillo houses apart.\n\n**A CANDIDATE FOR HIS DEATH ACT, FOUND ON 20 SEPTEMBER 2026 IN THE ARCHIVE'S OWN FILES.** Arienzo Morti 1843, act 33 — `an_ua14345` img24R — records **GENNARO MORGILLO, fifty-three, COLONO of strada Camellara, «vedovo di Felicia S___», son of ANGELO MORGILLO defunto, colono**, dead **4 August 1843**. That is eighteen months before this marriage, it agrees on the trade, on the wife's forename and on her being dead first, and the bride's **strada Cappuccini** is the hill where that Angelo Morgillo's house stood. **It is graded PROBABLE and no more**, because Morgillo is the commonest surname in these registers. **AND THE WIFE'S SURNAME NOW AGREES TOO.** The 1843 word was published as «Sompone» and read on 20 September as **«Sanſone»** — SANSONE — against a control on the same street: Arienzo Morti 1826 act 22, declared by **ANGELO SANSONE** of strada Camellara, whose surname is written in the same hand-shape, long ſ and all. **What this archive had taken for a «p» is a long s.** So the mother named here is the woman named there. **The 1845 processetto would settle it in one line**, by quoting the death act's number.",
-"ark": "ANTENATI an_ua14249 img4r act3"
+"evidence": "NAMED ONLY BY HIS DAUGHTER'S MARRIAGE, and already dead when it happened: «*figlia di **GENNARO MORGILLO DEFUNTO**, di professione **colono***». Not claimed as kin — recorded because the Falco married the Morgillo repeatedly and this archive cannot yet tell those Morgillo houses apart.\n\n**A CANDIDATE FOR HIS DEATH ACT, FOUND ON 20 SEPTEMBER 2026 IN THE ARCHIVE'S OWN FILES.** Arienzo Morti 1843, act 33 — `an_ua14345` img24R — records **GENNARO MORGILLO, fifty-three, COLONO of strada Camellara, «vedovo di Felicia S___», son of ANGELO MORGILLO defunto, colono**, dead **4 August 1843**. That is eighteen months before this marriage, it agrees on the trade, on the wife's forename and on her being dead first, and the bride's **strada Cappuccini** is the hill where that Angelo Morgillo's house stood. **It is graded PROBABLE and no more**, because Morgillo is the commonest surname in these registers. **AND THE WIFE'S SURNAME NOW AGREES TOO.** The 1843 word was published as «Sompone» and read on 20 September as **«Sanſone»** — SANSONE — against a control on the same street: Arienzo Morti 1826 act 22, declared by **ANGELO SANSONE** of strada Camellara, whose surname is written in the same hand-shape, long ſ and all. **What this archive had taken for a «p» is a long s.** So the mother named here is the woman named there. **The 1845 processetto would settle it in one line**, by quoting the death act's number.\n\n---\n\n**PROVED, 21 SEPTEMBER 2026 — AND THE PROCESSETTO DID EXACTLY WHAT THIS ENTRY SAID IT WOULD.** The last line above reads «*The 1845 processetto would settle it in one line, by quoting the death act's number*». **It quotes the act itself.** Bundle 3 of `an_ua14190` — the Arienzo *processetti* for 1845, on Antenati and free — holds, twice over on images 31 and 32, a certified copy headed «*MUNICIPALITÀ DI **ARIENZO** — **Estratto di Morte del 1843** — Num. d'ordine **TRENTATRE***», ending «*Valga per uso di **matrimonio**. Rilasciato in Arienzo il dì **ventidue** del mese di **Novembre** … **1844***», signed by the Sindaco and by the Cancelliere Archivario **FELICE MORGILLO**.\n\n**ACT 33 OF 1843 IS THE ACT THIS MARRIAGE WAS BUILT ON.** The grade moves from *probable* to **proved**: the man who died a widower on **strada Camellara on 4 August 1843**, son of the late **ANGELO MORGILLO**, colono of the Monticello de' Cappuccini, **is Angela Maria Morgillo's father**, and the Falco of strada Camellara are joined to the Morgillo of the hill by a document instead of by four agreeing details.",
+"ark": "ANTENATI an_ua14249 img4r act3 + ANTENATI an_ua14190 (Arienzo processetti 1845) bundle 3, imgs 27-39"
+},
+{
+"event": "named as declarant",
+"date": "2 Aug 1822",
+"place": "Arienzo, strada Vallone",
+"evidence": "«*è comparso **GENNARO MORGILLO**, di anni **trentasei**, di professione **MASSARO DI CAMPAGNA**, domiciliato in questo Comune, **strada VALLONE***» — presenting his own daughter, in his own house, at seventeen hours. **Thirty-six in August 1822** puts his birth about 1786; his death act of 1843 makes him fifty-three, which is 1790. **The archive's own 1817 birth register notes carry a GENNARO MORGILLO, thirty-four, «massaro di campagna»** — the same trade, and an age that fits 1783. *Three ages, three years, one trade. Not merged.*",
+"ark": "ANTENATI an_ua14419 img68r-69l act66 — READ FROM THE IMAGE"
 },
 {
 "event": "death",
 "date": "4 Aug 1843",
 "place": "Arienzo, strada Camellara",
-"evidence": "«GENNARO MORGILLO, vedovo di Felicia SANSONE, nato in Arienzo, di anni cinquantatré, di professione COLONO, domiciliato STRADA CAMELLARA, figlio di ANGELO MORGILLO defunto, di professione COLONO» — born about 1790. A THIRD SON of the colono Angelo, and the one who left the hill: he lived on strada Camellara, the Falco street. HIS DEATH WAS DECLARED BY GIUSEPPE FALCO, colono of the same street. (Dated 14 August here until 20 September 2026; the act reads «il dì quattro del mese di Agosto», and the acts either side of it are 3 August and 10 August.)\n\n**THIS ARCHIVE SAID, UNTIL 20 SEPTEMBER 2026, THAT THE ACT WAS «THE CLOSEST THE RECORD COMES TO THE FALCO-MORGILLO MARRIAGE THAT WAS STILL THIRTY YEARS AWAY». THAT WAS WRONG BY TWENTY-EIGHT YEARS, AND THE ARCHIVE'S OWN FILES SAID SO.** Eighteen months after this act, on **2 February 1845**, **CRESCENZO FALCO** — Giuseppe's son, of this same strada Camellara — married **ANGELA MARIA MORGILLO**, twenty-three, of **strada Cappuccini**, «*figlia di GENNARO MORGILLO DEFUNTO, di professione colono, e di MARIA FELICIA SANSONE … defunta*».\n\n**PROBABLE, NOT PROVEN: the Gennaro Morgillo who died here is very likely her father.** Four things agree — the forename and surname; the trade, *colono*, in both acts; the wife, a **Felicia** already dead when he died a widower in 1843 and «defunta» in 1845; and the street, since the bride lived on **strada Cappuccini** and this Gennaro's father Angelo was the colono of the **Monticello de' Cappuccini**, the hill that street climbs. **And the wife's surname, which could not be read on 20 September, was read the same day.** The word in the 1843 act is **«Sanſone»** — SANSONE — with the long ſ that this archive published as a «p» when it wrote «Sompone». The control is in the next volume it checked: Arienzo Morti 1826 act 22 is declared by **ANGELO SANSONE** of this same strada Camellara, and the two words are the same shape, letter for letter. **So the 1845 act's MARIA FELICIA SANSONE and the 1843 act's FELICIA SANSONE are one name**, s and z being interchangeable in these registers.\n\n**Five things now agree, and one of them is a whole second name.** What is still missing is a document that says so. Morgillo is the commonest surname on these pages and this archive already holds two distinct Angelo Morgillo. **What would settle it is the marriage's own dossier**: the *processetto* for Arienzo 1845 must contain Gennaro Morgillo's death certificate, and that certificate will carry an act number. If it is 33 of 1843, this is him.",
-"ark": "ANTENATI an_ua14345 img24r atto33"
+"evidence": "«GENNARO MORGILLO, vedovo di Felicia SANSONE, nato in Arienzo, di anni cinquantatré, di professione COLONO, domiciliato STRADA CAMELLARA, figlio di ANGELO MORGILLO defunto, di professione COLONO» — born about 1790. A THIRD SON of the colono Angelo, and the one who left the hill: he lived on strada Camellara, the Falco street. HIS DEATH WAS DECLARED BY GIUSEPPE FALCO, colono of the same street. (Dated 14 August here until 20 September 2026; the act reads «il dì quattro del mese di Agosto», and the acts either side of it are 3 August and 10 August.)\n\n**THIS ARCHIVE SAID, UNTIL 20 SEPTEMBER 2026, THAT THE ACT WAS «THE CLOSEST THE RECORD COMES TO THE FALCO-MORGILLO MARRIAGE THAT WAS STILL THIRTY YEARS AWAY». THAT WAS WRONG BY TWENTY-EIGHT YEARS, AND THE ARCHIVE'S OWN FILES SAID SO.** Eighteen months after this act, on **2 February 1845**, **CRESCENZO FALCO** — Giuseppe's son, of this same strada Camellara — married **ANGELA MARIA MORGILLO**, twenty-three, of **strada Cappuccini**, «*figlia di GENNARO MORGILLO DEFUNTO, di professione colono, e di MARIA FELICIA SANSONE … defunta*».\n\n**PROBABLE, NOT PROVEN: the Gennaro Morgillo who died here is very likely her father.** Four things agree — the forename and surname; the trade, *colono*, in both acts; the wife, a **Felicia** already dead when he died a widower in 1843 and «defunta» in 1845; and the street, since the bride lived on **strada Cappuccini** and this Gennaro's father Angelo was the colono of the **Monticello de' Cappuccini**, the hill that street climbs. **And the wife's surname, which could not be read on 20 September, was read the same day.** The word in the 1843 act is **«Sanſone»** — SANSONE — with the long ſ that this archive published as a «p» when it wrote «Sompone». The control is in the next volume it checked: Arienzo Morti 1826 act 22 is declared by **ANGELO SANSONE** of this same strada Camellara, and the two words are the same shape, letter for letter. **So the 1845 act's MARIA FELICIA SANSONE and the 1843 act's FELICIA SANSONE are one name**, s and z being interchangeable in these registers.\n\n**Five things now agree, and one of them is a whole second name.** What is still missing is a document that says so. Morgillo is the commonest surname on these pages and this archive already holds two distinct Angelo Morgillo. **What would settle it is the marriage's own dossier**: the *processetto* for Arienzo 1845 must contain Gennaro Morgillo's death certificate, and that certificate will carry an act number. If it is 33 of 1843, this is him.\n\n---\n\n**RE-READ AT 3,200 PIXELS, 21 SEPTEMBER 2026, AND FOUR THINGS IN THE SWEEP'S ROW WERE WRONG.**\n\n**The act is of 4 AUGUST, not 14 August** — «*nel giorno **quattro** del mese di **Agosto** anno corrente, alle ore **diciassette***».\n\n**Giuseppe Falco is «di anni CINQUANTOTTO», not fifty-five.** That removes a puzzle this archive recorded about a man who was «56 in May and 55 in August».\n\n**The second declarant is NOT a Cioffi.** «*e **GIOVANNI CRIS[P/C]I**, di anni **quarantotto**, di professione **contadino**, regnicolo, domiciliato in **strada Camellara***» — the surname's second letter is a zigzag *r*, not a round *o*, and there is no double-f ascender anywhere in it. **C-r-i and then a long descender.** Whether it ends *-spi* or *-sci* this archive has already had to leave open once, and leaves open here.\n\n**AND THE ACT NAMES HIS MOTHER, WHICH THIS ARCHIVE HAD NOT RECORDED.** «*figlio di **ANGELO MORGILLO defunto**, di professione colono, domiciliato ivi, **e di MARIA G———, defunta**, domiciliata ivi*». **The surname will not resolve** — a looped G, six or seven letters, at the limit of this filming — and it is left unread rather than guessed. **It is Angelo Morgillo's wife**, and this household has never had one.\n\n**The identification is now PROVED, not probable**: the 1845 marriage dossier quotes this act by number. See work-list row 73.",
+"ark": "ANTENATI an_ua14345 img24r atto33 + ANTENATI an_ua14190 (Arienzo processetti 1845) bundle 3, imgs 27-39"
 }
 ],
 "sources": [
@@ -46359,8 +46418,22 @@
 "event": "death window",
 "date": "before 2 Feb 1845",
 "place": "Arienzo",
-"evidence": "«*e di **MARIA FELICIA SANSONE**, di professione **contadina** … **defunta***» — from her daughter's marriage act of 2 February 1845.\n\n**PUBLISHED HERE AS «SANSONE» UNTIL 20 SEPTEMBER 2026, AND WITH IT THE CLAIM THAT THE SURNAME «HAD NEVER APPEARED IN THIS ARCHIVE AT ALL».** The letter is a long **ſ**, not a **z**, and the test is on the same leaf: **«Crescenzo», in the groom's own name, has a z** — a compact loop that drops below the line and has no ascender. **The letter in this surname rises above the x-height before it descends.** A z in this hand does not do that.\n\n**So the surname was not new.** **ANGELO SANSONE**, contadino of **strada Camellara**, declares the death of Maria Falco, wife of Alfonso Diglio, on 25 April 1826 — and his surname is written in the same shape. **Three acts now agree: 1826, 1843 and 1845, all SANSONE.** Not claimed as kin.",
-"ark": "ANTENATI an_ua14249 img4r act3"
+"evidence": "«*e di **MARIA FELICIA SANSONE**, di professione **contadina** … **defunta***» — from her daughter's marriage act of 2 February 1845.\n\n**PUBLISHED HERE AS «SANSONE» UNTIL 20 SEPTEMBER 2026, AND WITH IT THE CLAIM THAT THE SURNAME «HAD NEVER APPEARED IN THIS ARCHIVE AT ALL».** The letter is a long **ſ**, not a **z**, and the test is on the same leaf: **«Crescenzo», in the groom's own name, has a z** — a compact loop that drops below the line and has no ascender. **The letter in this surname rises above the x-height before it descends.** A z in this hand does not do that.\n\n**So the surname was not new.** **ANGELO SANSONE**, contadino of **strada Camellara**, declares the death of Maria Falco, wife of Alfonso Diglio, on 25 April 1826 — and his surname is written in the same shape. **Three acts now agree: 1826, 1843 and 1845, all SANSONE.** Not claimed as kin.\n\n---\n\n**HER SURNAME IS SETTLED, FROM A REGISTER TWENTY-ONE YEARS OLDER THAN THE ONE THAT COULD NOT BE READ.** Her daughter's birth act — **Arienzo, Nati 1822, act 66** — writes it across a line break, «*la stessa è nata da **MARIA FELICE SAN=/SONE** sua moglie legittima, di anni **trentaquattro**, domiciliata con esso, e da **lui dichiarante***». **SAN, then SONE.** A word split at the syllable cannot be a «Sompone», and this filming separates it where the 1843 filming does not.\n\n**Thirty-four in August 1822** puts her birth about 1788. She was dead before February 1845.",
+"ark": "ANTENATI an_ua14249 img4r act3 + ANTENATI an_ua14419 img68r-69l act66 — READ FROM THE IMAGE"
+},
+{
+"event": "named in a birth act",
+"date": "2 Aug 1822",
+"place": "Arienzo, strada Vallone",
+"evidence": "«*la stessa è nata da **MARIA FELICE SAN=/SONE** sua moglie legittima, di anni **trentaquattro**, domiciliata **con esso***». **The act spells her forename MARIA FELICE, not Maria Felicia**, and her surname across a line break. She is the woman the 1843 death act calls «*vedova*»'s husband's «*FELICIA SANSONE*» and this archive once published as **«Felicia Sompone»**.",
+"ark": "ANTENATI an_ua14419 img68r-69l act66 — READ FROM THE IMAGE"
+},
+{
+"event": "death",
+"date": "10 Jan 1838",
+"place": "Arienzo, strada Camellara",
+"evidence": "**DATED, AND HER PARENTS NAMED.** The 1845 dossier carries her death extract as well as her husband's; **the register was then opened at the act it copies**, and read at 3,200 pixels.\n\n**Arienzo, Morti 1838, act 3, 10 January 1838**: «*avanti di noi **FILIPPO TROISI Sindaco** … del Comune di **Corpo d'Arienzo**, Distretto di **Caserta** … sono comparsi **SALVATORE SPOSITO**, di anni **quarantadue**, di professione contadino … domiciliato in **strada Camellara**, e **CESARE DIGLIO**, di anni **sessanta**, di professione contadino … domiciliato in **strada Camellara**, i quali han dichiarato, che nel giorno **dieci** del mese di **Gennajo** anno corrente, alle ore **otto**, è morta nella sua propria casa **MARIA FELICE SANSONE**, di anni **cinquantatre**, **moglie di GENNARO MORGILLO**, nata in **Arienzo**, di professione **contadina**, domiciliata ivi, figlia di **PASQUALE SANSONE defunto**, di professione contadino, domiciliato ivi, e di **MARTA LE CASARO defunta**, domiciliata ivi*».\n\n**She died five and a half years before her husband**, in the house they shared on strada Camellara, and her daughter married an orphan's marriage seven years after that.\n\n**Fifty-three in January 1838** puts her birth about 1785; her daughter's birth act of 1822 makes her thirty-four, which is 1788. *Three years apart, and the clerks guessed both.*\n\n**THE SWEEP ROW FOR THIS ACT WAS WRONG IN FIVE FIELDS** — her age, her father's forename and both declarants' names. See the corrections page.",
+"ark": "ANTENATI an_ua14340 img3r atto3 — READ FROM THE IMAGE at 3,200 px + ANTENATI an_ua14190 (Arienzo processetti 1845) bundle 3, img 33"
 }
 ],
 "sources": [
@@ -46388,6 +46461,30 @@
 ]
 }
 ],
+"siblings": []
+},
+{
+"slug": "pasquale-sansone",
+"name": "Pasquale Sansone",
+"surname": "SANSONE",
+"household": "Gennaro Morgillo & Maria Felicia Sansone",
+"role": "grandfather",
+"events": [
+{
+"event": "named as dead",
+"date": "10 Jan 1838",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*figlia di **PASQUALE SANSONE defunto**, di professione **contadino**, domiciliato ivi*» — Maria Felice Sansone's father, a *contadino* of Arienzo, dead before January 1838. **This archive read the forename as «Saverio» from a low-resolution sweep**; at 3,200 pixels the initial is a looped **P** with a descender and the word is **PASQUALE**.\n\n**SANSONE is an Arienzo surname on this street**: an **ANGELO SANSONE** of strada Camellara declared a death in 1826, and it was his hand-shape that first proved the archive's «Sompone» to be a long *s*. **No kinship is claimed between him and Pasquale.**",
+"ark": "ANTENATI an_ua14340 img3r atto3 — READ FROM THE IMAGE at 3,200 px"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
 "siblings": []
 },
 {

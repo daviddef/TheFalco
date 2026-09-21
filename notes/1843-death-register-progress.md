@@ -131,7 +131,7 @@ spelled by ear. The archive now holds three spellings of one place and says so.
 | 22R (atto 31) | 1 Aug | Bartolomeo Cioffi, 25, contadino, strada Cioffi | fu **Andrea Cioffi**, contadino, & Agnese Gaudito | — | Domenico Cioffi 72 contadino, strada Cioffi; Sabato Cioffi 25 contadino |
 | 23L / 23R | — | *duplicate binding — acts 30 and 31 repeated* | | | |
 | 24L (atto 32) | 3 Aug | Simone di Luzo, 6, strada Capodiconca | Gaspare di Luzo, contadino, & Giuseppa Amigale | — | Angelo Martone 44 sarto, strada Capodiconca; Fortunato Zimbardo 50 contadino |
-| **24R (atto 33)** | **14 Aug** | **GENNARO MORGILLO, 53, *COLONO*, strada CAMELLARA** | fu **ANGELO MORGILLO, *COLONO*** — the description of the Angelo Morgillo, 70, colono, of 1828 | ved. Felicia Sompone | **GIUSEPPE FALCO, «di anni cinquantacinque», *colono*, strada Camellara** — 56 in May, 55 in August; **Giovanni Cioffi, 48, contadino, strada Camellara** |
+| **24R (atto 33)** | **4 Aug** | **GENNARO MORGILLO, 53, *COLONO*, strada CAMELLARA** | fu **ANGELO MORGILLO, *COLONO*** and **fu MARIA G———** — the description of the Angelo Morgillo, 70, colono, of 1828 | ved. **Felicia SANSONE** | **GIUSEPPE FALCO, «di anni CINQUANTOTTO», *colono*, strada Camellara**; **Giovanni CRIS[P/C]I, 48, contadino, strada Camellara** |
 | 25L (atto 34) | 7 Aug | Grazia Martone, 10 months, strada Capodiconca | Pasquale Martone, contadino, & Francesca di Lucia | — | Antonio Sposito 45 calzolajo, strada Capodiconca; Pellegrino Sotti 42 contadino |
 | **25R (atto 35)** | 10 Aug | **Domenica Morgillo, 2, strada CAMELLARA** | **DOMENICO MORGILLO**, contadino, & **Beatrice Sepistella** — a SECOND Morgillo household on the Falco street | — | Pellegrino Lettieri 30 contadino, **strada Camellara**; Fabrizio Saccavino 55 contadino, **strada Camellara** |
 | 26L (atto 36) | 16 Aug | **Donna ANNA DIODATI, 48, *gentildonna*, born MONTESARCHIO**, strada Terra Murata | **Don Diodato Diodati, *REGIO NOTARO***, & Donna Gabriella Sepistella | m. Dott. — Sposito | Salvatore Lettieri 45 vaticale, strada Terra Murata; Gaetano Sepistella 42 sartore |
@@ -304,6 +304,19 @@ climbs to Angelo Morgillo's hill all agree. **None of that is a document.** Grad
 The processetto for the 1845 marriage would settle it by quoting the death act's number —
 work-list row 73.
 
-**The wife's surname cannot be read here.** This file published «Sompone»; the 1845 marriage
-gives «SANZONE». At 1,622 pixels across a half page, which is where this filming stops, the
-word will not separate. It is left as published, and the doubt is recorded instead.
+**The wife's surname cannot be read here — but it is read elsewhere, three times.** This file
+published «Sompone»; the 1845 marriage gives «SANZONE». At 1,622 pixels across a half page,
+which is where this filming stops, the word will not separate.
+
+**RESOLVED 21 September 2026: SANSONE.** Her daughter's birth act — Arienzo, Nati 1822, act 66,
+`an_ua14419` img 68R–69L — writes it across a line break, «*MARIA FELICE **SAN=/SONE** sua moglie
+legittima*», in a hand twenty-one years earlier and a filming that does separate. The certified
+copy of THIS act in the 1845 processetti (`an_ua14190` bundle 3, imgs 31 and 32) reads
+**«vedovo di FELICIA SANSONE»**, and the 1845 marriage act agrees. **Three documents, three hands.**
+
+**THREE OTHER READINGS ON THIS LINE WERE ALSO WRONG, AND ALL THREE CAME FROM THE SWEEP.**
+The act is of **4 August**, not 14 August — «*nel giorno **quattro** del mese di **Agosto***».
+Giuseppe Falco is **«di anni CINQUANTOTTO»**, not fifty-five, which removes the «56 in May, 55 in
+August» puzzle this file recorded. And the second declarant is **NOT a Cioffi**: at 3,200 px the
+surname's second letter is a zigzag *r*, not a round *o*, and there is no double-f — it is
+**C-r-i** followed by a long descender, so **CRIS[P/C]I**, and which of the two is left open.
