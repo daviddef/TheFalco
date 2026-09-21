@@ -1,0 +1,6 @@
+# Pages this archive draws by hand on purpose. checkpages prints every line of
+# this file on every run, so an exemption nobody can justify is an exemption
+# somebody will notice.
+
+namesakes: not a list of namesakes. This page exists to record a DECISION NOT TO HAVE ONE — Falco is the Italian for falcon and became a surname independently in many places, so a famous Falco is no more likely to be kin than a famous Smith. Defranceski's page collects notable people of a rare name and Booyzen's is about repeated FORENAMES. One page name, three different arguments.
+research-log: an INDEX OF FILES, not a log. One markdown working file per register volume, with its byte count and a link into the repository — the notes themselves are the thing, and this page is their table of contents. Booyzen's and Luwinski's research logs are chronological narratives of what was done; Defranceski's is a tracker of open questions.
