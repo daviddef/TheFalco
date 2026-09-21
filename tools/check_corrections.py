@@ -131,6 +131,11 @@ RETIRED_PHRASES = [
      "the notarial consents are 8 SEPTEMBER 1814, registered at Arienzo 12 September"),
     ("Salvio Morgillo",
      "both 1814 consents were taken by FELICE MORGILLO; no Salvio Morgillo appears in the dossier"),
+    ("VALERIO CARFORA",
+     "the bride's father is FRANCESCO CARFORA \u2014 his own consent of 1 January 1860 (an_ua14207 "
+     "bundle 3 img 33) spells it in full, and Nati 1830 act 142 (an_ua14427 img 145R) names him "
+     "twice; \u00abVa-/lerio\u00bb was this archive's reading of \u00abFran-/cesco\u00bb"),
+    ("Valerio Carfora", "same \u2014 the forename is FRANCESCO"),
     ("D'AMBROGIO maggiore, di anni DICIANNOVE",
      "she is «di anni TRENOVE» \u2014 thirty-nine \u2014 read at the leaf's full 3,200 pixels; the initial is a "
      "crossed ascender, and the act calls her MAGGIORE, which nineteen could not be"),
