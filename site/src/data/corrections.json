@@ -2,6 +2,18 @@
  {
   "when": "2026-09-21",
   "sev": "major",
+  "where": "/households",
+  "plate": "",
+  "by": "row 43 — and the archive's own notes had two of these children for days",
+  "what": "CRESCENZO FALCO AND ANGELA MARIA MORGILLO HAVE FOUR CHILDREN — and the household that had none held one act that could not be theirs",
+  "was": "**A household created on 3 February 1845 and completely unexamined.** Its only member was «*Joseph Falco filius **Crescentii** et **Mariae Morgillo**, aetate paucorum dierum*», a parish burial dated here **1818** — **the year before the husband was born.** Work-list row 43 had swept 1846 and the last two months of 1845 on the declarant line and found no Crescenzo.",
+  "now": "**Four children, three of them read from the image today.**\n\n**MARIA FELICE FALCO, born 21 November 1845** (Nati 1845 act 111) — «*è comparso **CRESCENZO FALCO, di anni VENTICINQUE**, di professione contadino, domiciliato in questo comune **STRADA CAMELLARA** … nata da **MARIA MORGILLO** sua moglie legittima, di anni **VENTITRE***». **And the margin of her act carries her wedding**: «*A **3 Febbrajo 1873** l'Uff.e dello Stato Civ.e d'ARIENZO sposò **MARIA FELICE FALCO** con **PASQUALE QUOTOLO*** — Caserta 18 Giugno 1884».\n\n**GIUSEPPE FALCO**, dead **2 June 1848**, **aged one**, and **GENNARO FALCO**, born **1 June 1848** (Nati 1848 act 42) and dead **3 June 1848** at **two days**. **Brothers, dead a day apart, in one house on strada Camellara**, both declared by the same two neighbours.",
+  "how": "The 1845 register was re-swept at the **PARENTS band**; the 1848 birth register was swept the same way and gave act 42; the two death acts were opened at the image.",
+  "why": "**THE HOUSEHOLD WAS NEVER TWO HOUSEHOLDS.** «*Crescenzo Falco × **MARIA** Morgillo*» and «*Crescenzo Falco & **ANGELA MARIA** Morgillo*» are one couple: **the marriage act calls her Angela Maria and every birth and death act of her children calls her plain Maria**, at twenty-three in 1845 and twenty-five in 1848 — the age she was when she married. *So the family tree's unsourced «Maria Concetta Morgillo» is most likely this woman under a third form of her name.*\n\n**THE DATE WAS THE WHOLE PROBLEM.** The parish burial is **1848**, not 1818: the civil act of 2 June 1848 names the same child, the same parents and the same street, and **the first weeks of January 1818 and January 1848 were both read to test it — neither holds a Falco infant.** *The parish page's other entries run across the 1840s and 1850s; the OCR had turned «1848 … 2 Ju[nii]» into «1818 … 2 Ja[nuarii]».*\n\n**AND THE ARCHIVE HAD TWO OF THESE CHILDREN ALREADY.** `notes/1844-1847-death-indexes.md` records both 1848 deaths, read from the image in an earlier session, under the heading «**CRESCENZO FALCO × MARIA MORGILLO is a household this archive has never held**». **It is this one.** The note was written before the birth act that names her Maria, and it went into no data file. *That is «harvesting is not holding», and it cost row 43 a week.*\n\n**Row 43's own sweep could not have found them.** It read the **declarant line**; Maria Felice's act is at images **116–117** and the sweep began at **118**, and Gennaro's act was presented by a **midwife**, whose name is the only one on that line."
+ },
+ {
+  "when": "2026-09-21",
+  "sev": "major",
   "where": "/searched",
   "plate": "",
   "by": "row 86 — the second «no Falco» overturned in one day",
