@@ -1292,5 +1292,19 @@
    "read in full"
   ],
   "href": "https://antenati.cultura.gov.it/ark:/12657/an_ua14264"
+ },
+ {
+  "when": "1858, 1859 and 1860",
+  "src": "Arienzo civil DEATH registers — the annual **tavole alfabetiche** of `an_ua14360` (1858, images 2–5) and `an_ua14361` (1859, images 3–4), and the acts of `an_ua14362` (1860) from 1 January to 5 March. **Read for a woman, not for a surname this archive was already hunting.**",
+  "what": "**ANTONIA DI GUIDA** — whose death, as of 21 September 2026, is known to fall between **15 November 1857** and **14 February 1860**, from two of her daughters' marriage acts",
+  "got": "**SHE IS NOT THERE, AND THE WINDOW IS COVERED END TO END.**\n\n**1858, the G section, complete:** «*1. **GUIDA ALFONSO** — Giuseppe e Crisci Marta — 4 Gennajo*» and «*62. **GUIDA PASQUALE** — Francesco e Porrino Rosa — 5 Nov.*». **Two Guida, neither of them her.** *The F section of the same tavola has exactly one entry and it is **FERRIELLO PIETRO**, not a Falco.*\n\n**1859, the G section, complete:** **GAGLIARDI GIOVANNA**, **GESUÈ D. GIUSEPPE** *medico*, **GRASSO PRUDENZIA**, **GIGLIO NICOLA**. **No Guida at all.**\n\n**1860, acts 1 to 14, 1 January to 5 March:** fourteen dead, every one named from the image. **No Guida. No Falco.**\n\n**SO ANTONIA DI GUIDA DID NOT DIE AT ARIENZO** — or her death was never entered in its civil register. *This archive's fifteen-year read of the Arienzo deaths, 1844 to 1858, was made hunting FALCO; it was never run for GUIDA. It has now been, for the months that matter, and the answer is the same.*\n\n**AND THE F SECTIONS WERE RE-DERIVED, NOT DISCOVERED.** 1859's three Falco — **MARIA** (act 19, 4 March), **CARMELA** (act 55, 4 August) and **RAFFAELE** (act 60, 17 August), all children of a **MICHELE FALCO** — were published here on **14 September 2026** from this same tavola, and re-announcing them was withdrawn as a discovery on the 15th. **`tools/isitnew.py` caught it a third time today before a word was written.**",
+  "outcome": "no Falco",
+  "tags": [
+   "Antenati",
+   "Deaths",
+   "di Guida",
+   "Indexes"
+  ],
+  "href": "https://antenati.cultura.gov.it/ark:/12657/an_ua14361"
  }
 ]
