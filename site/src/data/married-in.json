@@ -136,7 +136,7 @@
     "who": "Gioacchino / Guglielmo Falco",
     "whoSlug": "gioacchino-guglielmo-falco",
     "to": "Andreana Crisci (Falco)",
-    "toSlug": "andreana-crisci-2",
+    "toSlug": "andreana-crisci",
     "into": "Crisci",
     "living": false
    },
@@ -312,7 +312,7 @@
     "who": "Vincenzo Falco",
     "whoSlug": "vincenzo-falco",
     "to": "Andrea / Andreana Crisci (Falco)",
-    "toSlug": "andreana-crisci",
+    "toSlug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
     "into": "Crisci",
     "living": false
    },
@@ -1774,7 +1774,7 @@
    },
    {
     "who": "Andreana Crisci (Falco)",
-    "whoSlug": "andreana-crisci-2",
+    "whoSlug": "andreana-crisci",
     "to": "Gioacchino / Guglielmo Falco",
     "toSlug": "gioacchino-guglielmo-falco",
     "into": "Falco",
@@ -1822,7 +1822,7 @@
    },
    {
     "who": "Andrea / Andreana Crisci (Falco)",
-    "whoSlug": "andreana-crisci",
+    "whoSlug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
     "to": "Vincenzo Falco",
     "toSlug": "vincenzo-falco",
     "into": "Falco",
@@ -1864,7 +1864,7 @@
   "people": [
    {
     "name": "Andrea / Andreana Crisci (Falco)",
-    "slug": "andreana-crisci",
+    "slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
     "b": "1796",
     "bp": "",
     "d": "",
@@ -1912,7 +1912,7 @@
    },
    {
     "name": "Andreana Crisci (Falco)",
-    "slug": "andreana-crisci-2",
+    "slug": "andreana-crisci",
     "b": "1852",
     "bp": "",
     "d": "",
