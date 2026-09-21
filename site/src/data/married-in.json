@@ -110,7 +110,7 @@
    },
    {
     "who": "Raffaele Falco",
-    "whoSlug": "raffaele-falco-3",
+    "whoSlug": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
     "to": "Angela Rosa Morgillo (Falco)",
     "toSlug": "angela-rosa-morgillo",
     "into": "Morgillo",
@@ -254,7 +254,7 @@
    },
    {
     "who": "Vincenza Falco (Morgillo)",
-    "whoSlug": "vincenza-falco",
+    "whoSlug": "vincenza-falco-2",
     "to": "Carmine Morgillo",
     "toSlug": "carmine-morgillo",
     "into": "Morgillo",
@@ -576,7 +576,7 @@
    },
    {
     "name": "Raffaele Falco",
-    "slug": "raffaele-falco-3",
+    "slug": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
     "b": "1818",
     "bp": "Arienzo",
     "d": "Apr 21 1880",
@@ -664,7 +664,7 @@
    },
    {
     "name": "Vincenza Falco (Morgillo)",
-    "slug": "vincenza-falco",
+    "slug": "vincenza-falco-2",
     "b": "1842",
     "bp": "Arienzo",
     "d": "",
@@ -736,7 +736,7 @@
    },
    {
     "name": "Vincenza Falco",
-    "slug": "vincenza-falco-2",
+    "slug": "vincenza-falco",
     "b": "Nov 20 1847",
     "bp": "Arienzo",
     "d": "Nov 21 1847",
@@ -896,7 +896,7 @@
    },
    {
     "name": "Raffaele Falco",
-    "slug": "raffaele-falco-7",
+    "slug": "raffaele-falco-6",
     "b": "1858",
     "bp": "Arienzo",
     "d": "Aug 17 1859",
@@ -960,7 +960,7 @@
    },
    {
     "name": "Raffaele Falco",
-    "slug": "raffaele-falco-5",
+    "slug": "raffaele-falco-4",
     "b": "Aug 15 1870",
     "bp": "Arienzo",
     "d": "Aug 9 1871",
@@ -1008,7 +1008,7 @@
    },
    {
     "name": "Raffaele Falco",
-    "slug": "raffaele-falco-4",
+    "slug": "raffaele-falco-3",
     "b": "June 28 1874",
     "bp": "Arienzo",
     "d": "",
@@ -1056,7 +1056,7 @@
    },
    {
     "name": "Raffaele Falco",
-    "slug": "raffaele-falco-6",
+    "slug": "raffaele-falco-5",
     "b": "Mar 8 1877",
     "bp": "Arienzo",
     "d": "Nov 5 1878",
@@ -2474,7 +2474,7 @@
     "who": "Angela Rosa Morgillo (Falco)",
     "whoSlug": "angela-rosa-morgillo",
     "to": "Raffaele Falco",
-    "toSlug": "raffaele-falco-3",
+    "toSlug": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
     "into": "Falco",
     "living": false
    },
@@ -2506,7 +2506,7 @@
     "who": "Carmine Morgillo",
     "whoSlug": "carmine-morgillo",
     "to": "Vincenza Falco (Morgillo)",
-    "toSlug": "vincenza-falco",
+    "toSlug": "vincenza-falco-2",
     "into": "Falco",
     "living": false
    },
