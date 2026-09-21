@@ -4297,6 +4297,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "nicola-cioffi",
+"name": "Nicola Cioffi",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": []
@@ -4991,6 +4999,13 @@
 "place": "Arienzo, strada Sant'Andrea",
 "evidence": "«*e da **FRANCESCO CIOFFI marito della stessa, di anni TRENTACINQUE**, di professione **CONTADINO***» — **b. c.1791.** His series: thirty-five here, twenty-five in September 1822, thirty-six in August 1831, forty in August 1833. **The 1822 figure cannot be reconciled with the other three** and is the outlier.\n\n**The surname is not legible enough here to touch the standing CIOFFI/COSSI correction and it was not touched**; the household keeps the name the 1825 act gave it.",
 "ark": "ANTENATI an_ua14423 (Arienzo, Nati 1826) atto 19, img 20r-21l — READ FROM THE IMAGE"
+},
+{
+"event": "named as declarant",
+"date": "8 Mar 1828",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*è comparso **FRANCESCO CIOFFI, di anni TRENTA**, di professione **CONTADINO**, domiciliato in questo Comune **strada CAMELLARA***» — **b. c.1798.** His stated ages now run **twenty-five** (Sept 1822), **twenty-seven** (June 1824), **thirty-five** (March 1826), **thirty** (March 1828), **thirty-six** (Aug 1831) and **forty** (Aug 1833). **Six figures spanning b. c.1791 to c.1799 for one man**, and the 1826 and 1828 readings are two years apart giving birth years five years apart.",
+"ark": "ANTENATI an_ua14425 (Arienzo, Nati 1828) atto 28, folio 285, img 30r-31l — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -5764,6 +5779,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "«è morta nella sua propria casa MARIANTONIA CIOFFI, di mesi sette, nata in Arienzo, di professione contadina, domiciliata ivi, figlia di FRANCESCO CIOFFI, di professione contadino, domiciliato ivi, e di MARIA FALCO» — atto 54, died 23 October 1828 at twenty-two hours, the act drawn the next day at fourteen before AGOSTINO CIOFFI, secondo eletto — a Cioffi holding municipal office in the comune where this family are labourers. The fifth child of this household to be buried since 1823. READ FROM THE IMAGE 16 Sep 2026: the surname is CIOFFI in all three places. The declarants are GIUSEPPE FALCO, 56, POSSIDENTE of strada Camellara, «PARENTE DELLA DEFUNTA», and — recorded here for the first time — CESARE CIOFFI, 31, contadino of strada Camellara, ALSO «parente della defunta», so born about 1797, the same year as the father Francesco, and very probably his brother. [PERSON NAME CORRECTED 15 Sep 2026: this archive established months ago that the strada Camellara household is CIOFFI, not Cossi, and applied it to the household name only — the children kept the retired spelling and were built as separate people. The act's own wording is quoted above unchanged.]",
 "ark": "ANTENATI an_ua14330 img36l atto54"
+},
+{
+"event": "birth",
+"date": "8 Mar 1828",
+"place": "Arienzo, strada Camellara",
+"evidence": "**HER BIRTH, AND IT CLOSES HER LIFE FROM BOTH ENDS TO THE FORTNIGHT.** Act **28**: «*L'anno mille ottocento **VENTOTTO**, il dì **OTTO** del mese di **MARZO**, ad ore **DICIASSETTE**, avanti di noi **SAVERIO CIOFFI Sindaco** … è comparso **FRANCESCO CIOFFI, di anni TRENTA**, di professione **CONTADINO**, domiciliato in questo Comune **strada CAMELLARA**, quale ci ha presentato una **FEMINA** … che la stessa è nata da **MARIA FALCO sua moglie legittima, di anni TRENTA**, domiciliata collo stesso, **e da lui dichiarante** … nel giorno **OTTO** del mese di **MARZO** … **alle ore QUINDICI, nella casa sua propria d'abitazione** … di dare alla neonata il nome di **MARIANTONIA***». Baptised at **Sant'Andrea Apostolo** the same day.\n\n**Her death act, already held, says «*di mesi SETTE*» on 23 October 1828.** Born 8 March, she was **seven months and fifteen days**. **The arithmetic is exact**, and this household's children are now the best-documented thing about it: it buried six that this archive knows of.\n\nWitnesses **NICOLA CIOFFI, twenty-six, *sartore*, of strada CAMELLARA**, and **ANDREA DIGLIO, twenty-one, contadino, of strada SAPONARI**. **A CIOFFI SIGNS AS SINDACO AND A CIOFFI WITNESSES** — Saverio Cioffi holds the office, Agostino Cioffi is *secondo eletto* at her death seven months later, and Cesare Cioffi is called «*parente*» at two other burials in this family. **The name runs from the town hall to the labourers' street.**\n\n*Found by the parents-band sweep of 1828, work-list row 86 — a volume that had never been read.*",
+"ark": "ANTENATI an_ua14425 (Arienzo, Nati 1828) atto 28, folio 285, img 30r-31l — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -6010,6 +6032,39 @@
 {
 "slug": "maria-porrino",
 "name": "Maria Porrino",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
+"slug": "nicola-cioffi",
+"name": "Nicola Cioffi",
+"surname": "CIOFFI",
+"household": "Francesco Cioffi & Maria Falco",
+"role": "witness",
+"events": [
+{
+"event": "witness at the birth",
+"date": "8 Mar 1828",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*alla presenza di **NICOLA CIOFFI, di anni VENTISEI**, di professione **SARTORE**, regnicolo, domiciliato ivi **strada CAMELLARA***» — witness at Mariantonia Cioffi's birth, and **a Cioffi of the same street as the child's father**. No kinship is stated and none is claimed.",
+"ark": "ANTENATI an_ua14425 (Arienzo, Nati 1828) atto 28, folio 285, img 30r-31l — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "andrea-cioffi",
+"name": "Andrea Cioffi",
 "via": "register",
 "vias": [
 "register"
@@ -6681,7 +6736,7 @@
 "event": "named in a birth act",
 "date": "16 Oct 1826",
 "place": "Arienzo, strada Capodiconca",
-"evidence": "**A SECOND ANDREANA CRISCI, IN THE SAME REGISTER AS THE FIRST, EIGHT LEAVES AWAY.** Act **77** of 1826: «*è nato da **ANDREANA CRISCI sua moglie legittima, di anni TRENTUNO**, domiciliata collo stesso, e da lui dichiarante*» — the declarant being **GENNARO ESPOSITELLI, thirty-four, contadino, of strada CAPODICONCA**. The child is **RAFFAELE**, born **16 October 1826 at eighteen hours** in his father's own house.\n\n**Act 69 of the same volume names ANDREANA CRISCI, twenty-eight, of strada CAMELLARA, wife of VINCENZO FALCO** — generation three's wife, whose baptism is 30 November 1796. **The two are three years apart in stated age, on two different streets, in one register, in one clerk's hand.** Both readings were magnified and neither is in doubt.\n\n**THIS HOUSEHOLD IS NOT CLAIMED AS KIN AND NOTHING JOINS IT TO THIS LINE.** It is published because generation three's wife is identified in this archive by her husband and her street, and **it is now documented that her name alone identifies nobody** — as this town has already proved for Giuseppe Falco, Carlantonio Morgillo, Arcangelo Crisci, Angelo Morgillo and Gennaro Morgillo.",
+"evidence": "**A SECOND ANDREANA CRISCI, IN THE SAME REGISTER AS THE FIRST, EIGHT LEAVES AWAY.** Act **77** of 1826: «*è nato da **ANDREANA CRISCI sua moglie legittima, di anni TRENTUNO**, domiciliata collo stesso, e da lui dichiarante*» — the declarant being **GENNARO ESPOSITELLI, thirty-four, contadino, of strada CAPODICONCA**. The child is **RAFFAELE**, born **16 October 1826 at eighteen hours** in his father's own house.\n\n**Act 69 of the same volume names ANDREANA CRISCI, twenty-eight, of strada CAMELLARA, wife of VINCENZO FALCO** — generation three's wife, whose baptism is 30 November 1796. **The two are three years apart in stated age, on two different streets, in one register, in one clerk's hand.** Both readings were magnified and neither is in doubt.\n\n**THIS HOUSEHOLD IS NOT CLAIMED AS KIN AND NOTHING JOINS IT TO THIS LINE.** It is published because generation three's wife is identified in this archive by her husband and her street, and **it is now documented that her name alone identifies nobody** — as this town has already proved for Giuseppe Falco, Carlantonio Morgillo, Arcangelo Crisci, Angelo Morgillo and Gennaro Morgillo.\n\n**A CAUTION FOUND TWO DAYS' READING LATER, AND LEFT VISIBLE.** The 1828 register, act at image 113, gives a **GENNARO ESPOSITELLA of strada CIOFFI** whose wife is «*ANDREANA **VERTEGGIO**, di anni TRENTADUE*» — magnified, the word is V-e-r-t-e-gg-i-o and is not Crisci. **So within two years the name Gennaro Espositella carries a different wife on a different street.** Either there are two men of the name — which this town produces constantly — or he was widowed and remarried between October 1826 and 1828. **Nothing here decides it, and nothing needs to**: the 1826 act's own words are what this row records, and **ANDREANA CRISCI** is magnified and certain in them.",
 "ark": "ANTENATI an_ua14423 (Arienzo, Nati 1826) atto 77, img 78r-79l — READ FROM THE IMAGE"
 }
 ],
@@ -11622,6 +11677,30 @@
 "place": "Arienzo",
 "evidence": "«11. DIGLIO ALFONZO | Arienzo | DIGLIO CESARE, e M[anna] SARA | A 2 Aprile 1827», his bride ANNA MARIA CRISCI, daughter of Salvatore Crisci and Maddalena [?]. HIS PARENTS NAMED FOR THE FIRST TIME — and CESARE DIGLIO, 50, of strada Camellara was a WITNESS at his daughter Clementina's birth in May 1825, which is a grandfather standing for his granddaughter. A SECOND MARRIAGE, eleven months after Maria Falco died. THE IDENTIFICATION RESTS ON THE FATHER'S NAME AND THE STREET, not on the forename alone",
 "ark": "ANTENATI an_ua14126 (Arienzo, Matrimonj indice 1827) img 1 atto 11 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
+"slug": "andrea-diglio",
+"name": "Andrea Diglio",
+"surname": "DIGLIO",
+"household": "Francesco Cioffi & Maria Falco",
+"role": "witness",
+"events": [
+{
+"event": "witness at the birth",
+"date": "8 Mar 1828",
+"place": "Arienzo, strada Saponari",
+"evidence": "«*e di **ANDREA DIGLIO, di anni VENTUNO**, di professione contadino, regnicolo, domiciliato **ivi strada SAPONARI***» — the second witness. **The Diglio are this household's neighbours throughout these registers**, and a Diglio married a Falco woman on the same street in 1813.",
+"ark": "ANTENATI an_ua14425 (Arienzo, Nati 1828) atto 28, folio 285, img 30r-31l — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -26710,6 +26789,13 @@
 "place": "Arienzo, strada Sant'Andrea",
 "evidence": "«*nato da **MARIA FALCO, di anni TRENTA**, domiciliata ivi **strada SANT'ANDREA***» — **thirty in March 1826 gives b. c.1796.** Her stated ages run thirty-one in September 1822, **thirty here**, thirty-five in August 1831 and thirty-two in August 1833 — **b. c.1791, c.1796, c.1796, c.1801.** A ten-year spread for one woman, in four acts of one office. *Which Maria Falco she is remains the archive's «third Maria Falco» question; she is identified here by her husband, not by her name.*",
 "ark": "ANTENATI an_ua14423 (Arienzo, Nati 1826) atto 19, img 20r-21l — READ FROM THE IMAGE"
+},
+{
+"event": "named in a birth act",
+"date": "8 Mar 1828",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*nata da **MARIA FALCO sua moglie legittima, di anni TRENTA***» — **b. c.1798**, agreeing to within two years with the thirty she is given in March 1826 and the twenty-five of June 1824. *Which Falco house she comes from is still the archive's «third Maria Falco» question; she is identified here by her husband and her street.*",
+"ark": "ANTENATI an_ua14425 (Arienzo, Nati 1828) atto 28, folio 285, img 30r-31l — READ FROM THE IMAGE"
 }
 ],
 "sources": [
