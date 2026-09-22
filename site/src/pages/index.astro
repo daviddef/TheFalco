@@ -162,6 +162,17 @@ const withSpouse = (g) => ({
   spouseHref: SPOUSE_SLUG(g.spouse) ? `/people/${SPOUSE_SLUG(g.spouse)}/` : null,
 });
 
+
+/* DERIVED. The front page said «Six Falco householders on one short street»
+   while ten were published in the household file. A number on the busiest page
+   of the site should not be a number somebody typed. */
+const camellaraCount = new Set(
+  households.flatMap((h) => h.members)
+    .filter((m) => /Camellara/.test(m.place || "")
+                && ["father", "head", "husband"].includes(m.role)
+                && /Falco/.test(m.person))
+    .map((m) => m.person.split(" (")[0].trim())
+).size;
 ---
 <Base title="The Falco Archive" bare={true}>
   <figure class="fhero">
@@ -304,7 +315,7 @@ const withSpouse = (g) => ({
       </div>
       <div class="card">
         <h3>An address</h3>
-        <p><strong>Strada Camellara.</strong> Six Falco householders on one short street, all
+        <p><strong>Strada Camellara.</strong> {camellaraCount} Falco householders on one short street, nearly all
         <em>contadini</em> or <em>coloni</em>, and the neighbours who reported each death lived a few doors along.
         <a href={u("/lines/")}>The street →</a></p>
       </div>
