@@ -7951,6 +7951,46 @@
         "place": "Arienzo, strada Maddalena",
         "evidence": "**A CHILD BORN TO ROSA FALCO, FOUR MONTHS AFTER SHE BURIED AMALIA.** The 1815 BIRTH register: «*è comparso **MARCANTONIO MORGILLO** d'anni **trenta**, di professione **bracciale**, domiciliato in detto Comune, strada **MADDALENA** … e da **ROSA FALCO** sua moglie legitima d'anni **trenta***».\n\n**THE HUSBAND'S FORENAME DOES NOT MATCH AND IS NOT FORCED TO.** The death act of September 1814 calls him **GIOVAN'ANTONIO MORGILLO**; this one **MARCANTONIO**. *Both were read from the image. Either one clerk was wrong, or there are two Morgillo men married to a Rosa Falco, which this archive will not assume in either direction.*\n\n**She is on STRADA MADDALENA**, where the di Guida lived and where **Maria Falco**, widow of Francesco Quotolo, also lived. **Three Falco-connected households on one street and no document joining any of them.**",
         "ark": "ANTENATI an_ua14412 img4 — READ FROM THE IMAGE"
+      },
+      {
+        "household": "Giovan'Antonio Morgillo & Rosa Falco",
+        "person": "Raffaele Morgillo",
+        "role": "child",
+        "event": "birth",
+        "date": "1 Sep 1809",
+        "place": "Arienzo, strada Maddalena",
+        "evidence": "**THE EARLIEST RECORD OF THIS HOUSEHOLD, AND IT SETTLES A QUESTION THIS ARCHIVE RAISED YESTERDAY AND COULD NOT ANSWER.**\n\n«*NUM. **92**. Oggi che sono li **primo** del mese di **Settembre** del presente anno mille ottocento **nove**, ad ore **quindici**, è comparso avanti del Signor Sindaco di questa Università il Signor **CARL'ANTONIO MORGILLO DEL FU CARL'ANTONIO** — di professione **BRACCIALE** — d'anni **VENTINOVE** — … abitante nella strada **della MADDALENA** — Il medesimo ha presentato un **bambino** … **nato in costanza del suo legitimo Matrimonio con ROSA FALCO sua Moglie** — Il quale è nato il giorno **suddetto primo** … ad ore **tredici** … **RAFFAELE MORGILLO***».\n\n**Born at one in the afternoon on 1 September 1809 and declared two hours later.**",
+        "ark": "ANTENATI an_ua14406 img49L act92 — READ FROM THE IMAGE"
+      },
+      {
+        "household": "Giovan'Antonio Morgillo & Rosa Falco",
+        "person": "Giovan'Antonio Morgillo",
+        "role": "father",
+        "event": "three forenames in three acts, and a patronymic at last",
+        "date": "1 Sep 1809",
+        "place": "Arienzo, strada Maddalena",
+        "evidence": "**THIS ARCHIVE PUBLISHED YESTERDAY THAT IT COULD NOT SAY WHETHER ROSA FALCO'S HUSBAND WAS ONE MAN OR TWO. HE IS ONE MAN, AND THE CLERKS GAVE HIM THREE NAMES.**\n\n| act | his forename |\n|---|---|\n| **1 September 1809**, birth of Raffaele | **CARL'ANTONIO** Morgillo *del fu Carl'Antonio* |\n| **23 September 1814**, death of Amalia | **GIOVAN'ANTONIO** Morgillo |\n| **January 1815**, birth of a child | **MARCANTONIO** Morgillo |\n\n**One street — strada MADDALENA — one wife, ROSA FALCO, and three compound forenames all ending in «-ANTONIO».** *The economical reading is one man whose name the clerks completed differently each time. It is published as that, with all three written out, because a later reader meeting «Marcantonio Morgillo» must be able to find him here.*\n\n**AND THIS ACT GIVES HIM A FATHER AND AN AGE.** «*DEL FU CARL'ANTONIO*» — his father, dead by 1809 and bearing the same name — and **twenty-nine in September 1809, so born about 1780**.\n\n**THE STRIP READ HIM AS «CARL'ANTONIO SBARRELLA».** The surname was magnified three times only because a Rosa Falco was attached to it. [[the-contact-sheet-is-triage]]",
+        "ark": "ANTENATI an_ua14406 img49L act92 — READ FROM THE IMAGE"
+      },
+      {
+        "household": "Giovan'Antonio Morgillo & Rosa Falco",
+        "person": "Carl'Antonio Morgillo (the elder, d. before 1809)",
+        "role": "grandfather",
+        "event": "named as dead",
+        "date": "1 Sep 1809",
+        "place": "Arienzo",
+        "evidence": "«*Carl'Antonio Morgillo **DEL FU CARL'ANTONIO***» — dead by September 1809, and **his son carried his name**. New to this archive.",
+        "ark": "ANTENATI an_ua14406 img49L act92 — READ FROM THE IMAGE"
+      },
+      {
+        "household": "Giovan'Antonio Morgillo & Rosa Falco",
+        "person": "Rosa Falco",
+        "role": "mother",
+        "event": "the household's span",
+        "date": "1 Sep 1809 – Jan 1815",
+        "place": "Arienzo, strada Maddalena",
+        "evidence": "**Bearing children on strada Maddalena from 1809 to 1815 at least** — Raffaele in September 1809, Amalia dead in September 1814, another child in January 1815 — so **born roughly 1780–1790**, and married by 1808.\n\n**Strada Maddalena is the street of GIUSEPPE DI GUIDA**, Antonia di Guida's father, and of **MARIA FALCO**, widow of Francesco Quotolo. **Three Falco-connected households on one street and no document joining any of them.**",
+        "ark": "ANTENATI an_ua14406 img49L act92 — READ FROM THE IMAGE"
       }
     ]
   },
