@@ -4181,7 +4181,7 @@
 "siblings": []
 },
 {
-"slug": "angelo-carfora",
+"slug": "angelo-carfora-of-giuseppe-falco-gelsomina-vigliotta",
 "name": "Angelo Carfora",
 "surname": "CARFORA",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
@@ -4199,10 +4199,42 @@
 "register"
 ],
 "living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
+"slug": "angelo-carfora-of-matteo-carfora-angela-zimbardo",
+"name": "Angelo Carfora (b. 1815)",
+"surname": "CARFORA",
+"household": "Matteo Carfora & Angela Zimbardo",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "23 Mar 1815",
+"place": "Arienzo, strada Signorindico",
+"evidence": "«*un **maschio** che ci ha presentato. A cui se li è dato il nome di **ANGELO***» — born at three in the morning on 23 March 1815 and declared the same day.\n\n**If Angela Zimbardo was his father's previous wife, this child was named for her**, two years after her death. *That is a pattern this archive has met repeatedly in these registers and it is not evidence.*",
+"ark": "ANTENATI an_ua14412 img23 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
 "parents": [
 {
-"slug": "stefano-carfora",
-"name": "Stefano Carfora (d. before 1810)",
+"slug": "angela-zimbardo",
+"name": "Angela Zimbardo",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-carfora-of-matteo-carfora-angela-zimbardo",
+"name": "Matteo Carfora",
 "via": "register",
 "vias": [
 "register"
@@ -4211,7 +4243,20 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [
+{
+"slug": "domenico-carfora",
+"name": "Domenico Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "23 Mar 1815",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "aniello-carfora",
@@ -4489,7 +4534,16 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": [],
+"siblings": [
+{
+"slug": "angelo-carfora-of-matteo-carfora-angela-zimbardo",
+"name": "Angelo Carfora (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "d": "18 Feb 1813",
 "dateFrom": {
 "d": "act"
@@ -5084,6 +5138,13 @@
 "place": "Arienzo",
 "evidence": "**Alive in February 1813**, when he buried a wife and a son on consecutive days. The archive's other Matteo Carfora — Francesco's father — was **dead before June 1828**, which is consistent with this man and proves nothing about him.",
 "ark": "ANTENATI an_ua14315 img10 — READ FROM THE IMAGE"
+},
+{
+"event": "gives his age and his street",
+"date": "23 Mar 1815",
+"place": "Arienzo, strada Signorindico",
+"evidence": "**THIS IS ALMOST CERTAINLY THIS ARCHIVE'S MATTEO CARFORA, AND THE STREET IS WHAT SAYS SO.**\n\n«*L'anno **milleottocentoquindici**, il giorno **ventitré** del mese di **Marzo** … è comparso **MATTEO CARFORA** d'anni **TRENTANOVE**, di professione **contadino**, domiciliato in detto Comune, strada **SIGNORINDICO**, ed ha dichiarato che il giorno sopraindicato ad ore **tre** è nato nella sua propria casa, da lui dichiarante, e da **LUCIA LAUDATO** sua moglie legitima di anni **VENTI**, un **maschio** … **A cui se li è dato il nome di ANGELO.***»\n\n**Strada Signorindico is the street of Francesco Carfora**, whose 1828 marriage act makes him «*figlio di **MATTEO CARFORA DEFUNTO** … e di **GRAZIA ZIMBARDO DEFUNTA***» and twenty-eight, so born about **1800**. **Thirty-nine in 1815 puts this man's birth about 1776** — twenty-four when that son was born.\n\n**SO HE HAD AT LEAST TWO WIVES AND POSSIBLY THREE**, and this archive cannot yet say which:\n\n- **GRAZIA ZIMBARDO** — mother of Francesco about 1800, dead before 1828;\n- **ANGELA ZIMBARDO** — his wife when she died on **19 February 1813**, the day after their son Domenico;\n- **LUCIA LAUDATO** — twenty years old and his wife by 1814, bearing **Angelo** in March 1815.\n\n**Angela and Grazia may be one woman under two forenames**, in which case Francesco Carfora lost his mother at about thirteen and his father remarried within two years. **Or they are sisters, married in turn.** *The 1828 word was re-read at full resolution and says GRAZIA, so this is a disagreement between documents.*\n\n**THE HOUSEHOLDS ARE STILL NOT MERGED.** What has changed is that keeping them apart is now the cautious reading rather than the obvious one.",
+"ark": "ANTENATI an_ua14412 img23 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -5105,6 +5166,14 @@
 {
 "slug": "domenico-carfora",
 "name": "Domenico Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-carfora-of-matteo-carfora-angela-zimbardo",
+"name": "Angelo Carfora (b. 1815)",
 "via": "register",
 "vias": [
 "register"
@@ -5349,14 +5418,6 @@
 {
 "slug": "antonia-carfora",
 "name": "Antonia Carfora (1752-1828)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-carfora",
-"name": "Angelo Carfora",
 "via": "register",
 "vias": [
 "register"
@@ -8478,7 +8539,7 @@
 ]
 },
 {
-"slug": "daughter-falco",
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
 "name": "[daughter] Falco",
 "via": "register",
 "vias": [
@@ -9406,6 +9467,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "**ANDREANA CRISCI'S INFANT SISTER, DEAD AT SEVEN DAYS, THREE MONTHS AFTER ANDREANA'S WEDDING.**\n\n«*…i quali hanno dichiarato che a detto dì **diciassette** del mese corrente di **Gennajo**, ad ore **una** di notte, **CARMELA CRISCI**, **figlia di ARCANGELO CRISCI e SARA RUGGIERO**, **di giorni SETTE**, di professione contadina, domiciliata strada **Camellara***».\n\n**Arcangelo Crisci and Sara Ruggiero are Andreana's own parents** — they consented to her marriage to **Vincenzo Falco on 15 October 1814**, and the act of that marriage names them both. **This child was born about 10 January 1815**, so Sara Ruggiero was carrying her through her daughter's wedding.\n\n**AND THE MAN WHO REPORTED THE DEATH WAS A FALCO.** The second declarant is «*GIUSEPPE FALCO di anni trenta, massaro di campagna, strada Camellara, **vicini della defunta***» — **a neighbour, not a relative**, and not this household's Vincenzo. *The act says «vicini». It does not say «parente», and this archive has been caught before reading a neighbour as kin.* [[relationship-words-magnified]]\n\n**THERE IS A SECOND ARCANGELO CRISCI AT ARIENZO IN THIS VERY REGISTER** — married to **GRAZIA SPOSITO**, on **strada Capodicasa**. This act is taken as Andreana's father because it names **Sara Ruggiero** and puts the household on **strada Camellara**.",
 "ark": "ANTENATI an_ua14317 img4 — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "Jan 1815",
+"place": "Arienzo, strada Camellara",
+"evidence": "**HER BIRTH ACT, FOUND AFTER HER DEATH ACT AND IN THE SAME WEEK.** The 1815 BIRTH register: «*è comparso **ARCANGELO CRISCI** d'anni **QUARANTACINQUE**, di professione **COLONO**, domiciliato in detto Comune, strada **CAMELLARA** … e da **SARA RUGGIERO** sua moglie [legittima]*».\n\n**THIS IS THE FIRST TIME THIS ARCHIVE HAS HEARD ANDREANA CRISCI'S FATHER GIVE HIS OWN AGE.** **Forty-five in January 1815 puts Arcangelo Crisci's birth about 1770** — so he was about forty-four when he consented to Andreana's marriage to Vincenzo Falco on **15 October 1814**, and his wife bore another child three months later.\n\n**AND IT PUTS THE CRISCI HOUSEHOLD ON STRADA CAMELLARA** — the Falco street — which the marriage act does not say.\n\n**THERE IS A SECOND ARCANGELO CRISCI IN THIS SAME VOLUME**, married to **GRAZIA SPOSITO** on **strada Capodicasa**. *This act is taken as Andreana's father because it names Sara Ruggiero.*",
+"ark": "ANTENATI an_ua14412 img5 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -9416,10 +9484,12 @@
 "spouses": [],
 "children": [],
 "siblings": [],
-"d": "17 Jan 1815",
+"b": "Jan 1815",
 "dateFrom": {
+"b": "act",
 "d": "act"
-}
+},
+"d": "17 Jan 1815"
 },
 {
 "slug": "carmina-crisci",
@@ -12808,7 +12878,7 @@
 ]
 },
 {
-"slug": "teresa-vigliotta",
+"slug": "teresa-vigliotta-of-angelo-andrea-di-guida-teresa-vigl",
 "name": "Teresa Vigliotta",
 "via": "register",
 "vias": [
@@ -12977,6 +13047,56 @@
 }
 },
 {
+"slug": "angelandrea-di-guida",
+"name": "Angelandrea di Guida",
+"surname": "DI GUIDA",
+"household": "Angelandrea di Guida & Teresa Vigliotta",
+"role": "father",
+"events": [
+{
+"event": "gives his age and his street",
+"date": "18 Mar 1815",
+"place": "Arienzo, strada Maddalena",
+"evidence": "**ANTONIA DI GUIDA'S BROTHER — THE ONE WHOSE BAPTISM PROVED HER PARENTAGE — SEEN ALIVE AND KEEPING HOUSE.**\n\n«*L'anno **milleottocento quindici**, il giorno **diciotto** del mese di **Marzo** … è comparso **ANGELANDREA DI GUIDA** d'anni **VENTICINQUE**, di professione **colono**, domiciliato in detto Comune, strada **MADDALENA**, ed ha dichiarato … da **TERESA VIGLIOTTA** sua moglie legitima di anni **venticinque**, un **maschio** … **A cui se li è dato il nome di DOMENICO.***»\n\n**He is the hinge of this archive's whole di Guida case.** Baptised **29 November 1791** to *Giuseppe di Guida* and *Maddalena Rivetta*, he died at Arienzo on **21 October 1817** as the husband of **Teresa Vigliotta**, his civil act naming the same parents — **and it was that match, parish against civil, that proved Antonia di Guida's parentage.** [[di-guida-parents]]\n\n**Twenty-five in March 1815 puts his birth about 1790; the parish says November 1791.** *A year out, in the same direction these clerks always err.*\n\n**He is on STRADA MADDALENA — his father's street.**",
+"ark": "ANTENATI an_ua14412 img22 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "teresa-vigliotta-of-angelandrea-di-guida-teresa-viglio",
+"name": "Teresa Vigliotta",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "domenico-di-guida-of-angelandrea-di-guida-teresa-viglio",
+"name": "Domenico di Guida (d. 1814)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenico-di-guida-of-angelandrea-di-guida-teresa-viglio-2",
+"name": "Domenico di Guida (the second, b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
 "slug": "angelo-andrea-di-guida-of-giuseppe-di-guida-michedalena-rive",
 "name": "Angelo Andrea di Guida",
 "surname": "DI GUIDA",
@@ -13050,7 +13170,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "teresa-vigliotta",
+"slug": "teresa-vigliotta-of-angelo-andrea-di-guida-teresa-vigl",
 "name": "Teresa Vigliotta",
 "via": "register",
 "vias": [
@@ -13390,6 +13510,14 @@
 ]
 },
 {
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "via": "register",
@@ -13484,6 +13612,114 @@
 "spouses": [],
 "children": [],
 "siblings": []
+},
+{
+"slug": "domenico-di-guida-of-angelandrea-di-guida-teresa-viglio",
+"name": "Domenico di Guida (d. 1814)",
+"surname": "DI GUIDA",
+"household": "Angelandrea di Guida & Teresa Vigliotta",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "1814",
+"place": "Arienzo",
+"evidence": "«***DOMENICO DI GUIDA**, figlio di **ANGELO ANDREA DI GUIDA**, e di **TERESA VIGLIOTTA***» — read in the Arienzo death register for **1814**. **A nephew of Antonia di Guida**, and the first of two sons of that name.",
+"ark": "ANTENATI an_ua14316 img13 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "angelandrea-di-guida",
+"name": "Angelandrea di Guida",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "teresa-vigliotta-of-angelandrea-di-guida-teresa-viglio",
+"name": "Teresa Vigliotta",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "domenico-di-guida-of-angelandrea-di-guida-teresa-viglio-2",
+"name": "Domenico di Guida (the second, b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"d": "1814",
+"dateFrom": {
+"d": "act"
+}
+},
+{
+"slug": "domenico-di-guida-of-angelandrea-di-guida-teresa-viglio-2",
+"name": "Domenico di Guida (the second, b. 1815)",
+"surname": "DI GUIDA",
+"household": "Angelandrea di Guida & Teresa Vigliotta",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "18 Mar 1815",
+"place": "Arienzo, strada Maddalena",
+"evidence": "**Born at three in the morning on 18 March 1815 and given his dead brother's name.** The first Domenico died in **1814**; this one was born within the year.\n\n**The two acts were found the same afternoon, in two volumes, neither by looking for the other** — and together they are the clearest instance in this archive of a family reusing a name at the first opportunity. [[the-founders-children]]",
+"ark": "ANTENATI an_ua14412 img22 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "angelandrea-di-guida",
+"name": "Angelandrea di Guida",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "teresa-vigliotta-of-angelandrea-di-guida-teresa-viglio",
+"name": "Teresa Vigliotta",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "domenico-di-guida-of-angelandrea-di-guida-teresa-viglio",
+"name": "Domenico di Guida (d. 1814)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "18 Mar 1815",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "francesco-di-guida",
@@ -13742,7 +13978,7 @@
 ]
 },
 {
-"slug": "teresa-vigliotta",
+"slug": "teresa-vigliotta-of-angelo-andrea-di-guida-teresa-vigl",
 "name": "Teresa Vigliotta",
 "via": "register",
 "vias": [
@@ -15821,7 +16057,7 @@
 ]
 },
 {
-"slug": "daughter-falco",
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
 "name": "[daughter] Falco",
 "via": "register",
 "vias": [
@@ -16663,6 +16899,14 @@
 ]
 },
 {
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "via": "register",
@@ -17092,7 +17336,7 @@
 ]
 },
 {
-"slug": "daughter-falco",
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
 "name": "[daughter] Falco",
 "via": "register",
 "vias": [
@@ -17279,7 +17523,7 @@
 ]
 },
 {
-"slug": "daughter-falco",
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
 "name": "[daughter] Falco",
 "via": "register",
 "vias": [
@@ -19089,7 +19333,7 @@
 ]
 },
 {
-"slug": "daughter-falco",
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
 "name": "[daughter] Falco",
 "via": "register",
 "vias": [
@@ -19241,6 +19485,14 @@
 {
 "slug": "nicola-falco",
 "name": "Nicola Falco (1807-1809)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "daughter-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "[daughter] Falco (b. 5 Feb 1815)",
 "via": "register",
 "vias": [
 "register"
@@ -21895,6 +22147,14 @@
 ]
 },
 {
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "via": "register",
@@ -22850,6 +23110,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "mergedOn": "name and dates",
@@ -23550,6 +23818,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "daughter-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "[daughter] Falco (b. 5 Feb 1815)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "18 Mar 1819",
@@ -23811,6 +24087,14 @@
 {
 "slug": "nicola-falco",
 "name": "Nicola Falco (1807-1809)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "daughter-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "[daughter] Falco (b. 5 Feb 1815)",
 "via": "register",
 "vias": [
 "register"
@@ -24609,6 +24893,14 @@
 {
 "slug": "raffaele-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Raffaele Falco (of Giuseppe, the second, d. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
 "via": "register",
 "vias": [
 "register"
@@ -26376,6 +26668,14 @@
 ]
 },
 {
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "via": "register",
@@ -26945,6 +27245,14 @@
 ]
 },
 {
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "via": "register",
@@ -27104,6 +27412,14 @@
 {
 "slug": "raffaele-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Raffaele Falco (of Giuseppe, the second, d. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
 "via": "register",
 "vias": [
 "register"
@@ -27764,10 +28080,10 @@
 "ark": "ANTENATI an_ua14356 (Arienzo, Morti 1854) — CITED, the act not yet re-read at full resolution"
 },
 {
-"event": "gives his own age — thirty",
+"event": "an age that is contradicted seven times over in one year",
 "date": "17 Jan 1815",
 "place": "Arienzo, strada Camellara",
-"evidence": "**HE STATES HIS AGE, AND IT IS THE FIRST TIME THIS ARCHIVE HAS HEARD HIM DO IT.**\n\nDeclaring a neighbour's infant on 17 January 1815: «*e **GIUSEPPE FALCO di anni TRENTA**, di professione **MASSARO DI CAMPAGNA**, domiciliato in questo Comune, strada **CAMELLARA**, **vicini della defunta***».\n\n**Thirty in January 1815 puts his birth about 1785.** His wife **Antonia di Guida was baptised 31 October 1783** and they married on **4 August 1802** — **so he was about seventeen and she eighteen.** Young, and not impossibly so.\n\n**WHY THIS IS TAKEN AS HIM AND NOT ANOTHER GIUSEPPE FALCO.** The trade and the street both match the act of **26 February 1811**, where the father of the first Raffaele is «*di professione **MASSARO DI CAMPAGNA***» on **strada Camellara** — and *massaro di campagna* is not a common description in these registers. **This archive has nevertheless documented three men of this name in three consecutive years**, one of them a *contadino* of the same street married to Gelsomina Vigliotta. **The identification is probable, not proven**, and the age should be treated as his only while that holds. [[ages-are-guessed]]",
+"evidence": "**HE STATES HIS AGE, AND IT IS THE FIRST TIME THIS ARCHIVE HAS HEARD HIM DO IT.**\n\nDeclaring a neighbour's infant on 17 January 1815: «*e **GIUSEPPE FALCO di anni TRENTA**, di professione **MASSARO DI CAMPAGNA**, domiciliato in questo Comune, strada **CAMELLARA**, **vicini della defunta***».\n\n**Thirty in January 1815 puts his birth about 1785.** His wife **Antonia di Guida was baptised 31 October 1783** and they married on **4 August 1802** — **so he was about seventeen and she eighteen.** Young, and not impossibly so.\n\n**WHY THIS IS TAKEN AS HIM AND NOT ANOTHER GIUSEPPE FALCO.** The trade and the street both match the act of **26 February 1811**, where the father of the first Raffaele is «*di professione **MASSARO DI CAMPAGNA***» on **strada Camellara** — and *massaro di campagna* is not a common description in these registers. **This archive has nevertheless documented three men of this name in three consecutive years**, one of them a *contadino* of the same street married to Gelsomina Vigliotta. **The identification is probable, not proven**, and the age should be treated as his only while that holds. [[ages-are-guessed]]\n\n---\n\n**CORRECTED THE SAME DAY, AND THE CORRECTION IS WORTH MORE THAN THE FINDING.** Within hours of publishing the above, the **1815 BIRTH register** produced **the same man on the same street at the same trade — aged THIRTY-SEVEN**:\n\n«*18 December 1815 … è comparso **GIUSEPPE FALCO** d'anni **TRENTASETTE**, di professione **MASSARO DI CAMPAGNA**, domiciliato in questo Comune, strada **CAMELLARA** … e da **ANTONIA DI GUIDA** di anni **ventinove** sua moglie legittima*».\n\n**That act names his wife. It is certainly him.** So **«born about 1785» is withdrawn** — thirty-seven in December 1815 puts his birth about **1778**, and the two statements are **seven years apart in eleven months**.\n\n**AND THE OTHER HALF OF THE ARGUMENT ABOVE IS SIMPLY FALSE.** It was published on the reasoning that «*massaro di campagna* is not a common description in these registers». **The 1815 birth register gives that exact trade to the OTHER Giuseppe Falco too** — «*d'anni **trentaquattro**, di professione **massaro di campagna***», 5 February 1815, husband of **Gelsomina Vigliotta** — who had been a *contadino* in the 1813 register. **The trade separates nothing.**\n\n**THREE STATEMENTS, ONE YEAR, ONE TRADE:** thirty on **17 January** (strada Camellara, death register), thirty-four on **5 February** (strada Costa, Gelsomina Vigliotta's husband), thirty-seven on **18 December** (strada Camellara, Antonia di Guida's husband). **Only the street and the wife's name do any work at all.** [[ages-are-guessed]]",
 "ark": "ANTENATI an_ua14317 img4 — READ FROM THE IMAGE"
 }
 ],
@@ -27894,6 +28210,14 @@
 {
 "slug": "raffaele-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Raffaele Falco (of Giuseppe, the second, d. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
 "via": "register",
 "vias": [
 "register"
@@ -28090,6 +28414,14 @@
 {
 "slug": "nicola-falco",
 "name": "Nicola Falco (1807-1809)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "daughter-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "[daughter] Falco (b. 5 Feb 1815)",
 "via": "register",
 "vias": [
 "register"
@@ -28342,6 +28674,14 @@
 {
 "slug": "nicola-falco",
 "name": "Nicola Falco (1807-1809)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "daughter-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "[daughter] Falco (b. 5 Feb 1815)",
 "via": "register",
 "vias": [
 "register"
@@ -29112,7 +29452,7 @@
 ]
 },
 {
-"slug": "daughter-falco",
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
 "name": "[daughter] Falco",
 "via": "register",
 "vias": [
@@ -29683,7 +30023,7 @@
 ]
 },
 {
-"slug": "daughter-falco",
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
 "name": "[daughter] Falco",
 "via": "register",
 "vias": [
@@ -30371,6 +30711,14 @@
 ]
 },
 {
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "via": "register",
@@ -30532,6 +30880,14 @@
 {
 "slug": "raffaele-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Raffaele Falco (of Giuseppe, the second, d. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
 "via": "register",
 "vias": [
 "register"
@@ -30959,6 +31315,172 @@
 "dp": "Forchia, Italy"
 },
 {
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
+"surname": "FALCO",
+"household": "Giuseppe Falco & Antonia di Guida",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "17 Dec 1815",
+"place": "Arienzo, strada Camellara",
+"evidence": "**A DAUGHTER OF THIS HOUSEHOLD THAT THIS ARCHIVE DID NOT HAVE, AND SHE WAS NAMED FOR HER MOTHER.**\n\n«*L'anno **milleottocento quindici**, il giorno **diciotto** del mese di **Dicembre**, ad ore **quindici**, avanti di Noi **Daniele Sorice**, Sindaco … è comparso **GIUSEPPE FALCO** d'anni **trentasette**, di professione **massaro di campagna**, domiciliato in questo Comune, strada **CAMELLARA**, ed ha dichiarato che il giorno **diciassette** del sopradetto mese ad ore **ventuno** è **nata** nella sua propria casa, da lui dichiarante, e da **ANTONIA DI GUIDA** di anni **ventinove** sua moglie legittima, una **femina** che ci ha presentato. **A cui se li è dato il nome di MARIA ANTONIA.***»\n\n**Born 17 December 1815 at nine in the evening**, declared by her father the next day.\n\n**SHE ARRIVED TEN WEEKS AFTER HER BROTHER DIED.** The second **Raffaele Falco** of this house was buried on **9 October 1815** at two years old; Antonia di Guida was seven months pregnant when it happened.\n\n**NOTHING IS KNOWN OF HER AFTER THIS ACT.** She is not in the marriage indexes this archive has read, nor in the Arienzo death registers of 1816–1865, which are now read out for Falco. **That is a gap worth naming rather than a silence worth assuming**: the birth act's own margin in this volume carries later marriage dates for other children, and hers is blank.",
+"ark": "ANTENATI an_ua14412 img56 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonia-di-guida",
+"name": "Antonia di Guida",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "mattheus-falco",
+"name": "Mattheus (Matteo) Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Giovanni Falco (the elder)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maddalena Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clemente-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida-2",
+"name": "Maddalena Falco (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-giuseppe-falco-antonia-di-guida-2",
+"name": "Giovanni Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
+"name": "Matteo Falco (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-maria-lucia-falco",
+"name": "Francesca Maria Lucia Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-maria-falco",
+"name": "Angela Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaele Falco (of Giuseppe, d. 1811)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-giuseppe-falco-antonia-di-guida-2",
+"name": "Raffaele Falco (of Giuseppe, the second, d. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "17 Dec 1815",
+"dateFrom": {
+"b": "act"
+}
+},
+{
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
 "surname": "FALCO",
@@ -31062,7 +31584,7 @@
 ]
 },
 {
-"slug": "daughter-falco",
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
 "name": "[daughter] Falco",
 "via": "register",
 "vias": [
@@ -33273,6 +33795,14 @@
 ]
 },
 {
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "via": "register",
@@ -33425,6 +33955,14 @@
 {
 "slug": "raffaele-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Raffaele Falco (of Giuseppe, the second, d. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
 "via": "register",
 "vias": [
 "register"
@@ -34262,6 +34800,14 @@
 ]
 },
 {
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "via": "register",
@@ -34898,6 +35444,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "daughter-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "[daughter] Falco (b. 5 Feb 1815)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "d": "1809",
@@ -34994,7 +35548,7 @@
 ]
 },
 {
-"slug": "daughter-falco",
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
 "name": "[daughter] Falco",
 "via": "register",
 "vias": [
@@ -35337,6 +35891,14 @@
 {
 "slug": "nicola-falco",
 "name": "Nicola Falco (1807-1809)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "daughter-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "[daughter] Falco (b. 5 Feb 1815)",
 "via": "register",
 "vias": [
 "register"
@@ -35815,7 +36377,7 @@
 ]
 },
 {
-"slug": "daughter-falco",
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
 "name": "[daughter] Falco",
 "via": "register",
 "vias": [
@@ -35975,7 +36537,7 @@
 ]
 },
 {
-"slug": "daughter-falco",
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
 "name": "[daughter] Falco",
 "via": "register",
 "vias": [
@@ -37130,6 +37692,14 @@
 ]
 },
 {
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "via": "register",
@@ -37595,7 +38165,7 @@
 ]
 },
 {
-"slug": "daughter-falco",
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
 "name": "[daughter] Falco",
 "via": "register",
 "vias": [
@@ -37803,6 +38373,14 @@
 ]
 },
 {
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "via": "register",
@@ -37955,6 +38533,14 @@
 {
 "slug": "raffaele-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaele Falco (of Giuseppe, d. 1811)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
 "via": "register",
 "vias": [
 "register"
@@ -39245,6 +39831,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "child-morgillo",
+"name": "[child] Morgillo (b. Jan 1815)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": []
@@ -39340,6 +39934,14 @@
 {
 "slug": "nicola-falco",
 "name": "Nicola Falco (1807-1809)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "daughter-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "[daughter] Falco (b. 5 Feb 1815)",
 "via": "register",
 "vias": [
 "register"
@@ -39442,6 +40044,14 @@
 {
 "slug": "nicola-falco",
 "name": "Nicola Falco (1807-1809)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "daughter-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "[daughter] Falco (b. 5 Feb 1815)",
 "via": "register",
 "vias": [
 "register"
@@ -39627,7 +40237,7 @@
 ]
 },
 {
-"slug": "daughter-falco",
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
 "name": "[daughter] Falco",
 "via": "register",
 "vias": [
@@ -39784,7 +40394,7 @@
 ]
 },
 {
-"slug": "daughter-falco",
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
 "name": "[daughter] Falco",
 "via": "register",
 "vias": [
@@ -40418,7 +41028,7 @@
 ]
 },
 {
-"slug": "daughter-falco",
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
 "name": "[daughter] Falco",
 "via": "register",
 "vias": [
@@ -40789,7 +41399,7 @@
 ]
 },
 {
-"slug": "daughter-falco",
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
 "name": "[daughter] Falco",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
@@ -40933,6 +41543,116 @@
 ]
 }
 ]
+},
+{
+"slug": "daughter-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "[daughter] Falco (b. 5 Feb 1815)",
+"surname": "FALCO",
+"household": "Giuseppe Falco & Gelsomina Vigliotta",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "5 Feb 1815",
+"place": "Arienzo, strada Costa",
+"evidence": "«*L'anno **milleottocentoquindici**, il giorno **cinque** del mese di **Febrajo** … è comparso **GIUSEPPE FALCO** d'anni **TRENTAQUATTRO**, di professione **MASSARO DI CAMPAGNA**, domiciliato in detto Comune, strada **Co⟨sta⟩** … è **nata** nella sua propria casa da lui dichiarante, e da **GELSOMINA VIGLIOTTA** sua moglie [legittima]*».\n\n**A daughter born 5 February 1815** — the child's given name falls below the band that was read and **is not recorded here**.\n\n**THIS ACT DESTROYED THE ARGUMENT THAT SEPARATED THE TWO GIUSEPPE FALCO BY TRADE.** In the 1813 birth register this man is a **contadino** of strada **Costa**; here, two years later, he is a **massaro di campagna** — which is exactly what the other Giuseppe Falco, of strada Camellara, is called in the same year. **A trade in these registers is what a man said on the day.**\n\nThirty-four in February 1815 puts his birth about **1781**; the 1813 act made him thirty-three in January 1813, so about **1780**. *Those two agree, which is more than this archive can say for the other household.*",
+"ark": "ANTENATI an_ua14412 img13 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gelsomina-vigliotta",
+"name": "Gelsomina Vigliotta",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "domenico-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Domenico Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Rosaria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenico-clemente-falco",
+"name": "Domenico Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Rosaria Falco (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonio-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Antonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasqua-falco",
+"name": "Pasqua Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nicola-falco",
+"name": "Nicola Falco (1807-1809)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "5 Feb 1815",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "agostino-falcone",
@@ -43044,6 +43764,30 @@
 "dateFrom": {
 "d": "act"
 }
+},
+{
+"slug": "lucia-laudato",
+"name": "Lucia Laudato",
+"surname": "LAUDATO",
+"household": "Matteo Carfora & Angela Zimbardo",
+"role": "married in",
+"events": [
+{
+"event": "named as living",
+"date": "23 Mar 1815",
+"place": "Arienzo, strada Signorindico",
+"evidence": "«*da **LUCIA LAUDATO** sua moglie legitima di anni **VENTI***» — **twenty years old in March 1815**, so born about **1795**, and married to a man of thirty-nine. **Nineteen years between them**, which is what a widower's second or third marriage looked like.",
+"ark": "ANTENATI an_ua14412 img23 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
 },
 {
 "slug": "giuseppe-lettieri",
@@ -45600,7 +46344,16 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": [],
+"siblings": [
+{
+"slug": "child-morgillo",
+"name": "[child] Morgillo (b. Jan 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "d": "23 Sep 1814",
 "dateFrom": {
 "d": "act"
@@ -46467,6 +47220,14 @@
 {
 "slug": "amalia-morgillo",
 "name": "Amalia Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "child-morgillo",
+"name": "[child] Morgillo (b. Jan 1815)",
 "via": "register",
 "vias": [
 "register"
@@ -47585,6 +48346,60 @@
 ]
 }
 ]
+},
+{
+"slug": "child-morgillo",
+"name": "[child] Morgillo (b. Jan 1815)",
+"surname": "MORGILLO",
+"household": "Giovan'Antonio Morgillo & Rosa Falco",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "Jan 1815",
+"place": "Arienzo, strada Maddalena",
+"evidence": "**A CHILD BORN TO ROSA FALCO, FOUR MONTHS AFTER SHE BURIED AMALIA.** The 1815 BIRTH register: «*è comparso **MARCANTONIO MORGILLO** d'anni **trenta**, di professione **bracciale**, domiciliato in detto Comune, strada **MADDALENA** … e da **ROSA FALCO** sua moglie legitima d'anni **trenta***».\n\n**THE HUSBAND'S FORENAME DOES NOT MATCH AND IS NOT FORCED TO.** The death act of September 1814 calls him **GIOVAN'ANTONIO MORGILLO**; this one **MARCANTONIO**. *Both were read from the image. Either one clerk was wrong, or there are two Morgillo men married to a Rosa Falco, which this archive will not assume in either direction.*\n\n**She is on STRADA MADDALENA**, where the di Guida lived and where **Maria Falco**, widow of Francesco Quotolo, also lived. **Three Falco-connected households on one street and no document joining any of them.**",
+"ark": "ANTENATI an_ua14412 img4 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "rosa-falco-of-giovan-antonio-morgillo-rosa-falco",
+"name": "Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovan-antonio-morgillo",
+"name": "Giovan'Antonio Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "amalia-morgillo",
+"name": "Amalia Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "Jan 1815",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "reinhard-muller",
@@ -54062,6 +54877,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "daughter-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "[daughter] Falco (b. 5 Feb 1815)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [],
@@ -54175,7 +54998,7 @@
 "siblings": []
 },
 {
-"slug": "teresa-vigliotta",
+"slug": "teresa-vigliotta-of-angelo-andrea-di-guida-teresa-vigl",
 "name": "Teresa Vigliotta",
 "surname": "VIGLIOTTA",
 "household": "Angelo Andrea di Guida & Teresa Vigliotta",
@@ -54223,6 +55046,56 @@
 {
 "slug": "maddalena-di-guida",
 "name": "Maddalena di Guida",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
+"slug": "teresa-vigliotta-of-angelandrea-di-guida-teresa-viglio",
+"name": "Teresa Vigliotta",
+"surname": "VIGLIOTTA",
+"household": "Angelandrea di Guida & Teresa Vigliotta",
+"role": "mother",
+"events": [
+{
+"event": "named as living",
+"date": "18 Mar 1815",
+"place": "Arienzo, strada Maddalena",
+"evidence": "Twenty-five in March 1815, so born about **1790**. **Antonia di Guida's sister-in-law**, and widowed in October 1817.",
+"ark": "ANTENATI an_ua14412 img22 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "angelandrea-di-guida",
+"name": "Angelandrea di Guida",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "domenico-di-guida-of-angelandrea-di-guida-teresa-viglio",
+"name": "Domenico di Guida (d. 1814)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenico-di-guida-of-angelandrea-di-guida-teresa-viglio-2",
+"name": "Domenico di Guida (the second, b. 1815)",
 "via": "register",
 "vias": [
 "register"
@@ -56871,6 +57744,14 @@
 {
 "slug": "domenico-carfora",
 "name": "Domenico Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-carfora-of-matteo-carfora-angela-zimbardo",
+"name": "Angelo Carfora (b. 1815)",
 "via": "register",
 "vias": [
 "register"
