@@ -46,13 +46,40 @@ const more = [
    The husband's own link is safe for the opposite reason — `slugFor`
    matches on GENERATION AND NAME together. */
 const SPOUSE_SLUG = (() => {
-  const seen = new Map();
+  /* people.json WRITES A MARRIED WOMAN "Maiden (Married)" — "Giovanna
+     Arricole (Falco)", "Constanza Maione (Falco)" — while line.json writes
+     her maiden name alone, so plain equality missed every wife who took
+     the surname.
+
+     TWO MAPS, TRIED IN ORDER, NOT ONE MAP WITH BOTH KEYS IN IT. The first
+     attempt keyed every person under their full name and their name minus
+     the parenthetical, in a single map — which let "Francesca Crisci
+     (Falco)" collide with a different woman actually named Francesca
+     Crisci and poison a key that had been matching correctly. Five links
+     became one. An exact name is better evidence than a stripped one, so
+     it is asked first and only falls through when it finds nothing. */
+  const bare = (n) => String(n || "").replace(/\s*\([^)]*\)\s*$/, "").trim();
+  const exact = new Map(), loose = new Map();
+  const put = (m, k, slug) => { if (k) m.set(k, m.has(k) ? null : slug); };
   for (const p of people) {
-    const n = String(p.name || "").trim();
-    if (!n) continue;
-    seen.set(n, seen.has(n) ? null : p.slug);   // a second bearer poisons it
+    put(exact, String(p.name || "").trim(), p.slug);
+    const b = bare(p.name);
+    if (b && b !== String(p.name || "").trim()) put(loose, b, p.slug);
   }
-  return (name) => seen.get(String(name || "").trim()) || null;
+  /* A KEY WITH TWO BEARERS IS POISONED, NEVER PICKED BETWEEN. Three people
+     here are called Andreana Crisci — generation three's wife, a daughter
+     named after her, and an unrelated woman — so generation three keeps a
+     name and no link, which is the right answer. This archive has two
+     Raffaele Falcos and two Carmine Antonios on the spine alone; a link to
+     the wrong woman is worse than no link at all. */
+  return (name) => {
+    const n = String(name || "").trim();
+    // "Chiara Rivetti / Rivotti" offers two spellings; try each.
+    const keys = [n, ...n.split("/").map((x) => x.trim())].filter(Boolean);
+    for (const k of keys) { const s = exact.get(k); if (s) return s; }
+    for (const k of keys) { const s = loose.get(k); if (s) return s; }
+    return null;
+  };
 })();
 const withSpouse = (g) => ({
   ...g,
@@ -176,7 +203,7 @@ const withSpouse = (g) => ({
         person page. This line holds two Raffaele Falco — generations four and six, grandfather
         and grandson — who slug identically, and a Carmine Antonio at five and seven. A name is
         not an identity here; a position in the line is. */}
-    <Spine rows={line.map(withSpouse)} u={u} compact={true} full="/direct-line/" />
+    <Spine rows={line.map(withSpouse)} u={u} compact={true} full="/direct-line/" archiveKey="falco" />
     <p class="cap" style="margin-top:14px"><a href={u("/direct-line/")}>The full spine, with the
     evidence under each generation →</a></p>
   </section>
