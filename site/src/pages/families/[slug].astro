@@ -1,0 +1,152 @@
+---
+/* One surname, and every person of it this archive holds.
+ *
+ * /families/ has listed twelve surnames since it was written, each with the
+ * marriages that carried it into the Falco line — «a family history that
+ * follows only one surname is half a history». What it could not do is show
+ * you the people: a reader saw that Crisci married in three times and could
+ * not see one of the fifty-three Crisci this archive knows.
+ *
+ * So each family gets its own page, drawn with the same `Descent` row as the
+ * front page — the couple in two equal columns, the children beneath, the
+ * brothers and sisters under whichever of the two they belong to, and
+ * everything shut until opened.
+ *
+ * EVERYONE OF THE NAME, not only the couples. A person with no marriage and
+ * no children recorded still gets a row, because being unmarried is not a
+ * reason to be missing from the list of your own family.
+ *
+ * The kin come from people.json, which keys children and siblings per person
+ * with a slug and marks the child who carried the line with `via: "line"`.
+ * Nothing here matches a person by name: this archive has two Raffaele
+ * Falcos on the spine alone.
+ */
+import Base from "../../layouts/Base.astro";
+import Descent from "@daviddef/archive-kit/components/Descent.astro";
+import { u } from "../../lib/url.js";
+import fams from "../../data/families.json";
+import { people } from "../../lib/people.js";
+
+/* Astro hoists getStaticPaths and runs it on its own, so a const declared
+   in the frontmatter is not in scope inside it. Defined where it is used. */
+export function getStaticPaths() {
+  const slug = (x) =>
+    String(x).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "")
+      .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return fams.families.map((f) => ({
+    params: { slug: slug(f.sn) },
+    props: { fam: f },
+  }));
+}
+const { fam } = Astro.props;
+
+/* «di Guida» is filed under GUIDA and its people are recorded DI GUIDA —
+   eighteen of them, and an exact match found none. The Italian particle is
+   part of how a clerk wrote the name and not part of which family it is,
+   so both sides drop a leading di/de/della/del/lo/la before comparing.
+   Nothing else is normalised: this is a particle rule, not a fuzzy match. */
+/* The family prose carries root-relative links — «/open-questions/»,
+   «/documents/» — and this site is served under /TheFalco. The kit's
+   Families component has always rewritten them; passing the same HTML
+   through `set:html` raw does not, and the link checker caught three.
+   The same one-line fix, kept here beside the prose it repairs. */
+const B = u("/");
+const fixHref = (x) => String(x ?? "").replace(/href=(['"])\//g, `href=$1${B}`);
+
+const norm = (s) =>
+  String(s || "").trim().toUpperCase()
+    .replace(/^(DI|DE|DEL|DELLA|DELLO|DEI|LA|LO)\s+/, "");
+const P_BY_SLUG = new Map(people.map((q) => [q.slug, q]));
+const lifeOf = (q) => [q && q.b, q && q.d].filter(Boolean).join(" – ");
+
+const card = (c) => {
+  const full = P_BY_SLUG.get(c.slug);
+  return {
+    name: c.name,
+    href: c.slug && full && !full.living ? `/people/${c.slug}/` : null,
+    dates: full && !full.living ? lifeOf(full) : "",
+    line: c.via === "line" || (c.vias || []).includes("line"),
+  };
+};
+
+const ours = people
+  .filter((p) => norm(p.surname) === norm(fam.sn))
+  .sort((a, b) => {
+    const y = (x) => Number((String(x.b || "").match(/\b(1[5-9]\d\d|20\d\d)\b/) || [])[1] || 9999);
+    return y(a) - y(b);
+  });
+
+const rows = ours.map((p) => {
+  const sp = (p.spouses || [])[0] || null;
+  const her = sp && sp.slug ? P_BY_SLUG.get(sp.slug) : null;
+  return {
+    name: p.name,
+    href: p.slug && !p.living ? `/people/${p.slug}/` : "",
+    living: !!p.living,
+    era: [p.b, p.d].filter(Boolean).map((x) => (String(x).match(/\b(1[5-9]\d\d|20\d\d)\b/) || [])[1]).filter(Boolean).join(" → ") || undefined,
+    born: p.living ? "" : (p.b || ""),
+    died: p.living ? "" : (p.d || ""),
+    place: p.living ? "" : (p.bp || p.dp || ""),
+    spouse: sp ? sp.name : "",
+    spouseHref: sp && sp.slug && her && !her.living ? `/people/${sp.slug}/` : null,
+    spouseAlt: sp ? "" : "no marriage recorded for them here",
+    children: p.living ? [] : (p.children || []).map(card),
+    hisSiblings: p.living ? [] : (p.siblings || []).map(card),
+    herSiblings: p.living || !her ? [] : (her.siblings || []).map(card),
+    hisLabel: String(p.name).split(" ")[0] + "’s",
+    herLabel: sp ? String(sp.name).split(" ")[0] + "’s" : "Theirs",
+    confidence: (p.sources || []).length ? "a record has been read" : "",
+  };
+});
+
+const marriages = (fam.into || []).length;
+---
+<Base
+  title={fam.name}
+  eyebrow={`${rows.length} of the name`}
+  dek={fam.times}>
+
+  <section class="blk">
+    <p class="lede" set:html={fixHref(fam.body)} />
+    {fam.note ? <p set:html={fixHref(fam.note)} /> : null}
+    {fam.where ? <p class="dek"><strong>Where.</strong> {fam.where}</p> : null}
+    <p class="cap"><a href={u("/families/")}>&larr; All twelve families, and the marriages that carried them in</a></p>
+  </section>
+
+  {marriages > 0 && (
+    <section class="blk">
+      <h2>The marriages that carried this name into the line</h2>
+      <div class="scroll"><table>
+        <thead><tr><th>Generation</th><th>Falco</th><th>married</th></tr></thead>
+        <tbody>
+          {(fam.into || []).map(([g, a, b]) => (
+            <tr><td class="mono">{g === "—" ? "collateral" : "gen " + g}</td><td>{a}</td><td>{b}</td></tr>
+          ))}
+        </tbody>
+      </table></div>
+    </section>
+  )}
+
+  <section class="blk">
+    <h2>Everyone of the name</h2>
+    {rows.length === 0 ? (
+      /* Esposito is on the families page because a marriage carried the name
+         into this line, and the register index holds nobody under it yet. An
+         empty list that says nothing looks like a fault; one that says why is
+         a statement about the work still to do. */
+      <p class="dek">This archive holds <strong>no people</strong> under
+      <strong>{fam.name}</strong> yet. The name is here because a marriage carried it into the
+      line &mdash; the marriages are above &mdash; and the register sweeps have not yet returned
+      anybody of it. <a href={u("/searched/")}>What has been read &rarr;</a></p>
+    ) : (
+      <Fragment>
+        <p class="dek">All <strong>{rows.length}</strong> people this archive holds under
+        <strong>{fam.name}</strong>, oldest first, in the shape the front page uses &mdash; the
+        couple in two equal columns, the children beneath them, brothers and sisters under
+        whichever of the two they belong to. Everything is shut until you open it, and a person
+        with no marriage recorded still has a row.</p>
+        <Descent rows={rows} u={u} archiveKey="falco" />
+      </Fragment>
+    )}
+  </section>
+</Base>
