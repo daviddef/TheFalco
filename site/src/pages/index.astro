@@ -4,6 +4,8 @@ import WaysIn from "@daviddef/archive-kit/components/WaysIn.astro";
 import Numbers from "@daviddef/archive-kit/components/Numbers.astro";
 import PlaceSpark from "@daviddef/archive-kit/components/PlaceSpark.astro";
 import MarriageChart from "@daviddef/archive-kit/components/MarriageChart.astro";
+import Spine from "@daviddef/archive-kit/components/Spine.astro";
+import line from "../data/line.json";
 import { chartGroups } from "../lib/marriedin.js";
 import atlas from "../../public/atlas-data.json";
 import P from "../components/P.astro";
@@ -139,6 +141,19 @@ const more = [
 
 
 <section class="blk">
+  <section class="blk">
+    <h2>The line, nine generations</h2>
+    <p class="dek">From Matteo, born about 1747 at Arienzo, to the generation that left for
+    Queensland. Seven of the nine never moved out of one town.</p>
+    {/* Compact mode links each row to its own generation anchor on the full spine, NOT to a
+        person page. This line holds two Raffaele Falco — generations four and six, grandfather
+        and grandson — who slug identically, and a Carmine Antonio at five and seven. A name is
+        not an identity here; a position in the line is. */}
+    <Spine rows={line} u={u} compact={true} full="/direct-line/" />
+    <p class="cap" style="margin-top:14px"><a href={u("/direct-line/")}>The full spine, with the
+    evidence under each generation →</a></p>
+  </section>
+
   <h2>The families who married in</h2>
   <p class="dek">Seventy-six surnames joined this line, and each is here for one reason — that a
   person married a person. They are grouped by <strong>how they reach this family</strong>,
