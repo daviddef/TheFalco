@@ -61,7 +61,9 @@ for step in steps:
         cmd = ("python3 -c \"src=open('node_modules/@daviddef/archive-kit/kit/tools/sitemap.py')"
                ".read().replace('dist = os.path.join(site, \\\"dist\\\")',"
                "'dist = os.path.join(site, \\\"" + OUT + "\\\")');"
-               "exec(compile(src,'sitemap.py','exec'),{'__name__':'__main__'})\"")
+               "exec(compile(src,'sitemap.py','exec'),"
+               "{'__name__':'__main__',"
+               "'__file__':'node_modules/@daviddef/archive-kit/kit/tools/sitemap.py'})\"")
     run(name, cmd)
 
 print("\nALL GREEN — every step in package.json's build ran, against " + OUT)
