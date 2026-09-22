@@ -38,7 +38,7 @@
    },
    {
     "who": "Angelo Falco",
-    "whoSlug": "angelo-falco-2",
+    "whoSlug": "angelo-falco",
     "to": "Maria Bucolo (Falco)",
     "toSlug": "maria-bucolo",
     "into": "Bucolo",
@@ -366,7 +366,7 @@
    },
    {
     "who": "Angelo Falco",
-    "whoSlug": "angelo-falco-4",
+    "whoSlug": "angelo-falco-3",
     "to": "Vincenza De Lucia (Falco)",
     "toSlug": "vincenza-de-lucia",
     "into": "De Lucia",
@@ -864,7 +864,7 @@
    },
    {
     "name": "Angelo Falco",
-    "slug": "angelo-falco-5",
+    "slug": "angelo-falco-4",
     "b": "1856",
     "bp": "",
     "d": "Jan 29 1875",
@@ -920,7 +920,7 @@
    },
    {
     "name": "Angelo Falco",
-    "slug": "angelo-falco-4",
+    "slug": "angelo-falco-3",
     "b": "1862",
     "bp": "",
     "d": "",
@@ -1344,7 +1344,7 @@
    },
    {
     "name": "Angelo Falco",
-    "slug": "angelo-falco-3",
+    "slug": "angelo-falco-2",
     "b": "",
     "bp": "",
     "d": "",
@@ -2280,7 +2280,7 @@
     "who": "Maria Bucolo (Falco)",
     "whoSlug": "maria-bucolo",
     "to": "Angelo Falco",
-    "toSlug": "angelo-falco-2",
+    "toSlug": "angelo-falco",
     "into": "Falco",
     "living": true
    },
@@ -4089,7 +4089,7 @@
     "who": "Vincenza De Lucia (Falco)",
     "whoSlug": "vincenza-de-lucia",
     "to": "Angelo Falco",
-    "toSlug": "angelo-falco-4",
+    "toSlug": "angelo-falco-3",
     "into": "Falco",
     "living": false
    }

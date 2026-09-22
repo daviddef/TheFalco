@@ -138,7 +138,7 @@
 ]
 },
 {
-"slug": "maria-carfora",
+"slug": "maria-carfora-of-carmine-annecchino-maria-carfora",
 "name": "Maria Carfora",
 "via": "register",
 "vias": [
@@ -232,7 +232,7 @@
 ]
 },
 {
-"slug": "maria-carfora",
+"slug": "maria-carfora-of-carmine-annecchino-maria-carfora",
 "name": "Maria Carfora",
 "via": "register",
 "vias": [
@@ -326,7 +326,7 @@
 ]
 },
 {
-"slug": "maria-carfora",
+"slug": "maria-carfora-of-carmine-annecchino-maria-carfora",
 "name": "Maria Carfora",
 "via": "register",
 "vias": [
@@ -483,7 +483,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "maria-carfora",
+"slug": "maria-carfora-of-carmine-annecchino-maria-carfora",
 "name": "Maria Carfora",
 "via": "register",
 "vias": [
@@ -920,7 +920,7 @@
 ]
 },
 {
-"slug": "maria-carfora",
+"slug": "maria-carfora-of-carmine-annecchino-maria-carfora",
 "name": "Maria Carfora",
 "via": "register",
 "vias": [
@@ -1071,7 +1071,7 @@
 ]
 },
 {
-"slug": "maria-carfora",
+"slug": "maria-carfora-of-carmine-annecchino-maria-carfora",
 "name": "Maria Carfora",
 "via": "register",
 "vias": [
@@ -1172,7 +1172,7 @@
 ]
 },
 {
-"slug": "maria-carfora",
+"slug": "maria-carfora-of-carmine-annecchino-maria-carfora",
 "name": "Maria Carfora",
 "via": "register",
 "vias": [
@@ -1377,7 +1377,7 @@
 ]
 },
 {
-"slug": "maria-carfora",
+"slug": "maria-carfora-of-carmine-annecchino-maria-carfora",
 "name": "Maria Carfora",
 "via": "register",
 "vias": [
@@ -3606,7 +3606,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "angelo-falco-2",
+"slug": "angelo-falco",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -3982,6 +3982,181 @@
 "siblings": []
 },
 {
+"slug": "francesco-carbone",
+"name": "Francesco Carbone",
+"surname": "CARBONE",
+"household": "Prisco Carbone & Antonia Crisci",
+"role": "child",
+"events": [
+{
+"event": "named as living",
+"date": "Oct 1811",
+"place": "Arienzo",
+"evidence": "«*uno per nome **FRANCESCO**, di professione **salsolajo**, di anni **quarantacinque***» — alive in October 1811, born about **1766**.",
+"ark": "ANTENATI an_ua14313 img39 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "antonia-crisci",
+"name": "Antonia Crisci (1736-1811)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "prisco-carbone",
+"name": "Prisco Carbone (d. before 1811)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "maria-carbone",
+"name": "Maria Carbone",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
+"slug": "maria-carbone",
+"name": "Maria Carbone",
+"surname": "CARBONE",
+"household": "Pasquale Carfora & Maria Carbone",
+"role": "mother",
+"events": [
+{
+"event": "named as living",
+"date": "1809",
+"place": "Arienzo, strada Camellara",
+"evidence": "Alive in 1809 and again in October 1811, born about **1769**, daughter of **Prisco Carbone and Antonia Crisci** of strada Camellara. See [[the household of her parents]].",
+"ark": "ANTENATI an_ua14311 img53 — READ FROM THE IMAGE"
+},
+{
+"event": "named as living",
+"date": "Oct 1811",
+"place": "Arienzo",
+"evidence": "«*l'altra chiamata **MARIA**, di anni **quarantadue**, **maritata col detto PASQUALE CARFORA***» — alive in October 1811, born about **1769**, **and married to a Pasquale Carfora**.\n\n**THIS ARCHIVE ALREADY HOLDS A PASQUALE CARFORA — DEAD BY 1827.** A man married by 1811 to a woman born in 1769 would be of exactly that age. **The two are probably one man, and this act gives him a wife the 1827 record did not.** *Probable; nothing here names his parents or his street.*",
+"ark": "ANTENATI an_ua14313 img39 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "antonia-crisci",
+"name": "Antonia Crisci (1736-1811)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "prisco-carbone",
+"name": "Prisco Carbone (d. before 1811)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [
+{
+"slug": "pasquale-carfora-of-pasquale-carfora-maria-carbone",
+"name": "Pasquale Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "margarita-carfora",
+"name": "Margarita Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": [
+{
+"slug": "francesco-carbone",
+"name": "Francesco Carbone",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
+"slug": "prisco-carbone",
+"name": "Prisco Carbone (d. before 1811)",
+"surname": "CARBONE",
+"household": "Prisco Carbone & Antonia Crisci",
+"role": "father",
+"events": [
+{
+"event": "named as dead",
+"date": "Oct 1811",
+"place": "Arienzo, strada Camellara",
+"evidence": "«***VEDOVA DI PRISCO CARBONE***» — dead by October 1811. **CARBONE is a surname new to this archive.**",
+"ark": "ANTENATI an_ua14313 img39 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "antonia-crisci",
+"name": "Antonia Crisci (1736-1811)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "francesco-carbone",
+"name": "Francesco Carbone",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carbone",
+"name": "Maria Carbone",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
 "slug": "angela-carfora",
 "name": "Angela Carfora",
 "surname": "CARFORA",
@@ -4033,7 +4208,16 @@
 "register"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "stefano-carfora",
+"name": "Stefano Carfora (d. before 1810)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "spouses": [],
 "children": [
 {
@@ -4088,6 +4272,110 @@
 }
 ],
 "siblings": []
+},
+{
+"slug": "anna-carfora",
+"name": "Anna Carfora",
+"surname": "CARFORA",
+"household": "Saverio Rivieri & Anna Carfora",
+"role": "mother",
+"events": [
+{
+"event": "named as living",
+"date": "1810",
+"place": "Arienzo, strada delli Cappuccini",
+"evidence": "**Alive in 1810**, «*di professione **MASSARI DI CAMPAGNA***» with her husband — **the same trade the register gives Giuseppe Falco and Antonia di Guida in 1809 and 1811**, and a step above the *contadini* and *braccianti* who fill these pages.\n\n**SHE IS NOT THE ANNA CARFORA THIS ARCHIVE ALREADY HELD.** That one was **already dead by May 1826**, the wife of *Ignazio Sposito* and mother of Rosa Sposito; this one is alive in 1810 and married to Saverio Rivieri. **The two could in principle be the same woman** — nothing in either act rules it out — **but nothing connects them either, and this archive does not merge on a name.**",
+"ark": "ANTENATI an_ua14312 img41 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "saverio-rivieri-of-saverio-rivieri-anna-carfora",
+"name": "Saverio Rivieri",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "alessandro-rivieri",
+"name": "Alessandro Rivieri",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "rosa-sposito",
+"name": "Rosa Sposito (d. before 1811)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
+"slug": "antonia-carfora",
+"name": "Antonia Carfora (1752-1828)",
+"surname": "CARFORA",
+"household": "Stefano Carfora & Teresa di Guida",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "26 Sep 1828",
+"place": "Arienzo",
+"evidence": "**PROBABLE.** «*Antonia Carfora, **76**, contadina, **fu STEFANO CARFORA**, contadino, e **fu TERESA DI GUIDA**, moglie di **DOMENICO GIGLIO***» — act 46, read from the image in the Arienzo death register for 1828 on 8 September 2026, **eleven days before the act that names her mother's own death was found**.\n\n**The two acts were read a year apart and neither was found by looking for the other.** This archive held the 1828 act for two weeks without a household, because a woman named only as a dead parent gives nothing to search on.\n\n**WHY THIS IS PROBABLE AND NOT PROVEN.** The couple named is the same — *Stefano Carfora and Teresa di Guida* — and **the ages agree without being made to**: Antonia is seventy-six in September 1828, so born about **1752**; Teresa is eighty-six in March 1810, so born about **1724**, which makes her **twenty-eight** when Antonia was born. Both parents are «fu» in 1828 and Teresa was already a widow in 1810.\n\n**What would break it:** a second Stefano Carfora married to a second Teresa di Guida. **Stefano Carfora is a recurring Arienzo name** — a *Stefano Carfora di Pietro*, born about 1796, appears as a declarant in the death registers of 1816, 1822, 1823, 1825, 1827 and 1828, and **he too had a daughter called Antonia Carfora**, who died at eight months in 1823. He is a generation younger and is not this man; but he is the reason this is not called certain. **It is the pairing of both names that carries the identification, not either name alone.**",
+"ark": "ANTENATI an_ua14330 img31L act46 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "teresa-di-guida",
+"name": "Teresa di Guida",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "stefano-carfora",
+"name": "Stefano Carfora (d. before 1810)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [
+{
+"slug": "domenico-giglio",
+"name": "Domenico Giglio",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [],
+"siblings": [],
+"d": "26 Sep 1828",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "antonio-carfora",
@@ -4161,14 +4449,6 @@
 {
 "slug": "maria-rosa-carfora",
 "name": "Maria Rosa Carfora",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-carfora",
-"name": "Maria Carfora",
 "via": "register",
 "vias": [
 "register"
@@ -4248,7 +4528,97 @@
 "siblings": []
 },
 {
-"slug": "maria-carfora",
+"slug": "maggio-carfora",
+"name": "Maggio Carfora",
+"surname": "CARFORA",
+"household": "Pietro Carfora & Catarina Morgillo",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "28 Jul 1811",
+"place": "Arienzo, strada Signorindico",
+"evidence": "«*la morte seguita il dì **ventotto — 28** del mese di **Luglio** dell'anno **Mille ottocento ed undeci** in persona del Signor **MAGGIO CARFORA**, di **giorni VENTIDUE**, di professione contadino, domiciliato nella suddetta Comune, e strada **SIGNORINDICO**, **figlio di PIETRO CARFORA, e di CATARINA MORGILLO**, di professione **contadini***».\n\n**Twenty-two days old**, so born about 6 July 1811. **«Maggio» is an unusual forename** and is given here exactly as written.",
+"ark": "ANTENATI an_ua14313 img29 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "pietro-carfora",
+"name": "Pietro Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "catarina-morgillo",
+"name": "Catarina Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [],
+"d": "28 Jul 1811",
+"dateFrom": {
+"d": "act"
+}
+},
+{
+"slug": "margarita-carfora",
+"name": "Margarita Carfora",
+"surname": "CARFORA",
+"household": "Pasquale Carfora & Maria Carbone",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "1809",
+"place": "Arienzo, strada Camellara",
+"evidence": "«*è morta **MARGARITA CARFORA** — di **mesi SETTE**, di professione contadina … abitante nella strada **della CAMELLARA**, **figlia di PASQUALE CARFORA, e di MARIA CARBONE**, di professione **contadini**, domiciliati nella stessa Università, e Strada*».\n\n**Seven months old**, so born about the start of 1809.",
+"ark": "ANTENATI an_ua14311 img53 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "pasquale-carfora-of-pasquale-carfora-maria-carbone",
+"name": "Pasquale Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carbone",
+"name": "Maria Carbone",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [],
+"d": "1809",
+"dateFrom": {
+"d": "act"
+}
+},
+{
+"slug": "maria-carfora-of-carmine-annecchino-maria-carfora",
 "name": "Maria Carfora",
 "surname": "CARFORA",
 "household": "Carmine Annecchino & Maria Carfora",
@@ -4266,16 +4636,7 @@
 "register"
 ],
 "living": false,
-"parents": [
-{
-"slug": "antonio-carfora",
-"name": "Antonio Carfora",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
+"parents": [],
 "spouses": [
 {
 "slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
@@ -4345,6 +4706,96 @@
 }
 ],
 "siblings": []
+},
+{
+"slug": "maria-carfora-of-nicola-crisci-maria-carfora",
+"name": "Maria Carfora (1742-1810)",
+"surname": "CARFORA",
+"household": "Nicola Crisci & Maria Carfora",
+"role": "mother",
+"events": [
+{
+"event": "death",
+"date": "1810",
+"place": "Arienzo, strada delli Crisci",
+"evidence": "**A CARFORA MARRIED TO A CRISCI** — the two surnames that stand either side of this archive's founding couple — living as beggars on the street that carries the Crisci name.\n\n«*è morta **MARIA CARFORA** — d'anni **SESSANTOTTO**, di professione **MENDICA** — domiciliante in detta Università, ed abitante nella strada **DELLI CRISCI**, **MOGLIE DI NICOLA CRISCI**, di professione **MENDICO**, domiciliato in questa predetta Comune, strada Crisci*».\n\nSixty-eight in 1810 puts her birth about **1742**.\n\n**SHE IS NOT THE OTHER MARIA CARFORA OF 1810.** The same register holds a second woman of that name, **seventy-eight**, a *contadina* of strada Croce dell'Ospedale, widow of Tomaso di Nigro. **The ages were read twice for exactly this reason** — «*sessantotto*» here against «*settantotto*» there — and the streets, trades and husbands differ as well. **Two women, one name, one year, one town.**\n\n**NO KINSHIP TO THIS ARCHIVE'S CRISCI IS CLAIMED.** Andreana Crisci and Francesca Crisci married into the Falco; this archive does not know whether the Crisci of strada delli Crisci are their people. **[[surname-ligature-test]] applies: the name identifies nobody.**",
+"ark": "ANTENATI an_ua14312 img30 — READ FROM THE IMAGE"
+},
+{
+"event": "death",
+"date": "1810",
+"place": "Arienzo, strada delli Crisci",
+"evidence": "**A CARFORA MARRIED TO A CRISCI** — the two surnames that stand either side of this archive's founding couple — living as beggars on the street that carries the Crisci name.\n\n«*è morta **MARIA CARFORA** — d'anni **SESSANTOTTO**, di professione **MENDICA** — domiciliante in detta Università, ed abitante nella strada **DELLI CRISCI**, **MOGLIE DI NICOLA CRISCI**, di professione **MENDICO**, domiciliato in questa predetta Comune, strada Crisci*».\n\nSixty-eight in 1810 puts her birth about **1742**.\n\n**SHE IS NOT THE OTHER MARIA CARFORA OF 1810.** The same register holds a second woman of that name, **seventy-eight**, a *contadina* of strada Croce dell'Ospedale, widow of Tomaso di Nigro. **The ages were read twice for exactly this reason** — «*sessantotto*» here against «*settantotto*» there — and the streets, trades and husbands differ as well. **Two women, one name, one year, one town.**\n\n**NO KINSHIP TO THIS ARCHIVE'S CRISCI IS CLAIMED.** Andreana Crisci and Francesca Crisci married into the Falco; this archive does not know whether the Crisci of strada delli Crisci are their people. **[[surname-ligature-test]] applies: the name identifies nobody.**",
+"ark": "ANTENATI an_ua14312 img30 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "nicola-crisci-of-nicola-crisci-maria-carfora",
+"name": "Nicola Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "girolamo-crisci",
+"name": "Girolamo Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": [],
+"d": "1810",
+"dateFrom": {
+"d": "act"
+}
+},
+{
+"slug": "maria-carfora-of-tomaso-di-nigro-maria-carfora",
+"name": "Maria Carfora (1732-1810)",
+"surname": "CARFORA",
+"household": "Tomaso di Nigro & Maria Carfora",
+"role": "mother",
+"events": [
+{
+"event": "death",
+"date": "1810",
+"place": "Arienzo, strada Croce dell'Ospedale",
+"evidence": "«*è morta **MARIA CARFORA** — d'anni **SETTANTOTTO**, di professione **CONTADINA**, domiciliante in detta Università, ed abitante nella strada **della CROCE DELL'OSPEDALE**, **VEDOVA DI TOMASO DI NIGRO***».\n\nSeventy-eight in 1810 puts her birth about **1732**.\n\n**THE SECOND OF TWO MARIA CARFORA IN THIS ONE REGISTER.** The other is sixty-eight, a beggar, and the wife of Michele Crisci. **This archive publishes both and merges neither.**",
+"ark": "ANTENATI an_ua14312 img44 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "tomaso-di-nigro",
+"name": "Tomaso di Nigro (d. before 1810)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [],
+"siblings": [],
+"d": "1810",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "maria-rosa-carfora",
@@ -4627,12 +5078,61 @@
 "siblings": []
 },
 {
+"slug": "pasquale-carfora-of-pasquale-carfora-maria-carbone",
+"name": "Pasquale Carfora",
+"surname": "CARFORA",
+"household": "Pasquale Carfora & Maria Carbone",
+"role": "father",
+"events": [
+{
+"event": "named as living",
+"date": "1809",
+"place": "Arienzo, strada Camellara",
+"evidence": "**A CARFORA HOUSEHOLD ON STRADA CAMELLARA — THE FALCO STREET — IN 1809.**\n\n**TWO REGISTERS TWO YEARS APART NAME THIS COUPLE AND THEY WERE FOUND SEPARATELY.** This act gives him a wife, **Maria Carbone**. The 1811 register, read the same afternoon, buries **ANTONIA CRISCI** of strada Camellara and lists her surviving children: «*l'altra chiamata **MARIA**, di anni **quarantadue**, **maritata col detto PASQUALE CARFORA***».\n\n**Maria Carbone was forty-two in October 1811, so born about 1769** — and she is Antonia Crisci's daughter. **Neither act was found by looking for the other; both were in the half of their volume this archive had never opened.** [[harvesting-is-not-holding]]\n\n**THIS ARCHIVE ALREADY HELD A PASQUALE CARFORA, DEAD BY 1827.** Married by 1809 to a woman born in 1769, he would be of the right age. *Probable; no act yet joins the two by more than name and period.*",
+"ark": "ANTENATI an_ua14311 img53 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "maria-carbone",
+"name": "Maria Carbone",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "margarita-carfora",
+"name": "Margarita Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
 "slug": "pietro-carfora",
 "name": "Pietro Carfora",
 "surname": "CARFORA",
-"household": "Raffaele Carfora & Francesca Cioffi",
-"role": "child",
+"household": "Pietro Carfora & Catarina Morgillo",
+"role": "father",
 "events": [
+{
+"event": "named as living",
+"date": "28 Jul 1811",
+"place": "Arienzo, strada Signorindico",
+"evidence": "**A CARFORA MARRIED TO A MORGILLO, ON STRADA SIGNORINDICO, SEVENTEEN YEARS BEFORE THE COUPLE THIS ARCHIVE BUILT THAT STREET AROUND.** *Francesco Carfora* married *Pasqua Morgillo* on **29 June 1828** and lived on **strada Signorindico**. Here in **1811** a *Pietro Carfora* is married to a *Catarina Morgillo* on the same street.\n\n**THIS IS NOT CLAIMED AS THE EARLIER GENERATION OF THAT HOUSE.** Francesco Carfora's own marriage act names his father as **MATTEO CARFORA**, dead by 1828 — not Pietro. **The two households are separate until a document joins them.**\n\n**He is probably the father of the Stefano Carfora this archive already tracks.** The 1816 Arienzo death register records a declarant «*Stefano Carfora **di Pietro***», thirty years old, so born about **1786**. A Pietro Carfora fathering a son in 1786 and another in 1811 is one man's ordinary span. *Probable, on the patronymic alone.*",
+"ark": "ANTENATI an_ua14313 img29 — READ FROM THE IMAGE"
+},
 {
 "event": "birth",
 "date": "12 Sep 1831",
@@ -4663,8 +5163,26 @@
 ]
 }
 ],
-"spouses": [],
-"children": [],
+"spouses": [
+{
+"slug": "catarina-morgillo",
+"name": "Catarina Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "maggio-carfora",
+"name": "Maggio Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "siblings": [],
 "b": "12 Sep 1831",
 "dateFrom": {
@@ -4705,6 +5223,56 @@
 {
 "slug": "pietro-carfora",
 "name": "Pietro Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
+"slug": "stefano-carfora",
+"name": "Stefano Carfora (d. before 1810)",
+"surname": "CARFORA",
+"household": "Stefano Carfora & Teresa di Guida",
+"role": "father",
+"events": [
+{
+"event": "named as dead",
+"date": "5 Mar 1810",
+"place": "Arienzo, strada Porta di Sopra",
+"evidence": "«***VEDOVA DI STEFANO CARFORA***» — so he was dead by **March 1810**, and a man whose widow was eighty-six. **The earliest Carfora this archive holds**, earlier than Matteo Carfora (dead by 1828), Pasquale Carfora (dead by 1827) and the gentry Paolo Carfora (dead 1782).\n\n*A **STEFANO CARFORA di PIETRO**, twenty-one, declared a death on strada Signorindico in 1827; he was born about 1806 and is a different man. **The name recurs and identifies nobody.**",
+"ark": "ANTENATI an_ua14312 img10r act15 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "teresa-di-guida",
+"name": "Teresa di Guida",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "antonia-carfora",
+"name": "Antonia Carfora (1752-1828)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-carfora",
+"name": "Angelo Carfora",
 "via": "register",
 "vias": [
 "register"
@@ -4923,7 +5491,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "angelo-falco",
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
 "name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
@@ -7810,6 +8378,14 @@
 ]
 },
 {
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -7868,14 +8444,6 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -8134,8 +8702,16 @@
 ]
 },
 {
-"slug": "gioacchino-crisci",
+"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco",
 "name": "Gioacchino Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco-2",
+"name": "Gioacchino Crisci (d. before 1809)",
 "via": "register",
 "vias": [
 "register"
@@ -8148,6 +8724,14 @@
 {
 "slug": "luca-crisci",
 "name": "Luca Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesco-crisci-of-gioacchino-crisci-francesca-falco",
+"name": "Francesco Crisci (1765-1809)",
 "via": "register",
 "vias": [
 "register"
@@ -8328,6 +8912,60 @@
 "d": "Nov 25 1884",
 "bp": "Arienzo, Caserta, Campania, Italy",
 "dp": "Arienzo, Caserta, Campania, Italia"
+},
+{
+"slug": "antonia-crisci",
+"name": "Antonia Crisci (1736-1811)",
+"surname": "CRISCI",
+"household": "Prisco Carbone & Antonia Crisci",
+"role": "mother",
+"events": [
+{
+"event": "death",
+"date": "Oct 1811",
+"place": "Arienzo, strada Camellara",
+"evidence": "**A CRISCI WOMAN LIVING ON STRADA CAMELLARA, BORN ABOUT 1736 — AND HER DAUGHTER MARRIED A CARFORA.**\n\n«*del mese di **Ottobre** dell'anno **Mille ottocento ed undeci** in persona della Signora **ANTONIA CRISCI**, di anni **SETTANTACINQUE**, di professione **FILATRICE**, domiciliata nella anzidetta Comune, e strada **CAMMELLARA**, **VEDOVA DI PRISCO CARBONE**, la quale ha lasciato **due figli**, uno per nome **FRANCESCO**, di professione **salsolajo**, di anni **quarantacinque**, e l'altra chiamata **MARIA**, di anni **quarantadue**, **maritata col detto PASQUALE CARFORA***».\n\n**WHY A CRISCI ON THAT STREET MATTERS.** Two of the three women who married into this archive's first Falco generations were Crisci — **Francesca Crisci**, wife of Matteo Falco, and **Andreana Crisci**, wife of Vincenzo Falco — and the Falco lived on **strada Camellara**. **This archive has never been able to say where its Crisci came from.** Here is a Crisci household on that street in 1811.\n\n**IT IS NOT CLAIMED AS THEIRS.** The 1810 register shows a whole Crisci clan on a street that carries their own name — *Domenico, Luca, Felice, Francesco, Nicola* — and **the name is the commonest in these registers after Laudato**. [[surname-ligature-test]]",
+"ark": "ANTENATI an_ua14313 img39 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "prisco-carbone",
+"name": "Prisco Carbone (d. before 1811)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "francesco-carbone",
+"name": "Francesco Carbone",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carbone",
+"name": "Maria Carbone",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": [],
+"d": "Oct 1811",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "antonio-crisci",
@@ -9392,7 +10030,7 @@
 "dp": "Arienzo, Caserta, Campania, Italy"
 },
 {
-"slug": "francesco-crisci",
+"slug": "francesco-crisci-of-vincenzo-falco-andreana-crisci",
 "name": "Francesco Crisci",
 "surname": "CRISCI",
 "household": "Vincenzo Falco & Andreana Crisci",
@@ -9414,6 +10052,76 @@
 "spouses": [],
 "children": [],
 "siblings": []
+},
+{
+"slug": "francesco-crisci-of-gioacchino-crisci-francesca-falco",
+"name": "Francesco Crisci (1765-1809)",
+"surname": "CRISCI",
+"household": "Gioacchino Crisci & Francesca Falco",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "1809",
+"place": "Arienzo, strada delli Crisci",
+"evidence": "«*è morto **FRANCESCO CRISCI** d'anni **QUARANTAQUATTRO**, di professione **BRACCIALE** … abitante nella strada **delli CRISCI**, **figlio del fu GIOACCHINO, e di FRANCESCA FALCO**; **MARITO di CLAUDIA di LUCIA**, domiciliata nella stessa Università e Strada*».\n\nForty-four in 1809, so born about **1765**.",
+"ark": "ANTENATI an_ua14311 img5 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "francesca-falco-of-gioacchino-crisci-francesca-falco",
+"name": "Francesca Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco",
+"name": "Gioacchino Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco-2",
+"name": "Gioacchino Crisci (d. before 1809)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "aniello-crisci-of-gioacchino-crisci-francesca-falco",
+"name": "Aniello Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "luca-crisci",
+"name": "Luca Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"d": "1809",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "gabriele-crisci",
@@ -9440,7 +10148,7 @@
 "siblings": []
 },
 {
-"slug": "gioacchino-crisci",
+"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco",
 "name": "Gioacchino Crisci",
 "surname": "CRISCI",
 "household": "Gioacchino Crisci & Francesca Falco",
@@ -9467,6 +10175,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco-2",
+"name": "Gioacchino Crisci (d. before 1809)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "children": [
@@ -9481,6 +10197,80 @@
 {
 "slug": "luca-crisci",
 "name": "Luca Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesco-crisci-of-gioacchino-crisci-francesca-falco",
+"name": "Francesco Crisci (1765-1809)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
+"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco-2",
+"name": "Gioacchino Crisci (d. before 1809)",
+"surname": "CRISCI",
+"household": "Gioacchino Crisci & Francesca Falco",
+"role": "father",
+"events": [
+{
+"event": "named as dead",
+"date": "1809",
+"place": "Arienzo",
+"evidence": "«***figlio del fu GIOACCHINO***» — dead by 1809. **The act gives him no surname**; it is taken from his son's. *That is an inference, and it is the only one in this household.*",
+"ark": "ANTENATI an_ua14311 img5 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "francesca-falco-of-gioacchino-crisci-francesca-falco",
+"name": "Francesca Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco",
+"name": "Gioacchino Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "aniello-crisci-of-gioacchino-crisci-francesca-falco",
+"name": "Aniello Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "luca-crisci",
+"name": "Luca Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesco-crisci-of-gioacchino-crisci-francesca-falco",
+"name": "Francesco Crisci (1765-1809)",
 "via": "register",
 "vias": [
 "register"
@@ -9523,6 +10313,54 @@
 ],
 "siblings": [],
 "treeId": 4512574
+},
+{
+"slug": "girolamo-crisci",
+"name": "Girolamo Crisci",
+"surname": "CRISCI",
+"household": "Nicola Crisci & Maria Carfora",
+"role": "child",
+"events": [
+{
+"event": "named as living",
+"date": "15 Nov 1811",
+"place": "Arienzo, strada Crisci",
+"evidence": "«*ha lasciato **un figlio per nome GIROLAMO**, di anni **trent'otto**, di professione **contadino***» — **the only surviving child of two beggars**, alive in November 1811 and born about **1773**. He is a *contadino*; his parents were not.\n\n«*un figlio*» — **one**, and the clerk of this register counts and names survivors in every act. **That is a statement, not a silence.**",
+"ark": "ANTENATI an_ua14313 img42 — READ FROM THE IMAGE"
+},
+{
+"event": "named as living",
+"date": "15 Nov 1811",
+"place": "Arienzo, strada Crisci",
+"evidence": "«*ha lasciato **un figlio per nome GIROLAMO**, di anni **trent'otto**, di professione **contadino***» — **the only surviving child of two beggars**, alive in November 1811 and born about **1773**. He is a *contadino*; his parents were not.\n\n«*un figlio*» — **one**, and the clerk of this register counts and names survivors in every act. **That is a statement, not a silence.**",
+"ark": "ANTENATI an_ua14313 img42 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "maria-carfora-of-nicola-crisci-maria-carfora",
+"name": "Maria Carfora (1742-1810)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nicola-crisci-of-nicola-crisci-maria-carfora",
+"name": "Nicola Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": []
 },
 {
 "slug": "giuseppa-crisci",
@@ -9785,8 +10623,16 @@
 ]
 },
 {
-"slug": "gioacchino-crisci",
+"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco",
 "name": "Gioacchino Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco-2",
+"name": "Gioacchino Crisci (d. before 1809)",
 "via": "register",
 "vias": [
 "register"
@@ -9799,6 +10645,14 @@
 {
 "slug": "aniello-crisci-of-gioacchino-crisci-francesca-falco",
 "name": "Aniello Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesco-crisci-of-gioacchino-crisci-francesca-falco",
+"name": "Francesco Crisci (1765-1809)",
 "via": "register",
 "vias": [
 "register"
@@ -10119,7 +10973,7 @@
 "treeId": 4000421
 },
 {
-"slug": "nicola-crisci",
+"slug": "nicola-crisci-of-arcangelo-crisci-sara-ruggiero",
 "name": "Nicola Crisci",
 "surname": "CRISCI",
 "household": "Arcangelo Crisci & Sara Ruggiero",
@@ -10141,6 +10995,73 @@
 "spouses": [],
 "children": [],
 "siblings": []
+},
+{
+"slug": "nicola-crisci-of-nicola-crisci-maria-carfora",
+"name": "Nicola Crisci",
+"surname": "CRISCI",
+"household": "Nicola Crisci & Maria Carfora",
+"role": "father",
+"events": [
+{
+"event": "named as living",
+"date": "1810",
+"place": "Arienzo, strada delli Crisci",
+"evidence": "«*moglie di **NICOLA CRISCI**, di professione **MENDICO***» — **alive in 1810 and himself a beggar.** Husband and wife are given the same trade, which the clerk wrote out twice rather than abbreviating.",
+"ark": "ANTENATI an_ua14312 img30 — READ FROM THE IMAGE"
+},
+{
+"event": "death",
+"date": "15 Nov 1811",
+"place": "Arienzo, strada Crisci",
+"evidence": "«*la morte seguita il dì **quindeci — 15** del mese di **Novembre** dell'anno **Mille ottocento ed undeci** in persona del Signor **NICOLA CRISCI**, di anni **OTTANTA**, di professione **MENDICO**, nato in **Arienzo**, domiciliato nella stessa Comune, e strada **CRISCI**, **VEDOVO DI MARIA CARFORA**, il quale ha lasciato **un figlio per nome GIROLAMO**, di anni **trent'otto**, di professione **contadino***».\n\n**THIS ACT CORRECTED THE ONE ABOVE IT, AND THE ONE ABOVE IT CORRECTED THIS ONE.** It was found on 22 September 2026, an hour after his wife's act was published — and it named him **NICOLA** where this archive had read **MICHELE**. Going back to her act at seven times magnification, **«Nicola» is what is written**; there is no «-ele» ending. *The first reading was taken at two and a half times and was wrong.*\n\n**AND THIS ACT'S OWN TRAP RAN THE OTHER WAY.** Read at strip size his trade is «**MEDICO**» — a physician — which would have made his wife's «*mendica*» a misreading and this couple something entirely different. **The word breaks at the right margin.** Magnified eight times the fragment before the break is **«Men»**, not «Me». **He was a beggar, as she was.** [[relationship-words-magnified]]\n\nEighty in November 1811 puts his birth about **1731**.",
+"ark": "ANTENATI an_ua14313 img42 — READ FROM THE IMAGE"
+},
+{
+"event": "named as living",
+"date": "1810",
+"place": "Arienzo, strada delli Crisci",
+"evidence": "«*moglie di **NICOLA CRISCI**, di professione **MENDICO***» — **alive in 1810 and himself a beggar.** Husband and wife are given the same trade, which the clerk wrote out twice rather than abbreviating.",
+"ark": "ANTENATI an_ua14312 img30 — READ FROM THE IMAGE"
+},
+{
+"event": "death",
+"date": "15 Nov 1811",
+"place": "Arienzo, strada Crisci",
+"evidence": "«*la morte seguita il dì **quindeci — 15** del mese di **Novembre** dell'anno **Mille ottocento ed undeci** in persona del Signor **NICOLA CRISCI**, di anni **OTTANTA**, di professione **MENDICO**, nato in **Arienzo**, domiciliato nella stessa Comune, e strada **CRISCI**, **VEDOVO DI MARIA CARFORA**, il quale ha lasciato **un figlio per nome GIROLAMO**, di anni **trent'otto**, di professione **contadino***».\n\n**THIS ACT CORRECTED THE ONE ABOVE IT, AND THE ONE ABOVE IT CORRECTED THIS ONE.** It was found on 22 September 2026, an hour after his wife's act was published — and it named him **NICOLA** where this archive had read **MICHELE**. Going back to her act at seven times magnification, **«Nicola» is what is written**; there is no «-ele» ending. *The first reading was taken at two and a half times and was wrong.*\n\n**AND THIS ACT'S OWN TRAP RAN THE OTHER WAY.** Read at strip size his trade is «**MEDICO**» — a physician — which would have made his wife's «*mendica*» a misreading and this couple something entirely different. **The word breaks at the right margin.** Magnified eight times the fragment before the break is **«Men»**, not «Me». **He was a beggar, as she was.** [[relationship-words-magnified]]\n\nEighty in November 1811 puts his birth about **1731**.",
+"ark": "ANTENATI an_ua14313 img42 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "maria-carfora-of-nicola-crisci-maria-carfora",
+"name": "Maria Carfora (1742-1810)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "girolamo-crisci",
+"name": "Girolamo Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": [],
+"d": "15 Nov 1811",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "pascalina-crisci",
@@ -10956,7 +11877,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "angelo-falco-4",
+"slug": "angelo-falco-3",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -12031,6 +12952,39 @@
 "siblings": []
 },
 {
+"slug": "francesco-di-guida",
+"name": "Francesco di Guida (d. before 1810)",
+"surname": "DI GUIDA",
+"household": "Francesco di Guida & Catarina [surname unread]",
+"role": "father",
+"events": [
+{
+"event": "named as dead",
+"date": "10 Jun 1810",
+"place": "Arienzo, strada Croce dell'Ospedale",
+"evidence": "«***VEDOVA DI FRANCESCO DI GUIDA***» — dead by **June 1810**, husband of a woman of seventy-eight.\n\n**HE IS NOT THE FRANCESCO DI GUIDA THIS ARCHIVE ALREADY HELD.** That one was a declarant on strada Cioffi in **January 1842**, aged **twenty-five**, so born about **1817** — seven years after this man was already dead. **Two men, one name, and nothing links them but the name.**\n\n**WHY HE MATTERS.** *Antonia di Guida*, who married Giuseppe Falco and stands at the head of this archive's fourth generation, was born about **1785**. A Francesco di Guida dead by 1810 with a wife born about 1732 is of the right generation to be **her father or her uncle** — and **nothing in this act says he is either**. It is recorded so the question can be asked of the 1780s marriage registers if they are ever found.",
+"ark": "ANTENATI an_ua14312 img18 act31 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "catarina-surname-unread",
+"name": "Catarina [surname unread]",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [],
+"siblings": []
+},
+{
 "slug": "giuseppe-di-guida-of-giuseppe-di-guida-michedalena-rive",
 "name": "Giuseppe di Guida",
 "surname": "DI GUIDA",
@@ -12582,6 +13536,59 @@
 }
 },
 {
+"slug": "teresa-di-guida",
+"name": "Teresa di Guida",
+"surname": "DI GUIDA",
+"household": "Stefano Carfora & Teresa di Guida",
+"role": "mother",
+"events": [
+{
+"event": "death",
+"date": "5 Mar 1810",
+"place": "Arienzo, strada Porta di Sopra",
+"evidence": "**A DI GUIDA MARRIED TO A CARFORA, AND SHE WAS BORN ABOUT 1724.** Found on 22 September 2026 in the Arienzo death register for **1810** — one of the seven volumes of that decade this archive had never opened — while looking for somebody else entirely.\n\n«*NUM. **15**. Oggi, che sono li **cinque** del mese di **Marzo** dell'anno mille ottocento **dieci** sono comparsi … **DOMENICO VIGLIO**, d'anni **sessantacinque**, bracciale … e **TOMASO MORGILLO**, d'anni **cinquantasei**, bracciale, … abitante nella strada della **Porta di Sopra** — ed hanno dichiarato, che oggi suddetto giorno ad ore **nove** è morta **TERESA DI GUIDA**, d'anni **OTTANTASEI**, di professione **MENDICA**, domiciliante in detta Università, ed abitante nella strada della **Porta di Sopra**, **VEDOVA DI STEFANO CARFORA***».\n\n**Eighty-six in March 1810 puts her birth about 1724** — **the earliest di Guida this archive can name, by three generations** — and she died a **beggar**.\n\n**SHE JOINS TWO OF THIS ARCHIVE'S SURNAMES A CENTURY BEFORE THEY MEET AGAIN.** A **di Guida** married a **Carfora**; four generations later **Antonia di Guida** married Giuseppe Falco, and **Maria Antonia Carfora** married into the Annecchino. **No kinship between these households is claimed** — di Guida and Carfora are both Arienzo surnames and this archive has learnt what a shared name is worth.",
+"ark": "ANTENATI an_ua14312 img10r act15 — READ FROM THE IMAGE"
+},
+{
+"event": "named as dead",
+"date": "26 Sep 1828",
+"place": "Arienzo",
+"evidence": "«***fu TERESA DI GUIDA***» — the second of the two acts that hold this household, and the one found first. **It gives her a daughter; it does not give her a date.** The date came eighteen years earlier in the register, and a year later in this archive.\n\n**Her trade differs between the two acts** — *contadino* is attached to her husband here, and in 1810 she herself is a **mendica**, a beggar. **These do not contradict each other**: she had been a widow for an unknown number of years by 1810 and died on alms.",
+"ark": "ANTENATI an_ua14330 img31L act46 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "stefano-carfora",
+"name": "Stefano Carfora (d. before 1810)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "antonia-carfora",
+"name": "Antonia Carfora (1752-1828)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": [],
+"d": "5 Mar 1810",
+"dateFrom": {
+"d": "act"
+}
+},
+{
 "slug": "vittoria-di-guida-of-francesco-quotolo-vittoria-di-guid",
 "name": "Vittoria di Guida",
 "surname": "DI GUIDA",
@@ -12883,12 +13890,21 @@
 },
 {
 "slug": "claudia-di-lucia",
-"name": "Claudia di Lucia (Pesce)",
+"name": "Claudia di Lucia",
 "surname": "DI LUCIA",
-"household": null,
-"role": null,
-"events": [],
+"household": "Gioacchino Crisci & Francesca Falco",
+"role": "married in",
+"events": [
+{
+"event": "named as living",
+"date": "1809",
+"place": "Arienzo, strada delli Crisci",
+"evidence": "«***MARITO di CLAUDIA di LUCIA**, domiciliata nella stessa Università e Strada*» — **widowed in 1809**. The act names no children.",
+"ark": "ANTENATI an_ua14311 img5 — READ FROM THE IMAGE"
+}
+],
 "sources": [
+"register",
 "tree"
 ],
 "living": false,
@@ -12930,6 +13946,7 @@
 }
 ],
 "siblings": [],
+"mergedOn": "name alone",
 "treeId": 4512586,
 "b": "1760",
 "d": "Dec 20 1830",
@@ -12957,6 +13974,39 @@
 "living": false,
 "parents": [],
 "spouses": [],
+"children": [],
+"siblings": []
+},
+{
+"slug": "tomaso-di-nigro",
+"name": "Tomaso di Nigro (d. before 1810)",
+"surname": "DI NIGRO",
+"household": "Tomaso di Nigro & Maria Carfora",
+"role": "father",
+"events": [
+{
+"event": "named as dead",
+"date": "1810",
+"place": "Arienzo, strada Croce dell'Ospedale",
+"evidence": "«***VEDOVA DI TOMASO DI NIGRO***» — dead by 1810. **DI NIGRO is a surname new to this archive**; it appears nowhere else in the households, the register or the notes.",
+"ark": "ANTENATI an_ua14312 img44 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "maria-carfora-of-tomaso-di-nigro-maria-carfora",
+"name": "Maria Carfora (1732-1810)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "children": [],
 "siblings": []
 },
@@ -14018,7 +15068,7 @@
 ]
 },
 {
-"slug": "angelo-falco-3",
+"slug": "angelo-falco-2",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -14114,6 +15164,14 @@
 ]
 },
 {
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -14172,14 +15230,6 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -14607,6 +15657,48 @@
 ]
 },
 {
+"slug": "angela-falco-of-saverio-rivieri-angela-falco",
+"name": "Angela Falco (of Saverio Rivieri)",
+"surname": "FALCO",
+"household": "Saverio Rivieri & Angela Falco",
+"role": "mother",
+"events": [
+{
+"event": "named as living",
+"date": "1809",
+"place": "Arienzo, strada della Fontana",
+"evidence": "**A FALCO WOMAN MARRIED OUT, AND A GENERATION EARLY.** Alive in 1809, *massara*, bearing a child — so born roughly **1770–1790**.\n\n**SHE IS NOT THE ANGELA FALCO THIS ARCHIVE HOLDS.** That one is the daughter of **Matteo Falco and Francesca Crisci**, born at Arienzo in **1822** — thirteen years after this woman is burying an infant. **Same name, and half a century between them.** [[angela-falco-1822]]\n\n**WHAT THIS OPENS.** A Falco daughter of the 1770s or 1780s is of the generation of **Matteo Falco**, this archive's head of line. *She is a candidate for his sister and nothing in this act says she is.*",
+"ark": "ANTENATI an_ua14311 img66 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "saverio-rivieri-of-saverio-rivieri-angela-falco",
+"name": "Saverio Rivieri",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "maria-rivieri",
+"name": "Maria Rivieri",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
 "slug": "angela-falco",
 "name": "Angela Falco",
 "surname": "FALCO",
@@ -14655,7 +15747,7 @@
 ]
 },
 {
-"slug": "angelo-falco-5",
+"slug": "angelo-falco-4",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -14731,7 +15823,7 @@
 ]
 },
 {
-"slug": "angelo-falco-4",
+"slug": "angelo-falco-3",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -15335,6 +16427,14 @@
 ]
 },
 {
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -15385,14 +16485,6 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -15450,19 +16542,12 @@
 }
 },
 {
-"slug": "angelo-falco",
-"name": "Angelo Falco (of Corso Caudino)",
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
 "surname": "FALCO",
-"household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
-"role": "father",
+"household": "Vincenzo Falco & Andreana Crisci",
+"role": "child",
 "events": [
-{
-"event": "named",
-"date": "—",
-"place": "Arienzo, Corso Caudino",
-"evidence": "**THIS HOUSEHOLD WAS LIVING IN A PAGE TEMPLATE.** It was named on the **which-falco** disambiguation page — which exists to keep the other Arienzo Falco apart from this line — and **it was in no data file**, so it had no person pages, no place in the search index and no way for a reader to reach it. *Found on 22 September 2026 by auditing that page's eighteen couples against the household file: three had no household and two were spelled differently in the prose than in the data.* **The facts below are the page's own; the acts behind them are named and, where they have not been re-read, said to be.**\n\n**A Falco household of the CORSO CAUDINO**, named on the which-falco page and nowhere else. **No kinship to this line is claimed**; the page exists precisely to keep them apart.",
-"ark": "site/src/pages/which-falco.astro — a page, not an act; the acts behind it are named in each row"
-},
 {
 "event": "marriage",
 "date": "17 Apr 1847",
@@ -15493,26 +16578,8 @@
 ]
 }
 ],
-"spouses": [
-{
-"slug": "annamaria-cimmino",
-"name": "Annamaria Cimmino",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"children": [
-{
-"slug": "vincenzo-falco-of-angelo-falco-annamaria-cimmino-cor",
-"name": "Vincenzo Falco (of Angelo, d. 1889)",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
+"spouses": [],
+"children": [],
 "siblings": [
 {
 "slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci",
@@ -15621,7 +16688,94 @@
 ]
 },
 {
-"slug": "angelo-falco-2",
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
+"surname": "FALCO",
+"household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+"role": "father",
+"events": [
+{
+"event": "named",
+"date": "—",
+"place": "Arienzo, Corso Caudino",
+"evidence": "**THIS HOUSEHOLD WAS LIVING IN A PAGE TEMPLATE.** It was named on the **which-falco** disambiguation page — which exists to keep the other Arienzo Falco apart from this line — and **it was in no data file**, so it had no person pages, no place in the search index and no way for a reader to reach it. *Found on 22 September 2026 by auditing that page's eighteen couples against the household file: three had no household and two were spelled differently in the prose than in the data.* **The facts below are the page's own; the acts behind them are named and, where they have not been re-read, said to be.**\n\n**A Falco household of the CORSO CAUDINO**, named on the which-falco page and nowhere else. **No kinship to this line is claimed**; the page exists precisely to keep them apart.",
+"ark": "site/src/pages/which-falco.astro — a page, not an act; the acts behind it are named in each row"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "annamaria-cimmino",
+"name": "Annamaria Cimmino",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "vincenzo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Vincenzo Falco (of Angelo, d. 1889)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
+"slug": "angelo-falco-of-giuseppe-falco-rosa-sposito",
+"name": "Angelo Falco (1747-1811)",
+"surname": "FALCO",
+"household": "Giuseppe Falco & Rosa Sposito",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "3 Jan 1811",
+"place": "Arienzo, strada Camellara",
+"evidence": "**A FALCO OF STRADA CAMELLARA BORN ABOUT 1747, AND THE PARENTS HE IS GIVEN ARE A GENERATION THIS ARCHIVE DOES NOT HAVE.**\n\n«*li quali hanno sottoscritta la dichiarazione della morte seguita il dì **terza — 3** del mese di **Gennaro** dell'anno **Mille ottocento, ed undici** in persona del Signor **ANGELO FALCO**, di anni **SESSANTAQUATTRO**, di professione **BRACCIALE**, nato in **Arienzo**, domiciliato in questa stessa Comune, e strada **CAMELLARA**, **figlio dalli furono GIUSEPPE FALCO, e ROSA SPOSITO***».\n\n**«FURONO» — PLURAL. Both his parents were already dead on 3 January 1811.**\n\n**THE FATHER'S NAME WAS SETTLED BY A CONTROL LETTER.** «*Giuseppe*» and «*Giuseppa*» end in the same cramped glyph in this hand. The word was set beside «**Giuseppe Verdicchio**» — a man, certain, written by the same clerk six images earlier in the same volume — and **the terminal letters match**. [[surname-ligature-test]]\n\n**HOW THIS WAS FOUND, AND WHY IT WAS NOT FOUND SOONER.** This archive read the 1811 death register on 21 September 2026 and published it as read in full. **It was not.** The volume puts **two acts on every image** — even numbers on the left page, odd on the right — and only the right pages were swept. **Angelo Falco is act 2.** He sat in the half that was never opened, in a volume this archive had already called finished. [[the-tavola-page-break]]\n\n**WHAT IS NOT CLAIMED.** Sixty-four in January 1811 puts his birth about **1747**, which is the generation of **Matteo Falco**, this archive's head of line, who died in 1802 — and he lived on **strada Camellara**, where Matteo's people lived. **That is a reason to look, not a reason to join them.** Nothing in this act names Matteo, and **a shared street and a shared surname have twice in this archive turned out to mean nothing**. [[two-falco-families-arienzo]]\n\n**He is given no wife and no children.** In this register a married man is given «*marito di*» and his survivors are counted; Angelo Falco is given his parents instead. **At sixty-four that is a statement that he left none.**",
+"ark": "ANTENATI an_ua14313 img4 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-sposito",
+"name": "Giuseppe Falco (d. before 1811)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "rosa-sposito",
+"name": "Rosa Sposito (d. before 1811)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [],
+"d": "3 Jan 1811",
+"dateFrom": {
+"d": "act"
+}
+},
+{
+"slug": "angelo-falco",
 "name": "Angelo Falco",
 "surname": "FALCO",
 "household": null,
@@ -15698,7 +16852,7 @@
 "treeId": 4000027
 },
 {
-"slug": "angelo-falco-3",
+"slug": "angelo-falco-2",
 "name": "Angelo Falco",
 "surname": "FALCO",
 "household": null,
@@ -15846,7 +17000,7 @@
 "treeId": 4512489
 },
 {
-"slug": "angelo-falco-4",
+"slug": "angelo-falco-3",
 "name": "Angelo Falco",
 "surname": "FALCO",
 "household": null,
@@ -15948,7 +17102,7 @@
 "b": "1862"
 },
 {
-"slug": "angelo-falco-5",
+"slug": "angelo-falco-4",
 "name": "Angelo Falco",
 "surname": "FALCO",
 "household": null,
@@ -16678,7 +17832,7 @@
 ]
 },
 {
-"slug": "angelo-falco-2",
+"slug": "angelo-falco",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -16909,7 +18063,7 @@
 "living": false,
 "parents": [
 {
-"slug": "angelo-falco-3",
+"slug": "angelo-falco-2",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -17067,7 +18221,7 @@
 ]
 },
 {
-"slug": "angelo-falco-4",
+"slug": "angelo-falco-3",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -17270,6 +18424,14 @@
 ]
 },
 {
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -17332,14 +18494,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco (of Corso Caudino)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "b": "13 May 1843",
@@ -17378,6 +18532,14 @@
 {
 "slug": "gelsomina-vigliotta",
 "name": "Gelsomina Vigliotta",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
 "via": "register",
 "vias": [
 "register"
@@ -17422,6 +18584,14 @@
 {
 "slug": "pasqua-falco",
 "name": "Pasqua Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nicola-falco",
+"name": "Nicola Falco (1807-1809)",
 "via": "register",
 "vias": [
 "register"
@@ -18618,7 +19788,7 @@
 ]
 },
 {
-"slug": "angelo-falco-5",
+"slug": "angelo-falco-4",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -19137,7 +20307,7 @@
 ]
 },
 {
-"slug": "angelo-falco-2",
+"slug": "angelo-falco",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -20297,7 +21467,7 @@
 ]
 },
 {
-"slug": "angelo-falco-5",
+"slug": "angelo-falco-4",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -20831,7 +22001,7 @@
 ]
 },
 {
-"slug": "angelo-falco-4",
+"slug": "angelo-falco-3",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -21143,7 +22313,7 @@
 "living": false,
 "parents": [
 {
-"slug": "angelo-falco-4",
+"slug": "angelo-falco-3",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -21655,6 +22825,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "spouses": [],
@@ -21695,6 +22873,14 @@
 {
 "slug": "pasqua-falco",
 "name": "Pasqua Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nicola-falco",
+"name": "Nicola Falco (1807-1809)",
 "via": "register",
 "vias": [
 "register"
@@ -21904,6 +23090,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "spouses": [],
@@ -21944,6 +23138,14 @@
 {
 "slug": "pasqua-falco",
 "name": "Pasqua Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nicola-falco",
+"name": "Nicola Falco (1807-1809)",
 "via": "register",
 "vias": [
 "register"
@@ -22065,7 +23267,7 @@
 ]
 },
 {
-"slug": "angelo-falco-3",
+"slug": "angelo-falco-2",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -22402,6 +23604,13 @@
 "place": "Arienzo",
 "evidence": "«figlio di **GIOACCHINO CRISCI defunto**, di professione contadino, domiciliato ivi, E DI FRANCESCA FALCO defunta» — from the death act of her son Aniello Cioffi — **who died on 26 July 1843**, in an act drawn the following day and published here as 27 July until 20 September 2026 — verified at full resolution. Her son was seventy-six, so born about 1767, which places her marriage in the seventeen-sixties and her own birth in the seventeen-forties: the generation of MATTEO FALCO himself. NOTHING NAMES HER PARENTS and this archive does not guess at them.\n\n**AND HER DEATH WINDOW CLOSES BY FOURTEEN YEARS.** She was «defunta» in her son ANIELLO's act of 27 July 1843; she is **already «defunta» in her son LUCA's act of 16 January 1829**, found on 20 September 2026. **She died before January 1829**, and her husband with her.",
 "ark": "ANTENATI an_ua14345 img21r atto29"
+},
+{
+"event": "named as a parent",
+"date": "1809",
+"place": "Arienzo",
+"evidence": "**A FALCO WOMAN WHO MARRIED A CRISCI, AND SHE BORE A SON ABOUT 1765.**\n\n**WHY THIS IS THE EARLIEST FALCO THIS ARCHIVE CAN REACH.** A woman with a son born in 1765 was herself born around **1735–1745** — a full generation above **Matteo Falco**, this archive's head of line, who died in 1802.\n\n**AND SHE MARRIED A CRISCI.** Matteo Falco's own wife was **Francesca Crisci**; his son Vincenzo married **Andreana Crisci**. **A Falco–Crisci marriage two generations before either of those is exactly the shape this archive has been looking for** — and **this act does not connect them**. It gives a name, a husband and a son, and nothing else. [[founders-children]]\n\n**SHE IS NOT SAID TO BE DEAD, AND THAT PROVES NOTHING.** «*figlio del **fu** Gioacchino, e di Francesca Falco*» — the «fu» attaches to the father alone. **This archive has already been wrong once by reading a missing «fu» as evidence of life.** [[quondam-not-evidence]]",
+"ark": "ANTENATI an_ua14311 img5 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -22411,8 +23620,16 @@
 "parents": [],
 "spouses": [
 {
-"slug": "gioacchino-crisci",
+"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco",
 "name": "Gioacchino Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco-2",
+"name": "Gioacchino Crisci (d. before 1809)",
 "via": "register",
 "vias": [
 "register"
@@ -22431,6 +23648,14 @@
 {
 "slug": "luca-crisci",
 "name": "Luca Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesco-crisci-of-gioacchino-crisci-francesca-falco",
+"name": "Francesco Crisci (1765-1809)",
 "via": "register",
 "vias": [
 "register"
@@ -23008,7 +24233,7 @@
 ]
 },
 {
-"slug": "angelo-falco-3",
+"slug": "angelo-falco-2",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -23336,7 +24561,7 @@
 ]
 },
 {
-"slug": "angelo-falco-3",
+"slug": "angelo-falco-2",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -23460,7 +24685,7 @@
 ]
 },
 {
-"slug": "angelo-falco-3",
+"slug": "angelo-falco-2",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -23781,7 +25006,7 @@
 ]
 },
 {
-"slug": "angelo-falco-4",
+"slug": "angelo-falco-3",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -24538,6 +25763,14 @@
 {
 "slug": "nunzia-lettieri",
 "name": "Nunzia Lettieri",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-lettieri",
+"name": "Giuseppe Lettieri (d. 1810)",
 "via": "register",
 "vias": [
 "register"
@@ -25328,7 +26561,7 @@
 ]
 },
 {
-"slug": "angelo-falco-4",
+"slug": "angelo-falco-3",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -26072,6 +27305,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "children": [
@@ -26118,6 +27359,14 @@
 {
 "slug": "pasqua-falco",
 "name": "Pasqua Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nicola-falco",
+"name": "Nicola Falco (1807-1809)",
 "via": "register",
 "vias": [
 "register"
@@ -26237,6 +27486,146 @@
 "dateFrom": {
 "b": "act"
 }
+},
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-sposito",
+"name": "Giuseppe Falco (d. before 1811)",
+"surname": "FALCO",
+"household": "Giuseppe Falco & Rosa Sposito",
+"role": "father",
+"events": [
+{
+"event": "named as dead",
+"date": "3 Jan 1811",
+"place": "Arienzo, strada Camellara",
+"evidence": "«***figlio dalli furono GIUSEPPE FALCO, e ROSA SPOSITO***» — dead by **January 1811**, and the father of a man born about 1747, so **himself born around 1710–1725**.\n\n**HE IS NOT THE GIUSEPPE FALCO THIS ARCHIVE ALREADY HOLDS.** That Giuseppe Falco, the husband of **Antonia di Guida**, was **alive** on 26 February 1811 — seven weeks after this act — declaring his own infant son's death on this same street, and he was still alive in 1860. **Two men of one name on one street, and this act puts one of them in his grave while the other buries a child.**\n\n**If this archive ever reaches the generation above Matteo Falco, this is the name to test.** It is not tested yet.",
+"ark": "ANTENATI an_ua14313 img4 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "rosa-sposito",
+"name": "Rosa Sposito (d. before 1811)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "angelo-falco-of-giuseppe-falco-rosa-sposito",
+"name": "Angelo Falco (1747-1811)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
+"surname": "FALCO",
+"household": "Giuseppe Falco & Gelsomina Vigliotta",
+"role": "father",
+"events": [
+{
+"event": "named as living",
+"date": "1809",
+"place": "Arienzo, strada Camellara",
+"evidence": "Alive in 1809, *contadino* of **strada Camellara**. **HE IS DELIBERATELY NOT MERGED WITH THE GIUSEPPE FALCO OF ANTONIA DI GUIDA**, who appears in this same register with a different wife on a different street, nor with the **Giuseppe Falco dead before January 1811** whose son Angelo also lived on strada Camellara.\n\n**THREE MEN OF THIS NAME ARE NOW DOCUMENTED IN THREE CONSECUTIVE YEARS OF ONE TOWN'S DEATH REGISTERS**, two of them on the same street. **This archive resolves Falco by household, never by name.** [[which-falco]]",
+"ark": "ANTENATI an_ua14311 img44 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gelsomina-vigliotta",
+"name": "Gelsomina Vigliotta",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "domenico-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Domenico Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Rosaria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenico-clemente-falco",
+"name": "Domenico Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Rosaria Falco (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonio-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Antonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasqua-falco",
+"name": "Pasqua Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nicola-falco",
+"name": "Nicola Falco (1807-1809)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
 },
 {
 "slug": "giuseppe-falco",
@@ -26383,7 +27772,7 @@
 ]
 },
 {
-"slug": "angelo-falco-3",
+"slug": "angelo-falco-2",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -26705,7 +28094,7 @@
 ]
 },
 {
-"slug": "angelo-falco-4",
+"slug": "angelo-falco-3",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -26847,7 +28236,7 @@
 ]
 },
 {
-"slug": "angelo-falco-5",
+"slug": "angelo-falco-4",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -26984,6 +28373,14 @@
 ]
 },
 {
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -27034,14 +28431,6 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -27130,7 +28519,7 @@
 ]
 },
 {
-"slug": "angelo-falco-2",
+"slug": "angelo-falco",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -27162,7 +28551,7 @@
 "living": false,
 "parents": [
 {
-"slug": "angelo-falco-3",
+"slug": "angelo-falco-2",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -27555,6 +28944,14 @@
 ]
 },
 {
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -27613,14 +29010,6 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -28801,6 +30190,14 @@
 ]
 },
 {
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -28851,14 +30248,6 @@
 {
 "slug": "stanislao-falco",
 "name": "Stanislao Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -28997,7 +30386,7 @@
 ]
 },
 {
-"slug": "angelo-falco-5",
+"slug": "angelo-falco-4",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -29038,7 +30427,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "angelo-falco-3",
+"slug": "angelo-falco-2",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -30083,7 +31472,7 @@
 ]
 },
 {
-"slug": "angelo-falco-4",
+"slug": "angelo-falco-3",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -31440,7 +32829,7 @@
 ]
 },
 {
-"slug": "angelo-falco-3",
+"slug": "angelo-falco-2",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -31776,7 +33165,7 @@
 ]
 },
 {
-"slug": "angelo-falco-3",
+"slug": "angelo-falco-2",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -32520,6 +33909,108 @@
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
+"slug": "nicola-falco",
+"name": "Nicola Falco (1807-1809)",
+"surname": "FALCO",
+"household": "Giuseppe Falco & Gelsomina Vigliotta",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "1809",
+"place": "Arienzo, strada Camellara",
+"evidence": "**A SECOND GIUSEPPE FALCO ON STRADA CAMELLARA, WITH A DIFFERENT WIFE, IN THE SAME REGISTER AS THE FIRST.**\n\n«*è morto **NICOLA FALCO** — d'anni **DUE** — di professione **contadino** — domiciliante in detta Università, ed abitante nella strada **della CAMELLARA**, **figlio di GIUSEPPE FALCO, ed GELSOMINA VIGLIOTTA**, di professione **contadini**, domiciliati nella stessa Università, e Strada*». *The clerk writes her name «Felsomina»; Gelsomina is the name.*\n\n**THIS ARCHIVE ALREADY HAD A GIUSEPPE FALCO IN THIS VOLUME.** Act 38 of 28 August 1809 buries **MATTEO FALCO, fourteen months**, «*figlio di GIUSEPPE FALCO, ed ANTONIA DI GUIDA, di professione **MASSARI***», on **strada SANT'ANDREA**.\n\n**THE TWO ACTS ARE IN ONE YEAR'S REGISTER AND THEY DISAGREE ON EVERYTHING BUT THE NAME** — different wife, different street, different trade. *Massari* held land; *contadini* worked it. **There were two Giuseppe Falco at Arienzo in 1809 and this register proves it in its own pages.** [[two-falco-families-arienzo]]\n\n**IT WAS IN THE HALF NOBODY READ.** This volume puts two acts on every image — odd numbers on the left page, even on the right — and when this archive swept it on 21 September 2026 it read only the right pages. **The Matteo Falco act is act 38 and was found. Nicola Falco is on a left page and was not.** The volume was published as read in full; **it was half read**.\n\nTwo years old in 1809, so born about **1807**.",
+"ark": "ANTENATI an_ua14311 img44 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gelsomina-vigliotta",
+"name": "Gelsomina Vigliotta",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "domenico-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Domenico Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Rosaria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenico-clemente-falco",
+"name": "Domenico Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Rosaria Falco (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonio-falco-of-giuseppe-falco-gelsomina-vigliotta",
+"name": "Antonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasqua-falco",
+"name": "Pasqua Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"d": "1809",
+"dateFrom": {
+"d": "act"
+}
+},
+{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "surname": "FALCO",
@@ -32600,6 +34091,14 @@
 ]
 },
 {
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "daughter-falco",
 "name": "[daughter] Falco",
 "via": "register",
@@ -32650,14 +34149,6 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -32877,6 +34368,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "spouses": [
@@ -32935,6 +34434,14 @@
 {
 "slug": "antonio-falco-of-giuseppe-falco-gelsomina-vigliotta",
 "name": "Antonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nicola-falco",
+"name": "Nicola Falco (1807-1809)",
 "via": "register",
 "vias": [
 "register"
@@ -33397,6 +34904,14 @@
 ]
 },
 {
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -33455,14 +34970,6 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -33557,6 +35064,14 @@
 ]
 },
 {
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -33607,14 +35122,6 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -33903,7 +35410,7 @@
 ]
 },
 {
-"slug": "angelo-falco-3",
+"slug": "angelo-falco-2",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -34027,7 +35534,7 @@
 ]
 },
 {
-"slug": "angelo-falco-3",
+"slug": "angelo-falco-2",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -34207,7 +35714,7 @@
 "living": false,
 "parents": [
 {
-"slug": "angelo-falco-3",
+"slug": "angelo-falco-2",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -34520,7 +36027,7 @@
 "living": true,
 "parents": [
 {
-"slug": "angelo-falco-2",
+"slug": "angelo-falco",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -35169,6 +36676,14 @@
 ]
 },
 {
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -35227,14 +36742,6 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -36331,7 +37838,7 @@
 "living": true,
 "parents": [
 {
-"slug": "angelo-falco-2",
+"slug": "angelo-falco",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -36516,7 +38023,7 @@
 ]
 },
 {
-"slug": "angelo-falco-5",
+"slug": "angelo-falco-4",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -36696,6 +38203,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "spouses": [],
@@ -36736,6 +38251,14 @@
 {
 "slug": "pasqua-falco",
 "name": "Pasqua Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nicola-falco",
+"name": "Nicola Falco (1807-1809)",
 "via": "register",
 "vias": [
 "register"
@@ -36782,6 +38305,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "spouses": [],
@@ -36822,6 +38353,14 @@
 {
 "slug": "pasqua-falco",
 "name": "Pasqua Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nicola-falco",
+"name": "Nicola Falco (1807-1809)",
 "via": "register",
 "vias": [
 "register"
@@ -36991,6 +38530,14 @@
 ]
 },
 {
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -37041,14 +38588,6 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -37148,6 +38687,14 @@
 ]
 },
 {
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -37198,14 +38745,6 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -37782,6 +39321,14 @@
 ]
 },
 {
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -37840,14 +39387,6 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -37923,7 +39462,7 @@
 "living": false,
 "parents": [
 {
-"slug": "angelo-falco",
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
 "name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
@@ -37960,7 +39499,7 @@
 "living": false,
 "parents": [
 {
-"slug": "angelo-falco-3",
+"slug": "angelo-falco-2",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -38249,6 +39788,14 @@
 ]
 },
 {
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -38299,14 +39846,6 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -38425,7 +39964,7 @@
 ]
 },
 {
-"slug": "angelo-falco-3",
+"slug": "angelo-falco-2",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -39710,6 +41249,39 @@
 "siblings": []
 },
 {
+"slug": "domenico-giglio",
+"name": "Domenico Giglio",
+"surname": "GIGLIO",
+"household": "Stefano Carfora & Teresa di Guida",
+"role": "married in",
+"events": [
+{
+"event": "named as living",
+"date": "26 Sep 1828",
+"place": "Arienzo",
+"evidence": "«*moglie di **DOMENICO GIGLIO***» — Antonia Carfora's husband, **alive in September 1828** and not otherwise described. The act does not give his age, trade or street.",
+"ark": "ANTENATI an_ua14330 img31L act46 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "antonia-carfora",
+"name": "Antonia Carfora (1752-1828)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [],
+"siblings": []
+},
+{
 "slug": "filippo-giglio",
 "name": "Filippo Giglio",
 "surname": "GIGLIO",
@@ -40393,6 +41965,52 @@
 }
 },
 {
+"slug": "giuseppe-lettieri",
+"name": "Giuseppe Lettieri (d. 1810)",
+"surname": "LETTIERI",
+"household": "Antonio Lettieri & Giovanna Falco",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "19 Feb 1810",
+"place": "Arienzo, strada Costa",
+"evidence": "**THE EARLIEST RECORD OF THIS HOUSEHOLD BY SIXTEEN YEARS.** It was held from a marriage index entry of **2 February 1826**; this act is from **1810**, in a volume this archive had never opened.\n\n«*Oggi, che sono li **diciannove** del mese di **Febraro** dell'anno mille ottocento **dieci** sono comparsi … **DOMENICO LETTIERO**, d'anni **quarantatré**, bracciale … abitante nella strada della **COSTA**; e **GIUSEPPE LETTIERI**, d'anni **quarantacinque**, bracciale … ed hanno dichiarato, che oggi suddetto giorno ad ore **cinque** è morto **GIUSEPPE LETTIERI**, di **giorni TRE** … abitante nella strada della **COSTA**, **figlio di ANTONIO LETTIERO, e di GIOVANNA FALCO**, di professione **contadini***».\n\n**Three days old**, so born about 16 February 1810. **The couple were married by then**, which pushes their marriage back before 1810 and makes the 1826 index entry — where Giovanna Falco is *named*, not married — a later act about one of their children.\n\n**Both declarants are Lettieri of strada Costa**, and the act does not say how they are kin.",
+"ark": "ANTENATI an_ua14312 img7r (foglio 78) — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "giovanna-falco-of-antonio-lettieri-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "nunzia-lettieri",
+"name": "Nunzia Lettieri",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"d": "19 Feb 1810",
+"dateFrom": {
+"d": "act"
+}
+},
+{
 "slug": "nunzia-lettieri",
 "name": "Nunzia Lettieri",
 "surname": "LETTIERI",
@@ -40423,7 +42041,16 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [
+{
+"slug": "giuseppe-lettieri",
+"name": "Giuseppe Lettieri (d. 1810)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
 },
 {
 "slug": "stefano-lettieri",
@@ -43338,6 +44965,48 @@
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
+"slug": "catarina-morgillo",
+"name": "Catarina Morgillo",
+"surname": "MORGILLO",
+"household": "Pietro Carfora & Catarina Morgillo",
+"role": "mother",
+"events": [
+{
+"event": "named as living",
+"date": "28 Jul 1811",
+"place": "Arienzo, strada Signorindico",
+"evidence": "Alive in July 1811, *contadina* of strada Signorindico. **She is new to this archive** — no Catarina Morgillo appears in the households, the register or the notes.",
+"ark": "ANTENATI an_ua14313 img29 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "pietro-carfora",
+"name": "Pietro Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "maggio-carfora",
+"name": "Maggio Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
 "slug": "clementina-morgillo",
 "name": "Clementina Morgillo",
 "surname": "MORGILLO",
@@ -43955,7 +45624,7 @@
 ]
 },
 {
-"slug": "angelo-falco-4",
+"slug": "angelo-falco-3",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -48088,6 +49757,180 @@
 }
 },
 {
+"slug": "alessandro-rivieri",
+"name": "Alessandro Rivieri",
+"surname": "RIVIERI",
+"household": "Saverio Rivieri & Anna Carfora",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "1810",
+"place": "Arienzo, strada delli Cappuccini",
+"evidence": "«*è morto **ALESSANDRO RIVIERI** — di giorni **DODICI** — di professione contadino … abitante nella strada **delli CAPPUCCINI**, figlio di **SAVERIO RIVIERI** e **di ANNA CARFORA**, di professione **MASSARI DI CAMPAGNA**, domiciliati nella predeterminata Comune, e strada Cappuccini*».\n\n**Twelve days old**, so born about the end of the month before.\n\n**THE MOTHER'S FORENAME WRAPS INTO THE LEFT MARGIN** and was read there on purpose, not inferred from «*…arfora*» at the start of the line. [[relationship-words-magnified]]",
+"ark": "ANTENATI an_ua14312 img41 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "anna-carfora",
+"name": "Anna Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "saverio-rivieri-of-saverio-rivieri-anna-carfora",
+"name": "Saverio Rivieri",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [],
+"d": "1810",
+"dateFrom": {
+"d": "act"
+}
+},
+{
+"slug": "maria-rivieri",
+"name": "Maria Rivieri",
+"surname": "RIVIERI",
+"household": "Saverio Rivieri & Angela Falco",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "1809",
+"place": "Arienzo, strada della Fontana",
+"evidence": "«*è morta **MARIA RIVIERI** — di **giorni TRE** — di professione contadina … abitante nella strada **della FONTANA**, **figlia di SAVERIO RIVIERI, e di ANGELA FALCO**, di professione **MASSARI**, domiciliati nella stessa Università, e Strada*».\n\n**Three days old.**",
+"ark": "ANTENATI an_ua14311 img66 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "angela-falco-of-saverio-rivieri-angela-falco",
+"name": "Angela Falco (of Saverio Rivieri)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "saverio-rivieri-of-saverio-rivieri-angela-falco",
+"name": "Saverio Rivieri",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [],
+"d": "1809",
+"dateFrom": {
+"d": "act"
+}
+},
+{
+"slug": "saverio-rivieri-of-saverio-rivieri-anna-carfora",
+"name": "Saverio Rivieri",
+"surname": "RIVIERI",
+"household": "Saverio Rivieri & Anna Carfora",
+"role": "father",
+"events": [
+{
+"event": "named as living",
+"date": "1810",
+"place": "Arienzo, strada delli Cappuccini",
+"evidence": "Alive in 1810, *massaro di campagna* of strada delli Cappuccini. **RIVIERI is a surname new to this archive.**",
+"ark": "ANTENATI an_ua14312 img41 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "anna-carfora",
+"name": "Anna Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "alessandro-rivieri",
+"name": "Alessandro Rivieri",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
+"slug": "saverio-rivieri-of-saverio-rivieri-angela-falco",
+"name": "Saverio Rivieri",
+"surname": "RIVIERI",
+"household": "Saverio Rivieri & Angela Falco",
+"role": "father",
+"events": [
+{
+"event": "named as living",
+"date": "1809",
+"place": "Arienzo, strada della Fontana",
+"evidence": "*Massaro*, alive in 1809.\n\n**A SAVERIO RIVIERI, ALSO A MASSARO, BURIES AN INFANT IN THE NEXT YEAR'S REGISTER BY A DIFFERENT WIFE.** On that act — 1810, strada delli Cappuccini — he is «*massaro di campagna*» and the mother is **ANNA CARFORA**. *If it is one man, Angela Falco died between the two acts and he remarried inside a year; if it is two men, the name and the trade coincide.* **This archive read every Arienzo death act of 1809 and 1810 and Angela Falco is in neither**, which settles nothing either way — she could have died in any of the years still unread.\n\n**The two households are kept apart.**",
+"ark": "ANTENATI an_ua14311 img66 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "angela-falco-of-saverio-rivieri-angela-falco",
+"name": "Angela Falco (of Saverio Rivieri)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "maria-rivieri",
+"name": "Maria Rivieri",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
 "slug": "barbara-ruggiero",
 "name": "Barbara Ruggiero",
 "surname": "RUGGIERO",
@@ -50245,6 +52088,57 @@
 "siblings": []
 },
 {
+"slug": "rosa-sposito",
+"name": "Rosa Sposito (d. before 1811)",
+"surname": "SPOSITO",
+"household": "Giuseppe Falco & Rosa Sposito",
+"role": "mother",
+"events": [
+{
+"event": "named as dead",
+"date": "3 Jan 1811",
+"place": "Arienzo, strada Camellara",
+"evidence": "«***furono** Giuseppe Falco, e **ROSA SPOSITO***» — dead by January 1811.\n\n**SPOSITO IS A SURNAME THIS ARCHIVE ALREADY CARRIES, AND CARRIES CAREFULLY.** It holds a **VINCENZA SPOSITO**, recorded under both spellings because the registers write her as *Sposito* and as *Esposito*; and the same 1811 volume gives a **MARIA SPOSITO**, wife of Giuseppe Verdicchio, living on **strada Camellara**. *Esposito* is also the surname Neapolitan clerks gave foundlings, which makes it the least identifying name in these registers. **No connection between any of them is claimed.**",
+"ark": "ANTENATI an_ua14313 img4 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "anna-carfora",
+"name": "Anna Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-sposito",
+"name": "Giuseppe Falco (d. before 1811)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "angelo-falco-of-giuseppe-falco-rosa-sposito",
+"name": "Angelo Falco (1747-1811)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
 "slug": "vincenza-sposito",
 "name": "Vincenza Sposito",
 "surname": "SPOSITO",
@@ -50361,6 +52255,43 @@
 ],
 "siblings": [],
 "treeId": 4503059
+},
+{
+"slug": "catarina-surname-unread",
+"name": "Catarina [surname unread]",
+"surname": "UNREAD]",
+"household": "Francesco di Guida & Catarina [surname unread]",
+"role": "mother",
+"events": [
+{
+"event": "death",
+"date": "10 Jun 1810",
+"place": "Arienzo, strada Croce dell'Ospedale",
+"evidence": "**A SECOND DI GUIDA WIDOW IN THE SAME VOLUME, THREE MONTHS AFTER THE FIRST.** Act **31**, read from the image on 22 September 2026.\n\n«*è morta **CATARINA [·····]**, d'anni **SETTANTOTTO**, di professione **MENDICA**, domiciliante in detta Università, ed abitante nella strada della **Croce dell'Ospedale**, **VEDOVA DI FRANCESCO DI GUIDA***».\n\n**HER OWN SURNAME IS NOT RESOLVED.** Read at the scan's maximum resolution it is four or five letters beginning with a tall looped ascender and ending «-lle» or «-be» — *Lolle, Colle, Solle* are all possible and **none of them is an Arienzo surname this archive has otherwise met**. It is left unread rather than completed. *This archive has twice been caught finishing a wrapped or faded word by elimination and been wrong both times.*\n\nSeventy-eight in June 1810 puts her birth about **1732**.",
+"ark": "ANTENATI an_ua14312 img18 act31 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "francesco-di-guida",
+"name": "Francesco di Guida (d. before 1810)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [],
+"siblings": [],
+"d": "10 Jun 1810",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "marta-surname-unread",
@@ -50529,6 +52460,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "Alive and bearing a child on 18 March 1819, three days after burying two. Her age is given in this act; it is recorded rather than relied on.",
 "ark": "ANTENATI an_ua14416 img18r act33"
+},
+{
+"event": "named as living",
+"date": "1809",
+"place": "Arienzo, strada Camellara",
+"evidence": "Alive in 1809, *contadina*. **VIGLIOTTA is a surname this archive carries**: a **MARIA VIGLIOTTA** stands as a great-grandmother in the Carfora household, named as dead in 1864. **No connection is claimed** — the 1809 register alone holds four unrelated Vigliotta households.",
+"ark": "ANTENATI an_ua14311 img44 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -50540,6 +52478,14 @@
 {
 "slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta",
 "name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
+"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
 "via": "register",
 "vias": [
 "register"
@@ -50590,6 +52536,14 @@
 {
 "slug": "pasqua-falco",
 "name": "Pasqua Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nicola-falco",
+"name": "Nicola Falco (1807-1809)",
 "via": "register",
 "vias": [
 "register"
@@ -51672,7 +53626,7 @@
 ]
 },
 {
-"slug": "angelo-falco-2",
+"slug": "angelo-falco",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
