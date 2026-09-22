@@ -17181,27 +17181,10 @@
 }
 ],
 "sources": [
-"register",
-"tree"
+"register"
 ],
 "living": false,
 "parents": [
-{
-"slug": "francesco-falco-2",
-"name": "Francesco Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "maddalena-siciliatto",
-"name": "Maddalena Siciliatto (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
 {
 "slug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Giuseppe Falco",
@@ -17343,11 +17326,47 @@
 ]
 }
 ],
-"mergedOn": "name alone",
-"treeId": 4512504,
 "b": "19 Jan 1822",
 "dateFrom": {
-"b": "act",
+"b": "act"
+}
+},
+{
+"slug": "angela-maria-falco-2",
+"name": "Angela Maria Falco",
+"surname": "FALCO",
+"household": null,
+"role": null,
+"events": [],
+"sources": [
+"tree"
+],
+"living": false,
+"parents": [
+{
+"slug": "francesco-falco-2",
+"name": "Francesco Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "maddalena-siciliatto",
+"name": "Maddalena Siciliatto (Falco)",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [],
+"treeId": 4512504,
+"b": "1772",
+"dateFrom": {
+"b": "tree",
 "d": "tree",
 "dp": "tree"
 },
@@ -26253,7 +26272,7 @@
 ],
 "children": [
 {
-"slug": "angela-maria-falco",
+"slug": "angela-maria-falco-2",
 "name": "Angela Maria Falco",
 "via": "tree",
 "vias": [
@@ -56107,7 +56126,7 @@
 ],
 "children": [
 {
-"slug": "angela-maria-falco",
+"slug": "angela-maria-falco-2",
 "name": "Angela Maria Falco",
 "via": "tree",
 "vias": [
