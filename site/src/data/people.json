@@ -3982,6 +3982,72 @@
 "siblings": []
 },
 {
+"slug": "angela-carfora",
+"name": "Angela Carfora",
+"surname": "CARFORA",
+"household": "Giuseppe Falco & Gelsomina Vigliotta",
+"role": "married in",
+"events": [
+{
+"event": "marriage",
+"date": "13 Dec 1854",
+"place": "Arienzo, strada Signorindico",
+"evidence": "**GIUSEPPE FALCO'S SECOND WIFE — AND SHE HAD NO ROW HERE UNTIL 22 SEPTEMBER 2026.** Her whole filiation was read from the act on 21 September and written into **his** evidence rather than given rows of her own, so **she had no person page and neither did her parents**; her name was findable on this site only because it sits inside somebody else's quotation. *Found by auditing the search index against the week's new names.*\n\n«*e **D'ANGELA CARFORA maggiore**, di anni **cinquantanove**, nata in **Arienzo**, domiciliata **ivi strada SIGNORINDICO**, figlia del **fu ANGELO**, di professione **contadino**, domiciliato ivi, e della **fu CAMILLA CRISCI**, domiciliata ivi, **VEDOVA DI GENNARO CARFORA***».\n\n**Fifty-nine in December 1854**, so born about **1795**; **a Carfora who had married a Carfora**, widowed before she married Giuseppe Falco. **She lived on strada SIGNORINDICO** — the street of the Carfora household that work-list row 63 settled on the same day, Francesco Carfora and Pasqua Morgillo. *Whether she belongs to it is not established and is not claimed.*",
+"ark": "ANTENATI an_ua14258 (Arienzo, Matrimoni 1854) atto 3, img 7r — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "matteo-carfora",
+"name": "Matteo Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
+"slug": "angelo-carfora",
+"name": "Angelo Carfora",
+"surname": "CARFORA",
+"household": "Giuseppe Falco & Gelsomina Vigliotta",
+"role": "married in",
+"events": [
+{
+"event": "named as dead",
+"date": "13 Dec 1854",
+"place": "Arienzo, strada Signorindico",
+"evidence": "«*figlia del **fu ANGELO**, di professione **contadino**, domiciliato ivi*» — Angela Carfora's father, a *contadino* of **strada Signorindico**, **dead before December 1854**. The 1827 Arienzo marriage tavola gives a **CARFORA LORENZA** whose father is also a **CARFORA ANGELO**; *sisters is the obvious reading and it is not made here.*",
+"ark": "ANTENATI an_ua14258 (Arienzo, Matrimoni 1854) atto 3, img 7r — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [
+{
+"slug": "matteo-carfora",
+"name": "Matteo Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
 "slug": "aniello-carfora",
 "name": "Aniello Carfora",
 "surname": "CARFORA",
@@ -4481,12 +4547,29 @@
 "register"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "angelo-carfora",
+"name": "Angelo Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "spouses": [],
 "children": [
 {
 "slug": "mariantonia-carfora",
 "name": "Mariantonia Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-carfora",
+"name": "Angela Carfora",
 "via": "register",
 "vias": [
 "register"
@@ -8399,6 +8482,30 @@
 }
 ],
 "treeId": 4000422
+},
+{
+"slug": "camilla-crisci",
+"name": "Camilla Crisci",
+"surname": "CRISCI",
+"household": "Giuseppe Falco & Gelsomina Vigliotta",
+"role": "married in",
+"events": [
+{
+"event": "named as dead",
+"date": "13 Dec 1854",
+"place": "Arienzo, strada Signorindico",
+"evidence": "«*e della **fu CAMILLA CRISCI**, domiciliata ivi*» — Angela Carfora's mother, dead before December 1854. **CAMILLA CRISCI had never appeared in this archive in any file**, and for a day after she was read she still had not: she was named inside an evidence string and nowhere else, which left her out of the search index while every other name published that week was in it. **That is how she was found again.**",
+"ark": "ANTENATI an_ua14258 (Arienzo, Matrimoni 1854) atto 3, img 7r — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
 },
 {
 "slug": "carmina-crisci",
