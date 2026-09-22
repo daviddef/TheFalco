@@ -69,8 +69,20 @@ const card = (c) => {
   };
 };
 
+/* A FAMILY MAY BE RECORDED UNDER MORE THAN ONE SPELLING, AND SAYS SO.
+   /families/esposito/ listed ZERO people until 23 September 2026: the family
+   is filed ESPOSITO and its one person — Vincenza Sposito — is recorded
+   SPOSITO, so the page named her in its prose and could not link her. The
+   Rivetti had the same hole: the parish writes RIVETTA and the civil clerk
+   RIVETTI, and Maddalena Rivetta, who is Antonia di Guida's own mother, was
+   on neither page.
+   This is a DISPLAY rule and an EXPLICIT one — each family lists its own
+   variants in families.json. Nothing is normalised algorithmically and no two
+   records are merged: an archive that refuses to merge people on a name must
+   not fold surnames by an ending rule either. */
+const names = [fam.sn, ...(fam.also || [])].map(norm);
 const ours = people
-  .filter((p) => norm(p.surname) === norm(fam.sn))
+  .filter((p) => names.includes(norm(p.surname)))
   .sort((a, b) => {
     const y = (x) => Number((String(x.b || "").match(/\b(1[5-9]\d\d|20\d\d)\b/) || [])[1] || 9999);
     return y(a) - y(b);

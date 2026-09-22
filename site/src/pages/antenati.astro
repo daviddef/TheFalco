@@ -2,6 +2,34 @@
 import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
+import households from "../data/households.json";
+import searched from "../data/searched.json";
+
+/* DERIVED, BECAUSE BOTH OF THESE WERE TYPED AND BOTH WENT STALE.
+   «Six Falco householders on strada Camellara» was written when six were known
+   and stood while four more were published. «Fifty consecutive annual death
+   registers» began life as «five, 1832 to 1836» and was corrected once by hand
+   before being corrected again here. A number a reader can check against the
+   data should be read out of the data. */
+const HEAD = new Set(["father", "head", "husband"]);
+const camellara = [...new Set(
+  households.flatMap((h) => h.members)
+    .filter((m) => /Camellara/.test(m.place || "") && HEAD.has(m.role) && /Falco/.test(m.person))
+    .map((m) => m.person.split(" (")[0].trim())
+)].sort();
+const deathYears = (() => {
+  const out = new Set();
+  for (const r of searched) {
+    const t = r.tags || [];
+    if (!(t.includes("Deaths") && t.includes("read in full"))) continue;
+    const w = String(r.when || "");
+    for (const m of w.matchAll(/\b(18\d\d)\s*[\u2013\u2014-]\s*(18\d\d)\b/g))
+      for (let y = +m[1]; y <= +m[2]; y++) out.add(y);
+    for (const m of w.matchAll(/\b(18\d\d)\b/g)) out.add(+m[1]);
+  }
+  return [...out].sort((a, b) => a - b);
+})();
+const DFROM = deathYears[0], DTO = deathYears[deathYears.length - 1];
 const idx = [
   ["Zampiello", 439, 259, 104, 16, 19, 10, 0],
   ["Annecchino", 603, 63, 215, 237, 40, 0, 9],
@@ -389,10 +417,12 @@ const avail = [
   index pages were never completed. There is no substitute for reading the acts.</p>
 
   <h2>Strada Camellara</h2>
-  <p>Across the seven volumes now read, <strong>six Falco householders</strong> are recorded on the same
-  street: <strong>Pasquale</strong>, his son <strong>Vincenzo</strong>, <strong>Michele</strong>,
-  <strong>Michelangelo</strong>, <strong>Francesco</strong>, and <strong>Giuseppe</strong> — with
-  Pasquale's sister <strong>Rosa</strong>, who married Carlantonio Morgillo, living there too. Every one of them a <em>contadino</em>, and the
+  <p><strong>{camellara.length} Falco householders</strong> are now recorded on the same street —
+  {camellara.map((n, i) => (<>{i ? (i === camellara.length - 1 ? " and " : ", ") : ""}<strong>{n.replace(/ Falco$/, "")}</strong></>))} —
+  with Pasquale's sister <strong>Rosa</strong>, who married Carlantonio Morgillo, living there too.
+  <em>This line said «six» from the first seven volumes until 23 September 2026, and four more had
+  been published under it; the names and the number are now read out of the household file.</em>
+  Almost all of them <em>contadini</em> or <em>massari</em>, and the
   declarants who came to the town hall for each death were neighbours from the same street. Whether the
   four besides Vincenzo are Pasquale's other sons, his brothers' sons, or unrelated Falco is not yet
   established — but they are one neighbourhood, and the answer is in the birth registers.</p>
@@ -427,16 +457,19 @@ const avail = [
     <li>Two unproven births are now <strong>located rather than merely missing</strong> — a specific
     volume each, in a specific archive.</li>
     <li><strong>Moiano and Paolisi</strong> join the list of places this family has to be searched in.</li>
-    <li>The <em>processetti</em> are the largest unworked seam — 321 volumes — but they stop at 1865,
+    <li>The <em>processetti</em> are the largest barely-worked seam — 321 volumes in the Valle
+    Caudina, of which <strong>three bundles have now been read</strong> — but they stop at 1865,
     which rules them out for the twentieth-century marriages.</li>
     <li><strong>Pasquale Falco's death act has been found</strong>, and with it his parentage
     confirmed from a second, independent record series. The 1829–1843 search is closed.</li>
     <li><strong>Strada Camellara</strong> is the family's address, and four more Falco householders
     on it are now named.</li>
-    <li><strong>Fifty consecutive annual death registers have been read in full</strong> —
-    <strong>1816 through 1865</strong>, every year Antenati holds after 1815 — and the
+    <li><strong>{deathYears.length} consecutive annual death registers have been read in full</strong> —
+    <strong>{DFROM} through {DTO}</strong>, every year Antenati holds — and the
     page-by-page logs are published with the archive, so the reading does not have to be repeated.
-    <em>That began as five volumes, 1832 to 1836, and this line said so until 22 September 2026.</em></li>
+    <em>That began as five volumes, 1832 to 1836; it said «fifty, 1816 through 1865» until the
+    earliest seven were read on 23 September 2026. The number is now derived, so it cannot say so
+    again.</em></li>
     <li><strong>A second Falco couple of the founding generation</strong> — Michele Falco and Vincenza
     Esposito — now stands beside Matteo and Francesca. The relationship between the two households is
     the next thing worth proving.</li>
