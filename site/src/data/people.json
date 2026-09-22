@@ -51,6 +51,12 @@
 "siblings": [],
 "treeId": 4512422,
 "b": "Jan 25 1871",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Dec 27 1955",
 "bp": "Durazzano, Benevento, Campania, Italy",
 "dp": "Durazzano, Benevento, Campania, Italy"
@@ -100,6 +106,10 @@
 "mergedOn": "name alone",
 "treeId": 4512421,
 "b": "Jan 19 1824",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Durazzano, Benevento, Campania, Italy"
 },
 {
@@ -1040,7 +1050,10 @@
 ],
 "mergedOn": "name and dates",
 "treeId": 4000092,
-"b": "Apr 10 1897"
+"b": "Apr 10 1897",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "giacinta-annecchino",
@@ -1528,7 +1541,11 @@
 ],
 "mergedOn": "name and dates",
 "treeId": 4512578,
-"b": "Dec 24 1864",
+"b": "24 Dec 1864",
+"dateFrom": {
+"b": "act",
+"bp": "tree"
+},
 "bp": "Forchia, Benevento, Campania, Italia"
 },
 {
@@ -1565,6 +1582,10 @@
 "siblings": [],
 "treeId": 4512575,
 "b": "June 7 1878",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Forchia, Benevento, Campania, Italia"
 },
 {
@@ -2740,7 +2761,10 @@
 ],
 "siblings": [],
 "treeId": 4512365,
-"b": "1848"
+"b": "1848",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "marcello-arrigale",
@@ -2891,6 +2915,12 @@
 ],
 "treeId": 4512446,
 "b": "Aug 22 1889",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Aug 22 1890",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -2978,6 +3008,10 @@
 ],
 "treeId": 4512443,
 "b": "Dec 18 1882",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -3063,6 +3097,12 @@
 ],
 "treeId": 4512440,
 "b": "June 28 1879",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "May 17 1880",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -3150,6 +3190,10 @@
 "siblings": [],
 "treeId": 4512438,
 "b": "1852",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo"
 },
 {
@@ -3235,6 +3279,12 @@
 ],
 "treeId": 4512442,
 "b": "Mar 7 1881",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Nov 18 1897",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -3322,6 +3372,12 @@
 ],
 "treeId": 4512444,
 "b": "Nov 8 1884",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Aug 21 1885",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -3409,6 +3465,12 @@
 ],
 "treeId": 4512441,
 "b": "June 28 1879",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "June 14 1881",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -3496,6 +3558,10 @@
 ],
 "treeId": 4512445,
 "b": "Sep 13 1886",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -5468,7 +5534,10 @@
 "children": [],
 "siblings": [],
 "treeId": 4512603,
-"b": "1799"
+"b": "1799",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "antonio-ceglia",
@@ -5679,7 +5748,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "luigi-falco-3",
+"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Luigi Falco",
 "via": "tree",
 "vias": [
@@ -5786,6 +5855,12 @@
 "siblings": [],
 "treeId": 4512393,
 "b": "1877",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Feb 7 1857",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -7838,6 +7913,10 @@
 "siblings": [],
 "treeId": 4509380,
 "b": "Oct 6 1881",
+"dateFrom": {
+"b": "tree",
+"d": "tree"
+},
 "d": "Jan 23 1958"
 },
 {
@@ -8294,6 +8373,12 @@
 "mergedOn": "name alone",
 "treeId": 4512416,
 "b": "1817",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Nov 14 1869",
 "bp": "Arienzo, Caserta, Campania, Itália",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -8452,10 +8537,11 @@
 ]
 },
 {
-"slug": "luigi-falco-3",
+"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Luigi Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -8478,14 +8564,6 @@
 {
 "slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Raffaele Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Luigi (Aloysius) Falco",
 "via": "register",
 "vias": [
 "register"
@@ -8591,7 +8669,10 @@
 "siblings": [],
 "mergedOn": "the same generation of the direct line — she is the wife the line names, on both sides",
 "treeId": 4512467,
-"b": "1796"
+"b": "1796",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "andreana-crisci-of-gennaro-espositelli-andreana-crisc",
@@ -8693,7 +8774,10 @@
 ],
 "siblings": [],
 "treeId": 4512381,
-"b": "1852"
+"b": "1852",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "angela-rosa-crisci",
@@ -9047,6 +9131,12 @@
 "siblings": [],
 "treeId": 4512406,
 "b": "Nov 12 1807",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Nov 25 1884",
 "bp": "Arienzo, Caserta, Campania, Italy",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -9218,6 +9308,10 @@
 "siblings": [],
 "treeId": 4512428,
 "b": "1825",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italy"
 },
 {
@@ -9736,6 +9830,10 @@
 ],
 "treeId": 4512413,
 "b": "1837",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italy"
 },
 {
@@ -9805,6 +9903,12 @@
 ],
 "treeId": 4512415,
 "b": "May 19 1851",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Apr 8 1941",
 "bp": "Santa Maria a Vico, Caserta, Campania, Italia",
 "dp": "Santa Maria a Vico, Caserta, Campania, Italia"
@@ -10359,6 +10463,12 @@
 "mergedOn": "name alone",
 "treeId": 4512408,
 "b": "1813",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "June 8 1876",
 "bp": "Arienzo, Caserta, Campania, Italy",
 "dp": "Arienzo, Caserta, Campania, Italy"
@@ -11058,6 +11168,10 @@
 ],
 "treeId": 4512414,
 "b": "Oct 30 1840",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italy"
 },
 {
@@ -11467,6 +11581,10 @@
 ],
 "treeId": 4512411,
 "b": "June 28 1832",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italy"
 },
 {
@@ -11594,6 +11712,10 @@
 "mergedOn": "name alone",
 "treeId": 4512418,
 "b": "1811",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italy"
 },
 {
@@ -11729,6 +11851,10 @@
 ],
 "treeId": 4512412,
 "b": "Dec 24 1836",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italy"
 },
 {
@@ -12464,7 +12590,10 @@
 ],
 "siblings": [],
 "treeId": 4512515,
-"b": "1875"
+"b": "1875",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "bruce-de-roo",
@@ -13637,11 +13766,7 @@
 "register"
 ]
 }
-],
-"d": "15 Nov 1857 – 14 Feb 1860",
-"dateFrom": {
-"d": "act"
-}
+]
 },
 {
 "slug": "clemente-di-guida",
@@ -14716,7 +14841,7 @@
 ],
 "children": [
 {
-"slug": "luigi-falco-4",
+"slug": "luigi-falco-3",
 "name": "Luigi Falco",
 "via": "tree",
 "vias": [
@@ -14798,7 +14923,10 @@
 ],
 "siblings": [],
 "treeId": 4512497,
-"b": "1849"
+"b": "1849",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "agnese-di-lucia",
@@ -14826,6 +14954,10 @@
 "siblings": [],
 "treeId": 4512479,
 "bp": "Arienzo, Caserta, Campania, Italia",
+"dateFrom": {
+"bp": "tree",
+"dp": "tree"
+},
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -14889,6 +15021,12 @@
 "mergedOn": "name alone",
 "treeId": 4512586,
 "b": "1760",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Dec 20 1830",
 "bp": "Santa Maria A Vico, Nola, Terra Di Lavoro",
 "dp": "Santa Maria a Vico, Caserta, Campania, Italia"
@@ -16286,6 +16424,12 @@
 ],
 "treeId": 4512454,
 "b": "Aug 15 1898",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Jan 19 1899",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -16349,7 +16493,10 @@
 }
 ],
 "treeId": 4512517,
-"b": "1854"
+"b": "1854",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "angela-falco-of-matteo-falco-francesca-crisci",
@@ -16704,7 +16851,10 @@
 }
 ],
 "treeId": 4512529,
-"b": "Jan 21 1876"
+"b": "Jan 21 1876",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "angela-falco-2",
@@ -16789,6 +16939,12 @@
 ],
 "treeId": 4512558,
 "b": "1860",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Feb 20 1860",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -16980,7 +17136,12 @@
 ],
 "mergedOn": "name alone",
 "treeId": 4512504,
-"b": "1772",
+"b": "19 Jan 1822",
+"dateFrom": {
+"b": "act",
+"d": "tree",
+"dp": "tree"
+},
 "d": "Sep 14 1850",
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
@@ -17095,7 +17256,13 @@
 ],
 "mergedOn": "name and dates",
 "treeId": 4512370,
-"b": "Jan 31 1878",
+"b": "31 Jan 1878",
+"dateFrom": {
+"b": "act",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Feb 6 1879",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -17217,6 +17384,10 @@
 ],
 "treeId": 4512417,
 "b": "1841",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -17286,6 +17457,10 @@
 ],
 "treeId": 4512476,
 "b": "Oct 30 1879",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -18055,7 +18230,10 @@
 }
 ],
 "treeId": 4512514,
-"b": "1862"
+"b": "1862",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "angelo-falco-4",
@@ -18124,6 +18302,10 @@
 ],
 "treeId": 4512527,
 "b": "1856",
+"dateFrom": {
+"b": "tree",
+"d": "tree"
+},
 "d": "Jan 29 1875"
 },
 {
@@ -18192,7 +18374,10 @@
 }
 ],
 "treeId": 4000095,
-"dp": "Forchia, Italy"
+"dp": "Forchia, Italy",
+"dateFrom": {
+"dp": "tree"
+}
 },
 {
 "slug": "aniello-falco-2",
@@ -18302,7 +18487,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "luigi-falco-5",
+"slug": "luigi-falco-4",
 "name": "Luigi Falco",
 "via": "tree",
 "vias": [
@@ -18711,6 +18896,10 @@
 ],
 "treeId": 4512360,
 "b": "Sep 7 1904",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -18909,6 +19098,10 @@
 "siblings": [],
 "treeId": 4512477,
 "b": "1921",
+"dateFrom": {
+"b": "tree",
+"d": "tree"
+},
 "d": "2018"
 },
 {
@@ -19010,6 +19203,12 @@
 ],
 "treeId": 4512439,
 "b": "Dec 15 1851",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "June 17 1866",
 "bp": "Arienzo, Caserta, Campania, Itália",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -19073,6 +19272,10 @@
 ],
 "treeId": 4512491,
 "b": "Feb 20 1848",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -19126,6 +19329,10 @@
 ],
 "treeId": 4512553,
 "b": "Nov 19 1850",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -19211,6 +19418,12 @@
 ],
 "treeId": 4512559,
 "b": "1853",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Apr 30 1857",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -19690,6 +19903,12 @@
 ],
 "treeId": 4512457,
 "b": "July 6 1882",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "July 14 1883",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -19735,7 +19954,7 @@
 ],
 "children": [
 {
-"slug": "luigi-falco-4",
+"slug": "luigi-falco-3",
 "name": "Luigi Falco",
 "via": "tree",
 "vias": [
@@ -19825,7 +20044,7 @@
 ]
 },
 {
-"slug": "luigi-falco-3",
+"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Luigi Falco",
 "via": "tree",
 "vias": [
@@ -19843,6 +20062,10 @@
 ],
 "treeId": 4512495,
 "b": "May 13 1843",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -19920,6 +20143,11 @@
 ],
 "treeId": 4512496,
 "b": "Sep 26 1848",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree"
+},
 "d": "Oct 23 1850",
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
@@ -19975,6 +20203,12 @@
 ],
 "treeId": 4512498,
 "b": "Circa 1810",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "May 8 1880",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Santa Maria a Vico, Caserta, Campania, Italia"
@@ -20012,7 +20246,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "luigi-falco-4",
+"slug": "luigi-falco-3",
 "name": "Luigi Falco",
 "via": "tree",
 "vias": [
@@ -20086,6 +20320,10 @@
 ],
 "treeId": 4512540,
 "b": "Jan 7 1886",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -20147,6 +20385,12 @@
 ],
 "treeId": 4512474,
 "b": "1799",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Mar 16 1861",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -20326,7 +20570,10 @@
 }
 ],
 "treeId": 4512455,
-"b": "1884"
+"b": "1884",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "carlo-falco-2",
@@ -20434,7 +20681,10 @@
 }
 ],
 "treeId": 4512458,
-"b": "1891"
+"b": "1891",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "carmela-falco",
@@ -20614,6 +20864,12 @@
 ],
 "treeId": 4512425,
 "b": "1837",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "May 25 1883",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -20725,6 +20981,10 @@
 ],
 "treeId": 4512456,
 "b": "June 14 1888",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -20793,7 +21053,10 @@
 }
 ],
 "treeId": 4512526,
-"b": "1869"
+"b": "1869",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "carmina-falco",
@@ -20921,11 +21184,13 @@
 "mergedOn": "name alone",
 "treeId": 4512389,
 "b": "July 8 1891",
-"bp": "Arienzo, Caserta, Campania, Italia",
-"d": "19 Dec 1832",
 "dateFrom": {
+"b": "tree",
+"bp": "tree",
 "d": "act"
-}
+},
+"bp": "Arienzo, Caserta, Campania, Italia",
+"d": "19 Dec 1832"
 },
 {
 "slug": "carmine-antonio-falco",
@@ -21058,7 +21323,11 @@
 ],
 "mergedOn": "name and dates",
 "treeId": 4512364,
-"b": "July 10 1850",
+"b": "10 Jul 1850",
+"dateFrom": {
+"b": "act",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia",
 "gen": 5,
 "line": {
@@ -21210,6 +21479,11 @@
 ],
 "treeId": 4000091,
 "b": "Jan 11 1901",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree"
+},
 "d": "Apr 27 1988",
 "bp": "Caserta, Campania, Italy",
 "gen": 7,
@@ -21331,6 +21605,10 @@
 ],
 "treeId": 4000025,
 "b": "June 8 1930",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Forchia, Benevento, Campania, Italy",
 "gen": 8,
 "line": {
@@ -21400,6 +21678,12 @@
 ],
 "treeId": 4512449,
 "b": "Apr 3 1886",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Mar 31 1887",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -21417,7 +21701,7 @@
 "living": false,
 "parents": [
 {
-"slug": "luigi-falco-3",
+"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Luigi Falco",
 "via": "tree",
 "vias": [
@@ -21528,6 +21812,10 @@
 "siblings": [],
 "treeId": 4512450,
 "b": "1852",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -21562,7 +21850,7 @@
 ]
 },
 {
-"slug": "luigi-falco-5",
+"slug": "luigi-falco-4",
 "name": "Luigi Falco",
 "via": "tree",
 "vias": [
@@ -21728,7 +22016,10 @@
 }
 ],
 "treeId": 4512452,
-"b": "1893"
+"b": "1893",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "carolina-falco-2",
@@ -21837,6 +22128,10 @@
 ],
 "treeId": 4512459,
 "b": "1876",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -21945,7 +22240,10 @@
 }
 ],
 "treeId": 4512460,
-"b": "1886"
+"b": "1886",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "catherine-falco",
@@ -22072,7 +22370,10 @@
 }
 ],
 "treeId": 4512499,
-"b": "Dec 19 1843"
+"b": "Dec 19 1843",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "clemente-falco-of-giuseppe-falco-antonia-di-guida",
@@ -22410,6 +22711,12 @@
 ],
 "treeId": 4512501,
 "b": "Jan 19 1846",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Aug 14 1853",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -22481,6 +22788,12 @@
 ],
 "treeId": 4512528,
 "b": "1858",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Oct 9 1875",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -22650,6 +22963,12 @@
 ],
 "treeId": 4512437,
 "b": "Dec 18 1848",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Sep 20 1900",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -22780,7 +23099,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "luigi-falco-4",
+"slug": "luigi-falco-3",
 "name": "Luigi Falco",
 "via": "tree",
 "vias": [
@@ -22854,6 +23173,10 @@
 ],
 "treeId": 4512544,
 "b": "Jan 31 1888",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -23201,7 +23524,13 @@
 ],
 "mergedOn": "name and dates",
 "treeId": 4512410,
-"b": "1819",
+"b": "11 Oct 1819",
+"dateFrom": {
+"b": "act",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Aug 1 1898",
 "bp": "Arienzo",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -23257,6 +23586,10 @@
 ],
 "treeId": 4512554,
 "b": "Mar 23 1881",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -23310,6 +23643,10 @@
 ],
 "treeId": 4512555,
 "b": "Aug 17 1878",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -23346,6 +23683,10 @@
 "siblings": [],
 "treeId": 4512556,
 "b": "Apr 16 1900",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -23568,6 +23909,10 @@
 ],
 "treeId": 4512435,
 "b": "Sep 13 1846",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italy"
 },
 {
@@ -23603,7 +23948,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "luigi-falco-4",
+"slug": "luigi-falco-3",
 "name": "Luigi Falco",
 "via": "tree",
 "vias": [
@@ -23677,6 +24022,10 @@
 ],
 "treeId": 4512543,
 "b": "Sep 20 1874",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -23712,7 +24061,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "luigi-falco-4",
+"slug": "luigi-falco-3",
 "name": "Luigi Falco",
 "via": "tree",
 "vias": [
@@ -23786,6 +24135,10 @@
 ],
 "treeId": 4512537,
 "b": "Feb 25 1883",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -24410,7 +24763,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "luigi-falco-4",
+"slug": "luigi-falco-3",
 "name": "Luigi Falco",
 "via": "tree",
 "vias": [
@@ -24484,6 +24837,10 @@
 ],
 "treeId": 4512541,
 "b": "Dec 22 1870",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -24594,6 +24951,10 @@
 ],
 "treeId": 4512427,
 "b": "1839",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italy"
 },
 {
@@ -24639,6 +25000,12 @@
 "siblings": [],
 "treeId": 4512395,
 "b": "1745",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Dec 31 1805",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -24819,6 +25186,11 @@
 "siblings": [],
 "treeId": 4512507,
 "b": "Nov 4 1886",
+"dateFrom": {
+"b": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
@@ -25385,7 +25757,10 @@
 }
 ],
 "treeId": 4512396,
-"bp": "Arienzo, Caserta, Campania, Italia"
+"bp": "Arienzo, Caserta, Campania, Italia",
+"dateFrom": {
+"bp": "tree"
+}
 },
 {
 "slug": "francesco-falco-of-francesco-falco-antonia-loffreda",
@@ -25602,6 +25977,12 @@
 ],
 "treeId": 4512401,
 "b": "1810",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Mar 19 1898",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -25897,6 +26278,12 @@
 "siblings": [],
 "treeId": 4512533,
 "b": "1806",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Aug 8 1882",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -26041,6 +26428,10 @@
 "siblings": [],
 "treeId": 4512549,
 "b": "Jan 17 1858",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Santa Maria a Vico, Caserta, Campania, Italia"
 },
 {
@@ -26167,8 +26558,14 @@
 ],
 "mergedOn": "name and dates",
 "treeId": 4512484,
-"b": "June 1 1848",
-"d": "June 3 1848",
+"b": "1 Jun 1848",
+"dateFrom": {
+"b": "act",
+"d": "act",
+"bp": "tree",
+"dp": "tree"
+},
+"d": "3 Jun 1848",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
@@ -26255,6 +26652,10 @@
 ],
 "treeId": 4512359,
 "b": "Oct 29 1913",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arpaia, Benevento, Campania, Italia"
 },
 {
@@ -26457,6 +26858,10 @@
 ],
 "treeId": 4512379,
 "b": "1842",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -26544,6 +26949,12 @@
 ],
 "treeId": 4512392,
 "b": "1775",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Feb 14 1851",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -27124,6 +27535,10 @@
 ],
 "treeId": 4512361,
 "b": "July 9 1898",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -27243,6 +27658,12 @@
 ],
 "treeId": 4512405,
 "b": "Aug 13 1805",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Oct 14 1872",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -27280,7 +27701,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "luigi-falco-4",
+"slug": "luigi-falco-3",
 "name": "Luigi Falco",
 "via": "tree",
 "vias": [
@@ -27354,6 +27775,10 @@
 ],
 "treeId": 4512539,
 "b": "May 10 1891",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia Certificate Number"
 },
 {
@@ -27770,6 +28195,10 @@
 ],
 "treeId": 4512390,
 "b": "Feb 9 1883",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -27889,6 +28318,10 @@
 ],
 "treeId": 4512447,
 "b": "Mar 5 1850",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -27966,6 +28399,12 @@
 ],
 "treeId": 4512500,
 "b": "Mar 27 1851",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "June 29 1855",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -28037,6 +28476,10 @@
 ],
 "treeId": 4512513,
 "b": "Nov 9 1883",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -29066,6 +29509,11 @@
 ],
 "treeId": 4512371,
 "b": "Mar 19 1883",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree"
+},
 "d": "1959",
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
@@ -29294,6 +29742,12 @@
 ],
 "treeId": 4512403,
 "b": "1776",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Dec 10 1871",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -29406,6 +29860,10 @@
 ],
 "treeId": 4512429,
 "b": "1841",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -29491,6 +29949,12 @@
 ],
 "treeId": 4512485,
 "b": "June 1 1848",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "June 2 1848",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -29538,6 +30002,12 @@
 "siblings": [],
 "treeId": 4512521,
 "b": "1775",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Feb 10 1872",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -29633,7 +30103,7 @@
 ]
 },
 {
-"slug": "luigi-falco-3",
+"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Luigi Falco",
 "via": "tree",
 "vias": [
@@ -29651,6 +30121,12 @@
 ],
 "treeId": 4512523,
 "b": "1824",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "May 3 1882",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -29960,6 +30436,12 @@
 ],
 "treeId": 4512609,
 "b": "1861",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "June 26 1862",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -30250,30 +30732,75 @@
 }
 ],
 "sources": [
-"register"
+"register",
+"tree"
 ],
 "living": false,
 "parents": [
-{
-"slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
-"name": "Andreana Crisci",
-"via": "register",
-"vias": [
-"register"
-]
-},
 {
 "slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
-"register"
+"register",
+"tree"
+]
+},
+{
+"slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+"name": "Andrea / Andreana Crisci (Falco)",
+"via": "register",
+"vias": [
+"register",
+"tree"
 ]
 }
 ],
-"spouses": [],
-"children": [],
+"spouses": [
+{
+"slug": "carolina-cimmino",
+"name": "Carolina Cimmino (Falco)",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"children": [
+{
+"slug": "carmine-falco-3",
+"name": "Carmine Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
 "siblings": [
+{
+"slug": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
+"name": "Raffaele Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "antonio-falco-2",
+"name": "Antonio Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "giuseppe-falco-7",
+"name": "Giuseppe Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
 {
 "slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Raffaele Falco",
@@ -30379,12 +30906,18 @@
 ]
 }
 ],
+"mergedOn": "both parents and an exact death date — the name was never used, and this archive holds more than one person of it",
+"treeId": 4512464,
 "b": "21 Dec 1819",
 "dateFrom": {
 "b": "act",
-"d": "act"
+"d": "act",
+"bp": "tree",
+"dp": "tree"
 },
-"d": "16 Dec 1864"
+"d": "16 Dec 1864",
+"bp": "Arienzo, Caserta, Campania, Italia",
+"dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "luigi-falco-of-sebastiano-falco-colomba-montefusc",
@@ -30516,7 +31049,10 @@
 }
 ],
 "treeId": 4512453,
-"b": "1880"
+"b": "1880",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "luigi-falco-2",
@@ -30625,91 +31161,14 @@
 ],
 "treeId": 4512461,
 "b": "1878",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "luigi-falco-3",
-"name": "Luigi Falco",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Vincenzo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
-"name": "Andrea / Andreana Crisci (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [
-{
-"slug": "carolina-cimmino",
-"name": "Carolina Cimmino (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"children": [
-{
-"slug": "carmine-falco-3",
-"name": "Carmine Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [
-{
-"slug": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
-"name": "Raffaele Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "antonio-falco-2",
-"name": "Antonio Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "giuseppe-falco-7",
-"name": "Giuseppe Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4512464,
-"b": "1823",
-"d": "Dec 16 1864",
-"bp": "Arienzo, Caserta, Campania, Italia",
-"dp": "Arienzo, Caserta, Campania, Italia"
-},
-{
-"slug": "luigi-falco-4",
 "name": "Luigi Falco",
 "surname": "FALCO",
 "household": null,
@@ -30815,10 +31274,14 @@
 ],
 "treeId": 4512530,
 "b": "Apr 11 1872",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
-"slug": "luigi-falco-5",
+"slug": "luigi-falco-4",
 "name": "Luigi Falco",
 "surname": "FALCO",
 "household": null,
@@ -31618,6 +32081,12 @@
 ],
 "treeId": 4504857,
 "b": "1933",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "July 31 1938",
 "bp": "Forchia, Italy",
 "dp": "Forchia, Italy"
@@ -32097,7 +32566,10 @@
 }
 ],
 "treeId": 4512525,
-"b": "1872"
+"b": "1872",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "maria-cimmino-falco",
@@ -32209,6 +32681,10 @@
 ],
 "treeId": 4512488,
 "b": "Feb 19 1847",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -32855,6 +33331,12 @@
 ],
 "treeId": 4512409,
 "b": "1818",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Oct 3 1871",
 "bp": "Arienzo",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -32967,6 +33449,10 @@
 ],
 "treeId": 4512433,
 "b": "1843",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italy"
 },
 {
@@ -33003,6 +33489,11 @@
 "siblings": [],
 "treeId": 4512552,
 "b": "Apr 12 1844",
+"dateFrom": {
+"b": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
@@ -33065,6 +33556,12 @@
 ],
 "treeId": 4512591,
 "b": "1795",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "May 1 1862",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -33120,6 +33617,12 @@
 ],
 "treeId": 4512607,
 "b": "1856",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Mar 4 1859",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -33207,6 +33710,10 @@
 ],
 "treeId": 4512557,
 "b": "Nov 21 1845",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -33382,7 +33889,11 @@
 ],
 "mergedOn": "name and dates",
 "treeId": 4512494,
-"b": "Mar 19 1875",
+"b": "19 Mar 1875",
+"dateFrom": {
+"b": "act",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -33672,7 +34183,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "luigi-falco-4",
+"slug": "luigi-falco-3",
 "name": "Luigi Falco",
 "via": "tree",
 "vias": [
@@ -33746,6 +34257,10 @@
 ],
 "treeId": 4512538,
 "b": "Sep 20 1874",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -33799,6 +34314,10 @@
 ],
 "treeId": 4512493,
 "b": "July 25 1851",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -34655,6 +35174,12 @@
 ],
 "treeId": 4512394,
 "b": "1744",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "July 18 1802",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -34808,6 +35333,12 @@
 ],
 "treeId": 4512407,
 "b": "1810",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Dec 12 1867",
 "bp": "Arienzo, Caserta, Campania, Itália",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -34855,6 +35386,12 @@
 "siblings": [],
 "treeId": 4512473,
 "b": "1807",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Apr 7 1880",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -35688,6 +36225,12 @@
 ],
 "treeId": 4512383,
 "b": "1808",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Sep 28 1879",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -36402,6 +36945,12 @@
 ],
 "treeId": 4512373,
 "b": "1839",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Sep 26 1883",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -36628,6 +37177,11 @@
 "mergedOn": "the same generation of the direct line — name and spouse both agree",
 "treeId": 4512469,
 "b": "1765",
+"dateFrom": {
+"b": "tree",
+"bp": "tree",
+"d": "act"
+},
 "bp": "Arienzo, Caserta, Campania, Italy",
 "gen": 2,
 "line": {
@@ -36643,10 +37197,7 @@
 "died": "1 Oct 1834",
 "diedPlace": "Arienzo, strada Camellara"
 },
-"d": "1 Oct 1834",
-"dateFrom": {
-"d": "act"
-}
+"d": "1 Oct 1834"
 },
 {
 "slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
@@ -37456,7 +38007,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "luigi-falco-4",
+"slug": "luigi-falco-3",
 "name": "Luigi Falco",
 "via": "tree",
 "vias": [
@@ -37530,6 +38081,10 @@
 ],
 "treeId": 4512542,
 "b": "Feb 9 1877",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -37591,6 +38146,10 @@
 ],
 "treeId": 4512608,
 "b": "Apr 20 1867",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -37733,11 +38292,13 @@
 "mergedOn": "name alone",
 "treeId": 4512512,
 "b": "Feb 1 1877",
-"bp": "Arienzo, Caserta, Campania, Italia",
-"d": "14 Sep 1836",
 "dateFrom": {
+"b": "tree",
+"bp": "tree",
 "d": "act"
-}
+},
+"bp": "Arienzo, Caserta, Campania, Italia",
+"d": "14 Sep 1836"
 },
 {
 "slug": "rosa-maria-falco",
@@ -38277,6 +38838,10 @@
 ],
 "treeId": 4512391,
 "b": "Jan 24 1880",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -38354,6 +38919,12 @@
 "siblings": [],
 "treeId": 4512397,
 "b": "1820",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Apr 20 1854",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -38425,6 +38996,12 @@
 ],
 "treeId": 4512511,
 "b": "1868",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Sep 13 1868",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -39255,7 +39832,7 @@
 ],
 "siblings": [
 {
-"slug": "luigi-falco-3",
+"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Luigi Falco",
 "via": "tree",
 "vias": [
@@ -39282,6 +39859,12 @@
 "mergedOn": "the same generation of the direct line — name and spouse both agree",
 "treeId": 4512366,
 "b": "1818",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Apr 21 1880",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia",
@@ -39459,6 +40042,12 @@
 ],
 "treeId": 4000093,
 "b": "Aug 25 1925",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Sep 28 1988",
 "bp": "Benevento, Campania, Italy",
 "dp": "Brisbane, Brisbane, Queensland, Australia"
@@ -39598,6 +40187,10 @@
 ],
 "treeId": 4000230,
 "b": "Apr 6 1873",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia",
 "gen": 6,
 "line": {
@@ -39681,6 +40274,10 @@
 ],
 "treeId": 4512376,
 "b": "June 28 1874",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -39750,6 +40347,12 @@
 ],
 "treeId": 4512377,
 "b": "Aug 15 1870",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Aug 9 1871",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -39813,6 +40416,12 @@
 ],
 "treeId": 4512382,
 "b": "Mar 8 1877",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Nov 5 1878",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -39868,6 +40477,12 @@
 ],
 "treeId": 4512385,
 "b": "1858",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Aug 17 1859",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -41001,7 +41616,13 @@
 ],
 "mergedOn": "name and dates",
 "treeId": 4512475,
-"b": "Nov 20 1847",
+"b": "20 Nov 1847",
+"dateFrom": {
+"b": "act",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Nov 21 1847",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -41114,6 +41735,10 @@
 ],
 "treeId": 4512431,
 "b": "1842",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -41379,10 +42004,11 @@
 ]
 },
 {
-"slug": "luigi-falco-3",
+"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Luigi Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -41405,14 +42031,6 @@
 {
 "slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Raffaele Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Luigi (Aloysius) Falco",
 "via": "register",
 "vias": [
 "register"
@@ -41544,6 +42162,12 @@
 "mergedOn": "the same generation of the direct line — name and spouse both agree",
 "treeId": 4512466,
 "b": "1793",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "May 15 1875",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia",
@@ -41667,6 +42291,11 @@
 ],
 "treeId": 4512492,
 "b": "Feb 26 1850",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree"
+},
 "d": "Sep 12 1889",
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
@@ -41703,7 +42332,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "luigi-falco-4",
+"slug": "luigi-falco-3",
 "name": "Luigi Falco",
 "via": "tree",
 "vias": [
@@ -41777,6 +42406,10 @@
 ],
 "treeId": 4512545,
 "b": "Apr 9 1879",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -42254,6 +42887,10 @@
 "siblings": [],
 "treeId": 4512480,
 "b": "Circa 1740",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Caserta, Campania, Italia"
 },
 {
@@ -42473,6 +43110,12 @@
 ],
 "treeId": 4512482,
 "b": "1767",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Apr 29 1837",
 "bp": "Caserta, Campania, Italia",
 "dp": "Capua, Caserta, Campania, Italia"
@@ -42553,6 +43196,12 @@
 ],
 "treeId": 4512597,
 "b": "1827",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Apr 18 1891",
 "bp": "Galluccio, Caserta, Campania, Italia",
 "dp": "Frosinone, Roma, Lazio, Italia"
@@ -42633,6 +43282,12 @@
 ],
 "treeId": 4512595,
 "b": "1820",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "July 8 1868",
 "bp": "Capua, Caserta, Campania, Italia",
 "dp": "Caserta, Caserta, Campania, Italia"
@@ -42713,6 +43368,10 @@
 ],
 "treeId": 4512594,
 "b": "Nov 3 1813",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Capua, Caserta, Campania, Italia"
 },
 {
@@ -42791,6 +43450,12 @@
 ],
 "treeId": 4512596,
 "b": "1821",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "May 2 1871",
 "bp": "Caserta, Campania, Italia",
 "dp": "Caserta, Terra di Lavoro, Italia"
@@ -42871,6 +43536,11 @@
 ],
 "treeId": 4512598,
 "b": "1827",
+"dateFrom": {
+"b": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "bp": "Caserta, Caserta, Italy",
 "dp": "Caserta, Campania, Italia"
 },
@@ -42908,6 +43578,12 @@
 "siblings": [],
 "treeId": 4512606,
 "b": "1767",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "June 14 1839",
 "bp": "Capua, Caserta, Campania, Italia",
 "dp": "Caserta, Caserta, Campania, Italia"
@@ -42938,6 +43614,12 @@
 "siblings": [],
 "treeId": 4512600,
 "b": "Circa 1826",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Mar 16 1854",
 "bp": "Napoli, Napoli, Italia",
 "dp": "Caserta, Caserta, Campania, Italia"
@@ -43064,6 +43746,10 @@
 "siblings": [],
 "treeId": 4512434,
 "b": "1848",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "San Felice A Cancello"
 },
 {
@@ -43157,7 +43843,10 @@
 ],
 "siblings": [],
 "treeId": 4000084,
-"bp": "Italy"
+"bp": "Italy",
+"dateFrom": {
+"bp": "tree"
+}
 },
 {
 "slug": "giuseppa-ferrara-2",
@@ -43193,6 +43882,10 @@
 "siblings": [],
 "treeId": 4512567,
 "b": "June 29 1912",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arpaia, Benevento, Campania, Italia"
 },
 {
@@ -43399,6 +44092,10 @@
 "siblings": [],
 "treeId": 4512518,
 "b": "1854",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -43535,6 +44232,12 @@
 ],
 "treeId": 4506618,
 "b": "1940",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "July 5 1940",
 "bp": "Arpaia, Benevento, Campania, Italia",
 "dp": "Arpaia, Benevento, Campania, Italia"
@@ -43828,6 +44531,12 @@
 "siblings": [],
 "treeId": 4512535,
 "b": "1757",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "1812",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -43924,6 +44633,12 @@
 "siblings": [],
 "treeId": 4512436,
 "b": "1841",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "May 25 1875",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -44012,6 +44727,10 @@
 "siblings": [],
 "treeId": 4512404,
 "b": "Oct 31 1783",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -44591,7 +45310,10 @@
 ],
 "siblings": [],
 "treeId": 4512593,
-"b": "Circa 1745"
+"b": "Circa 1745",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "constanza-maione",
@@ -44702,6 +45424,10 @@
 ],
 "treeId": 4000231,
 "b": "May 2 1876",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -44809,6 +45535,10 @@
 ],
 "treeId": 4512580,
 "b": "Dec 1 1884",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -44862,6 +45592,10 @@
 ],
 "treeId": 4512579,
 "b": "Mar 10 1881",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -44967,6 +45701,10 @@
 "siblings": [],
 "treeId": 4512362,
 "b": "1841",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -45465,6 +46203,10 @@
 "siblings": [],
 "treeId": 4512363,
 "b": "1846",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -45629,6 +46371,10 @@
 "siblings": [],
 "treeId": 4512448,
 "b": "1850",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -45917,6 +46663,12 @@
 "siblings": [],
 "treeId": 4509378,
 "b": "Apr 28 1875",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Nov 4 1960",
 "bp": "Piedimonte Etneo, CT, Italy",
 "dp": "Piedimonte Etneo, CT, Italy"
@@ -46179,6 +46931,12 @@
 ],
 "treeId": 4509377,
 "b": "1920",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Apr 2 2002",
 "bp": "Piedimonte Etneo, Sicilia, Italy",
 "dp": "Brisbane, QLD, Australia"
@@ -46226,6 +46984,10 @@
 ],
 "treeId": 4509381,
 "b": "Dec 25 1911",
+"dateFrom": {
+"b": "tree",
+"d": "tree"
+},
 "d": "Oct 14 1962"
 },
 {
@@ -46279,6 +47041,12 @@
 "siblings": [],
 "treeId": 4512866,
 "b": "Oct 14 1907",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "1994",
 "bp": "New York, New York, USA",
 "dp": "Briatico, Vibo Valentia, Italia"
@@ -47381,6 +48149,12 @@
 "mergedOn": "name and dates",
 "treeId": 4512367,
 "b": "Feb 24 1818",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Apr 15 1880",
 "bp": "San Felice, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -47734,6 +48508,10 @@
 "siblings": [],
 "treeId": 4512432,
 "b": "1848",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -49394,6 +50172,10 @@
 "siblings": [],
 "treeId": 4512483,
 "b": "1783",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Caserta, Campania, Italia"
 },
 {
@@ -49430,7 +50212,10 @@
 ],
 "siblings": [],
 "treeId": 4512592,
-"b": "1750"
+"b": "1750",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "nicoletta-nuzzo",
@@ -49458,6 +50243,10 @@
 "siblings": [],
 "treeId": 4512430,
 "b": "1855",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -49645,6 +50434,10 @@
 "siblings": [],
 "treeId": 4512451,
 "bp": "Arienzo, Caserta, Campania, Italia",
+"dateFrom": {
+"bp": "tree",
+"dp": "tree"
+},
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -49921,6 +50714,10 @@
 ],
 "treeId": 4512587,
 "b": "1801",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -50043,6 +50840,12 @@
 ],
 "treeId": 4512369,
 "b": "1789",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "June 12 1859",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -50380,6 +51183,12 @@
 ],
 "treeId": 4512867,
 "b": "1936",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "1980",
 "bp": "Briatico, Vibo Valentia, Italia",
 "dp": "Briatico, Vibo Valentia, Italia"
@@ -50453,6 +51262,12 @@
 ],
 "treeId": 4509721,
 "b": "Mar 1928",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Jan 29 2010",
 "bp": "Briatico, Calabria, Italy",
 "dp": "Brisbane QLD, Australia"
@@ -50508,6 +51323,10 @@
 ],
 "treeId": 4512868,
 "b": "Oct 18 1930",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Briatico, Calabria, Italy"
 },
 {
@@ -50561,6 +51380,12 @@
 "siblings": [],
 "treeId": 4512865,
 "b": "Nov 16 1900",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Aug 21 1983",
 "bp": "Briatico, Vibo Valentia, Italia",
 "dp": "Briatico, Vibo Valentia, Italia"
@@ -51835,6 +52660,10 @@
 "mergedOn": "the same generation of the direct line — she is the wife the line names, on both sides",
 "treeId": 4512470,
 "b": "1772",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arienzo, Caserta, Campania, Italy"
 },
 {
@@ -52428,6 +53257,12 @@
 "siblings": [],
 "treeId": 4512536,
 "b": "1760",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Aug 6 1812",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -53431,7 +54266,10 @@
 ],
 "siblings": [],
 "treeId": 4504855,
-"b": "1919"
+"b": "1919",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "pasquale-ruggiero",
@@ -53572,11 +54410,7 @@
 ]
 }
 ],
-"siblings": [],
-"d": "between 1817 and 1 Jun 1820",
-"dateFrom": {
-"d": "act"
-}
+"siblings": []
 },
 {
 "slug": "teresa-ruggiero",
@@ -53766,6 +54600,10 @@
 "siblings": [],
 "treeId": 4512481,
 "b": "Circa 1745",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Italia"
 },
 {
@@ -53794,6 +54632,12 @@
 "siblings": [],
 "treeId": 4512534,
 "b": "1799",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "July 3 1874",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -53833,6 +54677,12 @@
 "siblings": [],
 "treeId": 4512510,
 "b": "1839",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "May 31 1869",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
@@ -54619,6 +55469,12 @@
 "siblings": [],
 "treeId": 4000227,
 "b": "Feb 11 1930",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "June 13 2021",
 "bp": "Italy",
 "dp": "Brisbane QLD, Australia"
@@ -54982,6 +55838,11 @@
 "siblings": [],
 "treeId": 4000412,
 "b": "Feb 10 1951",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree"
+},
 "d": "Mar 19 2020",
 "bp": "Napoli"
 },
@@ -56107,6 +56968,12 @@
 "siblings": [],
 "treeId": 4512424,
 "b": "June 20 1894",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Aug 3 1963",
 "bp": "Durazzano, Benevento, Campania, Italy",
 "dp": "Westbury, Nassau, New York, United States"
@@ -56146,6 +57013,12 @@
 "siblings": [],
 "treeId": 4512423,
 "b": "Sep 19 1860",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Oct 18 1945",
 "bp": "Durazzano, Benevento, Campania, Italia",
 "dp": "Durazzano, Benevento, Campania, Italia"
@@ -56241,6 +57114,10 @@
 ],
 "treeId": 4506615,
 "b": "May 11 1877",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arpaia, Benevento, Campania, Italia"
 },
 {
@@ -56390,6 +57267,11 @@
 "mergedOn": "name and dates",
 "treeId": 4000085,
 "b": "Aug 31 1895",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree"
+},
 "d": "Apr 25 1972",
 "bp": "Italy"
 },
@@ -56476,6 +57358,12 @@
 ],
 "treeId": 4504856,
 "b": "1935",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Apr 26 1935",
 "bp": "Arpaia, Italy",
 "dp": "Arpaia, Italy"
@@ -56563,6 +57451,12 @@
 ],
 "treeId": 4000090,
 "b": "1935",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Apr 26 1935",
 "bp": "Arpaia, Italy",
 "dp": "Arpaia, Italy"
@@ -56657,7 +57551,10 @@
 }
 ],
 "treeId": 4506620,
-"b": "Oct 29 1881"
+"b": "Oct 29 1881",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "caterina-zampiello",
@@ -56809,6 +57706,12 @@
 "mergedOn": "name and dates",
 "treeId": 4000087,
 "b": "July 7 1925",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Feb 14 2004",
 "bp": "Benevento, Province of Benevento, Campania, Italy",
 "dp": "Brisbane, Brisbane, Queensland, Australia"
@@ -56956,6 +57859,12 @@
 "mergedOn": "name and dates",
 "treeId": 4000024,
 "b": "Apr 27 1928",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Sep 10 2022",
 "bp": "Arpaia, Provincia di Benevento, Campania, Italy",
 "dp": "Brisbane, QLD, Australia"
@@ -57051,6 +57960,10 @@
 ],
 "treeId": 4506611,
 "b": "July 7 1889",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arpaia, Benevento, Campania, Italia"
 },
 {
@@ -57143,7 +58056,10 @@
 }
 ],
 "treeId": 4506614,
-"b": "Nov 26 1887"
+"b": "Nov 26 1887",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "giuseppe-zampiello",
@@ -57188,6 +58104,12 @@
 ],
 "treeId": 4506616,
 "b": "1933",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "June 4 1933",
 "bp": "Arpaia, Benevento, Campania, Italia",
 "dp": "Arpaia, Benevento, Campania, Italia"
@@ -57309,6 +58231,10 @@
 ],
 "treeId": 4506609,
 "b": "July 13 1884",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arpaia, Benevento, Campania, Italia"
 },
 {
@@ -57402,6 +58328,10 @@
 ],
 "treeId": 4506619,
 "b": "July 24 1878",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arpaia, Benevento, Campania, Italia"
 },
 {
@@ -57437,7 +58367,10 @@
 "children": [],
 "siblings": [],
 "treeId": 4506627,
-"b": "Oct 1 1869"
+"b": "Oct 1 1869",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "mariangela-marta-zampiello",
@@ -57481,7 +58414,10 @@
 }
 ],
 "treeId": 4506623,
-"b": "July 15 1872"
+"b": "July 15 1872",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "marta-zampiello",
@@ -57574,6 +58510,10 @@
 ],
 "treeId": 4506612,
 "b": "Nov 27 1892",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arpaia, Benevento, Campania, Italia"
 },
 {
@@ -57667,6 +58607,10 @@
 ],
 "treeId": 4506613,
 "b": "Oct 4 1885",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arpaia, Benevento, Campania, Italy"
 },
 {
@@ -57712,6 +58656,10 @@
 ],
 "treeId": 4506622,
 "b": "May 2 1874",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
 "bp": "Arpaia, Benevento, Campania, Italia"
 },
 {
@@ -57856,6 +58804,12 @@
 "mergedOn": "name and dates",
 "treeId": 4000089,
 "b": "Nov 28 1930",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "July 4 2021",
 "bp": "Italy",
 "dp": "Brisbane QLD, Australia"
@@ -58338,6 +59292,11 @@
 "mergedOn": "name and dates",
 "treeId": 4000086,
 "b": "Feb 9 1921",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree"
+},
 "d": "June 2 2004",
 "bp": "Arpaia, Benevento, Italy"
 },
@@ -58842,6 +59801,12 @@
 "siblings": [],
 "treeId": 4512524,
 "b": "1829",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
 "d": "Aug 12 1889",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
