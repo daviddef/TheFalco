@@ -485,7 +485,36 @@ for nm in sorted(tr_by_name):
     if best > 0 and len(top) == 1:
         merge[top[0]] = hk; basis[top[0]] = "name and dates"
     elif best == 0 and len(tids) == 1:
-        merge[tids[0]] = hk; basis[tids[0]] = "name alone"
+        # "NAME ALONE" IS USED EXACTLY WHEN THE YEARS FAILED TO OVERLAP —
+        # `best == 0` says so. Until 23 September 2026 it merged anyway, and it
+        # fused two women: the tree's ANGELA MARIA FALCO, born 1772 to Francesco
+        # Falco and Maddalena Siciliatto, and the register's ANGELA MARIA FALCO,
+        # born 19 January 1822 to Giuseppe Falco and Antonia di Guida. One page,
+        # four parents, fifty years.
+        #
+        # The first repair refused wherever the years failed to overlap and cost
+        # TEN merges to save ONE. Nine were correct: Alessandra Crisci has a
+        # tree birth of 1817 and a register marriage of 1834, years that never
+        # overlap and never contradict, BECAUSE A BIRTH YEAR AND A MARRIAGE YEAR
+        # NEVER DO. Absence of agreement is not disagreement.
+        #
+        # So compare LIKE WITH LIKE: the household's BIRTH event against the
+        # tree's `b`, its DEATH event against the tree's `d`, and refuse only
+        # when one of those pairs both exists and disagrees. Everything else —
+        # a silent side, a marriage year, a baptism against nothing — still
+        # merges on the name, which is what "name alone" was always for.
+        _t = by_id[tids[0]]
+        _clash = []
+        for _kind, _fld in (("birth", "b"), ("death", "d")):
+            _hy = years(*[e.get("date") for e in hh_people[hk]["events"]
+                          if str(e.get("event") or "").lower().startswith(_kind)])
+            _ty = years(_t.get(_fld))
+            if _hy and _ty and not (_hy & _ty):
+                _clash.append(f"{_kind} {sorted(_hy)} vs tree {sorted(_ty)}")
+        if _clash:
+            refused.append((nm + " — " + "; ".join(_clash), len(tids)))
+        else:
+            merge[tids[0]] = hk; basis[tids[0]] = "name alone"
     else:
         refused.append((nm, len(tids)))
 
