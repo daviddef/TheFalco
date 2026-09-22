@@ -310,7 +310,7 @@
    },
    {
     "who": "Vincenzo Falco",
-    "whoSlug": "vincenzo-falco",
+    "whoSlug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
     "to": "Andrea / Andreana Crisci (Falco)",
     "toSlug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
     "into": "Crisci",
@@ -480,7 +480,7 @@
    },
    {
     "name": "Vincenzo Falco",
-    "slug": "vincenzo-falco",
+    "slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
     "b": "1793",
     "bp": "Arienzo",
     "d": "May 15 1875",
@@ -808,7 +808,7 @@
    },
    {
     "name": "Vincenzo Falco",
-    "slug": "vincenzo-falco-2",
+    "slug": "vincenzo-falco",
     "b": "Feb 26 1850",
     "bp": "Arienzo",
     "d": "Sep 12 1889",
@@ -1096,7 +1096,7 @@
    },
    {
     "name": "Vincenzo Falco",
-    "slug": "vincenzo-falco-3",
+    "slug": "vincenzo-falco-2",
     "b": "Apr 9 1879",
     "bp": "Arienzo",
     "d": "",
@@ -1824,7 +1824,7 @@
     "who": "Andrea / Andreana Crisci (Falco)",
     "whoSlug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
     "to": "Vincenzo Falco",
-    "toSlug": "vincenzo-falco",
+    "toSlug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
     "into": "Falco",
     "living": false
    },

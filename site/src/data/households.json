@@ -4456,6 +4456,16 @@
         "place": "Arienzo, Monastero d'Ave Gratia Plena",
         "evidence": "«*è morta nel **Monastero d'AVE GRATIA PLENA**, **DONNA RAFFAELA DE' FALCO, d'anni SESSANTASETTE**, nata in Arienzo, di professione **MONACA**, domiciliata ivi, figlia di **DON FRANCESCO FALCO Defunto**, di professione **PROPRIETARIO**, domiciliato ivi, e di **DONNA MADDALENA SICILIANO Defunta**, domiciliata ivi*» — **image 12 RIGHT**, 7 March 1836. Born about 1769. **A gentry branch; no connection to the documented line is established.**\n\n**HER MOTHER HAD NEVER BEEN RECORDED HERE: DONNA MADDALENA SICILIANO**, read from the image on 20 September 2026 and magnified. **She is the first name this archive holds for the wife of Don Francesco Falco the proprietario.**",
         "ark": "ANTENATI an_ua14338 img12r"
+      },
+      {
+        "household": "Don Francesco Falco (gentry branch)",
+        "person": "Donna Maddalena Stellato",
+        "role": "mother",
+        "event": "—",
+        "date": "—",
+        "place": "Arienzo",
+        "evidence": "**DON FRANCESCO FALCO'S WIFE, named on the which-falco page and in no data file until 22 September 2026.** Their daughter **DONNA ANGELA MARIA** was a nun, dead **14 November 1850**; their son **DON GIACOMO** a priest, dead **20 June 1857**. **A different social world in the same parish, and no kinship to this line is claimed or suspected.**",
+        "ark": "site/src/pages/which-falco.astro — a page, not an act; the acts behind it are named in each row"
       }
     ]
   },
@@ -6771,6 +6781,76 @@
         "place": "Arienzo",
         "evidence": "**FRANCESCO FALCO'S SECOND WIFE, AND SHE IS WHOLLY NEW — the surname SABATINO as a bride's has never appeared in this archive.** «*CORNELIA SABATINO maggiore, di anni **cinquanta**, di professione **contadina**, nata in **Arienzo** … **VEDOVA DI ANTONIO LETTIERI***». **Fifty in August 1854**, so born about 1804; a widow marrying a widower.\n\nHer mother, **ALBERTA VERDICCHIO**, *filatrice*, was dead by 1854. **Her father's forename is not secure at this filming** and is left unread rather than guessed.",
         "ark": "ANTENATI an_ua14258 img32r act20 — READ FROM THE IMAGE"
+      }
+    ]
+  },
+  {
+    "name": "Domenico Falco & Mariantonia Frasca",
+    "members": [
+      {
+        "household": "Domenico Falco & Mariantonia Frasca",
+        "person": "Domenico Falco (m. 1844, Santa Maria a Vico)",
+        "role": "father",
+        "event": "marriage",
+        "date": "1 Jul 1844",
+        "place": "Santa Maria a Vico",
+        "evidence": "**THIS HOUSEHOLD WAS LIVING IN A PAGE TEMPLATE.** It was named on the **which-falco** disambiguation page — which exists to keep the other Arienzo Falco apart from this line — and **it was in no data file**, so it had no person pages, no place in the search index and no way for a reader to reach it. *Found on 22 September 2026 by auditing that page's eighteen couples against the household file: three had no household and two were spelled differently in the prose than in the data.* **The facts below are the page's own; the acts behind them are named and, where they have not been re-read, said to be.**\n\n**Married 1 July 1844 at SANTA MARIA A VICO.** The which-falco page calls him «*the son of the other Giuseppe Falco and Gelsomina Vigliotta*» — the strada Costa house, not the strada Camellara one.\n\n**WHICH DOMENICO HE IS, IS NOT SETTLED AND IS NOT CLAIMED.** That household holds a **DOMENICO FALCO born 25 November 1816 who died on 15 March 1819**, and a **DOMENICO CLEMENTE FALCO born 18 March 1819 who married on 6 August 1856**. *A man marrying in 1844 is neither of those two as this archive currently reads them* — so either there is a third Domenico, or one of the two identifications is wrong. **The act of 1 July 1844 is at Santa Maria a Vico and has not been read here.**",
+        "ark": "site/src/pages/which-falco.astro — a page, not an act; the acts behind it are named in each row"
+      },
+      {
+        "household": "Domenico Falco & Mariantonia Frasca",
+        "person": "Mariantonia Frasca",
+        "role": "mother",
+        "event": "marriage",
+        "date": "1 Jul 1844",
+        "place": "Santa Maria a Vico",
+        "evidence": "**FRASCA, from the act — and the index says FALCO.** The 1850 death index of her son calls the mother «*Falco Mariantonia*»; **the act says FRASCA**. *An index is not a record, and this is the fourth time in a week this archive has had to say so.*",
+        "ark": "site/src/pages/which-falco.astro — a page, not an act; the acts behind it are named in each row"
+      },
+      {
+        "household": "Domenico Falco & Mariantonia Frasca",
+        "person": "Angelantonio Falco",
+        "role": "child",
+        "event": "death",
+        "date": "20 Oct 1850",
+        "place": "Arienzo",
+        "evidence": "**TEN MONTHS OLD, AND HE DIED IN HIS WET-NURSE'S HOUSE.** Dead **20 October 1850** at Arienzo «*in the house of his wet-nurse **GRAZIA DIGLIO***» — a detail the register gives and a family tree never would. *Born about December 1849.* **The act has not been re-read at full resolution.**",
+        "ark": "site/src/pages/which-falco.astro — a page, not an act; the acts behind it are named in each row"
+      }
+    ]
+  },
+  {
+    "name": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+    "members": [
+      {
+        "household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+        "person": "Angelo Falco (of Corso Caudino)",
+        "role": "father",
+        "event": "—",
+        "date": "—",
+        "place": "Arienzo, Corso Caudino",
+        "evidence": "**THIS HOUSEHOLD WAS LIVING IN A PAGE TEMPLATE.** It was named on the **which-falco** disambiguation page — which exists to keep the other Arienzo Falco apart from this line — and **it was in no data file**, so it had no person pages, no place in the search index and no way for a reader to reach it. *Found on 22 September 2026 by auditing that page's eighteen couples against the household file: three had no household and two were spelled differently in the prose than in the data.* **The facts below are the page's own; the acts behind them are named and, where they have not been re-read, said to be.**\n\n**A Falco household of the CORSO CAUDINO**, named on the which-falco page and nowhere else. **No kinship to this line is claimed**; the page exists precisely to keep them apart.",
+        "ark": "site/src/pages/which-falco.astro — a page, not an act; the acts behind it are named in each row"
+      },
+      {
+        "household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+        "person": "Annamaria Cimmino",
+        "role": "mother",
+        "event": "—",
+        "date": "—",
+        "place": "Arienzo, Corso Caudino",
+        "evidence": "Named as Angelo Falco's wife. **CIMMINO is a surname this archive holds heavily at Arienzo** — Carolina Cimmino married Luigi Falco in 1851, Antonia Cimmino is a Carfora mother — and **none of them is joined to her here**.",
+        "ark": "site/src/pages/which-falco.astro — a page, not an act; the acts behind it are named in each row"
+      },
+      {
+        "household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+        "person": "Vincenzo Falco (of Angelo, d. 1889)",
+        "role": "child",
+        "event": "death",
+        "date": "13 Sep 1889",
+        "place": "Arienzo, Corso Caudino",
+        "evidence": "**THIRTY-NINE, A VATICALE, AND EXPLICITLY NOT THE VINCENZO OF THIS LINE.** Dead **13 September 1889**, born about 1850. *This archive's own Vincenzo Falco, generation three, was born in 1792 and was alive in December 1864; the two are separated here on purpose, because a Vincenzo Falco of Arienzo is exactly the kind of name that gets merged by accident.* **The act has not been re-read.**",
+        "ark": "site/src/pages/which-falco.astro — a page, not an act; the acts behind it are named in each row"
       }
     ]
   }
