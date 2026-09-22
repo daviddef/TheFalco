@@ -8,6 +8,12 @@ import line from "../data/line.json";
 import { findPerson } from "../lib/people.js";
 
 const rows = (sn) => register.filter((r) => r.surname === sn).length;
+/* 22 September 2026. «Eleven families» was typed in the eyebrow and the
+   twelfth — CARFORA, the fifth-largest surname in the archive — was added the
+   same day the array below became data. A count in prose beside a count in
+   data is a count that will disagree with itself. */
+const WORD = ["no","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten",
+              "Eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen"];
 const P = (name, house) => {
   const p = findPerson(name, house);
   return p ? u("/people/" + p.slug) : null;
@@ -40,6 +46,10 @@ const Praw = (name, house) => {
    married" is a sentence about this family, not a schema. */
 import fams from "../data/families.json";
 
+const slugify = (x) =>
+  String(x).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
 const groups = [{
   rows: fams.families.map((f) => ({
     label: f.name,
@@ -56,12 +66,16 @@ const groups = [{
       ]),
     },
     note: f.body + (f.note ? ` ${f.note}` : ""),
+    /* Each family now has a page of its own listing every person of the
+       name, drawn with the same Descent row as the front page. */
+    href: `/families/${slugify(f.sn)}/`,
+    hrefLabel: `Everyone of the name`,
   })),
 }];
 
 ---
 <Base title="The families"
-      eyebrow="Eleven families, not one surname"
+      eyebrow={`${WORD[fams.families.length] || fams.families.length} families, not one surname`}
       dek="A family history that follows only one surname is half a history. These are the families the Falco married — what is known of each in its own right, how often they married in, and where the evidence for them stops.">
 
   <div class="card" style="border-left:3px solid var(--accent)">

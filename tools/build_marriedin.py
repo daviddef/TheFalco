@@ -16,13 +16,41 @@ byid = {p["id"]: p for p in TREE}
 # these links at a guess, in an archive whose whole method is refusing to merge
 # on a name.
 SLUG = {}
+ARCH = {}
 try:
     _pj = json.load(open("site/src/data/people.json"))
     for _r in (_pj if isinstance(_pj, list) else _pj.get("people", [])):
         if _r.get("treeId") is not None:
             SLUG[_r["treeId"]] = _r["slug"]
+            ARCH[_r["treeId"]] = _r
 except FileNotFoundError:
     pass          # people.json is built first; a missing one just means no links
+
+# WHERE THE TREE IS SILENT, THE ARCHIVE SPEAKS — 22 September 2026.
+#
+# This page was built from the tree alone, so a person the ARCHIVE had dated from
+# an act but the tree had not dated at all came out blank. MARIANTONIA CARFORA
+# was `first: null, last: null` here while her birth act of 30 December 1830 and
+# her marriage act of 21 January 1860 were both published and both cited on her
+# own person page. The tree is not the archive and had never been asked to be.
+#
+# The join is the TREE ID, the same one SLUG uses, never the name — 103 of the
+# 294 people here share a name with somebody else on the page. The tree still
+# wins when it has a value; this only fills a blank. And it cannot leak a living
+# person's date: build_people.py strips b/d from the living before it writes
+# people.json, and the living branch below returns before any of this is reached.
+_FILLED = collections.Counter()
+
+def fld(p, key):
+    """The tree's value if it has one, else the archive's own."""
+    v = (p.get(key) or "").strip()
+    if v:
+        return v
+    a = ARCH.get(p.get("id")) or {}
+    v = (a.get(key) or "").strip()
+    if v:
+        _FILLED[key] += 1
+    return v
 
 def surname(p):
     return (p.get("last") or "").strip()
@@ -149,12 +177,12 @@ for p in TREE:
                     "into": osn,
                     "living": True})
         continue
-    b, dd = year(p.get("b")), year(p.get("d"))
+    b, dd = year(fld(p, "b")), year(fld(p, "d"))
     for y in (b, dd):
         if y:
             g["first"] = y if g["first"] is None else min(g["first"], y)
             g["last"] = y if g["last"] is None else max(g["last"], y)
-    for pl in (place(p.get("bp")), place(p.get("dp"))):
+    for pl in (place(fld(p, "bp")), place(fld(p, "dp"))):
         if pl:
             g["places"][pl] += 1
     if is_placeholder(p.get("name")):
@@ -162,8 +190,8 @@ for p in TREE:
     g["people"].append({
         "name": re.sub(r",? ?[✔⭐]+", "", p["name"]).strip(),
         "slug": SLUG.get(p["id"], ""),
-        "b": p.get("b", ""), "bp": place(p.get("bp")),
-        "d": p.get("d", ""), "dp": place(p.get("dp")),
+        "b": fld(p, "b"), "bp": place(fld(p, "bp")),
+        "d": fld(p, "d"), "dp": place(fld(p, "dp")),
     })
     # who they married
     for r in p.get("relatives", []):
@@ -247,6 +275,9 @@ for sn, g in groups.items():
 out.sort(key=lambda x: (-x["n"], x["surname"]))
 os.makedirs("site/src/data", exist_ok=True)
 json.dump(out, open("site/src/data/married-in.json", "w"), indent=1, ensure_ascii=False)
+if _FILLED:
+    print("  filled from the archive where the tree was blank: "
+          + " · ".join(f"{k} {n}" for k, n in sorted(_FILLED.items())))
 def _has(x, k): return k in x["reach"]
 print(f"{len(out)} surnames · {sum(x['n'] for x in out)} named · "
       f"{sum(x['withheld'] for x in out)} withheld as living · "
