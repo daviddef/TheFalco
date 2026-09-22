@@ -1492,5 +1492,17 @@
    "Falco",
    "read in full"
   ]
+ },
+ {
+  "when": "1811",
+  "src": "Arienzo BIRTH register, 1811 — ANTENATI `an_ua14408`, **50 images**. *A complete act on **every page**, two to an image; **BOTH halves read**.* The early restoration form: the father is given **with a patronymic** — «*del fu X*» or «*di X*» — at ~11% of the page, and the mother at ~26%. Band `--band 0.09 0.24 --half LR --cols 2 --width 2200`.\n\n***At width 2600 the Antenati tiler returns «500 Internal Server Error — Java heap space».*** At four columns and 2000px the names are gone. **Two columns at 2200 is the only combination that both loads and reads.**",
+  "what": "Every act on both pages, read for **FALCO**.",
+  "got": "**ONE FALCO ACT IN FIFTY IMAGES, AND IT NAMES MATTEO FALCO THREE YEARS EARLIER THAN ANYTHING ELSE DOES.**\n\n«*Oggi che sono li **sedici — 16 —** del mese di **Febraro** del presente anno mille ottocento undici, ad ore **quindeci**. Avanti di noi incaricato del registro degli atti dello stato civile, è comparso **GIUSEPPE FALCO DEL FU MATTEO**, di professione **MASSARO DI CAMPAGNA**, di anni **VENT'OTTO**, domiciliato in questa medesima Comune Corpo d'Arienzo, **strada CAMMELLARA** — ed ha presentato un bambino di sesso **Mascolino** — nato ad ore **dieci** — del giorno **sedici** del mese di Febraro dell'anno Mille ottocento undici, in costanza del suo legitimo Matrimonio con **ANTONIA DI GUIDA sua Moglie**, di professione **MASSARA DI CAMPAGNA**, di anni **VENT'OTTO**, domiciliata col medesimo in detta Comune e Strada*».\n\n**THREE THINGS COME OUT OF THIS ONE ACT.**\n\n**1. «DEL FU MATTEO».** The earliest *civil* document naming **Matteo Falco**, this archive's head of line, and calling him dead. The previous earliest was a **notarial consent of 8 September 1814**, where his other son **«PASQUALE FALCO del fu MATTEO»** consented to Vincenzo Falco's marriage — **three years and seven months later**. Two sons, two instruments, the same patronymic. *The descent itself was already proved from the parish: «Josephum Falco filium Matthei, e Franciscae Crisci», 4 August 1802. **This corroborates it from the civil series.***\n\n**2. THE BIRTH OF THE FIRST RAFFAELE FALCO** — born at **ten in the morning on 16 February 1811**, declared at three the same afternoon. The death register buries him on **26 February** at «*giorni DIECI*». **Ten days exactly.** Two clerks, two volumes, no disagreement.\n\n**3. TWO AGES, AND ONE OF THEM IS EXACT.** Giuseppe Falco is **twenty-eight**, so born about **1783** — which with the 1814 and January 1815 acts makes three statements clustering on 1783–1785 and leaves «*trentasette*» in December 1815 as the outlier. **Antonia di Guida is also twenty-eight, and the parish baptised her on 31 October 1783.** *Not «about». Exact* — and a third independent series agreeing with the two that identified her.\n\n**The rest of the year is Cioffi, Sorice, Morgillo, Maccariello, Migliore, Rivieri and Lesciotta.** Seen and not published: a **BIAGIO CARFORA di Antonio**, thirty-five, of strada **Signorindico**, and a **DOMENICO CRISCI del fu ALESSANDRO** — the second Domenico Crisci whom the 1814 death register uses to tell Margarita Falco's husband apart.",
+  "tags": [
+   "Antenati",
+   "Births",
+   "Falco",
+   "read in full"
+  ]
  }
 ]
