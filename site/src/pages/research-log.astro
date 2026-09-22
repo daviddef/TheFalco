@@ -2,15 +2,43 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import log from "../data/researchlog.json";
+import searched from "../data/searched.json";
 const GH = "https://github.com/daviddef/TheFalco/blob/main/notes/";
 const vols = log.filter((r) => r.year);
 const other = log.filter((r) => !r.year);
 const done = vols.filter((r) => r.complete);
 const words = log.reduce((a, r) => a + r.bytes, 0) / 6;
 const acts = log.reduce((a, r) => a + (r.acts || 0), 0);
+
+/* HOW MANY VOLUMES HAVE ACTUALLY BEEN READ — which is NOT what this page counts.
+   On 23 September 2026 this page's headline said «15 volumes read end to end»
+   while /searched/ said fifty-seven death registers and thirty-two birth
+   registers had been read in full. Both were true and they were counting
+   different things: this page counts WORKING FILES marked complete, and most
+   volumes read since mid-September were written up straight into the coverage
+   rows without a per-volume note. Two pages using the same phrase for two
+   different numbers is the drift this archive exists to catch, so the number
+   is now derived on both sides and the difference is stated rather than left
+   for a reader to trip over. */
+const readVols = (() => {
+  const out = new Set();
+  for (const r of searched) {
+    const t = r.tags || [];
+    if (!t.includes("read in full")) continue;
+    const series = ["Deaths", "Births", "Marriages"].find((x) => t.includes(x));
+    if (!series) continue;
+    const w = String(r.when || "");
+    const ys = new Set();
+    for (const m of w.matchAll(/\b(18\d\d)\s*[\u2013\u2014-]\s*(18\d\d)\b/g))
+      for (let y = +m[1]; y <= +m[2]; y++) ys.add(y);
+    for (const m of w.matchAll(/\b(18\d\d)\b/g)) ys.add(+m[1]);
+    for (const y of ys) out.add(series + y);
+  }
+  return out.size;
+})();
 ---
 <Base title="Research log"
-      eyebrow={`${log.length} working files, ${done.length} volumes finished`}
+      eyebrow={`${log.length} working files — ${readVols} register volumes have been read`}
       dek="The actual working notes — one file per register volume, written while reading and never tidied afterwards. This page indexes them; the files themselves are public."
       >
 
@@ -20,10 +48,19 @@ const acts = log.reduce((a, r) => a + (r.acts || 0), 0);
     over the top. <strong>They are the reason anything on this site can be checked.</strong></p>
     <p class="small" style="margin-top:.6rem">Every one is plain markdown in the repository, linked
     below. About <strong>{Math.round(words / 1000)},000 words</strong> of them.</p>
+    <p class="small" style="margin-top:.6rem"><strong>This page indexes the working files, and there
+    are fewer of them than there are volumes read.</strong> {readVols} register volumes have been read
+    in full; {done.length} of them have a working file here marked finished. The rest — most of the
+    Arienzo death registers swept in the last fortnight, and the whole of 1809–1815 in both series —
+    were written up straight into <a href={u("/searched/")}>the coverage rows</a>, act by act, without
+    a separate note. <em>Until 23 September 2026 this page's headline called its own number «volumes
+    read end to end», which is the phrase /searched/ uses for a figure six times larger. Both numbers
+    were right; the label was not.</em></p>
   </div>
 
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.6rem;margin:1rem 0">
-    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{done.length}</div><div class="small">volumes read end to end</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{done.length}</div><div class="small">volumes with a finished working file</div></div>
+    <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{readVols}</div><div class="small">volumes actually read — <a href={u("/searched/")}>coverage</a></div></div>
     <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{acts.toLocaleString()}</div><div class="small">acts in the finished ones</div></div>
     <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{log.length}</div><div class="small">working files</div></div>
     <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{Math.round(words / 1000)}k</div><div class="small">words of notes</div></div>

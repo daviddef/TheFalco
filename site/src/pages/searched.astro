@@ -30,6 +30,42 @@ const NIL = ["no Falco", "not there", "nothing"];
 const nils = raw.filter((r) => NIL.includes(r.outcome)).length;
 const full = raw.filter((r) => (r.tags || []).includes("read in full")).length;
 const imgs = raw.reduce((a, r) => a + (+(String(r.src).match(/(\d+) images/) || [])[1] || 0), 0);
+
+/* COVERAGE BY SERIES, DERIVED — never typed.
+   This page has twice carried a sentence that was true when written and false
+   a week later: «five annual death registers have been read in full» when
+   fifty had been, and «what remains is 1809-1811, 1814-1815» after those years
+   were read. The table below was right both times; the paragraph summarising
+   it was not, because the table is generated and the paragraph was typed.
+   So the paragraph is generated now too. A row counts for a year only if it
+   carries BOTH the series tag and «read in full» — a partly-read volume, like
+   the 1845 births where only images 110-139 were swept, must not be claimed. */
+const SPAN = { from: 1809, to: 1865 };
+const yearsOf = (w) => {
+  const out = new Set(); const t = String(w || "");
+  for (const m of t.matchAll(/\b(18\d\d)\s*[\u2013\u2014-]\s*(18\d\d)\b/g))
+    for (let y = +m[1]; y <= +m[2]; y++) out.add(y);
+  for (const m of t.matchAll(/\b(18\d\d)\b/g)) out.add(+m[1]);
+  return out;
+};
+const readIn = (tag) => {
+  const out = new Set();
+  for (const r of raw) {
+    const tg = r.tags || [];
+    if (tg.includes(tag) && tg.includes("read in full"))
+      for (const y of yearsOf(r.when)) if (y >= SPAN.from && y <= SPAN.to) out.add(y);
+  }
+  return out;
+};
+const runs = (set) => {
+  const ys = [...set].sort((a, b) => a - b); const o = [];
+  for (const y of ys) { if (o.length && y === o[o.length - 1][1] + 1) o[o.length - 1][1] = y; else o.push([y, y]); }
+  return o.map(([a, b]) => (a === b ? `${a}` : `${a}\u2013${b}`)).join(", ");
+};
+const gap = (set) => { const o = new Set(); for (let y = SPAN.from; y <= SPAN.to; y++) if (!set.has(y)) o.add(y); return o; };
+const DTH = readIn("Deaths"), BTH = readIn("Births"), MRG = readIn("Marriages");
+const WORD = ["no","One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten"];
+const num = (n) => WORD[n] || String(n);
 ---
 
 <Base title="What Has Been Read"
@@ -51,7 +87,7 @@ const imgs = raw.reduce((a, r) => a + (+(String(r.src).match(/(\d+) images/) || 
     deliberately and the reasoning is in the row.</p>
   </div>
 
-  <h2>Six more years, read a different way</h2>
+  <h2>Six more years, read a different way — and then read again</h2>
   <div class="card" style="margin-bottom:1.2rem">
     <p><strong>The Arienzo death registers for 1809–1814</strong> — six years nobody had touched —
     were read on 13 September 2026 <strong>through their indexes rather than act by act</strong>. Each
@@ -62,10 +98,17 @@ const imgs = raw.reduce((a, r) => a + (+(String(r.src).match(/(\d+) images/) || 
     1812 — and the confirmation, from the 1851 index, that
     <P n="Gioacchino Falco" bold={true} /> was a son of <P n="Matteo Falco" bold={true} /> and
     <P n="Francesca Crisci" bold={true} />.</p>
-    <p class="small" style="margin-top:.6rem"><strong>Completeness, stated honestly:</strong> 1811,
-    1813 and 1814 were read in full. For <strong>1809, 1810 and 1812 only some pages were read</strong>
-    — in each case including the stretch where a <em>Matteo</em> would fall, since those indexes sort
-    by forename. <a href={u("/method/")}>Why this replaced the act-by-act sweep →</a></p>
+    <p class="small" style="margin-top:.6rem"><strong>That was September, and it has been
+    superseded.</strong> The indexes were a first pass over years nobody had opened; between 21 and
+    23 September 2026 <strong>every act of 1809–1815 was read from the image, on both halves of every
+    page</strong>. The index reading stands as what it was — a fast way in — and the qualification it
+    carried, that 1809, 1810 and 1812 were only partly swept, <strong>no longer limits anything</strong>.
+    <a href={u("/method/")}>Why this replaced the act-by-act sweep →</a></p>
+    <p class="small"><strong>It also nearly cost four Falco.</strong> The act-by-act pass that
+    followed was first run with a band reading one half of each page, on a recipe that said these
+    volumes carry one act to an opening. They carry <strong>two acts to an image</strong>. The sweep
+    read exactly half of them, consistently, so nothing looked missing — and both acts already found
+    happened to sit on right-hand pages. <a href={u("/corrections/")}>The correction →</a></p>
   </div>
 
   <h2>The register of what has been read</h2>
@@ -74,20 +117,23 @@ const imgs = raw.reduce((a, r) => a + (+(String(r.src).match(/(\d+) images/) || 
   <Searched fold={nf.fold} rows={rows} u={u} nil={NIL} unit="searches" />
 
   <h2>Still to read</h2>
-  <p class="dek"><strong>The Arienzo DEATH registers are finished.</strong> Fifty consecutive
-  volumes — <strong>1816 to 1865</strong>, every year Antenati holds after 1815 — have been read
-  act by act. The <strong>BIRTH registers</strong> are read for <strong>1812, 1813, 1816–1838 and
-  1845–1848</strong>; what remains there is <strong>1809–1811, 1814–1815, 1839–1844 and
-  1849–1865</strong>. The <strong>MARRIAGE</strong> side has its indexes read for 1809–1849 — the
-  series stops there — and its registers for <strong>1850–1865</strong>. Beyond Arienzo: the
-  <strong>Forchia birth register for 1897</strong> that nobody has indexed, and the
+  <p class="dek"><strong>The Arienzo DEATH registers are finished.</strong> {DTH.size} consecutive
+  volumes — <strong>{runs(DTH)}</strong>, every year Antenati holds — have been read act by act.
+  The <strong>BIRTH registers</strong> are read for <strong>{runs(BTH)}</strong>; what remains there
+  is <strong>{runs(gap(BTH))}</strong>. The <strong>MARRIAGE</strong> side has its indexes read for
+  1809–1849 — the series stops there — and its registers for <strong>{runs(MRG)}</strong>. Beyond
+  Arienzo: the <strong>Forchia birth register for 1897</strong> that nobody has indexed, and the
   <em>processetti</em> — <strong>378 volumes across six towns, of which three bundles have now
   been read</strong>. <a href={u("/processetti/")}>The six towns, volume by volume →</a></p>
-  <p class="small"><strong>This paragraph was stale for nine days and is rewritten rather than
-  patched.</strong> It said the remaining births were «before 1816 and after 1818» — which had
-  stopped being true by the time 1819 was read — and that exactly one processetti bundle had been
-  opened. <em>The table above was right the whole time; the sentence summarising it was not, because
-  the table is generated and the sentence was typed.</em></p>
+  <p class="small"><strong>That paragraph was typed, it went stale twice, and it is now
+  generated.</strong> It first said the remaining births were «before 1816 and after 1818», which had
+  stopped being true by the time 1819 was read; it was rewritten on 22 September and was wrong again
+  within a day, because it named 1809–1811 and 1814–1815 as unread on the morning those volumes were
+  finished. <em>The table above was right every time; the sentence summarising it was not, because
+  the table is generated and the sentence was typed.</em> <strong>Every year and count in the
+  paragraph above is now read out of the same rows the table is built from</strong>, and a year is
+  counted only if its row says «read in full» — so the 1845 births, where images 110–139 were swept
+  and the rest were not, are correctly absent from it.</p>
   <p class="small">One qualification on the table above, stated rather than hidden: for the 1816
   death register, images 3–39 were read in full <em>for Falco</em> — and the Falco answer is firm —
   but the act-by-act roster of the other families in that stretch was not written down at the time.
