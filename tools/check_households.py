@@ -17,8 +17,8 @@ tree — which the row gate caught only as «place fell from 52 to 51».
 
 Three checks, all on the data and none on the build:
 
-  1. no two households share a name;
-  2. every member's `household` field equals the name of the household it sits in;
+  1. every household has an `id`, and no two share one — nor a name;
+  2. every member's `hid` is its household's id, and its `household` its name;
   3. within one household, no two DISTINCT person strings normalise to the same
      thing once case, punctuation and runs of whitespace are removed.
 
@@ -57,13 +57,33 @@ def deliberate(s):
 H = json.load(open(P, encoding="utf-8"))
 fail, warn = [], []
 
+# 1. IDENTITY. Since 23 September 2026 a household is identified by its `id`
+#    and not by the string on the page, so this is the structural check David
+#    asked for: two entries cannot share an id, and an entry without one has no
+#    identity at all. The NAME is still required to be unique, but now as a
+#    courtesy to readers rather than as the thing holding the file together.
+for h in H:
+    if not (h.get("id") or "").strip():
+        fail.append(f"household has no id: «{h.get('name')}»")
+ids = collections.Counter(h.get("id") for h in H if h.get("id"))
+for i, c in sorted(ids.items()):
+    if c > 1:
+        fail.append(f"household id appears {c} times: «{i}»")
 names = collections.Counter(h["name"] for h in H)
 for n, c in sorted(names.items()):
     if c > 1:
         fail.append(f"household name appears {c} times: «{n}»")
 
+# 2. BACK-REFERENCES. A member points at its household by id. The name is
+#    carried too and must still agree, but renaming a household is now one
+#    field rather than a lockstep rewrite of every member — which is the thing
+#    that went wrong when a rename was done by popping from an index.
+by_id = {h.get("id"): h for h in H if h.get("id")}
 for h in H:
     for m in h["members"]:
+        if (m.get("hid") or "") != (h.get("id") or ""):
+            fail.append(f"member «{m.get('person')}» carries hid «{m.get('hid')}» "
+                        f"but sits in «{h.get('id')}»")
         if (m.get("household") or "") != h["name"]:
             fail.append(f"member «{m.get('person')}» carries household "
                         f"«{m.get('household')}» but sits in «{h['name']}»")

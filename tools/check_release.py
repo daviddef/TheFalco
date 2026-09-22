@@ -128,13 +128,33 @@ def main():
     _js  = os.path.join(ROOT, "site", "src", "data", "households.json")
     if os.path.exists(_tsv) and os.path.exists(_js):
         _H = json.load(open(_js, encoding="utf-8"))
+        # SINCE 23 SEPTEMBER 2026 THE TWO FILES ARE MATCHED ON THE HOUSEHOLD'S
+        # id, NOT ON ITS NAME. The map below is what matching on a display
+        # string cost: «Francesco Cossi & Maria Falco» was corrected to
+        # «Francesco Cioffi & Maria Falco» in one file and not the other, and a
+        # hand-written rename table had to be carried here so the gate would
+        # not fail on the archive's own correction. With an id, a rename is one
+        # field and this table is dead weight — kept only for TSV rows written
+        # before the id existed.
         _RENAME = {"Francesco Cossi & Maria Falco": "Francesco Cioffi & Maria Falco"}
+        _BY_ID = {h.get("id"): h["name"] for h in _H if h.get("id")}
         _have = {(h["name"], m.get("person", ""), m.get("event") or "", m.get("date") or "")
                  for h in _H for m in h["members"]}
         _names = {h["name"] for h in _H}
+        _idbad = []
         _missing = []
         for _r in _csv.DictReader(open(_tsv, encoding="utf-8"), delimiter="\t"):
-            _n = _RENAME.get(_r["household"], _r["household"])
+            _hid = (_r.get("hid") or "").strip()
+            if _hid:
+                if _hid not in _BY_ID:
+                    _idbad.append(f"hid not in households.json: {_hid} ({_r['household']})")
+                    continue
+                if _BY_ID[_hid] != _r["household"]:
+                    _idbad.append(f"{_hid}: TSV calls it {_r['household']!r}, "
+                                  f"JSON calls it {_BY_ID[_hid]!r}")
+                _n = _BY_ID[_hid]
+            else:
+                _n = _RENAME.get(_r["household"], _r["household"])
             if _n not in _names:
                 _missing.append(f"household absent from households.json: {_n}")
             elif (_n, _r["person"], _r["event"], _r["date"]) not in _have:
@@ -175,6 +195,15 @@ def main():
                 print("   ", _x)
             print("\nMirror the one that is right into the other. Do NOT bulk-copy: the newer text")
             print("is not always the longer one, and a row may hold a reading the other has lost.")
+            sys.exit(1)
+        if _idbad:
+            print(f"\nFAILED — {len(_idbad)} row(s) whose household id does not resolve:")
+            for _x in _idbad[:12]:
+                print("    " + _x)
+            # AND IT MUST ACTUALLY FAIL. The first version of this check set a
+            # flag no other line read, so it printed FAILED in red and exited
+            # zero — a gate that reports and does not refuse is the same thing
+            # as no gate, which is the fault this whole night has been about.
             sys.exit(1)
         print(f"check_release: households.tsv {'in step with' if not _missing else 'AHEAD OF'} households.json")
         print(f"check_release: and the two agree on the evidence, row for row")
