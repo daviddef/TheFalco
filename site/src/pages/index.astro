@@ -5,6 +5,7 @@ import Numbers from "@daviddef/archive-kit/components/Numbers.astro";
 import PlaceSpark from "@daviddef/archive-kit/components/PlaceSpark.astro";
 import MarriageChart from "@daviddef/archive-kit/components/MarriageChart.astro";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
+import Descent from "@daviddef/archive-kit/components/Descent.astro";
 import line from "../data/line.json";
 import { chartGroups } from "../lib/marriedin.js";
 import atlas from "../../public/atlas-data.json";
@@ -81,6 +82,81 @@ const SPOUSE_SLUG = (() => {
     return null;
   };
 })();
+
+/* THE DESCENT. Replaces the compact ladder with the kit's Descent row:
+   the couple as two equal columns, the children under them, the brothers
+   and sisters under whichever of the two they belong to, everything shut
+   until opened.
+
+   THIS ARCHIVE NEEDS NO DERIVATION. people.json records children and
+   siblings per person, and marks the child who carried the line with
+   `via: "line"` — so the carrier is the archive's own answer, not one
+   worked out here. The people are reached by the identifiers already
+   trusted elsewhere on this page: `slugFor` matches GENERATION AND NAME
+   together (which is what keeps the two Raffaele Falcos apart), and
+   SPOUSE_SLUG matches her name only where exactly one person bears it.
+
+   HER SIBLINGS COME FROM HER OWN RECORD, which is the point of the
+   column: where this archive has read her family, it shows it beside his
+   rather than under him. */
+/* `slugFor` lives in direct-line.astro, not here — I assumed it was shared
+   and the build said so. It is the same two lines, and it is the reason the
+   two Raffaele Falcos of generations four and six keep separate pages:
+   GENERATION AND NAME together, never a name alone. */
+const cleanNm = (x) => String(x || "").replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
+const slugFor = (g) => {
+  const q = people.find((x) => x.gen === g.gen && cleanNm(x.name) === cleanNm(g.name));
+  return q ? q.slug : null;
+};
+const P_BY_SLUG = new Map(people.map((q) => [q.slug, q]));
+const lifeOf = (q) => [q && q.b, q && q.d].filter(Boolean).join(" \u2013 ");
+const kin = (slug, band) => {
+  const rec = slug ? P_BY_SLUG.get(slug) : null;
+  return ((rec && rec[band]) || []).map((c) => {
+    const full = P_BY_SLUG.get(c.slug);
+    return {
+      name: c.name,
+      href: c.slug && full && !full.living ? `/people/${c.slug}/` : null,
+      dates: full && !full.living ? lifeOf(full) : "",
+      line: band === "children" && (c.via === "line" || (c.vias || []).includes("line")),
+    };
+  });
+};
+/* The prose in `born` is right in the full spine and long in a column:
+   "about 1747 — «annorum 55 circiter» at his death". Cut at the dash that
+   introduces the gloss, as the spine pills do. */
+const clip = (v) => String(v ?? "").split(/\s+[\u2013\u2014-]\s+/)[0].trim();
+
+const descentRows = line.map((g) => {
+  const mine = slugFor(g);
+  const hers = SPOUSE_SLUG(g.spouse);
+  return {
+    gen: g.gen,
+    era: [clip(g.born), clip(g.died)].filter(Boolean).join(" \u2192 ") || undefined,
+    name: g.name,
+    href: mine ? `/people/${mine}/` : "",
+    born: clip(g.born),
+    died: clip(g.died),
+    trade: g.trade || "",
+    place: g.bornPlace || g.diedPlace || "",
+    married: g.married || "",
+    confidence: g.confidence || "",
+    living: !!g.living,
+    weak: g.gen === 1,
+    weakNote: "The line stops here: no record names this man's father.",
+    spouse: g.spouse || "",
+    spouseHref: hers ? `/people/${hers}/` : null,
+    spouseBorn: clip(g.spouseBorn || ""),
+    spouseAlt: hers ? "" : "no page of her own in this archive yet",
+    children: kin(mine, "children"),
+    hisSiblings: kin(mine, "siblings"),
+    herSiblings: kin(hers, "siblings"),
+    hisLabel: String(g.name).split(" ")[0] + "\u2019s",
+    herLabel: g.spouse ? String(g.spouse).split(" ")[0] + "\u2019s" : "Hers",
+    note: g.note || "",
+  };
+});
+
 const withSpouse = (g) => ({
   ...g,
   spouseHref: SPOUSE_SLUG(g.spouse) ? `/people/${SPOUSE_SLUG(g.spouse)}/` : null,
@@ -203,7 +279,7 @@ const withSpouse = (g) => ({
         person page. This line holds two Raffaele Falco — generations four and six, grandfather
         and grandson — who slug identically, and a Carmine Antonio at five and seven. A name is
         not an identity here; a position in the line is. */}
-    <Spine rows={line.map(withSpouse)} u={u} compact={true} full="/direct-line/" archiveKey="falco" />
+    <Descent rows={descentRows} u={u} archiveKey="falco" />
     <p class="cap" style="margin-top:14px"><a href={u("/direct-line/")}>The full spine, with the
     evidence under each generation →</a></p>
   </section>
