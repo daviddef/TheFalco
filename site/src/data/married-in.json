@@ -392,7 +392,7 @@
     "who": "Giuseppe Falco",
     "whoSlug": "giuseppe-falco-7",
     "to": "Rosa Zimbardo (Falco)",
-    "toSlug": "rosa-falco",
+    "toSlug": "rosa-zimbardo",
     "into": "Zimbardo",
     "living": false
    },
@@ -3720,7 +3720,7 @@
   "marriages": [
    {
     "who": "Rosa Zimbardo (Falco)",
-    "whoSlug": "rosa-falco",
+    "whoSlug": "rosa-zimbardo",
     "to": "Giuseppe Falco",
     "toSlug": "giuseppe-falco-7",
     "into": "Falco",
@@ -3738,7 +3738,7 @@
   "people": [
    {
     "name": "Rosa Zimbardo (Falco)",
-    "slug": "rosa-falco",
+    "slug": "rosa-zimbardo",
     "b": "1829",
     "bp": "Arienzo",
     "d": "Aug 12 1889",
