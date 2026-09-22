@@ -5874,6 +5874,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "«*è comparso **FRANCESCO CIOFFI, di anni VENTIQUATTRO**, di professione **CONTADINO**, domiciliato in detto comune **strada CAMELLARA***» — **b. c.1795.** His stated ages now run twenty-four (1819), twenty-five (1822), twenty-seven (1824), thirty-five (1826), thirty (1828), thirty-six (1831), forty (1833). **Seven figures and the 1826 one is the outlier**; the rest cluster on b. c.1793–1798.",
 "ark": "ANTENATI an_ua14416 (Arienzo, Nati 1819) atto 68, img 36l — READ FROM THE IMAGE"
+},
+{
+"event": "death",
+"date": "11 Aug 1864",
+"place": "Arienzo, contrada Camellara",
+"evidence": "**THIS HOUSEHOLD IS NOW CLOSED AT BOTH ENDS, AND THE ACT WAS FOUND BY PAYING A DEBT.** On 21 September a sweep strip showed a pair of declarants read as **RAFFAELE FALCO** and **MATTEO FALCO**, coloni of contrada Camellara; the leaf was hunted twice and missed, and this archive published the reading as **owed** rather than as a record. *The margin number in this volume runs two behind the image number.* **It is image 28.**\n\n**Arienzo, Morti 1864, act 49, 12 August 1864**: «*sono comparsi **RAFFAELE FALCO**, di anni **quarantacinque**, di professione **COLONO**, regnicolo, domiciliato in **Arienzo, Contrada CAMELLARA**, e **MATTEO FALCO**, di anni **cinquantadue**, di professione **simile**, domiciliato **ivi**, i quali han dichiarato, che nel giorno **undici** del mese di **Agosto** anno suddetto alle ore **sedici**, è morto nella sua casa **FRANCESCO CIOFFI — VEDOVO DI MARIA FALCO**, nato in **Arienzo**, di anni **SETTANTA**, di professione **contadino**, domiciliato **Contrada CAMELLARA**, **figlio del fu GIUSEPPE**, di professione simile, domiciliato ivi, **e della fu MARIA PORRINO**, domiciliata ivi*».\n\n**Seventy in August 1864**, so born about **1794**; his wife **MARIA FALCO died 1 May 1862** at sixty-seven. **He outlived her by twenty-seven months and the act calls him her widower.** This archive followed this couple through eight children's acts from 1818 to 1831 and had a date for neither of them until this week.\n\n**AND TWO FALCO CAME TO DECLARE IT.** The act does not say they are kin — *it says «*sono comparsi*» and nothing more* — but they are the two Falco of that street, and the dead man was married to a Falco. **RAFFAELE FALCO, forty-five** (born about 1819) and **MATTEO FALCO, fifty-two** (born about 1812), **both coloni of contrada Camellara, both alive on 12 August 1864.** *No household here is claimed for either of them on this act alone.*",
+"ark": "ANTENATI an_ua14366 img28r act49 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -5973,7 +5980,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "11 Aug 1864",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "giovanni-cioffi-of-giovanni-cioffi-maria-porrino",
@@ -5997,7 +6008,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "maria-porrino",
+"slug": "maria-porrino-of-giovanni-cioffi-maria-porrino",
 "name": "Maria Porrino",
 "via": "register",
 "vias": [
@@ -6550,6 +6561,30 @@
 "d": "1 May 1827"
 },
 {
+"slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco-2-2-2",
+"name": "Giuseppe Cioffi (of Maria Porrino)",
+"surname": "CIOFFI",
+"household": "Francesco Cioffi & Maria Falco",
+"role": "grandfather",
+"events": [
+{
+"event": "named as dead",
+"date": "11 Aug 1864",
+"place": "Arienzo, contrada Camellara",
+"evidence": "«*figlio del **fu GIUSEPPE**, di professione **simile** [contadino], domiciliato ivi*» — Francesco Cioffi's father, dead before August 1864 and **the first time this archive has had a name for him**. *This household is the one at the centre of the Cossi/Cioffi correction: the strada Camellara family are CIOFFI, and it took a full-resolution reading of the 1825 register to settle it.*",
+"ark": "ANTENATI an_ua14366 img28r act49 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
 "slug": "luigi-cioffi",
 "name": "Luigi Cioffi",
 "surname": "CIOFFI",
@@ -6947,7 +6982,7 @@
 ]
 },
 {
-"slug": "maria-porrino",
+"slug": "maria-porrino-of-giovanni-cioffi-maria-porrino",
 "name": "Maria Porrino",
 "via": "register",
 "vias": [
@@ -45471,7 +45506,31 @@
 "siblings": []
 },
 {
-"slug": "maria-porrino",
+"slug": "maria-porrino-of-francesco-cioffi-maria-falco",
+"name": "Maria Porrino",
+"surname": "PORRINO",
+"household": "Francesco Cioffi & Maria Falco",
+"role": "grandmother",
+"events": [
+{
+"event": "named as dead",
+"date": "11 Aug 1864",
+"place": "Arienzo, contrada Camellara",
+"evidence": "«*e della **fu MARIA PORRINO**, domiciliata ivi*» — Francesco Cioffi's mother, dead before August 1864. **PORRINO is one of the commonest surnames on these streets** — a Carmina Porrino is the mother of Francesco Carfora's first wife, an Orsola Porrino married Aniello Carfora — **and none of them is joined to her here.**",
+"ark": "ANTENATI an_ua14366 img28r act49 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
+},
+{
+"slug": "maria-porrino-of-giovanni-cioffi-maria-porrino",
 "name": "Maria Porrino",
 "surname": "PORRINO",
 "household": "Giovanni Cioffi & Maria Porrino",
