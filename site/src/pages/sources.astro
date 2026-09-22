@@ -4,6 +4,24 @@ import Sources from "@daviddef/archive-kit/components/Sources.astro";
 import { u } from "../lib/url.js";
 const REPO = "https://github.com/daviddef/TheFalco";
 import sources from "../data/sources.json";
+import searched from "../data/searched.json";
+
+/* DERIVED. This sentence has now been corrected three times — «everything on
+   Antenati is unread», then «four annual civil death registers have since been
+   read», then «fifty, 1816 to 1865». It is generated from the coverage rows so
+   that the fourth correction is not needed. */
+const deathYears = (() => {
+  const out = new Set();
+  for (const r of searched) {
+    const t = r.tags || [];
+    if (!(t.includes("Deaths") && t.includes("read in full"))) continue;
+    const w = String(r.when || "");
+    for (const m of w.matchAll(/\b(18\d\d)\s*[\u2013\u2014-]\s*(18\d\d)\b/g))
+      for (let y = +m[1]; y <= +m[2]; y++) out.add(y);
+    for (const m of w.matchAll(/\b(18\d\d)\b/g)) out.add(+m[1]);
+  }
+  return [...out].sort((a, b) => a - b);
+})();
 
 // 21 September 2026. The rendering moved to the kit — every archive in the
 // estate had built its own sources page and no two shared a line. What did NOT
@@ -90,8 +108,11 @@ const held = sources.filter((s) => !s.url && s.held).length;
   <p class="small"><strong>Correction, twice.</strong> An earlier version of this page listed
   “everything on Antenati” as unread; that was replaced on 15 September with “four annual civil
   death registers have since been read”, and <strong>that has been stale since the day it was
-  written</strong>. <strong>Fifty consecutive Arienzo death registers are now read — 1816 to 1865,
-  every year Antenati holds after 1815.</strong> This page also listed “the Arienzo marriage
+  written</strong>. <strong>{deathYears.length} consecutive Arienzo death registers are now read —
+  {deathYears[0]} to {deathYears[deathYears.length - 1]}, every year Antenati holds.</strong>
+  <em>This sentence said «fifty, 1816 to 1865» until 23 September 2026, when the earliest seven
+  volumes were finished; it is now generated from the coverage rows so there need not be a fourth
+  correction.</em> This page also listed “the Arienzo marriage
   supplements” as unread until 22 September 2026, when three of their bundles had been opened and
   the series' arks recovered. What remains unread is set out on the
   <a href={u("/antenati/")}>Antenati</a> page and on
