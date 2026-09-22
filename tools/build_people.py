@@ -457,6 +457,7 @@ for p in tree:
     if not is_placeholder(p.get("name")):
         for f in forms(p["name"]): tr_by_name[f].add(p["id"])
 
+_TREE_YIELDED = []   # (slug, field, what the registers said, what the tree said)
 merge = {}      # tree id -> household key
 basis = {}      # tree id -> why
 refused = []
@@ -527,6 +528,76 @@ for tid, g in list(spine_tree.items()):
     basis[cands[0]] = ("the same generation of the direct line — she is the wife the line names, "
                        "on both sides")
 
+# ---------------------------------------------- BOTH PARENTS AND A DEATH DATE
+#
+# The name test above requires exactly ONE household candidate for a name and
+# exactly one tree candidate. Where a name is ambiguous on either side it says
+# nothing and moves on — silently, until 23 September 2026, when it was found
+# that LUIGI FALCO was on this site twice. The register knows him as «Luigi
+# (Aloysius) Falco», baptised December 1819 to Vincenzo Falco and Andreana
+# Crisci and dead on 16 December 1864, married to Carolina Cimmino; the tree
+# knows him as «Luigi Falco», born 1823, died Dec 16 1864 at Arienzo, wife
+# Carolina Cimmino. One man, two pages. The name test skipped him because this
+# archive holds a SECOND household Luigi Falco, of Sebastiano Falco and Colomba
+# Montefusco, so `len(hks) != 1`.
+#
+# This pass never looks at the name. It asks for BOTH PARENTS and an exact
+# death date — day, month and year — and refuses unless the pairing is unique
+# in both directions. That is a stricter test than «name alone», which the
+# merge above already accepts, so it loosens nothing.
+def _dmy(s):
+    s = str(s or "")
+    y = re.search(r"\b(1[6-9]\d\d|20\d\d)\b", s)
+    d = re.search(r"\b(\d{1,2})\b(?!\d)", re.sub(r"\b(1[6-9]\d\d|20\d\d)\b", " ", s))
+    mo = re.search(r"\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)", s.lower())
+    if not (y and d and mo):
+        return None
+    return (int(d.group(1)), mo.group(1), int(y.group(1)))
+
+_hh_par = {}
+for k in hh_order:
+    p = hh_people[k]
+    if p["role"] not in CHILD_ROLES:
+        continue
+    parts = [x.strip() for x in p["household"].split("&")]
+    if len(parts) != 2:
+        continue
+    dd = {_dmy(e.get("date")) for e in p["events"]
+          if str(e.get("event") or "").lower().startswith("death")} - {None}
+    if len(dd) != 1:
+        continue
+    _hh_par[k] = (forms(parts[0]), forms(parts[1]), dd.pop())
+
+_tr_par = {}
+for q in tree:
+    if is_placeholder(q.get("name")) or q["id"] in merge or really_living(q):
+        continue
+    fa = [by_id[i] for i in edges(q, "father") if i in by_id]
+    mo = [by_id[i] for i in edges(q, "mother") if i in by_id]
+    dd = _dmy(q.get("d"))
+    if len(fa) != 1 or len(mo) != 1 or dd is None:
+        continue
+    _tr_par[q["id"]] = (forms(fa[0]["name"]), forms(mo[0]["name"]), dd)
+
+_pairs = []
+for tid, (tf, tm, td) in _tr_par.items():
+    for hk, (hf, hm, hd) in _hh_par.items():
+        if hk in merge.values():
+            continue
+        if td == hd and (tf & hf) and (tm & hm):
+            _pairs.append((tid, hk))
+_by_t = collections.Counter(t for t, _ in _pairs)
+_by_h = collections.Counter(h for _, h in _pairs)
+_joined = 0
+for tid, hk in _pairs:
+    if _by_t[tid] != 1 or _by_h[hk] != 1 or tid in merge or hk in merge.values():
+        continue
+    merge[tid] = hk
+    basis[tid] = ("both parents and an exact death date — the name was never used, and this "
+                  "archive holds more than one person of it")
+    _joined += 1
+print(f"  merged on both parents and a death date, never on the name: {_joined}")
+
 # ------------------------------------------------- one record per person
 
 people = {}       # slug -> record
@@ -570,8 +641,26 @@ for p in tree:
         # name and place in the family, nothing else. Deliberate.
         r["living"] = True
     else:
+        # THE TREE FILLS BLANKS. IT DOES NOT OVERWRITE THE REGISTERS.
+        #
+        # This loop used to assign unconditionally, so on a merged record the
+        # tree's value replaced whatever the acts had given. It was invisible
+        # until Luigi Falco was merged on 23 September 2026 and his birth went
+        # from «21 Dec 1819» — the parish baptism, «nominatus est Aloysius»,
+        # read from the image — to «1823», which is the tree's own guess with
+        # no document behind it.
+        #
+        # The archive already ranks its sources for relationship edges:
+        # line 0, register 1, tree 2. Dates now obey the same order.
         for src, dst in (("b","b"),("d","d"),("bp","bp"),("dp","dp")):
-            if p.get(src): r[dst] = strip_ticks(p[src])
+            if not p.get(src):
+                continue
+            if r.get(dst):
+                if strip_ticks(p[src]) != r[dst]:
+                    _TREE_YIELDED.append((r["slug"], dst, r[dst], strip_ticks(p[src])))
+                continue
+            r[dst] = strip_ticks(p[src])
+            r.setdefault("dateFrom", {})[dst] = "tree"
 
 # ----------------------------------------------------------- the edges
 
@@ -729,9 +818,17 @@ for n in sorted(gen_slug):
 # dressed up as a cosmetic one, and this archive has been badly burnt by one of
 # those. The living-people strip below still runs after it.
 _ACT_DATE = 0
+_ACT_OVER_TREE = []
+_DATE_CONFLICT = []
 for r in people.values():
     for _f, _kind in (("b", "birth"), ("d", "death")):
-        if r.get(_f):
+        # An ACT DISPLACES A TREE DATE. Luigi Falco was merged on 23 September
+        # 2026 and his birth became «1823», the tree's undocumented guess,
+        # over «21 Dec 1819» — the parish baptism read from the image. The
+        # tree filled the field before this pass ran, so the blanks-only rule
+        # let it stand. The registers outrank the tree here as they do on
+        # every relationship edge.
+        if r.get(_f) and (r.get("dateFrom") or {}).get(_f) != "tree":
             continue
         for _e in r.get("events") or []:
             if not str(_e.get("event") or "").lower().startswith(_kind):
@@ -739,11 +836,44 @@ for r in people.values():
             _dt = str(_e.get("date") or "").strip()
             if not _dt or _dt == "\u2014" or not re.search(r"\b1[6-9]\d\d\b", _dt):
                 continue
+            # A DATE, NOT PROSE. The register carries strings like
+            # «1897 — NO ACT FOUND», which state the absence of a record and
+            # contain a year. Writing that into `b` would turn a careful nil
+            # into a birth date.
+            if len(_dt) > 24 or re.search(r"[a-z]{3,}", _dt.lower()) and not re.search(
+                    r"\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)", _dt.lower()):
+                continue
+            # AN ACT MAY REFINE A TREE DATE. IT MAY NOT SILENTLY CONTRADICT IT.
+            # «Angela Maria Falco» had 1772 from the tree and an act of 19
+            # January 1822 — fifty years apart, which is not a better date for
+            # one person but a sign that the merge joined two. Where the years
+            # disagree the tree's value STAYS and the disagreement is reported,
+            # because it is a question about identity and not about display.
+            if (r.get("dateFrom") or {}).get(_f) == "tree" and r.get(_f):
+                if not (years(r[_f]) & years(_dt)):
+                    # THE ACT WINS, AND THE CONTRADICTION IS REPORTED ANYWAY.
+                    # The archive ranks its sources line > register > tree on
+                    # every relationship edge; dates follow. A document beats
+                    # an undated tree entry even when they disagree by fifty
+                    # years — but a fifty-year disagreement is not a date
+                    # problem, it is a sign the MERGE joined two people, and
+                    # no date rule can repair that. It is printed on every
+                    # build so it cannot go quiet.
+                    _DATE_CONFLICT.append((r["slug"], _f, r[_f], _dt))
+            if r.get(_f) and r[_f] != _dt:
+                _ACT_OVER_TREE.append((r["slug"], _f, r[_f], _dt))
             r[_f] = _dt
             r.setdefault("dateFrom", {})[_f] = "act"
             _ACT_DATE += 1
             break
 print(f"  display dates taken from acts: {_ACT_DATE} (after merging, never before)")
+print(f"  acts that displaced a tree date: {len(_ACT_OVER_TREE)}")
+if _DATE_CONFLICT:
+    print(f"  ACTS THAT CONTRADICT A TREE DATE — the act is used, the MERGE is suspect: {len(_DATE_CONFLICT)}")
+    for _s, _f, _tree, _act in _DATE_CONFLICT:
+        print(f"      {_s} {_f}: tree said {_tree!r}, act says {_act!r} — same person?")
+for _s, _f, _tree, _act in _ACT_OVER_TREE:
+    print(f"      {_s} {_f}: the tree said {_tree!r}, the act says {_act!r}")
 
 # living people must not leak a date through a merged register event either
 for r in people.values():
@@ -945,5 +1075,8 @@ print(f"  merged from both        : {sum(1 for r in out if len(r['sources']) > 1
 print(f"  living, name only       : {sum(1 for r in out if r['living'])}")
 print(f"  with any relationship   : {sum(1 for r in out if any(r[b] for b in ('parents','spouses','children','siblings')))}")
 print(f"  relationship edges      : {dict(edge_via)}")
+print(f"  the tree deferred to the registers on {len(_TREE_YIELDED)} date(s):")
+for _s, _f, _was, _tree in _TREE_YIELDED:
+    print(f"      {_s} {_f}: kept {_was!r}, declined the tree's {_tree!r}")
 print(f"  merges refused (same name, no date agreement): {len(refused)}")
 for nm, n in refused[:6]: print(f"      {nm} — {n} in the tree")

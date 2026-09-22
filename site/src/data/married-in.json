@@ -302,7 +302,7 @@
    },
    {
     "who": "Luigi Falco",
-    "whoSlug": "luigi-falco-3",
+    "whoSlug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
     "to": "Carolina Cimmino (Falco)",
     "toSlug": "carolina-cimmino",
     "into": "Cimmino",
@@ -600,7 +600,7 @@
    },
    {
     "name": "Luigi Falco",
-    "slug": "luigi-falco-3",
+    "slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
     "b": "1823",
     "bp": "Arienzo",
     "d": "Dec 16 1864",
@@ -968,7 +968,7 @@
    },
    {
     "name": "Luigi Falco",
-    "slug": "luigi-falco-4",
+    "slug": "luigi-falco-3",
     "b": "Apr 11 1872",
     "bp": "Arienzo",
     "d": "",
@@ -3188,7 +3188,7 @@
     "who": "Carolina Cimmino (Falco)",
     "whoSlug": "carolina-cimmino",
     "to": "Luigi Falco",
-    "toSlug": "luigi-falco-3",
+    "toSlug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
     "into": "Falco",
     "living": false
    }
