@@ -197,7 +197,11 @@
 "register"
 ]
 }
-]
+],
+"b": "8 Oct 1884",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "alfonso-annecchino",
@@ -287,7 +291,11 @@
 "register"
 ]
 }
-]
+],
+"b": "2 Aug 1892",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "alfonso-carmine-annecchino",
@@ -377,7 +385,11 @@
 "register"
 ]
 }
-]
+],
+"b": "17 Jul 1894",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "antonio-annecchino-of-carmine-annecchino-rosa-ceglia",
@@ -443,7 +455,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "14 Jun 1826",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
@@ -564,7 +580,11 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "before 21 Jan 1860",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "carmine-annecchino-of-carmine-annecchino-rosa-ceglia",
@@ -614,7 +634,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "8 Aug 1838",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "carmine-annecchino-of-antonio-annecchino-maria-guida",
@@ -655,7 +679,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "8 Aug 1838",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "carmine-annecchino",
@@ -824,7 +852,11 @@
 "register"
 ]
 }
-]
+],
+"b": "13 Feb 1867",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "domenico-annecchino",
@@ -1098,7 +1130,11 @@
 "register"
 ]
 }
-]
+],
+"b": "18 Sep 1883",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora",
@@ -1195,7 +1231,11 @@
 "register"
 ]
 }
-]
+],
+"b": "22 Jun 1887",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "giacomo-annecchino-of-carmine-annecchino-rosa-ceglia",
@@ -1396,7 +1436,11 @@
 "register"
 ]
 }
-]
+],
+"b": "2 Aug 1892",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "maria-filomena-annecchino",
@@ -1603,7 +1647,11 @@
 "register"
 ]
 }
-]
+],
+"b": "23 Jan 1866",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "maria-pascalina-annecchino",
@@ -1685,7 +1733,11 @@
 "register"
 ]
 }
-]
+],
+"b": "14 Sep 1863",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "maria-rosa-annecchino",
@@ -1767,7 +1819,11 @@
 "register"
 ]
 }
-]
+],
+"b": "7 Mar 1861",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "michele-maria-annecchino",
@@ -1849,7 +1905,11 @@
 "register"
 ]
 }
-]
+],
+"b": "23 Sep 1870",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "sabatino-annecchino",
@@ -1991,7 +2051,11 @@
 }
 ],
 "mergedOn": "name alone",
-"treeId": 4512576
+"treeId": 4512576,
+"b": "20 Feb 1825",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "angelo-anzevino",
@@ -2364,7 +2428,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"b": "22 Dec 1848",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "joannes-arricale",
@@ -4041,7 +4109,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"b": "10 Jan 1831",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "francesco-carfora-of-sabatino-annecchino-mariantonia-ca",
@@ -4247,7 +4319,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"b": "4 Nov 1831",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "mariantonia-carfora",
@@ -4380,7 +4456,11 @@
 ],
 "siblings": [],
 "mergedOn": "name alone",
-"treeId": 4512577
+"treeId": 4512577,
+"b": "30 Dec 1830",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "matteo-carfora",
@@ -4502,7 +4582,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"b": "12 Sep 1831",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "raffaele-carfora",
@@ -4650,7 +4734,11 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "before 21 Jan 1860",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "rosa-ceglia-of-carmine-annecchino-rosa-ceglia",
@@ -4700,7 +4788,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "4 Apr 1852",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "alessandro-cimmino",
@@ -5037,7 +5129,11 @@
 "register"
 ]
 }
-]
+],
+"d": "20 Jun 1823",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "antonia-cioffi-of-francesco-cioffi-maria-falco-2",
@@ -5151,7 +5247,11 @@
 "register"
 ]
 }
-]
+],
+"b": "8 Aug 1831",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "antonia-cioffi-of-francesco-cioffi-maria-falco-2-2",
@@ -5265,7 +5365,11 @@
 "register"
 ]
 }
-]
+],
+"b": "30 Sep 1822",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "antonio-cioffi",
@@ -5323,7 +5427,11 @@
 "register"
 ]
 }
-]
+],
+"d": "10 Apr 1843",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "celia-cioffi",
@@ -5373,7 +5481,11 @@
 "register"
 ]
 }
-]
+],
+"d": "3 Jun 1843",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "clemente-cioffi",
@@ -5487,7 +5599,11 @@
 "register"
 ]
 }
-]
+],
+"b": "23 Aug 1833",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "don-giuseppe-cioffi",
@@ -5537,7 +5653,11 @@
 "register"
 ]
 }
-]
+],
+"d": "4 Dec 1827",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "francesca-cioffi",
@@ -5915,7 +6035,13 @@
 "register"
 ]
 }
-]
+],
+"b": "18 Jun 1824",
+"dateFrom": {
+"b": "act",
+"d": "act"
+},
+"d": "2 Apr 1825"
 },
 {
 "slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco",
@@ -6036,7 +6162,13 @@
 "register"
 ]
 }
-]
+],
+"b": "7 Jun 1819",
+"dateFrom": {
+"b": "act",
+"d": "act"
+},
+"d": "25 Mar 1824"
 },
 {
 "slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco-2",
@@ -6157,7 +6289,13 @@
 "register"
 ]
 }
-]
+],
+"b": "5 Oct 1829",
+"dateFrom": {
+"b": "act",
+"d": "act"
+},
+"d": "5 Dec 1830"
 },
 {
 "slug": "giuseppe-cioffi-of-francesco-cioffi-maria-falco-2-2",
@@ -6278,7 +6416,13 @@
 "register"
 ]
 }
-]
+],
+"b": "9 Mar 1826",
+"dateFrom": {
+"b": "act",
+"d": "act"
+},
+"d": "1 May 1827"
 },
 {
 "slug": "luigi-cioffi",
@@ -6336,7 +6480,11 @@
 "register"
 ]
 }
-]
+],
+"d": "2 Jan 1842",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "maddalena-cioffi",
@@ -6394,7 +6542,11 @@
 "register"
 ]
 }
-]
+],
+"d": "17 Aug 1840",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco",
@@ -6515,7 +6667,13 @@
 "register"
 ]
 }
-]
+],
+"b": "8 Mar 1828",
+"dateFrom": {
+"b": "act",
+"d": "act"
+},
+"d": "23 Oct 1828"
 },
 {
 "slug": "mariantonia-cioffi-of-francesco-cioffi-maria-falco-2",
@@ -6629,7 +6787,11 @@
 "register"
 ]
 }
-]
+],
+"d": "3 Sep 1832",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "marta-cioffi",
@@ -6670,7 +6832,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "6 Nov 1840",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "nicola-cioffi",
@@ -6864,7 +7030,11 @@
 "register"
 ]
 }
-]
+],
+"b": "16 Aug 1821",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "domenico-cospi",
@@ -7061,7 +7231,11 @@
 "register"
 ]
 }
-]
+],
+"b": "18 Jan 1818",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "adam-crisci",
@@ -7280,7 +7454,11 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "before 4 Nov 1825",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
@@ -7815,7 +7993,11 @@
 "register"
 ]
 }
-]
+],
+"d": "26 Jul 1843",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
@@ -8649,7 +8831,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "4 Nov 1825",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "domenica-crisci",
@@ -8680,7 +8866,11 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "before 10 Nov 1864",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "domenico-crisci",
@@ -8837,7 +9027,13 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"b": "22 Jan 1820",
+"dateFrom": {
+"b": "act",
+"d": "act"
+},
+"d": "24 Jan 1820"
 },
 {
 "slug": "francesca-crisci",
@@ -9312,7 +9508,11 @@
 "register"
 ]
 }
-]
+],
+"b": "1 Sep 1817",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "lorenzo-crisci",
@@ -9420,7 +9620,11 @@
 "register"
 ]
 }
-]
+],
+"d": "16 Jan 1829",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "luigi-crisci",
@@ -9572,7 +9776,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "19 Jun 1823",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "maria-crisci-of-crescenzo-crisci-angela-quotolo",
@@ -9893,7 +10101,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"b": "28 Jun 1832",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "raffaele-crisci",
@@ -10531,7 +10743,11 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "7 Mar 1836",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "vincenza-de-lucia",
@@ -11023,7 +11239,11 @@
 "register"
 ]
 }
-]
+],
+"d": "24 Jul 1844",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "agostino-di-guida-of-giuseppe-di-guida-maddalena-rivett",
@@ -11162,7 +11382,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "21 Oct 1817",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "angelo-andrea-di-guida-of-angelo-andrea-di-guida-teresa-vigl",
@@ -11219,7 +11443,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "21 Oct 1817",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "angelo-andrea-di-guida-of-giuseppe-di-guida-maddalena-rivett",
@@ -11571,7 +11799,11 @@
 "register"
 ]
 }
-]
+],
+"d": "15 Nov 1857 – 14 Feb 1860",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "clemente-di-guida",
@@ -11816,7 +12048,11 @@
 "register"
 ]
 }
-]
+],
+"b": "25 May 1817",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "marcellina-di-guida",
@@ -12138,7 +12374,11 @@
 "register"
 ]
 }
-]
+],
+"d": "11 Aug 1836",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "vittoria-di-guida-of-francesco-quotolo-vittoria-di-guid",
@@ -12675,7 +12915,11 @@
 "register"
 ]
 }
-]
+],
+"b": "27 Apr 1819",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "alfonso-diglio-of-alfonso-diglio-maria-falco",
@@ -12914,7 +13158,11 @@
 "register"
 ]
 }
-]
+],
+"b": "30 May 1825",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "giuseppe-diglio",
@@ -13004,7 +13252,11 @@
 "register"
 ]
 }
-]
+],
+"b": "3 Sep 1822",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "salvatore-diglio-of-alfonso-diglio-maria-falco-2",
@@ -13070,7 +13322,11 @@
 "register"
 ]
 }
-]
+],
+"b": "15 May 1817",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "kye-ellevsen",
@@ -13398,7 +13654,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"b": "16 Oct 1826",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "amy-falco",
@@ -14004,7 +14264,11 @@
 "register"
 ]
 }
-]
+],
+"d": "17 Oct 1822",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
@@ -14085,7 +14349,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "17 Oct 1822",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "angela-falco-of-matteo-falco-alessandra-crisci",
@@ -14921,7 +15189,11 @@
 "register"
 ]
 }
-]
+],
+"b": "12 Sep 1826",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "angelo-falco",
@@ -15769,7 +16041,11 @@
 "register"
 ]
 }
-]
+],
+"d": "23 Aug 1820",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "anna-falco-of-michelangelo-falco-mariantonia-vig",
@@ -15849,7 +16125,13 @@
 "register"
 ]
 }
-]
+],
+"b": "24 Mar 1830",
+"dateFrom": {
+"b": "act",
+"d": "act"
+},
+"d": "4 May 1831"
 },
 {
 "slug": "anna-falco-of-arcangelo-crisci-anna-falco",
@@ -15898,7 +16180,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "23 Aug 1820",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "anna-falco-of-michelangelo-falco-raffaela-falco",
@@ -15939,7 +16225,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "16 Mar 1834",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "anna-del-giudice-falco",
@@ -16772,7 +17062,11 @@
 "register"
 ]
 }
-]
+],
+"b": "13 May 1843",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "antonio-falco-of-giuseppe-falco-gelsomina-vigliotta",
@@ -16854,7 +17148,11 @@
 "register"
 ]
 }
-]
+],
+"b": "5 Jan 1813",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "antonio-falco",
@@ -17773,7 +18071,11 @@
 "register"
 ]
 }
-]
+],
+"d": "4 Aug 1859",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "carmela-falco-2",
@@ -18190,7 +18492,11 @@
 "mergedOn": "name alone",
 "treeId": 4512389,
 "b": "July 8 1891",
-"bp": "Arienzo, Caserta, Campania, Italia"
+"bp": "Arienzo, Caserta, Campania, Italia",
+"d": "19 Dec 1832",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "carmine-antonio-falco",
@@ -19482,7 +19788,13 @@
 "register"
 ]
 }
-]
+],
+"b": "11 Mar 1824",
+"dateFrom": {
+"b": "act",
+"d": "act"
+},
+"d": "19 Jun 1825"
 },
 {
 "slug": "clemente-falco-of-francesco-falco-raffaela-falco",
@@ -19564,7 +19876,11 @@
 "register"
 ]
 }
-]
+],
+"d": "14 Aug 1853",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "clemente-falco",
@@ -20661,7 +20977,11 @@
 "register"
 ]
 }
-]
+],
+"b": "13 Sep 1846",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "domenica-falco-2",
@@ -21085,7 +21405,11 @@
 "register"
 ]
 }
-]
+],
+"b": "18 Mar 1819",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "domenico-falco-of-francesco-falco-antonia-loffreda",
@@ -21330,7 +21654,13 @@
 "register"
 ]
 }
-]
+],
+"b": "25 Nov 1816",
+"dateFrom": {
+"b": "act",
+"d": "act"
+},
+"d": "15 Mar 1819"
 },
 {
 "slug": "domenico-falco",
@@ -23641,7 +23971,11 @@
 "register"
 ]
 }
-]
+],
+"d": "15 Sep 1805",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
@@ -23820,7 +24154,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "13 May 1832",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "giovanna-falco-of-antonio-lettieri-giovanna-falco",
@@ -24320,7 +24658,11 @@
 "register"
 ]
 }
-]
+],
+"d": "27 Nov 1841",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "giovanni-falco-of-giuseppe-falco-antonia-di-guida-2",
@@ -24465,7 +24807,13 @@
 "register"
 ]
 }
-]
+],
+"b": "6 Apr 1825",
+"dateFrom": {
+"b": "act",
+"d": "act"
+},
+"d": "26 Nov 1849"
 },
 {
 "slug": "giovanni-falco",
@@ -25285,7 +25633,11 @@
 "register"
 ]
 }
-]
+],
+"d": "2 Jun 1848",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta",
@@ -25496,7 +25848,11 @@
 "register"
 ]
 }
-]
+],
+"b": "19 Mar 1883",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "giuseppe-falco",
@@ -26307,7 +26663,11 @@
 "register"
 ]
 }
-]
+],
+"b": "25 Mar 1824",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "giuseppina-falco",
@@ -26882,7 +27242,13 @@
 "register"
 ]
 }
-]
+],
+"b": "21 Dec 1819",
+"dateFrom": {
+"b": "act",
+"d": "act"
+},
+"d": "16 Dec 1864"
 },
 {
 "slug": "luigi-falco-of-sebastiano-falco-colomba-montefusc",
@@ -27500,7 +27866,13 @@
 "register"
 ]
 }
-]
+],
+"b": "7 Jun 1818",
+"dateFrom": {
+"b": "act",
+"d": "act"
+},
+"d": "31 May 1825"
 },
 {
 "slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida-2",
@@ -27645,7 +28017,11 @@
 "register"
 ]
 }
-]
+],
+"b": "4 May 1827",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "madonna-falco",
@@ -27743,7 +28119,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "13 May 1836",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "maria-angela-falco",
@@ -27856,7 +28236,11 @@
 "register"
 ]
 }
-]
+],
+"d": "11 Mar 1805",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "maria-annunziata-falco",
@@ -28080,7 +28464,11 @@
 "register"
 ]
 }
-]
+],
+"b": "10 Oct 1832",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "maria-carmela-falco-of-francesco-falco-raffaela-falco",
@@ -28162,7 +28550,11 @@
 "register"
 ]
 }
-]
+],
+"b": "15 Jul 1832",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "maria-carmina-falco",
@@ -28462,7 +28854,11 @@
 "register"
 ]
 }
-]
+],
+"d": "25 Apr 1826",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "maria-falco-of-giuseppe-falco-rosa-sossi",
@@ -28503,7 +28899,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "24 Jul 1817",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "maria-falco-of-francesco-quotolo-maria-falco",
@@ -28536,7 +28936,11 @@
 }
 ],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "24 Jul 1817",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "maria-falco-of-nicola-majone-maria-falco",
@@ -28734,7 +29138,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "1 May 1862",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "maria-falco-of-alfonso-diglio-maria-falco",
@@ -28821,7 +29229,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "25 Apr 1826",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "maria-falco-of-michele-falco-maria-giovanna-ambro",
@@ -28863,7 +29275,11 @@
 "register"
 ]
 }
-]
+],
+"d": "4 Mar 1859",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "maria-falco",
@@ -29358,7 +29774,11 @@
 "register"
 ]
 }
-]
+],
+"b": "21 Nov 1845",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "maria-giuseppa-falco",
@@ -29637,7 +30057,11 @@
 "register"
 ]
 }
-]
+],
+"b": "20 Jul 1832",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "maria-rosa-falco-of-michele-falco-antonia-vigliotta",
@@ -29703,7 +30127,11 @@
 "register"
 ]
 }
-]
+],
+"d": "30 May 1834",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "maria-teresa-falco",
@@ -29906,7 +30334,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"b": "4 Sep 1838",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "matteo-falco-of-matteo-falco-francesca-crisci",
@@ -30172,7 +30604,11 @@
 "register"
 ]
 }
-]
+],
+"d": "28 Aug 1809",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
@@ -30516,7 +30952,11 @@
 "register"
 ]
 }
-]
+],
+"d": "24 Aug 1842",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "matteo-falco",
@@ -32076,7 +32516,11 @@
 "register"
 ]
 }
-]
+],
+"b": "30 Mar 1823",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "pasquale-antonio-falco",
@@ -32429,6 +32873,10 @@
 "note": "Baptised in the Collegiate Church of Sant'Andrea at Arienzo on 24 October 1767 — the record names his father Matteo and his mother Francesca Crisci. He married Chiara Rivetti and their children were baptised in the same church from 1789 to 1802. He died at five in the morning on 1 October 1834 at his own house on strada Camellara; the civil act, given by two neighbours, names him husband of Chiara Rivetti and son of the late Matteo Falco and the late Francesca Crisci — confirming the 1767 baptism from an entirely separate record series. It gives his age as 74, which the baptism does not support; stated ages in these registers are approximate. **A daughter found in 1820 adds a third independent sighting.** On 23 August 1820 his daughter **ANNA FALCO**, twenty-five, wife of Arcangelo Crisci, died on strada Camellara, and her act names her «figlia di PASQUALE FALCO, di professione Contadino, domiciliato ivi strada Camellara, e di CHIARA RIVETTI, domiciliata ivi» — **both parents WITHOUT «fu»**. So Pasquale was alive, a contadino, and on the family's street in August 1820, fourteen years before his own death act; and Chiara, whom no record but her 1843 burial had ever named, was alive beside him. Anna was born about 1795 and had buried a two-day-old son seven months earlier. **And once, in 1824, he speaks for himself.** On 25 March 1824 the register opens: «sono comparsi **PASQUALE FALCO**, di anni **cinquantacinque**, di professione **COLONO**, regnicolo, domiciliato in questo comune **strada Camellara**, **ZIO DEL DEFUNTO**, e **GIUSEPPE FALCO**, di anni quarantadue, di professione colono, regnicolo, domiciliato ivi strada Camellara, **ZIO DEL DEFUNTO**» — the two brothers together, and **not** reporting a neighbour's child dead, as this archive said until 16 September 2026. The word is **«zio»** — uncle — written twice, once for each of them, and it was transcribed «vicino». The dead five-year-old is **GIUSEPPE CIOFFI**, son of Francesco Cioffi and **MARIA FALCO**. Read strictly the word makes Maria their sister and so a daughter of Matteo Falco; her own stated age of twenty-five in June 1824 forbids it. **The archive records the word and refuses the pedigree.** And at the foot of the leaf, beneath a formula naming Giuseppe as the brother who could not write, stands **«PASCALE FALCO»** in his own hand. **It is the only record in which Pasquale acts rather than being named**: everywhere else somebody else is speaking of him. It gives his trade as *colono*, a tenant farmer, where his death act ten years later calls him *contadino*; and his age as fifty-five, one year out against the baptism of 1767, which is ordinary in these registers. **HER PARENTS ARE NOW NAMED BY A CIVIL ACT.** She died on 13 September 1843 at eight in the evening, in her own house, aged eighty, a *contadina*: «CHIARA RIVETTI VEDOVA DI PASQUALE FALCO … figlia di NICOLA RIVETTI defunto, di professione CONTADINO, e di ANNA DI RUGGIO defunta». The archive had carried two rival couples for her parents since 2026 — the gentry Don Nicola Rivetti and Donn'Anna Quotolo, and the labouring Nicola Rivetti and Anna di Ruggio — and had said the labouring couple was the better fit without claiming it. The act settles it: her father was a contadino.\n\n**His first age outside a death act — and it is wrong by fourteen years.** The banns of his son Vincenzo's marriage, published at Arienzo on Sunday **11 September 1814** and again on Sunday 18 September, describe the groom as «Maggiore assistito da **Pasquale suo Padre di Anni Sessanta**, di Professione **contadino**», with «**Chiara Rivetti sua Madre, di Anni quarantasette**, domiciliata in casa di suo Marito». Sixty in September 1814 implies a birth about 1754; his baptism of 24 October 1767 makes him **forty-six**. The same two acts give his son's age and his son's bride's age correctly to the year. **The clerk was accurate about the people standing in front of him and careless about everyone else** — which is the pattern this archive has argued for volumes, here proved in both directions by a single document. Chiara's forty-seven implies 1767; her 1843 burial implied 1763 and the family tree says 1772. Three estimates that still do not converge.\n\n**A daughter found in the 1812 index: GIOVANNA FALCO.** «[Giov]anna Falco | Arienzo | **Contadina** | **PASQUALE, e CHIARA RIVETTI** | A **15 Decembre 1812**» — the surname and both parents verified at full magnification, the forename sitting in the page gutter and reading «…anna». **A SECOND child of that name.** This archive already held a **Giovanna Falco who died on 15 September 1805**, a daughter of the same parents, from the Arienzo parish register. So the Giovanna of 1812 is not a child the archive lacked — she is **a second daughter given her dead sister's name**, which is exactly what this family did again and again: two Raffaele, two Pasquale, two Maria. The claim was first published here as «a child this archive did not have» and that was wrong; see /corrections. Found not by reading the register act by act but by reading the year's index, which is three images. \\n\\n**CHIARA RIVETTI'S OWN BAPTISM, FOUND AND READ: 14 DECEMBER 1766.** «baptizavit infantem natam ex **NICOLAO RIVETTA et ANNA DI NUZZO** … cui imposui nomen **CLARA**», godmother **Cecilia Martone**, in the Collegiata di Sant'Andrea Apostolo. **She was SEVENTY-SEVEN when she died in 1843, not eighty** — the age on the death act is one more clerk's estimate. \\n\\n**And a conflict, published as a conflict**: the parish calls her mother **ANNA DI NUZZO**, across five children's baptisms; the civil series calls her **ANNA DI RUGGIO**, twice, twenty-two years apart. Both are certain in their own document and this archive does not know which is the woman's own name. \\n\\nHer brother **CARMINE**, who died in 1821 at fifty-three, was baptised **26 May 1768** — his stated age and the baptism agree to the year. And the parish books show **both** Nicola Rivetta households existing side by side: the physician «Mag[nifi]co Don Physico D. Nicolao Rivetta» with **Anna Ruotolo**, whose children are given three and four names apiece, and the plain Nicola with Anna di Nuzzo, whose children are given one. Chiara is in the second house — **which is what the 1843 act's «contadino» already said.**",
 "died": "1 Oct 1834",
 "diedPlace": "Arienzo, strada Camellara"
+},
+"d": "1 Oct 1834",
+"dateFrom": {
+"d": "act"
 }
 },
 {
@@ -32589,7 +33037,13 @@
 "register"
 ]
 }
-]
+],
+"b": "24 Mar 1830",
+"dateFrom": {
+"b": "act",
+"d": "act"
+},
+"d": "22 Feb 1833"
 },
 {
 "slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci-2",
@@ -32735,7 +33189,11 @@
 "register"
 ]
 }
-]
+],
+"d": "25 Dec 1834",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci-2-2",
@@ -32848,7 +33306,11 @@
 "register"
 ]
 }
-]
+],
+"d": "30 Oct 1838",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
@@ -32938,7 +33400,11 @@
 "register"
 ]
 }
-]
+],
+"d": "6 Feb 1862",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "pasquale-falco",
@@ -33498,7 +33964,11 @@
 "mergedOn": "name alone",
 "treeId": 4512512,
 "b": "Feb 1 1877",
-"bp": "Arienzo, Caserta, Campania, Italia"
+"bp": "Arienzo, Caserta, Campania, Italia",
+"d": "14 Sep 1836",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "rosa-maria-falco",
@@ -34320,7 +34790,13 @@
 "register"
 ]
 }
-]
+],
+"b": "10 May 1818",
+"dateFrom": {
+"b": "act",
+"d": "act"
+},
+"d": "28 Oct 1817"
 },
 {
 "slug": "raffaele-falco-of-francesco-falco-raffaela-falco",
@@ -34402,7 +34878,11 @@
 "register"
 ]
 }
-]
+],
+"b": "31 Aug 1837",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "raffaele-falco-of-carmine-antonio-falco-giovanna-arr",
@@ -34468,7 +34948,11 @@
 "register"
 ]
 }
-]
+],
+"b": "6 Apr 1873",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "raffaele-falco-of-michele-falco-maria-giovanna-ambro",
@@ -34510,7 +34994,11 @@
 "register"
 ]
 }
-]
+],
+"d": "17 Aug 1859",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "raffaele-falco-of-michele-falco-antonia-vigliotta",
@@ -34534,7 +35022,11 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "before 12 Feb 1850",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
@@ -35649,7 +36141,11 @@
 "register"
 ]
 }
-]
+],
+"d": "15 Mar 1819",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
@@ -35731,7 +36227,11 @@
 "register"
 ]
 }
-]
+],
+"b": "15 Mar 1821",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "salvatore-falco",
@@ -35797,7 +36297,11 @@
 "register"
 ]
 }
-]
+],
+"d": "9 Aug 1836",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "sara-falco",
@@ -35950,7 +36454,11 @@
 "register"
 ]
 }
-]
+],
+"b": "19 Dec 1828",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "stanislao-falco",
@@ -36103,7 +36611,11 @@
 "register"
 ]
 }
-]
+],
+"b": "9 Sep 1838",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "stephen-falco",
@@ -39166,7 +39678,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "9 Apr 1816",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "nunzia-lettieri",
@@ -39420,7 +39936,11 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "25 Nov 1880",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "maria-maione",
@@ -39688,7 +40208,11 @@
 }
 ],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "27 Feb 1818",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "angelo-majone",
@@ -41609,7 +42133,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"b": "2 Aug 1822",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "angela-morgillo",
@@ -41691,7 +42219,11 @@
 "register"
 ]
 }
-]
+],
+"b": "16 Mar 1823",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "angela-rosa-morgillo",
@@ -42128,7 +42660,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "14 Mar 1828",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "francescantonio-morgillo",
@@ -42244,7 +42780,11 @@
 "register"
 ]
 }
-]
+],
+"d": "before 2 Feb 1845",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "giovanna-morgillo",
@@ -42326,7 +42866,11 @@
 "register"
 ]
 }
-]
+],
+"b": "22 Sep 1817",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "giovanni-morgillo",
@@ -42357,7 +42901,11 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "10 Nov 1864",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "giuditta-morgillo-of-carlantonio-morgillo-rosa-falco",
@@ -42439,7 +42987,11 @@
 "register"
 ]
 }
-]
+],
+"b": "11 Jul 1820",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "giuditta-morgillo-of-carlantonio-morgillo-the-elder-man",
@@ -42480,7 +43032,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "3 Aug 1818",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "giuseppe-morgillo",
@@ -42637,7 +43193,11 @@
 "register"
 ]
 }
-]
+],
+"b": "20 Dec 1827",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "maria-concetta-morgillo",
@@ -42880,7 +43440,11 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "before 21 Jan 1860",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "pasqua-morgillo-of-francesco-carfora-pasqua-morgillo",
@@ -42963,7 +43527,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "6 Jul 1818",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "pasquale-morgillo-of-francesco-carfora-pasqua-morgillo",
@@ -43069,7 +43637,11 @@
 "register"
 ]
 }
-]
+],
+"d": "9 Mar 1832",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "raffaele-morgillo",
@@ -43163,7 +43735,11 @@
 }
 ],
 "mergedOn": "name alone",
-"treeId": 4512419
+"treeId": 4512419,
+"d": "9 May 1832",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "simone-morgillo",
@@ -44143,7 +44719,11 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "before 19 Mar 1815",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "stella-petrillo",
@@ -44649,7 +45229,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "28 Sep 1817",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "angelo-quotolo",
@@ -44690,7 +45274,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "6 Sep 1819",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "donna-anna-quotolo",
@@ -44748,7 +45336,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "25 Apr 1824",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "francesco-quotolo-of-francesco-quotolo-maria-falco",
@@ -45344,7 +45936,11 @@
 "register"
 ]
 }
-]
+],
+"d": "12 Feb 1819",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "benedetto-rivetti",
@@ -45418,7 +46014,11 @@
 "register"
 ]
 }
-]
+],
+"d": "1821",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "carmine-rivetti-of-nicola-rivetti-anna-di-ruggio",
@@ -45459,7 +46059,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "15 Sep 1821",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "carmine-rivetti-of-carmine-rivetti-giustina-morgillo",
@@ -45492,7 +46096,11 @@
 }
 ],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "15 Sep 1821",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "chiara-rivetti-of-nicola-rivetti-contadino-anna-di-r",
@@ -45549,7 +46157,11 @@
 "register"
 ]
 }
-]
+],
+"d": "1843",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
@@ -45748,7 +46360,11 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "before 12 Feb 1850",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "chiara-rivetti-of-raffaele-falco-chiara-rivetti",
@@ -45905,7 +46521,11 @@
 "register"
 ]
 }
-]
+],
+"d": "1 Dec 1816",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "don-giuseppe-rivetti-of-don-giuseppe-rivetti-sacerdote-str",
@@ -46054,7 +46674,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "26 Jan 1816",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "gelsomina-rivetti",
@@ -46525,7 +47149,11 @@
 "register"
 ]
 }
-]
+],
+"d": "9 Oct 1823",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "pasquale-rivetti-of-pasquale-rivetti-giovanna-perrotta",
@@ -46690,7 +47318,11 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"d": "31 Mar 1819",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "barbara-ruggiero",
@@ -47201,7 +47833,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "between 1817 and 1 Jun 1820",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "teresa-ruggiero",
@@ -47516,7 +48152,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "before 2 Feb 1845",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "pasquale-sansone",
@@ -47590,7 +48230,11 @@
 "register"
 ]
 }
-]
+],
+"d": "26 Feb 1842",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "don-stefano-scarpati",
@@ -47690,7 +48334,11 @@
 "register"
 ]
 }
-]
+],
+"d": "9 Apr 1840",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "alesandra-schettini",
@@ -49024,7 +49672,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "before 12 Feb 1850",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "gelsomina-vigliotta",
@@ -49120,7 +49772,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "before 13 Dec 1854",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "maria-vigliotta",
