@@ -77,12 +77,20 @@ for h in H:
             continue
         fs = sorted(forms)
         if all(deliberate(f) for f in fs):
+            # COUNTED, NOT SWALLOWED. A refusal nobody counts is
+            # indistinguishable from a match — which is the fault that let
+            # Luigi Falco stand on two pages, and this gate had it too until
+            # 23 September 2026. Every skip is now reported, so the number of
+            # deliberate splits is visible and a change in it is noticeable.
+            warn.append(f"«{h['name']}» tells {len(fs)} people of one name apart "
+                        f"by a trailing qualifier: " + " / ".join(f"«{f}»" for f in fs))
             continue
         fail.append(f"«{h['name']}» holds one person under {len(fs)} spellings: "
                     + " / ".join(f"«{f}»" for f in fs))
 
 print(f"  check_households: {len(H)} households, "
-      f"{sum(len(h['members']) for h in H)} member rows")
+      f"{sum(len(h['members']) for h in H)} member rows, "
+      f"{len(warn)} deliberate same-name split(s) allowed")
 for w in warn:
     print("    note  " + w)
 if fail:
