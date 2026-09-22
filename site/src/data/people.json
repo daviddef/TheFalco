@@ -4902,6 +4902,48 @@
 "siblings": []
 },
 {
+"slug": "annamaria-cimmino",
+"name": "Annamaria Cimmino",
+"surname": "CIMMINO",
+"household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+"role": "mother",
+"events": [
+{
+"event": "named",
+"date": "—",
+"place": "Arienzo, Corso Caudino",
+"evidence": "Named as Angelo Falco's wife. **CIMMINO is a surname this archive holds heavily at Arienzo** — Carolina Cimmino married Luigi Falco in 1851, Antonia Cimmino is a Carfora mother — and **none of them is joined to her here**.",
+"ark": "site/src/pages/which-falco.astro — a page, not an act; the acts behind it are named in each row"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "vincenzo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Vincenzo Falco (of Angelo, d. 1889)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
 "slug": "carolina-cimmino",
 "name": "Carolina Cimmino",
 "surname": "CIMMINO",
@@ -7650,7 +7692,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -7733,14 +7775,6 @@
 ]
 },
 {
-"slug": "angelo-falco",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -7799,6 +7833,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -10847,7 +10889,16 @@
 "register"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "donna-maddalena-stellato",
+"name": "Donna Maddalena Stellato",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "spouses": [],
 "children": [],
 "siblings": [],
@@ -12755,7 +12806,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco-3",
+"slug": "vincenzo-falco-2",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -13862,7 +13913,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -14028,14 +14079,6 @@
 ]
 },
 {
-"slug": "angelo-falco",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -14094,6 +14137,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -15197,7 +15248,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -15243,14 +15294,6 @@
 {
 "slug": "andrea-falco",
 "name": "Andrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -15311,6 +15354,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "12 Sep 1826",
@@ -15319,12 +15370,64 @@
 }
 },
 {
-"slug": "angelo-falco",
-"name": "Angelo Falco",
+"slug": "angelantonio-falco",
+"name": "Angelantonio Falco",
 "surname": "FALCO",
-"household": "Vincenzo Falco & Andreana Crisci",
+"household": "Domenico Falco & Mariantonia Frasca",
 "role": "child",
 "events": [
+{
+"event": "death",
+"date": "20 Oct 1850",
+"place": "Arienzo",
+"evidence": "**TEN MONTHS OLD, AND HE DIED IN HIS WET-NURSE'S HOUSE.** Dead **20 October 1850** at Arienzo «*in the house of his wet-nurse **GRAZIA DIGLIO***» — a detail the register gives and a family tree never would. *Born about December 1849.* **The act has not been re-read at full resolution.**",
+"ark": "site/src/pages/which-falco.astro — a page, not an act; the acts behind it are named in each row"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
+"name": "Domenico Falco (m. 1844, Santa Maria a Vico)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "mariantonia-frasca",
+"name": "Mariantonia Frasca",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [],
+"d": "20 Oct 1850",
+"dateFrom": {
+"d": "act"
+}
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco (of Corso Caudino)",
+"surname": "FALCO",
+"household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+"role": "father",
+"events": [
+{
+"event": "named",
+"date": "—",
+"place": "Arienzo, Corso Caudino",
+"evidence": "**THIS HOUSEHOLD WAS LIVING IN A PAGE TEMPLATE.** It was named on the **which-falco** disambiguation page — which exists to keep the other Arienzo Falco apart from this line — and **it was in no data file**, so it had no person pages, no place in the search index and no way for a reader to reach it. *Found on 22 September 2026 by auditing that page's eighteen couples against the household file: three had no household and two were spelled differently in the prose than in the data.* **The facts below are the page's own; the acts behind them are named and, where they have not been re-read, said to be.**\n\n**A Falco household of the CORSO CAUDINO**, named on the which-falco page and nowhere else. **No kinship to this line is claimed**; the page exists precisely to keep them apart.",
+"ark": "site/src/pages/which-falco.astro — a page, not an act; the acts behind it are named in each row"
+},
 {
 "event": "marriage",
 "date": "17 Apr 1847",
@@ -15347,7 +15450,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -15355,8 +15458,26 @@
 ]
 }
 ],
-"spouses": [],
-"children": [],
+"spouses": [
+{
+"slug": "annamaria-cimmino",
+"name": "Annamaria Cimmino",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "vincenzo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Vincenzo Falco (of Angelo, d. 1889)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "siblings": [
 {
 "slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci",
@@ -15573,7 +15694,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco-2",
+"slug": "vincenzo-falco",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -16109,6 +16230,14 @@
 ]
 },
 {
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "maria-raffaela-falco",
 "name": "Maria Raffaela Falco",
 "via": "register",
@@ -16151,14 +16280,6 @@
 {
 "slug": "michelangelo-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Michelangelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco",
-"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -16773,7 +16894,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "vincenzo-falco-2",
+"slug": "vincenzo-falco",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -17070,7 +17191,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -17108,14 +17229,6 @@
 {
 "slug": "andrea-falco",
 "name": "Andrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -17180,6 +17293,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -17401,7 +17522,7 @@
 "living": false,
 "parents": [
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -17501,7 +17622,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco-3",
+"slug": "vincenzo-falco-2",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -17770,7 +17891,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco-3",
+"slug": "vincenzo-falco-2",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -17823,7 +17944,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -20522,7 +20643,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco-3",
+"slug": "vincenzo-falco-2",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -21329,7 +21450,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco-3",
+"slug": "vincenzo-falco-2",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -21438,7 +21559,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco-3",
+"slug": "vincenzo-falco-2",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -21649,6 +21770,14 @@
 ]
 },
 {
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "maria-raffaela-falco",
 "name": "Maria Raffaela Falco",
 "via": "register",
@@ -21691,14 +21820,6 @@
 {
 "slug": "michelangelo-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Michelangelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco",
-"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -21800,6 +21921,48 @@
 "d": "act"
 },
 "d": "15 Mar 1819"
+},
+{
+"slug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
+"name": "Domenico Falco (m. 1844, Santa Maria a Vico)",
+"surname": "FALCO",
+"household": "Domenico Falco & Mariantonia Frasca",
+"role": "father",
+"events": [
+{
+"event": "marriage",
+"date": "1 Jul 1844",
+"place": "Santa Maria a Vico",
+"evidence": "**THIS HOUSEHOLD WAS LIVING IN A PAGE TEMPLATE.** It was named on the **which-falco** disambiguation page — which exists to keep the other Arienzo Falco apart from this line — and **it was in no data file**, so it had no person pages, no place in the search index and no way for a reader to reach it. *Found on 22 September 2026 by auditing that page's eighteen couples against the household file: three had no household and two were spelled differently in the prose than in the data.* **The facts below are the page's own; the acts behind them are named and, where they have not been re-read, said to be.**\n\n**Married 1 July 1844 at SANTA MARIA A VICO.** The which-falco page calls him «*the son of the other Giuseppe Falco and Gelsomina Vigliotta*» — the strada Costa house, not the strada Camellara one.\n\n**WHICH DOMENICO HE IS, IS NOT SETTLED AND IS NOT CLAIMED.** That household holds a **DOMENICO FALCO born 25 November 1816 who died on 15 March 1819**, and a **DOMENICO CLEMENTE FALCO born 18 March 1819 who married on 6 August 1856**. *A man marrying in 1844 is neither of those two as this archive currently reads them* — so either there is a third Domenico, or one of the two identifications is wrong. **The act of 1 July 1844 is at Santa Maria a Vico and has not been read here.**",
+"ark": "site/src/pages/which-falco.astro — a page, not an act; the acts behind it are named in each row"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "mariantonia-frasca",
+"name": "Mariantonia Frasca",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "angelantonio-falco",
+"name": "Angelantonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
 },
 {
 "slug": "domenico-falco",
@@ -22022,7 +22185,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco-3",
+"slug": "vincenzo-falco-2",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -22566,6 +22729,14 @@
 ]
 },
 {
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "maria-raffaela-falco",
 "name": "Maria Raffaela Falco",
 "via": "register",
@@ -22608,14 +22779,6 @@
 {
 "slug": "michelangelo-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Michelangelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco",
-"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -24063,6 +24226,14 @@
 ]
 },
 {
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "maria-raffaela-falco",
 "name": "Maria Raffaela Falco",
 "via": "register",
@@ -24105,14 +24276,6 @@
 {
 "slug": "michelangelo-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Michelangelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco",
-"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -24651,7 +24814,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco-3",
+"slug": "vincenzo-falco-2",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -26605,7 +26768,7 @@
 "living": false,
 "parents": [
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -26734,7 +26897,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -26780,14 +26943,6 @@
 {
 "slug": "andrea-falco",
 "name": "Andrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -26844,6 +26999,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -26992,7 +27155,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco-2",
+"slug": "vincenzo-falco",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -27313,7 +27476,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -27351,14 +27514,6 @@
 {
 "slug": "andrea-falco",
 "name": "Andrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -27423,6 +27578,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -27690,7 +27853,7 @@
 "living": false,
 "parents": [
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -27855,7 +28018,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco-3",
+"slug": "vincenzo-falco-2",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -28383,6 +28546,14 @@
 ]
 },
 {
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "maria-raffaela-falco",
 "name": "Maria Raffaela Falco",
 "via": "register",
@@ -28425,14 +28596,6 @@
 {
 "slug": "michelangelo-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Michelangelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco",
-"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -28551,7 +28714,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -28597,14 +28760,6 @@
 {
 "slug": "andrea-falco",
 "name": "Andrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -28661,6 +28816,14 @@
 {
 "slug": "stanislao-falco",
 "name": "Stanislao Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -28858,7 +29021,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco-2",
+"slug": "vincenzo-falco",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -28993,6 +29156,14 @@
 "children": [],
 "siblings": [
 {
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "maria-raffaela-falco",
 "name": "Maria Raffaela Falco",
 "via": "register",
@@ -29043,14 +29214,6 @@
 {
 "slug": "michelangelo-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Michelangelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco",
-"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -29751,7 +29914,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -30138,6 +30301,14 @@
 ]
 },
 {
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "anna-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Anna Falco",
 "via": "register",
@@ -30180,14 +30351,6 @@
 {
 "slug": "michelangelo-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Michelangelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco",
-"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -30432,7 +30595,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco-3",
+"slug": "vincenzo-falco-2",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -31838,6 +32001,14 @@
 ]
 },
 {
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "maria-raffaela-falco",
 "name": "Maria Raffaela Falco",
 "via": "register",
@@ -31880,14 +32051,6 @@
 {
 "slug": "francescantonio-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Francescantonio Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco",
-"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -32291,7 +32454,7 @@
 ],
 "siblings": [
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -32350,7 +32513,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -32396,14 +32559,6 @@
 {
 "slug": "andrea-falco",
 "name": "Andrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -32460,6 +32615,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -32982,12 +33145,11 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "line",
 "vias": [
 "line",
-"register",
 "tree"
 ]
 },
@@ -33010,6 +33172,14 @@
 {
 "slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -33148,7 +33318,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -33186,14 +33356,6 @@
 {
 "slug": "andrea-falco",
 "name": "Andrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -33262,6 +33424,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "24 Mar 1830",
@@ -33300,7 +33470,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -33352,14 +33522,6 @@
 ]
 },
 {
-"slug": "angelo-falco",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -33410,6 +33572,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -33977,7 +34147,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco-3",
+"slug": "vincenzo-falco-2",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -34030,7 +34200,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco-2",
+"slug": "vincenzo-falco",
 "name": "Vincenzo Falco",
 "via": "tree",
 "vias": [
@@ -34920,7 +35090,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -34958,14 +35128,6 @@
 {
 "slug": "andrea-falco",
 "name": "Andrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -35030,6 +35192,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -35445,7 +35615,7 @@
 "living": false,
 "parents": [
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "line",
 "vias": [
@@ -36734,7 +36904,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -36780,14 +36950,6 @@
 {
 "slug": "andrea-falco",
 "name": "Andrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -36848,6 +37010,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "19 Dec 1828",
@@ -36891,7 +37061,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -36937,14 +37107,6 @@
 {
 "slug": "andrea-falco",
 "name": "Andrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -37001,6 +37163,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -37259,7 +37429,117 @@
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
+"surname": "FALCO",
+"household": "Pasquale Falco & Chiara Rivetti",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "1793",
+"place": "Arienzo",
+"evidence": "named in his own marriage as \"Vincentium Falco filium Paschalis, e Clarae Rivetta\"",
+"ark": "3Q9M-CSMY-B79D-B"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
+"name": "Chiara (Clara) Rivetti",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-raffaela-falco",
+"name": "Maria Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "anna-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Anna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenico-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Domenico Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-angela-falco",
+"name": "Maria Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francescantonio-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Francescantonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "michelangelo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Michelangelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "1793",
+"dateFrom": {
+"b": "act"
+}
+},
+{
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
@@ -37355,13 +37635,6 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "**GENERATION THREE, ALIVE AND NAMED WITH A TRADE, THIRTEEN YEARS BEFORE THE ACT THAT HAD BEEN THE ARCHIVE'S LATEST SIGHTING OF HIM.** «*figlio di **VINCENZO FALCO**, di professione **COLONO**, domiciliato **ivi***» — no «fu», no «defunto», at his son Luigi's marriage on **13 August 1851**. Born 1792, he is about fifty-nine.\n\n**COLONO, not contadino** — the same word the 1864 act uses, and the word this archive's other Falco of strada Camellara are given. *A colono works land he does not own under a share agreement; a contadino is the general word. The registers of Arienzo use both of the same men.*",
 "ark": "ANTENATI an_ua14255 img19r act14 — READ FROM THE IMAGE"
-},
-{
-"event": "birth",
-"date": "1793",
-"place": "Arienzo",
-"evidence": "named in his own marriage as \"Vincentium Falco filium Paschalis, e Clarae Rivetta\"",
-"ark": "3Q9M-CSMY-B79D-B"
 }
 ],
 "sources": [
@@ -37376,16 +37649,14 @@
 "via": "line",
 "vias": [
 "line",
-"register",
 "tree"
 ]
 },
 {
 "slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
 "name": "Chiara Rivetti / Rivotti (Falco)",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 }
@@ -37476,14 +37747,6 @@
 ]
 },
 {
-"slug": "angelo-falco",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -37546,6 +37809,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [
@@ -37572,73 +37843,9 @@
 "vias": [
 "tree"
 ]
-},
-{
-"slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-raffaela-falco",
-"name": "Maria Raffaela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "anna-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Anna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "domenico-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Domenico Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-angela-falco",
-"name": "Maria Angela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "francescantonio-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Francescantonio Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "michelangelo-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Michelangelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
-"mergedOn": "name and dates",
+"mergedOn": "the same generation of the direct line — name and spouse both agree",
 "treeId": 4512466,
 "b": "1793",
 "d": "May 15 1875",
@@ -37661,7 +37868,52 @@
 }
 },
 {
-"slug": "vincenzo-falco-2",
+"slug": "vincenzo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Vincenzo Falco (of Angelo, d. 1889)",
+"surname": "FALCO",
+"household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "13 Sep 1889",
+"place": "Arienzo, Corso Caudino",
+"evidence": "**THIRTY-NINE, A VATICALE, AND EXPLICITLY NOT THE VINCENZO OF THIS LINE.** Dead **13 September 1889**, born about 1850. *This archive's own Vincenzo Falco, generation three, was born in 1792 and was alive in December 1864; the two are separated here on purpose, because a Vincenzo Falco of Arienzo is exactly the kind of name that gets merged by accident.* **The act has not been re-read.**",
+"ark": "site/src/pages/which-falco.astro — a page, not an act; the acts behind it are named in each row"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "annamaria-cimmino",
+"name": "Annamaria Cimmino",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [],
+"d": "13 Sep 1889",
+"dateFrom": {
+"d": "act"
+}
+},
+{
+"slug": "vincenzo-falco",
 "name": "Vincenzo Falco",
 "surname": "FALCO",
 "household": null,
@@ -37723,7 +37975,7 @@
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
-"slug": "vincenzo-falco-3",
+"slug": "vincenzo-falco-2",
 "name": "Vincenzo Falco",
 "surname": "FALCO",
 "household": null,
@@ -37910,7 +38162,7 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
 "via": "register",
 "vias": [
@@ -37956,14 +38208,6 @@
 {
 "slug": "andrea-falco",
 "name": "Andrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -38020,6 +38264,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -39087,12 +39339,21 @@
 },
 {
 "slug": "mariantonia-frasca",
-"name": "Mariantonia Frasca (Falco)",
+"name": "Mariantonia Frasca",
 "surname": "FRASCA",
-"household": null,
-"role": null,
-"events": [],
+"household": "Domenico Falco & Mariantonia Frasca",
+"role": "mother",
+"events": [
+{
+"event": "marriage",
+"date": "1 Jul 1844",
+"place": "Santa Maria a Vico",
+"evidence": "**FRASCA, from the act — and the index says FALCO.** The 1850 death index of her son calls the mother «*Falco Mariantonia*»; **the act says FRASCA**. *An index is not a record, and this is the fourth time in a week this archive has had to say so.*",
+"ark": "site/src/pages/which-falco.astro — a page, not an act; the acts behind it are named in each row"
+}
+],
 "sources": [
+"register",
 "tree"
 ],
 "living": false,
@@ -39105,6 +39366,14 @@
 "vias": [
 "tree"
 ]
+},
+{
+"slug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
+"name": "Domenico Falco (m. 1844, Santa Maria a Vico)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "children": [
@@ -39115,9 +39384,18 @@
 "vias": [
 "tree"
 ]
+},
+{
+"slug": "angelantonio-falco",
+"name": "Angelantonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [],
+"mergedOn": "name alone",
 "treeId": 4512548
 },
 {
@@ -46638,11 +46916,10 @@
 ]
 },
 {
-"slug": "vincenzo-falco",
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
@@ -46665,6 +46942,14 @@
 {
 "slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -49934,6 +50219,39 @@
 {
 "slug": "giovanna-falco-of-michele-falco-vincenza-sposito",
 "name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
+"slug": "donna-maddalena-stellato",
+"name": "Donna Maddalena Stellato",
+"surname": "STELLATO",
+"household": "Don Francesco Falco (gentry branch)",
+"role": "mother",
+"events": [
+{
+"event": "named",
+"date": "—",
+"place": "Arienzo",
+"evidence": "**DON FRANCESCO FALCO'S WIFE, named on the which-falco page and in no data file until 22 September 2026.** Their daughter **DONNA ANGELA MARIA** was a nun, dead **14 November 1850**; their son **DON GIACOMO** a priest, dead **20 June 1857**. **A different social world in the same parish, and no kinship to this line is claimed or suspected.**",
+"ark": "site/src/pages/which-falco.astro — a page, not an act; the acts behind it are named in each row"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [
+{
+"slug": "donna-raffaela-de-falco",
+"name": "Donna Raffaela de Falco",
 "via": "register",
 "vias": [
 "register"
