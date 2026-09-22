@@ -707,6 +707,44 @@ for n in sorted(gen_slug):
             "The reasoning is on the Method page."
         )
 
+# ------------------------------------------------- DISPLAY DATES FROM THE ACTS
+#
+# 22 September 2026. A person known ONLY from the registers had no `b` and no
+# `d` — those two fields are copied from the tree and from the register index,
+# and a household EVENT never reached them. So the archive's best work, the
+# acts read off the image, produced person pages with no dates on them, while
+# the unverified tree produced pages with dates and no acts.
+#
+# It showed up three ways at once: Mariantonia Carfora, whose birth act and
+# marriage act were both published, was `first: null, last: null` in
+# married-in.json; sixty-eight people carried a dated BIRTH event and an empty
+# `b`, and a hundred and three a dated DEATH event and an empty `d`; and SIX
+# Antonio Falco stood on the people index, two of them — one from an act of
+# 13 May 1843 and one from the tree at 13 May 1843 — obviously the same man.
+#
+# THIS RUNS AFTER EVERY MERGE AND EVERY EDGE IS SETTLED, on purpose. It fills
+# a blank field for DISPLAY and cannot change who is joined to whom: the merge
+# decisions above have already been taken, and this only writes where the tree
+# and the register both said nothing. Anything else would be a graph change
+# dressed up as a cosmetic one, and this archive has been badly burnt by one of
+# those. The living-people strip below still runs after it.
+_ACT_DATE = 0
+for r in people.values():
+    for _f, _kind in (("b", "birth"), ("d", "death")):
+        if r.get(_f):
+            continue
+        for _e in r.get("events") or []:
+            if not str(_e.get("event") or "").lower().startswith(_kind):
+                continue
+            _dt = str(_e.get("date") or "").strip()
+            if not _dt or _dt == "\u2014" or not re.search(r"\b1[6-9]\d\d\b", _dt):
+                continue
+            r[_f] = _dt
+            r.setdefault("dateFrom", {})[_f] = "act"
+            _ACT_DATE += 1
+            break
+print(f"  display dates taken from acts: {_ACT_DATE} (after merging, never before)")
+
 # living people must not leak a date through a merged register event either
 for r in people.values():
     if r["living"]:

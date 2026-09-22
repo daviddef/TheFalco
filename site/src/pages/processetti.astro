@@ -4,19 +4,27 @@ import P from "../components/P.astro";
 import Src from "../components/Src.astro";
 import { u } from "../lib/url.js";
 import proc from "../data/processetti.json";
+import searched from "../data/searched.json";
 
 /* THE VOLUME COUNTS ARE DERIVED, NOT TYPED. Four different totals were written
    across this archive — 378, 321, 320 and 258 — and every one of them was
    arithmetically right and counted a DIFFERENT SET OF TOWNS, none of them
    labelled. 378 is all six; 321 is the five of the Valle Caudina; 258 is the
-   four in Benevento; 320 is 321 less the single bundle that has been read.
+   four in Benevento; 320 was 321 less the ONE bundle that had been read.
    They are computed here so they cannot drift apart again, and each is said
-   with its scope attached. */
+   with its scope attached.
+
+   22 September 2026: THE ONE THAT WAS TYPED DRIFTED ANYWAY. «less the single
+   bundle» was a literal `- 1` three lines below, and by the time it was found
+   THREE bundles had been read — Arienzo 1814, 1845 and 1860. It is now counted
+   off the coverage page, which is where a bundle is recorded when it is read,
+   so it cannot be wrong again without the coverage page being wrong too. */
 const towns   = proc.rows;
 const vols    = (rs) => rs.reduce((a, r) => a + r.volumes, 0);
 const ALL     = vols(towns);
 const VALLE   = vols(towns.filter((r) => r.key !== "san-felice-a-cancello"));
-const UNREAD  = VALLE - 1;
+const READ    = searched.filter((r) => (r.tags || []).includes("Processetti")).length;
+const UNREAD  = VALLE - READ;
 const UNOPEN  = towns.filter((r) => r.state === "unexamined");
 
 const bundle = [
@@ -82,7 +90,7 @@ const census = [
 ];
 ---
 <Base title="The Processetti"
-      eyebrow={`The marriage files — ${ALL} volumes across ${towns.length} towns, one read`}
+      eyebrow={`The marriage files — ${ALL} volumes across ${towns.length} towns, ${READ} read`}
       dek="A processetto is everything a couple had to prove before they could marry: their baptisms, their parents' consent, their banns. The first one this archive opened turned out to be the richest document it has.">
 
   <div class="card" style="margin-bottom:1.2rem">
@@ -256,7 +264,7 @@ const census = [
   See <a href={u("/open-questions/")}>Open Questions</a>.</p>
 
   <h2>Every marriage at Arienzo in 1814</h2>
-  <p class="lede">Having found one bundle, the obvious question was what else the volume held. All
+  <p class="lede">Having found the 1814 bundle, the obvious question was what else the volume held. All
   <strong>290 images</strong> were swept as contact sheets and every bundle cover read. The volume
   holds <strong>seventeen bundles</strong> — seventeen marriages, each wrapped in a sheet that names
   <em>both</em> sets of parents before any act is opened.</p>
@@ -356,8 +364,33 @@ const census = [
     reasoning can be checked.</p>
   </div>
 
+  <h2>The other two bundles, 22 September 2026</h2>
+  <p class="lede">This page described one bundle for nine days because one was all there was. There
+  are three, and the two new ones were opened on the same day — after the discovery that
+  <strong>the Arienzo series was never blocked</strong>. It runs <span class="mono">an_ua14149</span>
+  (1809) to <span class="mono">an_ua14211</span> (1865), one ark a year with 1855 and 1858 doubled;
+  this archive had a count of the volumes and no ark for any of them, and two work-list rows had
+  therefore said «order».</p>
+  <ul>
+    <li><strong>1845, bundle 3</strong> — <span class="mono">an_ua14190</span>, images 27–39,
+    for <strong>Crescenzo Falco and Angela Maria Morgillo</strong>. It quotes her father's death act
+    <em>by number</em> — «<em>Estratto di Morte del 1843, Num. d'ordine TRENTATRE</em>»,
+    issued <em>per uso di matrimonio</em> — which turned a four-details identification into a
+    documented one, and it named her birth act, <strong>Arienzo 1822 act 66</strong>.</li>
+    <li><strong>1860, bundle 3</strong> — <span class="mono">an_ua14207</span>, images 25–42,
+    for <strong>Sabbatino Annecchino and Maria Antonia Carfora</strong>. Seven of its eight documents
+    survive, and they carry <strong>four generations of Annecchino</strong> where this archive had
+    one — down to <strong>Domenico Annecchino and Elisabetta d'Onofrio</strong>, dead before 1826,
+    who are past where Forchia's civil registers begin. Its item 6, the bride's father's written
+    consent, also <a href={u("/corrections/")}>overturned a correction this archive had published
+    three weeks earlier</a>.</li>
+  </ul>
+  <p class="small"><strong>One document the act lists is not in its bundle.</strong> Item 7 of the
+  1860 act is the bride's mother's death extract; images 25 to 42 hold four death extracts and every
+  one is from the groom's town. That is published as a nil so the bundle is not read for it again.</p>
+
   <h2>What remains</h2>
-  <p><strong>{UNREAD} of the {VALLE} Valle Caudina volumes</strong>, and <strong>{ALL - 1} of
+  <p><strong>{UNREAD} of the {VALLE} Valle Caudina volumes</strong>, and <strong>{ALL - READ} of
   the {ALL}</strong> if San Felice a Cancello is counted in. Arienzo's own runs are the priority;
   <strong>{UNOPEN.map((r) => `${r.town} (${r.volumes})`).join(", ")}</strong> have never been
   opened at all. Each bundle carries baptism extracts, which reach a generation earlier than the
