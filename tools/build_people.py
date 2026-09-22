@@ -220,10 +220,20 @@ hh_people = {}        # key -> record
 hh_order = []
 for h in households:
     for m in h["members"]:
-        key = h["name"] + "|" + m["person"]
+        # IDENTITY IS THE HOUSEHOLD'S id, NOT ITS DISPLAY NAME.
+        #
+        # Until 23 September 2026 this key was `h["name"] + "|" + person`, so a
+        # household's identity WAS the string shown on the page. Renaming one
+        # meant rewriting every member's back-reference in lockstep, and a
+        # publishing script that appended instead of looking up produced a
+        # second household nothing could see — four of them in one night. The
+        # name is still parsed for the couple, because "X & Y" is the archive's
+        # statement of who the parents are; it is data. It is no longer the key.
+        key = h["id"] + "|" + m["person"]
         if key not in hh_people:
             hh_people[key] = {
                 "name": strip_ticks(m["person"]), "household": h["name"],
+                "hid": h["id"],
                 "role": m["role"], "events": [],
             }
             hh_order.append(key)
@@ -607,7 +617,11 @@ for k in hh_order:
     p = hh_people[k]
     people[p["slug"]] = {
         "slug": p["slug"], "name": p["name"], "surname": surname_of(p["name"]),
-        "household": p["household"], "role": p["role"], "events": p["events"],
+        # `household` is the LABEL, and person slugs are derived from it, so it
+        # must not move. `hid` is the IDENTITY — a consumer that needs to know
+        # which household this is should follow the id, not the string.
+        "household": p["household"], "hid": p.get("hid"),
+        "role": p["role"], "events": p["events"],
         "sources": ["register"], "living": False,
         "parents": [], "spouses": [], "children": [], "siblings": [],
     }

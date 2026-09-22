@@ -66,6 +66,7 @@
 "name": "Vincenzo Abatiello",
 "surname": "ABATIELLO",
 "household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
 "role": "married in",
 "events": [
 {
@@ -117,6 +118,7 @@
 "name": "Agata Annecchino",
 "surname": "ANNECCHINO",
 "household": "Carmine Annecchino & Maria Carfora",
+"hid": "carmine-annecchino-maria-carfora",
 "role": "child",
 "events": [
 {
@@ -218,6 +220,7 @@
 "name": "Alfonso Annecchino",
 "surname": "ANNECCHINO",
 "household": "Carmine Annecchino & Maria Carfora",
+"hid": "carmine-annecchino-maria-carfora",
 "role": "child",
 "events": [
 {
@@ -312,6 +315,7 @@
 "name": "Alfonso Carmine Annecchino",
 "surname": "ANNECCHINO",
 "household": "Carmine Annecchino & Maria Carfora",
+"hid": "carmine-annecchino-maria-carfora",
 "role": "child",
 "events": [
 {
@@ -406,6 +410,7 @@
 "name": "Antonio Annecchino (of Domenico, d. 1826)",
 "surname": "ANNECCHINO",
 "household": "Carmine Annecchino & Rosa Ceglia",
+"hid": "carmine-annecchino-rosa-ceglia",
 "role": "grandfather",
 "events": [
 {
@@ -430,6 +435,7 @@
 "name": "Antonio Annecchino (of Domenico, d. 1826)",
 "surname": "ANNECCHINO",
 "household": "Antonio Annecchino & Maria Guida",
+"hid": "antonio-annecchino-maria-guida",
 "role": "father",
 "events": [
 {
@@ -476,6 +482,7 @@
 "name": "Carmine Annecchino",
 "surname": "ANNECCHINO",
 "household": "Carmine Annecchino & Maria Carfora",
+"hid": "carmine-annecchino-maria-carfora",
 "role": "father",
 "events": [
 {
@@ -566,6 +573,7 @@
 "name": "Carmine Annecchino (of Antonio, d. 1838)",
 "surname": "ANNECCHINO",
 "household": "Sabatino Annecchino & Mariantonia Carfora",
+"hid": "sabatino-annecchino-mariantonia-carfora",
 "role": "grandfather",
 "events": [
 {
@@ -601,6 +609,7 @@
 "name": "Carmine Annecchino (of Antonio, d. 1838)",
 "surname": "ANNECCHINO",
 "household": "Carmine Annecchino & Rosa Ceglia",
+"hid": "carmine-annecchino-rosa-ceglia",
 "role": "father",
 "events": [
 {
@@ -655,6 +664,7 @@
 "name": "Carmine Annecchino (of Antonio, d. 1838)",
 "surname": "ANNECCHINO",
 "household": "Antonio Annecchino & Maria Guida",
+"hid": "antonio-annecchino-maria-guida",
 "role": "child",
 "events": [
 {
@@ -787,6 +797,7 @@
 "name": "Carmine Maria Annecchino",
 "surname": "ANNECCHINO",
 "household": "Sabatino Annecchino & Mariantonia Carfora",
+"hid": "sabatino-annecchino-mariantonia-carfora",
 "role": "child",
 "events": [
 {
@@ -873,6 +884,7 @@
 "name": "Domenico Annecchino (of Forchia, dead by 1826)",
 "surname": "ANNECCHINO",
 "household": "Antonio Annecchino & Maria Guida",
+"hid": "antonio-annecchino-maria-guida",
 "role": "grandfather",
 "events": [
 {
@@ -897,6 +909,7 @@
 "name": "Filomena Annecchino",
 "surname": "ANNECCHINO",
 "household": "Carmine Annecchino & Maria Carfora",
+"hid": "carmine-annecchino-maria-carfora",
 "role": "child",
 "events": [
 {
@@ -1060,6 +1073,7 @@
 "name": "Giacinta Annecchino",
 "surname": "ANNECCHINO",
 "household": "Carmine Annecchino & Maria Carfora",
+"hid": "carmine-annecchino-maria-carfora",
 "role": "child",
 "events": [
 {
@@ -1154,6 +1168,7 @@
 "name": "Giacomo Annecchino",
 "surname": "ANNECCHINO",
 "household": "Carmine Annecchino & Maria Carfora",
+"hid": "carmine-annecchino-maria-carfora",
 "role": "child",
 "events": [
 {
@@ -1255,6 +1270,7 @@
 "name": "Giacomo Annecchino (of Carmine, b. c.1817)",
 "surname": "ANNECCHINO",
 "household": "Carmine Annecchino & Rosa Ceglia",
+"hid": "carmine-annecchino-rosa-ceglia",
 "role": "child",
 "events": [
 {
@@ -1366,6 +1382,7 @@
 "name": "Lucia Annecchino",
 "surname": "ANNECCHINO",
 "household": "Carmine Annecchino & Maria Carfora",
+"hid": "carmine-annecchino-maria-carfora",
 "role": "child",
 "events": [
 {
@@ -1460,6 +1477,7 @@
 "name": "Maria Filomena Annecchino",
 "surname": "ANNECCHINO",
 "household": "Sabatino Annecchino & Mariantonia Carfora",
+"hid": "sabatino-annecchino-mariantonia-carfora",
 "role": "child",
 "events": [
 {
@@ -1593,6 +1611,7 @@
 "name": "Maria Lucia Annecchino",
 "surname": "ANNECCHINO",
 "household": "Sabatino Annecchino & Mariantonia Carfora",
+"hid": "sabatino-annecchino-mariantonia-carfora",
 "role": "child",
 "events": [
 {
@@ -1679,6 +1698,7 @@
 "name": "Maria Pascalina Annecchino",
 "surname": "ANNECCHINO",
 "household": "Sabatino Annecchino & Mariantonia Carfora",
+"hid": "sabatino-annecchino-mariantonia-carfora",
 "role": "child",
 "events": [
 {
@@ -1765,6 +1785,7 @@
 "name": "Maria Rosa Annecchino",
 "surname": "ANNECCHINO",
 "household": "Sabatino Annecchino & Mariantonia Carfora",
+"hid": "sabatino-annecchino-mariantonia-carfora",
 "role": "child",
 "events": [
 {
@@ -1851,6 +1872,7 @@
 "name": "Michele Maria Annecchino",
 "surname": "ANNECCHINO",
 "household": "Sabatino Annecchino & Mariantonia Carfora",
+"hid": "sabatino-annecchino-mariantonia-carfora",
 "role": "child",
 "events": [
 {
@@ -1937,6 +1959,7 @@
 "name": "Sabatino Annecchino",
 "surname": "ANNECCHINO",
 "household": "Sabatino Annecchino & Mariantonia Carfora",
+"hid": "sabatino-annecchino-mariantonia-carfora",
 "role": "father",
 "events": [
 {
@@ -2083,6 +2106,7 @@
 "name": "Angelo Anzevino",
 "surname": "ANZEVINO",
 "household": "Francesco Arricale & Pasqua Falco",
+"hid": "francesco-arricale-pasqua-falco",
 "role": "witness",
 "events": [
 {
@@ -2150,6 +2174,7 @@
 "name": "Angelo Raffaele Arricale",
 "surname": "ARRICALE",
 "household": "Antonio Arricale & Angela Rivetta",
+"hid": "antonio-arricale-angela-rivetta",
 "role": "child",
 "events": [
 {
@@ -2216,6 +2241,7 @@
 "name": "Antonio Arricale",
 "surname": "ARRICALE",
 "household": "Antonio Arricale & Angela Rivetta",
+"hid": "antonio-arricale-angela-rivetta",
 "role": "father",
 "events": [
 {
@@ -2282,6 +2308,7 @@
 "name": "Francesco Arricale",
 "surname": "ARRICALE",
 "household": "Francesco Arricale & Crescenza Crisci",
+"hid": "francesco-arricale-crescenza-crisci",
 "role": "father",
 "events": [
 {
@@ -2324,6 +2351,7 @@
 "name": "Francesco Arricale",
 "surname": "ARRICALE",
 "household": "Francesco Arricale & Pasqua Falco",
+"hid": "francesco-arricale-pasqua-falco",
 "role": "father",
 "events": [
 {
@@ -2366,6 +2394,7 @@
 "name": "Giovanna Arricale",
 "surname": "ARRICALE",
 "household": "Carmine Antonio Falco & Giovanna Arricale",
+"hid": "carmine-antonio-falco-giovanna-arricale",
 "role": "mother",
 "events": [
 {
@@ -2460,6 +2489,7 @@
 "name": "Joannes Arricale",
 "surname": "ARRICALE",
 "household": "Antonio Arricale & Angela Rivetta",
+"hid": "antonio-arricale-angela-rivetta",
 "role": "child",
 "events": [
 {
@@ -2526,6 +2556,7 @@
 "name": "Joseph Arricale",
 "surname": "ARRICALE",
 "household": "Antonio Arricale & Angela Rivetta",
+"hid": "antonio-arricale-angela-rivetta",
 "role": "child",
 "events": [
 {
@@ -2592,6 +2623,7 @@
 "name": "Marcellus Arricale",
 "surname": "ARRICALE",
 "household": "Antonio Arricale & Angela Rivetta",
+"hid": "antonio-arricale-angela-rivetta",
 "role": "child",
 "events": [
 {
@@ -2658,6 +2690,7 @@
 "name": "Raffaele / Angela Arricale",
 "surname": "ARRICALE",
 "household": "Francesco Arricale & Crescenza Crisci",
+"hid": "francesco-arricale-crescenza-crisci",
 "role": "child",
 "events": [
 {
@@ -2771,6 +2804,7 @@
 "name": "Marcello Arrigale",
 "surname": "ARRIGALE",
 "household": "Michelangelo Falco & Mariantonia Vigliotta",
+"hid": "michelangelo-falco-mariantonia-vigliotta",
 "role": "witness",
 "events": [
 {
@@ -2795,6 +2829,7 @@
 "name": "Giovanna Bega",
 "surname": "BEGA",
 "household": "Don Giuseppe Rivetti (the elder) & Giovanna Bega",
+"hid": "don-giuseppe-rivetti-the-elder-giovanna-bega",
 "role": "mother",
 "events": [
 {
@@ -3757,6 +3792,7 @@
 "name": "Maria Carmela Buono",
 "surname": "BUONO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "married in",
 "events": [
 {
@@ -3995,6 +4031,7 @@
 "name": "Maria Carbona",
 "surname": "CARBONA",
 "household": "Antonio Carfora & Giuseppa Perreca (strada Camellara)",
+"hid": "antonio-carfora-giuseppa-perreca-strada-camellara",
 "role": "grandmother",
 "events": [
 {
@@ -4019,6 +4056,7 @@
 "name": "Camilla Carbone",
 "surname": "CARBONE",
 "household": "Pietro Falco & [Carbone] (Airola)",
+"hid": "pietro-falco-carbone-airola",
 "role": "mother",
 "events": [
 {
@@ -4052,6 +4090,7 @@
 "name": "Francesco Carbone",
 "surname": "CARBONE",
 "household": "Prisco Carbone & Antonia Crisci",
+"hid": "prisco-carbone-antonia-crisci",
 "role": "child",
 "events": [
 {
@@ -4102,6 +4141,7 @@
 "name": "Maria Carbone",
 "surname": "CARBONE",
 "household": "Pasquale Carfora & Maria Carbone",
+"hid": "pasquale-carfora-maria-carbone",
 "role": "mother",
 "events": [
 {
@@ -4177,6 +4217,7 @@
 "name": "Prisco Carbone (d. before 1811)",
 "surname": "CARBONE",
 "household": "Prisco Carbone & Antonia Crisci",
+"hid": "prisco-carbone-antonia-crisci",
 "role": "father",
 "events": [
 {
@@ -4227,6 +4268,7 @@
 "name": "Angela Carfora",
 "surname": "CARFORA",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
+"hid": "giuseppe-falco-gelsomina-vigliotta",
 "role": "married in",
 "events": [
 {
@@ -4251,6 +4293,7 @@
 "name": "Angelo Carfora",
 "surname": "CARFORA",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
+"hid": "giuseppe-falco-gelsomina-vigliotta",
 "role": "married in",
 "events": [
 {
@@ -4275,6 +4318,7 @@
 "name": "Angelo Carfora (b. 1815)",
 "surname": "CARFORA",
 "household": "Matteo Carfora & Angela Zimbardo",
+"hid": "matteo-carfora-angela-zimbardo",
 "role": "child",
 "events": [
 {
@@ -4329,6 +4373,7 @@
 "name": "Aniello Carfora",
 "surname": "CARFORA",
 "household": "Aniello Carfora & Orsola Porrino (strada Camellara)",
+"hid": "aniello-carfora-orsola-porrino-strada-camellara",
 "role": "father",
 "events": [
 {
@@ -4371,6 +4416,7 @@
 "name": "Anna Carfora",
 "surname": "CARFORA",
 "household": "Saverio Rivieri & Anna Carfora",
+"hid": "saverio-rivieri-anna-carfora",
 "role": "mother",
 "events": [
 {
@@ -4428,6 +4474,7 @@
 "name": "Antonia Carfora (1752-1828)",
 "surname": "CARFORA",
 "household": "Stefano Carfora & Teresa di Guida",
+"hid": "stefano-carfora-teresa-di-guida",
 "role": "child",
 "events": [
 {
@@ -4482,6 +4529,7 @@
 "name": "Antonio Carfora",
 "surname": "CARFORA",
 "household": "Antonio Carfora & Giuseppa Perreca (strada Camellara)",
+"hid": "antonio-carfora-giuseppa-perreca-strada-camellara",
 "role": "father",
 "events": [
 {
@@ -4566,6 +4614,7 @@
 "name": "Domenico Carfora",
 "surname": "CARFORA",
 "household": "Matteo Carfora & Angela Zimbardo",
+"hid": "matteo-carfora-angela-zimbardo",
 "role": "child",
 "events": [
 {
@@ -4620,6 +4669,7 @@
 "name": "Francesco Carfora (of Matteo, m. 1828)",
 "surname": "CARFORA",
 "household": "Sabatino Annecchino & Mariantonia Carfora",
+"hid": "sabatino-annecchino-mariantonia-carfora",
 "role": "grandfather",
 "events": [
 {
@@ -4644,6 +4694,7 @@
 "name": "Francesco Carfora (of Matteo, m. 1828)",
 "surname": "CARFORA",
 "household": "Francesco Carfora & Pasqua Morgillo",
+"hid": "francesco-carfora-pasqua-morgillo",
 "role": "father",
 "events": [
 {
@@ -4686,6 +4737,7 @@
 "name": "Giuseppe Carfora (d. before 1813)",
 "surname": "CARFORA",
 "household": "Giuseppe Carfora & Domenica Simino",
+"hid": "giuseppe-carfora-domenica-simino",
 "role": "father",
 "events": [
 {
@@ -4728,6 +4780,7 @@
 "name": "Maggio Carfora",
 "surname": "CARFORA",
 "household": "Pietro Carfora & Catarina Morgillo",
+"hid": "pietro-carfora-catarina-morgillo",
 "role": "child",
 "events": [
 {
@@ -4773,6 +4826,7 @@
 "name": "Margarita Carfora",
 "surname": "CARFORA",
 "household": "Pasquale Carfora & Maria Carbone",
+"hid": "pasquale-carfora-maria-carbone",
 "role": "child",
 "events": [
 {
@@ -4818,6 +4872,7 @@
 "name": "Maria Carfora",
 "surname": "CARFORA",
 "household": "Carmine Annecchino & Maria Carfora",
+"hid": "carmine-annecchino-maria-carfora",
 "role": "mother",
 "events": [
 {
@@ -4908,6 +4963,7 @@
 "name": "Maria Carfora (1742-1810)",
 "surname": "CARFORA",
 "household": "Nicola Crisci & Maria Carfora",
+"hid": "nicola-crisci-maria-carfora",
 "role": "mother",
 "events": [
 {
@@ -4954,6 +5010,7 @@
 "name": "Maria Carfora (1732-1810)",
 "surname": "CARFORA",
 "household": "Tomaso di Nigro & Maria Carfora",
+"hid": "tomaso-di-nigro-maria-carfora",
 "role": "mother",
 "events": [
 {
@@ -4991,6 +5048,7 @@
 "name": "Maria Rosa Carfora",
 "surname": "CARFORA",
 "household": "Antonio Carfora & Giuseppa Perreca (strada Camellara)",
+"hid": "antonio-carfora-giuseppa-perreca-strada-camellara",
 "role": "child",
 "events": [
 {
@@ -5036,6 +5094,7 @@
 "name": "Mariantonia Carfora",
 "surname": "CARFORA",
 "household": "Sabatino Annecchino & Mariantonia Carfora",
+"hid": "sabatino-annecchino-mariantonia-carfora",
 "role": "mother",
 "events": [
 {
@@ -5165,6 +5224,7 @@
 "name": "Matteo Carfora",
 "surname": "CARFORA",
 "household": "Francesco Carfora & Pasqua Morgillo",
+"hid": "francesco-carfora-pasqua-morgillo",
 "role": "grandfather",
 "events": [
 {
@@ -5189,6 +5249,7 @@
 "name": "Matteo Carfora",
 "surname": "CARFORA",
 "household": "Matteo Carfora & Angela Zimbardo",
+"hid": "matteo-carfora-angela-zimbardo",
 "role": "father",
 "events": [
 {
@@ -5246,6 +5307,7 @@
 "name": "Pasquale Carfora",
 "surname": "CARFORA",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
+"hid": "giuseppe-falco-gelsomina-vigliotta",
 "role": "married in",
 "events": [
 {
@@ -5270,6 +5332,7 @@
 "name": "Pasquale Carfora",
 "surname": "CARFORA",
 "household": "Antonio Carfora & Giuseppa Perreca (strada Camellara)",
+"hid": "antonio-carfora-giuseppa-perreca-strada-camellara",
 "role": "grandfather",
 "events": [
 {
@@ -5294,6 +5357,7 @@
 "name": "Pasquale Carfora",
 "surname": "CARFORA",
 "household": "Pasquale Carfora & Maria Carbone",
+"hid": "pasquale-carfora-maria-carbone",
 "role": "father",
 "events": [
 {
@@ -5336,6 +5400,7 @@
 "name": "Pietro Carfora",
 "surname": "CARFORA",
 "household": "Pietro Carfora & Catarina Morgillo",
+"hid": "pietro-carfora-catarina-morgillo",
 "role": "father",
 "events": [
 {
@@ -5406,6 +5471,7 @@
 "name": "Raffaele Carfora",
 "surname": "CARFORA",
 "household": "Raffaele Carfora & Francesca Cioffi",
+"hid": "raffaele-carfora-francesca-cioffi",
 "role": "father",
 "events": [
 {
@@ -5448,6 +5514,7 @@
 "name": "Stefano Carfora (d. before 1810)",
 "surname": "CARFORA",
 "household": "Stefano Carfora & Teresa di Guida",
+"hid": "stefano-carfora-teresa-di-guida",
 "role": "father",
 "events": [
 {
@@ -5490,6 +5557,7 @@
 "name": "Marta le Casaro",
 "surname": "CASARO",
 "household": "Gennaro Morgillo & Maria Felicia Sansone",
+"hid": "gennaro-morgillo-maria-felicia-sansone",
 "role": "grandmother",
 "events": [
 {
@@ -5544,6 +5612,7 @@
 "name": "Antonio Ceglia",
 "surname": "CEGLIA",
 "household": "Carmine Annecchino & Rosa Ceglia",
+"hid": "carmine-annecchino-rosa-ceglia",
 "role": "grandfather",
 "events": [
 {
@@ -5568,6 +5637,7 @@
 "name": "Rosa Ceglia",
 "surname": "CEGLIA",
 "household": "Sabatino Annecchino & Mariantonia Carfora",
+"hid": "sabatino-annecchino-mariantonia-carfora",
 "role": "grandmother",
 "events": [
 {
@@ -5603,6 +5673,7 @@
 "name": "Rosa Ceglia",
 "surname": "CEGLIA",
 "household": "Carmine Annecchino & Rosa Ceglia",
+"hid": "carmine-annecchino-rosa-ceglia",
 "role": "mother",
 "events": [
 {
@@ -5657,6 +5728,7 @@
 "name": "Alessandro Cimmino",
 "surname": "CIMMINO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "married in",
 "events": [
 {
@@ -5681,6 +5753,7 @@
 "name": "Annamaria Cimmino",
 "surname": "CIMMINO",
 "household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+"hid": "angelo-falco-annamaria-cimmino-corso-caudino",
 "role": "mother",
 "events": [
 {
@@ -5723,6 +5796,7 @@
 "name": "Carolina Cimmino",
 "surname": "CIMMINO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "married in",
 "events": [
 {
@@ -5775,6 +5849,7 @@
 "name": "Donna Faustina Cimmino",
 "surname": "CIMMINO",
 "household": "Stefano Scarpati & Faustina Cimmino",
+"hid": "stefano-scarpati-faustina-cimmino",
 "role": "mother",
 "events": [
 {
@@ -5870,6 +5945,7 @@
 "name": "Andrea Cioffi",
 "surname": "CIOFFI",
 "household": "Andrea Cioffi & Orsola Zimbardo (possidenti, strada Porta di Sopra)",
+"hid": "andrea-cioffi-orsola-zimbardo-possidenti-strada-porta-di-sop",
 "role": "father",
 "events": [
 {
@@ -5928,6 +6004,7 @@
 "name": "Antonia Cioffi",
 "surname": "CIOFFI",
 "household": "Francesco Cioffi & Maria Falco",
+"hid": "francesco-cioffi-maria-falco",
 "role": "child",
 "events": [
 {
@@ -6046,6 +6123,7 @@
 "name": "Antonia Cioffi (the second)",
 "surname": "CIOFFI",
 "household": "Francesco Cioffi & Maria Falco",
+"hid": "francesco-cioffi-maria-falco",
 "role": "child",
 "events": [
 {
@@ -6164,6 +6242,7 @@
 "name": "Antonia Cioffi (the first)",
 "surname": "CIOFFI",
 "household": "Francesco Cioffi & Maria Falco",
+"hid": "francesco-cioffi-maria-falco",
 "role": "child",
 "events": [
 {
@@ -6282,6 +6361,7 @@
 "name": "Antonio Cioffi",
 "surname": "CIOFFI",
 "household": "Raffaele Cioffi & Francesca Falco",
+"hid": "raffaele-cioffi-francesca-falco",
 "role": "child",
 "events": [
 {
@@ -6344,6 +6424,7 @@
 "name": "Celia Cioffi",
 "surname": "CIOFFI",
 "household": "Andrea Cioffi & Orsola Zimbardo (possidenti, strada Porta di Sopra)",
+"hid": "andrea-cioffi-orsola-zimbardo-possidenti-strada-porta-di-sop",
 "role": "child",
 "events": [
 {
@@ -6398,6 +6479,7 @@
 "name": "Clemente Cioffi",
 "surname": "CIOFFI",
 "household": "Francesco Cioffi & Maria Falco",
+"hid": "francesco-cioffi-maria-falco",
 "role": "child",
 "events": [
 {
@@ -6516,6 +6598,7 @@
 "name": "Don Giuseppe Cioffi",
 "surname": "CIOFFI",
 "household": "Andrea Cioffi & Orsola Zimbardo (possidenti, strada Porta di Sopra)",
+"hid": "andrea-cioffi-orsola-zimbardo-possidenti-strada-porta-di-sop",
 "role": "child",
 "events": [
 {
@@ -6570,6 +6653,7 @@
 "name": "Francesca Cioffi",
 "surname": "CIOFFI",
 "household": "Raffaele Carfora & Francesca Cioffi",
+"hid": "raffaele-carfora-francesca-cioffi",
 "role": "mother",
 "events": [
 {
@@ -6612,6 +6696,7 @@
 "name": "Francesco Cioffi",
 "surname": "CIOFFI",
 "household": "Francesco Cioffi & Maria Falco",
+"hid": "francesco-cioffi-maria-falco",
 "role": "father",
 "events": [
 {
@@ -6772,6 +6857,7 @@
 "name": "Giovanni Cioffi",
 "surname": "CIOFFI",
 "household": "Giovanni Cioffi & Maria Porrino",
+"hid": "giovanni-cioffi-maria-porrino",
 "role": "father",
 "events": [
 {
@@ -6814,6 +6900,7 @@
 "name": "Giovanni Cioffi",
 "surname": "CIOFFI",
 "household": "Michele Falco & Antonia Vigliotta",
+"hid": "michele-falco-antonia-vigliotta",
 "role": "declarant",
 "events": [
 {
@@ -6838,6 +6925,7 @@
 "name": "Giuseppa Cioffi",
 "surname": "CIOFFI",
 "household": "Francesco Cioffi & Maria Falco",
+"hid": "francesco-cioffi-maria-falco",
 "role": "child",
 "events": [
 {
@@ -6965,6 +7053,7 @@
 "name": "Giuseppe Cioffi (the first)",
 "surname": "CIOFFI",
 "household": "Francesco Cioffi & Maria Falco",
+"hid": "francesco-cioffi-maria-falco",
 "role": "child",
 "events": [
 {
@@ -7092,6 +7181,7 @@
 "name": "Giuseppe Cioffi (the third)",
 "surname": "CIOFFI",
 "household": "Francesco Cioffi & Maria Falco",
+"hid": "francesco-cioffi-maria-falco",
 "role": "child",
 "events": [
 {
@@ -7219,6 +7309,7 @@
 "name": "Giuseppe Cioffi (the second)",
 "surname": "CIOFFI",
 "household": "Francesco Cioffi & Maria Falco",
+"hid": "francesco-cioffi-maria-falco",
 "role": "child",
 "events": [
 {
@@ -7346,6 +7437,7 @@
 "name": "Giuseppe Cioffi (of Maria Porrino)",
 "surname": "CIOFFI",
 "household": "Francesco Cioffi & Maria Falco",
+"hid": "francesco-cioffi-maria-falco",
 "role": "grandfather",
 "events": [
 {
@@ -7370,6 +7462,7 @@
 "name": "Luigi Cioffi",
 "surname": "CIOFFI",
 "household": "Raffaele Cioffi & Francesca Falco",
+"hid": "raffaele-cioffi-francesca-falco",
 "role": "child",
 "events": [
 {
@@ -7432,6 +7525,7 @@
 "name": "Maddalena Cioffi",
 "surname": "CIOFFI",
 "household": "Raffaele Cioffi & Francesca Falco",
+"hid": "raffaele-cioffi-francesca-falco",
 "role": "child",
 "events": [
 {
@@ -7494,6 +7588,7 @@
 "name": "Mariantonia Cioffi (the first)",
 "surname": "CIOFFI",
 "household": "Francesco Cioffi & Maria Falco",
+"hid": "francesco-cioffi-maria-falco",
 "role": "child",
 "events": [
 {
@@ -7621,6 +7716,7 @@
 "name": "Mariantonia Cioffi (the second)",
 "surname": "CIOFFI",
 "household": "Francesco Cioffi & Maria Falco",
+"hid": "francesco-cioffi-maria-falco",
 "role": "child",
 "events": [
 {
@@ -7739,6 +7835,7 @@
 "name": "Marta Cioffi",
 "surname": "CIOFFI",
 "household": "Giovanni Cioffi & Maria Porrino",
+"hid": "giovanni-cioffi-maria-porrino",
 "role": "child",
 "events": [
 {
@@ -7784,6 +7881,7 @@
 "name": "Nicola Cioffi",
 "surname": "CIOFFI",
 "household": "Francesco Cioffi & Maria Falco",
+"hid": "francesco-cioffi-maria-falco",
 "role": "witness",
 "events": [
 {
@@ -7817,6 +7915,7 @@
 "name": "Raffaele Cioffi",
 "surname": "CIOFFI",
 "household": "Raffaele Cioffi & Francesca Falco",
+"hid": "raffaele-cioffi-francesca-falco",
 "role": "father",
 "events": [
 {
@@ -7924,6 +8023,7 @@
 "name": "Anna Maria Teresa Cospi",
 "surname": "COSPI",
 "household": "Domenico Cospi & Margarita Falco",
+"hid": "domenico-cospi-margarita-falco",
 "role": "child",
 "events": [
 {
@@ -7986,6 +8086,7 @@
 "name": "Domenico Cospi",
 "surname": "COSPI",
 "household": "Domenico Cospi & Margarita Falco",
+"hid": "domenico-cospi-margarita-falco",
 "role": "father",
 "events": [
 {
@@ -8044,6 +8145,7 @@
 "name": "Andrea Cossi",
 "surname": "COSSI",
 "household": "Francesco Cioffi & Maria Falco",
+"hid": "francesco-cioffi-maria-falco",
 "role": "witness",
 "events": [
 {
@@ -8068,6 +8170,7 @@
 "name": "Brigida Cossi",
 "surname": "COSSI",
 "household": "Sebastiano Falco & Colomba Montefusco",
+"hid": "sebastiano-falco-colomba-montefusco",
 "role": "mother of the bride",
 "events": [
 {
@@ -8092,6 +8195,7 @@
 "name": "Francesco Cossi",
 "surname": "COSSI",
 "household": "Francesco Cossi & Teresa Morgillo (strada Cossi)",
+"hid": "francesco-cossi-teresa-morgillo-strada-cossi",
 "role": "father",
 "events": [
 {
@@ -8125,6 +8229,7 @@
 "name": "Maria Carmela Cossi",
 "surname": "COSSI",
 "household": "Domenico Cospi & Margarita Falco",
+"hid": "domenico-cospi-margarita-falco",
 "role": "child",
 "events": [
 {
@@ -8238,6 +8343,7 @@
 "name": "Alessandra Crisci",
 "surname": "CRISCI",
 "household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
 "role": "mother",
 "events": [
 {
@@ -8388,6 +8494,7 @@
 "name": "Alessandro Crisci",
 "surname": "CRISCI",
 "household": "Crescenzo Crisci & Angela Quotolo",
+"hid": "crescenzo-crisci-angela-quotolo",
 "role": "grandfather",
 "events": [
 {
@@ -8416,6 +8523,7 @@
 "name": "Andreana Crisci",
 "surname": "CRISCI",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "mother",
 "events": [
 {
@@ -8679,6 +8787,7 @@
 "name": "Andreana Crisci",
 "surname": "CRISCI",
 "household": "Gennaro Espositelli & Andreana Crisci",
+"hid": "gennaro-espositelli-andreana-crisci",
 "role": "mother",
 "events": [
 {
@@ -8784,6 +8893,7 @@
 "name": "Angela Rosa Crisci",
 "surname": "CRISCI",
 "household": "Arcangelo Crisci & Sara Ruggiero",
+"hid": "arcangelo-crisci-sara-ruggiero",
 "role": "child",
 "events": [
 {
@@ -8842,6 +8952,7 @@
 "name": "Angelo Crisci",
 "surname": "CRISCI",
 "household": "Domenico Cospi & Margarita Falco",
+"hid": "domenico-cospi-margarita-falco",
 "role": "child",
 "events": [
 {
@@ -8900,6 +9011,7 @@
 "name": "Aniello Crisci",
 "surname": "CRISCI",
 "household": "Gioacchino Crisci & Francesca Falco",
+"hid": "gioacchino-crisci-francesca-falco",
 "role": "child",
 "events": [
 {
@@ -8970,6 +9082,7 @@
 "name": "Aniello Crisci",
 "surname": "CRISCI",
 "household": "Aniello Crisci & Giovanna Falco",
+"hid": "aniello-crisci-giovanna-falco",
 "role": "father",
 "events": [
 {
@@ -9003,6 +9116,7 @@
 "name": "Aniello Crisci",
 "surname": "CRISCI",
 "household": "Crescenzo Crisci & Angela Quotolo",
+"hid": "crescenzo-crisci-angela-quotolo",
 "role": "child",
 "events": [
 {
@@ -9146,6 +9260,7 @@
 "name": "Anna Crisci",
 "surname": "CRISCI",
 "household": "Marcello di Guida & Anna Crisci",
+"hid": "marcello-di-guida-anna-crisci",
 "role": "mother",
 "events": [
 {
@@ -9233,6 +9348,7 @@
 "name": "Antonia Crisci (1736-1811)",
 "surname": "CRISCI",
 "household": "Prisco Carbone & Antonia Crisci",
+"hid": "prisco-carbone-antonia-crisci",
 "role": "mother",
 "events": [
 {
@@ -9319,6 +9435,7 @@
 "name": "Arcangelo Crisci",
 "surname": "CRISCI",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "father of the bride",
 "events": [
 {
@@ -9350,6 +9467,7 @@
 "name": "Arcangelo Crisci",
 "surname": "CRISCI",
 "household": "Arcangelo Crisci & Anna Falco",
+"hid": "arcangelo-crisci-anna-falco",
 "role": "father",
 "events": [
 {
@@ -9413,6 +9531,7 @@
 "name": "Arcangelo Crisci",
 "surname": "CRISCI",
 "household": "Arcangelo Crisci & Sara Ruggiero",
+"hid": "arcangelo-crisci-sara-ruggiero",
 "role": "father",
 "events": [
 {
@@ -9529,6 +9648,7 @@
 "name": "Camilla Crisci",
 "surname": "CRISCI",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
+"hid": "giuseppe-falco-gelsomina-vigliotta",
 "role": "married in",
 "events": [
 {
@@ -9553,6 +9673,7 @@
 "name": "Carmela Crisci",
 "surname": "CRISCI",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "sister of the bride",
 "events": [
 {
@@ -9590,6 +9711,7 @@
 "name": "Carmina Crisci",
 "surname": "CRISCI",
 "household": "Crescenzo Crisci & Angela Quotolo",
+"hid": "crescenzo-crisci-angela-quotolo",
 "role": "child",
 "events": [
 {
@@ -9918,6 +10040,7 @@
 "name": "Crescenza Crisci",
 "surname": "CRISCI",
 "household": "Francesco Arricale & Crescenza Crisci",
+"hid": "francesco-arricale-crescenza-crisci",
 "role": "mother",
 "events": [],
 "sources": [
@@ -9952,6 +10075,7 @@
 "name": "Crescenzo Crisci",
 "surname": "CRISCI",
 "household": "Crescenzo Crisci & Angela Quotolo",
+"hid": "crescenzo-crisci-angela-quotolo",
 "role": "father",
 "events": [
 {
@@ -10037,6 +10161,7 @@
 "name": "Domenica Crisci",
 "surname": "CRISCI",
 "household": "Francesco Carfora & Pasqua Morgillo",
+"hid": "francesco-carfora-pasqua-morgillo",
 "role": "grandmother",
 "events": [
 {
@@ -10072,6 +10197,7 @@
 "name": "Domenico Crisci",
 "surname": "CRISCI",
 "household": "Crescenzo Crisci & Angela Quotolo",
+"hid": "crescenzo-crisci-angela-quotolo",
 "role": "declarant",
 "events": [
 {
@@ -10096,6 +10222,7 @@
 "name": "Domenico Crisci",
 "surname": "CRISCI",
 "household": "Domenico Crisci & Margarita Falco",
+"hid": "domenico-crisci-margarita-falco",
 "role": "father",
 "events": [
 {
@@ -10246,6 +10373,7 @@
 "name": "Fortunato Crisci",
 "surname": "CRISCI",
 "household": "Arcangelo Crisci & Anna Falco",
+"hid": "arcangelo-crisci-anna-falco",
 "role": "child",
 "events": [
 {
@@ -10300,6 +10428,7 @@
 "name": "Francesca Crisci",
 "surname": "CRISCI",
 "household": "Matteo Falco & Francesca Crisci",
+"hid": "matteo-falco-francesca-crisci",
 "role": "mother",
 "events": [
 {
@@ -10478,6 +10607,7 @@
 "name": "Francesco Crisci",
 "surname": "CRISCI",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "witness",
 "events": [
 {
@@ -10502,6 +10632,7 @@
 "name": "Francesco Crisci (1765-1809)",
 "surname": "CRISCI",
 "household": "Gioacchino Crisci & Francesca Falco",
+"hid": "gioacchino-crisci-francesca-falco",
 "role": "child",
 "events": [
 {
@@ -10572,6 +10703,7 @@
 "name": "Gabriele Crisci",
 "surname": "CRISCI",
 "household": "Crescenzo Crisci & Angela Quotolo",
+"hid": "crescenzo-crisci-angela-quotolo",
 "role": "declarant",
 "events": [
 {
@@ -10596,6 +10728,7 @@
 "name": "Gioacchino Crisci",
 "surname": "CRISCI",
 "household": "Gioacchino Crisci & Francesca Falco",
+"hid": "gioacchino-crisci-francesca-falco",
 "role": "father",
 "events": [
 {
@@ -10662,6 +10795,7 @@
 "name": "Gioacchino Crisci (d. before 1809)",
 "surname": "CRISCI",
 "household": "Gioacchino Crisci & Francesca Falco",
+"hid": "gioacchino-crisci-francesca-falco",
 "role": "father",
 "events": [
 {
@@ -10763,6 +10897,7 @@
 "name": "Girolamo Crisci",
 "surname": "CRISCI",
 "household": "Nicola Crisci & Maria Carfora",
+"hid": "nicola-crisci-maria-carfora",
 "role": "child",
 "events": [
 {
@@ -10916,6 +11051,7 @@
 "name": "Lorenzo Antonio Crisci",
 "surname": "CRISCI",
 "household": "Arcangelo Crisci & Sara Ruggiero",
+"hid": "arcangelo-crisci-sara-ruggiero",
 "role": "child",
 "events": [
 {
@@ -10978,6 +11114,7 @@
 "name": "Lorenzo Crisci",
 "surname": "CRISCI",
 "household": "Arcangelo Crisci & Sara Ruggiero",
+"hid": "arcangelo-crisci-sara-ruggiero",
 "role": "child",
 "events": [
 {
@@ -11036,6 +11173,7 @@
 "name": "Luca Crisci",
 "surname": "CRISCI",
 "household": "Gioacchino Crisci & Francesca Falco",
+"hid": "gioacchino-crisci-francesca-falco",
 "role": "child",
 "events": [
 {
@@ -11179,6 +11317,7 @@
 "name": "Marcello Crisci",
 "surname": "CRISCI",
 "household": "Marcello Crisci & Maria Rosa Mauro",
+"hid": "marcello-crisci-maria-rosa-mauro",
 "role": "father",
 "events": [
 {
@@ -11221,6 +11360,7 @@
 "name": "Maria Crisci",
 "surname": "CRISCI",
 "household": "Marcello Crisci & Maria Rosa Mauro",
+"hid": "marcello-crisci-maria-rosa-mauro",
 "role": "child",
 "events": [
 {
@@ -11266,6 +11406,7 @@
 "name": "Maria Crisci",
 "surname": "CRISCI",
 "household": "Crescenzo Crisci & Angela Quotolo",
+"hid": "crescenzo-crisci-angela-quotolo",
 "role": "child",
 "events": [
 {
@@ -11418,6 +11559,7 @@
 "name": "Nicola Crisci (d. before 1810)",
 "surname": "CRISCI",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "great-grandfather of the children",
 "events": [
 {
@@ -11442,6 +11584,7 @@
 "name": "Nicola Crisci",
 "surname": "CRISCI",
 "household": "Arcangelo Crisci & Sara Ruggiero",
+"hid": "arcangelo-crisci-sara-ruggiero",
 "role": "grandfather",
 "events": [
 {
@@ -11466,6 +11609,7 @@
 "name": "Nicola Crisci",
 "surname": "CRISCI",
 "household": "Nicola Crisci & Maria Carfora",
+"hid": "nicola-crisci-maria-carfora",
 "role": "father",
 "events": [
 {
@@ -11635,6 +11779,7 @@
 "name": "Pasqualina Crisci",
 "surname": "CRISCI",
 "household": "Aniello Crisci & Giovanna Falco",
+"hid": "aniello-crisci-giovanna-falco",
 "role": "child",
 "events": [
 {
@@ -11672,6 +11817,7 @@
 "name": "Raffaele Crisci",
 "surname": "CRISCI",
 "household": "Raffaele Crisci & Francesca Falco",
+"hid": "raffaele-crisci-francesca-falco",
 "role": "father",
 "events": [
 {
@@ -11723,6 +11869,7 @@
 "name": "Sante Crisci",
 "surname": "CRISCI",
 "household": "Crescenzo Crisci & Angela Quotolo",
+"hid": "crescenzo-crisci-angela-quotolo",
 "role": "child",
 "events": [
 {
@@ -11862,6 +12009,7 @@
 "name": "Vincenzo Crisci (1809-1810)",
 "surname": "CRISCI",
 "household": "Domenico Crisci & Margarita Falco",
+"hid": "domenico-crisci-margarita-falco",
 "role": "child",
 "events": [
 {
@@ -11933,6 +12081,7 @@
 "name": "Vincenzo Crisci (the second, d. 1812)",
 "surname": "CRISCI",
 "household": "Domenico Crisci & Margarita Falco",
+"hid": "domenico-crisci-margarita-falco",
 "role": "child",
 "events": [
 {
@@ -11995,6 +12144,7 @@
 "name": "Vincenzo Crisci (d. before 1814)",
 "surname": "CRISCI",
 "household": "Domenico Crisci & Margarita Falco",
+"hid": "domenico-crisci-margarita-falco",
 "role": "grandfather",
 "events": [
 {
@@ -12019,6 +12169,7 @@
 "name": "[daughter] Crisci (b. 20 Mar 1810)",
 "surname": "CRISCI",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "sister of the bride",
 "events": [
 {
@@ -12047,6 +12198,7 @@
 "name": "Clemente Crispi",
 "surname": "CRISPI",
 "household": "Crescenzo Falco & Angela Maria Morgillo",
+"hid": "crescenzo-falco-angela-maria-morgillo",
 "role": "witness",
 "events": [
 {
@@ -12071,6 +12223,7 @@
 "name": "Giovanna d'Ambrogio",
 "surname": "D'AMBROGIO",
 "household": "Michele Falco & Maria Giovanna Ambrogio",
+"hid": "michele-falco-maria-giovanna-ambrogio",
 "role": "mother",
 "events": [
 {
@@ -12420,6 +12573,7 @@
 "name": "Vincenzo Carfora — Fra Angelo d'Arienzo",
 "surname": "D'ARIENZO",
 "household": "Giuseppe Carfora & Domenica Simino",
+"hid": "giuseppe-carfora-domenica-simino",
 "role": "child",
 "events": [
 {
@@ -12500,6 +12654,7 @@
 "name": "Elisabetta d'Onofrio",
 "surname": "D'ONOFRIO",
 "household": "Antonio Annecchino & Maria Guida",
+"hid": "antonio-annecchino-maria-guida",
 "role": "grandmother",
 "events": [
 {
@@ -12524,6 +12679,7 @@
 "name": "Donna Raffaela de Falco",
 "surname": "DE FALCO",
 "household": "Don Francesco Falco (gentry branch)",
+"hid": "don-francesco-falco-gentry-branch",
 "role": "daughter",
 "events": [
 {
@@ -12858,6 +13014,7 @@
 "name": "Teresa della M⟨———⟩ (d. before 1815)",
 "surname": "DELLA M⟨———⟩",
 "household": "Francesco Quotolo & Maria Falco",
+"hid": "francesco-quotolo-maria-falco",
 "role": "grandmother",
 "events": [
 {
@@ -12882,6 +13039,7 @@
 "name": "Rosa della Selva",
 "surname": "DELLA SELVA",
 "household": "Michelangelo Falco & Mariantonia Vigliotta",
+"hid": "michelangelo-falco-mariantonia-vigliotta",
 "role": "midwife",
 "events": [
 {
@@ -12932,6 +13090,7 @@
 "name": "Agostino Antonio di Guida",
 "surname": "DI GUIDA",
 "household": "Giuseppe di Guida & Maddalena Rivetta",
+"hid": "giuseppe-di-guida-maddalena-rivetta",
 "role": "child",
 "events": [
 {
@@ -13030,6 +13189,7 @@
 "name": "Agostino di Guida",
 "surname": "DI GUIDA",
 "household": "Angelo Andrea di Guida & Teresa Vigliotta",
+"hid": "angelo-andrea-di-guida-teresa-vigliotta",
 "role": "child",
 "events": [
 {
@@ -13084,6 +13244,7 @@
 "name": "Agostino di Guida",
 "surname": "DI GUIDA",
 "household": "Giuseppe di Guida & Maddalena Rivetta",
+"hid": "giuseppe-di-guida-maddalena-rivetta",
 "role": "child",
 "events": [
 {
@@ -13182,6 +13343,7 @@
 "name": "Agostino di Guida",
 "surname": "DI GUIDA",
 "household": "Marcello di Guida & Anna Crisci",
+"hid": "marcello-di-guida-anna-crisci",
 "role": "child",
 "events": [
 {
@@ -13227,6 +13389,7 @@
 "name": "Angelandrea di Guida",
 "surname": "DI GUIDA",
 "household": "Angelandrea di Guida & Teresa Vigliotta",
+"hid": "angelandrea-di-guida-teresa-vigliotta",
 "role": "father",
 "events": [
 {
@@ -13277,6 +13440,7 @@
 "name": "Angelo Andrea di Guida",
 "surname": "DI GUIDA",
 "household": "Giuseppe di Guida & Michedalena Rivetti",
+"hid": "giuseppe-di-guida-michedalena-rivetti",
 "role": "child",
 "events": [
 {
@@ -13322,6 +13486,7 @@
 "name": "Angelo Andrea di Guida",
 "surname": "DI GUIDA",
 "household": "Angelo Andrea di Guida & Teresa Vigliotta",
+"hid": "angelo-andrea-di-guida-teresa-vigliotta",
 "role": "father",
 "events": [
 {
@@ -13383,6 +13548,7 @@
 "name": "Angelo Andrea di Guida",
 "surname": "DI GUIDA",
 "household": "Giuseppe di Guida & Maddalena Rivetta",
+"hid": "giuseppe-di-guida-maddalena-rivetta",
 "role": "child",
 "events": [
 {
@@ -13481,6 +13647,7 @@
 "name": "Antonia di Guida",
 "surname": "DI GUIDA",
 "household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
 "role": "mother",
 "events": [
 {
@@ -13773,6 +13940,7 @@
 "name": "Clemente di Guida",
 "surname": "DI GUIDA",
 "household": "Giuseppe di Guida & Maddalena Rivetta",
+"hid": "giuseppe-di-guida-maddalena-rivetta",
 "role": "declarant",
 "events": [
 {
@@ -13797,6 +13965,7 @@
 "name": "Domenico di Guida (d. 1814)",
 "surname": "DI GUIDA",
 "household": "Angelandrea di Guida & Teresa Vigliotta",
+"hid": "angelandrea-di-guida-teresa-vigliotta",
 "role": "child",
 "events": [
 {
@@ -13851,6 +14020,7 @@
 "name": "Domenico di Guida (the second, b. 1815)",
 "surname": "DI GUIDA",
 "household": "Angelandrea di Guida & Teresa Vigliotta",
+"hid": "angelandrea-di-guida-teresa-vigliotta",
 "role": "child",
 "events": [
 {
@@ -13905,6 +14075,7 @@
 "name": "Francesco di Guida (d. before 1810)",
 "surname": "DI GUIDA",
 "household": "Francesco di Guida & Catarina [surname unread]",
+"hid": "francesco-di-guida-catarina-surname-unread",
 "role": "father",
 "events": [
 {
@@ -13938,6 +14109,7 @@
 "name": "Giuseppe di Guida",
 "surname": "DI GUIDA",
 "household": "Giuseppe di Guida & Michedalena Rivetti",
+"hid": "giuseppe-di-guida-michedalena-rivetti",
 "role": "father",
 "events": [
 {
@@ -13980,6 +14152,7 @@
 "name": "Giuseppe di Guida",
 "surname": "DI GUIDA",
 "household": "Giuseppe di Guida (strada Maddalena)",
+"hid": "giuseppe-di-guida-strada-maddalena",
 "role": "father",
 "events": [
 {
@@ -14004,6 +14177,7 @@
 "name": "Giuseppe di Guida",
 "surname": "DI GUIDA",
 "household": "Giuseppe di Guida & Maddalena Rivetta",
+"hid": "giuseppe-di-guida-maddalena-rivetta",
 "role": "father",
 "events": [
 {
@@ -14102,6 +14276,7 @@
 "name": "Giuseppe di Guida",
 "surname": "DI GUIDA",
 "household": "Marcello di Guida & Anna Crisci",
+"hid": "marcello-di-guida-anna-crisci",
 "role": "grandfather",
 "events": [
 {
@@ -14126,6 +14301,7 @@
 "name": "Maddalena di Guida",
 "surname": "DI GUIDA",
 "household": "Angelo Andrea di Guida & Teresa Vigliotta",
+"hid": "angelo-andrea-di-guida-teresa-vigliotta",
 "role": "child",
 "events": [
 {
@@ -14187,6 +14363,7 @@
 "name": "Marcellina di Guida",
 "surname": "DI GUIDA",
 "household": "Giuseppe di Guida & Maddalena Rivetta",
+"hid": "giuseppe-di-guida-maddalena-rivetta",
 "role": "child",
 "events": [
 {
@@ -14285,6 +14462,7 @@
 "name": "Marcello di Guida",
 "surname": "DI GUIDA",
 "household": "Marcello di Guida & Anna Crisci",
+"hid": "marcello-di-guida-anna-crisci",
 "role": "father",
 "events": [
 {
@@ -14331,6 +14509,7 @@
 "name": "Margarita di Guida",
 "surname": "DI GUIDA",
 "household": "Giacinto Marra & Margarita di Guida",
+"hid": "giacinto-marra-margarita-di-guida",
 "role": "mother",
 "events": [
 {
@@ -14377,6 +14556,7 @@
 "name": "Margherita di Guida",
 "surname": "DI GUIDA",
 "household": "Giuseppe di Guida & Maddalena Rivetta",
+"hid": "giuseppe-di-guida-maddalena-rivetta",
 "role": "child",
 "events": [
 {
@@ -14489,6 +14669,7 @@
 "name": "Pasquale di Guida",
 "surname": "DI GUIDA",
 "household": "Giuseppe di Guida & Maddalena Rivetta",
+"hid": "giuseppe-di-guida-maddalena-rivetta",
 "role": "child",
 "events": [
 {
@@ -14605,6 +14786,7 @@
 "name": "Teresa di Guida",
 "surname": "DI GUIDA",
 "household": "Stefano Carfora & Teresa di Guida",
+"hid": "stefano-carfora-teresa-di-guida",
 "role": "mother",
 "events": [
 {
@@ -14658,6 +14840,7 @@
 "name": "Vittoria di Guida",
 "surname": "DI GUIDA",
 "household": "Francesco Quotolo & Vittoria di Guida",
+"hid": "francesco-quotolo-vittoria-di-guida",
 "role": "mother",
 "events": [
 {
@@ -14700,6 +14883,7 @@
 "name": "Vittoria di Guida",
 "surname": "DI GUIDA",
 "household": "Giuseppe di Guida & Maddalena Rivetta",
+"hid": "giuseppe-di-guida-maddalena-rivetta",
 "role": "child",
 "events": [
 {
@@ -14798,6 +14982,7 @@
 "name": "Vittoria di Guida",
 "surname": "DI GUIDA",
 "household": "Filippo di Guida & Margherita Rivetta",
+"hid": "filippo-di-guida-margherita-rivetta",
 "role": "child",
 "events": [
 {
@@ -14965,6 +15150,7 @@
 "name": "Claudia di Lucia",
 "surname": "DI LUCIA",
 "household": "Gioacchino Crisci & Francesca Falco",
+"hid": "gioacchino-crisci-francesca-falco",
 "role": "married in",
 "events": [
 {
@@ -15036,6 +15222,7 @@
 "name": "Filomena di Lucia",
 "surname": "DI LUCIA",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "married in",
 "events": [
 {
@@ -15060,6 +15247,7 @@
 "name": "Tomaso di Nigro (d. before 1810)",
 "surname": "DI NIGRO",
 "household": "Tomaso di Nigro & Maria Carfora",
+"hid": "tomaso-di-nigro-maria-carfora",
 "role": "father",
 "events": [
 {
@@ -15093,6 +15281,7 @@
 "name": "Anna di Ruggio",
 "surname": "DI RUGGIO",
 "household": "Nicola Rivetti (contadino) & Anna di Ruggio",
+"hid": "nicola-rivetti-contadino-anna-di-ruggio",
 "role": "mother",
 "events": [
 {
@@ -15143,6 +15332,7 @@
 "name": "Anna di Ruggio",
 "surname": "DI RUGGIO",
 "household": "Nicola Rivetti & Anna di Ruggio",
+"hid": "nicola-rivetti-anna-di-ruggio",
 "role": "mother",
 "events": [
 {
@@ -15185,6 +15375,7 @@
 "name": "Alessandra Diglio",
 "surname": "DIGLIO",
 "household": "Alfonso Diglio & Maria Falco",
+"hid": "alfonso-diglio-maria-falco",
 "role": "child",
 "events": [
 {
@@ -15255,6 +15446,7 @@
 "name": "Alfonso Diglio",
 "surname": "DIGLIO",
 "household": "Alfonso Diglio & Maria Falco",
+"hid": "alfonso-diglio-maria-falco",
 "role": "husband",
 "events": [
 {
@@ -15356,6 +15548,7 @@
 "name": "Alfonso Diglio",
 "surname": "DIGLIO",
 "household": "Alfonso Diglio & Anna Maria Crisci",
+"hid": "alfonso-diglio-anna-maria-crisci",
 "role": "father",
 "events": [
 {
@@ -15380,6 +15573,7 @@
 "name": "Andrea Diglio",
 "surname": "DIGLIO",
 "household": "Francesco Cioffi & Maria Falco",
+"hid": "francesco-cioffi-maria-falco",
 "role": "witness",
 "events": [
 {
@@ -15404,6 +15598,7 @@
 "name": "Cesare Diglio",
 "surname": "DIGLIO",
 "household": "Alfonso Diglio & Maria Falco",
+"hid": "alfonso-diglio-maria-falco",
 "role": "witness",
 "events": [
 {
@@ -15428,6 +15623,7 @@
 "name": "Clementina Diglio",
 "surname": "DIGLIO",
 "household": "Alfonso Diglio & Maria Falco",
+"hid": "alfonso-diglio-maria-falco",
 "role": "child",
 "events": [
 {
@@ -15498,6 +15694,7 @@
 "name": "Giuseppe Diglio",
 "surname": "DIGLIO",
 "household": "Crescenzo Falco & Angela Maria Morgillo",
+"hid": "crescenzo-falco-angela-maria-morgillo",
 "role": "witness",
 "events": [
 {
@@ -15522,6 +15719,7 @@
 "name": "Salvatore Diglio",
 "surname": "DIGLIO",
 "household": "Alfonso Diglio & Maria Falco",
+"hid": "alfonso-diglio-maria-falco",
 "role": "child",
 "events": [
 {
@@ -15592,6 +15790,7 @@
 "name": "Salvatore Diglio (the first)",
 "surname": "DIGLIO",
 "household": "Alfonso Diglio & Maria Falco",
+"hid": "alfonso-diglio-maria-falco",
 "role": "child",
 "events": [
 {
@@ -15850,6 +16049,7 @@
 "name": "Angela Espositella",
 "surname": "ESPOSITELLA",
 "household": "Paolo Rivetti & Angela Espositella",
+"hid": "paolo-rivetti-angela-espositella",
 "role": "mother",
 "events": [
 {
@@ -15883,6 +16083,7 @@
 "name": "Nicola Espositella",
 "surname": "ESPOSITELLA",
 "household": "Michelangelo Falco & Mariantonia Vigliotta",
+"hid": "michelangelo-falco-mariantonia-vigliotta",
 "role": "witness",
 "events": [
 {
@@ -15907,6 +16108,7 @@
 "name": "Gennaro Espositelli",
 "surname": "ESPOSITELLI",
 "household": "Gennaro Espositelli & Andreana Crisci",
+"hid": "gennaro-espositelli-andreana-crisci",
 "role": "father",
 "events": [
 {
@@ -15949,6 +16151,7 @@
 "name": "Raffaele Espositelli",
 "surname": "ESPOSITELLI",
 "household": "Gennaro Espositelli & Andreana Crisci",
+"hid": "gennaro-espositelli-andreana-crisci",
 "role": "child",
 "events": [
 {
@@ -16037,6 +16240,7 @@
 "name": "Andrea Falco",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "child",
 "events": [
 {
@@ -16503,6 +16707,7 @@
 "name": "Angela Falco",
 "surname": "FALCO",
 "household": "Matteo Falco & Francesca Crisci",
+"hid": "matteo-falco-francesca-crisci",
 "role": "child",
 "events": [
 {
@@ -16613,6 +16818,7 @@
 "name": "Angela Falco",
 "surname": "FALCO",
 "household": "Crescenzo Rivetti & Angela Falco",
+"hid": "crescenzo-rivetti-angela-falco",
 "role": "mother",
 "events": [
 {
@@ -16698,6 +16904,7 @@
 "name": "Angela Falco",
 "surname": "FALCO",
 "household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
 "role": "child",
 "events": [
 {
@@ -16748,6 +16955,7 @@
 "name": "Angela Falco (of Saverio Rivieri)",
 "surname": "FALCO",
 "household": "Saverio Rivieri & Angela Falco",
+"hid": "saverio-rivieri-angela-falco",
 "role": "mother",
 "events": [
 {
@@ -16954,6 +17162,7 @@
 "name": "Angela Maria Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
 "role": "child",
 "events": [
 {
@@ -17150,6 +17359,7 @@
 "name": "Angela Rosa Falco",
 "surname": "FALCO",
 "household": "Carmine Antonio Falco & Giovanna Arricale",
+"hid": "carmine-antonio-falco-giovanna-arricale",
 "role": "child",
 "events": [
 {
@@ -17468,6 +17678,7 @@
 "name": "Angelandrea Falco",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "child",
 "events": [
 {
@@ -17632,6 +17843,7 @@
 "name": "Angelantonio Falco",
 "surname": "FALCO",
 "household": "Domenico Falco & Mariantonia Frasca",
+"hid": "domenico-falco-mariantonia-frasca",
 "role": "child",
 "events": [
 {
@@ -17677,6 +17889,7 @@
 "name": "Angelo Falco",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "child",
 "events": [
 {
@@ -17823,6 +18036,7 @@
 "name": "Angelo Falco (of Corso Caudino)",
 "surname": "FALCO",
 "household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+"hid": "angelo-falco-annamaria-cimmino-corso-caudino",
 "role": "father",
 "events": [
 {
@@ -17865,6 +18079,7 @@
 "name": "Angelo Falco (1747-1811)",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Rosa Sposito",
+"hid": "giuseppe-falco-rosa-sposito",
 "role": "child",
 "events": [
 {
@@ -18502,6 +18717,7 @@
 "name": "Anna Falco",
 "surname": "FALCO",
 "household": "Pasquale Falco & Chiara Rivetti",
+"hid": "pasquale-falco-chiara-rivetti",
 "role": "child",
 "events": [
 {
@@ -18634,6 +18850,7 @@
 "name": "Anna Falco",
 "surname": "FALCO",
 "household": "Michelangelo Falco & Mariantonia Vigliotta",
+"hid": "michelangelo-falco-mariantonia-vigliotta",
 "role": "child",
 "events": [
 {
@@ -18720,6 +18937,7 @@
 "name": "Anna Falco",
 "surname": "FALCO",
 "household": "Arcangelo Crisci & Anna Falco",
+"hid": "arcangelo-crisci-anna-falco",
 "role": "mother",
 "events": [
 {
@@ -18773,6 +18991,7 @@
 "name": "Anna Falco",
 "surname": "FALCO",
 "household": "Michelangelo Falco & Raffaela Falco",
+"hid": "michelangelo-falco-raffaela-falco",
 "role": "child",
 "events": [
 {
@@ -19526,6 +19745,7 @@
 "name": "Antonio Falco",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "child",
 "events": [
 {
@@ -19683,6 +19903,7 @@
 "name": "Antonio Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
+"hid": "giuseppe-falco-gelsomina-vigliotta",
 "role": "child",
 "events": [
 {
@@ -20691,6 +20912,7 @@
 "name": "Carmela Falco",
 "surname": "FALCO",
 "household": "Michelangelo Falco & Mariantonia Vigliotta",
+"hid": "michelangelo-falco-mariantonia-vigliotta",
 "role": "child",
 "events": [
 {
@@ -21063,6 +21285,7 @@
 "name": "Carmina Falco",
 "surname": "FALCO",
 "household": "Francesco Falco & Raffaela Falco",
+"hid": "francesco-falco-raffaela-falco",
 "role": "child",
 "events": [
 {
@@ -21197,6 +21420,7 @@
 "name": "Carmine Antonio (Carminantonio) Falco",
 "surname": "FALCO",
 "household": "Carmine Antonio Falco & Giovanna Arricale",
+"hid": "carmine-antonio-falco-giovanna-arricale",
 "role": "father",
 "events": [
 {
@@ -22380,6 +22604,7 @@
 "name": "Clemente Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
 "role": "child",
 "events": [
 {
@@ -22555,6 +22780,7 @@
 "name": "Clemente Falco",
 "surname": "FALCO",
 "household": "Francesco Falco & Raffaela Falco",
+"hid": "francesco-falco-raffaela-falco",
 "role": "child",
 "events": [
 {
@@ -23184,6 +23410,7 @@
 "name": "Crescenzo Falco",
 "surname": "FALCO",
 "household": "Crescenzo Falco & Angela Maria Morgillo",
+"hid": "crescenzo-falco-angela-maria-morgillo",
 "role": "father",
 "events": [
 {
@@ -23745,6 +23972,7 @@
 "name": "Domenica Falco",
 "surname": "FALCO",
 "household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
 "role": "child",
 "events": [
 {
@@ -24146,6 +24374,7 @@
 "name": "Domenico Clemente Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
+"hid": "giuseppe-falco-gelsomina-vigliotta",
 "role": "child",
 "events": [
 {
@@ -24278,6 +24507,7 @@
 "name": "Domenico Falco",
 "surname": "FALCO",
 "household": "Francesco Falco & Antonia Loffreda",
+"hid": "francesco-falco-antonia-loffreda",
 "role": "child",
 "events": [
 {
@@ -24328,6 +24558,7 @@
 "name": "Domenico Falco",
 "surname": "FALCO",
 "household": "Pasquale Falco & Chiara Rivetti",
+"hid": "pasquale-falco-chiara-rivetti",
 "role": "child",
 "events": [
 {
@@ -24442,6 +24673,7 @@
 "name": "Domenico Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
+"hid": "giuseppe-falco-gelsomina-vigliotta",
 "role": "child",
 "events": [
 {
@@ -24569,6 +24801,7 @@
 "name": "Domenico Falco (m. 1844, Santa Maria a Vico)",
 "surname": "FALCO",
 "household": "Domenico Falco & Mariantonia Frasca",
+"hid": "domenico-falco-mariantonia-frasca",
 "role": "father",
 "events": [
 {
@@ -25015,6 +25248,7 @@
 "name": "Francesca Falco",
 "surname": "FALCO",
 "household": "Gioacchino Crisci & Francesca Falco",
+"hid": "gioacchino-crisci-francesca-falco",
 "role": "mother",
 "events": [
 {
@@ -25099,6 +25333,7 @@
 "name": "Francesca Falco",
 "surname": "FALCO",
 "household": "Raffaele Cioffi & Francesca Falco",
+"hid": "raffaele-cioffi-francesca-falco",
 "role": "mother",
 "events": [
 {
@@ -25234,6 +25469,7 @@
 "name": "Francesca Maria Lucia Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
 "role": "child",
 "events": [
 {
@@ -25396,6 +25632,7 @@
 "name": "Francescantonio Falco",
 "surname": "FALCO",
 "household": "Pasquale Falco & Chiara Rivetti",
+"hid": "pasquale-falco-chiara-rivetti",
 "role": "child",
 "events": [
 {
@@ -25510,6 +25747,7 @@
 "name": "Francescantonio Falco",
 "surname": "FALCO",
 "household": "Francesco Falco & Raffaela Falco",
+"hid": "francesco-falco-raffaela-falco",
 "role": "father",
 "events": [
 {
@@ -25767,6 +26005,7 @@
 "name": "Francesco Falco",
 "surname": "FALCO",
 "household": "Francesco Falco & Antonia Loffreda",
+"hid": "francesco-falco-antonia-loffreda",
 "role": "father",
 "events": [
 {
@@ -25816,6 +26055,7 @@
 "name": "Francesco Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
+"hid": "giuseppe-falco-gelsomina-vigliotta",
 "role": "grandfather",
 "events": [
 {
@@ -25840,6 +26080,7 @@
 "name": "Francesco Falco",
 "surname": "FALCO",
 "household": "Pietro Falco & [Carbone] (Airola)",
+"hid": "pietro-falco-carbone-airola",
 "role": "child",
 "events": [
 {
@@ -25880,6 +26121,7 @@
 "name": "Francesco Falco (of Raffaele, m. 1854)",
 "surname": "FALCO",
 "household": "Raffaele Falco & Chiara Rivetti",
+"hid": "raffaele-falco-chiara-rivetti",
 "role": "child",
 "events": [
 {
@@ -26293,6 +26535,7 @@
 "name": "Francisca Anna Angela Falco",
 "surname": "FALCO",
 "household": "Matteo Falco & Francesca Crisci",
+"hid": "matteo-falco-francesca-crisci",
 "role": "child",
 "events": [
 {
@@ -26439,6 +26682,7 @@
 "name": "Gennaro Falco",
 "surname": "FALCO",
 "household": "Crescenzo Falco & Angela Maria Morgillo",
+"hid": "crescenzo-falco-angela-maria-morgillo",
 "role": "child",
 "events": [
 {
@@ -26869,6 +27113,7 @@
 "name": "Gioacchino Falco",
 "surname": "FALCO",
 "household": "Gioacchino Falco (strada Camellara)",
+"hid": "gioacchino-falco-strada-camellara",
 "role": "father",
 "events": [
 {
@@ -26964,6 +27209,7 @@
 "name": "Giovanna Falco",
 "surname": "FALCO",
 "household": "Pasquale Falco & Chiara Rivetti",
+"hid": "pasquale-falco-chiara-rivetti",
 "role": "child",
 "events": [
 {
@@ -27082,6 +27328,7 @@
 "name": "Giovanna Falco (b. 1810)",
 "surname": "FALCO",
 "household": "Pasquale Falco & Chiara Rivetti",
+"hid": "pasquale-falco-chiara-rivetti",
 "role": "child",
 "events": [
 {
@@ -27200,6 +27447,7 @@
 "name": "Giovanna Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
 "role": "child",
 "events": [
 {
@@ -27362,6 +27610,7 @@
 "name": "Giovanna Falco",
 "surname": "FALCO",
 "household": "Michele Falco & Vincenza Sposito",
+"hid": "michele-falco-vincenza-sposito",
 "role": "child",
 "events": [
 {
@@ -27407,6 +27656,7 @@
 "name": "Giovanna Falco",
 "surname": "FALCO",
 "household": "Antonio Lettieri & Giovanna Falco",
+"hid": "antonio-lettieri-giovanna-falco",
 "role": "mother",
 "events": [
 {
@@ -27786,6 +28036,7 @@
 "name": "Giovanni Falco (the elder)",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
 "role": "child",
 "events": [
 {
@@ -27966,6 +28217,7 @@
 "name": "Giovanni Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
 "role": "child",
 "events": [
 {
@@ -28487,6 +28739,7 @@
 "name": "Giuseppe Falco",
 "surname": "FALCO",
 "household": "Francesco Falco & Antonia Loffreda",
+"hid": "francesco-falco-antonia-loffreda",
 "role": "child",
 "events": [
 {
@@ -28537,6 +28790,7 @@
 "name": "Giuseppe Falco",
 "surname": "FALCO",
 "household": "Matteo Falco & Francesca Crisci",
+"hid": "matteo-falco-francesca-crisci",
 "role": "child",
 "events": [
 {
@@ -28643,6 +28897,7 @@
 "name": "Giuseppe Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
 "role": "father",
 "events": [
 {
@@ -28966,6 +29221,7 @@
 "name": "Giuseppe Falco",
 "surname": "FALCO",
 "household": "Crescenzo Falco & Angela Maria Morgillo",
+"hid": "crescenzo-falco-angela-maria-morgillo",
 "role": "child",
 "events": [
 {
@@ -29035,6 +29291,7 @@
 "name": "Giuseppe Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
+"hid": "giuseppe-falco-gelsomina-vigliotta",
 "role": "father",
 "events": [
 {
@@ -29170,6 +29427,7 @@
 "name": "Giuseppe Falco (of Gelsomina Vigliotta)",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
+"hid": "giuseppe-falco-gelsomina-vigliotta",
 "role": "father",
 "events": [
 {
@@ -29284,6 +29542,7 @@
 "name": "Giuseppe Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Rosa Sossi",
+"hid": "giuseppe-falco-rosa-sossi",
 "role": "father",
 "events": [
 {
@@ -29326,6 +29585,7 @@
 "name": "Giuseppe Falco",
 "surname": "FALCO",
 "household": "Carmine Antonio Falco & Giovanna Arricale",
+"hid": "carmine-antonio-falco-giovanna-arricale",
 "role": "child",
 "events": [
 {
@@ -29396,6 +29656,7 @@
 "name": "Giuseppe Falco (d. before 1811)",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Rosa Sposito",
+"hid": "giuseppe-falco-rosa-sposito",
 "role": "father",
 "events": [
 {
@@ -30136,6 +30397,7 @@
 "name": "Giuseppe Nunzio Falco",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "child",
 "events": [
 {
@@ -30570,6 +30832,7 @@
 "name": "Joachim (Gioacchino) Falco",
 "surname": "FALCO",
 "household": "Matteo Falco & Francesca Crisci",
+"hid": "matteo-falco-francesca-crisci",
 "role": "child",
 "events": [
 {
@@ -30676,6 +30939,7 @@
 "name": "Lucretia Falco",
 "surname": "FALCO",
 "household": "Tommaso Falco & Marta Mara",
+"hid": "tommaso-falco-marta-mara",
 "role": "child",
 "events": [
 {
@@ -30700,6 +30964,7 @@
 "name": "Luigi (Aloysius) Falco",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "child",
 "events": [
 {
@@ -30924,6 +31189,7 @@
 "name": "Luigi Falco",
 "surname": "FALCO",
 "household": "Sebastiano Falco & Colomba Montefusco",
+"hid": "sebastiano-falco-colomba-montefusco",
 "role": "child",
 "events": [
 {
@@ -31320,6 +31586,7 @@
 "name": "Maddalena Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
 "role": "child",
 "events": [
 {
@@ -31502,6 +31769,7 @@
 "name": "Maddalena Falco (the second)",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
 "role": "child",
 "events": [
 {
@@ -31675,6 +31943,7 @@
 "name": "Maddalena Falco",
 "surname": "FALCO",
 "household": "Bartolomeo Marrone & Maddalena Falco",
+"hid": "bartolomeo-marrone-maddalena-falco",
 "role": "mother",
 "events": [
 {
@@ -31743,6 +32012,7 @@
 "name": "Margarita Falco",
 "surname": "FALCO",
 "household": "Francesco Falco & Mariangela Iuliuccio",
+"hid": "francesco-falco-mariangela-iuliuccio",
 "role": "child",
 "events": [
 {
@@ -31778,6 +32048,7 @@
 "name": "Margarita Falco",
 "surname": "FALCO",
 "household": "Domenico Cospi & Margarita Falco",
+"hid": "domenico-cospi-margarita-falco",
 "role": "mother",
 "events": [
 {
@@ -31836,6 +32107,7 @@
 "name": "Margarita Falco",
 "surname": "FALCO",
 "household": "Domenico Crisci & Margarita Falco",
+"hid": "domenico-crisci-margarita-falco",
 "role": "mother",
 "events": [
 {
@@ -31894,6 +32166,7 @@
 "name": "Maria Angela Falco",
 "surname": "FALCO",
 "household": "Pasquale Falco & Chiara Rivetti",
+"hid": "pasquale-falco-chiara-rivetti",
 "role": "child",
 "events": [
 {
@@ -32096,6 +32369,7 @@
 "name": "Maria Antonia Falco (b. 1815)",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
 "role": "child",
 "events": [
 {
@@ -32262,6 +32536,7 @@
 "name": "Maria Carmela Falco",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "child",
 "events": [
 {
@@ -32419,6 +32694,7 @@
 "name": "Maria Carmela Falco",
 "surname": "FALCO",
 "household": "Francesco Falco & Raffaela Falco",
+"hid": "francesco-falco-raffaela-falco",
 "role": "child",
 "events": [
 {
@@ -32692,6 +32968,7 @@
 "name": "Maria Falco",
 "surname": "FALCO",
 "household": "Pasquale Falco & Chiara Rivetti",
+"hid": "pasquale-falco-chiara-rivetti",
 "role": "child",
 "events": [
 {
@@ -32824,6 +33101,7 @@
 "name": "Maria Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Rosa Sossi",
+"hid": "giuseppe-falco-rosa-sossi",
 "role": "child",
 "events": [
 {
@@ -32869,6 +33147,7 @@
 "name": "Maria Falco",
 "surname": "FALCO",
 "household": "Francesco Quotolo & Maria Falco",
+"hid": "francesco-quotolo-maria-falco",
 "role": "mother",
 "events": [
 {
@@ -32921,6 +33200,7 @@
 "name": "Maria Falco",
 "surname": "FALCO",
 "household": "Nicola Majone & Maria Falco",
+"hid": "nicola-majone-maria-falco",
 "role": "mother",
 "events": [
 {
@@ -32963,6 +33243,7 @@
 "name": "Maria Falco",
 "surname": "FALCO",
 "household": "Francesco Cioffi & Maria Falco",
+"hid": "francesco-cioffi-maria-falco",
 "role": "mother",
 "events": [
 {
@@ -33123,6 +33404,7 @@
 "name": "Maria Falco",
 "surname": "FALCO",
 "household": "Alfonso Diglio & Maria Falco",
+"hid": "alfonso-diglio-maria-falco",
 "role": "wife",
 "events": [
 {
@@ -33214,6 +33496,7 @@
 "name": "Maria Falco",
 "surname": "FALCO",
 "household": "Michele Falco & Maria Giovanna Ambrogio",
+"hid": "michele-falco-maria-giovanna-ambrogio",
 "role": "child",
 "events": [
 {
@@ -33721,6 +34004,7 @@
 "name": "Maria Felice Falco",
 "surname": "FALCO",
 "household": "Crescenzo Falco & Angela Maria Morgillo",
+"hid": "crescenzo-falco-angela-maria-morgillo",
 "role": "child",
 "events": [
 {
@@ -33790,6 +34074,7 @@
 "name": "Maria Giuseppa Falco",
 "surname": "FALCO",
 "household": "Carmine Antonio Falco & Giovanna Arricale",
+"hid": "carmine-antonio-falco-giovanna-arricale",
 "role": "child",
 "events": [
 {
@@ -33901,6 +34186,7 @@
 "name": "Maria Raffaela Falco",
 "surname": "FALCO",
 "household": "Pasquale Falco & Chiara Rivetti",
+"hid": "pasquale-falco-chiara-rivetti",
 "role": "child",
 "events": [
 {
@@ -34015,6 +34301,7 @@
 "name": "Maria Rosa Falco",
 "surname": "FALCO",
 "household": "Michelangelo Falco & Mariantonia Vigliotta",
+"hid": "michelangelo-falco-mariantonia-vigliotta",
 "role": "child",
 "events": [
 {
@@ -34085,6 +34372,7 @@
 "name": "Maria Rosa Falco",
 "surname": "FALCO",
 "household": "Michele Falco & Antonia Vigliotta",
+"hid": "michele-falco-antonia-vigliotta",
 "role": "child",
 "events": [
 {
@@ -34325,6 +34613,7 @@
 "name": "Marino Alessandro Falco",
 "surname": "FALCO",
 "household": "Michelangelo Falco & Maria Migliore",
+"hid": "michelangelo-falco-maria-migliore",
 "role": "child",
 "events": [
 {
@@ -34370,6 +34659,7 @@
 "name": "Matteo Falco",
 "surname": "FALCO",
 "household": "Matteo Falco & Francesca Crisci",
+"hid": "matteo-falco-francesca-crisci",
 "role": "father",
 "events": [
 {
@@ -34498,6 +34788,7 @@
 "name": "Matteo Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
 "role": "child",
 "events": [
 {
@@ -34664,6 +34955,7 @@
 "name": "Matteo Falco (the second)",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
 "role": "child",
 "events": [
 {
@@ -34837,6 +35129,7 @@
 "name": "Matteo Falco",
 "surname": "FALCO",
 "household": "Michelangelo Falco & Mariantonia Vigliotta",
+"hid": "michelangelo-falco-mariantonia-vigliotta",
 "role": "child",
 "events": [
 {
@@ -34903,6 +35196,7 @@
 "name": "Matteo Falco",
 "surname": "FALCO",
 "household": "Matteo Falco (possidente, strada Porta di Sopra)",
+"hid": "matteo-falco-possidente-strada-porta-di-sopra",
 "role": "head",
 "events": [
 {
@@ -34927,6 +35221,7 @@
 "name": "Matteo Falco",
 "surname": "FALCO",
 "household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
 "role": "father",
 "events": [
 {
@@ -34977,6 +35272,7 @@
 "name": "Matteo Falco",
 "surname": "FALCO",
 "household": "Michele Falco & Antonia Vigliotta",
+"hid": "michele-falco-antonia-vigliotta",
 "role": "child",
 "events": [
 {
@@ -35525,6 +35821,7 @@
 "name": "Mattheus (Matteo) Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
 "role": "child",
 "events": [
 {
@@ -35694,6 +35991,7 @@
 "name": "Michelangelo Falco",
 "surname": "FALCO",
 "household": "Pasquale Falco & Chiara Rivetti",
+"hid": "pasquale-falco-chiara-rivetti",
 "role": "child",
 "events": [
 {
@@ -35808,6 +36106,7 @@
 "name": "Michelangelo Falco",
 "surname": "FALCO",
 "household": "Michelangelo Falco & Mariantonia Vigliotta",
+"hid": "michelangelo-falco-mariantonia-vigliotta",
 "role": "father",
 "events": [
 {
@@ -35881,6 +36180,7 @@
 "name": "Michelangelo Falco",
 "surname": "FALCO",
 "household": "Michelangelo Falco & Raffaela Falco",
+"hid": "michelangelo-falco-raffaela-falco",
 "role": "father",
 "events": [
 {
@@ -35923,6 +36223,7 @@
 "name": "Michelangelo Falco",
 "surname": "FALCO",
 "household": "Michelangelo Falco & Maria Migliore",
+"hid": "michelangelo-falco-maria-migliore",
 "role": "father",
 "events": [
 {
@@ -35965,6 +36266,7 @@
 "name": "Michele Falco",
 "surname": "FALCO",
 "household": "Michele Falco & Vincenza Sposito",
+"hid": "michele-falco-vincenza-sposito",
 "role": "father",
 "events": [
 {
@@ -36007,6 +36309,7 @@
 "name": "Michele Falco",
 "surname": "FALCO",
 "household": "Michele Falco & Antonia Vigliotta",
+"hid": "michele-falco-antonia-vigliotta",
 "role": "father",
 "events": [
 {
@@ -36087,6 +36390,7 @@
 "name": "Michele Falco",
 "surname": "FALCO",
 "household": "Raffaele Falco & Chiara Rivetti",
+"hid": "raffaele-falco-chiara-rivetti",
 "role": "child",
 "events": [
 {
@@ -36240,6 +36544,7 @@
 "name": "Nicola Falco (1807-1809)",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
+"hid": "giuseppe-falco-gelsomina-vigliotta",
 "role": "child",
 "events": [
 {
@@ -36358,6 +36663,7 @@
 "name": "Nunziata Falco",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "child",
 "events": [
 {
@@ -36547,6 +36853,7 @@
 "name": "Paschalis (Pasquale) Falco",
 "surname": "FALCO",
 "household": "Matteo Falco & Francesca Crisci",
+"hid": "matteo-falco-francesca-crisci",
 "role": "child",
 "events": [
 {
@@ -36653,6 +36960,7 @@
 "name": "Pasqua Falco",
 "surname": "FALCO",
 "household": "Francesco Arricale & Pasqua Falco",
+"hid": "francesco-arricale-pasqua-falco",
 "role": "mother",
 "events": [
 {
@@ -36960,6 +37268,7 @@
 "name": "Pasquale Falco",
 "surname": "FALCO",
 "household": "Pasquale Falco & Chiara Rivetti",
+"hid": "pasquale-falco-chiara-rivetti",
 "role": "father",
 "events": [
 {
@@ -37204,6 +37513,7 @@
 "name": "Pasquale Falco (of Vincenzo, 1830-1833)",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "child",
 "events": [
 {
@@ -37370,6 +37680,7 @@
 "name": "Pasquale Falco (of Vincenzo, the second, 1834)",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "child",
 "events": [
 {
@@ -37520,6 +37831,7 @@
 "name": "Pasquale Falco",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "father of the groom",
 "events": [
 {
@@ -37551,6 +37863,7 @@
 "name": "Pasquale Falco",
 "surname": "FALCO",
 "household": "Francesco Falco & Raffaela Falco",
+"hid": "francesco-falco-raffaela-falco",
 "role": "child",
 "events": [
 {
@@ -37637,6 +37950,7 @@
 "name": "Pasquale Falco",
 "surname": "FALCO",
 "household": "Pasquale Falco & Maria Amalia Guida",
+"hid": "pasquale-falco-maria-amalia-guida",
 "role": "father",
 "events": [
 {
@@ -37661,6 +37975,7 @@
 "name": "Pasquale Falco (of Michele, d. 1862)",
 "surname": "FALCO",
 "household": "Michele Falco & Antonia Vigliotta",
+"hid": "michele-falco-antonia-vigliotta",
 "role": "child",
 "events": [
 {
@@ -38157,6 +38472,7 @@
 "name": "Pasqualina Falco",
 "surname": "FALCO",
 "household": "Francesco Falco & Raffaela Falco",
+"hid": "francesco-falco-raffaela-falco",
 "role": "child",
 "events": [
 {
@@ -38305,6 +38621,7 @@
 "name": "ROSA MARIA Falco",
 "surname": "FALCO",
 "household": "Matteo Falco & Francesca Crisci",
+"hid": "matteo-falco-francesca-crisci",
 "role": "child",
 "events": [
 {
@@ -38480,6 +38797,7 @@
 "name": "Raffaela Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
 "role": "child",
 "events": [
 {
@@ -38649,6 +38967,7 @@
 "name": "Raffaela Falco",
 "surname": "FALCO",
 "household": "Francesco Falco & Raffaela Falco",
+"hid": "francesco-falco-raffaela-falco",
 "role": "mother",
 "events": [
 {
@@ -38742,6 +39061,7 @@
 "name": "Raffaela Falco",
 "surname": "FALCO",
 "household": "Michelangelo Falco & Raffaela Falco",
+"hid": "michelangelo-falco-raffaela-falco",
 "role": "mother",
 "events": [
 {
@@ -39011,6 +39331,7 @@
 "name": "Raffaele Falco",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "child",
 "events": [
 {
@@ -39184,6 +39505,7 @@
 "name": "Raffaele Falco (of Giuseppe, d. 1811)",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
 "role": "child",
 "events": [
 {
@@ -39359,6 +39681,7 @@
 "name": "Raffaele Falco (of Giuseppe, the second, d. 1815)",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
 "role": "child",
 "events": [
 {
@@ -39534,6 +39857,7 @@
 "name": "Raffaele Falco (of Francescantonio, 1837)",
 "surname": "FALCO",
 "household": "Francesco Falco & Raffaela Falco",
+"hid": "francesco-falco-raffaela-falco",
 "role": "child",
 "events": [
 {
@@ -39620,6 +39944,7 @@
 "name": "Raffaele Falco",
 "surname": "FALCO",
 "household": "Carmine Antonio Falco & Giovanna Arricale",
+"hid": "carmine-antonio-falco-giovanna-arricale",
 "role": "child",
 "events": [
 {
@@ -39690,6 +40015,7 @@
 "name": "Raffaele Falco",
 "surname": "FALCO",
 "household": "Michele Falco & Maria Giovanna Ambrogio",
+"hid": "michele-falco-maria-giovanna-ambrogio",
 "role": "child",
 "events": [
 {
@@ -39736,6 +40062,7 @@
 "name": "Raffaele Falco",
 "surname": "FALCO",
 "household": "Michele Falco & Antonia Vigliotta",
+"hid": "michele-falco-antonia-vigliotta",
 "role": "grandfather",
 "events": [
 {
@@ -39764,6 +40091,7 @@
 "name": "Raffaele Falco",
 "surname": "FALCO",
 "household": "Raffaele Falco & Angela Rosa Morgillo",
+"hid": "raffaele-falco-angela-rosa-morgillo",
 "role": "father",
 "events": [
 {
@@ -39888,6 +40216,7 @@
 "name": "Raffaele Falco (of Chiara Rivetti)",
 "surname": "FALCO",
 "household": "Raffaele Falco & Chiara Rivetti",
+"hid": "raffaele-falco-chiara-rivetti",
 "role": "father",
 "events": [
 {
@@ -40595,6 +40924,7 @@
 "name": "Rosa Falco",
 "surname": "FALCO",
 "household": "Matteo Falco & Francesca Crisci",
+"hid": "matteo-falco-francesca-crisci",
 "role": "child",
 "events": [
 {
@@ -40712,6 +41042,7 @@
 "name": "Rosa Falco",
 "surname": "FALCO",
 "household": "Carlantonio Morgillo & Rosa Falco",
+"hid": "carlantonio-morgillo-rosa-falco",
 "role": "mother",
 "events": [
 {
@@ -40805,6 +41136,7 @@
 "name": "Rosa Falco",
 "surname": "FALCO",
 "household": "Giovan'Antonio Morgillo & Rosa Falco",
+"hid": "giovan-antonio-morgillo-rosa-falco",
 "role": "mother",
 "events": [
 {
@@ -40870,6 +41202,7 @@
 "name": "Rosaria Falco",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
+"hid": "giuseppe-falco-gelsomina-vigliotta",
 "role": "child",
 "events": [
 {
@@ -40988,6 +41321,7 @@
 "name": "Rosaria Falco (the second)",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
+"hid": "giuseppe-falco-gelsomina-vigliotta",
 "role": "child",
 "events": [
 {
@@ -41106,6 +41440,7 @@
 "name": "Salvatore Falco",
 "surname": "FALCO",
 "household": "Michele Falco & Antonia Vigliotta",
+"hid": "michele-falco-antonia-vigliotta",
 "role": "son",
 "events": [
 {
@@ -41176,6 +41511,7 @@
 "name": "Sara Falco",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "child",
 "events": [
 {
@@ -41333,6 +41669,7 @@
 "name": "Stanislao Falco",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "child",
 "events": [
 {
@@ -41567,6 +41904,7 @@
 "name": "Vincenza Falco",
 "surname": "FALCO",
 "household": "Raffaele Falco & Angela Rosa Morgillo",
+"hid": "raffaele-falco-angela-rosa-morgillo",
 "role": "child",
 "events": [
 {
@@ -41746,6 +42084,7 @@
 "name": "Vincenzo Falco",
 "surname": "FALCO",
 "household": "Pasquale Falco & Chiara Rivetti",
+"hid": "pasquale-falco-chiara-rivetti",
 "role": "child",
 "events": [
 {
@@ -41864,6 +42203,7 @@
 "name": "Vincenzo Falco",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "father",
 "events": [
 {
@@ -42192,6 +42532,7 @@
 "name": "Vincenzo Falco (of Angelo, d. 1889)",
 "surname": "FALCO",
 "household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+"hid": "angelo-falco-annamaria-cimmino-corso-caudino",
 "role": "child",
 "events": [
 {
@@ -42417,6 +42758,7 @@
 "name": "[Matteo or Martino] Falco",
 "surname": "FALCO",
 "household": "Francesco Falco & Antonia Loffreda",
+"hid": "francesco-falco-antonia-loffreda",
 "role": "child",
 "events": [
 {
@@ -42467,6 +42809,7 @@
 "name": "[daughter] Falco",
 "surname": "FALCO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "child",
 "events": [
 {
@@ -42613,6 +42956,7 @@
 "name": "[daughter] Falco (b. 5 Feb 1815)",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
+"hid": "giuseppe-falco-gelsomina-vigliotta",
 "role": "child",
 "events": [
 {
@@ -42731,6 +43075,7 @@
 "name": "[daughter] Falco (b. 16 Mar 1810)",
 "surname": "FALCO",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
+"hid": "giuseppe-falco-gelsomina-vigliotta",
 "role": "child",
 "events": [
 {
@@ -43893,6 +44238,7 @@
 "name": "Giuseppa Ferraro",
 "surname": "FERRARO",
 "household": "Angelo Zampiello & Giuseppa Ferraro",
+"hid": "angelo-zampiello-giuseppa-ferraro",
 "role": "mother",
 "events": [
 {
@@ -43967,6 +44313,7 @@
 "name": "Mariantonia Frasca",
 "surname": "FRASCA",
 "household": "Domenico Falco & Mariantonia Frasca",
+"hid": "domenico-falco-mariantonia-frasca",
 "role": "mother",
 "events": [
 {
@@ -44290,6 +44637,7 @@
 "name": "Antonio Gasparo",
 "surname": "GASPARO",
 "household": "Michele Falco & Antonia Vigliotta",
+"hid": "michele-falco-antonia-vigliotta",
 "role": "declarant",
 "events": [
 {
@@ -44314,6 +44662,7 @@
 "name": "Domenico Giglio",
 "surname": "GIGLIO",
 "household": "Stefano Carfora & Teresa di Guida",
+"hid": "stefano-carfora-teresa-di-guida",
 "role": "married in",
 "events": [
 {
@@ -44347,6 +44696,7 @@
 "name": "Filippo Giglio",
 "surname": "GIGLIO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "witness",
 "events": [
 {
@@ -44371,6 +44721,7 @@
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "surname": "GIOACCHINO",
 "household": "Matteo Falco & Francesca Crisci",
+"hid": "matteo-falco-francesca-crisci",
 "role": "child",
 "events": [
 {
@@ -44477,6 +44828,7 @@
 "name": "Pietro Grazio",
 "surname": "GRAZIO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "witness",
 "events": [
 {
@@ -44546,6 +44898,7 @@
 "name": "Maria Guida",
 "surname": "GUIDA",
 "household": "Carmine Annecchino & Rosa Ceglia",
+"hid": "carmine-annecchino-rosa-ceglia",
 "role": "grandmother",
 "events": [
 {
@@ -44570,6 +44923,7 @@
 "name": "Maria Guida",
 "surname": "GUIDA",
 "household": "Antonio Annecchino & Maria Guida",
+"hid": "antonio-annecchino-maria-guida",
 "role": "mother",
 "events": [
 {
@@ -44952,6 +45306,7 @@
 "name": "Domenico Laudato",
 "surname": "LAUDATO",
 "household": "Alfonso Diglio & Maria Falco",
+"hid": "alfonso-diglio-maria-falco",
 "role": "witness",
 "events": [
 {
@@ -44976,6 +45331,7 @@
 "name": "Gaetana Laudato",
 "surname": "LAUDATO",
 "household": "Angelo Morgillo (colono, Monticello de' Cappuccini)",
+"hid": "angelo-morgillo-colono-monticello-de-cappuccini",
 "role": "mother",
 "events": [
 {
@@ -45046,6 +45402,7 @@
 "name": "Lucia Laudato",
 "surname": "LAUDATO",
 "household": "Matteo Carfora & Angela Zimbardo",
+"hid": "matteo-carfora-angela-zimbardo",
 "role": "married in",
 "events": [
 {
@@ -45070,6 +45427,7 @@
 "name": "Antonio Lettieri",
 "surname": "LETTIERI",
 "household": "Antonio Lettieri & Giovanna Falco",
+"hid": "antonio-lettieri-giovanna-falco",
 "role": "father",
 "events": [
 {
@@ -45120,6 +45478,7 @@
 "name": "Giuseppe Lettieri (d. 1810)",
 "surname": "LETTIERI",
 "household": "Antonio Lettieri & Giovanna Falco",
+"hid": "antonio-lettieri-giovanna-falco",
 "role": "child",
 "events": [
 {
@@ -45183,6 +45542,7 @@
 "name": "Nunzia Lettieri",
 "surname": "LETTIERI",
 "household": "Antonio Lettieri & Giovanna Falco",
+"hid": "antonio-lettieri-giovanna-falco",
 "role": "child",
 "events": [
 {
@@ -45233,6 +45593,7 @@
 "name": "Stefano Lettieri",
 "surname": "LETTIERI",
 "household": "Michelangelo Falco & Maria Migliore",
+"hid": "michelangelo-falco-maria-migliore",
 "role": "witness",
 "events": [
 {
@@ -45257,6 +45618,7 @@
 "name": "Antonio Lettiero (a different man)",
 "surname": "LETTIERO",
 "household": "Antonio Lettieri & Giovanna Falco",
+"hid": "antonio-lettieri-giovanna-falco",
 "role": "—",
 "events": [
 {
@@ -45461,6 +45823,7 @@
 "name": "Francesco Maione",
 "surname": "MAIONE",
 "household": "Angelo Maione (dec. by 1880) & —",
+"hid": "angelo-maione-dec-by-1880",
 "role": "child",
 "events": [
 {
@@ -45712,6 +46075,7 @@
 "name": "Angela (Lella) Majone",
 "surname": "MAJONE",
 "household": "Giuseppe Sossi & Angela (Lella) Majone",
+"hid": "giuseppe-sossi-angela-lella-majone",
 "role": "mother",
 "events": [
 {
@@ -45773,6 +46137,7 @@
 "name": "Angelo Majone",
 "surname": "MAJONE",
 "household": "Angelo Majone & Pasqua Falco",
+"hid": "angelo-majone-pasqua-falco",
 "role": "father",
 "events": [
 {
@@ -45797,6 +46162,7 @@
 "name": "Nicola Majone",
 "surname": "MAJONE",
 "household": "Nicola Majone & Maria Falco",
+"hid": "nicola-majone-maria-falco",
 "role": "father",
 "events": [
 {
@@ -45839,6 +46205,7 @@
 "name": "Giacinto Marra",
 "surname": "MARRA",
 "household": "Giacinto Marra & Margarita di Guida",
+"hid": "giacinto-marra-margarita-di-guida",
 "role": "father",
 "events": [
 {
@@ -45888,6 +46255,7 @@
 "name": "Pasquale Antonio Marra",
 "surname": "MARRA",
 "household": "Giacinto Marra & Margarita di Guida",
+"hid": "giacinto-marra-margarita-di-guida",
 "role": "child",
 "events": [
 {
@@ -45933,6 +46301,7 @@
 "name": "Pasquale Marra",
 "surname": "MARRA",
 "household": "Giacinto Marra & Margarita di Guida",
+"hid": "giacinto-marra-margarita-di-guida",
 "role": "grandfather",
 "events": [
 {
@@ -45957,6 +46326,7 @@
 "name": "Bartolomeo Marrone (d. before 1814)",
 "surname": "MARRONE",
 "household": "Bartolomeo Marrone & Maddalena Falco",
+"hid": "bartolomeo-marrone-maddalena-falco",
 "role": "father",
 "events": [
 {
@@ -45999,6 +46369,7 @@
 "name": "Raffaele Marrone",
 "surname": "MARRONE",
 "household": "Bartolomeo Marrone & Maddalena Falco",
+"hid": "bartolomeo-marrone-maddalena-falco",
 "role": "child",
 "events": [
 {
@@ -46079,6 +46450,7 @@
 "name": "Andrea Martone",
 "surname": "MARTONE",
 "household": "Alfonso Diglio & Maria Falco",
+"hid": "alfonso-diglio-maria-falco",
 "role": "witness",
 "events": [
 {
@@ -46249,6 +46621,7 @@
 "name": "Felicia Martone",
 "surname": "MARTONE",
 "household": "Crescenzo Falco & Angela Maria Morgillo",
+"hid": "crescenzo-falco-angela-maria-morgillo",
 "role": "midwife",
 "events": [
 {
@@ -46382,6 +46755,7 @@
 "name": "Antonio Mauro",
 "surname": "MAURO",
 "household": "Antonio Mauro & Sara Falco",
+"hid": "antonio-mauro-sara-falco",
 "role": "father",
 "events": [
 {
@@ -46406,6 +46780,7 @@
 "name": "Maria Rosa Mauro",
 "surname": "MAURO",
 "household": "Marcello Crisci & Maria Rosa Mauro",
+"hid": "marcello-crisci-maria-rosa-mauro",
 "role": "mother",
 "events": [
 {
@@ -46448,6 +46823,7 @@
 "name": "Pietro Mauro",
 "surname": "MAURO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "witness",
 "events": [
 {
@@ -47194,6 +47570,7 @@
 "name": "Maria Michela Migliore",
 "surname": "MIGLIORE",
 "household": "Giuseppe Migliore & Giovanna Falco",
+"hid": "giuseppe-migliore-giovanna-falco",
 "role": "child",
 "events": [
 {
@@ -47218,6 +47595,7 @@
 "name": "Maria Migliore",
 "surname": "MIGLIORE",
 "household": "Michelangelo Falco & Maria Migliore",
+"hid": "michelangelo-falco-maria-migliore",
 "role": "mother",
 "events": [
 {
@@ -47795,6 +48173,7 @@
 "name": "Amalia Morgillo",
 "surname": "MORGILLO",
 "household": "Giovan'Antonio Morgillo & Rosa Falco",
+"hid": "giovan-antonio-morgillo-rosa-falco",
 "role": "child",
 "events": [
 {
@@ -47857,6 +48236,7 @@
 "name": "Angela Maria Morgillo",
 "surname": "MORGILLO",
 "household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
 "role": "married in",
 "events": [
 {
@@ -47881,6 +48261,7 @@
 "name": "Angela Maria Morgillo",
 "surname": "MORGILLO",
 "household": "Crescenzo Falco & Angela Maria Morgillo",
+"hid": "crescenzo-falco-angela-maria-morgillo",
 "role": "mother",
 "events": [
 {
@@ -47995,6 +48376,7 @@
 "name": "Angela Morgillo",
 "surname": "MORGILLO",
 "household": "Carlantonio Morgillo & Rosa Falco",
+"hid": "carlantonio-morgillo-rosa-falco",
 "role": "child",
 "events": [
 {
@@ -48081,6 +48463,7 @@
 "name": "Angela Rosa Morgillo",
 "surname": "MORGILLO",
 "household": "Raffaele Falco & Angela Rosa Morgillo",
+"hid": "raffaele-falco-angela-rosa-morgillo",
 "role": "mother",
 "events": [
 {
@@ -48164,6 +48547,7 @@
 "name": "Angelo Morgillo",
 "surname": "MORGILLO",
 "household": "Angelo Morgillo fu Simone (strada Travo)",
+"hid": "angelo-morgillo-fu-simone-strada-travo",
 "role": "head",
 "events": [
 {
@@ -48204,6 +48588,7 @@
 "name": "Angelo Morgillo",
 "surname": "MORGILLO",
 "household": "Angelo Morgillo (colono, Monticello de' Cappuccini)",
+"hid": "angelo-morgillo-colono-monticello-de-cappuccini",
 "role": "head",
 "events": [
 {
@@ -48269,6 +48654,7 @@
 "name": "Biagio Morgillo",
 "surname": "MORGILLO",
 "household": "Biagio Morgillo & Vincenza Pepe (strada Nuova di San Gaetano)",
+"hid": "biagio-morgillo-vincenza-pepe-strada-nuova-di-san-gaetano",
 "role": "father",
 "events": [
 {
@@ -48302,6 +48688,7 @@
 "name": "Carl'Antonio Morgillo (the elder, d. before 1809)",
 "surname": "MORGILLO",
 "household": "Giovan'Antonio Morgillo & Rosa Falco",
+"hid": "giovan-antonio-morgillo-rosa-falco",
 "role": "grandfather",
 "events": [
 {
@@ -48326,6 +48713,7 @@
 "name": "Carlantonio Morgillo",
 "surname": "MORGILLO",
 "household": "Carlantonio Morgillo & Rosa Falco",
+"hid": "carlantonio-morgillo-rosa-falco",
 "role": "father",
 "events": [
 {
@@ -48436,6 +48824,7 @@
 "name": "Carlantonio Morgillo (the elder)",
 "surname": "MORGILLO",
 "household": "Carlantonio Morgillo (the elder) & Manilia Rivetti",
+"hid": "carlantonio-morgillo-the-elder-manilia-rivetti",
 "role": "father",
 "events": [
 {
@@ -48519,6 +48908,7 @@
 "name": "Catarina Morgillo",
 "surname": "MORGILLO",
 "household": "Pietro Carfora & Catarina Morgillo",
+"hid": "pietro-carfora-catarina-morgillo",
 "role": "mother",
 "events": [
 {
@@ -48561,6 +48951,7 @@
 "name": "Clementina Morgillo",
 "surname": "MORGILLO",
 "household": "Biagio Morgillo & Vincenza Pepe (strada Nuova di San Gaetano)",
+"hid": "biagio-morgillo-vincenza-pepe-strada-nuova-di-san-gaetano",
 "role": "child",
 "events": [
 {
@@ -48624,6 +49015,7 @@
 "name": "Gennaro Morgillo",
 "surname": "MORGILLO",
 "household": "Gennaro Morgillo & Maria Felicia Sansone",
+"hid": "gennaro-morgillo-maria-felicia-sansone",
 "role": "father",
 "events": [
 {
@@ -48718,6 +49110,7 @@
 "name": "Giovan'Antonio Morgillo",
 "surname": "MORGILLO",
 "household": "Giovan'Antonio Morgillo & Rosa Falco",
+"hid": "giovan-antonio-morgillo-rosa-falco",
 "role": "father",
 "events": [
 {
@@ -48783,6 +49176,7 @@
 "name": "Giovanna Morgillo",
 "surname": "MORGILLO",
 "household": "Carlantonio Morgillo & Rosa Falco",
+"hid": "carlantonio-morgillo-rosa-falco",
 "role": "child",
 "events": [
 {
@@ -48869,6 +49263,7 @@
 "name": "Giovanni Morgillo",
 "surname": "MORGILLO",
 "household": "Francesco Carfora & Pasqua Morgillo",
+"hid": "francesco-carfora-pasqua-morgillo",
 "role": "grandfather",
 "events": [
 {
@@ -48904,6 +49299,7 @@
 "name": "Giuditta Morgillo",
 "surname": "MORGILLO",
 "household": "Carlantonio Morgillo & Rosa Falco",
+"hid": "carlantonio-morgillo-rosa-falco",
 "role": "child",
 "events": [
 {
@@ -48990,6 +49386,7 @@
 "name": "Giuditta Morgillo",
 "surname": "MORGILLO",
 "household": "Carlantonio Morgillo (the elder) & Manilia Rivetti",
+"hid": "carlantonio-morgillo-the-elder-manilia-rivetti",
 "role": "child",
 "events": [
 {
@@ -49035,6 +49432,7 @@
 "name": "Giuseppe Morgillo",
 "surname": "MORGILLO",
 "household": "Giuseppe Morgillo & Gelsomina Rivetti",
+"hid": "giuseppe-morgillo-gelsomina-rivetti",
 "role": "father",
 "events": [
 {
@@ -49077,6 +49475,7 @@
 "name": "Giustina Morgillo",
 "surname": "MORGILLO",
 "household": "Carmine Rivetti & Giustina Morgillo",
+"hid": "carmine-rivetti-giustina-morgillo",
 "role": "mother",
 "events": [
 {
@@ -49110,6 +49509,7 @@
 "name": "Maria Carmela Morgillo",
 "surname": "MORGILLO",
 "household": "Carlantonio Morgillo & Rosa Falco",
+"hid": "carlantonio-morgillo-rosa-falco",
 "role": "child",
 "events": [
 {
@@ -49279,6 +49679,7 @@
 "name": "Nicola Morgillo",
 "surname": "MORGILLO",
 "household": "Angelo Morgillo (colono, Monticello de' Cappuccini)",
+"hid": "angelo-morgillo-colono-monticello-de-cappuccini",
 "role": "son",
 "events": [
 {
@@ -49346,6 +49747,7 @@
 "name": "Orazio Morgillo",
 "surname": "MORGILLO",
 "household": "Orazio Morgillo (strada Travo)",
+"hid": "orazio-morgillo-strada-travo",
 "role": "father",
 "events": [
 {
@@ -49391,6 +49793,7 @@
 "name": "Orsola Morgillo",
 "surname": "MORGILLO",
 "household": "Antonio Carfora & Giuseppa Perreca (strada Camellara)",
+"hid": "antonio-carfora-giuseppa-perreca-strada-camellara",
 "role": "grandmother",
 "events": [
 {
@@ -49415,6 +49818,7 @@
 "name": "Pasqua Morgillo",
 "surname": "MORGILLO",
 "household": "Sabatino Annecchino & Mariantonia Carfora",
+"hid": "sabatino-annecchino-mariantonia-carfora",
 "role": "grandmother",
 "events": [
 {
@@ -49443,6 +49847,7 @@
 "name": "Pasqua Morgillo",
 "surname": "MORGILLO",
 "household": "Francesco Carfora & Pasqua Morgillo",
+"hid": "francesco-carfora-pasqua-morgillo",
 "role": "mother",
 "events": [
 {
@@ -49485,6 +49890,7 @@
 "name": "Pasquale Morgillo",
 "surname": "MORGILLO",
 "household": "Giuseppe Morgillo & Gelsomina Rivetti",
+"hid": "giuseppe-morgillo-gelsomina-rivetti",
 "role": "child",
 "events": [
 {
@@ -49530,6 +49936,7 @@
 "name": "Pasquale Morgillo",
 "surname": "MORGILLO",
 "household": "Francesco Carfora & Pasqua Morgillo",
+"hid": "francesco-carfora-pasqua-morgillo",
 "role": "great-grandfather",
 "events": [
 {
@@ -49554,6 +49961,7 @@
 "name": "Raffaela Morgillo",
 "surname": "MORGILLO",
 "household": "Carlantonio Morgillo & Rosa Falco",
+"hid": "carlantonio-morgillo-rosa-falco",
 "role": "child",
 "events": [
 {
@@ -49640,6 +50048,7 @@
 "name": "Raffaele Morgillo",
 "surname": "MORGILLO",
 "household": "Carlantonio Morgillo & Rosa Falco",
+"hid": "carlantonio-morgillo-rosa-falco",
 "role": "child",
 "events": [
 {
@@ -49726,6 +50135,7 @@
 "name": "Raffaele Morgillo",
 "surname": "MORGILLO",
 "household": "Giovan'Antonio Morgillo & Rosa Falco",
+"hid": "giovan-antonio-morgillo-rosa-falco",
 "role": "child",
 "events": [
 {
@@ -49814,6 +50224,7 @@
 "name": "Simone Morgillo",
 "surname": "MORGILLO",
 "household": "Angelo Morgillo fu Simone (strada Travo)",
+"hid": "angelo-morgillo-fu-simone-strada-travo",
 "role": "father",
 "events": [
 {
@@ -49855,6 +50266,7 @@
 "name": "Teresa Morgillo",
 "surname": "MORGILLO",
 "household": "Francesco Cossi & Teresa Morgillo (strada Cossi)",
+"hid": "francesco-cossi-teresa-morgillo-strada-cossi",
 "role": "mother",
 "events": [
 {
@@ -49888,6 +50300,7 @@
 "name": "Vincenzo Morgillo",
 "surname": "MORGILLO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "witness",
 "events": [
 {
@@ -49912,6 +50325,7 @@
 "name": "Vincenzo Morgillo",
 "surname": "MORGILLO",
 "household": "Angelo Morgillo (colono, Monticello de' Cappuccini)",
+"hid": "angelo-morgillo-colono-monticello-de-cappuccini",
 "role": "son",
 "events": [
 {
@@ -49970,6 +50384,7 @@
 "name": "[child] Morgillo (b. Jan 1815)",
 "surname": "MORGILLO",
 "household": "Giovan'Antonio Morgillo & Rosa Falco",
+"hid": "giovan-antonio-morgillo-rosa-falco",
 "role": "child",
 "events": [
 {
@@ -50445,6 +50860,7 @@
 "name": "Giuseppa Perreca",
 "surname": "PERRECA",
 "household": "Antonio Carfora & Giuseppa Perreca (strada Camellara)",
+"hid": "antonio-carfora-giuseppa-perreca-strada-camellara",
 "role": "mother",
 "events": [
 {
@@ -50494,6 +50910,7 @@
 "name": "Nicola Perreca",
 "surname": "PERRECA",
 "household": "Antonio Carfora & Giuseppa Perreca (strada Camellara)",
+"hid": "antonio-carfora-giuseppa-perreca-strada-camellara",
 "role": "grandfather",
 "events": [
 {
@@ -50518,6 +50935,7 @@
 "name": "Giovanna Perrotta",
 "surname": "PERROTTA",
 "household": "Pasquale Rivetti & Giovanna Perrotta",
+"hid": "pasquale-rivetti-giovanna-perrotta",
 "role": "mother",
 "events": [
 {
@@ -50575,6 +50993,7 @@
 "name": "Giovanna Perrotta (d. before 1812)",
 "surname": "PERROTTA",
 "household": "Saverio Rivieri & Anna Carfora",
+"hid": "saverio-rivieri-anna-carfora",
 "role": "grandmother",
 "events": [
 {
@@ -50881,6 +51300,7 @@
 "name": "Sabbatino Petrillo",
 "surname": "PETRILLO",
 "household": "Sebastiano Falco & Colomba Montefusco",
+"hid": "sebastiano-falco-colomba-montefusco",
 "role": "father of the bride",
 "events": [
 {
@@ -50909,6 +51329,7 @@
 "name": "Stella (Giulia) Petrillo",
 "surname": "PETRILLO",
 "household": "Sebastiano Falco & Colomba Montefusco",
+"hid": "sebastiano-falco-colomba-montefusco",
 "role": "wife of the son",
 "events": [
 {
@@ -50933,6 +51354,7 @@
 "name": "Carmina Porrino",
 "surname": "PORRINO",
 "household": "Francesco Carfora & Pasqua Morgillo",
+"hid": "francesco-carfora-pasqua-morgillo",
 "role": "married in",
 "events": [
 {
@@ -50957,6 +51379,7 @@
 "name": "Clemente Porrino",
 "surname": "PORRINO",
 "household": "Crescenzo Falco & Angela Maria Morgillo",
+"hid": "crescenzo-falco-angela-maria-morgillo",
 "role": "witness",
 "events": [
 {
@@ -50981,6 +51404,7 @@
 "name": "Maria Porrino",
 "surname": "PORRINO",
 "household": "Francesco Cioffi & Maria Falco",
+"hid": "francesco-cioffi-maria-falco",
 "role": "grandmother",
 "events": [
 {
@@ -51005,6 +51429,7 @@
 "name": "Maria Porrino",
 "surname": "PORRINO",
 "household": "Giovanni Cioffi & Maria Porrino",
+"hid": "giovanni-cioffi-maria-porrino",
 "role": "mother",
 "events": [
 {
@@ -51047,6 +51472,7 @@
 "name": "Orazio Porrino",
 "surname": "PORRINO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "witness",
 "events": [
 {
@@ -51071,6 +51497,7 @@
 "name": "Orazio Porrino",
 "surname": "PORRINO",
 "household": "Carlantonio Morgillo & Rosa Falco",
+"hid": "carlantonio-morgillo-rosa-falco",
 "role": "witness",
 "events": [
 {
@@ -51095,6 +51522,7 @@
 "name": "Orsola Porrino",
 "surname": "PORRINO",
 "household": "Aniello Carfora & Orsola Porrino (strada Camellara)",
+"hid": "aniello-carfora-orsola-porrino-strada-camellara",
 "role": "mother",
 "events": [
 {
@@ -51395,6 +51823,7 @@
 "name": "Angela Quotolo",
 "surname": "QUOTOLO",
 "household": "Crescenzo Crisci & Angela Quotolo",
+"hid": "crescenzo-crisci-angela-quotolo",
 "role": "mother",
 "events": [
 {
@@ -51489,6 +51918,7 @@
 "name": "Angelo Quotolo",
 "surname": "QUOTOLO",
 "household": "Francesco Quotolo & Vittoria di Guida",
+"hid": "francesco-quotolo-vittoria-di-guida",
 "role": "child",
 "events": [
 {
@@ -51534,6 +51964,7 @@
 "name": "Donna Anna Quotolo",
 "surname": "QUOTOLO",
 "household": "Don Nicola Rivetti & Donna Anna Quotolo",
+"hid": "don-nicola-rivetti-donna-anna-quotolo",
 "role": "mother",
 "events": [
 {
@@ -51596,6 +52027,7 @@
 "name": "Francesco Quotolo",
 "surname": "QUOTOLO",
 "household": "Francesco Quotolo & Maria Falco",
+"hid": "francesco-quotolo-maria-falco",
 "role": "father",
 "events": [
 {
@@ -51637,6 +52069,7 @@
 "name": "Francesco Quotolo (1731-1815)",
 "surname": "QUOTOLO",
 "household": "Francesco Quotolo & Maria Falco",
+"hid": "francesco-quotolo-maria-falco",
 "role": "father",
 "events": [
 {
@@ -51682,6 +52115,7 @@
 "name": "Francesco Quotolo",
 "surname": "QUOTOLO",
 "household": "Francesco Quotolo (strada Maddalena, living 1817)",
+"hid": "francesco-quotolo-strada-maddalena-living-1817",
 "role": "father",
 "events": [
 {
@@ -51706,6 +52140,7 @@
 "name": "Francesco Quotolo",
 "surname": "QUOTOLO",
 "household": "Francesco Quotolo & Vittoria di Guida",
+"hid": "francesco-quotolo-vittoria-di-guida",
 "role": "father",
 "events": [
 {
@@ -51748,6 +52183,7 @@
 "name": "Giuseppe Quotolo",
 "surname": "QUOTOLO",
 "household": "Giuseppe Quotolo (strada Maddalena)",
+"hid": "giuseppe-quotolo-strada-maddalena",
 "role": "father",
 "events": [
 {
@@ -51772,6 +52208,7 @@
 "name": "Lorenzo Quotolo (d. before 1815)",
 "surname": "QUOTOLO",
 "household": "Francesco Quotolo & Maria Falco",
+"hid": "francesco-quotolo-maria-falco",
 "role": "grandfather",
 "events": [
 {
@@ -51796,6 +52233,7 @@
 "name": "Pietro Quotolo",
 "surname": "QUOTOLO",
 "household": "Pietro Quotolo & Sofia Sossi",
+"hid": "pietro-quotolo-sofia-sossi",
 "role": "father",
 "events": [
 {
@@ -51838,6 +52276,7 @@
 "name": "Silvestro Quotolo",
 "surname": "QUOTOLO",
 "household": "Don Nicola Rivetti & Donna Anna Quotolo",
+"hid": "don-nicola-rivetti-donna-anna-quotolo",
 "role": "—",
 "events": [
 {
@@ -51957,6 +52396,7 @@
 "name": "Angela Rivetta",
 "surname": "RIVETTA",
 "household": "Antonio Arricale & Angela Rivetta",
+"hid": "antonio-arricale-angela-rivetta",
 "role": "mother",
 "events": [
 {
@@ -52023,6 +52463,7 @@
 "name": "Maddalena Rivetta",
 "surname": "RIVETTA",
 "household": "Giuseppe di Guida & Maddalena Rivetta",
+"hid": "giuseppe-di-guida-maddalena-rivetta",
 "role": "mother",
 "events": [
 {
@@ -52121,6 +52562,7 @@
 "name": "Angela Maria Rivetti",
 "surname": "RIVETTI",
 "household": "Crescenzo Rivetti & Angela Falco",
+"hid": "crescenzo-rivetti-angela-falco",
 "role": "child",
 "events": [
 {
@@ -52195,6 +52637,7 @@
 "name": "Angelandrea Rivetti",
 "surname": "RIVETTI",
 "household": "Crescenzo Rivetti & Angela Falco",
+"hid": "crescenzo-rivetti-angela-falco",
 "role": "child",
 "events": [
 {
@@ -52273,6 +52716,7 @@
 "name": "Benedetto Rivetti",
 "surname": "RIVETTI",
 "household": "Michelangelo Falco & Maria Migliore",
+"hid": "michelangelo-falco-maria-migliore",
 "role": "witness",
 "events": [
 {
@@ -52297,6 +52741,7 @@
 "name": "Carmine Rivetti",
 "surname": "RIVETTI",
 "household": "Nicola Rivetti (contadino) & Anna di Ruggio",
+"hid": "nicola-rivetti-contadino-anna-di-ruggio",
 "role": "son",
 "events": [
 {
@@ -52351,6 +52796,7 @@
 "name": "Carmine Rivetti",
 "surname": "RIVETTI",
 "household": "Nicola Rivetti & Anna di Ruggio",
+"hid": "nicola-rivetti-anna-di-ruggio",
 "role": "child",
 "events": [
 {
@@ -52396,6 +52842,7 @@
 "name": "Carmine Rivetti",
 "surname": "RIVETTI",
 "household": "Carmine Rivetti & Giustina Morgillo",
+"hid": "carmine-rivetti-giustina-morgillo",
 "role": "father",
 "events": [
 {
@@ -52433,6 +52880,7 @@
 "name": "Chiara (Clara) Rivetti",
 "surname": "RIVETTI",
 "household": "Nicola Rivetti (contadino) & Anna di Ruggio",
+"hid": "nicola-rivetti-contadino-anna-di-ruggio",
 "role": "daughter",
 "events": [
 {
@@ -52494,6 +52942,7 @@
 "name": "Chiara (Clara) Rivetti",
 "surname": "RIVETTI",
 "household": "Pasquale Falco & Chiara Rivetti",
+"hid": "pasquale-falco-chiara-rivetti",
 "role": "mother",
 "events": [
 {
@@ -52671,6 +53120,7 @@
 "name": "Chiara Rivetti",
 "surname": "RIVETTI",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "mother of the groom",
 "events": [
 {
@@ -52695,6 +53145,7 @@
 "name": "Chiara Rivetti (of Raffaele Falco)",
 "surname": "RIVETTI",
 "household": "Michele Falco & Antonia Vigliotta",
+"hid": "michele-falco-antonia-vigliotta",
 "role": "grandmother",
 "events": [
 {
@@ -52723,6 +53174,7 @@
 "name": "Chiara Rivetti (of Raffaele Falco)",
 "surname": "RIVETTI",
 "household": "Raffaele Falco & Chiara Rivetti",
+"hid": "raffaele-falco-chiara-rivetti",
 "role": "mother",
 "events": [
 {
@@ -52773,6 +53225,7 @@
 "name": "Crescenzo Rivetti",
 "surname": "RIVETTI",
 "household": "Crescenzo Rivetti & Angela Falco",
+"hid": "crescenzo-rivetti-angela-falco",
 "role": "father",
 "events": [
 {
@@ -52884,6 +53337,7 @@
 "name": "Don Giuseppe Rivetti",
 "surname": "RIVETTI",
 "household": "Don Giuseppe Rivetti, sacerdote (strada Sant'Andrea)",
+"hid": "don-giuseppe-rivetti-sacerdote-strada-sant-andrea",
 "role": "father",
 "events": [
 {
@@ -52908,6 +53362,7 @@
 "name": "Don Giuseppe Rivetti (the elder)",
 "surname": "RIVETTI",
 "household": "Don Giuseppe Rivetti (the elder) & Giovanna Bega",
+"hid": "don-giuseppe-rivetti-the-elder-giovanna-bega",
 "role": "father",
 "events": [
 {
@@ -52950,6 +53405,7 @@
 "name": "Don Nicola Rivetti",
 "surname": "RIVETTI",
 "household": "Don Nicola Rivetti & Donna Anna Quotolo",
+"hid": "don-nicola-rivetti-donna-anna-quotolo",
 "role": "father",
 "events": [
 {
@@ -52992,6 +53448,7 @@
 "name": "Donna Francesca Rivetti",
 "surname": "RIVETTI",
 "household": "Don Nicola Rivetti & Donna Anna Quotolo",
+"hid": "don-nicola-rivetti-donna-anna-quotolo",
 "role": "child",
 "events": [
 {
@@ -53037,6 +53494,7 @@
 "name": "Gelsomina Rivetti",
 "surname": "RIVETTI",
 "household": "Giuseppe Morgillo & Gelsomina Rivetti",
+"hid": "giuseppe-morgillo-gelsomina-rivetti",
 "role": "mother",
 "events": [
 {
@@ -53079,6 +53537,7 @@
 "name": "Giovanni Rivetti",
 "surname": "RIVETTI",
 "household": "Crescenzo Rivetti & Angela Falco",
+"hid": "crescenzo-rivetti-angela-falco",
 "role": "child",
 "events": [
 {
@@ -53153,6 +53612,7 @@
 "name": "Lucia Rivetti",
 "surname": "RIVETTI",
 "household": "Crescenzo Rivetti & Angela Falco",
+"hid": "crescenzo-rivetti-angela-falco",
 "role": "child",
 "events": [
 {
@@ -53272,6 +53732,7 @@
 "name": "Manilia Rivetti",
 "surname": "RIVETTI",
 "household": "Carlantonio Morgillo (the elder) & Manilia Rivetti",
+"hid": "carlantonio-morgillo-the-elder-manilia-rivetti",
 "role": "mother",
 "events": [
 {
@@ -53314,6 +53775,7 @@
 "name": "Michedalena Rivetti",
 "surname": "RIVETTI",
 "household": "Giuseppe di Guida & Michedalena Rivetti",
+"hid": "giuseppe-di-guida-michedalena-rivetti",
 "role": "mother",
 "events": [
 {
@@ -53356,6 +53818,7 @@
 "name": "Nicola Rivetti",
 "surname": "RIVETTI",
 "household": "Nicola Rivetti (contadino) & Anna di Ruggio",
+"hid": "nicola-rivetti-contadino-anna-di-ruggio",
 "role": "father",
 "events": [
 {
@@ -53406,6 +53869,7 @@
 "name": "Nicola Rivetti",
 "surname": "RIVETTI",
 "household": "Nicola Rivetti & Anna di Ruggio",
+"hid": "nicola-rivetti-anna-di-ruggio",
 "role": "father",
 "events": [
 {
@@ -53448,6 +53912,7 @@
 "name": "Paolo Rivetti",
 "surname": "RIVETTI",
 "household": "Paolo Rivetti & Angela Espositella",
+"hid": "paolo-rivetti-angela-espositella",
 "role": "father",
 "events": [
 {
@@ -53518,6 +53983,7 @@
 "name": "Pasquale Rivetti",
 "surname": "RIVETTI",
 "household": "Pasquale Rivetti & Giovanna Perrotta",
+"hid": "pasquale-rivetti-giovanna-perrotta",
 "role": "father",
 "events": [
 {
@@ -53568,6 +54034,7 @@
 "name": "Pasquale Rivetti (of Crescenzo, m. 1824)",
 "surname": "RIVETTI",
 "household": "Crescenzo Rivetti & Angela Falco",
+"hid": "crescenzo-rivetti-angela-falco",
 "role": "child",
 "events": [
 {
@@ -53642,6 +54109,7 @@
 "name": "Suor Maria Maddalena Rivetti",
 "surname": "RIVETTI",
 "household": "Don Giuseppe Rivetti (the elder) & Giovanna Bega",
+"hid": "don-giuseppe-rivetti-the-elder-giovanna-bega",
 "role": "child",
 "events": [
 {
@@ -53687,6 +54155,7 @@
 "name": "Alessandro Rivieri",
 "surname": "RIVIERI",
 "household": "Saverio Rivieri & Anna Carfora",
+"hid": "saverio-rivieri-anna-carfora",
 "role": "child",
 "events": [
 {
@@ -53732,6 +54201,7 @@
 "name": "Maria Rivieri",
 "surname": "RIVIERI",
 "household": "Saverio Rivieri & Angela Falco",
+"hid": "saverio-rivieri-angela-falco",
 "role": "child",
 "events": [
 {
@@ -53777,6 +54247,7 @@
 "name": "Pasquale Rivieri (d. before 1812)",
 "surname": "RIVIERI",
 "household": "Saverio Rivieri & Anna Carfora",
+"hid": "saverio-rivieri-anna-carfora",
 "role": "grandfather",
 "events": [
 {
@@ -53801,6 +54272,7 @@
 "name": "Saverio Rivieri",
 "surname": "RIVIERI",
 "household": "Saverio Rivieri & Anna Carfora",
+"hid": "saverio-rivieri-anna-carfora",
 "role": "father",
 "events": [
 {
@@ -53854,6 +54326,7 @@
 "name": "Saverio Rivieri",
 "surname": "RIVIERI",
 "household": "Saverio Rivieri & Angela Falco",
+"hid": "saverio-rivieri-angela-falco",
 "role": "father",
 "events": [
 {
@@ -54276,6 +54749,7 @@
 "name": "Pasquale Ruggiero",
 "surname": "RUGGIERO",
 "household": "Arcangelo Crisci & Sara Ruggiero",
+"hid": "arcangelo-crisci-sara-ruggiero",
 "role": "grandfather",
 "events": [
 {
@@ -54300,6 +54774,7 @@
 "name": "Sara Ruggiero",
 "surname": "RUGGIERO",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "mother of the bride",
 "events": [
 {
@@ -54345,6 +54820,7 @@
 "name": "Sara Ruggiero",
 "surname": "RUGGIERO",
 "household": "Arcangelo Crisci & Sara Ruggiero",
+"hid": "arcangelo-crisci-sara-ruggiero",
 "role": "mother",
 "events": [
 {
@@ -54538,6 +55014,7 @@
 "name": "Cornelia Sabatino",
 "surname": "SABATINO",
 "household": "Raffaele Falco & Chiara Rivetti",
+"hid": "raffaele-falco-chiara-rivetti",
 "role": "married in",
 "events": [
 {
@@ -54692,6 +55169,7 @@
 "name": "Maria Felicia Sansone",
 "surname": "SANSONE",
 "household": "Gennaro Morgillo & Maria Felicia Sansone",
+"hid": "gennaro-morgillo-maria-felicia-sansone",
 "role": "mother",
 "events": [
 {
@@ -54752,6 +55230,7 @@
 "name": "Pasquale Sansone",
 "surname": "SANSONE",
 "household": "Gennaro Morgillo & Maria Felicia Sansone",
+"hid": "gennaro-morgillo-maria-felicia-sansone",
 "role": "grandfather",
 "events": [
 {
@@ -54776,6 +55255,7 @@
 "name": "Don Angelo Scarpati",
 "surname": "SCARPATI",
 "household": "Stefano Scarpati & Faustina Cimmino",
+"hid": "stefano-scarpati-faustina-cimmino",
 "role": "child",
 "events": [
 {
@@ -54830,6 +55310,7 @@
 "name": "Don Stefano Scarpati",
 "surname": "SCARPATI",
 "household": "Stefano Scarpati & Faustina Cimmino",
+"hid": "stefano-scarpati-faustina-cimmino",
 "role": "father",
 "events": [
 {
@@ -54880,6 +55361,7 @@
 "name": "Maria Giuseppa Scarpati",
 "surname": "SCARPATI",
 "household": "Stefano Scarpati & Faustina Cimmino",
+"hid": "stefano-scarpati-faustina-cimmino",
 "role": "child",
 "events": [
 {
@@ -55124,6 +55606,7 @@
 "name": "Rosa Selli",
 "surname": "SELLI",
 "household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
 "role": "married in",
 "events": [
 {
@@ -55640,6 +56123,7 @@
 "name": "Antonia Simino (d. before 1813)",
 "surname": "SIMINO",
 "household": "Matteo Carfora & Angela Zimbardo",
+"hid": "matteo-carfora-angela-zimbardo",
 "role": "grandmother",
 "events": [
 {
@@ -55664,6 +56148,7 @@
 "name": "Domenica Simino (d. before 1813)",
 "surname": "SIMINO",
 "household": "Giuseppe Carfora & Domenica Simino",
+"hid": "giuseppe-carfora-domenica-simino",
 "role": "mother",
 "events": [
 {
@@ -55963,6 +56448,7 @@
 "name": "Antonio Sorgente",
 "surname": "SORGENTE",
 "household": "Crescenzo Falco & Angela Maria Morgillo",
+"hid": "crescenzo-falco-angela-maria-morgillo",
 "role": "witness",
 "events": [
 {
@@ -55987,6 +56473,7 @@
 "name": "Antonio Sorgente",
 "surname": "SORGENTE",
 "household": "Francesco Arricale & Pasqua Falco",
+"hid": "francesco-arricale-pasqua-falco",
 "role": "witness",
 "events": [
 {
@@ -56011,6 +56498,7 @@
 "name": "Carmina Sorrino",
 "surname": "SORRINO",
 "household": "Crescenzo Crisci & Angela Quotolo",
+"hid": "crescenzo-crisci-angela-quotolo",
 "role": "grandmother",
 "events": [
 {
@@ -56035,6 +56523,7 @@
 "name": "Giuseppe Sossi",
 "surname": "SOSSI",
 "household": "Giuseppe Sossi & Angela (Lella) Majone",
+"hid": "giuseppe-sossi-angela-lella-majone",
 "role": "father",
 "events": [
 {
@@ -56068,6 +56557,7 @@
 "name": "Rosa Sossi",
 "surname": "SOSSI",
 "household": "Giuseppe Falco & Rosa Sossi",
+"hid": "giuseppe-falco-rosa-sossi",
 "role": "mother",
 "events": [
 {
@@ -56110,6 +56600,7 @@
 "name": "Sofia Sossi",
 "surname": "SOSSI",
 "household": "Pietro Quotolo & Sofia Sossi",
+"hid": "pietro-quotolo-sofia-sossi",
 "role": "mother",
 "events": [
 {
@@ -56152,6 +56643,7 @@
 "name": "Rosa Sposito (d. before 1811)",
 "surname": "SPOSITO",
 "household": "Giuseppe Falco & Rosa Sposito",
+"hid": "giuseppe-falco-rosa-sposito",
 "role": "mother",
 "events": [
 {
@@ -56203,6 +56695,7 @@
 "name": "Vincenza Sposito",
 "surname": "SPOSITO",
 "household": "Michele Falco & Vincenza Sposito",
+"hid": "michele-falco-vincenza-sposito",
 "role": "mother",
 "events": [
 {
@@ -56245,6 +56738,7 @@
 "name": "Donna Maddalena Stellato",
 "surname": "STELLATO",
 "household": "Don Francesco Falco (gentry branch)",
+"hid": "don-francesco-falco-gentry-branch",
 "role": "mother",
 "events": [
 {
@@ -56321,6 +56815,7 @@
 "name": "Catarina [surname unread]",
 "surname": "UNREAD]",
 "household": "Francesco di Guida & Catarina [surname unread]",
+"hid": "francesco-di-guida-catarina-surname-unread",
 "role": "mother",
 "events": [
 {
@@ -56358,6 +56853,7 @@
 "name": "Marta [surname unread]",
 "surname": "UNREAD]",
 "household": "Francesco Carfora & Pasqua Morgillo",
+"hid": "francesco-carfora-pasqua-morgillo",
 "role": "married in",
 "events": [
 {
@@ -56421,6 +56917,7 @@
 "name": "Antonia Vigliotta",
 "surname": "VIGLIOTTA",
 "household": "Michele Falco & Antonia Vigliotta",
+"hid": "michele-falco-antonia-vigliotta",
 "role": "mother",
 "events": [
 {
@@ -56498,6 +56995,7 @@
 "name": "Gelsomina Vigliotta",
 "surname": "VIGLIOTTA",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
+"hid": "giuseppe-falco-gelsomina-vigliotta",
 "role": "mother",
 "events": [
 {
@@ -56637,6 +57135,7 @@
 "name": "Maria Vigliotta",
 "surname": "VIGLIOTTA",
 "household": "Francesco Carfora & Pasqua Morgillo",
+"hid": "francesco-carfora-pasqua-morgillo",
 "role": "great-grandmother",
 "events": [
 {
@@ -56661,6 +57160,7 @@
 "name": "Mariantonia Vigliotta",
 "surname": "VIGLIOTTA",
 "household": "Michelangelo Falco & Mariantonia Vigliotta",
+"hid": "michelangelo-falco-mariantonia-vigliotta",
 "role": "mother",
 "events": [
 {
@@ -56741,6 +57241,7 @@
 "name": "Teresa Vigliotta",
 "surname": "VIGLIOTTA",
 "household": "Angelo Andrea di Guida & Teresa Vigliotta",
+"hid": "angelo-andrea-di-guida-teresa-vigliotta",
 "role": "mother",
 "events": [
 {
@@ -56798,6 +57299,7 @@
 "name": "Teresa Vigliotta",
 "surname": "VIGLIOTTA",
 "household": "Angelandrea di Guida & Teresa Vigliotta",
+"hid": "angelandrea-di-guida-teresa-vigliotta",
 "role": "mother",
 "events": [
 {
@@ -56848,6 +57350,7 @@
 "name": "Domenica Vigliotti",
 "surname": "VIGLIOTTI",
 "household": "Giuseppe Falco & Gelsomina Vigliotta",
+"hid": "giuseppe-falco-gelsomina-vigliotta",
 "role": "married in",
 "events": [
 {
@@ -56915,6 +57418,7 @@
 "name": "Grazia Vitagliano",
 "surname": "VITAGLIANO",
 "household": "Carmine Annecchino & Rosa Ceglia",
+"hid": "carmine-annecchino-rosa-ceglia",
 "role": "grandmother",
 "events": [
 {
@@ -57125,6 +57629,7 @@
 "name": "Angelo Zampiello",
 "surname": "ZAMPIELLO",
 "household": "Angelo Zampiello & Giuseppa Ferraro",
+"hid": "angelo-zampiello-giuseppa-ferraro",
 "role": "father",
 "events": [
 {
@@ -57561,6 +58066,7 @@
 "name": "Caterina Zampiello",
 "surname": "ZAMPIELLO",
 "household": "Angelo Zampiello & Giuseppa Ferraro",
+"hid": "angelo-zampiello-giuseppa-ferraro",
 "role": "child",
 "events": [
 {
@@ -57721,6 +58227,7 @@
 "name": "Francesca Zampiello",
 "surname": "ZAMPIELLO",
 "household": "Angelo Zampiello & Giuseppa Ferraro",
+"hid": "angelo-zampiello-giuseppa-ferraro",
 "role": "child",
 "events": [
 {
@@ -58667,6 +59174,7 @@
 "name": "Raffaela Zampiello",
 "surname": "ZAMPIELLO",
 "household": "Angelo Zampiello & Giuseppa Ferraro",
+"hid": "angelo-zampiello-giuseppa-ferraro",
 "role": "child",
 "events": [
 {
@@ -58819,6 +59327,7 @@
 "name": "Rosina Zampiello",
 "surname": "ZAMPIELLO",
 "household": "Angelo Zampiello & Giuseppa Ferraro",
+"hid": "angelo-zampiello-giuseppa-ferraro",
 "role": "child",
 "events": [],
 "sources": [
@@ -59163,6 +59672,7 @@
 "name": "Tommasina Zampiello",
 "surname": "ZAMPIELLO",
 "household": "Angelo Zampiello & Giuseppa Ferraro",
+"hid": "angelo-zampiello-giuseppa-ferraro",
 "role": "child",
 "events": [
 {
@@ -59305,6 +59815,7 @@
 "name": "Tommaso Zampiello",
 "surname": "ZAMPIELLO",
 "household": "Tommaso Zampiello",
+"hid": "tommaso-zampiello",
 "role": "father",
 "events": [
 {
@@ -59552,6 +60063,7 @@
 "name": "Angela Zimbardo",
 "surname": "ZIMBARDO",
 "household": "Matteo Carfora & Angela Zimbardo",
+"hid": "matteo-carfora-angela-zimbardo",
 "role": "mother",
 "events": [
 {
@@ -59641,6 +60153,7 @@
 "name": "Grazia Zimbardo",
 "surname": "ZIMBARDO",
 "household": "Francesco Carfora & Pasqua Morgillo",
+"hid": "francesco-carfora-pasqua-morgillo",
 "role": "grandmother",
 "events": [
 {
@@ -59665,6 +60178,7 @@
 "name": "Orsola Zimbardo",
 "surname": "ZIMBARDO",
 "household": "Andrea Cioffi & Orsola Zimbardo (possidenti, strada Porta di Sopra)",
+"hid": "andrea-cioffi-orsola-zimbardo-possidenti-strada-porta-di-sop",
 "role": "mother",
 "events": [
 {
@@ -59715,6 +60229,7 @@
 "name": "Pasquale Zimbardo (d. before 1813)",
 "surname": "ZIMBARDO",
 "household": "Matteo Carfora & Angela Zimbardo",
+"hid": "matteo-carfora-angela-zimbardo",
 "role": "grandfather",
 "events": [
 {
@@ -60274,6 +60789,7 @@
 "name": "[unnamed]",
 "surname": "—",
 "household": "Matteo Falco & Francesca Crisci",
+"hid": "matteo-falco-francesca-crisci",
 "role": "child",
 "events": [
 {
