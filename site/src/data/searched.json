@@ -1517,5 +1517,17 @@
    "di Guida",
    "read in full"
   ]
+ },
+ {
+  "when": "1809",
+  "src": "Arienzo BIRTH register, 1809 — ANTENATI `an_ua14406`, **72 images**. *A complete act on **every page**, two to an image; **BOTH halves read**.* Same Napoleonic printed form as 1810, and **the father is given with a patronymic**: band `--band 0.17 0.22 --half LR --cols 2 --width 2200`.\n\n**This volume was read in two passes because Antenati stopped answering.** After a day of sweeping it returned «*curl: (28) Operation timed out*» on most tiles and «*500 Internal Server Error — Java heap space*» on others, and only images 45–50 rendered. **It recovered after a pause and the rest was read.** *A timeout is a rate limit, not a missing volume.*",
+  "what": "Every act on both pages, read for **FALCO**.",
+  "got": "**TWO FALCO ACTS IN SEVENTY-TWO IMAGES, AND BOTH ARE BIRTH ACTS FOR CHILDREN THIS ARCHIVE ALREADY KNEW HAD DIED.**\n\n**VINCENZO CRISCI, act 63, born 30 June 1809 at nine in the morning** — «*DOMENICO CRISCI DEL FU VINCENZO … strada delli CRISCI … con **MARGARITA FALCO** sua Moglie*». The death register buries him in 1810 at thirteen months; **the arithmetic closes**, and the act names the grandfather and the grandson in one sentence, which is the argument this archive had already made from the 1814 act and could not prove.\n\n**RAFFAELE MORGILLO, act 94, born 1 September 1809** — «*CARL'ANTONIO MORGILLO DEL FU CARL'ANTONIO … strada della MADDALENA … con **ROSA FALCO** sua Moglie*». **The earliest record of that household**, and the act that proves Rosa Falco's husband is **one man under three forenames** — *Carl'Antonio* here, *Giovan'Antonio* in 1814, *Marcantonio* in 1815.\n\n**THE YEAR'S TAVOLA CORROBORATES THE SECOND ONE INDEPENDENTLY.** The index at the end of the volume lists act **94** under *Raffaele*, with the parents «*⟨Morgi⟩llo, e **ROSA FALCO***» and the date «*A. 1 Settembre 1809*» — **read after the act and agreeing with it**.\n\n**NO CHILD OF GIUSEPPE FALCO AND ANTONIA DI GUIDA, AND NONE EXPECTED.** Their son Matteo died in August 1809 at fourteen months, so he was born in **1808** — a year for which no civil register exists. **The series begins in 1809 and this household's first surviving act is January 1810.**",
+  "tags": [
+   "Antenati",
+   "Births",
+   "Falco",
+   "read in full"
+  ]
  }
 ]
