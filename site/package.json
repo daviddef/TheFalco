@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4322",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run check:pin && npm run atlas && npm run publish:index && astro build && npm run check && npm run sitemap && npm run check:living && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:corrections && npm run check:evidence && npm run check:sources && npm run check:pages",
+    "build": "npm run check:pin && npm run atlas && npm run publish:index && astro build && npm run check && npm run sitemap && npm run check:living && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:corrections && npm run check:evidence && npm run check:sources && npm run check:pages && npm run check:inline",
     "preview": "astro preview --port 4322",
     "check": "python3 ../tools/check_release.py",
     "build:nocheck": "astro build",
@@ -21,10 +21,11 @@
     "check:templates": "python3 node_modules/@daviddef/archive-kit/kit/tools/checktemplates.py --root .",
     "check:sources": "python3 node_modules/@daviddef/archive-kit/kit/tools/checksources.py --root . --max-unreachable 2",
     "check:pages": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpages.py --root . --estate ../.. --max-bespoke 4",
-    "check:pin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpin.py --root ."
+    "check:pin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpin.py --root .",
+    "check:inline": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkinline.py --root . --max-inline 16"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#6003260",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#40bf5a3",
     "astro": "^5.18.2"
   },
   "devDependencies": {
