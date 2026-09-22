@@ -18,12 +18,39 @@ const slugFor = (g) => {
   return p ? p.slug : null;
 };
 const heading = (g) => g.spouse ? `${g.name} and ${g.spouse}` : g.name;
+
+/* «and why no links for the wives?» — 22 September. Because line.json
+   carries her as a name and nothing else, while the husband arrives with
+   an identifier. Five of the nine wives do have a page in this archive and
+   were being drawn as plain text beside a linked husband.
+
+   MATCHED ONLY WHERE EXACTLY ONE PERSON BEARS THE NAME, and counted at
+   build time rather than written down, so the day a second Francesca
+   Zampiello enters people.json the link disappears instead of quietly
+   pointing at the wrong woman. This archive has two Raffaele Falcos and
+   two Carmine Antonios on the spine alone; a name is not an identity here.
+   The husband's own link is safe for the opposite reason — `slugFor`
+   matches on GENERATION AND NAME together. */
+const SPOUSE_SLUG = (() => {
+  const seen = new Map();
+  for (const p of people) {
+    const n = String(p.name || "").trim();
+    if (!n) continue;
+    seen.set(n, seen.has(n) ? null : p.slug);   // a second bearer poisons it
+  }
+  return (name) => seen.get(String(name || "").trim()) || null;
+})();
+const withSpouse = (g) => ({
+  ...g,
+  spouseHref: SPOUSE_SLUG(g.spouse) ? `/people/${SPOUSE_SLUG(g.spouse)}/` : null,
+});
+
 ---
 <Base title="The Spine"
       eyebrow="Nine generations, the ninth living and named"
       dek="From the Arienzo of the 1730s to Brisbane. Each generation is joined to the one above it by a record that names a father — except the first, where the line stops.">
 
-  <Spine u={u} rows={shown.map((g) => ({
+  <Spine u={u} rows={shown.map(withSpouse).map((g) => ({
     gen: g.gen,
     name: g.name,
     spouse: g.spouse,
@@ -31,6 +58,12 @@ const heading = (g) => g.spouse ? `${g.name} and ${g.spouse}` : g.name;
     born: g.born, bornPlace: g.bornPlace,
     died: g.died, diedPlace: g.diedPlace,
     living: g.living,
+    /* line.json holds these and the spine was not passing them: a trade for
+       three generations, a marriage date for five. `slugFor` above matches
+       on GENERATION AND NAME, which is what keeps the two Raffaele Falcos —
+       four and six, grandfather and grandson — pointing at two pages. */
+    trade: g.trade || "",
+    married: g.married || "",
     confidence: g.confidence,
     weak: g.gen === 1,
     weakNote: "The line stops here: no record names this man's father.",
