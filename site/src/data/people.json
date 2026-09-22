@@ -10000,6 +10000,13 @@
 "place": "Arienzo, strada delli Crisci",
 "evidence": "*Bracciale* of strada delli Crisci, alive in 1810 and 1812.\n\n**THERE IS MORE THAN ONE DOMENICO CRISCI ON THAT STREET.** The 1809 and 1810 registers give a Domenico Crisci with children by **Maddalena Albarelli** and one with children by **Egidia Perrotta**. **Which of them is this man is not established**, and this household rests on the two acts that name Margarita Falco and on nothing else.",
 "ark": "ANTENATI an_ua14314 img4 — READ FROM THE IMAGE"
+},
+{
+"event": "his own stated age",
+"date": "30 Jun 1809",
+"place": "Arienzo, strada delli Crisci",
+"evidence": "**Thirty-two in June 1809, so born about 1777.** *Bracciale* of strada delli Crisci, and he declared the birth himself.\n\n**The patronymic «DEL FU VINCENZO» appears here five years before the 1814 death act that this archive used to tell him from the other Domenico Crisci of that street.** *Two independent acts, and they agree.*",
+"ark": "ANTENATI an_ua14406 img34r act63 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -11737,6 +11744,13 @@
 "place": "Arienzo, strada delli Crisci",
 "evidence": "«*è morto **VINCENZO CRISCI** — di **mesi TREDICI** — di professione contadino … abitante nella strada **delli CRISCI**, **figlio di DOMENICO CRISCI, ed di MARGARITA FALCO**, di professione **BRACCIALI**, domiciliati in questa predetta Comune, e Strada*».\n\n**THIS ARCHIVE READ THIS ACT AT STRIP SIZE AND MADE HIS MOTHER «MARGARITA SALIO».** It was re-read at three and a half times only because the **1812** register produced a second son of the same couple. **The name is FALCO.** [[the-contact-sheet-is-triage]]\n\nThirteen months old in 1810, so born about **1809**.",
 "ark": "ANTENATI an_ua14312 img29 — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "30 Jun 1809",
+"place": "Arienzo, strada delli Crisci",
+"evidence": "**HIS BIRTH ACT, AND IT CONFIRMS EVERY INFERENCE THIS ARCHIVE MADE ABOUT HIM.**\n\n«*NUM. **63**. Oggi che sono li **trenta** del mese di **Giugno** del presente anno mille ottocento **nove**, ad ore **dodici**, è comparso avanti del Signor Sindaco di questa Università il Signor **DOMENICO CRISCI DEL FU VINCENZO** — di professione **BRACCIALE** — d'anni **TRENTADUE** — … abitante nella strada **delli CRISCI** — Il medesimo ha presentato un **bambino** … **nato in costanza del suo legitimo Matrimonio con MARGARITA FALCO sua Moglie** — Il quale è nato il giorno **suddetto trenta** del mese di **Giugno**, ad ore **nove** —, ed a tenore della dichiarazione se li sono imposti i seguenti nomi: **VINCENZO CRISCI***».\n\n**Born at nine in the morning on 30 June 1809**; the death register buries him in 1810 at «*mesi TREDICI*», which puts that burial at the end of July 1810. **The arithmetic closes.**\n\n**AND THE NAME WAS AN ARGUMENT THIS ARCHIVE MADE BEFORE IT HAD THE ACT.** When the 1814 death register gave «*DOMENICO CRISCI **fu VINCENZO***» it was published here with the line: *«He is why the couple's two sons were both called Vincenzo.»* **This act was found nine days later and it names the grandfather and the grandson in the same sentence.**",
+"ark": "ANTENATI an_ua14406 img34r act63 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -11781,10 +11795,12 @@
 ]
 }
 ],
-"d": "1810",
+"b": "30 Jun 1809",
 "dateFrom": {
+"b": "act",
 "d": "act"
-}
+},
+"d": "1810"
 },
 {
 "slug": "vincenzo-crisci-of-domenico-crisci-margarita-falco-2",
