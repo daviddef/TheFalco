@@ -443,7 +443,7 @@
     "slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
     "b": "1765",
     "bp": "Arienzo",
-    "d": "",
+    "d": "1 Oct 1834",
     "dp": ""
    },
    {
@@ -1051,7 +1051,7 @@
     "slug": "pasqualina-falco",
     "b": "Feb 1 1877",
     "bp": "Arienzo",
-    "d": "",
+    "d": "14 Sep 1836",
     "dp": ""
    },
    {
@@ -1235,7 +1235,7 @@
     "slug": "carmina-falco",
     "b": "July 8 1891",
     "bp": "Arienzo",
-    "d": "",
+    "d": "19 Dec 1832",
     "dp": ""
    },
    {
@@ -2159,7 +2159,7 @@
   "surname": "Annecchino",
   "n": 7,
   "withheld": 1,
-  "first": 1864,
+  "first": 1825,
   "last": 1897,
   "places": [
    "Forchia"
@@ -2191,6 +2191,14 @@
    }
   ],
   "people": [
+   {
+    "name": "Sabatino Annecchino",
+    "slug": "sabatino-annecchino",
+    "b": "20 Feb 1825",
+    "bp": "",
+    "d": "",
+    "dp": ""
+   },
    {
     "name": "Maria Filomena Annecchino",
     "slug": "maria-filomena-annecchino",
@@ -2234,14 +2242,6 @@
    {
     "name": "Giacomo Annecchino",
     "slug": "giacomo-annecchino",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "Sabatino Annecchino",
-    "slug": "sabatino-annecchino",
     "b": "",
     "bp": "",
     "d": "",
@@ -2565,7 +2565,7 @@
     "slug": "raffaele-morgillo",
     "b": "",
     "bp": "",
-    "d": "",
+    "d": "9 May 1832",
     "dp": ""
    }
   ],
@@ -3941,8 +3941,8 @@
   "surname": "Carfora",
   "n": 1,
   "withheld": 0,
-  "first": null,
-  "last": null,
+  "first": 1830,
+  "last": 1830,
   "places": [],
   "marriages": [
    {
@@ -3958,7 +3958,7 @@
    {
     "name": "Mariantonia Carfora (Annecchino)",
     "slug": "mariantonia-carfora",
-    "b": "",
+    "b": "30 Dec 1830",
     "bp": "",
     "d": "",
     "dp": ""

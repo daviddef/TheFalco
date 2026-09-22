@@ -6,9 +6,15 @@ import Marriages from "@daviddef/archive-kit/components/Marriages.astro";
 import { u } from "../lib/url.js";
 import { people } from "../lib/people.js";
 import { writtenUp } from "../lib/writtenup.js";
-import register from "../data/register.json";
 import groups from "../data/married-in.json";
 import { other, primary, GROUPS as REACH } from "../lib/marriedin.js";
+import households from "../data/households.json";
+/* Derived, not typed: the two numbers in «What this page cannot see». */
+const MI_ALL     = [...new Set(households.flatMap((h) => h.members)
+                     .filter((m) => m.role === "married in").map((m) => m.person))];
+const MI_ONPAGE  = new Set(groups.flatMap((g) => g.people).map((q) => q.name.split(" (")[0].trim()));
+const MI_TOTAL   = MI_ALL.length;
+const MI_ABSENT  = MI_ALL.filter((n) => !MI_ONPAGE.has(n.split(" (")[0].trim())).length;
 
 /* Two pages until now: a register of couples, and a list of surnames that
    married in. They answer one question from two ends — a surname is here
@@ -296,4 +302,18 @@ const timelinePoints = MARR.map((r) => ({ label: r.name || r.surname || "—", y
     <a href={u("/households/")}>Households</a> · <a href={u("/direct-line/")}>The direct line</a> ·
     <a href={u("/register/")}>The Register</a> · <a href={u("/wider-family/")}>The Wider Family</a> ·
     <a href={u("/sources/")}>Sources</a> · <a href={u("/open-questions/")}>Open questions</a></p>
+
+  <h2>What this page cannot see</h2>
+  <p class="small"><strong>{MI_ABSENT} of the {MI_TOTAL} people this archive marks
+  <em>married in</em> are not on this page.</strong> It is built from the family tree and joined to
+  the archive on the tree's own id, so a person documented <em>only</em> from an act — with no
+  tree row to join to — has no place here, however well attested they are. Angela Carfora, who
+  married Giuseppe Falco in 1854, is one of them.</p>
+  <p class="small">On <strong>22 September 2026</strong> the build was changed so that where the tree
+  is blank and the archive is not, <strong>the archive's own dates are used</strong> — Mariantonia
+  Carfora had no date span here while her birth act and her marriage act were both published. That
+  fixed the dates of the people who are on the page. <strong>It did not put the missing ones on
+  it</strong>, which needs the reach-and-withheld logic reworked, and that is
+  <a href={u("/worklist/")}>on the work list</a>.</p>
+
 </Base>

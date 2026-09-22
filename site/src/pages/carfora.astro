@@ -1,0 +1,144 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import register from "../data/register.json";
+import households from "../data/households.json";
+const rows   = register.filter((r) => (r.surname || "").toUpperCase() === "CARFORA");
+const swept  = rows.filter((r) => r.kind === "swept").length;
+const houses = households.filter((h) => h.members.some((m) => m.person.includes("Carfora")));
+---
+<Base title="Carfora"
+      eyebrow="A family this archive did not know to look for"
+      dek="Five Carfora households on two Arienzo streets, a line that reaches back past where the civil registers begin — and a gentry Carfora of Santa Maria a Vico that is not joined to any of them.">
+
+  <div class="card" style="margin-bottom:1.2rem">
+    <p><strong>CARFORA is the fifth-largest surname in this archive — {rows.length} records</strong>,
+    ahead of Cioffi, Morgillo and Rivetti, all of which have had a page for months. It had none until
+    22 September 2026, because until the week before that this archive believed the Carfora were a
+    Forchia family who had nothing to do with Arienzo. <strong>They were living fifty yards from the
+    Falco the whole time.</strong></p>
+  </div>
+
+  <h2>The mistake, and how it was found</h2>
+  <p class="lede">The Carfora entered this archive through <P n="Mariantonia Carfora" bold={true} />,
+  who married <P n="Sabatino Annecchino" bold={true} /> of Forchia at Arienzo on
+  <strong>21 January 1860</strong>. Because the Annecchino are a Forchia family, the Carfora were
+  filed as one too, and searched for there.</p>
+  <p>Then the Arienzo birth register for 1831 was swept for the marriage's other name, and
+  <strong>three separate Carfora households appeared in that single year</strong> — two of them on
+  <strong>strada Camellara</strong>, the Falco's own street. A second sweep of the same volume, at the
+  band that reads the mother rather than the declarant, found <strong>three more Carfora women</strong>
+  the first pass could not have seen: Elisabetta, thirty-six; Anna, thirty; Carmela, thirty, of strada
+  Santa Lucia. <strong>Six Carfora households in one year of one register.</strong></p>
+
+  <h2>Francesco Carfora and Pasqua Morgillo, strada Signorindico</h2>
+  <p class="lede">This is the house Mariantonia came from, and it is not on strada Camellara at all.</p>
+  <p>They married at Arienzo on <strong>29 June 1828</strong>, act 11 —
+  <P n="Francesco Carfora (of Matteo, m. 1828)" bold={true} />, twenty-eight, a
+  <em>contadino</em> of <strong>strada Signorindico</strong>, <em>«figlio di <strong>MATTEO CARFORA
+  DEFUNTO</strong> … e di <strong>GRAZIA ZIMBARDO DEFUNTA</strong>»</em>; and
+  <P n="Pasqua Morgillo" bold={true} />, twenty-five, of <strong>strada Crisci</strong>,
+  <em>«figlia di <strong>GIOVANNI MORGILLO</strong>, di professione contadino, domiciliato ivi, e di
+  <strong>DOMENICA CRISCI</strong>»</em>. The church celebration followed the next day at
+  Sant'Andrea Apostolo.</p>
+  <p><strong>Their daughter was born on 30 December 1830</strong>, act 142, at seven in the morning in
+  her father's own house — read from the register itself, not from the certified copy that sits in her
+  marriage dossier. She was baptised at Sant'Andrea the same day and married Sabbatino Annecchino
+  twenty-nine years later, three weeks after her birthday.</p>
+
+  <div class="card">
+    <p><strong>His name was wrong here for two days, and the correction is left where it happened.</strong>
+    The 1860 marriage act writes the forename across a line break, and this archive read the second
+    half as <em>«lerio»</em>, reasoned that no Italian forename ends in <em>-lerio</em> except one, and
+    published <strong>VALERIO CARFORA</strong> with the reasoning attached. <strong>The fragment is
+    «cesco».</strong> His own written consent, given at Arienzo on 1 January 1860 before the same
+    <em>sindaco</em> who wrote the marriage act three weeks later, spells it out — and so does his
+    daughter's birth act, twice. <a href={u("/corrections/")}>The correction →</a></p>
+  </div>
+
+  <h2>The Morgillo behind them — three generations, from one death act</h2>
+  <p>Pasqua Morgillo's father died at Arienzo on <strong>10 November 1864</strong>, and the act was
+  found while reading the death registers for somebody else entirely:
+  <em>«è morto … <strong>GIOVANNI MORGILLO — VEDOVO DI DOMENICA CRISCI</strong>, nato in Arienzo, di
+  anni <strong>OTTANTADUE</strong>, di professione <strong>COLONO</strong>, domiciliato nel
+  <strong>Villaggio CRISCI</strong>, <strong>figlio del fu PASQUALE</strong> … <strong>e della fu
+  MARIA VIGLIOTTA</strong>»</em>.</p>
+  <p><strong>The identification rests on his wife's name, not his own.</strong> Morgillo is among the
+  four commonest surnames in these registers and Giovanni is a common forename; what settles it is
+  <em>«vedovo di DOMENICA CRISCI»</em>, which is exactly the woman the 1828 marriage act names as
+  Pasqua's mother, on the street that act gives her. <strong>Eighty-two in 1864 puts his birth about
+  1782</strong>, and his own parents — <P n="Pasquale Morgillo" bold={true} /> and
+  <P n="Maria Vigliotta" bold={true} /> — belong to the 1750s or earlier.
+  <strong>Arienzo's civil registers begin in 1809 and cannot otherwise reach them.</strong></p>
+
+  <h2>The Carfora of strada Camellara</h2>
+  <p>Three households, all found in the births of 1831, two of them on the Falco street.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Household</th><th>What the acts say</th></tr></thead>
+    <tbody>
+      <tr><td><P n="Antonio Carfora" bold={true} /> × <P n="Giuseppa Perreca" bold={true} /></td>
+        <td><strong>Married 18 August 1827</strong>, act 16 — he twenty-one <em>«finiti»</em>, a
+        <em>contadino</em> of strada Camellara, <em>«figlio di <strong>PASQUALE CARFORA DEFUNTO</strong>
+        … e di <strong>MARIA CARBO=/NA</strong>»</em>; she seventeen and <strong>a minor</strong>,
+        <em>«figlia di <strong>NICOLA PERRECA</strong> … e di <strong>ORSOLA MORGILLO</strong>»</em>.
+        Their daughter <strong>Maria Rosa</strong> was born 4 November 1831.</td></tr>
+      <tr><td><P n="Aniello Carfora" bold={true} /> × <P n="Orsola Porrino" bold={true} /></td>
+        <td>He thirty-one, a <em>contadino</em> of strada Camellara; their son <strong>Antonio</strong>
+        born <strong>10 January 1831</strong>.</td></tr>
+      <tr><td><P n="Raffaele Carfora" bold={true} /> × <P n="Francesca Cioffi" bold={true} /></td>
+        <td>He thirty-seven, a <em>contadino</em>; their son <strong>Pietro</strong> born
+        <strong>12 September 1831</strong>.</td></tr>
+    </tbody>
+  </table></div>
+  <p class="small"><strong>The two witnesses who keep appearing beside them are furniture, not kin.</strong>
+  <em>Don Marcantonio Martinisi</em> and <em>Luigi Verdicchio</em> stood for Antonio Carfora and
+  Giuseppa Perreca in August 1827 <em>and</em> for Francesco Carfora and Pasqua Morgillo in June 1828 —
+  two unrelated households on two different streets, eleven months apart. They are the parish's
+  standing pair, and a Carfora act that names them has said nothing about kinship.</p>
+
+  <h2>The Carfora who married Falco</h2>
+  <p>Twice, thirty-six years apart, and both into the same house.</p>
+  <ul>
+    <li><strong>13 December 1854</strong> — <P n="Angela Carfora" bold={true} />, fifty-nine, of
+    <strong>strada Signorindico</strong>, <em>«figlia del fu <strong>ANGELO</strong> … e della fu
+    <strong>CAMILLA CRISCI</strong> … <strong>VEDOVA DI GENNARO CARFORA</strong>»</em>, married
+    <P n="Giuseppe Falco" bold={true} /> of strada Costa — seventy-one, a widower, by then living at
+    Santa Maria a Vico. <strong>A Carfora who had married a Carfora</strong>, widowed, marrying a Falco.</li>
+    <li><strong>30 December 1880</strong> — <P n="Pasquale Carfora" bold={true} /> married
+    <P n="Pasqua Falco" bold={true} />, a daughter of the same household, found in the margin of her
+    own birth act.</li>
+  </ul>
+
+  <h2>The gentry Carfora, and why they stay separate</h2>
+  <p>Act 20 of the Arienzo marriage register for 1815 — found in the half of the volume nobody had
+  opened, and not by looking for Carfora at all — marries <em>«il Signor <strong>PASQUALE
+  CARFORA</strong> di anni quaranta, di professione <strong>MEDICO CERUSICO</strong>, domiciliato nella
+  comune di <strong>SANTA MARIA A VICO</strong>, figlio legittimo delli fu Signori <strong>PAOLO
+  CARFORA</strong> ed <strong>ANNA SABATELLI</strong>»</em> to <em>«la Signora <strong>ALESSANDRA DE
+  ANGELIS</strong>, di professione <strong>GENTILDONNA</strong>, nativa di <strong>NAPOLI</strong>»</em>.</p>
+  <p><strong>Paolo Carfora died in 1782</strong> — the earliest dated Carfora this archive holds by
+  twenty years. A surgeon marrying a Neapolitan gentlewoman is not the same world as a
+  <em>contadino</em> of strada Signorindico, and <strong>nothing found so far joins them</strong>. The
+  1861 registers add a <strong>Raffaele Luigi Alfonso Carfora</strong>, <em>proprietario</em> of Santa
+  Maria a Vico, son of <strong>Tommaso Carfora</strong>. <strong>Neither line is claimed as kin to the
+  other, and the name identifies nobody.</strong></p>
+
+  <h2>What would move this line</h2>
+  <ul>
+    <li><strong>Act 16 of the 1827 marriage register has been read; act 11 of 1828 has been read.</strong>
+    What has not is <strong>Marta Grifo's death act</strong>, act 33 of the 1827 Arienzo deaths — a
+    thirty-year-old wife of <em>a</em> Francesco Carfora, dead on 6 May 1827, thirteen months before
+    our Francesco remarried. The 1828 act calls him <em>«vedovo di MARTA CRISCI»</em>.
+    <strong>Grifo is not Crisci</strong>, and one of the two readings is wrong.</li>
+    <li><strong>Matteo Carfora's own marriage.</strong> He was dead by June 1828 and is the oldest
+    Carfora of this house the archive can name.</li>
+    <li><strong>Pasqua Morgillo's death act.</strong> It is item 7 of the 1860 marriage dossier and
+    <strong>it is not in the bundle</strong> — all four death extracts filed there are from the
+    groom's town. Where the Arienzo one went is not known.</li>
+  </ul>
+
+  <p class="small" style="margin-top:1.2rem">{houses.length} households on this site carry a Carfora;
+  {swept} of these {rows.length} records were read off the registers line by line. All of them are
+  listed with their sources at <a href={u("/register/") + "?q=Carfora"}>the register →</a></p>
+</Base>
