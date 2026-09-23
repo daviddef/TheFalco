@@ -131,3 +131,57 @@ January 1855**.
 **Whose daughter she was is still unknown.** A woman married to a man born about 1775 was most likely
 born in the same decade, which would put her in **Matteo Falco's generation or the next** — but that
 is arithmetic, not evidence, and it is left as arithmetic.
+
+---
+
+# THE OWED LEAF, READ — 23 September 2026
+
+**`an_ua14356` image 24, act 34, fetched at 3,200 px and read from the image.** Work-list row 87 had
+carried this act as owed since 22 September: *«a citation in this archive's register and never re-read
+at full resolution … it is now load-bearing, and today's whole lesson is that a swept or cited row
+becomes evidence the moment something is built on it.»*
+
+> «*Num. d'ordine **trentaquattro**. L'anno mille ottocento **cinquantaquattro**, il dì **VENTI** del
+> mese di **APRILE**, alle ore **TREDICI**, avanti di noi **VINCENZO MARTONE Sindaco** ed uffiziale
+> dello stato civile del comune di **Arienzo**, distretto di **Caserta**, provincia di **Terra di
+> Lavoro**, sono comparsi **MATTEO C[RISCI]**, di anni **SESSANTASEI**, di professione [unread],
+> regnicolo, domiciliato **strada PORTA DI SOPRA**, e **CLEMENTE C[RISCI]**, di anni **QUARANTA**, di
+> professione [unread], regnicolo, domiciliato strada porta di sopra, i quali han dichiarato, che nel
+> giorno **VENTI** del mese di **APRILE** anno corrente, **alle ore UNDICI**, è morta **nella sua
+> propria casa RAFFAELA FALCO, MOGLIE DI FRANCESCO FALCO**, nata in **Arienzo**, di anni
+> **TRENTAQUATTRO**, di professione **CONTADINA**, domiciliata **strada CAMEL[LARA]**, **figlia di
+> GIUSEPPE FALCO**, di professione **contadino**, domiciliato **ivi**, **e di ANTONIA GUIDA**,
+> domiciliata **ivi***»
+
+## Everything published from the citation holds
+
+Day, hour, age, trade, street, husband, both parents — **all of it survives the image.** «**MOGLIE DI
+FRANCESCO FALCO**» is written out in full and is **not** «Francescantonio», which is the half of row 87
+that was settled on a register row and now stands on the act.
+
+## The question the record itself asked is answered
+
+Both household entries for this act carried the instruction *«when it is read it should be checked for
+whether it marks ANTONIA DI GUIDA living too»*. **It does — identically.** «*e di **ANTONIA GUIDA**,
+domiciliata **ivi***», no «fu», no «defunta», a domicile written out, exactly as for her husband in the
+clause before. **The act does not distinguish them**, so the asymmetry in this archive — one parent read
+as living from an act that says the same of both — is removed.
+
+**It changes no date.** Antonia di Guida is already held living on **15 November 1857**, three years
+later. And it is carried as a **weak inference**, as [[quondam-not-evidence]] requires for the civil
+series: probably sound, flagged, never standing alone.
+
+## New from the act: two declarants
+
+**MATTEO**, sixty-six, and **CLEMENTE**, forty, both *regnicoli* of **strada PORTA DI SOPRA** — not her
+husband, and not a Falco. Their **surname is faint** in this filming; it reads as **CRISCI** and is not
+claimed as read. **Their shared trade will not separate at all** — eight or nine letters ending
+`-lco`/`-lio`, magnified seven times at native scale and still ambiguous.
+
+## Where this filming stops
+
+The whole two-page opening is **3,659 × 2,763 pixels native** — about **1,800 across a single page**.
+A request above ~3,200 px returns **`403 Forbidden — The requested pixel area exceeds the maximum
+threshold`**, and a IIIF *region* request at native scale (`/x,y,w,h/full/0/default.jpg`, which is not
+subject to that cap) resolves no further, because there is nothing further to resolve. **The trade word
+is recorded unread, not guessed.**
