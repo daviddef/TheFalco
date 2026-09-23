@@ -2239,6 +2239,68 @@
 ]
 },
 {
+"slug": "antonia-arricale",
+"name": "Antonia Arricale",
+"surname": "ARRICALE",
+"household": "Angelo Magliato & Antonia Arricale",
+"hid": "angelo-magliato-antonia-arricale",
+"role": "wife",
+"events": [
+{
+"event": "marriage",
+"date": "18 May 1859",
+"place": "Arienzo",
+"evidence": "«*e **ANTONIA ARRICALE**, di anni **VENTISETTE**, nata in **ARIENZO**, domiciliata in Arienzo, figlia di **FRANCESCO ARRICALE**, di professione **contadino**, domiciliato ivi, e di **ANGELA PIGNATELLI**, domiciliata ivi*» — **act 10 of 1859**. Her stated age gives a birth about **1832**, and **her birth act, in the marriage dossier, makes it 9 April 1832 exactly**. **AND THIS CLOSES A CANDIDATE RATHER THAN OPENING ONE.** Work-list row 9 hunts **GIOVANNA ARRICALE's** siblings — generation five's wife, born 22 December 1848 to **FRANCESCO ARRICALE and PASQUA FALCO** of **strada CAPODICONCA**. *Same surname, same street, same trade, and a father of the same forename.* **They are two different men.** Giovanna's father is «*di anni **VENTIQUATTRO***» in December 1848, so born about **1824**; Antonia's is «*di anni **TRENTA***» in April 1832, so born about **1802**. **A man born in 1824 was eight years old in 1832.** *Antonia Arricale is not Giovanna Arricale's sister.* **She may be her aunt** — the elder Francesco is the right age to be the younger's father — **and that is a candidate, not a claim.** [[wrong-negatives]]",
+"ark": "ANTENATI an_ua14263 (Arienzo, Matrimoni 1859) img 12r, atto 10 — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "9 Apr 1832",
+"place": "Arienzo, strada Capodiconca",
+"evidence": "«*ATTO DI NASCITA. Num.º d'ordine **TRENTASETTE**. L'anno mille ottocento **TRENTADUE**, il dì **NOVE** del mese di **APRILE**, ad ore **QUATTORDICI**, avanti di noi **FRANCESCO D'AMBROGIO Sindaco** … del Comune di **CORPO D'ARIENZO** … è comparsa **CATARINA RUGGIERO, di anni SESSANTOTTO, di professione LEVATRICE**, domiciliata **ivi strada PORTA DI SOPRA**, quale ci à presentato una **FEMINA** … ed à dichiarato che **essa è nata da ANGELA PIGNATELLI, di anni TRENTA** … domiciliata **ivi strada CAPODICONCA**, **e da FRANCESCO ARRICALE, MARITO DELLA STESSA, di anni TRENTA, di professione CONTADINO**, domiciliato con detta sua moglie*» — and the baptism column: «*il Sagramento del battesimo è stato amministrato **AD ANTONIA ARRICALE** nel giorno **nove Aprile** corrente anno*».\n\n**AND THIS CLOSES A CANDIDATE RATHER THAN OPENING ONE.** Work-list row 9 hunts **GIOVANNA ARRICALE's** siblings — generation five's wife, born 22 December 1848 to **FRANCESCO ARRICALE and PASQUA FALCO** of **strada CAPODICONCA**. *Same surname, same street, same trade, and a father of the same forename.* **They are two different men.** Giovanna's father is «*di anni **VENTIQUATTRO***» in December 1848, so born about **1824**; Antonia's is «*di anni **TRENTA***» in April 1832, so born about **1802**. **A man born in 1824 was eight years old in 1832.** *Antonia Arricale is not Giovanna Arricale's sister.* **She may be her aunt** — the elder Francesco is the right age to be the younger's father — **and that is a candidate, not a claim.** [[wrong-negatives]]",
+"ark": "ANTENATI an_ua14206 (Arienzo, PROCESSETTI 1859) img 127, bundle 10 — a certified COPY of Arienzo Nati 1832 atto 37, READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "francesco-arricale-of-francesco-arricale-angela-pignatel",
+"name": "Francesco Arricale (of Angela Pignatelli)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-pignatelli",
+"name": "Angela Pignatelli",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [
+{
+"slug": "angelo-magliato",
+"name": "Angelo Magliato",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [],
+"siblings": [],
+"b": "9 Apr 1832",
+"dateFrom": {
+"b": "act"
+}
+},
+{
 "slug": "antonio-arricale",
 "name": "Antonio Arricale",
 "surname": "ARRICALE",
@@ -2383,6 +2445,56 @@
 {
 "slug": "giovanna-arricale",
 "name": "Giovanna Arricale",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
+"slug": "francesco-arricale-of-francesco-arricale-angela-pignatel",
+"name": "Francesco Arricale (of Angela Pignatelli)",
+"surname": "ARRICALE",
+"household": "Francesco Arricale & Angela Pignatelli",
+"hid": "francesco-arricale-angela-pignatelli",
+"role": "father",
+"events": [
+{
+"event": "named in his daughter's birth act",
+"date": "9 Apr 1832",
+"place": "Arienzo, strada Capodiconca",
+"evidence": "«*e da **FRANCESCO ARRICALE, marito della stessa, di anni TRENTA, di professione CONTADINO***» — so **born about 1802**. **AND THIS CLOSES A CANDIDATE RATHER THAN OPENING ONE.** Work-list row 9 hunts **GIOVANNA ARRICALE's** siblings — generation five's wife, born 22 December 1848 to **FRANCESCO ARRICALE and PASQUA FALCO** of **strada CAPODICONCA**. *Same surname, same street, same trade, and a father of the same forename.* **They are two different men.** Giovanna's father is «*di anni **VENTIQUATTRO***» in December 1848, so born about **1824**; Antonia's is «*di anni **TRENTA***» in April 1832, so born about **1802**. **A man born in 1824 was eight years old in 1832.** *Antonia Arricale is not Giovanna Arricale's sister.* **She may be her aunt** — the elder Francesco is the right age to be the younger's father — **and that is a candidate, not a claim.** [[wrong-negatives]]",
+"ark": "ANTENATI an_ua14206 (Arienzo, PROCESSETTI 1859) img 127, bundle 10 — a certified COPY of Arienzo Nati 1832 atto 37, READ FROM THE IMAGE"
+},
+{
+"event": "gave consent to his daughter's marriage, in person",
+"date": "3 Apr 1859",
+"place": "Arienzo",
+"evidence": "«*L'anno mille ottocento cinquantanove, il giorno **TRE APRILE** in Arienzo … innanzi a noi **STEFANO SCARPATI** … nella casa comunale **si sono presentati FRANCESCO ARRICALE, ed ANGELA [PIGNATELLI] … contadini** di detto comune, [i quali] prestano il loro pieno **consenso** … [alla] figlia **ANTONIA ARRICALE**, perché … [contragga] matrimonio col nominato **ANGELO [MAGLIATO]** … figlio di **PASQUALE, e DOMENICA [IANNUZZI]** … contadino di **SAN FELICE***» — **both parents appeared in person**, which dates them living by a document rather than by the absence of «fu».",
+"ark": "ANTENATI an_ua14206 (Arienzo, PROCESSETTI 1859) img 128, bundle 10 — the parents' consent, READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "angela-pignatelli",
+"name": "Angela Pignatelli",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "antonia-arricale",
+"name": "Antonia Arricale",
 "via": "register",
 "vias": [
 "register"
@@ -44938,6 +45050,40 @@
 }
 },
 {
+"slug": "angelo-magliato",
+"name": "Angelo Magliato",
+"surname": "MAGLIATO",
+"household": "Angelo Magliato & Antonia Arricale",
+"hid": "angelo-magliato-antonia-arricale",
+"role": "husband",
+"events": [
+{
+"event": "marriage",
+"date": "18 May 1859",
+"place": "Arienzo",
+"evidence": "«*comparsi nella Casa Comunale **ANGELO MAGLIATO**, di anni **VENTISETTE**, nato in **SAN FELICE**, di professione **CONTADINO**, domiciliato **in San Felice**, figlio di **PASQUALE MAGLIATO defunto**, contadino, e di **DOMENICA IANNUZZI defunta***» — so **born about 1832**. **His own birth act is in the marriage dossier** (`an_ua14206` img 123), from the *Officio dello stato civile di San Felice*, together with **three ESTRATTI DI MORTE** from the same comune.",
+"ark": "ANTENATI an_ua14263 (Arienzo, Matrimoni 1859) img 12r, atto 10 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "antonia-arricale",
+"name": "Antonia Arricale",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [],
+"siblings": []
+},
+{
 "slug": "constanza-maione",
 "name": "Constanza Maione (Falco)",
 "surname": "MAIONE",
@@ -50682,6 +50828,56 @@
 "siblings": []
 },
 {
+"slug": "angela-pignatelli",
+"name": "Angela Pignatelli",
+"surname": "PIGNATELLI",
+"household": "Francesco Arricale & Angela Pignatelli",
+"hid": "francesco-arricale-angela-pignatelli",
+"role": "mother",
+"events": [
+{
+"event": "named in her daughter's birth act",
+"date": "9 Apr 1832",
+"place": "Arienzo, strada Capodiconca",
+"evidence": "«*essa è nata da **ANGELA PIGNATELLI, di anni TRENTA** … domiciliata **ivi strada CAPODICONCA***» — so **born about 1802**. **NEW TO THIS ARCHIVE**: checked against every corpus before publishing and found nowhere. «*ATTO DI NASCITA. Num.º d'ordine **TRENTASETTE**. L'anno mille ottocento **TRENTADUE**, il dì **NOVE** del mese di **APRILE**, ad ore **QUATTORDICI**, avanti di noi **FRANCESCO D'AMBROGIO Sindaco** … del Comune di **CORPO D'ARIENZO** … è comparsa **CATARINA RUGGIERO, di anni SESSANTOTTO, di professione LEVATRICE**, domiciliata **ivi strada PORTA DI SOPRA**, quale ci à presentato una **FEMINA** … ed à dichiarato che **essa è nata da ANGELA PIGNATELLI, di anni TRENTA** … domiciliata **ivi strada CAPODICONCA**, **e da FRANCESCO ARRICALE, MARITO DELLA STESSA, di anni TRENTA, di professione CONTADINO**, domiciliato con detta sua moglie*» — and the baptism column: «*il Sagramento del battesimo è stato amministrato **AD ANTONIA ARRICALE** nel giorno **nove Aprile** corrente anno*».",
+"ark": "ANTENATI an_ua14206 (Arienzo, PROCESSETTI 1859) img 127, bundle 10 — a certified COPY of Arienzo Nati 1832 atto 37, READ FROM THE IMAGE"
+},
+{
+"event": "gave consent to her daughter's marriage, in person",
+"date": "3 Apr 1859",
+"place": "Arienzo",
+"evidence": "«*L'anno mille ottocento cinquantanove, il giorno **TRE APRILE** in Arienzo … innanzi a noi **STEFANO SCARPATI** … nella casa comunale **si sono presentati FRANCESCO ARRICALE, ed ANGELA [PIGNATELLI] … contadini** di detto comune, [i quali] prestano il loro pieno **consenso** … [alla] figlia **ANTONIA ARRICALE**, perché … [contragga] matrimonio col nominato **ANGELO [MAGLIATO]** … figlio di **PASQUALE, e DOMENICA [IANNUZZI]** … contadino di **SAN FELICE***» — **both parents appeared in person**, which dates them living by a document rather than by the absence of «fu».",
+"ark": "ANTENATI an_ua14206 (Arienzo, PROCESSETTI 1859) img 128, bundle 10 — the parents' consent, READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "francesco-arricale-of-francesco-arricale-angela-pignatel",
+"name": "Francesco Arricale (of Angela Pignatelli)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "antonia-arricale",
+"name": "Antonia Arricale",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
 "slug": "carmina-porrino",
 "name": "Carmina Porrino",
 "surname": "PORRINO",
@@ -53667,6 +53863,31 @@
 ],
 "siblings": [],
 "treeId": 4509252
+},
+{
+"slug": "catarina-ruggiero",
+"name": "Catarina Ruggiero",
+"surname": "RUGGIERO",
+"household": "Francesco Arricale & Angela Pignatelli",
+"hid": "francesco-arricale-angela-pignatelli",
+"role": "witness",
+"events": [
+{
+"event": "the midwife who declared the birth",
+"date": "9 Apr 1832",
+"place": "Arienzo, strada Porta di Sopra",
+"evidence": "«*di anni **SESSANTOTTO**, di professione **LEVATRICE**, domiciliata ivi **strada PORTA DI SOPRA***» — **a midwife, not a parent**. *Both Arricale girls this archive holds were declared by a midwife and not by their father: Catarina Ruggiero here in 1832, **ROSA MORGILLO**, forty-eight, for Giovanna Arricale in 1848. A midwife-declared act still names both parents in the «è nata da … e da …» clause* → [[birth-act-bands]].",
+"ark": "ANTENATI an_ua14206 (Arienzo, PROCESSETTI 1859) img 127, bundle 10 — a certified COPY of Arienzo Nati 1832 atto 37, READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": []
 },
 {
 "slug": "giuseppe-ruggiero",

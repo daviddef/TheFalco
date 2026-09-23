@@ -1529,5 +1529,19 @@
    "Falco",
    "read in full"
   ]
+ },
+ {
+  "when": "1859",
+  "src": "Arienzo **PROCESSETTI 1859** — ANTENATI `an_ua14206`, **350 images**. *A volume nothing in this archive had ever mentioned: `tools/isitread.py` found no coverage row, no work-list row and no note for it.* **ONLY BUNDLE 10 WAS READ — images 123–133 of 350.** The other twenty-four bundles are **unread**. Bundle covers were located with a contact sheet of the top third of the LEFT half (`--band 0.0 0.30 --half L --width 1200`); the *ESTRATTO* headings stand out as near-blank leaves.",
+  "what": "**ANTONIA ARRICALE's parentage** — whether she is a sister of **GIOVANNA ARRICALE**, generation five's wife, which work-list row 9 has been hunting in fifteen years of birth *tavole*.",
+  "got": "**SHE IS NOT, AND ONE IMAGE SETTLED IT.** Image **127** is a certified copy of **Arienzo Nati 1832, atto 37**: «*essa è nata da **ANGELA PIGNATELLI, di anni TRENTA** … **strada CAPODICONCA**, e da **FRANCESCO ARRICALE, marito della stessa, di anni TRENTA**, contadino*», the baptism column naming the child «**AD ANTONIA ARRICALE**».\n\n**Antonia's father is thirty in 1832, so born about 1802. Giovanna's father is twenty-four in December 1848, so born about 1824.** Same surname, same street, same trade — **and twenty-two years apart, so two men.** *A man born in 1824 was eight in 1832.* **She may be Giovanna's aunt; that is a candidate and it is not claimed.**\n\n**Also read:** image **123**, the groom **ANGELO MAGLIATO's** own birth act from **San Felice**, and image **128**, the **parents' consent of 3 April 1859**, at which **Francesco Arricale and Angela Pignatelli appeared in person** — dating both living by a document rather than by the absence of «fu».\n\n**THE METHOD IS THE FINDING.** A marriage dossier quotes the bride's birth act in full, with both parents and their ages. **For anyone who married at Arienzo 1809–1865 the processetti answer parentage in one image instead of a volume** — `an_ua14149` (1809) … `an_ua14211` (1865), bundle *n* = marriage act *n*, about thirteen images each, so bundle *n* starts near image **13n − 11**. *Bundle 10 began at 123; the formula predicted 119.*",
+  "outcome": "found",
+  "tags": [
+   "Antenati",
+   "Processetti",
+   "Arricale",
+   "partial"
+  ],
+  "href": "https://antenati.cultura.gov.it/ark:/12657/an_ua14206"
  }
 ]
