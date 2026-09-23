@@ -932,7 +932,9 @@
 "via": "tree",
 "vias": [
 "tree"
-]
+],
+"sameAs": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
+"kept": "ONE MAN, TWO RECORDS, LEFT UNMERGED BECAUSE THE TREE GIVES HIM NO WIFE. The register holds **CARMINE ANNECCHINO of MARIA CARFORA**; the tree holds a «Carmine Annecchino» with no spouse recorded at all. The couple is what identifies a household head on both sides, and with one side silent there is nothing to test — **and this archive holds a second Carmine Annecchino household, of ROSA CEGLIA**, so a name match alone could pick the wrong one. Filomena Annecchino's other parent is Maria Carfora, which is why the register record beside this one is the right man. *Recorded rather than merged: a rule that guessed between two Carmine Annecchino would be wrong half the time and silent about it.*"
 },
 {
 "slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
@@ -8369,19 +8371,12 @@
 "parents": [],
 "spouses": [
 {
-"slug": "matteo-falco-2",
-"name": "Matteo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
 "slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
 "name": "Matteo Falco",
 "via": "register",
 "vias": [
-"register"
+"register",
+"tree"
 ]
 }
 ],
@@ -9028,14 +9023,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco-2",
-"name": "Gioacchino Crisci (d. before 1809)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [],
@@ -9080,22 +9067,77 @@
 }
 ],
 "sources": [
-"register"
+"register",
+"tree"
 ],
 "living": false,
 "parents": [],
-"spouses": [],
-"children": [
+"spouses": [
 {
-"slug": "pasqualina-crisci",
-"name": "Pasqualina Crisci",
-"via": "register",
+"slug": "giovanna-falco-2",
+"name": "Giovanna Falco (Crisci)",
+"via": "tree",
 "vias": [
-"register"
+"tree"
 ]
 }
 ],
-"siblings": []
+"children": [
+{
+"slug": "pasqualina-crisci",
+"name": "Pascalina Crisci",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+},
+{
+"slug": "tomaso-crisci",
+"name": "Tomaso Crisci",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "clementina-crisci",
+"name": "Clementina Crisci (Guida)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "luigi-crisci",
+"name": "Luigi Crisci",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "concetta-crisci",
+"name": "Concetta Crisci (Ruotolo)",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"siblings": [],
+"mergedOn": "the couple — his own name AND his wife's agree on both sides, and the pairing is unique in each direction",
+"treeId": 4512406,
+"b": "Nov 12 1807",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
+"d": "Nov 25 1884",
+"bp": "Arienzo, Caserta, Campania, Italy",
+"dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "aniello-crisci-of-crescenzo-crisci-angela-quotolo",
@@ -9163,83 +9205,6 @@
 ]
 }
 ]
-},
-{
-"slug": "aniello-crisci",
-"name": "Aniello Crisci",
-"surname": "CRISCI",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [],
-"spouses": [
-{
-"slug": "giovanna-falco-2",
-"name": "Giovanna Falco (Crisci)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"children": [
-{
-"slug": "pasqualina-crisci",
-"name": "Pascalina Crisci",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "tomaso-crisci",
-"name": "Tomaso Crisci",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "clementina-crisci",
-"name": "Clementina Crisci (Guida)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "luigi-crisci",
-"name": "Luigi Crisci",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "concetta-crisci",
-"name": "Concetta Crisci (Ruotolo)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [],
-"treeId": 4512406,
-"b": "Nov 12 1807",
-"dateFrom": {
-"b": "tree",
-"d": "tree",
-"bp": "tree",
-"dp": "tree"
-},
-"d": "Nov 25 1884",
-"bp": "Arienzo, Caserta, Campania, Italy",
-"dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "anna-crisci",
@@ -9884,7 +9849,7 @@
 "living": false,
 "parents": [
 {
-"slug": "aniello-crisci",
+"slug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
 "name": "Aniello Crisci",
 "via": "tree",
 "vias": [
@@ -9957,7 +9922,7 @@
 "living": false,
 "parents": [
 {
-"slug": "aniello-crisci",
+"slug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
 "name": "Aniello Crisci",
 "via": "tree",
 "vias": [
@@ -10432,7 +10397,7 @@
 "living": false,
 "parents": [
 {
-"slug": "giuseppe-falco-3",
+"slug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Giuseppe Falco",
 "via": "tree",
 "vias": [
@@ -10440,7 +10405,7 @@
 ]
 },
 {
-"slug": "antonia-guida-guido",
+"slug": "antonia-di-guida",
 "name": "Antonia Guida / Guido (Falco)",
 "via": "tree",
 "vias": [
@@ -10551,7 +10516,7 @@
 ]
 },
 {
-"slug": "matteo-falco-2",
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
 "name": "Matteo Falco",
 "via": "tree",
 "vias": [
@@ -10649,14 +10614,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco-2",
-"name": "Gioacchino Crisci (d. before 1809)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [],
@@ -10723,72 +10680,12 @@
 "place": "Arienzo, strada Cioffi",
 "evidence": "«*figlio di **GIOACCHINO CRISCI defunto**, di professione contadino, domiciliato ivi*» — named in **both** his sons' death acts, and **dead before January 1829**.\n\n**THE SURNAME WAS PUBLISHED HERE AS CIOFFI UNTIL 20 SEPTEMBER 2026.** Both acts were magnified on that day and **both read CRISCI**: a capital **C**, a narrow **r** shoulder, a long **ſ** with its descender, then **ci**. **No round o, which Cossi needs; no tall double-f ligature, which Cioffi needs.** That is this archive's own three-way test, applied to the two documents this household rests on.\n\n**It matters beyond a letter.** A Falco woman marrying a **CRISCI** joins the surname the direct line married twice — Matteo Falco to Francesca Crisci and Vincenzo Falco to Andreana Crisci. **Nothing here joins her to either, and none is claimed**; but the family she married into is not the one this archive had her in.",
 "ark": "ANTENATI an_ua14345 img21r atto29"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [
-{
-"slug": "francesca-falco-of-gioacchino-crisci-francesca-falco",
-"name": "Francesca Falco",
-"via": "register",
-"vias": [
-"register"
-]
 },
-{
-"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco-2",
-"name": "Gioacchino Crisci (d. before 1809)",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"children": [
-{
-"slug": "aniello-crisci-of-gioacchino-crisci-francesca-falco",
-"name": "Aniello Crisci",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "luca-crisci",
-"name": "Luca Crisci",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "francesco-crisci-of-gioacchino-crisci-francesca-falco",
-"name": "Francesco Crisci (1765-1809)",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"siblings": []
-},
-{
-"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco-2",
-"name": "Gioacchino Crisci (d. before 1809)",
-"surname": "CRISCI",
-"household": "Gioacchino Crisci & Francesca Falco",
-"hid": "gioacchino-crisci-francesca-falco",
-"role": "father",
-"events": [
 {
 "event": "named as dead",
 "date": "1809",
 "place": "Arienzo",
-"evidence": "«***figlio del fu GIOACCHINO***» — dead by 1809. **The act gives him no surname**; it is taken from his son's. *That is an inference, and it is the only one in this household.*",
+"evidence": "«***figlio del fu GIOACCHINO***» — dead by 1809. **The act gives him no surname**; it is taken from his son's. *That is an inference, and it is the only one in this household.*\n\n**WRITTEN AS A SECOND PERSON IN THIS HOUSE AND FOLDED BACK ON 23 SEPTEMBER 2026.** This row carried a qualified form of the name — the kind this archive uses to tell two people of one name apart — **on a FATHER, in a household that already named him plainly.** A house has one father; two men of one name cannot both be it. The qualifier came in when two duplicate households were merged earlier the same day and their member lists were concatenated without folding the parents. **It put him on nine of his own children's pages twice.**",
 "ark": "ANTENATI an_ua14311 img5 — READ FROM THE IMAGE"
 }
 ],
@@ -10801,14 +10698,6 @@
 {
 "slug": "francesca-falco-of-gioacchino-crisci-francesca-falco",
 "name": "Francesca Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco",
-"name": "Gioacchino Crisci",
 "via": "register",
 "vias": [
 "register"
@@ -11190,14 +11079,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco-2",
-"name": "Gioacchino Crisci (d. before 1809)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [],
@@ -11238,7 +11119,7 @@
 "living": false,
 "parents": [
 {
-"slug": "aniello-crisci",
+"slug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
 "name": "Aniello Crisci",
 "via": "tree",
 "vias": [
@@ -11710,10 +11591,11 @@
 "living": false,
 "parents": [
 {
-"slug": "aniello-crisci",
+"slug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
 "name": "Aniello Crisci",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -11723,14 +11605,6 @@
 "via": "tree",
 "vias": [
 "tree"
-]
-},
-{
-"slug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
-"name": "Aniello Crisci",
-"via": "register",
-"vias": [
-"register"
 ]
 }
 ],
@@ -11911,7 +11785,7 @@
 "living": false,
 "parents": [
 {
-"slug": "aniello-crisci",
+"slug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
 "name": "Aniello Crisci",
 "via": "tree",
 "vias": [
@@ -13102,7 +12976,7 @@
 ]
 },
 {
-"slug": "angelo-andrea-di-guida-of-giuseppe-di-guida-maddalena-rivett",
+"slug": "angelo-andrea-di-guida-of-angelo-andrea-di-guida-teresa-vigl",
 "name": "Angelo Andrea di Guida",
 "via": "register",
 "vias": [
@@ -13256,7 +13130,7 @@
 ]
 },
 {
-"slug": "angelo-andrea-di-guida-of-giuseppe-di-guida-maddalena-rivett",
+"slug": "angelo-andrea-di-guida-of-angelo-andrea-di-guida-teresa-vigl",
 "name": "Angelo Andrea di Guida",
 "via": "register",
 "vias": [
@@ -13403,52 +13277,6 @@
 "siblings": []
 },
 {
-"slug": "angelo-andrea-di-guida-of-giuseppe-di-guida-michedalena-rive",
-"name": "Angelo Andrea di Guida",
-"surname": "DI GUIDA",
-"household": "Giuseppe di Guida & Michedalena Rivetti",
-"hid": "giuseppe-di-guida-michedalena-rivetti",
-"role": "child",
-"events": [
-{
-"event": "death",
-"date": "21 Oct 1817",
-"place": "Arienzo",
-"evidence": "«Angelo Andrea di Guida figlio di Giuseppe di Guida e Michedalena Rivetti, marito di Teresa Vigliotta» — died at seven in the morning; no age given",
-"ark": "ANTENATI an_ua14319 img59r"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "giuseppe-di-guida-of-giuseppe-di-guida-michedalena-rive",
-"name": "Giuseppe di Guida",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "michedalena-rivetti",
-"name": "Michedalena Rivetti",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [],
-"d": "21 Oct 1817",
-"dateFrom": {
-"d": "act"
-}
-},
-{
 "slug": "angelo-andrea-di-guida-of-angelo-andrea-di-guida-teresa-vigl",
 "name": "Angelo Andrea di Guida",
 "surname": "DI GUIDA",
@@ -13469,13 +13297,44 @@
 "place": "Arienzo, strada Maddalena",
 "evidence": "**THE CIVIL REGISTER NAMES HIS FATHER, AND IT AGREES WITH THE PARISH.** «*è comparso **ANGELANDREA DI GUIDA DI GIUSEPPE, di anni VENTISEI**, di professione **CONTADINO**, domiciliato in questo Comune, **strada MADDALENA***».\n\n**This archive had his filiation from the parish baptisms alone** — baptised **29 November 1791**, a child of **GIUSEPPE DI GUIDA and MADDALENA RIVETTA**, which is what makes him **ANTONIA DI GUIDA's brother** and the founder's son's brother-in-law. **«DI GIUSEPPE» in a civil act is an independent document saying the same thing**, and **twenty-six in May 1817 against a baptism of 29 November 1791 is twenty-five and a half** — right to the half-year, which this office almost never manages.\n\n**It is also the only act this archive has of him alive.** He dies on **21 October 1817**, and everything else it holds about him comes from that death.",
 "ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 50, foglio 89, img 25r — READ FROM THE IMAGE"
+},
+{
+"event": "baptism",
+"date": "29 Nov 1791",
+"place": "Arienzo",
+"evidence": "«cui dedit nomen ANGELUS ANDREAS» — the same man whose civil death act of 21 Oct 1817 names these parents. About twenty-five when he died.",
+"ark": "3Q9M-CSD3-13XT-X"
+},
+{
+"event": "death",
+"date": "21 Oct 1817",
+"place": "Arienzo",
+"evidence": "«Angelo Andrea di Guida figlio di Giuseppe di Guida e Michedalena Rivetti, marito di Teresa Vigliotta» — died at seven in the morning; no age given\n\n**HELD IN A SEPARATE HOUSEHOLD UNTIL 23 SEPTEMBER 2026, WHEN THIS ARCHIVE'S OWN NOTE ALREADY SAID IT WAS THE SAME COUPLE.** Angelo Andrea di Guida's civil death act names his parents «*figlio di GIUSEPPE DI GUIDA e **MICHEDALENA RIVETTI***», and the parish baptised him on 29 November 1791 to **GIUSEPPE DI GUIDA and MADDALENA RIVETTA**. *That match — parish against civil, two independent series, one household — is what proved Antonia di Guida's parentage in the first place.* The archive then kept the two spellings as **three separate households**, so **Antonia di Guida's own father stood twice on her page.**\n\n**«Michedalena» is the civil scribe's blend**: the parish wrote *Magdalena* for forty years. The person is filed under the parish form and **the evidence still quotes the clerk word for word**.",
+"ark": "ANTENATI an_ua14319 img59r"
 }
 ],
 "sources": [
 "register"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "giuseppe-di-guida-of-giuseppe-di-guida-maddalena-rivett",
+"name": "Giuseppe di Guida",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maddalena-rivetta",
+"name": "Maddalena Rivetta",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "spouses": [
 {
 "slug": "teresa-vigliotta-of-angelo-andrea-di-guida-teresa-vigl",
@@ -13504,52 +13363,6 @@
 ]
 }
 ],
-"siblings": [],
-"d": "21 Oct 1817",
-"dateFrom": {
-"d": "act"
-}
-},
-{
-"slug": "angelo-andrea-di-guida-of-giuseppe-di-guida-maddalena-rivett",
-"name": "Angelo Andrea di Guida",
-"surname": "DI GUIDA",
-"household": "Giuseppe di Guida & Maddalena Rivetta",
-"hid": "giuseppe-di-guida-maddalena-rivetta",
-"role": "child",
-"events": [
-{
-"event": "baptism",
-"date": "29 Nov 1791",
-"place": "Arienzo",
-"evidence": "«cui dedit nomen ANGELUS ANDREAS» — the same man whose civil death act of 21 Oct 1817 names these parents. About twenty-five when he died.",
-"ark": "3Q9M-CSD3-13XT-X"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "giuseppe-di-guida-of-giuseppe-di-guida-maddalena-rivett",
-"name": "Giuseppe di Guida",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maddalena-rivetta",
-"name": "Maddalena Rivetta",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"spouses": [],
-"children": [],
 "siblings": [
 {
 "slug": "antonia-di-guida",
@@ -13607,7 +13420,11 @@
 "register"
 ]
 }
-]
+],
+"d": "21 Oct 1817",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "antonia-di-guida",
@@ -13682,10 +13499,31 @@
 }
 ],
 "sources": [
-"register"
+"register",
+"tree"
 ],
 "living": false,
 "parents": [
+{
+"slug": "giuseppe-guida",
+"name": "Giuseppe Guida",
+"via": "tree",
+"vias": [
+"tree"
+],
+"sameAs": "giuseppe-di-guida-of-giuseppe-di-guida-maddalena-rivetta",
+"kept": "ONE MAN, TWO RECORDS, AND THE MERGE RULE IS RIGHT TO REFUSE HIM. The family tree writes her father «Giuseppe Guida» with a wife «Maddalena Rivetti»; the registers write «GIUSEPPE DI GUIDA» with a wife «MADDALENA RIVETTA». The household pass added on 23 September 2026 joins a tree person to a register head when BOTH his name and his wife's agree — and here the wives do not: **Rivetti is not Rivetta**. That is the same one-letter difference this archive has already written about at length. The parish wrote **Magdalena Rivetta** for forty years; the civil scribe of 1817 wrote **Michedalena Rivetti**, a blend of the two, and that act is what proved this family's parentage by matching parish against civil. *So the archive knows they are one couple and still will not let a rule join them on a spelling* — the identification is argued, published, and recorded here beside the edge rather than performed silently by a matcher. [[di-guida-parents]]"
+},
+{
+"slug": "maddalena-rivetti",
+"name": "Maddalena Rivetti (Guida)",
+"via": "tree",
+"vias": [
+"tree"
+],
+"sameAs": "maddalena-rivetta",
+"kept": "ONE WOMAN, AND THE SPELLING IS THE WHOLE DIFFICULTY. The family tree writes her «Maddalena Rivetti»; the parish register of Arienzo writes «MADDALENA RIVETTA», and the civil clerk who registered her son Angelo Andrea's death in 1817 wrote «MICHEDALENA RIVETTI» — a blend of the two. **The parish wrote *Magdalena* for forty years**, so this archive follows *Rivetta* and keeps the clerk's word verbatim in the evidence. *The two records are not merged, because a rule that joined Rivetti to Rivetta on an ending would also join names this archive has spent a fortnight holding apart.* Arienzo holds a second di Guida × Rivetta couple — **Filippo di Guida × Margherita Rivetta** — and it is the FORENAMES that separate them. [[di-guida-parents]]"
+},
 {
 "slug": "giuseppe-di-guida-of-giuseppe-di-guida-maddalena-rivett",
 "name": "Giuseppe di Guida",
@@ -13709,11 +13547,53 @@
 "name": "Giuseppe Falco",
 "via": "register",
 "vias": [
-"register"
+"register",
+"tree"
 ]
 }
 ],
 "children": [
+{
+"slug": "giovanna-falco-2",
+"name": "Giovanna Falco (Crisci)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
+"name": "Matteo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "francesca-crisci",
+"name": "Francesca Falco (Crisci)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "maria-falco",
+"name": "Maria Falco (Morgillo)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+},
 {
 "slug": "mattheus-falco",
 "name": "Mattheus (Matteo) Falco",
@@ -13833,19 +13713,11 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "siblings": [
 {
-"slug": "angelo-andrea-di-guida-of-giuseppe-di-guida-maddalena-rivett",
+"slug": "angelo-andrea-di-guida-of-angelo-andrea-di-guida-teresa-vigl",
 "name": "Angelo Andrea di Guida",
 "via": "register",
 "vias": [
@@ -13900,7 +13772,15 @@
 "register"
 ]
 }
-]
+],
+"mergedOn": "the couple — his own name AND his wife's agree on both sides, and the pairing is unique in each direction",
+"treeId": 4512404,
+"b": "Oct 31 1783",
+"dateFrom": {
+"b": "tree",
+"bp": "tree"
+},
+"bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "clemente-di-guida",
@@ -14072,74 +13952,6 @@
 "siblings": []
 },
 {
-"slug": "giuseppe-di-guida-of-giuseppe-di-guida-michedalena-rive",
-"name": "Giuseppe di Guida",
-"surname": "DI GUIDA",
-"household": "Giuseppe di Guida & Michedalena Rivetti",
-"hid": "giuseppe-di-guida-michedalena-rivetti",
-"role": "father",
-"events": [
-{
-"event": "named",
-"date": "—",
-"place": "Arienzo",
-"evidence": "«*figlio di **GIUSEPPE DI GUIDA***» — no «fu».\n\n**WEAK INFERENCE ONLY, AND THIS PAGE ASSERTED IT UNTIL 20 SEPTEMBER 2026.** It read «*no «fu», **so alive in October 1817**»** — a flat statement of fact. **On 14 September 2026 this archive DISPROVED the «quondam» signal for the parish Latin register**: Matteo Falco is «*filium Matthaei*», with no «q.», **seventeen days after his own burial**. Civil acts are a different tradition and this one is probably sound, **but it no longer carries the weight the sentence gave it.**\n\n**The downgrade was written into `data/households.tsv` on 14 September and never into the file the site is built from**, so the site went on asserting for six days what the archive had already stopped believing. Found by reconciling the two files — work-list row 75.",
-"ark": "ANTENATI an_ua14319 img59r"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [
-{
-"slug": "michedalena-rivetti",
-"name": "Michedalena Rivetti",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"children": [
-{
-"slug": "angelo-andrea-di-guida-of-giuseppe-di-guida-michedalena-rive",
-"name": "Angelo Andrea di Guida",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"siblings": []
-},
-{
-"slug": "giuseppe-di-guida-of-giuseppe-di-guida-strada-maddalena",
-"name": "Giuseppe di Guida",
-"surname": "DI GUIDA",
-"household": "Giuseppe di Guida (strada Maddalena)",
-"hid": "giuseppe-di-guida-strada-maddalena",
-"role": "father",
-"events": [
-{
-"event": "named as declarant",
-"date": "6 Sep 1819",
-"place": "Arienzo, strada Maddalena",
-"evidence": "«e di Giuseppe di Guida, di anni sessantotto, di professione massaro di campagna, domiciliato in questo comune, strada Maddalena» — born about 1751. A LEAD: a Giuseppe di Guida is named in October 1817 as the father of Angelo Andrea di Guida by Michedalena Rivetti, and Giuseppe Falco of strada Camellara married an ANTONIA DI GUIDA. A man of sixty-eight in 1819 is the right age to be father to both. Nothing here names Antonia, so it is not asserted.",
-"ark": "ANTENATI an_ua14321 img29r"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [],
-"children": [],
-"siblings": []
-},
-{
 "slug": "giuseppe-di-guida-of-giuseppe-di-guida-maddalena-rivett",
 "name": "Giuseppe di Guida",
 "surname": "DI GUIDA",
@@ -14153,6 +13965,13 @@
 "place": "Arienzo, strada Maddalena",
 "evidence": "«e di Giuseppe di Guida, di anni sessantotto, di professione massaro di campagna, domiciliato in questo comune, strada Maddalena» — born about 1751. HE IS ANTONIA DI GUIDA'S FATHER: the parish register gives him nine children by Maddalena Rivetta between 1773 and 1791, Antonia among them.",
 "ark": "ANTENATI an_ua14321 img29r"
+},
+{
+"event": "named",
+"date": "—",
+"place": "Arienzo",
+"evidence": "«*figlio di **GIUSEPPE DI GUIDA***» — no «fu».\n\n**WEAK INFERENCE ONLY, AND THIS PAGE ASSERTED IT UNTIL 20 SEPTEMBER 2026.** It read «*no «fu», **so alive in October 1817**»** — a flat statement of fact. **On 14 September 2026 this archive DISPROVED the «quondam» signal for the parish Latin register**: Matteo Falco is «*filium Matthaei*», with no «q.», **seventeen days after his own burial**. Civil acts are a different tradition and this one is probably sound, **but it no longer carries the weight the sentence gave it.**\n\n**The downgrade was written into `data/households.tsv` on 14 September and never into the file the site is built from**, so the site went on asserting for six days what the archive had already stopped believing. Found by reconciling the two files — work-list row 75.\n\n**HELD IN A SEPARATE HOUSEHOLD UNTIL 23 SEPTEMBER 2026, WHEN THIS ARCHIVE'S OWN NOTE ALREADY SAID IT WAS THE SAME COUPLE.** Angelo Andrea di Guida's civil death act names his parents «*figlio di GIUSEPPE DI GUIDA e **MICHEDALENA RIVETTI***», and the parish baptised him on 29 November 1791 to **GIUSEPPE DI GUIDA and MADDALENA RIVETTA**. *That match — parish against civil, two independent series, one household — is what proved Antonia di Guida's parentage in the first place.* The archive then kept the two spellings as **three separate households**, so **Antonia di Guida's own father stood twice on her page.**\n\n**«Michedalena» is the civil scribe's blend**: the parish wrote *Magdalena* for forty years. The person is filed under the parish form and **the evidence still quotes the clerk word for word**.",
+"ark": "ANTENATI an_ua14319 img59r"
 }
 ],
 "sources": [
@@ -14180,7 +13999,7 @@
 ]
 },
 {
-"slug": "angelo-andrea-di-guida-of-giuseppe-di-guida-maddalena-rivett",
+"slug": "angelo-andrea-di-guida-of-angelo-andrea-di-guida-teresa-vigl",
 "name": "Angelo Andrea di Guida",
 "via": "register",
 "vias": [
@@ -14375,7 +14194,7 @@
 ]
 },
 {
-"slug": "angelo-andrea-di-guida-of-giuseppe-di-guida-maddalena-rivett",
+"slug": "angelo-andrea-di-guida-of-angelo-andrea-di-guida-teresa-vigl",
 "name": "Angelo Andrea di Guida",
 "via": "register",
 "vias": [
@@ -14582,7 +14401,7 @@
 ]
 },
 {
-"slug": "angelo-andrea-di-guida-of-giuseppe-di-guida-maddalena-rivett",
+"slug": "angelo-andrea-di-guida-of-angelo-andrea-di-guida-teresa-vigl",
 "name": "Angelo Andrea di Guida",
 "via": "register",
 "vias": [
@@ -14695,7 +14514,7 @@
 ]
 },
 {
-"slug": "angelo-andrea-di-guida-of-giuseppe-di-guida-maddalena-rivett",
+"slug": "angelo-andrea-di-guida-of-angelo-andrea-di-guida-teresa-vigl",
 "name": "Angelo Andrea di Guida",
 "via": "register",
 "vias": [
@@ -14895,7 +14714,7 @@
 ]
 },
 {
-"slug": "angelo-andrea-di-guida-of-giuseppe-di-guida-maddalena-rivett",
+"slug": "angelo-andrea-di-guida-of-angelo-andrea-di-guida-teresa-vigl",
 "name": "Angelo Andrea di Guida",
 "via": "register",
 "vias": [
@@ -16357,7 +16176,7 @@
 ]
 },
 {
-"slug": "domenico-falco",
+"slug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
 "name": "Domenico Falco",
 "via": "tree",
 "vias": [
@@ -17476,7 +17295,7 @@
 "living": false,
 "parents": [
 {
-"slug": "matteo-falco-2",
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
 "name": "Matteo Falco",
 "via": "tree",
 "vias": [
@@ -18305,7 +18124,7 @@
 ]
 },
 {
-"slug": "domenico-falco",
+"slug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
 "name": "Domenico Falco",
 "via": "tree",
 "vias": [
@@ -19322,7 +19141,7 @@
 "living": false,
 "parents": [
 {
-"slug": "matteo-falco-2",
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
 "name": "Matteo Falco",
 "via": "tree",
 "vias": [
@@ -20030,14 +19849,6 @@
 {
 "slug": "gelsomina-vigliotta",
 "name": "Gelsomina Vigliotta",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
-"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
 "via": "register",
 "vias": [
 "register"
@@ -20936,7 +20747,7 @@
 "living": false,
 "parents": [
 {
-"slug": "matteo-falco-2",
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
 "name": "Matteo Falco",
 "via": "tree",
 "vias": [
@@ -22982,7 +22793,7 @@
 "living": false,
 "parents": [
 {
-"slug": "matteo-falco-2",
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
 "name": "Matteo Falco",
 "via": "tree",
 "vias": [
@@ -23415,35 +23226,21 @@
 "living": false,
 "parents": [
 {
-"slug": "giuseppe-falco-3",
-"name": "Giuseppe Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "antonia-guida-guido",
-"name": "Antonia Guida / Guido (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
 "slug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Giuseppe Falco",
 "via": "register",
 "vias": [
-"register"
+"register",
+"tree"
 ]
 },
 {
 "slug": "antonia-di-guida",
-"name": "Antonia di Guida",
+"name": "Antonia Guida / Guido (Falco)",
 "via": "register",
 "vias": [
-"register"
+"register",
+"tree"
 ]
 }
 ],
@@ -23550,7 +23347,7 @@
 ]
 },
 {
-"slug": "matteo-falco-2",
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
 "name": "Matteo Falco",
 "via": "tree",
 "vias": [
@@ -23942,10 +23739,11 @@
 "living": false,
 "parents": [
 {
-"slug": "matteo-falco-2",
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
 "name": "Matteo Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -23956,14 +23754,6 @@
 "vias": [
 "register",
 "tree"
-]
-},
-{
-"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
-"name": "Matteo Falco",
-"via": "register",
-"vias": [
-"register"
 ]
 }
 ],
@@ -24337,14 +24127,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
-"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [],
@@ -24629,14 +24411,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
-"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [],
@@ -24731,40 +24505,7 @@
 }
 ],
 "sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [
-{
-"slug": "mariantonia-frasca",
-"name": "Mariantonia Frasca",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"children": [
-{
-"slug": "angelantonio-falco",
-"name": "Angelantonio Falco",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"siblings": []
-},
-{
-"slug": "domenico-falco",
-"name": "Domenico Falco",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
+"register",
 "tree"
 ],
 "living": false,
@@ -24773,8 +24514,9 @@
 {
 "slug": "mariantonia-frasca",
 "name": "Mariantonia Frasca (Falco)",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 }
@@ -24786,6 +24528,14 @@
 "via": "tree",
 "vias": [
 "tree"
+]
+},
+{
+"slug": "angelantonio-falco",
+"name": "Angelantonio Falco",
+"via": "register",
+"vias": [
+"register"
 ]
 }
 ],
@@ -24879,6 +24629,7 @@
 ]
 }
 ],
+"mergedOn": "the couple — his own name AND his wife's agree on both sides, and the pairing is unique in each direction",
 "treeId": 4512547
 },
 {
@@ -25007,7 +24758,7 @@
 "living": false,
 "parents": [
 {
-"slug": "matteo-falco-2",
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
 "name": "Matteo Falco",
 "via": "tree",
 "vias": [
@@ -25140,7 +24891,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-3",
+"slug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Giuseppe Falco",
 "via": "tree",
 "vias": [
@@ -25200,14 +24951,6 @@
 {
 "slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco",
 "name": "Gioacchino Crisci",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco-2",
-"name": "Gioacchino Crisci (d. before 1809)",
 "via": "register",
 "vias": [
 "register"
@@ -25888,7 +25631,7 @@
 ]
 },
 {
-"slug": "domenico-falco",
+"slug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
 "name": "Domenico Falco",
 "via": "tree",
 "vias": [
@@ -26245,7 +25988,7 @@
 ]
 },
 {
-"slug": "domenico-falco",
+"slug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
 "name": "Domenico Falco",
 "via": "tree",
 "vias": [
@@ -26369,7 +26112,7 @@
 ]
 },
 {
-"slug": "domenico-falco",
+"slug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
 "name": "Domenico Falco",
 "via": "tree",
 "vias": [
@@ -26568,7 +26311,7 @@
 "living": false,
 "parents": [
 {
-"slug": "domenico-falco",
+"slug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
 "name": "Domenico Falco",
 "via": "tree",
 "vias": [
@@ -27102,7 +26845,7 @@
 ],
 "siblings": [
 {
-"slug": "giuseppe-falco-3",
+"slug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Giuseppe Falco",
 "via": "tree",
 "vias": [
@@ -27722,7 +27465,7 @@
 "living": false,
 "parents": [
 {
-"slug": "giuseppe-falco-3",
+"slug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Giuseppe Falco",
 "via": "tree",
 "vias": [
@@ -27730,7 +27473,7 @@
 ]
 },
 {
-"slug": "antonia-guida-guido",
+"slug": "antonia-di-guida",
 "name": "Antonia Guida / Guido (Falco)",
 "via": "tree",
 "vias": [
@@ -27740,7 +27483,7 @@
 ],
 "spouses": [
 {
-"slug": "aniello-crisci",
+"slug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
 "name": "Aniello Crisci",
 "via": "tree",
 "vias": [
@@ -27792,7 +27535,7 @@
 ],
 "siblings": [
 {
-"slug": "matteo-falco-2",
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
 "name": "Matteo Falco",
 "via": "tree",
 "vias": [
@@ -28988,21 +28731,81 @@
 }
 ],
 "sources": [
-"register"
+"register",
+"tree"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "matteo-falco",
+"name": "Matteo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "francesca-crisci-falco",
+"name": "Francesca Crisci Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
 "spouses": [
 {
 "slug": "antonia-di-guida",
-"name": "Antonia di Guida",
+"name": "Antonia Guida / Guido (Falco)",
 "via": "register",
 "vias": [
-"register"
+"register",
+"tree"
 ]
 }
 ],
 "children": [
+{
+"slug": "giovanna-falco-2",
+"name": "Giovanna Falco (Crisci)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
+"name": "Matteo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "francesca-crisci",
+"name": "Francesca Falco (Crisci)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "maria-falco",
+"name": "Maria Falco (Morgillo)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+},
 {
 "slug": "mattheus-falco",
 "name": "Mattheus (Matteo) Falco",
@@ -29122,17 +28925,30 @@
 "vias": [
 "register"
 ]
-},
+}
+],
+"siblings": [
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
+"slug": "gioacchino-falco-2",
+"name": "Gioacchino Falco",
+"via": "tree",
 "vias": [
-"register"
+"tree"
 ]
 }
 ],
-"siblings": []
+"mergedOn": "the couple — his own name AND his wife's agree on both sides, and the pairing is unique in each direction",
+"treeId": 4512403,
+"b": "1776",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
+"d": "Dec 10 1871",
+"bp": "Arienzo, Caserta, Campania, Italia",
+"dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "giuseppe-falco-of-crescenzo-falco-angela-maria-morgi",
@@ -29239,120 +29055,12 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "**AND THIS ACT COMPLICATES THE TEST THAT KEEPS THE TWO GIUSEPPE FALCO APART.** «*GIUSEPPE FALCO, di anni **TRENTOTTO**, di professione contadino, domiciliato in questo Comune, **strada CAMELLARA***» — with **GELSOMINA VIGLIOTTA** as his wife.\n\nThis archive separates the two men of this name «**by street and wife**»: one on **strada COSTA** with **Gelsomina Vigliotta**, one on **strada CAMELLARA** with **Antonia di Guida**. **Here the Gelsomina Vigliotta household is on strada Camellara.** So the two halves of the test do not agree, and **the wife is the half that holds**: the street does not. *Nothing is merged* — the 1816 and 1818 acts that founded the distinction still name two different wives, which is what matters — but a reading that rests on the street alone is not safe.",
 "ark": "ANTENATI an_ua14418 (Arienzo, Nati 1821) img 24r-25l, atto 22 — READ FROM THE IMAGE"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [
-{
-"slug": "gelsomina-vigliotta",
-"name": "Gelsomina Vigliotta",
-"via": "register",
-"vias": [
-"register"
-]
 },
-{
-"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
-"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"children": [
-{
-"slug": "domenico-falco-of-giuseppe-falco-gelsomina-vigliotta",
-"name": "Domenico Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta",
-"name": "Rosaria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "domenico-clemente-falco",
-"name": "Domenico Clemente Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "rosaria-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
-"name": "Rosaria Falco (the second)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "antonio-falco-of-giuseppe-falco-gelsomina-vigliotta",
-"name": "Antonio Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "nicola-falco",
-"name": "Nicola Falco (1807-1809)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "daughter-falco-of-giuseppe-falco-gelsomina-vigliotta",
-"name": "[daughter] Falco (b. 5 Feb 1815)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "daughter-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
-"name": "[daughter] Falco (b. 16 Mar 1810)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasqua-falco",
-"name": "Pasqua Falco",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"siblings": []
-},
-{
-"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
-"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
-"surname": "FALCO",
-"household": "Giuseppe Falco & Gelsomina Vigliotta",
-"hid": "giuseppe-falco-gelsomina-vigliotta",
-"role": "father",
-"events": [
 {
 "event": "named as living",
 "date": "1809",
 "place": "Arienzo, strada Camellara",
-"evidence": "Alive in 1809, *contadino* of **strada Camellara**. **HE IS DELIBERATELY NOT MERGED WITH THE GIUSEPPE FALCO OF ANTONIA DI GUIDA**, who appears in this same register with a different wife on a different street, nor with the **Giuseppe Falco dead before January 1811** whose son Angelo also lived on strada Camellara.\n\n**THREE MEN OF THIS NAME ARE NOW DOCUMENTED IN THREE CONSECUTIVE YEARS OF ONE TOWN'S DEATH REGISTERS**, two of them on the same street. **This archive resolves Falco by household, never by name.** [[which-falco]]",
+"evidence": "Alive in 1809, *contadino* of **strada Camellara**. **HE IS DELIBERATELY NOT MERGED WITH THE GIUSEPPE FALCO OF ANTONIA DI GUIDA**, who appears in this same register with a different wife on a different street, nor with the **Giuseppe Falco dead before January 1811** whose son Angelo also lived on strada Camellara.\n\n**THREE MEN OF THIS NAME ARE NOW DOCUMENTED IN THREE CONSECUTIVE YEARS OF ONE TOWN'S DEATH REGISTERS**, two of them on the same street. **This archive resolves Falco by household, never by name.** [[which-falco]]\n\n**WRITTEN AS A SECOND PERSON IN THIS HOUSE AND FOLDED BACK ON 23 SEPTEMBER 2026.** This row carried a qualified form of the name — the kind this archive uses to tell two people of one name apart — **on a FATHER, in a household that already named him plainly.** A house has one father; two men of one name cannot both be it. The qualifier came in when two duplicate households were merged earlier the same day and their member lists were concatenated without folding the parents. **It put him on nine of his own children's pages twice.**",
 "ark": "ANTENATI an_ua14311 img44 — READ FROM THE IMAGE"
 }
 ],
@@ -29362,14 +29070,6 @@
 "living": false,
 "parents": [],
 "spouses": [
-{
-"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta",
-"name": "Giuseppe Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
 {
 "slug": "gelsomina-vigliotta",
 "name": "Gelsomina Vigliotta",
@@ -29802,7 +29502,7 @@
 ]
 },
 {
-"slug": "domenico-falco",
+"slug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
 "name": "Domenico Falco",
 "via": "tree",
 "vias": [
@@ -29829,109 +29529,6 @@
 "treeId": 4512399
 },
 {
-"slug": "giuseppe-falco-3",
-"name": "Giuseppe Falco",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "matteo-falco",
-"name": "Matteo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "francesca-crisci-falco",
-"name": "Francesca Crisci Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [
-{
-"slug": "antonia-guida-guido",
-"name": "Antonia Guida / Guido (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"children": [
-{
-"slug": "giovanna-falco-2",
-"name": "Giovanna Falco (Crisci)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "matteo-falco-2",
-"name": "Matteo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "francesca-crisci",
-"name": "Francesca Falco (Crisci)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "maria-falco",
-"name": "Maria Falco (Morgillo)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [
-{
-"slug": "gioacchino-falco-2",
-"name": "Gioacchino Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4512403,
-"b": "1776",
-"dateFrom": {
-"b": "tree",
-"d": "tree",
-"bp": "tree",
-"dp": "tree"
-},
-"d": "Dec 10 1871",
-"bp": "Arienzo, Caserta, Campania, Italia",
-"dp": "Arienzo, Caserta, Campania, Italia"
-},
-{
 "slug": "giuseppe-falco-4",
 "name": "Giuseppe Falco",
 "surname": "FALCO",
@@ -29944,7 +29541,7 @@
 "living": false,
 "parents": [
 {
-"slug": "matteo-falco-2",
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
 "name": "Matteo Falco",
 "via": "tree",
 "vias": [
@@ -33089,14 +32686,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "francesco-quotolo-of-francesco-quotolo-maria-falco-2",
-"name": "Francesco Quotolo (1731-1815)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "children": [],
@@ -33462,7 +33051,7 @@
 "living": false,
 "parents": [
 {
-"slug": "giuseppe-falco-3",
+"slug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Giuseppe Falco",
 "via": "tree",
 "vias": [
@@ -33470,7 +33059,7 @@
 ]
 },
 {
-"slug": "antonia-guida-guido",
+"slug": "antonia-di-guida",
 "name": "Antonia Guida / Guido (Falco)",
 "via": "tree",
 "vias": [
@@ -33499,7 +33088,7 @@
 ]
 },
 {
-"slug": "matteo-falco-2",
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
 "name": "Matteo Falco",
 "via": "tree",
 "vias": [
@@ -33548,7 +33137,7 @@
 "living": false,
 "parents": [
 {
-"slug": "matteo-falco-2",
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
 "name": "Matteo Falco",
 "via": "tree",
 "vias": [
@@ -35144,27 +34733,111 @@
 }
 ],
 "sources": [
-"register"
+"register",
+"tree"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Giuseppe Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "antonia-di-guida",
+"name": "Antonia Guida / Guido (Falco)",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
 "spouses": [
 {
 "slug": "alessandra-crisci",
-"name": "Alessandra Crisci",
+"name": "Alessandra Crisci (Falco)",
 "via": "register",
 "vias": [
-"register"
+"register",
+"tree"
 ]
 }
 ],
 "children": [
 {
+"slug": "angela-rosa-falco-2",
+"name": "Angela Rosa Falco (Abatiello)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "carmela-falco-2",
+"name": "Carmela Falco (Ruotolo)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "filomena-falco",
+"name": "Filomena Falco (Crisci)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "giuseppe-falco-4",
+"name": "Giuseppe Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "vincenza-falco-2",
+"name": "Vincenza Falco (Morgillo)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "maria-falco-2",
+"name": "Maria Falco (Ferrara)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
 "slug": "domenica-falco",
-"name": "Domenica Falco",
+"name": "Domenica Falco (Guida)",
 "via": "register",
 "vias": [
-"register"
+"register",
+"tree"
+]
+},
+{
+"slug": "clementina-falco",
+"name": "Clementina Falco (Biondo)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "antonia-falco",
+"name": "Antonia Falco",
+"via": "tree",
+"vias": [
+"tree"
 ]
 },
 {
@@ -35176,7 +34849,52 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [
+{
+"slug": "giovanna-falco-2",
+"name": "Giovanna Falco (Crisci)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "francesca-crisci",
+"name": "Francesca Falco (Crisci)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "maria-falco",
+"name": "Maria Falco (Morgillo)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"mergedOn": "the couple — his own name AND his wife's agree on both sides, and the pairing is unique in each direction",
+"treeId": 4512407,
+"b": "1810",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
+"d": "Dec 12 1867",
+"bp": "Arienzo, Caserta, Campania, Itália",
+"dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "matteo-falco-of-michele-falco-antonia-vigliotta",
@@ -35281,7 +34999,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-3",
+"slug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Giuseppe Falco",
 "via": "tree",
 "vias": [
@@ -35355,7 +35073,7 @@
 ]
 },
 {
-"slug": "domenico-falco",
+"slug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
 "name": "Domenico Falco",
 "via": "tree",
 "vias": [
@@ -35389,165 +35107,6 @@
 },
 "d": "July 18 1802",
 "bp": "Arienzo, Caserta, Campania, Italia",
-"dp": "Arienzo, Caserta, Campania, Italia"
-},
-{
-"slug": "matteo-falco-2",
-"name": "Matteo Falco",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "giuseppe-falco-3",
-"name": "Giuseppe Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "antonia-guida-guido",
-"name": "Antonia Guida / Guido (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [
-{
-"slug": "alessandra-crisci",
-"name": "Alessandra Crisci (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"children": [
-{
-"slug": "angela-rosa-falco-2",
-"name": "Angela Rosa Falco (Abatiello)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "carmela-falco-2",
-"name": "Carmela Falco (Ruotolo)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "filomena-falco",
-"name": "Filomena Falco (Crisci)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "giuseppe-falco-4",
-"name": "Giuseppe Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "vincenza-falco-2",
-"name": "Vincenza Falco (Morgillo)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "maria-falco-2",
-"name": "Maria Falco (Ferrara)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "domenica-falco",
-"name": "Domenica Falco (Guida)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "clementina-falco",
-"name": "Clementina Falco (Biondo)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "antonia-falco",
-"name": "Antonia Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [
-{
-"slug": "giovanna-falco-2",
-"name": "Giovanna Falco (Crisci)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "francesca-crisci",
-"name": "Francesca Falco (Crisci)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "maria-falco",
-"name": "Maria Falco (Morgillo)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4512407,
-"b": "1810",
-"dateFrom": {
-"b": "tree",
-"d": "tree",
-"bp": "tree",
-"dp": "tree"
-},
-"d": "Dec 12 1867",
-"bp": "Arienzo, Caserta, Campania, Itália",
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
@@ -35709,7 +35268,7 @@
 ]
 },
 {
-"slug": "domenico-falco",
+"slug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
 "name": "Domenico Falco",
 "via": "tree",
 "vias": [
@@ -36486,14 +36045,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
-"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [],
@@ -36926,14 +36477,6 @@
 {
 "slug": "gelsomina-vigliotta",
 "name": "Gelsomina Vigliotta",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
-"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
 "via": "register",
 "vias": [
 "register"
@@ -38050,7 +37593,7 @@
 ]
 },
 {
-"slug": "domenico-falco",
+"slug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
 "name": "Domenico Falco",
 "via": "tree",
 "vias": [
@@ -38174,7 +37717,7 @@
 ]
 },
 {
-"slug": "domenico-falco",
+"slug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
 "name": "Domenico Falco",
 "via": "tree",
 "vias": [
@@ -41086,14 +40629,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
-"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [],
@@ -41201,14 +40736,6 @@
 {
 "slug": "gelsomina-vigliotta",
 "name": "Gelsomina Vigliotta",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
-"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
 "via": "register",
 "vias": [
 "register"
@@ -41831,7 +41358,7 @@
 "living": false,
 "parents": [
 {
-"slug": "matteo-falco-2",
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
 "name": "Matteo Falco",
 "via": "tree",
 "vias": [
@@ -42833,14 +42360,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
-"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [],
@@ -42948,14 +42467,6 @@
 {
 "slug": "gelsomina-vigliotta",
 "name": "Gelsomina Vigliotta",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
-"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
 "via": "register",
 "vias": [
 "register"
@@ -43190,7 +42701,7 @@
 ]
 },
 {
-"slug": "domenico-falco",
+"slug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
 "name": "Domenico Falco",
 "via": "tree",
 "vias": [
@@ -44178,19 +43689,12 @@
 "parents": [],
 "spouses": [
 {
-"slug": "domenico-falco",
-"name": "Domenico Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
 "slug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
-"name": "Domenico Falco (m. 1844, Santa Maria a Vico)",
+"name": "Domenico Falco",
 "via": "register",
 "vias": [
-"register"
+"register",
+"tree"
 ]
 }
 ],
@@ -44718,7 +44222,7 @@
 ],
 "children": [
 {
-"slug": "antonia-guida-guido",
+"slug": "antonia-di-guida",
 "name": "Antonia Guida / Guido (Falco)",
 "via": "tree",
 "vias": [
@@ -44842,96 +44346,6 @@
 "d": "May 25 1875",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
-},
-{
-"slug": "antonia-guida-guido",
-"name": "Antonia Guida / Guido (Falco)",
-"surname": "GUIDA / GUIDO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "giuseppe-guida",
-"name": "Giuseppe Guida",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "maddalena-rivetti",
-"name": "Maddalena Rivetti (Guida)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [
-{
-"slug": "giuseppe-falco-3",
-"name": "Giuseppe Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"children": [
-{
-"slug": "giovanna-falco-2",
-"name": "Giovanna Falco (Crisci)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "matteo-falco-2",
-"name": "Matteo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "francesca-crisci",
-"name": "Francesca Falco (Crisci)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "maria-falco",
-"name": "Maria Falco (Morgillo)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [],
-"treeId": 4512404,
-"b": "Oct 31 1783",
-"dateFrom": {
-"b": "tree",
-"bp": "tree"
-},
-"bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "maria-amelia-amalia-guida-guido",
@@ -51954,47 +51368,12 @@
 "place": "Arienzo",
 "evidence": "«vedova di Francesco Quotolo» — dead by July 1817",
 "ark": "ANTENATI an_ua14319 img34l"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [
-{
-"slug": "maria-falco-of-francesco-quotolo-maria-falco",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
 },
-{
-"slug": "francesco-quotolo-of-francesco-quotolo-maria-falco-2",
-"name": "Francesco Quotolo (1731-1815)",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"children": [],
-"siblings": []
-},
-{
-"slug": "francesco-quotolo-of-francesco-quotolo-maria-falco-2",
-"name": "Francesco Quotolo (1731-1815)",
-"surname": "QUOTOLO",
-"household": "Francesco Quotolo & Maria Falco",
-"hid": "francesco-quotolo-maria-falco",
-"role": "father",
-"events": [
 {
 "event": "death",
 "date": "22 Feb 1815",
 "place": "Arienzo, strada Maddalena",
-"evidence": "«*…e di **FRANCESCO QUOTOLO** di anni **ventisette**, di professione **massaro di campagna** … strada **Maddalena**, **PARENTI DEL DEFUNTO**, i quali hanno dichiarato che a detto dì **ventidue** del mese corrente di **Febrajo**, ad ore **dodici**, **FRANCESCO QUOTOLO**, **figlio delli furono LORENZO QUOTOLO e TERESA DELLA M⟨———⟩**, **MARITO DI MARIA FALCO**, di anni **OTTANTAQUATTRO**, di professione **contadino**, domiciliato strada **MADDALENA**, **è morto nella sua propria casa***».\n\n**Eighty-four in 1815, so born about 1731** — and **one of the two declarants bears his own name**, is twenty-seven, lives on the same street and is called «*parente*». *A grandson is the obvious reading and the act does not say so.*\n\n---\n\n**CORRECTED 23 SEPTEMBER 2026 — THIS HOUSEHOLD WAS NOT NEW AND THIS ARCHIVE SAID IT WAS.** The row above was written into a household record created from scratch, because the publishing script appended a new entry instead of finding the existing one. **Four household names were duplicated that way in one night**, and the verification chain passed every time: **no gate in this archive checked for two households of the same name.** One now does. **What this act actually adds** is a *date*. This archive already held the couple from **Maria Falco's own death act of 24 July 1817**, which calls her «*vedova di Francesco Quotolo*» and told us only that he was **dead before July 1817**. **He died on 22 February 1815**, and the act gives his age, his parents and his street.",
+"evidence": "«*…e di **FRANCESCO QUOTOLO** di anni **ventisette**, di professione **massaro di campagna** … strada **Maddalena**, **PARENTI DEL DEFUNTO**, i quali hanno dichiarato che a detto dì **ventidue** del mese corrente di **Febrajo**, ad ore **dodici**, **FRANCESCO QUOTOLO**, **figlio delli furono LORENZO QUOTOLO e TERESA DELLA M⟨———⟩**, **MARITO DI MARIA FALCO**, di anni **OTTANTAQUATTRO**, di professione **contadino**, domiciliato strada **MADDALENA**, **è morto nella sua propria casa***».\n\n**Eighty-four in 1815, so born about 1731** — and **one of the two declarants bears his own name**, is twenty-seven, lives on the same street and is called «*parente*». *A grandson is the obvious reading and the act does not say so.*\n\n---\n\n**CORRECTED 23 SEPTEMBER 2026 — THIS HOUSEHOLD WAS NOT NEW AND THIS ARCHIVE SAID IT WAS.** The row above was written into a household record created from scratch, because the publishing script appended a new entry instead of finding the existing one. **Four household names were duplicated that way in one night**, and the verification chain passed every time: **no gate in this archive checked for two households of the same name.** One now does. **What this act actually adds** is a *date*. This archive already held the couple from **Maria Falco's own death act of 24 July 1817**, which calls her «*vedova di Francesco Quotolo*» and told us only that he was **dead before July 1817**. **He died on 22 February 1815**, and the act gives his age, his parents and his street.\n\n**WRITTEN AS A SECOND PERSON IN THIS HOUSE AND FOLDED BACK ON 23 SEPTEMBER 2026.** This row carried a qualified form of the name — the kind this archive uses to tell two people of one name apart — **on a FATHER, in a household that already named him plainly.** A house has one father; two men of one name cannot both be it. The qualifier came in when two duplicate households were merged earlier the same day and their member lists were concatenated without folding the parents. **It put him on nine of his own children's pages twice.**",
 "ark": "ANTENATI an_ua14317 img12 — READ FROM THE IMAGE"
 }
 ],
@@ -52004,14 +51383,6 @@
 "living": false,
 "parents": [],
 "spouses": [
-{
-"slug": "francesco-quotolo-of-francesco-quotolo-maria-falco",
-"name": "Francesco Quotolo",
-"via": "register",
-"vias": [
-"register"
-]
-},
 {
 "slug": "maria-falco-of-francesco-quotolo-maria-falco",
 "name": "Maria Falco",
@@ -52390,6 +51761,13 @@
 "place": "Arienzo",
 "evidence": "Named «Magdalena Rivetta» in the parish register throughout, and «Michedalena Rivetti» by the civil clerk of 1817 — the scribe's own line-break, «e Miche-/dalena», a Campanian blend. The parish spelling settles it.",
 "ark": "3Q9M-CSD3-13K9-C"
+},
+{
+"event": "named",
+"date": "—",
+"place": "Arienzo",
+"evidence": "«e Michedalena Rivetti» — the scribe breaks the name across a line as «e Miche-/dalena», a Campanian blend of Michela and Maddalena. A Rivetti woman married into the di Guida.\n\n**HELD IN A SEPARATE HOUSEHOLD UNTIL 23 SEPTEMBER 2026, WHEN THIS ARCHIVE'S OWN NOTE ALREADY SAID IT WAS THE SAME COUPLE.** Angelo Andrea di Guida's civil death act names his parents «*figlio di GIUSEPPE DI GUIDA e **MICHEDALENA RIVETTI***», and the parish baptised him on 29 November 1791 to **GIUSEPPE DI GUIDA and MADDALENA RIVETTA**. *That match — parish against civil, two independent series, one household — is what proved Antonia di Guida's parentage in the first place.* The archive then kept the two spellings as **three separate households**, so **Antonia di Guida's own father stood twice on her page.**\n\n**«Michedalena» is the civil scribe's blend**: the parish wrote *Magdalena* for forty years. The person is filed under the parish form and **the evidence still quotes the clerk word for word**.",
+"ark": "ANTENATI an_ua14319 img59r"
 }
 ],
 "sources": [
@@ -52417,7 +51795,7 @@
 ]
 },
 {
-"slug": "angelo-andrea-di-guida-of-giuseppe-di-guida-maddalena-rivett",
+"slug": "angelo-andrea-di-guida-of-angelo-andrea-di-guida-teresa-vigl",
 "name": "Angelo Andrea di Guida",
 "via": "register",
 "vias": [
@@ -53624,7 +53002,7 @@
 ],
 "children": [
 {
-"slug": "antonia-guida-guido",
+"slug": "antonia-di-guida",
 "name": "Antonia Guida / Guido (Falco)",
 "via": "tree",
 "vias": [
@@ -53680,49 +53058,6 @@
 {
 "slug": "giuditta-morgillo-of-carlantonio-morgillo-the-elder-man",
 "name": "Giuditta Morgillo",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"siblings": []
-},
-{
-"slug": "michedalena-rivetti",
-"name": "Michedalena Rivetti",
-"surname": "RIVETTI",
-"household": "Giuseppe di Guida & Michedalena Rivetti",
-"hid": "giuseppe-di-guida-michedalena-rivetti",
-"role": "mother",
-"events": [
-{
-"event": "named",
-"date": "—",
-"place": "Arienzo",
-"evidence": "«e Michedalena Rivetti» — the scribe breaks the name across a line as «e Miche-/dalena», a Campanian blend of Michela and Maddalena. A Rivetti woman married into the di Guida.",
-"ark": "ANTENATI an_ua14319 img59r"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [
-{
-"slug": "giuseppe-di-guida-of-giuseppe-di-guida-michedalena-rive",
-"name": "Giuseppe di Guida",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"children": [
-{
-"slug": "angelo-andrea-di-guida-of-giuseppe-di-guida-michedalena-rive",
-"name": "Angelo Andrea di Guida",
 "via": "register",
 "vias": [
 "register"
@@ -56954,14 +56289,6 @@
 {
 "slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta",
 "name": "Giuseppe Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-falco-of-giuseppe-falco-gelsomina-vigliotta-2",
-"name": "Giuseppe Falco (of Gelsomina Vigliotta)",
 "via": "register",
 "vias": [
 "register"
