@@ -208,7 +208,7 @@
     "who": "Maria Falco (Morgillo)",
     "whoSlug": "maria-falco",
     "to": "Raffaele Morgillo",
-    "toSlug": "raffaele-morgillo",
+    "toSlug": "raffaele-morgillo-of-carlantonio-morgillo-rosa-falco",
     "into": "Morgillo",
     "living": false
    },
@@ -270,7 +270,7 @@
    },
    {
     "who": "Domenica Falco (Guida)",
-    "whoSlug": "domenica-falco-2",
+    "whoSlug": "domenica-falco",
     "to": "Pasqualantonio Guida",
     "toSlug": "pasqualantonio-guida",
     "into": "Guida",
@@ -342,7 +342,7 @@
    },
    {
     "who": "Antonio Falco",
-    "whoSlug": "antonio-falco-2",
+    "whoSlug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
     "to": "(Maria) Carmela di Guida / Guido (Falco)",
     "toSlug": "carmela-di-guida-guido",
     "into": "di Guida / Guido",
@@ -672,7 +672,7 @@
    },
    {
     "name": "Antonio Falco",
-    "slug": "antonio-falco-2",
+    "slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
     "b": "May 13 1843",
     "bp": "Arienzo",
     "d": "",
@@ -720,7 +720,7 @@
    },
    {
     "name": "Domenica Falco (Guida)",
-    "slug": "domenica-falco-2",
+    "slug": "domenica-falco",
     "b": "Sep 13 1846",
     "bp": "Arienzo",
     "d": "",
@@ -2463,7 +2463,7 @@
   "surname": "Morgillo",
   "n": 6,
   "withheld": 0,
-  "first": 1818,
+  "first": 1809,
   "last": 1880,
   "places": [
    "Arienzo",
@@ -2488,7 +2488,7 @@
    },
    {
     "who": "Raffaele Morgillo",
-    "whoSlug": "raffaele-morgillo",
+    "whoSlug": "raffaele-morgillo-of-carlantonio-morgillo-rosa-falco",
     "to": "Maria Falco (Morgillo)",
     "toSlug": "maria-falco",
     "into": "Falco",
@@ -2520,6 +2520,14 @@
    }
   ],
   "people": [
+   {
+    "name": "Raffaele Morgillo",
+    "slug": "raffaele-morgillo-of-carlantonio-morgillo-rosa-falco",
+    "b": "1 Sep 1809",
+    "bp": "",
+    "d": "9 May 1832",
+    "dp": ""
+   },
    {
     "name": "Angela Rosa Morgillo (Falco)",
     "slug": "angela-rosa-morgillo",
@@ -2555,14 +2563,6 @@
    {
     "name": "Orazio Morgillo",
     "slug": "orazio-morgillo",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "Raffaele Morgillo",
-    "slug": "raffaele-morgillo",
     "b": "",
     "bp": "",
     "d": "",
@@ -3329,7 +3329,7 @@
     "who": "Pasqualantonio Guida",
     "whoSlug": "pasqualantonio-guida",
     "to": "Domenica Falco (Guida)",
-    "toSlug": "domenica-falco-2",
+    "toSlug": "domenica-falco",
     "into": "Falco",
     "living": false
    },
@@ -4922,7 +4922,7 @@
     "who": "(Maria) Carmela di Guida / Guido (Falco)",
     "whoSlug": "carmela-di-guida-guido",
     "to": "Antonio Falco",
-    "toSlug": "antonio-falco-2",
+    "toSlug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
     "into": "Falco",
     "living": false
    }

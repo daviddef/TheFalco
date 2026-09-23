@@ -591,7 +591,7 @@ for tid, g in list(spine_tree.items()):
     basis[cands[0]] = ("the same generation of the direct line — she is the wife the line names, "
                        "on both sides")
 
-# ---------------------------------------------- BOTH PARENTS AND A DEATH DATE
+# ------------------------------------- BOTH PARENTS AND AN EXACT BIRTH OR DEATH DATE
 #
 # The name test above requires exactly ONE household candidate for a name and
 # exactly one tree candidate. Where a name is ambiguous on either side it says
@@ -617,6 +617,14 @@ def _dmy(s):
         return None
     return (int(d.group(1)), mo.group(1), int(y.group(1)))
 
+# A BIRTH DATE IS AS GOOD AS A DEATH DATE, AND ON 23 SEPTEMBER 2026 IT HAD TO BE.
+# Publishing a SECOND register Antonio Falco that night — born 5 January 1813 to
+# Giuseppe Falco and Gelsomina Vigliotta — made the name test ambiguous for the
+# FIRST, born 13 May 1843 to Vincenzo Falco and Andreana Crisci, and silently
+# unmerged him from a tree record that had matched him on «name and dates». The
+# tree's «May 13 1843» and the register's «13 May 1843» are the same day. So
+# this pass takes either date, keyed by kind so a birth is never matched to a
+# death.
 _hh_par = {}
 for k in hh_order:
     p = hh_people[k]
@@ -625,11 +633,15 @@ for k in hh_order:
     parts = [x.strip() for x in p["household"].split("&")]
     if len(parts) != 2:
         continue
-    dd = {_dmy(e.get("date")) for e in p["events"]
-          if str(e.get("event") or "").lower().startswith("death")} - {None}
-    if len(dd) != 1:
+    dts = {}
+    for kind in ("birth", "death"):
+        dd = {_dmy(e.get("date")) for e in p["events"]
+              if str(e.get("event") or "").lower().startswith(kind)} - {None}
+        if len(dd) == 1:
+            dts[kind] = dd.pop()
+    if not dts:
         continue
-    _hh_par[k] = (forms(parts[0]), forms(parts[1]), dd.pop())
+    _hh_par[k] = (forms(parts[0]), forms(parts[1]), dts)
 
 _tr_par = {}
 for q in tree:
@@ -637,17 +649,19 @@ for q in tree:
         continue
     fa = [by_id[i] for i in edges(q, "father") if i in by_id]
     mo = [by_id[i] for i in edges(q, "mother") if i in by_id]
-    dd = _dmy(q.get("d"))
-    if len(fa) != 1 or len(mo) != 1 or dd is None:
+    dts = {k: v for k, v in (("birth", _dmy(q.get("b"))), ("death", _dmy(q.get("d")))) if v}
+    if len(fa) != 1 or len(mo) != 1 or not dts:
         continue
-    _tr_par[q["id"]] = (forms(fa[0]["name"]), forms(mo[0]["name"]), dd)
+    _tr_par[q["id"]] = (forms(fa[0]["name"]), forms(mo[0]["name"]), dts)
 
 _pairs = []
 for tid, (tf, tm, td) in _tr_par.items():
     for hk, (hf, hm, hd) in _hh_par.items():
         if hk in merge.values():
             continue
-        if td == hd and (tf & hf) and (tm & hm):
+        if not ((tf & hf) and (tm & hm)):
+            continue
+        if any(k in hd and hd[k] == v for k, v in td.items()):
             _pairs.append((tid, hk))
 _by_t = collections.Counter(t for t, _ in _pairs)
 _by_h = collections.Counter(h for _, h in _pairs)
@@ -656,10 +670,10 @@ for tid, hk in _pairs:
     if _by_t[tid] != 1 or _by_h[hk] != 1 or tid in merge or hk in merge.values():
         continue
     merge[tid] = hk
-    basis[tid] = ("both parents and an exact death date — the name was never used, and this "
-                  "archive holds more than one person of it")
+    basis[tid] = ("both parents and an exact birth or death date — the name was never used, "
+                  "and this archive holds more than one person of it")
     _joined += 1
-print(f"  merged on both parents and a death date, never on the name: {_joined}")
+print(f"  merged on both parents and an exact date, never on the name: {_joined}")
 
 # ------------------------------------------------- one record per person
 
@@ -1090,15 +1104,42 @@ if _p:
 # at one. Both old addresses are kept alive as redirects: a public archive
 # that renumbers its own people and lets the old links rot is not much of an
 # archive.
-alias = {}
+# REDIRECTS ARE KEPT, NEVER REBUILT FROM SCRATCH.
+#
+# This dict used to be assembled fresh on every run from the same-person joins
+# alone, and written over whatever was there. So a URL retired for any OTHER
+# reason — a household merged away, a person merged into another, a slug
+# re-minted because its ledger key changed — lost its redirect the next time
+# anything else ran. On 23 September 2026 eighteen published URLs were 404ing
+# for exactly that reason, and the repairs would have been wiped by the next
+# build. A published URL is a promise; this file is where the promises live.
+_AP = path("site/src/data/people-aliases.json")
+try:
+    alias = json.load(open(_AP, encoding="utf-8"))
+except Exception:
+    alias = {}
+_before = len(alias)
 for ck, hk in same_person.items():
     new_slug = hh_people[hk]["slug"]
     for k in (ck, hk):
         if k in old_slug and old_slug[k] != new_slug:
             alias[old_slug[k]] = new_slug
-json.dump(alias, open(path("site/src/data/people-aliases.json"), "w"),
-          ensure_ascii=False, indent=0)
-print(f"  {len(alias)} old person URLs kept alive as redirects")
+# A redirect must never outlive its destination, and must never shadow a live page.
+_live = set(people)
+_dangling = sorted(k for k, v in alias.items() if v not in _live)
+_shadow = sorted(k for k in alias if k in _live)
+for k in _shadow:
+    del alias[k]
+alias = {k: v for k, v in sorted(alias.items()) if v in _live}
+json.dump(alias, open(_AP, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print(f"  {len(alias)} old person URLs kept alive as redirects "
+      f"({len(alias) - _before:+d} this run)")
+if _dangling:
+    print(f"    dropped {len(_dangling)} redirect(s) whose destination no longer exists: "
+          + ", ".join(_dangling[:5]))
+if _shadow:
+    print(f"    dropped {len(_shadow)} redirect(s) shadowing a live page: "
+          + ", ".join(_shadow[:5]))
 
 print("  self-check: clean — no cycles, no one-sided marriages, no dates on the living")
 
