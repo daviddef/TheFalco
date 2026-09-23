@@ -374,15 +374,39 @@ for k in _pre_join_order:
     while _s in _u: _s += "-2"
     _u.add(_s); old_slug[k] = _s
 
-# slugs, exactly as the old people.js assigned them, so no URL changes
+# A PERSON'S URL IS MINTED ONCE AND NEVER RECOMPUTED.
+#
+# The scheme below is better than most in the estate — it disambiguates by
+# HOUSEHOLD, which is data, rather than by position. It still moves. The
+# branch `base if counts[base] == 1` flips a person from `maria-porrino` to
+# `maria-porrino-of-...` the moment a SECOND Maria Porrino is read, and the
+# `+= "-2"` fallback is pure iteration order. Seventeen URLs moved that way
+# between 61cf9ae and f6cc705.
+#
+# site/src/data/person-slugs.json is the ledger, keyed on the identity this
+# file already has: the frozen household id plus the person string for a
+# register person, `tree:<treeId>` for a tree-only one. Read first, used
+# unchanged, appended to only for a key never seen. Never edited and never
+# deleted, because a published URL is a promise.
+_LEDGER = path("site/src/data/person-slugs.json")
+try:
+    _ledger_doc = json.load(open(_LEDGER, encoding="utf-8"))
+except Exception:
+    _ledger_doc = {"_why": ["Written by tools/build_people.py"], "slugs": {}}
+_frozen = _ledger_doc["slugs"]
+_minted = []
+
 counts = collections.Counter(kebab(clean(hh_people[k]["name"])) for k in hh_order)
-used = set()
+used = set(_frozen.values())
 for k in hh_order:
     p = hh_people[k]
+    if k in _frozen:
+        p["slug"] = _frozen[k]; used.add(p["slug"]); continue
     base = kebab(clean(p["name"]))
     slug = base if counts[base] == 1 else f"{base}-of-{kebab(p['household'])[:34]}"
     while slug in used: slug += "-2"
     used.add(slug); p["slug"] = slug
+    _minted.append((k, slug))
 
 def similar(a, b):
     """One forename spelled two ways. The tree writes CONSTANZA Maione where
@@ -665,11 +689,17 @@ for p in tree:
         r["sources"].append("tree")
         r["mergedOn"] = basis[tid]
     else:
-        base = kebab(clean(p["name"])) or ("person-" + str(tid))
-        slug = base
-        n = 2
-        while slug in people:
-            slug = f"{base}-{n}"; n += 1
+        _tkey = "tree:" + str(tid)
+        if _tkey in _frozen:
+            slug = _frozen[_tkey]
+        else:
+            base = kebab(clean(p["name"])) or ("person-" + str(tid))
+            slug = base
+            n = 2
+            while slug in people or slug in used:
+                slug = f"{base}-{n}"; n += 1
+            _minted.append((_tkey, slug))
+        used.add(slug)
         slug_of_tree[tid] = slug
         people[slug] = {
             "slug": slug, "name": strip_ticks(p["name"]),
@@ -1104,6 +1134,18 @@ if os.path.exists(_vpath):
         else:
             _missed += 1
     print(f"  parent verdicts applied  : {_applied}" + (f", {_missed} no longer match an edge" if _missed else ""))
+
+# The ledger is written EVERY run and deterministically — byte-identical when
+# nothing new was minted — so a stamp or an orphan check can account for it. A
+# file that is only sometimes written looks exactly like a file whose
+# generator has been deleted; the Blazevic archive's own gate caught that.
+for _k, _s in _minted:
+    _frozen.setdefault(_k, _s)
+_ledger_doc["slugs"] = dict(sorted(_frozen.items()))
+open(_LEDGER, "w", encoding="utf-8").write(
+    json.dumps(_ledger_doc, ensure_ascii=False, indent=1) + "\n")
+if _minted:
+    print(f"  person-slugs.json: {len(_minted)} new slug(s) frozen")
 
 json.dump(out, open(path("site/src/data/people.json"), "w"), ensure_ascii=False, indent=0)
 
