@@ -115,6 +115,27 @@
    "parent": "andreana-crisci-2",
    "verdict": "retired",
    "reason": "RETIRED — THE TREE IS DESCRIBING A DIFFERENT CARMINA FALCO. This Carmina is documented by a single act: she died on 19 December 1832 «di mesi SEI» — at six months old — «figlia di FRANCESCO FALCO, contadino, e di RAFFAELA FALCO», on strada Camellara. Her father is FRANCESCANTONIO FALCO, identified from the 1832 marriage index. An infant who lived six months has no descendants, so the Carmina the family tree carries, with different parents, is another woman of the name; the two records were joined on the forename. The tree's parents are kept on the record rather than deleted, so that a reader who finds them there can see they were examined."
+  },
+  {
+   "child": "antonia-di-guida",
+   "parent": "giuseppe-guida",
+   "verdict": "same-as",
+   "sameAs": "giuseppe-di-guida-of-giuseppe-di-guida-maddalena-rivetta",
+   "reason": "ONE MAN, TWO RECORDS, AND THE MERGE RULE IS RIGHT TO REFUSE HIM. The family tree writes her father «Giuseppe Guida» with a wife «Maddalena Rivetti»; the registers write «GIUSEPPE DI GUIDA» with a wife «MADDALENA RIVETTA». The household pass added on 23 September 2026 joins a tree person to a register head when BOTH his name and his wife's agree — and here the wives do not: **Rivetti is not Rivetta**. That is the same one-letter difference this archive has already written about at length. The parish wrote **Magdalena Rivetta** for forty years; the civil scribe of 1817 wrote **Michedalena Rivetti**, a blend of the two, and that act is what proved this family's parentage by matching parish against civil. *So the archive knows they are one couple and still will not let a rule join them on a spelling* — the identification is argued, published, and recorded here beside the edge rather than performed silently by a matcher. [[di-guida-parents]]"
+  },
+  {
+   "child": "filomena-annecchino",
+   "parent": "carmine-annecchino",
+   "verdict": "same-as",
+   "sameAs": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
+   "reason": "ONE MAN, TWO RECORDS, LEFT UNMERGED BECAUSE THE TREE GIVES HIM NO WIFE. The register holds **CARMINE ANNECCHINO of MARIA CARFORA**; the tree holds a «Carmine Annecchino» with no spouse recorded at all. The couple is what identifies a household head on both sides, and with one side silent there is nothing to test — **and this archive holds a second Carmine Annecchino household, of ROSA CEGLIA**, so a name match alone could pick the wrong one. Filomena Annecchino's other parent is Maria Carfora, which is why the register record beside this one is the right man. *Recorded rather than merged: a rule that guessed between two Carmine Annecchino would be wrong half the time and silent about it.*"
+  },
+  {
+   "child": "antonia-di-guida",
+   "parent": "maddalena-rivetti",
+   "verdict": "same-as",
+   "sameAs": "maddalena-rivetta",
+   "reason": "ONE WOMAN, AND THE SPELLING IS THE WHOLE DIFFICULTY. The family tree writes her «Maddalena Rivetti»; the parish register of Arienzo writes «MADDALENA RIVETTA», and the civil clerk who registered her son Angelo Andrea's death in 1817 wrote «MICHEDALENA RIVETTI» — a blend of the two. **The parish wrote *Magdalena* for forty years**, so this archive follows *Rivetta* and keeps the clerk's word verbatim in the evidence. *The two records are not merged, because a rule that joined Rivetti to Rivetta on an ending would also join names this archive has spent a fortnight holding apart.* Arienzo holds a second di Guida × Rivetta couple — **Filippo di Guida × Margherita Rivetta** — and it is the FORENAMES that separate them. [[di-guida-parents]]"
   }
  ]
 }

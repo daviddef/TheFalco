@@ -591,6 +591,88 @@ for tid, g in list(spine_tree.items()):
     basis[cands[0]] = ("the same generation of the direct line — she is the wife the line names, "
                        "on both sides")
 
+# --------------------------------------------- A HOUSEHOLD HEAD AND HIS WIFE
+#
+# The passes above match a CHILD: they want both parents and a date. A household
+# HEAD has neither — the register knows him as half of a couple, with events and
+# no `b` or `d` at all — so he was matched by the name test or by the direct-line
+# generations, and off the spine he usually was not matched at all. The result
+# was that the tree's copy of a head and the register's stood as two people, and
+# every child of that couple carried the SAME FATHER TWICE. Sixteen people were
+# in that state on 23 September 2026.
+#
+# THE COUPLE IS THE IDENTIFICATION, and it is the one this archive already
+# publishes: the direct-line passes below say so in terms — «the couple
+# identifies the generation on BOTH sides». This applies the same argument off
+# the spine. A tree person and a register head are one person when the tree
+# person's SPOUSE and the household's other half agree, and when that pairing is
+# unique in both directions. Nothing is claimed from a name alone: a Matteo
+# Falco matches only a Matteo Falco whose wife is also an Alessandra Crisci.
+# THE ITALIAN PARTICLE IS HOW A CLERK WROTE THE NAME, NOT WHICH FAMILY IT IS.
+# This archive has already published that decision: /families/guida/ is filed
+# under GUIDA while its people are recorded DI GUIDA, and an exact match found
+# none of the eighteen, so both sides drop a leading di/de/della/del/lo/la
+# before comparing. Without it here, the tree's «Antonia Guida / Guido» and the
+# register's «Antonia di Guida» are two women, and Giuseppe Falco stands twice
+# on the pages of his own children. It is a PARTICLE rule and nothing else is
+# normalised — two names must still agree word for word after it.
+# The particle sits BETWEEN the forename and the surname — «Antonia di Guida»,
+# «Claudia di Lucia» — so it is a standalone token to drop, not a prefix. The
+# first version of this anchored at the start of the string and therefore did
+# nothing at all, which is why Giuseppe Falco still stood twice after it.
+_PART = {"di", "de", "del", "della", "dello", "dei", "lo", "la", "d'"}
+def _pforms(n):
+    out = set()
+    for f in forms(n):
+        out.add(f)
+        stripped = " ".join(w for w in f.split() if w not in _PART)
+        if stripped and stripped != f:
+            out.add(stripped)
+    return {x for x in out if x}
+
+_hh_head = {}
+for k in hh_order:
+    q = hh_people[k]
+    if q["role"] not in ("father", "mother", "head", "husband", "wife"):
+        continue
+    parts = [x.strip() for x in q["household"].split("&")]
+    if len(parts) != 2:
+        continue
+    me = [x for x in parts if _pforms(x) & _pforms(q["name"])]
+    other = [x for x in parts if not (_pforms(x) & _pforms(q["name"]))]
+    if len(me) != 1 or len(other) != 1:
+        continue
+    _hh_head[k] = (_pforms(q["name"]), _pforms(other[0]))
+
+_tr_head = {}
+for q in tree:
+    if is_placeholder(q.get("name")) or q["id"] in merge or really_living(q):
+        continue
+    sp = [by_id[i] for i in edges(q, "wife") + edges(q, "husband") + edges(q, "spouse")
+          if i in by_id and not is_placeholder(by_id[i].get("name"))]
+    if len(sp) != 1:
+        continue
+    _tr_head[q["id"]] = (_pforms(q["name"]), _pforms(sp[0]["name"]))
+
+_hp = []
+for tid, (tn, ts) in _tr_head.items():
+    for hk, (hn, hs) in _hh_head.items():
+        if hk in merge.values():
+            continue
+        if (tn & hn) and (ts & hs):
+            _hp.append((tid, hk))
+_ct = collections.Counter(t for t, _ in _hp)
+_ch = collections.Counter(h for _, h in _hp)
+_heads = 0
+for tid, hk in _hp:
+    if _ct[tid] != 1 or _ch[hk] != 1 or tid in merge or hk in merge.values():
+        continue
+    merge[tid] = hk
+    basis[tid] = ("the couple — his own name AND his wife's agree on both sides, and the pairing "
+                  "is unique in each direction")
+    _heads += 1
+print(f"  household heads joined by the couple, off the direct line: {_heads}")
+
 # ------------------------------------- BOTH PARENTS AND AN EXACT BIRTH OR DEATH DATE
 #
 # The name test above requires exactly ONE household candidate for a name and

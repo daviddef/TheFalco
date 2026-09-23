@@ -174,9 +174,9 @@
    },
    {
     "who": "Giuseppe Falco",
-    "whoSlug": "giuseppe-falco-3",
+    "whoSlug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
     "to": "Antonia Guida / Guido (Falco)",
-    "toSlug": "antonia-guida-guido",
+    "toSlug": "antonia-di-guida",
     "into": "Guida / Guido",
     "living": false
    },
@@ -184,13 +184,13 @@
     "who": "Giovanna Falco (Crisci)",
     "whoSlug": "giovanna-falco-2",
     "to": "Aniello Crisci",
-    "toSlug": "aniello-crisci",
+    "toSlug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
     "into": "Crisci",
     "living": false
    },
    {
     "who": "Matteo Falco",
-    "whoSlug": "matteo-falco-2",
+    "whoSlug": "matteo-falco-of-matteo-falco-alessandra-crisci",
     "to": "Alessandra Crisci (Falco)",
     "toSlug": "alessandra-crisci",
     "into": "Crisci",
@@ -414,7 +414,7 @@
    },
    {
     "who": "Domenico Falco",
-    "whoSlug": "domenico-falco",
+    "whoSlug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
     "to": "Mariantonia Frasca (Falco)",
     "toSlug": "mariantonia-frasca",
     "into": "Frasca",
@@ -472,7 +472,7 @@
    },
    {
     "name": "Giuseppe Falco",
-    "slug": "giuseppe-falco-3",
+    "slug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
     "b": "1776",
     "bp": "Arienzo",
     "d": "Dec 10 1871",
@@ -552,7 +552,7 @@
    },
    {
     "name": "Matteo Falco",
-    "slug": "matteo-falco-2",
+    "slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
     "b": "1810",
     "bp": "Arienzo",
     "d": "Dec 12 1867",
@@ -1376,7 +1376,7 @@
    },
    {
     "name": "Domenico Falco",
-    "slug": "domenico-falco",
+    "slug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
     "b": "",
     "bp": "",
     "d": "",
@@ -1782,7 +1782,7 @@
    },
    {
     "who": "Aniello Crisci",
-    "whoSlug": "aniello-crisci",
+    "whoSlug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
     "to": "Giovanna Falco (Crisci)",
     "toSlug": "giovanna-falco-2",
     "into": "Falco",
@@ -1792,7 +1792,7 @@
     "who": "Alessandra Crisci (Falco)",
     "whoSlug": "alessandra-crisci",
     "to": "Matteo Falco",
-    "toSlug": "matteo-falco-2",
+    "toSlug": "matteo-falco-of-matteo-falco-alessandra-crisci",
     "into": "Falco",
     "living": false
    },
@@ -1872,7 +1872,7 @@
    },
    {
     "name": "Aniello Crisci",
-    "slug": "aniello-crisci",
+    "slug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
     "b": "Nov 12 1807",
     "bp": "Arienzo",
     "d": "Nov 25 1884",
@@ -3390,9 +3390,9 @@
    },
    {
     "who": "Antonia Guida / Guido (Falco)",
-    "whoSlug": "antonia-guida-guido",
+    "whoSlug": "antonia-di-guida",
     "to": "Giuseppe Falco",
-    "toSlug": "giuseppe-falco-3",
+    "toSlug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
     "into": "Falco",
     "living": false
    }
@@ -3400,7 +3400,7 @@
   "people": [
    {
     "name": "Antonia Guida / Guido (Falco)",
-    "slug": "antonia-guida-guido",
+    "slug": "antonia-di-guida",
     "b": "Oct 31 1783",
     "bp": "Arienzo",
     "d": "",
@@ -4197,7 +4197,7 @@
     "who": "Mariantonia Frasca (Falco)",
     "whoSlug": "mariantonia-frasca",
     "to": "Domenico Falco",
-    "toSlug": "domenico-falco",
+    "toSlug": "domenico-falco-of-domenico-falco-mariantonia-frasca",
     "into": "Falco",
     "living": false
    }

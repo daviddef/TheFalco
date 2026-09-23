@@ -3280,12 +3280,12 @@
       {
         "hid": "giuseppe-falco-gelsomina-vigliotta",
         "household": "Giuseppe Falco & Gelsomina Vigliotta",
-        "person": "Giuseppe Falco (of Gelsomina Vigliotta)",
+        "person": "Giuseppe Falco",
         "role": "father",
         "event": "named as living",
         "date": "1809",
         "place": "Arienzo, strada Camellara",
-        "evidence": "Alive in 1809, *contadino* of **strada Camellara**. **HE IS DELIBERATELY NOT MERGED WITH THE GIUSEPPE FALCO OF ANTONIA DI GUIDA**, who appears in this same register with a different wife on a different street, nor with the **Giuseppe Falco dead before January 1811** whose son Angelo also lived on strada Camellara.\n\n**THREE MEN OF THIS NAME ARE NOW DOCUMENTED IN THREE CONSECUTIVE YEARS OF ONE TOWN'S DEATH REGISTERS**, two of them on the same street. **This archive resolves Falco by household, never by name.** [[which-falco]]",
+        "evidence": "Alive in 1809, *contadino* of **strada Camellara**. **HE IS DELIBERATELY NOT MERGED WITH THE GIUSEPPE FALCO OF ANTONIA DI GUIDA**, who appears in this same register with a different wife on a different street, nor with the **Giuseppe Falco dead before January 1811** whose son Angelo also lived on strada Camellara.\n\n**THREE MEN OF THIS NAME ARE NOW DOCUMENTED IN THREE CONSECUTIVE YEARS OF ONE TOWN'S DEATH REGISTERS**, two of them on the same street. **This archive resolves Falco by household, never by name.** [[which-falco]]\n\n**WRITTEN AS A SECOND PERSON IN THIS HOUSE AND FOLDED BACK ON 23 SEPTEMBER 2026.** This row carried a qualified form of the name — the kind this archive uses to tell two people of one name apart — **on a FATHER, in a household that already named him plainly.** A house has one father; two men of one name cannot both be it. The qualifier came in when two duplicate households were merged earlier the same day and their member lists were concatenated without folding the parents. **It put him on nine of his own children's pages twice.**",
         "ark": "ANTENATI an_ua14311 img44 — READ FROM THE IMAGE"
       },
       {
@@ -3635,12 +3635,12 @@
       {
         "hid": "francesco-quotolo-maria-falco",
         "household": "Francesco Quotolo & Maria Falco",
-        "person": "Francesco Quotolo (1731-1815)",
+        "person": "Francesco Quotolo",
         "role": "father",
         "event": "death",
         "date": "22 Feb 1815",
         "place": "Arienzo, strada Maddalena",
-        "evidence": "«*…e di **FRANCESCO QUOTOLO** di anni **ventisette**, di professione **massaro di campagna** … strada **Maddalena**, **PARENTI DEL DEFUNTO**, i quali hanno dichiarato che a detto dì **ventidue** del mese corrente di **Febrajo**, ad ore **dodici**, **FRANCESCO QUOTOLO**, **figlio delli furono LORENZO QUOTOLO e TERESA DELLA M⟨———⟩**, **MARITO DI MARIA FALCO**, di anni **OTTANTAQUATTRO**, di professione **contadino**, domiciliato strada **MADDALENA**, **è morto nella sua propria casa***».\n\n**Eighty-four in 1815, so born about 1731** — and **one of the two declarants bears his own name**, is twenty-seven, lives on the same street and is called «*parente*». *A grandson is the obvious reading and the act does not say so.*\n\n---\n\n**CORRECTED 23 SEPTEMBER 2026 — THIS HOUSEHOLD WAS NOT NEW AND THIS ARCHIVE SAID IT WAS.** The row above was written into a household record created from scratch, because the publishing script appended a new entry instead of finding the existing one. **Four household names were duplicated that way in one night**, and the verification chain passed every time: **no gate in this archive checked for two households of the same name.** One now does. **What this act actually adds** is a *date*. This archive already held the couple from **Maria Falco's own death act of 24 July 1817**, which calls her «*vedova di Francesco Quotolo*» and told us only that he was **dead before July 1817**. **He died on 22 February 1815**, and the act gives his age, his parents and his street.",
+        "evidence": "«*…e di **FRANCESCO QUOTOLO** di anni **ventisette**, di professione **massaro di campagna** … strada **Maddalena**, **PARENTI DEL DEFUNTO**, i quali hanno dichiarato che a detto dì **ventidue** del mese corrente di **Febrajo**, ad ore **dodici**, **FRANCESCO QUOTOLO**, **figlio delli furono LORENZO QUOTOLO e TERESA DELLA M⟨———⟩**, **MARITO DI MARIA FALCO**, di anni **OTTANTAQUATTRO**, di professione **contadino**, domiciliato strada **MADDALENA**, **è morto nella sua propria casa***».\n\n**Eighty-four in 1815, so born about 1731** — and **one of the two declarants bears his own name**, is twenty-seven, lives on the same street and is called «*parente*». *A grandson is the obvious reading and the act does not say so.*\n\n---\n\n**CORRECTED 23 SEPTEMBER 2026 — THIS HOUSEHOLD WAS NOT NEW AND THIS ARCHIVE SAID IT WAS.** The row above was written into a household record created from scratch, because the publishing script appended a new entry instead of finding the existing one. **Four household names were duplicated that way in one night**, and the verification chain passed every time: **no gate in this archive checked for two households of the same name.** One now does. **What this act actually adds** is a *date*. This archive already held the couple from **Maria Falco's own death act of 24 July 1817**, which calls her «*vedova di Francesco Quotolo*» and told us only that he was **dead before July 1817**. **He died on 22 February 1815**, and the act gives his age, his parents and his street.\n\n**WRITTEN AS A SECOND PERSON IN THIS HOUSE AND FOLDED BACK ON 23 SEPTEMBER 2026.** This row carried a qualified form of the name — the kind this archive uses to tell two people of one name apart — **on a FATHER, in a household that already named him plainly.** A house has one father; two men of one name cannot both be it. The qualifier came in when two duplicate households were merged earlier the same day and their member lists were concatenated without folding the parents. **It put him on nine of his own children's pages twice.**",
         "ark": "ANTENATI an_ua14317 img12 — READ FROM THE IMAGE"
       },
       {
@@ -3692,45 +3692,6 @@
         "place": "Arienzo, strada Maddalena",
         "evidence": "«Giuseppe Quotolo, di anni sessantacinque, di professione massaro di campagna, domiciliato in questo comune, strada Maddalena» — declaring Maria Falco's death as a parente, with Aniello Diglio, 45, contadino. Aged 65, so born about 1752 — the oldest man this archive has placed in a Falco household's orbit.",
         "ark": "ANTENATI an_ua14319 img34l"
-      }
-    ]
-  },
-  {
-    "id": "giuseppe-di-guida-michedalena-rivetti",
-    "name": "Giuseppe di Guida & Michedalena Rivetti",
-    "members": [
-      {
-        "hid": "giuseppe-di-guida-michedalena-rivetti",
-        "household": "Giuseppe di Guida & Michedalena Rivetti",
-        "person": "Giuseppe di Guida",
-        "role": "father",
-        "event": "—",
-        "date": "—",
-        "place": "Arienzo",
-        "evidence": "«*figlio di **GIUSEPPE DI GUIDA***» — no «fu».\n\n**WEAK INFERENCE ONLY, AND THIS PAGE ASSERTED IT UNTIL 20 SEPTEMBER 2026.** It read «*no «fu», **so alive in October 1817**»** — a flat statement of fact. **On 14 September 2026 this archive DISPROVED the «quondam» signal for the parish Latin register**: Matteo Falco is «*filium Matthaei*», with no «q.», **seventeen days after his own burial**. Civil acts are a different tradition and this one is probably sound, **but it no longer carries the weight the sentence gave it.**\n\n**The downgrade was written into `data/households.tsv` on 14 September and never into the file the site is built from**, so the site went on asserting for six days what the archive had already stopped believing. Found by reconciling the two files — work-list row 75.",
-        "ark": "ANTENATI an_ua14319 img59r"
-      },
-      {
-        "hid": "giuseppe-di-guida-michedalena-rivetti",
-        "household": "Giuseppe di Guida & Michedalena Rivetti",
-        "person": "Michedalena Rivetti",
-        "role": "mother",
-        "event": "—",
-        "date": "—",
-        "place": "Arienzo",
-        "evidence": "«e Michedalena Rivetti» — the scribe breaks the name across a line as «e Miche-/dalena», a Campanian blend of Michela and Maddalena. A Rivetti woman married into the di Guida.",
-        "ark": "ANTENATI an_ua14319 img59r"
-      },
-      {
-        "hid": "giuseppe-di-guida-michedalena-rivetti",
-        "household": "Giuseppe di Guida & Michedalena Rivetti",
-        "person": "Angelo Andrea di Guida",
-        "role": "child",
-        "event": "death",
-        "date": "21 Oct 1817",
-        "place": "Arienzo",
-        "evidence": "«Angelo Andrea di Guida figlio di Giuseppe di Guida e Michedalena Rivetti, marito di Teresa Vigliotta» — died at seven in the morning; no age given",
-        "ark": "ANTENATI an_ua14319 img59r"
       }
     ]
   },
@@ -4165,23 +4126,6 @@
         "date": "6 Sep 1819",
         "place": "Arienzo",
         "evidence": "«Angelo Quotolo figlio di Francesco Quotolo, e Vittoria di Guida» — died at eleven",
-        "ark": "ANTENATI an_ua14321 img29r"
-      }
-    ]
-  },
-  {
-    "id": "giuseppe-di-guida-strada-maddalena",
-    "name": "Giuseppe di Guida (strada Maddalena)",
-    "members": [
-      {
-        "hid": "giuseppe-di-guida-strada-maddalena",
-        "household": "Giuseppe di Guida (strada Maddalena)",
-        "person": "Giuseppe di Guida",
-        "role": "father",
-        "event": "named as declarant",
-        "date": "6 Sep 1819",
-        "place": "Arienzo, strada Maddalena",
-        "evidence": "«e di Giuseppe di Guida, di anni sessantotto, di professione massaro di campagna, domiciliato in questo comune, strada Maddalena» — born about 1751. A LEAD: a Giuseppe di Guida is named in October 1817 as the father of Angelo Andrea di Guida by Michedalena Rivetti, and Giuseppe Falco of strada Camellara married an ANTONIA DI GUIDA. A man of sixty-eight in 1819 is the right age to be father to both. Nothing here names Antonia, so it is not asserted.",
         "ark": "ANTENATI an_ua14321 img29r"
       }
     ]
@@ -5227,12 +5171,12 @@
       {
         "hid": "gioacchino-crisci-francesca-falco",
         "household": "Gioacchino Crisci & Francesca Falco",
-        "person": "Gioacchino Crisci (d. before 1809)",
+        "person": "Gioacchino Crisci",
         "role": "father",
         "event": "named as dead",
         "date": "1809",
         "place": "Arienzo",
-        "evidence": "«***figlio del fu GIOACCHINO***» — dead by 1809. **The act gives him no surname**; it is taken from his son's. *That is an inference, and it is the only one in this household.*",
+        "evidence": "«***figlio del fu GIOACCHINO***» — dead by 1809. **The act gives him no surname**; it is taken from his son's. *That is an inference, and it is the only one in this household.*\n\n**WRITTEN AS A SECOND PERSON IN THIS HOUSE AND FOLDED BACK ON 23 SEPTEMBER 2026.** This row carried a qualified form of the name — the kind this archive uses to tell two people of one name apart — **on a FATHER, in a household that already named him plainly.** A house has one father; two men of one name cannot both be it. The qualifier came in when two duplicate households were merged earlier the same day and their member lists were concatenated without folding the parents. **It put him on nine of his own children's pages twice.**",
         "ark": "ANTENATI an_ua14311 img5 — READ FROM THE IMAGE"
       },
       {
@@ -5644,6 +5588,39 @@
         "place": "Arienzo, strada Maddalena",
         "ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 55, foglio 91, img 28r — READ FROM THE IMAGE",
         "evidence": "**AN AGE AND A TRADE FOR ANTONIA DI GUIDA'S BROTHER, WHERE THIS ARCHIVE HAD NEITHER.** Act **55**, foglio 91: «*L'Anno mille ottocento **DICIASSETTE** a' dì **DICIOTTO** del mese di **GIUGNO**, ad ore **SEDICI** … è comparso **PASQUALE DI GUIDA, di anni QUARANTADUE**, di professione **MASSARO DI CAMPAGNA**, domiciliato in detto Comune, **strada MADDALENA**, ed ha dichiarato … è nato nella sua propria casa da lui dichiarante, e da **[NICOLETTA] ESPOSITELLA sua moglie legittima, d'anni TRENTADUE**, un **MASCHIO** … il nome di **RAFFAELE***».\n\n**Forty-two in June 1817 gives b. c.1775**, and his baptism in the Arienzo parish book is «*31 January*» with **the year unread**. **This dates it.** He died on 11 August 1836, which would make him about sixty-one.\n\n**AND HE IS A MASSARO DI CAMPAGNA, not a bracciale.** Antonia di Guida's brother farms on his own account, as her husband **GIUSEPPE FALCO, *massaro*,** does. *The di Guida of strada Maddalena are not labourers.*"
+      },
+      {
+        "hid": "giuseppe-di-guida-maddalena-rivetta",
+        "household": "Giuseppe di Guida & Maddalena Rivetta",
+        "person": "Giuseppe di Guida",
+        "role": "father",
+        "event": "—",
+        "date": "—",
+        "place": "Arienzo",
+        "evidence": "«*figlio di **GIUSEPPE DI GUIDA***» — no «fu».\n\n**WEAK INFERENCE ONLY, AND THIS PAGE ASSERTED IT UNTIL 20 SEPTEMBER 2026.** It read «*no «fu», **so alive in October 1817**»** — a flat statement of fact. **On 14 September 2026 this archive DISPROVED the «quondam» signal for the parish Latin register**: Matteo Falco is «*filium Matthaei*», with no «q.», **seventeen days after his own burial**. Civil acts are a different tradition and this one is probably sound, **but it no longer carries the weight the sentence gave it.**\n\n**The downgrade was written into `data/households.tsv` on 14 September and never into the file the site is built from**, so the site went on asserting for six days what the archive had already stopped believing. Found by reconciling the two files — work-list row 75.\n\n**HELD IN A SEPARATE HOUSEHOLD UNTIL 23 SEPTEMBER 2026, WHEN THIS ARCHIVE'S OWN NOTE ALREADY SAID IT WAS THE SAME COUPLE.** Angelo Andrea di Guida's civil death act names his parents «*figlio di GIUSEPPE DI GUIDA e **MICHEDALENA RIVETTI***», and the parish baptised him on 29 November 1791 to **GIUSEPPE DI GUIDA and MADDALENA RIVETTA**. *That match — parish against civil, two independent series, one household — is what proved Antonia di Guida's parentage in the first place.* The archive then kept the two spellings as **three separate households**, so **Antonia di Guida's own father stood twice on her page.**\n\n**«Michedalena» is the civil scribe's blend**: the parish wrote *Magdalena* for forty years. The person is filed under the parish form and **the evidence still quotes the clerk word for word**.",
+        "ark": "ANTENATI an_ua14319 img59r"
+      },
+      {
+        "hid": "giuseppe-di-guida-maddalena-rivetta",
+        "household": "Giuseppe di Guida & Maddalena Rivetta",
+        "person": "Maddalena Rivetta",
+        "role": "mother",
+        "event": "—",
+        "date": "—",
+        "place": "Arienzo",
+        "evidence": "«e Michedalena Rivetti» — the scribe breaks the name across a line as «e Miche-/dalena», a Campanian blend of Michela and Maddalena. A Rivetti woman married into the di Guida.\n\n**HELD IN A SEPARATE HOUSEHOLD UNTIL 23 SEPTEMBER 2026, WHEN THIS ARCHIVE'S OWN NOTE ALREADY SAID IT WAS THE SAME COUPLE.** Angelo Andrea di Guida's civil death act names his parents «*figlio di GIUSEPPE DI GUIDA e **MICHEDALENA RIVETTI***», and the parish baptised him on 29 November 1791 to **GIUSEPPE DI GUIDA and MADDALENA RIVETTA**. *That match — parish against civil, two independent series, one household — is what proved Antonia di Guida's parentage in the first place.* The archive then kept the two spellings as **three separate households**, so **Antonia di Guida's own father stood twice on her page.**\n\n**«Michedalena» is the civil scribe's blend**: the parish wrote *Magdalena* for forty years. The person is filed under the parish form and **the evidence still quotes the clerk word for word**.",
+        "ark": "ANTENATI an_ua14319 img59r"
+      },
+      {
+        "hid": "giuseppe-di-guida-maddalena-rivetta",
+        "household": "Giuseppe di Guida & Maddalena Rivetta",
+        "person": "Angelo Andrea di Guida",
+        "role": "child",
+        "event": "death",
+        "date": "21 Oct 1817",
+        "place": "Arienzo",
+        "evidence": "«Angelo Andrea di Guida figlio di Giuseppe di Guida e Michedalena Rivetti, marito di Teresa Vigliotta» — died at seven in the morning; no age given\n\n**HELD IN A SEPARATE HOUSEHOLD UNTIL 23 SEPTEMBER 2026, WHEN THIS ARCHIVE'S OWN NOTE ALREADY SAID IT WAS THE SAME COUPLE.** Angelo Andrea di Guida's civil death act names his parents «*figlio di GIUSEPPE DI GUIDA e **MICHEDALENA RIVETTI***», and the parish baptised him on 29 November 1791 to **GIUSEPPE DI GUIDA and MADDALENA RIVETTA**. *That match — parish against civil, two independent series, one household — is what proved Antonia di Guida's parentage in the first place.* The archive then kept the two spellings as **three separate households**, so **Antonia di Guida's own father stood twice on her page.**\n\n**«Michedalena» is the civil scribe's blend**: the parish wrote *Magdalena* for forty years. The person is filed under the parish form and **the evidence still quotes the clerk word for word**.",
+        "ark": "ANTENATI an_ua14319 img59r"
       }
     ]
   },

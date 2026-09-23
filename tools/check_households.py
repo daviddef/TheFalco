@@ -20,7 +20,9 @@ Three checks, all on the data and none on the build:
   1. every household has an `id`, and no two share one — nor a name;
   2. every member's `hid` is its household's id, and its `household` its name;
   3. within one household, no two DISTINCT person strings normalise to the same
-     thing once case, punctuation and runs of whitespace are removed.
+     thing once case, punctuation and runs of whitespace are removed — and on a
+     PARENT role that is absolute, because a house has one father and one
+     mother however the qualifier is written.
 
 Check 3 reports rather than fails when the two strings differ by a parenthetical
 qualifier — «Chiara Rivetti» against «Chiara (Clara) Rivetti» is a real split,
@@ -88,9 +90,31 @@ for h in H:
             fail.append(f"member «{m.get('person')}» carries household "
                         f"«{m.get('household')}» but sits in «{h['name']}»")
 
+# A HOUSE HAS ONE FATHER AND ONE MOTHER. It may have two sons called Raffaele —
+# this archive holds fourteen such groups and they are on purpose. So the
+# trailing-qualifier exemption below applies to CHILDREN ONLY. On a parent role
+# it does not: «Giuseppe Falco» and «Giuseppe Falco (of Gelsomina Vigliotta)»
+# were both the father of one household on 23 September 2026, listed as each
+# other's spouse, and standing on nine of their own children's pages twice.
+# Three households were in that state, all three from merging duplicate
+# households earlier the same day and concatenating the member lists without
+# folding the parents.
+PARENT = {"father", "mother", "head", "husband", "wife"}
+for h in H:
+    pb = collections.defaultdict(set)
+    for m in h["members"]:
+        if m["role"] in PARENT:
+            pb[norm(m["person"])].add(m["person"])
+    for k, forms in sorted(pb.items()):
+        if len(forms) > 1:
+            fail.append(f"«{h['name']}» names one PARENT {len(forms)} ways — a house has one "
+                        f"father and one mother: " + " / ".join(f"«{f}»" for f in sorted(forms)))
+
 for h in H:
     buckets = collections.defaultdict(set)
     for m in h["members"]:
+        if m["role"] in PARENT:
+            continue                      # handled above, and stricter
         buckets[norm(m["person"])].add(m["person"])
     for k, forms in sorted(buckets.items()):
         if len(forms) < 2:
