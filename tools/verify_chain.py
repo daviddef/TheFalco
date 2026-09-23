@@ -27,13 +27,34 @@ import json, os, re, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.path.join(ROOT, "site")
-OUT = "dist-verify"
+# A PRIVATE DIRECTORY MUST HAVE A PRIVATE NAME.
+#
+# This was `dist-verify`, which is what the whole estate standardised on — so
+# two sessions verifying at once build into the same directory and each grades
+# the other's half-written pages. It reported «spouse fell 585→489, household
+# 962→905» on 23 September 2026 and not one of those numbers was true; built
+# in isolation the same data matched the floor exactly. A gate that reports a
+# loss that did not happen teaches people to ignore gates.
+#
+# ARCHIVE_OUT still wins, so a caller who wants a specific directory — to point
+# a kit tool at the build it just made — keeps that. Otherwise the name carries
+# this process's pid, which no other session can collide with.
+OUT = os.environ.get("ARCHIVE_OUT") or f"dist-verify-{os.getpid()}"
 pkg = json.load(open(os.path.join(SITE, "package.json"), encoding="utf-8"))
 steps = [s.strip() for s in pkg["scripts"]["build"].split("&&")]
 
 def run(label, cmd):
     print(f"== {label}", flush=True)
-    r = subprocess.run(cmd, cwd=SITE, shell=True, text=True,
+    # AND EVERY STEP MUST BE TOLD WHERE THE BUILD IS.
+    #
+    # Rewriting `--dist dist` is not enough: the kit tools that take no --dist
+    # resolve the directory themselves through ARCHIVE_OUT, so without this
+    # they grade the SHARED `site/dist` — another session's build — while this
+    # chain builds somewhere else entirely. That is how `check:rows` reported
+    # «spouse fell 585→489, household 962→905» against a build that had lost
+    # nothing: it was not looking at it.
+    env = dict(os.environ, ARCHIVE_OUT=OUT)
+    r = subprocess.run(cmd, cwd=SITE, shell=True, text=True, env=env,
                        stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     tail = [l for l in r.stdout.rstrip().split("\n") if l.strip()][-6:]
     for l in tail:
