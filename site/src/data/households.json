@@ -6253,22 +6253,22 @@
         "household": "Francesco Arricale & Crescenza Crisci",
         "person": "Francesco Arricale",
         "role": "father",
-        "event": "—",
-        "date": "—",
+        "event": "marriage",
+        "date": "1844",
         "place": "Arienzo",
-        "evidence": "A FRANCESCO ARRICALE OF ARIENZO, AND HE IS NOT GIOVANNA'S FATHER. Hers was a Francesco married to PASQUA FALCO; this one married Crescenza Crisci. Right name, right town, right decade, wrong wife — recorded so the next reader does not join them",
-        "ark": "data/arricale-from-transcripts.tsv — parsed from OCR page transcripts, NOT read from the image"
+        "evidence": "A FRANCESCO ARRICALE OF ARIENZO, AND HE IS NOT GIOVANNA'S FATHER. Hers was a Francesco married to PASQUA FALCO; this one married Crescenza Crisci. Right name, right town, right decade, wrong wife — recorded so the next reader does not join them\n\n**THE MARRIAGE IS DATED AT LAST, AND THE ACT IS NOT YET READ.** The *Tavola alfabetica annuale* of Arienzo marriages for **1844** lists, under the groom's surname, «***ARRIGALE FRANCESCO** ed **CRISPI CRESCENZA***», **act 24**, both of **Arienzo**.\n\n*This household stood here with «—» for its event and «—» for its date.* **It now has an act number and a year**, which is what is needed to open the register itself — and **the act, not the index, is what will govern**: an index may produce a candidate, never a record.\n\n**The spelling is ARRIGALE here**, which is the variant this archive has already recorded as wandering between *Arricale*, *Arrigale* and *Arricole* in one decade and sometimes one hand.\n\n**The parents' column was not read** — it is cut by the gutter in this filming and is not reported.\n\n*Found 23 September 2026 while testing whether **PASQUA FALCO** married a Francesco Arricale in these years. She did not — see work-list row 95.*",
+        "ark": "ANTENATI an_ua14142 (Arienzo, Matrimoni 1844 — TAVOLA) img 1 — READ FROM THE IMAGE. The ACT ITSELF IS NOT YET READ."
       },
       {
         "hid": "francesco-arricale-crescenza-crisci",
         "household": "Francesco Arricale & Crescenza Crisci",
         "person": "Crescenza Crisci",
         "role": "mother",
-        "event": "—",
-        "date": "—",
+        "event": "marriage",
+        "date": "1844",
         "place": "Arienzo",
-        "evidence": "",
-        "ark": "data/arricale-from-transcripts.tsv — parsed from OCR page transcripts, NOT read from the image"
+        "evidence": "**THE MARRIAGE IS DATED AT LAST, AND THE ACT IS NOT YET READ.** The *Tavola alfabetica annuale* of Arienzo marriages for **1844** lists, under the groom's surname, «***ARRIGALE FRANCESCO** ed **CRISPI CRESCENZA***», **act 24**, both of **Arienzo**.\n\n*This household stood here with «—» for its event and «—» for its date.* **It now has an act number and a year**, which is what is needed to open the register itself — and **the act, not the index, is what will govern**: an index may produce a candidate, never a record.\n\n**The spelling is ARRIGALE here**, which is the variant this archive has already recorded as wandering between *Arricale*, *Arrigale* and *Arricole* in one decade and sometimes one hand.\n\n**The parents' column was not read** — it is cut by the gutter in this filming and is not reported.\n\n*Found 23 September 2026 while testing whether **PASQUA FALCO** married a Francesco Arricale in these years. She did not — see work-list row 95.*",
+        "ark": "ANTENATI an_ua14142 (Arienzo, Matrimoni 1844 — TAVOLA) img 1 — READ FROM THE IMAGE. The ACT ITSELF IS NOT YET READ."
       },
       {
         "hid": "francesco-arricale-crescenza-crisci",
