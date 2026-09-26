@@ -1234,6 +1234,58 @@ print(f"  register prose read: {_prose_added} edges added, "
       f"{sum(_prose_refused.values())} refused for an ambiguous name")
 
 out = sorted(people.values(), key=lambda r: (r["surname"], clean(r["name"])))
+
+# ---------------------------------------------------------------- why a page
+# draws no chart at all.
+#
+# 111 of this archive's person pages draw NO family chart, and a page that
+# draws nothing makes a claim in silence — which is the one thing this archive
+# does not do in words. The kit's PersonTree hides the figure when every tier
+# is empty; passing `always` shows it with a caption instead, and the caption
+# has to state the TRUE reason, which differs per person.
+#
+# The classification is made here, in the data, rather than in the template,
+# so that it is visible to the gates and so the template holds only prose.
+# The reasons are not interchangeable: an ancestor named inside somebody
+# else's act, a witness who is not kin at all, and a child whose parents are
+# named in the HOUSEHOLD NAME but hold no record of their own are three
+# different statements, and only the third is a gap this archive could close.
+_ANCESTOR = {"grandfather", "grandmother", "great-grandfather", "great-grandmother",
+             "great-grandfather of the children", "great-grandmother of the children"}
+_ATTENDED = {"witness", "declarant", "midwife"}
+_members_in = collections.Counter()
+for _h in households:
+    for _m in _h["members"]:
+        _members_in[_h["name"]] += 1
+for _r in out:
+    if _r["parents"] or _r["spouses"] or _r["children"] or _r["siblings"]:
+        continue
+    _role = (_r.get("role") or "").strip().lower()
+    _hh = _r.get("household")
+    if _r.get("living"):
+        _r["noKin"] = "living"
+    elif _role in _ANCESTOR:
+        _r["noKin"] = "ancestor-in-another-act"
+    elif _role in _ATTENDED:
+        _r["noKin"] = "attended-the-act"
+    elif _hh and _members_in.get(_hh, 0) <= 1 and "&" in _hh:
+        # The household NAME asserts a couple; the member list holds one row.
+        _r["noKin"] = "kin-named-only-in-the-household-name"
+    elif _role == "married in":
+        _r["noKin"] = "married-in"
+    elif "of the bride" in _role or "of the groom" in _role or "consenting" in _role:
+        # THE ACT STATES A RELATIONSHIP AND THIS ARCHIVE HAS NOT DRAWN IT.
+        # «father of the groom» in the groom's own household is a statement of
+        # parentage; PASQUALE FALCO of the direct line stands here as an
+        # edge-less record under exactly that role. These are not absences —
+        # they are edges the builder does not yet make, and saying "nothing is
+        # recorded" on such a page would be false. Work-list row 97.
+        _r["noKin"] = "stated-but-not-drawn"
+    else:
+        _r["noKin"] = "no-edge-recorded"
+print("  pages that will draw an EMPTY chart with a stated reason: "
+      + ", ".join(f"{_v} {_k}" for _k, _v in
+                  collections.Counter(r["noKin"] for r in out if r.get("noKin")).most_common()))
 _p, _d = self_check(out)
 if _p:
     print("  SELF-CHECK FAILED:")

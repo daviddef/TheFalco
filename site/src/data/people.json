@@ -428,7 +428,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "antonio-annecchino-of-antonio-annecchino-maria-guida",
@@ -602,7 +603,8 @@
 "d": "before 21 Jan 1860",
 "dateFrom": {
 "d": "act"
-}
+},
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "carmine-annecchino-of-carmine-annecchino-rosa-ceglia",
@@ -902,7 +904,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "filomena-annecchino",
@@ -2126,7 +2129,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "nancy-arena",
@@ -2936,7 +2940,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "giovanna-bega",
@@ -3924,7 +3929,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "jack-calahorra",
@@ -4163,7 +4169,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "camilla-carbone",
@@ -4400,7 +4407,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "angelo-carfora-of-giuseppe-falco-gelsomina-vigliotta",
@@ -4425,7 +4433,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "angelo-carfora-of-matteo-carfora-angela-zimbardo",
@@ -4801,7 +4810,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "francesco-carfora-of-francesco-carfora-pasqua-morgillo",
@@ -5356,7 +5366,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "matteo-carfora-of-matteo-carfora-angela-zimbardo",
@@ -5439,7 +5450,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "pasquale-carfora-of-antonio-carfora-giuseppa-perreca-s",
@@ -5464,7 +5476,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "pasquale-carfora-of-pasquale-carfora-maria-carbone",
@@ -5689,7 +5702,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "letizia-casolla-casella",
@@ -5744,7 +5758,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "rosa-ceglia-of-sabatino-annecchino-mariantonia-ca",
@@ -5780,7 +5795,8 @@
 "d": "before 21 Jan 1860",
 "dateFrom": {
 "d": "act"
-}
+},
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "rosa-ceglia-of-carmine-annecchino-rosa-ceglia",
@@ -5860,7 +5876,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "annamaria-cimmino",
@@ -7032,7 +7049,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "giuseppa-cioffi",
@@ -7569,7 +7587,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "luigi-cioffi",
@@ -8277,7 +8296,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "brigida-cossi",
@@ -8302,7 +8322,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "stated-but-not-drawn"
 },
 {
 "slug": "francesco-cossi",
@@ -8616,7 +8637,8 @@
 "d": "before 4 Nov 1825",
 "dateFrom": {
 "d": "act"
-}
+},
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
@@ -9531,7 +9553,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "stated-but-not-drawn"
 },
 {
 "slug": "arcangelo-crisci-of-arcangelo-crisci-anna-falco",
@@ -9737,7 +9760,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "carmela-crisci",
@@ -9775,7 +9799,8 @@
 "b": "act",
 "d": "act"
 },
-"d": "17 Jan 1815"
+"d": "17 Jan 1815",
+"noKin": "stated-but-not-drawn"
 },
 {
 "slug": "carmina-crisci",
@@ -10269,7 +10294,8 @@
 "d": "before 10 Nov 1864",
 "dateFrom": {
 "d": "act"
-}
+},
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "domenico-crisci-of-crescenzo-crisci-angela-quotolo",
@@ -10294,7 +10320,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "domenico-crisci-of-domenico-crisci-margarita-falco",
@@ -10704,7 +10731,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "francesco-crisci-of-gioacchino-crisci-francesca-falco",
@@ -10792,7 +10820,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "gioacchino-crisci-of-gioacchino-crisci-francesca-falco",
@@ -11572,7 +11601,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "nicola-crisci-of-arcangelo-crisci-sara-ruggiero",
@@ -11597,7 +11627,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "nicola-crisci-of-nicola-crisci-maria-carfora",
@@ -12131,7 +12162,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "daughter-crisci",
@@ -12160,7 +12192,8 @@
 "b": "20 Mar 1810",
 "dateFrom": {
 "b": "act"
-}
+},
+"noKin": "stated-but-not-drawn"
 },
 {
 "slug": "clemente-crispi",
@@ -12185,7 +12218,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "giovanna-d-ambrogio",
@@ -12641,7 +12675,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "donna-raffaela-de-falco",
@@ -13001,7 +13036,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "rosa-della-selva",
@@ -13026,7 +13062,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "vincenza-della-sorca",
@@ -13933,7 +13970,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "domenico-di-guida-of-angelandrea-di-guida-teresa-viglio",
@@ -14208,7 +14246,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "maddalena-di-guida",
@@ -14914,7 +14953,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "kin-named-only-in-the-household-name"
 },
 {
 "slug": "carmela-di-guida-guido",
@@ -15154,7 +15194,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "tomaso-di-nigro",
@@ -15480,7 +15521,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "kin-named-only-in-the-household-name"
 },
 {
 "slug": "andrea-diglio",
@@ -15505,7 +15547,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "cesare-diglio",
@@ -15530,7 +15573,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "clementina-diglio",
@@ -15626,7 +15670,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "salvatore-diglio-of-alfonso-diglio-maria-falco",
@@ -16015,7 +16060,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "gennaro-espositelli",
@@ -25911,7 +25957,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "francesco-falco-of-pietro-falco-carbone-airola",
@@ -26969,7 +27016,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "no-edge-recorded"
 },
 {
 "slug": "gioacchino-falco-2",
@@ -30657,7 +30705,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "kin-named-only-in-the-household-name"
 },
 {
 "slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
@@ -30908,7 +30957,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "no-edge-recorded"
 },
 {
 "slug": "luigi-falco",
@@ -31742,7 +31792,8 @@
 "d": "13 May 1836",
 "dateFrom": {
 "d": "act"
-}
+},
+"noKin": "no-edge-recorded"
 },
 {
 "slug": "margarita-falco-of-domenico-cospi-margarita-falco",
@@ -34915,7 +34966,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "no-edge-recorded"
 },
 {
 "slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
@@ -37535,7 +37587,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "stated-but-not-drawn"
 },
 {
 "slug": "pasquale-falco-of-francesco-falco-raffaela-falco",
@@ -37647,7 +37700,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "kin-named-only-in-the-household-name"
 },
 {
 "slug": "pasquale-falco-of-michele-falco-antonia-vigliotta",
@@ -39941,7 +39995,8 @@
 "d": "before 12 Feb 1850",
 "dateFrom": {
 "d": "act"
-}
+},
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
@@ -44440,7 +44495,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "domenico-giglio",
@@ -44499,7 +44555,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "joachim-falco-the-first-gioacchino",
@@ -44631,7 +44688,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "giuseppe-guida",
@@ -44701,7 +44759,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "maria-guida-of-antonio-annecchino-maria-guida",
@@ -45019,7 +45078,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "gaetana-laudato",
@@ -45115,7 +45175,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "antonio-lettieri",
@@ -45306,7 +45367,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "antonio-lettiero",
@@ -45331,7 +45393,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "no-edge-recorded"
 },
 {
 "slug": "maria-giuseppa-liccese",
@@ -45574,7 +45637,8 @@
 "d": "25 Nov 1880",
 "dateFrom": {
 "d": "act"
-}
+},
+"noKin": "kin-named-only-in-the-household-name"
 },
 {
 "slug": "maria-maione",
@@ -45884,7 +45948,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "kin-named-only-in-the-household-name"
 },
 {
 "slug": "nicola-majone",
@@ -46048,7 +46113,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "bartolomeo-marrone",
@@ -46197,7 +46263,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "angelo-martone",
@@ -46368,7 +46435,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "giovanna-martone",
@@ -46502,7 +46570,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "kin-named-only-in-the-household-name"
 },
 {
 "slug": "maria-rosa-mauro",
@@ -46570,7 +46639,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "angela-mazza",
@@ -47317,7 +47387,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "kin-named-only-in-the-household-name"
 },
 {
 "slug": "maria-migliore",
@@ -48023,7 +48094,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "angela-maria-morgillo-of-crescenzo-falco-angela-maria-morgi",
@@ -48491,7 +48563,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "carlantonio-morgillo-of-carlantonio-morgillo-rosa-falco",
@@ -49057,7 +49130,8 @@
 "d": "10 Nov 1864",
 "dateFrom": {
 "d": "act"
-}
+},
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "giuditta-morgillo-of-carlantonio-morgillo-rosa-falco",
@@ -49608,7 +49682,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "pasqua-morgillo-of-sabatino-annecchino-mariantonia-ca",
@@ -49637,7 +49712,8 @@
 "d": "before 21 Jan 1860",
 "dateFrom": {
 "d": "act"
-}
+},
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "pasqua-morgillo-of-francesco-carfora-pasqua-morgillo",
@@ -49751,7 +49827,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "raffaela-morgillo",
@@ -50079,7 +50156,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "vincenzo-morgillo-of-angelo-morgillo-colono-monticello-",
@@ -50729,7 +50807,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "giovanna-perrotta-of-pasquale-rivetti-giovanna-perrotta",
@@ -50812,7 +50891,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "formauro-pellegrino-pesce",
@@ -51123,7 +51203,8 @@
 "d": "before 19 Mar 1815",
 "dateFrom": {
 "d": "act"
-}
+},
+"noKin": "stated-but-not-drawn"
 },
 {
 "slug": "stella-petrillo",
@@ -51148,7 +51229,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "no-edge-recorded"
 },
 {
 "slug": "angela-pignatelli",
@@ -51223,7 +51305,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "clemente-porrino",
@@ -51248,7 +51331,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "maria-porrino-of-francesco-cioffi-maria-falco",
@@ -51273,7 +51357,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "maria-porrino-of-giovanni-cioffi-maria-porrino",
@@ -51341,7 +51426,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "orazio-porrino-of-carlantonio-morgillo-rosa-falco",
@@ -51366,7 +51452,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "orsola-porrino",
@@ -51941,7 +52028,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "no-edge-recorded"
 },
 {
 "slug": "francesco-quotolo-of-francesco-quotolo-vittoria-di-guid",
@@ -52009,7 +52097,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "no-edge-recorded"
 },
 {
 "slug": "lorenzo-quotolo",
@@ -52034,7 +52123,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "pietro-quotolo",
@@ -52549,7 +52639,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "carmine-rivetti-of-nicola-rivetti-contadino-anna-di-r",
@@ -52953,7 +53044,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "stated-but-not-drawn"
 },
 {
 "slug": "chiara-rivetti-of-michele-falco-antonia-vigliotta",
@@ -52982,7 +53074,8 @@
 "d": "before 12 Feb 1850",
 "dateFrom": {
 "d": "act"
-}
+},
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "chiara-rivetti-of-raffaele-falco-chiara-rivetti",
@@ -53170,7 +53263,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "no-edge-recorded"
 },
 {
 "slug": "don-giuseppe-rivetti-of-don-giuseppe-rivetti-the-elder-gio",
@@ -54037,7 +54131,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "saverio-rivieri-of-saverio-rivieri-anna-carfora",
@@ -54210,7 +54305,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "giuseppe-ruggiero",
@@ -54564,7 +54660,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "sara-ruggiero-of-vincenzo-falco-andreana-crisci",
@@ -54610,7 +54707,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "stated-but-not-drawn"
 },
 {
 "slug": "sara-ruggiero-of-arcangelo-crisci-sara-ruggiero",
@@ -54829,7 +54927,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "elisabetta-sabina",
@@ -55045,7 +55144,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "don-angelo-scarpati",
@@ -55421,7 +55521,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "angelo-servodio",
@@ -55938,7 +56039,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "domenica-simino",
@@ -56263,7 +56365,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "antonio-sorgente-of-francesco-arricale-pasqua-falco",
@@ -56288,7 +56391,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "attended-the-act"
 },
 {
 "slug": "carmina-sorrino",
@@ -56313,7 +56417,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "giuseppe-sossi",
@@ -56672,7 +56777,8 @@
 "d": "6 May 1827",
 "dateFrom": {
 "d": "act"
-}
+},
+"noKin": "married-in"
 },
 {
 "slug": "crescenza-verdicchio",
@@ -56942,7 +57048,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "mariantonia-vigliotta",
@@ -57157,7 +57264,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "gelsomina-nobile-vigliotti",
@@ -57225,7 +57333,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "bartolomeo-michael-zaino",
@@ -59960,7 +60069,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "orsola-zimbardo",
@@ -60036,7 +60146,8 @@
 "parents": [],
 "spouses": [],
 "children": [],
-"siblings": []
+"siblings": [],
+"noKin": "ancestor-in-another-act"
 },
 {
 "slug": "rosa-zimbardo",
