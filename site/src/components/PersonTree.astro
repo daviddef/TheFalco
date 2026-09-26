@@ -73,8 +73,42 @@ const beside = (e, mark) => ({
 });
 
 const superseded = [...parents, ...spouses, ...children, ...siblings].filter((e) => e.superseded);
+
+/* A PAGE THAT DRAWS NOTHING MAKES A CLAIM IN SILENCE.
+ *
+ * 111 people here have no relation to draw. The kit hides the figure when
+ * every tier is empty, so those pages simply showed no chart — and a reader
+ * cannot tell "nobody is recorded" from "this archive has not got to it yet".
+ * Those are opposite claims and this archive states its negatives in words
+ * everywhere else.
+ *
+ * `always` shows the empty figure with a caption. The REASON is classified in
+ * the data by build_people.py, because the reasons are not interchangeable and
+ * only some of them are gaps this archive could close. The legend below is
+ * suppressed when nothing is drawn: it explains three kinds of line, and on an
+ * empty chart that implies lines exist.
+ */
+const empty = !(parents.length || spouses.length || children.length || siblings.length);
+const WHY = {
+  "ancestor-in-another-act":
+    "This person is named inside somebody else's act — as a grandparent, in the «del fu» clause that gives a parent's own father. No household here holds them in their own right, and no act read so far names their spouse or their other children. The page exists because a record names them.",
+  "attended-the-act":
+    "This person stood at an act and is not kin to anyone in it — a witness, a declarant, or the midwife. This archive keeps them because who a family called on is evidence of its own, and because the same names recur across households.",
+  "married-in":
+    "This person is known from the household this archive names them in, and from nothing else yet. No act read here gives them a parent, a child or a sibling of their own.",
+  "kin-named-only-in-the-household-name":
+    "Their kin are named — in the name of the household this archive files them under — but those people hold no record of their own here, so there is no page to draw a line to. This is a gap this archive could close, not an absence of evidence.",
+  "stated-but-not-drawn":
+    "The act states a relationship that this chart does not yet draw. This person is named at a marriage as a parent or a sibling of one of the spouses, and the person-builder does not make an edge from that role. The relationship is in the record, not on this chart.",
+  "no-edge-recorded":
+    "No act read here puts this person beside anyone else. They are recorded because a document names them, and the document names them alone.",
+  living:
+    "This person is living. This archive publishes a living person's name and their place in the family and nothing else — no dates, no places, no records.",
+};
+const why = empty ? WHY[p.noKin] || WHY["no-edge-recorded"] : null;
 ---
 <PersonTree
+  always
   self={{ name: p.name, dates: dates(p), gen: p.gen ? `generation ${p.gen}` : "", note: p.living ? "living — name only" : "", noteCls: "living" }}
   parents={parents.map(lineage)}
   spouses={spouses.map((e) => beside(e, true))}
@@ -82,11 +116,17 @@ const superseded = [...parents, ...spouses, ...children, ...siblings].filter((e)
   siblings={siblings.map((e) => beside(e, false))}
 >
   <Fragment slot="keys">
+    {empty ? null : (<>
     <span class="key"><i class="sw line"></i> the archive's own line, argued on <a href={u("/direct-line/")}>Direct line</a></span>
     <span class="key"><i class="sw register"></i> from a record this archive has read</span>
     <span class="key"><i class="sw tree"></i> from the family tree, unverified</span>
+    </>)}
   </Fragment>
   <Fragment slot="notes">
+    {why ? (
+      <p class="warn"><strong>This chart is empty, and that is a statement rather than an
+      omission.</strong> {" " + why}</p>
+    ) : null}
     {superseded.length ? (
       <p class="warn"><strong>One claim here is drawn struck through, and left in place on purpose.</strong>
       {" " + superseded[0].superseded} <strong>The archive corrects in the open rather than deleting</strong>,
