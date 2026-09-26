@@ -26,7 +26,7 @@
     "check:rows": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkrows.py --root .",
     "check:prose": "python3 ../tools/check_prose.py",
     "check:households": "python3 ../tools/check_households.py",
-    "check:kin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkkin.py --data src/data/people.json --born b --died d --max 4"
+    "check:kin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkkin.py --data src/data/people.json --born b --died d --max 1"
   },
   "dependencies": {
     "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#8ec58e6e09b526011e41a50d56c5e2c1a97ead4c",
