@@ -70,7 +70,12 @@ def main():
                  f"(ARCHIVE_OUT={os.environ.get('ARCHIVE_OUT') or 'unset'})")
 
     people = load("people.json")
-    living = [p for p in people if p.get("living")]
+    def _alive(rows):
+        """Who this gate treats as living. A function so the self-test below
+        runs THE REAL detection rather than a copy of it."""
+        return [p for p in rows if p.get("living")]
+
+    living = _alive(people)
     liv_names = [p["name"] for p in living if p.get("name")]
     fails = []
 
@@ -153,6 +158,29 @@ def main():
     #
     # So when it finds nothing, it proves it still CAN find something: a
     # synthetic record for a real living person, run through the real harvest.
+    # AND THE INVERSE FAILURE, WHICH IS THE ONE THAT MATTERS MOST.
+    #
+    # The self-test below was first written as `if not forbidden and lower`,
+    # which cannot fire when `lower` is EMPTY — that is, in exactly the case
+    # where this gate has stopped seeing living people at all. Proved on
+    # 27 September 2026 by renaming the `living` key the way an upstream
+    # change would: the gate printed «0 living people» and «clean — no living
+    # person carries a date, no living person's page is indexed» and EXITED
+    # ZERO. A guard built so it cannot fire in the worst case is not a guard.
+    #
+    # Zero living people is a FINDING for an archive that has none and a
+    # FAILURE TO LOOK for this one, and the gate cannot tell which from the
+    # outside — so it asks the detection to prove itself.
+    if not living:
+        if not _alive([{"name": "Self Test", "living": True}]):
+            fails.append("THE LIVING-PEOPLE DETECTION CANNOT FIRE. This gate finds nobody "
+                         "living, and a synthetic person flagged living was not detected "
+                         "either — so «no living person reaches the build» is not evidence "
+                         "of anything. The flag has most likely been renamed upstream.")
+        else:
+            print("check_release: NOBODY IS FLAGGED LIVING — the detection was self-tested "
+                  "and works, so this is a finding and not a broken gate")
+
     if not forbidden and lower:
         _probe = _harvest([{"name": sorted(lower)[0], "b": "1 January 1801"}], "self-test")
         if not _probe:
