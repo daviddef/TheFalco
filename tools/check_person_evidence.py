@@ -56,6 +56,22 @@ fails = []
 
 # ---------------------------------------------------------------- check one
 H = J("site/src/data/households.json")
+
+# ZERO IS A FAILURE TO LOOK, NOT A FINDING — for THIS archive.
+#
+# A guard has a RANGE and both ends of it are unguarded by default: one that
+# stops refusing anybody passes by flagging everyone, and one that stops
+# FINDING anybody passes by refusing everyone. On 27 September 2026 this gate
+# was shown to hold the second: fed an empty households file it printed
+# «clean» and exited ZERO. An empty households file is this archive's entire
+# reconstructed genealogy gone, and the gate would have blessed it.
+#
+# There is no number of households this archive could legitimately have that
+# is zero, so the floor is stated rather than inferred.
+if not H:
+    sys.exit("  check_person_evidence: REFUSING — households.json holds ZERO households, so there is "
+             "nothing documented and «every documented person carries their evidence» is vacuous.")
+
 people = J("site/src/data/people.json")
 
 documented = {}                       # cleaned name -> a sample of what documents it

@@ -59,6 +59,22 @@ def deliberate(s):
 H = json.load(open(P, encoding="utf-8"))
 fail, warn = [], []
 
+# ZERO IS A FAILURE TO LOOK, NOT A FINDING — for THIS archive.
+#
+# A guard has a RANGE and both ends of it are unguarded by default: one that
+# stops refusing anybody passes by flagging everyone, and one that stops
+# FINDING anybody passes by refusing everyone. On 27 September 2026 this gate
+# was shown to hold the second: fed an empty households file it printed
+# «clean» and exited ZERO. An empty households file is this archive's entire
+# reconstructed genealogy gone, and the gate would have blessed it.
+#
+# There is no number of households this archive could legitimately have that
+# is zero, so the floor is stated rather than inferred.
+if not H:
+    sys.exit("  check_households: REFUSING — households.json holds ZERO households. That is not a "
+             "clean archive, it is an empty one, and every check below would pass on it.")
+
+
 # 1. IDENTITY. Since 23 September 2026 a household is identified by its `id`
 #    and not by the string on the page, so this is the structural check David
 #    asked for: two entries cannot share an id, and an entry without one has no
