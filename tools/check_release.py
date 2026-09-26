@@ -16,11 +16,47 @@ gate before a release, and it is meant to be annoying.
 import json, glob, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# --dist lets this gate run against an isolated build. Another session builds into
-# site/dist continuously, and reading that directory mid-write is how this check
-# once came back with a missing page that was never missing.
-DIST = os.path.join(ROOT, "site",
-                    sys.argv[sys.argv.index("--dist") + 1] if "--dist" in sys.argv else "dist")
+
+# WHICH BUILD THIS GATE READS, and why the ENVIRONMENT beats the flag.
+#
+# `--dist` lets this gate run against an isolated build, because another
+# session builds into site/dist continuously and reading that directory
+# mid-write is how this check once came back with a missing page that was
+# never missing. That much was already here. What was missing is the other
+# half: the estate standardised on ARCHIVE_OUT, and this tool never read it.
+#
+# On 27 September 2026 that produced the failure this gate exists to prevent,
+# in reverse. Run without a flag it graded site/dist — 9,492 pages, built the
+# previous day — and reported TWO LIVING PEOPLE'S PAGES AS INDEXED. Both
+# carry `<meta name="robots" content="noindex, nofollow">` in the build that
+# had just been made. Nothing had leaked; the gate was grading a build nobody
+# made.
+#
+# THE SYMMETRIC FAILURE IS THE ONE THAT MATTERS. A gate reading a stale dist
+# can equally report GREEN on a build where the leak is real, and nobody
+# looks twice at a green living-people check. This is the one rule in this
+# archive that must never be wrong.
+#
+# The environment wins over the flag deliberately, which is the kit's rule and
+# the opposite of the usual order: `--dist dist` in package.json is the
+# repository's default — what to read when nobody has said otherwise —
+# while ARCHIVE_OUT is an operator saying «read THIS build, the one I just
+# made». The kit's outdir.resolve is used when it can be imported so this
+# tool cannot drift from the estate; the fallback does the same thing, so a
+# moved kit leaves this gate correct rather than silently back where it was.
+_flag = sys.argv[sys.argv.index("--dist") + 1] if "--dist" in sys.argv else "dist"
+try:
+    sys.path.insert(0, os.path.join(ROOT, "site", "node_modules", "@daviddef",
+                                    "archive-kit", "kit", "tools"))
+    from outdir import resolve as _resolve          # type: ignore
+except Exception:
+    def _resolve(d):
+        _o = os.environ.get("ARCHIVE_OUT")
+        if not _o:
+            return d
+        _p = os.path.dirname((d or "").rstrip("/\\"))
+        return os.path.join(_p, _o) if _p else _o
+DIST = os.path.join(ROOT, "site", _resolve(_flag))
 DATA = os.path.join(ROOT, "site", "src", "data")
 
 def load(n): return json.load(open(os.path.join(DATA, n), encoding="utf-8"))
@@ -30,7 +66,8 @@ def flat(html):
 
 def main():
     if not os.path.isdir(DIST):
-        sys.exit("check_release: no site/dist — build first")
+        sys.exit(f"check_release: no {os.path.relpath(DIST, ROOT)} — build first "
+                 f"(ARCHIVE_OUT={os.environ.get('ARCHIVE_OUT') or 'unset'})")
 
     people = load("people.json")
     living = [p for p in people if p.get("living")]
@@ -85,14 +122,43 @@ def main():
                 if m:
                     forbidden[m.group(0)] = f"{g.get('name')} (line.json {k})"
 
-    for x in tree:                      # the tree: living people's own dates
-        nm = str(x.get("name", "")).split(" (")[0].strip()
-        if nm.lower() not in lower:
-            continue
-        for k in ("b", "d"):
-            m = FULL.search(str(x.get(k) or ""))
-            if m:
-                forbidden[m.group(0)] = f"{nm} (tree {k})"
+    def _harvest(rows, label):
+        """Pull every full date a LIVING person carries out of `rows`.
+
+        Extracted so the self-test below can run the REAL path rather than a
+        copy of it. A test that exercises a duplicate of the code proves only
+        that the duplicate works.
+        """
+        got = {}
+        for x in rows:
+            nm = str(x.get("name", "")).split(" (")[0].strip()
+            if nm.lower() not in lower:
+                continue
+            for k in ("b", "d"):
+                m = FULL.search(str(x.get(k) or ""))
+                if m:
+                    got[m.group(0)] = f"{nm} ({label} {k})"
+        return got
+
+    forbidden.update(_harvest(tree, "tree"))
+
+    # A GUARD WATCHING NOTHING IS INDISTINGUISHABLE FROM A GUARD THAT HAS
+    # STOPPED WORKING, and this one watches nothing: all 106 living people
+    # carry no date in any source, so `forbidden` is empty and the scan below
+    # has no work. That is the living-people rule being upheld UPSTREAM, which
+    # is the right place — but it means a break anywhere in the gathering path
+    # above (the living-name set, the date pattern, a source that stopped
+    # loading) would produce exactly the same silence, and the gate would go on
+    # printing a reassuring line for ever.
+    #
+    # So when it finds nothing, it proves it still CAN find something: a
+    # synthetic record for a real living person, run through the real harvest.
+    if not forbidden and lower:
+        _probe = _harvest([{"name": sorted(lower)[0], "b": "1 January 1801"}], "self-test")
+        if not _probe:
+            fails.append("THE DATE GUARD CANNOT FIRE. It reports no dates to watch, and a "
+                         "synthetic date on a known living person did not register either — "
+                         "so the empty result is not evidence that the rule is being kept.")
 
     pages = glob.glob(os.path.join(DIST, "**", "index.html"), recursive=True)
     for f in pages:
@@ -214,6 +280,20 @@ def main():
                 print("   ", _x)
             sys.exit(1)
 
+    # SAY WHICH BUILD WAS GRADED, AND HOW OLD IT IS.
+    #
+    # On 27 September 2026 this gate reported two living people's pages as
+    # INDEXED. They were not: it had graded a day-old site/dist while the
+    # build just made was correct. The reading was accurate about the
+    # directory and said nothing about WHICH directory, so the only way to
+    # discover that was to go and count the pages by hand. One line here
+    # would have settled it in a second, and the same line settles the
+    # dangerous case — a stale build reporting GREEN — just as fast.
+    import datetime as _dt
+    _age = _dt.datetime.fromtimestamp(os.path.getmtime(DIST)).strftime("%Y-%m-%d %H:%M")
+    print(f"check_release: graded {os.path.relpath(DIST, ROOT)} — {len(pages)} pages, "
+          f"last written {_age}"
+          + (f" · ARCHIVE_OUT={os.environ['ARCHIVE_OUT']}" if os.environ.get("ARCHIVE_OUT") else ""))
     print(f"check_release: {len(pages)} pages, {len(living)} living people, {n_noindex} noindexed")
     if fails:
         print("\nFAILED — the living-people rule is broken:\n")
