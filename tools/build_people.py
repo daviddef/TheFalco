@@ -395,6 +395,7 @@ except Exception:
     _ledger_doc = {"_why": ["Written by tools/build_people.py"], "slugs": {}}
 _frozen = _ledger_doc["slugs"]
 _minted = []
+_displaced = []   # tree halves that lost a frozen slug to their register half
 
 counts = collections.Counter(kebab(clean(hh_people[k]["name"])) for k in hh_order)
 used = set(_frozen.values())
@@ -535,6 +536,34 @@ for nm in sorted(tr_by_name):
             _ty = years(_t.get(_fld))
             if _hy and _ty and not (_hy & _ty):
                 _clash.append(f"{_kind} {sorted(_hy)} vs tree {sorted(_ty)}")
+        # AND THE CROSS PAIR, WHICH IS IMPOSSIBILITY AND NOT DISAGREEMENT.
+        #
+        # The like-with-like test above compares birth against birth and death
+        # against death, and is silent whenever one side of a pair is missing.
+        # That is right for a marriage year against a birth year — they never
+        # overlap and never contradict. It is NOT right when the tree gives a
+        # BIRTH and the register gives a DEATH, because those two CAN
+        # contradict: nobody dies before they are born.
+        #
+        # It let two records through and the kit's `check:kin` found them on
+        # 27 September 2026: CARMINA FALCO, born in the tree on 8 July 1891 and
+        # dead in the register on 19 December 1832; PASQUALINA FALCO, born
+        # 1 February 1877 and dead 14 September 1836. Fifty-nine years and
+        # forty-one years the wrong way round — two women each, welded on a
+        # name because neither side could see the other's kind of date.
+        #
+        # This is not the rule that cost ten merges. That one refused ABSENCE
+        # of agreement; this one refuses only a pair that cannot both be true.
+        for _bset, _dset, _why in (
+                (years(_t.get("b")),
+                 years(*[e.get("date") for e in hh_people[hk]["events"]
+                         if str(e.get("event") or "").lower().startswith("death")]),
+                 "tree birth after register death"),
+                (years(*[e.get("date") for e in hh_people[hk]["events"]
+                         if str(e.get("event") or "").lower().startswith("birth")]),
+                 years(_t.get("d")), "register birth after tree death")):
+            if _bset and _dset and min(_bset) > max(_dset):
+                _clash.append(f"{_why} — born {min(_bset)}, died {max(_dset)}")
         if _clash:
             refused.append((nm + " — " + "; ".join(_clash), len(tids)))
         else:
@@ -786,8 +815,40 @@ for p in tree:
         r["mergedOn"] = basis[tid]
     else:
         _tkey = "tree:" + str(tid)
-        if _tkey in _frozen:
+        if _tkey in _frozen and _frozen[_tkey] not in people:
             slug = _frozen[_tkey]
+        elif _tkey in _frozen:
+            # THE LEDGER FREEZES A MERGE DECISION, AND A MERGE CAN BE WITHDRAWN.
+            #
+            # 34 slugs in person-slugs.json are frozen to TWO keys: a household
+            # key and a tree key. That is correct while the two halves are
+            # merged — one person, one address. It becomes a trap the moment a
+            # merge is refused, because both halves then claim the same slug
+            # and this branch, which had no collision guard, let the tree half
+            # OVERWRITE the register half in `people`.
+            #
+            # It destroyed two documented deaths on 27 September 2026 —
+            # CARMINA FALCO, 19 December 1832, and PASQUALINA FALCO,
+            # 14 September 1836 — silently, while the build printed nothing and
+            # the record simply ceased to exist. The refusal that exposed it was
+            # correct; this was a latent fault underneath it.
+            #
+            # THE REGISTER HALF KEEPS THE ADDRESS. It is the half with an act
+            # behind it; the tree half is the unevidenced one, and this archive
+            # ranks a document above a tree everywhere else.
+            base = kebab(clean(p["name"])) or ("person-" + str(tid))
+            slug = base; n = 2
+            while slug in people or slug in used:
+                slug = f"{base}-{n}"; n += 1
+            # REPOINT THE LEDGER, do not add a second key beside the wrong one.
+            # The entry `tree:<id> -> carmina-falco` is now FALSE: that address
+            # belongs to the register half. Leaving it standing makes the
+            # collision recur on every build and leaves this slug recomputed
+            # rather than frozen, so a later person could move it again. The
+            # ledger's promise is that an address never changes silently — it
+            # is not a promise that a withdrawn merge stays mis-recorded.
+            _displaced.append((_frozen[_tkey], slug, strip_ticks(p["name"])))
+            _frozen[_tkey] = slug
         else:
             base = kebab(clean(p["name"])) or ("person-" + str(tid))
             slug = base
@@ -1269,6 +1330,15 @@ open(_LEDGER, "w", encoding="utf-8").write(
     json.dumps(_ledger_doc, ensure_ascii=False, indent=1) + "\n")
 if _minted:
     print(f"  person-slugs.json: {len(_minted)} new slug(s) frozen")
+# A SLUG TAKEN AWAY FROM SOMEBODY MUST NEVER BE SILENT. When a merge is
+# withdrawn, the register half keeps the frozen address and the tree half is
+# moved; before 27 September 2026 the tree half instead OVERWROTE the register
+# half and two documented deaths vanished with no line of output at all.
+if _displaced:
+    print(f"  SLUGS DISPLACED BY A WITHDRAWN MERGE: {len(_displaced)} — the register half kept")
+    print(f"  the frozen address because it has an act behind it; the tree half moved:")
+    for _was, _now, _nm in _displaced:
+        print(f"      {_nm}: tree half /{_was}/ -> /{_now}/")
 
 json.dump(out, open(path("site/src/data/people.json"), "w"), ensure_ascii=False, indent=0)
 

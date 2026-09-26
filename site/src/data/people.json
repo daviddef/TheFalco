@@ -8950,7 +8950,7 @@
 ]
 },
 {
-"slug": "carmina-falco",
+"slug": "carmina-falco-2",
 "name": "Carmina Falco",
 "via": "tree",
 "vias": [
@@ -21173,28 +21173,10 @@
 }
 ],
 "sources": [
-"register",
-"tree"
+"register"
 ],
 "living": false,
 "parents": [
-{
-"slug": "gioacchino-guglielmo-falco",
-"name": "Gioacchino / Guglielmo Falco",
-"via": "tree",
-"vias": [
-"tree"
-],
-"superseded": "RETIRED — THE TREE IS DESCRIBING A DIFFERENT CARMINA FALCO. This Carmina is documented by a single act: she died on 19 December 1832 «di mesi SEI» — at six months old — «figlia di FRANCESCO FALCO, contadino, e di RAFFAELA FALCO», on strada Camellara. Her father is FRANCESCANTONIO FALCO, identified from the 1832 marriage index. An infant who lived six months has no descendants, so the Carmina the family tree carries, with different parents, is another woman of the name; the two records were joined on the forename. The tree's parents are kept on the record rather than deleted, so that a reader who finds them there can see they were examined."
-},
-{
-"slug": "andreana-crisci",
-"name": "Andreana Crisci (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
 {
 "slug": "francescantonio-falco-of-francesco-falco-raffaela-falco",
 "name": "Francescantonio Falco",
@@ -21215,30 +21197,6 @@
 "spouses": [],
 "children": [],
 "siblings": [
-{
-"slug": "raffaele-falco-5",
-"name": "Raffaele Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "giovanni-falco",
-"name": "Giovanni Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "raffaela-falco",
-"name": "Raffaela Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
 {
 "slug": "clemente-falco-of-francesco-falco-raffaela-falco",
 "name": "Clemente Falco",
@@ -21280,16 +21238,75 @@
 ]
 }
 ],
-"mergedOn": "name alone",
+"d": "19 Dec 1832",
+"dateFrom": {
+"d": "act"
+}
+},
+{
+"slug": "carmina-falco-2",
+"name": "Carmina Falco",
+"surname": "FALCO",
+"household": null,
+"role": null,
+"events": [],
+"sources": [
+"tree"
+],
+"living": false,
+"parents": [
+{
+"slug": "gioacchino-guglielmo-falco",
+"name": "Gioacchino / Guglielmo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "andreana-crisci",
+"name": "Andreana Crisci (Falco)",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "raffaele-falco-5",
+"name": "Raffaele Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "giovanni-falco",
+"name": "Giovanni Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "raffaela-falco",
+"name": "Raffaela Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
 "treeId": 4512389,
 "b": "July 8 1891",
 "dateFrom": {
 "b": "tree",
-"bp": "tree",
-"d": "act"
+"bp": "tree"
 },
-"bp": "Arienzo, Caserta, Campania, Italia",
-"d": "19 Dec 1832"
+"bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "carmine-antonio-falco",
@@ -26815,7 +26832,7 @@
 ]
 },
 {
-"slug": "carmina-falco",
+"slug": "carmina-falco-2",
 "name": "Carmina Falco",
 "via": "tree",
 "vias": [
@@ -28210,7 +28227,7 @@
 ]
 },
 {
-"slug": "carmina-falco",
+"slug": "carmina-falco-2",
 "name": "Carmina Falco",
 "via": "tree",
 "vias": [
@@ -28491,7 +28508,7 @@
 ]
 },
 {
-"slug": "pasqualina-falco",
+"slug": "pasqualina-falco-2",
 "name": "Pasqualina Falco",
 "via": "tree",
 "vias": [
@@ -36759,7 +36776,7 @@
 ]
 },
 {
-"slug": "pasqualina-falco",
+"slug": "pasqualina-falco-2",
 "name": "Pasqualina Falco",
 "via": "tree",
 "vias": [
@@ -38065,27 +38082,10 @@
 }
 ],
 "sources": [
-"register",
-"tree"
+"register"
 ],
 "living": false,
 "parents": [
-{
-"slug": "pasquale-antonio-falco",
-"name": "Pasquale Antonio Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "maria-amelia-amalia-guida-guido",
-"name": "Maria Amelia / Amalia Guida / Guido (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
 {
 "slug": "francescantonio-falco-of-francesco-falco-raffaela-falco",
 "name": "Francescantonio Falco",
@@ -38106,38 +38106,6 @@
 "spouses": [],
 "children": [],
 "siblings": [
-{
-"slug": "raffaele-falco-3",
-"name": "Raffaele Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "raffaele-falco-4",
-"name": "Raffaele Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "giuseppa-falco",
-"name": "Giuseppa Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "raffaela-falco-3",
-"name": "Raffaela Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
 {
 "slug": "clemente-falco-of-francesco-falco-raffaela-falco",
 "name": "Clemente Falco",
@@ -38179,16 +38147,83 @@
 ]
 }
 ],
-"mergedOn": "name alone",
+"d": "14 Sep 1836",
+"dateFrom": {
+"d": "act"
+}
+},
+{
+"slug": "pasqualina-falco-2",
+"name": "Pasqualina Falco",
+"surname": "FALCO",
+"household": null,
+"role": null,
+"events": [],
+"sources": [
+"tree"
+],
+"living": false,
+"parents": [
+{
+"slug": "pasquale-antonio-falco",
+"name": "Pasquale Antonio Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "maria-amelia-amalia-guida-guido",
+"name": "Maria Amelia / Amalia Guida / Guido (Falco)",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "raffaele-falco-3",
+"name": "Raffaele Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "raffaele-falco-4",
+"name": "Raffaele Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "giuseppa-falco",
+"name": "Giuseppa Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "raffaela-falco-3",
+"name": "Raffaela Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
 "treeId": 4512512,
 "b": "Feb 1 1877",
 "dateFrom": {
 "b": "tree",
-"bp": "tree",
-"d": "act"
+"bp": "tree"
 },
-"bp": "Arienzo, Caserta, Campania, Italia",
-"d": "14 Sep 1836"
+"bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "rosa-maria-falco",
@@ -38714,7 +38749,7 @@
 ]
 },
 {
-"slug": "carmina-falco",
+"slug": "carmina-falco-2",
 "name": "Carmina Falco",
 "via": "tree",
 "vias": [
@@ -38872,7 +38907,7 @@
 ]
 },
 {
-"slug": "pasqualina-falco",
+"slug": "pasqualina-falco-2",
 "name": "Pasqualina Falco",
 "via": "tree",
 "vias": [
@@ -40151,7 +40186,7 @@
 ]
 },
 {
-"slug": "pasqualina-falco",
+"slug": "pasqualina-falco-2",
 "name": "Pasqualina Falco",
 "via": "tree",
 "vias": [
@@ -40224,7 +40259,7 @@
 ]
 },
 {
-"slug": "pasqualina-falco",
+"slug": "pasqualina-falco-2",
 "name": "Pasqualina Falco",
 "via": "tree",
 "vias": [
@@ -40293,7 +40328,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "carmina-falco",
+"slug": "carmina-falco-2",
 "name": "Carmina Falco",
 "via": "tree",
 "vias": [
@@ -44507,7 +44542,7 @@
 ]
 },
 {
-"slug": "pasqualina-falco",
+"slug": "pasqualina-falco-2",
 "name": "Pasqualina Falco",
 "via": "tree",
 "vias": [
