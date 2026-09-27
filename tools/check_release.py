@@ -208,9 +208,17 @@ def main():
     # every test it makes needs both a birth and a death. A ratio nobody
     # prints is a ratio nobody checks.
     print(f"check_release: guarding {len(forbidden)} date string(s) belonging to living people"
+          # ALWAYS STATE THE RELATION BETWEEN NAMES AND PEOPLE, even when it is
+          # one-to-one. This guard works on NAMES, so a per-person count can
+          # never be recovered from a per-name count — the difference can only
+          # be explained, never reconciled. Printing the explanation only when
+          # the gap exists means that once it closes, A MISSING EXPLANATION AND
+          # AN ABSENT GAP LOOK THE SAME, which is the ambiguity this line was
+          # added to remove.
           + f" — examined {len(lower)} distinct living name(s) for {len(living)} living people"
-          + (f" ({len(living) - len(lower)} share a name with another)" if len(living) > len(lower) else "")
-          + f", {len(forbidden)} of which carry a date"
+          + (f", {len(living) - len(lower)} of whom share a name with another"
+             if len(living) > len(lower) else ", none of whom share a name")
+          + f"; {len(forbidden)} of those names carry a date"
           + (": " + ", ".join(sorted(forbidden)) if forbidden
              else "; NONE DO, so this guard has nothing to watch and said so"))
 
