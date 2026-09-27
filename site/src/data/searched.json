@@ -1571,5 +1571,18 @@
    "API",
    "read in full"
   ]
+ },
+ {
+  "when": "1924–1972",
+  "src": "**NAA RecordSearch — the PASSENGER ARRIVALS index**, searched 28 September 2026 as a guest, no login. `PassengerSearch.aspx`, surname **FALCO**, all ports and years. *The session must be minted from `recordsearch.naa.gov.au/` itself; going straight to a search screen returns «Session expired».*",
+  "what": "Whether **CARMINE FALCO** entered Australia before the family's documented voyage of 26 March 1964 — the question that decides a Brisbane newspaper report of July 1963, and which the paper-only immigration file J25 1971/9830 cannot answer online.",
+  "got": "**103 FALCO ARRIVALS IN THE INDEX, AND EXACTLY TWO OF THEM ARE A CARMINE.**\n\n| date | port | ship | from | NAA item |\n|---|---|---|---|---|\n| **7 Nov 1956** | **Fremantle** | **CASTEL BIANCO** | Genoa | **30139890** |\n| 26 Mar 1964 | Brisbane | SYDNEY | Naples | 12100311 |\n\n**The 1964 list carries the family together** — *Carmine, Francesca, and two further passengers of the surname, who are living and withheld here*. **The 1956 list carries a Carmine Falco alone**, into Fremantle, and it is the **only pre-1964 arrival of that name in the whole index**.\n\n**THIS IS THE RECORD THAT RECONCILES EVERYTHING THAT DID NOT FIT.** The immigration case file **J25 1971/9830 opens in 1957**, the year after; the Petrie Terrace destination address was given on **2 September 1963**, six months before the ship docked; and **David de Franceski states that Carmine was in Australia in 1963**. *The husband first and alone, the family seven years later, is the ordinary pattern and it is what the records describe.*\n\n**AND IT OVERTURNS THIS ARCHIVE'S OWN REASONING OF THE DAY BEFORE**, which ruled out the Spring Hill report because the 1964 passenger list was «documented». *A list of one voyage was read as a statement about every voyage.*\n\n**OTHER FALCO ARRIVALS WORTH HOLDING.** **BARTOLOMEO FALCO, 7 March 1949, Sydney, ss TOSCANA** — which sits with his naturalisation at **Ayr in August 1957** and the **Home Hill** cluster this archive grades *candidate*. **GIUSEPPE FALCO, 15 September 1925, Brisbane, ss PALERMO from Genoa** — the earliest Falco arrival at Brisbane in the index, and *not connected to this line by anything but the surname*.\n\n**NOT YET PROVED.** **NAA: K269, item 30139890 is Open and digitised, twenty-nine pages.** *His entry would give his age and settle whether this is the man born 8 June 1930. The images render in a browser but a direct request is refused by the archive's firewall, so the page has to be found by eye.*",
+  "outcome": "found",
+  "tags": [
+   "NAA",
+   "Australia",
+   "Passenger arrivals",
+   "Falco"
+  ]
  }
 ]
