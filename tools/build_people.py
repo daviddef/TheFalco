@@ -1235,6 +1235,56 @@ print(f"  register prose read: {_prose_added} edges added, "
 
 out = sorted(people.values(), key=lambda r: (r["surname"], clean(r["name"])))
 
+# ---------------------------------------------------- line.json OWNS the line.
+#
+# `line.json` is this archive's own argued statement about the nine generations
+# of the direct line, and until 27 September 2026 NOTHING READ ITS DATES. The
+# person graph took `b` and `d` from the family tree and the registers only, so
+# the file the archive treats as most authoritative was the one source that
+# could not reach a person page.
+#
+# It showed as a contradiction between two pages of the same site. CARMINE
+# FALCO of generation eight died in 2026 — family knowledge, given by David on
+# 10 September 2026 and recorded in line.json that day — and `/people/
+# carmine-falco/` went on saying he had no death at all. `check:kin` counted
+# him among the birth-only, and a work-list row was written on the premise
+# that this archive held no death for him. It held one, on the other page.
+#
+# The estate's ranking is line > register > tree. So: fill a blank from
+# line.json, and where line.json and the existing value DISAGREE, print it
+# every build rather than silently choosing — a disagreement between the
+# archive's own argument and its sources is a finding, not a merge conflict.
+_LINE_ONLY_DATE = re.compile(r"^\s*(\d{1,2}\s+[A-Za-z]{3,9}\s+\d{4}|[A-Za-z]{3,9}\s+\d{1,2},?\s+\d{4}|\d{4})\s*$")
+_by_gen = {}
+for _r in out:
+    if _r.get("gen"):
+        _by_gen.setdefault(_r["gen"], []).append(_r)
+_line_filled, _line_clash = [], []
+for _g in (line if isinstance(line, list) else (line.get("generations") or [])):
+    _cands = _by_gen.get(_g.get("gen")) or []
+    if len(_cands) != 1:
+        continue                      # never guess which person a generation is
+    _p = _cands[0]
+    for _src, _dst in (("born", "b"), ("died", "d")):
+        _v = str(_g.get(_src) or "").strip()
+        if not _LINE_ONLY_DATE.match(_v):
+            continue                  # gen 1 carries prose, not a date
+        _cur = str(_p.get(_dst) or "").strip()
+        if not _cur:
+            _p[_dst] = _v
+            _line_filled.append(f"{_p['name']} {_dst}={_v}")
+        elif years(_cur) and years(_v) and not (years(_cur) & years(_v)):
+            _line_clash.append(f"{_p['name']} {_dst}: line.json {_v!r} vs {_cur!r}")
+if _line_filled:
+    print(f"  line.json filled {len(_line_filled)} date(s) the person graph did not have: "
+          + "; ".join(_line_filled))
+if _line_clash:
+    print(f"  LINE.JSON DISAGREES WITH THE PERSON GRAPH on {len(_line_clash)} date(s) — "
+          f"the archive's own argument against its own sources, left standing and printed:")
+    for _c in _line_clash:
+        print("      " + _c)
+
+
 # ---------------------------------------------------------------- why a page
 # draws no chart at all.
 #
