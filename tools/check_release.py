@@ -195,8 +195,24 @@ def main():
             if d in txt:
                 fails.append(f"{os.path.relpath(f, DIST)}: contains '{d}' — {whose} IS LIVING")
 
+    # NAME WHAT WAS EXAMINED, NOT WHAT WAS HANDED.
+    #
+    # «guarding 0 date strings» is true and says nothing about coverage. The
+    # number that carries the meaning is how many living people this guard
+    # could look at — those the sources give a date for — against how many
+    # there are. «0 of 106 living people carry a date anywhere» is the rule
+    # being kept; «0 of 0» would be the guard having lost the corpus.
+    #
+    # The estate learned this from the kit's kin gate, which reported «866
+    # people · 1 impossible relationship» while examining 119 of them, because
+    # every test it makes needs both a birth and a death. A ratio nobody
+    # prints is a ratio nobody checks.
     print(f"check_release: guarding {len(forbidden)} date string(s) belonging to living people"
-          + (": " + ", ".join(sorted(forbidden)) if forbidden else " — NONE FOUND, the guard is watching nothing"))
+          + f" — examined {len(lower)} distinct living name(s) for {len(living)} living people"
+          + (f" ({len(living) - len(lower)} share a name with another)" if len(living) > len(lower) else "")
+          + f", {len(forbidden)} of which carry a date"
+          + (": " + ", ".join(sorted(forbidden)) if forbidden
+             else "; NONE DO, so this guard has nothing to watch and said so"))
 
     # 3. every living person's own page must be noindexed
     person_pages = {p["slug"] for p in living}
