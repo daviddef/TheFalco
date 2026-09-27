@@ -175,8 +175,14 @@ def main():
         if not _alive([{"name": "Self Test", "living": True}]):
             fails.append("THE LIVING-PEOPLE DETECTION CANNOT FIRE. This gate finds nobody "
                          "living, and a synthetic person flagged living was not detected "
-                         "either — so «no living person reaches the build» is not evidence "
-                         "of anything. The flag has most likely been renamed upstream.")
+                         "either — so «nobody is flagged living» is not evidence of anything. "
+                         "The flag has most likely been renamed upstream.")
+            # NOT «no living person reaches the build» — that claim is stronger
+            # than this archive enforces. Under the named-bare policy a living
+            # person's NAME does reach the build, by design: David's rule is a
+            # name and a relationship and nothing else. What is enforced, and
+            # all this gate may claim, is that no living person carries a DATE
+            # and no living person's page is INDEXED.
         else:
             print("check_release: NOBODY IS FLAGGED LIVING — the detection was self-tested "
                   "and works, so this is a finding and not a broken gate")
