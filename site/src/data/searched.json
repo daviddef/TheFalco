@@ -1570,7 +1570,11 @@
    "Australia",
    "API",
    "read in full"
-  ]
+  ],
+  "url": "https://api.trove.nla.gov.au/v3/result",
+  "searchedOn": "2026-09-27",
+  "walked": false,
+  "provider": "trove"
  },
  {
   "when": "1924–1972",
@@ -1583,6 +1587,49 @@
    "Australia",
    "Passenger arrivals",
    "Falco"
+  ],
+  "url": "https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/SearchScreens/PassengerSearch.aspx",
+  "searchedOn": "2026-09-28",
+  "walked": false,
+  "provider": "naa"
+ },
+ {
+  "when": "1858 and 1859",
+  "searchedOn": "2026-09-27",
+  "provider": "antenati",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14262/",
+  "film": null,
+  "src": "**ANTENATI — Arienzo (Caserta), civil MARRIAGE registers for 1858 and 1859**, `an_ua14262` (39 images) and `an_ua14263` (28 images). **Read act by act from the images**, both volumes, **images 3–38 and 3–27** — *all 36 acts of 1858 and all 25 acts of 1859, sixty-one acts in total.* Each volume identified from its own title page, «*Degli atti di MATRIMONI … mille ottocento cinquantotto*», not from the catalogue.",
+  "what": "**Every act read in full, not scanned for a surname** — both spouses and all four parents. Run for FALCO and for anything dating GIUSEPPE FALCO or ANTONIA DI GUIDA.",
+  "got": "**NOT ONE FALCO in sixty-one acts** — not as groom, not as bride, not as a parent of either. *A clean nil for both years.*\n\n**Layout proved per volume before sweeping**: an act BEGINS on the RIGHT page and carries the date, both spouses and all four parents; the LEFT page of the next image holds the PREVIOUS act's witnesses, so `image = act + 2`. **A band on the wrong half would have read sixty-one witness lists and looked complete.**\n\n**By-catch, recorded because the acts were read in full rather than searched**: a **fourth CHIARA RIVETTI** at Arienzo (1858 act 23, wife of the late Luigi Guida) proving the name does not identify one woman; three **ARRICALE** daughters; and the trade word **MINISCALCO**, which resolved a word left unread on a death act of 1854.",
+  "outcome": "nothing",
+  "pages": "3-38, 3-27",
+  "walked": true,
+  "tags": [
+   "Antenati",
+   "Marriages",
+   "Arienzo",
+   "read in full"
+  ]
+ },
+ {
+  "when": "1767, 1808, 1811, 1818",
+  "searchedOn": "2026-09-27",
+  "provider": "familysearch",
+  "film": "007959561",
+  "waypoint": null,
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSD3-1362-V",
+  "src": "**FAMILYSEARCH — «Registri ecclesiastici di Arienzo (Caserta)», parish baptism registers.** **Film 007959561**, 2,246 images. **FOUR LEAVES read from the image** at 3,840–4,352 px, via the DeepZoom tile endpoint: `3:1:3Q9M-CSD3-1362-V` (1767), `-13FJ-4` (1808), `-13CP-B` (1811), `-1381-R`/`-13LG-7` (1818).\n\n**NO WAYPOINT RECORDED, AND NOT GUESSED.** *The atlas keys volumes on the FamilySearch waypoint (`wc=`/`owc=`) and the film number has never matched. The session's FamilySearch login lapsed before a waypoint could be read from the catalogue/browse path, and this archive does not enter its owner's credentials. **The film number is recorded instead and this row says so.***",
+  "what": "Baptisms of the direct line, and of the founders' children, to replace machine transcriptions with readings.",
+  "got": "**FOUR LEAVES, FOUR RESULTS, AND ONE OF THEM CORRECTED THE LINE.** *Generation two's baptism is **24 JULY 1767**, not the 24 October this archive carried from a machine transcript — «Julii» and «Octobris» are not alike in any hand, and the year is written out in Latin AND repeated in underlined digits.* The 1808 leaf names a child's father and mother in full, removing a «machine transcription, unverified» caveat an argument had been resting on. The 1818 leaf dates a direct ancestor's baptism to the day. The 1811 leaf is a baptism this archive did not hold at all.\n\n**FULL-TEXT REACHES A DECADE THE INDEXES DO NOT.** This archive had published that the parish indexes cannot go back to the 1760s. *True of the indexes; not of the images* — the 1767 act was found through FamilySearch's full-text search over unindexed pages. **An index that stops is not a record that stops.**\n\n*Denominator for that query, measured not assumed: 361 pages returned for the surname in the baptism collection, **239 actually Arienzo — 66%**.*",
+  "outcome": "found",
+  "pages": "4 leaves of 2,246",
+  "walked": false,
+  "tags": [
+   "FamilySearch",
+   "Baptisms",
+   "Arienzo",
+   "Parish"
   ]
  }
 ]
