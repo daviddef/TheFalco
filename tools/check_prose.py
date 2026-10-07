@@ -102,6 +102,31 @@ for path in PAGES:
             fails.append(f"{rel}: «{pat}» is stated as fact — but {factname} is "
                          f"{fn()} ({how}).\n      This archive was caught by it: {why}")
 
+# WHAT THIS GATE GUARDS, AS OPPOSED TO WHAT IS ON THE PAGES — work-list row 98.
+#
+# A page is refused for one of two reasons: it repeats a phrase on the retired
+# list, or it contradicts one of the facts computed above. Every other number in
+# the prose is typed, and nothing here derives it or will notice when the data
+# moves underneath it. That is exactly the failure this gate was written for —
+# five pages carrying claims the data had contradicted for up to nine days — so
+# the size of the unguarded remainder belongs in the output beside the verdict.
+#
+# The count is deliberately crude: multi-digit runs in page text with tags
+# stripped. It is an order of magnitude, not an inventory, and it is labelled so.
+_num = re.compile(r"(?<![\w/#.-])\d{2,}(?![\w%.-])")
+_pages_with, _numbers = 0, 0
+for _f in PAGES:
+    _b = open(_f, encoding="utf-8").read()
+    _body = re.sub(r"^---[\s\S]*?---", "", _b, count=1)
+    _body = re.sub(r"<[^>]+>", " ", _body)
+    _hits = _num.findall(_body)
+    if _hits:
+        _pages_with += 1
+        _numbers += len(_hits)
+
+print(f"check_prose: GUARDS {len(FACTS)} derived fact(s) and {len(CLAIMS)} retired "
+      f"claim(s); roughly {_numbers} typed number(s) stand in the prose of "
+      f"{_pages_with} of {len(PAGES)} pages with nothing deriving them")
 print(f"check_prose: {len(PAGES)} pages, {len(FACTS)} fact(s) computed, "
       f"{len(CLAIMS)} retired claim(s) held")
 for name, (fn, how) in FACTS.items():

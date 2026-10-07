@@ -43,7 +43,7 @@ OUT = os.environ.get("ARCHIVE_OUT") or f"dist-verify-{os.getpid()}"
 pkg = json.load(open(os.path.join(SITE, "package.json"), encoding="utf-8"))
 steps = [s.strip() for s in pkg["scripts"]["build"].split("&&")]
 
-def run(label, cmd):
+def run(label, cmd, cap=60):
     print(f"== {label}", flush=True)
     # AND EVERY STEP MUST BE TOLD WHERE THE BUILD IS.
     #
@@ -56,8 +56,28 @@ def run(label, cmd):
     env = dict(os.environ, ARCHIVE_OUT=OUT)
     r = subprocess.run(cmd, cwd=SITE, shell=True, text=True, env=env,
                        stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-    tail = [l for l in r.stdout.rstrip().split("\n") if l.strip()][-6:]
-    for l in tail:
+    # SHOW EVERY LINE A GATE SAYS ABOUT ITSELF, AND NEVER DROP ONE SILENTLY.
+    #
+    # This printed the last SIX non-empty lines and nothing else. On
+    # 7 October 2026 a line was added to check_release stating what its noindex
+    # test examined — and that pushed the line stating what its DATE GUARD
+    # examined off the top, so the chain stopped showing it. Nothing failed and
+    # nothing said anything was missing; the gate's own account of its coverage
+    # simply vanished from the only place anybody reads it.
+    #
+    # That is work-list row 98 one level up: a gate can state its coverage
+    # perfectly and still be read as silent, because the harness truncated it.
+    # A build runs twenty steps, so a cap exists to keep the astro step's page
+    # list from burying everything — but the cap must SAY when it bit.
+    # The cap is per step on purpose. A GATE says a handful of things about
+    # itself and every one of them matters, so it gets room. `astro build`
+    # narrates sixteen thousand page writes and only its last few lines carry
+    # anything — give it the same room and it buries every gate beneath it.
+    lines = [l for l in r.stdout.rstrip().split("\n") if l.strip()]
+    shown = lines[-cap:]
+    if len(lines) > cap:
+        print(f"   … {len(lines) - cap} earlier line(s) of this step not shown")
+    for l in shown:
         print("   " + l)
     if r.returncode != 0:
         print(f"\nFAILED at «{label}» (exit {r.returncode}). Full output:\n")
@@ -67,7 +87,7 @@ def run(label, cmd):
 failed = []
 for step in steps:
     if step == "astro build":
-        run("astro build --outDir " + OUT, f"npx astro build --outDir {OUT}")
+        run("astro build --outDir " + OUT, f"npx astro build --outDir {OUT}", cap=4)
         continue
     name = step.replace("npm run ", "").strip()
     script = pkg["scripts"].get(name)

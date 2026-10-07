@@ -230,11 +230,33 @@ def main():
 
     # 3. every living person's own page must be noindexed
     person_pages = {p["slug"] for p in living}
+    _matched = set()
     for f in pages:
         raw = open(f, encoding="utf-8", errors="replace").read()
         slug = os.path.basename(os.path.dirname(f))
-        if slug in person_pages and 'content="noindex' not in raw:
-            fails.append(f"{os.path.relpath(f, DIST)}: living person's own page is INDEXED")
+        if slug in person_pages:
+            _matched.add(slug)
+            if 'content="noindex' not in raw:
+                fails.append(f"{os.path.relpath(f, DIST)}: living person's own page is INDEXED")
+
+    # AND SAY HOW MANY OF THEM IT ACTUALLY FOUND — work-list row 98.
+    #
+    # This test fires only where a built page's directory name equals a living
+    # person's slug. A living person whose page is not built, or is built under
+    # a different slug, is not examined and NOTHING SAYS SO: the loop simply
+    # never matches them and the verdict still reads «no living person's page is
+    # indexed». That is the same shape as the empty-corpus failure this file was
+    # already caught by — a guard passing because it looked at nothing.
+    _unmatched = sorted(person_pages - _matched)
+    print(f"check_release: the noindex test matched {len(_matched)} of "
+          f"{len(person_pages)} living person slug(s) to a built page"
+          + ("" if not _unmatched else
+             f" — {len(_unmatched)} "
+             + ("HAS" if len(_unmatched) == 1 else "HAVE")
+             + " NO PAGE UNDER THEIR SLUG and " 
+             + ("was" if len(_unmatched) == 1 else "were")
+             + " not examined: " + ", ".join(_unmatched[:6])
+             + (" …" if len(_unmatched) > 6 else "")))
 
     NOINDEX = 'content="noindex'
     n_noindex = sum(1 for f in pages
