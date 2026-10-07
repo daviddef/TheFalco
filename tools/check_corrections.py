@@ -192,8 +192,35 @@ for h in H:
                          f"(the first)/(the second)")
 
 kids = sum(1 for h in H for m in h["members"] if m.get("role") == "child")
+
+# WHAT THIS GATE ENFORCES, AS OPPOSED TO WHAT THIS ARCHIVE HAS PUBLISHED —
+# work-list row 98.
+#
+# RETIRED and RETIRED_PHRASES are hand-written lists. They hold the readings
+# this archive has actually been CAUGHT by. Every other correction it has
+# published is a statement on a page with nothing standing behind it: withdraw a
+# reading, publish the correction, and if the old reading creeps back into the
+# data tomorrow this gate will not notice, because the phrase was never added
+# here.
+#
+# That is not a fault in the design — a general «does the data still agree with
+# every correction» test is not writable, for the reason this file argues at
+# length. But the ratio belongs in the output, because the verdict «no retired
+# reading is still standing» reads like a statement about all of them.
+try:
+    _published = len(json.load(open(os.path.join(DATA, "corrections.json"),
+                                    encoding="utf-8")))
+except Exception:
+    _published = None
+
+_enforced = len(RETIRED) + len(RETIRED_PHRASES)
 print(f"check_corrections: {len(H)} households, {kids} child records, "
       f"{len(RETIRED)} retired surname(s) and {len(RETIRED_PHRASES)} retired phrase(s) held")
+if _published:
+    print(f"check_corrections: ENFORCES {_enforced} retired reading(s) of "
+          f"{_published} correction(s) this archive has published "
+          f"({100.0 * _enforced / _published:.0f}%) — the rest are stated on a "
+          f"page and nothing here would notice them creeping back")
 if fails:
     print(f"\nFAILED — {len(fails)} place(s) where a published correction has not reached the data:\n")
     for f in fails:

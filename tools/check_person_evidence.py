@@ -100,8 +100,26 @@ for nm, (hh, ev, date) in sorted(documented.items()):
             f"documented but EVERY page says nothing was read: «{nm}» — {hh}, "
             f"{ev} {date}  [pages: {slugs}]")
 
+# WHAT THIS GATE EXAMINES, AS OPPOSED TO WHAT IT IS HANDED — work-list row 98.
+#
+# The test needs a person to be NAMED IN households.json WITH EVIDENCE. A person
+# built from the tree alone, or named in an act this archive has harvested but
+# not yet written into a household, is invisible to it. Printing «N people built»
+# beside a verdict invites the reader to think all N were looked at.
+#
+# A ratio nobody prints is a ratio nobody checks.
+_living = sum(1 for nm in documented
+              if any(p.get("living") for p in by_name.get(nm, [])))
+_tested = len(documented) - _living
+_pct = (100.0 * _tested / len(people)) if people else 0.0
+
 print(f"check_person_evidence: {len(documented)} names documented in households.json, "
       f"{len(people)} people built")
+print(f"check_person_evidence: EXAMINED {_tested} of {len(people)} people "
+      f"({_pct:.0f}%) — {len(documented)} carry evidence in households.json, "
+      f"{_living} of those are living and exempt by policy; the remaining "
+      f"{len(people) - len(documented)} are not named in a household with "
+      f"evidence and this gate cannot see them")
 
 # ---------------------------------------------------------------- verdict
 if fails:

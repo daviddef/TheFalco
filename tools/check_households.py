@@ -148,9 +148,41 @@ for h in H:
         fail.append(f"«{h['name']}» holds one person under {len(fs)} spellings: "
                     + " / ".join(f"«{f}»" for f in fs))
 
+# WHAT CHECK 3 EXAMINES, AS OPPOSED TO WHAT IT IS HANDED — work-list row 98.
+#
+# Checks 1 and 2 cover every household and every member row. CHECK 3 DOES NOT:
+# it compares person strings WITHIN ONE HOUSEHOLD and never across two. A person
+# written one way in their father's house and another in their husband's is
+# exactly the split this gate exists to catch, and it is the half it cannot see.
+#
+# The inline gloss is the dangerous shape, not the trailing qualifier. «Raffaele
+# Falco (of Giuseppe, d. 1811)» is this archive telling two men apart on purpose.
+# «Chiara (Clara) Rivetti» against «Chiara Rivetti» is one woman written twice —
+# and a bracket-stripping comparison elsewhere in these tools once cost this
+# archive a whole generation of its own direct line on that exact shape.
+_houses_of = collections.defaultdict(set)
+_forms_of = collections.defaultdict(set)
+for _h in H:
+    for _m in _h["members"]:
+        _k = norm(_m["person"])
+        _houses_of[_k].add(_h["name"])
+        _forms_of[_k].add(_m["person"])
+
+_spanning = [k for k, v in _houses_of.items() if len(v) > 1]
+_inline = sorted(
+    k for k in _spanning
+    if len({TRAILING.sub("", f).strip() for f in _forms_of[k]}) > 1)
+
 print(f"  check_households: {len(H)} households, "
       f"{sum(len(h['members']) for h in H)} member rows, "
       f"{len(warn)} deliberate same-name split(s) allowed")
+print(f"    check 3 examines person strings WITHIN a household only — "
+      f"{len(_spanning)} of {len(_houses_of)} people stand in more than one "
+      f"household and are never compared across them")
+for _k in _inline:
+    print(f"    note  «{_k}» spans {len(_houses_of[_k])} households written more than "
+          f"one way, and not by a trailing qualifier: "
+          + " / ".join(f"«{f}»" for f in sorted(_forms_of[_k])))
 for w in warn:
     print("    note  " + w)
 if fail:
