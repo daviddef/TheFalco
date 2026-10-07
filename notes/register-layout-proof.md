@@ -29,8 +29,8 @@ worked on the volume you tested is not a recipe for the series.*
 
 ## THE RESULT: THE LAYOUT IS UNIFORM, AND THE EXISTING SWEEPS WERE SOUND
 
-**Twenty-seven of the twenty-eight death registers 1816–1843 are proved, and every one of them puts
-ONE COMPLETE ACT ON EVERY PAGE, TWO TO AN IMAGE, left page then right.**
+**ALL TWENTY-EIGHT death registers 1816–1843 are proved, and every one of them puts ONE COMPLETE ACT
+ON EVERY PAGE, TWO TO AN IMAGE, left page then right.**
 
 | year | ark | images read | act numbers | |
 |---|---|---|---|---|
@@ -53,7 +53,7 @@ ONE COMPLETE ACT ON EVERY PAGE, TWO TO AN IMAGE, left page then right.**
 | 1832 | `an_ua14334` | 12–14 | 18 · 19 · 20 · 21 | |
 | 1833 | `an_ua14335` | 16–17 | 26 · 27 · **26 · 27** | **image 17 re-films image 16** — same foglio 163 |
 | 1834 | `an_ua14336` | 14–15 | 24 · 25 · 26 · 27 | |
-| 1835 | `an_ua14337` | — | **NOT YET PROVED** | the host rate-limited; *not a negative* |
+| 1835 | `an_ua14337` | 12–13 | 16 · 17 · 18 · 19 | *proved 8 Oct, after the rate limit lifted* |
 | 1836 | `an_ua14338` | 14–15 | 20 · 21 · 22 · 23 | |
 | 1837 | `an_ua14339` | 20–21 | 28 · 29 · 30 · 31 | |
 | 1838 | `an_ua14340` | 14–15 | 22 · 23 · 24 · 25 | |
@@ -101,7 +101,7 @@ image per volume; there is no reason for any of them to stay unproved.**
 | years | form | acts per image |
 |---|---|---:|
 | **1816 – 1819** | the old single-column act, one complete act to a page | **2** |
-| **1820 – 1838** | the printed **«ATTO DI NASCITA ‖ INDICAZIONE»** double-column form | **1** |
+| **1820 – 1848** | the printed **«ATTO DI NASCITA ‖ INDICAZIONE»** double-column form | **1** |
 
 **Proved volume by volume:**
 
@@ -130,7 +130,16 @@ image per volume; there is no reason for any of them to stay unproved.**
 | 1836 | `an_ua14433` | 18 · 19 | |
 | 1837 | `an_ua14434` | 19 · 20 | |
 | 1838 | `an_ua14435` | 19 · 20 | |
-| 1839–1848 | `an_ua14436`–`an_ua14445` | **NOT YET PROVED** | the host rate-limited; *not a negative* |
+| 1839 | `an_ua14436` | 19 · 20 | act 19's tail names a mother **GIOVANNA FALCO, 34** — *a lead, not a find; see below* |
+| 1840 | `an_ua14437` | 19 · 20 | the act number is **printed** from this year |
+| 1841 | `an_ua14438` | 19 · 20 | |
+| 1842 | `an_ua14439` | 19 · 20 | |
+| 1843 | `an_ua14440` | 19 · 20 | |
+| 1844 | `an_ua14441` | 15 · 16 | |
+| 1845 | `an_ua14442` | 19 · 20 | |
+| 1846 | `an_ua14443` | 19 · 20 | |
+| 1847 | `an_ua14444` | 18 · 19 | |
+| 1848 | `an_ua14445` | 19 · 20 | |
 
 **The archive's own numbers agree.** 1819 is *«74 images, 137 acts»* — 1.85 to an image. 1825 is
 *«all 134 acts on 133 folios, images 2–141»* — one to an image. **The change is in the data as well
@@ -158,3 +167,30 @@ PARENTS band kept finding Falco mothers the first passes could not have seen.**
 later, a sweep must read **both halves** and must treat the left half as belonging to the PREVIOUS
 act.* A contact sheet that pairs image *n* right with image *n* left is pairing two different
 families.
+
+
+---
+
+## BOTH SERIES ARE NOW COMPLETE — 8 October 2026
+
+**Sixty-one volumes proved from the manuscript**: the Arienzo civil DEATH registers **1816–1843**
+(28 volumes, two acts to an image throughout) and the BIRTH registers **1816–1848** (33 volumes,
+two to an image until 1819 and **one** from 1820). *Nothing in either series was taken on trust from
+a neighbouring year.*
+
+## A LEAD THAT IS NOT A FIND, AND WHY IT IS NOT PUBLISHED
+
+Proving the 1839 birth register meant looking at two of its images, and the tail of **act 19** names
+the mother as «*… è nata da **GIOVANNA FALCO** sua moglie legittima, di anni **trentaquattro***» —
+a Falco mother, about **1805**.
+
+**It is written down here as a LEAD and nowhere else.** Three reasons, and each alone is enough:
+
+1. **It was read off a contact-sheet band, and a contact sheet is triage.** This archive has twice
+   had a band-resolution reading contradicted by the act in the very same volume.
+2. **The 1839 register has never been swept.** `isitread.py` says so, and the work list already
+   records **1839–1844 — six volumes** as an open gap. *One act seen in passing is not a sweep, and
+   publishing it would make an unswept year look read.*
+3. **The surname alone identifies nobody** here, and this archive holds more than one Giovanna Falco.
+
+*When 1839 is swept properly, act 19 is where to start.*
