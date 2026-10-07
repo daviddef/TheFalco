@@ -1,5 +1,17 @@
 [
  {
+  "when": "2026-10-08",
+  "sev": "minor",
+  "where": "/households",
+  "plate": "",
+  "by": "work-list row 87, sweeping 1811 for a different person entirely",
+  "what": "THE EARLIEST ACT OF THIS FAMILY IN THE CIVIL SERIES WAS CITED AT THE WRONG ACT NUMBER, and its own naming line had been given away to another act",
+  "was": "The birth of **RAFFAELE FALCO**, 16 February 1811 — this archive’s earliest sighting of **GIUSEPPE FALCO** and **ANTONIA DI GUIDA** together, and one of the acts that carries «*del fu Matteo*» — was cited in eleven places as **«an_ua14408 img10r act16»**. The same row said **«RAFFAELE comes from his death act ten days later»**.",
+  "now": "**IT IS ACT 17.** Image 10 carries two acts, one to a page: the LEFT page is **«NUM. d’ordine 16»**, declared at *quattordici* hours by **ANGELO BERNARDO DEL FU GAETANO**, *falegname*; the RIGHT page is **«NUM. d’ordine: 17 — Foglio 9»**, declared at *quindici* hours by **GIUSEPPE FALCO DEL FU MATTEO**. *The citation named the right image and the right side and the wrong act.*\n\n**AND THE CHILD IS NAMED ON HIS OWN BIRTH ACT.** Lower on the same page: «*In vista di essa si sono imposti allo bambino i seguenti nomi:* **Raffaele**», above **V. Morgillo Sindaco**. *The name never needed the burial to supply it.*",
+  "why": "The act numbers either side settle it without any reading of handwriting beyond two numerals: image 10 gives **16** and **17**, image 11 gives **18** and **19** — a clean consecutive run, two acts to an image, and the Falco act is the second of its opening. Nothing else in the act changes: the date, the parents, the street, the ages and «del fu Matteo» all stand exactly as published.\n\n*A note on how this was checked. The first reading of image 11 off a contact sheet made it **28 and 29**, which would have left a gap after 17 and muddied the argument. At native resolution it is plainly **18 and 19**. The contact sheet was right and the hurried reading of it was wrong — which is the house rule about triage, met from the other direction.*",
+  "how": "Read from the image at native resolution while sweeping the 1811 birth register for work-list row 87."
+ },
+ {
   "when": "2026-09-21",
   "sev": "major",
   "where": "/families",

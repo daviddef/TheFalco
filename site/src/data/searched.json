@@ -1,5 +1,41 @@
 [
  {
+  "when": "1814",
+  "src": "Arienzo BIRTH register, 1814 — ANTENATI `an_ua14411`, **66 images**. **Every act read**, images 2–61 (the rest are blank forms, certificates and the tavola), at the combined parents band `--band 0.20 0.24 --half LR`. *A volume this archive had never swept.* **LAYOUT PROVED FROM THE IMAGES**: the OLD single-column form, **one complete act to a page, two to an image** — image 15 reads **26 · 27**, a pair of twins «*gemello con l'altro di contro iscritto*».",
+  "what": "**RAFFAELA FALCO's birth**, for work-list row 87 — the other end of the rounding window after 1812 and 1813 came up empty.",
+  "got": "**NO RAFFAELA FALCO. ONE FALCO ACT IN THE YEAR, AND THIS ARCHIVE ALREADY HELD IT.**\n\n**Act 55, 26 May 1814**, image 29 right: «*è comparso **GIUSEPPE FALCO**, di anni **trenta**, di professione **MASSARO DI CAMPAGNA**, domiciliato in questa Comune, **strada CAMELLARA** … e da **ANTONIA DI GUIDA** sua moglie legittima, di anni **vent'otto**, un **maschio** … a cui si è dato il nome di **RAFFAELE***». *The second Raffaele, who lived seventeen months. Checked with `isitnew.py`: the act is already cited from this very image.*\n\n**THE TAVOLA CANNOT BE USED TO SHORTCUT THIS YEAR.** It begins at image **64 right** and runs to image **65 right**, and it stops at **G** — image 66's left page is blank, carrying only show-through. *An index that ends at G cannot answer a question about an R.* **This is the fourth Arienzo tavola found truncated or covered.**\n\n**AND A DUPLICATE EXPOSURE**: images **33 and 34** are the same opening filmed twice — both right pages carry **FOGLIO 85**. *The fourth such duplicate this archive has found.*\n\n**SO THE WINDOW IS EXHAUSTED** — 1811 to 1814 inclusive, and no Raffaela Falco in any of them.",
+  "outcome": "nothing",
+  "walked": true,
+  "pages": "2-61",
+  "searchedOn": "2026-10-08",
+  "provider": "antenati",
+  "tags": [
+   "Antenati",
+   "Arienzo",
+   "Births",
+   "Falco"
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14411"
+ },
+ {
+  "when": "1811",
+  "src": "Arienzo BIRTH register, 1811 — ANTENATI `an_ua14408`, **50 images**. **Every act read**, images 2–50, at the declarant band `--band 0.055 0.175 --half LR`. *A volume this archive had never opened.* **LAYOUT PROVED FROM THE IMAGES**: the OLD single-column form, **one complete act to a page, two to an image** — images 10 and 11 read **16 · 17 · 18 · 19**.",
+  "what": "**RAFFAELA FALCO's birth**, for work-list row 87. She was **nineteen and a minor in July 1832**, daughter of **GIUSEPPE FALCO** and **ANTONIA DI GUIDA** — and 1812 and 1813 had already been read out without her, so this is the window reopened on the possibility that the clerk rounded her age.",
+  "got": "**NO RAFFAELA FALCO. ONE FALCO ACT IN NINETY-THREE, AND THIS ARCHIVE ALREADY HELD IT.**\n\n**Act 17, 16 February 1811**, image 10 right: «*è comparso **GIUSEPPE FALCO DEL FU MATTEO**, di professione **MASSARO DI CAMPAGNA**, di anni **vent'otto**, domiciliato in questo Comune Corpo d'Arienzo, **strada CAMELLARA** — ed ha presentato un bambino di sesso **Mascolino**, nato ad ore **dieci** del giorno **sedici** del mese di **Febraro** … in costanza del suo legitimo Matrimonio con **ANTONIA DI GUIDA** sua Moglie, di professione **MASSARA DI CAMPAGNA**, di anni **vent'otto***», and lower: «*In vista di essa si sono imposti allo bambino i seguenti nomi:* **Raffaele**».\n\n*This is the first Raffaele, buried ten days later on 26 February 1811. `isitnew.py` says the act was already read from this image and published — but it was cited at the **wrong act number**, and its naming line had been credited to the burial. **Both are corrected on /corrections.***\n\n**THE OTHER NINETY-TWO ACTS CARRY NO FALCO AT ALL** — as declarant, as father or as mother. The declarants run Crisci, Carrisi, Marcianiello, Migliore, Rivetti, Laudato, Morgillo, Sorrino, Zimbaldo, Verdicchio, Figlio, Cofecchia, Marrone and Arricale.\n\n**SO THE WINDOW IS NOW EXHAUSTED.** 1811, 1812, 1813 and 1814 are all read out and **Raffaela Falco is in none of them**. Either she was not born at Arienzo, or her birth was never registered. *Nothing is merged on the strength of it — see work-list row 87.*",
+  "outcome": "nothing",
+  "walked": true,
+  "pages": "2-50",
+  "searchedOn": "2026-10-08",
+  "provider": "antenati",
+  "tags": [
+   "Antenati",
+   "Arienzo",
+   "Births",
+   "Falco"
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14408"
+ },
+ {
   "when": "1846",
   "src": "Arienzo BIRTH register, 1846 — ANTENATI an_ua14443, 110 images. **RE-READ at the PARENTS band**; the earlier pass swept the DECLARANT line.",
   "what": "Hunting **GIUSEPPE FALCO's** birth for work-list row 43. The volume had been swept once on the «*è comparso*» band, which cannot see a mother.",
