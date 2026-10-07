@@ -89,3 +89,72 @@ This covers **the Arienzo civil DEATH registers 1816–1843 only**. The birth re
 registers, the processetti and every volume of another comune are untouched here, and the coverage
 rows for them still state no layout. **The method above costs about twenty seconds and one small
 image per volume; there is no reason for any of them to stay unproved.**
+
+---
+
+# The BIRTH registers, and the year the form changed
+
+*Read 7 October 2026, same method, same band.*
+
+## THE BIRTH REGISTERS ARE NOT LAID OUT LIKE THE DEATH REGISTERS, AND THEY CHANGE IN 1820
+
+| years | form | acts per image |
+|---|---|---:|
+| **1816 – 1819** | the old single-column act, one complete act to a page | **2** |
+| **1820 – 1838** | the printed **«ATTO DI NASCITA ‖ INDICAZIONE»** double-column form | **1** |
+
+**Proved volume by volume:**
+
+| year | ark | act numbers at images 20–21 | |
+|---|---|---|---|
+| 1816 | `an_ua14413` | 36 · 37 · 38 · 39 | old form, **two to an image** |
+| 1817 | `an_ua14414` | 39 · 40 · 41 · 42 | printed *sedici* struck and corrected to *diciassette* |
+| 1818 | `an_ua14415` | 2 · 3 · 4 · 5 | low numbers this deep in the volume — *it is bound twice, as the progress note says* |
+| 1819 | `an_ua14416` | 36 · 37 · 38 · 39 | **the last year of the old form** |
+| 1820 | `an_ua14417` | 18 · 19 | **the new form begins — one to an image** |
+| 1821 | `an_ua14418` | 18 · 19 | |
+| 1822 | `an_ua14419` | 19 · 20 | |
+| 1823 | `an_ua14420` | 18 · 19 | |
+| 1824 | `an_ua14421` | 19 · 20 | |
+| 1825 | `an_ua14422` | 19 · 20 | |
+| 1826 | `an_ua14423` | 19 · 20 | act 19's tail names **Maria Falco** with Francesco Cioffi — *already held* |
+| 1827 | `an_ua14424` | 19 · 20 | |
+| 1828 | `an_ua14425` | 18 · 19 | |
+| 1829 | `an_ua14426` | 18 · 19 | |
+| 1830 | `an_ua14427` | 19 · 20 | |
+| 1831 | `an_ua14428` | 19 · 20 | |
+| 1832 | `an_ua14429` | 18 · 19 | |
+| 1833 | `an_ua14430` | 18 · 19 | |
+| 1834 | `an_ua14431` | 19 · 20 | |
+| 1835 | `an_ua14432` | 19 · 20 | |
+| 1836 | `an_ua14433` | 18 · 19 | |
+| 1837 | `an_ua14434` | 19 · 20 | |
+| 1838 | `an_ua14435` | 19 · 20 | |
+| 1839–1848 | `an_ua14436`–`an_ua14445` | **NOT YET PROVED** | the host rate-limited; *not a negative* |
+
+**The archive's own numbers agree.** 1819 is *«74 images, 137 acts»* — 1.85 to an image. 1825 is
+*«all 134 acts on 133 folios, images 2–141»* — one to an image. **The change is in the data as well
+as on the page.**
+
+## WHY THIS MATTERS MORE THAN THE DEATH SERIES DID
+
+**In the new form a single act SPANS AN OPENING.** The right page carries the act's HEAD — number,
+date, declarant, the child — in two printed columns, the second being the parish *Indicazione* of
+the baptism, numbered identically. **The LEFT page of the NEXT image carries that act's TAIL: the
+mother, the witnesses and the signature.**
+
+So from 1820 on:
+
+- **a sweep of the right half sees the declarant and the child, and NEVER the mother;**
+- **a sweep of the left half sees the mother, and never the act number or the declarant.**
+
+**THIS IS THE MECHANISM BEHIND A FAILURE THIS ARCHIVE ALREADY KNEW THE SYMPTOM OF.** The 1831 birth
+row says of act 71: *«The declarant here is the father, a CIOFFI. A sweep of the declarant line sees
+no Falco in this act at all — the Falco is the mother, three lines over on the facing leaf.»* **That
+is not a quirk of 1831. It is the form, every year from 1820, and it is why the re-reads at the
+PARENTS band kept finding Falco mothers the first passes could not have seen.**
+
+**The practical rule, which was never written down:** *for an Arienzo birth register of 1820 or
+later, a sweep must read **both halves** and must treat the left half as belonging to the PREVIOUS
+act.* A contact sheet that pairs image *n* right with image *n* left is pairing two different
+families.
