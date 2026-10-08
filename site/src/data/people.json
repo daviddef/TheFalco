@@ -8603,6 +8603,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-matteo-falco-alessandra-crisci",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [],
@@ -16940,6 +16948,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-matteo-falco-alessandra-crisci",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -24099,6 +24115,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-matteo-falco-alessandra-crisci",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "mergedOn": "both parents and an exact birth or death date — the name was never used, and this archive holds more than one person of it",
@@ -25133,6 +25157,14 @@
 {
 "slug": "vincenza-falco-of-matteo-falco-alessandra-crisci",
 "name": "Vincenza Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-matteo-falco-alessandra-crisci",
+"name": "Giuseppe Falco",
 "via": "register",
 "vias": [
 "register"
@@ -29559,6 +29591,81 @@
 "dateFrom": {
 "b": "act"
 }
+},
+{
+"slug": "giuseppe-falco-of-matteo-falco-alessandra-crisci",
+"name": "Giuseppe Falco",
+"surname": "FALCO",
+"household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
+"role": "child",
+"events": [
+{
+"event": "named as father in his daughter's birth act",
+"date": "22 Sep 1887",
+"place": "Arienzo, via Orticelli 4",
+"evidence": "**HIS FIRST DOCUMENT. Read from the image on 8 October 2026.**\n\n«*Estratto dal registro di nascita per l'anno **1887** — Copia N.º **114**, Falco Maria. L'anno milleottocentottantasette, addì **venticinque** di **settembre** a ore antimeridiane nove e minuti dieci nella Casa Comunale. Avanti di me **NOTAR PARIDE GUERRIERO, Consigliere Comunale, delegato con atto del Sindaco** … Ufficiale dello Stato Civile del Comune di **Arienzo**, è comparso **GIUSEPPE FALCO di anni QUARANTASEI, AGRICOLTORE, domiciliato in questo comune**, il quale mi ha dichiarato che alle ore pomeridiane otto e minuti trenta del dì **ventidue** del corrente mese, nella casa posta in **via ORTICELLI al numero QUATTRO**, da **NICOLETTA NUZZO sua moglie, CONTADINA, seco lui convivente**, è nato un bambino di sesso femminino … a cui dà il nome di **MARIA***»\n\n**Forty-six in September 1887, so born about 1841** — which fits a couple married in **January 1834**.\n\n*Why this man is placed in this house.* The family tree holds a **Giuseppe Falco, son of Matteo Falco and Alessandra Crisci, married to a NICOLETTA NUZZO**, with no record against him. The act gives a **Giuseppe Falco** whose wife is **Nicoletta Nuzzo**. **The wife's full name is the join, and it is an uncommon one**; the age agrees with the marriage the tree gives his parents. *This archive holds many men called Giuseppe Falco and would not place him on the forename alone.*",
+"ark": "FamilySearch 3:1:3QS7-897N-P3N5 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "alessandra-crisci",
+"name": "Alessandra Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
+"name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "domenica-falco",
+"name": "Domenica Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-falco-of-matteo-falco-alessandra-crisci",
+"name": "Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "filomena-falco",
+"name": "Filomena Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenza-falco-of-matteo-falco-alessandra-crisci",
+"name": "Vincenza Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
 },
 {
 "slug": "giuseppe-falco-of-giuseppe-falco-rosa-sposito",
@@ -35171,6 +35278,14 @@
 {
 "slug": "vincenza-falco-of-matteo-falco-alessandra-crisci",
 "name": "Vincenza Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-matteo-falco-alessandra-crisci",
+"name": "Giuseppe Falco",
 "via": "register",
 "vias": [
 "register"
@@ -41903,6 +42018,14 @@
 {
 "slug": "filomena-falco",
 "name": "Filomena Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-matteo-falco-alessandra-crisci",
+"name": "Giuseppe Falco",
 "via": "register",
 "vias": [
 "register"
@@ -50681,12 +50804,22 @@
 },
 {
 "slug": "nicoletta-nuzzo",
-"name": "Nicoletta Nuzzo (Falco)",
+"name": "Nicoletta Nuzzo",
 "surname": "NUZZO",
-"household": null,
-"role": null,
-"events": [],
+"household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
+"role": "married in",
+"events": [
+{
+"event": "named as mother in her daughter's birth act",
+"date": "22 Sep 1887",
+"place": "Arienzo, via Orticelli 4",
+"evidence": "«*da **NICOLETTA NUZZO sua moglie, CONTADINA, seco lui convivente**, è nato un bambino di sesso femminino … a cui dà il nome di **MARIA***» — Arienzo birth act **114 of 1887**, read from the image.\n\n**She is the wife the family tree already gave Giuseppe Falco**, and the act supplies her trade and the house on **via Orticelli** that the tree could not. *The tree and the act were not copied from each other.*",
+"ark": "FamilySearch 3:1:3QS7-897N-P3N5 — READ FROM THE IMAGE"
+}
+],
 "sources": [
+"register",
 "tree"
 ],
 "living": false,
@@ -50703,6 +50836,7 @@
 ],
 "children": [],
 "siblings": [],
+"mergedOn": "name alone",
 "treeId": 4512430,
 "b": "1855",
 "dateFrom": {
