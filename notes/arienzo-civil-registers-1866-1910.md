@@ -384,3 +384,33 @@ leaves must be confirmed at its act before it is written down anywhere.*
 *Cost of the error: two requests, and it was caught the same minute by the act it predicted. Cost if
 the index had been trusted: a Vincenzo Falco who never existed, with a death date, a son and a year —
 in a household file.*
+
+
+---
+
+## 1867 — AND THE ORDER OF THE BOOKS IS NOT CONSTANT
+
+Six title pages of 1867 read whole, one request each:
+
+| image | what the printed title page says |
+|---:|---|
+| 224 | «Anno **1867** · COMUNE di **Arienzo** · PROVINCIA DI TERRA DI LAVORO · REGISTRO **di Matrimoni**» |
+| 236 | «Anno **1867** … REGISTRO **di Morti**» |
+| 241 | «Anno **1867** … REGISTRO **di Morti**» — *a second one, and this archive does not yet know why* |
+| 277 | «Anno 186[7] … REGISTRO **di Matrimonj**» — with «*Il presente registro, formato di fogli dodici, numerati e vidimati in ufficio. **Il Giudice delegato, Franc. Balsamo***» |
+| 281 | «Anno **1867** … REGISTRO **di Cittadinanza**» |
+| 285 | «Anno 186[8?] … REGISTRO **d…**» — the year and the kind are both cut by the gutter |
+
+**1866 ran Pubblicazioni · Matrimoni · Nascite · Morti · Cittadinanze. 1867 does not run in that
+order**, and until each title page is read there is no telling where a given year's births or deaths
+begin. **The book order within a year is not a constant and must not be assumed** — the same lesson
+as the two-acts-an-image rule, one level up.
+
+**Two 1867 title pages both say «di Morti» (236 and 241).** *A duplicate exposure, a vidimazione leaf
+bound before the register proper, or two volumes of one year — not yet established, and recorded as
+not established.*
+
+**«PROVINCIA DI TERRA DI LAVORO» is PRINTED on the 1867 forms** where 1866's clerk wrote it by hand.
+Every one of these also carries the Tribunale's own authorisation: «*Il Presidente del Tribunale
+Civile di Santa Maria Capua Vetere, visto l'Articolo 357 Codice Civile, delega per la vidimazione del
+presente registro…*» — **the court that holds this copy, naming itself on the page.**
