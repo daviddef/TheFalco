@@ -340,3 +340,47 @@ withdrawn. There is one.**
 
 **RAFFAELE FALCO, figlio di Vincenzo, aged 47 in 1866 — so born about 1819** — declared the death and
 is recorded for testing against what this archive holds. **He is not merged with anybody.**
+
+
+---
+
+# THE 1866 DEATH INDEX, READ IN FULL — AND THE «PROJA» ERROR, ON THIS ARCHIVE'S OWN SURNAME
+
+**Both leaves of the 1866 «INDICE ANNUALE» of deaths are read** (images 125 and 127; 126 is a
+duplicate exposure of 125). **126 acts. Exactly ONE Falco: ANTONIA FALCO, act 51.**
+
+*That is a measured negative for a year this archive had no deaths for at all.* The allied families
+are thick on it — **Crisci** (Maria Giuseppa 50, Pellegrino 102, Vincenzo 53, Vincenzo 99),
+**Carfora** (Mari'Antonia 42, Maria 92), **Morgillo** (Maria 21, Raffaela 43, Vincenza 34, Vincenzo
+75, Pasquale 17, Maria 93), **Guida** (Maria 84), **Lettieri**, **Diglio**, **Attorelli**,
+**Majone**, **Venafra**, **Vigliotta**, **Porrino** — *and one Falco.*
+
+## AND HERE IS THE ERROR THIS INDEX PRODUCED, WHICH IS WORTH MORE THAN THE INDEX
+
+Reading the V-block at the scale of a whole-page view, **act 104 was read as «Vincenzo FALCO»** — and
+it was announced as a second Falco death, with a chain of reasoning already attached to it: *act 51's
+declarant is «**RAFFAELE FALCO, figlio di VINCENZO**», **not «fu Vincenzo»**, so his father was alive
+on 17 June; act 104 falls in October; therefore the father died later the same year.* **A tidy,
+checkable, completely false story.**
+
+**The act settles it. N.º 104 is «il Signor Don VINCENZO SOSSO, di condizione studente, di anni
+diciotto, dimorante in Arienzo, nato in NAPOLI, figlio del Signor Don FEDERICO SOSSO di professione
+medico, e di Donna CAROLINA D'AMBROSIO di condizione gentildonna, domiciliati in Napoli»** — died in
+the house of Don Pasquale d'Ambrosio. *Not a Falco, not an Arienzo family, not even an Arienzo
+birth.* And at magnification the index line plainly reads **Sosso**: the double long-s that the eye
+had turned into «-lco».
+
+> **THIS IS THE «PROJA» ERROR EXACTLY, AND THIS ARCHIVE HAD ALREADY WRITTEN IT DOWN:** *the commonest
+> surname in the corpus is the one a reader's eye supplies unprompted.* It was written for machine
+> transcriptions and it applies just as hard to a human reading a reduced image. **Falco is the
+> surname this archive is looking for, which is precisely why it is the one that will appear where it
+> is not.**
+
+**THE RULE THIS BUYS: AN INDEX LINE IS A FINDING AID, NEVER A READING.** It gives you a number to
+walk to. **The surname is only established by the act** — and «Antonia Falco 51» is established
+because act 51 was read, not because the index said so. *Every name taken off these forty-odd index
+leaves must be confirmed at its act before it is written down anywhere.*
+
+*Cost of the error: two requests, and it was caught the same minute by the act it predicted. Cost if
+the index had been trusted: a Vincenzo Falco who never existed, with a death date, a son and a year —
+in a household file.*
