@@ -382,3 +382,64 @@ officer, and the trades — and in two cases a **house number**.
 Falco of Antonia di Guida** appears in anything read so far. **Rows 39 and 40 stay open** — jobs 2
 and 3 of this row, the other surnames and the `q.text=Estratto` enumeration, are where they would
 surface, and neither has been run.
+
+---
+
+# JOBS 2 AND 3 — THE DEATH EXTRACTS ARE ENUMERATED, AND THE TWO MEN ARE NOT IN THEM
+
+**8 October 2026.** Jobs 2 and 3 were written as «sweep the other surnames» and «sweep
+`q.text=Estratto`». **The second is not runnable as written and did not need to be.**
+
+## Why `q.text=Estratto` is the wrong instrument
+
+`q.text=Estratto` with `q.anyPlace=Arienzo` returns **86,066** — about 1,722 paged requests against
+a budget of roughly twenty-five per half hour. **A quoted phrase narrows it instead**, exactly as the
+full-text method note says, and for a death there is a better phrase than the bare word:
+
+| query | hits |
+|---|---:|
+| `Estratto` | **86,066** |
+| `morte` | 35,366 |
+| `"registro di morte"` | 576 |
+| **`"Estratto dal registro di morte"`** | **324** |
+
+**That is a 265-fold narrowing and it enumerates DEATH EXTRACTS regardless of whose family they
+belong to** — which is what rows 39 and 40 actually need.
+
+## What the enumeration found
+
+**All 324 were pulled. 313 distinct pages; `content.recordPlace` places only TWENTY of them at
+Arienzo** — the rest are the `q.anyPlace` weighting spill, and counting them would have produced a
+false denominator of the kind this archive has published once before.
+
+**Of those twenty Arienzo death extracts, exactly TWO name a surname this family uses:**
+
+- **1889 n.57, FALCO VINCENZO** — `3:1:3QSQ-G97N-596`, already held.
+- **1904 n.47, CRISCI FRANCESCANTONIO** — `3:1:3QSQ-G97N-571`, **new, and not yet read.**
+
+## And the Falco sweep is exhausted
+
+The surname sweep was re-run and **201 distinct Arienzo pages** harvested — `Falco` plus the
+recogniser's variants **`Falo` (78), `Zalco` (4), `Falgo` (1)**, which added exactly one page. Across
+all 201:
+
+- **ONE death extract**, the 1889 Vincenzo Falco.
+- **«Antonia di Guida» appears nowhere.** The phrase returns six hits in the collection and **not one
+  is this woman** — two are a *Maria* Antonia di Guida who married a Raffaele De Lucia of Santa
+  Maria a Vico, three are at **Lusciano**, one at **Tuoro**, and none has a Falco anywhere near it.
+- **«Andreana Crisci» and «Andriana Crisci» return ZERO**, in the whole collection.
+
+## SO ROWS 39 AND 40 HAVE THEIR ANSWER ABOUT THIS INSTRUMENT
+
+**Neither GIUSEPPE FALCO of Antonia di Guida nor VINCENZO FALCO of Andreana Crisci is in the
+processetti of collection 2043630.** The instrument row 62 identified has now been measured rather
+than hoped at, and it does not hold them.
+
+**This is a strong negative, not an absolute one**, and the limit is worth stating: the enumeration
+catches an extract only where the recogniser renders the phrase «Estratto dal registro di morte»
+recognisably. A mangled heading would be missed. *But the surname route and the phrase route were
+run independently and agree, which is the best corroboration available here.*
+
+**What is left for these two men**: the Arienzo registers of 1866–1890 survive only inside
+processetti, and the processetti of **other comuni** — where a grandchild married away from Arienzo —
+have not been searched at all. That, or the parish registers.
