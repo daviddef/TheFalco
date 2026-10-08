@@ -653,3 +653,30 @@ registers — Parte I for ordinary declarations, Parte II for acts received from
 registrations and transcriptions. *A sweep of Parte I alone reads a year and misses a category of
 birth entirely*, and Parte II is where a child born away from Arienzo would be. **It is short — two
 or three leaves a year — and it must never be skipped.**
+
+
+---
+
+# `MC55-VNL` IS SURVEYED ENTIRE — 2,898 thumbnails, 31 sheets, zero refusals
+
+Both volumes of Arienzo's register run are now surveyed: **4,134 thumbnails across `MC55-FNT` and
+`MC55-VNL`, 44 contact sheets, not one refusal**, one request a second throughout. *The thumbnail
+endpoint has now been pushed to a hundred and sixty times the DeepZoom budget without a block.*
+
+---
+
+# AND THE NINE CHILDREN ARE NOT IN THESE VOLUMES AT ALL
+
+**Work-list row 69's nine children of Matteo Falco and Alessandra Crisci were born 1837–1851** — the
+couple married **24 January 1834** — and the tree gives: **Carmela 1837 · Filomena 1839 · Angela Rosa
+1841 · Giuseppe 1841 · Vincenza 1842 · Maria 1843 · Domenica 13 Sep 1846 · Antonia 15 Dec 1851.**
+
+**Every one of them predates 1866, so none of them is in `MC55-FNT` or `MC55-VNL`.** *The volumes
+found today open exactly where these children stop.* **Their births are Antenati's**, in the
+Napoleonic and Restoration series that runs 1809–1865 — and this archive has swept only **1837, 1845,
+1846, 1847, 1848** of the years that matter. **1839, 1841, 1842, 1843 and 1851 had never been
+opened.**
+
+*Antenati's nominative index does not help: `/search-nominative/?cognome=Falco&localita=Arienzo` for
+these years returns «**Nessun risultato trovato**» — that series is not indexed by name.* **It must be
+swept.**
