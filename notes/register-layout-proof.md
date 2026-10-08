@@ -3,6 +3,22 @@
 *Work-list row 90. Read 7 October 2026, volume by volume, against the manuscript — not inferred
 from a decade, a catalogue label or a neighbouring year.*
 
+> **AND THERE IS A SECOND SHELF THIS NOTE DOES NOT COVER — 8 October 2026.**
+> Everything here is the **Antenati** series, 1809–1865. Arienzo's registers of **1866–1910** are on
+> FamilySearch, 5,471 images, and their layout is a different one: **five separate books to the
+> year** — Pubblicazioni, Matrimoni, Nascite, Morti, Cittadinanze — each with a cover and a printed
+> title page, and **every year carrying an «INDICE ANNUALE»**, which the Antenati volumes of this
+> note mostly do not. Proved for 1866 in
+> [`arienzo-civil-registers-1866-1910.md`](arienzo-civil-registers-1866-1910.md); 1867 onward is
+> unproved.
+>
+> **Two things here carry straight over.** *Duplicate exposures* — the 1991 filmer repeated the index
+> leaf and the target board, exactly as the Antenati filmings repeat pages, and a second exposure
+> counted as a second leaf inflates every page count. And **the discipline itself**: the arithmetic
+> «sixty-two images, a hundred and twenty-two acts, so two acts an image» is the same shape as the
+> band assumption that published two volumes as read in full when they were half read. *It is written
+> down there as arithmetic and marked as not proved.*
+
 ## Why this had to be done
 
 A band sweep of one half of each image reads half the acts **consistently**, so the output looks
