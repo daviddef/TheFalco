@@ -64,6 +64,9 @@ FACTS = {
          "without a single extra bundle having been opened. Tag the row for what was DONE to it"),
     "families on the families page":
         (lambda: len(fams), "counted from families.json"),
+    "reconstructed households":
+        (lambda: len(json.load(open(os.path.join(DATA, "households.json"), encoding="utf-8"))),
+         "counted from households.json, which is what /households/ is built from"),
     "Arienzo death registers with a coverage row":
         (lambda: len(_years(12502, 1809, 1865)),
          "counted by ark from the coverage page; the 1844-1858 range row covers fifteen more. "
@@ -86,6 +89,8 @@ CLAIMS = [
      "on the coverage page's own summary"),
     (r"\bfive annual death registers\b", "Arienzo death registers with a coverage row",
      "1832 through 1836, written when that was all there was and left standing"),
+    (r"fifty-three reconstructed households", "reconstructed households",
+     "typed into tree.astro beside a sentence that derived ITS number, and left to drift to 111"),
     (r"\bEleven families\b", "families on the families page",
      "typed in an eyebrow beside a count that came from data"),
     (r"birth registers before 1816 and after 1818", "Arienzo death registers with a coverage row",
