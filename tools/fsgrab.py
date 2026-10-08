@@ -21,17 +21,40 @@ cookie is read from the scratch file written by the session that asked him, is
 used only against familysearch.org, and must never be written into this
 repository, which is public. Pass --sid-file to point at it.
 
-THE RATE LIMIT IS THE REAL CONSTRAINT, and it is smaller than it looks: about
-TWENTY-FIVE requests per half hour counting image.xml and tiles together. Exceed
-it and everything returns 403 behind an Imperva page for about thirty minutes.
-So: find the act on a LOW level (a whole leaf at L-2 is ~15 tiles, at native it
-is ~200), then spend the budget on one band. This tool paces itself and refuses
-to start a job it knows will blow the budget unless you say --yes.
+USE `page` FIRST. ALMOST NOTHING NEEDS THE TILES.
+
+    python3 tools/fsgrab.py page  3QSQ-G97N-571 --out leaf.jpg
+
+**One request returns the whole leaf at the full native scan** — measured 8
+October 2026 against two leaves whose DeepZoom native size was already known:
+4912x3405 and 4314x3137, and `dist.jpg` returned exactly those. It comes off
+`dascloud/das/v2/<ark>/dist.jpg`, a 302 to S3, and it is **not on the DeepZoom
+tile budget**: twelve consecutive full leaves at one every 1.2 s, no block,
+straight after a tile run had been throttled.
+
+*This archive read two death acts at fifteen tiles each on the morning of 8
+October, one of them over three sittings, because the budget below was believed
+to govern all image reading. It never governed this route.* The S3 URL carries a
+signed token: **it is a credential, it goes nowhere near this repository, and it
+expires in an hour anyway.**
+
+THE TILE BUDGET, which still applies to `grab` and `meta`: about TWENTY-FIVE
+requests per half hour counting image.xml and tiles together. Exceed it and
+everything returns 403 behind an Imperva page for about thirty minutes. So: find
+the act on a LOW level (a whole leaf at L-2 is ~15 tiles, at native it is ~200),
+then spend the budget on one band. This tool paces itself and refuses to start a
+job it knows will blow the budget unless you say --yes.
+
+**WHAT THE TILES ARE STILL FOR.** `dist.jpg` is one JPEG of a whole leaf, so it
+carries that leaf's JPEG compression; a tile of the same region is compressed on
+its own. When a reading turns on a single stroke — the control-letter test — the
+tile is still the better witness, and `grab --box` is still how you get it.
 """
 import argparse, math, os, re, subprocess, sys, time
 
 HOST = "https://sg30p0.familysearch.org"
 BASE = HOST + "/service/records/storage/deepzoomcloud/dz/v1/3:1:{ark}"
+DIST = HOST + "/service/records/storage/dascloud/das/v2/3:1:{ark}/dist.jpg"
 REF  = "https://www.familysearch.org/"
 DEFAULT_SID = os.path.join(
     os.environ.get("FS_SCRATCH", "/private/tmp"), "sid")
@@ -103,7 +126,28 @@ def grab(ark, s, level, box, out, pace):
 
 
 ap = argparse.ArgumentParser()
-ap.add_argument("cmd", choices=["meta", "grab"])
+
+def page(ark, s, out):
+    """The whole leaf at the native scan, in ONE request.
+
+    `dist.jpg` 302s to S3 with a signed URL. curl -L follows it; the signature
+    is a credential and is never printed, logged or stored.
+    """
+    r = subprocess.run(
+        ["curl", "-sS", "--max-time", "90", "-L", "-o", out, "-w", "%{http_code}",
+         "-b", f"fssessionid={s}", "-H", f"Referer: {REF}",
+         DIST.format(ark=ark)], capture_output=True, text=True)
+    code = (r.stdout or "").strip()[-3:]
+    if code != "200":
+        sys.exit(f"  HTTP {code} for {ark} — a refusal, not an absence.")
+    try:
+        from PIL import Image
+        w, h = Image.open(out).size
+        print(f"  {ark}  {w}x{h}  -> {out}")
+    except Exception:
+        print(f"  {ark}  -> {out}")
+
+ap.add_argument("cmd", choices=["meta", "grab", "page"])
 ap.add_argument("ark")
 ap.add_argument("--level", type=int, default=None)
 ap.add_argument("--box", type=int, nargs=4, default=None,
@@ -117,7 +161,9 @@ ARGS = ap.parse_args()
 
 S = sid(ARGS.sid_file)
 A = ARGS.ark.replace("3:1:", "")
-if ARGS.cmd == "meta":
+if ARGS.cmd == "page":
+    page(A, S, ARGS.out)
+elif ARGS.cmd == "meta":
     m = meta(A, S)
     nat = math.ceil(math.log2(max(m["w"], m["h"])))
     print(f"  {A}  {m['w']}x{m['h']}  tile {m['ts']} overlap {m['ov']}  native level {nat}")

@@ -1,0 +1,71 @@
+# Volumes of FamilySearch collection 2043630, «Italy, Caserta, Santa Maria Capua Vetere, Civil
+# Registration (Tribunale), 1866-1929», for Arienzo and the five comuni this archive works in.
+# 62 of the collection's 565 volumes; the other 93 comuni are not reproduced here.
+# Provenance: the browse tree, via FamilySearch's open waypoint API
+# (api.familysearch.org/platform/records/waypoints/<WP>?cc=2043630), harvested into Record Atlas
+# on 22 September 2026 and read from data/fs-waypoints.json on 8 October 2026.
+# FamilySearch catalogue metadata, not an open licence. YEARS ARE THE CATALOGUE'S WORD, NOT THE
+# MANUSCRIPT'S — only two Arienzo leaves have been read. See notes/arienzo-civil-registers-1866-1910.md
+comune	waypoint	from	to	volume
+Arienzo	MC55-BM9:349501401,349519901	1896	1904	Allegati (nati, pubblicazioni, matrimoni, morti) 1896-1904
+Arienzo	MC5R-9WL:349501401,349518201	1905	1910	Allegati (nati, pubblicazioni, matrimoni, morti) 1905-1910
+Arienzo	MC55-VNL:349501401,349506401	1877	1900	Cittadinanze, morti 1877 Nati, matrimoni, morti, pubblicazioni 1878-1900 Cittadinanze 1879-81, 1883, 1885, 1887-89
+Arienzo	MC55-FNT:349501401,954415201	1866	1877	Nati, matrimoni, morti 1866-1876 Nati, matrimoni 1877 Pubblicazioni 1866 Cittadinanze 1866-69, 1871-1872, 1875-1877
+Arienzo	MC55-RM9:349501401,349515301	1901	1910	Nati, matrimoni, morti, pubblicazioni 1901-1910 Cittadinanze 1901, 1909-1910
+Cervino	MC55-BNP:349498701,349521401	1896	1908	Allegati (vari) 1896-1897, 1900-1908
+Cervino	MC5R-323:349498701,349512602	1908	1910	Allegati (vari) 1908-1910
+Cervino	MC55-N29:349498701,349504501	1909	1910	Matrimoni 1909-1910
+Cervino	MC55-N38:349498701,349504001	1909	1909	Morti 1909
+Cervino	MC55-NP8:349498701,349504601	1910	1910	Morti 1910
+Cervino	MC55-FZ7:349498701,349498702	1908	1909	Nati 1908-1909
+Cervino	MC55-NZ9:349498701,349504201	1910	1910	Nati 1910
+Cervino	MC55-J38:349498701,954415501	1866	1887	Nati, pubblicazioni, matrimoni, morti, cittadinanze 1866-1886 Nati 1887 Indici decennali (nati, matrimoni, morti) 1866-1885
+Cervino	MC55-NNL:349498701,349504401	1910	1910	Pubblicazioni 1910
+Cervino	MC55-NM9:349498701,349503901	1908	1909	Pubblicazioni, matrimoni 1908-1909
+Cervino	MC55-P38:349498701,349512501	1887	1908	Pubblicazioni, matrimoni, morti, cittadinanze 1887 Nati, pubblicazioni, matirmoni, morti, cittadinanze 1888-1908
+Maddaloni	MC5R-NMS:349511201,349559601	1912	1913	Allegati (matrimoni) 1912-1913
+Maddaloni	MC5R-N2S:349511201,349563601	1913	1914	Allegati (matrimoni) 1913-1914 Allegati (morti) 1914
+Maddaloni	MC5R-NP6:349511201,349564901	1919	1919	Allegati (matrimoni) 1919
+Maddaloni	MC5R-JMS:349511201,349566301	1921	1921	Allegati (matrimoni) 1921
+Maddaloni	MC5R-JZ9:349511201,349567601	1922	1923	Allegati (matrimoni) 1922-1923
+Maddaloni	MC5R-FTR:349511201,349560901	1911	1911	Allegati (nati e mantrimoni) 1911
+Maddaloni	MC55-G6X:349511201,349511202	1891	1898	Allegati (nati, pubblicazioni, matrimoni, morti) 1891-1898
+Maddaloni	MC55-YTG:349511201,349519301	1898	1900	Allegati (nati, pubblicazioni, matrimoni, morti) 1898-1900
+Maddaloni	MC5R-STL:349511201,349526901	1900	1902	Allegati (nati, pubblicazioni, matrimoni, morti) 1900-1902
+Maddaloni	MC5R-WP8:349511201,349532601	1902	1904	Allegati (nati, pubblicazioni, matrimoni, morti) 1902-1904
+Maddaloni	MC5R-CWL:349511201,349536701	1904	1906	Allegati (nati, pubblicazioni, matrimoni, morti) 1904-1906
+Maddaloni	MC5R-ZTL:349511201,349539401	1907	1907	Allegati (nati, pubblicazioni, matrimoni, morti) 1907-1907
+Maddaloni	MC5R-DWL:349511201,349525101	1908	1909	Allegati (nati, pubblicazioni, matrimoni, morti) 1908-1909
+Maddaloni	MC5R-DP8:349511201,349512101	1909	1910	Allegati (nati, pubblicazioni, matrimoni, morti) 1909-1910
+Maddaloni	MC5R-XTL:349511201,349553301	1889	1894	Cittadinanze 1889 Nati, pubblicazioni, matrimoni, morti, cittadinanze 1890-1893 Nati 1894
+Maddaloni	MC5R-FWG:349511201,349556202	1898	1903	Matrimoni, morti, cittadinanze 1898 Nati, pubblicazioni, matrimoni, morti, cittadinanze 1899-1902 Nati 1903
+Maddaloni	MC5R-VM9:349511201,349570301	1915	1926	Morti 1915-1926
+Maddaloni	MC5R-6P6:349511201,349546401	1874	1880	Morti, cittadinanze 1874 Nati, pubblicazioni, matrimoni, morti, cittadinanze 1875-1879 Nati 1880
+Maddaloni	MC5R-6NL:349511201,349544001	1866	1868	Nati, pubblicazioni, matrimoni, morti, cittadinanze 1866-1867 Nati 1868
+Maddaloni	MC5R-6Z9:349511201,349544801	1868	1874	Nati, pubblicazioni, matrimoni, morti, cittadinanze 1868-1873 Nati, pubblicazioni, matrimoni 1874
+Maddaloni	MC5R-XWP:349511201,349549001	1880	1885	Nati, pubblicazioni, matrimoni, morti, cittadinanze 1880-1884 Nati 1885
+Maddaloni	MC5R-X68:349511201,349551901	1885	1889	Nati, pubblicazioni, matrimoni, morti, cittadinanze 1885-1889
+Maddaloni	MC5R-FM3:349511201,349554901	1894	1898	Nati, pubblicazioni, matrimoni, morti, cittadinanze 1894-1897 Nati, pubblicazioni, matrimoni 1898
+Maddaloni	MC5R-JNL:349511201,349568701	1915	1923	Pubblicazioni, matrimoni 1915-1923
+Maddaloni	MC5R-JP8:349511201,349569401	1911	1929	Pubblicazioni, matrimoni 1924-1929 Morti 1911-1915
+Maddaloni	MC5R-F6D:349511201,954417201	1903	1908	Pubblicazioni, matrimoni, morti, cittadinanze 1903 Nati, pubblicazioni, matrimoni, morti, cittadinanze 1904-1907 Nati 1908
+Maddaloni	MC5R-N68:349511201,349559401	1908	1910	Pubblicazioni, matrimoni, morti, cittadinanze 1908 Nati, pubblicazioni, matrimoni, morti, cittadinanze 1909-1910
+San Felice a Cancello	MC5R-8P8:349521601,349540201	1888	1896	Allegati (nati, pubblicazioni, matrimoni, morti) 1888-1889, 1896
+San Felice a Cancello	MC5R-83X:349521601,349519901	1896	1904	Allegati (nati, pubblicazioni, matrimoni, morti) 1896-1904
+San Felice a Cancello	MC5R-DM9:349521601,349526601	1904	1910	Allegati (nati, pubblicazioni, matrimoni, morti) 1904-1910
+San Felice a Cancello	MC5R-43J:349521601,954416401	1882	1896	Morti, cittadinanze 1882 Nati, pubblicazioni, matrimoni, morti, cittadinanze 1885-1895 Nati, pubblicazioni, matrimoni 1896
+San Felice a Cancello	MC5R-CNL:349521601,349537001	1896	1908	Morti, cittadinanze 1896 Nati, pubblicazioni, matrimoni, morti, cittadinanze 1897-1908
+San Felice a Cancello	MC55-BPD:349521601,349521602	1866	1882	Nati, pubblicazioni, matrimoni, morti, cittadinanze 1866-1882
+San Felice a Cancello	MC5R-Q2S:349521601,349528501	1874	1884	Nati, pubblicazioni, matrimoni, morti, cittadinanze 1883-1884, 1874-1880, 1881 Nati, pubblicazioni, matrimoni 1882
+San Felice a Cancello	MC5R-8M9:349521601,349507701	1909	1910	Nati, pubblicazioni, matrimoni, morti, cittadinanze 1909-1910
+Santa Maria a Vico	MC5R-ZZ9:349523901,349533701	1896	1903	Allegati (nati, pubblicazioni, matrimoni, morti) 1896-1903
+Santa Maria a Vico	MC5R-8Z9:349523901,349537701	1903	1908	Allegati (nati, pubblicazioni, matrimoni, morti) 1903-1908
+Santa Maria a Vico	MC5R-D3D:349523901,349513401	1908	1910	Allegati (nati, pubblicazioni, matrimoni, morti) 1908-1910
+Santa Maria a Vico	MC5R-C6D:349523901,349537101	1907	1910	Matrimoni, morti, cittadinanze 1907 Nati, pubblicazioni, matrimoni, morti, cittadinanze 1908-1910
+Santa Maria a Vico	MC5R-Q23:349523901,349529101	1800	1894	Morti, cittadinanze 1879 Nati, pubblicazioni, matrimoni, morti, cittadinanze 1800-1893 Nati 1894
+Santa Maria a Vico	MC5R-M2Q:349523901,349523902	1866	1879	Nati, pubblicazioni, matrimoni, morti, cittadinanze 1866-1878 Nati, pubblicazioni, matrimoni 1879
+Santa Maria a Vico	MC5R-4Z3:349523901,954416501	1894	1907	Pubblicazioni, matrimoni, morti, cittadinanze 1894 Nati, pubblicazioni, matrimoni, morti, cittadinanze 1895-1906 Nati, pubblicazioni 1907
+Valle di Maddaloni	MC5R-4ZQ:349528701,349534501	1897	1897	Allegati (vari) 1897
+Valle di Maddaloni	MC5R-423:349528701,349534801	1897	1910	Allegati (vari) 1897, 1899-1910
+Valle di Maddaloni	MC5R-Q2W:349528701,349528702	1866	1904	Nati, pubblicazioni, matrimoni, morti, cittadinanze 1866-1904
+Valle di Maddaloni	MC5R-43X:349528701,349533001	1905	1910	Nati, pubblicazioni, matrimoni, morti, cittadinanze 1905-1910
