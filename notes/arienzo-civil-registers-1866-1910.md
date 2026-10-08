@@ -75,9 +75,25 @@ ordinary DeepZoom arks — `tools/fsgrab.py` reads them.
 
 **AND THE WAYPOINTS WERE ON THIS MACHINE SINCE 22 SEPTEMBER.** Record Atlas harvested this endpoint
 across 3,504 collections — 3.1 million volumes — and `data/fs-waypoints.json` has held Arienzo's five
-all along. *The atlas files collection 2043630 under «Italy» as a COUNTRY, with no place beneath it,
-so nothing on the map ever pointed at Arienzo and this archive never thought to look.* That is worth
-reporting back: the volume rows carry `path: ["Arienzo"]` and could be placed.
+all along, under `path: ["Arienzo"]`.
+
+> **A FIRST VERSION OF THIS PARAGRAPH SAID «nothing on the map ever pointed at Arienzo». THAT WAS
+> TOO STRONG AND IS CORRECTED HERE** rather than quietly swapped. The atlas's Arienzo page does
+> carry the collection, and the volumes are tied to the place. **What is true is narrower and more
+> useful**, and both halves were checked in the atlas's own built files:
+>
+> 1. **`data/collections.json` files 2043630 under «Italy» as a COUNTRY** — `places: [{Italy,
+>    COUNTRY}]`, `crosses: []` — although its 565 volumes carry a comune in `path` for **99 Caserta
+>    comuni**. So on `site/public/p/arienzo.json` it appears as `rank 4, where null, km 294`: a
+>    national entry **294 km away, in the same undifferentiated list as Torino and Trento.** It is on
+>    the page and it is invisible, which is not the same as absent.
+> 2. **The place page renders «the oldest sixty» volumes of 414**, deliberately and for a good reason
+>    — rendering every volume took the site to 570 MB. For Arienzo the oldest sixty are **all
+>    1809–1817**, so a town whose filmed coverage runs 1809–1910 shows only its first nine years, and
+>    the 1866–1910 registers are never on the page.
+>
+> Neither is a mistake in the atlas's data; both are a shape that hides exactly this kind of volume.
+> Reported to David rather than edited: another session is working in that repository today.
 
 ## What this costs the old route, and what it does not
 
