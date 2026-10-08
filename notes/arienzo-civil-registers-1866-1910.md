@@ -226,3 +226,39 @@ agricoltore, domiciliato in questo Comune, **Contrada Capodicienà**… dalla di
 ARRICALE**, figlia del fu **Francesco**… al quale figlio dichiara di dare il nome di **Francesco**».
 **Arricale is one of the ten allied surnames work-list row 69 named**, and nothing is concluded from
 that: the leaf was opened to test a rule, and this archive never merges people on a name.*
+
+
+---
+
+# THE SECOND VOLUME IS PROVED TOO, AND EVERY IMAGE CARRIES ITS FILM AND FRAME
+
+**`MC55-VNL`, «Nati, matrimoni, morti, pubblicazioni 1878-1900», 2,898 images** — the volume holding
+most of what this archive is looking for. Its image 4 is the same filmer's target board: «*LOCALITY
+OF RECORD — **ARIENZO, CASERTA** · STATO CIVILE. PUBBLICAZIONI, MATRIMONI, NASCITE, CITTADINANZE E
+MORTI · ANNI (1866 A 1910)*», Tribunale di S. Maria Capua V., **25 November 1991**, operator Carfora
+Vincenzo, project ITLC 8105A — **roll 6**, where `MC55-FNT` is roll 5. *Two rolls of one filming.*
+Its image 1 is the film's own number plate: **1797493**.
+
+## AND THE BRIDGE NOBODY HAD
+
+**Every `dist.jpg` carries «film NNNNNNN, frame NNNNN» in its JPEG comment segment.**
+
+| waypoint | film in the comment | frame |
+|---|---|---|
+| `MC55-FNT` | **7059206** | **frame = image + 1780**, exactly, across six samples forty images apart |
+| `MC55-VNL` | **7059207** | frame = image |
+| the processetti leaves read this morning | **7066612** | — |
+
+**Record Atlas measured this exact gap across 1,349 rows of eight family archives** and concluded
+there was no way across it: *the family sessions cite FamilySearch by DGS film number and by image
+ark; the atlas holds waypoints; **exactly one row in 1,349 carried a waypoint and the film numbers
+matched the atlas zero times**; «there is no bridge on disk».*
+
+**There is now, and it costs one request per volume.** Fetch any image's `dist.jpg`, read the
+comment, and you have that volume's film number and the frame offset for every other image in it.
+`tools/fsgrab.py page` prints it.
+
+> **TWO IDENTIFIERS, NOT ONE.** The film in the comment is FamilySearch's **DGS** number. It is
+> **not** the microfilm roll number printed on the film's own plate — **7059207 in the comment
+> against 1797493 on the plate, on the same roll.** Both are real and they are not the same thing.
+> *Conflating them would manufacture exactly the false match the atlas has been careful to avoid.*

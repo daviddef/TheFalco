@@ -142,10 +142,37 @@ def page(ark, s, out):
         sys.exit(f"  HTTP {code} for {ark} — a refusal, not an absence.")
     try:
         from PIL import Image
-        w, h = Image.open(out).size
-        print(f"  {ark}  {w}x{h}  -> {out}")
+        im = Image.open(out)
+        w, h = im.size
+        print(f"  {ark}  {w}x{h}  {filmframe(out) or ''}  -> {out}")
     except Exception:
         print(f"  {ark}  -> {out}")
+
+
+def filmframe(path):
+    """«film 7059206, frame 01784» out of the JPEG's own COM segment.
+
+    **THIS IS THE BRIDGE NOBODY HAD.** Record Atlas measured it across 1,349
+    rows of eight family archives: the sessions cite FamilySearch by DGS FILM
+    NUMBER and by IMAGE ARK, the atlas holds WAYPOINTS, the film numbers matched
+    the atlas ZERO times, and it concluded «there is no bridge on disk».
+
+    Every `dist.jpg` carries one. One request against any image of a volume
+    gives that volume's film number and the frame offset for every other image
+    in it — on MC55-FNT, frame = image + 1780, exactly, across six samples
+    forty images apart.
+
+    The film in the comment is FamilySearch's DGS number and is NOT the
+    microfilm roll number printed on the film's own plate (7059207 against
+    1797493 on the same roll). **Two real identifiers; do not conflate them.**
+    """
+    try:
+        with open(path, "rb") as fh:
+            head = fh.read(4096)
+        m = re.search(rb"film\s*(\d+),\s*frame\s*(\d+)", head)
+        return f"film {m.group(1).decode()} frame {m.group(2).decode()}" if m else ""
+    except Exception:
+        return ""
 
 ap.add_argument("cmd", choices=["meta", "grab", "page"])
 ap.add_argument("ark")
