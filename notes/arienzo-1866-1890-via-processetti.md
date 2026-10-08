@@ -507,3 +507,95 @@ the other Falco family and in the priest's house. **Not kin to anything here on 
 consistent with everything else: the Zampiello are an Arpaia family and the Annecchino a Forchia one,
 and this collection is the tribunal of Santa Maria Capua Vetere.* **Looking for them here was always
 unlikely, and now it is measured.**
+
+---
+
+# THE 1887 CARFORA DEATH, READ — AND IT IS NOT KIN
+
+`3:1:3QS7-L97N-PQHM` · 4314 × 3137, native L13 · read at **L12**.
+
+> «*Estratto dal registro di morte per l'anno **1887** — Copia N.º **90**, Carfora Maria Giuseppa.
+> L'anno milleottocentottantasette, addì **tredici di Ottobre** a ore antimeridiane dieci e minuti
+> venti nella Casa Comunale. Avanti di me **GUERRIERO NOTAR PARIDE, Consigliere Comunale, delegato
+> con atto del Sindaco in data tredici Ottobre milleottocentottantasei**, debitamente approvato,
+> Ufficiale dello Stato Civile del Comune di **Arienzo**, sono comparsi **ANTONIO DIGLIO, di anni
+> SETTANTA, contadino**, e **FRANCESCO MAIONE, di anni QUARANTATRE, contadino**, domiciliati in
+> Arienzo, i quali mi hanno dichiarato che a ore antimeridiane **sette e minuti trenta** di oggi,
+> nella casa posta in **via CORSO CAUDINO al numero NOVE**, è morta **MARIA GIUSEPPA CARFORA, di
+> anni TRENTASEI, contadina, residente in A…***»
+
+**Born about 1851.** The same officer as the 1887 Falco birth, under the same written delegation —
+*this comune ran on a delegated notary that year.*
+
+**THE ACT DOES NOT END ON THIS LEAF.** It stops mid-sentence at «*residente in A…*», and **her
+parents are not on the page** — the image and the machine transcription end at exactly the same
+word, so the continuation is on a leaf this harvest did not return. **Her filiation is therefore
+NOT recovered**, and nothing here supplies it.
+
+**WHO SHE WAS, FROM ELSEWHERE IN THE SAME COLLECTION.** Two Santa Maria a Vico marriage records of
+**1907** name her: «*la copia dell'atto di morte di **CARFORA MARIA GIUSEPPA già madre della
+sposa**, rilasciato dall'Ufficiale dello Stato Civile del Comune di **Arienzo***», alongside
+«***MORGILLO VINCENZO padre della sposa***», and a second gives the bride as «*nata in Arienzo,
+figlia di Vi[ncenzo] … e della **fu Carfora Maria Giuseppa***».
+
+**And the census corroborates it from the Arienzo side**: act **178 of 1884**, *Morgillo Giuseppe*,
+to **Vincenzo Morgillo, 33**, and **Maria Carfora**. *Two sources, two comuni, one couple.*
+
+## BUT IT IS NOT ATTACHED TO ANYTHING, AND IT WILL NOT BE
+
+**No Falco appears in it.** The household is **Vincenzo Morgillo × Maria Giuseppa Carfora of Corso
+Caudino 9** — and this archive already holds **more than one Vincenzo Morgillo**, with a published
+correction warning about exactly that homonym. *Morgillo and Carfora are surnames this archive
+tracks; neither identifies anybody.*
+
+**So no household is created.** The act is recorded in the census as read, with its reading, and
+that is all it has earned. *Corso Caudino is the street of the Angelo Falco × Annamaria Cimmino
+house — but at number **eighty**, not nine, and a street is not a kinship.*
+
+---
+
+# THE 1904 CRISCI DEATH, READ — AND IT ASKS A QUESTION ABOUT A FALCO
+
+`3:1:3QSQ-G97N-571` · 4912 × 3405, native L13 · read at **L12**.
+
+> «*Estratto dal registro di morte per l'anno **1904**. N. 45 **Copia dico Copia N.º 47** — Crisci
+> Francescantonio. L'anno millenovecentoquattro, addì **quattro di Agosto** a ore antimeridiane nove
+> e minuti trentasei nella Casa Comunale, avanti di me **ALFONSO DE NUPTIIS, ASSESSORE delegato con
+> atto del Sindaco in data ventotto ottobre millenovecentodue**, approvato, Ufficiale dello Stato
+> Civile del Comune di **Arienzo**, sono comparsi **ANTONIO CRISCI, di anni QUARANTOTTO, contadino**,
+> e **BARTOLOMEO CRISCI, di anni CINQUANTOTTO, contadino**, domiciliati in Arienzo, i quali mi hanno
+> dichiarato che a ore pomeridiane **tre e minuti trenta** di **ieri**, nella casa posta in **via
+> CRISCI al numero UNO**, è morto **FRANCESCANTONIO CRISCI, di anni QUARANTAQUATTRO, COLONO,
+> residente in Arienzo, nato in Arienzo dal fu GIOVANNI e dalla fu VINCENZA SGAMBATO, MARITO DI
+> NICOLETTA NUZZO***»
+
+**Died 3 August 1904 at half past three in the afternoon; born about 1860.** *«N. 45 Copia dico
+Copia N.º 47» is the clerk correcting himself in the formula — he wrote 45 and said 47 — which is
+why the harvest carried both numbers.*
+
+**A fourth signing officer in four acts**: Nicola Finelli (1872), Alfonso Crisci assessore (1874),
+Paride Guerriero notary-councillor (1887), Alfonso de Nuptiis assessore (1904).
+
+## «MARITO DI NICOLETTA NUZZO» — AND THAT IS A FALCO WIFE'S NAME
+
+**This archive holds exactly one Nicoletta Nuzzo, and she is the wife of GIUSEPPE FALCO** — from the
+1887 act read on the same day, «*da **NICOLETTA NUZZO sua moglie, contadina**, seco lui convivente*»,
+via Orticelli 4.
+
+**Two readings, and this archive will not choose between them on a name:**
+
+1. **One woman.** Nicoletta Nuzzo was Giuseppe Falco's wife in **1887** and Francescantonio Crisci's
+   wife by **1904**. *That would put a death window on **GIUSEPPE FALCO, son of Matteo Falco and
+   Alessandra Crisci: between 22 September 1887 and 3 August 1904** — a date this archive does not
+   have for any of the nine children.*
+2. **Two women of one name.** *Which is what this corpus does.* It has already produced **two
+   Vincenza Falco**, **two Pasqua Falco**, **two Giovanni Falco in one household**, two Antonio
+   Crisci — and indeed **the Antonio Crisci who declares this act is forty-eight in 1904 and so is
+   NOT the Antonio Crisci who was forty-eight in 1872.**
+
+**NOTHING IS MERGED, AND NO DEATH WINDOW IS PUBLISHED.** The lead is written here and nowhere else.
+
+**WHAT WOULD SETTLE IT.** Her own death act, which would name both husbands or one; or Giuseppe
+Falco's death act; or the remainder of this 1904 act, which may give her age — *her age against the
+1887 act's household would decide it in one line.* **The continuation was not reached: the rate
+budget is about twenty-five requests a half hour and this act took three sittings as it is.**
