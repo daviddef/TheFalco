@@ -295,26 +295,48 @@ Act 51 was reached by walking: image 145 carries act 54, image 144 carries 50 an
 
 **AND IT STOPS THERE.** The ruled block ends at the foot of the page on the word «*condizione*».
 
-## NOTHING IS ATTACHED TO ANYTHING, AND HERE IS WHY
+## ~~NOTHING IS ATTACHED TO ANYTHING, AND HERE IS WHY~~ — THIS WAS WRONG, AND IS LEFT STANDING
 
-**Her age, her parents and whether she was wife, widow or child are all on the continuation, and the
-continuation is not on the adjacent leaves.** *Checked by name, not assumed*: image 143's right page
-carries act **48**, Angela Orologio, entire; image 144's right page carries act **52**, Filomena
-Diglio, entire, from its own preamble; image 145's left page opens act **53** from its preamble.
-**Three neighbouring pages, three other complete acts.**
+> ~~**Her age, her parents and whether she was wife, widow or child are all on the continuation, and
+> the continuation is not on the adjacent leaves.** *Checked by name, not assumed*: image 143's right
+> page carries act **48**, Angela Orologio, entire; image 144's right page carries act **52**,
+> Filomena Diglio, entire, from its own preamble; image 145's left page opens act **53** from its
+> preamble. **Three neighbouring pages, three other complete acts.**~~
+>
+> ~~**THIS IS THE SECOND ACT IN TWO DIFFERENT VOLUMES TO DO EXACTLY THIS.** … **Two is a pattern and
+> not an accident** … every act read here may be missing its most load-bearing line.~~
+>
+> ~~**«Nella casa di MATTEO FALCO» is a lead and nothing more.**~~
 
-> **THIS IS THE SECOND ACT IN TWO DIFFERENT VOLUMES TO DO EXACTLY THIS.** The 1887 Carfora death read
-> on the morning of 8 October also ended mid-sentence, at «*residente in A…*», with the filiation
-> lost. **Two is a pattern and not an accident, and this archive does not yet know where these
-> continuations are.** *Until it does, every act read here may be missing its most load-bearing line,
-> and that is now a known hazard rather than a surprise.*
+**THE CONTINUATION WAS AT THE TOP OF THE FACING PAGE OF THE SAME OPENING, and the reading above had
+only ever looked at the bottom 56% of that page.** Published for about ten minutes; corrected at
+`/corrections/`. *It is left here struck through because a correction that hides what it corrected
+teaches nobody.*
 
-**«Nella casa di MATTEO FALCO» is a lead and nothing more.** Matteo Falco is the father of work-list
-row 69's nine children. **But `tools/isitnew.py` returns at least three distinct Antonia Falco in
-this archive already**, and more than one Matteo Falco is possible in a town where this is the
-commonest surname. **This archive never merges people on a name, and a house is not a kinship any
-more than a street was for the Carfora act.** *What would settle it is one line of the continuation.*
+> «*…**di anni TREDICI**, domiciliata in Arienzo, nata in [Arienzo], **figlia di MATTEO FALCO di
+> condizione AGRICOLTORE e di ALESSANDRA CRISCI di condizione TESSITRICE**, domiciliati nella
+> **CONTRADA CAMELLARA***»
 
-**RAFFAELE FALCO, figlio di Vincenzo, aged 47 in 1866 — so born about 1819** — is a Falco this
-archive can test against what it holds, and he is recorded here for that purpose and not merged
-either.
+## ANTONIA FALCO IS A CHILD OF THIS ARCHIVE'S OWN HOUSEHOLD
+
+**Thirteen in June 1866, so born about 1853.** `Matteo Falco & Alessandra Crisci` — married **24
+January 1834**, with Domenica born at **strada Camellara** in 1846 and the rest of the children in
+the 1870s and 1880s. **She sits between them, and she is the first child of that house to carry a
+death act at all.**
+
+*She is placed there on the couple, not on a name.* **Both parents are named in full with their
+trades and their street**, and Camellara is this household's own address. *This archive holds at
+least three other women called Antonia Falco and would not have placed her on the forename —
+`tools/isitnew.py` was run before she was attached, not after.*
+
+**And the lesson is the one the strike-through is for: when an act breaks at a page foot, read the
+WHOLE facing page before concluding anything, top first.** `tools/fsgrab.py page` returns the entire
+opening in one request, so there was never a cost reason to work in crops. *The crops were for token
+economy and they nearly cost a filiation — and did cost a published claim.*
+
+**The 1887 Carfora act is NOT re-opened by this**: it really does end mid-sentence, and its
+continuation really is absent from the images this archive holds. **But «two is a pattern» is
+withdrawn. There is one.**
+
+**RAFFAELE FALCO, figlio di Vincenzo, aged 47 in 1866 — so born about 1819** — declared the death and
+is recorded for testing against what this archive holds. **He is not merged with anybody.**
