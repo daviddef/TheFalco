@@ -25007,10 +25007,20 @@
 "slug": "fabrizio-falco",
 "name": "Fabrizio Falco",
 "surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
+"household": "Antonio Falco & Carmela Guida",
+"hid": "antonio-falco-carmela-guida",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "9 Aug 1871",
+"place": "Arienzo, Contrada Camellara",
+"evidence": "**HIS DEATH — and until this was read his page said «no register act has been read for this person yet».** Read from the image on 8 October 2026, from the 1871 annual death index.\n\n«*…sono comparsi **MARCANTONIO CRISCI fu Giuseppe, calzolaio, di anni cinquantasette**, e **FRANCESCO FERRIELLO fu Pietro Ferraro, di anni cinquantadue**, domiciliati in Arienzo, i quali mi hanno dichiarato che alle **ore dieci d'Italia di oggi** [**9 agosto 1871**], in questo Comune, **nella casa di ANTONIO FALCO, sita nella CONTRADA CAMELLARA**, è morto **FABRIZIO FALCO, contadino, DI MESI SETTE**, nato e domiciliato in questo Comune di Arienzo, **figlio di ANTONIO e di CARMELA GUIDA, contadini**, domiciliati in Arienzo.*»\n\n**THE ARCHIVE HELD HIS BIRTH AND NO DEATH DATE AT ALL.** The family tree gives **22 December 1870**; «*di mesi sette*» on 9 August 1871 is **seven and a half months**. *The birth and the age were written by different hands a year apart and they agree.*\n\n*Placed here on the couple — the act names **Antonio** and **Carmela Guida** — and on the street: **Contrada Camellara**, which is where his brother-in-arms in the register, Raffaele Falco, died the day before in another Falco house.*",
+"ark": "FamilySearch 3:1:3QS7-8976-Q71C — image 680 of waypoint MC55-FNT, collection 2043630 — READ FROM THE IMAGE"
+}
+],
 "sources": [
+"register",
 "tree"
 ],
 "living": false,
@@ -25108,13 +25118,16 @@
 ]
 }
 ],
+"mergedOn": "name and dates",
 "treeId": 4512541,
 "b": "Dec 22 1870",
 "dateFrom": {
 "b": "tree",
-"bp": "tree"
+"bp": "tree",
+"d": "act"
 },
-"bp": "Arienzo, Caserta, Campania, Italia"
+"bp": "Arienzo, Caserta, Campania, Italia",
+"d": "9 Aug 1871"
 },
 {
 "slug": "filomena-falco",
@@ -38128,9 +38141,17 @@
 "living": false,
 "parents": [],
 "spouses": [],
-"children": [],
-"siblings": [],
-"noKin": "kin-named-only-in-the-household-name"
+"children": [
+{
+"slug": "raffaele-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Raffaele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
 },
 {
 "slug": "pasquale-falco-of-michele-falco-antonia-vigliotta",
@@ -40284,6 +40305,44 @@
 "b": "31 Aug 1837",
 "dateFrom": {
 "b": "act"
+}
+},
+{
+"slug": "raffaele-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Raffaele Falco",
+"surname": "FALCO",
+"household": "Pasquale Falco & Maria Amalia Guida",
+"hid": "pasquale-falco-maria-amalia-guida",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "8 Aug 1871",
+"place": "Arienzo, Contrada Camellara",
+"evidence": "**HIS DEATH ACT, and it turns a tree date into a record.** Read from the image on 8 October 2026, found through the 1871 annual death index — the only index `MC55-FNT` contains.\n\n«*L'anno milleottocentosettantuno, nel giorno **nove** del mese di **Agosto** … Dinanzi a me **NICOLA TINELLI, SINDACO** di questo Comune di **Arienzo** … sono comparsi **PASQUALE CARFORA di Aniello, di anni quarantotto**, ed **ANTONIO DIGLIO fu Bartolomeo, di anni cinquanta**, domiciliati in Arienzo, i quali mi hanno dichiarato che alle **ore ventuno dell'OTTO** del corrente mese di Agosto, in questo Comune, **nella casa di PASQUALE FALCO, sita nella CONTRADA CAMELLARA**, è morto **RAFFAELE FALCO, contadino, di ANNO UNO**, nato e domiciliato in Arienzo, **figlio di PASQUALE e di MARIA … GUIDA, contadini**, domiciliati in Arienzo.*»\n\n**The family tree holds him as born 15 August 1870 and dead 9 August 1871, with no record behind either.** *The act is the record*, and it sharpens the date: **he died at twenty-one hours on the EIGHTH and was registered on the ninth.**\n\n> **«DI ANNO UNO» IS THE CLERK ROUNDING, NOT A FACT.** Born 15 August 1870, he died **a week short of his first birthday**. *The age in these acts is what the declarant said at the door; it is not arithmetic.* [[ages-are-guessed]]\n\n*Placed here on the couple: the act names his father **Pasquale** and his mother **a Guida**, and this household is Pasquale Falco and Maria Amalia Guida. **This archive holds eleven men called Raffaele Falco** and would not place him on a forename.*",
+"ark": "FamilySearch 3:1:3QS7-8976-Q71C — image 680 of waypoint MC55-FNT, collection 2043630 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [],
+"d": "8 Aug 1871",
+"dateFrom": {
+"d": "act"
 }
 },
 {

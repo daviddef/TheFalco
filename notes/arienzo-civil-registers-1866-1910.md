@@ -549,12 +549,21 @@ morte di **Fabrizio Falco***» — **the index is corroborated by the register i
 AND BOTH FATHERS MARRIED A GUIDA.** *Contrada Camellara is the street this archive keeps returning
 to — Matteo Falco and Alessandra Crisci are there, and so is the Antonia Falco of 1866.*
 
-> **NOT YET ATTACHED, AND DELIBERATELY.** Placing these two would mean **creating two households that
-> this archive has never held as households** — Pasquale Antonio Falco × Maria Amalia Guida, and
-> Antonio Falco × Carmela Guida — both of which exist here only as lines in `notes/QUEUE.md` and the
-> tree. *That is a structural decision about the shape of the archive, not a reading, and it is left
-> for a deliberate pass rather than taken at the end of a long one.* **The readings are complete and
-> the evidence is here when it is made.**
+> ~~**NOT YET ATTACHED, AND DELIBERATELY.** Placing these two would mean **creating two households
+> that this archive has never held as households**…~~
+>
+> **ATTACHED 9 OCTOBER 2026, AND THE REASON FOR PARKING THEM WAS HALF WRONG.** `Pasquale Falco &
+> Maria Amalia Guida` **already existed** — Raffaele's act was one row in an existing file, not a
+> structural decision. Only Antonio Falco × Carmela Guida had to be created.
+>
+> **While they sat here, both men's pages went on saying «No register act has been read for this
+> person yet.»** *A reading parked in a note reaches nothing, and no gate can see it:* `check:evidence`
+> examines only people named in households.json. **Corrected at `/corrections/`.**
+>
+> **Raffaele is still two pages, and correctly so.** The merge rule wants the dates to agree and they
+> differ by a day — **the act says he died «alle ore ventuno dell'OTTO di Agosto», the tree says the
+> 9th, which is the day the act was registered.** *The archive refused the join; that is the
+> safeguard working, and the tree's date is the one to doubt.*
 
 **ACTS 99 (Falco Maria) AND 125 (Falco Giuseppe) OF 1871 ARE NOT YET READ.** They are the obvious
 next two requests.
