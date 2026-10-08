@@ -725,3 +725,40 @@ The big numeral on each left page is the **FOGLIO**, not the act number — it a
 opening, so a contact sheet of left pages appears to show twice as many acts as the year has. *The
 act number is printed inside the act as «N. d'ordine».* **Vincenza's tail carries folio 92 and her act
 is number 46.** A sweep that read folios as act numbers would double every count it reported.
+
+
+## 1843 IS A NIL TOO — and now two of the tree's three guesses are dead
+
+**The whole of 1843 was read at the MOTHER band — images 2 to 122, every «*è nata da … sua moglie
+legittima*» in the year — and ALESSANDRA CRISCI is not in it.** The tree puts **Maria Falco** there.
+*She is not.*
+
+**Why the mother band alone is enough for this job, and it halves the work:** the target is a known
+**couple**. «Falco» is the commonest surname in the corpus and catches every household in the town;
+«**Alessandra Crisci**» catches one. And because the midwife declares perhaps a third of these acts —
+*Felicia Martone and Caterina Ruggiero, over and over* — **the declarant band misses exactly those,
+while the mother band never does.** The declarant band was run in full for 1839 and 1841 as a
+control, and it found nothing the mother band would have missed.
+
+**By-catch recorded and not pursued**, each a Falco mother in a household this archive already holds:
+**Giovanna Falco** (1843 img 13), **Francesca Falco, 30** (1843 img 32), **Raffaela Falco, 29** (1843
+img 115).
+
+## THE FIVE YEARS, FINISHED
+
+| year | result |
+|---|---|
+| **1839** | **FILOMENA FALCO, act 74, 20 June** — found |
+| **1841** | **COMPLETE NIL, BOTH BANDS**, images 2–117. *The tree puts Angela Rosa AND Giuseppe here.* |
+| **1842** | **VINCENZA FALCO, act 46, 18 May** — found |
+| **1843** | **COMPLETE NIL**, images 2–122. *The tree puts Maria here.* |
+| **1851** | **ANTONIA FALCO, act 135, 15 December** — found |
+
+**Three of the nine children now carry a birth act. Two of the tree's year-guesses are disproved
+outright**, and a third — Carmela, said to be 1837 — sits in a year this archive swept in September
+for a different woman and found only one Falco birth, which was not hers.
+
+> **SO THE TREE'S YEARS CANNOT CHOOSE THE VOLUMES.** What is solid is the frame the acts give: the
+> couple married **24 January 1834**, and their documented children fall **1839 · 1842 · 1846 · 1851**
+> — *roughly one every three years.* **The gaps that must still be read are 1835–1838, 1840, 1844,
+> 1845, 1847–1850 and 1852**, which is about twelve volumes and a known job, not a guess.
