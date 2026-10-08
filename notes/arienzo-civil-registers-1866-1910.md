@@ -262,3 +262,59 @@ comment, and you have that volume's film number and the frame offset for every o
 > **not** the microfilm roll number printed on the film's own plate — **7059207 in the comment
 > against 1797493 on the plate, on the same roll.** Both are real and they are not the same thing.
 > *Conflating them would manufacture exactly the false match the atlas has been careful to avoid.*
+
+
+---
+
+# THE FIRST ACT OUT OF THE LOST YEARS THAT CONCERNS A FALCO — 1866 death n.º 51
+
+**And it was found by the index, in four requests.** The «INDICE ANNUALE» at image 125 turns out to
+index the **deaths**, not the births — *demonstrated, not assumed*: it gives act **113** to «**Andrea
+Venafra**», and birth act 113 is «Carmina Anzivino» on image 111. **Different person, same number,
+therefore a different book**, and the book whose title page follows it at image 128 is «REGISTRO
+delle Morti».
+
+**Its A-column, read at full resolution, holds «ANTONIA FALCO — 51».** *(Also «Antonio Rivetti 74»;
+Rivetti is one of row 69's allied surnames.)* **The index is ordered by the initial of the FORENAME
+and then by act number ascending** — not alphabetically within the letter — which is worth knowing
+before reading forty more of them.
+
+Act 51 was reached by walking: image 145 carries act 54, image 144 carries 50 and 51.
+
+> «*L'anno milleottocentosessantasei, nel giorno **diciassette** del mese di **Giugno**, nella casa
+> Comunale, alle ore quattordici. Dinanzi a me **LORENZO RUGGIERO**, segretario del Comune di
+> **Arienzo**, Circondario di Caserta, **Provincia di Terra di Lavoro**, delegato a compiere le
+> funzioni di Ufficiale dello Stato Civile per gli atti di nascita e di morte dal Sindaco di questo
+> Comune con atto del giorno tre Febbrajo corrente anno, approvato dal Signor Procuratore del Re con
+> nota del giorno sette detto mese di Febbrajo. Sono comparsi **RAFFAELE FALCO, figlio di VINCENZO,
+> di anni quarantasette**, di condizione agricoltore, domiciliato in Arienzo, ed **ANGELO MAJONE,
+> figlio del fu Francesco, di anni cinquantasette**, di condizione agricoltore, domiciliato in detto
+> Comune di Arienzo, i quali mi hanno dichiarato che nelle **ore dodici d'Italia** del suddetto
+> giorno, in questo Comune di Arienzo, **nella casa di MATTEO FALCO**, è morta la nominata **ANTONIA
+> FALCO** di condizione*»
+
+**AND IT STOPS THERE.** The ruled block ends at the foot of the page on the word «*condizione*».
+
+## NOTHING IS ATTACHED TO ANYTHING, AND HERE IS WHY
+
+**Her age, her parents and whether she was wife, widow or child are all on the continuation, and the
+continuation is not on the adjacent leaves.** *Checked by name, not assumed*: image 143's right page
+carries act **48**, Angela Orologio, entire; image 144's right page carries act **52**, Filomena
+Diglio, entire, from its own preamble; image 145's left page opens act **53** from its preamble.
+**Three neighbouring pages, three other complete acts.**
+
+> **THIS IS THE SECOND ACT IN TWO DIFFERENT VOLUMES TO DO EXACTLY THIS.** The 1887 Carfora death read
+> on the morning of 8 October also ended mid-sentence, at «*residente in A…*», with the filiation
+> lost. **Two is a pattern and not an accident, and this archive does not yet know where these
+> continuations are.** *Until it does, every act read here may be missing its most load-bearing line,
+> and that is now a known hazard rather than a surprise.*
+
+**«Nella casa di MATTEO FALCO» is a lead and nothing more.** Matteo Falco is the father of work-list
+row 69's nine children. **But `tools/isitnew.py` returns at least three distinct Antonia Falco in
+this archive already**, and more than one Matteo Falco is possible in a town where this is the
+commonest surname. **This archive never merges people on a name, and a house is not a kinship any
+more than a street was for the Carfora act.** *What would settle it is one line of the continuation.*
+
+**RAFFAELE FALCO, figlio di Vincenzo, aged 47 in 1866 — so born about 1819** — is a Falco this
+archive can test against what it holds, and he is recorded here for that purpose and not merged
+either.
