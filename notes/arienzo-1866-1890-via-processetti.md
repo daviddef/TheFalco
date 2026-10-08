@@ -287,3 +287,50 @@ the street, which is argued above and is not circular.
 
 `3:1:3QS7-897N-16SB` (Vincenza, 1874) · `3:1:3QS7-897N-P3N5` (Giuseppe & Nicoletta Nuzzo, 1887)
 — then the rest of the seventeen.
+
+## 1874 n.36 — ALESSANDRA MORGILLO, and VINCENZA FALCO «FU MATTEO» ✔ READ
+
+`3:1:3QS7-897N-16SB` · 4570 × 3116, native L13 · read at **L12**.
+
+> «*Estratto dal Registro di Nascita per l'anno **1874** — Copia N. **36**, Morgillo Alessandra.
+> L'anno milleottocentosettantaquattro, nel giorno **dieci** del mese di **Maggio** nella Casa
+> Comunale, alle ore **quattordici**. Dinanzi a me **ALFONSO CRISCI ASSESSORE** di questo Comune di
+> **Arienzo** … **facente le veci del Sindaco perché in congedo**, Ufficiale dello Stato Civile, è
+> comparso **CARMINE MORGILLO FU ANTONIO, contadino, di anni VENTISEI, domiciliato qui in Arienzo
+> VIA PIAZZA VALLETTA**, il quale mi ha presentato una bambina di sesso femminile, che dichiara
+> essergli nata il giorno **otto** corrente mese di Maggio ad ore **dieci** d'Italia dalla di lui
+> moglie **VINCENZA FALCO FU MATTEO**, seco lui domiciliata*»
+
+**The harvest's reading holds again**, and the image adds the act's own date, the hour, the
+officer — an *assessore* standing in for a Sindaco on leave — and **the husband's patronymic, trade
+and age**: twenty-six, so born about **1848**.
+
+**«FU MATTEO» FROM A SECOND ACT**, so Matteo Falco's death before 1872 now rests on two independent
+certified copies.
+
+### The merge this did NOT force
+
+The tree holds **two** women called Vincenza Falco. The right one — daughter of Matteo and
+Alessandra, wife of a **Carmine Morgillo** — matches this act on **both parents and the husband**.
+**The builder still refuses to merge her with the register half, and does not list the refusal.**
+*That is the conservative answer and the data was not contorted to defeat it:* the household now
+carries Vincenza and her husband as separate documented members, exactly as it already carries
+**Angela Falco** and **Vincenzo Abatiello** — who are split the same way and were before this pass.
+**The split is pre-existing and general, not something these acts introduced.**
+
+## A TRAP THAT BIT TWICE IN ONE SITTING, AND ONLY ONE HALF OF IT IS GUARDED
+
+**Adding a documented member whose name already exists in the tree MOVES THE TREE PERSON'S SLUG.**
+It happened to **`filomena-falco` → `filomena-falco-2`** and to **`carmine-morgillo` →
+`carmine-morgillo-2`**. The frozen ledger holds two keys for one person — `tree:<id>` and
+`<household>|<name>` — and the merged person takes the household key's slug, orphaning the URL the
+tree key had frozen. **The fix is to repoint the household key at the original slug and rebuild.**
+
+**AND THE GATES CAUGHT ONLY ONE OF THE TWO.** `check:kit` refused the Carmine break, because the
+search index happened to carry a row pointing at `/people/carmine-morgillo`. **Nothing caught the
+Filomena break** — her slug had no index row, so a live person URL died silently and was found only
+by diffing the person list by hand. *A slug orphaned by a merge is guarded only by coincidence.*
+
+**`build_people.py` IS NOT IN THE VERIFICATION CHAIN.** Change `households.json` and `people.json`
+does not move until you run it. `check:evidence` refuses the build if you forget — which is the
+gate working — but the rebuild is a manual step and nothing says so at the point of editing.

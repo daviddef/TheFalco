@@ -8595,6 +8595,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "vincenza-falco-of-matteo-falco-alessandra-crisci",
+"name": "Vincenza Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [],
@@ -16924,6 +16932,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "vincenza-falco-of-matteo-falco-alessandra-crisci",
+"name": "Vincenza Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -24075,6 +24091,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "vincenza-falco-of-matteo-falco-alessandra-crisci",
+"name": "Vincenza Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "mergedOn": "both parents and an exact birth or death date — the name was never used, and this archive holds more than one person of it",
@@ -25101,6 +25125,14 @@
 {
 "slug": "angela-falco-of-matteo-falco-alessandra-crisci",
 "name": "Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenza-falco-of-matteo-falco-alessandra-crisci",
+"name": "Vincenza Falco",
 "via": "register",
 "vias": [
 "register"
@@ -35135,6 +35167,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "vincenza-falco-of-matteo-falco-alessandra-crisci",
+"name": "Vincenza Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [
@@ -41804,6 +41844,73 @@
 "treeId": 4000411
 },
 {
+"slug": "vincenza-falco-of-matteo-falco-alessandra-crisci",
+"name": "Vincenza Falco",
+"surname": "FALCO",
+"household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
+"role": "child",
+"events": [
+{
+"event": "named as mother in her daughter's birth act",
+"date": "8 May 1874",
+"place": "Arienzo, via Piazza Valletta",
+"evidence": "**HER FIRST DOCUMENT. Read from the image on 8 October 2026.** A certified copy bound into an Arienzo marriage supplement of the 1890s — a surviving copy of an act whose own register is lost.\n\n«*Estratto dal Registro di Nascita per l'anno **1874** — Copia N. **36**, Morgillo Alessandra. L'anno milleottocentosettantaquattro, nel giorno **dieci** del mese di **Maggio** nella Casa Comunale, alle ore **quattordici**. Dinanzi a me **ALFONSO CRISCI ASSESSORE** di questo Comune di **Arienzo**, Circondario di Caserta, Provincia di Terra di Lavoro, **facente le veci del Sindaco perché in congedo**, Ufficiale dello Stato Civile, è comparso **CARMINE MORGILLO FU ANTONIO, contadino, di anni VENTISEI, domiciliato qui in Arienzo VIA PIAZZA VALLETTA**, il quale mi ha presentato una bambina di sesso femminile, che dichiara essergli nata il giorno **otto** corrente mese di Maggio ad ore **dieci** d'Italia dalla di lui moglie **VINCENZA FALCO FU MATTEO**, seco lui domiciliata*»\n\n**«FU MATTEO» AGAIN, AND FROM A SECOND ACT** — so her father's death before 1872 now rests on two independent certified copies rather than one.\n\n*Why this woman is placed in this house.* The family tree holds a **Vincenza Falco, daughter of Matteo Falco and Alessandra Crisci, married to a CARMINE MORGILLO**, with no record against her. The act names a **Vincenza Falco FU MATTEO** whose husband is **Carmine Morgillo fu Antonio**. **The parents and the husband both agree, and the sources are independent.** *This archive holds a SECOND Vincenza Falco — a daughter of Raffaele Falco and Angela Rosa Morgillo — and she is not this one: different parents, and no Carmine.*",
+"ark": "FamilySearch 3:1:3QS7-897N-16SB — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "alessandra-crisci",
+"name": "Alessandra Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
+"name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "domenica-falco",
+"name": "Domenica Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-falco-of-matteo-falco-alessandra-crisci",
+"name": "Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "filomena-falco",
+"name": "Filomena Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
 "slug": "vincenza-falco",
 "name": "Vincenza Falco",
 "surname": "FALCO",
@@ -41856,7 +41963,7 @@
 ]
 }
 ],
-"mergedOn": "name and dates",
+"mergedOn": "both parents and an exact birth or death date — the name was never used, and this archive holds more than one person of it",
 "treeId": 4512475,
 "b": "20 Nov 1847",
 "dateFrom": {
@@ -48804,10 +48911,20 @@
 "slug": "carmine-morgillo",
 "name": "Carmine Morgillo",
 "surname": "MORGILLO",
-"household": null,
-"role": null,
-"events": [],
+"household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
+"role": "married in",
+"events": [
+{
+"event": "named as father in his daughter's birth act",
+"date": "8 May 1874",
+"place": "Arienzo, via Piazza Valletta",
+"evidence": "«*è comparso **CARMINE MORGILLO FU ANTONIO, contadino, di anni VENTISEI, domiciliato qui in Arienzo VIA PIAZZA VALLETTA** … dalla di lui moglie **VINCENZA FALCO FU MATTEO***» — Arienzo birth act **36 of 1874**, read from the image.\n\n**He is the husband the family tree already gave Vincenza Falco**, and the act supplies what the tree could not: his father's name (**fu Antonio**), his trade, his age — twenty-six, so born about **1848** — and the house on **Piazza Valletta**. *The tree and the act were not copied from each other.*",
+"ark": "FamilySearch 3:1:3QS7-897N-16SB — READ FROM THE IMAGE"
+}
+],
 "sources": [
+"register",
 "tree"
 ],
 "living": false,
@@ -48833,6 +48950,7 @@
 ],
 "children": [],
 "siblings": [],
+"mergedOn": "name and dates",
 "treeId": 4512432,
 "b": "1848",
 "dateFrom": {
