@@ -238,3 +238,52 @@ return the same span), so the act itself is not filmed here, and no processetto 
 reproduces it. **A Pasquale Carfora, 43, agricoltore, witnesses an Arienzo birth in 1896** —
 born about 1853, which would make him twenty-seven at that wedding — **and that is a
 coincidence of name and age, not an identification.**
+
+---
+
+# JOB 1 BEGUN — THE IMAGES ARE BEING READ, 8 October 2026
+
+**Work-list row 69, job 1.** Everything above was a machine transcription of a handwritten copy —
+two removes from the register, and a candidate by this archive's rules. These are the ones that
+have now been read **from the image**, and so may enter a household.
+
+**The tool was promoted out of scratch.** The shell script of 27 September is now
+`tools/fsgrab.py`, with the rate budget written into it: it prints the tile cost of a job before
+running it and refuses a job over forty tiles unless told twice. *A whole leaf at native level is
+about 234 tiles and the budget is about twenty-five requests a half hour, so the working method is
+L10 to find the act and L12 to read it.*
+
+## 1872 n.80 — ARCANGELO LORENZO CRISCI, and FILOMENA FALCO «FU MATTEO» ✔ READ
+
+`3:1:3QS7-897N-5R1` · 4399 × 3217, native L13 · read at **L12**, which is legible throughout.
+
+> «*Estratto dal registro di nascita per l'anno **1872** — Copia N.º **80**, Crisci Arcangelo.
+> L'anno milleottocentosettantadue, nel giorno **dodici** del mese di **Agosto** nella Casa
+> Comunale alle ore dodici d'Italia. Dinanzi a me **NICOLA FINELLI Sindaco** di questo Comune di
+> **Arienzo**, Circondario di Caserta, Provincia di Terra di Lavoro, Ufficiale dello Stato Civile,
+> è comparso **ANTONIO CRISCI DI ARCANGELO, PEPERNIERE, di anni QUARANTOTTO, domiciliato in
+> Arienzo VIA CAMELLARA**, il quale mi ha presentato un bambino di sesso maschile, che dichiara
+> essergli nato il giorno **undici** corrente mese ad ore **sedici** da lui e dalla sua moglie
+> **FILOMENA FALCO FU MATTEO**, seco lui domiciliata, e nella casa di sua abitazione posta in
+> questo Comune, **Via Camellara**; al quale figlio dichiara di dare i nomi di **ARCANGELO
+> LORENZO***»
+
+**THE MACHINE WAS RIGHT ON EVERY LOAD-BEARING POINT HERE** — the year, the act number, the
+father's name, trade, age and street, the child's two names, the birth day, and «fu Matteo».
+*That is worth recording as plainly as the cases where it was wrong: this harvest's transcription
+of a clerk's neat certified copy is a great deal better than its transcription of a cramped
+register hand.* **It also adds what the harvest did not carry**: the act's own date (12 August, a
+day after the birth), the hour (sedici), and **the Sindaco, NICOLA FINELLI**.
+
+**«FU MATTEO» IS NOW READ, NOT HARVESTED**, so the date it carries is firm: **Matteo Falco was dead
+before 11 August 1872**.
+
+**FILOMENA FALCO NOW HAS A DOCUMENT**, and she is the first of the nine children of Matteo Falco ×
+Alessandra Crisci to get one. *She stood in this archive with `via: tree` and nothing else.* The
+placement rests on two independent sources agreeing on the husband **and** the patronymic **and**
+the street, which is argued above and is not circular.
+
+### Still to read
+
+`3:1:3QS7-897N-16SB` (Vincenza, 1874) · `3:1:3QS7-897N-P3N5` (Giuseppe & Nicoletta Nuzzo, 1887)
+— then the rest of the seventeen.
