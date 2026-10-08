@@ -5,6 +5,10 @@ import { lineage } from "@daviddef/archive-kit/lib/ahnen.js";
 import { u } from "../lib/url.js";
 import { people, bySlug } from "../lib/people.js";
 import line from "../data/line.json";
+/* DERIVED, NOT TYPED. This read «fifty-three reconstructed households» from the
+   day it was written until 9 October 2026, by which time there were 111. The
+   sentence beside it already derives its own number; this one did not. */
+import households from "../data/households.json";
 
 const gens = [...line].sort((a, b) => a.gen - b.gen);
 
@@ -182,7 +186,7 @@ const dates = (r) => {
     their children. It does <strong>not</strong> draw the <strong>{people.length - totalKids} other
     people</strong> the archive can name — the wider Arienzo of Cioffi, Morgillo, Martone and Giglio
     who fill <a href={u("/people/")}>the people pages</a>, or the
-    <a href={u("/households/")}>fifty-three reconstructed households</a>. A spine is not a family.</p>
+    <a href={u("/households/")}>{households.length} reconstructed households</a>. A spine is not a family.</p>
   </div>
 
 <style is:global>
