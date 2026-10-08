@@ -812,3 +812,67 @@ Antenati and has never been looked for.** *That would replace the whole sweep.*
 **NOT ESTABLISHED, AND NOT RECORDED AS ABSENT:** `tools/antenati_holdings.py Arienzo` returned
 **403 — rate limited** on all six series. **A 403 is a refusal, not an answer**, and this archive does
 not publish negatives from one.
+
+
+---
+
+# 1845, 1849, 1850 AND 1852 — all four are nil, and two of them by a better instrument
+
+**No child of Matteo Falco and Alessandra Crisci was born at Arienzo in any of these years.**
+
+| year | how it was established |
+|---|---|
+| **1845** | mother band, **images 2–109**. *Images 110–139 were already read in September* — they hold **Maria Felice Falco, act 111**, to **Crescenzo Falco × Maria Morgillo**, not this couple. |
+| **1849** | mother band, **images 2–129**, every «*è nata da … sua moglie legittima*» in the year |
+| **1850** | **the year's own TAVOLA**, complete |
+| **1852** | **the year's own TAVOLA**, complete |
+
+## THE TAVOLE OF 1850 AND 1852 ARE COMPLETE — and that corrects a published generalisation
+
+This archive has recorded that Arienzo's birth *tavole* «**are sporadic, and they fail in three
+different ways**»: 1831 has none, 1836 has one never filled in, 1832 and 1837 stop at **C**. **1840
+was added to that list this week** — it stops at «*Crisci Angelo Serafino*», with the filmer's card
+«THIS INDEX HAS BEEN MICROFILMED ALREADY» lying across it.
+
+**1850 and 1852 are not like that.** Both open with «*Tavola alfabetica annuale de' Nati*» running
+the alphabet — C through L on one leaf, M through P on the next, and on — with the columns that
+matter:
+
+> «**Numero d'Ordine · Cognomi e Nomi de' Nati · Cognomi e Nomi de' GENITORI · Giorno della
+> Nascita**»
+
+**Both parents, on the child's line.** *One leaf answers a year that costs six contact sheets and a
+hundred and thirty image fetches to sweep.* **The generalisation «Arienzo's birth tavole fail» is
+true of 1831–1840 and FALSE of 1850–1852; the practice changed.** *It is the difference between a
+year costing five requests and a year costing a hundred and thirty.*
+
+**AND 1849'S TAVOLA IS BOUND IN AND BLANK** (image 128), so the change is not a clean switch — **it
+must be checked year by year, and the check is one image.**
+
+## EIGHT FALCO BIRTHS, NONE OF THEM OURS — recorded as leads
+
+From the two tavole, with their parents exactly as the index gives them:
+
+| year | child | parents |
+|---|---|---|
+| 1850 | Falco Vincenzo (14) · Falco Giovanni (77) · Falco Carminantonio (59) · Falco Antonio (90) | **Angelo × Cimmino Maria** · **Crescenzo × Morgillo Maria** · **Raffaele × Morgillo Maria Rosa** · **Michele × d'Ambrosio Giovanna** |
+| 1852 | Falco Carmine (7) · Falco Antonia (26) · Falco Giovambattista (78) · Falco Maria Carmina (102) | **Luigi × Cimmino Carolina** · **Crescenzo × Morgillo Maria** · **Angelo × Cimmino Maria** · **Michele × d'Ambrosio Maria Giovanna** |
+
+*«Falco Carminantonio, 59, of Raffaele Falco e Morgillo Maria Rosa» is a birth this archive already
+holds from the act — **Carmine Antonio Falco, 10 July 1850** — which is a check on the tavola, and it
+passes.* **Nothing else here is merged: these are five other Falco households of Arienzo, named and
+left where they are.**
+
+## THE BAND IS VOLUME-DEPENDENT, AND 1845 NEARLY PRODUCED A NIL THAT COULD NOT BE SUPPORTED
+
+The mother band calibrated on 1839–1844 — **top 0.045, height 0.145** — sits at the very top edge of
+the 1845 leaves, whose text block is set lower. **About a third of that year's first sheets showed
+the page above the line rather than the line**, and the names simply were not there to read.
+
+**A nil was not published from them.** The band was widened to **0.04 / 0.22**, all four years were
+re-swept, and every tile is legible. *The already-published nils of 1840, 1841 and 1843 rest on
+sheets where a mother's name was transcribed from every tile; they are unaffected.*
+
+> **THE RULE: a band proved on one volume is not proved on the next.** It is the same lesson as the
+> act-per-image arithmetic and the 1820 form change — *this register series drifts, and every
+> instrument calibrated against it has to be re-checked when the volume changes.*
