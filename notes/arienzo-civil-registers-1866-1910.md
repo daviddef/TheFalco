@@ -435,3 +435,70 @@ two-column index, target board — is now written down for 1866 and 1867 above.
 
 **`MC55-VNL` (2,898 images, 1878–1900) has NOT been surveyed.** It is the volume holding most of what
 this archive wants, and it is the obvious next run.
+
+
+---
+
+# THE BIRTH INDEXES OF `MC55-FNT` DO NOT EXIST — and that is a measured negative, not a failure to look
+
+**8 October 2026, work-list row 102.** The plan was to read the birth index of every year 1866–1877
+and take out the Falco. **There are none to read**, and here is what was checked before saying so.
+
+## How the volume was mapped, for nothing
+
+**Every cover in the volume was found computationally** — a cover is a near-black thumbnail, and
+`mean brightness < 45% of the volume median` finds all **48** of them without a single request. The
+leaf after each cover was then fetched whole (46 requests, `tools/fsgrab.py page`) and read.
+
+**THE BOOK MAP OF `MC55-FNT`**, from the printed title pages themselves:
+
+| year | the books, by the image their title page sits on |
+|---|---|
+| **1866** | Pubblicazioni **4** · Matrimoni **45** · **NASCITE 61** (acts 62–123) · *deaths index 125–127* · Morti **128** (acts 129–167) · Cittadinanze **169** |
+| **1867** | 172 · Matrimoni **224** · Morti **236** · Morti **241** *(a second one, unexplained)* · Matrimonj **277** · Cittadinanza **281** |
+| **1868** | **NASCITA 297** · Morte **341** · Cittadinanza **383** |
+| **1869** | Matrimoni **386** · Matrimoni **407** · **NASCITA 420** · Cittadinanza **463** · Morte **466** |
+| **1870** | **NASCITE 492** · Matrimoni **537** · 566 |
+| **1871** | Matrimoni **594** · **NASCITA 612** · 656 · *index forms 661–664* |
+| 1872–74 | 693 · 716 · Cittadinanza **750** · 753 · 776 · 791 · 827 · 854 · 873 · 909 — **these title pages leave «REGISTRO d___» BLANK**; from 1873 the clerk named the book on the cover only |
+| **1875** | Matrimonio **926** · **NASCITA 948** · Cittadinanza **1000** · Morte **1003** |
+| **1876** | Matrimonio **1033** · **NASCITA 1057**, **1109** · Morte **1118** · Matrimonio **1145** |
+| **1877** | Matrimonio **1156** · **NASCITA 1179** · **NASCITA PARTE II 1232** |
+
+*«**PARTE I**» and «**PARTE II**» appear from 1875 — the printed national form keeps second-part acts
+in their own register, and **a sweep of Parte I alone would miss them.***
+
+## WHERE AN INDEX WOULD BE, AND WHAT IS THERE INSTEAD
+
+Checked in **six** years, at both positions an annual index can occupy — bound at the front of a book
+behind its cover, or bound at the back after the last act:
+
+| year | front of the births book | back of the births book |
+|---|---|---|
+| 1866 | cover 60 → title 61, no room | **123 = the officer's closing certificate**, «*Verificato in questo giorno 29 del mese di Gennajo dell'anno 1867*». No index |
+| 1870 | cover 491 → title 492 | **535 = last acts + closing certificate.** No index |
+| 1871 | cover 611 → title 612 | — |
+| 1875 | cover 947 → title 948 | **998 = last acts, then blank printed forms.** No index |
+| 1876 | 1109 is the **title page**, not an index | — |
+| 1877 | — | **1232 is «PARTE II», a register, not an index** |
+
+**AND THE 1871 PROOF IS THE ONE THAT SETTLES IT.** Images **661–664** are four «**Modulo dell'Indice
+annuale**» forms bound together. **Only the first is filled**, and its header reads, at magnification:
+
+> «**Modulo dell'Indice annuale de' Morti nell'anno 1871**»
+
+**Images 663 and 664 are the same printed form, BLANK** — ruled, headed, and never written in. *The
+volume was bound with an index form for each series and the clerk completed the deaths one and left
+the others empty.* **The births index of 1871 exists as a sheet of paper and holds no names.**
+
+**So the only filled annual indexes in this volume are of DEATHS — 1866 (images 125–127, a
+handwritten form by forename initial) and 1871 (images 661–662, the printed form by SURNAME).**
+
+## WHAT THIS MEANS FOR THE WORK
+
+**The births of 1866–1877 must be read as books, not looked up.** That is roughly **four hundred
+leaves** across the volume — at one request a leaf it is an afternoon, not a research project, and
+`tools/fscontact.py` has already narrowed every birth book to its exact image range above.
+
+*The index was never the point; it was the shortcut. The shortcut is not there for births, and
+saying so is worth more than another week of looking for it.*
