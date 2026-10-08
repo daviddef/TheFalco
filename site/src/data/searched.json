@@ -1667,5 +1667,69 @@
    "Arienzo",
    "Parish"
   ]
+ },
+ {
+  "when": "1871–1889 (acts), inside volumes of 1891–1910",
+  "searchedOn": "2026-09-16",
+  "provider": "familysearch",
+  "film": "collection 2043630 — searched as full text, not walked as a volume",
+  "waypoint": null,
+  "url": "https://www.familysearch.org/search/full-text/results?f.collectionId=2043630&q.anyPlace=Arienzo",
+  "src": "**FAMILYSEARCH collection `2043630` — «Italy, Caserta, Santa Maria Capua Vetere, Civil Registration (Tribunale), 1866–1929».** Searched as **full text over unindexed images**, `q.text=Falco` with `q.anyPlace=Arienzo`, paged 50 at a time.\n\n**NO WAYPOINT, AND NOT GUESSED.** *This is a full-text query across a collection, not a walk through one volume, so there is no `wc=`/`owc=` to record — the atlas's own mark id for this shape is `collection:<url>`. The collection id is given instead and this row says so.*",
+  "what": "Arienzo's civil registers for **1866–1890 are lost** — Antenati's year facet runs 1809–1865 and stops. The *processetti* of 1891–1910 bind in **certified copies of the couple's and their dead parents' civil acts, transcribed in full by the office that held the originals**, so the lost years survive act by act inside the surviving ones.",
+  "got": "**1,503 hits; 405 placed at Arienzo; 202 of those distinct pages** — the rest are duplicate framings of one image. **Seventeen certified extracts, every one from a year Antenati does not hold**: 1871, 1872, 1873, 1874, 1875, 1878, 1879, 1880, 1881, 1883, 1887, 1889.\n\n**AND A MEASUREMENT WORTH MORE THAN THE SEVENTEEN: `q.anyPlace` IS A WEIGHTING, NOT A FILTER.** *Two thirds of what this query returns is not Arienzo. Every count here is from `content.recordPlace` on the full result set. A hit count read off the top of this endpoint would have been wrong by a factor of three.*\n\n**Two neighbouring collections were measured to a clean nil in the same pass**: `M9J1-SZX` Campania Births — 563 Arienzo+Falco hits, **ZERO actually placed at Arienzo**, all of them neighbouring comuni; `M9J1-SMK` Deaths — 703 hits, 216 at Arienzo but all the already-swept *parish* register.",
+  "outcome": "found",
+  "pages": "202 distinct Arienzo pages of 1,503 hits",
+  "walked": false,
+  "tags": [
+   "FamilySearch",
+   "Processetti",
+   "Arienzo",
+   "Civil registration",
+   "Full text"
+  ]
+ },
+ {
+  "when": "1870–1889, and one act of 1904",
+  "searchedOn": "2026-10-08",
+  "provider": "familysearch",
+  "film": "collection 2043630 — searched as full text, not walked as a volume",
+  "waypoint": null,
+  "url": "https://www.familysearch.org/search/full-text/results?f.collectionId=2043630&q.anyPlace=Arienzo",
+  "src": "**THE SAME COLLECTION, ENUMERATED BY THE CLERK'S OPENING PHRASE INSTEAD OF BY SURNAME.** A plan to sweep ten allied surnames one at a time was abandoned on arithmetic — Cioffi alone returns 2,755 and the ten together are well over a hundred paged requests against a budget of about twenty-five a half hour, **and every one of them would still miss an act whose surname the recogniser mangled.**\n\n**Every certified copy opens the same way whoever it belongs to**, so a quoted phrase catches them all at once:\n\n| phrase | hits | distinct pages PLACED at Arienzo |\n|---|---:|---:|\n| `\"Estratto dal registro di nascita\"` | 1,485 | **140** |\n| `\"Estratto dal registro di morte\"` | 324 | **20** |\n| `\"Estratto dal registro degli atti di matrimonio\"` | 674 | **1** |\n\n*The bare word `Estratto` returns 86,066 — about 1,722 requests. **The phrase is a 265-fold narrowing**, and only a quoted phrase narrows this endpoint at all: `q.text` ORs its terms.*",
+  "what": "Enumerate **every** certified extract from the lost years, regardless of whose family it belongs to — and settle whether the processetti hold the death acts of two men this archive has been looking for.",
+  "got": "**FIFTY-TWO ARIENZO CIVIL ACTS FROM THE YEARS WHOSE REGISTERS ARE LOST**, 1870 to 1889, now in `data/arienzo-processetti-extracts-1866-1890.tsv` — 49 births, 4 deaths, carrying Crisci (18), Morgillo (11), Rivetti (5), Guida and the rest of the allied families the row named.\n\n**Both enumerations plateaued — the Arienzo count stopped moving after seven pages of fifty and did not move again at offset 1,000 or 1,400 — so this is a complete harvest, not a sample.**\n\n**AND A MEASURED NEGATIVE, which is why the enumeration was worth more than the sweeps: of the twenty death extracts placed at Arienzo, NOT ONE is either of the two men.** *That is now measured rather than hoped at. The processetti route for those two deaths is spent; what is left is the processetti of other comuni and the parish registers.*\n\n> **HARVESTED, NOT HELD.** Every line of the census is a machine transcription of a handwritten copy — **two removes from the register**. A machine transcription is a candidate exactly as a contact sheet is; **49 of the 52 are still unread at the image.**",
+  "outcome": "found",
+  "pages": "161 distinct Arienzo pages across three phrase enumerations (2,483 hits pulled)",
+  "walked": false,
+  "tags": [
+   "FamilySearch",
+   "Processetti",
+   "Arienzo",
+   "Civil registration",
+   "Full text",
+   "Negative result"
+  ]
+ },
+ {
+  "when": "1874, 1887, 1904",
+  "searchedOn": "2026-10-08",
+  "provider": "familysearch",
+  "film": "collection 2043630 — individual leaves by image ark",
+  "waypoint": null,
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-897N-5R1",
+  "src": "**FIVE LEAVES OF THE PROCESSETTI READ FROM THE IMAGE** at 4,314–4,912 px native (level 13), rendered at **level 12**, which is legible throughout — via the DeepZoom tile endpoint with David's own logged-in session, now driven by `tools/fsgrab.py`.\n\n`3:1:3QS7-897N-5R1` · `3:1:3QS7-897N-16SB` · `3:1:3QS7-897N-P3N5` · `3:1:3QS7-L97N-PQHM` · `3:1:3QSQ-G97N-571`\n\n*The budget is the whole constraint: about **25 requests per half hour**, counting `image.xml` and tiles together, and a single act's band is ~15 tiles. **One act per window**, and the 1904 leaf took three sittings.*",
+  "what": "Turn candidates into records. **Three of the nine children of Matteo Falco and Alessandra Crisci had no document of any kind**; two further death extracts were new.",
+  "got": "**THREE OF THE NINE CHILDREN NOW CARRY A DOCUMENT WHERE NONE DID** — Filomena Falco for the first time ever, Vincenza Falco (so «fu Matteo» now rests on two certified copies instead of one), and Giuseppe Falco. Five people were added to the household, two of them married in.\n\n**AND TWO DEATH ACTS WHERE THE READING IS AS MUCH ABOUT WHAT IT WILL NOT SAY:**\n\n- **1887 n.90, Carfora Maria Giuseppa.** Read in full to «*residente in A…*» — **the act stops mid-sentence and her parents are not on the leaf.** The image and the machine transcription end at the identical word, so the continuation is on a page this harvest never returned. **Her filiation is not recovered, and NO HOUSEHOLD IS CREATED**: no Falco appears in the act.\n- **1904 n.47, Crisci Francescantonio**, «*nato in Arienzo dal fu Giovanni e dalla fu Vincenza Sgambato, **marito di Nicoletta Nuzzo***» — **and that is the name of a Falco wife in the 1887 act read the same day.** *One woman who remarried would date a death this archive does not have; two women of one name is what this corpus keeps producing — and this very act demonstrates two Antonio Crisci. **NOTHING IS MERGED AND NO DEATH WINDOW IS PUBLISHED.***\n\n**Reading is worth the tiles every time**: a leaf the machine had put at acts 28 and 29 is **18 and 19** at native resolution, and that error had already been published inside a correction before the image caught it.",
+  "outcome": "found",
+  "pages": "5 leaves of the 161 distinct Arienzo pages enumerated",
+  "walked": false,
+  "tags": [
+   "FamilySearch",
+   "Processetti",
+   "Arienzo",
+   "Image reading",
+   "DeepZoom"
+  ]
  }
 ]
