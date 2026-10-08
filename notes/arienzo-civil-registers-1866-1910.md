@@ -127,3 +127,86 @@ every year, in order, with the index**.
 - **Whether the registers duplicate Antenati before 1866 is untested** — these are the *tribunale*
   copies, as Antenati's are, so they may be the same filming or a second one. **A second filming of
   the same page is this archive's cheapest corroboration** and would be worth knowing.
+
+
+---
+
+# THE LAYOUT, PROVED FROM THE MANUSCRIPT — `MC55-FNT`, 8 October 2026
+
+**The volume is not one register. It is a year's worth of separate books bound onto one roll, five
+books to the year, each with its own cover, its own printed title page and its own numbering.**
+Surveyed from the thumbnails with `tools/fscontact.py`, then each title page read whole with
+`tools/fsgrab.py page`.
+
+| images | book, as its printed title page states it |
+|---:|---|
+| 1–2 | the filmer's target board, **exposed twice** |
+| 3 | cover: «*1866 — Arienzo — Pubblicazioni di Matrimoni*», the clerk's hand |
+| **4** | **«Anno 1866 · Comune di Arienzo · Provincia di TERRA DI LAVORO · REGISTRO delle pubblicazioni di Matrimonii»** |
+| 5–43 | the acts |
+| 44–45 | cover, then **«Anno 1866 … REGISTRO»** — the marriages |
+| 46–59 | the acts |
+| 60–61 | cover, then **«… REGISTRO delle Nascite»** |
+| **62–123** | **THE BIRTHS OF 1866** |
+| 124–128 | cover, two leaves of ruled index, then **«… REGISTRO delle Morti»** |
+| 129–167 | the acts |
+| 168–169 | cover, then **«… REGISTRO delle Dichiarazioni di Cittadinanza»**, with a fifty-centesimi revenue stamp |
+| 170–171 | the acts, then the next cover |
+| **172** | **«Anno 1867 · COMUNE di Arienzo · PROVINCIA DI TERRA DI LAVORO»** — the year turns |
+
+**PUBBLICAZIONI · MATRIMONI · NASCITE · MORTI · CITTADINANZE, in that order, about 168 images to the
+year.** *That is the shape the catalogue's title was describing all along — «Nati, matrimoni, morti
+1866-1876 · Pubblicazioni 1866 · Cittadinanze 1866-69…» is a list of books, not a list of series.*
+
+**«PROVINCIA DI TERRA DI LAVORO», not Caserta** — the province kept that name until 1927, and a
+search of this archive's own prose for «Terra di Lavoro» is worth doing.
+
+## AND AN ACT WAS READ, so this is no longer the catalogue's word
+
+Image 66, sampled at random from the 1866 births and legible in a single request:
+
+> «*…presentato un bambino di sesso maschile, che dichiara essergli nato il giorno **otto** del andante
+> mese, a ore **dieci** d'Italia, dalla di lui moglie **GIUDITTA CRISCI**, figlia del fu **FRANCESCO**,
+> sua legittima moglie, e nella casa di sua abitazione posta in questo Comune, **Contrada Maddalena**,
+> al quale figlio dichiara di dare il nome di **FRANCESCO**. La quale dichiarazione viene fatta alla
+> presenza di **Vincenzo Ruotolo**, figlio di Pietro, di anni cinquantadue, di condizione agricoltore,
+> e di **Aniello Guida**, figlio di Pasquale, di anni cinquantatré, di condizione …, residenti in
+> questo Comune, testimoni…*»
+
+**A birth act of Arienzo, 1866, in the register this archive said did not survive.** *No kinship is
+claimed from it — it was opened to prove the book, not to find a Falco, and a Crisci of Arienzo is
+not a Crisci of this line until something says so. **This archive never merges people on a name.***
+
+**What it does prove beyond the book**: the formulary of these years names **the mother in full with
+her own filiation** («figlia del fu Francesco»), the **contrada**, and both witnesses with their
+fathers and ages. *That is a richer act than the 1809–1865 Antenati forms this archive has been
+working from.*
+
+
+## AND EVERY YEAR HAS AN «INDICE ANNUALE» — which is the whole route
+
+Image **125** is a printed, ruled, two-column **INDICE ANNUALE**: columns «*NOME E COGNOME*» and
+«*NUMERO di REGISTRO*», about **sixty names a column, a hundred and twenty a leaf** — most of a
+year's births on one page, in one request.
+
+**It is ordered by FORENAME, not surname** — *Aniello Crisci 13 · Agnello Attorato 22 · Alfonso
+Diglio 27 · Anna Migliore 30 · Carmine Crisci 72 · Carminantonio Morgillo 91 · Chiara Caracciolo 98
+· Domenico Crisci 19 · Filippo Crisci 86 · Francesco Morgillo 21 · Giovanni Ruotolo 1 · Giuseppe de
+Lucia 20* — so a surname cannot be looked up; **the leaf has to be read whole.** At one request a
+leaf that is not a problem, and **it is still the whole year for two requests.**
+
+**IMAGE 126 IS A DUPLICATE EXPOSURE OF 125**, name for name. *The Antenati volumes do this too and
+`register-layout-proof.md` records it; the filmer of 1991 did it as well, and on this roll the target
+board is exposed twice at images 1 and 2.* **A second exposure is not a second leaf, and counting it
+as one would inflate every page count taken from a contact sheet.**
+
+**NO FALCO STANDS ON THE 1866 BIRTH INDEX LEAF THAT WAS READ** — that is one leaf of a year, not the
+year, and nothing is concluded from it.
+
+### The arithmetic that still has to be tested
+
+The 1866 births run images **62–123**, sixty-two images, and the highest register number visible on
+the index leaf is **122**. *That is about two acts to an image*, which would make
+`image ≈ 61 + ⌈act ÷ 2⌉` — **and that is arithmetic, not a proof.** It wants the same treatment
+`register-layout-proof.md` gave the Antenati bands: take a known act number to its predicted image
+and see whether it is there. **Until then, go to the index, then walk.**
