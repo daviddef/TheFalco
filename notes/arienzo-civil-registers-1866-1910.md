@@ -203,10 +203,26 @@ as one would inflate every page count taken from a contact sheet.**
 **NO FALCO STANDS ON THE 1866 BIRTH INDEX LEAF THAT WAS READ** — that is one leaf of a year, not the
 year, and nothing is concluded from it.
 
-### The arithmetic that still has to be tested
+### THE ARITHMETIC WAS TESTED AND IT IS WRONG
 
-The 1866 births run images **62–123**, sixty-two images, and the highest register number visible on
-the index leaf is **122**. *That is about two acts to an image*, which would make
-`image ≈ 61 + ⌈act ÷ 2⌉` — **and that is arithmetic, not a proof.** It wants the same treatment
-`register-layout-proof.md` gave the Antenati bands: take a known act number to its predicted image
-and see whether it is there. **Until then, go to the index, then walk.**
+The 1866 births run images **62–123**, sixty-two images, and the highest register number on the index
+leaf is **122**. *That is about two acts to an image*, which would make `image ≈ 61 + ⌈act ÷ 2⌉`. It
+was published here as arithmetic rather than proof, and then **tested the same hour, the way
+`register-layout-proof.md` tests a band: take a number to its predicted image and look.**
+
+**The rule predicts acts 99 and 100 on image 111. Image 111 carries act N.º 113** — margin name
+«*Carmina Anzivino*», «*l'anno milleottocento sessantasei, nel giorno **undici del mese di Ottobre***,
+nella casa comunale, alle ore quattordici, dinanzi a me **Lorenzo Ruggiero**, assessore delegato del
+Comune di **Arienzo**, circondario di Caserta, Provincia di Terra di Lavoro*». **Thirteen acts out
+over fifty images, and it would only get worse further down the book.**
+
+**THE RULE IS WITHDRAWN.** *An act is as long as the clerk made it, and the number of acts on an
+opening is not a constant anybody may assume — which is the whole lesson of the band sweep that
+published two volumes as «read in full» when half of each had been read.* **Go to the index for the
+number, then walk to it. Do not interpolate.**
+
+*The facing page of image 111 carries another 1866 birth: «…figlio di **Aniello**, di anni venti…,
+agricoltore, domiciliato in questo Comune, **Contrada Capodicienà**… dalla di lui moglie **MARIA
+ARRICALE**, figlia del fu **Francesco**… al quale figlio dichiara di dare il nome di **Francesco**».
+**Arricale is one of the ten allied surnames work-list row 69 named**, and nothing is concluded from
+that: the leaf was opened to test a rule, and this archive never merges people on a name.*
