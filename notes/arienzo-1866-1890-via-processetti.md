@@ -443,3 +443,67 @@ run independently and agree, which is the best corroboration available here.*
 **What is left for these two men**: the Arienzo registers of 1866–1890 survive only inside
 processetti, and the processetti of **other comuni** — where a grandchild married away from Arienzo —
 have not been searched at all. That, or the parish registers.
+
+---
+
+# JOB 2 — DONE BY THE BETTER INSTRUMENT, AND IT RECOVERED FIFTY-TWO ACTS
+
+**8 October 2026.** The row asked for ten surname sweeps: Crisci, Guida, Arricale, Annecchino,
+Carfora, Cimmino, Morgillo, Zampiello, Rivetti, Cioffi. **They were not run one at a time, and the
+reason is arithmetic.**
+
+| surname | hits for Arienzo |
+|---|---:|
+| Cioffi | 2,755 · Carfora 2,392 · Guida 2,326 · Crisci 1,419 · Cimmino 1,376 · Rivetti 916 · Morgillo 701 · Arricale 161 · Annecchino 40 · **Zampiello 1** |
+
+**Ten sweeps at fifty a page is well over a hundred requests against a budget of about twenty-five a
+half hour — and every one of them would miss an act whose surname the recogniser mangled.**
+
+**THE EXTRACT PHRASE CATCHES THEM ALL AT ONCE**, because every certified copy opens the same way
+whoever it belongs to:
+
+| phrase | hits | distinct pages PLACED at Arienzo |
+|---|---:|---:|
+| `"Estratto dal registro di nascita"` | 1,485 | **140** |
+| `"Estratto dal registro di morte"` | 324 | **20** |
+| `"Estratto dal registro degli atti di matrimonio"` | 674 | **1** |
+
+*Both birth and death enumerations plateaued — the Arienzo count stopped moving after seven pages of
+fifty and did not move again at offset 1,000 or 1,400 — so the harvest is complete, not a sample.*
+
+## THE CENSUS
+
+**`data/arienzo-processetti-extracts-1866-1890.tsv` — fifty-two Arienzo civil acts from the years
+whose registers are lost**, every one quoted inside a marriage supplement of the 1890s or 1900s.
+Years **1870 to 1889**, with 1876 and 1878 the heaviest.
+
+**They carry the allied families this row named**: Crisci (18), Morgillo (11), Rivetti (5), Guida
+(4), Arricale (3), Carfora (3), Cimmino (2) — *and no Annecchino, no Zampiello, no Cioffi, no Cossi
+at all.*
+
+> **HARVESTED, NOT HELD.** Every line of that file is FamilySearch's machine transcription of a
+> handwritten copy — two removes from the register, and a candidate by this archive's rules. **The
+> OCR is visibly noisy in it**: it renders Crisci as *Crivi*, *Crisei* and *Arisci*, Cimmino as *Cin
+> mino*, Arricale as *Ani cale*. **Nothing in it may enter a household until the image is read.**
+> The three acts read so far are marked in capitals; they are the only ones that have earned it.
+
+## TWO THINGS IN IT WORTH A SECOND LOOK
+
+**A FALCO MOTHER THIS ARCHIVE CANNOT PLACE.** Act **27 (and 97) of 1878**, *Arricale Maria Carmela*,
+gives the mother as **CONCETTA FALCO**, wife of **Vincenzo Arricale**. `isitnew.py`: the tree holds a
+**Maria Concetta Falco, daughter of Andrea Falco and Carmela Buono**, tree-only with no record; and
+the only documented Vincenzo Arricale is a *vaticale* aged thirty-five in **1816**, who cannot be
+this child's father. **Two candidates, neither provable, and the act is unread.** *It is written down
+as a lead and nothing more.* **The same child appears under two act numbers, 27 and 97, in two
+different supplements — at least one of them is the recogniser mis-reading the other.**
+
+**A GENTRY RIVETTI.** Act **89 of 1874**, *Rivetti Giuseppa*, to «**Don Michele Rivetti**» and
+«**Donna Rosa Cimmino fu Nicola**» — *Don* and *Donna*, which this archive has seen before only in
+the other Falco family and in the priest's house. **Not kin to anything here on present evidence.**
+
+## WHAT JOB 2 DID NOT FIND
+
+**No Annecchino, no Zampiello.** Zampiello returns **one** hit in the whole collection. *That is
+consistent with everything else: the Zampiello are an Arpaia family and the Annecchino a Forchia one,
+and this collection is the tribunal of Santa Maria Capua Vetere.* **Looking for them here was always
+unlikely, and now it is measured.**
