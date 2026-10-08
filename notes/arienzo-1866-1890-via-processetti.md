@@ -334,3 +334,51 @@ by diffing the person list by hand. *A slug orphaned by a merge is guarded only 
 **`build_people.py` IS NOT IN THE VERIFICATION CHAIN.** Change `households.json` and `people.json`
 does not move until you run it. `check:evidence` refuses the build if you forget — which is the
 gate working — but the rebuild is a manual step and nothing says so at the point of editing.
+
+## 1887 n.114 — MARIA FALCO, and GIUSEPPE FALCO × NICOLETTA NUZZO ✔ READ
+
+`3:1:3QS7-897N-P3N5` · 4429 × 3225, native L13 · read at **L12**.
+
+> «*Estratto dal registro di nascita per l'anno **1887** — Copia N.º **114**, Falco Maria. L'anno
+> milleottocentottantasette, addì **venticinque** di **settembre** a ore antimeridiane nove e minuti
+> dieci nella Casa Comunale. Avanti di me **NOTAR PARIDE GUERRIERO, Consigliere Comunale, delegato
+> con atto del Sindaco** … Ufficiale dello Stato Civile del Comune di **Arienzo**, è comparso
+> **GIUSEPPE FALCO di anni QUARANTASEI, AGRICOLTORE, domiciliato in questo comune**, il quale mi ha
+> dichiarato che alle ore pomeridiane otto e minuti trenta del dì **ventidue** del corrente mese,
+> nella casa posta in **via ORTICELLI al numero QUATTRO**, da **NICOLETTA NUZZO sua moglie,
+> CONTADINA, seco lui convivente**, è nato un bambino di sesso femminino … a cui dà il nome di
+> **MARIA***»
+
+**Forty-six in September 1887, so born about 1841**, which fits a couple married in January 1834.
+The image adds the hour of the birth, the mother's **trade**, «*seco lui convivente*», and an
+officer who is **a notary sitting as councillor under the Sindaco's written delegation** — this
+comune's third different signing officer in the three acts read.
+
+**THE JOIN IS THE WIFE'S NAME, NOT THE HUSBAND'S.** This archive holds a great many men called
+Giuseppe Falco and would not place one on a forename. **Nicoletta Nuzzo is uncommon**, the tree
+already gives her as his wife, and the age agrees with his parents' marriage.
+
+---
+
+# WHERE JOB 1 STANDS
+
+**All three acts the row named are read from the image, and three of the nine children of Matteo
+Falco × Alessandra Crisci now carry a document where all nine carried none.**
+
+| child | act | what it gives |
+|---|---|---|
+| **Filomena Falco** | 1872 n.80 | husband **Antonio Crisci di Arcangelo**, via Camellara, «fu Matteo» |
+| **Vincenza Falco** | 1874 n.36 | husband **Carmine Morgillo fu Antonio**, piazza Valletta, «fu Matteo» |
+| **Giuseppe Falco** | 1887 n.114 | wife **Nicoletta Nuzzo**, via Orticelli 4, b. c.1841 |
+
+**On every load-bearing point the machine transcription held.** *That is worth saying as plainly as
+the cases where it failed: the recogniser reads a clerk's neat certified copy far better than a
+cramped register hand.* What the images added each time was the act's own date and hour, the
+officer, and the trades — and in two cases a **house number**.
+
+**Six remain of the nine**: Angela Rosa, Carmela, Maria, Domenica, Clementina, Antonia.
+
+**AND THE PRIZE IS STILL NOT TAKEN.** Neither **Vincenzo Falco of Andreana Crisci** nor **Giuseppe
+Falco of Antonia di Guida** appears in anything read so far. **Rows 39 and 40 stay open** — jobs 2
+and 3 of this row, the other surnames and the `q.text=Estratto` enumeration, are where they would
+surface, and neither has been run.
