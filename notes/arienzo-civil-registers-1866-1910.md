@@ -414,3 +414,24 @@ not established.*
 Every one of these also carries the Tribunale's own authorisation: «*Il Presidente del Tribunale
 Civile di Santa Maria Capua Vetere, visto l'Articolo 357 Codice Civile, delega per la vidimazione del
 presente registro…*» — **the court that holds this copy, naming itself on the page.**
+
+
+---
+
+## THE WHOLE VOLUME IS SURVEYED, AND THE THUMBNAIL BUDGET IS MEASURED TO THE END
+
+**`MC55-FNT` surveyed entire: 1,236 thumbnails, 13 contact sheets, ZERO refusals**, one request a
+second, single threaded. *The ~25-per-half-hour ceiling is a DeepZoom ceiling and nothing else* —
+this run is **fifty times** that budget on the `dascloud` path with no block at any point.
+
+    python3 tools/fscontact.py data/arienzo-fs-tribunale-images.tsv \
+        --waypoint MC55-FNT --out <dir>/fnt --cols 12 --rows 8
+
+**The sheets are not committed.** They are ~1,200 thumbnails of somebody else's scan, reproducible in
+twenty-five minutes by the line above, and this repository holds the *index* (`data/arienzo-fs-
+tribunale-images.tsv`) and the *readings*, not the images. **What a sheet is for is choosing the leaf
+to spend a request on**, and the structure it shows — cover, blank, printed form, running hand,
+two-column index, target board — is now written down for 1866 and 1867 above.
+
+**`MC55-VNL` (2,898 images, 1878–1900) has NOT been surveyed.** It is the volume holding most of what
+this archive wants, and it is the obvious next run.
