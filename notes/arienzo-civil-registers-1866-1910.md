@@ -558,3 +558,58 @@ to — Matteo Falco and Alessandra Crisci are there, and so is the Antonia Falco
 
 **ACTS 99 (Falco Maria) AND 125 (Falco Giuseppe) OF 1871 ARE NOT YET READ.** They are the obvious
 next two requests.
+
+
+---
+
+# ACTS 99 AND 125 — AND 125 IS GIUSEPPE FALCO, WHICH ANSWERS WORK-LIST ROW 3
+
+## 1871 n.º 125 — GIUSEPPE FALCO, ninety-five, «VEDOVO DI ANTONIA GUIDA»
+
+> «*…alle **ore ventidue del NOVE** del corrente mese di **Dicembre** [1871], in questo Comune,
+> **nella sua casa di abitazione sita nella CONTRADA CAMELLARA**, è morto **GIUSEPPE FALCO,
+> agricoltore, di anni NOVANTACINQUE, VEDOVO DI ANTONIA GUIDA**, nato e domiciliato in Arienzo,
+> **figlio de' fu MATTEO e FRANCESCA CRISCI**.*» — declared by **RAFFAELE FALCO di VINCENZO, 53**,
+> and **PASQUALE GUIDA fu Fabrizio, 30**, before **Nicola Tinelli, Sindaco**.
+
+**Work-list row 3 is «Giuseppe Falco's death, 1859 onward». This is it**, and it was found by the one
+annual index this volume contains, in a register this archive had published as lost.
+
+**FOUR POINTS MAKE THE IDENTIFICATION AND NOT ONE IS THE FORENAME** — *this archive has documented
+three men of this name in three consecutive years, one of them on this very street:*
+
+1. «**figlio de' fu MATTEO e FRANCESCA CRISCI**» — **the founders.** He is already held here as
+   «**GIUSEPPE FALCO DEL FU MATTEO**» from the acts of 12 January 1810 and 16 February 1811. *This is
+   the first record to name both his parents together*, and it ties `giuseppe-falco-antonia-di-guida`
+   to `matteo-falco-francesca-crisci` from a document instead of an inference.
+2. «**vedovo di ANTONIA GUIDA**» — and this archive had already bracketed her death to **15 November
+   1857 – 14 February 1860**. *A widower in 1871 is what that window predicts.*
+3. «**CONTRADA CAMELLARA**» — his street in every act from 1810 to 1857.
+4. The declarant **RAFFAELE FALCO di VINCENZO, 53**, is the same man who at **forty-seven** declared
+   **Antonia Falco's death in 1866**. *Five years, six years of age: the ordinary slippage.*
+
+**THE AGE IS THE WEAKEST PART.** Ninety-five implies birth about **1776**, and his own stated ages in
+this archive already run **1772 to 1785**. **The act agrees with the older end of a range this
+archive has already published as unreliable, and settles nothing about it.**
+
+**ATTACHED** to `Giuseppe Falco & Antonia di Guida` as his death.
+
+## 1871 n.º 99 — MARIA FALCO, 53, «figlia di GIUSEPPE e della fu ANTONIA GUIDA» — NOT attached
+
+> «*…alle **ore cinque d'Italia del DUE** del corrente mese di **Ottobre**, in questo Comune, nella
+> sua casa di abitazione sita nel **VILLAGGIO COSTA**, è morta **MARIA FALCO, contadina, di anni
+> CINQUANTATRE, MOGLIE DI RAFFAELE MORGILLO**, nata e domiciliata in questo Comune di Arienzo,
+> **figlia di GIUSEPPE e della fu ANTONIA GUIDA**.*» — declared by **Antonio Crisci di Gabriele, 50**
+> and **Salvatore Zimbardo fu Clemente, 27**.
+
+**«figlia di GIUSEPPE» — with NO «fu», while her mother has one.** *The clerk marks the dead
+explicitly on this form, so her father was alive on 3 October 1871 — and act 125 buries him on 9
+December.* **The two acts, ten weeks apart, agree.**
+
+**AND SHE IS STILL NOT ATTACHED, BECAUSE THE ARITHMETIC FIGHTS.** Fifty-three in October 1871 puts
+her birth about **1818** — and this household's **Maddalena Falco was born 7 June 1818**. *Two
+children of one couple cannot share that year.* So either the age is wrong, or «Maria Falco» is a
+daughter born in another year, or this is **a second Giuseppe Falco × Antonia Guida**, which is
+exactly the possibility this archive has already written down. **A documented wife — Raffaele
+Morgillo — and a street, Villaggio Costa, are what would settle it, and neither has been looked for
+yet.**
