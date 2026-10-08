@@ -680,3 +680,48 @@ opened.**
 *Antenati's nominative index does not help: `/search-nominative/?cognome=Falco&localita=Arienzo` for
 these years returns «**Nessun risultato trovato**» — that series is not indexed by name.* **It must be
 swept.**
+
+
+---
+
+# THE BIRTHS BOOKS, READ — three of the nine children now have their birth acts
+
+**The nine children of Matteo Falco and Alessandra Crisci were born 1837–1851, so their births are
+ANTENATI's, not FamilySearch's.** Five of those years had never been opened: **1839, 1841, 1842,
+1843, 1851**. The method: `tools/antenati.py sweep` over the whole volume at **two bands**, because
+`register-layout-proof.md` proves that from 1820 a single act spans an opening — **the right page
+carries the declarant, the left page of the NEXT image carries the mother.**
+
+| child | act | born | father's stated age | mother's stated age |
+|---|---|---|---|---|
+| **FILOMENA FALCO** | **1839 n.º 74** | **20 June 1839**, 9 a.m., strada Camellara | Matteo Falco, **30** | Alessandra Crisci, **28** |
+| **VINCENZA FALCO** | **1842 n.º 46** | **18 May 1842**, 2 a.m., strada Camellara | Matteo Falco, **28** | Alessandra Crisci, **32** |
+| **ANTONIA FALCO** | **1851 n.º 135** | **15 December 1851**, strada Camellara | Matteo Falco, **40**, *colono* | Alessandra Crisci, **36** |
+
+*Each child's own name comes from the **Indicazione** column — the parish of Sant'Andrea's return of
+the baptism, written on the same leaf — because the body of the act never names the child.*
+
+## 1841 IS A COMPLETE DOUBLE-BANDED NIL, AND IT BREAKS THE TREE
+
+**The whole of 1841 was read at BOTH bands — every declarant and every mother, images 2 to 117 — and
+there is no Falco declarant and no Alessandra Crisci anywhere in it.** The family tree puts **two**
+children in 1841: Angela Rosa and Giuseppe. *They are not there.*
+
+**So the tree's years are not reliable** — which also means **the five years chosen from the tree are
+not the right five.** The honest frame is the one the acts give: the couple married **24 January
+1834**, and three children are now dated **1839, 1842, 1851**. **The complete answer needs 1835–1852
+swept, not the tree's guesses.**
+
+## AND MATTEO FALCO'S AGE IS NOW DEMONSTRABLY UNUSABLE
+
+**Thirty in 1839, twenty-eight in 1842, forty in 1851** — he grows *younger* by two years across
+three, then by twelve across nine. Alessandra Crisci runs 28 · 32 · 36, four years per three.
+*Neither can date a birth.* **The 1851 act is the only one that gives his trade as «colono»; the other
+two say «contadino».**
+
+## A METHOD TRAP, CORRECTED HERE
+
+The big numeral on each left page is the **FOGLIO**, not the act number — it advances by **two** per
+opening, so a contact sheet of left pages appears to show twice as many acts as the year has. *The
+act number is printed inside the act as «N. d'ordine».* **Vincenza's tail carries folio 92 and her act
+is number 46.** A sweep that read folios as act numbers would double every count it reported.
