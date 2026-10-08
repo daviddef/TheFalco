@@ -37,10 +37,11 @@
  {
   "g": "Civil registration",
   "t": "Italy, Caserta, Santa Maria Capua Vetere, Civil Registration (Tribunale), 1866–1929",
-  "d": "The tribunal copies — births, marriages, deaths, banns, and the marriage supplements that quote earlier records.",
+  "d": "**The tribunal copies of ARIENZO'S OWN CIVIL REGISTERS, 1866–1910** — births, marriages, deaths, banns and citizenships — **and** the marriage supplements (allegati) that quote earlier records. Five Arienzo volumes, **9,884 images**, of which **5,471 are the registers**: `MC55-FNT` 1866–1877, `MC55-VNL` 1878–1900, `MC55-RM9` 1901–1910.",
   "id": "2043630",
-  "use": "Seventeen of the twenty-six citations carried over from the family tree.",
-  "url": "https://www.familysearch.org/search/collection/2043630"
+  "use": "**Until 8 October 2026 this archive used only the allegati, and published that Arienzo's registers of 1866–1890 were lost.** They are here. Seventeen of the twenty-six citations carried over from the family tree came from the supplements; the registers themselves are now work-list row 102.",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "note": "The full-text search reaches the ALLEGATI only — a recogniser has processed those and not the register volumes — so the registers are invisible to a search and must be reached through the BROWSE tree. See the correction of 8 October 2026."
  },
  {
   "g": "Civil registration",
@@ -208,5 +209,14 @@
   "id": "discovery.nationalarchives.gov.uk",
   "use": "CLOSED, with one exception. Seven of the eight surnames return zero; Falco returns 86 and every one is a British soldier, a merchant seaman registered at a UK port, a naturalised Italian resident in Britain, or unrelated. This family has no British generation. The exception is WO 32/22147 — a 1945 Special Investigation Branch file about a killing AT ARIENZO — which is about the town, not the family, and is not digitised.",
   "url": "https://discovery.nationalarchives.gov.uk/"
+ },
+ {
+  "g": "Catalogue and holdings",
+  "t": "FamilySearch records waypoint API",
+  "d": "**The browse tree as data, and it needs no sign-in.** `platform/records/collections/<CC>/waypoints` lists a collection's volumes; `platform/records/waypoints/<WP>?cc=<CC>` returns up to 1,000 image arks a page with `links.next` for the rest, plus the DeepZoom template. **No cookie, no token, no browser**, and not behind the security service that answers `www.familysearch.org/service/*` with 403.",
+  "id": "api.familysearch.org",
+  "use": "**It is how Arienzo's 1866–1910 civil registers were found** — `data/arienzo-fs-tribunale-images.tsv`, 9,884 arks — after three weeks of reaching their acts through certified copies quoted in other people's marriage dossiers. **A full-text search is not a holdings list; this is.** `tools/fswaypoint.py` walks it at one request a second.",
+  "url": "https://api.familysearch.org/platform/records/collections/2043630/waypoints",
+  "note": "Record Atlas harvested this same endpoint across 3,504 collections on 22 September 2026, so `../Record Atlas/data/fs-waypoints.json` already holds 3.1 million volumes — **check there first; it costs no request at all.**"
  }
 ]
