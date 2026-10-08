@@ -57,12 +57,20 @@ def _years(prefix_base, lo, hi):
 FACTS = {
     "processetti bundles read":
         (lambda: len(_tagged("Processetti")),
-         "counted off the coverage page, where a bundle is recorded when it is read"),
+         "counted off the coverage page, where a bundle is recorded when it is read. "
+         "A BUNDLE IS A DOSSIER VOLUME WALKED IMAGE BY IMAGE — not any work touching the "
+         "processetti. On 8 October 2026 three FamilySearch rows were tagged `Processetti` "
+         "because they searched a processetti collection, and this number went from 4 to 7 "
+         "without a single extra bundle having been opened. Tag the row for what was DONE to it"),
     "families on the families page":
         (lambda: len(fams), "counted from families.json"),
     "Arienzo death registers with a coverage row":
         (lambda: len(_years(12502, 1809, 1865)),
-         "counted by ark from the coverage page; the 1844-1858 range row covers fifteen more"),
+         "counted by ark from the coverage page; the 1844-1858 range row covers fifteen more. "
+         "ANTENATI ONLY, and deliberately: this counts an_ua arks for 1809-1865, so FamilySearch's "
+         "Arienzo death registers of 1866-1910 — found 8 October 2026, waypoints MC55-FNT and "
+         "MC55-VNL — are not in it and must never be added to it. A number that silently spanned "
+         "two shelves would be the kind of claim this gate exists to refuse"),
 }
 
 # ------------------------------------------------------------- the claims
