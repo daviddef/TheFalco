@@ -1,5 +1,22 @@
 # Arienzo's missing years, 1866–1890 — reached through the marriage supplements
 
+> # THE PREMISE OF THIS NOTE IS WRONG, AND IT IS LEFT STANDING SO THE ERROR IS VISIBLE
+>
+> **8 October 2026.** Everything below rests on «**the registers of 1866–1890 are lost**». *They are
+> not.* FamilySearch collection 2043630 — **the collection this note is about** — holds five Arienzo
+> volumes, and two of them are «**Nati, matrimoni, morti 1866-1876**» and «**Nati, matrimoni, morti,
+> pubblicazioni 1878-1900**», 4,134 images between them. The film's target board says «*LOCALITY OF
+> RECORD — ARIENZO, CASERTA … ANNI (1866 A 1910)*» and the third image is the first book's cover,
+> labelled by the clerk «*1866 — Arienzo — Pubblicazioni di Matrimoni*».
+>
+> **The route this note takes is the long way round.** It is not wrong — a certified copy made by the
+> office that held the original is a good witness, and the fifty-two acts it recovered are still
+> fifty-two acts. **But the register gives every act of every year, in order, with the index**, and
+> that is where rows 39, 40 and 69 go next.
+>
+> **Why it was missed is the part worth keeping: a full-text search is not a holdings list.** See
+> [`arienzo-civil-registers-1866-1910.md`](arienzo-civil-registers-1866-1910.md).
+
 **Worklist row 62, 16 September 2026.** Read this before spending another pass looking for
 Arienzo's post-Unification registers as *registers*.
 
