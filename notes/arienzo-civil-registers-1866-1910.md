@@ -502,3 +502,59 @@ leaves** across the volume — at one request a leaf it is an afternoon, not a r
 
 *The index was never the point; it was the shortcut. The shortcut is not there for births, and
 saying so is worth more than another week of looking for it.*
+
+
+---
+
+# THE ONE INDEX THAT EXISTS PAYS: TWO FALCO DEATHS OF 1871, READ AND CORROBORATED
+
+The 1871 deaths index (images 661–662) lists **four Falco**: **Raffaele 68 · Fabrizio 69 · Maria 99 ·
+Giuseppe 125**. *Index lines are finding aids, so each was taken to its act.* **Acts 68 and 69 sit on
+one leaf, image 680**, and their margins read «*Atto di morte di **Raffaele Falco***» and «*Atto di
+morte di **Fabrizio Falco***» — **the index is corroborated by the register itself.**
+
+### 1871 n.º 68 — RAFFAELE FALCO, aged one
+
+> «*L'anno milleottocentosettantuno, nel giorno **nove** del mese di **Agosto**, nella casa Comunale,
+> alle ore dieci d'Italia. Dinanzi a me **NICOLA TINELLI, SINDACO** di questo Comune di Arienzo,
+> Circondario di Caserta, Provincia di Terra di Lavoro, Ufficiale dello Stato Civile; sono comparsi
+> **PASQUALE CARFORA di Aniello, di anni quarantotto**, ed **ANTONIO DIGLIO fu Bartolomeo, di anni
+> cinquanta** … che alle **ore ventuno dell'otto** del corrente mese di Agosto, in questo Comune,
+> **nella casa di PASQUALE FALCO, sita nella CONTRADA CAMELLARA**, è morto **RAFFAELE FALCO,
+> contadino, di anno UNO**, nato e domiciliato in Arienzo, **figlio di PASQUALE e di MARIA MARIA
+> GUIDA, contadini**, domiciliati in Arienzo.*»
+
+### 1871 n.º 69 — FABRIZIO FALCO, seven months old
+
+> «*…sono comparsi **MARCANTONIO CRISCI fu Giuseppe, calzolaio, di anni cinquantasette**, e
+> **FRANCESCO FERRIELLO fu Pietro Ferraro, di anni cinquantadue** … che alle **ore dieci d'Italia di
+> oggi** [9 August 1871], in questo Comune, **nella casa di ANTONIO FALCO, sita nella CONTRADA
+> CAMELLARA**, è morto **FABRIZIO FALCO, contadino, DI MESI SETTE**, nato e domiciliato in questo
+> Comune di Arienzo, **figlio di ANTONIO e di CARMELA GUIDA, contadini**, domiciliati in Arienzo.*»
+
+## AND BOTH LAND ON PEOPLE THIS ARCHIVE ALREADY HOLDS — with the arithmetic agreeing
+
+`tools/isitnew.py` was run **before** anything was written down, and it hit both times:
+
+- **Raffaele Falco, b. 15 August 1870**, «*His father **Pasquale Antonio Falco**, his mother **Maria
+  Amelia / Amalia Guida***» — *held from the family tree, which is «unverified unless a record is
+  cited».* **The act is the record**: father Pasquale, mother Maria … Guida, Contrada Camellara, and
+  «di anno uno» for a child three weeks short of his first birthday.
+- **Fabrizio Falco, b. 22 December 1870**, «*His father **Antonio Falco**, his mother **(Maria)
+  Carmela di Guida***» — again tree-only, **and with NO DEATH DATE AT ALL.** The act gives it: **9
+  August 1871**, and «**di mesi sette**» against a birth of 22 December 1870 is **seven and a half
+  months.** *The age and the birth were written by different hands a year apart and they agree.*
+
+**TWO INFANT DEATHS ON CONSECUTIVE DAYS IN THE SAME CONTRADA, FROM TWO DIFFERENT FALCO HOUSEHOLDS,
+AND BOTH FATHERS MARRIED A GUIDA.** *Contrada Camellara is the street this archive keeps returning
+to — Matteo Falco and Alessandra Crisci are there, and so is the Antonia Falco of 1866.*
+
+> **NOT YET ATTACHED, AND DELIBERATELY.** Placing these two would mean **creating two households that
+> this archive has never held as households** — Pasquale Antonio Falco × Maria Amalia Guida, and
+> Antonio Falco × Carmela Guida — both of which exist here only as lines in `notes/QUEUE.md` and the
+> tree. *That is a structural decision about the shape of the archive, not a reading, and it is left
+> for a deliberate pass rather than taken at the end of a long one.* **The readings are complete and
+> the evidence is here when it is made.**
+
+**ACTS 99 (Falco Maria) AND 125 (Falco Giuseppe) OF 1871 ARE NOT YET READ.** They are the obvious
+next two requests.
