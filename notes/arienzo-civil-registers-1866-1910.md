@@ -613,3 +613,43 @@ daughter born in another year, or this is **a second Giuseppe Falco × Antonia G
 exactly the possibility this archive has already written down. **A documented wife — Raffaele
 Morgillo — and a street, Villaggio Costa, are what would settle it, and neither has been looked for
 yet.**
+
+
+---
+
+# `MC55-VNL` TOO: NO BIRTH INDEX, AND THE BIRTHS BOOKS END IN «PARTE II»
+
+**The survey of `MC55-VNL` (2,898 images) is running; its first 651 were enough to settle the index
+question for a second volume and a second decade.** Covers found the same way — near-black thumbnails
+— and the leaf after each read whole.
+
+| image | book |
+|---:|---|
+| 11 | **ANNO 1877 · ATTI DI MORTE · PARTE I** — *the volume opens where `MC55-FNT` stopped* |
+| 47 · **64** · 115 · 118 | 1878: Matrimonio · **NASCITA** · Cittadinanza · Morte |
+| 159 · **179** · 243 | 1879: Matrimonio · **NASCITA** · Morte |
+| 282 · **304** · 350 | 1880: Matrimonio · **NASCITA** · Cittadinanza |
+
+**AND EVERY BIRTHS BOOK ENDS THE SAME WAY.** The 1878 births run to image 110, and **111 is
+«PARTE II · ANNO 1878 · REGISTRO DEGLI ATTI DI NASCITA»** — a second register, not an index — with
+its acts on 112 and its closing on 113. The 1880 births do exactly the same at **347–348**.
+
+## THE NEGATIVE, STATED ONCE AND PROPERLY
+
+**Seven year-books checked across two volumes and three decades — 1866, 1870, 1875, 1876, 1877 in
+`MC55-FNT`, 1878 and 1880 in `MC55-VNL` — and NOT ONE BIRTHS BOOK CARRIES AN ANNUAL INDEX.** They end
+in the officer's closing certificate or in a **Parte II** register.
+
+**The 1871 forms are the proof of intent**: `MC55-FNT` images 661–664 are four «*Modulo dell'Indice
+annuale*» sheets bound in together, **only the deaths one filled**, the others ruled, headed and
+blank. *Arienzo's clerks indexed their deaths and did not index their births.*
+
+> **SO «READ THE BIRTH INDEXES» HAS NO OBJECT, AND THAT IS THE ANSWER RATHER THAN A FAILURE.** The
+> births must be read as books. **What the survey gives instead is every birth book's exact image
+> range**, which is the next best thing and did not exist this morning.
+
+**AND «PARTE II» IS THE TRAP WORTH CARRYING AWAY.** From 1875 each year's births are in **two**
+registers — Parte I for ordinary declarations, Parte II for acts received from elsewhere, late
+registrations and transcriptions. *A sweep of Parte I alone reads a year and misses a category of
+birth entirely*, and Parte II is where a child born away from Arienzo would be. **It is short — two
+or three leaves a year — and it must never be skipped.**
