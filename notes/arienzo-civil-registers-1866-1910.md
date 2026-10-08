@@ -762,3 +762,44 @@ for a different woman and found only one Falco birth, which was not hers.
 > couple married **24 January 1834**, and their documented children fall **1839 · 1842 · 1846 · 1851**
 > — *roughly one every three years.* **The gaps that must still be read are 1835–1838, 1840, 1844,
 > 1845, 1847–1850 and 1852**, which is about twelve volumes and a known job, not a guess.
+
+
+---
+
+# MARIA FALCO IS 1844, NOT 1843 — and 1840 is a third nil
+
+**Arienzo birth act 37 of 1844**, found at the mother band and read from the image:
+
+> «*…**è comparso MATTEO FALCO, di anni TRENTATRE, di professione COLONO, domiciliato in STRADA
+> CAMELLARA**, quale ci ha presentato una **FEMINA***» · tail: «*…**è nata da ALESSANDRA CRISCI sua
+> moglie legittima, di anni TRENTATRE** … **nel giorno QUINDICI del mese di AGOSTO anno corrente, alle
+> ore DUE, nella casa sua propria d'abitazione***» · *Indicazione*: «*il Sacramento del Battesimo è
+> stato amministrato a **MARIA FALCO***».
+
+**Born 15 August 1844.** *The family tree says 1843 — and 1843 was read in full at the mother band,
+images 2 to 122, and Alessandra Crisci is not in it.* **Four of the nine children now have a birth
+act.**
+
+**1840 IS A NIL**, images 2–128 at the mother band. *The tree's Giuseppe is «about 1841» from his own
+1887 act; 1840 and 1841 are both now empty, so he was born somewhere else or in another year.*
+
+## THE TAVOLE ARE TRUNCATED BY THE FILMER, AND A CARD SAYS SO
+
+**1840 ends with a «Tavola annuale alfabetica di nati»** — and it is the best instrument in these
+volumes when it is whole: **«Numero d'Ordine · Cognomi e Nomi di Nati · Cognomi e Nomi di GENITORI ·
+Giorno della Nascita»**, alphabetical by the child's surname, *with both parents on the same line.*
+One leaf would answer a year that costs six contact sheets to sweep.
+
+**It stops at C**, exactly as this archive already recorded of 1832 and 1837 — *«Crisci Angelo
+Serafino» is the last entry.* **And lying across the page is the filmer's own card:**
+
+> «**THIS INDEX HAS BEEN MICROFILMED ALREADY**»
+
+**So the tavole are not truncated in the BOOK; they are truncated in the FILMING.** *The operator
+stopped because the rest had been shot elsewhere* — which is what Arienzo's separate «**Morti,
+indice**» volumes (`an_ua14305` ff.) are, and it means **a «Nati, indice» series may exist on
+Antenati and has never been looked for.** *That would replace the whole sweep.*
+
+**NOT ESTABLISHED, AND NOT RECORDED AS ABSENT:** `tools/antenati_holdings.py Arienzo` returned
+**403 — rate limited** on all six series. **A 403 is a refusal, not an answer**, and this archive does
+not publish negatives from one.

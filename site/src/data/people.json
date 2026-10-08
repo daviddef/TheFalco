@@ -8612,6 +8612,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "maria-falco-of-matteo-falco-alessandra-crisci",
+"name": "Maria Falco (b. 1844)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [],
@@ -16965,6 +16973,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "maria-falco-of-matteo-falco-alessandra-crisci",
+"name": "Maria Falco (b. 1844)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -19512,6 +19528,14 @@
 {
 "slug": "giuseppe-falco-of-matteo-falco-alessandra-crisci",
 "name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-matteo-falco-alessandra-crisci",
+"name": "Maria Falco (b. 1844)",
 "via": "register",
 "vias": [
 "register"
@@ -24179,6 +24203,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "maria-falco-of-matteo-falco-alessandra-crisci",
+"name": "Maria Falco (b. 1844)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "mergedOn": "both parents and an exact birth or death date — the name was never used, and this archive holds more than one person of it",
@@ -25229,6 +25261,14 @@
 {
 "slug": "giuseppe-falco-of-matteo-falco-alessandra-crisci",
 "name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-matteo-falco-alessandra-crisci",
+"name": "Maria Falco (b. 1844)",
 "via": "register",
 "vias": [
 "register"
@@ -29743,6 +29783,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "maria-falco-of-matteo-falco-alessandra-crisci",
+"name": "Maria Falco (b. 1844)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -33496,6 +33544,101 @@
 }
 },
 {
+"slug": "maria-falco-of-matteo-falco-alessandra-crisci",
+"name": "Maria Falco (b. 1844)",
+"surname": "FALCO",
+"household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "15 Aug 1844",
+"place": "Arienzo, strada Camellara",
+"evidence": "**HER BIRTH — the fourth of the nine children to get one, AND IT MOVES HER YEAR.** Read from the image on 8 October 2026.\n\n«*ATTO DI NASCITA — **Numero d'ordine TRENTASETTE**. L'anno mille ottocento **quarantaquattro**, il dì **SEDICI** del mese di **AGOSTO**, ad ore quattordici, avanti di noi … ed Uffiziale dello Stato Civile del comune di **Arienzo**, distretto di **Caserta**, provincia di **Terra di Lavoro**, **è comparso MATTEO FALCO, di anni TRENTATRE, di professione COLONO, domiciliato in STRADA CAMELLARA**, quale ci ha presentato una **FEMINA***» — and the tail: «*…la stessa **è nata da ALESSANDRA CRISCI sua moglie legittima, di anni TRENTATRE**, domiciliata collo stesso … **nel giorno QUINDICI del mese di AGOSTO anno corrente, alle ore DUE, nella casa sua propria d'abitazione***».\n\nThe *Indicazione* column: «*il Sacramento del Battesimo è stato amministrato a **MARIA FALCO** nel giorno **sedici** detto mese*», **Sant'Andrea**.\n\n**BORN 15 AUGUST 1844 — the family tree says 1843, and it is wrong by a year.** *The 1843 register was read in full at the mother band, images 2 to 122, and Alessandra Crisci is not in it. She is here.*\n\n> **AND THE AGES GO ON DISAGREEING.** Matteo Falco is **thirty-three** here and Alessandra Crisci is **thirty-three** too — yet in 1842 he was twenty-eight and she thirty-two, and in 1851 he is forty and she thirty-six. *He gains five years in two and she gains one.* **Only the acts' own dates are worth anything in this household.** [[ages-are-guessed]]",
+"ark": "Antenati an_ua14441 — images 42-43, Arienzo births 1844, act 37 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "alessandra-crisci",
+"name": "Alessandra Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
+"name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "domenica-falco",
+"name": "Domenica Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-falco-of-matteo-falco-alessandra-crisci",
+"name": "Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "filomena-falco",
+"name": "Filomena Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenza-falco-of-matteo-falco-alessandra-crisci",
+"name": "Vincenza Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-matteo-falco-alessandra-crisci",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonia-falco-d-1866",
+"name": "Antonia Falco (d. 1866)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "15 Aug 1844",
+"dateFrom": {
+"b": "act"
+}
+},
+{
 "slug": "maria-falco-of-michele-falco-maria-giovanna-ambro",
 "name": "Maria Falco",
 "surname": "FALCO",
@@ -35366,6 +35509,14 @@
 {
 "slug": "giuseppe-falco-of-matteo-falco-alessandra-crisci",
 "name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-matteo-falco-alessandra-crisci",
+"name": "Maria Falco (b. 1844)",
 "via": "register",
 "vias": [
 "register"
@@ -42121,6 +42272,14 @@
 {
 "slug": "antonia-falco-d-1866",
 "name": "Antonia Falco (d. 1866)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-matteo-falco-alessandra-crisci",
+"name": "Maria Falco (b. 1844)",
 "via": "register",
 "vias": [
 "register"
