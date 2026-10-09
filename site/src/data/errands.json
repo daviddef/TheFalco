@@ -1,0 +1,68 @@
+{
+  "note": "Almost everything on this site was read from Italy's online registers, through a screen. These are the places that stops. Each ask below is something an archive, a museum or a library holds and does not put online, so it needs an order, a letter or a visit, not a search. They come from this archive's own questions and work list, where each is marked blocked or not attempted. None is recorded as sent, and none as answered.",
+  "doors": [
+    {
+      "where": "Archivio di Stato di Benevento",
+      "why": "Forchia and Arpaia are in Benevento province, a different tribunale from the Caserta registers this archive has read. Two annual birth volumes are not digitised, and the military record of one man born in 1895 is held there.",
+      "asks": [
+        {
+          "what": "Forchia births, 1897: the act of Filomena Annecchino, born 10 April 1897",
+          "ref": "Not on Antenati: its Forchia births run 1895, 1896, 1898, 1899 with no 1897 in any fondo or either archive. FamilySearch: Benevento Civil Registration (State Archive) 1810-1942, collection 2475030",
+          "why": "Without it the descent from Carmine Annecchino and Maria Carfora is reconstructed, not documented. FamilySearch's index covers Forchia in 1897 (about thirty records a year) and yet returns no child of 1897 for Carmine and Maria, and no Filomena born between 1895 and 1899. Her Queensland death registration, 1988/6856, gives the birth year 1897 and her father as Carmine, so the birth is not in doubt. The act is missing or misfiled.",
+          "ask": "The Forchia births volume for 1897, ordered or read at the archive, and the act of 10 April 1897.",
+          "state": "unwritten",
+          "stateLabel": "Not written",
+          "links": []
+        },
+        {
+          "what": "Arpaia births, 1895: the act of Angelo Zampiello's birth",
+          "ref": "Not digitised: the shelf-marks run consecutively and skip 1895, confirmed from Antenati's own holdings list",
+          "why": "His birth date is corroborated by his memorial card, but the act itself is unread.",
+          "ask": "The Arpaia births volume for 1895, ordered or read at the archive, and his act.",
+          "state": "unwritten",
+          "stateLabel": "Not written",
+          "links": []
+        },
+        {
+          "what": "Angelo Zampiello's foglio matricolare, his military record",
+          "ref": "Archivio di Stato di Benevento",
+          "why": "The family's own papers hold the Croce al Merito di Guerra conferred on him for operations in East Africa from 3 October 1935. The family's account is that it was for saving many lives. A merit cross is given for service in a theatre, and gallantry would ordinarily carry a Medaglia al Valor Militare, so the account is not yet settled. The record would also give the First World War service of a man born in 1895, which is entirely untraced.",
+          "ask": "His foglio matricolare.",
+          "state": "unwritten",
+          "stateLabel": "Not written",
+          "links": []
+        }
+      ]
+    },
+    {
+      "where": "The Museo Alfonsiano and the parish of Sant'Andrea, Arienzo",
+      "why": "The museum stands in the old bishop's palace beside Sant'Andrea, the church this family was baptised in for two centuries.",
+      "asks": [
+        {
+          "what": "Whether either holds, or knows of, parish material that was never filmed",
+          "ref": "Open questions: The Museo Alfonsiano, Arienzo; The Arienzo parish baptism register, liber IX",
+          "why": "The Arienzo baptism register cited in the 1814 marriage dossier (liber IX, folios 47v and 94v) is still listed as an open question. FamilySearch's full-text search has since returned Arienzo baptism images from the 1760s onward, so what the parish could add beyond the film is not yet known.",
+          "ask": "A letter, or a visit.",
+          "state": "unattempted",
+          "stateLabel": "Not attempted",
+          "links": []
+        }
+      ]
+    },
+    {
+      "where": "A FamilySearch centre or an affiliate library",
+      "why": "Several Caserta record images return \"This record can only be displayed on certain accounts\". The index and the machine transcriptions are open; the scans are not. A centre or an affiliate library unlocks them.",
+      "asks": [
+        {
+          "what": "Read the restricted Caserta scans in person",
+          "ref": "Which images is not itemised on the work list",
+          "why": "Almost everything on this site rests on the open index and transcriptions. The scans would let a reader check them against the page.",
+          "ask": "A visit to a centre or an affiliate library.",
+          "state": "visit",
+          "stateLabel": "Needs a visit",
+          "links": []
+        }
+      ]
+    }
+  ]
+}

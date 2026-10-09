@@ -1,0 +1,58 @@
+---
+/* What this archive has asked of other people, and what it still needs to ask.
+ *
+ * Written 9 October 2026 because Falco was one of three archives with no Errands
+ * page, and its asks already existed in two places a reader could not see:
+ * /open-questions/ rows marked blocked, and work-list rows 20 and 21. They are
+ * gathered here, grouped by DOOR the way Booyzen groups, because each ends at one
+ * institution (or one library) that holds a record and does not publish it.
+ *
+ * STATES ARE ONLY WHAT THE RECORD SUPPORTS. Nothing is recorded as sent or
+ * answered: «Not written», «Not attempted» (the questions page's own word for the
+ * museum) and «Needs a visit». A page that implied a wait that had not begun
+ * would misreport the archive's effort.
+ *
+ * Left out on purpose: row 102 (read the 1866-1900 Arienzo registers) is this
+ * archive's own work behind a sign-in, not an ask of anyone; and the Arienzo
+ * baptism register (liber IX) is no longer a plain «ask the parish», since the
+ * 27 September full-text sweep returned Arienzo baptism images from the 1760s.
+ *
+ * Rendered by the kit's Errands component; the data is errands.json.
+ */
+import Base from "../layouts/Base.astro";
+import Errands from "@daviddef/archive-kit/components/Errands.astro";
+import { u } from "../lib/url.js";
+import er from "../data/errands.json";
+
+/* The component runs every link through the base-path helper, which is right for
+   /sources/ and wrong for an absolute URL. An absolute URL is left alone. */
+const link = (p) => (/^https?:\/\//.test(p) ? p : u(p));
+const COLOUR = { unwritten: "#7A7A7A", unattempted: "#7A7A7A", visit: "#1E5F8C" };
+const groups = er.doors.map((d) => ({
+  label: d.where,
+  note: d.why,
+  rows: d.asks.map((a) => ({
+    what: a.what, ref: a.ref, why: a.why, ask: a.ask, draft: a.draft,
+    stateLabel: a.stateLabel, colour: COLOUR[a.state], links: a.links,
+  })),
+}));
+const asks = groups.reduce((n, g) => n + g.rows.length, 0);
+---
+<Base title="Errands"
+      eyebrow={`${groups.length} doors · ${asks} asks · none recorded as sent`}
+      dek="What this archive cannot get by searching: records an archive, a museum or a library holds and does not put online. Each needs an order, a letter or a visit, and this page says what for.">
+
+  <p class="lede">{er.note}</p>
+
+  <p>If you are near any of these places, or can write Italian to one of them, the references below are
+    the ones this archive has checked. <a href={u("/sources/")}>Sources &rarr;</a> ·
+    <a href={u("/open-questions/")}>Open questions &rarr;</a> · <a href={u("/worklist/")}>The work list &rarr;</a></p>
+
+  {groups.map((g) => (
+    <section>
+      <h2>{g.label}</h2>
+      <p class="note">{g.note}</p>
+      <div style="margin-top:1rem"><Errands groups={[{ rows: g.rows }]} u={link} html={false} /></div>
+    </section>
+  ))}
+</Base>
