@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4322",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run check:pin && npm run atlas && npm run publish:index && astro build && npm run check && npm run sitemap && npm run check:living && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:households && npm run check:corrections && npm run check:prose && npm run check:evidence && npm run check:sources && npm run check:pages && npm run check:inline && npm run check:rows",
+    "build": "npm run check:pin && npm run atlas && npm run publish:index && astro build && npm run check && npm run sitemap && npm run check:living && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:households && npm run check:corrections && npm run check:prose && npm run check:evidence && npm run check:sources && npm run check:pages && npm run check:inline && npm run check:rows && npm run check:nav",
     "preview": "astro preview --port 4322",
     "check": "python3 ../tools/check_release.py",
     "build:nocheck": "astro build",
@@ -22,6 +22,7 @@
     "check:sources": "python3 node_modules/@daviddef/archive-kit/kit/tools/checksources.py --root . --max-unreachable 2",
     "check:pages": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpages.py --root . --estate ../.. --max-bespoke 4",
     "check:pin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpin.py --root .",
+    "check:nav": "python3 node_modules/@daviddef/archive-kit/kit/tools/checknav.py --dist dist --strict",
     "check:inline": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkinline.py --root . --max-inline 16",
     "check:rows": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkrows.py --root .",
     "check:prose": "python3 ../tools/check_prose.py",
@@ -29,7 +30,7 @@
     "check:kin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkkin.py --data src/data/people.json --born b --died d --max 1"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#8ec58e6e09b526011e41a50d56c5e2c1a97ead4c",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#3c9214e9be65c2136325f7e35bb0d2544ee14d19",
     "astro": "^5.18.2"
   },
   "devDependencies": {
