@@ -2028,5 +2028,18 @@
   "what": "Giuseppe Falco as a groom at Arienzo in 1875",
   "outcome": "blocked",
   "got": "**THE SESSION EXPIRED.** Every leaf came back as a 145-byte `{\"error\":\"Unauthorized\",\"message\":\"Unauthorized (anonymous session)\",\"status\":401}`. **That is a refusal and not an absence, and no nil is published for 1875.**\n\n**What was learned first is worth keeping: FROM 1875 ARIENZO SWITCHES TO THE PRINTED FORM** — «*ATTI DI MATRIMONIO · Numero due · **Verlazzo Carlo / Piscitelli Rosa***», 20 March 1875, with a printed header and a **numbered name box carrying both spouses**. *That is the format `tools/fsmargin.py` was written for, so 1875 onward should read faster than every year before it.*"
+ },
+ {
+  "when": "1866–1871",
+  "searchedOn": "2026-10-10",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo death registers",
+  "waypoint": "MC55-FNT",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-9976-QH3H?cc=2043630&wc=MC55-FNT",
+  "walked": false,
+  "src": "**WHERE MATTEO FALCO AND ALESSANDRA CRISCI DIED — the window, located but not yet read.**",
+  "what": "The deaths of Matteo Falco and Alessandra Crisci",
+  "outcome": "pending",
+  "got": "**THE WINDOW IS NOW SIX YEARS WIDE, AND IT WAS NOT KNOWN THIS MORNING.**\n\n**Both were dead by October 1871**, from two independent acts: their daughter **Vincenza's** marriage of 8 October 1871 and their daughter **Domenica's** of 10 October 1874 both read «*figlia **DE' FURONO** Matteo e Alessandra Crisci*» — the plural, in the clerk's own word.\n\n**And neither is in Antenati's Arienzo death series**, which `tools/isitread.py` reports **read act by act for FALCO across 1844–1865**, on top of the long 1816–1858 campaign.\n\n**So they died between 1866 and October 1871** — the six years after Antenati's Arienzo shelf ends and before their daughters' acts call them dead — **and those years are in `MC55-FNT`, the volume whose marriage books were read today.** The cover map in `data/fs-covers.tsv` already places **MORTE 1867 at images 236–275** and **MORTE 1868 at 341–381**; **1871's deaths have an annual index at image 661**.\n\n**A death act of this period gives the dead person's AGE, BIRTHPLACE and PARENTS** — for Matteo Falco the first document ever to name his own parents, for Alessandra Crisci the first of any kind after her last child in 1852.\n\n*Not read: the FamilySearch session expired at 22:31 on 9 October and every request since returns 401. **Nothing here is a negative.***"
  }
 ]
