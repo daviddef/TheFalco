@@ -1922,3 +1922,70 @@ looks nothing like the initial of the disputed word — **which is a plain n/N f
 case; that is published as plainly as a test that had.* **Tests 2 and 3 — Arienzo's marriages for
 Giuseppe Falco × Gelsomina Vigliotta, and Santa Maria a Vico's deaths for Giuseppe Falco himself —
 are still owed.**
+
+---
+
+# THE 1869 MARRIAGE INDEX — AND THE EXCLUSION THIS ARCHIVE PUBLISHED THIS MORNING IS WRONG
+
+**`MC5R-M2Q` image 517: «Indice Alfabetico dei Matrimoni dell'anno 1869», sixty-one entries, complete.**
+*Found from the cover map — cover 515, index 517 — after the book at 551 turned out to be a
+supplement of trascrizioni and 1869 had been written off as «not located».*
+
+**TWO FALCO IN IT:**
+
+> **9 — Crisci Pasquale con FALCO FRANCESCA — act 44**
+> **22 — FALCO GIUSEPPE con VERDICCHIO ORSOLA — act 25**
+
+## ENTRY 22 IS THE MARRIAGE OF THE HOUSEHOLD FOUND THIS AFTERNOON
+
+**Giuseppe Falco × Orsola Verdicchio**, of **Via Sant'Apollonia**, whose two-year-old son Antonio
+died in November 1874 — **they married at Santa Maria a Vico in 1869.**
+
+## AND THE REASON THEY WERE RULED OUT OF THIS LINE DOES NOT HOLD
+
+This archive published, hours earlier:
+
+> ~~«*Ours was married to Nicoletta Nuzzo and was fathering children by her at Arienzo through exactly
+> these years — **Filomena in 1872, Vincenza in 1874** — so he cannot also be the husband of Orsola
+> Verdicchio in the same two years.*»~~
+
+**FILOMENA AND VINCENZA ARE GIUSEPPE'S SISTERS.** Daughters of **Matteo Falco × Alessandra Crisci**,
+each appearing in this archive as the **MOTHER** in her own child's Arienzo birth act — *Crisci
+Arcangelo*, 11 August 1872, and *Morgillo Alessandra*, 8 May 1874. **The exclusion read two of his
+sisters as two of his daughters, in data written up the day before.**
+
+**The only dated evidence joining our Giuseppe to Nicoletta Nuzzo is 22 September 1887.** *Before
+that date this archive holds nothing whatever about his marriage.*
+
+### SO HE IS NOT EXCLUDED, AND THE ARITHMETIC IS COMFORTABLE
+
+**Giuseppe Falco, son of Matteo, was born about 1841. He would be TWENTY-EIGHT in 1869.** *If Orsola
+Verdicchio died in the later 1870s — and the household's only other trace is a dead child in 1874 —
+a second marriage to Nicoletta Nuzzo before 1887 is ordinary.*
+
+> **ACT 25 OF 1869 IS NOW THE MOST IMPORTANT UNREAD DOCUMENT IN THIS SEARCH.** It gives the groom's
+> **age**, his **birthplace** and his **parents**. *If it reads «figlio di Matteo e di Alessandra
+> Crisci, nato in Arienzo», three weeks of searching end there.*
+
+**The 1869 register is hand-written on lined paper with no printed Numero box**, so the margin sweep
+that reads the printed books cannot read it: images 518–549, roughly one and a third acts to an
+image, and the act number is written into the heading of each act rather than boxed. *It has to be
+read leaf by leaf, and that is the next job.*
+
+**Nothing is merged either way.** *The lesson is this archive's own and it was broken here: **a
+negative argued from dates is only as good as the dates**, and these were never checked against the
+household they came from.*
+
+## AND ENTRY 9 IS A CRISCI MARRYING A FALCO
+
+> «**Crisci Pasquale con FALCO FRANCESCA — act 44**»
+
+**Crisci is this line's own allied surname** — Alessandra Crisci married Matteo Falco; Antonio Crisci
+married Filomena Falco; Francesca Crisci is the founders' generation. *Act 44 of 1869 is unread and
+no kinship is claimed. It is written down so it is not found again from scratch.*
+
+## 1868 IS STILL NOT LOCATED
+
+*Image 239, the only remaining candidate from the cover map, is the **1867 deaths** index — «Cognome
+e Nome delle Morti», closed at S. Maria Capua Vetere on 2 November 1866. **Its F section is Froggiero
+×3, Fontanella ×2, Frana, Ferrara, Fantarella: no Falco**, which is a negative worth keeping.*
