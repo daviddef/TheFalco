@@ -1118,3 +1118,49 @@ Vico series, which stops at 1865.*
 3,013), both enumerated to disk and both unreadable: the session returned `401 Unauthorized —
 anonymous session` partway through the survey.** *David signs in; this archive never enters
 credentials.* **A 401 is a refusal and nothing here is recorded as a negative from it.**
+
+
+---
+
+# `MC5R-M2Q` READ — Santa Maria a Vico's marriages 1873–1877, and Giuseppe is in none of them
+
+**The session was signed in again on 9 October and the volume surveyed entire: 2,156 thumbnails, 23
+sheets, zero refusals.** *The 117 fetched before the 401 were cached and skipped — the ark list came
+from the open API and never needed the cookie.*
+
+## THE BOOK MAP, from 49 covers found by brightness and the leaf after each read whole
+
+| year | marriage material | how it was read |
+|---|---|---|
+| **1873** | **tavola, images 1061–1065** | B · C · D · **then L** — *no E, F or G section exists* |
+| **1874** | **tavola, image 1185 and 1272** | D · **F = «Folgieri Pio» alone** · G |
+| **1875** | **no tavola — acts 1377–1404** | **swept act by act at the margin box**, Parte I acts 1–47 **and Parte II** |
+| **1876** | **tavola, image 1569** | E · **F = «Francescopi Alessandro», «Fruggiero Vincenzo»** · G · L |
+| **1877** | **tavola, image 1748** | D · E · **then M** — *no F section exists* |
+
+**NOT ONE FALCO GROOM IN ANY OF THE FIVE YEARS.**
+
+## THE INSTRUMENT, AND IT IS THE BEST ONE YET
+
+**«Tavola alfabetica annuale de' MATRIMONI»**, bound at the FRONT of each year's marriage book,
+printed with the columns: **«COGNOMI E NOMI de' SPOSI · PATRIA · COGNOMI E NOMI de' GENITORI · GIORNO
+della celebrazione»**. *The couple, where the groom is FROM, and both sets of parents, on one line.*
+**One leaf answers a year.**
+
+**And where a year has no tavola — 1875 — the printed form still gives it away for almost nothing:**
+from 1866 each act carries a **NAME BOX down the outer margin** with «Numero N» and the two
+surnames. **A strip of the outer margins reads every couple in the book without opening a single
+act.** `fsmargin.py` does it; twenty-eight leaves became four strips.
+
+## WHAT IS STILL NOT COVERED, SAID PLAINLY
+
+- **1878's marriage book was not located in this volume.** Its deaths (1957–2007), its births index
+  (2012) and its Parte I title pages are mapped; the marriages are not.
+- **1866–1872 were not read at all.** *The window this archive is working to — Nicoletta Nuzzo born
+  1855 on the tree, so a wedding about 1873–1882 — does not reach them, but they are part of the
+  volume and they are unread.*
+- **1879–1882, the rest of the window, is `MC5R-Q23`** — 3,013 images, enumerated to disk, unsurveyed.
+
+*Santa Maria a Vico does take Arienzo grooms: the 1863 tavola has **Falco Domenico of Arienzo**, and
+the 1876 one has **Guida Angelandrea of Arienzo**. The mechanism is real; this is simply not where
+Giuseppe married, in the years read.*
