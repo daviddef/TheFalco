@@ -1860,5 +1860,33 @@
   "what": "Antonio Falco of Santa Maria a Vico, who died between 28 Dec 1872 and 15 Oct 1881",
   "outcome": "yield",
   "got": "**1873: no Falco** — the F section is Ferraro, Froggiero ×3 and Filippone.\n\n**1874: «47 | 176 | FALCO ANTONIO | Giuseppe e Orsola | 24 [Novembre]» — and the act was read rather than assumed.** Image 1266: «*nella casa di sua abitazione sita alla **VIA SANT'APOLLONIA** è morto **ANTONIO FALCO, D'ANNI DUE**, figlio di **GIUSEPPE ed ORSOLA VERDICCHIO, COLONI**, domiciliati ivi*».\n\n**A child of two, not the father of two married daughters** — so the man being hunted is still unfound, and **a SECOND Falco household at Santa Maria a Vico is**. Held as `giuseppe-falco-orsola-verdicchio`.\n\n**This Giuseppe Falco is not the archive's own**: ours was married to Nicoletta Nuzzo and fathering children by her at Arienzo in 1872 and 1874. *`isitnew.py` on «Verdicchio» returns «nothing, in any corpus».*\n\n**Antonio Falco × Vincenza della Torre therefore died 1875–1881**, and those tavole are the next thing to read."
+ },
+ {
+  "when": "1876, 1877, 1878",
+  "searchedOn": "2026-10-09",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Santa Maria a Vico",
+  "waypoint": "MC5R-M2Q",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G97N-CFM3?cc=2043630&wc=MC5R-M2Q",
+  "pages": "1604-1605, 1777-1835, 1927-1928",
+  "walked": true,
+  "src": "**SANTA MARIA A VICO, DEATHS 1876, 1877 AND 1878 — read from their annual tavole**, and 1877 **also swept act by act at the margin box** (images 1777–1835, eighty-seven printed acts).\n\n**1877's tavola is not at the front of the book**: it is a loose folded sheet laid over images **1799–1804**, after the last printed act, caught six times by the camera as it shifted.",
+  "what": "Antonio Falco of Santa Maria a Vico, husband of Vincenza della Torre, who died between 28 Dec 1872 and 15 Oct 1881",
+  "outcome": "nothing",
+  "got": "**NO FALCO IN ANY OF THE THREE.** 1876's F section is two entries (Froggiero, Fantarella); 1877's is five (Fontanella ×2, Froggiero/Froggieri ×3); 1878's is nine (Fantarella ×3, Froggieri ×4, Ferrara).\n\n**With 1873 and 1874 already read, Antonio Falco died in 1875, 1879, 1880 or 1881.** *1875's deaths book has not been located in this film — which is two reels spliced at image 1475, so the years do not run in order and position is no guide. 1879–1881 are in `MC5R-Q23`, whose cover map puts the 1879 deaths register at image 6.*"
+ },
+ {
+  "when": "1880",
+  "searchedOn": "2026-10-09",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Santa Maria a Vico",
+  "waypoint": "MC5R-Q23",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-897N-Z9KD?cc=2043630&wc=MC5R-Q23",
+  "pages": "63-70",
+  "walked": false,
+  "src": "**«MODULO DELL'INDICE ANNUALE delle nascite 1880», `MC5R-Q23` image 63**, found from the cover map (cover at 62).",
+  "what": "any Falco birth at Santa Maria a Vico",
+  "outcome": "pending",
+  "got": "**A FALCO BIRTH IS IN THE INDEX — «57 — Falco M.ª A—ª di Giuseppe ——, reg. 4» — AND IT IS NOT READ.**\n\n*The index's register-number column has misled this archive four times in two days, and **act 4 of the 1880 births is «Diglio Antonio»**, checked at the margin box. So the number is wrong or misread, and this is recorded as **located, not read**. The 1880 births register runs from image 64 and must be swept at the margin box.*\n\n**Whose child she is matters**: Giuseppe Falco × Orsola Verdicchio were at Via Sant'Apollonia in 1874 and are the obvious house, but this archive's own Giuseppe Falco is also a Giuseppe with a wife. **Only the act names the mother.**"
  }
 ]
