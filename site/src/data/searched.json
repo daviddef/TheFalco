@@ -2014,5 +2014,19 @@
   "what": "Arienzo's marriages of 1868, which had not been located",
   "outcome": "pending",
   "got": "**1867's TAIL is at 277–279** — acts into the high teens, closed 13 December 1867. **No Falco.**\n\n**1868's MARRIAGE REGISTER IS LOCATED: cover 284, book 285–295**, «*Anno 186[8] · COMUNE di Arienzo · REGISTRO di matrimonj*», acts from image 286, «*L'anno milleottocentosessantotto … Innanzi a noi Alfonso Troisi Sindaco*».\n\n**IT IS NOT READ.** *Its acts carry only a NUMBER in the margin, not a heading naming the spouses, and each runs across a page and a half — so neither the margin column nor a fixed text band reads it. It needs a page-by-page reading, and it is recorded as located and unread rather than swept badly and called a nil.*"
+ },
+ {
+  "when": "1875",
+  "searchedOn": "2026-10-10",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo",
+  "waypoint": "MC55-FNT",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-9976-QH3H?cc=2043630&wc=MC55-FNT",
+  "pages": "925-946",
+  "walked": false,
+  "src": "**ARIENZO, MATRIMONI 1875 — located at cover 925, book images 926–946, and NOT READ.**",
+  "what": "Giuseppe Falco as a groom at Arienzo in 1875",
+  "outcome": "blocked",
+  "got": "**THE SESSION EXPIRED.** Every leaf came back as a 145-byte `{\"error\":\"Unauthorized\",\"message\":\"Unauthorized (anonymous session)\",\"status\":401}`. **That is a refusal and not an absence, and no nil is published for 1875.**\n\n**What was learned first is worth keeping: FROM 1875 ARIENZO SWITCHES TO THE PRINTED FORM** — «*ATTI DI MATRIMONIO · Numero due · **Verlazzo Carlo / Piscitelli Rosa***», 20 March 1875, with a printed header and a **numbered name box carrying both spouses**. *That is the format `tools/fsmargin.py` was written for, so 1875 onward should read faster than every year before it.*"
  }
 ]

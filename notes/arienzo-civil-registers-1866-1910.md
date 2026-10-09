@@ -2380,3 +2380,39 @@ after the cover before sweeping the rest.*
 | **1878–1900** | `MC55-VNL`, 2,898 images, **97 covers already computed** | **not opened** |
 
 **Giuseppe Falco, son of Matteo, is in none of the nine years read.**
+
+---
+
+# THE SESSION EXPIRED AT ARIENZO 1875, AND TWO THINGS ARE RECORDED RATHER THAN HIDDEN
+
+## THE REFUSAL
+
+**`tools/fsmargin.py` on Arienzo's 1875 marriages returned 145-byte files**, each containing:
+
+> `{"error":"Unauthorized","message":"Unauthorized (anonymous session)","path":null,"status":401}`
+
+**That is a refusal and not an absence**, and **no nil is published for 1875.** *The reading stops
+here until David signs in again; credentials are his to enter and are not entered here.*
+
+**What was learned before it stopped is worth keeping: from 1875 Arienzo switches to the PRINTED
+FORM** — «*ATTI DI MATRIMONIO · Numero due · **Verlazzo Carlo / Piscitelli Rosa***», with a printed
+header and a **numbered name box carrying both spouses**. *That is the format `fsmargin.py` was
+written for, so 1875 onwards should read faster than everything before it, not slower.*
+
+**Cover 925 opens it; the book is images 926–946.**
+
+## AND A MISTAKE OF MY OWN, IN THE SCRATCH DIRECTORY
+
+**Clearing the poisoned 401 files with `find -size -5k -delete` deleted about 670 legitimate cached
+thumbnails as well** — *because a near-black cover compresses to under five kilobytes, so the filter
+matched exactly the images the cover detection depends on.*
+
+**Nothing published is lost and no archive file was touched**, but the thumbnail caches for
+`MC5R-M2Q`, `MC5R-Q23`, `MC55-FNT` and `MC55-VNL` are now short by their covers and would have to be
+re-fetched to recompute them.
+
+> **So the cover maps are written into the repository instead of left in a scratch directory:
+> `data/fs-covers.tsv`, 215 rows, every cover of all four volumes with what is known to be behind
+> it.** *The lesson is the obvious one and it is the second time today a size filter has been the
+> wrong instrument: **filter on what the file IS, not on how big it is** — the 401s are 145 bytes
+> and begin `{"error"`, and matching that would have deleted nothing else.*
