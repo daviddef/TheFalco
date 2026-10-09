@@ -2042,3 +2042,86 @@ is Matteo's son.** *What the day bought is not his marriage — it is the proof 
 family did move to Santa Maria a Vico and can be followed there, and a method for following it.*
 
 **Still unread at Santa Maria a Vico: marriages 1868 (register not located), 1878, 1888–1894.**
+
+---
+
+# ARIENZO'S OWN MARRIAGE REGISTERS — AND THE FIRST FALCO MARRIAGE ACT OUT OF THE LOST YEARS
+
+**`MC55-FNT`, the Arienzo volume for 1866–1877, was mapped the way `MC5R-M2Q` was**: 1,236 cached
+thumbnails gave **50 covers at zero requests**, and the leaf after each cover named the book —
+«*Anno 1866 · Comune di Arienzo · REGISTRO **dei Matrimonii***» at image 45, «*delle **pubblicazioni
+di Matrimonii***» at 4, «*delle **Nascite***» at 61, «*delle **Dichiarazioni di Cittadinanza***» at 169.
+
+> **AND FROM 1872 THE CLERK STOPS FILLING IN THE TITLE PAGE.** Images 776, 791, 827, 854, 873 and 909
+> all read «*REGISTRO d ______*» with the blank never completed. **The cover map still finds the
+> books; only the title page stops naming them**, so from 1872 the book has to be identified from
+> its first act.
+
+## 1866 — READ ENTIRE, NO FALCO
+
+**Images 45–59, twenty-seven acts.** *Each act is headed in the margin «Matrimonio tra X e Y», which
+makes a whole year readable from a strip of the margin column.* Basilicata, Caiazzo, Cimmino,
+Piscitelli, Pascarella, Diglio, Martone, Vassallo, Carfora, Mozzillo — **no Falco in any of the
+twenty-seven.**
+
+## 1872 — AND HERE IS THE ACT
+
+**Images 693–714.** *Thirty-five-plus acts, each headed in the margin «N.º N · Matrimonio che si
+contrae tra X e Y».*
+
+> «**N.º 35 — Matrimonio che si contrae tra CARMINE ANTONIO FALCO e GIOVANNA ARRICALE**»
+
+**That is generation five of this line, and it is the first Falco marriage act ever recovered from
+the registers this archive published as lost.** Image 710:
+
+> «*L'anno milleottocentosettantadue, nel giorno **diciotto** del mese di **Novembre**, nella Casa
+> Comunale alle ore **quindici**. Dinanzi a me **NICOLA FINELLI Sindaco** di questo Comune di
+> **Arienzo** … colla presenza di **Gennaro Imbimbo fu Vincenzo di anni sessanta** e di **Andrea
+> Saccone fu Domenico di anni cinquantatré**, ambi **scribenti** … sono comparsi **CARMINE ANTONIO
+> FALCO, contadino, di anni VENTIDUE COMPITI, nato e domiciliato in ARIENZO, FIGLIO DI RAFFAELE E
+> ANGELAROSA MORGILLO, contadini, DOMICILIATI COL FIGLIO**; e **GIOVANNA ARRICALE, contadina, di
+> anni VENTIQUATTRO COMPITI, parimente nata e domiciliata in Arienzo, FIGLIA DEL FU FRANCESCO E
+> DELLA VIVENTE PASQUA FALCO, contadina, DOMICILIATA CON LA FIGLIA***»
+
+Publications **27 October** and **3 November 1872**.
+
+### THE DATE WAS ALREADY HELD. THE ACT WAS NOT, AND IT PAYS THREE TIMES
+
+**18 November 1872 came from a margin annotation on Giovanna's own birth act and from the 1897
+processetto.** *Neither is the act.*
+
+1. **«DI ANNI VENTIDUE COMPITI»** — twenty-two *completed* puts his birth between November 1849 and
+   November 1850, and this archive holds his birth act: **10 July 1850**. **Two registers, eighty-six
+   images apart, agree to the month.**
+2. **«FIGLIO DI RAFFAELE E ANGELAROSA MORGILLO … DOMICILIATI COL FIGLIO»** — **his parents were
+   alive and under his roof on 18 November 1872.** *And the clerk writes **ANGELAROSA**, one word,
+   where this archive has «Angela Rosa» and «Maria Rosa». The variant is recorded, not resolved.*
+3. **«DELLA VIVENTE PASQUA FALCO»** — and that is the third, and the largest.
+
+### PASQUA FALCO WAS ALIVE, AND THAT MAKES HER DEATH FINDABLE
+
+**This archive has spent months on Pasqua Falco.** *She is absent from Arienzo's death registers of
+**1816–1858**, which were read out. Her birth could not be recovered — **1822's tavola is torn and
+folded exactly where FALCO falls, and 1823's column is obscured**. The published position was that
+«**she stands on two documents, and both are her daughter's**».*
+
+**The second of those documents is now an ACT, and it says what a margin annotation could not: she
+was LIVING, and living in her daughter's house, on 18 November 1872**, aged about forty-nine.
+
+> **So she died after 18 November 1872 — and Arienzo's death registers from 1866 are in this
+> collection and are open.** *A death act of that period gives the dead woman's **age**, her
+> **birthplace** and her **PARENTS** — which is everything this archive has never been able to
+> establish for her.* **That is the next job in Arienzo.**
+
+### AND IT IS A FALCO MARRYING INTO A FALCO
+
+**The groom is a Falco; the bride's mother is a Falco.** *No relationship between Carmine Antonio
+Falco and Pasqua Falco is claimed — this archive does not join people on a surname, least of all
+this one — but the marriage is recorded as what it is: **two Falco households of Arienzo meeting in
+one act**.*
+
+## BY-CATCH FROM 1872, NOT MERGED
+
+- **act 16 — «Carmine RIVETTI e Maria Carmina Zimbardo»**. *Rivetti is this archive's own surname:
+  Chiara Rivetti married Pasquale Falco. **No kinship claimed; the act is unread.***
+- **act 9 — «Angelo Laudato e Maria Caterina ARRICALE»**, and several more Arricale in the year.
