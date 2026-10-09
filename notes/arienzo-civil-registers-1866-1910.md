@@ -1014,3 +1014,53 @@ there is nothing to look for.**
 **By-catch of 1834**, recorded and not pursued: **Angela Raffaela Falco, eighteen, of strada
 Camellara, wife of Francescantonio Falco, twenty-seven** (image 26) — *the first-cousin marriage this
 archive already holds* — and **Giovanna Falco, twenty-eight** (image 99).
+
+
+---
+
+# GIUSEPPE IS NOT IN SANTA MARIA A VICO OR CERVINO — and FALCO is not a surname in either
+
+**9 October 2026.** Giuseppe Falco's own 1887 act makes him «about 1841», and Arienzo's 1840 and 1841
+are both empty. The two neighbouring comuni of the same tribunale district were read for the same
+two years.
+
+| comune | year | images read | result |
+|---|---|---:|---|
+| **Cervino** | 1840 | 2–66 | **nil** |
+| **Cervino** | 1841 | 2–57 | **nil** |
+| **Santa Maria a Vico** | 1840 | 2–152 | **nil** |
+| **Santa Maria a Vico** | 1841 | 2–159 | **nil** |
+
+**No Alessandra Crisci. And, more decisively, NOT ONE FALCO MOTHER IN ANY OF THE FOUR VOLUMES.**
+
+## THE SURNAMES THEMSELVES ARE THE ANSWER
+
+*Across roughly six hundred acts, these two towns are made of other families.*
+
+- **Cervino**: Pascarella, Vigliotti, Nappa, de Rosa, Caporale, Sarano, Affinito, Jannotti, Oliveto,
+  Riserolli, di Benedetto, Bove. **Falco does not appear.**
+- **Santa Maria a Vico**: de Lucia, Piscitelli, Nuzzo, Caprio, Savinelli, Abbatiello, Dabbo, Russo,
+  Ruggiero, Vigliotti, Bernardo, Magliulo, Barisciano, Carfora. **Falco does not appear.**
+
+**FALCO IS AN ARIENZO SURNAME.** *It is not a name these neighbouring registers carry at all, which
+is a stronger negative than «he is not in this year»: a man of this family being born in either town
+would be an exception to the shape of both.*
+
+## TWO NAMES THAT DO MATTER, AND NEITHER IS HIM
+
+- **NUZZO IS A SANTA MARIA A VICO SURNAME.** Antonia Nuzzo fu Pietro, Caterina Nuzzo di Giovanni,
+  Giovanna Nuzzo di Domenico, Giovanna Nuzzo fu Pasquale, Rosa Nuzzo di Biase, Antonia Nuzzo fu
+  Simone — six mothers in two years. **Giuseppe Falco's wife was NICOLETTA NUZZO.** *That does not
+  locate his birth, but it is the first evidence of where his WIFE's family is from, and it is
+  recorded as that and nothing more.*
+- **CRISCI IS ALSO A SANTA MARIA A VICO SURNAME** — «Lucia Crisci di Domenico», 1840. *His mother's
+  surname exists there too. Neither fact puts a Falco in the town.*
+
+## AND THE TAVOLA LESSON REPEATS
+
+**Cervino 1840 and Santa Maria a Vico 1841 both end with a FILLED «Tavola alfabetica annuale de'
+Nati» naming BOTH PARENTS** — Cervino's runs to several leaves, SMaV's begins «*1. Agresta Giuseppe —
+Agresta Filippo e … de Lucia — 22 Feb 1841*». **Either would have answered its year in two or three
+images instead of nine contact sheets.** *Santa Maria a Vico 1840's is bound in and blank, so it
+still cannot be assumed — **but the check is one image and it was not made first.*** The same mistake
+as Arienzo 1850 and 1852, made again.
