@@ -2238,3 +2238,45 @@ same comune, two years after the wedding, and the pairing is unique in each dire
 Olella, Sposito, Migliore, Figlio, Martone, Ruotolo, Cannelli, Chiara, **Don Giovanni Crisci ×
 Angela Zimbardo**, Maryello, **Carmine Morgillo × Pasqua Morgillo** (act 24), Migliore, Saviano.
 **Act 22 is the year's only Falco.**
+
+---
+
+# 1870 AND 1873 AT ARIENZO
+
+## 1870 — images 537–564, about forty acts, NO FALCO
+
+De Maza, Crisci, Esposito, Nozzo, Carfora, Verone, Martone, Longano, Biondillo, Figlio, Mauro,
+Diglio, Marzano, Mojo, Cillo, Anzivino. **Read at the margin headings; not one Falco.**
+
+## 1873 — images 776–789, and ACT 1 IS A FALCO BRIDE THIS ARCHIVE ALREADY KNEW
+
+> «**N.º 1 — Matrimonio che si contrae tra PASCALE RUOTOLO e MARIA FELICE FALCO**»
+
+**Image 777:**
+
+> «*L'anno **milleottocentosettantatre**, nel giorno **TRE** del mese di **FEBBRAJO**, nella Casa
+> Comunale … Dinanzi a me **NICOLA FINELLI Sindaco** … colla presenza di **Gennaro Imbimbo fu
+> Vincenzo di anni sessantatré** e di **Andrea Saccone fu Domenico di anni cinquantotto**, ambi
+> scribenti … sono comparsi **PASCALE RUOTOLO, AGRICOLTORE, DI ANNI VENTISETTE COMPITI**, nato e
+> domiciliato in Arienzo, **figlio di FRANCESCO**, agricoltore, **e di PASQUA D'ANGELO**, donna di
+> casa, domiciliati col figlio; e **MARIA FELICE FALCO, DONNA DI CASA, DI ANNI VENTISETTE COMPITI**,
+> nata e domiciliata in questo medesimo Comune di Arienzo, **FIGLIA DI CRESCENZO, agricoltore, E DI
+> MARIA MORGILLO, donna di casa, DOMICILIATI CON LA FIGLIA***»
+
+**She is `crescenzo-falco-angela-maria-morgillo`'s daughter, born 21 November 1845**, and the
+archive held her wedding only from **the margin of her own birth act**: «*A 3 Febbrajo 1873 l'Uff.e
+dello Stato Civ.e d'ARIENZO sposò MARIA FELICE FALCO con **PASQUALE QUOTOLO** — Caserta 18 Giugno
+1884*».
+
+**The act agrees to the day and corrects the surname: he is RUOTOLO.** *It also gives his parents —
+**Francesco Ruotolo** and **Pasqua d'Angelo**, both names new here — and puts **CRESCENZO FALCO and
+MARIA MORGILLO alive on 3 February 1873, living with their daughter**.*
+
+### A READING WAS CAUGHT BEFORE IT WAS WRITTEN DOWN
+
+**The father's name was first read as «VINCENZO»**, which would have moved this daughter into an
+entirely different Falco house — *Vincenzo Falco × Andreana Crisci, whose son Antonio married five
+pages earlier in the same series.* **Magnified, it is CRESCENZO.**
+
+> *The archive's own rule did the work: **read the letter, not the likely word.** A Vincenzo Falco
+> had been in front of me all afternoon, and that is exactly when the eye supplies one.*
