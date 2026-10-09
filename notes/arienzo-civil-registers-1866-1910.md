@@ -2463,3 +2463,44 @@ be the first document of any kind after her last child in 1852.*
 **The FamilySearch session expired at 22:31 on 9 October**, mid-sweep, and every request since has
 returned `401 Unauthorized (anonymous session)`. *Credentials are David's to enter. **Nothing here
 is a negative; the reading simply stops.***
+
+---
+
+# THE FAMILYSEARCH CITATIONS NOW HAVE A GATE — `tools/check_fscite.py`
+
+**On 8 October this archive wrote `3:1:3QSQ-G976-QHD5` into a citation for image 144 of `MC55-FNT`.
+There is no such ark.** *It was assembled out of the shape of its neighbours, and it was caught by
+eye before any commit — by looking twice. **Nothing in the build could have caught it**:
+`checkarchive` verifies that links reach pages, and no gate has ever opened a FamilySearch image.*
+
+**It does not need to.** `tools/fswaypoint.py` already walked the open waypoint API and wrote every
+image number and its ark to disk — **6,405 of them across three volumes**. So a citation naming a
+waypoint, an image and an ark can be checked against the volume's own manifest **with no network at
+all**:
+
+- does that waypoint have an image of that number?
+- is the ark the one the manifest gives for it?
+
+**Both failures are silent and both are fatal to a reader.** *A citation one image out sends the next
+person to a stranger's act; an invented ark sends them to a 404 they will read as «the archive is
+wrong» rather than «the citation is».*
+
+**Proved against the real fault before it was committed.** Re-injecting the invented ark:
+
+> `FAIL ARK MISMATCH: Antonia Falco (d. 1866) — MC55-FNT image 144 is 3:1:3QS7-8976-Q4F8, the
+> citation says 3:1:3QSQ-G976-QHD5 — **that ark is in no manifest here**`
+
+## AND IT FOUND A WEAKNESS IN MY OWN CITATIONS FIRST
+
+**The twelve citations written yesterday and today were in the wrong shape**: «*3:1:FS MC55-FNT img
+400*» names a waypoint and an image **and no ark at all** — so nothing could verify them, and they
+did not match the shape this archive already used for its FamilySearch acts. **All thirteen are
+rewritten to the archive's own form with the true ark looked up from the manifest**, and the gate
+counts any that still lack one rather than passing them in silence.
+
+## IT IS NOT WIRED INTO THE CHAIN, AND THAT IS DELIBERATE
+
+**`site/package.json` is being edited by another session right now** — it gained a `check:nav` step
+last night — *and adding a twenty-second step to a file somebody else has open is how two sessions
+lose each other's work.* **The gate runs on its own** (`python3 tools/check_fscite.py`, exit 1 on
+failure) **and is left for whoever owns the chain to adopt.**
