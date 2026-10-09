@@ -1989,3 +1989,56 @@ no kinship is claimed. It is written down so it is not found again from scratch.
 *Image 239, the only remaining candidate from the cover map, is the **1867 deaths** index — «Cognome
 e Nome delle Morti», closed at S. Maria Capua Vetere on 2 November 1866. **Its F section is Froggiero
 ×3, Fontanella ×2, Frana, Ferrara, Fantarella: no Falco**, which is a negative worth keeping.*
+
+---
+
+# ACT 25 IS READ, AND IT CLOSES THE CIRCLE
+
+**`MC5R-M2Q` images 533–534.** *The 1869 register is hand-written with no printed Numero box, so the
+act was found by reading the «Numero d'ordine» heading in the margin column leaf by leaf — 536L is
+act **twenty-nine**, 534L carries **twenty-five** and **twenty-six**.*
+
+> «*…sono comparsi **GIUSEPPE FALCO, CELIBE, di anni VENTICINQUE compiti, di condizione CONTADINO,
+> residente in questo Comune, FIGLIO DI ANTONIO, di condizione simile, residente ivi, E DI VINCENZA
+> DELLA TORRE, residente ivi**; e **ORSOLA VERDICCHIO, NUBILE, di anni VENTITRÉ, di condizione
+> contadina, residente in questo Comune, FIGLIA DEL FU SALVATORE** … **e di MARIA GIUSEPPA
+> MORGILLO**, residente ivi. Vi è stato presente per testimonio **Francesco Perrotta, figlio di
+> Pasquale, di anni ventitré, colono***»
+
+## IT ANSWERS BOTH OPEN QUESTIONS AT ONCE
+
+**ONE. The two Falco households are one family.** Giuseppe Falco of **Via Sant'Apollonia** is
+**Antonio Falco's son**, brother of **Lucia** (married 1872) and **Filomena** (married 1881).
+*`giuseppe-falco-orsola-verdicchio` is retired into `antonio-falco-vincenza-della-zorca`, which now
+holds **three generations**.*
+
+**TWO. He is not our Giuseppe.** Ours is «*figlio di **MATTEO** e di **ALESSANDRA CRISCI***»; this
+one is «*figlio di **ANTONIO** e di **VINCENZA DELLA TORRE***». **The exclusion published this
+morning was right and its reasoning was wrong; the exclusion now rests on the act.**
+
+## THE HOUSE, AS IT NOW STANDS
+
+| | | |
+|---|---|---|
+| **ANTONIO FALCO** | b. **Arienzo** c. 1810 · d. Santa Maria a Vico **8 May 1880**, Via Maianiello 11 | son of a **Giuseppe** and a **Gelsomina** |
+| **VINCENZA DELLA TORRE** | his wife, alive 1881 | |
+| **GIUSEPPE** | b. c. **1844** · m. **Orsola Verdicchio** 1869 | **signed his own name** |
+| **LUCIA** | b. c. **1848** · m. **Salvatore Folgieri** 28 Dec 1872 | *analfabeta* |
+| **FILOMENA** | b. c. **1855 at Santa Maria a Vico** · m. **Cristofaro della Marca** 15 Oct 1881 | |
+| **Antonio** *(of Giuseppe)* | b. c. 1872 · **d. 27 Nov 1874, aged two**, Via Sant'Apollonia | |
+
+**And the naming fits**: Antonio's father was a **Giuseppe**; Antonio named his son **Giuseppe**;
+Giuseppe named his son **Antonio**. *That is the ordinary Neapolitan rule, and it is one more small
+thing standing behind the Arienzo birth act of 5 January 1813.*
+
+**ORSOLA VERDICCHIO's mother was MARIA GIUSEPPA MORGILLO** — *a surname this archive carries in its
+own households (Carlantonio Morgillo × Rosa Falco; Carmine Morgillo × Vincenza Falco). **No kinship
+is claimed**: Morgillo is a common Terra di Lavoro name and this is a Santa Maria a Vico woman.*
+
+## SO THE SEARCH FOR OUR GIUSEPPE STANDS WHERE IT DID, AND BETTER LIT
+
+**Every Falco found at Santa Maria a Vico belongs to one Arienzo-born household**, and **none of them
+is Matteo's son.** *What the day bought is not his marriage — it is the proof that an Arienzo Falco
+family did move to Santa Maria a Vico and can be followed there, and a method for following it.*
+
+**Still unread at Santa Maria a Vico: marriages 1868 (register not located), 1878, 1888–1894.**
