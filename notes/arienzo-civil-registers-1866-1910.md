@@ -876,3 +876,66 @@ sheets where a mother's name was transcribed from every tile; they are unaffecte
 > **THE RULE: a band proved on one volume is not proved on the next.** It is the same lesson as the
 > act-per-image arithmetic and the 1820 form change — *this register series drifts, and every
 > instrument calibrated against it has to be re-checked when the volume changes.*
+
+
+---
+
+# 1835–1838 READ — and CARMELA FALCO is found, on the third day of 1838
+
+**Arienzo birth act 2 of 1838**, the second act of the year:
+
+> «*…**è comparso MATTEO FALCO, di anni VENTOTTO, di professione CONTADINO, domiciliato in STRADA
+> CAMELLARA**, quale ci ha presentato una **FEMINA***» · tail: «*…**è nata da ALESSANDRA CRI[SC]I sua
+> moglie legittima, di anni VENTIQUATTRO** … **nel giorno TRE del mese di GENNAJO, anno corrente, alle
+> ore SEDICI, nella casa sua propria d'abitazione**. Lo stesso ha inoltre dichiarato di dare alla
+> nominata il nome di **CARMELA**.*» · *Indicazione*, **Sant'Andrea Apostolo**: «*il Sacramento del
+> Battesimo è stato amministrato a **CARMELA FALCO***».
+
+**Born 3 January 1838. The family tree says 1837 — the fourth of its years for this household to be
+wrong.**
+
+> **THE MOTHER'S SURNAME IS NOT CRISPLY LEGIBLE AND THE PLACEMENT DOES NOT REST ON IT.** At full
+> magnification the word is «Cri» plus a long-s and a terminal that could be *-sci* or *-spi*; both
+> surnames are common in this register, and **the control-letter test could not be run — no instance
+> of the same scribe writing both was found on these leaves.** *What is legible is the declarant
+> **MATTEO FALCO**, the street **STRADA CAMELLARA**, a wife **ALESSANDRA**, and a daughter
+> **CARMELA** — the name the tree gives this couple's eldest.*
+
+## THE FOUR YEARS
+
+| year | images read | result |
+|---|---|---|
+| **1835** | 2–118 | **nil** |
+| **1836** | 2–128 | **nil** |
+| **1837** | 2–145 | **nil** — *and the sweep CAUGHT the known Falco birth of that year*, «**Raffaela Falco**, ventisei» at image 111, act 108 of Francescantonio Falco. **The instrument is validated against a record this archive already held.** |
+| **1838** | 2–120 | **CARMELA FALCO, act 2, 3 January** — and no other |
+
+## SIX OF THE NINE, AND THE SPAN IS NOW CLOSED
+
+| child | act | born |
+|---|---|---|
+| **Carmela** | 1838 n.º 2 | **3 January 1838** |
+| **Filomena** | 1839 n.º 74 | **20 June 1839** |
+| **Vincenza** | 1842 n.º 46 | **18 May 1842** |
+| **Maria** | 1844 n.º 37 | **15 August 1844** |
+| Domenica | 1846 | 13 September 1846 *(already held)* |
+| **Antonia** | 1851 n.º 135 | **15 December 1851** |
+
+**Swept and empty: 1835, 1836, 1837, 1840, 1841, 1843, 1845, 1847, 1848, 1849, 1850, 1852.** *With
+the six years that produced a child, **every year from 1835 to 1852 is now accounted for.***
+
+## SO WHERE ARE ANGELA ROSA AND GIUSEPPE?
+
+**Not in the Arienzo birth registers of 1835–1852.** The tree puts both in **1841**, which is a
+complete double-banded nil; Giuseppe's own 1887 act puts him «about 1841», and this household's
+stated ages have already been shown to scatter by four years in each direction.
+
+**Three possibilities, and the archive holds no evidence for any of them yet:**
+
+1. **1834** — *the couple married **24 January 1834** and that volume has never been opened.* A child
+   born in the last months of 1834 is entirely possible and is **the one remaining year inside the
+   marriage**.
+2. **Born outside Arienzo**, in a comune whose registers this archive has not touched.
+3. **Never registered civilly** — which for this period would mean a parish baptism and no act.
+
+*The ninth child the tree counts is not named in it, so there is nothing to look for.*
