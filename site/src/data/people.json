@@ -14082,6 +14082,128 @@
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
+"slug": "carmela-di-guida",
+"name": "Carmela di Guida",
+"surname": "DI GUIDA",
+"household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
+"role": "married in",
+"events": [
+{
+"event": "marriage",
+"date": "24 Jun 1869",
+"place": "Arienzo",
+"evidence": "**«CARMELA DI GUIDA, DI ANNI VENTI COMPITI, di condizione CONTADINA, domiciliata in ARIENZO, FIGLIA DEL FU FABRIZIO e della vivente TERESA VACCINO, FILATRICE, domiciliata con la figlia»** — Arienzo, marriage act 22 of 1869, 24 June, read from the image.\n\n**Born about 1849.** **Her father FABRIZIO DI GUIDA was already dead**, and her mother **TERESA VACCINO** was alive and living with her. *Both names are new to this archive.*\n\n**Their first son was named FABRIZIO** — he died at seven months on 9 August 1871 — **for her dead father.**",
+"ark": "3:1:FS MC55-FNT img 400 — Arienzo, matrimoni 1869, atto 22"
+}
+],
+"sources": [
+"register",
+"tree"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Antonio Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"children": [
+{
+"slug": "luigi-falco-3",
+"name": "Luigi Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "domenico-antonio-falco",
+"name": "Domenico Antonio Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "maria-teresa-falco",
+"name": "Maria Teresa Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "giovanna-falco-3",
+"name": "Giovanna Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "assunta-falco",
+"name": "Assunta Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "fabrizio-falco",
+"name": "Fabrizio Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "pasquale-falco-3",
+"name": "Pasquale Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "domenica-falco-3",
+"name": "Domenica Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "costanza-falco-2",
+"name": "Costanza Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "vincenzo-falco-2",
+"name": "Vincenzo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"siblings": [],
+"mergedOn": "name and dates",
+"treeId": 4512497,
+"b": "1849",
+"dateFrom": {
+"b": "tree"
+}
+},
+{
 "slug": "clemente-di-guida",
 "name": "Clemente di Guida",
 "surname": "DI GUIDA",
@@ -15089,117 +15211,6 @@
 "children": [],
 "siblings": [],
 "noKin": "kin-named-only-in-the-household-name"
-},
-{
-"slug": "carmela-di-guida-guido",
-"name": "(Maria) Carmela di Guida / Guido (Falco)",
-"surname": "DI GUIDA / GUIDO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [],
-"spouses": [
-{
-"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Antonio Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"children": [
-{
-"slug": "luigi-falco-3",
-"name": "Luigi Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "domenico-antonio-falco",
-"name": "Domenico Antonio Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "maria-teresa-falco",
-"name": "Maria Teresa Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "giovanna-falco-3",
-"name": "Giovanna Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "assunta-falco",
-"name": "Assunta Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "fabrizio-falco",
-"name": "Fabrizio Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "pasquale-falco-3",
-"name": "Pasquale Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "domenica-falco-3",
-"name": "Domenica Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "costanza-falco-2",
-"name": "Costanza Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "vincenzo-falco-2",
-"name": "Vincenzo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [],
-"treeId": 4512497,
-"b": "1849",
-"dateFrom": {
-"b": "tree"
-}
 },
 {
 "slug": "agnese-di-lucia",
@@ -20022,10 +20033,10 @@
 },
 {
 "event": "marriage",
-"date": "23 Jun 1869",
+"date": "24 Jun 1869",
 "place": "Arienzo",
-"evidence": "Entry for Antonio Falco and Vincenzo",
-"ark": "X36H-5YFG"
+"evidence": "**HIS MARRIAGE ACT, READ FROM THE IMAGE 9 OCTOBER 2026** — Arienzo **atto 22 of 1869**, `MC55-FNT` image 400, headed in the margin «*N.º 22 — Matrimonio che si contrae tra **ANTONIO FALCO** e **CARMELA GUIDA***»:\n\n> «*L'anno milleottocentosessantanove nel giorno **VENTIQUATTRO** del mese di **GIUGNO** nella Casa Comunale alle ore **dodici**. Dinanzi a me **ALFONSO TROISI Sindaco** di questo Comune di Arienzo … colla presenza di **Gennaro Imbimbo fu Vincenzo di anni sessanta** e di **Andrea Saccone fu Domenico di anni cinquanta**, ambi **scrivani comunali** … sono comparsi **ANTONIO FALCO DI ANNI VENTISEI COMPITI, di condizione CONTADINO, NATO E DOMICILIATO IN ARIENZO, FIGLIO DI VINCENZO di condizione simile, e di ANDREANA CRISCI, FILATRICE, DOMICILIATI COL FIGLIO**; e **CARMELA DI GUIDA DI ANNI VENTI COMPITI, di condizione contadina, domiciliata in Arienzo, FIGLIA DEL FU FABRIZIO e della vivente TERESA VACCINO, filatrice, domiciliata con la figlia***»\n\n**THE DATE WAS HELD AS 23 JUNE 1869 FROM A TREE ENTRY. THE ACT SAYS THE TWENTY-FOURTH.**\n\n**«DI ANNI VENTISEI COMPITI» on 24 June 1869** means born before 24 June 1843 — *and this archive holds his birth, **13 May 1843**. The act and the birth agree.*\n\n**AND IT JOINS TWO HOUSEHOLDS THIS ARCHIVE HELD APART.** *The household `antonio-falco-carmela-guida` was created on 8 October 2026 from a single death act — «nella casa di **ANTONIO FALCO**, sita nella **CONTRADA CAMELLARA**, è morto **FABRIZIO FALCO** … figlio di **ANTONIO** e di **CARMELA GUIDA**», 9 August 1871. **That Antonio is this Antonio**: the same two forenames, the same two surnames, the same comune, two years after the wedding. The pairing is unique in each direction.*\n\n**AND THE DEAD BABY'S NAME IS THE PROOF.** *Carmela's father was **FABRIZIO DI GUIDA**, dead before her wedding. **Their first son was called FABRIZIO.** That is the Neapolitan rule working exactly as it should, and it is independent of the names themselves.*\n\n**VINCENZO FALCO AND ANDREANA CRISCI WERE ALIVE ON 24 JUNE 1869**, and «*domiciliati col figlio*» — living in their son's house. *This archive's latest previous sighting of the couple alive was 16 December 1864.*",
+"ark": "3:1:FS MC55-FNT img 400 — Arienzo, matrimoni 1869, atto 22"
 }
 ],
 "sources": [
@@ -20055,7 +20066,7 @@
 ],
 "spouses": [
 {
-"slug": "carmela-di-guida-guido",
+"slug": "carmela-di-guida",
 "name": "(Maria) Carmela di Guida / Guido (Falco)",
 "via": "tree",
 "vias": [
@@ -20742,7 +20753,7 @@
 ]
 },
 {
-"slug": "carmela-di-guida-guido",
+"slug": "carmela-di-guida",
 "name": "(Maria) Carmela di Guida / Guido (Falco)",
 "via": "tree",
 "vias": [
@@ -23722,7 +23733,7 @@
 ]
 },
 {
-"slug": "carmela-di-guida-guido",
+"slug": "carmela-di-guida",
 "name": "(Maria) Carmela di Guida / Guido (Falco)",
 "via": "tree",
 "vias": [
@@ -24566,7 +24577,7 @@
 ]
 },
 {
-"slug": "carmela-di-guida-guido",
+"slug": "carmela-di-guida",
 "name": "(Maria) Carmela di Guida / Guido (Falco)",
 "via": "tree",
 "vias": [
@@ -24679,7 +24690,7 @@
 ]
 },
 {
-"slug": "carmela-di-guida-guido",
+"slug": "carmela-di-guida",
 "name": "(Maria) Carmela di Guida / Guido (Falco)",
 "via": "tree",
 "vias": [
@@ -25338,7 +25349,7 @@
 "event": "death",
 "date": "9 Aug 1871",
 "place": "Arienzo, Contrada Camellara",
-"evidence": "**HIS DEATH — and until this was read his page said «no register act has been read for this person yet».** Read from the image on 8 October 2026, from the 1871 annual death index.\n\n«*…sono comparsi **MARCANTONIO CRISCI fu Giuseppe, calzolaio, di anni cinquantasette**, e **FRANCESCO FERRIELLO fu Pietro Ferraro, di anni cinquantadue**, domiciliati in Arienzo, i quali mi hanno dichiarato che alle **ore dieci d'Italia di oggi** [**9 agosto 1871**], in questo Comune, **nella casa di ANTONIO FALCO, sita nella CONTRADA CAMELLARA**, è morto **FABRIZIO FALCO, contadino, DI MESI SETTE**, nato e domiciliato in questo Comune di Arienzo, **figlio di ANTONIO e di CARMELA GUIDA, contadini**, domiciliati in Arienzo.*»\n\n**THE ARCHIVE HELD HIS BIRTH AND NO DEATH DATE AT ALL.** The family tree gives **22 December 1870**; «*di mesi sette*» on 9 August 1871 is **seven and a half months**. *The birth and the age were written by different hands a year apart and they agree.*\n\n*Placed here on the couple — the act names **Antonio** and **Carmela Guida** — and on the street: **Contrada Camellara**, which is where his brother-in-arms in the register, Raffaele Falco, died the day before in another Falco house.*",
+"evidence": "**HIS DEATH — and until this was read his page said «no register act has been read for this person yet».** Read from the image on 8 October 2026, from the 1871 annual death index.\n\n«*…sono comparsi **MARCANTONIO CRISCI fu Giuseppe, calzolaio, di anni cinquantasette**, e **FRANCESCO FERRIELLO fu Pietro Ferraro, di anni cinquantadue**, domiciliati in Arienzo, i quali mi hanno dichiarato che alle **ore dieci d'Italia di oggi** [**9 agosto 1871**], in questo Comune, **nella casa di ANTONIO FALCO, sita nella CONTRADA CAMELLARA**, è morto **FABRIZIO FALCO, contadino, DI MESI SETTE**, nato e domiciliato in questo Comune di Arienzo, **figlio di ANTONIO e di CARMELA GUIDA, contadini**, domiciliati in Arienzo.*»\n\n**THE ARCHIVE HELD HIS BIRTH AND NO DEATH DATE AT ALL.** The family tree gives **22 December 1870**; «*di mesi sette*» on 9 August 1871 is **seven and a half months**. *The birth and the age were written by different hands a year apart and they agree.*\n\n*Placed here on the couple — the act names **Antonio** and **Carmela Guida** — and on the street: **Contrada Camellara**, which is where his brother-in-arms in the register, Raffaele Falco, died the day before in another Falco house.*\n\n---\n\n**AND THE PARENTS' MARRIAGE ACT IS NOW READ.** Arienzo **atto 22 of 1869**, **24 June**: «*ANTONIO FALCO DI ANNI VENTISEI COMPITI, contadino, nato e domiciliato in Arienzo, **FIGLIO DI VINCENZO** di condizione simile, **e di ANDREANA CRISCI**, filatrice, domiciliati col figlio*; e *CARMELA DI GUIDA di anni venti compiti … **FIGLIA DEL FU FABRIZIO** e della vivente **TERESA VACCINO***».\n\n**So this house belongs to `vincenzo-falco-andreana-crisci`** — Antonio is Vincenzo's son, born 13 May 1843. **And the dead child's name is the confirmation**: *Fabrizio* is his mother's dead father.",
 "ark": "FamilySearch 3:1:3QS7-8976-Q71C — image 680 of waypoint MC55-FNT, collection 2043630 — READ FROM THE IMAGE"
 }
 ],
@@ -25357,7 +25368,7 @@
 ]
 },
 {
-"slug": "carmela-di-guida-guido",
+"slug": "carmela-di-guida",
 "name": "(Maria) Carmela di Guida / Guido (Falco)",
 "via": "tree",
 "vias": [
@@ -28478,7 +28489,7 @@
 ]
 },
 {
-"slug": "carmela-di-guida-guido",
+"slug": "carmela-di-guida",
 "name": "(Maria) Carmela di Guida / Guido (Falco)",
 "via": "tree",
 "vias": [
@@ -32082,7 +32093,7 @@
 ]
 },
 {
-"slug": "carmela-di-guida-guido",
+"slug": "carmela-di-guida",
 "name": "(Maria) Carmela di Guida / Guido (Falco)",
 "via": "tree",
 "vias": [
@@ -35191,7 +35202,7 @@
 ]
 },
 {
-"slug": "carmela-di-guida-guido",
+"slug": "carmela-di-guida",
 "name": "(Maria) Carmela di Guida / Guido (Falco)",
 "via": "tree",
 "vias": [
@@ -39106,7 +39117,7 @@
 ]
 },
 {
-"slug": "carmela-di-guida-guido",
+"slug": "carmela-di-guida",
 "name": "(Maria) Carmela di Guida / Guido (Falco)",
 "via": "tree",
 "vias": [
@@ -43734,7 +43745,7 @@
 ]
 },
 {
-"slug": "carmela-di-guida-guido",
+"slug": "carmela-di-guida",
 "name": "(Maria) Carmela di Guida / Guido (Falco)",
 "via": "tree",
 "vias": [

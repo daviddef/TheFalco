@@ -238,7 +238,7 @@
    },
    {
     "who": "Filomena Falco (Crisci)",
-    "whoSlug": "filomena-falco",
+    "whoSlug": "filomena-falco-2",
     "to": "Antonio Crisci",
     "toSlug": "antonio-crisci",
     "into": "Crisci",
@@ -344,7 +344,7 @@
     "who": "Antonio Falco",
     "whoSlug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
     "to": "(Maria) Carmela di Guida / Guido (Falco)",
-    "toSlug": "carmela-di-guida-guido",
+    "toSlug": "carmela-di-guida",
     "into": "di Guida / Guido",
     "living": false
    },
@@ -624,7 +624,7 @@
    },
    {
     "name": "Filomena Falco (Crisci)",
-    "slug": "filomena-falco",
+    "slug": "filomena-falco-2",
     "b": "1839",
     "bp": "Arienzo",
     "d": "",
@@ -816,7 +816,7 @@
    },
    {
     "name": "Antonia Falco",
-    "slug": "antonia-falco",
+    "slug": "antonia-falco-d-1866",
     "b": "Dec 15 1851",
     "bp": "Arienzo",
     "d": "June 17 1866",
@@ -955,7 +955,7 @@
     "slug": "fabrizio-falco",
     "b": "Dec 22 1870",
     "bp": "Arienzo",
-    "d": "",
+    "d": "9 Aug 1871",
     "dp": ""
    },
    {
@@ -1808,7 +1808,7 @@
     "who": "Antonio Crisci",
     "whoSlug": "antonio-crisci",
     "to": "Filomena Falco (Crisci)",
-    "toSlug": "filomena-falco",
+    "toSlug": "filomena-falco-2",
     "into": "Falco",
     "living": false
    },
@@ -4920,7 +4920,7 @@
   "marriages": [
    {
     "who": "(Maria) Carmela di Guida / Guido (Falco)",
-    "whoSlug": "carmela-di-guida-guido",
+    "whoSlug": "carmela-di-guida",
     "to": "Antonio Falco",
     "toSlug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
     "into": "Falco",
@@ -4930,7 +4930,7 @@
   "people": [
    {
     "name": "(Maria) Carmela di Guida / Guido (Falco)",
-    "slug": "carmela-di-guida-guido",
+    "slug": "carmela-di-guida",
     "b": "1849",
     "bp": "",
     "d": "",

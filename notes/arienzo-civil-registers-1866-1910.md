@@ -2189,3 +2189,52 @@ said something quite different.*
 *Still to do at Arienzo: **1868, 1869, 1870, 1873–1877** in `MC55-FNT`, and the whole of
 `MC55-VNL` (**1878–1900**, 2,898 images, 97 covers already computed).* **Every one of them should
 start with its annual index.**
+
+---
+
+# 1869 AT ARIENZO — AND ANOTHER DIRECT HOUSEHOLD'S MARRIAGE ACT
+
+**`MC55-FNT` images 386–405**, «*Anno 1869 · Comune di Arienzo · Provincia di Terra di Lavoro ·
+REGISTRO di Matrimoni*», closed 22 December 1868 and run out to 31 December 1869. **Twenty-nine
+acts, each headed in the margin «N.º N · Matrimonio che si contrae tra X e Y».**
+
+> «**N.º 22 — Matrimonio che si contrae tra ANTONIO FALCO e CARMELA GUIDA**»
+
+**Image 400, read from the image:**
+
+> «*L'anno milleottocentosessantanove nel giorno **VENTIQUATTRO** del mese di **GIUGNO** nella Casa
+> Comunale alle ore **dodici**. Dinanzi a me **ALFONSO TROISI Sindaco** … colla presenza di
+> **Gennaro Imbimbo fu Vincenzo di anni sessanta** e di **Andrea Saccone fu Domenico di anni
+> cinquanta**, ambi **scrivani comunali** … sono comparsi **ANTONIO FALCO DI ANNI VENTISEI COMPITI,
+> contadino, NATO E DOMICILIATO IN ARIENZO, FIGLIO DI VINCENZO di condizione simile, E DI ANDREANA
+> CRISCI, FILATRICE, DOMICILIATI COL FIGLIO**; e **CARMELA DI GUIDA DI ANNI VENTI COMPITI,
+> contadina, domiciliata in Arienzo, FIGLIA DEL FU FABRIZIO e della vivente TERESA VACCINO,
+> filatrice, domiciliata con la figlia***»
+
+## IT JOINS TWO HOUSEHOLDS THIS ARCHIVE WAS HOLDING APART
+
+**`antonio-falco-carmela-guida` was created on 8 October from a single death act** — «*nella casa di
+**ANTONIO FALCO**, sita nella **CONTRADA CAMELLARA**, è morto **FABRIZIO FALCO**, contadino, di mesi
+sette … figlio di **ANTONIO** e di **CARMELA GUIDA***», 9 August 1871.
+
+**That Antonio is Vincenzo Falco's son**, born 13 May 1843 — same two forenames, same two surnames,
+same comune, two years after the wedding, and the pairing is unique in each direction.
+
+> **AND THE DEAD BABY'S NAME IS THE PROOF, independent of the names themselves.** Carmela's father
+> was **FABRIZIO DI GUIDA**, already dead when she married. **Their first son was called FABRIZIO.**
+
+## WHAT ELSE THE ACT PAYS
+
+- **The date was held as 23 June 1869 from a tree entry. The act says the TWENTY-FOURTH.**
+- **«DI ANNI VENTISEI COMPITI» on 24 June 1869** means born before 24 June 1843 — and this archive
+  holds his birth act, **13 May 1843**. *They agree.*
+- **VINCENZO FALCO and ANDREANA CRISCI were alive on 24 June 1869, and living in their son's
+  house.** *The archive's latest previous sighting of the couple alive was 16 December 1864.*
+- **Two names new to this archive**: **FABRIZIO DI GUIDA**, dead by June 1869, and **TERESA
+  VACCINO**, *filatrice*, alive and living with her daughter.
+
+## THE OTHER TWENTY-EIGHT ACTS OF 1869, AND NO OTHER FALCO
+
+Olella, Sposito, Migliore, Figlio, Martone, Ruotolo, Cannelli, Chiara, **Don Giovanni Crisci ×
+Angela Zimbardo**, Maryello, **Carmine Morgillo × Pasqua Morgillo** (act 24), Migliore, Saviano.
+**Act 22 is the year's only Falco.**
