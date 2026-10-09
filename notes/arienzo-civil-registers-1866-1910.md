@@ -1840,3 +1840,71 @@ died at Santa Maria a Vico in 1880.**
 
 *Two sons of a Giuseppe Falco of Arienzo, both ending up at Santa Maria a Vico, six years apart in
 age. **That is a family moving, and it is the shape the search for Giuseppe has been missing.***
+
+---
+
+# AND THE ARIENZO BIRTH ACT WAS ALREADY IN THIS ARCHIVE, READ AND UNCONNECTED
+
+`tools/isitread.py an_ua14406 an_ua14407 an_ua14408` — **run before a single new tile was fetched** —
+reports Arienzo's births of **1809, 1810, 1811, 1812 and 1813 all read act by act**. And
+`searched.json` for **1813** says:
+
+> **«Act 2, 5 January 1813** — *è comparso **GIUSEPPE FALCO**, di anni **trentatré**, di professione
+> **contadino**, domiciliato in detto Comune, **strada COSTA** … da **GELSOMINA VIGLIOTTA** sua
+> moglie legittima, di anni **ventotto**, un **maschio** … a cui si è dato il nome di **ANTONIO***.
+> The OTHER Giuseppe Falco — of strada Costa, not of Antonia di Guida — and **ANTONIO FALCO is a
+> child that household did not have**.»
+
+**That act was read weeks ago, written up, and left as a curiosity.** *It is the same man.*
+
+## THE FIVE AGREEMENTS AND THE ONE DISAGREEMENT, SET OUT PLAINLY
+
+| | Arienzo, birth act 2 of 1813 | Santa Maria a Vico, death act 63 of 1880 |
+|---|---|---|
+| forename | **ANTONIO** | **ANTONIO** |
+| father | **GIUSEPPE FALCO**, contadino, 33 | **fu GIUSEPPE**, colono |
+| mother's forename | **GELSOMINA**, 28 | **GELSOMINA** |
+| mother's surname | **VIGLIOTTA** | **NOBILE** ← *the disagreement* |
+| birthplace | Arienzo, **strada Costa** | «**NATO IN ARIENZO**» |
+| date | **5 January 1813** | «**di anni SETTANTA**» → about 1810 |
+
+**The age is three years out, and that is ordinary here.** *This archive's own note on the 1812
+volume says it plainly: «these clerks round constantly, and the same day produced a groom aged
+«thirty-two» whose birth act makes him thirty-one».* A son of a dead woman, dead himself, aged by two
+neighbours at four in the morning, is the softest age in the corpus.
+
+**The mother's surname is the only real obstacle, and it is a reading.** *«Ma—ª GELSOMINA NOBILE» was
+magnified three times and the surname does not resolve to Vigliotta — it is not a near-miss, it is a
+different word.* **Against it: GELSOMINA is an uncommon forename, and `GIUSEPPE FALCO × GELSOMINA
+VIGLIOTTA` is attested in this archive in 1810, 1813 and 1816.**
+
+## SO IT IS PUBLISHED AS A CANDIDATE AND NOT AS A MERGE
+
+**This archive never merges people on a name, and it is not going to start on five agreements and a
+contradicted surname.** *What is established is in the manuscript: an Antonio Falco, born at Arienzo
+about 1810 to a Giuseppe Falco and a Gelsomina, died a colono at Santa Maria a Vico on 8 May 1880,
+husband of Vincenza della Torre.*
+
+**What follows if the identification holds** — and it is written here so the next person can test it
+rather than rediscover it:
+
+> **THE STRADA COSTA FALCO HOUSEHOLD MOVED FROM ARIENZO TO SANTA MARIA A VICO.** Antonio, born 1813,
+> died there in 1880 with his father recorded as «*domiciliato in Santa Maria a Vico*». His brother
+> **DOMENICO**, born at Arienzo 25 November 1816 to the same couple, **married at Santa Maria a Vico
+> in 1863** — act 15, father «Falco Giuseppe» — which this archive read on 9 October and set aside.
+> **Two brothers, one town, and the father's domicile given as that town in 1880.**
+
+**AND IT IS NOT THIS LINE.** *Our Giuseppe Falco is a son of **Matteo Falco × Alessandra Crisci**, of
+the **CAMELLARA** household — the one told apart from strada Costa «*by street and wife*». **The
+strada Costa house is a different Falco family and is held as one.*** **But it proves the road: an
+Arienzo Falco household did move to Santa Maria a Vico, and its people are in that comune's registers
+under «nato in Arienzo».**
+
+## THE THREE TESTS, IN ORDER OF CHEAPNESS
+
+1. **Re-read the mother's surname in the 1880 act** against another capital N and another capital V
+   in the same clerk's hand — the control-letter test. *One tile.*
+2. **Arienzo's marriages for GIUSEPPE FALCO × GELSOMINA VIGLIOTTA**, which would give Giuseppe's own
+   parents and settle whether he is the «*di Francesco*» of the 1810 patronymic.
+3. **Santa Maria a Vico's deaths for GIUSEPPE FALCO himself** — the 1880 act says he died before his
+   son and was domiciled in that comune, so his act should be in the same series.
