@@ -1636,3 +1636,65 @@ own box at the **inner** edge — the right page's box sits at about **x = 0.52*
 margin sweep tuned to 1884 reads the odd acts of 1881 and calls them the book. *The crop is a
 property of the printing, not of the collection: **look at one whole leaf before trusting a band**,
 every time the printer changes.*
+
+---
+
+# A SECOND FALCO HOUSE AT SANTA MARIA A VICO — and the death tavole are the instrument
+
+**Antonio Falco, father of Lucia and Filomena, died between 28 December 1872 and 15 October 1881.**
+Santa Maria a Vico's annual **death tavole** were opened to find him, and they are the richest
+finding aid in this collection: four columns — **«N.° DEL REGISTRO · COGNOMI E NOMI de' MORTI ·
+COGNOMI E NOMI de' GENITORI · EPOCA DELLA MORTE»** — so **a death tavola names the dead person's
+PARENTS** and gives the day and month.
+
+Found with the cover map: the tavola is the leaf after the deaths cover. **1873 at image 1087,
+1874 at 1216.**
+
+| year | F section | Falco? |
+|---|---|---|
+| **1873** | entries 88–92: Ferraro, Froggiero ×3, Filippone | **no** |
+| **1874** | entries 41–48: Fonace, Fontanella ×2, Froggiero ×3, Fanino — **and entry 47** | **YES** |
+
+> «**47 | 176 | FALCO ANTONIO | Giuseppe e [Verdicchio] Orsola | 24 [Novembre]**»
+
+## AND THE ACT IS NOT THE MAN WE WERE LOOKING FOR — IT IS A DIFFERENT HOUSE
+
+**Image 1266, right page, act 176, read at magnification:**
+
+> «*L'anno milleottocentosettantaquattro il giorno **ventisette Novembre** alle ore nove
+> antimeridiane … sono comparsi **Pietro Marletta fu Matteo, d'anni sessantasette, inserviente
+> comunale**, domiciliato in questo Comune, Via Perrecchia, e **Fabrizio de Lucia fu Giuseppe,
+> d'anni cinquantaquattro**, di condizione simile, domiciliato ivi Via Riesi; i quali hanno
+> dichiarato che nel giorno suddetto alle ore **sette antimeridiane** in questo Comune **nella casa
+> di sua abitazione sita alla VIA SANT'APOLLONIA è morto ANTONIO FALCO, D'ANNI DUE, figlio di
+> GIUSEPPE ed ORSOLA VERDICCHIO, COLONI, domiciliati ivi***»
+
+**A child of two, born about 1872** — not the Antonio who gave two daughters away. *The tavola named
+him «Falco Antonio» and the age is nowhere on the tavola. **This is the Sosso rule again: the index
+told the truth and the act told the meaning.***
+
+## WHICH MAKES TWO FALCO HOUSEHOLDS IN THE TOWN, NOT ONE
+
+| household | where | documented by |
+|---|---|---|
+| **Antonio Falco × Vincenza della Torre** | Santa Maria a Vico | daughters' marriages, 1872 and 1881 |
+| **Giuseppe Falco × Orsola Verdicchio** | **Via Sant'Apollonia** | son's death, 1874 |
+
+**No kinship is claimed between them.** *Two Falco families at Santa Maria a Vico in the 1870s is
+the finding; joining them would be a guess.*
+
+### AND THIS GIUSEPPE FALCO IS NOT OURS — from dates, not from a feeling about the name
+
+**Ours was married to NICOLETTA NUZZO and fathering children by her at Arienzo through exactly these
+years** — Filomena in 1872, Vincenza in 1874, both from certified extracts in the processetti. **He
+cannot also be the husband of Orsola Verdicchio in the same two years.**
+
+*`tools/isitnew.py` on **Verdicchio** returns «nothing, in any corpus». The name is new to this
+archive.*
+
+## WHAT IS STILL OPEN
+
+**Antonio Falco × Vincenza della Torre is not in the death tavole of 1873 or 1874.** He died
+**1875–1881**, and those tavole are the next six leaves to read: *1875 and 1876 in `MC5R-M2Q`,
+1877 and 1878 in the same film, 1879–1881 in `MC5R-Q23`.* **His act would give his age, his parents
+and — the only question that matters — HIS BIRTHPLACE.**

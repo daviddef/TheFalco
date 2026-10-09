@@ -1846,5 +1846,19 @@
   "what": "Filomena Falco fu Antonio — who she was",
   "outcome": "yield",
   "got": "**«FALCO FILOMENA, di anni VENTISEI, COLONA, NATA IN SANTAMARIA A VICO … FIGLIA DEL FU ANTONIO … e di DELLA TORRE VINCENZA»**, married **Della Marca Cristofaro, 32, colono of S. Felice a Cancello**, 15 October 1881.\n\n**She is the SISTER of Lucia Falco**, married in the same town on 28 December 1872 to Salvatore Folgieri — same father Antonio, same mother Vincenza. **Born about 1855 at Santa Maria a Vico**, so the household was there by 1855.\n\n**And Antonio Falco died between 28 December 1872 and 15 October 1881.** His death act would give his birthplace, and that is the next thing to read.\n\n*A layout warning for the next sweep: the 1881 book puts each page's Numero box at the INNER edge — the right page's at about x = 0.52, not 0.80. A band tuned to the 1884 printing reads half this book.*"
+ },
+ {
+  "when": "1873, 1874",
+  "searchedOn": "2026-10-09",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Santa Maria a Vico",
+  "waypoint": "MC5R-M2Q",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G97N-CFM3?cc=2043630&wc=MC5R-M2Q",
+  "pages": "1087-1090, 1216-1219, 1222, 1245, 1265-1267",
+  "walked": true,
+  "src": "**SANTA MARIA A VICO, DEATHS 1873 AND 1874 — read from their annual TAVOLE**, found with the cover map (the tavola is the leaf after the deaths cover: **1873 at image 1087, 1874 at 1216**).\n\n**A death tavola is the richest finding aid in this collection**: «*N.° DEL REGISTRO · COGNOMI E NOMI de' MORTI · **COGNOMI E NOMI de' GENITORI** · EPOCA DELLA MORTE*» — **it names the dead person's parents** and gives day and month.",
+  "what": "Antonio Falco of Santa Maria a Vico, who died between 28 Dec 1872 and 15 Oct 1881",
+  "outcome": "yield",
+  "got": "**1873: no Falco** — the F section is Ferraro, Froggiero ×3 and Filippone.\n\n**1874: «47 | 176 | FALCO ANTONIO | Giuseppe e Orsola | 24 [Novembre]» — and the act was read rather than assumed.** Image 1266: «*nella casa di sua abitazione sita alla **VIA SANT'APOLLONIA** è morto **ANTONIO FALCO, D'ANNI DUE**, figlio di **GIUSEPPE ed ORSOLA VERDICCHIO, COLONI**, domiciliati ivi*».\n\n**A child of two, not the father of two married daughters** — so the man being hunted is still unfound, and **a SECOND Falco household at Santa Maria a Vico is**. Held as `giuseppe-falco-orsola-verdicchio`.\n\n**This Giuseppe Falco is not the archive's own**: ours was married to Nicoletta Nuzzo and fathering children by her at Arienzo in 1872 and 1874. *`isitnew.py` on «Verdicchio» returns «nothing, in any corpus».*\n\n**Antonio Falco × Vincenza della Torre therefore died 1875–1881**, and those tavole are the next thing to read."
  }
 ]

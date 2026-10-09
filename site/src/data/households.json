@@ -9355,5 +9355,44 @@
     "ark": "3:1:FS MC5R-Q23 img 329 — Santa Maria a Vico, matrimoni 1881, atto 30"
    }
   ]
+ },
+ {
+  "id": "giuseppe-falco-orsola-verdicchio",
+  "name": "Giuseppe Falco & Orsola Verdicchio (Santa Maria a Vico)",
+  "members": [
+   {
+    "hid": "giuseppe-falco-orsola-verdicchio",
+    "household": "Giuseppe Falco & Orsola Verdicchio (Santa Maria a Vico)",
+    "person": "Antonio Falco (of Giuseppe, d. 1874 aged two)",
+    "role": "child",
+    "event": "death",
+    "date": "27 Nov 1874",
+    "place": "Santa Maria a Vico, Via Sant'Apollonia",
+    "evidence": "**«…nella casa di sua abitazione sita alla VIA SANT'APOLLONIA è morto ANTONIO FALCO, D'ANNI DUE, figlio di GIUSEPPE ed ORSOLA VERDICCHIO, COLONI, domiciliati ivi»** — Santa Maria a Vico, **death act 176 of 1874**, **27 November, seven in the morning**, declared at nine by **Pietro Marletta fu Matteo, 67, inserviente comunale** of Via Perrecchia and **Fabrizio de Lucia fu Giuseppe, 54**, of Via Riesi, before **Gabriele Bernardo, Sindaco**. Read from the image 9 October 2026. **Born about 1872.**",
+    "ark": "3:1:FS MC5R-M2Q img 1266 — Santa Maria a Vico, morti 1874, atto 176"
+   },
+   {
+    "hid": "giuseppe-falco-orsola-verdicchio",
+    "household": "Giuseppe Falco & Orsola Verdicchio (Santa Maria a Vico)",
+    "person": "Giuseppe Falco (of Santa Maria a Vico)",
+    "role": "father",
+    "event": "named in his son's death act",
+    "date": "27 Nov 1874",
+    "place": "Santa Maria a Vico, Via Sant'Apollonia",
+    "evidence": "**«figlio di GIUSEPPE ed ORSOLA VERDICCHIO, coloni, domiciliati ivi»** — named in his two-year-old son's death act at Santa Maria a Vico, 27 November 1874, living at **Via Sant'Apollonia**.\n\n**HE IS NOT THIS ARCHIVE'S GIUSEPPE FALCO.** Ours was married to **Nicoletta Nuzzo** and was fathering children by her at Arienzo through exactly these years — Filomena in 1872, Vincenza in 1874 — so he cannot also be the husband of Orsola Verdicchio in the same two years. *That is the whole of the argument, and it is an argument from dates, not from a feeling about the name.*\n\n**NOR IS HE SHOWN TO BE KIN TO ANTONIO FALCO × VINCENZA DELLA TORRE**, the other Falco household now documented in the same comune. *Two Falco families at Santa Maria a Vico in the 1870s is the finding. Joining them would be a guess.*",
+    "ark": "3:1:FS MC5R-M2Q img 1266 — Santa Maria a Vico, morti 1874, atto 176"
+   },
+   {
+    "hid": "giuseppe-falco-orsola-verdicchio",
+    "household": "Giuseppe Falco & Orsola Verdicchio (Santa Maria a Vico)",
+    "person": "Orsola Verdicchio",
+    "role": "mother",
+    "event": "named in her son's death act",
+    "date": "27 Nov 1874",
+    "place": "Santa Maria a Vico, Via Sant'Apollonia",
+    "evidence": "**«ORSOLA VERDICCHIO … colona, domiciliata ivi»** — Via Sant'Apollonia, Santa Maria a Vico, November 1874. **A name this archive had never met in any corpus**: `tools/isitnew.py` returns «nothing, in any corpus» for *Verdicchio*.",
+    "ark": "3:1:FS MC5R-M2Q img 1266 — Santa Maria a Vico, morti 1874, atto 176"
+   }
+  ]
  }
 ]
