@@ -143,3 +143,40 @@ filatrice, figlia maggiore di **Gennaro Morgillo** d'anni settanta, bracciale*»
 > **So ANGELA ROSA MORGILLO's parents did not marry at San Felice in 1814, 1815, 1816 or 1817.**
 > *What is left there is **1809–1813** — `an_ua50221`–`an_ua50225`, ninety images — or they married
 > in another comune.*
+
+## AND SAN FELICE'S WHOLE MARRIAGE RECORD TO 1818 IS NOW READ — the Morgillo × Pesce marriage is not in it
+
+**Five more volumes read act by act on 10 October**: `an_ua50221` (1809), `an_ua50222` (1810),
+`an_ua50223` (1811), `an_ua50224` (1812), `an_ua50225` (1813) — **ninety images** — on top of 1814
+(`an_ua50226`, forty-two acts) and the 1815 index.
+
+> **THE DENSITY IS STATED BECAUSE IT DECIDES WHETHER THE NEGATIVE IS WORTH ANYTHING.** A first pass
+> put **fourteen images on one sheet**. This archive's own rule, written after the 1819 sweep, is
+> **nine** — «*at four columns the names are gone, and a negative off an illegible sheet is worth
+> nothing*». **Everything here was re-read at nine images to a sheet before a word of it was written
+> down**, 1814 included.
+
+**NOT ONE MORGILLO × PESCE IN SEVEN YEARS.** *Both surnames are in the town and they never meet:*
+
+- **Nicola Morgillo**, 19, «*figlio del fu **Biaggio Morgillo** e della Sig.ra **Rosa d'Addio***»,
+  married **Anna della Marca** in **1809**
+- **Antonio Morgillo**, 25, «*figlio del fu **Giuseppe Morgillo** e di **Angela [Pascarello]***»,
+  married a **Basilicata** in **1810**
+- **Gelsomina Morgillo**, 29, «*figlia maggiore del fu **Giuseppe Morgillo** … e di **Angela
+  Pascarello***», married in **1812** — *the same house as Antonio*
+- **Rachele Morgillo**, 29, «*figlia del fu **Pasquale***», and **Maria Rosa Morgillo**, 24,
+  «*figlia maggiore di **Gennaro Morgillo**, d'anni settanta*», both married in **1814**
+- **Pasquale Morgillo**, «*fu Matteo*», married **Carmina B——** in **1815**
+- And **Pesce**: *Pellegrino Pesce «figlio di **Giuseppe Pesce**» (1811), Tommaso Pesce's son (1814),
+  **Giuseppa Pesce** and **Catarina Pesce** as mothers.*
+
+### SO THE QUESTION MOVES TOWNS
+
+**Angela Rosa Morgillo was born at San Felice on 24 February 1818, and her parents did not marry
+there** — not in 1809, 1810, 1811, 1812, 1813, 1814, 1815, 1816 or 1817. *The last two were read in
+September; the rest today.*
+
+> **They married in another comune.** The places these registers themselves keep naming are
+> **Santa Maria a Vico d'Arienzo**, **Arienzo**, **Cancello**, **Maddaloni** and **Forchia** — and
+> the bride's own town is the one to try first, which is exactly what the marriage act would name
+> and no other document will.
