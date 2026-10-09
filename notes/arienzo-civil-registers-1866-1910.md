@@ -1164,3 +1164,45 @@ act.** `fsmargin.py` does it; twenty-eight leaves became four strips.
 *Santa Maria a Vico does take Arienzo grooms: the 1863 tavola has **Falco Domenico of Arienzo**, and
 the 1876 one has **Guida Angelandrea of Arienzo**. The mechanism is real; this is simply not where
 Giuseppe married, in the years read.*
+
+
+---
+
+# `MC5R-Q23` — three of its marriage years read, and Giuseppe is in none of them
+
+**Santa Maria a Vico, 1879–1894, 3,013 images.** *The ark index came from the open API and is on disk
+as `data/smav-q23-tribunale-images.tsv`; the thumbnail survey is part-run.*
+
+**The volume does NOT run year by year in a single line.** Probing at fifty-image steps shows the
+books interleaved — deaths, births, marriages, an index, deaths again — so the marriage books had to
+be found by probe rather than by arithmetic.
+
+| year | marriage material | how read | result |
+|---|---|---|---|
+| **1880** | **«MODULO DELL'INDICE ANNUALE *dei Matrimoni*», image 139**; book 141+ | **the whole index**, 25 couples, A–R | **F section = «Fannucci Alfonso» ALONE** |
+| **1882** | book 487–514 | **margin-box sweep**, Parte I acts 1–35 **and Parte II** | no Falco |
+| **1883** | book 643–670 | **margin-box sweep**, Parte I acts 1–29 **and Parte II** | no Falco |
+
+**NOT ONE FALCO GROOM IN ANY OF THE THREE.**
+
+## THE 1880 INDEX IS WORTH KEEPING FOR ITS OWN SAKE
+
+It is the **«Modulo dell'Indice annuale dei Matrimoni»** — two columns a page, **groom and bride with
+each one's patronymic, and the act number**. Twenty-five couples on one leaf. *The sections run A · B
+· C · D · **E** · **F** · L · M · N · P · R — the alphabet is complete and the F section holds one
+man who is not a Falco.*
+
+**And it carries a NUZZO:** «*19 — **NUZZO Clemente di Michele** / Greco M.ª Giuseppa fu Carmine —
+act 9*». **Nicoletta Nuzzo's family marries at Santa Maria a Vico**, which is the reason for looking
+here at all — *and it is still not Giuseppe.*
+
+## WHAT IS NOT COVERED, AND IT IS MOST OF THE VOLUME
+
+- **1879, 1881 and 1884–1894 are unread.** Their marriage books were not located; the survey that
+  would find every cover is **645 of 3,013 images in** and was deliberately left running rather than
+  raced against the probes.
+- *The working window — Nicoletta Nuzzo born 1855 on the tree, so a wedding about 1873–1882 — is
+  **covered for 1880 and 1882 and open for 1879 and 1881.***
+
+**`tools/fsmargin.py` earns its place again**: the 1882 and 1883 books, fifty-six leaves between
+them, became eight strips and two readings. *No act was opened.*
