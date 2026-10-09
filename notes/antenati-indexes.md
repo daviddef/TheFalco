@@ -79,3 +79,43 @@ and `notes/antenati-holdings-discovery.md`.
   catalogue count exactly. AFTER 1847 the index is BOUND INTO THE REGISTER ITSELF**, at the front
   (verified in 1851, `an_ua14353`). So every year has a finding aid in one form or the other, and
   the act-by-act sweep was never necessary for any of them.
+
+## AND THE RECORD TYPES THEMSELVES WERE BEING GUESSED — 10 October 2026
+
+`tools/antenati_holdings.py` asked Antenati for six record types:
+
+```python
+KINDS = ["Nati", "Matrimoni", "Morti", "Diversi", "Allegati", "Cittadinanze"]
+```
+
+**«Allegati» is not a value Antenati uses.** Asking for it returns the facet's own empty answer —
+«*Allegati 1 years: 1703*», and **1703 is an artefact year that comes back on every query for every
+town** — and this archive read that as *the processetti are not online*. **Moiano, Paolisi and San
+Felice a Cancello have carried «unexamined» ever since.**
+
+**The real value is «Matrimoni, processetti», and all four towns have it:**
+
+| town | years | first ark |
+|---|---|---|
+| **Arienzo** | 1809–1835, 1837–1865 | `an_ua14149` |
+| **Moiano** | **1809–1860** | **`an_ua1116121`** |
+| **Paolisi** | **1817–1835, 1837–1860** | **`an_ua975596`** |
+| **San Felice a Cancello** | **1817, 1819–1822, 1824–1865** | **`an_ua50166`** |
+
+**VERIFIED TWO WAYS BEFORE IT WAS WRITTEN DOWN.** *Arienzo's first ten processetti arks run
+**14149–14158**, and the 1814 volume this archive read in September is **`an_ua14154`** — inside
+that range at exactly `14149 + (1814 − 1809)`.* **And San Felice's 1817 volume was opened**: 680
+images; leaf 2 a Latin parish extract certifying a baptism of **1798**, leaf 3 an Italian one for a
+birth of **25 May 1793** «*della Parte Chiesa di **S. Felice Martire di questa Terra d'ARIENZO***».
+
+> **San Felice a Cancello's marriage dossiers bind certificates from Arienzo's own parishes.** *That
+> is the reason to read them, and it is not the reason they were opened.*
+
+**The tool no longer guesses.** It reads the town's own `tipologia_ss` facet off the page — the same
+principle the rest of the file already followed. **San Felice a Cancello offers thirty-four record
+types**, among them «*Matrimoni, indici decennali*», «*Nati, indice*», «*Nati, indice quadriennale*»
+and «*Morti, indice*» — **decennial and four-yearly indexes nobody here had asked for, while this
+archive read acts by eye.**
+
+*The three towns stay «unexamined» on `/processetti`, deliberately: they are **located, not read**,
+and softening the word would hide the work that is left.*
