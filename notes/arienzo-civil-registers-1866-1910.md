@@ -1698,3 +1698,77 @@ archive.*
 **1875–1881**, and those tavole are the next six leaves to read: *1875 and 1876 in `MC5R-M2Q`,
 1877 and 1878 in the same film, 1879–1881 in `MC5R-Q23`.* **His act would give his age, his parents
 and — the only question that matters — HIS BIRTHPLACE.**
+
+## THE DEATH TAVOLE, YEAR BY YEAR
+
+| year | tavola | F section | Falco? |
+|---|---|---|---|
+| **1873** | img 1087–1090 | Ferraro, Froggiero ×3, Filippone | no |
+| **1874** | img 1216–1219 | Fonace, Fontanella ×2, Froggiero ×3, Fanino, **Falco Antonio** | **the two-year-old** |
+| **1876** | img 1604–1605 | **two entries only**: Froggiero Mª Rosa, Fantarella Andrea | no |
+| **1878** | img 1927–1928 | Fantarella ×3, Froggieri ×4, Ferrara | no |
+
+**Antonio Falco × Vincenza della Torre is in none of them.** *He died in **1875, 1877, 1879, 1880 or
+1881**.*
+
+## AND THE FILM IS TWO REELS SPLICED, WHICH IS WHY THE YEARS ARE OUT OF ORDER
+
+**Image 1475 is an END board**, and 1476 is a fresh target: «*ORIGINALE CONSERVATO PRESSO … **TRIBUNALE
+DI S. MARIA CAPUA V., CASERTA** … LOCALITY OF RECORD **SANTA MARIA A VICO, CASERTA** … TITLE OF
+RECORD **STATO CIVILE ANNI 1866 A 1910 — NASCITE, PUBBLICAZIONI…***», operator *Carfora Vincenzo /
+919*, reduction 42×.
+
+**So `MC5R-M2Q` is not one continuous run of years**: it is two reels, and the second restarts the
+series. *That is why 1876's deaths tavola sits at 1604 while 1876's births title page sits at 1478 —
+and it is why «the next year must be a hundred images further on» has been the wrong instinct in
+this volume all day.* **Read the title page; never the position.**
+
+## AND AN ARIENZO DOCUMENT IS BOUND INSIDE SANTA MARIA A VICO'S DEATHS
+
+**Image 1407**, in the 1874 deaths *Parte Seconda*: a letter on the headed paper of the **MUNICIPIO
+DI ARIENZO**, «*N. 640 … Arienzo li 26 Ottobre 1874*».
+
+*Parte II of a death register holds deaths that happened elsewhere and were transmitted — so **the
+comune of Arienzo wrote into Santa Maria a Vico's register**. **Parte II of these books is a place
+where Arienzo people appear in a Santa Maria a Vico volume**, and this archive has not read a single
+Parte II of the deaths.*
+
+## 1877 TOO — and its tavola is a loose slip bound in the MIDDLE of the book
+
+The 1877 deaths tavola is not at the front. **It is a loose folded sheet laid over images 1799–1804**,
+after the last printed act, and the camera caught it six times as it shifted.
+
+> **F section, entries 52–56**: Fontanella Giovanni · Froggiero Raffaele · Froggieri Angela ·
+> Froggieri Giuseppa · Fontanella Andrea. **No Falco.**
+
+*The margin sweep of images 1777–1835 agrees: eighty-seven printed acts, no Falco among them.*
+
+## WHERE ANTONIO FALCO'S DEATH MUST BE
+
+| year | read | Falco |
+|---|---|---|
+| 1873 | tavola | no |
+| 1874 | tavola + act | **a two-year-old of another house** |
+| 1875 | **NOT READ — the deaths book is not located** | — |
+| 1876 | tavola | no |
+| 1877 | tavola + whole register swept | no |
+| 1878 | tavola | no |
+| 1879, 1880, 1881 | **NOT READ** (`MC5R-Q23`) | — |
+
+**So he died in 1875, 1879, 1880 or 1881.** *Four years left, and the Q23 cover map already puts the
+1879 deaths register at image 6.*
+
+# AND A FALCO BIRTH AT SANTA MARIA A VICO IN 1880 — located, NOT read
+
+**`MC5R-Q23` image 63 is «MODULO DELL'INDICE ANNUALE delle nascite 1880».** Its **F** section opens:
+
+> «**57 — Falco M.ª A—ª di Giuseppe —— — reg. 4**»
+
+**A Falco child born at Santa Maria a Vico in 1880 to a GIUSEPPE.** *The index's register-number
+column has misled this archive four times in two days, and act 4 of the 1880 births is «**Diglio
+Antonio**» — so **the number is not to be trusted and the entry is recorded as LOCATED, NOT READ**.
+The 1880 births register runs from image 64 and must be swept at the margin box to find her.*
+
+**Whose child she is matters.** *Giuseppe Falco × Orsola Verdicchio were at Via Sant'Apollonia in
+1874 and are the obvious house. **But this archive's own Giuseppe Falco is also a Giuseppe with a
+wife**, and the only way to tell is the act — which names the mother.*
