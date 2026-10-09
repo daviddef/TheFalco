@@ -2041,5 +2041,33 @@
   "what": "The deaths of Matteo Falco and Alessandra Crisci",
   "outcome": "pending",
   "got": "**THE WINDOW IS NOW SIX YEARS WIDE, AND IT WAS NOT KNOWN THIS MORNING.**\n\n**Both were dead by October 1871**, from two independent acts: their daughter **Vincenza's** marriage of 8 October 1871 and their daughter **Domenica's** of 10 October 1874 both read «*figlia **DE' FURONO** Matteo e Alessandra Crisci*» — the plural, in the clerk's own word.\n\n**And neither is in Antenati's Arienzo death series**, which `tools/isitread.py` reports **read act by act for FALCO across 1844–1865**, on top of the long 1816–1858 campaign.\n\n**So they died between 1866 and October 1871** — the six years after Antenati's Arienzo shelf ends and before their daughters' acts call them dead — **and those years are in `MC55-FNT`, the volume whose marriage books were read today.** The cover map in `data/fs-covers.tsv` already places **MORTE 1867 at images 236–275** and **MORTE 1868 at 341–381**; **1871's deaths have an annual index at image 661**.\n\n**A death act of this period gives the dead person's AGE, BIRTHPLACE and PARENTS** — for Matteo Falco the first document ever to name his own parents, for Alessandra Crisci the first of any kind after her last child in 1852.\n\n*Not read: the FamilySearch session expired at 22:31 on 9 October and every request since returns 401. **Nothing here is a negative.***"
+ },
+ {
+  "when": "1815",
+  "searchedOn": "2026-10-10",
+  "provider": "antenati",
+  "film": "San Felice a Cancello — «Matrimoni, indice»",
+  "waypoint": "",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua50137",
+  "pages": "1-4",
+  "walked": true,
+  "src": "**SAN FELICE A CANCELLO, THE 1815 MARRIAGE INDEX — `an_ua50137`, four images, read out.** *Found on 10 October by asking Antenati what record types the town actually has: «**Matrimoni, indice**» runs 1815, 1817–1819, 1825–1845, 1847–1849, first ark `an_ua50137`, and the volumes are three to six images each.*\n\n**It is the richest finding aid this archive has met**: «*Nomi e Cognomi degli **Sposi** | Nomi e Cognomi de' **Genitori** | **Patria** | Giorno della celebrazione del Matrimonio*» — **both spouses, BOTH SETS OF PARENTS, each one's home town, and the date**, two lines to a marriage. *The town calls itself «li sei Casali d'Arienzo» at the head of it.*",
+  "what": "The marriage of ANGELA ROSA MORGILLO's parents — a Morgillo groom and a Pesce bride",
+  "outcome": "nothing",
+  "got": "**NO MORGILLO × PESCE.** The year's one Morgillo groom is **«34 — Pasquale Morgillo, fu Matteo e [Bordia] Laudato / Carmina B——, fu Domenico e Rosa Steffolino», 25 September 1815**, and his bride is not a Pesce. *Two Pesce grooms are in the year — Antonio Pesce «di Francesco e Carlo Isabella» who married Mª Luisa Maggiore of Arienzo on 2 January, and Andrea Pesce — and neither marries a Morgillo.*"
+ },
+ {
+  "when": "1814",
+  "searchedOn": "2026-10-10",
+  "provider": "antenati",
+  "film": "San Felice a Cancello — Matrimoni",
+  "waypoint": "",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua50226",
+  "pages": "2-23",
+  "walked": true,
+  "src": "**SAN FELICE A CANCELLO, MATRIMONI 1814 — `an_ua50226`, images 2–23, forty-two acts, every one swept at the spouses' band** (`--band 0.12 0.30 --half LR`).",
+  "what": "The marriage of ANGELA ROSA MORGILLO's parents — a Morgillo groom and a Pesce bride",
+  "outcome": "nothing",
+  "got": "**NO MORGILLO × PESCE in the forty-two acts.** *One Morgillo appears and she is a bride: **«Maria Rosa Morgillo, d'anni ventiquattro, filatrice, figlia maggiore di Gennaro Morgillo d'anni settanta, bracciale, domiciliato colla figlia»**.*\n\n**So the window narrows**: Angela Rosa Morgillo was born at San Felice on **24 February 1818**, and her parents' marriage is **not** in San Felice's registers of **1814, 1816 or 1817** (1816 and 1817 were read in September) **nor in its index of 1815**. *What is left there is **1809–1813** — `an_ua50221`–`an_ua50225`, 90 images — or they married in another comune.*"
  }
 ]
