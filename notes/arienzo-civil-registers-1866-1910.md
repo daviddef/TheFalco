@@ -1042,9 +1042,14 @@ two years.
 - **Santa Maria a Vico**: de Lucia, Piscitelli, Nuzzo, Caprio, Savinelli, Abbatiello, Dabbo, Russo,
   Ruggiero, Vigliotti, Bernardo, Magliulo, Barisciano, Carfora. **Falco does not appear.**
 
-**FALCO IS AN ARIENZO SURNAME.** *It is not a name these neighbouring registers carry at all, which
-is a stronger negative than «he is not in this year»: a man of this family being born in either town
-would be an exception to the shape of both.*
+**FALCO IS AN ARIENZO SURNAME.** *No Falco family is resident in either town — not one Falco mother
+in six hundred birth acts — so a child of this family being born there would be an exception to the
+shape of both.*
+
+> **AND THE SENTENCE THAT STOOD HERE WAS TOO BROAD.** It said Falco «*is not a name these
+> neighbouring registers carry at all*». **That is true of the BIRTH registers and FALSE of the
+> MARRIAGE registers**, where an Arienzo Falco appears as a groom — see below. *The correction
+> matters, because it is the marriage registers the search actually needs.*
 
 ## TWO NAMES THAT DO MATTER, AND NEITHER IS HIM
 
@@ -1064,3 +1069,52 @@ Agresta Filippo e … de Lucia — 22 Feb 1841*». **Either would have answered 
 images instead of nine contact sheets.** *Santa Maria a Vico 1840's is bound in and blank, so it
 still cannot be assumed — **but the check is one image and it was not made first.*** The same mistake
 as Arienzo 1850 and 1852, made again.
+
+
+---
+
+# THE SANTA MARIA A VICO MARRIAGE REGISTERS — read to 1865, and the rest is behind a login
+
+**Giuseppe Falco and Nicoletta Nuzzo are not in them.** The six years Antenati holds at the end of
+the series — **1860, 1861, 1862, 1863, 1864, 1865** — were read through each volume's own
+**«TAVOLA ALFABETICA ANNUALE DE' MATRIMONJ»**, which gives, on one line: *the couple, the groom's
+**PATRIA**, both sets of parents, the date of the church wedding and the act number.*
+
+> **THE INDEX IS AT THE FRONT OF THESE VOLUMES, NOT THE BACK.** *Two leaves after the cover.* This
+> archive looked at the end first — where the Arienzo birth tavole sit — found the last acts and the
+> officer's closing, and concluded there was none. **It had been two images away the whole time.**
+
+## BUT A FALCO IS IN THEM, AND HE IS FROM ARIENZO
+
+**1863, entry 11 of the tavola**, read at magnification:
+
+> «**FALCO DOMENICO, e GUIDA DAMIANA** · *patria* **ARIENZO** · **FALCO GIUSEPPE, e GUIDA
+> MICHELANGELO** · **15 Giugno 1863** · act **15**»
+
+**An Arienzo man, marrying a Santa Maria a Vico woman, registered at HER comune — exactly the rule
+this archive works by.** *That is the mechanism the whole search depends on, and here it is
+demonstrated.*
+
+**`tools/isitnew.py` was run before anything was written down and it hit twice:**
+
+- This archive already holds a household «**Domenico Falco (m. 1844, Santa Maria a Vico)** ×
+  Mariantonia Frasca». **A Falco of Arienzo had already been found marrying at Santa Maria a Vico,
+  nineteen years earlier.**
+- And a **Domenico Falco born 25 November 1816** to «**GIUSEPPE FALCO, 36, *massaro*, strada COSTA**»
+  and **Gelsomina Vigliotta** — *the Giuseppe Falco of **strada Costa**, whom this archive's own note
+  separates from «the Camellara Giuseppe, this line's own», by the phrase «fu Matteo».*
+
+**NOTHING IS MERGED.** *A 1863 groom named Domenico son of Giuseppe could be that man remarried after
+a widowing, or a third Domenico; the act itself has not been read, and act 15 of 1863 is where that
+would be settled.* **He is not of this line either way: his father is the Costa Giuseppe, not ours.**
+
+## WHAT IS LEFT, AND WHY IT STOPPED
+
+**The marriage this archive wants is 1866 or later.** The family tree puts Nicoletta Nuzzo's birth at
+**1855**, which makes the wedding roughly **1873–1882** — *past the end of Antenati's Santa Maria a
+Vico series, which stops at 1865.*
+
+**Those years are FamilySearch's `MC5R-M2Q` (1866–1878, 2,156 images) and `MC5R-Q23` (1879–1894,
+3,013), both enumerated to disk and both unreadable: the session returned `401 Unauthorized —
+anonymous session` partway through the survey.** *David signs in; this archive never enters
+credentials.* **A 401 is a refusal and nothing here is recorded as a negative from it.**
