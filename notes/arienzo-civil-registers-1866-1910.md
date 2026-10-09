@@ -2125,3 +2125,67 @@ one act**.*
 - **act 16 — «Carmine RIVETTI e Maria Carmina Zimbardo»**. *Rivetti is this archive's own surname:
   Chiara Rivetti married Pasquale Falco. **No kinship claimed; the act is unread.***
 - **act 9 — «Angelo Laudato e Maria Caterina ARRICALE»**, and several more Arricale in the year.
+
+---
+
+# ARIENZO'S MARRIAGE BOOKS CARRY AN ANNUAL INDEX AT THE FRONT — and 1871 gives a direct-line act
+
+**This was missed all afternoon because the search was for a title page.** `MC55-FNT` image **594** is
+«**Indice annuale de' Matrimoni nell'anno 1871**», and it is **the first leaf of the marriage book**,
+before the register itself: two columns, «*COGNOME E NOME | NUMERO di REGISTRO*», **groom over
+bride**, with the alphabet's section letters written in — **A B C D E F G L M N O P R S T U V Z** —
+and the empty letters left as a row of dashes.
+
+> **So one leaf reads an Arienzo year, exactly as at Santa Maria a Vico, and the F section says in a
+> glance whether there is a Falco groom.** *1871's F section is **a row of dashes**.*
+
+**Thirty marriages, closed «Arienzo, il dì 1.º Gennajo 1872».**
+
+## AND ENTRY 19 IS THIS LINE'S OWN
+
+> «**19. Morgillo Carmine, e FALCO VINCENZA — 21**»
+
+**Act 21**, image 605, read from the image:
+
+> «*…sono comparsi **CARMINE MORGILLO, contadino, di anni VENTITRÉ COMPITI, nato e domiciliato in
+> questo Comune di Arienzo, FIGLIO DE' FURONO ANTONIO E FELICIA MAJONE**; e **VINCENZA FALCO,
+> CONTADINA, DI ANNI VENTINOVE COMPITI, nata e domiciliata in questo medesimo Comune di ARIENZO,
+> FIGLIA DE' FURONO MATTEO E ALESSANDRA CRISCI***»
+
+Publications **1 and 8 October 1871**; before **Nicola Finelli, Sindaco**; witnesses **Gennaro
+Imbimbo fu Vincenzo, 62** and **Andrea Saccone fu Domenico, 52**, both *scribenti*; **neither spouse
+could sign**.
+
+### IT CONFIRMS HER BIRTH AND IT DATES HER MOTHER'S DEATH
+
+**«DI ANNI VENTINOVE COMPITI»** in October 1871 puts her birth between October 1841 and October
+1842 — **and this archive holds her birth act, 18 May 1842.** *Two registers agree, and until today
+she was known only from her daughter's birth extract of 1874.*
+
+> **«FIGLIA DE' FURONO MATTEO E ALESSANDRA CRISCI» — BOTH PARENTS WERE DEAD BY 8 OCTOBER 1871.**
+
+**«Furono» is plural, and it is the clerk's own word**: four lines above he writes «*figlio de'
+**furono** Antonio e Felicia Majone*» for the groom's two dead parents. *The phrase was taken back to
+the manuscript at magnification before it was written down here, because a singular «fu» would have
+said something quite different.*
+
+- **MATTEO FALCO** — the 1874 extract had him as «*fu Matteo*». **This pushes his death back three
+  years, to before October 1871.**
+- **ALESSANDRA CRISCI** — **nothing before today dated her death at all.** She married Matteo on
+  24 January 1834 and bore nine children to 1852, and after that this archive had nothing.
+  **Her death is now bracketed: after September 1852, before October 1871** — and **Arienzo's death
+  registers from 1866 are open in this collection**, so the last five years of that bracket can be
+  read out.
+
+## THE ARIENZO MARRIAGE YEARS SO FAR
+
+| year | how | marriages | Falco |
+|---|---|---:|---|
+| **1866** | margin headings, images 45–59 | **27** | none |
+| **1867** | images 224–234, swept at a text band | ~13 | **none seen** — *and the band does not guarantee every act's spouses were in view; this nil is weaker than the others and is said to be* |
+| **1871** | **annual index at image 594** + act 21 | **30** | **FALCO VINCENZA**, act 21 |
+| **1872** | margin headings, images 693–714 | **43** | **CARMINE ANTONIO FALCO**, act 35 |
+
+*Still to do at Arienzo: **1868, 1869, 1870, 1873–1877** in `MC55-FNT`, and the whole of
+`MC55-VNL` (**1878–1900**, 2,898 images, 97 covers already computed).* **Every one of them should
+start with its annual index.**
