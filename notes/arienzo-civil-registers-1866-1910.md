@@ -2416,3 +2416,50 @@ re-fetched to recompute them.
 > it.** *The lesson is the obvious one and it is the second time today a size filter has been the
 > wrong instrument: **filter on what the file IS, not on how big it is** — the 401s are 145 bytes
 > and begin `{"error"`, and matching that would have deleted nothing else.*
+
+---
+
+# WHERE MATTEO FALCO AND ALESSANDRA CRISCI DIED — THE WINDOW IS NOW SIX YEARS WIDE
+
+**Two things were established today and neither was known this morning.**
+
+**One, from two independent acts.** Their daughter **Vincenza's** marriage of **8 October 1871** and
+their daughter **Domenica's** of **10 October 1874** both read «*figlia **de' FURONO** Matteo e
+Alessandra Crisci*» — the plural, in the clerk's own word, used four lines above in each act for a
+groom's two dead parents. **Both were dead by October 1871.**
+
+**Two, from what this archive had already read and did not connect.** `tools/isitread.py` on the
+Antenati death volumes reports the Arienzo civil death series **1844–1865 read act by act for
+FALCO** — 1860, 1861 and 1862 on 22 September, 1863 and 1864 the same day, 1865 separately, and the
+years before that in the long 1816–1858 campaign. **Neither of them is in any of it.**
+
+> **So MATTEO FALCO and ALESSANDRA CRISCI died between 1866 and October 1871** — *in the six years
+> that fall after Antenati's Arienzo shelf ends and before their daughters' acts call them dead.*
+
+## AND THOSE SIX YEARS ARE OPEN, LOCATED, AND UNREAD
+
+**They are in `MC55-FNT`, the same volume whose marriage books were read today**, and the cover map
+now in `data/fs-covers.tsv` puts two of them exactly:
+
+| register | cover | book |
+|---|---|---|
+| **Arienzo, MORTE 1867** | 235 | **236–275** |
+| **Arienzo, MORTE 1868** | 340 | **341–381** |
+| **Arienzo, morti (year unread)** | 826 | 827–852 |
+
+*1866's, 1869's, 1870's and 1871's death registers are among the volume's remaining covers and have
+not been opened. **1871's deaths have an annual index at image 661** — «*Modulo dell'Indice annuale
+de' Morti nell'anno 1871*» — which was seen today and not read.*
+
+**A death act of this period gives the dead person's AGE, BIRTHPLACE and PARENTS.** *For Matteo
+Falco that would be the first document ever to name his own parents; for Alessandra Crisci it would
+be the first document of any kind after her last child in 1852.*
+
+> **THIS IS THE NEXT JOB, AND IT IS SMALL: six annual indexes, or six death books of about forty
+> leaves each, in a volume already mapped.**
+
+## IT CANNOT BE DONE TONIGHT
+
+**The FamilySearch session expired at 22:31 on 9 October**, mid-sweep, and every request since has
+returned `401 Unauthorized (anonymous session)`. *Credentials are David's to enter. **Nothing here
+is a negative; the reading simply stops.***
