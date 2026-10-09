@@ -61,3 +61,43 @@ nothing else in the estate would have caught this. *If the collision guard is ev
 same failure returns silently.* The decision was that the guard plus this paragraph is a better
 defence than a noisy gate; **if that turns out to be wrong it will be wrong the same way, with two
 true facts gone and every step green.**
+
+## TWENTY-TWO FINISHED SWEEPS WERE COUNTED AS OUTSTANDING, FOR A CAPITAL LETTER — 10 October 2026
+
+`tools/build_researchlog.py` decided whether a volume was finished with
+
+```python
+done = bool(re.search(r"\bCOMPLETE\b|VOLUME COMPLETE", src))
+```
+
+— **case-sensitive.** And **this archive does not write it in capitals.** Every per-volume sweep
+announces itself in its own title in lower case:
+
+> `# Arienzo civil death register 1824 — sweep complete`
+
+with **1834** saying «*Volume complete. All 57 images read*» and **1815** «*READ IN FULL*».
+
+**So the work list carried twenty-two finished sweeps as outstanding, each of them titled with the
+very word the gate was looking for, in the wrong case** — and `check:covers` reported
+«*25 of 25 outstanding item(s) — 22 register sweeps not finished*» for weeks. **All twenty-two were
+checked one by one against their own notes before the flag was changed; every one is genuinely
+read out.**
+
+**`check:covers` now reports «3 of 3 — 3 towns whose processetti are unexamined», which is the
+truth**, and the three are real work.
+
+### THE FIRST DRAFT MADE THE EXACT MISTAKE THIS FILE ALREADY WARNED ABOUT
+
+Accepting «*read in full*» and «*every act read*» anywhere in a note turned **seventeen finding
+files green in one run** — `queue`, `findings`, `four-impossible-dates` — because a finding file
+says «read in full» about somebody else's volume all the time. *That is the «OUTSTANDING IS NOT THE
+OPPOSITE OF COMPLETE» conflation written into this generator in September, walked into again in
+October by the person reading the warning.*
+
+**The generous phrasings now apply only to a `*-progress.md` file**, which is the archive's own
+convention for a per-volume sweep, and a note that says a sweep is **not** complete is excluded
+first.
+
+*One thing left alone deliberately: a non-sweep note containing a literal capitalised «COMPLETE»
+still gets the chip, because that was the rule before today and changing it would silently drop
+chips somebody meant to be there.*
