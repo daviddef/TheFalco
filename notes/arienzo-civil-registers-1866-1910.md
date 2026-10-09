@@ -2280,3 +2280,75 @@ pages earlier in the same series.* **Magnified, it is CRESCENZO.**
 
 > *The archive's own rule did the work: **read the letter, not the likely word.** A Vincenzo Falco
 > had been in front of me all afternoon, and that is exactly when the eye supplies one.*
+
+---
+
+# 1874 AT ARIENZO — TWO FALCO ACTS, AND ONE OF THEM IS THIS LINE'S
+
+**`MC55-FNT` images 854–871**, «*Anno 1874*», thirty-five acts, read at the margin headings.
+
+## ACT 20 — PASQUALANTONIO GUIDA × DOMENICA FALCO, 10 October 1874
+
+> «*…sono comparsi **PASQUALANTONIO GUIDA, CONTADINO, DI ANNI TRENTATRÉ COMPITI, nato e domiciliato
+> qui in ARIENZO, FIGLIO DEL FU FABRIZIO e della vivente TERESA VACCINO**, contadina, domiciliata
+> col figlio; e **DOMENICA FALCO, TESSITRICE, DI ANNI VENTOTTO COMPITI**, nata e domiciliata
+> parimente qui in Arienzo, **FIGLIA DE' FURONO MATTEO E ALESSANDRA CRISCI***»
+
+**She is Matteo Falco and Alessandra Crisci's daughter — Giuseppe's sister.**
+
+### THE ARCHIVE'S RECONSTRUCTION OF A NAME CUT BY A BINDING IS CONFIRMED
+
+*The margin of her own birth act carried her wedding, and the husband's forename was split across the
+fold: «Pasqua…» on one line, «…lantonio» on the next. **This archive wrote PASQUALANTONIO and said
+it was reading across a binding.*** **The act says Pasqualantonio.**
+
+### AND HER HUSBAND IS CARMELA DI GUIDA'S BROTHER
+
+«*figlio del **fu FABRIZIO** e della vivente **TERESA VACCINO***» — **the identical parents** named
+in **Arienzo act 22 of 1869**, where **CARMELA DI GUIDA** married **ANTONIO FALCO**, son of Vincenzo
+Falco and Andreana Crisci.
+
+> **Two Guida of one house married two Falco of two houses, five years apart** — and both acts were
+> read today, out of registers this archive had published as lost.
+
+### TWO MORE THINGS
+
+- **«DI ANNI VENTOTTO COMPITI»** on 10 October 1874 → born October 1845 to October 1846. *Her birth
+  act is **13 September 1846**.*
+- **«FIGLIA DE' FURONO MATTEO E ALESSANDRA CRISCI»** — *the plural again, three years after the same
+  clerk wrote it in her sister Vincenza's act. **Two independent acts now say both parents were
+  dead.***
+
+## ACT 35 — VINCENZO FALCO × ANGELA PELLONE, December 1874
+
+> «*…**DI ANNI VENTIQUATTRO COMPITI, nato e domiciliato qui in ARIENZO, VIA CORSO**, contadino,
+> **FIGLIO DI ANGELO** … **E DI MARIA CIMMINO**, donna di casa, **DOMICILIATI COL FIGLIO**; ed
+> **ANGELA PELLONE, CUCITRICE, DI ANNI VENTIDUE COMPITI**, similmente nata e domiciliata qui in
+> **ARIENZO, VIA SANT'ANDREA, FIGLIA DEL FU PASQUALE e della vivente CARMELA CRISCI**, filatrice,
+> domiciliata con la figlia*» — publications **6** and **13 December 1874**.
+
+**A Falco grandson born about 1850, of Via Corso**, and **ANGELO FALCO and MARIA CIMMINO alive and
+living with him**.
+
+### IT BEARS ON A REFUSAL THIS ARCHIVE MADE ON PURPOSE
+
+*The archive holds **ANGELANDREA FALCO**, born 12 September 1826 to Vincenzo Falco and Andreana
+Crisci, who married **MARIA CIMMINO** on 29 March 1847 — and, separately, an **«ANGELO FALCO»**
+married 17 April 1847, marked **«NOT JOINED»** to him.*
+
+**The 1874 act calls this groom's father simply ANGELO and names his mother MARIA CIMMINO** — the
+Angelandrea pairing, in a third document a generation later. **It is recorded as evidence and the
+two are still not merged.** *The refusal was made deliberately and this archive does not undo one on
+an inference.*
+
+## AND 1868 IS LOCATED BUT NOT READ
+
+**Cover 284, book 285–295**, «*Anno 186[8] · COMUNE di Arienzo · REGISTRO di matrimonj*», and the
+acts begin at 286 — «*L'anno milleottocentosessantotto … Innanzi a noi Alfonso Troisi Sindaco*».
+
+**Its acts carry only a NUMBER in the margin, not a heading**, and each runs across a page and a
+half, so neither the margin column nor a fixed text band reads it. *It needs a page-by-page reading
+and it is recorded as **located, not read**, rather than swept badly and called a nil.*
+
+*Also now read: the tail of **1867** at images 277–279 — acts into the high teens, closed 13 December
+1867. **No Falco.***
