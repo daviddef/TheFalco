@@ -8786,7 +8786,24 @@
 "tree"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "sara-ruggiero-of-vincenzo-falco-andreana-crisci",
+"name": "Sara Ruggiero",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "arcangelo-crisci-of-vincenzo-falco-andreana-crisci",
+"name": "Arcangelo Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "spouses": [
 {
 "slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
@@ -9601,9 +9618,17 @@
 "living": false,
 "parents": [],
 "spouses": [],
-"children": [],
-"siblings": [],
-"noKin": "stated-but-not-drawn"
+"children": [
+{
+"slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+"name": "Andreana Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
 },
 {
 "slug": "arcangelo-crisci-of-arcangelo-crisci-anna-falco",
@@ -38754,9 +38779,17 @@
 "living": false,
 "parents": [],
 "spouses": [],
-"children": [],
-"siblings": [],
-"noKin": "stated-but-not-drawn"
+"children": [
+{
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
 },
 {
 "slug": "pasquale-falco-of-francesco-falco-raffaela-falco",
@@ -43543,6 +43576,22 @@
 "via": "tree",
 "vias": [
 "tree"
+]
+},
+{
+"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci-2-2",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "chiara-rivetti-of-vincenzo-falco-andreana-crisci",
+"name": "Chiara Rivetti",
+"via": "register",
+"vias": [
+"register"
 ]
 }
 ],
@@ -54671,9 +54720,17 @@
 "living": false,
 "parents": [],
 "spouses": [],
-"children": [],
-"siblings": [],
-"noKin": "stated-but-not-drawn"
+"children": [
+{
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
 },
 {
 "slug": "chiara-rivetti-of-michele-falco-antonia-vigliotta",
@@ -56334,9 +56391,17 @@
 "living": false,
 "parents": [],
 "spouses": [],
-"children": [],
-"siblings": [],
-"noKin": "stated-but-not-drawn"
+"children": [
+{
+"slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+"name": "Andreana Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
 },
 {
 "slug": "sara-ruggiero-of-arcangelo-crisci-sara-ruggiero",

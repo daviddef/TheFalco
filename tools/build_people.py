@@ -928,11 +928,12 @@ for p in tree:
                 put(me, bucket, oslug, strip_ticks(other["name"]), "tree")
                 break
 
+_inlaw_edges = []
 # from the registers: a household name is "Father & Mother", its children the
 # members marked child. These are relationships a clerk wrote down.
 for h in households:
     parts = [s.strip() for s in h["name"].split("&")]
-    heads, kids = [], []
+    heads, kids, inlaws = [], [], []
     for k in hh_order:
         p = hh_people[k]
         here = p["household"] == h["name"] or p.get("alsoChildIn") == h["name"]
@@ -942,10 +943,58 @@ for h in households:
             kids.append(p); continue
         if (p["role"] or "").lower() in NOT_KIN:
             continue                       # a witness is not a relative
+        _rl = (p["role"] or "").lower()
+        # ONLY A PARENT. «sister of the bride» ends in the same three words and
+        # is not a parent of anybody; the first draft of this rule made CARMELA
+        # CRISCI her own sister's mother, which the build printed and this line
+        # exists to stop. The role must SAY father or mother.
+        if (("of the groom" in _rl or "of the bride" in _rl)
+                and (_rl.startswith("father") or _rl.startswith("mother")
+                     or "consenting father" in _rl or "consenting mother" in _rl)):
+            # A MARRIAGE ACT NAMES BOTH SPOUSES' PARENTS, and this archive
+            # records them in the couple's own household under «father of the
+            # groom», «mother of the bride» and the like. Until today the
+            # builder made no edge from those roles, so PASQUALE FALCO and
+            # CHIARA RIVETTI of generation two stood on their own pages with
+            # no line to their son VINCENZO, whose marriage act of 15 October
+            # 1814 names them — work-list row 97.
+            inlaws.append((p, "groom" if "of the groom" in _rl else "bride"))
+            continue
         if any(clean(x) == clean(p["name"]) for x in parts) or p["role"] in PARENT_ROLES:
             heads.append(p)
         elif p["role"] in CHILD_ROLES:
             kids.append(p)
+    # THE EDGE IS DRAWN ONLY WHERE IT IS FREE, which is what row 97 asked for.
+    #
+    # «father of the groom» names a relationship; it does not say WHICH record
+    # on this site is the other end of it, and this archive holds several
+    # Pasquale Falco. So nothing is matched across the archive by name. The
+    # groom is taken from THIS household's own name — «X & Y» is the archive's
+    # own statement of who the couple are, husband first — and the edge is made
+    # only when exactly one head of this household carries that name. Where the
+    # name is ambiguous or the household is not a couple, nothing is drawn and
+    # the page keeps saying so.
+    for _p, _side in inlaws:
+        _want = parts[0] if _side == "groom" else (parts[1] if len(parts) > 1 else None)
+        if not _want: continue
+        # MATCH THE PERSON STRING, NOT A CLEANED NAME.
+        #
+        # `clean()` strips brackets so that old URLs keep working, and this
+        # archive's way of telling two people of one name apart is exactly a
+        # bracketed qualifier — «Vincenzo Falco (of Angelo, of Via Corso)»
+        # cleans to «Vincenzo Falco» and collides with his own grandfather.
+        # The first draft of this rule matched on clean() and so drew no edge
+        # at all in the household row 97 was raised about. So: the exact string
+        # first, and the cleaned form only as a fallback when it is unambiguous.
+        _cand = [q for q in heads if q["name"] == _want]
+        if len(_cand) != 1:
+            _cand = [q for q in heads if clean(q["name"]) == clean(_want)]
+        if len(_cand) != 1: continue
+        _child = _cand[0]
+        if _child["slug"] == _p["slug"]: continue
+        put(people[_p["slug"]], "children", _child["slug"], _child["name"], "register")
+        put(people[_child["slug"]], "parents", _p["slug"], _p["name"], "register")
+        _inlaw_edges.append((h["id"], _p["name"], _side, _child["name"]))
     for a in heads:
         for b in heads:
             if a is not b: put(people[a["slug"]], "spouses", b["slug"], b["name"], "register")
@@ -1333,6 +1382,12 @@ for _r in out:
         _r["noKin"] = "stated-but-not-drawn"
     else:
         _r["noKin"] = "no-edge-recorded"
+if _inlaw_edges:
+    print(f"  marriage-act parents joined to their own child: {len(_inlaw_edges)}")
+    for _hid, _who, _side, _ch in _inlaw_edges:
+        print(f"      {_who} -> {_ch}   ({_side}, {_hid})")
+else:
+    print("  marriage-act parents joined to their own child: 0")
 print("  pages that will draw an EMPTY chart with a stated reason: "
       + ", ".join(f"{_v} {_k}" for _k, _v in
                   collections.Counter(r["noKin"] for r in out if r.get("noKin")).most_common()))
