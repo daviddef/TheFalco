@@ -119,3 +119,27 @@ archive read acts by eye.**
 
 *The three towns stay «unexamined» on `/processetti`, deliberately: they are **located, not read**,
 and softening the word would hide the work that is left.*
+
+## AND SAN FELICE A CANCELLO'S MARRIAGE INDEX IS THE BEST FINDING AID THIS ARCHIVE HAS MET
+
+`an_ua50137` — the **1815** volume, **four images** — is headed «*Indice de' Casali di S. Felice d'Arienzo per l'anno 1815*» and ruled in four columns:
+
+> «**Nomi e Cognomi degli SPOSI** | **Nomi e Cognomi de' GENITORI** | **Patria** | Giorno della celebrazione del Matrimonio»
+
+**Both spouses, BOTH SETS OF PARENTS, each one's home town and the date — two lines to a marriage,
+a whole year in four images.** *The town calls itself «li sei Casali d'Arienzo» at the head of it.*
+
+**The series runs 1815, 1817–1819, 1825–1845, 1847–1849** — twenty-eight volumes of three to six
+images each, **about 112 images for twenty-eight years.** *That is the cheapest reading of a town
+this archive has ever had available, and it was out of reach only because the tool was asking for a
+record type Antenati does not use.*
+
+**1815 read out: no Morgillo × Pesce.** The year's one Morgillo groom is «*34 — **Pasquale
+Morgillo**, fu Matteo e [Bordia] Laudato / **Carmina B——**, fu Domenico e Rosa Steffolino*»,
+25 September 1815. **1814's forty-two acts read out too** (`an_ua50226`, images 2–23): no Morgillo ×
+Pesce, and the year's one Morgillo is a bride — «*Maria Rosa Morgillo, d'anni ventiquattro,
+filatrice, figlia maggiore di **Gennaro Morgillo** d'anni settanta, bracciale*».
+
+> **So ANGELA ROSA MORGILLO's parents did not marry at San Felice in 1814, 1815, 1816 or 1817.**
+> *What is left there is **1809–1813** — `an_ua50221`–`an_ua50225`, ninety images — or they married
+> in another comune.*
