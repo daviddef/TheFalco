@@ -939,3 +939,78 @@ stated ages have already been shown to scatter by four years in each direction.
 3. **Never registered civilly** — which for this period would mean a parish baptism and no act.
 
 *The ninth child the tree counts is not named in it, so there is nothing to look for.*
+
+
+---
+
+# 1834 — ANGELA ROSA FALCO, and the marriage-to-1852 span is now read end to end
+
+**The couple married 24 January 1834. Their first child was born that December.**
+
+**Arienzo birth act 116 of 1834**, images 118–119:
+
+> «*ATTO DI NASCITA — **Num. d'ordine CENTOSEDICI**. L'anno mille ottocento **trentaquattro**, il dì
+> **CINQUE** del mese di **DECEMBRE**, ad ore sedici, avanti di noi **FRANCESCO D'AMBROSIO, Sindaco**
+> … del Comune di **CORPO D'ARIENZO** … **è comparsa CATERINA RUGGIERO, di anni SESSANTASEI, di
+> professione LEVATRICE, domiciliata in strada PORTA DI SOPRA**, quale ci ha presentato una
+> **FEMINA***» · tail: «*…**è nata da ALESSANDRA CRISCI, di anni VENTICINQUE, domiciliata in STRADA
+> CAMELLARA, e da MATTEO FALCO marito della stessa, di anni VENTICINQUE, di professione COLONO** …
+> **nel giorno CINQUE del mese di DECEMBRE, anno corrente, alle ore QUINDICI, nella casa propria di
+> detti conjugi** … il nome di **ANGELA ROSA***» · *Indicazione*, Sant'Andrea Apostolo: «*…
+> amministrato ad **ANGELA ROSA FALCO***».
+
+**THE TREE PUTS HER IN 1841 — a year read end to end at both bands and empty.** She is **5 December
+1834**, ten months and twelve days after her parents' wedding, and **she is the eldest of the nine,
+not Carmela.**
+
+## THE MIDWIFE DECLARED HER, WHICH IS WHY SHE WAS NEVER FOUND
+
+**CATERINA RUGGIERO, sixty-six, *levatrice*** stood in for the father. **The act's declarant line
+carries no Falco at all** — *a sweep of declarants reads straight past this child.* **It was the
+MOTHER band that found her**, and this household is now the plainest argument in the archive for
+reading both halves of the opening.
+
+## AND IT SETTLES THE SURNAME THE 1838 ACT LEFT OPEN
+
+**«Alessandra CRISCI» is written plainly here**, in a hand that leaves no doubt — where Carmela's
+1838 act left the terminal ambiguous between *-sci* and *-spi*. *Same family, same register series,
+four years apart.* **The 1838 reading is corroborated, and the note there still says what it could
+not read.**
+
+**Both parents are twenty-five in December 1834, so both born about 1809.** *That agrees exactly with
+Matteo's «thirty» in June 1839 — and it puts **Alessandra eight years earlier than the family tree's
+«b. 1817»**, which has no record behind it.*
+
+## SEVEN OF THE NINE, AND THE SPAN IS CLOSED
+
+| child | act | born | the tree said |
+|---|---|---|---|
+| **Angela Rosa** | **1834 n.º 116** | **5 December 1834** | *1841* |
+| **Carmela** | 1838 n.º 2 | 3 January 1838 | *1837* |
+| **Filomena** | 1839 n.º 74 | 20 June 1839 | 1839 |
+| **Vincenza** | 1842 n.º 46 | 18 May 1842 | 1842 |
+| **Maria** | 1844 n.º 37 | 15 August 1844 | *1843* |
+| Domenica | 1846 | 13 September 1846 | 1846 |
+| **Antonia** | 1851 n.º 135 | 15 December 1851 | *1851* |
+
+**Four of the tree's seven datable years were wrong**, and every one was wrong in the same direction
+— *later than the act.*
+
+**EVERY YEAR FROM 1834 TO 1852 HAS NOW BEEN READ.** Swept and empty for this couple: **1835, 1836,
+1837, 1840, 1841, 1843, 1845, 1847, 1848, 1849, 1850, 1852.**
+
+## WHICH LEAVES GIUSEPPE, AND THAT IS NOW A MEASURED NEGATIVE
+
+**Giuseppe Falco is not in Arienzo's birth registers between his parents' marriage and 1852.** His
+own birth act of 1887 — the one that made him a documented man at all — gives his age as
+**forty-six**, so about 1841; **1840 and 1841 are both empty, and so is every other year of the
+span.**
+
+*What remains: he was born in another comune; or his birth was never registered civilly; or his
+stated age is wrong by enough to put him after 1852 — **and this household's ages are wrong by up to
+twelve years elsewhere**, so that is not idle.* **The ninth child the tree counts is unnamed, so
+there is nothing to look for.**
+
+**By-catch of 1834**, recorded and not pursued: **Angela Raffaela Falco, eighteen, of strada
+Camellara, wife of Francescantonio Falco, twenty-seven** (image 26) — *the first-cousin marriage this
+archive already holds* — and **Giovanna Falco, twenty-eight** (image 99).

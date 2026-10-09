@@ -16915,6 +16915,13 @@
 "place": "Arienzo",
 "evidence": "**A CHILD OF THIS HOUSEHOLD THIS ARCHIVE DID NOT HAVE, AND THE LAST FALCO ACT ANTENATI CAN REACH.** Arienzo, Matrimoni **1865**, **act 3**, image 5 right — the first Falco found in the Arienzo marriage registers of **1861–1865**, which had never been read:\n\n«*ATTO DI SOLENNE PROMESSA DI MATRIMONIO — Num. d'ord. **3**. L'anno mille ottocento **sessantacinque**, il dì **ventitre** di **Gennajo**, alle ore **quindici**, avanti di Noi **RAFFAELE VIVOTTI Sindaco** ed uffiziale dello Stato Civile di **Arienzo**, distretto di **Caserta** … sono comparsi nella Casa Comunale **VINCENZO ABATIELLO**, di anni **quaranta**, nato in **Liveri**, di professione **contadino**, domiciliato ivi, figlio del **fu ANTONIO**, di professione simile, e di **fu ALESSANDRA ALVANESE** — ed **ANGELA FALCO**, di anni **ventotto**, nata in **Arienzo**, domiciliata in **Arienzo**, figlia di **MATTEO FALCO**, di professione **contadino**, domiciliato **ivi**, e di **ALESSANDRA CRISCI**, domiciliata **ivi***».\n\n**TWENTY-EIGHT IN JANUARY 1865 PUTS HER BIRTH ABOUT 1837** — between this couple's marriage in January 1834 and their daughter Domenica of September 1846. *Her birth act has not been looked for; the Arienzo births of 1837 are read and this archive should go back to them with her name.*\n\n**THE ACT DOES TWO OTHER THINGS.** It keeps **both her parents alive on 23 January 1865**, in a sentence that marks the groom's parents dead. And it **spells her mother's surname**, which the 1846 birth act left deliberately unread.\n\n**She marries out of the town.** Vincenzo Abatiello is forty, a *contadino* of **LIVERI**, in the Nola plain — twelve years her senior and an orphan of both parents.",
 "ark": "ANTENATI an_ua14269 img5r act3 — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "5 Dec 1834",
+"place": "Arienzo, strada Camellara",
+"evidence": "**HER BIRTH — and she is the FIRST CHILD OF THE MARRIAGE, ten and a half months after it.** Read from the image on 9 October 2026. *The family tree puts her in **1841**, a year this archive has read end to end at both bands and found empty.*\n\n«*ATTO DI NASCITA — **Num. d'ordine CENTOSEDICI**. L'anno mille ottocento **trentaquattro**, il dì **CINQUE** del mese di **DECEMBRE**, ad ore **sedici**, avanti di noi **FRANCESCO D'AMBROSIO, Sindaco** ed Uffiziale dello Stato Civile del Comune di **CORPO D'ARIENZO**, Distretto di **Caserta**, Provincia di **Terra di Lavoro**, **è comparsa CATERINA RUGGIERO, di anni SESSANTASEI, di professione LEVATRICE, domiciliata in strada PORTA DI SOPRA**, quale ci ha presentato una **FEMINA***» — and the tail on the facing leaf: «*…la stessa **è nata da ALESSANDRA CRISCI, di anni VENTICINQUE, domiciliata in STRADA CAMELLARA, e da MATTEO FALCO marito della stessa, di anni VENTICINQUE, di professione COLONO**, domiciliato con detta sua moglie, **nel giorno CINQUE del mese di DECEMBRE, anno corrente, alle ore QUINDICI, nella casa propria di detti conjugi**. La stessa ha inoltre dichiarato di dare alla neonata il nome di **ANGELA ROSA**.*»\n\nThe *Indicazione*, **Sant'Andrea Apostolo di Arienzo**: «*il Sacramento del Battesimo è stato amministrato ad **ANGELA ROSA FALCO** nel giorno cinque detto mese*».\n\n> **THE MIDWIFE DECLARED HER, AND THAT IS WHY SHE WAS NEVER FOUND BEFORE.** **CATERINA RUGGIERO, sixty-six, *levatrice***, stood in for the father — so the act's declarant line carries no Falco at all. *A sweep of declarants reads straight past this child.* **It was the MOTHER band that found her**, and this household is now the clearest argument for reading both.\n\n**HER PARENTS MARRIED ON 24 JANUARY 1834 AND SHE WAS BORN ON 5 DECEMBER — ten months and twelve days later.** *She is the eldest of the nine, not Carmela.*\n\n**AND THE SURNAME IS LEGIBLE HERE.** «**Alessandra CRISCI**» is written plainly in this hand — *which matters beyond this act, because the 1838 reading of Carmela's mother left the terminal ambiguous between «-sci» and «-spi». This is the same family in the same register series, and here it is unambiguous.*\n\n**Both parents are twenty-five in December 1834, so both born about 1809.** *That agrees exactly with Matteo's thirty in June 1839, and it puts Alessandra eight years earlier than the family tree's «b. 1817», which has no record behind it.* [[ages-are-guessed]]",
+"ark": "Antenati an_ua14431 — images 118-119, Arienzo births 1834, act 116 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -16998,7 +17005,11 @@
 "register"
 ]
 }
-]
+],
+"b": "5 Dec 1834",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "angela-falco-of-saverio-rivieri-angela-falco",
