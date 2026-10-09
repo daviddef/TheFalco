@@ -1486,3 +1486,96 @@ Santa Maria a Vico in 1887. **No kinship is claimed and the act is unread.***
 ## THE RUNNING NEGATIVE
 
 *Still unread at Santa Maria a Vico: marriages **1866–1872**, **1878**, and **1888–1894**.*
+
+---
+
+# 1866–1872 AT SANTA MARIA A VICO — AND A FALCO FAMILY LIVING THERE
+
+## HOW THE INDEXES WERE FOUND, BECAUSE THE METHOD IS REUSABLE
+
+`MC5R-M2Q` is 2,156 images and holds every series — nati, matrimoni, morti, pubblicazioni,
+cittadinanze — for 1866–1878, one book after another with nothing to say where a book begins.
+
+**A cover in this film is a near-black thumbnail.** The 2,156 thumbnails were already cached from an
+earlier survey, so **mean brightness below 45% of the volume median found 53 book boundaries at zero
+requests**. Then **the leaf immediately after each cover is the book's printed title page** — and 28
+of those, fetched in **28 requests**, named every register in the first thousand images:
+
+> img 2 «1866 · S. Maria a Vico · Matrimonj» · img 306 «Anno 1868 · REGISTRO delle Nascite» ·
+> img 372 «REGISTRO DI MORTE» · img 441 «REGISTRO Anno 1869 Nascita» · img 550 «REGISTRO di
+> MATRIMONIO 69» · img 604 «REGISTRO Anno 1869 di Cittadinanza» · img 874 «Anno 1872 … REGISTRO di
+> Nascite» · img 936 «Anno 1872 … REGISTRO di Matrimoni»
+
+**Covers from thumbnails, titles from the leaf after the cover.** *That is a whole film mapped for
+twenty-eight requests, and it is how the rest of this collection should be opened.*
+
+## FIVE YEARS READ
+
+| year | index | marriages | Falco? |
+|---|---|---:|---|
+| **1866** | img 59–60, «*Indice Annuale de' Matrimoni dell'anno 1866*» | **28** | no |
+| **1867** | img 211, «*Indice degli atti di matrimonii celebrati nel Comune di S.ta Maria a Vico dell'anno 1867*» | **35** | no |
+| **1870** | img 672–673, «*Indice de' Matrimoni contratti nell'anno 1870*» | **64** | no |
+| **1871** | img 804–805, «*Indice Alfabetico dei Matrimoni dell'anno 1871*» | **47** | no |
+| **1872** | img 934–935, «*Tavola alfabetica annuale de' MATRIMONI*» | **33 entries, reg. to 36** | **YES** |
+
+*Every one of these indexes names **both** spouses, so the brides are covered too.*
+
+## 1868 AND 1869 ARE NOT READ, AND NO NEGATIVE IS CLAIMED FOR THEM
+
+**The book behind the 1868 cover at image 356 was never used.** Fifteen leaves, ruled and blank,
+with a single stray margin note, closed in the clerk's hand: «*chiusa in questo giorno trenta di
+Dicembre dell'anno 1868*». **The 1869 book at 551 is a supplement of *trascrizioni*** — its acts are
+numbered in the **fifties** and are transcriptions received from other comuni.
+
+**So the main marriage registers of 1868 and 1869 are not in the part of this film that has been
+mapped**, and they are recorded as *not located* rather than as empty. *An unused supplement is not
+a year's marriages, and reading it as one would be the same mistake as reading a full-text search as
+a holdings list.*
+
+# AND NOW THE FINDING: A FALCO HOUSEHOLD AT SANTA MARIA A VICO
+
+The 1872 tavola, entry 10:
+
+> «**10 | 35 | Folgieri Salvatore** e | S.ta Mª a Vico | *di Clemente e fu Daddio Rachele* | **28
+> Dicembre** — **e FALCO LUCIA** | Idem | *di Antonio e della Zorca Vincenza*»
+
+**The tavola is a finding aid, so the act was read.** Image 952, left page:
+
+> «*Numero d'ordine **trentacinque** — Atto di matrimonio tra Salvatore Folgieri e Lucia Falco.
+> L'anno milleottocentosettantadue il giorno **ventotto Dicembre** in Santamaria a Vico. Innanzi a me
+> **Gabriele Bernardo Sindaco** … ed alla presenza di **Pietro Marletta fu Matteo, d'anni
+> sessantacinque**, e di **Fabrizio de Lucia fu Giuseppe, di anni cinquantadue**, ambo **scrivani
+> comunali** … sono comparsi **Salvatore Folgieri, di anni trenta, colono**, residente in Santamaria
+> a Vico, figlio di **Clemente**, colono, e della fu **Rachele Daddio**, **e LUCIA FALCO, di anni
+> VENTIQUATTRO, COLONA, residente in SANTAMARIA A VICO, figlia di ANTONIO e di VINCENZA DELLA ZORCA,
+> COLONI, RESIDENTI COLLA FIGLIA** … **essendo gli sposi analfabeti***»
+
+**Father, mother and daughter, all three coloni, all three living at Santa Maria a Vico.**
+Held as `antonio-falco-vincenza-della-zorca`. **Lucia born about 1848.**
+
+*`tools/isitnew.py` was run before a word of this was written. She is **not** the archive's Francesca
+Maria Lucia Falco, baptised at Arienzo in 1812 and married in 1839. **Nothing is merged.***
+
+## WHICH BREAKS A SENTENCE THIS ARCHIVE PUBLISHED THIS MORNING
+
+> «**FALCO IS AN ARIENZO SURNAME.** *No Falco family is resident in either town.*»
+
+**What survives**: not one Falco mother appears in Santa Maria a Vico's births of **1840 and 1841**,
+and that reading stands. **What does not survive is the present tense.** *A family absent from a
+town's birth register in 1840 may have moved there by 1872, and this one had. The error was turning
+a two-year nil into a statement about the town.* A `major` correction is published.
+
+## AND IT MAY BE TWO SISTERS
+
+The 1881 index at the same comune: «*Marca (della) Cristofaro fu Giuseppe / **FALCO FILOMENA fu
+ANTONIO**, act 30*».
+
+**Antonio Falco is alive in December 1872 and «fu» — dead — by 1881**, and both women marry out of
+the same small comune. **He is NOT the archive's Antonio Falco × Carmela Guida**, who was alive in
+1891. *That is a reason to look, not a proof of sisterhood. **The 1881 act is unread.***
+
+## THE RUNNING NEGATIVE ON GIUSEPPE
+
+**Absent as a groom from Santa Maria a Vico's marriages of 1860–67, 1870–77, 1879–87.**
+*Unread: **1868, 1869** (registers not located) and **1888–1894**.*

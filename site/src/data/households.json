@@ -9305,5 +9305,44 @@
     "ark": "3:1:3QS7-897N-Z9KD"
    }
   ]
+ },
+ {
+  "id": "antonio-falco-vincenza-della-zorca",
+  "name": "Antonio Falco & Vincenza della Zorca (Santa Maria a Vico)",
+  "members": [
+   {
+    "hid": "antonio-falco-vincenza-della-zorca",
+    "household": "Antonio Falco & Vincenza della Zorca (Santa Maria a Vico)",
+    "person": "Lucia Falco (of Santa Maria a Vico)",
+    "role": "daughter",
+    "event": "marriage",
+    "date": "28 Dec 1872",
+    "place": "Santa Maria a Vico",
+    "evidence": "**«Numero d'ordine TRENTACINQUE — Atto di matrimonio tra SALVATORE FOLGIERI e LUCIA FALCO.** L'anno milleottocentosettantadue il giorno **ventotto Dicembre** in Santamaria a Vico. Innanzi a me **Gabriele Bernardo Sindaco ed Ufficiale dello Stato Civile** del comune suddetto … sono comparsi **Salvatore Folgieri, di anni trenta, colono**, residente in Santamaria a Vico, figlio di Clemente, colono, e della fu Rachele Daddio; **e LUCIA FALCO, di anni VENTIQUATTRO, COLONA, residente in SANTAMARIA A VICO, figlia di ANTONIO e di VINCENZA DELLA ZORCA, coloni, residenti colla figlia**» — read from the image 9 October 2026. Witnesses **Pietro Marletta fu Matteo, 65**, and **Fabrizio de Lucia fu Giuseppe, 52**, both *scrivani comunali*. **«Essendo gli sposi analfabeti»** — neither could sign.\n\n**Born about 1848.** *`tools/isitnew.py` was run before this was written: she is NOT the archive's Francesca Maria Lucia Falco, who was baptised at Arienzo in 1812 and married in 1839. Nothing is merged.*",
+    "ark": "3:1:FS MC5R-M2Q img 952 — Santa Maria a Vico, matrimoni 1872, atto 35"
+   },
+   {
+    "hid": "antonio-falco-vincenza-della-zorca",
+    "household": "Antonio Falco & Vincenza della Zorca (Santa Maria a Vico)",
+    "person": "Antonio Falco (of Santa Maria a Vico)",
+    "role": "father",
+    "event": "named in his daughter's marriage act",
+    "date": "28 Dec 1872",
+    "place": "Santa Maria a Vico",
+    "evidence": "**«figlia di ANTONIO e di VINCENZA DELLA ZORCA, COLONI, RESIDENTI COLLA FIGLIA»** — named, with his wife and his trade, in his daughter Lucia's marriage act at Santa Maria a Vico, 28 December 1872. **Alive, and living at Santa Maria a Vico with his daughter, on that day.**\n\n**HE IS NOT THE ANTONIO FALCO THIS ARCHIVE ALREADY HOLDS.** That one married **Carmela Guida** and was still alive in 1891; this one's wife is **Vincenza della Zorca**. *No kinship to the documented line is claimed.*\n\n**AND HE IS PROBABLY THE FATHER OF A SECOND BRIDE.** The Santa Maria a Vico marriage index of **1881** carries «*Marca (della) Cristofaro fu Giuseppe / **FALCO FILOMENA fu ANTONIO**, act 30*». **Antonio Falco was alive in December 1872 and «fu» — dead — by 1881**, and both women married out of the same small comune. *That is a reason to look, not a proof of sisterhood, and the 1881 act is still unread.*",
+    "ark": "3:1:FS MC5R-M2Q img 952 — Santa Maria a Vico, matrimoni 1872, atto 35"
+   },
+   {
+    "hid": "antonio-falco-vincenza-della-zorca",
+    "household": "Antonio Falco & Vincenza della Zorca (Santa Maria a Vico)",
+    "person": "Vincenza della Zorca",
+    "role": "mother",
+    "event": "named in her daughter's marriage act",
+    "date": "28 Dec 1872",
+    "place": "Santa Maria a Vico",
+    "evidence": "**«VINCENZA DELLA ZORCA … coloni, residenti colla figlia»** — the mother in the same act. **The surname is read from the manuscript and is not confidently resolved**: it is written as one word after «della» and could be *Zorca*, *Sorca* or *Torca*. **It is recorded as read rather than normalised to something commoner**, because the whole value of this household is that it is a Falco family living where this archive had published that no Falco family lived.",
+    "ark": "3:1:FS MC5R-M2Q img 952 — Santa Maria a Vico, matrimoni 1872, atto 35"
+   }
+  ]
  }
 ]
