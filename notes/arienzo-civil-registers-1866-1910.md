@@ -2352,3 +2352,31 @@ and it is recorded as **located, not read**, rather than swept badly and called 
 
 *Also now read: the tail of **1867** at images 277–279 — acts into the high teens, closed 13 December
 1867. **No Falco.***
+
+## A WARNING FOR THE NEXT SWEEP OF THIS FILM: IT PHOTOGRAPHS SOME BOOKS TWICE
+
+**Covers 872 and 908 both open Arienzo's BIRTHS of 1874**, and both begin «*N.º 1 — Uno — Atto di
+nascita di **Angela di Lucia***». *Images **873–907** and **908–924** are the same register filmed
+again.*
+
+**So a cover is a book boundary and NOT a new book.** *Three hours were spent today on the
+assumption that the two are the same thing; they are not, and the only cure is to read the first act
+after the cover before sweeping the rest.*
+
+**Where the Arienzo marriage books stand tonight:**
+
+| year | images | read? |
+|---|---|---|
+| **1866** | 45–59 | **read**, 27 acts, no Falco |
+| **1867** | 224–234 + 277–279 | **read at a band**, no Falco (the weaker nil) |
+| **1868** | **285–295** | **LOCATED, NOT READ** — numbers in the margin, no headings |
+| **1869** | 386–405 | **read**, 29 acts, **act 22 = Antonio Falco × Carmela di Guida** |
+| **1870** | 537–564 | **read**, ~40 acts, no Falco |
+| **1871** | 594–610 | **read from its annual index**, 30 acts, **act 21 = Vincenza Falco** |
+| **1872** | 693–714 | **read**, 43 acts, **act 35 = Carmine Antonio Falco × Giovanna Arricale** |
+| **1873** | 776–789 | **read**, **act 1 = Maria Felice Falco** |
+| **1874** | 854–871 | **read**, 35 acts, **act 20 = Domenica Falco · act 35 = Vincenzo Falco** |
+| **1875–1877** | among covers 925, 947, 999, 1032, 1056, 1117, 1144, 1155, 1178 | **not located** |
+| **1878–1900** | `MC55-VNL`, 2,898 images, **97 covers already computed** | **not opened** |
+
+**Giuseppe Falco, son of Matteo, is in none of the nine years read.**
