@@ -1371,3 +1371,118 @@ last act is not the end of the book — it is the middle of it.
 1882, 1883 and 1884 now on both pages and through Parte II.*
 
 *Still unread at Santa Maria a Vico: marriages **1866–1872**, **1878**, and **1885–1894**.*
+
+---
+
+# 1885 READ ENTIRE — no Falco, and a SECOND NICOLETTA NUZZO
+
+**`MC5R-Q23` images 1032–1067.** Yearly index at **1032R–1033L**; printed register **acts 1–47**,
+images 1035–1058 (act 48 is a blank form); **Parte II** at 1060–1064.
+
+## THE INDEX SETTLES THE YEAR IN ONE PAGE
+
+«**MODULO DELL'INDICE ANNUALE dei matrimoni 1885**», and it is the cleanest instrument this volume
+has yielded: one line per marriage, groom over bride, with the father's name on the groom
+(«*fu Antonio*», «*di Gennaro*») and the register number in its own column.
+
+**The F section has ONE entry and it is not a Falco:**
+
+> «**18 — Ferrara Giuseppe di Gennaro / Di Caprio Mª Michela — reg. 22**»
+
+**The margin sweep of all 47 acts agrees.** Parte II is a single sheet: an **extract from the
+register of SAN FELICE A CANCELLO**, «Renotolo Giuseppe / Liparulo Clementina», 11 October 1885.
+
+## AND ENTRY 21 IS THE NAME OF GIUSEPPE FALCO'S WIFE
+
+> «**21 — Guida Antonio fu Lorenzo / NUZZO NICOLETTA — reg. 28**»
+
+**The act was read rather than reasoned about** — *an index line is a finding aid, never a reading* —
+and it is **act 28, 30 August 1885, ten fifteen in the morning**:
+
+> «*1.° **Guida Antonio**, di anni **sessantasette**, contadino, nato in Santamaria a Vico, residente
+> in Santamaria a Vico, figlio **del fu Lorenzo** … e **della fu Pascarella Lucia** …
+> 2.° **Nuzzo Nicoletta**, di anni **cinquantatré**, contadina, **nata in Santamaria a Vico**,
+> residente in detto Comune, **figlia del fu Domenico** … e di **Mª fu Stola Mariantonia***»
+
+Witnesses **Luca Carfora**, 33, *possidente*, and **Alfonso Porrino**, 58, *sarto*; publications 16
+and 23 August; **both spouses illiterate**.
+
+### SHE IS NOT OURS, AND THE ARCHIVE'S OWN RECORD IS WHAT PROVES IT
+
+**`tools/isitnew.py` was run before a word of this was written down.** This archive holds **Nicoletta
+Nuzzo alive and living with Giuseppe Falco at Arienzo, via Orticelli 4, on 22 September 1887**,
+bearing their daughter Maria — *«da **NICOLETTA NUZZO sua moglie, CONTADINA, seco lui convivente**»*,
+Arienzo birth act 114 of 1887, read from the image.
+
+**A woman cannot be married to Giuseppe Falco at Arienzo in September 1887 and marrying Antonio Guida
+at Santa Maria a Vico in August 1885.** So **there are two women of the name**, and the second one is
+now fully named: **Nicoletta Nuzzo, born about 1832 at Santa Maria a Vico, daughter of the late
+DOMENICO NUZZO and the late MARIANTONIA STOLA.** *Nothing is merged. She is recorded so that the next
+search for «Nicoletta Nuzzo at Santa Maria a Vico» does not stop here and think it has arrived.*
+
+**The age is worth keeping too.** Ours was married to a man who was **46 in 1887**, so born about
+**1841**; this one was born about **1832**. *That is not proof on its own — nine years is an ordinary
+gap — but it is one more thing that does not fit.*
+
+## THE RUNNING NEGATIVE
+
+*Still unread at Santa Maria a Vico: marriages **1866–1872**, **1878**, and **1886–1894**.*
+
+---
+
+# 1886 AND 1887 — no Falco, and the yearly index turns out to read a whole year in one leaf
+
+## 1886 — `MC5R-Q23` 1248–1280
+
+Index at **1248R–1249L**; Parte I **acts 1–42**, images 1251–1274; **Parte II acts 1–4**, 1276–1278.
+Swept at the margin box on both pages, and the index read.
+
+**The F section has three entries and none is a Falco:**
+
+> 22 **Ferrara Michele** / De Lucia Mariantonia — reg. **5**
+> 23 **Fontana Salvatore Maria** / Tabaresta Erminia Francesca — reg. **2. S.**
+> 24 **Ferrellis (de) Giovanni** / Piscitelli Filomena — reg. **4. S.**
+
+## AND «S.» IN THE NUMBER COLUMN MEANS *PARTE SECONDA*
+
+**Proved, not inferred.** The 1886 index's four «S.» entries — 1. S., 2. S., 4. S. and (entry 29)
+Langella Giovanni 1. S. — are matched **one for one** by the margin boxes of **Parte II acts 1, 2 and
+4** at images 1276–1278: «Langella Giovanni / De Ferrellis Maria» is Parte II n. 1, «Signor Fontana
+Salvatore Maria / Signora Taborista Erminia Francesca» is n. 2, «Signor De Ferrellis Giovanni /
+Signorina Piscitelli Filomena» is n. 4.
+
+**And 1887 writes it out in full: «1. P.S.», «2. P.S.», «3. P.S.», «4. P.S.»** — *Parte Seconda*.
+
+**So the index itself has been pointing at Parte II the whole time**, in a column this archive was
+reading as if it held one run of numbers. *That is what defeated the 1884 de Falco line: its number
+was a Parte II number, and three Parte I acts were opened on three readings of it before the volume
+was swept whole.*
+
+## 1887 — `MC5R-Q23` 1479–1480, read from the index alone
+
+> «**Indice annuale pel Registro dei Matrimonii dell'anno 1887**»
+
+**Fifty-five entries, A to Z, Parte I to act 51 and four Parte Seconda acts. The E/F section is:**
+
+> 17 **Fantarella Domenico** / Di Francesco Antonia — **1. P.S.**
+> 18 **Frasca Antonio** / Vigliotti Maria Grazia — **2. P.S.**
+
+**NO FALCO, as groom or as bride.**
+
+## THE METHOD FINDING: THE YEARLY INDEX NAMES **BOTH** SPOUSES
+
+**Every entry is two lines — the groom on the first, the bride on the second** — so although the
+index is *alphabetised by the groom*, **a surname search over it covers the brides as well.** One
+leaf, sometimes two, reads a whole year for any name.
+
+**That is thirty leaves of margin sweep replaced by two**, and it is how the rest of this volume
+should be read. *With the standing caution intact: an index line is a finding aid, never a reading —
+the Sosso error was an index line. **A nil may rest on the index; a hit must be taken to the act.***
+
+**By-catch, not merged:** **1887 entry 47, «Rivetti Nicola / Vigliotti Luigia», reg. 49.** *Rivetti is
+one of this archive's own surnames — Chiara Rivetti married Pasquale Falco — and this is a Rivetti at
+Santa Maria a Vico in 1887. **No kinship is claimed and the act is unread.***
+
+## THE RUNNING NEGATIVE
+
+*Still unread at Santa Maria a Vico: marriages **1866–1872**, **1878**, and **1888–1894**.*
