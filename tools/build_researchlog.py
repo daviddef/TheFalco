@@ -18,7 +18,32 @@ for fn in sorted(os.listdir(NOTES)):
     head = next((l.lstrip("# ").strip() for l in src.splitlines() if l.startswith("# ")), fn[:-3])
     year = (re.search(r"\b(18\d\d)\b", fn) or [None, None])[1]
     kind = "births" if "birth" in fn else "deaths" if "death" in fn else "other"
-    done = bool(re.search(r"\bCOMPLETE\b|VOLUME COMPLETE", src))
+    # «COMPLETE» IS NOT HOW THIS ARCHIVE WRITES IT, AND THE TALLY WAS WRONG FOR IT.
+    #
+    # This test was case-sensitive and looked only for an upper-case COMPLETE.
+    # Every per-volume sweep in notes/ announces itself in its own title in
+    # lower case — «Arienzo civil death register 1824 — **sweep complete**» —
+    # and 1834 says «**Volume complete.** All 57 images read», and 1815 says
+    # «READ IN FULL». So on 10 October 2026 the work list was carrying
+    # TWENTY-TWO FINISHED SWEEPS as outstanding, each of them titled with the
+    # word the gate was looking for, in the wrong case.
+    #
+    # The positive forms are the archive's own, and the negative is checked
+    # first: a note that says a sweep is NOT complete must not be read as one
+    # that says it is.
+    # AND THE GENEROUS FORMS APPLY ONLY TO A PER-VOLUME SWEEP.
+    #
+    # A finding file says «read in full» about somebody else's volume all the
+    # time — `queue`, `findings` and fifteen others did — and reading that as
+    # «this volume is complete» puts a completion chip on a page that is not a
+    # volume at all. That is the conflation this file's own comment warns
+    # about, and the first draft of this fix walked straight into it: seventeen
+    # finding files went green in one run. So the sweep convention decides.
+    _is_sweep = fn.endswith("-progress.md")
+    _neg = re.search(r"\b(?:not|never)\s+(?:yet\s+)?complete\b|\bincomplete\b", src, re.I)
+    _pos = re.search(r"\b(?:volume|sweep)\s+(?:is\s+)?complete\b|\bread in full\b"
+                     r"|\bevery act read\b", src, re.I) if _is_sweep else None
+    done = bool(re.search(r"\bCOMPLETE\b|VOLUME COMPLETE", src)) or (bool(_pos) and not _neg)
     acts = re.search(r"acts?\s+1[–-](\d+)", src)
     imgs = re.search(r"images?\s+\d+[–-](\d+)", src)
     dupes = len(re.findall(r"DUPLICATE of image", src))
