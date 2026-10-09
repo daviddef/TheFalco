@@ -1772,3 +1772,71 @@ The 1880 births register runs from image 64 and must be swept at the margin box 
 **Whose child she is matters.** *Giuseppe Falco × Orsola Verdicchio were at Via Sant'Apollonia in
 1874 and are the obvious house. **But this archive's own Giuseppe Falco is also a Giuseppe with a
 wife**, and the only way to tell is the act — which names the mother.*
+
+---
+
+# «NATO IN ARIENZO» — ANTONIO FALCO IS FOUND, AND HE CROSSES THE FOUR KILOMETRES
+
+**`MC5R-Q23` image 157 is «MODULO DELL'INDICE ANNUALE delle morti 1880», and its F section reads:**
+
+> Froggiero Clemente fu Salvatore — 5
+> **FALCO ANTONIO fu GIUSEPPE — 63**
+> Fantanella Teresa fu Michele — 124
+
+**The act was read, not assumed.** Image **175, right page**:
+
+> «*L'anno milleottocento **ottanta**, addì **nove** di **Maggio**, a ore antimeridiane **otto** e
+> minuti **venti**, nella Casa comunale. Avanti di me **Migliore Pietro Sindaco** … sono comparsi
+> **Salvatore Froggiero, di anni quarantasei, colono** … e **Agostino Garofano, di anni cinquanta,
+> colono** … i quali mi hanno dichiarato che a ore antimeridiane **quattro** di **ieri**, nella casa
+> posta in **VIA MAIANIELLO al numero UNDICI**, è morto **ANTONIO FALCO, di anni SETTANTA, COLONO,
+> residente in Santa Maria a Vico, NATO IN ARIENZO, da fu GIUSEPPE, colono … e da Ma[ria] GELSOMINA
+> NOBILE, colona … MARITO DI VINCENZA DELLA TORRE***»
+
+Witnesses **Pietro Marletta, 73, sarto** and **Alfonso Porrino, 54, sarto**.
+
+## WHAT IT SETTLES
+
+**«MARITO DI VINCENZA DELLA TORRE» is what makes this him** and not another man of the name — *and
+the comune did hold another: the two-year-old Antonio Falco who died in 1874.* **A name alone would
+have got this wrong; the wife's name got it right.**
+
+- **Died 8 May 1880 at four in the morning**, Via Maianiello 11, aged **seventy** → **born about 1810**
+- **BORN AT ARIENZO**
+- son of the late **GIUSEPPE FALCO**, *colono*, and of **Ma[ria] GELSOMINA NOBILE**, *colona*
+
+**The Falco of Santa Maria a Vico came from Arienzo.** *This is the first document this archive holds
+that carries a Falco across the four kilometres between the two comuni and says so in the manuscript.*
+
+**And the bracket closes exactly where it was predicted**: alive 28 December 1872, dead by 15 October
+1881 — **8 May 1880**.
+
+## THE FATHER IS A GIUSEPPE FALCO, AND THE MOTHER IS A QUESTION
+
+The mother is written «**Ma — Gelsomina Nobile**». **GELSOMINA is legible; the surname is not
+certain**, and *Nobile* is recorded **as a reading, not as a resolution**.
+
+**This archive already holds a Giuseppe Falco of Arienzo whose wife was a Gelsomina**: «*Giuseppe
+Falco, **36**, massaro di campo of **STRADA COSTA***, and **GELSOMINA VIGLIOTTA**», the parents of
+Domenico Falco born 25 November 1816 — the couple this archive separates from its own line
+«*by street and wife*». **Thirty-six in 1816 is born about 1780, which is exactly right for a son
+born about 1810.**
+
+**NOTHING IS MERGED.** *One act says Vigliotta and the other says Nobile, and two surnames are two
+surnames until one of them is re-read.* **What is established is the birthplace. What is offered is
+a candidate father.**
+
+> **THE TEST IS ONE VOLUME AWAY**: Arienzo's births of about **1810** — `an_ua14407` (1810) and its
+> neighbours — for a **Falco son of Giuseppe and a Gelsomina**. *And Arienzo's marriage registers for
+> **Giuseppe Falco × Gelsomina**, which would give Giuseppe's own parents.*
+
+## AND THE «STRADA COSTA» GIUSEPPE MATTERS FOR A SECOND REASON
+
+The 1863 Santa Maria a Vico marriage tavola already held «**Falco Domenico of ARIENZO**» marrying
+**Guida Damiana**, father «**Falco Giuseppe**» — *read on 9 October and set aside as «the strada Costa
+Giuseppe, not this line».* **Domenico Falco, son of Giuseppe, born at Arienzo 25 November 1816,
+married at Santa Maria a Vico in 1863. Antonio Falco, son of a Giuseppe, born at Arienzo about 1810,
+died at Santa Maria a Vico in 1880.**
+
+*Two sons of a Giuseppe Falco of Arienzo, both ending up at Santa Maria a Vico, six years apart in
+age. **That is a family moving, and it is the shape the search for Giuseppe has been missing.***
