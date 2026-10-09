@@ -1206,3 +1206,52 @@ here at all — *and it is still not Giuseppe.*
 
 **`tools/fsmargin.py` earns its place again**: the 1882 and 1883 books, fifty-six leaves between
 them, became eight strips and two readings. *No act was opened.*
+
+
+---
+
+# THE SURVEY IS FINISHED AND 1879 AND 1881 ARE READ — no Falco groom, but a FALCO BRIDE
+
+**`MC5R-Q23` surveyed entire: 3,013 thumbnails, 32 sheets, zero refusals. 58 covers found by
+brightness.** *Both Santa Maria a Vico volumes are now surveyed end to end — 5,169 thumbnails
+between them, and not one refusal in either.*
+
+## AND THE COVERS SETTLED A QUESTION THE CATALOGUE HAD ALREADY ANSWERED
+
+**1879's marriages are NOT in this volume.** The catalogue title says it plainly — «*Morti,
+cittadinanze **1879**; Nati, pubblicazioni, matrimoni, morti, cittadinanze **1880**-1893*» — **1879
+here is deaths and citizenships only.** *Its marriages are at the far end of the PREVIOUS volume,
+`MC5R-M2Q`, images 2125–2152, behind a section of allegati from S. Felice a Cancello.* **A volume's
+own title is a holdings statement and this one was read too quickly the first time.**
+
+| year | where | how read | result |
+|---|---|---|---|
+| **1879** | **`MC5R-M2Q` 2125–2152** | **«MODULO DELL'INDICE ANNUALE. Matrimoni», images 2130–2131** | **F = «Fruggiero Antonio fu Raffaele» and «Fierro Nicola di Angelantonio»** |
+| **1881** | **`MC5R-Q23` 311–337** | **the index on the facing page of image 311** | **F = «Fantarella Andrea di Paolo» ALONE** |
+
+**NO FALCO GROOM IN EITHER.**
+
+## BUT 1881 HAS A FALCO BRIDE, AND SHE IS NEW
+
+> «**13 — Marca (della) Cristofaro fu Giuseppe / FALCO FILOMENA fu ANTONIO — act 30**»
+
+**A Falco woman marrying at Santa Maria a Vico in 1881, daughter of a dead Antonio Falco.**
+
+*`tools/isitnew.py` was run before this was written down.* **She is not this archive's Filomena
+Falco**: the one born 20 June 1839 to Matteo Falco and Alessandra Crisci married **Antonio Crisci**
+and is named as his wife in the birth act of their son in 1872. *Nor is she the Filomena Falco who
+died aged one in 1839.* **Nothing is merged. She is a third woman of the name, and her father is a
+dead Antonio Falco who is not the Antonio Falco × Carmela Guida of this archive — that one was still
+alive in 1891.** *The act itself, number 30 of 1881, is unread.*
+
+**AND THE NUZZO ARE EVERYWHERE IN THESE INDEXES**: 1880 gives «Nuzzo Clemente di Michele»; 1881 gives
+**«Nuzzo Ferdinando di Michelangelo», «Nuzzo Salvatore fu Giuseppe»** and a «Nuzzolo Raffaele di
+Giuseppe». *Nicoletta Nuzzo's family is a Santa Maria a Vico family — which is why this was the right
+place to look, and makes the absence of her husband the more pointed.*
+
+## THE RUNNING NEGATIVE ON GIUSEPPE
+
+**He is now absent from:** Arienzo's births **1834–1852** entire · Cervino's and Santa Maria a Vico's
+births **1840–41** · Santa Maria a Vico's marriages **1860–65, 1873–77, 1879–1883**.
+
+*Still unread at Santa Maria a Vico: marriages **1866–1872**, **1878**, and **1884–1894**.*
