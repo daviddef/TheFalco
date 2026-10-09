@@ -1908,3 +1908,17 @@ under «nato in Arienzo».**
    parents and settle whether he is the «*di Francesco*» of the 1810 patronymic.
 3. **Santa Maria a Vico's deaths for GIUSEPPE FALCO himself** — the 1880 act says he died before his
    son and was domiciled in that comune, so his act should be in the same series.
+
+## TEST 1 IS DONE, AND IT GOES AGAINST THE MERGE
+
+**The control-letter test on the 1880 act's mother-surname.** The same clerk writes a capital **V**
+four lines below, in «*marito di **V**incenza della Torre*», and it is a two-stroke looped V that
+looks nothing like the initial of the disputed word — **which is a plain n/N followed by an o**.
+
+> **The surname is an N-word. It is not Vigliotta, and it is not a near-miss for Vigliotta.**
+> *«Nobile» remains the reading.*
+
+**So the identification stays a candidate.** *The cheapest test has been run and it did not help the
+case; that is published as plainly as a test that had.* **Tests 2 and 3 — Arienzo's marriages for
+Giuseppe Falco × Gelsomina Vigliotta, and Santa Maria a Vico's deaths for Giuseppe Falco himself —
+are still owed.**
