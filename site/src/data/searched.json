@@ -1749,5 +1749,32 @@
    "Holdings",
    "Correction"
   ]
+ },
+ {
+  "when": "1884",
+  "searchedOn": "2026-10-09",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Santa Maria a Vico, Tribunale di S. Maria Capua Vetere",
+  "waypoint": "MC5R-Q23",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-897N-Z9KD?cc=2043630&wc=MC5R-Q23",
+  "pages": "802-838",
+  "walked": true,
+  "src": "**SANTA MARIA A VICO, MATRIMONI 1884 — READ ENTIRE, BOTH PAGES OF EVERY OPENING AND THROUGH PARTE II.** Yearly index at image 802–803; printed register (Parte I) acts **1–57**, image 805 to the blank form at 834; **Parte II** opens at image **835R** and runs to 838.\n\nSwept with `tools/fsmargin.py` **after** its right-page crop was corrected — see the correction of the same date.",
+  "what": "Giuseppe Falco's marriage to Nicoletta Nuzzo, and any Falco at all",
+  "outcome": "yield",
+  "got": "**NO FALCO GROOM AND NO FALCO BRIDE IN THE PRINTED REGISTER** — all 57 acts of Parte I read at the margin box.\n\n**But Parte II act 3 is a DE FALCO**, and it resolves the one index line this archive could not read: **«Commendatore DE FALCO BARTOLOMEO, di anni sessantasei, proprietario, NATO IN NAPOLI, RESIDENTE IN ARIENZO, figlio del fu Eufemio e della fu DE GIORGIO MARIANTONIA»** married **«SANTORO CLEMENTINA, di anni trentasette, proprietaria, nata a Caserta … figlia del fu Matteo e della Signora HUEBER ISABELLA di Valle di Maddaloni»**, **14 July 1884 at 9.30 p.m. in her house at Piazza Municipio 30** — she was lame from a contusion of the right knee and the Sindaco came to her.\n\n**NOT JOINED TO ANYTHING.** `de Falco` is not `Falco`; he was born at Naples to Neapolitan parents; and the gentry *de Falco* this archive already holds at Arienzo (Don Francesco, whose daughter Donna Raffaela died a nun in 1836) is not shown to be his house either. Held as `bartolomeo-de-falco-clementina-santoro` so that anyone searching Arienzo for a Falco in the 1880s meets him already labelled."
+ },
+ {
+  "when": "1875, 1879, 1882, 1883",
+  "searchedOn": "2026-10-09",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Santa Maria a Vico",
+  "waypoint": "MC5R-Q23",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-897N-Z9KD?cc=2043630&wc=MC5R-Q23",
+  "walked": true,
+  "src": "**FOUR MARRIAGE BOOKS RE-SWEPT ON THEIR EVEN-NUMBERED ACTS**, because the sweeper had been cropping the blank inner edge of every right-hand page and so reading only the odd acts. 1875 and 1879 are in `MC5R-M2Q`; 1882 and 1883 in `MC5R-Q23`.",
+  "what": "Giuseppe Falco as a groom — the half of each book that had never been looked at",
+  "outcome": "nothing",
+  "got": "**1875 acts 2–48 · 1879 acts 2–38 · 1882 acts 2–36 · 1883 acts 2–28, plus each book's Parte II — NO FALCO.** The four published nils stand, now on the whole book instead of half of it. **1873's Parte II is hand-written on lined paper with no printed Numero box: seen, NOT read, and not counted as a negative.**"
  }
 ]

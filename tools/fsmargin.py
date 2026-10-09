@@ -6,6 +6,14 @@ From 1866 the Italian form prints a NAME BOX down the outer edge of each act:
 boxes to an opening — one per page. So a strip of the outer margins reads every
 couple in the book without touching the body of a single act.
 
+OUTER means OUTER. The left page's box is at the far LEFT of the image and the
+right page's at the far RIGHT — NOT either side of the gutter. The first version
+of this file cropped the right page at 0.515-0.675, which is the blank inner
+edge of the printed form, and so swept only the ODD-numbered acts while
+reporting a whole book. Santa Maria a Vico 1884 was read that way on 9 October
+2026 and had to be read again. A sweep that returns a tidy run of odd numbers
+is not a book; it is half a book.
+
     fsmargin.py <tsv> <waypoint> <lo> <hi> <outprefix> [per]
 """
 import sys, os, subprocess, time
@@ -54,7 +62,7 @@ for n in range(lo, hi+1):
         print(f"  MISSING {n}: {e}", file=sys.stderr); continue
     w, h = im.size
     # outer margin of the LEFT page, then of the RIGHT page
-    for lab, x0, x1 in ((f"{n}L", 0.015, 0.175), (f"{n}R", 0.515, 0.675)):
+    for lab, x0, x1 in ((f"{n}L", 0.015, 0.175), (f"{n}R", 0.790, 0.945)):
         c = im.crop((int(w*x0), int(h*0.03), int(w*x1), int(h*0.97)))
         c.thumbnail((240, 1500)); tiles.append(c); labels.append(lab)
         if len(tiles) == per: sheet()

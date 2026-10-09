@@ -1255,3 +1255,119 @@ place to look, and makes the absence of her husband the more pointed.*
 births **1840–41** · Santa Maria a Vico's marriages **1860–65, 1873–77, 1879–1883**.
 
 *Still unread at Santa Maria a Vico: marriages **1866–1872**, **1878**, and **1884–1894**.*
+
+---
+
+# 9 OCTOBER 2026 — 1884 IS READ, AND THE TOOL THAT READ IT HAD BEEN READING HALF A BOOK
+
+## THE BUG FIRST, BECAUSE IT TAINTS WHAT CAME BEFORE
+
+`tools/fsmargin.py` sweeps the **Numero box** that the printed form from 1866 prints down the
+**outer edge** of each act. Two acts to an opening, one per page, so two crops per image: the left
+page's box and the right page's.
+
+**It cropped the right page at `0.515–0.675` — the blank INNER edge of the right-hand form.**
+The left crop was right, the right crop photographed nothing. So every book swept with it was read
+on its **odd-numbered acts only**, and reported as a whole book.
+
+**The tell was in the output the whole time and I did not read it as a tell**: the labels ran
+`2 · 4 · 6 · 8` down one band and `1 · 3 · 5 · 7` down the other, and a register whose acts run odd
+on every left page and odd again on every right page is not a register. *A sweep that returns a tidy
+run of odd numbers is not a book; it is half a book.*
+
+Found by pulling **one whole leaf** — `MC5R-Q23` image 811 — after three failed attempts to find an
+act by number. The leaf shows «**Numero 11 — Cioffi Michele / Piscitelli Maria Teresa**» at the far
+left and «**Numero 12 — Sinti-Roger Tommaso Francesco / Petrucci Vincenza**» at the far **right**.
+*One full-leaf `dist.jpg` would have caught this on the first book.*
+
+**Crop corrected to `0.790–0.945` and the comment in the file now names the mistake.**
+
+### THE RE-READ, AND IT COST NOTHING
+
+`fsmargin.py` caches every leaf it fetches, so re-cutting the right band was **zero requests**.
+**Four books re-swept on their even acts:**
+
+| year | Parte I | even acts now read | Parte II | Falco? |
+|---|---|---|---|---|
+| **1875** | 1–48 | **2–48** | **n. 2 De Lucia × De Orazio · n. 4 Batista × Sibilio** | no |
+| **1879** | 1–38 | **2–38** | **n. 2 Pisco × Moluso · n. 4 De Lucia × Valentino · n. 6 Migliore × Ruggiero** | no |
+| **1882** | 1–36 | **2–36** | **n. 2 Marco × Dec** | no |
+| **1883** | 1–29 | **2–28** | **n. 2 Sofia × Vigliotti** | no |
+
+**The four nils stand — but they stood on half the evidence until today, and that is published
+rather than quietly repaired.** *1873's Parte II (images 1066–1072) is hand-written on lined paper
+with no printed Numero box, so the margin band cannot read it. **It is seen and NOT read**, and is
+not counted as a negative.*
+
+## 1884 READ ENTIRE — Parte I acts 1–57, both pages, and Parte II
+
+**No Falco groom and no Falco bride in the printed register.** The book ends at act 57; act 58 is a
+blank form.
+
+## AND THE ONE AMBIGUOUS INDEX LINE RESOLVES — IN A PART OF THE BOOK NOBODY HAD OPENED
+
+The 1884 yearly index (image 802) carried, under **F**, a line this archive could not read:
+
+> «**Fa—o (de) Bartolomeo / Santoro Clementina**»
+
+— ambiguous between **Falco** and **Fallo** at every magnification, and its register number matched
+**no act in the printed book**. Three acts were opened on three different readings of that number
+(38 = Ruggiero Carlo, 58 = a blank form, 34 = Vigliotti Arcangelo) before the book was swept whole.
+
+**It matched no act because the printed register is only PARTE I.**
+
+**`MC5R-Q23` image 835R opens a second register** — a title page, then acts written by hand on
+**lined paper**, numbered from one again. This is **Parte II**: marriages not celebrated at the Casa
+Comunale. **Parte II, act 3, is the F-section line:**
+
+> «*L'anno milleottocentottantaquattro addì **quattordici di Luglio** a ore pomeridiane **nove e
+> minuti trenta** nella Casa posta alla **Piazza Municipio Numero Trenta**. Avendo la Signora
+> **Santoro Clementina** col mezzo del certificato del medico Signor **Matteo Aniello** in data di
+> oggi stesso giustificato, che **per una contusione al ginocchio destro** è ella stessa
+> assolutamente impedita di recarsi alla Casa Comunale per celebrare il matrimonio, io **Carfora
+> Alfonso Sindaco** … col mio Segretario Signor **Savastano Donato** mi sono trasferito in questa
+> casa ove ho trovato: Primo il Signor **Commendatore DE FALCO BARTOLOMEO, di anni sessantasei,
+> proprietario, nato in NAPOLI, residente in ARIENZO**, figlio del fu Signor **Eufemio** residente
+> in vita in Napoli, e della fu Signora **DE GIORGIO MARIANTONIA** … Secondo la detta Signora
+> **SANTORO CLEMENTINA, di anni trentasette, proprietaria, nata a CASERTA**, residente in
+> Santamaria a Vico, figlia del fu Signor **Matteo** … e della Signora **HUEBER ISABELLA**,
+> residente in **Valle di Maddaloni***»
+
+**She was lame, so the mayor came to her house at half past nine at night. That is the whole reason
+this act is not in the printed book.**
+
+The documents are the publications made at Santa Maria a Vico on 29 June and 6 July 1884 **«e di
+quelle eseguite nel Comune di ARIENZO nei suindicati giorni»** — *the act's own statement that one
+of them lived at Arienzo, and he is the one who was not resident at Santa Maria a Vico.*
+
+Witnesses, all **proprietari**: Cav. **Pasquale Ruoti** 73 · Cav. **Tommaso Ruoti** 64 ·
+**Giuseppe de Ferrellis** 37 · **Giovanni de Ferrellis** 33. Both spouses signed.
+
+### HE IS NOT JOINED TO ANYTHING
+
+**`de Falco` is not `Falco`, and nothing here merges them.** This archive already holds a gentry
+**de Falco** of Arienzo — *Don Francesco Falco, proprietario*, whose daughter **Donna Raffaela de'
+Falco** died a nun in the Monastero d'Ave Gratia Plena in 1836. **Bartolomeo was born at Naples to
+Neapolitan parents**; nothing read joins him to that house either. He is recorded as
+`bartolomeo-de-falco-clementina-santoro` **because anyone searching Arienzo for a Falco in the
+1880s will meet a Commendatore, and should meet him already labelled.**
+
+## THE METHOD FINDING, AND IT IS THE BIGGEST OF THE THREE
+
+**PARTE II IS WHERE THE INTERESTING MARRIAGE IS.** Parte II holds what Parte I cannot: the bride
+too ill to walk to the town hall, the marriage celebrated elsewhere and transcribed, the deathbed
+marriage, the proxy. **These are exactly the marriages of people who moved** — and a man who cannot
+be found in his own town's register is, by definition, a man who moved.
+
+**In 1884 the ONLY Falco-adjacent act in the entire volume was in Parte II.**
+
+So: **sweep to the end of the volume, not to the end of the printed acts.** The blank form after the
+last act is not the end of the book — it is the middle of it.
+
+## THE RUNNING NEGATIVE ON GIUSEPPE, RESTATED
+
+**Absent from:** Arienzo's births **1834–1852** entire · Cervino's and Santa Maria a Vico's births
+**1840–41** · Santa Maria a Vico's marriages **1860–65, 1873–77, 1879–1884** — *and 1875, 1879,
+1882, 1883 and 1884 now on both pages and through Parte II.*
+
+*Still unread at Santa Maria a Vico: marriages **1866–1872**, **1878**, and **1885–1894**.*
