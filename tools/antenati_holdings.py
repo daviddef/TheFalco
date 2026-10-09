@@ -24,7 +24,36 @@ import re, subprocess, sys, time, urllib.parse
 
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
-KINDS = ["Nati", "Matrimoni", "Morti", "Diversi", "Allegati", "Cittadinanze"]
+# THE KINDS ARE NOT GUESSABLE AND THIS LIST WAS WRONG FOR A MONTH.
+#
+# It read: ["Nati", "Matrimoni", "Morti", "Diversi", "Allegati", "Cittadinanze"].
+# **«Allegati» is not a value Antenati uses.** Asking for it returns the facet's
+# own empty answer — «1 years: 1703», the artefact year that appears in every
+# query — and this archive read that as «the processetti are not online» for
+# **Moiano, Paolisi and San Felice a Cancello**, three towns whose work-list
+# rows have said «unexamined» ever since.
+#
+# **The real value is «Matrimoni, processetti», and all four towns have it.**
+# So do a dozen others nobody was asking for: «Matrimoni, pubblicazioni»,
+# «Nati, indice», «Morti, indice», «Matrimoni, indici decennali» — San Felice a
+# Cancello alone offers thirty-four.
+#
+# So the kinds are READ OFF THE TOWN'S OWN PAGE rather than hard-coded, which
+# is the same principle the rest of this file already follows: the page carries
+# its Solr facet query in an HTML comment, and the rendered filters carry every
+# `tipologia_ss` value that town actually has.
+KINDS = ["Nati", "Matrimoni", "Morti", "Diversi", "Cittadinanze", "Matrimoni, processetti"]
+
+def kinds_for(town):
+    """Every tipologia this town actually has, from its own facet."""
+    import html as _html
+    h = fetch(town, None)
+    vals = set()
+    for m in re.finditer(r'tipologia_ss:(?:&quot;|")?([^"&<]{2,60})', h):
+        v = _html.unescape(m.group(1)).strip().strip('"')
+        if v and not v.startswith(("&", "tipolog")):
+            vals.add(v)
+    return sorted(vals)
 
 def fetch(town, kind):
     q = {"localita": town}
@@ -60,7 +89,10 @@ def report(town, kind):
 
 def main():
     town = sys.argv[1] if len(sys.argv) > 1 else sys.exit(__doc__)
-    kinds = sys.argv[2:] or KINDS
+    kinds = sys.argv[2:]
+    if not kinds:
+        kinds = kinds_for(town) or KINDS
+        print(f"  (the town's own facet offers {len(kinds)} record type(s))")
     print(f"ANTENATI HOLDINGS — {town}")
     for k in kinds:
         report(town, k)
