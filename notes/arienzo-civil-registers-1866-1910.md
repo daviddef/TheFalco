@@ -1579,3 +1579,60 @@ the same small comune. **He is NOT the archive's Antonio Falco × Carmela Guida*
 
 **Absent as a groom from Santa Maria a Vico's marriages of 1860–67, 1870–77, 1879–87.**
 *Unread: **1868, 1869** (registers not located) and **1888–1894**.*
+
+---
+
+# THEY ARE SISTERS — the 1881 act is read, and it brackets Antonio Falco's death
+
+**`MC5R-Q23` image 329, right page. Santa Maria a Vico, marriage act 30 of 1881.**
+
+> «*L'anno milleottocento **ottantuno**, addì **quindici** di **Ottobre**, a ore antimeridiane
+> **undici** e minuti **quarantacinque**, nella Casa comunale di Santamaria a Vico … Avanti di me
+> **Nuzzi Felice, assessore anziano funzionante da Sindaco** …
+> **1.° Della Marca Cristofaro, di anni trentadue, colono, nato in S. Felice a Cancello**, figlio
+> del fu Giuseppe e di Di Palma Mariantonia, colona;
+> **2.° FALCO FILOMENA, di anni VENTISEI, COLONA, NATA IN SANTAMARIA A VICO, residente in
+> Santamaria a Vico, FIGLIA DEL FU ANTONIO** … **e di DELLA TORRE VINCENZA**, residente in detto
+> Comune*»
+
+Witnesses **Pietro Marletta** and **Alfonso Porrino**, both *sarti* of the comune.
+
+## WHAT IT SETTLES
+
+**Same father Antonio, same mother Vincenza, same comune, both daughters coloni.** **Filomena is
+Lucia's sister**, and the house is now three generations deep in documents rather than one act.
+
+**And this archive had published her as a stranger.** On the morning of 9 October the 1881 index line
+«*FALCO FILOMENA fu ANTONIO*» was written up as **«a third woman of the name»** whose act was unread.
+*It is read now, and she is not a third woman: she is of this house. **The note that called her a
+stranger is left standing above this one**, because that is how this archive handles being wrong.*
+
+**THE MOTHER'S SURNAME IS SETTLED: «DELLA TORRE».** The 1881 hand is clean. The 1872 act's rendering —
+recorded here as «della ?orca», unresolved rather than normalised — is consistent with it. *The
+uncertainty stays on the page it came from.*
+
+**FILOMENA WAS BORN AT SANTA MARIA A VICO, about 1855.** So the Falco household was living there by
+**1855**, not merely by 1872. *That is twenty-six years earlier than the archive's statement that no
+Falco family lived in the town, and fourteen years after the birth registers of 1840–41 that the
+statement rested on.*
+
+## AND IT BRACKETS A DEATH, WHICH IS THE NEXT THING TO READ
+
+**Antonio Falco is alive on 28 December 1872 and «fu» on 15 October 1881.**
+
+**His death act is in Santa Maria a Vico's death registers of 1873–1881** — and a death act of this
+period gives the dead man's **age, his birthplace and his parents**.
+
+> **If Antonio Falco was born at ARIENZO, this household is a bridge between the two towns, and the
+> search for Giuseppe stops being a search of one comune.**
+
+*That is the next job: the annual death indexes of 1873–1881, which the cover map already makes
+cheap to find.*
+
+## A NOTE ON THE MARGIN BOX, SO THE NEXT SWEEP DOES NOT MISREAD THIS BOOK
+
+**The 1881 book does not lay its Numero box where the 1884 book does.** Here each page carries its
+own box at the **inner** edge — the right page's box sits at about **x = 0.52**, not 0.80 — so a
+margin sweep tuned to 1884 reads the odd acts of 1881 and calls them the book. *The crop is a
+property of the printing, not of the collection: **look at one whole leaf before trusting a band**,
+every time the printer changes.*
