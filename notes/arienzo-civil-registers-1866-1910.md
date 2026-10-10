@@ -2670,3 +2670,27 @@ de' **furono** Matteo e Alessandra Crisci*», and her daughter Domenica's of 187
 
 > **Two independent clerks, three years apart, both wrote the plural. That is the weight against the
 > third reading, and it is not proof.**
+
+## AND THE FIRST OF THE THREE READINGS IS NOW CLOSED
+
+**Arienzo's deaths of 1867 after Matteo's own — acts 94 to 105, the last nineteen days of the year —
+are read act by act.** *The closing certificate gives the year's count: «Il presente Registro
+contiene numero **CENTOCINQUE** atti di morte … chiuso nel mattino di questo giorno primo gennajo
+dell'anno milleottocentosessantotto».*
+
+> Pietro Pascarella · Alessandro Terracciano · Francesca Bellella · Alfonso Crisci · Sabbatino
+> Saccavino · Giuseppe Rosi · Maria Raffaela Carfora · Raffaele Torriello · Luca Zimbardo ·
+> Crescenzo Crisci · Clemente Crisci · Maria Arricale
+
+**She is not among them.** *So she did not follow her husband within the year, and the only readings
+left are that **she died outside Arienzo** or that «de' furono» is a clerk's loose plural.*
+
+### AND A FALCO SIGNS AS A DECLARANT, WHICH IS A SIGHTING AND NOT A KINSHIP
+
+**Act 103, 30 December 1867**: «*sono comparsi **FRANCESCO FALCO figlio di GIUSEPPE d'anni
+SESSANTA**, di condizione **agricoltore***», reporting the death of Crescenzo Crisci.
+
+**Sixty in December 1867 is born about 1807.** *This archive's rule is written into
+`build_people.py` itself — **«declarant» is the one role that must NEVER become kinship** — and this
+is recorded as exactly what it is: a Francesco Falco, son of a Giuseppe, farming at Arienzo
+eighteen days after Matteo Falco died on the same street. **Work-list row 87 is where it bears.**
