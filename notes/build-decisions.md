@@ -101,3 +101,26 @@ first.
 *One thing left alone deliberately: a non-sweep note containing a literal capitalised «COMPLETE»
 still gets the chip, because that was the rule before today and changing it would silently drop
 chips somebody meant to be there.*
+
+## A PUBLISHED URL WENT DARK FOR AN HOUR, AND THE COMMIT THAT DID IT WAS PUSHED — 11 October 2026
+
+Adding **Elisabetta Sadutto** to a household merged her with the family tree's own record of her,
+and the merged person was minted at **`elisabetta-sadutto-2`**. **The tree's published address,
+`/people/elisabetta-sadutto`, stopped being built**, and `check:kit` caught it:
+
+> `FAIL searchindex 1 — /searchindex.json → 1 of 6127 rows point at pages that were not built,
+> e.g. /people/elisabetta-sadutto`
+
+**AND IT WAS COMMITTED AND PUSHED ANYWAY.** *The gates were being run in a shell `for` loop whose
+exit status does not reach the `&&` before `git commit`, so a FAILED line printed in the middle of
+the output and the commit went through on top of it. **The loop reported the failure and the commit
+did not read it.*** Fixed in the next commit, and said here rather than quietly repaired.
+
+**WHY THE REDIRECT DID NOT HAPPEN.** `tools/build_people.py` builds `people-aliases.json` — the file
+whose own comment says «**a published URL is a promise; this file is where the promises live**» —
+**from `same_person`, the household-to-household joins only.** *A **tree-to-household** merge
+re-mints the slug exactly the same way and leaves no alias.* The alias for Elisabetta was added by
+hand, which the file is designed to allow («REDIRECTS ARE KEPT, NEVER REBUILT FROM SCRATCH»).
+
+> **The general gap is still open and is written down here rather than patched blind**: any merge
+> that re-mints a slug should record the retired one, not only the household-to-household kind.
