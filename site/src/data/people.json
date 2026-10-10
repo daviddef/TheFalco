@@ -13770,7 +13770,7 @@
 "event": "named",
 "date": "",
 "place": "Arienzo",
-"evidence": "«*filiam Josephi, et **Magdalenae RIVETTA***» — **READ FROM THE IMAGE 14 September 2026**. The control is on the next line of the same act, in the same pen: «*servata forma Ritu: Roma:*», whose two capital **R** match this initial exactly. **«PIVERA» was the machine transcript, and this page was still publishing it on 20 September 2026 although the archive's own `households.tsv` had carried the corrected reading for six days.**",
+"evidence": "«*filiam Josephi, et **Magdalenae RIVETTA***» — **READ FROM THE IMAGE 14 September 2026**. The control is on the next line of the same act, in the same pen: «*servata forma Ritu: Roma:*», whose two capital **R** match this initial exactly. **«PIVERA» was the machine transcript, and this page was still publishing it on 20 September 2026 although the archive's own `households.tsv` had carried the corrected reading for six days.**\n\n---\n\n**AND SHE WAS DEAD BY 3 OCTOBER 1871.** Her daughter **Maria**'s death act of that day — Arienzo **atto 99 of 1871** — calls her «*figlia di **GIUSEPPE** e della **FU ANTONIA GUIDA***». *The father is written without «fu» and «domiciliato in Arienzo»: **Giuseppe Falco was still alive on 3 October 1871**, and he died on **9 December 1871**, act 125 of the same register, «*vedovo di Antonia Guida*».*\n\n**This is the first document to put a ceiling on her death**, and it is work-list row 39's own question — *«the window has moved and the old negative may not cover it»*. **The window now ends at 3 October 1871.**",
 "ark": "3Q9M-CSMY-B74R-4"
 },
 {
@@ -14041,6 +14041,14 @@
 {
 "slug": "maria-antonia-falco",
 "name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
 "via": "register",
 "vias": [
 "register"
@@ -17525,6 +17533,14 @@
 {
 "slug": "maria-antonia-falco",
 "name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
 "via": "register",
 "vias": [
 "register"
@@ -23245,6 +23261,14 @@
 ]
 },
 {
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "via": "register",
@@ -24214,6 +24238,14 @@
 {
 "slug": "maria-antonia-falco",
 "name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
 "via": "register",
 "vias": [
 "register"
@@ -26231,6 +26263,14 @@
 ]
 },
 {
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "via": "register",
@@ -28211,6 +28251,14 @@
 ]
 },
 {
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "via": "register",
@@ -28814,6 +28862,14 @@
 ]
 },
 {
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "via": "register",
@@ -28982,6 +29038,14 @@
 {
 "slug": "maria-antonia-falco",
 "name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
 "via": "register",
 "vias": [
 "register"
@@ -29882,6 +29946,14 @@
 {
 "slug": "maria-antonia-falco",
 "name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
 "via": "register",
 "vias": [
 "register"
@@ -32469,6 +32541,14 @@
 ]
 },
 {
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "via": "register",
@@ -32639,6 +32719,14 @@
 {
 "slug": "maria-antonia-falco",
 "name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
 "via": "register",
 "vias": [
 "register"
@@ -33233,6 +33321,14 @@
 {
 "slug": "raffaele-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Raffaele Falco (of Giuseppe, the second, d. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
 "via": "register",
 "vias": [
 "register"
@@ -33834,6 +33930,181 @@
 }
 },
 {
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
+"surname": "FALCO",
+"household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "2 Oct 1871",
+"place": "Arienzo, Villaggio Costa",
+"evidence": "**A DAUGHTER THIS ARCHIVE DID NOT HOLD, out of the Arienzo death register of 1871.** «*L'anno milleottocentosettantuno, nel giorno **TRE** del mese di **OTTOBRE**, nella Casa Comunale, alle ore quattordici. Dinanzi a me **Nicola Finelli Sindaco** … sono comparsi **Antonio Crisci di Gabriele d'anni cinquanta** e **Salvatore Zimbardo fu Clemente d'anni ventisette**, ambi agricoltori … che alle ore cinque d'Italia del **due** del corrente mese di Ottobre, in questo Comune, nella sua casa di abitazione, sita nel **VILLAGGIO COSTA**, è morta **MARIA FALCO, contadina, DI ANNI CINQUANTATRE, MOGLIE DI RAFFAELE MORGILLO, nata e domiciliata in questo Comune di Arienzo, FIGLIA DI GIUSEPPE E DELLA FU ANTONIA GUIDA**, domiciliato in Arienzo*» — `MC55-FNT` image 686, read 11 October 2026.\n\n**Fifty-three on 2 October 1871 puts her birth between October 1817 and October 1818.**\n\n**AND SHE IS NOT MERGED WITH MADDALENA.** *This household already holds a **MADDALENA FALCO born 7 June 1818** — inside that very window — and a second Maddalena born in 1827, which is usually how this archive learns the first one died. **«Maria» and «Maddalena» are different names and this archive does not join people on an age.** Both stand, and the question is written down rather than resolved: **is the child of June 1818 this woman, or did Giuseppe and Antonia have two daughters within a year?***",
+"ark": "FamilySearch 3:1:3QSQ-G976-QWCV — image 686 of waypoint MC55-FNT, collection 2043630 — Arienzo, morti 1871, atto 99 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonia-di-guida",
+"name": "Antonia di Guida",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "mattheus-falco",
+"name": "Mattheus (Matteo) Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Giovanni Falco (the elder)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maddalena Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clemente-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida-2",
+"name": "Maddalena Falco (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-giuseppe-falco-antonia-di-guida-2",
+"name": "Giovanni Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
+"name": "Matteo Falco (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-maria-lucia-falco",
+"name": "Francesca Maria Lucia Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-maria-falco",
+"name": "Angela Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaele Falco (of Giuseppe, d. 1811)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-giuseppe-falco-antonia-di-guida-2",
+"name": "Raffaele Falco (of Giuseppe, the second, d. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"d": "2 Oct 1871",
+"dateFrom": {
+"d": "act"
+}
+},
+{
 "slug": "maria-falco-of-giuseppe-falco-rosa-sossi",
 "name": "Maria Falco",
 "surname": "FALCO",
@@ -34401,7 +34672,7 @@
 ],
 "spouses": [
 {
-"slug": "raffaele-morgillo-of-carlantonio-morgillo-rosa-falco",
+"slug": "raffaele-morgillo",
 "name": "Raffaele Morgillo",
 "via": "tree",
 "vias": [
@@ -35776,6 +36047,14 @@
 ]
 },
 {
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "via": "register",
@@ -35944,6 +36223,14 @@
 {
 "slug": "maria-antonia-falco",
 "name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
 "via": "register",
 "vias": [
 "register"
@@ -36822,6 +37109,14 @@
 {
 "slug": "maria-antonia-falco",
 "name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
 "via": "register",
 "vias": [
 "register"
@@ -39913,6 +40208,14 @@
 ]
 },
 {
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "via": "register",
@@ -40804,6 +41107,14 @@
 ]
 },
 {
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "crescenzo-falco",
 "name": "Crescenzo Falco",
 "via": "register",
@@ -40974,6 +41285,14 @@
 {
 "slug": "maria-antonia-falco",
 "name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
 "via": "register",
 "vias": [
 "register"
@@ -51574,6 +51893,32 @@
 }
 },
 {
+"slug": "raffaele-morgillo-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaele Morgillo",
+"surname": "MORGILLO",
+"household": "Giuseppe Falco & Antonia di Guida",
+"hid": "giuseppe-falco-antonia-di-guida",
+"role": "married in",
+"events": [
+{
+"event": "named as her husband",
+"date": "2 Oct 1871",
+"place": "Arienzo, Villaggio Costa",
+"evidence": "**«MOGLIE DI RAFFAELE MORGILLO»** — named as Maria Falco's husband in her death act, Arienzo **atto 99 of 1871**, and living with her at the **VILLAGGIO COSTA**. *A marriage this archive did not hold, and a household it has never built.*",
+"ark": "FamilySearch 3:1:3QSQ-G976-QWCV — image 686 of waypoint MC55-FNT, collection 2043630 — Arienzo, morti 1871, atto 99 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"noKin": "married-in"
+},
+{
 "slug": "raffaele-morgillo-of-carlantonio-morgillo-rosa-falco",
 "name": "Raffaele Morgillo",
 "surname": "MORGILLO",
@@ -51597,8 +51942,7 @@
 }
 ],
 "sources": [
-"register",
-"tree"
+"register"
 ],
 "living": false,
 "parents": [
@@ -51619,16 +51963,7 @@
 ]
 }
 ],
-"spouses": [
-{
-"slug": "maria-falco",
-"name": "Maria Falco (Morgillo)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"spouses": [],
 "children": [],
 "siblings": [
 {
@@ -51688,14 +52023,38 @@
 ]
 }
 ],
-"mergedOn": "name alone",
-"treeId": 4512419,
 "b": "1 Sep 1809",
 "dateFrom": {
 "b": "act",
 "d": "act"
 },
 "d": "9 May 1832"
+},
+{
+"slug": "raffaele-morgillo",
+"name": "Raffaele Morgillo",
+"surname": "MORGILLO",
+"household": null,
+"role": null,
+"events": [],
+"sources": [
+"tree"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "maria-falco",
+"name": "Maria Falco (Morgillo)",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"children": [],
+"siblings": [],
+"treeId": 4512419
 },
 {
 "slug": "simone-morgillo",

@@ -208,7 +208,7 @@
     "who": "Maria Falco (Morgillo)",
     "whoSlug": "maria-falco",
     "to": "Raffaele Morgillo",
-    "toSlug": "raffaele-morgillo-of-carlantonio-morgillo-rosa-falco",
+    "toSlug": "raffaele-morgillo",
     "into": "Morgillo",
     "living": false
    },
@@ -2463,7 +2463,7 @@
   "surname": "Morgillo",
   "n": 6,
   "withheld": 0,
-  "first": 1809,
+  "first": 1818,
   "last": 1880,
   "places": [
    "Arienzo",
@@ -2488,7 +2488,7 @@
    },
    {
     "who": "Raffaele Morgillo",
-    "whoSlug": "raffaele-morgillo-of-carlantonio-morgillo-rosa-falco",
+    "whoSlug": "raffaele-morgillo",
     "to": "Maria Falco (Morgillo)",
     "toSlug": "maria-falco",
     "into": "Falco",
@@ -2520,14 +2520,6 @@
    }
   ],
   "people": [
-   {
-    "name": "Raffaele Morgillo",
-    "slug": "raffaele-morgillo-of-carlantonio-morgillo-rosa-falco",
-    "b": "1 Sep 1809",
-    "bp": "",
-    "d": "9 May 1832",
-    "dp": ""
-   },
    {
     "name": "Angela Rosa Morgillo (Falco)",
     "slug": "angela-rosa-morgillo",
@@ -2563,6 +2555,14 @@
    {
     "name": "Orazio Morgillo",
     "slug": "orazio-morgillo",
+    "b": "",
+    "bp": "",
+    "d": "",
+    "dp": ""
+   },
+   {
+    "name": "Raffaele Morgillo",
+    "slug": "raffaele-morgillo",
     "b": "",
     "bp": "",
     "d": "",

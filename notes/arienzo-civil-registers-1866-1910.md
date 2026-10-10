@@ -2504,3 +2504,74 @@ counts any that still lack one rather than passing them in silence.
 last night — *and adding a twenty-second step to a file somebody else has open is how two sessions
 lose each other's work.* **The gate runs on its own** (`python3 tools/check_fscite.py`, exit 1 on
 failure) **and is left for whoever owns the chain to adopt.**
+
+---
+
+# 11 OCTOBER — ARIENZO'S DEATHS OF 1871, AND A DAUGHTER NOBODY HAD
+
+**The 1871 death register opens with its own annual index**, `MC55-FNT` images **661–662**:
+«*Modulo dell'Indice annuale de' **Morti** nell'anno 1871*», **127 deaths**, two pages, closed
+«*Arienzo, li 1.º Gennajo 1872*». **The F section is four lines:**
+
+> **44 — Falco Raffaele — 68** · **45 — Falco Fabrizio — 69** · **46 — Falco Maria — 99** ·
+> **49 — Falco Giuseppe — 125**
+
+*Three of the four this archive already holds — Raffaele and Fabrizio read on 8 October, Giuseppe
+on the same day.* **The fourth was unknown.**
+
+## ACT 99 — MARIA FALCO, AND HER PARENTS ARE A HOUSEHOLD OF THIS ARCHIVE
+
+> «*…alle ore cinque d'Italia del **due** del corrente mese di **Ottobre**, in questo Comune, nella
+> sua casa di abitazione, sita nel **VILLAGGIO COSTA**, è morta **MARIA FALCO, contadina, DI ANNI
+> CINQUANTATRE, MOGLIE DI RAFFAELE MORGILLO**, nata e domiciliata in questo Comune di Arienzo,
+> **FIGLIA DI GIUSEPPE E DELLA FU ANTONIA GUIDA**, domiciliato in Arienzo*»
+
+Declared by **Antonio Crisci di Gabriele, 50** and **Salvatore Zimbardo fu Clemente, 27**, both
+*agricoltori*, before **Nicola Finelli, Sindaco**.
+
+**Fifty-three on 2 October 1871 → born between October 1817 and October 1818.**
+
+### IT PAYS THREE TIMES
+
+**ONE — a daughter, and a husband, neither of them held.** *Giuseppe Falco and Antonia di Guida have
+nineteen documented children in this archive. **Maria is a twentieth**, and **RAFFAELE MORGILLO** is
+a marriage it had never seen.*
+
+**TWO — ANTONIA DI GUIDA WAS DEAD BY 3 OCTOBER 1871.** «*della **fu** Antonia Guida*». *That is
+work-list row 39's own question — «the window has moved and the old negative may not cover it» — and
+**the window now has a ceiling**.*
+
+**THREE — GIUSEPPE FALCO WAS STILL ALIVE ON THAT DAY**, written without «fu» and «*domiciliato in
+Arienzo*» — **and he died nine weeks later**, act **125** of the same register, «*vedovo di Antonia
+Guida*». *Two acts of one year, read six weeks apart, and they close on each other.*
+
+### AND SHE IS NOT MERGED WITH MADDALENA
+
+*This household already holds a **MADDALENA FALCO born 7 June 1818** — inside Maria's age window to
+the month — and a **second Maddalena born 1827**, which in these registers usually means the first
+one died.* **«Maria» and «Maddalena» are different names, and this archive does not join people on
+an age.** Both stand, and the question is written down rather than resolved:
+
+> **Is the child of June 1818 this woman, or did Giuseppe and Antonia have two daughters inside a
+> year?**
+
+## AND A NAMESAKE TRAP WORTH THE SAME CARE — ACT 40
+
+The index's C section carries «**22 — Crisci Andreana — 40**», and this archive's generation-three
+wife is **Andreana Crisci**, last seen alive on 24 June 1869. **The act was read before anything was
+concluded:**
+
+> «*…nella sua casa di abitazione, sita nella **Contrada CAMELLARA**, è morta **ANDREANA CRISCI**,
+> contadina, **di anni SETTANTADUE**, **moglie di ANIELLO LOFFREDO**, nata e domiciliata in questo
+> Comune, **figlia de' furono VINCENZO e ALESSANDRA LAUDATO***»
+
+**It is a different woman** — ours is the wife of **Vincenzo Falco** and the daughter of **Arcangelo
+Crisci and Sara Ruggiero**. *But look at what matched: the name, an age that fits, and **Contrada
+Camellara**, this family's own street. **Only the husband and the parents separate them**, and a
+reader who stopped at the index would have buried generation three's wife seven years early.*
+
+## WHAT 1871 DOES NOT HOLD
+
+**No Matteo Falco and no Alessandra Crisci** in the 127 deaths. *Both were dead by October 1871, so
+their acts are in **1866, 1867, 1868, 1869 or 1870** — and those five registers are the next thing
+to open.*
