@@ -2632,3 +2632,41 @@ furono Matteo e Alessandra Crisci*». **And Arienzo's deaths of 1871 are read ou
 them.**
 
 > **She died in 1868, 1869 or 1870. Three registers, all in `MC55-FNT`, all open.**
+
+---
+
+# AND ALESSANDRA CRISCI IS IN NONE OF THE FOUR YEARS
+
+**Arienzo's death registers of 1868, 1869, 1870 and 1871 are now read out — every act, at the margin
+box.**
+
+| year | images | acts | Falco | Alessandra Crisci |
+|---|---|---:|---|---|
+| **1868** | 344–380 | **140** | act 101, **Raffaela Falco**, fifteen days old | **no** |
+| **1869** | 466–490 | ~90 | none | **no** |
+| **1870** | 566–592 | **104** | none | **no** |
+| **1871** | 663–691 | **127** | acts 68, 69, **99**, 125 | **no** |
+
+*One name was taken back to the manuscript before it was dismissed: **1869 act 86, «Atto di morte di
+Alessandr— Crisci»**. Magnified, the final letter is unmistakably **-o**, and act 83 four leaves
+earlier spells the same man «Alessandro». **Masculine, and not her.***
+
+**And the 1867 index's A section — read complete on image 240, twenty-nine names from Andrea Giglio
+to Alfonso Crisci — does not hold her.**
+
+## SO THE QUESTION MOVES, AND THE ARCHIVE DOES NOT CHOOSE BETWEEN THREE READINGS
+
+**She was alive on 12 December 1867** — her husband's death act calls him «*marito di Alessandra
+Crisci*». **She was dead by 8 October 1871** — her daughter Vincenza's marriage act says «*figlia
+de' **furono** Matteo e Alessandra Crisci*», and her daughter Domenica's of 1874 says it again.
+**The four registers between those dates do not contain her.**
+
+1. **She died at Arienzo in the last nineteen days of 1867** and the year's own index missed her.
+   *Testable: the 1867 acts after number 93.*
+2. **She died outside Arienzo** — which for a widow of that age usually means in a married
+   daughter's house. *Testable: the comuni her daughters married into.*
+3. **«De' furono» is a clerk's loose plural** covering only the father. *Testable: any third act
+   that names her.*
+
+> **Two independent clerks, three years apart, both wrote the plural. That is the weight against the
+> third reading, and it is not proof.**
