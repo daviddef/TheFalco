@@ -139,6 +139,20 @@ RETIRED_PHRASES = [
     ("D'AMBROGIO maggiore, di anni DICIANNOVE",
      "she is «di anni TRENOVE» \u2014 thirty-nine \u2014 read at the leaf's full 3,200 pixels; the initial is a "
      "crossed ascender, and the act calls her MAGGIORE, which nineteen could not be"),
+    # ADDED 11 OCTOBER 2026, AND IT IS THE SAME CORRECTION ARRIVING IN THE OTHER LANGUAGE.
+    # The rule above was written against the clerk's Italian. For twenty-one days
+    # households.json and households.tsv went on saying, in this archive's own English,
+    # «NINETEEN, contadina, marrying a widower of forty-three» — the retired age, stated
+    # as fact, in the row the correction was about. Nothing was looking for it, because a
+    # phrase rule written from the QUOTATION cannot see the RESTATEMENT.
+    # So when a correction retires a number, retire the English sentence that carries it too.
+    ("NINETEEN, contadina",
+     "she is «di anni TRENOVE» \u2014 thirty-nine. This is the archive's own English restatement of the "
+     "retired age; the Italian rule above could not see it, and it stood in households.json and "
+     "households.tsv from 20 September to 11 October 2026"),
+    ("eight years younger than the widower",
+     "43 \u2212 39 = FOUR. The correction of 20 September 2026 fixed her age and then did the subtraction "
+     "with the old number still in hand"),
 ]
 
 GUILLEMET = re.compile(r"\u00ab.*?\u00bb", re.S)

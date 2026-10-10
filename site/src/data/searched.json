@@ -2153,5 +2153,47 @@
   "what": "Whether ALESSANDRA CRISCI died at Arienzo in the three weeks after her husband",
   "outcome": "nothing",
   "got": "**SHE DID NOT.** Acts 94–105 are Pietro Pascarella, Alessandro Terracciano, Francesca Bellella, Alfonso Crisci, Sabbatino Saccavino, Giuseppe Rosi, Maria Raffaela Carfora, Raffaele Torriello, Luca Zimbardo, Crescenzo Crisci, Clemente Crisci and Maria Arricale.\n\n**So the first of the three readings is closed**: she is not in Arienzo's deaths of 1867 after her husband's, nor in 1868, 1869, 1870 or 1871. *What is left is that **she died outside Arienzo**, or that «de' furono» in her daughters' marriage acts is a clerk's loose plural.*\n\n**AND A FALCO APPEARS AS A DECLARANT, which is a sighting and not a kinship.** Act 103, 30 December 1867: «*sono comparsi **FRANCESCO FALCO figlio di GIUSEPPE d'anni SESSANTA**, di condizione **agricoltore***», reporting the death of Crescenzo Crisci. *Sixty in December 1867 is born about 1807. **This archive's rule is explicit — a declarant must never become kinship** — and it is recorded only as what it is: a Francesco Falco, son of a Giuseppe, farming at Arienzo in 1867, which bears on work-list row 87.*"
+ },
+ {
+  "when": "1878",
+  "searchedOn": "2026-10-11",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo",
+  "waypoint": "MC55-VNL",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L97F-M7CN?cc=2043630&wc=MC55-VNL",
+  "pages": "47-62",
+  "walked": true,
+  "src": "**ARIENZO, MATRIMONI 1878 — ALL 26 ACTS OF PARTE I, read from the printed Numero box of every page.** The register has **no index of any kind**; it was walked by compositing the outer margin strip of each leaf into contact sheets of fourteen boxes.",
+  "what": "Giuseppe Falco, son of Matteo, as a groom — and any Falco at all in a register this archive had never opened",
+  "outcome": "found",
+  "got": "**ACT 19 IS A FALCO BRIDE.** «*2.° **FALCO MARIA CARMINA**, di anni **VENTISEI**, **filatrice**, nata in ARIENZO, residente in Arienzo, figlia di **MICHELE**, residente in Arienzo, e di **GIOVANNA D'AMBROSIO**, residente in Arienzo*» — married **PASQUALE SFORZA**, **8 December 1878, 10.15 a.m.**, before Cavalier **NICOLA FINELLI**. Image **57**, left page, ark `3:1:3QSQ-G97F-MWW8`.\n\n**She is a new daughter for `Michele Falco & Maria Giovanna Ambrogio`**, born about **1852**, with **both parents alive and resident in December 1878**. The household had stood on a wedding and two children dead in 1859.\n\n**And she is NOT the Maria Carmina Falco already in this archive** — that one is a daughter of Giuseppe Falco and Rosa Zimbardo out of the unverified tree, born in the 1870s. `tools/isitnew.py` was run before the row was written.\n\n**Giuseppe Falco, son of Matteo, is not in this book.**",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Marriages",
+   "Falco"
+  ]
+ },
+ {
+  "when": "1879–1884",
+  "searchedOn": "2026-10-11",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo",
+  "waypoint": "MC55-VNL",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L97F-M7CN?cc=2043630&wc=MC55-VNL",
+  "pages": "159-177, 282-302, 390-414, 512-534, 620-650, 727-750",
+  "walked": true,
+  "src": "**ARIENZO, MATRIMONI 1879, 1880, 1881, 1882, 1883 AND 1884 — every act of Parte I and Parte II, read from the image.** Six unindexed registers in `MC55-VNL`, walked the same way as 1878: `tools/fsmargin.py` fetches one `dist.jpg` per leaf and crops the two **outer** margin strips, and a compositor lays fourteen of them side by side with the image numbers burnt in, so each contact sheet reads a whole opening and the negative is auditable rather than asserted.",
+  "what": "Giuseppe Falco, son of Matteo, as a groom; and any Falco bride, groom or parent",
+  "outcome": "nothing",
+  "got": "**NOT ONE FALCO IN SIX YEARS.** Act counts, Parte I + Parte II: **1879 — 24** · **1880 — 31 + 3** · **1881 — 30 + 1** · **1882 — 29 + 1** · **1883 — 48 + 1** · **1884 — 30 + 1**. No Falco stands as bride or groom, and no Falco is named as a parent in any margin box.\n\n**The nearest approach is DE FALCO, which is a different surname and is not claimed**: **Giacomo De Falco × Giuseppa Gesúè**, 1883 Parte I act 25; and **Leonardo Bartolomeo De Falco**, 1884 Parte II act 1. *This archive does not merge people on a name, and it does not merge families on half of one.*\n\n**So Giuseppe Falco, son of Matteo, did not marry at Arienzo in 1878–1884**, as he did not at Santa Maria a Vico in 1860–87 nor at Arienzo in 1866 or 1869–1874. **1878 is the one year of the run that held a Falco at all**, which is the control: the method finds them when they are there.",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Marriages",
+   "Negative"
+  ]
  }
 ]

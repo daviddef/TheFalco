@@ -1,5 +1,185 @@
 [
  {
+  "person": "Antonio Carfora",
+  "event": "marriage",
+  "date": "18 Aug 1827",
+  "household": "Antonio Carfora & Giuseppa Perreca (strada Camellara)",
+  "ark": "an_ua14231",
+  "img": 17,
+  "half": "r",
+  "act": "16",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Giuseppa Perreca",
+  "event": "marriage",
+  "date": "18 Aug 1827",
+  "household": "Antonio Carfora & Giuseppa Perreca (strada Camellara)",
+  "ark": "an_ua14231",
+  "img": 17,
+  "half": "r",
+  "act": "16",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Pasquale Carfora",
+  "event": "named as dead",
+  "date": "18 Aug 1827",
+  "household": "Antonio Carfora & Giuseppa Perreca (strada Camellara)",
+  "ark": "an_ua14231",
+  "img": 17,
+  "half": "r",
+  "act": "16",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Maria Carbona",
+  "event": "named as living",
+  "date": "18 Aug 1827",
+  "household": "Antonio Carfora & Giuseppa Perreca (strada Camellara)",
+  "ark": "an_ua14231",
+  "img": 17,
+  "half": "r",
+  "act": "16",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Nicola Perreca",
+  "event": "named as living",
+  "date": "18 Aug 1827",
+  "household": "Antonio Carfora & Giuseppa Perreca (strada Camellara)",
+  "ark": "an_ua14231",
+  "img": 17,
+  "half": "r",
+  "act": "16",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Orsola Morgillo",
+  "event": "named as living",
+  "date": "18 Aug 1827",
+  "household": "Antonio Carfora & Giuseppa Perreca (strada Camellara)",
+  "ark": "an_ua14231",
+  "img": 17,
+  "half": "r",
+  "act": "16",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Pasqua Morgillo",
+  "event": "death window",
+  "date": "before 21 Jan 1860",
+  "household": "Sabatino Annecchino & Mariantonia Carfora",
+  "ark": "an_ua14232",
+  "img": 12,
+  "half": "r",
+  "act": "11",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Francesco Carfora (of Matteo, m. 1828)",
+  "event": "marriage",
+  "date": "29 Jun 1828",
+  "household": "Francesco Carfora & Pasqua Morgillo",
+  "ark": "an_ua14232",
+  "img": 12,
+  "half": "r",
+  "act": "11",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Pasqua Morgillo",
+  "event": "marriage",
+  "date": "29 Jun 1828",
+  "household": "Francesco Carfora & Pasqua Morgillo",
+  "ark": "an_ua14232",
+  "img": 12,
+  "half": "r",
+  "act": "11",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Matteo Carfora",
+  "event": "named as dead",
+  "date": "29 Jun 1828",
+  "household": "Francesco Carfora & Pasqua Morgillo",
+  "ark": "an_ua14232",
+  "img": 12,
+  "half": "r",
+  "act": "11",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Grazia Zimbardo",
+  "event": "named as dead",
+  "date": "29 Jun 1828",
+  "household": "Francesco Carfora & Pasqua Morgillo",
+  "ark": "an_ua14232",
+  "img": 12,
+  "half": "r",
+  "act": "11",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Giovanni Morgillo",
+  "event": "named as living",
+  "date": "29 Jun 1828",
+  "household": "Francesco Carfora & Pasqua Morgillo",
+  "ark": "an_ua14232",
+  "img": 12,
+  "half": "r",
+  "act": "11",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Domenica Crisci",
+  "event": "named",
+  "date": "29 Jun 1828",
+  "household": "Francesco Carfora & Pasqua Morgillo",
+  "ark": "an_ua14232",
+  "img": 12,
+  "half": "r",
+  "act": "11",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Mariantonia Vigliotta",
+  "event": "marriage",
+  "date": "Dec 1828",
+  "household": "Michelangelo Falco & Mariantonia Vigliotta",
+  "ark": "an_ua14232",
+  "img": 18,
+  "half": "r",
+  "act": "17",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Francescantonio Falco",
+  "event": "marriage",
+  "date": "6 Jul 1832",
+  "household": "Francesco Falco & Raffaela Falco",
+  "ark": "an_ua14236",
+  "img": 9,
+  "half": "r",
+  "act": "8",
+  "corrected": false,
+  "others": 0
+ },
+ {
   "person": "Crescenzo Falco",
   "event": "marriage",
   "date": "2 Feb 1845",
@@ -9,59 +189,90 @@
   "half": "r",
   "act": "3",
   "corrected": false,
-  "ev": "THE CIVIL ACT BEHIND THE CHURCH DATE, AND IT DATES HIS BIRTH. «*sono comparsi ne",
-  "others": 0
- },
- {
-  "person": "Giuseppe Falco",
-  "event": "named as living",
-  "date": "2 Feb 1845",
-  "household": "Giuseppe Falco & Antonia di Guida",
-  "ark": "an_ua14249",
-  "img": 4,
-  "half": "r",
-  "act": "3",
-  "corrected": false,
-  "ev": "Given with a trade and a domicile and NOT marked «defunto» — in an act that mark",
-  "others": 0
- },
- {
-  "person": "Antonia di Guida",
-  "event": "named as living",
-  "date": "2 Feb 1845",
-  "household": "Giuseppe Falco & Antonia di Guida",
-  "ark": "an_ua14249",
-  "img": 4,
-  "half": "r",
-  "act": "3",
-  "corrected": false,
-  "ev": "HER LATEST DATED SIGHTING BY TWENTY-FIVE YEARS. This archive held her on one dat",
   "others": 0
  },
  {
   "person": "Gennaro Morgillo",
   "event": "death window",
   "date": "before 2 Feb 1845",
-  "household": "Gennaro Morgillo & Maria Felicia Sanzone",
+  "household": "Gennaro Morgillo & Maria Felicia Sansone",
   "ark": "an_ua14249",
   "img": 4,
   "half": "r",
   "act": "3",
   "corrected": false,
-  "ev": "NAMED ONLY BY HIS DAUGHTER'S MARRIAGE, and already dead when it happened: «*figl",
   "others": 0
  },
  {
-  "person": "Maria Felicia Sanzone",
+  "person": "Maria Felicia Sansone",
   "event": "death window",
   "date": "before 2 Feb 1845",
-  "household": "Gennaro Morgillo & Maria Felicia Sanzone",
+  "household": "Gennaro Morgillo & Maria Felicia Sansone",
   "ark": "an_ua14249",
   "img": 4,
   "half": "r",
   "act": "3",
   "corrected": false,
-  "ev": "«*e di **MARIA FELICIA SANZONE**, di professione **contadina** … **defunta***». ",
+  "others": 0
+ },
+ {
+  "person": "Andrea Falco",
+  "event": "marriage",
+  "date": "21 May 1846",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14250",
+  "img": 15,
+  "half": "r",
+  "act": "14",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Maria Carmela Buono",
+  "event": "marriage",
+  "date": "21 May 1846",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14250",
+  "img": 15,
+  "half": "r",
+  "act": "14",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Angelandrea Falco",
+  "event": "marriage",
+  "date": "29 Mar 1847",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14251",
+  "img": 4,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Camilla Carbone",
+  "event": "named in a marriage act",
+  "date": "19 Aug 1848",
+  "household": "Pietro Falco & [Carbone] (Airola)",
+  "ark": "an_ua14252",
+  "img": 21,
+  "half": "r",
+  "act": "20",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Francesco Falco",
+  "event": "marriage",
+  "date": "19 Aug 1848",
+  "household": "Pietro Falco & [Carbone] (Airola)",
+  "ark": "an_ua14252",
+  "img": 21,
+  "half": "r",
+  "act": "20",
+  "corrected": false,
   "others": 0
  },
  {
@@ -74,20 +285,6 @@
   "half": "r",
   "act": "6",
   "corrected": false,
-  "ev": "NINETEEN, contadina, marrying a widower of forty-three. She is the «Maria Giovan",
-  "others": 0
- },
- {
-  "person": "Michele Falco",
-  "event": "marriage",
-  "date": "12 Feb 1850",
-  "household": "Michele Falco & Antonia Vigliotta",
-  "ark": "an_ua14254",
-  "img": 11,
-  "half": "r",
-  "act": "6",
-  "corrected": false,
-  "ev": "THE ACT THAT JOINS TWO HOUSEHOLDS THIS ARCHIVE KEPT APART. «*sono comparsi nella",
   "others": 0
  },
  {
@@ -100,7 +297,6 @@
   "half": "r",
   "act": "6",
   "corrected": false,
-  "ev": "«*VEDOVO DI ANTONIA VIGLIOTI*» — she was dead by 12 February 1850. Her daughter ",
   "others": 0
  },
  {
@@ -113,7 +309,6 @@
   "half": "r",
   "act": "6",
   "corrected": false,
-  "ev": "MICHELE FALCO'S FATHER, NAMED FOR THE FIRST TIME: «*figlio di **RAFFAELE FALCO D",
   "others": 0
  },
  {
@@ -126,85 +321,186 @@
   "half": "r",
   "act": "6",
   "corrected": false,
-  "ev": "«*e di **CHIARA RIVETTI DEFUNTA**, di professione **filatrice***». **A NAME THIS",
+  "others": 0
+ },
+ {
+  "person": "Raffaele Falco (of Chiara Rivetti)",
+  "event": "named as dead",
+  "date": "12 Feb 1850",
+  "household": "Raffaele Falco & Chiara Rivetti",
+  "ark": "an_ua14254",
+  "img": 11,
+  "half": "r",
+  "act": "6",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Chiara Rivetti (of Raffaele Falco)",
+  "event": "named as dead",
+  "date": "12 Feb 1850",
+  "household": "Raffaele Falco & Chiara Rivetti",
+  "ark": "an_ua14254",
+  "img": 11,
+  "half": "r",
+  "act": "6",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Luigi (Aloysius) Falco",
+  "event": "marriage",
+  "date": "13 Aug 1851",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14255",
+  "img": 19,
+  "half": "r",
+  "act": "14",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Carolina Cimmino",
+  "event": "marriage",
+  "date": "13 Aug 1851",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14255",
+  "img": 19,
+  "half": "r",
+  "act": "14",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Alessandro Cimmino",
+  "event": "named as living",
+  "date": "13 Aug 1851",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14255",
+  "img": 19,
+  "half": "r",
+  "act": "14",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Rosa Selli",
+  "event": "named as living",
+  "date": "13 Aug 1851",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14255",
+  "img": 19,
+  "half": "r",
+  "act": "14",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Francesco Falco (of Raffaele, m. 1854)",
+  "event": "marriage",
+  "date": "Aug 1854",
+  "household": "Raffaele Falco & Chiara Rivetti",
+  "ark": "an_ua14258",
+  "img": 32,
+  "half": "r",
+  "act": "20",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Cornelia Sabatino",
+  "event": "marriage",
+  "date": "Aug 1854",
+  "household": "Raffaele Falco & Chiara Rivetti",
+  "ark": "an_ua14258",
+  "img": 32,
+  "half": "r",
+  "act": "20",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Giacomo Annecchino (of Carmine, b. c.1817)",
+  "event": "marriage",
+  "date": "Mar 1856",
+  "household": "Carmine Annecchino & Rosa Ceglia",
+  "ark": "an_ua14260",
+  "img": 36,
+  "half": "r",
+  "act": "10",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Angela Maria Falco",
+  "event": "marriage",
+  "date": "15 Nov 1857",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14261",
+  "img": 28,
+  "half": "r",
+  "act": "26",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Maria Carmela Falco",
+  "event": "marriage",
+  "date": "26 Nov 1857",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14261",
+  "img": 30,
+  "half": "r",
+  "act": "28",
+  "corrected": false,
   "others": 0
  },
  {
   "person": "Sabatino Annecchino",
   "event": "marriage",
-  "date": "20 Jan 1860",
+  "date": "21 Jan 1860",
   "household": "Sabatino Annecchino & Mariantonia Carfora",
   "ark": "an_ua14264",
   "img": 5,
   "half": "r",
   "act": "3",
   "corrected": false,
-  "ev": "THE MARRIAGE, FOUND — this archive held the household from its children alone. «",
-  "others": 0
- },
- {
-  "person": "Carmine Annecchino",
-  "event": "death window",
-  "date": "before 20 Jan 1860",
-  "household": "Sabatino Annecchino & Mariantonia Carfora",
-  "ark": "an_ua14264",
-  "img": 5,
-  "half": "r",
-  "act": "3",
-  "corrected": false,
-  "ev": "SABATINO'S FATHER, AND A GENERATION THIS ARCHIVE DID NOT HAVE. «*figlio di **fu ",
-  "others": 0
- },
- {
-  "person": "Rosa Ceglia",
-  "event": "death window",
-  "date": "before 20 Jan 1860",
-  "household": "Sabatino Annecchino & Mariantonia Carfora",
-  "ark": "an_ua14264",
-  "img": 5,
-  "half": "r",
-  "act": "3",
-  "corrected": false,
-  "ev": "«*e di **fu ROSA CEGLIA***» — Sabatino Annecchino's mother, dead before January ",
   "others": 0
  },
  {
   "person": "Mariantonia Carfora",
   "event": "marriage",
-  "date": "20 Jan 1860",
+  "date": "21 Jan 1860",
   "household": "Sabatino Annecchino & Mariantonia Carfora",
   "ark": "an_ua14264",
   "img": 5,
   "half": "r",
   "act": "3",
   "corrected": false,
-  "ev": "«*MARIA ANTONIA CARFORA, di anni **ventinove**, **nata in ARIENZO***» — so born ",
   "others": 0
  },
  {
-  "person": "[?]erio Carfora",
-  "event": "death window",
-  "date": "before 20 Jan 1860",
-  "household": "Sabatino Annecchino & Mariantonia Carfora",
+  "person": "Maddalena Falco (the second)",
+  "event": "marriage",
+  "date": "14 Feb 1860",
+  "household": "Giuseppe Falco & Antonia di Guida",
   "ark": "an_ua14264",
-  "img": 5,
+  "img": 10,
   "half": "r",
-  "act": "3",
+  "act": "8",
   "corrected": false,
-  "ev": "MARIA ANTONIA CARFORA'S FATHER — a **CARFORA OF ARIENZO**, contadino, dead befor",
   "others": 0
  },
  {
-  "person": "Pasqua Morgillo",
+  "person": "Antonia di Guida",
   "event": "death window",
-  "date": "before 20 Jan 1860",
-  "household": "Sabatino Annecchino & Mariantonia Carfora",
+  "date": "15 Nov 1857 – 14 Feb 1860",
+  "household": "Giuseppe Falco & Antonia di Guida",
   "ark": "an_ua14264",
-  "img": 5,
+  "img": 10,
   "half": "r",
-  "act": "3",
+  "act": "8",
   "corrected": false,
-  "ev": "«*e di **fu PASQUA MORGILLO***» — Maria Antonia Carfora's mother, dead before Ja",
   "others": 0
  },
  {
@@ -217,7 +513,6 @@
   "half": "r",
   "act": "16",
   "corrected": false,
-  "ev": "A CHILD OF GENERATION THREE THIS ARCHIVE DID NOT HAVE. «*sono comparsi nella Cas",
   "others": 0
  },
  {
@@ -230,7 +525,918 @@
   "half": "r",
   "act": "16",
   "corrected": false,
-  "ev": "Stanislao Falco's bride: **twenty-three**, born Arienzo, so b. c.1838. **Her par",
+  "others": 0
+ },
+ {
+  "person": "Angela Falco",
+  "event": "marriage",
+  "date": "23 Jan 1865",
+  "household": "Matteo Falco & Alessandra Crisci",
+  "ark": "an_ua14269",
+  "img": 5,
+  "half": "r",
+  "act": "3",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Vincenzo Abatiello",
+  "event": "marriage",
+  "date": "23 Jan 1865",
+  "household": "Matteo Falco & Alessandra Crisci",
+  "ark": "an_ua14269",
+  "img": 5,
+  "half": "r",
+  "act": "3",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Francesco Crisci (1765-1809)",
+  "event": "death",
+  "date": "1809",
+  "household": "Gioacchino Crisci & Francesca Falco",
+  "ark": "an_ua14311",
+  "img": 5,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Francesca Falco",
+  "event": "named as a parent",
+  "date": "1809",
+  "household": "Gioacchino Crisci & Francesca Falco",
+  "ark": "an_ua14311",
+  "img": 5,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Gioacchino Crisci",
+  "event": "named as dead",
+  "date": "1809",
+  "household": "Gioacchino Crisci & Francesca Falco",
+  "ark": "an_ua14311",
+  "img": 5,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Claudia di Lucia",
+  "event": "named as living",
+  "date": "1809",
+  "household": "Gioacchino Crisci & Francesca Falco",
+  "ark": "an_ua14311",
+  "img": 5,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Nicola Falco (1807-1809)",
+  "event": "death",
+  "date": "1809",
+  "household": "Giuseppe Falco & Gelsomina Vigliotta",
+  "ark": "an_ua14311",
+  "img": 44,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Gelsomina Vigliotta",
+  "event": "named as living",
+  "date": "1809",
+  "household": "Giuseppe Falco & Gelsomina Vigliotta",
+  "ark": "an_ua14311",
+  "img": 44,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Margarita Carfora",
+  "event": "death",
+  "date": "1809",
+  "household": "Pasquale Carfora & Maria Carbone",
+  "ark": "an_ua14311",
+  "img": 53,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Pasquale Carfora",
+  "event": "named as living",
+  "date": "1809",
+  "household": "Pasquale Carfora & Maria Carbone",
+  "ark": "an_ua14311",
+  "img": 53,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Maria Rivieri",
+  "event": "death",
+  "date": "1809",
+  "household": "Saverio Rivieri & Angela Falco",
+  "ark": "an_ua14311",
+  "img": 66,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Angela Falco (of Saverio Rivieri)",
+  "event": "named as living",
+  "date": "1809",
+  "household": "Saverio Rivieri & Angela Falco",
+  "ark": "an_ua14311",
+  "img": 66,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Giuseppe Lettieri (d. 1810)",
+  "event": "death",
+  "date": "19 Feb 1810",
+  "household": "Antonio Lettieri & Giovanna Falco",
+  "ark": "an_ua14312",
+  "img": 7,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Teresa di Guida",
+  "event": "death",
+  "date": "5 Mar 1810",
+  "household": "Stefano Carfora & Teresa di Guida",
+  "ark": "an_ua14312",
+  "img": 10,
+  "half": "r",
+  "act": "15",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Stefano Carfora (d. before 1810)",
+  "event": "named as dead",
+  "date": "5 Mar 1810",
+  "household": "Stefano Carfora & Teresa di Guida",
+  "ark": "an_ua14312",
+  "img": 10,
+  "half": "r",
+  "act": "15",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Catarina [surname unread]",
+  "event": "death",
+  "date": "10 Jun 1810",
+  "household": "Francesco di Guida & Catarina [surname unread]",
+  "ark": "an_ua14312",
+  "img": 18,
+  "half": "r",
+  "act": "31",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Francesco di Guida (d. before 1810)",
+  "event": "named as dead",
+  "date": "10 Jun 1810",
+  "household": "Francesco di Guida & Catarina [surname unread]",
+  "ark": "an_ua14312",
+  "img": 18,
+  "half": "r",
+  "act": "31",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Vincenzo Crisci (1809-1810)",
+  "event": "death",
+  "date": "1810",
+  "household": "Domenico Crisci & Margarita Falco",
+  "ark": "an_ua14312",
+  "img": 29,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Maria Carfora (1742-1810)",
+  "event": "death",
+  "date": "1810",
+  "household": "Nicola Crisci & Maria Carfora",
+  "ark": "an_ua14312",
+  "img": 30,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Nicola Crisci",
+  "event": "named as living",
+  "date": "1810",
+  "household": "Nicola Crisci & Maria Carfora",
+  "ark": "an_ua14312",
+  "img": 30,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Alessandro Rivieri",
+  "event": "death",
+  "date": "1810",
+  "household": "Saverio Rivieri & Anna Carfora",
+  "ark": "an_ua14312",
+  "img": 41,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Anna Carfora",
+  "event": "named as living",
+  "date": "1810",
+  "household": "Saverio Rivieri & Anna Carfora",
+  "ark": "an_ua14312",
+  "img": 41,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Maria Carfora (1732-1810)",
+  "event": "death",
+  "date": "1810",
+  "household": "Tomaso di Nigro & Maria Carfora",
+  "ark": "an_ua14312",
+  "img": 44,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Tomaso di Nigro (d. before 1810)",
+  "event": "named as dead",
+  "date": "1810",
+  "household": "Tomaso di Nigro & Maria Carfora",
+  "ark": "an_ua14312",
+  "img": 44,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Angelo Falco (1747-1811)",
+  "event": "death",
+  "date": "3 Jan 1811",
+  "household": "Giuseppe Falco & Rosa Sposito",
+  "ark": "an_ua14313",
+  "img": 4,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Giuseppe Falco (d. before 1811)",
+  "event": "named as dead",
+  "date": "3 Jan 1811",
+  "household": "Giuseppe Falco & Rosa Sposito",
+  "ark": "an_ua14313",
+  "img": 4,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Rosa Sposito (d. before 1811)",
+  "event": "named as dead",
+  "date": "3 Jan 1811",
+  "household": "Giuseppe Falco & Rosa Sposito",
+  "ark": "an_ua14313",
+  "img": 4,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Raffaele Falco (of Giuseppe, d. 1811)",
+  "event": "death",
+  "date": "26 Feb 1811",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14313",
+  "img": 11,
+  "half": "r",
+  "act": "17",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Maggio Carfora",
+  "event": "death",
+  "date": "28 Jul 1811",
+  "household": "Pietro Carfora & Catarina Morgillo",
+  "ark": "an_ua14313",
+  "img": 29,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Pietro Carfora",
+  "event": "named as living",
+  "date": "28 Jul 1811",
+  "household": "Pietro Carfora & Catarina Morgillo",
+  "ark": "an_ua14313",
+  "img": 29,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Catarina Morgillo",
+  "event": "named as living",
+  "date": "28 Jul 1811",
+  "household": "Pietro Carfora & Catarina Morgillo",
+  "ark": "an_ua14313",
+  "img": 29,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Antonia Crisci (1736-1811)",
+  "event": "death",
+  "date": "Oct 1811",
+  "household": "Prisco Carbone & Antonia Crisci",
+  "ark": "an_ua14313",
+  "img": 39,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Prisco Carbone (d. before 1811)",
+  "event": "named as dead",
+  "date": "Oct 1811",
+  "household": "Prisco Carbone & Antonia Crisci",
+  "ark": "an_ua14313",
+  "img": 39,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Francesco Carbone",
+  "event": "named as living",
+  "date": "Oct 1811",
+  "household": "Prisco Carbone & Antonia Crisci",
+  "ark": "an_ua14313",
+  "img": 39,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Nicola Crisci",
+  "event": "death",
+  "date": "15 Nov 1811",
+  "household": "Nicola Crisci & Maria Carfora",
+  "ark": "an_ua14313",
+  "img": 42,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Girolamo Crisci",
+  "event": "named as living",
+  "date": "15 Nov 1811",
+  "household": "Nicola Crisci & Maria Carfora",
+  "ark": "an_ua14313",
+  "img": 42,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Vincenzo Crisci (the second, d. 1812)",
+  "event": "death",
+  "date": "Jan 1812",
+  "household": "Domenico Crisci & Margarita Falco",
+  "ark": "an_ua14314",
+  "img": 4,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Margarita Falco",
+  "event": "named as living",
+  "date": "Jan 1812",
+  "household": "Domenico Crisci & Margarita Falco",
+  "ark": "an_ua14314",
+  "img": 4,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Domenico Crisci",
+  "event": "named as living",
+  "date": "Jan 1812",
+  "household": "Domenico Crisci & Margarita Falco",
+  "ark": "an_ua14314",
+  "img": 4,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Antonio Lettiero (a different man)",
+  "event": "a near-miss, recorded so it is not mistaken for one",
+  "date": "Oct 1812",
+  "household": "Antonio Lettieri & Giovanna Falco",
+  "ark": "an_ua14314",
+  "img": 37,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Saverio Rivieri",
+  "event": "death",
+  "date": "18 Dec 1812",
+  "household": "Saverio Rivieri & Anna Carfora",
+  "ark": "an_ua14314",
+  "img": 44,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Pasquale Rivieri (d. before 1812)",
+  "event": "named as dead",
+  "date": "18 Dec 1812",
+  "household": "Saverio Rivieri & Anna Carfora",
+  "ark": "an_ua14314",
+  "img": 44,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Giovanna Perrotta (d. before 1812)",
+  "event": "named as dead",
+  "date": "18 Dec 1812",
+  "household": "Saverio Rivieri & Anna Carfora",
+  "ark": "an_ua14314",
+  "img": 44,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Anna Carfora",
+  "event": "widowed",
+  "date": "18 Dec 1812",
+  "household": "Saverio Rivieri & Anna Carfora",
+  "ark": "an_ua14314",
+  "img": 44,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Antonia di Guida",
+  "event": "two of her siblings found",
+  "date": "13 Feb 1813 and 15 Oct 1814",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14315",
+  "img": 8,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Marcello di Guida",
+  "event": "death",
+  "date": "13 Feb 1813",
+  "household": "Marcello di Guida & Anna Crisci",
+  "ark": "an_ua14315",
+  "img": 8,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Anna Crisci",
+  "event": "widowed",
+  "date": "13 Feb 1813",
+  "household": "Marcello di Guida & Anna Crisci",
+  "ark": "an_ua14315",
+  "img": 8,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Giuseppe di Guida",
+  "event": "named as living",
+  "date": "13 Feb 1813",
+  "household": "Marcello di Guida & Anna Crisci",
+  "ark": "an_ua14315",
+  "img": 8,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Domenico Carfora",
+  "event": "death",
+  "date": "18 Feb 1813",
+  "household": "Matteo Carfora & Angela Zimbardo",
+  "ark": "an_ua14315",
+  "img": 9,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Angela Zimbardo",
+  "event": "death",
+  "date": "19 Feb 1813",
+  "household": "Matteo Carfora & Angela Zimbardo",
+  "ark": "an_ua14315",
+  "img": 10,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Matteo Carfora",
+  "event": "named as living",
+  "date": "19 Feb 1813",
+  "household": "Matteo Carfora & Angela Zimbardo",
+  "ark": "an_ua14315",
+  "img": 10,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Pasquale Zimbardo (d. before 1813)",
+  "event": "named as dead",
+  "date": "19 Feb 1813",
+  "household": "Matteo Carfora & Angela Zimbardo",
+  "ark": "an_ua14315",
+  "img": 10,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Antonia Simino (d. before 1813)",
+  "event": "named as dead",
+  "date": "19 Feb 1813",
+  "household": "Matteo Carfora & Angela Zimbardo",
+  "ark": "an_ua14315",
+  "img": 10,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Vincenzo Carfora — Fra Angelo d'Arienzo",
+  "event": "death",
+  "date": "6 Sep 1813",
+  "household": "Giuseppe Carfora & Domenica Simino",
+  "ark": "an_ua14315",
+  "img": 35,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Giuseppe Carfora (d. before 1813)",
+  "event": "named as dead",
+  "date": "6 Sep 1813",
+  "household": "Giuseppe Carfora & Domenica Simino",
+  "ark": "an_ua14315",
+  "img": 35,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Domenica Simino (d. before 1813)",
+  "event": "named as dead",
+  "date": "6 Sep 1813",
+  "household": "Giuseppe Carfora & Domenica Simino",
+  "ark": "an_ua14315",
+  "img": 35,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Francesca Falco",
+  "event": "death",
+  "date": "11 Nov 1813",
+  "household": "Gioacchino Crisci & Francesca Falco",
+  "ark": "an_ua14315",
+  "img": 42,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Raffaele Marrone",
+  "event": "death",
+  "date": "9 Mar 1814",
+  "household": "Bartolomeo Marrone & Maddalena Falco",
+  "ark": "an_ua14316",
+  "img": 7,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Maddalena Falco",
+  "event": "named as dead",
+  "date": "9 Mar 1814",
+  "household": "Bartolomeo Marrone & Maddalena Falco",
+  "ark": "an_ua14316",
+  "img": 7,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Bartolomeo Marrone (d. before 1814)",
+  "event": "named as dead",
+  "date": "9 Mar 1814",
+  "household": "Bartolomeo Marrone & Maddalena Falco",
+  "ark": "an_ua14316",
+  "img": 7,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Domenico di Guida (d. 1814)",
+  "event": "death",
+  "date": "1814",
+  "household": "Angelandrea di Guida & Teresa Vigliotta",
+  "ark": "an_ua14316",
+  "img": 13,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Agostino di Guida",
+  "event": "death",
+  "date": "1814",
+  "household": "Marcello di Guida & Anna Crisci",
+  "ark": "an_ua14316",
+  "img": 41,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Anna Crisci",
+  "event": "death",
+  "date": "20 Sep 1814",
+  "household": "Domenico Crisci & Margarita Falco",
+  "ark": "an_ua14316",
+  "img": 42,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Vincenzo Crisci (d. before 1814)",
+  "event": "named as dead",
+  "date": "20 Sep 1814",
+  "household": "Domenico Crisci & Margarita Falco",
+  "ark": "an_ua14316",
+  "img": 42,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Amalia Morgillo",
+  "event": "death",
+  "date": "23 Sep 1814",
+  "household": "Carlantonio Morgillo & Rosa Falco",
+  "ark": "an_ua14316",
+  "img": 43,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Rosa Falco",
+  "event": "named as living",
+  "date": "23 Sep 1814",
+  "household": "Carlantonio Morgillo & Rosa Falco",
+  "ark": "an_ua14316",
+  "img": 43,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Carlantonio Morgillo",
+  "event": "named as living",
+  "date": "23 Sep 1814",
+  "household": "Carlantonio Morgillo & Rosa Falco",
+  "ark": "an_ua14316",
+  "img": 43,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Margarita di Guida",
+  "event": "death",
+  "date": "15 Oct 1814",
+  "household": "Giacinto Marra & Margarita di Guida",
+  "ark": "an_ua14316",
+  "img": 47,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Giacinto Marra",
+  "event": "widowed",
+  "date": "15 Oct 1814",
+  "household": "Giacinto Marra & Margarita di Guida",
+  "ark": "an_ua14316",
+  "img": 47,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Carmela Crisci",
+  "event": "death",
+  "date": "17 Jan 1815",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14317",
+  "img": 4,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Giuseppe Falco",
+  "event": "three ages in nineteen months, and two of the acts name his wife",
+  "date": "17 Jan 1815",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14317",
+  "img": 4,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Francesco Quotolo",
+  "event": "death",
+  "date": "22 Feb 1815",
+  "household": "Francesco Quotolo & Maria Falco",
+  "ark": "an_ua14317",
+  "img": 12,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Maria Falco",
+  "event": "widowed",
+  "date": "22 Feb 1815",
+  "household": "Francesco Quotolo & Maria Falco",
+  "ark": "an_ua14317",
+  "img": 12,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Lorenzo Quotolo (d. before 1815)",
+  "event": "named as dead",
+  "date": "22 Feb 1815",
+  "household": "Francesco Quotolo & Maria Falco",
+  "ark": "an_ua14317",
+  "img": 12,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Teresa della M⟨———⟩ (d. before 1815)",
+  "event": "named as dead",
+  "date": "22 Feb 1815",
+  "household": "Francesco Quotolo & Maria Falco",
+  "ark": "an_ua14317",
+  "img": 12,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Raffaele Falco (of Giuseppe, the second, d. 1815)",
+  "event": "death",
+  "date": "9 Oct 1815",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14317",
+  "img": 41,
+  "half": "r",
+  "act": null,
+  "corrected": false,
   "others": 0
  },
  {
@@ -239,11 +1445,10 @@
   "date": "d. before 1816",
   "household": "Don Nicola Rivetti & Donna Anna Quotolo",
   "ark": "an_ua14318",
-  "img": 7,
+  "img": 8,
   "half": "l",
   "act": "12",
   "corrected": false,
-  "ev": "figlia del fu Don Nicola — dead by January 1816",
   "others": 0
  },
  {
@@ -252,11 +1457,10 @@
   "date": "—",
   "household": "Don Nicola Rivetti & Donna Anna Quotolo",
   "ark": "an_ua14318",
-  "img": 7,
+  "img": 8,
   "half": "l",
   "act": "12",
   "corrected": false,
-  "ev": "e Donn'Anna Quotolo — the first record to give this Anna a surname",
   "others": 0
  },
  {
@@ -265,24 +1469,22 @@
   "date": "26 Jan 1816",
   "household": "Don Nicola Rivetti & Donna Anna Quotolo",
   "ark": "an_ua14318",
-  "img": 7,
+  "img": 8,
   "half": "l",
   "act": "12",
   "corrected": false,
-  "ev": "Donna Francesca Rivetti, figlia del fu Don Nicola, e Donn'Anna Quotolo, moglie d",
   "others": 0
  },
  {
   "person": "Gaetana Laudato",
   "event": "death",
-  "date": "9 Mar 1816",
+  "date": "9 Apr 1816",
   "household": "Angelo Morgillo (colono, Monticello de' Cappuccini)",
   "ark": "an_ua14318",
   "img": 13,
   "half": "r",
   "act": "23",
   "corrected": false,
-  "ev": "«GAETANA LAUDATO figlia delli fu Giacinto Laudato e Giovanna —, VEDOVA DI SIMONE",
   "others": 0
  },
  {
@@ -295,7 +1497,6 @@
   "half": "l",
   "act": "76",
   "corrected": false,
-  "ev": "«figlio del fu Pasquale Rivetti» — dead by December 1816",
   "others": 0
  },
  {
@@ -308,7 +1509,6 @@
   "half": "l",
   "act": "76",
   "corrected": false,
-  "ev": "«e di Giovanna Perrotta» — named as living, no age given",
   "others": 0
  },
  {
@@ -321,7 +1521,6 @@
   "half": "l",
   "act": "76",
   "corrected": false,
-  "ev": "named only as «Angela Falco», wife of the deceased; no age, no parents, no child",
   "others": 0
  },
  {
@@ -334,7 +1533,6 @@
   "half": "l",
   "act": "76",
   "corrected": false,
-  "ev": "«Gioacchino Falco, di anni trentasei, massaro di campagna, domiciliato in questo",
   "others": 0
  },
  {
@@ -347,7 +1545,6 @@
   "half": "l",
   "act": null,
   "corrected": false,
-  "ev": "«e Rosa Sossi» — «delli fu» governs both parents, so she too was dead by July 18",
   "others": 0
  },
  {
@@ -360,7 +1557,6 @@
   "half": "l",
   "act": null,
   "corrected": false,
-  "ev": "«Giuseppe Quotolo, di anni sessantacinque, di professione massaro di campagna, d",
   "others": 0
  },
  {
@@ -373,7 +1569,6 @@
   "half": "l",
   "act": null,
   "corrected": false,
-  "ev": "named as the mother on their daughter's death act three weeks earlier",
   "others": 0
  },
  {
@@ -386,33 +1581,6 @@
   "half": "l",
   "act": null,
   "corrected": false,
-  "ev": "«Angela Quotolo figlia di Pietro Quotolo e Sofia Sossi»",
-  "others": 0
- },
- {
-  "person": "Giuseppe di Guida",
-  "event": "—",
-  "date": "—",
-  "household": "Giuseppe di Guida & Michedalena Rivetti",
-  "ark": "an_ua14319",
-  "img": 59,
-  "half": "r",
-  "act": null,
-  "corrected": false,
-  "ev": "«figlio di Giuseppe di Guida» — no «fu», so alive in October 1817",
-  "others": 0
- },
- {
-  "person": "Michedalena Rivetti",
-  "event": "—",
-  "date": "—",
-  "household": "Giuseppe di Guida & Michedalena Rivetti",
-  "ark": "an_ua14319",
-  "img": 59,
-  "half": "r",
-  "act": null,
-  "corrected": false,
-  "ev": "«e Michedalena Rivetti» — the scribe breaks the name across a line as «e Miche-/",
   "others": 0
  },
  {
@@ -425,7 +1593,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "named only as his wife; no age, no parents, no children",
   "others": 0
  },
  {
@@ -438,7 +1605,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«Pietro Quotolo, di anni trenta, di professione massaro di campagna, domiciliato",
   "others": 0
  },
  {
@@ -451,11 +1617,34 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "Declares twice in three weeks and the ages do not match: «di anni trentanove, co",
   "others": 0
  },
  {
-  "person": "Raffaele Falco",
+  "person": "Giuseppe di Guida",
+  "event": "—",
+  "date": "—",
+  "household": "Giuseppe di Guida & Maddalena Rivetta",
+  "ark": "an_ua14319",
+  "img": 59,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Maddalena Rivetta",
+  "event": "—",
+  "date": "—",
+  "household": "Giuseppe di Guida & Maddalena Rivetta",
+  "ark": "an_ua14319",
+  "img": 59,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Raffaele Falco (the first, 1816-1817)",
   "event": "death",
   "date": "28 Oct 1817",
   "household": "Vincenzo Falco & Andreana Crisci",
@@ -464,7 +1653,6 @@
   "half": "l",
   "act": null,
   "corrected": false,
-  "ev": "«Raffaele Falco figlio di Vincenzo Falco, e d'Andreana Crisci» — died at seven i",
   "others": 0
  },
  {
@@ -477,7 +1665,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«figlia delli fu Nicola Majone» — dead by February 1818. NOT the Nicola Majone w",
   "others": 0
  },
  {
@@ -490,7 +1677,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«moglie di Giuseppe Sossi» — alive in February 1818, no age given",
   "others": 0
  },
  {
@@ -503,7 +1689,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«figlio di Giuseppe Morgillo» — no «fu», so alive in July 1818",
   "others": 0
  },
  {
@@ -516,7 +1701,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«e Gelsomina Rivetti» — a THIRD Morgillo–Rivetti marriage: the two families the ",
   "others": 0
  },
  {
@@ -529,7 +1713,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«Pasquale Morgillo figlio di Giuseppe Morgillo, e Gelsomina Rivetti» — died at t",
   "others": 0
  },
  {
@@ -542,7 +1725,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«e di Orazio Morgillo, di anni ventisei, di professione contadino, domiciliato i",
   "others": 0
  },
  {
@@ -555,7 +1737,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«Angelo Morgillo FU Simone» — the register distinguishes him by his dead father,",
   "others": 0
  },
  {
@@ -568,7 +1749,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«Angelo Morgillo fu Simone, di anni cinquanta, di professione contadino, domicil",
   "others": 0
  },
  {
@@ -581,7 +1761,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«figlia delli fu Carlantonio Morgillo» — dead by August 1818. A SECOND Carlanton",
   "others": 0
  },
  {
@@ -594,7 +1773,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«e Manilia Rivetti» — «delli fu» governs both. A fourth Morgillo–Rivetti marriag",
   "others": 0
  },
  {
@@ -607,7 +1785,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«Giuditta Morgillo figlia delli fu Carlantonio Morgillo, e Manilia Rivetti, vedo",
   "others": 0
  },
  {
@@ -620,7 +1797,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«sono comparsi D. Giuseppe Rivetti, di anni quarantuno, di professione SACERDOTE",
   "others": 0
  },
  {
@@ -633,7 +1809,6 @@
   "half": "l",
   "act": null,
   "corrected": false,
-  "ev": "«Angelandrea Rivetti figlia del fu Crescenzo Rivetti, ed Angela Falco» — died at",
   "others": 0
  },
  {
@@ -646,7 +1821,6 @@
   "half": "l",
   "act": null,
   "corrected": false,
-  "ev": "«Domenico Falco figlio di Giuseppe Falco, e Gelsomina Vigliotta» — died at twelv",
   "others": 0
  },
  {
@@ -659,7 +1833,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«Rosaria Falco figlia di Giuseppe Falco, e Gelsomina Vigliotta» — died at twenty",
   "others": 0
  },
  {
@@ -672,7 +1845,6 @@
   "half": "l",
   "act": null,
   "corrected": false,
-  "ev": "«figlia delli fu Don Giuseppe Rivetti» — dead by March 1819, and therefore NOT t",
   "others": 0
  },
  {
@@ -685,20 +1857,18 @@
   "half": "l",
   "act": null,
   "corrected": false,
-  "ev": "«e Giovanna Bega» — «delli fu» governs both parents",
   "others": 0
  },
  {
   "person": "Suor Maria Maddalena Rivetti",
   "event": "death",
-  "date": "30 Mar 1819",
+  "date": "31 Mar 1819",
   "household": "Don Giuseppe Rivetti (the elder) & Giovanna Bega",
   "ark": "an_ua14321",
   "img": 10,
   "half": "l",
   "act": null,
   "corrected": false,
-  "ev": "«Suor Maria Maddalena Rivetti figlia delli fu Don Giuseppe Rivetti, e Giovanna B",
   "others": 0
  },
  {
@@ -711,7 +1881,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«e Vittoria di Guida» — a Quotolo–di Guida marriage on the same street",
   "others": 0
  },
  {
@@ -724,7 +1893,18 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«Angelo Quotolo figlio di Francesco Quotolo, e Vittoria di Guida» — died at elev",
+  "others": 0
+ },
+ {
+  "person": "Giuseppe di Guida",
+  "event": "named as declarant",
+  "date": "6 Sep 1819",
+  "household": "Giuseppe di Guida & Maddalena Rivetta",
+  "ark": "an_ua14321",
+  "img": 29,
+  "half": "r",
+  "act": null,
+  "corrected": false,
   "others": 0
  },
  {
@@ -735,9 +1915,8 @@
   "ark": "an_ua14322",
   "img": 5,
   "half": "r",
-  "act": "5",
+  "act": "6",
   "corrected": false,
-  "ev": "«figlio di ARCANGELO CRISCI, di professione Contadino, domiciliato ivi strada Ca",
   "others": 0
  },
  {
@@ -748,9 +1927,8 @@
   "ark": "an_ua14322",
   "img": 5,
   "half": "r",
-  "act": "5",
+  "act": "6",
   "corrected": false,
-  "ev": "«e di ANNA FALCO, domiciliata ivi» — alive on 24 January 1820, and bearing a chi",
   "others": 0
  },
  {
@@ -761,9 +1939,8 @@
   "ark": "an_ua14322",
   "img": 5,
   "half": "r",
-  "act": "5",
+  "act": "6",
   "corrected": false,
-  "ev": "«è morto nella sua propria casa FORTUNATO CRISCI di giorni due, nato in Arienzo,",
   "others": 0
  },
  {
@@ -776,20 +1953,6 @@
   "half": "r",
   "act": "47",
   "corrected": false,
-  "ev": "On his daughter Anna's death act he is «PASQUALE FALCO, di professione Contadino",
-  "others": 0
- },
- {
-  "person": "Chiara (Clara) Rivetti",
-  "event": "named as living",
-  "date": "23 Aug 1820",
-  "household": "Pasquale Falco & Chiara Rivetti",
-  "ark": "an_ua14322",
-  "img": 26,
-  "half": "r",
-  "act": "47",
-  "corrected": false,
-  "ev": "«e di CHIARA RIVETTI, domiciliata ivi» — named without «fu» on her daughter Anna",
   "others": 0
  },
  {
@@ -802,7 +1965,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "named as his wife — another Morgillo–Rivetti marriage",
   "others": 0
  },
  {
@@ -815,7 +1977,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«figlia di MARCELLO CRISCI, di professione contadino» — the Marcello Crisci, 25,",
   "others": 0
  },
  {
@@ -828,7 +1989,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«e di MARIA ROSA MAURO, domiciliata ivi»",
   "others": 0
  },
  {
@@ -841,7 +2001,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«MARIA CRISCI, di anni tre, nata in Arienzo, di professione contadina» — declare",
   "others": 0
  },
  {
@@ -854,7 +2013,6 @@
   "half": "r",
   "act": "39",
   "corrected": false,
-  "ev": "«ANTONIA COSSI, di mesi nove, nata in Arienzo» — atto 39, died at fifteen hours ",
   "others": 0
  },
  {
@@ -867,7 +2025,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«e di GIOVANNA PERROTTA, domiciliata ivi» — named WITHOUT «fu» on her son Paolo'",
   "others": 0
  },
  {
@@ -880,7 +2037,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "named as his wife; no age, no parents, no children",
   "others": 0
  },
  {
@@ -893,7 +2049,6 @@
   "half": "l",
   "act": "8",
   "corrected": false,
-  "ev": "«sono comparsi PASQUALE FALCO, di anni cinquantacinque, di professione COLONO, r",
   "others": 0
  },
  {
@@ -906,7 +2061,6 @@
   "half": "l",
   "act": "8",
   "corrected": false,
-  "ev": "«GIUSEPPE CRISCI(?), di anni cinque, nato in Arienzo, di professione contadino, ",
   "others": 0
  },
  {
@@ -919,7 +2073,6 @@
   "half": "l",
   "act": "20",
   "corrected": false,
-  "ev": "«è morta nella sua propria casa DONN'ANNA QUOTOLO di anni OTTANTOTTO, vedova di ",
   "others": 0
  },
  {
@@ -932,7 +2085,6 @@
   "half": "l",
   "act": "20",
   "corrected": false,
-  "ev": "«figlia di SILVESTRO QUOTOLO Defunto, di professione POSSIDENTE» — Donn'Anna's f",
   "others": 0
  },
  {
@@ -945,7 +2097,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«GIUSEPPA COSSI, di mesi otto, nata in Arienzo, di professione contadina, figlia",
   "others": 0
  },
  {
@@ -958,7 +2109,6 @@
   "half": "l",
   "act": "30",
   "corrected": false,
-  "ev": "«è morta nella sua propria casa MADDALENA FALCO, d'anni SETTE, nata in Arienzo, ",
   "others": 0
  },
  {
@@ -971,7 +2121,6 @@
   "half": "l",
   "act": null,
   "corrected": false,
-  "ev": "«è morto nella sua propria casa CLEMENTE FALCO, di mesi QUINDICI, nato in Arienz",
   "others": 0
  },
  {
@@ -984,7 +2133,6 @@
   "half": "l",
   "act": "22",
   "corrected": false,
-  "ev": "Named without «fu» in his daughter Maria's death act, and still a CONTADINO. The",
   "others": 0
  },
  {
@@ -997,7 +2145,6 @@
   "half": "l",
   "act": "22",
   "corrected": false,
-  "ev": "Named without «fu» in her daughter Maria's death act — alive in April 1826, seve",
   "others": 0
  },
  {
@@ -1010,7 +2157,30 @@
   "half": "l",
   "act": "22",
   "corrected": false,
-  "ev": "Named as the husband in his wife's death act. A FOURTH surname married into the ",
+  "others": 0
+ },
+ {
+  "person": "Marta [surname unread]",
+  "event": "death",
+  "date": "6 May 1827",
+  "household": "Francesco Carfora & Pasqua Morgillo",
+  "ark": "an_ua14329",
+  "img": 18,
+  "half": "r",
+  "act": "33",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Carmina Porrino",
+  "event": "named as living",
+  "date": "6 May 1827",
+  "household": "Francesco Carfora & Pasqua Morgillo",
+  "ark": "an_ua14329",
+  "img": 18,
+  "half": "r",
+  "act": "33",
+  "corrected": false,
   "others": 0
  },
  {
@@ -1023,46 +2193,30 @@
   "half": "l",
   "act": "52",
   "corrected": false,
-  "ev": "«e MATTEO FALCO, di anni VENTOTTO, di professione POSSIDENTE, regnicolo, domicil",
-  "others": 0
- },
- {
-  "person": "Don Giuseppe Cioffi",
-  "event": "death",
-  "date": "4 Dec 1827",
-  "household": "Andrea Cioffi & Orsola Zimbardo (possidenti, strada Porta di Sopra)",
-  "ark": "an_ua14329",
-  "img": 47,
-  "half": "l",
-  "act": "84",
-  "corrected": false,
-  "ev": "«D. GIUSEPPE C—, d'anni cinquantasei, nato in Arienzo, di professione SACERDOTE,",
   "others": 0
  },
  {
   "person": "Biagio Morgillo",
   "event": "—",
   "date": "14 Mar 1828",
-  "household": "Biagio Morgillo & Vincenza Vece (strada Nuova di San Gaetano)",
+  "household": "Biagio Morgillo & Vincenza Pepe (strada Nuova di San Gaetano)",
   "ark": "an_ua14330",
   "img": 7,
   "half": "r",
   "act": "11",
   "corrected": false,
-  "ev": "«figlia di BIAGIO MORGILLO, di professione contadino, e di VINCENZA VECE» — atto",
   "others": 0
  },
  {
   "person": "Clementina Morgillo",
   "event": "death",
   "date": "14 Mar 1828",
-  "household": "Biagio Morgillo & Vincenza Vece (strada Nuova di San Gaetano)",
+  "household": "Biagio Morgillo & Vincenza Pepe (strada Nuova di San Gaetano)",
   "ark": "an_ua14330",
   "img": 7,
   "half": "r",
   "act": "11",
   "corrected": false,
-  "ev": "Twenty-six months old. Declared by ANTONIO MORGILLO, 27, and SIMONE MORGILLO, 24",
   "others": 0
  },
  {
@@ -1075,7 +2229,42 @@
   "half": "l",
   "act": "14",
   "corrected": false,
-  "ev": "34 in 1828, contadino. Husband of Maria Majone; their eight-year-old Raffaele di",
+  "others": 0
+ },
+ {
+  "person": "Antonia Carfora (1752-1828)",
+  "event": "death",
+  "date": "26 Sep 1828",
+  "household": "Stefano Carfora & Teresa di Guida",
+  "ark": "an_ua14330",
+  "img": 31,
+  "half": "l",
+  "act": "46",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Domenico Giglio",
+  "event": "named as living",
+  "date": "26 Sep 1828",
+  "household": "Stefano Carfora & Teresa di Guida",
+  "ark": "an_ua14330",
+  "img": 31,
+  "half": "l",
+  "act": "46",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Teresa di Guida",
+  "event": "named as dead",
+  "date": "26 Sep 1828",
+  "household": "Stefano Carfora & Teresa di Guida",
+  "ark": "an_ua14330",
+  "img": 31,
+  "half": "l",
+  "act": "46",
+  "corrected": false,
   "others": 0
  },
  {
@@ -1088,7 +2277,6 @@
   "half": "l",
   "act": "54",
   "corrected": false,
-  "ev": "Seven months old — the fifth child of this household to be buried since 1823. Th",
   "others": 0
  },
  {
@@ -1101,7 +2289,18 @@
   "half": "l",
   "act": "56",
   "corrected": false,
-  "ev": "29 in May 1828, 32 in December. Husband of Felicetta Rivetti; their one-year-old",
+  "others": 0
+ },
+ {
+  "person": "Luca Crisci",
+  "event": "death",
+  "date": "16 Jan 1829",
+  "household": "Gioacchino Crisci & Francesca Falco",
+  "ark": "an_ua14331",
+  "img": 7,
+  "half": "r",
+  "act": "9",
+  "corrected": false,
   "others": 0
  },
  {
@@ -1110,11 +2309,10 @@
   "date": "—",
   "household": "Michelangelo Falco & Mariantonia Vigliotta",
   "ark": "an_ua14333",
-  "img": 19,
+  "img": 20,
   "half": "r",
-  "act": "33",
+  "act": null,
   "corrected": false,
-  "ev": "figlia di Michelangelo Falco, di professione contadino, domiciliato ivi",
   "others": 0
  },
  {
@@ -1123,37 +2321,34 @@
   "date": "—",
   "household": "Michelangelo Falco & Mariantonia Vigliotta",
   "ark": "an_ua14333",
-  "img": 19,
+  "img": 20,
   "half": "r",
-  "act": "33",
+  "act": null,
   "corrected": false,
-  "ev": "e di Mariantonia Vigliotta",
   "others": 0
  },
  {
-  "person": "Vincenza Esposito",
+  "person": "Vincenza Sposito",
   "event": "—",
   "date": "—",
-  "household": "Michele Falco & Vincenza Esposito",
+  "household": "Michele Falco & Vincenza Sposito",
   "ark": "an_ua14334",
-  "img": 20,
+  "img": 21,
   "half": "l",
   "act": "32",
   "corrected": false,
-  "ev": "e di Vincenza Esposito, defunta, domiciliata ivi",
   "others": 0
  },
  {
   "person": "Giovanna Falco",
   "event": "death",
   "date": "13 May 1832",
-  "household": "Michele Falco & Vincenza Esposito",
+  "household": "Michele Falco & Vincenza Sposito",
   "ark": "an_ua14334",
-  "img": 20,
+  "img": 21,
   "half": "l",
   "act": "32",
   "corrected": false,
-  "ev": "Giovanna Falco, d'anni settanta, moglie di Antonio Sett[embre], nata in Arienzo,",
   "others": 0
  },
  {
@@ -1162,11 +2357,10 @@
   "date": "19 Dec 1832",
   "household": "Francesco Falco & Raffaela Falco",
   "ark": "an_ua14334",
-  "img": 48,
+  "img": 49,
   "half": "r",
-  "act": "80",
+  "act": "81",
   "corrected": false,
-  "ev": "Carmina Falco, di mesi sei, figlia di Francesco Falco, contadino, e di Raffaela ",
   "others": 0
  },
  {
@@ -1175,24 +2369,58 @@
   "date": "22 Feb 1833",
   "household": "Vincenzo Falco & Andreana Crisci",
   "ark": "an_ua14335",
-  "img": 9,
+  "img": 10,
   "half": "l",
   "act": "16",
   "corrected": false,
-  "ev": "Pasquale Falco, di anni tre, nato in Arienzo, figlio di Vincenzo Falco, di profe",
+  "others": 0
+ },
+ {
+  "person": "Anna Falco",
+  "event": "WITHDRAWN from this household",
+  "date": "16 Mar 1834",
+  "household": "Michelangelo Falco & Mariantonia Vigliotta",
+  "ark": "an_ua14336",
+  "img": 11,
+  "half": "l",
+  "act": "16",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Michelangelo Falco",
+  "event": "named in a death act",
+  "date": "16 Mar 1834",
+  "household": "Michelangelo Falco & Raffaela Falco",
+  "ark": "an_ua14336",
+  "img": 11,
+  "half": "l",
+  "act": "16",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Raffaela Falco",
+  "event": "named in a death act",
+  "date": "16 Mar 1834",
+  "household": "Michelangelo Falco & Raffaela Falco",
+  "ark": "an_ua14336",
+  "img": 11,
+  "half": "l",
+  "act": "16",
+  "corrected": false,
   "others": 0
  },
  {
   "person": "Maria Rosa Falco",
   "event": "death",
   "date": "30 May 1834",
-  "household": "Michele Falco (strada Camellara)",
+  "household": "Michele Falco & Antonia Vigliotta",
   "ark": "an_ua14336",
-  "img": 23,
+  "img": 24,
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "Maria Rosa Falco, d'anni sedici, contadina, figlia di Michele Falco, contadino",
   "others": 0
  },
  {
@@ -1205,7 +2433,6 @@
   "half": "r",
   "act": "69",
   "corrected": false,
-  "ev": "è morto nella sua propria casa Pasquale Falco, d'anni settantaquattro, marito di",
   "others": 0
  },
  {
@@ -1214,50 +2441,106 @@
   "date": "25 Dec 1834",
   "household": "Vincenzo Falco & Andreana Crisci",
   "ark": "an_ua14336",
-  "img": 53,
+  "img": 54,
+  "half": "r",
+  "act": "89",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Donna Raffaela de Falco",
+  "event": "death",
+  "date": "7 Mar 1836",
+  "household": "Don Francesco Falco (gentry branch)",
+  "ark": "an_ua14338",
+  "img": 12,
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "Pasquale Falco, di giorni dieci, nato in Arienzo, figlio di Vincenzo Falco — b. ",
+  "others": 0
+ },
+ {
+  "person": "Margarita Falco",
+  "event": "death",
+  "date": "13 May 1836",
+  "household": "Francesco Falco & Mariangela Iuliuccio",
+  "ark": "an_ua14338",
+  "img": 18,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Maria Felicia Sansone",
+  "event": "death",
+  "date": "10 Jan 1838",
+  "household": "Gennaro Morgillo & Maria Felicia Sansone",
+  "ark": "an_ua14340",
+  "img": 3,
+  "half": "r",
+  "act": "3",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Pasquale Sansone",
+  "event": "named as dead",
+  "date": "10 Jan 1838",
+  "household": "Gennaro Morgillo & Maria Felicia Sansone",
+  "ark": "an_ua14340",
+  "img": 3,
+  "half": "r",
+  "act": "3",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Marta le Casaro",
+  "event": "named as dead",
+  "date": "10 Jan 1838",
+  "household": "Gennaro Morgillo & Maria Felicia Sansone",
+  "ark": "an_ua14340",
+  "img": 3,
+  "half": "r",
+  "act": "3",
+  "corrected": false,
   "others": 0
  },
  {
   "person": "Don Stefano Scarpati",
   "event": "—",
   "date": "dead by 1840",
-  "household": "Stefano Scarpati & [Serafina/Faustina] Cimmino",
+  "household": "Stefano Scarpati & Faustina Cimmino",
   "ark": "an_ua14342",
   "img": 17,
   "half": "l",
   "act": "28",
   "corrected": false,
-  "ev": "A POSSIDENTE, dead before 1840. Named in two death acts a generation apart, with",
   "others": 0
  },
  {
-  "person": "Donna Serafina Cimmino",
+  "person": "Donna Faustina Cimmino",
   "event": "—",
   "date": "dead by 1840",
-  "household": "Stefano Scarpati & [Serafina/Faustina] Cimmino",
+  "household": "Stefano Scarpati & Faustina Cimmino",
   "ark": "an_ua14342",
   "img": 17,
   "half": "l",
   "act": "28",
   "corrected": false,
-  "ev": "THE ONE DISCREPANCY, AND IT IS PUBLISHED RATHER THAN RESOLVED. The 1840 act name",
   "others": 0
  },
  {
   "person": "Maria Giuseppa Scarpati",
   "event": "death",
   "date": "9 Apr 1840",
-  "household": "Stefano Scarpati & [Serafina/Faustina] Cimmino",
+  "household": "Stefano Scarpati & Faustina Cimmino",
   "ark": "an_ua14342",
   "img": 17,
   "half": "l",
   "act": "28",
   "corrected": false,
-  "ev": "Seventy-two, «DI PROFESSIONE SORORA DEL CONSERVATORIO», died «NEL CONSERVATORIO ",
   "others": 0
  },
  {
@@ -1270,7 +2553,6 @@
   "half": "l",
   "act": "50",
   "corrected": false,
-  "ev": "«È morta nella sua propria casa MADDALENA CIOFFI D'UN ANNO.» One year old. The e",
   "others": 0
  },
  {
@@ -1283,20 +2565,18 @@
   "half": "r",
   "act": "73",
   "corrected": false,
-  "ev": "Named without «fu» in the death act of their infant daughter, so alive in Novemb",
   "others": 0
  },
  {
   "person": "Marta Cioffi",
   "event": "death",
-  "date": "Nov 1840",
+  "date": "6 Nov 1840",
   "household": "Giovanni Cioffi & Maria Porrino",
   "ark": "an_ua14342",
   "img": 45,
   "half": "r",
   "act": "73",
   "corrected": false,
-  "ev": "«È morta nella sua propria casa MARTA CIOFFI D'UN MESE.» One month old. Declared",
   "others": 0
  },
  {
@@ -1309,59 +2589,42 @@
   "half": "l",
   "act": "2",
   "corrected": false,
-  "ev": "«È morto nella sua propria casa LUIGI CIOFFI DI UN GIORNO.» One day old.",
   "others": 0
  },
  {
   "person": "Don Angelo Scarpati",
   "event": "death",
   "date": "26 Feb 1842",
-  "household": "Stefano Scarpati & [Serafina/Faustina] Cimmino",
+  "household": "Stefano Scarpati & Faustina Cimmino",
   "ark": "an_ua14344",
   "img": 11,
   "half": "r",
   "act": "15",
   "corrected": false,
-  "ev": "Seventy-six, «DI PROFESSIONE ARCIPRETE» — the archpriest of Arienzo, born about ",
   "others": 0
  },
  {
-  "person": "Antonia Migliore",
+  "person": "Antonia Vigliotta",
   "event": "—",
   "date": "alive Aug 1842",
-  "household": "Michele Falco & Antonia Migliore",
+  "household": "Michele Falco & Antonia Vigliotta",
   "ark": "an_ua14344",
   "img": 35,
   "half": "r",
   "act": "55",
   "corrected": false,
-  "ev": "«e di ANTONIA MIGLIORE, domiciliata ivi» — same act, also without «fu», so alive",
   "others": 0
  },
  {
-  "person": "Matteo Falco",
-  "event": "death",
-  "date": "24 Aug 1842",
-  "household": "Michele Falco & Antonia Migliore",
-  "ark": "an_ua14344",
-  "img": 35,
-  "half": "r",
-  "act": "55",
-  "corrected": false,
-  "ev": "«è morto nella sua propria casa MATTEO FALCO D'ANNI DUE, nato in Arienzo» — died",
-  "others": 0
- },
- {
-  "person": "Antonio Cioffi",
+  "person": "Antonio Gasparo",
   "event": "—",
   "date": "25 Aug 1842",
-  "household": "Michele Falco & Antonia Migliore",
+  "household": "Michele Falco & Antonia Vigliotta",
   "ark": "an_ua14344",
   "img": 35,
   "half": "r",
   "act": "55",
   "corrected": false,
-  "ev": "Thirty-two, a contadino of strada Camellara — a further Cioffi on the Falco stre",
   "others": 0
  },
  {
@@ -1374,20 +2637,18 @@
   "half": "l",
   "act": "80",
   "corrected": false,
-  "ev": "A contadino of strada Cioffi, named without «fu» in all three acts. He appears i",
   "others": 0
  },
  {
   "person": "Antonio Cioffi",
   "event": "death",
-  "date": "10 Jun 1843",
+  "date": "10 Apr 1843",
   "household": "Raffaele Cioffi & Francesca Falco",
   "ark": "an_ua14345",
   "img": 14,
   "half": "r",
   "act": "17",
   "corrected": false,
-  "ev": "Seventeen days old. This is the act whose mother's name the archive first misrea",
   "others": 0
  },
  {
@@ -1400,7 +2661,6 @@
   "half": "r",
   "act": "23",
   "corrected": false,
-  "ev": "«figlia di ANDREA CIOFFI defunto, di professione POSSIDENTE» — from his daughter",
   "others": 0
  },
  {
@@ -1413,7 +2673,6 @@
   "half": "r",
   "act": "23",
   "corrected": false,
-  "ev": "Named as the mother in both her son's act (1827) and her daughter's (1843). It i",
   "others": 0
  },
  {
@@ -1426,46 +2685,42 @@
   "half": "r",
   "act": "23",
   "corrected": false,
-  "ev": "«CELIA CIOFFI, vedova di Gabriele Biondello, di anni ottanta, contadina, domicil",
   "others": 0
  },
  {
-  "person": "Gioacchino Cioffi",
+  "person": "Gioacchino Crisci",
   "event": "—",
   "date": "dead by 1843",
-  "household": "Gioacchino Cioffi & Francesca Falco",
+  "household": "Gioacchino Crisci & Francesca Falco",
   "ark": "an_ua14345",
   "img": 21,
   "half": "r",
   "act": "29",
   "corrected": false,
-  "ev": "A contadino, dead before July 1843. Named only in his son's death act. Note the ",
   "others": 0
  },
  {
-  "person": "Aniello Cioffi",
+  "person": "Aniello Crisci",
   "event": "death",
-  "date": "27 Jul 1843",
-  "household": "Gioacchino Cioffi & Francesca Falco",
+  "date": "26 Jul 1843",
+  "household": "Gioacchino Crisci & Francesca Falco",
   "ark": "an_ua14345",
   "img": 21,
   "half": "r",
   "act": "29",
   "corrected": false,
-  "ev": "«ANIELLO CIOFFI, marito di Giovanna Laudato, nato in Arienzo, di anni SETTANTASE",
   "others": 0
  },
  {
   "person": "Gennaro Morgillo",
   "event": "death",
-  "date": "14 Aug 1843",
+  "date": "4 Aug 1843",
   "household": "Angelo Morgillo (colono, Monticello de' Cappuccini)",
   "ark": "an_ua14345",
   "img": 24,
   "half": "r",
   "act": "33",
   "corrected": false,
-  "ev": "«GENNARO MORGILLO, vedovo di Felicia Sompone, nato in Arienzo, di anni cinquanta",
   "others": 0
  },
  {
@@ -1478,7 +2733,114 @@
   "half": "r",
   "act": "43",
   "corrected": false,
-  "ev": "«CHIARA RIVETTI VEDOVA DI PASQUALE FALCO, nata in Arienzo, di anni OTTANTA, di p",
+  "others": 0
+ },
+ {
+  "person": "Pasquale Falco (of Michele, d. 1862)",
+  "event": "death",
+  "date": "6 Feb 1862",
+  "household": "Michele Falco & Antonia Vigliotta",
+  "ark": "an_ua14364",
+  "img": 10,
+  "half": "r",
+  "act": "15",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Michele Falco",
+  "event": "named as living",
+  "date": "7 Feb 1862",
+  "household": "Michele Falco & Antonia Vigliotta",
+  "ark": "an_ua14364",
+  "img": 10,
+  "half": "r",
+  "act": "15",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Francesco Cioffi",
+  "event": "death",
+  "date": "11 Aug 1864",
+  "household": "Francesco Cioffi & Maria Falco",
+  "ark": "an_ua14366",
+  "img": 28,
+  "half": "r",
+  "act": "49",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Giuseppe Cioffi (of Maria Porrino)",
+  "event": "named as dead",
+  "date": "11 Aug 1864",
+  "household": "Francesco Cioffi & Maria Falco",
+  "ark": "an_ua14366",
+  "img": 28,
+  "half": "r",
+  "act": "49",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Maria Porrino",
+  "event": "named as dead",
+  "date": "11 Aug 1864",
+  "household": "Francesco Cioffi & Maria Falco",
+  "ark": "an_ua14366",
+  "img": 28,
+  "half": "r",
+  "act": "49",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Giovanni Morgillo",
+  "event": "death",
+  "date": "10 Nov 1864",
+  "household": "Francesco Carfora & Pasqua Morgillo",
+  "ark": "an_ua14366",
+  "img": 40,
+  "half": "r",
+  "act": "73",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Domenica Crisci",
+  "event": "death window",
+  "date": "before 10 Nov 1864",
+  "household": "Francesco Carfora & Pasqua Morgillo",
+  "ark": "an_ua14366",
+  "img": 40,
+  "half": "r",
+  "act": "73",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Pasquale Morgillo",
+  "event": "named as dead",
+  "date": "10 Nov 1864",
+  "household": "Francesco Carfora & Pasqua Morgillo",
+  "ark": "an_ua14366",
+  "img": 40,
+  "half": "r",
+  "act": "73",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Maria Vigliotta",
+  "event": "named as dead",
+  "date": "10 Nov 1864",
+  "household": "Francesco Carfora & Pasqua Morgillo",
+  "ark": "an_ua14366",
+  "img": 40,
+  "half": "r",
+  "act": "73",
+  "corrected": false,
   "others": 0
  },
  {
@@ -1489,9 +2851,8 @@
   "ark": "an_ua14366",
   "img": 51,
   "half": "r",
-  "act": "47",
+  "act": "91",
   "corrected": false,
-  "ev": "READ FROM THE IMAGE — this record was a FamilySearch index stub («Entry for Luig",
   "others": 0
  },
  {
@@ -1502,9 +2863,452 @@
   "ark": "an_ua14366",
   "img": 51,
   "half": "r",
-  "act": "47",
+  "act": "91",
   "corrected": false,
-  "ev": "«*MARITO DI **CAROLINA CIMMINO***» — Luigi Falco's widow, and a person this arch",
+  "others": 0
+ },
+ {
+  "person": "Vincenzo Crisci (1809-1810)",
+  "event": "birth",
+  "date": "30 Jun 1809",
+  "household": "Domenico Crisci & Margarita Falco",
+  "ark": "an_ua14406",
+  "img": 34,
+  "half": "r",
+  "act": "63",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Domenico Crisci",
+  "event": "his own stated age",
+  "date": "30 Jun 1809",
+  "household": "Domenico Crisci & Margarita Falco",
+  "ark": "an_ua14406",
+  "img": 34,
+  "half": "r",
+  "act": "63",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Raffaele Morgillo",
+  "event": "birth",
+  "date": "1 Sep 1809",
+  "household": "Carlantonio Morgillo & Rosa Falco",
+  "ark": "an_ua14406",
+  "img": 49,
+  "half": "l",
+  "act": "92",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Carlantonio Morgillo",
+  "event": "three forenames in three acts, and a patronymic at last",
+  "date": "1 Sep 1809",
+  "household": "Carlantonio Morgillo & Rosa Falco",
+  "ark": "an_ua14406",
+  "img": 49,
+  "half": "l",
+  "act": "92",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Carl'Antonio Morgillo (the elder, d. before 1809)",
+  "event": "named as dead",
+  "date": "1 Sep 1809",
+  "household": "Carlantonio Morgillo & Rosa Falco",
+  "ark": "an_ua14406",
+  "img": 49,
+  "half": "l",
+  "act": "92",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Rosa Falco",
+  "event": "the household's span",
+  "date": "1 Sep 1809 – Jan 1815",
+  "household": "Carlantonio Morgillo & Rosa Falco",
+  "ark": "an_ua14406",
+  "img": 49,
+  "half": "l",
+  "act": "92",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Matteo Falco (the second)",
+  "event": "birth",
+  "date": "12 Jan 1810",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14407",
+  "img": 6,
+  "half": "r",
+  "act": "10",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Giuseppe Falco",
+  "event": "named as «DEL FU MATTEO» — thirteen months earlier still",
+  "date": "12 Jan 1810",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14407",
+  "img": 6,
+  "half": "r",
+  "act": "10",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Giuseppe Lettieri (d. 1810)",
+  "event": "birth",
+  "date": "17 Feb 1810",
+  "household": "Antonio Lettieri & Giovanna Falco",
+  "ark": "an_ua14407",
+  "img": 10,
+  "half": "l",
+  "act": "4",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Antonio Lettieri",
+  "event": "his own stated age",
+  "date": "17 Feb 1810",
+  "household": "Antonio Lettieri & Giovanna Falco",
+  "ark": "an_ua14407",
+  "img": 10,
+  "half": "l",
+  "act": "4",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Arcangelo Crisci",
+  "event": "his own age, his street and his father's name",
+  "date": "20 Mar 1810",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14407",
+  "img": 17,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Nicola Crisci (d. before 1810)",
+  "event": "named as dead",
+  "date": "20 Mar 1810",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14407",
+  "img": 17,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "[daughter] Crisci (b. 20 Mar 1810)",
+  "event": "birth",
+  "date": "20 Mar 1810",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14407",
+  "img": 17,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "[daughter] Falco (b. 16 Mar 1810)",
+  "event": "birth",
+  "date": "16 Mar 1810",
+  "household": "Giuseppe Falco & Gelsomina Vigliotta",
+  "ark": "an_ua14407",
+  "img": 17,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Francesco Falco",
+  "event": "named as living",
+  "date": "16 Mar 1810",
+  "household": "Giuseppe Falco & Gelsomina Vigliotta",
+  "ark": "an_ua14407",
+  "img": 17,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Sara Ruggiero",
+  "event": "her trade — she was the town midwife",
+  "date": "11 May 1810",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14407",
+  "img": 25,
+  "half": "l",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Giovanna Falco (b. 1810)",
+  "event": "birth",
+  "date": "12 Sep 1810",
+  "household": "Pasquale Falco & Chiara Rivetti",
+  "ark": "an_ua14407",
+  "img": 44,
+  "half": "r",
+  "act": "83",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Pasquale Falco",
+  "event": "his own stated age, and his father named",
+  "date": "12 Sep 1810",
+  "household": "Pasquale Falco & Chiara Rivetti",
+  "ark": "an_ua14407",
+  "img": 44,
+  "half": "r",
+  "act": "83",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Pasquale Antonio Marra",
+  "event": "birth",
+  "date": "30 Oct 1810",
+  "household": "Giacinto Marra & Margarita di Guida",
+  "ark": "an_ua14407",
+  "img": 53,
+  "half": "l",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Giacinto Marra",
+  "event": "his own stated age, and his father named",
+  "date": "30 Oct 1810",
+  "household": "Giacinto Marra & Margarita di Guida",
+  "ark": "an_ua14407",
+  "img": 53,
+  "half": "l",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Pasquale Marra",
+  "event": "named as living",
+  "date": "30 Oct 1810",
+  "household": "Giacinto Marra & Margarita di Guida",
+  "ark": "an_ua14407",
+  "img": 53,
+  "half": "l",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Raffaele Falco (of Giuseppe, d. 1811)",
+  "event": "birth",
+  "date": "16 Feb 1811",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14408",
+  "img": 10,
+  "half": "r",
+  "act": "17",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Giuseppe Falco",
+  "event": "named as «DEL FU MATTEO» — his father, in a civil act",
+  "date": "16 Feb 1811",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14408",
+  "img": 10,
+  "half": "r",
+  "act": "17",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Antonia di Guida",
+  "event": "her own stated age, and it matches her baptism exactly",
+  "date": "16 Feb 1811",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14408",
+  "img": 10,
+  "half": "r",
+  "act": "17",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Antonio Falco",
+  "event": "birth",
+  "date": "5 Jan 1813",
+  "household": "Giuseppe Falco & Gelsomina Vigliotta",
+  "ark": "an_ua14410",
+  "img": 4,
+  "half": "l",
+  "act": "2",
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Raffaele Falco (of Giuseppe, the second, d. 1815)",
+  "event": "birth",
+  "date": "26 May 1814",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14411",
+  "img": 29,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "[child] Morgillo (b. Jan 1815)",
+  "event": "birth",
+  "date": "Jan 1815",
+  "household": "Carlantonio Morgillo & Rosa Falco",
+  "ark": "an_ua14412",
+  "img": 4,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Carmela Crisci",
+  "event": "birth",
+  "date": "Jan 1815",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14412",
+  "img": 5,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "[daughter] Falco (b. 5 Feb 1815)",
+  "event": "birth",
+  "date": "5 Feb 1815",
+  "household": "Giuseppe Falco & Gelsomina Vigliotta",
+  "ark": "an_ua14412",
+  "img": 13,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Angelandrea di Guida",
+  "event": "gives his age and his street",
+  "date": "18 Mar 1815",
+  "household": "Angelandrea di Guida & Teresa Vigliotta",
+  "ark": "an_ua14412",
+  "img": 22,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Teresa Vigliotta",
+  "event": "named as living",
+  "date": "18 Mar 1815",
+  "household": "Angelandrea di Guida & Teresa Vigliotta",
+  "ark": "an_ua14412",
+  "img": 22,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Domenico di Guida (the second, b. 1815)",
+  "event": "birth",
+  "date": "18 Mar 1815",
+  "household": "Angelandrea di Guida & Teresa Vigliotta",
+  "ark": "an_ua14412",
+  "img": 22,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Matteo Carfora",
+  "event": "gives his age and his street",
+  "date": "23 Mar 1815",
+  "household": "Matteo Carfora & Angela Zimbardo",
+  "ark": "an_ua14412",
+  "img": 23,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Lucia Laudato",
+  "event": "named as living",
+  "date": "23 Mar 1815",
+  "household": "Matteo Carfora & Angela Zimbardo",
+  "ark": "an_ua14412",
+  "img": 23,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Angelo Carfora (b. 1815)",
+  "event": "birth",
+  "date": "23 Mar 1815",
+  "household": "Matteo Carfora & Angela Zimbardo",
+  "ark": "an_ua14412",
+  "img": 23,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Maria Antonia Falco (b. 1815)",
+  "event": "birth",
+  "date": "17 Dec 1815",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14412",
+  "img": 56,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Raffaele Falco (the first, 1816-1817)",
+  "event": "birth",
+  "date": "25 Apr 1816",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14413",
+  "img": 30,
+  "half": "l",
+  "act": "56",
+  "corrected": true,
   "others": 0
  },
  {
@@ -1517,7 +3321,6 @@
   "half": "l",
   "act": "116",
   "corrected": true,
-  "ev": "da Gelsomina Vigliotta, d'anni trentadue, sua moglie legittima",
   "others": 0
  },
  {
@@ -1530,7 +3333,18 @@
   "half": "l",
   "act": "116",
   "corrected": true,
-  "ev": "e nato nella sua propria casa... un maschio... a cui si e dato il nome di Domeni",
+  "others": 0
+ },
+ {
+  "person": "Giovanna Morgillo",
+  "event": "birth",
+  "date": "22 Sep 1817",
+  "household": "Carlantonio Morgillo & Rosa Falco",
+  "ark": "an_ua14414",
+  "img": 36,
+  "half": "l",
+  "act": "69",
+  "corrected": false,
   "others": 0
  },
  {
@@ -1543,7 +3357,18 @@
   "half": "r",
   "act": "47",
   "corrected": true,
-  "ev": "aged 20 at her son Raffaele's birth in May 1818, so born about 1798 — the first ",
+  "others": 0
+ },
+ {
+  "person": "Raffaele Falco",
+  "event": "birth",
+  "date": "10 May 1818",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14415",
+  "img": 42,
+  "half": "r",
+  "act": "47",
+  "corrected": true,
   "others": 0
  },
  {
@@ -1556,7 +3381,6 @@
   "half": "r",
   "act": "57",
   "corrected": true,
-  "ev": "«è comparso Giuseppe Falco, di anni trentasei, contadino… strada Camellara… da A",
   "others": 0
  },
  {
@@ -1569,7 +3393,6 @@
   "half": "l",
   "act": "22",
   "corrected": false,
-  "ev": "THE CONTROL THAT SEPARATES THE TWO SURNAMES. «*è comparso **FRANCESCO COSSI**, d",
   "others": 0
  },
  {
@@ -1582,7 +3405,6 @@
   "half": "l",
   "act": "22",
   "corrected": false,
-  "ev": "«*e da **TERESA MORGILLO** sua moglie legitima d'anni **ventotto***» — twenty-ei",
   "others": 0
  },
  {
@@ -1595,7 +3417,6 @@
   "half": "r",
   "act": "33",
   "corrected": false,
-  "ev": "A NECRONYM, THREE DAYS AFTER A DOUBLE BURIAL. Act 33, folio 206: «è comparso GIU",
   "others": 0
  },
  {
@@ -1608,7 +3429,6 @@
   "half": "r",
   "act": "33",
   "corrected": false,
-  "ev": "FROM THE MARGIN OF HIS OWN BIRTH ACT, not from any marriage register: «*Con atto",
   "others": 0
  },
  {
@@ -1621,7 +3441,6 @@
   "half": "r",
   "act": "33",
   "corrected": false,
-  "ev": "Alive and bearing a child on 18 March 1819, three days after burying two. Her ag",
   "others": 0
  },
  {
@@ -1634,7 +3453,6 @@
   "half": "r",
   "act": "33",
   "corrected": false,
-  "ev": "«*il Falco sposò **DOMENICA VIGLIOTTI** [di] **Gaspare**(?)*» — from the margin ",
   "others": 0
  },
  {
@@ -1647,7 +3465,6 @@
   "half": "r",
   "act": "99",
   "corrected": false,
-  "ev": "HIS BIRTH DATE, FOUND AT LAST — he was held by his marriages alone. Civil act 99",
   "others": 0
  },
  {
@@ -1660,7 +3477,6 @@
   "half": "r",
   "act": "99",
   "corrected": false,
-  "ev": "«d'anni TRENTUNO» — thirty-one, so b. c.1788. This archive has already establish",
   "others": 0
  },
  {
@@ -1671,9 +3487,8 @@
   "ark": "an_ua14416",
   "img": 71,
   "half": "l",
-  "act": "133",
+  "act": "134",
   "corrected": false,
-  "ev": "THE CIVIL ACT BEHIND A BAPTISM THIS ARCHIVE ALREADY HELD — not a new child. Act ",
   "others": 0
  },
  {
@@ -1684,9 +3499,8 @@
   "ark": "an_ua14416",
   "img": 71,
   "half": "l",
-  "act": "133",
+  "act": "134",
   "corrected": false,
-  "ev": "«di anni VENTISEI» — twenty-six. He was given as TWENTY-SEVEN on 10 May 1818, ni",
   "others": 0
  },
  {
@@ -1697,9 +3511,32 @@
   "ark": "an_ua14416",
   "img": 71,
   "half": "l",
-  "act": "133",
+  "act": "134",
   "corrected": false,
-  "ev": "«d'Anni VENTIDUE» — twenty-two, so b. c.1797. This is the Andreana Crisci who ma",
+  "others": 0
+ },
+ {
+  "person": "Gennaro Morgillo",
+  "event": "named as declarant",
+  "date": "2 Aug 1822",
+  "household": "Gennaro Morgillo & Maria Felicia Sansone",
+  "ark": "an_ua14419",
+  "img": 68,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Maria Felicia Sansone",
+  "event": "named in a birth act",
+  "date": "2 Aug 1822",
+  "household": "Gennaro Morgillo & Maria Felicia Sansone",
+  "ark": "an_ua14419",
+  "img": 68,
+  "half": "r",
+  "act": null,
+  "corrected": false,
   "others": 0
  },
  {
@@ -1712,7 +3549,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "HER SECOND MARRIAGE, FROM THE MARGIN OF HER OWN BIRTH ACT — a document written f",
   "others": 0
  },
  {
@@ -1725,7 +3561,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "Alive and marrying at fifty-seven. This archive's latest dated sighting of her h",
   "others": 0
  },
  {
@@ -1738,8 +3573,43 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«*l'Uf.le dello Stato Civile d'Arienzo sposò PASQUA FALCO con **PASQUALE CARFORA",
   "others": 0
+ },
+ {
+  "person": "Francesco Carfora (of Matteo, m. 1828)",
+  "event": "named as living",
+  "date": "21 Jan 1860",
+  "household": "Sabatino Annecchino & Mariantonia Carfora",
+  "ark": "an_ua14427",
+  "img": 145,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 0
+ },
+ {
+  "person": "Raffaela Falco",
+  "event": "marriage",
+  "date": "6 Jul 1832",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14236",
+  "img": 9,
+  "half": "r",
+  "act": "8",
+  "corrected": false,
+  "others": 1
+ },
+ {
+  "person": "Raffaela Falco",
+  "event": "marriage",
+  "date": "6 Jul 1832",
+  "household": "Francesco Falco & Raffaela Falco",
+  "ark": "an_ua14236",
+  "img": 9,
+  "half": "r",
+  "act": "8",
+  "corrected": false,
+  "others": 1
  },
  {
   "person": "Angela Maria Morgillo",
@@ -1751,46 +3621,102 @@
   "half": "r",
   "act": "3",
   "corrected": false,
-  "ev": "Crescenzo Falco's bride: twenty-three, contadina, born in Arienzo, and an orphan",
   "others": 1
  },
  {
   "person": "Angela Maria Morgillo",
   "event": "marriage",
   "date": "2 Feb 1845",
-  "household": "Gennaro Morgillo & Maria Felicia Sanzone",
+  "household": "Gennaro Morgillo & Maria Felicia Sansone",
   "ark": "an_ua14249",
   "img": 4,
   "half": "r",
   "act": "3",
   "corrected": false,
-  "ev": "Twenty-three, contadina, born in Arienzo, and an orphan of both parents when she",
   "others": 1
  },
  {
-  "person": "Vincenzo Falco",
-  "event": "named as living",
-  "date": "19 Sep 1861",
-  "household": "Vincenzo Falco & Andreana Crisci",
-  "ark": "an_ua14265",
-  "img": 18,
+  "person": "Michele Falco",
+  "event": "marriage",
+  "date": "12 Feb 1850",
+  "household": "Michele Falco & Antonia Vigliotta",
+  "ark": "an_ua14254",
+  "img": 11,
   "half": "r",
-  "act": "16",
+  "act": "6",
   "corrected": false,
-  "ev": "ALIVE AT SIXTY-NINE, three years before the other sighting. «*figlio di **VINCEN",
   "others": 1
  },
  {
-  "person": "Andreana Crisci",
-  "event": "named as living",
-  "date": "19 Sep 1861",
-  "household": "Vincenzo Falco & Andreana Crisci",
-  "ark": "an_ua14265",
-  "img": 18,
+  "person": "Michele Falco",
+  "event": "marriage",
+  "date": "12 Feb 1850",
+  "household": "Raffaele Falco & Chiara Rivetti",
+  "ark": "an_ua14254",
+  "img": 11,
   "half": "r",
-  "act": "16",
+  "act": "6",
   "corrected": false,
-  "ev": "«*e di **ANDREANA CRISCI**, domiciliata **ivi***» — alive, unmarked, on the same",
+  "others": 1
+ },
+ {
+  "person": "Matteo Falco",
+  "event": "death",
+  "date": "28 Aug 1809",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14311",
+  "img": 40,
+  "half": "r",
+  "act": "38",
+  "corrected": false,
+  "others": 1
+ },
+ {
+  "person": "Maria Carbone",
+  "event": "named as living",
+  "date": "1809",
+  "household": "Pasquale Carfora & Maria Carbone",
+  "ark": "an_ua14311",
+  "img": 53,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 1
+ },
+ {
+  "person": "Saverio Rivieri",
+  "event": "named as living",
+  "date": "1809",
+  "household": "Saverio Rivieri & Angela Falco",
+  "ark": "an_ua14311",
+  "img": 66,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 1
+ },
+ {
+  "person": "Saverio Rivieri",
+  "event": "named as living",
+  "date": "1810",
+  "household": "Saverio Rivieri & Anna Carfora",
+  "ark": "an_ua14312",
+  "img": 41,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 1
+ },
+ {
+  "person": "Maria Carbone",
+  "event": "named as living",
+  "date": "Oct 1811",
+  "household": "Prisco Carbone & Antonia Crisci",
+  "ark": "an_ua14313",
+  "img": 39,
+  "half": "r",
+  "act": null,
+  "corrected": false,
   "others": 1
  },
  {
@@ -1803,7 +3729,6 @@
   "half": "l",
   "act": "76",
   "corrected": false,
-  "ev": "«Crescenzo Rivetti figlio del fu Pasquale Rivetti e di Giovanna Perrotta, marito",
   "others": 1
  },
  {
@@ -1816,7 +3741,6 @@
   "half": "l",
   "act": "76",
   "corrected": false,
-  "ev": "«marito di Angela Falco» — the act that names the marriage is his death act",
   "others": 1
  },
  {
@@ -1829,20 +3753,6 @@
   "half": "l",
   "act": null,
   "corrected": false,
-  "ev": "«vedova di Francesco Quotolo» — dead by July 1817",
-  "others": 1
- },
- {
-  "person": "Angelo Andrea di Guida",
-  "event": "death",
-  "date": "21 Oct 1817",
-  "household": "Giuseppe di Guida & Michedalena Rivetti",
-  "ark": "an_ua14319",
-  "img": 59,
-  "half": "r",
-  "act": null,
-  "corrected": false,
-  "ev": "«Angelo Andrea di Guida figlio di Giuseppe di Guida e Michedalena Rivetti, marit",
   "others": 1
  },
  {
@@ -1855,7 +3765,18 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "the act naming this marriage is his own death act",
+  "others": 1
+ },
+ {
+  "person": "Angelo Andrea di Guida",
+  "event": "death",
+  "date": "21 Oct 1817",
+  "household": "Giuseppe di Guida & Maddalena Rivetta",
+  "ark": "an_ua14319",
+  "img": 59,
+  "half": "r",
+  "act": null,
+  "corrected": false,
   "others": 1
  },
  {
@@ -1868,7 +3789,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«Angela, seu Lella Majone, figlia delli fu Nicola Majone, e Maria Falco, moglie ",
   "others": 1
  },
  {
@@ -1881,7 +3801,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "the act naming this marriage is her own death act",
   "others": 1
  },
  {
@@ -1894,7 +3813,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«Carlantonio Morgillo, di anni trentatre, di professione contadino, domiciliato ",
   "others": 1
  },
  {
@@ -1907,46 +3825,30 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«figlio di Francesco Quotolo» — the living Francesco Quotolo of strada Maddalena",
-  "others": 1
- },
- {
-  "person": "Giuseppe di Guida",
-  "event": "named as declarant",
-  "date": "6 Sep 1819",
-  "household": "Giuseppe di Guida (strada Maddalena)",
-  "ark": "an_ua14321",
-  "img": 29,
-  "half": "r",
-  "act": null,
-  "corrected": false,
-  "ev": "«e di Giuseppe di Guida, di anni sessantotto, di professione massaro di campagna",
-  "others": 1
- },
- {
-  "person": "Giuseppe di Guida",
-  "event": "named as declarant",
-  "date": "6 Sep 1819",
-  "household": "Giuseppe di Guida & Maddalena Rivetta",
-  "ark": "an_ua14321",
-  "img": 29,
-  "half": "r",
-  "act": null,
-  "corrected": false,
-  "ev": "«e di Giuseppe di Guida, di anni sessantotto, di professione massaro di campagna",
   "others": 1
  },
  {
   "person": "Carlantonio Morgillo",
   "event": "named as declarant",
-  "date": "20 Oct 1819",
+  "date": "21 Oct 1819",
   "household": "Carlantonio Morgillo & Rosa Falco",
   "ark": "an_ua14321",
   "img": 32,
   "half": "l",
   "act": null,
   "corrected": false,
-  "ev": "«Carlantonio Morgillo, di anni trentacinque, contadino» — a FIFTH sighting. Thir",
+  "others": 1
+ },
+ {
+  "person": "Chiara (Clara) Rivetti",
+  "event": "named as living",
+  "date": "23 Aug 1820",
+  "household": "Pasquale Falco & Chiara Rivetti",
+  "ark": "an_ua14322",
+  "img": 26,
+  "half": "r",
+  "act": "47",
+  "corrected": false,
   "others": 1
  },
  {
@@ -1959,7 +3861,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«figlio di NICOLA RIVETTI Defunto, di professione Contadino» — a CONTADINO Nicol",
   "others": 1
  },
  {
@@ -1972,7 +3873,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«e di ANNA DI RUGGIO Defunta» — IF this is Chiara Rivetti's mother, then the «An",
   "others": 1
  },
  {
@@ -1985,7 +3885,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«CARMINE RIVETTI di anni cinquantatre, marito di GIUSTINA MORGILLO, nato in Arie",
   "others": 1
  },
  {
@@ -1998,7 +3897,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«marito di Giustina Morgillo»",
   "others": 1
  },
  {
@@ -2011,7 +3909,6 @@
   "half": "r",
   "act": "65",
   "corrected": false,
-  "ev": "«è morta nella sua propria casa ANGELA FALCO di anni CINQUANTUNO, VEDOVA DI CRES",
   "others": 1
  },
  {
@@ -2024,7 +3921,6 @@
   "half": "r",
   "act": "65",
   "corrected": false,
-  "ev": "«ANGELA FALCO di anni cinquantuno, vedova di CRESCENZO RIVETTI … figlia di MATTE",
   "others": 1
  },
  {
@@ -2037,7 +3933,6 @@
   "half": "r",
   "act": "39",
   "corrected": false,
-  "ev": "«figlia di FRANCESCO COSSI, di professione contadino, domiciliato ivi» — named w",
   "others": 1
  },
  {
@@ -2050,7 +3945,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«è morto nella sua propria casa PAOLO RIVETTI, di anni cinquanta, marito di ANGE",
   "others": 1
  },
  {
@@ -2063,7 +3957,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«marito di ANGELA ESPOSITELLA» — brother of Crescenzo Rivetti, who married Angel",
   "others": 1
  },
  {
@@ -2076,7 +3969,6 @@
   "half": "l",
   "act": "30",
   "corrected": false,
-  "ev": "CORRECTION, LEFT VISIBLE. This archive carried this household as «Francesco COSS",
   "others": 1
  },
  {
@@ -2085,11 +3977,10 @@
   "date": "16 Oct 1830",
   "household": "Matteo Falco & Francesca Crisci",
   "ark": "an_ua14332",
-  "img": 36,
+  "img": 37,
   "half": "r",
-  "act": "53",
+  "act": null,
   "corrected": false,
-  "ev": "Rosa Falco, d'anni quarantadue, moglie di Carlantonio Morgillo, nata in Arienzo,",
   "others": 1
  },
  {
@@ -2098,11 +3989,10 @@
   "date": "16 Oct 1830",
   "household": "Carlantonio Morgillo & Rosa Falco",
   "ark": "an_ua14332",
-  "img": 36,
+  "img": 37,
   "half": "r",
-  "act": "53",
+  "act": null,
   "corrected": false,
-  "ev": "daughter of Matteo Falco and Francesca Crisci — a sister of Pasquale, and theref",
   "others": 1
  },
  {
@@ -2111,24 +4001,22 @@
   "date": "—",
   "household": "Carlantonio Morgillo & Rosa Falco",
   "ark": "an_ua14332",
-  "img": 36,
+  "img": 37,
   "half": "r",
-  "act": "53",
+  "act": null,
   "corrected": false,
-  "ev": "named as the husband on his wife's death act",
   "others": 1
  },
  {
   "person": "Michele Falco",
   "event": "—",
   "date": "—",
-  "household": "Michele Falco & Vincenza Esposito",
+  "household": "Michele Falco & Vincenza Sposito",
   "ark": "an_ua14334",
-  "img": 20,
+  "img": 21,
   "half": "l",
   "act": "32",
   "corrected": false,
-  "ev": "named as the deceased's father, \"figlia di Michele Falco, defunto, di profession",
   "others": 1
  },
  {
@@ -2141,7 +4029,6 @@
   "half": "l",
   "act": "50",
   "corrected": false,
-  "ev": "Named in THREE acts, all without «fu», so alive throughout: Morti 1840 atto 50 (",
   "others": 1
  },
  {
@@ -2154,46 +4041,54 @@
   "half": "r",
   "act": "73",
   "corrected": false,
-  "ev": "A contadino of STRADA CAMELLARA — the street of Pasquale Falco and Chiara Rivett",
   "others": 1
  },
  {
   "person": "Michele Falco",
   "event": "—",
   "date": "alive Aug 1842",
-  "household": "Michele Falco & Antonia Migliore",
+  "household": "Michele Falco & Antonia Vigliotta",
   "ark": "an_ua14344",
   "img": 35,
   "half": "r",
   "act": "55",
   "corrected": false,
-  "ev": "«figlio di MICHELE FALCO, di professione contadino, domiciliato ivi» — from the ",
+  "others": 1
+ },
+ {
+  "person": "Matteo Falco",
+  "event": "death",
+  "date": "24 Aug 1842",
+  "household": "Michele Falco & Antonia Vigliotta",
+  "ark": "an_ua14344",
+  "img": 35,
+  "half": "r",
+  "act": "55",
+  "corrected": false,
   "others": 1
  },
  {
   "person": "Giovanni Cioffi",
   "event": "—",
   "date": "25 Aug 1842",
-  "household": "Michele Falco & Antonia Migliore",
+  "household": "Michele Falco & Antonia Vigliotta",
   "ark": "an_ua14344",
   "img": 35,
   "half": "r",
   "act": "55",
   "corrected": false,
-  "ev": "Forty-seven, a contadino of strada Camellara. THIRTEEN MONTHS LATER, at forty-ei",
   "others": 1
  },
  {
   "person": "Francesca Falco",
   "event": "—",
   "date": "dead by 1843",
-  "household": "Gioacchino Cioffi & Francesca Falco",
+  "household": "Gioacchino Crisci & Francesca Falco",
   "ark": "an_ua14345",
   "img": 21,
   "half": "r",
   "act": "29",
   "corrected": false,
-  "ev": "«figlio di GIOACCHINO CIOFFI defunto, di professione contadino, domiciliato ivi,",
   "others": 1
  },
  {
@@ -2206,7 +4101,6 @@
   "half": "r",
   "act": "43",
   "corrected": false,
-  "ev": "«figlia di NICOLA RIVETTI defunto, di professione CONTADINO, domiciliato ivi» — ",
   "others": 1
  },
  {
@@ -2219,46 +4113,18 @@
   "half": "r",
   "act": "43",
   "corrected": false,
-  "ev": "«e di ANNA DI RUGGIO defunta, domiciliata ivi» — from Chiara's death act of 1843",
   "others": 1
  },
  {
-  "person": "Vincenzo Falco",
+  "person": "Chiara (Clara) Rivetti",
   "event": "named as living",
-  "date": "16 Dec 1864",
-  "household": "Vincenzo Falco & Andreana Crisci",
-  "ark": "an_ua14366",
-  "img": 51,
+  "date": "12 Sep 1810",
+  "household": "Pasquale Falco & Chiara Rivetti",
+  "ark": "an_ua14407",
+  "img": 44,
   "half": "r",
-  "act": "47",
+  "act": "83",
   "corrected": false,
-  "ev": "GENERATION THREE, ALIVE AT SEVENTY-TWO — twenty years later than any sighting th",
-  "others": 1
- },
- {
-  "person": "Andreana Crisci",
-  "event": "named as living",
-  "date": "16 Dec 1864",
-  "household": "Vincenzo Falco & Andreana Crisci",
-  "ark": "an_ua14366",
-  "img": 51,
-  "half": "r",
-  "act": "47",
-  "corrected": false,
-  "ev": "«*e di **ANDREANA CRISCI**, domiciliata **ivi***» — alive, unmarked, on the same",
-  "others": 1
- },
- {
-  "person": "Raffaele Falco",
-  "event": "birth",
-  "date": "25 Apr 1816",
-  "household": "Vincenzo Falco & Andreana Crisci",
-  "ark": "an_ua14413",
-  "img": 30,
-  "half": "l",
-  "act": "56",
-  "corrected": true,
-  "ev": "«è comparso Vincenzo Falco, di anni trentacinque, bracciale… strada Camellara… d",
   "others": 1
  },
  {
@@ -2271,21 +4137,91 @@
   "half": "l",
   "act": null,
   "corrected": true,
-  "ev": "named as the husband on his wife's death act of 1830. His age will not settle: t",
   "others": 1
  },
  {
-  "person": "Raffaele Falco",
+  "person": "Angela Maria Morgillo",
   "event": "birth",
-  "date": "10 May 1818",
-  "household": "Vincenzo Falco & Andreana Crisci",
-  "ark": "an_ua14415",
-  "img": 42,
+  "date": "2 Aug 1822",
+  "household": "Crescenzo Falco & Angela Maria Morgillo",
+  "ark": "an_ua14419",
+  "img": 68,
   "half": "r",
-  "act": "47",
-  "corrected": true,
-  "ev": "civil act 47, foglio 149: «è comparso Vincenzo Falco, di anni ventisette, contad",
+  "act": null,
+  "corrected": false,
   "others": 1
+ },
+ {
+  "person": "Angela Maria Morgillo",
+  "event": "birth",
+  "date": "2 Aug 1822",
+  "household": "Gennaro Morgillo & Maria Felicia Sansone",
+  "ark": "an_ua14419",
+  "img": 68,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 1
+ },
+ {
+  "person": "Mariantonia Carfora",
+  "event": "birth",
+  "date": "30 Dec 1830",
+  "household": "Sabatino Annecchino & Mariantonia Carfora",
+  "ark": "an_ua14427",
+  "img": 145,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 1
+ },
+ {
+  "person": "Mariantonia Carfora",
+  "event": "birth",
+  "date": "30 Dec 1830",
+  "household": "Francesco Carfora & Pasqua Morgillo",
+  "ark": "an_ua14427",
+  "img": 145,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 1
+ },
+ {
+  "person": "Antonia di Guida",
+  "event": "named as living",
+  "date": "6 Jul 1832",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14236",
+  "img": 9,
+  "half": "r",
+  "act": "8",
+  "corrected": false,
+  "others": 2
+ },
+ {
+  "person": "Antonia di Guida",
+  "event": "named as living",
+  "date": "2 Feb 1845",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14249",
+  "img": 4,
+  "half": "r",
+  "act": "3",
+  "corrected": false,
+  "others": 2
+ },
+ {
+  "person": "Antonia di Guida",
+  "event": "named as living",
+  "date": "15 Nov 1857",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14261",
+  "img": 28,
+  "half": "r",
+  "act": "26",
+  "corrected": false,
+  "others": 2
  },
  {
   "person": "Angelo Morgillo",
@@ -2297,7 +4233,6 @@
   "half": "r",
   "act": "23",
   "corrected": false,
-  "ev": "JOINED. The 1816 register (atto 23) buries GAETANA LAUDATO, 78, «vedova di SIMON",
   "others": 2
  },
  {
@@ -2310,7 +4245,6 @@
   "half": "r",
   "act": "23",
   "corrected": false,
-  "ev": "His parents, from the 1816 register: SIMONE MORGILLO and GAETANA LAUDATO, who di",
   "others": 2
  },
  {
@@ -2323,7 +4257,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«e Maria Falco» — «delli fu» governs both parents, so she too was dead by Februa",
   "others": 2
  },
  {
@@ -2336,7 +4269,6 @@
   "half": "r",
   "act": "39",
   "corrected": false,
-  "ev": "«e di MARIA FALCO, domiciliata ivi» — A LIVING MARIA FALCO in 1823, and therefor",
   "others": 2
  },
  {
@@ -2349,7 +4281,6 @@
   "half": "l",
   "act": "54",
   "corrected": false,
-  "ev": "«figlia di FRANCESCO COSSI, di professione contadino, e di MARIA FALCO» — and th",
   "others": 2
  },
  {
@@ -2362,59 +4293,78 @@
   "half": "l",
   "act": "56",
   "corrected": false,
-  "ev": "«ANGELO MORGILLO, di anni SETTANTA, di professione COLONO, domiciliato in strada",
   "others": 2
  },
  {
-  "person": "Maria Falco",
-  "event": "death",
-  "date": "24 Jul 1817",
-  "household": "Giuseppe Falco & Rosa Sossi",
-  "ark": "an_ua14319",
-  "img": 34,
-  "half": "l",
-  "act": null,
+  "person": "Vincenzo Falco",
+  "event": "named as living",
+  "date": "21 May 1846",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14250",
+  "img": 15,
+  "half": "r",
+  "act": "14",
   "corrected": false,
-  "ev": "«Maria Falco figlia delli fu Giuseppe Falco e Rosa Sossi, vedova di Francesco Qu",
   "others": 3
  },
  {
-  "person": "Maria Falco",
-  "event": "death",
-  "date": "24 Jul 1817",
-  "household": "Francesco Quotolo & Maria Falco",
-  "ark": "an_ua14319",
-  "img": 34,
-  "half": "l",
-  "act": null,
+  "person": "Andreana Crisci",
+  "event": "named as living",
+  "date": "21 May 1846",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14250",
+  "img": 15,
+  "half": "r",
+  "act": "14",
   "corrected": false,
-  "ev": "the act that names this marriage is her own death act; no children are named",
   "others": 3
  },
  {
-  "person": "Maria Falco",
-  "event": "death",
-  "date": "25 Apr 1826",
-  "household": "Pasquale Falco & Chiara Rivetti",
-  "ark": "an_ua14328",
-  "img": 13,
-  "half": "l",
-  "act": "22",
+  "person": "Vincenzo Falco",
+  "event": "named as living",
+  "date": "13 Aug 1851",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14255",
+  "img": 19,
+  "half": "r",
+  "act": "14",
   "corrected": false,
-  "ev": "«è morta nella sua propria casa MARIA FALCO d'anni TRENTADUE, moglie di ALFONSO ",
   "others": 3
  },
  {
-  "person": "Maria Falco",
-  "event": "death",
-  "date": "25 Apr 1826",
-  "household": "Alfonso Diglio & Maria Falco",
-  "ark": "an_ua14328",
-  "img": 13,
-  "half": "l",
-  "act": "22",
+  "person": "Andreana Crisci",
+  "event": "named as living",
+  "date": "13 Aug 1851",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14255",
+  "img": 19,
+  "half": "r",
+  "act": "14",
   "corrected": false,
-  "ev": "«MARIA FALCO d'anni trentadue, MOGLIE DI ALFONSO DIGLIO … figlia di PASQUALE FAL",
+  "others": 3
+ },
+ {
+  "person": "Vincenzo Falco",
+  "event": "named as living",
+  "date": "19 Sep 1861",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14265",
+  "img": 18,
+  "half": "r",
+  "act": "16",
+  "corrected": false,
+  "others": 3
+ },
+ {
+  "person": "Andreana Crisci",
+  "event": "named as living",
+  "date": "19 Sep 1861",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14265",
+  "img": 18,
+  "half": "r",
+  "act": "16",
+  "corrected": false,
   "others": 3
  },
  {
@@ -2427,8 +4377,7 @@
   "half": "r",
   "act": "47",
   "corrected": false,
-  "ev": "«è morta nella sua propria casa ANNA FALCO di anni venticinque, moglie di ARCANG",
-  "others": 4
+  "others": 3
  },
  {
   "person": "Anna Falco",
@@ -2440,8 +4389,7 @@
   "half": "r",
   "act": "47",
   "corrected": false,
-  "ev": "«ANNA FALCO di anni venticinque, moglie di ARCANGELO CRISCI … figlia di PASQUALE",
-  "others": 4
+  "others": 3
  },
  {
   "person": "Anna Falco",
@@ -2449,37 +4397,166 @@
   "date": "4 May 1831",
   "household": "Michelangelo Falco & Mariantonia Vigliotta",
   "ark": "an_ua14333",
+  "img": 20,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 3
+ },
+ {
+  "person": "Anna Falco",
+  "event": "death",
+  "date": "16 Mar 1834",
+  "household": "Michelangelo Falco & Raffaela Falco",
+  "ark": "an_ua14336",
+  "img": 11,
+  "half": "l",
+  "act": "16",
+  "corrected": false,
+  "others": 3
+ },
+ {
+  "person": "Vincenzo Falco",
+  "event": "named as living",
+  "date": "16 Dec 1864",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14366",
+  "img": 51,
+  "half": "r",
+  "act": "91",
+  "corrected": false,
+  "others": 3
+ },
+ {
+  "person": "Andreana Crisci",
+  "event": "named as living",
+  "date": "16 Dec 1864",
+  "household": "Vincenzo Falco & Andreana Crisci",
+  "ark": "an_ua14366",
+  "img": 51,
+  "half": "r",
+  "act": "91",
+  "corrected": false,
+  "others": 3
+ },
+ {
+  "person": "Giuseppe Falco",
+  "event": "named as living",
+  "date": "6 Jul 1832",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14236",
+  "img": 9,
+  "half": "r",
+  "act": "8",
+  "corrected": false,
+  "others": 4
+ },
+ {
+  "person": "Giuseppe Falco",
+  "event": "named as living",
+  "date": "2 Feb 1845",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14249",
+  "img": 4,
+  "half": "r",
+  "act": "3",
+  "corrected": false,
+  "others": 4
+ },
+ {
+  "person": "Giuseppe Falco",
+  "event": "named as living",
+  "date": "15 Nov 1857",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14261",
+  "img": 28,
+  "half": "r",
+  "act": "26",
+  "corrected": false,
+  "others": 4
+ },
+ {
+  "person": "Giuseppe Falco",
+  "event": "named as living",
+  "date": "14 Feb 1860",
+  "household": "Giuseppe Falco & Antonia di Guida",
+  "ark": "an_ua14264",
+  "img": 10,
+  "half": "r",
+  "act": "8",
+  "corrected": false,
+  "others": 4
+ },
+ {
+  "person": "Giuseppe Falco",
+  "event": "named as living",
+  "date": "1809",
+  "household": "Giuseppe Falco & Gelsomina Vigliotta",
+  "ark": "an_ua14311",
+  "img": 44,
+  "half": "r",
+  "act": null,
+  "corrected": false,
+  "others": 4
+ },
+ {
+  "person": "Maria Falco",
+  "event": "death",
+  "date": "24 Jul 1817",
+  "household": "Giuseppe Falco & Rosa Sossi",
+  "ark": "an_ua14319",
+  "img": 34,
+  "half": "l",
+  "act": null,
+  "corrected": false,
+  "others": 4
+ },
+ {
+  "person": "Maria Falco",
+  "event": "death",
+  "date": "24 Jul 1817",
+  "household": "Francesco Quotolo & Maria Falco",
+  "ark": "an_ua14319",
+  "img": 34,
+  "half": "l",
+  "act": null,
+  "corrected": false,
+  "others": 4
+ },
+ {
+  "person": "Maria Falco",
+  "event": "death",
+  "date": "25 Apr 1826",
+  "household": "Pasquale Falco & Chiara Rivetti",
+  "ark": "an_ua14328",
+  "img": 13,
+  "half": "l",
+  "act": "22",
+  "corrected": false,
+  "others": 4
+ },
+ {
+  "person": "Maria Falco",
+  "event": "death",
+  "date": "25 Apr 1826",
+  "household": "Alfonso Diglio & Maria Falco",
+  "ark": "an_ua14328",
+  "img": 13,
+  "half": "l",
+  "act": "22",
+  "corrected": false,
+  "others": 4
+ },
+ {
+  "person": "Maria Falco",
+  "event": "death",
+  "date": "1 May 1862",
+  "household": "Francesco Cioffi & Maria Falco",
+  "ark": "an_ua14364",
   "img": 19,
   "half": "r",
   "act": "33",
   "corrected": false,
-  "ev": "Anna Falco, di mesi tredici, nata in Arienzo — declared by Vincenzo Falco, 38, a",
-  "others": 4
- },
- {
-  "person": "Anna Falco",
-  "event": "death",
-  "date": "7 Mar 1834",
-  "household": "Michelangelo Falco & Mariantonia Vigliotta",
-  "ark": "an_ua14336",
-  "img": 10,
-  "half": "l",
-  "act": null,
-  "corrected": false,
-  "ev": "a second daughter of the same name, 8 days old",
-  "others": 4
- },
- {
-  "person": "Anna Falco",
-  "event": "death",
-  "date": "7 Mar 1834",
-  "household": "Michelangelo Falco (strada Camellara)",
-  "ark": "an_ua14336",
-  "img": 10,
-  "half": "l",
-  "act": null,
-  "corrected": false,
-  "ev": "Anna Falco, di giorni otto, figlia di Michelangelo Falco, contadino",
   "others": 4
  },
  {
@@ -2492,7 +4569,6 @@
   "half": "l",
   "act": null,
   "corrected": false,
-  "ev": "«figlia delli fu Giuseppe Falco» — dead by July 1817. A Falco head of the foundi",
   "others": 5
  },
  {
@@ -2505,7 +4581,6 @@
   "half": "l",
   "act": "56",
   "corrected": false,
-  "ev": "«e GIUSEPPE FALCO, di anni QUARANTASEI, di professione MASSARO, regnicolo, domic",
   "others": 5
  },
  {
@@ -2518,7 +4593,6 @@
   "half": "r",
   "act": "73",
   "corrected": false,
-  "ev": "Declaring atto 73 TOGETHER WITH CARLANTONIO MORGILLO, 46, contadino, of the same",
   "others": 5
  },
  {
@@ -2531,7 +4605,6 @@
   "half": "l",
   "act": "30",
   "corrected": false,
-  "ev": "«Sono comparsi GIUSEPPE FALCO, di anni QUARANTA, di professione COLONO, domicili",
   "others": 5
  },
  {
@@ -2544,7 +4617,6 @@
   "half": "l",
   "act": "54",
   "corrected": false,
-  "ev": "«Sono comparsi GIUSEPPE FALCO, di anni CINQUANTASEI, di professione POSSIDENTE, ",
   "others": 5
  },
  {
@@ -2557,7 +4629,6 @@
   "half": "l",
   "act": "116",
   "corrected": true,
-  "ev": "Giuseppe Falco, di anni trentasei, di professione massaro di campo, domiciliato ",
   "others": 5
  },
  {
@@ -2570,7 +4641,6 @@
   "half": "l",
   "act": "76",
   "corrected": false,
-  "ev": "«e di Giuseppe Falco, di anni trentadue, massaro di campagna, domiciliato ugualm",
   "others": 9
  },
  {
@@ -2583,7 +4653,6 @@
   "half": "l",
   "act": null,
   "corrected": false,
-  "ev": "«Giuseppe Falco, di anni trentasette, di professione massaro di campagna, domici",
   "others": 9
  },
  {
@@ -2596,7 +4665,6 @@
   "half": "l",
   "act": null,
   "corrected": false,
-  "ev": "«e di Giuseppe Falco, di anni trentasei, di professione contadino, domiciliato i",
   "others": 9
  },
  {
@@ -2609,7 +4677,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«e GIUSEPPE FALCO FU MATTEO, di anni quarantatre, di professione Contadino, regn",
   "others": 9
  },
  {
@@ -2622,7 +4689,6 @@
   "half": "r",
   "act": "39",
   "corrected": false,
-  "ev": "«sono comparsi GIUSEPPE FALCO FU MATTEO, di anni quarantadue, di professione Con",
   "others": 9
  },
  {
@@ -2635,7 +4701,6 @@
   "half": "l",
   "act": "8",
   "corrected": false,
-  "ev": "«e GIUSEPPE FALCO, di anni quarantadue, di professione colono, regnicolo, domici",
   "others": 9
  },
  {
@@ -2648,7 +4713,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«sono comparsi GIUSEPPE FALCO, di anni QUARANTA, di professione MASSARO, regnico",
   "others": 9
  },
  {
@@ -2661,7 +4725,6 @@
   "half": "r",
   "act": null,
   "corrected": false,
-  "ev": "«GIUSEPPE FALCO, di anni QUARANTACINQUE, di professione CONTADINO» — and «GIUSEP",
   "others": 9
  },
  {
@@ -2674,7 +4737,6 @@
   "half": "r",
   "act": "33",
   "corrected": false,
-  "ev": "MASSARO DI CAMPAGNA, and on STRADA CAMELLARA — this archive has the household at",
   "others": 9
  },
  {
@@ -2687,7 +4749,6 @@
   "half": "r",
   "act": "99",
   "corrected": false,
-  "ev": "Aged FORTY, contadino. He was given as THIRTY-SIX on 7 June 1818, sixteen months",
   "others": 9
  }
 ]

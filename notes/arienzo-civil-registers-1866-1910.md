@@ -2694,3 +2694,76 @@ SESSANTA**, di condizione **agricoltore***», reporting the death of Crescenzo C
 `build_people.py` itself — **«declarant» is the one role that must NEVER become kinship** — and this
 is recorded as exactly what it is: a Francesco Falco, son of a Giuseppe, farming at Arienzo
 eighteen days after Matteo Falco died on the same street. **Work-list row 87 is where it bears.**
+
+---
+
+# THE MARRIAGE BOOKS OF 1878–1884, READ OUT — 11 October 2026
+
+**`MC55-VNL` carries a marriage register for every year from 1878, and not one of them has an index.**
+They were walked the only way an unindexed printed register can be walked cheaply: `tools/fsmargin.py`
+fetches one `dist.jpg` per leaf and crops the **outer** margin strip of each page — the printed
+**Numero** box, which carries the act number and both parties' names and nothing else — and a
+compositor lays fourteen strips side by side with the image numbers burnt in. **One contact sheet
+reads a whole opening.** Only a sheet carrying FALCO costs a second request.
+
+| year | images | Parte I | Parte II | Falco |
+|---|---|---:|---:|---|
+| **1878** | 47–62 | **26** | — | **act 19 — FALCO MARIA CARMINA** |
+| 1879 | 159–177 | 24 | — | none |
+| 1880 | 282–302 | 31 | 3 | none |
+| 1881 | 390–414 | 30 | 1 | none |
+| 1882 | 512–534 | 29 | 1 | none |
+| 1883 | 620–650 | 48 | 1 | none |
+| 1884 | 727–750 | 30 | 1 | none |
+
+## ACT 19 OF 1878 — A DAUGHTER FOR A HOUSE KNOWN BY TWO DEAD CHILDREN
+
+> «*2.° **FALCO MARIA CARMINA**, di anni **VENTISEI**, **filatrice**, nata in ARIENZO, residente in
+> Arienzo, figlia di **MICHELE**, residente in Arienzo, e di **GIOVANNA D'AMBROSIO**, residente in
+> Arienzo*»
+
+**8 December 1878 at 10.15 in the morning**, before Cavalier **NICOLA FINELLI**; the groom is
+**PASQUALE SFORZA**. Image **57**, left page — ark `3:1:3QSQ-G97F-MWW8`.
+
+**She is a daughter of `Michele Falco & Maria Giovanna Ambrogio`**, the household that until now stood
+on a wedding of 12 February 1850 and two children, Maria and Raffaele, dead within five months of each
+other in 1859 and known only from the bound death index. **No child of that house had ever been seen
+alive.** Twenty-six in December 1878 puts her birth at about **1852**, between the wedding and the two
+deaths.
+
+**And both her parents are alive**, neither marked *defunto*: Michele at about seventy-two, Giovanna
+at about sixty-seven. *That is the latest sighting of either of them this archive holds.*
+
+> **She is not the Maria Carmina Falco already here.** That one is a daughter of Giuseppe Falco and
+> Rosa Zimbardo, born in the 1870s, and she comes from the unverified family tree. Two women of one
+> name about twenty years apart; `tools/isitnew.py` was run before a word was written, which is how
+> the collision was seen. She is entered as **«Maria Carmina Falco (of Michele)»**.
+
+## THE OTHER SIX YEARS ARE A PUBLISHED NIL
+
+**192 acts of Parte I and 7 of Parte II across 1879–1884, and no Falco in any of them** — not as
+bride, not as groom, not as a parent named in a margin box.
+
+**The nearest approach is DE FALCO, a different surname, and it is not claimed**: Giacomo De Falco ×
+Giuseppa Gesúè at 1883 act 25, and Leonardo Bartolomeo De Falco in 1884 Parte II.
+
+> **So Giuseppe Falco, son of Matteo, did not marry at Arienzo between 1878 and 1884** — as he did not
+> at Santa Maria a Vico in 1860–87, nor at Arienzo in 1866 or 1869–1874. **1878 is the control**: the
+> one year of the run that held a Falco at all, and the sweep found her.
+
+## WHAT THE SAME PASS FOUND IN THIS ARCHIVE'S OWN FILES
+
+Adding Maria Carmina to that household meant re-reading the row beside hers, and **the row still said
+her mother was «NINETEEN»** — the age this archive publicly retired on 20 September 2026. The
+correction had reached the corrections page and the gate's phrase list and **never reached the data**,
+because the gate's rule was written against the clerk's Italian and the data carried the restatement in
+**English**. It had stood for twenty-one days in `households.json`, in `data/households.tsv`, and —
+worse — frozen into the generated `data/citation-check.json`, which no rule written against the source
+files could ever have reached.
+
+**And the correction that fixed her age got the subtraction wrong in its own next clause**: forty-three
+less thirty-nine is **four**, not eight. `corrections.json` is on the gate's skip list by design, so
+nothing was ever going to catch that but a person re-reading it.
+
+> **When a correction retires a number, retire the English sentence that carries it too — and
+> re-generate every derived file afterwards.** Both are now rules in `tools/check_corrections.py`.

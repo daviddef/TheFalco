@@ -43,6 +43,29 @@ OUT = os.environ.get("ARCHIVE_OUT") or f"dist-verify-{os.getpid()}"
 pkg = json.load(open(os.path.join(SITE, "package.json"), encoding="utf-8"))
 steps = [s.strip() for s in pkg["scripts"]["build"].split("&&")]
 
+# --skip NAME — RUN THE REST OF THE CHAIN WHEN A STEP THAT IS NOT YOURS IS RED.
+#
+# Added 11 October 2026. On that morning `check:pin` failed in ALL SEVEN family
+# archives at once: the kit-wide commit that added `check:nav` to every
+# package.json pinned the kit at 3c9214e, and `kit/tools/checknav.py` landed in
+# the NEXT kit commit, 8d2e6b2. An off-by-one in a shared pin, owned by the kit
+# session, and it stopped every other session verifying anything at step one.
+#
+# THE WHOLE POINT OF THIS FLAG IS THAT IT CANNOT BE USED QUIETLY. A skipped step
+# is announced where it would have run, it is listed again at the end, and the
+# chain REFUSES to print ALL GREEN — because «all green» is the sentence people
+# quote in a commit message, and it must never be true of a run that skipped a
+# gate. Skip a step you do not own and are reporting; never one that is red
+# because of your own work.
+SKIP = []
+_argv = sys.argv[1:]
+while _argv:
+    a = _argv.pop(0)
+    if a == "--skip" and _argv:
+        SKIP.append(_argv.pop(0))
+    elif a.startswith("--skip="):
+        SKIP.append(a.split("=", 1)[1])
+
 def run(label, cmd, cap=60):
     print(f"== {label}", flush=True)
     # AND EVERY STEP MUST BE TOLD WHERE THE BUILD IS.
@@ -86,6 +109,10 @@ def run(label, cmd, cap=60):
 
 failed = []
 for step in steps:
+    _name = step.replace("npm run ", "").strip()
+    if _name in SKIP:
+        print(f"== {_name}\n   SKIPPED BY --skip — NOT RUN, NOT GRADED, NOT GREEN", flush=True)
+        continue
     if step == "astro build":
         run("astro build --outDir " + OUT, f"npx astro build --outDir {OUT}", cap=4)
         continue
@@ -107,4 +134,9 @@ for step in steps:
                "'__file__':'node_modules/@daviddef/archive-kit/kit/tools/sitemap.py'})\"")
     run(name, cmd)
 
-print("\nALL GREEN — every step in package.json's build ran, against " + OUT)
+if SKIP:
+    print("\nNOT ALL GREEN — " + str(len(SKIP)) + " step(s) were SKIPPED and did not run: "
+          + ", ".join(SKIP) + "\nEverything else in package.json's build ran against " + OUT
+          + ". A skipped gate has graded nothing.")
+else:
+    print("\nALL GREEN — every step in package.json's build ran, against " + OUT)

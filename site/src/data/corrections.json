@@ -331,7 +331,7 @@
   "by": "row 58, re-reading a volume it had already passed as clean",
   "what": "The bride of 1850 was THIRTY-NINE, not nineteen — and the act said so in the word beside the number",
   "was": "Published here and in the household file on 20 September 2026, from the Arienzo marriage register of 1850, act 6: «*… e **GIOVANNA D'AMBROGIO maggiore, di anni DICIANNOVE**, di professione contadina*». The volume was reported in the work list as **clean**, with the words «*every word holds*».",
-  "now": "**«di anni TRENOVE»** — the clerk's contraction of *trentanove*, **thirty-nine**. She was born about **1811**, not about 1831, and she was eight years younger than the widower she married rather than twenty-four.",
+  "now": "**«di anni TRENOVE»** — the clerk's contraction of *trentanove*, **thirty-nine**. She was born about **1811**, not about 1831, and she was FOUR years younger than the widower she married rather than twenty-four.",
   "how": "Re-rendering the leaf at its full **3,200 pixels** instead of the 1,700 the first pass used. At that size the numeral's initial is a **tall ascender crossed by a diagonal — a t**. This hand's **d** is a small closed bowl with a short back-leaning ascender, and there is one four lines above in the same pen, in «**CHIARA RIVETTI DEFUNTA**». The two letters are not alike at full resolution and are hard to tell apart below it.",
   "why": "**The contradiction was on the page in words, not in handwriting, and nobody read it.** The same sentence calls her «**MAGGIORE**» — of age — and then «nineteen». Under the code in force a woman under twenty-one was «**MINORE**» and could not marry without a parent's consent: this archive publishes exactly that, four lines of a different act, where **Andreana Crisci in 1814 is «figlia minore assistita da Arcangelo Crisci suo padre»**. Giovanna's father was dead, her mother is named, and **no consent is taken**. \n\nSo the reading could have been challenged without opening the image at all — and the note that carried it said «*every word holds*». **A volume reported clean is the least likely thing in this archive to be re-read**, which is the second time in one day that a verification pass has had to correct itself rather than a source."
  },
@@ -3885,5 +3885,53 @@
   "what": "Three towns' processetti were called unexamined because this archive was asking for a record type Antenati does not have",
   "was": "**`tools/antenati_holdings.py` asked for six record types, one of which does not exist.**\n\n```\nKINDS = [\"Nati\", \"Matrimoni\", \"Morti\", \"Diversi\", \"Allegati\", \"Cittadinanze\"]\n```\n\n**«Allegati» is not a value Antenati uses.** Asking for it returns the facet's own empty answer — «*Allegati 1 years: 1703*», and **1703 is an artefact year that comes back on every query** — and this archive read that as «the processetti are not online». **MOIANO, PAOLISI and SAN FELICE A CANCELLO have carried «unexamined» ever since.**",
   "now": "**The real value is «Matrimoni, processetti», and all four towns have it**, Arienzo included:\n\n| town | years | first ark |\n|---|---|---|\n| **Arienzo** | 1809–1835, 1837–1865 | `an_ua14149` |\n| **Moiano** | **1809–1860** | **`an_ua1116121`** |\n| **Paolisi** | **1817–1835, 1837–1860** | **`an_ua975596`** |\n| **San Felice a Cancello** | **1817, 1819–1822, 1824–1865** | **`an_ua50166`** |\n\n**VERIFIED TWO WAYS BEFORE IT WAS WRITTEN DOWN.** *Arienzo's first ten processetti arks run **14149–14158**, and the 1814 volume this archive read in September is **`an_ua14154`** — inside that range, at exactly `14149 + (1814 − 1809)`.* **And San Felice's 1817 volume was opened**: 680 images, leaf 2 a Latin parish extract certifying a baptism of **1798**, leaf 3 an Italian one for a birth of **25 May 1793** «*della Parte Chiesa di **S. Felice Martire di questa Terra d'ARIENZO***» — **San Felice's dossiers bind certificates from Arienzo's own parishes.**\n\n**The tool no longer guesses.** It reads the town's own `tipologia_ss` facet off the page, which is the principle the rest of the file already followed. *San Felice a Cancello turns out to offer **thirty-four** record types — among them «**Matrimoni, indici decennali**», «**Nati, indice**» and «**Morti, indice**», decennial and annual indexes nobody here had asked for while reading acts by eye.*\n\n**The three towns stay «unexamined», and that is deliberate**: they are now **located, not read**, and softening the word would hide the work that is left."
+ },
+ {
+  "when": "2026-10-11",
+  "sev": "minor",
+  "where": "/corrections",
+  "plate": "",
+  "by": "the gate written the same hour, which could not see it — corrections.json is on check_corrections' skip list",
+  "what": "THE CORRECTION THAT FIXED HER AGE THEN SUBTRACTED WITH THE OLD NUMBER",
+  "was": "The correction of **20 September 2026** established that **Giovanna d'Ambrogio was thirty-nine**, not nineteen, at her wedding of 12 February 1850, and then said in its own next clause that **«she was eight years younger than the widower she married rather than twenty-four»**.",
+  "now": "**Four.** The groom is «*di anni QUARANTATRE*» and the bride «*di anni TRENOVE*»: **43 − 39 = 4**. Twenty-four was right for the retired reading (43 − 19). The sentence is corrected where it stands and this entry is why.",
+  "how": "Noticed on **11 October 2026** while adding a daughter to that same household and re-reading the row the correction was about. Nothing computed it; the two numbers are three words apart and nobody did the subtraction.",
+  "why": "**A correction is a claim like any other and gets no exemption.** This archive's gate reads households.json, people.json and the TSVs; **corrections.json is deliberately on its skip list**, because the file quotes every retired reading it has ever withdrawn and a phrase rule cannot tell a quotation from a claim. That exemption is what let a plain arithmetic slip sit inside the correction for twenty-one days. The hole is now named here rather than papered over, which is the same thing the prose-check comment in `tools/check_corrections.py` does."
+ },
+ {
+  "when": "2026-10-11",
+  "sev": "major",
+  "where": "/households",
+  "plate": "",
+  "by": "work on Arienzo's marriage registers of 1878–1884, which brought the row back into view",
+  "what": "A CORRECTION REACHED THE PAGE AND NOT THE ROW — because the row said it in English",
+  "was": "From 20 September to 11 October 2026 the household file, the TSV and the generated citation list all carried, as a plain statement of fact, «**NINETEEN, contadina, marrying a widower of forty-three**» for **Giovanna d'Ambrogio**. Her person page showed it. **The correction retiring that age had already been published**, and `tools/check_corrections.py` already held a rule for it.",
+  "now": "The row reads **THIRTY-NINE**, with «*GIOVANNA D'AMBROGIO maggiore, di anni TRENOVE*» quoted beside it, and it says in its own second paragraph that it stated the retired age for twenty-one days.",
+  "how": "The gate's rule was written from the **quotation**: «D'AMBROGIO maggiore, di anni DICIANNOVE». The data carried the **restatement**, in this archive's own English, with no Italian in it at all. A regular expression looking for the clerk's words will never meet the translator's. **Two rules were added — `NINETEEN, contadina` and `eight years younger than the widower` — and the first of them immediately found a third file nobody had thought of, `data/citation-check.json`, which is generated and had been generated before the correction.**",
+  "why": "**This is the fourth time a correction has landed in the file it was written in and nowhere else**, and the first three are named in the gate's own docstring. The new thing it teaches: **when a correction retires a NUMBER or a NAME, retire the English sentence that carries it, not only the quoted original** — and **re-generate every derived file afterwards**, because a generated artifact freezes the retired reading and no rule written against the source will find it there."
+ },
+ {
+  "when": "2026-10-11",
+  "sev": "finding",
+  "where": "/households",
+  "plate": "",
+  "by": "the margin-column sweep of MC55-VNL, images 47–62",
+  "what": "MARIA CARMINA FALCO, married 8 December 1878 — a daughter for a household known until now by two children who died in one year",
+  "was": "**Michele Falco & Maria Giovanna Ambrogio** stood on three records: a wedding of 12 February 1850 and two children, **Maria** and **Raffaele**, dead within five months of each other in 1859, both known only from the bound death index. **No child of this house had ever been seen alive.**",
+  "now": "Arienzo, *Matrimoni* **1878**, Parte I, **act 19 of 26**, read from the image: «*2.° **FALCO MARIA CARMINA**, di anni **VENTISEI**, **filatrice**, nata in ARIENZO, residente in Arienzo, figlia di **MICHELE**, residente in Arienzo, e di **GIOVANNA D'AMBROSIO**, residente in Arienzo*». She married **PASQUALE SFORZA** on **8 December 1878 at 10.15 a.m.** before Cavalier **NICOLA FINELLI**. **Born about 1852** — and **both parents alive**, neither marked *defunto*: he about seventy-two, she about sixty-seven.",
+  "how": "The Arienzo marriage registers of 1878–1884 have **no finding aid of any kind**. They were read by compositing the printed **Numero** box from the outer margin of every page of **MC55-VNL images 47–750**, fourteen boxes to a contact sheet, and reading the surnames off the sheet; only a sheet carrying FALCO costs a second request.",
+  "why": "**She is not the Maria Carmina Falco this archive already held** — that one is a daughter of Giuseppe Falco and Rosa Zimbardo, born in the 1870s, and she comes from the unverified family tree. Two women of one name about twenty years apart. **This archive does not merge people on a name**, so she is entered as «Maria Carmina Falco (of Michele)», and `tools/isitnew.py` was run before a word was written — which is how the collision was seen at all."
+ },
+ {
+  "when": "2026-10-11",
+  "sev": "searched",
+  "where": "/searched",
+  "plate": "",
+  "by": "the margin-column sweep",
+  "what": "ARIENZO MARRIAGES 1879, 1880, 1881, 1882, 1883, 1884 — every act read, and not one Falco in any of them",
+  "was": "Six registers in **MC55-VNL** with no index, unopened. Giuseppe Falco, son of Matteo, was still unfound as a groom after Santa Maria a Vico 1860–87 and Arienzo 1866, 1869–74, 1878.",
+  "now": "**Read in full, Parte I and Parte II, every act:** 1879 — 24 · 1880 — 31 + 3 · 1881 — 30 + 1 · 1882 — 29 + 1 · 1883 — 48 + 1 · 1884 — 30 + 1. **No Falco bride, no Falco groom, and no Falco parent of either in any of the six.** The nearest thing is **DE FALCO**, a different surname: Giacomo De Falco × Giuseppa Gesúè at 1883 act 25, and Leonardo Bartolomeo De Falco in 1884 Parte II. **Neither is claimed.**",
+  "how": "`tools/fsmargin.py` pulls one `dist.jpg` per leaf and crops the two outer margin strips; a scratch compositor lays fourteen of them side by side. **One contact sheet reads a whole opening of the register**, and the act numbers and image numbers are burnt into it, so a negative is auditable rather than asserted.",
+  "why": "**A published negative is the point.** Arienzo married between twenty-four and forty-nine couples a year in these books and this family is not among them in six consecutive years. That is where Giuseppe Falco is *not*, which narrows the next search; and it is worth saying out loud that **1878 is the one year in the run that did hold a Falco**, so the method finds them when they are there."
  }
 ]
