@@ -9465,5 +9465,44 @@
     "ark": "FamilySearch 3:1:3QS7-997N-Q5S — image 533 of waypoint MC5R-M2Q, collection 2043630 — Santa Maria a Vico, matrimoni 1869, atto 25 (the act runs on to image 534) — READ FROM THE IMAGE"
    }
   ]
+ },
+ {
+  "id": "pasquale-falco-elisabetta-sadutto",
+  "name": "Pasquale Falco & Elisabetta Sadutto",
+  "members": [
+   {
+    "hid": "pasquale-falco-elisabetta-sadutto",
+    "household": "Pasquale Falco & Elisabetta Sadutto",
+    "person": "Raffaela Falco (d. 1868, fifteen days old)",
+    "role": "child",
+    "event": "death",
+    "date": "13 Sep 1868",
+    "place": "Arienzo, Contrada Camellara",
+    "evidence": "**«…nella casa di PASQUALE FALCO sita nella CONTRADA CAMELLARA, è morta RAFFAELA [FALCO] DI GIORNI QUINDICI, nata e domiciliata in questo Comune, FIGLIA DI PASQUALE di condizione contadino, E DI ELISABETTA SADUTTO, filatrice, domiciliati in questo Comune»** — Arienzo, **death act 101 of 1868**, **13 September 1868 at eleven at night**, declared next day at one by **Antonio Diglio fu Bartolomeo, 58** and **Nunzio Rivetti fu Francesco, 60**, both contadini, before **Alfonso Troisi, Sindaco**. Read from the image 11 October 2026.\n\n**Fifteen days old → born about 29 August 1868.**\n\n**THE FAMILY TREE HAD HER AND NOTHING ELSE.** *MyHeritage gives **Pasquale Antonio Falco** a daughter **Raffaela** born 1868 at Arienzo by **Elisabetta Sadutto**, and no act. **This is the act**, and it adds the day, the street, the hour, her mother's trade and the two neighbours who carried the news.*\n\n*The margin box heads her «**Raffaele** Falco»; the act itself says «**Raffaela**», and a fifteen-day-old «figlia». **The body is the record and the margin is the finding aid.**",
+    "ark": "FamilySearch 3:1:3QS7-L976-Q4F9 — image 371 of waypoint MC55-FNT, collection 2043630 — Arienzo, morti 1868, atto 101 — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "pasquale-falco-elisabetta-sadutto",
+    "household": "Pasquale Falco & Elisabetta Sadutto",
+    "person": "Pasquale Falco (of Contrada Camellara)",
+    "role": "father",
+    "event": "named in his daughter's death act",
+    "date": "13 Sep 1868",
+    "place": "Arienzo, Contrada Camellara",
+    "evidence": "**«nella casa di PASQUALE FALCO sita nella Contrada CAMELLARA» … «figlia di PASQUALE di condizione CONTADINO»** — named in his fifteen-day-old daughter's death act, Arienzo **atto 101 of 1868**.\n\n**THE NAMING RULE PUTS HIM IN A HOUSE THIS ARCHIVE ALREADY HOLDS.** *A Pasquale Falco of **via Camellara**, contadino, is documented here twice — a daughter **Pasqualina** born February 1877 to **Maria Amalia Guida**, and his own death in September 1883 at forty-four, «*del fu **FRANCESCO** e della fu **RAFFAELA FALCO***». **A first daughter called RAFFAELA is his mother's name**, which is the Neapolitan rule working exactly as it should.*\n\n**So Elisabetta Sadutto is very probably his FIRST wife and Maria Amalia Guida his second** — and *the family tree says the same thing independently, giving him both women.* **Nothing is merged**: the 1868 act does not name his parents, and this archive does not join two Pasquale Falco on a street and a daughter's name. *The two records are held side by side and the argument is written down.*",
+    "ark": "FamilySearch 3:1:3QS7-L976-Q4F9 — image 371 of waypoint MC55-FNT, collection 2043630 — Arienzo, morti 1868, atto 101 — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "pasquale-falco-elisabetta-sadutto",
+    "household": "Pasquale Falco & Elisabetta Sadutto",
+    "person": "Elisabetta Sadutto",
+    "role": "mother",
+    "event": "named in her daughter's death act",
+    "date": "13 Sep 1868",
+    "place": "Arienzo, Contrada Camellara",
+    "evidence": "**«E DI ELISABETTA SADUTTO, FILATRICE, domiciliati in questo Comune»** — Arienzo, death act 101 of 1868. **Her first document.** *The family tree has her as a wife of Pasquale Antonio Falco and holds nothing else about her; here she is a spinner living on Contrada Camellara in September 1868.*",
+    "ark": "FamilySearch 3:1:3QS7-L976-Q4F9 — image 371 of waypoint MC55-FNT, collection 2043630 — Arienzo, morti 1868, atto 101 — READ FROM THE IMAGE"
+   }
+  ]
  }
 ]

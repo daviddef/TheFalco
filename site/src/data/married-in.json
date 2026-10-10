@@ -128,7 +128,7 @@
     "who": "Pasquale Antonio Falco",
     "whoSlug": "pasquale-antonio-falco",
     "to": "Elisabetta Sadutto (Falco)",
-    "toSlug": "elisabetta-sadutto",
+    "toSlug": "elisabetta-sadutto-2",
     "into": "Sadutto",
     "living": false
    },
@@ -3549,7 +3549,7 @@
   "marriages": [
    {
     "who": "Elisabetta Sadutto (Falco)",
-    "whoSlug": "elisabetta-sadutto",
+    "whoSlug": "elisabetta-sadutto-2",
     "to": "Pasquale Antonio Falco",
     "toSlug": "pasquale-antonio-falco",
     "into": "Falco",
@@ -3575,7 +3575,7 @@
    },
    {
     "name": "Elisabetta Sadutto (Falco)",
-    "slug": "elisabetta-sadutto",
+    "slug": "elisabetta-sadutto-2",
     "b": "1839",
     "bp": "Arienzo",
     "d": "May 31 1869",
