@@ -1510,7 +1510,7 @@
     "event": "",
     "date": "",
     "place": "Arienzo",
-    "evidence": "«*filiam Josephi, et **Magdalenae RIVETTA***» — **READ FROM THE IMAGE 14 September 2026**. The control is on the next line of the same act, in the same pen: «*servata forma Ritu: Roma:*», whose two capital **R** match this initial exactly. **«PIVERA» was the machine transcript, and this page was still publishing it on 20 September 2026 although the archive's own `households.tsv` had carried the corrected reading for six days.**",
+    "evidence": "«*filiam Josephi, et **Magdalenae RIVETTA***» — **READ FROM THE IMAGE 14 September 2026**. The control is on the next line of the same act, in the same pen: «*servata forma Ritu: Roma:*», whose two capital **R** match this initial exactly. **«PIVERA» was the machine transcript, and this page was still publishing it on 20 September 2026 although the archive's own `households.tsv` had carried the corrected reading for six days.**\n\n---\n\n**AND SHE WAS DEAD BY 3 OCTOBER 1871.** Her daughter **Maria**'s death act of that day — Arienzo **atto 99 of 1871** — calls her «*figlia di **GIUSEPPE** e della **FU ANTONIA GUIDA***». *The father is written without «fu» and «domiciliato in Arienzo»: **Giuseppe Falco was still alive on 3 October 1871**, and he died on **9 December 1871**, act 125 of the same register, «*vedovo di Antonia Guida*».*\n\n**This is the first document to put a ceiling on her death**, and it is work-list row 39's own question — *«the window has moved and the old negative may not cover it»*. **The window now ends at 3 October 1871.**",
     "ark": "3Q9M-CSMY-B74R-4"
    },
    {
@@ -2227,6 +2227,28 @@
     "place": "Arienzo, Contrada Camellara",
     "ark": "FamilySearch 3:1:3QSQ-G976-QWHX — image 690 of waypoint MC55-FNT, collection 2043630 — READ FROM THE IMAGE",
     "evidence": "**HIS DEATH, AT LAST — work-list row 3, answered from the register Arienzo was said not to have.** Read from the image on 8 October 2026, found through the 1871 annual death index.\n\n«*L'anno milleottocentosettantuno, nel giorno **dieci** del mese di **Dicembre**, nella Casa Comunale, alle ore sedici. Dinanzi a me **NICOLA TINELLI, Sindaco** di questo Comune di **Arienzo**, Circondario di Caserta, Provincia di Terra di Lavoro … sono comparsi **RAFFAELE FALCO di VINCENZO, di anni cinquantatré**, e **PASQUALE GUIDA fu FABRIZIO, di anni trenta**, ambi contadini, domiciliati in Arienzo, i quali mi hanno dichiarato che alle **ore ventidue del NOVE** del corrente mese di Dicembre, in questo Comune, **nella sua casa di abitazione sita nella CONTRADA CAMELLARA**, è morto **GIUSEPPE FALCO, agricoltore, di anni NOVANTACINQUE, VEDOVO DI ANTONIA GUIDA**, nato e domiciliato in Arienzo, **figlio de' fu MATTEO e FRANCESCA CRISCI***»\n\n**FOUR POINTS MAKE THE IDENTIFICATION, AND NOT ONE OF THEM IS THE FORENAME.** *This archive has documented three men of this name in three consecutive years, one of them on this very street.*\n\n1. «**figlio de' fu MATTEO e FRANCESCA CRISCI**» — **the founders.** This archive already holds this man as «**GIUSEPPE FALCO DEL FU MATTEO**» from the birth acts of **12 January 1810** and **16 February 1811**; the act now adds his mother, and she is the founder's wife. *It is the first record to name both of his parents together.*\n2. «**VEDOVO DI ANTONIA GUIDA**» — his wife, whose death this archive had already bracketed to **15 November 1857 – 14 February 1860**. A widower in 1871 is exactly what that window predicts.\n3. «**CONTRADA CAMELLARA**» — his street in every act from 1810 to 1857.\n4. The declarant is **RAFFAELE FALCO di VINCENZO, 53** — *the same man, five years older, who declared the death of **Antonia Falco** in the 1866 register at forty-seven.*\n\n**THE AGE IS THE WEAKEST PART AND IS STATED AS SUCH.** Ninety-five in December 1871 puts his birth about **1776**. His own stated ages in this archive already range from **1772 to 1785** — thirty in 1815, forty-six in 1826, fifty-six in 1828 — and the household's own note says his identification is «probable, not proven» and his age «should be treated as his only while that holds». **The 1871 act neither settles that nor is settled by it; it agrees with the older end of a range this archive has already published as unreliable.** [[ages-are-guessed]]"
+   },
+   {
+    "hid": "giuseppe-falco-antonia-di-guida",
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Maria Falco (of Giuseppe, d. 1871)",
+    "role": "child",
+    "event": "death",
+    "date": "2 Oct 1871",
+    "place": "Arienzo, Villaggio Costa",
+    "evidence": "**A DAUGHTER THIS ARCHIVE DID NOT HOLD, out of the Arienzo death register of 1871.** «*L'anno milleottocentosettantuno, nel giorno **TRE** del mese di **OTTOBRE**, nella Casa Comunale, alle ore quattordici. Dinanzi a me **Nicola Finelli Sindaco** … sono comparsi **Antonio Crisci di Gabriele d'anni cinquanta** e **Salvatore Zimbardo fu Clemente d'anni ventisette**, ambi agricoltori … che alle ore cinque d'Italia del **due** del corrente mese di Ottobre, in questo Comune, nella sua casa di abitazione, sita nel **VILLAGGIO COSTA**, è morta **MARIA FALCO, contadina, DI ANNI CINQUANTATRE, MOGLIE DI RAFFAELE MORGILLO, nata e domiciliata in questo Comune di Arienzo, FIGLIA DI GIUSEPPE E DELLA FU ANTONIA GUIDA**, domiciliato in Arienzo*» — `MC55-FNT` image 686, read 11 October 2026.\n\n**Fifty-three on 2 October 1871 puts her birth between October 1817 and October 1818.**\n\n**AND SHE IS NOT MERGED WITH MADDALENA.** *This household already holds a **MADDALENA FALCO born 7 June 1818** — inside that very window — and a second Maddalena born in 1827, which is usually how this archive learns the first one died. **«Maria» and «Maddalena» are different names and this archive does not join people on an age.** Both stand, and the question is written down rather than resolved: **is the child of June 1818 this woman, or did Giuseppe and Antonia have two daughters within a year?***",
+    "ark": "FamilySearch 3:1:3QSQ-G976-QWCV — image 686 of waypoint MC55-FNT, collection 2043630 — Arienzo, morti 1871, atto 99 — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "giuseppe-falco-antonia-di-guida",
+    "household": "Giuseppe Falco & Antonia di Guida",
+    "person": "Raffaele Morgillo",
+    "role": "married in",
+    "event": "named as her husband",
+    "date": "2 Oct 1871",
+    "place": "Arienzo, Villaggio Costa",
+    "evidence": "**«MOGLIE DI RAFFAELE MORGILLO»** — named as Maria Falco's husband in her death act, Arienzo **atto 99 of 1871**, and living with her at the **VILLAGGIO COSTA**. *A marriage this archive did not hold, and a household it has never built.*",
+    "ark": "FamilySearch 3:1:3QSQ-G976-QWCV — image 686 of waypoint MC55-FNT, collection 2043630 — Arienzo, morti 1871, atto 99 — READ FROM THE IMAGE"
    }
   ]
  },
