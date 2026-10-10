@@ -2575,3 +2575,60 @@ reader who stopped at the index would have buried generation three's wife seven 
 **No Matteo Falco and no Alessandra Crisci** in the 127 deaths. *Both were dead by October 1871, so
 their acts are in **1866, 1867, 1868, 1869 or 1870** — and those five registers are the next thing
 to open.*
+
+---
+
+# MATTEO FALCO DIED ON 12 DECEMBER 1867, AND THE REGISTER THAT HOLDS HIM WAS CALLED LOST
+
+**Arienzo, `MC55-FNT`, death act 93 of 1867, image 271.**
+
+> «**N.º 93 — Atto di morte di MATTEO FALCO.** *L'anno milleottocentosessantasette, nel giorno
+> **DODICI** del mese di **DICEMBRE**, nella Casa Comunale alle ore **ventuno**. Dinanzi a me
+> **ALFONSO TROISI Sindaco** del Comune di Arienzo … sono comparsi **Giuseppe Crisci figlio di
+> Marcantonio d'anni ventisei**, **calzolajo**, e **Francesco Ruotolo figlio di Pietro d'anni
+> cinquantatre**, **agricoltore**, domiciliati in questo Comune, i quali mi hanno dichiarato che
+> nelle ore **quindici** del suddetto giorno in questo Comune, **nella casa di sua abitazione, sita
+> nella CONTRADA CAMELLARA, è morto MATTEO FALCO di condizione AGRICOLTORE, D'ANNI CINQUANTASETTE,
+> MARITO DI ALESSANDRA CRISCI**, nato e domiciliato in questo Comune, **FIGLIO DI GIUSEPPE FALCO di
+> condizione Agricoltore, e della FU ANTONIA GUIDA di condizione contadina**. Dato lettura del
+> presente atto ai dichiaranti suddetti, non l'hanno con me sottoscritto, **perché illetterati**.*»
+
+**Three in the afternoon, in his own house on the street this family has lived on since 1810.**
+
+## HOW IT WAS FOUND, IN THREE LEAVES
+
+**The 1867 death register opens with its own «INDICE ANNUALE»** at images 236–242 — *and it is
+alphabetical by **FORENAME**, not surname, so «**Matteo Falco — 93**» sits in the M section between
+Maria Diglio and Mª Raffaele Carfora.* **Three index leaves and one act.**
+
+> *The index was photographed four times before it could be read: loose documents from the year's
+> own paperwork — a Cervinara transmittal for Anna d'Agostino's death — lie across the right-hand
+> columns on images 236, 237 and 238, and the filmer did not move them. **They are off on image
+> 240.** A reader who stopped at the first exposure would have called the index unreadable.*
+
+## IT CONFIRMS HIS BIRTH FROM A SECOND REGISTER
+
+**«D'ANNI CINQUANTASETTE» on 12 December 1867 → born between December 1809 and December 1810.**
+This archive holds his birth act: **12 January 1810**, «*GIUSEPPE FALCO DEL FU MATTEO, d'anni
+ventotto, massaro di campagna, **strada Camellara***», declaring a son by **ANTONIA DI GUIDA** and
+naming him **MATTEO**.
+
+> **Two registers, fifty-seven years and one collection apart, agree to the month.**
+
+## AND THREE MORE DATES OUT OF ONE ACT
+
+- **ALESSANDRA CRISCI WAS ALIVE** — «*marito di Alessandra Crisci*», not *vedovo*.
+- **ANTONIA DI GUIDA WAS ALREADY DEAD** — «*della **fu** Antonia Guida*». *The 1871 act of her
+  daughter Maria had put a ceiling of October 1871 on her death; **this moves it back four years, to
+  December 1867**.*
+- **GIUSEPPE FALCO WAS STILL ALIVE**, written without «fu» — and he died on **9 December 1871**,
+  act 125 of the same series. **Father and son, four years apart, in the register this archive had
+  published as lost.**
+
+## SO ALESSANDRA CRISCI IS DOWN TO THREE YEARS
+
+**Alive 12 December 1867. Dead by 8 October 1871** — her daughter Vincenza's marriage act says «*de'
+furono Matteo e Alessandra Crisci*». **And Arienzo's deaths of 1871 are read out and she is not in
+them.**
+
+> **She died in 1868, 1869 or 1870. Three registers, all in `MC55-FNT`, all open.**
