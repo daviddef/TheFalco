@@ -230,7 +230,7 @@
    },
    {
     "who": "Carmela Falco (Ruotolo)",
-    "whoSlug": "carmela-falco-2",
+    "whoSlug": "carmela-falco-of-matteo-falco-alessandra-crisci",
     "to": "Michele Ruotolo",
     "toSlug": "michele-ruotolo",
     "into": "Ruotolo",
@@ -616,7 +616,7 @@
    },
    {
     "name": "Carmela Falco (Ruotolo)",
-    "slug": "carmela-falco-2",
+    "slug": "carmela-falco-of-matteo-falco-alessandra-crisci",
     "b": "1837",
     "bp": "Arienzo",
     "d": "May 25 1883",
@@ -4595,7 +4595,7 @@
     "who": "Michele Ruotolo",
     "whoSlug": "michele-ruotolo",
     "to": "Carmela Falco (Ruotolo)",
-    "toSlug": "carmela-falco-2",
+    "toSlug": "carmela-falco-of-matteo-falco-alessandra-crisci",
     "into": "Falco",
     "living": false
    }

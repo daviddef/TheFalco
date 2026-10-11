@@ -3493,17 +3493,30 @@ dead at sixty-two seven months later. **Three ages, three acts, one man, born ab
 Sara's act gave that afternoon closes to **15 May 1875 – 21 April 1880** — and **every month of it is
 read**: 1875 after May, 1876, 1877, 1878, 1879, and 1880 down to act 34. **She is in none of them.**
 
-> **TWO WIVES OF THE DIRECT LINE, A GENERATION APART, BOTH CERTAINLY DEAD, BOTH MISSING FROM THE
-> COMUNE'S OWN REGISTERS FOR THE WHOLE OF THEIR WINDOWS** — **ALESSANDRA CRISCI** (1867×1878,
-> thirteen registers) and **ANDREANA CRISCI** (1875×1880, six). *Their husbands are both there. Their
-> wives are not.* **Recorded as a pattern and not explained.**
+> **TWO CRISCI WOMEN OF ARIENZO, BOTH CERTAINLY DEAD, BOTH MISSING FROM THE COMUNE'S OWN REGISTERS
+> FOR THE WHOLE OF THEIR WINDOWS** — **ANDREANA CRISCI** (1875×1880, six registers) and **ALESSANDRA
+> CRISCI** (1867×1878, thirteen). *Their husbands are both there. They are not.* **Recorded as a
+> pattern and not explained.**
+>
+> **CORRECTED: only one of them is on this line.** The first version called them both «wives of the
+> direct line». **Andreana Crisci is** — generation three's wife. **Alessandra Crisci is not**: she
+> is the wife of a **Matteo Falco of the Contrada Camellara** whom no act joins to this family. *The
+> pattern is still real and still unexplained; it is just not a pattern about two generations of one
+> household.*
 
 ## Also in 1880
 
 **Act 31**, 7 April — **MATTEO FALCO, seventy-eight**, Corso Caudino 57, «dal fu **GIOACCHINO** … e
 dalla fu **VITTORIA CIMMINO** … marito di **AGNESE DI LUCIO**». A son and a wife for «Gioacchino Falco
-(strada Camellara)», which held one line. ***Not* generation four's father**, who was born 1810 and
-died 1867 — two men, one name, eight years and different parents apart.
+(strada Camellara)», which held one line. ***Not* the MATTEO FALCO of the Contrada Camellara** who
+married Alessandra Crisci — that one was born 1810 and died 1867 — two men, one name, eight years
+and different parents apart.
+
+> **CORRECTED.** The first version of this line called that second Matteo «generation four's
+> father». **He is not.** Generation four is **Raffaele Falco (1818–1880)** and his father is
+> **Vincenzo Falco (1792–1875)**. *The archive's older uses of the phrase are «generation four's
+> father-**in-law**», about **Orazio Morgillo**, and those are right; this one was mine and was
+> wrong.*
 
 **One near-miss checked and rejected**: act 7, «**PALARIA** Giuseppe», twenty-two, of piazza Lettieri.
 The capital was tested against the known **F** of «Felice d'Addio» four lines above in the same pen.
@@ -3588,3 +3601,41 @@ the second margin to get a child's sex wrong.*
 GIOVANNA MAIONE**. *A household new to this archive, and **not** the Antonio Falco of via Camellara
 married to Carmela Guida. Number 10 is where generation three died in 1875 — a fact about a street,
 not a filiation.*
+
+---
+
+# 1883 — the last unread year, and the run is closed
+
+**83 acts and two in the supplement, read act by act.** With this, **Arienzo's deaths of 1872 to 1889
+are read end to end** — eighteen consecutive years.
+
+**Act 60**, 26 September — **PASQUALE FALCO, forty-four**, *agricoltore*, **via Camellara 5**:
+«*dal fu **FRANCESCO** … e dalla fu **RAFFAELA FALCO** … **MARITO DI MARIA AMALIA GUIDO***». The
+second register act recovered today from behind a certified copy — and it makes him **the second
+Pasquale** of «Francesco Falco & Raffaela Falco», named for a brother dead on 30 October 1838. *His
+mother was a Falco married to a Falco; his father is written **Francescantonio** at the marriage of
+1832 and **Francesco** here.*
+
+> **And it sharpens the morning's question rather than answering it.** A **Francesco Falco** died at
+> Arienzo on 8 August 1882, seventy-six, «vedovo di **Carmela Sadutto**». Born about 1806 he would
+> have been twenty-six at this household's marriage in 1832, and **Raffaela Falco died in 1854**,
+> leaving twenty-eight years to remarry. *The fit is good. It is still not a proof, and the two men
+> are still held apart.*
+
+**Act 32**, 25 May — **CARMELA FALCO, forty-six**, at **VILLAGGIO ROSCIANO 1**: «*dal fu MATTEO … e
+dalla fu ALESSANDRA CRISCI … **MOGLIE DI MICHELE RUOTOLO***».
+
+**This closed a life that was open at both ends.** The household held her birth — **3 January 1838**
+— and nothing after it. The family tree held a **Carmela Falco (Ruotolo), 1837–1883**, attached to no
+household at all. *The act names her parents, her husband and her death, and on the next build the
+two records became one person: **born 3 January 1838, died 25 May 1883, wife of Michele Ruotolo**.*
+The age is a year over her documented birth and is recorded as such.
+
+**Act 40**, 14 July — **ANTONIO FALCO**, one year, **Corso Caudino 88**, of Carmine Falco and Giovanna
+Pellone. *Three of that house's five known children died small, and this is a fifth house number on
+one street.*
+
+> **VILLAGGIO ROSCIANO is new.** Every other Falco address this archive holds is a street of the
+> town — Camellara, Orticelli, Corso Caudino, Sant'Andrea. This one is a hamlet. *The act still calls
+> her «residente in Arienzo», so it is inside the comune, and Alessandra Crisci's missing death act
+> is not hiding in another register because of it.*
