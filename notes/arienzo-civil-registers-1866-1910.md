@@ -2858,3 +2858,68 @@ Both are confirmed by **two independent hands**: the Arienzo transcription, and 
 Vico original re-read at its full 5,179 pixels. Everything else in the act matches word for word —
 the four witnesses and their ages, Signora Hueber of Valle di Maddaloni, the contusion to the right
 knee — so those two were the only two that were wrong.
+
+---
+
+# THE SWEEP WAS READING AT TOO SMALL A SCALE — 11 October 2026, later the same day
+
+**Two Falco births were screened out of 1884 and 1885 and the books were published as clean.**
+`1884 act 13 FALCO PASQUALE` was read as «Fatto Pasquale»; `1885 act 29 FALCO MATTEO` was read as
+«Fatto Mattia».
+
+**It was found from the other end.** Arienzo's **deaths of 1886, act 51** records a **MATTEO FALCO,
+one year and some months, son of GIUSEPPE and NICOLETTA NUZZO** — a child who must have a birth act,
+in a year the sweep had just called clean.
+
+> **A screenshot arrives at about 2,000 pixels on its longest side whatever the contact sheet's own
+> size.** Fourteen margin strips in ONE ROW give each surname about **143 px**, and at 143 px
+> **FALCO and FATTO are the same word**. The same fourteen as **7 × 2** give each about **255 px**,
+> and at that size they are not. `tools/fsmargin_grid.py` is `mcol` with a grid: same request cost,
+> nearly double the legible resolution.
+
+**And the surname that fails is the one being hunted.** *Falco / Fatto / Falso* differ by one or two
+strokes, Fatto is common at Arienzo, and an eye scanning for FALCO supplies FATTO to anything
+ambiguous because FATTO is what most of them are. **No negative off a single-row sheet is trusted
+until it has been read again on the grid.**
+
+## GIUSEPPE FALCO × NICOLETTA NUZZO — generation four's son has a household
+
+> «*L'anno milleottocentottantacinque, addì **ventitré** di **febbraio** … è comparso **GIUSEPPE
+> FALCO**, di anni **QUARANTADUE**, *agricoltore* … nella casa posta in **via Orticelli** al numero
+> **quattro**, da **NICOLETTA NUZZO sua moglie, contadina**, seco lui convivente, è nato un bambino
+> di sesso mascolino … a cui dà il nome di **MATTEO***»
+
+*Nascite 1885, act 29.* **Forty-two in February 1885 is born about 1842–3**, and the family tree —
+reached independently — says **1841**, with these same parents and this same wife. The 1887 extract
+already held here makes him forty-six in September 1887: the same arithmetic a third time.
+
+**And the child is named MATTEO**, for a grandfather who died in the Contrada Camellara on 12 December
+1867. *The Neapolitan rule is a custom and not a proof, and it is recorded as a custom.*
+
+**The child lived seventeen months.** *Morti 1886, act 51*, 29 July 1886, same house, same parents —
+declared by **CRESCENZO FALCO, sixty-seven** and **ANTONIO FALCO, forty-six**, both agricoltori.
+*Declarants are a sighting and never a kinship.*
+
+> **His marriage is still unfound**, and it is now bounded on one side: not in Arienzo 1866,
+> 1869–1874 or 1878–1886, and not at Santa Maria a Vico 1860–1887. **He was married before 1878 or
+> outside Arienzo, and Nicoletta Nuzzo's own comune is the next place to look.**
+
+## THE CARTERS OF THE CORSO CAUDINO
+
+| act | man | age | trade | house | wife | child |
+|---|---|---:|---|---|---|---|
+| Nascite 1884 n. 13 | **Vincenzo Falco** | 33 | vetturale | Corso Caudino **88** | **Angela Pellone** | Pasquale, 27 Jan 1884 |
+| Nascite 1885 n. 18 | **Clemente Falco** | 27 | vetturale | Corso Caudino **80** | **Gaetana Crispo** | Vincenzo, 26 Jan 1885 |
+| Nascite 1886 n. 94 | **Carmino Falco** | 30 | carrettiere | Corso Caudino **80** | **Giovanna Pellone** | Carolina, 19 Jul 1886 |
+
+**Vincenzo is the man the processetti already gave** — thirty in December 1880, thirty-three in
+January 1884, thirty-nine at his death in September 1889, son of **ANGELO FALCO and ANNAMARIA
+CIMMINO**. Domenico Carfora the shoemaker witnessed both the 1880 and the 1884 birth.
+
+**CARMINO AND CLEMENTE ARE NOT ATTACHED.** A birth act names the child's parents, not the
+declarant's. *Three men born about 1850, 1856 and 1857, all carters, in two houses of one street,
+two of them married to a PELLONE — and that is a pattern, not a filiation.* **The test is their own
+marriage acts, which will name their fathers.**
+
+**And the house number disagrees with itself**: the extracts of 1880 and 1889 both say Corso Caudino
+**80**; Vincenzo's own register act of 1884 says **88**. *Recorded, not resolved.*

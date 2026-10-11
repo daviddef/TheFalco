@@ -8374,6 +8374,17 @@
     "place": "Arienzo, Corso Caudino",
     "evidence": "**THIRTY-NINE, A VATICALE, AND EXPLICITLY NOT THE VINCENZO OF THIS LINE.** Dead **13 September 1889**, born about 1850. *This archive's own Vincenzo Falco, generation three, was born in 1792 and was alive in December 1864; the two are separated here on purpose, because a Vincenzo Falco of Arienzo is exactly the kind of name that gets merged by accident.* **The act has not been re-read.**",
     "ark": "site/src/pages/which-falco.astro — a page, not an act; the acts behind it are named in each row"
+   },
+   {
+    "hid": "angelo-falco-annamaria-cimmino-corso-caudino",
+    "household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+    "person": "Pasquale Falco (of Vincenzo, b. 1884)",
+    "role": "grandchild",
+    "event": "birth",
+    "date": "27 Jan 1884",
+    "place": "Arienzo, via Corso Caudino 88",
+    "evidence": "**THE FIRST ACT OF THIS HOUSE READ IN THE REGISTER ITSELF** — everything here before it came from certified extracts quoted inside other people's processetti. Arienzo, *Nascite* **1884**, Parte I, **act 13**: «*L'anno milleottocentottantaquattro, addì **ventinove** di **gennaio** … è comparso **VINCENZO FALCO** di anni **TRENTATRÉ**, ***vetturale***, domiciliato in questo comune, il quale mi ha dichiarato che alle ore antimeridiane **cinque** e minuti **trenta** del dì **ventisette** del corrente mese, nella casa posta in **via Corso Caudino** al numero **OTTANTOTTO**, da **ANGELA PELLONE sua moglie, cucitrice**, seco lui convivente, è nato un bambino di sesso mascolino … a cui dà il nome di **PASQUALE***». Witnesses **Domenico Carfora**, 47, *calzolaio*, and **Nicola Zimbardo**, 56.\n\n**IT CORROBORATES THE PAIR THE PROCESSETTI GAVE, FROM A THIRD DIRECTION.** Vincenzo is **thirty-three in January 1884** — thirty in December 1880 at his son Angelo's birth, thirty-nine at his death in September 1889. *Three ages, three acts, three sweeps, one man born about 1850.* Domenico Carfora the shoemaker witnessed the 1880 birth too.\n\n**AND THE HOUSE NUMBER DISAGREES, which is recorded and not resolved.** The extracts of 1880 and 1889 both say **Corso Caudino 80**; this act says **88**. *Either the family moved along the street, or a number was copied wrong somewhere in a chain of certified copies — and the register is the better witness for its own year, not for theirs.*",
+    "ark": "3:1:3QSQ-G97F-918 — FamilySearch MC55-VNL img 754, Arienzo Nascite 1884 Parte I act 13 — READ FROM THE IMAGE"
    }
   ]
  },
@@ -9525,7 +9536,7 @@
     "household": "Clemente Falco & Gaetana Crispo",
     "person": "Clemente Falco (of Corso Caudino)",
     "role": "father",
-    "event": "birth of his son",
+    "event": "named as father in his son's birth act",
     "date": "28 Jan 1885",
     "place": "Arienzo, via Corso Caudino 80",
     "evidence": "**A FALCO HOUSEHOLD NEW TO THIS ARCHIVE, AND THE ONLY FALCO IN A WHOLE YEAR OF ARIENZO BIRTHS.** Arienzo, *Nascite* **1885**, Parte I, **act 18**, read from the image: «*L'anno milleottocentottantacinque, addì **ventotto** di **gennaio**, a ore antimeridiane **dieci** e minuti **dieci**, nella Casa Comunale … avanti di me **NOTAR DAVIDE GUERRIERO**, Assessore delegato … Ufficiale dello Stato Civile del Comune di ARIENZO, è comparso **CLEMENTE FALCO**, di anni **VENTISETTE**, ***VETTURALE***, domiciliato in questo comune, il quale mi ha dichiarato che alle ore antimeridiane **cinque** e minuti **trenta** del dì **ventisei** del corrente mese, nella casa posta in **VIA CORSO CAUDINO** al numero **OTTANTA**, da **GAETANA CRISPO sua moglie, CUCITRICE**, seco lui convivente, è nato un bambino di sesso **mascolino** … a cui dà il nome di **VINCENZO***». Witnesses **Giuseppe Morgillo**, 73, *agricoltore*, and **Clemente Diglio**, 40, *garzone*.\n\n**Twenty-seven in January 1885, so born about 1857–8**, and a ***vetturale*** — a carter.\n\n**THERE IS A LEAD HERE AND IT IS NOT PROOF.** This archive already holds «**Angelo Falco & Annamaria Cimmino (Corso Caudino)**», whose son **Vincenzo Falco** died 13 September 1889 aged thirty-nine, **a *vaticale* of the Corso Caudino** — the same street, the same trade, and a man born about 1850. *A brother is the obvious reading and the act does not say so: **it names no parent of Clemente at all**, because a birth act names the child's parents and not the declarant's.* **This archive does not attach a man to a house on a street and a trade.** The test is cheap and named: Arienzo's marriage registers of the late 1870s should hold Clemente's own wedding, and that act will name his father.\n\n**And he is not the Clemente Falco already here.** The tree carries a **Clemente Falco born 1858, died 9 October 1875**, son of Giuseppe Falco and Rosa Zimbardo — the same birth year, and dead ten years before this act was written. *Either the tree's death is wrong or these are two men; the act settles nothing about the tree, and nothing here is merged.* `tools/isitnew.py` was run before this row was written.",
@@ -9536,7 +9547,7 @@
     "household": "Clemente Falco & Gaetana Crispo",
     "person": "Gaetana Crispo",
     "role": "mother",
-    "event": "birth of her son",
+    "event": "named as mother in her son's birth act",
     "date": "26 Jan 1885",
     "place": "Arienzo, via Corso Caudino 80",
     "evidence": "«*da **GAETANA CRISPO sua moglie, CUCITRICE**, seco lui convivente*» — same act. A seamstress, living with her husband at Corso Caudino 80.\n\n**CRISPO is a surname this archive has met only twice at Arienzo**, both long before: *Andreana Crispo*, mother of Prospero Martone (d. 1819), and *Pasquale Crispo, vaticale*, father of Carmine Crispo (d. 1826) — **and Pasquale Crispo was a vaticale too**. Nothing joins her to either; it is recorded because the next person to meet a Crispo at Arienzo should meet these three together.",
@@ -9564,7 +9575,7 @@
     "household": "Pasquale Crisci & Francesca Falco",
     "person": "Pasquale Crisci (of via Camellara)",
     "role": "father",
-    "event": "birth of his son",
+    "event": "named as father in his son's birth act",
     "date": "27 Jan 1885",
     "place": "Arienzo, via Camellara 7",
     "evidence": "Arienzo, *Nascite* **1885**, Parte I, **act 17**, read from the image: «*… è comparso **PASQUALE CRISCI**, di anni **QUARANTUNO**, *CONTADINO*, domiciliato in questo comune, il quale mi ha dichiarato che alle ore pomeridiane **sette** e minuti **trenta** del dì **ventidue** del corrente mese, nella casa posta in **VIA CAMELLARA** al numero **SETTE**, da **FRANCESCA FALCO sua moglie, CONTADINA**, seco lui convivente, è nato un bambino di sesso **mascolino** … a cui dà il nome di **DOMENICO***». The act stands on the facing page of the same leaf as act 18.\n\n**Forty-one in January 1885, so born about 1843–4.**\n\n**THE STREET IS THE POINT.** *Via Camellara is this line's own street* — Matteo Falco died in the Contrada Camellara in 1867, Michele Falco was a colono of strada Camellara in 1850, and the deaths of 1825 and 1871 are full of it. **A Falco wife at Camellara 7 in 1885 is the nearest thing to this family that the year's registers contain.** *It is still not a kinship: no parent of hers is named in a birth act.*",
@@ -9575,7 +9586,7 @@
     "household": "Pasquale Crisci & Francesca Falco",
     "person": "Francesca Falco (of via Camellara, 1885)",
     "role": "mother",
-    "event": "birth of her son",
+    "event": "named as mother in her son's birth act",
     "date": "22 Jan 1885",
     "place": "Arienzo, via Camellara 7",
     "evidence": "«*da **FRANCESCA FALCO sua moglie, CONTADINA**, seco lui convivente*» — same act, bearing a child in January 1885, so born perhaps between 1845 and 1865.\n\n**SHE IS THE FOURTH FRANCESCA FALCO HERE AND CAN BE NONE OF THE OTHER THREE.** The Francesca Falco of **Gioacchino Crisci** died 11 November 1813. The Francesca Falco of **Raffaele Crisci** married him on 5 January 1839 and would be past sixty in 1885. The Francesca Falco of **Raffaele Cioffi** was burying children at strada Cioffi in 1840–1843. *Two of those three are also married to a Crisci, which is exactly how a merge happens.* **This archive does not merge people on a name, and the qualifier is the refusal.**",
@@ -9591,6 +9602,106 @@
     "place": "Arienzo, via Camellara 7",
     "evidence": "**Born at half past seven in the evening of 22 January 1885** at Camellara 7, presented five days later. Same act.",
     "ark": "3:1:3QS7-897F-9J9 — FamilySearch MC55-VNL img 866, Arienzo Nascite 1885 Parte I — READ FROM THE IMAGE"
+   }
+  ]
+ },
+ {
+  "id": "carmino-falco-giovanna-pellone",
+  "name": "Carmino Falco & Giovanna Pellone",
+  "members": [
+   {
+    "hid": "carmino-falco-giovanna-pellone",
+    "household": "Carmino Falco & Giovanna Pellone",
+    "person": "Carmino Falco (of Corso Caudino)",
+    "role": "father",
+    "event": "named as father in his daughter's birth act",
+    "date": "21 Jul 1886",
+    "place": "Arienzo, via Corso Caudino 80",
+    "ark": "3:1:3QSQ-G97F-9HN — FamilySearch MC55-VNL img 1029, Arienzo Nascite 1886 Parte I act 94 — READ FROM THE IMAGE",
+    "evidence": "Arienzo, *Nascite* **1886**, Parte I, **act 94**: «*L'anno milleottocentottantasei, addì **ventuno** di **luglio**, a ore antimeridiane **nove** e minuti **venti** … è comparso **CARMINO FALCO** di anni **TRENTA**, ***carrettiere***, domiciliato in questo comune, il quale mi ha dichiarato che alle ore pomeridiane **sei** e minuti **trenta** del dì **diciannove** del corrente mese, nella casa posta in **via Corso Caudino** al numero **OTTANTA**, da **GIOVANNA PELLONE sua moglie, cucitrice**, seco lui convivente, è nato un bambino di sesso femminino … a cui dà il nome di **CAROLINA***». Witnesses **Raffaele Arricale**, 36, *carrettiere*, and **Clemente Arricale**, 28, *carrettiere*.\n\n**Thirty in July 1886, so born about 1856**, and a **carter** — as every Falco of this street is.\n\n**HE IS THE THIRD FALCO CARTER OF THE CORSO CAUDINO, AND THE SECOND AT NUMBER EIGHTY.** **CLEMENTE FALCO**, *vetturale*, twenty-seven, declared a son at **Corso Caudino 80** eighteen months before this; **VINCENZO FALCO**, *vetturale*, thirty-three, declared a son at **Corso Caudino 88** in January 1884 and is the son of **ANGELO FALCO and ANNAMARIA CIMMINO** of that street. *Three men born about 1850, 1856 and 1857, in one trade, in two houses of one street, and two of them married to a **PELLONE**.*\n\n**AND NOTHING READ SO FAR NAMES CARMINO'S FATHER.** A birth act names the child's parents, not the declarant's. **This archive does not attach a man to a house on a street, a trade and a wife's surname** — the proof is his own marriage act, which will name his father, and Arienzo's marriage registers of the 1870s and 1880s are where it must be."
+   },
+   {
+    "hid": "carmino-falco-giovanna-pellone",
+    "household": "Carmino Falco & Giovanna Pellone",
+    "person": "Giovanna Pellone",
+    "role": "mother",
+    "event": "named as mother in her daughter's birth act",
+    "date": "19 Jul 1886",
+    "place": "Arienzo, via Corso Caudino 80",
+    "ark": "3:1:3QSQ-G97F-9HN — FamilySearch MC55-VNL img 1029, Arienzo Nascite 1886 Parte I act 94 — READ FROM THE IMAGE",
+    "evidence": "«*da **GIOVANNA PELLONE sua moglie, cucitrice**, seco lui convivente*» — same act. A seamstress, as **ANGELA PELLONE**, wife of Vincenzo Falco of the same street, is a seamstress in her own acts of 1880 and 1884.\n\n**TWO PELLONE WOMEN MARRIED TO TWO FALCO CARTERS OF ONE STREET.** Angela Pellone is documented: born about 1852, of **via Sant'Andrea**, daughter of the late **Pasquale Pellone** and of **Carmela Crisci**, married 1874. *Nothing read names Giovanna's parents, and sisters are not claimed on a surname.*"
+   },
+   {
+    "hid": "carmino-falco-giovanna-pellone",
+    "household": "Carmino Falco & Giovanna Pellone",
+    "person": "Carolina Falco (of Carmino, b. 1886)",
+    "role": "child",
+    "event": "birth",
+    "date": "19 Jul 1886",
+    "place": "Arienzo, via Corso Caudino 80",
+    "ark": "3:1:3QSQ-G97F-9HN — FamilySearch MC55-VNL img 1029, Arienzo Nascite 1886 Parte I act 94 — READ FROM THE IMAGE",
+    "evidence": "**Born at half past six in the evening of 19 July 1886** and presented two days later by her father. Same act.\n\n*CAROLINA is a forename this archive has met once before in a Falco house — **Carolina Cimmino**, who married Luigi Falco in 1851 — and **CIMMINO is the surname of Annamaria Cimmino of the Corso Caudino**. It is noted and it proves nothing.*"
+   }
+  ]
+ },
+ {
+  "id": "giuseppe-falco-nicoletta-nuzzo",
+  "name": "Giuseppe Falco & Nicoletta Nuzzo",
+  "members": [
+   {
+    "hid": "giuseppe-falco-nicoletta-nuzzo",
+    "household": "Giuseppe Falco & Nicoletta Nuzzo",
+    "person": "Giuseppe Falco (of Matteo, b. c.1842)",
+    "role": "father",
+    "event": "named as father in his son's birth act",
+    "date": "23 Feb 1885",
+    "place": "Arienzo, via Orticelli 4",
+    "ark": "3:1:3QSQ-G97F-9PQ — FamilySearch MC55-VNL img 870, Arienzo Nascite 1885 Parte I act 29 — READ FROM THE IMAGE",
+    "evidence": "Arienzo, *Nascite* **1885**, Parte I, **act 29**: «*L'anno milleottocentottantacinque, addì **ventitré** di **febbraio**, a ore antimeridiane **dieci** e minuti **quindici**, nella Casa Comunale … è comparso **GIUSEPPE FALCO**, di anni **QUARANTADUE**, ***agricoltore***, domiciliato in questo comune, il quale mi ha dichiarato che alle ore pomeridiane **undici** e minuti **trenta** del dì **ventidue** del corrente mese, nella casa posta in **via Orticelli** al numero **QUATTRO**, da **NICOLETTA NUZZO sua moglie, contadina**, seco lui convivente, è nato un bambino di sesso mascolino … a cui dà il nome di **MATTEO***».\n\n**THE HOUSEHOLD GENERATION FOUR'S SON NEVER HAD.** Giuseppe Falco, son of **MATTEO FALCO and ALESSANDRA CRISCI**, has been carried here as a bare name and hunted as a groom through Santa Maria a Vico 1860–1887 and Arienzo 1866, 1869–1874 and 1878–1886 without being found. *His marriage is still unfound — but his household is not.*\n\n**FORTY-TWO IN FEBRUARY 1885, so born about 1842–3**, which is what the family tree says in its own words: **Giuseppe Falco b. 1841, parents Matteo Falco and Alessandra Crisci, wife Nicoletta Nuzzo**. *A tree statement and a register act, arrived at independently, agreeing to within a year.* The 1887 extract already held here makes him **forty-six in September 1887**, which is the same man and the same arithmetic.\n\n**AND THE CHILD IS NAMED MATTEO.** *The Neapolitan rule names a first son for his father's father. **His father's father was Matteo Falco of the Contrada Camellara, dead 12 December 1867** — and that is the archive's own generation four.* **It is a custom and not a proof, and it is recorded as a custom.**"
+   },
+   {
+    "hid": "giuseppe-falco-nicoletta-nuzzo",
+    "household": "Giuseppe Falco & Nicoletta Nuzzo",
+    "person": "Nicoletta Nuzzo",
+    "role": "mother",
+    "event": "named as mother in her son's birth act",
+    "date": "22 Feb 1885",
+    "place": "Arienzo, via Orticelli 4",
+    "ark": "3:1:3QSQ-G97F-9PQ — FamilySearch MC55-VNL img 870, Arienzo Nascite 1885 Parte I act 29 — READ FROM THE IMAGE",
+    "evidence": "«*da **NICOLETTA NUZZO sua moglie, contadina**, seco lui convivente*» — same act, and the first time this archive has read her name off a register rather than off a certified extract. She is a *contadina* of **via Orticelli 4**, the same house as in the 1887 extract.\n\n*The family tree puts her birth at **1855**, which would make the marriage roughly 1873–1882. **That marriage is not in Arienzo's registers of 1878–1886, every one of which is now read**, so it was celebrated earlier or elsewhere — and her comune of birth is the place to look.*"
+   },
+   {
+    "hid": "giuseppe-falco-nicoletta-nuzzo",
+    "household": "Giuseppe Falco & Nicoletta Nuzzo",
+    "person": "Matteo Falco (of Giuseppe, 1885-1886)",
+    "role": "child",
+    "event": "birth",
+    "date": "22 Feb 1885",
+    "place": "Arienzo, via Orticelli 4",
+    "ark": "3:1:3QSQ-G97F-9PQ — FamilySearch MC55-VNL img 870, Arienzo Nascite 1885 Parte I act 29 — READ FROM THE IMAGE",
+    "evidence": "**Born at half past eleven at night on 22 February 1885** at via Orticelli 4, and presented the next morning. Same act.\n\n**A GREAT-GRANDSON OF THE FOUNDERS CARRYING GENERATION FOUR'S NAME** — and he lived seventeen months. *Both of his acts are read: this one, and his death.*"
+   },
+   {
+    "hid": "giuseppe-falco-nicoletta-nuzzo",
+    "household": "Giuseppe Falco & Nicoletta Nuzzo",
+    "person": "Matteo Falco (of Giuseppe, 1885-1886)",
+    "role": "child",
+    "event": "death",
+    "date": "29 Jul 1886",
+    "place": "Arienzo, via Orticelli 4",
+    "ark": "3:1:3QS7-L97F-MZX3 — FamilySearch MC55-VNL img 1073, Arienzo Morti 1886 act 51 — READ FROM THE IMAGE",
+    "evidence": "Arienzo, *Morti* **1886**, **act 51**: «*L'anno milleottocentottantasei, addì **ventinove** di **luglio**, a ore antimeridiane **otto** e minuti **quaranta** … sono comparsi **CRESCENZO FALCO**, di anni **SESSANTASETTE**, *agricoltore*, domiciliato in Arienzo, e **ANTONIO FALCO**, di anni **QUARANTASEI**, *agricoltore*, domiciliato in Arienzo, i quali mi hanno dichiarato che a ore antimeridiane **sei** e minuti **trenta** di **oggi**, nella casa posta in **via Orticelli** al numero **QUATTRO**, è morto **MATTEO FALCO**, di **anno uno e mesi quattro**, contadino, residente in Arienzo, nato in Arienzo, da **GIUSEPPE**, contadino, domiciliato in Arienzo, e da **NICOLETTA NUZZO**, contadina, domiciliata in Arienzo*». Witnesses **Antonio d'Onofrio**, 76, *servente*, and **Andrea Saccone**, 67, *scribente*.\n\n**THE AGE IS A MONTH OUT AND THE ACT IS STILL HIS.** 22 February 1885 to 29 July 1886 is **one year and five months**, not four. *Same name, same parents, same house, same street — a clerk's rounding is not a second child.*\n\n**AND TWO FALCO STAND AS DECLARANTS, WHICH IS A SIGHTING AND NOT A KINSHIP.** **CRESCENZO FALCO, sixty-seven** (born about 1819) and **ANTONIO FALCO, forty-six** (born about 1840), both *agricoltori* of Arienzo. *This archive's rule is written into `build_people.py` itself: a declarant must never become kinship. They are recorded as what they are — two Falco men who came to the Casa Comunale for this child.*"
+   },
+   {
+    "hid": "giuseppe-falco-nicoletta-nuzzo",
+    "household": "Giuseppe Falco & Nicoletta Nuzzo",
+    "person": "Maria Falco (of Giuseppe, b. 1887)",
+    "role": "child",
+    "event": "birth",
+    "date": "22 Sep 1887",
+    "place": "Arienzo, via Orticelli 4",
+    "ark": "3:1:3QS7-897N-P3N5 — certified extract of Arienzo Nascite 1887 act 114, quoted in a processetto",
+    "evidence": "**Birth 1887 n. 114**, 22 September 1887, **via Orticelli 4** — father **Giuseppe Falco, 46, agricoltore**; mother **Nicoletta Nuzzo**. **FROM A CERTIFIED EXTRACT QUOTED INSIDE A PROCESSETTO, NOT FROM THE REGISTER.** *The register leaf is in `MC55-VNL` and has not been opened; until it is, this row is a candidate with an ark, which is what every processetto line in this archive is.*"
    }
   ]
  }

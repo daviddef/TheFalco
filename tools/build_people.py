@@ -41,6 +41,27 @@ import json, re, collections, os, unicodedata
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 def path(*p): return os.path.join(ROOT, *p)
 
+# AN EVENT IS THIS PERSON'S OWN ONLY IF IT IS *THEIR* BIRTH OR DEATH.
+#
+# Added 11 October 2026. Six member rows entered that morning used the event
+# «birth of his son» and «birth of her son» for the PARENT who declared the
+# child. Everything in this file that asks «is this a birth?» asked it with
+# `.startswith("birth")`, so the father's row was read as the father's own
+# birth and GIUSEPPE FALCO, born about 1842, was published as born on
+# 23 February 1885 — the day he walked into the Casa Comunale to register his
+# son. The same for Clemente Falco, Pasquale Crisci and three women.
+#
+# The rows are now written the way the rest of the file writes them —
+# «named as father in his son's birth act» — and this is the guard that makes
+# the convention enforceable rather than remembered. A row may say «birth»,
+# or «birth, …»; it may not say «birth OF somebody else».
+def own_event(ev, kind):
+    """Is `ev` this person's own birth/death, as opposed to someone else's?"""
+    ev = str(ev or "").strip().lower()
+    if not ev.startswith(kind): return False
+    rest = ev[len(kind):].lstrip()
+    return not rest.startswith("of ")
+
 households = json.load(open(path("site/src/data/households.json")))
 line       = json.load(open(path("site/src/data/line.json")))
 tree       = json.load(open(path("data/myheritage-falco-tree.json")))
@@ -364,7 +385,7 @@ def _years_of(k):
 
 def _born_in(k):
     ys = years(*[e.get("date") for e in hh_people[k]["events"]
-                 if (e.get("event") or "").lower() == "birth"])
+                 if own_event(e.get("event"), "birth")])
     return min(ys) if ys else None
 
 for nm, ck, hk in sorted(cands):
@@ -565,7 +586,7 @@ for nm in sorted(tr_by_name):
         _clash = []
         for _kind, _fld in (("birth", "b"), ("death", "d")):
             _hy = years(*[e.get("date") for e in hh_people[hk]["events"]
-                          if str(e.get("event") or "").lower().startswith(_kind)])
+                          if own_event(e.get("event"), _kind)])
             _ty = years(_t.get(_fld))
             if _hy and _ty and not (_hy & _ty):
                 _clash.append(f"{_kind} {sorted(_hy)} vs tree {sorted(_ty)}")
@@ -590,10 +611,10 @@ for nm in sorted(tr_by_name):
         for _bset, _dset, _why in (
                 (years(_t.get("b")),
                  years(*[e.get("date") for e in hh_people[hk]["events"]
-                         if str(e.get("event") or "").lower().startswith("death")]),
+                         if own_event(e.get("event"), "death")]),
                  "tree birth after register death"),
                 (years(*[e.get("date") for e in hh_people[hk]["events"]
-                         if str(e.get("event") or "").lower().startswith("birth")]),
+                         if own_event(e.get("event"), "birth")]),
                  years(_t.get("d")), "register birth after tree death")):
             if _bset and _dset and min(_bset) > max(_dset):
                 _clash.append(f"{_why} — born {min(_bset)}, died {max(_dset)}")
@@ -780,7 +801,7 @@ for k in hh_order:
     dts = {}
     for kind in ("birth", "death"):
         dd = {_dmy(e.get("date")) for e in p["events"]
-              if str(e.get("event") or "").lower().startswith(kind)} - {None}
+              if own_event(e.get("event"), kind)} - {None}
         if len(dd) == 1:
             dts[kind] = dd.pop()
     if not dts:
@@ -1143,7 +1164,7 @@ for r in people.values():
         if r.get(_f) and (r.get("dateFrom") or {}).get(_f) != "tree":
             continue
         for _e in r.get("events") or []:
-            if not str(_e.get("event") or "").lower().startswith(_kind):
+            if not own_event(_e.get("event"), _kind):
                 continue
             _dt = str(_e.get("date") or "").strip()
             if not _dt or _dt == "\u2014" or not re.search(r"\b1[6-9]\d\d\b", _dt):

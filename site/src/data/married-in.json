@@ -246,9 +246,9 @@
    },
    {
     "who": "Giuseppe Falco",
-    "whoSlug": "giuseppe-falco-4",
+    "whoSlug": "giuseppe-falco-of-giuseppe-falco-nicoletta-nuzzo",
     "to": "Nicoletta Nuzzo (Falco)",
-    "toSlug": "nicoletta-nuzzo",
+    "toSlug": "nicoletta-nuzzo-of-giuseppe-falco-nicoletta-nuzzo",
     "into": "Nuzzo",
     "living": false
    },
@@ -296,7 +296,7 @@
     "who": "Carmine Falco",
     "whoSlug": "carmine-falco-3",
     "to": "Giovanna Pellone (Falco)",
-    "toSlug": "giovanna-pellone",
+    "toSlug": "giovanna-pellone-2",
     "into": "Pellone",
     "living": false
    },
@@ -648,7 +648,7 @@
    },
    {
     "name": "Giuseppe Falco",
-    "slug": "giuseppe-falco-4",
+    "slug": "giuseppe-falco-of-giuseppe-falco-nicoletta-nuzzo",
     "b": "1841",
     "bp": "Arienzo",
     "d": "",
@@ -1192,7 +1192,7 @@
    },
    {
     "name": "Carolina Falco",
-    "slug": "carolina-falco-3",
+    "slug": "carolina-falco-2-2",
     "b": "1886",
     "bp": "",
     "d": "",
@@ -1919,14 +1919,6 @@
     "dp": ""
    },
    {
-    "name": "Pasquale Crisci",
-    "slug": "pasquale-crisci-2",
-    "b": "27 Jan 1885",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
     "name": "Chiara Crisci (Falco)",
     "slug": "chiara-crisci",
     "b": "",
@@ -1977,6 +1969,14 @@
    {
     "name": "Marta Crisci (Pellone)",
     "slug": "marta-crisci",
+    "b": "",
+    "bp": "",
+    "d": "",
+    "dp": ""
+   },
+   {
+    "name": "Pasquale Crisci",
+    "slug": "pasquale-crisci-2",
     "b": "",
     "bp": "",
     "d": "",
@@ -3435,7 +3435,7 @@
   "marriages": [
    {
     "who": "Giovanna Pellone (Falco)",
-    "whoSlug": "giovanna-pellone",
+    "whoSlug": "giovanna-pellone-2",
     "to": "Carmine Falco",
     "toSlug": "carmine-falco-3",
     "into": "Falco",
@@ -3461,7 +3461,7 @@
    },
    {
     "name": "Giovanna Pellone (Falco)",
-    "slug": "giovanna-pellone",
+    "slug": "giovanna-pellone-2",
     "b": "",
     "bp": "Arienzo",
     "d": "",
@@ -4414,9 +4414,9 @@
   "marriages": [
    {
     "who": "Nicoletta Nuzzo (Falco)",
-    "whoSlug": "nicoletta-nuzzo",
+    "whoSlug": "nicoletta-nuzzo-of-giuseppe-falco-nicoletta-nuzzo",
     "to": "Giuseppe Falco",
-    "toSlug": "giuseppe-falco-4",
+    "toSlug": "giuseppe-falco-of-giuseppe-falco-nicoletta-nuzzo",
     "into": "Falco",
     "living": false
    }
@@ -4424,7 +4424,7 @@
   "people": [
    {
     "name": "Nicoletta Nuzzo (Falco)",
-    "slug": "nicoletta-nuzzo",
+    "slug": "nicoletta-nuzzo-of-giuseppe-falco-nicoletta-nuzzo",
     "b": "1855",
     "bp": "Arienzo",
     "d": "",
