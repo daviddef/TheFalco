@@ -3639,3 +3639,43 @@ one street.*
 > town — Camellara, Orticelli, Corso Caudino, Sant'Andrea. This one is a hamlet. *The act still calls
 > her «residente in Arienzo», so it is inside the comune, and Alessandra Crisci's missing death act
 > is not hiding in another register because of it.*
+
+---
+
+# 1892–1898: the index method at scale — six pages against eleven years
+
+`MC55-VNL` holds **2,898 images** and this archive had read to about 1470. Rather than fetch the
+remaining 1,430:
+
+1. a **sparse probe at stride 14** — 101 images — mapped the volume's repeating cycle:
+   **pubblicazioni → matrimonio → nascita → morte → index → cover**;
+2. **twelve short bands** around the year boundaries were fetched;
+3. **six annual indexes** were read.
+
+| index | year | Falco |
+|---|---|---|
+| img 1820 | **Nati 1892** | **none** |
+| img 2104 | **Morti 1894** | **none** |
+| img 2180 | **Nati 1895** | act **86 FRANCESCO** — ***read*** |
+| img 2334 | **Nati 1896** | act **139 VINCENZO** |
+| img 2484 | **Morti 1897** | act **64 ALESSANDRA** |
+| img 2626 | **Morti 1898** | acts **16 FRANCESCO · 33 MARIA · 46 CRESCENZO** |
+
+**Nascite 1895, act 86** — «*è comparso **CLEMENTE FALCO**, di anni **QUARANTA**, ***trainante*** …
+nella casa posta in **CORSO CAUDINO** al numero **CINQUANTAQUATTRO**, da **GAETANA CRISPO sua moglie
+legittima** … a cui dà il nome di **FRANCESCO***», 26 December 1895.
+
+> **A CRESCENZO FALCO was alive and resident at Arienzo in September 1888**, named in his daughter
+> Lucia's marriage act. If **Morti 1898 act 46** is that man, it dates his death — and that is the
+> first act to open next.
+
+## The index that lies in its own heading
+
+> «**Indice annuale pel Registro dei *MORTI dico NATI***»
+
+The 1895 births index. **The clerk wrote «Morti», caught himself, and added «dico Nati» — "I mean
+Births" — without striking the first word.** A sweep that matched on the heading would have filed a
+birth index under deaths and missed Francesco Falco's act entirely.
+
+*`walked` stays false for all of it: an index is a finding aid, the acts it points at are read from
+the image, and a name absent from one is not a walked negative.*

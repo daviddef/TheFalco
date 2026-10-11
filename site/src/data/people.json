@@ -12548,6 +12548,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "francesco-falco-of-clemente-falco-gaetana-crispo",
+"name": "Francesco Falco (of Clemente, b. 1895)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": []
@@ -24848,6 +24856,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "francesco-falco-of-clemente-falco-gaetana-crispo",
+"name": "Francesco Falco (of Clemente, b. 1895)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": []
@@ -28937,6 +28953,69 @@
 ]
 }
 ]
+},
+{
+"slug": "francesco-falco-of-clemente-falco-gaetana-crispo",
+"name": "Francesco Falco (of Clemente, b. 1895)",
+"surname": "FALCO",
+"household": "Clemente Falco & Gaetana Crispo",
+"hid": "clemente-falco-gaetana-crispo",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "26 Dec 1895",
+"place": "Arienzo, Corso Caudino 54",
+"evidence": "**FOUND THROUGH AN INDEX WHOSE HEADING IS WRONG.** Arienzo, *Nascite* **1895**, **act 86**: «*… è comparso **CLEMENTE FALCO**, di anni **QUARANTA**, ***trainante***, domiciliato in Arienzo, il quale mi ha dichiarato che alle ore pomeridiane **due** … del dì **ventisei** del corrente mese, nella casa posta in **CORSO CAUDINO** al numero **CINQUANTAQUATTRO**, da **GAETANA CRISPO sua moglie legittima**, donna di casa seco lui convivente, è nato un bambino di sesso **maschile** … a cui dà il nome di **FRANCESCO***». Witnesses **Aniello Rivetti**, 40, and **Luigi Perrotta**, 35, both *trainanti* and both illiterate.\n\n**THE INDEX THAT FOUND HIM IS HEADED «INDICE ANNUALE PEL REGISTRO DEI *MORTI DICO NATI*»** — *the clerk wrote **Morti**, caught himself and wrote **dico Nati**, «I mean Births», without striking the first word.* **A sweep that matched the heading would have filed a birth index under deaths and missed this act.**\n\n**AND THE AGE IS THE ODD ONE OUT.** *Clemente Falco is **twenty-two** at his marriage in June 1880, **twenty-three** in May 1881, **twenty-seven** in January 1885 and **thirty-one** in January 1889 — four readings that agree on a birth about **1857–8**. **Forty in December 1895 would put it at 1855.** The four tight ones are preferred and the fifth is recorded, not discarded.*\n\n*His trade moves with him: **vetturale** in 1880 and 1881, **industriante** in 1889, ***trainante*** here. And a fourth house number on one street — **Corso Caudino 54**, after 80 in 1885 and 88 in 1889.*",
+"ark": "3:1:3QS7-997F-M4K9 — FamilySearch MC55-VNL img 2162 right page, Arienzo Nascite 1895 act 86 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "clemente-falco-of-clemente-falco-gaetana-crispo",
+"name": "Clemente Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gaetana-crispo",
+"name": "Gaetana Crispo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "vincenzo-falco-of-clemente-falco-gaetana-crispo",
+"name": "Vincenzo Falco (of Clemente, b. 1885)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-clemente-falco-gaetana-crispo",
+"name": "Pasquale Falco (of Clemente, b. 1889)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "26 Dec 1895",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "francesco-falco-of-francesco-falco-carmela-sadutto",
@@ -43271,6 +43350,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "francesco-falco-of-clemente-falco-gaetana-crispo",
+"name": "Francesco Falco (of Clemente, b. 1895)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "5 Jan 1889",
@@ -48985,6 +49072,14 @@
 {
 "slug": "pasquale-falco-of-clemente-falco-gaetana-crispo",
 "name": "Pasquale Falco (of Clemente, b. 1889)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesco-falco-of-clemente-falco-gaetana-crispo",
+"name": "Francesco Falco (of Clemente, b. 1895)",
 "via": "register",
 "vias": [
 "register"
