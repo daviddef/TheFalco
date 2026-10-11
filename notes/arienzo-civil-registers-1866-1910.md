@@ -3285,3 +3285,50 @@ other act of that house, and in the same room.*
 > that October, Raffaele Falco in November 1878, Giovanni Falco in January 1884, and **Antonia Falco**
 > in June 1885. **Four households' worth of Falco through one door, and not one act joins any two of
 > them.**
+
+---
+
+# FROM 1888 THE REGISTERS INDEX THEMSELVES
+
+Every Arienzo book read here from 1866 to 1887 was walked act by act off the margin box of every
+page — about 2,500 acts — because **none of those books has an index**. That was true of every one of
+them, and it stopped being true in 1888.
+
+> **«INDICE ANNUALE PEL REGISTRO DEI NATI / MATRIMONII / MORTI»** — one per register per year, one to
+> three pages, **every name against its act number**, and the marriage index gives both parties.
+
+Located in `MC55-VNL`: **1238** matrimonii 1888 · **1344** morti · **1367** matrimonii · **1431–1432**
+nati 1889 · **1463–1464** morti 1889 · **1486** matrimonii · **1546–1547** nati · **1584–1585** morti
+· **1625** matrimonii · **1683–1684** nati.
+
+**The margin sweep could not see them.** It crops the inner edge; an index is a full-page ruled table,
+so on a contact sheet of margin strips it is an unreadable sliver that reads as a blank page. *The
+tool that found every act of thirteen death registers is the exact tool that cannot see an index.*
+
+> **A NEGATIVE OFF AN INDEX IS NOT A NEGATIVE OFF A WALK.** An index is a clerk's finding aid, and
+> this archive has already caught one calling **ANGELA FALCO** «Falco **Angelo**». A name in it is a
+> candidate and the act is still read. A name *absent* from it is recorded `walked: false`.
+
+## What 1889 gave up in four requests
+
+| act | who |
+|---|---|
+| Nascite **1** | **PASQUALE FALCO**, 5 Jan, Corso Caudino 88 — of **Clemente Falco, 31, *industriante*** and Gaetana Crispo |
+| Nascite **20** | **CARMELA FALCO**, 24 Feb, Corso Caudino 80 — of **Vincenzo Falco, 38, *viaticale*** and Angela Pellone |
+| Morti **46** | **ROSA ZIMBARDO**, 60, **vedova di GIUSEPPE FALCO**, via Camellara 12 |
+| Morti **57** | **VINCENZO FALCO**, 39, *viaticale*, Corso Caudino 80 |
+
+**Rosa Zimbardo's act verifies the family tree to the day** — 12 August 1889, aged sixty — and brings
+**parents this archive never had, ANGELO ZIMBARDO and ELISABETTA FRANCO**. She died a **widow**, so
+Giuseppe Falco was dead before August 1889; the tree says 3 May 1882, and that register is unopened.
+*And the household moved: via Orticelli in 1875–76, via Camellara 12 in 1889.*
+
+**Vincenzo Falco's act replaces a certified copy with the register**, confirms it word for word, adds
+that **Angela Pellone survived him** — and names **ANGELO FALCO and ANNAMARIA CIMMINO both ALIVE**,
+neither marked *fu*. **They outlived this son, and September 1889 is the latest sighting of either.**
+
+*Both 1889 acts are signed by **AURELIO CASALE, Commissario Straordinario** — Arienzo's communal
+council had been dissolved by Royal Decree of 7 July 1889.*
+
+**And one candidate is located and unread**: the 1888 marriage index gives **act 21, PERRINO CLEMENTE
+× FALCO LUCIA**.

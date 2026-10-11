@@ -2391,5 +2391,29 @@
    "Falco",
    "read in full"
   ]
+ },
+ {
+  "when": "1888–1889",
+  "searchedOn": "2026-10-11",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo",
+  "waypoint": "MC55-VNL",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L97F-M7CN?cc=2043630&wc=MC55-VNL",
+  "pages": "1231-1470",
+  "walked": false,
+  "src": "**FROM 1888 THE REGISTERS INDEX THEMSELVES, AND THIS IS THE FIRST ROW READ THAT WAY.** Each book closes with an «**INDICE ANNUALE PEL REGISTRO DEI …**» — Nati, Matrimonii, Morti, one to three pages, **every name against its act number**, the marriage index giving both parties. *Located: **1238** matrimonii 1888 · **1344** morti · **1367** matrimonii · **1431–1432** nati 1889 · **1463–1464** morti 1889 · **1486** matrimonii · **1546–1547** nati · **1584–1585** morti · **1625** matrimonii · **1683–1684** nati.*\n\n**`walked` is FALSE and stays false for index work.** *An index is a clerk's finding aid: this archive has already caught one calling **ANGELA FALCO** «Falco **Angelo**». A name in it is a candidate and the act is still read; a name absent from it is not a walked negative.*",
+  "what": "Falco in Arienzo 1888 and 1889",
+  "outcome": "found",
+  "got": "**FOUR ACTS, EACH READ FROM THE IMAGE AFTER THE INDEX POINTED AT IT.**\n\n**Nascite 1889 act 1** — **PASQUALE FALCO**, 5 January, **Corso Caudino 88**, of **CLEMENTE FALCO, 31, *industriante*** and **GAETANA CRISPO**. *The third age for Clemente and the third to agree; and he is no longer a carter.*\n\n**Nascite 1889 act 20** — **CARMELA FALCO**, 24 February, **Corso Caudino 80**, of **VINCENZO FALCO, 38, *viaticale*** and **ANGELA PELLONE**. **His last act alive**, seven months before his death — and the margin carries her wedding: «*Con atto **24-4-1904** … la Falco sposò **PERRINO DOMENICO***».\n\n**Morti 1889 act 46** — **ROSA ZIMBARDO**, 60, **VEDOVA DI GIUSEPPE FALCO**, «dal fu ANGELO e dalla fu ELISABETTA FRANCO», **via Camellara 12**. *The family tree's date verified to the day, her parents new, and Giuseppe dead before August 1889.*\n\n**Morti 1889 act 57** — **VINCENZO FALCO**, 39, *viaticale*, **Corso Caudino 80**, «da **ANGELO** … e da **ANNAMARIA CIMMINO** … **marito di ANGELA PELLONE**». *The processetto extract confirmed word for word from the register — and **both his parents are named ALIVE**, the latest sighting of either.*\n\n**AND ONE CANDIDATE NOT YET READ**: the **1888 marriage index** gives **act 21 — PERRINO CLEMENTE × FALCO LUCIA**. *The act is at about image 1230 and has not been opened.*\n\n**Both 1889 acts are signed by AURELIO CASALE, Commissario Straordinario** — Arienzo's council had been dissolved by Royal Decree of 7 July 1889.",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Births",
+   "Deaths",
+   "Marriages",
+   "Falco",
+   "Index"
+  ]
  }
 ]
