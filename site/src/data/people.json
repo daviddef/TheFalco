@@ -9181,6 +9181,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "raffaela-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Raffaela Falco (of Gioacchino, d. 1880)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [],
@@ -17057,7 +17065,16 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": [],
+"siblings": [
+{
+"slug": "maria-falco-of-giovanbattista-falco-costanza-zimb",
+"name": "Maria Falco (of Giovanbattista, d. 1880)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "b": "26 Dec 1884",
 "dateFrom": {
 "b": "act"
@@ -29655,6 +29672,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "raffaela-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Raffaela Falco (of Gioacchino, d. 1880)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [
@@ -29814,6 +29839,14 @@
 {
 "slug": "andreana-falco-2-2",
 "name": "Andreana Falco (of Giovanbattista, b. 1884)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-giovanbattista-falco-costanza-zimb",
+"name": "Maria Falco (of Giovanbattista, d. 1880)",
 "via": "register",
 "vias": [
 "register"
@@ -31122,6 +31155,14 @@
 {
 "slug": "raffaele-falco-of-gioacchino-falco-andreana-crisci",
 "name": "Raffaele Falco (of Gioacchino, d. 1878)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaela-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Raffaela Falco (of Gioacchino, d. 1880)",
 "via": "register",
 "vias": [
 "register"
@@ -37264,6 +37305,36 @@
 }
 },
 {
+"slug": "maria-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Maria Falco (of Vincenzo, 1875-1881)",
+"surname": "FALCO",
+"household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+"hid": "angelo-falco-annamaria-cimmino-corso-caudino",
+"role": "grandchild",
+"events": [
+{
+"event": "death",
+"date": "5 May 1881",
+"place": "Arienzo, Corso Caudino 70",
+"evidence": "**AND HIS BROTHER CAME TO THE CASA COMUNALE TO REPORT IT.** Arienzo, *Morti* **1881**, **act 26**: «*L'anno milleottocentottantuno, addì **cinque** di **maggio**, a ore antimeridiane **nove** e minuti **dodici** … sono comparsi **CLEMENTE FALCO**, di anni **VENTITRÉ**, ***vetturale***, domiciliato in Arienzo, e **VINCENZO CASTORIO**, di anni **cinquantadue**, *contadino* … a ore antimeridiane **due** e minuti **trenta** di **oggi**, nella casa posta in **via CORSO CAUDINO** al numero **SETTANTA**, è morta **MARIA FALCO**, di **ANNI SEI**, residente in Arienzo, nata in Arienzo, da **VINCENZO**, *vetturale*, domiciliato in Arienzo, e da **ANGELA PELLONE**, *cucitrice*, domiciliata in Arienzo*».\n\n**Six years old, so born about 1875** — and her birth act is in Arienzo's register of that year, which this archive has not opened.\n\n**THE DECLARANT IS HER UNCLE, AND FOR ONCE THAT IS NOT AN INFERENCE.** *CLEMENTE FALCO is **twenty-three** here and **twenty-two** at his own marriage eleven months earlier; both acts make him a son of **ANGELO FALCO and MARIA CIMMINO**, and Vincenzo's marriage act of 1874 makes him one too.* **The brothers are proved by their own acts, not by this one** — a declarant is still never kinship here, and this act simply happens to involve two men already joined.\n\n*The house number moves again: **70** here, **88** in January 1884, **89** that March, **80** in 1886 and 1889. **The street never changes and the number will not settle.***",
+"ark": "3:1:3QS7-997F-MQRG — FamilySearch MC55-VNL img 487 left page, Arienzo Morti 1881 act 26 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"d": "5 May 1881",
+"dateFrom": {
+"d": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "maria-falco-of-giuseppe-falco-nicoletta-nuzzo",
 "name": "Maria Falco (of Giuseppe, b. 1887)",
 "surname": "FALCO",
@@ -37324,6 +37395,61 @@
 "b": "22 Sep 1887",
 "dateFrom": {
 "b": "act"
+}
+},
+{
+"slug": "maria-falco-of-giovanbattista-falco-costanza-zimb",
+"name": "Maria Falco (of Giovanbattista, d. 1880)",
+"surname": "FALCO",
+"household": "Giovanbattista Falco & Costanza Zimbardo",
+"hid": "giovanbattista-falco-costanza-zimbardo",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "26 Dec 1880",
+"place": "Arienzo, Corso Caudino 77",
+"evidence": "**THE EARLIEST ACT OF THIS HOUSE, FOUR YEARS BEFORE THE ONE IT WAS BUILT ON.** Arienzo, *Morti* **1880**, **act 120** — the last act of the year: «*… sono comparsi **PASQUALE GRASSIA**, di anni **cinquantadue**, *giornaliere*, e **ALESSANDRO PERRINO**, di anni **quarantasei**, *sportaro* … nella casa posta in **via CORSO CAUDINO** al numero **SETTANTASETTE**, è morta **MARIA FALCO**, di **ANNO UNO**, residente in Arienzo, nata in Arienzo, da **GIOVANNI**, ***sarto***, domiciliato in Arienzo, e da **COSTANZA ZIMBARDO**, domiciliata in Arienzo*», **26 December 1880**.\n\n**THE CLERK WRITES HIM «GIOVANNI» AND THE 1884 ACT WRITES HIM «GIOVANBATTISTA», AND EVERYTHING ELSE IS THE SAME**: the street, **the house number — seventy-seven**, the trade ***sarto***, and the wife **COSTANZA ZIMBARDO**. *Dropping the second half of a Neapolitan compound is what these registers do constantly; **CARMINANTONIO FALCO** is written «Antonio» in his own daughter's death act of 1879.* **One household.**\n\n**He is NOT the Giovanni Falco of via Orticelli**, who is an *agricoltore* married to **GIUSEPPA MARTONE**. *Two Giovanni Falco, two trades, two wives, two streets — and nothing here merges them.*\n\n*Born about 1879, so **her birth act is in Arienzo's register of that year**, which this archive has not opened.*",
+"ark": "3:1:3QSQ-G97F-MQBS — FamilySearch MC55-VNL img 388 right page, Arienzo Morti 1880 act 120 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "giovanbattista-falco",
+"name": "Giovanbattista Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "costanza-zimbardo",
+"name": "Costanza Zimbardo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "andreana-falco-2-2",
+"name": "Andreana Falco (of Giovanbattista, b. 1884)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"d": "26 Dec 1880",
+"dateFrom": {
+"d": "act"
 }
 },
 {
@@ -43585,6 +43711,69 @@
 }
 },
 {
+"slug": "raffaela-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Raffaela Falco (of Gioacchino, d. 1880)",
+"surname": "FALCO",
+"household": "Gioacchino Falco & Andreana Crisci",
+"hid": "gioacchino-falco-andreana-crisci",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "3 Nov 1880",
+"place": "Arienzo, via Orticelli 8",
+"evidence": "Arienzo, *Morti* **1880**, **act 97**: «*… sono comparsi **GIUSEPPE FALCO**, di anni **cinquanta**, *giornaliere*, e **MARCANTONIO CRISCI**, di anni **sessantatré**, *calzolaio* … nella casa posta in **via ORTICELLI** al numero **OTTO**, è morta **RAFFAELA FALCO**, di **ANNO UNO**, *contadina* … da **GIOACCHINO**, giornaliere … e da **ANDREANA CRISCI**, filatrice, domiciliata in Arienzo*», **3 November 1880**.\n\n**A third child of this house, and the second called for a dead one**: *RAFFAELE FALCO died here at one year eight months on 5 November 1878 and **RAFFAELA** was born about 1879 and died at one, two days short of the second anniversary.*\n\n**AND THIS ACT IS WHY THE TWO ANDREANA CRISCI ARE KEPT APART.** *Generation three's Andreana Crisci was **dead by 21 April 1880** — her son Raffaele's act says so. **This Andreana Crisci is alive and domiciled in Arienzo in November 1880**, seven months later. **Two women, one name, and the acts prove the refusal was right.***",
+"ark": "3:1:3QS7-897F-MQTM — FamilySearch MC55-VNL img 380 left page, Arienzo Morti 1880 act 97 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Gioacchino Falco (of via Orticelli)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "andreana-crisci-of-gioacchino-falco-andreana-crisci",
+"name": "Andreana Crisci (of via Orticelli)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "giovanni-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Giovanni Falco (of Gioacchino, d. 1884)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Raffaele Falco (of Gioacchino, d. 1878)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"d": "3 Nov 1880",
+"dateFrom": {
+"d": "act"
+}
+},
+{
 "slug": "raffaela-falco",
 "name": "Raffaela Falco",
 "surname": "FALCO",
@@ -45199,6 +45388,14 @@
 {
 "slug": "giovanni-falco-of-gioacchino-falco-andreana-crisci",
 "name": "Giovanni Falco (of Gioacchino, d. 1884)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaela-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Raffaela Falco (of Gioacchino, d. 1880)",
 "via": "register",
 "vias": [
 "register"
@@ -66120,6 +66317,14 @@
 {
 "slug": "andreana-falco-2-2",
 "name": "Andreana Falco (of Giovanbattista, b. 1884)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-giovanbattista-falco-costanza-zimb",
+"name": "Maria Falco (of Giovanbattista, d. 1880)",
 "via": "register",
 "vias": [
 "register"

@@ -3499,3 +3499,29 @@ died 1867 — two men, one name, eight years and different parents apart.
 **One near-miss checked and rejected**: act 7, «**PALARIA** Giuseppe», twenty-two, of piazza Lettieri.
 The capital was tested against the known **F** of «Felice d'Addio» four lines above in the same pen.
 *It is a P, and the surname ends -aria.*
+
+## The rest of 1880, and 1881
+
+**1880 is now read entire — 124 acts.** Two more Falco in the second half:
+
+**Act 97**, 3 November — **RAFFAELA FALCO**, one year, **via Orticelli 8**, of **Gioacchino Falco** and
+**Andreana Crisci**. A third child of that house, and the second called for a dead one: *Raffaele
+Falco died there at one year eight months on 5 November 1878.*
+
+> **AND IT IS THE ACT THAT PROVES THE TWO ANDREANA CRISCI ARE TWO WOMEN.** Generation three's was
+> **dead by 21 April 1880**; this one is **alive and domiciled in Arienzo in November**. *The refusal
+> to merge them on a name was right, and here is the proof.*
+
+**Act 120**, 26 December, the last act of the year — **MARIA FALCO**, one year, **Corso Caudino 77**,
+of **GIOVANNI**, ***sarto***, and **COSTANZA ZIMBARDO**. The clerk writes «Giovanni» where the 1884
+act writes «Giovanbattista»; the street, **the number 77**, the trade and the wife are identical.
+*The earliest act of that household by four years* — and he is **not** the Giovanni Falco of via
+Orticelli, an *agricoltore* married to Giuseppa Martone.
+
+**1881 — 116 acts, one Falco.** **Act 26**, 5 May: **MARIA FALCO, six years old**, **Corso Caudino
+70**, of **Vincenzo Falco** and **Angela Pellone**, born about 1875.
+
+> **The declarant is her uncle** — «*CLEMENTE FALCO, di anni VENTITRÉ, vetturale*», twenty-two at his
+> own marriage eleven months earlier. **The brothers are proved by their own acts, not by this one**;
+> a declarant is still never kinship here, and this act simply happens to involve two men already
+> joined.
