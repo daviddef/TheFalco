@@ -25512,6 +25512,13 @@
 "ark": "ANTENATI an_ua14190 (Arienzo processetti 1845) bundle 3, imgs 27-39"
 },
 {
+"event": "death",
+"date": "1 Aug 1898",
+"place": "Arienzo, via Orticelli 2",
+"evidence": "**A LIFE CLOSED AT BOTH ENDS AND IN THE MIDDLE.**\n\nArienzo, *Morti* **1898**, **act 46**: «*L'anno milleottocentonovantotto, addì **due** di **Agosto**, a ore antimeridiane **nove** e minuti **quaranta** … Avanti di me **RAFFAELE DE MUSSO**, Assessore delegato … sono comparsi **CLEMENTE PERRINO**, di anni **quaranta**, *contadino*, e **GIUSEPPE MORGILLO**, di anni **quarantadue**, *contadino* … a ore pomeridiane **undici** di **ieri**, nella casa posta in **VIA ORTICELLI** al numero **DUE**, è morto **CRESCENZO FALCO**, di anni **SETTANTANOVE**, *contadino*, residente in Arienzo, nato in Arienzo, **dal fu GIUSEPPE**, e **dalla fu ANTONIA GUIDA**, **MARITO DI MARIA MORGILLO***».\n\n**Every part of it matches what this archive already held.** *Born **11 October 1819** to **GIUSEPPE FALCO and ANTONIA DI GUIDA** — **seventy-eight years and nine months** on 1 August 1898, which the clerk rounds to **seventy-nine**. Married **ANGELA MARIA MORGILLO** on **2 February 1845**. **Birth, marriage and death, all three from the register.***\n\n**THIS AFTERNOON HE WAS ONLY KNOWN TO BE ALIVE.** *His daughter **LUCIA**'s marriage act of 30 September 1888 named him «figlia di **CRESCENZO**, residente in Arienzo» without *fu* — found a few hours ago, and the latest sighting of him this archive had. **It is a death now, ten years later.***\n\n**AND THE WIFE HAS A FOURTH NAME.** *She is **ANGELA MARIA MORGILLO** in the acts of 1845 and 1848, **MARIA MORGILLO** in her daughter's marriage act of 1888, **MARIA MORGILLO** again here, and **MARIA CONCETTA MORGILLO** in the family tree. **Four forms, three sources, fifty-three years.** None is corrected; the household keeps the name its earliest act gives.*\n\n**HE DIED AT VIA ORTICELLI 2**, which is the door this archive holds for **GIOVANNI FALCO and GIUSEPPA MARTONE** — and the family tree makes that Giovanni his son, born 5 March 1850. *An old man dying at the address of a household the tree calls his son's is **not a document saying so**, and it is recorded as the coincidence of address it is until an act joins them.*",
+"ark": "3:1:3QS7-L97F-MW43 — FamilySearch MC55-VNL img 2612 left page, Arienzo Morti 1898 act 46 — READ FROM THE IMAGE"
+},
+{
 "event": "marriage",
 "date": "c. 1831-46",
 "place": "Arienzo",
@@ -25841,11 +25848,11 @@
 "b": "11 Oct 1819",
 "dateFrom": {
 "b": "act",
-"d": "tree",
+"d": "act",
 "bp": "tree",
 "dp": "tree"
 },
-"d": "Aug 1 1898",
+"d": "1 Aug 1898",
 "bp": "Arienzo",
 "dp": "Arienzo, Caserta, Campania, Italia"
 },

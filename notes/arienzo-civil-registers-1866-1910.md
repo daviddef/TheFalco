@@ -3679,3 +3679,27 @@ birth index under deaths and missed Francesco Falco's act entirely.
 
 *`walked` stays false for all of it: an index is a finding aid, the acts it points at are read from
 the image, and a name absent from one is not a walked negative.*
+
+## Morti 1898 act 46 — CRESCENZO FALCO, and the index paid out within the hour
+
+> «*… nella casa posta in **VIA ORTICELLI** al numero **DUE**, è morto **CRESCENZO FALCO**, di anni
+> **SETTANTANOVE**, contadino, residente in Arienzo, nato in Arienzo, **dal fu GIUSEPPE**, e **dalla
+> fu ANTONIA GUIDA**, **MARITO DI MARIA MORGILLO***»
+
+**1 August 1898.** Every part of it matches what this archive already held: born **11 October 1819**
+to **Giuseppe Falco and Antonia di Guida**, married **Angela Maria Morgillo** on **2 February 1845**.
+Seventy-eight years and nine months, which the clerk rounds to seventy-nine.
+
+**This afternoon he was only known to be alive.** His daughter **Lucia**'s marriage act of 30
+September 1888 — found a few hours earlier — named him «figlia di **CRESCENZO**, residente in
+Arienzo» without *fu*, and that was the latest sighting the archive had. **Birth, marriage and death,
+all three from the register now.**
+
+> **AND THE WIFE HAS A FOURTH NAME.** **ANGELA MARIA MORGILLO** in 1845 and 1848, **MARIA MORGILLO**
+> in her daughter's marriage act of 1888, **MARIA MORGILLO** again here, **MARIA CONCETTA MORGILLO**
+> in the family tree. *Four forms, three sources, fifty-three years.*
+
+**He died at via Orticelli 2** — the door this archive holds for **Giovanni Falco and Giuseppa
+Martone**, whom the family tree makes his son, born 5 March 1850. *An old man dying at the address of
+a household the tree calls his son's is **not a document saying so**, and it is recorded as the
+coincidence of address it is until an act joins them.*
