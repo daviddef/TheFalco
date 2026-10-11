@@ -3444,3 +3444,58 @@ seven months, **Corso Caudino 83**, of Carmine Falco and Giovanna Pellone.
 > **VIA ORTICELLI NOW HOLDS FALCO AT NUMBERS 2, 3, 4, 6, 8, 9, 10 AND 14** — and not one act joins
 > any two of them. Michele Falco died at number 6, the house where Carminantonio's infant daughter
 > had died seven months earlier.
+
+---
+
+# 1880: GENERATION FOUR, BOTH OF THEM, IN ONE WEEK OF APRIL
+
+> «*è morto **RAFFAELE FALCO**, di anni **SESSANTADUE**, giornaliere … **dal fu VINCENZO** … e **dalla
+> fu ANDREANA CRISCI** … **VEDOVO DI ANGELAROSA MORGILLO***»
+
+*Morti* 1880 **act 35**, **21 April 1880**, **via Orticelli 6**.
+
+> «*è morta **ANGELAROSA MORGILLO**, di **SESSANTUNO anni**, contadina, residente in Arienzo, **nata in
+> SAN FELICE A CANCELLO**, **dal fu ORAZIO** … e **dalla fu VINCENZA PESCE** … **MOGLIE DI RAFFAELE
+> FALCO***»
+
+*Morti* 1880 **act 34**, **15 April 1880** — **six days earlier, in the same house, declared by the
+same two men.**
+
+**«Raffaele Falco & Angela Rosa Morgillo» is generation four of this archive's own line** — Matteo →
+Pasquale → Vincenzo → **Raffaele** → Carminantonio → Carmine → Giuseppina — and it held **one** record
+before today: the birth of a daughter Vincenza on 20 November 1847.
+
+**He has been walking through this archive all day as a declarant and nobody looked at him twice** —
+fifty-six at Angelo Falco's death in January 1875, sixty-one at **Michele Falco's** in September 1879,
+dead at sixty-two seven months later. **Three ages, three acts, one man, born about 1818.**
+
+**AND SHE WAS NOT BORN AT ARIENZO.** San Felice a Cancello, about 1819, daughter of **Orazio Morgillo**
+and **Vincenza Pesce** — both names new here. *Her birth and baptism are in San Felice's registers,
+which this archive has never opened, and they are the clearest single target it now has.*
+
+> **VIA ORTICELLI 6 IS THIS LINE'S OWN DOOR.** Carminantonio Falco's infant daughter died there on
+> 6 February 1879; **Michele Falco**, generation three's brother, on 28 September 1879; Angelarosa
+> Morgillo on 15 April 1880 and Raffaele Falco on the twenty-first. **Four deaths through one doorway
+> in fourteen months.**
+
+## And a second wife of this line vanishes from the registers
+
+**Raffaele's act calls his mother «dalla fu ANDREANA CRISCI».** The eleven-year window her daughter
+Sara's act gave that afternoon closes to **15 May 1875 – 21 April 1880** — and **every month of it is
+read**: 1875 after May, 1876, 1877, 1878, 1879, and 1880 down to act 34. **She is in none of them.**
+
+> **TWO WIVES OF THE DIRECT LINE, A GENERATION APART, BOTH CERTAINLY DEAD, BOTH MISSING FROM THE
+> COMUNE'S OWN REGISTERS FOR THE WHOLE OF THEIR WINDOWS** — **ALESSANDRA CRISCI** (1867×1878,
+> thirteen registers) and **ANDREANA CRISCI** (1875×1880, six). *Their husbands are both there. Their
+> wives are not.* **Recorded as a pattern and not explained.**
+
+## Also in 1880
+
+**Act 31**, 7 April — **MATTEO FALCO, seventy-eight**, Corso Caudino 57, «dal fu **GIOACCHINO** … e
+dalla fu **VITTORIA CIMMINO** … marito di **AGNESE DI LUCIO**». A son and a wife for «Gioacchino Falco
+(strada Camellara)», which held one line. ***Not* generation four's father**, who was born 1810 and
+died 1867 — two men, one name, eight years and different parents apart.
+
+**One near-miss checked and rejected**: act 7, «**PALARIA** Giuseppe», twenty-two, of piazza Lettieri.
+The capital was tested against the known **F** of «Felice d'Addio» four lines above in the same pen.
+*It is a P, and the surname ends -aria.*

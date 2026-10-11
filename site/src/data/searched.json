@@ -2437,5 +2437,27 @@
    "Falco",
    "read in full"
   ]
+ },
+ {
+  "when": "1880 — deaths",
+  "searchedOn": "2026-10-11",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo",
+  "waypoint": "MC55-VNL",
+  "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L97F-M7CN?cc=2043630&wc=MC55-VNL",
+  "pages": "355-389",
+  "walked": false,
+  "src": "**ARIENZO, MORTI 1880** — images 355–389 of `MC55-VNL`, no index. *Opened for **ANDREANA CRISCI**. **Acts 1–52 read act by act**; the rest of the book is in progress, and `walked` stays false until it is finished.*",
+  "what": "ANDREANA CRISCI; any Falco",
+  "outcome": "found",
+  "got": "**GENERATION FOUR, BOTH OF THEM, SIX DAYS APART.**\n\n**Act 35**, 21 April — «*è morto **RAFFAELE FALCO**, di anni **SESSANTADUE**, giornaliere … **dal fu VINCENZO** … e **dalla fu ANDREANA CRISCI** … **VEDOVO DI ANGELAROSA MORGILLO***», **via Orticelli 6**. ***This archive's own generation four**, whose household held one record before today.*\n\n**Act 34**, 15 April, same house, same two declarants — «*è morta **ANGELAROSA MORGILLO**, di **SESSANTUNO anni** … **nata in SAN FELICE A CANCELLO**, **dal fu ORAZIO** … e **dalla fu VINCENZA PESCE** … **MOGLIE DI RAFFAELE FALCO***». **She was not born at Arienzo**, and her parents are new.\n\n**Act 31**, 7 April — **MATTEO FALCO**, **78**, **Corso Caudino 57**, «dal fu **GIOACCHINO** … e dalla fu **VITTORIA CIMMINO** … marito di **AGNESE DI LUCIO**». *A son and a wife for «Gioacchino Falco (strada Camellara)», which held one line. **Not generation four's father**, who was born 1810 and died 1867.*\n\n**AND ANDREANA CRISCI IS NOT IN ACTS 1–52.** *Her son's act of 21 April calls her **fu**, so she died before it — and 1875 after May, 1876, 1877, 1878, 1879 and 1880 to act 34 are all read without her.* **She did not die at Arienzo.**\n\n*One near-miss checked and rejected: **act 7, «PALARIA GIUSEPPE»**, twenty-two, of piazza Lettieri. The capital was tested against the known **F** of «Felice d'Addio» four lines above in the same pen. **It is a P, and the surname ends -aria. Not a Falco.***",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Deaths",
+   "Falco",
+   "Pending"
+  ]
  }
 ]
