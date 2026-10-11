@@ -8850,6 +8850,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "«*e di **ANDREANA CRISCI**, di professione **FILATRICE**, domiciliata **ivi***» — **alive on 13 August 1851, and with a trade of her own**, which this archive has not had for her before. **A filatrice spins**; it is the commonest woman's trade in these registers and it is the first time generation three's wife is given one.",
 "ark": "ANTENATI an_ua14255 img19r act14 — READ FROM THE IMAGE"
+},
+{
+"event": "named as living",
+"date": "15 May 1875",
+"place": "Arienzo, via Orticelli 10",
+"evidence": "«*marito di **CRISCI ANDREANA***» — her husband's death act of 15 May 1875, which calls him her husband and not her widower. **She was alive at about eighty**, having married him on 15 October 1814.\n\n*Her own death act is in Arienzo's registers after May 1875 and has not been found. The deaths of 1875 are being read now; 1876 and 1877 follow.*",
+"ark": "3:1:3QS7-9976-Q73Y — FamilySearch MC55-FNT img 1013 right page, Arienzo Morti 1875 act 39 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -17550,7 +17557,7 @@
 ]
 },
 {
-"slug": "clemente-falco-2",
+"slug": "clemente-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Clemente Falco",
 "via": "tree",
 "vias": [
@@ -18756,10 +18763,11 @@
 ]
 },
 {
-"slug": "clemente-falco-2",
+"slug": "clemente-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Clemente Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -22263,7 +22271,7 @@
 ]
 },
 {
-"slug": "clemente-falco-2",
+"slug": "clemente-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Clemente Falco",
 "via": "tree",
 "vias": [
@@ -24160,6 +24168,97 @@
 "siblings": []
 },
 {
+"slug": "clemente-falco-of-giuseppe-falco-rosa-zimbardo",
+"name": "Clemente Falco (of Giuseppe, 1858-1875)",
+"surname": "FALCO",
+"household": "Giuseppe Falco & Rosa Zimbardo",
+"hid": "giuseppe-falco-rosa-zimbardo",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "9 Oct 1875",
+"place": "Arienzo, via Orticelli 8",
+"evidence": "**FOUND WHERE THE TREE SAID HE WOULD BE, NINE MONTHS AFTER HIS BROTHER, IN THE SAME BOOK.** Arienzo, *Morti* **1875**, **act 81**: «*L'anno milleottocentosettantacinque, addì **dieci** di **ottobre**, a ore antimeridiane **otto** e minuti **quindici** … sono comparsi **ANTONIO ZIMBARDO**, di anni **trentasei**, *contadino*, domiciliato in Arienzo, e **GIUSEPPE CRISCI**, di anni **trentatré**, *calzolaio* … a ore pomeridiane **dieci** e minuti **trenta** di **ieri**, nella casa posta in **VIA ORTICELLI** al numero **OTTO**, è morto **CLEMENTE FALCO**, di anni **DICIASSETTE**, *contadino*, residente in Arienzo, nato in Arienzo, da **GIUSEPPE**, *contadino* … e da **ROSA ZIMBARDO**, *filatrice*, domiciliata in detto luogo*».\n\n**Seventeen on 9 October 1875 is born about 1858, and the family tree says 1858 and 9 October 1875.** *Verified to the day, as his brother Angelo was nine months earlier. **Two sons of this house dead in one year, both in the same room.***\n\n**AND IT SETTLES A COLLISION THIS ARCHIVE REFUSED TO RESOLVE THIS MORNING.** When **CLEMENTE FALCO, *vetturale* of the Corso Caudino**, was entered from the birth act of January 1885 — twenty-seven, so born about 1858 — this archive noted that the tree held a Clemente Falco born 1858 and dead in 1875, and said: *«either the tree's death is wrong or these are two men; nothing here is merged»*. **They are two men.** This act is the one that proves it, and the refusal to merge on a name and a birth year was right.\n\n*The first declarant is an **ANTONIO ZIMBARDO**, thirty-six — the same name as the husband of **ANTONIA FALCO**, who died in this same house in June 1885. **A declarant is never kinship here, and one name is not one man.***",
+"ark": "3:1:3QSQ-G976-Q7C1 — FamilySearch MC55-FNT img 1024 left page, Arienzo Morti 1875 act 81 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register",
+"tree"
+],
+"living": false,
+"parents": [
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+},
+{
+"slug": "rosa-zimbardo-2",
+"name": "Rosa Zimbardo (Falco)",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "maria-carmina-falco",
+"name": "Maria Carmina Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "carmela-falco-4",
+"name": "Carmela Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "angelo-falco-of-giuseppe-falco-rosa-zimbardo",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+},
+{
+"slug": "angela-falco",
+"name": "Angela Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"mergedOn": "both parents and an exact birth or death date — the name was never used, and this archive holds more than one person of it",
+"treeId": 4512528,
+"b": "1858",
+"dateFrom": {
+"b": "tree",
+"d": "act",
+"bp": "tree",
+"dp": "tree"
+},
+"d": "9 Oct 1875",
+"bp": "Arienzo, Caserta, Campania, Italia",
+"dp": "Arienzo, Caserta, Campania, Italia"
+},
+{
 "slug": "clemente-falco",
 "name": "Clemente Falco",
 "surname": "FALCO",
@@ -24241,83 +24340,6 @@
 "dp": "tree"
 },
 "d": "Aug 14 1853",
-"bp": "Arienzo, Caserta, Campania, Italia",
-"dp": "Arienzo, Caserta, Campania, Italia"
-},
-{
-"slug": "clemente-falco-2",
-"name": "Clemente Falco",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
-"name": "Giuseppe Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rosa-zimbardo-2",
-"name": "Rosa Zimbardo (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "maria-carmina-falco",
-"name": "Maria Carmina Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "carmela-falco-4",
-"name": "Carmela Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "angelo-falco-of-giuseppe-falco-rosa-zimbardo",
-"name": "Angelo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "angela-falco",
-"name": "Angela Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4512528,
-"b": "1858",
-"dateFrom": {
-"b": "tree",
-"d": "tree",
-"bp": "tree",
-"dp": "tree"
-},
-"d": "Oct 9 1875",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
@@ -31894,10 +31916,11 @@
 ]
 },
 {
-"slug": "clemente-falco-2",
+"slug": "clemente-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Clemente Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -34878,6 +34901,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "raffaele-falco-of-pasquale-falco-maria-amalia-guida-2",
+"name": "Raffaele Falco (the second, d. 1875)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "d": "18 Jul 1873",
@@ -34993,7 +35024,7 @@
 ]
 },
 {
-"slug": "clemente-falco-2",
+"slug": "clemente-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Clemente Falco",
 "via": "tree",
 "vias": [
@@ -40721,6 +40752,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "raffaele-falco-of-pasquale-falco-maria-amalia-guida-2",
+"name": "Raffaele Falco (the second, d. 1875)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": []
@@ -43111,9 +43150,72 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "raffaele-falco-of-pasquale-falco-maria-amalia-guida-2",
+"name": "Raffaele Falco (the second, d. 1875)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "d": "8 Aug 1871",
+"dateFrom": {
+"d": "act"
+}
+},
+{
+"slug": "raffaele-falco-of-pasquale-falco-maria-amalia-guida-2",
+"name": "Raffaele Falco (the second, d. 1875)",
+"surname": "FALCO",
+"household": "Pasquale Falco & Maria Amalia Guida",
+"hid": "pasquale-falco-maria-amalia-guida",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "22 Sep 1875",
+"place": "Arienzo, via Camellara 5",
+"evidence": "**A THIRD DEAD CHILD, AND THE SECOND OF THE NAME.** Arienzo, *Morti* **1875**, **act 78**: «*L'anno milleottocentosettantacinque, addì **ventidue** di **settembre**, a ore pomeridiane **due** e minuti **quarantacinque** … sono comparsi **CLEMENTE LETTIERI**, di anni **quarantasei**, *contadino*, e **FRANCESCO MAJONE**, di anni **ventuno**, *contadino* … nella casa posta in **VIA CAMELLARA** al numero **CINQUE**, è morto **RAFFAELE FALCO**, di **ANNO UNO e MESI TRE**, *contadino* … da **PASQUALE**, *contadino* … e da **MARIAMALIA GUIDA**, *contadina***».\n\n**HE IS NOT THE RAFFAELE FALCO WHO DIED ON 8 AUGUST 1871**, also at one year old, also of this house. **He was born about June 1874, four years after the first.** *Naming a new child for one lately dead is the ordinary Neapolitan practice and this archive has met it repeatedly; it is also the commonest way for two children to be merged into one, which is why the qualifier is there.*\n\n**AND THE HOUSE NUMBER IS NOW FIXED**: **via Camellara 5**, the same address as the father's own death on 26 September 1883. *Three of this household's four known children died before their second birthday, all on that street.*",
+"ark": "3:1:3QS7-L976-Q7J8 — FamilySearch MC55-FNT img 1023 left page, Arienzo Morti 1875 act 78 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "raffaele-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Raffaele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carmina-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Maria Carmina Falco (of Pasquale, d. 1873)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"d": "22 Sep 1875",
 "dateFrom": {
 "d": "act"
 }
@@ -45576,6 +45678,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "**GENERATION THREE, ALIVE AND NAMED WITH A TRADE, THIRTEEN YEARS BEFORE THE ACT THAT HAD BEEN THE ARCHIVE'S LATEST SIGHTING OF HIM.** «*figlio di **VINCENZO FALCO**, di professione **COLONO**, domiciliato **ivi***» — no «fu», no «defunto», at his son Luigi's marriage on **13 August 1851**. Born 1792, he is about fifty-nine.\n\n**COLONO, not contadino** — the same word the 1864 act uses, and the word this archive's other Falco of strada Camellara are given. *A colono works land he does not own under a share agreement; a contadino is the general word. The registers of Arienzo use both of the same men.*",
 "ark": "ANTENATI an_ua14255 img19r act14 — READ FROM THE IMAGE"
+},
+{
+"event": "death",
+"date": "15 May 1875",
+"place": "Arienzo, via Orticelli 10",
+"evidence": "**GENERATION THREE'S DEATH ACT, AND THE TREE HAD THE DAY RIGHT.**\n\nArienzo, *Morti* **1875**, **act 39**: «*L'anno milleottocentosettantacinque, addì **quindici** di **maggio**, a ore antimeridiane **nove** e minuti **quarantacinque**, nella Casa comunale. Avanti di me **FINELLI Cavalier NICOLA, Sindaco** … sono comparsi **LUIGI GIGLIO**, di anni **trentadue**, *sarto*, domiciliato in Arienzo, e **GIUSEPPE FALCO**, di anni **VENTOTTO**, *agricoltore*, domiciliato in Arienzo, i quali mi hanno dichiarato che a ore antimeridiane **sette** e minuti **trenta** di **oggi**, **nella casa posta in VIA ORTICELLI al numero DIECI**, è morto **FALCO VINCENZO**, di anni **OTTANTADUE**, *contadino*, residente in Arienzo, nato in Arienzo, **dal fu PASQUALE**, *contadino*, domiciliato in Arienzo, e **dalla fu CHIARA RIVETTI**, *contadina*, domiciliata in Arienzo, **MARITO DI CRISCI ANDREANA***». Witnesses **Antonio d'Onofrio**, 53, and **Andrea Saccone**, 56, both *scribenti*.\n\n**EIGHTY-TWO ON 15 MAY 1875 IS BORN ABOUT 1793**, and this archive carries him born **1793** and dead **15 May 1875** — *from the family tree, unverified, until now.* **The act gives the day, the street, the house number, both his parents and his wife's name**, and it names his parents exactly as this archive's own reading of his marriage act of 15 October 1814 does: **PASQUALE FALCO and CHIARA RIVETTI**, both dead.\n\n**AND ANDREANA CRISCI WAS STILL ALIVE** — «*marito di*», not «*vedovo di*». *She married him in October 1814 and outlived him; her own death is in a register after May 1875 and is not yet found.*\n\n**HE DIED IN VIA ORTICELLI 10, NOT IN THE STRADA CAMELLARA.** Every one of the twenty-six records this household already held places him in the **strada Camellara**, the last of them in December 1864. *Somewhere in the eleven years between, generation three moved* — and **via Orticelli is now the street this archive holds most Falco in**: number 4 (Giuseppe and Nicoletta Nuzzo), number 8 (Angelo Falco dead there four months earlier, and Gioacchino Falco and Andreana Crisci living there in 1884), number 9 (Giovanni Falco and Giuseppa Martone), and number 10, his own.\n\n**The second declarant is «GIUSEPPE FALCO, di anni VENTOTTO, agricoltore»** — twenty-eight in May 1875, so born about 1847. *A declarant is never kinship here. It is the third age this archive has for a Giuseppe Falco of about that birth year in these registers — 27 in October 1872, 28 here, 42 in February 1885 — and nothing yet proves they are one man.*",
+"ark": "3:1:3QS7-9976-Q73Y — FamilySearch MC55-FNT img 1013 right page, Arienzo Morti 1875 act 39 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -45807,11 +45916,11 @@
 "b": "1793",
 "dateFrom": {
 "b": "tree",
-"d": "tree",
+"d": "act",
 "bp": "tree",
 "dp": "tree"
 },
-"d": "May 15 1875",
+"d": "15 May 1875",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia",
 "gen": 3,
@@ -64328,10 +64437,11 @@
 ]
 },
 {
-"slug": "clemente-falco-2",
+"slug": "clemente-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Clemente Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },

@@ -3151,3 +3151,39 @@ dead 3 May 1882** — three more acts, all in registers this archive can now rea
 > Falco and Andreana Crisci were living there in January 1884 when their son Giovanni died, and
 > **ANTONIA FALCO died in that house** in June 1885. *Nothing read joins any of them. It is a fact
 > about an address, recorded as one.*
+
+## 1875 — four Falco, and one of them is generation three
+
+**`MC55-FNT` images 1003–1031, 102 acts, the first of these books on the printed form.**
+
+> «*… nella casa posta in **VIA ORTICELLI** al numero **DIECI**, è morto **FALCO VINCENZO**, di anni
+> **OTTANTADUE**, contadino, residente in Arienzo, nato in Arienzo, **dal fu PASQUALE**, contadino …
+> e **dalla fu CHIARA RIVETTI**, contadina … **MARITO DI CRISCI ANDREANA***»
+
+*Morti* 1875 **act 39**, a quarter to eight on the morning of **15 May 1875**. **Generation three's
+death act.** Eighty-two is born about 1793; the act names his parents exactly as his marriage act of
+15 October 1814 does; **and the family tree's 15 May 1875 is confirmed from the register.**
+
+**He did not die in the strada Camellara.** All twenty-six of this household's other records put him
+there, the last in December 1864 — and he died eleven years later in **via Orticelli 10**. *Somewhere
+between, generation three moved.* **ANDREANA CRISCI OUTLIVED HIM.**
+
+| act | who | where |
+|---:|---|---|
+| **8** | **ANGELO FALCO**, 19y 3m, of Giuseppe Falco and Rosa Zimbardo | via Orticelli 8, 29 Jan |
+| **39** | **VINCENZO FALCO**, 82 — generation three | **via Orticelli 10**, 15 May |
+| **78** | **RAFFAELE FALCO**, 1y 3m, of Pasquale Falco and Maria Amalia Guida | via Camellara 5, 22 Sep |
+| **81** | **CLEMENTE FALCO**, 17, Angelo's brother | **via Orticelli 8**, 9 Oct |
+
+**Two brothers dead in one year in one room**, and both verify the tree to the day. **And act 81
+settles a collision this archive refused to resolve that morning**: the Clemente Falco of the Corso
+Caudino who married in 1880 and fathered a son in 1885 is a *different man* from the tree's Clemente
+born 1858. *Had either been folded into the other on a name and a birth year, this act would have
+produced a man who died at seventeen and married at twenty-two.*
+
+**Act 78's Raffaele is the SECOND of that name in his house** — the first died at one on 8 August
+1871. *Naming a new child for one lately dead is ordinary practice here, and it is the commonest way
+for two children to become one.*
+
+> **ALESSANDRA CRISCI IS IN NONE OF 1872, 1873, 1874 OR 1875** — four hundred acts. **Two unopened
+> years left: 1876 and 1877.**
