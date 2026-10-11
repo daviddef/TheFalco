@@ -3383,3 +3383,27 @@ in the 1887 register, which is in the same re-fetched block and not yet opened.
 **Vincenzo Falco's age is now documented five times** — thirty in December 1880, thirty-three in
 January 1884, thirty-six here, thirty-eight in February 1889, thirty-nine at his death that
 September. *Not one of the five is out by more than a year.*
+
+## And the 1886 deaths give generation three a daughter's grave — and a window on her mother
+
+> «*è morta **SARA FALCO**, di anni **CINQUANTOTTO**, filatrice … **dal fu VINCENZO** … e **dalla fu
+> ANDREANA CRISCI**, contadina, domiciliata in vita **col marito**, **MOGLIE DI ANTONIO MAURO***»
+
+*Morti* 1886 **act 73**, 22 October 1886, **Corso Caudino 58**. Born 19 December 1828 and married
+Antonio Mauro on 14 February 1855 — **birth, marriage and death all three now read from the
+register**.
+
+### ANDREANA CRISCI HAS A DEATH WINDOW AT LAST
+
+**Alive 15 May 1875** — her husband's death act calls him «*marito di* CRISCI ANDREANA», not *vedovo*.
+**Dead by 22 October 1886** — «*dalla **fu** ANDREANA CRISCI*».
+
+Until today this archive had **no death for her at all**: she married Vincenzo Falco on 15 October
+1814 and the record simply stopped. **Eleven years and five months.** And **seven of those twelve
+years are already read act by act** — 1875, 1876, 1877, 1878, 1884, 1885, 1886 — **and she is in none
+of them**.
+
+> **What is left is 1879, 1880, 1881, 1882 and 1883, which have never been opened.**
+
+**The 1886 books are now walked.** Four Falco births (6, 43, 44, 94) where the single-row sweep found
+one; two Falco deaths (51, 73) where it found one.
