@@ -3205,3 +3205,56 @@ a proof.*
 
 **And the family tree already had her**, as a daughter of Giuseppe Falco and Rosa Zimbardo; the act
 documents her. *Giuseppe is fifty in January 1876, so born about 1826; the tree says 1824.*
+
+---
+
+# 1876 AND 1877 — twelve consecutive years of Arienzo deaths now read, and she is in none of them
+
+**1876**: `MC55-FNT` images 1121–1143, **91 acts**. **1877**: `MC55-VNL` images 11–46, **116 acts**.
+Neither indexed.
+
+> **ALESSANDRA CRISCI IS IN NEITHER.** Arienzo's deaths of **1866, 1867, 1868, 1869, 1870, 1871,
+> 1872, 1873, 1874, 1875, 1876 and 1877** are now read act by act and she is in none of them. She was
+> alive in December 1867 and dead by 1 September 1878.
+>
+> **ONE BOOK IS LEFT: Arienzo's deaths of 1878 down to the end of August**, `MC55-VNL` from image 118.
+
+## Six Falco acts out of the two years
+
+| act | who |
+|---|---|
+| 1876 **34** | **FRANCESCA FALCO**, 64, «dal fu GIUSEPPE e dalla fu ANTONIA GUIDA», *moglie di RAFFAELE CRISCI* — **Villaggio Crisci 3** |
+| 1876 **42** | **TERESA FALCO**, 2, of Antonio Falco and Carmela Guida — via Camellara 2 |
+| 1876 **46** | **DOMENICA FALCO**, 2, same parents — **four days later, same room** |
+| 1877 **14** | **PASQUALE FALCO**, 22 days, same parents — via Camellara 16 |
+| 1877 **22** | **CAROLINA FALCO**, 9 months, of Carmine Falco, *vetturale*, and Giovanna Pellone — **via Sant'Andrea 4** |
+| 1877 **49** | **ALESSANDRA FALCO**, 3 months, of **Giuseppe Falco and NUNZIA NUZZO** — via Orticelli 14 |
+| 1877 **78** | **VINCENZO FALCO**, 7 months, of Antonio Falco and Carmela Guida — via Camellara 16 |
+
+**A SECOND DAUGHTER OF GENERATION THREE.** Francesca Falco, born about 1812, married Raffaele Crisci
+on 5 January 1839 — a household this archive held on that one line and no parents at all. **Her
+sister Giovanna died in the same hamlet four years earlier, also married to a Crisci.**
+
+**FOUR CHILDREN OF ANTONIO FALCO AND CARMELA GUIDA DIE IN NINETEEN MONTHS** — with Fabrizio in 1871,
+five. *Pasquale at twenty-two days and Vincenzo at seven months were both born about February 1877:
+twins is the obvious reading and no act says it.*
+
+**AND THE PELLONE WIVES ARE OF ONE STREET.** In 1877 Carmine Falco and Giovanna Pellone lived at
+**via Sant'Andrea 4** — the street **Angela Pellone** came from when she married Vincenzo Falco in
+1874. *That is as close as this archive can come to saying they are sisters without an act that says
+so.* Their first **Carolina** died at nine months in 1877; the second was born 19 July 1886.
+
+## ALESSANDRA FALCO, three months — a name, and it is a custom, not a proof
+
+> «*nella casa posta in **VIA ORTICELLI** al numero **QUATTORDICI**, è morta **ALESSANDRA FALCO**, di
+> **MESI TRE** … da **GIUSEPPE**, agricoltore … e da **NUNZIA NUZZO**, contadina*»
+
+**The Neapolitan rule names a daughter for her father's mother and a first son for his father's
+father.** A **Giuseppe Falco of via Orticelli** called a daughter **ALESSANDRA** in 1877 and a son
+**MATTEO** in 1885 — *the two names of generation four.*
+
+> **It is held as a SEPARATE household from «Giuseppe Falco & Nicoletta Nuzzo».** Same forename, same
+> surname, same street — number **14** here and number **4** in 1885 and 1887 — and **NUNZIA is
+> Annunziata; NICOLETTA is not.** *This archive does not merge people on a name and will not merge
+> two houses on three quarters of one.* **What would settle it is a third act naming the same woman,
+> or their marriage act.**
