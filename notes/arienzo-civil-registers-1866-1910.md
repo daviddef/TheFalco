@@ -2997,3 +2997,65 @@ SINDACO***». **The Neapolitan proprietor who married at Santa Maria a Vico in J
 the comune of Arienzo two years later**, at sixty-eight. *It settles his Arienzo domicile a third
 time, from a third kind of record — and it is still no kinship: the Sindaco signs every act in the
 book.*
+
+---
+
+# EVERY MARRIAGE BOOK OF 1878–1886 READ AGAIN ON THE GRID — seven Falco acts, not two
+
+| year | acts | Falco |
+|---|---:|---|
+| 1878 | 26 + 1 | **act 13 CLEMENTINA FALCO** · act 19 Maria Carmina Falco |
+| 1879 | 24 | — |
+| 1880 | 31 + 3 | **act 9 CLEMENTE FALCO** (groom) · **act 31 PASQUA FALCO** |
+| 1881 | 30 + 1 | **act 12 DOMENICA FALCO** |
+| 1882 | 29 + 1 | **act 14 CHIARA FALCO** |
+| 1883 | 48 + 1 | — (act 25 is *De* Falco) |
+| 1884 | 30 + 1 | — (Parte II act 1 is the de Falco transcription) |
+| 1885 | 36 | — |
+| 1886 | 32 + 1 | act 14 Carmela Falco |
+
+> **One of the seven was already in this archive's own household file.** Pasqua Falco's marriage of
+> 30 December 1880 had been read and recorded by an earlier session. **The single-row sweep walked
+> over a record the archive had already published and did not recognise it** — which is the sharpest
+> measurement of what that contact sheet was worth, because it did not have to find anything new to
+> be caught.
+
+## ACT 9 OF 1880 — the Corso Caudino attachment, proved
+
+> «*1.° **FALCO CLEMENTE**, di anni **VENTIDUE**, *vetturale*, nato in ARIENZO, residente in Arienzo,
+> **figlio di ANGELO**, residente in Arienzo, **e di MARIA CIMMINO**, residente in Arienzo*»
+
+**The test this archive named that morning — «his own marriage act, which will name his father» —
+was answered the same afternoon out of a book already on disk.** Clemente Falco is a son of **Angelo
+Falco and Maria Cimmino** and a brother of **Vincenzo**. His bride is **Maria Clementina Gaetana
+Crispo**, 24, daughter of the late Carmine Crispo and the living Maria Magnano — the «Gaetana
+Crispo» of his son's birth act five years later. **Both his parents consented in person**, which is
+six years later than the archive's previous latest sighting of them.
+
+## ACT 14 OF 1882 — CHIARA FALCO, and a death dated from one side
+
+> «*2.° **FALCO CHIARA**, di anni **TRENTANOVE**, contadina … **figlia del fu FRANCESCO** … e **della
+> fu RAFFAELA FALCO***»
+
+**Thirty-nine in September 1882 is born about 1843 — and the family tree says 19 December 1843, with
+the same two parents.** Two sources that never met, agreeing to the year. Of the eight children now
+held for «Francesco Falco & Raffaela Falco», **five died as infants or children**, and Chiara is the
+first seen marrying. She married **Angelo Lettieri**, 37, a ***pastaio***.
+
+**And «del fu FRANCESCO» dates FRANCESCANTONIO FALCO's death from one side**: he was dead by
+3 September 1882, and this archive had no death for him at all.
+
+## ACT 12 OF 1881 — and a correction that was nearly made the wrong way
+
+Domenica Falco's second marriage was known only from a margin annotation written at Caserta in 1884,
+which gave the groom as **PASQUALE SACCAVINO**. The act's own first reading took his initial for an
+**L** and would have retired that margin in favour of «Laccavino».
+
+> **The control was four lines below in the same pen**: the witness «*Saccone Andrea*», whose capital
+> S is the same long looped stroke. **Saccavino.** *The margin was right.*
+
+The act adds what the margin could not: he is **twenty-seven**, a *contadino*, son of the late
+**FABRIZIO SACCAVINO** and the late **GRAZIA DIGLIO** — a generation this archive did not have.
+
+**And it is the second act in three years to say where Alessandra Crisci lived**: «*residente in vita
+col marito*», the same words as her daughter Clementina's act of 1878, from a different clerk.
