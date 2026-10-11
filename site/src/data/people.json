@@ -8922,7 +8922,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-7",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco",
 "via": "tree",
 "vias": [
@@ -17506,7 +17506,7 @@
 "living": false,
 "parents": [
 {
-"slug": "giuseppe-falco-7",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco",
 "via": "tree",
 "vias": [
@@ -17514,7 +17514,7 @@
 ]
 },
 {
-"slug": "rosa-zimbardo",
+"slug": "rosa-zimbardo-2",
 "name": "Rosa Zimbardo (Falco)",
 "via": "tree",
 "vias": [
@@ -17542,7 +17542,7 @@
 ]
 },
 {
-"slug": "angelo-falco-4",
+"slug": "angelo-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -18696,6 +18696,92 @@
 }
 },
 {
+"slug": "angelo-falco-of-giuseppe-falco-rosa-zimbardo",
+"name": "Angelo Falco (of Giuseppe, 1855-1875)",
+"surname": "FALCO",
+"household": "Giuseppe Falco & Rosa Zimbardo",
+"hid": "giuseppe-falco-rosa-zimbardo",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "29 Jan 1875",
+"place": "Arienzo, via Orticelli 8",
+"evidence": "**THE FIRST DOCUMENT THIS HOUSEHOLD HAS EVER HAD, AND IT IS A BURIAL AT NINETEEN.**\n\nArienzo, *Morti* **1875**, **act 8**: «*L'anno milleottocentosettantacinque, addì **trenta** di **gennaio**, a ore antimeridiane **nove** e minuti **cinquanta**, nella Casa comunale. Avanti di me **FINELLI Cavalier NICOLA, Sindaco** … sono comparsi **RAFFAELE FALCO DI VINCENZO**, di anni **CINQUANTASEI**, *contadino*, domiciliato in Arienzo, e **MICHELE FALCO**, di anni **SESSANTASEI**, *contadino*, domiciliato in Arienzo, i quali mi hanno dichiarato che a ore pomeridiane **sei** e minuti **trenta** di **ieri**, nella casa posta in **VIA ORTICELLI** al numero **OTTO**, è morto **ANGELO FALCO**, di anni **DICIANNOVE e mesi TRE**, *contadino*, residente in Arienzo, nato in Arienzo, da **GIUSEPPE**, *contadino*, domiciliato in Arienzo, e da **ROSA ZIMBARDO**, *contadina*, domiciliata in questo comune, **CELIBE***». Witnesses **Antonio d'Onofrio**, 53, and **Andrea Saccone**, 56, both *scribenti*.\n\n**Nineteen years and three months on 29 January 1875 is born about October 1855** — and the family tree carries an **Angelo Falco, born 1856, died 29 January 1875, son of Giuseppe Falco and Rosa Zimbardo**. *The day matches exactly and the year to within three months. **A tree record verified, and the household it belongs to created on the strength of it.***\n\n**THE TREE GIVES HIM THREE SIBLINGS AND THIS ARCHIVE HAS NO DOCUMENT FOR ANY OF THEM**: Maria Carmina, Carmela, and **Clemente Falco, born 1858, died 9 October 1875** — *nine months after Angelo, which puts his death act in the same register, later in the same book.* **That is the next leaf to read.**\n\n**AND THE HOUSE IS VIA ORTICELLI 8**, which this archive now holds across a decade: **Gioacchino Falco and Andreana Crisci** were living there in January 1884 when their son Giovanni died, and **ANTONIA FALCO died in that house** in June 1885. *Nothing read joins any of them. It is a fact about an address, recorded as one.*",
+"ark": "3:1:3QS7-8976-QQB7 — FamilySearch MC55-FNT img 1005 right page, Arienzo Morti 1875 act 8 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register",
+"tree"
+],
+"living": false,
+"parents": [
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+},
+{
+"slug": "rosa-zimbardo-2",
+"name": "Rosa Zimbardo (Falco)",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "maria-carmina-falco",
+"name": "Maria Carmina Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "carmela-falco-4",
+"name": "Carmela Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "clemente-falco-2",
+"name": "Clemente Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "angela-falco",
+"name": "Angela Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"mergedOn": "both parents and an exact birth or death date — the name was never used, and this archive holds more than one person of it",
+"treeId": 4512527,
+"b": "1856",
+"dateFrom": {
+"b": "tree",
+"d": "act"
+},
+"d": "29 Jan 1875"
+},
+{
 "slug": "angelo-falco",
 "name": "Angelo Falco",
 "surname": "FALCO",
@@ -19024,79 +19110,6 @@
 "dateFrom": {
 "b": "tree"
 }
-},
-{
-"slug": "angelo-falco-4",
-"name": "Angelo Falco",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "giuseppe-falco-7",
-"name": "Giuseppe Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rosa-zimbardo",
-"name": "Rosa Zimbardo (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "maria-carmina-falco",
-"name": "Maria Carmina Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "carmela-falco-4",
-"name": "Carmela Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "clemente-falco-2",
-"name": "Clemente Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "angela-falco",
-"name": "Angela Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4512527,
-"b": "1856",
-"dateFrom": {
-"b": "tree",
-"d": "tree"
-},
-"d": "Jan 29 1875"
 },
 {
 "slug": "aniello-falco",
@@ -20615,7 +20628,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-7",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco",
 "via": "tree",
 "vias": [
@@ -22214,7 +22227,7 @@
 "living": false,
 "parents": [
 {
-"slug": "giuseppe-falco-7",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco",
 "via": "tree",
 "vias": [
@@ -22222,7 +22235,7 @@
 ]
 },
 {
-"slug": "rosa-zimbardo",
+"slug": "rosa-zimbardo-2",
 "name": "Rosa Zimbardo (Falco)",
 "via": "tree",
 "vias": [
@@ -22242,7 +22255,7 @@
 ]
 },
 {
-"slug": "angelo-falco-4",
+"slug": "angelo-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -24244,7 +24257,7 @@
 "living": false,
 "parents": [
 {
-"slug": "giuseppe-falco-7",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco",
 "via": "tree",
 "vias": [
@@ -24252,7 +24265,7 @@
 ]
 },
 {
-"slug": "rosa-zimbardo",
+"slug": "rosa-zimbardo-2",
 "name": "Rosa Zimbardo (Falco)",
 "via": "tree",
 "vias": [
@@ -24280,7 +24293,7 @@
 ]
 },
 {
-"slug": "angelo-falco-4",
+"slug": "angelo-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -31805,6 +31818,138 @@
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
+"surname": "FALCO",
+"household": "Giuseppe Falco & Rosa Zimbardo",
+"hid": "giuseppe-falco-rosa-zimbardo",
+"role": "father",
+"events": [
+{
+"event": "named as father in his son's death act",
+"date": "29 Jan 1875",
+"place": "Arienzo, via Orticelli 8",
+"evidence": "«*da **GIUSEPPE**, contadino, domiciliato in Arienzo*» — same act, and **alive in January 1875**, unqualified.\n\n*The family tree puts him born **1824**, dead **3 May 1882**, a son of **Vincenzo Falco and Andreana Crisci** — generation four of the collateral branch. **None of that is documented here**, and this act does not document it either: it names him only as the dead boy's father. **His own death act, if the tree's date is right, is in Arienzo's register of 1882**, which is in `MC55-VNL` and unopened.*",
+"ark": "3:1:3QS7-8976-QQB7 — FamilySearch MC55-FNT img 1005 right page, Arienzo Morti 1875 act 8 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register",
+"tree"
+],
+"living": false,
+"parents": [
+{
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Vincenzo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+"name": "Andrea / Andreana Crisci (Falco)",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"spouses": [
+{
+"slug": "rosa-zimbardo-2",
+"name": "Rosa Zimbardo (Falco)",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+}
+],
+"children": [
+{
+"slug": "maria-carmina-falco",
+"name": "Maria Carmina Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "carmela-falco-4",
+"name": "Carmela Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "angelo-falco-of-giuseppe-falco-rosa-zimbardo",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+},
+{
+"slug": "clemente-falco-2",
+"name": "Clemente Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "angela-falco",
+"name": "Angela Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"siblings": [
+{
+"slug": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
+"name": "Raffaele Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Luigi Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Antonio Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"mergedOn": "the couple — his own name AND his wife's agree on both sides, and the pairing is unique in each direction",
+"treeId": 4512523,
+"b": "1824",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
+"d": "May 3 1882",
+"bp": "Arienzo, Caserta, Campania, Italia",
+"dp": "Arienzo, Caserta, Campania, Italia"
+},
+{
 "slug": "giuseppe-falco",
 "name": "Giuseppe Falco",
 "surname": "FALCO",
@@ -32163,125 +32308,6 @@
 "dp": "tree"
 },
 "d": "Feb 10 1872",
-"bp": "Arienzo, Caserta, Campania, Italia",
-"dp": "Arienzo, Caserta, Campania, Italia"
-},
-{
-"slug": "giuseppe-falco-7",
-"name": "Giuseppe Falco",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Vincenzo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
-"name": "Andrea / Andreana Crisci (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [
-{
-"slug": "rosa-zimbardo",
-"name": "Rosa Zimbardo (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"children": [
-{
-"slug": "maria-carmina-falco",
-"name": "Maria Carmina Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "carmela-falco-4",
-"name": "Carmela Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "angelo-falco-4",
-"name": "Angelo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "clemente-falco-2",
-"name": "Clemente Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "angela-falco",
-"name": "Angela Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [
-{
-"slug": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
-"name": "Raffaele Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Luigi Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Antonio Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4512523,
-"b": "1824",
-"dateFrom": {
-"b": "tree",
-"d": "tree",
-"bp": "tree",
-"dp": "tree"
-},
-"d": "May 3 1882",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
@@ -33037,7 +33063,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-7",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco",
 "via": "tree",
 "vias": [
@@ -34931,7 +34957,7 @@
 "living": false,
 "parents": [
 {
-"slug": "giuseppe-falco-7",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco",
 "via": "tree",
 "vias": [
@@ -34939,7 +34965,7 @@
 ]
 },
 {
-"slug": "rosa-zimbardo",
+"slug": "rosa-zimbardo-2",
 "name": "Rosa Zimbardo (Falco)",
 "via": "tree",
 "vias": [
@@ -34959,7 +34985,7 @@
 ]
 },
 {
-"slug": "angelo-falco-4",
+"slug": "angelo-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Angelo Falco",
 "via": "tree",
 "vias": [
@@ -43354,7 +43380,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-7",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco",
 "via": "tree",
 "vias": [
@@ -45638,7 +45664,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-7",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco",
 "via": "tree",
 "vias": [
@@ -64243,23 +64269,34 @@
 "noKin": "ancestor-in-another-act"
 },
 {
-"slug": "rosa-zimbardo",
-"name": "Rosa Zimbardo (Falco)",
+"slug": "rosa-zimbardo-2",
+"name": "Rosa Zimbardo",
 "surname": "ZIMBARDO",
-"household": null,
-"role": null,
-"events": [],
+"household": "Giuseppe Falco & Rosa Zimbardo",
+"hid": "giuseppe-falco-rosa-zimbardo",
+"role": "mother",
+"events": [
+{
+"event": "named as mother in her son's death act",
+"date": "29 Jan 1875",
+"place": "Arienzo, via Orticelli 8",
+"evidence": "«*e da **ROSA ZIMBARDO**, contadina, domiciliata in questo comune*» — same act, **alive in January 1875**.\n\n*ZIMBARDO is among the commonest surnames at Arienzo and this archive holds a great many; **none of them is joined to her**, and a surname alone never will.*",
+"ark": "3:1:3QS7-8976-QQB7 — FamilySearch MC55-FNT img 1005 right page, Arienzo Morti 1875 act 8 — READ FROM THE IMAGE"
+}
+],
 "sources": [
+"register",
 "tree"
 ],
 "living": false,
 "parents": [],
 "spouses": [
 {
-"slug": "giuseppe-falco-7",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 }
@@ -64282,10 +64319,11 @@
 ]
 },
 {
-"slug": "angelo-falco-4",
+"slug": "angelo-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Angelo Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -64307,6 +64345,7 @@
 }
 ],
 "siblings": [],
+"mergedOn": "name alone",
 "treeId": 4512524,
 "b": "1829",
 "dateFrom": {

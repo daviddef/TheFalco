@@ -3128,3 +3128,26 @@ unopened.
 
 **ALESSANDRA CRISCI IS IN NEITHER 1872 NOR 1873.** *Four unopened years left: **1874, 1875, 1876,
 1877**.*
+
+## 1874 IS EMPTY AND 1875 OPENS A HOUSEHOLD
+
+**Arienzo's deaths of 1874 — images 909–924, 74 acts, every one read — hold no Falco at all**, and no
+Alessandra Crisci. *It is the last of the handwritten books; 1875 is the first on the printed form.*
+
+> «*nella casa posta in **VIA ORTICELLI** al numero **OTTO**, è morto **ANGELO FALCO**, di anni
+> **DICIANNOVE e mesi TRE**, contadino … da **GIUSEPPE**, contadino … e da **ROSA ZIMBARDO**,
+> contadina … **CELIBE***»
+
+*Morti* 1875 act 8, **29 January 1875**, declared by **RAFFAELE FALCO DI VINCENZO, 56** and **MICHELE
+FALCO, 66**. **The family tree's Angelo Falco — born 1856, died 29 January 1875, son of Giuseppe
+Falco and Rosa Zimbardo — verified to the day**, and «Giuseppe Falco & Rosa Zimbardo» exists in this
+archive because of it.
+
+**The tree gives him a brother CLEMENTE, dead 9 October 1875** — nine months later, in the same book.
+*That is the next leaf.* And a mother **Rosa Zimbardo, dead 12 August 1889**, and a father **Giuseppe,
+dead 3 May 1882** — three more acts, all in registers this archive can now reach.
+
+> **VIA ORTICELLI 8 is a Falco house across a decade**: Angelo Falco died there in 1875, Gioacchino
+> Falco and Andreana Crisci were living there in January 1884 when their son Giovanni died, and
+> **ANTONIA FALCO died in that house** in June 1885. *Nothing read joins any of them. It is a fact
+> about an address, recorded as one.*
