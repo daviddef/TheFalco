@@ -3187,3 +3187,21 @@ for two children to become one.*
 
 > **ALESSANDRA CRISCI IS IN NONE OF 1872, 1873, 1874 OR 1875** — four hundred acts. **Two unopened
 > years left: 1876 and 1877.**
+
+## 1876, act 12 — ANGELA FALCO, and the margin box gets her sex wrong
+
+> «*è comparso **GIUSEPPE FALCO**, di anni **CINQUANTA**, contadino … nella casa posta in **VIA
+> ORTICELLI** al numero **NOVE**, da **ROSA ZIMBARDO sua moglie, filatrice**, seco lui convivente, è
+> nato un bambino di sesso **FEMMININO** … a cui dà il nome di **ANGELA***»
+
+*Nascite* 1876 act 12, born **21 January 1876**. **ANGELO FALCO, nineteen, died in this house on
+29 January 1875** — three hundred and fifty-seven days earlier. *Naming a new child for one lately
+dead is ordinary practice here; doing it across the sexes is the same custom. It is a custom and not
+a proof.*
+
+> **The margin box reads «Falco Angelo» and the act reads «femminino … ANGELA».** The act is the
+> record and the margin is its finding aid — the rule this archive published about index lines holds
+> for a margin box too. **She is Angela.**
+
+**And the family tree already had her**, as a daughter of Giuseppe Falco and Rosa Zimbardo; the act
+documents her. *Giuseppe is fifty in January 1876, so born about 1826; the tree says 1824.*

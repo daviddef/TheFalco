@@ -17501,13 +17501,23 @@
 "siblings": []
 },
 {
-"slug": "angela-falco",
-"name": "Angela Falco",
+"slug": "angela-falco-of-giuseppe-falco-rosa-zimbardo",
+"name": "Angela Falco (of Giuseppe, b. 1876)",
 "surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
+"household": "Giuseppe Falco & Rosa Zimbardo",
+"hid": "giuseppe-falco-rosa-zimbardo",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "21 Jan 1876",
+"place": "Arienzo, via Orticelli 9",
+"evidence": "**A DAUGHTER BORN TWELVE MONTHS AFTER A SON OF THE SAME NAME DIED.**\n\nArienzo, *Nascite* **1876**, **act 12**: «*L'anno milleottocentosettantasei, addì **ventidue** di **gennaio**, a ore antimeridiane **otto** e minuti **cinquanta**, nella Casa comunale. Avanti di me **ETTORE GUERRIERO**, Assessore delegato … è comparso **GIUSEPPE FALCO**, di anni **CINQUANTA**, *contadino*, domiciliato in questo comune, il quale mi ha dichiarato che alle ore antimeridiane **quattro** e minuti **trenta** del dì **ventuno** del corrente mese, nella casa posta in **VIA ORTICELLI** al numero **NOVE**, da **ROSA ZIMBARDO sua moglie, FILATRICE**, seco lui convivente, è nato un bambino di sesso **FEMMININO** … a cui dà il nome di **ANGELA***». Witnesses **Marcantonio Crisci**, 60, *calzolaio*, and **Angelo Zimbardo**, 67, *contadino*.\n\n**ANGELO FALCO, nineteen, died in this house on 29 January 1875. ANGELA FALCO was born on 21 January 1876**, three hundred and fifty-seven days later. *Naming a new child for one lately dead is the ordinary Neapolitan practice; doing it across the sexes is the same custom and this archive has met it before. **It is a custom and not a proof, and it is recorded as a custom.***\n\n**AND THE MARGIN BOX AND THE ACT DISAGREE ON HER SEX.** The clerk's margin reads «**Falco Angelo**»; the act reads «*un bambino di sesso **femminino** … il nome di **ANGELA***». **The act is the record and the margin is its finding aid** — *this archive has published that rule about indexes and it holds for a margin box too.* **She is Angela.**\n\n**GIUSEPPE FALCO IS FIFTY IN JANUARY 1876**, so born about **1826**; the family tree says **1824**. *Two years, which these registers manage routinely.*\n\n**THE HOUSE IS VIA ORTICELLI NUMBER NINE**, where his two sons died at number **eight** a year earlier. *Either the family moved along the lane or the clerk's numbers wander; the same number nine is where **Giovanni Falco and Giuseppa Martone** were living in 1885. **Recorded, not resolved.***",
+"ark": "3:1:3QSQ-G976-Q7Z1 — FamilySearch MC55-FNT img 1062 right page, Arienzo Nascite 1876 act 12 — READ FROM THE IMAGE"
+}
+],
 "sources": [
+"register",
 "tree"
 ],
 "living": false,
@@ -17515,16 +17525,18 @@
 {
 "slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
 {
 "slug": "rosa-zimbardo-2",
 "name": "Rosa Zimbardo (Falco)",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 }
@@ -17551,24 +17563,27 @@
 {
 "slug": "angelo-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Angelo Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
 {
 "slug": "clemente-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Clemente Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 }
 ],
+"mergedOn": "both parents and an exact birth or death date — the name was never used, and this archive holds more than one person of it",
 "treeId": 4512529,
-"b": "Jan 21 1876",
+"b": "21 Jan 1876",
 "dateFrom": {
-"b": "tree"
+"b": "act"
 }
 },
 {
@@ -18772,10 +18787,11 @@
 ]
 },
 {
-"slug": "angela-falco",
+"slug": "angela-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Angela Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 }
@@ -22279,7 +22295,7 @@
 ]
 },
 {
-"slug": "angela-falco",
+"slug": "angela-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Angela Falco",
 "via": "tree",
 "vias": [
@@ -24237,10 +24253,11 @@
 ]
 },
 {
-"slug": "angela-falco",
+"slug": "angela-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Angela Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 }
@@ -31925,10 +31942,11 @@
 ]
 },
 {
-"slug": "angela-falco",
+"slug": "angela-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Angela Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 }
@@ -35032,7 +35050,7 @@
 ]
 },
 {
-"slug": "angela-falco",
+"slug": "angela-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Angela Falco",
 "via": "tree",
 "vias": [
@@ -64446,10 +64464,11 @@
 ]
 },
 {
-"slug": "angela-falco",
+"slug": "angela-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Angela Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 }
