@@ -3407,3 +3407,40 @@ of them**.
 
 **The 1886 books are now walked.** Four Falco births (6, 43, 44, 94) where the single-row sweep found
 one; two Falco deaths (51, 73) where it found one.
+
+---
+
+# 1879: MICHELE FALCO IS GENERATION THREE'S BROTHER
+
+The 1879 death register (`MC55-VNL` 243–280, no index) was opened to look for **ANDREANA CRISCI**,
+whose window had been narrowed to 1875–1886 that same afternoon. She is not in it. **Michele Falco
+is.**
+
+> «*… nella casa posta in **via ORTICELLI** al numero **SEI**, è morto **MICHELE FALCO**, di anni
+> **SETTANTUNO**, giornaliero, residente in Arienzo, nato in Arienzo, **dal fu PASQUALE**, contadino
+> … e **dalla fu CHIARA RIVETTI**, contadina … **MARITO DI GIOVANNA D'AMBROSIO***»
+
+*Morti* 1879 **act 77**, **28 September 1879**.
+
+**THE SAME TWO PARENTS, IN THE SAME WORDS, AS VINCENZO FALCO'S OWN DEATH ACT OF 15 MAY 1875.**
+«Michele Falco & Maria Giovanna Ambrogio» had a wedding of 1850, two children dead in 1859, a
+daughter married in 1878 and a daughter dead in 1885 — **and no parents for Michele at all**, so no
+way to attach him to anything. He is **Vincenzo's brother**, and his is a sibling household of the
+direct line's.
+
+> **The window was narrowed to six and a half years at about four in the afternoon and closed to a
+> day before the evening was out.** A surname in the right comune is not a place in a family — which
+> is what this archive has spent the day saying about Carmino, Clemente, Giovanbattista, Gioacchino
+> and Giovanni. *The remedy was never a better guess. It was one act.*
+
+**Seventy-one is born about 1808**, inside Pasquale Falco and Chiara Rivetti's marriage of about
+1789. **GIOVANNA D'AMBROSIO outlived him** and was still alive in June 1885.
+
+**Two more Falco in the same book.** Act 9: **ANGELA ROSA FALCO**, one year, **via Orticelli 6**, of
+**Carminantonio Falco and Giovanna Arricale** — the first of that house's two Angela Rosa, whose
+death was held here as *tree only* and is a register act now, to the day. Act 39: **LUIGI FALCO**,
+seven months, **Corso Caudino 83**, of Carmine Falco and Giovanna Pellone.
+
+> **VIA ORTICELLI NOW HOLDS FALCO AT NUMBERS 2, 3, 4, 6, 8, 9, 10 AND 14** — and not one act joins
+> any two of them. Michele Falco died at number 6, the house where Carminantonio's infant daughter
+> had died seven months earlier.
