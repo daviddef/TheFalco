@@ -2999,7 +2999,7 @@
 "living": false,
 "parents": [
 {
-"slug": "nicola-biondo",
+"slug": "nicola-biondo-2",
 "name": "Nicola Biondo",
 "via": "tree",
 "vias": [
@@ -3007,7 +3007,7 @@
 ]
 },
 {
-"slug": "clementina-falco",
+"slug": "clementina-falco-2",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -3092,7 +3092,7 @@
 "living": false,
 "parents": [
 {
-"slug": "nicola-biondo",
+"slug": "nicola-biondo-2",
 "name": "Nicola Biondo",
 "via": "tree",
 "vias": [
@@ -3100,7 +3100,7 @@
 ]
 },
 {
-"slug": "clementina-falco",
+"slug": "clementina-falco-2",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -3181,7 +3181,7 @@
 "living": false,
 "parents": [
 {
-"slug": "nicola-biondo",
+"slug": "nicola-biondo-2",
 "name": "Nicola Biondo",
 "via": "tree",
 "vias": [
@@ -3189,7 +3189,7 @@
 ]
 },
 {
-"slug": "clementina-falco",
+"slug": "clementina-falco-2",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -3262,20 +3262,30 @@
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
-"slug": "nicola-biondo",
+"slug": "nicola-biondo-2",
 "name": "Nicola Biondo",
 "surname": "BIONDO",
-"household": null,
-"role": null,
-"events": [],
+"household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
+"role": "married in",
+"events": [
+{
+"event": "marriage",
+"date": "1 Sep 1878",
+"place": "Arienzo",
+"evidence": "«*1.° **BIONDO NICOLA**, di anni **VENTISEI**, ***secatore***, nato in ARIENZO, residente in Arienzo, figlio di **SILVESTRO**, residente in Arienzo, e di **MARIA MORGILLO**, residente in Arienzo*» — same act. A **sawyer**, born about 1852.\n\n**His parents are new to this archive**, and **both were alive in September 1878**, neither marked *fu*. *The family tree carries a Nicola Biondo born 1852 married to Clementina Falco and nothing else about him; this act gives him a trade and a generation above.*",
+"ark": "3:1:3QS7-997F-M728 — FamilySearch MC55-VNL img 54 left page, Arienzo Matrimoni 1878 Parte I act 13 — READ FROM THE IMAGE"
+}
+],
 "sources": [
+"register",
 "tree"
 ],
 "living": false,
 "parents": [],
 "spouses": [
 {
-"slug": "clementina-falco",
+"slug": "clementina-falco-2",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -3342,6 +3352,7 @@
 }
 ],
 "siblings": [],
+"mergedOn": "name and dates",
 "treeId": 4512438,
 "b": "1852",
 "dateFrom": {
@@ -3363,7 +3374,7 @@
 "living": false,
 "parents": [
 {
-"slug": "nicola-biondo",
+"slug": "nicola-biondo-2",
 "name": "Nicola Biondo",
 "via": "tree",
 "vias": [
@@ -3371,7 +3382,7 @@
 ]
 },
 {
-"slug": "clementina-falco",
+"slug": "clementina-falco-2",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -3456,7 +3467,7 @@
 "living": false,
 "parents": [
 {
-"slug": "nicola-biondo",
+"slug": "nicola-biondo-2",
 "name": "Nicola Biondo",
 "via": "tree",
 "vias": [
@@ -3464,7 +3475,7 @@
 ]
 },
 {
-"slug": "clementina-falco",
+"slug": "clementina-falco-2",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -3549,7 +3560,7 @@
 "living": false,
 "parents": [
 {
-"slug": "nicola-biondo",
+"slug": "nicola-biondo-2",
 "name": "Nicola Biondo",
 "via": "tree",
 "vias": [
@@ -3557,7 +3568,7 @@
 ]
 },
 {
-"slug": "clementina-falco",
+"slug": "clementina-falco-2",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -3642,7 +3653,7 @@
 "living": false,
 "parents": [
 {
-"slug": "nicola-biondo",
+"slug": "nicola-biondo-2",
 "name": "Nicola Biondo",
 "via": "tree",
 "vias": [
@@ -3650,7 +3661,7 @@
 ]
 },
 {
-"slug": "clementina-falco",
+"slug": "clementina-falco-2",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -8538,6 +8549,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "«*che la stessa è nata da **ALESSANDRA [surname]** sua moglie legittima, di anni **trentasei**, domiciliata collo stesso*» — born about 1810, twelve years married. **HER SURNAME IS NOT LEGIBLE ON THIS FILMING and is deliberately left unread.** The word is a single flourished capital and a tail that runs into «sua», and this is the exact trio — **Crisci, Cossi, Cioffi** — that has caught this archive three times in one week. **The identification does not need it**: a Matteo Falco of strada Camellara whose wife is called **Alessandra**, in a town where this archive holds one Matteo Falco married to an Alessandra, and whose daughter marries a **GUIDA** exactly as the family tree says. **Two hooks, neither of them the surname.**\n\n**THE REFUSAL STANDS, AND IT IS NARROWED, 20 September 2026.** Re-read at the leaf's full resolution, the word has **a narrow shoulder where an r belongs, no round o, and no tall double ascender**. **By this archive's own three-way test — Cioffi's double-f with its long descender, Cossi's short double-s with no ascender, Crisci's narrow r and no round o — CIOFFI IS EXCLUDED and COSSI is unlikely.** What is left is **CRISCI**, which is what the household is called on other evidence. **It is not declared settled**: the archive refused this word deliberately and a marginal reading is not grounds to overrule a considered refusal. **The refusal is narrowed, not withdrawn.**\n\n---\n\n**HER SURNAME IS NO LONGER UNREAD — 21 September 2026.** It was left unread here **on purpose**, and that was right: at this filming the word is a single blur. **A different register, in a different hand, nineteen years later, writes it out.** Her daughter Angela's marriage act of **23 January 1865** — Arienzo, act 3 — reads «*figlia di **MATTEO FALCO**, di professione **contadino**, domiciliato **ivi**, e di **ALESSANDRA CRISCI**, domiciliata **ivi***», and at thirteen times magnification the word is **C-r-i-ſ-c-i**: six letters, a dot over the third and the sixth, and the only descender on the long **ſ**. **Not Crispi** — a *p* would carry the descender and the fifth letter has none.\n\n**And the 1834 marriage index said so all along**, «*CRISCI ALESSANDRA*», from a leaf whose father's forename was lost to the page-fold. **Two documents, nineteen years apart, in two hands.**",
 "ark": "ANTENATI an_ua14443 (Arienzo, Nati 1846) img 70r-71l — READ FROM THE IMAGE"
+},
+{
+"event": "death window",
+"date": "dead by 1 Sep 1878",
+"place": "Arienzo",
+"evidence": "**THE WINDOW ON HER DEATH IS NOW TEN YEARS WIDE AND IT HAS A PLACE IN IT.**\n\n«*e **della fu ALESSANDRA CRISCI**, residente **in vita col marito***» — her daughter Clementina's marriage act, 1 September 1878, read from the image.\n\n**SHE WAS ALIVE IN DECEMBER 1867**: her husband's death act of the twelfth calls him «*marito di Alessandra Crisci*», not *vedovo*. **She was dead by 1 September 1878.** *Ten years and nine months.*\n\n**AND THE ACT ANSWERS THE QUESTION THE OTHER TWO COULD NOT.** This archive has held three readings of her absence from Arienzo's deaths: that she died outside Arienzo, that she died in a daughter's house, or that «de' furono» in the acts of 1872 and 1874 was a clerk's loose plural. **«residente in vita col marito» retires the third and argues against the first**: a third clerk, eleven years after Matteo died, states that her residence in life was her husband's — **the Contrada Camellara, Arienzo**.\n\n**SO HER DEATH ACT SHOULD BE IN ARIENZO'S OWN REGISTERS, AND THE SEARCH NARROWS TO SIX UNOPENED YEARS.** The deaths of **1866, 1867, 1868, 1869, 1870 and 1871** are read. **1872, 1873, 1874, 1875, 1876 and 1877 have never been opened** — they are in `MC55-FNT` and `MC55-VNL`, and they are where she is.\n\n*And the read years are being read again at grid resolution, because the sweep that passed them is the sweep that turned «Falco» into «Fatto» eleven times in two years.*",
+"ark": "3:1:3QS7-997F-M728 — FamilySearch MC55-VNL img 54 left page, Arienzo Matrimoni 1878 Parte I act 13 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -8616,10 +8634,11 @@
 ]
 },
 {
-"slug": "clementina-falco",
+"slug": "clementina-falco-2",
 "name": "Clementina Falco (Biondo)",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -8687,11 +8706,11 @@
 "b": "1817",
 "dateFrom": {
 "b": "tree",
-"d": "tree",
+"d": "act",
 "bp": "tree",
 "dp": "tree"
 },
-"d": "Nov 14 1869",
+"d": "dead by 1 Sep 1878",
 "bp": "Arienzo, Caserta, Campania, Itália",
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
@@ -17406,6 +17425,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "clementina-falco-2",
+"name": "Clementina Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "5 Dec 1834",
@@ -18066,7 +18093,7 @@
 ]
 },
 {
-"slug": "clementina-falco",
+"slug": "clementina-falco-2",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -19962,10 +19989,11 @@
 ]
 },
 {
-"slug": "clementina-falco",
+"slug": "clementina-falco-2",
 "name": "Clementina Falco (Biondo)",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -21787,6 +21815,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "clementina-falco-2",
+"name": "Clementina Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "3 Jan 1838",
@@ -21998,7 +22034,7 @@
 ]
 },
 {
-"slug": "clementina-falco",
+"slug": "clementina-falco-2",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -24097,13 +24133,23 @@
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
-"slug": "clementina-falco",
-"name": "Clementina Falco (Biondo)",
+"slug": "clementina-falco-2",
+"name": "Clementina Falco",
 "surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
+"household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
+"role": "child",
+"events": [
+{
+"event": "marriage",
+"date": "1 Sep 1878",
+"place": "Arienzo",
+"evidence": "**A DAUGHTER OF GENERATION FOUR, DOCUMENTED AT LAST — AND HER ACT BURIES HER MOTHER.**\n\nArienzo, *Matrimoni* **1878**, Parte I, **act 13**, **1 September 1878** at 9.25 in the morning, before **GUERRIERO ETTORE**, Assessore delegato: «*2.° **FALCO CLEMENTINA**, di anni **VENTINOVE**, ***tessitrice***, **nata in ARIENZO**, residente in Arienzo, **figlia del fu MATTEO**, residente **in vita in ARIENZO**, e **della fu ALESSANDRA CRISCI**, residente **in vita col marito***». The groom is **BIONDO NICOLA**, **ventisei**, *secatore*, born and resident at Arienzo, son of **SILVESTRO** and of **MARIA MORGILLO**, both of Arienzo. Witnesses **Andrea Saccone**, 59, and **Luigi Crisci**, 47, both *scribenti*.\n\n**TWENTY-NINE IN SEPTEMBER 1878 IS BORN ABOUT 1849**, between Maria (b. 15 August 1844) and Antonia (b. 15 December 1851) in this household's own sequence. **The family tree has carried her all along** — *Clementina Falco, born 18 December 1848, died 20 September 1900, married Nicola Biondo born 1852* — **unverified, and verified now**: her age and his, taken from the act, agree with the tree to within a year on both sides.\n\n**AND THE ACT NAMES HER MOTHER DEAD.** «*della **fu** ALESSANDRA CRISCI*» — the third independent clerk to write it, after the marriage acts of 1872 and 1874, and **the first to say where she lived**: «*residente **in vita col marito***». *See her own row.*\n\n**FOUND IN A REGISTER THIS ARCHIVE HAD ALREADY SWEPT AND PUBLISHED AS HOLDING ONE FALCO.** The 1878 marriage book was read on 11 October 2026 and act 19 — her sister-in-law's namesake Maria Carmina — was taken out of it. **Act 13 was read as «Falso Clementina» at 143 pixels a surname and screened out.** Six acts apart, in the same book, in the same hour.",
+"ark": "3:1:3QS7-997F-M728 — FamilySearch MC55-VNL img 54 left page, Arienzo Matrimoni 1878 Parte I act 13 — READ FROM THE IMAGE"
+}
+],
 "sources": [
+"register",
 "tree"
 ],
 "living": false,
@@ -24111,23 +24157,25 @@
 {
 "slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
 "name": "Matteo Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
 {
 "slug": "alessandra-crisci",
 "name": "Alessandra Crisci (Falco)",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 }
 ],
 "spouses": [
 {
-"slug": "nicola-biondo",
+"slug": "nicola-biondo-2",
 "name": "Nicola Biondo",
 "via": "tree",
 "vias": [
@@ -24245,20 +24293,71 @@
 {
 "slug": "domenica-falco",
 "name": "Domenica Falco (Guida)",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
 {
 "slug": "antonia-falco-d-1866",
 "name": "Antonia Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
+]
+},
+{
+"slug": "angela-falco-of-matteo-falco-alessandra-crisci",
+"name": "Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "filomena-falco",
+"name": "Filomena Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenza-falco-of-matteo-falco-alessandra-crisci",
+"name": "Vincenza Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-matteo-falco-alessandra-crisci",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-matteo-falco-alessandra-crisci",
+"name": "Maria Falco (b. 1844)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco-of-matteo-falco-alessandra-crisci",
+"name": "Carmela Falco (b. 1838)",
+"via": "register",
+"vias": [
+"register"
 ]
 }
 ],
+"mergedOn": "name and dates",
 "treeId": 4512437,
 "b": "Dec 18 1848",
 "dateFrom": {
@@ -25142,10 +25241,11 @@
 ]
 },
 {
-"slug": "clementina-falco",
+"slug": "clementina-falco-2",
 "name": "Clementina Falco (Biondo)",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -26272,6 +26372,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "clementina-falco-2",
+"name": "Clementina Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "20 Jun 1839",
@@ -26428,7 +26536,7 @@
 ]
 },
 {
-"slug": "clementina-falco",
+"slug": "clementina-falco-2",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -31179,6 +31287,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "clementina-falco-2",
+"name": "Clementina Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -31410,7 +31526,7 @@
 ]
 },
 {
-"slug": "clementina-falco",
+"slug": "clementina-falco-2",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -35448,6 +35564,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "clementina-falco-2",
+"name": "Clementina Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "15 Aug 1844",
@@ -35757,7 +35881,7 @@
 ]
 },
 {
-"slug": "clementina-falco",
+"slug": "clementina-falco-2",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -37399,10 +37523,11 @@
 ]
 },
 {
-"slug": "clementina-falco",
+"slug": "clementina-falco-2",
 "name": "Clementina Falco (Biondo)",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -44632,6 +44757,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "clementina-falco-2",
+"name": "Clementina Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "18 May 1842",
@@ -44795,7 +44928,7 @@
 ]
 },
 {
-"slug": "clementina-falco",
+"slug": "clementina-falco-2",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [

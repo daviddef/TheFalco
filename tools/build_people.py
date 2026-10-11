@@ -1488,6 +1488,45 @@ alias = {k: v for k, v in sorted(alias.items()) if v in _live}
 json.dump(alias, open(_AP, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(f"  {len(alias)} old person URLs kept alive as redirects "
       f"({len(alias) - _before:+d} this run)")
+
+# ---------------------------------------------------------------------------
+# THE LEDGER OF EVERY SLUG THIS ARCHIVE HAS EVER BUILT.
+#
+# Added 11 October 2026, the third time a published person URL has gone dark.
+# The redirect block above only knows about the CHILD-to-HEAD join; it cannot
+# see a person who existed as a TREE-ONLY record at `/people/clementina-falco/`
+# and then merged into a household record at `/people/clementina-falco-2/`.
+# The first address simply stopped existing, and nothing said so: the build
+# printed «+0 this run» and every gate passed.
+#
+# A slug is a promise. This file is the list of promises, it only grows, and a
+# build that breaks one of them stops here and names it. The repair is an entry
+# in people-aliases.json, which is where the other promises already live.
+# NAME IT UNIQUELY. `_LEDGER` was already taken, two hundred lines further up,
+# for `site/src/data/person-slugs.json` — and reusing it here sent that file's
+# contents to this path instead, on the first run, silently. A module-level
+# single-underscore name is not a private name; it is a global.
+_SLUG_LOG = path("data", "slug-ledger.txt")
+_known = set()
+if os.path.exists(_SLUG_LOG):
+    with open(_SLUG_LOG, encoding="utf-8") as fh:
+        _known = {l.strip() for l in fh if l.strip() and not l.startswith("#")}
+_dark = sorted(s for s in _known if s not in _live and s not in alias)
+if _dark:
+    print("\n  SLUGS THAT WERE PUBLISHED AND ARE NOW NEITHER LIVE NOR REDIRECTED:")
+    for s in _dark:
+        print(f"      /people/{s}/")
+    print("  Add each one to site/src/data/people-aliases.json pointing at the\n"
+          "  page that now holds that person, then run this again.")
+    raise SystemExit(1)
+_new_slugs = sorted((_known | _live) - _known)
+with open(_SLUG_LOG, "w", encoding="utf-8") as fh:
+    fh.write("# Every person slug this archive has ever built. Append-only.\n"
+             "# A slug here that is not live must be in people-aliases.json.\n")
+    for s in sorted(_known | _live):
+        fh.write(s + "\n")
+print(f"  slug ledger: {len(_known | _live)} promise(s) kept"
+      + (f", {len(_new_slugs)} new this run" if _new_slugs else ""))
 if _dangling:
     print(f"    dropped {len(_dangling)} redirect(s) whose destination no longer exists: "
           + ", ".join(_dangling[:5]))

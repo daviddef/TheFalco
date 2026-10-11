@@ -278,9 +278,9 @@
    },
    {
     "who": "Clementina Falco (Biondo)",
-    "whoSlug": "clementina-falco",
+    "whoSlug": "clementina-falco-2",
     "to": "Nicola Biondo",
-    "toSlug": "nicola-biondo",
+    "toSlug": "nicola-biondo-2",
     "into": "Biondo",
     "living": true
    },
@@ -760,7 +760,7 @@
    },
    {
     "name": "Clementina Falco (Biondo)",
-    "slug": "clementina-falco",
+    "slug": "clementina-falco-2",
     "b": "Dec 18 1848",
     "bp": "Arienzo",
     "d": "Sep 20 1900",
@@ -2593,9 +2593,9 @@
   "marriages": [
    {
     "who": "Nicola Biondo",
-    "whoSlug": "nicola-biondo",
+    "whoSlug": "nicola-biondo-2",
     "to": "Clementina Falco (Biondo)",
-    "toSlug": "clementina-falco",
+    "toSlug": "clementina-falco-2",
     "into": "Falco",
     "living": true
    }
