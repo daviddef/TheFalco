@@ -2923,3 +2923,77 @@ marriage acts, which will name their fathers.**
 
 **And the house number disagrees with itself**: the extracts of 1880 and 1889 both say Corso Caudino
 **80**; Vincenzo's own register act of 1884 says **88**. *Recorded, not resolved.*
+
+---
+
+# THE SAME 240 LEAVES, READ AGAIN AT TWICE THE SCALE — fourteen Falco acts, not three
+
+**The grid re-read of images 751–990 found ELEVEN Falco acts the single-row sweep had screened out**,
+and no leaf was re-fetched: only the contact sheet changed, from 14 × 1 to **7 × 2**.
+
+| book | act | who |
+|---|---|---|
+| Nascite 1884 | **13** | **Pasquale**, of *Vincenzo Falco, 33, vetturale* × **Angela Pellone**, Corso Caudino 88 |
+| Nascite 1884 | **80** | **Carlo**, of *Carmino Falco, 32, vetturale* × **Giovanna Pellone**, Corso Caudino 82 |
+| Nascite 1884 | **202** | **Andreana**, of *Giovanbattista Falco, 32, **sarto*** × **Costanza Zimbardo**, Corso Caudino 77 |
+| Morti 1884 | **22** | **Giovanni**, one year, of *Gioacchino Falco* × **Andreana Crisci**, via Orticelli 8 |
+| Morti 1884 | **38** | **Pasquale** again — dead at one month, 2 March 1884 |
+| Morti 1884 | **41** | **Carmela**, seven months, of *Giuseppe Falco* × **Nicoletta Nuzzo**, via Orticelli 4 |
+| Nascite 1885 | 17 | **Francesca Falco** as a mother, via Camellara 7 |
+| Nascite 1885 | 18 | **Vincenzo**, of *Clemente Falco, 27* × **Gaetana Crispo** |
+| Nascite 1885 | **29** | **Matteo**, of *Giuseppe Falco, 42* × **Nicoletta Nuzzo** |
+| Morti 1885 | **10** | **Domenico**, sixteen months, of *Giovanni Falco* × **Giuseppa Martone**, via Orticelli 9 |
+| Morti 1885 | **28** | **ANTONIA FALCO, 35** — «dal fu MICHELE» and GIOVANNA D'AMBROGIO |
+| Matrimoni 1886 | **14** | **CARMELA FALCO, 23**, «figlia di ANGELO e di MARIA CIMMINO» |
+| Nascite 1886 | 94 | **Carolina**, of *Carmino Falco, 30, carrettiere* |
+| Morti 1886 | 51 | **Matteo Falco**, seventeen months |
+
+> **The published negative was the dangerous part, not the missed hit.** A missed act is found later by
+> somebody. **A register published as swept is a register nobody opens again** — and this archive had
+> already written «*the whole Falco yield of two years is one leaf*» into a note, a searched row and a
+> commit message.
+
+## ANTONIA FALCO, 1850–1885 — and her act dates her father's death
+
+> «*è morta **ANTONIA FALCO**, *filatrice*, di anni **TRENTACINQUE** … **dal fu MICHELE**, contadino …
+> e da **GIOVANNA D'AMBROGIO**, *filatrice*, domiciliata in Arienzo — **moglie di ANTONIO ZIMBARDO***»
+
+**19 November 1850 to 21 June 1885 is thirty-four years and seven months; the act says thirty-five.**
+The wedding act of 12 February 1850 recorded a daughter **Antonia born 19 November 1850** and she had
+never been seen again. **She is that child.**
+
+- **MICHELE FALCO died between December 1878 and June 1885** — alive and unqualified in his daughter
+  Maria Carmina's marriage act, «*fu*» here. *The window was unbounded this morning.*
+- **GIOVANNA D'AMBROGIO was still alive** at about seventy-four.
+- **She had a husband nobody here knew of — ANTONIO ZIMBARDO**, and their marriage act is in Arienzo
+  before 1885 and not in 1878–1884.
+
+## THE STREETS
+
+**VIA ORTICELLI — three Falco households on one short lane**, at numbers **4**, **8** and **9**:
+Giuseppe × Nicoletta Nuzzo · Gioacchino × Andreana Crisci · Giovanni × Giuseppa Martone.
+
+**THE CORSO CAUDINO — four**, at **77**, **80**, **82/80** and **88/89**: Giovanbattista × Costanza
+Zimbardo (a **tailor**), Clemente × Gaetana Crispo, Carmino × Giovanna Pellone, Vincenzo × Angela
+Pellone — the last three all carters, and **Angelo Falco × Maria Cimmino the parents of that street,
+both alive in June 1886**.
+
+**FOUR FALCO INFANTS DIED IN THIRTY MONTHS** across those two streets: Giovanni at one, Carmela at
+seven months, Pasquale at one month, Domenico at sixteen months, Matteo at seventeen.
+
+> **Not one filiation is claimed for Carmino, Clemente, Giovanbattista, Gioacchino or Giovanni**, and
+> the reason is the same every time: **a birth or death act names the CHILD's parents, not the
+> declarant's.** The test in every case is his own marriage act — and **none of those marriages is in
+> Arienzo 1878–1886**, every book of which is now read. *So this generation married before 1878 or
+> outside Arienzo.*
+
+**Vincenzo alone is attached, and not by guesswork**: his marriage act of 1874 names ANGELO and MARIA
+CIMMINO, and his sister Carmela's of 1886 names the same two.
+
+## AND THE COMMENDATORE WAS MAYOR
+
+Carmela Falco's marriage was celebrated «*Avanti di me **BARTOLOMEO COMMENDATORE DE FALCO,
+SINDACO***». **The Neapolitan proprietor who married at Santa Maria a Vico in July 1884 was running
+the comune of Arienzo two years later**, at sixty-eight. *It settles his Arienzo domicile a third
+time, from a third kind of record — and it is still no kinship: the Sindaco signs every act in the
+book.*

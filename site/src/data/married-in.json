@@ -134,9 +134,9 @@
    },
    {
     "who": "Gioacchino / Guglielmo Falco",
-    "whoSlug": "gioacchino-guglielmo-falco",
+    "whoSlug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
     "to": "Andreana Crisci (Falco)",
-    "toSlug": "andreana-crisci",
+    "toSlug": "andreana-crisci-of-gioacchino-falco-andreana-crisci",
     "into": "Crisci",
     "living": false
    },
@@ -286,9 +286,9 @@
    },
    {
     "who": "Giovanni Falco",
-    "whoSlug": "giovanni-falco-2",
+    "whoSlug": "giovanni-falco-of-giovanni-falco-giuseppa-martone",
     "to": "Giuseppa Martone (Falco)",
-    "toSlug": "giuseppa-martone",
+    "toSlug": "giuseppa-martone-2",
     "into": "Martone",
     "living": false
    },
@@ -656,7 +656,7 @@
    },
    {
     "name": "Gioacchino / Guglielmo Falco",
-    "slug": "gioacchino-guglielmo-falco",
+    "slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
     "b": "1842",
     "bp": "Arienzo",
     "d": "",
@@ -800,7 +800,7 @@
    },
    {
     "name": "Giovanni Falco",
-    "slug": "giovanni-falco-2",
+    "slug": "giovanni-falco-of-giovanni-falco-giuseppa-martone",
     "b": "Mar 5 1850",
     "bp": "Arienzo",
     "d": "",
@@ -1168,7 +1168,7 @@
    },
    {
     "name": "Carlo Falco",
-    "slug": "carlo-falco",
+    "slug": "carlo-falco-2-2",
     "b": "1884",
     "bp": "",
     "d": "",
@@ -1774,9 +1774,9 @@
    },
    {
     "who": "Andreana Crisci (Falco)",
-    "whoSlug": "andreana-crisci",
+    "whoSlug": "andreana-crisci-of-gioacchino-falco-andreana-crisci",
     "to": "Gioacchino / Guglielmo Falco",
-    "toSlug": "gioacchino-guglielmo-falco",
+    "toSlug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
     "into": "Falco",
     "living": false
    },
@@ -1912,7 +1912,7 @@
    },
    {
     "name": "Andreana Crisci (Falco)",
-    "slug": "andreana-crisci",
+    "slug": "andreana-crisci-of-gioacchino-falco-andreana-crisci",
     "b": "1852",
     "bp": "",
     "d": "",
@@ -2759,9 +2759,9 @@
    },
    {
     "who": "Giuseppa Martone (Falco)",
-    "whoSlug": "giuseppa-martone",
+    "whoSlug": "giuseppa-martone-2",
     "to": "Giovanni Falco",
-    "toSlug": "giovanni-falco-2",
+    "toSlug": "giovanni-falco-of-giovanni-falco-giuseppa-martone",
     "into": "Falco",
     "living": false
    },
@@ -2801,7 +2801,7 @@
    },
    {
     "name": "Giuseppa Martone (Falco)",
-    "slug": "giuseppa-martone",
+    "slug": "giuseppa-martone-2",
     "b": "1850",
     "bp": "Arienzo",
     "d": "",
