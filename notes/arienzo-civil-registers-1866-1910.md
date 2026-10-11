@@ -3258,3 +3258,30 @@ father.** A **Giuseppe Falco of via Orticelli** called a daughter **ALESSANDRA**
 > Annunziata; NICOLETTA is not.** *This archive does not merge people on a name and will not merge
 > two houses on three quarters of one.* **What would settle it is a third act naming the same woman,
 > or their marriage act.**
+
+---
+
+# 1878 CLOSES IT: ALESSANDRA CRISCI DID NOT DIE AT ARIENZO
+
+**`MC55-VNL` images 118–149, 116 acts and four more in the supplement, no index.** It is the last book
+she could be in: her daughter Clementina's marriage act of **1 September 1878** calls her «*la fu*».
+
+> **ARIENZO'S DEATHS OF 1866, 1867, 1868, 1869, 1870, 1871, 1872, 1873, 1874, 1875, 1876, 1877 AND
+> 1878 ARE NOW READ ACT BY ACT — about 1,250 acts — AND SHE IS IN NONE OF THEM.** Seven of the
+> thirteen years had never been opened, and six of those seven have no index of any kind.
+
+**Two of the three published readings are dead.** «De' furono» is not a loose plural — three clerks
+wrote her dead and two added «*residente in vita col marito*». She did not die in a daughter's house
+*at Arienzo*, because every Arienzo death of the window is read.
+
+**What is left is that she died OUTSIDE Arienzo** — in the comune of a daughter, or of her son
+Giuseppe. *And the phrase that pointed the other way is still on the page and still unexplained.*
+
+**The book holds one Falco: act 102** — **RAFFAELE FALCO**, one year eight months, of **GIOACCHINO
+FALCO and ANDREANA CRISCI**, **via Orticelli 8**, 5 November 1878. *Six years earlier than the only
+other act of that house, and in the same room.*
+
+> **VIA ORTICELLI 8, across a decade**: Angelo Falco died there in January 1875, his brother Clemente
+> that October, Raffaele Falco in November 1878, Giovanni Falco in January 1884, and **Antonia Falco**
+> in June 1885. **Four households' worth of Falco through one door, and not one act joins any two of
+> them.**

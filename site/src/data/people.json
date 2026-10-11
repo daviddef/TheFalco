@@ -8562,7 +8562,7 @@
 "event": "death window",
 "date": "dead by 1 Sep 1878",
 "place": "Arienzo",
-"evidence": "**THE WINDOW ON HER DEATH IS NOW TEN YEARS WIDE AND IT HAS A PLACE IN IT.**\n\n«*e **della fu ALESSANDRA CRISCI**, residente **in vita col marito***» — her daughter Clementina's marriage act, 1 September 1878, read from the image.\n\n**SHE WAS ALIVE IN DECEMBER 1867**: her husband's death act of the twelfth calls him «*marito di Alessandra Crisci*», not *vedovo*. **She was dead by 1 September 1878.** *Ten years and nine months.*\n\n**AND THE ACT ANSWERS THE QUESTION THE OTHER TWO COULD NOT.** This archive has held three readings of her absence from Arienzo's deaths: that she died outside Arienzo, that she died in a daughter's house, or that «de' furono» in the acts of 1872 and 1874 was a clerk's loose plural. **«residente in vita col marito» retires the third and argues against the first**: a third clerk, eleven years after Matteo died, states that her residence in life was her husband's — **the Contrada Camellara, Arienzo**.\n\n**SO HER DEATH ACT SHOULD BE IN ARIENZO'S OWN REGISTERS, AND THE SEARCH NARROWS TO SIX UNOPENED YEARS.** The deaths of **1866, 1867, 1868, 1869, 1870 and 1871** are read. **1872, 1873, 1874, 1875, 1876 and 1877 have never been opened** — they are in `MC55-FNT` and `MC55-VNL`, and they are where she is.\n\n*And the read years are being read again at grid resolution, because the sweep that passed them is the sweep that turned «Falco» into «Fatto» eleven times in two years.*",
+"evidence": "**THE WINDOW ON HER DEATH IS NOW TEN YEARS WIDE AND IT HAS A PLACE IN IT.**\n\n«*e **della fu ALESSANDRA CRISCI**, residente **in vita col marito***» — her daughter Clementina's marriage act, 1 September 1878, read from the image.\n\n**SHE WAS ALIVE IN DECEMBER 1867**: her husband's death act of the twelfth calls him «*marito di Alessandra Crisci*», not *vedovo*. **She was dead by 1 September 1878.** *Ten years and nine months.*\n\n**AND THE ACT ANSWERS THE QUESTION THE OTHER TWO COULD NOT.** This archive has held three readings of her absence from Arienzo's deaths: that she died outside Arienzo, that she died in a daughter's house, or that «de' furono» in the acts of 1872 and 1874 was a clerk's loose plural. **«residente in vita col marito» retires the third and argues against the first**: a third clerk, eleven years after Matteo died, states that her residence in life was her husband's — **the Contrada Camellara, Arienzo**.\n\n**SO HER DEATH ACT SHOULD BE IN ARIENZO'S OWN REGISTERS, AND THE SEARCH NARROWS TO SIX UNOPENED YEARS.** The deaths of **1866, 1867, 1868, 1869, 1870 and 1871** are read. **1872, 1873, 1874, 1875, 1876 and 1877 have never been opened** — they are in `MC55-FNT` and `MC55-VNL`, and they are where she is.\n\n*And the read years are being read again at grid resolution, because the sweep that passed them is the sweep that turned «Falco» into «Fatto» eleven times in two years.*\n\n---\n\n**AND ON 11 OCTOBER 2026 THE WHOLE WINDOW WAS READ OUT. SHE IS NOT IN ARIENZO.**\n\n**Thirteen consecutive death registers — 1866, 1867, 1868, 1869, 1870, 1871, 1872, 1873, 1874, 1875, 1876, 1877 and 1878 — read act by act off the margin box of every page.** *1872–1878 had never been opened; six of the seven are not indexed at all.* **She is in none of them.**\n\n**So the three readings this archive published are down to one.** «De' furono» is not a loose plural — three clerks wrote it, and two of them added «*residente in vita col marito*». She did not die in a daughter's house at Arienzo, because every Arienzo death of the window is read. **What is left is that SHE DIED OUTSIDE ARIENZO**, in the comune of a daughter or a son, and that is where to look: *Filomena at via Camellara, Vincenza at piazza Valletta, Angela who married Vincenzo Abatiello in 1865, Domenica who married into Guida and then Saccavino, Maria Felice, Maria Carmina, Clementina who married Nicola Biondo — **and Giuseppe, whose own household at via Orticelli this archive found the same day.***\n\n*The phrase that pointed at Arienzo is still on the page and still unexplained: a clerk in 1878 and another in 1881 both wrote that her residence in life was her husband's. **Either she left Arienzo after December 1867 and the clerks were describing a marriage rather than a deathbed, or her act is somewhere this archive has not thought to look.** The contradiction is published, not resolved.*",
 "ark": "3:1:3QS7-997F-M728 — FamilySearch MC55-VNL img 54 left page, Arienzo Matrimoni 1878 Parte I act 13 — READ FROM THE IMAGE"
 }
 ],
@@ -9127,10 +9127,11 @@
 ],
 "children": [
 {
-"slug": "raffaele-falco-5",
+"slug": "raffaele-falco-of-gioacchino-falco-andreana-crisci",
 "name": "Raffaele Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -22522,7 +22523,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "raffaele-falco-5",
+"slug": "raffaele-falco-of-gioacchino-falco-andreana-crisci",
 "name": "Raffaele Falco",
 "via": "tree",
 "vias": [
@@ -29257,10 +29258,11 @@
 ],
 "children": [
 {
-"slug": "raffaele-falco-5",
+"slug": "raffaele-falco-of-gioacchino-falco-andreana-crisci",
 "name": "Raffaele Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -30758,7 +30760,16 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": [],
+"siblings": [
+{
+"slug": "raffaele-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Raffaele Falco (of Gioacchino, d. 1878)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "d": "30 Jan 1884",
 "dateFrom": {
 "d": "act"
@@ -30940,7 +30951,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "raffaele-falco-5",
+"slug": "raffaele-falco-of-gioacchino-falco-andreana-crisci",
 "name": "Raffaele Falco",
 "via": "tree",
 "vias": [
@@ -42852,7 +42863,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "raffaele-falco-5",
+"slug": "raffaele-falco-of-gioacchino-falco-andreana-crisci",
 "name": "Raffaele Falco",
 "via": "tree",
 "vias": [
@@ -44341,6 +44352,96 @@
 "siblings": []
 },
 {
+"slug": "raffaele-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Raffaele Falco (of Gioacchino, d. 1878)",
+"surname": "FALCO",
+"household": "Gioacchino Falco & Andreana Crisci",
+"hid": "gioacchino-falco-andreana-crisci",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "5 Nov 1878",
+"place": "Arienzo, via Orticelli 8",
+"evidence": "**THE EARLIEST ACT OF THIS HOUSE, AND IT PUTS THEM IN THAT ROOM SIX YEARS BEFORE THE OTHER ONE.** Arienzo, *Morti* **1878**, **act 102**: «*L'anno milleottocentosettantotto, addì **cinque** di **novembre**, a ore antimeridiane **dieci** e minuti **quindici** … sono comparsi **MARCANTONIO CRISCI**, di anni **sessantadue**, *calzolaio*, e **VINCENZO ALTAVILLA**, di anni **trentasei**, *contadino* … a ore antimeridiane **una** e minuti **trenta** di **oggi**, nella casa posta in **VIA ORTICELLI** al numero **OTTO**, è morto **RAFFAELE FALCO**, di **ANNO UNO e MESI OTTO**, *contadino*, residente in Arienzo, nato in Arienzo, da **GIOACCHINO**, *contadino*, domiciliato in Arienzo, e da **ANDREANA CRISCI**, *filatrice*, domiciliata in Arienzo*».\n\n**One year and eight months on 5 November 1878 is born about March 1877**, and his birth act is in Arienzo's register of that year, unopened.\n\n**This household was known only from January 1884, when its son Giovanni died at one in the same house.** *Now it is at **via Orticelli 8** from 1878 — and so was **ANGELO FALCO**, who died there in January 1875, and his brother **CLEMENTE** that October, and **ANTONIA FALCO** in June 1885. **Four households' worth of Falco through one door across a decade**, and not one act joins any two of them.*",
+"ark": "3:1:3QS7-997F-M7N8 — FamilySearch MC55-VNL img 147 left page, Arienzo Morti 1878 act 102 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register",
+"tree"
+],
+"living": false,
+"parents": [
+{
+"slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Gioacchino / Guglielmo Falco",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+},
+{
+"slug": "andreana-crisci-of-gioacchino-falco-andreana-crisci",
+"name": "Andreana Crisci (Falco)",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "carmina-falco-2",
+"name": "Carmina Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "giovanni-falco",
+"name": "Giovanni Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "raffaela-falco",
+"name": "Raffaela Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "giovanni-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Giovanni Falco (of Gioacchino, d. 1884)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"mergedOn": "both parents and an exact birth or death date — the name was never used, and this archive holds more than one person of it",
+"treeId": 4512382,
+"b": "Mar 8 1877",
+"dateFrom": {
+"b": "tree",
+"d": "act",
+"bp": "tree",
+"dp": "tree"
+},
+"d": "5 Nov 1878",
+"bp": "Arienzo, Caserta, Campania, Italia",
+"dp": "Arienzo, Caserta, Campania, Italia"
+},
+{
 "slug": "raffaele-falco",
 "name": "Raffaele Falco",
 "surname": "FALCO",
@@ -44761,75 +44862,6 @@
 "dp": "tree"
 },
 "d": "Aug 9 1871",
-"bp": "Arienzo, Caserta, Campania, Italia",
-"dp": "Arienzo, Caserta, Campania, Italia"
-},
-{
-"slug": "raffaele-falco-5",
-"name": "Raffaele Falco",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
-"name": "Gioacchino / Guglielmo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "andreana-crisci-of-gioacchino-falco-andreana-crisci",
-"name": "Andreana Crisci (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "carmina-falco-2",
-"name": "Carmina Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "giovanni-falco",
-"name": "Giovanni Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "raffaela-falco",
-"name": "Raffaela Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4512382,
-"b": "Mar 8 1877",
-"dateFrom": {
-"b": "tree",
-"d": "tree",
-"bp": "tree",
-"dp": "tree"
-},
-"d": "Nov 5 1878",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
