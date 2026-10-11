@@ -25231,6 +25231,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "lucia-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Lucia Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [
@@ -29039,6 +29047,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "lucia-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Lucia Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "mergedOn": "name and dates",
@@ -31828,6 +31844,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "lucia-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Lucia Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "d": "2 Jun 1848",
@@ -33572,6 +33596,73 @@
 {
 "slug": "rosa-falco-of-carlantonio-morgillo-rosa-falco",
 "name": "Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
+"slug": "lucia-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Lucia Falco",
+"surname": "FALCO",
+"household": "Crescenzo Falco & Angela Maria Morgillo",
+"hid": "crescenzo-falco-angela-maria-morgillo",
+"role": "child",
+"events": [
+{
+"event": "marriage",
+"date": "30 Sep 1888",
+"place": "Arienzo",
+"evidence": "**A DAUGHTER THE FAMILY TREE DOES NOT HAVE, AND HER ACT FINDS HER PARENTS ALIVE AT SIXTY-ODD.** Arienzo, *Matrimoni* **1888**, **act 21**, **30 September 1888** at half past eleven: «*2.° **FALCO LUCIA**, di anni **TRENTATRÉ**, *contadina*, nata in **Arienzo**, residente in Arienzo, **figlia di CRESCENZO**, residente in Arienzo, e di **MARIA MORGILLO**, residente in Arienzo*». She married **PERRINO CLEMENTE**, **trenta**, *contadino* of Arienzo, **figlio del fu ANDREA** and of **GELSOMINA VIGLIOTTI**. Witnesses **Antonio d'Onofrio**, 68, and **Andrea Saccone**, 79, both *scriventi*.\n\n**Thirty-three in September 1888 is born about 1855**, which falls inside this household's documented span: the parents married **2 February 1845** and the tree gives them children down to 1862.\n\n**NEITHER PARENT IS MARKED *FU*.** **CRESCENZO FALCO and MARIA MORGILLO were both alive and resident at Arienzo in September 1888** — he would be about sixty-nine, she about sixty-six. *This archive's previous latest sighting of either was the birth of their son Gennaro in **June 1848**, forty years earlier.*\n\n**AND THE MOTHER HAS A THIRD NAME.** The register calls her **ANGELA MARIA MORGILLO** in 1845 and 1848, **MARIA MORGILLO** here, and the family tree calls her **MARIA CONCETTA MORGILLO**. *Three forms of one woman, in two sources and across forty-three years; none of them is corrected, and the household keeps the name its earliest act gives.*\n\n*Her brother is **GIOVANNI FALCO**, born 5 March 1850 in the tree — the **Giovanni Falco of via Orticelli 9** whose son Domenico died in 1885, and whose household this archive created from that act earlier today without knowing whose son he was.*",
+"ark": "3:1:3QS7-L97F-MZCX — FamilySearch MC55-VNL img 1230 left page, Arienzo Matrimoni 1888 act 21 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-maria-morgillo-of-crescenzo-falco-angela-maria-morgi",
+"name": "Angela Maria Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "giuseppe-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-felice-falco",
+"name": "Maria Felice Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gennaro-falco",
+"name": "Gennaro Falco",
 "via": "register",
 "vias": [
 "register"
@@ -37340,6 +37431,14 @@
 {
 "slug": "gennaro-falco",
 "name": "Gennaro Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "lucia-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Lucia Falco",
 "via": "register",
 "vias": [
 "register"
@@ -53118,6 +53217,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "lucia-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Lucia Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [],
@@ -55942,6 +56049,32 @@
 "children": [],
 "siblings": [],
 "noKin": "ancestor-in-another-act"
+},
+{
+"slug": "clemente-perrino",
+"name": "Clemente Perrino",
+"surname": "PERRINO",
+"household": "Crescenzo Falco & Angela Maria Morgillo",
+"hid": "crescenzo-falco-angela-maria-morgillo",
+"role": "married in",
+"events": [
+{
+"event": "marriage",
+"date": "30 Sep 1888",
+"place": "Arienzo",
+"evidence": "«*1.° **PERRINO CLEMENTE**, di anni **TRENTA**, *contadino*, nato in Arienzo, residente in Arienzo, **figlio del fu ANDREA**, residente in vita col figlio, e di **GELSOMINA VIGLIOTTI**, residente in Arienzo*» — same act. **Born about 1858**; his father **ANDREA PERRINO** dead, his mother **GELSOMINA VIGLIOTTI** alive.\n\n*VIGLIOTTI is a surname this archive holds elsewhere — **Gelsomina Vigliotta**, wife of a Giuseppe Falco of the strada Costa, who was dead before December 1854. **A different woman: that one is thirty-four years too early to be this one. Nothing is joined.***",
+"ark": "3:1:3QS7-L97F-MZCX — FamilySearch MC55-VNL img 1230 left page, Arienzo Matrimoni 1888 act 21 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "giovanna-perrotta-of-pasquale-rivetti-giovanna-perrotta",

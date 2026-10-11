@@ -3332,3 +3332,28 @@ council had been dissolved by Royal Decree of 7 July 1889.*
 
 **And one candidate is located and unread**: the 1888 marriage index gives **act 21, PERRINO CLEMENTE
 × FALCO LUCIA**.
+
+## Matrimoni 1888 act 21 — LUCIA FALCO, and a household wakes up after forty years
+
+> «*2.° **FALCO LUCIA**, di anni **TRENTATRÉ**, contadina, nata in Arienzo, residente in Arienzo,
+> **figlia di CRESCENZO**, residente in Arienzo, e di **MARIA MORGILLO**, residente in Arienzo*»
+
+30 September 1888. She married **PERRINO CLEMENTE**, 30, *contadino*, son of the late **Andrea
+Perrino** and of **Gelsomina Vigliotti**.
+
+**Thirty-three is born about 1855**, inside the documented span of «Crescenzo Falco & Angela Maria
+Morgillo» — married 2 February 1845, children in the tree down to 1862. **The family tree does not
+have her.**
+
+**AND NEITHER PARENT IS MARKED *FU*.** Crescenzo Falco and Maria Morgillo were both alive and
+resident at Arienzo in September 1888, he about sixty-nine and she about sixty-six. *This archive's
+previous latest sighting of either was their son Gennaro's birth in **June 1848** — forty years
+earlier.*
+
+> **The mother has three names across two sources and forty-three years**: **ANGELA MARIA MORGILLO**
+> in the acts of 1845 and 1848, **MARIA MORGILLO** here, **MARIA CONCETTA MORGILLO** in the family
+> tree. *None is corrected; the household keeps the name its earliest act gives.*
+
+**And her brother is GIOVANNI FALCO**, born 5 March 1850 in the tree — the **Giovanni Falco of via
+Orticelli 9** whose son Domenico died in 1885, and whose household this archive created from that act
+earlier the same day without knowing whose son he was.
