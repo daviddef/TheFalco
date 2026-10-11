@@ -341,7 +341,40 @@ for nm, ks in kids_named.items():
     if len(ks) == 1 and len(hs) == 1:
         cands.append((nm, ks[0], hs[0]))
 
+# AND A THIRD TEST, ADDED 11 OCTOBER 2026, BECAUSE THE FIRST TWO LET A BABY
+# HEAD A HOUSEHOLD SEVENTY-SIX YEARS BEFORE HE WAS BORN.
+#
+# «Domenico Crisci (of Pasquale, b. 1885)» was entered from Arienzo's birth
+# register that morning. There was exactly one child of the name and exactly one
+# head of the name — «Domenico Crisci & Margarita Falco», documented in 1809 and
+# 1812 — so the name test passed. No generation is argued for either household,
+# so the generation test abstained. The two men are not related, so no cycle
+# closed. **The join was made, the newborn was deleted from the file, and a
+# redirect was minted pointing his URL at a stranger.** Nothing printed a warning.
+#
+# THE INVARIANT IS THE SIMPLEST ONE THERE IS: nobody is documented before they
+# are born. It is restricted to a child whose own record is a BIRTH, and that
+# restriction is not fussiness — a woman often reaches this file as a child only
+# through her DEATH act, decades after she was already heading her husband's
+# house. Chiara Rivetti is the case: child record, death 1843; head record,
+# married about 1789. A rule written on «earliest year» would refuse her join,
+# which is documented and right.
+def _years_of(k):
+    return years(*[e.get("date") for e in hh_people[k]["events"]])
+
+def _born_in(k):
+    ys = years(*[e.get("date") for e in hh_people[k]["events"]
+                 if (e.get("event") or "").lower() == "birth"])
+    return min(ys) if ys else None
+
 for nm, ck, hk in sorted(cands):
+    _b = _born_in(ck)
+    if _b is not None:
+        _earlier = sorted(y for y in _years_of(hk) if y < _b)
+        if _earlier:
+            refused_join.append(f"{nm} (born {_b}; the head of that name is documented in "
+                                f"{_earlier[0]}, before he was born)")
+            continue
     g_head = gen_of_household(household_of_head(hk))
     g_par  = gen_of_household(hh_people[ck]["household"])
     if g_head is not None and g_par is not None and g_par >= g_head:

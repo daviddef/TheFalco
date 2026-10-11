@@ -2767,3 +2767,94 @@ nothing was ever going to catch that but a person re-reading it.
 
 > **When a correction retires a number, retire the English sentence that carries it too — and
 > re-generate every derived file afterwards.** Both are now rules in `tools/check_corrections.py`.
+
+---
+
+# 1884 AND 1885 READ ENTIRE — 11 October 2026
+
+**Every book of two years**, images 751–990 of `MC55-VNL`: births, marriages, deaths and cittadinanze,
+about **eight hundred acts**, read off the printed Numero box of every page. None of these books
+carries an index.
+
+| year | book | images | acts |
+|---|---|---|---:|
+| 1884 | Nascite Parte I | 751–812 | 183, continued to **201** in a second hand |
+| 1884 | Nascite Parte II | 813–815 | 2 |
+| 1884 | Cittadinanze | 816–825 | — |
+| 1884 | Morti | 827–855 | **104** |
+| 1884 | Morti Parte II | 856–857 | 2 |
+| 1885 | Nascite Parte I | 859–919 | **166** |
+| 1885 | Matrimoni | 921–939 | **36** |
+| 1885 | Cittadinanze | 940–943 | 2 |
+| 1885 | Morti | 945–970 | **92** |
+| 1885 | Morti Parte II | 971–972 | 1 |
+| 1886 | Matrimoni | 975– | 28 and running |
+
+> **The order of the books changes between years.** 1878–1884 open each year with the marriages;
+> **1885 opens with the births** and puts the marriages after them. *So the next year's marriage book
+> is not where arithmetic says it is, and the title pages have to be read.* A cover is a near-black
+> thumbnail and the leaf after it is the printed title page with the year on it — six covers in this
+> range, at **826, 858, 920, 944, 973 and 974**.
+
+## THE WHOLE FALCO YIELD OF TWO YEARS IS ONE LEAF
+
+**Image 866 carries a Falco on each of its facing pages**, and there is not another in either year —
+not in the deaths, not in the marriages, not anywhere in 1884.
+
+### Act 17 — FRANCESCA FALCO at via Camellara 7
+
+> «*è comparso **PASQUALE CRISCI**, di anni **QUARANTUNO**, *contadino*, domiciliato in questo comune
+> … nella casa posta in **via Camellara** al numero **sette**, da **FRANCESCA FALCO sua moglie,
+> contadina**, seco lui convivente, è nato un bambino di sesso mascolino … a cui dà il nome di
+> **DOMENICO***»
+
+Born **22 January 1885** at half past seven in the evening. **Via Camellara is this line's own
+street.** She is the **fourth Francesca Falco** this archive holds and can be none of the other
+three — Gioacchino Crisci's died in 1813, Raffaele Crisci's married in 1839, Raffaele Cioffi's was
+burying children at strada Cioffi in 1840–43. *Two of those three are also married to a Crisci,
+which is exactly how a merge happens.*
+
+### Act 18 — CLEMENTE FALCO, vetturale, of the Corso Caudino
+
+> «*è comparso **CLEMENTE FALCO**, di anni **VENTISETTE**, ***vetturale***, domiciliato in questo
+> comune … alle ore antimeridiane **cinque** e minuti **trenta** del dì **ventisei** del corrente
+> mese, nella casa posta in **via Corso Caudino** al numero **ottanta**, da **GAETANA CRISPO sua
+> moglie, cucitrice**, seco lui convivente, è nato un bambino di sesso mascolino … **VINCENZO***»
+
+Born **26 January 1885**. Witnesses Giuseppe Morgillo, 73, *agricoltore*, and Clemente Diglio, 40,
+*garzone*.
+
+**THE LEAD, AND IT IS NOT PROOF.** This archive holds «**Angelo Falco & Annamaria Cimmino (Corso
+Caudino)**», whose son **Vincenzo Falco died 13 September 1889 aged thirty-nine, a *vaticale* of the
+Corso Caudino**. Same street, same trade, brothers' ages. **A birth act names the child's parents,
+not the declarant's** — so Clemente's father is not in this act, and this archive does not attach a
+man to a house on a street and a trade. *The test is cheap: Clemente married about 1878–1884 and that
+act will name his father. It is not in Arienzo's marriage books of 1878–1886, every one of which is
+now read — so he married somewhere else, and that is the next question.*
+
+**And he is not the Clemente Falco already here.** The tree carries a Clemente Falco **born 1858,
+died 9 October 1875**, son of Giuseppe Falco and Rosa Zimbardo — the same birth year, dead ten years
+before this act. *Either the tree's death is wrong or these are two men. Nothing is merged.*
+
+## AND A RECORD ALREADY HELD CAME BACK FROM THE OTHER SIDE
+
+**Arienzo, *Matrimoni* 1884, Parte II, atto 1** (`3:1:3QS7-897F-999R`), 22 July 1884: Arienzo's
+officer received an authenticated copy of a Santa Maria a Vico marriage and **transcribed it entire**
+into Arienzo's own register. It is the marriage of **Commendatore Bartolomeo de Falco × Clementina
+Santoro**, already published here from the Santa Maria a Vico original.
+
+> **A comune transcribes a marriage celebrated elsewhere only for its own residents.** The archive
+> had *inferred* his Arienzo domicile from where the publications were posted; this is the
+> administration stating it.
+
+**And two readings in it were wrong, in opposite directions.**
+
+- «*figlio del fu Signor **ONOFRIO***», not EUFEMIO. *Eufemio is rare and Onofrio is a Neapolitan
+  commonplace — the eye went the wrong way on the word it had least reason to supply.*
+- «*del medico Signor **BALLETTA ANIELLO***» — **surname first**, as this register writes every name
+  in it. Published as «Signor Matteo Aniello»; there is no Matteo in the sentence.
+
+Both are confirmed by **two independent hands**: the Arienzo transcription, and the Santa Maria a
+Vico original re-read at its full 5,179 pixels. Everything else in the act matches word for word —
+the four witnesses and their ages, Signora Hueber of Valle di Maddaloni, the contusion to the right
+knee — so those two were the only two that were wrong.

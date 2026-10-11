@@ -64,7 +64,7 @@
     "who": "Costanza Falco (Crisci)",
     "whoSlug": "costanza-falco",
     "to": "Pasquale Crisci",
-    "toSlug": "pasquale-crisci",
+    "toSlug": "pasquale-crisci-2",
     "into": "Crisci",
     "living": false
    },
@@ -1758,7 +1758,7 @@
   "marriages": [
    {
     "who": "Pasquale Crisci",
-    "whoSlug": "pasquale-crisci",
+    "whoSlug": "pasquale-crisci-2",
     "to": "Costanza Falco (Crisci)",
     "toSlug": "costanza-falco",
     "into": "Falco",
@@ -1919,6 +1919,14 @@
     "dp": ""
    },
    {
+    "name": "Pasquale Crisci",
+    "slug": "pasquale-crisci-2",
+    "b": "27 Jan 1885",
+    "bp": "",
+    "d": "",
+    "dp": ""
+   },
+   {
     "name": "Chiara Crisci (Falco)",
     "slug": "chiara-crisci",
     "b": "",
@@ -1969,14 +1977,6 @@
    {
     "name": "Marta Crisci (Pellone)",
     "slug": "marta-crisci",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "Pasquale Crisci",
-    "slug": "pasquale-crisci",
     "b": "",
     "bp": "",
     "d": "",

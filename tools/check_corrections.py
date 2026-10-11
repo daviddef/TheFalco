@@ -153,6 +153,16 @@ RETIRED_PHRASES = [
     ("eight years younger than the widower",
      "43 \u2212 39 = FOUR. The correction of 20 September 2026 fixed her age and then did the subtraction "
      "with the old number still in hand"),
+    # 11 OCTOBER 2026 — two readings of one act, retired by a SECOND MANUSCRIPT of the same words.
+    # Arienzo transcribed the Santa Maria a Vico marriage of Commendatore Bartolomeo de Falco into
+    # its own Parte II eight days later, word for word from the authenticated extract. Two hands,
+    # two registers, two comuni — and both of them disagreed with what this archive had published.
+    ("fu Signor EUFEMIO",
+     "the groom's father is ONOFRIO \u2014 read at full resolution in the Santa Maria a Vico original "
+     "(3:1:3QS7-897N-Z9KD) and in Arienzo's Parte II transcription of 22 July 1884 (3:1:3QS7-897F-999R)"),
+    ("Signor Matteo Aniello",
+     "the physician is ANIELLO BALLETTA \u2014 both manuscripts read «del medico Signor BALLETTA ANIELLO», "
+     "surname first, as this register writes every name; there is no Matteo in the sentence"),
 ]
 
 GUILLEMET = re.compile(r"\u00ab.*?\u00bb", re.S)
