@@ -3357,3 +3357,29 @@ earlier.*
 **And her brother is GIOVANNI FALCO**, born 5 March 1850 in the tree — the **Giovanni Falco of via
 Orticelli 9** whose son Domenico died in 1885, and whose household this archive created from that act
 earlier the same day without knowing whose son he was.
+
+---
+
+# THE 1886 RE-READ: one Falco birth becomes four
+
+The births of 1886 were the last book still resting on the single-row contact sheet. Re-fetched and
+re-composited at 7 × 2, read to about act 60 so far:
+
+| act | who | first pass read it as |
+|---:|---|---|
+| **6** | **ASSUNTA FALCO**, 7 Jan, via Orticelli 3 — of **Antonio Falco, 42** and **Carmela Guida** | «Fatto Esposito» |
+| **43** | **CARMINE FALCO**, 3 Apr, via Orticelli 2 — of **Giovanni Falco, 34** and **Giuseppa Martone** | «Fatto Carmine» |
+| **44** | **GIUSEPPE FALCO**, 4 Apr, Corso Caudino 80 — of **Vincenzo Falco, 36** and **Angela Pellone** | «Fatto Giuseppe» |
+| 94 | CAROLINA FALCO — of Carmino Falco and Giovanna Pellone | *found* |
+
+**ASSUNTA FALCO IS THE FIRST CHILD OF HER HOUSE KNOWN TO HAVE GROWN UP.** Five children of Antonio
+Falco and Carmela Guida are dead in this archive — Fabrizio 1871, Teresa and Domenica at two in July
+1876, Pasquale at twenty-two days and Vincenzo at seven months in 1877. Assunta's margin carries her
+wedding: «*Con atto **19 dicembre 1897** … la FALCO ASSUNTA sposò **CANGIANO VINCENZO***».
+
+**And the family tree had both Assunta and Carmine**, with Carmine dead on **31 March 1887** — an act
+in the 1887 register, which is in the same re-fetched block and not yet opened.
+
+**Vincenzo Falco's age is now documented five times** — thirty in December 1880, thirty-three in
+January 1884, thirty-six here, thirty-eight in February 1889, thirty-nine at his death that
+September. *Not one of the five is out by more than a year.*

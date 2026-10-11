@@ -14445,7 +14445,7 @@
 ]
 },
 {
-"slug": "assunta-falco",
+"slug": "assunta-falco-2",
 "name": "Assunta Falco",
 "via": "tree",
 "vias": [
@@ -20664,7 +20664,7 @@
 ]
 },
 {
-"slug": "assunta-falco",
+"slug": "assunta-falco-2",
 "name": "Assunta Falco",
 "via": "tree",
 "vias": [
@@ -21289,13 +21289,23 @@
 "dp": "Santa Maria a Vico, Caserta, Campania, Italia"
 },
 {
-"slug": "assunta-falco",
-"name": "Assunta Falco",
+"slug": "assunta-falco-2",
+"name": "Assunta Falco (of Antonio, b. 1886)",
 "surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
+"household": "Antonio Falco & Carmela Guida",
+"hid": "antonio-falco-carmela-guida",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "7 Jan 1886",
+"place": "Arienzo, via Orticelli 3",
+"evidence": "**THE FIRST CHILD OF THIS HOUSE KNOWN TO HAVE GROWN UP.** Arienzo, *Nascite* **1886**, **act 6**: «*L'anno milleottocentottantasei, addì **dieci** di **gennaio** … è comparso **ANTONIO FALCO**, di anni **QUARANTADUE**, *agricoltore*, domiciliato in questo comune … alle ore pomeridiane **otto** e minuti **trenta** del dì **sette** del corrente mese, nella casa posta in **VIA ORTICELLI** al numero **TRE**, da **CARMELA GUIDA sua moglie**, contadina, seco lui convivente, è nato un bambino di sesso **femminino** … a cui dà il nome di **ASSUNTA***». Witnesses **Raffaele Buotolo**, 42, *contadino*, and **Giuseppe Crisci**, 46, *calzolaio*.\n\n**AND THE MARGIN CARRIES HER WEDDING, ELEVEN YEARS ON**: «*Con atto **19 dicembre 1897** n. 34 in Arienzo la **FALCO ASSUNTA** sposò **CANGIANO VINCENZO***».\n\n**FIVE CHILDREN OF THIS HOUSE ARE DEAD IN THIS ARCHIVE** — Fabrizio in 1871, Teresa and Domenica at two in July 1876, Pasquale at twenty-two days and Vincenzo at seven months in 1877 — *and Assunta is the first who is seen to live.*\n\n**ANTONIO FALCO IS FORTY-TWO IN JANUARY 1886**, so born about 1843–4, and **the house has moved again**: via Camellara **2** in 1876, via Camellara **16** in 1877, **via Orticelli 3** here.",
+"ark": "3:1:3QS7-897F-9ZK — FamilySearch MC55-VNL img 999 right page, Arienzo Nascite 1886 act 6 — READ FROM THE IMAGE"
+}
+],
 "sources": [
+"register",
 "tree"
 ],
 "living": false,
@@ -21355,8 +21365,9 @@
 {
 "slug": "fabrizio-falco",
 "name": "Fabrizio Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -21391,12 +21402,45 @@
 "vias": [
 "tree"
 ]
+},
+{
+"slug": "teresa-falco",
+"name": "Teresa Falco (of Antonio, d. 1876)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenica-falco-of-antonio-falco-carmela-guida",
+"name": "Domenica Falco (of Antonio, d. 1876)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-antonio-falco-carmela-guida",
+"name": "Pasquale Falco (of Antonio, d. 1877)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-antonio-falco-carmela-guida",
+"name": "Vincenzo Falco (of Antonio, d. 1877)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
+"mergedOn": "name and dates",
 "treeId": 4512540,
-"b": "Jan 7 1886",
+"b": "7 Jan 1886",
 "dateFrom": {
-"b": "tree",
+"b": "act",
 "bp": "tree"
 },
 "bp": "Arienzo, Caserta, Campania, Italia"
@@ -22905,6 +22949,88 @@
 }
 },
 {
+"slug": "carmine-falco-2-2",
+"name": "Carmine Falco (of Giovanni, b. 1886)",
+"surname": "FALCO",
+"household": "Giovanni Falco & Giuseppa Martone",
+"hid": "giovanni-falco-giuseppa-martone",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "3 Apr 1886",
+"place": "Arienzo, via Orticelli 2",
+"evidence": "Arienzo, *Nascite* **1886**, **act 43**: «*… è comparso **GIOVANNI FALCO**, di anni **TRENTAQUATTRO**, *agricoltore*, domiciliato in questo comune … alle ore antimeridiane **nove** e minuti **trenta** del dì **tre** del corrente mese, nella casa posta in **VIA ORTICELLI** al numero **DUE**, da **GIUSEPPA MARTONE sua moglie**, contadina, seco lui convivente, è nato un bambino di sesso mascolino … a cui dà il nome di **CARMINE***», 4 April 1886. Witnesses **Francesco Buotolo**, 70, *contadino*, and **Giuseppe Crisci**, 43, *calzolaio*.\n\n**THIRTY-FOUR IN APRIL 1886 IS BORN ABOUT 1852**, and the family tree gives **Giovanni Falco born 5 March 1850, son of CRESCENZO FALCO and MARIA CONCETTA MORGILLO**. *Two years, which these registers manage routinely — and his sister **LUCIA FALCO**'s marriage act of September 1888 names the same two parents, alive.*\n\n*This household was created earlier the same day from the death of a son **DOMENICO** at sixteen months in February 1885, at **via Orticelli 9**. Here they are at **number 2**.*",
+"ark": "3:1:3QSQ-G97F-9QG — FamilySearch MC55-VNL img 1012 left page, Arienzo Nascite 1886 acts 43 and 44 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register",
+"tree"
+],
+"living": false,
+"parents": [
+{
+"slug": "giovanni-falco-of-giovanni-falco-giuseppa-martone",
+"name": "Giovanni Falco",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+},
+{
+"slug": "giuseppa-martone-2",
+"name": "Giuseppa Martone (Falco)",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "crescenzo-falco-2",
+"name": "Crescenzo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "crescenzo-falco-3",
+"name": "Crescenzo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "domenico-falco-of-giovanni-falco-giuseppa-martone",
+"name": "Domenico Falco (of Giovanni, d. 1885)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"mergedOn": "both parents and an exact birth or death date — the name was never used, and this archive holds more than one person of it",
+"treeId": 4512449,
+"b": "3 Apr 1886",
+"dateFrom": {
+"b": "act",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
+"d": "Mar 31 1887",
+"bp": "Arienzo, Caserta, Campania, Italia",
+"dp": "Arienzo, Caserta, Campania, Italia"
+},
+{
 "slug": "carmine-falco",
 "name": "Carmine Falco",
 "surname": "FALCO",
@@ -23030,67 +23156,6 @@
 "diedNote": "Family knowledge, given by David de Franceski on 10 September 2026. No death record has been read for him, and none is claimed."
 },
 "d": "2026"
-},
-{
-"slug": "carmine-falco-2",
-"name": "Carmine Falco",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "giovanni-falco-of-giovanni-falco-giuseppa-martone",
-"name": "Giovanni Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "giuseppa-martone-2",
-"name": "Giuseppa Martone (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "crescenzo-falco-2",
-"name": "Crescenzo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "crescenzo-falco-3",
-"name": "Crescenzo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4512449,
-"b": "Apr 3 1886",
-"dateFrom": {
-"b": "tree",
-"d": "tree",
-"bp": "tree",
-"dp": "tree"
-},
-"d": "Mar 31 1887",
-"bp": "Arienzo, Caserta, Campania, Italia",
-"dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "carmine-falco-3",
@@ -25009,7 +25074,7 @@
 ]
 },
 {
-"slug": "assunta-falco",
+"slug": "assunta-falco-2",
 "name": "Assunta Falco",
 "via": "tree",
 "vias": [
@@ -25457,7 +25522,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "carmine-falco-2",
+"slug": "carmine-falco-2-2",
 "name": "Carmine Falco",
 "via": "tree",
 "vias": [
@@ -25514,7 +25579,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "carmine-falco-2",
+"slug": "carmine-falco-2-2",
 "name": "Carmine Falco",
 "via": "tree",
 "vias": [
@@ -25875,6 +25940,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "assunta-falco-2",
+"name": "Assunta Falco (of Antonio, b. 1886)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "d": "14 Jul 1876",
@@ -25947,7 +26020,7 @@
 ]
 },
 {
-"slug": "assunta-falco",
+"slug": "assunta-falco-2",
 "name": "Assunta Falco",
 "via": "tree",
 "vias": [
@@ -26052,7 +26125,7 @@
 ]
 },
 {
-"slug": "assunta-falco",
+"slug": "assunta-falco-2",
 "name": "Assunta Falco",
 "via": "tree",
 "vias": [
@@ -26703,7 +26776,16 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": [],
+"siblings": [
+{
+"slug": "carmine-falco-2-2",
+"name": "Carmine Falco (of Giovanni, b. 1886)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "d": "10 Feb 1885",
 "dateFrom": {
 "d": "act"
@@ -26784,10 +26866,11 @@
 ]
 },
 {
-"slug": "assunta-falco",
+"slug": "assunta-falco-2",
 "name": "Assunta Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -30337,7 +30420,7 @@
 ]
 },
 {
-"slug": "assunta-falco",
+"slug": "assunta-falco-2",
 "name": "Assunta Falco",
 "via": "tree",
 "vias": [
@@ -30889,10 +30972,11 @@
 ],
 "children": [
 {
-"slug": "carmine-falco-2",
+"slug": "carmine-falco-2-2",
 "name": "Carmine Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -32252,6 +32336,36 @@
 ]
 }
 ]
+},
+{
+"slug": "giuseppe-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Giuseppe Falco (of Vincenzo, b. 1886)",
+"surname": "FALCO",
+"household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+"hid": "angelo-falco-annamaria-cimmino-corso-caudino",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "4 Apr 1886",
+"place": "Arienzo, Corso Caudino 80",
+"evidence": "Arienzo, *Nascite* **1886**, **act 44**: «*… è comparso **VINCENZO FALCO**, di anni **TRENTASEI**, ***vetturale***, domiciliato in questo comune … alle ore antimeridiane **undici** e minuti **trenta** del dì **quattro** del corrente mese, nella casa posta in **via CORSO CAUDINO** al numero **OTTANTA**, da **ANGELA PELLONE sua moglie**, *cucitrice*, seco lui convivente, è nato un bambino di sesso mascolino … a cui dà il nome di **GIUSEPPE***», 7 April 1886.\n\n**THIRTY-SIX IN APRIL 1886 IS THE FIFTH AGE THIS ARCHIVE HOLDS FOR HIM AND THE FIFTH TO AGREE**: *thirty in December 1880, thirty-three in January 1884, thirty-six here, thirty-eight in February 1889, thirty-nine at his death that September.* **Born about 1850, and not one of the five is out by more than a year.**\n\n*He is at **Corso Caudino 80** here and in 1889, at **88** in 1884 and **89** at his son Pasquale's death in March of that year. The street never changes and the number will not settle.*",
+"ark": "3:1:3QSQ-G97F-9QG — FamilySearch MC55-VNL img 1012 left page, Arienzo Nascite 1886 acts 43 and 44 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "4 Apr 1886",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
 },
 {
 "slug": "giuseppe-falco-of-giuseppe-falco-rosa-sposito",
@@ -34296,7 +34410,7 @@
 ]
 },
 {
-"slug": "assunta-falco",
+"slug": "assunta-falco-2",
 "name": "Assunta Falco",
 "via": "tree",
 "vias": [
@@ -37876,7 +37990,7 @@
 ]
 },
 {
-"slug": "assunta-falco",
+"slug": "assunta-falco-2",
 "name": "Assunta Falco",
 "via": "tree",
 "vias": [
@@ -41771,6 +41885,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "assunta-falco-2",
+"name": "Assunta Falco (of Antonio, b. 1886)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "d": "1 Mar 1877",
@@ -42189,7 +42311,7 @@
 ]
 },
 {
-"slug": "assunta-falco",
+"slug": "assunta-falco-2",
 "name": "Assunta Falco",
 "via": "tree",
 "vias": [
@@ -46222,6 +46344,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "assunta-falco-2",
+"name": "Assunta Falco (of Antonio, b. 1886)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "d": "10 Jul 1876",
@@ -47325,6 +47455,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "assunta-falco-2",
+"name": "Assunta Falco (of Antonio, b. 1886)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "d": "14 Sep 1877",
@@ -47519,7 +47657,7 @@
 ]
 },
 {
-"slug": "assunta-falco",
+"slug": "assunta-falco-2",
 "name": "Assunta Falco",
 "via": "tree",
 "vias": [
@@ -51518,10 +51656,11 @@
 ],
 "children": [
 {
-"slug": "carmine-falco-2",
+"slug": "carmine-falco-2-2",
 "name": "Carmine Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
