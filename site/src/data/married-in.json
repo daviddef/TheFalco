@@ -182,7 +182,7 @@
    },
    {
     "who": "Giovanna Falco (Crisci)",
-    "whoSlug": "giovanna-falco-2",
+    "whoSlug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
     "to": "Aniello Crisci",
     "toSlug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
     "into": "Crisci",
@@ -504,7 +504,7 @@
    },
    {
     "name": "Giovanna Falco (Crisci)",
-    "slug": "giovanna-falco-2",
+    "slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
     "b": "Aug 13 1805",
     "bp": "Arienzo",
     "d": "Oct 14 1872",
@@ -1784,7 +1784,7 @@
     "who": "Aniello Crisci",
     "whoSlug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
     "to": "Giovanna Falco (Crisci)",
-    "toSlug": "giovanna-falco-2",
+    "toSlug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
     "into": "Falco",
     "living": false
    },

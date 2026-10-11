@@ -3059,3 +3059,53 @@ The act adds what the margin could not: he is **twenty-seven**, a *contadino*, s
 
 **And it is the second act in three years to say where Alessandra Crisci lived**: «*residente in vita
 col marito*», the same words as her daughter Clementina's act of 1878, from a different clerk.
+
+---
+
+# THE DEATHS OF 1872, OPENED FOR THE FIRST TIME
+
+**`MC55-FNT` images 753–774**, a handwritten register with the deceased's name in a margin box and no
+index. It was opened because Clementina Falco's marriage act had just narrowed Alessandra Crisci's
+death to 1872–1877 and said she lived at Arienzo.
+
+**She is not in it.** *Five unopened years remain: 1873, 1874, 1875, 1876, 1877.*
+
+**But two Falco are.**
+
+## Act 86 — GIOVANNA FALCO, generation three's daughter
+
+> «*è morta **GIOVANNA FALCO**, contadina, di anni **SESSANTASETTE**, **moglie di ANIELLO CRISCI**,
+> nata e domiciliata in Arienzo, **figlia de' furono GIUSEPPE e ANTONIA GUIDA***»
+
+14 October 1872, in her own house **nel VILLAGGIO CRISCI** — a place-name new to this archive, and
+not the *strada Crisci* where her daughter was born in 1832. **Sixty-seven is born about 1805**, and
+she married Aniello Crisci on 6 September 1829 at about twenty-four. *The household stood on that
+marriage and one daughter, and nothing else.*
+
+**Her filiation is now stated twice, forty-three years apart, by two clerks.** And the family tree —
+which had her born 13 August 1805 and dead 14 October 1872 — is right to the day.
+
+### AND THE DECLARANT NAMES HIS OWN FATHER
+
+> «*sono comparsi **GIUSEPPE FALCO FU MATTEO**, di anni **VENTISETTE**, e **CARMINE CRISCI fu
+> Francesco**, di anni cinquantatré, ambi agricoltori*»
+
+**Twenty-seven in October 1872 is born about 1845.** *A declarant never becomes kinship here — but
+the act states his father, which is evidence about the man rather than an inference from his
+presence.* **He is the strongest candidate yet for the Giuseppe Falco who married Nicoletta Nuzzo**,
+forty-two in February 1885; the two ages are three years apart, which these registers manage
+routinely.
+
+## Act 12 — GIUSEPPE FALCO, ninety-seven
+
+> «*è morto **GIUSEPPE FALCO**, contadino, d'anni **NOVANTASETTE**, **VEDOVO DI LELIA CRISCI**, nato
+> e domiciliato in Arienzo, **figlio de' fu FRANCESCO e MARIANGELA MARTENISI***»
+
+10 February 1872, **nella casa di FRANCESCO FALCO, sita Via Sant'Andrea** — he died in another man's
+house, and neither declarant was a relation. **The family tree's Giuseppe Falco — born 1775, died
+10 February 1872, son of Francesco and Mariangela Martenisi, husband of Lelia Crisci — is verified in
+every particular**, having been unverified since this archive began.
+
+> **One reading is recorded and not resolved**: the act calls his mother **MARTENISI**, and the tree
+> agrees; this archive holds the household as «Francesco Falco & Mariangela **Iuliuccio**» from its
+> own earlier reading. *Two against one, and the one is ours. The 1775 baptism would settle it.*
