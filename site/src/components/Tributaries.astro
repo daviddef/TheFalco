@@ -101,27 +101,15 @@ const INTOWN = [
   { fam: "Maione", gens: "6", x: GX(6), note: "Costanza Maione of Arienzo, married 26 September 1897", href: "/maione" },
 ];
 
-/* Strands that touch the same ground and do NOT join. Drawn with a real gap. */
-const APART = [
-  { key: "camellara", label: "Five Falco households on strada Camellara", y: 682,
-    colour: "var(--ochre)", href: "/wider-family", read: "The wider family →",
-    joined: "Michelangelo Falco — PROVED KIN",
-    joinedWhy: "On 4 MAY 1831, in act 33 of the Arienzo death register, VINCENZO FALCO of this line — thirty-eight, contadino of strada Camellara — declared the death of Michelangelo's thirteen-month-old daughter Anna and is recorded as «PARENTE DELLA DEFUNTA» — a kinsman, where the other declarant, ANDREA CRISCI, fifty-eight, of the same street, is only «VICINO DELLA DEFUNTA», a neighbour. The clerk drew the distinction himself, in one sentence. The degree is not stated. Read from the image on 20 September 2026.",
-    apartLabel: "a second Michelangelo · Michele · Francesco · an older Michele — NOT joined",
-    apartWhy: "Four more Falco households on the same short street. Nothing in any register joins them to the line or to each other. A shared surname in one small town is suggestive and is not evidence.\n\nTHE SECOND MICHELANGELO IS NEW, and he is the reason this label changed on 20 September 2026. Two Anna Falco died three years apart, each «figlia di MICHELANGELO FALCO», with two different mothers: the Anna of 4 May 1831 is MARIANTONIA VIGLIOTTA\u2019s, and the Anna of 16 March 1834 is RAFFAELA FALCO\u2019s. Both mothers were read from the image and magnified. A remarriage between them is excluded if that Mariantonia Vigliotta is the woman still bearing children to a Michele Falco in 1834, 1836 and 1842 whom he survived in 1850. So either there are two men of the name, or one of the mothers belongs to a man of the same name \u2014 and until the marriage act of December 1828 is re-read from an image, this archive will not say which." },
-  { key: "paolisi", label: "Out of Paolisi — the oldest Falco claim", y: 786,
-    colour: "var(--terra)", href: "/open-questions", read: "Open questions →",
-    joined: null,
-    apartLabel: "Francesco Falco, Paolisi 1714 → Arienzo 1726 — NOT joined",
-    apartWhy: "The earliest Arienzo Falco household with a stated place of origin, twelve years before Matteo's generation. It would be a satisfying answer to where the family came from. Nothing whatever joins it to this line." },
-  { key: "gentry", label: "The gentry Falco of Arienzo", y: 862,
-    colour: "var(--r-habsburg)", href: "/antenati", read: "The registers →",
-    joined: null,
-    apartLabel: "Don Francesco Falco, proprietario · Donna Raffaela, nun — NOT joined",
-    apartWhy: "A landowner and his daughter, a nun of the Ave Gratia Plena dead at sixty-seven in 1836. Ours are contadini. Plainly a different household living elsewhere in the same town." },
-];
+/* Strands that touch the same ground and do NOT join. Drawn with a real gap.
+ * The rows live in src/data/apart.json, not here: on 11 October 2026 two more
+ * streets took this list past four entries, and check:inline counts an array of
+ * four or more rows in a template as evidence that is reachable only by editing
+ * the page. The ratchet may only go down, so the data moved out rather than the
+ * gate being loosened. */
+import APART from "../data/apart.json";
 
-const H = 928;
+const H = 1108;
 ---
 <figure class="rivers">
   <svg viewBox={`0 0 1180 ${H}`} role="img" aria-labelledby="riversttl">
