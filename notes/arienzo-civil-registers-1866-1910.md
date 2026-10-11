@@ -3525,3 +3525,57 @@ Orticelli, an *agricoltore* married to Giuseppa Martone.
 > own marriage eleven months earlier. **The brothers are proved by their own acts, not by this one**;
 > a declarant is still never kinship here, and this act simply happens to involve two men already
 > joined.
+
+---
+
+# 1882 — five Falco acts, and generation three's third documented child
+
+**`MC55-VNL` images 589–619, 114 acts and two in the supplement, no index.** The richest single Falco
+year this archive has opened.
+
+> «*… nella casa posta in **via ORTICELLI** al numero **OTTO**, è morto **GIUSEPPE FALCO**, di anni
+> **CINQUANTOTTO**, giornaliero … **dal fu VINCENZO**, contadino … e **dalla fu ANDREANA CRISCI**,
+> contadina … **MARITO DI ROSA ZIMBARDO***»
+
+*Morti* 1882 **act 34**, **3 May 1882**. The family tree said *Giuseppe Falco, born 1824, died 3 May
+1882, son of Vincenzo Falco and Andreana Crisci, husband of Rosa Zimbardo* — **the whole of it is on
+the register now, and the filiation with it.** He died in **the room both his sons had died in**:
+Angelo at nineteen in January 1875, Clemente at seventeen that October, via Orticelli 8.
+
+**Generation three has three documented children in one day** — Raffaele (generation four, d. 1880),
+Sara (1828–1886) and Giuseppe (c.1824–1882).
+
+## FRANCESCO FALCO, 1806–1882 — and his mother will not agree with his brothers'
+
+> «*è morto **FRANCESCO FALCO**, di anni **SETTANTASEI**, contadino … **dal fu PASQUALE**, contadino,
+> domiciliato in vita col figlio, e **dalla fu CHIARA CRISCI**, contadina … **VEDOVO DI CARMELA
+> SADUTTO***»
+
+Born about 1806 — between **Vincenzo** (1792–3) and **Michele** (about 1808), both sons of **Pasquale
+Falco and CHIARA RIVETTI** by their own death acts read today.
+
+> **But this act says CHIARA CRISCI — and so does the family tree**, which carries a *Francesco Falco,
+> born 1806, died 8 August 1882, son of Pasquale Falco and Chiara Crisci, husband of Carmela Sadutto*,
+> reached independently and matching **to the day**.
+>
+> **So it is not one clerk's slip.** The question is whether **Pasquale Falco married twice**, or
+> whether one surname is an error old enough to have reached both the register and the family's own
+> memory. *Crisci is the commonest surname in these books and the scribe at this act is **Luigi
+> Crisci**; and a tree may simply descend from the act it is checked against.* **Nothing read chooses,
+> so nothing is chosen** — he is held in a household of his own and **not joined**.
+
+## And three more
+
+**Act 42**, 28 May — **MATTEO FALCO**, one year, via Orticelli 4, of **Giuseppe Falco and NICOLETTA
+NUZZO**. ***The first Matteo***; the one already held was born 1885. *They tried the name twice, which
+strengthens the custom argument without settling it.*
+
+**Act 3**, 8 January — **DOMENICA FALCO**, eleven months, of Antonio Falco and Carmela Guida. The
+second Domenica of that house; **six of its children are now dead here** against one known to have
+grown up. *And the margin box calls her «Domenico» while the act says «è **morta** … contadin**a**» —
+the second margin to get a child's sex wrong.*
+
+**Act 96**, 9 October — **GIUSEPPA FALCO**, eight, **via Orticelli 10**, of **ANTONIO FALCO and
+GIOVANNA MAIONE**. *A household new to this archive, and **not** the Antonio Falco of via Camellara
+married to Carmela Guida. Number 10 is where generation three died in 1875 — a fact about a street,
+not a filiation.*

@@ -9054,6 +9054,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [],
@@ -10090,7 +10098,7 @@
 ],
 "children": [
 {
-"slug": "francesco-falco-4",
+"slug": "francesco-falco-of-francesco-falco-carmela-sadutto",
 "name": "Francesco Falco",
 "via": "tree",
 "vias": [
@@ -17020,6 +17028,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "mergedOn": "name alone",
@@ -18642,6 +18658,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "12 Sep 1826",
@@ -18851,6 +18875,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
 "register"
@@ -21016,6 +21048,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "mergedOn": "both parents and an exact birth or death date — the name was never used, and this archive holds more than one person of it",
@@ -21605,6 +21645,14 @@
 {
 "slug": "vincenzo-falco-of-antonio-falco-carmela-guida",
 "name": "Vincenzo Falco (of Antonio, d. 1877)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenica-falco-of-antonio-falco-carmela-guida-2",
+"name": "Domenica Falco (the second, d. 1882)",
 "via": "register",
 "vias": [
 "register"
@@ -22347,6 +22395,14 @@
 {
 "slug": "maria-falco-of-giuseppe-falco-nicoletta-nuzzo",
 "name": "Maria Falco (of Giuseppe, b. 1887)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-giuseppe-falco-nicoletta-nuzzo-2",
+"name": "Matteo Falco (the first, d. 1882)",
 "via": "register",
 "vias": [
 "register"
@@ -26170,9 +26226,95 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "domenica-falco-of-antonio-falco-carmela-guida-2",
+"name": "Domenica Falco (the second, d. 1882)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "d": "14 Jul 1876",
+"dateFrom": {
+"d": "act"
+}
+},
+{
+"slug": "domenica-falco-of-antonio-falco-carmela-guida-2",
+"name": "Domenica Falco (the second, d. 1882)",
+"surname": "FALCO",
+"household": "Antonio Falco & Carmela Guida",
+"hid": "antonio-falco-carmela-guida",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "8 Jan 1882",
+"place": "Arienzo, via Camellara 20",
+"evidence": "Arienzo, *Morti* **1882**, **act 3**: «*… sono comparsi **PASQUALE FALCO**, di anni **quarantuno**, *contadino*, e **NICOLA BIONDO**, di anni **ventotto**, *secatore* … nella casa posta in **via CAMELLARA** al numero **VENTI**, è morta **DOMENICA FALCO**, di **MESI UNDICI**, *contadina* … da **ANTONIO**, contadino … e da **CARMELA GUIDA**, contadina*», **8 January 1882**.\n\n**THE MARGIN BOX CALLS HER «Falco Domenico» AND THE ACT SAYS «è **morta** … **DOMENICA** … contadin**a**».** *The second margin in this archive to get a child's sex wrong, after «Falco Angelo» for **ANGELA FALCO** in 1876. **The act is the record and the margin is its finding aid.***\n\n**THE SECOND DOMENICA OF THIS HOUSE**: *the first died at two on 14 July 1876. **Six children of Antonio Falco and Carmela Guida are now dead in this archive** — Fabrizio 1871, Teresa and Domenica 1876, Pasquale and Vincenzo 1877, Domenica again 1882 — against one, **ASSUNTA**, known to have grown up.*\n\n*Both declarants are known men: **PASQUALE FALCO**, forty-one, of via Camellara 5, and **NICOLA BIONDO**, twenty-eight, the *secatore* who married **CLEMENTINA FALCO** in 1878 at twenty-six. **Neither becomes kinship.***",
+"ark": "3:1:3QSQ-G97F-99X1 — FamilySearch MC55-VNL img 589 right page, Arienzo Morti 1882 act 3 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "fabrizio-falco",
+"name": "Fabrizio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "teresa-falco",
+"name": "Teresa Falco (of Antonio, d. 1876)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenica-falco-of-antonio-falco-carmela-guida",
+"name": "Domenica Falco (of Antonio, d. 1876)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-antonio-falco-carmela-guida",
+"name": "Pasquale Falco (of Antonio, d. 1877)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-antonio-falco-carmela-guida",
+"name": "Vincenzo Falco (of Antonio, d. 1877)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "assunta-falco-2",
+"name": "Assunta Falco (of Antonio, b. 1886)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"d": "8 Jan 1882",
 "dateFrom": {
 "d": "act"
 }
@@ -27155,6 +27297,14 @@
 {
 "slug": "vincenzo-falco-of-antonio-falco-carmela-guida",
 "name": "Vincenzo Falco (of Antonio, d. 1877)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenica-falco-of-antonio-falco-carmela-guida-2",
+"name": "Domenica Falco (the second, d. 1882)",
 "via": "register",
 "vias": [
 "register"
@@ -28722,6 +28872,70 @@
 ]
 },
 {
+"slug": "francesco-falco-of-francesco-falco-carmela-sadutto",
+"name": "Francesco Falco (1806-1882)",
+"surname": "FALCO",
+"household": "Francesco Falco & Carmela Sadutto",
+"hid": "francesco-falco-carmela-sadutto",
+"role": "father",
+"events": [
+{
+"event": "death",
+"date": "8 Aug 1882",
+"place": "Arienzo, via Camellara 10",
+"evidence": "**A THIRD MAN OF THIS GENERATION CALLED «DAL FU PASQUALE» — AND THE MOTHER'S SURNAME DOES NOT MATCH.**\n\nArienzo, *Morti* **1882**, **act 77**: «*L'anno milleottocentottantadue, addì **nove** di **agosto** … sono comparsi **ANTONIO PAPA**, di anni **quarantadue**, *giornaliero*, e **MARCO MORGILLO**, di anni **sessanta**, *contadino* … nella casa posta in **via CAMELLARA** al numero **DIECI**, è morto **FRANCESCO FALCO**, di anni **SETTANTASEI**, *contadino*, residente in Arienzo, nato in Arienzo, **dal fu PASQUALE**, contadino, domiciliato in vita col figlio, e **dalla fu CHIARA CRISCI**, contadina, domiciliata in vita col marito, **VEDOVO DI CARMELA SADUTTO***».\n\n**SEVENTY-SIX IN AUGUST 1882 IS BORN ABOUT 1806**, which sits between **VINCENZO FALCO** (born 1792–3) and **MICHELE FALCO** (born about 1808), both of them sons of **PASQUALE FALCO and CHIARA RIVETTI** by their own death acts.\n\n**BUT THIS ACT WRITES THE MOTHER «CHIARA CRISCI», NOT «CHIARA RIVETTI», AND THAT IS NOT CORRECTED HERE.** *Read at magnification and read again: the surname is **Crisci**. **AND THE FAMILY TREE SAYS CRISCI TOO** — it carries a *Francesco Falco, born 1806, died 8 August 1882, son of **PASQUALE FALCO** and **CHIARA CRISCI**, husband of **CARMELA SADUTTO***, and the two sources were reached independently. **The death date matches to the day and so does the mother's surname.** *That is no longer a slip of one clerk's pen, and this archive will not call it one.* **So the question is no longer «did the clerk slip?» but «did PASQUALE FALCO marry twice?»** — or is one surname an error old enough to have reached both the register and the family's own memory? *CRISCI is the commonest surname in these books and the scribe at this very act is **Luigi Crisci**, which is how such an error would start; and the tree may simply descend from this act. **Nothing read chooses between those, so nothing is chosen.***\n\n**SO HE IS HELD IN A HOUSEHOLD OF HIS OWN AND NOT JOINED TO GENERATION THREE'S PARENTS.** *What would settle it: his own marriage act to **CARMELA SADUTTO**, or his baptism of about 1806. **Until one of those is read, he is a man of the right name, the right comune, the right generation and a mother two sources agree on and two other acts contradict.***\n\n*SADUTTO is a surname this archive meets repeatedly — **Elisabetta Sadutto**, wife of a Pasquale Falco; **Giuseppa Sadutto**, mother of Angelo Lettieri who married Chiara Falco in 1882. **Nothing is joined.***",
+"ark": "3:1:3QSQ-G97F-99CD — FamilySearch MC55-VNL img 608 left page, Arienzo Morti 1882 act 77 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register",
+"tree"
+],
+"living": false,
+"parents": [
+{
+"slug": "pasquale-falco-2",
+"name": "Pasquale Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "chiara-crisci",
+"name": "Chiara Crisci (Falco)",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"spouses": [
+{
+"slug": "carmela-sadutto",
+"name": "Carmela Sadutto (Falco)",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"children": [],
+"siblings": [],
+"mergedOn": "the couple — his own name AND his wife's agree on both sides, and the pairing is unique in each direction",
+"treeId": 4512533,
+"b": "1806",
+"dateFrom": {
+"b": "tree",
+"d": "act",
+"bp": "tree",
+"dp": "tree"
+},
+"d": "8 Aug 1882",
+"bp": "Arienzo, Caserta, Campania, Italia",
+"dp": "Arienzo, Caserta, Campania, Italia"
+},
+{
 "slug": "francesco-falco",
 "name": "Francesco Falco",
 "surname": "FALCO",
@@ -29030,59 +29244,6 @@
 }
 ],
 "treeId": 4512519
-},
-{
-"slug": "francesco-falco-4",
-"name": "Francesco Falco",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "pasquale-falco-2",
-"name": "Pasquale Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "chiara-crisci",
-"name": "Chiara Crisci (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [
-{
-"slug": "carmela-sadutto",
-"name": "Carmela Sadutto (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"children": [],
-"siblings": [],
-"treeId": 4512533,
-"b": "1806",
-"dateFrom": {
-"b": "tree",
-"d": "tree",
-"bp": "tree",
-"dp": "tree"
-},
-"d": "Aug 8 1882",
-"bp": "Arienzo, Caserta, Campania, Italia",
-"dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "francisca-anna-angela-falco",
@@ -31469,6 +31630,36 @@
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
+"slug": "giuseppa-falco-2",
+"name": "Giuseppa Falco (of Antonio, d. 1882)",
+"surname": "FALCO",
+"household": "Antonio Falco & Giovanna Maione",
+"hid": "antonio-falco-giovanna-maione",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "9 Oct 1882",
+"place": "Arienzo, via Orticelli 10",
+"evidence": "**EIGHT YEARS OLD, AND THE ONLY ACT THIS HOUSEHOLD HAS.**\n\nArienzo, *Morti* **1882**, **act 96**: «*L'anno milleottocentottantadue, addì **dieci** di **ottobre** … Avanti di me **CARFORA Cavalier CARLO**, Assessore anziano funzionante da Sindaco … sono comparsi **FRANCESCO FERRIELLO**, di anni **sessantadue**, *fossaro*, e **MARCANTONIO CRISCI**, di anni **sessantasei**, *calzolaio* … nella casa posta in **via ORTICELLI** al numero **DIECI**, è morta **GIUSEPPA FALCO**, di **ANNI OTTO**, *contadina*, residente in Arienzo, nata in Arienzo, da **ANTONIO**, contadino, domiciliato in Arienzo, e da **GIOVANNA MAIONE**, contadina, domiciliata in Arienzo*».\n\n**Born about 1874**, so her birth act is in Arienzo's register of that year, unopened.\n\n**THIS IS NOT «ANTONIO FALCO & CARMELA GUIDA».** *That Antonio is a *contadino* of **via Camellara**, married to **CARMELA GUIDA**, with six dead children in this archive. **This one is married to GIOVANNA MAIONE and lives in via Orticelli.** Two men of one forename, two wives, two streets — and nothing here merges them.*\n\n**AND THE HOUSE IS NUMBER TEN, WHICH IS GENERATION THREE'S OWN.** *VINCENZO FALCO died at **via Orticelli 10** on 15 May 1875, seven years before this child. **Nothing read joins the two households**, and a house number that passes from one family to another over seven years is a fact about a street, not a filiation.*",
+"ark": "3:1:3QS7-897F-99JS — FamilySearch MC55-VNL img 612 right page, Arienzo Morti 1882 act 96 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"d": "9 Oct 1882",
+"dateFrom": {
+"d": "act"
+},
+"noKin": "kin-named-only-in-the-household-name"
+},
+{
 "slug": "giuseppa-falco",
 "name": "Giuseppa Falco",
 "surname": "FALCO",
@@ -31698,6 +31889,181 @@
 ]
 }
 ]
+},
+{
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
+"surname": "FALCO",
+"household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "3 May 1882",
+"place": "Arienzo, via Orticelli 8",
+"evidence": "«*è morto **GIUSEPPE FALCO**, di anni **CINQUANTOTTO** … **dal fu VINCENZO** … e **dalla fu ANDREANA CRISCI** … **MARITO DI ROSA ZIMBARDO***» — Arienzo, *Morti* 1882, act 34, read from the image.\n\n**A SON OF THIS HOUSEHOLD, BORN ABOUT 1824**, which the family tree said and no document showed until today. *See his own household.*",
+"ark": "3:1:3QSQ-G97F-99HN — FamilySearch MC55-VNL img 597 left page, Arienzo Morti 1882 act 34 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+"name": "Andreana Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
+"name": "Vincenzo Falco (of Angelo, of Via Corso)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Raffaele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Luigi (Aloysius) Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Pasquale Falco (of Vincenzo, 1830-1833)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Antonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "andrea-falco",
+"name": "Andrea Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nunziata-falco",
+"name": "Nunziata Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
+"name": "[daughter] Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci-2",
+"name": "Pasquale Falco (of Vincenzo, the second, 1834)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci-2",
+"name": "Raffaele Falco (the first, 1816-1817)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelandrea-falco",
+"name": "Angelandrea Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "sara-falco",
+"name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-nunzio-falco",
+"name": "Giuseppe Nunzio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "stanislao-falco",
+"name": "Stanislao Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"d": "3 May 1882",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
@@ -32805,6 +33171,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "matteo-falco-of-giuseppe-falco-nicoletta-nuzzo-2",
+"name": "Matteo Falco (the first, d. 1882)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [
@@ -32896,6 +33270,13 @@
 "place": "Arienzo, via Orticelli 8",
 "evidence": "«*da **GIUSEPPE**, contadino, domiciliato in Arienzo*» — same act, and **alive in January 1875**, unqualified.\n\n*The family tree puts him born **1824**, dead **3 May 1882**, a son of **Vincenzo Falco and Andreana Crisci** — generation four of the collateral branch. **None of that is documented here**, and this act does not document it either: it names him only as the dead boy's father. **His own death act, if the tree's date is right, is in Arienzo's register of 1882**, which is in `MC55-VNL` and unopened.*",
 "ark": "3:1:3QS7-8976-QQB7 — FamilySearch MC55-FNT img 1005 right page, Arienzo Morti 1875 act 8 — READ FROM THE IMAGE"
+},
+{
+"event": "death",
+"date": "3 May 1882",
+"place": "Arienzo, via Orticelli 8",
+"evidence": "**VERIFIED TO THE DAY, AND THE ACT MAKES HIM A SON OF GENERATION THREE.**\n\nArienzo, *Morti* **1882**, **act 34**: «*L'anno milleottocentottantadue, addì **quattro** di **maggio**, a ore antimeridiane **otto** e minuti **ventidue** … sono comparsi **MARCANTONIO CRISCI**, di anni **sessantasei**, *calzolaio*, e **RAFFAELE LOFFREDO**, di anni **cinquantadue**, *agricoltore* … a ore pomeridiane **quattro** e minuti **trenta** di **ieri**, nella casa posta in **via ORTICELLI** al numero **OTTO**, è morto **GIUSEPPE FALCO**, di anni **CINQUANTOTTO**, *giornaliero*, residente in Arienzo, nato in Arienzo, **dal fu VINCENZO**, contadino, domiciliato in vita in Arienzo, e **dalla fu ANDREANA CRISCI**, contadina, domiciliata in vita col marito, **MARITO DI ROSA ZIMBARDO***».\n\n**The family tree says he was born 1824 and died 3 May 1882, a son of VINCENZO FALCO and ANDREANA CRISCI.** *Fifty-eight on 3 May 1882 is born about 1824. **Every part of the tree's claim is now on the register**, and the filiation with it.*\n\n**HE DIED IN THE HOUSE HIS TWO SONS DIED IN.** *ANGELO FALCO at nineteen on 29 January 1875 and **CLEMENTE** at seventeen that October, both at **via Orticelli 8**; their father seven years later in the same room.*\n\n**AND HIS WIDOW MOVED.** *ROSA ZIMBARDO died on 12 August 1889 at **via Camellara 12**, «vedova di Giuseppe Falco».*\n\n**HE IS THE THIRD CHILD OF GENERATION THREE DOCUMENTED TODAY** — with **RAFFAELE** (generation four, dead 21 April 1880) and **SARA** (born 1828, dead 1886). *Three acts, three sets of the same two parents, in the same words.*",
+"ark": "3:1:3QSQ-G97F-99HN — FamilySearch MC55-VNL img 597 left page, Arienzo Morti 1882 act 34 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -33008,11 +33389,11 @@
 "b": "1824",
 "dateFrom": {
 "b": "tree",
-"d": "tree",
+"d": "act",
 "bp": "tree",
 "dp": "tree"
 },
-"d": "May 3 1882",
+"d": "3 May 1882",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
@@ -33577,6 +33958,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
 "register"
@@ -34346,6 +34735,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
 "register"
@@ -36008,6 +36405,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "10 Oct 1832",
@@ -37386,6 +37791,14 @@
 {
 "slug": "carmela-falco-of-giuseppe-falco-nicoletta-nuzzo",
 "name": "Carmela Falco (of Giuseppe, d. 1884)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-giuseppe-falco-nicoletta-nuzzo-2",
+"name": "Matteo Falco (the first, d. 1882)",
 "via": "register",
 "vias": [
 "register"
@@ -39594,6 +40007,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "matteo-falco-of-giuseppe-falco-nicoletta-nuzzo-2",
+"name": "Matteo Falco (the first, d. 1882)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "22 Feb 1885",
@@ -39602,6 +40023,77 @@
 "d": "act"
 },
 "d": "29 Jul 1886"
+},
+{
+"slug": "matteo-falco-of-giuseppe-falco-nicoletta-nuzzo-2",
+"name": "Matteo Falco (the first, d. 1882)",
+"surname": "FALCO",
+"household": "Giuseppe Falco & Nicoletta Nuzzo",
+"hid": "giuseppe-falco-nicoletta-nuzzo",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "28 May 1882",
+"place": "Arienzo, via Orticelli 4",
+"evidence": "**THERE WERE TWO MATTEO, AND THIS IS THE FIRST.** Arienzo, *Morti* **1882**, **act 42**: «*… sono comparsi **GIOVANNI BASILICATA**, di anni **sessantatré**, *giornaliere*, e **FRANCESCO CIOFFI**, di anni **ventiquattro**, *giornaliere* … nella casa posta in **via ORTICELLI** al numero **QUATTRO**, è morto **MATTEO FALCO**, *contadino*, di **ANNO UNO** … da **GIUSEPPE**, giornaliere … e da **NICOLETTA NUZZO**, contadina*», **28 May 1882**.\n\n**Born about 1881**, so his birth act is in Arienzo's register of that year, unopened. **The MATTEO FALCO of this household already held here was born 22 February 1885 and died 29 July 1886** — *a second child of the name, begun less than three years after the first was buried.*\n\n**AND IT STRENGTHENS THE CUSTOM ARGUMENT WITHOUT SETTLING IT.** *This archive argued that naming a son **MATTEO** points at **MATTEO FALCO of the Contrada Camellara**, generation four's father. **They tried the name twice.** It is still a custom and still not a proof — but a couple who bury a Matteo and name the next son Matteo are not naming him at random.*\n\n*And the mother is **NICOLETTA NUZZO** here, as in 1885 and 1887, at **via Orticelli 4** as in 1885 and 1887. **The «Giuseppe Falco & Nunzia Nuzzo» of via Orticelli 14 in 1877 is still held separately**, and three acts now say Nicoletta at number four against one that says Nunzia at fourteen.*",
+"ark": "3:1:3QSQ-G97F-99ZD — FamilySearch MC55-VNL img 599 left page, Arienzo Morti 1882 act 42 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-nicoletta-nuzzo",
+"name": "Giuseppe Falco (of Matteo, b. c.1842)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nicoletta-nuzzo-of-giuseppe-falco-nicoletta-nuzzo",
+"name": "Nicoletta Nuzzo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "matteo-falco-of-giuseppe-falco-nicoletta-nuzzo",
+"name": "Matteo Falco (of Giuseppe, 1885-1886)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-giuseppe-falco-nicoletta-nuzzo",
+"name": "Maria Falco (of Giuseppe, b. 1887)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco-of-giuseppe-falco-nicoletta-nuzzo",
+"name": "Carmela Falco (of Giuseppe, d. 1884)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"d": "28 May 1882",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "matteo-falco",
@@ -41010,6 +41502,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -41916,6 +42416,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "24 Mar 1830",
@@ -42081,6 +42589,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
 "register"
@@ -42451,6 +42967,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "domenica-falco-of-antonio-falco-carmela-guida-2",
+"name": "Domenica Falco (the second, d. 1882)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "d": "1 Mar 1877",
@@ -42704,7 +43228,7 @@
 ],
 "children": [
 {
-"slug": "francesco-falco-4",
+"slug": "francesco-falco-of-francesco-falco-carmela-sadutto",
 "name": "Francesco Falco",
 "via": "tree",
 "vias": [
@@ -44167,6 +44691,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "10 May 1818",
@@ -44337,6 +44869,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
 "register"
@@ -46690,6 +47230,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "19 Dec 1828",
@@ -46866,6 +47414,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "9 Sep 1838",
@@ -47009,6 +47565,14 @@
 {
 "slug": "assunta-falco-2",
 "name": "Assunta Falco (of Antonio, b. 1886)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenica-falco-of-antonio-falco-carmela-guida-2",
+"name": "Domenica Falco (the second, d. 1882)",
 "via": "register",
 "vias": [
 "register"
@@ -47740,6 +48304,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [
@@ -47966,6 +48538,14 @@
 ]
 },
 {
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
 "name": "Raffaele Falco",
 "via": "line",
@@ -48120,6 +48700,14 @@
 {
 "slug": "assunta-falco-2",
 "name": "Assunta Falco (of Antonio, b. 1886)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenica-falco-of-antonio-falco-carmela-guida-2",
+"name": "Domenica Falco (the second, d. 1882)",
 "via": "register",
 "vias": [
 "register"
@@ -48573,6 +49161,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
 "register"
@@ -56473,6 +57069,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "matteo-falco-of-giuseppe-falco-nicoletta-nuzzo-2",
+"name": "Matteo Falco (the first, d. 1882)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [],
@@ -61116,7 +61720,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "francesco-falco-4",
+"slug": "francesco-falco-of-francesco-falco-carmela-sadutto",
 "name": "Francesco Falco",
 "via": "tree",
 "vias": [
