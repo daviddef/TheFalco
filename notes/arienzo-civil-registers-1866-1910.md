@@ -3469,9 +3469,18 @@ before today: the birth of a daughter Vincenza on 20 November 1847.
 fifty-six at Angelo Falco's death in January 1875, sixty-one at **Michele Falco's** in September 1879,
 dead at sixty-two seven months later. **Three ages, three acts, one man, born about 1818.**
 
-**AND SHE WAS NOT BORN AT ARIENZO.** San Felice a Cancello, about 1819, daughter of **Orazio Morgillo**
-and **Vincenza Pesce** — both names new here. *Her birth and baptism are in San Felice's registers,
-which this archive has never opened, and they are the clearest single target it now has.*
+**AND SHE WAS NOT BORN AT ARIENZO.** San Felice a Cancello, daughter of **Orazio Morgillo** and
+**Vincenza Pesce**.
+
+> **CORRECTED THE SAME EVENING.** The first version of this section called those names new and San
+> Felice a comune «this archive has never opened». **Both were false.** Her birth act was read there
+> on **13 September 2026** — *Nati 1818, `an_ua50395`, image 55*: born **24 February 1818 at seven in
+> the morning at the Massaria delle Fosse**, christened **ANGIOLA ROSA**, to **Orazio Morgillo, 26,
+> bracciale** and **Vincenza Pesce, 27, filatrice**. See `notes/1818-sanfelice-birth-angela-rosa.md`.
+>
+> **What the 1880 act really adds is that both parents were DEAD** — «dal **fu** ORAZIO … e dalla
+> **fu** VINCENZA PESCE» — which neither the birth act nor the tree could say, and that Orazio was
+> «domiciliato in vita in **Arienzo**», so the family left San Felice in his lifetime.
 
 > **VIA ORTICELLI 6 IS THIS LINE'S OWN DOOR.** Carminantonio Falco's infant daughter died there on
 > 6 February 1879; **Michele Falco**, generation three's brother, on 28 September 1879; Angelarosa
