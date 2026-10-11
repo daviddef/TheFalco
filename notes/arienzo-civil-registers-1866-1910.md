@@ -3109,3 +3109,22 @@ every particular**, having been unverified since this archive began.
 > **One reading is recorded and not resolved**: the act calls his mother **MARTENISI**, and the tree
 > agrees; this archive holds the household as «Francesco Falco & Mariangela **Iuliuccio**» from its
 > own earlier reading. *Two against one, and the one is ours. The 1775 baptism would settle it.*
+
+## AND THE DEATHS OF 1873 — 122 acts, one Falco, and she is a year old
+
+**`MC55-FNT` images 827–852.** No index to this one either.
+
+> «*nella casa di suoi **genitori**, sita **Via Camellara**, è morta **MARIA CARMINA FALCO**, di **ANNO
+> UNO**, nata e domiciliata in Arienzo, **figlia di PASQUALE e di MARIAMALIA GUIDA**, contadini*»
+
+*Morti* 1873 act 54, 18 July 1873. **A second child for «Pasquale Falco & Maria Amalia Guida»**, after
+Raffaele who died at one on 8 August 1871. Born about 1872 — her birth act is in the 1872 register,
+unopened.
+
+> **The act breaks at the foot of the page** on «*nella casa di suoi*» and finishes at the top of the
+> facing leaf. This archive was caught by exactly that on the 1866 death of Antonia Falco and
+> published the lesson: **when an act breaks at a page foot, read the whole facing page, top first.**
+> The street, the age and both parents are all on the second leaf.
+
+**ALESSANDRA CRISCI IS IN NEITHER 1872 NOR 1873.** *Four unopened years left: **1874, 1875, 1876,
+1877**.*

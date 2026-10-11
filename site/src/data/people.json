@@ -17526,7 +17526,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "maria-carmina-falco-2",
+"slug": "maria-carmina-falco",
 "name": "Maria Carmina Falco",
 "via": "tree",
 "vias": [
@@ -19058,7 +19058,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "maria-carmina-falco-2",
+"slug": "maria-carmina-falco",
 "name": "Maria Carmina Falco",
 "via": "tree",
 "vias": [
@@ -22234,7 +22234,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "maria-carmina-falco-2",
+"slug": "maria-carmina-falco",
 "name": "Maria Carmina Falco",
 "via": "tree",
 "vias": [
@@ -24264,7 +24264,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "maria-carmina-falco-2",
+"slug": "maria-carmina-falco",
 "name": "Maria Carmina Falco",
 "via": "tree",
 "vias": [
@@ -32207,7 +32207,7 @@
 ],
 "children": [
 {
-"slug": "maria-carmina-falco-2",
+"slug": "maria-carmina-falco",
 "name": "Maria Carmina Falco",
 "via": "tree",
 "vias": [
@@ -34813,6 +34813,53 @@
 }
 },
 {
+"slug": "maria-carmina-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Maria Carmina Falco (of Pasquale, d. 1873)",
+"surname": "FALCO",
+"household": "Pasquale Falco & Maria Amalia Guida",
+"hid": "pasquale-falco-maria-amalia-guida",
+"role": "child",
+"events": [
+{
+"event": "death",
+"date": "18 Jul 1873",
+"place": "Arienzo, via Camellara",
+"evidence": "**A SECOND CHILD OF THIS HOUSE, AND A SECOND INFANT.** Arienzo, *Morti* **1873**, **act 54**: «*L'anno milleottocentosettantatre, nel giorno **diciannove** del mese di **Luglio** … sono comparsi **PASQUALE GUIDA fu Fabrizio, di anni trenta**, e **PASQUALE CARFORA di Aniello, di anni cinquanta**, ambi agricoltori, domiciliati in Arienzo, i quali mi hanno dichiarato che alle **due d'Italia** del **diciotto** corrente mese di Luglio, in questo Comune, **nella casa di suoi genitori, sita Via Camellara**, è morta **MARIA CARMINA FALCO**, di **ANNO UNO**, nata e domiciliata in Arienzo, **figlia di PASQUALE e di MARIAMALIA GUIDA**, contadini, domiciliati in Arienzo*».\n\n**ONE YEAR OLD, SO BORN ABOUT 1872** — and her birth act is in Arienzo's register of 1872, which has not been opened.\n\n**THE ACT BREAKS AT THE FOOT OF THE PAGE** on «*nella casa di suoi*» and finishes at the top of the facing leaf. *This archive has been caught by that once before, on the 1866 death of Antonia Falco, and published the lesson: **when an act breaks at a page foot, read the whole facing page, top first.** The street, the age and both parents are all on the second leaf.*\n\n**Her brother RAFFAELE died at one on 8 August 1871**, in the Contrada Camellara. *Two children of this house, both at a year old, two years apart, on the same street — and the house itself is known from the father's death of 26 September 1883 at **via Camellara numero cinque**.*",
+"ark": "3:1:3QS7-8976-Q7V8 — FamilySearch MC55-FNT img 839 right page, continued on img 840 (3:1:3QS7-9976-Q7FR), Arienzo Morti 1873 act 54 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "raffaele-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Raffaele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"d": "18 Jul 1873",
+"dateFrom": {
+"d": "act"
+}
+},
+{
 "slug": "maria-carmina-falco-2",
 "name": "Maria Carmina Falco (of Michele)",
 "surname": "FALCO",
@@ -34829,7 +34876,56 @@
 }
 ],
 "sources": [
-"register",
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "giovanna-d-ambrogio",
+"name": "Giovanna d'Ambrogio",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "maria-falco-of-michele-falco-maria-giovanna-ambro",
+"name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-michele-falco-maria-giovanna-ambro",
+"name": "Raffaele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonia-falco-of-michele-falco-maria-giovanna-ambro",
+"name": "Antonia Falco (of Michele, 1850-1885)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
+"slug": "maria-carmina-falco",
+"name": "Maria Carmina Falco",
+"surname": "FALCO",
+"household": null,
+"role": null,
+"events": [],
+"sources": [
 "tree"
 ],
 "living": false,
@@ -34848,14 +34944,6 @@
 "via": "tree",
 "vias": [
 "tree"
-]
-},
-{
-"slug": "giovanna-d-ambrogio",
-"name": "Giovanna d'Ambrogio",
-"via": "register",
-"vias": [
-"register"
 ]
 }
 ],
@@ -34893,33 +34981,8 @@
 "vias": [
 "tree"
 ]
-},
-{
-"slug": "maria-falco-of-michele-falco-maria-giovanna-ambro",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaele-falco-of-michele-falco-maria-giovanna-ambro",
-"name": "Raffaele Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "antonia-falco-of-michele-falco-maria-giovanna-ambro",
-"name": "Antonia Falco (of Michele, 1850-1885)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
-"mergedOn": "name alone",
 "treeId": 4512525,
 "b": "1872",
 "dateFrom": {
@@ -40624,6 +40687,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "maria-carmina-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Maria Carmina Falco (of Pasquale, d. 1873)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": []
@@ -43006,7 +43077,16 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": [],
+"siblings": [
+{
+"slug": "maria-carmina-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Maria Carmina Falco (of Pasquale, d. 1873)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "d": "8 Aug 1871",
 "dateFrom": {
 "d": "act"
@@ -64186,7 +64266,7 @@
 ],
 "children": [
 {
-"slug": "maria-carmina-falco-2",
+"slug": "maria-carmina-falco",
 "name": "Maria Carmina Falco",
 "via": "tree",
 "vias": [
