@@ -25,9 +25,29 @@ const nav = [
 const here = Astro.url.pathname.replace(/\/$/, "");
 const on = (h) => here === u(h).replace(/\/$/, "");
 /* which of the seven this is, worked out the same way the ring does */
-const thisArchive = ring.archives.find(
-  (a) => a.base === (import.meta.env.BASE_URL || "/").replace(/\/$/, "")
-);
+/* WAS a base-keyed find, and base stopped being unique on 12 October 2026.
+   Once this archive moved to its own host its base became "", as had
+   Defranceschi's, D'Arcy's, Blazevic's and Lerena's — and `find` returned the
+   first of them. For about ninety minutes every page of this archive sent its
+   visits to thedefranceski.goatcounter.com, because the counter code came
+   from the wrong entry. Nothing looked broken: the counter rendered, the
+   number was plausible, and it was somebody else's.
+   whoami() narrows by origin first (import.meta.env.SITE against each entry's
+   url) and falls back to base, so it is right for archives on their own hosts
+   AND for the ones still on github.io project paths. The kit fixed its own
+   components in e275c14; this layout did its own lookup and was missed.
+   The kit exports whoami() from lib/ring.js and this is deliberately the same
+   logic rather than that import: ring.js imports archives.json without an
+   import attribute, which Astro resolves when the kit's own components pull it
+   in relatively but Node's loader rejects through the bare package specifier.
+   Three lines copied beats a build that dies on module resolution. */
+const _origin = (u) => { try { return new URL(u).origin; } catch { return ""; } };
+const _base = (import.meta.env.BASE_URL || "/").replace(/\/$/, "");
+const _site = _origin(import.meta.env.SITE || "");
+const _onBase = ring.archives.filter((a) => a.base === _base);
+const thisArchive =
+  (_site && _onBase.find((a) => _origin(a.url) === _site)) || _onBase[0];
+
 ---
 <html lang="en" data-base={u("")}>
 <head>
