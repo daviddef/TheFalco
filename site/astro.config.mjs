@@ -9,14 +9,8 @@ import register from './src/data/register.json' with { type: 'json' };
    archive. The map is written by tools/build_people.py. */
 /* The redirect TARGET is emitted verbatim, so it has to carry the base path
    itself — without it the meta-refresh sends the reader to
-   daviddef.github.io/people/… and straight into a 404.
-
-   Since 12 October 2026 this archive serves from its own host and the base is
-   '/', so BASE is the EMPTY STRING and every target below is already absolute
-   from the root. It stays a constant rather than being deleted: the targets
-   are emitted verbatim, and a future move would otherwise have to find them
-   all again. */
-const BASE = '';
+   daviddef.github.io/people/… and straight into a 404. */
+const BASE = '/TheFalco';
 const redirects = Object.fromEntries([
   ...Object.entries(aliases).map(([from, to]) => [`/people/${from}`, `${BASE}/people/${to}`]),
   /* /emigration is the de Franceschi name for what this site already covers in
@@ -32,10 +26,8 @@ const redirects = Object.fromEntries([
   ["/married-in", `${BASE}/marriages`],
 ]);
 
-// Served from its own host since 12 October 2026 — falco.defranceski.com.
-// The CNAME lives in site/public/ so that every Actions deploy carries it:
-// GitHub writes one when the domain is set in the UI, but a later deploy that
-// does not include one DETACHES the custom domain.
+// GitHub Pages project site. To serve from a custom domain later,
+// set base to '/' and site to that domain.
 /* Six of the seven archives call the name namespace /who/. This one called it
    /names/ until Phase 6b. The slugs did not change, only the prefix — and this
    archive's own rule is that a published address does not rot, so all 4,682 of
@@ -57,8 +49,8 @@ const nameRedirects = Object.fromEntries(
 );
 
 export default defineConfig({
-  site: 'https://falco.defranceski.com',
-  base: '/',
+  site: 'https://daviddef.github.io',
+  base: '/TheFalco',
   /* WHY outDir IS A VARIABLE, and why the default must stay 'dist'.
      Several sessions build this estate at once, and `astro build` EMPTIES its
      outDir before it refills it — so one session's build wipes the tree
