@@ -1,0 +1,71 @@
+{
+ "why": "Joins a human has read twice. Each entry carries its reason; a record that does not exist stops the build; a join that would make anyone their own ancestor is refused. See the comment in tools/build_people.py.",
+ "joins": [
+  {
+   "kind": "child-head",
+   "child": "matteo-falco-francesca-crisci|Angela Falco",
+   "head": "crescenzo-rivetti-angela-falco|Angela Falco",
+   "reason": "The widow's own death row names her parents as Matteo Falco and Francesca Crisci; she died 17 Oct 1822."
+  },
+  {
+   "kind": "child-head",
+   "child": "pasquale-falco-chiara-rivetti|Anna Falco",
+   "head": "arcangelo-crisci-anna-falco|Anna Falco",
+   "reason": "The wife's death row names Pasquale Falco and Chiara Rivetti as her parents; she died 23 Aug 1820."
+  },
+  {
+   "kind": "child-head",
+   "child": "antonio-annecchino-maria-guida|Carmine Annecchino (of Antonio, d. 1838)",
+   "head": "carmine-annecchino-rosa-ceglia|Carmine Annecchino (of Antonio, d. 1838)",
+   "reason": "The husband's death row names Antonio Annecchino and Maria Guida as his parents; he died 8 Aug 1838."
+  },
+  {
+   "kind": "child-head",
+   "child": "nicola-rivetti-anna-di-ruggio|Carmine Rivetti",
+   "head": "carmine-rivetti-giustina-morgillo|Carmine Rivetti",
+   "reason": "One act, two households: the child's death row reads «marito di Giustina Morgillo»; he died 15 Sep 1821."
+  },
+  {
+   "kind": "child-head",
+   "child": "giuseppe-falco-antonia-di-guida|Francesca Falco (of Giuseppe, 1812-1876)",
+   "head": "raffaele-crisci-francesca-falco|Francesca Falco",
+   "reason": "The wife's death row names Giuseppe Falco and Antonia di Guida as her parents; she died 8 Jun 1876."
+  },
+  {
+   "kind": "child-head",
+   "child": "giuseppe-falco-antonia-di-guida|Giovanna Falco",
+   "head": "aniello-crisci-giovanna-falco|Giovanna Falco",
+   "reason": "The wife's death row names Giuseppe Falco and Antonia di Guida as her parents; she died 14 Oct 1872."
+  },
+  {
+   "kind": "child-head",
+   "child": "vincenzo-falco-andreana-crisci|Giuseppe Falco (of Rosa Zimbardo)",
+   "head": "giuseppe-falco-rosa-zimbardo|Giuseppe Falco (of Rosa Zimbardo)",
+   "reason": "Morti 1882, act 34: «dal fu Vincenzo … e dalla fu Andreana Crisci … marito di Rosa Zimbardo»; he died 3 May 1882."
+  },
+  {
+   "kind": "child-head",
+   "child": "giuseppe-falco-rosa-sossi|Maria Falco",
+   "head": "francesco-quotolo-maria-falco|Maria Falco",
+   "reason": "One act, two households: «figlia delli fu Giuseppe Falco e Rosa Sossi, vedova di Francesco Quotolo»; she died 24 Jul 1817."
+  },
+  {
+   "kind": "child-head",
+   "child": "pasquale-falco-chiara-rivetti|Maria Falco",
+   "head": "alfonso-diglio-maria-falco|Maria Falco",
+   "reason": "The wife's death row names Pasquale Falco and Chiara Rivetti as her parents; she died 25 Apr 1826."
+  },
+  {
+   "kind": "child-head",
+   "child": "francesco-falco-raffaela-falco|Pasquale Falco (the second, 1839-1883)",
+   "head": "pasquale-falco-maria-amalia-guida|Pasquale Falco",
+   "reason": "Morti 1883, act 60: «dal fu Francesco … e dalla fu Raffaela Falco … marito di Maria Amalia Guido»; he died 26 Sep 1883."
+  },
+  {
+   "kind": "tree-register",
+   "tree": 4506158,
+   "record": "carmine-annecchino-maria-carfora|Carmine Annecchino",
+   "reason": "The tree's Carmine is the father of the tree's Filomena and Giacomo; the register's Carmine heads the household whose children include that Filomena (already joined) and a Giacomo. The tree carries no dates, so nothing could be counted."
+  }
+ ]
+}

@@ -6074,6 +6074,39 @@
     "place": "Arpaia",
     "evidence": "**MARRIED IN HER OWN HOME TOWN.** The Comune di Arpaia's extract of marriage act n. 1 gives the wife as «ZAMPIELLO, FRANCESCA, nata **27 · 04 · 1928**» and the husband as FALCO Carmine, born 8 June 1930. The birth date agrees with her birth extract (act n. 20) and the family tree. Box 11, where an act would name parents or witnesses, is empty on the extract. [The extract →](/documents/#falco-zampiello-marriage-extract-arpaia-1955)",
     "ark": "Comune di Arpaia (BN), estratto dell'atto di matrimonio n. 1 — family papers; certified photocopy — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "angelo-zampiello-giuseppa-ferraro",
+    "household": "Angelo Zampiello & Giuseppa Ferraro",
+    "person": "Tommasina Zampiello",
+    "role": "child",
+    "event": "birth",
+    "date": "9 Feb 1921",
+    "place": "—",
+    "evidence": "«*Tommasina Zampiello **ved. Ruggiero** · \\* 9-2-1921 · † 2-6-2004*» — a memorial card. Eighteen at the Arpaia marriage of 26 August 1939 that the marriage index records. The card gives no birthplace. [The card →](/documents/#tommasina-zampiello-memorial-card-2004)",
+    "ark": "Family papers — memorial card, 2004 — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "angelo-zampiello-giuseppa-ferraro",
+    "household": "Angelo Zampiello & Giuseppa Ferraro",
+    "person": "Tommasina Zampiello",
+    "role": "child",
+    "event": "death",
+    "date": "2 Jun 2004",
+    "place": "—",
+    "evidence": "The same card: **2 June 2004**, «ved. Ruggiero» — a widow. Where she died is not stated. [The card →](/documents/#tommasina-zampiello-memorial-card-2004)",
+    "ark": "Family papers — memorial card, 2004 — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "angelo-zampiello-giuseppa-ferraro",
+    "household": "Angelo Zampiello & Giuseppa Ferraro",
+    "person": "Caterina Zampiello",
+    "role": "child",
+    "event": "commemorated on a Mass card",
+    "date": "14 Feb 2004",
+    "place": "Brisbane",
+    "evidence": "«*Mass of Remembrance and Recommendation to the Lord · **Caterina Falco (née Zampiello)** · Born Arpaia, Prov. Benevento, Italy, 7th July, 1925 · Born to eternal life Brisbane, Australia, 14th February, 2004*». Both dates agree with the Queensland death record. The card names her by her **married** name — she married Raffaele Falco, Carmine's brother — which is why the register's Zampiello and the cemetery's Falco are the same woman. [The card →](/documents/#caterina-falco-nee-zampiello-mass-card-2004)",
+    "ark": "Family papers — Mass card, Brisbane, 2004 — READ FROM THE IMAGE"
    }
   ]
  },
@@ -6117,7 +6150,7 @@
    {
     "hid": "carmine-annecchino-maria-carfora",
     "household": "Carmine Annecchino & Maria Carfora",
-    "person": "Agata Annecchino",
+    "person": "Agata Annecchino (the first, b. 1884)",
     "role": "child",
     "event": "birth",
     "date": "8 Oct 1884",
@@ -6128,7 +6161,7 @@
    {
     "hid": "carmine-annecchino-maria-carfora",
     "household": "Carmine Annecchino & Maria Carfora",
-    "person": "Giacomo Annecchino",
+    "person": "Giacomo Annecchino (the first, b. 1887)",
     "role": "child",
     "event": "birth",
     "date": "22 Jun 1887",
@@ -6139,7 +6172,7 @@
    {
     "hid": "carmine-annecchino-maria-carfora",
     "household": "Carmine Annecchino & Maria Carfora",
-    "person": "Agata Annecchino",
+    "person": "Agata Annecchino (the second, b. 1889)",
     "role": "child",
     "event": "birth",
     "date": "29 Jan 1889",
@@ -6194,13 +6227,57 @@
    {
     "hid": "carmine-annecchino-maria-carfora",
     "household": "Carmine Annecchino & Maria Carfora",
-    "person": "Giacomo Annecchino",
+    "person": "Giacomo Annecchino (the second, b. 1901)",
     "role": "child",
     "event": "birth",
     "date": "2 Feb 1901",
     "place": "Benevento",
     "evidence": "the name given again, so the 1887 Giacomo had almost certainly died. The last of the nine",
     "ark": "FamilySearch, Benevento Civil Registration (State Archive) 1810-1942, collection 2475030 — harvested to data/annecchino-benevento-fs.tsv"
+   },
+   {
+    "hid": "carmine-annecchino-maria-carfora",
+    "household": "Carmine Annecchino & Maria Carfora",
+    "person": "Carmine Annecchino",
+    "role": "father",
+    "event": "birth",
+    "date": "26 Jan 1857",
+    "place": "—",
+    "evidence": "**A DATE ON STONE, NOT IN AN ACT — AND THE IDENTIFICATION IS AN INFERENCE.** «*Annecchino Carmine · 26 · 1 · 1857 · 25 · 2 · 1943*», on a marble niche that also reads «*Annecchino Giacomo · 2 · 2 · 1901 · 15 · 5 · 1994*». That Giacomo is this household's second Giacomo to the day (birth act, 2 February 1901) and the register names this household's father **Carmine**, so the Carmine on the stone is taken to be that father **by the shared niche** — not by a document. **Forchia's births to 1861 are on Antenati**, so his own act of January 1857 can be read; this archive has not read it. [The niche →](/documents/#annecchino-carmine-giacomo-niche)",
+    "ark": "Family papers — photograph of a cemetery niche (the cemetery is not named in the photograph) — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "carmine-annecchino-maria-carfora",
+    "household": "Carmine Annecchino & Maria Carfora",
+    "person": "Carmine Annecchino",
+    "role": "father",
+    "event": "death",
+    "date": "25 Feb 1943",
+    "place": "—",
+    "evidence": "The same stone gives his death: **25 February 1943**, aged eighty-six. The register's last record of him is as the father of the child born in 1901. [The niche →](/documents/#annecchino-carmine-giacomo-niche)",
+    "ark": "Family papers — photograph of a cemetery niche (the cemetery is not named in the photograph) — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "carmine-annecchino-maria-carfora",
+    "household": "Carmine Annecchino & Maria Carfora",
+    "person": "Giacomo Annecchino (the second, b. 1901)",
+    "role": "child",
+    "event": "death",
+    "date": "15 May 1994",
+    "place": "—",
+    "evidence": "**A MEMORIAL CARD AND A NICHE AGREE.** «*Annecchino Giacomo · N. 02.02.1901 · M. 15.05.1994*» on a printed memorial card with his portrait, and the same dates on the niche he shares with his father. **The birth date matches the register act of 2 February 1901 to the day.** He was Filomena Annecchino's younger brother. [The card →](/documents/#giacomo-annecchino-memorial-card-1994)",
+    "ark": "Family papers — printed memorial card, 1994 — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "carmine-annecchino-maria-carfora",
+    "household": "Carmine Annecchino & Maria Carfora",
+    "person": "Giacomo Annecchino (the first, b. 1887)",
+    "role": "child",
+    "event": "—",
+    "date": "—",
+    "place": "—",
+    "evidence": "**TWO GIACOMOS, AND UNTIL NOW ONE PAGE.** This household baptised a Giacomo on 22 June 1887 and another on 2 February 1901. A couple do not name a second son for a living first, so the first did not survive to 1901 — **inferred from the repetition; no death act for him has been read.** This page was carrying both men's births under the first one's name. They are two people and now two pages; the same was true of the two Agatas (1884 and 1889).",
+    "ark": "Family papers — printed memorial card, 1994 — READ FROM THE IMAGE"
    }
   ]
  },

@@ -114,8 +114,8 @@
 "bp": "Durazzano, Benevento, Campania, Italy"
 },
 {
-"slug": "agata-annecchino",
-"name": "Agata Annecchino",
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora",
+"name": "Agata Annecchino (the first, b. 1884)",
 "surname": "ANNECCHINO",
 "household": "Carmine Annecchino & Maria Carfora",
 "hid": "carmine-annecchino-maria-carfora",
@@ -127,7 +127,111 @@
 "place": "Forchia, Benevento",
 "evidence": "the first Agata",
 "ark": "FamilySearch, Benevento Civil Registration (State Archive) 1810-1942, collection 2475030 — harvested to data/annecchino-benevento-fs.tsv"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
+"name": "Carmine Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
 },
+{
+"slug": "maria-carfora-of-carmine-annecchino-maria-carfora",
+"name": "Maria Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "giacinta-annecchino",
+"name": "Giacinta Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Giacomo Annecchino (the first, b. 1887)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Agata Annecchino (the second, b. 1889)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "lucia-annecchino",
+"name": "Lucia Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "alfonso-annecchino",
+"name": "Alfonso Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "alfonso-carmine-annecchino",
+"name": "Alfonso Carmine Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2-2",
+"name": "Giacomo Annecchino (the second, b. 1901)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "filomena-annecchino-2",
+"name": "Filomena Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "8 Oct 1884",
+"dateFrom": {
+"b": "act"
+}
+},
+{
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Agata Annecchino (the second, b. 1889)",
+"surname": "ANNECCHINO",
+"household": "Carmine Annecchino & Maria Carfora",
+"hid": "carmine-annecchino-maria-carfora",
+"role": "child",
+"events": [
 {
 "event": "birth",
 "date": "29 Jan 1889",
@@ -170,8 +274,16 @@
 ]
 },
 {
-"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora",
-"name": "Giacomo Annecchino",
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora",
+"name": "Agata Annecchino (the first, b. 1884)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Giacomo Annecchino (the first, b. 1887)",
 "via": "register",
 "vias": [
 "register"
@@ -202,6 +314,14 @@
 ]
 },
 {
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2-2",
+"name": "Giacomo Annecchino (the second, b. 1901)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino",
 "via": "register",
@@ -210,7 +330,7 @@
 ]
 }
 ],
-"b": "8 Oct 1884",
+"b": "29 Jan 1889",
 "dateFrom": {
 "b": "act"
 }
@@ -265,16 +385,24 @@
 ]
 },
 {
-"slug": "agata-annecchino",
-"name": "Agata Annecchino",
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora",
+"name": "Agata Annecchino (the first, b. 1884)",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora",
-"name": "Giacomo Annecchino",
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Giacomo Annecchino (the first, b. 1887)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Agata Annecchino (the second, b. 1889)",
 "via": "register",
 "vias": [
 "register"
@@ -291,6 +419,14 @@
 {
 "slug": "alfonso-carmine-annecchino",
 "name": "Alfonso Carmine Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2-2",
+"name": "Giacomo Annecchino (the second, b. 1901)",
 "via": "register",
 "vias": [
 "register"
@@ -360,16 +496,24 @@
 ]
 },
 {
-"slug": "agata-annecchino",
-"name": "Agata Annecchino",
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora",
+"name": "Agata Annecchino (the first, b. 1884)",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora",
-"name": "Giacomo Annecchino",
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Giacomo Annecchino (the first, b. 1887)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Agata Annecchino (the second, b. 1889)",
 "via": "register",
 "vias": [
 "register"
@@ -386,6 +530,14 @@
 {
 "slug": "alfonso-annecchino",
 "name": "Alfonso Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2-2",
+"name": "Giacomo Annecchino (the second, b. 1901)",
 "via": "register",
 "vias": [
 "register"
@@ -464,7 +616,7 @@
 ],
 "children": [
 {
-"slug": "carmine-annecchino-of-antonio-annecchino-maria-guida",
+"slug": "carmine-annecchino-of-carmine-annecchino-rosa-ceglia",
 "name": "Carmine Annecchino (of Antonio, d. 1838)",
 "via": "register",
 "vias": [
@@ -492,13 +644,37 @@
 "place": "Forchia, Benevento",
 "evidence": "GENERATION SEVEN'S WIFE'S FATHER, and named twice over: by the civil births of eight children, and — independently, from the other side of the world — by his daughter's Queensland death registration 1988/6856, which gives her father as «Carmine Anechino». CAUTION: this town holds MORE THAN ONE Carmine Annecchino. Another married Maria Giovanna Crisci and had a Maria Filomena in 1878\n\n**AND HIS OWN FATHER'S DEATH ACT IS IN THE DOSSIER.** Item **4** of the eight documents read into this marriage is «*Nell'atto di morte dell'**AVO PATERNO** dello stesso*» — the groom's **paternal grandfather**. **That is a generation beyond Carmine Annecchino, and this archive does not have it.** The Arienzo processetto for 1860 holds the act that names him.",
 "ark": "FamilySearch, Benevento Civil Registration (State Archive) 1810-1942, collection 2475030 — harvested to data/annecchino-benevento-fs.tsv"
+},
+{
+"event": "birth",
+"date": "26 Jan 1857",
+"place": "—",
+"evidence": "**A DATE ON STONE, NOT IN AN ACT — AND THE IDENTIFICATION IS AN INFERENCE.** «*Annecchino Carmine · 26 · 1 · 1857 · 25 · 2 · 1943*», on a marble niche that also reads «*Annecchino Giacomo · 2 · 2 · 1901 · 15 · 5 · 1994*». That Giacomo is this household's second Giacomo to the day (birth act, 2 February 1901) and the register names this household's father **Carmine**, so the Carmine on the stone is taken to be that father **by the shared niche** — not by a document. **Forchia's births to 1861 are on Antenati**, so his own act of January 1857 can be read; this archive has not read it. [The niche →](/documents/#annecchino-carmine-giacomo-niche)",
+"ark": "Family papers — photograph of a cemetery niche (the cemetery is not named in the photograph) — READ FROM THE IMAGE"
+},
+{
+"event": "death",
+"date": "25 Feb 1943",
+"place": "—",
+"evidence": "The same stone gives his death: **25 February 1943**, aged eighty-six. The register's last record of him is as the father of the child born in 1901. [The niche →](/documents/#annecchino-carmine-giacomo-niche)",
+"ark": "Family papers — photograph of a cemetery niche (the cemetery is not named in the photograph) — READ FROM THE IMAGE"
 }
 ],
 "sources": [
-"register"
+"register",
+"tree"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "giacomo-annecchino-2",
+"name": "Giacomo Annecchino",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
 "spouses": [
 {
 "slug": "maria-carfora-of-carmine-annecchino-maria-carfora",
@@ -511,6 +687,23 @@
 ],
 "children": [
 {
+"slug": "filomena-annecchino-2",
+"name": "Filomena Annecchino (Falco)",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+},
+{
+"slug": "giacomo-annecchino",
+"name": "Giacomo Annecchino",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
 "slug": "giacinta-annecchino",
 "name": "Giacinta Annecchino",
 "via": "register",
@@ -519,16 +712,24 @@
 ]
 },
 {
-"slug": "agata-annecchino",
-"name": "Agata Annecchino",
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora",
+"name": "Agata Annecchino (the first, b. 1884)",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora",
-"name": "Giacomo Annecchino",
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Giacomo Annecchino (the first, b. 1887)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Agata Annecchino (the second, b. 1889)",
 "via": "register",
 "vias": [
 "register"
@@ -559,15 +760,23 @@
 ]
 },
 {
-"slug": "filomena-annecchino-2",
-"name": "Filomena Annecchino",
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2-2",
+"name": "Giacomo Annecchino (the second, b. 1901)",
 "via": "register",
 "vias": [
 "register"
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"mergedOn": "stated outright in person-joins.json — The tree's Carmine is the father of the tree's Filomena and Giacomo; the register's Carmine heads the household whose children include that Filomena (already joined) and a Giacomo. The tree carries no dates, so nothing could be counted.",
+"treeId": 4506158,
+"b": "26 Jan 1857",
+"dateFrom": {
+"b": "act",
+"d": "act"
+},
+"d": "25 Feb 1943"
 },
 {
 "slug": "carmine-annecchino-of-sabatino-annecchino-mariantonia-ca",
@@ -620,13 +829,37 @@
 "place": "Forchia",
 "evidence": "**THE GENERATION ABOVE SABBATINO, FROM THE PAPERS HIS MARRIAGE WAS BUILT ON.** The 1860 Arienzo marriage act named him in three words — «*CARMINE ANNECCHINO defunto*» — and this archive had nothing else. **The dossier behind that act is on Antenati and free**, and document 2 is his death extract.\n\n**Forchia, Morti 1838, act 20, 8 August 1838**: «*sono comparsi **DOMENICO STROFFOLINO**, di anni cinquanta, di professione **colono** … e **GIOVANNI LAURIELLO**, di anni quaranta, di professione **viaticale** … i quali àn dichiarato, che nel giorno stesso **otto** del mese di **Agosto** anno corrente, alle ore **dodici**, è morto nella sua propria casa **CARMINE ANNECCHINO**, nato in **FORCHIA**, di anni **cinquantadue**, di professione **colono**, domiciliato ivi **Masseria de' Preti**, figlio di **ANTONIO ANNECCHINO defunto** … e di **MARIA GUIDA defunta***».\n\n**Born about 1786.** His son's 1825 birth act makes him forty in February 1825, which is 1785; the clerks guessed both. **NOT the Carmine Annecchino of «Carmine Annecchino & Maria Carfora»**, who was fathering children at Forchia in 1901.",
 "ark": "ANTENATI an_ua14207 (Arienzo processetti 1860) bundle 3, imgs 25-42"
+},
+{
+"event": "death",
+"date": "8 Aug 1838",
+"place": "Forchia",
+"evidence": "**Forchia, Morti 1838, act 20** — «*figlio di **ANTONIO ANNECCHINO defunto** … e di **MARIA GUIDA defunta***». Colono of the Masseria de' Preti; father of **SABBATINO ANNECCHINO**, who married at Arienzo in 1860.",
+"ark": "ANTENATI an_ua14207 (Arienzo processetti 1860) bundle 3, imgs 25-42"
 }
 ],
 "sources": [
 "register"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "antonio-annecchino-of-antonio-annecchino-maria-guida",
+"name": "Antonio Annecchino (of Domenico, d. 1826)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-guida-of-antonio-annecchino-maria-guida",
+"name": "Maria Guida",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "spouses": [
 {
 "slug": "rosa-ceglia-of-carmine-annecchino-rosa-ceglia",
@@ -660,95 +893,6 @@
 "dateFrom": {
 "d": "act"
 }
-},
-{
-"slug": "carmine-annecchino-of-antonio-annecchino-maria-guida",
-"name": "Carmine Annecchino (of Antonio, d. 1838)",
-"surname": "ANNECCHINO",
-"household": "Antonio Annecchino & Maria Guida",
-"hid": "antonio-annecchino-maria-guida",
-"role": "child",
-"events": [
-{
-"event": "death",
-"date": "8 Aug 1838",
-"place": "Forchia",
-"evidence": "**Forchia, Morti 1838, act 20** — «*figlio di **ANTONIO ANNECCHINO defunto** … e di **MARIA GUIDA defunta***». Colono of the Masseria de' Preti; father of **SABBATINO ANNECCHINO**, who married at Arienzo in 1860.",
-"ark": "ANTENATI an_ua14207 (Arienzo processetti 1860) bundle 3, imgs 25-42"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "antonio-annecchino-of-antonio-annecchino-maria-guida",
-"name": "Antonio Annecchino (of Domenico, d. 1826)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-guida-of-antonio-annecchino-maria-guida",
-"name": "Maria Guida",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [],
-"d": "8 Aug 1838",
-"dateFrom": {
-"d": "act"
-}
-},
-{
-"slug": "carmine-annecchino",
-"name": "Carmine Annecchino",
-"surname": "ANNECCHINO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "giacomo-annecchino-2",
-"name": "Giacomo Annecchino",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [
-{
-"slug": "filomena-annecchino-2",
-"name": "Filomena Annecchino (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "giacomo-annecchino",
-"name": "Giacomo Annecchino",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [],
-"treeId": 4506158
 },
 {
 "slug": "carmine-annecchino-annecchino",
@@ -951,19 +1095,12 @@
 "living": false,
 "parents": [
 {
-"slug": "carmine-annecchino",
-"name": "Carmine Annecchino",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
 "slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
 "name": "Carmine Annecchino",
 "via": "register",
 "vias": [
-"register"
+"register",
+"tree"
 ]
 },
 {
@@ -1047,16 +1184,24 @@
 ]
 },
 {
-"slug": "agata-annecchino",
-"name": "Agata Annecchino",
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora",
+"name": "Agata Annecchino (the first, b. 1884)",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora",
-"name": "Giacomo Annecchino",
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Giacomo Annecchino (the first, b. 1887)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Agata Annecchino (the second, b. 1889)",
 "via": "register",
 "vias": [
 "register"
@@ -1081,6 +1226,14 @@
 {
 "slug": "alfonso-carmine-annecchino",
 "name": "Alfonso Carmine Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2-2",
+"name": "Giacomo Annecchino (the second, b. 1901)",
 "via": "register",
 "vias": [
 "register"
@@ -1136,16 +1289,24 @@
 "children": [],
 "siblings": [
 {
-"slug": "agata-annecchino",
-"name": "Agata Annecchino",
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora",
+"name": "Agata Annecchino (the first, b. 1884)",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora",
-"name": "Giacomo Annecchino",
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Giacomo Annecchino (the first, b. 1887)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Agata Annecchino (the second, b. 1889)",
 "via": "register",
 "vias": [
 "register"
@@ -1176,6 +1337,14 @@
 ]
 },
 {
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2-2",
+"name": "Giacomo Annecchino (the second, b. 1901)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino",
 "via": "register",
@@ -1190,8 +1359,8 @@
 }
 },
 {
-"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora",
-"name": "Giacomo Annecchino",
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Giacomo Annecchino (the first, b. 1887)",
 "surname": "ANNECCHINO",
 "household": "Carmine Annecchino & Maria Carfora",
 "hid": "carmine-annecchino-maria-carfora",
@@ -1205,11 +1374,11 @@
 "ark": "FamilySearch, Benevento Civil Registration (State Archive) 1810-1942, collection 2475030 — harvested to data/annecchino-benevento-fs.tsv"
 },
 {
-"event": "birth",
-"date": "2 Feb 1901",
-"place": "Benevento",
-"evidence": "the name given again, so the 1887 Giacomo had almost certainly died. The last of the nine",
-"ark": "FamilySearch, Benevento Civil Registration (State Archive) 1810-1942, collection 2475030 — harvested to data/annecchino-benevento-fs.tsv"
+"event": "named",
+"date": "—",
+"place": "—",
+"evidence": "**TWO GIACOMOS, AND UNTIL NOW ONE PAGE.** This household baptised a Giacomo on 22 June 1887 and another on 2 February 1901. A couple do not name a second son for a living first, so the first did not survive to 1901 — **inferred from the repetition; no death act for him has been read.** This page was carrying both men's births under the first one's name. They are two people and now two pages; the same was true of the two Agatas (1884 and 1889).",
+"ark": "Family papers — printed memorial card, 1994 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -1246,8 +1415,142 @@
 ]
 },
 {
-"slug": "agata-annecchino",
-"name": "Agata Annecchino",
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora",
+"name": "Agata Annecchino (the first, b. 1884)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Agata Annecchino (the second, b. 1889)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "lucia-annecchino",
+"name": "Lucia Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "alfonso-annecchino",
+"name": "Alfonso Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "alfonso-carmine-annecchino",
+"name": "Alfonso Carmine Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2-2",
+"name": "Giacomo Annecchino (the second, b. 1901)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "filomena-annecchino-2",
+"name": "Filomena Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "22 Jun 1887",
+"dateFrom": {
+"b": "act"
+}
+},
+{
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2-2",
+"name": "Giacomo Annecchino (the second, b. 1901)",
+"surname": "ANNECCHINO",
+"household": "Carmine Annecchino & Maria Carfora",
+"hid": "carmine-annecchino-maria-carfora",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "2 Feb 1901",
+"place": "Benevento",
+"evidence": "the name given again, so the 1887 Giacomo had almost certainly died. The last of the nine",
+"ark": "FamilySearch, Benevento Civil Registration (State Archive) 1810-1942, collection 2475030 — harvested to data/annecchino-benevento-fs.tsv"
+},
+{
+"event": "death",
+"date": "15 May 1994",
+"place": "—",
+"evidence": "**A MEMORIAL CARD AND A NICHE AGREE.** «*Annecchino Giacomo · N. 02.02.1901 · M. 15.05.1994*» on a printed memorial card with his portrait, and the same dates on the niche he shares with his father. **The birth date matches the register act of 2 February 1901 to the day.** He was Filomena Annecchino's younger brother. [The card →](/documents/#giacomo-annecchino-memorial-card-1994)",
+"ark": "Family papers — printed memorial card, 1994 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
+"name": "Carmine Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carfora-of-carmine-annecchino-maria-carfora",
+"name": "Maria Carfora",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "giacinta-annecchino",
+"name": "Giacinta Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora",
+"name": "Agata Annecchino (the first, b. 1884)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Giacomo Annecchino (the first, b. 1887)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Agata Annecchino (the second, b. 1889)",
 "via": "register",
 "vias": [
 "register"
@@ -1286,10 +1589,12 @@
 ]
 }
 ],
-"b": "22 Jun 1887",
+"b": "2 Feb 1901",
 "dateFrom": {
-"b": "act"
-}
+"b": "act",
+"d": "act"
+},
+"d": "15 May 1994"
 },
 {
 "slug": "giacomo-annecchino-of-carmine-annecchino-rosa-ceglia",
@@ -1355,7 +1660,7 @@
 "living": false,
 "parents": [
 {
-"slug": "carmine-annecchino",
+"slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
 "name": "Carmine Annecchino",
 "via": "tree",
 "vias": [
@@ -1392,7 +1697,7 @@
 "spouses": [],
 "children": [
 {
-"slug": "carmine-annecchino",
+"slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
 "name": "Carmine Annecchino",
 "via": "tree",
 "vias": [
@@ -1453,16 +1758,24 @@
 ]
 },
 {
-"slug": "agata-annecchino",
-"name": "Agata Annecchino",
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora",
+"name": "Agata Annecchino (the first, b. 1884)",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora",
-"name": "Giacomo Annecchino",
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Giacomo Annecchino (the first, b. 1887)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Agata Annecchino (the second, b. 1889)",
 "via": "register",
 "vias": [
 "register"
@@ -1479,6 +1792,14 @@
 {
 "slug": "alfonso-carmine-annecchino",
 "name": "Alfonso Carmine Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2-2",
+"name": "Giacomo Annecchino (the second, b. 1901)",
 "via": "register",
 "vias": [
 "register"
@@ -5056,16 +5377,24 @@
 ]
 },
 {
-"slug": "agata-annecchino",
-"name": "Agata Annecchino",
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora",
+"name": "Agata Annecchino (the first, b. 1884)",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora",
-"name": "Giacomo Annecchino",
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Giacomo Annecchino (the first, b. 1887)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "agata-annecchino-of-carmine-annecchino-maria-carfora-2",
+"name": "Agata Annecchino (the second, b. 1889)",
 "via": "register",
 "vias": [
 "register"
@@ -5090,6 +5419,14 @@
 {
 "slug": "alfonso-carmine-annecchino",
 "name": "Alfonso Carmine Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2-2",
+"name": "Giacomo Annecchino (the second, b. 1901)",
 "via": "register",
 "vias": [
 "register"
@@ -8886,14 +9223,6 @@
 "register",
 "tree"
 ]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Vincenzo Falco (of Angelo, of Via Corso)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "children": [
@@ -8926,8 +9255,9 @@
 {
 "slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -9030,14 +9360,6 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
 "register"
@@ -10860,14 +11182,6 @@
 ]
 },
 {
-"slug": "angela-falco-of-matteo-falco-francesca-crisci",
-"name": "Angela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "joachim-falco-the-first-gioacchino",
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "via": "register",
@@ -10886,6 +11200,14 @@
 {
 "slug": "rosa-falco-of-carlantonio-morgillo-rosa-falco",
 "name": "Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
+"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -14172,8 +14494,9 @@
 {
 "slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
 "name": "Giovanna Falco (Crisci)",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -14267,14 +14590,6 @@
 ]
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "via": "register",
@@ -14339,8 +14654,8 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
@@ -15793,7 +16108,7 @@
 ],
 "children": [
 {
-"slug": "carmine-rivetti-of-nicola-rivetti-anna-di-ruggio",
+"slug": "carmine-rivetti-of-carmine-rivetti-giustina-morgillo",
 "name": "Carmine Rivetti",
 "via": "register",
 "vias": [
@@ -16770,14 +17085,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Vincenzo Falco (of Angelo, of Via Corso)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [
@@ -17018,7 +17325,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
@@ -17266,13 +17573,27 @@
 }
 },
 {
-"slug": "angela-falco-of-matteo-falco-francesca-crisci",
+"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
 "name": "Angela Falco",
 "surname": "FALCO",
-"household": "Matteo Falco & Francesca Crisci",
-"hid": "matteo-falco-francesca-crisci",
-"role": "child",
+"household": "Crescenzo Rivetti & Angela Falco",
+"hid": "crescenzo-rivetti-angela-falco",
+"role": "mother",
 "events": [
+{
+"event": "widowed",
+"date": "1 Dec 1816",
+"place": "Arienzo",
+"evidence": "named only as «Angela Falco», wife of the deceased; no age, no parents, no children named",
+"ark": "ANTENATI an_ua14318 img42l act76"
+},
+{
+"event": "death",
+"date": "17 Oct 1822",
+"place": "Arienzo, strada Capodiconca",
+"evidence": "«ANGELA FALCO di anni cinquantuno, vedova di CRESCENZO RIVETTI … figlia di MATTEO FALCO Defunto … e di FRANCESCA CRISCI Defunta» — she outlived Crescenzo by nearly six years and had moved from strada Camellara to strada Capodiconca. Declared by Nicola Massone and Alessandro Martone, both twenty-two and both «vicino della defunta». HER PARENTAGE EXPLAINS THE 1816 ACT: when Crescenzo died, GIOACCHINO FALCO and GIUSEPPE FALCO declared it as «parenti del defunto» — they were his wife's brothers.",
+"ark": "ANTENATI an_ua14324 img34r atto65"
+},
 {
 "event": "death",
 "date": "17 Oct 1822",
@@ -17303,8 +17624,58 @@
 ]
 }
 ],
-"spouses": [],
-"children": [],
+"spouses": [
+{
+"slug": "crescenzo-rivetti",
+"name": "Crescenzo Rivetti",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "angelandrea-rivetti",
+"name": "Angelandrea Rivetti",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-rivetti",
+"name": "Giovanni Rivetti",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-rivetti-of-crescenzo-rivetti-angela-falco",
+"name": "Pasquale Rivetti (of Crescenzo, m. 1824)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "lucia-rivetti",
+"name": "Lucia Rivetti",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-maria-rivetti",
+"name": "Angela Maria Rivetti",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "siblings": [
 {
 "slug": "paschalis-falco",
@@ -17371,92 +17742,6 @@
 ]
 }
 ],
-"d": "17 Oct 1822",
-"dateFrom": {
-"d": "act"
-}
-},
-{
-"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
-"name": "Angela Falco",
-"surname": "FALCO",
-"household": "Crescenzo Rivetti & Angela Falco",
-"hid": "crescenzo-rivetti-angela-falco",
-"role": "mother",
-"events": [
-{
-"event": "widowed",
-"date": "1 Dec 1816",
-"place": "Arienzo",
-"evidence": "named only as «Angela Falco», wife of the deceased; no age, no parents, no children named",
-"ark": "ANTENATI an_ua14318 img42l act76"
-},
-{
-"event": "death",
-"date": "17 Oct 1822",
-"place": "Arienzo, strada Capodiconca",
-"evidence": "«ANGELA FALCO di anni cinquantuno, vedova di CRESCENZO RIVETTI … figlia di MATTEO FALCO Defunto … e di FRANCESCA CRISCI Defunta» — she outlived Crescenzo by nearly six years and had moved from strada Camellara to strada Capodiconca. Declared by Nicola Massone and Alessandro Martone, both twenty-two and both «vicino della defunta». HER PARENTAGE EXPLAINS THE 1816 ACT: when Crescenzo died, GIOACCHINO FALCO and GIUSEPPE FALCO declared it as «parenti del defunto» — they were his wife's brothers.",
-"ark": "ANTENATI an_ua14324 img34r atto65"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [
-{
-"slug": "crescenzo-rivetti",
-"name": "Crescenzo Rivetti",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"children": [
-{
-"slug": "angelandrea-rivetti",
-"name": "Angelandrea Rivetti",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giovanni-rivetti",
-"name": "Giovanni Rivetti",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-rivetti-of-crescenzo-rivetti-angela-falco",
-"name": "Pasquale Rivetti (of Crescenzo, m. 1824)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "lucia-rivetti",
-"name": "Lucia Rivetti",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angela-maria-rivetti",
-"name": "Angela Maria Rivetti",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"siblings": [],
 "d": "17 Oct 1822",
 "dateFrom": {
 "d": "act"
@@ -17907,14 +18192,6 @@
 ]
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "via": "register",
@@ -17971,16 +18248,24 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
@@ -18522,14 +18807,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Vincenzo Falco (of Angelo, of Via Corso)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [],
@@ -18648,7 +18925,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
@@ -18739,14 +19016,6 @@
 {
 "slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Vincenzo Falco (of Angelo, of Via Corso)",
 "via": "register",
 "vias": [
 "register"
@@ -18869,7 +19138,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
@@ -19591,139 +19860,6 @@
 "treeId": 4512781
 },
 {
-"slug": "anna-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Anna Falco",
-"surname": "FALCO",
-"household": "Pasquale Falco & Chiara Rivetti",
-"hid": "pasquale-falco-chiara-rivetti",
-"role": "child",
-"events": [
-{
-"event": "baptism",
-"date": "28 Oct 1795",
-"place": "Arienzo",
-"evidence": "ex Pascale Falco, et Clara Rivetti ... Collegiatae Ecclesiae S. Andreae",
-"ark": "3Q9M-CSD3-13CC-6"
-},
-{
-"event": "death",
-"date": "23 Aug 1820",
-"place": "Arienzo",
-"evidence": "Anna Falco figlia Paschalis et Clara Rivetta, ed uxor Archangeli Crisci, aetatis suae annorum 22 circiter\n\n**Verified at full resolution, 20 September 2026.** Act **47**, declared by **GIUSEPPE MARTONE, forty**, and **DOMENICO MARTONE, thirty-six**, both contadini of strada Camellara, each «vicino del Defunto». **Neither of her parents is marked «defunto».** Every word holds.",
-"ark": "3Q9M-CSMY-B77F-V"
-},
-{
-"event": "death",
-"date": "23 Aug 1820",
-"place": "Arienzo, strada Camellara",
-"evidence": "«è morta nella sua propria casa ANNA FALCO di anni venticinque, moglie di ARCANGELO CRISCI, nata in Arienzo, di professione Contadina, domiciliata ivi strada Camellara, FIGLIA DI PASQUALE FALCO, di professione Contadino, domiciliato ivi strada Camellara, E DI CHIARA RIVETTI, domiciliata ivi» — atto 47. A DAUGHTER OF THE DIRECT LINE'S GENERATION TWO, and a sister of Vincenzo Falco. Aged twenty-five, so born about 1795. She had buried a two-day-old son, Fortunato Crisci, seven months earlier.",
-"ark": "ANTENATI an_ua14322 img26r atto47"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Pasquale Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
-"name": "Chiara (Clara) Rivetti",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Vincenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-raffaela-falco",
-"name": "Maria Raffaela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "domenico-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Domenico Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-angela-falco",
-"name": "Maria Angela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "francescantonio-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Francescantonio Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "michelangelo-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Michelangelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti-2",
-"name": "Giovanna Falco (b. 1810)",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"d": "23 Aug 1820",
-"dateFrom": {
-"d": "act"
-}
-},
-{
 "slug": "anna-falco-of-michelangelo-falco-mariantonia-vig",
 "name": "Anna Falco",
 "surname": "FALCO",
@@ -19831,13 +19967,51 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "«ANNA FALCO di anni venticinque, moglie di ARCANGELO CRISCI … figlia di PASQUALE FALCO … e di CHIARA RIVETTI» — she is a daughter of the direct line's generation two. Declared by Giuseppe Martone, 40, and Domenico Martone, 36, both contadini of strada Camellara.",
 "ark": "ANTENATI an_ua14322 img26r atto47"
+},
+{
+"event": "baptism",
+"date": "28 Oct 1795",
+"place": "Arienzo",
+"evidence": "ex Pascale Falco, et Clara Rivetti ... Collegiatae Ecclesiae S. Andreae",
+"ark": "3Q9M-CSD3-13CC-6"
+},
+{
+"event": "death",
+"date": "23 Aug 1820",
+"place": "Arienzo",
+"evidence": "Anna Falco figlia Paschalis et Clara Rivetta, ed uxor Archangeli Crisci, aetatis suae annorum 22 circiter\n\n**Verified at full resolution, 20 September 2026.** Act **47**, declared by **GIUSEPPE MARTONE, forty**, and **DOMENICO MARTONE, thirty-six**, both contadini of strada Camellara, each «vicino del Defunto». **Neither of her parents is marked «defunto».** Every word holds.",
+"ark": "3Q9M-CSMY-B77F-V"
+},
+{
+"event": "death",
+"date": "23 Aug 1820",
+"place": "Arienzo, strada Camellara",
+"evidence": "«è morta nella sua propria casa ANNA FALCO di anni venticinque, moglie di ARCANGELO CRISCI, nata in Arienzo, di professione Contadina, domiciliata ivi strada Camellara, FIGLIA DI PASQUALE FALCO, di professione Contadino, domiciliato ivi strada Camellara, E DI CHIARA RIVETTI, domiciliata ivi» — atto 47. A DAUGHTER OF THE DIRECT LINE'S GENERATION TWO, and a sister of Vincenzo Falco. Aged twenty-five, so born about 1795. She had buried a two-day-old son, Fortunato Crisci, seven months earlier.",
+"ark": "ANTENATI an_ua14322 img26r atto47"
 }
 ],
 "sources": [
 "register"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
+"name": "Chiara (Clara) Rivetti",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "spouses": [
 {
 "slug": "arcangelo-crisci-of-arcangelo-crisci-anna-falco",
@@ -19858,7 +20032,80 @@
 ]
 }
 ],
-"siblings": [],
+"siblings": [
+{
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-raffaela-falco",
+"name": "Maria Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenico-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Domenico Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-angela-falco",
+"name": "Maria Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francescantonio-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Francescantonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "michelangelo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Michelangelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti-2",
+"name": "Giovanna Falco (b. 1810)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-alfonso-diglio-maria-falco",
+"name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "d": "23 Aug 1820",
 "dateFrom": {
 "d": "act"
@@ -20798,14 +21045,6 @@
 "register",
 "tree"
 ]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Vincenzo Falco (of Angelo, of Via Corso)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [
@@ -20921,8 +21160,9 @@
 {
 "slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -21025,14 +21265,6 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
 "register"
@@ -22826,8 +23058,8 @@
 ]
 },
 {
-"slug": "pasquale-falco-of-francesco-falco-raffaela-falco-2",
-"name": "Pasquale Falco (the second, 1839-1883)",
+"slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -24460,8 +24692,8 @@
 ]
 },
 {
-"slug": "pasquale-falco-of-francesco-falco-raffaela-falco-2",
-"name": "Pasquale Falco (the second, 1839-1883)",
+"slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -24572,14 +24804,6 @@
 ]
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "via": "register",
@@ -24644,16 +24868,24 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
@@ -24757,8 +24989,8 @@
 ]
 },
 {
-"slug": "pasquale-falco-of-francesco-falco-raffaela-falco-2",
-"name": "Pasquale Falco (the second, 1839-1883)",
+"slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -25697,8 +25929,9 @@
 {
 "slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
 "name": "Giovanna Falco (Crisci)",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -25783,14 +26016,6 @@
 ]
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "via": "register",
@@ -25855,8 +26080,8 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
@@ -26865,14 +27090,6 @@
 "children": [],
 "siblings": [
 {
-"slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Vincenzo Falco",
 "via": "register",
@@ -26883,14 +27100,6 @@
 {
 "slug": "maria-raffaela-falco",
 "name": "Maria Raffaela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "anna-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Anna Falco",
 "via": "register",
 "vias": [
 "register"
@@ -26931,6 +27140,22 @@
 {
 "slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti-2",
 "name": "Giovanna Falco (b. 1810)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "anna-falco-of-arcangelo-crisci-anna-falco",
+"name": "Anna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-alfonso-diglio-maria-falco",
+"name": "Maria Falco",
 "via": "register",
 "vias": [
 "register"
@@ -27769,189 +27994,6 @@
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
-"surname": "FALCO",
-"household": "Giuseppe Falco & Antonia di Guida",
-"hid": "giuseppe-falco-antonia-di-guida",
-"role": "child",
-"events": [
-{
-"event": "death",
-"date": "8 Jun 1876",
-"place": "Arienzo, Villaggio Crisci 3",
-"evidence": "**«DAL FU GIUSEPPE … E DALLA FU ANTONIA GUIDA»** — Arienzo, *Morti* 1876, act 34, read from the image. **Dead 8 June 1876 at sixty-four**, a *contadina*, **moglie di RAFFAELE CRISCI**, in the **Villaggio Crisci** at number three.\n\n**A DAUGHTER OF THIS HOUSE THAT THIS ARCHIVE DID NOT KNOW WAS ONE.** The household «Raffaele Crisci & Francesca Falco» existed here on a marriage of 5 January 1839 and no parents at all. *Born about 1812.*\n\n**Her sister GIOVANNA FALCO died in the same village four years earlier**, also married to a Crisci. *Two daughters of generation three, in one hamlet.*",
-"ark": "3:1:3QS7-8976-QQRV — FamilySearch MC55-FNT img 1127 left page, Arienzo Morti 1876 act 34 — READ FROM THE IMAGE"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giuseppe Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "antonia-di-guida",
-"name": "Antonia di Guida",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "mattheus-falco",
-"name": "Mattheus (Matteo) Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Matteo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giovanni-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanni Falco (the elder)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Maddalena Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "clemente-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Clemente Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida-2",
-"name": "Maddalena Falco (the second)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giovanni-falco-of-giuseppe-falco-antonia-di-guida-2",
-"name": "Giovanni Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Raffaela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
-"name": "Matteo Falco (the second)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "francesca-maria-lucia-falco",
-"name": "Francesca Maria Lucia Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angela-maria-falco",
-"name": "Angela Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaele-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Raffaele Falco (of Giuseppe, d. 1811)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaele-falco-of-giuseppe-falco-antonia-di-guida-2",
-"name": "Raffaele Falco (of Giuseppe, the second, d. 1815)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-antonia-falco",
-"name": "Maria Antonia Falco (b. 1815)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Maria Falco (of Giuseppe, d. 1871)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"d": "8 Jun 1876",
-"dateFrom": {
-"d": "act"
-}
-},
-{
 "slug": "francesca-falco-of-gioacchino-crisci-francesca-falco",
 "name": "Francesca Falco",
 "surname": "FALCO",
@@ -28101,13 +28143,37 @@
 "place": "Arienzo, Villaggio Crisci 3",
 "evidence": "**THE SECOND ACT THIS HOUSEHOLD HAS EVER HAD, AND IT IS HER DEATH.**\n\nArienzo, *Morti* **1876**, **act 34**: «*L'anno milleottocentosettantasei, addì **otto** di **giugno**, a ore antimeridiane **sette** e minuti **venticinque** … sono comparsi **GIOVANNI CRISCI**, di anni **sessanta**, *agricoltore*, e **TOMMASO CRISCI**, di anni **quarantadue**, *agricoltore* … a ore antimeridiane **tre** e minuti **trenta** di **oggi**, nella casa posta in **VILLAGGIO CRISCI** al numero **TRE**, è morta **FRANCESCA FALCO**, di anni **SESSANTAQUATTRO**, *contadina*, residente in Arienzo, nata in Arienzo, **dal fu GIUSEPPE**, agricoltore, domiciliato in vita in Arienzo, e **dalla fu ANTONIA GUIDA**, contadina, domiciliata in vita in Arienzo, **MOGLIE DI RAFFAELE CRISCI***».\n\n**Sixty-four in June 1876 is born about 1812**, and she married Raffaele Crisci on **5 January 1839** at about twenty-seven. *Until today this household was that marriage line and nothing else.*\n\n**AND SHE IS A DAUGHTER OF GENERATION THREE** — «*dal fu GIUSEPPE … e dalla fu ANTONIA GUIDA*», the same couple who are her sister **GIOVANNA FALCO's** parents in the death act of 1872. **Two sisters of that house, four years apart, both married to a Crisci, both dying in the VILLAGGIO CRISCI.**",
 "ark": "3:1:3QS7-8976-QQRV — FamilySearch MC55-FNT img 1127 left page, Arienzo Morti 1876 act 34 — READ FROM THE IMAGE"
+},
+{
+"event": "death",
+"date": "8 Jun 1876",
+"place": "Arienzo, Villaggio Crisci 3",
+"evidence": "**«DAL FU GIUSEPPE … E DALLA FU ANTONIA GUIDA»** — Arienzo, *Morti* 1876, act 34, read from the image. **Dead 8 June 1876 at sixty-four**, a *contadina*, **moglie di RAFFAELE CRISCI**, in the **Villaggio Crisci** at number three.\n\n**A DAUGHTER OF THIS HOUSE THAT THIS ARCHIVE DID NOT KNOW WAS ONE.** The household «Raffaele Crisci & Francesca Falco» existed here on a marriage of 5 January 1839 and no parents at all. *Born about 1812.*\n\n**Her sister GIOVANNA FALCO died in the same village four years earlier**, also married to a Crisci. *Two daughters of generation three, in one hamlet.*",
+"ark": "3:1:3QS7-8976-QQRV — FamilySearch MC55-FNT img 1127 left page, Arienzo Morti 1876 act 34 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
 "register"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonia-di-guida",
+"name": "Antonia di Guida",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "spouses": [
 {
 "slug": "raffaele-crisci",
@@ -28119,7 +28185,144 @@
 }
 ],
 "children": [],
-"siblings": [],
+"siblings": [
+{
+"slug": "mattheus-falco",
+"name": "Mattheus (Matteo) Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Giovanni Falco (the elder)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maddalena Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clemente-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maddalena-falco-of-giuseppe-falco-antonia-di-guida-2",
+"name": "Maddalena Falco (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-giuseppe-falco-antonia-di-guida-2",
+"name": "Giovanni Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
+"name": "Matteo Falco (the second)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-maria-lucia-falco",
+"name": "Francesca Maria Lucia Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-maria-falco",
+"name": "Angela Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Raffaele Falco (of Giuseppe, d. 1811)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-giuseppe-falco-antonia-di-guida-2",
+"name": "Raffaele Falco (of Giuseppe, the second, d. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-antonia-falco",
+"name": "Maria Antonia Falco (b. 1815)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Maria Falco (of Giuseppe, d. 1871)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "d": "8 Jun 1876",
 "dateFrom": {
 "d": "act"
@@ -28343,14 +28546,6 @@
 ]
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "via": "register",
@@ -28407,16 +28602,24 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
@@ -28466,14 +28669,6 @@
 "children": [],
 "siblings": [
 {
-"slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Vincenzo Falco",
 "via": "register",
@@ -28484,14 +28679,6 @@
 {
 "slug": "maria-raffaela-falco",
 "name": "Maria Raffaela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "anna-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Anna Falco",
 "via": "register",
 "vias": [
 "register"
@@ -28532,6 +28719,22 @@
 {
 "slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti-2",
 "name": "Giovanna Falco (b. 1810)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "anna-falco-of-arcangelo-crisci-anna-falco",
+"name": "Anna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-alfonso-diglio-maria-falco",
+"name": "Maria Falco",
 "via": "register",
 "vias": [
 "register"
@@ -28635,8 +28838,8 @@
 ]
 },
 {
-"slug": "pasquale-falco-of-francesco-falco-raffaela-falco-2",
-"name": "Pasquale Falco (the second, 1839-1883)",
+"slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -29492,14 +29695,6 @@
 ]
 },
 {
-"slug": "angela-falco-of-matteo-falco-francesca-crisci",
-"name": "Angela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "joachim-falco-the-first-gioacchino",
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "via": "register",
@@ -29518,6 +29713,14 @@
 {
 "slug": "rosa-falco-of-carlantonio-morgillo-rosa-falco",
 "name": "Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
+"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -30231,14 +30434,6 @@
 "children": [],
 "siblings": [
 {
-"slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Vincenzo Falco",
 "via": "register",
@@ -30249,14 +30444,6 @@
 {
 "slug": "maria-raffaela-falco",
 "name": "Maria Raffaela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "anna-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Anna Falco",
 "via": "register",
 "vias": [
 "register"
@@ -30297,6 +30484,22 @@
 {
 "slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti-2",
 "name": "Giovanna Falco (b. 1810)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "anna-falco-of-arcangelo-crisci-anna-falco",
+"name": "Anna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-alfonso-diglio-maria-falco",
+"name": "Maria Falco",
 "via": "register",
 "vias": [
 "register"
@@ -30350,14 +30553,6 @@
 "children": [],
 "siblings": [
 {
-"slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Vincenzo Falco",
 "via": "register",
@@ -30368,14 +30563,6 @@
 {
 "slug": "maria-raffaela-falco",
 "name": "Maria Raffaela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "anna-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Anna Falco",
 "via": "register",
 "vias": [
 "register"
@@ -30420,6 +30607,22 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "anna-falco-of-arcangelo-crisci-anna-falco",
+"name": "Anna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-alfonso-diglio-maria-falco",
+"name": "Maria Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "12 Sep 1810",
@@ -30428,13 +30631,117 @@
 }
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
+"slug": "giovanna-falco-of-michele-falco-vincenza-sposito",
 "name": "Giovanna Falco",
 "surname": "FALCO",
-"household": "Giuseppe Falco & Antonia di Guida",
-"hid": "giuseppe-falco-antonia-di-guida",
+"household": "Michele Falco & Vincenza Sposito",
+"hid": "michele-falco-vincenza-sposito",
 "role": "child",
 "events": [
+{
+"event": "death",
+"date": "13 May 1832",
+"place": "Arienzo, strada Costa",
+"evidence": "**READ FROM THE IMAGE 21 SEPTEMBER 2026, AND IT JOINS TWO HOUSEHOLDS THIS ARCHIVE KEEPS APART.** Act 32: «*è morta nella sua propria casa **GIOVANNA FALCO, D'ANNI SESSANTA, MOGLIE D'ANTONIO LETTIERI**, nata in **Arienzo**, di professione contadina, domiciliata ivi, **figlia di MICHELE FALCO Defunto** … **e di VINCENZA SPOSITO Defunta***» — died **13 May 1832** at twenty-three hours. Declared by **GENNARO COSPI**, thirty, and **CLEMENTE COSPI**, twenty-eight, both *contadini* of **strada COSTA**, both «vicino della defunta».\n\n**Sixty in 1832 puts her birth about 1772.** And «**moglie d'ANTONIO LETTIERI**» is the join: this archive also holds a household «**Antonio Lettieri & Giovanna Falco**», known from a marriage index of 1826 and a daughter **Nunzia Lettieri** who married in 1837. **The death act says both things in one sentence.** *The two households are left standing and cross-referenced rather than merged, because that is a judgement this archive has not yet made.*",
+"ark": "ANTENATI an_ua14334 img21l act32"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "michele-falco-of-michele-falco-vincenza-sposito",
+"name": "Michele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenza-sposito",
+"name": "Vincenza Sposito",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [],
+"d": "13 May 1832",
+"dateFrom": {
+"d": "act"
+}
+},
+{
+"slug": "giovanna-falco-of-antonio-lettieri-giovanna-falco",
+"name": "Giovanna Falco",
+"surname": "FALCO",
+"household": "Antonio Lettieri & Giovanna Falco",
+"hid": "antonio-lettieri-giovanna-falco",
+"role": "mother",
+"events": [
+{
+"event": "named in a marriage index",
+"date": "2 Feb 1826",
+"place": "Paolisi",
+"evidence": "A FALCO WOMAN IN A TOWN THIS ARCHIVE HAS ONLY JUST PUT ON ITS MAP. «LETTIERI LUDOVICO | PAOLISI | LETTIERI ANTONIO, e FALCO GIOVANNA | A dì 2 Febrajo 1826», his bride Carmela Cossi of Arienzo. A son marrying in 1826 puts her birth around 1770-1785 — THE FOUNDERS' GENERATION, not the Giovanna Falco baptised 1797 to Gioacchino, nor the Giovanna born 1805 to Giuseppe, both far too young. SHE MAY BE A DAUGHTER OF MATTEO FALCO AND FRANCESCA CRISCI AND IS NOT CLAIMED AS ONE: no act read so far names her parents",
+"ark": "ANTENATI an_ua14125 (Arienzo, Matrimonj indice 1826) img 1 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "antonio-lettieri",
+"name": "Antonio Lettieri",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "nunzia-lettieri",
+"name": "Nunzia Lettieri",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-lettieri",
+"name": "Giuseppe Lettieri (d. 1810)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"surname": "FALCO",
+"household": "Aniello Crisci & Giovanna Falco",
+"hid": "aniello-crisci-giovanna-falco",
+"role": "mother",
+"events": [
+{
+"event": "death",
+"date": "14 Oct 1872",
+"place": "Arienzo, Villaggio Crisci",
+"evidence": "**A LIFE CLOSED AT BOTH ENDS, FORTY-THREE YEARS AFTER THE WEDDING.**\n\nArienzo, *Morti* **1872**, **act 86**: «*L'anno milleottocentosettantadue, nel giorno **quindici** del mese di **Ottobre**, nella Casa Comunale, alle ore **quindici**. Dinanzi a me **NICOLA FINELLI, Sindaco** … sono comparsi **GIUSEPPE FALCO FU MATTEO, di anni VENTISETTE**, e **CARMINE CRISCI fu Francesco, di anni cinquantatré**, ambi agricoltori, domiciliati in Arienzo, i quali mi hanno dichiarato che alle ore **quattro d'Italia** del **quattordici** corrente mese di Ottobre, in questo Comune, nella sua casa di abitazione **sita nel VILLAGGIO CRISCI**, è morta **GIOVANNA FALCO**, *contadina*, di anni **SESSANTASETTE**, **moglie di ANIELLO CRISCI**, nata e domiciliata in Arienzo, **figlia de' furono GIUSEPPE e ANTONIA GUIDA***».\n\n**Sixty-seven in October 1872 is born about 1805**, and she married Aniello Crisci on **6 September 1829** at about twenty-four. *This household stood on that marriage and one daughter born in 1832, and nothing else.*\n\n**AND THE ACT NAMES HER PARENTS**: «*figlia de' furono **GIUSEPPE** e **ANTONIA GUIDA***» — **generation three of this line**, both already dead in 1872. *The archive had her as a daughter of that house from her marriage act; this is the second independent statement of it, forty-three years later and from a different clerk.*\n\n**She died in the VILLAGGIO CRISCI**, in her own house — a place-name this archive has not met before, distinct from the *strada Crisci* where her daughter was born in 1832.",
+"ark": "3:1:3QS7-9976-Q72X — FamilySearch MC55-FNT img 770 left page, Arienzo Morti 1872 act 86 — READ FROM THE IMAGE"
+},
 {
 "event": "marriage",
 "date": "6 Sep 1829",
@@ -30451,7 +30758,8 @@
 }
 ],
 "sources": [
-"register"
+"register",
+"tree"
 ],
 "living": false,
 "parents": [
@@ -30460,21 +30768,108 @@
 "name": "Giuseppe Falco",
 "via": "register",
 "vias": [
-"register"
+"register",
+"tree"
 ]
 },
 {
 "slug": "antonia-di-guida",
-"name": "Antonia di Guida",
+"name": "Antonia Guida / Guido (Falco)",
 "via": "register",
 "vias": [
-"register"
+"register",
+"tree"
 ]
 }
 ],
-"spouses": [],
-"children": [],
+"spouses": [
+{
+"slug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
+"name": "Aniello Crisci",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+}
+],
+"children": [
+{
+"slug": "pasqualina-crisci",
+"name": "Pascalina Crisci",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+},
+{
+"slug": "tomaso-crisci",
+"name": "Tomaso Crisci",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "clementina-crisci",
+"name": "Clementina Crisci (Guida)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "luigi-crisci",
+"name": "Luigi Crisci",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "concetta-crisci",
+"name": "Concetta Crisci (Ruotolo)",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
 "siblings": [
+{
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
+"name": "Matteo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "francesca-crisci",
+"name": "Francesca Falco (Crisci)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "maria-falco",
+"name": "Maria Falco (Morgillo)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+},
 {
 "slug": "mattheus-falco",
 "name": "Mattheus (Matteo) Falco",
@@ -30596,248 +30991,11 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
-]
-},
-{
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"d": "14 Oct 1872",
-"dateFrom": {
-"d": "act"
-}
-},
-{
-"slug": "giovanna-falco-of-michele-falco-vincenza-sposito",
-"name": "Giovanna Falco",
-"surname": "FALCO",
-"household": "Michele Falco & Vincenza Sposito",
-"hid": "michele-falco-vincenza-sposito",
-"role": "child",
-"events": [
-{
-"event": "death",
-"date": "13 May 1832",
-"place": "Arienzo, strada Costa",
-"evidence": "**READ FROM THE IMAGE 21 SEPTEMBER 2026, AND IT JOINS TWO HOUSEHOLDS THIS ARCHIVE KEEPS APART.** Act 32: «*è morta nella sua propria casa **GIOVANNA FALCO, D'ANNI SESSANTA, MOGLIE D'ANTONIO LETTIERI**, nata in **Arienzo**, di professione contadina, domiciliata ivi, **figlia di MICHELE FALCO Defunto** … **e di VINCENZA SPOSITO Defunta***» — died **13 May 1832** at twenty-three hours. Declared by **GENNARO COSPI**, thirty, and **CLEMENTE COSPI**, twenty-eight, both *contadini* of **strada COSTA**, both «vicino della defunta».\n\n**Sixty in 1832 puts her birth about 1772.** And «**moglie d'ANTONIO LETTIERI**» is the join: this archive also holds a household «**Antonio Lettieri & Giovanna Falco**», known from a marriage index of 1826 and a daughter **Nunzia Lettieri** who married in 1837. **The death act says both things in one sentence.** *The two households are left standing and cross-referenced rather than merged, because that is a judgement this archive has not yet made.*",
-"ark": "ANTENATI an_ua14334 img21l act32"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "michele-falco-of-michele-falco-vincenza-sposito",
-"name": "Michele Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenza-sposito",
-"name": "Vincenza Sposito",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [],
-"d": "13 May 1832",
-"dateFrom": {
-"d": "act"
-}
-},
-{
-"slug": "giovanna-falco-of-antonio-lettieri-giovanna-falco",
-"name": "Giovanna Falco",
-"surname": "FALCO",
-"household": "Antonio Lettieri & Giovanna Falco",
-"hid": "antonio-lettieri-giovanna-falco",
-"role": "mother",
-"events": [
-{
-"event": "named in a marriage index",
-"date": "2 Feb 1826",
-"place": "Paolisi",
-"evidence": "A FALCO WOMAN IN A TOWN THIS ARCHIVE HAS ONLY JUST PUT ON ITS MAP. «LETTIERI LUDOVICO | PAOLISI | LETTIERI ANTONIO, e FALCO GIOVANNA | A dì 2 Febrajo 1826», his bride Carmela Cossi of Arienzo. A son marrying in 1826 puts her birth around 1770-1785 — THE FOUNDERS' GENERATION, not the Giovanna Falco baptised 1797 to Gioacchino, nor the Giovanna born 1805 to Giuseppe, both far too young. SHE MAY BE A DAUGHTER OF MATTEO FALCO AND FRANCESCA CRISCI AND IS NOT CLAIMED AS ONE: no act read so far names her parents",
-"ark": "ANTENATI an_ua14125 (Arienzo, Matrimonj indice 1826) img 1 — READ FROM THE IMAGE"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [
-{
-"slug": "antonio-lettieri",
-"name": "Antonio Lettieri",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"children": [
-{
-"slug": "nunzia-lettieri",
-"name": "Nunzia Lettieri",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-lettieri",
-"name": "Giuseppe Lettieri (d. 1810)",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"siblings": []
-},
-{
-"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
-"name": "Giovanna Falco",
-"surname": "FALCO",
-"household": "Aniello Crisci & Giovanna Falco",
-"hid": "aniello-crisci-giovanna-falco",
-"role": "mother",
-"events": [
-{
-"event": "death",
-"date": "14 Oct 1872",
-"place": "Arienzo, Villaggio Crisci",
-"evidence": "**A LIFE CLOSED AT BOTH ENDS, FORTY-THREE YEARS AFTER THE WEDDING.**\n\nArienzo, *Morti* **1872**, **act 86**: «*L'anno milleottocentosettantadue, nel giorno **quindici** del mese di **Ottobre**, nella Casa Comunale, alle ore **quindici**. Dinanzi a me **NICOLA FINELLI, Sindaco** … sono comparsi **GIUSEPPE FALCO FU MATTEO, di anni VENTISETTE**, e **CARMINE CRISCI fu Francesco, di anni cinquantatré**, ambi agricoltori, domiciliati in Arienzo, i quali mi hanno dichiarato che alle ore **quattro d'Italia** del **quattordici** corrente mese di Ottobre, in questo Comune, nella sua casa di abitazione **sita nel VILLAGGIO CRISCI**, è morta **GIOVANNA FALCO**, *contadina*, di anni **SESSANTASETTE**, **moglie di ANIELLO CRISCI**, nata e domiciliata in Arienzo, **figlia de' furono GIUSEPPE e ANTONIA GUIDA***».\n\n**Sixty-seven in October 1872 is born about 1805**, and she married Aniello Crisci on **6 September 1829** at about twenty-four. *This household stood on that marriage and one daughter born in 1832, and nothing else.*\n\n**AND THE ACT NAMES HER PARENTS**: «*figlia de' furono **GIUSEPPE** e **ANTONIA GUIDA***» — **generation three of this line**, both already dead in 1872. *The archive had her as a daughter of that house from her marriage act; this is the second independent statement of it, forty-three years later and from a different clerk.*\n\n**She died in the VILLAGGIO CRISCI**, in her own house — a place-name this archive has not met before, distinct from the *strada Crisci* where her daughter was born in 1832.",
-"ark": "3:1:3QS7-9976-Q72X — FamilySearch MC55-FNT img 770 left page, Arienzo Morti 1872 act 86 — READ FROM THE IMAGE"
-}
-],
-"sources": [
-"register",
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giuseppe Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "antonia-di-guida",
-"name": "Antonia Guida / Guido (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [
-{
-"slug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
-"name": "Aniello Crisci",
-"via": "register",
-"vias": [
-"register",
-"tree"
-]
-}
-],
-"children": [
-{
-"slug": "pasqualina-crisci",
-"name": "Pascalina Crisci",
-"via": "register",
-"vias": [
-"register",
-"tree"
-]
-},
-{
-"slug": "tomaso-crisci",
-"name": "Tomaso Crisci",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "clementina-crisci",
-"name": "Clementina Crisci (Guida)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "luigi-crisci",
-"name": "Luigi Crisci",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "concetta-crisci",
-"name": "Concetta Crisci (Ruotolo)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [
-{
-"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
-"name": "Matteo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "francesca-crisci",
-"name": "Francesca Falco (Crisci)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "maria-falco",
-"name": "Maria Falco (Morgillo)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "tree",
-"vias": [
-"tree"
 ]
 }
 ],
@@ -31160,14 +31318,6 @@
 ]
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "via": "register",
@@ -31232,16 +31382,24 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
@@ -31350,14 +31508,6 @@
 ]
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "via": "register",
@@ -31422,16 +31572,24 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
@@ -32030,14 +32188,6 @@
 ]
 },
 {
-"slug": "angela-falco-of-matteo-falco-francesca-crisci",
-"name": "Angela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "joachim-falco-the-first-gioacchino",
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "via": "register",
@@ -32060,183 +32210,16 @@
 "vias": [
 "register"
 ]
-}
-]
 },
 {
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Giuseppe Falco (of Rosa Zimbardo)",
-"surname": "FALCO",
-"household": "Vincenzo Falco & Andreana Crisci",
-"hid": "vincenzo-falco-andreana-crisci",
-"role": "child",
-"events": [
-{
-"event": "death",
-"date": "3 May 1882",
-"place": "Arienzo, via Orticelli 8",
-"evidence": "«*è morto **GIUSEPPE FALCO**, di anni **CINQUANTOTTO** … **dal fu VINCENZO** … e **dalla fu ANDREANA CRISCI** … **MARITO DI ROSA ZIMBARDO***» — Arienzo, *Morti* 1882, act 34, read from the image.\n\n**A SON OF THIS HOUSEHOLD, BORN ABOUT 1824**, which the family tree said and no document showed until today. *See his own household.*",
-"ark": "3:1:3QSQ-G97F-99HN — FamilySearch MC55-VNL img 597 left page, Arienzo Morti 1882 act 34 — READ FROM THE IMAGE"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
-"name": "Andreana Crisci",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Vincenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Vincenzo Falco (of Angelo, of Via Corso)",
+"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
+"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
 ]
 }
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Raffaele Falco",
-"via": "register",
-"vias": [
-"register"
 ]
-},
-{
-"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Luigi (Aloysius) Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Pasquale Falco (of Vincenzo, 1830-1833)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Antonio Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "andrea-falco",
-"name": "Andrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "nunziata-falco",
-"name": "Nunziata Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
-"name": "[daughter] Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Pasquale Falco (of Vincenzo, the second, 1834)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Raffaele Falco (the first, 1816-1817)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "sara-falco",
-"name": "Sara Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-nunzio-falco",
-"name": "Giuseppe Nunzio Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "stanislao-falco",
-"name": "Stanislao Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"d": "3 May 1882",
-"dateFrom": {
-"d": "act"
-}
 },
 {
 "slug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
@@ -32460,8 +32443,9 @@
 {
 "slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
 "name": "Giovanna Falco (Crisci)",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -32555,14 +32539,6 @@
 ]
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "via": "register",
@@ -32627,8 +32603,8 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
@@ -32942,7 +32918,7 @@
 ],
 "children": [
 {
-"slug": "maria-falco-of-giuseppe-falco-rosa-sossi",
+"slug": "maria-falco-of-francesco-quotolo-maria-falco",
 "name": "Maria Falco",
 "via": "register",
 "vias": [
@@ -33450,6 +33426,13 @@
 "place": "Arienzo, via Orticelli 8",
 "evidence": "**VERIFIED TO THE DAY, AND THE ACT MAKES HIM A SON OF GENERATION THREE.**\n\nArienzo, *Morti* **1882**, **act 34**: «*L'anno milleottocentottantadue, addì **quattro** di **maggio**, a ore antimeridiane **otto** e minuti **ventidue** … sono comparsi **MARCANTONIO CRISCI**, di anni **sessantasei**, *calzolaio*, e **RAFFAELE LOFFREDO**, di anni **cinquantadue**, *agricoltore* … a ore pomeridiane **quattro** e minuti **trenta** di **ieri**, nella casa posta in **via ORTICELLI** al numero **OTTO**, è morto **GIUSEPPE FALCO**, di anni **CINQUANTOTTO**, *giornaliero*, residente in Arienzo, nato in Arienzo, **dal fu VINCENZO**, contadino, domiciliato in vita in Arienzo, e **dalla fu ANDREANA CRISCI**, contadina, domiciliata in vita col marito, **MARITO DI ROSA ZIMBARDO***».\n\n**The family tree says he was born 1824 and died 3 May 1882, a son of VINCENZO FALCO and ANDREANA CRISCI.** *Fifty-eight on 3 May 1882 is born about 1824. **Every part of the tree's claim is now on the register**, and the filiation with it.*\n\n**HE DIED IN THE HOUSE HIS TWO SONS DIED IN.** *ANGELO FALCO at nineteen on 29 January 1875 and **CLEMENTE** at seventeen that October, both at **via Orticelli 8**; their father seven years later in the same room.*\n\n**AND HIS WIDOW MOVED.** *ROSA ZIMBARDO died on 12 August 1889 at **via Camellara 12**, «vedova di Giuseppe Falco».*\n\n**HE IS THE THIRD CHILD OF GENERATION THREE DOCUMENTED TODAY** — with **RAFFAELE** (generation four, dead 21 April 1880) and **SARA** (born 1828, dead 1886). *Three acts, three sets of the same two parents, in the same words.*",
 "ark": "3:1:3QSQ-G97F-99HN — FamilySearch MC55-VNL img 597 left page, Arienzo Morti 1882 act 34 — READ FROM THE IMAGE"
+},
+{
+"event": "death",
+"date": "3 May 1882",
+"place": "Arienzo, via Orticelli 8",
+"evidence": "«*è morto **GIUSEPPE FALCO**, di anni **CINQUANTOTTO** … **dal fu VINCENZO** … e **dalla fu ANDREANA CRISCI** … **MARITO DI ROSA ZIMBARDO***» — Arienzo, *Morti* 1882, act 34, read from the image.\n\n**A SON OF THIS HOUSEHOLD, BORN ABOUT 1824**, which the family tree said and no document showed until today. *See his own household.*",
+"ark": "3:1:3QSQ-G97F-99HN — FamilySearch MC55-VNL img 597 left page, Arienzo Morti 1882 act 34 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -33461,16 +33444,18 @@
 {
 "slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
 {
 "slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
 "name": "Andrea / Andreana Crisci (Falco)",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 }
@@ -33543,17 +33528,123 @@
 {
 "slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Luigi Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
 {
 "slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Antonio Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
+]
+},
+{
+"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Raffaele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Pasquale Falco (of Vincenzo, 1830-1833)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "andrea-falco",
+"name": "Andrea Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nunziata-falco",
+"name": "Nunziata Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
+"name": "[daughter] Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci-2",
+"name": "Pasquale Falco (of Vincenzo, the second, 1834)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci-2",
+"name": "Raffaele Falco (the first, 1816-1817)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelandrea-falco",
+"name": "Angelandrea Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "sara-falco",
+"name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-nunzio-falco",
+"name": "Giuseppe Nunzio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "stanislao-falco",
+"name": "Stanislao Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
 ]
 }
 ],
@@ -34011,14 +34102,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Vincenzo Falco (of Angelo, of Via Corso)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [],
@@ -34137,7 +34220,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
@@ -34508,14 +34591,6 @@
 ]
 },
 {
-"slug": "angela-falco-of-matteo-falco-francesca-crisci",
-"name": "Angela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "joachim-falco-the-first-gioacchino",
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "via": "register",
@@ -34534,6 +34609,14 @@
 {
 "slug": "rosa-falco-of-carlantonio-morgillo-rosa-falco",
 "name": "Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
+"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -34753,14 +34836,6 @@
 "register",
 "tree"
 ]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Vincenzo Falco (of Angelo, of Via Corso)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [
@@ -34804,8 +34879,9 @@
 {
 "slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -34908,14 +34984,6 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
 "register"
@@ -35516,14 +35584,6 @@
 ]
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "via": "register",
@@ -35588,16 +35648,24 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
@@ -35708,14 +35776,6 @@
 ]
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "via": "register",
@@ -35780,16 +35840,24 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
@@ -36082,14 +36150,6 @@
 "children": [],
 "siblings": [
 {
-"slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Vincenzo Falco",
 "via": "register",
@@ -36100,14 +36160,6 @@
 {
 "slug": "maria-raffaela-falco",
 "name": "Maria Raffaela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "anna-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Anna Falco",
 "via": "register",
 "vias": [
 "register"
@@ -36148,6 +36200,22 @@
 {
 "slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti-2",
 "name": "Giovanna Falco (b. 1810)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "anna-falco-of-arcangelo-crisci-anna-falco",
+"name": "Anna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-alfonso-diglio-maria-falco",
+"name": "Maria Falco",
 "via": "register",
 "vias": [
 "register"
@@ -36334,14 +36402,6 @@
 ]
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "via": "register",
@@ -36398,16 +36458,24 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
@@ -36458,14 +36526,6 @@
 {
 "slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Vincenzo Falco (of Angelo, of Via Corso)",
 "via": "register",
 "vias": [
 "register"
@@ -36588,7 +36648,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
@@ -36691,8 +36751,8 @@
 ]
 },
 {
-"slug": "pasquale-falco-of-francesco-falco-raffaela-falco-2",
-"name": "Pasquale Falco (the second, 1839-1883)",
+"slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -37014,139 +37074,6 @@
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
-"slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Maria Falco",
-"surname": "FALCO",
-"household": "Pasquale Falco & Chiara Rivetti",
-"hid": "pasquale-falco-chiara-rivetti",
-"role": "child",
-"events": [
-{
-"event": "baptism",
-"date": "13 Sep 1789",
-"place": "Arienzo",
-"evidence": "anno ... octogesimo nono — the Latin words give 1789, the digits misread as 1780",
-"ark": "3Q9M-CSD3-1386-4"
-},
-{
-"event": "baptism",
-"date": "30 Oct 1790",
-"place": "Arienzo",
-"evidence": "ex Paschale Falco, et Clara Rivetta ... nomen Maria",
-"ark": "3Q9M-CSD3-13XV-F"
-},
-{
-"event": "death",
-"date": "25 Apr 1826",
-"place": "Arienzo, strada Camellara",
-"evidence": "**THE FOURTH MARIA FALCO, IDENTIFIED** — and the open question this archive had published about her is answered by her own death act. «è morta nella sua propria casa MARIA FALCO d'anni TRENTADUE, moglie di ALFONSO DIGLIO, nata in Arienzo, di professione Contadina, domiciliata ivi, FIGLIA DI PASQUALE FALCO, di professione Contadino, domiciliato ivi, E DI CHIARA RIVETTI, domiciliata ivi» — atto 22. A SECOND DAUGHTER OF GENERATION TWO, and a sister of Vincenzo Falco and of Anna Falco. Aged thirty-two, so born about 1794 — which sits between, and matches neither of, the two Maria Falco baptisms of 1789 and 1790 in this house. Either an age given loosely, or a third daughter of the name.\n\n(The identifying sentence was in `data/households.tsv` and not in the file the site builds from; recovered by work-list row 75.)",
-"ark": "ANTENATI an_ua14328 img13l atto22"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Pasquale Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
-"name": "Chiara (Clara) Rivetti",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Vincenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-raffaela-falco",
-"name": "Maria Raffaela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "anna-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Anna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "domenico-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Domenico Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-angela-falco",
-"name": "Maria Angela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "francescantonio-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Francescantonio Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "michelangelo-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Michelangelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti-2",
-"name": "Giovanna Falco (b. 1810)",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"d": "25 Apr 1826",
-"dateFrom": {
-"d": "act"
-}
-},
-{
 "slug": "maria-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Maria Falco (of Giuseppe, d. 1871)",
 "surname": "FALCO",
@@ -37244,14 +37171,6 @@
 ]
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "via": "register",
@@ -37308,16 +37227,24 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
@@ -37330,13 +37257,27 @@
 }
 },
 {
-"slug": "maria-falco-of-giuseppe-falco-rosa-sossi",
+"slug": "maria-falco-of-francesco-quotolo-maria-falco",
 "name": "Maria Falco",
 "surname": "FALCO",
-"household": "Giuseppe Falco & Rosa Sossi",
-"hid": "giuseppe-falco-rosa-sossi",
-"role": "child",
+"household": "Francesco Quotolo & Maria Falco",
+"hid": "francesco-quotolo-maria-falco",
+"role": "mother",
 "events": [
+{
+"event": "death",
+"date": "24 Jul 1817",
+"place": "Arienzo",
+"evidence": "the act that names this marriage is her own death act; no children are named",
+"ark": "ANTENATI an_ua14319 img34l"
+},
+{
+"event": "widowed",
+"date": "22 Feb 1815",
+"place": "Arienzo, strada Maddalena",
+"evidence": "**THE OLDEST FALCO WOMAN OF THE SIX THIS ARCHIVE WAS WORKING ON THAT WEEK — AND, UNLIKE THE OTHER FIVE, SHE WAS NOT NEW.** *She has been in this archive since her own death act of 24 July 1817 was read; what 1815 adds is her husband's death date, two years and five months before hers.* Widow of a man born about **1731**, so herself born roughly **1735–1750**.\n\n**AND SHE LIVED ON STRADA MADDALENA.** That is the street of **GIUSEPPE DI GUIDA**, *massaro di campagna*, the father of **Antonia di Guida** who married into this line in 1802. **A Falco woman on the di Guida street two decades before that marriage is worth recording and proves nothing**: Arienzo's streets held dozens of households each, and this archive has three times now been shown that a shared street means only a shared street. [[two-falco-families-arienzo]]\n\n---\n\n**CORRECTED 23 SEPTEMBER 2026 — THIS HOUSEHOLD WAS NOT NEW AND THIS ARCHIVE SAID IT WAS.** The row above was written into a household record created from scratch, because the publishing script appended a new entry instead of finding the existing one. **Four household names were duplicated that way in one night**, and the verification chain passed every time: **no gate in this archive checked for two households of the same name.** One now does. ",
+"ark": "ANTENATI an_ua14317 img12 — READ FROM THE IMAGE"
+},
 {
 "event": "death",
 "date": "24 Jul 1817",
@@ -37367,42 +37308,6 @@
 ]
 }
 ],
-"spouses": [],
-"children": [],
-"siblings": [],
-"d": "24 Jul 1817",
-"dateFrom": {
-"d": "act"
-}
-},
-{
-"slug": "maria-falco-of-francesco-quotolo-maria-falco",
-"name": "Maria Falco",
-"surname": "FALCO",
-"household": "Francesco Quotolo & Maria Falco",
-"hid": "francesco-quotolo-maria-falco",
-"role": "mother",
-"events": [
-{
-"event": "death",
-"date": "24 Jul 1817",
-"place": "Arienzo",
-"evidence": "the act that names this marriage is her own death act; no children are named",
-"ark": "ANTENATI an_ua14319 img34l"
-},
-{
-"event": "widowed",
-"date": "22 Feb 1815",
-"place": "Arienzo, strada Maddalena",
-"evidence": "**THE OLDEST FALCO WOMAN OF THE SIX THIS ARCHIVE WAS WORKING ON THAT WEEK — AND, UNLIKE THE OTHER FIVE, SHE WAS NOT NEW.** *She has been in this archive since her own death act of 24 July 1817 was read; what 1815 adds is her husband's death date, two years and five months before hers.* Widow of a man born about **1731**, so herself born roughly **1735–1750**.\n\n**AND SHE LIVED ON STRADA MADDALENA.** That is the street of **GIUSEPPE DI GUIDA**, *massaro di campagna*, the father of **Antonia di Guida** who married into this line in 1802. **A Falco woman on the di Guida street two decades before that marriage is worth recording and proves nothing**: Arienzo's streets held dozens of households each, and this archive has three times now been shown that a shared street means only a shared street. [[two-falco-families-arienzo]]\n\n---\n\n**CORRECTED 23 SEPTEMBER 2026 — THIS HOUSEHOLD WAS NOT NEW AND THIS ARCHIVE SAID IT WAS.** The row above was written into a household record created from scratch, because the publishing script appended a new entry instead of finding the existing one. **Four household names were duplicated that way in one night**, and the verification chain passed every time: **no gate in this archive checked for two households of the same name.** One now does. ",
-"ark": "ANTENATI an_ua14317 img12 — READ FROM THE IMAGE"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
 "spouses": [
 {
 "slug": "francesco-quotolo-of-francesco-quotolo-maria-falco",
@@ -37659,13 +37564,51 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "«*e da **MARIA FALCO sua moglie legittima, d'anni VENTISETTE***» — **b. c.1790.** Her series is now four acts: twenty-seven in May 1817, twenty-seven in April 1819, thirty-one in September 1822, thirty-three in May 1825 — **c.1790, c.1792, c.1791, c.1792.** **Four readings inside three years of each other**, which makes her the best-dated Maria Falco this archive holds. **Which Falco house she comes from is still unestablished.**",
 "ark": "ANTENATI an_ua14414 (Arienzo, Nati 1817) atto 49, img 25l — READ FROM THE IMAGE"
+},
+{
+"event": "baptism",
+"date": "13 Sep 1789",
+"place": "Arienzo",
+"evidence": "anno ... octogesimo nono — the Latin words give 1789, the digits misread as 1780",
+"ark": "3Q9M-CSD3-1386-4"
+},
+{
+"event": "baptism",
+"date": "30 Oct 1790",
+"place": "Arienzo",
+"evidence": "ex Paschale Falco, et Clara Rivetta ... nomen Maria",
+"ark": "3Q9M-CSD3-13XV-F"
+},
+{
+"event": "death",
+"date": "25 Apr 1826",
+"place": "Arienzo, strada Camellara",
+"evidence": "**THE FOURTH MARIA FALCO, IDENTIFIED** — and the open question this archive had published about her is answered by her own death act. «è morta nella sua propria casa MARIA FALCO d'anni TRENTADUE, moglie di ALFONSO DIGLIO, nata in Arienzo, di professione Contadina, domiciliata ivi, FIGLIA DI PASQUALE FALCO, di professione Contadino, domiciliato ivi, E DI CHIARA RIVETTI, domiciliata ivi» — atto 22. A SECOND DAUGHTER OF GENERATION TWO, and a sister of Vincenzo Falco and of Anna Falco. Aged thirty-two, so born about 1794 — which sits between, and matches neither of, the two Maria Falco baptisms of 1789 and 1790 in this house. Either an age given loosely, or a third daughter of the name.\n\n(The identifying sentence was in `data/households.tsv` and not in the file the site builds from; recovered by work-list row 75.)",
+"ark": "ANTENATI an_ua14328 img13l atto22"
 }
 ],
 "sources": [
 "register"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
+"name": "Chiara (Clara) Rivetti",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "spouses": [
 {
 "slug": "alfonso-diglio-of-alfonso-diglio-maria-falco",
@@ -37710,7 +37653,80 @@
 ]
 }
 ],
-"siblings": [],
+"siblings": [
+{
+"slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-raffaela-falco",
+"name": "Maria Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenico-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Domenico Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-angela-falco",
+"name": "Maria Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francescantonio-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Francescantonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "michelangelo-falco-of-pasquale-falco-chiara-rivetti",
+"name": "Michelangelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti-2",
+"name": "Giovanna Falco (b. 1810)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "anna-falco-of-arcangelo-crisci-anna-falco",
+"name": "Anna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "d": "25 Apr 1826",
 "dateFrom": {
 "d": "act"
@@ -38760,24 +38776,8 @@
 "children": [],
 "siblings": [
 {
-"slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Vincenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "anna-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Anna Falco",
 "via": "register",
 "vias": [
 "register"
@@ -38826,6 +38826,22 @@
 {
 "slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti-2",
 "name": "Giovanna Falco (b. 1810)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "anna-falco-of-arcangelo-crisci-anna-falco",
+"name": "Anna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-alfonso-diglio-maria-falco",
+"name": "Maria Falco",
 "via": "register",
 "vias": [
 "register"
@@ -39265,14 +39281,6 @@
 ]
 },
 {
-"slug": "angela-falco-of-matteo-falco-francesca-crisci",
-"name": "Angela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "joachim-falco-the-first-gioacchino",
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "via": "register",
@@ -39291,6 +39299,14 @@
 {
 "slug": "rosa-falco-of-carlantonio-morgillo-rosa-falco",
 "name": "Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
+"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -39410,14 +39426,6 @@
 ]
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "via": "register",
@@ -39482,16 +39490,24 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
@@ -39608,14 +39624,6 @@
 ]
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "via": "register",
@@ -39672,16 +39680,24 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
@@ -40684,14 +40700,6 @@
 ]
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "via": "register",
@@ -40756,16 +40764,24 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
@@ -40822,14 +40838,6 @@
 "children": [],
 "siblings": [
 {
-"slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Vincenzo Falco",
 "via": "register",
@@ -40840,14 +40848,6 @@
 {
 "slug": "maria-raffaela-falco",
 "name": "Maria Raffaela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "anna-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Anna Falco",
 "via": "register",
 "vias": [
 "register"
@@ -40888,6 +40888,22 @@
 {
 "slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti-2",
 "name": "Giovanna Falco (b. 1810)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "anna-falco-of-arcangelo-crisci-anna-falco",
+"name": "Anna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-alfonso-diglio-maria-falco",
+"name": "Maria Falco",
 "via": "register",
 "vias": [
 "register"
@@ -41551,14 +41567,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Vincenzo Falco (of Angelo, of Via Corso)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [],
@@ -41677,7 +41685,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
@@ -41803,14 +41811,6 @@
 ]
 },
 {
-"slug": "angela-falco-of-matteo-falco-francesca-crisci",
-"name": "Angela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "joachim-falco-the-first-gioacchino",
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "via": "register",
@@ -41829,6 +41829,14 @@
 {
 "slug": "rosa-falco-of-carlantonio-morgillo-rosa-falco",
 "name": "Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
+"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -42291,14 +42299,6 @@
 ]
 },
 {
-"slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Vincenzo Falco",
 "via": "register",
@@ -42309,14 +42309,6 @@
 {
 "slug": "maria-raffaela-falco",
 "name": "Maria Raffaela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "anna-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Anna Falco",
 "via": "register",
 "vias": [
 "register"
@@ -42365,6 +42357,22 @@
 {
 "slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti-2",
 "name": "Giovanna Falco (b. 1810)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "anna-falco-of-arcangelo-crisci-anna-falco",
+"name": "Anna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-alfonso-diglio-maria-falco",
+"name": "Maria Falco",
 "via": "register",
 "vias": [
 "register"
@@ -42465,14 +42473,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Vincenzo Falco (of Angelo, of Via Corso)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [],
@@ -42591,7 +42591,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
@@ -42638,14 +42638,6 @@
 {
 "slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Vincenzo Falco (of Angelo, of Via Corso)",
 "via": "register",
 "vias": [
 "register"
@@ -42768,7 +42760,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
@@ -42912,8 +42904,8 @@
 ]
 },
 {
-"slug": "pasquale-falco-of-francesco-falco-raffaela-falco-2",
-"name": "Pasquale Falco (the second, 1839-1883)",
+"slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -42926,13 +42918,27 @@
 }
 },
 {
-"slug": "pasquale-falco-of-francesco-falco-raffaela-falco-2",
-"name": "Pasquale Falco (the second, 1839-1883)",
+"slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Pasquale Falco",
 "surname": "FALCO",
-"household": "Francesco Falco & Raffaela Falco",
-"hid": "francesco-falco-raffaela-falco",
-"role": "child",
+"household": "Pasquale Falco & Maria Amalia Guida",
+"hid": "pasquale-falco-maria-amalia-guida",
+"role": "father",
 "events": [
+{
+"event": "named as declarant",
+"date": "25 Nov 1880",
+"place": "Arienzo, via Camellara",
+"evidence": "«Pasquale Falco, di anni quarantadue, giornaliere, domiciliato in questo Comune» — declaring the death of a neighbour, Francesco Maione, at via Camellara number three, beside Pasquale Carfora, 51. Forty-two in November 1880, so b. c.1838; he died 26 Sep 1883 «di anni quarantaquattro». The age series agrees",
+"ark": "3QSQ-G97N-1ZVQ"
+},
+{
+"event": "death",
+"date": "26 Sep 1883",
+"place": "Arienzo, via Camellara 5",
+"evidence": "**THE HEAD OF THIS HOUSE, READ FROM THE REGISTER.** «*è morto **PASQUALE FALCO**, di anni **QUARANTAQUATTRO**, *agricoltore* … **dal fu FRANCESCO** … e **dalla fu RAFFAELA FALCO** … **MARITO DI MARIA AMALIA GUIDO***» — Arienzo, *Morti* 1883, act 60, **26 September 1883**, at **via Camellara 5**.\n\n*This archive held the date and the address from an extract quoted inside somebody else's processetto. **The register confirms every word and adds his parents**, which places him as a son of «Francesco Falco & Raffaela Falco» — and as the **second** Pasquale of that house, named for a brother dead on 30 October 1838.*\n\n**MARIA AMALIA GUIDO SURVIVED HIM**, «*marito di*» and not *vedovo*. *Three of their children are in this archive and all three died small: Raffaele at 1871, Maria Carmina in 1873, a second Raffaele in 1875.* **He was forty-four.**",
+"ark": "3:1:3QSQ-G97F-9RQ — FamilySearch MC55-VNL img 719 right page, Arienzo Morti 1883 act 60 — READ FROM THE IMAGE"
+},
 {
 "event": "death",
 "date": "26 Sep 1883",
@@ -42964,7 +42970,32 @@
 }
 ],
 "spouses": [],
-"children": [],
+"children": [
+{
+"slug": "raffaele-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Raffaele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carmina-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Maria Carmina Falco (of Pasquale, d. 1873)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-pasquale-falco-maria-amalia-guida-2",
+"name": "Raffaele Falco (the second, d. 1875)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "siblings": [
 {
 "slug": "clemente-falco-of-francesco-falco-raffaela-falco",
@@ -43023,67 +43054,6 @@
 ]
 }
 ],
-"d": "26 Sep 1883",
-"dateFrom": {
-"d": "act"
-}
-},
-{
-"slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
-"name": "Pasquale Falco",
-"surname": "FALCO",
-"household": "Pasquale Falco & Maria Amalia Guida",
-"hid": "pasquale-falco-maria-amalia-guida",
-"role": "father",
-"events": [
-{
-"event": "named as declarant",
-"date": "25 Nov 1880",
-"place": "Arienzo, via Camellara",
-"evidence": "«Pasquale Falco, di anni quarantadue, giornaliere, domiciliato in questo Comune» — declaring the death of a neighbour, Francesco Maione, at via Camellara number three, beside Pasquale Carfora, 51. Forty-two in November 1880, so b. c.1838; he died 26 Sep 1883 «di anni quarantaquattro». The age series agrees",
-"ark": "3QSQ-G97N-1ZVQ"
-},
-{
-"event": "death",
-"date": "26 Sep 1883",
-"place": "Arienzo, via Camellara 5",
-"evidence": "**THE HEAD OF THIS HOUSE, READ FROM THE REGISTER.** «*è morto **PASQUALE FALCO**, di anni **QUARANTAQUATTRO**, *agricoltore* … **dal fu FRANCESCO** … e **dalla fu RAFFAELA FALCO** … **MARITO DI MARIA AMALIA GUIDO***» — Arienzo, *Morti* 1883, act 60, **26 September 1883**, at **via Camellara 5**.\n\n*This archive held the date and the address from an extract quoted inside somebody else's processetto. **The register confirms every word and adds his parents**, which places him as a son of «Francesco Falco & Raffaela Falco» — and as the **second** Pasquale of that house, named for a brother dead on 30 October 1838.*\n\n**MARIA AMALIA GUIDO SURVIVED HIM**, «*marito di*» and not *vedovo*. *Three of their children are in this archive and all three died small: Raffaele at 1871, Maria Carmina in 1873, a second Raffaele in 1875.* **He was forty-four.**",
-"ark": "3:1:3QSQ-G97F-9RQ — FamilySearch MC55-VNL img 719 right page, Arienzo Morti 1883 act 60 — READ FROM THE IMAGE"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [],
-"children": [
-{
-"slug": "raffaele-falco-of-pasquale-falco-maria-amalia-guida",
-"name": "Raffaele Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-carmina-falco-of-pasquale-falco-maria-amalia-guida",
-"name": "Maria Carmina Falco (of Pasquale, d. 1873)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaele-falco-of-pasquale-falco-maria-amalia-guida-2",
-"name": "Raffaele Falco (the second, d. 1875)",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"siblings": [],
 "d": "26 Sep 1883",
 "dateFrom": {
 "d": "act"
@@ -43906,8 +43876,8 @@
 ]
 },
 {
-"slug": "pasquale-falco-of-francesco-falco-raffaela-falco-2",
-"name": "Pasquale Falco (the second, 1839-1883)",
+"slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -44074,14 +44044,6 @@
 ]
 },
 {
-"slug": "angela-falco-of-matteo-falco-francesca-crisci",
-"name": "Angela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "joachim-falco-the-first-gioacchino",
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "via": "register",
@@ -44092,6 +44054,14 @@
 {
 "slug": "rosa-falco-of-carlantonio-morgillo-rosa-falco",
 "name": "Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
+"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -44273,14 +44243,6 @@
 ]
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "matteo-falco-of-giuseppe-falco-antonia-di-guida-2",
 "name": "Matteo Falco (the second)",
 "via": "register",
@@ -44337,16 +44299,24 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
@@ -44450,8 +44420,8 @@
 ]
 },
 {
-"slug": "pasquale-falco-of-francesco-falco-raffaela-falco-2",
-"name": "Pasquale Falco (the second, 1839-1883)",
+"slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -44886,14 +44856,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Vincenzo Falco (of Angelo, of Via Corso)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [],
@@ -45012,7 +44974,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
@@ -45064,14 +45026,6 @@
 {
 "slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Vincenzo Falco (of Angelo, of Via Corso)",
 "via": "register",
 "vias": [
 "register"
@@ -45194,7 +45148,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
@@ -45321,14 +45275,6 @@
 ]
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "via": "register",
@@ -45385,16 +45331,24 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
@@ -45513,14 +45467,6 @@
 ]
 },
 {
-"slug": "giovanna-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Giovanna Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "via": "register",
@@ -45577,16 +45523,24 @@
 ]
 },
 {
-"slug": "francesca-falco-of-giuseppe-falco-antonia-di-guida",
-"name": "Francesca Falco (of Giuseppe, 1812-1876)",
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
 "via": "register",
 "vias": [
 "register"
 ]
 },
 {
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
 "via": "register",
 "vias": [
 "register"
@@ -45690,8 +45644,8 @@
 ]
 },
 {
-"slug": "pasquale-falco-of-francesco-falco-raffaela-falco-2",
-"name": "Pasquale Falco (the second, 1839-1883)",
+"slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
@@ -47061,14 +47015,6 @@
 ]
 },
 {
-"slug": "angela-falco-of-matteo-falco-francesca-crisci",
-"name": "Angela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "joachim-falco-the-first-gioacchino",
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "via": "register",
@@ -47079,6 +47025,14 @@
 {
 "slug": "rosa-maria-falco",
 "name": "ROSA MARIA Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
+"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -47433,14 +47387,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Vincenzo Falco (of Angelo, of Via Corso)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [],
@@ -47559,7 +47505,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
@@ -47613,14 +47559,6 @@
 {
 "slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Vincenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Vincenzo Falco (of Angelo, of Via Corso)",
 "via": "register",
 "vias": [
 "register"
@@ -47743,7 +47681,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
@@ -48251,24 +48189,8 @@
 "children": [],
 "siblings": [
 {
-"slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "maria-raffaela-falco",
 "name": "Maria Raffaela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "anna-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Anna Falco",
 "via": "register",
 "vias": [
 "register"
@@ -48317,6 +48239,22 @@
 {
 "slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti-2",
 "name": "Giovanna Falco (b. 1810)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "anna-falco-of-arcangelo-crisci-anna-falco",
+"name": "Anna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-alfonso-diglio-maria-falco",
+"name": "Maria Falco",
 "via": "register",
 "vias": [
 "register"
@@ -48483,14 +48421,6 @@
 "register",
 "tree"
 ]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Vincenzo Falco (of Angelo, of Via Corso)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "children": [
@@ -48523,8 +48453,9 @@
 {
 "slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -48627,14 +48558,6 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
 "register"
@@ -48725,153 +48648,8 @@
 ]
 }
 ],
-"spouses": [
-{
-"slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
-"name": "Andreana Crisci",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Vincenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
+"spouses": [],
 "children": [
-{
-"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Raffaele Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Luigi (Aloysius) Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Pasquale Falco (of Vincenzo, 1830-1833)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Antonio Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "andrea-falco",
-"name": "Andrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "nunziata-falco",
-"name": "Nunziata Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
-"name": "[daughter] Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Pasquale Falco (of Vincenzo, the second, 1834)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Raffaele Falco (the first, 1816-1817)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "sara-falco",
-"name": "Sara Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-nunzio-falco",
-"name": "Giuseppe Nunzio Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "stanislao-falco",
-"name": "Stanislao Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Giuseppe Falco (of Rosa Zimbardo)",
-"via": "register",
-"vias": [
-"register"
-]
-},
 {
 "slug": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
 "name": "Raffaele Falco",
@@ -49376,14 +49154,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Vincenzo Falco (of Angelo, of Via Corso)",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "spouses": [],
@@ -49502,7 +49272,7 @@
 ]
 },
 {
-"slug": "giuseppe-falco-of-vincenzo-falco-andreana-crisci",
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
 "vias": [
@@ -51337,14 +51107,6 @@
 ]
 },
 {
-"slug": "angela-falco-of-matteo-falco-francesca-crisci",
-"name": "Angela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "rosa-maria-falco",
 "name": "ROSA MARIA Falco",
 "via": "register",
@@ -51355,6 +51117,14 @@
 {
 "slug": "rosa-falco-of-carlantonio-morgillo-rosa-falco",
 "name": "Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
+"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"
@@ -51492,7 +51262,7 @@
 ],
 "children": [
 {
-"slug": "carmine-annecchino-of-antonio-annecchino-maria-guida",
+"slug": "carmine-annecchino-of-carmine-annecchino-rosa-ceglia",
 "name": "Carmine Annecchino (of Antonio, d. 1838)",
 "via": "register",
 "vias": [
@@ -59726,13 +59496,20 @@
 }
 },
 {
-"slug": "carmine-rivetti-of-nicola-rivetti-anna-di-ruggio",
+"slug": "carmine-rivetti-of-carmine-rivetti-giustina-morgillo",
 "name": "Carmine Rivetti",
 "surname": "RIVETTI",
-"household": "Nicola Rivetti & Anna di Ruggio",
-"hid": "nicola-rivetti-anna-di-ruggio",
-"role": "child",
+"household": "Carmine Rivetti & Giustina Morgillo",
+"hid": "carmine-rivetti-giustina-morgillo",
+"role": "father",
 "events": [
+{
+"event": "death",
+"date": "15 Sep 1821",
+"place": "Arienzo, strada Monticello de' Cappuccini",
+"evidence": "«marito di Giustina Morgillo»",
+"ark": "ANTENATI an_ua14323 img23r"
+},
 {
 "event": "death",
 "date": "15 Sep 1821",
@@ -59763,35 +59540,6 @@
 ]
 }
 ],
-"spouses": [],
-"children": [],
-"siblings": [],
-"d": "15 Sep 1821",
-"dateFrom": {
-"d": "act"
-}
-},
-{
-"slug": "carmine-rivetti-of-carmine-rivetti-giustina-morgillo",
-"name": "Carmine Rivetti",
-"surname": "RIVETTI",
-"household": "Carmine Rivetti & Giustina Morgillo",
-"hid": "carmine-rivetti-giustina-morgillo",
-"role": "father",
-"events": [
-{
-"event": "death",
-"date": "15 Sep 1821",
-"place": "Arienzo, strada Monticello de' Cappuccini",
-"evidence": "«marito di Giustina Morgillo»",
-"ark": "ANTENATI an_ua14323 img23r"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
 "spouses": [
 {
 "slug": "giustina-morgillo",
@@ -59959,14 +59707,6 @@
 ]
 },
 {
-"slug": "maria-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Maria Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "vincenzo-falco-of-pasquale-falco-chiara-rivetti",
 "name": "Vincenzo Falco",
 "via": "register",
@@ -59977,14 +59717,6 @@
 {
 "slug": "maria-raffaela-falco",
 "name": "Maria Raffaela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "anna-falco-of-pasquale-falco-chiara-rivetti",
-"name": "Anna Falco",
 "via": "register",
 "vias": [
 "register"
@@ -60033,6 +59765,22 @@
 {
 "slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti-2",
 "name": "Giovanna Falco (b. 1810)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "anna-falco-of-arcangelo-crisci-anna-falco",
+"name": "Anna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-alfonso-diglio-maria-falco",
+"name": "Maria Falco",
 "via": "register",
 "vias": [
 "register"
@@ -60799,7 +60547,7 @@
 ],
 "children": [
 {
-"slug": "carmine-rivetti-of-nicola-rivetti-anna-di-ruggio",
+"slug": "carmine-rivetti-of-carmine-rivetti-giustina-morgillo",
 "name": "Carmine Rivetti",
 "via": "register",
 "vias": [
@@ -63618,7 +63366,7 @@
 ],
 "children": [
 {
-"slug": "maria-falco-of-giuseppe-falco-rosa-sossi",
+"slug": "maria-falco-of-francesco-quotolo-maria-falco",
 "name": "Maria Falco",
 "via": "register",
 "vias": [
@@ -65130,6 +64878,13 @@
 "place": "Brisbane; b. 7 Jul 1925",
 "evidence": "TREE AND CEMETERY REGISTER ONLY — no birth act. She married RAFFAELE FALCO, son of Carminantonio and Filomena, and is buried beside him at Nudgee, V-0947 to his V-0946. The marriage itself is documented by NAA file J25 1972/4964, «Falco, Raffaele … wife Caterina [nee Zampiello]; and children Filomena and Antonio»",
 "ark": "data/nudgee-burials.tsv + NAA J25 1972/4964"
+},
+{
+"event": "commemorated on a Mass card",
+"date": "14 Feb 2004",
+"place": "Brisbane",
+"evidence": "«*Mass of Remembrance and Recommendation to the Lord · **Caterina Falco (née Zampiello)** · Born Arpaia, Prov. Benevento, Italy, 7th July, 1925 · Born to eternal life Brisbane, Australia, 14th February, 2004*». Both dates agree with the Queensland death record. The card names her by her **married** name — she married Raffaele Falco, Carmine's brother — which is why the register's Zampiello and the cemetery's Falco are the same woman. [The card →](/documents/#caterina-falco-nee-zampiello-mass-card-2004)",
+"ark": "Family papers — Mass card, Brisbane, 2004 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -66743,6 +66498,20 @@
 "place": "Arpaia, Benevento",
 "evidence": "THE DOCUMENTED CHILD, and the act that documents the parents. «Tommasina Zampiello (Arpaia, 1921), Coniuge=Michele Ruggiero, Padre=Angelo Zampiello, Madre=Giuseppa Ferraro». The tree gives her b. 9 Feb 1921 and d. 2 Jun 2004; the act gives the year only",
 "ark": "ANTENATI an_ud1197203"
+},
+{
+"event": "birth",
+"date": "9 Feb 1921",
+"place": "—",
+"evidence": "«*Tommasina Zampiello **ved. Ruggiero** · \\* 9-2-1921 · † 2-6-2004*» — a memorial card. Eighteen at the Arpaia marriage of 26 August 1939 that the marriage index records. The card gives no birthplace. [The card →](/documents/#tommasina-zampiello-memorial-card-2004)",
+"ark": "Family papers — memorial card, 2004 — READ FROM THE IMAGE"
+},
+{
+"event": "death",
+"date": "2 Jun 2004",
+"place": "—",
+"evidence": "The same card: **2 June 2004**, «ved. Ruggiero» — a widow. Where she died is not stated. [The card →](/documents/#tommasina-zampiello-memorial-card-2004)",
+"ark": "Family papers — memorial card, 2004 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -66863,9 +66632,9 @@
 ],
 "mergedOn": "name and dates",
 "treeId": 4000086,
-"b": "Feb 9 1921",
+"b": "9 Feb 1921",
 "dateFrom": {
-"b": "tree",
+"b": "act",
 "d": "tree",
 "bp": "tree"
 },
@@ -68021,14 +67790,6 @@
 ]
 },
 {
-"slug": "angela-falco-of-matteo-falco-francesca-crisci",
-"name": "Angela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "joachim-falco-the-first-gioacchino",
 "name": "JOACHIM Falco — the FIRST Gioacchino",
 "via": "register",
@@ -68047,6 +67808,14 @@
 {
 "slug": "rosa-falco-of-carlantonio-morgillo-rosa-falco",
 "name": "Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-falco-of-crescenzo-rivetti-angela-falco",
+"name": "Angela Falco",
 "via": "register",
 "vias": [
 "register"

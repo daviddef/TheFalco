@@ -4305,5 +4305,35 @@
   "now": "Two Italian passports give, in the holders' lifetimes: **Filomena Annecchino** — «pensionata · nato a Forchia · il 10-4-1897 · domiciliato a Forchia · coniugata», 1.63 m, issued by the Questura di Benevento in July 1972; **Carminantonio Falco** — «nato a Arienzo (CE) · il 11/1/1901 · residente a Forchia (BN)», 1.70 m, issued by the same Questura on 5 August 1976.\n\n**Filomena's carries a Sydney landing stamp of 24 July 1972** — a visitor visa for two months, issued at Rome on 20 July, extended at Brisbane to 24 January 1973 and then to 24 May 1973 — and **both carry a Sydney landing of 26 August 1978** on six-month visas that forbade employment.",
   "how": "Read from phone photographs at one to two times. The passport numbers are deliberately not published. The Benevento renewal stamps of 1977 and 1978 in Filomena's passport are legible but were not read to the digit and are cited by year only. Of the 52 images, many are duplicates of one another; the identity pages and the 1972 landing spread are published as plates.",
   "why": "**THE 24 JULY 1972 ATTRIBUTION IS NOW DOUBTFUL, NOT DISPROVED.** The passenger-list identification gave that landing to Carminantonio, and the page has not been pulled. The passport proves the landing was **hers**. It does not prove he did not land the same day: the passport he held in 1972 is not among the images, and the one that is was issued in 1976.\n\n**It also puts Filomena in Italy in July 1972** — a passport issued by the Questura di Benevento is issued in Benevento — so 5 February 1968 was not her only arrival. She came, went home, and came again, which makes the spine's «they followed their son» a good deal less tidy than it reads. *Worklist row 103: pull the national-archive page.*"
+ },
+ {
+  "when": "2026-10-13",
+  "plate": "",
+  "sev": "major",
+  "where": "/people/",
+  "by": "reading why one man's page listed sixteen children",
+  "what": "A GRANDCHILD'S ROW WAS COUNTED AS A FATHER — AND AS ANDREANA CRISCI'S HUSBAND",
+  "was": "Vincenzo Falco (of Angelo, of Via Corso), who married Angela Pellone at Arienzo in December 1874, is recorded in the household of Vincenzo Falco and Andreana Crisci as a **grandchild**. His name, with the parenthesis that tells the two men apart struck out, matched the head's. The page builder therefore treated him as a **second head of that house**: he was shown as **father of all sixteen children** of the household, including Giuseppe Falco, and as **husband of Andreana Crisci**.",
+  "now": "A name now makes a head only for a person not recorded as a descendant. The man of Via Corso stands on his own page with his own marriage and nothing he did not do; Giuseppe Falco and his brothers and sisters have one father each, as the death acts say. **Nothing else in the archive moved**: the whole person graph was compared before and after, and the only edges that changed were his."
+ },
+ {
+  "when": "2026-10-13",
+  "plate": "",
+  "sev": "finding",
+  "where": "/people/",
+  "by": "a request that every person have one page of their own",
+  "what": "TEN PEOPLE STOOD ON TWO PAGES EACH, AND ARE NOW ON ONE",
+  "was": "Ten people recorded in the registers twice — once as a child in a parents' household, once as the head of their own after marriage — had **a page for each appearance**: Angela Falco (d. 1822), Anna Falco (d. 1820), Carmine Annecchino (d. 1838), Carmine Rivetti (d. 1821), Francesca Falco (d. 1876), Giovanna Falco (d. 1872), Giuseppe Falco (d. 1882), Maria Falco (d. 1817), Maria Falco (d. 1826) and Pasquale Falco (d. 1883). The builder joins by name only where it can prove a person is not their own ancestor, and these had nothing but a name to go on.",
+  "now": "Each was joined **by a human, from the death act that names both sides**: the widow's or widower's death row names the parents, the parents' household lists the child. The reason for every join is written beside it in `person-joins.json`; a join that names a record that does not exist stops the build, and one that would make anyone their own ancestor is refused. The old addresses still lead to the one page. The family tree's Carmine Annecchino (father of Filomena) was joined to the Carmine of the register's household, whose children include her."
+ },
+ {
+  "when": "2026-10-13",
+  "plate": "",
+  "sev": "finding",
+  "where": "/people/",
+  "by": "the Annecchino memorial cards and niche, and a second look at the household",
+  "what": "TWO GIACOMO ANNECCHINO AND TWO AGATA ANNECCHINO HAD BEEN ONE PERSON EACH",
+  "was": "Carmine Annecchino and Maria Carfora had **two sons named Giacomo** (born 1887 and 1901) and **two daughters named Agata** (1884 and 1889), the first of each dying young and the name passing to the next. The archive had merged each pair into one page, so Giacomo appeared to have been born twice and to have died in 1994 at the age of five.",
+  "now": "Each is separated and labelled «the first» and «the second». The memorial card for Giacomo Annecchino (d. 15 May 1994) is for **the second, born 1901**. That Carmine Annecchino (26 January 1857 – 25 February 1943) is the man in the niche on the cemetery photograph is an **inference from the shared niche**, not a read name, and the page says so. The family tree's own Giacomo, child of Carmine, has not been joined to either: nothing says which."
  }
 ]

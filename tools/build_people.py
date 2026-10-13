@@ -308,7 +308,12 @@ for h in households:
         q = hh_people[k]
         if q["household"] != h["name"]: continue
         if (q["role"] or "").lower() in NOT_KIN: continue
-        if any(clean(x) == clean(q["name"]) for x in parts) or q["role"] in PARENT_ROLES:
+        # A NAME MATCH MAKES A HEAD ONLY FOR SOMEONE WHO IS NOT RECORDED AS A
+        # DESCENDANT. «Vincenzo Falco (of Angelo, of Via Corso)» is a grandchild
+        # row whose parenthesis cleans away to the head's name; counted as a
+        # head, he became a second father of Giuseppe Falco.
+        _kin_below = (q["role"] or "").lower().startswith(("grand", "great")) or q["role"] in CHILD_ROLES
+        if (any(clean(x) == clean(q["name"]) for x in parts) and not _kin_below) or q["role"] in PARENT_ROLES:
             hs.append(k)
         elif q["role"] in CHILD_ROLES:
             ks.append(k)
@@ -406,6 +411,42 @@ for nm, ck, hk in sorted(cands):
         refused_join.append(f"{nm} (would make someone their own ancestor)")
         continue
     same_person = trial
+
+# ------------------------------------------------------------- JOINS SAID OUTRIGHT
+#
+# Added 13 October 2026. The automatic joins above refuse whenever a name
+# repeats, and in this parish every name repeats — which is the right default
+# and also why TEN people stood on two pages each: a daughter in her father's
+# house and a wife in her husband's, joined by nothing the builder could count.
+# In every one of the ten the archive's own rows say so — the head's row names
+# the same parents as the child's household, or is the very act that records
+# both houses — but nothing could be told so.
+#
+# site/src/data/person-joins.json is that telling. Every entry carries its
+# reason, a record that does not exist is a hard stop (a typo must not become a
+# silent no-op), and a join that would make anyone their own ancestor is still
+# refused. It is NOT a way round the invariants above: each join is a person
+# a human has read twice, and this file is where the reading is written down.
+_PJ = path("site", "src", "data", "person-joins.json")
+_pj = json.load(open(_PJ, encoding="utf-8")).get("joins", []) if os.path.exists(_PJ) else []
+_pj_done = 0
+for _j in _pj:
+    if _j.get("kind") != "child-head":
+        continue
+    _ck, _hk = _j["child"], _j["head"]
+    for _k in (_ck, _hk):
+        if _k not in hh_people:
+            raise SystemExit(f"person-joins.json: no household record «{_k}» — fix the key, "
+                             "nothing is joined on a guess")
+    if _ck == _hk or _ck in same_person:
+        continue
+    _trial = dict(same_person); _trial[_ck] = _hk
+    if makes_cycle(_trial):
+        print(f"  EXPLICIT JOIN REFUSED — would make someone their own ancestor: {_ck} -> {_hk}")
+        continue
+    same_person = _trial
+    _pj_done += 1
+print(f"  joins said outright, register to register: {_pj_done}")
 
 for child_k, head_k in same_person.items():
     head, kid = hh_people[head_k], hh_people[child_k]
@@ -756,6 +797,27 @@ for tid, hk in _hp:
     _heads += 1
 print(f"  household heads joined by the couple, off the direct line: {_heads}")
 
+# ...and the tree side of the same telling: a tree person and a register record
+# that a human has identified, where the tree carries no dates for the builder
+# to count. See person-joins.json above.
+_pj_tree = 0
+_tree_ids = {str(i): i for i in by_id}
+for _j in _pj:
+    if _j.get("kind") != "tree-register":
+        continue
+    _tid, _hk = _tree_ids.get(str(_j["tree"])), _j["record"]
+    if _tid is None:
+        raise SystemExit(f"person-joins.json: no tree person {_j['tree']} — fix the id")
+    if _hk not in hh_people:
+        raise SystemExit(f"person-joins.json: no household record «{_hk}»")
+    if _tid in merge or _hk in merge.values():
+        print(f"  EXPLICIT JOIN SKIPPED — already joined another way: tree {_j['tree']} / {_hk}")
+        continue
+    merge[_tid] = _hk
+    basis[_tid] = "stated outright in person-joins.json — " + _j.get("reason", "")
+    _pj_tree += 1
+print(f"  joins said outright, tree to register: {_pj_tree}")
+
 # ------------------------------------- BOTH PARENTS AND AN EXACT BIRTH OR DEATH DATE
 #
 # The name test above requires exactly ONE household candidate for a name and
@@ -1014,7 +1076,8 @@ for h in households:
             # 1814 names them — work-list row 97.
             inlaws.append((p, "groom" if "of the groom" in _rl else "bride"))
             continue
-        if any(clean(x) == clean(p["name"]) for x in parts) or p["role"] in PARENT_ROLES:
+        _kin_below = (p["role"] or "").lower().startswith(("grand", "great")) or p["role"] in CHILD_ROLES
+        if (any(clean(x) == clean(p["name"]) for x in parts) and not _kin_below) or p["role"] in PARENT_ROLES:
             heads.append(p)
         elif p["role"] in CHILD_ROLES:
             kids.append(p)

@@ -900,6 +900,14 @@
    "owner": "this archive",
    "since": "2026-10-13",
    "note": "**Filomena Annecchino's own passport carries a Sydney landing stamp of 24 July 1972.** This archive has attributed a 24 July 1972 crossing to CARMINANTONIO on a forename and a date, without the image. The page decides whether the entry is hers, his, or both — and whether the passenger-list identifications of 5 February 1968 and 19 May 1969 are as sound as they looked. Nothing else in the 1972–79 passport run depends on it."
+  },
+  {
+   "n": 104,
+   "what": "READ FORCHIA'S BIRTH ACT FOR CARMINE ANNECCHINO, JANUARY 1857 — the niche says 26 January 1857, and Antenati holds Forchia's births to 1861.",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-10-13",
+   "note": "**The niche gives a date; an act gives a father.** The Caserta-held Forchia births run from 1820 and each year is one ark further on (see `notes/antenati-holdings-discovery.md` — resolve the label with `tools/antenati.py ids` before trusting the arithmetic). One act would name his parents and settle whether the Carmine on the stone is the man who fathered Filomena. It would also give the Annecchino line a generation above the one it stops at."
   }
  ]
 }
