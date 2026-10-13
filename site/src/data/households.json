@@ -6039,7 +6039,7 @@
     "event": "death",
     "date": "10 Sep 2022",
     "place": "Brisbane; b. 27 Apr 1928, Arpaia",
-    "evidence": "TREE AND CEMETERY REGISTER ONLY — no birth act. She married CARMINE FALCO, Raffaele's brother, in 1955 at Benevento. TWO FALCO BROTHERS MARRIED TWO ZAMPIELLO SISTERS. Buried at Nudgee V-0949, two plots from her sister",
+    "evidence": "TREE AND CEMETERY REGISTER ONLY — no birth act. She married CARMINE FALCO, Raffaele's brother, on 15 January 1955 at Arpaia. TWO FALCO BROTHERS MARRIED TWO ZAMPIELLO SISTERS. Buried at Nudgee V-0949, two plots from her sister",
     "ark": "data/nudgee-burials.tsv + data/direct-line.tsv"
    },
    {
@@ -6063,6 +6063,17 @@
     "place": "—",
     "evidence": "LIVING — named, and nothing more, under this archive's standing rule",
     "ark": "data/myheritage-facts.tsv"
+   },
+   {
+    "hid": "angelo-zampiello-giuseppa-ferraro",
+    "household": "Angelo Zampiello & Giuseppa Ferraro",
+    "person": "Francesca Zampiello",
+    "role": "child",
+    "event": "marriage",
+    "date": "15 Jan 1955",
+    "place": "Arpaia",
+    "evidence": "**MARRIED IN HER OWN HOME TOWN.** The Comune di Arpaia's extract of marriage act n. 1 gives the wife as «ZAMPIELLO, FRANCESCA, nata **27 · 04 · 1928**» and the husband as FALCO Carmine, born 8 June 1930. The birth date agrees with her birth extract (act n. 20) and the family tree. Box 11, where an act would name parents or witnesses, is empty on the extract. [The extract →](/documents/#falco-zampiello-marriage-extract-arpaia-1955)",
+    "ark": "Comune di Arpaia (BN), estratto dell'atto di matrimonio n. 1 — family papers; certified photocopy — READ FROM THE IMAGE"
    }
   ]
  },
@@ -10613,6 +10624,89 @@
     "place": "Arienzo, via Orticelli 10",
     "evidence": "**EIGHT YEARS OLD, AND THE ONLY ACT THIS HOUSEHOLD HAS.**\n\nArienzo, *Morti* **1882**, **act 96**: «*L'anno milleottocentottantadue, addì **dieci** di **ottobre** … Avanti di me **CARFORA Cavalier CARLO**, Assessore anziano funzionante da Sindaco … sono comparsi **FRANCESCO FERRIELLO**, di anni **sessantadue**, *fossaro*, e **MARCANTONIO CRISCI**, di anni **sessantasei**, *calzolaio* … nella casa posta in **via ORTICELLI** al numero **DIECI**, è morta **GIUSEPPA FALCO**, di **ANNI OTTO**, *contadina*, residente in Arienzo, nata in Arienzo, da **ANTONIO**, contadino, domiciliato in Arienzo, e da **GIOVANNA MAIONE**, contadina, domiciliata in Arienzo*».\n\n**Born about 1874**, so her birth act is in Arienzo's register of that year, unopened.\n\n**THIS IS NOT «ANTONIO FALCO & CARMELA GUIDA».** *That Antonio is a *contadino* of **via Camellara**, married to **CARMELA GUIDA**, with six dead children in this archive. **This one is married to GIOVANNA MAIONE and lives in via Orticelli.** Two men of one forename, two wives, two streets — and nothing here merges them.*\n\n**AND THE HOUSE IS NUMBER TEN, WHICH IS GENERATION THREE'S OWN.** *VINCENZO FALCO died at **via Orticelli 10** on 15 May 1875, seven years before this child. **Nothing read joins the two households**, and a house number that passes from one family to another over seven years is a fact about a street, not a filiation.*",
     "ark": "3:1:3QS7-897F-99JS — FamilySearch MC55-VNL img 612 right page, Arienzo Morti 1882 act 96 — READ FROM THE IMAGE"
+   }
+  ]
+ },
+ {
+  "id": "carmine-antonio-falco-filomena-annecchino",
+  "name": "Carmine Antonio Falco & Filomena Annecchino",
+  "members": [
+   {
+    "hid": "carmine-antonio-falco-filomena-annecchino",
+    "household": "Carmine Antonio Falco & Filomena Annecchino",
+    "person": "Filomena Annecchino",
+    "role": "mother",
+    "event": "named in her own passport",
+    "date": "Jul 1972",
+    "place": "Forchia",
+    "evidence": "**THE FIRST ITALIAN OFFICIAL RECORD THIS ARCHIVE HOLDS THAT GIVES HER DATE AND PLACE OF BIRTH.** Passport issued by the Questura di Benevento: «*Professione **pensionata** · nato a **FORCHIA** · il **10-4-1897** · domiciliato a **FORCHIA** · stato civile **coniugata***», height **1.63**, eyes brown, hair white. The date is the family tree's and the grave's; until now no Italian paper had said it. Her **birth act has still never been found** — a passport records what the holder declared, not what a registrar wrote. [The page →](/documents/#filomena-annecchino-passport-identity-1972)",
+    "ark": "Family papers — Italian passport, Questura di Benevento, July 1972 — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "carmine-antonio-falco-filomena-annecchino",
+    "household": "Carmine Antonio Falco & Filomena Annecchino",
+    "person": "Filomena Annecchino",
+    "role": "mother",
+    "event": "landed at Sydney",
+    "date": "24 Jul 1972",
+    "place": "Sydney Airport",
+    "evidence": "**VISITOR VISA 99, ONE PERSON, SINGLE JOURNEY, TWO MONTHS**, issued at the Australian Embassy, Rome, on 20 July 1972 and stamped ENTRY MADE: «*Permitted to enter Australia — 24 Jul 1972 — for stay of 2 mths — Sydney Airport*». Brisbane then permitted her to remain until **24 January 1973** (stamp of 5 October 1972) and again until **24 May 1973** (stamp of 16 February 1973) — a stay of about ten months. A passport issued at Benevento that same July puts her in Italy that month, so the 5 February 1968 arrival in the national passenger lists was not her only one. [The page →](/documents/#filomena-annecchino-passport-australia-1972)\n\n**THE 24 JULY 1972 LANDING IS HERS, AND THAT UNSETTLES ANOTHER ATTRIBUTION.** This archive had given a 24 July 1972 crossing to CARMINANTONIO on a forename and a date alone (NAA barcode 12047001, p. 1605, image not pulled). This passport proves FILOMENA landed that day. It does not prove he did not: his passport of 1972 is not among the images, and the one that is was issued in 1976. Pulling that NAA page decides it.",
+    "ark": "Family papers — Italian passport, Questura di Benevento, July 1972 — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "carmine-antonio-falco-filomena-annecchino",
+    "household": "Carmine Antonio Falco & Filomena Annecchino",
+    "person": "Filomena Annecchino",
+    "role": "mother",
+    "event": "landed at Sydney",
+    "date": "26 Aug 1978",
+    "place": "Sydney Airport",
+    "evidence": "A second visitor visa, class 125A, issued at Rome on 18 July 1978, valid to 17 July 1979, single entry, **six months**, **employment prohibited**; stamped «*Permitted to enter Australia — 26 Aug 1978 — Sydney Airport*». A Brisbane stamp of 4 May 1979 permits her to remain. A visa of 20 August 1976 (multiple entry, three months, valid to 19 August 1977) is also in the passport, with no landing stamp read against it.",
+    "ark": "Family papers — Italian passport, Questura di Benevento, July 1972 — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "carmine-antonio-falco-filomena-annecchino",
+    "household": "Carmine Antonio Falco & Filomena Annecchino",
+    "person": "Carmine Antonio (Carminantonio) Falco",
+    "role": "father",
+    "event": "named in his own passport",
+    "date": "5 Aug 1976",
+    "place": "Forchia",
+    "evidence": "**BORN AT ARIENZO, AND NOW IT IS ON PAPER.** Passport issued by the Questura di Benevento on **5 August 1976**, valid to **4 August 1981**: «*Carminantonio FALCO · nato a **Arienzo (CE)** · il **11/1/1901** · residente a **Forchia (BN)** · statura **1.70** · occhi **castani***». The birth date is the family tree's and the spine's; the family tree gave the place as Caserta, which is the province, and the passport settles it as the town. [The page →](/documents/#carminantonio-falco-passport-identity-1976)",
+    "ark": "Family papers — Italian passport, Questura di Benevento, 5 August 1976 — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "carmine-antonio-falco-filomena-annecchino",
+    "household": "Carmine Antonio Falco & Filomena Annecchino",
+    "person": "Carmine Antonio (Carminantonio) Falco",
+    "role": "father",
+    "event": "landed at Sydney",
+    "date": "26 Aug 1978",
+    "place": "Sydney Airport",
+    "evidence": "The same class 125A visa as his wife's — issued at Rome on 18 July 1978, valid to 17 July 1979, single entry, six months, employment prohibited — stamped «*Permitted to enter Australia — 26 Aug 1978 — Sydney Airport*». **The two of them landed together.** His passport also carries the Australian alien-registration card, with its departure boxes blank: no departure was ever written on it. He had already been given a visa on 20 August 1976, multiple entry, three months, valid to 19 August 1977.",
+    "ark": "Family papers — Italian passport, Questura di Benevento, 5 August 1976 — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "carmine-antonio-falco-filomena-annecchino",
+    "household": "Carmine Antonio Falco & Filomena Annecchino",
+    "person": "Carmine Falco",
+    "role": "child",
+    "event": "birth",
+    "date": "8 Jun 1930",
+    "place": "—",
+    "evidence": "**THE DATE IS STATED, NOT SEEN IN AN ACT.** The Comune di Arpaia's marriage extract gives the husband as «FALCO, CARMINE, nato **08 · 06 · 1930**» — a date and no place; box 9 carries dates only. His birth act has not been read: Forchia's births after 1861 sit in the Benevento Stato civile italiano, which this archive has not located. The family tree and the spine both say Forchia. [The extract →](/documents/#falco-zampiello-marriage-extract-arpaia-1955)",
+    "ark": "Comune di Arpaia (BN), estratto dell'atto di matrimonio n. 1 — family papers; certified photocopy — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "carmine-antonio-falco-filomena-annecchino",
+    "household": "Carmine Antonio Falco & Filomena Annecchino",
+    "person": "Carmine Falco",
+    "role": "child",
+    "event": "marriage",
+    "date": "15 Jan 1955",
+    "place": "Arpaia",
+    "evidence": "**THE MARRIAGE ACT'S OWN EXTRACT — AND IT SAYS ARPAIA.** «*Estratto dell'atto di matrimonio **n. 1** · data e luogo del matrimonio **15 · 01 · 1955** · marito: **FALCO**, **CARMINE**, nato **08 · 06 · 1930** · moglie: **ZAMPIELLO**, **FRANCESCA**, nata **27 · 04 · 1928***», on the Comune di Arpaia's international-form extract; boxes 10 and 11 are empty and box 9 gives dates and no birthplaces. [The extract →](/documents/#falco-zampiello-marriage-extract-arpaia-1955)\n\n**THE CORRECTION WAS ALREADY WRITTEN DOWN AND NOBODY CAN HAVE SEEN IT.** The plate audit of 8 September 2026 records «the marriage was at Arpaia, not Benevento», and two data files say «CORRECTS the archive, which said Benevento» — while this person's page, the spine, the figure and the places went on printing Benevento until October.",
+    "ark": "Comune di Arpaia (BN), estratto dell'atto di matrimonio n. 1 — family papers; certified photocopy — READ FROM THE IMAGE"
    }
   ]
  }

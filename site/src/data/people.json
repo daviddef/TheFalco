@@ -202,7 +202,7 @@
 ]
 },
 {
-"slug": "filomena-annecchino",
+"slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino",
 "via": "register",
 "vias": [
@@ -297,7 +297,7 @@
 ]
 },
 {
-"slug": "filomena-annecchino",
+"slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino",
 "via": "register",
 "vias": [
@@ -392,7 +392,7 @@
 ]
 },
 {
-"slug": "filomena-annecchino",
+"slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino",
 "via": "register",
 "vias": [
@@ -559,7 +559,7 @@
 ]
 },
 {
-"slug": "filomena-annecchino",
+"slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino",
 "via": "register",
 "vias": [
@@ -731,7 +731,7 @@
 "spouses": [],
 "children": [
 {
-"slug": "filomena-annecchino",
+"slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino (Falco)",
 "via": "tree",
 "vias": [
@@ -908,13 +908,34 @@
 "noKin": "ancestor-in-another-act"
 },
 {
-"slug": "filomena-annecchino",
+"slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino",
 "surname": "ANNECCHINO",
-"household": "Carmine Annecchino & Maria Carfora",
-"hid": "carmine-annecchino-maria-carfora",
-"role": "child",
+"household": "Carmine Antonio Falco & Filomena Annecchino",
+"hid": "carmine-antonio-falco-filomena-annecchino",
+"role": "mother",
 "events": [
+{
+"event": "named in her own passport",
+"date": "Jul 1972",
+"place": "Forchia",
+"evidence": "**THE FIRST ITALIAN OFFICIAL RECORD THIS ARCHIVE HOLDS THAT GIVES HER DATE AND PLACE OF BIRTH.** Passport issued by the Questura di Benevento: «*Professione **pensionata** · nato a **FORCHIA** · il **10-4-1897** · domiciliato a **FORCHIA** · stato civile **coniugata***», height **1.63**, eyes brown, hair white. The date is the family tree's and the grave's; until now no Italian paper had said it. Her **birth act has still never been found** — a passport records what the holder declared, not what a registrar wrote. [The page →](/documents/#filomena-annecchino-passport-identity-1972)",
+"ark": "Family papers — Italian passport, Questura di Benevento, July 1972 — READ FROM THE IMAGE"
+},
+{
+"event": "landed at Sydney",
+"date": "24 Jul 1972",
+"place": "Sydney Airport",
+"evidence": "**VISITOR VISA 99, ONE PERSON, SINGLE JOURNEY, TWO MONTHS**, issued at the Australian Embassy, Rome, on 20 July 1972 and stamped ENTRY MADE: «*Permitted to enter Australia — 24 Jul 1972 — for stay of 2 mths — Sydney Airport*». Brisbane then permitted her to remain until **24 January 1973** (stamp of 5 October 1972) and again until **24 May 1973** (stamp of 16 February 1973) — a stay of about ten months. A passport issued at Benevento that same July puts her in Italy that month, so the 5 February 1968 arrival in the national passenger lists was not her only one. [The page →](/documents/#filomena-annecchino-passport-australia-1972)\n\n**THE 24 JULY 1972 LANDING IS HERS, AND THAT UNSETTLES ANOTHER ATTRIBUTION.** This archive had given a 24 July 1972 crossing to CARMINANTONIO on a forename and a date alone (NAA barcode 12047001, p. 1605, image not pulled). This passport proves FILOMENA landed that day. It does not prove he did not: his passport of 1972 is not among the images, and the one that is was issued in 1976. Pulling that NAA page decides it.",
+"ark": "Family papers — Italian passport, Questura di Benevento, July 1972 — READ FROM THE IMAGE"
+},
+{
+"event": "landed at Sydney",
+"date": "26 Aug 1978",
+"place": "Sydney Airport",
+"evidence": "A second visitor visa, class 125A, issued at Rome on 18 July 1978, valid to 17 July 1979, single entry, **six months**, **employment prohibited**; stamped «*Permitted to enter Australia — 26 Aug 1978 — Sydney Airport*». A Brisbane stamp of 4 May 1979 permits her to remain. A visa of 20 August 1976 (multiple entry, three months, valid to 19 August 1977) is also in the passport, with no landing stamp read against it.",
+"ark": "Family papers — Italian passport, Questura di Benevento, July 1972 — READ FROM THE IMAGE"
+},
 {
 "event": "birth",
 "date": "1897 — NO ACT FOUND",
@@ -935,9 +956,7 @@
 "via": "tree",
 "vias": [
 "tree"
-],
-"sameAs": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
-"kept": "ONE MAN, TWO RECORDS, LEFT UNMERGED BECAUSE THE TREE GIVES HIM NO WIFE. The register holds **CARMINE ANNECCHINO of MARIA CARFORA**; the tree holds a «Carmine Annecchino» with no spouse recorded at all. The couple is what identifies a household head on both sides, and with one side silent there is nothing to test — **and this archive holds a second Carmine Annecchino household, of ROSA CEGLIA**, so a name match alone could pick the wrong one. Filomena Annecchino's other parent is Maria Carfora, which is why the register record beside this one is the right man. *Recorded rather than merged: a rule that guessed between two Carmine Annecchino would be wrong half the time and silent about it.*"
+]
 },
 {
 "slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
@@ -958,20 +977,22 @@
 ],
 "spouses": [
 {
-"slug": "carmine-antonio-falco-2",
+"slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Antonio (Carminantonio) Falco",
 "via": "line",
 "vias": [
-"line"
+"line",
+"register"
 ]
 }
 ],
 "children": [
 {
-"slug": "carmine-falco",
+"slug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -1155,7 +1176,7 @@
 ]
 },
 {
-"slug": "filomena-annecchino",
+"slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino",
 "via": "register",
 "vias": [
@@ -1257,7 +1278,7 @@
 ]
 },
 {
-"slug": "filomena-annecchino",
+"slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino",
 "via": "register",
 "vias": [
@@ -1346,7 +1367,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "filomena-annecchino",
+"slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino (Falco)",
 "via": "tree",
 "vias": [
@@ -1464,7 +1485,7 @@
 ]
 },
 {
-"slug": "filomena-annecchino",
+"slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino",
 "via": "register",
 "vias": [
@@ -2531,7 +2552,8 @@
 }
 ],
 "sources": [
-"register"
+"register",
+"tree"
 ],
 "living": false,
 "parents": [
@@ -2555,25 +2577,60 @@
 "spouses": [
 {
 "slug": "carmine-antonio-falco",
-"name": "Carmine Antonio (Carminantonio) Falco",
-"via": "register",
+"name": "Carmine Antonio Falco",
+"via": "line",
 "vias": [
-"register"
+"line",
+"register",
+"tree"
 ]
 }
 ],
 "children": [
 {
-"slug": "raffaele-falco-of-carmine-antonio-falco-giovanna-arr",
+"slug": "raffaele-falco-2",
 "name": "Raffaele Falco",
-"via": "register",
+"via": "tree",
 "vias": [
-"register"
+"tree"
+]
+},
+{
+"slug": "angela-rosa-falco-4",
+"name": "Angela Rosa Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "giuseppe-falco",
+"name": "Giuseppe Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "angela-rosa-falco-3",
+"name": "Angela Rosa Falco",
+"via": "tree",
+"vias": [
+"tree"
 ]
 },
 {
 "slug": "maria-giuseppa-falco",
 "name": "Maria Giuseppa Falco",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+},
+{
+"slug": "raffaele-falco-of-carmine-antonio-falco-giovanna-arr",
+"name": "Raffaele Falco",
 "via": "register",
 "vias": [
 "register"
@@ -2605,6 +2662,8 @@
 }
 ],
 "siblings": [],
+"mergedOn": "the same generation of the direct line — she is the wife the line names, on both sides",
+"treeId": 4512365,
 "b": "22 Dec 1848",
 "dateFrom": {
 "b": "act"
@@ -2852,78 +2911,6 @@
 "spouses": [],
 "children": [],
 "siblings": []
-},
-{
-"slug": "giovanna-arricole",
-"name": "Giovanna Arricole (Falco)",
-"surname": "ARRICOLE",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [],
-"spouses": [
-{
-"slug": "carmine-antonio-falco",
-"name": "Carmine Antonio Falco",
-"via": "line",
-"vias": [
-"line",
-"tree"
-]
-}
-],
-"children": [
-{
-"slug": "raffaele-falco-2",
-"name": "Raffaele Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "angela-rosa-falco-4",
-"name": "Angela Rosa Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "giuseppe-falco",
-"name": "Giuseppe Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "angela-rosa-falco-3",
-"name": "Angela Rosa Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "maria-giuseppa-falco",
-"name": "Maria Giuseppa Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [],
-"treeId": 4512365,
-"b": "1848",
-"dateFrom": {
-"b": "tree"
-}
 },
 {
 "slug": "marcello-arrigale",
@@ -5109,7 +5096,7 @@
 ]
 },
 {
-"slug": "filomena-annecchino",
+"slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino",
 "via": "register",
 "vias": [
@@ -18233,7 +18220,7 @@
 ]
 },
 {
-"slug": "giovanna-arricole",
+"slug": "giovanna-arricale",
 "name": "Giovanna Arricole (Falco)",
 "via": "tree",
 "vias": [
@@ -18433,7 +18420,7 @@
 ]
 },
 {
-"slug": "giovanna-arricole",
+"slug": "giovanna-arricale",
 "name": "Giovanna Arricole (Falco)",
 "via": "tree",
 "vias": [
@@ -19097,7 +19084,7 @@
 "living": true,
 "parents": [
 {
-"slug": "carmine-falco",
+"slug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Falco",
 "via": "tree",
 "vias": [
@@ -19427,7 +19414,7 @@
 "living": false,
 "parents": [
 {
-"slug": "carmine-antonio-falco-2",
+"slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Antonio (Carminantonio) Falco",
 "via": "tree",
 "vias": [
@@ -19435,7 +19422,7 @@
 ]
 },
 {
-"slug": "filomena-annecchino",
+"slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino (Falco)",
 "via": "tree",
 "vias": [
@@ -19447,7 +19434,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "carmine-falco",
+"slug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Falco",
 "via": "tree",
 "vias": [
@@ -19518,7 +19505,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "carmine-antonio-falco-2",
+"slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Antonio (Carminantonio) Falco",
 "via": "tree",
 "vias": [
@@ -19956,7 +19943,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "carmine-antonio-falco-2",
+"slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Antonio (Carminantonio) Falco",
 "via": "tree",
 "vias": [
@@ -20025,7 +20012,7 @@
 "living": true,
 "parents": [
 {
-"slug": "carmine-falco",
+"slug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Falco",
 "via": "tree",
 "vias": [
@@ -22959,20 +22946,13 @@
 ],
 "spouses": [
 {
-"slug": "giovanna-arricole",
+"slug": "giovanna-arricale",
 "name": "Giovanna Arricole (Falco)",
 "via": "line",
 "vias": [
 "line",
+"register",
 "tree"
-]
-},
-{
-"slug": "giovanna-arricale",
-"name": "Giovanna Arricale",
-"via": "register",
-"vias": [
-"register"
 ]
 }
 ],
@@ -23062,7 +23042,7 @@
 ]
 }
 ],
-"mergedOn": "name and dates",
+"mergedOn": "the same generation of the direct line — name and spouse both agree",
 "treeId": 4512364,
 "b": "10 Jul 1850",
 "dateFrom": {
@@ -23076,7 +23056,7 @@
 "name": "Carmine Antonio Falco",
 "born": "10 Jul 1850",
 "bornPlace": "Arienzo",
-"spouse": "Giovanna Arricole",
+"spouse": "Giovanna Arricale (Arricole)",
 "spouseBorn": "1848",
 "married": "1872, Arienzo",
 "trade": "",
@@ -23085,13 +23065,30 @@
 }
 },
 {
-"slug": "carmine-antonio-falco-2",
+"slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Antonio (Carminantonio) Falco",
 "surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
+"household": "Carmine Antonio Falco & Filomena Annecchino",
+"hid": "carmine-antonio-falco-filomena-annecchino",
+"role": "father",
+"events": [
+{
+"event": "named in his own passport",
+"date": "5 Aug 1976",
+"place": "Forchia",
+"evidence": "**BORN AT ARIENZO, AND NOW IT IS ON PAPER.** Passport issued by the Questura di Benevento on **5 August 1976**, valid to **4 August 1981**: «*Carminantonio FALCO · nato a **Arienzo (CE)** · il **11/1/1901** · residente a **Forchia (BN)** · statura **1.70** · occhi **castani***». The birth date is the family tree's and the spine's; the family tree gave the place as Caserta, which is the province, and the passport settles it as the town. [The page →](/documents/#carminantonio-falco-passport-identity-1976)",
+"ark": "Family papers — Italian passport, Questura di Benevento, 5 August 1976 — READ FROM THE IMAGE"
+},
+{
+"event": "landed at Sydney",
+"date": "26 Aug 1978",
+"place": "Sydney Airport",
+"evidence": "The same class 125A visa as his wife's — issued at Rome on 18 July 1978, valid to 17 July 1979, single entry, six months, employment prohibited — stamped «*Permitted to enter Australia — 26 Aug 1978 — Sydney Airport*». **The two of them landed together.** His passport also carries the Australian alien-registration card, with its departure boxes blank: no departure was ever written on it. He had already been given a visa on 20 August 1976, multiple entry, three months, valid to 19 August 1977.",
+"ark": "Family papers — Italian passport, Questura di Benevento, 5 August 1976 — READ FROM THE IMAGE"
+}
+],
 "sources": [
+"register",
 "tree"
 ],
 "living": false,
@@ -23117,21 +23114,23 @@
 ],
 "spouses": [
 {
-"slug": "filomena-annecchino",
+"slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino",
 "via": "line",
 "vias": [
-"line"
+"line",
+"register"
 ]
 }
 ],
 "children": [
 {
-"slug": "carmine-falco",
+"slug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Falco",
 "via": "line",
 "vias": [
 "line",
+"register",
 "tree"
 ]
 },
@@ -23218,6 +23217,7 @@
 ]
 }
 ],
+"mergedOn": "the same generation of the direct line — name and spouse both agree",
 "treeId": 4000091,
 "b": "Jan 11 1901",
 "dateFrom": {
@@ -23239,7 +23239,7 @@
 "spouseBorn": "10 Apr 1897",
 "trade": "",
 "confidence": "documented",
-"note": "Born at Arienzo, resident in the province of Benevento, died at Brisbane and buried at Nudgee Cemetery in niche CHAP-082-B2. His wife Filomena Annecchino died on 10 August 1988 and lies beside him in B1. Two of their sons, Carmine and Raffaele, married two Zampiello sisters of Arpaia and both brought their families to Brisbane. Their own arrivals were untraced for years and are now found: FILOMENA reached Australia on 5 FEBRUARY 1968 and CARMINANTONIO on 19 MAY 1969, with a second crossing by him on 24 July 1972 — three entries in the national passenger lists (NAA barcodes 9788535 p.251, 12211391 p.1711 and 12047001 p.1605), identified on the forename and the dates, with the images not yet pulled. They followed their son, who had landed at Brisbane in March 1964. AND THEY ARE DOCUMENTED IN ITALY AT LAST. Forchia, atti di morte 1937, atto 17: on the morning of 2 August 1937 «FALCO CARMINANTONIO, di anni TRENTASEI, contadino, domiciliato in Forchia» came to the Casa Comunale to report that «è morto FALCO ANIELLO, di mesi nove … da Carminantonio, contadino, e da ANNECCHINO FILOMENA, casalinga, domiciliata in Forchia», at Contrada CASE SPARSE number 68. It is THE FIRST DOCUMENT THIS ARCHIVE HAS FOUND THAT NAMES FILOMENA ANNECCHINO, it corroborates Carminantonio's birth year of 1901 for the first time, and it documents a son, Aniello, born at Forchia about November 1936 and dead at nine months.",
+"note": "Born at Arienzo, resident in the province of Benevento, died at Brisbane and buried at Nudgee Cemetery in niche CHAP-082-B2. His wife Filomena Annecchino died on 10 August 1988 and lies beside him in B1. Two of their sons, Carmine and Raffaele, married two Zampiello sisters of Arpaia and both brought their families to Brisbane. Their own arrivals were untraced for years and are now found: FILOMENA reached Australia on 5 FEBRUARY 1968 and CARMINANTONIO on 19 MAY 1969, with a second crossing by him on 24 July 1972 — three entries in the national passenger lists (NAA barcodes 9788535 p.251, 12211391 p.1711 and 12047001 p.1605), identified on the forename and the dates, with the images not yet pulled. They followed their son, who had landed at Brisbane in March 1964. AND THEY ARE DOCUMENTED IN ITALY AT LAST. Forchia, atti di morte 1937, atto 17: on the morning of 2 August 1937 «FALCO CARMINANTONIO, di anni TRENTASEI, contadino, domiciliato in Forchia» came to the Casa Comunale to report that «è morto FALCO ANIELLO, di mesi nove … da Carminantonio, contadino, e da ANNECCHINO FILOMENA, casalinga, domiciliata in Forchia», at Contrada CASE SPARSE number 68. It is THE FIRST DOCUMENT THIS ARCHIVE HAS FOUND THAT NAMES FILOMENA ANNECCHINO, it corroborates Carminantonio's birth year of 1901 for the first time, and it documents a son, Aniello, born at Forchia about November 1936 and dead at nine months.\n\n**THEIR PASSPORTS SURVIVE.** Two Italian passports were photographed page by page in October 2026. Filomena's, issued by the Questura di Benevento in July 1972, reads «pensionata · nato a Forchia il 10-4-1897 · domiciliato a Forchia · coniugata» — the first Italian official record this archive holds that gives her date and place of birth. Carminantonio's, issued by the same Questura on 5 August 1976, reads «nato a Arienzo (CE) il 11/1/1901 · residente a Forchia (BN)», 1.70 m. They carry Australian visitor visas and landing stamps: **Filomena at Sydney on 24 July 1972**, allowed to stay at Brisbane to 24 January and then 24 May 1973; **both at Sydney on 26 August 1978** on six-month visas that forbade employment. *The 24 July 1972 landing is hers. This archive had attributed a 24 July 1972 crossing to Carminantonio on a forename and a date, and the national-archive page has not been pulled — so whether he crossed that day too is open, not settled either way.*",
 "diedNote": "**Corrected 27 September 2026 from 27 April 1985.** The family tree gives **27 April 1988** and David de Franceski, his grandson-in-law, gives **1988**. *Same day, same month, three years apart — this file was the only source carrying 1985, and his wife Filomena Annecchino's death of 10 August 1988 is recorded in the same note.*"
 }
 },
@@ -23326,31 +23326,50 @@
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
-"slug": "carmine-falco",
+"slug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Falco",
 "surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
+"household": "Carmine Antonio Falco & Filomena Annecchino",
+"hid": "carmine-antonio-falco-filomena-annecchino",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "8 Jun 1930",
+"place": "—",
+"evidence": "**THE DATE IS STATED, NOT SEEN IN AN ACT.** The Comune di Arpaia's marriage extract gives the husband as «FALCO, CARMINE, nato **08 · 06 · 1930**» — a date and no place; box 9 carries dates only. His birth act has not been read: Forchia's births after 1861 sit in the Benevento Stato civile italiano, which this archive has not located. The family tree and the spine both say Forchia. [The extract →](/documents/#falco-zampiello-marriage-extract-arpaia-1955)",
+"ark": "Comune di Arpaia (BN), estratto dell'atto di matrimonio n. 1 — family papers; certified photocopy — READ FROM THE IMAGE"
+},
+{
+"event": "marriage",
+"date": "15 Jan 1955",
+"place": "Arpaia",
+"evidence": "**THE MARRIAGE ACT'S OWN EXTRACT — AND IT SAYS ARPAIA.** «*Estratto dell'atto di matrimonio **n. 1** · data e luogo del matrimonio **15 · 01 · 1955** · marito: **FALCO**, **CARMINE**, nato **08 · 06 · 1930** · moglie: **ZAMPIELLO**, **FRANCESCA**, nata **27 · 04 · 1928***», on the Comune di Arpaia's international-form extract; boxes 10 and 11 are empty and box 9 gives dates and no birthplaces. [The extract →](/documents/#falco-zampiello-marriage-extract-arpaia-1955)\n\n**THE CORRECTION WAS ALREADY WRITTEN DOWN AND NOBODY CAN HAVE SEEN IT.** The plate audit of 8 September 2026 records «the marriage was at Arpaia, not Benevento», and two data files say «CORRECTS the archive, which said Benevento» — while this person's page, the spine, the figure and the places went on printing Benevento until October.",
+"ark": "Comune di Arpaia (BN), estratto dell'atto di matrimonio n. 1 — family papers; certified photocopy — READ FROM THE IMAGE"
+}
+],
 "sources": [
+"register",
 "tree"
 ],
 "living": false,
 "parents": [
 {
-"slug": "carmine-antonio-falco-2",
+"slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Antonio (Carminantonio) Falco",
 "via": "line",
 "vias": [
 "line",
+"register",
 "tree"
 ]
 },
 {
-"slug": "filomena-annecchino",
+"slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino (Falco)",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 }
@@ -23427,10 +23446,11 @@
 ]
 }
 ],
+"mergedOn": "both parents and an exact birth or death date — the name was never used, and this archive holds more than one person of it",
 "treeId": 4000025,
-"b": "June 8 1930",
+"b": "8 Jun 1930",
 "dateFrom": {
-"b": "tree",
+"b": "act",
 "bp": "tree"
 },
 "bp": "Forchia, Benevento, Campania, Italy",
@@ -23442,10 +23462,10 @@
 "bornPlace": "Forchia, Benevento",
 "spouse": "Francesca Zampiello",
 "spouseBorn": "27 Apr 1928, Arpaia",
-"married": "1955, Benevento",
+"married": "15 Jan 1955, Arpaia",
 "trade": "",
 "confidence": "documented",
-"note": "Born at Forchia in the Valle Caudina. He and Francesca reached Brisbane on the ss «Sydney» of the Lauro Lines, out of Naples, arriving 26 MARCH 1964 — the Quarantine Service passenger list of that voyage enters them at numbers 492 and 493, bound for 43 Mount Joy, Petrie Terrace, Brisbane, an address given on 2 September 1963. Two further passengers of the same surname travel with them and are withheld here. The archive previously said «about 1957», inferred from the **1957–1977** span of their Brisbane immigration file (**NAA J25 1971/9830**, item 5115541). **That inference was withdrawn on the strength of the passenger list, and the withdrawal was wrong.** *The list dates the voyage on which the FAMILY arrived together; it says nothing about whether he had been in Australia before it.* **David de Franceski states that Carmine was in Australia in 1963, and the file opening in 1957 agrees with him** — as does the destination address at Petrie Terrace, which was already given on **2 September 1963**, six months before the ship docked. *The likeliest reading is the ordinary one: he came first and alone, worked as a builder, and Francesca and their daughter followed on the «Sydney» in 1964.* **Not established, and the document that would settle it is the J25 file itself.** Francesca died at Brisbane on 10 September 2022 and is buried at Nudgee, plot V-0949. **He was a BUILDER and spent a great deal of his time at SPRING HILL**, in inner Brisbane — family knowledge given by David de Franceski on 27 September 2026. *He died in 2026.* **AND THE EARLIER ARRIVAL IS FOUND — 28 September 2026.** The National Archives passenger index holds **exactly two** arrivals for a **CARMINE FALCO**: «*07 Nov 1956, **Fremantle**, ss **CASTEL BIANCO**, from **Genoa***» — **NAA: K269, item 30139890, Open and digitised** — and the family's «*26 Mar 1964, Brisbane, ss Sydney, from Naples*», item 12100311. **The 1964 list carries Carmine, Francesca and two more of the surname together**; the 1956 one carries a Carmine Falco alone, into the other side of the continent. *It is the only pre-1964 arrival of the name in the whole index.*\n\n**It fits everything that was already known and could not be reconciled**: the immigration case file **J25 1971/9830 opens in 1957**, the year after; the Petrie Terrace destination was given on **2 September 1963**; and David de Franceski states that Carmine was in Australia in 1963. **The ordinary migration pattern — the husband first and alone, the family seven years later — is what the records describe.** *Not yet proved to be him: the scan of the 1956 list has not been read, and it would give his age.*",
+"note": "Born at Forchia in the Valle Caudina. He and Francesca reached Brisbane on the ss «Sydney» of the Lauro Lines, out of Naples, arriving 26 MARCH 1964 — the Quarantine Service passenger list of that voyage enters them at numbers 492 and 493, bound for 43 Mount Joy, Petrie Terrace, Brisbane, an address given on 2 September 1963. Two further passengers of the same surname travel with them and are withheld here. The archive previously said «about 1957», inferred from the **1957–1977** span of their Brisbane immigration file (**NAA J25 1971/9830**, item 5115541). **That inference was withdrawn on the strength of the passenger list, and the withdrawal was wrong.** *The list dates the voyage on which the FAMILY arrived together; it says nothing about whether he had been in Australia before it.* **David de Franceski states that Carmine was in Australia in 1963, and the file opening in 1957 agrees with him** — as does the destination address at Petrie Terrace, which was already given on **2 September 1963**, six months before the ship docked. *The likeliest reading is the ordinary one: he came first and alone, worked as a builder, and Francesca and their daughter followed on the «Sydney» in 1964.* **Not established, and the document that would settle it is the J25 file itself.** Francesca died at Brisbane on 10 September 2022 and is buried at Nudgee, plot V-0949. **He was a BUILDER and spent a great deal of his time at SPRING HILL**, in inner Brisbane — family knowledge given by David de Franceski on 27 September 2026. *He died in 2026.* **AND THE EARLIER ARRIVAL IS FOUND — 28 September 2026.** The National Archives passenger index holds **exactly two** arrivals for a **CARMINE FALCO**: «*07 Nov 1956, **Fremantle**, ss **CASTEL BIANCO**, from **Genoa***» — **NAA: K269, item 30139890, Open and digitised** — and the family's «*26 Mar 1964, Brisbane, ss Sydney, from Naples*», item 12100311. **The 1964 list carries Carmine, Francesca and two more of the surname together**; the 1956 one carries a Carmine Falco alone, into the other side of the continent. *It is the only pre-1964 arrival of the name in the whole index.*\n\n**It fits everything that was already known and could not be reconciled**: the immigration case file **J25 1971/9830 opens in 1957**, the year after; the Petrie Terrace destination was given on **2 September 1963**; and David de Franceski states that Carmine was in Australia in 1963. **The ordinary migration pattern — the husband first and alone, the family seven years later — is what the records describe.** *Not yet proved to be him: the scan of the 1956 list has not been read, and it would give his age.*\n\n**THEY WERE MARRIED AT ARPAIA, NOT BENEVENTO.** The Comune di Arpaia's extract of marriage act n. 1, read from the image, gives the marriage as 15 January 1955, Carmine Falco born 8 June 1930 and Francesca Zampiello born 27 April 1928 — [the extract](/documents/#falco-zampiello-marriage-extract-arpaia-1955). This archive had that paper and wrote the correction down on 8 September 2026, and went on printing «Benevento» on this page, on the spine figure and on the places until October.",
 "living": false,
 "died": "2026",
 "diedNote": "Family knowledge, given by David de Franceski on 10 September 2026. No death record has been read for him, and none is claimed."
@@ -23624,7 +23644,7 @@
 ],
 "siblings": [
 {
-"slug": "carmine-antonio-falco-2",
+"slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Antonio (Carminantonio) Falco",
 "via": "tree",
 "vias": [
@@ -25289,7 +25309,7 @@
 "living": false,
 "parents": [
 {
-"slug": "carmine-antonio-falco-2",
+"slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Antonio (Carminantonio) Falco",
 "via": "tree",
 "vias": [
@@ -25297,7 +25317,7 @@
 ]
 },
 {
-"slug": "filomena-annecchino",
+"slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino (Falco)",
 "via": "tree",
 "vias": [
@@ -25335,7 +25355,7 @@
 ],
 "siblings": [
 {
-"slug": "carmine-falco",
+"slug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Falco",
 "via": "tree",
 "vias": [
@@ -29722,7 +29742,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "carmine-antonio-falco-2",
+"slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Antonio (Carminantonio) Falco",
 "via": "tree",
 "vias": [
@@ -29811,7 +29831,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "carmine-antonio-falco-2",
+"slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Antonio (Carminantonio) Falco",
 "via": "tree",
 "vias": [
@@ -30867,7 +30887,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "carmine-antonio-falco-2",
+"slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Antonio (Carminantonio) Falco",
 "via": "tree",
 "vias": [
@@ -33614,7 +33634,7 @@
 ]
 },
 {
-"slug": "giovanna-arricole",
+"slug": "giovanna-arricale",
 "name": "Giovanna Arricole (Falco)",
 "via": "tree",
 "vias": [
@@ -34143,7 +34163,7 @@
 "living": true,
 "parents": [
 {
-"slug": "carmine-falco",
+"slug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Falco",
 "via": "line",
 "vias": [
@@ -36152,7 +36172,7 @@
 "living": false,
 "parents": [
 {
-"slug": "carmine-antonio-falco-2",
+"slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Antonio (Carminantonio) Falco",
 "via": "tree",
 "vias": [
@@ -36160,7 +36180,7 @@
 ]
 },
 {
-"slug": "filomena-annecchino",
+"slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino (Falco)",
 "via": "tree",
 "vias": [
@@ -36172,7 +36192,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "carmine-falco",
+"slug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Falco",
 "via": "tree",
 "vias": [
@@ -38612,21 +38632,12 @@
 ]
 },
 {
-"slug": "giovanna-arricole",
-"name": "Giovanna Arricole (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-],
-"sameAs": "giovanna-arricale",
-"kept": "ONE WOMAN, TWO SPELLINGS, DELIBERATELY NOT MERGED. The family tree writes her «Giovanna Arricole»; the registers write her «Giovanna Arricale». The 1873 birth extract of her son Raffaele spells her «GIOVANNA ARRICALE FU FRANCESCO», which is the reading this archive follows. This archive does not merge two records on a matching name — that judgement belongs to whoever next reads an act that settles the spelling, and until then both records stand and the chart can say which is which."
-},
-{
 "slug": "giovanna-arricale",
-"name": "Giovanna Arricale",
+"name": "Giovanna Arricole (Falco)",
 "via": "register",
 "vias": [
-"register"
+"register",
+"tree"
 ]
 }
 ],
@@ -46284,7 +46295,7 @@
 "living": false,
 "parents": [
 {
-"slug": "carmine-antonio-falco-2",
+"slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Antonio (Carminantonio) Falco",
 "via": "tree",
 "vias": [
@@ -46292,7 +46303,7 @@
 ]
 },
 {
-"slug": "filomena-annecchino",
+"slug": "filomena-annecchino-2",
 "name": "Filomena Annecchino (Falco)",
 "via": "tree",
 "vias": [
@@ -46346,7 +46357,7 @@
 ],
 "siblings": [
 {
-"slug": "carmine-falco",
+"slug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Falco",
 "via": "tree",
 "vias": [
@@ -46412,7 +46423,7 @@
 ]
 },
 {
-"slug": "giovanna-arricole",
+"slug": "giovanna-arricale",
 "name": "Giovanna Arricole (Falco)",
 "via": "tree",
 "vias": [
@@ -46432,7 +46443,7 @@
 ],
 "children": [
 {
-"slug": "carmine-antonio-falco-2",
+"slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Antonio (Carminantonio) Falco",
 "via": "line",
 "vias": [
@@ -52222,7 +52233,7 @@
 ],
 "children": [
 {
-"slug": "carmine-antonio-falco-2",
+"slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Antonio (Carminantonio) Falco",
 "via": "tree",
 "vias": [
@@ -65278,8 +65289,15 @@
 "event": "death",
 "date": "10 Sep 2022",
 "place": "Brisbane; b. 27 Apr 1928, Arpaia",
-"evidence": "TREE AND CEMETERY REGISTER ONLY — no birth act. She married CARMINE FALCO, Raffaele's brother, in 1955 at Benevento. TWO FALCO BROTHERS MARRIED TWO ZAMPIELLO SISTERS. Buried at Nudgee V-0949, two plots from her sister",
+"evidence": "TREE AND CEMETERY REGISTER ONLY — no birth act. She married CARMINE FALCO, Raffaele's brother, on 15 January 1955 at Arpaia. TWO FALCO BROTHERS MARRIED TWO ZAMPIELLO SISTERS. Buried at Nudgee V-0949, two plots from her sister",
 "ark": "data/nudgee-burials.tsv + data/direct-line.tsv"
+},
+{
+"event": "marriage",
+"date": "15 Jan 1955",
+"place": "Arpaia",
+"evidence": "**MARRIED IN HER OWN HOME TOWN.** The Comune di Arpaia's extract of marriage act n. 1 gives the wife as «ZAMPIELLO, FRANCESCA, nata **27 · 04 · 1928**» and the husband as FALCO Carmine, born 8 June 1930. The birth date agrees with her birth extract (act n. 20) and the family tree. Box 11, where an act would name parents or witnesses, is empty on the extract. [The extract →](/documents/#falco-zampiello-marriage-extract-arpaia-1955)",
+"ark": "Comune di Arpaia (BN), estratto dell'atto di matrimonio n. 1 — family papers; certified photocopy — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -65318,7 +65336,7 @@
 ],
 "spouses": [
 {
-"slug": "carmine-falco",
+"slug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
 "name": "Carmine Falco",
 "via": "line",
 "vias": [

@@ -44,7 +44,7 @@ const safeDate = (name, date) => (isLivingName(name) ? "living — named only" :
 const Y_SPINE = 300;
 const A0 = 96, A1 = 520;              /* the Arienzo reach: seven generations */
 const GX = (g) => A0 + (g - 1) * ((A1 - A0) / 6);
-const X_FORCHIA = 646, X_BENEV = 818, X_BRIS = 990;
+const X_FORCHIA = 646, X_ARPAIA = 818, X_BRIS = 990;
 
 const ARIENZO = [
   ["1", "Matteo Falco", "by c. 1735", "Arienzo",
@@ -66,10 +66,10 @@ const ARIENZO = [
 const STOPS = [
   { key: "forchia", name: "Forchia", x: X_FORCHIA, prov: "Benevento", when: "1930",
     people: [["8", "Carmine Falco", "8 Jun 1930", "Forchia",
-      "Born at Forchia, not Arienzo — the family had followed his mother's people. He married Francesca Zampiello of Arpaia at Benevento in 1955."]] },
-  { key: "benevento", name: "Benevento", x: X_BENEV, prov: "where they married", when: "1955",
-    people: [["9", "Giuseppina Falco", "living — named only", "Benevento",
-      "The spine reaches Benevento because CARMINE FALCO AND FRANCESCA ZAMPIELLO MARRIED THERE IN 1955 — that is generation eight's date, and both of them are now dead. Generation nine is LIVING and is named here and nothing more: no date of birth, no place, no detail. That is this archive's standing rule, and this diagram broke it on the day it was built."]] },
+      "Born at Forchia, not Arienzo — the family had followed his mother's people. He married Francesca Zampiello at her home town of Arpaia on 15 January 1955."]] },
+  { key: "arpaia", name: "Arpaia", x: X_ARPAIA, prov: "where they married", when: "1955",
+    people: [["9", "Giuseppina Falco", "living — named only", "—",
+      "The spine reaches Arpaia because CARMINE FALCO AND FRANCESCA ZAMPIELLO MARRIED THERE ON 15 JANUARY 1955 — the Comune di Arpaia's own extract, act n. 1, says so; this diagram said Benevento until October 2026. The Zampiello tributary and this stop are the same town, as at Forchia. That is generation eight's date, and both of them are now dead. Generation nine is LIVING and is named here and nothing more: no date of birth, no place, no detail. That is this archive's standing rule, and this diagram broke it on the day it was built."]] },
   { key: "brisbane", name: "Brisbane", x: X_BRIS, prov: "Queensland · Nudgee", when: "1964",
     arrival: true,
     people: [["—", "Carmine & Francesca", "arrived 26 Mar 1964", "Genoa → Brisbane",
@@ -87,9 +87,9 @@ const TRIBS = [
     href: "/annecchino",
     why: "The marriage that moved the family. Generation eight was born at Forchia because generation seven had married an Annecchino of Forchia — the tributary and the next stop on the spine are the same town." },
   { fam: "Zampiello", from: "Arpaia", dist: "4 km north, across into Benevento",
-    who: "Francesca Zampiello", yr: "b. 27 Apr 1928", gen: "8", x: X_BENEV, y: 56,
+    who: "Francesca Zampiello", yr: "b. 27 Apr 1928", gen: "8", x: X_ARPAIA, y: 56,
     href: "/zampiello",
-    why: "A surname with about 123 bearers in the world. Angelo Zampiello was born at Arpaia in 1895; four of his daughters married, two of them to Falco brothers. Francesca married Carmine Falco at Benevento in 1955 and sailed with him in 1964. THE ZAMPIELLO ARE NOT A SEPARATE FAMILY — they are this one, from generation eight onward." },
+    why: "A surname with about 123 bearers in the world. Angelo Zampiello was born at Arpaia in 1895; four of his daughters married, two of them to Falco brothers. Francesca married Carmine Falco at Arpaia, her home town, on 15 January 1955 and sailed with him in 1964. THE ZAMPIELLO ARE NOT A SEPARATE FAMILY — they are this one, from generation eight onward." },
 ];
 
 /* Marriages made inside Arienzo itself — no new town, so no tributary. */

@@ -22,7 +22,7 @@
    },
    {
     "who": "Carmine Falco",
-    "whoSlug": "carmine-falco",
+    "whoSlug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
     "to": "Francesca Zampiello (Falco)",
     "toSlug": "francesca-zampiello",
     "into": "Zampiello",
@@ -46,9 +46,9 @@
    },
    {
     "who": "Carmine Antonio (Carminantonio) Falco",
-    "whoSlug": "carmine-antonio-falco-2",
+    "whoSlug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
     "to": "Filomena Annecchino (Falco)",
-    "toSlug": "filomena-annecchino",
+    "toSlug": "filomena-annecchino-2",
     "into": "Annecchino",
     "living": false
    },
@@ -104,7 +104,7 @@
     "who": "Carmine Antonio Falco",
     "whoSlug": "carmine-antonio-falco",
     "to": "Giovanna Arricole (Falco)",
-    "toSlug": "giovanna-arricole",
+    "toSlug": "giovanna-arricale",
     "into": "Arricole",
     "living": false
    },
@@ -1280,7 +1280,7 @@
    },
    {
     "name": "Carmine Antonio (Carminantonio) Falco",
-    "slug": "carmine-antonio-falco-2",
+    "slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
     "b": "Jan 11 1901",
     "bp": "Caserta",
     "d": "Apr 27 1988",
@@ -1488,7 +1488,7 @@
     "who": "Francesca Zampiello (Falco)",
     "whoSlug": "francesca-zampiello",
     "to": "Carmine Falco",
-    "toSlug": "carmine-falco",
+    "toSlug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
     "into": "Falco",
     "living": true
    },
@@ -2167,9 +2167,9 @@
   "marriages": [
    {
     "who": "Filomena Annecchino (Falco)",
-    "whoSlug": "filomena-annecchino",
+    "whoSlug": "filomena-annecchino-2",
     "to": "Carmine Antonio (Carminantonio) Falco",
-    "toSlug": "carmine-antonio-falco-2",
+    "toSlug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
     "into": "Falco",
     "living": false
    },
@@ -2217,7 +2217,7 @@
    },
    {
     "name": "Filomena Annecchino (Falco)",
-    "slug": "filomena-annecchino",
+    "slug": "filomena-annecchino-2",
     "b": "Apr 10 1897",
     "bp": "",
     "d": "",
@@ -3877,7 +3877,7 @@
   "marriages": [
    {
     "who": "Giovanna Arricole (Falco)",
-    "whoSlug": "giovanna-arricole",
+    "whoSlug": "giovanna-arricale",
     "to": "Carmine Antonio Falco",
     "toSlug": "carmine-antonio-falco",
     "into": "Falco",
@@ -3887,7 +3887,7 @@
   "people": [
    {
     "name": "Giovanna Arricole (Falco)",
-    "slug": "giovanna-arricole",
+    "slug": "giovanna-arricale",
     "b": "1848",
     "bp": "",
     "d": "",

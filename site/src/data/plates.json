@@ -147,12 +147,13 @@
   "k": "photo"
  },
  {
-  "f": "4503259_Francesca-Zampiello-and-Carmine-marriage.jpg",
-  "t": "Marriage extract — Falco and Zampiello, Arpaia, 1955",
-  "c": "Comune di Arpaia — «Estratto dell'atto di matrimonio n. 1». FALCO CARMINE, born 8 June 1930, married ZAMPIELLO FRANCESCA, born 27 April 1928, on 15 January 1955. Registered at Arpaia — not, as this archive previously said, at Benevento.",
+  "f": "falco-zampiello-marriage-extract-arpaia-1955.jpg",
   "k": "register",
   "when": "15 January 1955",
-  "cite": "Comune di Arpaia (BN), estratto dell'atto di matrimonio n. 1, issued 2003."
+  "t": "Marriage extract — Falco and Zampiello, Arpaia, 15 January 1955",
+  "c": "Comune di Arpaia, Provincia di Benevento — «Estratto dell'atto di matrimonio n. 1», international form. Marriage 15 · 01 · 1955. Husband FALCO Carmine, born 08 · 06 · 1930; wife ZAMPIELLO Francesca, born 27 · 04 · 1928. Boxes 10 and 11 are empty. Registered at ARPAIA — not at Benevento, which is what this archive printed on most of its pages until October 2026. The photocopy is certified true by the Italian Consulate at Brisbane (Giuliana Giavon, Decreto n. 12/2003); the date of issue in box 12 is October 2004.",
+  "cite": "Comune di Arpaia (BN), estratto dell'atto di matrimonio n. 1, issued October 2004; certified photocopy, Consolato d'Italia, Brisbane.",
+  "see": "/direct-line"
  },
  {
   "f": "4502901_Carminantonio-Falco-RECORD-31843_233558_0002-00065.jpg",
@@ -657,6 +658,33 @@
   "t": "«GIUSEPPE FALCO DEL FU MATTEO» — the earliest document that names the head of this line",
   "c": "«*Oggi che sono li **dodici — 12** del mese di **Gennaro** del presente anno mille ottocento **dieci**, ad ore **sedici**, è comparso avanti del Signor Sindaco di questa Università il Signor **GIUSEPPE FALCO DEL FU MATTEO**, di professione **massaro di campagna**, d'anni **vent'otto** … abitante nella strada **della CAMELLARA** … nato in costanza del suo legitimo Matrimonio con **ANTONIA DI GUIDA** … se li sono imposti i seguenti nomi: **MATTEO***».\n\n**A man whose father was Matteo, naming his son Matteo, in a sentence that calls the grandfather dead.** Matteo Falco stands at the head of this archive and until 23 September 2026 the earliest document naming him was a notarial consent of **8 September 1814**. This act is **four years and eight months earlier**, and his other son Pasquale carries the same patronymic in the same volume on 12 September. *The record moved three times in one day, because three of that decade's seven birth volumes had never been opened.*\n\nThe child is **Matteo Falco the second**, who married Alessandra Crisci in 1834 and whom this archive held from a marriage index with no date.",
   "cite": "Arienzo, Stato civile napoleonico, Nati 1810, atto 7 — Archivio di Stato di Caserta (Antenati an_ua14407, img 6 right). Read from the image, 23 September 2026.",
+  "see": "/direct-line"
+ },
+ {
+  "f": "filomena-annecchino-passport-identity-1972.jpg",
+  "k": "record",
+  "when": "July 1972",
+  "t": "Passport of Filomena Annecchino — description of the holder, July 1972",
+  "c": "Italian passport issued by the Questura di Benevento in July 1972. «Professione: pensionata · nato a Forchia · il 10-4-1897 · domiciliato a Forchia · stato civile: coniugata». Height 1.63 m, eyes brown, hair white. This is the first Italian official record this archive holds that states her date and place of birth; her birth act has never been found. The passport number is deliberately not shown.",
+  "cite": "Family papers — Italian passport, Questura di Benevento, July 1972; photographed October 2026.",
+  "see": "/direct-line"
+ },
+ {
+  "f": "carminantonio-falco-passport-identity-1976.jpg",
+  "k": "record",
+  "when": "5 August 1976",
+  "t": "Passport of Carminantonio Falco — identity page, August 1976",
+  "c": "Italian passport issued by the Questura di Benevento on 5 August 1976, valid to 4 August 1981. «Carminantonio FALCO — nato a Arienzo (CE) — il 11/1/1901 — residente a Forchia (BN) — statura 1.70 — occhi castani». It agrees with the family tree's birth date and fixes the place as Arienzo. The passport number is deliberately not shown.",
+  "cite": "Family papers — Italian passport, Questura di Benevento, 5 August 1976; photographed October 2026.",
+  "see": "/direct-line"
+ },
+ {
+  "f": "filomena-annecchino-passport-australia-1972.jpg",
+  "k": "record",
+  "when": "24 July 1972",
+  "t": "Filomena Annecchino at Sydney, 24 July 1972 — visitor visa and landing stamp",
+  "c": "Her passport, pages 10–11. Right: Australian «Visa for Australia 99», type VISITOR, one person, single journey, a stay of two months, issued 20 July 1972 at the Australian Embassy, Rome, and stamped ENTRY MADE. Left, below: «Permitted to enter Australia — 24 Jul 1972 — for stay of 2 mths — Sydney Airport». Left, above: the Department of Immigration at Brisbane permits her to remain until 24 January 1973 (stamp of 5 October 1972). A further stamp on the next page extends that to 24 May 1973.",
+  "cite": "Family papers — Italian passport, Questura di Benevento, July 1972, pp. 10–12; photographed October 2026.",
   "see": "/direct-line"
  }
 ]
