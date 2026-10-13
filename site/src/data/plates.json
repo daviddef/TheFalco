@@ -126,13 +126,19 @@
   "f": "4000086_Angelo-Zampiello-and-Giuseppa-Ferrara.jpg",
   "t": "Angelo Zampiello and Giuseppa Ferrara",
   "c": "A hand-tinted paired portrait: Giuseppa Ferrara at the left, Angelo Zampiello at the right.",
-  "k": "photo"
+  "k": "photo",
+  "who": [
+   "angelo-zampiello"
+  ]
  },
  {
   "f": "4000088_Angelo-Zampiello-d.jpg",
   "t": "Angelo Zampiello — the memorial card",
   "c": "A memorial card, photographed on a crocheted cloth and rotated upright here: «ZAMPIELLO ANGELO — Nato il 31 agosto 1895 — Morto il 25 aprile 1972». It corroborates both dates from the family's own paper.",
-  "k": "photo"
+  "k": "photo",
+  "who": [
+   "angelo-zampiello"
+  ]
  },
  {
   "f": "4000090_Angelo-Zampiello-c.jpg",
@@ -144,7 +150,10 @@
   "f": "4507509_Filomena-Annecchino-portrait.jpg",
   "t": "Filomena Annecchino",
   "c": "Born 10 April 1897. Photographed in old age in a headscarf and crocheted shawl. The family remembers her hiding in a tree above her husband and his mistress.",
-  "k": "photo"
+  "k": "photo",
+  "who": [
+   "filomena-annecchino-2"
+  ]
  },
  {
   "f": "falco-zampiello-marriage-extract-arpaia-1955.jpg",
@@ -153,13 +162,20 @@
   "t": "Marriage extract — Falco and Zampiello, Arpaia, 15 January 1955",
   "c": "Comune di Arpaia, Provincia di Benevento — «Estratto dell'atto di matrimonio n. 1», international form. Marriage 15 · 01 · 1955. Husband FALCO Carmine, born 08 · 06 · 1930; wife ZAMPIELLO Francesca, born 27 · 04 · 1928. Boxes 10 and 11 are empty. Registered at ARPAIA — not at Benevento, which is what this archive printed on most of its pages until October 2026. The photocopy is certified true by the Italian Consulate at Brisbane (Giuliana Giavon, Decreto n. 12/2003); the date of issue in box 12 is October 2004.",
   "cite": "Comune di Arpaia (BN), estratto dell'atto di matrimonio n. 1, issued October 2004; certified photocopy, Consolato d'Italia, Brisbane.",
-  "see": "/direct-line"
+  "see": "/direct-line",
+  "who": [
+   "carmine-falco-of-carmine-antonio-falco-filomena-ann",
+   "francesca-zampiello"
+  ]
  },
  {
   "f": "4502901_Carminantonio-Falco-RECORD-31843_233558_0002-00065.jpg",
   "t": "The cemetery index, 2 January 1991",
   "c": "Page 64 of a burial index. Four Falcos: Carmine Antonio and Filomena on page 504, Caterina and Raffaele on page 284. It was this scrap that led to the Nudgee burial registers, and from there to the Brisbane immigration files.",
-  "k": "photo"
+  "k": "photo",
+  "who": [
+   "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann"
+  ]
  },
  {
   "f": "crescenzo-rivetti-death-1816.jpg",
@@ -667,7 +683,10 @@
   "t": "Passport of Filomena Annecchino — description of the holder, July 1972",
   "c": "Italian passport issued by the Questura di Benevento in July 1972. «Professione: pensionata · nato a Forchia · il 10-4-1897 · domiciliato a Forchia · stato civile: coniugata». Height 1.63 m, eyes brown, hair white. This is the first Italian official record this archive holds that states her date and place of birth; her birth act has never been found. The passport number is deliberately not shown.",
   "cite": "Family papers — Italian passport, Questura di Benevento, July 1972; photographed October 2026.",
-  "see": "/direct-line"
+  "see": "/direct-line",
+  "who": [
+   "filomena-annecchino-2"
+  ]
  },
  {
   "f": "carminantonio-falco-passport-identity-1976.jpg",
@@ -676,7 +695,10 @@
   "t": "Passport of Carminantonio Falco — identity page, August 1976",
   "c": "Italian passport issued by the Questura di Benevento on 5 August 1976, valid to 4 August 1981. «Carminantonio FALCO — nato a Arienzo (CE) — il 11/1/1901 — residente a Forchia (BN) — statura 1.70 — occhi castani». It agrees with the family tree's birth date and fixes the place as Arienzo. The passport number is deliberately not shown.",
   "cite": "Family papers — Italian passport, Questura di Benevento, 5 August 1976; photographed October 2026.",
-  "see": "/direct-line"
+  "see": "/direct-line",
+  "who": [
+   "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann"
+  ]
  },
  {
   "f": "filomena-annecchino-passport-australia-1972.jpg",
@@ -685,7 +707,10 @@
   "t": "Filomena Annecchino at Sydney, 24 July 1972 — visitor visa and landing stamp",
   "c": "Her passport, pages 10–11. Right: Australian «Visa for Australia 99», type VISITOR, one person, single journey, a stay of two months, issued 20 July 1972 at the Australian Embassy, Rome, and stamped ENTRY MADE. Left, below: «Permitted to enter Australia — 24 Jul 1972 — for stay of 2 mths — Sydney Airport». Left, above: the Department of Immigration at Brisbane permits her to remain until 24 January 1973 (stamp of 5 October 1972). A further stamp on the next page extends that to 24 May 1973.",
   "cite": "Family papers — Italian passport, Questura di Benevento, July 1972, pp. 10–12; photographed October 2026.",
-  "see": "/direct-line"
+  "see": "/direct-line",
+  "who": [
+   "filomena-annecchino-2"
+  ]
  },
  {
   "f": "caterina-falco-nee-zampiello-mass-card-2004.jpg",
@@ -694,7 +719,10 @@
   "t": "Mass card for Caterina Falco (née Zampiello), Brisbane, February 2004",
   "c": "«Mass of Remembrance and Recommendation to the Lord — Caterina Falco (née Zampiello) — Born Arpaia, Prov. Benevento, Italy, 7th July, 1925 — Born to eternal life Brisbane, Australia, 14th February, 2004.» She is Francesca Zampiello's sister, and the wife of Carmine Falco's brother Raffaele. Both dates agree with the Queensland death record this archive already held.",
   "cite": "Family papers — Mass card, Brisbane, 2004.",
-  "see": "/zampiello"
+  "see": "/zampiello",
+  "who": [
+   "caterina-zampiello"
+  ]
  },
  {
   "f": "tommasina-zampiello-memorial-card-2004.jpg",
@@ -703,7 +731,10 @@
   "t": "Memorial card for Tommasina Zampiello, widow Ruggiero, 2004",
   "c": "«Tommasina Zampiello ved. Ruggiero — * 9-2-1921 — † 2-6-2004.» The first record this archive holds of her dates of birth and death. The archive had her only as a bride, in the Arpaia marriage index of 26 August 1939.",
   "cite": "Family papers — memorial card, 2004.",
-  "see": "/zampiello"
+  "see": "/zampiello",
+  "who": [
+   "tommasina-zampiello"
+  ]
  },
  {
   "f": "giacomo-annecchino-memorial-card-1994.jpg",
@@ -712,7 +743,10 @@
   "t": "Memorial card for Giacomo Annecchino, 1901–1994",
   "c": "«Annecchino Giacomo — N. 02.02.1901 — M. 15.05.1994.» His birth date agrees to the day with the register act of 2 February 1901 in this archive, so the Giacomo on the card is the second of that name in Carmine Annecchino and Maria Carfora's household — Filomena Annecchino's younger brother.",
   "cite": "Family papers — printed memorial card, 1994.",
-  "see": "/annecchino"
+  "see": "/annecchino",
+  "who": [
+   "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2-2"
+  ]
  },
  {
   "f": "annecchino-carmine-giacomo-niche.jpg",
@@ -721,7 +755,11 @@
   "t": "The niche of Carmine and Giacomo Annecchino",
   "c": "A marble niche inscribed «Annecchino Carmine — 26 · 1 · 1857 — 25 · 2 · 1943» and «Annecchino Giacomo — 2 · 2 · 1901 — 15 · 5 · 1994», with a portrait. Photographed by the family; the cemetery is not named in the photograph and has not been confirmed. Cropped to this plaque — the niches around it belong to other families.",
   "cite": "Family papers — photograph of a cemetery niche.",
-  "see": "/annecchino"
+  "see": "/annecchino",
+  "who": [
+   "carmine-annecchino-of-carmine-annecchino-maria-carfora",
+   "giacomo-annecchino-of-carmine-annecchino-maria-carfora-2-2"
+  ]
  },
  {
   "f": "carmine-falco-portrait-early.jpg",
@@ -730,7 +768,10 @@
   "t": "Carmine Falco as a young man",
   "c": "A studio portrait on a scalloped-edge print, given to this archive by the family as Carmine Falco in his early years. **It carries no date, no photographer's name and no place**, and none is claimed: the earliest dated paper he appears in is the Arpaia marriage extract of 15 January 1955, which gives his birth as 8 June 1930. The identification rests on the family.",
   "cite": "Family papers — photographic print, undated.",
-  "see": "/direct-line"
+  "see": "/direct-line",
+  "who": [
+   "carmine-falco-of-carmine-antonio-falco-filomena-ann"
+  ]
  },
  {
   "f": "falco-50th-anniversary-news-photo-2005.jpg",
@@ -739,7 +780,11 @@
   "t": "«Celebrating 50th» — Carmine and Francesca Falco cut their anniversary cake, 2005",
   "c": "A newspaper photograph headed «Celebrating 50th», captioned «Wedded bliss … Carmine and Francesca Falco.» The cutting carries no date; the year is **2005** because the marriage was on **15 January 1955** and the text beside it says the fiftieth anniversary fell on **January 15**. Francesca died at Brisbane on 10 September 2022; Carmine in 2026.",
   "cite": "Family papers — clipping from a Brisbane local newspaper, January 2005; the masthead and date are not on the cutting.",
-  "see": "/direct-line"
+  "see": "/direct-line",
+  "who": [
+   "carmine-falco-of-carmine-antonio-falco-filomena-ann",
+   "francesca-zampiello"
+  ]
  },
  {
   "f": "falco-50th-anniversary-news-text-2005.jpg",
@@ -748,7 +793,11 @@
   "t": "The report of their fiftieth anniversary — congratulations from the Prime Minister, the Premier and the Governor",
   "c": "«STAFFORD Heights residents Carmine and Francesca Falco received messages of congratulations from Prime Minister John Howard, Premier Peter Beattie [printed «Bettie»], Queensland Governor Quentin Bryce and their local member Terry Sullivan when they celebrated their 50th wedding anniversary on January 15. — Mr Falco, a retired builder, emigrated to Australia in 1956.» **The rest of the right-hand column is withheld by this archive**: it names their children and says where they were born, and this archive names the living and nothing more. The paragraph withheld also says when Francesca joined him; that part is on the page as text, below.",
   "cite": "Family papers — clipping from a Brisbane local newspaper, January 2005; the masthead and date are not on the cutting.",
-  "see": "/direct-line"
+  "see": "/direct-line",
+  "who": [
+   "carmine-falco-of-carmine-antonio-falco-filomena-ann",
+   "francesca-zampiello"
+  ]
  },
  {
   "f": "falco-50th-anniversary-parish-notice-2005.jpg",
@@ -757,7 +806,11 @@
   "t": "«Anniversari di Matrimonio — Auguri a Carmine & Francesca FALCO», the Italian-language notice, 2005",
   "c": "«(50 anni il 15 gennaio) nella chiesa di Holy Cross, attorniati dai figli … nuore, generi, nipoti e amici che con devozione si sono uniti alla celebrazione della S. Messa presieduta da Padre Mauro. Da tutti i presenti affettuosi auguri e una santa benedizione.» From a printed notice whose title and date are not on the cutting. The names of their children, printed here, are not repeated by this archive. **The officiating priest's face has been blurred by the archive**; his name is printed in the notice and nothing is known of whether he is living.",
   "cite": "Family papers — printed notice, Italian-language community publication, Brisbane, 2005; the title is not on the cutting.",
-  "see": "/direct-line"
+  "see": "/direct-line",
+  "who": [
+   "carmine-falco-of-carmine-antonio-falco-filomena-ann",
+   "francesca-zampiello"
+  ]
  },
  {
   "f": "carmine-falco-in-uniform.jpg",
@@ -766,7 +819,10 @@
   "t": "Carmine Falco in uniform — an army photograph",
   "c": "A small print, creased and folded, of a young man in a long greatcoat with shoulder tabs, one hand on his hip, in the arcaded yard of a large building with scaffolding beside it and bare trees; the edge of a second figure in a greatcoat is cut by the frame at the right. Given by the family as **Carmine Falco in the army**. **No date, unit, place or inscription is on the print**, and none is claimed: the building is not named, and nothing here says which army or in which country. His birth is 8 June 1930 (the Arpaia extract), which is the only anchor.",
   "cite": "Family papers — photographic print, undated.",
-  "see": "/direct-line"
+  "see": "/direct-line",
+  "who": [
+   "carmine-falco-of-carmine-antonio-falco-filomena-ann"
+  ]
  },
  {
   "f": "francesca-zampiello-portrait.jpg",
@@ -775,7 +831,10 @@
   "t": "Francesca Zampiello (Falco) — a portrait with part of a departmental stamp",
   "c": "A head-and-shoulders print of Francesca Zampiello, given by the family. **At the right edge is part of a violet stamp reading «DEPT. O…» and, below, «AU…»** — the print was once fixed to an official paper, and the stamp is of a department, probably an Australian one; **which paper it came from is not known**, and no date is claimed. She was born 27 April 1928 at Arpaia (the marriage extract) and died at Brisbane on 10 September 2022.",
   "cite": "Family papers — photographic print, undated.",
-  "see": "/zampiello"
+  "see": "/zampiello",
+  "who": [
+   "francesca-zampiello"
+  ]
  },
  {
   "f": "carmine-falco-cutting-cane-north-queensland.jpg",
@@ -784,6 +843,9 @@
   "t": "Carmine Falco in the sugar-cane fields of North Queensland",
   "c": "A creased, torn print of a man in shorts and a work shirt, barefoot on a ladder, carrying a great bundle of cane stalks on his shoulder above a stack of more. Given by the family as **Carmine Falco cutting sugar cane in North Queensland, in the early days of his arrival in Australia**; David de Franceski remembers him as an enormously hard worker. **The print has no date, no place and no inscription**, and none is claimed: the identification and the setting are the family's.",
   "cite": "Family papers — photographic print, undated; identification by David de Franceski, 13 October 2026.",
-  "see": "/direct-line"
+  "see": "/direct-line",
+  "who": [
+   "carmine-falco-of-carmine-antonio-falco-filomena-ann"
+  ]
  }
 ]

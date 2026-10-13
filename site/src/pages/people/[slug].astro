@@ -4,6 +4,7 @@ import { u } from "../../lib/url.js";
 import { md } from "../../lib/md.js";
 import { people, bySlug, touchesLiving } from "../../lib/people.js";
 import households from "../../data/households.json";
+import plates from "../../data/plates.json";
 import PersonTree from "../../components/PersonTree.astro";
 import HouseholdTree from "../../components/HouseholdTree.astro";
 
@@ -28,6 +29,14 @@ const ownHouse = p.household
   ? households.find((h) => h.name.split(/\s*&\s*/).some((n) => clean(n) === clean(p.name)))
   : null;
 
+/* THE PICTURES THAT BELONG TO THIS PERSON. A plate names the people it shows in
+   its «who» list (person slugs); the page draws them. Nothing is shown for a
+   living person whatever the data says, the same refusal the spine figure makes. */
+const mine = p.living ? [] : plates
+  .filter((x) => (x.who || []).includes(p.slug))
+  .sort((a, b) => (b.k === "photo") - (a.k === "photo"));   // pictures of the person first, papers after
+const plateId = (x) => String(x.f).replace(/\.jpg$/, "");
+
 const kin = ["parents","spouses","children","siblings"];
 const edges = kin.flatMap((b) => p[b] || []);
 const fromRegister = edges.filter((e) => e.via !== "tree").length;
@@ -51,6 +60,24 @@ const dek = p.living
       noindex={touchesLiving(p)}>
 
   <PersonTree person={p} />
+
+  {mine.length ? (
+    <section class="card pp" aria-label="Photographs and papers">
+      <h2 class="ct">Photographs and papers</h2>
+      <div class="pp-row">
+        {mine.map((x) => (
+          <figure class="pp-fig">
+            <a href={u("/documents/") + "#" + plateId(x)}><img src={u("/plates/" + x.f)} alt={x.t} loading="lazy" /></a>
+            <figcaption>
+              <strong>{x.t}</strong>
+              {x.when ? <span class="small mono"> · {x.when}</span> : null}
+              <span class="small"> — <a href={u("/documents/") + "#" + plateId(x)}>caption and source →</a></span>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+    </section>
+  ) : null}
 
   <div class="grid two">
     <div class="card">
@@ -132,3 +159,11 @@ const dek = p.living
 
   <p class="small" style="margin-top:2rem"><a href={u("/people/")}>← All the people</a></p>
 </Base>
+
+<style>
+  .pp { margin: 1rem 0; }
+  .pp-row { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: .6rem; align-items: flex-start; }
+  .pp-fig { margin: 0; flex: 1 1 220px; max-width: 320px; }
+  .pp-fig img { display: block; width: 100%; height: auto; max-height: 360px; object-fit: contain; background: var(--panel-2); border: 1px solid var(--rule); }
+  .pp-fig figcaption { margin-top: .35rem; font-size: .9rem; line-height: 1.35; }
+</style>
