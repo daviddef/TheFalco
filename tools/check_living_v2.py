@@ -13,7 +13,7 @@ WHAT IT ENFORCES, against the BUILT SITE and the committed data:
   c  a living person's page is noindex, is not in the sitemap, is not in either
      search index, has no structured data, no table, no image and no year of
      their own, and a living person drawn on another page carries no year there;
-  d  a held-out person (a possible minor) appears nowhere: no page, no data file,
+  d  a held-out person (undated, with a living parent) appears nowhere: no page, no data file,
      no tsv, no built file, no served file;
   e  every person the archive names has a person page: every edge, every chart
      node, every roster and family row that names a tree person links to a page
@@ -143,6 +143,8 @@ def record_evidence(rec, line):
             low = a.lower()
             if "an_u" in low or "antenati" in low:
                 cites.append("antenati.cultura.gov.it " + a)
+            elif re.search(r"\bnaa\b", low) or "recordsearch" in low:
+                cites.append("recordsearch.naa.gov.au " + a)
             elif re.match(r"^[0-9A-Z]{3,4}(-[0-9A-Z]{3,4})+$", a):
                 cites.append("familysearch.org/ark:/61903/3:1:" + a)
             else:
@@ -279,7 +281,7 @@ def _check(dist, tree_path, tracked, held_scan=True):
                 n_held += 1
                 held_names.append(bare_name(t["name"]))
                 if rec:
-                    R.fail(f"HELD-OUT PERSON HAS A PAGE: tree id {t['id']} is a possible minor "
+                    R.fail(f"HELD-OUT PERSON HAS A PAGE: tree id {t['id']} is held out "
                            "(or promised privacy) and must have no page and no name anywhere")
                 continue
             if not rec:
@@ -817,7 +819,24 @@ def selftest(dist):
                       "parents": [], "spouses": [], "children": [], "siblings": [], "treeId": tid})
             return json.dumps(j)
         sb.edit(PJ, fn)
-    trial("a held-out person with a page", held_has_page, "HELD-OUT PERSON HAS A PAGE", need_tree=True)
+    trial("an undated person with a living parent given a page", held_has_page, "HELD-OUT PERSON HAS A PAGE", need_tree=True)
+    def child_held_out():
+        t = json.load(open(TREE, encoding="utf-8"))
+        pj = json.load(open(PJ, encoding="utf-8"))
+        info, by_rec = recompute(t, pj, load("line.json"))
+        kids = [tid for tid, v in info.items() if v["by"] and THIS_YEAR - v["by"] < 18 and not v["dead"] and tid in by_rec]
+        if not kids:
+            raise SystemExit("no dated child")
+        slug = by_rec[kids[0]]["slug"]
+        sb.edit(PJ, lambda s_: json.dumps([x for x in json.loads(s_) if x["slug"] != slug]))
+        sb.remove_dir(os.path.join(sb.dist, "people", slug))
+    if os.path.exists(TREE):
+        try:
+            trial("a dated child under 18 wrongly held out (no page)", child_held_out, "A NAMED PERSON HAS NO PAGE", need_tree=True)
+        except SystemExit:
+            results.append(("a dated child under 18 wrongly held out (no page)", False))
+    else:
+        results.append(("a dated child under 18 wrongly held out (no page)", None))
     sb.close()
     bad = 0
     print("selftest: every planted fault must be refused")
