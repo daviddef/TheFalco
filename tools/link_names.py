@@ -43,8 +43,9 @@ for g in load("line.json"):
     if alt:
         known.add(norm(re.sub(r"\s*\([^)]*\)\s*", " ", raw)))
         known.add(norm(re.sub(r"\S+\s*\([^)]*\)", alt.group(1), raw)))
-for r in load("living.json"):
-    known.add(norm(r["name"]))
+for r in load("people.json"):          # a living person has a page like anyone else
+    if r.get("living"):
+        known.add(norm(r["name"]))
 
 register_names = [norm(r.get("name")) for r in load("register.json")]
 

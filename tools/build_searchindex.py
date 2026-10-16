@@ -68,10 +68,15 @@ for fn in sorted(os.listdir(pages_dir)):
 
 # --- people ---
 for p in load("people.json"):
+    # A LIVING PERSON'S PAGE IS NOINDEX, and what keeps a page out of the search
+    # engines keeps it out of this site's own search index too: the standard of
+    # 16 October 2026 (version 2) says the two go together. They have a page and
+    # are named on their relatives' pages; they are not offered by the search box.
+    if p.get("living"):
+        continue
     bits = [p.get("surname", "")]
     if p.get("gen"): bits.append(f"generation {p['gen']} of the direct line")
     if p.get("household"): bits.append(p["household"])
-    if p.get("living"): bits.append("living")
     for f in ("b", "d", "bp", "dp"):
         if p.get(f): bits.append(str(p[f]))
     out.append({"t": p["name"], "u": "/people/" + p["slug"], "k": "person",

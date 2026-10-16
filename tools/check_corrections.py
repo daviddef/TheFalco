@@ -167,7 +167,7 @@ RETIRED_PHRASES = [
 
 GUILLEMET = re.compile(r"\u00ab.*?\u00bb", re.S)
 SKIP = {"corrections.json", "searchindex.json", "changes.json", "researchlog.json",
-        "people.json", "register.json", "living.json", "married-in.json",
+        "people.json", "register.json", "married-in.json",
         "people-aliases.json", "people-register.tsv"}
 
 def _scan_dir(d, rel):

@@ -426,19 +426,28 @@ for r in rd("data/naa-records.tsv"):
                                r.get("date_range"), r.get("location"), r.get("access")] if x),
         "National Archives of Australia", link, "file", r.get("date_range") or "")
 
-# --- the family tree itself: every DECEASED person on the Falco side ---
-# Living people are excluded entirely, as everywhere else in this build.
+# --- the family tree itself: every person on the Falco side who is NOT living ---
+# WHO IS LIVING IS NOT DECIDED HERE. It is the kit's one rule, applied by
+# tools/build_people.py, and this reads its answer from site/src/data/people.json:
+# a tree person with no record there is a placeholder or held out (a possible
+# minor) and gets no row; a living person gets no row (a living person shows a
+# name, their relationships and a town and country, not a record). A relative's
+# name is printed only if that relative has a page.
 if os.path.exists("data/myheritage-falco-tree.json"):
     tree = json.load(open("data/myheritage-falco-tree.json"))
+    _PUB = {r["treeId"]: r for r in json.load(open("site/src/data/people.json"))
+            if r.get("treeId") is not None}
     for x in tree:
-        if x.get("alive"): continue
+        _rec = _PUB.get(x.get("id"))
+        if _rec is None or _rec.get("living"): continue
         nm = re.sub(r"\s*[✔⭐]\s*", " ", x.get("name") or "").strip(" ,")
         if not nm or nm.startswith("["): continue
         bits = []
         if x.get("b"):  bits.append("b. " + x["b"] + (", " + x["bp"] if x.get("bp") else ""))
         elif x.get("bp"): bits.append("of " + x["bp"])
         if x.get("d"):  bits.append("d. " + x["d"] + (", " + x["dp"] if x.get("dp") else ""))
-        rels = [f'{r["rel"]} {r["n"]}' for r in (x.get("relatives") or [])][:4]
+        rels = [f'{r["rel"]} {r["n"]}' for r in (x.get("relatives") or [])
+                if r.get("id") in _PUB][:4]
         if rels: bits.append(" · ".join(rels))
         add(nm, sur(re.sub(r"\(.*?\)", "", nm)), " · ".join(bits),
             "The family tree (unverified unless a record is cited)", "", "tree",

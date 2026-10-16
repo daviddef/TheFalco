@@ -31,12 +31,19 @@ published per person:
   – if two tree people share the name and neither matches on years, NOTHING is
     merged. Three Maria Falco is the reason this archive exists in this form.
 
-Living people carry a name and their place in the family and NOTHING ELSE —
-no dates, no places, no events — following the rule David set on 10 September
-2026. The test for "living" is the one in build_living.py, not the tree's own
-flag, which marks a man born in 1832 as alive.
+A living person carries a name, their place in the family and their town and
+country, and NOTHING ELSE — no dates, no events, no records, no street — under
+the living-people standard, version 2, which David set on 16 October 2026. Who
+is living is NOT decided here: it is the kit's one rule (kit/tools/living_rule.py,
+reached through tools/living_v2.py) — born 80 years ago or less, with no death or
+burial recorded, and no public source. The tree's own `alive` flag, which marks a
+man born in 1832 as alive, is not the test. Possible minors are held out: they
+get no page and are not named as anybody's relative.
 """
-import json, re, collections, os, unicodedata
+import json, re, collections, os, unicodedata, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import living_v2 as lv
+lr = lv.lr
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 def path(*p): return os.path.join(ROOT, *p)
@@ -171,16 +178,25 @@ def edges(p, want):
             if (e.get("rel") or "").lower().endswith(want)]
 
 ANCESTORS = set()
+# How each of the anchor's wife's ancestors is related to the anchor, in words
+# («your wife's grandmother»). A relationship is what a living person is allowed
+# to show, so the roster and the person page carry it.
+ANCESTOR_REL = {}
 if spouse_of_anchor:
-    frontier, seen = [spouse_of_anchor["id"]], {spouse_of_anchor["id"]}
+    frontier, seen = [(spouse_of_anchor["id"], 0)], {spouse_of_anchor["id"]}
     while frontier:
-        pid = frontier.pop(0)
+        pid, depth = frontier.pop(0)
         p = by_id.get(pid)
         if not p: continue
         for want in ("mother", "father"):
             for aid in edges(p, want):
                 if aid in seen: continue
-                seen.add(aid); ANCESTORS.add(aid); frontier.append(aid)
+                seen.add(aid); ANCESTORS.add(aid); frontier.append((aid, depth + 1))
+                d = depth + 1
+                ANCESTOR_REL[aid] = (f"your wife's {want}" if d == 1
+                                     else f"your wife's grand{want}" if d == 2
+                                     else f"your wife's great-grand{want}" if d == 3
+                                     else f"your wife's {d - 2}\u00d7 great-grand{want}")
 
 def birth_year(p):
     m = re.search(r"\b(1[6-9]\d\d|20\d\d)\b", str(p.get("b") or ""))
@@ -194,18 +210,17 @@ LINE_LIVING = {clean(g["name"]).lower() for g in line if g.get("living") is True
 # time somebody dies; this file is the archive's own word and it wins.
 LINE_DEAD = {clean(g["name"]).lower() for g in line if g.get("living") is False}
 
-def really_living(p):
-    """The tree's own flag means 'no death date recorded', which is not the
-    same thing — left alone it marks a man born in 1832 as alive. Two filters
-    correct it: a placeholder is not a person, and a birth before 1920 means
-    dead whatever the flag says.
+def merge_guard(p):
+    """MERGE ELIGIBILITY ONLY, and not the living-people test.
 
-    What must NOT be used here is the ancestor test. build_living.py excludes
-    ancestors because it is listing living *relatives* and an ancestor is not
-    one. Reusing that predicate to decide REDACTION was a serious mistake: the
-    wife's own mother is an ancestor AND alive, so it published the birth date
-    of a living woman — the exact leak the direct-line page had already been
-    fixed for. Ancestry has nothing to do with whether someone is alive.
+    Whether somebody is living is decided further down by the kit's one rule
+    (see classify below). This is the older, deliberately cautious question
+    «could this tree row be somebody the registers must not be joined to on a
+    guess?», and it is asked only by the couple-pairing and the exact-date merges:
+    a tree row that still carries the tree's «alive» flag, and was born in 1920 or
+    later or has no birth year, is not offered to a register household by those
+    passes. Its behaviour is unchanged from before the standard moved, so the
+    graph's merges do not move with it. It decides nothing about publication.
     """
     if is_placeholder(p.get("name")):
         return False
@@ -213,7 +228,7 @@ def really_living(p):
     if nm in LINE_DEAD:
         return False                     # the archive says they have died
     if nm in LINE_LIVING:
-        return True                      # the archive says so; that settles it
+        return True
     if not p.get("alive"):
         return False
     by = birth_year(p)
@@ -770,7 +785,7 @@ for k in hh_order:
 
 _tr_head = {}
 for q in tree:
-    if is_placeholder(q.get("name")) or q["id"] in merge or really_living(q):
+    if is_placeholder(q.get("name")) or q["id"] in merge or merge_guard(q):
         continue
     sp = [by_id[i] for i in edges(q, "wife") + edges(q, "husband") + edges(q, "spouse")
           if i in by_id and not is_placeholder(by_id[i].get("name"))]
@@ -872,7 +887,7 @@ for k in hh_order:
 
 _tr_par = {}
 for q in tree:
-    if is_placeholder(q.get("name")) or q["id"] in merge or really_living(q):
+    if is_placeholder(q.get("name")) or q["id"] in merge or merge_guard(q):
         continue
     fa = [by_id[i] for i in edges(q, "father") if i in by_id]
     mo = [by_id[i] for i in edges(q, "mother") if i in by_id]
@@ -906,6 +921,8 @@ print(f"  merged on both parents and an exact date, never on the name: {_joined}
 
 people = {}       # slug -> record
 slug_of_tree = {}
+EVIDENCE = {}     # slug -> (tree id, birth year, death recorded, citations); never written out
+KNOWN_COUNTRY = lv.learn_countries([x.get("bp") for x in tree] + [x.get("dp") for x in tree])
 
 for k in hh_order:
     p = hh_people[k]
@@ -983,9 +1000,31 @@ for p in tree:
         }
     r = people[slug]
     r["treeId"] = tid
-    if really_living(p):
-        # name and place in the family, nothing else. Deliberate.
-        r["living"] = True
+    # WHO IS LIVING, by the kit's one rule and by nothing of this archive's own.
+    # The inputs are read off the tree row and the register events the merge has
+    # already attached to this record; nothing here decides the age bound.
+    _by = lv.year_of(p.get("b"))
+    _dead = lv.tree_death_recorded(p) or any(lv.event_is_death(e.get("event")) for e in r["events"])
+    if _by is None:
+        # no tree birth: the register's own birth or baptism year, if a record gave one
+        _ys = sorted(lv.year_of(e.get("date")) for e in r["events"]
+                     if (own_event(e.get("event"), "birth") or own_event(e.get("event"), "baptism"))
+                     and lv.year_of(e.get("date")))
+        _by = _ys[0] if _ys else None
+    _g = spine_tree.get(tid)
+    if _g and (_g.get("living") is False or _g.get("died")):
+        _dead = True                       # the archive's own line records the death
+    _cites = lv.citation_strings(r["events"])
+    EVIDENCE[slug] = (tid, _by, _dead, _cites)
+    r["living"] = bool(lr.is_living(_by, _dead, _cites, lv.THIS_YEAR))
+    if r["living"]:
+        # a name, the place in the family (the edges, below) and a town and
+        # country. Deliberate, and nothing else: no b, d, bp, dp, no events.
+        r["place"] = lv.town_country(p.get("bp"), KNOWN_COUNTRY)
+        r["rel"] = ("you" if p.get("rel") == "This is you"
+                    else ANCESTOR_REL.get(p["id"])
+                    or (str(p.get("rel") or "").lower() if str(p.get("rel") or "").lower().startswith("your ")
+                        else "relative"))
     else:
         # THE TREE FILLS BLANKS. IT DOES NOT OVERWRITE THE REGISTERS.
         #
@@ -1271,12 +1310,45 @@ if _DATE_CONFLICT:
 for _s, _f, _tree, _act in _ACT_OVER_TREE:
     print(f"      {_s} {_f}: the tree said {_tree!r}, the act says {_act!r}")
 
-# living people must not leak a date through a merged register event either
+# A LIVING PERSON KEEPS A NAME, THEIR RELATIONSHIPS AND A TOWN AND COUNTRY.
+# Anything a merged register record attached to them — events, dates, the
+# household label it was filed under, the role, the join basis, the line's own
+# notes — is dropped here, after every merge, so nothing leaks through a join.
+_LINE_KEEP = ("gen", "name", "spouse", "confidence", "living")
 for r in people.values():
     if r["living"]:
         r["events"] = []
-        for f in ("b","d","bp","dp"):
+        for f in ("b","d","bp","dp","dateFrom","mergedOn","alsoChildIn","spouseVariant"):
             r.pop(f, None)
+        r["household"] = None; r["role"] = None; r.pop("hid", None)
+        if r.get("line"):
+            r["line"] = {k: v for k, v in r["line"].items() if k in _LINE_KEEP}
+
+# ------------------------------------------------------------- HELD OUT
+#
+# Possible minors are not published at all — no page, and not named as anyone's
+# relative: a person not recorded dead and with no public source who is under 18
+# by year, or who has no birth year and a living parent. The kit's rule decides;
+# this applies it to the graph that has just been built, so «a living parent» is
+# the parent as the graph records them (tree, register or line).
+_held_slugs, _held_tids = set(), set()
+for _s, (_tid, _by, _dead, _cites) in EVIDENCE.items():
+    _r = people[_s]
+    _parent_living = any(people[e["slug"]]["living"] for e in _r["parents"] if e["slug"] in people)
+    if lr.is_held_out(_tid, _by, _dead, _cites, _parent_living, held_ids=(), today_year=lv.THIS_YEAR):
+        _held_slugs.add(_s); _held_tids.add(_tid)
+for _s in sorted(_held_slugs):
+    if people[_s]["household"] or people[_s]["events"] or people[_s].get("gen"):
+        raise SystemExit("a held-out person is also a register or direct-line record — "
+                         "stop and look: " + _s)
+for _s in _held_slugs:
+    del people[_s]
+for _tid in list(slug_of_tree):
+    if _tid in _held_tids: del slug_of_tree[_tid]
+for _r in people.values():
+    for _b in ("parents", "spouses", "children", "siblings"):
+        _r[_b] = [e for e in _r[_b] if e["slug"] not in _held_slugs]
+print(f"  held out (possible minors, no page and no name anywhere): {len(_held_slugs)}")
 
 # ------------------------------------------------------------- self-check
 #
@@ -1543,6 +1615,7 @@ for ck, hk in same_person.items():
             alias[old_slug[k]] = new_slug
 # A redirect must never outlive its destination, and must never shadow a live page.
 _live = set(people)
+alias = {k: v for k, v in alias.items() if k not in _held_slugs}
 _dangling = sorted(k for k, v in alias.items() if v not in _live)
 _shadow = sorted(k for k in alias if k in _live)
 for k in _shadow:
@@ -1574,6 +1647,14 @@ _known = set()
 if os.path.exists(_SLUG_LOG):
     with open(_SLUG_LOG, encoding="utf-8") as fh:
         _known = {l.strip() for l in fh if l.strip() and not l.startswith("#")}
+# A HELD-OUT PERSON'S ADDRESS IS NOT A PROMISE THIS ARCHIVE KEEPS. The ledger is
+# a public file, and a slug is a name: leaving a possible minor's here would
+# publish them. Their slugs are removed from the ledger, from the frozen-slug
+# file and from the redirects (counts only are printed), and their old URLs
+# simply stop existing. That is the purpose of holding them out.
+_pre = len(_known)
+_known -= _held_slugs
+_ledger_dropped = _pre - len(_known)
 _dark = sorted(s for s in _known if s not in _live and s not in alias)
 if _dark:
     print("\n  SLUGS THAT WERE PUBLISHED AND ARE NOW NEITHER LIVE NOR REDIRECTED:")
@@ -1588,6 +1669,7 @@ with open(_SLUG_LOG, "w", encoding="utf-8") as fh:
              "# A slug here that is not live must be in people-aliases.json.\n")
     for s in sorted(_known | _live):
         fh.write(s + "\n")
+print(f"  held-out addresses dropped from the slug ledger: {_ledger_dropped}")
 print(f"  slug ledger: {len(_known | _live)} promise(s) kept"
       + (f", {len(_new_slugs)} new this run" if _new_slugs else ""))
 if _dangling:
@@ -1636,6 +1718,9 @@ if os.path.exists(_vpath):
 # nothing new was minted — so a stamp or an orphan check can account for it. A
 # file that is only sometimes written looks exactly like a file whose
 # generator has been deleted; the Blazevic archive's own gate caught that.
+for _k in [k for k in _frozen if k.startswith("tree:") and k[5:] in {str(t) for t in _held_tids}]:
+    del _frozen[_k]
+_minted = [(k, v) for k, v in _minted if v not in _held_slugs]
 for _k, _s in _minted:
     _frozen.setdefault(_k, _s)
 _ledger_doc["slugs"] = dict(sorted(_frozen.items()))
@@ -1663,7 +1748,7 @@ print(f"  from the registers only : {sum(1 for r in out if r['sources'] == ['reg
 print(f"  from the tree only      : {sum(1 for r in out if r['sources'] == ['tree'])}")
 print(f"  merged from both        : {sum(1 for r in out if len(r['sources']) > 1)}"
       f"  ({collections.Counter(r.get('mergedOn') for r in out if r.get('mergedOn'))})")
-print(f"  living, name only       : {sum(1 for r in out if r['living'])}")
+print(f"  living, name+place only : {sum(1 for r in out if r['living'])}")
 print(f"  with any relationship   : {sum(1 for r in out if any(r[b] for b in ('parents','spouses','children','siblings')))}")
 print(f"  relationship edges      : {dict(edge_via)}")
 print(f"  the tree deferred to the registers on {len(_TREE_YIELDED)} date(s):")

@@ -1692,7 +1692,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [],
 "children": [
@@ -2515,7 +2515,9 @@
 }
 ],
 "siblings": [],
-"treeId": 4503056
+"treeId": 4503056,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "angelo-raffaele-arricale",
@@ -4055,7 +4057,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -4067,24 +4069,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "sara-servodio",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "samantha-servodio",
-"name": "[withheld] (Dreghorn)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [],
 "treeId": 4505011
 },
@@ -4098,7 +4083,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -4149,7 +4134,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -4260,92 +4245,6 @@
 "noKin": "married-in"
 },
 {
-"slug": "jack-calahorra",
-"name": "[withheld]",
-"surname": "CALAHORRA",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "robert-calahorra",
-"name": "Robert Calahorra",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rene-turner",
-"name": "Rene Turner (Calahorra)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "luka-calahorra",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4503061
-},
-{
-"slug": "luka-calahorra",
-"name": "[withheld]",
-"surname": "CALAHORRA",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "robert-calahorra",
-"name": "Robert Calahorra",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rene-turner",
-"name": "Rene Turner (Calahorra)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "jack-calahorra",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4503060
-},
-{
 "slug": "robert-calahorra",
 "name": "Robert Calahorra",
 "surname": "CALAHORRA",
@@ -4376,74 +4275,6 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "luka-calahorra",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "jack-calahorra",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [
-{
-"slug": "michael-rocco-mazza",
-"name": "Michael Rocco Mazza",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "angela-mazza",
-"name": "Angela Mazza (Muller)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "stefanie-calahorra",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4503058
-},
-{
-"slug": "stefanie-calahorra",
-"name": "[withheld]",
-"surname": "CALAHORRA",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "frank-mazza",
-"name": "Frank Mazza",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
 "children": [],
 "siblings": [
 {
@@ -4461,17 +4292,11 @@
 "vias": [
 "tree"
 ]
-},
-{
-"slug": "robert-calahorra",
-"name": "Robert Calahorra",
-"via": "tree",
-"vias": [
-"tree"
-]
 }
 ],
-"treeId": 4503062
+"treeId": 4503058,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "maria-carbona",
@@ -8827,7 +8652,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "clemente-crisci",
@@ -10203,7 +10028,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "clemente-crisci",
@@ -10952,7 +10777,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "pasquale-crisci-2",
@@ -12090,7 +11915,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "clemente-crisci",
@@ -13033,24 +12858,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "alessio-david-defranceski",
-"name": "Alessio David Defranceski",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "mateo-cristian-defranceski",
-"name": "Mateo Cristian Defranceski",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "stefanie-francesca-d-arcy",
@@ -13059,17 +12867,11 @@
 "vias": [
 "tree"
 ]
-},
-{
-"slug": "sister-dna-d-arcy",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
 }
 ],
-"treeId": 4000002
+"treeId": 4000002,
+"place": "Brisbane, Australia",
+"rel": "your wife"
 },
 {
 "slug": "ian-kenneth-d-arcy",
@@ -13110,69 +12912,12 @@
 "vias": [
 "tree"
 ]
-},
-{
-"slug": "sister-dna-d-arcy",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
 }
 ],
 "siblings": [],
-"treeId": 4000006
-},
-{
-"slug": "sister-dna-d-arcy",
-"name": "[withheld]",
-"surname": "D'ARCY",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "ian-kenneth-d-arcy",
-"name": "Ian Kenneth D'Arcy",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "giuseppina-falco",
-"name": "Giuseppina Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "cristina-adele-d-arcy",
-"name": "Cristina Adele D'Arcy (Defranceski)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "stefanie-francesca-d-arcy",
-"name": "Stefanie Francesca D'Arcy (Mazza)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4509341
+"treeId": 4000006,
+"place": "Brisbane, Australia",
+"rel": "your wife's father"
 },
 {
 "slug": "stefanie-francesca-d-arcy",
@@ -13213,24 +12958,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "mia-giusepina-mazza",
-"name": "Mia Giusepina Mazza",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rocco-mazza",
-"name": "Rocco Mazza",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "cristina-adele-d-arcy",
@@ -13239,17 +12967,11 @@
 "vias": [
 "tree"
 ]
-},
-{
-"slug": "sister-dna-d-arcy",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
 }
 ],
-"treeId": 4000008
+"treeId": 4000008,
+"place": "Brisbane, Australia",
+"rel": "relative"
 },
 {
 "slug": "vincenzo-carfora-fra-angelo-d-arienzo",
@@ -13470,92 +13192,6 @@
 }
 },
 {
-"slug": "bruce-de-roo",
-"name": "[withheld]",
-"surname": "DE ROO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "justin-de-roo",
-"name": "Justin De Roo",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rosa-smith",
-"name": "Rosa Smith (deRoo)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "gabriel-de-roo",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4506211
-},
-{
-"slug": "gabriel-de-roo",
-"name": "[withheld]",
-"surname": "DE ROO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "justin-de-roo",
-"name": "Justin De Roo",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rosa-smith",
-"name": "Rosa Smith (deRoo)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "bruce-de-roo",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4506210
-},
-{
 "slug": "justin-de-roo",
 "name": "Justin De Roo",
 "surname": "DE ROO",
@@ -13565,7 +13201,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -13577,71 +13213,11 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "gabriel-de-roo",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "bruce-de-roo",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [],
 "treeId": 4506209
 },
 {
-"slug": "alessio-david-defranceski",
-"name": "Alessio David Defranceski",
-"surname": "DEFRANCESKI",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "david-ivan-defranceski",
-"name": "David Ivan Defranceski",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "cristina-adele-d-arcy",
-"name": "Cristina Adele D'Arcy (Defranceski)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "mateo-cristian-defranceski",
-"name": "Mateo Cristian Defranceski",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000003
-},
-{
 "slug": "david-ivan-defranceski",
 "name": "David Ivan Defranceski",
 "surname": "DEFRANCESKI",
@@ -13663,69 +13239,11 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "alessio-david-defranceski",
-"name": "Alessio David Defranceski",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "mateo-cristian-defranceski",
-"name": "Mateo Cristian Defranceski",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [],
-"treeId": 4000001
-},
-{
-"slug": "mateo-cristian-defranceski",
-"name": "Mateo Cristian Defranceski",
-"surname": "DEFRANCESKI",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "david-ivan-defranceski",
-"name": "David Ivan Defranceski",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "cristina-adele-d-arcy",
-"name": "Cristina Adele D'Arcy (Defranceski)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
 "children": [],
-"siblings": [
-{
-"slug": "alessio-david-defranceski",
-"name": "Alessio David Defranceski",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4505116
+"siblings": [],
+"treeId": 4000001,
+"place": "Johannesburg, South Africa",
+"rel": "you"
 },
 {
 "slug": "teresa-della-m",
@@ -16618,7 +16136,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "scott-ellevsen",
@@ -16669,7 +16187,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "adam",
@@ -16720,7 +16238,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -16755,7 +16273,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "adam",
@@ -17001,7 +16519,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -17013,26 +16531,13 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "oscar-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rilley-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [],
-"treeId": 4000236
+"treeId": 4000236,
+"bp": "Brisbane, Brisbane, Queensland, Australia",
+"dateFrom": {
+"bp": "tree"
+}
 },
 {
 "slug": "andrea-falco",
@@ -19350,7 +18855,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
@@ -19834,7 +19339,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "carmine-falco-4",
@@ -20256,7 +19761,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
@@ -20378,24 +19883,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "oscar-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rilley-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "jessica-falco",
@@ -20414,7 +19902,9 @@
 ]
 }
 ],
-"treeId": 4000100
+"treeId": 4000100,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "anthony-falco-3",
@@ -20916,7 +20406,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "raffaele-falco",
@@ -22039,7 +21529,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "anthony-falco",
@@ -22068,16 +21558,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "atlas-antonio-halliday",
-"name": "Atlas Antonio Halliday",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "jessica-falco",
@@ -24532,7 +24013,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "antonio-tony-falco",
@@ -26293,7 +25774,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "antonio-tony-falco",
@@ -34318,14 +33799,6 @@
 "vias": [
 "tree"
 ]
-},
-{
-"slug": "sister-dna-d-arcy",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
 }
 ],
 "siblings": [
@@ -34347,12 +33820,13 @@
 }
 ],
 "treeId": 4000007,
+"place": "Benevento, Italy",
+"rel": "your wife's mother",
 "gen": 9,
 "line": {
 "gen": 9,
 "name": "Giuseppina Falco",
 "spouse": "Ian Kenneth D'Arcy",
-"trade": "",
 "confidence": "documented",
 "living": true
 }
@@ -34436,7 +33910,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "anthony-falco",
@@ -34475,7 +33949,11 @@
 ]
 }
 ],
-"treeId": 4000098
+"treeId": 4000098,
+"b": "14 JUL",
+"dateFrom": {
+"b": "tree"
+}
 },
 {
 "slug": "jiuseppe-pep-falco",
@@ -35483,7 +34961,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "carmine-falco-4",
@@ -35950,7 +35428,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -41723,49 +41201,6 @@
 ]
 },
 {
-"slug": "oscar-falco",
-"name": "[withheld]",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "anthony-falco-2",
-"name": "Anthony Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "amy-falco",
-"name": "Amy Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "rilley-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000237
-},
-{
 "slug": "paschalis-falco",
 "name": "Paschalis (Pasquale) Falco",
 "surname": "FALCO",
@@ -44107,7 +43542,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "angelo-falco",
@@ -46759,7 +46194,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "angelo-falco",
@@ -46808,49 +46243,6 @@
 }
 ],
 "treeId": 4000102
-},
-{
-"slug": "rilley-falco",
-"name": "[withheld]",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "anthony-falco-2",
-"name": "Anthony Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "amy-falco",
-"name": "Amy Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "oscar-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000238
 },
 {
 "slug": "rosa-falco-of-carlantonio-morgillo-rosa-falco",
@@ -47732,7 +47124,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "antonio-tony-falco",
@@ -47783,7 +47175,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -51405,7 +50797,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -51439,40 +50831,6 @@
 "treeId": 4509295
 },
 {
-"slug": "atlas-antonio-halliday",
-"name": "Atlas Antonio Halliday",
-"surname": "HALLIDAY",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "rhys-halliday",
-"name": "Rhys Halliday",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "carla-falco",
-"name": "Carla Falco (Halliday)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [],
-"treeId": 4512358
-},
-{
 "slug": "rhys-halliday",
 "name": "Rhys Halliday",
 "surname": "HALLIDAY",
@@ -51482,7 +50840,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -51494,16 +50852,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "atlas-antonio-halliday",
-"name": "Atlas Antonio Halliday",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [],
 "treeId": 4512357
 },
@@ -51517,7 +50866,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "taine",
@@ -53240,17 +52589,11 @@
 "vias": [
 "tree"
 ]
-},
-{
-"slug": "stefanie-calahorra",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
 }
 ],
-"treeId": 4505021
+"treeId": 4505021,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "frank-mazza",
@@ -53315,18 +52658,12 @@
 "vias": [
 "tree"
 ]
-},
-{
-"slug": "stefanie-calahorra",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
 }
 ],
 "siblings": [],
-"treeId": 4503055
+"treeId": 4503055,
+"place": "Brisbane, Australia",
+"rel": "relative"
 },
 {
 "slug": "giovanni-mazza",
@@ -53391,49 +52728,6 @@
 "dp": "Piedimonte Etneo, CT, Italy"
 },
 {
-"slug": "mia-giusepina-mazza",
-"name": "Mia Giusepina Mazza",
-"surname": "MAZZA",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "michael-rocco-mazza",
-"name": "Michael Rocco Mazza",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "stefanie-francesca-d-arcy",
-"name": "Stefanie Francesca D'Arcy (Mazza)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "rocco-mazza",
-"name": "Rocco Mazza",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4504821
-},
-{
 "slug": "michael-rocco-mazza",
 "name": "Michael Rocco Mazza",
 "surname": "MAZZA",
@@ -53472,24 +52766,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "mia-giusepina-mazza",
-"name": "Mia Giusepina Mazza",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rocco-mazza",
-"name": "Rocco Mazza",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "angela-mazza",
@@ -53506,60 +52783,11 @@
 "vias": [
 "tree"
 ]
-},
-{
-"slug": "stefanie-calahorra",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
 }
 ],
-"treeId": 4503054
-},
-{
-"slug": "rocco-mazza",
-"name": "Rocco Mazza",
-"surname": "MAZZA",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "michael-rocco-mazza",
-"name": "Michael Rocco Mazza",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "stefanie-francesca-d-arcy",
-"name": "Stefanie Francesca D'Arcy (Mazza)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "mia-giusepina-mazza",
-"name": "Mia Giusepina Mazza",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4505485
+"treeId": 4503054,
+"place": "Brisbane, Australia",
+"rel": "relative"
 },
 {
 "slug": "rosario-mazza",
@@ -53778,7 +53006,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "orfei-michieletto",
@@ -53846,7 +53074,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -53985,7 +53213,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "john-militano",
@@ -54086,7 +53314,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "john-militano",
@@ -54162,7 +53390,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -54221,7 +53449,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -54264,7 +53492,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "robert-militano",
@@ -54307,7 +53535,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "robert-militano",
@@ -54350,7 +53578,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "john-militano",
@@ -54435,7 +53663,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "john-militano",
@@ -56953,7 +56181,9 @@
 ],
 "children": [],
 "siblings": [],
-"treeId": 4509720
+"treeId": 4509720,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "grazia-natale",
@@ -59039,7 +58269,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "taine",
@@ -59082,7 +58312,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -61053,7 +60283,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -61165,7 +60395,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "michele-ruggiero",
@@ -61242,7 +60472,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "giuseppe-ruggiero-2",
@@ -61293,7 +60523,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "giuseppe-ruggiero-2",
@@ -61344,7 +60574,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "giuseppe-ruggiero-2",
@@ -61613,7 +60843,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "michele-ruggiero",
@@ -62225,7 +61455,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -62251,7 +61481,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -62294,7 +61524,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "baladino-schettini",
@@ -62363,7 +61593,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "baladino-schettini",
@@ -62470,24 +61700,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "sara-servodio",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "samantha-servodio",
-"name": "[withheld] (Dreghorn)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "maria-servodio",
@@ -62506,7 +61719,9 @@
 ]
 }
 ],
-"treeId": 4505010
+"treeId": 4505010,
+"place": "Arpaia, Italy",
+"rel": "relative"
 },
 {
 "slug": "antonio-servodio",
@@ -62538,16 +61753,7 @@
 }
 ],
 "spouses": [],
-"children": [
-{
-"slug": "lisamarie-servodio",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "maria-servodio",
@@ -62566,33 +61772,9 @@
 ]
 }
 ],
-"treeId": 4505009
-},
-{
-"slug": "lisamarie-servodio",
-"name": "[withheld]",
-"surname": "SERVODIO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "antonio-servodio",
-"name": "Antonio Servodio",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [],
-"treeId": 4506205
+"treeId": 4505009,
+"place": "Arpaia, Italy",
+"rel": "relative"
 },
 {
 "slug": "maria-michela-servodio",
@@ -62676,14 +61858,6 @@
 "vias": [
 "tree"
 ]
-},
-{
-"slug": "raffaela-smith",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
 }
 ],
 "siblings": [
@@ -62704,7 +61878,9 @@
 ]
 }
 ],
-"treeId": 4000228
+"treeId": 4000228,
+"place": "Arpaia, Italy",
+"rel": "relative"
 },
 {
 "slug": "michele-servodio",
@@ -62766,101 +61942,6 @@
 "d": "June 13 2021",
 "bp": "Italy",
 "dp": "Brisbane QLD, Australia"
-},
-{
-"slug": "samantha-servodio",
-"name": "[withheld] (Dreghorn)",
-"surname": "SERVODIO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "angelo-servodio",
-"name": "Angelo Servodio",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "anna-bucolo",
-"name": "Anna Bucolo (Servodio)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [
-{
-"slug": "bobby",
-"name": "Bobby",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [
-{
-"slug": "sara-servodio",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4505013
-},
-{
-"slug": "sara-servodio",
-"name": "[withheld]",
-"surname": "SERVODIO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "angelo-servodio",
-"name": "Angelo Servodio",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "anna-bucolo",
-"name": "Anna Bucolo (Servodio)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "samantha-servodio",
-"name": "[withheld] (Dreghorn)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4505012
 },
 {
 "slug": "grazia-sgambato",
@@ -63002,7 +62083,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "raffaele-falco",
@@ -63070,7 +62151,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -63116,14 +62197,6 @@
 "vias": [
 "tree"
 ]
-},
-{
-"slug": "raffaela-smith",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
 }
 ],
 "siblings": [],
@@ -63136,49 +62209,6 @@
 },
 "d": "Mar 19 2020",
 "bp": "Napoli"
-},
-{
-"slug": "raffaela-smith",
-"name": "[withheld]",
-"surname": "SMITH",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "franco-smith",
-"name": "Franco Smith",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "maria-servodio",
-"name": "Maria Servodio (Smith)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "rosa-smith",
-"name": "Rosa Smith (deRoo)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4506208
 },
 {
 "slug": "rosa-smith",
@@ -63219,35 +62249,11 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "gabriel-de-roo",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "bruce-de-roo",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [
-{
-"slug": "raffaela-smith",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4506207
+"children": [],
+"siblings": [],
+"treeId": 4506207,
+"place": "Turin, Italy",
+"rel": "relative"
 },
 {
 "slug": "antonio-sorgente-of-crescenzo-falco-angela-maria-morgi",
@@ -63598,26 +62604,11 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "luka-calahorra",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "jack-calahorra",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [],
-"treeId": 4503059
+"treeId": 4503059,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "catarina-surname-unread",
@@ -66188,12 +65179,20 @@
 "household": "Angelo Zampiello & Giuseppa Ferraro",
 "hid": "angelo-zampiello-giuseppa-ferraro",
 "role": "child",
-"events": [],
+"events": [
+{
+"event": "named",
+"date": "—",
+"place": "—",
+"evidence": "LIVING — named, and nothing more, under this archive's standing rule",
+"ark": "data/myheritage-facts.tsv"
+}
+],
 "sources": [
 "register",
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "angelo-zampiello",
@@ -66727,7 +65726,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "raffaele-falco",
@@ -66812,7 +65811,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "vince-zavalia",
@@ -66855,7 +65854,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "vince-zavalia",
@@ -66898,7 +65897,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -67310,7 +66309,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -67353,21 +66352,13 @@
 "sources": [
 "tree"
 ],
-"living": true,
-"parents": [
-{
-"slug": "samantha-servodio",
-"name": "[withheld] (Dreghorn)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"living": false,
+"parents": [],
 "spouses": [],
 "children": [],
 "siblings": [],
-"treeId": 4505015
+"treeId": 4505015,
+"noKin": "no-edge-recorded"
 },
 {
 "slug": "cooper",
@@ -67379,7 +66370,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "shane",
@@ -67422,7 +66413,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "jennifer-militano",
@@ -67457,7 +66448,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "clementtina-schettini",
@@ -67492,7 +66483,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "rowan-hale",
@@ -67535,7 +66526,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "rowan-hale",
@@ -67578,7 +66569,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [
 {
@@ -67621,7 +66612,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "shane",
@@ -67664,7 +66655,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "jennifer-militano",
@@ -67699,7 +66690,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [],
 "spouses": [],
 "children": [
@@ -67733,7 +66724,7 @@
 "sources": [
 "tree"
 ],
-"living": true,
+"living": false,
 "parents": [
 {
 "slug": "clementtina-schettini",

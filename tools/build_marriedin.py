@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """Every family that married into this line, built from the family tree.
 
-The public build never names the living, so this only carries the dead. Each
-surname keeps its places, its date span, the marriages that joined it to the
-line, and an honest count of how many of its people are withheld."""
+A living person (80 or younger with no death recorded — the kit's one rule,
+applied by tools/build_people.py) is named here with their relationships and
+their town and country, and nothing more: no date, no record. A possible minor
+is held out and appears nowhere. Who is living and who is held out is READ from
+site/src/data/people.json, not decided in this file."""
 import json, re, collections, os
 
 TREE = json.load(open("data/myheritage-falco-tree.json"))
-byid = {p["id"]: p for p in TREE}
 
 # The slug of each person, taken from the file build_people.py already wrote and
 # keyed on the tree id both builds share. It is joined on the ID, never on the
@@ -17,14 +18,28 @@ byid = {p["id"]: p for p in TREE}
 # on a name.
 SLUG = {}
 ARCH = {}
-try:
-    _pj = json.load(open("site/src/data/people.json"))
-    for _r in (_pj if isinstance(_pj, list) else _pj.get("people", [])):
-        if _r.get("treeId") is not None:
-            SLUG[_r["treeId"]] = _r["slug"]
-            ARCH[_r["treeId"]] = _r
-except FileNotFoundError:
-    pass          # people.json is built first; a missing one just means no links
+_pj = json.load(open("site/src/data/people.json"))        # build_people.py runs first
+for _r in (_pj if isinstance(_pj, list) else _pj.get("people", [])):
+    if _r.get("treeId") is not None:
+        SLUG[_r["treeId"]] = _r["slug"]
+        ARCH[_r["treeId"]] = _r
+if not ARCH:
+    raise SystemExit("build_marriedin: people.json holds no tree people — run build_people.py first")
+
+def _is_placeholder(n):
+    n = re.sub(r",? ?[✔⭐]+", "", n or "").strip()
+    return (not n) or n.lower().startswith("unknown") or "[" in n
+
+# A tree person who is not a placeholder and has no record in people.json is held
+# out (a possible minor): they are removed from this build altogether, and so are
+# the edges to them, so that nothing here can name them or be reached through them.
+HELD = {p["id"] for p in TREE if not _is_placeholder(p.get("name")) and p["id"] not in ARCH}
+TREE = [p for p in TREE if p["id"] not in HELD]
+byid = {p["id"]: p for p in TREE}
+print(f"  held out of this page: {len(HELD)}")
+
+def _living(pid):
+    return bool((ARCH.get(pid) or {}).get("living"))
 
 # WHERE THE TREE IS SILENT, THE ARCHIVE SPEAKS — 22 September 2026.
 #
@@ -90,8 +105,8 @@ SPOUSE = {"His wife", "Her husband", "His ex-wife", "Her ex-husband",
 # Descent instead:
 #   BLOOD    born Falco, or descended from someone who was. A Falco daughter's
 #            children are Falco by blood whatever surname they carry — which is
-#            how Mia and Rocco Mazza qualify, through their great-grandmother
-#            Giuseppina Falco.
+#            how a Mazza descendant qualifies, through a great-grandmother who
+#            was born a Falco.
 #   MARRIED  married somebody in BLOOD.
 #   KIN      the blood family a MARRIED person came from — their parents,
 #            siblings and descendants. This is what "the Annecchino" means.
@@ -151,16 +166,18 @@ for p in TREE:
         continue
     g = groups[sn]
     g["reach"][reach(p["id"])] += 1
-    if p.get("alive"):
-        g["withheld"] += 1
-        g["withheldNames"].add(re.sub(r",? ?[✔⭐]+", "", p["name"]).strip())
-        # A LIVING PERSON IS NAMED AND NOTHING MORE — which includes being named
-        # as somebody's wife. Skipping these entirely is how Bucolo came to show
-        # seven people and no marriage at all: its three Bucolo women married
-        # Anthony Falco, Angelo Falco and Angelo Servodio, all six are living, so
-        # every one of those marriages was dropped and the family that genuinely
-        # married in looked like a family that had married nobody. A name and a
-        # relationship is exactly what the rule permits; no date, no place.
+    if _living(p["id"]):
+        # A LIVING PERSON IS NAMED WITH THEIR RELATIONSHIPS AND THEIR TOWN AND
+        # COUNTRY — a name, a page, a place — and nothing more. No date, so the
+        # family's date span ignores them; and the marriages that joined their
+        # family to this one are recorded, as they always were.
+        if not _is_placeholder(p.get("name")):
+            g["people"].append({
+                "name": re.sub(r",? ?[✔⭐]+", "", p["name"]).strip(),
+                "slug": SLUG.get(p["id"], ""),
+                "b": "", "bp": ARCH[p["id"]].get("place", ""),
+                "d": "", "dp": "", "living": True,
+            })
         for r in p.get("relatives", []):
             if r["rel"] not in SPOUSE:
                 continue
@@ -207,7 +224,7 @@ for p in TREE:
                     "to": re.sub(r",? ?[✔⭐]+", "", o["name"]).strip(),
                     "toSlug": SLUG.get(o["id"], ""),
                     "into": osn,
-                    "living": bool(o.get("alive"))})
+                    "living": _living(o["id"])})
 
 # --- the Nudgee Cemetery burials: documented dead the tree marks as living ---
 import csv
