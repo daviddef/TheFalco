@@ -87,6 +87,12 @@ if bare:
           f"nothing here can verify those, and they are counted so the number is visible")
 for kind, hid, who, what in problems:
     print(f"    {'FAIL ' if kind != 'NO ARK' else 'note '} {kind}: {who} ({hid}) — {what}")
+# ZERO IS A FAILURE TO LOOK (swept 17 October 2026): with no manifest on disk, or no citation found, every
+# test above is vacuously true and this printed «clean».
+if not ark_of or not checked:
+    print(f"  check_fscite: REFUSING — {checked} citation(s) were checked against {len(ark_of)} image arks, so "
+          f"«every cited ark is the one its volume gives» would be a verdict on nothing.")
+    sys.exit(1)
 if fails:
     print(f"  check_fscite: {fails} citation(s) point where the volume does not")
     sys.exit(1)

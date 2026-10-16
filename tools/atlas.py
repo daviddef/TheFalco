@@ -78,7 +78,17 @@ def main():
             "films": list(films.get(name, {}).values())[:40],
             "nfilms": len(films.get(name, {})),
         })
-    atlasdata.build(rows, OUT, countries=["Italia","Italy","Australia"])
+    stats = atlasdata.build(rows, OUT, countries=["Italia","Italy","Australia"])
+    # A PRINTED COUNT IS NOT A GATE (swept 17 October 2026). «1 without a coordinate» was printed and the
+    # build went on; and with no places at all there was nothing to print and nothing to fail.
+    if not stats["places"]:
+        print("atlas: REFUSING — no place was placed, so the map would be empty.")
+        return 1
+    if stats["unplaced"]:
+        print(f"atlas: REFUSING — {stats['unplaced']} place(s) have no coordinate or lie outside the expected "
+              f"countries; give each a gazetteer name or remove it.")
+        return 1
+    return 0
 
 if __name__ == "__main__":
     sys.exit(main())

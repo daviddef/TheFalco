@@ -919,11 +919,11 @@
   },
   {
    "n": 106,
-   "what": "FIND CARMINE FALCO'S MILITARY SERVICE, IF HE SERVED — the family has an army photograph; no paper says where or when.",
+   "what": "FIND CARMINE FALCO'S MILITARY SERVICE, IF HE SERVED — run the Benevento archive's online ruoli index (FALCO Carmine, classe 1930, Forchia).",
    "state": "next",
    "owner": "this archive, with the family",
    "since": "2026-10-13",
-   "note": "**A photograph is the only evidence.** If he served in the Italian army, the conscription lists (*liste di leva*) and the *ruolo matricolare* of the military district for his birth class are the papers that would give the date, the corps and the place. Which district holds the 1930 class for Forchia has not been looked up, and **no archive is named here on a guess**. The family may know the unit and the town; the building in the photograph, with its arcaded yard, may be recognisable to someone who does."
+   "note": "**A photograph is still the only evidence — but the papers are now located.** Antenati has no military series; the Caserta district's index shows no Forchia-born man, so he was probably enrolled at Benevento *(inferred)*. **The next step is a search nobody has run:** the Archivio di Stato di Benevento's online *indice onomastico* of the ruoli matricolari, by name, class and birthplace; its range reaches class 1931. **The fuller foglio matricolare is at the Army's document office (Caserta or Naples), and for a man who died in 2026 it needs his heirs' request, consent and an atto di notorietà** — which this archive cannot make for them. Everything on this row was read through web-archive snapshots (the sites refused live connections) and is a lead, not a finding; the full account, with the two draft requests, is in `notes/carmine-falco-military-service-leads.md`."
   }
  ]
 }

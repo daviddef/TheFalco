@@ -58,6 +58,12 @@ RETIRED = [
 
 fails = []
 H = load("households.json")
+# ZERO IS A FAILURE TO LOOK (swept 17 October 2026): with households.json = [] this gate printed
+# «clean — no retired reading is still standing» having examined no household at all.
+if not H:
+    sys.exit("check_corrections: REFUSING — households.json holds ZERO households, so «no retired reading "
+             "is still standing in the data» would be a verdict on nothing.")
+print(f"check_corrections: EXAMINED {len(H)} households, {sum(len(h['members']) for h in H)} members")
 for rule in RETIRED:
     rule_name, household, why = rule[0], rule[1], rule[2]
     only = rule[3] if len(rule) > 3 else None

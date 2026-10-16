@@ -45,6 +45,11 @@ load = lambda n: json.load(open(os.path.join(DATA, n), encoding="utf-8"))
 # ---------------------------------------------------------------- the facts
 searched = load("searched.json")
 fams     = load("families.json")["families"]
+# ZERO IS A FAILURE TO LOOK (swept 17 October 2026): with searched.json = [] every derived fact is 0 and
+# the gate printed «clean»; with no pages it read nothing. Neither can be true of this archive.
+if not PAGES or not searched or not fams:
+    sys.exit(f"check_prose: REFUSING — it was handed {len(PAGES)} page(s), {len(searched)} searched row(s) and "
+             f"{len(fams)} families, so «no page contradicts the data» would be a verdict on nothing.")
 
 def _tagged(tag):
     return [r for r in searched if tag in (r.get("tags") or [])]

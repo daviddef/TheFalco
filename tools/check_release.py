@@ -78,6 +78,14 @@ def main():
                  f"(ARCHIVE_OUT={os.environ.get('ARCHIVE_OUT') or 'unset'})")
 
     people = load("people.json")
+    # ZERO IS A FAILURE TO LOOK (the Booyzen/Lerena pattern, swept 17 October 2026). Pointed at an
+    # EMPTY build this gate printed «clean» having read nothing, and with people.json = [] it had no
+    # living person to guard and said «clean» again. A built archive has thousands of pages and
+    # hundreds of people; neither number can honestly be zero.
+    _n_pages = len(glob.glob(os.path.join(DIST, "**", "index.html"), recursive=True))
+    if _n_pages == 0 or not people:
+        sys.exit(f"check_release: REFUSING — it was handed {_n_pages} built page(s) and {len(people)} "
+                 f"people, so «no living person is exposed» would be a verdict on nothing.")
     def _alive(rows):
         """Who this gate treats as living. A function so the self-test below
         runs THE REAL detection rather than a copy of it."""
