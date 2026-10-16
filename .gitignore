@@ -25,3 +25,6 @@ site/public/atlas-data.json
 # scoped `git add` picks up another session's work, which has happened in this
 # estate more than once tonight.
 site/dist-*/
+
+# The prose gate's feed of living names (tools/build_checkprose_feed.py). Names inside: never commit.
+private/

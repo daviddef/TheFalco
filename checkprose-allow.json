@@ -1,0 +1,14 @@
+[
+ {
+  "file": "site/src/data/corrections.json",
+  "phrase": "giuseppina falco",
+  "year": "1955",
+  "reason": "the year is about somebody else in the same entry: record [59] (13 Sep 2026) says that a year printed beside tree id 4000007, who is living, was removed and now belongs to the marriage of generation eight, two people who are dead. The entry is the record of that removal."
+ },
+ {
+  "file": "data/antenati-valle-caudina.tsv",
+  "phrase": "giuseppina falco",
+  "year": "1940",
+  "reason": "a historical namesake: two Antenati index rows (lines 732 and 734, volume an_ud1198220 and an_ud1198223) are the death act of a woman of Arpaia who died in 1940; tree id 4000007 is a living person who shares the name. The record is a public civil-register index row, not the tree person's."
+ }
+]
