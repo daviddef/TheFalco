@@ -6,6 +6,7 @@ import register from "../data/register.json";
 import households from "../data/households.json";
 import line from "../data/line.json";
 import { findPerson } from "../lib/people.js";
+import { stats } from "../lib/familystats.js";
 
 const rows = (sn) => register.filter((r) => r.surname === sn).length;
 /* 22 September 2026. «Eleven families» was typed in the eyebrow and the
@@ -50,8 +51,11 @@ const slugify = (x) =>
   String(x).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
+const handWritten = fams.families.filter((f) => !f.derived);
+const derived = fams.families.filter((f) => f.derived);
+
 const groups = [{
-  rows: fams.families.map((f) => ({
+  rows: handWritten.map((f) => ({
     label: f.name,
     count: rows(f.sn),
     countLabel: "records",
@@ -73,9 +77,32 @@ const groups = [{
   })),
 }];
 
+const otherGroups = [{
+  /* 17 October 2026. Families the archive has researched but no marriage into the direct
+     line carried onto the page above. They come from the same people.json, through the
+     same page template, and say only what can be counted: no prose of the research
+     owner's is added or restated. */
+  rows: derived.map((f) => {
+    const st = stats(f);
+    return {
+      label: f.name,
+      count: st.ours.length,
+      countLabel: st.ours.length === 1 ? "person" : "people",
+      gloss: `<strong>${st.yFrom ? `Dated ${st.yFrom} to ${st.yTo}` : "No dated entries"}</strong>` +
+        (st.ours.length ? ` &mdash; ${st.nRecord} read from records, ${st.nTree} from the family tree only` +
+          (st.nLiving ? `, ${st.nLiving} living` : "") : ""),
+      facts: st.placesSorted.length
+        ? [["Where", st.placesSorted.slice(0, 4).map(([t, n]) => `${t} (${n})`).join(", ")]]
+        : [],
+      href: `/families/${slugify(f.sn)}/`,
+      hrefLabel: "Everyone of the name",
+    };
+  }),
+}];
+
 ---
 <Base title="The families"
-      eyebrow={`${WORD[fams.families.length] || fams.families.length} families, not one surname`}
+      eyebrow={`${WORD[handWritten.length] || handWritten.length} families, not one surname`}
       dek="A family history that follows only one surname is half a history. These are the families the Falco married — what is known of each in its own right, how often they married in, and where the evidence for them stops.">
 
   <div class="card" style="border-left:3px solid var(--accent)">
@@ -91,7 +118,7 @@ const groups = [{
     <Families groups={groups} u={u} />
   </section>
 
-  <section class="blk" style="border-bottom:0">
+  <section class="blk">
     <h2>Families married by the collaterals</h2>
     <p class="dek">Beyond the ten above, the Falco households this archive has reconstructed also
     married <strong>Loffreda</strong> (Francesco Falco × Antonia Loffreda), <strong>Mara</strong>
@@ -101,5 +128,15 @@ const groups = [{
     <p class="small" style="margin-top:.8rem">Every person named on this page has a page of their own
     at <a href={u("/people/")}>The people</a>, or an entry with its source at
     <a href={u("/register/")}>The register</a>.</p>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>Other families this archive has researched</h2>
+    <p class="dek">These are not among the twelve above. A family is here because the archive names
+    eight or more people of the name, or because its own work list or open questions are about it:
+    {derived.reduce((a, f) => a + stats(f).ours.length, 0)} people in all. Each page is built from the
+    register alone &mdash; a count, the years, the places, the households and the archive&rsquo;s own
+    titles &mdash; and is not a finding.</p>
+    <Families groups={otherGroups} u={u} />
   </section>
 </Base>

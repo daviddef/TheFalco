@@ -26,6 +26,12 @@ import Descent from "@daviddef/archive-kit/components/Descent.astro";
 import { u, plainHref } from "../../lib/url.js";
 import fams from "../../data/families.json";
 import { people } from "../../lib/people.js";
+import { stats, norm } from "../../lib/familystats.js";
+import worklist from "../../data/worklist.json";
+import questions from "../../data/questions.json";
+import corrections from "../../data/corrections.json";
+import marriedIn from "../../data/married-in.json";
+import { GROUPS, primary } from "../../lib/marriedin.js";
 
 /* Astro hoists getStaticPaths and runs it on its own, so a const declared
    in the frontmatter is not in scope inside it. Defined where it is used. */
@@ -53,9 +59,9 @@ const { fam } = Astro.props;
 const B = u("/");
 const fixHref = (x) => plainHref(x).replace(/href=(['"])\//g, `href=$1${B}`);
 
-const norm = (s) =>
-  String(s || "").trim().toUpperCase()
-    .replace(/^(DI|DE|DEL|DELLA|DELLO|DEI|LA|LO)\s+/, "");
+const slugOf = (x) =>
+  String(x).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const P_BY_SLUG = new Map(people.map((q) => [q.slug, q]));
 const lifeOf = (q) => [q && q.b, q && q.d].filter(Boolean).join(" – ");
 
@@ -89,13 +95,9 @@ const card = (c) => {
    variants in families.json. Nothing is normalised algorithmically and no two
    records are merged: an archive that refuses to merge people on a name must
    not fold surnames by an ending rule either. */
-const names = [fam.sn, ...(fam.also || [])].map(norm);
-const ours = people
-  .filter((p) => names.includes(norm(p.surname)))
-  .sort((a, b) => {
-    const y = (x) => Number((String(x.b || "").match(/\b(1[5-9]\d\d|20\d\d)\b/) || [])[1] || 9999);
-    return y(a) - y(b);
-  });
+/* `names`, `ours` and every figure below come from lib/familystats.js, which the
+   /families/ index card shares: one computation, not two. */
+const { names, ours, dead, nLiving, nRecord, nTree, yFrom, yTo, placesSorted } = stats(fam);
 
 const rows = ours.map((p) => {
   const sp = (p.spouses || [])[0] || null;
@@ -116,23 +118,147 @@ const rows = ours.map((p) => {
     herSiblings: her ? (her.siblings || []).map(card) : [],
     hisLabel: String(p.name).split(" ")[0] + "’s",
     herLabel: sp ? String(sp.name).split(" ")[0] + "’s" : "Theirs",
-    confidence: p.living ? "living" : ((p.sources || []).length ? "a record has been read" : ""),
+    /* «a record has been read» was printed for ANY sourced person, and a person whose only
+       source is the family tree has no record read for them. 17 October 2026: the pill now
+       says which, in the archive's own words for the tree («unverified unless a record is
+       cited»). */
+    confidence: p.living ? "living"
+      : (p.sources || []).includes("register") ? "a record has been read"
+      : (p.sources || []).length ? "family tree only, unverified" : "",
   };
 });
+
+
+/* A FAMILY PAGE BUILT FROM THE DATA ALONE (17 October 2026).
+ *
+ * The twelve hand-written families carry prose the research owner wrote. The ones
+ * flagged `derived` in families.json carry NONE: every sentence below is a count, a
+ * range or a list computed from people.json and the archive's own registers, and a
+ * title the archive already published (a work-list row, an open question, a
+ * correction). Nothing here says a thing the archive has not already recorded.
+ * Who is living is people.json's `living` (the kit's one test, applied by
+ * build_people.py); a living person is counted, named in the rows above by name and
+ * town only, and contributes no date, place of record, or source to any figure. */
+const plain = (t) => String(t || "").replace(/[*`]/g, "").replace(/\s+/g, " ").trim();
+const houseCount = new Map();
+for (const p of dead) if (p.household) houseCount.set(p.household, (houseCount.get(p.household) || 0) + 1);
+const housesSorted = [...houseCount].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+
+/* The families it is joined to: the surname on the other side of every spouse, parent
+   and child recorded for a person of this name. */
+const famPage = new Map();
+const famLabel = new Map();
+for (const g of fams.families) {
+  for (const n of [g.sn, ...(g.also || [])]) {
+    famPage.set(norm(n), `/families/${slugOf(g.sn)}/`);
+    famLabel.set(norm(n), g.name);
+  }
+}
+famPage.set("FERRARA", "/ferrara/");
+famLabel.set("FERRARA", "Ferrara");
+/* «D'IGLIO», «CASOLLA / CASELLA»: the register files surnames in capitals. */
+const nice = (t) => String(t).toLowerCase().replace(/(^|[\s\/'])([a-z\u00e0-\u00ff])/g, (m, a, b) => a + b.toUpperCase());
+const joined = new Map();
+for (const p of dead) {
+  for (const bucket of ["spouses", "parents", "children"]) {
+    for (const e of p[bucket] || []) {
+      const q = P_BY_SLUG.get(e.slug);
+      const sn = q && String(q.surname || "").trim();
+      if (!sn || sn === "\u2014" || sn === "?" || names.includes(norm(sn))) continue;
+      const k = famPage.get(norm(sn)) || norm(sn);
+      const cur = joined.get(k) || { label: famLabel.get(norm(sn)) || nice(sn), href: famPage.get(norm(sn)) || null, n: 0 };
+      cur.n += 1;
+      joined.set(k, cur);
+    }
+  }
+}
+const joinedSorted = [...joined.values()].sort((a, b) => b.n - a.n || a.label.localeCompare(b.label));
+
+const couples = [];
+const seenCouple = new Set();
+for (const p of dead) {
+  for (const e of p.spouses || []) {
+    const q = P_BY_SLUG.get(e.slug);
+    if (!q || q.living) continue;
+    const key = [p.slug, q.slug].sort().join("|");
+    if (seenCouple.has(key)) continue;
+    seenCouple.add(key);
+    couples.push({ a: p, b: q });
+  }
+}
+
+const hasName = new RegExp("\\b(" + [fam.name, ...(fam.also || [])]
+  .map((x) => String(x).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|") + ")\\b", "i");
+const ownWork = {
+  worklist: worklist.rows.filter((r) => hasName.test(r.what)),
+  questions: questions.filter((x) => hasName.test(x.q)),
+  corrections: corrections.filter((c) => hasName.test(c.what || "") || (String(c.was || "").length <= 140 && hasName.test(c.was)))
+    .sort((a, b) => String(b.when).localeCompare(String(a.when))),
+};
+const shortCorr = (c) => {
+  const w = plain(c.was), n = plain(c.now);
+  if (hasName.test(c.what || "")) return plain(c.what);
+  return w.length <= 140 && n.length <= 140 ? `${plain(c.what)}: ${w} → ${n}` : plain(c.what);
+};
+const filed = (marriedIn || []).find((g) => [fam.name, ...(fam.also || [])].map(norm)
+  .includes(norm(String(g.surname).split(" / ")[0])));
+const filedLabel = filed ? (GROUPS.find((g) => g.key === primary(filed)) || {}).label : null;
+const MORE = 12;
 
 const marriages = (fam.into || []).length;
 ---
 <Base
   title={fam.name}
   eyebrow={`${rows.length} of the name`}
-  dek={fam.times}>
+  dek={fam.derived
+    ? `${rows.length} ${rows.length === 1 ? "person" : "people"} of the name ${fam.name} in this archive${yFrom ? `, dated ${yFrom} to ${yTo}` : ""}${placesSorted.length ? `, most often at ${placesSorted[0][0]}` : ""} \u2014 counted from its own register.`
+    : fam.times}>
 
-  <section class="blk">
-    <p class="lede" set:html={fixHref(fam.body)} />
-    {fam.note ? <p set:html={fixHref(fam.note)} /> : null}
-    {fam.where ? <p class="dek"><strong>Where.</strong> {fam.where}</p> : null}
-    <p class="cap"><a href={u("/families/")}>&larr; All twelve families, and the marriages that carried them in</a></p>
-  </section>
+  {fam.derived ? (
+    <section class="blk">
+      <p class="lede">This archive names <strong>{rows.length}</strong> {rows.length === 1 ? "person" : "people"}
+      of the name <strong>{fam.name}</strong>{(fam.also || []).length ? ` (also written ${(fam.also || []).map(nice).join(", ")})` : ""}{"."}
+      {dead.length > 0 ? (
+        <Fragment> Of the {dead.length} who {dead.length === 1 ? "is" : "are"} not living,
+        <strong> {nRecord}</strong> {nRecord === 1 ? "is" : "are"} read from records the archive holds and
+        <strong> {nTree}</strong> {nTree === 1 ? "appears" : "appear"} only in the family tree.</Fragment>
+      ) : null}
+      {yFrom ? ` The dated entries run from ${yFrom} to ${yTo}.` : " None of them carries a date in the archive."}</p>
+      {nLiving > 0 ? (
+        <p class="small">{nLiving} {nLiving === 1 ? "is" : "are"} living, and {nLiving === 1 ? "is" : "are"} shown by name,
+        relationships and town and country, and nothing more.</p>
+      ) : null}
+      {placesSorted.length > 0 ? (
+        <p class="dek"><strong>Where.</strong> {placesSorted.slice(0, 6).map(([t, n]) => `${t} (${n})`).join(", ")}
+        &mdash; the places the records name, with the number of people each is named for.</p>
+      ) : null}
+      {filed ? (
+        <p class="dek"><strong>On <a href={u("/marriages/")}>The Marriages</a>:</strong> filed under
+        &laquo;{filedLabel}&raquo;.</p>
+      ) : null}
+      <p class="cap"><a href={u("/families/")}>&larr; All the families</a></p>
+    </section>
+  ) : (
+    <section class="blk">
+      <p class="lede" set:html={fixHref(fam.body)} />
+      {fam.note ? <p set:html={fixHref(fam.note)} /> : null}
+      {fam.where ? <p class="dek"><strong>Where.</strong> {fam.where}</p> : null}
+      <p class="cap"><a href={u("/families/")}>&larr; All twelve families, and the marriages that carried them in</a></p>
+    </section>
+  )}
+
+  {fam.derived && (
+    <section class="blk">
+      <h2>How we know</h2>
+      <p class="dek">Nothing on this page is a finding. It is this archive&rsquo;s own data, counted and
+      listed: the register of the people it names, the households it has reconstructed, and the work
+      it has already published about the name. A person read from a record is marked
+      <em> a record has been read</em>; a person who appears only in the family tree is marked
+      <em> family tree only, unverified</em>, because this archive treats the tree as unverified
+      unless a record is cited. A shared surname is not a relationship: nothing is merged on a name,
+      and who belongs to whom is on each person&rsquo;s own page.</p>
+    </section>
+  )}
 
   {marriages > 0 && (
     <section class="blk">
@@ -141,10 +267,53 @@ const marriages = (fam.into || []).length;
         <thead><tr><th>Generation</th><th>Falco</th><th>married</th></tr></thead>
         <tbody>
           {(fam.into || []).map(([g, a, b]) => (
-            <tr><td class="mono">{g === "—" ? "collateral" : "gen " + g}</td><td>{a}</td><td>{b}</td></tr>
+            <tr><td class="mono">{g === "\u2014" ? "collateral" : "gen " + g}</td><td>{a}</td><td>{b}</td></tr>
           ))}
         </tbody>
       </table></div>
+    </section>
+  )}
+
+  {fam.derived && couples.length > 0 && (
+    <section class="blk">
+      <h2>Marriages recorded</h2>
+      <div class="scroll"><table>
+        <thead><tr><th>Of the name</th><th>married</th><th>Her or his family</th></tr></thead>
+        <tbody>
+          {couples.map(({ a, b }) => (
+            <tr>
+              <td><a href={u("/people/" + a.slug)}>{a.name}</a></td>
+              <td><a href={u("/people/" + b.slug)}>{b.name}</a></td>
+              <td>{famPage.get(norm(b.surname)) ? <a href={u(famPage.get(norm(b.surname)))}>{famLabel.get(norm(b.surname))}</a> : nice(b.surname)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table></div>
+    </section>
+  )}
+
+  {fam.derived && joinedSorted.length > 0 && (
+    <section class="blk">
+      <h2>The families they are joined to</h2>
+      <p class="dek">The surname on the other side of each marriage, parent and child recorded for
+      this name, with how many such links the register holds.</p>
+      <ul>
+        {joinedSorted.map((j) => (
+          <li>{j.href ? <a href={u(j.href)}>{j.label}</a> : j.label}
+            <span class="small"> &mdash; {j.n}</span></li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {fam.derived && housesSorted.length > 0 && (
+    <section class="blk">
+      <h2>Households they appear in</h2>
+      <p class="dek">The reconstructed households that include a person of the name, with how many
+      of them are in each. <a href={u("/households/")}>All the households &rarr;</a></p>
+      <ul>
+        {housesSorted.map(([h, n]) => <li>{h} <span class="small">&mdash; {n}</span></li>)}
+      </ul>
     </section>
   )}
 
@@ -170,4 +339,48 @@ const marriages = (fam.into || []).length;
       </Fragment>
     )}
   </section>
+
+  {fam.derived && (ownWork.worklist.length + ownWork.questions.length + ownWork.corrections.length) > 0 && (
+    <section class="blk">
+      <h2>What the archive has already written about them</h2>
+      <p class="dek">Titles from the archive&rsquo;s own registers, as published there &mdash; not
+      restated here.</p>
+      {ownWork.worklist.length > 0 && (
+        <Fragment>
+          <h3>On <a href={u("/worklist/")}>the work list</a></h3>
+          <ul>
+            {ownWork.worklist.slice(0, MORE).map((r) => <li>Row {r.n} ({r.state}): {plain(r.what)}</li>)}
+          </ul>
+        </Fragment>
+      )}
+      {ownWork.questions.length > 0 && (
+        <Fragment>
+          <h3>In <a href={u("/open-questions/")}>the open questions</a></h3>
+          <ul>
+            {ownWork.questions.slice(0, MORE).map((x) => <li>{plain(x.q)}</li>)}
+          </ul>
+        </Fragment>
+      )}
+      {ownWork.corrections.length > 0 && (
+        <Fragment>
+          <h3>In <a href={u("/corrections/")}>the corrections</a></h3>
+          <ul>
+            {ownWork.corrections.slice(0, MORE).map((c) => <li><span class="mono small">{c.when}</span> {shortCorr(c)}</li>)}
+          </ul>
+          {ownWork.corrections.length > MORE ? (
+            <p class="small">{ownWork.corrections.length} corrections name them; the {MORE} most recent are listed.
+            <a href={u("/corrections/")}> All the corrections &rarr;</a></p>
+          ) : null}
+        </Fragment>
+      )}
+    </section>
+  )}
+
+  {fam.derived && (fam.see || []).length > 0 && (
+    <section class="blk" style="border-bottom:0">
+      <h2>Elsewhere in the archive</h2>
+      <p class="dek">Pages where the name is also written about:
+        {(fam.see || []).map(([h, l], i) => <Fragment>{i ? " \u00b7 " : " "}<a href={u(h)}>{l}</a></Fragment>)}.</p>
+    </section>
+  )}
 </Base>

@@ -544,6 +544,9 @@ header.site nav.topnav{display:flex;align-items:center;gap:1px;flex-wrap:nowrap}
 .topnav .panel{position:absolute;top:calc(100% + 8px);left:0;min-width:210px;z-index:70;
   background:var(--panel);border:1px solid var(--rule-strong);border-radius:12px;
   box-shadow:0 18px 44px rgba(10,20,26,.16);padding:8px;display:flex;flex-direction:column}
+/* a menu of more than 16 links (The families: 21 on 17 Oct 2026) is two columns, so it never runs
+   off the bottom of a laptop screen. */
+.topnav .panel.cols{display:grid;grid-template-columns:repeat(2,max-content);grid-template-rows:repeat(var(--rows),auto);grid-auto-flow:column;column-gap:6px}
 .topnav .panel a{font-family:var(--sans);font-size:13.5px;color:var(--ink-2);text-decoration:none;
   padding:7px 11px;border-radius:8px;white-space:nowrap}
 .topnav .panel a:hover{background:var(--accent-wash);color:var(--accent)}
