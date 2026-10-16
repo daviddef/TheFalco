@@ -2548,5 +2548,23 @@
    "Falco",
    "Index"
   ]
+ },
+ {
+  "when": "1956",
+  "searchedOn": "2026-10-17",
+  "provider": "naa",
+  "url": "https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/ViewImage.aspx?B=30139890&S=21",
+  "src": "**NAA K269 item 30139890 — page 21 of 29 read from the image** (Quarantine Service passenger list, ss Castel Bianco, Fremantle, 7 Nov 1956, from Genoa), reached as a guest through the Passenger Arrivals Index.",
+  "what": "The line for the one Carmine Falco in the 1956 index — page 21, the page the index link names.",
+  "got": "**Line 794, FALCO Carmine: Naples to Sydney, address «?6 Str. Warreg Valley».** The form has no age, birthplace or trade, so the page neither confirms nor contradicts the man born 1930 — it is consistent with him. No other Falco on the page; no other page read.",
+  "outcome": "found",
+  "tags": [
+   "NAA",
+   "Australia",
+   "Passenger arrivals",
+   "Falco"
+  ],
+  "walked": false,
+  "pages": "21"
  }
 ]

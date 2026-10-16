@@ -4345,5 +4345,15 @@
   "what": "A NEWSPAPER REPORT DATES CARMINE'S EMIGRATION TO 1956 — AND DATES FRANCESCA'S TO 1958, WHICH THE PASSENGER LIST CONTRADICTS",
   "was": "The 1956 arrival at Fremantle («Carmine Falco, ss Castel Bianco, 7 November 1956») was held as **«not yet proved to be him»**. Francesca's arrival was held as **26 March 1964**, from the passenger list of the ss Sydney that names her beside him.",
   "now": "The report of their fiftieth anniversary (January 2005) says «Mr Falco, a retired builder, emigrated to Australia in 1956» — **the year and the trade agree with the 1956 arrival**, which is now *supported by the family's own account, not proved*. It also says Francesca joined him **two years later**, which would be **1958** and does not fit a list that has them landing together in **1964**. **Neither is changed.** The list is the contemporary document; the report is a recollection forty-nine years on; and a passenger list gives a voyage, not a first arrival. Work-list row 105."
+ },
+ {
+  "when": "2026-10-17",
+  "sev": "finding",
+  "where": "/direct-line",
+  "plate": "castel-bianco-1956-carmine-falco-line-794.jpg",
+  "by": "reading page 21 of the 1956 Castel Bianco passenger list",
+  "what": "THE 1956 PASSENGER LIST «COULD NOT BE READ» — IT CAN, AND IT IS CONSISTENT WITH CARMINE AND PROVES NOTHING",
+  "was": "This archive's notes said the scan of the Castel Bianco list **«cannot be pulled»** — that the transfer died at 1,590,848 bytes and that the scans were progressive JPEGs which truncated to blank grey — and that the page \"would give his age\".",
+  "now": "**The page is a complete baseline JPEG of 1,590,848 bytes; the error fired after the last byte, and the earlier attempts threw the finished file away.** Page 21, line 794: **FALCO, Carmine — Naples to Sydney, address «?6 Str. Warreg Valley».** **The form has no age column**, so the page \"would give his age\" was also wrong: it can neither confirm nor contradict a birth in 1930. The identification stays **consistent, not proved**. The notes on how these scans are read have been corrected."
  }
 ]

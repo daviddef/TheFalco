@@ -37,7 +37,22 @@ Within that route:
 - **The viewer opens in a popup.** Clicking the link is blocked; assign `location.href` instead.
 - Searching two fields at once is fine; adding **Item ID** to a surname returns nothing.
 
-## Why the page is still not read
+## CORRECTION, 17 October 2026 — THE PAGE CAN BE READ, AND THE DIAGNOSIS BELOW WAS WRONG
+
+**1,590,848 bytes is the WHOLE FILE, not a cut.** Read from the listing page (same origin) with
+`fetch('/SearchNRetrieve/NAAMedia/ShowImage.aspx?B=30139890&S=21&T=P&R=0')` then `.arrayBuffer()`, the
+response is HTTP 200, `image/jpeg`, **1,590,848 bytes, FFD8…FFD9, start-of-frame 0xC0 — a BASELINE
+JPEG, not a progressive one**, 4316 × 3070, and it decodes to the page. The `ERR_QUIC_PROTOCOL_ERROR`
+fires at stream close, after every byte has arrived; `response.body.getReader()` surfaced it as a
+failure and the earlier attempts threw the finished file away. «Progressive JPEG» and «a proxy cap» were
+both inferences from that mistake. Route that worked: guest session → `PassengerSearch.aspx` (real
+inputs, real Search button) → listing page → fetch from there. The page's CSP still stops the bytes
+leaving the browser, so reading is by screenshot of the decoded image at about 800 px — enough for a
+typed list, not for a fine hand.
+
+*The section below is kept as it was written, because it records how a wrong measurement became a note:*
+
+## (SUPERSEDED) Why the page is still not read
 
 `/SearchNRetrieve/NAAMedia/ShowImage.aspx?B=30139890&S=21&T=P&R=0` returns
 
