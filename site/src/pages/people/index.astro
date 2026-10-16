@@ -6,7 +6,6 @@ import { u } from "../../lib/url.js";
 import { people } from "../../lib/people.js";
 import register from "../../data/register.json";
 import line from "../../data/line.json";
-import living from "../../data/living.json";
 import { writtenUp } from "../../lib/writtenup.js";
 
 const clean = (s) => String(s || "").replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
@@ -90,12 +89,15 @@ const rows = register.map((r) => {
   };
 });
 
-/* LIVING PEOPLE — names only. No dates, no places, no links: see tools/build_living.py. */
-for (const L of living) {
+/* LIVING PEOPLE — a name, a relationship, and their town and country. No dates, no
+   records: the standard of 16 October 2026 (version 2). Each has a page; the row
+   links to it where the name is theirs alone, and to the name page (which lists
+   them and links their page) where several people share it. */
+for (const L of people.filter((q) => q.living)) {
   rows.push({
     name: L.name, surname: L.surname, detail: "", source: "Family tree — living",
-    link: "", kind: "living", place: "—", attached: true, inTree: true,
-    inHousehold: false, myLine: L.rel !== "relative", rel: L.rel === "relative" ? "" : L.rel,
+    link: "", kind: "living", place: L.place || "—", attached: true, inTree: true,
+    inHousehold: false, myLine: !!L.rel && L.rel !== "relative", rel: L.rel === "relative" ? "" : (L.rel || ""),
     living: true, slug: slugByName.get(clean(L.name)),
   });
 }

@@ -34,15 +34,20 @@ const asRow = (g, which) => {
   const member = byGenPerson.get(g.gen);
   const wife = member && (member.spouses || [])[0];
   const rec = which === "f" ? member : (wife && bySlug.get(wife.slug)) || null;
+  /* A living person is drawn as a name, a link and a town and country: the
+     chart's own «living» switch (written for standard v1) would drop the place,
+     so it is not used; the row simply carries no dates, because there are none
+     in the data for a living person. */
+  const liv = rec ? !!rec.living : !!g.living;
   return {
     gen: g.gen, which, name,
-    born: which === "f" ? g.born : g.spouseBorn,
-    died: which === "f" ? g.died : null,
-    place: which === "f" ? g.bornPlace : "",
-    conf: g.confidence,
-    /* Link only a page that is actually built, and never a living person. */
-    slug: rec && !rec.living && bySlug.has(rec.slug) ? rec.slug : null,
-    living: rec ? !!rec.living : false,
+    born: liv ? "" : (which === "f" ? g.born : g.spouseBorn),
+    died: liv ? "" : (which === "f" ? g.died : null),
+    place: liv ? ((rec && rec.place) || "") : (which === "f" ? g.bornPlace : ""),
+    conf: liv ? "living" : g.confidence,
+    /* Link only a page that is actually built. A living person has one. */
+    slug: rec && bySlug.has(rec.slug) ? rec.slug : null,
+    liv,
   };
 };
 const byGen = new Map(gens.map((g) => [g.gen, g]));
@@ -57,8 +62,8 @@ const ancRoot = lineage(asRow(byGen.get(Math.max(...gens.map((g) => g.gen))), "f
   born: (r) => (String(r.born || "").match(/\d{4}/) || [""])[0],
   died: (r) => (String(r.died || "").match(/\d{4}/) || [""])[0],
   place: (r) => r.place || "",
-  living: (r) => r.living,
-  conf: (r) => (r.living ? "living" : r.conf === "documented" ? "doc" : "lore"),
+  living: () => false,
+  conf: (r) => (r.liv ? "living" : r.conf === "documented" ? "doc" : "lore"),
   extra: (r) => ({ slug: r.slug }),
   /* A wife is a leaf here, not a wall: her own family is followed on
      /families/, so drawing a dead end above her would claim the archive had
@@ -99,7 +104,8 @@ const rows = spine.map((p, i) => {
 
 const totalKids = rows.reduce((a, r) => a + r.others.length + (r.heir ? 1 : 0), 0);
 const dates = (r) => {
-  if (!r || r.living) return "";
+  if (r && r.living) return r.place || "";   // a living person: town and country, never a date
+  if (!r) return "";
   if (r.b && r.d) return `${r.b} – ${r.d}`;
   if (r.b) return `b. ${r.b}`;
   if (r.d) return `d. ${r.d}`;
@@ -144,16 +150,14 @@ const dates = (r) => {
         <div class="gmain">
           <div class="couple">
             <div class="node me">
-              {r.living ? <span class="nm">{r.p.name}</span>
-                        : <a class="nm" href={u("/people/" + r.p.slug)}>{r.p.name}</a>}
-              <span class="dt">{r.living ? "living — named only" : dates(r.p)}</span>
+              <a class="nm" href={u("/people/" + r.p.slug)}>{r.p.name}</a>
+              <span class="dt">{dates(r.p)}</span>
               {r.g.trade ? <span class="dt">{r.g.trade}</span> : null}
             </div>
             {r.spouses.map((s) => (
               <div class="node sp">
                 <span class="mar">married</span>
-                {s.rec && s.rec.living ? <span class="nm">{s.name}</span>
-                  : <a class="nm" href={u("/people/" + s.slug)}>{s.name}</a>}
+                <a class="nm" href={u("/people/" + s.slug)}>{s.name}</a>
                 <span class="dt">{dates(s.rec)}</span>
               </div>
             ))}
@@ -166,9 +170,7 @@ const dates = (r) => {
                   <span>{r.heir.name}</span><i>carried the line</i></a>
               ) : null}
               {r.others.map((c) => (
-                c.rec && c.rec.living
-                  ? <span class="kid dim">{c.name}</span>
-                  : <a class="kid" href={u("/people/" + c.slug)}>{c.name}</a>
+                <a class="kid" href={u("/people/" + c.slug)}>{c.name}</a>
               ))}
             </div>
           ) : (

@@ -29,17 +29,19 @@ import { people } from "../lib/people.js";
 
 /* No date may be printed beside a living person in this figure.
  *
- * The rule is David's and it is absolute: living people are named and nothing
- * more. This archive has now leaked generation nine's birth year THREE times —
- * once through a redaction function reused from the wrong place, once through
- * the timeline's geometry, and once here, in the first version of this very
- * component, written on 13 September 2026. Textual fixes did not hold, so the
- * guard is structural: the date is looked up against the person graph and
- * dropped if the person is living, whatever the data says. */
-const LIVING_NAMES = new Set(
-  people.filter((p) => p.living && p.name).map((p) => String(p.name).trim().toLowerCase()));
-const isLivingName = (n) => LIVING_NAMES.has(String(n || "").trim().toLowerCase());
-const safeDate = (name, date) => (isLivingName(name) ? "living — named only" : date);
+ * A living person is a name, their relationships and their town and country
+ * (the standard of 16 October 2026), and nothing else. This archive has leaked
+ * generation nine's birth year THREE times — once through a redaction function
+ * reused from the wrong place, once through the timeline's geometry, and once
+ * here, in the first version of this very component, written on 13 September
+ * 2026. Textual fixes did not hold, so the guard is structural: the date is
+ * looked up against the person graph and replaced, if the person is living, by
+ * their town and country, whatever the data says. */
+const LIVING_PLACE = new Map(
+  people.filter((p) => p.living && p.name).map((p) => [String(p.name).trim().toLowerCase(), p.place || ""]));
+const isLivingName = (n) => LIVING_PLACE.has(String(n || "").trim().toLowerCase());
+const safeDate = (name, date) =>
+  (isLivingName(name) ? (LIVING_PLACE.get(String(name).trim().toLowerCase()) || "living") : date);
 
 const Y_SPINE = 300;
 const A0 = 96, A1 = 520;              /* the Arienzo reach: seven generations */
@@ -68,7 +70,7 @@ const STOPS = [
     people: [["8", "Carmine Falco", "8 Jun 1930", "Forchia",
       "Born at Forchia, not Arienzo — the family had followed his mother's people. He married Francesca Zampiello at her home town of Arpaia on 15 January 1955."]] },
   { key: "arpaia", name: "Arpaia", x: X_ARPAIA, prov: "where they married", when: "1955",
-    people: [["9", "Giuseppina Falco", "living — named only", "—",
+    people: [["9", "Giuseppina Falco", "living", "—",
       "The spine reaches Arpaia because CARMINE FALCO AND FRANCESCA ZAMPIELLO MARRIED THERE ON 15 JANUARY 1955 — the Comune di Arpaia's own extract, act n. 1, says so; this diagram said Benevento until October 2026. The Zampiello tributary and this stop are the same town, as at Forchia. That is generation eight's date, and both of them are now dead. Generation nine is LIVING and is named here and nothing more: no date of birth, no place, no detail. That is this archive's standing rule, and this diagram broke it on the day it was built."]] },
   { key: "brisbane", name: "Brisbane", x: X_BRIS, prov: "Queensland · Nudgee", when: "1964",
     arrival: true,

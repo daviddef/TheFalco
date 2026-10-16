@@ -13,7 +13,7 @@
  * It never merges.
  */
 import Base from "../../layouts/Base.astro";
-import { nameTouchesLiving } from "../../lib/people.js";
+import { allBearersLiving } from "../../lib/people.js";
 import { u } from "../../lib/url.js";
 import { md } from "../../lib/md.js";
 import register from "../../data/register.json";
@@ -67,7 +67,7 @@ const withLink = rows.filter((r) => r.link).length;
       dek={rows.length === 1
         ? "One record in this archive carries this name."
         : `This is a NAME, not a person. ${rows.length} records carry it, and they may belong to several different people.`}
-      noindex={nameTouchesLiving(name)}>
+      noindex={allBearersLiving(name)}>
 
   {rows.length > 1 ? (
     <div class="card" style="margin-bottom:1.2rem;border-left:3px solid var(--accent)">
@@ -101,7 +101,7 @@ const withLink = rows.filter((r) => r.link).length;
             <li><a href={u("/people/" + p.slug)}><strong>{p.name}</strong></a>
               <span class="small"> — {p.gen ? `generation ${p.gen} of the direct line`
                 : p.household ? `in the household of ${p.household}`
-                : p.living ? "living" : "from the family tree"}</span></li>
+                : p.living ? ("living" + (p.place ? ", " + p.place : "")) : "from the family tree"}</span></li>
           ))}
         </ul>
       ) : (

@@ -1,8 +1,10 @@
 # The Falco Archive — https://falco.defranceski.com/
 #
-# Living people on this site are published with a NAME AND A RELATIONSHIP ONLY:
-# never a date of birth, a place, a record, or a photograph. Their individual
-# pages additionally carry <meta name="robots" content="noindex, nofollow">.
+# A living person on this site (80 or younger, with no death recorded) is named with
+# their relationships and their town and country, and nothing more: never a date,
+# a record or a photograph. Their individual pages carry
+# <meta name="robots" content="noindex, nofollow">, and are in neither the sitemap
+# nor the search index.
 #
 # This file asks crawlers not to index them either. It is a request, not a
 # control — the pages remain publicly reachable to anyone with the link.

@@ -30,20 +30,9 @@ export const GROUPS = [
    builds the richer version on top of the same filing.
  *
  * THE NUMBER IS THE REACH'S OWN COUNT, NOT `n`. `n` is how many of a family's
- * people this archive can PUBLISH, and living people are withheld by the rule
- * that governs everything here — so plotting `n` under a heading about blood
- * drew every LIVING branch as an empty row. Eight of the fourteen families
- * under "They carry this family's blood" came out at zero, and every one of
- * them was a living branch: D'Arcy, Defranceski, Ellevsen, Halliday, Isla,
- * Militano, Reid, Zavaglia — 21 of the 51 people who carry it. Mazza came out
- * at 4 where two of its people carry blood, because the other two are the dead
- * kin its spouse came from and the dead are the ones that count in `n`.
- *
- * The rule that protects the living is right about a person and was wrong about
- * a total. `reachCount` has always held the honest figure; nothing new is
- * exposed by using it, because a count of how many of a surname descend from a
- * Falco is strictly less than the names and marriages of living people this
- * archive already publishes under name-and-relationship. */
+ * people are listed, and a family can hold people of several reaches at once, so
+ * plotting `n` under a heading about blood drew rows that did not belong under
+ * it. `reachCount` has always held the honest figure for the reach being drawn. */
 export const chartGroups = GROUPS.map((g) => ({
   key: g.key, label: g.label,
   families: other.filter((x) => primary(x) === g.key)

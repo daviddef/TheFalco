@@ -8,7 +8,11 @@ import { graph, components } from "@daviddef/archive-kit/lib/bloodline.js";
 import "@daviddef/archive-kit/styles/bloodline.css";
 import raw from "../data/people.json";
 
-const rows = Array.isArray(raw) ? raw : Object.values(raw).find((v) => Array.isArray(v)) || [];
+/* A living person is drawn with their town and country under the name (the kit
+   reads the line under a name from `dt`); a dead person's line stays as the
+   chart has always drawn it. */
+const rows = (Array.isArray(raw) ? raw : Object.values(raw).find((v) => Array.isArray(v)) || [])
+  .map((r) => (r.living && r.place ? { ...r, dt: r.place } : r));
 const people = graph(rows);
 const linked = Object.entries(people).filter(([, p]) =>
   p.parents.length || p.children.length || p.siblings.length);

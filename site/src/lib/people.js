@@ -42,30 +42,30 @@ export function kin(p, bucket) {
 
 export { kebab, clean };
 
-/* Does a page naming these people name anyone LIVING?
+/* WHO IS LIVING, AND WHAT THAT CHANGES.
  *
- * David's rule, settled 13 September 2026: a page that names a living person
- * is not offered to search engines. Living people are published here with a
- * name and a relationship and nothing else — no date, no place, no record —
- * but a name is still theirs, and they did not ask to be indexed.
+ * The living-people standard, version 2 (David, 16 October 2026): a living
+ * person (80 or younger, no death recorded, no public source) is shown with a
+ * name, their relationships and their town and country, and nothing else. Their
+ * own page is noindex. A page that merely DRAWS a living relative is not: the
+ * relative is a name and a place, which is exactly what the rule lets anyone
+ * see, so a dead person's page is indexed whoever is drawn beside them. What
+ * keeps a page out of the search engines is the person it is about.
  *
- * This is computed, not a hand-kept list, so it keeps holding as the graph
- * changes. It is NOT a fence: the pages stay public to anyone with the link. */
+ * `living` is written by tools/build_people.py with the kit's one test; nothing
+ * in the site decides it again. */
 const LIVING = new Set(people.filter((p) => p.living).map((p) => p.slug));
 
 export const isLiving = (slug) => LIVING.has(slug);
 
-/** True if this person, or anyone the page draws in beside them, is living. */
-export function touchesLiving(p) {
-  if (!p) return false;
-  if (p.living) return true;
-  for (const b of ["parents", "spouses", "children", "siblings"])
-    for (const e of p[b] || []) if (LIVING.has(e.slug)) return true;
-  return false;
-}
+/** The line a person shows under their name where a chart would print dates:
+ *  a living person's town and country, a dead person's dates (the caller's). */
+export const placeOf = (p) => (p && p.living ? (p.place || "") : "");
 
-/** True if any person answering to this name is living. */
-export function nameTouchesLiving(name) {
+/** True if the name is borne by at least one person here and by no one who is
+ *  dead: a name page of such a name is noindex. */
+export function allBearersLiving(name) {
   const n = clean(name);
-  return people.some((p) => p.living && clean(p.name) === n);
+  const bearers = people.filter((p) => clean(p.name) === n);
+  return bearers.length > 0 && bearers.every((p) => p.living);
 }

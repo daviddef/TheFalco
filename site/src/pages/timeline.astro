@@ -15,9 +15,10 @@ const pos = (y) => ((y - START) / SPAN) * 100;
    Positioning the dot by a date this site refuses to print would leak it
    through the geometry — the reader could read it straight off the axis. */
 const livingGen = new Set(people.filter((p) => p.living && p.gen).map((p) => p.gen));
+const byGenRec = new Map(people.filter((p) => p.gen).map((p) => [p.gen, p]));
 const gens = line.map((g) => {
   const living = g.living || livingGen.has(g.gen);
-  return { ...g, living, y: living ? null : yearOf(g.born) };
+  return { ...g, living, y: living ? null : yearOf(g.born), rec: byGenRec.get(g.gen) || null };
 });
 
 /* Which years of register the archive has actually read, from the sources it
@@ -92,7 +93,7 @@ const RULE = [
       {gens.map((g, i) => (
         <div class={"gen" + ((g.y ? pos(g.y) : pos(END)) >= 88 ? " er" : (g.y ? pos(g.y) : pos(END)) <= 12 ? " el" : "")} style={`left:${g.y ? pos(g.y) : pos(END)}%`}>
           <i></i>
-          <span class="gtxt"><b>{g.gen}</b> {g.living ? "living — named only" : g.born}</span>
+          <span class="gtxt"><b>{g.gen}</b> {g.living ? "living" : g.born}</span>
         </div>
       ))}
     </div>
@@ -124,9 +125,11 @@ const RULE = [
       {gens.map((g) => (
         <tr>
           <td class="mono"><a href={u("/direct-line/") + "#gen-" + g.gen}>{g.gen}</a></td>
-          <td>{g.living ? <em class="dim">living — named only</em> : <strong>{g.name}</strong>}
+          <td>{g.living
+              ? <>{g.rec ? <a href={u("/people/" + g.rec.slug + "/")}><strong>{g.rec.name}</strong></a> : <strong>{g.name}</strong>}<br/><em class="small dim">living</em></>
+              : <strong>{g.name}</strong>}
             {g.living ? null : <><br/><span class="small mono">{g.born}</span></>}</td>
-          <td class="small">{g.living ? "" : (g.bornPlace || "")}</td>
+          <td class="small">{g.living ? ((g.rec && g.rec.place) || "") : (g.bornPlace || "")}</td>
           <td class="small">{g.living ? "" : (g.trade || "")}</td>
           <td class="small">{g.living ? "" : <span class="chip doc">{g.confidence}</span>}</td>
         </tr>

@@ -42,8 +42,11 @@ Campania) — and of Arpaia, Forchia, Benevento, and Brisbane.
 | **Disputed** | Asserted in the family record but unsupported, or contradicted, by what can be seen. |
 | **Family lore** | Told, remembered, not corroborated. Kept because it is precious; labelled because pretending otherwise is how family myths become family history. |
 
-**Living people are omitted from the build entirely** — not hidden, not gated, not present in the
-output. A removal request is honoured within days, without argument and without requiring a reason.
+**A living person (80 or younger, with no death recorded) is named with their relationships and
+their town and country, and nothing more.** Their page is `noindex` and is in neither the sitemap
+nor the search index; a possible minor is not published at all. Who is living is the kit's one rule
+(`kit/tools/living_rule.py`). A removal request is honoured within days, without argument and
+without requiring a reason.
 
 ## Running it
 

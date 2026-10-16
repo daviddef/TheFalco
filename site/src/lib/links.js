@@ -9,6 +9,8 @@
  * KNOWS. Three destinations, in order:
  *
  *   1. a person page  — only when exactly ONE person of that name is recorded.
+ *      A living person has a page like anyone else (a name, their relationships
+ *      and their town and country), so a living name links to it.
  *      Names repeat constantly in this parish (three Maria Falco, four
  *      Pasquale), and sending a reader to one of them would be an unproven
  *      identification dressed up as navigation.
@@ -23,7 +25,6 @@
 import { people } from "./people.js";
 import register from "../data/register.json";
 import line from "../data/line.json";
-import living from "../data/living.json";
 import { u } from "./url.js";
 
 const norm = (s) =>
@@ -105,11 +106,6 @@ for (const g of line) {
    be an identification the archive has not made, so a shared forename resolves
    to the list and lets them choose. */
 
-/* Living people are named on this site but carry NOTHING else — no dates, no
-   places, no records. There is nothing to link them to but the roster they
-   appear in, and that is deliberate. See tools/build_living.py. */
-const livingNames = new Set(living.map((r) => norm(r.name)));
-
 /** Where a mention of `name` should go — or null if nowhere honest. */
 export function personLink(name) {
   const n = norm(name);
@@ -124,11 +120,6 @@ export function personLink(name) {
     return { href: u("/people/") + "?q=" + encodeURIComponent(bare(name)), kind: "several",
              title: `More than one person in this archive is called ${bare(name)} — the archive does not decide which is meant` };
   }
-  if (livingNames.has(n)) {
-    return { href: u("/people/") + "?q=" + encodeURIComponent(name), kind: "living",
-             title: "A living relative — this archive publishes their name and nothing else" };
-  }
-
   if (slugByName.has(n) && !shared.has(n)) {
     return { href: u("/people/" + slugByName.get(n)), kind: "person",
              title: `${name} — their page in this archive` };

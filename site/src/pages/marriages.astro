@@ -29,6 +29,12 @@ const MI_ABSENT  = MI_ALL.filter((n) => !MI_ONPAGE.has(n.split(" (")[0].trim()))
    the family without ever marrying the name, read like strangers. */
 
 /* ---- the couples, from the person graph ---- */
+/* A LIVING PERSON IS NAMED AND LINKED: a name, their relationships and a page
+   (standard v2, 16 October 2026). The kit's Marriages component was written for
+   version 1 and draws anyone flagged living as «living, named only» with no link,
+   so the couples are handed to it as ordinary rows. Nothing else changes: the
+   component prints a couple's names and a count, never a date. */
+const plain = (r) => ({ ...r, living: false });
 const seen = new Set();
 const couples = [];
 for (const p of people) {
@@ -39,7 +45,7 @@ for (const p of people) {
     const q = people.find((x) => x.slug === e.slug);
     if (!q) continue;
     couples.push({
-      a: p, b: q, gen: p.gen || q.gen || null, vias: e.vias || [e.via],
+      a: plain(p), b: plain(q), gen: p.gen || q.gen || null, vias: e.vias || [e.via],
       kids: (p.children || []).filter((c) => (q.children || []).some((d) => d.slug === c.slug)).length,
     });
   }
@@ -86,7 +92,7 @@ const STORY = {
     sat here looking unrelated. The link is real and the tree carries every step of it:
     <strong>Giuseppina Falco</strong>, daughter of Carmine Falco and Francesca Zampiello, married
     <strong>Ian Kenneth D'Arcy</strong>; their daughter <strong>Stefanie</strong> married
-    <strong>Michael Rocco Mazza</strong>; and <strong>Mia Giuseppina and Rocco Mazza carry this
+    <strong>Michael Rocco Mazza</strong>; and <strong>their children carry this
     family's blood</strong>. Michael is the son of Frank, the grandson of Sebastian, the
     great-grandson of <strong>Giovanni Mazza</strong> — born at <strong>Piedimonte Etneo</strong> on
     the eastern slope of Etna on 28 April 1875, died there in 1960. So the Sicilian branch and the
@@ -205,7 +211,7 @@ const timelinePoints = MARR.map((r) => ({ label: r.name || r.surname || "—", y
 ---
 <Base title="The Marriages"
       eyebrow={`${couples.length} couples · ${other.length} families who joined this one`}
-      dek={`Who married whom, and which families came with them. ${named} of their people are named here; ${withheld} more are alive and are named without a single date. Every row says how the archive knows.`}>
+      dek={`Who married whom, and which families came with them. ${named} of their people are named here, the living among them with their town and country and without a single date. Every row says how the archive knows.`}>
 
   <div class="card" style="border-left:3px solid var(--accent)">
     <h3 style="margin-bottom:.4rem">Why this page exists</h3>
@@ -219,11 +225,10 @@ const timelinePoints = MARR.map((r) => ({ label: r.name || r.surname || "—", y
     Falco», which is how a Sicilian <strong>Mazza</strong> came to sit on a Falco page with no Falco
     anywhere near it — while <strong>Annecchino</strong> and <strong>Zampiello</strong>, who married
     into this family without ever marrying the name, read exactly like strangers.</p>
-    <p style="margin-top:.6rem"><strong>The living are named now — but only named.</strong> This page
-    counts {withheld} living people separately and shows no date, no place and no detail for any of
-    them, because that is the rule: <strong>a name and a relationship, nothing else</strong>. Where a
-    family appears with <em>no named people at all</em>, every person the archive holds for that
-    surname is living.</p>
+    <p style="margin-top:.6rem"><strong>The living are named, with their town and country.</strong>
+    A living person (80 or younger, with no death recorded) is named here with their relationships
+    and their town and country, and nothing more: <strong>no date, no record</strong>. Each has a
+    page of their own, and a possible minor is not published at all.</p>
     <p style="margin-top:.6rem"><strong>If this is your family and something here is wrong, it is
     wrong in public and can be fixed.</strong> Most of what is on this page comes from the family's
     own tree rather than from a record, and is marked as such throughout. A date you know first-hand

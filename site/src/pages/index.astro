@@ -110,15 +110,17 @@ const slugFor = (g) => {
   return q ? q.slug : null;
 };
 const P_BY_SLUG = new Map(people.map((q) => [q.slug, q]));
-const lifeOf = (q) => [q && q.b, q && q.d].filter(Boolean).join(" \u2013 ");
+const lifeOf = (q) => (q && q.living ? (q.place || "") : [q && q.b, q && q.d].filter(Boolean).join(" \u2013 "));
 const kin = (slug, band) => {
   const rec = slug ? P_BY_SLUG.get(slug) : null;
   return ((rec && rec[band]) || []).map((c) => {
     const full = P_BY_SLUG.get(c.slug);
     return {
       name: c.name,
-      href: c.slug && full && !full.living ? `/people/${c.slug}/` : null,
-      dates: full && !full.living ? lifeOf(full) : "",
+      /* every person named has a page, a living one included; their line is a
+         town and country, never a date */
+      href: c.slug && full ? `/people/${c.slug}/` : null,
+      dates: full ? lifeOf(full) : "",
       line: band === "children" && (c.via === "line" || (c.vias || []).includes("line")),
     };
   });
@@ -131,30 +133,36 @@ const clip = (v) => String(v ?? "").split(/\s+[\u2013\u2014-]\s+/)[0].trim();
 const descentRows = line.map((g) => {
   const mine = slugFor(g);
   const hers = SPOUSE_SLUG(g.spouse);
+  const rec = mine ? P_BY_SLUG.get(mine) : null;
+  /* A living generation is drawn as a name, a link and a town and country: no
+     dates (there are none in the data), no trade, no note. The kit's row would
+     print «living — named only» and hide the place for anything flagged living,
+     so it is handed an ordinary row whose date fields are empty. */
+  const live = !!g.living || !!(rec && rec.living);
   return {
     gen: g.gen,
-    era: [clip(g.born), clip(g.died)].filter(Boolean).join(" \u2192 ") || undefined,
+    era: live ? undefined : ([clip(g.born), clip(g.died)].filter(Boolean).join(" \u2192 ") || undefined),
     name: g.name,
     href: mine ? `/people/${mine}/` : "",
-    born: clip(g.born),
-    died: clip(g.died),
-    trade: g.trade || "",
-    place: g.bornPlace || g.diedPlace || "",
-    married: g.married || "",
-    confidence: g.confidence || "",
-    living: !!g.living,
+    born: live ? "" : clip(g.born),
+    died: live ? "" : clip(g.died),
+    trade: live ? "" : (g.trade || ""),
+    place: live ? ((rec && rec.place) || "") : (g.bornPlace || g.diedPlace || ""),
+    married: live ? "" : (g.married || ""),
+    confidence: live ? "living" : (g.confidence || ""),
+    living: false,
     weak: g.gen === 1,
     weakNote: "The line stops here: no record names this man's father.",
     spouse: g.spouse || "",
     spouseHref: hers ? `/people/${hers}/` : null,
-    spouseBorn: clip(g.spouseBorn || ""),
+    spouseBorn: live ? "" : clip(g.spouseBorn || ""),
     spouseAlt: hers ? "" : "no page of her own in this archive yet",
     children: kin(mine, "children"),
     hisSiblings: kin(mine, "siblings"),
     herSiblings: kin(hers, "siblings"),
     hisLabel: String(g.name).split(" ")[0] + "\u2019s",
     herLabel: g.spouse ? String(g.spouse).split(" ")[0] + "\u2019s" : "Hers",
-    note: md(g.note || "", u),
+    note: live ? "" : md(g.note || "", u),
   };
 });
 
@@ -201,8 +209,9 @@ const camellaraCount = new Set(
 
   
   <p class="lede" style="margin-top:14px">
-    It is a public archive with one rule: <b>a living person is named and nothing more</b> — no
-    dates, no places, nothing that is theirs to give rather than this archive's. And a second rule,
+    It is a public archive with one rule: <b>a living person (80 or younger, with no death
+    recorded) is named with their relationships and their town and country, and nothing more</b> — no
+    dates, no records, no photograph. And a second rule,
     which is harder: <b>every claim says how well it is known</b>.
     <span class="chip doc" style="padding:2px 8px;font-size:10px">Documented</span>
     <span class="chip inf" style="padding:2px 8px;font-size:10px">Inferred</span>

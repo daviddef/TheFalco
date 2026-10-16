@@ -74,9 +74,12 @@ const thisArchive =
 <title>{pageTitle}</title>
 <meta name="description" content={metaDesc} />
 <SocialHead title={title} description={metaDesc} site={SITE} />
-<JsonLd type={bare ? "WebSite" : "Article"} name={title} description={metaDesc}
+{/* A noindex page carries no structured data at all: a living person's page is
+    noindex and has none (standard v2, 16 October 2026), and a page we ask the
+    search engines to skip has no use for any. */}
+{!noindex && <JsonLd type={bare ? "WebSite" : "Article"} name={title} description={metaDesc}
         url={Astro.site ? new URL(Astro.url.pathname, Astro.site).href : Astro.url.pathname}
-        site={SITE} about={Astro.props.person} />
+        site={SITE} about={Astro.props.person} />}
 {noindex && <meta name="robots" content="noindex, nofollow" />}
 {noindex && <meta name="googlebot" content="noindex, nofollow" />}
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -131,7 +134,7 @@ const thisArchive =
     <SiblingArchives />
     <p class="foot">An evidence-first archive of the Falco family of Arienzo in the province of Caserta —
     and of Arpaia, Forchia, Benevento and Brisbane. Every claim carries its confidence, or is marked as
-    unproven. <strong>Living people are named</strong> — name and relationship only, never a date, a place, a photograph or a record.</p>
+    unproven. A living person (80 or younger, with no death recorded) is named with their relationships and their town and country, and nothing more.</p>
     <p class="foot dim">Built {new Date().getFullYear()} ·
       <a href={u("/documents/")}>Documents</a> ·
       <a href={u("/sources/")}>Sources</a> ·

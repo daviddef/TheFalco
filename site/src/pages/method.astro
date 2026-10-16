@@ -3,6 +3,8 @@ import Base from "../layouts/Base.astro";
 import Evidence from "@daviddef/archive-kit/components/Evidence.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
+import { people } from "../lib/people.js";
+const nLiving = people.filter((p) => p.living).length;
 ---
 <Base title="Method">
 
@@ -411,20 +413,33 @@ import { u } from "../lib/url.js";
   document.</strong></p>
 
   <h2>Living people</h2>
-  <p><strong>This rule changed on 10 September 2026, at the request of the family whose archive this
-  is.</strong> It is recorded as a change rather than presented as though it had always been so.</p>
-  <p><strong>Until then, living people were omitted from the build entirely</strong> — not hidden, not
-  gated, not present in the output. <strong>They are now named</strong>, because a record of a family
-  that stops at the dead is not a record of a family, and the living are the reason anyone reads it.</p>
-  <p><strong>What is published for a living person is a NAME, and their relationship to the family.
-  Nothing else.</strong> No date of birth. No date of death — they have none. No birthplace, no
-  residence, no age, no occupation, no photograph, no record link. Those fields exist in the family
-  tree and are dropped on the way in, by the tool that builds the list, not by hand.</p>
-  <p><strong>Three filters decide who counts as living</strong>, because the family tree's own flag
-  cannot be trusted: it means «no death date recorded», which had it marking a man born in 1832 as
-  alive. Entries named <em>Unknown …</em> are placeholders for a gap, not people. A birth before 1920
-  means dead whatever the flag says. And anyone in the direct ancestral chain is by definition not
-  living. Of 137 flagged, <strong>104 are published and 33 were filtered out</strong>.</p>
+  <p><strong>A living person (80 or younger, with no death recorded) is named with their
+  relationships and their town and country, and nothing more.</strong> This is the estate's one
+  rule, restated on 16 October 2026 (version 2) and written down once, in code the kit holds
+  (<code>living_rule.py</code>), which this archive imports and does not copy. It replaced a rule
+  that named the living and gave them nothing else, which had itself replaced one that omitted them
+  from the build entirely (until 10 September 2026, at the request of the family whose archive this
+  is).</p>
+  <p><strong>Who is living.</strong> Born 80 years ago or less (this year minus the birth year), with
+  no death or burial recorded — dated or not. A citation from a public record source (FamilySearch,
+  Findmypast, Antenati and the others the kit lists) means the person is not treated as living, and
+  what that record says may be shown; a private family-tree entry is not such a source. <strong>A
+  person with no birth year cannot be shown to be 80 or younger, so is not living by this test</strong>
+  — the tree's own flag, which means only «no death date recorded», is no longer the test.
+  {nLiving} people are living today.</p>
+  <p><strong>What a living person shows.</strong> Their name, their relationships and the town and
+  country they were born in — the town, never a street, an address or a hospital. No date of birth,
+  no age, no occupation, no record, no source, no photograph. Their page is not offered to search
+  engines (<code>noindex</code>), is in neither the sitemap nor the search box, and carries no
+  structured data. Those fields exist in the family tree and are dropped on the way in by the tool
+  that builds the list, not by hand.</p>
+  <p><strong>Who is not published at all.</strong> A person who might be a child — not recorded
+  dead, with no public source, and either under 18 by year or with no birth year and a living
+  parent — is held out: no page, and no name as anyone's relative.</p>
+  <p><strong>Every person this archive names has a page of their own</strong>, a living person
+  included; a page that merely draws a living relative beside someone is indexed as usual, because
+  the relative is only a name and a place. A name page (<a href={u("/who/")}>Every Name</a>) whose
+  every bearer is living is <code>noindex</code> too.</p>
   <p><strong>A removal request is honoured within days, without argument and without requiring a
   reason</strong> — and that promise now matters more than it did.</p>
 <style>

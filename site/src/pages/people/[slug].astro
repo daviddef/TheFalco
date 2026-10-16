@@ -2,7 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
 import { md } from "../../lib/md.js";
-import { people, bySlug, touchesLiving } from "../../lib/people.js";
+import { people, bySlug } from "../../lib/people.js";
 import households from "../../data/households.json";
 import plates from "../../data/plates.json";
 import PersonTree from "../../components/PersonTree.astro";
@@ -30,8 +30,8 @@ const ownHouse = p.household
   : null;
 
 /* THE PICTURES THAT BELONG TO THIS PERSON. A plate names the people it shows in
-   its «who» list (person slugs); the page draws them. Nothing is shown for a
-   living person whatever the data says, the same refusal the spine figure makes. */
+   its «who» list (person slugs); the page draws them. No photograph is shown for
+   a living person whatever the data says. */
 const mine = p.living ? [] : plates
   .filter((x) => (x.who || []).includes(p.slug))
   .sort((a, b) => (b.k === "photo") - (a.k === "photo"));   // pictures of the person first, papers after
@@ -42,10 +42,10 @@ const edges = kin.flatMap((b) => p[b] || []);
 const fromRegister = edges.filter((e) => e.via !== "tree").length;
 const fromTree     = edges.filter((e) => e.via === "tree").length;
 
-/* What to put under the name. A living person gets their place in the family
-   and nothing else — no dates, no places. */
+/* What to put under the name. A living person gets their place in the family and
+   their town and country, and nothing else — no dates, no records. */
 const dek = p.living
-  ? "A living relative. This archive publishes their name and their place in the family, and nothing else."
+  ? "A living relative. This archive shows their name, their place in the family and their town and country, and nothing more."
   : p.gen
   ? firstSentence(p.line.note)
   : p.household
@@ -57,7 +57,7 @@ const dek = p.living
 <Base title={p.name}
       eyebrow={p.gen ? `Generation ${p.gen} of the direct line` : (p.household || p.surname)}
       dek={dek}
-      noindex={touchesLiving(p)}>
+      noindex={!!p.living}>
 
   <PersonTree person={p} />
 
@@ -94,15 +94,18 @@ const dek = p.living
           ))}
         </ul>
       ) : p.living ? (
-        <p class="small"><strong>Withheld on purpose.</strong> This person is living. The archive
-        holds records for them and publishes <strong>none</strong> of them — not a birth date, not a
-        place, not a photograph. Their name and their place in the family are the whole entry, and
-        that is the rule, not a gap. See <a href={u("/method/")}>Method</a>.</p>
+        <p class="small"><strong>A living person shows a name, their relationships and their town and
+        country, and nothing more.</strong> No date, no record, no photograph and no source is
+        published for them; their page is not offered to search engines. That is the rule, not a
+        gap. See <a href={u("/method/")}>Method</a>.</p>
       ) : (
         <p class="small">No act has been read for this person. What is known of them comes from the
         family tree, and is <strong>unverified</strong> —
         <a href={u("/register/") + "?q=" + encodeURIComponent(clean(p.name))}>search the register for the name →</a></p>
       )}
+      {p.living && p.place ? (
+        <p class="small"><strong>town and country</strong> {p.place}</p>
+      ) : null}
       {!p.living && (p.bp || p.dp) ? (
         <p class="small">{p.bp ? <span><strong>born</strong> {p.bp}</span> : null}
         {p.bp && p.dp ? " · " : null}
@@ -133,9 +136,9 @@ const dek = p.living
       {p.gen ? <p class="small"><a href={u("/direct-line/") + "#gen-" + p.gen}>See this generation on the spine →</a></p> : null}
       {p.living ? (
         <p class="small"><strong>No register link is offered for a living person.</strong> The
-        registers do hold people of this name — they are <em>other people</em>, dead a century or
-        more, and pointing at them from here would invite the reader to read a stranger's death act
-        as this person's record.</p>
+        registers do hold people of this name — they are <em>other people</em>, dead long ago, and
+        pointing at them from here would invite the reader to read a stranger's record as this
+        person's.</p>
       ) : (
         <p class="small"><a href={u("/register/") + "?q=" + encodeURIComponent(clean(p.name))}>Every record naming {clean(p.name)} →</a></p>
       )}
@@ -152,7 +155,7 @@ const dek = p.living
       into one.</strong></p>
       <ul>{sameName.map((q) => (
         <li><a href={u("/people/" + q.slug)}>{q.name}</a>
-          <span class="small"> — {q.household || (q.living ? "living" : "from the family tree")}</span></li>
+          <span class="small"> — {q.household || (q.living ? ("living" + (q.place ? ", " + q.place : "")) : "from the family tree")}</span></li>
       ))}</ul>
     </>
   ) : null}

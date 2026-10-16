@@ -59,12 +59,21 @@ const norm = (s) =>
 const P_BY_SLUG = new Map(people.map((q) => [q.slug, q]));
 const lifeOf = (q) => [q && q.b, q && q.d].filter(Boolean).join(" – ");
 
+/* A LIVING PERSON IS A NAME, A PAGE AND A TOWN AND COUNTRY (standard v2, 16
+   October 2026). The kit's Descent row was written for version 1 and prints
+   «living — named only» for anyone flagged living, hiding the place, so a living
+   person is handed to it as an ordinary row whose every date field is empty and
+   whose `place` is their town and country. The dates are empty because they do
+   not exist in the data (people.json holds none for a living person), not because
+   a flag hides them. */
+const stamp = (q) => (q && q.living ? (q.place || "") : lifeOf(q));
+
 const card = (c) => {
   const full = P_BY_SLUG.get(c.slug);
   return {
     name: c.name,
-    href: c.slug && full && !full.living ? `/people/${c.slug}/` : null,
-    dates: full && !full.living ? lifeOf(full) : "",
+    href: c.slug && full ? `/people/${c.slug}/` : null,
+    dates: full ? stamp(full) : "",
     line: c.via === "line" || (c.vias || []).includes("line"),
   };
 };
@@ -93,21 +102,21 @@ const rows = ours.map((p) => {
   const her = sp && sp.slug ? P_BY_SLUG.get(sp.slug) : null;
   return {
     name: p.name,
-    href: p.slug && !p.living ? `/people/${p.slug}/` : "",
-    living: !!p.living,
-    era: [p.b, p.d].filter(Boolean).map((x) => (String(x).match(/\b(1[5-9]\d\d|20\d\d)\b/) || [])[1]).filter(Boolean).join(" → ") || undefined,
+    href: p.slug ? `/people/${p.slug}/` : "",
+    living: false,                       // see `stamp`: a living row simply carries no dates
+    era: p.living ? undefined : ([p.b, p.d].filter(Boolean).map((x) => (String(x).match(/\b(1[5-9]\d\d|20\d\d)\b/) || [])[1]).filter(Boolean).join(" → ") || undefined),
     born: p.living ? "" : (p.b || ""),
     died: p.living ? "" : (p.d || ""),
-    place: p.living ? "" : (p.bp || p.dp || ""),
+    place: p.living ? (p.place || "") : (p.bp || p.dp || ""),
     spouse: sp ? sp.name : "",
-    spouseHref: sp && sp.slug && her && !her.living ? `/people/${sp.slug}/` : null,
+    spouseHref: sp && sp.slug && her ? `/people/${sp.slug}/` : null,
     spouseAlt: sp ? "" : "no marriage recorded for them here",
-    children: p.living ? [] : (p.children || []).map(card),
-    hisSiblings: p.living ? [] : (p.siblings || []).map(card),
-    herSiblings: p.living || !her ? [] : (her.siblings || []).map(card),
+    children: (p.children || []).map(card),
+    hisSiblings: (p.siblings || []).map(card),
+    herSiblings: her ? (her.siblings || []).map(card) : [],
     hisLabel: String(p.name).split(" ")[0] + "’s",
     herLabel: sp ? String(sp.name).split(" ")[0] + "’s" : "Theirs",
-    confidence: (p.sources || []).length ? "a record has been read" : "",
+    confidence: p.living ? "living" : ((p.sources || []).length ? "a record has been read" : ""),
   };
 });
 

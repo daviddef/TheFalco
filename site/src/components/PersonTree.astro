@@ -14,8 +14,10 @@
  * independent sources agree — and when one of them says something this archive
  * has already retracted.
  *
- * Living people appear as a name and a place in the family. No dates. That is
- * the rule set on 10 September 2026 and it is enforced in the data, not here.
+ * A living person appears as a name, their place in the family and their town
+ * and country. No dates. That is the standard of 16 October 2026 (version 2) and
+ * it is enforced in the data, not here: the line under a living name is the
+ * town and country the data holds, or nothing.
  */
 import { u } from "../lib/url.js";
 import { bySlug } from "../lib/people.js";
@@ -31,7 +33,8 @@ const children = get("children");
 const siblings = get("siblings");
 
 const dates = (r) => {
-  if (!r || r.living) return "";
+  if (r && r.living) return r.place || "";     // a living person: town and country, never a date
+  if (!r) return "";
   if (r.b && r.d) return `${r.b} – ${r.d}`;
   if (r.b) return `b. ${r.b}`;
   if (r.d) return `d. ${r.d}`;
@@ -103,13 +106,13 @@ const WHY = {
   "no-edge-recorded":
     "No act read here puts this person beside anyone else. They are recorded because a document names them, and the document names them alone.",
   living:
-    "This person is living. This archive publishes a living person's name and their place in the family and nothing else — no dates, no places, no records.",
+    "This person is living. This archive shows a living person's name, their place in the family and their town and country, and nothing else — no dates, no records.",
 };
 const why = empty ? WHY[p.noKin] || WHY["no-edge-recorded"] : null;
 ---
 <PersonTree
   always
-  self={{ name: p.name, dates: dates(p), gen: p.gen ? `generation ${p.gen}` : "", note: p.living ? "living — name only" : "", noteCls: "living" }}
+  self={{ name: p.name, dates: dates(p), gen: p.gen ? `generation ${p.gen}` : "", note: p.living ? "living" : "", noteCls: "living" }}
   parents={parents.map(lineage)}
   spouses={spouses.map((e) => beside(e, true))}
   children={children.map(lineage)}
