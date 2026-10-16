@@ -27,7 +27,7 @@ import er from "../data/errands.json";
 /* The component runs every link through the base-path helper, which is right for
    /sources/ and wrong for an absolute URL. An absolute URL is left alone. */
 const link = (p) => (/^https?:\/\//.test(p) ? p : u(p));
-const COLOUR = { unwritten: "#7A7A7A", unattempted: "#7A7A7A", visit: "#1E5F8C" };
+const COLOUR = { unwritten: "var(--st-grey)", unattempted: "var(--st-grey)", visit: "var(--st-running)" };
 const groups = er.doors.map((d) => ({
   label: d.where,
   note: d.why,

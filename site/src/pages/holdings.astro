@@ -139,7 +139,8 @@ const COLLECTIONS = [
 </Base>
 
 <style>
-  .stack { display:grid; gap:.7rem; margin:.8rem 0 1.4rem; }
+  .stack { display:grid; grid-template-columns:minmax(0,1fr); gap:.7rem; margin:.8rem 0 1.4rem; }
+  .stack .card { overflow-wrap:anywhere; }
   .stack h3 { font-size:.95rem; letter-spacing:.02em; }
   table { border-collapse:collapse; width:100%; font-size:.88rem; }
   th, td { text-align:left; vertical-align:top; padding:.42rem .6rem; border-bottom:1px solid var(--rule, #ddd); }

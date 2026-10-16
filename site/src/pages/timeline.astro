@@ -90,7 +90,7 @@ const RULE = [
     <div class="lab">The nine generations</div>
     <div class="band gens">
       {gens.map((g, i) => (
-        <div class="gen" style={`left:${g.y ? pos(g.y) : pos(END)}%`}>
+        <div class={"gen" + ((g.y ? pos(g.y) : pos(END)) >= 88 ? " er" : (g.y ? pos(g.y) : pos(END)) <= 12 ? " el" : "")} style={`left:${g.y ? pos(g.y) : pos(END)}%`}>
           <i></i>
           <span class="gtxt"><b>{g.gen}</b> {g.living ? "living — named only" : g.born}</span>
         </div>
@@ -149,16 +149,19 @@ const RULE = [
   .tl .scale{position:relative;height:1.3rem;margin-bottom:.4rem}
   .tl .tick{position:absolute;transform:translateX(-50%);font-family:var(--mono);font-size:10px;color:var(--ink-3)}
   .tl .tick i{display:block;width:1px;height:.4rem;background:var(--rule-strong);margin:0 auto}
-  .tl .lab{font-family:var(--sans);font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;
+  .tl .lab{font-family:var(--sans);font-size:11px;letter-spacing:.13em;text-transform:uppercase;
            color:var(--ink-3);margin:.9rem 0 .3rem}
   .tl .band{position:relative;height:1.5rem;background:var(--ground);border-radius:2px}
   .tl .band.gens{height:2.6rem}
-  .tl .gen{position:absolute;top:0}
+  .tl .gen{position:absolute;top:0;width:.6rem}
   .tl .gen i{display:block;width:.6rem;height:.6rem;border-radius:50%;background:var(--accent);
              transform:translateX(-50%)}
   .tl .gtxt{position:absolute;left:0;top:.75rem;transform:translateX(-50%);white-space:nowrap;
-            font-family:var(--mono);font-size:9px;color:var(--ink-2)}
+            font-family:var(--mono);font-size:11px;color:var(--ink-2)}
   .tl .gen:nth-child(even) .gtxt{top:1.6rem}
+  /* a label centred on a point near either end ran past the page edge at phone width */
+  .tl .gen.er .gtxt{transform:none;left:auto;right:.6rem;text-align:right}
+  .tl .gen.el .gtxt{transform:none;left:0}
   .tl .seg{position:absolute;top:0;height:1.5rem;border-left:1px solid var(--rule-strong);
            display:flex;align-items:center;overflow:hidden}
   .tl .seg span{font-family:var(--sans);font-size:10px;color:var(--ink-2);padding-left:.35rem;white-space:nowrap}

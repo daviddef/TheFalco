@@ -257,7 +257,7 @@ const shared = carmine.notable.filter((a) => francesca.notable.some((b) => b.nam
   .chip.dna{border-color:var(--terra);color:var(--terra);background:transparent}
 
   .dnabars{margin:1rem 0 1.2rem;font-family:var(--sans)}
-  .dnabars .row{display:grid;grid-template-columns:11rem 1fr 5rem;gap:.7rem;align-items:center;
+  .dnabars .row{display:grid;grid-template-columns:11rem minmax(0,1fr) 5rem;gap:.7rem;align-items:center;
                 padding:.3rem 0;border-bottom:1px solid var(--rule)}
   .dnabars .nm{font-size:13px}
   .dnabars .pair{display:flex;flex-direction:column;gap:.18rem}
@@ -271,7 +271,7 @@ const shared = carmine.notable.filter((a) => francesca.notable.some((b) => b.nam
   .dnabars .key{margin:.6rem 0 0;font-size:11px;color:var(--ink-2)}
   .dnabars .sw{display:inline-block;width:.7rem;height:.55rem;border-radius:2px;vertical-align:middle}
   .dnabars .sw.c{background:var(--accent)} .dnabars .sw.f{background:var(--terra)}
-  @media(max-width:640px){.dnabars .row{grid-template-columns:8rem 1fr 3.4rem}}
+  @media(max-width:640px){.dnabars .row{grid-template-columns:8rem minmax(0,1fr) 3.4rem}}
 
   table.hz tr.self td{background:var(--accent-wash)}
   table.hz tr.floor td{opacity:.6}

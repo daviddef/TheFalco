@@ -77,9 +77,9 @@ const tot = towns.reduce((a, t) => a + t.falco + t.zamp + t.ann, 0);
 
 <style is:global>
   .dbars{margin:1rem 0 1.4rem;font-family:var(--sans)}
-  .dbars .row{display:grid;grid-template-columns:9rem 1fr;gap:.7rem;align-items:center;
+  .dbars .row{display:grid;grid-template-columns:9rem minmax(0,1fr);gap:.7rem;align-items:center;
               padding:.3rem 0;border-bottom:1px solid var(--rule)}
-  .dbars .bwrap{display:flex;align-items:center;gap:2px}
+  .dbars .bwrap{display:flex;align-items:center;gap:2px;min-width:0}
   .dbars .bar{height:.6rem;border-radius:1px;min-width:2px}
   .dbars .bar.f{background:var(--accent)}
   .dbars .bar.z{background:var(--terra)}
