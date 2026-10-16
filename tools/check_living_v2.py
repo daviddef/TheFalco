@@ -160,6 +160,28 @@ def record_evidence(rec, line):
     return dead, cites, by
 
 
+def youngest_child_years(tree, info):
+    """tree id -> the birth year of the person's youngest child with a known year (17 October 2026: the kit's
+    recent-child step). Written here from the tree's own labels, apart from tools/living_v2.py, so that the
+    generator and this gate cannot share a mistake: a parent says «His son» / «Her daughter», a child says
+    «His father» / «Her mother» / «His parent»; either side is enough."""
+    kids = collections.defaultdict(set)
+    for t in tree:
+        for r in t.get("relatives") or []:
+            lab = re.sub(r"\s+", " ", str(r.get("rel") or "").strip().lower())
+            last = lab.split(" ")[-1] if lab else ""
+            if last in ("son", "daughter"):
+                kids[t["id"]].add(r["id"])
+            elif last in ("father", "mother", "parent"):
+                kids[r["id"]].add(t["id"])
+    out = {}
+    for pid, ks in kids.items():
+        ys = [info[k]["by"] for k in ks if k in info and info[k]["by"] is not None]
+        if ys:
+            out[pid] = max(ys)
+    return out
+
+
 def recompute(tree, people, line):
     """expected status for every non-placeholder tree person.
     returns {tree id: dict(kind='living'|'dead'|'held', ...)}"""
@@ -173,8 +195,11 @@ def recompute(tree, people, line):
         by = tree_year(t)
         if by is None:
             by = ry
-        info[t["id"]] = {"by": by, "dead": tree_dead(t) or dead, "cites": cites,
-                         "living": lr.is_living(by, tree_dead(t) or dead, cites, THIS_YEAR)}
+        info[t["id"]] = {"by": by, "dead": tree_dead(t) or dead, "cites": cites}
+    yc = youngest_child_years(tree, info)
+    for tid, d in info.items():
+        d["yc"] = yc.get(tid)
+        d["living"] = lr.is_living(d["by"], d["dead"], d["cites"], THIS_YEAR, youngest_child_year=d["yc"])
     parents = collections.defaultdict(list)
     for t in tree:
         for r in t.get("relatives") or []:
@@ -191,7 +216,8 @@ def recompute(tree, people, line):
                 parents[p["treeId"]].append(tid)
     for tid, d in info.items():
         pl = any(info.get(q, {}).get("living") for q in parents.get(tid, []))
-        d["held"] = lr.is_held_out(tid, d["by"], d["dead"], d["cites"], pl, held_ids=(), today_year=THIS_YEAR)
+        d["held"] = lr.is_held_out(tid, d["by"], d["dead"], d["cites"], pl, held_ids=(), today_year=THIS_YEAR,
+                                   youngest_child_year=d["yc"])
     return info, by_rec
 
 
@@ -803,6 +829,23 @@ def selftest(dist):
                         any("HELD-OUT PERSON APPEARS" in x for x in R.fails)))
     else:
         results.append(("a held-out person's name in a committed data file", None))
+    def parent_of_recent_child_dead():
+        t = json.load(open(TREE, encoding="utf-8"))
+        pj = json.load(open(PJ, encoding="utf-8"))
+        info, by_rec = recompute(t, pj, load("line.json"))
+        who = [tid for tid, v in info.items() if v["by"] is None and v["yc"] is not None and v["living"] and tid in by_rec]
+        if not who:
+            raise SystemExit("no undated parent of a recent child")
+        slug = by_rec[who[0]]["slug"]
+        sb.edit(PJ, lambda s_: json.dumps([dict(x, living=False) if x["slug"] == slug else x for x in json.loads(s_)]))
+    if os.path.exists(TREE):
+        try:
+            trial("an undated parent of a recent child published as dead", parent_of_recent_child_dead,
+                  "WRONG LIVING STATUS", need_tree=True)
+        except SystemExit:
+            results.append(("an undated parent of a recent child published as dead", False))
+    else:
+        results.append(("an undated parent of a recent child published as dead", None))
     trial("a living person recorded as not living",
           people_edit(lambda j: [x.update(living=False) for x in j if x["slug"] == L["slug"]]),
           "WRONG LIVING STATUS", need_tree=True)

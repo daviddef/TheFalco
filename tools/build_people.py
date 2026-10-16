@@ -925,6 +925,24 @@ slug_of_tree = {}
 EVIDENCE = {}     # slug -> (tree id, birth year, death recorded, citations); never written out
 KNOWN_COUNTRY = lv.learn_countries([x.get("bp") for x in tree] + [x.get("dp") for x in tree])
 
+# THE YOUNGEST CHILD (17 October 2026). The kit's rule treats an UNDATED person with no recorded death and no
+# public source as living when their youngest child with a known birth year was born 60 years ago or less (a
+# parent is about twenty years older than a child, so is 80 or younger). The child's year is the tree's, or,
+# where the tree has none, the birth or baptism the registers give the household person the tree row is merged
+# with. Children come from the tree's own labels (lv.child_ids); nothing else decides it.
+def _child_birth_year(tid):
+    t = by_id.get(tid)
+    if not t:
+        return None
+    y = lv.year_of(t.get("b"))
+    if y is None and tid in merge:
+        ys = sorted(lv.year_of(e.get("date")) for e in hh_people[merge[tid]]["events"]
+                    if (own_event(e.get("event"), "birth") or own_event(e.get("event"), "baptism"))
+                    and lv.year_of(e.get("date")))
+        y = ys[0] if ys else None
+    return y
+YOUNGEST_CHILD = lv.youngest_child_years(tree, _child_birth_year)
+
 for k in hh_order:
     p = hh_people[k]
     people[p["slug"]] = {
@@ -1017,7 +1035,7 @@ for p in tree:
         _dead = True                       # the archive's own line records the death
     _cites = lv.citation_strings(r["events"])
     EVIDENCE[slug] = (tid, _by, _dead, _cites)
-    r["living"] = bool(lr.is_living(_by, _dead, _cites, lv.THIS_YEAR))
+    r["living"] = bool(lr.is_living(_by, _dead, _cites, lv.THIS_YEAR, youngest_child_year=YOUNGEST_CHILD.get(tid)))
     if r["living"]:
         # a name, the place in the family (the edges, below) and a town and
         # country. Deliberate, and nothing else: no b, d, bp, dp, no events.
@@ -1337,7 +1355,8 @@ _held_slugs, _held_tids = set(), set()
 for _s, (_tid, _by, _dead, _cites) in EVIDENCE.items():
     _r = people[_s]
     _parent_living = any(people[e["slug"]]["living"] for e in _r["parents"] if e["slug"] in people)
-    if lr.is_held_out(_tid, _by, _dead, _cites, _parent_living, held_ids=(), today_year=lv.THIS_YEAR):
+    if lr.is_held_out(_tid, _by, _dead, _cites, _parent_living, held_ids=(), today_year=lv.THIS_YEAR,
+                      youngest_child_year=YOUNGEST_CHILD.get(_tid)):
         _held_slugs.add(_s); _held_tids.add(_tid)
 for _s in sorted(_held_slugs):
     if people[_s]["household"] or people[_s]["events"] or people[_s].get("gen"):

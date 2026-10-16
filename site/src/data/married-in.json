@@ -1,7 +1,7 @@
 [
  {
   "surname": "Falco",
-  "n": 145,
+  "n": 144,
   "withheld": 0,
   "first": 1744,
   "last": 2026,
@@ -34,7 +34,7 @@
     "to": "Imperia \"Bez\" Bucolo (Falco)",
     "toSlug": "imperia-bez-bucolo",
     "into": "Bucolo",
-    "living": false
+    "living": true
    },
    {
     "who": "Angelo Falco",
@@ -74,7 +74,7 @@
     "to": "Rhys Halliday",
     "toSlug": "rhys-halliday",
     "into": "Halliday",
-    "living": false
+    "living": true
    },
    {
     "who": "[withheld] (Hale)",
@@ -1396,7 +1396,8 @@
     "b": "",
     "bp": "",
     "d": "",
-    "dp": ""
+    "dp": "",
+    "living": true
    },
    {
     "name": "Anthony Falco",
@@ -1421,7 +1422,8 @@
     "b": "",
     "bp": "",
     "d": "",
-    "dp": ""
+    "dp": "",
+    "living": true
    },
    {
     "name": "Carmine Falco",
@@ -1521,14 +1523,6 @@
     "living": true
    },
    {
-    "name": "[withheld]",
-    "slug": "jessica-falco",
-    "b": "14 JUL",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
     "name": "Jiuseppe \"Pep\" Falco",
     "slug": "jiuseppe-pep-falco",
     "b": "",
@@ -1598,7 +1592,7 @@
    "blood"
   ],
   "reachCount": {
-   "blood": 147
+   "blood": 146
   }
  },
  {
@@ -2213,7 +2207,7 @@
     "to": "Anthony Falco",
     "toSlug": "anthony-falco",
     "into": "Falco",
-    "living": false
+    "living": true
    },
    {
     "who": "Maria Bucolo (Falco)",
@@ -2303,7 +2297,8 @@
     "b": "",
     "bp": "",
     "d": "",
-    "dp": ""
+    "dp": "",
+    "living": true
    },
    {
     "name": "Maria Bucolo (Falco)",
@@ -4435,7 +4430,7 @@
     "to": "Carla Falco (Halliday)",
     "toSlug": "carla-falco",
     "into": "Falco",
-    "living": false
+    "living": true
    }
   ],
   "people": [
@@ -4454,7 +4449,8 @@
     "b": "",
     "bp": "",
     "d": "",
-    "dp": ""
+    "dp": "",
+    "living": true
    }
   ],
   "unjoinedBurials": 0,

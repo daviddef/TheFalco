@@ -40,6 +40,41 @@ def year_of(s):
     return int(m.group(1)) if m else None
 
 
+# ---------------------------------------------------------------- the youngest child
+
+def child_ids(tree):
+    """tree person id -> the set of tree ids of their children, from the tree's own labels.
+
+    A parent names a child «His son» / «Her daughter» / «Your son» / «Son»; a child names a parent «His father»
+    / «Her mother» / «His parent». Either side is enough, so a child recorded on one side only still counts."""
+    ids = {p["id"] for p in tree if p.get("id") is not None}
+    kids = {}
+    for p in tree:
+        pid = p.get("id")
+        for e in p.get("relatives") or []:
+            r = str(e.get("rel") or "").strip().lower().split(" ")[-1]    # «his son» -> son; «his grandson» is not
+            q = e.get("id")
+            if q not in ids:
+                continue
+            if r in ("son", "daughter"):
+                kids.setdefault(pid, set()).add(q)
+            elif r in ("father", "mother", "parent"):
+                kids.setdefault(q, set()).add(pid)
+    return kids
+
+
+def youngest_child_years(tree, child_year):
+    """tree person id -> the birth year of their youngest child whose birth year is known, for the kit's
+    recent-child step (living_rule.is_living(..., youngest_child_year=)). `child_year(tid)` gives a child's year
+    or None; a parent with no child of a known year is simply absent."""
+    out = {}
+    for pid, kids in child_ids(tree).items():
+        ys = [y for y in (child_year(k) for k in kids) if y is not None]
+        if ys:
+            out[pid] = max(ys)
+    return out
+
+
 # ---------------------------------------------------------------- recorded death
 
 def tree_death_recorded(p):

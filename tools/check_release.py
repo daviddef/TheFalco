@@ -265,7 +265,14 @@ def main():
     for f in pages:
         raw = open(f, encoding="utf-8", errors="replace").read()
         slug = os.path.basename(os.path.dirname(f))
-        if slug in person_pages:
+        # THE PERSON'S OWN PAGE is people/<slug>/. A NAME page /who/<slug>/ can carry the same slug when
+        # a living person is the first bearer of a name a dead person also bore; it is noindex only when
+        # EVERY bearer is living, and check_living_v2.py (c2) holds it to exactly that.
+        if slug in person_pages and os.path.basename(os.path.dirname(os.path.dirname(f))) == "people":
+            _own = True
+        else:
+            _own = False
+        if _own:
             _matched.add(slug)
             if 'content="noindex' not in raw:
                 fails.append(f"{os.path.relpath(f, DIST).replace(slug, '<living>')}: living person's own page is INDEXED")
