@@ -136,11 +136,7 @@
     ]
    ],
    "body": "<strong>Costanza Maione</strong> was born at Arienzo on 2 May 1876, daughter of\n    <strong>Aniello Maione</strong>. She married Raffaele Falco in 1897 and was the mother of\n    Carminantonio, the generation that left for Brisbane.",
-   "note": "Maione appear throughout the Arienzo registers a century earlier — Filippo, thirty-eight,\n    on strada Calbarola in 1817; Gennaro, forty, in the same year — but no line yet joins them to\n    Costanza.",
-   "also": [
-    "MAJONE",
-    "MAIONE / MAJONE"
-   ]
+   "note": "Maione appear throughout the Arienzo registers a century earlier — Filippo, thirty-eight,\n    on strada Calbarola in 1817; Gennaro, forty, in the same year — but no line yet joins them to\n    Costanza."
   },
   {
    "sn": "ARRICALE",
@@ -247,25 +243,6 @@
    ]
   },
   {
-   "sn": "RUGGIERO",
-   "name": "Ruggiero",
-   "derived": true,
-   "see": [
-    [
-     "/crisci/",
-     "Crisci"
-    ],
-    [
-     "/ferrara/",
-     "Ferrara"
-    ],
-    [
-     "/processetti/",
-     "The Processetti"
-    ]
-   ]
-  },
-  {
    "sn": "DIGLIO",
    "name": "Diglio",
    "derived": true,
@@ -285,25 +262,6 @@
     [
      "/camellara/",
      "Strada Camellara"
-    ]
-   ]
-  },
-  {
-   "sn": "FALCONE",
-   "name": "Falcone",
-   "derived": true,
-   "see": [
-    [
-     "/marriages/",
-     "The Marriages"
-    ],
-    [
-     "/method/",
-     "Method"
-    ],
-    [
-     "/name/",
-     "The Name"
     ]
    ]
   },
@@ -340,25 +298,6 @@
     [
      "/which-falco/",
      "Which Falco?"
-    ]
-   ]
-  },
-  {
-   "sn": "COSSI",
-   "name": "Cossi",
-   "derived": true,
-   "see": [
-    [
-     "/crisci/",
-     "Crisci"
-    ],
-    [
-     "/rivetti/",
-     "Rivetti"
-    ],
-    [
-     "/method/",
-     "Method"
     ]
    ]
   }
