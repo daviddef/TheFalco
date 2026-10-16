@@ -631,6 +631,52 @@
 }
 },
 {
+"slug": "antonio-annecchino-of-carmine-annecchino-maria-giovanna-",
+"name": "Antonio Annecchino",
+"surname": "ANNECCHINO",
+"household": "Carmine Annecchino & Maria Giovanna Crisci",
+"hid": "carmine-annecchino-maria-giovanna-crisci",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "6 Sep 1883",
+"place": "Forchia",
+"evidence": "Born at **11.15 on the morning of 6 September 1883** and registered the same afternoon; act 35. *The same name had been given to a son of a Carmine Annecchino on 21 November 1880 — mother not read — which, if it is this house, means the first Antonio had died.*",
+"ark": "Antenati an_ud2011514 — Archivio di Stato di Benevento, Stato civile italiano, Forchia, Nati 1883, image 26, act 35 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "carmine-annecchino-of-carmine-annecchino-maria-giovanna-",
+"name": "Carmine Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-giovanna-crisci",
+"name": "Maria Giovanna Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "6 Sep 1883",
+"dateFrom": {
+"b": "act"
+}
+},
+{
 "slug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
 "name": "Carmine Annecchino",
 "surname": "ANNECCHINO",
@@ -658,6 +704,13 @@
 "place": "—",
 "evidence": "The same stone gives his death: **25 February 1943**, aged eighty-six. The register's last record of him is as the father of the child born in 1901. [The niche →](/documents/#annecchino-carmine-giacomo-niche)",
 "ark": "Family papers — photograph of a cemetery niche (the cemetery is not named in the photograph) — READ FROM THE IMAGE"
+},
+{
+"event": "age stated in the act",
+"date": "18 Sep 1883",
+"place": "Forchia",
+"evidence": "**«ANNECCHINO CARMINE, DI ANNI VENTISETTE, CONTADINO, DOMICILIATO IN FORCHIA».** Forchia, *Nati* **1883**, **act 37** (registered 21 September): «*… è comparso **Annecchino Carmine** di anni **ventisette**, *contadino*, domiciliato in Forchia, il quale mi ha dichiarato che alle ore pomeridiane **tre** e minuti **trenta** del dì **diciotto** del corrente mese, nella casa posta in [a masseria] … da **Carfora Maria** sua moglie, contadina, perché convivente, è nato un bambino di sesso **femminile** … **Giacinta***». Witnesses Francesco Ferraro, the municipal servant, and Antonio Stroffolino, a carter. *Read from the image.*\n\n**Twenty-seven in September 1883 puts his birth in 1855 or 1856 — a year or so before the stone's «26·1·1857».** *This archive's rule is that ages in these acts are guessed (see «ages are guessed»), so the difference is not an objection.* **But it is not a confirmation either, and the identification of the man in the niche with this father stays an inference.** *And twelve days earlier a second Carmine Annecchino, aged thirty, declared a son at the same office — see [the other household](/people/carmine-annecchino-of-carmine-annecchino-maria-giovanna-/).* [The act →](/documents/#forchia-1883-act37-annecchino-giacinta)",
+"ark": "Antenati an_ud2011514 — Archivio di Stato di Benevento, Stato civile italiano, Forchia, Nati 1883, image 28, act 37 — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -893,6 +946,49 @@
 "dateFrom": {
 "d": "act"
 }
+},
+{
+"slug": "carmine-annecchino-of-carmine-annecchino-maria-giovanna-",
+"name": "Carmine Annecchino",
+"surname": "ANNECCHINO",
+"household": "Carmine Annecchino & Maria Giovanna Crisci",
+"hid": "carmine-annecchino-maria-giovanna-crisci",
+"role": "father",
+"events": [
+{
+"event": "age stated in the act",
+"date": "6 Sep 1883",
+"place": "Forchia",
+"evidence": "**A SECOND CARMINE ANNECCHINO AT FORCHIA, THE SAME MONTH AS THE FIRST.** Forchia, *Nati* **1883**, **act 35**: «*L'anno milleottocento ottantatre, addì **sei** di Settembre, a ore pomeridiane quattro e minuti venti, nella Casa comunale … è comparso **Annecchino Carmine** di anni **TRENTA**, *contadino*, domiciliato in Forchia, il quale mi ha dichiarato che alle ore antimeridiane **undici** e minuti **quindici** del dì **sei** del corrente mese, nella casa posta in via [Mis…] al numero **cinque**, da **Crisci Maria Giovanna** sua moglie, contadina, seco lui convivente, è nato un bambino di sesso **maschile** … **Antonio***». *Read from the image; the name of the street is not certain.*\n\n**Eleven days later, in act 37 of the same register, a Carmine Annecchino of twenty-seven declares a daughter by Maria CARFORA.** *A man is not thirty and twenty-seven in one fortnight, and he does not have two wives who are both living with him: these are TWO MEN.* **The archive's earlier note — that the Crisci household «may be the same man remarried» — is answered, and the answer is no.** *They were born about three years apart (c. 1853 and c. 1856, by the ages the clerk wrote) and are not shown to be related.*\n\n**The Forchia name index lists two more births to a father of the name — 7 June 1878 (Maria Filomena) and 21 November 1880 (Antonio) — whose mothers have not been read. They are not attributed to either man here.** [The act →](/documents/#forchia-1883-act35-annecchino-antonio)",
+"ark": "Antenati an_ud2011514 — Archivio di Stato di Benevento, Stato civile italiano, Forchia, Nati 1883, image 26, act 35 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "maria-giovanna-crisci",
+"name": "Maria Giovanna Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "antonio-annecchino-of-carmine-annecchino-maria-giovanna-",
+"name": "Antonio Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
 },
 {
 "slug": "carmine-annecchino-annecchino",
@@ -11863,6 +11959,49 @@
 ]
 }
 ]
+},
+{
+"slug": "maria-giovanna-crisci",
+"name": "Maria Giovanna Crisci",
+"surname": "CRISCI",
+"household": "Carmine Annecchino & Maria Giovanna Crisci",
+"hid": "carmine-annecchino-maria-giovanna-crisci",
+"role": "mother",
+"events": [
+{
+"event": "named",
+"date": "—",
+"place": "Forchia",
+"evidence": "Named as the mother, «sua moglie, contadina, seco lui convivente», in act 35. No age is given for her.",
+"ark": "Antenati an_ud2011514 — Archivio di Stato di Benevento, Stato civile italiano, Forchia, Nati 1883, image 26, act 35 — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "carmine-annecchino-of-carmine-annecchino-maria-giovanna-",
+"name": "Carmine Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "antonio-annecchino-of-carmine-annecchino-maria-giovanna-",
+"name": "Antonio Annecchino",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
 },
 {
 "slug": "marta-crisci",

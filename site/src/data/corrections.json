@@ -4355,5 +4355,15 @@
   "what": "THE 1956 PASSENGER LIST «COULD NOT BE READ» — IT CAN, AND IT IS CONSISTENT WITH CARMINE AND PROVES NOTHING",
   "was": "This archive's notes said the scan of the Castel Bianco list **«cannot be pulled»** — that the transfer died at 1,590,848 bytes and that the scans were progressive JPEGs which truncated to blank grey — and that the page \"would give his age\".",
   "now": "**The page is a complete baseline JPEG of 1,590,848 bytes; the error fired after the last byte, and the earlier attempts threw the finished file away.** Page 21, line 794: **FALCO, Carmine — Naples to Sydney, address «?6 Str. Warreg Valley».** **The form has no age column**, so the page \"would give his age\" was also wrong: it can neither confirm nor contradict a birth in 1930. The identification stays **consistent, not proved**. The notes on how these scans are read have been corrected."
+ },
+ {
+  "when": "2026-10-17",
+  "sev": "finding",
+  "where": "/annecchino",
+  "plate": "forchia-1883-act35-annecchino-antonio.jpg",
+  "by": "reading Forchia's births of 1883 and 1854–1860",
+  "what": "TWO CARMINE ANNECCHINO WERE FATHERS AT FORCHIA IN SEPTEMBER 1883 — THE «SAME MAN REMARRIED» WAS WRONG, AND THE 1857 BIRTH IS NOT AT FORCHIA",
+  "was": "The Annecchino note held that Carmine Annecchino × Maria Giovanna Crisci «may be the same man» as Carmine Annecchino × Maria Carfora «remarried». The niche's «26 · 1 · 1857» was given to the Carfora Carmine as his birth, with a Forchia act to be read.",
+  "now": "Act 35 (6 September 1883): **Carmine Annecchino, aged thirty,** wife **Maria Giovanna Crisci,** son Antonio. Act 37 (18 September): **Carmine Annecchino, aged twenty-seven,** wife **Maria Carfora,** daughter Giacinta. **Two men, living at once.** The Crisci household has its own page. *And the 1857 volume of Forchia's births holds no Annecchino and no act in January; the neighbouring years show none either.* The niche's date stays on the page as what it is — a date on stone for the man who shares a niche with his son Giacomo — and **where he was born is not known**."
  }
 ]

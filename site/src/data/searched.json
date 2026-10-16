@@ -2566,5 +2566,43 @@
   ],
   "walked": false,
   "pages": "21"
+ },
+ {
+  "when": "1883",
+  "searchedOn": "2026-10-17",
+  "provider": "antenati",
+  "film": "Forchia — Nati 1883",
+  "waypoint": "",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ud2011514/",
+  "pages": "26, 28, 41",
+  "walked": false,
+  "src": "**FORCHIA, NATI 1883 — acts 35 and 37 read from the image**, and the volume's own alphabetical table (image 41) read to find them. Both Annecchino births of September 1883 are named in the Forchia name index with the same father's name and DIFFERENT mothers.",
+  "what": "Whether the Carmine Annecchino who fathered Antonio (mother Crisci) on 6 Sep 1883 is the Carmine who fathered Giacinta (mother Carfora) on 18 Sep 1883 — a question the archive could only guess at.",
+  "got": "**Two men.** Act 35: Carmine, aged **thirty**, wife Maria Giovanna Crisci. Act 37: Carmine, aged **twenty-seven**, wife Maria Carfora. The register is laid out one act per half-page, two to a page; act numbers run to 45 with a supplement from image 31.",
+  "outcome": "found",
+  "tags": [
+   "Antenati",
+   "Forchia",
+   "Annecchino"
+  ]
+ },
+ {
+  "when": "1854–1860",
+  "searchedOn": "2026-10-17",
+  "provider": "antenati",
+  "film": "Forchia — Nati 1854–1860",
+  "waypoint": "",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua29086/",
+  "pages": "1857: title, tavola, every act's date line",
+  "walked": false,
+  "src": "**FORCHIA, NATI 1857 — all 41 acts' date lines and the annual table read; the tables of 1854, 1855, 1856, 1858, 1859 and 1860 read at their first rows.** Labels resolved from the manuscripts, not by arithmetic: 1857 = an_ua29086 (26 images), 1854–1856 = an_ua29083–29085, 1858–1860 = an_ua29087–29089.",
+  "what": "The birth act of Carmine Annecchino, 26 January 1857 — the date on a cemetery niche.",
+  "got": "**NO ANNECCHINO BIRTH AT FORCHIA, 1854–1860.** The 1857 volume has 41 acts and its first is dated **3 February**, so no January act exists; its table starts at Buffolino and lists no Annecchino; the others begin at Capasso, Buffolino, Barecchia or Affinita and show none. *Not read: 1853 and earlier; the later tavola rows of 1854–1856 and 1858–1860 (an Annecchino would sort at the top, so the first rows suffice); registers of the neighbouring towns.* **The niche's date does not describe a child registered at Forchia, or the man was born elsewhere, or the stone's date is not his birth.**",
+  "outcome": "nothing",
+  "tags": [
+   "Antenati",
+   "Forchia",
+   "Annecchino"
+  ]
  }
 ]
