@@ -94,6 +94,8 @@ def citation_strings(events):
         low = a.lower()
         if "an_ua" in low or "an_ud" in low or "antenati" in low:
             out.append("antenati.cultura.gov.it " + a)
+        elif re.search(r"\bnaa\b", low) or "recordsearch" in low:
+            out.append("recordsearch.naa.gov.au " + a)         # National Archives of Australia
         elif _FS_ARK.match(a) or low.startswith("ark:/61903") or "familysearch" in low:
             out.append("familysearch.org/ark:/61903/3:1:" + a if _FS_ARK.match(a) else a)
         else:

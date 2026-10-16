@@ -3,7 +3,7 @@
 
 A living person (80 or younger with no death recorded — the kit's one rule,
 applied by tools/build_people.py) is named here with their relationships and
-their town and country, and nothing more: no date, no record. A possible minor
+their town and country, and nothing more: no date, no record. An undated person with a living parent
 is held out and appears nowhere. Who is living and who is held out is READ from
 site/src/data/people.json, not decided in this file."""
 import json, re, collections, os
@@ -31,7 +31,7 @@ def _is_placeholder(n):
     return (not n) or n.lower().startswith("unknown") or "[" in n
 
 # A tree person who is not a placeholder and has no record in people.json is held
-# out (a possible minor): they are removed from this build altogether, and so are
+# out (undated, with a living parent): they are removed from this build altogether, and so are
 # the edges to them, so that nothing here can name them or be reached through them.
 HELD = {p["id"] for p in TREE if not _is_placeholder(p.get("name")) and p["id"] not in ARCH}
 TREE = [p for p in TREE if p["id"] not in HELD]
@@ -105,8 +105,8 @@ SPOUSE = {"His wife", "Her husband", "His ex-wife", "Her ex-husband",
 # Descent instead:
 #   BLOOD    born Falco, or descended from someone who was. A Falco daughter's
 #            children are Falco by blood whatever surname they carry — which is
-#            how a Mazza descendant qualifies, through a great-grandmother who
-#            was born a Falco.
+#            how Mia and Rocco Mazza qualify, through their great-grandmother
+#            Giuseppina Falco.
 #   MARRIED  married somebody in BLOOD.
 #   KIN      the blood family a MARRIED person came from — their parents,
 #            siblings and descendants. This is what "the Annecchino" means.

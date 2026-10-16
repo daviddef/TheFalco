@@ -37,8 +37,9 @@ the living-people standard, version 2, which David set on 16 October 2026. Who
 is living is NOT decided here: it is the kit's one rule (kit/tools/living_rule.py,
 reached through tools/living_v2.py) — born 80 years ago or less, with no death or
 burial recorded, and no public source. The tree's own `alive` flag, which marks a
-man born in 1832 as alive, is not the test. Possible minors are held out: they
-get no page and are not named as anybody's relative.
+man born in 1832 as alive, is not the test. A child with a KNOWN birth year is
+living like anyone else (a page, noindex, no dates). Only an undated person with a
+living parent is held out: no page, and not named as anybody's relative.
 """
 import json, re, collections, os, unicodedata, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -1326,9 +1327,10 @@ for r in people.values():
 
 # ------------------------------------------------------------- HELD OUT
 #
-# Possible minors are not published at all — no page, and not named as anyone's
-# relative: a person not recorded dead and with no public source who is under 18
-# by year, or who has no birth year and a living parent. The kit's rule decides;
+# An undated person who might be a child is not published at all — no page, and
+# not named as anyone's relative: not recorded dead, no public source, no birth
+# year, and a living parent. (A child with a known birth year is NOT held out; he
+# or she is living like anyone else.) The kit's rule decides;
 # this applies it to the graph that has just been built, so «a living parent» is
 # the parent as the graph records them (tree, register or line).
 _held_slugs, _held_tids = set(), set()
@@ -1348,7 +1350,7 @@ for _tid in list(slug_of_tree):
 for _r in people.values():
     for _b in ("parents", "spouses", "children", "siblings"):
         _r[_b] = [e for e in _r[_b] if e["slug"] not in _held_slugs]
-print(f"  held out (possible minors, no page and no name anywhere): {len(_held_slugs)}")
+print(f"  held out (undated, with a living parent: no page and no name anywhere): {len(_held_slugs)}")
 
 # ------------------------------------------------------------- self-check
 #
@@ -1648,7 +1650,7 @@ if os.path.exists(_SLUG_LOG):
     with open(_SLUG_LOG, encoding="utf-8") as fh:
         _known = {l.strip() for l in fh if l.strip() and not l.startswith("#")}
 # A HELD-OUT PERSON'S ADDRESS IS NOT A PROMISE THIS ARCHIVE KEEPS. The ledger is
-# a public file, and a slug is a name: leaving a possible minor's here would
+# a public file, and a slug is a name: leaving a held-out person's here would
 # publish them. Their slugs are removed from the ledger, from the frozen-slug
 # file and from the redirects (counts only are printed), and their old URLs
 # simply stop existing. That is the purpose of holding them out.
