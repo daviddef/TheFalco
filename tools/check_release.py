@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Refuse to ship a build that breaks the living-people rule.
 
-David's rule is absolute: living people are named and NOTHING MORE — no date of
-birth, no place, no record, no photograph. It has been broken three times with
-the same date, twice by code that looked correct in the source:
+The rule (standard v2, 16 October 2026): a living person is a name, their
+relationships and their town and country, and NOTHING MORE — no date of birth, no
+record, no photograph, no structured data. Their page is noindex. This gate guards
+the part of that which has been broken before: a DATE. It has been broken three
+times with the same date, twice by code that looked correct in the source:
 
   1. really_living() reused the ancestor filter for redaction
   2. the timeline positioned living generations at pos(1955) — leaked via geometry
@@ -12,6 +14,12 @@ the same date, twice by code that looked correct in the source:
 Every one of those was found by reading the BUILT HTML, not the source. So this
 runs against site/dist and exits non-zero if it finds anything. It is the last
 gate before a release, and it is meant to be annoying.
+
+Who is living is NOT decided here any more. tools/check_living_v2.py recomputes it
+from the kit's one rule and checks everything else the standard asks (town and
+country only, noindex, sitemap, search index, held-out people, a page for every
+named person). This file keeps its date guard, its household-file sync checks and
+its self-tests.
 """
 import json, glob, os, re, sys
 
@@ -82,7 +90,7 @@ def main():
     # 1. the graph itself must carry no date for anyone living
     for p in living:
         if p.get("events") or p.get("b") or p.get("d"):
-            fails.append(f"people.json: {p['slug']} is living and carries a date/event")
+            fails.append(f"people.json: living person (tree id {p.get('treeId')}) carries a date/event")
 
     # 2. a living person's own dates, from the tree, must not sit beside their name
     # The tree export is the private source: it carries every living person in
@@ -114,8 +122,27 @@ def main():
               r"January|February|March|April|June|July|August|September|October|November|December|"
               r"Gennaio|Febbraio|Marzo|Aprile|Maggio|Giugno|Luglio|Agosto|Settembre|Ottobre|Novembre|Dicembre")
     FULL = re.compile(r"\b\d{1,2}\s+(?:" + MONTHS + r")[a-z]*\.?\s+(?:1[89]\d\d|20\d\d)\b")
+    # THE TREE WRITES A DATE THE AMERICAN WAY — «[withheld]», «[withheld]» — and
+    # the pattern above reads only «[withheld]». Until 16 October 2026 this guard
+    # therefore harvested NOTHING from the tree, printed «NONE DO» and meant it,
+    # and would have missed a living person's tree date printed in the tree's own
+    # form. Both forms are harvested now, and each is guarded in both spellings.
+    US = re.compile(r"\b(" + MONTHS + r")[a-z]*\.?\s+(\d{1,2}),?\s+(1[89]\d\d|20\d\d)\b")
 
-    lower = {n.strip().lower() for n in liv_names}
+    def _forms(val):
+        """Every spelling of the full dates in `val` that must not reach a page."""
+        out = []
+        v = str(val or "")
+        for m in FULL.finditer(v):
+            out.append(m.group(0))
+        for m in US.finditer(v):
+            mon, day, yr = m.group(1), m.group(2), m.group(3)
+            out.append(m.group(0))
+            out.append(f"{day} {mon} {yr}")
+        return out
+
+    # the same normalisation _harvest and line.json use below: a married name's bracket is not part of the key
+    lower = {n.split(" (")[0].strip().lower() for n in liv_names}
     forbidden = {}                      # exact string -> whose it is
 
     for g in load("line.json"):         # the spine: a living generation's own dates
@@ -140,9 +167,8 @@ def main():
             if nm.lower() not in lower:
                 continue
             for k in ("b", "d"):
-                m = FULL.search(str(x.get(k) or ""))
-                if m:
-                    got[m.group(0)] = f"{nm} ({label} {k})"
+                for form in _forms(x.get(k)):
+                    got[form] = f"{nm} ({label} {k})"
         return got
 
     forbidden.update(_harvest(tree, "tree"))
@@ -189,7 +215,8 @@ def main():
 
     if not forbidden and lower:
         _probe = _harvest([{"name": sorted(lower)[0], "b": "1 January 1801"}], "self-test")
-        if not _probe:
+        _probe_us = _harvest([{"name": sorted(lower)[0], "b": "January 1 1801"}], "self-test")
+        if not _probe or not _probe_us:
             fails.append("THE DATE GUARD CANNOT FIRE. It reports no dates to watch, and a "
                          "synthetic date on a known living person did not register either — "
                          "so the empty result is not evidence that the rule is being kept.")
@@ -199,7 +226,11 @@ def main():
         txt = flat(open(f, encoding="utf-8", errors="replace").read())
         for d, whose in forbidden.items():
             if d in txt:
-                fails.append(f"{os.path.relpath(f, DIST)}: contains '{d}' — {whose} IS LIVING")
+                # NOTHING OF A LIVING PERSON GOES IN THE LOG: this gate's output is
+                # a public CI log, so the date and the name are not printed, only
+                # which page and which source field.
+                fails.append(f"{os.path.relpath(f, DIST)}: contains a full date the tree gives a "
+                             f"LIVING person ({whose.split('(', 1)[-1].rstrip(')')})")
 
     # NAME WHAT WAS EXAMINED, NOT WHAT WAS HANDED.
     #
@@ -224,8 +255,8 @@ def main():
           + f" — examined {len(lower)} distinct living name(s) for {len(living)} living people"
           + (f", {len(living) - len(lower)} of whom share a name with another"
              if len(living) > len(lower) else ", none of whom share a name")
-          + f"; {len(forbidden)} of those names carry a date"
-          + (": " + ", ".join(sorted(forbidden)) if forbidden
+          + f"; {len(forbidden)} date spelling(s) are guarded"
+          + ("" if forbidden
              else "; NONE DO, so this guard has nothing to watch and said so"))
 
     # 3. every living person's own page must be noindexed
@@ -237,7 +268,7 @@ def main():
         if slug in person_pages:
             _matched.add(slug)
             if 'content="noindex' not in raw:
-                fails.append(f"{os.path.relpath(f, DIST)}: living person's own page is INDEXED")
+                fails.append(f"{os.path.relpath(f, DIST).replace(slug, '<living>')}: living person's own page is INDEXED")
 
     # AND SAY HOW MANY OF THEM IT ACTUALLY FOUND — work-list row 98.
     #
