@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import Sources from "@daviddef/archive-kit/components/Sources.astro";
 import { u } from "../lib/url.js";
+import { md } from "../lib/md.js";
 const REPO = "https://github.com/daviddef/TheFalco";
 import sources from "../data/sources.json";
 import searched from "../data/searched.json";
@@ -55,10 +56,10 @@ const groups = ORDER.map((g) => ({
     // an unverified link is worse on a sources page than none.
     url: s.url,
     held: s.held,
-    what: s.d,
+    what: md(s.d, u),
     cites: cites(s.id),
-    carries: "<strong>What it established:</strong> " + s.use,
-    note: s.note,
+    carries: "<strong>What it established:</strong> " + md(s.use, u),
+    note: s.note ? md(s.note, u) : s.note,
   })),
 }));
 

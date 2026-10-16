@@ -3,7 +3,7 @@ import Base from "../layouts/Base.astro";
 import Searched from "@daviddef/archive-kit/components/Searched.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
-import { md } from "../lib/md.js";
+import { md, bare } from "../lib/md.js";
 import raw from "../data/searched.json";
 import nf from "../data/namefold.json";   /* variant -> canonical, for search only */
 const REPO = "https://github.com/daviddef/TheFalco";
@@ -25,7 +25,7 @@ const REPO = "https://github.com/daviddef/TheFalco";
 /* The kit takes `what` and `got` as HTML the archive has already rendered and
    based with its own helpers, so they go through md() here rather than being
    escaped into literal asterisks and backticks. */
-const rows = raw.map((r) => ({ ...r, what: md(r.what, u), got: md(r.got, u) }));
+const rows = raw.map((r) => ({ ...r, src: bare(r.src), what: md(r.what, u), got: md(r.got, u) }));
 const NIL = ["no Falco", "not there", "nothing"];
 const nils = raw.filter((r) => NIL.includes(r.outcome)).length;
 const full = raw.filter((r) => (r.tags || []).includes("read in full")).length;

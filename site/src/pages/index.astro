@@ -11,6 +11,7 @@ import { chartGroups } from "../lib/marriedin.js";
 import atlas from "../../public/atlas-data.json";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
+import { md } from "../lib/md.js";
 import Tributaries from "../components/Tributaries.astro";
 import Strands from "../components/Strands.astro";
 import households from "../data/households.json";
@@ -153,7 +154,7 @@ const descentRows = line.map((g) => {
     herSiblings: kin(hers, "siblings"),
     hisLabel: String(g.name).split(" ")[0] + "\u2019s",
     herLabel: g.spouse ? String(g.spouse).split(" ")[0] + "\u2019s" : "Hers",
-    note: g.note || "",
+    note: md(g.note || "", u),
   };
 });
 

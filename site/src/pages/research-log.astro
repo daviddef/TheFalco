@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import { md } from "../lib/md.js";
 import log from "../data/researchlog.json";
 import searched from "../data/searched.json";
 const GH = "https://github.com/daviddef/TheFalco/blob/main/notes/";
@@ -91,7 +92,7 @@ const readVols = (() => {
       {other.map((r) => (
         <tr>
           <td><a href={GH + r.file} rel="noopener"><strong>{r.file}</strong> ↗</a></td>
-          <td class="small">{r.lead || r.title}</td>
+          <td class="small" set:html={md(r.lead || r.title, u)} />
         </tr>
       ))}
     </tbody>

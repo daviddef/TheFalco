@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
+import { md } from "../lib/md.js";
 import plates from "../data/plates.json";
 const naa = [
   ["J25","1971/9830","Falco, Carmine; wife Francesca [nee Zampiello]; and child Giuseppina [known as Josephine]","1957–1977","5115541"],
@@ -130,7 +131,7 @@ const graves = [
         <img src={u("/plates/" + p.f)} alt={p.t} loading="lazy"
              style="width:100%;height:auto;border-radius:.35rem;display:block" />
         <figcaption style="margin-top:.6rem">
-          <strong>{p.t}</strong><br/><span class="small">{p.c}</span>
+          <strong>{p.t}</strong><br/><span class="small" set:html={md(p.c, u)} />
         </figcaption>
       </figure>
     ))}

@@ -23,7 +23,7 @@
  */
 import Base from "../../layouts/Base.astro";
 import Descent from "@daviddef/archive-kit/components/Descent.astro";
-import { u } from "../../lib/url.js";
+import { u, plainHref } from "../../lib/url.js";
 import fams from "../../data/families.json";
 import { people } from "../../lib/people.js";
 
@@ -51,7 +51,7 @@ const { fam } = Astro.props;
    through `set:html` raw does not, and the link checker caught three.
    The same one-line fix, kept here beside the prose it repairs. */
 const B = u("/");
-const fixHref = (x) => String(x ?? "").replace(/href=(['"])\//g, `href=$1${B}`);
+const fixHref = (x) => plainHref(x).replace(/href=(['"])\//g, `href=$1${B}`);
 
 const norm = (s) =>
   String(s || "").trim().toUpperCase()

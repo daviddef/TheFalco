@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import { md } from "../lib/md.js";
 import sources from "../data/sources.json";
 import log from "../data/researchlog.json";
 import D from "../data/diaspora.json";
@@ -40,8 +41,8 @@ const procVols = D.processetti.reduce((a, r) => a + (+r.processetti_volumes || 0
           {sources.filter((s) => s.g === g).map((s) => (
             <tr>
               <td><strong>{s.t}</strong>{s.id ? <><br/><span class="small mono">{s.id}</span></> : null}</td>
-              <td class="small">{s.d}</td>
-              <td class="small">{s.use}</td>
+              <td class="small" set:html={md(s.d, u)} />
+              <td class="small" set:html={md(s.use, u)} />
             </tr>
           ))}
         </tbody>

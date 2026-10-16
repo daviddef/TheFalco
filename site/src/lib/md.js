@@ -22,11 +22,35 @@
 export const esc = (t) =>
   String(t ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-export const md = (t, u) =>
-  esc(t)
-    .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g,
-      (_, a, b) => `<a href="${b.startsWith("/") && u ? u(b) : b}">${a}</a>`)
+/* The markers only, on text that is ALREADY html-safe (data pre-escaped for
+   set:html, as changes.json is): bold, italic, code, and nothing else touched. */
+export const marks = (html) =>
+  String(html ?? "")
     .replace(/\*\*([\s\S]+?)\*\*/g, "<strong>$1</strong>")
     .replace(/\*([^*\n]+)\*/g, "<em>$1</em>")
-    .replace(/`([^`]+)`/g, "<code>$1</code>")
+    .replace(/`([^`]+)`/g, "<code>$1</code>");
+
+const inline = (t, u) =>
+  marks(esc(t))
+    .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g,
+      (_, a, b) => `<a href="${b.startsWith("/") && u ? u(b) : b}">${a}</a>`)
     .replace(/\n\s*\n/g, "<br><br>");
+
+/* A fenced block (three backticks) is code, not two stray backticks either side
+   of an inline span: it comes out as <pre>, escaped and untouched. */
+export const md = (t, u) =>
+  String(t ?? "")
+    .split(/(```[^\n]*\n[\s\S]*?\n?```)/)
+    .map((part, i) => i % 2
+      ? "<pre><code>" + esc(part.replace(/^```[^\n]*\n/, "").replace(/\n?```$/, "")) + "</code></pre>"
+      : inline(part, u))
+    .join("");
+
+/* The words without the markers, for a component that escapes its text (the
+   kit's Searched prints `src` through esc()): keeps every word and every «»,
+   drops only the paired ** / * and the backticks. */
+export const bare = (t) =>
+  String(t ?? "")
+    .replace(/\*\*([\s\S]+?)\*\*/g, "$1")
+    .replace(/\*([^*\n]+)\*/g, "$1")
+    .replace(/`/g, "");

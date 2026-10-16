@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import { md } from "../lib/md.js";
 import Gallery from "@daviddef/archive-kit/components/Gallery.astro";
 import plates from "../data/plates.json";
 
@@ -20,7 +21,7 @@ const n = (k) => rows.filter((r) => (r.k || "other") === k).length;
 const sheet = rows.map((r) => ({
   src: u("/plates/" + r.f),
   title: r.t,
-  what: r.c,
+  what: md(r.c, u),
   kind: KIND[r.k] || r.k || "other",
   when: r.when,
   source: r.cite,

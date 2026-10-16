@@ -3,7 +3,7 @@ import Base from "../layouts/Base.astro";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
-import { md } from "@daviddef/archive-kit/lib/md.js";
+import { md } from "../lib/md.js";
 import line from "../data/line.json";
 import { people } from "../lib/people.js";
 /* Whether a generation is living is decided by the person graph, not by a hand
@@ -94,7 +94,7 @@ const withSpouse = (g) => ({
     confidence: g.confidence,
     weak: g.gen === 1,
     weakNote: "The line stops here: no record names this man's father.",
-    note: g.note || "",
+    note: md(g.note || "", u),
   }))} />
 
   <h2>The welds</h2>

@@ -1,7 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import Families from "@daviddef/archive-kit/components/Families.astro";
-import { u } from "../lib/url.js";
+import { u, plainHref } from "../lib/url.js";
 import register from "../data/register.json";
 import households from "../data/households.json";
 import line from "../data/line.json";
@@ -65,7 +65,7 @@ const groups = [{
         Praw(b) ? `<a href="${Praw(b)}">${b}</a>` : b,
       ]),
     },
-    note: f.body + (f.note ? ` ${f.note}` : ""),
+    note: plainHref(f.body + (f.note ? ` ${f.note}` : "")),
     /* Each family now has a page of its own listing every person of the
        name, drawn with the same Descent row as the front page. */
     href: `/families/${slugify(f.sn)}/`,

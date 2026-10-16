@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import { md } from "../lib/md.js";
 import Documents from "@daviddef/archive-kit/components/Documents.astro";
 import plates from "../data/plates.json";
 const REPO = "https://github.com/daviddef/TheFalco";
@@ -37,7 +38,7 @@ const index = [...registers, ...photos].map((p) => ({
       <figcaption>
         <h3>{p.t}</h3>
         {p.when ? <p class="small mono">{p.when}</p> : null}
-        <p>{p.c}</p>
+        <p set:html={md(p.c, u)} />
         <p class="small">{p.cite}</p>
         {p.see ? <p class="small"><a href={u(p.see)}>Read the act in full →</a></p> : null}
       </figcaption>
@@ -56,7 +57,7 @@ const index = [...registers, ...photos].map((p) => ({
         <img src={u("/plates/" + p.f)} alt={p.t} loading="lazy"
              style="width:100%;height:auto;border-radius:.35rem;display:block" />
         <figcaption style="margin-top:.6rem">
-          <strong>{p.t}</strong><br/><span class="small">{p.c}</span>
+          <strong>{p.t}</strong><br/><span class="small" set:html={md(p.c, u)} />
         </figcaption>
       </figure>
     ))}

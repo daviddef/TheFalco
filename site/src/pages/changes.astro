@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import Changes from "@daviddef/archive-kit/components/Changes.astro";
 import { u } from "../lib/url.js";
+import { marks } from "../lib/md.js";
 import changes from "../data/changes.json";
 const KIND = { sweep: "a register read", find: "a find", fix: "a fix or a withdrawal",
                site: "the site itself", other: "other" };
@@ -38,7 +39,7 @@ const REPO = "https://github.com/daviddef/TheFalco/commit/";
     entries: d.rows.map((c) => ({
       title: c.title,
       kind: KIND[c.kind] || c.kind,
-      did: c.summary || "",
+      did: marks(c.summary || ""),
       href: REPO + c.sha,
     })),
   }))} />
