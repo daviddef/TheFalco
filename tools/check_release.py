@@ -162,6 +162,14 @@ def main():
                 if m:
                     forbidden[m.group(0)] = f"{g.get('name')} (line.json {k})"
 
+    # A LIVING PERSON'S DATES ARE THE DATES OF THEIR OWN TREE ROW, NOT OF A DEAD NAMESAKE. The tree rows carry an
+    # id, and people.json carries the same id for each living person (treeId), so a row with an id is taken only
+    # when it IS a living person's. (17 October 2026: once a living Rosa and a living Giuseppe shared a name with
+    # dead people of 1875 and 1871, matching on the name alone flagged those dead people's own, published dates as a
+    # living person's, and failed the build on 14 pages.) A row with no id (the synthetic probe below, line.json's
+    # spine) still matches by name, as before.
+    living_ids = {p.get("treeId") for p in living if p.get("treeId") is not None}
+
     def _harvest(rows, label):
         """Pull every full date a LIVING person carries out of `rows`.
 
@@ -174,6 +182,8 @@ def main():
             nm = str(x.get("name", "")).split(" (")[0].strip()
             if nm.lower() not in lower:
                 continue
+            if x.get("id") is not None and x["id"] not in living_ids:
+                continue                        # a dead person who shares a living person's name
             for k in ("b", "d"):
                 for form in _forms(x.get(k)):
                     got[form] = f"{nm} ({label} {k})"

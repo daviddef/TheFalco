@@ -942,6 +942,12 @@ def _child_birth_year(tid):
         y = ys[0] if ys else None
     return y
 YOUNGEST_CHILD = lv.youngest_child_years(tree, _child_birth_year)
+# UNDATED PEOPLE TREATED AS LIVING BY INFERENCE (David, 17 October 2026): data/living-by-inference.json, by tree id.
+# The kit calls an undated person not living; for a tree-only branch whose recorded ancestors were born in the
+# 1920s that is almost certainly wrong, and a dead person shown with a name is a smaller harm than a living
+# person's page indexed. Until David rules otherwise they are said to be living, and the kit's rule does the rest.
+SAID_LIVING = lv.inferred_living_ids()
+print(f"  treated as living by inference (data/living-by-inference.json): {len(SAID_LIVING)}")
 
 for k in hh_order:
     p = hh_people[k]
@@ -1035,7 +1041,8 @@ for p in tree:
         _dead = True                       # the archive's own line records the death
     _cites = lv.citation_strings(r["events"])
     EVIDENCE[slug] = (tid, _by, _dead, _cites)
-    r["living"] = bool(lr.is_living(_by, _dead, _cites, lv.THIS_YEAR, youngest_child_year=YOUNGEST_CHILD.get(tid)))
+    r["living"] = bool(lr.is_living(_by, _dead, _cites, lv.THIS_YEAR, youngest_child_year=YOUNGEST_CHILD.get(tid),
+                                    said_living=(tid in SAID_LIVING)))
     if r["living"]:
         # a name, the place in the family (the edges, below) and a town and
         # country. Deliberate, and nothing else: no b, d, bp, dp, no events.

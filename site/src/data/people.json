@@ -4224,7 +4224,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [],
 "spouses": [
 {
@@ -4236,26 +4236,11 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "rene-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rachel-carmen-falco",
-"name": "[withheld] (Hale)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [],
-"treeId": 4000101
+"treeId": 4000101,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "carmela-buono",
@@ -8742,7 +8727,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [
 {
 "slug": "clemente-crisci",
@@ -8781,7 +8766,9 @@
 ]
 }
 ],
-"treeId": 4000420
+"treeId": 4000420,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "alessandra-crisci",
@@ -10118,7 +10105,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [
 {
 "slug": "clemente-crisci",
@@ -10157,7 +10144,9 @@
 ]
 }
 ],
-"treeId": 4000422
+"treeId": 4000422,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "camilla-crisci",
@@ -12048,7 +12037,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [
 {
 "slug": "clemente-crisci",
@@ -12087,7 +12076,9 @@
 ]
 }
 ],
-"treeId": 4000421
+"treeId": 4000421,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "nicola-crisci-of-vincenzo-falco-andreana-crisci",
@@ -16401,108 +16392,6 @@
 }
 },
 {
-"slug": "kye-ellevsen",
-"name": "[withheld]",
-"surname": "ELLEVSEN",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "scott-ellevsen",
-"name": "Scott Ellevsen",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "connie-militano",
-"name": "Connie Militano (Ellevsen)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "xylia-ellevsen",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "lilith-ellevsen",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000726
-},
-{
-"slug": "lilith-ellevsen",
-"name": "[withheld]",
-"surname": "ELLEVSEN",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "adam",
-"name": "Adam",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "connie-militano",
-"name": "Connie Militano (Ellevsen)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "xylia-ellevsen",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "kye-ellevsen",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000723
-},
-{
 "slug": "scott-ellevsen",
 "name": "Scott Ellevsen",
 "surname": "ELLEVSEN",
@@ -16512,7 +16401,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [],
 "spouses": [
 {
@@ -16524,69 +16413,11 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "kye-ellevsen",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [],
-"treeId": 4000725
-},
-{
-"slug": "xylia-ellevsen",
-"name": "[withheld]",
-"surname": "ELLEVSEN",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "adam",
-"name": "Adam",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "connie-militano",
-"name": "Connie Militano (Ellevsen)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
 "children": [],
-"siblings": [
-{
-"slug": "lilith-ellevsen",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "kye-ellevsen",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000722
+"siblings": [],
+"treeId": 4000725,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "angela-espositella",
@@ -19129,7 +18960,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [
 {
 "slug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
@@ -19158,24 +18989,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "rene-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rachel-carmen-falco",
-"name": "[withheld] (Hale)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "giuseppina-falco",
@@ -19194,7 +19008,9 @@
 ]
 }
 ],
-"treeId": 4000027
+"treeId": 4000027,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "angelo-falco-2",
@@ -20666,7 +20482,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [
 {
 "slug": "raffaele-falco",
@@ -20695,32 +20511,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "catherine-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "stephen-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "daniella-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "filomena-simonetta",
@@ -20747,7 +20538,9 @@
 ]
 }
 ],
-"treeId": 4000223
+"treeId": 4000223,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
@@ -24274,57 +24067,6 @@
 }
 },
 {
-"slug": "catherine-falco",
-"name": "[withheld]",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "antonio-tony-falco",
-"name": "Antonio \"Tony\" Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "nerina-michieletto",
-"name": "Nerina Michieletto (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "stephen-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "daniella-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000404
-},
-{
 "slug": "chiara-falco-2",
 "name": "Chiara Falco",
 "surname": "FALCO",
@@ -26033,57 +25775,6 @@
 "bp": "tree"
 },
 "bp": "Arienzo, Caserta, Campania, Italia"
-},
-{
-"slug": "daniella-falco",
-"name": "[withheld]",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "antonio-tony-falco",
-"name": "Antonio \"Tony\" Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "nerina-michieletto",
-"name": "Nerina Michieletto (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "catherine-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "stephen-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000406
 },
 {
 "slug": "domenica-falco",
@@ -43748,75 +43439,6 @@
 ]
 },
 {
-"slug": "rachel-carmen-falco",
-"name": "[withheld] (Hale)",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "maria-bucolo",
-"name": "Maria Bucolo (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [
-{
-"slug": "rowan-hale",
-"name": "Rowan Hale",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"children": [
-{
-"slug": "raya",
-"name": "Raya",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rome",
-"name": "Rome",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [
-{
-"slug": "rene-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000103
-},
-{
 "slug": "raffaela-falco-of-giuseppe-falco-antonia-di-guida",
 "name": "Raffaela Falco",
 "surname": "FALCO",
@@ -46400,66 +46022,6 @@
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
-"slug": "rene-falco",
-"name": "[withheld]",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "angelo-falco",
-"name": "Angelo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "maria-bucolo",
-"name": "Maria Bucolo (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [
-{
-"slug": "quinn-isla",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "ari-reid",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [
-{
-"slug": "rachel-carmen-falco",
-"name": "[withheld] (Hale)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000102
-},
-{
 "slug": "rosa-falco-of-carlantonio-morgillo-rosa-falco",
 "name": "Rosa Falco",
 "surname": "FALCO",
@@ -47328,57 +46890,6 @@
 "dateFrom": {
 "b": "act"
 }
-},
-{
-"slug": "stephen-falco",
-"name": "[withheld]",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "antonio-tony-falco",
-"name": "Antonio \"Tony\" Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "nerina-michieletto",
-"name": "Nerina Michieletto (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "catherine-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "daniella-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000405
 },
 {
 "slug": "tanya-falco",
@@ -51012,38 +50523,15 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [],
-"spouses": [
-{
-"slug": "rachel-carmen-falco",
-"name": "[withheld] (Hale)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"children": [
-{
-"slug": "raya",
-"name": "Raya",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rome",
-"name": "Rome",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"spouses": [],
+"children": [],
 "siblings": [],
-"treeId": 4509295
+"treeId": 4509295,
+"place": "",
+"rel": "relative",
+"noKin": "living"
 },
 {
 "slug": "atlas-antonio-halliday",
@@ -51117,49 +50605,6 @@
 "treeId": 4512357,
 "place": "",
 "rel": "relative"
-},
-{
-"slug": "quinn-isla",
-"name": "[withheld]",
-"surname": "ISLA",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "taine",
-"name": "Taine",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rene-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "ari-reid",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4505020
 },
 {
 "slug": "domenico-laudato",
@@ -53404,32 +52849,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "catherine-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "stephen-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "daniella-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [],
 "treeId": 4000403
 },
@@ -53582,7 +53002,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [
 {
 "slug": "john-militano",
@@ -53619,32 +53039,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "xylia-ellevsen",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "lilith-ellevsen",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "kye-ellevsen",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "jennifer-militano",
@@ -53671,7 +53066,9 @@
 ]
 }
 ],
-"treeId": 4000417
+"treeId": 4000417,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "jennifer-militano",
@@ -53683,7 +53080,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [
 {
 "slug": "john-militano",
@@ -53703,24 +53100,7 @@
 }
 ],
 "spouses": [],
-"children": [
-{
-"slug": "crystal",
-"name": "Crystal",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "summer",
-"name": "Summer",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "michelle-militano",
@@ -53747,7 +53127,9 @@
 ]
 }
 ],
-"treeId": 4000415
+"treeId": 4000415,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "john-militano",
@@ -53818,7 +53200,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [],
 "spouses": [
 {
@@ -53830,112 +53212,11 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "london-ava-militano",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "layla-militano",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [],
-"treeId": 4000727
-},
-{
-"slug": "layla-militano",
-"name": "[withheld]",
-"surname": "MILITANO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "robert-militano",
-"name": "Robert Militano",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "kelly-militano",
-"name": "Kelly Militano",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "london-ava-militano",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000729
-},
-{
-"slug": "london-ava-militano",
-"name": "[withheld]",
-"surname": "MILITANO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "robert-militano",
-"name": "Robert Militano",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "kelly-militano",
-"name": "Kelly Militano",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "layla-militano",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000728
+"treeId": 4000727,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "michelle-militano",
@@ -53947,7 +53228,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [
 {
 "slug": "john-militano",
@@ -53976,24 +53257,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "sienna",
-"name": "Sienna",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "cooper",
-"name": "Cooper",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "jennifer-militano",
@@ -54020,7 +53284,9 @@
 ]
 }
 ],
-"treeId": 4000416
+"treeId": 4000416,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "robert-militano",
@@ -54032,7 +53298,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [
 {
 "slug": "john-militano",
@@ -54061,24 +53327,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "london-ava-militano",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "layla-militano",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "jennifer-militano",
@@ -54105,7 +53354,9 @@
 ]
 }
 ],
-"treeId": 4000418
+"treeId": 4000418,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "amalia-morgillo-2",
@@ -58629,49 +57880,6 @@
 "siblings": []
 },
 {
-"slug": "ari-reid",
-"name": "[withheld]",
-"surname": "REID",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "taine",
-"name": "Taine",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rene-falco",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "quinn-isla",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4506267
-},
-{
 "slug": "marco-ricci",
 "name": "Marco Ricci",
 "surname": "RICCI",
@@ -58681,38 +57889,15 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [],
-"spouses": [
-{
-"slug": "clementtina-schettini",
-"name": "[withheld] (Ricci)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"children": [
-{
-"slug": "valentino",
-"name": "Valentino",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "federico",
-"name": "Federico",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"spouses": [],
+"children": [],
 "siblings": [],
-"treeId": 4509243
+"treeId": 4509243,
+"place": "",
+"rel": "relative",
+"noKin": "living"
 },
 {
 "slug": "angela-rivetta",
@@ -60841,7 +60026,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [
 {
 "slug": "giuseppe-ruggiero-2",
@@ -60880,7 +60065,9 @@
 ]
 }
 ],
-"treeId": 4509254
+"treeId": 4509254,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "joseph-ruggiero",
@@ -60892,7 +60079,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [
 {
 "slug": "giuseppe-ruggiero-2",
@@ -60931,7 +60118,9 @@
 ]
 }
 ],
-"treeId": 4509255
+"treeId": 4509255,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "michael-ruggiero",
@@ -60943,7 +60132,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [
 {
 "slug": "giuseppe-ruggiero-2",
@@ -60982,7 +60171,9 @@
 ]
 }
 ],
-"treeId": 4509253
+"treeId": 4509253,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "michele-ruggiero",
@@ -61212,7 +60403,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [
 {
 "slug": "michele-ruggiero",
@@ -61241,24 +60432,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "clementtina-schettini",
-"name": "[withheld] (Ricci)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "lorenzo-schettini",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "giuseppe-ruggiero-2",
@@ -61269,7 +60443,9 @@
 ]
 }
 ],
-"treeId": 4509240
+"treeId": 4509240,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "michele-ruotolo",
@@ -61824,21 +61000,15 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [],
-"spouses": [
-{
-"slug": "lorenzo-schettini",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"spouses": [],
 "children": [],
 "siblings": [],
-"treeId": 4509245
+"treeId": 4509245,
+"place": "",
+"rel": "relative",
+"noKin": "living"
 },
 {
 "slug": "baladino-schettini",
@@ -61850,7 +61020,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [],
 "spouses": [
 {
@@ -61862,147 +61032,11 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "clementtina-schettini",
-"name": "[withheld] (Ricci)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "lorenzo-schettini",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [],
-"treeId": 4509241
-},
-{
-"slug": "clementtina-schettini",
-"name": "[withheld] (Ricci)",
-"surname": "SCHETTINI",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "baladino-schettini",
-"name": "Baladino Schettini",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "teresa-ruggiero",
-"name": "Teresa Ruggiero (Schettini)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [
-{
-"slug": "marco-ricci",
-"name": "Marco Ricci",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"children": [
-{
-"slug": "valentino",
-"name": "Valentino",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "federico",
-"name": "Federico",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [
-{
-"slug": "lorenzo-schettini",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4509242
-},
-{
-"slug": "lorenzo-schettini",
-"name": "[withheld]",
-"surname": "SCHETTINI",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "baladino-schettini",
-"name": "Baladino Schettini",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "teresa-ruggiero",
-"name": "Teresa Ruggiero (Schettini)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [
-{
-"slug": "alesandra-schettini",
-"name": "Alesandra Schettini",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
 "children": [],
-"siblings": [
-{
-"slug": "clementtina-schettini",
-"name": "[withheld] (Ricci)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4509244
+"siblings": [],
+"treeId": 4509241,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "rosa-selli",
@@ -62452,7 +61486,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [
 {
 "slug": "raffaele-falco",
@@ -62508,7 +61542,9 @@
 ]
 }
 ],
-"treeId": 4000224
+"treeId": 4000224,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "nick-simonetta",
@@ -66095,7 +65131,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [
 {
 "slug": "raffaele-falco",
@@ -66124,24 +65160,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "julia-zavaglia",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "josephine-zavaglia",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "antonio-tony-falco",
@@ -66168,93 +65187,9 @@
 ]
 }
 ],
-"treeId": 4000225
-},
-{
-"slug": "josephine-zavaglia",
-"name": "[withheld]",
-"surname": "ZAVAGLIA",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "vince-zavalia",
-"name": "Vince Zavalia",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "angelina-zavaglia",
-"name": "Angelina Zavaglia (Zavalia)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "julia-zavaglia",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000410
-},
-{
-"slug": "julia-zavaglia",
-"name": "[withheld]",
-"surname": "ZAVAGLIA",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "vince-zavalia",
-"name": "Vince Zavalia",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "angelina-zavaglia",
-"name": "Angelina Zavaglia (Zavalia)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "josephine-zavaglia",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000409
+"treeId": 4000225,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "vince-zavalia",
@@ -66278,24 +65213,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "julia-zavaglia",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "josephine-zavaglia",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [],
 "treeId": 4000408
 },
@@ -66678,7 +65596,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [],
 "spouses": [
 {
@@ -66690,26 +65608,11 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "xylia-ellevsen",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "lilith-ellevsen",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [],
-"treeId": 4000721
+"treeId": 4000721,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "bobby",
@@ -66721,212 +65624,15 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [],
 "spouses": [],
 "children": [],
 "siblings": [],
 "treeId": 4505015,
-"noKin": "no-edge-recorded"
-},
-{
-"slug": "cooper",
-"name": "Cooper",
-"surname": "—",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "shane",
-"name": "Shane",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "michelle-militano",
-"name": "Michelle Militano",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "sienna",
-"name": "Sienna",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000720
-},
-{
-"slug": "crystal",
-"name": "Crystal",
-"surname": "—",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "jennifer-militano",
-"name": "Jennifer Militano",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "summer",
-"name": "Summer",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000715
-},
-{
-"slug": "federico",
-"name": "Federico",
-"surname": "—",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "clementtina-schettini",
-"name": "[withheld] (Ricci)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "valentino",
-"name": "Valentino",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4509250
-},
-{
-"slug": "raya",
-"name": "Raya",
-"surname": "—",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "rowan-hale",
-"name": "Rowan Hale",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rachel-carmen-falco",
-"name": "[withheld] (Hale)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "rome",
-"name": "Rome",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4509296
-},
-{
-"slug": "rome",
-"name": "Rome",
-"surname": "—",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "rowan-hale",
-"name": "Rowan Hale",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rachel-carmen-falco",
-"name": "[withheld] (Hale)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "raya",
-"name": "Raya",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4513002
+"place": "",
+"rel": "relative",
+"noKin": "living"
 },
 {
 "slug": "shane",
@@ -66938,7 +65644,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [],
 "spouses": [
 {
@@ -66950,104 +65656,11 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "sienna",
-"name": "Sienna",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "cooper",
-"name": "Cooper",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [],
-"treeId": 4000717
-},
-{
-"slug": "sienna",
-"name": "Sienna",
-"surname": "—",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "shane",
-"name": "Shane",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "michelle-militano",
-"name": "Michelle Militano",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "cooper",
-"name": "Cooper",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000718
-},
-{
-"slug": "summer",
-"name": "Summer",
-"surname": "—",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "jennifer-militano",
-"name": "Jennifer Militano",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "crystal",
-"name": "Crystal",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000716
+"treeId": 4000717,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "taine",
@@ -67059,64 +65672,15 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [],
 "spouses": [],
-"children": [
-{
-"slug": "quinn-isla",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "ari-reid",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"siblings": [],
-"treeId": 4505019
-},
-{
-"slug": "valentino",
-"name": "Valentino",
-"surname": "—",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "clementtina-schettini",
-"name": "[withheld] (Ricci)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
 "children": [],
-"siblings": [
-{
-"slug": "federico",
-"name": "Federico",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4509249
+"siblings": [],
+"treeId": 4505019,
+"place": "",
+"rel": "relative",
+"noKin": "living"
 },
 {
 "slug": "unnamed",

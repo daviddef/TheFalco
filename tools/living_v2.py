@@ -16,6 +16,7 @@ particular to Falco:
 WHAT A LIVING PERSON SHOWS: a name, their relationships, and that town and
 country. Nothing else.
 """
+import json
 import os
 import re
 import sys
@@ -38,6 +39,29 @@ def year_of(s):
     """The first four-digit year in a tree date string, or None."""
     m = YEAR.search(str(s or ""))
     return int(m.group(1)) if m else None
+
+
+# ---------------------------------------------------------------- people treated as living by inference
+
+DECISION = os.path.join(ROOT, "data", "living-by-inference.json")
+
+
+def inferred_living_ids(path=None):
+    """The tree ids David's 17 October 2026 decision treats as living: the people in data/living-by-inference.json
+    'ids' who are not in 'overridden'. The generator DECIDES NOTHING here: it passes each of them to the kit's rule
+    as said_living=True. Who is on the list is worked out by tools/living_by_inference.py and checked, against the
+    private tree and by code that shares nothing with this file, by tools/check_living_v2.py.
+    A missing or malformed file stops the build: a silent empty list would publish the people as dead."""
+    path = path or DECISION
+    try:
+        d = json.load(open(path, encoding="utf-8"))
+        ids, over = d["ids"], d.get("overridden", [])
+        assert isinstance(ids, list) and isinstance(over, list)
+        assert all(isinstance(x, int) and not isinstance(x, bool) for x in ids + over)
+    except (OSError, ValueError, KeyError, AssertionError) as e:
+        raise SystemExit(f"living_v2: data/living-by-inference.json is missing or malformed ({e!r}); "
+                         "refusing to build, because without it undated people are published as dead.")
+    return set(ids) - set(over)
 
 
 # ---------------------------------------------------------------- the youngest child

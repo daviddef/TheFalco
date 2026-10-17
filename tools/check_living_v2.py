@@ -182,9 +182,104 @@ def youngest_child_years(tree, info):
     return out
 
 
-def recompute(tree, people, line):
+# ---------------------------------------------------------------------------
+# the undated tree-only people treated as living by inference (David, 17 October 2026)
+# ---------------------------------------------------------------------------
+# The kit calls an undated person not living. For a tree-only branch whose recorded ancestors were born in the
+# 1920s that is almost certainly wrong (the kit's own recent-child step reaches only people with a child of a
+# known year), and the harm is one-sided: a dead person shown by name, relationships and place only, against a
+# living person's page indexed. So, until David says who is dead, such a person is treated as living. WHICH people
+# is a DECISION recorded by tree id in data/living-by-inference.json (never names), passed to the kit's rule as
+# said_living=True. THIS GATE reads that file on its own and recomputes the inference below, so a file that is
+# stale, padded, or ignored by the generator is refused.
+DECISION = os.path.join(ROOT, "data", "living-by-inference.json")
+YEARS_PER_GENERATION = 20
+MAX_GENERATIONS_UP = 3
+INFERENCE_RULE = (
+    "An undated person with no recorded death and no public source is treated as living when their NEAREST DATED "
+    "ANCESTOR (their parents first, then grandparents, then great-grandparents, up to 3 generations, both lines) "
+    "was born in year Y, g generations up, and Y + 20*g is 1946 or later, that is, 80 or younger in 2026; when "
+    "several ancestors tie for nearest, the latest Y counts. An undated spouse of a person so treated is treated "
+    "as living too. Only David can rule a person dead: ids he rules dead go in 'overridden'. 'byHand' lists "
+    "people David asked to include although the estimate falls just short (an estimate of 1941 or 1945).")
+
+
+def load_decision(path=None):
+    """The committed decision file as {'ids': set, 'byHand': set, 'overridden': set, 'rule': str, ...}.
+    Raises ValueError with a plain message when it is missing or malformed."""
+    path = path or DECISION
+    try:
+        d = json.load(open(path, encoding="utf-8"))
+    except FileNotFoundError:
+        raise ValueError("the decision file %s is missing" % os.path.relpath(path, ROOT))
+    except (OSError, json.JSONDecodeError) as e:
+        raise ValueError("the decision file cannot be read (%s)" % e)
+    out = {"rule": d.get("rule")}
+    for k in ("ids", "byHand", "overridden"):
+        v = d.get(k)
+        if not isinstance(v, list) or not all(isinstance(x, int) and not isinstance(x, bool) for x in v):
+            raise ValueError("the decision file's '%s' must be a list of integer tree ids" % k)
+        if len(set(v)) != len(v):
+            raise ValueError("the decision file's '%s' repeats an id" % k)
+        out[k] = set(v)
+    return out
+
+
+def effective_ids(dec):
+    """The tree ids said to be living: on the list and not ruled dead by David."""
+    return dec["ids"] - dec["overridden"]
+
+
+def _decision_ids_or_none(path=None):
+    try:
+        return effective_ids(load_decision(path))
+    except ValueError:
+        return set()      # _check reports a bad file as a failure of its own
+
+
+def infer_living(info, this_year=None):
+    """The inference, from the BASELINE `info` of recompute(..., said=set()) (the kit's rule alone).
+    returns {tree id: dict(kind='ancestor'|'spouse', g=.., year=.., est=..)} for every undated person the kit calls
+    not living (and does not hold out) that the rule in INFERENCE_RULE treats as living."""
+    ty = this_year or THIS_YEAR
+    floor = ty - lr.LIVING_YEARS                  # born this year or later is 80 or younger
+    pool = {t for t, d in info.items()
+            if d["by"] is None and not d["dead"] and not lr.public_source(d["cites"])
+            and not d["living"] and not d["held"]}
+    out = {}
+    for tid in sorted(pool):
+        level, seen = {tid}, {tid}
+        for g in range(1, MAX_GENERATIONS_UP + 1):
+            nxt = set()
+            for x in level:
+                nxt |= set(info[x]["parents"]) - seen
+            nxt &= set(info)
+            seen |= nxt
+            ys = [info[q]["by"] for q in nxt if info[q]["by"] is not None]
+            if ys:
+                y = max(ys)                       # the latest tying ancestor: the youngest estimate, the safer side
+                est = y + YEARS_PER_GENERATION * g
+                if est >= floor:
+                    out[tid] = {"kind": "ancestor", "g": g, "year": y, "est": est}
+                break                             # only the NEAREST dated ancestor decides
+            level = nxt
+            if not level:
+                break
+    by_ancestor = set(out)                        # a spouse of a spouse is not reached: one step only
+    for tid in sorted(pool - by_ancestor):
+        mates = [s for s in info[tid]["spouses"] if s in by_ancestor]
+        if mates:
+            out[tid] = {"kind": "spouse", "g": None, "year": None, "est": None, "spouseOf": mates[0]}
+    return out
+
+
+def recompute(tree, people, line, said=None):
     """expected status for every non-placeholder tree person.
-    returns {tree id: dict(kind='living'|'dead'|'held', ...)}"""
+    returns {tree id: dict(kind='living'|'dead'|'held', ...)}
+    `said`: the tree ids said to be living by the decision file (default: read data/living-by-inference.json);
+    pass set() for the kit's rule alone."""
+    if said is None:
+        said = _decision_ids_or_none()
     by_rec = {p["treeId"]: p for p in people if p.get("treeId") is not None}
     info = {}
     for t in tree:
@@ -197,14 +292,16 @@ def recompute(tree, people, line):
             by = ry
         info[t["id"]] = {"by": by, "dead": tree_dead(t) or dead, "cites": cites}
     yc = youngest_child_years(tree, info)
-    for tid, d in info.items():
-        d["yc"] = yc.get(tid)
-        d["living"] = lr.is_living(d["by"], d["dead"], d["cites"], THIS_YEAR, youngest_child_year=d["yc"])
     parents = collections.defaultdict(list)
+    spouses = collections.defaultdict(set)
     for t in tree:
         for r in t.get("relatives") or []:
-            if str(r.get("rel") or "").lower().endswith(("father", "mother")):
+            lab = str(r.get("rel") or "").strip().lower()
+            if lab.endswith(("father", "mother")):
                 parents[t["id"]].append(r["id"])
+            elif lab.split(" ")[-1] in ("wife", "husband", "spouse", "partner") and not lab.startswith(("ex", "his ex", "her ex")):
+                spouses[t["id"]].add(r["id"])
+                spouses[r["id"]].add(t["id"])
     # people.json's own parent edges also count (the registers name parents too)
     slug2tid = {p["slug"]: p.get("treeId") for p in people}
     for p in people:
@@ -214,6 +311,13 @@ def recompute(tree, people, line):
             tid = slug2tid.get(e["slug"])
             if tid is not None:
                 parents[p["treeId"]].append(tid)
+    for tid, d in info.items():
+        d["yc"] = yc.get(tid)
+        d["said"] = tid in said
+        d["parents"] = sorted(set(parents.get(tid, [])))
+        d["spouses"] = sorted(spouses.get(tid, set()))
+        d["living"] = lr.is_living(d["by"], d["dead"], d["cites"], THIS_YEAR, youngest_child_year=d["yc"],
+                                   said_living=d["said"])
     for tid, d in info.items():
         pl = any(info.get(q, {}).get("living") for q in parents.get(tid, []))
         d["held"] = lr.is_held_out(tid, d["by"], d["dead"], d["cites"], pl, held_ids=(), today_year=THIS_YEAR,
@@ -236,17 +340,19 @@ class Report:
         self.notes.append(msg)
 
 
-def check(dist, tree_path=TREE, tracked=None, quiet=False, data_dir=None, held_scan=True):
+def check(dist, tree_path=TREE, tracked=None, quiet=False, data_dir=None, held_scan=True, decision_path=None):
     """Run every check against `dist` and return a Report. `tracked` is the
     list of committed files to search for held-out names (default: git's)."""
-    global DATA
-    keep = DATA
+    global DATA, DECISION
+    keep, keep_d = DATA, DECISION
     if data_dir:
         DATA = data_dir
+    if decision_path:
+        DECISION = decision_path
     try:
         return _check(dist, tree_path, tracked, held_scan)
     finally:
-        DATA = keep
+        DATA, DECISION = keep, keep_d
 
 
 def _check(dist, tree_path, tracked, held_scan=True):
@@ -290,6 +396,28 @@ def _check(dist, tree_path, tracked, held_scan=True):
         R.note("NOBODY IS LIVING in people.json. If the private tree is present this is compared "
                "against the recomputation below, which would fail if the tree has living people.")
 
+    # ---- a0. the decision file: who is treated as living by inference (17 October 2026)
+    dec = None
+    try:
+        dec = load_decision()
+    except ValueError as e:
+        R.fail("DECISION FILE: " + str(e))
+    if dec is not None:
+        if dec["rule"] != INFERENCE_RULE:
+            R.fail("DECISION FILE: its rule text is not the rule this gate enforces (data/living-by-inference.json)")
+        if not dec["ids"]:
+            R.fail("DECISION FILE: it lists nobody, so the undated people it was made for are published as dead")
+        for k in ("byHand", "overridden"):
+            for i in sorted(dec[k] - dec["ids"]):
+                R.fail("DECISION FILE: tree id %s is in '%s' but not in 'ids'" % (i, k))
+        # without the private tree this much still holds: whoever the file says is living is living in people.json
+        said_recs = {p.get("treeId"): p for p in people if p.get("treeId") is not None}
+        for i in sorted(effective_ids(dec)):
+            rec = said_recs.get(i)
+            if rec is not None and not rec.get("living"):
+                R.fail("A PERSON THE DECISION FILE TREATS AS LIVING IS PUBLISHED AS NOT LIVING: tree id %s "
+                       "(the generator did not use data/living-by-inference.json)" % i)
+
     # ---- a. who is living, recomputed independently; d. who is held out
     tree_ran = False
     held_names = []
@@ -320,6 +448,25 @@ def _check(dist, tree_path, tracked, held_scan=True):
                 R.fail(f"WRONG LIVING STATUS: tree id {t['id']} people.json says living={rec.get('living')}, "
                        f"the kit's rule on the tree says {i['living']}")
         R.table["recomputed"] = (n_live, n_held)
+        if dec is not None:
+            base, _ = recompute(tree, people, line, said=set())
+            inferred = infer_living(base)
+            treeids = {t["id"] for t in tree}
+            for i in sorted(dec["ids"] - treeids):
+                R.fail("DECISION FILE: tree id %s is not a person in the tree (an invented id)" % i)
+            for i in sorted((dec["ids"] - dec["byHand"]) & treeids):
+                if i not in inferred:
+                    R.fail("DECISION FILE: tree id %s is on the list but the rule does not infer them living and "
+                           "they are not 'byHand'" % i)
+            for i in sorted(dec["byHand"] & treeids):
+                d_ = base.get(i)
+                if d_ is None or d_["by"] is not None or d_["dead"] or lr.public_source(d_["cites"]) \
+                        or d_["living"] or d_["held"]:
+                    R.fail("DECISION FILE: 'byHand' tree id %s is not an undated person the kit would publish as dead" % i)
+            for i in sorted(set(inferred) - dec["ids"] - dec["overridden"]):
+                R.fail("DECISION FILE IS MISSING A PERSON THE RULE INFERS LIVING: tree id %s (%s)"
+                       % (i, inferred[i]["kind"]))
+            R.table["inference"] = (len(inferred), len(dec["ids"]), len(dec["byHand"]), len(dec["overridden"]))
         if not n_live and not n_held:
             R.fail("the recomputation found nobody living and nobody held out — it cannot be "
                    "trusted to be looking at the tree (is the data empty?)")
@@ -599,6 +746,10 @@ def render(R, label=""):
     if "recomputed" in t:
         print("  recomputed from the private tree with the kit's rule: "
               f"{t['recomputed'][0]} living, {t['recomputed'][1]} held out")
+    if "inference" in t:
+        a, b, c, d = t["inference"]
+        print(f"  decision file (undated people treated as living by inference): the rule infers {a}; "
+              f"{b} listed, {c} by hand, {d} overridden")
     st = t.get("stats")
     if st:
         cols = ["pages", "noindex", "in sitemap", "in search index", "JSON-LD", "tables", "images", "years"]
@@ -645,6 +796,9 @@ class Sandbox:
         self.data = os.path.join(self.root, "data")
         clone(dist, self.dist)
         clone(data, self.data)
+        self.decision = os.path.join(self.root, "living-by-inference.json")
+        if os.path.exists(DECISION):
+            shutil.copy(DECISION, self.decision)
         self.undo = []
 
     def edit(self, path, fn):
@@ -703,6 +857,7 @@ def selftest(dist):
             results.append((name, None))
             return
         kw.setdefault("held_scan", bool(need_tree))
+        kw.setdefault("decision_path", sb.decision)
         try:
             mutate()
             R = check(sb.dist, data_dir=sb.data, **kw)
@@ -880,6 +1035,48 @@ def selftest(dist):
             results.append(("a dated child under 18 wrongly held out (no page)", False))
     else:
         results.append(("a dated child under 18 wrongly held out (no page)", None))
+    # ---- the people treated as living by inference (17 October 2026)
+    try:
+        dec0 = load_decision()
+    except ValueError:
+        dec0 = None
+    inferred_pub = [p for p in people if dec0 and p.get("treeId") in effective_ids(dec0) and p.get("living")]
+    if inferred_pub:
+        I = inferred_pub[0]
+        trial("a person on the decision list left indexed (no noindex)",
+              page_edit(I["slug"], lambda s_: re.sub(r'<meta name="robots"[^>]*>', "", s_)), "IS INDEXED")
+        trial("a year (1899) on the page of a person on the decision list",
+              page_edit(I["slug"], lambda s_: s_.replace("</main>", "<p>1899</p></main>", 1)), "CARRIES A YEAR")
+        trial("a person on the decision list in the sitemap",
+              lambda: sb.edit(os.path.join(sb.dist, "sitemap.xml"),
+                              lambda s_: s_ + "<url><loc>https://x/people/%s/</loc></url>" % I["slug"]), "IN THE SITEMAP")
+        trial("a person on the decision list in the search index",
+              lambda: sb.edit(sidx, lambda s_: json.dumps(json.loads(s_) + [
+                  {"k": "Person", "t": I["name"], "s": "", "h": "/people/%s" % I["slug"], "q": "x"}])),
+              "SEARCH INDEX")
+        trial("a date (1899) in the data of a person on the decision list",
+              people_edit(lambda j: [x.update(b="1899") for x in j if x["slug"] == I["slug"]]), "carries b")
+        trial("the generator forgets the decision file (a listed person published as not living)",
+              people_edit(lambda j: [x.update(living=False) for x in j if x.get("treeId") in effective_ids(dec0)]),
+              "THE DECISION FILE TREATS AS LIVING IS PUBLISHED AS NOT LIVING")
+        def _edit_dec(fn):
+            return lambda: sb.edit(sb.decision, lambda s_: json.dumps((lambda j: (fn(j), j)[1])(json.loads(s_))))
+        trial("a decision file that lists nobody",
+              _edit_dec(lambda j: j.update(ids=[], byHand=[])), "lists nobody")
+        trial("a decision file whose rule text is not the gate's",
+              _edit_dec(lambda j: j.update(rule="anybody")), "rule text")
+        trial("invented ids in the decision file",
+              _edit_dec(lambda j: j["ids"].extend([1999991, 1999992])), "an invented id", need_tree=True)
+        trial("a decision file with an id left off that the rule infers",
+              _edit_dec(lambda j: j.update(ids=[x for x in j["ids"] if x not in j["byHand"]][1:] + j["byHand"])),
+              "MISSING A PERSON THE RULE INFERS", need_tree=True)
+        trial("a dated person's id in the decision file",
+              _edit_dec(lambda j: j["ids"].append(_dated_tree_id())), "does not infer", need_tree=True)
+        trial("an id the rule does not infer, claimed as 'byHand'",
+              _edit_dec(lambda j: (j["ids"].append(_dated_tree_id()), j["byHand"].append(_dated_tree_id()))),
+              "'byHand' tree id", need_tree=True)
+    else:
+        results.append(("the people treated as living by inference", None))
     sb.close()
     bad = 0
     print("selftest: every planted fault must be refused")
@@ -893,6 +1090,12 @@ def selftest(dist):
     print(f"selftest: {sum(1 for _, ok in results if ok)} of {n} planted faults caught"
           + (f", {sum(1 for _, ok in results if ok is None)} skipped" if any(ok is None for _, ok in results) else ""))
     return 1 if bad else 0
+
+
+def _dated_tree_id():
+    """A tree id of a person with a birth year: never someone the inference can name."""
+    t = json.load(open(TREE, encoding="utf-8"))
+    return next(x["id"] for x in t if tree_year(x) is not None and not is_placeholder(x.get("name")))
 
 
 def _held_for_selftest():

@@ -154,7 +154,7 @@ const dek = p.living
       four Pasquale. <strong>These are different people, kept apart on purpose rather than merged
       into one.</strong></p>
       <ul>{sameName.map((q) => (
-        <li><a href={u("/people/" + q.slug)}>{q.name}</a>
+        <li><a href={u("/people/" + q.slug)}>{p.living ? clean(q.name) : q.name}</a>
           <span class="small"> — {q.household || (q.living ? ("living" + (q.place ? ", " + q.place : "")) : "from the family tree")}</span></li>
       ))}</ul>
     </>

@@ -426,8 +426,12 @@ const nLiving = people.filter((p) => p.living).length;
   what that record says may be shown; a private family-tree entry is not such a source. <strong>A
   person with no birth year cannot be shown to be 80 or younger, so is not living by this test</strong>,
   with one exception: an undated parent whose youngest child with a known birth year was born 60
-  years ago or less is living, because a parent is about twenty years older than a child. The tree's
-  own flag, which means only «no death date recorded», is no longer the test.
+  years ago or less is living, because a parent is about twenty years older than a child. A second
+  exception, provisional until the family says otherwise: an undated person in the family tree, with no
+  death recorded and no public record, whose nearest ancestor with a known birth year (a parent, else a
+  grandparent, else a great-grandparent) was born so recently that twenty years for each generation puts
+  them at 80 or younger, is treated as living, as is that person's spouse. The tree's own flag, which
+  means only «no death date recorded», is no longer the test.
   {nLiving} people are living today.</p>
   <p><strong>What a living person shows.</strong> Their name, their relationships and the town and
   country they were born in — the town, never a street, an address or a hospital. No date of birth,

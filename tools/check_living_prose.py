@@ -90,7 +90,7 @@ GENERATED = {
 # from a record office's index (Antenati, FamilySearch, Findmypast, NAA, Queensland BDM, cemetery lists) by a
 # script or by hand. A living namesake of a man in a register shows up there, and is allowed once, with a reason.
 # data/antenati-ids/ holds one JSON file of image ids per Antenati volume (no names) and is not read.
-GENERATED_TABLES = {"people-register.tsv", "slug-ledger.txt", "citation-check.json", "living-feed.json"}  # living-feed.json: written by tools/living_feed.py, keyed hashes only
+GENERATED_TABLES = {"people-register.tsv", "slug-ledger.txt", "citation-check.json", "living-feed.json", "living-by-inference.json"}  # living-feed.json: written by tools/living_feed.py, keyed hashes only; living-by-inference.json: written by tools/living_by_inference.py, tree ids and the rule text only (David edits only its "overridden" list)
 TABLE_DIRS_NOT_READ = {"data/antenati-ids"}
 
 # The JSON fields a living person's line.json entry may carry besides the kit's default (name, relationships,

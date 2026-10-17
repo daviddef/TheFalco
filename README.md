@@ -44,7 +44,7 @@ Campania) — and of Arpaia, Forchia, Benevento, and Brisbane.
 
 **A living person (80 or younger, with no death recorded) is named with their relationships and
 their town and country, and nothing more.** Their page is `noindex` and is in neither the sitemap
-nor the search index; an undated person with a living parent is not published; an undated parent of a child born 60 years ago or less is living. Who is living is the kit's one rule
+nor the search index; an undated person with a living parent is not published; an undated parent of a child born 60 years ago or less is living; so, provisionally, is an undated tree-only person whose nearest dated ancestor, at twenty years a generation, puts them at 80 or younger (`data/living-by-inference.json`, by tree id). Who is living is the kit's one rule
 (`kit/tools/living_rule.py`). A removal request is honoured within days, without argument and
 without requiring a reason.
 
