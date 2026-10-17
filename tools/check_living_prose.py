@@ -90,7 +90,7 @@ GENERATED = {
 # from a record office's index (Antenati, FamilySearch, Findmypast, NAA, Queensland BDM, cemetery lists) by a
 # script or by hand. A living namesake of a man in a register shows up there, and is allowed once, with a reason.
 # data/antenati-ids/ holds one JSON file of image ids per Antenati volume (no names) and is not read.
-GENERATED_TABLES = {"people-register.tsv", "slug-ledger.txt", "citation-check.json"}
+GENERATED_TABLES = {"people-register.tsv", "slug-ledger.txt", "citation-check.json", "living-feed.json"}  # living-feed.json: written by tools/living_feed.py, keyed hashes only
 TABLE_DIRS_NOT_READ = {"data/antenati-ids"}
 
 # The JSON fields a living person's line.json entry may carry besides the kit's default (name, relationships,
@@ -170,13 +170,19 @@ def main(argv=None):
     feed, stats = fb.build(a.tree)
     if feed is None:
         in_ci = bool(os.environ.get("CI")) and not a.require_tree
-        print("check_living_prose: NOT RUN (%s). The prose gate could not say who is living, so it checked "
-              "nothing; this is NOT a pass." % stats)
-        if in_ci:
-            print("check_living_prose: NOT RUN IN CI, as check_living_v2's tree checks do not run there; it runs "
-                  "wherever the tree is (David's machine) and the build fails there without it")
-            return 0
-        return 2
+        print("check_living_prose: the tree is not here (%s)." % stats)
+        if not in_ci:
+            print("check_living_prose: NOT RUN. The prose gate could not say who is living, so it checked nothing; this "
+                  "is NOT a pass.")
+            return 2
+        # IN CI THE GATE USED TO PRINT «NOT RUN» AND EXIT 0 (found by the sweep of 17 October 2026). It now reads who is
+        # living from the committed people.json, whose living people are named on the public site by policy. That is the
+        # generator's word, not the tree's; tools/living_feed.py seals the set so it cannot change unconfirmed, and guards
+        # the people held out of people.json by keyed hash.
+        feed = fb.build_from_people()
+        stats = {"tree held out": 0, "people.json living not living on the tree": 0}
+        print("check_living_prose: RUNNING IN CI FROM COMMITTED people.json (the generator's list of living people; the "
+              "held-out are guarded by tools/living_feed.py)")
     if stats["people.json living not living on the tree"] or not feed["living"] or not feed["deadNames"]:
         print("check_living_prose: FAIL, the feed is not trustworthy (%d living, %d dead names, %d record(s) "
               "people.json calls living that the rule on the tree does not)" % (

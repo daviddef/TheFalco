@@ -39,3 +39,8 @@ person from a leak of the tree's own dates or of typed prose runs only on David'
 machine without the tree, or a commit made after the chain was last run, can deploy such a leak green. Options: a salted-hash
 feed of living names/dates committed to the repo (no names in the clear); or a private CI step with the tree as a secret; or at
 minimum a pre-push hook that runs `npm run build` where the tree exists. This is a decision for David, not a fix to make here.
+
+**Addendum, same day — the part that could be fixed was.** `tools/living_feed.py` (see `notes/living-feed.md`) adds a keyed-HMAC
+feed of living dates and held-out names plus a seal over who is published as living, wired into the build as `check:living-feed`, and
+`living-prose` now runs in CI from people.json instead of printing «NOT RUN». The recompute of *who is living* (`living2`) still needs
+the tree and still does not run in CI; the seal makes any change to that set un-skippable.

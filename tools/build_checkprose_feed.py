@@ -175,6 +175,27 @@ def build(tree_path=None):
     return feed, stats
 
 
+def build_from_people():
+    """The feed CI can build WITHOUT the tree: living = the people.json records the generator publishes as living.
+
+    Those people are NAMED ON THE PUBLIC SITE by policy, so reading their names from committed data discloses nothing.
+    What this cannot know is who the tree holds out (no page, no record): tools/living_feed.py guards those by keyed
+    hash, and who the tree says is living but the generator does not (tools/living_feed.py's seal stops the set of
+    published living people changing without a machine that has the tree re-confirming it)."""
+    people = _json("people.json")
+    living, dead = {}, set()
+    for p in people:
+        sp = spellings(p.get("name"))
+        if p.get("living"):
+            tid = p.get("treeId")
+            living.setdefault(str(tid) if tid is not None else "record:" + p["slug"], set()).update(sp)
+        else:
+            dead |= sp
+    feed = {"living": [{"id": k, "names": sorted(v)} for k, v in sorted(living.items()) if v],
+            "deadNames": sorted(dead)}
+    return feed
+
+
 def write(feed, out):
     os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
     fd = os.open(out, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o600)

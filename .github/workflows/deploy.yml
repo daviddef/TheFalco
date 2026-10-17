@@ -28,6 +28,10 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: site
+        env:
+          # The key for data/living-feed.json (keyed hashes of living people's dates and held-out names). Without it the
+          # living-feed gate runs its seal check, prints a warning and skips the date/name scan.
+          LIVING_FEED_KEY: ${{ secrets.LIVING_FEED_KEY }}
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:
