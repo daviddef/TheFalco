@@ -1,11 +1,33 @@
 # Carmine Falco's Italian military service — where the papers would be (17 Oct 2026)
 
-Status: **leads only. No paper has been found or requested.** Compiled from a research pass whose reading of the Archivio di
+Status: **the register is FOUND (17 Oct 2026, see the top section); no copy has been requested.** Compiled from a research pass whose reading of the Archivio di
 Stato di Benevento (ASBN) and several Defence sites was **through web-archive snapshots only** — those hosts refused live
 connections from this machine — so «reported online» below means exactly that, not tested.
 
 The man: born Forchia (BN) 8 June 1930 (Arpaia marriage extract), class (leva) **1930**, so called up about 1950–51 *if* he served in
 the Italian army. The only evidence that he served at all is the family's undated photograph.
+
+## FOUND — 17 October 2026: the Benevento district's register has a card for him
+`https://asbn.cultura.gov.it/vista1?cerca=RM&cod=185068` (re-read independently from a second route the same day):
+**FALCO Carmine · Forchia · 1930-06-08 · classe 1930 · Registro 521 · Matricola 65604 · note «_»**. Eight fields. It is the Archivio di
+Stato di Benevento's online *Ruoli matricolari — Indice onomastico* of the *Distretto militare di Benevento*; its class box says
+«anni dal 1834 al 1943». It gives his birthplace and date together (no earlier paper did) and shows he was **enrolled**. It does **not**
+say that he served, where or when.
+- **A different man is in the same index:** Falco Carmine, Forchia, born 1922-07-16, classe 1922, Registro 368, Matricola 25631 (cod 161799).
+  Resolve by date and class, never by name. Class 1930 has seven other Falco men, from other comuni and from Forchia (one more of
+  Forchia): counted, not listed.
+- **THE FORM'S NOME FIELD IS BROKEN.** Searches with Nome = «Carmine» returned 0 rows although the row exists; leaving Nome blank and
+  searching by surname with Classe or Luogo found it. **A nil from a forename-filtered query on this index is worthless.**
+- **Copies.** The archive's pages (sala-di-studio, servizi-di-riproduzione, ricerche-per-corrispondenza) show no heirs-only rule; the
+  Sala Studio regulations PDF (30 June 2026), where one would sit, was NOT read. Remote copies are only «per documenti già
+  individuabili» — and this is now identified by register and matricola — and the archive «non è autorizzato al rilascio di
+  trascrizioni ed estratti». Email as-bn@cultura.gov.it (PEC as-bn@pec.cultura.gov.it); answer promised within 30 days.
+- **Draft, for the family to send (nothing was sent):** *Buongiorno, per una ricerca familiare chiedo copia della registrazione di
+  FALCO Carmine, nato a Forchia l'8 giugno 1930 (classe 1930), Registro 521, Matricola 65604, presente nell'indice onomastico dei
+  ruoli matricolari del Distretto militare di Benevento (scheda cod. 185068). Chiedo le modalità di pagamento per la riproduzione.
+  Grazie.*
+
+## Earlier leads (before the card was found)
 
 ## What is NOT the answer
 - **Antenati has no military series for Benevento.** Its ASBN page says no military documentation is published on the portal; the

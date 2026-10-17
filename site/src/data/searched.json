@@ -2604,5 +2604,40 @@
    "Forchia",
    "Annecchino"
   ]
+ },
+ {
+  "when": "1834–1943",
+  "searchedOn": "2026-10-17",
+  "provider": "asbn",
+  "url": "https://asbn.cultura.gov.it/ruoli-matricolari",
+  "walked": false,
+  "src": "**ARCHIVIO DI STATO DI BENEVENTO — ruoli matricolari, indice onomastico** (the archive's own site; the class field is labelled «anni dal 1834 al 1943»). It is a GET form, so every query has a visible URL.",
+  "what": "Whether Carmine Falco, born Forchia 8 June 1930, is in the Benevento district's military register index.",
+  "got": "**YES: Falco Carmine, Forchia, 1930-06-08, classe 1930, Registro 521, Matricola 65604** (scheda cod. 185068). Eight fields only. A second Falco Carmine of Forchia (born 1922, classe 1922) is in the same index and is a different man. **THE FORM'S NOME FIELD RETURNS NOTHING EVEN FOR A ROW THAT EXISTS — three searches with a forename gave 0 rows; leaving Nome blank and searching by surname with class or birthplace found him. A nil from a forename-filtered query is worth nothing.**",
+  "outcome": "found",
+  "tags": [
+   "ASBN",
+   "Benevento",
+   "military",
+   "Falco",
+   "Forchia"
+  ]
+ },
+ {
+  "when": "1958 and 1964",
+  "searchedOn": "2026-10-17",
+  "provider": "naa",
+  "url": "https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/SearchScreens/PassengerSearch.aspx",
+  "walked": false,
+  "src": "**NAA PASSENGER ARRIVALS INDEX — FALCO, Francesca; FALCO, Carmine** (as a guest). Item 12100311 (ss Sydney, 1964), all 42 images fetched; item 30132385 (ss Neptunia, 1958), image 10 and the cover.",
+  "what": "When Francesca Falco reached Australia, and whether the 1964 list carries her with Carmine.",
+  "got": "**Three Francesca Falco rows: 31 Mar 1958 (Neptunia), 26 Mar 1964 (Sydney, with Carmine), 9 Jun 1968 (a row with no ship or port; not opened).** Both lists read from the images; neither has an age. The 1964 item is two documents: a Fremantle return (images 1–16, ages and marital status, no Falco found on the pages read) and the Quarantine list (17–42), on which the Falco lines are at image 27. 26 March 1964 is the ship's arrival at Fremantle.",
+  "outcome": "found",
+  "tags": [
+   "NAA",
+   "Australia",
+   "Passenger arrivals",
+   "Falco"
+  ]
  }
 ]
