@@ -125,13 +125,13 @@ def main():
     # So: take the FULL DATE STRINGS the source data attaches to a LIVING
     # person and assert those literal strings appear nowhere in the build.
     # That is exactly the leak that reached the front page — line.json carried
-    # generation nine's «[withheld]» and a figure printed it verbatim.
+    # generation nine's «3 Sep 1888» and a figure printed it verbatim.
     MONTHS = (r"Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec|"
               r"January|February|March|April|June|July|August|September|October|November|December|"
               r"Gennaio|Febbraio|Marzo|Aprile|Maggio|Giugno|Luglio|Agosto|Settembre|Ottobre|Novembre|Dicembre")
     FULL = re.compile(r"\b\d{1,2}\s+(?:" + MONTHS + r")[a-z]*\.?\s+(?:1[89]\d\d|20\d\d)\b")
-    # THE TREE WRITES A DATE THE AMERICAN WAY — «[withheld]», «[withheld]» — and
-    # the pattern above reads only «[withheld]». Until 16 October 2026 this guard
+    # THE TREE WRITES A DATE THE AMERICAN WAY — «Jan 6 1888», «June 18 1888» — and
+    # the pattern above reads only «6 Jan 1888». Until 16 October 2026 this guard
     # therefore harvested NOTHING from the tree, printed «NONE DO» and meant it,
     # and would have missed a living person's tree date printed in the tree's own
     # form. Both forms are harvested now, and each is guarded in both spellings.

@@ -12,7 +12,7 @@ a living person's date green. The tree cannot go in the repo, which is public. T
 WHAT IT COMMITS, AND WHY EACH PART IS SAFE.
 
   dates       a KEYED HMAC (SHA-256, 128 bits kept) of every full date the tree gives a living or held-out person, in
-              one canonical form (YYYY-MM-DD), so «[withheld]», «6 January 1979» and «6 gennaio 1979» are one entry.
+              one canonical form (YYYY-MM-DD), so «Jan 6 1888», «6 January 1979» and «6 gennaio 1979» are one entry.
               **A plain hash would be worthless here: there are about 40,000 plausible birth dates, and anyone can hash
               them all in a second and read the answer off the committed file.** The key is a 256-bit secret that is
               never committed: private/living-feed.key locally, the LIVING_FEED_KEY secret in CI. Without it the list is

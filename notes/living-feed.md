@@ -8,7 +8,7 @@ printed «NOT RUN» and exited 0. A push from a machine without the tree could d
   reads the answer off a public file. So the dates and held-out names are **keyed HMACs (SHA-256, 128 bits)**. The key is a
   256-bit secret that is *never* committed: `private/living-feed.key` locally (gitignored, mode 600), the **`LIVING_FEED_KEY`**
   secret in GitHub Actions. Without the key the file is noise.
-- Dates are canonicalised to `YYYY-MM-DD`, so «[withheld]», «6 January 1979», «6 gennaio 1979» and «6th Jan, 1979» are one entry.
+- Dates are canonicalised to `YYYY-MM-DD`, so «Jan 6 1888», «6 January 1979», «6 gennaio 1979» and «6th Jan, 1979» are one entry.
 - **Held-out people** (undated, with a living parent; published nowhere) are guarded by name, both orders (`Given Family` /
   `FAMILY Given`). Living people with pages are named on the public site by policy, so their names need no protection.
 - **The seal** is a digest of which people.json records are published as living. It tells CI whether the people.json it is looking
