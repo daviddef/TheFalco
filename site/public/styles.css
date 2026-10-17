@@ -741,3 +741,32 @@ li{margin:5px 0}
 pre{max-width:100%;overflow-x:auto;font-family:var(--mono);font-size:12.5px;line-height:1.5;
     background:var(--panel-2);padding:10px 12px;border-radius:3px}
 pre code{overflow-wrap:normal;white-space:pre}
+
+/* ---------- table layout, 17 October 2026 (the layout audit) ----------
+   Tables were not too narrow on most pages — they already fill the 1024px
+   column — but the column that carries the sentence took nearly all of it and
+   the short columns (a name, a date, a town) were squeezed to 60-85px: "Chiara
+   (Clara) Rivetti" in three lines, "13 Sep 1843" in three, "dead by 1821" in
+   three. Two causes, both here. (1) A cell inside a work-list note inherited
+   that note's `overflow-wrap:anywhere`, which lets a column shrink to ONE
+   character; a table cell wraps at word boundaries and breaks a word only when
+   it cannot fit. (2) Nothing gave a short column a floor. */
+td,th{overflow-wrap:break-word;word-break:normal;hyphens:manual}
+/* Date and short-code cells carry the .mono class on this site. nowrap is not
+   safe there — six cells in the archive hold a sentence in .mono — so the floor
+   is 13ch (a full date or "dead by 1821" on one line); a longer one wraps as before. */
+td.m{white-space:nowrap}
+/* Desktop only: on a phone the rule above (table th/td [style*=width]) lets the
+   content decide, and a floor here would push a table past a 390px page. */
+@media (min-width:860px){
+  td.mono{min-width:13ch}
+  td{min-width:6rem}
+  td:first-child:not(.mono):not(.m){min-width:8rem}
+}
+/* A work-list note is a 70ch reading column (kit WorkList.astro), and the kit
+   puts the cap on the note itself, so a table pasted into one was shrink-wrapped
+   to 487px inside a 1024px row. The prose keeps its measure; the table's wrapper
+   takes the width of the row. */
+.wl-rows .wl-one .wl-note{max-width:none}
+.wl-rows .wl-one .wl-note > *:not(.scroll):not(table){max-width:70ch}
+.wl-rows .wl-one .wl-note > hr{margin-left:0}
