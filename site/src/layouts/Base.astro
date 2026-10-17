@@ -9,6 +9,9 @@ import SkipLink from "@daviddef/archive-kit/components/SkipLink.astro";
 import SocialHead from "@daviddef/archive-kit/components/SocialHead.astro";
 import JsonLd from "@daviddef/archive-kit/components/JsonLd.astro";
 import VisitCount from "@daviddef/archive-kit/components/VisitCount.astro";
+import BookHead from "@daviddef/archive-kit/components/BookHead.astro";
+import BookFoot from "@daviddef/archive-kit/components/BookFoot.astro";
+import book from "../data/book.json";
 import ring from "@daviddef/archive-kit/data/archives.json";
 const { title, description = "", dek, eyebrow, bare, noindex = false } = Astro.props;
 const SITE = "The Falco Archive";
@@ -115,6 +118,8 @@ const thisArchive =
     ))}</div>
   </div>
 </header>
+{/* The book (17 October 2026): the running head sits under the header, Previous / Next above the footer. */}
+<BookHead book={book} u={u} />
 
 <main id="main" tabindex="-1">
   <div class="wrap">
@@ -128,6 +133,8 @@ const thisArchive =
     <slot />
   </div>
 </main>
+
+<BookFoot book={book} u={u} />
 
 <footer class="site">
   <div class="wrap">

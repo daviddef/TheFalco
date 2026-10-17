@@ -46,6 +46,7 @@ TSV_DATA = "data"
 # site/src/data files a person edits (or a research session appends to). Each is read by the gate.
 HAND_EDITED = {
     "apart.json",           # the separated lines, written by hand
+    "book.json",            # the book's spine: part intros, chapter titles and one-line blurbs, typed by hand
     "corrections.json",     # the archive's own corrections log, appended by hand
     "diaspora.json",        # towns and processetti notes
     "dna.json",             # the two DNA tests and what they read

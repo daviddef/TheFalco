@@ -1,0 +1,14 @@
+---
+/* The book's own table of contents: the whole archive in the order of its story (17 October 2026).
+   The menus group pages by kind; this page groups every one of them by where it sits in the telling.
+   The spine itself is src/data/book.json, and `npm run check:book` fails the build on a page it does not place. */
+import Base from "../layouts/Base.astro";
+import BookContents from "@daviddef/archive-kit/components/BookContents.astro";
+import { u } from "../lib/url.js";
+import book from "../data/book.json";
+---
+<Base title="Contents"
+      eyebrow="The Falco Archive, as one book"
+      dek="Six parts and the front matter, read in order or entered anywhere: from the valley the family came from to the registers that say how it is known. The menus stay as shortcuts.">
+  <BookContents book={book} u={u} />
+</Base>

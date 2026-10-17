@@ -770,3 +770,23 @@ td.m{white-space:nowrap}
 .wl-rows .wl-one .wl-note{max-width:none}
 .wl-rows .wl-one .wl-note > *:not(.scroll):not(table){max-width:70ch}
 .wl-rows .wl-one .wl-note > hr{margin-left:0}
+
+/* The book (17 October 2026): the kit's running head, Contents and Previous / Next take this archive's own
+   measure; their colour tokens (--ink, --ink-2, --ink-3, --rule, --panel, --accent, --sans, --serif) are
+   already this stylesheet's, in light and in dark. */
+:root{--bk-width:var(--maxw)}
+/* the home picture used to start under the site header; with the running head between them, give it air */
+body.is-home .bk-head + main{padding-top:14px}
+/* part openers: this stylesheet zeroes paragraph margins, so the opener's eyebrow, paragraph and button need their own */
+main .bk-open .bk-eyebrow{margin:0 0 .5rem}
+main .bk-open .bk-lede{margin:0 0 1.2rem}
+main .bk-open .bk-fig{margin:1.2rem 0}
+main .bk-open .bk-all{margin-top:1.2rem}
+/* Previous / Next: the rule above it runs the width of the page's own column (the kit's box is the column plus the
+   gutter on each side), and the 90px this stylesheet leaves under main is not needed above it. */
+nav.bk-foot.bk-foot{max-width:none;width:min(calc(100% - 56px),calc(var(--maxw) - 56px));padding:0;margin-top:34px}
+main:has(+ .bk-foot){padding-bottom:0}
+@media (max-width:520px){
+  nav.bk-foot.bk-foot{width:calc(100% - 36px)}
+  div.bk-head .bk-row{padding-left:18px;padding-right:18px}
+}

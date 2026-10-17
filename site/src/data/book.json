@@ -1,0 +1,494 @@
+{
+  "title": "The Falco Archive",
+  "front": {
+    "label": "Front matter",
+    "chapters": [
+      {
+        "path": "/",
+        "title": "The cover",
+        "blurb": "Nine generations, on one street in Campania: the Falco of Arienzo, and the one branch that reached Brisbane."
+      },
+      {
+        "path": "/about/",
+        "title": "About",
+        "blurb": "An evidence-first archive of one family's maternal line, Arienzo in the province of Caserta to Brisbane. Every claim carries its confidence or is marked unproven."
+      },
+      {
+        "path": "/method/",
+        "title": "Method",
+        "blurb": "Every one of these family archives grades a claim with the same five words, so a level means the same thing wherever you meet it."
+      }
+    ]
+  },
+  "parts": [
+    {
+      "id": "valley",
+      "numeral": "I",
+      "title": "A valley under the hills near Naples",
+      "intro": "Arienzo is a comune of some six thousand people in the province of Caserta, at the western mouth of the Valle Caudina, and for at least two centuries it was the whole world of this family: nine generations inside one valley under the hills near Naples, four of them on strada Camellara. Falco is the Latin and Italian for falcon, a surname coined independently in many places, so the place and the street come first and the name after them.",
+      "flags": "🇮🇹",
+      "chapters": [
+        {
+          "path": "/arienzo/",
+          "title": "Arienzo",
+          "blurb": "A comune of some six thousand people in the province of Caserta, at the western mouth of the Valle Caudina.",
+          "group": "The place"
+        },
+        {
+          "path": "/camellara/",
+          "title": "Strada Camellara",
+          "blurb": "The surname identifies nobody at Arienzo; the street does. Four generations of this family lived on it.",
+          "group": "The place"
+        },
+        {
+          "path": "/walk/",
+          "title": "Walk the line",
+          "blurb": "If you went to Arienzo tomorrow, the route: the streets the registers name, and what happened on each.",
+          "group": "The place"
+        },
+        {
+          "path": "/valle-caudina/",
+          "title": "The Valle Caudina",
+          "blurb": "Three villages, four kilometres apart, in two provinces, and one marriage pool.",
+          "group": "The place"
+        },
+        {
+          "path": "/liguori/",
+          "title": "The bishop next door",
+          "blurb": "A baptism in the Collegiate Church of Sant'Andrea at Arienzo in 1767, and the bishop of the diocese who lived in the palace beside it.",
+          "group": "The place"
+        },
+        {
+          "path": "/rule/",
+          "title": "Under Whose Rule",
+          "blurb": "Spanish viceroys, Austrians, Bourbons, the French, the Bourbons again, then Italy: Arienzo did not sit still under one flag.",
+          "group": "The place"
+        },
+        {
+          "path": "/atlas/",
+          "title": "The Atlas",
+          "blurb": "The handful of places this line is recorded in: nine generations inside one valley under the hills near Naples, and then Brisbane.",
+          "group": "The place"
+        },
+        {
+          "path": "/name/",
+          "title": "The Name",
+          "blurb": "Falco is the Latin and Italian for falcon, and it becomes a surname by two quite separate roads.",
+          "group": "The name"
+        },
+        {
+          "path": "/which-falco/",
+          "title": "Which Falco?",
+          "blurb": "Arienzo holds at least a dozen Falco households and probably two unrelated Falco stocks.",
+          "group": "The name"
+        },
+        {
+          "path": "/namesakes/",
+          "title": "Namesakes",
+          "blurb": "Why this archive does not chase famous namesakes: Falco is not that kind of name.",
+          "group": "The name"
+        },
+        {
+          "path": "/arms/",
+          "title": "Arms",
+          "blurb": "No coat of arms belongs to this family, though several are sold as though one did.",
+          "group": "The name"
+        },
+        {
+          "path": "/diaspora/",
+          "title": "Where the name went",
+          "blurb": "Five towns within a day's walk hold thousands of records under these surnames; almost none of them are this family.",
+          "group": "The name"
+        }
+      ]
+    },
+    {
+      "id": "nine-generations",
+      "numeral": "II",
+      "title": "Nine generations on one street",
+      "intro": "Nine documented generations in one valley, 1767 to now, each joined to the one above it by a record that names a father, except the first, where the line stops. Every generation of the line is half somebody else's family, so each family married in has its own page beside the line itself.",
+      "flags": "🇮🇹",
+      "chapters": [
+        {
+          "path": "/trees/",
+          "title": "The trees",
+          "blurb": "The Falco spine and the families of the Valle Caudina it married, each drawn in the form its own evidence supports.",
+          "group": "The line, drawn"
+        },
+        {
+          "path": "/tree/",
+          "title": "Our line, drawn",
+          "blurb": "The whole documented line, drawn twice: as the chart the archives share, and as this archive's own figure.",
+          "group": "The line, drawn"
+        },
+        {
+          "path": "/direct-line/",
+          "title": "The Spine",
+          "blurb": "From the Arienzo of the 1730s to Brisbane, each generation joined to the one above it by a record that names a father, except the first.",
+          "group": "The line, drawn"
+        },
+        {
+          "path": "/crisci/",
+          "title": "Crisci",
+          "blurb": "Generations one and three both married a Crisci, and so did five Falco daughters in the other direction.",
+          "group": "Generations 1 and 3: Crisci"
+        },
+        {
+          "path": "/families/crisci/",
+          "title": "Crisci: everyone of the name",
+          "blurb": "Twice into the direct line, and again into the collaterals.",
+          "group": "Generations 1 and 3: Crisci"
+        },
+        {
+          "path": "/rivetti/",
+          "title": "Rivetti",
+          "blurb": "The wife who outlived her husband by nine years, and the two Rivetti families of Arienzo, one of them gentry, that the archive spent five years telling apart.",
+          "group": "Generation 2: Rivetti"
+        },
+        {
+          "path": "/families/rivetti/",
+          "title": "Rivetti: everyone of the name",
+          "blurb": "Once into the direct line.",
+          "group": "Generation 2: Rivetti"
+        },
+        {
+          "path": "/morgillo/",
+          "title": "Morgillo",
+          "blurb": "Many Morgillo are recorded in this archive, and until 2026 almost none of them were joined to each other.",
+          "group": "Generation 4: Morgillo"
+        },
+        {
+          "path": "/families/morgillo/",
+          "title": "Morgillo: everyone of the name",
+          "blurb": "Three marriages across three generations.",
+          "group": "Generation 4: Morgillo"
+        },
+        {
+          "path": "/families/arricale/",
+          "title": "Arricale",
+          "blurb": "Once into the direct line.",
+          "group": "Generation 5: Arricale"
+        },
+        {
+          "path": "/maione/",
+          "title": "Maione",
+          "blurb": "The one wife in the spine whose own birth record has actually been found.",
+          "group": "Generation 6: Maione"
+        },
+        {
+          "path": "/families/maione/",
+          "title": "Maione: everyone of the name",
+          "blurb": "Once into the direct line.",
+          "group": "Generation 6: Maione"
+        },
+        {
+          "path": "/annecchino/",
+          "title": "Annecchino",
+          "blurb": "Now the largest surname in this archive, ahead of Falco itself.",
+          "group": "Generation 7: Annecchino"
+        },
+        {
+          "path": "/families/annecchino/",
+          "title": "Annecchino: everyone of the name",
+          "blurb": "Once into the direct line, and it moved the family north.",
+          "group": "Generation 7: Annecchino"
+        },
+        {
+          "path": "/zampiello/",
+          "title": "Zampiello",
+          "blurb": "The rarest name in this family by a wide margin, and the name of one village.",
+          "group": "Generation 8: Zampiello and Ferrara"
+        },
+        {
+          "path": "/ferrara/",
+          "title": "Ferrara",
+          "blurb": "A wife and mother whom the Zampiello page, until this one, did not name once.",
+          "group": "Generation 8: Zampiello and Ferrara"
+        },
+        {
+          "path": "/families/zampiello/",
+          "title": "Zampiello: everyone of the name",
+          "blurb": "Once into the direct line, and a second Falco brother married a second sister.",
+          "group": "Generation 8: Zampiello and Ferrara"
+        }
+      ]
+    },
+    {
+      "id": "to-brisbane",
+      "numeral": "III",
+      "title": "From Arienzo to Brisbane",
+      "intro": "Seven generations never left Arienzo. Then, inside a single lifetime, the line moved four times and crossed the world: five moves in all, four of which you could walk in a day and one which you could not. The Australian half of the archive was built out of a cemetery index, and it answered a question the registers could not.",
+      "flags": "🇮🇹 🇦🇺",
+      "chapters": [
+        {
+          "path": "/lines/",
+          "title": "Where they went",
+          "blurb": "Seven generations never left Arienzo; then, inside a single lifetime, the line moved four times and crossed the world.",
+          "group": "The moves"
+        },
+        {
+          "path": "/journeys/",
+          "title": "Journeys",
+          "blurb": "The whole geography of this family in five moves, four of which you could walk in a day and one which you could not.",
+          "group": "The moves"
+        },
+        {
+          "path": "/australia/",
+          "title": "Australia",
+          "blurb": "The Australian half of this archive was built out of a cemetery index, and it answered a question the registers could not.",
+          "group": "Brisbane"
+        },
+        {
+          "path": "/graves/",
+          "title": "Graves",
+          "blurb": "Every burial found in Australia, with its plot, and what the plots do and do not prove about who lies beside whom.",
+          "group": "Brisbane"
+        }
+      ]
+    },
+    {
+      "id": "how-they-join",
+      "numeral": "IV",
+      "title": "How the lines join",
+      "intro": "A family history that follows only one surname is half a history, and a shared surname in one small town is suggestive and nothing more. These pages follow the marriages, the blood relatives and the DNA that join the lines, the families the collaterals married, and the households that no record joins to the line.",
+      "flags": "🇮🇹",
+      "chapters": [
+        {
+          "path": "/marriages/",
+          "title": "The Marriages",
+          "blurb": "Who married whom, and which families came with them.",
+          "group": "How the lines meet"
+        },
+        {
+          "path": "/bloodline/",
+          "title": "Blood relatives",
+          "blurb": "Choose a person: parents above, brothers and sisters beside, children below, and through them the aunts, uncles and cousins.",
+          "group": "How the lines meet"
+        },
+        {
+          "path": "/dna/",
+          "title": "What the DNA says",
+          "blurb": "A result that is a confirmation rather than a surprise, and what the test refuses to claim.",
+          "group": "How the lines meet"
+        },
+        {
+          "path": "/wider-family/",
+          "title": "The wider family",
+          "blurb": "This archive is not a pedigree: it records the brothers and sisters, the households that never left Arienzo, and the Falco who cannot yet be joined to the line.",
+          "group": "How the lines meet"
+        },
+        {
+          "path": "/families/",
+          "title": "The families",
+          "blurb": "The families the Falco married: what is known of each in its own right, how often they married in, and where the evidence stops.",
+          "group": "How the lines meet"
+        },
+        {
+          "path": "/carfora/",
+          "title": "Carfora",
+          "blurb": "Five Carfora households on two Arienzo streets, and a gentry Carfora of Santa Maria a Vico that is not joined to any of them.",
+          "group": "Families married by the collaterals"
+        },
+        {
+          "path": "/families/carfora/",
+          "title": "Carfora: everyone of the name",
+          "blurb": "Two marriages into one Falco house, thirty-six years apart.",
+          "group": "Families married by the collaterals"
+        },
+        {
+          "path": "/families/guida/",
+          "title": "di Guida",
+          "blurb": "Once, into a brother of the line's second generation.",
+          "group": "Families married by the collaterals"
+        },
+        {
+          "path": "/families/quotolo/",
+          "title": "Quotolo",
+          "blurb": "Once into a Falco house, though not this one.",
+          "group": "Families married by the collaterals"
+        },
+        {
+          "path": "/families/vigliotta/",
+          "title": "Vigliotta",
+          "blurb": "Twice, and one of the two households is the one proved kin.",
+          "group": "Families married by the collaterals"
+        },
+        {
+          "path": "/families/esposito/",
+          "title": "Esposito",
+          "blurb": "Once, into the second founding household.",
+          "group": "Families married by the collaterals"
+        },
+        {
+          "path": "/families/cioffi/",
+          "title": "Cioffi",
+          "blurb": "The people of the name Cioffi in this archive, most often at Arienzo, counted from its own register.",
+          "group": "Other families this archive has researched"
+        },
+        {
+          "path": "/families/diglio/",
+          "title": "Diglio",
+          "blurb": "The people of the name Diglio in this archive, most often at Arienzo, counted from its own register.",
+          "group": "Other families this archive has researched"
+        },
+        {
+          "path": "/families/zimbardo/",
+          "title": "Zimbardo",
+          "blurb": "The people of the name Zimbardo in this archive, most often at Arienzo, counted from its own register.",
+          "group": "Other families this archive has researched"
+        },
+        {
+          "path": "/families/biondo/",
+          "title": "Biondo",
+          "blurb": "The people of the name Biondo in this archive, most often at Arienzo, counted from its own register.",
+          "group": "Other families this archive has researched"
+        },
+        {
+          "path": "/families/cimmino/",
+          "title": "Cimmino",
+          "blurb": "The people of the name Cimmino in this archive, most often at Arienzo, counted from its own register.",
+          "group": "Other families this archive has researched"
+        }
+      ]
+    },
+    {
+      "id": "everyone",
+      "numeral": "V",
+      "title": "Everyone the registers name",
+      "intro": "Every person the archive can name has a page, filterable by family, by place and by name, and each person's page belongs to this part and links back to its index. A name is not a person, so there is also a page for every name in the register, beside the register itself, the reconstructed households, the places and the timeline.",
+      "flags": "🇮🇹 🇦🇺",
+      "chapters": [
+        {
+          "path": "/people/",
+          "title": "The People",
+          "blurb": "Every person the archive can name, filterable by family, by place and by name. Every one has a page."
+        },
+        {
+          "path": "/who/",
+          "title": "Every Name",
+          "blurb": "A name is not a person: every name in the register, and how many records carry it."
+        },
+        {
+          "path": "/register/",
+          "title": "The Register",
+          "blurb": "The raw catch, not a family tree: every entry for every name, each with a link to the source that names it or the reason there is none."
+        },
+        {
+          "path": "/households/",
+          "title": "Households",
+          "blurb": "Reconstructed families of the parish of Sant'Andrea at Arienzo and of the civil registers after it, read entry by entry."
+        },
+        {
+          "path": "/places/",
+          "title": "Places",
+          "blurb": "One page per place the atlas can put a person in, listing who was born, married or buried there and what the archive read to know it."
+        },
+        {
+          "path": "/timeline/",
+          "title": "The Timeline",
+          "blurb": "The line, the regimes it lived under, and the exact years of register read act by act; the gaps are the honest part."
+        }
+      ]
+    },
+    {
+      "id": "how-we-know",
+      "numeral": "VI",
+      "title": "How we know, and what is missing",
+      "intro": "Every correction is kept on the page it corrects, and nothing is deleted. These pages hold what the archive rests on, the registers it has read and the searches that came back empty so that a null is not lost, the questions still open, the errands it cannot do from a desk, and the work still to do.",
+      "chapters": [
+        {
+          "path": "/sources/",
+          "title": "Sources",
+          "blurb": "What has been read, where it is, and what it actually established.",
+          "group": "What it rests on"
+        },
+        {
+          "path": "/documents/",
+          "title": "Documents",
+          "blurb": "The images the archive rests on: the register pages that carry the evidence, and the family's own photographs, each with its archival reference.",
+          "group": "What it rests on"
+        },
+        {
+          "path": "/gallery/",
+          "title": "Gallery",
+          "blurb": "Every image the archive holds, in one contact sheet, oldest first.",
+          "group": "What it rests on"
+        },
+        {
+          "path": "/the-library/",
+          "title": "The Library",
+          "blurb": "The bibliography: the record sets this archive has read, the working data it keeps in the open, and the larger body it has not touched.",
+          "group": "What it rests on"
+        },
+        {
+          "path": "/holdings/",
+          "title": "Holdings",
+          "blurb": "A map of the registers themselves: most dead ends were failures of knowing what had been filmed.",
+          "group": "The registers"
+        },
+        {
+          "path": "/antenati/",
+          "title": "Antenati",
+          "blurb": "The Italian State Archives' own portal, opened by hand, which answers two questions that had been left hanging.",
+          "group": "The registers"
+        },
+        {
+          "path": "/processetti/",
+          "title": "The Processetti",
+          "blurb": "A processetto is everything a couple had to prove before they could marry: baptisms, parents' consent, banns.",
+          "group": "The registers"
+        },
+        {
+          "path": "/searched/",
+          "title": "What Has Been Read",
+          "blurb": "Searches on the record, including those that came back empty, so that a null is not lost.",
+          "group": "The registers"
+        },
+        {
+          "path": "/research-log/",
+          "title": "Research log",
+          "blurb": "The actual working notes, one file per register volume, written while reading and never tidied afterwards.",
+          "group": "The registers"
+        },
+        {
+          "path": "/open-questions/",
+          "title": "Open Questions",
+          "blurb": "Questions on the record: open, waiting on a person, and answered with the reasoning left readable.",
+          "group": "What is missing"
+        },
+        {
+          "path": "/errands/",
+          "title": "Errands",
+          "blurb": "What this archive cannot get by searching: records an archive, a museum or a library holds and does not put online.",
+          "group": "What is missing"
+        },
+        {
+          "path": "/worklist/",
+          "title": "The work list",
+          "blurb": "Every other register answers what the archive knows; this one answers who has to move it next.",
+          "group": "What is missing"
+        },
+        {
+          "path": "/corrections/",
+          "title": "Corrections",
+          "blurb": "Every correction is kept on the page it corrects; nothing is deleted, and the wrong reading stays beside the right one.",
+          "group": "What changed"
+        },
+        {
+          "path": "/changes/",
+          "title": "What changed",
+          "blurb": "Generated from this archive's own commit history, so it cannot drift from what actually happened.",
+          "group": "What changed"
+        }
+      ]
+    }
+  ],
+  "inherit": {
+    "/people/": "/people/",
+    "/who/": "/who/",
+    "/places/": "/places/"
+  },
+  "outside": [
+    "/search/"
+  ]
+}
