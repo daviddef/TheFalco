@@ -4,13 +4,13 @@
 "made": "2026-10-17",
 "keycheck": "3e21bd633b3808dd9c2c369fcd8c4bfd",
 "seal": {
-"livingSet": "2dae652e57a14fe9a335f2f6a60f7f01c4b2db7f48c97b0fffb959e95d5f8781",
-"living": 52,
-"heldOut": 37
+"livingSet": "3c0dedd2d43eb2f16cb64a8d89f72118b5cc39b8e7dd3ddf1f07593afe6ae081",
+"living": 51,
+"heldOut": 40
 },
 "counts": {
 "dates": 15,
-"heldNames": 70,
+"heldNames": 76,
 "heldNamesSharedWithDead": 0,
 "datesAlsoOnTheSite": 0
 },
@@ -34,8 +34,11 @@
 "heldNames": [
 "033b51311427a97152b1fc4279399faa",
 "0d25564e6eb9b45d3cee5f1a565ccef7",
+"0dede033aed336c86b15a24357b00c3a",
+"0e39d361dd74378b6ae41d6bdb6b727b",
 "0ef58c4596bcbc7756a11f871adaa3f2",
 "15da1fe181eb709acc6dc756fd8c8b3d",
+"168fcbb82c34d2c7ac7faf970d8b9c06",
 "23fe25b18d1bfed0c63c32ebabdf88b8",
 "2a035544a9a982ee784875cced120142",
 "2e24879a2dae3bd7d8265b90cbcfef80",
@@ -64,6 +67,7 @@
 "69a73cc04d519dd53a287cd1cbf185a2",
 "719196a86284a5b3eb71562c6dbd241a",
 "729b25b5b89e189d2c291dd1961846b6",
+"72edde50681bdbb46f8c4bd47ae9678c",
 "7542207b0f23ab61cc73ed3e12fd919b",
 "7c26030086fcee878491f2a282295928",
 "8016ac8a4cc48d3fb53da3ba96799145",
@@ -71,6 +75,7 @@
 "80cd56f2bc7eafc40966c2f1c046a68c",
 "820fcdf1c72917025b251aecdb62e1df",
 "843068b2d8ba504991662fa3162974fa",
+"8e492d53e5d946e164547cd0753da5a3",
 "8e725c0a8decd0d3708d2c014ab37730",
 "8ea5fba27313ed0f95082b186d11138c",
 "962b1a42a59c9055214fd0380f8dd5f3",
@@ -78,6 +83,7 @@
 "9bf9e0bd0d0fec917ab183cfd723fd58",
 "9e6eee2fdaff9adf32607dba03e00ed4",
 "9f34b7d811ff3525c7022473fa82accb",
+"a41bbb733a8b5256b46974caad40dad0",
 "a62c743998ac6951f293d0ccc2f64724",
 "a886b8069aa05ee42d93e0e0a0964165",
 "a9eeacfacb2e61656cfe0509a66a4a01",

@@ -2885,109 +2885,6 @@
   }
  },
  {
-  "surname": "Ruggiero",
-  "n": 7,
-  "withheld": 0,
-  "first": 1919,
-  "last": 1919,
-  "places": [],
-  "marriages": [
-   {
-    "who": "Michele Ruggiero",
-    "whoSlug": "michele-ruggiero",
-    "to": "Tommasina Zampiello (Ruggiero)",
-    "toSlug": "tommasina-zampiello",
-    "into": "Zampiello",
-    "living": false
-   },
-   {
-    "who": "Giuseppe Ruggiero",
-    "whoSlug": "giuseppe-ruggiero",
-    "to": "Teresa D'Iglio (Ruggiero)",
-    "toSlug": "teresa-d-iglio",
-    "into": "D'Iglio",
-    "living": false
-   },
-   {
-    "who": "Teresa Ruggiero (Schettini)",
-    "whoSlug": "teresa-ruggiero",
-    "to": "Baladino Schettini",
-    "toSlug": "baladino-schettini",
-    "into": "Schettini",
-    "living": true
-   }
-  ],
-  "people": [
-   {
-    "name": "Michele Ruggiero",
-    "slug": "michele-ruggiero",
-    "b": "1919",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "Giuseppe Ruggiero",
-    "slug": "giuseppe-ruggiero",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "Giuseppe Ruggiero",
-    "slug": "giuseppe-ruggiero-2",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   },
-   {
-    "name": "[withheld]",
-    "slug": "john-ruggiero",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": "",
-    "living": true
-   },
-   {
-    "name": "[withheld]",
-    "slug": "joseph-ruggiero",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": "",
-    "living": true
-   },
-   {
-    "name": "[withheld]",
-    "slug": "michael-ruggiero",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": "",
-    "living": true
-   },
-   {
-    "name": "Teresa Ruggiero (Schettini)",
-    "slug": "teresa-ruggiero",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": "",
-    "living": true
-   }
-  ],
-  "unjoinedBurials": 0,
-  "reach": [
-   "kin"
-  ],
-  "reachCount": {
-   "kin": 7
-  }
- },
- {
   "surname": "Militano",
   "n": 6,
   "withheld": 0,
@@ -3631,6 +3528,83 @@
     "bp": "Briatico",
     "d": "1980",
     "dp": "Briatico"
+   }
+  ],
+  "unjoinedBurials": 0,
+  "reach": [
+   "kin"
+  ],
+  "reachCount": {
+   "kin": 4
+  }
+ },
+ {
+  "surname": "Ruggiero",
+  "n": 4,
+  "withheld": 0,
+  "first": 1919,
+  "last": 1919,
+  "places": [],
+  "marriages": [
+   {
+    "who": "Michele Ruggiero",
+    "whoSlug": "michele-ruggiero",
+    "to": "Tommasina Zampiello (Ruggiero)",
+    "toSlug": "tommasina-zampiello",
+    "into": "Zampiello",
+    "living": false
+   },
+   {
+    "who": "Giuseppe Ruggiero",
+    "whoSlug": "giuseppe-ruggiero",
+    "to": "Teresa D'Iglio (Ruggiero)",
+    "toSlug": "teresa-d-iglio",
+    "into": "D'Iglio",
+    "living": false
+   },
+   {
+    "who": "Teresa Ruggiero (Schettini)",
+    "whoSlug": "teresa-ruggiero",
+    "to": "Baladino Schettini",
+    "toSlug": "baladino-schettini",
+    "into": "Schettini",
+    "living": true
+   }
+  ],
+  "people": [
+   {
+    "name": "Michele Ruggiero",
+    "slug": "michele-ruggiero",
+    "b": "1919",
+    "bp": "",
+    "d": "",
+    "dp": ""
+   },
+   {
+    "name": "Giuseppe Ruggiero",
+    "slug": "giuseppe-ruggiero",
+    "b": "",
+    "bp": "",
+    "d": "",
+    "dp": ""
+   },
+   {
+    "name": "Giuseppe Ruggiero",
+    "slug": "giuseppe-ruggiero-2",
+    "b": "",
+    "bp": "",
+    "d": "",
+    "dp": "",
+    "living": true
+   },
+   {
+    "name": "Teresa Ruggiero (Schettini)",
+    "slug": "teresa-ruggiero",
+    "b": "",
+    "bp": "",
+    "d": "",
+    "dp": "",
+    "living": true
    }
   ],
   "unjoinedBurials": 0,

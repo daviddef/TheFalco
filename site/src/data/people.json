@@ -59837,7 +59837,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [],
 "spouses": [
 {
@@ -59849,34 +59849,11 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "michael-ruggiero",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "john-ruggiero",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "joseph-ruggiero",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [],
-"treeId": 4509252
+"treeId": 4509252,
+"place": "",
+"rel": "relative"
 },
 {
 "slug": "catarina-ruggiero",
@@ -59949,7 +59926,7 @@
 "sources": [
 "tree"
 ],
-"living": false,
+"living": true,
 "parents": [
 {
 "slug": "michele-ruggiero",
@@ -59978,32 +59955,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "michael-ruggiero",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "john-ruggiero",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "joseph-ruggiero",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "teresa-ruggiero",
@@ -60014,164 +59966,7 @@
 ]
 }
 ],
-"treeId": 4509251
-},
-{
-"slug": "john-ruggiero",
-"name": "[withheld]",
-"surname": "RUGGIERO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "giuseppe-ruggiero-2",
-"name": "Giuseppe Ruggiero",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "barbara-ruggiero",
-"name": "Barbara Ruggiero",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "michael-ruggiero",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "joseph-ruggiero",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4509254,
-"place": "",
-"rel": "relative"
-},
-{
-"slug": "joseph-ruggiero",
-"name": "[withheld]",
-"surname": "RUGGIERO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "giuseppe-ruggiero-2",
-"name": "Giuseppe Ruggiero",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "barbara-ruggiero",
-"name": "Barbara Ruggiero",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "michael-ruggiero",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "john-ruggiero",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4509255,
-"place": "",
-"rel": "relative"
-},
-{
-"slug": "michael-ruggiero",
-"name": "[withheld]",
-"surname": "RUGGIERO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "giuseppe-ruggiero-2",
-"name": "Giuseppe Ruggiero",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "barbara-ruggiero",
-"name": "Barbara Ruggiero",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "john-ruggiero",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "joseph-ruggiero",
-"name": "[withheld]",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4509253,
+"treeId": 4509251,
 "place": "",
 "rel": "relative"
 },

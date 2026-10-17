@@ -138,7 +138,7 @@ def worksheet(path):
         "How the list was worked out: an undated person with no recorded death and no public record is treated as living when "
         "their nearest dated ancestor (a parent, else a grandparent, else a great-grandparent) was born in year Y, g generations "
         "up, and Y + 20*g is 1946 or later (80 or younger in 2026). An undated spouse of such a person is included. A few "
-        "people whose estimate falls just short were included by hand, at your instruction (marked BY HAND).",
+        "people whose estimate falls just short (1941 or 1945) were included by hand, at your instruction (marked BY HAND).",
         "",
         "HOW TO ANSWER: for each person write DEAD (add the year if you know it), LIVING, or UNSURE. A person you rule dead "
         "goes back to being shown as a historical person; give me the tree id.",
@@ -239,6 +239,15 @@ def worksheet(path):
             rels = ["child of " + nm(q) for q in base[i]["parents"]] + ["spouse of " + nm(q) for q in base[i]["spouses"]]
             lines.append("| %s | %s | %s | |" % (i, nm(i), "; ".join(rels) or "-"))
         lines.append("")
+    near_miss = []
+    for i in pool:
+        a_ = anc(i)
+        m_ = __import__("re").search(r"estimate (\d+)", a_)
+        if m_ and int(m_.group(1)) >= 1941:
+            near_miss.append(i)
+    if near_miss:
+        lines += ["## Not added: estimate 1941 or later, like the people included by hand", "",
+                  "Tree ids only; say if you want any of them treated as living: " + ", ".join(map(str, near_miss)), ""]
     if pool:
         lines += ["## Undated, not on the list: the rule does not reach them", "",
                   "No dated ancestor within three generations, or an estimate before 1946. They are still shown as historical "
