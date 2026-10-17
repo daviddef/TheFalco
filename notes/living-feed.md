@@ -38,7 +38,9 @@ printed «NOT RUN» and exited 0. A push from a machine without the tree could d
 - `python3 tools/living_feed.py check --tracked` also scans the local `data/` directory (it will find the private exports there,
   which is expected and is why they are gitignored).
 
-## The larger exposure this found
-The full tree (427 people, **32 living with birth dates**) was committed to this public repository on 8 Sep and removed on
-14 Sep (commit 7e672530). **It is still readable in git history** (`git show e1d56e9a:data/myheritage-falco-tree.json`). The feed
-does not change that. See the end of the session summary for the options; scrubbing history is destructive and was not done.
+## The larger exposure this found, and what was done about it
+The full private tree had been committed to this public repository in September and removed days later, which left it readable in
+git history. **On 17 October 2026 the history was rewritten and force-pushed** (the three private exports removed from every
+commit; living people's dates and held-out people's names blanked in every older file), verified against a fresh clone from
+GitHub, and every commit hash changed. A rewrite cannot recall copies that were already taken. The unscrubbed history is kept
+offline by David, not in this repository.
