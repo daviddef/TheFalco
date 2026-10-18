@@ -6,7 +6,7 @@ import line from "../data/line.json";
 import { people } from "../lib/people.js";
 const livingGen = new Set(people.filter((p) => p.living && p.gen).map((p) => p.gen));
 const legs = [
-  { from: "Arienzo", to: "Arienzo", km: 0, when: "c. 1735 – 1901", gens: "1 to 7",
+  { from: "Arienzo", to: "Arienzo", km: 0, when: "c. 1747 – 1901", gens: "1 to 7",
     what: "Seven generations do not move at all. Every one of them is born, married and buried within the same parish — and most of them on or beside one street, strada Camellara." },
   { from: "Arienzo", to: "Arpaia", km: 4, when: "1913", gens: "7",
     what: "The first move in two hundred years, and it crosses a provincial border — Caserta to Benevento — without leaving walking distance. Gerardo Falco is born here in 1913." },
@@ -25,7 +25,7 @@ const walk = legs.slice(0, 4).reduce((a, l) => a + l.km, 0);
 
   <div class="card" style="margin-bottom:1.2rem">
     <p><strong>The shape of this family's movement is the most striking thing about it.</strong> From
-    about 1735 to 1901 — <strong>seven generations</strong> — nobody leaves Arienzo. Then, inside a
+    about 1747 to 1901 — <strong>seven generations</strong> — nobody leaves Arienzo. Then, inside a
     single lifetime, the line moves to Arpaia, to Forchia, to Benevento and to Australia.</p>
     <p style="margin-top:.6rem"><strong>The first four moves total {walk} kilometres.</strong> The
     fifth is <strong>15,800</strong>.</p>
