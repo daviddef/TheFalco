@@ -3,16 +3,16 @@
  "note": "Per page, per rule: violations of the linking standard. A number may only go down. Written by checkstandard.py --write-floor; raise one only by hand, in a commit that says why. Counts only: no name.",
  "pages": {
   "/annecchino/": {"L1": 0, "L2": 1, "L3": 0, "L4": 0, "L5": 22, "EX": 0},
-  "/antenati/": {"L1": 0, "L2": 0, "L3": 0, "L4": 0, "L5": 33, "EX": 0},
+  "/antenati/": {"L1": 0, "L2": 0, "L3": 0, "L4": 0, "L5": 31, "EX": 0},
   "/australia/": {"L1": 0, "L2": 2, "L3": 0, "L4": 0, "L5": 35, "EX": 0},
-  "/camellara/": {"L1": 0, "L2": 2, "L3": 0, "L4": 0, "L5": 19, "EX": 0},
+  "/camellara/": {"L1": 0, "L2": 2, "L3": 0, "L4": 0, "L5": 17, "EX": 0},
   "/carfora/": {"L1": 0, "L2": 3, "L3": 0, "L4": 0, "L5": 9, "EX": 0},
   "/crisci/": {"L1": 0, "L2": 1, "L3": 0, "L4": 0, "L5": 7, "EX": 0},
   "/dna/": {"L1": 0, "L2": 1, "L3": 0, "L4": 0, "L5": 4, "EX": 0},
   "/ferrara/": {"L1": 0, "L2": 0, "L3": 0, "L4": 0, "L5": 4, "EX": 0},
   "/morgillo/": {"L1": 0, "L2": 6, "L3": 0, "L4": 0, "L5": 16, "EX": 0},
   "/processetti/": {"L1": 0, "L2": 7, "L3": 0, "L4": 0, "L5": 16, "EX": 1},
-  "/rivetti/": {"L1": 0, "L2": 3, "L3": 0, "L4": 0, "L5": 8, "EX": 0},
-  "/which-falco/": {"L1": 0, "L2": 0, "L3": 0, "L4": 0, "L5": 48, "EX": 0}
+  "/rivetti/": {"L1": 0, "L2": 2, "L3": 0, "L4": 0, "L5": 9, "EX": 0},
+  "/which-falco/": {"L1": 0, "L2": 0, "L3": 0, "L4": 0, "L5": 44, "EX": 0}
  }
 }
