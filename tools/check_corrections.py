@@ -169,6 +169,15 @@ RETIRED_PHRASES = [
     ("Signor Matteo Aniello",
      "the physician is ANIELLO BALLETTA \u2014 both manuscripts read «del medico Signor BALLETTA ANIELLO», "
      "surname first, as this register writes every name; there is no Matteo in the sentence"),
+    # 18 OCTOBER 2026 \u2014 generation two's baptism. The correction of 27 September 2026 (read from the
+    # image: «JULII», the year written out in Latin and repeated in digits) made it 24 JULY 1767, and
+    # \u00ab24 October 1767\u00bb went on standing on a dozen pages and in a dozen data files for three weeks.
+    # The derived ages moved with it (46 became 47 in September 1814, 66 became 67 in 1834).
+    ("24 October 1767",
+     "generation two's baptism is 24 JULY 1767 \u2014 the act reads JULII, read from the image; "
+     "corrected 27 September 2026"),
+    ("24 Oct 1767", "same \u2014 24 JULY 1767"),
+    ("baptism of October 1767", "same \u2014 JULY 1767"),
 ]
 
 GUILLEMET = re.compile(r"\u00ab.*?\u00bb", re.S)

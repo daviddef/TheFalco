@@ -201,7 +201,7 @@ them. This is the **first age ever recorded for Pasquale Falco outside a death a
 
 | Person | Stated, Sept 1814 | Implies born | Against the record |
 |---|---|---|---|
-| **Pasquale Falco** | **60** | c. 1754 | his baptism is **24 Oct 1767** — he was **46**. Wrong by 14. |
+| **Pasquale Falco** | **60** | c. 1754 | his baptism is **24 Jul 1767** — he was **47**. Wrong by 13. |
 | **Chiara Rivetti** | **47** | c. 1767 | her 1843 burial said 80 (b. 1763); the tree says 1772 |
 | Vincenzo Falco | 23 | c. 1791 | baptised 1 Feb 1792 — **right** |
 | Andreana Crisci | 17 *compiti* | c. 1797 | baptised 30 Nov 1796 — **right**, days off her 18th |

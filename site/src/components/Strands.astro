@@ -16,7 +16,7 @@
    groups of the surname this archive can name and cannot join to it. So the
    first lane is the line and the rest are the strands it is not.
 
-   THE FOUR HOUSEHOLDS ON STRADA CAMELLARA ARE DELIBERATELY NOT HERE. They
+   THE FIVE HOUSEHOLDS ON STRADA CAMELLARA ARE DELIBERATELY NOT HERE. They
    never move, and a figure about where people came from would have to invent
    a journey for them. They are on /lines, in the band that exists to say
    «these do not connect».
@@ -26,4 +26,4 @@
 import BranchRivers from "@daviddef/archive-kit/components/BranchRivers.astro";
 import data from "../data/strands.json";
 ---
-<BranchRivers rivers={data} caption={data.caption} />
+<BranchRivers rivers={data} caption={data.caption} title={data.title} />

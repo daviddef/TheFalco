@@ -31,7 +31,7 @@ dead.
 It gives two things the archive did not have:
 
 - **his trade as *colono***, a tenant farmer, where the 1834 act calls him *contadino*;
-- **his age as fifty-five**, one year out against the baptism of 24 October 1767 — ordinary here.
+- **his age as fifty-five**, one year out against the baptism of 24 July 1767 — ordinary here.
 
 And it is **the first act found in which the two brothers appear together**.
 

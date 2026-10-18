@@ -7,18 +7,66 @@ import HouseholdTree from "../components/HouseholdTree.astro";
 import P from "../components/P.astro";
 import Src from "../components/Src.astro";
 import line from "../data/line.json";
+import allPeople from "../data/people.json";
+import kin from "../data/kin.json";
 
-const lineNames = new Set(line.map(g => g.name.split(" (")[0].trim()));
-const isLine = (p) => lineNames.has(String(p).split(" (")[0].trim());
+/* WHO IS ON THE LINE IS READ FROM THE PERSON GRAPH, NOT FROM A NAME.
+   The graph (tools/build_people.py) marks a person `line` only when the
+   generation's ancestor AND spouse both match, so a household is a line
+   household when the graph files a line person under it. Matching the bare
+   name instead put 16 households here because a different man of the same
+   forename and surname is a child in them (two Raffaele, two Matteo, three
+   Vincenzo, a second Carmine Antonio). */
+const lineHeadGen = new Map();          // household id -> generation of its line head
+for (const p of allPeople) {
+  if (p.line && p.hid && ["father", "head", "mother"].includes(p.role)) {
+    lineHeadGen.set(p.hid, Math.min(lineHeadGen.get(p.hid) ?? 99, p.gen));
+  }
+}
+const norm = (s) => String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/\s+/g, " ").trim();
+/* The ways one man's name is written. «Pasquale (Pascuale) Falco» is spelt two
+   ways; «Raffaele Falco (the first, 1816-1817)» is a DIFFERENT man, and a
+   bracket with a year, «of» or «the» in it never makes a variant spelling. */
+const forms = (s) => {
+  const raw = String(s || "").replace(/\s+/g, " ").trim();
+  const m = raw.match(/^(.*?)(\S+)\s*\(([^)]*)\)\s*(.*)$/);
+  if (!m) return new Set([norm(raw)]);
+  if (/\d|\b(the|of|first|second|elder|younger)\b/i.test(m[3])) return new Set();
+  return new Set([norm(`${m[1]}${m[2]} ${m[4]}`), norm(`${m[1]}${m[3]} ${m[4]}`)]);
+};
+const sameMan = (a, b) => { const fb = forms(b); return [...forms(a)].some((x) => fb.has(x)); };
+const lineAt = (g) => line.find((x) => x.gen === g);
+/* the line person a household member IS: the head of a line household, or the
+   child of a line head who carries on the line */
+const lineGenOf = (h, m) => {
+  const g = lineHeadGen.get(h.id);
+  if (!g) return null;
+  if (m.role === "father" && lineAt(g) && sameMan(m.person, lineAt(g).name)) return g;
+  if (m.role === "child" && lineAt(g + 1) && sameMan(m.person, lineAt(g + 1).name)) return g + 1;
+  return null;
+};
+const isLineMember = (h, m) => lineGenOf(h, m) !== null;
 
 const total = households.reduce((a, h) => a + h.members.length, 0);
 const people = new Set();
 households.forEach(h => h.members.forEach(m => people.add(m.person)));
-const collateral = [...people].filter(p => !isLine(p));
+// the generations of the line that these households actually hold, each counted once
+const lineGensHeld = new Set();
+households.forEach(h => h.members.forEach(m => { const g = lineGenOf(h, m); if (g) lineGensHeld.add(g); }));
+const collateral = { length: people.size - lineGensHeld.size };
 
-// households that contain nobody from the direct line at all
-const sideBranches = households.filter(h => !h.members.some(m => isLine(m.person)));
-const lineHouseholds = households.filter(h => h.members.some(m => isLine(m.person)));
+const kinIds = new Map(kin.households.map(k => [k.id, k.why]));
+// households that hold a person of the direct line
+const lineHouseholds = households.filter(h => lineHeadGen.has(h.id));
+// households of proved kin: a record ties them to the line, but no line person is in them
+const kinHouseholds = households.filter(h => !lineHeadGen.has(h.id) && kinIds.has(h.id));
+// everything else: no record joins it to the line
+const sideBranches = households.filter(h => !lineHeadGen.has(h.id) && !kinIds.has(h.id));
+const hasFalcoName = (h) => /\bFalco\b/.test(h.name);
+const falcoHeaded = sideBranches.filter(h => /\bFalco\b/.test(String(h.name).split("&")[0])).length;
+const falcoNamed = sideBranches.filter(hasFalcoName).length;
+const noFalco = sideBranches.length - falcoNamed;
+const atArienzo = sideBranches.filter(h => h.members.some(m => /Arienzo/.test(m.place || ""))).length;
 ---
 <Base title="The wider family">
   <p class="lede">This archive is not a pedigree. A pedigree keeps one child in each generation and
@@ -34,12 +82,12 @@ const lineHouseholds = households.filter(h => h.members.some(m => isLine(m.perso
     </div>
     <div class="card">
       <h3>{collateral.length} of them</h3>
-      <p>are <strong>not</strong> in the direct line. The line is {lineNames.size} people; nearly
+      <p>are <strong>not</strong> in the direct line. The line is {line.length} people, one to a generation; nearly
       everything else on this site is somebody else's family.</p>
     </div>
   </div>
 
-  <h2>A Falco household at San Felice a Cancello</h2>
+  <h2 id="san-felice">A Falco household at San Felice a Cancello</h2>
   <div class="card" style="margin-bottom:1.2rem">
     <p><strong>Found on 13 September 2026, in the Arienzo marriage register of 1815.</strong>
     <P n="Luigi Falco" bold={true} />, eighteen, a <strong><em>sapunaro</em> — a soap-maker</strong>,
@@ -104,12 +152,14 @@ const lineHouseholds = households.filter(h => h.members.some(m => isLine(m.perso
     about 1797; and the processetto for this marriage, which carries both baptism extracts.</p>
   </div>
 
-  <h2>Households the line passes through</h2>
-  <p>In each of these, one child continued the line and the others did not. The others are here.</p>
+  <h2 id="line-households">Households the line passes through</h2>
+  <p>These {lineHouseholds.length} households each hold a person of the direct line, filed there by
+  the person graph and not by a shared name. In each, one child continued the line and the others
+  did not. The others are here.</p>
   {lineHouseholds.map(h => {
-    const sibs = h.members.filter(m => m.role === "child" && !isLine(m.person));
+    const sibs = h.members.filter(m => m.role === "child" && !isLineMember(h, m));
     return (
-      <section class="card" style="margin:1rem 0">
+      <section class="card" id={h.id} style="margin:1rem 0">
         <h3 style="margin-bottom:.3rem">{h.name}</h3>
         <p class="small" style="margin:.1rem 0 .6rem">
           {h.members.length} entries · {sibs.length} {sibs.length === 1 ? "child" : "children"} outside the line
@@ -128,12 +178,37 @@ const lineHouseholds = households.filter(h => h.members.some(m => isLine(m.perso
     );
   })}
 
-  <h2>Falco households not yet joined to the line</h2>
-  <p>Every one of these is a Falco family of Arienzo, in the same parish and often the same street.
-  None of them has been joined to the direct line by a record, and this archive does not join them by
-  assumption. They are published so that somebody with the missing act can.</p>
+  <h2 id="kin">Households of proved kin</h2>
+  <p>No person of the direct line is in any of these {kinHouseholds.length}, but a record of this
+  archive ties each to the line as kin. They are the households listed under
+  <a href={u("/which-falco/")}>The line</a> on <em>Which Falco?</em> that are not in the section above.</p>
+  {kinHouseholds.map(h => (
+    <section class="card" id={h.id} style="margin:1rem 0">
+      <h3 style="margin-bottom:.3rem">{h.name} <span class="chip">kin</span></h3>
+      <p class="small" style="margin:.1rem 0 .6rem">{kinIds.get(h.id)}</p>
+      <HouseholdTree household={h} showHead={false} />
+      <ul style="margin:.4rem 0">
+        {h.members.map(m => (
+          <li>
+            <strong>{(findPerson(m.person, h.name)||{}).slug ? <a href={u("/people/" + findPerson(m.person, h.name).slug)}>{m.person}</a> : m.person}</strong> <span class="small">({m.role})</span>
+            {m.event && m.date ? <span class="small"> — {m.event}, {m.date}</span> : null}
+            {m.place ? <span class="small">, {m.place}</span> : null}
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+
+  <h2 id="unjoined">Households not yet joined to the line</h2>
+  <p>This archive holds {sideBranches.length} households that no record joins to the direct line, and
+  it does not join them by assumption. {falcoHeaded} are headed by a man named Falco and
+  {falcoNamed - falcoHeaded} by a woman of the name who married out; the other {noFalco} carry no
+  Falco in the household's name or among its members. {atArienzo} of the {sideBranches.length} have a member recorded at Arienzo; the rest are
+  recorded only at San Felice a Cancello, Santa Maria a Vico, Forchia, Arpaia, Brisbane and
+  elsewhere. They are published so that somebody with the missing act can join them, or rule them
+  out.</p>
   {sideBranches.map(h => (
-    <section class="card" style="margin:1rem 0">
+    <section class="card" id={h.id} style="margin:1rem 0">
       <h3 style="margin-bottom:.3rem">{h.name} <span class="chip dis">unjoined</span></h3>
       <HouseholdTree household={h} showHead={false} />
       <ul style="margin:.4rem 0">
