@@ -3,6 +3,9 @@
  * <Src ark="an_ua14341" img={63} note="atto 102" />
  * <Src href="https://…" note="FamilySearch" />
  *
+ * data-cite is the mark the linking standard's gate (kit checkstandard.py) reads as "a link to a record": a chip beside a claim is a
+ * record link whatever host it reaches. (Decision, 18 October 2026: Src stays the chip beside a claim; <Rec> wraps the citation's own words.)
+ *
  * Every claim on this site is supposed to carry its evidence. Until now the
  * evidence was named in the prose but not reachable from it. This makes the
  * citation itself the link.
@@ -31,7 +34,7 @@ if (p) {
 const text = label || note || (p ? "plate" : ark ? "register image" : "source");
 ---
 {to ? (
-  <a class="src" href={to} title={title} rel={href || ark ? "noopener" : null}>{text}{(href || ark) ? " ↗" : ""}</a>
+  <a class="src" href={to} title={title} rel={href || ark ? "noopener" : null} data-cite>{text}{(href || ark) ? " ↗" : ""}</a>
 ) : (
   <span class="src src-none" title="No reachable source — this is stated, not linked">{text}</span>
 )}

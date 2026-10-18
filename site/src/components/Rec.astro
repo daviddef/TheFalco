@@ -1,0 +1,18 @@
+---
+/* <Rec id="an_ua14336">Arienzo, Morti 1834, atto 69</Rec>
+ *
+ * The kit's record link (@daviddef/archive-kit/components/Rec.astro, the linking standard's L3 and L4) with this archive's
+ * records table (src/data/records.json, made by tools/build_records.py from the archive's own data) already passed in.
+ * The words between the tags are the citation the author wrote, unchanged; they become the link to the record.
+ *
+ *   id     an Antenati volume's ark ("an_ua14336"), a plate's stem ("pasquale-falco-death-1834"), or "naa-<barcode>"
+ *   act    the same by the act it is the scan of ("1834-69"), for a plate
+ *   thumb  between paragraphs only: the small figure of the scan, where the table says the archive shows it
+ *
+ * An id the table does not hold stops the build. tools/check_records.py holds the words to the volume (its year and its series).
+ */
+import KitRec from "@daviddef/archive-kit/components/Rec.astro";
+import records from "../data/records.json";
+const props = Astro.props;
+---
+<KitRec records={records} {...props}><slot /></KitRec>

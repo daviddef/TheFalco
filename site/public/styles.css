@@ -799,3 +799,7 @@ main:has(+ .bk-foot){padding-bottom:0}
   nav.bk-foot.bk-foot{width:calc(100% - 36px)}
   div.bk-head .bk-row{padding-left:18px;padding-right:18px}
 }
+
+/* The kit's <Rec> draws a record link as a.rec (the linking standard's L3). This stylesheet's own .rec is a three-column grid
+   for a row of the record tables, so the link has to take none of it: it is an ordinary inline link in the author's sentence. */
+a.rec{display:inline;grid-template-columns:none;font-family:inherit;font-size:inherit;padding:0;border:0}

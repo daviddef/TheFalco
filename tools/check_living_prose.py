@@ -76,8 +76,10 @@ GENERATED = {
     "married-in.json",      # build_marriedin.py
     "namefold.json",        # kit/tools/namefold.py ("run it again rather than editing it")
     "people-aliases.json",  # build_people.py, slug redirects
+    "plate-keys.json",      # build_plate_keys.py: the act each plate is the scan of, read from plates.json (checked with --check)
     "people.json",          # build_people.py; scrubbed to the standard and checked by check_living_v2.py
     "person-slugs.json",    # build_people.py, the slug ledger
+    "records.json",         # build_records.py: Antenati volumes (from data/antenati-ids/), plates and NAA items; a row about a living name is held out
     "register.json",        # build_register.py
     "researchlog.json",     # build_researchlog.py, from notes/
     "searchindex.json",     # build_searchindex.py
