@@ -284,6 +284,7 @@ def place_tails(dist):
                 t = open(os.path.join(root, fn), encoding="utf-8").read()
             except OSError:
                 continue
+            t = re.sub(r"(?is)<style\b.*?</style>", " ", t)     # the era note draws its own <style> in the flow (kit era4): CSS is not text
             main = re.search(r"<main\b.*?</main>", t, re.S)
             t = _html.unescape(re.sub(r"<[^>]+>", " ", main.group(0) if main else t))
             for m in PLACE_TAIL.finditer(t):

@@ -47,8 +47,9 @@ const plateId = (x) => String(x.f).replace(/\.jpg$/, "");
    build gate check:era fails any note found on a living or noindex page). Two places print a date and a place together: a register
    event (date, place), and the born / died line (the tree's place, with the tree's date in the lifespan above). The year is read
    off the date the page prints, and plainYear refuses it unless the whole date is a plain one («23 Jan 1865», «Jul 1972», «1802»):
-   «before 21 Jan 1860», «c. 1845», «dead by 1 Sep 1878», «13 [Nov] 1855» give no note, and eraAt gives none for a year on an
-   era's edge, an approximate or contested era, an era the Atlas labels as shorthand (before 1806) or a place with no region. */
+   «before 21 Jan 1860», «c. 1845», «dead by 1 Sep 1878», «13 [Nov] 1855» give no note, and eraAt gives none for a year within
+   max(5, the Atlas's margin) years of an era's start or end (an approximate era is used only well inside its bounds, kit rule l), for an
+   era contested about its regime, an era the Atlas labels as shorthand (before 1806) or a place with no region. */
 const noNotes = !!p.living;
 const MONTH_FIRST = /^([A-Za-z]{3,9})\.?\s+(\d{1,2})\s+(\d{4})$/;      // the tree writes «Nov 12 1807»; the registers «12 Nov 1807»
 const dayFirst = (d) => { const t = String(d || "").trim().replace(/\s+/g, " "); const m = MONTH_FIRST.exec(t); return m ? `${m[2]} ${m[1]} ${m[3]}` : t; };

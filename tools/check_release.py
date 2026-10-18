@@ -70,7 +70,8 @@ DATA = os.path.join(ROOT, "site", "src", "data")
 def load(n): return json.load(open(os.path.join(DATA, n), encoding="utf-8"))
 
 def flat(html):
-    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html))
+    # <style> is CSS, not text (the era note draws its own inline <style> ahead of itself, kit era4)
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", re.sub(r"(?is)<style\b.*?</style>", " ", html)))
 
 def main():
     if not os.path.isdir(DIST):
