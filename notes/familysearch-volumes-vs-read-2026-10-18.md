@@ -36,3 +36,11 @@ Tribunale copy ends in 1910 — nothing for 1911–1929 anywhere online.** Anten
 ## Corrections this produced
 The pages said «**68 consecutive annual death registers read in full, 1809 through 1883, every year Antenati holds**». It was **40 of 57 (1809–1843, 1860–1864)**: the *Diversi* series, which carries the tags «Deaths · read in full» and the range 1812–1865, filled in 17 years it never read, and years after 1865 are FamilySearch's, not Antenati's. Retagged and the three sentences rewritten.
 The extraction also names 19 unsupported or inconsistent claims, now work-list row 109 (processetti «three bundles read» vs five opened, «258 unread», «eleven registers», «21 volumes», and others).
+
+
+## Addendum, 18 October 2026 — births 1853–1865 now read
+
+The thirteen Arienzo birth registers of 1853–1865 (`an_ua14450`–`an_ua14462`) were read end to end the
+same day this table was written; work-list row 110 and the thirteen `searched.json` rows of that date
+record it. **Births at Arienzo are now read in full for 1809–1838 and 1853–1865; 1839–1852 remain
+swept at one or two bands.** Nothing else in the table above changes.

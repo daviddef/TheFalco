@@ -417,6 +417,26 @@ for nm, ck, hk in sorted(cands):
             refused_join.append(f"{nm} (born {_b}; the head of that name is documented in "
                                 f"{_earlier[0]}, before he was born)")
             continue
+    # THE MIRROR OF THE TEST ABOVE, ADDED 18 OCTOBER 2026: NOBODY IS DOCUMENTED
+    # AFTER THEY DIED. «Raffaele Morgillo» is a child of Carlantonio Morgillo and
+    # Rosa Falco who died on 9 May 1832, and the Nati of 1859 and 1863 name a
+    # Raffaele Morgillo as the living husband of Maria Falco. One child, one head,
+    # no cycle, no generation argued — so the name test passed and a man dead for
+    # twenty-seven years was made the father of children born in 1859 and 1863.
+    # Only events that need a LIVING person count (named as a father, mother,
+    # declarant or witness); «named as dead» rows after a death are ordinary.
+    _dead = years(*[e.get("date") for e in hh_people[ck]["events"]
+                    if own_event(e.get("event"), "death")])
+    if _dead:
+        _alive_later = sorted(
+            y for e in hh_people[hk]["events"]
+            if re.match(r"named as (a |the )?(father|mother|declarant|witness)",
+                        str(e.get("event") or "").strip().lower())
+            for y in years(e.get("date")) if y > min(_dead) + 1)
+        if _alive_later:
+            refused_join.append(f"{nm} (the child record died in {min(_dead)}; the head of that "
+                                f"name is named as living in {_alive_later[0]})")
+            continue
     g_head = gen_of_household(household_of_head(hk))
     g_par  = gen_of_household(hh_people[ck]["household"])
     if g_head is not None and g_par is not None and g_par >= g_head:

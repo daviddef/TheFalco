@@ -1,0 +1,55 @@
+# Arienzo civil BIRTH register 1865 — read end to end (`an_ua14462`)
+
+> **Delegated read, 18 October 2026; every Falco act re-opened by the archive's own hand.**
+> A delegated reader read every act of this volume at contact-sheet resolution (about 1,100 px a half
+> page) and wrote a roster of it; **every Falco act, in any role, was then re-opened at about 2,400 px and
+> read from the image again**, and a random sample of the other acts (acts 120–121) was compared with
+> the manuscript — **no name in the sample disagreed**. The roster is therefore a *finding aid*: ages,
+> trades and many non-Falco surnames in it are approximate and are not to be cited. What the
+> reader's text below calls "confirmed" is what was re-opened; where it says "survey" the reading was not.
+> The households this produced are in `households.json` (row evidence names the act and the image);
+> the rows for the volume are in `searched.json` and on `/searched`.
+
+(1865.tsv is the per-act roster; columns: year, image, half, act_no, date, child, father, mother, residence, declarant, notes, legibility. 'S1..' in act_no = acts of the supplementary register.)
+
+## Volume facts
+- Ark: an_ua14462; 79 images; images 3-78 hold acts; img 1 cover ('1865 / 152 Atti di Nascita', pencil 66), img 2 title page, img 79 two blank printed forms numbered 146 and 147 crossed out with a large X ('BLANK PAGES' slip).
+- Layout: One register, acts 1-145 on images 3-78 (one act per page, two per image, both parents on the same page). The last act (145, 31 Dec 1865) is followed by a margin note 'Verificato oggi 14 del mese di Gennaio dell'anno 1866, il Vice Pretore ...' and '-END-'. NO closing certificate and NO tavola are in the Antenati images (the register simply ends in blank forms 146-147). No supplementary register.
+- Acts: 145 acts; 145 read. Illegible/damaged: see TSV 'legibility' (poor).
+- Tavola: NO usable tavola. See layout (blank printed Tavola form or none).
+- Year proof (from the manuscript, not the label): Year: cover '1865'; year word 'sessantacinque' in the acts (act 98 at 3400px, act 106 etc.); dates 7 Jan - 31 Dec 1865. One act (133, 2 Dec) has its year line written 'sessantatre' by a slip but sits between acts of 30 Nov and 5 Dec 1865.
+- Anomalies: Duplicate frames: img 12 = img 11 (acts 16-17), img 31 = img 30 (acts 52-53), img 34 = img 33 (acts 56-57). Act 144 (28 Dec) is written in a different, lighter hand and is faint/poor in places (father presenting, not a Falco; names uncertain). DISCREPANCY: the cover says '152' but the printed act numbers run 1-145 and the volume ends on 31 Dec with blank forms 146-147; acts 146-152 would have to postdate 31 Dec 1865, so nothing is missing from the sequence - the cover figure is unexplained (it equals 1863's total).
+- First act date / last act date: see TSV.
+
+## Result for FALCO
+9 confirmed Falco acts - acts 13 (Angela Rosa Falco, mother), 21, 71, 104, 113 (Francesco Falco, witness of Sant'Andrea), 62 and 86 (Raffaele Falco, witness, Camellara; 62 also Maddalena Falco, mother), 78 (Andrea Falco, calessiere, witness), 106 (Giuseppe Falco, FATHER, Camellara).
+
+### Full transcriptions of every Falco appearance
+- FALCO CONFIRMED 1865 act 13 img9 R (3200px): declared 28 Jan 1865 16h (Raffaele Rivetti, sindaco and officer). Declarant LELIO LIBRERA, son of the late Giovanni, 30, sartore, domiciled a Capodiconca. Child female b. 27 Jan 2h (due) in declarant's house, named Pasqualina (baptised Pasqualina Librera). Mother 'ANGELA ROSA FALCO sua moglie' (the middle word reads 'Rosa'; surname F-a-l-c-o with crossed F, a, l, c, o - fully legible, same hand as the rest of the act), age written 'trent[..]' with overwritten letters (reads trento/trentotto, ~30-38), domiciled with husband. Witnesses ANGELO ZIMBARDO colono (Capodiconca) and BIAGIO (Biaggio) ARRICALE (simile = colono), 'ivi'; declarant and witnesses illiterate (Lelio Librera's name is written by the clerk). MARGIN: 'Addi 8 Dicembre 1888 n. 26 Libera Pasqualina sposo in Arienzo Beniamino di Senia(?)... Caserta 5/6? giugno 89' signed by the Procurator's registrar (Della Calce). Falco woman of Capodiconca; mother of a daughter b.1865 m.1888.
+- FALCO CONFIRMED (witness) 1865 act 21 img14 R (3200px): declared 8 Feb 1865 (child b. 7 Feb 10h). Declarant Pellegrino PORRINO, 40, contadino; mother Rosa delle Cave 37; domiciled Sant'Andrea; child Clemente. Declarant is NOT a Falco; presented by levatrice Nicoletta Balletta. Witnesses: Francesco Ruotolo, colono, Contrada Sant'Andrea, and 'Francesco / Falco' (surname wrapped to next line, 'simile' = colono, 'ivi') - reads Falco. Same man/same district as the witness 'Francesco Falco colono Contrada Sant'Andrea' of 1864 act 131 (Francesco Ruotolo again the co-witness). No margin note regarding Falco.
+- FALCO CONFIRMED 1865 act 62 img37 L (3200px): declared 17 Jun 1865 12h; child male b. 16 Jun 21h in the spouses' house, named Vincenzo (baptised Vincenzo Ruotolo). Presented by the levatrice NICOLETTA BALLETTO, 42, dom. Sant'Andrea. Mother MADDALENA FALCO ('è nato da Maddalena Falco, di anni trentadue, domiciliata alla Camellara'), 32; father ANTONIO RUOTOLO, husband, 40, colono, 'collo moglie'. WITNESSES: RAFFAELE FALCO, colono, 'Contrada Camellara', and ANGELO MAJONE, 'simile' (colono), 'ivi'. Witnesses and declarant could not write. No margin. This is the SAME family as 1863 act 74 (Antonio Ruotolo 40 colono 'alla Camellara' + Maddalena Falco 30 + witness Raffaele Falco colono) — the Camellara Falco; Maddalena's age 30 (Jul 1863) -> 32 (Jun 1865).
+- FALCO CONFIRMED (witness) 1865 act 71 img41 R (3400px): declared 8 Jul 1865 12h; child male b. 8 Jul 6h, named Alfonso (baptised Alfonso Giglio/Diglio). Presented by levatrice Nicoletta Balletto; father Andrea Giglio (Diglio), 5?, contadino; mother Anna Morgillo 43, dom. Sant'Andrea. Witnesses: 'Francesco Falco', colono, Contrada Sant'Andrea (F crossed, a-l-c-o), and Clemente Giglio, falegname, ivi. Third appearance of the witness Francesco Falco colono of Sant'Andrea (1864 act 131; 1865 act 21; 1865 act 71).
+- FALCO CONFIRMED (witness) 1865 act 78 img45 L (3200px): declared 17 Jul 1865 11h. Declarant MARCANTONIO CRISCI, 48, calzolajo, fu Giuseppe, dom. 'alla Camellara'; mother Carmina Diglio 28; child male b. 16 Jul 15h, named Carmine (baptised Carmine Crisci). Witnesses: Francesco Ferriello, ferraro, 'Contrada Camellara', and 'ANDREA FALCO' (F, a, l, c, o; surname wraps to next line), profession 'calessiere' (cab-driver; the word reads Calessiere), domiciled 'ivi' (after a named contrada; per relationship-words rule 'ivi' = comune, street not stated, though the form here puts it directly after 'Contrada Camellara'). Illiterate. No margin. NEW: a Falco calessiere not otherwise in these volumes.
+- NOT FALCO 1865 act 83 img47 R: 'Don Francesco FERRARA' (and child 'Mariangela la Ferrara' in the baptism box), husband of Donna Carmela Cioffi, Santa Lucia. Letters F-e-r-r-a-r-a.
+- FALCO CONFIRMED (witness) 1865 act 86 img49 L (3400px): declared 1 Aug 1865 13h by the levatrice CARMELA LETTIERI, 18, dom. Porta di sopra; child male b. 1 Aug 5h, Salvatore (baptised Salvatore de Papa/Papa); mother Maria Morgillo 28, alla Camellara; father Antonio Papa, 33, contadino. Witnesses: 'Raffaele Falco', colono, 'Contrada Camellara', and Giovanni Diglio, contadino, ivi. Third appearance of Raffaele Falco colono of Camellara in 1865 (acts 62, 86) and 1863 (74).
+- NOT FALCO 1865 act 98 img55 L (3400px): mother 'Maria Antonia Cofano' (C, o, f, a, n, o; no l/c cluster) wife of Giovanni Esposito corriggiaro, in Arienzo; declared by levatrice Giovanna Lettieri. Near-miss.
+- FALCO CONFIRMED (witness) 1865 act 104 img58 L (3400px): declared 21 Sep 1865 14h by levatrice Nicoletta Balletto; child female b. 20 Sep 21h, Teresa (baptised Teresa Rivetti); father Marcello Rivetti, 42, sarto, dom. Sant'Andrea; mother Maria Vincenza Crisci 32. Witnesses: 'Francesco Falco', colono, Contrada Sant'Andrea, and Clemente Giglio, falegname, ivi. Fourth appearance of the same Sant'Andrea witness pair (Falco + Giglio): 1865 acts 21 (with Ruotolo), 71, 104; 1864 act 131 (with Ruotolo).
+- FALCO CONFIRMED (FATHER) 1865 act 106 img59 L (3400px): declared 22 Sep 1865 16h by the levatrice NICOLETTA BALLETTO, 42, Sant'Andrea. Child male b. 22 Sep 10h in the spouses' house, named LUIGI (baptism box: 'Luigi Falco'). Mother ROSA ZIMBARDO, 28, 'domiciliata alla Camellara'; father 'GIUSEPPE FALCO marito della stessa' (F, a, l, c, o clear in the act and in the baptism box), age written 'trent...' (reads trentasei / possibly trentadue - slurred), profession CONTADINO, living with wife. Witnesses: Giovanni Diglio, contadino, Contrada Camellara; Angelo Majone, colono, 'ivi'. Illiterate. No margin note. Falco of Camellara; a Giuseppe Falco of Camellara is in the archive's households; this act is the first (in these 3 volumes) naming a FALCO as the FATHER of a child.
+- FALCO CONFIRMED (witness) 1865 act 113 img62 R (3400px): declared 13 Oct 1865 18h by father AGOSTINO CRISCI, 30, falegname, f. Clemente, Sant'Andrea; mother Maria Antonia Giglio 24; child male b. 12 Oct 10h, Alfonso (baptised Alfonso Crisci). Witnesses: Fabio Diglio, maccaronajo, dom. Sant'Andrea; 'FRANCESCO FALCO', colono, 'ivi' (surname wraps to the next line). Fifth appearance of Francesco Falco colono of Sant'Andrea as witness.
+
+### Near-misses examined (NOT Falco)
+- Act 83: Don Francesco FERRARA / baptised 'Mariangela la Ferrara' (no Falco).
+- Act 95: father Pasquale FERRARA.
+- Act 98: mother 'Maria Antonia COFANO' (reads Cofano/Cafano, not Falco).
+- Act 72, 79, 117: 'di Silvio' / 'Silvio' (father Pellegrino di Silvio, Antonio di Silvio, mother Carolina Silvio); none is Falco.
+
+### Other candidates not resolved
+None left uncertain among the above; but see limitations.
+
+## What is proven
+Every image that carries acts was rendered (full opening, ~2,300 px wide, both pages) and every act was read; the act numbers form an unbroken run (see counts). The act-by-act roster is in 1865.tsv. Every Falco/near-Falco was re-rendered at 3000-3400 px (the Antenati limit per leaf is ~3200-3400) and transcribed. In these Kingdom-of-Italy forms each page holds ONE complete act with both parents named on the same page and the declarant and two witnesses all named on the same page, so one full-page read covers child, father, mother, declarant, midwife and witnesses (no two-band problem as in the 1830s).
+
+## Limitations
+- Ages, given names and many surnames in the TSV were read at survey resolution (~1,100 px per page) and are approximate ('?' marks the doubtful ones); only the Falco acts and the near-misses were re-read at 3,000-3,400 px. The TSV is a roster for finding surnames, not a transcription to cite.
+- A Falco WITNESS can be missed more easily than a parent; witnesses were read on every act, and Falco witnesses were found (so the pass was reading them), but no independent second reading was made.
+- Marginal notes later than the act (marriages, sentences) were recorded where legible; most are dated after 1880.

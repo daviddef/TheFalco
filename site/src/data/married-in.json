@@ -198,9 +198,9 @@
    },
    {
     "who": "Maria Falco (Morgillo)",
-    "whoSlug": "maria-falco",
+    "whoSlug": "maria-falco-of-raffaele-morgillo-maria-falco",
     "to": "Raffaele Morgillo",
-    "toSlug": "raffaele-morgillo",
+    "toSlug": "raffaele-morgillo-of-raffaele-morgillo-maria-falco",
     "into": "Morgillo",
     "living": false
    },
@@ -294,9 +294,9 @@
    },
    {
     "who": "Luigi Falco",
-    "whoSlug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
+    "whoSlug": "luigi-falco-of-luigi-falco-carolina-cimmino",
     "to": "Carolina Cimmino (Falco)",
-    "toSlug": "carolina-cimmino",
+    "toSlug": "carolina-cimmino-of-luigi-falco-carolina-cimmino",
     "into": "Cimmino",
     "living": false
    },
@@ -326,7 +326,7 @@
    },
    {
     "who": "Andrea Falco",
-    "whoSlug": "andrea-falco",
+    "whoSlug": "andrea-falco-2",
     "to": "Carmela Buono (Falco)",
     "toSlug": "carmela-buono",
     "into": "Buono",
@@ -560,7 +560,7 @@
    },
    {
     "name": "Maria Falco (Morgillo)",
-    "slug": "maria-falco",
+    "slug": "maria-falco-of-raffaele-morgillo-maria-falco",
     "b": "1818",
     "bp": "Arienzo",
     "d": "Oct 3 1871",
@@ -592,7 +592,7 @@
    },
    {
     "name": "Luigi Falco",
-    "slug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
+    "slug": "luigi-falco-of-luigi-falco-carolina-cimmino",
     "b": "1823",
     "bp": "Arienzo",
     "d": "Dec 16 1864",
@@ -1336,7 +1336,7 @@
    },
    {
     "name": "Andrea Falco",
-    "slug": "andrea-falco",
+    "slug": "andrea-falco-2",
     "b": "",
     "bp": "",
     "d": "",
@@ -3003,9 +3003,9 @@
    },
    {
     "who": "Raffaele Morgillo",
-    "whoSlug": "raffaele-morgillo",
+    "whoSlug": "raffaele-morgillo-of-raffaele-morgillo-maria-falco",
     "to": "Maria Falco (Morgillo)",
-    "toSlug": "maria-falco",
+    "toSlug": "maria-falco-of-raffaele-morgillo-maria-falco",
     "into": "Falco",
     "living": false
    },
@@ -3077,7 +3077,7 @@
    },
    {
     "name": "Raffaele Morgillo",
-    "slug": "raffaele-morgillo",
+    "slug": "raffaele-morgillo-of-raffaele-morgillo-maria-falco",
     "b": "",
     "bp": "",
     "d": "",
@@ -3933,9 +3933,9 @@
    },
    {
     "who": "Carolina Cimmino (Falco)",
-    "whoSlug": "carolina-cimmino",
+    "whoSlug": "carolina-cimmino-of-luigi-falco-carolina-cimmino",
     "to": "Luigi Falco",
-    "toSlug": "luigi-falco-of-vincenzo-falco-andreana-crisci",
+    "toSlug": "luigi-falco-of-luigi-falco-carolina-cimmino",
     "into": "Falco",
     "living": false
    }
@@ -3951,7 +3951,7 @@
    },
    {
     "name": "Carolina Cimmino (Falco)",
-    "slug": "carolina-cimmino",
+    "slug": "carolina-cimmino-of-luigi-falco-carolina-cimmino",
     "b": "",
     "bp": "",
     "d": "",
@@ -4622,7 +4622,7 @@
     "who": "Carmela Buono (Falco)",
     "whoSlug": "carmela-buono",
     "to": "Andrea Falco",
-    "toSlug": "andrea-falco",
+    "toSlug": "andrea-falco-2",
     "into": "Falco",
     "living": false
    }
