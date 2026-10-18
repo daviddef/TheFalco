@@ -53,6 +53,7 @@ HAND_EDITED = {
     "errands.json",         # the doors still to be tried
     "families.json",        # the family pages' prose
     "households.json",      # the reconstructed households, built up by hand from the registers
+    "kin.json",             # the households a record ties to the line as kin, typed by hand with the record that does it
     "line.json",            # the direct line, the spine of the archive
     "parent-verdicts.json",  # verdicts on parent edges, decided by a person
     "person-joins.json",    # reasoned overrides that join or split people
