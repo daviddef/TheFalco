@@ -55,6 +55,7 @@ const dek = p.living
   : "Named in this archive, with no relationship recorded for them yet.";
 ---
 <Base title={p.name}
+      noautolink
       eyebrow={p.gen ? `Generation ${p.gen} of the direct line` : (p.household || p.surname)}
       dek={dek}
       noindex={!!p.living}>

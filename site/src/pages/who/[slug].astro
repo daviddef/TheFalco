@@ -63,6 +63,7 @@ const span = years.length > 1 && years[0] !== years[years.length - 1]
 const withLink = rows.filter((r) => r.link).length;
 ---
 <Base title={name}
+      noautolink
       eyebrow={`${rows.length} record${rows.length === 1 ? "" : "s"} carry this name${span ? " · " + span : ""}`}
       dek={rows.length === 1
         ? "One record in this archive carries this name."

@@ -34,6 +34,7 @@ const names = [...by.entries()].map(([slug, v]) => ({ slug, ...v }))
 const many = names.filter(n => n.n > 1).length;
 ---
 <Base title="Every Name"
+      noautolink
       eyebrow={`${names.length.toLocaleString()} names · ${many.toLocaleString()} carried by more than one record`}
       dek="A name is not a person. This is every name in the register, and how many records carry it.">
 

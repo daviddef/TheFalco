@@ -13,7 +13,7 @@ import BookHead from "@daviddef/archive-kit/components/BookHead.astro";
 import BookFoot from "@daviddef/archive-kit/components/BookFoot.astro";
 import book from "../data/book.json";
 import ring from "@daviddef/archive-kit/data/archives.json";
-const { title, description = "", dek, eyebrow, bare, noindex = false } = Astro.props;
+const { title, description = "", dek, eyebrow, bare, noindex = false, noautolink = false } = Astro.props;
 const SITE = "The Falco Archive";
 /* Title and description lengths are a template rule, not content (16 Oct 2026
    audit: 30-200 characters). A short page name made a title under 30
@@ -121,7 +121,10 @@ const thisArchive =
 {/* The book (17 October 2026): the running head sits under the header, Previous / Next above the footer. */}
 <BookHead book={book} u={u} />
 
-<main id="main" tabindex="-1">
+{/* noautolink: the kit's build-time name linker (kit/tools/autolink.py, run by `npm run autolink`) leaves this page alone.
+    It is set where the page IS the list of people or names (the roster, the name pages, a person's own page, the register), whose
+    rows already link what they name, and where a link from a name to the page it stands on would be noise. */}
+<main id="main" tabindex="-1" {...(noautolink ? { "data-no-autolink": "" } : {})}>
   <div class="wrap">
     {!bare && (
       <div class="pagehead">
