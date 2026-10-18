@@ -924,6 +924,22 @@
    "owner": "David / the family",
    "since": "2026-10-13",
    "note": "**FOUND, 17 October 2026.** The Archivio di Stato di Benevento's online index of the ruoli matricolari has a card for **FALCO Carmine, Forchia, 8 June 1930, classe 1930, Registro 521, Matricola 65604** — [the card](/documents/#asbn-ruoli-matricolari-falco-carmine-1930). It says nothing of service. **What would say it:** a copy of his entry in Registro 521 at the Archivio di Stato di Benevento, which for a remote request must be «già individuabile» — and now it is: `as-bn@cultura.gov.it`, with the register and matricola numbers, answered within thirty days per its page; and, separately, the *foglio matricolare* at the Army's document office in Caserta or Naples, which for a man who died in 2026 needs his heirs. **This archive cannot write to either on the family's behalf.** The archive's own pages show no heirs-only rule, but the Sala Studio regulations PDF, where one would be, was not read. Draft wording and the full account: `notes/carmine-falco-military-service-leads.md`."
+  },
+  {
+   "n": 107,
+   "what": "JOIN ROSA CEGLIA'S TWO PAGES — the builder refuses it, so a human has to find out why.",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-10-18",
+   "note": "Rosa Ceglia (d. 4 April 1852) is the head of her own household and also the «grandmother» of her son Sabatino's household. Her husband's two pages were joined by `person-joins.json`; **hers cannot be: the join makes people their own ancestors** (Carmine Maria, Giacomo b. c.1817, Maria Filomena and Maria Lucia Annecchino among them) and the builder refuses to write it. *Why the same join works for him and not for her has not been traced.* Until then she has two pages, both with the same death act."
+  },
+  {
+   "n": 108,
+   "what": "THREE COUPLES NAMED ON «WHICH FALCO» HAVE NO HOUSEHOLD — Guglielmo Falco × Andreana Crisci, Don Francesco Falco × Donna Maddalena Stellato, Gioacchino Falco × Vittoria Cimmino.",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-10-18",
+   "note": "Found by the September drift audit and **still open on 18 October**: the page names 18 couples, **three of which exist nowhere in the household file** (the other two that looked missing are only spelled differently). A reader who searches the page's spelling finds no person. *Either the household is written, with its act, or the page's line is removed.*"
   }
  ]
 }

@@ -1289,9 +1289,18 @@ for r in people.values():
         # tree filled the field before this pass ran, so the blanks-only rule
         # let it stand. The registers outrank the tree here as they do on
         # every relationship edge.
-        if r.get(_f) and (r.get("dateFrom") or {}).get(_f) != "tree":
+        # A WINDOW IS NOT A DATE. «before 2 Feb 1845» is where a household row says a man was already dead when
+        # his daughter married; when his own death act has since been read, the act must replace it. Found by the
+        # drift audit of 18 October 2026: Gennaro Morgillo's page said he died «before 2 Feb 1845» beside his own
+        # death act of 4 Aug 1843, because a register-sourced value was never allowed to be displaced.
+        _window = bool(re.match(r"\s*(before|after|by|circa|c\.)\b", str(r.get(_f) or ""), re.I))
+        if r.get(_f) and (r.get("dateFrom") or {}).get(_f) != "tree" and not _window:
             continue
-        for _e in r.get("events") or []:
+        # EXACT DATES FIRST. A «death window» row («before 2 Feb 1845») is also an own-death event; taken in file
+        # order it beat the act dated 4 Aug 1843 that stood after it. A window is used only if nothing exact exists.
+        _isw = lambda e: bool(re.match(r"\s*(before|after|by|circa|c\.)\b", str(e.get("date") or ""), re.I))
+        _evs = sorted(r.get("events") or [], key=_isw)
+        for _e in _evs:
             if not own_event(_e.get("event"), _kind):
                 continue
             _dt = str(_e.get("date") or "").strip()
