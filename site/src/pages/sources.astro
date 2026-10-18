@@ -21,8 +21,12 @@ const deathYears = (() => {
       for (let y = +m[1]; y <= +m[2]; y++) out.add(y);
     for (const m of w.matchAll(/\b(18\d\d)\b/g)) out.add(+m[1]);
   }
-  return [...out].sort((a, b) => a - b);
+  return [...out].filter((y) => y <= 1865).sort((a, b) => a - b);   /* Antenati ends at 1865; the Diversi series is retagged */
 })();
+const runs = (ys) => { const a = [...ys].sort((x, y) => x - y); const o = [];
+  for (const y of a) { if (o.length && y === o[o.length - 1][1] + 1) o[o.length - 1][1] = y; else o.push([y, y]); }
+  return o.map(([a, b]) => (a === b ? `${a}` : `${a}\u2013${b}`)).join(", "); };
+
 
 // 21 September 2026. The rendering moved to the kit — every archive in the
 // estate had built its own sources page and no two shared a line. What did NOT
@@ -109,8 +113,8 @@ const held = sources.filter((s) => !s.url && s.held).length;
   <p class="small"><strong>Correction, twice.</strong> An earlier version of this page listed
   “everything on Antenati” as unread; that was replaced on 15 September with “four annual civil
   death registers have since been read”, and <strong>that has been stale since the day it was
-  written</strong>. <strong>{deathYears.length} consecutive Arienzo death registers are now read —
-  {deathYears[0]} to {deathYears[deathYears.length - 1]}, every year Antenati holds.</strong>
+  written</strong>. <strong>{deathYears.length} of the 57 Arienzo death registers Antenati holds are now read in full —
+  {runs(deathYears)}.</strong>
   <em>This sentence said «fifty, 1816 to 1865» until 23 September 2026, when the earliest seven
   volumes were finished; it is now generated from the coverage rows so there need not be a fourth
   correction.</em> This page also listed “the Arienzo marriage

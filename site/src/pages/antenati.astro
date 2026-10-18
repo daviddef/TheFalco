@@ -27,8 +27,14 @@ const deathYears = (() => {
       for (let y = +m[1]; y <= +m[2]; y++) out.add(y);
     for (const m of w.matchAll(/\b(18\d\d)\b/g)) out.add(+m[1]);
   }
-  return [...out].sort((a, b) => a - b);
+  /* ANTENATI STOPS AT 1865. The years after it come from FamilySearch's Tribunale copy and are a different claim; and the
+     «Diversi» series, which is not the annual death register, is retagged so it cannot fill years it never read (drift audit,
+     18 October 2026: this line said «68 consecutive ... 1809 through 1883, every year Antenati holds»). */
+  return [...out].filter((y) => y <= 1865).sort((a, b) => a - b);
 })();
+const runs = (ys) => { const a = [...ys].sort((x, y) => x - y); const o = [];
+  for (const y of a) { if (o.length && y === o[o.length - 1][1] + 1) o[o.length - 1][1] = y; else o.push([y, y]); }
+  return o.map(([a, b]) => (a === b ? `${a}` : `${a}\u2013${b}`)).join(", "); };
 const DFROM = deathYears[0], DTO = deathYears[deathYears.length - 1];
 const idx = [
   ["Zampiello", 439, 259, 104, 16, 19, 10, 0],
@@ -464,8 +470,9 @@ const avail = [
     confirmed from a second, independent record series. The 1829–1843 search is closed.</li>
     <li><strong>Strada Camellara</strong> is the family's address, and four more Falco householders
     on it are now named.</li>
-    <li><strong>{deathYears.length} consecutive annual death registers have been read in full</strong> —
-    <strong>{DFROM} through {DTO}</strong>, every year Antenati holds — and the
+    <li><strong>{deathYears.length} of the 57 annual death registers Antenati holds for Arienzo have been read in full</strong> —
+    <strong>{runs(deathYears)}</strong>. <em>The other years (1844–59, and 1865 outside the contact sheets) were read through their annual
+    indexes, with acts opened for the Falco hits; that is a different reading and is not counted here.</em> The
     page-by-page logs are published with the archive, so the reading does not have to be repeated.
     <em>That began as five volumes, 1832 to 1836; it said «fifty, 1816 through 1865» until the
     earliest seven were read on 23 September 2026. The number is now derived, so it cannot say so

@@ -940,6 +940,14 @@
    "owner": "this archive",
    "since": "2026-10-18",
    "note": "Found by the September drift audit and **still open on 18 October**: the page names 18 couples, **three of which exist nowhere in the household file** (the other two that looked missing are only spelled differently). A reader who searches the page's spelling finds no person. *Either the household is written, with its act, or the page's line is removed.*"
+  },
+  {
+   "n": 109,
+   "what": "MAKE THE «WHAT HAS BEEN READ» CLAIMS TRACE TO ROWS — 19 published claims could not be supported from the record.",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-10-18",
+   "note": "An extraction of the whole record found: **the processetti are said to be «three bundles read» (and «none opened» on the library page) when five volumes have been opened** (1814, 1815, 1845, 1859, 1860) plus a 1897 FamilySearch dossier; `processetti.json` marks Forchia and Arpaia «read» though no volume of either has been opened; the `/searched/` headline counts rows, not registers, and sums every volume's images rather than the images read; «eleven registers» (index), «21 volumes» (about), «eight years, 1829–1836» (sources.json) and «not yet harvested» (holdings, Moiano) are typed and stale; the **timeline's «read» band covers only 1815–28, 1834 and 1837–43**; and **notes carry reads that `searched.json` lacks** (Arienzo births 1839–52, marriage registers 1814 and 1843–48, San Felice marriages 1816–17), so every page derived from the rows understates them. *Also open: the Arienzo marriages 1879–84 row says «not one Falco» but a correction found Falco acts in 1880–82; and single-row contact sheets are not trusted without a re-read.* The full table is in `notes/familysearch-volumes-vs-read-2026-10-18.md`."
   }
  ]
 }

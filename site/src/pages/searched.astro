@@ -117,8 +117,9 @@ const num = (n) => WORD[n] || String(n);
   <Searched fold={nf.fold} rows={rows} u={u} nil={NIL} unit="searches" />
 
   <h2>Still to read</h2>
-  <p class="dek"><strong>The Arienzo DEATH registers are finished.</strong> {DTH.size} consecutive
-  volumes — <strong>{runs(DTH)}</strong>, every year Antenati holds — have been read act by act.
+  <p class="dek"><strong>{DTH.size} of the 57 Arienzo DEATH registers Antenati holds</strong> —
+  <strong>{runs(DTH)}</strong> — have been read act by act; the other {gap(DTH).size} years are not claimed here (several were read
+  through their annual indexes, with acts opened for the Falco hits).
   The <strong>BIRTH registers</strong> are read for <strong>{runs(BTH)}</strong>; what remains there
   is <strong>{runs(gap(BTH))}</strong>. The <strong>MARRIAGE</strong> side has its indexes read for
   1809–1849 — the series stops there — and its registers for <strong>{runs(MRG)}</strong>. Beyond
