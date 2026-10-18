@@ -137,7 +137,7 @@ Forchia, Benevento, Campania, Italia	campania	Forchia: Terra di Lavoro / Campani
 Forchia, Benevento, Campania, Italy	campania	Forchia: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Forchia
 Forchia, Italy	campania	Forchia: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Forchia
 Fremantle, ss Castel Bianco from Genoa, bound for Sydney	-	a journey, a ship or a string that carries another person's birth: not one place	
-Frosinone, Roma, Lazio, Italia	-	Lazio was the Papal States until 1870; the Atlas's Campania region does not cover it	
+Frosinone, Roma, Lazio, Italia	lazio	Frosinone: the Atlas's lazio region (contract 1.3.0, the Papal heartland to 1870); the town sits on that ring's edge, so erasnap.py refuses it and it gets no note	Frosinone
 Galluccio, Caserta, Campania, Italia	campania	Galluccio: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Galluccio
 Italia	-	a country, not a place the Atlas has a region for	
 Italy	-	a country, not a place the Atlas has a region for	
@@ -150,7 +150,7 @@ North Queensland	queensland	North Queensland is in Queensland
 Paolisi	campania	Paolisi: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Paolisi
 Piedimonte Etneo, CT, Italy	sicily	Piedimonte Etneo is in Sicily	Piedimonte Etneo
 Piedimonte Etneo, Sicilia, Italy	sicily	Piedimonte Etneo is in Sicily	Piedimonte Etneo
-Roma	-	Lazio was the Papal States until 1870; the Atlas's Campania region does not cover it	
+Roma	lazio	Roma: the Atlas's lazio region (contract 1.3.0, the Papal heartland to 1870)	Roma
 San Felice A Cancello	campania	San Felice a Cancello: Terra di Lavoro / Campania, in the Two Sicilies before 1861	San Felice a Cancello
 San Felice a Cancello	campania	San Felice a Cancello: Terra di Lavoro / Campania, in the Two Sicilies before 1861	San Felice a Cancello
 San Felice, Caserta, Campania, Italia	campania	San Felice a Cancello: Terra di Lavoro / Campania, in the Two Sicilies before 1861	San Felice a Cancello

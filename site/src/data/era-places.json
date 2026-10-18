@@ -634,7 +634,11 @@
    "region": "campania"
   },
   "Fremantle, ss Castel Bianco from Genoa, bound for Sydney": null,
-  "Frosinone, Roma, Lazio, Italia": null,
+  "Frosinone, Roma, Lazio, Italia": {
+   "lat": 41.64,
+   "lon": 13.34,
+   "region": "lazio"
+  },
   "Galluccio, Caserta, Campania, Italia": {
    "lat": 41.3,
    "lon": 13.98,
@@ -677,7 +681,11 @@
    "lon": 15.2,
    "region": "sicily"
   },
-  "Roma": null,
+  "Roma": {
+   "lat": 41.9,
+   "lon": 12.5,
+   "region": "lazio"
+  },
   "San Felice A Cancello": {
    "lat": 41.0124,
    "lon": 14.483,
