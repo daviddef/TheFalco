@@ -73,6 +73,8 @@ HAND_EDITED = {
 # undone by the next run of the generator.
 GENERATED = {
     "changes.json",         # build_changes.py, from git
+    "era-places.json",      # build_era.py, from data/era-ground.tsv and era-towns.tsv: place strings and a region id, no names
+    "era-snapshot.json",    # build_era.py --snapshot, from the Record Atlas's regions.json: region eras and regime labels, no names
     "married-in.json",      # build_marriedin.py
     "namefold.json",        # kit/tools/namefold.py ("run it again rather than editing it")
     "people-aliases.json",  # build_people.py, slug redirects
