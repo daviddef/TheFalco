@@ -2639,5 +2639,24 @@
    "Passenger arrivals",
    "Falco"
   ]
+ },
+ {
+  "when": "1861–1930",
+  "searchedOn": "2026-10-18",
+  "provider": "familysearch",
+  "film": "collection 2475030 — Forchia",
+  "waypoint": "7JN4-6H1",
+  "url": "https://www.familysearch.org/en/search/image/index?owc=https://www.familysearch.org/service/cds/recapi/collections/2475030/waypoints",
+  "walked": false,
+  "src": "**FAMILYSEARCH — Italy, Benevento, Civil Registration (State Archive), 1810–1942, the BROWSE TREE walked from the collection root to Forchia** (200 volumes listed), then every one of the 100 comuni of the Benevento province node counted for marriage and death registers of 1861–1930. A holdings survey: no image was opened.",
+  "what": "Whether the marriage of Carmine Annecchino and Maria Carfora (c. 1882–83) or his death (25 Feb 1943) exists as images anywhere in FamilySearch's Benevento collection.",
+  "got": "**NO. Forchia: Matrimoni 1809–1860 and 1931–1942; Morti 1809–1860 and 1931–1942; Nati to 1915; nothing for 1861–1930 marriages or deaths and no 1943.** Across the province: 1861–1930 marriages for 19 of 100 comuni (Arpaia: banns 1887 only), deaths for 8. The marriage and death are in registers not online.",
+  "outcome": "found",
+  "tags": [
+   "FamilySearch",
+   "Benevento",
+   "Forchia",
+   "Annecchino"
+  ]
  }
 ]
