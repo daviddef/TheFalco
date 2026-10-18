@@ -5,6 +5,7 @@ import Src from "../components/Src.astro";
 import { u } from "../lib/url.js";
 import proc from "../data/processetti.json";
 import searched from "../data/searched.json";
+import Rec from "../components/Rec.astro";
 
 /* THE VOLUME COUNTS ARE DERIVED, NOT TYPED. Four different totals were written
    across this archive — 378, 321, 320 and 258 — and every one of them was
@@ -42,6 +43,7 @@ const bundle = [
     plate: "falco-consent-1814-act85.jpg" },
   { img: "270", doc: "Notarial act 86 — the bride's parents consent", date: "8 September 1814",
     what: "Before Felice Morgillo, the same notary and the same day as act 85. «li conjugi ARCANGELO CRISCI fu NICOLA, e SARA RUGGIERO di Pasquale…»",
+    xref: "a cross-reference to act 85, the row above, whose document is linked in its own row",
     plate: "crisci-consent-1814-act26.jpg" },
   { img: "271", doc: "Civil publication act 33 — first banns", date: "Sunday 11 September 1814",
     what: "Read by the sindaco before the door of the town hall at one o'clock. States four ages.",
@@ -114,9 +116,9 @@ const census = [
       {bundle.map((b) => (
         <tr>
           <td class="mono">{b.img}</td>
-          <td><strong>{b.doc}</strong></td>
+          <td><strong><Rec id="an_ua14154">{b.doc}</Rec></strong></td>
           <td class="mono small">{b.date}</td>
-          <td class="small">{b.what}</td>
+          <td class="small" data-cite-exempt={b.xref}>{b.what}</td>
           <td>{b.plate ? <Src plate={b.plate} label="plate" /> : <span class="small" style="opacity:.5">—</span>}</td>
         </tr>
       ))}
@@ -238,8 +240,8 @@ const census = [
 
   <div class="card" style="margin:1.1rem 0;border-left:3px solid var(--accent)">
     <p><strong>She did not die. She bore a child.</strong> The 1815 death register — the only unread
-    year in the window — has been read end to end: seventy-seven acts, no Sara Ruggiero. And act 4,
-    of 9 January 1815, does better than a negative:</p>
+    year in the window — has been read end to end: seventy-seven acts, no Sara Ruggiero. And <Rec id="an_ua14317">act 4,
+    of 9 January 1815</Rec>, does better than a negative:</p>
     <blockquote style="margin:.6rem 0"><p>…a' detto dì <strong>nove</strong> del mese corrente di
     <strong>Gennajo</strong> ad ore una di notte <strong>CARMELA CRISCI</strong> figlia d'<strong>ARCANGELO
     CRISCI</strong>, e <strong>SARA RUGGIERO</strong>, di giorni <strong>sette</strong> … domiciliata
@@ -270,7 +272,7 @@ const census = [
   <em>both</em> sets of parents before any act is opened.</p>
 
   <div class="card" style="margin:1.1rem 0">
-    <p><strong>Read this table for what it is.</strong> Only bundle 16 has been read through, act by
+    <p><strong>Read this table for what it is.</strong> Only <Rec id="an_ua14154">bundle 16</Rec> has been read through, act by
     act. <strong>Every other row is its cover sheet only</strong> — read at full magnification, so the
     surnames are sound, but a cover names four parents and nothing else. Readings marked (?) are
     uncertain. <strong>Bundle 1's cover was never photographed</strong>: the scan opens partway into
@@ -278,7 +280,7 @@ const census = [
   </div>
 
   <div class="card" style="margin:1.1rem 0;border-left:3px solid var(--ochre)">
-    <p><strong>One of these women was dead within months.</strong> Bundle 13 marries
+    <p><strong>One of these women was dead within months.</strong> <Rec id="an_ua14154">Bundle 13</Rec> marries
     <strong>MARGARITA CRISCI</strong>, «figlia de' furono Angelo Crisci, e Grazia». On
     <strong>6 February 1815</strong> the Arienzo death register records <em>Margarita Crisci, thirty-two,
     daughter of the late Angelo Crisci and Grazia, wife of Angelo Diglio</em> — and bundle 13's groom
@@ -295,7 +297,7 @@ const census = [
         <tr style={how === "full" ? "background:var(--ground)" : null}>
           <td class="mono"><strong>{n}</strong></td>
           <td class="mono small">{img}</td>
-          <td class={how === "full" ? "" : "small"}>{how === "full" ? <strong>{who}</strong> : who}</td>
+          <td class={how === "full" ? "" : "small"}>{how === "full" ? <strong>{who}</strong> : how === "none" ? <>{who.split("bundle 1")[0]}<Rec id="an_ua14154">bundle 1</Rec>{who.split("bundle 1")[1]}</> : who}</td>
           <td class="small">{how === "full" ? "✓ act by act" : how === "read" ? "cover read" : "not in the scan"}</td>
         </tr>
       ))}
@@ -304,23 +306,23 @@ const census = [
 
   <h3>Six of the seventeen touch this line</h3>
   <ul>
-    <li><strong>Bundle 16 — the marriage this archive came for.</strong> Read end to end; everything
+    <li><strong><Rec id="an_ua14154">Bundle 16</Rec> — the marriage this archive came for.</strong> Read end to end; everything
     above comes out of it.</li>
-    <li><strong>Bundle 17 — <P n="Francesco Crisci" bold={true} /> figlio del fu Alessandro, e di Carmina …,
+    <li><strong><Rec id="an_ua14154">Bundle 17</Rec> — <P n="Francesco Crisci" bold={true} /> figlio del fu Alessandro, e di Carmina …,
     marrying a <P n="Teresa Morgillo" bold={true} /></strong>, published 20 November 1814. A Crisci
     marrying a Morgillo in the same town in the same year as our Falco married a Crisci. No connection
     to this line is claimed — both surnames are common at Arienzo — but it is set down because the
     archive counts eleven Falco–Crisci crossings and would rather record a near-miss than lose it.</li>
-    <li><strong>Bundle 3 — <P n="Orazio Villano" bold={true} />, son of the late Luca Villano and
+    <li><strong><Rec id="an_ua14154">Bundle 3</Rec> — <P n="Orazio Villano" bold={true} />, son of the late Luca Villano and
     <strong>ANTONIA CRISCI</strong>.</strong> A third Crisci woman, and a second man called Orazio in a
     town where generation four would marry the daughter of an <P n="Orazio Morgillo" bold={true} />.</li>
-    <li><strong>Bundle 4 — a <strong>MORGILLO</strong> marrying an <strong>ARRICOLE</strong>.</strong>
+    <li><strong><Rec id="an_ua14154">Bundle 4</Rec> — a <strong>MORGILLO</strong> marrying an <strong>ARRICOLE</strong>.</strong>
     «GASPARE MORGILLO di Marco, e di Caterina Ruggiero × ANNA ARRICOLE di Angelo». Three surnames
     from this line in one marriage: Morgillo, who marry into it at generation four; Arricole, who marry
     into it at generation five; and Ruggiero, Adriana Crisci's mother's name.</li>
-    <li><strong>Bundle 14 — <strong>SARA ARRICOLE</strong></strong>, «di Alessandro, e della fu
+    <li><strong><Rec id="an_ua14154">Bundle 14</Rec> — <strong>SARA ARRICOLE</strong></strong>, «di Alessandro, e della fu
     Lucrezia Marrone». A second Arricole, and a second woman of Arienzo called Sara.</li>
-    <li><strong>Bundle 15 — <strong>ELENA CRISCI</strong> as a groom's mother, and
+    <li><strong><Rec id="an_ua14154">Bundle 15</Rec> — <strong>ELENA CRISCI</strong> as a groom's mother, and
     <strong>MARIA RAFFAELE MORGILLO</strong> as the bride.</strong></li>
   </ul>
   <p class="small"><strong>No descent from any of these is claimed.</strong> Crisci appears on 113 of
@@ -328,20 +330,20 @@ const census = [
   archive's surnames is close to what chance predicts in this town, and that is exactly why the
   archive counts them rather than connecting them.</p>
 
-  <p class="small">The 1814 section ends at image 286; image 287 is the divider card
+  <p class="small"><Rec id="an_ua14154">The 1814 section ends at image 286</Rec>; image 287 is the divider card
   «Anno 1815 / Arienzo (66) / dal n° 1 al n° 25».</p>
 
   <h2>How this file was nearly lost</h2>
   <div class="card" style="margin:1.1rem 0;border-left:3px solid var(--rule,currentColor)">
-    <p>An earlier session worked this volume from the back, found a bundle numbered 25 and then the
+    <p>An earlier session worked <Rec id="an_ua14154">this volume</Rec> from the back, found a bundle numbered 25 and then the
     1815 divider, and concluded that the volume stopped short of act 26. It wrote the conclusion into
     the research queue under <em>“Dead ends, recorded so they are not repeated — do not search these
     two again.”</em></p>
     <p><strong>It was wrong — and so was the explanation this page first gave for why.</strong>
     The 1814 volume holds <strong>seventeen bundles</strong>, and this couple's file is
-    <strong>bundle 16</strong>. From September 2026 this page said that was because bundles run in
+    <strong><Rec id="an_ua14154">bundle 16</Rec></strong>. From September 2026 this page said that was because bundles run in
     <em>publication</em> order while marriages run in celebration order, so «bundle 16, act 26».</p>
-    <p><strong>There is no act 26.</strong> The marriage register for 1814 was read on 20 September
+    <p><strong>There is no act 26.</strong> <Rec id="an_ua14218">The marriage register for 1814</Rec> was read on 20 September
     2026 and it runs to <strong>act 17</strong>. This couple is <strong>act 16</strong>, 15 October
     1814 — the same number as their bundle. Francesco Crisci and Teresa Morgillo are bundle 17 and
     <strong>act 17</strong>, 2 December 1814. <strong>The bundle number and the act number are the
@@ -351,7 +353,7 @@ const census = [
     <p class="small"><strong>And this paragraph had to be corrected too.</strong> When it was first
     published, hours earlier the same day, it said <em>“bundle 25's publication is dated 20 November”</em>
     — a figure carried straight out of the note it was overturning, without checking. There is no
-    bundle 25. The <em>25</em> was a publication act number inside <strong>bundle 17</strong>, the last
+    bundle 25. The <em>25</em> was a publication act number inside <strong><Rec id="an_ua14154">bundle 17</Rec></strong>, the last
     of the year. The mechanism was right; the illustration was inherited rather than verified, which is
     the very failure the paragraph above is about. It is on
     <a href={u("/corrections/")}>Corrections</a> as its own entry.</p>
@@ -367,17 +369,17 @@ const census = [
   <h2>The other two bundles, 22 September 2026</h2>
   <p class="lede">This page described one bundle for nine days because one was all there was. There
   are three, and the two new ones were opened on the same day — after the discovery that
-  <strong>the Arienzo series was never blocked</strong>. It runs <span class="mono">an_ua14149</span>
-  (1809) to <span class="mono">an_ua14211</span> (1865), one ark a year with 1855 and 1858 doubled;
+  <strong>the Arienzo series was never blocked</strong>. It runs <span class="mono"><Rec id="an_ua14149">an_ua14149</Rec></span>
+  (1809) to <span class="mono"><Rec id="an_ua14211">an_ua14211</Rec></span> (1865), one ark a year with 1855 and 1858 doubled;
   this archive had a count of the volumes and no ark for any of them, and two work-list rows had
   therefore said «order».</p>
   <ul>
-    <li><strong>1845, bundle 3</strong> — <span class="mono">an_ua14190</span>, images 27–39,
+    <li><strong>1845, bundle 3</strong> — <span class="mono"><Rec id="an_ua14190">an_ua14190</Rec></span>, images 27–39,
     for <strong>Crescenzo Falco and Angela Maria Morgillo</strong>. It quotes her father's death act
     <em>by number</em> — «<em>Estratto di Morte del 1843, Num. d'ordine TRENTATRE</em>»,
     issued <em>per uso di matrimonio</em> — which turned a four-details identification into a
-    documented one, and it named her birth act, <strong>Arienzo 1822 act 66</strong>.</li>
-    <li><strong>1860, bundle 3</strong> — <span class="mono">an_ua14207</span>, images 25–42,
+    documented one, and it named her birth act, <strong><Rec id="an_ua14419">Arienzo 1822 act 66</Rec></strong>.</li>
+    <li><strong>1860, bundle 3</strong> — <span class="mono"><Rec id="an_ua14207">an_ua14207</Rec></span>, images 25–42,
     for <strong>Sabbatino Annecchino and Maria Antonia Carfora</strong>. Seven of its eight documents
     survive, and they carry <strong>four generations of Annecchino</strong> where this archive had
     one — down to <strong>Domenico Annecchino and Elisabetta d'Onofrio</strong>, dead before 1826,
@@ -386,7 +388,7 @@ const census = [
     three weeks earlier</a>.</li>
   </ul>
   <p class="small"><strong>One document the act lists is not in its bundle.</strong> Item 7 of the
-  1860 act is the bride's mother's death extract; images 25 to 42 hold four death extracts and every
+  1860 act is the bride's mother's death extract; <Rec id="an_ua14207">images 25 to 42</Rec> hold four death extracts and every
   one is from the groom's town. That is published as a nil so the bundle is not read for it again.</p>
 
   <h2>What remains</h2>

@@ -4,6 +4,11 @@ import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import { md } from "../lib/md.js";
 import plates from "../data/plates.json";
+import Rec from "../components/Rec.astro";
+import records from "../data/records.json";
+/* a plate the table does not hold (a living name in its label keeps it out) is not linked: its title stays plain text */
+const known = new Set(records.records.map((r) => r.id));
+const stem = (f) => f.replace(/\.[^.]+$/, "");
 const naa = [
   ["J25","1971/9830","Falco, Carmine; wife Francesca [nee Zampiello]; and child Giuseppina [known as Josephine]","1957–1977","5115541"],
   ["J25","1972/4964","Falco, Raffaele [Italian, born 1925]; wife Caterina [nee Zampiello]; and children Filomena and Antonio","1959–1979","5054689"],
@@ -44,7 +49,7 @@ const graves = [
   Australian one.</p>
 
   <h2>The voyage, 26 March 1964</h2>
-  <p>The passenger index names <strong>four</strong> Falcos on one voyage:</p>
+  <p>The passenger index names <strong>four</strong> Falcos on <Rec id="naa-12100311">one voyage</Rec>:</p>
   <div class="scroll"><table>
     <thead><tr><th>Name</th><th>Arrived</th><th>Port</th><th>Ship</th><th>Embarked</th></tr></thead>
     <tbody>
@@ -84,12 +89,12 @@ const graves = [
   <strong>Leopoldo Cafiero</strong>, voyage <strong>Genoa to Brisbane</strong>, arrived 26.3.64.</p>
   <p><strong>This corrects a date this archive had carried.</strong> The direct line said Carmine and
   Francesca reached Brisbane <em>“about 1957”</em>. That was never a record — it was an inference
-  from the <span class="mono">1957–1977</span> span of their Brisbane immigration file. The passenger
-  list is the first document to give the arrival a ship, a date and a street, and it says
+  from the <span class="mono">1957–1977</span> span of their Brisbane immigration file. <Rec id="naa-12100311">The passenger
+  list</Rec> is the first document to give the arrival a ship, a date and a street, and it says
   <strong>26 March 1964</strong>. The 1957 end of the file's range still wants an explanation; it may
   be when the file was opened rather than when they arrived.</p>
-  <p class="small">The passenger list is digitised and open: <span class="mono">NAA: K269, 26 MAR 1964
-  SYDNEY</span>, 42 pages, item 12100311 — the Falco are on page 27.</p>
+  <p class="small">The passenger list is digitised and open: <span class="mono"><Rec id="naa-12100311">NAA: K269, 26 MAR 1964
+  SYDNEY</Rec></span>, 42 pages, item 12100311 — the Falco are on page 27.</p>
 
   <h2>The files</h2>
   <div class="scroll"><table>
@@ -131,7 +136,7 @@ const graves = [
         <img src={u("/plates/" + p.f)} alt={p.t} loading="lazy"
              style="width:100%;height:auto;border-radius:.35rem;display:block" />
         <figcaption style="margin-top:.6rem">
-          <strong>{p.t}</strong><br/><span class="small" set:html={md(p.c, u)} />
+          <strong>{known.has(stem(p.f)) ? <Rec id={stem(p.f)}>{p.t}</Rec> : p.t}</strong><br/><span class="small" set:html={md(p.c, u)} />
         </figcaption>
       </figure>
     ))}
@@ -148,8 +153,8 @@ const graves = [
     add the sponsor, the addresses, the occupations, and often photographs. Both
     <span class="mono">J25, 1971/9830</span> and <span class="mono">J25, 1972/4964</span> can be
     requested; 1972/4964 is already marked <em>Open</em>.</li>
-    <li><strong>Read the 42 digitised pages</strong> of <span class="mono">NAA: K269, 26 MAR 1964
-    SYDNEY</span> to find the family's own line — age, occupation, and intended address in Australia.</li>
+    <li><strong>Read the 42 digitised pages</strong> of <span class="mono"><Rec id="naa-12100311">NAA: K269, 26 MAR 1964
+    SYDNEY</Rec></span> to find the family's own line — age, occupation, and intended address in Australia.</li>
     <li><strong>Angelo Zampiello's 1964 Brisbane file</strong> may settle whether he emigrated or was
     merely sponsored — and may carry his Abyssinia service.</li>
     <li><P n="Giovanni Zampiello" bold={true} />, born 1 December 1911, appears in three files as an Italian

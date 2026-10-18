@@ -4,6 +4,7 @@ import P from "../components/P.astro";
 import Src from "../components/Src.astro";
 import { u } from "../lib/url.js";
 import register from "../data/register.json";
+import Rec from "../components/Rec.astro";
 const rows = register.filter((r) => (r.surname || "").toUpperCase() === "RIVETTI");
 const swept = rows.filter((r) => r.kind === "swept").length;
 ---
@@ -28,7 +29,8 @@ const swept = rows.filter((r) => r.kind === "swept").length;
     ivi, <strong>figlia di NICOLA RIVETTI Defunto, di professione CONTADINO</strong>, domiciliato ivi,
     <strong>e di ANNA DI RUGGIO Defunta</strong>, domiciliata ivi.</p>
   </blockquote>
-  <p class="small">Arienzo, Morti 1843, atto 43. <strong>LUCA COSSI</strong>, 33, a <em>sartore</em>, and <strong>GIOVANNI COSSI</strong>, 43, a <em>contadino</em> — both of strada Camellara — walked to the town hall
+  <Rec id="chiara-rivetti-death-1843" thumb>Arienzo, Morti 1843, atto 43 — Archivio di Stato di Caserta, via Antenati</Rec>
+  <p class="small"><Rec id="an_ua14345">Arienzo, Morti 1843, atto 43</Rec>. <strong>LUCA COSSI</strong>, 33, a <em>sartore</em>, and <strong>GIOVANNI COSSI</strong>, 43, a <em>contadino</em> — both of strada Camellara — walked to the town hall
   to report it. Plate on the <a href={u("/documents/")}>Documents</a> page.</p>
 
   <div class="card" style="margin:1.1rem 0">

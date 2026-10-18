@@ -4,6 +4,7 @@ import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import households from "../data/households.json";
 import searched from "../data/searched.json";
+import Rec from "../components/Rec.astro";
 
 /* DERIVED, BECAUSE BOTH OF THESE WERE TYPED AND BOTH WENT STALE.
    «Six Falco householders on strada Camellara» was written when six were known
@@ -64,7 +65,7 @@ const avail = [
     a Cancello.</p>
   </div>
 
-  <p><strong>Arienzo death indexes run 1809 = <span class="mono">an_ua14271</span>, one volume a
+  <p><strong>Arienzo death indexes run 1809 = <span class="mono"><Rec id="an_ua14271">an_ua14271</Rec></span>, one volume a
   year</strong> — verified at 1818, 1828 and 1834. Each is <strong>one to four images</strong>. A
   year of the register itself is about fifty images and ninety acts.</p>
 
@@ -146,8 +147,8 @@ const avail = [
   Arienzo and San Felice a Cancello — <strong>of which three bundles have now been read</strong>:
   Vincenzo Falco and Adriana Crisci's of 1814, Crescenzo Falco and Angela Maria Morgillo's of 1845,
   and Sabbatino Annecchino and Maria Antonia Carfora's of 1860. <strong>The Arienzo series is not
-  blocked and never was</strong>: it runs <span class="mono">an_ua14149</span> (1809) to
-  <span class="mono">an_ua14211</span> (1865), and until 22 September 2026 this archive held a
+  blocked and never was</strong>: it runs <span class="mono"><Rec id="an_ua14149">an_ua14149</Rec></span> (1809) to
+  <span class="mono"><Rec id="an_ua14211">an_ua14211</Rec></span> (1865), and until 22 September 2026 this archive held a
   count of the volumes and no ark for any of them, which is why two work-list rows said
   «order». That is still where Matteo Falco's parentage would be found, if it survives
   anywhere. <a href={u("/processetti/")}>The six towns, volume by volume →</a></p>
@@ -203,7 +204,7 @@ const avail = [
     record page.</li>
   </ol>
   <p><strong>The target is identified.</strong> Vincenzo Falco married Andreana Crisci about 1817, and
-  the Arienzo processetti for <strong>1817</strong> survive — ark <span class="mono">an_ua14158</span>,
+  the Arienzo processetti for <strong>1817</strong> survive — ark <span class="mono"><Rec id="an_ua14158">an_ua14158</Rec></span>,
   shelf-mark 66.1021, <strong>310 pages</strong>. Under Neapolitan practice a marriage file attaches the
   groom's birth extract, the parents' consents, and <strong>the death certificates of any parent or
   paternal grandparent already dead</strong>.</p>
@@ -227,16 +228,16 @@ const avail = [
     egualmente <strong>Andreana Crisci</strong>… <strong>figlia minore assistita da Arcangelo
     Crisci</strong> suo padre di anni quarantaquattro, <strong>e da Sara Ruggiero sua madre</strong>,
     di anni quaranta.
-    <span class="small">— Arienzo, civil marriages 1814, act 16 (<span class="mono">an_ua14218</span> img 9)</span>
+    <span class="small">— Arienzo, civil marriages 1814, act 16 (<span class="mono"><Rec id="an_ua14218">an_ua14218</Rec></span> img 9)</span>
   </blockquote>
   <ul>
     <li><strong>The date was wrong twice.</strong> This archive first had the marriage at about
     1817, inferred from where it sat in the parish register. It then published
     <strong>15 December 1814, act 26</strong> — and that was wrong too. The act is
-    <strong>number 16</strong> and the month is <strong>October</strong>.
+    <strong><Rec id="an_ua14218">number 16</Rec></strong> and the month is <strong>October</strong>.
     <a href={u("/corrections/")}>How three elements of one line were misread →</a></li>
-    <li><strong>The register's own order settles it without reading a letter.</strong> Act 14 is
-    2 October, act 15 is 6 October, act 17 is 2 December. Act 16 must fall between 6 October and
+    <li><strong>The register's own order settles it without reading a letter.</strong> <Rec id="an_ua14218">Act 14 is
+    2 October, act 15 is 6 October, act 17 is 2 December</Rec>. Act 16 must fall between 6 October and
     2 December, and the volume runs to act 17 and stops. <strong>There is no act 26 in it.</strong></li>
     <li><strong>Vincenzo was 23 here</strong>, and his baptism of 1 February 1792 makes him
     twenty-two. The registers give this man four different ages; not one of them is load-bearing.</li>
@@ -254,16 +255,16 @@ const avail = [
   <h3><del>And the file itself is missing</del> — it never was</h3>
   <p><strong>Struck 20 September 2026.</strong> The paragraph below is left standing because this
   archive does not quietly delete what it got wrong. The dossier is in the volume, at
-  <strong>bundle 16</strong>, images 265–274 — <strong>the same number as the marriage act</strong>.
+  <strong><Rec id="an_ua14154">bundle 16</Rec></strong>, images 265–274 — <strong>the same number as the marriage act</strong>.
   The search that missed it was looking for the supporting file of an act 26 that does not exist.</p>
-  <p class="small"><del>The 1814 processetti volume was worked from the back. Act <strong>25</strong>
+  <p class="small"><del><Rec id="an_ua14154">The 1814 processetti volume</Rec> was worked from the back. Act <strong>25</strong>
   is there — the publication for Francesco Crisci and Teresa Morgillo, 20 November 1814, with the
   archpriest's certificate behind it. Then comes a divider card reading
   <em>"Anno 1815 · Arienzo (66) · dal n° 1 al n° 25"</em>, and then January 1815. The volume runs to
   act 25 and stops. The second 1814 volume is a separate short series starting again at n° 1. Act 26's
   supporting file is in neither.</del></p>
-  <p>Francesco Crisci and Teresa Morgillo are <strong>bundle 17</strong>, and they are also
-  <strong>act 17</strong> of the marriage register, 2 December 1814 — on the page facing this one.
+  <p>Francesco Crisci and Teresa Morgillo are <strong><Rec id="an_ua14154">bundle 17</Rec></strong>, and they are also
+  <strong><Rec id="an_ua14218">act 17</Rec></strong> of the marriage register, 2 December 1814 — on the page facing this one.
   The bundle number and the act number are the same number.</p>
 
 
@@ -291,7 +292,7 @@ const avail = [
   1835 first, then 1836, then 1834.</p>
 
   <h2>Found: 1 October 1834</h2>
-  <p>Arienzo, <span class="mono">an_ua14336</span>, image 43 of 57, page 236, <strong>act no. 69</strong>.</p>
+  <p>Arienzo, <span class="mono"><Rec id="an_ua14336">an_ua14336</Rec></span>, image 43 of 57, page 236, <strong>act no. 69</strong>.</p>
   <blockquote>
     …sono comparsi <P n="Virgilio Saccavino" bold={true} />, di anni quarantacinque, di professione
     contadino, domiciliato ivi, <strong>strada Camellara</strong>, vicino del defunto, e
@@ -301,11 +302,11 @@ const avail = [
     settantaquattro, <em>marito di <P n="Chiara Rivetti" bold={true} /></em>, di professione
     <strong>contadino</strong>, nato in Arienzo, <em>figlio di <strong>Matteo Falco, defunto</strong>,
     di professione contadino, e di <strong>Francesca Crisci, defunta</strong></em>.
-    <span class="small">— Arienzo, Stato civile della restaurazione, Morti 1834, atto 69</span>
+    <span class="small">— <Rec id="an_ua14336">Arienzo, Stato civile della restaurazione, Morti 1834, atto 69</Rec></span>
   </blockquote>
   <figure style="margin:1.2rem 0">
     <img src={u("/plates/pasquale-falco-death-1834.jpg")} alt="Act 69, Arienzo civil death register 1834" style="width:100%;height:auto;border:1px solid #ccc" />
-    <figcaption class="small">Page 236 of the register. Archivio di Stato di Caserta, via Antenati.</figcaption>
+    <figcaption class="small">Page 236 of the register. <Rec id="an_ua14336">Archivio di Stato di Caserta, via Antenati</Rec>.</figcaption>
   </figure>
   <ul>
     <li><strong>The oldest open question in the line is closed.</strong> He died at five in the morning
@@ -340,7 +341,7 @@ const avail = [
 
   <h2>Going back a year further: 1833</h2>
   <p>With the target found, the neighbouring years are still worth reading — the Camellara cluster is
-  unexplained, and every act names parents. 1833 (<span class="mono">an_ua14335</span>, 58 images)
+  unexplained, and every act names parents. 1833 (<span class="mono"><Rec id="an_ua14335">an_ua14335</Rec></span>, 58 images)
   yielded one Falco, and it turned out to matter.</p>
   <blockquote>
     Num. d'ordine <strong>sedici</strong>… sono comparsi <strong>Grazio Torrino</strong>, di anni
@@ -351,11 +352,11 @@ const avail = [
     <strong>Pasquale Falco, di anni tre</strong>, nato in Arienzo, <em>figlio di
     <P n="Vincenzo Falco" bold={true} />, di professione contadino, e di
     <P n="Andreana Crisci" bold={true} /></em>.
-    <span class="small">— Arienzo, Morti 1833, atto 16</span>
+    <span class="small">— <Rec id="an_ua14335">Arienzo, Morti 1833, atto 16</Rec></span>
   </blockquote>
   <figure style="margin:1.2rem 0">
     <img src={u("/plates/pasquale-falco-child-death-1833.jpg")} alt="Act 16, Arienzo civil death register 1833" style="width:100%;height:auto;border:1px solid #ccc" />
-    <figcaption class="small">Act no. 16, 22 February 1833. Archivio di Stato di Caserta, via Antenati.</figcaption>
+    <figcaption class="small">Act no. 16, 22 February 1833. <Rec id="an_ua14335">Archivio di Stato di Caserta, via Antenati</Rec>.</figcaption>
   </figure>
   <ul>
     <li><strong>The first civil record of Vincenzo Falco and Andreana Crisci as a household</strong>,
@@ -369,17 +370,17 @@ const avail = [
   </ul>
 
   <h2>1832: a second Falco household in the founding generation</h2>
-  <p>1832 (<span class="mono">an_ua14334</span>, 53 images) gave two Falco, and the first of them
+  <p>1832 (<span class="mono"><Rec id="an_ua14334">an_ua14334</Rec></span>, 53 images) gave two Falco, and the first of them
   opens a door that had been shut.</p>
   <blockquote>
     …è morta nella propria casa <strong>Giovanna Falco, d'anni settanta</strong>, moglie di Antonio
     Sett[embre], nata in Arienzo, di professione contadina, <em>figlia di <strong>Michele Falco,
     defunto</strong>, di professione contadino, e di <strong>Vincenza Sposito, defunta</strong></em>.
-    <span class="small">— Arienzo, Morti 1832, atto 32, 14 May 1832</span>
+    <span class="small">— <Rec id="an_ua14334">Arienzo, Morti 1832, atto 32</Rec>, 14 May 1832</span>
   </blockquote>
   <figure style="margin:1.2rem 0">
     <img src={u("/plates/giovanna-falco-death-1832.jpg")} alt="Act 32, Arienzo civil death register 1832" style="width:100%;height:auto;border:1px solid #ccc" />
-    <figcaption class="small">Act no. 32. Archivio di Stato di Caserta, via Antenati.</figcaption>
+    <figcaption class="small">Act no. 32. <Rec id="an_ua14334">Archivio di Stato di Caserta, via Antenati</Rec>.</figcaption>
   </figure>
   <p>Giovanna was born about <strong>1762</strong>, five years before Pasquale. Her father was
   <P n="Michele Falco" bold={true} />, a <em>contadino</em>, married to <P n="Vincenza Sposito" bold={true} />.
@@ -398,8 +399,9 @@ const avail = [
     …è morta nella sua propria casa <strong>Carmina Falco, di mesi sei</strong>, nata in Arienzo,
     <em>figlia di <P n="Francesco Falco" bold={true} />, di professione contadino, e di
     <P n="Raffaela Falco" bold={true} /></em>.
-    <span class="small">— Arienzo, Morti 1832, atto 80, p. 145, 19 December 1832</span>
+    <span class="small">— <Rec id="an_ua14334">Arienzo, Morti 1832, atto 80, p. 145</Rec>, 19 December 1832</span>
   </blockquote>
+  <Rec id="carmina-falco-death-1832" thumb>Arienzo, Morti 1832, atto 80 — Archivio di Stato di Caserta, via Antenati</Rec>
   <p>Both declarants — Giovanni Crisci, thirty-two, and Francesco Lettieri, forty — were
   <em>contadini</em> of strada Camellara, the neighbours again. And <strong>Francesco Falco's wife was
   herself a Falco</strong>. In a town this size that ordinarily means cousins, and it would have

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4322",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run check:pin && npm run atlas && npm run publish:index && astro build && npm run autolink && npm run check && npm run sitemap && npm run check:living && npm run check:living2 && npm run check:living-prose && npm run check:living-feed && npm run check:links && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:households && npm run check:fscite && npm run check:corrections && npm run check:prose && npm run check:evidence && npm run check:sources && npm run check:pages && npm run check:inline && npm run check:rows && npm run check:nav && npm run check:book",
+    "build": "npm run check:pin && npm run check:records && npm run atlas && npm run publish:index && astro build && npm run autolink && npm run check && npm run sitemap && npm run check:living && npm run check:living2 && npm run check:living-prose && npm run check:living-feed && npm run check:links && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:households && npm run check:fscite && npm run check:corrections && npm run check:prose && npm run check:evidence && npm run check:sources && npm run check:pages && npm run check:inline && npm run check:rows && npm run check:nav && npm run check:book && npm run check:standard",
     "preview": "astro preview --port 4322",
     "check": "python3 ../tools/check_release.py",
     "build:nocheck": "astro build",
@@ -25,6 +25,8 @@
     "check:templates": "python3 node_modules/@daviddef/archive-kit/kit/tools/checktemplates.py --root . --require",
     "check:sources": "python3 node_modules/@daviddef/archive-kit/kit/tools/checksources.py --root . --max-unreachable 2",
     "check:pages": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpages.py --root . --estate ../.. --max-bespoke 4",
+    "check:records": "python3 ../tools/check_records.py",
+    "check:standard": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkstandard.py --dist dist --index ../private/names-index.json --config standard.json --living ../private/living-links.json --floor .standardfloor.json --strict-config",
     "check:pin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpin.py --root .",
     "check:book": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkbook.py --dist dist --book src/data/book.json",
     "check:nav": "python3 node_modules/@daviddef/archive-kit/kit/tools/checknav.py --dist dist --strict",

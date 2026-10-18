@@ -4,6 +4,7 @@ import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import register from "../data/register.json";
 import households from "../data/households.json";
+import Rec from "../components/Rec.astro";
 const rows   = register.filter((r) => (r.surname || "").toUpperCase() === "CARFORA");
 const swept  = rows.filter((r) => r.kind === "swept").length;
 const houses = households.filter((h) => h.members.some((m) => m.person.includes("Carfora")));
@@ -34,7 +35,7 @@ const houses = households.filter((h) => h.members.some((m) => m.person.includes(
 
   <h2>Francesco Carfora and Pasqua Morgillo, strada Signorindico</h2>
   <p class="lede">This is the house Mariantonia came from, and it is not on strada Camellara at all.</p>
-  <p>They married at Arienzo on <strong>29 June 1828</strong>, act 11 —
+  <p>They married at Arienzo on <strong>29 June 1828</strong>, <Rec id="an_ua14232">act 11</Rec> —
   <P n="Francesco Carfora (of Matteo, m. 1828)" bold={true} />, twenty-eight, a
   <em>contadino</em> of <strong>strada Signorindico</strong>, <em>«figlio di <strong>MATTEO CARFORA
   DEFUNTO</strong> … e di <strong>GRAZIA ZIMBARDO DEFUNTA</strong>»</em>; and
@@ -42,7 +43,7 @@ const houses = households.filter((h) => h.members.some((m) => m.person.includes(
   <em>«figlia di <strong>GIOVANNI MORGILLO</strong>, di professione contadino, domiciliato ivi, e di
   <strong>DOMENICA CRISCI</strong>»</em>. The church celebration followed the next day at
   Sant'Andrea Apostolo.</p>
-  <p><strong>Their daughter was born on 30 December 1830</strong>, act 142, at seven in the morning in
+  <p><strong>Their daughter was born on 30 December 1830</strong>, <Rec id="an_ua14427">act 142</Rec>, at seven in the morning in
   her father's own house — read from the register itself, not from the certified copy that sits in her
   marriage dossier. She was baptised at Sant'Andrea the same day and married Sabbatino Annecchino
   twenty-nine years later, three weeks after her birthday.</p>
@@ -78,7 +79,7 @@ const houses = households.filter((h) => h.members.some((m) => m.person.includes(
     <thead><tr><th>Household</th><th>What the acts say</th></tr></thead>
     <tbody>
       <tr><td><P n="Antonio Carfora" bold={true} /> × <P n="Giuseppa Perreca" bold={true} /></td>
-        <td><strong>Married 18 August 1827</strong>, act 16 — he twenty-one <em>«finiti»</em>, a
+        <td><strong>Married 18 August 1827</strong>, <Rec id="an_ua14231">act 16</Rec> — he twenty-one <em>«finiti»</em>, a
         <em>contadino</em> of strada Camellara, <em>«figlio di <strong>PASQUALE CARFORA DEFUNTO</strong>
         … e di <strong>MARIA CARBO=/NA</strong>»</em>; she seventeen and <strong>a minor</strong>,
         <em>«figlia di <strong>NICOLA PERRECA</strong> … e di <strong>ORSOLA MORGILLO</strong>»</em>.
@@ -111,7 +112,7 @@ const houses = households.filter((h) => h.members.some((m) => m.person.includes(
   </ul>
 
   <h2>The gentry Carfora, and why they stay separate</h2>
-  <p>Act 20 of the Arienzo marriage register for 1815 — found in the half of the volume nobody had
+  <p><Rec id="an_ua14219">Act 20 of the Arienzo marriage register for 1815</Rec> — found in the half of the volume nobody had
   opened, and not by looking for Carfora at all — marries <em>«il Signor <strong>PASQUALE
   CARFORA</strong> di anni quaranta, di professione <strong>MEDICO CERUSICO</strong>, domiciliato nella
   comune di <strong>SANTA MARIA A VICO</strong>, figlio legittimo delli fu Signori <strong>PAOLO
@@ -126,8 +127,8 @@ const houses = households.filter((h) => h.members.some((m) => m.person.includes(
 
   <h2>What would move this line</h2>
   <ul>
-    <li><strong>Marta's surname — three readings, no two alike.</strong> Act 33 of the 1827 Arienzo
-    deaths has now been read: <em>«è morta nella sua propria casa <strong>MARTA ⟨———⟩, di anni
+    <li><strong>Marta's surname — three readings, no two alike.</strong> <Rec id="an_ua14329">Act 33 of the 1827 Arienzo
+    deaths</Rec> has now been read: <em>«è morta nella sua propria casa <strong>MARTA ⟨———⟩, di anni
     TRENTA, MOGLIE DI FRANCESCO CARFORA</strong> … figlia di <strong>ALESSANDRO CAS———
     DEFUNTO</strong> … e di <strong>CARMINA PORRINO</strong>»</em>, declared by <strong>Giovanni
     Carfora</strong>, forty-five, <em>«vicino della defunta»</em>, and <strong>Stefano Carfora di
@@ -140,7 +141,7 @@ const houses = households.filter((h) => h.members.some((m) => m.person.includes(
     guess.</em></li>
     <li><strong>Matteo Carfora's own marriage.</strong> He was dead by June 1828 and is the oldest
     Carfora of this house the archive can name.</li>
-    <li><strong>Pasqua Morgillo's death act.</strong> It is item 7 of the 1860 marriage dossier and
+    <li><strong>Pasqua Morgillo's death act.</strong> It is item 7 of <Rec id="an_ua14207">the 1860 marriage dossier</Rec> and
     <strong>it is not in the bundle</strong> — all four death extracts filed there are from the
     groom's town. Where the Arienzo one went is not known.</li>
   </ul>

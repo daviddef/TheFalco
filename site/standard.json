@@ -1,0 +1,173 @@
+{
+ "version": 1,
+ "scope": "main",
+ "include": [
+  "/antenati/",
+  "/processetti/",
+  "/morgillo/",
+  "/dna/",
+  "/annecchino/",
+  "/crisci/",
+  "/rivetti/",
+  "/carfora/",
+  "/which-falco/",
+  "/camellara/",
+  "/australia/",
+  "/ferrara/"
+ ],
+ "exclude": [],
+ "new_page_max": 3,
+ "names": {
+  "entry_prefixes": [
+   "/people/",
+   "/who/"
+  ],
+  "read_blocks": [
+   "blockquote"
+  ],
+  "stop_words": [
+   "Act",
+   "Acts",
+   "Atto",
+   "Atti",
+   "Arienzo",
+   "Antenati",
+   "Archivio",
+   "Stato",
+   "Civile",
+   "Registro",
+   "Register",
+   "Witnesses",
+   "Capodiconca",
+   "Camellara",
+   "Strada",
+   "Via",
+   "Bundle",
+   "Plate",
+   "Image",
+   "Liber",
+   "Notarial",
+   "Civil",
+   "Death",
+   "Birth",
+   "Marriage",
+   "Baptism",
+   "Index",
+   "Corrections",
+   "Documents",
+   "Open",
+   "Read",
+   "Method",
+   "Six",
+   "Don",
+   "Donna",
+   "Signor",
+   "Signora",
+   "Suor",
+   "Tavola"
+  ],
+  "not_names": [
+   "(?i)^(santa|san|santo|sant|sant') ",
+   "(?i)^(monte|mount|porta|piazza|strada|via|contrada|casa|chiesa|palazzo|terra|santa|saint|cape|port|lake|new|north|south|east|west|great|little)\\b",
+   "(?i)\\b(island|street|road|church|campania|caserta|benevento|napoli|naples|brisbane|queensland|australia|sydney|fremantle|genoa|genova|arpaia|forchia|moiano|paolisi|arienzo|cancello|felice|valle|caudina|roma|rome|italy|italia|register|archive|archivio|antenati|familysearch|census|index|comune|parish|cemetery|hospital|ship|line|lines|records|record|registers|bundle|falcos)\\b"
+  ],
+  "given_names_file": "../private/given-names.json",
+  "skip_quotes": true
+ },
+ "citations": {
+  "blocks": [
+   "p",
+   "li",
+   "dd",
+   "blockquote",
+   "figcaption",
+   "td"
+  ],
+  "patterns": [
+   {
+    "id": "act-year",
+    "flags": "i",
+    "regex": "\\b(?P<y>1[6-9]\\d\\d)\\b,?\\s+(?:att[oi]|acts?)\\s+(?P<n>\\d+)",
+    "key": "{y}-{n}"
+   },
+   {
+    "id": "act-of-year",
+    "flags": "i",
+    "regex": "\\bact\\s+(?P<n>\\d+)\\s+of\\s+the\\s+[A-Za-z ]{0,40}?(?:register\\s+)?(?:for\\s+)?(?P<y>1[6-9]\\d\\d)\\b",
+    "key": "{y}-{n}"
+   },
+   {
+    "id": "act",
+    "flags": "i",
+    "regex": "\\b(?:att[oi]|acts)\\s+\\d+|\\bact\\s+\\d+\\b"
+   },
+   {
+    "id": "ark",
+    "regex": "\\ban_u[ad]\\d+"
+   },
+   {
+    "id": "bundle",
+    "flags": "i",
+    "regex": "\\bbundles?\\s+\\d+"
+   },
+   {
+    "id": "folio",
+    "flags": "i",
+    "regex": "\\b(?:fol\\.|folio)\\s*\\d+|\\bliber\\s+[IVX\\d]+"
+   },
+   {
+    "id": "image",
+    "flags": "i",
+    "regex": "\\b(?:images?|img)\\s+\\d+"
+   },
+   {
+    "id": "page",
+    "flags": "i",
+    "regex": "\\bpages?\\s+\\d+|\\bp\\.\\s*\\d+"
+   },
+   {
+    "id": "item",
+    "flags": "i",
+    "regex": "\\bitem\\s+\\d+|\\bno\\.\\s*\\d+|\\bn\\.\\s*\\d+"
+   },
+   {
+    "id": "naa",
+    "regex": "\\bNAA\\b|\\bK269\\b"
+   },
+   {
+    "id": "passenger",
+    "flags": "i",
+    "regex": "\\bpassenger (?:list|index)\\b|\\b(?:ship's|passenger|arrival) manifests?\\b"
+   }
+  ],
+  "record_links": {
+   "prefixes": [
+    "/sources/",
+    "/documents/",
+    "/searched/"
+   ],
+   "hosts": [
+    "antenati.cultura.gov.it",
+    "familysearch.org",
+    "recordsearch.naa.gov.au",
+    "trove.nla.gov.au"
+   ],
+   "url_contains": [],
+   "fragments": []
+  },
+  "next_block_max_chars": 240
+ },
+ "scans": {
+  "aliases_file": "src/data/plate-keys.json",
+  "image_patterns": [],
+  "link_only": [
+   "naa",
+   "passenger"
+  ]
+ },
+ "allow_prefixes": [
+  "/people/",
+  "/who/"
+ ],
+ "tables": "records"
+}

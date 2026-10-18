@@ -4,6 +4,7 @@ import P from "../components/P.astro";
 import Src from "../components/Src.astro";
 import { u } from "../lib/url.js";
 import register from "../data/register.json";
+import Rec from "../components/Rec.astro";
 const rows = register.filter((r) => (r.surname || "").toUpperCase() === "CRISCI");
 const swept = rows.filter((r) => r.kind === "swept").length;
 ---
@@ -36,7 +37,7 @@ const swept = rows.filter((r) => r.kind === "swept").length;
   </table></div>
 
   <h2>Three generations of another Crisci house — out of one bundle</h2>
-  <p class="lede">Bundle 13 of the 1814 processetti marries a <strong>MARGARITA CRISCI</strong>. A
+  <p class="lede"><Rec id="an_ua14154">Bundle 13 of the 1814 processetti</Rec> marries a <strong>MARGARITA CRISCI</strong>. A
   marriage file had to carry the death certificates of any dead parent or grandparent, and hers were
   dead — so the bundle reaches back to <strong>1789</strong>, twenty years before civil registration
   begins.</p>
@@ -117,11 +118,11 @@ const swept = rows.filter((r) => r.kind === "swept").length;
   volume holds <strong>seventeen marriages</strong>, and the Crisci are in three of them —
   <a href={u("/processetti/")}>the full census is here</a>.</p>
   <ul>
-    <li><strong>Bundle 17</strong> — <P n="Francesco Crisci" bold={true} /> figlio del fu Alessandro,
+    <li><strong><Rec id="an_ua14154">Bundle 17</Rec></strong> — <P n="Francesco Crisci" bold={true} /> figlio del fu Alessandro,
     e di Carmina …, marrying a <P n="Teresa Morgillo" bold={true} />, published 20 November 1814.
     <strong>A Crisci marrying a Morgillo in the same town in the same year as our Falco married a
     Crisci.</strong></li>
-    <li><strong>Bundle 3</strong> — <P n="Orazio Villano" bold={true} />, son of the late Luca Villano
+    <li><strong><Rec id="an_ua14154">Bundle 3</Rec></strong> — <P n="Orazio Villano" bold={true} />, son of the late Luca Villano
     and <strong>ANTONIA CRISCI</strong>.</li>
   </ul>
   <p class="small"><strong>No descent from either is claimed.</strong> In a town where Crisci appears

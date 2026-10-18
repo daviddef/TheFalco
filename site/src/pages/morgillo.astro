@@ -4,6 +4,7 @@ import P from "../components/P.astro";
 import Src from "../components/Src.astro";
 import { u } from "../lib/url.js";
 import register from "../data/register.json";
+import Rec from "../components/Rec.astro";
 
 const all = register.filter((r) => r.surname === "MORGILLO");
 const byYear = {};
@@ -134,17 +135,17 @@ const elders = [
   <div class="scroll"><table>
     <thead><tr><th>Act</th><th>Who</th><th>What the act says</th></tr></thead>
     <tbody>
-      <tr><td class="mono">1843, atti 49 &amp; 54</td><td><strong>Francesca</strong>, 56, and <strong>Nicola</strong>, 50</td><td><strong>Sister and brother</strong>, dead nine days apart, both <em>«figli di GAETANO MORGILLO defunto e MARIA CIOFFI defunta»</em>, strada Capodiconca. The repetition is what settles the mother's surname.</td></tr>
-      <tr><td class="mono">1842, atto 7</td><td><strong>Angela</strong>, 80</td><td><em>«figlia di SIMONE MORGILLO defunto e VITTORIA DIGLIO defunta»</em>, widow of Gaspare Ummarino. Born about 1762. A <P n="Simone Morgillo" bold={true} /> is one of the San Gaetano brothers above — same name, right generation, <strong>not merged</strong>.</td></tr>
-      <tr><td class="mono">1842, atto 31</td><td><strong>Carlantonio</strong>, 70</td><td>Son of <P n="Carlantonio Morgillo" bold={true} />; died in the ospedale. See above.</td></tr>
-      <tr><td class="mono">1841 atto 21; 1841 atto 82</td><td><strong>Nicola</strong>, 55 and 50</td><td>A <em>colono</em> of Capodiconca and a <em>calzolajo</em> of <strong>strada CAMELLARA</strong>. Different streets, different trades, five years apart in age. <strong>Two men, or one clerk guessing twice.</strong> Not merged — and the second is a Morgillo living on the Falco street.</td></tr>
-      <tr><td class="mono">1841 atto 19; 1841 atto 54; 1843 atto 38</td><td><strong>Gennaro</strong>, <em>vaticale</em></td><td>Of strada Sant'Andrea, across three acts. His son <strong>Simone</strong> died at sixteen months in 1841. The register makes him <strong>45 in 1841 and 40 in 1843</strong>.</td></tr>
-      <tr><td class="mono">1841 atto 71; 1842 atto 80</td><td><P n="Maria Giuseppa" bold={true} /></td><td>Wife of Angelo Cioffi of strada Cioffi. The 1842 act writes her simply «Maria Morgillo»; the 1841 act gives the full name. <strong>She is not the Maria Morgillo who married Luca Zimbardo</strong> — that is a different woman, on a different street.</td></tr>
-      <tr><td class="mono">1841 atto 47; 1842 atto 46</td><td><strong>Maria</strong></td><td>Wife of <P n="Luca Zimbardo" bold={true} />, strada Capodiconca. They buried <strong>two sons, both named Antonio</strong> — one at sixteen months in August 1841, one at twenty-two days in August 1842. The name was given again after the first died.</td></tr>
-      <tr><td class="mono">1841, atto 66</td><td><strong>Giovanna</strong>, 10</td><td>Daughter of <P n="Pasquale Morgillo" bold={true} /> and Carmina Cioffi, strada Cioffi.</td></tr>
-      <tr><td class="mono">1842, atto 81</td><td><strong>Costantina</strong>, 16; <strong>Marco</strong></td><td>Daughter of <strong>Leopoldo Morgillo</strong> and Giulia Petrella, strada Capodiconca; Marco Morgillo declares.</td></tr>
-      <tr><td class="mono">1842, atto 85; 1842 atto 11</td><td><strong>Giovanni</strong>, 55</td><td>With <strong>Lucia di Lucia</strong>; their son Antonio died at eleven. He declares on strada Cioffi in February and is named as a father on strada Santa Lucia in December.</td></tr>
-      <tr><td class="mono">1842 atti 12, 24, 52, 60; 1841 atti 9, 23, 50</td><td><strong>Teresa · Giuseppe · Giuditta · Maddalena · Andrea · Angela</strong></td><td>Scattered singletons — a mother on Porta di Sopra, a declarant on strada Costa, a dead mother, a wife on Capodiconca, a declarant of 32 on strada Cioffi, a wife on Terra Murata. Recorded, unjoined.</td></tr>
+      <tr><td class="mono"><Rec id="an_ua14345">1843, atti 49 &amp; 54</Rec></td><td><strong>Francesca</strong>, 56, and <strong>Nicola</strong>, 50</td><td><strong>Sister and brother</strong>, dead nine days apart, both <em>«figli di GAETANO MORGILLO defunto e MARIA CIOFFI defunta»</em>, strada Capodiconca. The repetition is what settles the mother's surname.</td></tr>
+      <tr><td class="mono"><Rec id="an_ua14344">1842, atto 7</Rec></td><td><strong>Angela</strong>, 80</td><td><em>«figlia di SIMONE MORGILLO defunto e VITTORIA DIGLIO defunta»</em>, widow of Gaspare Ummarino. Born about 1762. A <P n="Simone Morgillo" bold={true} /> is one of the San Gaetano brothers above — same name, right generation, <strong>not merged</strong>.</td></tr>
+      <tr><td class="mono"><Rec id="an_ua14344">1842, atto 31</Rec></td><td><strong>Carlantonio</strong>, 70</td><td>Son of <P n="Carlantonio Morgillo" bold={true} />; died in the ospedale. See above.</td></tr>
+      <tr><td class="mono"><Rec id="an_ua14343">1841 atto 21</Rec>; <Rec id="an_ua14343">1841 atto 82</Rec></td><td><strong>Nicola</strong>, 55 and 50</td><td>A <em>colono</em> of Capodiconca and a <em>calzolajo</em> of <strong>strada CAMELLARA</strong>. Different streets, different trades, five years apart in age. <strong>Two men, or one clerk guessing twice.</strong> Not merged — and the second is a Morgillo living on the Falco street.</td></tr>
+      <tr><td class="mono"><Rec id="an_ua14343">1841 atto 19</Rec>; <Rec id="an_ua14343">1841 atto 54</Rec>; <Rec id="an_ua14345">1843 atto 38</Rec></td><td><strong>Gennaro</strong>, <em>vaticale</em></td><td>Of strada Sant'Andrea, across three acts. His son <strong>Simone</strong> died at sixteen months in 1841. The register makes him <strong>45 in 1841 and 40 in 1843</strong>.</td></tr>
+      <tr><td class="mono"><Rec id="an_ua14343">1841 atto 71</Rec>; <Rec id="an_ua14344">1842 atto 80</Rec></td><td><P n="Maria Giuseppa" bold={true} /></td><td>Wife of Angelo Cioffi of strada Cioffi. The 1842 act writes her simply «Maria Morgillo»; the 1841 act gives the full name. <strong>She is not the Maria Morgillo who married Luca Zimbardo</strong> — that is a different woman, on a different street.</td></tr>
+      <tr><td class="mono"><Rec id="an_ua14343">1841 atto 47</Rec>; <Rec id="an_ua14344">1842 atto 46</Rec></td><td><strong>Maria</strong></td><td>Wife of <P n="Luca Zimbardo" bold={true} />, strada Capodiconca. They buried <strong>two sons, both named Antonio</strong> — one at sixteen months in August 1841, one at twenty-two days in August 1842. The name was given again after the first died.</td></tr>
+      <tr><td class="mono"><Rec id="an_ua14343">1841, atto 66</Rec></td><td><strong>Giovanna</strong>, 10</td><td>Daughter of <P n="Pasquale Morgillo" bold={true} /> and Carmina Cioffi, strada Cioffi.</td></tr>
+      <tr><td class="mono"><Rec id="an_ua14344">1842, atto 81</Rec></td><td><strong>Costantina</strong>, 16; <strong>Marco</strong></td><td>Daughter of <strong>Leopoldo Morgillo</strong> and Giulia Petrella, strada Capodiconca; Marco Morgillo declares.</td></tr>
+      <tr><td class="mono"><Rec id="an_ua14344">1842, atto 85</Rec>; <Rec id="an_ua14344">1842 atto 11</Rec></td><td><strong>Giovanni</strong>, 55</td><td>With <strong>Lucia di Lucia</strong>; their son Antonio died at eleven. He declares on strada Cioffi in February and is named as a father on strada Santa Lucia in December.</td></tr>
+      <tr><td class="mono"><Rec id="an_ua14344">1842 atti 12, 24, 52, 60</Rec>; <Rec id="an_ua14343">1841 atti 9, 23, 50</Rec></td><td><strong>Teresa · Giuseppe · Giuditta · Maddalena · Andrea · Angela</strong></td><td>Scattered singletons — a mother on Porta di Sopra, a declarant on strada Costa, a dead mother, a wife on Capodiconca, a declarant of 32 on strada Cioffi, a wife on Terra Murata. Recorded, unjoined.</td></tr>
     </tbody>
   </table></div>
   <p class="small"><strong>Angela Rosa Morgillo, who married Raffaele Falco, is not among them</strong>,
@@ -171,6 +172,7 @@ const elders = [
     <strong>ANGIOLA ROSA</strong>.</p></blockquote>
     <p class="small">San Felice a Cancello, Nati 1818, atto 32.
     <Src plate="angela-rosa-morgillo-birth-1818.jpg" label="the act" /></p>
+    <Rec id="angela-rosa-morgillo-birth-1818" thumb>San Felice a Cancello, Nati 1818, atto 32 — Archivio di Stato di Caserta, via Antenati</Rec>
   </div>
 
   <p><strong>This is the first primary record of generation four's mother-in-law and father-in-law.</strong>
@@ -204,7 +206,7 @@ const elders = [
     <strong>They are on Antenati, and they have been the whole time.</strong> They are catalogued
     under the town's older name — «<em>San Felice (oggi San Felice a Cancello)</em>» — which is why
     five years of searching never turned them up.</p>
-    <p class="small">Marriages run from 1809 at <span class="mono">an_ua50221</span>, one volume a
+    <p class="small">Marriages run from 1809 at <span class="mono"><Rec id="an_ua50221">an_ua50221</Rec></span>, one volume a
     year. The town's own clerks call it something else again: in its acts it is the
     <strong>«Comune di sei Casali d'Arienzo»</strong> — the Six Hamlets of Arienzo.</p>
   </div>
@@ -235,7 +237,7 @@ const elders = [
     a small town</strong> — which is exactly the reasoning this archive refuses everywhere else. It
     is written down to be tested, not believed.</p>
     <p class="small"><strong>What would test it</strong>, in order: San Felice's marriages for
-    <strong>1816</strong> (<span class="mono">an_ua50228</span>), still unread; and better,
+    <strong>1816</strong> (<span class="mono"><Rec id="an_ua50228">an_ua50228</Rec></span>), still unread; and better,
     <strong>Angela Rosa's own birth act</strong> of 24 February 1818, which would name both her
     parents outright.</p>
   </div>
