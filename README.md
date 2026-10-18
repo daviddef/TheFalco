@@ -13,7 +13,7 @@ Campania) — and of Arpaia, Forchia, Benevento, and Brisbane.
 
 - **Nine generations, every one documented**, from **Matteo Falco** and **Francesca Crisci** of the
   parish of Sant'Andrea at Arienzo — whose children were baptised there from 1767 — down to Brisbane.
-- **Pasquale Falco's baptism, 24 October 1767**, naming his parents: *infantem natum ex Mattheo Falco,
+- **Pasquale Falco's baptism, 24 July 1767**, naming his parents: *infantem natum ex Mattheo Falco,
   ed Francisca Crisci … qui nominatus est Paschalis*. It replaced an asserted ancestor,
   Agostino Falcone, for whom no record has ever been produced.
 - **Three reconstructed households** — Matteo's, Pasquale's and Vincenzo's — 26 register entries with

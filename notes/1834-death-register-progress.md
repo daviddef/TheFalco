@@ -1,7 +1,7 @@
 # Arienzo civil death register 1834 — sweep progress
 
 **Volume:** `an_ua14336` (Arienzo, Morti 1834), 57 images
-**Target:** Pasquale Falco, contadino of Arienzo, b. ~1767 (bapt. 24 Oct 1767),
+**Target:** Pasquale Falco, contadino of Arienzo, b. ~1767 (bapt. 24 Jul 1767),
 husband of Chiara Rivetti, son of Matteo Falco & Francesca Crisci. Would be ~66–67 in 1834.
 **Method:** IIIF crop, left act `pct:4,37,46,15`, right act `pct:52,37,46,15`, render width 1700, screenshot scale 0.8.
 
@@ -140,8 +140,8 @@ Everything checks: the wife, both parents, the town, the trade, the street.
 - The act **independently confirms the parentage** taken from the 1767 baptism, from a different
   record series and a different institution — civil, not parish.
 
-**The one discrepancy:** the stated age of 74 implies birth c. 1760; his baptism is 24 October 1767,
-which would make him 66. Stated ages in these registers are routinely loose, and the act was given by
+**The one discrepancy:** the stated age of 74 implies birth c. 1760; his baptism is 24 July 1767,
+which would make him 67. Stated ages in these registers are routinely loose, and the act was given by
 two neighbours, not by family. The parentage and the wife are decisive; the age is not.
 
 Plate: `site/public/plates/pasquale-falco-death-1834.jpg`

@@ -4,7 +4,7 @@ Established 7 September 2026, from the MyHeritage tree, FamilySearch full-text, 
 
 ## THE BREAKTHROUGH: Pasquale Falco's baptism, and the real generation 1
 
-**Arienzo baptisms, 24 October 1767** (`3Q9M-CSD3-1362-V`):
+**Arienzo baptisms, 24 July 1767** (`3Q9M-CSD3-1362-V`):
 
 > Anno Domini millesimo septingentesimo **sexagesimo septimo**, die vero vigesima quarta 24 …
 > D. Clemens Crisci de nostri licentia baptizavi infantem natum ex **Mattheo Falco**, ed
@@ -21,7 +21,7 @@ Note the birth year: the tree said 1765; the register says 1767.
 Full table with citations in `data/households.tsv` (26 entries). Summary:
 
 **Matteo Falco & Francesca Crisci** — Matteo a witness at an Arienzo marriage in 1759, so adult by then.
-Children: Paschalis 24 Oct 1767; Francisca Anna Angela 4 Nov 1771; a child 25 Nov 1777; Joachim
+Children: Paschalis 24 Jul 1767; Francisca Anna Angela 4 Nov 1771; a child 25 Nov 1777; Joachim
 2 Feb 1779; Rosa 5 Jan 1786. Son **Giuseppe** m. Antonia di Guida (dau. of Giuseppe & Maddalena Pivera)
 — "Josephum Falco filium Matthei, e Franciscae Crisci" (`3Q9M-CSMY-B74R-4`). Giuseppe named a son
 **Mattheus** in 1807, after the grandfather.
@@ -624,7 +624,7 @@ page 236, atto no. 69. Died 1 October 1834, five in the morning, at his own hous
 Named as *marito di Chiara Rivetti*, *contadino*, born Arienzo, *figlio di Matteo Falco, defunto,
 contadino, e di Francesca Crisci, defunta*. Declarants Virgilio Saccavino (45) and Nicola Corsi (30),
 both *contadini* of strada Camellara, described as *vicino del defunto*. Stated age 74 — inconsistent
-with the baptism of 24 Oct 1767 (age 66), and recorded as the loose figure.
+with the baptism of 24 Jul 1767 (age 67), and recorded as the loose figure.
 
 Significance:
 1. Closes the 1829–1843 bracket that stood since the discovery of Chiara Rivetti's 1843 death.

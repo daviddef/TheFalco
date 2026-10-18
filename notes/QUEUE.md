@@ -134,7 +134,7 @@ Arpaia, Forchia, Cervino**. A Neapolitan marriage act names both fathers, so it 
 record that would push the line above him.
 
 ## Done
-- [x] **Pasquale Falco's baptism** — 24 Oct 1767, naming Matteo Falco & Francesca Crisci.
+- [x] **Pasquale Falco's baptism** — 24 Jul 1767, naming Matteo Falco & Francesca Crisci.
 - [x] **Marriage of Vincenzo Falco & Andreana Crisci** — names Pasquale, Chiara Rivetti and Arcangelo Crisci.
 - [x] **Raffaele Falco's baptism, 1818** — names Vincenzo and Andreana.
 - [x] **The 1780/1789 date contradiction** — resolved from the Latin words.
