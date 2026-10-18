@@ -1,0 +1,165 @@
+# Which Record Atlas region (regions.json) each place string this archive prints on a person's page belongs to, for the 'at the time' notes
+# (site/src/pages/people/[slug].astro, kit/docs/era-notes.md). One row per place string AS PRINTED: the event places and the born/died places of every
+# person who is not living. A region of '-' means: looked at, and no Atlas region covers it (or the string is not one place), so no note. A new place
+# string in people.json fails tools/build_era.py --check until it is decided here. Mapped by hand against the Atlas's regions; erasnap.py then refuses
+# any town whose point (data/era-towns.tsv, column 4 here names the town) falls in a DIFFERENT region's ring.
+place	region	why	town
+Airola	campania	Airola: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Airola
+Airola / Arienzo	campania	Airola: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Airola
+Arienzo	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Caserta, Campania, Italia	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Caserta, Campania, Italia Certificate Number	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Caserta, Campania, Italy	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Caserta, Campania, Itália	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Conservatorio di San Filippo	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Contrada Camellara	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Contrada Capodiconca	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Convento dei Cappuccini	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Corso Caudino	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Corso Caudino 54	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Corso Caudino 57	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Corso Caudino 58	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Corso Caudino 70	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Corso Caudino 77	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Corso Caudino 80	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Corso Caudino 83	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Corso Caudino 88	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Monastero d'Ave Gratia Plena	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Monticello de' Cappuccini	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Porta di sopra	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, S. Andrea	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Sant'Andrea Apostolo	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Santa Lucia	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Sodalitas S. Mariae Gratiarum	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Via Corso	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Via Sant'Andrea	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Villaggio Costa	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Villaggio Crisci	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, Villaggio Crisci 3	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, contrada Camellara	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, contrada Croce	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, luogo Fabrica	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Camellara	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Capodiconca	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Cappuccini	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Cioffi	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Cospi	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Cossi	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Costa	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Crisci	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Crispi	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Croce	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Croce dell'Ospedale	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Fontana	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Maddalena	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Maddalena (1817)	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Monticello de' Cappuccini	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Nuova	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Nuova di San Gaetano	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Porta di Sopra	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada San Filippo Neri	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Sant'Andrea	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Santa Lucia	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Saponari	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Signorindico	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Terra Murata	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Terra Murata (the notary’s house)	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Trave	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Trave, later strada Cappuccini	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Travo	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada Vallone	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada del Borgo	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada della Fontana	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada delli Cappuccini	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, strada delli Crisci	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Camellara	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Camellara 10	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Camellara 12	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Camellara 16	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Camellara 2	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Camellara 20	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Camellara 3	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Camellara 5	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Camellara 7	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Corso Caudino 77	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Corso Caudino 80	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Corso Caudino 82	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Corso Caudino 88	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Corso Caudino 89	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Orticelli 10	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Orticelli 14	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Orticelli 2	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Orticelli 3	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Orticelli 4	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Orticelli 6	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Orticelli 8	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Orticelli 9	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Piazza Valletta	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Sant'Andrea	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, via Sant'Andrea 4	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, villaggio Crisci	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo, villaggio Rosciano 1	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo; groom of San Felice a Cancello	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arienzo; living Santa Maria a Vico	campania	Arienzo: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arienzo
+Arpaia	campania	Arpaia: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arpaia
+Arpaia, Benevento	campania	Arpaia: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arpaia
+Arpaia, Benevento, Campania, Italia	campania	Arpaia: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arpaia
+Arpaia, Benevento, Campania, Italy	campania	Arpaia: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arpaia
+Arpaia, Benevento, Italy	campania	Arpaia: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arpaia
+Arpaia, Italy	campania	Arpaia: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arpaia
+Arpaia, Provincia di Benevento, Campania, Italy	campania	Arpaia: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Arpaia
+Benevento	-	Benevento city and its enclave were papal until 1860; the Campania region's Two Sicilies era would be wrong for it	
+Benevento, Campania, Italy	-	Benevento city and its enclave were papal until 1860; the Campania region's Two Sicilies era would be wrong for it	
+Benevento, Province of Benevento, Campania, Italy	-	Benevento city and its enclave were papal until 1860; the Campania region's Two Sicilies era would be wrong for it	
+Briatico, Calabria, Italy	calabria	Briatico is in Calabria	Briatico
+Briatico, Vibo Valentia, Italia	calabria	Briatico is in Calabria	Briatico
+Brisbane	queensland	Brisbane is in Queensland	Brisbane
+Brisbane (church of Holy Cross)	queensland	Brisbane is in Queensland	Brisbane
+Brisbane QLD, Australia	queensland	Brisbane is in Queensland	Brisbane
+Brisbane, Brisbane, Queensland, Australia	queensland	Brisbane is in Queensland	Brisbane
+Brisbane, QLD, Australia	queensland	Brisbane is in Queensland	Brisbane
+Brisbane; b. 27 Apr 1928, Arpaia	-	a journey, a ship or a string that carries another person's birth: not one place	
+Brisbane; b. 28 Nov 1930	-	a journey, a ship or a string that carries another person's birth: not one place	
+Brisbane; b. 7 Jul 1925	-	a journey, a ship or a string that carries another person's birth: not one place	
+Capua, Caserta, Campania, Italia	campania	Capua: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Capua
+Caserta	campania	Caserta: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Caserta
+Caserta, Campania, Italia	campania	Caserta: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Caserta
+Caserta, Campania, Italy	campania	Caserta: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Caserta
+Caserta, Caserta, Campania, Italia	campania	Caserta: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Caserta
+Caserta, Caserta, Italy	campania	Caserta: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Caserta
+Caserta, Terra di Lavoro, Italia	campania	Caserta: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Caserta
+Distretto militare di Benevento	-	Benevento city and its enclave were papal until 1860; the Campania region's Two Sicilies era would be wrong for it	
+Durazzano, Benevento, Campania, Italia	campania	Durazzano: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Durazzano
+Durazzano, Benevento, Campania, Italy	campania	Durazzano: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Durazzano
+Forchia	campania	Forchia: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Forchia
+Forchia, Benevento	campania	Forchia: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Forchia
+Forchia, Benevento, Campania, Italia	campania	Forchia: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Forchia
+Forchia, Benevento, Campania, Italy	campania	Forchia: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Forchia
+Forchia, Italy	campania	Forchia: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Forchia
+Fremantle, ss Castel Bianco from Genoa, bound for Sydney	-	a journey, a ship or a string that carries another person's birth: not one place	
+Frosinone, Roma, Lazio, Italia	-	Lazio was the Papal States until 1870; the Atlas's Campania region does not cover it	
+Galluccio, Caserta, Campania, Italia	campania	Galluccio: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Galluccio
+Italia	-	a country, not a place the Atlas has a region for	
+Italy	-	a country, not a place the Atlas has a region for	
+Masseria di Domenico de Luca, luogo detto Fabrica, Comune di Nola	campania	a masseria in the comune of Nola, Campania	Nola
+Naples to Brisbane	-	a journey, a ship or a string that carries another person's birth: not one place	
+Napoli	campania	Napoli: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Napoli
+Napoli, Napoli, Italia	campania	Napoli: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Napoli
+New York, New York, USA	-	United States: the Atlas has no region for it	
+North Queensland	queensland	North Queensland is in Queensland	
+Paolisi	campania	Paolisi: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Paolisi
+Piedimonte Etneo, CT, Italy	sicily	Piedimonte Etneo is in Sicily	Piedimonte Etneo
+Piedimonte Etneo, Sicilia, Italy	sicily	Piedimonte Etneo is in Sicily	Piedimonte Etneo
+Roma	-	Lazio was the Papal States until 1870; the Atlas's Campania region does not cover it	
+San Felice A Cancello	campania	San Felice a Cancello: Terra di Lavoro / Campania, in the Two Sicilies before 1861	San Felice a Cancello
+San Felice a Cancello	campania	San Felice a Cancello: Terra di Lavoro / Campania, in the Two Sicilies before 1861	San Felice a Cancello
+San Felice, Caserta, Campania, Italia	campania	San Felice a Cancello: Terra di Lavoro / Campania, in the Two Sicilies before 1861	San Felice a Cancello
+Santa Maria A Vico, Nola, Terra Di Lavoro	campania	Santa Maria a Vico: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Santa Maria a Vico
+Santa Maria a Vico	campania	Santa Maria a Vico: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Santa Maria a Vico
+Santa Maria a Vico, Caserta, Campania, Italia	campania	Santa Maria a Vico: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Santa Maria a Vico
+Santa Maria a Vico, Piazza Municipio 30	campania	Santa Maria a Vico: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Santa Maria a Vico
+Santa Maria a Vico, Via Maianiello 11	campania	Santa Maria a Vico: Terra di Lavoro / Campania, in the Two Sicilies before 1861	Santa Maria a Vico
+Sydney Airport	-	a journey, a ship or a string that carries another person's birth: not one place	
+Sydney, ss Neptunia; address in Brisbane	-	a journey, a ship or a string that carries another person's birth: not one place	
+Westbury, Nassau, New York, United States	-	United States: the Atlas has no region for it	
+not established — «S[?] …a Vico»	-	the register does not establish the place	

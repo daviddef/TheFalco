@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4322",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run check:pin && npm run check:records && npm run atlas && npm run publish:index && astro build && npm run autolink && npm run check && npm run sitemap && npm run check:living && npm run check:living2 && npm run check:living-prose && npm run check:living-feed && npm run check:links && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:households && npm run check:fscite && npm run check:corrections && npm run check:prose && npm run check:evidence && npm run check:sources && npm run check:pages && npm run check:inline && npm run check:rows && npm run check:nav && npm run check:book && npm run check:standard",
+    "build": "npm run check:pin && npm run check:records && npm run atlas && npm run publish:index && astro build && npm run autolink && npm run check && npm run sitemap && npm run check:living && npm run check:living2 && npm run check:living-prose && npm run check:living-feed && npm run check:links && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:households && npm run check:fscite && npm run check:corrections && npm run check:prose && npm run check:evidence && npm run check:sources && npm run check:pages && npm run check:inline && npm run check:rows && npm run check:nav && npm run check:book && npm run check:standard && npm run check:era-ground && npm run check:era && npm run check:era:selftest",
     "preview": "astro preview --port 4322",
     "check": "python3 ../tools/check_release.py",
     "build:nocheck": "astro build",
@@ -38,6 +38,9 @@
     "check:living-prose-strict": "python3 ../tools/check_living_prose.py --require-tree",
     "check:households": "python3 ../tools/check_households.py",
     "check:fscite": "python3 ../tools/check_fscite.py",
+    "check:era-ground": "python3 ../tools/build_era.py --check",
+    "check:era": "python3 ../tools/build_era.py --living-urls ../private/era-living.json && python3 node_modules/@daviddef/archive-kit/kit/tools/checkera.py --dist dist --snapshot src/data/era-snapshot.json --living-urls ../private/era-living.json --require-tracked",
+    "check:era:selftest": "python3 node_modules/@daviddef/archive-kit/kit/tools/era_selftest.py",
     "check:kin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkkin.py --require --data src/data/people.json --born b --died d --max 1"
   },
   "dependencies": {

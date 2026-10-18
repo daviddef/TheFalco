@@ -1,0 +1,23 @@
+# Where each town named in data/era-ground.tsv is, for ONE purpose: tools/build_era.py hands the point to the kit's erasnap.py, which
+# REFUSES a place whose point falls inside a DIFFERENT region's ring than the one it was given (the Atlas's rings are four- and
+# five-sided shapes, "approximate by design"). It decides nothing else: the region of a place is the row in era-ground.tsv.
+# The shared gazetteer cache is not used here: it resolves a bare «Arienzo» to Positano and «Forchia, Benevento» to Benevento city.
+# how: «cache» = the kit's gazetteer cache, exact match for the town named; «hand» = the centre of the comune to two decimals,
+# written by hand for this file (a cross-check, never a boundary).
+town	lat	lon	how
+Airola	41.06	14.56	cache (Airola, Benevento, Campania)
+Arienzo	41.0243	14.4971	cache (Arienzo, Caserta, Campania)
+Arpaia	41.03	14.53	hand
+Brisbane	-27.469	153.0235	cache (Brisbane, Queensland)
+Briatico	38.7253	16.0324	cache (Briatico, Vibo Valentia, Calabria)
+Capua	41.11	14.21	hand
+Caserta	41.07	14.33	hand
+Durazzano	41.0625	14.4475	cache (Durazzano, Benevento, Campania)
+Forchia	41.0302	14.5373	cache (Forchia, Benevento, Campania)
+Galluccio	41.30	13.98	hand
+Napoli	40.85	14.27	hand
+Nola	40.93	14.53	hand
+Paolisi	41.0371	14.5782	cache (Paolisi, Benevento, Campania)
+Piedimonte Etneo	37.81	15.20	hand
+San Felice a Cancello	41.0124	14.483	cache (San Felice a Cancello, Caserta, Campania)
+Santa Maria a Vico	41.0269	14.4652	cache (Santa Maria a Vico, Caserta, Campania)

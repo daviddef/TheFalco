@@ -6,6 +6,9 @@ import { people, bySlug } from "../../lib/people.js";
 import households from "../../data/households.json";
 import plates from "../../data/plates.json";
 import PersonTree from "../../components/PersonTree.astro";
+import EraNote from "@daviddef/archive-kit/components/EraNote.astro";
+import { eraAt, plainYear } from "@daviddef/archive-kit/lib/era.js";
+import eraSnapshot from "../../data/era-snapshot.json";
 import HouseholdTree from "../../components/HouseholdTree.astro";
 
 export function getStaticPaths() {
@@ -36,6 +39,23 @@ const mine = p.living ? [] : plates
   .filter((x) => (x.who || []).includes(p.slug))
   .sort((a, b) => (b.k === "photo") - (a.k === "photo"));   // pictures of the person first, papers after
 const plateId = (x) => String(x.f).replace(/\.jpg$/, "");
+
+/* AN «AT THE TIME» NOTE beside a dated place (kit/docs/era-notes.md; David, 18 October 2026): who held that ground in that year, from
+   the Record Atlas's REGION eras, as this archive committed them (src/data/era-snapshot.json, rebuilt deliberately by
+   tools/build_era.py --snapshot; the place -> region table is data/era-ground.tsv). Context about the ground, never a claim about
+   the family. NEVER on a living person's page (the event list is not drawn for them at all; the guard is here as well, and the
+   build gate check:era fails any note found on a living or noindex page). Two places print a date and a place together: a register
+   event (date, place), and the born / died line (the tree's place, with the tree's date in the lifespan above). The year is read
+   off the date the page prints, and plainYear refuses it unless the whole date is a plain one («23 Jan 1865», «Jul 1972», «1802»):
+   «before 21 Jan 1860», «c. 1845», «dead by 1 Sep 1878», «13 [Nov] 1855» give no note, and eraAt gives none for a year on an
+   era's edge, an approximate or contested era, an era the Atlas labels as shorthand (before 1806) or a place with no region. */
+const noNotes = !!p.living;
+const MONTH_FIRST = /^([A-Za-z]{3,9})\.?\s+(\d{1,2})\s+(\d{4})$/;      // the tree writes «Nov 12 1807»; the registers «12 Nov 1807»
+const dayFirst = (d) => { const t = String(d || "").trim().replace(/\s+/g, " "); const m = MONTH_FIRST.exec(t); return m ? `${m[2]} ${m[1]} ${m[3]}` : t; };
+const yearOf = (d) => { const m = /(\d{4})$/.exec(String(d || "").trim()); return m ? Number(m[1]) : null; };
+const eraOn = (place, date) => (noNotes || !place || !date) ? null : eraAt(eraSnapshot, place, plainYear(dayFirst(date), yearOf(dayFirst(date))));
+const bornEra = !p.living ? eraOn(p.bp, p.b) : null;
+const diedEra = !p.living ? eraOn(p.dp, p.d) : null;
 
 const kin = ["parents","spouses","children","siblings"];
 const edges = kin.flatMap((b) => p[b] || []);
@@ -89,6 +109,7 @@ const dek = p.living
             <li style="margin:.6rem 0">
               <strong>{e.event}</strong>{e.date && e.date !== "—" ? <span> — {e.date}</span> : null}
               {e.place ? <span>, {e.place}</span> : null}
+              {e.place ? <EraNote era={eraOn(e.place, e.date)} /> : null}
               {e.evidence ? <div class="small" style="margin-top:.25rem">“<Fragment set:html={md(e.evidence, u)} />”</div> : null}
               {e.ark ? <div class="small mono">{e.ark}</div> : null}
             </li>
@@ -107,7 +128,12 @@ const dek = p.living
       {p.living && p.place ? (
         <p class="small"><strong>town and country</strong> {p.place}</p>
       ) : null}
-      {!p.living && (p.bp || p.dp) ? (
+      {!p.living && (p.bp || p.dp) && (bornEra || diedEra) ? (
+        <div class="small" style="margin:.4rem 0">
+          {p.bp ? <div><strong>born</strong> {p.bp}<EraNote era={bornEra} /></div> : null}
+          {p.dp ? <div style="margin-top:.2rem"><strong>died</strong> {p.dp}<EraNote era={diedEra} /></div> : null}
+        </div>
+      ) : !p.living && (p.bp || p.dp) ? (
         <p class="small">{p.bp ? <span><strong>born</strong> {p.bp}</span> : null}
         {p.bp && p.dp ? " · " : null}
         {p.dp ? <span><strong>died</strong> {p.dp}</span> : null}</p>

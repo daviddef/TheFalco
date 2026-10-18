@@ -1,0 +1,726 @@
+{
+ "_about": "Built by tools/build_era.py from data/era-ground.tsv and data/era-towns.tsv. Place as printed -> {region, lat, lon}, or null where no Atlas region covers it. Read by kit erasnap.py.",
+ "places": {
+  "Airola": {
+   "lat": 41.06,
+   "lon": 14.56,
+   "region": "campania"
+  },
+  "Airola / Arienzo": {
+   "lat": 41.06,
+   "lon": 14.56,
+   "region": "campania"
+  },
+  "Arienzo": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Caserta, Campania, Italia": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Caserta, Campania, Italia Certificate Number": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Caserta, Campania, Italy": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Caserta, Campania, Itália": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Conservatorio di San Filippo": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Contrada Camellara": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Contrada Capodiconca": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Convento dei Cappuccini": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Corso Caudino": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Corso Caudino 54": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Corso Caudino 57": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Corso Caudino 58": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Corso Caudino 70": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Corso Caudino 77": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Corso Caudino 80": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Corso Caudino 83": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Corso Caudino 88": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Monastero d'Ave Gratia Plena": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Monticello de' Cappuccini": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Porta di sopra": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, S. Andrea": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Sant'Andrea Apostolo": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Santa Lucia": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Sodalitas S. Mariae Gratiarum": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Via Corso": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Via Sant'Andrea": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Villaggio Costa": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Villaggio Crisci": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Villaggio Crisci 3": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, contrada Camellara": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, contrada Croce": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, luogo Fabrica": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Camellara": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Capodiconca": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Cappuccini": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Cioffi": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Cospi": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Cossi": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Costa": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Crisci": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Crispi": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Croce": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Croce dell'Ospedale": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Fontana": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Maddalena": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Maddalena (1817)": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Monticello de' Cappuccini": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Nuova": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Nuova di San Gaetano": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Porta di Sopra": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada San Filippo Neri": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Sant'Andrea": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Santa Lucia": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Saponari": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Signorindico": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Terra Murata": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Terra Murata (the notary’s house)": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Trave": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Trave, later strada Cappuccini": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Travo": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada Vallone": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada del Borgo": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada della Fontana": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada delli Cappuccini": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, strada delli Crisci": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Camellara": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Camellara 10": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Camellara 12": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Camellara 16": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Camellara 2": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Camellara 20": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Camellara 3": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Camellara 5": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Camellara 7": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Corso Caudino 77": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Corso Caudino 80": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Corso Caudino 82": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Corso Caudino 88": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Corso Caudino 89": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Orticelli 10": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Orticelli 14": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Orticelli 2": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Orticelli 3": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Orticelli 4": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Orticelli 6": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Orticelli 8": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Orticelli 9": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Piazza Valletta": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Sant'Andrea": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Sant'Andrea 4": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, villaggio Crisci": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, villaggio Rosciano 1": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo; groom of San Felice a Cancello": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo; living Santa Maria a Vico": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arpaia": {
+   "lat": 41.03,
+   "lon": 14.53,
+   "region": "campania"
+  },
+  "Arpaia, Benevento": {
+   "lat": 41.03,
+   "lon": 14.53,
+   "region": "campania"
+  },
+  "Arpaia, Benevento, Campania, Italia": {
+   "lat": 41.03,
+   "lon": 14.53,
+   "region": "campania"
+  },
+  "Arpaia, Benevento, Campania, Italy": {
+   "lat": 41.03,
+   "lon": 14.53,
+   "region": "campania"
+  },
+  "Arpaia, Benevento, Italy": {
+   "lat": 41.03,
+   "lon": 14.53,
+   "region": "campania"
+  },
+  "Arpaia, Italy": {
+   "lat": 41.03,
+   "lon": 14.53,
+   "region": "campania"
+  },
+  "Arpaia, Provincia di Benevento, Campania, Italy": {
+   "lat": 41.03,
+   "lon": 14.53,
+   "region": "campania"
+  },
+  "Benevento": null,
+  "Benevento, Campania, Italy": null,
+  "Benevento, Province of Benevento, Campania, Italy": null,
+  "Briatico, Calabria, Italy": {
+   "lat": 38.7253,
+   "lon": 16.0324,
+   "region": "calabria"
+  },
+  "Briatico, Vibo Valentia, Italia": {
+   "lat": 38.7253,
+   "lon": 16.0324,
+   "region": "calabria"
+  },
+  "Brisbane": {
+   "lat": -27.469,
+   "lon": 153.0235,
+   "region": "queensland"
+  },
+  "Brisbane (church of Holy Cross)": {
+   "lat": -27.469,
+   "lon": 153.0235,
+   "region": "queensland"
+  },
+  "Brisbane QLD, Australia": {
+   "lat": -27.469,
+   "lon": 153.0235,
+   "region": "queensland"
+  },
+  "Brisbane, Brisbane, Queensland, Australia": {
+   "lat": -27.469,
+   "lon": 153.0235,
+   "region": "queensland"
+  },
+  "Brisbane, QLD, Australia": {
+   "lat": -27.469,
+   "lon": 153.0235,
+   "region": "queensland"
+  },
+  "Brisbane; b. 27 Apr 1928, Arpaia": null,
+  "Brisbane; b. 28 Nov 1930": null,
+  "Brisbane; b. 7 Jul 1925": null,
+  "Capua, Caserta, Campania, Italia": {
+   "lat": 41.11,
+   "lon": 14.21,
+   "region": "campania"
+  },
+  "Caserta": {
+   "lat": 41.07,
+   "lon": 14.33,
+   "region": "campania"
+  },
+  "Caserta, Campania, Italia": {
+   "lat": 41.07,
+   "lon": 14.33,
+   "region": "campania"
+  },
+  "Caserta, Campania, Italy": {
+   "lat": 41.07,
+   "lon": 14.33,
+   "region": "campania"
+  },
+  "Caserta, Caserta, Campania, Italia": {
+   "lat": 41.07,
+   "lon": 14.33,
+   "region": "campania"
+  },
+  "Caserta, Caserta, Italy": {
+   "lat": 41.07,
+   "lon": 14.33,
+   "region": "campania"
+  },
+  "Caserta, Terra di Lavoro, Italia": {
+   "lat": 41.07,
+   "lon": 14.33,
+   "region": "campania"
+  },
+  "Distretto militare di Benevento": null,
+  "Durazzano, Benevento, Campania, Italia": {
+   "lat": 41.0625,
+   "lon": 14.4475,
+   "region": "campania"
+  },
+  "Durazzano, Benevento, Campania, Italy": {
+   "lat": 41.0625,
+   "lon": 14.4475,
+   "region": "campania"
+  },
+  "Forchia": {
+   "lat": 41.0302,
+   "lon": 14.5373,
+   "region": "campania"
+  },
+  "Forchia, Benevento": {
+   "lat": 41.0302,
+   "lon": 14.5373,
+   "region": "campania"
+  },
+  "Forchia, Benevento, Campania, Italia": {
+   "lat": 41.0302,
+   "lon": 14.5373,
+   "region": "campania"
+  },
+  "Forchia, Benevento, Campania, Italy": {
+   "lat": 41.0302,
+   "lon": 14.5373,
+   "region": "campania"
+  },
+  "Forchia, Italy": {
+   "lat": 41.0302,
+   "lon": 14.5373,
+   "region": "campania"
+  },
+  "Fremantle, ss Castel Bianco from Genoa, bound for Sydney": null,
+  "Frosinone, Roma, Lazio, Italia": null,
+  "Galluccio, Caserta, Campania, Italia": {
+   "lat": 41.3,
+   "lon": 13.98,
+   "region": "campania"
+  },
+  "Italia": null,
+  "Italy": null,
+  "Masseria di Domenico de Luca, luogo detto Fabrica, Comune di Nola": {
+   "lat": 40.93,
+   "lon": 14.53,
+   "region": "campania"
+  },
+  "Naples to Brisbane": null,
+  "Napoli": {
+   "lat": 40.85,
+   "lon": 14.27,
+   "region": "campania"
+  },
+  "Napoli, Napoli, Italia": {
+   "lat": 40.85,
+   "lon": 14.27,
+   "region": "campania"
+  },
+  "New York, New York, USA": null,
+  "North Queensland": {
+   "region": "queensland"
+  },
+  "Paolisi": {
+   "lat": 41.0371,
+   "lon": 14.5782,
+   "region": "campania"
+  },
+  "Piedimonte Etneo, CT, Italy": {
+   "lat": 37.81,
+   "lon": 15.2,
+   "region": "sicily"
+  },
+  "Piedimonte Etneo, Sicilia, Italy": {
+   "lat": 37.81,
+   "lon": 15.2,
+   "region": "sicily"
+  },
+  "Roma": null,
+  "San Felice A Cancello": {
+   "lat": 41.0124,
+   "lon": 14.483,
+   "region": "campania"
+  },
+  "San Felice a Cancello": {
+   "lat": 41.0124,
+   "lon": 14.483,
+   "region": "campania"
+  },
+  "San Felice, Caserta, Campania, Italia": {
+   "lat": 41.0124,
+   "lon": 14.483,
+   "region": "campania"
+  },
+  "Santa Maria A Vico, Nola, Terra Di Lavoro": {
+   "lat": 41.0269,
+   "lon": 14.4652,
+   "region": "campania"
+  },
+  "Santa Maria a Vico": {
+   "lat": 41.0269,
+   "lon": 14.4652,
+   "region": "campania"
+  },
+  "Santa Maria a Vico, Caserta, Campania, Italia": {
+   "lat": 41.0269,
+   "lon": 14.4652,
+   "region": "campania"
+  },
+  "Santa Maria a Vico, Piazza Municipio 30": {
+   "lat": 41.0269,
+   "lon": 14.4652,
+   "region": "campania"
+  },
+  "Santa Maria a Vico, Via Maianiello 11": {
+   "lat": 41.0269,
+   "lon": 14.4652,
+   "region": "campania"
+  },
+  "Sydney Airport": null,
+  "Sydney, ss Neptunia; address in Brisbane": null,
+  "Westbury, Nassau, New York, United States": null,
+  "not established — «S[?] …a Vico»": null
+ }
+}
