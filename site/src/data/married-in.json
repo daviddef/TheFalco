@@ -270,7 +270,7 @@
    },
    {
     "who": "Clementina Falco (Biondo)",
-    "whoSlug": "clementina-falco-2",
+    "whoSlug": "clementina-falco",
     "to": "Nicola Biondo",
     "toSlug": "nicola-biondo-2",
     "into": "Biondo",
@@ -720,7 +720,7 @@
    },
    {
     "name": "Maria Concetta Falco",
-    "slug": "maria-concetta-falco",
+    "slug": "maria-concetta-falco-2",
     "b": "Feb 19 1847",
     "bp": "Arienzo",
     "d": "",
@@ -752,7 +752,7 @@
    },
    {
     "name": "Clementina Falco (Biondo)",
-    "slug": "clementina-falco-2",
+    "slug": "clementina-falco",
     "b": "Dec 18 1848",
     "bp": "Arienzo",
     "d": "Sep 20 1900",
@@ -1732,7 +1732,7 @@
    },
    {
     "name": "Luigi Crisci",
-    "slug": "luigi-crisci",
+    "slug": "luigi-crisci-2",
     "b": "Oct 30 1840",
     "bp": "Arienzo",
     "d": "",
@@ -2706,7 +2706,7 @@
     "who": "Nicola Biondo",
     "whoSlug": "nicola-biondo-2",
     "to": "Clementina Falco (Biondo)",
-    "toSlug": "clementina-falco-2",
+    "toSlug": "clementina-falco",
     "into": "Falco",
     "living": false
    }
@@ -4222,8 +4222,8 @@
   "surname": "Pellone",
   "n": 2,
   "withheld": 0,
-  "first": null,
-  "last": null,
+  "first": 1855,
+  "last": 1855,
   "places": [
    "Arienzo"
   ],
@@ -4247,20 +4247,20 @@
   ],
   "people": [
    {
+    "name": "Giovanna Pellone (Falco)",
+    "slug": "giovanna-pellone-2",
+    "b": "11 Sep 1855",
+    "bp": "Arienzo",
+    "d": "",
+    "dp": "Arienzo"
+   },
+   {
     "name": "Antonio Pellone",
     "slug": "antonio-pellone",
     "b": "",
     "bp": "",
     "d": "",
     "dp": ""
-   },
-   {
-    "name": "Giovanna Pellone (Falco)",
-    "slug": "giovanna-pellone-2",
-    "b": "",
-    "bp": "Arienzo",
-    "d": "",
-    "dp": "Arienzo"
    }
   ],
   "unjoinedBurials": 0,
