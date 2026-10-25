@@ -2335,7 +2335,7 @@
         {
           "id": "us-1",
           "grade": "lore",
-          "text": "Carmine and Francesca's daughter [Giuseppina](person:giuseppina-falco) is the ninth generation of this book. She was born at Benevento, in Italy, and married Ian D'Arcy, of Brisbane, Australia. Their daughters are twins, Cristina and Stefanie, both of Brisbane. Cristina married David Defranceski, who keeps these archives, and their two sons, A. and M., carry the line on in Australia.",
+          "text": "Carmine and Francesca's daughter [Giuseppina](person:giuseppina-falco) is the ninth generation of this book. She was born at Benevento, in Italy, and married Ian D'Arcy, of Brisbane, Australia. Their daughters are twins, Cristina and Stefanie, both of Brisbane. Cristina married David Defranceski, who keeps these archives, and their two sons, A. and M., carry the line on in Australia. Stefanie married Michael Rocco Mazza, also of Brisbane, and they have two children, R. and M.",
           "evidence": [
             {
               "href": "/direct-line/#gen-9",
@@ -2346,7 +2346,7 @@
         {
           "id": "us-2",
           "grade": "doc",
-          "text": "All of them are living, and by this archive's rule the living are named with their relationships and their towns and countries and nothing more; the two youngest, by their initials only.",
+          "text": "All of them are living, and by this archive's rule the living are named with their relationships and their towns and countries and nothing more; the four youngest, by their initials only.",
           "evidence": [
             {
               "href": "/about/",
@@ -2368,7 +2368,7 @@
       ],
       "tree": {
         "glyph": "gable",
-        "note": "Living people are drawn as filled nodes: the adults by first name, the two youngest by their initials only, with no dates.",
+        "note": "Living people are drawn as filled nodes: the adults by first name, the four youngest by their initials only, with no dates; each pair hangs under its own parent.",
         "thread": "u-cristina",
         "rows": [
           {
@@ -2408,13 +2408,29 @@
                 "id": "u-a",
                 "name": "A.",
                 "living": true,
-                "minor": true
+                "minor": true,
+                "of": "u-cristina"
               },
               {
                 "id": "u-m",
                 "name": "M.",
                 "living": true,
-                "minor": true
+                "minor": true,
+                "of": "u-cristina"
+              },
+              {
+                "id": "u-r",
+                "name": "R.",
+                "living": true,
+                "minor": true,
+                "of": "u-stefanie"
+              },
+              {
+                "id": "u-m2",
+                "name": "M.",
+                "living": true,
+                "minor": true,
+                "of": "u-stefanie"
               }
             ]
           }
