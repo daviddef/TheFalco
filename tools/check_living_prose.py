@@ -64,6 +64,7 @@ HAND_EDITED = {
     "searched.json",        # the coverage page, one row per search
     "sources.json",         # the sources list
     "strands.json",         # the strands chart's captions
+    "story.json",           # the story of the direct line (/story/), typed by hand from the archive's own pages
     "trees.json",           # the trees' notes
     "worklist.json",        # the work list
 }

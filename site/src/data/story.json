@@ -1,0 +1,2769 @@
+{
+  "_note": "The direct line of the Falco of Arienzo told as a short book: the data behind /story/ (kit components StoryBook, StoryRibbon, LineTree, StoryMap; contract in node_modules/@daviddef/archive-kit/kit/docs/story.md). Typed by hand from the archive's own pages and data; every sentence traces to the fact ledger kept with the work. A living person is a relationship and a town or country, never a date; a possible minor is an initial.",
+  "title": "Out of Arienzo",
+  "eyebrow": "The story · nine generations · Arienzo to Brisbane",
+  "dek": "The one line of the Falco that the documents carry, told once as a short book: a man buried at Arienzo in 1802, a street of contadini, a marriage file, a bride from a farmstead, two moves up the valley and a ship to Brisbane. Every paragraph says how well it is known.",
+  "prologue": {
+    "title": "Start here",
+    "paragraphs": [
+      {
+        "id": "start-1",
+        "grade": "doc",
+        "text": "This is the short version of a long archive: one line of the Falco of Arienzo, in the province of Caserta, told a generation at a time, from a man buried in the archpriest's cemetery at Arienzo in 1802 to a family in Brisbane. It is meant to be read in one sitting.",
+        "evidence": [
+          {
+            "href": "/direct-line/",
+            "why": "The Spine: the nine generations, each with the record that joins it to the one above"
+          }
+        ]
+      },
+      {
+        "id": "start-2",
+        "grade": "doc",
+        "text": "Everything said here about a person comes from a paper the archive holds, or is marked when it does not. A small mark ends each paragraph: **doc** where a document says so, **inf** where the archive reasons from documents, **lore** where it rests on the family's memory or the family's tree. A paragraph takes the mark of its weakest sentence, and every mark links to the evidence.",
+        "evidence": [
+          {
+            "href": "/method/",
+            "why": "Method: how this archive grades a claim"
+          }
+        ]
+      },
+      {
+        "id": "start-3",
+        "grade": "doc",
+        "text": "Some passages are set in from the margin under the words *In the world around them*. They describe the town, the street and the years, never what these particular people did or saw. Their marks say where the detail comes from: **archive** for this archive's own pages, **history** for general history, listed at the [foot of the page](#world-notes).",
+        "evidence": [
+          {
+            "href": "#world-notes",
+            "why": "Where the world comes from"
+          }
+        ]
+      },
+      {
+        "id": "start-4",
+        "grade": "doc",
+        "text": "This archive says plainly that it is not a pedigree of everyone called Falco. The name is the Italian for falcon and was coined many times over, and Arienzo alone held Falco households, in the same years and on the same streets, that no record joins to this one. They are left out of this book, as they are left off the line. What follows is the one line the documents carry, and it says where that line stops.",
+        "evidence": [
+          {
+            "href": "/lines/",
+            "why": "Where they went: one line, and the strands of the same surname that no record joins to it"
+          },
+          {
+            "href": "/which-falco/",
+            "why": "Which Falco?"
+          }
+        ]
+      },
+      {
+        "id": "start-5",
+        "grade": "doc",
+        "text": "The places are few and close together. Arienzo, which the Latin books call *Terra Argenti*, and its strada Camellara; San Felice a Cancello, the next comune to the west; Arpaia and Forchia, a few kilometres east across the provincial border; and then Brisbane. The clerks spelled the wives' names as they heard them: Adriana and Andreana, Arricale and Arricole, Maione and Majone. Each chapter ends with *The papers for this chapter*.",
+        "evidence": [
+          {
+            "href": "/arienzo/",
+            "why": "Arienzo, and the in-law names in its registers"
+          },
+          {
+            "href": "/valle-caudina/",
+            "why": "The Valle Caudina: three villages in two provinces"
+          }
+        ]
+      }
+    ]
+  },
+  "ribbon": {
+    "note": "Each card names the Falco of that generation and where they came from, with the place a document later finds the household where it differs, and the spouse and where the spouse came from. The outline carries the evidence for where the Falco of that generation came from: solid documented, dashed inferred, dotted family memory.",
+    "cards": [
+      {
+        "name": "Matteo Falco",
+        "years": "c. 1747–1802",
+        "origin": "Arienzo",
+        "originGrade": "inf",
+        "spouse": "Francesca Crisci",
+        "spouseOrigin": "place not known",
+        "atPlace": "",
+        "atYear": "",
+        "living": false,
+        "chapter": "matteo",
+        "person": "matteo-falco-of-matteo-falco-francesca-crisci",
+        "title": "Found at Arienzo from his children's baptisms; his own baptism would fall in the register's gap of 1738 to 1761, so where he was born is not documented"
+      },
+      {
+        "name": "Pasquale Falco",
+        "years": "1767–1834",
+        "origin": "Arienzo",
+        "originGrade": "doc",
+        "spouse": "Chiara Rivetti",
+        "spouseOrigin": "of Arienzo",
+        "atPlace": "",
+        "atYear": "",
+        "living": false,
+        "chapter": "pasquale",
+        "person": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+        "spousePerson": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
+        "title": "Baptised at Sant'Andrea, Arienzo, 24 July 1767; died on strada Camellara"
+      },
+      {
+        "name": "Vincenzo Falco",
+        "years": "1792–1875",
+        "origin": "Arienzo",
+        "originGrade": "doc",
+        "spouse": "Andreana Crisci",
+        "spouseOrigin": "of Arienzo",
+        "atPlace": "",
+        "atYear": "",
+        "living": false,
+        "chapter": "vincenzo",
+        "person": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+        "spousePerson": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+        "title": "Baptised at Arienzo, 1 February 1792, by the extract in his marriage file"
+      },
+      {
+        "name": "Raffaele Falco",
+        "years": "1818–1880",
+        "origin": "Arienzo",
+        "originGrade": "doc",
+        "spouse": "Angela Rosa Morgillo",
+        "spouseOrigin": "of San Felice a Cancello",
+        "atPlace": "",
+        "atYear": "",
+        "living": false,
+        "chapter": "raffaele",
+        "person": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
+        "spousePerson": "angela-rosa-morgillo",
+        "title": "Born in his father's house on strada Camellara, 10 May 1818"
+      },
+      {
+        "name": "Carminantonio Falco",
+        "years": "b. 1850",
+        "origin": "Arienzo",
+        "originGrade": "doc",
+        "spouse": "Giovanna Arricale",
+        "spouseOrigin": "of Arienzo",
+        "atPlace": "",
+        "atYear": "",
+        "living": false,
+        "chapter": "orti",
+        "person": "carmine-antonio-falco",
+        "spousePerson": "giovanna-arricale",
+        "title": "Born at Arienzo, 10 July 1850; no death is recorded in the archive"
+      },
+      {
+        "name": "Raffaele Falco",
+        "years": "b. 1873",
+        "origin": "Arienzo",
+        "originGrade": "doc",
+        "spouse": "Costanza Maione",
+        "spouseOrigin": "of Arienzo",
+        "atPlace": "Arpaia",
+        "atYear": "1913",
+        "living": false,
+        "chapter": "poveri",
+        "person": "raffaele-falco-2",
+        "spousePerson": "constanza-maione",
+        "title": "Born at Arienzo, 6 April 1873; a son registered at Arpaia in 1913, by inference his; no death is recorded in the archive"
+      },
+      {
+        "name": "Carminantonio Falco",
+        "years": "1901–1985 or 1988",
+        "origin": "Arienzo",
+        "originGrade": "doc",
+        "spouse": "Filomena Annecchino",
+        "spouseOrigin": "of Forchia",
+        "atPlace": "Forchia",
+        "atYear": "1937",
+        "living": false,
+        "chapter": "forchia",
+        "person": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
+        "spousePerson": "filomena-annecchino-2",
+        "title": "Born at Arienzo, 11 January 1901, by his passport; at Forchia in 1937; died at Brisbane, the year in dispute"
+      },
+      {
+        "name": "Carmine Falco",
+        "years": "1930–2026",
+        "origin": "Forchia",
+        "originGrade": "doc",
+        "spouse": "Francesca Zampiello",
+        "spouseOrigin": "of Arpaia",
+        "atPlace": "Brisbane",
+        "atYear": "1964",
+        "living": false,
+        "chapter": "brisbane",
+        "person": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
+        "spousePerson": "francesca-zampiello",
+        "title": "Born at Forchia, 8 June 1930, by the army's register; on the passenger list of 1964 to Brisbane"
+      },
+      {
+        "name": "Giuseppina Falco",
+        "years": "",
+        "origin": "Benevento, Italy",
+        "originGrade": "lore",
+        "spouse": "Ian D'Arcy",
+        "spouseOrigin": "of Brisbane, Australia",
+        "atPlace": "",
+        "atYear": "",
+        "living": true,
+        "chapter": "us",
+        "spouseLiving": true,
+        "title": "Living: named with her relationships and her town and country, nothing more"
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "matteo",
+      "numeral": "I",
+      "title": "The man before the gap",
+      "place": "Arienzo",
+      "years": "about 1747–1805",
+      "paragraphs": [
+        {
+          "id": "matteo-1",
+          "grade": "doc",
+          "text": "On 18 July 1802 the archpriest of Arienzo, Giacinto Morgillo, entered a death in the parish book of Sant'Andrea. *Matthaeus Falco vir Franciscae Crisci*: [Matteo Falco](person:matteo-falco-of-matteo-falco-francesca-crisci), husband of Francesca Crisci, about fifty-five years old, had received all the sacraments and was buried in the archpriest's cemetery. The line this archive can document begins with him.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-1",
+              "why": "The Spine, generation one: the burial of 18 July 1802, read from the image"
+            }
+          ]
+        },
+        {
+          "id": "matteo-2",
+          "grade": "doc",
+          "text": "That summer is unusually well recorded. On 12 July his daughter Rosa married Carlantonio Morgillo; six days later her father was dead; on 4 August his son Giuseppe married Antonia di Guida. Both marriages are on one leaf of the register, and both call the bride or the groom a child of *Matthei, e Franciscae Crisci*, without the word *quondam* that marked a dead parent. Before the burial was found the archive read that silence as proof that Matteo was alive in August, and published it. It was wrong, and it says so.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-1",
+              "why": "The two marriages of 1802 and the argument they refuted"
+            }
+          ]
+        },
+        {
+          "id": "matteo-3",
+          "grade": "inf",
+          "text": "Their children came to the font of Sant'Andrea over nineteen years. [Pasquale](person:pasquale-falco-of-pasquale-falco-chiara-rivetti) was baptised on 24 July 1767 and a Francisca Anna Angela in November 1771. A Gioacchino baptised in November 1774 was buried on 11 December 1777, with a cross drawn in the margin, and the next boy, baptised on 2 February 1779, was given his dead brother's name. Rosa Maria followed in January 1786. Giuseppe gave his age as twenty-eight in February 1811. The archive counts six children documented as theirs, and takes the daughter of 1771 to be the Angela who died in 1822, at fifty-one, the widow of Crescenzo Rivetti.",
+          "evidence": [
+            {
+              "href": "/households/",
+              "why": "Matteo Falco and Francesca Crisci: the household, row by row"
+            },
+            {
+              "href": "/direct-line/#gen-1",
+              "why": "The six children, and Angela's act of 1822"
+            }
+          ]
+        },
+        {
+          "id": "matteo-4",
+          "grade": "doc",
+          "text": "When Angela died, on strada Capodiconca in October 1822, the clerk wrote her father down as *Matteo Falco defunto, di professione contadino*: a man who worked the land. It is the only trade any paper gives him. His sons were the same: Gioacchino a *colono*, a tenant farmer, and Giuseppe a *massaro di campagna*.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-1",
+              "why": "Angela Falco's death act, 17 October 1822; Gioacchino's of 1851; Giuseppe's declaration of 1811"
+            }
+          ]
+        },
+        {
+          "id": "matteo-5",
+          "grade": "doc",
+          "text": "Francesca Crisci outlived him by three and a half years. On 31 December 1805 the same archpriest entered *Francisca Crisci vidua Matthei Falco*, about sixty, and she was buried in the confraternity of Santa Maria delle Grazie. By the ages the priest gave, she was about two years older than her husband and bore her last child at about forty-one.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-1",
+              "why": "Francesca Crisci's burial, 31 December 1805, read from the image"
+            }
+          ]
+        },
+        {
+          "id": "matteo-6",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "Arienzo is a comune of some six thousand people at the western mouth of the Valle Caudina, in the province of Caserta. Its Latin name was *Argentium*, and the registers call it *Terra Argenti*, the land of silver. Local history holds that it stands on the ruins of Suessola, a city of the Osci, and that the walled town, the *Terra Murata*, was built in 1154; it is the oldest part of Arienzo today.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/arienzo/",
+              "why": "Arienzo: the town"
+            }
+          ]
+        },
+        {
+          "id": "matteo-7",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "The parish church, Sant'Andrea Apostolo, is documented from 1151 and was raised to a collegiate church in 1722, with twenty-two canons and eight mansionaries. From 1762 to 1775 the bishop of the diocese of Sant'Agata de' Goti was Alfonso Maria de' Liguori, now a saint, and he kept a second residence at Arienzo beside the church. From 1734 the town belonged to the Bourbon Kingdom of Naples, and until 1809 nobody but the parish priest wrote down a birth, a marriage or a death; the entries this archive reads from his books are in Latin.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/liguori/",
+              "why": "The bishop next door, and the church"
+            },
+            {
+              "kind": "archive",
+              "href": "/rule/",
+              "why": "Under Whose Rule"
+            }
+          ]
+        },
+        {
+          "id": "matteo-8",
+          "grade": "inf",
+          "text": "Here the line stops. No paper names Matteo Falco's father or says where he was born. If he was born at Arienzo about 1747, his baptism falls in a gap: the baptism book runs to 1738 and starts again in 1761. His marriage, about 1760 to 1766, has been searched for across 2,056 transcribed pages and not found, and the archive reasons that it is in the parish books of Sant'Andrea or nowhere. Above him the archive has nothing, and this book claims nothing.",
+          "evidence": [
+            {
+              "href": "/direct-line/",
+              "why": "The welds, and «Above Matteo there is nothing»"
+            },
+            {
+              "href": "/open-questions/",
+              "why": "Open questions"
+            }
+          ]
+        },
+        {
+          "id": "matteo-9",
+          "grade": "doc",
+          "text": "For years the family's tree put another man at the head of the line: Agostino Falcone, born about 1740, with a wife, Elisabetta Sabina. No record of either has ever been produced, and Pasquale's baptism names his father as Matteo. The archive still draws Agostino, struck through, beside the man who replaced him.",
+          "evidence": [
+            {
+              "href": "/corrections/",
+              "why": "Corrections: where the tree still asserts what the archive discarded"
+            }
+          ]
+        },
+        {
+          "id": "matteo-10",
+          "grade": "inf",
+          "text": "There is one candidate for where the family came from, and the archive keeps it at arm's length. Between 1714 and 1726 a Francesco Falco and Antonia Loffreda brought children to the font at Arienzo, and the first entry states his origin outright: *Francisco Falco casalis Paulisii*, of the hamlet of Paolisi, a few kilometres to the east. The dates would allow him to be Matteo's grandfather. No document joins them. It would be a satisfying answer, which is exactly why it is drawn apart.",
+          "evidence": [
+            {
+              "href": "/open-questions/",
+              "why": "Is Francesco Falco of Paolisi an ancestor?"
+            },
+            {
+              "href": "/lines/",
+              "why": "The Paolisi strand, not joined"
+            }
+          ]
+        },
+        {
+          "id": "matteo-11",
+          "grade": "inf",
+          "text": "One paper does not fit. A *Mattheo Falco* stood witness at a marriage at Arienzo in 1759, and the archive has long taken that as proof that Matteo was a grown man by then. If the priest's fifty-five at his death is right, he was about twelve. Either the witness was another man of the name, or the priest's estimate of his age was badly out, as estimates in these registers sometimes are. The archive has not decided, and neither does this book.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-1",
+              "why": "The 1759 witness and the burial of 1802, both in generation one's note"
+            }
+          ],
+          "tbc": "The witness of 1759 and the age at death of 1802 cannot both describe one grown man; the archive's pages carry both."
+        }
+      ],
+      "tree": {
+        "glyph": "field",
+        "note": "Six children are documented as theirs. The daughter baptised in 1771 is drawn dashed: the archive counts her as the Angela who died in 1822 by her age, not by a paper that joins the two.",
+        "thread": "m-pasquale",
+        "rows": [
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "m-matteo",
+                "name": "Matteo Falco",
+                "years": "c. 1747–1802, contadino",
+                "grade": "doc",
+                "person": "matteo-falco-of-matteo-falco-francesca-crisci"
+              },
+              {
+                "id": "m-francesca",
+                "name": "Francesca Crisci",
+                "years": "c. 1745–1805",
+                "grade": "doc"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "m-pasquale",
+                "name": "Pasquale",
+                "years": "1767–1834",
+                "grade": "doc",
+                "person": "pasquale-falco-of-pasquale-falco-chiara-rivetti"
+              },
+              {
+                "id": "m-angela",
+                "name": "Francisca Anna Angela",
+                "years": "1771–1822",
+                "grade": "inf"
+              },
+              {
+                "id": "m-gioacchino1",
+                "name": "Gioacchino",
+                "years": "1774–1777",
+                "grade": "doc"
+              },
+              {
+                "id": "m-gioacchino2",
+                "name": "Gioacchino",
+                "years": "1779–1851, colono",
+                "grade": "doc"
+              },
+              {
+                "id": "m-giuseppe",
+                "name": "Giuseppe",
+                "years": "28 in 1811, massaro",
+                "grade": "doc"
+              },
+              {
+                "id": "m-rosa",
+                "name": "Rosa Maria",
+                "years": "1786–1830",
+                "grade": "doc"
+              }
+            ]
+          }
+        ]
+      },
+      "quote": {
+        "label": "1802 · Arienzo",
+        "title": "A burial in the archpriest's cemetery",
+        "text": "Matthaeus Falco vir Franciscae Crisci, aetatis suae annorum 55 circiter … in Archipresbyterali Coemeterio ejus cadaver humatum est.",
+        "source": "Arienzo, parish of Sant'Andrea, deaths, 18 July 1802; signed by the archpriest Hyacinthus (Giacinto) Morgillo",
+        "hardLimit": "The age is the priest's estimate, and in this hand the 55 could be a 58. The entry does not name his parents."
+      },
+      "plates": [],
+      "papers": [
+        {
+          "title": "The Spine, generation one",
+          "href": "/direct-line/#gen-1"
+        },
+        {
+          "title": "Matteo Falco",
+          "href": "person:matteo-falco-of-matteo-falco-francesca-crisci"
+        },
+        {
+          "title": "The household, row by row",
+          "href": "/households/"
+        },
+        {
+          "title": "Open questions: Paolisi, and Matteo's marriage",
+          "href": "/open-questions/"
+        },
+        {
+          "title": "The strands no record joins",
+          "href": "/lines/"
+        },
+        {
+          "title": "Which Falco?",
+          "href": "/which-falco/"
+        },
+        {
+          "title": "The bishop next door",
+          "href": "/liguori/"
+        },
+        {
+          "title": "Corrections",
+          "href": "/corrections/"
+        }
+      ]
+    },
+    {
+      "id": "pasquale",
+      "numeral": "II",
+      "title": "The only hand that wrote",
+      "place": "Arienzo, strada Camellara",
+      "years": "1767–1843",
+      "paragraphs": [
+        {
+          "id": "pasquale-1",
+          "grade": "doc",
+          "text": "On 25 March 1824 two brothers came before the clerk at Arienzo together. He entered them as *Pasquale Falco, di anni cinquantacinque, di professione colono*, of strada Camellara, and Giuseppe Falco, forty-two, colono, of the same street, and against each of them he wrote the same two words: *zio del defunto*, uncle of the dead. The dead was a boy of five, Giuseppe Cioffi, son of Francesco Cioffi and a Maria Falco. At the foot of the leaf, under a formula saying that Giuseppe could not write because he had never learned, stands *Pascale Falco*, in [Pasquale](person:pasquale-falco-of-pasquale-falco-chiara-rivetti)'s own hand.",
+          "evidence": [
+            {
+              "href": "/documents/#pascale-falco-signature-1824",
+              "why": "«PASCALE FALCO»: Arienzo, Morti 1824, atto 8"
+            },
+            {
+              "href": "/direct-line/#gen-2",
+              "why": "The Spine, generation two"
+            }
+          ]
+        },
+        {
+          "id": "pasquale-2",
+          "grade": "inf",
+          "text": "Read strictly, *zio* makes the boy's mother a sister of the two men, and so another daughter of Matteo. Her own stated age, twenty-five in June 1824, forbids it. The archive records the word and refuses the pedigree.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-2",
+              "why": "The word «zio», and why it is not followed"
+            }
+          ]
+        },
+        {
+          "id": "pasquale-3",
+          "grade": "doc",
+          "text": "He signed his name twice that this archive knows of. When his son married in 1814, the notary wrote that *il detto Pasquale Falco* had signed and that his wife Chiara had declared she could not write; and here, ten years later, is the signature itself. Everywhere else, somebody else is speaking of him.",
+          "evidence": [
+            {
+              "href": "/households/",
+              "why": "Notarial act 85 of 8 September 1814: «si è firmato soltanto il detto PASQUALE FALCO»"
+            }
+          ]
+        },
+        {
+          "id": "pasquale-4",
+          "grade": "doc",
+          "text": "He had been baptised at Sant'Andrea on 24 July 1767. The register names his father Matteo and his mother Francesca Crisci, and the entry is signed by a substitute, D. Clemens Crisci, under the archpriest Antonio Romano. A machine transcription had given the month as October; read at full resolution, the word is *Julii*, July.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-2",
+              "why": "The baptism, read from the image on 27 September 2026"
+            },
+            {
+              "href": "/liguori/",
+              "why": "Who signed the entry"
+            }
+          ]
+        },
+        {
+          "id": "pasquale-5",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "The bishop who lived beside the church that year was Alfonso Maria de' Liguori, whose health broke down from 1767. He did not baptise anyone in these pages; the register names the priest who did. The archive says so plainly, because it would be easy, and wrong, to let a saint christen an ancestor.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/liguori/",
+              "why": "The bishop next door: the facts, and their limits"
+            }
+          ]
+        },
+        {
+          "id": "pasquale-6",
+          "grade": "doc",
+          "text": "[Chiara Rivetti](person:chiara-rivetti-of-pasquale-falco-chiara-rivetti) was baptised at Sant'Andrea on 14 December 1766, *Clara*, daughter of Nicola Rivetta. The parish books knew two men of that name: a physician, *Magnifico Don Physico* Nicola Rivetta, whose children were given three and four names apiece, and a plain Nicola whose children were given one. Chiara was the plain Nicola's daughter, and her own death act calls her father a *contadino*. Her mother is Anna di Nuzzo in the parish books and Anna di Ruggio in the civil ones; both are certain in their own documents, and the archive does not know which was the woman's own name.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-2",
+              "why": "Chiara Rivetti's baptism, read; the two Nicola Rivetta households; the conflict over her mother's name"
+            },
+            {
+              "href": "/rivetti/",
+              "why": "Rivetti"
+            }
+          ]
+        },
+        {
+          "id": "pasquale-7",
+          "grade": "doc",
+          "text": "Pasquale and Chiara brought their children to the font from 1789. A machine read the first entry as 1780; the Latin words on the page, *octogesimo nono*, say 1789, and words beat digits. The children were Maria in 1789, another Maria in 1790, Vincenzo in February 1792, Maria Raffaela in 1794, Anna in 1795, Domenico in 1799 and Maria Angela in 1802, and later Michelangelo, Giovanna and Francescantonio. Maria Angela was buried in March 1805, about three years old, and a Giovanna that September. When a daughter was born in September 1810 they called her Giovanna again. It was not the only time this family gave a dead child's name to the next.",
+          "evidence": [
+            {
+              "href": "/households/",
+              "why": "Pasquale Falco and Chiara Rivetti: twenty-six register entries"
+            },
+            {
+              "href": "/arienzo/",
+              "why": "The date problem: octogesimo nono"
+            }
+          ]
+        },
+        {
+          "id": "pasquale-8",
+          "grade": "doc",
+          "text": "Anna married Arcangelo Crisci and died on 23 August 1820, given as twenty-five, seven months after burying a son two days old. Her death act puts her father alive on the family's street, fourteen years before his own death: *Pasquale Falco, di professione contadino, domiciliato ivi strada Camellara*, and *Chiara Rivetti, domiciliata ivi*, neither of them marked dead.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-2",
+              "why": "Anna Falco's death act, 23 August 1820"
+            },
+            {
+              "href": "/documents/#anna-falco-death-1820",
+              "why": "The act"
+            }
+          ]
+        },
+        {
+          "id": "pasquale-9",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "Strada Camellara was a working street. Every trade the registers attach to a household on it is a working one: *contadino* and *colono* over and over, a *vaticale*, a carrier with a mule, two tailors, a *filatrice*, a spinner, at nearly every hearth, and in 1844 a *zampognaro*, a bagpiper. No Don lived there. The acts of these years give a street and never a house number, so nobody knows which door was theirs.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/camellara/",
+              "why": "Strada Camellara: what kind of street it was"
+            }
+          ]
+        },
+        {
+          "id": "pasquale-10",
+          "register": "world",
+          "worldSource": "history",
+          "text": "In the villages of the Campanian countryside a labouring household lived mostly on bread, on beans and other pulses, on vegetables and wild greens, and on oil when it could be had; meat was rare and kept for feasts. No paper says what was on the table on strada Camellara.",
+          "evidence": [
+            {
+              "kind": "history",
+              "href": "#world-H1",
+              "why": "General history of the southern Italian peasant household"
+            }
+          ],
+          "tbc": "A general account of the region's peasant diet, not a document about this household."
+        },
+        {
+          "id": "pasquale-11",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "In 1806 the French took the kingdom and abolished feudalism, and in 1809 they ordered civil registration: births, marriages and deaths recorded by the mayor on printed forms, with the parents of the dead named in every death act. When the Bourbons came back in 1815 they kept it, and the volumes are still catalogued as the restoration's registers. That one administrative decision is why the next paper exists.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/rule/",
+              "why": "Under Whose Rule: why the regimes made the records"
+            }
+          ]
+        },
+        {
+          "id": "pasquale-12",
+          "grade": "doc",
+          "text": "Pasquale died at five in the morning on 1 October 1834, in his own house on strada Camellara. Two neighbours gave the act. It calls him seventy-four, which his baptism does not support (he was sixty-seven), a contadino, husband of Chiara Rivetti, and son of the late Matteo Falco and the late Francesca Crisci. That is the weld that joins this generation to the one above, from a series of records entirely separate from the parish book.",
+          "evidence": [
+            {
+              "href": "/documents/#pasquale-falco-death-1834",
+              "why": "Arienzo, Morti 1834, act 69"
+            },
+            {
+              "href": "/direct-line/",
+              "why": "The welds"
+            }
+          ]
+        },
+        {
+          "id": "pasquale-13",
+          "grade": "doc",
+          "text": "Chiara outlived him by nearly nine years. She died at eight in the evening on 13 September 1843, in her own house, a widow and a *contadina*. The clerk gave her age as eighty; by her baptism of December 1766 she was not yet seventy-seven. The two men who reported her death, Luca Cioffi, a tailor, and Giovanni Cioffi, a contadino, both lived on strada Camellara.",
+          "evidence": [
+            {
+              "href": "/documents/#chiara-rivetti-death-1843",
+              "why": "Arienzo, Morti 1843, act 43"
+            },
+            {
+              "href": "/households/",
+              "why": "The act, and its declarants"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "gable",
+        "note": "Their children as the parish and the civil registers give them. Vincenzo, the eldest son, carries the line on.",
+        "thread": "p-vincenzo",
+        "rows": [
+          {
+            "kind": "above",
+            "nodes": [
+              {
+                "id": "p-matteo",
+                "name": "Matteo Falco",
+                "years": "† 1802",
+                "grade": "doc",
+                "person": "matteo-falco-of-matteo-falco-francesca-crisci"
+              }
+            ]
+          },
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "p-pasquale",
+                "name": "Pasquale Falco",
+                "years": "1767–1834, contadino",
+                "grade": "doc",
+                "person": "pasquale-falco-of-pasquale-falco-chiara-rivetti"
+              },
+              {
+                "id": "p-chiara",
+                "name": "Chiara Rivetti",
+                "years": "1766–1843",
+                "grade": "doc",
+                "person": "chiara-rivetti-of-pasquale-falco-chiara-rivetti"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "p-maria1",
+                "name": "Maria",
+                "years": "1789",
+                "grade": "doc"
+              },
+              {
+                "id": "p-maria2",
+                "name": "Maria",
+                "years": "1790",
+                "grade": "doc"
+              },
+              {
+                "id": "p-vincenzo",
+                "name": "Vincenzo",
+                "years": "1792–1875",
+                "grade": "doc",
+                "person": "vincenzo-falco-of-vincenzo-falco-andreana-crisci"
+              },
+              {
+                "id": "p-mraffaela",
+                "name": "Maria Raffaela",
+                "years": "1794",
+                "grade": "doc"
+              },
+              {
+                "id": "p-anna",
+                "name": "Anna",
+                "years": "1795–1820",
+                "grade": "doc"
+              },
+              {
+                "id": "p-domenico",
+                "name": "Domenico",
+                "years": "1799",
+                "grade": "doc"
+              },
+              {
+                "id": "p-mangela",
+                "name": "Maria Angela",
+                "years": "1802–1805",
+                "grade": "doc"
+              },
+              {
+                "id": "p-giovanna1",
+                "name": "Giovanna",
+                "years": "† 1805",
+                "grade": "doc"
+              },
+              {
+                "id": "p-michelangelo",
+                "name": "Michelangelo",
+                "years": "1808",
+                "grade": "doc"
+              },
+              {
+                "id": "p-giovanna2",
+                "name": "Giovanna",
+                "years": "1810",
+                "grade": "doc"
+              },
+              {
+                "id": "p-francescantonio",
+                "name": "Francescantonio",
+                "years": "m. 1832",
+                "grade": "doc"
+              }
+            ]
+          }
+        ]
+      },
+      "quote": {
+        "label": "1824 · Arienzo",
+        "title": "In his own hand",
+        "text": "PASCALE FALCO",
+        "source": "Arienzo, Morti 1824, atto 8, at the foot of the leaf (Antenati an_ua14326, image 9)",
+        "hardLimit": "A signature shows that he could write his name. It does not say whether he could read, or write anything else."
+      },
+      "plates": [
+        "pascale-falco-signature-1824",
+        "pasquale-falco-death-1834"
+      ],
+      "papers": [
+        {
+          "title": "The Spine, generation two",
+          "href": "/direct-line/#gen-2"
+        },
+        {
+          "title": "Pasquale Falco",
+          "href": "person:pasquale-falco-of-pasquale-falco-chiara-rivetti"
+        },
+        {
+          "title": "Chiara Rivetti",
+          "href": "person:chiara-rivetti-of-pasquale-falco-chiara-rivetti"
+        },
+        {
+          "title": "Strada Camellara",
+          "href": "/camellara/"
+        },
+        {
+          "title": "The Rivetti",
+          "href": "/rivetti/"
+        },
+        {
+          "title": "The signature, 1824",
+          "href": "/documents/#pascale-falco-signature-1824"
+        },
+        {
+          "title": "His death act, 1834",
+          "href": "/documents/#pasquale-falco-death-1834"
+        },
+        {
+          "title": "Under Whose Rule",
+          "href": "/rule/"
+        }
+      ]
+    },
+    {
+      "id": "vincenzo",
+      "numeral": "III",
+      "title": "Eight papers for a wedding",
+      "place": "Arienzo, strada Camellara",
+      "years": "1792–1875",
+      "paragraphs": [
+        {
+          "id": "vincenzo-1",
+          "grade": "doc",
+          "text": "At one o'clock on Sunday 11 September 1814 the mayor of Arienzo, Vincenzo Morgillo, read a notice of marriage before the door of the town hall. [Vincenzo Falco](person:vincenzo-falco-of-vincenzo-falco-andreana-crisci), twenty-three, son of Pasquale, sixty, and of Chiara Rivetti, forty-seven, was to marry [Andreana Crisci](person:andreana-crisci-of-vincenzo-falco-andreana-crisci), seventeen years complete. A week later the same notice was read again.",
+          "evidence": [
+            {
+              "href": "/documents/#falco-crisci-banns-1814",
+              "why": "The first banns, Sunday 11 September 1814"
+            }
+          ]
+        },
+        {
+          "id": "vincenzo-2",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "Under the Napoleonic code a marriage made a file, not just an entry. A couple had to produce their baptisms, the consent of living parents where either was under age, and proof that the banns had been read twice in the town and once in the church, and all of it was bundled and kept. The marriage files of the Valle Caudina survive in hundreds of volumes, and until September 2026 this archive had never opened one.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/processetti/",
+              "why": "The Processetti: what a marriage file is"
+            }
+          ]
+        },
+        {
+          "id": "vincenzo-3",
+          "grade": "doc",
+          "text": "Theirs is bundle 16 of 1814: eight papers, three hands, four months. The wrapper names all four parents before a single act is opened. The archpriest, Giacinto Morgillo, copied both baptisms out of the parish book on 13 September. The groom was baptised on 1 February 1792, *cui dedi nomen Vincentius Raphael*; the bride on 30 November 1796 as Adriana, daughter of Arcangelo Crisci and Sara Ruggiero. Adriana is the name she was given at the font and the root of every variant the registers made of it: Andreana, Andriana, Andrea.",
+          "evidence": [
+            {
+              "href": "/processetti/",
+              "why": "Bundle 16 of 1814, Falco × Crisci"
+            },
+            {
+              "href": "/documents/#vincenzo-falco-baptism-1792",
+              "why": "The baptism extract, 1792"
+            },
+            {
+              "href": "/documents/#adriana-crisci-baptism-1796",
+              "why": "The baptism extract, 1796"
+            }
+          ]
+        },
+        {
+          "id": "vincenzo-4",
+          "grade": "doc",
+          "text": "At twenty-three Vincenzo was under the twenty-five the Code required, so his parents had to consent in person. On 8 September they went before the notary Felice Morgillo: *li conjugi Pasquale Falco del fu Matteo, e Chiara Rivetti del fu Nicola*, of strada Camellara. The bride's parents made the same act the same day, and they too lived on strada Camellara. The two families were neighbours before they were in-laws.",
+          "evidence": [
+            {
+              "href": "/documents/#falco-consent-1814-act85",
+              "why": "Notarial act 85: the groom's parents consent"
+            },
+            {
+              "href": "/documents/#crisci-consent-1814-act86",
+              "why": "Notarial act 86: the bride's parents consent"
+            }
+          ]
+        },
+        {
+          "id": "vincenzo-5",
+          "grade": "inf",
+          "text": "The banns give four ages at once, and they make a small experiment. The clerk had both young people right to the year. He made Pasquale sixty when he was forty-seven. The archive has argued across a dozen volumes that the registers are accurate about whoever is standing in front of the clerk and careless about everyone else, and here one paper shows it both ways.",
+          "evidence": [
+            {
+              "href": "/processetti/",
+              "why": "The four ages in one act"
+            }
+          ]
+        },
+        {
+          "id": "vincenzo-6",
+          "grade": "doc",
+          "text": "They were married in the civil register on 15 October 1814, act 16. The act calls Vincenzo a contadino of strada Camellara and *figlio maggiore di Pasquale Falco*, the eldest son. Andreana's mother, Sara Ruggiero, was the town's midwife. In January 1815, less than three months after the wedding, she bore another daughter, Carmela, who lived seven days.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-3",
+              "why": "The civil marriage act, read 20 September 2026"
+            },
+            {
+              "href": "/households/",
+              "why": "Sara Ruggiero, midwife; Carmela Crisci, 1815"
+            }
+          ]
+        },
+        {
+          "id": "vincenzo-7",
+          "grade": "doc",
+          "text": "Their first son, Raffaele, was born on 25 April 1816 and buried on 28 October 1817, about eighteen months old. When the next boy came, on 10 May 1818, they gave him the same name, and he is the next chapter. After him came Luigi in 1819, Giuseppe Nunzio in 1824, Angelandrea in 1826, Sara in 1828, Pasquale in 1830, Maria Carmela in 1832, Stanislao in 1838 and Antonio in 1843, with Andrea, Angelo and Nunziata known from their weddings.",
+          "evidence": [
+            {
+              "href": "/households/",
+              "why": "Vincenzo Falco and Andreana Crisci: the household"
+            }
+          ]
+        },
+        {
+          "id": "vincenzo-8",
+          "grade": "inf",
+          "text": "Vincenzo's own second name, from the font, was Raffaele, and the archive reads the two Raffaeles as his name passed on rather than a grandfather's.",
+          "evidence": [
+            {
+              "href": "/processetti/",
+              "why": "Vincentius Raphael"
+            }
+          ]
+        },
+        {
+          "id": "vincenzo-9",
+          "grade": "doc",
+          "text": "Twice they named a son for his grandfather Pasquale. The first died at three, on 22 February 1833, while the old man still lived. The second was born about a fortnight after his grandfather's death, lived ten days, and died on Christmas Day 1834.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-3",
+              "why": "The two Pasquales"
+            }
+          ]
+        },
+        {
+          "id": "vincenzo-10",
+          "grade": "doc",
+          "text": "Vincenzo is a contadino in most of these acts and a colono in some. Andreana is given a trade of her own in 1846 and again in 1851: *filatrice*, a spinner. Both were alive and on strada Camellara in 1851, and both were still alive in December 1864, when he was seventy-two.",
+          "evidence": [
+            {
+              "href": "/households/",
+              "why": "Acts of 1846, 1851 and 1864"
+            }
+          ]
+        },
+        {
+          "id": "vincenzo-11",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "Cholera went through the province in 1837, and came again to the kingdom in 1855, when Arienzo registered 111 deaths against sixty-five in 1844. The acts give no cause of death, and the archive claims none for this family.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/rule/",
+              "why": "What the town was living through"
+            },
+            {
+              "kind": "archive",
+              "href": "/direct-line/#gen-1",
+              "why": "1855, a cholera year: the Arienzo totals"
+            }
+          ]
+        },
+        {
+          "id": "vincenzo-12",
+          "grade": "doc",
+          "text": "Vincenzo died at half past seven in the morning on 15 May 1875, in the house at number 10, via Orticelli: the family had left strada Camellara by then. His death act names his parents, Pasquale and Chiara Rivetti, and calls him the husband, not the widower, of Andreana Crisci, so she was still alive. She was dead by 21 April 1880, and her own act has not been found.",
+          "evidence": [
+            {
+              "href": "/households/",
+              "why": "Arienzo, Morti 1875, act 39, and the window for Andreana's death"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "field",
+        "note": "Their children by birth, baptism or marriage. The second Raffaele carries the line on.",
+        "thread": "v-raffaele2",
+        "rows": [
+          {
+            "kind": "above",
+            "nodes": [
+              {
+                "id": "v-pasquale",
+                "name": "Pasquale Falco",
+                "years": "† 1834",
+                "grade": "doc",
+                "person": "pasquale-falco-of-pasquale-falco-chiara-rivetti"
+              }
+            ]
+          },
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "v-vincenzo",
+                "name": "Vincenzo Falco",
+                "years": "1792–1875, contadino",
+                "grade": "doc",
+                "person": "vincenzo-falco-of-vincenzo-falco-andreana-crisci"
+              },
+              {
+                "id": "v-andreana",
+                "name": "Andreana Crisci",
+                "years": "1796, † by 1880",
+                "grade": "doc",
+                "person": "andreana-crisci-of-vincenzo-falco-andreana-crisci"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "v-raffaele1",
+                "name": "Raffaele",
+                "years": "1816–1817",
+                "grade": "doc"
+              },
+              {
+                "id": "v-raffaele2",
+                "name": "Raffaele",
+                "years": "1818–1880",
+                "grade": "doc",
+                "person": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill"
+              },
+              {
+                "id": "v-luigi",
+                "name": "Luigi",
+                "years": "1819–1864",
+                "grade": "doc"
+              },
+              {
+                "id": "v-giuseppe",
+                "name": "Giuseppe Nunzio",
+                "years": "1824",
+                "grade": "doc"
+              },
+              {
+                "id": "v-angelandrea",
+                "name": "Angelandrea",
+                "years": "1826",
+                "grade": "doc"
+              },
+              {
+                "id": "v-sara",
+                "name": "Sara",
+                "years": "1828–1886",
+                "grade": "doc"
+              },
+              {
+                "id": "v-pasquale1",
+                "name": "Pasquale",
+                "years": "1830–1833",
+                "grade": "doc"
+              },
+              {
+                "id": "v-mcarmela",
+                "name": "Maria Carmela",
+                "years": "1832",
+                "grade": "doc"
+              },
+              {
+                "id": "v-pasquale2",
+                "name": "Pasquale",
+                "years": "† 1834, ten days",
+                "grade": "doc"
+              },
+              {
+                "id": "v-stanislao",
+                "name": "Stanislao",
+                "years": "1838",
+                "grade": "doc"
+              },
+              {
+                "id": "v-antonio",
+                "name": "Antonio",
+                "years": "1843",
+                "grade": "doc"
+              },
+              {
+                "id": "v-andrea",
+                "name": "Andrea",
+                "years": "m. 1846",
+                "grade": "doc"
+              },
+              {
+                "id": "v-angelo",
+                "name": "Angelo",
+                "years": "m. 1847",
+                "grade": "doc"
+              },
+              {
+                "id": "v-nunziata",
+                "name": "Nunziata",
+                "years": "m. 1855",
+                "grade": "doc"
+              }
+            ]
+          }
+        ]
+      },
+      "quote": {
+        "label": "1814 · Arienzo",
+        "title": "Vincentius Raphael",
+        "text": "Anno Domini … 1792, die vero prima 1 Februarii … baptizavi infantem natum ex Paschale Falco, et Clara Rivetta Conjugibus … cui dedi nomen Vincentius Raphael.",
+        "source": "Baptism extract copied by the archpriest Giacinto Morgillo on 13 September 1814 from liber IX, folio 47 a tergo, for the marriage file (Arienzo processetti 1814, bundle 16)",
+        "hardLimit": "It is a copy made twenty-two years later for a wedding, not the register page itself."
+      },
+      "plates": [
+        "processetto-1814-cover",
+        "falco-crisci-banns-1814"
+      ],
+      "papers": [
+        {
+          "title": "The Processetti: bundle 16 of 1814",
+          "href": "/processetti/"
+        },
+        {
+          "title": "The Spine, generation three",
+          "href": "/direct-line/#gen-3"
+        },
+        {
+          "title": "Vincenzo Falco",
+          "href": "person:vincenzo-falco-of-vincenzo-falco-andreana-crisci"
+        },
+        {
+          "title": "Andreana Crisci",
+          "href": "person:andreana-crisci-of-vincenzo-falco-andreana-crisci"
+        },
+        {
+          "title": "The Crisci",
+          "href": "/crisci/"
+        },
+        {
+          "title": "The wrapper of the file",
+          "href": "/documents/#processetto-1814-cover"
+        },
+        {
+          "title": "The parents consent",
+          "href": "/documents/#falco-consent-1814-act85"
+        },
+        {
+          "title": "Households",
+          "href": "/households/"
+        }
+      ]
+    },
+    {
+      "id": "raffaele",
+      "numeral": "IV",
+      "title": "A bride from the farmstead",
+      "place": "Arienzo · San Felice a Cancello",
+      "years": "1818–1880",
+      "paragraphs": [
+        {
+          "id": "raffaele-1",
+          "grade": "doc",
+          "text": "At seven in the morning on 24 February 1818 a girl was born at the Massaria delle Fosse, a farmstead in the comune of San Felice a Cancello. Her father, Orazio Morgillo, twenty-six, a *bracciale*, a labourer, came before the registrar that day and named her *Angiola Rosa*. Her mother was Vincenza Pesce, twenty-seven, a spinner. [Angela Rosa Morgillo](person:angela-rosa-morgillo) was born on a farm rather than on a street, and the Morgillo of San Felice are the first of three families to marry into this line and bring another town with them.",
+          "evidence": [
+            {
+              "href": "/documents/#angela-rosa-morgillo-birth-1818",
+              "why": "San Felice a Cancello, Nati 1818, atto 32"
+            },
+            {
+              "href": "/lines/",
+              "why": "The three families that brought a new town"
+            }
+          ]
+        },
+        {
+          "id": "raffaele-2",
+          "grade": "doc",
+          "text": "Eleven weeks later, at three in the afternoon on 10 May 1818, [Raffaele Falco](person:raffaele-falco-of-raffaele-falco-angela-rosa-morgill) was born in his father's house on strada Camellara, and he was baptised the same day at Sant'Andrea, *cui imposuit nomen Raphael*, with Gelsumina Ruggiero as godmother. A brother of the same name had been buried the October before, and for a time the archive could not say which Raffaele was the line. The burial settled it: the boy of 1818 is the one who lived.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-4",
+              "why": "The Spine, generation four: birth act 47 and the baptism"
+            }
+          ]
+        },
+        {
+          "id": "raffaele-3",
+          "grade": "doc",
+          "text": "They married in March 1844, both twenty-six. The civil promise was made not at Arienzo but in the bride's own comune, at San Felice a Cancello on 7 March, act 12, which is why the search at Arienzo found nothing: Raffaele *nato in Arienzo, contadino, domiciliato strada Cammellara*, and Angela Rosa a *contadina*, daughter of Orazio Morgillo, *colono*, and Vincenza Pesce. All four parents were alive. The church wedding is in the book of Sant'Agnese at Arienzo, dated 5 March: Raffaele of the parish of Sant'Andrea, the bride *mea Parochiana*, the parish priest's own parishioner. The civil register certifies the celebration on 9 March, four days after the date the parish gives.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-4",
+              "why": "The civil marriage at San Felice and the parish act at Sant'Agnese, both read"
+            }
+          ]
+        },
+        {
+          "id": "raffaele-4",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "Arienzo had more than one parish. Sant'Andrea was the collegiate church; Sant'Agnese had its own priest and its own book. Which parish a household belonged to is evidence, and the archive has only lately begun to use it. San Felice a Cancello, the next comune to the west, kept its own registers, which this archive had long recorded as out of reach and had never in fact searched; Angela Rosa's birth was found when they were opened.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/direct-line/#gen-4",
+              "why": "The parishes, and San Felice's registers"
+            },
+            {
+              "kind": "archive",
+              "href": "/morgillo/",
+              "why": "The Morgillo"
+            }
+          ]
+        },
+        {
+          "id": "raffaele-5",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "San Felice had Falco of its own. A Tomaso Falco brought a daughter, Lucretia, to the font there in 1637, the earliest Falco entry the archive holds anywhere, and in 1815 a Sebastiano Falco and his son Luigi were soap-makers in the town. The same town is not a connection, and nothing joins them to this family.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/wider-family/#san-felice",
+              "why": "The Falco of San Felice a Cancello"
+            }
+          ]
+        },
+        {
+          "id": "raffaele-6",
+          "grade": "doc",
+          "text": "Their first child, Vincenza, was born on 20 November 1847 and died the next afternoon, one day old. Raffaele, thirty, a contadino, was still on strada Camellara, his father's and his grandfather's street. The two neighbours of the street who reported the death, a Cioffi and a Zimbardo, could not write. Their son Carmine Antonio was born on 10 July 1850, and his birth record names his father Raffaele. The archive has found no other child of theirs.",
+          "evidence": [
+            {
+              "href": "/households/",
+              "why": "Raffaele Falco and Angela Rosa Morgillo: Vincenza, 1847"
+            },
+            {
+              "href": "/direct-line/",
+              "why": "The welds: Carmine Antonio's birth names Raffaele"
+            }
+          ]
+        },
+        {
+          "id": "raffaele-7",
+          "grade": "doc",
+          "text": "They died within a week of each other. Angela Rosa died on 15 April 1880 and Raffaele on 21 April, both in the house at number 6, via Orticelli. His death act names his father Vincenzo, the paper that joins this generation to the one before, and calls his mother the late Andreana Crisci.",
+          "evidence": [
+            {
+              "href": "/households/",
+              "why": "Arienzo, Morti 1880, acts 34 and 35"
+            },
+            {
+              "href": "/direct-line/",
+              "why": "The welds"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "field",
+        "note": "Only two children of this marriage are known. Carmine Antonio carries the line on.",
+        "thread": "r-carmine",
+        "rows": [
+          {
+            "kind": "above",
+            "nodes": [
+              {
+                "id": "r-vincenzo",
+                "name": "Vincenzo Falco",
+                "years": "† 1875",
+                "grade": "doc",
+                "person": "vincenzo-falco-of-vincenzo-falco-andreana-crisci"
+              }
+            ]
+          },
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "r-raffaele",
+                "name": "Raffaele Falco",
+                "years": "1818–1880, contadino",
+                "grade": "doc",
+                "person": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill"
+              },
+              {
+                "id": "r-angelarosa",
+                "name": "Angela Rosa Morgillo",
+                "years": "1818–1880",
+                "grade": "doc",
+                "person": "angela-rosa-morgillo"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "r-vincenza",
+                "name": "Vincenza",
+                "years": "1847, one day",
+                "grade": "doc"
+              },
+              {
+                "id": "r-carmine",
+                "name": "Carmine Antonio",
+                "years": "1850",
+                "grade": "doc",
+                "person": "carmine-antonio-falco"
+              }
+            ]
+          }
+        ]
+      },
+      "quote": {
+        "label": "1818 · San Felice a Cancello",
+        "title": "A farmstead, not a street",
+        "text": "è nato una bambina nella sua propria casa … a cui si è dato il nome di ANGIOLA ROSA",
+        "source": "San Felice a Cancello, Stato civile, Nati 1818, atto 32 (Archivio di Stato di Caserta, via Antenati)",
+        "hardLimit": "It says where she was born. It does not say when she came to Arienzo; by 1844 the priest of Sant'Agnese called her his parishioner."
+      },
+      "plates": [
+        "angela-rosa-morgillo-birth-1818"
+      ],
+      "papers": [
+        {
+          "title": "The Spine, generation four",
+          "href": "/direct-line/#gen-4"
+        },
+        {
+          "title": "Raffaele Falco",
+          "href": "person:raffaele-falco-of-raffaele-falco-angela-rosa-morgill"
+        },
+        {
+          "title": "Angela Rosa Morgillo",
+          "href": "person:angela-rosa-morgillo"
+        },
+        {
+          "title": "Her birth act, 1818",
+          "href": "/documents/#angela-rosa-morgillo-birth-1818"
+        },
+        {
+          "title": "The Morgillo",
+          "href": "/morgillo/"
+        },
+        {
+          "title": "The Falco of San Felice",
+          "href": "/wider-family/#san-felice"
+        },
+        {
+          "title": "Households",
+          "href": "/households/"
+        }
+      ]
+    },
+    {
+      "id": "orti",
+      "numeral": "V",
+      "title": "Via degli Orti",
+      "place": "Arienzo",
+      "years": "1848–1902",
+      "paragraphs": [
+        {
+          "id": "orti-1",
+          "grade": "doc",
+          "text": "On 18 November 1872 [Carminantonio Falco](person:carmine-antonio-falco) married [Giovanna Arricale](person:giovanna-arricale) at Arienzo, marriage act 35 of that year. The clerk named the bride's mother as *la vivente Pasqua Falco, contadina, domiciliata con la figlia*: alive, a contadina, and living with her daughter. The bride's mother was a Falco. The archive has not found whose daughter she was.",
+          "evidence": [
+            {
+              "href": "person:giovanna-arricale",
+              "why": "Giovanna Arricale: the marriage act of 1872 and her birth act"
+            },
+            {
+              "href": "person:pasqua-falco",
+              "why": "Pasqua Falco"
+            }
+          ]
+        },
+        {
+          "id": "orti-2",
+          "grade": "doc",
+          "text": "Giovanna had been born on 22 December 1848 at ten o'clock, in her father's house on strada Capodiconca: Francesco Arricale, twenty-four, contadino, and Pasqua Falco, twenty-five. The clerks could not agree on her surname: Arricale in the act, Arricola in its margin, where her marriage was later written in, and Arricole elsewhere.",
+          "evidence": [
+            {
+              "href": "person:giovanna-arricale",
+              "why": "Arienzo, Nati 1848, atto 114"
+            },
+            {
+              "href": "/arienzo/",
+              "why": "The spellings"
+            }
+          ]
+        },
+        {
+          "id": "orti-3",
+          "grade": "doc",
+          "text": "He had been born on 10 July 1850 and registered as Carmine Antonio, the son of Raffaele; the later papers write him Carminantonio, as one word. When his son Raffaele was born, at ten at night on 6 April 1873, the act described the father as *Carminantonio Falco di Raffaele, contadino, di anni ventidue, domiciliato in Arienzo via degli Orti*. The household no longer lived on strada Camellara.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-6",
+              "why": "Raffaele's birth extract of 1873, copied into his marriage file of 1897"
+            }
+          ]
+        },
+        {
+          "id": "orti-4",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "In 1860 Garibaldi crossed and the Kingdom of the Two Sicilies fell; Arienzo became part of the Kingdom of Italy, and a decade of brigandage followed in these hills. From the 1870s the town's death acts begin to give a house number as well as a street. Three of the doors on via Orticelli, numbers 6, 8 and 10, turned out to be this line, three generations of it.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/rule/",
+              "why": "Under Whose Rule"
+            },
+            {
+              "kind": "archive",
+              "href": "/lines/",
+              "why": "The via Orticelli doors"
+            }
+          ]
+        },
+        {
+          "id": "orti-5",
+          "grade": "doc",
+          "text": "Their first daughter, Angela Rosa, was born in January 1878 and died on 6 February 1879, a year old, in the house at number 6, via Orticelli, where her grandparents would die the following year. A second Angela Rosa was born about 1880. In August 1902 the banns for her marriage named her *Falco Angela Rosa, di anni ventidue, contadina, figlia di Carminantonio … e di Arricale Giovanna*, and she married Francesco Esposito, twenty-six, a colono of San Felice a Cancello.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-5",
+              "why": "The banns of August 1902"
+            },
+            {
+              "href": "/households/",
+              "why": "Arienzo, Morti 1879, act 9"
+            }
+          ]
+        },
+        {
+          "id": "orti-6",
+          "grade": "lore",
+          "text": "The family's tree adds two more children, Maria Giuseppa in 1875 and Giuseppe in 1883, and gives them the same day and month, 19 March, eight years apart. No act has been read for either, and the archive notes the coincidence as a caution.",
+          "evidence": [
+            {
+              "href": "/households/",
+              "why": "Tree-only rows, with the caution"
+            }
+          ]
+        },
+        {
+          "id": "orti-7",
+          "grade": "doc",
+          "text": "The clerks made Carminantonio forty-six in 1897 and fifty-five in 1902: nine years of ageing in five, with his birth of 1850 between them. No paper in the archive records his death, or Giovanna's.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-5",
+              "why": "The Spine, generation five"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "gable",
+        "note": "Two of the children are from the family's tree alone, so their outlines are dotted. Raffaele carries the line on.",
+        "thread": "o-raffaele",
+        "rows": [
+          {
+            "kind": "above",
+            "nodes": [
+              {
+                "id": "o-raffaele-up",
+                "name": "Raffaele Falco",
+                "years": "† 1880",
+                "grade": "doc",
+                "person": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill"
+              }
+            ]
+          },
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "o-carmine",
+                "name": "Carminantonio Falco",
+                "years": "1850, contadino",
+                "grade": "doc",
+                "person": "carmine-antonio-falco"
+              },
+              {
+                "id": "o-giovanna",
+                "name": "Giovanna Arricale",
+                "years": "1848",
+                "grade": "doc",
+                "person": "giovanna-arricale"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "o-raffaele",
+                "name": "Raffaele",
+                "years": "1873",
+                "grade": "doc",
+                "person": "raffaele-falco-2"
+              },
+              {
+                "id": "o-mgiuseppa",
+                "name": "Maria Giuseppa",
+                "years": "1875",
+                "grade": "lore"
+              },
+              {
+                "id": "o-angelarosa1",
+                "name": "Angela Rosa",
+                "years": "1878–1879",
+                "grade": "doc"
+              },
+              {
+                "id": "o-angelarosa2",
+                "name": "Angela Rosa",
+                "years": "c. 1880",
+                "grade": "doc"
+              },
+              {
+                "id": "o-giuseppe",
+                "name": "Giuseppe",
+                "years": "1883",
+                "grade": "lore"
+              }
+            ]
+          }
+        ]
+      },
+      "quote": {
+        "label": "1873 · Arienzo",
+        "title": "An address",
+        "text": "Carminantonio Falco di Raffaele, contadino, di anni ventidue, domiciliato in Arienzo via degli Orti",
+        "source": "Birth extract of Raffaele Falco, 1873 act 39, copied into his marriage file of 1897",
+        "hardLimit": "It gives the street and no number, and it does not say when the household left strada Camellara."
+      },
+      "plates": [],
+      "papers": [
+        {
+          "title": "The Spine, generation five",
+          "href": "/direct-line/#gen-5"
+        },
+        {
+          "title": "Carminantonio Falco",
+          "href": "person:carmine-antonio-falco"
+        },
+        {
+          "title": "Giovanna Arricale",
+          "href": "person:giovanna-arricale"
+        },
+        {
+          "title": "The Arricale",
+          "href": "/families/arricale/"
+        },
+        {
+          "title": "Households",
+          "href": "/households/"
+        },
+        {
+          "title": "Where they went",
+          "href": "/lines/"
+        }
+      ]
+    },
+    {
+      "id": "poveri",
+      "numeral": "VI",
+      "title": "«Sono poveri»",
+      "place": "Arienzo · Arpaia · Forchia",
+      "years": "1873–1937",
+      "paragraphs": [
+        {
+          "id": "poveri-1",
+          "grade": "doc",
+          "text": "A certificate dated at Arienzo on 29 August 1897 declared two young people poor: *Falco Raffaele di Carminantonio e Maione Costanza di Aniello … sono poveri*. It is one of six papers in the file for their marriage, with the banns and the groom's own birth extract. [Raffaele Falco](person:raffaele-falco-2) was twenty-four, a farmer; [Costanza Maione](person:constanza-maione) was twenty-one.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-6",
+              "why": "The Spine, generation six: the marriage file of 1897"
+            }
+          ]
+        },
+        {
+          "id": "poveri-2",
+          "register": "world",
+          "worldSource": "history",
+          "text": "A certificate of poverty was the paper that let a couple have the documents for a marriage made out without the usual fees and stamp duty.",
+          "evidence": [
+            {
+              "kind": "history",
+              "href": "#world-H2",
+              "why": "General history of the Italian civil registers"
+            }
+          ],
+          "tbc": "What such a certificate was for is general history, not something this file says."
+        },
+        {
+          "id": "poveri-3",
+          "grade": "doc",
+          "text": "The banns of 26 August named Costanza's parents for the first time: *figlia di Aniello, di anni cinquantasei, contadino, e … di Martone Anna, contadina*, both living at Arienzo. She had been born there on 2 May 1876. The banns were published on 12 and 19 September, and they married at Arienzo on 26 September 1897. The parish has the church wedding too: the index of its marriage book carries *Raphael Falco et Constantia Maione* at folio 153.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-6",
+              "why": "The banns of 26 August 1897"
+            },
+            {
+              "href": "/maione/",
+              "why": "Costanza Maione"
+            },
+            {
+              "href": "/register/",
+              "why": "The register rows of the 1897 file and the parish index"
+            }
+          ]
+        },
+        {
+          "id": "poveri-4",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "In 1880 a Maione household had lived at number 3, via Camellara, near enough that a Falco of the street reported its son's death. The archive claims no kinship between the two Maione: Costanza's father was Aniello, that young man's was Angelo.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/camellara/",
+              "why": "The first house numbers"
+            }
+          ]
+        },
+        {
+          "id": "poveri-5",
+          "grade": "inf",
+          "text": "Then the household moved, and for the first time in this book the line itself leaves Arienzo. On 29 October 1913 a Gerardo Falco was born at Arpaia, four kilometres away across the provincial border; the register's index names his father as Raffaele Falco, and the family's tree makes him Raffaele and Costanza's son. Another son, Raffaele, was born at Arpaia about 1916. When he married at Forchia in October 1937, at twenty-one, the act called him *figlio di Raffaele, residente in Forchia, e di Maione Costanza*. By then his father, at least, lived at Forchia.",
+          "evidence": [
+            {
+              "href": "/maione/",
+              "why": "Costanza Maione's children, Gerardo and Raffaele"
+            },
+            {
+              "href": "/register/",
+              "why": "Gerardo Falco, Arpaia, 1913: the index rows"
+            }
+          ]
+        },
+        {
+          "id": "poveri-6",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "Arpaia and Forchia lie a few kilometres apart in the province of Benevento; Arienzo is in Caserta. The archive reads the three villages as one marriage pool, because the same surnames keep turning up on both sides of the border, and it says so as a pattern, not a proven kinship. Its own view is that the border mattered to archivists and not to the people who lived there.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/valle-caudina/",
+              "why": "The Valle Caudina: one marriage pool, not three villages"
+            }
+          ]
+        },
+        {
+          "id": "poveri-7",
+          "grade": "lore",
+          "text": "The family's tree gives the rest of their children: Giovanna in 1898, Carminantonio in 1901, Anna in 1904, and Giacoma, Aniello and Carmine without dates. Carminantonio is the next chapter, and his own papers bear the tree out.",
+          "evidence": [
+            {
+              "href": "/maione/",
+              "why": "The children the archive can name"
+            }
+          ]
+        },
+        {
+          "id": "poveri-8",
+          "grade": "doc",
+          "text": "No paper in the archive records the death of either Raffaele or Costanza.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-6",
+              "why": "The Spine, generation six"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "field",
+        "note": "Gerardo is drawn dashed: an index names a Raffaele Falco as his father, and the tree makes him this Raffaele's son. The children from the tree alone are dotted.",
+        "thread": "pv-carminantonio",
+        "rows": [
+          {
+            "kind": "above",
+            "nodes": [
+              {
+                "id": "pv-carmine-up",
+                "name": "Carminantonio Falco",
+                "years": "b. 1850",
+                "grade": "doc",
+                "person": "carmine-antonio-falco"
+              }
+            ]
+          },
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "pv-raffaele",
+                "name": "Raffaele Falco",
+                "years": "1873, farmer",
+                "grade": "doc",
+                "person": "raffaele-falco-2"
+              },
+              {
+                "id": "pv-costanza",
+                "name": "Costanza Maione",
+                "years": "1876",
+                "grade": "doc",
+                "person": "constanza-maione"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "pv-giovanna",
+                "name": "Giovanna",
+                "years": "1898",
+                "grade": "lore"
+              },
+              {
+                "id": "pv-carminantonio",
+                "name": "Carminantonio",
+                "years": "1901",
+                "grade": "doc",
+                "person": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann"
+              },
+              {
+                "id": "pv-anna",
+                "name": "Anna",
+                "years": "1904",
+                "grade": "lore"
+              },
+              {
+                "id": "pv-gerardo",
+                "name": "Gerardo",
+                "years": "1913, Arpaia",
+                "grade": "inf"
+              },
+              {
+                "id": "pv-raffaele-jr",
+                "name": "Raffaele",
+                "years": "c. 1916, Arpaia",
+                "grade": "doc"
+              },
+              {
+                "id": "pv-giacoma",
+                "name": "Giacoma",
+                "years": "",
+                "grade": "lore"
+              },
+              {
+                "id": "pv-aniello",
+                "name": "Aniello",
+                "years": "",
+                "grade": "lore"
+              },
+              {
+                "id": "pv-carmine",
+                "name": "Carmine",
+                "years": "",
+                "grade": "lore"
+              }
+            ]
+          }
+        ]
+      },
+      "quote": {
+        "label": "1897 · Arienzo",
+        "title": "A certificate of poverty",
+        "text": "Falco Raffaele di Carminantonio e Maione Costanza di Aniello … sono poveri",
+        "source": "Arienzo, marriage allegati 1897, certificate of 29 August 1897 (FamilySearch, collection 2043630)",
+        "hardLimit": "It says they were poor in 1897. It does not say what they owned or rented, or how they lived."
+      },
+      "plates": [],
+      "papers": [
+        {
+          "title": "The Spine, generation six",
+          "href": "/direct-line/#gen-6"
+        },
+        {
+          "title": "Raffaele Falco",
+          "href": "person:raffaele-falco-2"
+        },
+        {
+          "title": "Costanza Maione",
+          "href": "person:constanza-maione"
+        },
+        {
+          "title": "The Maione",
+          "href": "/maione/"
+        },
+        {
+          "title": "The Valle Caudina",
+          "href": "/valle-caudina/"
+        },
+        {
+          "title": "Journeys",
+          "href": "/journeys/"
+        }
+      ]
+    },
+    {
+      "id": "forchia",
+      "numeral": "VII",
+      "title": "Contrada Case Sparse, number 68",
+      "place": "Forchia · Brisbane",
+      "years": "1897–1988",
+      "paragraphs": [
+        {
+          "id": "forchia-1",
+          "grade": "doc",
+          "text": "At half past eight in the morning on 2 August 1937 a contadino of thirty-six came into the town hall of Forchia to report a death. He was [Carminantonio Falco](person:carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann), and the dead child was his son Aniello, nine months old, who had died that morning in the house at Contrada Case Sparse, number 68. The act names the mother as *Annecchino Filomena, casalinga*. It is the first document this archive found that names [Filomena Annecchino](person:filomena-annecchino-2), and the first Italian address it has for this generation.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-7",
+              "why": "The Spine, generation seven: Forchia, Atti di morte 1937, atto 17"
+            }
+          ]
+        },
+        {
+          "id": "forchia-2",
+          "grade": "doc",
+          "text": "He was born at Arienzo on 11 January 1901, and a passport issued by the Questura of Benevento in 1976 says so: *nato a Arienzo (CE) il 11/1/1901, residente a Forchia (BN)*, one metre seventy tall. Every Falco of this line before him whose trade is known had worked the land, and so did he.",
+          "evidence": [
+            {
+              "href": "/documents/#carminantonio-falco-passport-identity-1976",
+              "why": "His passport, 5 August 1976"
+            }
+          ]
+        },
+        {
+          "id": "forchia-3",
+          "grade": "inf",
+          "text": "Filomena was born at Forchia on 10 April 1897, by her own passport of 1972, the first Italian official paper this archive holds that gives her birth. Her birth act has never been found; the online registers hold no Forchia births for 1897 at all. Her Queensland death registration names her father as Carmine Annecchino, and the archive places her in the household of Carmine Annecchino and Maria Carfora at Forchia, whose eight other children were born between 1883 and 1901, with room for her between 1894 and 1901. That placing is inference.",
+          "evidence": [
+            {
+              "href": "/valle-caudina/",
+              "why": "The Forchia household, and why it is inferred"
+            },
+            {
+              "href": "/documents/#filomena-annecchino-passport-identity-1972",
+              "why": "Her passport, July 1972"
+            },
+            {
+              "href": "/annecchino/",
+              "why": "The Annecchino"
+            }
+          ]
+        },
+        {
+          "id": "forchia-4",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "Forchia is an Annecchino town: of six hundred and eighty-one Annecchino entries harvested from the Benevento registers, a hundred and seventy-three are there. It takes its name from the Forche Caudine, the Caudine Forks, where a Roman army was made to pass under the yoke in 321 BC.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/valle-caudina/",
+              "why": "Why the family left Arienzo: the Annecchino records"
+            },
+            {
+              "kind": "archive",
+              "href": "/journeys/",
+              "why": "Journeys: Forchia"
+            }
+          ]
+        },
+        {
+          "id": "forchia-5",
+          "grade": "inf",
+          "text": "Within a year of Aniello's death, a girl of five from Forchia, Maria Annunziata Falco, died at ten at night on 31 July 1938 in the Ospedale Pellegrini at Naples. The act names her mother as Annecchino Filomena and her father as *Antonio*, not Carminantonio. The archive enters her as their daughter, probably and not proved. If she was, they buried two children within a year.",
+          "evidence": [
+            {
+              "href": "/annecchino/",
+              "why": "The Annecchino: Maria Annunziata, 1938"
+            },
+            {
+              "href": "/register/",
+              "why": "The register row"
+            }
+          ]
+        },
+        {
+          "id": "forchia-6",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "In 1943 the Allies landed at Salerno and the front ran through Campania. No paper in the archive says what the war years were at Forchia.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/rule/",
+              "why": "What the town was living through"
+            }
+          ]
+        },
+        {
+          "id": "forchia-7",
+          "grade": "doc",
+          "text": "Two of their sons, Raffaele, born in 1925, and Carmine, born in 1930, married two Zampiello sisters of Arpaia, Caterina and Francesca. Both couples went to Brisbane, and both have immigration files in the National Archives there.",
+          "evidence": [
+            {
+              "href": "/australia/",
+              "why": "Australia: two brothers married two sisters"
+            }
+          ]
+        },
+        {
+          "id": "forchia-8",
+          "grade": "inf",
+          "text": "Carminantonio and Filomena followed their sons late in life. The passenger index has Filomena arriving on 5 February 1968 and Carminantonio on 19 May 1969, identified on the forename and the date with the images not yet pulled. Their passports are firmer. Filomena landed at Sydney on 24 July 1972 on a two-month visitor's visa and was allowed to stay at Brisbane into 1973, and both landed at Sydney on 26 August 1978 on six-month visas that forbade them to work. Her passport of 1972 and his of 1976 give their home as Forchia.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-7",
+              "why": "The arrivals, and the passports read page by page"
+            }
+          ]
+        },
+        {
+          "id": "forchia-9",
+          "grade": "doc",
+          "text": "They are buried side by side at Nudgee Cemetery in Brisbane, in the niches B1 and B2 of chapel 82. Filomena died on 10 August 1988. When Carminantonio died, the papers do not agree. The cemetery register gives 27 April 1985; the family's tree and the family's memory give 27 April 1988, the same day and month. The archive's own pages carry both, and this book does not choose.",
+          "evidence": [
+            {
+              "href": "/graves/",
+              "why": "Graves: chapel 082"
+            },
+            {
+              "href": "/direct-line/#gen-7",
+              "why": "The Spine's note on the year"
+            }
+          ],
+          "tbc": "His year of death: 1985 in the Nudgee register, 1988 in the family's tree and memory."
+        }
+      ],
+      "tree": {
+        "glyph": "gable",
+        "note": "Maria Annunziata is dashed because her act names her father Antonio; Raffaele is dashed because his parents come from the tree and the family files, not his birth act. Costanza is from the tree alone.",
+        "thread": "f-carmine",
+        "rows": [
+          {
+            "kind": "above",
+            "nodes": [
+              {
+                "id": "f-raffaele-up",
+                "name": "Raffaele Falco",
+                "years": "b. 1873",
+                "grade": "doc",
+                "person": "raffaele-falco-2"
+              }
+            ]
+          },
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "f-carminantonio",
+                "name": "Carminantonio Falco",
+                "years": "1901–1985 or 1988",
+                "grade": "doc",
+                "person": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann"
+              },
+              {
+                "id": "f-filomena",
+                "name": "Filomena Annecchino",
+                "years": "1897–1988",
+                "grade": "doc",
+                "person": "filomena-annecchino-2"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "f-raffaele",
+                "name": "Raffaele",
+                "years": "1925–1988",
+                "grade": "inf"
+              },
+              {
+                "id": "f-carmine",
+                "name": "Carmine",
+                "years": "1930–2026",
+                "grade": "doc",
+                "person": "carmine-falco-of-carmine-antonio-falco-filomena-ann"
+              },
+              {
+                "id": "f-mannunziata",
+                "name": "Maria Annunziata",
+                "years": "c. 1933–1938",
+                "grade": "inf"
+              },
+              {
+                "id": "f-aniello",
+                "name": "Aniello",
+                "years": "1936–1937",
+                "grade": "doc"
+              },
+              {
+                "id": "f-costanza",
+                "name": "Costanza",
+                "years": "",
+                "grade": "lore"
+              }
+            ]
+          }
+        ]
+      },
+      "quote": {
+        "label": "1937 · Forchia",
+        "title": "The father reports a death",
+        "text": "è morto FALCO ANIELLO, di mesi nove … da CARMINANTONIO, contadino, … e da ANNECCHINO FILOMENA, casalinga",
+        "source": "Forchia, Atti di morte 1937, atto 17, 2 August 1937 (Archivio di Stato di Benevento, via Antenati)",
+        "hardLimit": "It is the first paper to name Filomena, and it says nothing of when or where she and Carminantonio married. That act has not been found."
+      },
+      "plates": [
+        "carminantonio-falco-passport-identity-1976",
+        "filomena-annecchino-passport-identity-1972"
+      ],
+      "papers": [
+        {
+          "title": "The Spine, generation seven",
+          "href": "/direct-line/#gen-7"
+        },
+        {
+          "title": "Carminantonio Falco",
+          "href": "person:carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann"
+        },
+        {
+          "title": "Filomena Annecchino",
+          "href": "person:filomena-annecchino-2"
+        },
+        {
+          "title": "The Annecchino",
+          "href": "/annecchino/"
+        },
+        {
+          "title": "The Valle Caudina",
+          "href": "/valle-caudina/"
+        },
+        {
+          "title": "Graves",
+          "href": "/graves/"
+        },
+        {
+          "title": "His passport",
+          "href": "/documents/#carminantonio-falco-passport-identity-1976"
+        },
+        {
+          "title": "Her passport",
+          "href": "/documents/#filomena-annecchino-passport-identity-1972"
+        }
+      ]
+    },
+    {
+      "id": "brisbane",
+      "numeral": "VIII",
+      "title": "A ladder in the cane",
+      "place": "Forchia · Arpaia · Brisbane",
+      "years": "1930–2026",
+      "paragraphs": [
+        {
+          "id": "brisbane-1",
+          "grade": "lore",
+          "text": "The photograph is creased and torn. A man in shorts and a work shirt stands barefoot on a ladder with a great bundle of cane stalks on his shoulder, above a stack of more. The family gives it as [Carmine Falco](person:carmine-falco-of-carmine-antonio-falco-filomena-ann) cutting sugar cane in North Queensland in his first years in Australia, and remembers him as an enormously hard worker. Nothing on the print gives a date or a place.",
+          "evidence": [
+            {
+              "href": "/documents/#carmine-falco-cutting-cane-north-queensland",
+              "why": "The photograph, and the family's identification"
+            }
+          ]
+        },
+        {
+          "id": "brisbane-2",
+          "grade": "doc",
+          "text": "He was born at Forchia on 8 June 1930. The army's register at Benevento holds a card for him, *Falco Carmine*, born at Forchia, class of 1930, matricola 65604. It does not say whether he served.",
+          "evidence": [
+            {
+              "href": "/documents/#asbn-ruoli-matricolari-falco-carmine-1930",
+              "why": "The ruoli matricolari card"
+            }
+          ]
+        },
+        {
+          "id": "brisbane-3",
+          "grade": "doc",
+          "text": "On 15 January 1955 he married [Francesca Zampiello](person:francesca-zampiello) at Arpaia, her own town; the comune's extract of marriage act number 1 gives his birth as 8 June 1930 and hers as 27 April 1928. His brother Raffaele married her sister Caterina. Her father, Angelo Zampiello, had gone to East Africa in the campaign that began in 1935 as a workman, an *operaio*, and been given the Croce al Merito di Guerra for it.",
+          "evidence": [
+            {
+              "href": "/documents/#falco-zampiello-marriage-extract-arpaia-1955",
+              "why": "The marriage extract, Arpaia"
+            },
+            {
+              "href": "/zampiello/",
+              "why": "The Zampiello, and Angelo's certificate"
+            }
+          ]
+        },
+        {
+          "id": "brisbane-4",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "Zampiello is one of the rarest names in this archive: about 123 people bear it in the world, and every Zampiello record recovered from the Benevento registers is at Arpaia. The archive notes that Maione, Crisci, De Lucia and Cimmino appear among the in-laws of both families a century before 1955, and calls it a pattern, not a conclusion.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/zampiello/",
+              "why": "The Zampiello: an Arpaia name"
+            }
+          ]
+        },
+        {
+          "id": "brisbane-5",
+          "grade": "inf",
+          "text": "When he first went to Australia is not settled. The National Archives' passenger index holds exactly two arrivals for a Carmine Falco. One is a man alone on the *Castel Bianco*, which reached Fremantle on 7 November 1956 from Genoa; he had embarked at Naples and was bound for Sydney, and the list has no column for age or birthplace, so it can neither confirm him nor rule him out. A newspaper report of the couple's golden wedding, kept by the family, says that he emigrated in 1956 and that Francesca followed two years later, and a Francesca Falco is on the *Neptunia* in March 1958, bound for an address in Spring Hill, Brisbane; that list has no age either. The archive's simplest reading is that she came in 1958 and that the voyage of 1964 was a return from Italy. The lists do not say so.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-8",
+              "why": "The Spine, generation eight: the two arrivals and the 1958 list"
+            },
+            {
+              "href": "/documents/#castel-bianco-1956-carmine-falco-line-794",
+              "why": "The Castel Bianco, line 794"
+            },
+            {
+              "href": "/documents/#neptunia-1958-francesca-falco-line-278",
+              "why": "The Neptunia, line 278"
+            }
+          ]
+        },
+        {
+          "id": "brisbane-6",
+          "grade": "doc",
+          "text": "The second arrival is firm. The *Sydney* of the Lauro Lines, out of Naples, made its first Australian port on 26 March 1964 with Carmine and Francesca Falco at lines 492 and 493 of the Quarantine Service list, bound for Brisbane and an address at 43 Mount Joy, Petrie Terrace, given the September before. Their immigration file at Brisbane runs from 1957 to 1977.",
+          "evidence": [
+            {
+              "href": "/australia/",
+              "why": "Australia: the voyage of 1964, and the files"
+            },
+            {
+              "href": "/documents/#sydney-1964-carmine-francesca-falco-lines-492-493",
+              "why": "The list, lines 492 and 493"
+            }
+          ]
+        },
+        {
+          "id": "brisbane-7",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "The *Sydney* and her sister the *Roma* were Flotta Lauro liners, put on the run from Europe to Australia in 1951 and carrying eight hundred passengers from Genoa, Naples and Messina. In these years an agreement between the Australian and Italian governments assisted Italian migrants with their passage.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/australia/",
+              "why": "The ship, and the Assisted Migration Agreement"
+            }
+          ]
+        },
+        {
+          "id": "brisbane-8",
+          "register": "world",
+          "worldSource": "history",
+          "text": "In the 1950s many newly arrived Italian men in Queensland took seasonal work cutting sugar cane by hand in the north of the state.",
+          "evidence": [
+            {
+              "kind": "history",
+              "href": "#world-H3",
+              "why": "General history of Italian migration to Queensland"
+            }
+          ],
+          "tbc": "A general account of the cane fields, not a document about this man."
+        },
+        {
+          "id": "brisbane-9",
+          "grade": "lore",
+          "text": "He became a builder. The family remembers that he spent a great deal of his time at Spring Hill, in inner Brisbane, and the golden-wedding report calls him *a retired builder*.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-8",
+              "why": "Family knowledge, given 27 September 2026, and the report of 2005"
+            }
+          ]
+        },
+        {
+          "id": "brisbane-10",
+          "grade": "doc",
+          "text": "In January 2005 they marked fifty years married with a Mass at Holy Cross. The family kept the newspaper photograph of the two of them cutting the cake, the report beside it and the Italian-language parish notice. Francesca died at Brisbane on 10 September 2022 and is buried at Nudgee.",
+          "evidence": [
+            {
+              "href": "/documents/#falco-50th-anniversary-news-text-2005",
+              "why": "The report, 2005"
+            },
+            {
+              "href": "/graves/",
+              "why": "Graves: V-0949"
+            }
+          ]
+        },
+        {
+          "id": "brisbane-11",
+          "grade": "lore",
+          "text": "Carmine Falco died in 2026. The year is the family's; no death record has been read for him, and none is claimed.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-8",
+              "why": "Family knowledge, given 10 September 2026"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "ship",
+        "note": "Their three children are living, and are drawn filled with no dates: their daughter by her first name, who carries the line on, and her two brothers as living.",
+        "thread": "b-giuseppina",
+        "rows": [
+          {
+            "kind": "above",
+            "nodes": [
+              {
+                "id": "b-carminantonio",
+                "name": "Carminantonio Falco",
+                "years": "b. 1901",
+                "grade": "doc",
+                "person": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann"
+              }
+            ]
+          },
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "b-carmine",
+                "name": "Carmine Falco",
+                "years": "1930–2026, builder",
+                "grade": "doc",
+                "person": "carmine-falco-of-carmine-antonio-falco-filomena-ann"
+              },
+              {
+                "id": "b-francesca",
+                "name": "Francesca Zampiello",
+                "years": "1928–2022",
+                "grade": "doc",
+                "person": "francesca-zampiello"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "b-giuseppina",
+                "name": "Giuseppina",
+                "living": true
+              },
+              {
+                "id": "b-son1",
+                "name": "living",
+                "living": true
+              },
+              {
+                "id": "b-son2",
+                "name": "living",
+                "living": true
+              }
+            ]
+          }
+        ]
+      },
+      "quote": {
+        "label": "2005 · Brisbane",
+        "title": "The family's own account",
+        "text": "Mr Falco, a retired builder, emigrated to Australia in 1956",
+        "source": "Newspaper report of the golden wedding, January 2005; family papers",
+        "hardLimit": "It is the family speaking fifty years later. The one list of 1956 that agrees with it has no age, so it cannot prove the man."
+      },
+      "plates": [
+        "carmine-falco-cutting-cane-north-queensland",
+        "falco-zampiello-marriage-extract-arpaia-1955"
+      ],
+      "papers": [
+        {
+          "title": "The Spine, generation eight",
+          "href": "/direct-line/#gen-8"
+        },
+        {
+          "title": "Carmine Falco",
+          "href": "person:carmine-falco-of-carmine-antonio-falco-filomena-ann"
+        },
+        {
+          "title": "Francesca Zampiello",
+          "href": "person:francesca-zampiello"
+        },
+        {
+          "title": "Australia",
+          "href": "/australia/"
+        },
+        {
+          "title": "The Zampiello",
+          "href": "/zampiello/"
+        },
+        {
+          "title": "Graves",
+          "href": "/graves/"
+        },
+        {
+          "title": "The Castel Bianco, 1956",
+          "href": "/documents/#castel-bianco-1956-carmine-falco-line-794"
+        },
+        {
+          "title": "The Sydney, 1964",
+          "href": "/documents/#sydney-1964-carmine-francesca-falco-lines-492-493"
+        }
+      ]
+    },
+    {
+      "id": "us",
+      "numeral": "IX",
+      "title": "And then it is us",
+      "place": "Benevento · Brisbane",
+      "years": "",
+      "paragraphs": [
+        {
+          "id": "us-1",
+          "grade": "lore",
+          "text": "Carmine and Francesca's daughter [Giuseppina](person:giuseppina-falco) is the ninth generation of this book. She was born at Benevento, in Italy, and married Ian D'Arcy, of Brisbane, Australia. Their daughters are twins, Cristina and Stefanie, both of Brisbane. Cristina married David Defranceski, who keeps these archives, and their two sons, A. and M., carry the line on in Australia.",
+          "evidence": [
+            {
+              "href": "/direct-line/#gen-9",
+              "why": "The Spine, the living generation, as the archive publishes it"
+            }
+          ]
+        },
+        {
+          "id": "us-2",
+          "grade": "doc",
+          "text": "All of them are living, and by this archive's rule the living are named with their relationships and their towns and countries and nothing more; the two youngest, by their initials only.",
+          "evidence": [
+            {
+              "href": "/about/",
+              "why": "About: the living rule"
+            }
+          ]
+        },
+        {
+          "id": "us-3",
+          "grade": "doc",
+          "text": "So the line runs from a man buried in the archpriest's cemetery at Arienzo in 1802 to a city on the far side of the world: strada Camellara, via degli Orti, via Orticelli, Arpaia, Forchia, Brisbane. Papers in Latin, Italian and English. For five generations the line lived at Arienzo; then come Arpaia, Forchia and the ship. And then it is us.",
+          "evidence": [
+            {
+              "href": "/direct-line/",
+              "why": "The Spine"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "gable",
+        "note": "Living people are drawn as filled nodes: the adults by first name, the two youngest by their initials only, with no dates.",
+        "thread": "u-cristina",
+        "rows": [
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "u-giuseppina",
+                "name": "Giuseppina",
+                "living": true
+              },
+              {
+                "id": "u-ian",
+                "name": "Ian",
+                "living": true
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "u-cristina",
+                "name": "Cristina",
+                "living": true
+              },
+              {
+                "id": "u-stefanie",
+                "name": "Stefanie",
+                "living": true
+              }
+            ]
+          },
+          {
+            "kind": "grandchildren",
+            "nodes": [
+              {
+                "id": "u-a",
+                "name": "A.",
+                "living": true,
+                "minor": true
+              },
+              {
+                "id": "u-m",
+                "name": "M.",
+                "living": true,
+                "minor": true
+              }
+            ]
+          }
+        ]
+      },
+      "papers": [
+        {
+          "title": "The Spine, the living generation",
+          "href": "/direct-line/#gen-9"
+        },
+        {
+          "title": "Australia",
+          "href": "/australia/"
+        },
+        {
+          "title": "About this archive",
+          "href": "/about/"
+        }
+      ]
+    }
+  ],
+  "maps": [
+    {
+      "id": "valley",
+      "title": "One valley, two provinces",
+      "chapter": "poveri",
+      "extent": {
+        "west": 14.465,
+        "east": 14.555,
+        "south": 41.0,
+        "north": 41.045,
+        "projection": "equirectangular"
+      },
+      "places": [
+        {
+          "id": "arienzo",
+          "name": "Arienzo",
+          "lat": 41.0243,
+          "lon": 14.4971,
+          "chapter": "matteo",
+          "dx": -10,
+          "dy": -12,
+          "anchor": "end",
+          "note": "the line's town, 1767 to 1913"
+        },
+        {
+          "id": "san-felice",
+          "name": "San Felice a Cancello",
+          "lat": 41.0124,
+          "lon": 14.483,
+          "chapter": "raffaele",
+          "dx": -10,
+          "dy": 16,
+          "anchor": "end",
+          "note": "Angela Rosa Morgillo born, 1818"
+        },
+        {
+          "id": "arpaia",
+          "name": "Arpaia",
+          "lat": 41.03,
+          "lon": 14.53,
+          "chapter": "poveri",
+          "dx": -8,
+          "dy": -16,
+          "anchor": "end",
+          "note": "Gerardo born, 1913; married 1955"
+        },
+        {
+          "id": "forchia",
+          "name": "Forchia",
+          "lat": 41.0302,
+          "lon": 14.5373,
+          "chapter": "forchia",
+          "dx": 10,
+          "dy": 20,
+          "note": "Case Sparse 68, 1937"
+        }
+      ],
+      "legs": [
+        {
+          "from": "san-felice",
+          "to": "arienzo",
+          "grade": "doc",
+          "chapter": "raffaele",
+          "years": "1818 → 1844",
+          "evidence": "/direct-line/#gen-4",
+          "bend": 0.25
+        },
+        {
+          "from": "arienzo",
+          "to": "arpaia",
+          "grade": "inf",
+          "chapter": "poveri",
+          "years": "1897 → 1913",
+          "evidence": "/maione/",
+          "bend": -0.2,
+          "labelOffset": [
+            0,
+            -14
+          ]
+        },
+        {
+          "from": "arpaia",
+          "to": "forchia",
+          "grade": "doc",
+          "chapter": "poveri",
+          "years": "c. 1916 → 1937",
+          "evidence": "/maione/",
+          "bend": 0.6,
+          "labelOffset": [
+            26,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voyage",
+      "title": "To the other side of the world",
+      "chapter": "brisbane",
+      "extent": "world",
+      "places": [
+        {
+          "id": "napoli",
+          "name": "Naples",
+          "lat": 40.85,
+          "lon": 14.27,
+          "chapter": "brisbane",
+          "dx": 8,
+          "dy": -8,
+          "note": "where the ships of 1956 and 1964 were boarded"
+        },
+        {
+          "id": "brisbane",
+          "name": "Brisbane",
+          "lat": -27.469,
+          "lon": 153.0235,
+          "chapter": "brisbane",
+          "dx": -8,
+          "dy": 14,
+          "anchor": "end",
+          "note": "43 Mount Joy, Petrie Terrace, 1964; Nudgee"
+        }
+      ],
+      "legs": [
+        {
+          "from": "napoli",
+          "to": "brisbane",
+          "grade": "doc",
+          "chapter": "brisbane",
+          "years": "1964",
+          "routeKnown": false,
+          "evidence": "/australia/"
+        }
+      ]
+    },
+    {
+      "id": "now",
+      "title": "Out into the world",
+      "chapter": "us",
+      "extent": "world",
+      "places": [
+        {
+          "id": "italy",
+          "name": "Italy",
+          "lat": 41.79,
+          "lon": 12.29,
+          "chapter": "us",
+          "country": true,
+          "living": true,
+          "dx": 8,
+          "dy": -8
+        },
+        {
+          "id": "australia",
+          "name": "Australia",
+          "lat": -28.39,
+          "lon": 134.59,
+          "chapter": "us",
+          "country": true,
+          "living": true,
+          "dx": -8,
+          "dy": 14,
+          "anchor": "end"
+        }
+      ],
+      "legs": [
+        {
+          "from": "italy",
+          "to": "australia",
+          "grade": "lore",
+          "chapter": "us",
+          "living": true,
+          "routeKnown": false,
+          "evidence": "/direct-line/#gen-9"
+        }
+      ]
+    }
+  ],
+  "closing": {
+    "unknown": {
+      "title": "What we do not know",
+      "lead": "Every chapter has its silences. These are the ones a register read act by act, a file ordered from an archive or a certificate asked for by name could break.",
+      "items": [
+        {
+          "text": "**Who Matteo Falco's father was, and where Matteo was born.** His marriage, about 1760 to 1766, would name his father; it is in the parish books of Sant'Andrea or nowhere. His own baptism would fall in the gap in the baptism book between 1738 and 1761.",
+          "href": "/open-questions/"
+        },
+        {
+          "text": "**Whether Francesco Falco of Paolisi is an ancestor.** The baptism register of 1672 to 1738, read properly.",
+          "href": "/open-questions/"
+        },
+        {
+          "text": "**Whether the Mattheo Falco who witnessed a marriage in 1759 is ours.** If he is, the priest's estimate of his age at death is badly wrong.",
+          "href": "/direct-line/#gen-1"
+        },
+        {
+          "text": "**When Andreana Crisci died.** Between May 1875 and April 1880; the Arienzo death registers of 1879 and 1880 have not been read act by act.",
+          "href": "/households/"
+        },
+        {
+          "text": "**When Carminantonio Falco and Giovanna Arricale died, and when Raffaele Falco and Costanza Maione did.** No death of either couple is in the archive.",
+          "href": "/direct-line/#gen-5"
+        },
+        {
+          "text": "**Why the household left Arienzo.** Raffaele and Costanza's sons were born at Arpaia from 1913, and the household was at Forchia by 1937; no paper says why.",
+          "href": "/valle-caudina/"
+        },
+        {
+          "text": "**When and where Carminantonio and Filomena married, and Filomena's own birth act.** The online registers hold no Forchia births for 1897.",
+          "href": "/annecchino/"
+        },
+        {
+          "text": "**Whether Carminantonio died in 1985 or in 1988.** His Queensland death registration would settle it.",
+          "href": "/graves/"
+        },
+        {
+          "text": "**When Carmine Falco first went to Australia.** His immigration file at Brisbane, NAA J25 1971/9830, is unread, and would say whether the man of 1956 was him.",
+          "href": "/australia/"
+        }
+      ]
+    },
+    "papers": {
+      "title": "Read the papers",
+      "lead": "This book is the front door. The evidence is behind it.",
+      "links": [
+        {
+          "title": "The Spine",
+          "href": "/direct-line/",
+          "why": "the nine generations, and the record that joins each to the one above"
+        },
+        {
+          "title": "Households",
+          "href": "/households/",
+          "why": "the reconstructed households, entry by entry"
+        },
+        {
+          "title": "The Processetti",
+          "href": "/processetti/",
+          "why": "the marriage files, and bundle 16 of 1814"
+        },
+        {
+          "title": "Strada Camellara",
+          "href": "/camellara/",
+          "why": "the street, and everyone the registers put on it"
+        },
+        {
+          "title": "Where they went",
+          "href": "/lines/",
+          "why": "one line, and the strands of the name that no record joins"
+        },
+        {
+          "title": "Australia",
+          "href": "/australia/",
+          "why": "the ships, the files and the two brothers"
+        },
+        {
+          "title": "Graves",
+          "href": "/graves/",
+          "why": "Nudgee, and what the plots do and do not prove"
+        },
+        {
+          "title": "Documents",
+          "href": "/documents/",
+          "why": "every plate, with its reference"
+        },
+        {
+          "title": "Open questions",
+          "href": "/open-questions/",
+          "why": "what would settle each one"
+        },
+        {
+          "title": "Corrections",
+          "href": "/corrections/",
+          "why": "what this archive got wrong, and how it knows"
+        }
+      ]
+    },
+    "notes": {
+      "title": "Where the world comes from",
+      "lead": "Passages marked history draw on general history rather than on this archive's own pages; these are the claims, and where they can be checked.",
+      "items": [
+        {
+          "key": "H1",
+          "claim": "The everyday food of a labouring household in the Campanian countryside: bread, beans and other pulses, vegetables and wild greens, oil where it could be had; meat rare and kept for feasts.",
+          "source": "Standard accounts of the southern Italian peasant household; for example the parliamentary inquiry into agriculture of 1877 to 1884 (the Inchiesta Jacini), on Campania."
+        },
+        {
+          "key": "H2",
+          "claim": "In the Kingdom of Italy a couple certified poor could have the papers for their marriage made out without the usual fees and stamp duty.",
+          "source": "Standard Italian administrative history of the civil registers and the exemptions for the poor."
+        },
+        {
+          "key": "H3",
+          "claim": "In the 1950s many newly arrived Italian men in Queensland took seasonal work cutting sugar cane by hand in the north of the state.",
+          "source": "Standard histories of Italian migration to Queensland and of the cane harvest before mechanisation."
+        }
+      ]
+    },
+    "mapNote": "The maps: coastlines and borders from Natural Earth (public domain, naturalearthdata.com), simplified and clipped for this page. Town dots stand at the coordinates of this archive's own gazetteer of its towns, and only where a document puts the family; the two country dots for the living stand at the middle of each country's box in the kit. Countries, not towns, mark the living generations, with no dates. A solid leg has a document at each end; a dashed leg is inferred; a dotted leg is family memory; a route nobody has recorded is listed and not drawn."
+  },
+  "conflicts": [
+    {
+      "chapter": "matteo",
+      "note": "A Mattheo Falco witnessed a marriage at Arienzo in 1759, which the Spine and the timeline take as proof that Matteo was grown by then; his burial of 1802 gives him about fifty-five years, and so about twelve in 1759."
+    },
+    {
+      "chapter": "pasquale",
+      "note": "Chiara Rivetti's birth: her baptism of 14 December 1766 on the Spine; the Arienzo page has her seventeen in 1789, and the family's tree gives 1772."
+    },
+    {
+      "chapter": "pasquale",
+      "note": "The Spine calls the act of 1824 the only record in which Pasquale acts, and the plate calls his signature the only line written by a Falco hand; the household file records that he also signed the notary's act of 8 September 1814."
+    },
+    {
+      "chapter": "vincenzo",
+      "note": "The civil marriage was 15 October 1814 (act 16, read from the image); the timeline on Under Whose Rule says 15 December 1814, and one household row says December."
+    },
+    {
+      "chapter": "poveri",
+      "note": "The Valle Caudina and Lines pages say a marriage moved the family: generation seven's to an Annecchino of Forchia. The registers put generation six's own sons at Arpaia from 1913 and generation six at Forchia by 1937."
+    },
+    {
+      "chapter": "forchia",
+      "note": "Carminantonio's death: 27 April 1985 in the Nudgee cemetery register, and on the Australia and Graves pages; 27 April 1988 on the Spine, from the family's tree and memory."
+    },
+    {
+      "chapter": "brisbane",
+      "note": "The Spine says 26 March 1964 was the ship's first Australian port and that the Brisbane landing date is on no page read; the Australia and Journeys pages say the family arrived at Brisbane that day."
+    }
+  ]
+}

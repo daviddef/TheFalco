@@ -1,0 +1,37 @@
+---
+/* The story of the direct line, told once as a short book: the kit's StoryBook over src/data/story.json.
+   Everything about how it looks and how it is checked is in the kit (kit/docs/story.md, kit/tools/checkfamilystory.py);
+   this page supplies the data, the archive's person addresses and its plates, and nothing else. */
+import Base from "../layouts/Base.astro";
+import StoryBook from "@daviddef/archive-kit/components/StoryBook.astro";
+import book from "../data/story.json";
+import plates from "../data/plates.json";
+import { u } from "../lib/url.js";
+
+const personHref = (slug) => u(`/people/${slug}/`);
+
+/* The plates a chapter names, drawn as plain figures with the archive's own title and citation. The pixel sizes are
+   the files' own, so the page does not shift as they load. */
+const SIZES = {
+  "pascale-falco-signature-1824": [930, 460],
+  "pasquale-falco-death-1834": [1800, 1453],
+  "processetto-1814-cover": [1734, 449],
+  "falco-crisci-banns-1814": [1645, 996],
+  "angela-rosa-morgillo-birth-1818": [1526, 1014],
+  "carminantonio-falco-passport-identity-1976": [584, 542],
+  "filomena-annecchino-passport-identity-1972": [482, 622],
+  "carmine-falco-cutting-cane-north-queensland": [775, 1014],
+  "falco-zampiello-marriage-extract-arpaia-1955": [768, 1024],
+};
+const wanted = new Set(book.chapters.flatMap((c) => c.plates || []));
+const plateIndex = {};
+for (const p of plates) {
+  const id = p.f.replace(/\.[^.]+$/, "");
+  if (!wanted.has(id)) continue;
+  const [w, h] = SIZES[id] || [];
+  plateIndex[id] = { src: `/plates/${p.f}`, w, h, title: p.t, alt: p.t, holder: p.cite || "" };
+}
+---
+<Base title={book.title} eyebrow={book.eyebrow} dek={book.dek}>
+  <StoryBook book={book} personHref={personHref} u={u} plateIndex={plateIndex} />
+</Base>
