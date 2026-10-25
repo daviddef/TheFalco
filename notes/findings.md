@@ -246,10 +246,9 @@ next attempt does not repeat it.
 **Two Falco brothers married two Zampiello sisters.** National Archives of Australia, Brisbane series
 **J25** (naturalisation and immigration case files):
 
-- **J25 1971/9830** — *"Falco, Carmine; wife Francesca [nee Zampiello]; and child Giuseppina [known as
-  Josephine]"*, 1957–1977, item 5115541.
+- **J25 1971/9830** — *"Falco, Carmine; wife Francesca [nee Zampiello]; and a child [living: name withheld]"*, 1957–1977, item 5115541.
 - **J25 1972/4964** — *"Falco, Raffaele [Italian, born 1925]; wife Caterina [nee Zampiello]; and
-  children Filomena and Antonio"*, 1959–1979, item 5054689, **Open**.
+  children [living: names withheld]"*, 1959–1979, item 5054689, **Open**.
 
 Carmine (b. Forchia 1930) and Raffaele (b. 1925) are both sons of Carminantonio & Filomena. This
 **resolves the tree's "birth of son 1925, Benevento"** — that son was Raffaele. Caterina b. 7 Jul 1925
@@ -267,9 +266,8 @@ three files 1939–46 (MP1103/1, MP1103/2, K1174). Kinship untested; Zampiello i
 item **12100311** = **NAA: K269, 26 MAR 1964 SYDNEY**, "Incoming passenger list to Fremantle 'Sydney'
 26 March 1964", **42 pages, digitised** (images need a RecordSearch session).
 
-Four Falcos on the voyage: **Carmine, Francesca, Giuseppina** (aged 8) **and ANTONIO** — a fourth
-person not named in the J25 immigration file, almost certainly the "Anthony Falco" of the family tree
-and Giuseppina's brother. First document to place him.
+Carmine and Francesca are on the voyage. Two further lines of the surname follow them on the sheet; they
+are living people's and are not described here.
 
 The **SS *Sydney*** was a **Flotta Lauro** liner, on the Europe–Australia migrant run from 1951 with her
 sister the ***Roma***, 800 passengers, from Genoa/Naples/Messina. Francesca's sister **Filomena

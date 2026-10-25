@@ -8,7 +8,7 @@ register rows. One of them rewrote a generation; three are now closed with reaso
 > **CORRECTED, two hours later.** Everything below that was announced as new **was already held** — in
 > `data/nudgee-burials.tsv` (all five graves, same plots), `data/qld-bdm.tsv` (all three death
 > registrations with parents transcribed, marked «ours») and `data/naa-records.tsv` (**J25 1972/4964**,
-> «*Falco, Raffaele … wife Caterina [nee Zampiello]; and children Filomena and Antonio*»). Caterina's
+> «*Falco, Raffaele … wife Caterina [nee Zampiello]; and children [living: names withheld]*»). Caterina's
 > descent from Angelo Zampiello, called «not established», is in the harvested tree. **What survives is
 > the location-id trap below, and five memorial ids as a second witness.** See /corrections.
 

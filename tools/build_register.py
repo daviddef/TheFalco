@@ -518,8 +518,17 @@ for r in _tsv("data/falco-parentage.tsv"):
 
 # --- the reconstructed households (already have full pages) ---
 hh = json.load(open("site/src/data/households.json"))
+# A LIVING PERSON GETS NO ROW (see the family-tree block above): a household member whose name belongs to a living person
+# of people.json, and to no dead one, is named on the household page and on their own page, and nowhere in the register.
+# (25 October 2026: Rosina's household row made her a «Name» entry in the search index the day she became living.)
+_pj_all = json.load(open("site/src/data/people.json")) if os.path.exists("site/src/data/people.json") else []
+_bare = lambda n: re.sub(r"\s+", " ", re.sub(r"\s*\(.*?\)\s*", " ", re.sub(r'"[^"]*"', "", n or ""))).strip().lower()
+_dead_names = {_bare(r["name"]) for r in _pj_all if not r.get("living")}
+_living_only = {_bare(r["name"]) for r in _pj_all if r.get("living")} - _dead_names
 for h in hh:
     for m in h["members"]:
+        if _bare(m["person"]) in _living_only:
+            continue
         ark = (m.get("ark") or "").strip()
         link = AN + re.search(r"an_ua\d+", ark).group(0) if "an_ua" in ark else fs(ark)
         add(m["person"], sur(m["person"]),

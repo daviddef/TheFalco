@@ -10,10 +10,10 @@ import records from "../data/records.json";
 const known = new Set(records.records.map((r) => r.id));
 const stem = (f) => f.replace(/\.[^.]+$/, "");
 const naa = [
-  ["J25","1971/9830","Falco, Carmine; wife Francesca [nee Zampiello]; and child Giuseppina [known as Josephine]","1957–1977","5115541"],
-  ["J25","1972/4964","Falco, Raffaele [Italian, born 1925]; wife Caterina [nee Zampiello]; and children Filomena and Antonio","1959–1979","5054689"],
+  ["J25","1971/9830","Falco, Carmine; wife Francesca [nee Zampiello]; and a child [living: name withheld]","1957–1977","5115541"],
+  ["J25","1972/4964","Falco, Raffaele [Italian, born 1925]; wife Caterina [nee Zampiello]; and children [living: names withheld]","1959–1979","5054689"],
   ["J25","1964/1364","Zampiello, Angelo","1964","1692778"],
-  ["J25","1972/5134","Servodio, Angelo Michele; wife Raffaela [nee Zampiello]; and children Maria, Angelo","1960–1976","5072004"],
+  ["J25","1972/5134","Servodio, Angelo Michele; wife Raffaela [nee Zampiello]; and children [living: names withheld]","1960–1976","5072004"],
   ["A2478","MICELI U","MICELI Umberto b. 1934; Filomena (nee Zampiello) b. 24 Aug 1932 — per ship ROMA, 1960","1960","1415472"],
 ];
 const graves = [
@@ -32,8 +32,8 @@ const graves = [
   <p>This is the finding. The National Archives of Australia holds, in its Brisbane office, the
   immigration files of both couples:</p>
   <blockquote>
-    <strong>Falco, Carmine; wife Francesca [nee Zampiello]; and child Giuseppina [known as Josephine]</strong><br/>
-    <strong>Falco, Raffaele [Italian, born 1925]; wife Caterina [nee Zampiello]; and children Filomena and Antonio</strong>
+    <strong>Falco, Carmine; wife Francesca [nee Zampiello]; and a child [living: name withheld]</strong><br/>
+    <strong>Falco, Raffaele [Italian, born 1925]; wife Caterina [nee Zampiello]; and children [living: names withheld]</strong>
   </blockquote>
   <p><strong>Carmine</strong> (born Forchia, 1930) and <strong>Raffaele</strong> (born 1925) were
   brothers — both sons of Carminantonio Falco and Filomena Annecchino. <strong>Francesca</strong> (born
@@ -44,25 +44,21 @@ const graves = [
   the <em>Roma</em> in 1960 with her husband Umberto Miceli under the Australian–Italian Assisted
   Migration Agreement. Their father <P n="Angelo Zampiello" bold={true} /> has a Brisbane file of his own,
   dated 1964.</p>
-  <p class="small">Giuseppina is recorded in her family's own immigration file as
-  <em>"known as Josephine"</em> — the small administrative act by which an Italian child becomes an
-  Australian one.</p>
+  <p class="small">The children in these two files are living. This archive names the living, with their
+  relationships, and nothing more: their names are withheld from the file titles here, as are their dates and
+  every record that is about them alone.</p>
 
   <h2>The voyage, 26 March 1964</h2>
-  <p>The passenger index names <strong>four</strong> Falcos on <Rec id="naa-12100311">one voyage</Rec>:</p>
+  <p>The passenger index names <strong>Carmine and Francesca</strong> on <Rec id="naa-12100311">one voyage</Rec>:</p>
   <div class="scroll"><table>
     <thead><tr><th>Name</th><th>Arrived</th><th>Port</th><th>Ship</th><th>Embarked</th></tr></thead>
     <tbody>
       <tr><td><strong>Falco, Carmine</strong></td><td class="mono">26 Mar 1964</td><td>Brisbane</td><td><em>Sydney</em></td><td>Naples</td></tr>
       <tr><td><strong>Falco, Francesca</strong></td><td class="mono">26 Mar 1964</td><td>Brisbane</td><td><em>Sydney</em></td><td>Naples</td></tr>
-      <tr><td><strong>Falco, Giuseppina</strong></td><td class="mono">26 Mar 1964</td><td>Brisbane</td><td><em>Sydney</em></td><td>Naples</td></tr>
-      <tr><td><strong>Falco, Antonio</strong></td><td class="mono">26 Mar 1964</td><td>Brisbane</td><td><em>Sydney</em></td><td>Naples</td></tr>
     </tbody>
   </table></div>
-  <p>Carmine, Francesca, and their children <strong>Giuseppina</strong> — eight years old — and
-  <strong>Antonio</strong>. Antonio does not appear in the immigration file, which names only Giuseppina;
-  he is almost certainly the Anthony Falco of the family record, and this is the first document to place
-  him on the voyage.</p>
+  <p>Two further lines of the surname follow Francesca's on the same sheet. They are living people's, so they
+  are not printed or described here: this archive names the living and nothing more.</p>
   <p>The <strong><em>Sydney</em></strong> was a <strong>Flotta Lauro</strong> liner, put on the
   Europe–Australia migrant run in 1951 together with her sister the <em>Roma</em>, carrying 800
   passengers from Genoa, Naples and Messina. A contemporary account has the pair setting
@@ -78,11 +74,9 @@ const graves = [
   <blockquote class="mono" style="font-size:14px">
     492 &nbsp; FALCO &nbsp; Carmine &nbsp;&nbsp; Tour. &nbsp; Naples &nbsp; <strong>Brisbane</strong>
     &nbsp; 43 Mount Joy – Pitrie T.ce – Brisbane &nbsp; 2.9.63<br/>
-    493 &nbsp; FALCO &nbsp; Francesca &nbsp; " &nbsp; " &nbsp; " &nbsp; " &nbsp; "<br/>
-    494 &nbsp; FALCO &nbsp; Giuseppina<br/>
-    495 &nbsp; FALCO &nbsp; Antonio
+    493 &nbsp; FALCO &nbsp; Francesca &nbsp; " &nbsp; " &nbsp; " &nbsp; " &nbsp; "
   </blockquote>
-  <p>So the family <strong>sailed from Naples and landed at Brisbane</strong>, and the address they
+  <p>So Carmine and Francesca <strong>sailed from Naples and landed at Brisbane</strong>, and the address they
   gave was <strong>43 Mount Joy, Petrie Terrace, Brisbane</strong> — notified on
   <strong>2 September 1963</strong>, nearly seven months before they sailed. The head of the sheet
   gives the ship as the <em>Sydney</em>, official number 668, Lauro Lines, master
@@ -154,7 +148,7 @@ const graves = [
     <span class="mono">J25, 1971/9830</span> and <span class="mono">J25, 1972/4964</span> can be
     requested; 1972/4964 is already marked <em>Open</em>.</li>
     <li><strong>Read the 42 digitised pages</strong> of <span class="mono"><Rec id="naa-12100311">NAA: K269, 26 MAR 1964
-    SYDNEY</Rec></span> to find the family's own line — age, occupation, and intended address in Australia.</li>
+    SYDNEY</Rec></span> to find the parents' own lines — occupation and intended address in Australia.</li>
     <li><strong>Angelo Zampiello's 1964 Brisbane file</strong> may settle whether he emigrated or was
     merely sponsored — and may carry his Abyssinia service.</li>
     <li><P n="Giovanni Zampiello" bold={true} />, born 1 December 1911, appears in three files as an Italian

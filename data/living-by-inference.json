@@ -4,6 +4,7 @@
  "rule": "An undated person with no recorded death and no public source is treated as living when their NEAREST DATED ANCESTOR (their parents first, then grandparents, then great-grandparents, up to 3 generations, both lines) was born in year Y, g generations up, and Y + 20*g is 1946 or later, that is, 80 or younger in 2026; when several ancestors tie for nearest, the latest Y counts. An undated spouse of a person so treated is treated as living too. Only David can rule a person dead: ids he rules dead go in 'overridden'. 'byHand' lists people David asked to include although the estimate falls just short (an estimate of 1941 or 1945).",
  "ids": [
   4000027,
+  4000088,
   4000101,
   4000102,
   4000103,
@@ -48,6 +49,7 @@
   4513002
  ],
  "byHand": [
+  4000088,
   4000223,
   4000224,
   4000225,
@@ -56,5 +58,8 @@
   4509251,
   4509252
  ],
- "overridden": []
+ "overridden": [],
+ "handNotes": {
+  "4000088": "Undated. The family tree marks this person alive and no death or burial is recorded anywhere in the archive's data; the household file said LIVING while people.json said not. Treated as living under the rule 'no death recorded' (25 October 2026)."
+ }
 }

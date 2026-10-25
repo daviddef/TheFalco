@@ -1,11 +1,11 @@
 {
 "v": 1,
 "alg": "HMAC-SHA256/128, key not in this repository",
-"made": "2026-10-17",
+"made": "2026-10-25",
 "keycheck": "3e21bd633b3808dd9c2c369fcd8c4bfd",
 "seal": {
-"livingSet": "3c0dedd2d43eb2f16cb64a8d89f72118b5cc39b8e7dd3ddf1f07593afe6ae081",
-"living": 51,
+"livingSet": "680724fd250d1fcf81d1750336cabf42779b278e0fbd691d52d7ad03d8fd3911",
+"living": 52,
 "heldOut": 40
 },
 "counts": {
