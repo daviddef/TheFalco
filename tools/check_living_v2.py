@@ -14,7 +14,11 @@ WHAT IT ENFORCES, against the BUILT SITE and the committed data:
      search index, has no structured data, no table, no image and no year of
      their own, and a living person drawn on another page carries no year there;
   d  a held-out person (undated, with a living parent) appears nowhere: no page, no data file,
-     no tsv, no built file, no served file;
+     no tsv, no built file, no served file. SINCE 25 OCTOBER 2026 THAT INCLUDES EVERY POSSIBLE MINOR
+     (see possible_minor below): a person with no death recorded who is born 18 years ago or less, or is
+     undated with a parent born 1975 or later, is computed from the tree HERE, by code that shares nothing
+     with tools/living_v2.py, and must have no page and no name anywhere, even though the kit's own rule
+     (which David's 16 October ruling shaped) lets a child with a known birth year be named;
   e  every person the archive names has a person page: every edge, every chart
      node, every roster and family row that names a tree person links to a page
      that was built;
@@ -67,6 +71,24 @@ LIVING_KEYS = {"slug", "name", "surname", "household", "role", "events", "source
                "gen", "line", "noKin"}
 LINE_KEYS = {"gen", "name", "spouse", "confidence", "living"}
 EDGE_KEYS = {"slug", "name", "via", "vias", "superseded", "sameAs", "kept"}
+
+
+# THE POSSIBLE-MINOR RULE (David, 25 October 2026), written out HERE a second time, apart from tools/living_v2.py, so
+# that the generator and this gate cannot share a mistake. The kit (living_rule.possible_minor) holds out only an
+# undated person with a living parent and names a child whose birth year is known; the kit is not edited from this
+# archive, so the gap is closed in both places and fed to the kit's is_held_out() as held_ids.
+GATE_MINOR_AGE = 18            # born this many years ago or less ...
+GATE_PARENT_BORN_FROM = 1975   # ... or undated with a parent born in this year or later
+
+
+def possible_minor(by, dead, parent_years, this_year=None):
+    """True for a person with no death record who is born (this year - 18) or later, or who has no birth year and a
+    parent born 1975 or later."""
+    if dead:
+        return False
+    if by is not None:
+        return by >= (this_year or THIS_YEAR) - GATE_MINOR_AGE
+    return any(y is not None and y >= GATE_PARENT_BORN_FROM for y in parent_years)
 
 
 def tag(p):
@@ -333,9 +355,14 @@ def recompute(tree, people, line, said=None):
         d["spouses"] = sorted(spouses.get(tid, set()))
         d["living"] = lr.is_living(d["by"], d["dead"], d["cites"], THIS_YEAR, youngest_child_year=d["yc"],
                                    said_living=d["said"], undated_dead=d["flag"])
+    minors = set()
+    for tid, d in info.items():
+        d["minor"] = possible_minor(d["by"], d["dead"], [info[q]["by"] for q in parents.get(tid, []) if q in info])
+        if d["minor"]:
+            minors.add(tid)
     for tid, d in info.items():
         pl = any(info.get(q, {}).get("living") for q in parents.get(tid, []))
-        d["held"] = lr.is_held_out(tid, d["by"], d["dead"], d["cites"], pl, held_ids=(), today_year=THIS_YEAR,
+        d["held"] = lr.is_held_out(tid, d["by"], d["dead"], d["cites"], pl, held_ids=minors, today_year=THIS_YEAR,
                                    youngest_child_year=d["yc"], undated_dead=d["flag"])
     return info, by_rec
 
@@ -453,7 +480,9 @@ def _check(dist, tree_path, tracked, held_scan=True, ages=True):
                 held_names.append(bare_name(t["name"]))
                 if rec:
                     R.fail(f"HELD-OUT PERSON HAS A PAGE: tree id {t['id']} is held out "
-                           "(or promised privacy) and must have no page and no name anywhere")
+                           "(or promised privacy) and must have no page and no name anywhere"
+                           + (" — a POSSIBLE MINOR (born 18 years ago or less, or undated with a parent born 1975 or later)"
+                              if i.get("minor") else ""))
                 continue
             if not rec:
                 R.fail(f"A NAMED PERSON HAS NO PAGE: tree person {t['id']} is neither held out "
@@ -465,6 +494,7 @@ def _check(dist, tree_path, tracked, held_scan=True, ages=True):
                 R.fail(f"WRONG LIVING STATUS: tree id {t['id']} people.json says living={rec.get('living')}, "
                        f"the kit's rule on the tree says {i['living']}")
         R.table["recomputed"] = (n_live, n_held)
+        R.table["minors"] = sum(1 for i_ in info.values() if i_.get("minor"))
         if dec is not None:
             base, _ = recompute(tree, people, line, said=set())
             inferred = infer_living(base)
@@ -783,6 +813,9 @@ def render(R, label=""):
     if "recomputed" in t:
         print("  recomputed from the private tree with the kit's rule: "
               f"{t['recomputed'][0]} living, {t['recomputed'][1]} held out")
+    if "minors" in t:
+        print(f"  possible minors (born 18 years ago or less, or undated with a parent born 1975 or later): {t['minors']} held out, "
+              "none published")
     if "inference" in t:
         a, b, c, d = t["inference"]
         print(f"  decision file (undated people treated as living by inference): the rule infers {a}; "
@@ -1061,23 +1094,78 @@ def selftest(dist):
             return json.dumps(j)
         sb.edit(PJ, fn)
     trial("an undated person with a living parent given a page", held_has_page, "HELD-OUT PERSON HAS A PAGE", need_tree=True)
-    def child_held_out():
+    # ---- possible minors (25 October 2026): not published at all, even with a known birth year
+    def minor_given_page():
         t = json.load(open(TREE, encoding="utf-8"))
         pj = json.load(open(PJ, encoding="utf-8"))
-        info, by_rec = recompute(t, pj, load("line.json"))
-        kids = [tid for tid, v in info.items() if v["by"] and THIS_YEAR - v["by"] < 18 and not v["dead"] and tid in by_rec]
-        if not kids:
-            raise SystemExit("no dated child")
-        slug = by_rec[kids[0]]["slug"]
-        sb.edit(PJ, lambda s_: json.dumps([x for x in json.loads(s_) if x["slug"] != slug]))
-        sb.remove_dir(os.path.join(sb.dist, "people", slug))
+        have = {p.get("treeId") for p in pj}
+        info, _ = recompute(t, pj, load("line.json"))
+        tid = next((k for k, v in info.items() if v["minor"] and v["by"] is not None and k not in have), None)
+        if tid is None:
+            raise SystemExit("no dated minor held out")
+        def fn(s_):
+            j = json.loads(s_)
+            j.append({"slug": "planted-minor", "name": "Planted Minor", "surname": "MINOR", "household": None,
+                      "role": None, "events": [], "sources": ["tree"], "living": True,
+                      "parents": [], "spouses": [], "children": [], "siblings": [], "treeId": tid})
+            return json.dumps(j)
+        sb.edit(PJ, fn)
+    def minors_for_selftest():
+        t = json.load(open(TREE, encoding="utf-8"))
+        info, _ = recompute(t, load("people.json"), load("line.json"))
+        tb = {x["id"]: x for x in t}
+        return [bare_name(tb[k]["name"]) for k, v in info.items() if v["minor"] and v["by"] is not None
+                and len(bare_name(tb[k]["name"]).split()) >= 2]
     if os.path.exists(TREE):
         try:
-            trial("a dated child under 18 wrongly held out (no page)", child_held_out, "A NAMED PERSON HAS NO PAGE", need_tree=True)
-        except SystemExit:
-            results.append(("a dated child under 18 wrongly held out (no page)", False))
+            trial("a dated child under 18 given a page", minor_given_page, "POSSIBLE MINOR", need_tree=True)
+            mn = minors_for_selftest()
+            trial("a dated child under 18 named in a built page",
+                  lambda: sb.edit(pg(D["slug"]), lambda s_: s_.replace("</main>", "<p>%s</p></main>" % mn[0], 1)),
+                  "HELD-OUT PERSON APPEARS", need_tree=True)
+            f2 = os.path.join(sb.root, "planted-minor.json")
+            open(f2, "w").write(json.dumps({"x": "a note naming " + mn[0]}))
+            R2 = check(sb.dist, data_dir=sb.data, tracked=[f2])
+            results.append(("a dated child under 18 named in a committed data file",
+                            any("HELD-OUT PERSON APPEARS" in x for x in R2.fails)))
+        except (SystemExit, IndexError, StopIteration):
+            results.append(("a dated child under 18 given a page, or named", False))
     else:
-        results.append(("a dated child under 18 wrongly held out (no page)", None))
+        for nm_ in ("a dated child under 18 given a page", "a dated child under 18 named in a built page",
+                    "a dated child under 18 named in a committed data file"):
+            results.append((nm_, None))
+    # the rule itself, on a small planted tree (needs no private tree, so it runs in CI too): the cases the kit's rule
+    # leaves out and this gate adds
+    def rule_cases():
+        def person(i, name, b=None, d="", rels=()):
+            return {"id": i, "name": name, "first": name.split()[0], "last": name.split()[-1], "b": b or "", "d": d,
+                    "alive": not d, "relatives": [{"id": q, "rel": r} for q, r in rels]}
+        yr = THIS_YEAR
+        tr = [person(1, "Parent One", "Mar 3 %d" % (yr - 36), rels=[(2, "His son"), (3, "His daughter"), (4, "His son"), (5, "His son")]),
+              person(2, "Kid Dated", "May 5 %d" % (yr - 9), rels=[(1, "His father")]),
+              person(3, "Kid Undated", None, rels=[(1, "Her father")]),
+              person(4, "Teen Edge", "Jun 1 %d" % (yr - 18), rels=[(1, "His father")]),
+              person(5, "Adult Edge", "Jun 1 %d" % (yr - 19), rels=[(1, "His father")]),
+              # an undated child whose parent is born in 1990 but has DIED: the kit sees no living parent and no
+              # window, so only the parent-born-1975 test holds the child out
+              person(6, "Late Parent", "Jan 1 1990", d="Feb 2 2020", rels=[(7, "His son")]),
+              person(7, "Orphan Undated", None, rels=[(6, "Her father")]),
+              person(8, "Old Parent", "Jan 1 1950", d="Feb 2 2000", rels=[(9, "His son")]),
+              person(9, "Elder Undated", None, rels=[(8, "Her father")]),
+              person(10, "Dead Dated Child", "Jan 1 %d" % (yr - 5), d="Feb 2 %d" % (yr - 4), rels=[(1, "His father")])]
+        info, _ = recompute(tr, [], [], said=set())
+        return info
+    try:
+        ri = rule_cases()
+        results.append(("the rule: a dated child (age 9) is held out", ri[2]["held"]))
+        results.append(("the rule: an undated child of a parent born after 1975 is held out", ri[3]["held"]))
+        results.append(("the rule: born exactly 18 years ago is held out", ri[4]["held"]))
+        results.append(("the rule: born 19 years ago is NOT held out (the line is exact)", not ri[5]["held"]))
+        results.append(("the rule: an undated child of a DEAD parent born in 1990 is held out (the kit alone would publish)", ri[7]["held"]))
+        results.append(("the rule: an undated child of a parent born in 1950 is NOT held out", not ri[9]["held"]))
+        results.append(("the rule: a child with a death recorded is not a possible minor", not ri[10]["held"] and not ri[10]["minor"]))
+    except Exception as e:                                  # pragma: no cover
+        results.append(("the rule cases ran (%s)" % type(e).__name__, False))
     # ---- the people treated as living by inference (17 October 2026)
     try:
         dec0 = load_decision()

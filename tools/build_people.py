@@ -37,9 +37,12 @@ the living-people standard, version 2, which David set on 16 October 2026. Who
 is living is NOT decided here: it is the kit's one rule (kit/tools/living_rule.py,
 reached through tools/living_v2.py) — born 80 years ago or less, with no death or
 burial recorded, and no public source. The tree's own `alive` flag, which marks a
-man born in 1832 as alive, is not the test. A child with a KNOWN birth year is
-living like anyone else (a page, noindex, no dates). Only an undated person with a
-living parent is held out: no page, and not named as anybody's relative.
+man born in 1832 as alive, is not the test. A POSSIBLE MINOR is held out: no page,
+and not named as anybody's relative. The kit holds out an undated person with a
+living parent; since David's ruling of 25 October 2026 this archive adds, through
+tools/living_v2.py, a person born 18 years ago or less and an undated person with a
+parent born 1975 or later (the kit's own rule still makes the call: see the HELD OUT
+step below).
 """
 import json, re, collections, os, unicodedata, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -1389,15 +1392,25 @@ for r in people.values():
 #
 # An undated person who might be a child is not published at all — no page, and
 # not named as anyone's relative: not recorded dead, no public source, no birth
-# year, and a living parent. (A child with a known birth year is NOT held out; he
-# or she is living like anyone else.) The kit's rule decides;
+# year, and a living parent. The kit's rule decides;
 # this applies it to the graph that has just been built, so «a living parent» is
 # the parent as the graph records them (tree, register or line).
+#
+# 25 OCTOBER 2026, THE POSSIBLE-MINOR SUPPLEMENT. The kit's rule does not hold out a child whose birth year is known,
+# and David's later ruling is that a possible minor is not published at all. The kit is not edited from here, so
+# tools/living_v2.py says who the extra possible minors are (born 18 years ago or less; or undated with a parent born
+# 1975 or later) and this passes them to the kit's is_held_out as held_ids: the kit still decides, the archive only
+# names the people the kit's rule leaves out.
 _held_slugs, _held_tids = set(), set()
+_minor_tids = set()
+for _s, (_tid, _by, _dead, _cites, _flag) in EVIDENCE.items():
+    _pys = [EVIDENCE[e["slug"]][1] for e in people[_s]["parents"] if e["slug"] in EVIDENCE]
+    if lv.is_possible_minor(_by, _dead, _pys, lv.THIS_YEAR):
+        _minor_tids.add(_tid)
 for _s, (_tid, _by, _dead, _cites, _flag) in EVIDENCE.items():
     _r = people[_s]
     _parent_living = any(people[e["slug"]]["living"] for e in _r["parents"] if e["slug"] in people)
-    if lr.is_held_out(_tid, _by, _dead, _cites, _parent_living, held_ids=(), today_year=lv.THIS_YEAR,
+    if lr.is_held_out(_tid, _by, _dead, _cites, _parent_living, held_ids=_minor_tids, today_year=lv.THIS_YEAR,
                       youngest_child_year=YOUNGEST_CHILD.get(_tid), undated_dead=_flag):
         _held_slugs.add(_s); _held_tids.add(_tid)
 for _s in sorted(_held_slugs):
@@ -1411,7 +1424,7 @@ for _tid in list(slug_of_tree):
 for _r in people.values():
     for _b in ("parents", "spouses", "children", "siblings"):
         _r[_b] = [e for e in _r[_b] if e["slug"] not in _held_slugs]
-print(f"  held out (undated, with a living parent: no page and no name anywhere): {len(_held_slugs)}")
+print(f"  held out (undated with a living parent, or a possible minor: no page and no name anywhere): {len(_held_slugs)} ({len(_minor_tids)} by the 25 October possible-minor supplement)")
 
 # ------------------------------------------------------------- self-check
 #

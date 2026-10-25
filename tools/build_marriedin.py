@@ -3,8 +3,8 @@
 
 A living person (80 or younger with no death recorded — the kit's one rule,
 applied by tools/build_people.py) is named here with their relationships and
-their town and country, and nothing more: no date, no record. An undated person with a living parent
-is held out and appears nowhere. Who is living and who is held out is READ from
+their town and country, and nothing more: no date, no record. A possible minor (undated with a living
+parent, born 18 years ago or less, or undated with a parent born 1975 or later) is held out and appears nowhere. Who is living and who is held out is READ from
 site/src/data/people.json, not decided in this file."""
 import json, re, collections, os
 
@@ -105,8 +105,8 @@ SPOUSE = {"His wife", "Her husband", "His ex-wife", "Her ex-husband",
 # Descent instead:
 #   BLOOD    born Falco, or descended from someone who was. A Falco daughter's
 #            children are Falco by blood whatever surname they carry — which is
-#            how Mia and Rocco Mazza qualify, through their great-grandmother
-#            Giuseppina Falco.
+#            how a Falco daughter's grandchildren qualify, whatever their
+#            surname.
 #   MARRIED  married somebody in BLOOD.
 #   KIN      the blood family a MARRIED person came from — their parents,
 #            siblings and descendants. This is what "the Annecchino" means.

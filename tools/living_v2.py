@@ -41,6 +41,41 @@ def year_of(s):
     return int(m.group(1)) if m else None
 
 
+# ---------------------------------------------------------------- possible minors (David, 25 October 2026)
+#
+# THE KIT'S RULE HAS A GAP THIS FILE CLOSES. kit/tools/living_rule.py holds out only an UNDATED person with a living
+# parent, and says in so many words that a child with a KNOWN birth year follows the ordinary living standard (David's
+# ruling of 16 October). David's ruling of 25 October is the stricter one: a POSSIBLE MINOR IS NOT PUBLISHED AT ALL (no
+# page, no name in any list, no tree node name, not in the search index, no photograph). The kit may not be edited from
+# here, so this archive adds the missing cases ITSELF and hands them to the kit's own is_held_out() through its
+# `held_ids` argument, so the kit still makes the final call and there is one place that says what held out means.
+#
+# A POSSIBLE MINOR, for this archive, with no death recorded:
+#   * born MINOR_YEARS (18) years ago or less: birth year >= this year - 18 (2008 in 2026; the line is a year early
+#     on purpose, as the living line is, so nobody who is still seventeen slips through); or
+#   * undated, with a parent born PARENT_BORN_FROM (1975) or later: the parent's year makes a child under eighteen
+#     possible, and an undated child cannot be shown to be older.
+# (The kit already holds out an undated person with a LIVING parent; this adds the parent-born-1975 case, which also
+# catches a parent who is not themselves in the living window.)
+MINOR_YEARS = 18
+PARENT_BORN_FROM = 1975
+
+
+def minor_cutoff(today_year=None):
+    """Born in this year or later (2008 in 2026) with no death recorded: a possible minor."""
+    return int(today_year or THIS_YEAR) - MINOR_YEARS
+
+
+def is_possible_minor(birth_year, recorded_dead, parent_years=(), today_year=None):
+    """True if this archive's supplement to the kit's rule calls the person a possible minor. `parent_years` are the
+    known birth years of the person's parents (None entries are ignored)."""
+    if recorded_dead:
+        return False
+    if birth_year is not None:
+        return int(birth_year) >= minor_cutoff(today_year)
+    return any(y is not None and int(y) >= PARENT_BORN_FROM for y in parent_years)
+
+
 # ---------------------------------------------------------------- people treated as living by inference
 
 DECISION = os.path.join(ROOT, "data", "living-by-inference.json")

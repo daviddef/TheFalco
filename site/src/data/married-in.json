@@ -2439,149 +2439,6 @@
   }
  },
  {
-  "surname": "Mazza",
-  "n": 9,
-  "withheld": 0,
-  "first": 1875,
-  "last": 2002,
-  "places": [
-   "Piedimonte Etneo",
-   "Brisbane"
-  ],
-  "marriages": [
-   {
-    "who": "Michael Rocco Mazza",
-    "whoSlug": "michael-rocco-mazza",
-    "to": "Stefanie Francesca D'Arcy (Mazza)",
-    "toSlug": "stefanie-francesca-d-arcy",
-    "into": "D'Arcy",
-    "living": true
-   },
-   {
-    "who": "Frank Mazza",
-    "whoSlug": "frank-mazza",
-    "to": "Nancy Arena (Mazza)",
-    "toSlug": "nancy-arena",
-    "into": "Arena",
-    "living": true
-   },
-   {
-    "who": "Angela Mazza (Muller)",
-    "whoSlug": "angela-mazza",
-    "to": "Reinhard Muller",
-    "toSlug": "reinhard-muller",
-    "into": "Muller",
-    "living": true
-   },
-   {
-    "who": "Sebastian Mazza",
-    "whoSlug": "sebastian-mazza",
-    "to": "Domenica Prostamo (Mazza)",
-    "toSlug": "domenica-prostamo",
-    "into": "Prostamo",
-    "living": false
-   },
-   {
-    "who": "Giovanni Mazza",
-    "whoSlug": "giovanni-mazza",
-    "to": "Maria Constanzo (Mazza)",
-    "toSlug": "maria-constanzo",
-    "into": "Constanzo",
-    "living": false
-   }
-  ],
-  "people": [
-   {
-    "name": "Giovanni Mazza",
-    "slug": "giovanni-mazza",
-    "b": "Apr 28 1875",
-    "bp": "Piedimonte Etneo",
-    "d": "Nov 4 1960",
-    "dp": "Piedimonte Etneo"
-   },
-   {
-    "name": "Vincenzo Mazza",
-    "slug": "vincenzo-mazza",
-    "b": "Dec 25 1911",
-    "bp": "",
-    "d": "Oct 14 1962",
-    "dp": ""
-   },
-   {
-    "name": "Sebastian Mazza",
-    "slug": "sebastian-mazza",
-    "b": "1920",
-    "bp": "Piedimonte Etneo",
-    "d": "Apr 2 2002",
-    "dp": "Brisbane"
-   },
-   {
-    "name": "Angela Mazza (Muller)",
-    "slug": "angela-mazza",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": "",
-    "living": true
-   },
-   {
-    "name": "Frank Mazza",
-    "slug": "frank-mazza",
-    "b": "",
-    "bp": "Brisbane, Australia",
-    "d": "",
-    "dp": "",
-    "living": true
-   },
-   {
-    "name": "Mia Giusepina Mazza",
-    "slug": "mia-giusepina-mazza",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": "",
-    "living": true
-   },
-   {
-    "name": "Michael Rocco Mazza",
-    "slug": "michael-rocco-mazza",
-    "b": "",
-    "bp": "Brisbane, Australia",
-    "d": "",
-    "dp": "",
-    "living": true
-   },
-   {
-    "name": "Rocco Mazza",
-    "slug": "rocco-mazza",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": "",
-    "living": true
-   },
-   {
-    "name": "Rosario Mazza",
-    "slug": "rosario-mazza",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
-   }
-  ],
-  "unjoinedBurials": 0,
-  "reach": [
-   "kin",
-   "blood",
-   "married"
-  ],
-  "reachCount": {
-   "married": 1,
-   "kin": 6,
-   "blood": 2
-  }
- },
- {
   "surname": "Annecchino",
   "n": 8,
   "withheld": 0,
@@ -2883,6 +2740,129 @@
   "reachCount": {
    "kin": 7,
    "married": 1
+  }
+ },
+ {
+  "surname": "Mazza",
+  "n": 7,
+  "withheld": 0,
+  "first": 1875,
+  "last": 2002,
+  "places": [
+   "Piedimonte Etneo",
+   "Brisbane"
+  ],
+  "marriages": [
+   {
+    "who": "Michael Rocco Mazza",
+    "whoSlug": "michael-rocco-mazza",
+    "to": "Stefanie Francesca D'Arcy (Mazza)",
+    "toSlug": "stefanie-francesca-d-arcy",
+    "into": "D'Arcy",
+    "living": true
+   },
+   {
+    "who": "Frank Mazza",
+    "whoSlug": "frank-mazza",
+    "to": "Nancy Arena (Mazza)",
+    "toSlug": "nancy-arena",
+    "into": "Arena",
+    "living": true
+   },
+   {
+    "who": "Angela Mazza (Muller)",
+    "whoSlug": "angela-mazza",
+    "to": "Reinhard Muller",
+    "toSlug": "reinhard-muller",
+    "into": "Muller",
+    "living": true
+   },
+   {
+    "who": "Sebastian Mazza",
+    "whoSlug": "sebastian-mazza",
+    "to": "Domenica Prostamo (Mazza)",
+    "toSlug": "domenica-prostamo",
+    "into": "Prostamo",
+    "living": false
+   },
+   {
+    "who": "Giovanni Mazza",
+    "whoSlug": "giovanni-mazza",
+    "to": "Maria Constanzo (Mazza)",
+    "toSlug": "maria-constanzo",
+    "into": "Constanzo",
+    "living": false
+   }
+  ],
+  "people": [
+   {
+    "name": "Giovanni Mazza",
+    "slug": "giovanni-mazza",
+    "b": "Apr 28 1875",
+    "bp": "Piedimonte Etneo",
+    "d": "Nov 4 1960",
+    "dp": "Piedimonte Etneo"
+   },
+   {
+    "name": "Vincenzo Mazza",
+    "slug": "vincenzo-mazza",
+    "b": "Dec 25 1911",
+    "bp": "",
+    "d": "Oct 14 1962",
+    "dp": ""
+   },
+   {
+    "name": "Sebastian Mazza",
+    "slug": "sebastian-mazza",
+    "b": "1920",
+    "bp": "Piedimonte Etneo",
+    "d": "Apr 2 2002",
+    "dp": "Brisbane"
+   },
+   {
+    "name": "Angela Mazza (Muller)",
+    "slug": "angela-mazza",
+    "b": "",
+    "bp": "",
+    "d": "",
+    "dp": "",
+    "living": true
+   },
+   {
+    "name": "Frank Mazza",
+    "slug": "frank-mazza",
+    "b": "",
+    "bp": "Brisbane, Australia",
+    "d": "",
+    "dp": "",
+    "living": true
+   },
+   {
+    "name": "Michael Rocco Mazza",
+    "slug": "michael-rocco-mazza",
+    "b": "",
+    "bp": "Brisbane, Australia",
+    "d": "",
+    "dp": "",
+    "living": true
+   },
+   {
+    "name": "Rosario Mazza",
+    "slug": "rosario-mazza",
+    "b": "",
+    "bp": "",
+    "d": "",
+    "dp": ""
+   }
+  ],
+  "unjoinedBurials": 0,
+  "reach": [
+   "kin",
+   "married"
+  ],
+  "reachCount": {
+   "married": 1,
+   "kin": 6
   }
  },
  {
@@ -3689,53 +3669,6 @@
   }
  },
  {
-  "surname": "Defranceski",
-  "n": 3,
-  "withheld": 0,
-  "first": null,
-  "last": null,
-  "places": [],
-  "marriages": [],
-  "people": [
-   {
-    "name": "Alessio David Defranceski",
-    "slug": "alessio-david-defranceski",
-    "b": "",
-    "bp": "Brisbane, Australia",
-    "d": "",
-    "dp": "",
-    "living": true
-   },
-   {
-    "name": "David Ivan Defranceski",
-    "slug": "david-ivan-defranceski",
-    "b": "",
-    "bp": "Johannesburg, South Africa",
-    "d": "",
-    "dp": "",
-    "living": true
-   },
-   {
-    "name": "Mateo Cristian Defranceski",
-    "slug": "mateo-cristian-defranceski",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": "",
-    "living": true
-   }
-  ],
-  "unjoinedBurials": 0,
-  "reach": [
-   "blood",
-   "married"
-  ],
-  "reachCount": {
-   "married": 1,
-   "blood": 2
-  }
- },
- {
   "surname": "Michieletto",
   "n": 3,
   "withheld": 0,
@@ -4172,58 +4105,11 @@
   }
  },
  {
-  "surname": "Halliday",
-  "n": 2,
-  "withheld": 0,
-  "first": null,
-  "last": null,
-  "places": [],
-  "marriages": [
-   {
-    "who": "Rhys Halliday",
-    "whoSlug": "rhys-halliday",
-    "to": "Carla Falco (Halliday)",
-    "toSlug": "carla-falco",
-    "into": "Falco",
-    "living": true
-   }
-  ],
-  "people": [
-   {
-    "name": "Atlas Antonio Halliday",
-    "slug": "atlas-antonio-halliday",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": "",
-    "living": true
-   },
-   {
-    "name": "Rhys Halliday",
-    "slug": "rhys-halliday",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": "",
-    "living": true
-   }
-  ],
-  "unjoinedBurials": 0,
-  "reach": [
-   "married",
-   "blood"
-  ],
-  "reachCount": {
-   "married": 1,
-   "blood": 1
-  }
- },
- {
   "surname": "Pellone",
   "n": 2,
   "withheld": 0,
-  "first": null,
-  "last": null,
+  "first": 1855,
+  "last": 1855,
   "places": [
    "Arienzo"
   ],
@@ -4247,20 +4133,20 @@
   ],
   "people": [
    {
+    "name": "Giovanna Pellone (Falco)",
+    "slug": "giovanna-pellone-2",
+    "b": "11 Sep 1855",
+    "bp": "Arienzo",
+    "d": "",
+    "dp": "Arienzo"
+   },
+   {
     "name": "Antonio Pellone",
     "slug": "antonio-pellone",
     "b": "",
     "bp": "",
     "d": "",
     "dp": ""
-   },
-   {
-    "name": "Giovanna Pellone (Falco)",
-    "slug": "giovanna-pellone-2",
-    "b": "",
-    "bp": "Arienzo",
-    "d": "",
-    "dp": "Arienzo"
    }
   ],
   "unjoinedBurials": 0,
@@ -4893,6 +4779,33 @@
   }
  },
  {
+  "surname": "Defranceski",
+  "n": 1,
+  "withheld": 0,
+  "first": null,
+  "last": null,
+  "places": [],
+  "marriages": [],
+  "people": [
+   {
+    "name": "David Ivan Defranceski",
+    "slug": "david-ivan-defranceski",
+    "b": "",
+    "bp": "Johannesburg, South Africa",
+    "d": "",
+    "dp": "",
+    "living": true
+   }
+  ],
+  "unjoinedBurials": 0,
+  "reach": [
+   "married"
+  ],
+  "reachCount": {
+   "married": 1
+  }
+ },
+ {
   "surname": "Della Sorca",
   "n": 1,
   "withheld": 0,
@@ -5063,6 +4976,42 @@
   ],
   "reachCount": {
    "unconnected": 1
+  }
+ },
+ {
+  "surname": "Halliday",
+  "n": 1,
+  "withheld": 0,
+  "first": null,
+  "last": null,
+  "places": [],
+  "marriages": [
+   {
+    "who": "Rhys Halliday",
+    "whoSlug": "rhys-halliday",
+    "to": "Carla Falco (Halliday)",
+    "toSlug": "carla-falco",
+    "into": "Falco",
+    "living": true
+   }
+  ],
+  "people": [
+   {
+    "name": "Rhys Halliday",
+    "slug": "rhys-halliday",
+    "b": "",
+    "bp": "",
+    "d": "",
+    "dp": "",
+    "living": true
+   }
+  ],
+  "unjoinedBurials": 0,
+  "reach": [
+   "married"
+  ],
+  "reachCount": {
+   "married": 1
   }
  },
  {

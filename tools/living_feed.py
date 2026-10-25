@@ -175,7 +175,35 @@ def iter_files(dist, extra_dirs=()):
                     yield os.path.join(dp, fn)
 
 
-def scan(files, key, date_macs, name_macs, root):
+def carrier_names(published, key, name_macs):
+    """The PUBLISHED full names that contain a guarded name as a run of their own words («Henry Zelda Quimby» contains
+    the guarded «Zelda Quimby»), as compiled regexes. A guarded name inside one of these is that published person, not
+    the held-out one, so scan() blanks them before it looks. A guarded name standing anywhere else in a file is still
+    found. (The gate that has the tree, check_living_v2, makes the same distinction by name; this is the part CI can
+    do with only the committed people list.)"""
+    out, seen = [], set()
+    for nm in published:
+        toks = norm(nm).split()
+        if not (3 <= len(toks) <= 6) or tuple(toks) in seen:
+            continue
+        seen.add(tuple(toks))
+        n = len(toks)
+        hit = False
+        for i in range(n):
+            for j in range(i + 2, n + 1):
+                if j - i == n:
+                    continue
+                if mac(key, "n", " ".join(toks[i:j])) in name_macs:
+                    hit = True
+                    break
+            if hit:
+                break
+        if hit:
+            out.append(re.compile(r"(?<![A-Za-zÀ-ÿ])" + r"[\s,'’\-]+".join(re.escape(t) for t in toks) + r"(?![A-Za-zÀ-ÿ])", re.I))
+    return out
+
+
+def scan(files, key, date_macs, name_macs, root, carriers=()):
     """Return (files with a guarded date, files with a guarded name, files read)."""
     date_hits, name_hits, n = [], [], 0
     date_cache, name_cache = {}, {}
@@ -185,6 +213,8 @@ def scan(files, key, date_macs, name_macs, root):
         except OSError:
             continue
         n += 1
+        for c in carriers:
+            raw = c.sub(" zzz ", raw)
         flat = TAGS.sub(" ", raw)
         hit_d = False
         for d in iso_dates(flat):
@@ -226,6 +256,15 @@ def selftest(quiet=False):
             open(os.path.join(t, fn), "w").write(body)
         dh, nh, _ = scan([os.path.join(t, f) for f in sorted(os.listdir(t))], key, date_macs, name_macs, t)
     ok = (sorted(dh) == ["date_it.html", "date_us.html"]) and ("name2.html" in nh) and ("clean.html" not in dh + nh)
+    # a guarded name that is a run of words inside a PUBLISHED longer name is that published person, not the held-out one;
+    # the same guarded name standing alone in the same file is still found
+    car = carrier_names(["Henry Zelda Quimby"], key, name_macs)
+    with tempfile.TemporaryDirectory() as t2:
+        for fn, body in (("carried.html", "<p>Henry Zelda Quimby of Brisbane</p>"),
+                         ("both.html", "<p>Henry Zelda Quimby; and Zelda Quimby</p>")):
+            open(os.path.join(t2, fn), "w").write(body)
+        _d, nh2, _ = scan([os.path.join(t2, f) for f in sorted(os.listdir(t2))], key, date_macs, name_macs, t2, car)
+    ok = ok and len(car) == 1 and nh2 == ["both.html"]
     # the family-first, two-cell shape «QUIMBY / Zelda» is found as the reversed variant
     ok = ok and ("name.html" in nh)
     if not quiet:
@@ -395,7 +434,13 @@ def check(dist, require_key=False, tracked=False):
     if tracked:
         extra.append(os.path.join(ROOT, "data"))
     files = list(iter_files(dist, extra))
-    dh, nh, nread = scan(files, key, set(feed["dates"]), set(feed["heldNames"]), ROOT)
+    published = [str(p.get("name", "")).split(" (")[0] for p in people]
+    try:
+        published += [str(r.get("name", "")).split(" (")[0] for r in json.load(io.open(os.path.join(DATA, "register.json"), encoding="utf-8"))]
+    except (OSError, ValueError, AttributeError, TypeError):
+        pass
+    carriers = carrier_names(published, key, set(feed["heldNames"]))
+    dh, nh, nread = scan(files, key, set(feed["dates"]), set(feed["heldNames"]), ROOT, carriers)
     if nread < 1000:
         print("living_feed check: FAIL — only %d file(s) were read under %s; a built archive has thousands." % (nread, dist))
         return 1

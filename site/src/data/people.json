@@ -13250,24 +13250,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "alessio-david-defranceski",
-"name": "Alessio David Defranceski",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "mateo-cristian-defranceski",
-"name": "Mateo Cristian Defranceski",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "stefanie-francesca-d-arcy",
@@ -13367,24 +13350,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "mia-giusepina-mazza",
-"name": "Mia Giusepina Mazza",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rocco-mazza",
-"name": "Rocco Mazza",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "cristina-adele-d-arcy",
@@ -13733,51 +13699,6 @@
 "treeId": 4506209
 },
 {
-"slug": "alessio-david-defranceski",
-"name": "Alessio David Defranceski",
-"surname": "DEFRANCESKI",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "david-ivan-defranceski",
-"name": "David Ivan Defranceski",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "cristina-adele-d-arcy",
-"name": "Cristina Adele D'Arcy (Defranceski)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "mateo-cristian-defranceski",
-"name": "Mateo Cristian Defranceski",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4000003,
-"place": "Brisbane, Australia",
-"rel": "your son"
-},
-{
 "slug": "david-ivan-defranceski",
 "name": "David Ivan Defranceski",
 "surname": "DEFRANCESKI",
@@ -13799,73 +13720,11 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "alessio-david-defranceski",
-"name": "Alessio David Defranceski",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "mateo-cristian-defranceski",
-"name": "Mateo Cristian Defranceski",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [],
 "treeId": 4000001,
 "place": "Johannesburg, South Africa",
 "rel": "you"
-},
-{
-"slug": "mateo-cristian-defranceski",
-"name": "Mateo Cristian Defranceski",
-"surname": "DEFRANCESKI",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "david-ivan-defranceski",
-"name": "David Ivan Defranceski",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "cristina-adele-d-arcy",
-"name": "Cristina Adele D'Arcy (Defranceski)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "alessio-david-defranceski",
-"name": "Alessio David Defranceski",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4505116,
-"place": "",
-"rel": "your son"
 },
 {
 "slug": "teresa-della-m",
@@ -22515,16 +22374,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "atlas-antonio-halliday",
-"name": "Atlas Antonio Halliday",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "anthony-falco-2",
@@ -52633,42 +52483,6 @@
 "noKin": "living"
 },
 {
-"slug": "atlas-antonio-halliday",
-"name": "Atlas Antonio Halliday",
-"surname": "HALLIDAY",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "rhys-halliday",
-"name": "Rhys Halliday",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "carla-falco",
-"name": "Carla Falco (Halliday)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [],
-"treeId": 4512358,
-"place": "",
-"rel": "relative"
-},
-{
 "slug": "rhys-halliday",
 "name": "Rhys Halliday",
 "surname": "HALLIDAY",
@@ -52690,16 +52504,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "atlas-antonio-halliday",
-"name": "Atlas Antonio Halliday",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [],
 "treeId": 4512357,
 "place": "",
@@ -55109,51 +54914,6 @@
 "dp": "Piedimonte Etneo, CT, Italy"
 },
 {
-"slug": "mia-giusepina-mazza",
-"name": "Mia Giusepina Mazza",
-"surname": "MAZZA",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "michael-rocco-mazza",
-"name": "Michael Rocco Mazza",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "stefanie-francesca-d-arcy",
-"name": "Stefanie Francesca D'Arcy (Mazza)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "rocco-mazza",
-"name": "Rocco Mazza",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4504821,
-"place": "",
-"rel": "relative"
-},
-{
 "slug": "michael-rocco-mazza",
 "name": "Michael Rocco Mazza",
 "surname": "MAZZA",
@@ -55192,24 +54952,7 @@
 ]
 }
 ],
-"children": [
-{
-"slug": "mia-giusepina-mazza",
-"name": "Mia Giusepina Mazza",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "rocco-mazza",
-"name": "Rocco Mazza",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
+"children": [],
 "siblings": [
 {
 "slug": "angela-mazza",
@@ -55230,51 +54973,6 @@
 ],
 "treeId": 4503054,
 "place": "Brisbane, Australia",
-"rel": "relative"
-},
-{
-"slug": "rocco-mazza",
-"name": "Rocco Mazza",
-"surname": "MAZZA",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": true,
-"parents": [
-{
-"slug": "michael-rocco-mazza",
-"name": "Michael Rocco Mazza",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "stefanie-francesca-d-arcy",
-"name": "Stefanie Francesca D'Arcy (Mazza)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "mia-giusepina-mazza",
-"name": "Mia Giusepina Mazza",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"treeId": 4505485,
-"place": "",
 "rel": "relative"
 },
 {
