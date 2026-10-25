@@ -198,7 +198,7 @@
    },
    {
     "who": "Maria Falco (Morgillo)",
-    "whoSlug": "maria-falco-of-raffaele-morgillo-maria-falco",
+    "whoSlug": "maria-morgillo",
     "to": "Raffaele Morgillo",
     "toSlug": "raffaele-morgillo-of-raffaele-morgillo-maria-falco",
     "into": "Morgillo",
@@ -560,7 +560,7 @@
    },
    {
     "name": "Maria Falco (Morgillo)",
-    "slug": "maria-falco-of-raffaele-morgillo-maria-falco",
+    "slug": "maria-morgillo",
     "b": "1818",
     "bp": "Arienzo",
     "d": "Oct 3 1871",
@@ -824,7 +824,7 @@
    },
    {
     "name": "Marianna Falco",
-    "slug": "marianna-falco",
+    "slug": "marianna-falco-2",
     "b": "July 25 1851",
     "bp": "Arienzo",
     "d": "",
@@ -3006,7 +3006,7 @@
     "who": "Raffaele Morgillo",
     "whoSlug": "raffaele-morgillo-of-raffaele-morgillo-maria-falco",
     "to": "Maria Falco (Morgillo)",
-    "toSlug": "maria-falco-of-raffaele-morgillo-maria-falco",
+    "toSlug": "maria-morgillo",
     "into": "Falco",
     "living": false
    },

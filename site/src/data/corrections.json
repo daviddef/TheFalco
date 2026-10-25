@@ -4405,5 +4405,16 @@
   "what": "«68 CONSECUTIVE ANNUAL DEATH REGISTERS READ IN FULL, 1809 THROUGH 1883, EVERY YEAR ANTENATI HOLDS» WAS WRONG: IT IS 40 OF 57",
   "was": "Three pages said that **68 consecutive annual death registers** of Arienzo had been **read in full**, **1809 through 1883**, **every year Antenati holds**; one added that the death registers «are finished».",
   "now": "**Forty of the 57 registers Antenati holds (1809–1843 and 1860–1864) have been read act by act.** The claim had three faults: the **«Diversi» series** (45 volumes of recognitions and deaths away from home — a different series) carried the tags *Deaths · read in full* and the range 1812–1865, so every page that derived years from tags counted **17 years it had not read**; those years (1844–1859) were read through their annual indexes, with acts opened for Falco hits; and **Antenati stops at 1865**, so 1866–1883 are FamilySearch's Tribunale copy and a different claim. The «Diversi» row is retagged and the three sentences now say what the rows support. *«Consecutive» and «finished» are gone.*"
+ },
+ {
+  "when": "2026-10-25",
+  "sev": "minor",
+  "where": "/households",
+  "plate": "",
+  "by": "re-opening Carmine Falco's own birth act of 1852",
+  "what": "Carmine Falco and Giovanna Pellone married on 19 August 1875, not 13 August 1878",
+  "was": "A row recorded on 25 October 2026 from a delegated reader's transcription of the margin of Giovanna Pellone's birth act (Nati 1855, act 76) gave her marriage to Carmine Falco as **13 August 1878**. *That page had not been re-opened.*",
+  "now": "**Carmine Falco's own birth act — Arienzo *Nati* 1852, act 9, read at 2,800 px — carries the margin «A 19 agosto 1875 l'uff.le dello stato civ.e d'Arienzo ha posto Carmine Falco con Giovanna Pellone. Caserta 2 agosto 1884».** The row's date is withdrawn in place and the 1875 reading stands; Giovanna Pellone's 1855 margin has still to be re-opened.",
+  "how": "By re-opening the husband's act, which the earlier row had not; a marriage read from both spouses' birth margins is the check that caught it."
  }
 ]
