@@ -101,15 +101,11 @@ def youngest_child_years(tree, child_year):
 
 # ---------------------------------------------------------------- recorded death
 
-def tree_death_recorded(p):
-    """A recorded death or burial, dated or not, in a MyHeritage tree row.
+def tree_death_record(p):
+    """A death RECORD in a MyHeritage tree row: a death date, or a Death or Burial fact (even one with no value).
 
-    The tree's own `alive` flag being false is the tree saying the person has
-    died; a death date; or a Death or Burial fact (even one with no value) all
-    count. Absence of all four is not proof of life, only the lack of a record
-    of death, which is exactly the test the standard sets."""
-    if not p.get("alive"):
-        return True
+    The kit's rule (25 October 2026) separates a record from a bare flag: a person born inside the window is
+    freed only by a record. The tree's `alive: false` alone is a flag (see tree_death_flag)."""
     if str(p.get("d") or "").strip():
         return True
     for f in p.get("facts") or []:
@@ -119,6 +115,20 @@ def tree_death_recorded(p):
         if t.startswith("burial") or t.startswith("funeral") or t.startswith("cremation"):
             return True
     return False
+
+
+def tree_death_flag(p):
+    """The tree says the person has died (`alive` is false) and holds no date, no Death or Burial fact: a bare
+    flag. The kit takes it as the archive's belief, not evidence, for anyone born inside the window, who then
+    stays living; for an older or undated person it still means dead. Pass it as undated_dead=, never as
+    recorded_dead."""
+    return (not p.get("alive")) and not tree_death_record(p)
+
+
+def tree_death_recorded(p):
+    """Any sign in the tree row that the person has died: a record or the bare flag. Kept for callers that
+    only ask whether the tree says dead; the living rule is fed tree_death_record and tree_death_flag apart."""
+    return tree_death_record(p) or tree_death_flag(p)
 
 
 def event_is_death(ev):

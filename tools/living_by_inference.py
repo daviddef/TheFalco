@@ -212,7 +212,7 @@ def worksheet(path):
     # people NOT on the list who are affected or who sit just outside it, so nothing is hidden from David
     listed = set(ids)
     cascade = sorted(t for t, d in after.items() if d["held"] and not base[t]["held"] and t not in listed)
-    pool = sorted(t for t, d in base.items() if d["by"] is None and not d["dead"] and not d["living"]
+    pool = sorted(t for t, d in base.items() if d["by"] is None and not d["dead"] and not d["flag"] and not d["living"]
                   and not d["held"] and not cl.lr.public_source(d["cites"]) and t not in listed
                   and t not in cascade)
 

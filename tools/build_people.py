@@ -942,7 +942,7 @@ print(f"  merged on both parents and an exact date, never on the name: {_joined}
 
 people = {}       # slug -> record
 slug_of_tree = {}
-EVIDENCE = {}     # slug -> (tree id, birth year, death recorded, citations); never written out
+EVIDENCE = {}     # slug -> (tree id, birth year, death RECORDED, citations, bare death flag); never written out
 KNOWN_COUNTRY = lv.learn_countries([x.get("bp") for x in tree] + [x.get("dp") for x in tree])
 
 # THE YOUNGEST CHILD (17 October 2026). The kit's rule treats an UNDATED person with no recorded death and no
@@ -1049,7 +1049,11 @@ for p in tree:
     # The inputs are read off the tree row and the register events the merge has
     # already attached to this record; nothing here decides the age bound.
     _by = lv.year_of(p.get("b"))
-    _dead = lv.tree_death_recorded(p) or any(lv.event_is_death(e.get("event")) for e in r["events"])
+    # A death RECORD (a date, a Death or Burial fact, a register line) is recorded_dead; the tree's bare
+    # `alive: false` and the line's bare `living: false` are FLAGS and go in as undated_dead (the kit, 25 Oct 2026):
+    # for anyone born inside the window a flag frees nobody.
+    _dead = lv.tree_death_record(p) or any(lv.event_is_death(e.get("event")) for e in r["events"])
+    _flag = lv.tree_death_flag(p)
     if _by is None:
         # no tree birth: the register's own birth or baptism year, if a record gave one
         _ys = sorted(lv.year_of(e.get("date")) for e in r["events"]
@@ -1057,12 +1061,14 @@ for p in tree:
                      and lv.year_of(e.get("date")))
         _by = _ys[0] if _ys else None
     _g = spine_tree.get(tid)
-    if _g and (_g.get("living") is False or _g.get("died")):
+    if _g and _g.get("died"):
         _dead = True                       # the archive's own line records the death
+    elif _g and _g.get("living") is False:
+        _flag = True                       # the line says only that the person is no longer living
     _cites = lv.citation_strings(r["events"])
-    EVIDENCE[slug] = (tid, _by, _dead, _cites)
+    EVIDENCE[slug] = (tid, _by, _dead, _cites, _flag)
     r["living"] = bool(lr.is_living(_by, _dead, _cites, lv.THIS_YEAR, youngest_child_year=YOUNGEST_CHILD.get(tid),
-                                    said_living=(tid in SAID_LIVING)))
+                                    said_living=(tid in SAID_LIVING), undated_dead=_flag))
     if r["living"]:
         # a name, the place in the family (the edges, below) and a town and
         # country. Deliberate, and nothing else: no b, d, bp, dp, no events.
@@ -1388,11 +1394,11 @@ for r in people.values():
 # this applies it to the graph that has just been built, so «a living parent» is
 # the parent as the graph records them (tree, register or line).
 _held_slugs, _held_tids = set(), set()
-for _s, (_tid, _by, _dead, _cites) in EVIDENCE.items():
+for _s, (_tid, _by, _dead, _cites, _flag) in EVIDENCE.items():
     _r = people[_s]
     _parent_living = any(people[e["slug"]]["living"] for e in _r["parents"] if e["slug"] in people)
     if lr.is_held_out(_tid, _by, _dead, _cites, _parent_living, held_ids=(), today_year=lv.THIS_YEAR,
-                      youngest_child_year=YOUNGEST_CHILD.get(_tid)):
+                      youngest_child_year=YOUNGEST_CHILD.get(_tid), undated_dead=_flag):
         _held_slugs.add(_s); _held_tids.add(_tid)
 for _s in sorted(_held_slugs):
     if people[_s]["household"] or people[_s]["events"] or people[_s].get("gen"):

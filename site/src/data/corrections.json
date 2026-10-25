@@ -567,7 +567,7 @@
   "when": "2026-09-10",
   "what": "privacy",
   "sev": "major",
-  "was": "GENERATION NINE — living, born 1955 — published with her birth date on her person page; generation eight likewise on the direct-line page",
+  "was": "GENERATION NINE — living — published with her birth date on her person page; generation eight likewise on the direct-line page",
   "now": "Both masked. Living people carry a name and a relationship and nothing else.",
   "how": "The person-graph builder decided redaction using a predicate that excluded ANCESTORS. That belongs in the living-relatives roster, where an ancestor is rightly not a relative — but ancestry has nothing to do with whether someone is alive, and the wife's own mother is both.",
   "why": "It is the exact leak the direct-line page had been fixed for once already. Verified after: no living record carries a date, place or event; no living person's node shows a year.",

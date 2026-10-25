@@ -116,23 +116,24 @@ def tree_year(p):
 
 
 def tree_dead(p):
-    if not p.get("alive"):
-        return True
+    """(record, flag): a death RECORD in the tree row (a date, a Death or Burial fact), and a bare flag
+    (`alive` false with no record). Written here, apart from tools/living_v2.py."""
+    rec = False
     if str(p.get("d") or "").strip():
-        return True
+        rec = True
     for f in p.get("facts") or []:
         t = str(f.get("t") or "").strip().lower()
         if t.startswith("death") and not t.startswith("death of"):
-            return True
+            rec = True
         if t.startswith(("burial", "funeral", "cremation")):
-            return True
-    return False
+            rec = True
+    return rec, (not p.get("alive")) and not rec
 
 
 def record_evidence(rec, line):
     """Death and citations that people.json itself carries for a person (the
     register events merged into them), and the line's own word for a generation."""
-    dead, cites, by = False, [], None
+    dead, flag, cites, by = False, False, [], None
     for e in rec.get("events") or []:
         ev = str(e.get("event") or "").strip().lower()
         for k in ("death", "burial", "buried", "died", "funeral"):
@@ -155,9 +156,11 @@ def record_evidence(rec, line):
                 by = int(m.group(1))
     if rec.get("gen"):
         g = next((x for x in line if x.get("gen") == rec["gen"]), None)
-        if g and (g.get("living") is False or g.get("died")):
+        if g and g.get("died"):
             dead = True
-    return dead, cites, by
+        elif g and g.get("living") is False:
+            flag = True                  # the line says only «no longer living»: a flag, not a record
+    return dead, flag, cites, by
 
 
 def youngest_child_years(tree, info):
@@ -244,7 +247,7 @@ def infer_living(info, this_year=None):
     ty = this_year or THIS_YEAR
     floor = ty - lr.LIVING_YEARS                  # born this year or later is 80 or younger
     pool = {t for t, d in info.items()
-            if d["by"] is None and not d["dead"] and not lr.public_source(d["cites"])
+            if d["by"] is None and not d["dead"] and not d["flag"] and not lr.public_source(d["cites"])
             and not d["living"] and not d["held"]}
     out = {}
     for tid in sorted(pool):
@@ -286,11 +289,12 @@ def recompute(tree, people, line, said=None):
         if is_placeholder(t.get("name")):
             continue
         rec = by_rec.get(t["id"])
-        dead, cites, ry = record_evidence(rec, line) if rec else (False, [], None)
+        dead, flag, cites, ry = record_evidence(rec, line) if rec else (False, False, [], None)
         by = tree_year(t)
         if by is None:
             by = ry
-        info[t["id"]] = {"by": by, "dead": tree_dead(t) or dead, "cites": cites}
+        t_rec, t_flag = tree_dead(t)
+        info[t["id"]] = {"by": by, "dead": t_rec or dead, "flag": (t_flag or flag) and not (t_rec or dead), "cites": cites}
     yc = youngest_child_years(tree, info)
     parents = collections.defaultdict(list)
     spouses = collections.defaultdict(set)
@@ -317,11 +321,11 @@ def recompute(tree, people, line, said=None):
         d["parents"] = sorted(set(parents.get(tid, [])))
         d["spouses"] = sorted(spouses.get(tid, set()))
         d["living"] = lr.is_living(d["by"], d["dead"], d["cites"], THIS_YEAR, youngest_child_year=d["yc"],
-                                   said_living=d["said"])
+                                   said_living=d["said"], undated_dead=d["flag"])
     for tid, d in info.items():
         pl = any(info.get(q, {}).get("living") for q in parents.get(tid, []))
         d["held"] = lr.is_held_out(tid, d["by"], d["dead"], d["cites"], pl, held_ids=(), today_year=THIS_YEAR,
-                                   youngest_child_year=d["yc"])
+                                   youngest_child_year=d["yc"], undated_dead=d["flag"])
     return info, by_rec
 
 
@@ -460,7 +464,7 @@ def _check(dist, tree_path, tracked, held_scan=True):
                            "they are not 'byHand'" % i)
             for i in sorted(dec["byHand"] & treeids):
                 d_ = base.get(i)
-                if d_ is None or d_["by"] is not None or d_["dead"] or lr.public_source(d_["cites"]) \
+                if d_ is None or d_["by"] is not None or d_["dead"] or d_["flag"] or lr.public_source(d_["cites"]) \
                         or d_["living"] or d_["held"]:
                     R.fail("DECISION FILE: 'byHand' tree id %s is not an undated person the kit would publish as dead" % i)
             for i in sorted(set(inferred) - dec["ids"] - dec["overridden"]):

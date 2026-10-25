@@ -1,0 +1,9 @@
+{
+  "about": "Years on or after the living line (born 1946 or later in 2026) that the printed-year gate (kit livingyears.py) reads as a living person's birth and that are not. Each entry has a reason; no death is recorded here that the archive's sources do not give. The gate reads a death only AFTER the year, so a line that gives the death registration before the birth year needs an entry.",
+  "allow": [
+    {
+      "text": "registration 1983/7072 · born 1948",
+      "why": "A death registration line (register row and its /who/ name page): the source records the death, in 1983, and gives the birth year beside it. The person is dead by a death record; the death word comes before the year, which the gate does not read."
+    }
+  ]
+}
