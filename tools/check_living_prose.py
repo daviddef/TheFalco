@@ -103,7 +103,11 @@ TABLE_DIRS_NOT_READ = {"data/antenati-ids"}
 # The JSON fields a living person's line.json entry may carry besides the kit's default (name, relationships,
 # place): the generator keeps exactly these (tools/build_people.py _LINE_KEEP; check_living_v2.py LINE_KEYS).
 # `gen` is the generation number (a relationship), `confidence` how sure the identification is.
-ALLOW_KEYS = "gen,confidence"
+# The story's ribbon card (story.json, the kit's contract) names its living generation by relationship and place in
+# fields of its own: `origin` and `spouseOrigin` are a town and country, `originGrade` the evidence grade of that place,
+# `spouseLiving` a flag and `chapter` the id of the chapter the card links to. Its `years` and `atYear` stay outside the
+# list, so a living card that carries a year still fails here (and in the kit's checkfamilystory.py).
+ALLOW_KEYS = "gen,confidence,origin,originGrade,spouseOrigin,spouseLiving,chapter"
 
 # Prose that is typed outside src/pages and notes/*.md: components and layouts (a sentence can be typed there).
 EXTRA_INCLUDE = ["site/src/components/**/*.astro", "site/src/layouts/**/*.astro"]
