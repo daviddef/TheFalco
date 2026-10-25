@@ -44,7 +44,7 @@ def current_file():
     try:
         return cl.load_decision()
     except ValueError:
-        return {"ids": set(), "byHand": set(), "overridden": set()}
+        return {"ids": set(), "byHand": set(), "overridden": set(), "handNotes": {}}
 
 
 def propose(show=True):
@@ -77,6 +77,8 @@ def write(by_hand):
         "byHand": sorted(hand),
         "overridden": sorted(dec["overridden"]),
     }
+    if dec.get("handNotes"):
+        out["handNotes"] = {k: dec["handNotes"][k] for k in sorted(dec["handNotes"], key=int)}
     with open(cl.DECISION, "w", encoding="utf-8") as f:
         json.dump(out, f, indent=1)
         f.write("\n")

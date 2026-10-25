@@ -18,7 +18,10 @@ WHAT IT ENFORCES, against the BUILT SITE and the committed data:
   e  every person the archive names has a person page: every edge, every chart
      node, every roster and family row that names a tree person links to a page
      that was built;
-  f  it refuses an empty build, and says so when it cannot do a part of its job.
+  f  it refuses an empty build, and says so when it cannot do a part of its job;
+  g  no page, data file or attribute states a living person's AGE («aged 14», «eight years old»), a BIRTH YEAR derived
+     for them («born 1955», «born the same year»), or a PASSENGER record naming them (tools/living_ages.py; 25 October
+     2026): a living person is a name, relationships and a town and country, and no record.
 
 TWO PARTS NEED THE PRIVATE TREE, which is gitignored and so is not on CI: (a) and
 (d). Without it they are reported as NOT RUN, loudly, and the rest still runs. On
@@ -44,6 +47,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KIT_TOOLS = os.path.join(ROOT, "site", "node_modules", "@daviddef", "archive-kit", "kit", "tools")
 sys.path.insert(0, KIT_TOOLS)
 import living_rule as lr          # the one definition; nothing of this archive's own
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import living_ages as la          # a living person's AGE, derived BIRTH YEAR and PASSENGER record (25 October 2026)
 try:
     from outdir import resolve as _resolve
 except Exception:                 # pragma: no cover
@@ -225,6 +230,12 @@ def load_decision(path=None):
         if len(set(v)) != len(v):
             raise ValueError("the decision file's '%s' repeats an id" % k)
         out[k] = set(v)
+    # why a person is 'byHand' when the estimate is not what put them there: tree id (as text) -> a reason, never a name
+    notes = d.get("handNotes", {})
+    if not isinstance(notes, dict) or not all(str(k).isdigit() and isinstance(v, str) and len(v) >= 20
+                                              for k, v in notes.items()):
+        raise ValueError("the decision file's 'handNotes' must map a tree id to a reason of at least 20 characters")
+    out["handNotes"] = {str(k): v for k, v in notes.items()}
     return out
 
 
@@ -344,7 +355,7 @@ class Report:
         self.notes.append(msg)
 
 
-def check(dist, tree_path=TREE, tracked=None, quiet=False, data_dir=None, held_scan=True, decision_path=None):
+def check(dist, tree_path=TREE, tracked=None, quiet=False, data_dir=None, held_scan=True, decision_path=None, ages=True):
     """Run every check against `dist` and return a Report. `tracked` is the
     list of committed files to search for held-out names (default: git's)."""
     global DATA, DECISION
@@ -354,12 +365,12 @@ def check(dist, tree_path=TREE, tracked=None, quiet=False, data_dir=None, held_s
     if decision_path:
         DECISION = decision_path
     try:
-        return _check(dist, tree_path, tracked, held_scan)
+        return _check(dist, tree_path, tracked, held_scan, ages)
     finally:
         DATA, DECISION = keep, keep_d
 
 
-def _check(dist, tree_path, tracked, held_scan=True):
+def _check(dist, tree_path, tracked, held_scan=True, ages=True):
     R = Report()
     if not os.path.isdir(dist):
         R.fail(f"no built site at {dist} — build first")
@@ -414,6 +425,8 @@ def _check(dist, tree_path, tracked, held_scan=True):
         for k in ("byHand", "overridden"):
             for i in sorted(dec[k] - dec["ids"]):
                 R.fail("DECISION FILE: tree id %s is in '%s' but not in 'ids'" % (i, k))
+        for i in sorted(set(dec["handNotes"]) - {str(x) for x in dec["byHand"]}):
+            R.fail("DECISION FILE: 'handNotes' explains tree id %s, who is not 'byHand'" % i)
         # without the private tree this much still holds: whoever the file says is living is living in people.json
         said_recs = {p.get("treeId"): p for p in people if p.get("treeId") is not None}
         for i in sorted(effective_ids(dec)):
@@ -626,12 +639,32 @@ def _check(dist, tree_path, tracked, held_scan=True):
             if href not in live_hrefs:
                 continue
             inner = text_of(m_.group(2))
-            after = text_of(re.split(r"(?is)</(?:p|li|td|tr|div|h\d|article|section)>", m_.group(3))[0])
+            # what follows belongs to this person only up to the next link or the end of the block: in a row of sibling
+            # nodes the next node's dates follow this one's name (25 October 2026: a living sibling listed before a dated one)
+            after = text_of(re.split(r"(?is)<a\b|</(?:p|li|td|tr|div|h\d|article|section)>", m_.group(3))[0])
             near = inner + " " + after[:90]
             if YEAR.search(near) and not re.search(r"(?i)\b(generation|gen\.?)\b", near):
                 leak += 1
                 R.fail(f"A LIVING PERSON WITH A YEAR BESIDE THEM: /{d}/ -> a living person's page")
     R.table["other pages"] = leak
+
+    # ---- c3. a living person's AGE, a birth year DERIVED for them, and a PASSENGER record naming them, on any page
+    #      (tools/living_ages.py; 25 October 2026). The true birth years come from the private tree when it is here.
+    if ages:
+        tyears = {}
+        if tree_ran:
+            for p_ in living:
+                t_ = tbyid.get(p_.get("treeId"))
+                y_ = tree_year(t_) if t_ else None
+                if y_:
+                    tyears[p_["slug"]] = y_
+        try:
+            af, ast = la.scan_dist(dist, people, tyears)
+        except ValueError as e:
+            af, ast = ["LIVING AGES: %s" % e], {}
+        for x in af:
+            R.fail(x)
+        R.table["ages"] = (ast.get("files", 0), ast.get("blocks", 0), len(set(af)), ast.get("allowed", 0), len(tyears))
 
     # ---- c2. who pages: noindex exactly when every bearer is living
     def key(n):
@@ -768,6 +801,11 @@ def render(R, label=""):
               f" ({d} are also a published namesake and cannot be told apart)")
     if "other pages" in t:
         print(f"  a year beside a living name on another page: {t['other pages']}")
+    if "ages" in t:
+        f_, b_, n_, al_, ty_ = t["ages"]
+        print(f"  ages, derived birth years and passenger records of the living: {f_} files, {b_} blocks read, {n_} found, "
+              f"{al_} allowed by site/living-ages-allow.json; "
+              + (f"the tree's own birth years were compared ({ty_})" if ty_ else "no private tree here, so the tree's birth years were not compared"))
     for n in R.notes:
         print("  NOTE", n)
     if R.fails:
@@ -862,6 +900,7 @@ def selftest(dist):
             return
         kw.setdefault("held_scan", bool(need_tree))
         kw.setdefault("decision_path", sb.decision)
+        kw.setdefault("ages", False)               # the ages scan has trials of its own (ages_trials, below)
         try:
             mutate()
             R = check(sb.dist, data_dir=sb.data, **kw)
@@ -1081,6 +1120,92 @@ def selftest(dist):
               "'byHand' tree id", need_tree=True)
     else:
         results.append(("the people treated as living by inference", None))
+    # ---- a living person's AGE, derived BIRTH YEAR and PASSENGER record (tools/living_ages.py; 25 October 2026)
+    def ages_trials():
+        by_slug = {x["slug"]: x for x in people}
+        # a living person with a surname and a parent whose own name is a full name: the shape the real faults had
+        cand = [x for x in living if len(bare_name(x["name"]).split()) >= 2
+                and any(len(bare_name(by_slug[e["slug"]]["name"]).split()) >= 2 for e in x.get("parents", []) if e["slug"] in by_slug)]
+        if not cand:
+            results.append(("a living person's age, birth year and passenger record", None))
+            return
+        X = cand[0]
+        full = bare_name(X["name"])
+        given = full.split()[0]
+        par = bare_name(by_slug[next(e["slug"] for e in X["parents"] if e["slug"] in by_slug
+                                       and len(bare_name(by_slug[e["slug"]]["name"]).split()) >= 2)]["name"])
+        rel_page = "planted-ages.html"
+        planted = os.path.join(sb.dist, rel_page)
+        tyears = {}
+        if os.path.exists(TREE):
+            tt = {t_["id"]: t_ for t_ in json.load(open(TREE, encoding="utf-8"))}
+            for p_ in living:
+                y_ = tree_year(tt.get(p_.get("treeId"), {})) if tt.get(p_.get("treeId")) else None
+                if y_:
+                    tyears[p_["slug"]] = y_
+        yr = la.CUTOFF + 5
+
+        def page(body, head=""):
+            return "<html><head><title>x</title>%s</head><body><main>%s</main></body></html>" % (head, body)
+
+        def ages_trial(name, html_, expect, tree=False, path=rel_page, allow=None):
+            full_path = os.path.join(sb.dist, path)
+            try:
+                os.makedirs(os.path.dirname(full_path), exist_ok=True)
+                open(full_path, "w", encoding="utf-8").write(html_)
+                fails, _ = la.scan_dist(sb.dist, people, tyears if tree else {}, allow=[] if allow is None else allow, only={path})
+            finally:
+                if os.path.exists(full_path):
+                    os.remove(full_path)
+            hit = any(expect in x for x in fails) if expect else (not fails)
+            results.append((name, hit))
+
+        ages_trial("an age (aged 14) beside a living person's full name", page("<p>%s was aged 14 at the time.</p>" % full), "AGE")
+        ages_trial("an age written in words (eight years old) beside a living person's first name, parents named",
+                   page("<p>%s and their child %s, eight years old, came by sea.</p>" % (par, given)), "AGE")
+        ages_trial("an age in a text attribute (data-why)",
+                   page('<div data-why="%s and their child %s was eight."></div>' % (par, given)), "AGE")
+        fj = os.path.join(sb.dist, "planted-ages.json")
+        try:
+            open(fj, "w", encoding="utf-8").write(json.dumps([{"t": "Her daughter %s, aged 9" % full}]))
+            fl, _ = la.scan_dist(sb.dist, people, {}, allow=[], only={"planted-ages.json"})
+        finally:
+            os.remove(fj)
+        results.append(("an age in a JSON string value", any("AGE" in x for x in fl)))
+        ages_trial("an age (14 years old) in JSON-LD", page("", '<script type="application/ld+json">%s</script>'
+                                                           % json.dumps({"description": "%s, 14 years old" % full})), "AGE")
+        ages_trial("a birth year (born %d) beside a living person's name" % yr, page("<p>%s, born %d, of Brisbane.</p>" % (full, yr)), "BORN-YEAR")
+        ages_trial("a birth year (b. %d) written as b." % yr, page("<p>%s (b. %d)</p>" % (full, yr)), "BORN-YEAR")
+        ages_trial("a birth year derived (born the same year)", page("<p>%s and %s: %s is born the same year.</p>" % (par, par, given)), "BORN-YEAR")
+        ages_trial("a passenger-list row in a ship table",
+                   page("<table><thead><tr><th>Name</th><th>Arrived</th><th>Ship</th></tr></thead><tbody>"
+                        "<tr><td>%s</td><td>1964</td><td>Sydney</td></tr></tbody></table>" % full), "PASSENGER ROW")
+        ages_trial("a passenger record in a sentence (embarked, with a year)",
+                   page("<p>%s and %s embarked at Naples in 1964, per the passenger list.</p>" % (par, given)), "PASSENGER RECORD")
+        if tyears:
+            s_ = next(x for x in living if x["slug"] in tyears)
+            ages_trial("a living person's own birth year from the tree, beside their name",
+                       page("<p>%s (%d)</p>" % (bare_name(s_["name"]), tyears[s_["slug"]])), "BORN-YEAR", tree=True)
+        else:
+            results.append(("a living person's own birth year from the tree, beside their name", None))
+        # the registry: an allowed hit passes, an entry that matches nothing is a failure
+        ages_trial("an age allowed by a reviewed registry entry passes",
+                   page("<p>%s was aged 14 at the time.</p>" % full), None,
+                   allow=[{"contains": "was aged 14 at the time", "why": "planted, with a reason", "used": 0}])
+        ages_trial("a registry entry that matches nothing is stale", page("<p>Nothing here.</p>"), "stale",
+                   allow=[{"contains": "no such sentence anywhere", "why": "planted, with a reason", "used": 0}])
+        # clean text must stay clean: a dead person's age beside a living relative's name, and a dead namesake's age
+        dp = next(((bare_name(by_slug[e["slug"]]["name"]), bare_name(x["name"])) for x in living for e in x.get("parents", [])
+                   if e["slug"] in by_slug and not by_slug[e["slug"]].get("living")
+                   and len(bare_name(by_slug[e["slug"]]["name"]).split()) >= 2 and len(bare_name(x["name"]).split()) >= 2), None)
+        if dp:
+            ages_trial("a dead parent's age beside a living child's name is clean",
+                       page("<p>%s died aged 94. Their child %s lives at Brisbane.</p>" % dp), None)
+        else:
+            results.append(("a dead parent's age beside a living child's name is clean", None))
+        ages_trial("an age with no living person in the sentence is clean",
+                   page("<p>Pasquale Falco, three years old, dies on strada Camellara in 1805.</p>"), None)
+    ages_trials()
     sb.close()
     bad = 0
     print("selftest: every planted fault must be refused")

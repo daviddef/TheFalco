@@ -29,6 +29,18 @@ def classify(subject, body):
     if re.search(r"\badd |page|publish|links?\b|render|design", t): return "site"
     return "other"
 
+# A COMMIT MESSAGE CANNOT BE REWRITTEN, so a summary that says something the living-people standard forbids is replaced
+# here, by the start of the commit's subject (the short shas moved when the history was rewritten), with a text that
+# says it without. (25 October 2026: the summary of the commit that
+# found the 1964 ship gave a living person's age and described a living sibling's presence on the voyage. The
+# replacement names no living person, gives no age and describes no record of one.) The gate that holds this to account
+# is tools/check_living_v2.py, which reads the built /changes/ page and the data like every other page.
+HELD_SUMMARY = {
+    "Find the ship: Brisbane, 26 March 1964": "NAA: K269, 26 MAR 1964 SYDNEY - the incoming passenger list, digitised in 42 pages - names the "
+               "parents on the voyage. Two further lines of the surname follow them on the sheet; they are living "
+               "people's and this archive does not describe them.",
+}
+
 rows = []
 for chunk in raw.split("\x1d"):
     chunk = chunk.strip("\n")
@@ -55,6 +67,9 @@ for chunk in raw.split("\x1d"):
 # escaping only the angle brackets still leaves the literal text
 # `name="robots" content="noindex`, which is exactly what checkarchive.py
 # greps for, so the build went on refusing until the quotes were escaped as well.
+    for _start, _text in HELD_SUMMARY.items():
+        if subject.startswith(_start):
+            para = _text
     rows.append({"sha": sha[:7], "date": date, "title": html.escape(subject),
                  "summary": html.escape(para[:420]),
                  "kind": classify(subject, body)})

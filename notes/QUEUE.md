@@ -202,7 +202,7 @@ Carmela Terracciano. Several are probably collateral branches from Matteo or ear
       children are 12 days apart in Sept 1883.
 
 ## 7. The emigration
-- [x] **Found the ship** — Carmine, Francesca, Giuseppina and **Antonio** Falco arrived **Brisbane,
+- [x] **Found the ship** — Carmine and Francesca Falco arrived **Brisbane,
       26 March 1964, per the *Sydney* from Naples**. NAA: K269, 26 MAR 1964 SYDNEY, item 12100311,
       digitised, 42 pp.
 - [x] **Nudgee Cemetery** — five Falco burials with plots and exact dates; corrected Carminantonio's
