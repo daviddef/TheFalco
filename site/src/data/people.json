@@ -4364,6 +4364,13 @@
 "place": "Arienzo, strada Sant'Andrea",
 "evidence": "Named as the mother in the birth act of 25 Jul 1851: CARMELA BUONO, twenty-seven, contadina, strada Sant'Andrea.",
 "ark": "ANTENATI an_ua14448 (Arienzo, Nati 1851) atto 77, img 89 right + 90 left — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "6 Jan 1822",
+"place": "Arienzo",
+"evidence": "Arienzo processetto **1846**: her birth extract — born **6 January 1822**, baptised 8 January, daughter of **Onofrio Buono** and **Angelica Imbimbo**; her father died **2 August 1842** (son of Raffaele and Carmina [Sotero?]); her paternal grandfather Raffaele Buono, a barber, died 22 March 1832. *Read by a delegated reader at 3,000 px from the processetto; **not yet re-opened by the archive's own hand.***",
+"ark": "ANTENATI an_ua14191 (Arienzo processetti 1846) images 196-211"
 }
 ],
 "sources": [
@@ -4423,7 +4430,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"b": "6 Jan 1822",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "donna-teresa-buonocore",
@@ -6370,6 +6381,13 @@
 "place": "Arienzo, strada Santa Lucia",
 "evidence": "Named as the mother in the birth act of 22 Jun 1852: MARIA CIMMINO, thirty, strada Santa Lucia.",
 "ark": "ANTENATI an_ua14449 (Arienzo, Nati 1852) atto 78, img 87 right + 88 left — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "10 May 1824",
+"place": "Arienzo",
+"evidence": "Arienzo processetto **1847**, bundle 3: her birth act (no. 54) — **MARIA CIMMINO, born 10 May 1824**, daughter of **Alessandro Cimmino** (called «**Santo** Cimmino fu Domenico» in the notary's consent — one man, two names) and **Rosa Solli** (Selli). **She was twenty-three at her wedding of 29 March 1847; the household's «twenty-four» in February 1848 fits.** *Read by a delegated reader at 3,000 px from the processetto; **not yet re-opened by the archive's own hand.***",
+"ark": "ANTENATI an_ua14192 (Arienzo processetti 1847) images 33-45"
 }
 ],
 "sources": [
@@ -6445,7 +6463,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"b": "10 May 1824",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "carolina-cimmino",
@@ -6522,6 +6544,13 @@
 "place": "Arienzo, strada Capodiconca",
 "evidence": "Named as the mother in the birth act of 14 Jan 1852: CAROLINA CIMMINO, twenty-two (the clerk's figure), strada Capodiconca.",
 "ark": "ANTENATI an_ua14449 (Arienzo, Nati 1852) atto 9, img 17 right + 18 left — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "4 Sep 1829",
+"place": "Arienzo",
+"evidence": "Arienzo processetto **1851**, bundle of the marriage of 13 August 1851: her birth extract — born and baptised **4 September 1829**, **the younger sister of Maria Cimmino** (the same parents, Alessandro Cimmino «fu Domenico» and Rosa Solli «fu Alessandro?»). **Two Falco brothers, Angelandrea and Luigi, married two Cimmino sisters.** The consents of 4 July 1851 call Vincenzo Falco «fu Pasquale» and Andreana Crisci «fu Arcangelo». *Read by a delegated reader at 3,000 px from the processetto; **not yet re-opened by the archive's own hand.***",
+"ark": "ANTENATI an_ua14196 (Arienzo processetti 1851) images 192-203"
 }
 ],
 "sources": [
@@ -6593,7 +6622,11 @@
 ],
 "siblings": [],
 "mergedOn": "the couple — his own name AND his wife's agree on both sides, and the pairing is unique in each direction",
-"treeId": 4512465
+"treeId": 4512465,
+"b": "4 Sep 1829",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "donna-faustina-cimmino",
@@ -9534,14 +9567,6 @@
 ]
 },
 {
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -9574,14 +9599,6 @@
 ]
 },
 {
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
 "via": "register",
@@ -9608,6 +9625,14 @@
 {
 "slug": "sara-falco-2",
 "name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -17406,6 +17431,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "THE REGISTER ACT BEHIND THE INDEX ENTRY. Act 14: «*sono comparsi nella Casa Comunale **ANDREA FALCO maggiore**, di anni **VENTIQUATTRO**, nato in **Arienzo**, di professione **contadino**, domiciliato in **strada Camellara**, figlio di **VINCENZO FALCO**, di professione **colono**, domiciliato ivi, e di **ANDREANA CRISCI**, di professione **FILATRICE**, domiciliata ivi; e **MARIA CARMELA BUONO maggiore**, di anni ventiquattro, di professione filatrice, nata in Arienzo, domiciliata in **strada Porta di Sopra***». Church **24 May 1846** at Sant'Andrea, which is the date the index gave. Witnesses Agostino di Giglio and **Gennaro Laudato**. **TWENTY-FOUR IN MAY 1846 GIVES b. c.1822** — four years before Angelandrea, and the two are separate men on the ages alone.",
 "ark": "ANTENATI an_ua14250 img15r act14"
+},
+{
+"event": "birth",
+"date": "1 Dec 1821",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo processetto **1846**, bundle of the marriage of 21/24 May 1846: Andrea's birth extract — born and baptised **1 December 1821**, son of **Vincenzo Falco** and **Andreana Crisci**; his father is called «**fu Pasquale**» in the notarial consent of 1846, as in 1847 and 1851. *Read by a delegated reader at 3,000 px from the processetto; **not yet re-opened by the archive's own hand.***",
+"ark": "ANTENATI an_ua14191 (Arienzo processetti 1846) images 196-211"
 }
 ],
 "sources": [
@@ -17615,14 +17647,6 @@
 ]
 },
 {
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -17649,14 +17673,6 @@
 {
 "slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci-2",
 "name": "Raffaele Falco (the first, 1816-1817)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
 "via": "register",
 "vias": [
 "register"
@@ -17695,6 +17711,14 @@
 ]
 },
 {
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
@@ -17720,7 +17744,11 @@
 }
 ],
 "mergedOn": "name alone",
-"treeId": 4512486
+"treeId": 4512486,
+"b": "1 Dec 1821",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "andreana-falco-2-2",
@@ -19376,195 +19404,6 @@
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
-"surname": "FALCO",
-"household": "Vincenzo Falco & Andreana Crisci",
-"hid": "vincenzo-falco-andreana-crisci",
-"role": "child",
-"events": [
-{
-"event": "birth",
-"date": "12 Sep 1826",
-"place": "Arienzo, strada Camellara",
-"evidence": "A NEW CHILD FOR GENERATION THREE, found through the 1826 register's own tavola. «…è nato da ANDREANA CRISCI, di anni VENTOTTO, domiciliata ivi STRADA CAMELLARA, e da VINCENZO FALCO marito della stessa, di anni TRENTADUE, di professione CONTADINO … nel giorno DODICI del mese di SETTEMBRE … alle ore ventidue, nella casa d'abitazione di detti conjugi … il nome di ANGELANDREA». NOT JOINED to the ANGELO Falco who married Maria Cimmino in 1847 or the ANDREA Falco who married Maria Carmela — this household already contains both, each known only from a marriage act, and «Angelandrea» may be either or neither\n\n**VERIFIED WORD FOR WORD, work-list row 58 — act 69, the second half of which is on image 71 LEFT.** «*è nato da **ANDREANA CRISCI**, di anni **VENTOTTO**, domiciliata **ivi strada Camellara**, e da **VINCENZO FALCO marito della stessa**, di anni **TRENTADUE**, di professione contadino, domiciliato con detta sua moglie, nel giorno **dodici** del mese di **Settembre** … nella casa d'abitazione di detti conjugi … il nome di **ANGELANDREA***».\n\n**THE MOTHER DECLARED THIS BIRTH HERSELF** — «*La stessa ha in oltre dichiarato di dare allo stesso il nome*» — with the father named only as «marito della stessa». **The witness is CLEMENTE SANSONE, twenty-six, contadino**, which is the surname settled from three other acts on 20 September 2026.\n\n**With this act the couple's ages line up against their baptisms**: he is thirty-two here against a baptism of 1 February 1792 (thirty-four), she twenty-eight against 30 November 1796 (twenty-nine). **Every volume but 1816 is within two years. 1816 is out by eleven and six.**",
-"ark": "ANTENATI an_ua14423 (Arienzo, Nati 1826) atto 69, img 71 — READ FROM THE IMAGE"
-},
-{
-"event": "marriage",
-"date": "Mar 1847",
-"place": "Arienzo",
-"evidence": "THE ACT THAT LIFTS A REFUSAL THIS ARCHIVE MADE ON PURPOSE. «3. FALCO ANGELANDREA | Arienzo | FALCO VINCENZO, e CRISCI ANDREANA» ed «CIMMINO MARIA | Arienzo | CIMMINO ALESSANDRO, e SOLLI [ROSA]», the church date given as «**29 MARZO**» [1847] — READ AGAIN 20 Sep 2026 at 3,000 px, where the second digit carries a full descender loop; the act number **4** two rows above it on the same page has none. This archive published it as «24 MARZO». When Angelandrea's birth act of 12 September 1826 was published, it was DELIBERATELY NOT JOINED to «the ANGELO Falco who married Maria Cimmino in 1847 or the ANDREA Falco who married Maria Carmela», because the household held all three names and each of the other two was known only from a parish marriage act. THE CIVIL INDEX SETTLES ONE HALF: the man who married MARIA CIMMINO, daughter of Alessandro and Rosa Solli, is written ANGELANDREA — the exact name of the 1826 birth act — so ANGELO of the parish act and ANGELANDREA of the birth act are ONE MAN, married at TWENTY. The ANDREA who married Maria Carmela, daughter of Onofrio and Angela Imbimbo, REMAINS A SEPARATE SON and is still not joined to anything. DATE DISCREPANCY RECORDED, NOT RECONCILED: this tavola gives the church wedding as 24 March 1847 and the parish record held here gives 17 April 1847 — the same kind of civil-versus-parish disagreement already documented for Raffaele Falco's marriage of 1844",
-"ark": "ANTENATI an_ua14145 (Arienzo, Matrimonj indice 1847) img 1 atto 3 — READ FROM THE IMAGE"
-},
-{
-"event": "marriage",
-"date": "29 Mar 1847",
-"place": "Arienzo, strada Camellara",
-"evidence": "**«MINORE» — AND THAT ONE WORD CONFIRMS HIS BIRTH ACT.** Act on img4r: «*sono comparsi nella Casa Comunale **ANGELANDREA FALCO MINORE**, di anni **venti[…]**, nato in Arienzo, di professione **contadino**, domiciliato in **strada Camellara**, figlio di **VINCENZO FALCO**, **colono**, e di **ANDREANA CRISCI**, **filatrice** … e **MARIA CIMMINO maggiore** … nata in Arienzo, domiciliata in **strada Capodiconca**, figlia di **ALESSANDRO CIMMINO**, contadino*». Church **29 March 1847** at Sant'Andrea. Witnesses **Gennaro Laudato** and Francesco de Angelis. **MAJORITY WAS TWENTY-ONE**, so «minore» puts him under it — and his birth act of **12 September 1826** makes him twenty years and six months. The numeral itself carries a flourish and is not read beyond «venti[…]»; **the word «minore» is what bounds him, and it is unambiguous.** **A DATE CONFLICT, RECORDED NOT RESOLVED:** this archive also holds «Angelo Falco … m. Maria Cimmino» on **17 April 1847** from a parish ark — the same bride, three weeks later. Both are kept. **AND THE ACT'S OWN INDICAZIONE COLUMN SETTLES THE CHURCH DATE, READ 20 SEPTEMBER 2026**: «*Il Parroco di SANT'ANDREA … ha certificato, che la celebrazione del matrimonio è seguita nel giorno **VENTINOVE** del mese di MARZO anno corrente*» — the priest's own certificate, copied into the register, spelling the day out in words. **The same day as the civil promise.** The index's date was read here as «24 MARZO» and it is 29; under this system the church cannot precede the promise, so a 24 was impossible on its face. For contrast, act 20 of 1848 in the next volume has the promise on **19 August** and the church on **23 August** — four days later, which is the usual shape.",
-"ark": "ANTENATI an_ua14251 img4r"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
-"name": "Andreana Crisci",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Vincenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Raffaele Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Pasquale Falco (of Vincenzo, 1830-1833)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Antonio Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "nunziata-falco",
-"name": "Nunziata Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
-"name": "[daughter] Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Pasquale Falco (of Vincenzo, the second, 1834)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Raffaele Falco (the first, 1816-1817)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-nunzio-falco",
-"name": "Giuseppe Nunzio Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-filomena-falco",
-"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "sara-falco-2",
-"name": "Sara Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
-"name": "Giuseppe Falco (of Rosa Zimbardo)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "andrea-falco-2",
-"name": "Andrea Falco (of Maria Carmela Buono)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "luigi-falco-of-luigi-falco-carolina-cimmino",
-"name": "Luigi Falco (of Carolina Cimmino)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "stanislao-falco-2",
-"name": "Stanislao Falco (of Filomena di Lucia)",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"b": "12 Sep 1826",
-"dateFrom": {
-"b": "act"
-}
-},
-{
 "slug": "angelantonio-falco",
 "name": "Angelantonio Falco",
 "surname": "FALCO",
@@ -19609,177 +19448,6 @@
 "dateFrom": {
 "d": "act"
 }
-},
-{
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"surname": "FALCO",
-"household": "Vincenzo Falco & Andreana Crisci",
-"hid": "vincenzo-falco-andreana-crisci",
-"role": "child",
-"events": [
-{
-"event": "marriage",
-"date": "17 Apr 1847",
-"place": "Arienzo",
-"evidence": "Angelo Falco filium Vincentii et Andreanae Crisci m. Maria Cimmino, dau of … & Rosa Solli",
-"ark": "3Q9M-CSMY-B7HQ-P"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [
-{
-"slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
-"name": "Andreana Crisci",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Vincenzo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
-"spouses": [],
-"children": [],
-"siblings": [
-{
-"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Raffaele Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Pasquale Falco (of Vincenzo, 1830-1833)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Antonio Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "nunziata-falco",
-"name": "Nunziata Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
-"name": "[daughter] Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Pasquale Falco (of Vincenzo, the second, 1834)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci-2",
-"name": "Raffaele Falco (the first, 1816-1817)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-nunzio-falco",
-"name": "Giuseppe Nunzio Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Maria Carmela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-filomena-falco",
-"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "sara-falco-2",
-"name": "Sara Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
-"name": "Giuseppe Falco (of Rosa Zimbardo)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "andrea-falco-2",
-"name": "Andrea Falco (of Maria Carmela Buono)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "luigi-falco-of-luigi-falco-carolina-cimmino",
-"name": "Luigi Falco (of Carolina Cimmino)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "stanislao-falco-2",
-"name": "Stanislao Falco (of Filomena di Lucia)",
-"via": "register",
-"vias": [
-"register"
-]
-}
-]
 },
 {
 "slug": "angelo-falco-of-crescenzo-falco-angela-maria-morgi",
@@ -19931,13 +19599,65 @@
 "place": "Arienzo, strada Santa Lucia",
 "evidence": "Named as the father in the birth act of 22 Jun 1852: ANGELO FALCO «marito di Maria Cimmino», thirty-two, contadino, strada Santa Lucia — declarant.",
 "ark": "ANTENATI an_ua14449 (Arienzo, Nati 1852) atto 78, img 87 right + 88 left — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "12 Sep 1826",
+"place": "Arienzo, strada Camellara",
+"evidence": "A NEW CHILD FOR GENERATION THREE, found through the 1826 register's own tavola. «…è nato da ANDREANA CRISCI, di anni VENTOTTO, domiciliata ivi STRADA CAMELLARA, e da VINCENZO FALCO marito della stessa, di anni TRENTADUE, di professione CONTADINO … nel giorno DODICI del mese di SETTEMBRE … alle ore ventidue, nella casa d'abitazione di detti conjugi … il nome di ANGELANDREA». NOT JOINED to the ANGELO Falco who married Maria Cimmino in 1847 or the ANDREA Falco who married Maria Carmela — this household already contains both, each known only from a marriage act, and «Angelandrea» may be either or neither\n\n**VERIFIED WORD FOR WORD, work-list row 58 — act 69, the second half of which is on image 71 LEFT.** «*è nato da **ANDREANA CRISCI**, di anni **VENTOTTO**, domiciliata **ivi strada Camellara**, e da **VINCENZO FALCO marito della stessa**, di anni **TRENTADUE**, di professione contadino, domiciliato con detta sua moglie, nel giorno **dodici** del mese di **Settembre** … nella casa d'abitazione di detti conjugi … il nome di **ANGELANDREA***».\n\n**THE MOTHER DECLARED THIS BIRTH HERSELF** — «*La stessa ha in oltre dichiarato di dare allo stesso il nome*» — with the father named only as «marito della stessa». **The witness is CLEMENTE SANSONE, twenty-six, contadino**, which is the surname settled from three other acts on 20 September 2026.\n\n**With this act the couple's ages line up against their baptisms**: he is thirty-two here against a baptism of 1 February 1792 (thirty-four), she twenty-eight against 30 November 1796 (twenty-nine). **Every volume but 1816 is within two years. 1816 is out by eleven and six.**",
+"ark": "ANTENATI an_ua14423 (Arienzo, Nati 1826) atto 69, img 71 — READ FROM THE IMAGE"
+},
+{
+"event": "marriage",
+"date": "Mar 1847",
+"place": "Arienzo",
+"evidence": "THE ACT THAT LIFTS A REFUSAL THIS ARCHIVE MADE ON PURPOSE. «3. FALCO ANGELANDREA | Arienzo | FALCO VINCENZO, e CRISCI ANDREANA» ed «CIMMINO MARIA | Arienzo | CIMMINO ALESSANDRO, e SOLLI [ROSA]», the church date given as «**29 MARZO**» [1847] — READ AGAIN 20 Sep 2026 at 3,000 px, where the second digit carries a full descender loop; the act number **4** two rows above it on the same page has none. This archive published it as «24 MARZO». When Angelandrea's birth act of 12 September 1826 was published, it was DELIBERATELY NOT JOINED to «the ANGELO Falco who married Maria Cimmino in 1847 or the ANDREA Falco who married Maria Carmela», because the household held all three names and each of the other two was known only from a parish marriage act. THE CIVIL INDEX SETTLES ONE HALF: the man who married MARIA CIMMINO, daughter of Alessandro and Rosa Solli, is written ANGELANDREA — the exact name of the 1826 birth act — so ANGELO of the parish act and ANGELANDREA of the birth act are ONE MAN, married at TWENTY. The ANDREA who married Maria Carmela, daughter of Onofrio and Angela Imbimbo, REMAINS A SEPARATE SON and is still not joined to anything. DATE DISCREPANCY RECORDED, NOT RECONCILED: this tavola gives the church wedding as 24 March 1847 and the parish record held here gives 17 April 1847 — the same kind of civil-versus-parish disagreement already documented for Raffaele Falco's marriage of 1844",
+"ark": "ANTENATI an_ua14145 (Arienzo, Matrimonj indice 1847) img 1 atto 3 — READ FROM THE IMAGE"
+},
+{
+"event": "marriage",
+"date": "29 Mar 1847",
+"place": "Arienzo, strada Camellara",
+"evidence": "**«MINORE» — AND THAT ONE WORD CONFIRMS HIS BIRTH ACT.** Act on img4r: «*sono comparsi nella Casa Comunale **ANGELANDREA FALCO MINORE**, di anni **venti[…]**, nato in Arienzo, di professione **contadino**, domiciliato in **strada Camellara**, figlio di **VINCENZO FALCO**, **colono**, e di **ANDREANA CRISCI**, **filatrice** … e **MARIA CIMMINO maggiore** … nata in Arienzo, domiciliata in **strada Capodiconca**, figlia di **ALESSANDRO CIMMINO**, contadino*». Church **29 March 1847** at Sant'Andrea. Witnesses **Gennaro Laudato** and Francesco de Angelis. **MAJORITY WAS TWENTY-ONE**, so «minore» puts him under it — and his birth act of **12 September 1826** makes him twenty years and six months. The numeral itself carries a flourish and is not read beyond «venti[…]»; **the word «minore» is what bounds him, and it is unambiguous.** **A DATE CONFLICT, RECORDED NOT RESOLVED:** this archive also holds «Angelo Falco … m. Maria Cimmino» on **17 April 1847** from a parish ark — the same bride, three weeks later. Both are kept. **AND THE ACT'S OWN INDICAZIONE COLUMN SETTLES THE CHURCH DATE, READ 20 SEPTEMBER 2026**: «*Il Parroco di SANT'ANDREA … ha certificato, che la celebrazione del matrimonio è seguita nel giorno **VENTINOVE** del mese di MARZO anno corrente*» — the priest's own certificate, copied into the register, spelling the day out in words. **The same day as the civil promise.** The index's date was read here as «24 MARZO» and it is 29; under this system the church cannot precede the promise, so a 24 was impossible on its face. For contrast, act 20 of 1848 in the next volume has the promise on **19 August** and the church on **23 August** — four days later, which is the usual shape.",
+"ark": "ANTENATI an_ua14251 img4r"
+},
+{
+"event": "named as «Angelo» in his parents' notarial consent",
+"date": "1 Mar 1847",
+"place": "Arienzo, strada Porta di Sopra",
+"evidence": "**THE ACT THAT SAYS ANGELO AND ANGELANDREA ARE ONE MAN.** Arienzo processetto **1847, bundle 3**: the civil promise of **29 March 1847** names «***Angelandrea Falco*** … figlio di **Vincenzo Falco** … e di **Andreana Crisci**» marrying **Maria Cimmino**; and the notarial consents of **1 March 1847** (Notar Lorenzo Maggiore) have **Vincenzo Falco and Andreana Crisci** consent «al loro figlio ***ANGELO***», and the bride's parents consent «col nominato ***ANGELO FALCO di Vincenzo e di Andreana Crisci***». **One wedding, one groom, two forms of the name** — and the parish certificate of the same bundle puts the church wedding on the **same day, 29 March 1847**; the «17 April 1847» this archive held as a second marriage is not in the dossier. *Read by a delegated reader at 3,000 px from the processetto; **not yet re-opened by the archive's own hand.***",
+"ark": "ANTENATI an_ua14192 (Arienzo processetti 1847) bundle 3, images 33-45"
+},
+{
+"event": "marriage",
+"date": "17 Apr 1847",
+"place": "Arienzo",
+"evidence": "Angelo Falco filium Vincentii et Andreanae Crisci m. Maria Cimmino, dau of … & Rosa Solli",
+"ark": "3Q9M-CSMY-B7HQ-P"
 }
 ],
 "sources": [
 "register"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+"name": "Andreana Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "spouses": [
 {
 "slug": "annamaria-cimmino",
@@ -20006,7 +19726,132 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [
+{
+"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Raffaele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Pasquale Falco (of Vincenzo, 1830-1833)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Antonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nunziata-falco",
+"name": "Nunziata Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
+"name": "[daughter] Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci-2",
+"name": "Pasquale Falco (of Vincenzo, the second, 1834)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci-2",
+"name": "Raffaele Falco (the first, 1816-1817)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-nunzio-falco",
+"name": "Giuseppe Nunzio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "sara-falco-2",
+"name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "andrea-falco-2",
+"name": "Andrea Falco (of Maria Carmela Buono)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "luigi-falco-of-luigi-falco-carolina-cimmino",
+"name": "Luigi Falco (of Carolina Cimmino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "stanislao-falco-2",
+"name": "Stanislao Falco (of Filomena di Lucia)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "12 Sep 1826",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "angelo-falco-of-giuseppe-falco-rosa-sposito",
@@ -22106,14 +21951,6 @@
 ]
 },
 {
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -22146,14 +21983,6 @@
 ]
 },
 {
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
 "via": "register",
@@ -22180,6 +22009,14 @@
 {
 "slug": "sara-falco-2",
 "name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -36236,14 +36073,6 @@
 ]
 },
 {
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -36276,14 +36105,6 @@
 ]
 },
 {
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
 "via": "register",
@@ -36310,6 +36131,14 @@
 {
 "slug": "sara-falco-2",
 "name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -36816,14 +36645,6 @@
 ]
 },
 {
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -36856,14 +36677,6 @@
 ]
 },
 {
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
 "via": "register",
@@ -36882,6 +36695,14 @@
 {
 "slug": "sara-falco-2",
 "name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -37823,14 +37644,6 @@
 ]
 },
 {
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -37863,14 +37676,6 @@
 ]
 },
 {
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
 "via": "register",
@@ -37897,6 +37702,14 @@
 {
 "slug": "sara-falco-2",
 "name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -39485,14 +39298,6 @@
 ]
 },
 {
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -39525,14 +39330,6 @@
 ]
 },
 {
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
 "via": "register",
@@ -39551,6 +39348,14 @@
 {
 "slug": "sara-falco-2",
 "name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -41690,14 +41495,6 @@
 ]
 },
 {
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -41730,14 +41527,6 @@
 ]
 },
 {
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
 "via": "register",
@@ -41756,6 +41545,14 @@
 {
 "slug": "sara-falco-2",
 "name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -45024,14 +44821,6 @@
 ]
 },
 {
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
 "name": "[daughter] Falco",
 "via": "register",
@@ -45050,14 +44839,6 @@
 {
 "slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci-2",
 "name": "Raffaele Falco (the first, 1816-1817)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
 "via": "register",
 "vias": [
 "register"
@@ -45090,6 +44871,14 @@
 {
 "slug": "sara-falco-2",
 "name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -45960,14 +45749,6 @@
 ]
 },
 {
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -46000,14 +45781,6 @@
 ]
 },
 {
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
 "via": "register",
@@ -46034,6 +45807,14 @@
 {
 "slug": "sara-falco-2",
 "name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -46145,14 +45926,6 @@
 ]
 },
 {
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -46171,14 +45944,6 @@
 {
 "slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci-2",
 "name": "Raffaele Falco (the first, 1816-1817)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
 "via": "register",
 "vias": [
 "register"
@@ -46211,6 +45976,14 @@
 {
 "slug": "sara-falco-2",
 "name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -48525,14 +48298,6 @@
 ]
 },
 {
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -48565,14 +48330,6 @@
 ]
 },
 {
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
 "via": "register",
@@ -48599,6 +48356,14 @@
 {
 "slug": "sara-falco-2",
 "name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -48715,14 +48480,6 @@
 ]
 },
 {
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -48741,14 +48498,6 @@
 {
 "slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci-2",
 "name": "Pasquale Falco (of Vincenzo, the second, 1834)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
 "via": "register",
 "vias": [
 "register"
@@ -48781,6 +48530,14 @@
 {
 "slug": "sara-falco-2",
 "name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -51129,14 +50886,6 @@
 ]
 },
 {
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -51169,14 +50918,6 @@
 ]
 },
 {
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
 "via": "register",
@@ -51195,6 +50936,14 @@
 {
 "slug": "maria-filomena-falco",
 "name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -51338,14 +51087,6 @@
 ]
 },
 {
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -51378,14 +51119,6 @@
 ]
 },
 {
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
 "via": "register",
@@ -51412,6 +51145,14 @@
 {
 "slug": "sara-falco-2",
 "name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -52194,14 +51935,6 @@
 ]
 },
 {
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -52234,14 +51967,6 @@
 ]
 },
 {
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "giuseppe-nunzio-falco",
 "name": "Giuseppe Nunzio Falco",
 "via": "register",
@@ -52268,6 +51993,14 @@
 {
 "slug": "sara-falco-2",
 "name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -53047,14 +52780,6 @@
 ]
 },
 {
-"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
-"name": "Angelo Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
 "slug": "nunziata-falco",
 "name": "Nunziata Falco",
 "via": "register",
@@ -53073,14 +52798,6 @@
 {
 "slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci-2",
 "name": "Raffaele Falco (the first, 1816-1817)",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "angelandrea-falco",
-"name": "Angelandrea Falco",
 "via": "register",
 "vias": [
 "register"
@@ -53113,6 +52830,14 @@
 {
 "slug": "sara-falco-2",
 "name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"

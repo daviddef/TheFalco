@@ -751,7 +751,7 @@
    {
     "hid": "vincenzo-falco-andreana-crisci",
     "household": "Vincenzo Falco & Andreana Crisci",
-    "person": "Angelandrea Falco",
+    "person": "Angelo Falco (Angelandrea, b. 1826)",
     "role": "child",
     "event": "birth",
     "date": "12 Sep 1826",
@@ -839,7 +839,7 @@
    {
     "hid": "vincenzo-falco-andreana-crisci",
     "household": "Vincenzo Falco & Andreana Crisci",
-    "person": "Angelandrea Falco",
+    "person": "Angelo Falco (Angelandrea, b. 1826)",
     "role": "child",
     "event": "marriage",
     "date": "Mar 1847",
@@ -1026,7 +1026,7 @@
    {
     "hid": "vincenzo-falco-andreana-crisci",
     "household": "Vincenzo Falco & Andreana Crisci",
-    "person": "Angelandrea Falco",
+    "person": "Angelo Falco (Angelandrea, b. 1826)",
     "role": "child",
     "event": "marriage",
     "date": "29 Mar 1847",
@@ -1572,6 +1572,28 @@
     "place": "Arienzo, strada Camellara",
     "evidence": "Named as the mother in the birth act of 15 Sep 1840: ANDREANA CRISCI, forty.",
     "ark": "ANTENATI an_ua14437 (Arienzo, Nati 1840) atto 89, img 93 right + 94 left — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "vincenzo-falco-andreana-crisci",
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Angelo Falco (Angelandrea, b. 1826)",
+    "role": "child",
+    "event": "named as «Angelo» in his parents' notarial consent",
+    "date": "1 Mar 1847",
+    "place": "Arienzo, strada Porta di Sopra",
+    "evidence": "**THE ACT THAT SAYS ANGELO AND ANGELANDREA ARE ONE MAN.** Arienzo processetto **1847, bundle 3**: the civil promise of **29 March 1847** names «***Angelandrea Falco*** … figlio di **Vincenzo Falco** … e di **Andreana Crisci**» marrying **Maria Cimmino**; and the notarial consents of **1 March 1847** (Notar Lorenzo Maggiore) have **Vincenzo Falco and Andreana Crisci** consent «al loro figlio ***ANGELO***», and the bride's parents consent «col nominato ***ANGELO FALCO di Vincenzo e di Andreana Crisci***». **One wedding, one groom, two forms of the name** — and the parish certificate of the same bundle puts the church wedding on the **same day, 29 March 1847**; the «17 April 1847» this archive held as a second marriage is not in the dossier. *Read by a delegated reader at 3,000 px from the processetto; **not yet re-opened by the archive's own hand.***",
+    "ark": "ANTENATI an_ua14192 (Arienzo processetti 1847) bundle 3, images 33-45"
+   },
+   {
+    "hid": "vincenzo-falco-andreana-crisci",
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Andrea Falco",
+    "role": "child",
+    "event": "birth",
+    "date": "1 Dec 1821",
+    "place": "Arienzo, strada Camellara",
+    "evidence": "Arienzo processetto **1846**, bundle of the marriage of 21/24 May 1846: Andrea's birth extract — born and baptised **1 December 1821**, son of **Vincenzo Falco** and **Andreana Crisci**; his father is called «**fu Pasquale**» in the notarial consent of 1846, as in 1847 and 1851. *Read by a delegated reader at 3,000 px from the processetto; **not yet re-opened by the archive's own hand.***",
+    "ark": "ANTENATI an_ua14191 (Arienzo processetti 1846) images 196-211"
    }
   ]
  },
@@ -10090,6 +10112,17 @@
     "place": "Arienzo, strada Santa Lucia",
     "evidence": "Named as the mother in the birth act of 22 Jun 1852: MARIA CIMMINO, thirty, strada Santa Lucia.",
     "ark": "ANTENATI an_ua14449 (Arienzo, Nati 1852) atto 78, img 87 right + 88 left — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "angelo-falco-annamaria-cimmino-corso-caudino",
+    "household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+    "person": "Annamaria Cimmino",
+    "role": "mother",
+    "event": "birth",
+    "date": "10 May 1824",
+    "place": "Arienzo",
+    "evidence": "Arienzo processetto **1847**, bundle 3: her birth act (no. 54) — **MARIA CIMMINO, born 10 May 1824**, daughter of **Alessandro Cimmino** (called «**Santo** Cimmino fu Domenico» in the notary's consent — one man, two names) and **Rosa Solli** (Selli). **She was twenty-three at her wedding of 29 March 1847; the household's «twenty-four» in February 1848 fits.** *Read by a delegated reader at 3,000 px from the processetto; **not yet re-opened by the archive's own hand.***",
+    "ark": "ANTENATI an_ua14192 (Arienzo processetti 1847) images 33-45"
    }
   ]
  },
@@ -12479,6 +12512,17 @@
     "place": "Arienzo, strada Sant'Andrea",
     "evidence": "Named as the mother in the birth act of 25 Jul 1851: CARMELA BUONO, twenty-seven, contadina, strada Sant'Andrea.",
     "ark": "ANTENATI an_ua14448 (Arienzo, Nati 1851) atto 77, img 89 right + 90 left — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "andrea-falco-maria-carmela-buono",
+    "household": "Andrea Falco & Maria Carmela Buono",
+    "person": "Maria Carmela Buono",
+    "role": "mother",
+    "event": "birth",
+    "date": "6 Jan 1822",
+    "place": "Arienzo",
+    "evidence": "Arienzo processetto **1846**: her birth extract — born **6 January 1822**, baptised 8 January, daughter of **Onofrio Buono** and **Angelica Imbimbo**; her father died **2 August 1842** (son of Raffaele and Carmina [Sotero?]); her paternal grandfather Raffaele Buono, a barber, died 22 March 1832. *Read by a delegated reader at 3,000 px from the processetto; **not yet re-opened by the archive's own hand.***",
+    "ark": "ANTENATI an_ua14191 (Arienzo processetti 1846) images 196-211"
    }
   ]
  },
@@ -12672,6 +12716,17 @@
     "place": "Arienzo, strada Capodiconca",
     "evidence": "Named as the mother in the birth act of 14 Jan 1852: CAROLINA CIMMINO, twenty-two (the clerk's figure), strada Capodiconca.",
     "ark": "ANTENATI an_ua14449 (Arienzo, Nati 1852) atto 9, img 17 right + 18 left — READ FROM THE IMAGE"
+   },
+   {
+    "hid": "luigi-falco-carolina-cimmino",
+    "household": "Luigi Falco & Carolina Cimmino",
+    "person": "Carolina Cimmino",
+    "role": "mother",
+    "event": "birth",
+    "date": "4 Sep 1829",
+    "place": "Arienzo",
+    "evidence": "Arienzo processetto **1851**, bundle of the marriage of 13 August 1851: her birth extract — born and baptised **4 September 1829**, **the younger sister of Maria Cimmino** (the same parents, Alessandro Cimmino «fu Domenico» and Rosa Solli «fu Alessandro?»). **Two Falco brothers, Angelandrea and Luigi, married two Cimmino sisters.** The consents of 4 July 1851 call Vincenzo Falco «fu Pasquale» and Andreana Crisci «fu Arcangelo». *Read by a delegated reader at 3,000 px from the processetto; **not yet re-opened by the archive's own hand.***",
+    "ark": "ANTENATI an_ua14196 (Arienzo processetti 1851) images 192-203"
    }
   ]
  },

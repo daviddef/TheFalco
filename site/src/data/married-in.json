@@ -591,6 +591,14 @@
     "dp": "Arienzo"
    },
    {
+    "name": "Andrea Falco",
+    "slug": "andrea-falco-2",
+    "b": "1 Dec 1821",
+    "bp": "",
+    "d": "",
+    "dp": ""
+   },
+   {
     "name": "Luigi Falco",
     "slug": "luigi-falco-of-luigi-falco-carolina-cimmino",
     "b": "1823",
@@ -1333,14 +1341,6 @@
     "bp": "Forchia",
     "d": "July 31 1938",
     "dp": "Forchia"
-   },
-   {
-    "name": "Andrea Falco",
-    "slug": "andrea-falco-2",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
    },
    {
     "name": "Angelo Falco",
@@ -3851,7 +3851,7 @@
   "surname": "Cimmino",
   "n": 2,
   "withheld": 0,
-  "first": 1857,
+  "first": 1829,
   "last": 1877,
   "places": [
    "Arienzo"
@@ -3876,20 +3876,20 @@
   ],
   "people": [
    {
+    "name": "Carolina Cimmino (Falco)",
+    "slug": "carolina-cimmino-of-luigi-falco-carolina-cimmino",
+    "b": "4 Sep 1829",
+    "bp": "",
+    "d": "",
+    "dp": ""
+   },
+   {
     "name": "Vittoria Cimmino (Falco)",
     "slug": "vittoria-cimmino",
     "b": "1877",
     "bp": "Arienzo",
     "d": "Feb 7 1857",
     "dp": "Arienzo"
-   },
-   {
-    "name": "Carolina Cimmino (Falco)",
-    "slug": "carolina-cimmino-of-luigi-falco-carolina-cimmino",
-    "b": "",
-    "bp": "",
-    "d": "",
-    "dp": ""
    }
   ],
   "unjoinedBurials": 0,
