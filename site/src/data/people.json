@@ -3424,7 +3424,7 @@
 ]
 },
 {
-"slug": "clementina-falco-2",
+"slug": "clementina-falco",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -3517,7 +3517,7 @@
 ]
 },
 {
-"slug": "clementina-falco-2",
+"slug": "clementina-falco",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -3606,7 +3606,7 @@
 ]
 },
 {
-"slug": "clementina-falco-2",
+"slug": "clementina-falco",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -3702,7 +3702,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "clementina-falco-2",
+"slug": "clementina-falco",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -3799,7 +3799,7 @@
 ]
 },
 {
-"slug": "clementina-falco-2",
+"slug": "clementina-falco",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -3892,7 +3892,7 @@
 ]
 },
 {
-"slug": "clementina-falco-2",
+"slug": "clementina-falco",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -3985,7 +3985,7 @@
 ]
 },
 {
-"slug": "clementina-falco-2",
+"slug": "clementina-falco",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -4078,7 +4078,7 @@
 ]
 },
 {
-"slug": "clementina-falco-2",
+"slug": "clementina-falco",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -4269,7 +4269,7 @@
 ],
 "children": [
 {
-"slug": "maria-concetta-falco",
+"slug": "maria-concetta-falco-2",
 "name": "Maria Concetta Falco",
 "via": "tree",
 "vias": [
@@ -4277,7 +4277,7 @@
 ]
 },
 {
-"slug": "marianna-falco",
+"slug": "marianna-falco-2",
 "name": "Marianna Falco",
 "via": "tree",
 "vias": [
@@ -4350,6 +4350,20 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "Named as the mother in the birth act of 16 Feb 1854: CARMELA BUONO, twenty-three, alla Camellara.",
 "ark": "ANTENATI an_ua14451 (Arienzo, Nati 1854) atto 24, img 18 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "19 Feb 1847",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the mother in the birth act of 19 Feb 1847: CARMELA BUONO, twenty-five.",
+"ark": "ANTENATI an_ua14444 (Arienzo, Nati 1847) atto 15, img 17 right + 18 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "25 Jul 1851",
+"place": "Arienzo, strada Sant'Andrea",
+"evidence": "Named as the mother in the birth act of 25 Jul 1851: CARMELA BUONO, twenty-seven, contadina, strada Sant'Andrea.",
+"ark": "ANTENATI an_ua14448 (Arienzo, Nati 1851) atto 77, img 89 right + 90 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -4387,6 +4401,22 @@
 {
 "slug": "andreana-falco-of-andrea-falco-maria-carmela-buono",
 "name": "Andreana Falco (of Andrea, b. 1854)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-concetta-falco-2",
+"name": "Maria Concetta Falco (of Andrea, b. 1847)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "marianna-falco-2",
+"name": "Marianna Falco (of Andrea, b. 1851)",
 "via": "register",
 "vias": [
 "register"
@@ -6319,6 +6349,27 @@
 "place": "Arienzo, strada Santa Lucia",
 "evidence": "Named as the mother in the birth act of 15 Aug 1855: MARIA CIMMINO, thirty-two, strada Santa Lucia.",
 "ark": "ANTENATI an_ua14452 (Arienzo, Nati 1855) atto 69, img 37 right — READ FROM THE IMAGE"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "22 Feb 1848",
+"place": "Arienzo, strada Santa Lucia",
+"evidence": "Named as the mother in the birth act of 22 Feb 1848: MARIA CIMMINO, twenty-four, strada Santa Lucia.",
+"ark": "ANTENATI an_ua14445 (Arienzo, Nati 1848) atto 10, img 11 right + 12 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "26 Feb 1850",
+"place": "Arienzo, strada Croce",
+"evidence": "Named as the mother in the birth act of 26 Feb 1850: MARIA CIMMINO, twenty-six, strada Croce.",
+"ark": "ANTENATI an_ua14447 (Arienzo, Nati 1850) atto 19, img 27 right + 28 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "22 Jun 1852",
+"place": "Arienzo, strada Santa Lucia",
+"evidence": "Named as the mother in the birth act of 22 Jun 1852: MARIA CIMMINO, thirty, strada Santa Lucia.",
+"ark": "ANTENATI an_ua14449 (Arienzo, Nati 1852) atto 78, img 87 right + 88 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -6372,6 +6423,22 @@
 {
 "slug": "costanza-falco-of-angelo-falco-annamaria-cimmino-cor",
 "name": "Costanza Falco (of Angelo, b. 1855)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonia-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Antonia Falco (of Angelo, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanbattista-falco",
+"name": "Giovanbattista Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -6448,6 +6515,13 @@
 "place": "Arienzo, strada Capodiconca",
 "evidence": "Named as the mother in the birth act of 28 Jan 1855: CAROLINA CIMMINO, twenty-six or twenty-seven.",
 "ark": "ANTENATI an_ua14452 (Arienzo, Nati 1855) atto 10, img 8 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "14 Jan 1852",
+"place": "Arienzo, strada Capodiconca",
+"evidence": "Named as the mother in the birth act of 14 Jan 1852: CAROLINA CIMMINO, twenty-two (the clerk's figure), strada Capodiconca.",
+"ark": "ANTENATI an_ua14449 (Arienzo, Nati 1852) atto 9, img 17 right + 18 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -6474,6 +6548,14 @@
 "via": "tree",
 "vias": [
 "tree"
+]
+},
+{
+"slug": "carmino-falco",
+"name": "Carmino Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
 ]
 },
 {
@@ -9041,6 +9123,13 @@
 "place": "Arienzo",
 "evidence": "**THE WINDOW ON HER DEATH IS NOW TEN YEARS WIDE AND IT HAS A PLACE IN IT.**\n\n«*e **della fu ALESSANDRA CRISCI**, residente **in vita col marito***» — her daughter Clementina's marriage act, 1 September 1878, read from the image.\n\n**SHE WAS ALIVE IN DECEMBER 1867**: her husband's death act of the twelfth calls him «*marito di Alessandra Crisci*», not *vedovo*. **She was dead by 1 September 1878.** *Ten years and nine months.*\n\n**AND THE ACT ANSWERS THE QUESTION THE OTHER TWO COULD NOT.** This archive has held three readings of her absence from Arienzo's deaths: that she died outside Arienzo, that she died in a daughter's house, or that «de' furono» in the acts of 1872 and 1874 was a clerk's loose plural. **«residente in vita col marito» retires the third and argues against the first**: a third clerk, eleven years after Matteo died, states that her residence in life was her husband's — **the Contrada Camellara, Arienzo**.\n\n**SO HER DEATH ACT SHOULD BE IN ARIENZO'S OWN REGISTERS, AND THE SEARCH NARROWS TO SIX UNOPENED YEARS.** The deaths of **1866, 1867, 1868, 1869, 1870 and 1871** are read. **1872, 1873, 1874, 1875, 1876 and 1877 have never been opened** — they are in `MC55-FNT` and `MC55-VNL`, and they are where she is.\n\n*And the read years are being read again at grid resolution, because the sweep that passed them is the sweep that turned «Falco» into «Fatto» eleven times in two years.*\n\n---\n\n**AND ON 11 OCTOBER 2026 THE WHOLE WINDOW WAS READ OUT. SHE IS NOT IN ARIENZO.**\n\n**Thirteen consecutive death registers — 1866, 1867, 1868, 1869, 1870, 1871, 1872, 1873, 1874, 1875, 1876, 1877 and 1878 — read act by act off the margin box of every page.** *1872–1878 had never been opened; six of the seven are not indexed at all.* **She is in none of them.**\n\n**So the three readings this archive published are down to one.** «De' furono» is not a loose plural — three clerks wrote it, and two of them added «*residente in vita col marito*». She did not die in a daughter's house at Arienzo, because every Arienzo death of the window is read. **What is left is that SHE DIED OUTSIDE ARIENZO**, in the comune of a daughter or a son, and that is where to look: *Filomena at via Camellara, Vincenza at piazza Valletta, Angela who married Vincenzo Abatiello in 1865, Domenica who married into Guida and then Saccavino, Maria Felice, Maria Carmina, Clementina who married Nicola Biondo — **and Giuseppe, whose own household at via Orticelli this archive found the same day.***\n\n*The phrase that pointed at Arienzo is still on the page and still unexplained: a clerk in 1878 and another in 1881 both wrote that her residence in life was her husband's. **Either she left Arienzo after December 1867 and the clerks were describing a marriage rather than a deathbed, or her act is somewhere this archive has not thought to look.** The contradiction is published, not resolved.*",
 "ark": "3:1:3QS7-997F-M728 — FamilySearch MC55-VNL img 54 left page, Arienzo Matrimoni 1878 Parte I act 13 — READ FROM THE IMAGE"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "Dec 1848",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the mother in the birth act of Dec 1848: ALESSANDRA [Crisci], thirty-four.",
+"ark": "ANTENATI an_ua14445 (Arienzo, Nati 1848) atto 113, img 114 right + 115 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -9120,11 +9209,10 @@
 ]
 },
 {
-"slug": "clementina-falco-2",
+"slug": "clementina-falco",
 "name": "Clementina Falco (Biondo)",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
@@ -9172,6 +9260,22 @@
 {
 "slug": "maria-falco-of-matteo-falco-alessandra-crisci",
 "name": "Maria Falco (b. 1844)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clementina-falco-2",
+"name": "Clementina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clementina-falco-of-matteo-falco-alessandra-crisci",
+"name": "Clementina Falco (of Matteo, b. 1848)",
 "via": "register",
 "vias": [
 "register"
@@ -9334,6 +9438,13 @@
 "place": "Arienzo",
 "evidence": "**GENERATION THREE'S WIFE HAS A DEATH WINDOW AT LAST, AND IT IS ELEVEN YEARS WIDE.**\n\n**SHE WAS ALIVE ON 15 MAY 1875**: her husband's death act calls him «***marito di** CRISCI ANDREANA*», not *vedovo*.\n\n**SHE WAS DEAD BY 21 APRIL 1880**: her daughter Sara's death act names her «***dalla fu** ANDREANA CRISCI*, contadina, domiciliata in vita **col marito**».\n\n*Until today this archive had **no death for her at all** — she married Vincenzo Falco on 15 October 1814 and the record simply stopped. **Eleven years and five months** is where she is, and the acts are in Arienzo's death registers of **1875 (after 15 May), 1876, 1877, 1878, 1879, 1880, 1881, 1882, 1883, 1884, 1885 and 1886 (before 22 October)**.*\n\n**AND SEVEN OF THOSE TWELVE YEARS ARE ALREADY READ ACT BY ACT** — 1875, 1876, 1877, 1878, 1884, 1885 and 1886 — **and she is in none of them.** *What is left is **1879, 1880, 1881, 1882 and 1883**, which have never been opened.*\n\n*«Domiciliata in vita col marito» is the same phrase two clerks used of **ALESSANDRA CRISCI** in 1878 and 1881, and it is a formula for a married woman's residence rather than a statement about a deathbed. **It is recorded and not leaned on.***\n\n---\n\n**AND BEFORE THE DAY WAS OUT THE WINDOW HALVED AGAIN, AND THEN SHUT ON AN EMPTY ROOM.**\n\n**Her son RAFFAELE FALCO — generation four — died on 21 April 1880, and his act calls her «*dalla **fu** ANDREANA CRISCI*».** *The eleven-year window her daughter Sara's act gave becomes **15 May 1875 to 21 April 1880**: four years and eleven months.*\n\n**AND EVERY ONE OF THOSE MONTHS IS NOW READ.** Arienzo's deaths of **1875** (after 15 May), **1876**, **1877**, **1878**, **1879** and **1880 down to act 34** are walked act by act. **ANDREANA CRISCI IS IN NONE OF THEM.**\n\n**SO SHE DID NOT DIE AT ARIENZO EITHER.** *This archive now holds **two** Crisci women of Arienzo, both certainly dead, both absent from the comune's own registers for the whole of their windows — **one of them this line's own and one of them not**:* **ANDREANA CRISCI**, generation three's wife, dead between May 1875 and April 1880; and **ALESSANDRA CRISCI**, dead between December 1867 and September 1878, **who is not on this line at all** — she is the wife of a Matteo Falco of the Contrada Camellara whom no act joins to it. **Two women, one of them this family's own, the same surname and the same silence.** *It is recorded as a pattern and it is not explained.*",
 "ark": "3:1:3QSQ-G97F-MZV7 — FamilySearch MC55-VNL img 1079 left page, Arienzo Morti 1886 act 73 — READ FROM THE IMAGE"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "15 Sep 1840",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the mother in the birth act of 15 Sep 1840: ANDREANA CRISCI, forty.",
+"ark": "ANTENATI an_ua14437 (Arienzo, Nati 1840) atto 89, img 93 right + 94 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -9481,6 +9592,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
 "via": "register",
 "vias": [
 "register"
@@ -9849,6 +9968,20 @@
 "place": "Arienzo",
 "evidence": "«CRISCI ANIELLO … CRISCI CRESCENZO, e QUOTOLO ANGELA» — his parents named. A SECOND FALCO-CRISCI MARRIAGE in eleven years: Anna Falco, daughter of Pasquale, married an Arcangelo of the same surname in 1818, and Giovanna, daughter of Giuseppe, marries Aniello here. The two brides were FIRST COUSINS",
 "ark": "ANTENATI an_ua14128 (Arienzo, Matrimonj indice 1829) img 1 atto 10 — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "10 Feb 1839",
+"place": "Arienzo, strada Crisci",
+"evidence": "Named as the father in the birth act of 10 Feb 1839: ANIELLO CRISCI, thirty-two, contadino, strada Crisci — declarant.",
+"ark": "ANTENATI an_ua14436 (Arienzo, Nati 1839) atto 19, img 20 right + 21 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "30 Oct 1840",
+"place": "Arienzo, strada Crisci",
+"evidence": "Named as the father in the birth act of 30 Oct 1840: ANIELLO CRISCI, forty-six, contadino, strada Crisci — declarant.",
+"ark": "ANTENATI an_ua14437 (Arienzo, Nati 1840) atto 99, img 103 right + 104 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -9895,10 +10028,11 @@
 ]
 },
 {
-"slug": "luigi-crisci",
+"slug": "luigi-crisci-2",
 "name": "Luigi Crisci",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -9908,6 +10042,14 @@
 "via": "tree",
 "vias": [
 "tree"
+]
+},
+{
+"slug": "maria-maddalena-crisci",
+"name": "Maria Maddalena Crisci (of Aniello, b. 1839)",
+"via": "register",
+"vias": [
+"register"
 ]
 }
 ],
@@ -10684,7 +10826,7 @@
 ]
 },
 {
-"slug": "luigi-crisci",
+"slug": "luigi-crisci-2",
 "name": "Luigi Crisci",
 "via": "tree",
 "vias": [
@@ -10765,7 +10907,7 @@
 ]
 },
 {
-"slug": "luigi-crisci",
+"slug": "luigi-crisci-2",
 "name": "Luigi Crisci",
 "via": "tree",
 "vias": [
@@ -11379,7 +11521,7 @@
 ]
 },
 {
-"slug": "maria-falco-of-raffaele-morgillo-maria-falco",
+"slug": "maria-morgillo",
 "name": "Maria Falco (Morgillo)",
 "via": "tree",
 "vias": [
@@ -11964,13 +12106,23 @@
 }
 },
 {
-"slug": "luigi-crisci",
-"name": "Luigi Crisci",
+"slug": "luigi-crisci-2",
+"name": "Luigi Crisci (of Aniello, b. 1840)",
 "surname": "CRISCI",
-"household": null,
-"role": null,
-"events": [],
+"household": "Aniello Crisci & Giovanna Falco",
+"hid": "aniello-crisci-giovanna-falco",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "30 Oct 1840",
+"place": "Arienzo, strada Crisci",
+"evidence": "Arienzo, *Nati* **1840**, **act 99**: «*è comparso Aniello Crisci di anni quarantasei, contadino … nato da **Giovanna Falco** sua moglie legittima di anni quarantuno … il nome di **Luigi***», declared 30 October at twenty-two hours; witnesses **Clemente Memola?** (33, strada Santa Lucia) and **Andrea Migliore** (36, barbiere). Baptism «*Luigi Crisci*». No margin note. **Giovanna is thirty-four in 1839 and forty-one in 1840 — seven years in nine months; the ages are the clerks'.** *In these years an act runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14437 (Arienzo, Nati 1840) atto 99, img 103 right + 104 left — READ FROM THE IMAGE"
+}
+],
 "sources": [
+"register",
 "tree"
 ],
 "living": false,
@@ -11978,16 +12130,18 @@
 {
 "slug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
 "name": "Aniello Crisci",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
 {
 "slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
 "name": "Giovanna Falco (Crisci)",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 }
@@ -11998,8 +12152,9 @@
 {
 "slug": "pasqualina-crisci",
 "name": "Pascalina Crisci",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -12026,15 +12181,70 @@
 "vias": [
 "tree"
 ]
+},
+{
+"slug": "maria-maddalena-crisci",
+"name": "Maria Maddalena Crisci (of Aniello, b. 1839)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
+"mergedOn": "name and dates",
 "treeId": 4512414,
-"b": "Oct 30 1840",
+"b": "30 Oct 1840",
 "dateFrom": {
-"b": "tree",
+"b": "act",
 "bp": "tree"
 },
 "bp": "Arienzo, Caserta, Campania, Italy"
+},
+{
+"slug": "maddalena-crisci",
+"name": "Maddalena Crisci (of Raffaele, b. 1839)",
+"surname": "CRISCI",
+"household": "Raffaele Crisci & Francesca Falco",
+"hid": "raffaele-crisci-francesca-falco",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "21 Oct 1839",
+"place": "Arienzo, strada Crisci",
+"evidence": "Arienzo, *Nati* **1839**, **act 96**: «*nata da **Francesca Falco** di anni venticinque, domiciliata strada Crisci, e da Raffaele Crisci marito della stessa … nel giorno ventuno … alle ore quattro … il nome di **Maddalena***», presented by the midwife **Caterina Ruggiero** (72, strada Sant'Andrea); witnesses **Pasquale Laudato** (48, calzolaio) and **Andrea Migliore** (29). Baptism «*Maddalena Crisci*». *In these years an act runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14436 (Arienzo, Nati 1839) atto 96, img 97 right + 98 left — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "raffaele-crisci",
+"name": "Raffaele Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "21 Oct 1839",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "marcello-crisci",
@@ -12234,6 +12444,69 @@
 }
 ],
 "siblings": []
+},
+{
+"slug": "maria-maddalena-crisci",
+"name": "Maria Maddalena Crisci (of Aniello, b. 1839)",
+"surname": "CRISCI",
+"household": "Aniello Crisci & Giovanna Falco",
+"hid": "aniello-crisci-giovanna-falco",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "10 Feb 1839",
+"place": "Arienzo, strada Crisci",
+"evidence": "Arienzo, *Nati* **1839**, **act 19**: «*è comparso **Aniello Crisci** di anni trentadue, contadino, domiciliato strada Crisci … nata da **Giovanna Falco** sua moglie legittima, di anni trentaquattro … nel giorno dieci … il nome di **Maria Maddalena***»; witnesses **Francesantonio Maccariello** (60, contadino, strada Castelletto della Croce) and **Giuseppe Crisci** (30). Baptism «*Maria Maddalena Crisci*». No margin note. *In these years an act runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14436 (Arienzo, Nati 1839) atto 19, img 20 right + 21 left — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "aniello-crisci-of-aniello-crisci-giovanna-falco",
+"name": "Aniello Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "pasqualina-crisci",
+"name": "Pasqualina Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "luigi-crisci-2",
+"name": "Luigi Crisci (of Aniello, b. 1840)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "10 Feb 1839",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "marta-crisci",
@@ -12560,10 +12833,11 @@
 ]
 },
 {
-"slug": "luigi-crisci",
+"slug": "luigi-crisci-2",
 "name": "Luigi Crisci",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -12573,6 +12847,14 @@
 "via": "tree",
 "vias": [
 "tree"
+]
+},
+{
+"slug": "maria-maddalena-crisci",
+"name": "Maria Maddalena Crisci (of Aniello, b. 1839)",
+"via": "register",
+"vias": [
+"register"
 ]
 }
 ],
@@ -12599,6 +12881,13 @@
 "place": "Arienzo",
 "evidence": "«CRISCI RAFFAELE … CRISCI GIUSEPPE, e [QUO]TOLA PAOLA» — his parents named. THE FOURTH FALCO-CRISCI MARRIAGE IN TWENTY-ONE YEARS, and the third into Giuseppe Falco's house alone",
 "ark": "ANTENATI an_ua14137 (Arienzo, Matrimonj indice 1839) img 1 atto 1 — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "21 Oct 1839",
+"place": "Arienzo, strada Crisci",
+"evidence": "Named as the father in the birth act of 21 Oct 1839: RAFFAELE CRISCI, about thirty, contadino, strada Crisci.",
+"ark": "ANTENATI an_ua14436 (Arienzo, Nati 1839) atto 96, img 97 right + 98 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -12634,7 +12923,16 @@
 ]
 }
 ],
-"children": [],
+"children": [
+{
+"slug": "maddalena-crisci",
+"name": "Maddalena Crisci (of Raffaele, b. 1839)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "siblings": [],
 "mergedOn": "name alone",
 "treeId": 4512418,
@@ -12761,7 +13059,7 @@
 ]
 },
 {
-"slug": "luigi-crisci",
+"slug": "luigi-crisci-2",
 "name": "Luigi Crisci",
 "via": "tree",
 "vias": [
@@ -13107,6 +13405,20 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "Named as the mother in the birth act of 17 Jan 1856: GIOVANNA D'AMBROSIO, forty, strada Camellara.",
 "ark": "ANTENATI an_ua14453 (Arienzo, Nati 1856) atto 6, img 14 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "19 Nov 1850",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the mother in the birth act of 19 Nov 1850: GIOVANNA D'AMBROSIO, thirty-four, strada Camellara.",
+"ark": "ANTENATI an_ua14447 (Arienzo, Nati 1850) atto 90, img 101 right + 102 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "29 Sep 1852",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the mother in the birth act of 29 Sep 1852: GIOVANNA D'AMBROSIO, forty-one.",
+"ark": "ANTENATI an_ua14449 (Arienzo, Nati 1852) atto 102, img 111 right + 112 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -14516,11 +14828,10 @@
 ]
 },
 {
-"slug": "maria-falco-of-raffaele-morgillo-maria-falco",
+"slug": "maria-morgillo",
 "name": "Maria Falco (Morgillo)",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
@@ -14648,6 +14959,14 @@
 {
 "slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
 "name": "Francesca Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-raffaele-morgillo-maria-falco",
+"name": "Maria Falco (wife of Raffaele Morgillo)",
 "via": "register",
 "vias": [
 "register"
@@ -16964,6 +17283,22 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "antonia-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Antonia Falco (of Angelo, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanbattista-falco",
+"name": "Giovanbattista Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "2 Aug 1861",
@@ -17038,6 +17373,20 @@
 "ark": "ANTENATI an_ua14451 (Arienzo, Nati 1854) atto 24, img 18 left — READ FROM THE IMAGE"
 },
 {
+"event": "named as father in his child's birth act",
+"date": "19 Feb 1847",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the father in the birth act of 19 Feb 1847: ANDREA FALCO, twenty-six, contadino, strada Camellara — declarant.",
+"ark": "ANTENATI an_ua14444 (Arienzo, Nati 1847) atto 15, img 17 right + 18 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "25 Jul 1851",
+"place": "Arienzo, strada Sant'Andrea",
+"evidence": "Named as the father in the birth act of 25 Jul 1851: ANDREA FALCO, twenty-eight, contadino — declarant's own house.",
+"ark": "ANTENATI an_ua14448 (Arienzo, Nati 1851) atto 77, img 89 right + 90 left — READ FROM THE IMAGE"
+},
+{
 "event": "marriage",
 "date": "—",
 "place": "Arienzo",
@@ -17102,18 +17451,20 @@
 ],
 "children": [
 {
-"slug": "maria-concetta-falco",
+"slug": "maria-concetta-falco-2",
 "name": "Maria Concetta Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
 {
-"slug": "marianna-falco",
+"slug": "marianna-falco-2",
 "name": "Marianna Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -17328,6 +17679,14 @@
 ]
 },
 {
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "sara-falco-2",
 "name": "Sara Falco",
 "via": "register",
@@ -17481,6 +17840,22 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "maria-concetta-falco-2",
+"name": "Maria Concetta Falco (of Andrea, b. 1847)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "marianna-falco-2",
+"name": "Marianna Falco (of Andrea, b. 1851)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "16 Feb 1854",
@@ -17529,6 +17904,14 @@
 "spouses": [],
 "children": [],
 "siblings": [
+{
+"slug": "carmino-falco",
+"name": "Carmino Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
 {
 "slug": "pasquale-falco-of-luigi-falco-carolina-cimmino",
 "name": "Pasquale Falco (of Luigi, b. 1858)",
@@ -17718,7 +18101,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "maria-concetta-falco",
+"slug": "maria-concetta-falco-2",
 "name": "Maria Concetta Falco",
 "via": "tree",
 "vias": [
@@ -17726,7 +18109,7 @@
 ]
 },
 {
-"slug": "marianna-falco",
+"slug": "marianna-falco-2",
 "name": "Marianna Falco",
 "via": "tree",
 "vias": [
@@ -18022,6 +18405,14 @@
 {
 "slug": "clementina-falco-2",
 "name": "Clementina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clementina-falco-of-matteo-falco-alessandra-crisci",
+"name": "Clementina Falco (of Matteo, b. 1848)",
 "via": "register",
 "vias": [
 "register"
@@ -18887,7 +19278,7 @@
 ]
 },
 {
-"slug": "clementina-falco-2",
+"slug": "clementina-falco",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -19120,6 +19511,14 @@
 ]
 },
 {
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "sara-falco-2",
 "name": "Sara Falco",
 "via": "register",
@@ -19333,6 +19732,14 @@
 ]
 },
 {
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "sara-falco-2",
 "name": "Sara Falco",
 "via": "register",
@@ -19446,6 +19853,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giovanni-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Giovanni Falco (of Crescenzo, b. 1850)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "27 Mar 1862",
@@ -19495,6 +19910,27 @@
 "place": "Arienzo, strada Santa Lucia",
 "evidence": "Named as the father in the birth act of 15 Aug 1855: ANGELO FALCO, twenty-eight, «*industriante*», strada Santa Lucia.",
 "ark": "ANTENATI an_ua14452 (Arienzo, Nati 1855) atto 69, img 37 right — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "22 Feb 1848",
+"place": "Arienzo, strada Santa Lucia",
+"evidence": "Named as the father in the birth act of 22 Feb 1848: ANGELO FALCO, twenty-four, contadino, strada Santa Lucia.",
+"ark": "ANTENATI an_ua14445 (Arienzo, Nati 1848) atto 10, img 11 right + 12 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "26 Feb 1850",
+"place": "Arienzo, strada Croce",
+"evidence": "Named as the father in the birth act of 26 Feb 1850: ANGELO FALCO, twenty-six or twenty-seven, contadino, strada Croce — declarant.",
+"ark": "ANTENATI an_ua14447 (Arienzo, Nati 1850) atto 19, img 27 right + 28 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "22 Jun 1852",
+"place": "Arienzo, strada Santa Lucia",
+"evidence": "Named as the father in the birth act of 22 Jun 1852: ANGELO FALCO «marito di Maria Cimmino», thirty-two, contadino, strada Santa Lucia — declarant.",
+"ark": "ANTENATI an_ua14449 (Arienzo, Nati 1852) atto 78, img 87 right + 88 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -19548,6 +19984,22 @@
 {
 "slug": "costanza-falco-of-angelo-falco-annamaria-cimmino-cor",
 "name": "Costanza Falco (of Angelo, b. 1855)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonia-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Antonia Falco (of Angelo, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanbattista-falco",
+"name": "Giovanbattista Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -20887,11 +21339,10 @@
 ]
 },
 {
-"slug": "clementina-falco-2",
+"slug": "clementina-falco",
 "name": "Clementina Falco (Biondo)",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
@@ -20934,6 +21385,22 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "clementina-falco-2",
+"name": "Clementina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clementina-falco-of-matteo-falco-alessandra-crisci",
+"name": "Clementina Falco (of Matteo, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "mergedOn": "both parents and an exact birth or death date — the name was never used, and this archive holds more than one person of it",
@@ -20963,6 +21430,13 @@
 "place": "Arienzo, via Orticelli 8",
 "evidence": "Arienzo, *Morti* **1885**, **act 28**: «*L'anno milleottocentottantacinque, addì **ventidue** di **giugno**, a ore antimeridiane **otto** e minuti **venti** … sono comparsi **GIOACCHINO FALCO**, di anni **quaranta**, *giornaliere*, domiciliato in Arienzo, e **SALVATORE CRISCI**, di anni **ventisei**, *calzolaio*, domiciliato in Arienzo, i quali mi hanno dichiarato che a ore pomeridiane **sette** e minuti **trenta** di **ieri**, nella casa posta in **via Orticelli** al numero **OTTO**, è morta **ANTONIA FALCO**, *filatrice*, di anni **TRENTACINQUE**, residente in Arienzo, nata in Arienzo, **dal fu MICHELE**, *contadino*, domiciliato in Arienzo, e da **GIOVANNA D'AMBROGIO**, *filatrice*, domiciliata in Arienzo — **moglie di ANTONIO ZIMBARDO***».\n\n**THE ARITHMETIC CLOSES TO THE MONTH.** This household's wedding act of 12 February 1850 records that a daughter **ANTONIA was born 19 November 1850**. *Nineteen November 1850 to twenty-one June 1885 is **thirty-four years and seven months**, and the act says **thirty-five**. Same forename, same parents, same comune.* **She is that child, grown and married.**\n\n**AND THE ACT DATES HER FATHER'S DEATH FROM ONE SIDE.** «*dal **fu** MICHELE*» — but **MICHELE FALCO WAS ALIVE AND RESIDENT IN ARIENZO IN DECEMBER 1878**, named without *fu* in his daughter Maria Carmina's marriage act. **So he died between December 1878 and June 1885**, and Arienzo's death registers for those years are in `MC55-VNL` and mostly unopened. *The window was «after 1850» this morning; it is six and a half years now.*\n\n**AND HER MOTHER WAS STILL ALIVE**, a *filatrice* of Arienzo at about seventy-four.\n\n**She died in the house of GIOACCHINO FALCO**, via Orticelli 8, who declared the act. *A declarant is never kinship here; that she died in his house is a fact about an address and it is recorded as one.*",
 "ark": "3:1:3QS7-897F-94H — FamilySearch MC55-VNL img 952, Arienzo Morti 1885 act 28 — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "19 Nov 1850",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo, *Nati* **1850**, **act 90**: presented by the midwife **Felicia Martone** (60-odd): «*nata da **Giovanna d'Ambrogio** moglie di **Michele Falco** di anni trentaquattro, contadina, strada Camellara, e da Michele Falco di anni quarantasei, contadino … nel giorno diciannove di Novembre alle ore dodici nella casa di esso Falco … il nome di **Antonia***»; witnesses **Matteo Crispi** (50, mugnaio) and **Clemente Crispi** (40, mugnaio), strada Porta di sopra. Baptism «*Antonia Falco*». **MARGIN: «*A 26 Aprile 1875 … Antonia Falco con Antonio Zimbardo. Caserta 23 Febbraio? 1884*»** — **the husband named in her death act of 1885.** *An act of these years runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14447 (Arienzo, Nati 1850) atto 90, img 101 right + 102 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -21015,9 +21489,152 @@
 ]
 }
 ],
-"d": "21 Jun 1885",
+"b": "19 Nov 1850",
 "dateFrom": {
+"b": "act",
 "d": "act"
+},
+"d": "21 Jun 1885"
+},
+{
+"slug": "antonia-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Antonia Falco (of Angelo, b. 1848)",
+"surname": "FALCO",
+"household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+"hid": "angelo-falco-annamaria-cimmino-corso-caudino",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "22 Feb 1848",
+"place": "Arienzo, strada Santa Lucia",
+"evidence": "Arienzo, *Nati* **1848**, **act 10**: «*nata da **Maria Cimmino** di anni ventiquattro, domiciliata ivi, strada **Santa Lucia**, e da **Angelo Falco** di anni ventiquattro, contadino … nel giorno ventidue di Febbrajo, alle ore diciassette … il nome di **Antonia***», presented by the midwife **Felicia Martone** (60); witnesses **Clemente Crisci** (40, calzolajo) and **Antonio Sarzone** (contadino). Baptism «*Antonia Falco*». **THIS IS THE EARLIEST BIRTH OF THE HOUSE, AND IT BEARS ON WORK-LIST ROW 111: it falls eleven months after the marriage of ANGELANDREA FALCO and MARIA CIMMINO (29 March 1847).** *Not joined — the clerks' ages and the Cimmino wife agree, and the archive does not undo a refusal on an inference.* *In these years an act runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14445 (Arienzo, Nati 1848) atto 10, img 11 right + 12 left — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "annamaria-cimmino",
+"name": "Annamaria Cimmino",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "vincenzo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Vincenzo Falco (of Angelo, d. 1889)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Carmela Falco (of Angelo, b. c.1863)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clemente-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Clemente Falco (of Angelo, b. c.1858)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "alfonso-isidoro-falco",
+"name": "Alfonso Isidoro Falco (of Angelo, b. 1861)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "costanza-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Costanza Falco (of Angelo, b. 1855)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanbattista-falco",
+"name": "Giovanbattista Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "22 Feb 1848",
+"dateFrom": {
+"b": "act"
+}
+},
+{
+"slug": "antonia-falco-of-vincenzo-falco-maria-morgillo-stra",
+"name": "Antonia Falco (of Vincenzo and Maria Morgillo, b. 1852)",
+"surname": "FALCO",
+"household": "Vincenzo Falco & Maria Morgillo (strada Camellara)",
+"hid": "vincenzo-falco-maria-morgillo-strada-camellara",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "20 Jun 1852",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo, *Nati* **1852**, **act 76**: «*è comparso **Vincenzo Falco** di anni quaranta, contadino, strada **Camellara** … nata da **Maria Morgillo** sua moglie legittima di anni trentuno … nel giorno venti di Giugno alle ore sedici nella casa propria di abitazione … il nome di **Antonia***», declared 21 June; witnesses **Giuseppe Diglio** (30, contadino, strada Santa Lucia) and **Angelo Cillo** (35, contadino, Porta di sopra). Baptism «*Antonia Falco*». No margin note. **A Vincenzo Falco of about forty, born about 1812 — NOT the Vincenzo Falco of Andreana Crisci (b. 1792, and sixty); no kinship to any Falco household is claimed here.** *An act of these years runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14449 (Arienzo, Nati 1852) atto 76, img 85 right + 86 left — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "vincenzo-falco-of-vincenzo-falco-maria-morgillo-stra",
+"name": "Vincenzo Falco (of Maria Morgillo)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-morgillo",
+"name": "Maria Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "20 Jun 1852",
+"dateFrom": {
+"b": "act"
 }
 },
 {
@@ -21553,6 +22170,14 @@
 ]
 },
 {
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "sara-falco-2",
 "name": "Sara Falco",
 "via": "register",
@@ -21585,6 +22210,133 @@
 "bp": "tree"
 },
 "bp": "Arienzo, Caserta, Campania, Italia"
+},
+{
+"slug": "antonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Antonio Falco (of Francesco, b. 1848)",
+"surname": "FALCO",
+"household": "Francesco Falco & Raffaela Falco",
+"hid": "francesco-falco-raffaela-falco",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "25 Sep 1848",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo, *Nati* **1848**, **act 75**: «*è comparso Francesco Falco di anni trentatre, contadino, domiciliato strada Camellara … nato da Raffaela Falco sua moglie legittima di anni ventotto … il nome di **Antonio***», declared 26 September; witnesses **Antonio Zeppetella?** (contadino, strada Signorindico) and **Angelo Marziano?** (calzolajo); a **Vincenzo Falco** signs as witness as well (the readers' line is not certain). Baptism «*Antonio Falco*». *In these years an act runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14445 (Arienzo, Nati 1848) atto 75, img 76 right + 77 left — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "francescantonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Francescantonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaela-falco-of-francesco-falco-raffaela-falco",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco",
+"name": "Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmina-falco",
+"name": "Carmina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasqualina-falco",
+"name": "Pasqualina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-francesco-falco-raffaela-falco",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carmela-falco-of-francesco-falco-raffaela-falco",
+"name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-francesco-falco-raffaela-falco",
+"name": "Raffaele Falco (of Francescantonio, 1837)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "chiara-falco-2",
+"name": "Chiara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-francesco-falco-raffaela-falco",
+"name": "Giovanni Falco (of Francescantonio, b. 1851)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Gioacchino Falco (of via Orticelli)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "25 Sep 1848",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "antonio-falco-of-giuseppe-falco-gelsomina-vigliotta",
@@ -22844,11 +23596,10 @@
 ]
 },
 {
-"slug": "clementina-falco-2",
+"slug": "clementina-falco",
 "name": "Clementina Falco (Biondo)",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
@@ -22900,6 +23651,22 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "clementina-falco-2",
+"name": "Clementina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clementina-falco-of-matteo-falco-alessandra-crisci",
+"name": "Clementina Falco (of Matteo, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "mergedOn": "both parents and an exact birth or death date — the name was never used, and this archive holds more than one person of it",
@@ -22914,6 +23681,93 @@
 "d": "25 May 1883",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
+},
+{
+"slug": "carmela-falco-of-michele-falco-antonia-vigliotta",
+"name": "Carmela Falco (of Michele, b. 1843)",
+"surname": "FALCO",
+"household": "Michele Falco & Antonia Vigliotta",
+"hid": "michele-falco-antonia-vigliotta",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "16 Jul 1843",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo, *Nati* **1843**, **act 63**: «*è comparso **Michele Falco** di anni trentacinque, contadino, strada **Camellara** … nata da **Antonia [Diglio?]** sua moglie legittima di anni trenta … nel giorno sedici di Luglio alle ore sei nella casa propria … il nome di **Carmela***»; witnesses **Simone di Guida** (36, contadino, strada Maddalena) and **Orazio Diglio** (pagliajo?, Sant'Andrea). Baptism «*Carmela Falco*». **Eleven months after this house buried its Matteo (24 August 1842).** No margin note. *An act of these years runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14440 (Arienzo, Nati 1843) atto 63, img 65 right + 66 left — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "michele-falco-of-michele-falco-antonia-vigliotta",
+"name": "Michele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonia-vigliotta",
+"name": "Antonia Vigliotta",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "matteo-falco-of-michele-falco-antonia-vigliotta",
+"name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "salvatore-falco",
+"name": "Salvatore Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-rosa-falco-of-michele-falco-antonia-vigliotta",
+"name": "Maria Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-michele-falco-antonia-vigliotta",
+"name": "Pasquale Falco (of Michele, d. 1862)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-michele-falco-antonia-vigliotta-2",
+"name": "Matteo Falco (of Michele, 1840-1842)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "16 Jul 1843",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "carmela-falco-of-angelo-falco-annamaria-cimmino-cor",
@@ -22990,6 +23844,22 @@
 {
 "slug": "costanza-falco-of-angelo-falco-annamaria-cimmino-cor",
 "name": "Costanza Falco (of Angelo, b. 1855)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonia-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Antonia Falco (of Angelo, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanbattista-falco",
+"name": "Giovanbattista Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -23376,8 +24246,32 @@
 ]
 },
 {
+"slug": "antonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Antonio Falco (of Francesco, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-francesco-falco-raffaela-falco",
+"name": "Giovanni Falco (of Francescantonio, b. 1851)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Gioacchino Falco (of via Orticelli)",
 "via": "register",
 "vias": [
 "register"
@@ -23468,6 +24362,13 @@
 "place": "Arienzo",
 "evidence": "GENERATION FIVE. Son of Raffaele Falco and Angela Rosa Morgillo. MARRIED GIOVANNA ARRICALE ON 18 NOVEMBER 1872 AT ARIENZO — the date, not just the year. Named in his son's marriage dossier of 1897 and again in his daughter's banns of 1902 — «figlia di CARMINANTONIO, residente in Arienzo». THE TWO DOCUMENTS DISAGREE ABOUT HIS AGE: forty-six in August 1897, fifty-five in August 1902 — nine years of ageing in five years. The archive publishes the discrepancy rather than smoothing it\n\n---\n\n**THE ACT ITSELF, READ FROM THE IMAGE 9 OCTOBER 2026 — the marriage of generation five, out of a register this archive had published as lost.** Arienzo, **atto 35 of 1872**, `MC55-FNT` image 710, margin heading «*N.º 35 — Matrimonio che si contrae tra **CARMINE ANTONIO FALCO** e **GIOVANNA ARRICALE***»:\n\n> «*L'anno milleottocentosettantadue, nel giorno **diciotto** del mese di **Novembre**, nella Casa Comunale alle ore **quindici**. Dinanzi a me **NICOLA FINELLI Sindaco** di questo Comune di **Arienzo**, Circondario di Caserta, Provincia di Terra di Lavoro, Ufficiale dello Stato Civile, colla presenza di **Gennaro Imbimbo fu Vincenzo di anni sessanta** e di **Andrea Saccone fu Domenico di anni cinquantatré**, ambi scribenti, domiciliati in Arienzo, testimoni scelti da' dichiaranti in appresso designati, sono comparsi **CARMINE ANTONIO FALCO, CONTADINO, DI ANNI VENTIDUE COMPITI, NATO E DOMICILIATO IN ARIENZO, FIGLIO DI RAFFAELE E ANGELAROSA MORGILLO, CONTADINI, DOMICILIATI COL FIGLIO**; e **GIOVANNA ARRICALE, CONTADINA, DI ANNI VENTIQUATTRO COMPITI, parimente nata e domiciliata in Arienzo, FIGLIA DEL FU FRANCESCO E DELLA VIVENTE PASQUA FALCO, contadina, domiciliata con la figlia***» — publications **27 October** and **3 November 1872**.\n\n**THE DATE WAS ALREADY HELD; THE ACT WAS NOT.** *18 November 1872 came from a margin annotation on Giovanna's own birth act and from the 1897 processetto. **Neither is the act**, and three things here are new:*\n\n- **«DI ANNI VENTIDUE COMPITI»** — twenty-two *completed* in November 1872 puts his birth between November 1849 and November 1850. **This archive has his birth act: 10 July 1850.** *The act and the birth agree to the month, from two registers eighty-six images apart.*\n- **«FIGLIO DI RAFFAELE E ANGELAROSA MORGILLO, CONTADINI, DOMICILIATI COL FIGLIO»** — **his parents were alive and living in his house on 18 November 1872.** *And the act writes the mother **ANGELAROSA**, one word, where this archive has «Angela Rosa» and «Maria Rosa». **The variant is recorded, not resolved.***\n- **«DELLA VIVENTE PASQUA FALCO»** — see her own row. **She was alive.**",
 "ark": "birth 6Y2Z-5G8Q + Arienzo banns of August 1902, 3QS7-8976-3K95"
+},
+{
+"event": "birth",
+"date": "10 Jul 1850",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo, *Nati* **1850**, **act 52** — **HIS OWN BIRTH ACT.** «*è comparsa **Felicia Martone** … di anni sessantasei?, levatrice, strada porta di sopra, quale ci ha presentato un maschio … è nato da **Angela [Rosa] Morgillo** moglie di **Raffaele Falco** di anni venticinque, contadina, strada **Camellara**, e da **Raffaele Falco** di anni ventotto, contadino, domiciliato ivi … nel giorno **dieci** del mese di **Luglio** … alle ore sedici nella casa di esso Falco … il nome di **Carmine Antonio***», declared **11 July 1850**; witnesses **Angelo Anzovino** (calzolaio, strada Terra Murata) and **Pasquale Montesarchio** (50, muratore, strada Terra Murata). Baptism column: «*Carminantonio Falco*». **MARGIN, read at 2,800 px: «*A 18 Novembre 1872 l'uff.le dello stato civ.e d'Arienzo ha sposato Carmine Falco con Giovanna Arricale. Caserta 3 Giugno 1884*»** — **the marriage this archive holds for him, now tied to his birth and to his parents by the register itself.** *The tree and the later acts said 10 July 1850; this is the act.* *An act of these years runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14447 (Arienzo, Nati 1850) atto 52, img 60 right + 61 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -23482,14 +24383,16 @@
 "via": "line",
 "vias": [
 "line",
+"register",
 "tree"
 ]
 },
 {
 "slug": "angela-rosa-morgillo",
 "name": "Angela Rosa Morgillo (Falco)",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 }
@@ -23586,8 +24489,9 @@
 {
 "slug": "vincenza-falco",
 "name": "Vincenza Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 }
@@ -24307,13 +25211,37 @@
 "place": "Arienzo, via Corso Caudino 80",
 "evidence": "Arienzo, *Nascite* **1886**, Parte I, **act 94**: «*L'anno milleottocentottantasei, addì **ventuno** di **luglio**, a ore antimeridiane **nove** e minuti **venti** … è comparso **CARMINO FALCO** di anni **TRENTA**, ***carrettiere***, domiciliato in questo comune, il quale mi ha dichiarato che alle ore pomeridiane **sei** e minuti **trenta** del dì **diciannove** del corrente mese, nella casa posta in **via Corso Caudino** al numero **OTTANTA**, da **GIOVANNA PELLONE sua moglie, cucitrice**, seco lui convivente, è nato un bambino di sesso femminino … a cui dà il nome di **CAROLINA***». Witnesses **Raffaele Arricale**, 36, *carrettiere*, and **Clemente Arricale**, 28, *carrettiere*.\n\n**Thirty in July 1886, so born about 1856**, and a **carter** — as every Falco of this street is.\n\n**HE IS THE THIRD FALCO CARTER OF THE CORSO CAUDINO, AND THE SECOND AT NUMBER EIGHTY.** **CLEMENTE FALCO**, *vetturale*, twenty-seven, declared a son at **Corso Caudino 80** eighteen months before this; **VINCENZO FALCO**, *vetturale*, thirty-three, declared a son at **Corso Caudino 88** in January 1884 and is the son of **ANGELO FALCO and ANNAMARIA CIMMINO** of that street. *Three men born about 1850, 1856 and 1857, in one trade, in two houses of one street, and two of them married to a **PELLONE**.*\n\n**AND NOTHING READ SO FAR NAMES CARMINO'S FATHER.** A birth act names the child's parents, not the declarant's. **This archive does not attach a man to a house on a street, a trade and a wife's surname** — the proof is his own marriage act, which will name his father, and Arienzo's marriage registers of the 1870s and 1880s are where it must be.\n\n**AND HE IS IN THE SAME BOOKS TWO YEARS EARLIER, WITH THE AGE TWO YEARS OUT THE WRONG WAY.** Arienzo, *Nascite* **1884**, **act 80**, 15 May 1884: «*è comparso **CARMINO FALCO** di anni **TRENTADUE**, *vetturale*, domiciliato in questo comune … nella casa posta in **via Corso Caudino** al numero **OTTANTADUE**, da **GIOVANNA PELLONE sua moglie, cucitrice** … a cui dà il nome di **CARLO***». **Thirty-two in May 1884 and thirty in July 1886** — born about 1852 by the first act and about 1856 by the second. *Same wife, same street, same trade; the ages in these acts are the declarant's own word and they wobble by years. **Nothing here chooses between them.***",
 "ark": "3:1:3QSQ-G97F-9HN — FamilySearch MC55-VNL img 1029, Arienzo Nascite 1886 Parte I act 94 — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "14 Jan 1852",
+"place": "Arienzo, strada Capodiconca",
+"evidence": "Arienzo, *Nati* **1852**, **act 9** — **CARMINE FALCO, SON OF LUIGI.** «*è comparso **Luigi Falco** di anni trentatre?, contadino, strada **Capodiconca** … nato da **Carolina Cimmino** sua moglie legittima di anni ventidue … nel giorno quattordici di Gennajo alle ore quattro nella casa propria di abitazione … il nome di **Carmine***»; witnesses **Luigi Crispi** (contadino) and **Giuseppe Rizzi?** (vaticale, Sant'Andrea). Baptism «*Carmine Falco*». **MARGIN: «*A 19 agosto 1875 l'uff.le dello stato civ.e d'Arienzo ha posto Carmine Falco con Giovanna Pellone. Caserta 2 agosto 1884*»** — **the marriage of the Carmine Falco who heads the house recorded as «of Corso Caudino», to the wife born 1855.** *An act of these years runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14449 (Arienzo, Nati 1852) atto 9, img 17 right + 18 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
 "register"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "luigi-falco-of-luigi-falco-carolina-cimmino",
+"name": "Luigi Falco (of Carolina Cimmino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carolina-cimmino-of-luigi-falco-carolina-cimmino",
+"name": "Carolina Cimmino",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "spouses": [
 {
 "slug": "giovanna-pellone-2",
@@ -24366,7 +25294,44 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [
+{
+"slug": "pasquale-falco-of-luigi-falco-carolina-cimmino",
+"name": "Pasquale Falco (of Luigi, b. 1858)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "costanza-falco-of-luigi-falco-carolina-cimmino",
+"name": "Costanza Falco (of Luigi, b. 1859)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "costanza-falco-of-luigi-falco-carolina-cimmino-2",
+"name": "Costanza Falco (of Luigi, b. 1862)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "andreana-falco-of-luigi-falco-carolina-cimmino",
+"name": "Andreana Falco (of Luigi, b. 1855)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "14 Jan 1852",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "carolina-falco-2-2",
@@ -24875,6 +25840,13 @@
 "place": "Arienzo",
 "evidence": "**A DAUGHTER THIS HOUSEHOLD DID NOT HAVE, AND SHE IS THE ONLY ONE OF IT KNOWN TO HAVE GROWN UP.** Arienzo, *Matrimoni* **1882**, **act 14**, **3 September 1882** at 10.20 in the morning, before **CIOFFARI ALFONSO**, Assessore delegato: «*2.° **FALCO CHIARA**, di anni **TRENTANOVE**, *contadina*, nata in ARIENZO, residente in Arienzo, **figlia del fu FRANCESCO**, residente in vita colla figlia, e **della fu RAFFAELA FALCO**, residente in vita col marito*». She married **LETTIERI ANGELO**, **trentasette**, ***pastaio***, son of the late **MARCO LETTIERI** and the late **GIUSEPPA SADUTTO**.\n\n**Thirty-nine in September 1882 is born about 1843**, which falls inside this household's documented span: the parents married 6 July 1832 and Raffaela Falco died 20 April 1854. *Of the eight children now held here, **five died as infants or children** — Carmina 1832, Pasqualina 1836, Pasquale 1838, Clemente 1853 — and Chiara is the first who is seen marrying.*\n\n**AND IT DATES HER FATHER'S DEATH FROM ONE SIDE.** «*del **fu** FRANCESCO*»: **FRANCESCANTONIO FALCO was dead by 3 September 1882**, and this archive had no death for him at all.\n\n*Her mother-in-law **GIUSEPPA SADUTTO** carries a surname this archive holds once — **Elisabetta Sadutto**, wife of a Pasquale Falco. **Nothing joins them.***",
 "ark": "3:1:3QS7-897F-MQXG — FamilySearch MC55-VNL img 521 right page, Arienzo Matrimoni 1882 act 14 — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "19 Dec 1843",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo, *Nati* **1843**, **act 112**: «*è comparso **Francesco Falco** di anni ventiquattro, contadino, strada **Camellara** … nata da **Raffaela Falco** sua moglie legittima di anni venticinque … nel giorno diciannove di Dicembre alle ore ventuno … il nome di **Chiara***»; witnesses **Giuseppe Dafrecetta?** (barbiere, Terra Murata) and **Andrea Sirone** (30, fabbricatore, Porta di sopra). Baptism «*Chiara Falco*». **MARGIN: «*A 3 Settembre 1882 l'uff.le dello stato civ.e d'Arienzo ha sposato Chiara Falco con Angelo Lettieri. Caserta 3 Giugno 1884*»** — **the marriage this house already holds, now tied to her birth.** *Four more things in the act: Francesco's age is twenty-four here, thirty-three in 1839 and thirty-two in 1842 — the clerks' ages.* *An act of these years runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14440 (Arienzo, Nati 1843) atto 112, img 114 right + 115 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -24930,8 +25902,9 @@
 {
 "slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
 "name": "Gioacchino / Guglielmo Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -25008,6 +25981,22 @@
 ]
 },
 {
+"slug": "antonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Antonio Falco (of Francesco, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-francesco-falco-raffaela-falco",
+"name": "Giovanni Falco (of Francescantonio, b. 1851)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
 "via": "register",
@@ -25018,9 +26007,9 @@
 ],
 "mergedOn": "name and dates",
 "treeId": 4512499,
-"b": "Dec 19 1843",
+"b": "19 Dec 1843",
 "dateFrom": {
-"b": "tree"
+"b": "act"
 }
 },
 {
@@ -25075,6 +26064,22 @@
 {
 "slug": "andreana-falco-of-andrea-falco-maria-carmela-buono",
 "name": "Andreana Falco (of Andrea, b. 1854)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-concetta-falco-2",
+"name": "Maria Concetta Falco (of Andrea, b. 1847)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "marianna-falco-2",
+"name": "Marianna Falco (of Andrea, b. 1851)",
 "via": "register",
 "vias": [
 "register"
@@ -25368,8 +26373,32 @@
 ]
 },
 {
+"slug": "antonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Antonio Falco (of Francesco, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-francesco-falco-raffaela-falco",
+"name": "Giovanni Falco (of Francescantonio, b. 1851)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Gioacchino Falco (of via Orticelli)",
 "via": "register",
 "vias": [
 "register"
@@ -25456,6 +26485,22 @@
 {
 "slug": "costanza-falco-of-angelo-falco-annamaria-cimmino-cor",
 "name": "Costanza Falco (of Angelo, b. 1855)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonia-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Antonia Falco (of Angelo, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanbattista-falco",
+"name": "Giovanbattista Falco (of Corso Caudino)",
 "via": "register",
 "vias": [
 "register"
@@ -25743,7 +26788,231 @@
 }
 ],
 "sources": [
-"register",
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "alessandra-crisci",
+"name": "Alessandra Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
+"name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "domenica-falco",
+"name": "Domenica Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-falco-of-matteo-falco-alessandra-crisci",
+"name": "Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "filomena-falco",
+"name": "Filomena Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenza-falco-of-matteo-falco-alessandra-crisci",
+"name": "Vincenza Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-matteo-falco-alessandra-crisci",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonia-falco-d-1866",
+"name": "Antonia Falco (d. 1866)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-matteo-falco-alessandra-crisci",
+"name": "Maria Falco (b. 1844)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco-of-matteo-falco-alessandra-crisci",
+"name": "Carmela Falco (b. 1838)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clementina-falco-of-matteo-falco-alessandra-crisci",
+"name": "Clementina Falco (of Matteo, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
+},
+{
+"slug": "clementina-falco-of-matteo-falco-alessandra-crisci",
+"name": "Clementina Falco (of Matteo, b. 1848)",
+"surname": "FALCO",
+"household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "Dec 1848",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo, *Nati* **1848**, **act 113** (declared in December at sixteen hours; the day word is not certain): «*è comparso **Matteo Falco** di anni trentasei, colono, domiciliato strada Camellara … nata da **Alessandra [Crisci]** sua moglie legittima di anni trentaquattro … il nome di **Clementina***»; witnesses **Domenico Migliore** (50) and **Nicola Migliore** (50). Baptism «*Clementina Falco*». **MARGIN, read at 2,800 px: «*A 1° Settembre 1878 l'uff.le dello stato civ.e di Arienzo sposò Clementina Falco con Nicola Biondo. Caserta 13 Maggio 1882*»** — **the marriage this house already held for Clementina, now tied to her own birth.** *In these years an act runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14445 (Arienzo, Nati 1848) atto 113, img 114 right + 115 left — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "alessandra-crisci",
+"name": "Alessandra Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
+"name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "domenica-falco",
+"name": "Domenica Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-falco-of-matteo-falco-alessandra-crisci",
+"name": "Angela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "filomena-falco",
+"name": "Filomena Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenza-falco-of-matteo-falco-alessandra-crisci",
+"name": "Vincenza Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-matteo-falco-alessandra-crisci",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonia-falco-d-1866",
+"name": "Antonia Falco (d. 1866)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-matteo-falco-alessandra-crisci",
+"name": "Maria Falco (b. 1844)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco-of-matteo-falco-alessandra-crisci",
+"name": "Carmela Falco (b. 1838)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clementina-falco-2",
+"name": "Clementina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "Dec 1848",
+"dateFrom": {
+"b": "act"
+}
+},
+{
+"slug": "clementina-falco",
+"name": "Clementina Falco (Biondo)",
+"surname": "FALCO",
+"household": null,
+"role": null,
+"events": [],
+"sources": [
 "tree"
 ],
 "living": false,
@@ -25751,18 +27020,16 @@
 {
 "slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
 "name": "Matteo Falco",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
 {
 "slug": "alessandra-crisci",
 "name": "Alessandra Crisci (Falco)",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 }
@@ -25847,9 +27114,8 @@
 {
 "slug": "carmela-falco-of-matteo-falco-alessandra-crisci",
 "name": "Carmela Falco (Ruotolo)",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
@@ -25888,63 +27154,20 @@
 {
 "slug": "domenica-falco",
 "name": "Domenica Falco (Guida)",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
 {
 "slug": "antonia-falco-d-1866",
 "name": "Antonia Falco",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
-]
-},
-{
-"slug": "angela-falco-of-matteo-falco-alessandra-crisci",
-"name": "Angela Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "filomena-falco",
-"name": "Filomena Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "vincenza-falco-of-matteo-falco-alessandra-crisci",
-"name": "Vincenza Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "giuseppe-falco-of-matteo-falco-alessandra-crisci",
-"name": "Giuseppe Falco",
-"via": "register",
-"vias": [
-"register"
-]
-},
-{
-"slug": "maria-falco-of-matteo-falco-alessandra-crisci",
-"name": "Maria Falco (b. 1844)",
-"via": "register",
-"vias": [
-"register"
 ]
 }
 ],
-"mergedOn": "name and dates",
 "treeId": 4512437,
 "b": "Dec 18 1848",
 "dateFrom": {
@@ -26029,6 +27252,22 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "antonia-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Antonia Falco (of Angelo, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanbattista-falco",
+"name": "Giovanbattista Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "15 Aug 1855",
@@ -26077,6 +27316,14 @@
 "spouses": [],
 "children": [],
 "siblings": [
+{
+"slug": "carmino-falco",
+"name": "Carmino Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
 {
 "slug": "pasquale-falco-of-luigi-falco-carolina-cimmino",
 "name": "Pasquale Falco (of Luigi, b. 1858)",
@@ -26155,6 +27402,14 @@
 "spouses": [],
 "children": [],
 "siblings": [
+{
+"slug": "carmino-falco",
+"name": "Carmino Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
 {
 "slug": "pasquale-falco-of-luigi-falco-carolina-cimmino",
 "name": "Pasquale Falco (of Luigi, b. 1858)",
@@ -26463,6 +27718,13 @@
 "ark": "ANTENATI an_ua14453 (Arienzo, Nati 1856) atto 91, img 57 right — READ FROM THE IMAGE"
 },
 {
+"event": "named as father in his child's birth act",
+"date": "5 Mar 1850",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the father in the birth act of 5 Mar 1850: CRESCENZO FALCO, thirty, contadino, strada Camellara — declarant.",
+"ark": "ANTENATI an_ua14447 (Arienzo, Nati 1850) atto 22, img 30 right + 31 left — READ FROM THE IMAGE"
+},
+{
 "event": "marriage",
 "date": "c. 1831-46",
 "place": "Arienzo",
@@ -26623,6 +27885,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giovanni-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Giovanni Falco (of Crescenzo, b. 1850)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [
@@ -26652,11 +27922,10 @@
 ]
 },
 {
-"slug": "maria-falco-of-raffaele-morgillo-maria-falco",
+"slug": "maria-morgillo",
 "name": "Maria Falco (Morgillo)",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
@@ -26775,6 +28044,14 @@
 {
 "slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
 "name": "Francesca Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-raffaele-morgillo-maria-falco",
+"name": "Maria Falco (wife of Raffaele Morgillo)",
 "via": "register",
 "vias": [
 "register"
@@ -27065,11 +28342,10 @@
 ]
 },
 {
-"slug": "clementina-falco-2",
+"slug": "clementina-falco",
 "name": "Clementina Falco (Biondo)",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
@@ -27117,6 +28393,22 @@
 {
 "slug": "maria-falco-of-matteo-falco-alessandra-crisci",
 "name": "Maria Falco (b. 1844)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clementina-falco-2",
+"name": "Clementina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clementina-falco-of-matteo-falco-alessandra-crisci",
+"name": "Clementina Falco (of Matteo, b. 1848)",
 "via": "register",
 "vias": [
 "register"
@@ -28488,6 +29780,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "clementina-falco-of-matteo-falco-alessandra-crisci",
+"name": "Clementina Falco (of Matteo, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "20 Jun 1839",
@@ -28644,7 +29944,7 @@
 ]
 },
 {
-"slug": "clementina-falco-2",
+"slug": "clementina-falco",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -28873,6 +30173,13 @@
 "ark": "3:1:3QS7-8976-QQRV — FamilySearch MC55-FNT img 1127 left page, Arienzo Morti 1876 act 34 — READ FROM THE IMAGE"
 },
 {
+"event": "named as mother in her child's birth act",
+"date": "21 Oct 1839",
+"place": "Arienzo, strada Crisci",
+"evidence": "Named as the mother in the birth act of 21 Oct 1839: FRANCESCA FALCO, twenty-five, strada Crisci.",
+"ark": "ANTENATI an_ua14436 (Arienzo, Nati 1839) atto 96, img 97 right + 98 left — READ FROM THE IMAGE"
+},
+{
 "event": "death",
 "date": "8 Jun 1876",
 "place": "Arienzo, Villaggio Crisci 3",
@@ -28912,7 +30219,16 @@
 ]
 }
 ],
-"children": [],
+"children": [
+{
+"slug": "maddalena-crisci",
+"name": "Maddalena Crisci (of Raffaele, b. 1839)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "siblings": [
 {
 "slug": "mattheus-falco",
@@ -29491,6 +30807,41 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "**THE ACT BEHIND THE INDEX, OPENED 22 SEPTEMBER 2026 — AND THE INDEX WAS RIGHT.** This household rested on one line of the 1832 marriage *tavola*. The act itself:\n\n«*ATTO Della solenne promessa di celebrare IL MATRIMONIO — Num. d'ordine **OTTO**. L'anno mille ottocento **trentadue**, il dì **sei** del mese di **Luglio** … avanti di Noi **FRANCESCO D'AMBROSIO Sindaco** … del Comune di **Corpo d'Arienzo**, Distretto di **Caserta** … sono comparsi nella Casa Comunale **FRANCESCANTONIO FALCO, maggiore**, di anni **ventisei**, nato in **Arienzo**, di professione **contadino**, domiciliato **ivi strada CAMELLARA**, figlio di **PASQUALE FALCO** —, di professione **contadino**, domiciliato **ivi**, e di **CHIARA RIVETTI**, di professione **contadina**, domiciliata **ivi***».\n\n**PASQUALE, and the clerk drew a dash where «defunto» would go and left it empty.** Both his parents are alive on 6 July 1832 — and this archive holds **Pasquale Falco's death on 1 October 1834**, twenty-seven months later, which agrees.\n\n**Twenty-six in July 1832 puts his birth about 1806.** The church celebration followed on **16 July**, before a **VERDICCHIO** and a **DI GUIDA** — the bride's own surname among the witnesses.\n\n**AND THIS DEEPENS WORK-LIST ROW 87 INSTEAD OF CLOSING IT.** Act 20 of the 1854 register gives a **FRANCESCO FALCO**, forty-eight — **born about 1806** — *contadino* of **strada Camellara**, son of the **fu RAFFAELE** and the **fu CHIARA RIVETTI**, **widower of a RAFFAELA FALCO**. **Everything matches except the father**, and the two filiations are each internally consistent: Pasquale is alive in 1832 and died in 1834; Raffaele was dead before February 1850. **Neither act is contradicting itself. They are contradicting each other, or they are two men.**",
 "ark": "ANTENATI an_ua14236 img9r act8 — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "10 Apr 1839",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the father in the birth act of 10 Apr 1839: FRANCESANTONIO FALCO, thirty-three, contadino, strada Camellara — he declared the child himself.",
+"ark": "ANTENATI an_ua14436 (Arienzo, Nati 1839) atto 44, img 45 right + 46 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "25 Sep 1848",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the father in the birth act of 25 Sep 1848: FRANCESCO FALCO, thirty-three, contadino, strada Camellara — declarant.",
+"ark": "ANTENATI an_ua14445 (Arienzo, Nati 1848) atto 75, img 76 right + 77 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "6 Jan 1842",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the father in the birth act of 6 Jan 1842: FRANCESCO FALCO, thirty-two?, contadino, strada Camellara — declarant.",
+"ark": "ANTENATI an_ua14439 (Arienzo, Nati 1842) atto 4, img 5 right + 6 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "19 Dec 1843",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the father in the birth act of 19 Dec 1843: FRANCESCO FALCO, twenty-four, contadino, strada Camellara — declarant.",
+"ark": "ANTENATI an_ua14440 (Arienzo, Nati 1843) atto 112, img 114 right + 115 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "27 Mar 1851",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the father in the birth act of 27 Mar 1851: FRANCESCO FALCO «marito di Raffaela Falco», thirty-seven, contadino, strada Camellara — declarant.",
+"ark": "ANTENATI an_ua14448 (Arienzo, Nati 1851) atto 31, img 41 right + 42 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -29566,8 +30917,32 @@
 ]
 },
 {
+"slug": "antonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Antonio Falco (of Francesco, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-francesco-falco-raffaela-falco",
+"name": "Giovanni Falco (of Francescantonio, b. 1851)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Gioacchino Falco (of via Orticelli)",
 "via": "register",
 "vias": [
 "register"
@@ -30633,6 +32008,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giovanni-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Giovanni Falco (of Crescenzo, b. 1850)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "mergedOn": "name and dates",
@@ -30868,6 +32251,13 @@
 "place": "Arienzo, via Orticelli 8",
 "evidence": "Arienzo, *Morti* **1884**, **act 22**: «*L'anno milleottocentottantaquattro, addì **trenta** di **gennaio** … sono comparsi **GIUSEPPE CRISCI**, di anni **quarantadue**, *calzolaio*, domiciliato in Arienzo, e **GIUSEPPE FALCO**, di anni **CINQUANTATRÉ**, *contadino*, domiciliato in Arienzo, i quali mi hanno dichiarato che a ore antimeridiane **sei** e minuti **trenta** di **oggi**, nella casa posta in **via Orticelli** al numero **OTTO**, è morto **GIOVANNI FALCO**, di **anno uno**, residente in Arienzo, nato in Arienzo, da **GIOACCHINO**, *contadino*, domiciliato in Arienzo, e da **ANDREANA CRISCI**, *filatrice*, domiciliata in Arienzo*».\n\n**He is in these books three times in eighteen months and always as himself**: named as this child's father in January 1884; a declarant at **thirty-six**, *giornaliere*, for Carmela Falco of via Orticelli 4 in March 1884; and a declarant at **forty**, *giornaliere*, for **ANTONIA FALCO** who died **in his own house at via Orticelli 8** in June 1885. *Thirty-six and forty, fifteen months apart — born somewhere about 1845–8, and the ages in these acts are the speaker's own word.*\n\n**HE IS NOT THE GIOACCHINO FALCO THIS ARCHIVE ALREADY HOLDS**, who declared an act of **strada Camellara on 1 December 1816**. *Two men, seventy years apart, and this archive does not merge people on a name.*\n\n**AND ANTONIA FALCO DYING IN HIS HOUSE IS NOT A KINSHIP.** It is a fact about an address.",
 "ark": "3:1:3QS7-L97F-9VJ — FamilySearch MC55-VNL img 833, Arienzo Morti 1884 act 22 — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "6 Jan 1842",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo, *Nati* **1842**, **act 4**: «*è comparso **Francesco Falco** di anni trentadue?, contadino, strada **Camellara** … nato da **Raffaela Falco** sua moglie legittima di anni trenta … nel giorno sei di Gennajo alle ore diciassette … il nome di **Gioacchino***»; witnesses **Fabio? Diglio** (contadino) and **Antonio Gimbardo** (40, contadino). Baptism «*Gioacchino Falco*». **MARGIN: «*A 16 Novembre 1874 l'uff.le dello stato civ.e d'Arienzo ha sposato Gioacchino Falco con Andreana Crisci. Caserta 30 Luglio 1884*»** — **a marriage that names the wife of the house of Gioacchino Falco & Andreana Crisci of via Orticelli.** *An act of these years runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14439 (Arienzo, Nati 1842) atto 4, img 5 right + 6 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -30890,6 +32280,22 @@
 "via": "tree",
 "vias": [
 "tree"
+]
+},
+{
+"slug": "francescantonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Francescantonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaela-falco-of-francesco-falco-raffaela-falco",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
 ]
 }
 ],
@@ -30975,8 +32381,9 @@
 {
 "slug": "chiara-falco-2",
 "name": "Chiara Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -30995,13 +32402,85 @@
 "vias": [
 "tree"
 ]
+},
+{
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco",
+"name": "Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmina-falco",
+"name": "Carmina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasqualina-falco",
+"name": "Pasqualina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-francesco-falco-raffaela-falco",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carmela-falco-of-francesco-falco-raffaela-falco",
+"name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-francesco-falco-raffaela-falco",
+"name": "Raffaele Falco (of Francescantonio, 1837)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Antonio Falco (of Francesco, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-francesco-falco-raffaela-falco",
+"name": "Giovanni Falco (of Francescantonio, b. 1851)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "mergedOn": "the couple — his own name AND his wife's agree on both sides, and the pairing is unique in each direction",
 "treeId": 4512379,
-"b": "1842",
+"b": "6 Jan 1842",
 "dateFrom": {
-"b": "tree",
+"b": "act",
 "bp": "tree"
 },
 "bp": "Arienzo, Caserta, Campania, Italia"
@@ -31091,13 +32570,37 @@
 "place": "Arienzo, via Corso Caudino 77",
 "evidence": "Arienzo, *Nascite* **1884**, **act 202**: «*L'anno milleottocentottantaquattro, addì **ventisette** di **dicembre**, a ore antimeridiane **otto** e minuti **quaranta** … è comparso **GIOVANBATTISTA FALCO** di anni **TRENTADUE**, ***SARTO***, domiciliato in questo comune, il quale mi ha dichiarato che alle ore antimeridiane **otto** e minuti **trenta** del dì **ventisei** del corrente mese, nella casa posta in **via Corso Caudino** al numero **SETTANTASETTE**, da **COSTANZA ZIMBARDO sua moglie, cucitrice**, seco lui convivente, è nato un bambino di sesso femminino … a cui dà il nome di **ANDREANA***». Witnesses **Clemente Diglio**, 43, *facchino*, and **Giuseppe Morgillo**, 62, *agricoltore*.\n\n**A FOURTH FALCO HOUSE ON THE CORSO CAUDINO AND THE ONLY ONE THAT IS NOT A CARTER'S.** He is a ***sarto*** — a tailor — at **number 77**, where Vincenzo is a *vetturale* at 88, Carmino a *vetturale* then *carrettiere* at 82 and 80, and Clemente a *vetturale* at 80. **Thirty-two in December 1884, so born about 1852.**\n\n**NOTHING READ NAMES HIS FATHER**, and a birth act never will: it names the child's parents, not the declarant's. *This archive does not attach a man to a house on a street. His marriage act is the proof, and Arienzo's marriage registers of 1878–1886 do not hold it — so he married before 1878 or outside Arienzo.*",
 "ark": "3:1:3QSQ-G97F-9V6 — FamilySearch MC55-VNL img 825, Arienzo Nascite 1884 act 202 — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "22 Jun 1852",
+"place": "Arienzo, strada Santa Lucia",
+"evidence": "Arienzo, *Nati* **1852**, **act 78**: «*è comparso Angelo Falco marito di Maria Cimmino, di anni trentadue, contadino, strada Santa Lucia … nato da detta Maria Cimmino di anni trenta … nella casa di esso dichiarante … il nome di **Giovanni Battista***», declared 23 June (the day of birth reads *ventidue*, the hour *ventuno*; not certain); witnesses **Marco Morgillo** (33, contadino, strada Santa Lucia) and **Matteo Crispi** (60, mugnaio, Porta di sopra). Baptism «*Giovanni Battista Falco*». **MARGIN: «*3 Luglio 1876 l'uff.le dello stato civ.e d'Arienzo ha sposato Giovan Battista Falco con Maria Costanza Zimbardo. Caserta 5 Giugno 1884*»** — **the wife this archive found from her own birth margin in 1853, now seen from the husband's side.** *An act of these years runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14449 (Arienzo, Nati 1852) atto 78, img 87 right + 88 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
 "register"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "annamaria-cimmino",
+"name": "Annamaria Cimmino",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "spouses": [
 {
 "slug": "costanza-zimbardo",
@@ -31126,7 +32629,60 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [
+{
+"slug": "vincenzo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Vincenzo Falco (of Angelo, d. 1889)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Carmela Falco (of Angelo, b. c.1863)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clemente-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Clemente Falco (of Angelo, b. c.1858)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "alfonso-isidoro-falco",
+"name": "Alfonso Isidoro Falco (of Angelo, b. 1861)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "costanza-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Costanza Falco (of Angelo, b. 1855)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonia-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Antonia Falco (of Angelo, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "22 Jun 1852",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "giovanna-falco-of-pasquale-falco-chiara-rivetti",
@@ -31479,6 +33035,20 @@
 "ark": "3:1:3QS7-9976-Q72X — FamilySearch MC55-FNT img 770 left page, Arienzo Morti 1872 act 86 — READ FROM THE IMAGE"
 },
 {
+"event": "named as mother in her child's birth act",
+"date": "10 Feb 1839",
+"place": "Arienzo, strada Crisci",
+"evidence": "Named as the mother in the birth act of 10 Feb 1839: GIOVANNA FALCO, thirty-four.",
+"ark": "ANTENATI an_ua14436 (Arienzo, Nati 1839) atto 19, img 20 right + 21 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "30 Oct 1840",
+"place": "Arienzo, strada Crisci",
+"evidence": "Named as the mother in the birth act of 30 Oct 1840: GIOVANNA FALCO, forty-one.",
+"ark": "ANTENATI an_ua14437 (Arienzo, Nati 1840) atto 99, img 103 right + 104 left — READ FROM THE IMAGE"
+},
+{
 "event": "marriage",
 "date": "6 Sep 1829",
 "place": "Arienzo",
@@ -31556,10 +33126,11 @@
 ]
 },
 {
-"slug": "luigi-crisci",
+"slug": "luigi-crisci-2",
 "name": "Luigi Crisci",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -31569,6 +33140,14 @@
 "via": "tree",
 "vias": [
 "tree"
+]
+},
+{
+"slug": "maria-maddalena-crisci",
+"name": "Maria Maddalena Crisci (of Aniello, b. 1839)",
+"via": "register",
+"vias": [
+"register"
 ]
 }
 ],
@@ -31590,11 +33169,10 @@
 ]
 },
 {
-"slug": "maria-falco-of-raffaele-morgillo-maria-falco",
+"slug": "maria-morgillo",
 "name": "Maria Falco (Morgillo)",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
@@ -31722,6 +33300,14 @@
 {
 "slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
 "name": "Francesca Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-raffaele-morgillo-maria-falco",
+"name": "Maria Falco (wife of Raffaele Morgillo)",
 "via": "register",
 "vias": [
 "register"
@@ -31995,6 +33581,22 @@
 {
 "slug": "andreana-falco-of-andrea-falco-maria-carmela-buono",
 "name": "Andreana Falco (of Andrea, b. 1854)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-concetta-falco-2",
+"name": "Maria Concetta Falco (of Andrea, b. 1847)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "marianna-falco-2",
+"name": "Marianna Falco (of Andrea, b. 1851)",
 "via": "register",
 "vias": [
 "register"
@@ -32394,6 +33996,220 @@
 "d": "act"
 },
 "d": "26 Nov 1849"
+},
+{
+"slug": "giovanni-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Giovanni Falco (of Crescenzo, b. 1850)",
+"surname": "FALCO",
+"household": "Crescenzo Falco & Angela Maria Morgillo",
+"hid": "crescenzo-falco-angela-maria-morgillo",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "5 Mar 1850",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo, *Nati* **1850**, **act 22**: «*è comparso **Crescenzo Falco** di anni trenta, contadino, strada **Camellara** … nato da **Maria Morgillo** sua moglie legittima di anni ventotto … nel giorno cinque … il nome di **Giovanni***»; witnesses **Angelo Anzovino** (41, calzolajo, Terra Murata) and **Gaetano Sarzone** (60, contadino, Porta di sopra). Baptism «*Giovanni Falco*». **MARGIN: «*A 23 Settembre 1877 l'uff.le dello stato civ.e d'Arienzo [ha sposato] Giovanni Falco con E…[bride's surname not read] Caserta 17 Maggio 1882*»** — a marriage of 1877, the bride not read. *An act of these years runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14447 (Arienzo, Nati 1850) atto 22, img 30 right + 31 left — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-maria-morgillo-of-crescenzo-falco-angela-maria-morgi",
+"name": "Angela Maria Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "giuseppe-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Giuseppe Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-felice-falco",
+"name": "Maria Felice Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gennaro-falco",
+"name": "Gennaro Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "lucia-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Lucia Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Angelo Falco (of Crescenzo, b. 1862)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "5 Mar 1850",
+"dateFrom": {
+"b": "act"
+}
+},
+{
+"slug": "giovanni-falco-of-francesco-falco-raffaela-falco",
+"name": "Giovanni Falco (of Francescantonio, b. 1851)",
+"surname": "FALCO",
+"household": "Francesco Falco & Raffaela Falco",
+"hid": "francesco-falco-raffaela-falco",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "27 Mar 1851",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo, *Nati* **1851**, **act 31**: «*è comparso **Francesco Falco** marito di **Raffaela Falco**, di anni trentasette, contadino, strada **Camellara** … nato da **Raffaela Falco** di anni trentacinque, contadina … nel giorno ventisette di Marzo alle ore dieci nella casa di esso Francesco … il nome di **Giovanni***»; witnesses **Gaetano Sarzone** (60, contadino, Porta di sopra) and **Pasquale Gimbardo** (41, cantiniere, Terra Murata). Baptism «*Giovanni Falco*». No margin note. *An act of these years runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14448 (Arienzo, Nati 1851) atto 31, img 41 right + 42 left — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "francescantonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Francescantonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaela-falco-of-francesco-falco-raffaela-falco",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco",
+"name": "Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmina-falco",
+"name": "Carmina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasqualina-falco",
+"name": "Pasqualina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-francesco-falco-raffaela-falco",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carmela-falco-of-francesco-falco-raffaela-falco",
+"name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-francesco-falco-raffaela-falco",
+"name": "Raffaele Falco (of Francescantonio, 1837)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "chiara-falco-2",
+"name": "Chiara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Antonio Falco (of Francesco, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Gioacchino Falco (of via Orticelli)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "27 Mar 1851",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "giovanni-falco-of-gioacchino-falco-andreana-crisci",
@@ -33258,11 +35074,10 @@
 ]
 },
 {
-"slug": "maria-falco-of-raffaele-morgillo-maria-falco",
+"slug": "maria-morgillo",
 "name": "Maria Falco (Morgillo)",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
@@ -33394,6 +35209,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "maria-falco-of-raffaele-morgillo-maria-falco",
+"name": "Maria Falco (wife of Raffaele Morgillo)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [
@@ -33494,6 +35317,14 @@
 {
 "slug": "angelo-falco-of-crescenzo-falco-angela-maria-morgi",
 "name": "Angelo Falco (of Crescenzo, b. 1862)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Giovanni Falco (of Crescenzo, b. 1850)",
 "via": "register",
 "vias": [
 "register"
@@ -33904,6 +35735,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "clementina-falco-of-matteo-falco-alessandra-crisci",
+"name": "Clementina Falco (of Matteo, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -34173,7 +36012,7 @@
 ]
 },
 {
-"slug": "clementina-falco-2",
+"slug": "clementina-falco",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -34455,6 +36294,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
 "via": "register",
 "vias": [
 "register"
@@ -35025,6 +36872,14 @@
 ]
 },
 {
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "sara-falco-2",
 "name": "Sara Falco",
 "via": "register",
@@ -35482,6 +37337,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giovanni-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Giovanni Falco (of Crescenzo, b. 1850)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "14 Dec 1855",
@@ -35795,6 +37658,13 @@
 "ark": "ANTENATI an_ua14452 (Arienzo, Nati 1855) atto 10, img 8 left — READ FROM THE IMAGE"
 },
 {
+"event": "named as father in his child's birth act",
+"date": "14 Jan 1852",
+"place": "Arienzo, strada Capodiconca",
+"evidence": "Named as the father in the birth act of 14 Jan 1852: LUIGI FALCO, thirty-three?, contadino, strada Capodiconca — declarant.",
+"ark": "ANTENATI an_ua14449 (Arienzo, Nati 1852) atto 9, img 17 right + 18 left — READ FROM THE IMAGE"
+},
+{
 "event": "baptism",
 "date": "Dec 1819",
 "place": "Arienzo",
@@ -35866,6 +37736,14 @@
 "via": "tree",
 "vias": [
 "tree"
+]
+},
+{
+"slug": "carmino-falco",
+"name": "Carmino Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
 ]
 },
 {
@@ -36003,6 +37881,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
 "via": "register",
 "vias": [
 "register"
@@ -37224,6 +39110,49 @@
 }
 },
 {
+"slug": "maria-angela-falco-of-angelo-majone-maria-angela-falco",
+"name": "Maria Angela Falco (wife of Angelo Majone)",
+"surname": "FALCO",
+"household": "Angelo Majone & Maria Angela Falco",
+"hid": "angelo-majone-maria-angela-falco",
+"role": "mother",
+"events": [
+{
+"event": "named as mother in her child's birth act",
+"date": "6 Feb 1840",
+"place": "Arienzo, strada Rosciano",
+"evidence": "Named as the mother in the birth act of 6 Feb 1840: MARIANGELA FALCO, twenty-eight.",
+"ark": "ANTENATI an_ua14437 (Arienzo, Nati 1840) atto 14, img 15 right + 16 left — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "angelo-majone-of-angelo-majone-maria-angela-falco",
+"name": "Angelo Majone (husband of Mariangela Falco)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "michele-majone",
+"name": "Michele Majone (of Angelo, b. 1840)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
 "slug": "maria-annunziata-falco",
 "name": "Maria Annunziata Falco",
 "surname": "FALCO",
@@ -37612,6 +39541,14 @@
 ]
 },
 {
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "sara-falco-2",
 "name": "Sara Falco",
 "via": "register",
@@ -37747,8 +39684,32 @@
 ]
 },
 {
+"slug": "antonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Antonio Falco (of Francesco, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-francesco-falco-raffaela-falco",
+"name": "Giovanni Falco (of Francescantonio, b. 1851)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Gioacchino Falco (of via Orticelli)",
 "via": "register",
 "vias": [
 "register"
@@ -37829,6 +39790,13 @@
 "place": "Arienzo",
 "evidence": "**A DAUGHTER THIS HOUSEHOLD DID NOT HAVE, OUT OF A REGISTER WITH NO FINDING AID.** Arienzo, *Matrimoni* **1878**, Parte I, **act 19 of 26**, read from the image: «*2.° FALCO MARIA CARMINA, di anni VENTISEI, filatrice, nata in ARIENZO, residente in Arienzo, figlia di MICHELE, residente in Arienzo, e di GIOVANNA D'AMBROSIO, residente in Arienzo*» — she married **PASQUALE SFORZA** on **8 December 1878 at 10.15 a.m.** before Cavalier **NICOLA FINELLI**.\n\n**So she was born about 1852**, between the wedding of February 1850 and the two children of this house who died in 1859 — and **both her parents were alive in December 1878**, neither marked *defunto*: the father at about seventy-two, the mother at about sixty-seven. Before this act the household was known by two children who died in one year and by its wedding, and by nothing else.\n\n**SHE IS NOT THE MARIA CARMINA FALCO THIS ARCHIVE ALREADY HELD.** That one is a daughter of **Giuseppe Falco and Rosa Zimbardo**, born in the 1870s, and she comes from the family tree, unverified. Two women of one name about twenty years apart, and this archive does not merge people on a name — which is what the qualifier is for.\n\n**Found by sweeping the margin column of MC55-VNL images 47–62** on 11 October 2026, one printed Numero box at a time; the 1878 register carries no index.",
 "ark": "3:1:3QSQ-G97F-MWW8 — FamilySearch MC55-VNL img 57 left page, Arienzo Matrimoni 1878 Parte I act 19 — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "29 Sep 1852",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo, *Nati* **1852**, **act 102**: «*è comparso **Michele Falco** di anni quarantacinque, contadino, strada **Camellara** … nata da **Giovanna d'Ambrosio** sua moglie legittima di anni quarantuno … nel giorno ventinove di Settembre alle ore diciotto nella casa propria di detti conjugi … il nome di **Maria Carmina***», declared 30 September; witnesses **Pietro Grazia** (contadino, strada Terra Murata?) and **Alessandro di Lucia** (contadino, strada Capodiconca). Baptism «*Maria Carmina Falco*». **MARGIN: «*A 8 Dic. 1878 … Maria Carmina Falco con [Pasquale? …] d'Ambrosio?, Caserta 13 Maggio 1882*»** — **the marriage of 8 December 1878 this house already holds.** *An act of these years runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14449 (Arienzo, Nati 1852) atto 102, img 111 right + 112 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -37880,7 +39848,11 @@
 "register"
 ]
 }
-]
+],
+"b": "29 Sep 1852",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "maria-carmina-falco",
@@ -38013,13 +39985,23 @@
 "treeId": 4512490
 },
 {
-"slug": "maria-concetta-falco",
-"name": "Maria Concetta Falco",
+"slug": "maria-concetta-falco-2",
+"name": "Maria Concetta Falco (of Andrea, b. 1847)",
 "surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
+"household": "Andrea Falco & Maria Carmela Buono",
+"hid": "andrea-falco-maria-carmela-buono",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "19 Feb 1847",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo, *Nati* **1847**, **act 15**: «*è comparso **Andrea Falco** di anni ventisei, contadino, domiciliato strada **Camellara** … nata da **Carmela Buono** sua moglie legittima di anni venticinque … nel giorno diciannove … alle ore ventidue … il nome di **Maria Concetta***», declared 20 February at fifteen hours; witnesses **Filippo Giglio** (37, sartore, strada Croce) and **Giacinto Giglio** (40). Baptism «*Maria Concetta Falco*». **Nine months after the marriage of 21 May 1846 — this house's earliest birth.** *In these years an act runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14444 (Arienzo, Nati 1847) atto 15, img 17 right + 18 left — READ FROM THE IMAGE"
+}
+],
 "sources": [
+"register",
 "tree"
 ],
 "living": false,
@@ -38027,8 +40009,9 @@
 {
 "slug": "andrea-falco-2",
 "name": "Andrea Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -38039,16 +40022,25 @@
 "vias": [
 "tree"
 ]
+},
+{
+"slug": "maria-carmela-buono-of-andrea-falco-maria-carmela-buono",
+"name": "Maria Carmela Buono",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "spouses": [],
 "children": [],
 "siblings": [
 {
-"slug": "marianna-falco",
+"slug": "marianna-falco-2",
 "name": "Marianna Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -38059,12 +40051,37 @@
 "vias": [
 "tree"
 ]
+},
+{
+"slug": "giovanna-maria-falco",
+"name": "Giovanna Maria Falco (of Andrea, b. 1857)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "ciro-clemente-falco",
+"name": "Ciro Clemente Falco (of Andrea, b. 1861)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "andreana-falco-of-andrea-falco-maria-carmela-buono",
+"name": "Andreana Falco (of Andrea, b. 1854)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
+"mergedOn": "name and dates",
 "treeId": 4512488,
-"b": "Feb 19 1847",
+"b": "19 Feb 1847",
 "dateFrom": {
-"b": "tree",
+"b": "act",
 "bp": "tree"
 },
 "bp": "Arienzo, Caserta, Campania, Italia"
@@ -38649,6 +40666,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "clementina-falco-of-matteo-falco-alessandra-crisci",
+"name": "Clementina Falco (of Matteo, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "15 Aug 1844",
@@ -38923,8 +40948,7 @@
 }
 ],
 "sources": [
-"register",
-"tree"
+"register"
 ],
 "living": false,
 "parents": [
@@ -38933,28 +40957,25 @@
 "name": "Giuseppe Falco",
 "via": "register",
 "vias": [
-"register",
-"tree"
+"register"
 ]
 },
 {
 "slug": "antonia-di-guida",
-"name": "Antonia Guida / Guido (Falco)",
+"name": "Antonia di Guida",
 "via": "register",
 "vias": [
-"register",
-"tree"
+"register"
 ]
 }
 ],
 "spouses": [
 {
 "slug": "raffaele-morgillo-of-raffaele-morgillo-maria-falco",
-"name": "Raffaele Morgillo",
+"name": "Raffaele Morgillo (husband of Maria Falco)",
 "via": "register",
 "vias": [
-"register",
-"tree"
+"register"
 ]
 }
 ],
@@ -38985,40 +41006,6 @@
 }
 ],
 "siblings": [
-{
-"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
-"name": "Giovanna Falco (Crisci)",
-"via": "register",
-"vias": [
-"register",
-"tree"
-]
-},
-{
-"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
-"name": "Matteo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "francesca-crisci",
-"name": "Francesca Falco (Crisci)",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "crescenzo-falco",
-"name": "Crescenzo Falco",
-"via": "register",
-"vias": [
-"register",
-"tree"
-]
-},
 {
 "slug": "mattheus-falco",
 "name": "Mattheus (Matteo) Falco",
@@ -39132,6 +41119,22 @@
 ]
 },
 {
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
 "name": "Francesca Falco",
 "via": "register",
@@ -39140,18 +41143,10 @@
 ]
 }
 ],
-"mergedOn": "the couple — his own name AND his wife's agree on both sides, and the pairing is unique in each direction",
-"treeId": 4512409,
-"b": "1818",
-"dateFrom": {
-"b": "tree",
-"d": "act",
-"bp": "tree",
-"dp": "tree"
-},
 "d": "2 Oct 1871",
-"bp": "Arienzo",
-"dp": "Arienzo, Caserta, Campania, Italia"
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "maria-falco-2",
@@ -39243,7 +41238,7 @@
 ]
 },
 {
-"slug": "clementina-falco-2",
+"slug": "clementina-falco",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -39614,9 +41609,192 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giovanni-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Giovanni Falco (of Crescenzo, b. 1850)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "21 Nov 1845",
+"dateFrom": {
+"b": "act"
+}
+},
+{
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
+"surname": "FALCO",
+"household": "Vincenzo Falco & Andreana Crisci",
+"hid": "vincenzo-falco-andreana-crisci",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "15 Sep 1840",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo, *Nati* **1840**, **act 89** — **A DAUGHTER OF GENERATION THREE THIS ARCHIVE DID NOT HOLD.** «*è comparso **Vincenzo Falco** di anni quarantatre, contadino, domiciliato strada **Camellara** … nata da **Andreana Crisci** sua moglie legittima, di anni quaranta … nel giorno sedici [declared] … il nome di **Maria Filomena***», declared 16 September at fourteen hours; witnesses **Marcello Arrigale** (50-odd, ufficiale, Capodiconca) and **Antonio Sotti?** (contadino). Baptism «*Maria Filomena Falco*». No margin note. *In these years an act runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.** *Filomena Falco, a daughter of generation three, is also a name this house gave to no other child.*",
+"ark": "ANTENATI an_ua14437 (Arienzo, Nati 1840) atto 89, img 93 right + 94 left — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+"name": "Andreana Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Vincenzo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Raffaele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Pasquale Falco (of Vincenzo, 1830-1833)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Antonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "nunziata-falco",
+"name": "Nunziata Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "daughter-falco-of-vincenzo-falco-andreana-crisci",
+"name": "[daughter] Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-vincenzo-falco-andreana-crisci-2",
+"name": "Pasquale Falco (of Vincenzo, the second, 1834)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-vincenzo-falco-andreana-crisci-2",
+"name": "Raffaele Falco (the first, 1816-1817)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelandrea-falco",
+"name": "Angelandrea Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-nunzio-falco",
+"name": "Giuseppe Nunzio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
+"name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "sara-falco-2",
+"name": "Sara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
+"name": "Giuseppe Falco (of Rosa Zimbardo)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "andrea-falco-2",
+"name": "Andrea Falco (of Maria Carmela Buono)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "luigi-falco-of-luigi-falco-carolina-cimmino",
+"name": "Luigi Falco (of Carolina Cimmino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "stanislao-falco-2",
+"name": "Stanislao Falco (of Filomena di Lucia)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "15 Sep 1840",
 "dateFrom": {
 "b": "act"
 }
@@ -39989,6 +42167,22 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "matteo-falco-of-michele-falco-antonia-vigliotta-2",
+"name": "Matteo Falco (of Michele, 1840-1842)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco-of-michele-falco-antonia-vigliotta",
+"name": "Carmela Falco (of Michele, b. 1843)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "d": "30 May 1834",
@@ -40110,13 +42304,23 @@
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
-"slug": "marianna-falco",
-"name": "Marianna Falco",
+"slug": "marianna-falco-2",
+"name": "Marianna Falco (of Andrea, b. 1851)",
 "surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
+"household": "Andrea Falco & Maria Carmela Buono",
+"hid": "andrea-falco-maria-carmela-buono",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "25 Jul 1851",
+"place": "Arienzo, strada Sant'Andrea",
+"evidence": "Arienzo, *Nati* **1851**, **act 77**: presented by the midwife **Felicia Martone**: «*nata da **Carmela Buono** moglie di **Andrea Falco** di anni ventisette, contadina, strada Sant'Andrea, e da Andrea Falco di anni ventotto, contadino, ivi … nel giorno venticinque di Luglio … il nome di **Marianna***», declared 26 July; witnesses **Matteo Crispi** (60, mugnaio) and **Clemente Crispi** (36?, mugnaio), strada Porta di sopra. Baptism «*Marianna Falco*». No margin note. *An act of these years runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14448 (Arienzo, Nati 1851) atto 77, img 89 right + 90 left — READ FROM THE IMAGE"
+}
+],
 "sources": [
+"register",
 "tree"
 ],
 "living": false,
@@ -40124,8 +42328,9 @@
 {
 "slug": "andrea-falco-2",
 "name": "Andrea Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -40136,16 +42341,25 @@
 "vias": [
 "tree"
 ]
+},
+{
+"slug": "maria-carmela-buono-of-andrea-falco-maria-carmela-buono",
+"name": "Maria Carmela Buono",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "spouses": [],
 "children": [],
 "siblings": [
 {
-"slug": "maria-concetta-falco",
+"slug": "maria-concetta-falco-2",
 "name": "Maria Concetta Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -40156,12 +42370,37 @@
 "vias": [
 "tree"
 ]
+},
+{
+"slug": "giovanna-maria-falco",
+"name": "Giovanna Maria Falco (of Andrea, b. 1857)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "ciro-clemente-falco",
+"name": "Ciro Clemente Falco (of Andrea, b. 1861)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "andreana-falco-of-andrea-falco-maria-carmela-buono",
+"name": "Andreana Falco (of Andrea, b. 1854)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
+"mergedOn": "name and dates",
 "treeId": 4512493,
-"b": "July 25 1851",
+"b": "25 Jul 1851",
 "dateFrom": {
-"b": "tree",
+"b": "act",
 "bp": "tree"
 },
 "bp": "Arienzo, Caserta, Campania, Italia"
@@ -40866,6 +43105,13 @@
 "place": "Arienzo, Contrada Camellara",
 "evidence": "**HIS DEATH ACT, READ FROM THE IMAGE 11 OCTOBER 2026 — the first document this archive has ever held for the end of his life.** Arienzo, **atto 93 of 1867**, found through the register's own annual index («*Matteo Falco — 93*», the index being alphabetical by FORENAME):\n\n> «**N.º 93 — Atto di morte di MATTEO FALCO.** *L'anno milleottocentosessantasette, nel giorno **DODICI** del mese di **DICEMBRE**, nella Casa Comunale alle ore **ventuno**. Dinanzi a me **ALFONSO TROISI Sindaco** del Comune di **Arienzo** … sono comparsi **Giuseppe Crisci figlio di Marcantonio d'anni ventisei**, calzolajo, e **Francesco Ruotolo figlio di Pietro d'anni cinquantatre**, agricoltore … che nelle ore **quindici** del suddetto giorno in questo Comune, nella casa di sua abitazione, sita nella **CONTRADA CAMELLARA**, è morto **MATTEO FALCO di condizione AGRICOLTORE, D'ANNI CINQUANTASETTE, MARITO DI ALESSANDRA CRISCI**, nato e domiciliato in questo Comune, **FIGLIO DI GIUSEPPE FALCO di condizione Agricoltore, e della FU ANTONIA GUIDA di condizione contadina**. Dato lettura … non l'hanno con me sottoscritto, perché illetterati.*»\n\n**HE DIED AT THREE IN THE AFTERNOON OF 12 DECEMBER 1867, IN HIS OWN HOUSE ON CONTRADA CAMELLARA.**\n\n### AND IT CONFIRMS HIS BIRTH FROM A SECOND REGISTER\n\n**«D'ANNI CINQUANTASETTE» on 12 December 1867 puts his birth between December 1809 and December 1810** — and this archive holds his birth act: **12 January 1810**, «*GIUSEPPE FALCO DEL FU MATTEO, d'anni ventotto, massaro di campagna, strada Camellara*», declaring a son by **ANTONIA DI GUIDA** and naming him **MATTEO**. *Two registers, fifty-seven years and one collection apart, agree to the month.*\n\n### THREE MORE DATES OUT OF ONE ACT\n\n- **ALESSANDRA CRISCI WAS ALIVE on 12 December 1867** — he is «*marito di*», not «vedovo».\n- **ANTONIA DI GUIDA WAS ALREADY DEAD** — «*della **fu** Antonia Guida*». **Four years earlier than the 1871 act had shown.**\n- **GIUSEPPE FALCO WAS STILL ALIVE**, written without «fu» — and he died **9 December 1871**, act 125. *Father and son, four years apart, in the same register series this archive had published as lost.*",
 "ark": "FamilySearch 3:1:3QS7-9976-Q476 — image 271 of waypoint MC55-FNT, collection 2043630 — Arienzo, morti 1867, atto 93 — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "Dec 1848",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the father in the birth act of Dec 1848: MATTEO FALCO, thirty-six?, colono, strada Camellara — declarant.",
+"ark": "ANTENATI an_ua14445 (Arienzo, Nati 1848) atto 113, img 114 right + 115 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -40962,11 +43208,10 @@
 ]
 },
 {
-"slug": "clementina-falco-2",
+"slug": "clementina-falco",
 "name": "Clementina Falco (Biondo)",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
@@ -41018,6 +43263,22 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "clementina-falco-2",
+"name": "Clementina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clementina-falco-of-matteo-falco-alessandra-crisci",
+"name": "Clementina Falco (of Matteo, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [
@@ -41038,7 +43299,7 @@
 ]
 },
 {
-"slug": "maria-falco-of-raffaele-morgillo-maria-falco",
+"slug": "maria-morgillo",
 "name": "Maria Falco (Morgillo)",
 "via": "tree",
 "vias": [
@@ -41131,11 +43392,114 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "matteo-falco-of-michele-falco-antonia-vigliotta-2",
+"name": "Matteo Falco (of Michele, 1840-1842)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco-of-michele-falco-antonia-vigliotta",
+"name": "Carmela Falco (of Michele, b. 1843)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "d": "24 Aug 1842",
 "dateFrom": {
 "d": "act"
+}
+},
+{
+"slug": "matteo-falco-of-michele-falco-antonia-vigliotta-2",
+"name": "Matteo Falco (of Michele, 1840-1842)",
+"surname": "FALCO",
+"household": "Michele Falco & Antonia Vigliotta",
+"hid": "michele-falco-antonia-vigliotta",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "20 Jun 1840",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo, *Nati* **1840**, **act 55**: «*è comparso Michele Falco di anni trentadue, contadino, domiciliato strada Camellara … nato da **Antonia [Vigliotta?]** sua moglie legittima di anni trentaquattro … nel giorno venti … il nome di **Matteo***», declared at twenty-three hours; witnesses **Clemente Martone** (contadino, Capodiconca) and **Aniello Arrigale** (ufficiale, Capodiconca); the father signs as a witness as well. Baptism «*Matteo Falco*». **This is the Matteo Falco this house buried on 24 August 1842, aged two.** The mother's surname is placed on the household's own wife; **the reading of it is not certain.** *In these years an act runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14437 (Arienzo, Nati 1840) atto 55, img 57 right + 58 left — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "michele-falco-of-michele-falco-antonia-vigliotta",
+"name": "Michele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonia-vigliotta",
+"name": "Antonia Vigliotta",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "matteo-falco-of-michele-falco-antonia-vigliotta",
+"name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "salvatore-falco",
+"name": "Salvatore Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-rosa-falco-of-michele-falco-antonia-vigliotta",
+"name": "Maria Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-michele-falco-antonia-vigliotta",
+"name": "Pasquale Falco (of Michele, d. 1862)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco-of-michele-falco-antonia-vigliotta",
+"name": "Carmela Falco (of Michele, b. 1843)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "20 Jun 1840",
+"dateFrom": {
+"b": "act"
 }
 },
 {
@@ -42147,6 +44511,20 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "Named as the father in the birth act of 17 Jan 1856: MICHELE FALCO, fifty, contadino, strada Camellara.",
 "ark": "ANTENATI an_ua14453 (Arienzo, Nati 1856) atto 6, img 14 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "19 Nov 1850",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the father in the birth act of 19 Nov 1850: MICHELE FALCO, forty-six, contadino, strada Camellara.",
+"ark": "ANTENATI an_ua14447 (Arienzo, Nati 1850) atto 90, img 101 right + 102 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "29 Sep 1852",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the father in the birth act of 29 Sep 1852: MICHELE FALCO, forty-five, contadino, strada Camellara — declarant.",
+"ark": "ANTENATI an_ua14449 (Arienzo, Nati 1852) atto 102, img 111 right + 112 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -42232,6 +44610,20 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "**ALIVE ON 7 FEBRUARY 1862 — twelve years later than this archive's previous latest sighting of him.** «*figlio di **MICHELE**, di professione **simile**, domiciliato **ivi***», in his son Pasquale's death act, **with no «fu» where the next line puts one on the boy's mother**.\n\n**Forty-three at his second marriage in February 1850, he is about fifty-five here**, still on strada Camellara.",
 "ark": "ANTENATI an_ua14364 img10r act15 — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "20 Jun 1840",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the father in the birth act of 20 Jun 1840: MICHELE FALCO, thirty-two («trentadue»), contadino, strada Camellara — declarant.",
+"ark": "ANTENATI an_ua14437 (Arienzo, Nati 1840) atto 55, img 57 right + 58 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "16 Jul 1843",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the father in the birth act of 16 Jul 1843: MICHELE FALCO, thirty-five, contadino, strada Camellara — declarant.",
+"ark": "ANTENATI an_ua14440 (Arienzo, Nati 1843) atto 63, img 65 right + 66 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -42277,6 +44669,22 @@
 {
 "slug": "pasquale-falco-of-michele-falco-antonia-vigliotta",
 "name": "Pasquale Falco (of Michele, d. 1862)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-michele-falco-antonia-vigliotta-2",
+"name": "Matteo Falco (of Michele, 1840-1842)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco-of-michele-falco-antonia-vigliotta",
+"name": "Carmela Falco (of Michele, b. 1843)",
 "via": "register",
 "vias": [
 "register"
@@ -42666,6 +45074,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
 "via": "register",
 "vias": [
 "register"
@@ -43608,6 +46024,14 @@
 ]
 },
 {
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "sara-falco-2",
 "name": "Sara Falco",
 "via": "register",
@@ -43771,6 +46195,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
 "via": "register",
 "vias": [
 "register"
@@ -43953,8 +46385,32 @@
 ]
 },
 {
+"slug": "antonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Antonio Falco (of Francesco, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-francesco-falco-raffaela-falco",
+"name": "Giovanni Falco (of Francescantonio, b. 1851)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Gioacchino Falco (of via Orticelli)",
 "via": "register",
 "vias": [
 "register"
@@ -43994,6 +46450,13 @@
 "place": "Arienzo, via Camellara 5",
 "evidence": "**THE REGISTER ACT BEHIND A CERTIFIED COPY — THE SECOND THIS ARCHIVE HAS RECOVERED TODAY — AND HE IS THE SECOND PASQUALE OF THIS HOUSE.**\n\nArienzo, *Morti* **1883**, **act 60**: «*L'anno milleottocentottantatré, addì **ventisette** di **settembre**, a ore antimeridiane **nove** e minuti **quaranta** … Avanti di me **CARFORA Cavalier CARLO**, Assessore anziano funzionante da Sindaco pel titolare mancante … sono comparsi **PASQUALE SACCAVINO**, di anni **trentasei**, *contadino*, e **LUIGI MAIONE**, di anni **quarantasei**, *contadino* … a ore pomeridiane **tre** e minuti **trenta** di **ieri**, nella casa posta in **via CAMELLARA** al numero **CINQUE**, è morto **PASQUALE FALCO**, di anni **QUARANTAQUATTRO**, *agricoltore*, residente in Arienzo, nato in Arienzo, **dal fu FRANCESCO**, contadino, domiciliato in vita in Arienzo, e **dalla fu RAFFAELA FALCO**, contadina, domiciliata in vita col marito, **MARITO DI MARIA AMALIA GUIDO***».\n\n*This archive held his death from an extract quoted inside somebody else's processetto: 26 September 1883, via Camellara 5, husband of Maria Amalia Guida. **Every word of it is confirmed from the register** — and the act adds **both his parents**.*\n\n**HIS MOTHER WAS A FALCO.** «*dalla fu **RAFFAELA FALCO***» — *a Falco married to a Falco, which this archive has met before: a **RAFFAELA FALCO** is the mother of the Anna Falco who died on 16 March 1834, «figlia di MICHELANGELO FALCO», in the strada Camellara cluster. **Whether she is the same woman is not established and is not claimed.***\n\n**AND HIS FATHER RAISES THE SAME QUESTION AS THIS MORNING'S.** *A **FRANCESCO FALCO** died at Arienzo on 8 August 1882 aged seventy-six, **«vedovo di CARMELA SADUTTO»**. If he is this Pasquale's father then he married twice, Raffaela Falco and then Carmela Sadutto. **Two Francesco Falco, or one with two wives — the same shape of question as Pasquale Falco's two Chiare, and settled by nothing read so far.***\n\n*Forty-four in September 1883 is born about 1839. He appears in this archive's own reading of **1882** as a declarant — «PASQUALE FALCO, di anni quarantuno, contadino», reporting the death of Antonio Falco and Carmela Guida's eleven-month-old Domenica — and the two ages agree within the usual year.*\n\n**HE IS NAMED FOR A BROTHER WHO DIED THE YEAR BEFORE HE WAS BORN.** *This household already held a **PASQUALE FALCO** dead on **30 October 1838**; this one was born about **1839**. **The fourth pair of same-named siblings this archive has met today**, after two Angela Rosa, two Matteo and two Domenica.*\n\n**AND HIS MOTHER'S DEATH IS ALREADY HERE**: **RAFFAELA FALCO died 20 April 1854**, which is why the 1883 act calls her *fu*. *His father is written **FRANCESCANTONIO** at the marriage of 6 July 1832 and **FRANCESCO** here — the same dropped compound this archive has now seen for Carminantonio and Giovanbattista.*\n\n**WHICH SHARPENS THIS MORNING'S QUESTION RATHER THAN ANSWERING IT.** *A **FRANCESCO FALCO** died at Arienzo on 8 August 1882, **seventy-six**, **«vedovo di CARMELA SADUTTO»**. **Born about 1806, he would have been twenty-six at this household's marriage in 1832 — and Raffaela Falco died in 1854, leaving twenty-eight years to remarry.** The fit is good. **It is still not a proof, and the two men are still held apart**: what would settle it is a second marriage act, or his own death act naming a first wife.*",
 "ark": "3:1:3QSQ-G97F-9RQ — FamilySearch MC55-VNL img 719 right page, Arienzo Morti 1883 act 60 — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "10 Apr 1839",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo, *Nati* **1839**, **act 44** — **THE BIRTH OF THE PASQUALE WHO DIED IN 1883, AND PROOF HE WAS A NECRONYM.** «*è comparso **Francesantonio Falco** di anni trentatre, contadino, domiciliato strada **Camellara** … ha dichiarato … nato da **Raffaela Falco** sua moglie legittima, di anni ventiquattro … nel giorno dieci del mese di Aprile alle ore due … il nome di **Pasquale***», declared 11 April at thirteen hours; witnesses **Pellegrino Saccavino** (32) and **Domenico Sanone** (46), both of strada Porta di Sopra. The baptism column: «*Pasquale Falco*». **This house had buried a Pasquale on 30 October 1838 — five months earlier — and gave the name to the next son.** *In these years an act runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.** *Raffaela is twenty-four here and the house's marriage was in 1832: the clerks guessed her age.*",
+"ark": "ANTENATI an_ua14436 (Arienzo, Nati 1839) atto 44, img 45 right + 46 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -44101,12 +46564,38 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "antonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Antonio Falco (of Francesco, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-francesco-falco-raffaela-falco",
+"name": "Giovanni Falco (of Francescantonio, b. 1851)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Gioacchino Falco (of via Orticelli)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
-"d": "26 Sep 1883",
+"b": "10 Apr 1839",
 "dateFrom": {
+"b": "act",
 "d": "act"
-}
+},
+"d": "26 Sep 1883"
 },
 {
 "slug": "pasquale-falco-of-michele-falco-antonia-vigliotta",
@@ -44168,6 +46657,22 @@
 {
 "slug": "maria-rosa-falco-of-michele-falco-antonia-vigliotta",
 "name": "Maria Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-michele-falco-antonia-vigliotta-2",
+"name": "Matteo Falco (of Michele, 1840-1842)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco-of-michele-falco-antonia-vigliotta",
+"name": "Carmela Falco (of Michele, b. 1843)",
 "via": "register",
 "vias": [
 "register"
@@ -44443,6 +46948,14 @@
 "spouses": [],
 "children": [],
 "siblings": [
+{
+"slug": "carmino-falco",
+"name": "Carmino Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
 {
 "slug": "costanza-falco-of-luigi-falco-carolina-cimmino",
 "name": "Costanza Falco (of Luigi, b. 1859)",
@@ -44996,8 +47509,32 @@
 ]
 },
 {
+"slug": "antonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Antonio Falco (of Francesco, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-francesco-falco-raffaela-falco",
+"name": "Giovanni Falco (of Francescantonio, b. 1851)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Gioacchino Falco (of via Orticelli)",
 "via": "register",
 "vias": [
 "register"
@@ -45396,6 +47933,41 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "**HER DEATH IS THE RECORD THAT IDENTIFIES HER HUSBAND, AND IT IS NOW READ FROM THE IMAGE.** «*Num. d'ordine **trentaquattro**. L'anno mille ottocento **cinquantaquattro**, il dì **VENTI** del mese di **APRILE**, alle ore **TREDICI**, avanti di noi **VINCENZO MARTONE Sindaco** ed uffiziale dello stato civile del comune di **Arienzo**, distretto di **Caserta**, provincia di **Terra di Lavoro**, sono comparsi **MATTEO C[RISCI]**, di anni **SESSANTASEI** … e **CLEMENTE C[RISCI]**, di anni **QUARANTA** … regnicoli, domiciliati **strada PORTA DI SOPRA**, i quali han dichiarato, che nel giorno **VENTI** del mese di **APRILE** anno corrente, **alle ore UNDICI**, è morta **nella sua propria casa RAFFAELA FALCO, MOGLIE DI FRANCESCO FALCO**, nata in **Arienzo**, di anni **TRENTAQUATTRO**, di professione **CONTADINA**, domiciliata **strada CAMEL[LARA]**, **figlia di GIUSEPPE FALCO**, di professione **contadino**, domiciliato **ivi**, **e di ANTONIA GUIDA**, domiciliata **ivi***»\n\n**«MOGLIE DI FRANCESCO FALCO» IS WRITTEN OUT IN FULL, AND IT IS NOT «FRANCESCANTONIO».** That is the whole point of work-list row 87, which had half-settled on a **register citation**. *It now rests on the act.* Four months later a **FRANCESCO FALCO of strada Camellara married again as «VEDOVO DI RAFFAELA FALCO»** — so the FRANCESCO of 1854 and the FRANCESCANTONIO of 1832 are one man.\n\n**Thirty-four in April 1854** puts her birth about **1820**; her marriage act of July 1832 makes her nineteen, which is **1813**. *The clerks guessed, as this archive has demonstrated to the day — forty on 2 April 1825 and forty-five on 6 April 1825, same office, same man. The parents, the street and the husband's name are not guesses.*\n\n**Both her parents are named living**: «*figlia di **GIUSEPPE FALCO** … domiciliato **ivi**, e di **ANTONIA GUIDA**, domiciliata **ivi***», neither marked «fu». *Carried as a weak inference on the civil series, never alone.*\n\n**Declared by MATTEO and CLEMENTE, sixty-six and forty, of strada PORTA DI SOPRA** — not by her husband, and not by a Falco. *Surname faint, reading as CRISCI, not claimed.* **Their trade is MINISCALCO — farriers** — read not from this act, which would not yield it at any magnification, but from a clearer hand in the 1859 marriage register and confirmed against this archive's own register.",
 "ark": "ANTENATI an_ua14356 (Arienzo, Morti 1854) img 24, atto 34 — READ FROM THE IMAGE at 3,200 px, 23 September 2026 · trade word resolved 23 Sep 2026 from an_ua14263 act 18"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "10 Apr 1839",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the mother in the birth act of 10 Apr 1839: RAFFAELA FALCO, twenty-four, «sua moglie legittima».",
+"ark": "ANTENATI an_ua14436 (Arienzo, Nati 1839) atto 44, img 45 right + 46 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "25 Sep 1848",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the mother in the birth act of 25 Sep 1848: RAFFAELA FALCO, twenty-eight.",
+"ark": "ANTENATI an_ua14445 (Arienzo, Nati 1848) atto 75, img 76 right + 77 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "6 Jan 1842",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the mother in the birth act of 6 Jan 1842: RAFFAELA FALCO, thirty.",
+"ark": "ANTENATI an_ua14439 (Arienzo, Nati 1842) atto 4, img 5 right + 6 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "19 Dec 1843",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the mother in the birth act of 19 Dec 1843: RAFFAELA FALCO, twenty-five.",
+"ark": "ANTENATI an_ua14440 (Arienzo, Nati 1843) atto 112, img 114 right + 115 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "27 Mar 1851",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the mother in the birth act of 27 Mar 1851: RAFFAELA FALCO, thirty-five.",
+"ark": "ANTENATI an_ua14448 (Arienzo, Nati 1851) atto 31, img 41 right + 42 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -45471,8 +48043,32 @@
 ]
 },
 {
+"slug": "antonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Antonio Falco (of Francesco, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-francesco-falco-raffaela-falco",
+"name": "Giovanni Falco (of Francescantonio, b. 1851)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Gioacchino Falco (of via Orticelli)",
 "via": "register",
 "vias": [
 "register"
@@ -45993,6 +48589,14 @@
 ]
 },
 {
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "sara-falco-2",
 "name": "Sara Falco",
 "via": "register",
@@ -46161,6 +48765,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
 "via": "register",
 "vias": [
 "register"
@@ -46695,8 +49307,32 @@
 ]
 },
 {
+"slug": "antonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Antonio Falco (of Francesco, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-francesco-falco-raffaela-falco",
+"name": "Giovanni Falco (of Francescantonio, b. 1851)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Gioacchino Falco (of via Orticelli)",
 "via": "register",
 "vias": [
 "register"
@@ -47028,6 +49664,13 @@
 "place": "Arienzo, via Orticelli 6",
 "evidence": "**GENERATION FOUR'S OWN DEATH ACT. THIS HOUSEHOLD HAD ONE RECORD IN IT BEFORE TODAY.**\n\nArienzo, *Morti* **1880**, **act 35**: «*L'anno milleottocentottanta, addì **ventidue** di **aprile**, a ore antimeridiane **otto** e minuti **quarantasei** … Avanti di me **Finelli Cavalier Nicola, Sindaco** … sono comparsi **GIUSEPPE CRISCI**, di anni **trentasette**, *calzolaio*, e **CLEMENTE MORGILLO**, di anni **quarantatré**, *agricoltore* … a ore pomeridiane **cinque** e minuti **trenta** di **ieri**, nella casa posta in **via ORTICELLI** al numero **SEI**, è morto **RAFFAELE FALCO**, di anni **SESSANTADUE**, *giornaliere*, residente in Arienzo, nato in Arienzo, **dal fu VINCENZO**, contadino, domiciliato in vita in Arienzo, e **dalla fu ANDREANA CRISCI**, filatrice, domiciliata in vita in Arienzo, **VEDOVO DI ANGELAROSA MORGILLO***».\n\n**SIXTY-TWO ON 21 APRIL 1880 IS BORN ABOUT 1818**, and the parents are generation three in the same words their own acts use.\n\n**HE IS THE RAFFAELE FALCO WHO HAS BEEN WALKING THROUGH THIS ARCHIVE ALL DAY AS A DECLARANT**: *fifty-six at Angelo Falco's death in January 1875, sixty-one at **MICHELE FALCO's** in September 1879 — his own father's brother — and dead at sixty-two seven months after that.* **Three ages, three acts, one man.**\n\n**AND HE BURIED HIS WIFE SIX DAYS EARLIER, IN THE SAME HOUSE.** *See her row.*\n\n**VIA ORTICELLI 6 IS THIS LINE'S OWN DOOR.** *Michele Falco died there on 28 September 1879; **CARMINANTONIO FALCO**'s daughter Angela Rosa died there on 6 February 1879; Angelarosa Morgillo on 15 April 1880 and Raffaele Falco on the twenty-first.*",
 "ark": "3:1:3QS7-997F-M73C — FamilySearch MC55-VNL img 364 right page, Arienzo Morti 1880 act 35 — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "10 Jul 1850",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the father in the birth act of 10 Jul 1850: RAFFAELE FALCO, twenty-eight, contadino, strada Camellara — declarant's own house.",
+"ark": "ANTENATI an_ua14447 (Arienzo, Nati 1850) atto 52, img 60 right + 61 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -47081,6 +49724,7 @@
 "via": "line",
 "vias": [
 "line",
+"register",
 "tree"
 ]
 },
@@ -48327,6 +50971,22 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "matteo-falco-of-michele-falco-antonia-vigliotta-2",
+"name": "Matteo Falco (of Michele, 1840-1842)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco-of-michele-falco-antonia-vigliotta",
+"name": "Carmela Falco (of Michele, b. 1843)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "d": "9 Aug 1836",
@@ -48533,6 +51193,14 @@
 ]
 },
 {
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "giuseppe-falco-of-giuseppe-falco-rosa-zimbardo",
 "name": "Giuseppe Falco (of Rosa Zimbardo)",
 "via": "register",
@@ -48728,6 +51396,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
 "via": "register",
 "vias": [
 "register"
@@ -48986,6 +51662,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "clementina-falco-of-matteo-falco-alessandra-crisci",
+"name": "Clementina Falco (of Matteo, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "18 May 1842",
@@ -49040,8 +51724,9 @@
 {
 "slug": "carmine-antonio-falco",
 "name": "Carmine Antonio Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 }
@@ -49149,7 +51834,7 @@
 ]
 },
 {
-"slug": "clementina-falco-2",
+"slug": "clementina-falco",
 "name": "Clementina Falco (Biondo)",
 "via": "tree",
 "vias": [
@@ -49397,6 +52082,13 @@
 "place": "Arienzo, via Orticelli 10",
 "evidence": "**GENERATION THREE'S DEATH ACT, AND THE TREE HAD THE DAY RIGHT.**\n\nArienzo, *Morti* **1875**, **act 39**: «*L'anno milleottocentosettantacinque, addì **quindici** di **maggio**, a ore antimeridiane **nove** e minuti **quarantacinque**, nella Casa comunale. Avanti di me **FINELLI Cavalier NICOLA, Sindaco** … sono comparsi **LUIGI GIGLIO**, di anni **trentadue**, *sarto*, domiciliato in Arienzo, e **GIUSEPPE FALCO**, di anni **VENTOTTO**, *agricoltore*, domiciliato in Arienzo, i quali mi hanno dichiarato che a ore antimeridiane **sette** e minuti **trenta** di **oggi**, **nella casa posta in VIA ORTICELLI al numero DIECI**, è morto **FALCO VINCENZO**, di anni **OTTANTADUE**, *contadino*, residente in Arienzo, nato in Arienzo, **dal fu PASQUALE**, *contadino*, domiciliato in Arienzo, e **dalla fu CHIARA RIVETTI**, *contadina*, domiciliata in Arienzo, **MARITO DI CRISCI ANDREANA***». Witnesses **Antonio d'Onofrio**, 53, and **Andrea Saccone**, 56, both *scribenti*.\n\n**EIGHTY-TWO ON 15 MAY 1875 IS BORN ABOUT 1793**, and this archive carries him born **1793** and dead **15 May 1875** — *from the family tree, unverified, until now.* **The act gives the day, the street, the house number, both his parents and his wife's name**, and it names his parents exactly as this archive's own reading of his marriage act of 15 October 1814 does: **PASQUALE FALCO and CHIARA RIVETTI**, both dead.\n\n**AND ANDREANA CRISCI WAS STILL ALIVE** — «*marito di*», not «*vedovo di*». *She married him in October 1814 and outlived him; her own death is in a register after May 1875 and is not yet found.*\n\n**HE DIED IN VIA ORTICELLI 10, NOT IN THE STRADA CAMELLARA.** Every one of the twenty-six records this household already held places him in the **strada Camellara**, the last of them in December 1864. *Somewhere in the eleven years between, generation three moved* — and **via Orticelli is now the street this archive holds most Falco in**: number 4 (Giuseppe and Nicoletta Nuzzo), number 8 (Angelo Falco dead there four months earlier, and Gioacchino Falco and Andreana Crisci living there in 1884), number 9 (Giovanni Falco and Giuseppa Martone), and number 10, his own.\n\n**The second declarant is «GIUSEPPE FALCO, di anni VENTOTTO, agricoltore»** — twenty-eight in May 1875, so born about 1847. *A declarant is never kinship here. It is the third age this archive has for a Giuseppe Falco of about that birth year in these registers — 27 in October 1872, 28 here, 42 in February 1885 — and nothing yet proves they are one man.*",
 "ark": "3:1:3QS7-9976-Q73Y — FamilySearch MC55-FNT img 1013 right page, Arienzo Morti 1875 act 39 — READ FROM THE IMAGE"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "15 Sep 1840",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the father in the birth act of 15 Sep 1840: VINCENZO FALCO, forty-three, contadino, strada Camellara — declarant.",
+"ark": "ANTENATI an_ua14437 (Arienzo, Nati 1840) atto 89, img 93 right + 94 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -49566,6 +52258,14 @@
 ]
 },
 {
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "sara-falco-2",
 "name": "Sara Falco",
 "via": "register",
@@ -49723,6 +52423,13 @@
 "place": "Arienzo, Corso Caudino 80",
 "evidence": "**THE REGISTER ACT, AFTER THREE YEARS OF HOLDING ONLY A CERTIFIED COPY OF IT.** Arienzo, *Morti* **1889**, **act 57**: «*L'anno milleottocentottantanove, addì **tredici** di **Settembre**, a ore antimeridiane **undici** e minuti **venti** … Avanti di me **AURELIO CASALE, Commissario Straordinario in Arienzo** … sono comparsi **GAETANO LIPARULO**, di anni **quaranta**, *sarto*, e **PASQUALE PERROTTA**, di anni **trentasei**, *sarto* … a ore pomeridiane **due** e minuti **trenta** di **ieri**, nella casa posta in **CORSO CAUDINO** al numero **OTTANTA**, è morto **VINCENZO FALCO**, di anni **TRENTANOVE**, *viaticale*, residente in Arienzo, nato in Arienzo, da **ANGELO**, *viaticale*, domiciliato in Arienzo, e da **ANNAMARIA CIMMINO**, *donna di casa*, domiciliata in Arienzo, **MARITO DI ANGELA PELLONE***».\n\n**EVERY WORD OF THE PROCESSETTO EXTRACT IS CONFIRMED FROM THE REGISTER** — *the date, the age, the trade, the house, and both his parents by name.* **And the act adds what the extract left out: he died a married man, «marito di ANGELA PELLONE», who survived him.**\n\n**AND HIS PARENTS WERE BOTH ALIVE.** Neither **ANGELO** nor **ANNAMARIA CIMMINO** is marked *fu*, and both are *domiciliati in Arienzo*. **That is the latest sighting of either of them this archive holds** — three months after their daughter Carmela's marriage of June 1886 was the previous one, and they outlived this son.\n\n*Seven months earlier he had registered a daughter, **CARMELA**, at this same address; she married Domenico Perrino in 1904.*",
 "ark": "3:1:3QS7-L97F-MCVG — FamilySearch MC55-VNL img 1453 left page, Arienzo Morti 1889 act 57 — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "26 Feb 1850",
+"place": "Arienzo, strada Croce",
+"evidence": "Arienzo, *Nati* **1850**, **act 19**: «*è comparso **Angelo Falco** di anni ventisei, contadino, strada **Croce** … ha dichiarato che lo stesso è nato da **Maria Cimmino** sua moglie legittima di anni ventisei, domiciliata strada Croce … nel giorno ventisei del mese di Febbrajo alle ore dieci … il nome di **Vincenzo***»; witnesses **Antonio Sarzone** (50, contadino) and **Fabrizio Crisci** (50, cantiniere, Capodiconca). Baptism «*Vincenzo Falco*». **MARGIN, read at 2,800 px: «*A 30 Dicembre 1874 l'uff.le dello stato civ.e d'Arienzo ha sposato Vincenzo Falco con Angela Pellone. Caserta 31 Luglio 1884*»** — **the marriage of Vincenzo Falco of this house (Arienzo *Matrimoni* 1874, act 35), which names his parents only as «Angelo and Maria Cimmino»: this is his birth act, and it names the same two.** *An act of these years runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14447 (Arienzo, Nati 1850) atto 19, img 27 right + 28 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -49781,12 +52488,30 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "antonia-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Antonia Falco (of Angelo, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanbattista-falco",
+"name": "Giovanbattista Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
-"d": "13 Sep 1889",
+"b": "26 Feb 1850",
 "dateFrom": {
+"b": "act",
 "d": "act"
-}
+},
+"d": "13 Sep 1889"
 },
 {
 "slug": "vincenzo-falco-of-antonio-falco-carmela-guida",
@@ -49928,6 +52653,49 @@
 "dateFrom": {
 "b": "act"
 }
+},
+{
+"slug": "vincenzo-falco-of-vincenzo-falco-maria-morgillo-stra",
+"name": "Vincenzo Falco (of Maria Morgillo)",
+"surname": "FALCO",
+"household": "Vincenzo Falco & Maria Morgillo (strada Camellara)",
+"hid": "vincenzo-falco-maria-morgillo-strada-camellara",
+"role": "father",
+"events": [
+{
+"event": "named as father in his child's birth act",
+"date": "20 Jun 1852",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the father in the birth act of 20 Jun 1852: VINCENZO FALCO, forty, contadino, strada Camellara — declarant.",
+"ark": "ANTENATI an_ua14449 (Arienzo, Nati 1852) atto 76, img 85 right + 86 left — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "maria-morgillo",
+"name": "Maria Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "antonia-falco-of-vincenzo-falco-maria-morgillo-stra",
+"name": "Antonia Falco (of Vincenzo and Maria Morgillo, b. 1852)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
 },
 {
 "slug": "vincenzo-falco",
@@ -50329,6 +53097,14 @@
 {
 "slug": "maria-carmela-falco-of-vincenzo-falco-andreana-crisci",
 "name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-filomena-falco",
+"name": "Maria Filomena Falco (of Vincenzo, b. 1840)",
 "via": "register",
 "vias": [
 "register"
@@ -53576,6 +56352,49 @@
 "siblings": []
 },
 {
+"slug": "angelo-majone-of-angelo-majone-maria-angela-falco",
+"name": "Angelo Majone (husband of Mariangela Falco)",
+"surname": "MAJONE",
+"household": "Angelo Majone & Maria Angela Falco",
+"hid": "angelo-majone-maria-angela-falco",
+"role": "father",
+"events": [
+{
+"event": "named as father in his child's birth act",
+"date": "6 Feb 1840",
+"place": "Arienzo, strada Rosciano",
+"evidence": "Named as the father in the birth act of 6 Feb 1840: ANGELO MAJONE, twenty-nine, contadino, strada Rosciano? — declarant.",
+"ark": "ANTENATI an_ua14437 (Arienzo, Nati 1840) atto 14, img 15 right + 16 left — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "maria-angela-falco-of-angelo-majone-maria-angela-falco",
+"name": "Maria Angela Falco (wife of Angelo Majone)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "michele-majone",
+"name": "Michele Majone (of Angelo, b. 1840)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
 "slug": "domenico-majone",
 "name": "Domenico Majone (of Angelo, b. 1860)",
 "surname": "MAJONE",
@@ -53697,6 +56516,52 @@
 }
 ],
 "b": "26 Feb 1858",
+"dateFrom": {
+"b": "act"
+}
+},
+{
+"slug": "michele-majone",
+"name": "Michele Majone (of Angelo, b. 1840)",
+"surname": "MAJONE",
+"household": "Angelo Majone & Maria Angela Falco",
+"hid": "angelo-majone-maria-angela-falco",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "6 Feb 1840",
+"place": "Arienzo, strada Rosciano",
+"evidence": "Arienzo, *Nati* **1840**, **act 14**: «*è comparso Angelo Majone di anni ventinove, contadino, domiciliato strada Rosciano? … nato da **Mariangela Falco** sua moglie legittima, di anni ventotto … nel giorno sei … alle ore dodici? … il nome di **Michele***»; witnesses **Giuseppe Crisci** (53, calzolajo, strada Camellara) and **Marco Lettieri** (60, strada Sant'Andrea). Baptism «*Michele Majone*». **A Falco wife this archive did not hold — the act spells her «Mariangela», written here «Maria Angela» so that she is not confused with the unrelated Mariangela Martenisi, wife of another Francesco Falco in the family tree; her parents are not named in the act, and no kinship to any Falco household is claimed.** *In these years an act runs across a spread: the declarant on the right page, the mother, father, witnesses and later margin notes on the NEXT image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14437 (Arienzo, Nati 1840) atto 14, img 15 right + 16 left — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "angelo-majone-of-angelo-majone-maria-angela-falco",
+"name": "Angelo Majone (husband of Mariangela Falco)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-angela-falco-of-angelo-majone-maria-angela-falco",
+"name": "Maria Angela Falco (wife of Angelo Majone)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "6 Feb 1840",
 "dateFrom": {
 "b": "act"
 }
@@ -55910,6 +58775,13 @@
 "ark": "ANTENATI an_ua14452 (Arienzo, Nati 1855) atto 111, img 58 right — READ FROM THE IMAGE"
 },
 {
+"event": "named as mother in her child's birth act",
+"date": "5 Mar 1850",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the mother in the birth act of 5 Mar 1850: MARIA MORGILLO, twenty-eight, strada Camellara.",
+"ark": "ANTENATI an_ua14447 (Arienzo, Nati 1850) atto 22, img 30 right + 31 left — READ FROM THE IMAGE"
+},
+{
 "event": "marriage",
 "date": "2 Feb 1845",
 "place": "Arienzo, strada Cappuccini",
@@ -55992,6 +58864,14 @@
 {
 "slug": "angelo-falco-of-crescenzo-falco-angela-maria-morgi",
 "name": "Angelo Falco (of Crescenzo, b. 1862)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-crescenzo-falco-angela-maria-morgi",
+"name": "Giovanni Falco (of Crescenzo, b. 1850)",
 "via": "register",
 "vias": [
 "register"
@@ -56128,6 +59008,13 @@
 "place": "Arienzo, via Orticelli 6",
 "evidence": "**AND SHE DIED SIX DAYS BEFORE HIM.** Arienzo, *Morti* **1880**, **act 34**: «*L'anno milleottocentottanta, addì **sedici** di **aprile** … a ore pomeridiane **sette** e minuti **trenta** di **ieri**, nella casa posta in **via ORTICELLI** al numero **SEI**, è morta **ANGELAROSA MORGILLO**, di **SESSANTUNO anni**, *contadina*, residente in Arienzo, **nata in SAN FELICE A CANCELLO**, **dal fu ORAZIO**, agricoltore, domiciliato in vita in Arienzo, e **dalla fu VINCENZA PESCE**, contadina, domiciliata in vita col marito, **MOGLIE DI RAFFAELE FALCO***». The same two declarants as her husband's act six days later.\n\n**SHE WAS NOT BORN AT ARIENZO.** «*nata in **SAN FELICE A CANCELLO***» — **sixty-one in April 1880, so born about 1819**, and **her birth act at San Felice a Cancello was read on 13 September 2026** — Nati 1818, image 55, the Massaria delle Fosse.\n\n**ORAZIO MORGILLO and VINCENZA PESCE are not new to this archive, and the first version of this row said they were.** *Their daughter's **birth act** was read at San Felice a Cancello on **13 September 2026** — Nati 1818, `an_ua50395`, image 55: she was born **24 February 1818 at seven in the morning** at the **Massaria delle Fosse**, christened **ANGIOLA ROSA**, to **ORAZIO MORGILLO, 26, *bracciale*** and **VINCENZA PESCE, 27, *filatrice***.*\n\n**WHAT THIS 1880 ACT ADDS IS THAT THEY WERE BOTH DEAD**, and that is new: «*dal **fu** ORAZIO … e dalla **fu** VINCENZA PESCE*». **Orazio born about 1792 and Vincenza about 1791 are dead before 15 April 1880**, he *domiciliato in vita in Arienzo* — so the family left San Felice for Arienzo in his lifetime. *And the two acts corroborate each other across sixty-two years and two comuni: the same two names, the same daughter.*\n\n*This household stood on a single act, the birth of a daughter Vincenza on 20 November 1847. **It has three now, and two of them are its heads' deaths in one week.***",
 "ark": "3:1:3QS7-997F-M73C — FamilySearch MC55-VNL img 364 left page, Arienzo Morti 1880 act 34 — READ FROM THE IMAGE"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "10 Jul 1850",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the mother in the birth act of 10 Jul 1850: ANGELA [Rosa] MORGILLO, twenty-five, strada Camellara.",
+"ark": "ANTENATI an_ua14447 (Arienzo, Nati 1850) atto 52, img 60 right + 61 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -56169,8 +59056,9 @@
 {
 "slug": "carmine-antonio-falco",
 "name": "Carmine Antonio Falco",
-"via": "tree",
+"via": "register",
 "vias": [
+"register",
 "tree"
 ]
 },
@@ -57410,6 +60298,128 @@
 "treeId": 4512420
 },
 {
+"slug": "maria-morgillo",
+"name": "Maria Morgillo",
+"surname": "MORGILLO",
+"household": "Vincenzo Falco & Maria Morgillo (strada Camellara)",
+"hid": "vincenzo-falco-maria-morgillo-strada-camellara",
+"role": "mother",
+"events": [
+{
+"event": "named as mother in her child's birth act",
+"date": "20 Jun 1852",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the mother in the birth act of 20 Jun 1852: MARIA MORGILLO, thirty-one, strada Camellara.",
+"ark": "ANTENATI an_ua14449 (Arienzo, Nati 1852) atto 76, img 85 right + 86 left — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register",
+"tree"
+],
+"living": false,
+"parents": [
+{
+"slug": "giuseppe-falco-of-giuseppe-falco-antonia-di-guida",
+"name": "Giuseppe Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "antonia-di-guida",
+"name": "Antonia Guida / Guido (Falco)",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"spouses": [
+{
+"slug": "raffaele-morgillo-of-raffaele-morgillo-maria-falco",
+"name": "Raffaele Morgillo",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "vincenzo-falco-of-vincenzo-falco-maria-morgillo-stra",
+"name": "Vincenzo Falco (of Maria Morgillo)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "antonia-falco-of-vincenzo-falco-maria-morgillo-stra",
+"name": "Antonia Falco (of Vincenzo and Maria Morgillo, b. 1852)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonio-zimbardo",
+"name": "Antonio Zimbardo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": [
+{
+"slug": "giovanna-falco-of-aniello-crisci-giovanna-falco",
+"name": "Giovanna Falco (Crisci)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "matteo-falco-of-matteo-falco-alessandra-crisci",
+"name": "Matteo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "francesca-crisci",
+"name": "Francesca Falco (Crisci)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "crescenzo-falco",
+"name": "Crescenzo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"mergedOn": "name alone",
+"treeId": 4512409,
+"b": "1818",
+"dateFrom": {
+"b": "tree",
+"d": "tree",
+"bp": "tree",
+"dp": "tree"
+},
+"d": "Oct 3 1871",
+"bp": "Arienzo",
+"dp": "Arienzo, Caserta, Campania, Italia"
+},
+{
 "slug": "nicola-morgillo",
 "name": "Nicola Morgillo",
 "surname": "MORGILLO",
@@ -58020,12 +61030,19 @@
 "parents": [],
 "spouses": [
 {
-"slug": "maria-falco-of-raffaele-morgillo-maria-falco",
+"slug": "maria-morgillo",
 "name": "Maria Falco (Morgillo)",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "maria-falco-of-raffaele-morgillo-maria-falco",
+"name": "Maria Falco (wife of Raffaele Morgillo)",
 "via": "register",
 "vias": [
-"register",
-"tree"
+"register"
 ]
 }
 ],
@@ -58837,7 +61854,7 @@
 "event": "birth",
 "date": "11 Sep 1855",
 "place": "Arienzo",
-"evidence": "Arienzo, *Nati* **1855**, **act 76**: **GIOVANNA PELLONE**, born **11 September 1855** to **Antonio Pellone**, thirty, *industriante*, and **Maria Crisci**, thirty. *Her margin gives her marriage to Carmine Falco on **13 August 1878** — the husband of this household.* The page was not re-opened for her date.",
+"evidence": "Arienzo, *Nati* **1855**, **act 76**: **GIOVANNA PELLONE**, born **11 September 1855** to **Antonio Pellone**, thirty, *industriante*, and **Maria Crisci**, thirty. *Her margin gives her marriage to Carmine Falco on **13 August 1878 [WITHDRAWN 25 Oct 2026: Carmine Falco's own birth act, Nati 1852 act 9, read at 2,800 px, gives the marriage as 19 AUGUST 1875]** — the husband of this household.* The page was not re-opened for her date.",
 "ark": "ANTENATI an_ua14452 (Arienzo, Nati 1855) atto 76, img 41 left — READ FROM THE IMAGE"
 }
 ],
@@ -64753,6 +67770,20 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "«e di ANTONIA MIGLIORE, domiciliata ivi» — same act, also without «fu», so alive in 1842. Migliore is a common Arienzo surname and no parents are named for her.\n\n**HER SURNAME WAS PUBLISHED HERE AS «MIGLIORE» UNTIL 20 SEPTEMBER 2026.** The act reads «*e di **ANTONIA VIGLIOTTA**, domiciliata ivi*», and the word was set beside the same clerk's «Antonia Vigliotta» in the death act of **MARIA ROSA FALCO**, 30 May 1834, and found to be the same word — the same capital **V**, the same «gli» with its tall l, the same «-otta». **Migliore has no V and no double t.**\n\n**And the marriage act settles it from the other end**: on 12 February 1850 **MICHELE FALCO, colono of strada Camellara**, marries again as «***VEDOVO DI ANTONIA VIGLIOTI***». **One wife, one surname, three acts — 1834, 1842 and 1850.**",
 "ark": "ANTENATI an_ua14344 img35r atto55"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "20 Jun 1840",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the mother in the birth act of 20 Jun 1840: ANTONIA [Vigliotta?], thirty-four — the surname is hard to read: it looks like «Migliore» and the household's wife is Vigliotta.",
+"ark": "ANTENATI an_ua14437 (Arienzo, Nati 1840) atto 55, img 57 right + 58 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "16 Jul 1843",
+"place": "Arienzo, strada Camellara",
+"evidence": "Named as the mother in the birth act of 16 Jul 1843: ANTONIA [Diglio?], thirty — the surname reads DIGLIO here, «Migliore» in 1840 and VIGLIOTTA in the household's earlier acts: not certain.",
+"ark": "ANTENATI an_ua14440 (Arienzo, Nati 1843) atto 63, img 65 right + 66 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -64798,6 +67829,22 @@
 {
 "slug": "pasquale-falco-of-michele-falco-antonia-vigliotta",
 "name": "Pasquale Falco (of Michele, d. 1862)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-michele-falco-antonia-vigliotta-2",
+"name": "Matteo Falco (of Michele, 1840-1842)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco-of-michele-falco-antonia-vigliotta",
+"name": "Carmela Falco (of Michele, b. 1843)",
 "via": "register",
 "vias": [
 "register"
@@ -67886,11 +70933,19 @@
 "register"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "maria-morgillo",
+"name": "Maria Morgillo",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "spouses": [],
 "children": [],
-"siblings": [],
-"noKin": "married-in"
+"siblings": []
 },
 {
 "slug": "carmina-zimbardo",

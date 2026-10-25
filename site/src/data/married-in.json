@@ -198,7 +198,7 @@
    },
    {
     "who": "Maria Falco (Morgillo)",
-    "whoSlug": "maria-falco-of-raffaele-morgillo-maria-falco",
+    "whoSlug": "maria-morgillo",
     "to": "Raffaele Morgillo",
     "toSlug": "raffaele-morgillo-of-raffaele-morgillo-maria-falco",
     "into": "Morgillo",
@@ -270,7 +270,7 @@
    },
    {
     "who": "Clementina Falco (Biondo)",
-    "whoSlug": "clementina-falco-2",
+    "whoSlug": "clementina-falco",
     "to": "Nicola Biondo",
     "toSlug": "nicola-biondo-2",
     "into": "Biondo",
@@ -560,7 +560,7 @@
    },
    {
     "name": "Maria Falco (Morgillo)",
-    "slug": "maria-falco-of-raffaele-morgillo-maria-falco",
+    "slug": "maria-morgillo",
     "b": "1818",
     "bp": "Arienzo",
     "d": "Oct 3 1871",
@@ -720,7 +720,7 @@
    },
    {
     "name": "Maria Concetta Falco",
-    "slug": "maria-concetta-falco",
+    "slug": "maria-concetta-falco-2",
     "b": "Feb 19 1847",
     "bp": "Arienzo",
     "d": "",
@@ -752,7 +752,7 @@
    },
    {
     "name": "Clementina Falco (Biondo)",
-    "slug": "clementina-falco-2",
+    "slug": "clementina-falco",
     "b": "Dec 18 1848",
     "bp": "Arienzo",
     "d": "Sep 20 1900",
@@ -824,7 +824,7 @@
    },
    {
     "name": "Marianna Falco",
-    "slug": "marianna-falco",
+    "slug": "marianna-falco-2",
     "b": "July 25 1851",
     "bp": "Arienzo",
     "d": "",
@@ -1732,7 +1732,7 @@
    },
    {
     "name": "Luigi Crisci",
-    "slug": "luigi-crisci",
+    "slug": "luigi-crisci-2",
     "b": "Oct 30 1840",
     "bp": "Arienzo",
     "d": "",
@@ -2563,7 +2563,7 @@
     "who": "Nicola Biondo",
     "whoSlug": "nicola-biondo-2",
     "to": "Clementina Falco (Biondo)",
-    "toSlug": "clementina-falco-2",
+    "toSlug": "clementina-falco",
     "into": "Falco",
     "living": false
    }
@@ -2986,7 +2986,7 @@
     "who": "Raffaele Morgillo",
     "whoSlug": "raffaele-morgillo-of-raffaele-morgillo-maria-falco",
     "to": "Maria Falco (Morgillo)",
-    "toSlug": "maria-falco-of-raffaele-morgillo-maria-falco",
+    "toSlug": "maria-morgillo",
     "into": "Falco",
     "living": false
    },
