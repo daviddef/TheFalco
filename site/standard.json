@@ -170,6 +170,10 @@
   "/who/"
  ],
  "tables": "records",
+ "lines": {
+  "exclusive": true,
+  "personBase": "/people/"
+ },
  "living_years": {
   "allow_file": "living-year-allow.json",
   "allow_prefixes": [],

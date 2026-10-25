@@ -4,6 +4,13 @@ import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import Tributaries from "../components/Tributaries.astro";
 import Strands from "../components/Strands.astro";
+import strands from "../data/strands.json";
+import { ledger } from "@daviddef/archive-kit/lib/lines.js";
+
+/* The number of strands is the number of lanes in src/data/strands.json (the kit's ledger), never a typed word. */
+const WORDS = ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
+const word = (n) => WORDS[n] ?? String(n);
+const strandCount = ledger(strands).lanes;
 ---
 <Base title="Where they went"
       eyebrow="Where this family went, and who went with them"
@@ -12,7 +19,7 @@ import Strands from "../components/Strands.astro";
   <Tributaries />
 
   <h2>Where each of these Falco came from, and where each of them went</h2>
-  <p>The figure above is <strong>one family moving</strong>. This one is <strong>five strands of one
+  <p>The figure above is <strong>one family moving</strong>. This one is <strong>{word(strandCount)} strands of one
   surname</strong>, drawn the way the de Franceschi archive draws its families: a spine of places in date
   order, a fan of where each ends up, and a line in small capitals saying how well it is documented.
   <strong>A dashed strand goes nowhere this archive can follow, or is not this family.</strong></p>
@@ -27,7 +34,7 @@ import Strands from "../components/Strands.astro";
   <p class="small"><strong>The five households on strada Camellara are deliberately not in it.</strong>
   They never move, and a figure about where people came from would have to invent a journey for them.
   They are in the band at the foot of the first figure, which exists to say <em>these do not
-  connect</em>. <strong>Only the top strand is this family.</strong> The other four are Falco this
+  connect</em>. <strong>Only the top strand is this family.</strong> The other {word(strandCount - 1)} are Falco this
   archive can name, date and place — and cannot join.</p>
 
   <div class="card" style="margin-bottom:1.1rem;border-left:3px solid var(--rule,currentColor)">

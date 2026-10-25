@@ -25,5 +25,25 @@
    numbers in the last lane are counts of harvested rows, not of people. */
 import BranchRivers from "@daviddef/archive-kit/components/BranchRivers.astro";
 import data from "../data/strands.json";
+import line from "../data/line.json";
+
+/* LANE STATUSES, PENS AND PERSON LINKS (kit 341af33, kit/docs/lines.md). Each lane says how far its own
+   evidence reaches (status, span, statusNote in strands.json); the two pens say what is in them and why; the
+   line's people are the generations of src/data/line.json (the gate allows a person in one place only, so the
+   two a node links to are not repeated in the member list), named here from that file, so the list reads as
+   names and not as slugs. The gate is `npm run check:lines`; the counts in the figure's heading are derived
+   from this data by the kit and are never typed. */
+const gens = new Map(line.map((g) => [g.gen, g.name]));
+const SLUG_GEN = {
+  "matteo-falco-of-matteo-falco-francesca-crisci": 1,
+  "pasquale-falco-of-pasquale-falco-chiara-rivetti": 2,
+  "vincenzo-falco-of-vincenzo-falco-andreana-crisci": 3,
+  "raffaele-falco-of-raffaele-falco-angela-rosa-morgill": 4,
+  "carmine-antonio-falco": 5,
+  "raffaele-falco-2": 6,
+  "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann": 7,
+  "carmine-falco-of-carmine-antonio-falco-filomena-ann": 8,
+};
+const names = Object.fromEntries(Object.entries(SLUG_GEN).map(([slug, g]) => [slug, `${gens.get(g)} (generation ${g})`]));
 ---
-<BranchRivers rivers={data} caption={data.caption} title={data.title} />
+<BranchRivers rivers={data} caption={data.caption} title={data.title} personBase="/people/" names={names} />

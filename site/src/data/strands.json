@@ -1,35 +1,36 @@
 {
- "caption": "Where each of these Falco came from and where each of them went — one line and the four strands of the same surname that no record joins to it",
- "title": "One line, and four strands of the same surname that no record joins to it",
+ "title": "One line, and the strands of the same surname that no record joins to it",
+ "caption": "Where each of these Falco came from and where each of them went: one line, and the strands of the same surname that no record joins to it",
  "lanes": [
   {
    "key": "line",
    "colour": "var(--r-italy)",
    "label": "Out of Arienzo, by marriage",
-   "conf": "DOCUMENTED · SEVEN GENERATIONS, ABOUT 1747–1901",
    "read": "The seven generations →",
    "href": "/families/",
    "nodes": [
-    [
-     "Arienzo",
-     "1767",
-     "Seven generations, most of them on one street — strada Camellara."
-    ],
-    [
-     "Forchia",
-     "1930",
-     "Generation eight was born here because generation seven married an Annecchino of Forchia. A marriage moved a family that had not moved in seven generations."
-    ],
-    [
-     "Arpaia",
-     "1955",
-     "Where Carmine Falco married Francesca Zampiello, on 15 January 1955 — her home town."
-    ],
-    [
-     "Brisbane",
-     "1964",
-     "The ss SYDNEY of the Lauro Lines, Genoa to Brisbane, arrived 26 March 1964."
-    ]
+    {
+     "place": "Arienzo",
+     "year": "1767",
+     "why": "The earliest document of the line: Pasquale's baptism, 24 July 1767, names his father Matteo. Seven generations, most of them on one street — strada Camellara.",
+     "person": "pasquale-falco-of-pasquale-falco-chiara-rivetti"
+    },
+    {
+     "place": "Forchia",
+     "year": "1930",
+     "why": "Generation eight was born here because generation seven married an Annecchino of Forchia. A marriage moved a family that had not moved in seven generations.",
+     "person": "carmine-falco-of-carmine-antonio-falco-filomena-ann"
+    },
+    {
+     "place": "Arpaia",
+     "year": "1955",
+     "why": "Where Carmine Falco married Francesca Zampiello, on 15 January 1955 — her home town."
+    },
+    {
+     "place": "Brisbane",
+     "year": "1964",
+     "why": "The ss SYDNEY of the Lauro Lines, Genoa to Brisbane, arrived 26 March 1964."
+    }
    ],
    "ends": [
     [
@@ -37,13 +38,26 @@
      "/families/",
      "Five Falco graves in the Catholic cemetery at Nudgee, Brisbane."
     ]
+   ],
+   "status": "origin-unknown",
+   "statusNote": "origin not found · Paolisi 1714 is a candidate, not joined",
+   "span": [
+    1767,
+    null
+   ],
+   "members": [
+    "matteo-falco-of-matteo-falco-francesca-crisci",
+    "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+    "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
+    "carmine-antonio-falco",
+    "raffaele-falco-2",
+    "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann"
    ]
   },
   {
    "key": "paolisi",
    "colour": "var(--terra)",
    "label": "Out of Paolisi, into Arienzo",
-   "conf": "DOCUMENTED · NOT JOINED",
    "read": "Open questions →",
    "href": "/open-questions/",
    "nodes": [
@@ -74,13 +88,18 @@
      "/open-questions/",
      "Twelve years before Matteo's generation, and nothing whatever joins it to this line. It would be a satisfying answer to where the family came from, which is exactly why it is drawn apart."
     ]
+   ],
+   "status": "documented",
+   "statusNote": "not joined",
+   "span": [
+    1714,
+    1726
    ]
   },
   {
    "key": "sanfelice",
    "colour": "var(--ochre)",
    "label": "The Falco of San Felice a Cancello",
-   "conf": "DOCUMENTED · NOT CLAIMED",
    "read": "The wider family →",
    "href": "/wider-family/#san-felice",
    "nodes": [
@@ -106,13 +125,18 @@
      "/wider-family/#san-felice",
      "Generation four's wife was born at San Felice a Cancello three years later, on 24 February 1818, at the Massaria delle Fosse. THE SAME TOWN IS NOT A CONNECTION. Nothing joins the soap-makers to her or to this line."
     ]
+   ],
+   "status": "documented",
+   "statusNote": "not claimed",
+   "span": [
+    1637,
+    1815
    ]
   },
   {
    "key": "gentry",
    "colour": "var(--r-habsburg)",
    "label": "The gentry Falco of Arienzo",
-   "conf": "DOCUMENTED · NOT JOINED",
    "read": "Which Falco? →",
    "href": "/which-falco/",
    "nodes": [
@@ -133,26 +157,33 @@
      "/which-falco/",
      "A landowner and his daughter, a nun dead at sixty-seven. The archive also holds a Don Francesco Falco whose wife is written Donna Maddalena Stellato, with a daughter, a nun, dead 14 November 1850, and a son, a priest, dead 20 June 1857; it keeps both wives' names under one household and has not reconciled them. Ours are contadini and braccianti. Plainly a different household living elsewhere in the same town."
     ]
+   ],
+   "status": "documented",
+   "statusNote": "not joined",
+   "span": [
+    1769,
+    1836
    ]
   },
   {
    "key": "caudina",
    "colour": "var(--r-feudal)",
    "label": "The Falco of the valle Caudina",
-   "conf": "HARVESTED · NEVER READ · NOT CLAIMED",
    "read": "Where the name went →",
    "href": "/diaspora/",
    "nodes": [
-    [
-     "Paolisi",
-     "406 rows",
-     "Four hundred and six Falco harvested from the Paolisi registers. All of them reach the register and the search index; not one of them is claimed as kin."
-    ],
-    [
-     "Moiano",
-     "310 rows",
-     "Three hundred and ten more. Deciding whether any of these belongs to this family is a reading job on 716 rows that has never been started."
-    ]
+    {
+     "place": "Paolisi",
+     "year": "406 rows",
+     "why": "Four hundred and six Falco harvested from the Paolisi registers. All of them reach the register and the search index; not one of them is claimed as kin.",
+     "evidence": "indexed"
+    },
+    {
+     "place": "Moiano",
+     "year": "310 rows",
+     "why": "Three hundred and ten more. Deciding whether any of these belongs to this family is a reading job on 716 rows that has never been started.",
+     "evidence": "indexed"
+    }
    ],
    "ends": [
     [
@@ -160,46 +191,69 @@
      "/diaspora/",
      "Giving them a household would be a claim, not a promotion. They are searchable and they are unjoined, and that is the honest state of them."
     ]
-   ]
+   ],
+   "status": "origin-unknown",
+   "statusNote": "harvested, never read · not claimed"
   }
  ],
- "unplaced": [
-  [
-   "Strada Camellara — four more households",
-   "/wider-family/#unjoined",
-   "A second Michelangelo, a Michele, a Francesco and an older Michele, on the same short street as the line. Nothing in any register joins them to the line or to each other. A shared surname in one small town is suggestive and is not evidence."
-  ],
-  [
-   "Via Orticelli — six households",
-   "/wider-family/#unjoined",
-   "At numbers 2 and 9, 3, 4, 8, 10 and 14, each documented, dated and placed to a house number. Numbers 8 and 10 also hold a death of this line. No act joins any of the six to the line or to each other."
-  ],
-  [
-   "Corso Caudino — eight numbers",
-   "/wider-family/#unjoined",
-   "Numbers 57, 70, 77, 80, 82, 83, 88 and 89: a second cluster of the name, in a different quarter from strada Camellara. Three of them are proved brothers by their own marriage acts; nothing read attaches any of them to this line."
-  ],
-  [
-   "Strada Costa — Giuseppe Falco and Gelsomina Vigliotta",
-   "/wider-family/#giuseppe-falco-gelsomina-vigliotta",
-   "The other Giuseppe Falco, not the Giuseppe of strada Camellara, of the parish of Santa Maria ad Nives. Their son Domenico married Mariantonia Frasca at Santa Maria a Vico in 1844. No kinship to the line is claimed."
-  ]
+ "bridges": [
+  {
+   "from": "paolisi",
+   "to": "line",
+   "conf": "inf",
+   "label": "candidate origin of the line — no record joins them",
+   "href": "/open-questions/"
+  }
  ],
- "loose": [
-  [
-   "Santa Maria a Vico",
-   "/wider-family/#antonio-falco-vincenza-della-zorca",
-   "Antonio Falco and Vincenza della Zorca, coloni, living with their daughter at Santa Maria a Vico in 1872. Not the Antonio Falco this archive already holds, who married Carmela Guida. No kinship to the line is claimed."
-  ],
-  [
-   "Airola",
-   "/wider-family/#pietro-falco-carbone-airola",
-   "Francesco Falco, born at Airola, son of the late Pietro Falco and Camilla Carbone, who married at Arienzo in 1848. He is recorded so that nobody joins him by mistake; no kinship is claimed or suspected."
-  ],
-  [
-   "Commendatore Bartolomeo de Falco",
-   "/wider-family/#bartolomeo-de-falco-clementina-santoro",
-   "A proprietario born at Naples about 1818 and living at Arienzo in 1884, when he married at Santa Maria a Vico."
-  ]
+ "pens": [
+  {
+   "id": "unplaced",
+   "kind": "not-yet-placed",
+   "note": "Documented, dated households of the name in the same parish, each placed to a street or a house number. No record joins any of them to the line or to each other; a shared surname in one small town is suggestive and is not evidence. What would move one onto a lane is an act that names a parent, a spouse or a kinsman on it.",
+   "items": [
+    [
+     "Strada Camellara — four more households",
+     "/wider-family/#unjoined",
+     "A second Michelangelo, a Michele, a Francesco and an older Michele, on the same short street as the line. Nothing in any register joins them to the line or to each other. A shared surname in one small town is suggestive and is not evidence."
+    ],
+    [
+     "Via Orticelli — six households",
+     "/wider-family/#unjoined",
+     "At numbers 2 and 9, 3, 4, 8, 10 and 14, each documented, dated and placed to a house number. Numbers 8 and 10 also hold a death of this line. No act joins any of the six to the line or to each other."
+    ],
+    [
+     "Corso Caudino — eight numbers",
+     "/wider-family/#unjoined",
+     "Numbers 57, 70, 77, 80, 82, 83, 88 and 89: a second cluster of the name, in a different quarter from strada Camellara. Three of them are proved brothers by their own marriage acts; nothing read attaches any of them to this line."
+    ],
+    [
+     "Strada Costa — Giuseppe Falco and Gelsomina Vigliotta",
+     "/wider-family/#giuseppe-falco-gelsomina-vigliotta",
+     "The other Giuseppe Falco, not the Giuseppe of strada Camellara, of the parish of Santa Maria ad Nives. Their son Domenico married Mariantonia Frasca at Santa Maria a Vico in 1844. No kinship to the line is claimed."
+    ]
+   ]
+  },
+  {
+   "id": "loose",
+   "kind": "different-stock",
+   "note": "Falco of other parishes, recorded so that nobody joins them to the line by mistake. Falco is a common Campanian name, and no kinship to the line is claimed or suspected.",
+   "items": [
+    [
+     "Santa Maria a Vico",
+     "/wider-family/#antonio-falco-vincenza-della-zorca",
+     "Antonio Falco and Vincenza della Zorca, coloni, living with their daughter at Santa Maria a Vico in 1872. Not the Antonio Falco this archive already holds, who married Carmela Guida. No kinship to the line is claimed."
+    ],
+    [
+     "Airola",
+     "/wider-family/#pietro-falco-carbone-airola",
+     "Francesco Falco, born at Airola, son of the late Pietro Falco and Camilla Carbone, who married at Arienzo in 1848. He is recorded so that nobody joins him by mistake; no kinship is claimed or suspected."
+    ],
+    [
+     "Commendatore Bartolomeo de Falco",
+     "/wider-family/#bartolomeo-de-falco-clementina-santoro",
+     "A proprietario born at Naples about 1818 and living at Arienzo in 1884, when he married at Santa Maria a Vico."
+    ]
+   ]
+  }
  ]
 }
