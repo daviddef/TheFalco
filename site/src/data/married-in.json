@@ -224,7 +224,7 @@
     "who": "Carmela Falco (Ruotolo)",
     "whoSlug": "carmela-falco-of-matteo-falco-alessandra-crisci",
     "to": "Michele Ruotolo",
-    "toSlug": "michele-ruotolo",
+    "toSlug": "michele-ruotolo-2",
     "into": "Ruotolo",
     "living": false
    },
@@ -270,7 +270,7 @@
    },
    {
     "who": "Clementina Falco (Biondo)",
-    "whoSlug": "clementina-falco",
+    "whoSlug": "clementina-falco-of-matteo-falco-alessandra-crisci",
     "to": "Nicola Biondo",
     "toSlug": "nicola-biondo-2",
     "into": "Biondo",
@@ -288,7 +288,7 @@
     "who": "Carmine Falco",
     "whoSlug": "carmine-falco-3",
     "to": "Giovanna Pellone (Falco)",
-    "toSlug": "giovanna-pellone-2",
+    "toSlug": "giovanna-pellone",
     "into": "Pellone",
     "living": false
    },
@@ -336,7 +336,7 @@
     "who": "Antonio Falco",
     "whoSlug": "antonio-falco-of-antonio-falco-carmela-guida",
     "to": "(Maria) Carmela di Guida / Guido (Falco)",
-    "toSlug": "carmela-di-guida",
+    "toSlug": "carmela-di-guida-guido",
     "into": "di Guida / Guido",
     "living": false
    },
@@ -400,7 +400,7 @@
     "who": "Francesco Falco",
     "whoSlug": "francesco-falco-of-francesco-falco-carmela-sadutto",
     "to": "Carmela Sadutto (Falco)",
-    "toSlug": "carmela-sadutto",
+    "toSlug": "carmela-sadutto-2",
     "into": "Sadutto",
     "living": false
    },
@@ -760,7 +760,7 @@
    },
    {
     "name": "Clementina Falco (Biondo)",
-    "slug": "clementina-falco",
+    "slug": "clementina-falco-of-matteo-falco-alessandra-crisci",
     "b": "Dec 18 1848",
     "bp": "Arienzo",
     "d": "Sep 20 1900",
@@ -1671,7 +1671,7 @@
     "slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
     "b": "1796",
     "bp": "",
-    "d": "",
+    "d": "24 Jul 1876",
     "dp": ""
    },
    {
@@ -1687,7 +1687,7 @@
     "slug": "raffaele-crisci",
     "b": "1811",
     "bp": "Arienzo",
-    "d": "",
+    "d": "22 Aug 1879",
     "dp": ""
    },
    {
@@ -1782,10 +1782,10 @@
    },
    {
     "name": "Clemente Crisci",
-    "slug": "clemente-crisci",
+    "slug": "clemente-crisci-2",
     "b": "",
     "bp": "",
-    "d": "",
+    "d": "31 Dec 1873",
     "dp": ""
    },
    {
@@ -2563,7 +2563,7 @@
     "who": "Nicola Biondo",
     "whoSlug": "nicola-biondo-2",
     "to": "Clementina Falco (Biondo)",
-    "toSlug": "clementina-falco",
+    "toSlug": "clementina-falco-of-matteo-falco-alessandra-crisci",
     "into": "Falco",
     "living": false
    }
@@ -2579,7 +2579,7 @@
    },
    {
     "name": "Matteo Biondo",
-    "slug": "matteo-biondo",
+    "slug": "matteo-biondo-2",
     "b": "June 28 1879",
     "bp": "Arienzo",
     "d": "May 17 1880",
@@ -2587,7 +2587,7 @@
    },
    {
     "name": "Silvestro Biondo",
-    "slug": "silvestro-biondo",
+    "slug": "silvestro-biondo-2-2",
     "b": "June 28 1879",
     "bp": "Arienzo",
     "d": "June 14 1881",
@@ -2611,7 +2611,7 @@
    },
    {
     "name": "Rosa Biondo",
-    "slug": "rosa-biondo",
+    "slug": "rosa-biondo-2",
     "b": "Nov 8 1884",
     "bp": "Arienzo",
     "d": "Aug 21 1885",
@@ -2627,7 +2627,7 @@
    },
    {
     "name": "Domenico Biondo",
-    "slug": "domenico-biondo",
+    "slug": "domenico-biondo-2",
     "b": "Aug 22 1889",
     "bp": "Arienzo",
     "d": "Aug 22 1890",
@@ -2960,7 +2960,7 @@
   "n": 6,
   "withheld": 0,
   "first": 1818,
-  "last": 1880,
+  "last": 1897,
   "places": [
    "Arienzo",
    "San Felice"
@@ -3029,7 +3029,7 @@
     "slug": "carmine-morgillo",
     "b": "1848",
     "bp": "Arienzo",
-    "d": "",
+    "d": "19 Apr 1897",
     "dp": ""
    },
    {
@@ -3880,7 +3880,7 @@
     "slug": "carolina-cimmino-of-luigi-falco-carolina-cimmino",
     "b": "4 Sep 1829",
     "bp": "",
-    "d": "",
+    "d": "6 Aug 1874",
     "dp": ""
    },
    {
@@ -4108,15 +4108,15 @@
   "surname": "Pellone",
   "n": 2,
   "withheld": 0,
-  "first": 1855,
-  "last": 1855,
+  "first": null,
+  "last": null,
   "places": [
    "Arienzo"
   ],
   "marriages": [
    {
     "who": "Giovanna Pellone (Falco)",
-    "whoSlug": "giovanna-pellone-2",
+    "whoSlug": "giovanna-pellone",
     "to": "Carmine Falco",
     "toSlug": "carmine-falco-3",
     "into": "Falco",
@@ -4133,20 +4133,20 @@
   ],
   "people": [
    {
-    "name": "Giovanna Pellone (Falco)",
-    "slug": "giovanna-pellone-2",
-    "b": "11 Sep 1855",
-    "bp": "Arienzo",
-    "d": "",
-    "dp": "Arienzo"
-   },
-   {
     "name": "Antonio Pellone",
     "slug": "antonio-pellone",
     "b": "",
     "bp": "",
     "d": "",
     "dp": ""
+   },
+   {
+    "name": "Giovanna Pellone (Falco)",
+    "slug": "giovanna-pellone",
+    "b": "",
+    "bp": "Arienzo",
+    "d": "",
+    "dp": "Arienzo"
    }
   ],
   "unjoinedBurials": 0,
@@ -4179,7 +4179,7 @@
    },
    {
     "who": "Carmela Sadutto (Falco)",
-    "whoSlug": "carmela-sadutto",
+    "whoSlug": "carmela-sadutto-2",
     "to": "Francesco Falco",
     "toSlug": "francesco-falco-of-francesco-falco-carmela-sadutto",
     "into": "Falco",
@@ -4189,7 +4189,7 @@
   "people": [
    {
     "name": "Carmela Sadutto (Falco)",
-    "slug": "carmela-sadutto",
+    "slug": "carmela-sadutto-2",
     "b": "1799",
     "bp": "Arienzo",
     "d": "July 3 1874",
@@ -5413,7 +5413,7 @@
   "marriages": [
    {
     "who": "Michele Ruotolo",
-    "whoSlug": "michele-ruotolo",
+    "whoSlug": "michele-ruotolo-2",
     "to": "Carmela Falco (Ruotolo)",
     "toSlug": "carmela-falco-of-matteo-falco-alessandra-crisci",
     "into": "Falco",
@@ -5423,7 +5423,7 @@
   "people": [
    {
     "name": "Michele Ruotolo",
-    "slug": "michele-ruotolo",
+    "slug": "michele-ruotolo-2",
     "b": "",
     "bp": "",
     "d": "",
@@ -5866,7 +5866,7 @@
   "marriages": [
    {
     "who": "(Maria) Carmela di Guida / Guido (Falco)",
-    "whoSlug": "carmela-di-guida",
+    "whoSlug": "carmela-di-guida-guido",
     "to": "Antonio Falco",
     "toSlug": "antonio-falco-of-antonio-falco-carmela-guida",
     "into": "Falco",
@@ -5876,7 +5876,7 @@
   "people": [
    {
     "name": "(Maria) Carmela di Guida / Guido (Falco)",
-    "slug": "carmela-di-guida",
+    "slug": "carmela-di-guida-guido",
     "b": "1849",
     "bp": "",
     "d": "",
