@@ -3900,5 +3900,28 @@
    "Annecchino",
    "swept"
   ]
+ },
+ {
+  "when": "1882-1885 (nine leaves of MC55-VNL: 549, 592, 765, 849, 881, 901, 905, 909, 949)",
+  "searchedOn": "2026-10-26",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-VNL",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "549, 592, 765, 849, 881, 901, 905, 909, 949",
+  "walked": false,
+  "src": "An AUDIT of the delegated readers' «no Falco» verdicts, made with the `familysearch-volume-sweep` method in the browser pane (DeepZoom level 12, both pages of every leaf displayed and read). Nine leaves were drawn at random (seed fixed) from the births and deaths books of 1882, 1884 and 1885 that the readers had recorded as holding no Falco: 549 (Nascite 1882, acts 46–48), 592 (Morti 1882, 13–16), 765 (Nascite 1884, 43–45), 849 (Morti 1884, 85–88), 881 (Nascite 1885, 61–63), 901 (121–123), 905, 909 (Nascite 1885) and 949 (Morti 1885, 13–16): about 30 acts. Every declarant, parent, witness and margin was read. **No Falco appears on any of the nine** — the readers' verdicts hold on this sample. Control: Morti 1888 leaf 1319 (a leaf the readers had marked WITH Falco acts) was read in the same session and its act 46 matched. **This is a sample of nine leaves out of some 5,000, not a walk**; it supports the readers' work, it does not close any volume.",
+  "what": "**Whether the delegated readers' «no Falco» leaves of Arienzo 1882–1885 really hold none** — a random audit",
+  "got": "Nothing missed on nine leaves (about 30 acts); the control leaf matched. No household changed.",
+  "outcome": "nil",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Births",
+   "Deaths",
+   "Falco",
+   "audit"
+  ]
  }
 ]
