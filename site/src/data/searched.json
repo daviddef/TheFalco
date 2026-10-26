@@ -3902,24 +3902,25 @@
   ]
  },
  {
-  "when": "1882-1885 (nine leaves of MC55-VNL: 549, 592, 765, 849, 881, 901, 905, 909, 949)",
+  "when": "1866–1910 (seventeen leaves of MC55-FNT, MC55-VNL and MC55-RM9)",
   "searchedOn": "2026-10-26",
   "provider": "familysearch",
   "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
   "waypoint": "MC55-VNL",
   "url": "https://www.familysearch.org/search/collection/2043630",
-  "pages": "549, 592, 765, 849, 881, 901, 905, 909, 949",
+  "pages": "FNT 29, 56, 137, 174, 543, 1065; RM9 541, 764, 1035; VNL 553, 1391, 1468, 1485, 1857, 1970, 2488, 2772 (leaves)",
   "walked": false,
-  "src": "An AUDIT of the delegated readers' «no Falco» verdicts, made with the `familysearch-volume-sweep` method in the browser pane (DeepZoom level 12, both pages of every leaf displayed and read). Nine leaves were drawn at random (seed fixed) from the births and deaths books of 1882, 1884 and 1885 that the readers had recorded as holding no Falco: 549 (Nascite 1882, acts 46–48), 592 (Morti 1882, 13–16), 765 (Nascite 1884, 43–45), 849 (Morti 1884, 85–88), 881 (Nascite 1885, 61–63), 901 (121–123), 905, 909 (Nascite 1885) and 949 (Morti 1885, 13–16): about 30 acts. Every declarant, parent, witness and margin was read. **No Falco appears on any of the nine** — the readers' verdicts hold on this sample. Control: Morti 1888 leaf 1319 (a leaf the readers had marked WITH Falco acts) was read in the same session and its act 46 matched. **This is a sample of nine leaves out of some 5,000, not a walk**; it supports the readers' work, it does not close any volume.",
-  "what": "**Whether the delegated readers' «no Falco» leaves of Arienzo 1882–1885 really hold none** — a random audit",
-  "got": "Nothing missed on nine leaves (about 30 acts); the control leaf matched. No household changed.",
-  "outcome": "nil",
+  "src": "A random spot-check of the delegated readers' «no Falco» leaves, made with the `familysearch-volume-sweep` method in the browser pane: both pages of each leaf displayed at DeepZoom level 12 and read. **Seventeen leaves**, births, deaths, marriages and banns of 1866, 1867, 1870, 1876, 1882, 1889, 1890, 1892, 1893, 1898, 1900, 1905, 1907, 1909, all with the image returned in full. **No Falco on any of them.** The sample was drawn at random (fixed seed) from 100 leaves in proportion to the three volumes; **the other 83 of the 100 were not verified** (the images did not come back to the reader) and are not claimed. Seventeen leaves out of about 5,000 bound the readers' miss rate only loosely; this is not a walk and closes no volume.",
+  "what": "**Whether the delegated readers' «no Falco» leaves of Arienzo 1866–1910 really hold none** — a seventeen-leaf random spot-check",
+  "got": "Nothing missed on seventeen leaves; no household changed. The 100-leaf audit is NOT complete: 83 leaves remain to be redone.",
+  "outcome": "no Falco",
   "tags": [
    "FamilySearch",
    "Arienzo",
    "Civil registration",
    "Births",
    "Deaths",
+   "Marriages",
    "Falco",
    "audit"
   ]

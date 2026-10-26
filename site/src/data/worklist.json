@@ -980,6 +980,14 @@
    "owner": "this archive",
    "since": "2026-10-26",
    "note": "**20 dossiers were read on 25–26 October 2026** (notes/dossiers-1828-1865.md; rows in /searched). *The processetti arks are NOT year+12340 after 1845: 1846 = an_ua14191, 1847 = an_ua14192, 1851 = an_ua14196, 1856 = an_ua14202, 1857 = an_ua14203, 1860 = an_ua14207, 1861 = an_ua14208, 1865 = an_ua14211; 1828 = 14171, 1829 = 14172, 1832 = 14175, 1834 = 14178, 1837 = 14180/14181, 1839 = 14183, 1850 = 14195, 1854 = 14199, 1855 = 14201.* **Still unread: the dossiers of 1809–1827, 1830–31, 1833, 1835–36, 1838, 1840–44, 1848–49, 1852–53, 1858–59, 1862–64 for any Falco bride or groom.**"
+  },
+  {
+   "n": 114,
+   "what": "Walk every image of Arienzo's civil registers 1866–1910 (9,884 images) in the browser pane, as a second independent pass over the delegated readers",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-10-26",
+   "note": "**Planned for the week of 2 November 2026.** The delegated readers listed every Falco act on every leaf at survey scale; the 472 principal acts were then re-read, but «walked» is false on all twelve rows (`MC55-FNT` 1–1,236, `MC55-VNL` 1–2,898, `MC55-RM9` 1–1,337). A true walk with the `familysearch-volume-sweep` method — every image, both pages, level 12 with level 13 for each Falco/Fran… cell, a per-batch log line — is **about 9,884 images, ~19,800 crops, ~3,300 batches and an estimated 50–80 million tokens**, so it cannot be done in one sitting; it needs a ledger (`ledger.py`) and many resumable sessions, **one sweeper per FamilySearch account**, and a stop at any 401/403. **First step (begun 26 October 2026; **only 17 of the 100 leaves are verified** — for the other 83 the images did not return to the reader and the earlier «clean» notes were withdrawn, see `private/reads/audit100/ledger.tsv`): a stratified 100-leaf random audit** of leaves the readers recorded as holding no Falco, to put a number on the readers' miss rate and to decide whether the walk is needed at all or can be confined to the books where the audit finds a miss. See `private/reads/audit100/` (sample.json, ledger.tsv)."
   }
  ]
 }
