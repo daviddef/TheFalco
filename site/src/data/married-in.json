@@ -86,7 +86,7 @@
    },
    {
     "who": "Raffaele Falco",
-    "whoSlug": "raffaele-falco-2",
+    "whoSlug": "raffaele-falco-of-raffaele-falco-costanza-maione",
     "to": "Constanza Maione (Falco)",
     "toSlug": "constanza-maione",
     "into": "Maione",
@@ -206,7 +206,7 @@
    },
    {
     "who": "Crescenzo Falco",
-    "whoSlug": "crescenzo-falco",
+    "whoSlug": "crescenzo-falco-4",
     "to": "Maria Concetta Morgillo (Falco)",
     "toSlug": "maria-concetta-morgillo",
     "into": "Morgillo",
@@ -334,7 +334,7 @@
    },
    {
     "who": "Antonio Falco",
-    "whoSlug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
+    "whoSlug": "antonio-falco-of-antonio-falco-carmela-guida",
     "to": "(Maria) Carmela di Guida / Guido (Falco)",
     "toSlug": "carmela-di-guida",
     "into": "di Guida / Guido",
@@ -358,9 +358,9 @@
    },
    {
     "who": "Angelo Falco",
-    "whoSlug": "angelo-falco-3",
+    "whoSlug": "angelo-falco-of-angelo-falco-vincenza-de-lucia",
     "to": "Vincenza De Lucia (Falco)",
-    "toSlug": "vincenza-de-lucia",
+    "toSlug": "vincenza-de-lucia-2",
     "into": "De Lucia",
     "living": false
    },
@@ -576,7 +576,7 @@
    },
    {
     "name": "Crescenzo Falco",
-    "slug": "crescenzo-falco",
+    "slug": "crescenzo-falco-4",
     "b": "1819",
     "bp": "Arienzo",
     "d": "Aug 1 1898",
@@ -672,7 +672,7 @@
    },
    {
     "name": "Antonio Falco",
-    "slug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
+    "slug": "antonio-falco-of-antonio-falco-carmela-guida",
     "b": "May 13 1843",
     "bp": "Arienzo",
     "d": "",
@@ -920,7 +920,7 @@
    },
    {
     "name": "Angelo Falco",
-    "slug": "angelo-falco-3",
+    "slug": "angelo-falco-of-angelo-falco-vincenza-de-lucia",
     "b": "1862",
     "bp": "",
     "d": "",
@@ -952,10 +952,10 @@
    },
    {
     "name": "Fabrizio Falco",
-    "slug": "fabrizio-falco",
+    "slug": "fabrizio-falco-2",
     "b": "Dec 22 1870",
     "bp": "Arienzo",
-    "d": "9 Aug 1871",
+    "d": "",
     "dp": ""
    },
    {
@@ -984,7 +984,7 @@
    },
    {
     "name": "Raffaele Falco",
-    "slug": "raffaele-falco-2",
+    "slug": "raffaele-falco-of-raffaele-falco-costanza-maione",
     "b": "Apr 6 1873",
     "bp": "Arienzo",
     "d": "",
@@ -1000,7 +1000,7 @@
    },
    {
     "name": "Maria Teresa Falco",
-    "slug": "maria-teresa-falco",
+    "slug": "maria-teresa-falco-2",
     "b": "Sep 20 1874",
     "bp": "Arienzo",
     "d": "",
@@ -1056,7 +1056,7 @@
    },
    {
     "name": "Raffaele Falco",
-    "slug": "raffaele-falco-of-gioacchino-falco-andreana-crisci",
+    "slug": "raffaele-falco-5",
     "b": "Mar 8 1877",
     "bp": "Arienzo",
     "d": "Nov 5 1878",
@@ -1072,7 +1072,7 @@
    },
    {
     "name": "Crescenzo Falco",
-    "slug": "crescenzo-falco-3",
+    "slug": "crescenzo-falco-of-giovanni-falco-giuseppa-martone",
     "b": "Aug 17 1878",
     "bp": "Arienzo",
     "d": "",
@@ -1112,15 +1112,15 @@
    },
    {
     "name": "Raffaela Falco",
-    "slug": "raffaela-falco",
+    "slug": "raffaela-falco-of-gioacchino-falco-andreana-crisci",
     "b": "Jan 24 1880",
     "bp": "Arienzo",
-    "d": "",
+    "d": "3 Nov 1880",
     "dp": ""
    },
    {
     "name": "Crescenzo Falco",
-    "slug": "crescenzo-falco-2",
+    "slug": "crescenzo-falco-of-giovanni-falco-giuseppa-martone-2",
     "b": "Mar 23 1881",
     "bp": "Arienzo",
     "d": "",
@@ -1136,7 +1136,7 @@
    },
    {
     "name": "Domenico Antonio Falco",
-    "slug": "domenico-antonio-falco",
+    "slug": "domenico-antonio-falco-2",
     "b": "Feb 25 1883",
     "bp": "Arienzo",
     "d": "",
@@ -1144,7 +1144,7 @@
    },
    {
     "name": "Giovanni Falco",
-    "slug": "giovanni-falco",
+    "slug": "giovanni-falco-of-gioacchino-falco-andreana-crisci-2",
     "b": "Feb 9 1883",
     "bp": "Arienzo",
     "d": "",
@@ -1168,7 +1168,7 @@
    },
    {
     "name": "Carlo Falco",
-    "slug": "carlo-falco-2-2",
+    "slug": "carlo-falco",
     "b": "1884",
     "bp": "",
     "d": "",
@@ -1232,7 +1232,7 @@
    },
    {
     "name": "Carmina Falco",
-    "slug": "carmina-falco-2",
+    "slug": "carmina-falco-of-gioacchino-falco-andreana-crisci",
     "b": "July 8 1891",
     "bp": "Arienzo",
     "d": "",
@@ -1272,7 +1272,7 @@
    },
    {
     "name": "Crescenzo Francesco Falco",
-    "slug": "crescenzo-francesco-falco",
+    "slug": "crescenzo-francesco-falco-2",
     "b": "Apr 16 1900",
     "bp": "Arienzo",
     "d": "",
@@ -2994,7 +2994,7 @@
     "who": "Maria Concetta Morgillo (Falco)",
     "whoSlug": "maria-concetta-morgillo",
     "to": "Crescenzo Falco",
-    "toSlug": "crescenzo-falco",
+    "toSlug": "crescenzo-falco-4",
     "into": "Falco",
     "living": false
    },
@@ -3091,7 +3091,7 @@
     "who": "Constanza Maione (Falco)",
     "whoSlug": "constanza-maione",
     "to": "Raffaele Falco",
-    "toSlug": "raffaele-falco-2",
+    "toSlug": "raffaele-falco-of-raffaele-falco-costanza-maione",
     "into": "Falco",
     "living": false
    },
@@ -4718,9 +4718,9 @@
   "marriages": [
    {
     "who": "Vincenza De Lucia (Falco)",
-    "whoSlug": "vincenza-de-lucia",
+    "whoSlug": "vincenza-de-lucia-2",
     "to": "Angelo Falco",
-    "toSlug": "angelo-falco-3",
+    "toSlug": "angelo-falco-of-angelo-falco-vincenza-de-lucia",
     "into": "Falco",
     "living": false
    }
@@ -4728,7 +4728,7 @@
   "people": [
    {
     "name": "Vincenza De Lucia (Falco)",
-    "slug": "vincenza-de-lucia",
+    "slug": "vincenza-de-lucia-2",
     "b": "1875",
     "bp": "",
     "d": "",
@@ -5868,7 +5868,7 @@
     "who": "(Maria) Carmela di Guida / Guido (Falco)",
     "whoSlug": "carmela-di-guida",
     "to": "Antonio Falco",
-    "toSlug": "antonio-falco-of-vincenzo-falco-andreana-crisci",
+    "toSlug": "antonio-falco-of-antonio-falco-carmela-guida",
     "into": "Falco",
     "living": false
    }
