@@ -22154,6 +22154,14 @@
 ]
 },
 {
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco-2",
+"name": "Clemente Falco (of Francescantonio, b. 1846)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
 "via": "register",
@@ -22594,7 +22602,7 @@
 ]
 },
 {
-"slug": "chiara-falco-2",
+"slug": "chiara-falco",
 "name": "Chiara Falco",
 "via": "tree",
 "vias": [
@@ -23599,6 +23607,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "chiara-falco-of-michele-falco-antonia-vigliotta",
+"name": "Chiara Falco (of Michele, b. 1845)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "16 Jul 1843",
@@ -24093,6 +24109,14 @@
 {
 "slug": "giovanni-falco-of-francesco-falco-raffaela-falco",
 "name": "Giovanni Falco (of Francescantonio, b. 1851)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco-2",
+"name": "Clemente Falco (of Francescantonio, b. 1846)",
 "via": "register",
 "vias": [
 "register"
@@ -25687,27 +25711,10 @@
 }
 ],
 "sources": [
-"register",
-"tree"
+"register"
 ],
 "living": false,
 "parents": [
-{
-"slug": "francesco-antonio-falco",
-"name": "Francesco Antonio Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "raffaela-falco-2",
-"name": "Raffaela Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
 {
 "slug": "francescantonio-falco-of-francesco-falco-raffaela-falco",
 "name": "Francescantonio Falco",
@@ -25728,47 +25735,6 @@
 "spouses": [],
 "children": [],
 "siblings": [
-{
-"slug": "pasquale-antonio-falco",
-"name": "Pasquale Antonio Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
-"name": "Gioacchino / Guglielmo Falco",
-"via": "register",
-"vias": [
-"register",
-"tree"
-]
-},
-{
-"slug": "antonio-falco-3",
-"name": "Antonio Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "giovanni-falco-3",
-"name": "Giovanni Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "clemente-falco",
-"name": "Clemente Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
 {
 "slug": "clemente-falco-of-francesco-falco-raffaela-falco",
 "name": "Clemente Falco",
@@ -25834,19 +25800,207 @@
 ]
 },
 {
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco-2",
+"name": "Clemente Falco (of Francescantonio, b. 1846)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
 "via": "register",
 "vias": [
 "register"
 ]
+},
+{
+"slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Gioacchino Falco (of via Orticelli)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
-"mergedOn": "name and dates",
-"treeId": 4512499,
 "b": "19 Dec 1843",
 "dateFrom": {
 "b": "act"
+}
+},
+{
+"slug": "chiara-falco-of-michele-falco-antonia-vigliotta",
+"name": "Chiara Falco (of Michele, b. 1845)",
+"surname": "FALCO",
+"household": "Michele Falco & Antonia Vigliotta",
+"hid": "michele-falco-antonia-vigliotta",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "25 Dec 1845",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo, *Nati* **1845**, **act 126**: «*è comparso **Michele Falco** di anni trentotto, contadino, strada **Camellara** … nata da **Antonia [Vigliotta?]** sua moglie legittima di anni quarantatre, … nel giorno venticinque di Dicembre alle ore sedici … il nome di **Chiara***», declared 26 December; witnesses **Giovanni Sparandeo?** (contadino, strada Camellara) and **Cesare Carfora** (50, calzolajo?, strada Santa Lucia). Baptism «*Chiara Falco*». **The mother's surname is hard to read; she is placed in this house on the husband's name, his street and his age (thirty-eight for the man baptised in 1808), and the household's wife Antonia Vigliotta died in 1849.** No margin note.  *Continuing-spread form: declarant on the right page of one image, mother, father, witnesses and margin on the next image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14442 (Arienzo, Nati 1845) atto 126, img 131 right + 132 left — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "michele-falco-of-michele-falco-antonia-vigliotta",
+"name": "Michele Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonia-vigliotta",
+"name": "Antonia Vigliotta",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "matteo-falco-of-michele-falco-antonia-vigliotta",
+"name": "Matteo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "salvatore-falco",
+"name": "Salvatore Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-rosa-falco-of-michele-falco-antonia-vigliotta",
+"name": "Maria Rosa Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-michele-falco-antonia-vigliotta",
+"name": "Pasquale Falco (of Michele, d. 1862)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "matteo-falco-of-michele-falco-antonia-vigliotta-2",
+"name": "Matteo Falco (of Michele, 1840-1842)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco-of-michele-falco-antonia-vigliotta",
+"name": "Carmela Falco (of Michele, b. 1843)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "25 Dec 1845",
+"dateFrom": {
+"b": "act"
+}
+},
+{
+"slug": "chiara-falco",
+"name": "Chiara Falco",
+"surname": "FALCO",
+"household": null,
+"role": null,
+"events": [],
+"sources": [
+"tree"
+],
+"living": false,
+"parents": [
+{
+"slug": "francesco-antonio-falco",
+"name": "Francesco Antonio Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "raffaela-falco-2",
+"name": "Raffaela Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "pasquale-antonio-falco",
+"name": "Pasquale Antonio Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Gioacchino / Guglielmo Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "antonio-falco-3",
+"name": "Antonio Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "giovanni-falco-3",
+"name": "Giovanni Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "clemente-falco",
+"name": "Clemente Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+}
+],
+"treeId": 4512499,
+"b": "Dec 19 1843",
+"dateFrom": {
+"b": "tree"
 }
 },
 {
@@ -26226,6 +26380,14 @@
 ]
 },
 {
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco-2",
+"name": "Clemente Falco (of Francescantonio, b. 1846)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
 "via": "register",
@@ -26245,6 +26407,141 @@
 "d": "14 Aug 1853",
 "dateFrom": {
 "d": "act"
+}
+},
+{
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco-2",
+"name": "Clemente Falco (of Francescantonio, b. 1846)",
+"surname": "FALCO",
+"household": "Francesco Falco & Raffaela Falco",
+"hid": "francesco-falco-raffaela-falco",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "19 Jan 1846",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo, *Nati* **1846**, **act 6**: «*è comparso **Francesco Falco** di anni quarantuno, contadino, strada **Camellara** … nato da **Raffaela Falco** sua moglie legittima di anni trentaquattro … nel giorno diciannove di Gennajo alle ore due … il nome di **Clemente***», declared 20 January; witnesses **Fabio Gigliotto?** (contadino) and **Clemente Gigliotto?** (pellegrino?, strada Sant'Andrea). Baptism «*Clemente Falco*». No margin note. **This house holds a Clemente Falco dead on 14 August 1853 «aged five»; a boy born in January 1846 would be seven, the clerks' ages are guesses, and the two are NOT merged here.** *Continuing-spread form: declarant on the right page of one image, mother, father, witnesses and margin on the next image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14443 (Arienzo, Nati 1846) atto 6, img 7 right + 8 left — READ FROM THE IMAGE"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "francescantonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Francescantonio Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaela-falco-of-francesco-falco-raffaela-falco",
+"name": "Raffaela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco",
+"name": "Clemente Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmina-falco",
+"name": "Carmina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasqualina-falco",
+"name": "Pasqualina Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-francesco-falco-raffaela-falco",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-carmela-falco-of-francesco-falco-raffaela-falco",
+"name": "Maria Carmela Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "raffaele-falco-of-francesco-falco-raffaela-falco",
+"name": "Raffaele Falco (of Francescantonio, 1837)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "chiara-falco-2",
+"name": "Chiara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonio-falco-of-francesco-falco-raffaela-falco",
+"name": "Antonio Falco (of Francesco, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanni-falco-of-francesco-falco-raffaela-falco",
+"name": "Giovanni Falco (of Francescantonio, b. 1851)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
+"name": "Gioacchino Falco (of via Orticelli)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "19 Jan 1846",
+"dateFrom": {
+"b": "act"
 }
 },
 {
@@ -26580,7 +26877,7 @@
 ]
 },
 {
-"slug": "chiara-falco-2",
+"slug": "chiara-falco",
 "name": "Chiara Falco",
 "via": "tree",
 "vias": [
@@ -30770,6 +31067,14 @@
 ]
 },
 {
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco-2",
+"name": "Clemente Falco (of Francescantonio, b. 1846)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
 "via": "register",
@@ -30836,7 +31141,7 @@
 ]
 },
 {
-"slug": "chiara-falco-2",
+"slug": "chiara-falco",
 "name": "Chiara Falco",
 "via": "tree",
 "vias": [
@@ -32216,11 +32521,10 @@
 ]
 },
 {
-"slug": "chiara-falco-2",
+"slug": "chiara-falco",
 "name": "Chiara Falco",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
@@ -32289,6 +32593,14 @@
 ]
 },
 {
+"slug": "chiara-falco-2",
+"name": "Chiara Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "antonio-falco-of-francesco-falco-raffaela-falco",
 "name": "Antonio Falco (of Francesco, b. 1848)",
 "via": "register",
@@ -32299,6 +32611,14 @@
 {
 "slug": "giovanni-falco-of-francesco-falco-raffaela-falco",
 "name": "Giovanni Falco (of Francescantonio, b. 1851)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco-2",
+"name": "Clemente Falco (of Francescantonio, b. 1846)",
 "via": "register",
 "vias": [
 "register"
@@ -34027,6 +34347,14 @@
 ]
 },
 {
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco-2",
+"name": "Clemente Falco (of Francescantonio, b. 1846)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
 "via": "register",
@@ -34377,7 +34705,7 @@
 ]
 },
 {
-"slug": "chiara-falco-2",
+"slug": "chiara-falco",
 "name": "Chiara Falco",
 "via": "tree",
 "vias": [
@@ -35482,6 +35810,13 @@
 "place": "Arienzo, via Orticelli 4",
 "evidence": "**HIS FIRST DOCUMENT. Read from the image on 8 October 2026.**\n\n«*Estratto dal registro di nascita per l'anno **1887** — Copia N.º **114**, Falco Maria. L'anno milleottocentottantasette, addì **venticinque** di **settembre** a ore antimeridiane nove e minuti dieci nella Casa Comunale. Avanti di me **NOTAR PARIDE GUERRIERO, Consigliere Comunale, delegato con atto del Sindaco** … Ufficiale dello Stato Civile del Comune di **Arienzo**, è comparso **GIUSEPPE FALCO di anni QUARANTASEI, AGRICOLTORE, domiciliato in questo comune**, il quale mi ha dichiarato che alle ore pomeridiane otto e minuti trenta del dì **ventidue** del corrente mese, nella casa posta in **via ORTICELLI al numero QUATTRO**, da **NICOLETTA NUZZO sua moglie, CONTADINA, seco lui convivente**, è nato un bambino di sesso femminino … a cui dà il nome di **MARIA***»\n\n**Forty-six in September 1887, so born about 1841** — which fits a couple married in **January 1834**.\n\n*Why this man is placed in this house.* The family tree holds a **Giuseppe Falco, son of Matteo Falco and Alessandra Crisci, married to a NICOLETTA NUZZO**, with no record against him. The act gives a **Giuseppe Falco** whose wife is **Nicoletta Nuzzo**. **The wife's full name is the join, and it is an uncommon one**; the age agrees with the marriage the tree gives his parents. *This archive holds many men called Giuseppe Falco and would not place him on the forename alone.*",
 "ark": "FamilySearch 3:1:3QS7-897N-P3N5 — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "5 Apr 1841",
+"place": "Arienzo, strada Camellara",
+"evidence": "Arienzo, *Nati* **1841**, **act 33** — **THE BIRTH OF THE GIUSEPPE FALCO WHO MARRIED NICOLETTA NUZZO.** «*è comparso **Matteo Falco** di anni trentaquattro, colono, strada **Camellara** … è nato da **Alessandra [Crisci]** sua moglie legittima di anni ventisette … nel giorno cinque di Aprile alle ore due … il nome di **Giuseppe***», declared 6 April; witnesses **Angelo Diglio** (50-odd, contadino, strada Porta di sopra) and **Fabio Diglio** (contadino, strada Croce). Baptism «*Giuseppe Falco*». **MARGIN: «*A 13 Aprile 1876 l'uff.le dello stato civ.e d'Arienzo sposò Giuseppe Falco con Nicoletta Nuzzo [read «Mazzo»]. Caserta 3 Giugno 1884*»** — **the 1876 marriage this archive holds for Giuseppe, son of Matteo, and Nicoletta Nuzzo (b. 1855), now tied to his own birth.** *Continuing-spread form: declarant on the right page of one image, mother, father, witnesses and margin on the next image's left page.* **Re-opened and read at about 2,800 px.**",
+"ark": "ANTENATI an_ua14438 (Arienzo, Nati 1841) atto 33, img 35 right + 36 left — READ FROM THE IMAGE"
 }
 ],
 "sources": [
@@ -35581,7 +35916,11 @@
 "register"
 ]
 }
-]
+],
+"b": "5 Apr 1841",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "giuseppe-falco-of-angelo-falco-annamaria-cimmino-cor",
@@ -39505,6 +39844,14 @@
 ]
 },
 {
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco-2",
+"name": "Clemente Falco (of Francescantonio, b. 1846)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
 "via": "register",
@@ -41980,6 +42327,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "chiara-falco-of-michele-falco-antonia-vigliotta",
+"name": "Chiara Falco (of Michele, b. 1845)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "d": "30 May 1834",
@@ -43205,6 +43560,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "chiara-falco-of-michele-falco-antonia-vigliotta",
+"name": "Chiara Falco (of Michele, b. 1845)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "d": "24 Aug 1842",
@@ -43288,6 +43651,14 @@
 {
 "slug": "carmela-falco-of-michele-falco-antonia-vigliotta",
 "name": "Carmela Falco (of Michele, b. 1843)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "chiara-falco-of-michele-falco-antonia-vigliotta",
+"name": "Chiara Falco (of Michele, b. 1845)",
 "via": "register",
 "vias": [
 "register"
@@ -44486,6 +44857,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "chiara-falco-of-michele-falco-antonia-vigliotta",
+"name": "Chiara Falco (of Michele, b. 1845)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": []
@@ -45388,7 +45767,7 @@
 ]
 },
 {
-"slug": "chiara-falco-2",
+"slug": "chiara-falco",
 "name": "Chiara Falco",
 "via": "tree",
 "vias": [
@@ -46174,6 +46553,14 @@
 ]
 },
 {
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco-2",
+"name": "Clemente Falco (of Francescantonio, b. 1846)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
 "via": "register",
@@ -46355,6 +46742,14 @@
 ]
 },
 {
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco-2",
+"name": "Clemente Falco (of Francescantonio, b. 1846)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "gioacchino-falco-of-gioacchino-falco-andreana-crisci",
 "name": "Gioacchino Falco (of via Orticelli)",
 "via": "register",
@@ -46446,6 +46841,14 @@
 {
 "slug": "carmela-falco-of-michele-falco-antonia-vigliotta",
 "name": "Carmela Falco (of Michele, b. 1843)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "chiara-falco-of-michele-falco-antonia-vigliotta",
+"name": "Chiara Falco (of Michele, b. 1845)",
 "via": "register",
 "vias": [
 "register"
@@ -47298,6 +47701,14 @@
 ]
 },
 {
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco-2",
+"name": "Clemente Falco (of Francescantonio, b. 1846)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
 "via": "register",
@@ -47832,6 +48243,14 @@
 ]
 },
 {
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco-2",
+"name": "Clemente Falco (of Francescantonio, b. 1846)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "pasquale-falco-of-pasquale-falco-maria-amalia-guida",
 "name": "Pasquale Falco",
 "via": "register",
@@ -48119,7 +48538,7 @@
 ]
 },
 {
-"slug": "chiara-falco-2",
+"slug": "chiara-falco",
 "name": "Chiara Falco",
 "via": "tree",
 "vias": [
@@ -49074,6 +49493,14 @@
 {
 "slug": "giovanni-falco-of-francesco-falco-raffaela-falco",
 "name": "Giovanni Falco (of Francescantonio, b. 1851)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clemente-falco-of-francesco-falco-raffaela-falco-2",
+"name": "Clemente Falco (of Francescantonio, b. 1846)",
 "via": "register",
 "vias": [
 "register"
@@ -50740,6 +51167,14 @@
 {
 "slug": "carmela-falco-of-michele-falco-antonia-vigliotta",
 "name": "Carmela Falco (of Michele, b. 1843)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "chiara-falco-of-michele-falco-antonia-vigliotta",
+"name": "Chiara Falco (of Michele, b. 1845)",
 "via": "register",
 "vias": [
 "register"
@@ -67570,6 +68005,14 @@
 {
 "slug": "carmela-falco-of-michele-falco-antonia-vigliotta",
 "name": "Carmela Falco (of Michele, b. 1843)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "chiara-falco-of-michele-falco-antonia-vigliotta",
+"name": "Chiara Falco (of Michele, b. 1845)",
 "via": "register",
 "vias": [
 "register"
