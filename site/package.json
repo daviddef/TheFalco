@@ -42,10 +42,10 @@
     "check:era-ground": "python3 ../tools/build_era.py --check",
     "check:era": "python3 ../tools/build_era.py --living-urls ../private/era-living.json && python3 node_modules/@daviddef/archive-kit/kit/tools/checkera.py --dist dist --snapshot src/data/era-snapshot.json --living-urls ../private/era-living.json --require-tracked",
     "check:era:selftest": "python3 node_modules/@daviddef/archive-kit/kit/tools/era_selftest.py",
-    "check:story": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkfamilystory.py --story src/data/story.json --dist ${ARCHIVE_OUT:-dist} --person-base /people/ --living ../private/living-links.json && python3 node_modules/@daviddef/archive-kit/kit/tools/checkfamilystory.py --selftest",
+    "check:story": "T=$(mktemp -d) && python3 ../tools/without_flags.py src/data/story.json $T/story.json && python3 node_modules/@daviddef/archive-kit/kit/tools/checkfamilystory.py --story $T/story.json --dist ${ARCHIVE_OUT:-dist} --person-base /people/ --living ../private/living-links.json && python3 node_modules/@daviddef/archive-kit/kit/tools/checkfamilystory.py --selftest",
     "check:directline": "python3 node_modules/@daviddef/archive-kit/kit/tools/directline.py --story src/data/story.json --check src/data/direct-line.json",
     "check:familylines": "python3 ../tools/build_family_lines.py --check --dist ${ARCHIVE_OUT:-dist}",
-    "check:familyribbon": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkfamilyribbon.py --families src/data/family-lines.json --direct src/data/direct-line.json --story src/data/story.json --dist ${ARCHIVE_OUT:-dist} && python3 node_modules/@daviddef/archive-kit/kit/tools/checkfamilyribbon.py --selftest",
+    "check:familyribbon": "T=$(mktemp -d) && python3 ../tools/without_flags.py src/data/family-lines.json $T/family-lines.json && python3 ../tools/without_flags.py src/data/story.json $T/story.json && python3 node_modules/@daviddef/archive-kit/kit/tools/checkfamilyribbon.py --families $T/family-lines.json --direct src/data/direct-line.json --story $T/story.json --dist ${ARCHIVE_OUT:-dist} && python3 node_modules/@daviddef/archive-kit/kit/tools/checkfamilyribbon.py --selftest",
     "check:kin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkkin.py --require --data src/data/people.json --born b --died d --max 1"
   },
   "dependencies": {
