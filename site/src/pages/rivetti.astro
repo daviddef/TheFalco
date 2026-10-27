@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import FamilyLine from "../components/FamilyLine.astro";
 import P from "../components/P.astro";
 import Src from "../components/Src.astro";
 import { u } from "../lib/url.js";
@@ -16,6 +17,9 @@ const swept = rows.filter((r) => r.kind === "swept").length;
     <p><strong>Chiara Rivetti was the oldest open question this archive had</strong>, and closing it in
     2026 was the single biggest find of the register sweeps. She still had no page. This is it.</p>
   </div>
+
+
+  <FamilyLine page="/rivetti/" />
 
   <h2>Chiara Rivetti</h2>
   <p class="lede">She married <P n="Pasquale Falco" bold={true} /> in the 1780s and was still alive on

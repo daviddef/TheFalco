@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import FamilyLine from "../components/FamilyLine.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 const inlaws = [
@@ -12,6 +13,9 @@ const shared = ["Maione", "Crisci", "De Lucia", "Cimmino"];
 <Base title="Zampiello">
   <p class="lede">The rarest name in this family by a wide margin — and, it turns out, the name of one
   village.</p>
+
+
+  <FamilyLine page="/zampiello/" />
 
   <h2>About 123 people in the world</h2>
   <p>Forebears counts roughly <strong>123 bearers of Zampiello worldwide</strong>: 84 in the United

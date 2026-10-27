@@ -23,6 +23,7 @@
  */
 import Base from "../../layouts/Base.astro";
 import Descent from "@daviddef/archive-kit/components/Descent.astro";
+import FamilyLine from "../../components/FamilyLine.astro";
 import { u, plainHref } from "../../lib/url.js";
 import fams from "../../data/families.json";
 import { people } from "../../lib/people.js";
@@ -246,6 +247,9 @@ const marriages = (fam.into || []).length;
       <p class="cap"><a href={u("/families/")}>&larr; All twelve families, and the marriages that carried them in</a></p>
     </section>
   )}
+
+  {/* The family's own generations and where our line touches it (tools/build_family_lines.py; kit/docs/family-ribbon.md). */}
+  <FamilyLine page={`/families/${slugOf(fam.sn)}/`} />
 
   {fam.derived && (
     <section class="blk">

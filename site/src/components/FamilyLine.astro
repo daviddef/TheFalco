@@ -1,0 +1,74 @@
+---
+/* The family ribbon and HOW OUR LINE CONNECTS, for one family page (David, 27 October 2026; kit/docs/family-ribbon.md).
+
+   The data is made by tools/build_family_lines.py and nothing here decides anything:
+     src/data/family-lines.json   a family page with a documented chain of two or more generations: the kit's FamilyRibbon
+                                  draws the cards and the blocks under them (and the kit's gate checkfamilyribbon.py reads it)
+     src/data/family-blocks.json  a family page with no such chain: this archive is not a pedigree, so no ribbon is drawn, and
+                                  the blocks (or the one quiet «not connected» block) are drawn alone, in the kit's own markup
+                                  and classes, from the kit's own blocksOf(), so the two kinds of page read the same.
+   A page that is in neither file is a build error, not a silent gap. */
+import FamilyRibbon from "@daviddef/archive-kit/components/FamilyRibbon.astro";
+import "@daviddef/archive-kit/styles/story.css";
+import "@daviddef/archive-kit/styles/ours.css";
+import "@daviddef/archive-kit/styles/familyribbon.css";
+import { blocksOf, blockSentence, GRADE_WORD } from "@daviddef/archive-kit/lib/familyribbon.js";
+import { directMap, OURS_LEGEND } from "@daviddef/archive-kit/lib/directline.js";
+import familyLines from "../data/family-lines.json";
+import familyBlocks from "../data/family-blocks.json";
+import directLine from "../data/direct-line.json";
+import { u } from "../lib/url.js";
+
+const { page } = Astro.props;
+const fam = familyLines.families.find((f) => f.page === page);
+const blk = fam ? null : familyBlocks.families.find((f) => f.page === page);
+if (!fam && !blk) throw new Error(`FamilyLine: ${page} is in neither family-lines.json nor family-blocks.json (tools/build_family_lines.py)`);
+const personHref = (s) => u(`/people/${s}/`);
+const dm = directMap(directLine);
+const blocks = blk ? blocksOf({ ...blk, cards: [] }, directLine, { cards: [] }) : [];
+const uid = blk ? String(blk.id).replace(/[^a-z0-9]+/gi, "-") : "";
+---
+{fam && <FamilyRibbon family={fam} directLine={directLine} personHref={personHref} u={u} />}
+{blk && (
+<section class="fr fr-only" data-family={blk.id} data-ribbon="none" aria-label={`${blk.title}: how our line connects`}>
+  <div class="fr-conn" data-connections={blocks.filter((b) => b.kind === "link").length}>
+    <h3 class="fr-ch">How our line connects</h3>
+    {blocks[0].kind === "none" ? (
+      <p class="fr-nc" data-not-connected="1"><b>Not connected to our line yet.</b>{blocks[0].why ? <>{" "}{blocks[0].why}</> : null}</p>
+    ) : (
+      <ul class="fr-bl">
+        {blocks.map((b, i) => {
+          const theirOurs = dm.get(String(b.theirSlug));
+          return (
+            <li class={`fr-b fr-b-${b.grade}`} id={`frb-${uid}-${i + 1}`} data-grade={b.grade} data-relation={b.relation} data-our={b.ourSlug} data-their={b.theirSlug} data-our-generation={b.ourGeneration} aria-label={blockSentence(b)}>
+              <div class="fr-b-our is-ours" data-ours={b.ourSlug}>
+                <span class="fr-b-k">Our line · Gen. {b.ourGeneration}</span>
+                <span class="fr-b-nm"><a href={personHref(b.ourSlug)}>{b.ourName}</a></span>
+              </div>
+              <div class="fr-b-rel"><span class="fr-b-w">{b.word}</span></div>
+              <div class={`fr-b-their${theirOurs ? " is-ours" : ""}`} data-ours={theirOurs ? b.theirSlug : undefined}>
+                <span class="fr-b-k">{theirOurs ? `Our line · Gen. ${theirOurs.generation}` : blk.title}</span>
+                <span class="fr-b-nm"><a href={personHref(b.theirSlug)}>{b.theirName}</a></span>
+                {b.theirOrigin && <span class="fr-b-o">{b.theirOrigin.replace(/^from /, "of ")}</span>}
+              </div>
+              <p class="fr-b-foot">
+                <span class="fr-b-g">{GRADE_WORD[b.grade]}</span>
+                {b.storyHref && <a href={u(b.storyHref)}>in the story →</a>}
+                {b.note && <span class="fr-b-note">{b.note}</span>}
+              </p>
+            </li>
+          );
+        })}
+      </ul>
+    )}
+    <p class="fr-note">No ribbon of the {blk.title} generations is drawn: {blk.noRibbon}. This archive draws a line of a family only where records join one generation to the next.</p>
+  </div>
+  {blocks[0].kind !== "none" && <p class="fr-leg" aria-label="How to read the blocks">
+    <span class="fr-lt">Blocks</span>
+    <span><span class="fr-lk"></span>solid: documented</span>
+    <span><span class="fr-lk fr-lk-inf"></span>dashed: inferred</span>
+    <span><span class="fr-lk fr-lk-lore"></span>dotted: family memory or the family's tree</span>
+    <span class="fr-lg-ours"><span class="ours-sw"></span>{OURS_LEGEND}</span>
+  </p>}
+</section>
+)}

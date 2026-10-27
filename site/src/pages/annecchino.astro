@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import FamilyLine from "../components/FamilyLine.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import register from "../data/register.json";
@@ -31,6 +32,9 @@ const givens = [["Maria", 45], ["Giuseppe", 41], ["Sabatino", 37], ["Antonio", 2
     of where it comes from. Going after it properly added <strong>359 more</strong>, and made it the
     <strong>largest surname in the archive</strong>.</p>
   </div>
+
+
+  <FamilyLine page="/annecchino/" />
 
   <h2>Filomena Annecchino, and how the line runs through her</h2>
   <p class="lede"><P n="Filomena Annecchino" bold={true} /> — born <strong>10 April 1897</strong> — married

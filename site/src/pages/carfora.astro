@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import FamilyLine from "../components/FamilyLine.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import register from "../data/register.json";
@@ -20,6 +21,9 @@ const houses = households.filter((h) => h.members.some((m) => m.person.includes(
     Forchia family who had nothing to do with Arienzo. <strong>They were living fifty yards from the
     Falco the whole time.</strong></p>
   </div>
+
+
+  <FamilyLine page="/carfora/" />
 
   <h2>The mistake, and how it was found</h2>
   <p class="lede">The Carfora entered this archive through <P n="Mariantonia Carfora" bold={true} />,

@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import FamilyLine from "../components/FamilyLine.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import register from "../data/register.json";
@@ -18,6 +19,9 @@ const swept = rows.filter((r) => r.kind === "swept").length;
     name to Australia. The archive held {rows.length} Maione and Majone records and gave the family
     no page.</p>
   </div>
+
+
+  <FamilyLine page="/maione/" />
 
   <h2>Costanza Maione</h2>
   <p class="lede">Born at <strong>Arienzo on 2 May 1876</strong>. She married <P n="Raffaele Falco" bold={true} />, born at Arienzo 6 April 1873, and the children the archive can name are

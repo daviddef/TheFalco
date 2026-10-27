@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import FamilyLine from "../components/FamilyLine.astro";
 import P from "../components/P.astro";
 import Src from "../components/Src.astro";
 import { u } from "../lib/url.js";
@@ -18,6 +19,9 @@ const swept = rows.filter((r) => r.kind === "swept").length;
     Crisci women marrying Falco men, five Falco women marrying Crisci men. It stands at the very head
     of this line, and it is still there in the Brisbane generation. It had no page.</p>
   </div>
+
+
+  <FamilyLine page="/crisci/" />
 
   <h2>Twice in the spine</h2>
   <div class="scroll"><table>

@@ -1,0 +1,164 @@
+{
+ "_note": "Made by tools/build_family_lines.py from people.json, families.json, story.json, direct-line.json and the Spine; do not edit by hand. Contract: kit/docs/family-ribbon.md. These family pages have no documented chain of two generations, so no ribbon: src/components/FamilyLine.astro draws their blocks alone.",
+ "families": [
+  {
+   "id": "ferrara",
+   "title": "Ferrara",
+   "page": "/ferrara/",
+   "noRibbon": "this archive's people file joins the person our line touches to no parent of the name by a record",
+   "connections": [
+    {
+     "ourSlug": "francesca-zampiello",
+     "ourGeneration": 8,
+     "theirSlug": "giuseppa-ferraro",
+     "theirName": "Giuseppa Ferraro",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#brisbane",
+     "note": "Named as a parent in a register act this archive has read."
+    }
+   ]
+  },
+  {
+   "id": "carfora",
+   "title": "Carfora",
+   "page": "/carfora/",
+   "noRibbon": "this archive's people file joins the person our line touches to no parent of the name by a record",
+   "connections": [
+    {
+     "ourSlug": "filomena-annecchino-2",
+     "ourGeneration": 7,
+     "theirSlug": "maria-carfora-of-carmine-annecchino-maria-carfora",
+     "theirName": "Maria Carfora",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#forchia",
+     "note": "Named as a parent in a register act this archive has read."
+    }
+   ]
+  },
+  {
+   "id": "rivetti",
+   "title": "Rivetti",
+   "page": "/rivetti/",
+   "noRibbon": "this archive's people file joins the person our line touches to no parent of the name by a record",
+   "connections": [
+    {
+     "ourSlug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+     "ourGeneration": 2,
+     "theirSlug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
+     "theirName": "Chiara Rivetti",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#pasquale",
+     "theirOrigin": "of Arienzo",
+     "note": "The story's couple of generation 2."
+    },
+    {
+     "ourSlug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+     "ourGeneration": 3,
+     "theirSlug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
+     "theirName": "Chiara Rivetti",
+     "relation": "son of",
+     "grade": "doc",
+     "storyHref": "/story/#vincenzo",
+     "theirOrigin": "of Arienzo",
+     "note": "The story's chapter names her as his mother."
+    }
+   ]
+  },
+  {
+   "id": "families-rivetti",
+   "title": "Rivetti",
+   "page": "/families/rivetti/",
+   "noRibbon": "this archive's people file joins the person our line touches to no parent of the name by a record",
+   "connections": [
+    {
+     "ourSlug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+     "ourGeneration": 2,
+     "theirSlug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
+     "theirName": "Chiara Rivetti",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#pasquale",
+     "theirOrigin": "of Arienzo",
+     "note": "The story's couple of generation 2."
+    },
+    {
+     "ourSlug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+     "ourGeneration": 3,
+     "theirSlug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
+     "theirName": "Chiara Rivetti",
+     "relation": "son of",
+     "grade": "doc",
+     "storyHref": "/story/#vincenzo",
+     "theirOrigin": "of Arienzo",
+     "note": "The story's chapter names her as his mother."
+    }
+   ]
+  },
+  {
+   "id": "families-esposito",
+   "title": "Esposito",
+   "page": "/families/esposito/",
+   "noRibbon": "no two generations of the name are joined by a record in this archive's people file",
+   "notConnected": {
+    "why": "The marriages that carried this name into the Falco were with collateral households (the table below marks them «collateral»), not with the direct line, and no person of the line has a parent of the name."
+   }
+  },
+  {
+   "id": "families-vigliotta",
+   "title": "Vigliotta",
+   "page": "/families/vigliotta/",
+   "noRibbon": "no two generations of the name are joined by a record in this archive's people file",
+   "notConnected": {
+    "why": "The marriages that carried this name into the Falco were with collateral households (the table below marks them «collateral»), not with the direct line, and no person of the line has a parent of the name."
+   }
+  },
+  {
+   "id": "families-carfora",
+   "title": "Carfora",
+   "page": "/families/carfora/",
+   "noRibbon": "this archive's people file joins the person our line touches to no parent of the name by a record",
+   "connections": [
+    {
+     "ourSlug": "filomena-annecchino-2",
+     "ourGeneration": 7,
+     "theirSlug": "maria-carfora-of-carmine-annecchino-maria-carfora",
+     "theirName": "Maria Carfora",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#forchia",
+     "note": "Named as a parent in a register act this archive has read."
+    }
+   ]
+  },
+  {
+   "id": "families-zimbardo",
+   "title": "Zimbardo",
+   "page": "/families/zimbardo/",
+   "noRibbon": "no two generations of the name are joined by a record in this archive's people file",
+   "notConnected": {
+    "why": "No marriage into the direct line is recorded for this name. The archive keeps the page because it names eight or more people of it, or its work list or open questions are about it."
+   }
+  },
+  {
+   "id": "families-biondo",
+   "title": "Biondo",
+   "page": "/families/biondo/",
+   "noRibbon": "no two generations of the name are joined by a record in this archive's people file",
+   "notConnected": {
+    "why": "No marriage into the direct line is recorded for this name. The archive keeps the page because it names eight or more people of it, or its work list or open questions are about it."
+   }
+  },
+  {
+   "id": "families-cimmino",
+   "title": "Cimmino",
+   "page": "/families/cimmino/",
+   "noRibbon": "no two generations of the name are joined by a record in this archive's people file",
+   "notConnected": {
+    "why": "No marriage into the direct line is recorded for this name. The archive keeps the page because it names eight or more people of it, or its work list or open questions are about it."
+   }
+  }
+ ]
+}

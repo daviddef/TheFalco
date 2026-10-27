@@ -74,6 +74,9 @@ HAND_EDITED = {
 # undone by the next run of the generator.
 GENERATED = {
     "changes.json",         # build_changes.py, from git
+    "direct-line.json",     # the kit's directline.py, from story.json's ribbon (checked with --check): slugs, generations, names
+    "family-blocks.json",   # build_family_lines.py: the family pages with no ribbon, their connection blocks (checked with --check)
+    "family-lines.json",    # build_family_lines.py: the family ribbons from people.json and the Spine (checked with --check)
     "era-places.json",      # build_era.py, from data/era-ground.tsv and era-towns.tsv: place strings and a region id, no names
     "era-snapshot.json",    # build_era.py --snapshot, from the Record Atlas's regions.json: region eras and regime labels, no names
     "married-in.json",      # build_marriedin.py

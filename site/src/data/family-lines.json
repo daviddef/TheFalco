@@ -1,0 +1,1027 @@
+{
+ "_note": "Made by tools/build_family_lines.py from people.json, families.json, story.json, direct-line.json and the Spine; do not edit by hand. Contract: kit/docs/family-ribbon.md.",
+ "families": [
+  {
+   "id": "zampiello",
+   "title": "Zampiello",
+   "page": "/zampiello/",
+   "status": "origin-unknown",
+   "statusNote": "3 generations, each joined to the next by a record · where the first was born is not known",
+   "span": [
+    1895,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Tommaso Zampiello",
+     "years": "",
+     "origin": "place not known",
+     "originGrade": "doc",
+     "spouse": "spouse not named in the records",
+     "spouseOrigin": "",
+     "atPlace": "Arpaia",
+     "atYear": "",
+     "living": false,
+     "person": "tommaso-zampiello",
+     "title": "Parent of Angelo Zampiello, named in a register act this archive has read"
+    },
+    {
+     "name": "Angelo Zampiello",
+     "years": "1895–1972",
+     "origin": "place not known",
+     "originGrade": "doc",
+     "spouse": "Giuseppa Ferraro",
+     "spouseOrigin": "place not known",
+     "atPlace": "Arpaia",
+     "atYear": "",
+     "living": false,
+     "person": "angelo-zampiello",
+     "spousePerson": "giuseppa-ferraro",
+     "title": "Parent of Francesca Zampiello, named in a register act this archive has read"
+    },
+    {
+     "name": "Francesca Zampiello",
+     "years": "1928–2022",
+     "origin": "Arpaia",
+     "originGrade": "lore",
+     "spouse": "Carmine Falco",
+     "spouseOrigin": "of Forchia",
+     "atPlace": "Brisbane",
+     "atYear": "2022",
+     "living": false,
+     "person": "francesca-zampiello",
+     "spousePerson": "carmine-falco-of-carmine-antonio-falco-filomena-ann"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
+     "ourGeneration": 8,
+     "theirSlug": "francesca-zampiello",
+     "theirName": "Francesca Zampiello",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#brisbane",
+     "theirOrigin": "of Arpaia",
+     "note": "The story's couple of generation 8."
+    },
+    {
+     "ourSlug": "francesca-zampiello",
+     "ourGeneration": 8,
+     "theirSlug": "angelo-zampiello",
+     "theirName": "Angelo Zampiello",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#brisbane",
+     "note": "Named as a parent in a register act this archive has read."
+    },
+    {
+     "ourSlug": "giuseppina-falco",
+     "ourGeneration": 9,
+     "theirSlug": "francesca-zampiello",
+     "theirName": "Francesca Zampiello",
+     "relation": "child of",
+     "grade": "lore",
+     "storyHref": "/story/#us",
+     "theirOrigin": "of Arpaia",
+     "note": "The story's chapter names her as his mother."
+    }
+   ]
+  },
+  {
+   "id": "annecchino",
+   "title": "Annecchino",
+   "page": "/annecchino/",
+   "status": "origin-unknown",
+   "statusNote": "2 generations, each joined to the next by a record · where the first was born is not known",
+   "span": [
+    1857,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Carmine Annecchino",
+     "years": "1857–1943",
+     "origin": "place not known",
+     "originGrade": "doc",
+     "spouse": "Maria Carfora",
+     "spouseOrigin": "place not known",
+     "atPlace": "Forchia",
+     "atYear": "",
+     "living": false,
+     "person": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
+     "spousePerson": "maria-carfora-of-carmine-annecchino-maria-carfora",
+     "title": "Parent of Filomena Annecchino, named in a register act this archive has read"
+    },
+    {
+     "name": "Filomena Annecchino",
+     "years": "b. 1897",
+     "origin": "Forchia",
+     "originGrade": "doc",
+     "spouse": "Carmine Antonio Falco",
+     "spouseOrigin": "of Arienzo",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "filomena-annecchino-2",
+     "spousePerson": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
+     "ourGeneration": 7,
+     "theirSlug": "filomena-annecchino-2",
+     "theirName": "Filomena Annecchino",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#forchia",
+     "theirOrigin": "of Forchia",
+     "note": "The story's couple of generation 7."
+    },
+    {
+     "ourSlug": "filomena-annecchino-2",
+     "ourGeneration": 7,
+     "theirSlug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
+     "theirName": "Carmine Annecchino",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#forchia",
+     "note": "Named as a parent in a register act this archive has read."
+    },
+    {
+     "ourSlug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
+     "ourGeneration": 8,
+     "theirSlug": "filomena-annecchino-2",
+     "theirName": "Filomena Annecchino",
+     "relation": "son of",
+     "grade": "doc",
+     "storyHref": "/story/#brisbane",
+     "theirOrigin": "of Forchia",
+     "note": "The story's chapter names her as his mother."
+    }
+   ]
+  },
+  {
+   "id": "maione",
+   "title": "Maione",
+   "page": "/maione/",
+   "status": "documented",
+   "statusNote": "2 generations, each joined to the next by a record · the first one's birthplace is the family tree's",
+   "span": [
+    1841,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Aniello Maione / Majone",
+     "years": "b. 1841",
+     "origin": "Arienzo",
+     "originGrade": "lore",
+     "spouse": "Anna Martone",
+     "spouseOrigin": "of Arienzo",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "aniello-maione-majone",
+     "spousePerson": "anna-martone",
+     "title": "Parent of Constanza Maione, as the Spine, generation 6: «So Costanza Maione was the daughter of ANIELLO MAIONE, born about 1841, and ANNA MARTONE.»"
+    },
+    {
+     "name": "Constanza Maione",
+     "years": "b. 1876",
+     "origin": "Arienzo",
+     "originGrade": "lore",
+     "spouse": "Raffaele Falco",
+     "spouseOrigin": "of Arienzo",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "constanza-maione",
+     "spousePerson": "raffaele-falco-of-raffaele-falco-costanza-maione"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "raffaele-falco-of-raffaele-falco-costanza-maione",
+     "ourGeneration": 6,
+     "theirSlug": "constanza-maione",
+     "theirName": "Constanza Maione",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#poveri",
+     "theirOrigin": "of Arienzo",
+     "note": "The story's couple of generation 6."
+    },
+    {
+     "ourSlug": "constanza-maione",
+     "ourGeneration": 6,
+     "theirSlug": "aniello-maione-majone",
+     "theirName": "Aniello Maione / Majone",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#poveri",
+     "theirOrigin": "of Arienzo",
+     "note": "Stated by the Spine, generation 6: «So Costanza Maione was the daughter of ANIELLO MAIONE, born about 1841, and ANNA MARTONE.»."
+    },
+    {
+     "ourSlug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
+     "ourGeneration": 7,
+     "theirSlug": "constanza-maione",
+     "theirName": "Constanza Maione",
+     "relation": "son of",
+     "grade": "doc",
+     "storyHref": "/story/#forchia",
+     "theirOrigin": "of Arienzo",
+     "note": "The story's chapter names her as his mother."
+    }
+   ]
+  },
+  {
+   "id": "morgillo",
+   "title": "Morgillo",
+   "page": "/morgillo/",
+   "status": "origin-unknown",
+   "statusNote": "2 generations, each joined to the next by a record · where the first was born is not known",
+   "span": [
+    1818,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Orazio Morgillo",
+     "years": "",
+     "origin": "place not known",
+     "originGrade": "doc",
+     "spouse": "spouse not named in the records",
+     "spouseOrigin": "",
+     "atPlace": "Arienzo",
+     "atYear": "1818",
+     "living": false,
+     "person": "orazio-morgillo",
+     "title": "Parent of Angela Rosa Morgillo, as the Spine, generation 4: «His wife Angela Rosa Morgillo, daughter of Orazio, died six days before him.»"
+    },
+    {
+     "name": "Angela Rosa Morgillo",
+     "years": "1818–1880",
+     "origin": "San Felice a Cancello",
+     "originGrade": "doc",
+     "spouse": "Raffaele Falco",
+     "spouseOrigin": "of Arienzo",
+     "atPlace": "Arienzo",
+     "atYear": "1880",
+     "living": false,
+     "person": "angela-rosa-morgillo",
+     "spousePerson": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
+     "ourGeneration": 4,
+     "theirSlug": "angela-rosa-morgillo",
+     "theirName": "Angela Rosa Morgillo",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#raffaele",
+     "theirOrigin": "of San Felice a Cancello",
+     "note": "The story's couple of generation 4."
+    },
+    {
+     "ourSlug": "angela-rosa-morgillo",
+     "ourGeneration": 4,
+     "theirSlug": "orazio-morgillo",
+     "theirName": "Orazio Morgillo",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#raffaele",
+     "note": "Stated by the Spine, generation 4: «His wife Angela Rosa Morgillo, daughter of Orazio, died six days before him.»."
+    },
+    {
+     "ourSlug": "carmine-antonio-falco",
+     "ourGeneration": 5,
+     "theirSlug": "angela-rosa-morgillo",
+     "theirName": "Angela Rosa Morgillo",
+     "relation": "son of",
+     "grade": "doc",
+     "storyHref": "/story/#orti",
+     "theirOrigin": "of San Felice a Cancello",
+     "note": "The story's chapter names her as his mother."
+    }
+   ]
+  },
+  {
+   "id": "crisci",
+   "title": "Crisci",
+   "page": "/crisci/",
+   "status": "origin-unknown",
+   "statusNote": "2 generations, each joined to the next by a record · where the first was born is not known",
+   "span": [
+    1796,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Arcangelo Crisci",
+     "years": "",
+     "origin": "place not known",
+     "originGrade": "doc",
+     "spouse": "Sara Ruggiero",
+     "spouseOrigin": "place not known",
+     "atPlace": "Arienzo",
+     "atYear": "1814",
+     "living": false,
+     "person": "arcangelo-crisci-of-vincenzo-falco-andreana-crisci",
+     "spousePerson": "sara-ruggiero-of-vincenzo-falco-andreana-crisci",
+     "title": "Parent of Andreana Crisci, named in a register act this archive has read"
+    },
+    {
+     "name": "Andreana Crisci",
+     "years": "1796–1876",
+     "origin": "Arienzo",
+     "originGrade": "doc",
+     "spouse": "Vincenzo Falco",
+     "spouseOrigin": "of Arienzo",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+     "spousePerson": "vincenzo-falco-of-vincenzo-falco-andreana-crisci"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+     "ourGeneration": 3,
+     "theirSlug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+     "theirName": "Andreana Crisci",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#vincenzo",
+     "theirOrigin": "of Arienzo",
+     "note": "The story's couple of generation 3."
+    },
+    {
+     "ourSlug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+     "ourGeneration": 3,
+     "theirSlug": "arcangelo-crisci-of-vincenzo-falco-andreana-crisci",
+     "theirName": "Arcangelo Crisci",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#vincenzo",
+     "note": "Named as a parent in a register act this archive has read."
+    },
+    {
+     "ourSlug": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
+     "ourGeneration": 4,
+     "theirSlug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+     "theirName": "Andreana Crisci",
+     "relation": "son of",
+     "grade": "doc",
+     "storyHref": "/story/#raffaele",
+     "theirOrigin": "of Arienzo",
+     "note": "The story's chapter names her as his mother."
+    }
+   ]
+  },
+  {
+   "id": "families-crisci",
+   "title": "Crisci",
+   "page": "/families/crisci/",
+   "status": "origin-unknown",
+   "statusNote": "2 generations, each joined to the next by a record · where the first was born is not known",
+   "span": [
+    1796,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Arcangelo Crisci",
+     "years": "",
+     "origin": "place not known",
+     "originGrade": "doc",
+     "spouse": "Sara Ruggiero",
+     "spouseOrigin": "place not known",
+     "atPlace": "Arienzo",
+     "atYear": "1814",
+     "living": false,
+     "person": "arcangelo-crisci-of-vincenzo-falco-andreana-crisci",
+     "spousePerson": "sara-ruggiero-of-vincenzo-falco-andreana-crisci",
+     "title": "Parent of Andreana Crisci, named in a register act this archive has read"
+    },
+    {
+     "name": "Andreana Crisci",
+     "years": "1796–1876",
+     "origin": "Arienzo",
+     "originGrade": "doc",
+     "spouse": "Vincenzo Falco",
+     "spouseOrigin": "of Arienzo",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+     "spousePerson": "vincenzo-falco-of-vincenzo-falco-andreana-crisci"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+     "ourGeneration": 3,
+     "theirSlug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+     "theirName": "Andreana Crisci",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#vincenzo",
+     "theirOrigin": "of Arienzo",
+     "note": "The story's couple of generation 3."
+    },
+    {
+     "ourSlug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+     "ourGeneration": 3,
+     "theirSlug": "arcangelo-crisci-of-vincenzo-falco-andreana-crisci",
+     "theirName": "Arcangelo Crisci",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#vincenzo",
+     "note": "Named as a parent in a register act this archive has read."
+    },
+    {
+     "ourSlug": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
+     "ourGeneration": 4,
+     "theirSlug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+     "theirName": "Andreana Crisci",
+     "relation": "son of",
+     "grade": "doc",
+     "storyHref": "/story/#raffaele",
+     "theirOrigin": "of Arienzo",
+     "note": "The story's chapter names her as his mother."
+    }
+   ]
+  },
+  {
+   "id": "families-morgillo",
+   "title": "Morgillo",
+   "page": "/families/morgillo/",
+   "status": "origin-unknown",
+   "statusNote": "2 generations, each joined to the next by a record · where the first was born is not known",
+   "span": [
+    1818,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Orazio Morgillo",
+     "years": "",
+     "origin": "place not known",
+     "originGrade": "doc",
+     "spouse": "spouse not named in the records",
+     "spouseOrigin": "",
+     "atPlace": "Arienzo",
+     "atYear": "1818",
+     "living": false,
+     "person": "orazio-morgillo",
+     "title": "Parent of Angela Rosa Morgillo, as the Spine, generation 4: «His wife Angela Rosa Morgillo, daughter of Orazio, died six days before him.»"
+    },
+    {
+     "name": "Angela Rosa Morgillo",
+     "years": "1818–1880",
+     "origin": "San Felice a Cancello",
+     "originGrade": "doc",
+     "spouse": "Raffaele Falco",
+     "spouseOrigin": "of Arienzo",
+     "atPlace": "Arienzo",
+     "atYear": "1880",
+     "living": false,
+     "person": "angela-rosa-morgillo",
+     "spousePerson": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
+     "ourGeneration": 4,
+     "theirSlug": "angela-rosa-morgillo",
+     "theirName": "Angela Rosa Morgillo",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#raffaele",
+     "theirOrigin": "of San Felice a Cancello",
+     "note": "The story's couple of generation 4."
+    },
+    {
+     "ourSlug": "angela-rosa-morgillo",
+     "ourGeneration": 4,
+     "theirSlug": "orazio-morgillo",
+     "theirName": "Orazio Morgillo",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#raffaele",
+     "note": "Stated by the Spine, generation 4: «His wife Angela Rosa Morgillo, daughter of Orazio, died six days before him.»."
+    },
+    {
+     "ourSlug": "carmine-antonio-falco",
+     "ourGeneration": 5,
+     "theirSlug": "angela-rosa-morgillo",
+     "theirName": "Angela Rosa Morgillo",
+     "relation": "son of",
+     "grade": "doc",
+     "storyHref": "/story/#orti",
+     "theirOrigin": "of San Felice a Cancello",
+     "note": "The story's chapter names her as his mother."
+    }
+   ]
+  },
+  {
+   "id": "families-zampiello",
+   "title": "Zampiello",
+   "page": "/families/zampiello/",
+   "status": "origin-unknown",
+   "statusNote": "3 generations, each joined to the next by a record · where the first was born is not known",
+   "span": [
+    1895,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Tommaso Zampiello",
+     "years": "",
+     "origin": "place not known",
+     "originGrade": "doc",
+     "spouse": "spouse not named in the records",
+     "spouseOrigin": "",
+     "atPlace": "Arpaia",
+     "atYear": "",
+     "living": false,
+     "person": "tommaso-zampiello",
+     "title": "Parent of Angelo Zampiello, named in a register act this archive has read"
+    },
+    {
+     "name": "Angelo Zampiello",
+     "years": "1895–1972",
+     "origin": "place not known",
+     "originGrade": "doc",
+     "spouse": "Giuseppa Ferraro",
+     "spouseOrigin": "place not known",
+     "atPlace": "Arpaia",
+     "atYear": "",
+     "living": false,
+     "person": "angelo-zampiello",
+     "spousePerson": "giuseppa-ferraro",
+     "title": "Parent of Francesca Zampiello, named in a register act this archive has read"
+    },
+    {
+     "name": "Francesca Zampiello",
+     "years": "1928–2022",
+     "origin": "Arpaia",
+     "originGrade": "lore",
+     "spouse": "Carmine Falco",
+     "spouseOrigin": "of Forchia",
+     "atPlace": "Brisbane",
+     "atYear": "2022",
+     "living": false,
+     "person": "francesca-zampiello",
+     "spousePerson": "carmine-falco-of-carmine-antonio-falco-filomena-ann"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
+     "ourGeneration": 8,
+     "theirSlug": "francesca-zampiello",
+     "theirName": "Francesca Zampiello",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#brisbane",
+     "theirOrigin": "of Arpaia",
+     "note": "The story's couple of generation 8."
+    },
+    {
+     "ourSlug": "francesca-zampiello",
+     "ourGeneration": 8,
+     "theirSlug": "angelo-zampiello",
+     "theirName": "Angelo Zampiello",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#brisbane",
+     "note": "Named as a parent in a register act this archive has read."
+    },
+    {
+     "ourSlug": "giuseppina-falco",
+     "ourGeneration": 9,
+     "theirSlug": "francesca-zampiello",
+     "theirName": "Francesca Zampiello",
+     "relation": "child of",
+     "grade": "lore",
+     "storyHref": "/story/#us",
+     "theirOrigin": "of Arpaia",
+     "note": "The story's chapter names her as his mother."
+    }
+   ]
+  },
+  {
+   "id": "families-annecchino",
+   "title": "Annecchino",
+   "page": "/families/annecchino/",
+   "status": "origin-unknown",
+   "statusNote": "2 generations, each joined to the next by a record · where the first was born is not known",
+   "span": [
+    1857,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Carmine Annecchino",
+     "years": "1857–1943",
+     "origin": "place not known",
+     "originGrade": "doc",
+     "spouse": "Maria Carfora",
+     "spouseOrigin": "place not known",
+     "atPlace": "Forchia",
+     "atYear": "",
+     "living": false,
+     "person": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
+     "spousePerson": "maria-carfora-of-carmine-annecchino-maria-carfora",
+     "title": "Parent of Filomena Annecchino, named in a register act this archive has read"
+    },
+    {
+     "name": "Filomena Annecchino",
+     "years": "b. 1897",
+     "origin": "Forchia",
+     "originGrade": "doc",
+     "spouse": "Carmine Antonio Falco",
+     "spouseOrigin": "of Arienzo",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "filomena-annecchino-2",
+     "spousePerson": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
+     "ourGeneration": 7,
+     "theirSlug": "filomena-annecchino-2",
+     "theirName": "Filomena Annecchino",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#forchia",
+     "theirOrigin": "of Forchia",
+     "note": "The story's couple of generation 7."
+    },
+    {
+     "ourSlug": "filomena-annecchino-2",
+     "ourGeneration": 7,
+     "theirSlug": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
+     "theirName": "Carmine Annecchino",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#forchia",
+     "note": "Named as a parent in a register act this archive has read."
+    },
+    {
+     "ourSlug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
+     "ourGeneration": 8,
+     "theirSlug": "filomena-annecchino-2",
+     "theirName": "Filomena Annecchino",
+     "relation": "son of",
+     "grade": "doc",
+     "storyHref": "/story/#brisbane",
+     "theirOrigin": "of Forchia",
+     "note": "The story's chapter names her as his mother."
+    }
+   ]
+  },
+  {
+   "id": "families-guida",
+   "title": "di Guida",
+   "page": "/families/guida/",
+   "status": "origin-unknown",
+   "statusNote": "3 generations, each joined to the next by a record · where the first was born is not known",
+   "span": [
+    1791,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Giuseppe di Guida",
+     "years": "",
+     "origin": "place not known",
+     "originGrade": "doc",
+     "spouse": "Maddalena Rivetta",
+     "spouseOrigin": "place not known",
+     "atPlace": "Arienzo",
+     "atYear": "1819",
+     "living": false,
+     "person": "giuseppe-di-guida-of-giuseppe-di-guida-maddalena-rivett",
+     "spousePerson": "maddalena-rivetta",
+     "title": "Parent of Angelo Andrea di Guida, named in a register act this archive has read"
+    },
+    {
+     "name": "Angelo Andrea di Guida",
+     "years": "d. 1817",
+     "origin": "place not known",
+     "originGrade": "doc",
+     "spouse": "Teresa Vigliotta",
+     "spouseOrigin": "place not known",
+     "atPlace": "Arienzo",
+     "atYear": "1791",
+     "living": false,
+     "person": "angelo-andrea-di-guida-of-angelo-andrea-di-guida-teresa-vigl",
+     "spousePerson": "teresa-vigliotta-of-angelo-andrea-di-guida-teresa-vigl",
+     "title": "Parent of Maddalena di Guida, named in a register act this archive has read"
+    },
+    {
+     "name": "Maddalena di Guida",
+     "years": "b. 1817",
+     "origin": "Arienzo",
+     "originGrade": "doc",
+     "spouse": "spouse not named in the records",
+     "spouseOrigin": "",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "maddalena-di-guida"
+    }
+   ],
+   "notConnected": {
+    "why": "The marriages that carried this name into the Falco were with collateral households (the table below marks them «collateral»), not with the direct line, and no person of the line has a parent of the name."
+   }
+  },
+  {
+   "id": "families-quotolo",
+   "title": "Quotolo",
+   "page": "/families/quotolo/",
+   "status": "origin-unknown",
+   "statusNote": "2 generations, each joined to the next by a record · where the first was born is not known",
+   "span": [
+    1819,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Francesco Quotolo",
+     "years": "",
+     "origin": "place not known",
+     "originGrade": "doc",
+     "spouse": "Vittoria di Guida",
+     "spouseOrigin": "place not known",
+     "atPlace": "Arienzo",
+     "atYear": "",
+     "living": false,
+     "person": "francesco-quotolo-of-francesco-quotolo-vittoria-di-guid",
+     "spousePerson": "vittoria-di-guida-of-francesco-quotolo-vittoria-di-guid",
+     "title": "Parent of Angelo Quotolo, named in a register act this archive has read"
+    },
+    {
+     "name": "Angelo Quotolo",
+     "years": "d. 1819",
+     "origin": "place not known",
+     "originGrade": "doc",
+     "spouse": "spouse not named in the records",
+     "spouseOrigin": "",
+     "atPlace": "Arienzo",
+     "atYear": "1819",
+     "living": false,
+     "person": "angelo-quotolo"
+    }
+   ],
+   "notConnected": {
+    "why": "The marriages that carried this name into the Falco were with collateral households (the table below marks them «collateral»), not with the direct line, and no person of the line has a parent of the name."
+   }
+  },
+  {
+   "id": "families-maione",
+   "title": "Maione",
+   "page": "/families/maione/",
+   "status": "documented",
+   "statusNote": "2 generations, each joined to the next by a record · the first one's birthplace is the family tree's",
+   "span": [
+    1841,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Aniello Maione / Majone",
+     "years": "b. 1841",
+     "origin": "Arienzo",
+     "originGrade": "lore",
+     "spouse": "Anna Martone",
+     "spouseOrigin": "of Arienzo",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "aniello-maione-majone",
+     "spousePerson": "anna-martone",
+     "title": "Parent of Constanza Maione, as the Spine, generation 6: «So Costanza Maione was the daughter of ANIELLO MAIONE, born about 1841, and ANNA MARTONE.»"
+    },
+    {
+     "name": "Constanza Maione",
+     "years": "b. 1876",
+     "origin": "Arienzo",
+     "originGrade": "lore",
+     "spouse": "Raffaele Falco",
+     "spouseOrigin": "of Arienzo",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "constanza-maione",
+     "spousePerson": "raffaele-falco-of-raffaele-falco-costanza-maione"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "raffaele-falco-of-raffaele-falco-costanza-maione",
+     "ourGeneration": 6,
+     "theirSlug": "constanza-maione",
+     "theirName": "Constanza Maione",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#poveri",
+     "theirOrigin": "of Arienzo",
+     "note": "The story's couple of generation 6."
+    },
+    {
+     "ourSlug": "constanza-maione",
+     "ourGeneration": 6,
+     "theirSlug": "aniello-maione-majone",
+     "theirName": "Aniello Maione / Majone",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#poveri",
+     "theirOrigin": "of Arienzo",
+     "note": "Stated by the Spine, generation 6: «So Costanza Maione was the daughter of ANIELLO MAIONE, born about 1841, and ANNA MARTONE.»."
+    },
+    {
+     "ourSlug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
+     "ourGeneration": 7,
+     "theirSlug": "constanza-maione",
+     "theirName": "Constanza Maione",
+     "relation": "son of",
+     "grade": "doc",
+     "storyHref": "/story/#forchia",
+     "theirOrigin": "of Arienzo",
+     "note": "The story's chapter names her as his mother."
+    }
+   ]
+  },
+  {
+   "id": "families-arricale",
+   "title": "Arricale",
+   "page": "/families/arricale/",
+   "status": "origin-unknown",
+   "statusNote": "2 generations, each joined to the next by a record · where the first was born is not known",
+   "span": [
+    1848,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Francesco Arricale",
+     "years": "",
+     "origin": "place not known",
+     "originGrade": "doc",
+     "spouse": "Pasqua Falco",
+     "spouseOrigin": "place not known",
+     "atPlace": "Arienzo",
+     "atYear": "1848",
+     "living": false,
+     "person": "francesco-arricale-of-francesco-arricale-pasqua-falco",
+     "spousePerson": "pasqua-falco",
+     "title": "Parent of Giovanna Arricale, named in a register act this archive has read"
+    },
+    {
+     "name": "Giovanna Arricale",
+     "years": "b. 1848",
+     "origin": "Arienzo",
+     "originGrade": "doc",
+     "spouse": "Carmine Antonio Falco",
+     "spouseOrigin": "of Arienzo",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "giovanna-arricale",
+     "spousePerson": "carmine-antonio-falco"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "carmine-antonio-falco",
+     "ourGeneration": 5,
+     "theirSlug": "giovanna-arricale",
+     "theirName": "Giovanna Arricale",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#orti",
+     "theirOrigin": "of Arienzo",
+     "note": "The story's couple of generation 5."
+    },
+    {
+     "ourSlug": "giovanna-arricale",
+     "ourGeneration": 5,
+     "theirSlug": "francesco-arricale-of-francesco-arricale-pasqua-falco",
+     "theirName": "Francesco Arricale",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#orti",
+     "note": "Named as a parent in a register act this archive has read."
+    },
+    {
+     "ourSlug": "raffaele-falco-of-raffaele-falco-costanza-maione",
+     "ourGeneration": 6,
+     "theirSlug": "giovanna-arricale",
+     "theirName": "Giovanna Arricale",
+     "relation": "son of",
+     "grade": "doc",
+     "storyHref": "/story/#poveri",
+     "theirOrigin": "of Arienzo",
+     "note": "The story's chapter names her as his mother."
+    }
+   ]
+  },
+  {
+   "id": "families-cioffi",
+   "title": "Cioffi",
+   "page": "/families/cioffi/",
+   "status": "origin-unknown",
+   "statusNote": "2 generations, each joined to the next by a record · where the first was born is not known",
+   "span": [
+    1819,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Francesco Cioffi",
+     "years": "d. 1864",
+     "origin": "place not known",
+     "originGrade": "doc",
+     "spouse": "Maria Falco",
+     "spouseOrigin": "place not known",
+     "atPlace": "Arienzo",
+     "atYear": "1819",
+     "living": false,
+     "person": "francesco-cioffi",
+     "spousePerson": "maria-falco-of-francesco-cioffi-maria-falco",
+     "title": "Parent of Giuseppe Cioffi, named in a register act this archive has read"
+    },
+    {
+     "name": "Giuseppe Cioffi",
+     "years": "1819–1824",
+     "origin": "Arienzo",
+     "originGrade": "doc",
+     "spouse": "spouse not named in the records",
+     "spouseOrigin": "",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "giuseppe-cioffi-of-francesco-cioffi-maria-falco"
+    }
+   ],
+   "notConnected": {
+    "why": "No marriage into the direct line is recorded for this name. The archive keeps the page because it names eight or more people of it, or its work list or open questions are about it."
+   }
+  },
+  {
+   "id": "families-diglio",
+   "title": "Diglio",
+   "page": "/families/diglio/",
+   "status": "origin-unknown",
+   "statusNote": "2 generations, each joined to the next by a record · where the first was born is not known",
+   "span": [
+    1813,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Alfonso Diglio",
+     "years": "",
+     "origin": "place not known",
+     "originGrade": "doc",
+     "spouse": "Maria Falco",
+     "spouseOrigin": "place not known",
+     "atPlace": "Arienzo",
+     "atYear": "1813",
+     "living": false,
+     "person": "alfonso-diglio-of-alfonso-diglio-maria-falco",
+     "spousePerson": "maria-falco-of-alfonso-diglio-maria-falco",
+     "title": "Parent of Salvatore Diglio, named in a register act this archive has read"
+    },
+    {
+     "name": "Salvatore Diglio",
+     "years": "b. 1817",
+     "origin": "Arienzo",
+     "originGrade": "doc",
+     "spouse": "spouse not named in the records",
+     "spouseOrigin": "",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "salvatore-diglio-of-alfonso-diglio-maria-falco-2"
+    }
+   ],
+   "notConnected": {
+    "why": "No marriage into the direct line is recorded for this name. The archive keeps the page because it names eight or more people of it, or its work list or open questions are about it."
+   }
+  }
+ ]
+}

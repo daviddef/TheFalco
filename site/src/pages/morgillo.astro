@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import FamilyLine from "../components/FamilyLine.astro";
 import P from "../components/P.astro";
 import Src from "../components/Src.astro";
 import { u } from "../lib/url.js";
@@ -42,6 +43,9 @@ const elders = [
 <Base title="Morgillo"
       eyebrow="The house the line married into"
       dek={`${all.length} Morgillo are recorded in this archive. Until 2026 almost none of them were joined to each other. The Arienzo death registers of 1826, 1827 and 1828, read act by act, put two Morgillo households on the ground for the first time.`}>
+
+
+  <FamilyLine page="/morgillo/" />
 
   <h2>Why the Morgillo matter</h2>
   <p><strong>Raffaele Falco, generation four, married Angela Rosa Morgillo</strong> — born at San Felice
