@@ -278,7 +278,12 @@ def connections_for(names):
             if q["slug"] in OURS and OURS[q["slug"]]["role"] == "partner":
                 pe = OURS[q["slug"]]
                 kid = chapter_children(pe["storyChapter"]).get(s)
-                gr, note, rank = (kid or grade_of(ed)), "The story's chapter names her as his mother.", 0
+                if kid:
+                    gr, note = kid, "The story's chapter tree draws her as the mother."
+                else:
+                    gr = grade_of(ed)
+                    note = "Named as a parent in a register act this archive has read." if gr == "doc" else "From the family tree only, unverified."
+                rank = 0
             elif (s, q["slug"]) in STATED_LINK:
                 gr, note, rank = "doc", "Stated by " + STATED_LINK[(s, q["slug"])] + ".", 1
             else:
