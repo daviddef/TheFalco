@@ -110,7 +110,9 @@ TABLE_DIRS_NOT_READ = {"data/antenati-ids"}
 # fields of its own: `origin` and `spouseOrigin` are a town and country, `originGrade` the evidence grade of that place,
 # `spouseLiving` a flag and `chapter` the id of the chapter the card links to. Its `years` and `atYear` stay outside the
 # list, so a living card that carries a year still fails here (and in the kit's checkfamilystory.py).
-ALLOW_KEYS = "gen,confidence,origin,originGrade,spouseOrigin,spouseLiving,chapter"
+# `person` is the slug of the living generation's own page (27 October 2026, so the direct-line tint and band reach it:
+# kit/docs/family-ribbon.md): the standard's «a name, a page, a town and country», the same as the kit's `slug`.
+ALLOW_KEYS = "gen,confidence,origin,originGrade,spouseOrigin,spouseLiving,chapter,person"
 
 # Prose that is typed outside src/pages and notes/*.md: components and layouts (a sentence can be typed there).
 EXTRA_INCLUDE = ["site/src/components/**/*.astro", "site/src/layouts/**/*.astro"]
