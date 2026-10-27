@@ -86,7 +86,20 @@
         "living": false,
         "chapter": "matteo",
         "person": "matteo-falco-of-matteo-falco-francesca-crisci",
-        "title": "Found at Arienzo from his children's baptisms; his own baptism would fall in the register's gap of 1738 to 1761, so where he was born is not documented"
+        "title": "Found at Arienzo from his children's baptisms; his own baptism would fall in the register's gap of 1738 to 1761, so where he was born is not documented",
+        "flags": [
+          {
+            "kind": "today",
+            "line": "from",
+            "place": "Arienzo",
+            "svg": "italy-flags--era-1946.svg",
+            "flag": "italy-flags--era-1946",
+            "country": "IT",
+            "year": null,
+            "label": "from Arienzo: Italy today",
+            "grade": "inf"
+          }
+        ]
       },
       {
         "name": "Pasquale Falco",
@@ -102,7 +115,31 @@
         "person": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
         "spousePerson": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
         "spouseDirect": true,
-        "title": "Baptised at Sant'Andrea, Arienzo, 24 July 1767; died on strada Camellara"
+        "title": "Baptised at Sant'Andrea, Arienzo, 24 July 1767; died on strada Camellara",
+        "flags": [
+          {
+            "kind": "today",
+            "line": "from",
+            "place": "Arienzo",
+            "svg": "italy-flags--era-1946.svg",
+            "flag": "italy-flags--era-1946",
+            "country": "IT",
+            "year": null,
+            "label": "from Arienzo: Italy today",
+            "grade": "doc"
+          },
+          {
+            "kind": "today",
+            "line": "spouse",
+            "place": "Arienzo",
+            "svg": "italy-flags--era-1946.svg",
+            "flag": "italy-flags--era-1946",
+            "country": "IT",
+            "year": null,
+            "label": "spouse of Arienzo: Italy today",
+            "grade": "doc"
+          }
+        ]
       },
       {
         "name": "Vincenzo Falco",
@@ -118,7 +155,31 @@
         "person": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
         "spousePerson": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
         "spouseDirect": true,
-        "title": "Baptised at Arienzo, 1 February 1792, by the extract in his marriage file"
+        "title": "Baptised at Arienzo, 1 February 1792, by the extract in his marriage file",
+        "flags": [
+          {
+            "kind": "today",
+            "line": "from",
+            "place": "Arienzo",
+            "svg": "italy-flags--era-1946.svg",
+            "flag": "italy-flags--era-1946",
+            "country": "IT",
+            "year": null,
+            "label": "from Arienzo: Italy today",
+            "grade": "doc"
+          },
+          {
+            "kind": "today",
+            "line": "spouse",
+            "place": "Arienzo",
+            "svg": "italy-flags--era-1946.svg",
+            "flag": "italy-flags--era-1946",
+            "country": "IT",
+            "year": null,
+            "label": "spouse of Arienzo: Italy today",
+            "grade": "doc"
+          }
+        ]
       },
       {
         "name": "Raffaele Falco",
@@ -134,7 +195,31 @@
         "person": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
         "spousePerson": "angela-rosa-morgillo",
         "spouseDirect": true,
-        "title": "Born in his father's house on strada Camellara, 10 May 1818"
+        "title": "Born in his father's house on strada Camellara, 10 May 1818",
+        "flags": [
+          {
+            "kind": "today",
+            "line": "from",
+            "place": "Arienzo",
+            "svg": "italy-flags--era-1946.svg",
+            "flag": "italy-flags--era-1946",
+            "country": "IT",
+            "year": null,
+            "label": "from Arienzo: Italy today",
+            "grade": "doc"
+          },
+          {
+            "kind": "today",
+            "line": "spouse",
+            "place": "San Felice a Cancello",
+            "svg": "italy-flags--era-1946.svg",
+            "flag": "italy-flags--era-1946",
+            "country": "IT",
+            "year": null,
+            "label": "spouse of San Felice a Cancello: Italy today",
+            "grade": "doc"
+          }
+        ]
       },
       {
         "name": "Carminantonio Falco",
@@ -150,7 +235,31 @@
         "person": "carmine-antonio-falco",
         "spousePerson": "giovanna-arricale",
         "spouseDirect": true,
-        "title": "Born at Arienzo, 10 July 1850; no death is recorded in the archive"
+        "title": "Born at Arienzo, 10 July 1850; no death is recorded in the archive",
+        "flags": [
+          {
+            "kind": "today",
+            "line": "from",
+            "place": "Arienzo",
+            "svg": "italy-flags--era-1946.svg",
+            "flag": "italy-flags--era-1946",
+            "country": "IT",
+            "year": null,
+            "label": "from Arienzo: Italy today",
+            "grade": "doc"
+          },
+          {
+            "kind": "today",
+            "line": "spouse",
+            "place": "Arienzo",
+            "svg": "italy-flags--era-1946.svg",
+            "flag": "italy-flags--era-1946",
+            "country": "IT",
+            "year": null,
+            "label": "spouse of Arienzo: Italy today",
+            "grade": "doc"
+          }
+        ]
       },
       {
         "name": "Raffaele Falco",
@@ -166,7 +275,45 @@
         "person": "raffaele-falco-of-raffaele-falco-costanza-maione",
         "spousePerson": "constanza-maione",
         "spouseDirect": true,
-        "title": "Born at Arienzo, 6 April 1873; a son registered at Arpaia in 1913, by inference his; no death is recorded in the archive"
+        "title": "Born at Arienzo, 6 April 1873; a son registered at Arpaia in 1913, by inference his; no death is recorded in the archive",
+        "flags": [
+          {
+            "kind": "era",
+            "line": "from",
+            "place": "Arienzo",
+            "svg": "italy-flags--era-1861.svg",
+            "flag": "italy-flags--era-1861",
+            "era": "campania--era-1861",
+            "year": 1913,
+            "label": "from Arienzo, 1913: Italy then",
+            "grade": "doc",
+            "assessed": true
+          },
+          {
+            "kind": "era",
+            "line": "at",
+            "place": "Arpaia",
+            "svg": "italy-flags--era-1861.svg",
+            "flag": "italy-flags--era-1861",
+            "era": "campania--era-1861",
+            "year": 1913,
+            "label": "at Arpaia, 1913: Italy then",
+            "grade": "doc",
+            "assessed": true
+          },
+          {
+            "kind": "era",
+            "line": "spouse",
+            "place": "Arienzo",
+            "svg": "italy-flags--era-1861.svg",
+            "flag": "italy-flags--era-1861",
+            "era": "campania--era-1861",
+            "year": 1913,
+            "label": "spouse of Arienzo, 1913: Italy then",
+            "grade": "doc",
+            "assessed": true
+          }
+        ]
       },
       {
         "name": "Carminantonio Falco",
@@ -182,7 +329,45 @@
         "person": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
         "spousePerson": "filomena-annecchino-2",
         "spouseDirect": true,
-        "title": "Born at Arienzo, 11 January 1901, by his passport; at Forchia in 1937; died at Brisbane, the year in dispute"
+        "title": "Born at Arienzo, 11 January 1901, by his passport; at Forchia in 1937; died at Brisbane, the year in dispute",
+        "flags": [
+          {
+            "kind": "era",
+            "line": "from",
+            "place": "Arienzo",
+            "svg": "italy-flags--era-1861.svg",
+            "flag": "italy-flags--era-1861",
+            "era": "campania--era-1861",
+            "year": 1901,
+            "label": "from Arienzo, 1901: Italy then",
+            "grade": "doc",
+            "assessed": true
+          },
+          {
+            "kind": "era",
+            "line": "at",
+            "place": "Forchia",
+            "svg": "italy-flags--era-1922.svg",
+            "flag": "italy-flags--era-1922",
+            "era": "campania--era-1861",
+            "year": 1937,
+            "label": "at Forchia, 1937: Italy then",
+            "grade": "doc",
+            "assessed": true
+          },
+          {
+            "kind": "era",
+            "line": "spouse",
+            "place": "Forchia",
+            "svg": "italy-flags--era-1861.svg",
+            "flag": "italy-flags--era-1861",
+            "era": "campania--era-1861",
+            "year": 1901,
+            "label": "spouse of Forchia, 1901: Italy then",
+            "grade": "doc",
+            "assessed": true
+          }
+        ]
       },
       {
         "name": "Carmine Falco",
@@ -198,7 +383,45 @@
         "person": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
         "spousePerson": "francesca-zampiello",
         "spouseDirect": true,
-        "title": "Born at Forchia, 8 June 1930, by the army's register; on the passenger list of 1964 to Brisbane"
+        "title": "Born at Forchia, 8 June 1930, by the army's register; on the passenger list of 1964 to Brisbane",
+        "flags": [
+          {
+            "kind": "era",
+            "line": "from",
+            "place": "Forchia",
+            "svg": "italy-flags--era-1922.svg",
+            "flag": "italy-flags--era-1922",
+            "era": "campania--era-1861",
+            "year": 1930,
+            "label": "from Forchia, 1930: Italy then",
+            "grade": "doc",
+            "assessed": true
+          },
+          {
+            "kind": "era",
+            "line": "at",
+            "place": "Brisbane",
+            "svg": "australia-flags--era-1901.svg",
+            "flag": "australia-flags--era-1901",
+            "era": "queensland--era-1901",
+            "year": 1964,
+            "label": "at Brisbane, 1964: Australia then",
+            "grade": "doc",
+            "assessed": true
+          },
+          {
+            "kind": "era",
+            "line": "spouse",
+            "place": "Arpaia",
+            "svg": "italy-flags--era-1922.svg",
+            "flag": "italy-flags--era-1922",
+            "era": "campania--era-1861",
+            "year": 1930,
+            "label": "spouse of Arpaia, 1930: Italy then",
+            "grade": "doc",
+            "assessed": true
+          }
+        ]
       },
       {
         "name": "Giuseppina Falco",
@@ -213,7 +436,31 @@
         "chapter": "us",
         "person": "giuseppina-falco",
         "spouseLiving": true,
-        "title": "Living: named with her relationships and her town and country, nothing more"
+        "title": "Living: named with her relationships and her town and country, nothing more",
+        "flags": [
+          {
+            "kind": "today",
+            "line": "from",
+            "place": "Benevento, Italy",
+            "svg": "italy-flags--era-1946.svg",
+            "flag": "italy-flags--era-1946",
+            "country": "IT",
+            "year": null,
+            "label": "from Benevento, Italy: Italy today",
+            "grade": "lore"
+          },
+          {
+            "kind": "today",
+            "line": "spouse",
+            "place": "Brisbane, Australia",
+            "svg": "australia-flags--era-1901.svg",
+            "flag": "australia-flags--era-1901",
+            "country": "AU",
+            "year": null,
+            "label": "spouse of Brisbane, Australia: Australia today",
+            "grade": "lore"
+          }
+        ]
       }
     ]
   },

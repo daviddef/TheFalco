@@ -23,7 +23,20 @@
      "atYear": "",
      "living": false,
      "person": "tommaso-zampiello",
-     "title": "Parent of Angelo Zampiello, named in a register act this archive has read"
+     "title": "Parent of Angelo Zampiello, named in a register act this archive has read",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Arpaia",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "at Arpaia: Italy today",
+       "grade": "doc"
+      }
+     ]
     },
     {
      "name": "Angelo Zampiello",
@@ -37,7 +50,20 @@
      "living": false,
      "person": "angelo-zampiello",
      "spousePerson": "giuseppa-ferraro",
-     "title": "Parent of Francesca Zampiello, named in a register act this archive has read"
+     "title": "Parent of Francesca Zampiello, named in a register act this archive has read",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Arpaia",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "at Arpaia: Italy today",
+       "grade": "doc"
+      }
+     ]
     },
     {
      "name": "Francesca Zampiello",
@@ -50,7 +76,44 @@
      "atYear": "2022",
      "living": false,
      "person": "francesca-zampiello",
-     "spousePerson": "carmine-falco-of-carmine-antonio-falco-filomena-ann"
+     "spousePerson": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
+     "flags": [
+      {
+       "kind": "era",
+       "line": "from",
+       "place": "Arpaia",
+       "svg": "italy-flags--era-1922.svg",
+       "flag": "italy-flags--era-1922",
+       "era": "campania--era-1861",
+       "year": 1928,
+       "label": "from Arpaia, 1928: Italy then",
+       "grade": "lore",
+       "assessed": true
+      },
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Brisbane",
+       "svg": "australia-flags--era-1901.svg",
+       "flag": "australia-flags--era-1901",
+       "country": "AU",
+       "year": null,
+       "label": "at Brisbane: Australia today",
+       "grade": "lore"
+      },
+      {
+       "kind": "era",
+       "line": "spouse",
+       "place": "Forchia",
+       "svg": "italy-flags--era-1922.svg",
+       "flag": "italy-flags--era-1922",
+       "era": "campania--era-1861",
+       "year": 1928,
+       "label": "spouse of Forchia, 1928: Italy then",
+       "grade": "lore",
+       "assessed": true
+      }
+     ]
     }
    ],
    "connections": [
@@ -111,7 +174,20 @@
      "living": false,
      "person": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
      "spousePerson": "maria-carfora-of-carmine-annecchino-maria-carfora",
-     "title": "Parent of Filomena Annecchino, named in a register act this archive has read"
+     "title": "Parent of Filomena Annecchino, named in a register act this archive has read",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Forchia",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "at Forchia: Italy today",
+       "grade": "doc"
+      }
+     ]
     },
     {
      "name": "Filomena Annecchino",
@@ -124,7 +200,31 @@
      "atYear": "",
      "living": false,
      "person": "filomena-annecchino-2",
-     "spousePerson": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann"
+     "spousePerson": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "from",
+       "place": "Forchia",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "from Forchia: Italy today",
+       "grade": "doc"
+      },
+      {
+       "kind": "today",
+       "line": "spouse",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "spouse of Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     }
    ],
    "connections": [
@@ -185,7 +285,31 @@
      "living": false,
      "person": "aniello-maione-majone",
      "spousePerson": "anna-martone",
-     "title": "Parent of Constanza Maione, as the Spine, generation 6: «So Costanza Maione was the daughter of ANIELLO MAIONE, born about 1841, and ANNA MARTONE.»"
+     "title": "Parent of Constanza Maione, as the Spine, generation 6: «So Costanza Maione was the daughter of ANIELLO MAIONE, born about 1841, and ANNA MARTONE.»",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "from",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "from Arienzo: Italy today",
+       "grade": "lore"
+      },
+      {
+       "kind": "today",
+       "line": "spouse",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "spouse of Arienzo: Italy today",
+       "grade": "lore"
+      }
+     ]
     },
     {
      "name": "Constanza Maione",
@@ -198,7 +322,31 @@
      "atYear": "",
      "living": false,
      "person": "constanza-maione",
-     "spousePerson": "raffaele-falco-of-raffaele-falco-costanza-maione"
+     "spousePerson": "raffaele-falco-of-raffaele-falco-costanza-maione",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "from",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "from Arienzo: Italy today",
+       "grade": "lore"
+      },
+      {
+       "kind": "today",
+       "line": "spouse",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "spouse of Arienzo: Italy today",
+       "grade": "lore"
+      }
+     ]
     }
    ],
    "connections": [
@@ -259,7 +407,20 @@
      "atYear": "1818",
      "living": false,
      "person": "orazio-morgillo",
-     "title": "Parent of Angela Rosa Morgillo, as the Spine, generation 4: «His wife Angela Rosa Morgillo, daughter of Orazio, died six days before him.»"
+     "title": "Parent of Angela Rosa Morgillo, as the Spine, generation 4: «His wife Angela Rosa Morgillo, daughter of Orazio, died six days before him.»",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "at Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     },
     {
      "name": "Angela Rosa Morgillo",
@@ -272,7 +433,43 @@
      "atYear": "1880",
      "living": false,
      "person": "angela-rosa-morgillo",
-     "spousePerson": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill"
+     "spousePerson": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "from",
+       "place": "San Felice a Cancello",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "from San Felice a Cancello: Italy today",
+       "grade": "doc"
+      },
+      {
+       "kind": "era",
+       "line": "at",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1861.svg",
+       "flag": "italy-flags--era-1861",
+       "era": "campania--era-1861",
+       "year": 1880,
+       "label": "at Arienzo, 1880: Italy then",
+       "grade": "doc",
+       "assessed": true
+      },
+      {
+       "kind": "today",
+       "line": "spouse",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "spouse of Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     }
    ],
    "connections": [
@@ -333,7 +530,20 @@
      "living": false,
      "person": "arcangelo-crisci-of-vincenzo-falco-andreana-crisci",
      "spousePerson": "sara-ruggiero-of-vincenzo-falco-andreana-crisci",
-     "title": "Parent of Andreana Crisci, named in a register act this archive has read"
+     "title": "Parent of Andreana Crisci, named in a register act this archive has read",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "at Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     },
     {
      "name": "Andreana Crisci",
@@ -346,7 +556,31 @@
      "atYear": "",
      "living": false,
      "person": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
-     "spousePerson": "vincenzo-falco-of-vincenzo-falco-andreana-crisci"
+     "spousePerson": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "from",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "from Arienzo: Italy today",
+       "grade": "doc"
+      },
+      {
+       "kind": "today",
+       "line": "spouse",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "spouse of Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     }
    ],
    "connections": [
@@ -407,7 +641,20 @@
      "living": false,
      "person": "arcangelo-crisci-of-vincenzo-falco-andreana-crisci",
      "spousePerson": "sara-ruggiero-of-vincenzo-falco-andreana-crisci",
-     "title": "Parent of Andreana Crisci, named in a register act this archive has read"
+     "title": "Parent of Andreana Crisci, named in a register act this archive has read",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "at Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     },
     {
      "name": "Andreana Crisci",
@@ -420,7 +667,31 @@
      "atYear": "",
      "living": false,
      "person": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
-     "spousePerson": "vincenzo-falco-of-vincenzo-falco-andreana-crisci"
+     "spousePerson": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "from",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "from Arienzo: Italy today",
+       "grade": "doc"
+      },
+      {
+       "kind": "today",
+       "line": "spouse",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "spouse of Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     }
    ],
    "connections": [
@@ -480,7 +751,20 @@
      "atYear": "1818",
      "living": false,
      "person": "orazio-morgillo",
-     "title": "Parent of Angela Rosa Morgillo, as the Spine, generation 4: «His wife Angela Rosa Morgillo, daughter of Orazio, died six days before him.»"
+     "title": "Parent of Angela Rosa Morgillo, as the Spine, generation 4: «His wife Angela Rosa Morgillo, daughter of Orazio, died six days before him.»",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "at Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     },
     {
      "name": "Angela Rosa Morgillo",
@@ -493,7 +777,43 @@
      "atYear": "1880",
      "living": false,
      "person": "angela-rosa-morgillo",
-     "spousePerson": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill"
+     "spousePerson": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "from",
+       "place": "San Felice a Cancello",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "from San Felice a Cancello: Italy today",
+       "grade": "doc"
+      },
+      {
+       "kind": "era",
+       "line": "at",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1861.svg",
+       "flag": "italy-flags--era-1861",
+       "era": "campania--era-1861",
+       "year": 1880,
+       "label": "at Arienzo, 1880: Italy then",
+       "grade": "doc",
+       "assessed": true
+      },
+      {
+       "kind": "today",
+       "line": "spouse",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "spouse of Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     }
    ],
    "connections": [
@@ -553,7 +873,20 @@
      "atYear": "",
      "living": false,
      "person": "tommaso-zampiello",
-     "title": "Parent of Angelo Zampiello, named in a register act this archive has read"
+     "title": "Parent of Angelo Zampiello, named in a register act this archive has read",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Arpaia",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "at Arpaia: Italy today",
+       "grade": "doc"
+      }
+     ]
     },
     {
      "name": "Angelo Zampiello",
@@ -567,7 +900,20 @@
      "living": false,
      "person": "angelo-zampiello",
      "spousePerson": "giuseppa-ferraro",
-     "title": "Parent of Francesca Zampiello, named in a register act this archive has read"
+     "title": "Parent of Francesca Zampiello, named in a register act this archive has read",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Arpaia",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "at Arpaia: Italy today",
+       "grade": "doc"
+      }
+     ]
     },
     {
      "name": "Francesca Zampiello",
@@ -580,7 +926,44 @@
      "atYear": "2022",
      "living": false,
      "person": "francesca-zampiello",
-     "spousePerson": "carmine-falco-of-carmine-antonio-falco-filomena-ann"
+     "spousePerson": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
+     "flags": [
+      {
+       "kind": "era",
+       "line": "from",
+       "place": "Arpaia",
+       "svg": "italy-flags--era-1922.svg",
+       "flag": "italy-flags--era-1922",
+       "era": "campania--era-1861",
+       "year": 1928,
+       "label": "from Arpaia, 1928: Italy then",
+       "grade": "lore",
+       "assessed": true
+      },
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Brisbane",
+       "svg": "australia-flags--era-1901.svg",
+       "flag": "australia-flags--era-1901",
+       "country": "AU",
+       "year": null,
+       "label": "at Brisbane: Australia today",
+       "grade": "lore"
+      },
+      {
+       "kind": "era",
+       "line": "spouse",
+       "place": "Forchia",
+       "svg": "italy-flags--era-1922.svg",
+       "flag": "italy-flags--era-1922",
+       "era": "campania--era-1861",
+       "year": 1928,
+       "label": "spouse of Forchia, 1928: Italy then",
+       "grade": "lore",
+       "assessed": true
+      }
+     ]
     }
    ],
    "connections": [
@@ -641,7 +1024,20 @@
      "living": false,
      "person": "carmine-annecchino-of-carmine-annecchino-maria-carfora",
      "spousePerson": "maria-carfora-of-carmine-annecchino-maria-carfora",
-     "title": "Parent of Filomena Annecchino, named in a register act this archive has read"
+     "title": "Parent of Filomena Annecchino, named in a register act this archive has read",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Forchia",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "at Forchia: Italy today",
+       "grade": "doc"
+      }
+     ]
     },
     {
      "name": "Filomena Annecchino",
@@ -654,7 +1050,31 @@
      "atYear": "",
      "living": false,
      "person": "filomena-annecchino-2",
-     "spousePerson": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann"
+     "spousePerson": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "from",
+       "place": "Forchia",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "from Forchia: Italy today",
+       "grade": "doc"
+      },
+      {
+       "kind": "today",
+       "line": "spouse",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "spouse of Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     }
    ],
    "connections": [
@@ -715,7 +1135,20 @@
      "living": false,
      "person": "giuseppe-di-guida-of-giuseppe-di-guida-maddalena-rivett",
      "spousePerson": "maddalena-rivetta",
-     "title": "Parent of Angelo Andrea di Guida, named in a register act this archive has read"
+     "title": "Parent of Angelo Andrea di Guida, named in a register act this archive has read",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "at Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     },
     {
      "name": "Angelo Andrea di Guida",
@@ -729,7 +1162,20 @@
      "living": false,
      "person": "angelo-andrea-di-guida-of-angelo-andrea-di-guida-teresa-vigl",
      "spousePerson": "teresa-vigliotta-of-angelo-andrea-di-guida-teresa-vigl",
-     "title": "Parent of Maddalena di Guida, named in a register act this archive has read"
+     "title": "Parent of Maddalena di Guida, named in a register act this archive has read",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "at Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     },
     {
      "name": "Maddalena di Guida",
@@ -741,7 +1187,20 @@
      "atPlace": "",
      "atYear": "",
      "living": false,
-     "person": "maddalena-di-guida"
+     "person": "maddalena-di-guida",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "from",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "from Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     }
    ],
    "notConnected": {
@@ -771,7 +1230,20 @@
      "living": false,
      "person": "francesco-quotolo-of-francesco-quotolo-vittoria-di-guid",
      "spousePerson": "vittoria-di-guida-of-francesco-quotolo-vittoria-di-guid",
-     "title": "Parent of Angelo Quotolo, named in a register act this archive has read"
+     "title": "Parent of Angelo Quotolo, named in a register act this archive has read",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "at Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     },
     {
      "name": "Angelo Quotolo",
@@ -783,7 +1255,20 @@
      "atPlace": "Arienzo",
      "atYear": "1819",
      "living": false,
-     "person": "angelo-quotolo"
+     "person": "angelo-quotolo",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "at Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     }
    ],
    "notConnected": {
@@ -813,7 +1298,31 @@
      "living": false,
      "person": "aniello-maione-majone",
      "spousePerson": "anna-martone",
-     "title": "Parent of Constanza Maione, as the Spine, generation 6: «So Costanza Maione was the daughter of ANIELLO MAIONE, born about 1841, and ANNA MARTONE.»"
+     "title": "Parent of Constanza Maione, as the Spine, generation 6: «So Costanza Maione was the daughter of ANIELLO MAIONE, born about 1841, and ANNA MARTONE.»",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "from",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "from Arienzo: Italy today",
+       "grade": "lore"
+      },
+      {
+       "kind": "today",
+       "line": "spouse",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "spouse of Arienzo: Italy today",
+       "grade": "lore"
+      }
+     ]
     },
     {
      "name": "Constanza Maione",
@@ -826,7 +1335,31 @@
      "atYear": "",
      "living": false,
      "person": "constanza-maione",
-     "spousePerson": "raffaele-falco-of-raffaele-falco-costanza-maione"
+     "spousePerson": "raffaele-falco-of-raffaele-falco-costanza-maione",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "from",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "from Arienzo: Italy today",
+       "grade": "lore"
+      },
+      {
+       "kind": "today",
+       "line": "spouse",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "spouse of Arienzo: Italy today",
+       "grade": "lore"
+      }
+     ]
     }
    ],
    "connections": [
@@ -888,7 +1421,20 @@
      "living": false,
      "person": "francesco-arricale-of-francesco-arricale-pasqua-falco",
      "spousePerson": "pasqua-falco",
-     "title": "Parent of Giovanna Arricale, named in a register act this archive has read"
+     "title": "Parent of Giovanna Arricale, named in a register act this archive has read",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "at Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     },
     {
      "name": "Giovanna Arricale",
@@ -901,7 +1447,31 @@
      "atYear": "",
      "living": false,
      "person": "giovanna-arricale",
-     "spousePerson": "carmine-antonio-falco"
+     "spousePerson": "carmine-antonio-falco",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "from",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "from Arienzo: Italy today",
+       "grade": "doc"
+      },
+      {
+       "kind": "today",
+       "line": "spouse",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "spouse of Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     }
    ],
    "connections": [
@@ -962,7 +1532,20 @@
      "living": false,
      "person": "francesco-cioffi",
      "spousePerson": "maria-falco-of-francesco-cioffi-maria-falco",
-     "title": "Parent of Giuseppe Cioffi, named in a register act this archive has read"
+     "title": "Parent of Giuseppe Cioffi, named in a register act this archive has read",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "at Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     },
     {
      "name": "Giuseppe Cioffi",
@@ -974,7 +1557,20 @@
      "atPlace": "",
      "atYear": "",
      "living": false,
-     "person": "giuseppe-cioffi-of-francesco-cioffi-maria-falco"
+     "person": "giuseppe-cioffi-of-francesco-cioffi-maria-falco",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "from",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "from Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     }
    ],
    "notConnected": {
@@ -1004,7 +1600,20 @@
      "living": false,
      "person": "alfonso-diglio-of-alfonso-diglio-maria-falco",
      "spousePerson": "maria-falco-of-alfonso-diglio-maria-falco",
-     "title": "Parent of Salvatore Diglio, named in a register act this archive has read"
+     "title": "Parent of Salvatore Diglio, named in a register act this archive has read",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "at Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     },
     {
      "name": "Salvatore Diglio",
@@ -1016,7 +1625,20 @@
      "atPlace": "",
      "atYear": "",
      "living": false,
-     "person": "salvatore-diglio-of-alfonso-diglio-maria-falco-2"
+     "person": "salvatore-diglio-of-alfonso-diglio-maria-falco-2",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "from",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "from Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
     }
    ],
    "notConnected": {

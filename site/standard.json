@@ -69,7 +69,8 @@
   "not_names": [
    "(?i)^(santa|san|santo|sant|sant') ",
    "(?i)^(monte|mount|porta|piazza|strada|via|contrada|casa|chiesa|palazzo|terra|santa|saint|cape|port|lake|new|north|south|east|west|great|little)\\b",
-   "(?i)\\b(island|street|road|church|campania|caserta|benevento|napoli|naples|brisbane|queensland|australia|sydney|fremantle|genoa|genova|arpaia|forchia|moiano|paolisi|arienzo|cancello|felice|valle|caudina|roma|rome|italy|italia|register|archive|archivio|antenati|familysearch|census|index|comune|parish|cemetery|hospital|ship|line|lines|records|record|registers|bundle|falcos)\\b"
+   "(?i)\\b(island|street|road|church|campania|caserta|benevento|napoli|naples|brisbane|queensland|australia|sydney|fremantle|genoa|genova|arpaia|forchia|moiano|paolisi|arienzo|cancello|felice|valle|caudina|roma|rome|italy|italia|register|archive|archivio|antenati|familysearch|census|index|comune|parish|cemetery|hospital|ship|line|lines|records|record|registers|bundle|falcos)\\b",
+   "(?i)^david defranceski$"
   ],
   "given_names_file": "../private/given-names.json",
   "skip_quotes": true

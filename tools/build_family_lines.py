@@ -33,6 +33,12 @@ A touch point is
     archive keeps duplicates rather than merging on a name), the best-graded is kept and the other is reported.
 A family no person of ours touches says why, in the archive's own terms (NOT_CONNECTED_WHY).
 
+THE MINI FLAGS (David, 27 October 2026; kit/docs/ribbon-flags.md). Each card of a ribbon carries `flags`, the era flag and
+today's flag of each place it names, worked out by the kit's own generator (kit/tools/ribbonflags.py, imported, not copied)
+from src/data/era-snapshot.json. This tool applies it to the cards it makes, so a rebuild of family-lines.json keeps them and
+--check compares them too; the kit's checkribbonflags.py recomputes every flag independently in the build (check:ribbonflags).
+The story's own cards get theirs from the same generator (npm run flags).
+
     python3 tools/build_family_lines.py            write both files
     python3 tools/build_family_lines.py --check    exit 1 if either file is not what the data makes (the build runs this)
     python3 tools/build_family_lines.py --report   print what it found, family by family, and every duplicate it set aside
@@ -500,7 +506,20 @@ def build():
             f.update(entry_tail)
             blocks.append(f)
         report.append((pg, chain, conns))
+    add_flags(lines)
     return lines, blocks, report, skipped
+
+
+KIT_TOOLS = os.path.join(ROOT, "site", "node_modules", "@daviddef", "archive-kit", "kit", "tools")
+
+
+def add_flags(lines):
+    """The kit's mini flags on every card (kit/tools/ribbonflags.py, the same call as its --write), from the era snapshot."""
+    if not os.path.isfile(os.path.join(KIT_TOOLS, "ribbonflags.py")):
+        sys.exit("build_family_lines: the kit's ribbonflags.py is not installed (npm install in site/)")
+    sys.path.insert(0, KIT_TOOLS)
+    import ribbonflags
+    ribbonflags.run(ribbonflags.context(load("era-snapshot.json")), None, {"families": lines})
 
 
 def dump(obj):
