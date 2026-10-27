@@ -101,6 +101,7 @@
         "chapter": "pasquale",
         "person": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
         "spousePerson": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
+        "spouseDirect": true,
         "title": "Baptised at Sant'Andrea, Arienzo, 24 July 1767; died on strada Camellara"
       },
       {
@@ -116,6 +117,7 @@
         "chapter": "vincenzo",
         "person": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
         "spousePerson": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+        "spouseDirect": true,
         "title": "Baptised at Arienzo, 1 February 1792, by the extract in his marriage file"
       },
       {
@@ -131,6 +133,7 @@
         "chapter": "raffaele",
         "person": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
         "spousePerson": "angela-rosa-morgillo",
+        "spouseDirect": true,
         "title": "Born in his father's house on strada Camellara, 10 May 1818"
       },
       {
@@ -146,6 +149,7 @@
         "chapter": "orti",
         "person": "carmine-antonio-falco",
         "spousePerson": "giovanna-arricale",
+        "spouseDirect": true,
         "title": "Born at Arienzo, 10 July 1850; no death is recorded in the archive"
       },
       {
@@ -159,8 +163,9 @@
         "atYear": "1913",
         "living": false,
         "chapter": "poveri",
-        "person": "raffaele-falco-2",
+        "person": "raffaele-falco-of-raffaele-falco-costanza-maione",
         "spousePerson": "constanza-maione",
+        "spouseDirect": true,
         "title": "Born at Arienzo, 6 April 1873; a son registered at Arpaia in 1913, by inference his; no death is recorded in the archive"
       },
       {
@@ -176,6 +181,7 @@
         "chapter": "forchia",
         "person": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
         "spousePerson": "filomena-annecchino-2",
+        "spouseDirect": true,
         "title": "Born at Arienzo, 11 January 1901, by his passport; at Forchia in 1937; died at Brisbane, the year in dispute"
       },
       {
@@ -191,6 +197,7 @@
         "chapter": "brisbane",
         "person": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
         "spousePerson": "francesca-zampiello",
+        "spouseDirect": true,
         "title": "Born at Forchia, 8 June 1930, by the army's register; on the passenger list of 1964 to Brisbane"
       },
       {
@@ -204,6 +211,7 @@
         "atYear": "",
         "living": true,
         "chapter": "us",
+        "person": "giuseppina-falco",
         "spouseLiving": true,
         "title": "Living: named with her relationships and her town and country, nothing more"
       }
@@ -1505,7 +1513,7 @@
                 "name": "Raffaele",
                 "years": "1873",
                 "grade": "doc",
-                "person": "raffaele-falco-2"
+                "person": "raffaele-falco-of-raffaele-falco-costanza-maione"
               },
               {
                 "id": "o-mgiuseppa",
@@ -1580,7 +1588,7 @@
         {
           "id": "poveri-1",
           "grade": "doc",
-          "text": "A certificate dated at Arienzo on 29 August 1897 declared two young people poor: *Falco Raffaele di Carminantonio e Maione Costanza di Aniello … sono poveri*. It is one of six papers in the file for their marriage, with the banns and the groom's own birth extract. [Raffaele Falco](person:raffaele-falco-2) was twenty-four, a farmer; [Costanza Maione](person:constanza-maione) was twenty-one.",
+          "text": "A certificate dated at Arienzo on 29 August 1897 declared two young people poor: *Falco Raffaele di Carminantonio e Maione Costanza di Aniello … sono poveri*. It is one of six papers in the file for their marriage, with the banns and the groom's own birth extract. [Raffaele Falco](person:raffaele-falco-of-raffaele-falco-costanza-maione) was twenty-four, a farmer; [Costanza Maione](person:constanza-maione) was twenty-one.",
           "evidence": [
             {
               "href": "/direct-line/#gen-6",
@@ -1710,7 +1718,7 @@
                 "name": "Raffaele Falco",
                 "years": "1873, farmer",
                 "grade": "doc",
-                "person": "raffaele-falco-2"
+                "person": "raffaele-falco-of-raffaele-falco-costanza-maione"
               },
               {
                 "id": "pv-costanza",
@@ -1792,7 +1800,7 @@
         },
         {
           "title": "Raffaele Falco",
-          "href": "person:raffaele-falco-2"
+          "href": "person:raffaele-falco-of-raffaele-falco-costanza-maione"
         },
         {
           "title": "Costanza Maione",
@@ -1958,7 +1966,7 @@
                 "name": "Raffaele Falco",
                 "years": "b. 1873",
                 "grade": "doc",
-                "person": "raffaele-falco-2"
+                "person": "raffaele-falco-of-raffaele-falco-costanza-maione"
               }
             ]
           },

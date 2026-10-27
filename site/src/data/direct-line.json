@@ -1,0 +1,112 @@
+{
+ "_note": "Made by kit/tools/directline.py from the story's ribbon; do not edit by hand.",
+ "generationLabel": "generation",
+ "people": [
+  {
+   "slug": "matteo-falco-of-matteo-falco-francesca-crisci",
+   "generation": 1,
+   "storyChapter": "matteo",
+   "name": "Matteo Falco"
+  },
+  {
+   "slug": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+   "generation": 2,
+   "storyChapter": "pasquale",
+   "name": "Pasquale Falco"
+  },
+  {
+   "slug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+   "generation": 3,
+   "storyChapter": "vincenzo",
+   "name": "Vincenzo Falco"
+  },
+  {
+   "slug": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
+   "generation": 4,
+   "storyChapter": "raffaele",
+   "name": "Raffaele Falco"
+  },
+  {
+   "slug": "carmine-antonio-falco",
+   "generation": 5,
+   "storyChapter": "orti",
+   "name": "Carminantonio Falco"
+  },
+  {
+   "slug": "raffaele-falco-of-raffaele-falco-costanza-maione",
+   "generation": 6,
+   "storyChapter": "poveri",
+   "name": "Raffaele Falco"
+  },
+  {
+   "slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
+   "generation": 7,
+   "storyChapter": "forchia",
+   "name": "Carminantonio Falco"
+  },
+  {
+   "slug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
+   "generation": 8,
+   "storyChapter": "brisbane",
+   "name": "Carmine Falco"
+  },
+  {
+   "slug": "giuseppina-falco",
+   "generation": 9,
+   "storyChapter": "us",
+   "name": "Giuseppina Falco"
+  }
+ ],
+ "partners": [
+  {
+   "slug": "chiara-rivetti-of-pasquale-falco-chiara-rivetti",
+   "generation": 2,
+   "storyChapter": "pasquale",
+   "partnerOf": "pasquale-falco-of-pasquale-falco-chiara-rivetti",
+   "name": "Chiara Rivetti"
+  },
+  {
+   "slug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+   "generation": 3,
+   "storyChapter": "vincenzo",
+   "partnerOf": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+   "name": "Andreana Crisci"
+  },
+  {
+   "slug": "angela-rosa-morgillo",
+   "generation": 4,
+   "storyChapter": "raffaele",
+   "partnerOf": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
+   "name": "Angela Rosa Morgillo"
+  },
+  {
+   "slug": "giovanna-arricale",
+   "generation": 5,
+   "storyChapter": "orti",
+   "partnerOf": "carmine-antonio-falco",
+   "name": "Giovanna Arricale"
+  },
+  {
+   "slug": "constanza-maione",
+   "generation": 6,
+   "storyChapter": "poveri",
+   "partnerOf": "raffaele-falco-of-raffaele-falco-costanza-maione",
+   "name": "Costanza Maione"
+  },
+  {
+   "slug": "filomena-annecchino-2",
+   "generation": 7,
+   "storyChapter": "forchia",
+   "partnerOf": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
+   "name": "Filomena Annecchino"
+  },
+  {
+   "slug": "francesca-zampiello",
+   "generation": 8,
+   "storyChapter": "brisbane",
+   "partnerOf": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
+   "name": "Francesca Zampiello"
+  }
+ ],
+ "unlinked": []
+}

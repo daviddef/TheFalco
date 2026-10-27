@@ -26,6 +26,7 @@
 import BranchRivers from "@daviddef/archive-kit/components/BranchRivers.astro";
 import data from "../data/strands.json";
 import line from "../data/line.json";
+import directLine from "../data/direct-line.json";
 
 /* LANE STATUSES, PENS AND PERSON LINKS (kit 341af33, kit/docs/lines.md). Each lane says how far its own
    evidence reaches (status, span, statusNote in strands.json); the two pens say what is in them and why; the
@@ -46,4 +47,4 @@ const SLUG_GEN = {
 };
 const names = Object.fromEntries(Object.entries(SLUG_GEN).map(([slug, g]) => [slug, `${gens.get(g)} (generation ${g})`]));
 ---
-<BranchRivers rivers={data} caption={data.caption} title={data.title} personBase="/people/" names={names} />
+<BranchRivers rivers={data} caption={data.caption} title={data.title} personBase="/people/" names={names} directLine={directLine} />

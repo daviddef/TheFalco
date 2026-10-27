@@ -10,6 +10,8 @@ import EraNote from "@daviddef/archive-kit/components/EraNote.astro";
 import { eraAt, plainYear } from "@daviddef/archive-kit/lib/era.js";
 import eraSnapshot from "../../data/era-snapshot.json";
 import HouseholdTree from "../../components/HouseholdTree.astro";
+import OursBand from "@daviddef/archive-kit/components/OursBand.astro";
+import directLine from "../../data/direct-line.json";
 
 export function getStaticPaths() {
   return people.map((p) => ({ params: { slug: p.slug }, props: { p } }));
@@ -80,6 +82,9 @@ const dek = p.living
       eyebrow={p.gen ? `Generation ${p.gen} of the direct line` : (p.household || p.surname)}
       dek={dek}
       noindex={!!p.living}>
+
+  {/* «On our direct line · generation n», for the people of src/data/direct-line.json and nobody else (the kit's gate O3) */}
+  <OursBand directLine={directLine} slug={p.slug} u={u} />
 
   <PersonTree person={p} />
 
