@@ -3739,5 +3739,11 @@ Pasquale Perrotta 36 vs 33 in 1889). Nothing depends on them.
 **`walked` was withdrawn** on the 1879, 1880, 1881, 1882 and 1886 rows. For 1879 and 1881 the session had not
 opened every contact sheet even in principle (G79-06 and -07; G81-02). The acts stand; the negative does not.
 
+**House numbers are unconfirmed.** The second reading records no addresses for any of the nineteen acts, so every street and
+house number on them is the logging session's own transcription. The `/lines` via Orticelli strand (numbers 6, 8, 10) leans on
+them: number 6 rests entirely on unseen reads, number 8 on one seen leaf (Giuseppe Falco, 1882) and earlier readings.
+*An earlier version of this section, and of the 22 household provenance paragraphs, said the second reading confirmed the
+address. It does not.*
+
 **Next step.** Re-read the unseen leaves in the in-app browser pane under the `familysearch-volume-sweep`
 skill, then restore `walked` row by row where the leaves are actually seen.
