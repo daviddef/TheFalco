@@ -7356,35 +7356,32 @@
 ],
 "children": [
 {
-"slug": "matteo-falco-3",
-"name": "Matteo Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
 "slug": "matteo-falco-of-gioacchino-falco-strada-camellara-2",
-"name": "Matteo Falco (d. 1880)",
+"name": "Matteo Falco",
 "via": "register",
 "vias": [
-"register"
+"register",
+"tree"
 ]
 }
 ],
 "siblings": [],
 "mergedOn": "name alone",
 "treeId": 4512393,
-"b": "1877",
 "dateFrom": {
-"b": "tree",
 "d": "tree",
 "bp": "tree",
 "dp": "tree"
 },
 "d": "Feb 7 1857",
 "bp": "Arienzo, Caserta, Campania, Italia",
-"dp": "Arienzo, Caserta, Campania, Italia"
+"dp": "Arienzo, Caserta, Campania, Italia",
+"retiredDates": {
+"b": {
+"value": "1877",
+"reason": "**BORN «1877» IS RETIRED — AND NOTHING IS PUT IN ITS PLACE.** The family tree gives Vittoria Cimmino (Falco) as born 1877, dead 7 February 1857, mother of Matteo Falco born 1807. A woman cannot die twenty years before she is born, and cannot bear a son seventy years before her own birth. **The parish marriage act of 16 May 1796** — *Gioacchino Falco, son of Matteo and Francesca Crisci, and Vittoria Cimmino, daughter of Matteo and Maria Migliore*, read from the image on 13 September 2026 (film image 3Q9M-CSMY-B7M1-T) — has her a bride eighty-one years before that. **So 1877 cannot be hers, and it is withdrawn.** The act gives no age, so it does not say what her birth year was; **she was born before 1796, and that is all this archive can show.** *Why the tree says 1877 is still open: a mis-keyed 1777, or a second Vittoria Cimmino of 1877 merged into the profile upstream. The export holds one profile and cannot tell them apart, and no digit is guessed here.* The death date, 7 February 1857, is the tree's and unverified; it is consistent with her son's death act of 7 April 1880, which names her as already dead."
+}
+}
 },
 {
 "slug": "andrea-cioffi",
@@ -18036,7 +18033,7 @@
 "parents": [],
 "spouses": [
 {
-"slug": "matteo-falco-3",
+"slug": "matteo-falco-of-gioacchino-falco-strada-camellara-2",
 "name": "Matteo Falco",
 "via": "tree",
 "vias": [
@@ -40307,7 +40304,7 @@
 ],
 "children": [
 {
-"slug": "matteo-falco-3",
+"slug": "matteo-falco-of-gioacchino-falco-strada-camellara-2",
 "name": "Matteo Falco",
 "via": "tree",
 "vias": [
@@ -53578,34 +53575,63 @@
 }
 ],
 "sources": [
-"register"
+"register",
+"tree"
 ],
 "living": false,
 "parents": [
+{
+"slug": "gioacchino-falco-2",
+"name": "Gioacchino Falco",
+"via": "tree",
+"vias": [
+"tree"
+]
+},
+{
+"slug": "vittoria-cimmino-2",
+"name": "Vittoria Cimmino (Falco)",
+"via": "register",
+"vias": [
+"register",
+"tree"
+]
+},
 {
 "slug": "gioacchino-falco",
 "name": "Gioacchino Falco",
 "via": "register",
 "vias": [
 "register"
-]
-},
+],
+"sameAs": "gioacchino-falco-2",
+"kept": "PROBABLY ONE MAN, TWO RECORDS, DELIBERATELY NOT MERGED. The register's Gioacchino Falco is the declarant «di anni trentasei, massaro di campagna» on strada Camellara in December 1816 (born about 1780); the tree's is Matteo Falco and Francesca Crisci's son, born 1775 in the tree and baptised 2 February 1779 in the parish book, dead 14 February 1851. Both are husband of Vittoria Cimmino and father of this Matteo, and the ages fit; but no act yet names the 1816 declarant's own father, so the name and the age are all that join him to the founders' son, and this archive does not merge on those. Both records stand until an act settles it."
+}
+],
+"spouses": [
 {
-"slug": "vittoria-cimmino-2",
-"name": "Vittoria Cimmino",
-"via": "register",
+"slug": "agnese-di-lucia",
+"name": "Agnese di Lucia (Falco)",
+"via": "tree",
 "vias": [
-"register"
+"tree"
 ]
 }
 ],
-"spouses": [],
 "children": [],
 "siblings": [],
-"d": "7 Apr 1880",
+"mergedOn": "stated outright in person-joins.json — The register's Matteo Falco died at Arienzo on 7 April 1880 (Morti 1880 act 31), son of the late Gioacchino Falco and the late Vittoria Cimmino, husband of Agnese di Lucio, aged seventy-three — so born about 1807. The tree's Matteo Falco was born 1807, died 7 April 1880 at Arienzo, son of Gioacchino Falco and Vittoria Cimmino, husband of Agnese di Lucia. The day, the place, both parents' names, the wife's name and the age all agree, and nothing in either record contradicts the other. The builder did not join them because the register's name carries a qualifier and the household's father is a second record of the tree's Gioacchino, so no name test could count. Not the Matteo Falco of the Contrada Camellara (b. 1810, d. 12 Dec 1867, husband of Alessandra Crisci).",
+"treeId": 4512473,
+"b": "1807",
 "dateFrom": {
-"d": "act"
-}
+"b": "tree",
+"d": "act",
+"bp": "tree",
+"dp": "tree"
+},
+"d": "7 Apr 1880",
+"bp": "Arienzo, Caserta, Campania, Italia",
+"dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "matteo-falco-of-matteo-falco-possidente-strada-por",
@@ -54693,59 +54719,6 @@
 "dp": "tree"
 },
 "d": "July 18 1802",
-"bp": "Arienzo, Caserta, Campania, Italia",
-"dp": "Arienzo, Caserta, Campania, Italia"
-},
-{
-"slug": "matteo-falco-3",
-"name": "Matteo Falco",
-"surname": "FALCO",
-"household": null,
-"role": null,
-"events": [],
-"sources": [
-"tree"
-],
-"living": false,
-"parents": [
-{
-"slug": "gioacchino-falco-2",
-"name": "Gioacchino Falco",
-"via": "tree",
-"vias": [
-"tree"
-]
-},
-{
-"slug": "vittoria-cimmino-2",
-"name": "Vittoria Cimmino (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"spouses": [
-{
-"slug": "agnese-di-lucia",
-"name": "Agnese di Lucia (Falco)",
-"via": "tree",
-"vias": [
-"tree"
-]
-}
-],
-"children": [],
-"siblings": [],
-"treeId": 4512473,
-"b": "1807",
-"dateFrom": {
-"b": "tree",
-"d": "tree",
-"bp": "tree",
-"dp": "tree"
-},
-"d": "Apr 7 1880",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
 },

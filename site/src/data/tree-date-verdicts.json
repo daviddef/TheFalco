@@ -1,0 +1,12 @@
+{
+ "_note": "Verdicts on a DATE the family tree carries. 'retired' empties the field on the person page and keeps the value and the reason visible; nothing is ever written in its place. A verdict whose value the tree no longer carries is reported by tools/build_people.py and not applied.",
+ "verdicts": [
+  {
+   "treeId": 4512393,
+   "field": "b",
+   "value": "1877",
+   "verdict": "retired",
+   "reason": "**BORN «1877» IS RETIRED — AND NOTHING IS PUT IN ITS PLACE.** The family tree gives Vittoria Cimmino (Falco) as born 1877, dead 7 February 1857, mother of Matteo Falco born 1807. A woman cannot die twenty years before she is born, and cannot bear a son seventy years before her own birth. **The parish marriage act of 16 May 1796** — *Gioacchino Falco, son of Matteo and Francesca Crisci, and Vittoria Cimmino, daughter of Matteo and Maria Migliore*, read from the image on 13 September 2026 (film image 3Q9M-CSMY-B7M1-T) — has her a bride eighty-one years before that. **So 1877 cannot be hers, and it is withdrawn.** The act gives no age, so it does not say what her birth year was; **she was born before 1796, and that is all this archive can show.** *Why the tree says 1877 is still open: a mis-keyed 1777, or a second Vittoria Cimmino of 1877 merged into the profile upstream. The export holds one profile and cannot tell them apart, and no digit is guessed here.* The death date, 7 February 1857, is the tree's and unverified; it is consistent with her son's death act of 7 April 1880, which names her as already dead."
+  }
+ ]
+}

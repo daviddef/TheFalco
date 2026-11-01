@@ -49,7 +49,7 @@
     "flags": "python3 node_modules/@daviddef/archive-kit/kit/tools/ribbonflags.py --snapshot src/data/era-snapshot.json --story src/data/story.json --write && python3 ../tools/build_family_lines.py",
     "check:ribbonflags": "python3 node_modules/@daviddef/archive-kit/kit/tools/ribbonflags.py --snapshot src/data/era-snapshot.json --story src/data/story.json --family-lines src/data/family-lines.json --check > /dev/null && python3 node_modules/@daviddef/archive-kit/kit/tools/checkribbonflags.py --snapshot src/data/era-snapshot.json --story src/data/story.json --family-lines src/data/family-lines.json --dist ${ARCHIVE_OUT:-dist} && python3 node_modules/@daviddef/archive-kit/kit/tools/checkribbonflags.py --selftest",
     "check:flagfit": "node node_modules/@daviddef/archive-kit/kit/tools/checkflagfit.mjs",
-    "check:kin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkkin.py --require --data src/data/people.json --born b --died d --max 1"
+    "check:kin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkkin.py --require --data src/data/people.json --born b --died d --max 0"
   },
   "dependencies": {
     "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#202f505eb103d1b8a3d17e88a59fb437167fa3f6",

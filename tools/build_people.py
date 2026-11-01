@@ -1790,6 +1790,36 @@ if os.path.exists(_vpath):
             _missed += 1
     print(f"  parent verdicts applied  : {_applied}" + (f", {_missed} no longer match an edge" if _missed else ""))
 
+# ------------------------------------------- verdicts on a tree DATE
+#
+# A tree date can be shown to be impossible by a document that gives no date of
+# its own. Vittoria Cimmino is the case: the tree has her born 1877 and dead
+# 1857, mother of a son born 1807; the parish marriage act of 16 May 1796
+# (read from the image, notes/gioacchino-vittoria-marriage-1796.md) has her
+# marrying Gioacchino Falco, so she was born long before 1877. That act has no
+# age in it, so there is nothing to put in the field instead — and this archive
+# does not repair a source by guessing the digit it thinks was meant.
+#
+# So the date is RETIRED and not replaced: the field is emptied, and the value
+# and the reason are kept on the record as `retiredDates`, printed on the page,
+# beside the chart, where a correction is shown rather than swapped. A verdict
+# whose value the tree no longer carries is reported, never applied.
+_tpath = path("site/src/data/tree-date-verdicts.json")
+if os.path.exists(_tpath):
+    _by_tid = {r.get("treeId"): r for r in people.values() if r.get("treeId")}
+    _tapplied = _tmissed = 0
+    for _tv in json.load(open(_tpath, encoding="utf-8")).get("verdicts", []):
+        _rec = _by_tid.get(_tv["treeId"])
+        _f = _tv["field"]
+        if (not _rec or _rec.get(_f) != _tv["value"]
+                or (_rec.get("dateFrom") or {}).get(_f) != "tree"):
+            _tmissed += 1; continue
+        _rec.pop(_f)
+        _rec["dateFrom"].pop(_f, None)
+        _rec.setdefault("retiredDates", {})[_f] = {"value": _tv["value"], "reason": _tv["reason"]}
+        _tapplied += 1
+    print(f"  tree dates retired       : {_tapplied}" + (f", {_tmissed} no longer match the tree" if _tmissed else ""))
+
 # The ledger is written EVERY run and deterministically — byte-identical when
 # nothing new was minted — so a stamp or an orphan check can account for it. A
 # file that is only sometimes written looks exactly like a file whose

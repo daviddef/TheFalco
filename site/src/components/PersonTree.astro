@@ -20,6 +20,7 @@
  * town and country the data holds, or nothing.
  */
 import { u } from "../lib/url.js";
+import { md } from "../lib/md.js";
 import { bySlug } from "../lib/people.js";
 import PersonTree from "@daviddef/archive-kit/components/PersonTree.astro";
 import "@daviddef/archive-kit/styles/persontree.css";
@@ -135,6 +136,10 @@ const why = empty ? WHY[p.noKin] || WHY["no-edge-recorded"] : null;
       {" " + superseded[0].superseded} <strong>The archive corrects in the open rather than deleting</strong>,
       so the discarded parentage stays visible beside the one that replaced it.</p>
     ) : null}
+    {p.retiredDates ? Object.values(p.retiredDates).map((r) => (
+      <p class="warn"><Fragment set:html={md(r.reason, u)} /> <strong>The archive corrects in the open rather than deleting</strong>,
+      so the discarded date is kept here and not drawn on the chart.</p>
+    )) : null}
     {clashChildren.length ? (
       <p class="warn"><strong>Two children here carry one name</strong> — {clashChildren.join(", ")}.
       In this parish that is usually not an error: <strong>a child who died was very often replaced by
