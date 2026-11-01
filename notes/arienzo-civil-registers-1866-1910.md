@@ -3338,8 +3338,8 @@ council had been dissolved by Royal Decree of 7 July 1889.*
 > «*2.° **FALCO LUCIA**, di anni **TRENTATRÉ**, contadina, nata in Arienzo, residente in Arienzo,
 > **figlia di CRESCENZO**, residente in Arienzo, e di **MARIA MORGILLO**, residente in Arienzo*»
 
-30 September 1888. She married **PERRINO CLEMENTE**, 30, *contadino*, son of the late **Andrea
-Perrino** and of **Gelsomina Vigliotti**.
+30 September 1888. She married **PORRINO CLEMENTE**, 30, *contadino*, son of the late **Andrea**
+(surname read *Perrino* in the first version; the name box says *Porrino*) and of **Gelsomina Vigliotti** (unverified).
 
 **Thirty-three is born about 1855**, inside the documented span of «Crescenzo Falco & Angela Maria
 Morgillo» — married 2 February 1845, children in the tree down to 1862. **The family tree does not
@@ -3374,8 +3374,9 @@ re-composited at 7 × 2, read to about act 60 so far:
 
 **ASSUNTA FALCO IS THE FIRST CHILD OF HER HOUSE KNOWN TO HAVE GROWN UP.** Five children of Antonio
 Falco and Carmela Guida are dead in this archive — Fabrizio 1871, Teresa and Domenica at two in July
-1876, Pasquale at twenty-two days and Vincenzo at seven months in 1877. Assunta's margin carries her
-wedding: «*Con atto **19 dicembre 1897** … la FALCO ASSUNTA sposò **CANGIANO VINCENZO***».
+1876, Pasquale at twenty-two days and Vincenzo at seven months in 1877. Assunta's margin names her
+wedding to **Cangiano Vincenzo**, read as «19 dicembre 1897» — which would make her eleven. The banns
+are Pubblicazioni **1907** acts 32 and 34 (20 Nov, 19 Dec 1907); the year is almost certainly 1907.
 
 **And the family tree had both Assunta and Carmine**, with Carmine dead on **31 March 1887** — an act
 in the 1887 register, which is in the same re-fetched block and not yet opened.
@@ -3506,7 +3507,7 @@ read**: 1875 after May, 1876, 1877, 1878, 1879, and 1880 down to act 34. **She i
 
 ## Also in 1880
 
-**Act 31**, 7 April — **MATTEO FALCO, seventy-eight**, Corso Caudino 57, «dal fu **GIOACCHINO** … e
+**Act 31**, 7 April — **MATTEO FALCO, seventy-three** (the first version said seventy-eight; the second reading and the family tree agree on 73, born 1807), Corso Caudino 57, «dal fu **GIOACCHINO** … e
 dalla fu **VITTORIA CIMMINO** … marito di **AGNESE DI LUCIO**». A son and a wife for «Gioacchino Falco
 (strada Camellara)», which held one line. ***Not* the MATTEO FALCO of the Contrada Camellara** who
 married Alessandra Crisci — that one was born 1810 and died 1867 — two men, one name, eight years
@@ -3703,3 +3704,40 @@ all three from the register now.**
 Martone**, whom the family tree makes his son, born 5 March 1850. *An old man dying at the address of
 a household the tree calls his son's is **not a document saying so**, and it is recorded as the
 coincidence of address it is until an act joins them.*
+
+
+---
+
+# CORRECTION, 1 November 2026 — nineteen acts logged from leaves that never arrived
+
+Every image Read in the stretch from the 1879 deaths to the 1889 index (11–12 October) returned
+**«media removed: request limit»**, and the entries for it were written anyway. This section is the audit.
+
+**Method.** Every Arienzo civil act cited in `households.json` was matched, by book, year and act number,
+against `notes/arienzo-1866-1910-falco-acts.md` (twelve delegated readers, ten second readers, 26 October).
+
+| | acts | in the second reading |
+|---|---:|---:|
+| the nineteen logged from unseen leaves | 19 | **19** |
+| the nine logged from leaves that were seen | 9 | **9** |
+| every Arienzo 1866–1910 act the households cite | 53 | **52** (the other is the same act, same date, overwritten number box) |
+
+*The first attempt found only 3 of 28: the table keeps the year in the date column for 230 of its rows.*
+
+**What was wrong — all in margin and name details**
+
+| claim | was | is |
+|---|---|---|
+| Carmela Falco b. 1889, marriage | Perrino Domenico, 1904 | **Cangiano Domenico, 27, calzolaio, 21 April 1910** (Matrimoni 1910 act 17) |
+| Assunta Falco b. 1886, margin | wedding 19 Dec **1897** | banns **1907**; she was 21 (Pubblicazioni 1907 acts 32, 34) |
+| Lucia Falco 1888, groom | Perrino Clemente | **Porrino** Clemente (name box) |
+| Matteo Falco d. 1880, age | 78 | **73** — the second reading says 73 and the family tree holds him b. 1807, d. 7 Apr 1880, son of Gioacchino Falco and Vittoria Cimmino |
+
+Minor differences in declarants' ages were left uncorrected and unresolved (Giuseppe Crisci 37 vs 38 in 1880;
+Pasquale Perrotta 36 vs 33 in 1889). Nothing depends on them.
+
+**`walked` was withdrawn** on the 1879, 1880, 1881, 1882 and 1886 rows. For 1879 and 1881 the session had not
+opened every contact sheet even in principle (G79-06 and -07; G81-02). The acts stand; the negative does not.
+
+**Next step.** Re-read the unseen leaves in the in-app browser pane under the `familysearch-volume-sweep`
+skill, then restore `walked` row by row where the leaves are actually seen.

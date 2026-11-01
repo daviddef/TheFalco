@@ -144,7 +144,7 @@
     "who": "Gioacchino Falco",
     "whoSlug": "gioacchino-falco-2",
     "to": "Vittoria Cimmino (Falco)",
-    "toSlug": "vittoria-cimmino",
+    "toSlug": "vittoria-cimmino-2",
     "into": "Cimmino",
     "living": false
    },
@@ -3859,7 +3859,7 @@
   "marriages": [
    {
     "who": "Vittoria Cimmino (Falco)",
-    "whoSlug": "vittoria-cimmino",
+    "whoSlug": "vittoria-cimmino-2",
     "to": "Gioacchino Falco",
     "toSlug": "gioacchino-falco-2",
     "into": "Falco",
@@ -3885,7 +3885,7 @@
    },
    {
     "name": "Vittoria Cimmino (Falco)",
-    "slug": "vittoria-cimmino",
+    "slug": "vittoria-cimmino-2",
     "b": "1877",
     "bp": "Arienzo",
     "d": "Feb 7 1857",
