@@ -65,6 +65,7 @@ HAND_EDITED = {
     "sources.json",         # the sources list
     "strands.json",         # the strands chart's captions
     "story.json",           # the story of the direct line (/story/), typed by hand from the archive's own pages
+    "tree-date-verdicts.json",  # tree dates retired by a document, decided by a person
     "trees.json",           # the trees' notes
     "worklist.json",        # the work list
 }
