@@ -3541,11 +3541,11 @@ act writes «Giovanbattista»; the street, **the number 77**, the trade and the 
 *The earliest act of that household by four years* — and he is **not** the Giovanni Falco of via
 Orticelli, an *agricoltore* married to Giuseppa Martone.
 
-**1881 — 116 acts, one Falco.** **Act 26**, 5 May: **MARIA FALCO, six years old**, **Corso Caudino
+**1881 — 116 acts, one Falco.** **Act 26**, 5 March (written «5 May» until 3 Nov 2026; the leaf reads «marzo»): **MARIA FALCO, six years old**, **Corso Caudino
 70**, of **Vincenzo Falco** and **Angela Pellone**, born about 1875.
 
 > **The declarant is her uncle** — «*CLEMENTE FALCO, di anni VENTITRÉ, vetturale*», twenty-two at his
-> own marriage eleven months earlier. **The brothers are proved by their own acts, not by this one**;
+> own marriage on 21 June 1880, eight and a half months earlier. **The brothers are proved by their own acts, not by this one**;
 > a declarant is still never kinship here, and this act simply happens to involve two men already
 > joined.
 
@@ -3747,3 +3747,37 @@ address. It does not.*
 
 **Next step.** Re-read the unseen leaves in the in-app browser pane under the `familysearch-volume-sweep`
 skill, then restore `walked` row by row where the leaves are actually seen.
+
+# RE-READ FROM THE IMAGES, 3 November 2026 — the nineteen unseen acts, seen
+
+Every one of the nineteen acts logged from leaves that never arrived was opened in the FamilySearch pane (17 leaves of
+`MC55-VNL`) and its house number, and wherever the corrections list said so its age, forename, groom or margin, read from the
+image. Ledger: `private/reads/verify-unseen/ledger.tsv`.
+
+| leaf | act | house / detail read from the image |
+|---|---|---|
+| 246 L | Morti 1879 no. 9, Angela Rosa Falco, 1 y | via Orticelli **6** |
+| 263 L | Morti 1879 no. 77, Michele Falco, 71 | via Orticelli **6** |
+| 364 L, R | Morti 1880 nos. 34 and 35, Angelarosa Morgillo 61, Raffaele Falco 62 | via Orticelli **6** both |
+| 380 L | Morti 1880 no. 97, Raffaela Falco, 1 y | via Orticelli **8** |
+| 362 R | Morti 1880 no. 31, Matteo Falco | Corso Caudino **57**; age **settantatre**, not settantotto |
+| 253 R | Morti 1879 no. 39, Luigi Falco, 7 m | Corso Caudino **83** |
+| 388 R | Morti 1880 no. 120, Maria Falco, 1 y | Corso Caudino **77** |
+| 487 L | Morti 1881 no. 26, Maria Falco, 6 y | Corso Caudino **70**; dated **5 March**, not 5 May |
+| 589 R | Morti 1882 no. 3, Domenica Falco, 11 m | via Camellara **20**; act dated 9 Jan 1882 |
+| 999 R | Nascite 1886 no. 6 | via Orticelli **3**; forename «**Asunta**»; margin **19 dicembre 1907** n. 34, Cangiano Vincenzo |
+| 1012 L | Nascite 1886 nos. 43, 44 | Orticelli **2**; Corso Caudino **80** |
+| 1079 L | Morti 1886 no. 73, Sara Falco, 58 | Corso Caudino **58** |
+| 1230 L | Matrimoni 1888 no. 21 | groom **Porrino** Clemente (signs it), mother Gelsomina Vigliotti |
+| 1371 L | Nascite 1889 no. 1, Pasquale Falco | Corso Caudino **88**; act dated 6 Jan 1889 |
+| 1377 L | Nascite 1889 no. 20, Carmela Falco | Corso Caudino **80**; margin 21/4-910 no. 17, Cangiano Domenico |
+| 1450 L | Morti 1889 no. 46, Rosa Zimbardo | via Camellara **12** |
+| 1453 L | Morti 1889 no. 57, Vincenzo Falco, 39 | Corso Caudino **80** |
+
+**Verdict.** Every house number stands. One date was wrong (Morti 1881 act 26: March, not May). Nothing else in the nineteen
+changed. **`walked` stays withdrawn** on the 1879, 1880, 1881, 1882 and 1886 rows: seeing the leaves that carry a Falco act is
+not walking the book. Number 10 of via Orticelli (Vincenzo Falco, Morti 1875 act 39) was not in this set.
+
+*Method notes.* A level-12 crop of a one-word forename gave «Asperta»; level 13 gave «Asunta». Two zoom windows landed a row off
+(act 120 house line; act 6 forename) and were re-aimed after the result was read. The ending of «-sette» in this clerk's hand has a crossed
+final t that «-sei» lacks (acts 31 and 120).
