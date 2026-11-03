@@ -8558,6 +8558,17 @@
    {
     "hid": "matteo-falco-alessandra-crisci",
     "household": "Matteo Falco & Alessandra Crisci",
+    "person": "Michele Ferrara (of Giovanni, d. 1875)",
+    "role": "grandchild",
+    "event": "death",
+    "date": "20 Aug 1875",
+    "place": "Arienzo, via Orticelli 6",
+    "evidence": "Arienzo, *Morti* **1875**, **act 67** (drawn 21 Aug 1875 by Cavalier Nicola Finelli, *sindaco*; declarants **Marcantonio Crisci**, *calzolaio*, and **Raffaele Loffredo**, *contadino*; witnesses Pasquale Crisci and Andrea Saccone): «*… a ore pomeridiane **otto** e minuti **trenta** **di ieri**, nella casa posta in **via Orticelli** al numero **SEI**, è morto **Michele Ferrara**, di **anno uno**, *contadino* [the printed form word], residente in Arienzo, nato in Arienzo, da **Giovanni**, *agricoltore*, domiciliato in Arienzo, e da **Maria Falco**, *contadina*, domiciliata in questo Comune*». The margin box reads «Ferrara Michele». So he died at 8.30 p.m. on **20 August 1875** and the act is dated the 21st. *First entered 3 November 2026: the act sat in the second-reading table as V090 and was never entered, because the only Falco in it is the mother. Read from the image by the archive's own hand on 3 November 2026 (MC55-FNT leaf 1020, the right-hand page).*\n\n**MEDIUM CONFIDENCE ON THE HOUSEHOLD, HIGH ON THE ACT.** The act names only «Maria Falco» and a husband Giovanni. The archive's Maria Falco (b. 1844) married **Giovanni Ferraro**, *agricoltore*, on 28 Nov 1873 (Matrimoni act 22), so a child of one year in August 1875 fits; her daughter Agnese Ferrara died in 1879 and a later Michele Ferrara, ten years old, in 1891 — a boy named again for the one lost, as the family did with Alessandra. The act calls her *contadina* where the 1873 and 1879 acts say *tessitrice*.",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 1020 (right page), Morti 1875 atto 67 — READ FROM THE IMAGE, 3 November 2026 (second-reading row V090)"
+   },
+   {
+    "hid": "matteo-falco-alessandra-crisci",
+    "household": "Matteo Falco & Alessandra Crisci",
     "person": "Antonio Crisci (b. c.1825, of Arcangelo)",
     "role": "married in",
     "event": "death",
@@ -14166,8 +14177,8 @@
     "event": "death",
     "date": "22 Jun 1877",
     "place": "Arienzo, via Orticelli 14",
-    "evidence": "Arienzo, Morti 1877, act 49 (declared 22 Jun 1877): Alessandra Falco, aged three months, daughter of Giuseppe, agricoltore, and of 'Nunzia' Nuzzo, contadina, died at half past two in the morning of 22 Jun 1877 at via Orticelli 14. *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.***",
-    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 24, Morti 1877 atto 49 — read by a delegated reader and independently re-read by a second (V203)"
+    "evidence": "Arienzo, *Morti* **1877**, **act 49** (declared 22 Jun 1877, 7.27 a.m., by **Raffaele Falco**, 59, *agricoltore*, and **Marcantonio Crisci**, 63, *calzolaio*): «*… a ore antimeridiane **due** e minuti **trenta** di oggi, nella casa posta in **via Orticelli** al numero **QUATTORDICI**, è morta **ALESSANDRA FALCO**, di **MESI TRE**, contadina [the printed form word], residente in Arienzo, nata in Arienzo, da **GIUSEPPE**, *agricoltore*, domiciliato in Arienzo, e da **NUNZIA NUZZO**, *contadina*, domiciliata in Arienzo*». *Read from the FamilySearch image by two delegated readers (V203) and then by the archive's own hand on 11 October 2026; the mother's forename re-opened and zoomed at level 13 on 3 November 2026.*\n\n**THE ACT SAYS «NUNZIA», NOT NICOLETTA — AND THE CHILD IS THIS HOUSEHOLD'S.** From 11 October to 3 November 2026 the archive held this act in a separate household of «Giuseppe Falco & Nunzia Nuzzo», on the rule that it does not merge on a name. The child settles it without the name: the only Alessandra Falco born in 1877 was born **24 Mar 1877** (Nascite act 46) to **Giuseppe Falco**, 34, *agricoltore*, and **Nicoletta Nuzzo**, a *contadina* — *three months* before this death, to the week; the parents had married in April 1876; and a second Giuseppe Falco and a second Nuzzo wife with a three-month-old Alessandra in the same street in the same summer is not a reading the register supports. The next daughter, born 1878, is **Alessandra** again, as a family names a child for one it has lost.\n\n**What stays open is the forename:** *Nunzia* and *Nicoletta* are different names, the clerk of 1877 wrote the first, and every other act of this house (1876, 1877, 1878, 1881, 1883, 1885, 1887, 1891, 1899) writes the second. It is recorded here as the one act that calls her Nunzia, not corrected.",
+    "ark": "3:1:3QSQ-G97F-M7L3 — FamilySearch MC55-VNL img 24 left page, Arienzo Morti 1877 act 49 — READ FROM THE IMAGE"
    },
    {
     "hid": "giuseppe-falco-nicoletta-nuzzo",
@@ -15149,45 +15160,6 @@
     "place": "Arienzo",
     "evidence": "The other party to the marriage of 15 May 1892 (Matrimoni , act 9): Vincenzo Lucia, 32, contadino, born and resident Santa Maria a Vico, son of the late Raffaele and the late Santa Zimbardi (Limbardi).",
     "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1753, Matrimoni  atto 9 — read by a delegated reader and independently re-read by a second (V387)"
-   }
-  ]
- },
- {
-  "id": "giuseppe-falco-nunzia-nuzzo",
-  "name": "Giuseppe Falco & Nunzia Nuzzo",
-  "members": [
-   {
-    "hid": "giuseppe-falco-nunzia-nuzzo",
-    "household": "Giuseppe Falco & Nunzia Nuzzo",
-    "person": "Alessandra Falco (of Giuseppe, d. 1877)",
-    "role": "child",
-    "event": "death",
-    "date": "22 Jun 1877",
-    "place": "Arienzo, via Orticelli 14",
-    "evidence": "**THREE MONTHS OLD, AND HER NAME IS THE WHOLE POINT.**\n\nArienzo, *Morti* **1877**, **act 49**: «*L'anno milleottocentosettantasette, addì **ventidue** di **giugno**, a ore antimeridiane **sette** e minuti **ventisette** … sono comparsi **RAFFAELE FALCO**, di anni **CINQUANTANOVE**, *agricoltore*, domiciliato in Arienzo, e **MARCANTONIO CRISCI**, di anni **sessantatré**, *calzolaio* … a ore antimeridiane **due** e minuti **trenta** di **oggi**, nella casa posta in **VIA ORTICELLI** al numero **QUATTORDICI**, è morta **ALESSANDRA FALCO**, di **MESI TRE**, *contadina*, residente in Arienzo, nata in Arienzo, da **GIUSEPPE**, *agricoltore*, domiciliato in Arienzo, e da **NUNZIA NUZZO**, *contadina*, domiciliata in Arienzo*».\n\n**SHE IS NAMED ALESSANDRA, AND HER BROTHER — IF THIS IS THAT HOUSE — WAS NAMED MATTEO.** *The Neapolitan rule names a daughter for her father's mother and a first son for his father's father. **MATTEO FALCO and ALESSANDRA CRISCI** are the two names of generation four.* **It is a custom and not a proof**, and it is the strongest circumstantial thing this archive has yet found for the filiation of the Giuseppe Falco of via Orticelli.",
-    "ark": "3:1:3QSQ-G97F-M7L3 — FamilySearch MC55-VNL img 24 left page, Arienzo Morti 1877 act 49 — READ FROM THE IMAGE"
-   },
-   {
-    "hid": "giuseppe-falco-nunzia-nuzzo",
-    "household": "Giuseppe Falco & Nunzia Nuzzo",
-    "person": "Giuseppe Falco (of Nunzia Nuzzo)",
-    "role": "father",
-    "event": "named as father in his daughter's death act",
-    "date": "22 Jun 1877",
-    "place": "Arienzo, via Orticelli 14",
-    "evidence": "«*da **GIUSEPPE**, agricoltore, domiciliato in Arienzo*» — same act, **alive in June 1877**.\n\n**THIS HOUSEHOLD IS HELD SEPARATELY FROM «GIUSEPPE FALCO & NICOLETTA NUZZO» ON PURPOSE.** *Same forename, same surname, same street — **via Orticelli**, at number **14** here and number **4** in 1885 and 1887 — and the wives' names are **NUNZIA** and **NICOLETTA**, which are different names, not spellings of one.* **This archive does not merge people on a name, and it will not merge two households on three quarters of one.**\n\n*What would settle it: the 1885 and 1887 acts name **NICOLETTA**; if a third act names the same woman **NUNZIA** at via Orticelli, or if a marriage act gives her full name, they are one house. **Until then they are two rows, and the reader is told why.***",
-    "ark": "3:1:3QSQ-G97F-M7L3 — FamilySearch MC55-VNL img 24 left page, Arienzo Morti 1877 act 49 — READ FROM THE IMAGE"
-   },
-   {
-    "hid": "giuseppe-falco-nunzia-nuzzo",
-    "household": "Giuseppe Falco & Nunzia Nuzzo",
-    "person": "Nunzia Nuzzo",
-    "role": "mother",
-    "event": "named as mother in her daughter's death act",
-    "date": "22 Jun 1877",
-    "place": "Arienzo, via Orticelli 14",
-    "evidence": "«*e da **NUNZIA NUZZO**, contadina, domiciliata in Arienzo*» — same act.\n\n**NUNZIA is Annunziata; NICOLETTA is not.** *The Giuseppe Falco of via Orticelli 4 has a wife called **Nicoletta Nuzzo** in 1885 and 1887. **One surname, one street, two forenames** — and this archive records both and claims neither.*",
-    "ark": "3:1:3QSQ-G97F-M7L3 — FamilySearch MC55-VNL img 24 left page, Arienzo Morti 1877 act 49 — READ FROM THE IMAGE"
    }
   ]
  },
