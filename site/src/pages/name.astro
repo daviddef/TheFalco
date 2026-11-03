@@ -16,14 +16,6 @@ const world = [
    different name - stays in the prose under the chart, because it is a
    judgement about the data and not a property of it. */
 const dist = world.map(([c, n, d]) => [c, n, `${n.toLocaleString()} \u00b7 ${d.replace(":", " in ")}`]);
-
-const variants = [
-  ["Falco, De Falco, Di Falco","the South — De Falco above all Campanian, and Neapolitan"],
-  ["Falcone, Falconio, Falconieri","the South"],
-  ["Falchi, Falchieri","Emilia; Falchi also Sardinia"],
-  ["Falcoz","Valle d'Aosta"],
-  ["Falconèr","the Venetie"],
-];
 ---
 <Base title="The Name">
   <p class="lede"><em>Falco</em> is the Latin and Italian for <strong>falcon</strong>. It becomes a surname
@@ -113,14 +105,11 @@ const variants = [
         which is exactly why none of its 375 records has been joined to Anna.</td></tr>
     </tbody>
   </table></div>
-  <p class="small">Zampiello's variants — Zampillo, Zampello, Zampella — may or may not be related; Forebears
-  lists them as phonetic neighbours only, and no connection has been tested here.</p>
 
-  <h2>The variants, and why the prefix matters</h2>
-  <div class="scroll"><table>
-    <thead><tr><th>Form</th><th>Where it dominates</th></tr></thead>
-    <tbody>{variants.map(([a,b]) => <tr><td><strong>{a}</strong></td><td>{b}</td></tr>)}</tbody>
-  </table></div>
+  <h2>The spellings, and why the prefix matters</h2>
+  <p>This archive keeps no list of spellings. They live in one place, the Record Atlas surname catalogue:
+  <a href="https://recordatlas.org/surname/falco/">the Falco page</a> and
+  <a href="https://recordatlas.org/surname-families/">all surname families</a>.</p>
   <p><strong>De Falco is strongly Campanian.</strong> Clerks moved between <em>Falco</em> and
   <em>De Falco</em> freely, and one family can appear under both within a generation. In the Arienzo civil
   records the registrar himself is at one point a <em>Giacomo De Falco</em> — no relation established, but
