@@ -3,6 +3,8 @@ import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import Distribution from "@daviddef/archive-kit/components/Distribution.astro";
+import spell from "../data/atlas-surname-falco.json";
+const STATUS = { same: "the same family", attested: "met on this line's records", rule: "a mechanical rule", lead: "a lead, never seen on a record here", "case-by-case": "sometimes this family, sometimes another" };
 const world = [
   ["Italy",17819,"1:3,432"],["United States",6389,"1:56,732"],["Argentina",3424,"1:12,483"],
   ["Portugal",3057,"1:3,408"],["Angola",2958,"1:9,124"],["Spain",2852,"1:16,393"],
@@ -107,9 +109,14 @@ const dist = world.map(([c, n, d]) => [c, n, `${n.toLocaleString()} \u00b7 ${d.r
   </table></div>
 
   <h2>The spellings, and why the prefix matters</h2>
-  <p>This archive keeps no list of spellings. They live in one place, the Record Atlas surname catalogue:
-  <a href="https://recordatlas.org/surname/falco/">the Falco page</a> and
-  <a href="https://recordatlas.org/surname-families/">all surname families</a>.</p>
+  <p>This archive keeps no list of spellings of its own. These come from the Record Atlas surname catalogue
+  (<a href="https://recordatlas.org/surname/falco/">the Falco page</a>,
+  <a href="https://recordatlas.org/surname-families/">all surname families</a>), where each form carries the
+  evidence for it.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Form</th><th>What the catalogue says it is</th><th>Why</th></tr></thead>
+    <tbody>{spell.members.map((m) => <tr><td><strong>{m.form}</strong></td><td>{STATUS[m.status] || m.status}</td><td>{m.what}</td></tr>)}</tbody>
+  </table></div>
   <p><strong>De Falco is strongly Campanian.</strong> Clerks moved between <em>Falco</em> and
   <em>De Falco</em> freely, and one family can appear under both within a generation. In the Arienzo civil
   records the registrar himself is at one point a <em>Giacomo De Falco</em> — no relation established, but
