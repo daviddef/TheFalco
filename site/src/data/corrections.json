@@ -4488,5 +4488,17 @@
   "now": "**Entered, read from the image**, in the household of Matteo Falco and Alessandra Crisci as the first of Maria Falco's children to die: Michele Ferrara, died 8.30 p.m. on **20 August 1875** («di ieri»), act drawn on the 21st. The household placement is medium confidence — the act names only «Maria Falco» and a husband Giovanni — and rests on her marriage to Giovanni Ferraro on 28 November 1873, which makes a child of one year in August 1875 exact; the 1879 death of Agnese Ferrara and the 1891 death of a second Michele Ferrara (ten years) are the same couple's. **Not entered, and open: V168, Morti 1907 act 82 — Nunziata Ferrara, 22, daughter of Giovanni Ferrara and Maria Falco — and V114, Morti 1902 act 34 (Giuseppe Zimbardo, one year, mother Carmela Falco, no household identified).** They are outside the 1867–1878 window and have not been opened.",
   "how": "`data/households.tsv` and `site/src/data/households.json` (one row), person graph rebuilt.",
   "why": "A census of deaths by the Falco named in them misses every act in which a Falco is only a mother; the second-reading table lists them, and the household match has to be made from there."
+ },
+ {
+  "when": "2026-11-03",
+  "sev": "corrected",
+  "where": "/households",
+  "plate": "",
+  "by": "the two mother-only death acts left open by the audit of the 1867–1878 deaths, opened in the FamilySearch pane (MC55-RM9 images 217 and 872), 3 November 2026",
+  "what": "V168 ENTERED (NUNZIATA FERRARA, 1907); V114 READ AND DELIBERATELY LEFT UNENTERED (GIUSEPPE ZIMBARDO, 1902)",
+  "was": "Both were in the second-reading table, each with a Falco only as the mother of a non-Falco deceased, and in no household. The 1 November correction entry above them named them as open and unopened.",
+  "now": "**V168 — Morti 1907, Parte I, act 82:** Nunziata Ferrara, 22, *donna di casa*, *nubile*, died at 4 a.m. on 16 December 1907 at via Cumellara 7, daughter of Giovanni, *colono*, and Maria Falco, *contadina*. Entered in the household of Matteo Falco and Alessandra Crisci beside her siblings Michele (1875), Agnese (1879) and the second Michele (1891), at medium confidence — the same couple by names and street, and Maria Falco's age does not contradict a daughter born about 1885. **V114 — Morti 1902, act 34:** Giuseppe Zimbardo, one year, died at noon on 15 June 1902 at via Cumellara 14, son of Luigi, *contadino*, and Carmela Falco, *contadina*; declarants Angelo Zimbardo and Carmine Martone. **Not entered**: no marriage of a Carmela Falco to a Luigi Zimbardo is in the archive, and the one candidate (Carmela, b. 1869, daughter of Giuseppe Falco and Rosa Zimbardo) rests on nothing but the two names. The reading is recorded on the second-reading table's row V114, so the act is not lost.",
+  "how": "`data/households.tsv` and `site/src/data/households.json` (one row), `notes/arienzo-1866-1910-falco-acts.md` (notes on V090, V114, V168).",
+  "why": "A mother-only act is entered when the household can be named from other acts and left in the table when it cannot: the 11 October stub that turned out to be a duplicate is the reason not to create a household on a surname and a forename."
  }
 ]

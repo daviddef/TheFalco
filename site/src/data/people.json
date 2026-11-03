@@ -67688,6 +67688,36 @@
 "noKin": "no-edge-recorded"
 },
 {
+"slug": "nunziata-ferrara",
+"name": "Nunziata Ferrara (of Giovanni, d. 1907)",
+"surname": "FERRARA",
+"household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
+"role": "grandchild",
+"events": [
+{
+"event": "death",
+"date": "16 Dec 1907",
+"place": "Arienzo, via Camellara 7",
+"evidence": "Arienzo, *Morti* **1907**, **Parte I, act 82** (drawn 16 Dec 1907, 9.05 a.m., before Cavaliere Marcellino Guerriero, *sindaco*; declarants **Giuseppe Morgillo**, 55, *trainante*, and **Salvatore Crisci**, 53, *calzolaio*; witnesses Alfonso Anzevino and Felice Sorice): «*… a ore antimeridiane **quattro** di oggi, nella casa posta in **via Cumellara** al numero **SETTE**, è morta **Nunziata Ferrara**, di anni **ventidue**, *donna di casa*, residente in Arienzo, nata in Arienzo, da **Giovanni**, *colono*, domiciliato in Arienzo, e da **Maria Falco**, *contadina*, domiciliata in Arienzo, **nubile***». The margin box reads «…rrara Nunziata». *First entered 3 November 2026: the act sat in the second-reading table as V168 and was never entered, because the only Falco in it is the mother. Read from the image by the archive's own hand on 3 November 2026 (MC55-RM9 leaf 872, left page, second act).*\n\n**MEDIUM CONFIDENCE ON THE HOUSEHOLD, HIGH ON THE ACT.** The act names only «Maria Falco» and a father Giovanni. The archive's Maria Falco (b. 1844) married **Giovanni Ferraro**, *agricoltore*, on 28 Nov 1873, and this is the same couple's daughter by the names, the street (via Camellara and via Orticelli are both their addresses) and the mother's *contadina*; a daughter of 22 in 1907 was born about 1885, when Maria was 41, which the act does not contradict. She is the last of their children found dead: **Michele** (1875), **Agnese** (1879), a second **Michele** (1891), and now Nunziata, unmarried at 22.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 872 (left page), Morti 1907 Parte I atto 82 — READ FROM THE IMAGE, 3 November 2026 (second-reading row V168)"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"d": "16 Dec 1907",
+"dateFrom": {
+"d": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "giovanni-ferraro",
 "name": "Giovanni Ferraro",
 "surname": "FERRARO",
