@@ -74,6 +74,7 @@ HAND_EDITED = {
 # the kit's checkliving.py) is the guard; scanning them here would only meet homonyms, and a fix would be
 # undone by the next run of the generator.
 GENERATED = {
+    "atlas-surname-falco.json",  # pull_surname_catalogue.py: a snapshot of the Record Atlas's surname catalogue (spellings, no persons)
     "changes.json",         # build_changes.py, from git
     "direct-line.json",     # the kit's directline.py, from story.json's ribbon (checked with --check): slugs, generations, names
     "family-blocks.json",   # build_family_lines.py: the family pages with no ribbon, their connection blocks (checked with --check)
