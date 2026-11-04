@@ -48,7 +48,10 @@ export function getStaticPaths() {
 const { name, rows } = Astro.props;
 const surname = (rows.find((r) => r.surname && r.surname !== "?") || {}).surname || "";
 const wu = writtenUp(surname);
-const identified = people.filter((p) => bare(p.name).toLowerCase() === name.toLowerCase());
+/* «Pasquale Falco detto Zimbardo» is a Pasquale Falco who was called Zimbardo: the page of the name lists him. The comparison
+   was exact, so he was the one of twenty Pasquale Falco person pages this name page did not link (5 November 2026). */
+const unalias = (n) => bare(n).replace(/\s+detto\s+.+$/i, "").toLowerCase();
+const identified = people.filter((p) => unalias(p.name) === name.toLowerCase());
 
 const KIND = { swept: "read off a register", index: "a name index", tree: "the family tree",
                cited: "a cited document", burial: "a burial record", record: "a record",
