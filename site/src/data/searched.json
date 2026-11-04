@@ -3933,11 +3933,11 @@
   "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
   "waypoint": "MC55-VNL",
   "url": "https://www.familysearch.org/search/collection/2043630",
-  "pages": "FNT 1020; VNL 24; RM9 216, 217, 872, 873, 874, 878, 879, 880 (leaves; 216 and 873-880 opened to find the acts)",
+  "pages": "FNT 1013 (4 Nov), 1020; VNL 24; RM9 216, 217, 872, 873, 874, 878, 879, 880 (leaves; 216 and 873-880 opened to find the acts)",
   "walked": false,
   "src": "Two leaves opened in the browser pane with the `familysearch-volume-sweep` method, both pages of each, the mother's forename zoomed to level 13: the audit of the Arienzo deaths 1867–1878, which found no unseen leaves among them.",
   "what": "**Four death acts re-opened by the archive's own hand** — one duplicated in two households (merged), two never entered because the Falco in it is only the mother (one entered, one read and left in the table)",
-  "got": "Three household changes (see /corrections, 3 November 2026). No leaf of the 1867–1878 books was logged unseen; `walked` is not changed on any row by this entry. The 1907 Parte I register closes at 86 acts (leaf 873); the 1907 annual index is on 878.",
+  "got": "Three household changes (see /corrections, 3 November 2026). No leaf of the 1867–1878 books was logged unseen; `walked` is not changed on any row by this entry. The 1907 Parte I register closes at 86 acts (leaf 873); the 1907 annual index is on 878. On 4 November the leaf holding via Orticelli number 10 (FNT 1013) was re-opened: the number stands, and the `/lines` caveat is removed.",
   "outcome": "yield",
   "tags": [
    "FamilySearch",

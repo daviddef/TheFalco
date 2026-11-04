@@ -4500,5 +4500,17 @@
   "now": "**V168 — Morti 1907, Parte I, act 82:** Nunziata Ferrara, 22, *donna di casa*, *nubile*, died at 4 a.m. on 16 December 1907 at via Cumellara 7, daughter of Giovanni, *colono*, and Maria Falco, *contadina*. Entered in the household of Matteo Falco and Alessandra Crisci beside her siblings Michele (1875), Agnese (1879) and the second Michele (1891), at medium confidence — the same couple by names and street, and Maria Falco's age does not contradict a daughter born about 1885. **V114 — Morti 1902, act 34:** Giuseppe Zimbardo, one year, died at noon on 15 June 1902 at via Cumellara 14, son of Luigi, *contadino*, and Carmela Falco, *contadina*; declarants Angelo Zimbardo and Carmine Martone. **Not entered**: no marriage of a Carmela Falco to a Luigi Zimbardo is in the archive, and the one candidate (Carmela, b. 1869, daughter of Giuseppe Falco and Rosa Zimbardo) rests on nothing but the two names. The reading is recorded on the second-reading table's row V114, so the act is not lost.",
   "how": "`data/households.tsv` and `site/src/data/households.json` (one row), `notes/arienzo-1866-1910-falco-acts.md` (notes on V090, V114, V168).",
   "why": "A mother-only act is entered when the household can be named from other acts and left in the table when it cannot: the 11 October stub that turned out to be a duplicate is the reason not to create a household on a surname and a forename."
+ },
+ {
+  "when": "2026-11-04",
+  "sev": "corrected",
+  "where": "/lines",
+  "plate": "",
+  "by": "Morti 1875 act 39 re-opened in the FamilySearch pane (MC55-FNT image 1013, right page) and the street and house number zoomed, 4 November 2026",
+  "what": "VIA ORTICELLI NUMBER 10 IS NOW READ FROM THE LEAF TOO: ALL THREE OF THE LINE'S ORTICELLI DOORS ARE CONFIRMED",
+  "was": "Since 3 November the `/lines` page and the «Numbers 6, 8 and 10 ARE this line» strand said that numbers 6 and 8 had been read from the leaves but that number 10 — Vincenzo Falco's death of 15 May 1875 — rested on an earlier reading that had not been audited, and should be read as likely, not proved.",
+  "now": "**Number 10 stands.** The act reads «a ore antimeridiane sette e minuti trenta di oggi, nella casa posta in via Orticelli al numero dieci, è morto Falco Vincenzo, di anni ottantadue, contadino … dal fu Pasquale … e dalla fu Chiara Rivetti … marito di Crisci Andreana»; the house number was zoomed and is «dieci». The day, the age, both parents and the wife agree with the second reading (V088) and with the household row, which had quoted the act from this same image. The caveat is removed from `/lines` and from the strand; the household row records the re-opening.",
+  "how": "`site/src/data/apart.json`, `site/src/pages/lines.astro`, `data/households.tsv` and `site/src/data/households.json` (one sentence appended to the evidence of one row).",
+  "why": "The audit of 3 November left number 10 as the one house number nobody had looked at a second time. It was the one most likely to survive, since the 11 October reading had quoted the whole act; it survived."
  }
 ]
