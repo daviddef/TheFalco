@@ -6,7 +6,10 @@ import line from "../data/line.json";
 /* One household drawn as a household: the couple, then the children they
    had in that house, with the one who carried the line marked. Everything
    here comes from households.json — nothing is inferred to fill a gap. */
-const { household, eyebrow, showHead = true } = Astro.props;
+/* `years`: on a person page the diagram prints what the estate's person-page checker accepts for a date (a year range, «b. 1850», «d. 1862»), not the
+   act's own wording: «13 Sep 1846 – dead by 1 Sep 1878» is a phrase, and a death the register only bounds («before 10 Nov 1864», «dead by …») is
+   not drawn as a year at all. The households page keeps the act's dates. A living member has none. */
+const { household, eyebrow, showHead = true, years = false } = Astro.props;
 
 /* households.json does not use one word for a child: «child», but also
    «daughter» and «son». Reading only the first dropped six real children out of
@@ -45,7 +48,16 @@ const nextName = headGen != null
 const inLine = (p) => !!nextName && clean(p.name) === clean(nextName);
 const orphaned = members.filter((p) => p !== head && p !== spouse && !children.includes(p));
 
+const plainYear = (d) => { const t = String(d || "").trim(); return /^(?:\d{1,2} )?(?:[A-Za-z]{3,9} )?(?:\d{1,2} )?\d{4}$/.test(t) ? t.slice(-4) : null; };
+const yearsWhen = (p) => {
+  if (!p || p.living || !p.events) return "";
+  const b = p.events.find((e) => /birth|bapt/i.test(e.event || ""));
+  const d = p.events.find((e) => /death|buri/i.test(e.event || ""));
+  const by = b ? plainYear(b.date) : null, dy = d ? plainYear(d.date) : null;
+  return by && dy ? `${by}\u2013${dy}` : by ? `b. ${by}` : dy ? `d. ${dy}` : "";
+};
 const when = (p) => {
+  if (years) return yearsWhen(p);
   if (!p || !p.events) return "";
   const b = p.events.find((e) => /birth|bapt/i.test(e.event || ""));
   const d = p.events.find((e) => /death|buri/i.test(e.event || ""));
@@ -93,7 +105,7 @@ const href = (p) => (p && p.slug ? u("/people/" + p.slug) : null);
           {children.map((c) => (
             <div class={"cell" + (inLine(c) ? " carries" : "")}>
               <span class="nm">{href(c) ? <a href={href(c)}>{c.name}</a> : c.name}</span>
-              {when(c) ? <span class="dt">{when(c)}</span> : <span class="dt">—</span>}
+              {when(c) ? <span class="dt">{when(c)}</span> : years ? null : <span class="dt">—</span>}
             </div>
           ))}
         </div>

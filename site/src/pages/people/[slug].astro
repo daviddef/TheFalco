@@ -5,12 +5,16 @@ import { md } from "../../lib/md.js";
 import { people, bySlug } from "../../lib/people.js";
 import households from "../../data/households.json";
 import plates from "../../data/plates.json";
-import PersonTree from "../../components/PersonTree.astro";
 import EraNote from "@daviddef/archive-kit/components/EraNote.astro";
 import { eraAt, plainYear } from "@daviddef/archive-kit/lib/era.js";
 import eraSnapshot from "../../data/era-snapshot.json";
 import HouseholdTree from "../../components/HouseholdTree.astro";
-import OursBand from "@daviddef/archive-kit/components/OursBand.astro";
+import PersonPage from "@daviddef/archive-kit/components/PersonPage.astro";
+import PersonSection from "@daviddef/archive-kit/components/PersonSection.astro";
+import "@daviddef/archive-kit/styles/persontree.css";
+import "@daviddef/archive-kit/styles/personpage.css";
+import PS from "@daviddef/archive-kit/data/public-sources.json";
+import { isLiving as isLivingKit } from "@daviddef/archive-kit/lib/person.js";
 import directLine from "../../data/direct-line.json";
 
 export function getStaticPaths() {
@@ -18,6 +22,11 @@ export function getStaticPaths() {
 }
 const { p } = Astro.props;
 const clean = (s) => String(s||"").replace(/\s*\(.*?\)\s*/g," ").replace(/\s+/g," ").trim();
+
+/* THE PAGE IS THE KIT'S PersonPage (4 November 2026, people pages v2): the header, the family chart, "What the record says", "Where this comes from",
+   "Others of the same name", "Photographs and papers" and "Notes and corrections" are the estate's one set of sections, in the estate's order and with the
+   estate's anchors; what this archive adds goes in the slots, or after them as a titled "more" section. `living` is written by tools/build_people.py with
+   the kit's one test; the kit's rule is asked as well, and a page is a living person's if EITHER says so. */
 
 /* line.json's notes are written in markdown, and the dek is plain text — the
    asterisks were being printed literally under the name. Take the first
@@ -60,10 +69,86 @@ const eraOn = (place, date) => (noNotes || !place || !date) ? null : eraAt(eraSn
 const bornEra = !p.living ? eraOn(p.bp, p.b) : null;
 const diedEra = !p.living ? eraOn(p.dp, p.d) : null;
 
+/* THE CHART'S DATES. The tree writes «10 Jul 1850», «Nov 12 1807», «Jul 1972», «1802»; the chart draws a day or a year. A month with no day is kept to the
+   year. A phrase («before 10 Nov 1864», «dead by 1 Sep 1878») is not a date the chart can draw: the record says it in words, and the year it holds still
+   goes to the living rule. */
+const MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const monIdx = (m) => MON.findIndex((x) => x.toLowerCase() === String(m).slice(0, 3).toLowerCase());
+const gedYear = (v) => { const m = /\b(1[0-9]\d\d|20\d\d)\b/.exec(String(v ?? "")); return m ? Number(m[1]) : null; };
+const canonDate = (v) => {
+  const t = dayFirst(v);
+  if (!t) return undefined;
+  let m;
+  if (/^\d{4}$/.test(t)) return t;
+  if ((m = /^(\d{1,2}) ([A-Za-z]{3,9}) (\d{4})$/.exec(t))) return monIdx(m[2]) < 0 ? m[3] : `${+m[1]} ${MON[monIdx(m[2])]} ${m[3]}`;
+  if ((m = /^([A-Za-z]{3,9}) (\d{4})$/.exec(t))) return monIdx(m[1]) < 0 ? undefined : m[2];
+  return undefined;
+};
+const rawB = p.b || null, rawD = p.d || null;
+const kitDates = { born: canonDate(rawB), died: canonDate(rawD) };
+const KLIVE = !p.living && isLivingKit({ id: p.slug, ...kitDates, birthYear: gedYear(rawB) ?? undefined, deathRecorded: !!rawD || undefined, citations: [] }, { now: new Date().getFullYear(), sources: PS });
+if (KLIVE) throw new Error(`people/${p.slug}: the kit's living rule says this person is living but people.json does not (b ${rawB}, d ${rawD}); decide it in tools/build_people.py, not here`);
+
+/* THE CHART'S ROWS. This archive marks the LINK, and keeps every source that carries it: «line» is the archive's own identification (the kit's direct-line
+   bar), «register» a record this archive has read, «tree» the family tree, unverified. An edge a register carries is «read», whatever else also carries it. */
 const kin = ["parents","spouses","children","siblings"];
 const edges = kin.flatMap((b) => p[b] || []);
 const fromRegister = edges.filter((e) => e.via !== "tree").length;
 const fromTree     = edges.filter((e) => e.via === "tree").length;
+const relRow = (e, extra = {}) => {
+  const r = bySlug.get(e.slug);
+  const live = !!(r && r.living);
+  return {
+    slug: e.slug || undefined, name: e.name,
+    href: e.slug ? u("/people/" + e.slug) : undefined,
+    ...(live ? { saidLiving: true } : { born: canonDate(r?.b), died: canonDate(r?.d), birthYear: gedYear(r?.b) ?? undefined, deathRecorded: !!r?.d || undefined }),
+    source: live ? "" : (e.vias || [e.via]).some((v) => v === "register") ? "read" : "tree",
+    line: e.via === "line" || (e.vias || []).includes("line") || undefined,
+    superseded: e.superseded ? true : undefined,
+    ...extra };
+};
+const RELATIONS = {
+  parents: (p.parents || []).map((e) => relRow(e)),
+  spouses: (p.spouses || []).map((e) => relRow(e, { mar: "married" })),
+  children: (p.children || []).map((e) => relRow(e)),
+  siblings: (p.siblings || []).map((e) => relRow(e)),
+};
+const KPERSON = p.living
+  ? { id: p.slug, slug: p.slug, name: p.name, saidLiving: true, town: "", country: "", place: p.place || "", relations: RELATIONS }
+  : { id: p.slug, slug: p.slug, name: p.name, ...kitDates, birthYear: gedYear(rawB) ?? undefined, deathRecorded: !!rawD || undefined, relations: RELATIONS, citations: [] };
+
+/* The tree carries three separate people called Simone Zampiello, all entered
+   as brothers of one man. Almost certainly one person duplicated — but this
+   archive does not merge records on a name, so they are shown as they are and
+   the duplication is named. */
+const clash = (rows) => {
+  const seen = {};
+  for (const r of rows) seen[r.name] = (seen[r.name] || 0) + 1;
+  return Object.entries(seen).filter(([, n]) => n > 1).map(([n]) => n);
+};
+const clashChildren = clash(p.children || []);
+const clashOther = [...new Set([...clash(p.siblings || []), ...clash(p.parents || []), ...clash(p.spouses || [])])];
+const superseded = edges.filter((e) => e.superseded);
+
+/* A PAGE THAT DRAWS NOTHING MAKES A CLAIM IN SILENCE. The REASON is classified in the data by build_people.py, because the reasons are not interchangeable
+   and only some of them are gaps this archive could close. */
+const empty = !edges.length;
+const WHY = {
+  "ancestor-in-another-act":
+    "This person is named inside somebody else's act — as a grandparent, in the «del fu» clause that gives a parent's own father. No household here holds them in their own right, and no act read so far names their spouse or their other children. The page exists because a record names them.",
+  "attended-the-act":
+    "This person stood at an act and is not kin to anyone in it — a witness, a declarant, or the midwife. This archive keeps them because who a family called on is evidence of its own, and because the same names recur across households.",
+  "married-in":
+    "This person is known from the household this archive names them in, and from nothing else yet. No act read here gives them a parent, a child or a sibling of their own.",
+  "kin-named-only-in-the-household-name":
+    "Their kin are named — in the name of the household this archive files them under — but those people hold no record of their own here, so there is no page to draw a line to. This is a gap this archive could close, not an absence of evidence.",
+  "stated-but-not-drawn":
+    "The act states a relationship that this chart does not yet draw. This person is named at a marriage as a parent or a sibling of one of the spouses, and the person-builder does not make an edge from that role. The relationship is in the record, not on this chart.",
+  "no-edge-recorded":
+    "No act read here puts this person beside anyone else. They are recorded because a document names them, and the document names them alone.",
+};
+const why = empty ? WHY[p.noKin] || WHY["no-edge-recorded"] : null;
+const emptyText = why ? "This chart is empty, and that is a statement rather than an omission. " + why : null;
 
 /* What to put under the name. A living person gets their place in the family and
    their town and country, and nothing else — no dates, no records. */
@@ -77,38 +162,44 @@ const dek = p.living
   ? "Known from the family tree. No register act has been read for this person yet."
   : "Named in this archive, with no relationship recorded for them yet.";
 ---
-<Base title={p.name}
-      noautolink
-      eyebrow={p.gen ? `Generation ${p.gen} of the direct line` : (p.household || p.surname)}
-      dek={dek}
-      noindex={!!p.living}>
+{p.living ? (
+<Base title={p.name} noautolink noindex ownHeader dek={dek}>
+  <PersonPage person={KPERSON} peopleHref={u("/people/")} directLine={directLine} storyHref={u("/story/")} />
+</Base>
+) : (
+<Base title={p.name} noautolink ownHeader dek={dek}>
+  <PersonPage person={KPERSON} lede={dek} peopleHref={u("/people/")} registerHref={u("/register/") + "?q=" + encodeURIComponent(clean(p.name))}
+              directLine={directLine} storyHref={u("/story/")} emptyText={emptyText}>
 
-  {/* «On our direct line · generation n», for the people of src/data/direct-line.json and nobody else (the kit's gate O3) */}
-  <OursBand directLine={directLine} slug={p.slug} u={u} />
+    {/* THE CHART'S OWN NOTES: a retracted claim kept in the open, a date retired from the chart, and the same name twice in one row */}
+    <Fragment slot="chart-notes">
+      {superseded.length ? (
+        <p class="warn"><strong>One claim here is drawn struck through, and left in place on purpose.</strong>
+        {" " + superseded[0].superseded} <strong>The archive corrects in the open rather than deleting</strong>,
+        so the discarded parentage stays visible beside the one that replaced it.</p>
+      ) : null}
+      {p.retiredDates ? Object.values(p.retiredDates).map((r) => (
+        <p class="warn"><Fragment set:html={md(r.reason, u)} /> <strong>The archive corrects in the open rather than deleting</strong>,
+        so the discarded date is kept here and not drawn on the chart.</p>
+      )) : null}
+      {clashChildren.length ? (
+        <p class="warn"><strong>Two children here carry one name</strong> — {clashChildren.join(", ")}.
+        In this parish that is usually not an error: <strong>a child who died was very often replaced by
+        a later child given the same name</strong>. Luigi Cioffi and Mariantonia Venafra buried a
+        Gaetana in 1839 and another Gaetana, aged four, in 1843. <strong>It is also exactly how a
+        records-matcher invents one person out of two</strong>, which is why they are kept apart here
+        and the reader is told.</p>
+      ) : null}
+      {clashOther.length ? (
+        <p class="warn"><strong>More than one person in this row carries the same name</strong> —
+        {" " + clashOther.join(", ")}. That is what the source says. <strong>This archive does not merge
+        records on a name</strong>, so they are drawn separately even where one duplicated entry is the
+        likelier explanation.</p>
+      ) : null}
+    </Fragment>
 
-  <PersonTree person={p} />
-
-  {mine.length ? (
-    <section class="card pp" aria-label="Photographs and papers">
-      <h2 class="ct">Photographs and papers</h2>
-      <div class="pp-row">
-        {mine.map((x) => (
-          <figure class="pp-fig">
-            <a href={u("/documents/") + "#" + plateId(x)}><img src={u("/plates/" + x.f)} alt={x.t} loading="lazy" /></a>
-            <figcaption>
-              <strong>{x.t}</strong>
-              {x.when ? <span class="small mono"> · {x.when}</span> : null}
-              <span class="small"> — <a href={u("/documents/") + "#" + plateId(x)}>caption and source →</a></span>
-            </figcaption>
-          </figure>
-        ))}
-      </div>
-    </section>
-  ) : null}
-
-  <div class="grid two">
-    <div class="card">
-      <h2 class="ct">What the registers say</h2>
+    {/* WHAT THE RECORD SAYS */}
+    <Fragment slot="record">
       {p.events && p.events.length ? (
         <ul style="margin:.4rem 0">
           {p.events.map((e) => (
@@ -121,33 +212,25 @@ const dek = p.living
             </li>
           ))}
         </ul>
-      ) : p.living ? (
-        <p class="small"><strong>A living person shows a name, their relationships and their town and
-        country, and nothing more.</strong> No date, no record, no photograph and no source is
-        published for them; their page is not offered to search engines. That is the rule, not a
-        gap. See <a href={u("/method/")}>Method</a>.</p>
       ) : (
         <p class="small">No act has been read for this person. What is known of them comes from the
         family tree, and is <strong>unverified</strong> —
         <a href={u("/register/") + "?q=" + encodeURIComponent(clean(p.name))}>search the register for the name →</a></p>
       )}
-      {p.living && p.place ? (
-        <p class="small"><strong>town and country</strong> {p.place}</p>
-      ) : null}
-      {!p.living && (p.bp || p.dp) && (bornEra || diedEra) ? (
+      {(p.bp || p.dp) && (bornEra || diedEra) ? (
         <div class="small" style="margin:.4rem 0">
           {p.bp ? <div><strong>born</strong> {p.bp}<EraNote era={bornEra} /></div> : null}
           {p.dp ? <div style="margin-top:.2rem"><strong>died</strong> {p.dp}<EraNote era={diedEra} /></div> : null}
         </div>
-      ) : !p.living && (p.bp || p.dp) ? (
+      ) : (p.bp || p.dp) ? (
         <p class="small">{p.bp ? <span><strong>born</strong> {p.bp}</span> : null}
         {p.bp && p.dp ? " · " : null}
         {p.dp ? <span><strong>died</strong> {p.dp}</span> : null}</p>
       ) : null}
-    </div>
+    </Fragment>
 
-    <div class="card">
-      <h2 class="ct">Where this comes from</h2>
+    {/* WHERE THIS COMES FROM */}
+    <Fragment slot="sources">
       <p class="small">
         {fromRegister ? <span><strong>{fromRegister}</strong> of the {edges.length} relationships
           shown above {fromRegister === 1 ? "is" : "are"} written in a record this archive has read.
@@ -167,37 +250,47 @@ const dek = p.living
         <p class="small"><strong>Household:</strong> <a href={u("/households/")}>{p.household}</a></p>
       ) : null}
       {p.gen ? <p class="small"><a href={u("/direct-line/") + "#gen-" + p.gen}>See this generation on the spine →</a></p> : null}
-      {p.living ? (
-        <p class="small"><strong>No register link is offered for a living person.</strong> The
-        registers do hold people of this name — they are <em>other people</em>, dead long ago, and
-        pointing at them from here would invite the reader to read a stranger's record as this
-        person's.</p>
-      ) : (
-        <p class="small"><a href={u("/register/") + "?q=" + encodeURIComponent(clean(p.name))}>Every record naming {clean(p.name)} →</a></p>
-      )}
-    </div>
-  </div>
+      <p class="small"><a href={u("/register/") + "?q=" + encodeURIComponent(clean(p.name))}>Every record naming {clean(p.name)} →</a></p>
+    </Fragment>
 
-  {ownHouse ? <HouseholdTree household={ownHouse} eyebrow="The household as the registers built it" /> : null}
+    {sameName.length ? (
+      <Fragment slot="namesakes">
+        <p class="small">This parish repeats its names relentlessly — there are three Maria Falco and
+        four Pasquale. <strong>These are different people, kept apart on purpose rather than merged
+        into one.</strong></p>
+        <ul>{sameName.map((q) => (
+          <li><a href={u("/people/" + q.slug)}>{q.name}</a>
+            <span class="small"> — {q.household || (q.living ? ("living" + (q.place ? ", " + q.place : "")) : "from the family tree")}</span></li>
+        ))}</ul>
+      </Fragment>
+    ) : null}
 
-  {sameName.length ? (
-    <>
-      <h2>Others of the same name</h2>
-      <p class="small">This parish repeats its names relentlessly — there are three Maria Falco and
-      four Pasquale. <strong>These are different people, kept apart on purpose rather than merged
-      into one.</strong></p>
-      <ul>{sameName.map((q) => (
-        <li><a href={u("/people/" + q.slug)}>{p.living ? clean(q.name) : q.name}</a>
-          <span class="small"> — {q.household || (q.living ? ("living" + (q.place ? ", " + q.place : "")) : "from the family tree")}</span></li>
-      ))}</ul>
-    </>
-  ) : null}
+    {mine.length ? (
+      <Fragment slot="media">
+        <div class="pp-row">
+          {mine.map((x) => (
+            <figure class="pp-fig">
+              <a href={u("/documents/") + "#" + plateId(x)}><img src={u("/plates/" + x.f)} alt={x.t} loading="lazy" /></a>
+              <figcaption>
+                <strong>{x.t}</strong>
+                {x.when ? <span class="small mono"> · {x.when}</span> : null}
+                <span class="small"> — <a href={u("/documents/") + "#" + plateId(x)}>caption and source →</a></span>
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      </Fragment>
+    ) : null}
 
-  <p class="small" style="margin-top:2rem"><a href={u("/people/")}>← All the people</a></p>
+    {ownHouse ? (
+      <PersonSection kind="more" title="The household as the registers built it">
+        <HouseholdTree household={ownHouse} years />
+      </PersonSection>
+    ) : null}
+  </PersonPage>
 </Base>
-
+)}
 <style>
-  .pp { margin: 1rem 0; }
   .pp-row { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: .6rem; align-items: flex-start; }
   .pp-fig { margin: 0; flex: 1 1 220px; max-width: 320px; }
   .pp-fig img { display: block; width: 100%; height: auto; max-height: 360px; object-fit: contain; background: var(--panel-2); border: 1px solid var(--rule); }

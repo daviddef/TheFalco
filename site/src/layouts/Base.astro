@@ -13,7 +13,7 @@ import BookHead from "@daviddef/archive-kit/components/BookHead.astro";
 import BookFoot from "@daviddef/archive-kit/components/BookFoot.astro";
 import book from "../data/book.json";
 import ring from "@daviddef/archive-kit/data/archives.json";
-const { title, description = "", dek, eyebrow, bare, noindex = false, noautolink = false } = Astro.props;
+const { title, description = "", dek, eyebrow, bare, noindex = false, noautolink = false, ownHeader = false } = Astro.props;
 const SITE = "The Falco Archive";
 /* Title and description lengths are a template rule, not content (16 Oct 2026
    audit: 30-200 characters). A short page name made a title under 30
@@ -129,7 +129,7 @@ const thisArchive =
     rows already link what they name, and where a link from a name to the page it stands on would be noise. */}
 <main id="main" tabindex="-1" {...(noautolink ? { "data-no-autolink": "" } : {})}>
   <div class="wrap">
-    {!bare && (
+    {!bare && !ownHeader && (
       <div class="pagehead">
         {eyebrow && <div class="lab">{eyebrow}</div>}
         <h1>{title}</h1>
