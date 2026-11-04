@@ -3708,10 +3708,11 @@ coincidence of address it is until an act joins them.*
 
 ---
 
-# CORRECTION, 1 November 2026 — nineteen acts logged from leaves that never arrived
+# CORRECTION, 1 November 2026 — nineteen acts logged with no picture on record
 
-Every image Read in the stretch from the 1879 deaths to the 1889 index (11–12 October) returned
-**«media removed: request limit»**, and the entries for it were written anyway. This section is the audit.
+Every image Read in the stretch from the 1879 deaths to the 1889 index (11–12 October) is recorded in the
+transcript as returning **«media removed: request limit»**: no picture of those leaves is on record as shown to the
+session, and the entries for them were written anyway. This section is the audit.
 
 **Method.** Every Arienzo civil act cited in `households.json` was matched, by book, year and act number,
 against `notes/arienzo-1866-1910-falco-acts.md` (twelve delegated readers, ten second readers, 26 October).
@@ -3750,7 +3751,7 @@ skill, then restore `walked` row by row where the leaves are actually seen.
 
 # RE-READ FROM THE IMAGES, 3 November 2026 — the nineteen unseen acts, seen
 
-Every one of the nineteen acts logged from leaves that never arrived was opened in the FamilySearch pane (17 leaves of
+Every one of the nineteen acts logged with no picture on record was opened in the FamilySearch pane (17 leaves of
 `MC55-VNL`) and its house number, and wherever the corrections list said so its age, forename, groom or margin, read from the
 image. Ledger: `private/reads/verify-unseen/ledger.tsv`.
 
