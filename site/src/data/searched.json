@@ -3947,5 +3947,65 @@
    "Falco",
    "audit"
   ]
+ },
+ {
+  "when": "Arienzo deaths 1879, 1880, 1881 and 1882 (Parte I and Parte II of each), read by the name box",
+  "pages": "MC55-VNL leaves 243–281 (1879), 353–391 (1880), 477–513 (1881; the 1881 registro suppletivo, acts 117–124, is on 478–479, filmed before the main register), 588–621 (1882)",
+  "src": "Every leaf of the four death books opened in the browser pane as a contact sheet of the two outer-margin Numero / name boxes (the `familysearch-volume-sweep` method, in-pane, no cookie handled); act numbers counted without a gap in each book to its closing note (1879: 1–116 main register and 117–133 suppletivo; 1880: 1–116 and 117–120; 1881: 1–116 and 117–124, the suppletivo filmed first; 1882: 1–115), duplicate exposures and the Parte II title leaves noted. Terms typed: Falco, De Falco, Falcone (catalogue `cover` exited 0 on 4 November). Shifted pages (388R, 617R) were settled from the act body.",
+  "what": "**The Falco boxes of the 1879–82 deaths, all found where the second-reading table already has them** — 1879 acts 9, 39, 77, 125; 1880 acts 31, 35, 97, 120; 1881 act 26; 1882 acts 3, 34, 42, 77, 96",
+  "got": "No Falco, De Falco or Falcone box that the table lacks, and no new household. A name box shows only the deceased, so a Falco who is only a declarant or a mother is not visible in this pass: `walked` stays false on all four books, and the table's rows for those acts rest on the act bodies read earlier.",
+  "searchedOn": "2026-11-04",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "walked": false,
+  "outcome": "nil",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Falco",
+   "name-box walk"
+  ]
+ },
+ {
+  "when": "Arienzo births 1879, 1880, 1881, 1882 and 1883 (Parte I and Parte II of each), read by the name box",
+  "pages": "MC55-VNL leaves 179–236 (1879, acts 1–163), 304–348 (1880, acts 1–121), 414–472 (1881, acts 1–161), 533–586 (1882, acts 1–150), 650–697 (1883, acts 1–135)",
+  "src": "Same in-pane contact-sheet method as the deaths: every leaf of each Nascite book, both outer boxes, act numbers counted continuous to the closing visto of each book, the intermediate vistos and the Parte II title leaves noted; the marriage-register tails that precede each births book were recognised from their titles and kept out of the count. Terms typed: Falco, De Falco, Falcone.",
+  "what": "**Falco child boxes of the 1879–83 births, every one already in the table** — 1879 acts 31, 40, 124; 1880 acts 12, 22, 67, 120; 1881 acts 24, 44, 51, 63, 142; 1882 acts 95, 141; 1883 acts 19, 26, 38, 41, 89, 120, 129; mother-only and margin-only Falco acts (1881 nos. 55, 100; 1882 no. 3; 1883 nos. 37, 66) matched to the box beside them",
+  "got": "No Falco birth box that the table lacks; no new household. One query left open: the 1883 act 120 box reads «Falco Giuseppe» where the table has Giuseppa (femmina), from the body; the box was not re-zoomed against the body. A box shows only the child, so Falco mothers and declarants are not covered and `walked` stays false.",
+  "searchedOn": "2026-11-04",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "walked": false,
+  "outcome": "nil",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Falco",
+   "name-box walk"
+  ]
+ },
+ {
+  "when": "Arienzo 1886: births (Parte I and II), deaths (Parte I and II) and the last four marriage acts with their Parte II, read by the name box",
+  "pages": "MC55-VNL leaves 989–995 (marriages 29–32 and Parte II act 1), 998–1059 (births, acts 1–172, Parte II acts 1–2), 1060–1089 (deaths, acts 1–97, Parte II acts 1–5)",
+  "src": "Same in-pane contact-sheet method; a duplicate exposure at 1063/1064 (acts 13–16) noted; act numbers continuous in each book. Closes a gap in the 1884–86 marriage pass (row for images 751–990), which stopped five leaves short of the 1886 marriages' last acts.",
+  "what": "**Falco boxes of 1886 — births 6, 43, 44, 94; deaths 51, 73 — and the five unread leaves of the 1886 marriages (acts 29–32 and Parte II act 1): no Falco**",
+  "got": "Every box matches the table (V304–V308, V316, V318); Parte II death act 1 is the table's V319 (mother Falco Andreana). No Falco, De Falco or Falcone in the 1886 marriage tail. A box shows only the principal, so `walked` stays false.",
+  "searchedOn": "2026-11-04",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "walked": false,
+  "outcome": "nil",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Falco",
+   "name-box walk"
+  ]
  }
 ]

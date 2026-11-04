@@ -3782,3 +3782,33 @@ not walking the book. Number 10 of via Orticelli (Vincenzo Falco, Morti 1875 act
 *Method notes.* A level-12 crop of a one-word forename gave «Asperta»; level 13 gave «Asunta». Two zoom windows landed a row off
 (act 120 house line; act 6 forename) and were re-aimed after the result was read. The ending of «-sette» in this clerk's hand has a crossed
 final t that «-sei» lacks (acts 31 and 120).
+
+## The 1879–1886 books, walked by the name box (4 November 2026)
+
+A box pass, not a reading: every leaf of the Arienzo death books 1879–82 (Parte I and II, with the 1879–81 *registri suppletivi*),
+the birth books 1879–83 (Parte I and II), and the 1886 births, deaths and last marriage acts was opened in the FamilySearch pane
+(`MC55-VNL`) as a contact sheet of the two outer-margin Numero / name boxes. Act numbers run without a gap to each book's closing
+note. Ledger: `private/reads/walk-1879-86/ledger.tsv` (local, gitignored).
+
+**Verdict: nothing new.** Every Falco box is an act the second-reading table already has: deaths 1879 (9, 39, 77, 125), 1880 (31, 35, 97,
+120), 1881 (26), 1882 (3, 34, 42, 77, 96), 1886 (51, 73); births 1879 (31, 40, 124), 1880 (12, 22, 67, 120), 1881 (24, 44, 51, 63, 142),
+1882 (95, 141), 1883 (19, 26, 38, 41, 89, 120, 129), 1886 (6, 43, 44, 94). The mother-only and margin-only acts (1881 births 55 and
+100, 1882 birth 3, 1883 births 37 and 66, 1886 Parte II death 1) sit beside the box of the child and match the table's rows. No
+De Falco, no Falcone, no new household.
+
+**What the pass cannot say.** A name box shows the deceased or the child only. A Falco who is the mother, the father, a declarant or
+a witness is invisible in it, so `walked` stays false on every row and the table's rows for those acts rest on the act bodies read
+earlier. Number continuity is the control against a dropped box; two shifted pages (388R, 617R) were settled from the act body.
+
+**Gap closed.** The 1884–86 marriage pass (images 751–990) stopped before the last four 1886 marriage acts and their Parte II
+(leaves 991–995). Read now: no Falco.
+
+**One query, settled.** 1883 birth act 120: the box (690R) reads «Falco Giuseppe»; the body (zoomed from the leaf, 4 November) says «un
+bambino di sesso femminino … il nome di Giuseppa», widow of a Falco who was a farmer, born in via Camellara. The table's Giuseppa stands; the box is the clerk's
+shorthand.
+
+**Layout facts for the next walker.** Within a year the marriage book precedes the birth book on the film (the tail of the marriages
+sits just before each *Nascita* title leaf); the 1879–81 death books each carry a *registro suppletivo* (the 1881 one is filmed
+*before* its main register); every Parte II is a title leaf with 0–5 acts; 1063/1064 and 308/309 and 427/428 are duplicate exposures.
+
+**Re-read, 4 November 2026 (same day).** Several contact sheets of this walk first came back from the reader as «media removed: request limit» and were not on record as seen when their rows were written (1886 births 1037–1055 and deaths 1061–1091; 1879 births 170–236; 1880 births 296–302). They were opened and read from the pictures afterwards: every box and act number is as logged, no Falco appears that is not already in the table (1879 acts 31 and 124 and 40; 1886 deaths 51 and 73), and the 1886 duplicate exposure at 1063/1064 is confirmed. One extra sighting from the 1880 marriage tail on sheet 296: leaf 298L box «Numero trentuno: Carfora Pasquale / Falco Pasqua» is the table's V229 (marriage no. 31, 30 Dec 1880), nothing new. `walked` stays false for the reasons above.
