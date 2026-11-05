@@ -1,0 +1,32 @@
+{
+ "note": "Place strings decided by hand, each with its reason. Read by tools/build-tree-page.py; a string already placed through data/era-ground.tsv is not overridden. Nothing is accepted from the Atlas by name alone: a string that era-ground.tsv refuses (a country only, a ship, a journey) stays unresolved.",
+ "places": {
+  "Benevento": {
+   "name": "Benevento",
+   "lat": 41.13,
+   "lon": 14.7786,
+   "country": "Italy",
+   "iso": "IT",
+   "atlas_id": "benevento",
+   "how": "data/era-ground.tsv reads this string as Benevento city (its row says «Benevento city and its enclave were papal until 1860»); it has no town there only because the region (Campania, Two Sicilies) would be the wrong era. The point and id are the Record Atlas's own place 'benevento' (41.13, 14.7786, IT); its country is the Atlas's geo.country_of on that point."
+  },
+  "Benevento, Campania, Italy": {
+   "name": "Benevento",
+   "lat": 41.13,
+   "lon": 14.7786,
+   "country": "Italy",
+   "iso": "IT",
+   "atlas_id": "benevento",
+   "how": "data/era-ground.tsv reads this string as Benevento city (its row says «Benevento city and its enclave were papal until 1860»); it has no town there only because the region (Campania, Two Sicilies) would be the wrong era. The point and id are the Record Atlas's own place 'benevento' (41.13, 14.7786, IT); its country is the Atlas's geo.country_of on that point."
+  },
+  "Benevento, Province of Benevento, Campania, Italy": {
+   "name": "Benevento",
+   "lat": 41.13,
+   "lon": 14.7786,
+   "country": "Italy",
+   "iso": "IT",
+   "atlas_id": "benevento",
+   "how": "data/era-ground.tsv reads this string as Benevento city (its row says «Benevento city and its enclave were papal until 1860»); it has no town there only because the region (Campania, Two Sicilies) would be the wrong era. The point and id are the Record Atlas's own place 'benevento' (41.13, 14.7786, IT); its country is the Atlas's geo.country_of on that point."
+  }
+ }
+}
