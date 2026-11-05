@@ -28,3 +28,9 @@ site/dist-*/
 
 # The prose gate's feed of living names (tools/build_checkprose_feed.py). Names inside: never commit.
 private/
+
+# Roots & Routes: the intermediate GEDCOM written from people.json (tools/build-tree-page.py), rebuilt every time. It is the archive's own non-living people, but a
+# .ged is never published or committed.
+data/tree-page/people.ged
+data/tree-page/slugs.json
+*.ged

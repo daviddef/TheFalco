@@ -1,0 +1,179 @@
+{
+ "individuals": 1037,
+ "kept": 729,
+ "living": 201,
+ "living_policy": "omit",
+ "undated_dropped": 293,
+ "birth_year_estimated": 261,
+ "death_year_estimated": 490,
+ "placed_from_relative": 284,
+ "dropped_unplaced": 8,
+ "unresolved_places": {
+  "—": 4,
+  "Italy": 3,
+  "New York, New York, USA": 1,
+  "Italia": 1,
+  "Westbury, Nassau, New York, United States": 1
+ },
+ "focus": "matteo-falco-of-matteo-falco-alessandra-crisci",
+ "conflicts": [
+  {
+   "id": "domenico-carfora",
+   "born": 1817,
+   "died": 1813,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "clemente-crisci-2",
+   "born": 1887,
+   "died": 1873,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "domenico-crisci-of-pasquale-crisci-francesca-falco-2",
+   "born": 1887,
+   "died": 1873,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "agostino-di-guida-of-marcello-di-guida-anna-crisci",
+   "born": 1839,
+   "died": 1814,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "domenico-di-guida-of-angelandrea-di-guida-teresa-viglio",
+   "born": 1817,
+   "died": 1814,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "angela-falco-of-crescenzo-rivetti-angela-falco",
+   "born": 1841,
+   "died": 1822,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "angela-rosa-falco-of-carmine-antonio-falco-giovanna-arr",
+   "born": 1880,
+   "died": 1879,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "angelantonio-falco",
+   "born": 1860,
+   "died": 1850,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "carmina-falco",
+   "born": 1834,
+   "died": 1832,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "carolina-falco-of-carmino-falco-giovanna-pellone",
+   "born": 1882,
+   "died": 1877,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "fabrizio-falco",
+   "born": 1873,
+   "died": 1871,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "luigi-falco-of-carmino-falco-giovanna-pellone",
+   "born": 1882,
+   "died": 1879,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "maria-falco-of-giovanbattista-falco-costanza-zimb",
+   "born": 1882,
+   "died": 1880,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "maria-rosa-falco-of-michele-falco-antonia-vigliotta",
+   "born": 1842,
+   "died": 1834,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "nicola-falco",
+   "born": 1812,
+   "died": 1809,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "raffaela-falco-of-pasquale-falco-elisabetta-sadutto",
+   "born": 1870,
+   "died": 1868,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "salvatore-falco",
+   "born": 1842,
+   "died": 1836,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "angelandrea-rivetti",
+   "born": 1869,
+   "died": 1819,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "crescenzo-rivetti",
+   "born": 1841,
+   "died": 1816,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "maria-rivetti",
+   "born": 1871,
+   "died": 1867,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "paolo-rivetti",
+   "born": 1843,
+   "died": 1823,
+   "birth_is_an_estimate": true
+  }
+ ],
+ "adapter": {
+  "people_in_people_json": 1097,
+  "living_flag_in_people_json": 47,
+  "living_by_inference_extra": 0,
+  "undated_beside_a_living_person_omitted": 12,
+  "no_name_not_drawn": 1,
+  "offered_to_the_converter": 1037,
+  "sex_from": {
+   "none": 712,
+   "role": 315,
+   "event": 10
+  },
+  "sex_counts_offered": {
+   "u": 712,
+   "m": 166,
+   "f": 159
+  },
+  "child_links_with_one_parent_only_because_the_pair_came_out_one_sex": 0,
+  "place_strings_from_era_ground": 0,
+  "place_strings_from_additions": 0,
+  "people_drawn_at_a_relatives_birth_place": 284,
+  "colour_families": [
+   "Falco",
+   "Crisci",
+   "Morgillo",
+   "Annecchino",
+   "Zampiello",
+   "di Guida",
+   "Cioffi"
+  ]
+ },
+ "people_drawn": 708
+}

@@ -103,7 +103,9 @@ GENERATED = {
 # script or by hand. A living namesake of a man in a register shows up there, and is allowed once, with a reason.
 # data/antenati-ids/ holds one JSON file of image ids per Antenati volume (no names) and is not read.
 GENERATED_TABLES = {"people-register.tsv", "slug-ledger.txt", "citation-check.json", "living-feed.json", "living-by-inference.json"}  # living-feed.json: written by tools/living_feed.py, keyed hashes only; living-by-inference.json: written by tools/living_by_inference.py, tree ids and the rule text only (David edits only its "overridden" list)
-TABLE_DIRS_NOT_READ = {"data/antenati-ids"}
+# data/tree-page/ holds the Roots & Routes page and its data, written by tools/build-tree-page.py from site/src/data/people.json (which carries no living person's
+# dates) and refused by tools/tree-page/check_tree_page.py if a living person's name is in them; the built /roots/ page is in dist, which check:living reads.
+TABLE_DIRS_NOT_READ = {"data/antenati-ids", "data/tree-page"}
 
 # The JSON fields a living person's line.json entry may carry besides the kit's default (name, relationships,
 # place): the generator keeps exactly these (tools/build_people.py _LINE_KEEP; check_living_v2.py LINE_KEYS).
