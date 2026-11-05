@@ -14,7 +14,11 @@ import PersonSection from "@daviddef/archive-kit/components/PersonSection.astro"
 import "@daviddef/archive-kit/styles/persontree.css";
 import "@daviddef/archive-kit/styles/personpage.css";
 import PS from "@daviddef/archive-kit/data/public-sources.json";
-import { isLiving as isLivingKit } from "@daviddef/archive-kit/lib/person.js";
+import { isLiving as isLivingKit, isHeldOut as isHeldOutKit } from "@daviddef/archive-kit/lib/person.js";
+import PersonStory from "@daviddef/archive-kit/components/PersonStory.astro";
+import PersonRootsViews from "@daviddef/archive-kit/components/PersonRootsViews.astro";
+import { storyOf, hasStory, GRADE_SAY } from "@daviddef/archive-kit/lib/personstory.js";
+import rootsLinks from "../../../public/roots-links.json";
 import directLine from "../../data/direct-line.json";
 
 export function getStaticPaths() {
@@ -117,6 +121,64 @@ const KPERSON = p.living
   ? { id: p.slug, slug: p.slug, name: p.name, saidLiving: true, town: "", country: "", place: p.place || "", relations: RELATIONS }
   : { id: p.slug, slug: p.slug, name: p.name, ...kitDates, birthYear: gedYear(rawB) ?? undefined, deathRecorded: !!rawD || undefined, relations: RELATIONS, citations: [] };
 
+
+/* STORY MODE (people pages v2, 5 November 2026; PERSON-PAGE-SPEC.md section 2a). A person whose story has anything to tell (the kit's hasStory: a parent,
+   a grandparent, a brother or sister, a child, or a note the archive wrote about them) is drawn as the kit's timeline, whose first stop, «Where they came from»,
+   is the family, and not as a chart; so is every person Roots & Routes draws, because «Where they lived» is a story-mode section. A person with nothing to tell
+   (no relative, no note, not on Roots & Routes) stays a chart page, which says so. The family is the same relatives the chart would draw, under the kit's one
+   living rule: a living relative is a name and a relationship and nothing else, and a relative the rule holds out is not drawn at all. The archive has no sex
+   for anybody, so a parent is «Parent», not «Father» or «Mother». The words of a chapter are the archive's own (line.json's note, cut at its bold leads by the
+   kit's chaptersOf); nothing is rewritten. */
+const RULE = { now: new Date().getFullYear(), sources: PS };
+const relCanon = (q, extra = {}) => ({ id: q.slug, born: canonDate(q.b), died: canonDate(q.d), birthYear: gedYear(q.b) ?? undefined, deathRecorded: !!q.d || undefined,
+  saidLiving: q.living ? true : undefined, citations: [], ...extra });
+const relLiving = (q) => !!q.living || isLivingKit(relCanon(q), RULE);
+const relHeld = (q) => !q.living && isHeldOutKit(relCanon(q), { ...RULE, parentLiving: (q.parents || []).some((x) => { const pq = bySlug.get(x.slug); return pq && relLiving(pq); }) });
+const yearIf = (v) => (canonDate(v) ? gedYear(v) : null);
+const cardOf = (e, rel) => {
+  const q = bySlug.get(e.slug);
+  if (!q || e.superseded || relHeld(q)) return null;
+  const live = relLiving(q);
+  const b = yearIf(q.b), d = yearIf(q.d);
+  const read = (e.vias || [e.via]).some((v) => v === "register");
+  return { id: q.slug, rel, living: live, name: q.name, place: "", sex: undefined,
+    dates: live ? "" : d ? `${b || "?"} – ${d}` : b ? `${b} –` : "", href: u("/people/" + q.slug + "/"),
+    link: live ? undefined : { grade: read ? "doc" : "tree" }, _by: b || 9999 };
+};
+const byBirth = (a, b) => a._by - b._by;
+const cards = (list, rel) => (list || []).map((e) => cardOf(e, rel)).filter(Boolean);
+const FAM = (() => {
+  if (p.living) return null;
+  const parents = cards(p.parents, "Parent");
+  const grand = [];
+  for (const e of p.parents || []) { const q = bySlug.get(e.slug); if (q && !e.superseded && !relHeld(q) && !relLiving(q)) grand.push(...cards(q.parents, "Grandparent")); }
+  return { parents, grand, hasGrand: grand.length > 0, siblings: cards(p.siblings, "Brother or sister").sort(byBirth), children: cards(p.children, "Child").sort(byBirth),
+           spouses: cards(p.spouses, "Married to") };
+})();
+/* line.json writes some paragraph breaks as the two characters backslash and n (62 of them in the first generation's note alone, and the same text prints them on
+   /direct-line/); they are turned into the line breaks they stand for so the kit can cut the note at its bold leads. No word is touched. */
+const NOTE = !p.living && p.line && p.line.note ? String(p.line.note).replace(/\\n/g, "\n") : "";
+/* The kit's chaptersOf cuts at every bold lead that opens a SENTENCE, which is right for notes whose bold phrases are headings; here the bold phrases are
+   emphasis inside a sentence (**ANGELA FALCO**, **8 September 1814**), and it cut notes mid-sentence into fragments that begin with a comma. So the chapters are the
+   note's own paragraphs, each under the bold lead that opens it where that lead is a short heading; the kit's storyOf still places them on the timeline. */
+/* A note written as a research document (a markdown heading, a quotation block or a rule: the first generation's) is not cut: this archive's md() draws those
+   characters as they are, which /direct-line/ already shows for it, and cutting would put them on every card. It stays on /direct-line/, linked from the page. */
+const RAW_MD = /(^|\n)(#{1,4} |> |---)/.test(NOTE);
+const CHAPTERS = RAW_MD ? [] : NOTE.split(/\n{2,}/).map((x) => x.trim()).filter(Boolean).map((para) => {
+  const m = para.match(/^\*\*([^*]+?)\*\*\s*/);
+  const lead = m ? m[1].trim() : "";
+  return lead && lead.split(/\s+/).length <= 14 && para.length > m[0].length ? { title: lead.replace(/[.\s]+$/, ""), body: para.slice(m[0].length).trim(), grade: null } : { title: "", body: para, grade: null };
+});
+const STORY = p.living ? [] : storyOf(CHAPTERS, FAM, [], { b: yearIf(p.b), d: yearIf(p.d) }, []);
+const inRoots = !p.living && (rootsLinks.people || []).includes(p.slug);
+const hasSpouse = !!(FAM && FAM.spouses.length);
+const STORYMODE = !p.living && (hasStory(STORY) || hasSpouse || inRoots);
+if (STORYMODE && hasSpouse) {
+  // the kit's stops have no place for a marriage: it is its own stop, before the death and what they left behind
+  const at = STORY.findIndex((x) => ["death", "legacy", "about"].includes(x.key));
+  STORY.splice(at < 0 ? STORY.length : at, 0, { key: "life", label: "Marriage", when: "", people: FAM.spouses, plabel: "Married to", cards: [] });
+}
+
 /* The tree carries three separate people called Simone Zampiello, all entered
    as brothers of one man. Almost certainly one person duplicated — but this
    archive does not merge records on a name, so they are shown as they are and
@@ -171,12 +233,15 @@ const dek = p.living
   <PersonPage person={KPERSON} lede={dek} peopleHref={u("/people/")} registerHref={u("/register/") + "?q=" + encodeURIComponent(clean(p.name))}
               directLine={directLine} storyHref={u("/story/")} emptyText={emptyText}>
 
+    {STORYMODE && <Fragment slot="story"><PersonStory stages={STORY} md={(x) => `<p>${md(x, u)}</p>`} gradeSay={GRADE_SAY} u={u} /></Fragment>}
+    {STORYMODE && inRoots && <Fragment slot="where"><PersonRootsViews pid={p.slug} u={u} /></Fragment>}
+
     {/* THE CHART'S OWN NOTES: a retracted claim kept in the open, a date retired from the chart, and the same name twice in one row */}
-    <Fragment slot="chart-notes">
+    {/* In story mode there is no chart, so the same notes stand in «Notes and corrections», where the kit puts them. */}
+    <Fragment slot={STORYMODE ? "notes" : "chart-notes"}>
       {superseded.length ? (
-        <p class="warn"><strong>One claim here is drawn struck through, and left in place on purpose.</strong>
-        {" " + superseded[0].superseded} <strong>The archive corrects in the open rather than deleting</strong>,
-        so the discarded parentage stays visible beside the one that replaced it.</p>
+        <p class="warn"><strong>{STORYMODE ? "One claim about this person was retracted, and is kept here in the open, not drawn in the family above." : "One claim here is drawn struck through, and left in place on purpose."}</strong>
+        {" " + superseded[0].superseded} <strong>The archive corrects in the open rather than deleting</strong>{STORYMODE ? "." : ",\n        so the discarded parentage stays visible beside the one that replaced it."}</p>
       ) : null}
       {p.retiredDates ? Object.values(p.retiredDates).map((r) => (
         <p class="warn"><Fragment set:html={md(r.reason, u)} /> <strong>The archive corrects in the open rather than deleting</strong>,

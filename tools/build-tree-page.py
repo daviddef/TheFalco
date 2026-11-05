@@ -328,6 +328,13 @@ def drop_conflicts(t, tree):
         print("conflicts: %d people whose death is before their birth (or over 110 years) are not drawn" % len(bad))
     io.open(rep_path, "w", encoding="utf-8").write(json.dumps(rep, indent=1, ensure_ascii=False))
 
+def write_roots_links(tree):
+    """site/public/roots-links.json: the people Roots & Routes DRAWS (one id each). A person's page offers «Where they lived» only for those."""
+    ids = sorted(p["id"] for p in jl(tree)["people"])
+    out = {"note": "The people Roots & Routes draws, by person id (slug). Made by tools/build-tree-page.py; do not edit by hand.", "people": ids}
+    io.open(os.path.join(ROOT, "site", "public", "roots-links.json"), "w", encoding="utf-8").write(json.dumps(out, ensure_ascii=False, separators=(",", ":")))
+    print("roots-links: %d people" % len(ids))
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true")
@@ -348,6 +355,7 @@ def main():
     r["adapter"] = rep
     r["people_drawn"] = len(t["people"])
     io.open(rp, "w", encoding="utf-8").write(json.dumps(r, indent=1, ensure_ascii=False))
+    write_roots_links(tree)
     tpl = os.path.join(TP, "tree-views.template.html")
     run([sys.executable, os.path.join(TP, "build_page.py"), "--template", tpl, "--tree", tree, "--atlas-data", ad, "--out", page, "--ext", EXT])
     embed = os.path.join(OUT, "roots.embed.html")
