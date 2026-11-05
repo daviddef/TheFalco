@@ -1,12 +1,12 @@
 {
  "individuals": 1037,
- "kept": 728,
- "living": 202,
+ "kept": 729,
+ "living": 201,
  "living_policy": "omit",
- "undated_dropped": 294,
- "birth_year_estimated": 260,
- "death_year_estimated": 489,
- "placed_from_relative": 283,
+ "undated_dropped": 293,
+ "birth_year_estimated": 261,
+ "death_year_estimated": 490,
+ "placed_from_relative": 284,
  "dropped_unplaced": 8,
  "unresolved_places": {
   "—": 4,
@@ -152,26 +152,28 @@
   "no_name_not_drawn": 1,
   "offered_to_the_converter": 1037,
   "sex_from": {
+   "none": 712,
    "role": 315,
-   "household": 4,
-   "event": 10,
-   "name": 708
+   "event": 10
   },
-  "name_ending_disagrees_with_record_for": "3 of 329",
-  "spouse_pairs_same_sex_as_inferred": 4,
+  "sex_counts_offered": {
+   "u": 712,
+   "m": 166,
+   "f": 159
+  },
   "child_links_with_one_parent_only_because_the_pair_came_out_one_sex": 0,
-  "place_strings_from_era_ground": 181,
-  "place_strings_from_additions": 3,
-  "people_drawn_at_a_relatives_birth_place": 283,
+  "place_strings_from_era_ground": 0,
+  "place_strings_from_additions": 0,
+  "people_drawn_at_a_relatives_birth_place": 284,
   "colour_families": [
    "Falco",
    "Crisci",
-   "Annecchino",
    "Morgillo",
+   "Annecchino",
    "Zampiello",
    "di Guida",
    "Cioffi"
   ]
  },
- "people_drawn": 707
+ "people_drawn": 708
 }

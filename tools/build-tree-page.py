@@ -13,11 +13,10 @@ archive's own flag this adapter omits (a) anyone data/living-by-inference.json l
 (c) anyone with no name. The converter then adds its floor: nobody with no death recorded and a birth year (estimated ones included) in the last 110
 years is drawn.
 
-WHAT THE ARCHIVE DOES NOT HOLD, AND THIS FILE DOES NOT PRETEND IT DOES. people.json has no sex. The page needs one (the father is the left of the fan,
-"uncle" or "aunt" in Kinship). It is taken, in this order, from (1) the person's role in a register household (father, mother, bride...), (2) the order
-of the household's name («Husband & Wife»), (3) what the register events say of them (named as mother, her own age), (4) the ending of the first given
-name (Italian and Latin forms: -a is feminine, bar a short list of masculine ones), and tools/build-tree-page.py counts how many came from each and how
-often (4) disagrees with (1)-(3). A parent pair that comes out the same sex is reported, not hidden. It is a drawing aid, not a finding about anybody.
+WHAT THE ARCHIVE DOES NOT HOLD, AND THIS FILE DOES NOT PRETEND IT DOES. people.json has no sex field. A sex goes to the page only where the archive's own data
+states or entails it: the person's role in a register household (father, mother, husband, wife, son, daughter, bride, groom...) or the register's own words
+about them (named as mother, "her own stated age", "his daughter's death act"). Everyone else is `u` (unknown), and the viewer then says parent, child, spouse,
+sibling, "uncle or aunt" (family-tree-page 1.7.0). A sex is never inferred from a given name. tools/build-tree-page.py counts both.
 
 COLOUR is the surname family from the Record Atlas catalogue (data/surname-families.json, read only, through its own lookup) where the catalogue has the
 name, and the surname otherwise: which spellings are one name is the catalogue's to say (surname-variants skill), and this archive keeps no list of them.
@@ -87,11 +86,8 @@ def own_event(p, rx):
 ROLE_SEX = {"father": "m", "grandfather": "m", "great-grandfather": "m", "great-grandfather of the children": "m", "son": "m", "husband": "m", "groom": "m",
             "father of the bride": "m", "father of the groom": "m", "mother": "f", "grandmother": "f", "great-grandmother": "f", "daughter": "f", "wife": "f",
             "bride": "f", "mother of the bride": "f", "mother of the groom": "f", "sister of the bride": "f", "wife of the son": "f", "midwife": "f"}
-F_TOK = re.compile(r"\b(mother|her|wife|widow|bride|midwife|levatrice|matrina|sister)\b", re.I)
-M_TOK = re.compile(r"\b(father|his|husband|groom|brother)\b", re.I)
-MALE_A = {"andrea", "nicola", "luca", "elia", "mattia", "tobia", "zaccaria", "geremia", "isaia", "sila", "enea", "gaspare"}
-FEM_NOT_A = {"beatrice", "agnese", "ester", "esther", "ines", "carmen", "elisabeth", "elizabeth", "rachel", "ruth", "dolores", "mercede", "mercedes", "agnes",
-             "judith", "margaret", "ann", "susan", "jean", "joan", "edith", "alice", "grace", "rose", "mary", "helen"}
+F_TOK = re.compile(r"\bher\b|\bnamed as (?:the |a )?(?:mother|wife|widow|bride|consenting mother|matrina|levatrice)\b|\bmother and declarant\b", re.I)
+M_TOK = re.compile(r"\bhis\b|\bnamed as (?:the |a )?(?:father|husband|groom|consenting father)\b", re.I)
 def clean_base(name): return re.sub(r"\s*\([^()]*\)\s*$", "", str(name or "")).strip()
 def split_name(p):
     base = clean_base(p["name"]); sur = str(p.get("surname") or "")
@@ -101,36 +97,17 @@ def split_name(p):
     f = fold(sur).split()
     if f and len(toks) > len(f) and fold(" ".join(toks[-len(f):])) == " ".join(f): return " ".join(toks[:-len(f)]), " ".join(toks[-len(f):])
     return base, sur.title()
-def name_sex(given):
-    first = re.sub(r"[()\[\]]", " ", given).split()
-    if not first: return None
-    f = fold(first[0])
-    if f in FEM_NOT_A: return "f"
-    if f in MALE_A: return "m"
-    return "f" if f.endswith("a") else "m"
-
 def sex_table(people):
-    """-> {slug: (sex, how)}. how in role, household, event, name."""
-    out, hh = {}, {}
+    """-> {slug: (sex, how)} with sex m, f or u. how: role (a household role), event (the register's own words), none (u). Nothing is taken from a given name."""
+    out = {}
     for p in people:
         s = ROLE_SEX.get(p.get("role") or "")
-        if s: out[p["slug"]] = (s, "role")
-    for p in people:
-        if p["slug"] in out or not p.get("household") or "&" not in p["household"]: continue
-        a, b = [x.strip() for x in p["household"].split("&", 1)]
-        me = fold(clean_base(p["name"]))
-        if me == fold(clean_base(a)): out[p["slug"]] = ("m", "household")
-        elif me == fold(clean_base(b)): out[p["slug"]] = ("f", "household")
-    for p in people:
-        if p["slug"] in out: continue
+        if s: out[p["slug"]] = (s, "role"); continue
         txt = " ".join(e.get("event") or "" for e in p.get("events") or [])
-        f, m = len(F_TOK.findall(txt)), len(M_TOK.findall(txt))
+        f, m = bool(F_TOK.search(txt)), bool(M_TOK.search(txt))
         if f and not m: out[p["slug"]] = ("f", "event")
         elif m and not f: out[p["slug"]] = ("m", "event")
-    for p in people:
-        if p["slug"] not in out:
-            s = name_sex(split_name(p)[0])
-            if s: out[p["slug"]] = (s, "name")
+        else: out[p["slug"]] = ("u", "none")
     return out
 
 def who_is_drawable(all_people, rep):
@@ -174,10 +151,14 @@ def gedcom(people, path, sexes, rep):
         par = usable_parents(p)
         if not par: continue
         men = [r for r in par if sexes[r["slug"]][0] == "m"]; wom = [r for r in par if sexes[r["slug"]][0] == "f"]
+        unk = [r for r in par if sexes[r["slug"]][0] == "u"]
         # prefer a parent read in a register to one only the family tree gives
         rank = lambda r: 0 if set(r.get("vias") or [r.get("via")]) & {"register", "line"} else 1
-        men.sort(key=rank); wom.sort(key=rank)
+        men.sort(key=rank); wom.sort(key=rank); unk.sort(key=rank)
         f = men[0] if men else None; m = wom[0] if wom else None
+        # a parent of unknown sex fills the free place; the place is only where the page draws them, their sex stays `u`
+        if not f and unk: f = unk.pop(0)
+        if not m and unk: m = unk.pop(0)
         if not f and not m: continue
         if len(par) >= 2 and (not f or not m): same_sex_pairs += 1
         fam_of_child[p["slug"]] = fam(f and f["slug"], m and m["slug"])
@@ -185,8 +166,10 @@ def gedcom(people, path, sexes, rep):
     for p in people:
         for s in p.get("spouses") or []:
             if s["slug"] in ids:
-                a, b = (p["slug"], s["slug"]) if sexes[p["slug"]][0] == "m" else (s["slug"], p["slug"])
-                if sexes[a][0] == sexes[b][0]: rep["spouse_pairs_same_sex_as_inferred"] = rep.get("spouse_pairs_same_sex_as_inferred", 0) + 1; continue
+                x, y = sexes[p["slug"]][0], sexes[s["slug"]][0]
+                if x == y and x != "u": rep["spouse_pairs_same_sex_as_recorded"] = rep.get("spouse_pairs_same_sex_as_recorded", 0) + 1; continue
+                # husband slot: the man if one is known, else the woman's partner, else the earlier slug; the slot is where the page draws them, not a claim
+                a, b = (p["slug"], s["slug"]) if (x == "m" or y == "f" or (x == "u" and y == "u" and p["slug"] < s["slug"])) else (s["slug"], p["slug"])
                 k = fam(a, b)
                 if k not in fam_of_spouse[p["slug"]]: fam_of_spouse[p["slug"]].append(k)
     rep["child_links_with_one_parent_only_because_the_pair_came_out_one_sex"] = same_sex_pairs
@@ -286,11 +269,7 @@ def build(a, rep):
     rep["offered_to_the_converter"] = len(people)
     sexes = sex_table(people)
     rep["sex_from"] = dict(collections.Counter(v[1] for v in sexes.values()))
-    # how often the name ending disagrees with the register's own words (a measure of the fallback, over the people who have both)
-    ev = [(p["slug"], sexes[p["slug"]][0]) for p in people if sexes[p["slug"]][1] != "name"]
-    pby = {p["slug"]: p for p in people}
-    dis = sum(1 for s, x in ev if name_sex(split_name(pby[s])[0]) not in (None, x))
-    rep["name_ending_disagrees_with_record_for"] = "%d of %d" % (dis, len(ev))
+    rep["sex_counts_offered"] = dict(collections.Counter(v[0] for v in sexes.values()))
     ged = os.path.join(OUT, "people.ged")
     link_via, bounds = gedcom(people, ged, sexes, rep)
     slugs = {p["slug"]: p["slug"] for p in people}
