@@ -3832,3 +3832,28 @@ Same method as 1879–86: whole-leaf contact sheets of both outer-margin strips 
 **What a box cannot show.** A box names the child or the deceased only, so the births in which a Falco is mother or declarant (acts 8, 14, 20, 26, 99, 126: V321, V322, V324, V325, V326, V328) and the deaths of the same kind (32, 35, 61, 74, 85: V331, V332, V334, V335, V336) do not appear in a box walk and rest on the second reading alone. `walked` stays false.
 
 **Layout facts for 1887.** One marriage act to a page, two to a leaf; births and deaths two boxes to a strip. The Cittadinanza register is filmed between the births and the deaths. The 1887 marriage Parte II and births Parte II hold no acts (a title leaf and a closing note). The 1888 marriage book opens at 1218R (title leaf) with act 1 on 1219L; acts 1–22 are read (leaves 1219–1230, continuous) and match V338/V339 (act 21 box «Porrino Clemente / Falco Lucia»); the 1888 walk resumes at 1231.
+
+## The 1888 and 1889 books, walked by the name box (9 November 2026)
+
+Same method and same instruments as 1887 (whole-leaf contact sheets of both outer-margin strips, MC55-VNL leaves 1218–1470, each box compared with the second-reading table). `terms Falco` gives Falco, De Falco, Falcone; `cover` exits 0 with «Falco, De Falco, Falcone» typed. **Verdict: nothing new in either year. Every Falco box is a row the table already has.**
+
+| book | leaves | acts in boxes | Falco boxes (table row) |
+|---|---|---|---|
+| 1888 Matrimoni, Parte I | 1218R–1234L | 1–29, continuous | act 21 Porrino / Falco Lucia (V339) |
+| 1888 Matrimoni, Parte II | 1235R–1238R | 3+ (1238R is the printed tavola) | Falco Lucia 21, the only Falco in the tavola |
+| 1888 Nascite, Parte I | 1240R–1298R | 1–162, continuous | 23 Falco Costanza (V341); 91 Falco Carmela (V346) |
+| 1888 Nascite, Parte II | 1299R–1300R | 1 | none |
+| 1888 Cittadinanza | 1304R–1305L | 1 | none |
+| 1888 Morti, Parte I | 1307R–1340L | 1–130, continuous | 46 Falco Giuseppe (V350); 105 Falco Costanza (V355) |
+| 1888 Morti, Parte II | 1341R–1344R | 2; the printed tavola begins at 1344R | tavola lists Falco Giuseppe 46 and Falco Costanza 105 only |
+| 1889 Matrimoni, Parte I | 1347R–1364L | 1–31, continuous | none in a box (V356 act 7 and V357 act 26 carry the Falco in a parent) |
+| 1889 Matrimoni, Parte II | 1365R–1368 | 1; printed tavola at 1367R–1368 | none |
+| 1889 Nascite, Parte I | 1370R–1429R | 1–170, continuous | 1 Falco Pasquale (V358); 20 Falco Carmela (V360); 103 Falco Maria (V366) |
+| 1889 Nascite, Parte II | 1430R–1431L | 0 | none; the printed tavola (1431R–1432L) lists exactly those three Falco |
+| 1889 Cittadinanza | 1434R–1435L | 1 | none |
+| 1889 Morti, Parte I | 1437R–1460R | about 80, continuous at sheet level | 57 Falco Vincenzo (V370) |
+| 1889 Morti, Parte II | 1461R–1463L | 2–3; printed tavola 1463R–1464L | the tavola's only Falco is Vincenzo 57 |
+
+**What the printed tavolae add.** The 1889 births tavola and the 1889 deaths tavola each list every Falco *child or deceased* of the year and no other, which independently confirms the box reading: three Falco births (1, 20, 103) and one Falco death (57). The 1889 births V361–V365 (boxes of other surnames) and V367–V368, and the deaths V369 and V371, are mother-/declarant-only or parent-only acts and rest on the second reading alone; a box walk and a tavola both name only the child or the deceased. `walked` stays false.
+
+**Layout facts.** Duplicate exposures of one opening: 1888 births 1243/1244 and 1247/1248; 1889 marriages 1353/1354; 1889 births 1377/1378; 1889 deaths 1438/1439 and 1459/1460. Intermediate visto after birth act 77 of 1888 (1267L). The 1890 marriage book opens at 1466R (title leaf) with act 1 on 1467L; acts 1–5 are seen (1467–1470), no Falco box yet, and the walk resumes at 1471.
