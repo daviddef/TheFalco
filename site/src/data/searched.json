@@ -832,7 +832,8 @@
    "Antenati",
    "Index",
    "Marriages"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14258"
  },
  {
   "when": "1855",
@@ -843,7 +844,8 @@
   "tags": [
    "Antenati",
    "Marriages"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14259"
  },
  {
   "when": "1831–1843",
@@ -855,7 +857,8 @@
    "Antenati",
    "Index",
    "Deaths"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/"
  },
  {
   "when": "1824–1830",
@@ -867,7 +870,8 @@
    "Antenati",
    "Index",
    "Deaths"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14271"
  },
  {
   "when": "1816–1817",
@@ -878,7 +882,8 @@
   "tags": [
    "Antenati",
    "Births"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14413"
  },
  {
   "when": "1819",
@@ -889,7 +894,8 @@
   "tags": [
    "Antenati",
    "Births"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14416"
  },
  {
   "when": "1865",
@@ -900,7 +906,8 @@
   "tags": [
    "Antenati",
    "Deaths"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14367"
  },
  {
   "when": "1850–1865",
@@ -912,7 +919,8 @@
    "Antenati",
    "Index",
    "Marriages"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14213"
  },
  {
   "when": "1809–1849",
@@ -924,7 +932,8 @@
    "Antenati",
    "Index",
    "Marriages"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14108"
  },
  {
   "when": "1837–1849",
@@ -936,7 +945,8 @@
    "Antenati",
    "Index",
    "Marriages"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/"
  },
  {
   "when": "1828–1835",
@@ -948,7 +958,8 @@
    "Antenati",
    "Index",
    "Marriages"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/"
  },
  {
   "when": "1825–1827",
@@ -960,7 +971,8 @@
    "Antenati",
    "Index",
    "Marriages"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14124"
  },
  {
   "when": "1818–1824",
@@ -972,7 +984,8 @@
    "Antenati",
    "Index",
    "Marriages"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14108"
  },
  {
   "when": "1824",
@@ -983,7 +996,8 @@
   "tags": [
    "Antenati",
    "Births"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14421"
  },
  {
   "when": "1841",
@@ -994,7 +1008,8 @@
   "tags": [
    "Antenati",
    "Deaths"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14343"
  },
  {
   "when": "1825",
@@ -1005,7 +1020,8 @@
   "tags": [
    "Antenati",
    "Births"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14422"
  },
  {
   "when": "1825",
@@ -1015,7 +1031,8 @@
   "outcome": "blocked",
   "tags": [
    "Antenati"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14422"
  },
  {
   "when": "1828",
@@ -1026,7 +1043,8 @@
   "tags": [
    "Antenati",
    "Births"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14425"
  },
  {
   "when": "",
@@ -1036,7 +1054,8 @@
   "outcome": "nothing",
   "tags": [
    "FindMyPast"
-  ]
+  ],
+  "url": "https://www.findmypast.co.uk/"
  },
  {
   "when": "",
@@ -1049,7 +1068,8 @@
    "Marriages",
    "Deaths",
    "Births"
-  ]
+  ],
+  "url": "https://www.findmypast.co.uk/"
  },
  {
   "when": "",
@@ -1076,7 +1096,8 @@
    "Marriages",
    "Deaths",
    "Births"
-  ]
+  ],
+  "url": "https://www.findmypast.co.uk/"
  },
  {
   "when": "1828–1845",
@@ -1132,7 +1153,8 @@
    "Antenati",
    "Processetti",
    "Marriages"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/"
  },
  {
   "when": "",
@@ -1161,7 +1183,8 @@
   "tags": [
    "Antenati",
    "Births"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/"
  },
  {
   "when": "1913–1980",
@@ -1436,7 +1459,9 @@
    "Deaths",
    "Falco",
    "read in full"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14311",
+  "outcome": "found"
  },
  {
   "when": "1810",
@@ -1449,7 +1474,9 @@
    "Falco",
    "Carfora",
    "read in full"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14312",
+  "outcome": "found"
  },
  {
   "when": "1812",
@@ -1461,7 +1488,9 @@
    "Deaths",
    "Falco",
    "read in full"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14314",
+  "outcome": "found"
  },
  {
   "when": "1813",
@@ -1474,7 +1503,9 @@
    "Falco",
    "read in full",
    "Carfora"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14315",
+  "outcome": "found"
  },
  {
   "when": "1814",
@@ -1488,7 +1519,9 @@
    "read in full",
    "Carfora",
    "di Guida"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14316",
+  "outcome": "found"
  },
  {
   "when": "1815",
@@ -1500,7 +1533,9 @@
    "Deaths",
    "Falco",
    "read in full"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14317",
+  "outcome": "found"
  },
  {
   "when": "1815",
@@ -1514,7 +1549,9 @@
    "di Guida",
    "Carfora",
    "read in full"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14412",
+  "outcome": "found"
  },
  {
   "when": "1814",
@@ -1526,7 +1563,9 @@
    "Births",
    "Falco",
    "read in full"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14411",
+  "outcome": "found"
  },
  {
   "when": "1811",
@@ -1538,7 +1577,9 @@
    "Births",
    "Falco",
    "read in full"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14408",
+  "outcome": "found"
  },
  {
   "when": "1810",
@@ -1551,7 +1592,9 @@
    "Falco",
    "di Guida",
    "read in full"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14407",
+  "outcome": "found"
  },
  {
   "when": "1809",
@@ -1563,7 +1606,9 @@
    "Births",
    "Falco",
    "read in full"
-  ]
+  ],
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua14406",
+  "outcome": "found"
  },
  {
   "when": "1859",
@@ -1606,7 +1651,7 @@
    "API",
    "read in full"
   ],
-  "url": "https://api.trove.nla.gov.au/v3/result",
+  "url": "https://trove.nla.gov.au/",
   "searchedOn": "2026-09-27",
   "walked": false,
   "provider": "trove"
@@ -1761,7 +1806,12 @@
   "src": "**SANTA MARIA A VICO, MATRIMONI 1884 — READ ENTIRE, BOTH PAGES OF EVERY OPENING AND THROUGH PARTE II.** Yearly index at image 802–803; printed register (Parte I) acts **1–57**, image 805 to the blank form at 834; **Parte II** opens at image **835R** and runs to 838.\n\nSwept with `tools/fsmargin.py` **after** its right-page crop was corrected — see the correction of the same date.",
   "what": "Giuseppe Falco's marriage to Nicoletta Nuzzo, and any Falco at all",
   "outcome": "yield",
-  "got": "**NO FALCO GROOM AND NO FALCO BRIDE IN THE PRINTED REGISTER** — all 57 acts of Parte I read at the margin box.\n\n**But Parte II act 3 is a DE FALCO**, and it resolves the one index line this archive could not read: **«Commendatore DE FALCO BARTOLOMEO, di anni sessantasei, proprietario, NATO IN NAPOLI, RESIDENTE IN ARIENZO, figlio del fu Eufemio e della fu DE GIORGIO MARIANTONIA»** married **«SANTORO CLEMENTINA, di anni trentasette, proprietaria, nata a Caserta … figlia del fu Matteo e della Signora HUEBER ISABELLA di Valle di Maddaloni»**, **14 July 1884 at 9.30 p.m. in her house at Piazza Municipio 30** — she was lame from a contusion of the right knee and the Sindaco came to her.\n\n**NOT JOINED TO ANYTHING.** `de Falco` is not `Falco`; he was born at Naples to Neapolitan parents; and the gentry *de Falco* this archive already holds at Arienzo (Don Francesco, whose daughter Donna Raffaela died a nun in 1836) is not shown to be his house either. Held as `bartolomeo-de-falco-clementina-santoro` so that anyone searching Arienzo for a Falco in the 1880s meets him already labelled."
+  "got": "**NO FALCO GROOM AND NO FALCO BRIDE IN THE PRINTED REGISTER** — all 57 acts of Parte I read at the margin box.\n\n**But Parte II act 3 is a DE FALCO**, and it resolves the one index line this archive could not read: **«Commendatore DE FALCO BARTOLOMEO, di anni sessantasei, proprietario, NATO IN NAPOLI, RESIDENTE IN ARIENZO, figlio del fu Eufemio e della fu DE GIORGIO MARIANTONIA»** married **«SANTORO CLEMENTINA, di anni trentasette, proprietaria, nata a Caserta … figlia del fu Matteo e della Signora HUEBER ISABELLA di Valle di Maddaloni»**, **14 July 1884 at 9.30 p.m. in her house at Piazza Municipio 30** — she was lame from a contusion of the right knee and the Sindaco came to her.\n\n**NOT JOINED TO ANYTHING.** `de Falco` is not `Falco`; he was born at Naples to Neapolitan parents; and the gentry *de Falco* this archive already holds at Arienzo (Don Francesco, whose daughter Donna Raffaela died a nun in 1836) is not shown to be his house either. Held as `bartolomeo-de-falco-clementina-santoro` so that anyone searching Arienzo for a Falco in the 1880s meets him already labelled.",
+  "tags": [
+   "FamilySearch",
+   "Santa Maria a Vico",
+   "Falco"
+  ]
  },
  {
   "when": "1875, 1879, 1882, 1883",
@@ -1774,7 +1824,11 @@
   "src": "**FOUR MARRIAGE BOOKS RE-SWEPT ON THEIR EVEN-NUMBERED ACTS**, because the sweeper had been cropping the blank inner edge of every right-hand page and so reading only the odd acts. 1875 and 1879 are in `MC5R-M2Q`; 1882 and 1883 in `MC5R-Q23`.",
   "what": "Giuseppe Falco as a groom — the half of each book that had never been looked at",
   "outcome": "nothing",
-  "got": "**1875 acts 2–48 · 1879 acts 2–38 · 1882 acts 2–36 · 1883 acts 2–28, plus each book's Parte II — NO FALCO.** The four published nils stand, now on the whole book instead of half of it. **1873's Parte II is hand-written on lined paper with no printed Numero box: seen, NOT read, and not counted as a negative.**"
+  "got": "**1875 acts 2–48 · 1879 acts 2–38 · 1882 acts 2–36 · 1883 acts 2–28, plus each book's Parte II — NO FALCO.** The four published nils stand, now on the whole book instead of half of it. **1873's Parte II is hand-written on lined paper with no printed Numero box: seen, NOT read, and not counted as a negative.**",
+  "tags": [
+   "FamilySearch",
+   "Falco"
+  ]
  },
  {
   "when": "1885",
@@ -1788,7 +1842,12 @@
   "src": "**SANTA MARIA A VICO, MATRIMONI 1885 — READ ENTIRE.** Yearly index **1032R–1033L**; printed register **acts 1–47** at images 1035–1058, swept at the margin box on **both** pages of every opening; **Parte II** at 1060–1064.",
   "what": "Giuseppe Falco as a groom, and any Falco at all",
   "outcome": "yield",
-  "got": "**NO FALCO.** The index's **F section has one entry** — «Ferrara Giuseppe di Gennaro / Di Caprio Mª Michela, reg. 22» — and the margin sweep of all 47 acts agrees. Parte II is a single sheet, an extract from the register of **San Felice a Cancello**.\n\n**But index entry 21 is «Guida Antonio fu Lorenzo / NUZZO NICOLETTA, reg. 28», and the act behind it settles an open question.** Act 28 gives «**Nuzzo Nicoletta, di anni CINQUANTATRÉ, contadina, nata in Santamaria a Vico, figlia del fu DOMENICO e di Mª fu STOLA MARIANTONIA**». **She is not Giuseppe Falco's wife** — ours was living with him at Arienzo, via Orticelli 4, in September 1887. **There are two women of the name**, and the second is now named and parented rather than left as a shadow over every Nuzzo search at this comune."
+  "got": "**NO FALCO.** The index's **F section has one entry** — «Ferrara Giuseppe di Gennaro / Di Caprio Mª Michela, reg. 22» — and the margin sweep of all 47 acts agrees. Parte II is a single sheet, an extract from the register of **San Felice a Cancello**.\n\n**But index entry 21 is «Guida Antonio fu Lorenzo / NUZZO NICOLETTA, reg. 28», and the act behind it settles an open question.** Act 28 gives «**Nuzzo Nicoletta, di anni CINQUANTATRÉ, contadina, nata in Santamaria a Vico, figlia del fu DOMENICO e di Mª fu STOLA MARIANTONIA**». **She is not Giuseppe Falco's wife** — ours was living with him at Arienzo, via Orticelli 4, in September 1887. **There are two women of the name**, and the second is now named and parented rather than left as a shadow over every Nuzzo search at this comune.",
+  "tags": [
+   "FamilySearch",
+   "Santa Maria a Vico",
+   "Falco"
+  ]
  },
  {
   "when": "1886",
@@ -1802,7 +1861,12 @@
   "src": "**SANTA MARIA A VICO, MATRIMONI 1886 — READ ENTIRE.** Yearly index 1248R–1249L; **Parte I acts 1–42** at images 1251–1274, swept at the margin box on both pages; **Parte II acts 1–4** at 1276–1278.",
   "what": "Giuseppe Falco as a groom, and any Falco at all",
   "outcome": "nothing",
-  "got": "**NO FALCO.** The index's F section holds «Ferrara Michele / De Lucia Mariantonia, reg. 5», «Fontana Salvatore Maria / Tabaresta Erminia Francesca, reg. 2. S.» and «Ferrellis (de) Giovanni / Piscitelli Filomena, reg. 4. S.» — and the margin sweep of every act agrees.\n\n**This year PROVED what «S.» means in the index's register-number column: PARTE SECONDA.** The four «S.» entries are matched one for one by the margin boxes of Parte II acts 1, 2 and 4. *1887 writes it out in full as «P.S.».*"
+  "got": "**NO FALCO.** The index's F section holds «Ferrara Michele / De Lucia Mariantonia, reg. 5», «Fontana Salvatore Maria / Tabaresta Erminia Francesca, reg. 2. S.» and «Ferrellis (de) Giovanni / Piscitelli Filomena, reg. 4. S.» — and the margin sweep of every act agrees.\n\n**This year PROVED what «S.» means in the index's register-number column: PARTE SECONDA.** The four «S.» entries are matched one for one by the margin boxes of Parte II acts 1, 2 and 4. *1887 writes it out in full as «P.S.».*",
+  "tags": [
+   "FamilySearch",
+   "Santa Maria a Vico",
+   "Falco"
+  ]
  },
  {
   "when": "1887",
@@ -1816,7 +1880,12 @@
   "src": "**SANTA MARIA A VICO, MATRIMONI 1887 — read from «Indice annuale pel Registro dei Matrimonii dell'anno 1887», images 1479R and 1480L, A to Z.** Fifty-five entries: Parte I to act 51 and four **Parte Seconda** acts.\n\n**The yearly index names BOTH spouses** — groom on the first line of each entry, bride on the second — so although it is alphabetised by the groom, a surname search over it covers the brides too. **One leaf reads a whole year.** *A nil may rest on the index; a hit must be taken to the act.*",
   "what": "Giuseppe Falco as a groom, and any Falco as groom or bride",
   "outcome": "nothing",
-  "got": "**NO FALCO, as groom or as bride.** The E/F section is «Fantarella Domenico / Di Francesco Antonia, 1. P.S.» and «Frasca Antonio / Vigliotti Maria Grazia, 2. P.S.».\n\n**By-catch, not merged:** entry 47, «**Rivetti Nicola / Vigliotti Luigia**, reg. 49». *Rivetti is one of this archive's own surnames — Chiara Rivetti married Pasquale Falco — and this is a Rivetti at Santa Maria a Vico in 1887. No kinship is claimed and the act is unread.*"
+  "got": "**NO FALCO, as groom or as bride.** The E/F section is «Fantarella Domenico / Di Francesco Antonia, 1. P.S.» and «Frasca Antonio / Vigliotti Maria Grazia, 2. P.S.».\n\n**By-catch, not merged:** entry 47, «**Rivetti Nicola / Vigliotti Luigia**, reg. 49». *Rivetti is one of this archive's own surnames — Chiara Rivetti married Pasquale Falco — and this is a Rivetti at Santa Maria a Vico in 1887. No kinship is claimed and the act is unread.*",
+  "tags": [
+   "FamilySearch",
+   "Santa Maria a Vico",
+   "Falco"
+  ]
  },
  {
   "when": "1866, 1867, 1870, 1871, 1872",
@@ -1830,7 +1899,12 @@
   "src": "**FIVE YEARS OF SANTA MARIA A VICO MARRIAGES, READ FROM THEIR ANNUAL INDEXES**, each of which names **both spouses** — groom and bride on consecutive lines — so a surname search over the index covers the brides too.\n\n**The indexes were found without a page-by-page hunt.** A cover in this film is a near-black thumbnail, so 2,156 cached thumbnails gave **53 book boundaries at zero requests**; the leaf after each cover is the book's title page, and **28 of those leaves, fetched in 28 requests, named every register in the first thousand images.**\n\n| year | index | marriages |\n|---|---|---:|\n| **1866** | img 59–60, «Indice Annuale de' Matrimoni dell'anno 1866» | **28** |\n| **1867** | img 211, «Indice degli atti di matrimonii … dell'anno 1867» | **35** |\n| **1870** | img 672–673, «Indice de' Matrimoni contratti nell'anno 1870» | **64** |\n| **1871** | img 804–805, «Indice Alfabetico dei Matrimoni dell'anno 1871» | **47** |\n| **1872** | img 934–935, «Tavola alfabetica annuale de' Matrimoni» | **33 entries, reg. to 36** |",
   "what": "Giuseppe Falco as a groom, and any Falco as groom or bride",
   "outcome": "yield",
-  "got": "**NO FALCO GROOM IN ANY OF THE FIVE YEARS.**\n\n**But 1872 has a FALCO BRIDE, and the act was read.** Entry 10 of the tavola — «**Folgieri Salvatore e FALCO LUCIA**, reg. 35, 28 Dicembre» — is act 35 at image 952: «*LUCIA FALCO, di anni ventiquattro, colona, residente in Santamaria a Vico, **figlia di ANTONIO e di VINCENZA DELLA ZORCA, coloni, residenti colla figlia***».\n\n**A FALCO HOUSEHOLD LIVING AT SANTA MARIA A VICO** — which is where this archive had published that no Falco family lived. See the correction of the same date.\n\n**1868 and 1869 are NOT read and no negative is claimed for them.** The register after the 1868 cover at image 356 is a **supplement that was never used** — fifteen leaves, blank, closed «*in questo giorno trenta di Dicembre dell'anno 1868*» — and the 1869 book at 551 is a supplement of *trascrizioni* numbered in the fifties. **The main marriage registers of those two years have not been located in this film.**"
+  "got": "**NO FALCO GROOM IN ANY OF THE FIVE YEARS.**\n\n**But 1872 has a FALCO BRIDE, and the act was read.** Entry 10 of the tavola — «**Folgieri Salvatore e FALCO LUCIA**, reg. 35, 28 Dicembre» — is act 35 at image 952: «*LUCIA FALCO, di anni ventiquattro, colona, residente in Santamaria a Vico, **figlia di ANTONIO e di VINCENZA DELLA ZORCA, coloni, residenti colla figlia***».\n\n**A FALCO HOUSEHOLD LIVING AT SANTA MARIA A VICO** — which is where this archive had published that no Falco family lived. See the correction of the same date.\n\n**1868 and 1869 are NOT read and no negative is claimed for them.** The register after the 1868 cover at image 356 is a **supplement that was never used** — fifteen leaves, blank, closed «*in questo giorno trenta di Dicembre dell'anno 1868*» — and the 1869 book at 551 is a supplement of *trascrizioni* numbered in the fifties. **The main marriage registers of those two years have not been located in this film.**",
+  "tags": [
+   "FamilySearch",
+   "Santa Maria a Vico",
+   "Falco"
+  ]
  },
  {
   "when": "1881",
@@ -1844,7 +1918,12 @@
   "src": "**SANTA MARIA A VICO, MATRIMONI 1881 — the acts swept at the margin box, and ACT 30 read in full from image 329.** The year's index had been read on the morning of the same day; this is the act behind its one Falco line.",
   "what": "Filomena Falco fu Antonio — who she was",
   "outcome": "yield",
-  "got": "**«FALCO FILOMENA, di anni VENTISEI, COLONA, NATA IN SANTAMARIA A VICO … FIGLIA DEL FU ANTONIO … e di DELLA TORRE VINCENZA»**, married **Della Marca Cristofaro, 32, colono of S. Felice a Cancello**, 15 October 1881.\n\n**She is the SISTER of Lucia Falco**, married in the same town on 28 December 1872 to Salvatore Folgieri — same father Antonio, same mother Vincenza. **Born about 1855 at Santa Maria a Vico**, so the household was there by 1855.\n\n**And Antonio Falco died between 28 December 1872 and 15 October 1881.** His death act would give his birthplace, and that is the next thing to read.\n\n*A layout warning for the next sweep: the 1881 book puts each page's Numero box at the INNER edge — the right page's at about x = 0.52, not 0.80. A band tuned to the 1884 printing reads half this book.*"
+  "got": "**«FALCO FILOMENA, di anni VENTISEI, COLONA, NATA IN SANTAMARIA A VICO … FIGLIA DEL FU ANTONIO … e di DELLA TORRE VINCENZA»**, married **Della Marca Cristofaro, 32, colono of S. Felice a Cancello**, 15 October 1881.\n\n**She is the SISTER of Lucia Falco**, married in the same town on 28 December 1872 to Salvatore Folgieri — same father Antonio, same mother Vincenza. **Born about 1855 at Santa Maria a Vico**, so the household was there by 1855.\n\n**And Antonio Falco died between 28 December 1872 and 15 October 1881.** His death act would give his birthplace, and that is the next thing to read.\n\n*A layout warning for the next sweep: the 1881 book puts each page's Numero box at the INNER edge — the right page's at about x = 0.52, not 0.80. A band tuned to the 1884 printing reads half this book.*",
+  "tags": [
+   "FamilySearch",
+   "Santa Maria a Vico",
+   "Falco"
+  ]
  },
  {
   "when": "1873, 1874",
@@ -1858,7 +1937,12 @@
   "src": "**SANTA MARIA A VICO, DEATHS 1873 AND 1874 — read from their annual TAVOLE**, found with the cover map (the tavola is the leaf after the deaths cover: **1873 at image 1087, 1874 at 1216**).\n\n**A death tavola is the richest finding aid in this collection**: «*N.° DEL REGISTRO · COGNOMI E NOMI de' MORTI · **COGNOMI E NOMI de' GENITORI** · EPOCA DELLA MORTE*» — **it names the dead person's parents** and gives day and month.",
   "what": "Antonio Falco of Santa Maria a Vico, who died between 28 Dec 1872 and 15 Oct 1881",
   "outcome": "yield",
-  "got": "**1873: no Falco** — the F section is Ferraro, Froggiero ×3 and Filippone.\n\n**1874: «47 | 176 | FALCO ANTONIO | Giuseppe e Orsola | 24 [Novembre]» — and the act was read rather than assumed.** Image 1266: «*nella casa di sua abitazione sita alla **VIA SANT'APOLLONIA** è morto **ANTONIO FALCO, D'ANNI DUE**, figlio di **GIUSEPPE ed ORSOLA VERDICCHIO, COLONI**, domiciliati ivi*».\n\n**A child of two, not the father of two married daughters** — so the man being hunted is still unfound, and **a SECOND Falco household at Santa Maria a Vico is**. Held as `giuseppe-falco-orsola-verdicchio`.\n\n**This Giuseppe Falco is not the archive's own**: ours was married to Nicoletta Nuzzo and fathering children by her at Arienzo in 1872 and 1874. *`isitnew.py` on «Verdicchio» returns «nothing, in any corpus».*\n\n**Antonio Falco × Vincenza della Torre therefore died 1875–1881**, and those tavole are the next thing to read."
+  "got": "**1873: no Falco** — the F section is Ferraro, Froggiero ×3 and Filippone.\n\n**1874: «47 | 176 | FALCO ANTONIO | Giuseppe e Orsola | 24 [Novembre]» — and the act was read rather than assumed.** Image 1266: «*nella casa di sua abitazione sita alla **VIA SANT'APOLLONIA** è morto **ANTONIO FALCO, D'ANNI DUE**, figlio di **GIUSEPPE ed ORSOLA VERDICCHIO, COLONI**, domiciliati ivi*».\n\n**A child of two, not the father of two married daughters** — so the man being hunted is still unfound, and **a SECOND Falco household at Santa Maria a Vico is**. Held as `giuseppe-falco-orsola-verdicchio`.\n\n**This Giuseppe Falco is not the archive's own**: ours was married to Nicoletta Nuzzo and fathering children by her at Arienzo in 1872 and 1874. *`isitnew.py` on «Verdicchio» returns «nothing, in any corpus».*\n\n**Antonio Falco × Vincenza della Torre therefore died 1875–1881**, and those tavole are the next thing to read.",
+  "tags": [
+   "FamilySearch",
+   "Santa Maria a Vico",
+   "Falco"
+  ]
  },
  {
   "when": "1876, 1877, 1878",
@@ -1872,7 +1956,12 @@
   "src": "**SANTA MARIA A VICO, DEATHS 1876, 1877 AND 1878 — read from their annual tavole**, and 1877 **also swept act by act at the margin box** (images 1777–1835, eighty-seven printed acts).\n\n**1877's tavola is not at the front of the book**: it is a loose folded sheet laid over images **1799–1804**, after the last printed act, caught six times by the camera as it shifted.",
   "what": "Antonio Falco of Santa Maria a Vico, husband of Vincenza della Torre, who died between 28 Dec 1872 and 15 Oct 1881",
   "outcome": "nothing",
-  "got": "**NO FALCO IN ANY OF THE THREE.** 1876's F section is two entries (Froggiero, Fantarella); 1877's is five (Fontanella ×2, Froggiero/Froggieri ×3); 1878's is nine (Fantarella ×3, Froggieri ×4, Ferrara).\n\n**With 1873 and 1874 already read, Antonio Falco died in 1875, 1879, 1880 or 1881.** *1875's deaths book has not been located in this film — which is two reels spliced at image 1475, so the years do not run in order and position is no guide. 1879–1881 are in `MC5R-Q23`, whose cover map puts the 1879 deaths register at image 6.*"
+  "got": "**NO FALCO IN ANY OF THE THREE.** 1876's F section is two entries (Froggiero, Fantarella); 1877's is five (Fontanella ×2, Froggiero/Froggieri ×3); 1878's is nine (Fantarella ×3, Froggieri ×4, Ferrara).\n\n**With 1873 and 1874 already read, Antonio Falco died in 1875, 1879, 1880 or 1881.** *1875's deaths book has not been located in this film — which is two reels spliced at image 1475, so the years do not run in order and position is no guide. 1879–1881 are in `MC5R-Q23`, whose cover map puts the 1879 deaths register at image 6.*",
+  "tags": [
+   "FamilySearch",
+   "Santa Maria a Vico",
+   "Falco"
+  ]
  },
  {
   "when": "1880",
@@ -1886,7 +1975,11 @@
   "src": "**«MODULO DELL'INDICE ANNUALE delle nascite 1880», `MC5R-Q23` image 63**, found from the cover map (cover at 62).",
   "what": "any Falco birth at Santa Maria a Vico",
   "outcome": "pending",
-  "got": "**A FALCO BIRTH IS IN THE INDEX — «57 — Falco M.ª A—ª di Giuseppe ——, reg. 4» — AND IT IS NOT READ.**\n\n*The index's register-number column has misled this archive four times in two days, and **act 4 of the 1880 births is «Diglio Antonio»**, checked at the margin box. So the number is wrong or misread, and this is recorded as **located, not read**. The 1880 births register runs from image 64 and must be swept at the margin box.*\n\n**Whose child she is matters**: Giuseppe Falco × Orsola Verdicchio were at Via Sant'Apollonia in 1874 and are the obvious house, but this archive's own Giuseppe Falco is also a Giuseppe with a wife. **Only the act names the mother.**"
+  "got": "**A FALCO BIRTH IS IN THE INDEX — «57 — Falco M.ª A—ª di Giuseppe ——, reg. 4» — AND IT IS NOT READ.**\n\n*The index's register-number column has misled this archive four times in two days, and **act 4 of the 1880 births is «Diglio Antonio»**, checked at the margin box. So the number is wrong or misread, and this is recorded as **located, not read**. The 1880 births register runs from image 64 and must be swept at the margin box.*\n\n**Whose child she is matters**: Giuseppe Falco × Orsola Verdicchio were at Via Sant'Apollonia in 1874 and are the obvious house, but this archive's own Giuseppe Falco is also a Giuseppe with a wife. **Only the act names the mother.**",
+  "tags": [
+   "FamilySearch",
+   "Falco"
+  ]
  },
  {
   "when": "1880",
@@ -1900,7 +1993,12 @@
   "src": "**SANTA MARIA A VICO, DEATHS 1880 — «MODULO DELL'INDICE ANNUALE delle morti 1880» at image 157, found from the cover map, and then the act itself at image 175.**",
   "what": "Antonio Falco, husband of Vincenza della Torre, dead between 28 Dec 1872 and 15 Oct 1881",
   "outcome": "yield",
-  "got": "**FOUND. «Falco Antonio fu Giuseppe — 63» in the index, and act 63 read from the image:**\n\n«*…nella casa posta in **VIA MAIANIELLO al numero UNDICI**, è morto **ANTONIO FALCO, di anni SETTANTA, COLONO**, residente in Santa Maria a Vico, **NATO IN ARIENZO**, da **fu GIUSEPPE, colono** … e da **Ma[ria] GELSOMINA NOBILE**, colona … **MARITO DI VINCENZA DELLA TORRE***» — **8 May 1880, four in the morning**, declared next day before **Pietro Migliore, Sindaco**.\n\n**«MARITO DI VINCENZA DELLA TORRE» is what identifies him**, not the name: this comune also held a two-year-old Antonio Falco who died in 1874.\n\n**BORN AT ARIENZO ABOUT 1810 — the Falco of Santa Maria a Vico came from Arienzo**, and this is the first document this archive holds that says so in the manuscript. **His father was a GIUSEPPE FALCO**; the mother is written «Ma — Gelsomina Nobile» and the surname is recorded as a reading, not resolved. *Nothing is merged with the archive's Giuseppe Falco × Gelsomina Vigliotta of strada Costa, though the collision is published.*"
+  "got": "**FOUND. «Falco Antonio fu Giuseppe — 63» in the index, and act 63 read from the image:**\n\n«*…nella casa posta in **VIA MAIANIELLO al numero UNDICI**, è morto **ANTONIO FALCO, di anni SETTANTA, COLONO**, residente in Santa Maria a Vico, **NATO IN ARIENZO**, da **fu GIUSEPPE, colono** … e da **Ma[ria] GELSOMINA NOBILE**, colona … **MARITO DI VINCENZA DELLA TORRE***» — **8 May 1880, four in the morning**, declared next day before **Pietro Migliore, Sindaco**.\n\n**«MARITO DI VINCENZA DELLA TORRE» is what identifies him**, not the name: this comune also held a two-year-old Antonio Falco who died in 1874.\n\n**BORN AT ARIENZO ABOUT 1810 — the Falco of Santa Maria a Vico came from Arienzo**, and this is the first document this archive holds that says so in the manuscript. **His father was a GIUSEPPE FALCO**; the mother is written «Ma — Gelsomina Nobile» and the surname is recorded as a reading, not resolved. *Nothing is merged with the archive's Giuseppe Falco × Gelsomina Vigliotta of strada Costa, though the collision is published.*",
+  "tags": [
+   "FamilySearch",
+   "Santa Maria a Vico",
+   "Falco"
+  ]
  },
  {
   "when": "1869",
@@ -1914,7 +2012,11 @@
   "src": "**«Indice Alfabetico dei Matrimoni dell'anno 1869», `MC5R-M2Q` image 517 — sixty-one entries, complete, groom and bride on every line.** Found from the cover map (cover 515) after the book at 551 turned out to be a supplement of *trascrizioni* and 1869 had been written off as «not located».",
   "what": "Giuseppe Falco as a groom at Santa Maria a Vico",
   "outcome": "yield",
-  "got": "**TWO FALCO, AND ONE OF THEM MAY END THIS SEARCH.**\n\n**«22 — FALCO GIUSEPPE con VERDICCHIO ORSOLA — act 25»** — the marriage of the household found the same afternoon at Via Sant'Apollonia, whose two-year-old son died in 1874. **This archive had ruled that Giuseppe out of this line hours earlier, and the reason does not hold**: the exclusion read Filomena (1872) and Vincenza (1874), who are his SISTERS, as his daughters. *The only dated evidence joining our Giuseppe to Nicoletta Nuzzo is 22 September 1887, and a man born about 1841 is twenty-eight in 1869.* **Act 25 of 1869 is unread and is now the most important unread document in this search.**\n\n**«9 — Crisci Pasquale con FALCO FRANCESCA — act 44»** — a Crisci marrying a Falco at Santa Maria a Vico. *Crisci is this line's own allied surname. Act 44 is unread and no kinship is claimed.*\n\n*The 1869 register is hand-written on lined paper with no printed Numero box, images 518–549, so the margin sweep cannot read it; it has to be read leaf by leaf.*"
+  "got": "**TWO FALCO, AND ONE OF THEM MAY END THIS SEARCH.**\n\n**«22 — FALCO GIUSEPPE con VERDICCHIO ORSOLA — act 25»** — the marriage of the household found the same afternoon at Via Sant'Apollonia, whose two-year-old son died in 1874. **This archive had ruled that Giuseppe out of this line hours earlier, and the reason does not hold**: the exclusion read Filomena (1872) and Vincenza (1874), who are his SISTERS, as his daughters. *The only dated evidence joining our Giuseppe to Nicoletta Nuzzo is 22 September 1887, and a man born about 1841 is twenty-eight in 1869.* **Act 25 of 1869 is unread and is now the most important unread document in this search.**\n\n**«9 — Crisci Pasquale con FALCO FRANCESCA — act 44»** — a Crisci marrying a Falco at Santa Maria a Vico. *Crisci is this line's own allied surname. Act 44 is unread and no kinship is claimed.*\n\n*The 1869 register is hand-written on lined paper with no printed Numero box, images 518–549, so the margin sweep cannot read it; it has to be read leaf by leaf.*",
+  "tags": [
+   "FamilySearch",
+   "Falco"
+  ]
  },
  {
   "when": "1869",
@@ -1928,7 +2030,12 @@
   "src": "**SANTA MARIA A VICO, MARRIAGE ACT 25 OF 1869 — read from the image**, images 533–534. The 1869 register is hand-written on lined paper with no printed Numero box, so the act was found by reading the «Numero d'ordine» headings in the margin column leaf by leaf: 536L is act 29, 534L carries 25 and 26.",
   "what": "Whether the Giuseppe Falco who married Orsola Verdicchio is this archive's Giuseppe Falco",
   "outcome": "yield",
-  "got": "**«GIUSEPPE FALCO, CELIBE, di anni VENTICINQUE compiti, CONTADINO, residente in questo Comune, FIGLIO DI ANTONIO … E DI VINCENZA DELLA TORRE»** married **«ORSOLA VERDICCHIO, NUBILE, di anni VENTITRÉ, contadina, figlia del fu SALVATORE e di MARIA GIUSEPPA MORGILLO»**.\n\n**HE IS ANTONIO FALCO'S SON** — brother of Lucia (m. 1872) and Filomena (m. 1881) — **so the two Falco households this archive created hours apart are one family**, and the second is retired into the first.\n\n**AND HE IS NOT THIS ARCHIVE'S GIUSEPPE FALCO**, who is «figlio di Matteo e di Alessandra Crisci». *The exclusion now rests on the act.*\n\n**Born about 1844, and he signed his own name** in block capitals where both his sisters' acts record the spouses as *analfabeti*."
+  "got": "**«GIUSEPPE FALCO, CELIBE, di anni VENTICINQUE compiti, CONTADINO, residente in questo Comune, FIGLIO DI ANTONIO … E DI VINCENZA DELLA TORRE»** married **«ORSOLA VERDICCHIO, NUBILE, di anni VENTITRÉ, contadina, figlia del fu SALVATORE e di MARIA GIUSEPPA MORGILLO»**.\n\n**HE IS ANTONIO FALCO'S SON** — brother of Lucia (m. 1872) and Filomena (m. 1881) — **so the two Falco households this archive created hours apart are one family**, and the second is retired into the first.\n\n**AND HE IS NOT THIS ARCHIVE'S GIUSEPPE FALCO**, who is «figlio di Matteo e di Alessandra Crisci». *The exclusion now rests on the act.*\n\n**Born about 1844, and he signed his own name** in block capitals where both his sisters' acts record the spouses as *analfabeti*.",
+  "tags": [
+   "FamilySearch",
+   "Santa Maria a Vico",
+   "Falco"
+  ]
  },
  {
   "when": "1866, 1872",
@@ -1942,7 +2049,12 @@
   "src": "**ARIENZO'S OWN MARRIAGE REGISTERS, out of the series this archive had published as lost.** `MC55-FNT` mapped by the cover method: **1,236 cached thumbnails gave 50 covers at zero requests**, and the leaf after each cover named the book — «REGISTRO **dei Matrimonii**» at image 45 (1866), «delle **pubblicazioni di Matrimonii**» at 4, «delle **Nascite**» at 61, «di **Cittadinanza**» at 169, «di **Nascita** 1867» at 172, «di **Matrimoni** 1867» at 224.\n\n**FROM 1872 THE CLERK STOPS FILLING IN THE TITLE PAGE** — images 776, 791, 827, 854, 873 and 909 all read «REGISTRO d ______» with the blank never completed, so from 1872 a book must be identified from its first act.\n\n**Both books read from their MARGIN HEADINGS**, which name both spouses: 1866 «Matrimonio tra X e Y», 1872 «N.º N · Matrimonio che si contrae tra X e Y».",
   "what": "Giuseppe Falco's marriage, and any Falco marriage at Arienzo after 1865",
   "outcome": "yield",
-  "got": "**1866 — twenty-seven acts, images 45–59, NO FALCO.**\n\n**1872 — and act 35 is the first Falco marriage act ever recovered from these registers:** «**N.º 35 — Matrimonio che si contrae tra CARMINE ANTONIO FALCO e GIOVANNA ARRICALE**», **18 November 1872**, and they are **generation five of this line**.\n\nThe act gives what the date never could: «*CARMINE ANTONIO FALCO, contadino, **di anni VENTIDUE COMPITI**, nato e domiciliato in Arienzo, **figlio di RAFFAELE e ANGELAROSA MORGILLO, contadini, DOMICILIATI COL FIGLIO***» — **his parents alive and under his roof** — and «*GIOVANNA ARRICALE … figlia del **fu FRANCESCO** e **DELLA VIVENTE PASQUA FALCO**, contadina, **domiciliata con la figlia***».\n\n**PASQUA FALCO WAS ALIVE ON 18 NOVEMBER 1872**, which moves the search for her death out of 1816–1858 — where this archive spent months — and into Arienzo's post-1866 registers, which are open. See the corrections of the same date.\n\n*By-catch, not merged: act 16, «Carmine **RIVETTI** e Maria Carmina Zimbardo»; act 9, «Angelo Laudato e Maria Caterina **ARRICALE**».*"
+  "got": "**1866 — twenty-seven acts, images 45–59, NO FALCO.**\n\n**1872 — and act 35 is the first Falco marriage act ever recovered from these registers:** «**N.º 35 — Matrimonio che si contrae tra CARMINE ANTONIO FALCO e GIOVANNA ARRICALE**», **18 November 1872**, and they are **generation five of this line**.\n\nThe act gives what the date never could: «*CARMINE ANTONIO FALCO, contadino, **di anni VENTIDUE COMPITI**, nato e domiciliato in Arienzo, **figlio di RAFFAELE e ANGELAROSA MORGILLO, contadini, DOMICILIATI COL FIGLIO***» — **his parents alive and under his roof** — and «*GIOVANNA ARRICALE … figlia del **fu FRANCESCO** e **DELLA VIVENTE PASQUA FALCO**, contadina, **domiciliata con la figlia***».\n\n**PASQUA FALCO WAS ALIVE ON 18 NOVEMBER 1872**, which moves the search for her death out of 1816–1858 — where this archive spent months — and into Arienzo's post-1866 registers, which are open. See the corrections of the same date.\n\n*By-catch, not merged: act 16, «Carmine **RIVETTI** e Maria Carmina Zimbardo»; act 9, «Angelo Laudato e Maria Caterina **ARRICALE**».*",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Falco"
+  ]
  },
  {
   "when": "1871",
@@ -1956,7 +2068,12 @@
   "src": "**ARIENZO, MATRIMONI 1871 — read from «Indice annuale de' Matrimoni nell'anno 1871», `MC55-FNT` images 594–595, and then act 21 from the image.**\n\n**ARIENZO'S MARRIAGE BOOKS CARRY THEIR ANNUAL INDEX AT THE FRONT**, before the register — two columns, groom over bride, with the alphabet's section letters written in and the empty letters left as a row of dashes. *That was missed all afternoon because the search was for a title page.*",
   "what": "Giuseppe Falco as a groom, and any Falco at Arienzo in 1871",
   "outcome": "yield",
-  "got": "**Thirty marriages. The F section is A ROW OF DASHES — no Falco groom.**\n\n**But entry 19 is «Morgillo Carmine, e FALCO VINCENZA — 21», and that is this line's own daughter.** Act 21, image 605: «*CARMINE MORGILLO, contadino, di anni VENTITRÉ COMPITI … **figlio de' furono ANTONIO e FELICIA MAJONE**; e **VINCENZA FALCO, contadina, DI ANNI VENTINOVE COMPITI** … **FIGLIA DE' FURONO MATTEO E ALESSANDRA CRISCI***» — publications 1 and 8 October 1871, neither spouse able to sign.\n\n**«FURONO» is plural: both her parents were dead by 8 October 1871.** *That dates **ALESSANDRA CRISCI's** death for the first time — nothing before today dated it at all — and pushes **MATTEO FALCO's** back three years from the 1874 extract's «fu Matteo».*\n\n*Also in the index: «26. Rivetti Paolo e Majone Maria — 1» and «16. Migliore Orazio e Rivetti Mª Rosa — 7». Rivetti is this archive's own surname; no kinship claimed, acts unread.*"
+  "got": "**Thirty marriages. The F section is A ROW OF DASHES — no Falco groom.**\n\n**But entry 19 is «Morgillo Carmine, e FALCO VINCENZA — 21», and that is this line's own daughter.** Act 21, image 605: «*CARMINE MORGILLO, contadino, di anni VENTITRÉ COMPITI … **figlio de' furono ANTONIO e FELICIA MAJONE**; e **VINCENZA FALCO, contadina, DI ANNI VENTINOVE COMPITI** … **FIGLIA DE' FURONO MATTEO E ALESSANDRA CRISCI***» — publications 1 and 8 October 1871, neither spouse able to sign.\n\n**«FURONO» is plural: both her parents were dead by 8 October 1871.** *That dates **ALESSANDRA CRISCI's** death for the first time — nothing before today dated it at all — and pushes **MATTEO FALCO's** back three years from the 1874 extract's «fu Matteo».*\n\n*Also in the index: «26. Rivetti Paolo e Majone Maria — 1» and «16. Migliore Orazio e Rivetti Mª Rosa — 7». Rivetti is this archive's own surname; no kinship claimed, acts unread.*",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Falco"
+  ]
  },
  {
   "when": "1869",
@@ -1970,7 +2087,12 @@
   "src": "**ARIENZO, MATRIMONI 1869 — images 386–405, twenty-nine acts, every one read at its margin heading** «N.º N · Matrimonio che si contrae tra X e Y». *The 1869 book has no annual index at the front; the headings are the instrument.*",
   "what": "Giuseppe Falco as a groom, and any Falco at Arienzo in 1869",
   "outcome": "yield",
-  "got": "**ONE FALCO: act 22, «Matrimonio che si contrae tra ANTONIO FALCO e CARMELA GUIDA», 24 June 1869** — and it joins a household this archive had built from one baby's death act to the family that already held the father. «*ANTONIO FALCO DI ANNI VENTISEI COMPITI, contadino … **FIGLIO DI VINCENZO** … **e di ANDREANA CRISCI**, filatrice, domiciliati col figlio*; e *CARMELA DI GUIDA di anni venti compiti … **figlia del fu FABRIZIO** e della vivente **TERESA VACCINO***».\n\n**No Giuseppe Falco**, and no other Falco in the year."
+  "got": "**ONE FALCO: act 22, «Matrimonio che si contrae tra ANTONIO FALCO e CARMELA GUIDA», 24 June 1869** — and it joins a household this archive had built from one baby's death act to the family that already held the father. «*ANTONIO FALCO DI ANNI VENTISEI COMPITI, contadino … **FIGLIO DI VINCENZO** … **e di ANDREANA CRISCI**, filatrice, domiciliati col figlio*; e *CARMELA DI GUIDA di anni venti compiti … **figlia del fu FABRIZIO** e della vivente **TERESA VACCINO***».\n\n**No Giuseppe Falco**, and no other Falco in the year.",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Falco"
+  ]
  },
  {
   "when": "1870, 1873",
@@ -1984,7 +2106,12 @@
   "src": "**ARIENZO, MATRIMONI 1870 (images 537–564) and 1873 (776–789), read at the margin headings** «N.º N · Matrimonio che si contrae tra X e Y».",
   "what": "Giuseppe Falco as a groom, and any Falco at Arienzo",
   "outcome": "yield",
-  "got": "**1870 — about forty acts, NO FALCO.**\n\n**1873 — act 1 is «PASCALE RUOTOLO e MARIA FELICE FALCO», 3 February 1873**, and she is this archive's own: born 21 November 1845 to **Crescenzo Falco and Angela Maria Morgillo**. *Her wedding was held only from the margin of her own birth act, which called the groom «PASQUALE QUOTOLO». **The act agrees to the day and corrects the surname to RUOTOLO**, gives his parents (Francesco Ruotolo and Pasqua d'Angelo, both new here), and puts **Crescenzo Falco and Maria Morgillo alive on 3 February 1873, living with their daughter**.*\n\n**A reading was caught before it was written down**: the father's name was first read as «Vincenzo», which would have moved her into a different Falco house. **Magnified, it is CRESCENZO.** *A Vincenzo Falco had been in front of this reader all afternoon, and that is exactly when the eye supplies one.*"
+  "got": "**1870 — about forty acts, NO FALCO.**\n\n**1873 — act 1 is «PASCALE RUOTOLO e MARIA FELICE FALCO», 3 February 1873**, and she is this archive's own: born 21 November 1845 to **Crescenzo Falco and Angela Maria Morgillo**. *Her wedding was held only from the margin of her own birth act, which called the groom «PASQUALE QUOTOLO». **The act agrees to the day and corrects the surname to RUOTOLO**, gives his parents (Francesco Ruotolo and Pasqua d'Angelo, both new here), and puts **Crescenzo Falco and Maria Morgillo alive on 3 February 1873, living with their daughter**.*\n\n**A reading was caught before it was written down**: the father's name was first read as «Vincenzo», which would have moved her into a different Falco house. **Magnified, it is CRESCENZO.** *A Vincenzo Falco had been in front of this reader all afternoon, and that is exactly when the eye supplies one.*",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Falco"
+  ]
  },
  {
   "when": "1874",
@@ -1998,7 +2125,12 @@
   "src": "**ARIENZO, MATRIMONI 1874 — images 854–871, thirty-five acts, read at the margin headings.**",
   "what": "Giuseppe Falco as a groom, and any Falco at Arienzo in 1874",
   "outcome": "yield",
-  "got": "**TWO FALCO ACTS, and one is this line's.**\n\n**Act 20, 10 October 1874** — «*PASQUALANTONIO GUIDA, contadino, DI ANNI TRENTATRÉ COMPITI … **figlio del fu FABRIZIO e della vivente TERESA VACCINO**; e **DOMENICA FALCO, TESSITRICE, DI ANNI VENTOTTO COMPITI** … **FIGLIA DE' FURONO MATTEO E ALESSANDRA CRISCI***». **She is Giuseppe's sister.** *The act confirms the archive's reconstruction of a forename split across a binding — it had written **Pasqualantonio** from «Pasqua…/…lantonio» — confirms her birth of 13 September 1846, gives her trade (**tessitrice**), and says **both parents were dead** for the second time in an independent act.*\n\n**And her husband is CARMELA DI GUIDA'S BROTHER** — identical parents to the bride of Arienzo act 22 of 1869, who married Antonio Falco. **Two Guida of one house married two Falco of two houses, five years apart.**\n\n**Act 35, December 1874** — «*VINCENZO FALCO … DI ANNI VENTIQUATTRO COMPITI, nato e domiciliato qui in ARIENZO, **VIA CORSO** … **figlio di ANGELO e di MARIA CIMMINO**, domiciliati col figlio; ed **ANGELA PELLONE, cucitrice, di anni ventidue compiti** … **VIA SANT'ANDREA, figlia del fu PASQUALE e della vivente CARMELA CRISCI***». *A Falco grandson born about 1850, and it bears on a refusal this archive made on purpose between «Angelo Falco» and «Angelandrea Falco». **Recorded as evidence, not merged.***\n\n**No Giuseppe Falco.**"
+  "got": "**TWO FALCO ACTS, and one is this line's.**\n\n**Act 20, 10 October 1874** — «*PASQUALANTONIO GUIDA, contadino, DI ANNI TRENTATRÉ COMPITI … **figlio del fu FABRIZIO e della vivente TERESA VACCINO**; e **DOMENICA FALCO, TESSITRICE, DI ANNI VENTOTTO COMPITI** … **FIGLIA DE' FURONO MATTEO E ALESSANDRA CRISCI***». **She is Giuseppe's sister.** *The act confirms the archive's reconstruction of a forename split across a binding — it had written **Pasqualantonio** from «Pasqua…/…lantonio» — confirms her birth of 13 September 1846, gives her trade (**tessitrice**), and says **both parents were dead** for the second time in an independent act.*\n\n**And her husband is CARMELA DI GUIDA'S BROTHER** — identical parents to the bride of Arienzo act 22 of 1869, who married Antonio Falco. **Two Guida of one house married two Falco of two houses, five years apart.**\n\n**Act 35, December 1874** — «*VINCENZO FALCO … DI ANNI VENTIQUATTRO COMPITI, nato e domiciliato qui in ARIENZO, **VIA CORSO** … **figlio di ANGELO e di MARIA CIMMINO**, domiciliati col figlio; ed **ANGELA PELLONE, cucitrice, di anni ventidue compiti** … **VIA SANT'ANDREA, figlia del fu PASQUALE e della vivente CARMELA CRISCI***». *A Falco grandson born about 1850, and it bears on a refusal this archive made on purpose between «Angelo Falco» and «Angelandrea Falco». **Recorded as evidence, not merged.***\n\n**No Giuseppe Falco.**",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Falco"
+  ]
  },
  {
   "when": "1867 (tail), 1868",
@@ -2012,7 +2144,12 @@
   "src": "**The two books between Arienzo's 1867 deaths and its 1868 births.** Cover 276 → images 277–279; cover 284 → images 285–295.",
   "what": "Arienzo's marriages of 1868, which had not been located",
   "outcome": "pending",
-  "got": "**1867's TAIL is at 277–279** — acts into the high teens, closed 13 December 1867. **No Falco.**\n\n**1868's MARRIAGE REGISTER IS LOCATED: cover 284, book 285–295**, «*Anno 186[8] · COMUNE di Arienzo · REGISTRO di matrimonj*», acts from image 286, «*L'anno milleottocentosessantotto … Innanzi a noi Alfonso Troisi Sindaco*».\n\n**IT IS NOT READ.** *Its acts carry only a NUMBER in the margin, not a heading naming the spouses, and each runs across a page and a half — so neither the margin column nor a fixed text band reads it. It needs a page-by-page reading, and it is recorded as located and unread rather than swept badly and called a nil.*"
+  "got": "**1867's TAIL is at 277–279** — acts into the high teens, closed 13 December 1867. **No Falco.**\n\n**1868's MARRIAGE REGISTER IS LOCATED: cover 284, book 285–295**, «*Anno 186[8] · COMUNE di Arienzo · REGISTRO di matrimonj*», acts from image 286, «*L'anno milleottocentosessantotto … Innanzi a noi Alfonso Troisi Sindaco*».\n\n**IT IS NOT READ.** *Its acts carry only a NUMBER in the margin, not a heading naming the spouses, and each runs across a page and a half — so neither the margin column nor a fixed text band reads it. It needs a page-by-page reading, and it is recorded as located and unread rather than swept badly and called a nil.*",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Falco"
+  ]
  },
  {
   "when": "1875",
@@ -2026,7 +2163,12 @@
   "src": "**ARIENZO, MATRIMONI 1875 — located at cover 925, book images 926–946, and NOT READ.**",
   "what": "Giuseppe Falco as a groom at Arienzo in 1875",
   "outcome": "blocked",
-  "got": "**THE SESSION EXPIRED.** Every leaf came back as a 145-byte `{\"error\":\"Unauthorized\",\"message\":\"Unauthorized (anonymous session)\",\"status\":401}`. **That is a refusal and not an absence, and no nil is published for 1875.**\n\n**What was learned first is worth keeping: FROM 1875 ARIENZO SWITCHES TO THE PRINTED FORM** — «*ATTI DI MATRIMONIO · Numero due · **Verlazzo Carlo / Piscitelli Rosa***», 20 March 1875, with a printed header and a **numbered name box carrying both spouses**. *That is the format `tools/fsmargin.py` was written for, so 1875 onward should read faster than every year before it.*"
+  "got": "**THE SESSION EXPIRED.** Every leaf came back as a 145-byte `{\"error\":\"Unauthorized\",\"message\":\"Unauthorized (anonymous session)\",\"status\":401}`. **That is a refusal and not an absence, and no nil is published for 1875.**\n\n**What was learned first is worth keeping: FROM 1875 ARIENZO SWITCHES TO THE PRINTED FORM** — «*ATTI DI MATRIMONIO · Numero due · **Verlazzo Carlo / Piscitelli Rosa***», 20 March 1875, with a printed header and a **numbered name box carrying both spouses**. *That is the format `tools/fsmargin.py` was written for, so 1875 onward should read faster than every year before it.*",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Falco"
+  ]
  },
  {
   "when": "1866–1871",
@@ -2039,7 +2181,11 @@
   "src": "**WHERE MATTEO FALCO AND ALESSANDRA CRISCI DIED — the window, located but not yet read.**",
   "what": "The deaths of Matteo Falco and Alessandra Crisci",
   "outcome": "pending",
-  "got": "**THE WINDOW IS NOW SIX YEARS WIDE, AND IT WAS NOT KNOWN THIS MORNING.**\n\n**Both were dead by October 1871**, from two independent acts: their daughter **Vincenza's** marriage of 8 October 1871 and their daughter **Domenica's** of 10 October 1874 both read «*figlia **DE' FURONO** Matteo e Alessandra Crisci*» — the plural, in the clerk's own word.\n\n**And neither is in Antenati's Arienzo death series**, which `tools/isitread.py` reports **read act by act for FALCO across 1844–1865**, on top of the long 1816–1858 campaign.\n\n**So they died between 1866 and October 1871** — the six years after Antenati's Arienzo shelf ends and before their daughters' acts call them dead — **and those years are in `MC55-FNT`, the volume whose marriage books were read today.** The cover map in `data/fs-covers.tsv` already places **MORTE 1867 at images 236–275** and **MORTE 1868 at 341–381**; **1871's deaths have an annual index at image 661**.\n\n**A death act of this period gives the dead person's AGE, BIRTHPLACE and PARENTS** — for Matteo Falco the first document ever to name his own parents, for Alessandra Crisci the first of any kind after her last child in 1852.\n\n*Not read: the FamilySearch session expired at 22:31 on 9 October and every request since returns 401. **Nothing here is a negative.***"
+  "got": "**THE WINDOW IS NOW SIX YEARS WIDE, AND IT WAS NOT KNOWN THIS MORNING.**\n\n**Both were dead by October 1871**, from two independent acts: their daughter **Vincenza's** marriage of 8 October 1871 and their daughter **Domenica's** of 10 October 1874 both read «*figlia **DE' FURONO** Matteo e Alessandra Crisci*» — the plural, in the clerk's own word.\n\n**And neither is in Antenati's Arienzo death series**, which `tools/isitread.py` reports **read act by act for FALCO across 1844–1865**, on top of the long 1816–1858 campaign.\n\n**So they died between 1866 and October 1871** — the six years after Antenati's Arienzo shelf ends and before their daughters' acts call them dead — **and those years are in `MC55-FNT`, the volume whose marriage books were read today.** The cover map in `data/fs-covers.tsv` already places **MORTE 1867 at images 236–275** and **MORTE 1868 at 341–381**; **1871's deaths have an annual index at image 661**.\n\n**A death act of this period gives the dead person's AGE, BIRTHPLACE and PARENTS** — for Matteo Falco the first document ever to name his own parents, for Alessandra Crisci the first of any kind after her last child in 1852.\n\n*Not read: the FamilySearch session expired at 22:31 on 9 October and every request since returns 401. **Nothing here is a negative.***",
+  "tags": [
+   "FamilySearch",
+   "Falco"
+  ]
  },
  {
   "when": "1815",
@@ -2053,7 +2199,12 @@
   "src": "**SAN FELICE A CANCELLO, THE 1815 MARRIAGE INDEX — `an_ua50137`, four images, read out.** *Found on 10 October by asking Antenati what record types the town actually has: «**Matrimoni, indice**» runs 1815, 1817–1819, 1825–1845, 1847–1849, first ark `an_ua50137`, and the volumes are three to six images each.*\n\n**It is the richest finding aid this archive has met**: «*Nomi e Cognomi degli **Sposi** | Nomi e Cognomi de' **Genitori** | **Patria** | Giorno della celebrazione del Matrimonio*» — **both spouses, BOTH SETS OF PARENTS, each one's home town, and the date**, two lines to a marriage. *The town calls itself «li sei Casali d'Arienzo» at the head of it.*",
   "what": "The marriage of ANGELA ROSA MORGILLO's parents — a Morgillo groom and a Pesce bride",
   "outcome": "nothing",
-  "got": "**NO MORGILLO × PESCE.** The year's one Morgillo groom is **«34 — Pasquale Morgillo, fu Matteo e [Bordia] Laudato / Carmina B——, fu Domenico e Rosa Steffolino», 25 September 1815**, and his bride is not a Pesce. *Two Pesce grooms are in the year — Antonio Pesce «di Francesco e Carlo Isabella» who married Mª Luisa Maggiore of Arienzo on 2 January, and Andrea Pesce — and neither marries a Morgillo.*"
+  "got": "**NO MORGILLO × PESCE.** The year's one Morgillo groom is **«34 — Pasquale Morgillo, fu Matteo e [Bordia] Laudato / Carmina B——, fu Domenico e Rosa Steffolino», 25 September 1815**, and his bride is not a Pesce. *Two Pesce grooms are in the year — Antonio Pesce «di Francesco e Carlo Isabella» who married Mª Luisa Maggiore of Arienzo on 2 January, and Andrea Pesce — and neither marries a Morgillo.*",
+  "tags": [
+   "Antenati",
+   "San Felice a Cancello",
+   "Falco"
+  ]
  },
  {
   "when": "1814",
@@ -2067,7 +2218,12 @@
   "src": "**SAN FELICE A CANCELLO, MATRIMONI 1814 — `an_ua50226`, images 2–23, forty-two acts, every one swept at the spouses' band** (`--band 0.12 0.30 --half LR`).",
   "what": "The marriage of ANGELA ROSA MORGILLO's parents — a Morgillo groom and a Pesce bride",
   "outcome": "nothing",
-  "got": "**NO MORGILLO × PESCE in the forty-two acts.** *One Morgillo appears and she is a bride: **«Maria Rosa Morgillo, d'anni ventiquattro, filatrice, figlia maggiore di Gennaro Morgillo d'anni settanta, bracciale, domiciliato colla figlia»**.*\n\n**So the window narrows**: Angela Rosa Morgillo was born at San Felice on **24 February 1818**, and her parents' marriage is **not** in San Felice's registers of **1814, 1816 or 1817** (1816 and 1817 were read in September) **nor in its index of 1815**. *What is left there is **1809–1813** — `an_ua50221`–`an_ua50225`, 90 images — or they married in another comune.*"
+  "got": "**NO MORGILLO × PESCE in the forty-two acts.** *One Morgillo appears and she is a bride: **«Maria Rosa Morgillo, d'anni ventiquattro, filatrice, figlia maggiore di Gennaro Morgillo d'anni settanta, bracciale, domiciliato colla figlia»**.*\n\n**So the window narrows**: Angela Rosa Morgillo was born at San Felice on **24 February 1818**, and her parents' marriage is **not** in San Felice's registers of **1814, 1816 or 1817** (1816 and 1817 were read in September) **nor in its index of 1815**. *What is left there is **1809–1813** — `an_ua50221`–`an_ua50225`, 90 images — or they married in another comune.*",
+  "tags": [
+   "Antenati",
+   "San Felice a Cancello",
+   "Falco"
+  ]
  },
  {
   "when": "1809–1813",
@@ -2081,7 +2237,12 @@
   "src": "**SAN FELICE A CANCELLO, MATRIMONI 1809–1813 — five volumes, ninety images, EVERY ACT READ** at the spouses' band (`--band 0.12 0.30 --half LR --cols 3 --width 2600`). `an_ua50221` (1809, 21 acts), `an_ua50222` (1810, 22), `an_ua50223` (1811, 51 entries), `an_ua50224` (1812, to act 67), `an_ua50225` (1813, 21).\n\n**THE DENSITY MATTERS AND IS STATED.** *A first pass put fourteen images on one sheet; this archive's own rule is **nine**, because «a negative off an illegible sheet is worth nothing». Everything here was re-read at nine images to a sheet before any of it was written down.*\n\n*1809 and 1811 are **publication** registers — «ci hanno richiesto di procedere alla celebrazione del matrimonio fra loro» — and 1812–1814 are celebrations. Both name both parties and both sets of parents.*",
   "what": "The marriage of ANGELA ROSA MORGILLO's parents — a Morgillo groom and a Pesce bride",
   "outcome": "nothing",
-  "got": "**NOT ONE MORGILLO × PESCE IN FIVE YEARS.**\n\n*Morgillo are in the town and are read for what they are: **Nicola Morgillo**, 19, «figlio del fu Biaggio Morgillo e della Sig.ra Rosa d'Addio», married **Anna della Marca** in 1809; **Antonio Morgillo**, 25, «figlio del fu Giuseppe Morgillo e di Angela [Pascarello]», married a **Basilicata** in 1810; **Gelsomina Morgillo**, 29, «figlia maggiore del fu Giuseppe Morgillo … e di Angela Pascarello», married in 1812; **Agnese Morgillo** and **Alessandro Morgillo** appear as parents. **Pesce likewise** — Pellegrino Pesce «figlio di Giuseppe Pesce» in 1811, Tommaso Pesce's son in 1814, Giuseppa Pesce and Catarina Pesce as mothers. **The two surnames are both in the town and they do not meet.**\n\n**SO THE WHOLE OF SAN FELICE'S MARRIAGE RECORD FROM THE SERIES' START TO HER BIRTH IS NOW READ.** *1809, 1810, 1811, 1812, 1813 and 1814 act by act; **1815** from its annual index; **1816 and 1817** in September. **Angela Rosa Morgillo was born at San Felice on 24 February 1818 and her parents did not marry there.***\n\n**They married in another comune**, and the next places to look are the towns these registers themselves keep naming — **Santa Maria a Vico d'Arienzo**, **Arienzo**, **Cancello**, **Maddaloni**, **Forchia** — or the bride's own."
+  "got": "**NOT ONE MORGILLO × PESCE IN FIVE YEARS.**\n\n*Morgillo are in the town and are read for what they are: **Nicola Morgillo**, 19, «figlio del fu Biaggio Morgillo e della Sig.ra Rosa d'Addio», married **Anna della Marca** in 1809; **Antonio Morgillo**, 25, «figlio del fu Giuseppe Morgillo e di Angela [Pascarello]», married a **Basilicata** in 1810; **Gelsomina Morgillo**, 29, «figlia maggiore del fu Giuseppe Morgillo … e di Angela Pascarello», married in 1812; **Agnese Morgillo** and **Alessandro Morgillo** appear as parents. **Pesce likewise** — Pellegrino Pesce «figlio di Giuseppe Pesce» in 1811, Tommaso Pesce's son in 1814, Giuseppa Pesce and Catarina Pesce as mothers. **The two surnames are both in the town and they do not meet.**\n\n**SO THE WHOLE OF SAN FELICE'S MARRIAGE RECORD FROM THE SERIES' START TO HER BIRTH IS NOW READ.** *1809, 1810, 1811, 1812, 1813 and 1814 act by act; **1815** from its annual index; **1816 and 1817** in September. **Angela Rosa Morgillo was born at San Felice on 24 February 1818 and her parents did not marry there.***\n\n**They married in another comune**, and the next places to look are the towns these registers themselves keep naming — **Santa Maria a Vico d'Arienzo**, **Arienzo**, **Cancello**, **Maddaloni**, **Forchia** — or the bride's own.",
+  "tags": [
+   "Antenati",
+   "San Felice a Cancello",
+   "Falco"
+  ]
  },
  {
   "when": "1871",
@@ -3966,7 +4127,8 @@
    "Civil registration",
    "Falco",
    "name-box walk"
-  ]
+  ],
+  "waypoint": "MC55-VNL"
  },
  {
   "when": "Arienzo births 1879, 1880, 1881, 1882 and 1883 (Parte I and Parte II of each), read by the name box",
@@ -3986,7 +4148,8 @@
    "Civil registration",
    "Falco",
    "name-box walk"
-  ]
+  ],
+  "waypoint": "MC55-VNL"
  },
  {
   "when": "Arienzo 1886: births (Parte I and II), deaths (Parte I and II) and the last four marriage acts with their Parte II, read by the name box",
@@ -4006,6 +4169,7 @@
    "Civil registration",
    "Falco",
    "name-box walk"
-  ]
+  ],
+  "waypoint": "MC55-VNL"
  }
 ]
