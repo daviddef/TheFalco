@@ -4171,5 +4171,26 @@
    "name-box walk"
   ],
   "waypoint": "MC55-VNL"
+ },
+ {
+  "when": "Arienzo 1887: marriages (Parte I and II), births (Parte I and II), the Cittadinanza register, deaths (Parte I and II) and the first 22 acts of the 1888 marriages, read by the name box",
+  "pages": "MC55-VNL leaves 1091–1115 (marriages, acts 1–43), 1117–1177 (births, acts 1–168), 1179–1180 (Cittadinanza, 2 acts), 1182–1215 (deaths, acts 1–117, Parte II 3–4 acts), 1218–1230 (1888 marriages, acts 1–22)",
+  "src": "Same in-pane contact-sheet method as the 1879–86 rows; numbers continuous in every book; act 12 of the deaths and the last numeral of the births zoomed from the leaf.",
+  "what": "**Falco boxes of 1887 — births 19 and 114; deaths 21, 47 and 112 — no marriage box**",
+  "got": "Every box matches the table (V323, V327, V330, V333, V337; V320 and V329 as noted). No Falco, De Falco or Falcone that is not already in the table. A box shows only the principal, so the mother/declarant-only acts (V321, V322, V324–V326, V328, V331, V332, V334–V336) rest on the second reading and `walked` stays false.",
+  "searchedOn": "2026-11-09",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "walked": false,
+  "outcome": "nil",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Falco",
+   "name-box walk"
+  ],
+  "waypoint": "MC55-VNL"
  }
 ]

@@ -3812,3 +3812,23 @@ sits just before each *Nascita* title leaf); the 1879–81 death books each carr
 *before* its main register); every Parte II is a title leaf with 0–5 acts; 1063/1064 and 308/309 and 427/428 are duplicate exposures.
 
 **Re-read, 4 November 2026 (same day).** Several contact sheets of this walk first came back from the reader as «media removed: request limit» and were not on record as seen when their rows were written (1886 births 1037–1055 and deaths 1061–1091; 1879 births 170–236; 1880 births 296–302). They were opened and read from the pictures afterwards: every box and act number is as logged, no Falco appears that is not already in the table (1879 acts 31 and 124 and 40; 1886 deaths 51 and 73), and the 1886 duplicate exposure at 1063/1064 is confirmed. One extra sighting from the 1880 marriage tail on sheet 296: leaf 298L box «Numero trentuno: Carfora Pasquale / Falco Pasqua» is the table's V229 (marriage no. 31, 30 Dec 1880), nothing new. `walked` stays false for the reasons above.
+
+## The 1887 books, walked by the name box (9 November 2026)
+
+Same method as 1879–86: whole-leaf contact sheets of both outer-margin strips of every leaf of MC55-VNL 1090–1230, read from the pictures, each box compared with the second-reading table. Surname terms from the Atlas catalogue (`terms Falco`: Falco, De Falco, Falcone); `cover` exits 0 with «Falco, De Falco, Falcone» typed. **Verdict: nothing new. Every Falco box of 1887 is a row the table already has.**
+
+| book | leaves | acts in boxes | Falco boxes (table row) |
+|---|---|---|---|
+| Matrimoni, Parte I | 1091R–1113L | 1–43, continuous, visto Gennaio 1888 | none in a box (act 32, box «Giglio Luigi», is V320: the Falco is the groom's dead mother) |
+| Matrimoni, Parte II | 1114R–1115L | 0 | none |
+| Nascite, Parte I | 1117R–1174R | 1–168, continuous, visto Gennaio 1888 | 19 Falco Maria (V323); 114 Falco Maria (V327) |
+| Nascite, Parte II | 1175R–1177L | 0 | none |
+| Cittadinanza (small register between births and deaths) | 1179R–1180R | 2 | none |
+| Morti, Parte I | 1182R–1212L | 1–117, continuous, visto Gennaio 1888 | 21 Falco Carmine (V330); 47 Falco Carolina (V333); 112 Falco Andreana (V337) |
+| Morti, Parte II | 1213R–1215R | 3–4 | none |
+
+**Two readings corrected inside the walk.** Deaths act 12: the first contact-sheet reading «Piscitelli Francesco» was wrong; zoomed from the leaf, the box and body say «Ferrillo Francesco», as the table's V329 has it (its Falco is the declarant). Births last act: the second box of leaf 1174L is «Centosessantotto» (zoomed), so the book ends at 168, not 167.
+
+**What a box cannot show.** A box names the child or the deceased only, so the births in which a Falco is mother or declarant (acts 8, 14, 20, 26, 99, 126: V321, V322, V324, V325, V326, V328) and the deaths of the same kind (32, 35, 61, 74, 85: V331, V332, V334, V335, V336) do not appear in a box walk and rest on the second reading alone. `walked` stays false.
+
+**Layout facts for 1887.** One marriage act to a page, two to a leaf; births and deaths two boxes to a strip. The Cittadinanza register is filmed between the births and the deaths. The 1887 marriage Parte II and births Parte II hold no acts (a title leaf and a closing note). The 1888 marriage book opens at 1218R (title leaf) with act 1 on 1219L; acts 1–22 are read (leaves 1219–1230, continuous) and match V338/V339 (act 21 box «Porrino Clemente / Falco Lucia»); the 1888 walk resumes at 1231.
