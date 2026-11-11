@@ -11,6 +11,9 @@ import JsonLd from "@daviddef/archive-kit/components/JsonLd.astro";
 import VisitCount from "@daviddef/archive-kit/components/VisitCount.astro";
 import BookHead from "@daviddef/archive-kit/components/BookHead.astro";
 import BookFoot from "@daviddef/archive-kit/components/BookFoot.astro";
+import PulseRibbon from "@daviddef/archive-kit/components/PulseRibbon.astro";
+import SearchPop from "@daviddef/archive-kit/components/SearchPop.astro";
+import { pulse } from "../lib/pulse.js";
 import book from "../data/book.json";
 import ring from "@daviddef/archive-kit/data/archives.json";
 const { title, description = "", dek, eyebrow, bare, noindex = false, noautolink = false, ownHeader = false } = Astro.props;
@@ -34,7 +37,7 @@ const _d = _lead.length >= 30 ? _lead : _fallback;
 const metaDesc = _d.length <= 200 ? _d
   : _d.slice(0, 199).replace(/\s+\S*$/, "").replace(/[\s,;:\u2014-]+$/, "") + "\u2026";
 const nav = [
-  ["Start", [["/", "Home"], ["/story/", "The story"], ["/about/", "About"], ["/trees/", "The trees"], ["/tree/", "Our line, drawn"], ["/roots/", "Roots & Routes"], ["/atlas/", "The Atlas"], ["/timeline/", "The Timeline"], ["/dna/", "The DNA"], ["/rule/", "Under Whose Rule"]]],
+  ["Start", [["/", "Home"], ["/story/", "The story"], ["/about/", "About"], ["/trees/", "The trees"], ["/tree/", "Our line, drawn"], ["/roots/", "Roots & Routes"], ["/atlas/", "The Atlas"], ["/timeline/", "The Timeline"], ["/whats-new/", "What's new"], ["/dna/", "The DNA"], ["/rule/", "Under Whose Rule"]]],
   ["Our line", [["/direct-line/", "The Spine"], ["/australia/", "Australia"], ["/lines/", "Where they went"]]],
   ["The families", [["/families/", "The Families"], ["/wider-family/", "The Wider Family"], ["/zampiello/", "Zampiello"], ["/annecchino/", "Annecchino"], ["/maione/", "Maione"], ["/ferrara/", "Ferrara"], ["/morgillo/", "Morgillo"], ["/carfora/", "Carfora"], ["/crisci/", "Crisci"], ["/rivetti/", "Rivetti"], ["/families/cioffi/", "Cioffi"], ["/families/diglio/", "Diglio"], ["/families/zimbardo/", "Zimbardo"], ["/families/biondo/", "Biondo"], ["/families/cimmino/", "Cimmino"], ["/liguori/", "The Bishop"]]],
   ["People & places", [["/people/", "The People"], ["/who/", "Every Name"], ["/bloodline/", "Blood relatives, drawn"], ["/register/", "The Register"], ["/households/", "Households"], ["/marriages/", "The Marriages"], ["/graves/", "Graves"], ["/places/", "Places"], ["/walk/", "Walk the Line"], ["/journeys/", "Journeys"], ["/arienzo/", "Arienzo"], ["/camellara/", "Strada Camellara"], ["/valle-caudina/", "Valle Caudina"], ["/diaspora/", "Where the Name Went"]]],
@@ -110,7 +113,7 @@ const thisArchive =
           </div>
         </details>
       ))}
-      <a class="findbtn" href={u("/search/")} aria-label="Search the archive">Search</a>
+      <PulseRibbon pulse={pulse} />
     </nav>
   </div>
   <div class="drawer" id="drawer" hidden>
@@ -120,10 +123,11 @@ const thisArchive =
       </div>
     ))}
       {/* the header's Search pill is hidden with the nav on a narrow screen; without this a phone or a tablet has no way to /search/ */}
-      <div class="dgrp"><a href={u("/search/")} class={on("/search/") ? "on" : ""}>Search the archive</a></div>
+      <div class="dgrp"><a href={u("/search/")} class={on("/search/") ? "on" : ""} data-search-open>Search the archive</a></div>
     </div>
   </div>
 </header>
+<SearchPop tries={["Arienzo", "Pasquale", "Zampiello", "processetti"]} />
 {/* The book (17 October 2026): the running head sits under the header, Previous / Next above the footer. */}
 <BookHead book={book} u={u} />
 
