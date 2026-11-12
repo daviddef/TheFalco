@@ -3989,7 +3989,7 @@
 ]
 },
 {
-"slug": "silvestro-biondo-2-2",
+"slug": "silvestro-biondo",
 "name": "Silvestro Biondo",
 "via": "tree",
 "vias": [
@@ -4083,7 +4083,7 @@
 ]
 },
 {
-"slug": "silvestro-biondo-2-2",
+"slug": "silvestro-biondo",
 "name": "Silvestro Biondo",
 "via": "tree",
 "vias": [
@@ -4174,7 +4174,7 @@
 "children": [],
 "siblings": [
 {
-"slug": "silvestro-biondo-2-2",
+"slug": "silvestro-biondo",
 "name": "Silvestro Biondo",
 "via": "tree",
 "vias": [
@@ -4277,7 +4277,7 @@
 ]
 },
 {
-"slug": "silvestro-biondo-2-2",
+"slug": "silvestro-biondo",
 "name": "Silvestro Biondo",
 "via": "tree",
 "vias": [
@@ -4406,7 +4406,7 @@
 ]
 },
 {
-"slug": "silvestro-biondo-2-2",
+"slug": "silvestro-biondo",
 "name": "Silvestro Biondo",
 "via": "tree",
 "vias": [
@@ -4509,7 +4509,7 @@
 ]
 },
 {
-"slug": "silvestro-biondo-2-2",
+"slug": "silvestro-biondo",
 "name": "Silvestro Biondo",
 "via": "tree",
 "vias": [
@@ -4579,7 +4579,57 @@
 }
 ],
 "sources": [
-"register",
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"d": "14 Jul 1881",
+"dateFrom": {
+"d": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
+"slug": "silvestro-biondo-of-matteo-falco-alessandra-crisci",
+"name": "Silvestro Biondo (of Nicola Biondo and Clementina Falco, b. 1886)",
+"surname": "BIONDO",
+"household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "13 Sep 1886",
+"place": "Arienzo, via Orticelli 20",
+"evidence": "Arienzo, *Nascite* **1886**, **act 118** — **A SECOND SILVESTRO, BORN TO THE SAME HOUSE FIVE YEARS AFTER THE FIRST ONE DIED.** Declared at 9.12 a.m. on 15 September 1886 in the Casa Comunale before the delegated assessor Raffaele de Muso by «*Nicola Biondo, di anni trentacinque, seccatore*», who declared that at half past four on the morning of the thirteenth, in the house at «*via Orticelli … numero venti*», «***da Clementina Falco sua moglie, tessitrice, seco lui convivente***» a male child was born, to whom he gave the name Silvestro. Witnesses «*Maione Francesco, di anni trentotto, contadino*» and «*Felice Morgillo, di anni cinquantaquattro*»; neither signed, «*perchè illetterati*». The mother's surname, zoomed at level 13, reads FALCO; the house, the trade and the husband's name are those this household already holds (via Orticelli no. 20: Rosa 1885, Domenico 1890, Raffaela 1897, Clementina's own death 1900). The first Silvestro, two years old, died on 14 July 1881 (Morti 1881 act 65, held); the name was given again. **Marginal note, a later hand, zoomed at level 13:** «*Con atto 16-4-914 N. 7 in Arienzo il Biondo sposò Morgillo Angel[a]*» (the last letter is ambiguous, an «a» with a long tail running into the right-hand box; a woman is expected, the child being male) and a signature. It points to a marriage at Arienzo on 16 April 1914, act 7, which this archive does not yet hold; **the margin is the only evidence of it and the act itself has not been read.** Nicola's age is thirty-five here against twenty-six at his marriage in 1878 and twenty-eight in 1882: ages are guessed in these registers.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1037 (left page), Nascite 1886 atto 118 — READ FROM THE IMAGE, level 13, 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "13 Sep 1886",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
+"slug": "silvestro-biondo",
+"name": "Silvestro Biondo",
+"surname": "BIONDO",
+"household": null,
+"role": null,
+"events": [],
+"sources": [
 "tree"
 ],
 "living": false,
@@ -4653,16 +4703,15 @@
 ]
 }
 ],
-"mergedOn": "name and dates",
 "treeId": 4512441,
 "b": "June 28 1879",
 "dateFrom": {
 "b": "tree",
-"d": "act",
+"d": "tree",
 "bp": "tree",
 "dp": "tree"
 },
-"d": "14 Jul 1881",
+"d": "June 14 1881",
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
@@ -4707,7 +4756,7 @@
 ]
 },
 {
-"slug": "silvestro-biondo-2-2",
+"slug": "silvestro-biondo",
 "name": "Silvestro Biondo",
 "via": "tree",
 "vias": [
@@ -26041,6 +26090,13 @@
 "place": "Arienzo, via Corso Caudino 71",
 "evidence": "Arienzo, *Nascite* **1886**, **act 17**: Giuseppe Diglio, born 26 January 1886 at via Corso Caudino no. 71 to Angelo Diglio, 40, sarto (the declarant, who alone signed), and Maria d'Ambrosio; declared 30 January. Witnesses «*Migliore Carmine, di anni ventiquattro, giornaliero*» and «***Antonio Falco, di anni quarantadue, agricoltore***» (level 13). **A SIGHTING, NOT A PLACING.** The act gives no residence for him (only «entrambi residenti in questo Comune») and does not say he is the Antonio Falco of via Orticelli no. 3 who declared act 6 of the same register twenty days earlier (10 January 1886) at the age of forty-two, also an agricoltore. The identification rests on the same age, the same trade and the same month, and on nothing else: **no kinship to the Diglio or the Migliore house is stated or claimed.** Read from the image at level 13 on 13 November 2026.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1003 (right page), Nascite 1886 atto 17 — READ FROM THE IMAGE, level 13, 13 November 2026"
+},
+{
+"event": "named as a witness at a birth",
+"date": "16 Oct 1886",
+"place": "Arienzo, via Orticelli 12",
+"evidence": "Arienzo, *Nascite* **1886**, **act 131**: Domenico Crisci, born at half past ten in the evening of 15 October 1886 at via Orticelli no. 12 to Giuseppe Crisci, 46, calzolaio (the declarant), and Filomena Cillo, filatrice; declared at 10.40 a.m. on 16 October. Witnesses «*Crisci Marcantonio, di anni ventotto, calzolaio*» and «***Antonio Falco, di anni quarantadue, agricoltore***» (level 13); neither signed, «*perchè illetterati*». **A SIGHTING, NOT A PLACING.** The act gives no residence for him (only «entrambi residenti in questo Comune»). Forty-two and agricoltore are the age and trade of the Antonio Falco who declared act 6 of this register on 10 January 1886 (via Orticelli no. 3) and who witnessed act 17 on 30 January 1886 (also held here); **the three sightings are probably one man, but no act says so, and no kinship to the Crisci or Cillo house is stated or claimed.** Read from the image at level 13 on 13 November 2026.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1041 (right page), Nascite 1886 atto 131 — READ FROM THE IMAGE, level 13, 13 November 2026"
 }
 ],
 "sources": [
@@ -33268,7 +33324,7 @@
 ]
 },
 {
-"slug": "silvestro-biondo-2-2",
+"slug": "silvestro-biondo",
 "name": "Silvestro Biondo",
 "via": "tree",
 "vias": [
