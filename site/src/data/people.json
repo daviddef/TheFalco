@@ -2548,6 +2548,36 @@
 "noKin": "attended-the-act"
 },
 {
+"slug": "adele-anzivino",
+"name": "Adele Anzivino (of Alfonso and Marianna Falco, b. 1888)",
+"surname": "ANZIVINO",
+"household": "Andrea Falco & Maria Carmela Buono",
+"hid": "andrea-falco-maria-carmela-buono",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "13 Feb 1888",
+"place": "Arienzo, Corso Allegria 4",
+"evidence": "Arienzo, *Nascite* **1888**, **act 29** (declared 15 February 1888, 10.20 a.m., Casa Comunale, before «*Biagio Diglio, assessore delegato con atto del Sindaco in data undici Novembre milleottocentottantasette*»; day and month of the declaration read at level 12, hour and officiant at level 13, z395): «*è comparso **Alfonso Anzevino**, di anni **quarantotto**, **possidente**, domiciliato in Arienzo*», who declared that at ten in the morning (the minutes left blank) «*del dì tredici del corrente mese, nella casa posta in Co[r]so dell'Allegria al numero quattro, da **Marianna Falco** sua moglie legittima, è nato un bambino di sesso femminile*» to whom he gives the name «*Adele*» (level 13, z396; the first word of the street is written «*Cono*»-like, with the r and s flattened, and is read as Corso on the strength of this couple's acts of 1881 and 1892, which hold Corso dell'Allegria 9 and 2). The surname is written **«Anzevino»** in the name box, the declarant line and the witness line of this act (the hand's n and u are alike before the z; level 13, z395, z397, z398), where the same couple's 1881 death act and 1892 death act, held in this household, write Anzivino. Witnesses «*Giovanni Fierro, di anni quarantatre, sarto*» and «*Vincenzo Anzevino, di anni trentasei, calzolaio*», both resident in the commune (level 13, z397); the act says the declarant alone signed, the witnesses being illiterate, and the declarant's signature stands below the closing formula (read at level 12 only); no kinship of either witness to the house is claimed here. **The name box and a later hand.** Name box: «*Numero Ventinove — Anzevino Adele*». In the left margin, a later hand in pencil: «*Con atto 22/2 1917 N° 2 Anzevino Adele sposò Benedetto Angelo*» (the place of that marriage is not named), and under it a second note in another pen, «*Deceduto in Arienzo il 1-11-58, S. Maria C.V. 13-3-59*» — «Deceduto» is masculine and the note does not say whom it concerns (level 13, z398), so it is not attributed. **A DAUGHTER THIS HOUSE DID NOT HAVE.** The household held two children of Marianna Falco and Alfonso Anzivino, Lelio (d. 1881) and Fabrizio (d. 1892, aged 18 years 10 months); Adele, born 13 February 1888, is a third. The couple is identified by the husband's name, trade and age (48 in 1888; the household's marriage act of 7 Aug 1870 makes him 30 then), the street, and Marianna Falco's own name; the mother's parentage rests on that identification, not on this act, which does not name her father.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1252 (left page, then the top of the right page), Nascite 1888 atto 29 — READ FROM THE IMAGE, level 12, with the declarant, address and mother, the witnesses, and the name box with its margin notes zoomed at level 13 (z395, z396, z397, z398), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "13 Feb 1888",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "fabrizio-anzivino",
 "name": "Fabrizio Anzivino (of Alfonso and Marianna Falco, d. 1892)",
 "surname": "ANZIVINO",
@@ -2621,6 +2651,13 @@
 "place": "Arienzo, Casa Comunale",
 "evidence": "The other party to the marriage of 7 Aug 1870 (Matrimoni 1870, act 26): Luigi Alfonso Paolo Anzivino, possidente, anni trenta compiti, son of the late Angelo and Brigida Stefanile(?).",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 554, Matrimoni 1870 atto 26 — read by a delegated reader and independently re-read by a second (V040)"
+},
+{
+"event": "named as father in his daughter's birth act",
+"date": "13 Feb 1888",
+"place": "Arienzo, Corso Allegria 4",
+"evidence": "Named as the father and the declarant in the birth act of his daughter Adele (Nascite 1888, act 29): «*Alfonso Anzevino, di anni quarantotto, possidente, domiciliato in Arienzo*» (level 13, z395). The act writes the surname Anzevino; the household's other acts for this man write Anzivino. His age agrees with the 1870 marriage act (30 then), and he signs (the act says the declarant alone signed, the witnesses being illiterate).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1252 (left page, then the top of the right page), Nascite 1888 atto 29 — READ FROM THE IMAGE, level 12, with the declarant, address and mother, the witnesses, and the name box with its margin notes zoomed at level 13 (z395, z396, z397, z398), 13 November 2026"
 }
 ],
 "sources": [
@@ -53555,6 +53592,13 @@
 "place": "Arienzo, Casa Comunale",
 "evidence": "Matrimoni 1870 act 26 (Arienzo): Marianna Falco, tessitrice, aged 19, daughter of Andrea and Carmela Buono, marries Luigi Alfonso Paolo Anzivino, possidente, aged 30. Margin: N. 26 Matrimonio che si contrae tra Luigi Alfonso Paolo Anzivino, e Marianna Falco. *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.***",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 554, Matrimoni 1870 atto 26 — read by a delegated reader and independently re-read by a second (V040)"
+},
+{
+"event": "named as mother in her daughter's birth act",
+"date": "13 Feb 1888",
+"place": "Arienzo, Corso Allegria 4",
+"evidence": "Named as the mother in the birth act of her daughter Adele (Nascite 1888, act 29, declared 15 Feb 1888), read from the image: «*da **Marianna Falco** sua moglie legittima*» at Corso dell'Allegria no. 4 (level 13, z396; the surname's F is written lowercase in this hand, «*falco*»). Identified with this household's Marianna Falco by her husband, his trade and street, and by her two other children held here; the act itself does not name her parents.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1252 (left page, then the top of the right page), Nascite 1888 atto 29 — READ FROM THE IMAGE, level 12, with the declarant, address and mother, the witnesses, and the name box with its margin notes zoomed at level 13 (z395, z396, z397, z398), 13 November 2026"
 }
 ],
 "sources": [
@@ -81662,6 +81706,36 @@
 "children": [],
 "siblings": [],
 "b": "27 Aug 1885",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
+"slug": "giovanna-ruotolo",
+"name": "Giovanna Ruotolo (of Pasquale Ruotolo & Maria Felice Falco, b. 1888)",
+"surname": "RUOTOLO",
+"household": "Crescenzo Falco & Angela Maria Morgillo",
+"hid": "crescenzo-falco-angela-maria-morgillo",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "18 Feb 1888",
+"place": "Arienzo, via Castelpoto 5",
+"evidence": "Arienzo, *Nascite* **1888**, **act 34** (declared 19 February 1888, 10.20 a.m., Casa Comunale, before «*Biagio Diglio, assessore delegato con atto del Sindaco in data undici Novembre milleottocentottantasette*», level 13, z399): «*è comparso **Pasquale Ruotolo**, di anni **quarantadue**, contadino, domiciliato in Arienzo*», who declared that at 4.50 a.m. «*del dì diciotto del corrente mese, nella casa posta in via Castelpoto al numero cinque, da **Felicia Falco** sua moglie legittima, è nato un bambino di sesso femminile*» to whom he gives the name «*Giovanna*» (level 13, z400 and z401; the F of the surname is written lowercase in this hand, «*falco*»). Witnesses «*Antonio d'Onofrio, di anni sessantotto, scrivente*» and «*Andrea Saccone, di anni sessantanove, scrivente*», both resident in the commune (level 13, z401); the closing formula says that only the witnesses signed, the declarant being «*qualificato analfabeta*» (level 12), and Antonio d'Onofrio's signature follows. Name box: «*Numero Trentaquattro — Ruotolo Giovanna*»; no later-hand note on this act (level 12). **A THIRD CHILD OF THIS COUPLE ON THE PAGE, AND A MOVE.** The household holds Maria Ruotolo (d. 13 Aug 1881, via Cumellara 18) and Francesco Ruotolo (b. 27 Aug 1885, via Cumellara 30), both of a Pasquale Ruotolo, agricoltore, and a Felicia Falco, contadina; Maria Felice Falco, born 1845 in this house, married Pasquale Ruotolo on 3 Feb 1873 (rows above). The names, the trade and the man's age agree (40 in August 1885, 42 here), but the house is now **via Castelpoto 5**, not via Cumellara, so the identification rests on the parents' names and trade and is INFERRED, as it is for the 1885 act; this act does not name Felicia's parents. Antonio d'Onofrio and Andrea Saccone stand as witnesses in many acts of these registers and are not claimed as kin to the house.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1254 (left page, then the top of the right page), Nascite 1888 atto 34 — READ FROM THE IMAGE, level 12, with the date and officiant, the declarant, address and mother, and the witnesses zoomed at level 13 (z399, z400, z401), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "18 Feb 1888",
 "dateFrom": {
 "b": "act"
 },
