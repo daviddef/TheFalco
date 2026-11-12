@@ -71995,6 +71995,36 @@
 "noKin": "attended-the-act"
 },
 {
+"slug": "gennaro-martone",
+"name": "Gennaro Martone (of Antonio Martone and Carmela Falco, b. 1887)",
+"surname": "MARTONE",
+"household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+"hid": "angelo-falco-annamaria-cimmino-corso-caudino",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "3 Oct 1887",
+"place": "Arienzo, Corso Caudino 84",
+"evidence": "Arienzo, *Nascite* **1887**, **act 126** (declared 7 October 1887, 9.40 a.m., before Notar Parido Guerriero): «*Martone Gennaro*», male, born at 9.30 p.m. on the third of the month at via Corso Caudino, house number «*ottantaquattro*», declared by his father «***Antonio Martone**, di anni **ventisei**, cappellaio*» (level 13, z362) «*da **Carmela Falco** sua moglie, cucitrice, seco lui convivente*» (level 13, z361: the surname is a plain F-a-l-c-o). Witnesses Domenico Carfora, 52, calzolaio, and Pasquale Perrotta, 32, sarto; the declarant alone signed («*Antonio Martone*»), the witnesses being unable to write. A stamped later note in the right margin records a death in Arienzo in January 1960. PLACED in this household on the parents' names, trade and street: Carmela Falco, daughter of Angelo and Maria Cimmino, cucitrice, married **Francescantonio Martone, cappellaio, of San Felice a Cancello, son of GENNARO**, on 25 June 1886 (Matrimoni 1886 act 14, held here), and the child is named for that grandfather; the 1897 death of their son Giovanni is in the same street (Corso Caudino 88). One small disagreement recorded, not resolved: the marriage act gives the groom's age as 28, this act as 26 (ages are guessed). Gennaro is the first child of this marriage that the archive holds a birth act for.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1160 (right page), Nascite 1887 atto 126 — READ FROM THE IMAGE, level 13, 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "3 Oct 1887",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "giovanna-martone",
 "name": "Giovanna Martone (Falco)",
 "surname": "MARTONE",
