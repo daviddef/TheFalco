@@ -82183,6 +82183,13 @@
 "role": "grandchild",
 "events": [
 {
+"event": "birth",
+"date": "3 Mar 1888",
+"place": "Arienzo, via Camellara 6",
+"evidence": "Arienzo, *Nascite* **1888**, **act 47** (declared **4 March 1888**, 11.15 a.m., Casa Comunale, before Biagio Diglio, assessore delegato by act of 11 November 1887): «*Saccavino Matteo*» (name box, level 13, z404), male, born at 1.30 a.m. on the 3rd of the month («*del dì tre*», level 13, z402) at via Cumellara, house no. «*Sei*» (6; level 13, z402 — the same house the household's other Saccavino children were born and died in), declared by his father «***Pasquale Saccavino**, di anni **trentatre**, contadino*» (level 13, z402) «*da **Domenica Falco**, sua moglie legittima*» (surname read at level 13, z402; the act gives her no trade). Witnesses (right page, level 13, z406): «*Tommaso Diglio, di anni trenta, contadino*» and «*Cesare Diglio, di anni sessanta, contadino*»; the act was read to them and they could not write. No later-hand margin note. **THE BIRTH OF THE BOY WHOSE DEATH THE ARCHIVE ALREADY HELD.** This household's Morti 1888 act 48 records Matteo Saccavino, aged two months, dying on 11 May 1888 at via Cumellara 6, son of Pasquale Saccavino and Domenica Falco; a birth on 3 March 1888 at that house makes two months and eight days. **He is the SECOND Matteo of this couple** (the first died on 17 November 1883 aged one year and one month, Morti 1883 act 72), named again after the mother's father Matteo Falco. The household's two children of 1884 and 1888 are now both held from their birth acts. **Domenica Falco, b. 13 September 1846, would have been 41.** Pasquale Saccavino's age is 33 here; the household's other acts give 27 (1881), 30 (1884) and about 41-44 (1896): the clerks guessed, as everywhere, and the name, the street, the house number and the wife's name settle the identity, not the age.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1258 (left page; witnesses on the right page), Nascite 1888 atto 47 — READ FROM THE IMAGE, levels 12-13, 13 November 2026 (ark 3:1:3QS7-L97F-MZWS)"
+},
+{
 "event": "death",
 "date": "11 May 1888",
 "place": "Arienzo, via Camellara 6",
@@ -82198,10 +82205,12 @@
 "spouses": [],
 "children": [],
 "siblings": [],
-"d": "11 May 1888",
+"b": "3 Mar 1888",
 "dateFrom": {
+"b": "act",
 "d": "act"
 },
+"d": "11 May 1888",
 "noKin": "no-edge-recorded"
 },
 {
