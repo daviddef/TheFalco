@@ -31,7 +31,7 @@
     "check:pulse": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpulse.py --dist dist",
     "check:book": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkbook.py --dist dist --book src/data/book.json",
     "check:lines": "python3 ../tools/build_living_slugs.py && python3 node_modules/@daviddef/archive-kit/kit/tools/checklines.py --lines src/data/strands.json --dist ${ARCHIVE_OUT:-dist} --config standard.json --living ../private/living-slugs.json && python3 node_modules/@daviddef/archive-kit/kit/tools/checklines.py --selftest",
-    "check:nav": "python3 node_modules/@daviddef/archive-kit/kit/tools/checknav.py --dist dist --strict",
+    "check:nav": "python3 node_modules/@daviddef/archive-kit/kit/tools/checknav.py --dist dist --canon menu-canon.json",
     "check:inline": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkinline.py --root . --max-inline 16",
     "check:rows": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkrows.py --root . --require",
     "check:prose": "python3 ../tools/check_prose.py",

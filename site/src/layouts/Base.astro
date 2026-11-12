@@ -4,6 +4,7 @@ import { versioner } from "@daviddef/archive-kit/lib/assetv.js";
 /* every public asset gets a fingerprint, so a fix is never served stale */
 const v = versioner();
 import { u } from "../lib/url.js";
+import { navGroups } from "../lib/research-menu.js";
 import SiblingArchives from "@daviddef/archive-kit/components/SiblingArchives.astro";
 import SkipLink from "@daviddef/archive-kit/components/SkipLink.astro";
 import SocialHead from "@daviddef/archive-kit/components/SocialHead.astro";
@@ -42,8 +43,11 @@ const nav = [
   ["The families", [["/families/", "The Families"], ["/wider-family/", "The Wider Family"], ["/zampiello/", "Zampiello"], ["/annecchino/", "Annecchino"], ["/maione/", "Maione"], ["/ferrara/", "Ferrara"], ["/morgillo/", "Morgillo"], ["/carfora/", "Carfora"], ["/crisci/", "Crisci"], ["/rivetti/", "Rivetti"], ["/families/cioffi/", "Cioffi"], ["/families/diglio/", "Diglio"], ["/families/zimbardo/", "Zimbardo"], ["/families/biondo/", "Biondo"], ["/families/cimmino/", "Cimmino"], ["/liguori/", "The Bishop"]]],
   ["People & places", [["/people/", "The People"], ["/who/", "Every Name"], ["/bloodline/", "Blood relatives, drawn"], ["/register/", "The Register"], ["/households/", "Households"], ["/marriages/", "The Marriages"], ["/graves/", "Graves"], ["/places/", "Places"], ["/walk/", "Walk the Line"], ["/journeys/", "Journeys"], ["/arienzo/", "Arienzo"], ["/camellara/", "Strada Camellara"], ["/valle-caudina/", "Valle Caudina"], ["/diaspora/", "Where the Name Went"]]],
   ["The name", [["/name/", "The Name"], ["/which-falco/", "Which Falco?"], ["/namesakes/", "Namesakes"], ["/arms/", "Arms"]]],
-  ["Evidence", [["/method/", "Method"], ["/sources/", "Sources"], ["/searched/", "What Has Been Read"], ["/open-questions/", "Open Questions"], ["/errands/", "Errands"], ["/worklist/", "The work list"], ["/corrections/", "Corrections"], ["/changes/", "What changed"], ["/documents/", "Documents"], ["/gallery/", "Gallery"]]],
-  ["Investigations", [["/antenati/", "Antenati"], ["/processetti/", "The Processetti"], ["/holdings/", "Holdings"], ["/the-library/", "The Library"], ["/research-log/", "Research Log"]]],
+  /* 12 November 2026 (the research-menu trial, wave 3): "Evidence" and "Investigations" are one "Research" menu with three groups.
+     The list is lib/research-menu.js (the header, the drawer and the group pages all read it). A menu is a flat list of [href, label],
+     or a list of groups { head, href, items }, an item being [href, label] or { sub } (a plain sub-label). Every address of the two old
+     menus is still a built page; none moved. */
+  ["Research", navGroups],
 ];
 
 const here = Astro.url.pathname.replace(/\/$/, "");
@@ -108,9 +112,19 @@ const thisArchive =
       {nav.map(([label, links]) => (
         <details class="menu">
           <summary>{label}</summary>
-          <div class={links.length > 16 ? "panel cols" : "panel"} style={links.length > 16 ? `--rows:${Math.ceil(links.length / 2)}` : undefined}>
-            {links.map(([h, l]) => <a href={u(h)} class={on(h) ? "on" : ""}>{l}</a>)}
-          </div>
+          {links[0] && links[0].items
+            ? <div class="panel wide">
+                {links.map((g) => (
+                  <div class="pg">
+                    <a href={u(g.href)} class={"ph" + (on(g.href) ? " on" : "")}>{g.head}</a>
+                    {g.items.map((x) => Array.isArray(x)
+                      ? <a href={u(x[0])} class={on(x[0]) ? "on" : ""}>{x[1]}</a>
+                      : <span class="ps">{x.sub}</span>)}
+                  </div>))}
+              </div>
+            : <div class={links.length > 16 ? "panel cols" : "panel"} style={links.length > 16 ? `--rows:${Math.ceil(links.length / 2)}` : undefined}>
+                {links.map(([h, l]) => <a href={u(h)} class={on(h) ? "on" : ""}>{l}</a>)}
+              </div>}
         </details>
       ))}
       <PulseRibbon pulse={pulse} />
@@ -119,7 +133,15 @@ const thisArchive =
   <div class="drawer" id="drawer" hidden>
     <div class="wrap">{nav.map(([label, links]) => (
       <div class="dgrp"><span class="gl">{label}</span>
-        {links.map(([h, l]) => <a href={u(h)} class={on(h) ? "on" : ""}>{l}</a>)}
+        {links[0] && links[0].items
+          ? links.map((g) => (
+              <div class="dsub">
+                <a href={u(g.href)} class={"ph" + (on(g.href) ? " on" : "")}>{g.head}</a>
+                {g.items.map((x) => Array.isArray(x)
+                  ? <a href={u(x[0])} class={on(x[0]) ? "on" : ""}>{x[1]}</a>
+                  : <span class="ps">{x.sub}</span>)}
+              </div>))
+          : links.map(([h, l]) => <a href={u(h)} class={on(h) ? "on" : ""}>{l}</a>)}
       </div>
     ))}
       {/* the header's Search pill is hidden with the nav on a narrow screen; without this a phone or a tablet has no way to /search/ */}

@@ -408,6 +408,24 @@
       "intro": "Every correction is kept on the page it corrects, and nothing is deleted. These pages hold what the archive rests on, the registers it has read and the searches that came back empty so that a null is not lost, the questions still open, the errands it cannot do from a desk, and the work still to do.",
       "chapters": [
         {
+          "path": "/research/",
+          "title": "Research",
+          "blurb": "How this archive works in the open: what is to do, what is new, and what it stands on.",
+          "group": "What it rests on"
+        },
+        {
+          "path": "/research/to-do/",
+          "title": "To do",
+          "blurb": "Open questions, errands and the work list.",
+          "group": "What it rests on"
+        },
+        {
+          "path": "/research/sources-and-method/",
+          "title": "Sources & method",
+          "blurb": "What this archive stands on, how it grades a claim, and the longer studies of one body of records.",
+          "group": "What it rests on"
+        },
+        {
           "path": "/sources/",
           "title": "Sources",
           "blurb": "What has been read, where it is, and what it actually established.",

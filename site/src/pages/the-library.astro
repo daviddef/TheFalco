@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import AtlasNote from "../components/AtlasNote.astro";
 import { u } from "../lib/url.js";
 import { md } from "../lib/md.js";
 import sources from "../data/sources.json";
@@ -25,6 +26,18 @@ const procVols = D.processetti.reduce((a, r) => a + (+r.processetti_volumes || 0
 <Base title="The Library"
       eyebrow="Everything consulted, and everything still on the shelf"
       dek="The bibliography of this archive — the record sets it has read, the working data it keeps in the open, and the very much larger body it has not touched.">
+
+<AtlasNote
+  only={[
+    ["The bibliography as this archive used it", null, "the record sets read, and what each gave"],
+    ["The working data, in the open", null, "the tables behind this site, plain text in the repository, so the working can be checked"],
+    ["The unread shelf", null, "the processetti volumes and the other records not yet opened, so a gap is not mistaken for a nil"],
+  ]}
+  atlas={[
+    ["Providers and what each holds", "https://recordatlas.org/providers/"],
+    ["Source and volume marks (My research)", "https://recordatlas.org/my-research/"],
+  ]} />
+
 
   <div class="card" style="margin-bottom:1.2rem">
     <p><strong>A source list is only honest if it also lists what has not been opened.</strong> This

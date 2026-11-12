@@ -1,0 +1,18 @@
+{
+ "/method/": "How a claim is graded (the five words) and the rules for reading a register. Nothing else states them.",
+ "/sources/": "The register of sources: what each was used for, how it was read, how well each claim resting on it is known. Now also carries an Atlas note and a Deep dives section.",
+ "/searched/": "Every query this archive ran, in sets, with its question, answer, note and verdict. The Atlas has the source and volume marks only.",
+ "/open-questions/": "The open questions, each with the record set that would answer it.",
+ "/errands/": "The places where someone at a counter could settle a question, with what to ask.",
+ "/worklist/": "The work list: every task by number, owner and date. The only place the reason for a decision is kept.",
+ "/corrections/": "Every claim published and taken back, with the cause named.",
+ "/changes/": "What changed, most recent first.",
+ "/documents/": "The register plates and photographs, each with its archival reference.",
+ "/gallery/": "Every image on the site in one contact sheet, with a link to where it is read.",
+ "/whats-new/": "What was read, found and corrected lately, newest first (stays in Start as well).",
+ "/research-log/": "An index of the working-notes files, one per register volume. Now under What's new.",
+ "/antenati/": "Why a nil was safe; what the portal holds for Arienzo, Moiano, Paolisi and the Valle Caudina; the dossier findings. A deep dive now, with an Atlas note.",
+ "/processetti/": "The marriage files: which volumes exist, which are read, and what the first one opened gave. A deep dive now.",
+ "/holdings/": "Town by town, what exists, how each collection misleads, and what no search can reach. A deep dive now, with an Atlas note.",
+ "/the-library/": "The bibliography as this archive used it, the working data, and the unread shelf. A deep dive now, with an Atlas note."
+}
