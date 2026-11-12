@@ -82052,8 +82052,8 @@
 "event": "death",
 "date": "28 Aug 1887",
 "place": "Arienzo, via Camellara 6",
-"evidence": "Arienzo, Morti 1887, act 74, 28 August 1887: Alessandra Saccavino, two years eight months, contadina, died that morning at half past seven, daughter of Pasquale Saccavino, contadino, and Domenica Falco, tessitrice, via Cumellara no. 6. *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.***",
-"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1201, Morti  atto 74 — read by a delegated reader and independently re-read by a second (V335)"
+"evidence": "Arienzo, *Morti* **1887**, **act 74**, registered **28 August 1887** at 11.10 a.m. before Notar Parido Guerriero (act number «*Settantaquattro*» in the margin box, level 12; the Pretore's «*Visto e verificato oggi li … Settembre 1887*» stands in the left margin of the page). Declarants (level 13, z376): «*Clemente Lettieri, di anni cinquantasei, giornaliere*» and «***Antonio Falco**, di anni **quarantadue**, agricoltore, domiciliato in Arienzo*» — the same name as the Antonio Falco of Morti 1887 acts 12, 21, 32 and 61, aged 43 or 46 in those, 42 here; the clerk's ages for one man or two are guesses and nothing here says which. «*… a ore antimeridiane **sette** e minuti **trenta** di oggi, nella casa posta in via **Cumellara** al numero **sei**, è morta **Alessandra Saccavino**, di anni **due**, e mesi **otto**, contadina, residente in Arienzo, nata in Arienzo, da **Pasquale**, contadino, domiciliato in Arienzo, e da **Domenica Falco**, tessitrice, domiciliata in Arienzo*» (level 13, z377: the mother's surname is a plain F-a-l-c-o). The child was born on 14 October 1884 (Nascite 1884 act 159, row above), so she was two years ten months old, not «due … otto»: the clerk's age is wrong by two months, as ages are. Her mother is Domenica Falco, daughter of Matteo and Alessandra Crisci, who married Pasquale Saccavino on 25 March 1881 and whose husband died at via Camellara 2 in 1896.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1201 (left page), Morti 1887 atto 74 — READ FROM THE IMAGE BY THE ARCHIVE'S OWN HAND, levels 12 and 13 (z376, z377), 13 November 2026 (earlier: read by a delegated reader and independently re-read by a second, V335)"
 }
 ],
 "sources": [
@@ -82067,6 +82067,36 @@
 "d": "28 Aug 1887",
 "dateFrom": {
 "d": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
+"slug": "alessandra-saccavino-of-matteo-falco-alessandra-crisci",
+"name": "Alessandra Saccavino (of Pasquale Saccavino & Domenica Falco, b. 1884)",
+"surname": "SACCAVINO",
+"household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "14 Oct 1884",
+"place": "Arienzo, via Camellara 6",
+"evidence": "Arienzo, *Nascite* **1884**, **act 159**: «*Saccavino Alessandra*», born at 8.30 p.m. on **14 October 1884** and declared on the 15th by her father «*Pasquale Saccavino*», aged 30, contadino, «*da **Domenica Falco** sua moglie, contadina*» (the mother's surname read at level 13, z254), at via Cumellara, house no. 6. Witnesses Antonio Ciaramella, 32, giornaliere, and Gaetano Crisci, 47, giornaliere; the act is not signed by the illiterate parties and carries no margin. **IDENTITY INFERRED, not stated by any one act:** this birth is placed in the household because the parents' names, the street and house number, and the given name all match the child whose death at two years eight months is held below (Morti 1887 act 74, 28 August 1887, same parents, same house); the act of 1887 gives an age two months short of what this date makes, and ages are guessed. Domenica Falco is the daughter of Matteo Falco and Alessandra Crisci (her birth and her marriage to Pasquale Saccavino are held above).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 805, Nascite 1884 atto 159 — READ FROM THE IMAGE, the Falco cell at level 13 (z254), recorded 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "14 Oct 1884",
+"dateFrom": {
+"b": "act"
 },
 "noKin": "no-edge-recorded"
 },
