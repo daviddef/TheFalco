@@ -18202,6 +18202,32 @@
 "dp": "Arienzo, Caserta, Campania, Italia"
 },
 {
+"slug": "angela-di-lucia",
+"name": "Angela di Lucia",
+"surname": "DI LUCIA",
+"household": "Antonio Mauro & Sara Falco",
+"hid": "antonio-mauro-sara-falco",
+"role": "married in",
+"events": [
+{
+"event": "marriage",
+"date": "6 Nov 1887",
+"place": "Arienzo, Casa Comunale",
+"evidence": "The other party to the marriage of 6 November 1887 (Matrimoni 1887, act 32): Angela di Lucia, 31, cucitrice, born in Arienzo, daughter of the late Clemente and the late Felicetta Zimbardo. Written «Di Lucia Angela» in the act's heading and body.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1107 (right page), Matrimoni 1887 atto 32 — READ FROM THE IMAGE, level 12, mother's line zoomed at level 13 (z344), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"noKin": "married-in"
+},
+{
 "slug": "beneamino-di-lucia",
 "name": "Beneamino Di Lucia",
 "surname": "DI LUCIA",
@@ -72246,6 +72272,13 @@
 "place": "Arienzo, strada Croce",
 "evidence": "Arienzo, *Nati* **1855**, **act 109**: «*è nato da **SARA FALCO** sua moglie legittima di anni ventisei domiciliata col marito, e da lui dichiarante … Antonio Mauro, di anni trenta, *fruttajuolo*, strada Croce*», born **12 December 1855** at ten in the morning; witnesses **Nicola d'Ambrosio** (contadino, strada Sant'Andrea) and **Vincenzo Diglio** (pettinatore). Named **DOMENICO** — parish «*Domenico Mauro*». **MARGIN: «*6 luglio 1887 n.32 Domenico Mauro sposò in Arienzo Angela di Lucia*»** (Caserta 28 [May?] 1889). **Re-opened and read at full resolution.** *Sara is twenty-six here: **born 19 December 1828, she was twenty-six**, and the clerk was right for once.*",
 "ark": "ANTENATI an_ua14452 (Arienzo, Nati 1855) atto 109, img 57 right — READ FROM THE IMAGE"
+},
+{
+"event": "marriage",
+"date": "6 Nov 1887",
+"place": "Arienzo, Casa Comunale",
+"evidence": "Arienzo, *Matrimoni* **1887**, **act 32** (drawn 6 November 1887, 11.40 a.m., before Notar Parido Guerriero as *assessore* for the impeded mayor): «*Mauro Domenico, di anni trentadue, sarto, nato in Arienzo, residente in Arienzo, figlio di Antonio, residente in Arienzo, e della fu **Sara Falco**, residente in vita col marito*» (the mother's line zoomed at level 13, z344), married Angela di Lucia, 31, cucitrice, daughter of the late Clemente and the late Felicetta Zimbardo; publications on 2 and 9 October 1887; both witnesses Antonio d'Onofrio and Andrea Saccone; the bride could not write. MATCHED to the Domenico Mauro born 12 December 1855 (row above, Nascite 1855 act 109) by his parents' names alone: Antonio Mauro, living, and the late Sara Falco, who died 22 October 1886 (Morti 1886 act 73, held in this household). The act gives thirty-two where the birth act gives thirty-one: ages are guessed in these registers, and no second Domenico Mauro son of Antonio and Sara Falco is known. The father is alive in November 1887.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1107 (right page), Matrimoni 1887 atto 32 — READ FROM THE IMAGE, level 12, mother's line zoomed at level 13 (z344), 13 November 2026"
 }
 ],
 "sources": [
