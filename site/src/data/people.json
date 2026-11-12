@@ -26034,6 +26034,13 @@
 "place": "Arienzo, via Orticelli 6",
 "evidence": "Declarant and father in Nascite 1877 acts 26 and 27: **Antonio Falco, thirty-three, contadino**, via Orticelli no. 6. Thirty-four was the age he had in the household's other acts (26 in 1869, 32 in 1874): the clerks' ages are guesses.",
 "ark": "3:1:3QS7-L976-QQYX — FamilySearch MC55-FNT img 1188 (left page act 26; right page act 27), Arienzo Nascite 1877 — READ FROM THE IMAGE, level 13"
+},
+{
+"event": "named as a witness at a birth",
+"date": "30 Jan 1886",
+"place": "Arienzo, via Corso Caudino 71",
+"evidence": "Arienzo, *Nascite* **1886**, **act 17**: Giuseppe Diglio, born 26 January 1886 at via Corso Caudino no. 71 to Angelo Diglio, 40, sarto (the declarant, who alone signed), and Maria d'Ambrosio; declared 30 January. Witnesses «*Migliore Carmine, di anni ventiquattro, giornaliero*» and «***Antonio Falco, di anni quarantadue, agricoltore***» (level 13). **A SIGHTING, NOT A PLACING.** The act gives no residence for him (only «entrambi residenti in questo Comune») and does not say he is the Antonio Falco of via Orticelli no. 3 who declared act 6 of the same register twenty days earlier (10 January 1886) at the age of forty-two, also an agricoltore. The identification rests on the same age, the same trade and the same month, and on nothing else: **no kinship to the Diglio or the Migliore house is stated or claimed.** Read from the image at level 13 on 13 November 2026.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1003 (right page), Nascite 1886 atto 17 — READ FROM THE IMAGE, level 13, 13 November 2026"
 }
 ],
 "sources": [
@@ -42823,6 +42830,13 @@
 "place": "Arienzo, Casa comunale",
 "evidence": "Matrimoni 1877 act 20 (Arienzo): Giovanni Falco, agricoltore, aged 27, son of Crescenzo and Maria Morgillo, marries Giuseppa Martone, daughter of Antonio and Crescenza Verdicchio. *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.***",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 1166, Matrimoni 1877 atto 20 — read by a delegated reader and independently re-read by a second (V104)"
+},
+{
+"event": "named as a witness at a birth",
+"date": "7 Apr 1886",
+"place": "Arienzo, Corso Caudino 80",
+"evidence": "Arienzo, *Nascite* **1886**, **act 44**: Giuseppe Falco, born 4 April 1886 at Corso Caudino no. 80 to Vincenzo Falco, 36, vetturale (the declarant), and Angela Pellone, cucitrice; declared 7 April. Witnesses «*Carfora Domenico, … calzolaio*» and «***Giovanni Falco, di anni trentaquattro, agricoltore***» (level 13). **A SIGHTING, NOT A PLACING.** Three days earlier, at act 43 (4 April 1886), the declarant of Carmine Falco's birth in via Orticelli no. 2 was a Giovanni Falco, 34, agricoltore: the same age and trade, and the act does not call him the same man or kin to Vincenzo Falco of Corso Caudino. **No kinship between the two Falco houses is stated here and none is claimed;** the identification rests on age and trade alone. Read from the image at level 13 on 13 November 2026.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1012 (right page), Nascite 1886 atto 44 — READ FROM THE IMAGE, level 13, 13 November 2026"
 },
 {
 "event": "birth",
@@ -64971,7 +64985,7 @@
 ],
 "spouses": [
 {
-"slug": "carmine-morgillo",
+"slug": "carmine-morgillo-2",
 "name": "Carmine Morgillo",
 "via": "tree",
 "vias": [
@@ -74353,7 +74367,57 @@
 }
 ],
 "sources": [
-"register",
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"d": "19 Apr 1897",
+"dateFrom": {
+"d": "act"
+},
+"noKin": "married-in"
+},
+{
+"slug": "carmine-morgillo-of-matteo-falco-alessandra-crisci",
+"name": "Carmine Morgillo (of Carmine Morgillo and Vincenza Falco, stillborn 1886)",
+"surname": "MORGILLO",
+"household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "18 Apr 1886",
+"place": "Arienzo, piazza Valletta 1",
+"evidence": "Arienzo, *Nascite* **1886**, **act 49** — **A THIRD CHILD OF CARMINE MORGILLO AND VINCENZA FALCO, AND HE WAS BORN DEAD.** Declared at 9.40 a.m. on 18 April 1886 in the Casa Comunale before the delegated assessor Notar Parido Guerriero by «*Carmine Morgillo, di anni quarantatre, agricoltore*», who declared that at half past seven that morning, in the house at «*piazza Valletta … numero uno*», «*da Vincenzo [sic] Falco sua moglie, contadina, seco lei convivente*», a male child was born, to whom he gave the name Carmine, «*e che io riconosco essere senza vita*» (a stillbirth, so no later record of him is to be expected). Witnesses «*Cillo Domenico, di anni settanta, pettinatore*» and Carmine Marro [Mauro?], a tailor, aged thirty-three as read at level 12; both illiterate. Margin box «Numero quarantanove / Morgillo Carmine»; no later note. **The word «moglie» fixes the mother as a woman, but the last letter of her forename is written like an «o»**, as the clerk's final «a» often is. The house is the one this household already holds at the same address: piazza Valletta no. 1 (Nascite 1876 act 63), the declarant has the same name and trade, and **Domenico Cillo, pettinatore, is the witness at both** (64? in 1876, 70 in 1886). The declarant's age is 43 here against 27 in 1876 and 51 at his death in 1897: ages are guessed in these registers. The first two children, Biagio Antonio (1876) and a daughter (1874), are held. Zoomed at level 13 (mother's line, the «senza vita» line, the witness line).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1014 (left page), Nascite 1886 atto 49 — READ FROM THE IMAGE, level 13, 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "18 Apr 1886",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
+"slug": "carmine-morgillo-2",
+"name": "Carmine Morgillo",
+"surname": "MORGILLO",
+"household": null,
+"role": null,
+"events": [],
+"sources": [
 "tree"
 ],
 "living": false,
@@ -74370,16 +74434,13 @@
 ],
 "children": [],
 "siblings": [],
-"mergedOn": "name and dates",
 "treeId": 4512432,
 "b": "1848",
 "dateFrom": {
 "b": "tree",
-"bp": "tree",
-"d": "act"
+"bp": "tree"
 },
-"bp": "Arienzo, Caserta, Campania, Italia",
-"d": "19 Apr 1897"
+"bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
 "slug": "catarina-morgillo",
