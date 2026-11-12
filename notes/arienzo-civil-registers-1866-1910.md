@@ -1119,7 +1119,6 @@ would be settled.* **He is not of this line either way: his father is the Costa 
 > the church-register search was aimed at the bride's comune, and the civil act was at the groom's.
 > The text below is kept as the record of how the search went.
 
-
 **The marriage this archive wants is 1866 or later.** The family tree puts Nicoletta Nuzzo's birth at
 **1855**, which makes the wedding roughly **1873–1882** — *past the end of Antenati's Santa Maria a
 Vico series, which stops at 1865.*
@@ -3670,7 +3669,7 @@ remaining 1,430:
 | img 2180 | **Nati 1895** | act **86 FRANCESCO** — ***read*** |
 | img 2334 | **Nati 1896** | act **139 VINCENZO** |
 | img 2484 | **Morti 1897** | act **64 ALESSANDRA** |
-| img 2626 | **Morti 1898** | acts **16 FRANCESCO · 33 MARIA · 46 CRESCENZO** |
+| img 2626 | **Morti 1898** | acts **16 FRANCESCO · 77 MARIA · 46 CRESCENZO** *(corrected 9 Nov 2026: first written «33 MARIA» from a level-11 sheet; the figure is 77 — it follows 59 in an index that runs in order of entry, and it is the act the table holds as V443)* |
 
 **Nascite 1895, act 86** — «*è comparso **CLEMENTE FALCO**, di anni **QUARANTA**, ***trainante*** …
 nella casa posta in **CORSO CAUDINO** al numero **CINQUANTAQUATTRO**, da **GAETANA CRISPO sua moglie
@@ -3867,6 +3866,24 @@ Same method and same instruments as 1887 (whole-leaf contact sheets of both oute
 **What the printed tavolae add.** The 1889 births tavola and the 1889 deaths tavola each list every Falco *child or deceased* of the year and no other, which independently confirms the box reading: three Falco births (1, 20, 103) and one Falco death (57). The 1889 births V361–V365 (boxes of other surnames) and V367–V368, and the deaths V369 and V371, are mother-/declarant-only or parent-only acts and rest on the second reading alone; a box walk and a tavola both name only the child or the deceased. `walked` stays false.
 
 **Layout facts.** Duplicate exposures of one opening: 1888 births 1243/1244 and 1247/1248; 1889 marriages 1353/1354; 1889 births 1377/1378; 1889 deaths 1438/1439 and 1459/1460. Intermediate visto after birth act 77 of 1888 (1267L). The 1890 marriage book opens at 1466R (title leaf) with act 1 on 1467L; acts 1–5 are seen (1467–1470), no Falco box yet, and the walk resumes at 1471.
+
+## The printed tavolae, 1890–1910 (9 November 2026)
+
+The annual index of each Arienzo civil book was read for every year 1890–1910 (marriages, births, deaths; the pubblicazioni have none). `terms Falco` gives Falco, De Falco, Falcone; `cover` exits 0 with «Falco, De Falco, Falcone» typed. Every Falco entry was compared with the second-reading table (`arienzo-1866-1910-falco-acts.md`), with the first reading's `falco.md` files, and with the households. The year-by-year working table is in the gitignored `private/reads/walk-1887-1910/tavolae.tsv`.
+
+**Where the index is.** Each annual index sits on the right-hand page of a book's first leaf of the index and the left-hand page of the next (`[firstLeaf R]` + `[lastLeaf L]`): MC55-VNL for 1890–1900, MC55-RM9 for 1901–1910. A marriage index lists husband and wife (Parte 1ª, then Parte 2ª); a birth or death index lists **only the child or the deceased**. **A tavola therefore never shows a Falco mother, declarant or parent, so a nil from it means only «no Falco principal in the index», never «walked»**, and no row here is `walked`.
+
+**Result.** Every 1890–1900 and 1902–1910 Falco entry agrees with a table row or a first-reading entry, with three exceptions:
+
+| year / book | entry | what it is |
+|---|---|---|
+| 1897 Matrimoni | Falco Raffaele, act 21 | **NEW**: the register act of the wedding of generation six, 26 September 1897 (leaf 2398L). It had no act in the table; told in `processetto-falco-maione-1897.md`. Household rows not yet added. |
+| 1898 Morti | Falco Maria, act **77** | An earlier note here read «33» from a sheet; the index runs in order of entry (77 follows 59) and the act is V443. Corrected in place at the old line. |
+| 1904 Nascite | Falco Giuseppe, act 2; Falco Lucia, act 10 | **NEW**: two births of 1904 in no table, in the span (leaves 352–420) the first reading never opened. Opened and read: act 2 (leaf 401L), a son of Pasquale Falco and Angelamaria Attanasio, born 10 January 1904; act 10 (leaf 404L), a daughter of Angelo Falco and Vincenza de Lucia, born 12 February 1904. Both are now in their households. |
+
+**1901 is not closed.** The three 1901 books (`MC55-RM9` leaves 1–141) were never read by the first reading, so there is no row for any 1901 Falco act. Their indexes were read **at whole-spread legibility (about 1,700 px) only, not zoomed**: marriages (leaf 42R): none, Parte 2ª not opened; births (92R–94L): Falco Carminantonio 8, Falco Giovanni 123, Falco Maria Maddalena 91; deaths (128R–129L): Falco Andrea 19 and De Falco Salvatore 81. **None of these five acts has been opened**, and the five numbers are readings to be confirmed. Carminantonio 8 agrees with the direct line's 11 January 1901 birth. FamilySearch signed out (catalogue 401) before the zoom, so the work stops here and resumes on a new sign-in at: zoom the five index entries, then open the acts (births 1901 acts 45–90 lie on leaves 45–90; deaths 1901 acts on leaves 101–123).
+
+**Layout facts for 1901 (MC55-RM9).** Pubblicazioni: cover 5, title 6, acts 7–20, Parte II title 21, acts 22–24. Matrimoni: cover 25, title 26, acts 27–39, Parte II title 40, act 41, index 42R. Nascite: cover 43, title 44, acts 45–90, Parte II title 91, index 92R/93R/94L (93L is a closure note). Cittadinanza: cover 95, title 96. Morti: cover 98–100, acts 101–123, Parte II title 124, acts 125–127, index 128R and 129L. The 1902 pubblicazioni cover is leaf 130. 1902 and 1903 were already read by the first reading (leaves.tsv); the tavolae agree with it. 1904 Matrimoni index: leaf 397R (398 is a duplicate exposure), no Falco spouse; the 1904 marriage acts themselves (leaves 352–420) remain unread.
 
 ## The full walk, Nascite 1876 and the marriages of 1876 (13 November 2026)
 

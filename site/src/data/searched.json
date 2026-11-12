@@ -4215,5 +4215,99 @@
    "name-box walk"
   ],
   "waypoint": "MC55-VNL"
+ },
+ {
+  "when": "Arienzo 1890–1900: the printed annual tavolae (marriages, births, deaths) of eleven years",
+  "pages": "1486, 1546-1547, 1584-1586, 1625, 1683-1684, 1716-1718, 1769, 1820-1821, 1864-1865, 1921-1922, 1959, 1991-1993, 2022-2023, 2075-2076, 2131, 2180-2182, 2218-2221, 2273, 2334-2335, 2365-2366, 2403, 2450-2451, 2484-2485, 2531-2532, 2596-2597, 2626-2627, 2672, 2727-2729, 2758-2759, 2802, 2856-2857, 2894-2895",
+  "src": "Each annual index read at the page and every Falco entry compared with the second-reading table. An index lists only the principal (the bride and groom; the child; the deceased), so it shows no Falco mother, declarant or parent: a nil means no Falco principal in the index, not walked.",
+  "what": "**Falco entries of the 1890–1900 tavolae — every one a row the table already has, except the 1897 marriage act 21 (Falco Raffaele, 26 September 1897)**",
+  "got": "All Falco principals agree with the table (V372–V472) except one act the table lacks: Matrimoni 1897 act 21, the wedding of Raffaele Falco and Costanza Maione, opened at leaf 2398L. The 1898 deaths entry Falco Maria is act 77, not 33 as an earlier note read it. No Falco, De Falco or Falcone entry in the 1890 marriages, 1890 births, 1891 marriages, 1892 births, 1893 marriages, 1894 marriages and births, 1895 marriages, 1896 deaths, 1897 births, 1898 marriages or 1900 marriages tavolae. The 1890–1893 and 1894 deaths and 1894 births tavolae not listed above were not opened.",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Falco",
+   "printed tavolae"
+  ],
+  "waypoint": "MC55-VNL",
+  "searchedOn": "2026-11-09",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "walked": false,
+  "outcome": "yield"
+ },
+ {
+  "when": "Arienzo 1901–1910: the printed annual tavolae (marriages, births, deaths) of ten years; 1901 read at whole-spread legibility only",
+  "pages": "42, 92-94, 128-129, 156, 205-206, 233-234, 272, 320-321, 348-349, 397-398, 448-449, 479-482, 537-538, 588-590, 619-620, 665, 711-712, 738, 788-789, 844-845, 877-878, 908-909, 961-962, 1017-1018, 1052-1053, 1114-1115, 1175-1176, 1208-1209, 1274-1275, 1335-1336",
+  "src": "Each annual index read at the page and every Falco entry compared with the first reading's falco.md and the second-reading table. 1902 and 1903 had already been read by the first reading and are cited. An index lists only the principal, so it shows no Falco mother, declarant or parent: a nil means no Falco principal in the index, not walked.",
+  "what": "**Falco entries of the 1901–1910 tavolae — two 1904 births in no table (Falco Giuseppe, act 2; Falco Lucia, act 10), opened and read; the 1901 entries (births 8, 91, 123; deaths 19 and 81) read from the index only**",
+  "got": "1902–1910 entries all agree with the first reading or the table, except two 1904 births (acts 2 and 10, leaves 401 and 404) that lay in the span the first reading never opened; both are now in their households. The five 1901 Falco entries (Carminantonio 8, Maria Maddalena 91, Giovanni 123 in births; Andrea 19 and De Falco Salvatore 81 in deaths) were read at about 1,700 px, not zoomed, and none of the acts was opened: FamilySearch signed out before the zoom. 1901 is not closed.",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Falco",
+   "printed tavolae"
+  ],
+  "waypoint": "MC55-RM9",
+  "searchedOn": "2026-11-09",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "walked": false,
+  "outcome": "yield"
+ },
+ {
+  "when": "1866–1877 (every leaf of MC55-FNT)",
+  "searchedOn": "2026-11-13",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-FNT",
+  "book": "Civil registers (births, deaths, marriages, banns) 1866-1910",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "1-1236",
+  "walked": false,
+  "src": "The full Arienzo walk, FNT leg: all 1,236 images of the volume, both pages of every leaf displayed at DeepZoom level 12 in the browser pane (three images a batch), every Falco or near-name cell zoomed to level 13 before it was named, and each batch logged only after all six pages had been read. Unlike the earlier box walks this reads the declarant, mother, father and witnesses of every act, not the name box. Not marked walked: the margins and a few title-page words were not all zoomed, and that is left for David to rule on.",
+  "what": "**Every act of the Arienzo civil registers 1866–1877 (MC55-FNT 1–1236), read in full**",
+  "got": "All 1,236 images read. What it found is in the households rows it changed (the births the archive did not hold, the corrected spellings and ages, the second-exposure leaves noted); the register structure is in notes/arienzo-civil-registers-1866-1910.md. No volume is closed on this row.",
+  "outcome": "yield",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Births",
+   "Deaths",
+   "Marriages",
+   "Falco",
+   "full walk"
+  ]
+ },
+ {
+  "when": "1877–1885 (MC55-VNL leaves 1–912, to Nascite 1885 act 156)",
+  "searchedOn": "2026-11-13",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-VNL",
+  "book": "Civil registers (births, deaths, marriages, banns) 1866-1910",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "1-912",
+  "walked": false,
+  "src": "The full Arienzo walk, VNL leg, in progress: images 1–912 of the volume (1877 to Nascite 1885 act 156, 16 December 1885), both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read. Reads the declarant, mother, father and witnesses of every act. Second exposures of the same opening (images 700, 705, 731, 765, 797, 804, 861) were counted once. The volume continues to image 2,898, so nothing here closes it.",
+  "what": "**Every act of the Arienzo civil registers 1877 to December 1885 (MC55-VNL 1–912), read in full, the walk continuing**",
+  "got": "Images 1–912 read. In Nascite 1885 alone it found six births of grandchildren of the founders' line that the archive did not hold (acts 22, 72, 83, 105, 114 and 140: Arricale, Zimbardo, Lettieri, Ruotolo, Ferrara, Spunzo), each placed by the parents' names, the street and the trade, and two of them tied to deaths already recorded. Falco witnesses (Crescenzo, Antonio) are recorded but not placed in any household.",
+  "outcome": "yield",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Births",
+   "Deaths",
+   "Marriages",
+   "Falco",
+   "full walk"
+  ]
  }
 ]

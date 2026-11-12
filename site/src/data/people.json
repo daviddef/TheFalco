@@ -3404,6 +3404,13 @@
 "place": "Arienzo, Corso Caudino 71",
 "evidence": "Arienzo, Morti 1887, act 35: Luigi Arricale, three years old, born at Arienzo, son of Raffaele Arricale, vetturale, and Costanza Falco, contadina, died 18 May 1887 at 6.30 p.m. at Corso Caudino no. 71; act drawn 19 May at 8.40 a.m. by the consigliere delegato Parido Guerriero. *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.***",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1191, Morti  atto 35 — read by a delegated reader and independently re-read by a second (V332)"
+},
+{
+"event": "birth",
+"date": "30 Jan 1885",
+"place": "Arienzo, Corso Caudino 71",
+"evidence": "Arienzo, *Nascite* **1885**, **act 22** — **THE BIRTH BEHIND A DEATH THE ARCHIVE ALREADY HELD.** Luigi Arricale, born 30 January 1885 at Corso Caudino no. 71, to Raffaele Arricale, 32, *vetturale*, and «*Costanza **Falco**, filatrice*» (the mother's name and trade read at level 13, z281). Costanza Falco of Luigi (b. 1862) married Raffaele Arricale on 15 July 1880 (Matrimoni 1880 atto 10, rows above). The child is placed here by the two parents' names and the house: the death of Luigi Arricale, three years old, at the same Corso Caudino no. 71 on 18 May 1887 is already recorded (Morti 1887 atto 35). Identity INFERRED, not stated by any one act.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 868, Nascite 1885 atto 22 — READ FROM THE IMAGE, level 13, 13 November 2026"
 }
 ],
 "sources": [
@@ -3414,10 +3421,12 @@
 "spouses": [],
 "children": [],
 "siblings": [],
-"d": "18 May 1887",
+"b": "30 Jan 1885",
 "dateFrom": {
+"b": "act",
 "d": "act"
 },
+"d": "18 May 1887",
 "noKin": "no-edge-recorded"
 },
 {
@@ -3802,6 +3811,13 @@
 "place": "Arienzo",
 "evidence": "Named as the mother in the birth act of 17 Sep 1899: Angelamaria Attanasio.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2712, Nascite 1899 atto 103 — delegated reader, then independently re-read by a verifier (V451)"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "10 Jan 1904",
+"place": "Arienzo",
+"evidence": "Named as the mother in the birth act of Giuseppe Falco, *Nascite* 1904, act 2. Found from the printed tavola of the 1904 birth register (MC55-RM9 leaves 448R–449L), which lists the child; the act was not in the second-reading table (it lay in the span the first reading left unread) and was opened and read on 9 November 2026 from the image, the witness block zoomed.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 401, Nascite 1904 atto 2 — read from the image by this archive's own hand"
 }
 ],
 "sources": [
@@ -3863,6 +3879,14 @@
 {
 "slug": "pasquale-falco-of-pasquale-falco-angela-maria-attana-2",
 "name": "Pasquale Falco (of Pasquale, b. 1899)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-pasquale-falco-angela-maria-attana",
+"name": "Giuseppe Falco (of Pasquale, b. 1904)",
 "via": "register",
 "vias": [
 "register"
@@ -10145,7 +10169,7 @@
 "event": "death window",
 "date": "between 15 May 1875 and 21 Apr 1880",
 "place": "Arienzo",
-"evidence": "**GENERATION THREE'S WIFE HAS A DEATH WINDOW AT LAST, AND IT IS ELEVEN YEARS WIDE.**\n\n**SHE WAS ALIVE ON 15 MAY 1875**: her husband's death act calls him «***marito di** CRISCI ANDREANA*», not *vedovo*.\n\n**SHE WAS DEAD BY 21 APRIL 1880**: her daughter Sara's death act names her «***dalla fu** ANDREANA CRISCI*, contadina, domiciliata in vita **col marito**».\n\n*Until today this archive had **no death for her at all** — she married Vincenzo Falco on 15 October 1814 and the record simply stopped. **Eleven years and five months** is where she is, and the acts are in Arienzo's death registers of **1875 (after 15 May), 1876, 1877, 1878, 1879, 1880, 1881, 1882, 1883, 1884, 1885 and 1886 (before 22 October)**.*\n\n**AND SEVEN OF THOSE TWELVE YEARS ARE ALREADY READ ACT BY ACT** — 1875, 1876, 1877, 1878, 1884, 1885 and 1886 — **and she is in none of them.** *What is left is **1879, 1880, 1881, 1882 and 1883**, which have never been opened.*\n\n*«Domiciliata in vita col marito» is the same phrase two clerks used of **ALESSANDRA CRISCI** in 1878 and 1881, and it is a formula for a married woman's residence rather than a statement about a deathbed. **It is recorded and not leaned on.***\n\n---\n\n**AND BEFORE THE DAY WAS OUT THE WINDOW HALVED AGAIN, AND THEN SHUT ON AN EMPTY ROOM.**\n\n**Her son RAFFAELE FALCO — generation four — died on 21 April 1880, and his act calls her «*dalla **fu** ANDREANA CRISCI*».** *The eleven-year window her daughter Sara's act gave becomes **15 May 1875 to 21 April 1880**: four years and eleven months.*\n\n**AND EVERY ONE OF THOSE MONTHS IS NOW READ.** Arienzo's deaths of **1875** (after 15 May), **1876**, **1877**, **1878**, **1879** and **1880 down to act 34** are walked act by act. **ANDREANA CRISCI IS IN NONE OF THEM.**\n\n**SO SHE DID NOT DIE AT ARIENZO EITHER.** *This archive now holds **two** Crisci women of Arienzo, both certainly dead, both absent from the comune's own registers for the whole of their windows — **one of them this line's own and one of them not**:* **ANDREANA CRISCI**, generation three's wife, dead between May 1875 and April 1880; and **ALESSANDRA CRISCI**, dead between December 1867 and September 1878, **who is not on this line at all** — she is the wife of a Matteo Falco of the Contrada Camellara whom no act joins to it. **Two women, one of them this family's own, the same surname and the same silence.** *It is recorded as a pattern and it is not explained.*\n\n**PROVENANCE, CORRECTED 1 NOVEMBER 2026.** *The wording above was written by a session whose reads of this leaf returned «media removed: request limit» — it did not receive the picture. The **act, the persons and their parents** (and the spouse, where the table records one) are confirmed by the delegated and second readings of 26 October 2026 (V318, `notes/arienzo-1866-1910-falco-acts.md`), who read it from the leaf. That table records **no addresses**, so the **street and house number**, the verbatim quotation, the hour and the declarants' ages were unverified until 3 November 2026, when the leaf was opened by hand (below).* **READ FROM THE IMAGE, 3 NOVEMBER 2026.** *The leaf was opened by the archive's own hand in the FamilySearch pane (MC55-VNL, image 1079, left page). The **street and house number**, and the persons and parents named, were checked against it and stand as written. The hour, the declarants' ages and the witnesses were not all re-read word by word.*",
+"evidence": "**SUPERSEDED 13 NOVEMBER 2026 — THE WINDOW IS CLOSED: SHE DIED ON 24 JULY 1876.** *Her death act is Morti 1876, act 53 (see the dated death row of this household), which two delegated readers had already found and which the full walk of MC55-FNT image 1132 has now re-opened by the archive's own hand. The paragraph below was written before that act was matched, and its claim that she is «in none» of the 1876 acts is wrong.* **GENERATION THREE'S WIFE HAS A DEATH WINDOW AT LAST, AND IT IS ELEVEN YEARS WIDE.**\n\n**SHE WAS ALIVE ON 15 MAY 1875**: her husband's death act calls him «***marito di** CRISCI ANDREANA*», not *vedovo*.\n\n**SHE WAS DEAD BY 21 APRIL 1880**: her daughter Sara's death act names her «***dalla fu** ANDREANA CRISCI*, contadina, domiciliata in vita **col marito**».\n\n*Until today this archive had **no death for her at all** — she married Vincenzo Falco on 15 October 1814 and the record simply stopped. **Eleven years and five months** is where she is, and the acts are in Arienzo's death registers of **1875 (after 15 May), 1876, 1877, 1878, 1879, 1880, 1881, 1882, 1883, 1884, 1885 and 1886 (before 22 October)**.*\n\n**AND SEVEN OF THOSE TWELVE YEARS ARE ALREADY READ ACT BY ACT** — 1875, 1876, 1877, 1878, 1884, 1885 and 1886 — **and she is in none of them.** *What is left is **1879, 1880, 1881, 1882 and 1883**, which have never been opened.*\n\n*«Domiciliata in vita col marito» is the same phrase two clerks used of **ALESSANDRA CRISCI** in 1878 and 1881, and it is a formula for a married woman's residence rather than a statement about a deathbed. **It is recorded and not leaned on.***\n\n---\n\n**AND BEFORE THE DAY WAS OUT THE WINDOW HALVED AGAIN, AND THEN SHUT ON AN EMPTY ROOM.**\n\n**Her son RAFFAELE FALCO — generation four — died on 21 April 1880, and his act calls her «*dalla **fu** ANDREANA CRISCI*».** *The eleven-year window her daughter Sara's act gave becomes **15 May 1875 to 21 April 1880**: four years and eleven months.*\n\n**AND EVERY ONE OF THOSE MONTHS IS NOW READ.** Arienzo's deaths of **1875** (after 15 May), **1876**, **1877**, **1878**, **1879** and **1880 down to act 34** are walked act by act. **ANDREANA CRISCI IS IN NONE OF THEM.**\n\n**SO SHE DID NOT DIE AT ARIENZO EITHER.** *This archive now holds **two** Crisci women of Arienzo, both certainly dead, both absent from the comune's own registers for the whole of their windows — **one of them this line's own and one of them not**:* **ANDREANA CRISCI**, generation three's wife, dead between May 1875 and April 1880; and **ALESSANDRA CRISCI**, dead between December 1867 and September 1878, **who is not on this line at all** — she is the wife of a Matteo Falco of the Contrada Camellara whom no act joins to it. **Two women, one of them this family's own, the same surname and the same silence.** *It is recorded as a pattern and it is not explained.*\n\n**PROVENANCE, CORRECTED 1 NOVEMBER 2026.** *The wording above was written by a session whose reads of this leaf returned «media removed: request limit» — it did not receive the picture. The **act, the persons and their parents** (and the spouse, where the table records one) are confirmed by the delegated and second readings of 26 October 2026 (V318, `notes/arienzo-1866-1910-falco-acts.md`), who read it from the leaf. That table records **no addresses**, so the **street and house number**, the verbatim quotation, the hour and the declarants' ages were unverified until 3 November 2026, when the leaf was opened by hand (below).* **READ FROM THE IMAGE, 3 NOVEMBER 2026.** *The leaf was opened by the archive's own hand in the FamilySearch pane (MC55-VNL, image 1079, left page). The **street and house number**, and the persons and parents named, were checked against it and stand as written. The hour, the declarants' ages and the witnesses were not all re-read word by word.*",
 "ark": "3:1:3QSQ-G97F-MZV7 — FamilySearch MC55-VNL img 1079 left page, Arienzo Morti 1886 act 73 — READ FROM THE IMAGE 3 Nov 2026 by the archive's own hand (street and house number confirmed); the logging session's first pass never received it («media removed») — act and persons also confirmed by the 26 Oct 2026 second reading, V318"
 },
 {
@@ -10159,7 +10183,7 @@
 "event": "death",
 "date": "24 Jul 1876",
 "place": "Arienzo, via Orticelli 10",
-"evidence": "Morti 1876, act 53: Andreana Crisci, contadina, 81, widow of Vincenzo Falco, died at ore otto e minuti trenta on 24 Jul 1876 at Via Orticelli n. 10; daughter of the late Arcangelo and the late Sara Ruggiero. Margin: Numero cinquantatre / Crisci Andreana (no later note). *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.***",
+"evidence": "Morti 1876, act 53: Andreana Crisci, contadina, 81, widow of Vincenzo Falco, died at ore otto e minuti trenta on 24 Jul 1876 at Via Orticelli n. 10; daughter of the late Arcangelo and the late Sara Ruggiero. Margin: Numero cinquantatre / Crisci Andreana (no later note). *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.*** **RE-OPENED BY THE ARCHIVE'S OWN HAND 13 NOV 2026 (full Arienzo walk, MC55-FNT image 1132, left page, zoomed at level 13):** «*è morta **ANDREANA CRISCI**, di anni **ottantuno**, contadina … da fu **ARCANGELO**, contadino … e dalla fu **SARA RUGGIERO**, contadina … **vedova di VINCENZO FALCO***», via Orticelli numero dieci; declarants Luigi Giglio 33 (sarto) and Marcantonio Crisci 71 (calzolaio). The age (81) does not fit her age 20 at her son's birth in May 1818 (born about 1798, so about 78): ages are guessed in these acts.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 1132, Morti 1876 atto 53 — read by a delegated reader and independently re-read by a second (V100)"
 }
 ],
@@ -13604,6 +13628,36 @@
 }
 },
 {
+"slug": "maria-carmina-crisci",
+"name": "Maria Carmina Crisci (of Antonio Crisci and Filomena Falco, b. 1876)",
+"surname": "CRISCI",
+"household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "15 Nov 1876",
+"place": "Arienzo, via Camellara 16",
+"evidence": "Arienzo, *Nascite* **1876** (the second register, opening at the leaf after the 147th act of the first, closed 6 Nov 1876), **act 150** — **A GRANDDAUGHTER OF MATTEO FALCO AND ALESSANDRA CRISCI THIS ARCHIVE DID NOT HOLD.** Born 15 November 1876 at 1.30 a.m. in via Camellara no. 16, declared at 10.28 the same morning by the father, «*Antonio Crisci, di anni cinquanta, pigionario*» (father's name and age read at level 13); mother «*Filomena **Falco** sua moglie, tessitrice, seco lui convivente*» (the name runs over the line, «Filom-» / «-na Falco»; read at level 13 twice); child female, Maria Carmina; witnesses Carmine Rivetti, 30, contadino, and Antonio Diglio, 66, contadino (level 12). Margin box «Crisci Maria Carmina», no note. The household held two earlier children of this couple, Teresa (d. 20 Sep 1871) and Maria Clementina (d. 15 Sep 1876, two months before this birth), and a later one, Nicolina (d. 24 Jun 1879): the same house, strada Camellara no. 16, and the same trade for the mother (tessitrice, as at her 1870 marriage).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 1110 (right page), Nascite 1876 (2nd register) atto 150 — READ FROM THE IMAGE, level 13, 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "15 Nov 1876",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "maria-clementina-crisci",
 "name": "Maria Clementina Crisci (of Antonio Crisci and Filomena Falco, d. 1876)",
 "surname": "CRISCI",
@@ -15674,6 +15728,13 @@
 "place": "Arienzo",
 "evidence": "Named as the mother in the birth act of 16 Apr 1900: Vincenza de Lucia.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2816, Nascite 1900 atto 28 — delegated reader, then independently re-read by a verifier (V466)"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "12 Feb 1904",
+"place": "Arienzo",
+"evidence": "Named as the mother in the birth act of Lucia Falco, *Nascite* 1904, act 10. Found from the printed tavola of the 1904 birth register (MC55-RM9 leaves 448R–449L), which lists the child; the act was not in the second-reading table (it lay in the span the first reading left unread) and was opened and read on 9 November 2026 from the image, the witness block zoomed.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 404, Nascite 1904 atto 10 — read from the image by this archive's own hand"
 }
 ],
 "sources": [
@@ -15730,6 +15791,14 @@
 {
 "slug": "maria-falco-of-angelo-falco-vincenza-de-lucia",
 "name": "Maria Falco (of Angelo, b. 1900)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "lucia-falco-of-angelo-falco-vincenza-de-lucia",
+"name": "Lucia Falco (of Angelo, b. 1904)",
 "via": "register",
 "vias": [
 "register"
@@ -19381,6 +19450,13 @@
 "place": "Arienzo",
 "evidence": "Named as the mother in the birth act of 11 May 1891: Carmela Guida.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1647, Nascite 1891 atto 60 — delegated reader, then independently re-read by a verifier (V378)"
+},
+{
+"event": "named as mother in her twin sons' birth acts",
+"date": "9 Feb 1877",
+"place": "Arienzo, via Orticelli 6",
+"evidence": "Named as the mother in Nascite 1877 acts 26 and 27 as **«Carmela Guida sua moglie, contadina»**; the filiation «fu Fabrizio» is from the household's other acts, not from these.",
+"ark": "3:1:3QS7-L976-QQYX — FamilySearch MC55-FNT img 1188 (left page act 26; right page act 27), Arienzo Nascite 1877 — READ FROM THE IMAGE, level 13"
 }
 ],
 "sources": [
@@ -19560,7 +19636,7 @@
 "event": "birth",
 "date": "24 Mar 1877",
 "place": "Arienzo",
-"evidence": "Arienzo, *Nascite* **1877**, **act 46**: **ALESSANDRA FALCO**, born **24 Mar 1877**, to **Giuseppe Falco** and **Nicoletta Nuzzo/Nizzo?**. *Read from the FamilySearch image by a delegated reader and independently re-read by a second reader; **not yet re-opened by the archive's own hand.***",
+"evidence": "Arienzo, *Nascite* **1877**, **act 46**: **ALESSANDRA FALCO**, born **24 Mar 1877**, to **Giuseppe Falco** and **Nicoletta Nuzzo/Nizzo?**. *Read from the FamilySearch image by a delegated reader and independently re-read by a second reader; **RE-OPENED BY THE ARCHIVE'S OWN HAND 13 NOVEMBER 2026** (`MC55-FNT` leaf 1195, left page, zoomed at level 13): born at 3.30 in the morning of 24 Mar 1877 at **via Orticelli no. 14**, declared at 10.15 the same day by the father, **Giuseppe Falco, thirty-four (trentaquattro), agricoltore**, who **signs his own name**; mother «Nicoletta Nuzzo sua moglie, contadina» (the surname reads «Nuzzo» at level 13); witnesses **Raffaele Falco, fifty-eight (cinquantotto), agricoltore** — the Raffaele Falco, 59, who declares her death on 22 June 1877 — and Raffaele Loffredo, 42.*",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 1195, Nascite 1877 atto 46 — delegated reader, then independently re-read by a verifier (V108)"
 },
 {
@@ -21498,7 +21574,7 @@
 "event": "birth",
 "date": "12 Nov 1877",
 "place": "Arienzo",
-"evidence": "Arienzo, *Nascite* **1877**, **act 137**: **ANGELA FALCO**, born **12 Nov 1877**, to **Giovanbattista Falco** and **Maria Costanza Zimbardo**; margin: left box: Numero centotrentasette Falco Angela; none on this act (scribbled notes above belong to act 136 Zimbardo Angelo). *Read from the FamilySearch image by a delegated reader and independently re-read by a second reader; **not yet re-opened by the archive's own hand.***",
+"evidence": "Arienzo, *Nascite* **1877**, **act 137**: **ANGELA FALCO**, born **12 Nov 1877**, to **Giovanbattista Falco** and **Maria Costanza Zimbardo**; margin: left box: Numero centotrentasette Falco Angela; none on this act (scribbled notes above belong to act 136 Zimbardo Angelo). **RE-OPENED BY THE ARCHIVE'S OWN HAND 13 NOVEMBER 2026, level 13, and it agrees.** Born at half past nine in the evening of 12 Nov 1877 (pomeridiane nove, minuti trenta), presented on 14 Nov at a quarter past ten in the morning in the Casa comunale by the FATHER, «*Giovanbattista Falco, di anni venticinque, sarto*», domiciled in this comune, from «*Maria Costanza Zimbardo sua moglie*» in via Corso Caudino at number **SETTANTOTTO (78)**; a girl, named Angela. Witnesses Angelo Ferriello, 46, muratore, and Clemente Diglio, 33, sarto; the witnesses are illiterate and **the father signed his own name**, «Giovanbattista Falco» (zoomed at level 13). Index box, left page: «Falco Angela» (level 13). The scribbled notes in the margin above belong to act 136 (Zimbardo Angelo), not to this act; none on this act. **The house number is 78 here and in 1887 (Morti act 112), 77 in 1880 and 1884: the clerks vary on the same house, so the number alone proves nothing.**",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 1225, Nascite 1877 atto 137 — delegated reader, then independently re-read by a verifier (V109)"
 }
 ],
@@ -22873,6 +22949,13 @@
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 1090 (left page), Nascite 1876 atto 94 — READ FROM THE IMAGE, level 13, 13 November 2026"
 },
 {
+"event": "witness at the birth",
+"date": "28 Nov 1876",
+"place": "Arienzo, via Corso Caudino",
+"evidence": "Witness to the birth of Giuseppe Andrea Perrotta (Nascite 1876, second register, act 155; born 28 November, declared the same day): «*Falco Angelo, di anni cinquantatré, vetturale*» (the name across the foot of the left page, the age and trade at the head of the right; read at level 13), with Michele Ferrillo?, 62, cantiniere; declarant Antonio Perrotta, 26, sarto, via Corso Caudino; mother Francesca Zimbardo. **Probable identity**, as at act 94 four months earlier (where he is 52, «industriante»): the same street as the declarant, the age one year on, but a different trade, and the act names neither father nor wife.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 1112 (left page foot and right page head), Nascite 1876 (2nd register) atto 155 — READ FROM THE IMAGE, level 13, 13 November 2026"
+},
+{
 "event": "birth",
 "date": "12 Sep 1826",
 "place": "Arienzo, strada Camellara",
@@ -23476,6 +23559,13 @@
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2816, Nascite 1900 atto 28 — delegated reader, then independently re-read by a verifier (V466)"
 },
 {
+"event": "named as father in his child's birth act",
+"date": "12 Feb 1904",
+"place": "Arienzo",
+"evidence": "Named as the father in the birth act of Lucia Falco, *Nascite* 1904, act 10. Found from the printed tavola of the 1904 birth register (MC55-RM9 leaves 448R–449L), which lists the child; the act was not in the second-reading table (it lay in the span the first reading left unread) and was opened and read on 9 November 2026 from the image, the witness block zoomed.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 404, Nascite 1904 atto 10 — read from the image by this archive's own hand"
+},
+{
 "event": "birth",
 "date": "27 Mar 1862",
 "place": "Arienzo, strada Camellara",
@@ -23570,6 +23660,14 @@
 {
 "slug": "maria-falco-of-angelo-falco-vincenza-de-lucia",
 "name": "Maria Falco (of Angelo, b. 1900)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "lucia-falco-of-angelo-falco-vincenza-de-lucia",
+"name": "Lucia Falco (of Angelo, b. 1904)",
 "via": "register",
 "vias": [
 "register"
@@ -25929,6 +26027,13 @@
 "place": "Arienzo, Casa Comunale",
 "evidence": "Matrimoni 1869 act 22 (Arienzo): Antonio Falco, contadino, aged 26, son of Vincenzo and Andreana Crisci, marries Carmela di Guida, aged 20, daughter of the late Fabrizio and Teresa Vaccina. Margin: name box: Matrimonio che si intende contrarre tra Antonio Falco e Carmela di Guida. *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.***",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 400, Matrimoni 1869 atto 22 — read by a delegated reader and independently re-read by a second (V028)"
+},
+{
+"event": "named as father in his twin sons' birth acts",
+"date": "9 Feb 1877",
+"place": "Arienzo, via Orticelli 6",
+"evidence": "Declarant and father in Nascite 1877 acts 26 and 27: **Antonio Falco, thirty-three, contadino**, via Orticelli no. 6. Thirty-four was the age he had in the household's other acts (26 in 1869, 32 in 1874): the clerks' ages are guesses.",
+"ark": "3:1:3QS7-L976-QQYX — FamilySearch MC55-FNT img 1188 (left page act 26; right page act 27), Arienzo Nascite 1877 — READ FROM THE IMAGE, level 13"
 }
 ],
 "sources": [
@@ -29266,6 +29371,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "lucia-falco-of-angelo-falco-vincenza-de-lucia",
+"name": "Lucia Falco (of Angelo, b. 1904)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "5 Jul 1906",
@@ -31928,6 +32041,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-pasquale-falco-angela-maria-attana",
+"name": "Giuseppe Falco (of Pasquale, b. 1904)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "6 Mar 1909",
@@ -32940,6 +33061,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "giuseppe-falco-of-pasquale-falco-angela-maria-attana",
+"name": "Giuseppe Falco (of Pasquale, b. 1904)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "4 Oct 1907",
@@ -33378,6 +33507,14 @@
 {
 "slug": "maria-falco-of-angelo-falco-vincenza-de-lucia",
 "name": "Maria Falco (of Angelo, b. 1900)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "lucia-falco-of-angelo-falco-vincenza-de-lucia",
+"name": "Lucia Falco (of Angelo, b. 1904)",
 "via": "register",
 "vias": [
 "register"
@@ -34860,6 +34997,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "lucia-falco-of-angelo-falco-vincenza-de-lucia",
+"name": "Lucia Falco (of Angelo, b. 1904)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "mergedOn": "name and dates",
@@ -35243,7 +35388,7 @@
 "event": "death",
 "date": "8 Jan 1882",
 "place": "Arienzo, via Camellara 20",
-"evidence": "Arienzo, *Morti* **1882**, **act 3**: «*… sono comparsi **PASQUALE FALCO**, di anni **quarantuno**, *contadino*, e **NICOLA BIONDO**, di anni **ventotto**, *secatore* … nella casa posta in **via CAMELLARA** al numero **VENTI**, è morta **DOMENICA FALCO**, di **MESI UNDICI**, *contadina* … da **ANTONIO**, contadino … e da **CARMELA GUIDA**, contadina*», **8 January 1882**.\n\n**THE MARGIN BOX CALLS HER «Falco Domenico» AND THE ACT SAYS «è **morta** … **DOMENICA** … contadin**a**».** *The second margin in this archive to get a child's sex wrong, after «Falco Angelo» for **ANGELA FALCO** in 1876. **The act is the record and the margin is its finding aid.***\n\n**THE SECOND DOMENICA OF THIS HOUSE**: *the first died at two on 14 July 1876. **Six children of Antonio Falco and Carmela Guida are now dead in this archive** — Fabrizio 1871, Teresa and Domenica 1876, Pasquale and Vincenzo 1877, Domenica again 1882 — against one, **ASSUNTA**, known to have grown up.*\n\n*Both declarants are known men: **PASQUALE FALCO**, forty-one, of via Camellara 5, and **NICOLA BIONDO**, twenty-eight, the *secatore* who married **CLEMENTINA FALCO** in 1878 at twenty-six. **Neither becomes kinship.***\n\n**PROVENANCE, CORRECTED 1 NOVEMBER 2026.** *The wording above was written by a session whose reads of this leaf returned «media removed: request limit» — it did not receive the picture. The **act, the persons and their parents** (and the spouse, where the table records one) are confirmed by the delegated and second readings of 26 October 2026 (V260, `notes/arienzo-1866-1910-falco-acts.md`), who read it from the leaf. That table records **no addresses**, so the **street and house number**, the verbatim quotation, the hour and the declarants' ages were unverified until 3 November 2026, when the leaf was opened by hand (below).* **READ FROM THE IMAGE, 3 NOVEMBER 2026.** *The leaf was opened by the archive's own hand in the FamilySearch pane (MC55-VNL, image 589, right page). The **street and house number**, and the persons and parents named, were checked against it and stand as written. Act 3 is dated **9 January 1882**, and she died «di ieri», at 10.30 p.m., on the 8th. The hour, the declarants' ages and the witnesses were not all re-read word by word.*",
+"evidence": "Arienzo, *Morti* **1882**, **act 3**: «*… sono comparsi **PASQUALE FALCO**, di anni **quarantuno**, *contadino*, e **NICOLA BIONDO**, di anni **ventotto**, *secatore* … nella casa posta in **via CAMELLARA** al numero **VENTI**, è morta **DOMENICA FALCO**, di **MESI UNDICI**, *contadina* … da **ANTONIO**, contadino … e da **CARMELA GUIDA**, contadina*», **8 January 1882**.\n\n**THE MARGIN BOX CALLS HER «Falco Domenico» AND THE ACT SAYS «è **morta** … **DOMENICA** … contadin**a**».** *A margin that gets a child's sex wrong. **The act is the record and the margin is its finding aid.*** (This sentence used to count it the second such margin, after «Falco Angelo» for ANGELA FALCO in 1876; that 1876 reading is withdrawn, the box there reads «Falco Angela».)\n\n**THE SECOND DOMENICA OF THIS HOUSE**: *the first died at two on 14 July 1876. **Six children of Antonio Falco and Carmela Guida are now dead in this archive** — Fabrizio 1871, Teresa and Domenica 1876, Pasquale and Vincenzo 1877, Domenica again 1882 — against one, **ASSUNTA**, known to have grown up.*\n\n*Both declarants are known men: **PASQUALE FALCO**, forty-one, of via Camellara 5, and **NICOLA BIONDO**, twenty-eight, the *secatore* who married **CLEMENTINA FALCO** in 1878 at twenty-six. **Neither becomes kinship.***\n\n**PROVENANCE, CORRECTED 1 NOVEMBER 2026.** *The wording above was written by a session whose reads of this leaf returned «media removed: request limit» — it did not receive the picture. The **act, the persons and their parents** (and the spouse, where the table records one) are confirmed by the delegated and second readings of 26 October 2026 (V260, `notes/arienzo-1866-1910-falco-acts.md`), who read it from the leaf. That table records **no addresses**, so the **street and house number**, the verbatim quotation, the hour and the declarants' ages were unverified until 3 November 2026, when the leaf was opened by hand (below).* **READ FROM THE IMAGE, 3 NOVEMBER 2026.** *The leaf was opened by the archive's own hand in the FamilySearch pane (MC55-VNL, image 589, right page). The **street and house number**, and the persons and parents named, were checked against it and stand as written. Act 3 is dated **9 January 1882**, and she died «di ieri», at 10.30 p.m., on the 8th. The hour, the declarants' ages and the witnesses were not all re-read word by word.*",
 "ark": "3:1:3QSQ-G97F-99X1 — FamilySearch MC55-VNL img 589 right page, Arienzo Morti 1882 act 3 — READ FROM THE IMAGE 3 Nov 2026 by the archive's own hand (street and house number confirmed); the logging session's first pass never received it («media removed») — act and persons also confirmed by the 26 Oct 2026 second reading, V260"
 }
 ],
@@ -37206,6 +37351,13 @@
 "place": "Arienzo, Casa Comunale",
 "evidence": "Arienzo, Matrimoni 1870, act 19: Filomena Falco, tessitrice, thirty-one, born and domiciled at Arienzo, daughter of the late Matteo and the late Alessandra Crisci, married Antonio Crisci, forty-five, son of Arcangelo (vaticale) and Teresa Piscitelli, in the Casa Comunale on 24 June 1870. *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.***",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 549, Matrimoni 1870 atto 19 — read by a delegated reader and independently re-read by a second (V038)"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "15 Nov 1876",
+"place": "Arienzo, via Camellara 16",
+"evidence": "Named as the mother in the birth act of her daughter Maria Carmina Crisci, 15 Nov 1876 (Nascite 1876 act 150): «*Filomena **Falco** sua moglie, tessitrice, seco lui convivente*», wife of Antonio Crisci, 50, pigionario, via Camellara no. 16.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 1110 (right page), Nascite 1876 (2nd register) atto 150 — READ FROM THE IMAGE, level 13, 13 November 2026"
 }
 ],
 "sources": [
@@ -40459,7 +40611,7 @@
 "event": "named as father in his child's birth act",
 "date": "12 Nov 1877",
 "place": "Arienzo",
-"evidence": "Named as the father in the birth act of 12 Nov 1877: Giovanbattista Falco.",
+"evidence": "Named as the father AND AS THE DECLARANT in the birth act of 12 Nov 1877: «*Giovanbattista Falco, di anni venticinque, sarto*», via Corso Caudino 78; **he signed the act himself** (level 13). Age 25 in Nov 1877 agrees with his marriage act (24 in Jul 1876) and with the later acts (31 in 1883, 32 in 1884). RE-OPENED BY THE ARCHIVE'S OWN HAND 13 NOVEMBER 2026.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 1225, Nascite 1877 atto 137 — delegated reader, then independently re-read by a verifier (V109)"
 },
 {
@@ -45233,6 +45385,101 @@
 "d": "16 Jun 1908"
 },
 {
+"slug": "giuseppe-falco-of-pasquale-falco-angela-maria-attana",
+"name": "Giuseppe Falco (of Pasquale, b. 1904)",
+"surname": "FALCO",
+"household": "Pasquale Falco & Angela Maria Attanasio",
+"hid": "pasquale-falco-angela-maria-attanasio",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "10 Jan 1904",
+"place": "Arienzo",
+"evidence": "Arienzo, *Nascite* **1904**, **act 2**: **GIUSEPPE FALCO**, born **10 Jan 1904**, to **Pasquale Falco** and **Angelamaria Attanasio**. Found from the printed tavola of the 1904 birth register (MC55-RM9 leaves 448R–449L), which lists the child; the act was not in the second-reading table (it lay in the span the first reading left unread) and was opened and read on 9 November 2026 from the image, the witness block zoomed.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 401, Nascite 1904 atto 2 — read from the image by this archive's own hand"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "pasquale-falco-of-pasquale-falco-angela-maria-attana",
+"name": "Pasquale Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelamaria-attanasio",
+"name": "Angelamaria Attanasio",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "maria-ida-falco",
+"name": "Maria Ida Falco (of Pasquale, b. 1906)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clemente-francesco-falco",
+"name": "Clemente Francesco Falco (of Pasquale, b. 1907)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clemente-basilio-falco",
+"name": "Clemente Basilio Falco (of Pasquale, b. 1909)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-pasquale-falco-angela-maria-attana",
+"name": "Vincenzo Falco (of Pasquale, b. 1896)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-pasquale-falco-angela-maria-attana",
+"name": "Maria Falco (of Pasquale, b. 1898)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-pasquale-falco-angela-maria-attana-2",
+"name": "Pasquale Falco (of Pasquale, b. 1899)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "10 Jan 1904",
+"dateFrom": {
+"b": "act"
+}
+},
+{
 "slug": "giuseppe-falco",
 "name": "Giuseppe Falco",
 "surname": "FALCO",
@@ -46301,6 +46548,93 @@
 ]
 }
 ]
+},
+{
+"slug": "lucia-falco-of-angelo-falco-vincenza-de-lucia",
+"name": "Lucia Falco (of Angelo, b. 1904)",
+"surname": "FALCO",
+"household": "Angelo Falco & Vincenza de Lucia",
+"hid": "angelo-falco-vincenza-de-lucia",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "12 Feb 1904",
+"place": "Arienzo",
+"evidence": "Arienzo, *Nascite* **1904**, **act 10**: **LUCIA FALCO**, born **12 Feb 1904**, to **Angelo Falco** and **Vincenza de Lucia**. Found from the printed tavola of the 1904 birth register (MC55-RM9 leaves 448R–449L), which lists the child; the act was not in the second-reading table (it lay in the span the first reading left unread) and was opened and read on 9 November 2026 from the image, the witness block zoomed.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 404, Nascite 1904 atto 10 — read from the image by this archive's own hand"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "angelo-falco-of-angelo-falco-vincenza-de-lucia",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenza-de-lucia-2",
+"name": "Vincenza de Lucia",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "maria-felicia-falco",
+"name": "Maria Felicia Falco (of Angelo, b. 1902)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carminantonio-falco",
+"name": "Carminantonio Falco (of Angelo, b. 1906)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clementina-falco-of-angelo-falco-vincenza-de-lucia",
+"name": "Clementina Falco (of Angelo, b. 1910)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "crescenzo-francesco-falco-2",
+"name": "Crescenzo Francesco Falco (of Angelo, b. 1900)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-falco-of-angelo-falco-vincenza-de-lucia",
+"name": "Maria Falco (of Angelo, b. 1900)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "12 Feb 1904",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "lucretia-falco",
@@ -51432,6 +51766,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "lucia-falco-of-angelo-falco-vincenza-de-lucia",
+"name": "Lucia Falco (of Angelo, b. 1904)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "16 Apr 1900",
@@ -51522,6 +51864,14 @@
 {
 "slug": "pasquale-falco-of-pasquale-falco-angela-maria-attana-2",
 "name": "Pasquale Falco (of Pasquale, b. 1899)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-pasquale-falco-angela-maria-attana",
+"name": "Giuseppe Falco (of Pasquale, b. 1904)",
 "via": "register",
 "vias": [
 "register"
@@ -52083,6 +52433,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "lucia-falco-of-angelo-falco-vincenza-de-lucia",
+"name": "Lucia Falco (of Angelo, b. 1904)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "19 May 1902",
@@ -52468,6 +52826,14 @@
 {
 "slug": "pasquale-falco-of-pasquale-falco-angela-maria-attana-2",
 "name": "Pasquale Falco (of Pasquale, b. 1899)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-pasquale-falco-angela-maria-attana",
+"name": "Giuseppe Falco (of Pasquale, b. 1904)",
 "via": "register",
 "vias": [
 "register"
@@ -58102,8 +58468,15 @@
 "event": "death",
 "date": "1 Mar 1877",
 "place": "Arienzo, via Camellara 16",
-"evidence": "Arienzo, *Morti* **1877**, **act 14**: «*… nella casa posta in **VIA CAMELLARA** al numero **SEDICI**, è morto **PASQUALE FALCO**, di **GIORNI VENTIDUE**, *senza professione* … da **ANTONIO**, contadino … e da **CARMELA GUIDA**, contadina*», **1 March 1877**. **Twenty-two days old**, so born about 7 February 1877.",
+"evidence": "Arienzo, *Morti* **1877**, **act 14**: «*… nella casa posta in **VIA CAMELLARA** al numero **SEDICI**, è morto **PASQUALE FALCO**, di **GIORNI VENTIDUE**, *senza professione* … da **ANTONIO**, contadino … e da **CARMELA GUIDA**, contadina*», **1 March 1877**. **Twenty-two days old**, so born about 7 February 1877. **UPDATED 13 NOVEMBER 2026 — HIS BIRTH IS READ: 9 February 1877, the first of twins (Nascite 1877 act 26, `MC55-FNT` leaf 1188).** The death act's «giorni ventidue» is two days more than the birth act allows (9 February to 1 March is twenty days); the two acts differ and that is not resolved here.",
 "ark": "3:1:3QS7-997F-MWW7 — FamilySearch MC55-VNL img 15 left page, Arienzo Morti 1877 act 14 — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "9 Feb 1877",
+"place": "Arienzo, via Orticelli 6",
+"evidence": "**THE FIRST OF TWINS, AND THE BIRTH BEHIND A DEATH THIS ARCHIVE ALREADY HELD.** Arienzo, *Nascite* **1877**, **act 26**: **PASQUALE FALCO**, declared at 10.17 in the morning of 9 Feb 1877 by the father, **Antonio Falco, thirty-three (trentatré), contadino**, who says the child was born at 1.30 that morning at **via Orticelli no. 6** to «**Carmela Guida sua moglie, contadina**» and «**è gemello con altro cui concerne l'atto seguente**»; witnesses Bartolomeo Diglio (30, contadino) and Costanzo Morgillo (42, contadino); no marginal note on either act. The father adds that the child is «il primogenito». Name box «Falco Pasquale». Read from the image 13 November 2026, the father's name, age and the word «gemello» zoomed at level 13. He died at twenty-two days (Morti 1877 act 14, 1 March 1877).",
+"ark": "3:1:3QS7-L976-QQYX — FamilySearch MC55-FNT img 1188 (left page act 26; right page act 27), Arienzo Nascite 1877 — READ FROM THE IMAGE, level 13"
 }
 ],
 "sources": [
@@ -58244,10 +58617,12 @@
 ]
 }
 ],
-"d": "1 Mar 1877",
+"b": "9 Feb 1877",
 "dateFrom": {
+"b": "act",
 "d": "act"
-}
+},
+"d": "1 Mar 1877"
 },
 {
 "slug": "pasquale-falco-of-pasquale-falco-elisabetta-sadutto",
@@ -58553,6 +58928,13 @@
 "place": "Arienzo",
 "evidence": "Named as the father in the birth act of 17 Sep 1899: Pasquale Falco.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2712, Nascite 1899 atto 103 — delegated reader, then independently re-read by a verifier (V451)"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "10 Jan 1904",
+"place": "Arienzo",
+"evidence": "Named as the father in the birth act of Giuseppe Falco, *Nascite* 1904, act 2. Found from the printed tavola of the 1904 birth register (MC55-RM9 leaves 448R–449L), which lists the child; the act was not in the second-reading table (it lay in the span the first reading left unread) and was opened and read on 9 November 2026 from the image, the witness block zoomed.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 401, Nascite 1904 atto 2 — read from the image by this archive's own hand"
 }
 ],
 "sources": [
@@ -58614,6 +58996,14 @@
 {
 "slug": "pasquale-falco-of-pasquale-falco-angela-maria-attana-2",
 "name": "Pasquale Falco (of Pasquale, b. 1899)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-pasquale-falco-angela-maria-attana",
+"name": "Giuseppe Falco (of Pasquale, b. 1904)",
 "via": "register",
 "vias": [
 "register"
@@ -58698,6 +59088,14 @@
 {
 "slug": "maria-falco-of-pasquale-falco-angela-maria-attana",
 "name": "Maria Falco (of Pasquale, b. 1898)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-pasquale-falco-angela-maria-attana",
+"name": "Giuseppe Falco (of Pasquale, b. 1904)",
 "via": "register",
 "vias": [
 "register"
@@ -59289,7 +59687,7 @@
 "event": "birth",
 "date": "1 Feb 1877",
 "place": "Arienzo",
-"evidence": "Arienzo, *Nascite* **1877**, **act 20**: **PASQUALINA FALCO**, born **1 Feb 1877**, to **Pasquale Falco** and **Maria Amelia Guida**; margin: Con atto 23 Nov. 1896 N. 28 in Arienzo la Falco sposo Guida Francesco [signed]; below later hand: Deceduta in Arienzo S. Felice il 22-6-944. S. Maria C.V. 10/5/57. Il Cancelliere [signed]. *Read from the FamilySearch image by a delegated reader and independently re-read by a second reader; **not yet re-opened by the archive's own hand.***",
+"evidence": "Arienzo, *Nascite* **1877**, **act 20**: **PASQUALINA FALCO**, born **1 Feb 1877**, to **Pasquale Falco** and **Maria Amelia Guida**; margin: Con atto 23 Nov. 1896 N. 28 in Arienzo la Falco sposo Guida Francesco [signed]; below later hand: Deceduta in Arienzo S. Felice il 22-6-944. S. Maria C.V. 10/5/57. Il Cancelliere [signed]. *Read from the FamilySearch image by a delegated reader and independently re-read by a second reader; **RE-OPENED BY THE ARCHIVE'S OWN HAND 13 NOVEMBER 2026** (`MC55-FNT` leaf 1186, left page, zoomed at level 13): born at 6.30 in the morning of 1 Feb 1877 at **via Camellara no. 20**, declared at 10.40 the same day by the father, **Pasquale Falco, thirty-eight (trentotto), contadino**, with the mother named as «Maria Amelia Guida sua moglie, contadina»; first witness Biondo Schiavone. The margin reads «Con atto 23 Nov. 1896 N° 28 in Arienzo, la Falco sposò Guida Francesco»; the later hand reads «Deceduta in Arienzo S. Felice il 22-6-944[?]», the last digit and the year not settled. The father's age (thirty-eight) agrees with Pasquale b. 1839 of the household «Francesco Falco & Raffaela Falco» only if he is that man; **no identification is made here.***",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 1186, Nascite 1877 atto 20 — delegated reader, then independently re-read by a verifier (V106)"
 },
 {
@@ -62156,7 +62554,7 @@
 "event": "birth",
 "date": "8 Mar 1877",
 "place": "Arienzo",
-"evidence": "Arienzo, *Nascite* **1877**, **act 42**: **RAFFAELE FALCO**, born **8 Mar 1877**, to **Gioacchino Falco** and **Andreana Crisci**. *Read from the FamilySearch image by a delegated reader and independently re-read by a second reader; **not yet re-opened by the archive's own hand.***",
+"evidence": "Arienzo, *Nascite* **1877**, **act 42**: **RAFFAELE FALCO**, born **8 Mar 1877**, to **Gioacchino Falco** and **Andreana Crisci**. *Read from the FamilySearch image by a delegated reader and independently re-read by a second reader; **RE-OPENED BY THE ARCHIVE'S OWN HAND 13 NOVEMBER 2026** (`MC55-FNT` leaf 1193, right page, zoomed at level 13): born at 5.30 in the afternoon of 8 Mar 1877 at **via Camellara no. 10**, declared at 8.43 the next morning, 9 Mar, by the father, **Gioacchino Falco, thirty-four (trentaquattro), bracciale**, with the mother named as «Andreana Crisci sua moglie, filatrice»; witnesses Pellegrino Martone (37) and Domenico Esposito (49), both contadini. No marginal note. **This Andreana Crisci is not the wife of Vincenzo Falco** (she is a generation younger and the other one's death is in 1876); the father's identity is not established.*",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 1193, Nascite 1877 atto 42 — delegated reader, then independently re-read by a verifier (V107)"
 }
 ],
@@ -65330,8 +65728,15 @@
 "event": "death",
 "date": "14 Sep 1877",
 "place": "Arienzo, via Camellara 16",
-"evidence": "Arienzo, *Morti* **1877**, **act 78**: «*… nella casa posta in **VIA CAMELLARA** al numero **SEDICI**, è morto **VINCENZO FALCO**, di **MESI SETTE** … da **ANTONIO**, contadino … e da **CARMELA GUIDA**, contadina*», **14 September 1877**.\n\n**SEVEN MONTHS IN SEPTEMBER 1877 PUTS HIS BIRTH AT ABOUT FEBRUARY 1877 — THE SAME MONTH AS HIS BROTHER PASQUALE.** *Twins is the obvious reading and the acts do not say it; the 1877 birth register would, and it has not been opened.* **Four children of this house are dead in nineteen months**, with **FABRIZIO** in 1871 that is five.\n\n*And the house number moves from **2** in 1876 to **16** in 1877 on the same street.*",
+"evidence": "Arienzo, *Morti* **1877**, **act 78**: «*… nella casa posta in **VIA CAMELLARA** al numero **SEDICI**, è morto **VINCENZO FALCO**, di **MESI SETTE** … da **ANTONIO**, contadino … e da **CARMELA GUIDA**, contadina*», **14 September 1877**. **SEVEN MONTHS IN SEPTEMBER 1877 PUTS HIS BIRTH AT ABOUT FEBRUARY 1877 — THE SAME MONTH AS HIS BROTHER PASQUALE.** *Twins was the obvious reading and the death acts do not say it. **THE BIRTH REGISTER SAYS IT — read 13 November 2026:** Nascite 1877 acts 26 and 27, 9 February 1877, the second twin («secondogenito»), `MC55-FNT` leaf 1188.* **Four children of this house are dead in nineteen months**, with **FABRIZIO** in 1871 that is five. *And the house number moves from **2** in 1876 to **16** in 1877 on the same street.*",
 "ark": "3:1:3QSQ-G97F-M7T4 — FamilySearch MC55-VNL img 31 left page, Arienzo Morti 1877 act 78 — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "9 Feb 1877",
+"place": "Arienzo, via Orticelli 6",
+"evidence": "**THE SECOND OF THE TWINS.** Arienzo, *Nascite* **1877**, **act 27**: **VINCENZO FALCO**, declared at 10.17 in the morning of 9 Feb 1877 by the father, **Antonio Falco, thirty-three (trentatré), contadino**, who says the child was born at 1.30 that morning at **via Orticelli no. 6** to «**Carmela Guida sua moglie, contadina**» and «**è gemello con altro cui concerne l'atto seguente**»; witnesses Bartolomeo Diglio (30, contadino) and Costanzo Morgillo (42, contadino); no marginal note on either act. The father adds that the child is the second born («secondogenito»). Name box «Falco Vincenzo». Read from the image 13 November 2026, zoomed at level 13. He died at seven months (Morti 1877 act 78, 14 September 1877). **The Vincenzo of 1879 in this household bears the dead twin's name.**",
+"ark": "3:1:3QS7-L976-QQYX — FamilySearch MC55-FNT img 1188 (left page act 26; right page act 27), Arienzo Nascite 1877 — READ FROM THE IMAGE, level 13"
 }
 ],
 "sources": [
@@ -65472,10 +65877,12 @@
 ]
 }
 ],
-"d": "14 Sep 1877",
+"b": "9 Feb 1877",
 "dateFrom": {
+"b": "act",
 "d": "act"
-}
+},
+"d": "14 Sep 1877"
 },
 {
 "slug": "vincenzo-falco-of-antonio-falco-carmela-guida-2",
@@ -65867,6 +66274,14 @@
 {
 "slug": "pasquale-falco-of-pasquale-falco-angela-maria-attana-2",
 "name": "Pasquale Falco (of Pasquale, b. 1899)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-falco-of-pasquale-falco-angela-maria-attana",
+"name": "Giuseppe Falco (of Pasquale, b. 1904)",
 "via": "register",
 "vias": [
 "register"
@@ -67774,6 +68189,13 @@
 "place": "Arienzo, via Camellara 7",
 "evidence": "Arienzo, *Morti* **1907**, **Parte I, act 82** (drawn 16 Dec 1907, 9.05 a.m., before Cavaliere Marcellino Guerriero, *sindaco*; declarants **Giuseppe Morgillo**, 55, *trainante*, and **Salvatore Crisci**, 53, *calzolaio*; witnesses Alfonso Anzevino and Felice Sorice): «*… a ore antimeridiane **quattro** di oggi, nella casa posta in **via Cumellara** al numero **SETTE**, è morta **Nunziata Ferrara**, di anni **ventidue**, *donna di casa*, residente in Arienzo, nata in Arienzo, da **Giovanni**, *colono*, domiciliato in Arienzo, e da **Maria Falco**, *contadina*, domiciliata in Arienzo, **nubile***». The margin box reads «…rrara Nunziata». *First entered 3 November 2026: the act sat in the second-reading table as V168 and was never entered, because the only Falco in it is the mother. Read from the image by the archive's own hand on 3 November 2026 (MC55-RM9 leaf 872, left page, second act).*\n\n**MEDIUM CONFIDENCE ON THE HOUSEHOLD, HIGH ON THE ACT.** The act names only «Maria Falco» and a father Giovanni. The archive's Maria Falco (b. 1844) married **Giovanni Ferraro**, *agricoltore*, on 28 Nov 1873, and this is the same couple's daughter by the names, the street (via Camellara and via Orticelli are both their addresses) and the mother's *contadina*; a daughter of 22 in 1907 was born about 1885, when Maria was 41, which the act does not contradict. She is the last of their children found dead: **Michele** (1875), **Agnese** (1879), a second **Michele** (1891), and now Nunziata, unmarried at 22.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 872 (left page), Morti 1907 Parte I atto 82 — READ FROM THE IMAGE, 3 November 2026 (second-reading row V168)"
+},
+{
+"event": "birth",
+"date": "20 Sep 1885",
+"place": "Arienzo, via Orticelli 14",
+"evidence": "Arienzo, *Nascite* **1885**, **act 114** — **THE BIRTH OF THE WOMAN WHOSE DEATH THE ARCHIVE HELD.** Nunziata Ferrara, born 20 September 1885 at 7.30 a.m. at via Orticelli no. 14, declared 22 September at 11.20 a.m. by the father, Giovanni Ferrara, 36, *agricoltore* (he signed); mother «*Maria **Falco** sua moglie, tessitrice*» (name, trade, street and number read at level 13, z288); witnesses Crisci Marcantonio, 68, *calzolaio*, and Raffaele Loffredo, 66, *agricoltore* — the same two men who witnessed the 1875 death of Michele Ferrara of Giovanni. Maria Falco (b. 1844) married Giovanni Ferraro on 28 November 1873; the house is the one where Agnese Ferrara died in 1879. Nunziata Ferrara died on 16 December 1907 aged twenty-two, unmarried, «da Giovanni e Maria Falco» (Morti 1907 Parte I atto 82, row above): twenty-two in December 1907 fits a birth in September 1885. Near-certain: parents, street and number, trade, witnesses and the later age all agree.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 898 (right page), Nascite 1885 atto 114 — READ FROM THE IMAGE, level 13, 13 November 2026"
 }
 ],
 "sources": [
@@ -67784,10 +68206,12 @@
 "spouses": [],
 "children": [],
 "siblings": [],
-"d": "16 Dec 1907",
+"b": "20 Sep 1885",
 "dateFrom": {
+"b": "act",
 "d": "act"
 },
+"d": "16 Dec 1907",
 "noKin": "no-edge-recorded"
 },
 {
@@ -68761,7 +69185,7 @@
 "event": "death",
 "date": "20 Nov 1876",
 "place": "Arienzo, via Camellara 8",
-"evidence": "Arienzo, Morti 1876, act 86 (declared 20 Nov 1876): Pasqualantonio Guida, aged one year and six months, son of the late Pasqualantonio Guida, contadino, and of Domenica Falco, tessitrice, died at half past six in the morning of 20 Nov 1876 at via Camellara 8. *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.***",
+"evidence": "Arienzo, Morti 1876, act 86 (declared 20 Nov 1876): Pasqualantonio Guida, aged one year and six months, son of the late Pasqualantonio Guida, contadino, and of Domenica Falco, tessitrice, died at half past six in the morning of 20 Nov 1876 at via Camellara 8. *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.*** **RE-OPENED BY THE ARCHIVE'S OWN HAND 13 NOV 2026 (full Arienzo walk, MC55-FNT image 1140, left page, zoomed at level 13):** «*è morto **PASQUALANTONIO GUIDA**, di anno uno e mesi sei, contadino … da fu **PASQUALANTONIO**, contadino … e da **DOMENICA FALCO***», via Camellara numero otto; declarants **ANTONIO FALCO**, aged thirty-eight (as read), contadino, and Giuseppe Crisci 41, calzolaio. *A declarant is never kinship; the same-named Antonio Falco declared Maria Clementina Crisci's death on 15 September 1876 at an age read as thirty-two or thirty-three: two men, or a clerk's guess.*",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 1140, Morti 1876 atto 86 — read by a delegated reader and independently re-read by a second (V103)"
 }
 ],
@@ -69129,6 +69553,36 @@
 }
 ],
 "siblings": []
+},
+{
+"slug": "giuseppa-lettieri",
+"name": "Giuseppa Lettieri (of Angelo Lettieri & Chiara Falco, b. 1885)",
+"surname": "LETTIERI",
+"household": "Francesco Falco & Raffaela Falco",
+"hid": "francesco-falco-raffaela-falco",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "21 Jul 1885",
+"place": "Arienzo, via Sant'Andrea 9",
+"evidence": "Arienzo, *Nascite* **1885**, **act 83** — Giuseppa Lettieri, born 21 July 1885 at via Sant'Andrea no. 9, to Angelo Lettieri, 40, *pastaio*, and «*Chiara **Falco** sua moglie, filatrice*» (read at level 13, z285); witnesses Diglio Clemento, 38, and Giuseppe Orologio, 56. Chiara Falco (b. 19 December 1843) married Angelo Lettieri, 37, *pastaio*, on 3 September 1882 (rows above); the husband's name, his trade and his age, three years older, agree. The scribe's capital L and S look alike here: the surname is Lettieri, a real Arienzo name (this archive's marriage row spells it so), not «Settieri». Identity INFERRED from the parents' names, the trade and the ages. A later margin note (a marriage, 19??) was not zoomed.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 888, Nascite 1885 atto 83 — READ FROM THE IMAGE, level 13, 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "21 Jul 1885",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
 },
 {
 "slug": "giuseppe-lettieri",
@@ -71301,6 +71755,14 @@
 "via": "tree",
 "vias": [
 "tree"
+]
+},
+{
+"slug": "maria-zimbardo",
+"name": "Maria Zimbardo (of Antonio Zimbardo & Antonia Falco, b. 1885)",
+"via": "register",
+"vias": [
+"register"
 ]
 }
 ],
@@ -77500,6 +77962,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "maria-zimbardo",
+"name": "Maria Zimbardo (of Antonio Zimbardo & Antonia Falco, b. 1885)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": []
@@ -80816,6 +81286,36 @@
 }
 },
 {
+"slug": "francesco-ruotolo",
+"name": "Francesco Ruotolo (of Pasquale Ruotolo & Maria Felice Falco, b. 1885)",
+"surname": "RUOTOLO",
+"household": "Crescenzo Falco & Angela Maria Morgillo",
+"hid": "crescenzo-falco-angela-maria-morgillo",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "27 Aug 1885",
+"place": "Arienzo, via Camellara 30",
+"evidence": "Arienzo, *Nascite* **1885**, **act 105** — Francesco Ruotolo, born 27 August 1885 at 7.30 p.m. at via Cumellara no. 30 (the act's spelling), declared 30 August at 9.40 a.m. by the father, Pasquale Ruotolo, 40, *agricoltore*, who did not sign; mother «*Felicia **Falco** sua moglie, contadina*» (name, street, number and the hour read at level 13, z287); witnesses Crisci Pasquale, 43, and Giovanni Saccavino, 36, both *contadino*. Maria Felice Falco (b. 1845) married Pasquale Ruotolo on 3 February 1873 and their daughter Maria Ruotolo died at via Cumellara no. 18 on 13 August 1881 (rows above); the parents' names and the street agree, the house number moved from 18 to 30. A later hand's marriage note in the right margin was not zoomed. Identity INFERRED from the parents' names, the trade and the street.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 895 (right page), Nascite 1885 atto 105 — READ FROM THE IMAGE, level 13, 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "27 Aug 1885",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "maria-ruotolo-of-crescenzo-falco-angela-maria-morgi",
 "name": "Maria Ruotolo (of Pasquale Ruotolo and Maria Felice Falco, d. 1881)",
 "surname": "RUOTOLO",
@@ -82843,6 +83343,13 @@
 "place": "Arienzo, via Orticelli 8",
 "evidence": "Arienzo, Morti 1885, act 82, 19 November 1885: Giuseppe Spunzo, ten days, died 18 November at half past eleven at night, son of Pasquale Spunzo, contadino, and Carmina Falco, filatrice, via Orticelli no. 8. *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.***",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 966, Morti  atto 82 — read by a delegated reader and independently re-read by a second (V301)"
+},
+{
+"event": "birth",
+"date": "10 Nov 1885",
+"place": "Arienzo, via Orticelli 8",
+"evidence": "Arienzo, *Nascite* **1885**, **act 140** — **THE BIRTH OF THE CHILD WHO DIED TEN DAYS OLD.** Giuseppe Spunzo, born 10 November 1885 at 2.30 a.m. at via Orticelli no. 8, declared the same day at 9.40 a.m. by the father, Pasquale Spunzo, 39, *giornaliere*; mother «*Carmina **Falco** sua moglie, filatrice*» (the name, street, number and hour read at level 13, z292); witnesses «*Falco Antonio, di anni quarantadue, agricoltore*» (read at level 13, z291) and Giuseppe Crisci, 46, *calzolaio*. The death of Giuseppe Spunzo, ten days old, at via Orticelli no. 8 on 18 November 1885 is already recorded (Morti 1885 atto 82, row above): the child was eight days old on 18 November, which a clerk's «ten days» rounds, and the two acts name the same parents and the same house. The mother is written Carmina here and in that death act; her other children's acts write Antonia and Carmela, the clerks' variants of one woman (this household's rows). The witness Antonio Falco, 42, is not placed: he is one of the Antonio Falco sightings of 1884–86 whose ages run 34 to 46 and that no household yet claims.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 907 (left page, second act), Nascite 1885 atto 140 — READ FROM THE IMAGE, level 13, 13 November 2026"
 }
 ],
 "sources": [
@@ -82853,10 +83360,12 @@
 "spouses": [],
 "children": [],
 "siblings": [],
-"d": "18 Nov 1885",
+"b": "10 Nov 1885",
 "dateFrom": {
+"b": "act",
 "d": "act"
 },
+"d": "18 Nov 1885",
 "noKin": "no-edge-recorded"
 },
 {
@@ -86369,7 +86878,7 @@
 "event": "named as mother in her child's birth act",
 "date": "12 Nov 1877",
 "place": "Arienzo",
-"evidence": "Named as the mother in the birth act of 12 Nov 1877: Maria Costanza Zimbardo.",
+"evidence": "Named as the mother in the birth act of 12 Nov 1877: «*Maria Costanza Zimbardo sua moglie*», seco lui convivente, via Corso Caudino 78 (level 13). Her trade word is not settled letter by letter (it does not look like the «cucitrice» of 1876 and 1884; probably «tessitrice»). RE-OPENED BY THE ARCHIVE'S OWN HAND 13 NOVEMBER 2026.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 1225, Nascite 1877 atto 137 — delegated reader, then independently re-read by a verifier (V109)"
 },
 {
@@ -86490,6 +86999,52 @@
 "children": [],
 "siblings": [],
 "noKin": "ancestor-in-another-act"
+},
+{
+"slug": "maria-zimbardo",
+"name": "Maria Zimbardo (of Antonio Zimbardo & Antonia Falco, b. 1885)",
+"surname": "ZIMBARDO",
+"household": "Michele Falco & Maria Giovanna Ambrogio",
+"hid": "michele-falco-maria-giovanna-ambrogio",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "19 Jun 1885",
+"place": "Arienzo, via Orticelli 8",
+"evidence": "Arienzo, *Nascite* **1885**, **act 72** — **THE CHILD OF THE BIRTH THE MOTHER DIED OF, TWO DAYS LATER.** Maria Zimbardo, born 19 June 1885 at via Orticelli no. 8, to Antonio Zimbardo, 42, and «*Mariantonia **Falco** sua moglie, filatrice*». Antonia Falco (b. 1850) married Antonio Zimbardo on 26 April 1875, and her own death, as «moglie di Antonio Zimbardo», at the same via Orticelli no. 8 on 21 June 1885 (Morti 1885 atto 28) is already recorded: two days after this birth. Whether she died of the childbirth is not stated by any act. Identity INFERRED from the parents' names, the street and the number. The child's own fate is not yet found.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 884, Nascite 1885 atto 72 — READ FROM THE IMAGE, level 13, 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "giovanna-martone",
+"name": "Giovanna Martone (Falco)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "orsola-porrino",
+"name": "Orsola Porrino",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "19 Jun 1885",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "orsola-zimbardo",

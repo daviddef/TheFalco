@@ -108,6 +108,21 @@ right through this family**, and here it is again in living memory rather than i
 four's wife was. **No kinship is claimed**; the two families were clearly still moving in the same
 small orbit two generations on.
 
+## The marriage act itself — Matrimoni 1897, act 21 (9 November 2026)
+
+**A register act the second-reading table does not have.** Found from the printed tavola of the 1897
+marriage book (`MC55-VNL` leaf 2403R: «Falco Raffaele … 21»), then opened at its page, **leaf 2398L**:
+**act 21, 26 September 1897, 11:10 a.m.** — **Falco Raffaele** (24, son of Carminantonio and of
+Arricale Giovanna) married **Maione Costanza** (21, daughter of Aniello and of Martone Anna), before
+the officer **Raffaele de Musso**. It falls **seven days after the second publication** (19 September)
+and so closes the sequence of this dossier: banns 12 and 19 September, wedding **26 September 1897**.
+
+- **The marriage had no register act in this archive.** The dossier and the banns were here; the
+  wedding itself was inferred. It is now an act, with both sets of parents named as in the banns.
+- **`notes/arienzo-1866-1910-falco-acts.md` is not changed** (it is the fixed record of 472 acts
+  re-read; this act was met afterwards, through the tavola) and **the household rows for
+  Raffaele Falco & Costanza Maione do not yet carry the wedding**. Both are follow-ups, not done.
+
 ## A discrepancy, published rather than smoothed
 
 **Carminantonio's age is given as FORTY-SIX in August 1897 and FIFTY-FIVE in August 1902** — five
