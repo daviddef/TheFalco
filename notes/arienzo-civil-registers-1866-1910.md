@@ -1110,6 +1110,16 @@ would be settled.* **He is not of this line either way: his father is the Costa 
 
 ## WHAT IS LEFT, AND WHY IT STOPPED
 
+> **SUPERSEDED, 13 November 2026.** The marriage was never at Santa Maria a Vico. It is **Arienzo,
+> Matrimoni 1876, act 19, April 1876** (MC55-FNT leaf 1043), found in the full walk and re-opened at the
+> image: Giuseppe Falco, 35, son of the late Matteo and Alessandra Crisci, married Nicoletta —
+> **written NIZZO in the act** (Nuzzo in every later act of the couple), 21, daughter of Clemente. The
+> tree's «born 1855» was right to within a year, and the «wedding about 1873–1882, so look past Antenati's
+> Santa Maria a Vico series» reasoning below is the wrong-negative the memory `wrong-negatives` warns of:
+> the church-register search was aimed at the bride's comune, and the civil act was at the groom's.
+> The text below is kept as the record of how the search went.
+
+
 **The marriage this archive wants is 1866 or later.** The family tree puts Nicoletta Nuzzo's birth at
 **1855**, which makes the wedding roughly **1873–1882** — *past the end of Antenati's Santa Maria a
 Vico series, which stops at 1865.*
@@ -3199,9 +3209,9 @@ for two children to become one.*
 dead is ordinary practice here; doing it across the sexes is the same custom. It is a custom and not
 a proof.*
 
-> **The margin box reads «Falco Angelo» and the act reads «femminino … ANGELA».** The act is the
-> record and the margin is its finding aid — the rule this archive published about index lines holds
-> for a margin box too. **She is Angela.**
+> **The margin box reads «Falco Angela» and the act reads «femminino … ANGELA»: they agree.** *(An
+> earlier reading of the box as «Falco Angelo» is withdrawn: re-opened at the image, level 13, on
+> 13 Nov 2026, the box's last letters match the body's «Angela».)* **She is Angela.**
 
 **And the family tree already had her**, as a daughter of Giuseppe Falco and Rosa Zimbardo; the act
 documents her. *Giuseppe is fifty in January 1876, so born about 1826; the tree says 1824.*
@@ -3857,3 +3867,15 @@ Same method and same instruments as 1887 (whole-leaf contact sheets of both oute
 **What the printed tavolae add.** The 1889 births tavola and the 1889 deaths tavola each list every Falco *child or deceased* of the year and no other, which independently confirms the box reading: three Falco births (1, 20, 103) and one Falco death (57). The 1889 births V361–V365 (boxes of other surnames) and V367–V368, and the deaths V369 and V371, are mother-/declarant-only or parent-only acts and rest on the second reading alone; a box walk and a tavola both name only the child or the deceased. `walked` stays false.
 
 **Layout facts.** Duplicate exposures of one opening: 1888 births 1243/1244 and 1247/1248; 1889 marriages 1353/1354; 1889 births 1377/1378; 1889 deaths 1438/1439 and 1459/1460. Intermediate visto after birth act 77 of 1888 (1267L). The 1890 marriage book opens at 1466R (title leaf) with act 1 on 1467L; acts 1–5 are seen (1467–1470), no Falco box yet, and the walk resumes at 1471.
+
+## The full walk, Nascite 1876 and the marriages of 1876 (13 November 2026)
+
+Walked image by image, both pages, level 12, every Falco or near-name cell zoomed at level 13 (`MC55-FNT` leaves 1063–1086; the walk continues at 1087). Told here because they change households:
+
+- **Matrimoni 1876 act 19** is **Nizzo, not Nuzzo** (see the superseded note above); the bride's mother's initial is a V (Verreca/Verrico?), not the delegated readers' «Perrea?/Perrone?» (the finding aid's V093 row still carries the old reading). The day of the act is overwritten and unread; the register's order places it between 11 April and 1 May.
+- **Matrimoni 1876 act 26**, 3 July 1876: Giovanbattista Falco, 24, sarto, son of Angelo and Maria Cimmino, married Maria Costanza Zimbardo, 23, daughter of Aniello and «Sabato» Laudato. Both spouses sign. The household had the marriage only from the margin of her 1853 birth act; it now has the act (finding aid V094).
+- **Three births of 1876 in no household.** *Nascite* act **45** (18 Mar; Michele Gabriele Ferrara, mother Maria Falco, via Orticelli 6), act **63** (23 Apr; Biagio Antonio Morgillo, mother Vincenza Falco, piazza Valletta 1), act **75** (20 May; Maria Giglio, mother Filomena Falco, via Orticelli 10). All three mothers are daughters of the known households (Matteo & Alessandra Crisci; Vincenzo & Andreana Crisci); the children are now rows in them.
+- **Falco witnesses** in acts 45 («Raffaele, 57») and 75 («Michele, 66») are entered as *probable* sightings of Raffaele (husband of Angela Rosa Morgillo) and Michele (husband of Maria Giovanna Ambrogio); neither act names a father. A third witness in 1876 (an Antonio Falco, 33, in act 16) is **unplaced** and stays in the walk's private sightings only.
+- **Angela Falco, 1876** (Nascite 1876 act 12, Giuseppe Falco & Rosa Zimbardo): the margin box reads «Falco Angela», agreeing with the act; the earlier reading «Angelo» is withdrawn (corrected in place above).
+
+*Not catalogued:* Nizzo for Nuzzo is one scribe's spelling in one act; no spelling has been added to the Atlas catalogue and none will be without David's word.
