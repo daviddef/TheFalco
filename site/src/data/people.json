@@ -10615,6 +10615,13 @@
 "place": "Arienzo, via Camellara",
 "evidence": "Arienzo, Morti 1903, act 52: Angela Crisci, seventeen, unmarried, died at 6.30 p.m. on 5 Aug 1903 at via Camellara, daughter of Pasquale, contadino, and of Francesca Falco, contadina. *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.***",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 337, Morti 1903 atto 52 — read by a delegated reader and independently re-read by a second (V125)"
+},
+{
+"event": "birth",
+"date": "4 Nov 1886",
+"place": "Arienzo, via Camellara 30",
+"evidence": "Arienzo, *Nascite* **1886**, **act 145** — **THE BIRTH OF THE DAUGHTER WHO DIED AT SEVENTEEN.** Angela Crisci, born at 10.30 p.m. on 4 November 1886 at «*via Cumellara … numero trenta*», declared at 11.20 a.m. on 7 November before the delegated councillor Notar Parido Guerriero by the father, «*Pasquale Crisci, di anni quarantaquattro, contadino*»; mother «***Francesca Falco** sua moglie, contadina, seco lui convivente*» (the street, the number and the mother's name read at level 13, z330). Witnesses «*Lettieri Clemente, di anni cinquantasei, contadino*» and «*Clemente Morgillo, di anni quarantotto, contadino*» (level 12); neither signed, «*perchè illetterati*». Her death at seventeen, unmarried, at via Camellara on 5 August 1903 (Morti 1903 act 52) is held in this household and fits (born November 1886). The house number is thirty here against seven at the birth and death of her brother Domenico in 1885 (via Camellara 7 and 5): the same couple, a different house on the same street in twenty-one months. The act gives no parents for the mother; **this household is not joined to the founders' line** (see the two Falco families at Arienzo).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1046 (left page), Nascite 1886 atto 145 — READ FROM THE IMAGE, level 13, 13 November 2026"
 }
 ],
 "sources": [
@@ -10667,10 +10674,12 @@
 ]
 }
 ],
-"d": "5 Aug 1903",
+"b": "4 Nov 1886",
 "dateFrom": {
+"b": "act",
 "d": "act"
-}
+},
+"d": "5 Aug 1903"
 },
 {
 "slug": "angela-rosa-crisci",
@@ -14201,6 +14210,13 @@
 "place": "Arienzo, via Camellara 7",
 "evidence": "Arienzo, *Nascite* **1885**, Parte I, **act 17**, read from the image: «*… è comparso **PASQUALE CRISCI**, di anni **QUARANTUNO**, *CONTADINO*, domiciliato in questo comune, il quale mi ha dichiarato che alle ore pomeridiane **sette** e minuti **trenta** del dì **ventidue** del corrente mese, nella casa posta in **VIA CAMELLARA** al numero **SETTE**, da **FRANCESCA FALCO sua moglie, CONTADINA**, seco lui convivente, è nato un bambino di sesso **mascolino** … a cui dà il nome di **DOMENICO***». The act stands on the facing page of the same leaf as act 18.\n\n**Forty-one in January 1885, so born about 1843–4.**\n\n**THE STREET IS THE POINT.** *Via Camellara is this line's own street* — Matteo Falco died in the Contrada Camellara in 1867, Michele Falco was a colono of strada Camellara in 1850, and the deaths of 1825 and 1871 are full of it. **A Falco wife at Camellara 7 in 1885 is the nearest thing to this family that the year's registers contain.** *It is still not a kinship: no parent of hers is named in a birth act.*",
 "ark": "3:1:3QS7-897F-9J9 — FamilySearch MC55-VNL img 866, Arienzo Nascite 1885 Parte I — READ FROM THE IMAGE"
+},
+{
+"event": "declared his child's birth",
+"date": "7 Nov 1886",
+"place": "Arienzo, via Camellara 30",
+"evidence": "«*Pasquale Crisci, di anni quarantaquattro, contadino*», domiciled at Arienzo, declared the birth of his daughter Angela on 7 November 1886 (Nascite 1886 act 145, row above); he and the witnesses did not sign, «*perchè illetterati*». Forty-one in January 1885 (Nascite 1885 act 17) and forty-four here: ages are guessed in these registers.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1046 (left page), Nascite 1886 atto 145 — READ FROM THE IMAGE, level 13, 13 November 2026"
 }
 ],
 "sources": [
@@ -38140,6 +38156,13 @@
 "place": "Arienzo, via Camellara 7",
 "evidence": "Arienzo, Morti 1909, act 43: Francesca Falco, contadina, sixty-five, born at Santa Maria a Vico, wife of Pasquale Crisci, died at 4.50 p.m. on 25 May 1909 at via Camellara 7, daughter of the late Antonio and the late Vincenza Della Torca. *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.***",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 1032, Morti 1909 atto 43 — read by a delegated reader and independently re-read by a second (V178)"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "7 Nov 1886",
+"place": "Arienzo, via Camellara 30",
+"evidence": "«*da **Francesca Falco** sua moglie, contadina, seco lui convivente*» — Arienzo, *Nascite* **1886**, **act 145** (the birth of Angela Crisci, row above), read at level 13. A peasant wife at via Camellara no. 30; her age, her parents and her birthplace are not given in this act. Her death act of 25 May 1909 (held above) gives her age as sixty-five and her birthplace as Santa Maria a Vico. **Not joined to the founders' line.**",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1046 (left page), Nascite 1886 atto 145 — READ FROM THE IMAGE, level 13, 13 November 2026"
 }
 ],
 "sources": [
@@ -65787,6 +65810,32 @@
 "d": "13 Sep 1889"
 },
 {
+"slug": "vincenzo-falco-of-angelo-falco-annamaria-cimmino-cor-2",
+"name": "Vincenzo Falco (a vetturale, aged 30 in 1886)",
+"surname": "FALCO",
+"household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+"hid": "angelo-falco-annamaria-cimmino-corso-caudino",
+"role": "witness",
+"events": [
+{
+"event": "named as a witness at a birth",
+"date": "31 Dec 1886",
+"place": "Arienzo, via Corso Caudino",
+"evidence": "Arienzo, *Nascite* **1886**, **act 171**: Giacomo Vincenzo Petrone, born at 6.30 a.m. on 30 December 1886 in via Corso Caudino (the number is left blank) to Luigi Petrone, 38, industriante (the declarant, who alone signed), and Rosolina Saduto, cucitrice; declared at 9.30 a.m. on 31 December. Witnesses «***Falco Vincenzo, di anni trenta, vetturale***» (level 13, z332) and «*Domenico Liparulo, di anni trentuno, muratore*». **A SIGHTING, NOT A PLACING.** The act gives no residence for him beyond «residenti in questo Comune». Vetturale and the street are those of the Vincenzo Falco who declared Giuseppe Falco's birth at Corso Caudino no. 80 on 7 April 1886 (act 44, row above; aged thirty-six there), and thirty against thirty-six is within the margin by which these registers guess ages; but **no act says the two are one man, and no kinship to the Petrone or Liparulo house is stated or claimed.** Read from the image at level 13 on 13 November 2026.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1054 (right page), Nascite 1886 atto 171 — READ FROM THE IMAGE, level 13, 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"noKin": "attended-the-act"
+},
+{
 "slug": "vincenzo-falco-of-antonio-falco-carmela-guida",
 "name": "Vincenzo Falco (of Antonio, d. 1877)",
 "surname": "FALCO",
@@ -83400,6 +83449,13 @@
 "place": "Arienzo, via Orticelli 8",
 "evidence": "Arienzo, Morti 1887, act 85: Clemente Spunzo, eleven months, son of Pasquale, contadino, and of Carmina Falco, filatrice, died at 9.30 p.m. on 28 September 1887 in via Orticelli no. 8 (declared 29 September). *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.***",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1204, Morti  atto 85 — read by a delegated reader and independently re-read by a second (V336)"
+},
+{
+"event": "birth",
+"date": "22 Nov 1886",
+"place": "Arienzo, via Orticelli 8",
+"evidence": "Arienzo, *Nascite* **1886**, **act 149** — **THE BIRTH OF THE CHILD WHO DIED AT ELEVEN MONTHS.** Clemente Spunzo, born at 9.30 p.m. on 22 November 1886 at via Orticelli no. 8, declared at 9.12 a.m. on 23 November before the delegated councillor Notar Parido Guerriero by the father, «*Pasquale Spunzo, di anni quaranta, contadino*»; mother «***Carmina Falco** sua moglie, filatrice, seco lui convivente*» (the name, the street and the number read at level 13, z331). Witnesses «*Crisci Giuseppe, di anni quarantatre, calzolaio*» and «*Raffaele Loffredo, di anni sessantatre, agricoltore*» (level 12); neither signed, «*perchè illetterati*». The death of Clemente Spunzo, eleven months old, at the same house on 28 September 1887 is already recorded (Morti 1887 act 85, row above): eleven months from 22 November 1886 is 22 October 1887, so the clerk's «eleven months» is a month short, and the two acts agree on the parents, the trade and the house. The same Giuseppe Crisci, then 46, witnessed the birth of the child's brother Giuseppe at this house in November 1885 (Nascite 1885 act 140, row above).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1047 (left page), Nascite 1886 atto 149 — READ FROM THE IMAGE, level 13, 13 November 2026"
 }
 ],
 "sources": [
@@ -83410,10 +83466,12 @@
 "spouses": [],
 "children": [],
 "siblings": [],
-"d": "28 Sep 1887",
+"b": "22 Nov 1886",
 "dateFrom": {
+"b": "act",
 "d": "act"
 },
+"d": "28 Sep 1887",
 "noKin": "no-edge-recorded"
 },
 {
