@@ -9325,8 +9325,19 @@
     "event": "birth",
     "date": "19 Jun 1885",
     "place": "Arienzo, via Orticelli 8",
-    "evidence": "Arienzo, *Nascite* **1885**, **act 72** — **THE CHILD OF THE BIRTH THE MOTHER DIED OF, TWO DAYS LATER.** Maria Zimbardo, born 19 June 1885 at via Orticelli no. 8, to Antonio Zimbardo, 42, and «*Mariantonia **Falco** sua moglie, filatrice*». Antonia Falco (b. 1850) married Antonio Zimbardo on 26 April 1875, and her own death, as «moglie di Antonio Zimbardo», at the same via Orticelli no. 8 on 21 June 1885 (Morti 1885 atto 28) is already recorded: two days after this birth. Whether she died of the childbirth is not stated by any act. Identity INFERRED from the parents' names, the street and the number. The child's own fate is not yet found.",
+    "evidence": "Arienzo, *Nascite* **1885**, **act 72** — **THE CHILD OF THE BIRTH THE MOTHER DIED OF, TWO DAYS LATER.** Maria Zimbardo, born 19 June 1885 at via Orticelli no. 8, to Antonio Zimbardo, 42, and «*Mariantonia **Falco** sua moglie, filatrice*». Antonia Falco (b. 1850) married Antonio Zimbardo on 26 April 1875, and her own death, as «moglie di Antonio Zimbardo», at the same via Orticelli no. 8 on 21 June 1885 (Morti 1885 atto 28) is already recorded: two days after this birth. Whether she died of the childbirth is not stated by any act. Identity INFERRED from the parents' names, the street and the number. **The child's death act is found: Morti 1885 act 27, 21 June 1885, at three days old (see her death row).**",
     "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 884, Nascite 1885 atto 72 — READ FROM THE IMAGE, level 13, 13 November 2026"
+   },
+   {
+    "hid": "michele-falco-maria-giovanna-ambrogio",
+    "household": "Michele Falco & Maria Giovanna Ambrogio",
+    "person": "Maria Zimbardo (of Antonio Zimbardo & Antonia Falco, b. 1885)",
+    "role": "grandchild",
+    "event": "death",
+    "date": "21 Jun 1885",
+    "place": "Arienzo, via Orticelli 8",
+    "evidence": "Arienzo, *Morti* **1885**, **act 27**: «*L'anno milleottocentottantacinque, addì **ventuno** di **giugno**, a ore antimeridiane **dieci** e minuti **venti** … sono comparsi **GIOACCHINO FALCO**, di anni **quaranta**, *giornaliere*, domiciliato in Arienzo, e **SALVATORE CRISCI**, di anni **ventisei**, *calzolaio*, domiciliato in Arienzo, i quali mi hanno dichiarato che a ore antimeridiane **due** e minuti **trenta** di **oggi**, nella casa posta in **via Orticelli** al numero **OTTO**, è morta **MARIA ZIMBARDO**, di **giorni tre**, *contadina*, residente in Arienzo, nata in Arienzo, da **ANTONIO**, *giornaliere*, domiciliato in Arienzo, e da **MARIANTONIA FALCO***». **THE CHILD'S FATE, FOUND — AND SHE DIED SEVENTEEN HOURS BEFORE HER MOTHER.** Born 19 June 1885 (Nascite 1885 act 72), dead at half past two in the morning of 21 June at three days old; her mother Antonia Falco died at half past seven that evening in the same house (Morti 1885 act 28, same two declarants). *The two acts are consecutive in the register (27 and 28), written on 21 and 22 June.* **The declarant Gioacchino Falco, 40, giornaliere, gives his house at via Orticelli 8 in other acts of these years — the same number as the dead — but no act read says what he is to Antonia.** *Nothing is claimed.* *Read at level 13 (date, declarants, the place, the child's name, her age and both parents' names); the mother's trade, filatrice, was read at level 12.*",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 952 (right page), Morti 1885 atto 27 — READ FROM THE IMAGE, level 13, 13 November 2026"
    },
    {
     "hid": "michele-falco-maria-giovanna-ambrogio",
