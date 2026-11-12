@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import AtlasNote from "../components/AtlasNote.astro";
 import { u } from "../lib/url.js";
 
 // What exists, where, for the towns this family lived in — and what does not.
@@ -75,6 +76,19 @@ const COLLECTIONS = [
       eyebrow="What exists, where — and what does not"
       dek="A map of the registers themselves. Most of the dead ends in this archive were not failures of searching but failures of knowing what had been filmed, and each one had to be rediscovered by hand. This page is so that no gap is ever found twice.">
 
+<AtlasNote
+  only={[
+    ["Town by town: what exists, and what was read", null, "the registers of each town this research touched"],
+    ["How each collection lies", "#lies", "how each collection made a search look complete when it was not"],
+    ["What no search can reach", "#unreachable", "Forchia births 1897, Arpaia births 1895, Forchia marriages and deaths 1866–1930, the NAA A1197 cards"],
+  ]}
+  atlas={[
+    ["Providers and what each holds", "https://recordatlas.org/providers/"],
+    ["Source and volume marks (My research)", "https://recordatlas.org/my-research/"],
+    ["The Antenati provider page", "https://recordatlas.org/archive/antenati/"],
+  ]} />
+
+
   <div class="card" style="margin-bottom:1.4rem;border-left:3px solid var(--accent)">
     <p><strong>A nil is only worth what its boundaries are worth.</strong> Before this page existed the
     archive recorded a Benevento fondo as «not located» when it was on Antenati all along, hunted a
@@ -106,7 +120,7 @@ const COLLECTIONS = [
     </section>
   ))}
 
-  <h2>The collections, and how each one lies to you</h2>
+  <h2 id="lies">The collections, and how each one lies to you</h2>
   <div class="stack">
     {COLLECTIONS.map((c) => (
       <div class="card">
@@ -117,7 +131,7 @@ const COLLECTIONS = [
     ))}
   </div>
 
-  <h2>What no search can reach</h2>
+  <h2 id="unreachable">What no search can reach</h2>
   <ul>
     <li><strong>Forchia births 1897</strong> and <strong>Arpaia births 1895</strong> — not digitised by
     anyone. Between them they hold <strong>Filomena Annecchino's birth and Angelo Zampiello's</strong>,

@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import AtlasNote from "../components/AtlasNote.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import households from "../data/households.json";
@@ -49,6 +50,19 @@ const avail = [
 ];
 ---
 <Base title="Antenati">
+
+<AtlasNote
+  only={[
+    ["Why a nil here was safe", null, "which indexes exist, which were checked and absent, and why 1,350 acts were read without one"],
+    ["The Arienzo and Benevento findings", null, "what the portal holds for Arienzo, Moiano, Paolisi and the Valle Caudina, and what each volume gave"],
+    ["The dossier findings", "/processetti/", "the marriage files opened from Antenati, and what they changed"],
+  ]}
+  atlas={[
+    ["Antenati, the provider", "https://recordatlas.org/archive/antenati/"],
+    ["Source and volume marks (My research)", "https://recordatlas.org/my-research/"],
+    ["Providers and what each holds", "https://recordatlas.org/providers/"],
+  ]} />
+
   <h2>What Antenati holds</h2>
   <p class="lede">The Italian State Archives' own portal, which for most of this research was closed to
   us. Opened by hand, it answers two questions that had been left hanging — and the answers are not the
