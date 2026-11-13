@@ -74577,6 +74577,58 @@
 "rel": "relative"
 },
 {
+"slug": "alessandra-morgillo",
+"name": "Alessandra Morgillo (of Carmine Morgillo and Vincenza Falco, b. 1874)",
+"surname": "MORGILLO",
+"household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
+"role": "grandchild",
+"events": [
+{
+"event": "marriage banns",
+"date": "14 Dec 1895",
+"place": "Arienzo",
+"evidence": "Arienzo, *Pubblicazioni di matrimonio* **1895**, **Parte I, act 15** («*Numero Quindici*»; request made 14 December 1895, 11.20 a.m., Casa Comunale, before Cavalier Nicola Finelli, assessore anziano funzionante da Sindaco per mancanza del titolare): «*E' pure comparsa: **Morgillo Alessandra**, di anni **ventuno**, contadina, residente in Arienzo, figlia di **Carmine**, di anni **quarantasette**, contadino, residente in Arienzo, e figlia di **Falco Vincenza**, contadina, residente in Arienzo*» (level 13, z647), who with Alfonso Morgillo asks for the banns. **Why she is this household's granddaughter, and not just a name.** The act names her parents as Carmine Morgillo, contadino, and Falco Vincenza; this household holds Vincenza Falco, daughter of the late Matteo and of Alessandra Crisci, who married Carmine Morgillo on 23 October 1871 (Matrimoni 1871 act 21) and whose husband's death in 1897 is held; and it holds the birth act of a daughter named **Alessandra** to those two on 8 May 1874 (Nascite 1874 act 36, via piazza Valletta). The bride's given name, her parents' names in full, her trade, the town, and her age (21 here, 21 in 1895 from the 1874 birth; ages are guessed) all agree. The processetto of 1897 held in this archive quotes that same 1874 birth extract, stamped «Visto Arienzo 14 Dicembre 1895», the day of this request. The groom Alfonso Morgillo is of San Felice a Cancello (born there, resident there), son of Giuseppe and Maria Ferrara; the banns were posted at San Felice a Cancello and at Arienzo, the first on Sunday 15 December and the second on Sunday 22 December 1895 (the margin, level 12). The groom's birth copy came from San Felice a Cancello and the bride's from the officer here, both dated that day. The groom and the witnesses (Raffaele Troisi, 38, and Michele Ruggiero, 23, messi comunali) signed; the bride declared herself unable to write. **This is a request for the banns, not the marriage**: the marriage itself (Matrimoni 1895 or 1896) is not yet opened here, and no marriage row is written for it.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2115 (left page), Pubblicazioni di matrimonio 1895, Parte I, atto 15 — READ FROM THE IMAGE, level 12, with the bride's name, age and both parents' lines zoomed at level 13 (z647), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"noKin": "no-edge-recorded"
+},
+{
+"slug": "alfonso-morgillo",
+"name": "Alfonso Morgillo (of San Felice a Cancello, of Giuseppe and Maria Ferrara, aged 27 in 1895)",
+"surname": "MORGILLO",
+"household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
+"role": "married in",
+"events": [
+{
+"event": "marriage banns",
+"date": "14 Dec 1895",
+"place": "Arienzo",
+"evidence": "Arienzo, *Pubblicazioni di matrimonio* **1895**, **Parte I, act 15** (14 December 1895): «***Morgillo Alfonso**, di anni **ventisette**, contadino, residente in **San Felice a Cancello**, figlio di **Giuseppe**, di anni **cinquantaquattro**, contadino, residente in San Felice a Cancello, e figlio di **Ferrara Maria**, contadina, residente in San Felice a Cancello*» (level 12); born at San Felice a Cancello (the act's own line). The other party to the request of the woman in the row above. Morgillo is a very common surname in these registers (the household's own allied surname, through the bride's father); the act names no Falco as his kin, and no tie of his to any other Morgillo of this household is claimed.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2115 (left page), Pubblicazioni di matrimonio 1895, Parte I, atto 15 — READ FROM THE IMAGE, level 12, with the bride's name, age and both parents' lines zoomed at level 13 (z647), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"noKin": "married-in"
+},
+{
 "slug": "amalia-morgillo-2",
 "name": "Amalia Morgillo",
 "surname": "MORGILLO",
