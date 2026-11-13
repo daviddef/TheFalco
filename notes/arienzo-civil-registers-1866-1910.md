@@ -3896,3 +3896,23 @@ Walked image by image, both pages, level 12, every Falco or near-name cell zoome
 - **Angela Falco, 1876** (Nascite 1876 act 12, Giuseppe Falco & Rosa Zimbardo): the margin box reads «Falco Angela», agreeing with the act; the earlier reading «Angelo» is withdrawn (corrected in place above).
 
 *Not catalogued:* Nizzo for Nuzzo is one scribe's spelling in one act; no spelling has been added to the Atlas catalogue and none will be without David's word.
+
+## The full walk, the registers of 1892: where each book sits in `MC55-VNL` (13 November 2026)
+
+Read from the images, both pages, level 12 (Falco and near-name cells at level 13). Image numbers are the volume's own (the ark list), cover to last page; "L"/"R" is the left or right page of the spread. Officer throughout: Paride Guerriero, assessore delegato con atto del Sindaco of 24 September 1891; every register is vidimated at Santa Maria Capua Vetere by the giudice delegato Gaetano Desiderio on 27 October 1891.
+
+| register | cover | Parte I | Parte II | index | closing |
+|---|---|---|---|---|---|
+| Morti 1891 | (earlier) | to 1717 | De Lucia Teresa 2, Giglio Filippo 1 (the 2 acts of Parte II) | 1717–1718L (acts 1–104 of Parte I, 1–2 of Parte II) | 1718R blank |
+| Pubblicazioni 1892 | 1719 | title 1721; 36 acts, 1721–1738 | title 1739R; 12 acts, 1740–1746 (1742 and 1745 are second exposures) | none (pubblicazioni carry no index) | closed 1 Jan 1893, 11 a.m., 1746R |
+| Matrimoni 1892 | 1747 | title 1748R (34 fogli); 34 acts | title 1767R; one act (1768L, a Barile transcription) | 1769R (34 couples + Parte 2ª) | 1769L blank |
+| Nascite 1892 | 1770 | title 1771R (64 fogli) | title 1816R; 3 acts (1817–1819L; foreign acts transcribed) | 1820R–1821L (Parte 1ª, Parte 2ª) | 1820L, 1821R blank |
+| Morti 1892 | 1822 | title 1823R (44 fogli); acts 1–148 on 1824–1861; two acts to a page | title 1862R; one act (1863L, Arricale Giuseppe, a transcription of an Amelia prison death) | 1864R–1865L (1865R ruled and empty) | Parte I closed 1 Jan 1893 on 1861R; Parte II on 1863R |
+
+The next register, **Nascite 1893**, has its cover at 1866.
+
+**Where the name is.** Falco appears in these indexes only as the *subject* of an act (an index lists the person the act is about, never the declarant, the witness or a mother): Matrimoni 1892 «Lucia Vincenzo e Falco Filomena», act 9; Nascite 1892 none; Morti 1892 «Falco Carlo» act 8 and «Falco Matteo» act 105. All three were already read from the acts. In Morti 1892 the F group on the tavola sits in one block that ends before the G group on the same page, so the group is complete; the second page begins at L and carries no F. Falco as a declarant, a witness or only a mother is found only by walking the acts: Morti 1892 acts 16, 41, 57, 67, 84 (declarants, no household claimed), 105 (Crescenzo Falco, 73, a declarant) and act 92 (a Falco as mother only, «fu Marzia Falco»).
+
+**Standing witnesses.** In Morti 1892 the two witnesses are Antonio d'Onofrio (72) and Andrea Saccone (73), who sign as «scrivente» for the declarants; the pretore's visto, with a verification date in the margin, is entered on some acts (23 May 1892 on act 53; 14 September 1892 on act 103). Acts 49–50 of 21 April 1892 were drawn before the Sindaco, Nicola Cavalier Finelli, himself. 1834's opening is a second exposure of the 1833 one (acts 37–40).
+
+*Not catalogued:* «Anzevino» and «Anzivino» (the same couple's acts of 1888, 1890 and 1892 write the surname both ways) are not yet in the Atlas catalogue as a pair; no form has been added as published.
