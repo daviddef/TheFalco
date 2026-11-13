@@ -248,7 +248,7 @@
     "who": "Vincenza Falco (Morgillo)",
     "whoSlug": "vincenza-falco-2",
     "to": "Carmine Morgillo",
-    "toSlug": "carmine-morgillo",
+    "toSlug": "carmine-morgillo-2",
     "into": "Morgillo",
     "living": false
    },
@@ -320,7 +320,7 @@
     "who": "Matteo Falco",
     "whoSlug": "matteo-falco-of-gioacchino-falco-strada-camellara-2",
     "to": "Agnese di Lucia (Falco)",
-    "toSlug": "agnese-di-lucia",
+    "toSlug": "agnese-di-lucia-2",
     "into": "di Lucia",
     "living": false
    },
@@ -2587,7 +2587,7 @@
    },
    {
     "name": "Silvestro Biondo",
-    "slug": "silvestro-biondo-2-2",
+    "slug": "silvestro-biondo",
     "b": "June 28 1879",
     "bp": "Arienzo",
     "d": "June 14 1881",
@@ -2960,7 +2960,7 @@
   "n": 6,
   "withheld": 0,
   "first": 1818,
-  "last": 1897,
+  "last": 1880,
   "places": [
    "Arienzo",
    "San Felice"
@@ -3000,7 +3000,7 @@
    },
    {
     "who": "Carmine Morgillo",
-    "whoSlug": "carmine-morgillo",
+    "whoSlug": "carmine-morgillo-2",
     "to": "Vincenza Falco (Morgillo)",
     "toSlug": "vincenza-falco-2",
     "into": "Falco",
@@ -3026,10 +3026,10 @@
    },
    {
     "name": "Carmine Morgillo",
-    "slug": "carmine-morgillo",
+    "slug": "carmine-morgillo-2",
     "b": "1848",
     "bp": "Arienzo",
-    "d": "19 Apr 1897",
+    "d": "",
     "dp": ""
    },
    {
@@ -4374,7 +4374,7 @@
   "n": 2,
   "withheld": 0,
   "first": 1760,
-  "last": 1830,
+  "last": 1900,
   "places": [
    "Arienzo",
    "Santa Maria A Vico",
@@ -4383,7 +4383,7 @@
   "marriages": [
    {
     "who": "Agnese di Lucia (Falco)",
-    "whoSlug": "agnese-di-lucia",
+    "whoSlug": "agnese-di-lucia-2",
     "to": "Matteo Falco",
     "toSlug": "matteo-falco-of-gioacchino-falco-strada-camellara-2",
     "into": "Falco",
@@ -4409,10 +4409,10 @@
    },
    {
     "name": "Agnese di Lucia (Falco)",
-    "slug": "agnese-di-lucia",
+    "slug": "agnese-di-lucia-2",
     "b": "",
     "bp": "Arienzo",
-    "d": "",
+    "d": "14 Jan 1900",
     "dp": "Arienzo"
    }
   ],
