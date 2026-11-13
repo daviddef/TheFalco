@@ -15746,6 +15746,32 @@
 "noKin": "married-in"
 },
 {
+"slug": "pasquale-crispo",
+"name": "Pasquale Crispo (of Gioacchino)",
+"surname": "CRISPO",
+"household": "Andrea Falco & Maria Carmela Buono",
+"hid": "andrea-falco-maria-carmela-buono",
+"role": "married in",
+"events": [
+{
+"event": "marriage banns",
+"date": "2 Aug 1898",
+"place": "Arienzo",
+"evidence": "Arienzo, *Pubblicazioni di matrimonio* **1898**, **Parte I, act 14** (2 August 1898): «***Crispo Pasquale**, di anni **ventisei**, **sarto**, residente in Arienzo, figlio di **Gioacchino**, di anni sessantatre, sarto, residente in Arienzo, e figlio di **Celentano Maria**, donna di casa, residente in Arienzo*» (level 12). Born in Arienzo. He is the bridegroom of the woman in the row beside this; see that row for the identification and its limits. His own age is not used as a tie.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2494 (right page), Pubblicazioni di matrimonio 1898, Parte I, atto 14 — READ FROM THE IMAGE, level 12 for the whole act and level 13 for the bride's lines (z771), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"noKin": "married-in"
+},
+{
 "slug": "rosolina-nicolina-d-addio",
 "name": "Rosolina Nicolina d'Addio",
 "surname": "D'ADDIO",
@@ -69721,6 +69747,32 @@
 "dateFrom": {
 "b": "act"
 },
+"noKin": "no-edge-recorded"
+},
+{
+"slug": "rosa-fuccio",
+"name": "Rosa Fuccio (of Raffaele Fuccio and Andreana Falco, bride in 1898)",
+"surname": "FUCCIO",
+"household": "Andrea Falco & Maria Carmela Buono",
+"hid": "andrea-falco-maria-carmela-buono",
+"role": "grandchild",
+"events": [
+{
+"event": "marriage banns",
+"date": "2 Aug 1898",
+"place": "Arienzo",
+"evidence": "Arienzo, *Pubblicazioni di matrimonio* **1898**, **Parte I, act 14** (request made on «*addì due di Agosto*» 1898, 10.20 a.m., Casa Comunale, before Raffaele De Musso, assessore delegato; first publication Sunday 7 August, second Sunday 14 August, posted until 17 August): the name box reads «*Crispo Pasquale / Fuccio Rosa*», and the act's own line «*E' pure comparsa: **Fuccio Rosa**, di anni **ventitre**, **cucitrice**, residente in Arienzo, figlia di **Raffaele**, di anni **quarantacinque**, **sarto**, residente in Arienzo, e figlia di **Falco Andreana**, donna di casa, residente in Arienzo*» (level 13, z771). She is born in Arienzo. **The tie, and its limits.** Both parents are named, the mother with her own surname Falco written out, and the father is a sarto named Raffaele — the same pair, the same trade and the same surname as the household's births of 1887, 1889, 1893 and 1896 and its death act of 1895 (the father's stated age runs 34, 36, 40, 43 and now 45; ages are guessed). **PLACED here on the same footing as those acts, medium confidence, identity INFERRED and not stated by any act:** the household's Andreana Falco (b. 1854) married Angelo Raffaele Faccia on 3 March 1875, and a Raffaele Fuccio, sarto, fits that husband by name spelt three ways, trade and age; but this act, like the births, names neither Faccia, the 1875 marriage nor Andrea Falco, and the Faccia/Fuccio/Fuccia spelling is the one open link. Her stated age would put her birth about the time of that marriage; ages are guessed and it is not used. No consent clause: the act does not say the parents appeared. The bride signed («*Fuccio Rosa*»). The documents named are the copies of both spouses' birth acts, issued that day by the officer himself, so her own birth act is in the Arienzo register and is **not yet read**. The groom is a sarto, 26, of Arienzo, son of Gioacchino, sarto, 63, and of Celentano Maria; the witnesses are «*Alfonso Anzevino, di anni cinquantotto, messo comunale*» and Raffaele Troisi, 41, messo comunale. The marriage itself (Matrimoni 1898) is **not yet read**; no marriage row is written until the act is.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2494 (right page), Pubblicazioni di matrimonio 1898, Parte I, atto 14 — READ FROM THE IMAGE, level 12 for the whole act and level 13 for the bride's lines (z771), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
 "noKin": "no-edge-recorded"
 },
 {
