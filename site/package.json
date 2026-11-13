@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4322",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run check:pin && npm run check:records && npm run atlas && npm run publish:index && astro build && npm run autolink && npm run check && npm run sitemap && npm run check:living && npm run check:living2 && npm run check:living-prose && npm run check:living-feed && npm run check:links && npm run check:story && npm run check:directline && npm run check:familylines && npm run check:familyribbon && npm run check:ribbonflags && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:households && npm run check:fscite && npm run check:corrections && npm run check:prose && npm run check:evidence && npm run check:sources && npm run check:pages && npm run check:inline && npm run check:rows && npm run check:nav && npm run check:book && npm run check:pulse && npm run check:lines && npm run check:standard && npm run check:era-ground && npm run check:era && npm run check:era:selftest",
+    "build": "npm run check:pin && npm run check:records && npm run atlas && npm run publish:index && astro build && npm run autolink && npm run check && npm run sitemap && npm run check:living && npm run check:living2 && npm run check:living-prose && npm run check:living-feed && npm run check:links && npm run check:story && npm run check:directline && npm run check:familylines && npm run check:familyribbon && npm run check:ribbonflags && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:households && npm run check:fscite && npm run check:corrections && npm run check:prose && npm run check:evidence && npm run check:sources && npm run check:pages && npm run check:inline && npm run check:rows && npm run check:nav && npm run check:book && npm run check:pulse && npm run check:row-pages && npm run check:lines && npm run check:standard && npm run check:era-ground && npm run check:era && npm run check:era:selftest",
     "preview": "astro preview --port 4322",
     "check": "python3 ../tools/check_release.py",
     "build:nocheck": "astro build",
@@ -29,6 +29,7 @@
     "check:standard": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkstandard.py --dist dist --index ../private/names-index.json --config standard.json --living ../private/living-links.json --floor .standardfloor.json --strict-config",
     "check:pin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpin.py --root .",
     "check:pulse": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpulse.py --dist dist",
+    "check:row-pages": "python3 node_modules/@daviddef/archive-kit/kit/tools/check_row_pages.py --dist dist",
     "check:book": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkbook.py --dist dist --book src/data/book.json",
     "check:lines": "python3 ../tools/build_living_slugs.py && python3 node_modules/@daviddef/archive-kit/kit/tools/checklines.py --lines src/data/strands.json --dist ${ARCHIVE_OUT:-dist} --config standard.json --living ../private/living-slugs.json && python3 node_modules/@daviddef/archive-kit/kit/tools/checklines.py --selftest",
     "check:nav": "python3 node_modules/@daviddef/archive-kit/kit/tools/checknav.py --dist dist --canon menu-canon.json",
@@ -53,7 +54,7 @@
     "check:kin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkkin.py --require --data src/data/people.json --born b --died d --max 0"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#32a6782111c3f2bbda142502d1385b49ef0ecb70",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#1b5ea8c7839ae8aab3d834b6ed96aa6cee2d5b5d",
     "astro": "^5.18.2"
   },
   "devDependencies": {
