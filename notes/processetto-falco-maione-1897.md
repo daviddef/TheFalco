@@ -120,8 +120,12 @@ and so closes the sequence of this dossier: banns 12 and 19 September, wedding *
 - **The marriage had no register act in this archive.** The dossier and the banns were here; the
   wedding itself was inferred. It is now an act, with both sets of parents named as in the banns.
 - **`notes/arienzo-1866-1910-falco-acts.md` is not changed** (it is the fixed record of 472 acts
-  re-read; this act was met afterwards, through the tavola) and **the household rows for
-  Raffaele Falco & Costanza Maione do not yet carry the wedding**. Both are follow-ups, not done.
+  re-read; this act was met afterwards, through the tavola). **The household rows now carry the
+  wedding** (13 November 2026, in sequence in the full walk, the date and the groom's cells re-zoomed
+  at level 13: z755): one row in Carmine Antonio Falco & Giovanna Arricale, and father and mother rows
+  in Raffaele Falco & Costanza Maione. The banns (Pubblicazioni 1897 act 16, leaf 2377R, drawn 9
+  September) are a row of their own in the parents' house. Leaf 2399 is a second exposure of the same
+  opening as 2398.
 
 ## A discrepancy, published rather than smoothed
 
