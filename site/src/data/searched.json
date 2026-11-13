@@ -4268,6 +4268,16 @@
   "bookPlace": "Arienzo civil registry",
   "url": "https://www.familysearch.org/search/collection/2043630",
   "pages": "1-1236",
+  "ev": [
+    [
+      "/households/",
+      "Households"
+    ],
+    [
+      "/people/",
+      "The People"
+    ]
+  ],
   "walked": false,
   "src": "The full Arienzo walk, FNT leg: all 1,236 images of the volume, both pages of every leaf displayed at DeepZoom level 12 in the browser pane (three images a batch), every Falco or near-name cell zoomed to level 13 before it was named, and each batch logged only after all six pages had been read. Unlike the earlier box walks this reads the declarant, mother, father and witnesses of every act, not the name box. Not marked walked: the margins and a few title-page words were not all zoomed, and that is left for David to rule on.",
   "what": "**Every act of the Arienzo civil registers 1866–1877 (MC55-FNT 1–1236), read in full**",
@@ -4294,6 +4304,16 @@
   "bookPlace": "Arienzo civil registry",
   "url": "https://www.familysearch.org/search/collection/2043630",
   "pages": "1-1395",
+  "ev": [
+    [
+      "/households/",
+      "Households"
+    ],
+    [
+      "/people/",
+      "The People"
+    ]
+  ],
   "walked": false,
   "src": "The full Arienzo walk, VNL leg, in progress: images 1–1059 of the volume (1877 to the end of Nascite 1886: acts 1–172, Parte II, then the cover and title page of Morti 1886), both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read. Reads the declarant, mother, father and witnesses of every act. Second exposures of the same opening (images 700, 705, 731, 765, 797, 804, 861, 942, 968, 979, 995) were counted once. The volume continues to image 2,898, so nothing here closes it.",
   "what": "**Every act of the Arienzo civil registers 1877 to the end of the 1886 births (MC55-VNL 1–1059), read in full, the walk continuing**",
