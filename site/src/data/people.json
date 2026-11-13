@@ -2985,6 +2985,13 @@
 "place": "Arienzo, via Camellara 14",
 "evidence": "Morti 1908 act 76 (Arienzo): Carolina Arricale, aged 12, daughter of Raffaele Arricale, trainante, and of the living Costanza Falco, casalinga, died on the evening of the day before 2 Nov 1908 at via Camellara no. 14. Margin: name box: Numero settantasei / Arricale Carolina. *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions (**medium confidence**: Husband's name matches: luigi-falco-carolina-cimmino holds 'Raffaele Arricale (b. 1853, of Carmine Arricale) [married in]' beside two Costanza Falco (of Luigi, b. 1859 and b. 1862); the child, aged 12); **not yet re-opened by the archive's own hand.***",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 899, Morti 1908 atto 76 — read by a delegated reader and independently re-read by a second (V171)"
+},
+{
+"event": "birth",
+"date": "23 Apr 1896",
+"place": "Arienzo, Corso Caudino 59",
+"evidence": "Arienzo, *Nascite* **1896**, **act 54** (name box «*Numero Cinquantaquattro, Arricale Carolina*»; declared 25 April 1896, 9.30 a.m., Casa Comunale, before Cavalier Paride Guerriero, assessore delegato con atto del Sindaco in data 28 gennaio 1896): «*è comparso **Raffaele Arricale**, di anni **quarantatre**, **trainante**, domiciliato in Arienzo*» (level 13, z731), who declared that at twelve o'clock («*dodici … meridiane*»; the word before «meridiane» is not read at level 13, so whether it was noon or midnight is not settled) «*del dì ventitre del corrente mese, nella casa posta in Corso Caudino al numero cinquantanove, da **Costanza Falco** sua moglie legittima donna di casa seco lui convivente, è nato un bambino di sesso femminile*» to whom he gives the name «*Carolina*» (level 13, z732). Witnesses Michele Martone and Aniello de Rosa (level 12); the act was read to them and they could not write. No later-hand margin note is visible beside the act at level 12. **A MOTHER-ONLY SIGHTING: THE FALCO IN THIS ACT IS THE MOTHER.** The child's surname is Arricale. Costanza Falco is held in this household as the daughter of Luigi Falco and Carolina Cimmino, married to Raffaele Arricale on 15 July 1880 (Matrimoni 1880 act 10, held here); this act names no father of hers, so the identification rests on the husband (Raffaele Arricale, trainante: his stated age runs 36 in 1889, 38 in 1891, 40 in 1893 and 43 now, and ages are guessed), the mother's own full name written out, and the house, **Corso Caudino 59, which is the house of this couple's Pasqua of 1889** (Nascite 1889 act 41, held here). **This is the Carolina of the death of 1908, held here under the same label:** Carolina Arricale, aged 12, daughter of Raffaele Arricale, trainante, and the living Costanza Falco, died on the evening of 1 November 1908 (Morti 1908 act 76, a delegated reading not yet re-opened); a girl born on 23 April 1896 was twelve and a half in November 1908. The name, both parents and the age agree and no other Carolina Arricale of this couple is held, but no act links the two, so the identity of the two rows is INFERRED, medium confidence. The household's earlier mother-only births (Luigia 1891, Giuseppe 1893) are placed on the same footing.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2293 (right page), Nascite 1896 atto 54 — READ FROM THE IMAGE, level 12, with the declaration date, the declarant's age and trade, the house, the mother and the child's name zoomed at level 13 (z731, z732), 13 November 2026"
 }
 ],
 "sources": [
@@ -2995,10 +3002,12 @@
 "spouses": [],
 "children": [],
 "siblings": [],
-"d": "1 Nov 1908",
+"b": "23 Apr 1896",
 "dateFrom": {
+"b": "act",
 "d": "act"
 },
+"d": "1 Nov 1908",
 "noKin": "no-edge-recorded"
 },
 {
