@@ -38,10 +38,16 @@ const _d = _lead.length >= 30 ? _lead : _fallback;
 const metaDesc = _d.length <= 200 ? _d
   : _d.slice(0, 199).replace(/\s+\S*$/, "").replace(/[\s,;:\u2014-]+$/, "") + "\u2026";
 const nav = [
-  ["Start", [["/", "Home"], ["/story/", "The story"], ["/about/", "About"], ["/trees/", "The trees"], ["/tree/", "Our line, drawn"], ["/roots/", "Roots & Routes"], ["/atlas/", "The Atlas"], ["/timeline/", "The Timeline"], ["/whats-new/", "What's new"], ["/dna/", "The DNA"], ["/rule/", "Under Whose Rule"]]],
+  /* 13 November 2026 (the menu regroup, PR A): six menus. Start holds only Home, The story and About (What's new is in Research, its
+     group head). The drawn pages sit under People, in a "Drawn" sub-head. Places & families follows the family-menu rule (David, 12 Nov):
+     the families index first; this archive's own line is The Spine, which leads the Our line menu and is not repeated here; then the other
+     surnames A to Z (accents folded); then the pages that are not a surname. A family page leaves the menu only where the /families/ index
+     links the same address (Morgillo, Cioffi, Annecchino and Crisci stay as the four largest); Zampiello, Maione, Carfora, Rivetti, Ferrara
+     and The Bishop stay until the index links them (docs/menu-a-reach.md). No address changed and no page was edited. */
+  ["Start", [["/", "Home"], ["/story/", "The story"], ["/about/", "About"]]],
   ["Our line", [["/direct-line/", "The Spine"], ["/australia/", "Australia"], ["/lines/", "Where they went"]]],
-  ["The families", [["/families/", "The Families"], ["/wider-family/", "The Wider Family"], ["/zampiello/", "Zampiello"], ["/annecchino/", "Annecchino"], ["/maione/", "Maione"], ["/ferrara/", "Ferrara"], ["/morgillo/", "Morgillo"], ["/carfora/", "Carfora"], ["/crisci/", "Crisci"], ["/rivetti/", "Rivetti"], ["/families/cioffi/", "Cioffi"], ["/families/diglio/", "Diglio"], ["/families/zimbardo/", "Zimbardo"], ["/families/biondo/", "Biondo"], ["/families/cimmino/", "Cimmino"], ["/liguori/", "The Bishop"]]],
-  ["People & places", [["/people/", "The People"], ["/who/", "Every Name"], ["/bloodline/", "Blood relatives, drawn"], ["/register/", "The Register"], ["/households/", "Households"], ["/marriages/", "The Marriages"], ["/graves/", "Graves"], ["/places/", "Places"], ["/walk/", "Walk the Line"], ["/journeys/", "Journeys"], ["/arienzo/", "Arienzo"], ["/camellara/", "Strada Camellara"], ["/valle-caudina/", "Valle Caudina"], ["/diaspora/", "Where the Name Went"]]],
+  ["People", [["/people/", "The People"], ["/who/", "Every Name"], ["/register/", "The Register"], ["/households/", "Households"], ["/marriages/", "The Marriages"], ["/graves/", "Graves"], { sub: "Drawn" }, ["/tree/", "Our line, drawn"], ["/trees/", "The trees"], ["/roots/", "Roots & Routes"], ["/timeline/", "The Timeline"], ["/bloodline/", "Blood relatives, drawn"]]],
+  ["Places & families", [["/families/", "The Families"], ["/annecchino/", "Annecchino"], ["/carfora/", "Carfora"], ["/families/cioffi/", "Cioffi"], ["/crisci/", "Crisci"], ["/ferrara/", "Ferrara"], ["/maione/", "Maione"], ["/morgillo/", "Morgillo"], ["/rivetti/", "Rivetti"], ["/zampiello/", "Zampiello"], ["/wider-family/", "The Wider Family"], ["/liguori/", "The Bishop"], ["/atlas/", "The Atlas"], ["/places/", "Places"], ["/walk/", "Walk the Line"], ["/journeys/", "Journeys"], ["/arienzo/", "Arienzo"], ["/camellara/", "Strada Camellara"], ["/valle-caudina/", "Valle Caudina"], ["/rule/", "Under Whose Rule"], ["/diaspora/", "Where the Name Went"]]],
   ["The name", [["/name/", "The Name"], ["/which-falco/", "Which Falco?"], ["/namesakes/", "Namesakes"], ["/arms/", "Arms"]]],
   /* 12 November 2026 (the research-menu trial, wave 3): "Evidence" and "Investigations" are one "Research" menu with three groups.
      The list is lib/research-menu.js (the header, the drawer and the group pages all read it). A menu is a flat list of [href, label],
@@ -123,7 +129,7 @@ const thisArchive =
                   </div>))}
               </div>
             : <div class={links.length > 16 ? "panel cols" : "panel"} style={links.length > 16 ? `--rows:${Math.ceil(links.length / 2)}` : undefined}>
-                {links.map(([h, l]) => <a href={u(h)} class={on(h) ? "on" : ""}>{l}</a>)}
+                {links.map((x) => Array.isArray(x) ? <a href={u(x[0])} class={on(x[0]) ? "on" : ""}>{x[1]}</a> : <span class="ps">{x.sub}</span>)}
               </div>}
         </details>
       ))}
@@ -141,7 +147,7 @@ const thisArchive =
                   ? <a href={u(x[0])} class={on(x[0]) ? "on" : ""}>{x[1]}</a>
                   : <span class="ps">{x.sub}</span>)}
               </div>))
-          : links.map(([h, l]) => <a href={u(h)} class={on(h) ? "on" : ""}>{l}</a>)}
+          : links.map((x) => Array.isArray(x) ? <a href={u(x[0])} class={on(x[0]) ? "on" : ""}>{x[1]}</a> : <span class="ps">{x.sub}</span>)}
       </div>
     ))}
       {/* the header's Search pill is hidden with the nav on a narrow screen; without this a phone or a tablet has no way to /search/ */}

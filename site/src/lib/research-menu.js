@@ -33,6 +33,7 @@ export const RESEARCH = [
           { href: "/processetti/", label: "The Processetti", blurb: "The marriage files: everything a couple had to prove before they could marry. Which volumes exist, which are read, and the richest document this archive has." },
           { href: "/holdings/", label: "Holdings", atlas: true, blurb: "A map of the registers themselves: what exists, where, and what does not, so that no gap is found twice." },
           { href: "/the-library/", label: "The Library", atlas: true, blurb: "The bibliography: the record sets read, the working data kept in the open, and the much larger body not yet touched." },
+          { href: "/dna/", label: "The DNA", blurb: "Two DNA tests, eight generations deep: what the result confirms, what it refuses to claim, and how far back it can see." },
         ] },
     ] },
 ];
