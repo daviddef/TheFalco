@@ -3624,6 +3624,36 @@
 "noKin": "no-edge-recorded"
 },
 {
+"slug": "pasqua-arricale-of-luigi-falco-carolina-cimmino",
+"name": "Pasqua Arricale (the second, b. 1889)",
+"surname": "ARRICALE",
+"household": "Luigi Falco & Carolina Cimmino",
+"hid": "luigi-falco-carolina-cimmino",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "21 Apr 1889",
+"place": "Arienzo, Corso Caudino 59",
+"evidence": "Arienzo, *Nascite* **1889**, **act 41** (drawn 24 April 1889, about 11.30 a.m.; header and act number read at level 12 only): «*Arricale Pasqua*», female, born at 9.50 a.m. on the 21st of the month («*alle ore antimeridiane nove e minuti cinquanta, del dì ventuno*», level 13, z474) in the house at Corso Caudino, no. 59 («*cinquantanove*», level 13, z475), declared by her father «***Raffaele Arricale**, di anni **trentasei**»; his trade word is a long one ending «-iale», not settled here (the 1887 act for his son Clemente calls him *vetturale*, 36, which agrees on the age) — «*da **Costanza Falco** sua moglie legittima contadina seco lui convivente*» (level 13, z475). **THE SECOND PASQUA.** The household already holds a first Pasqua Arricale, who died at three years old on 8 January 1884 (Morti 1884 act 4); this is a daughter of the same couple born five years later, given the dead sister's name, as the Arienzo registers do. The witnesses and any margin note on this act were not read at level 13; the act is held here on the strength of the mother's and father's names, the street, and the parents' marriage already held in this household (Matrimoni 1880 act 10). The mother is Costanza Falco, of Luigi and Carolina Cimmino, married 15 July 1880; the Falco in this act is a mother, and the child is a grandchild of the house.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1385 (left page), Nascite 1889 atto 41 — READ FROM THE IMAGE, level 13 for the declarant, hour, date, house and mother (z474, z475), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "21 Apr 1889",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "raffaele-angela-arricale",
 "name": "Raffaele / Angela Arricale",
 "surname": "ARRICALE",
