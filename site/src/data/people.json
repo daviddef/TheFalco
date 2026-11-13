@@ -69438,6 +69438,36 @@
 "noKin": "no-edge-recorded"
 },
 {
+"slug": "luigia-giuseppa-fuccia",
+"name": "Luigia Giuseppa Fuccia (of Raffaele Fuccia and Andreana Falco, b. 1896)",
+"surname": "FUCCIA",
+"household": "Andrea Falco & Maria Carmela Buono",
+"hid": "andrea-falco-maria-carmela-buono",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "19 Mar 1896",
+"place": "Arienzo, via Camellara 3",
+"evidence": "Arienzo, *Nascite* **1896**, **act 46** (declared 22 March 1896, 9.10 a.m., Casa Comunale, before Cavalier Paride Guerriero, assessore delegato con atto del Sindaco in data 28 gennaio 1896): «*è comparso **Raffaele Fuccia**, di anni **quarantatre**, **sarto**, domiciliato in Arienzo*» (level 13, z729), who declared that at 4.05 in the morning «*del dì diciannove del corrente mese, nella casa posta in via Cumellara al numero tre, da **Andreana Falco** sua moglie legittima donna di casa seco lui convivente, è nato un bambino di sesso femminile*» to whom he gives the name «*Luigia Giuseppa*» (level 13, z730; the house number is read «tre» at level 13). The surname is written «Fuccia» in the name box and the declarant line, as in the household's death act of 1895. Witnesses «*Daniele Lettieri, di anni trentatre, sarto*» and «*Gennaro Perrotta, di anni trenta, sarto*» (level 12); the act was read to them and they could not write. **The tie.** Both parents are named in full, the mother with her own surname Falco written out, and the father is a sarto named Raffaele Fuccia, as in the household's births of 1887, 1889 and 1893 and its death act of 1895 (his stated age runs 34, 36, 40 and now 43; ages are guessed). The house is NOT the earlier one: those acts are at Corso Caudino 9 or 11, this one at via Cumellara 3, and the 1895 death at Corso Caudino 9 is ten months before this birth. The child bears the forename of the daughter Luigia who died in May 1895, which is a pattern and not a statement of the act. **PLACED here on the same footing as the couple's earlier children, medium confidence, identity INFERRED and not stated by any act:** the household's Andreana Falco (b. 1854) married Angelo Raffaele Faccia on 3 March 1875, and a Raffaele Fuccia, sarto, fits that husband by name spelt three ways, trade and age; but this act, like the births of 1887, 1889 and 1893, names neither Faccia, the 1875 marriage nor Andrea Falco. The margin of this act was not read at level 13. The street is written «Cumellara» in the act; the archive's place strings spell the same street Camellara.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2291 (left page, then the top of the right page), Nascite 1896 atto 46 — READ FROM THE IMAGE, level 12, with the declaration date, the declarant's age and trade, the address and the mother's name zoomed at level 13 (z729, z730), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "19 Mar 1896",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "alfonsa-fuccio",
 "name": "Alfonsa Fuccio (of Raffaele Fuccio and Andreana Falco, b. 1889)",
 "surname": "FUCCIO",
