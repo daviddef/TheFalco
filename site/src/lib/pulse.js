@@ -6,6 +6,7 @@
    (ISO, 2026-10-08), so that is the column used; a row without one stays on the What Has Been Read page, and /whats-new/ says how many.
    No date is made up and none is taken from git. `pending` and `not searched` are not outcomes of a search and are left out. */
 import { buildPulse } from "@daviddef/archive-kit/lib/pulse.js";
+import { loadReceipts } from "@daviddef/archive-kit/lib/receipts.js";
 import searched from "../data/searched.json";
 import corrections from "../data/corrections.json";
 import worklist from "../data/worklist.json";
@@ -16,4 +17,8 @@ export const pulse = buildPulse({
   searched, corrections, worklist,
   counts: { people: people.length, sources: sources.length },
   fields: { when: ["searchedOn"] },
+  /* the Record Atlas's receipts for this archive (id "falco"): the state under each search row. null when the Atlas cannot be read: the build
+     carries on and the row shows no Atlas line (kit/docs/whats-new-receipts.md). The key of a row is the hash of the row as it sits in
+     searched.json, so nothing here rewrites a row before buildPulse. */
+  receipts: await loadReceipts("falco"),
 });
