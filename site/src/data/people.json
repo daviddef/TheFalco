@@ -69608,6 +69608,36 @@
 "noKin": "no-edge-recorded"
 },
 {
+"slug": "raffaele-fuccia",
+"name": "Raffaele Fuccia (of Raffaele Fuccia and Andreana Falco, b. 1899)",
+"surname": "FUCCIA",
+"household": "Andrea Falco & Maria Carmela Buono",
+"hid": "andrea-falco-maria-carmela-buono",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "23 Jun 1899",
+"place": "Arienzo, via Camellara 1",
+"evidence": "Arienzo, *Nascite* **1899**, **Parte I, act 68** («*Numero Sessantotto*», name box «*Fuccia Raffaele*»; declared 25 June 1899, 10.20 a.m., Casa Comunale, before Raffaele De Musso, assessore delegato): «*è comparso **Raffaele Fuccia**, di anni **quarantasei**, **sarto**, domiciliato in Arienzo*» (level 13, z816), who declared that at six-thirty in the morning «*del dì **ventitre** del corrente mese, nella casa posta in **Via Cumellara** al numero **uno**, da **Andreana Falco** sua moglie legittima, donna di casa, seco lui convivente*» (level 13, z816) was born a male child, to whom he gives the name «*Raffaele*». Witnesses «*Francesco Crisci, di anni ventinove, sarto*» and «*Pasquale Ferriello, di anni ventiquattro, falegname*», both resident in the comune; the act was read and none of them signed, all declaring themselves unable to write. No later-hand margin is written on this act. **The couple, and why the child is placed here.** The mother's name, Andreana Falco, is written out, and the husband's name, trade and age are those of the household's other acts of this couple: Raffaele Fuccio, sarto, 34 in 1887 (Nascite 1887 act 26), 36 in 1889, written Fucci and 40 in 1893, written Fuccia and 43 in 1896 (via Camellara 3, the same street) and now 46 in 1899, which are all one birth year, 1853, the year of Angelo Raffaele Faccia's own birth act held in this house (ages are guessed, but these five agree to the year). Four of his earlier children are held here, and his daughter Rosa Fuccio married Pasquale Crispo on 7 November 1898 (Matrimoni 1898 act 26). The father's name is written Faccia, Fuccio, Fucci and Fuccia by different clerks; it is one man by the wife, the trade and the street, not two families. No earlier child named Raffaele is held for this couple, so this child is not mistaken for a dead first of the name.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2699 (left page, then the top of the right page), Nascite 1899 Parte I atto 68 — READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant's line, the hour, the street and the mother's line (z816), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "23 Jun 1899",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "alfonsa-fuccio",
 "name": "Alfonsa Fuccio (of Raffaele Fuccio and Andreana Falco, b. 1889)",
 "surname": "FUCCIO",
