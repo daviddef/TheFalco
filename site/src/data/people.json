@@ -73411,6 +73411,36 @@
 "noKin": "no-edge-recorded"
 },
 {
+"slug": "giovanni-martone-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Giovanni Martone (of Antonio Martone and Carmela Falco, b. 1898)",
+"surname": "MARTONE",
+"household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+"hid": "angelo-falco-annamaria-cimmino-corso-caudino",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "27 Feb 1898",
+"place": "Arienzo, Corso Caudino 70",
+"evidence": "Arienzo, *Nascite* **1898**, **Parte I, act 26** (declared **1 March 1898**, 11 a.m., Casa Comunale, before Raffaele De Musso, assessore delegato): «*è comparso **Antonio Martone**, di anni **quarantatre**, [trade written «catazo», not settled], domiciliato in Arienzo*», who declared that at 8 in the evening «*del dì ventisette del passato mese*», in the house «*in **Corso Caudino** al numero **settanta***», «*da **Carmela Falco** sua moglie legittima, donna di casa seco lui convivente*» a male child was born, to whom he gave the name Giovanni (level 13, z780). Witnesses «*Alfonso* [surname not settled at level 12], di anni quarantadue, sarto*» and Carmine Diglio, 47, bracciale; the act was read to them and they could not write. Later-hand margin notes (level 12 only, not read further) record a marriage at San Felice a Cancello and a death at Arienzo in the 1950s–60s. **Why the child is placed in this household, and not on the names alone.** Three ties, none of them the stated age: (1) the pair, the father **Antonio Martone** and the mother **Carmela Falco**, is the pair this house already holds three times (Gennaro, 1887; Vincenza, 1889; the first Giovanni, d. 1897) and whose marriage act of 1886 names Carmela Falco as the daughter of Angelo and Maria Cimmino; (2) the street, **Corso Caudino**, is the house's own (nos. 84 in 1887, 77 in 1889, 88 in 1897, 70 here: the family moved along the street); (3) the child is given the name **Giovanni**, the name of the brother who died on 11 June 1897 at no. 88, a name taken again for the next son. The father's given name (Antonio here and in 1887 and 1897, Francesco Antonio in 1889 and Francescantonio in 1886) and trade (cappellaio, bottaio, now unsettled) are one man's name and trade written in several ways and are not used as ties. **A SECOND GIOVANNI.** The first Giovanni of this couple died in June 1897 and this act is a second son given the same name eight months later; they are two persons. **NOT DECIDED HERE.** The archive also holds a separate household of a Francescantonio Martone and a Carmela Falco (a son, Angelo, born at Corso Caudino 87 in 1891); whether it is the same couple is not settled by this act.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2543 (left page), Nascite 1898 atto 26 — READ FROM THE IMAGE, level 12 for the whole act and level 13 for the date, the street, the father and the mother's name (z780), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "27 Feb 1898",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "giuseppa-martone-2",
 "name": "Giuseppa Martone",
 "surname": "MARTONE",
