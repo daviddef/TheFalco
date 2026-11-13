@@ -2,156 +2,6 @@
  "_note": "Made by tools/build_family_lines.py from people.json, families.json, story.json, direct-line.json and the Spine; do not edit by hand. Contract: kit/docs/family-ribbon.md.",
  "families": [
   {
-   "id": "zampiello",
-   "title": "Zampiello",
-   "page": "/zampiello/",
-   "status": "origin-unknown",
-   "statusNote": "3 generations, each joined to the next by a record · where the first was born is not known",
-   "span": [
-    1895,
-    null
-   ],
-   "cards": [
-    {
-     "name": "Tommaso Zampiello",
-     "years": "",
-     "origin": "place not known",
-     "originGrade": "doc",
-     "spouse": "spouse not named in the records",
-     "spouseOrigin": "",
-     "atPlace": "Arpaia",
-     "atYear": "",
-     "living": false,
-     "person": "tommaso-zampiello",
-     "title": "Parent of Angelo Zampiello, named in a register act this archive has read",
-     "flags": [
-      {
-       "kind": "today",
-       "line": "at",
-       "place": "Arpaia",
-       "svg": "italy-flags--era-1946.svg",
-       "flag": "italy-flags--era-1946",
-       "country": "IT",
-       "year": null,
-       "label": "at Arpaia: Italy today",
-       "grade": "doc"
-      }
-     ]
-    },
-    {
-     "name": "Angelo Zampiello",
-     "years": "1895–1972",
-     "origin": "place not known",
-     "originGrade": "doc",
-     "spouse": "Giuseppa Ferraro",
-     "spouseOrigin": "place not known",
-     "atPlace": "Arpaia",
-     "atYear": "",
-     "living": false,
-     "person": "angelo-zampiello",
-     "spousePerson": "giuseppa-ferraro",
-     "title": "Parent of Francesca Zampiello, named in a register act this archive has read",
-     "flags": [
-      {
-       "kind": "today",
-       "line": "at",
-       "place": "Arpaia",
-       "svg": "italy-flags--era-1946.svg",
-       "flag": "italy-flags--era-1946",
-       "country": "IT",
-       "year": null,
-       "label": "at Arpaia: Italy today",
-       "grade": "doc"
-      }
-     ]
-    },
-    {
-     "name": "Francesca Zampiello",
-     "years": "1928–2022",
-     "origin": "Arpaia",
-     "originGrade": "lore",
-     "spouse": "Carmine Falco",
-     "spouseOrigin": "of Forchia",
-     "atPlace": "Brisbane",
-     "atYear": "2022",
-     "living": false,
-     "person": "francesca-zampiello",
-     "spousePerson": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
-     "flags": [
-      {
-       "kind": "era",
-       "line": "from",
-       "place": "Arpaia",
-       "svg": "italy-flags--era-1922.svg",
-       "flag": "italy-flags--era-1922",
-       "era": "campania--era-1861",
-       "year": 1928,
-       "label": "from Arpaia, 1928: Italy then",
-       "grade": "lore",
-       "assessed": true
-      },
-      {
-       "kind": "today",
-       "line": "at",
-       "place": "Brisbane",
-       "svg": "australia-flags--era-1901.svg",
-       "flag": "australia-flags--era-1901",
-       "country": "AU",
-       "year": null,
-       "label": "at Brisbane: Australia today",
-       "grade": "lore"
-      },
-      {
-       "kind": "era",
-       "line": "spouse",
-       "place": "Forchia",
-       "svg": "italy-flags--era-1922.svg",
-       "flag": "italy-flags--era-1922",
-       "era": "campania--era-1861",
-       "year": 1928,
-       "label": "spouse of Forchia, 1928: Italy then",
-       "grade": "lore",
-       "assessed": true
-      }
-     ]
-    }
-   ],
-   "connections": [
-    {
-     "ourSlug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
-     "ourGeneration": 8,
-     "theirSlug": "francesca-zampiello",
-     "theirName": "Francesca Zampiello",
-     "relation": "married",
-     "grade": "doc",
-     "storyHref": "/story/#brisbane",
-     "theirOrigin": "of Arpaia",
-     "note": "The story's couple of generation 8."
-    },
-    {
-     "ourSlug": "francesca-zampiello",
-     "ourGeneration": 8,
-     "theirSlug": "angelo-zampiello",
-     "theirName": "Angelo Zampiello",
-     "relation": "daughter of",
-     "grade": "doc",
-     "storyHref": "/story/#brisbane",
-     "note": "Named as a parent in a register act this archive has read."
-    },
-    {
-     "ourSlug": "giuseppina-falco",
-     "ourGeneration": 9,
-     "theirSlug": "francesca-zampiello",
-     "theirName": "Francesca Zampiello",
-     "relation": "child of",
-     "grade": "lore",
-     "storyHref": "/story/#us",
-     "theirOrigin": "of Arpaia",
-     "note": "From the family tree only, unverified."
-    }
-   ]
-  },
-  {
    "id": "annecchino",
    "title": "Annecchino",
    "page": "/annecchino/",
@@ -258,6 +108,117 @@
      "grade": "doc",
      "storyHref": "/story/#brisbane",
      "theirOrigin": "of Forchia",
+     "note": "The story's chapter tree draws her as the mother."
+    }
+   ]
+  },
+  {
+   "id": "crisci",
+   "title": "Crisci",
+   "page": "/crisci/",
+   "status": "origin-unknown",
+   "statusNote": "2 generations, each joined to the next by a record · where the first was born is not known",
+   "span": [
+    1796,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Arcangelo Crisci",
+     "years": "",
+     "origin": "place not known",
+     "originGrade": "doc",
+     "spouse": "Sara Ruggiero",
+     "spouseOrigin": "place not known",
+     "atPlace": "Arienzo",
+     "atYear": "1814",
+     "living": false,
+     "person": "arcangelo-crisci-of-vincenzo-falco-andreana-crisci",
+     "spousePerson": "sara-ruggiero-of-vincenzo-falco-andreana-crisci",
+     "title": "Parent of Andreana Crisci, named in a register act this archive has read",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "at",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "at Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
+    },
+    {
+     "name": "Andreana Crisci",
+     "years": "1796–1876",
+     "origin": "Arienzo",
+     "originGrade": "doc",
+     "spouse": "Vincenzo Falco",
+     "spouseOrigin": "of Arienzo",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+     "spousePerson": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+     "flags": [
+      {
+       "kind": "today",
+       "line": "from",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "from Arienzo: Italy today",
+       "grade": "doc"
+      },
+      {
+       "kind": "today",
+       "line": "spouse",
+       "place": "Arienzo",
+       "svg": "italy-flags--era-1946.svg",
+       "flag": "italy-flags--era-1946",
+       "country": "IT",
+       "year": null,
+       "label": "spouse of Arienzo: Italy today",
+       "grade": "doc"
+      }
+     ]
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+     "ourGeneration": 3,
+     "theirSlug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+     "theirName": "Andreana Crisci",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#vincenzo",
+     "theirOrigin": "of Arienzo",
+     "note": "The story's couple of generation 3."
+    },
+    {
+     "ourSlug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+     "ourGeneration": 3,
+     "theirSlug": "arcangelo-crisci-of-vincenzo-falco-andreana-crisci",
+     "theirName": "Arcangelo Crisci",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#vincenzo",
+     "note": "Named as a parent in a register act this archive has read."
+    },
+    {
+     "ourSlug": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
+     "ourGeneration": 4,
+     "theirSlug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
+     "theirName": "Andreana Crisci",
+     "relation": "son of",
+     "grade": "doc",
+     "storyHref": "/story/#raffaele",
+     "theirOrigin": "of Arienzo",
      "note": "The story's chapter tree draws her as the mother."
     }
    ]
@@ -508,113 +469,152 @@
    ]
   },
   {
-   "id": "crisci",
-   "title": "Crisci",
-   "page": "/crisci/",
+   "id": "zampiello",
+   "title": "Zampiello",
+   "page": "/zampiello/",
    "status": "origin-unknown",
-   "statusNote": "2 generations, each joined to the next by a record · where the first was born is not known",
+   "statusNote": "3 generations, each joined to the next by a record · where the first was born is not known",
    "span": [
-    1796,
+    1895,
     null
    ],
    "cards": [
     {
-     "name": "Arcangelo Crisci",
+     "name": "Tommaso Zampiello",
      "years": "",
      "origin": "place not known",
      "originGrade": "doc",
-     "spouse": "Sara Ruggiero",
-     "spouseOrigin": "place not known",
-     "atPlace": "Arienzo",
-     "atYear": "1814",
+     "spouse": "spouse not named in the records",
+     "spouseOrigin": "",
+     "atPlace": "Arpaia",
+     "atYear": "",
      "living": false,
-     "person": "arcangelo-crisci-of-vincenzo-falco-andreana-crisci",
-     "spousePerson": "sara-ruggiero-of-vincenzo-falco-andreana-crisci",
-     "title": "Parent of Andreana Crisci, named in a register act this archive has read",
+     "person": "tommaso-zampiello",
+     "title": "Parent of Angelo Zampiello, named in a register act this archive has read",
      "flags": [
       {
        "kind": "today",
        "line": "at",
-       "place": "Arienzo",
+       "place": "Arpaia",
        "svg": "italy-flags--era-1946.svg",
        "flag": "italy-flags--era-1946",
        "country": "IT",
        "year": null,
-       "label": "at Arienzo: Italy today",
+       "label": "at Arpaia: Italy today",
        "grade": "doc"
       }
      ]
     },
     {
-     "name": "Andreana Crisci",
-     "years": "1796–1876",
-     "origin": "Arienzo",
+     "name": "Angelo Zampiello",
+     "years": "1895–1972",
+     "origin": "place not known",
      "originGrade": "doc",
-     "spouse": "Vincenzo Falco",
-     "spouseOrigin": "of Arienzo",
-     "atPlace": "",
+     "spouse": "Giuseppa Ferraro",
+     "spouseOrigin": "place not known",
+     "atPlace": "Arpaia",
      "atYear": "",
      "living": false,
-     "person": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
-     "spousePerson": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
+     "person": "angelo-zampiello",
+     "spousePerson": "giuseppa-ferraro",
+     "title": "Parent of Francesca Zampiello, named in a register act this archive has read",
      "flags": [
       {
        "kind": "today",
-       "line": "from",
-       "place": "Arienzo",
+       "line": "at",
+       "place": "Arpaia",
        "svg": "italy-flags--era-1946.svg",
        "flag": "italy-flags--era-1946",
        "country": "IT",
        "year": null,
-       "label": "from Arienzo: Italy today",
+       "label": "at Arpaia: Italy today",
        "grade": "doc"
+      }
+     ]
+    },
+    {
+     "name": "Francesca Zampiello",
+     "years": "1928–2022",
+     "origin": "Arpaia",
+     "originGrade": "lore",
+     "spouse": "Carmine Falco",
+     "spouseOrigin": "of Forchia",
+     "atPlace": "Brisbane",
+     "atYear": "2022",
+     "living": false,
+     "person": "francesca-zampiello",
+     "spousePerson": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
+     "flags": [
+      {
+       "kind": "era",
+       "line": "from",
+       "place": "Arpaia",
+       "svg": "italy-flags--era-1922.svg",
+       "flag": "italy-flags--era-1922",
+       "era": "campania--era-1861",
+       "year": 1928,
+       "label": "from Arpaia, 1928: Italy then",
+       "grade": "lore",
+       "assessed": true
       },
       {
        "kind": "today",
-       "line": "spouse",
-       "place": "Arienzo",
-       "svg": "italy-flags--era-1946.svg",
-       "flag": "italy-flags--era-1946",
-       "country": "IT",
+       "line": "at",
+       "place": "Brisbane",
+       "svg": "australia-flags--era-1901.svg",
+       "flag": "australia-flags--era-1901",
+       "country": "AU",
        "year": null,
-       "label": "spouse of Arienzo: Italy today",
-       "grade": "doc"
+       "label": "at Brisbane: Australia today",
+       "grade": "lore"
+      },
+      {
+       "kind": "era",
+       "line": "spouse",
+       "place": "Forchia",
+       "svg": "italy-flags--era-1922.svg",
+       "flag": "italy-flags--era-1922",
+       "era": "campania--era-1861",
+       "year": 1928,
+       "label": "spouse of Forchia, 1928: Italy then",
+       "grade": "lore",
+       "assessed": true
       }
      ]
     }
    ],
    "connections": [
     {
-     "ourSlug": "vincenzo-falco-of-vincenzo-falco-andreana-crisci",
-     "ourGeneration": 3,
-     "theirSlug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
-     "theirName": "Andreana Crisci",
+     "ourSlug": "carmine-falco-of-carmine-antonio-falco-filomena-ann",
+     "ourGeneration": 8,
+     "theirSlug": "francesca-zampiello",
+     "theirName": "Francesca Zampiello",
      "relation": "married",
      "grade": "doc",
-     "storyHref": "/story/#vincenzo",
-     "theirOrigin": "of Arienzo",
-     "note": "The story's couple of generation 3."
+     "storyHref": "/story/#brisbane",
+     "theirOrigin": "of Arpaia",
+     "note": "The story's couple of generation 8."
     },
     {
-     "ourSlug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
-     "ourGeneration": 3,
-     "theirSlug": "arcangelo-crisci-of-vincenzo-falco-andreana-crisci",
-     "theirName": "Arcangelo Crisci",
+     "ourSlug": "francesca-zampiello",
+     "ourGeneration": 8,
+     "theirSlug": "angelo-zampiello",
+     "theirName": "Angelo Zampiello",
      "relation": "daughter of",
      "grade": "doc",
-     "storyHref": "/story/#vincenzo",
+     "storyHref": "/story/#brisbane",
      "note": "Named as a parent in a register act this archive has read."
     },
     {
-     "ourSlug": "raffaele-falco-of-raffaele-falco-angela-rosa-morgill",
-     "ourGeneration": 4,
-     "theirSlug": "andreana-crisci-of-vincenzo-falco-andreana-crisci",
-     "theirName": "Andreana Crisci",
-     "relation": "son of",
-     "grade": "doc",
-     "storyHref": "/story/#raffaele",
-     "theirOrigin": "of Arienzo",
-     "note": "The story's chapter tree draws her as the mother."
+     "ourSlug": "giuseppina-falco",
+     "ourGeneration": 9,
+     "theirSlug": "francesca-zampiello",
+     "theirName": "Francesca Zampiello",
+     "relation": "child of",
+     "grade": "lore",
+     "storyHref": "/story/#us",
+     "theirOrigin": "of Arpaia",
+     "note": "From the family tree only, unverified."
     }
    ]
   },

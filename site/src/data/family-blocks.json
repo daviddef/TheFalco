@@ -2,24 +2,6 @@
  "_note": "Made by tools/build_family_lines.py from people.json, families.json, story.json, direct-line.json and the Spine; do not edit by hand. Contract: kit/docs/family-ribbon.md. These family pages have no documented chain of two generations, so no ribbon: src/components/FamilyLine.astro draws their blocks alone.",
  "families": [
   {
-   "id": "ferrara",
-   "title": "Ferrara",
-   "page": "/ferrara/",
-   "noRibbon": "this archive's people file joins the person our line touches to no parent of the name by a record",
-   "connections": [
-    {
-     "ourSlug": "francesca-zampiello",
-     "ourGeneration": 8,
-     "theirSlug": "giuseppa-ferraro",
-     "theirName": "Giuseppa Ferraro",
-     "relation": "daughter of",
-     "grade": "doc",
-     "storyHref": "/story/#brisbane",
-     "note": "Named as a parent in a register act this archive has read."
-    }
-   ]
-  },
-  {
    "id": "carfora",
    "title": "Carfora",
    "page": "/carfora/",
@@ -33,6 +15,24 @@
      "relation": "daughter of",
      "grade": "doc",
      "storyHref": "/story/#forchia",
+     "note": "Named as a parent in a register act this archive has read."
+    }
+   ]
+  },
+  {
+   "id": "ferrara",
+   "title": "Ferrara",
+   "page": "/ferrara/",
+   "noRibbon": "this archive's people file joins the person our line touches to no parent of the name by a record",
+   "connections": [
+    {
+     "ourSlug": "francesca-zampiello",
+     "ourGeneration": 8,
+     "theirSlug": "giuseppa-ferraro",
+     "theirName": "Giuseppa Ferraro",
+     "relation": "daughter of",
+     "grade": "doc",
+     "storyHref": "/story/#brisbane",
      "note": "Named as a parent in a register act this archive has read."
     }
    ]

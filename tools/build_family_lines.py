@@ -17,7 +17,8 @@ only the family tree holds is not a join. No generation, origin or spouse is typ
 are people.json's, its origin is the person's birth place (or 'place not known'), its spouse the other parent of the next
 card (only where that link is documented; otherwise 'spouse not named in the records').
 
-WHICH PAGES. The family pages are the ones in the site menu's "The families" group (layouts/Base.astro) and every page
+WHICH PAGES. The family pages are the ones in the site menu's "Places & families" group (layouts/Base.astro; "The families" until the
+13 November 2026 menu regroup, which also took the non-family pages of "People & places" into the same group) and every page
 /families/<slug>/ of families.json. /families/ (the index) and /wider-family/ are lists of families, not one family, and
 /liguori/ is a page about one man (the bishop next door), not a family of this line.
 
@@ -79,11 +80,21 @@ STATED_ORIGIN = [
     ("angela-rosa-morgillo", "San Felice a Cancello", 4, "Her own birth act has been found. Not at Arienzo — at San Felice a Cancello"),
 ]
 
-# Not one family: the menu entries in "The families" that are not a family page.
+# Not one family: the menu entries in "Places & families" that are not a family page.
 NOT_FAMILY = {
     "/families/": "the index of every family",
     "/wider-family/": "the wider family: many families on one page",
     "/liguori/": "a page about one man, the bishop next door, not a family of this line",
+    # the places half of the group (13 November 2026 regroup: these were in "People & places"; "Under Whose Rule" was in Start)
+    "/atlas/": "the Atlas: places, not a family",
+    "/places/": "the places of the archive, not a family",
+    "/walk/": "a walk along the line, not a family",
+    "/journeys/": "the journeys of the line, not a family",
+    "/arienzo/": "the town of Arienzo, not a family",
+    "/camellara/": "a street, not a family",
+    "/valle-caudina/": "a valley, not a family",
+    "/rule/": "who ruled Arienzo when, not a family",
+    "/diaspora/": "where the name went, not a family",
 }
 
 # Why a family is not connected, in the archive's own terms (src/pages/families.astro and families/[slug].astro).
@@ -193,9 +204,9 @@ def chapter_children(chapter):
 # ---------------------------------------------------------------- the family pages
 def menu_families():
     src = open(os.path.join(ROOT, "site", "src", "layouts", "Base.astro"), encoding="utf-8").read()
-    m = re.search(r'\["The families",\s*\[(.*?)\]\]\]', src, re.S)
+    m = re.search(r'\["Places & families",\s*\[(.*?)\]\]\]', src, re.S)
     if not m:
-        sys.exit("build_family_lines: the menu has no «The families» group (site/src/layouts/Base.astro)")
+        sys.exit("build_family_lines: the menu has no «Places & families» group (site/src/layouts/Base.astro)")
     return re.findall(r'\["(/[^"]*)",\s*"([^"]*)"\]', m.group(1))
 
 
