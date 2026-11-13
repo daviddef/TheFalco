@@ -3903,7 +3903,7 @@ Read from the images, both pages, level 12 (Falco and near-name cells at level 1
 
 | register | cover | Parte I | Parte II | index | closing |
 |---|---|---|---|---|---|
-| Morti 1891 | (earlier) | to 1717 | De Lucia Teresa 2, Giglio Filippo 1 (the 2 acts of Parte II) | 1717–1718L (acts 1–104 of Parte I, 1–2 of Parte II) | 1718R blank |
+| Morti 1891 | not recorded here | acts 1–104 (the end of the volume's run is not recorded here) | two acts (De Lucia Teresa 2, Giglio Filippo 1, as the index lists them) | 1717–1718L | 1718R blank |
 | Pubblicazioni 1892 | 1719 | title 1721; 36 acts, 1721–1738 | title 1739R; 12 acts, 1740–1746 (1742 and 1745 are second exposures) | none (pubblicazioni carry no index) | closed 1 Jan 1893, 11 a.m., 1746R |
 | Matrimoni 1892 | 1747 | title 1748R (34 fogli); 34 acts | title 1767R; one act (1768L, a Barile transcription) | 1769R (34 couples + Parte 2ª) | 1769L blank |
 | Nascite 1892 | 1770 | title 1771R (64 fogli) | title 1816R; 3 acts (1817–1819L; foreign acts transcribed) | 1820R–1821L (Parte 1ª, Parte 2ª) | 1820L, 1821R blank |
