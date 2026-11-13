@@ -12453,6 +12453,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "fabrizio-crisci",
+"name": "Fabrizio Crisci (of Raffaele, a widower in 1896)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "d": "9 Mar 1892",
@@ -12811,6 +12819,73 @@
 }
 ],
 "treeId": 4000234
+},
+{
+"slug": "fabrizio-crisci",
+"name": "Fabrizio Crisci (of Raffaele, a widower in 1896)",
+"surname": "CRISCI",
+"household": "Raffaele Crisci & Francesca Falco",
+"hid": "raffaele-crisci-francesca-falco",
+"role": "child",
+"events": [
+{
+"event": "banns published",
+"date": "17 Jan 1896",
+"place": "Arienzo, Casa Comunale",
+"evidence": "Arienzo, *Pubblicazioni di matrimonio* **1896**, **Parte II, act 2** (a request from another comune, entered 17 January 1896, 9 a.m., Casa Comunale, before Cav. Nicola Finelli, assessore anziano acting as mayor): the Municipio of **Santamaria a Vico**, by its civil officer Alfonso Carfora on 16 January 1896, asks Arienzo to publish the banns of the marriage to be celebrated at Santamaria a Vico between «***Crisci Fabrizio**, vedovo, nato a Arienzo, residente a Arienzo, professione colono, di età maggiore, figlio del fu **Raffaele**, professione colono, residente in vita in Arienzo, e della fu **Falco Francesca**, residente ad Arienzo in vita*» (level 13, z713) and Sgambato Maria Giuseppa, unmarried, born and living at Santamaria a Vico, contadina, of age, daughter of Antonio and of a Berriano or Berrino (the mother's surname is not settled at level 12). **Tie, independent of the name, and thinner than a birth act:** both parents are named, Raffaele and Falco Francesca, and both are dead, as in this house (Francesca Falco d. 8 Jun 1876, Morti 1876 act 34; Raffaele Crisci, agricoltore, d. 22 Aug 1879, Morti 1879 act 63, at Villaggio Crisci 3); this house's other children are Maddalena (b. 1839), Lucia (d. 1874) and Domenico, a priest (d. 1892). **No birth act of Fabrizio Crisci is held here**, so he is placed as a son of this couple on the two parents' names and their deaths, not on his own birth, and the placement stands until his birth act, or his later death act, is found. The marriage itself is to be found at Santamaria a Vico, not at Arienzo.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2246 (left page, then the top of the right page), Pubblicazioni 1896 Parte II atto 2 — READ FROM THE IMAGE, level 12, with the mother's line zoomed at level 13 (z713), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "raffaele-crisci",
+"name": "Raffaele Crisci",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-raffaele-crisci-francesca-falco",
+"name": "Francesca Falco",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "maddalena-crisci",
+"name": "Maddalena Crisci (of Raffaele, b. 1839)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "lucia-crisci",
+"name": "Lucia Crisci (of Raffaele, d. 1874)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenico-crisci-of-raffaele-crisci-francesca-falco",
+"name": "Domenico Crisci (priest, of Raffaele, d. 1892)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
 },
 {
 "slug": "fortunato-crisci",
@@ -13736,6 +13811,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "fabrizio-crisci",
+"name": "Fabrizio Crisci (of Raffaele, a widower in 1896)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "d": "5 Dec 1874",
@@ -13905,6 +13988,14 @@
 {
 "slug": "domenico-crisci-of-raffaele-crisci-francesca-falco",
 "name": "Domenico Crisci (priest, of Raffaele, d. 1892)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "fabrizio-crisci",
+"name": "Fabrizio Crisci (of Raffaele, a widower in 1896)",
 "via": "register",
 "vias": [
 "register"
@@ -14836,6 +14927,14 @@
 {
 "slug": "domenico-crisci-of-raffaele-crisci-francesca-falco",
 "name": "Domenico Crisci (priest, of Raffaele, d. 1892)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "fabrizio-crisci",
+"name": "Fabrizio Crisci (of Raffaele, a widower in 1896)",
 "via": "register",
 "vias": [
 "register"
@@ -38555,6 +38654,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "fabrizio-crisci",
+"name": "Fabrizio Crisci (of Raffaele, a widower in 1896)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [
@@ -59069,6 +59176,13 @@
 "place": "Arienzo",
 "evidence": "Arienzo, *Nascite* **1867**, **act 50**: **PASQUALE FALCO**, born **20 Apr 1867**, to **Angelo Falco figlio di Vincenzo** and **Maria Cimmino figlia del fu Alessandro**. *Read from the FamilySearch image by a delegated reader and independently re-read by a second reader; **not yet re-opened by the archive's own hand.***",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 190, Nascite 1867 atto 50 — delegated reader, then independently re-read by a verifier (V007)"
+},
+{
+"event": "banns published",
+"date": "10 Jan 1896",
+"place": "Arienzo, Casa Comunale",
+"evidence": "Arienzo, *Pubblicazioni di matrimonio* **1896**, **Parte II, act 1** (a request from another comune, entered 10 January 1896, 11 a.m., Casa Comunale, before Cav. Nicola Finelli, assessore anziano acting as mayor): the Municipio of **Paolisi**, by its civil officer Giuseppe Federici on 9 January 1896, asks Arienzo to publish the banns of the marriage to be celebrated at Paolisi between «***Falco Pasquale**, di professione **carrettiere**, nato in Arienzo, residente in Arienzo, di età anni **ventinove**, **figlio di Angelo e di Cimmino Maria***» (level 13, z711, z712; the age word is «ventinove» at level 13) and a woman of Paolisi, 24, a donna di casa, daughter of the late Giovanni and of the late Carmina Pittore (her own surname is not settled at level 13: the text reads Attanari, the name box on the margin an Attanasi-like form). First publication in Arienzo 12 January, second 19 January, posted to 23 January 1896. **Tie, independent of the name:** both parents are named in full, the father Angelo and the mother Maria Cimmino, as in this house (Angelo Falco, a trainante, vetturale and later commerciante; Maria Cimmino, born 1824), and the son is a carrettiere born at Arienzo, as the house's other sons are carters (Vincenzo, vetturale; Clemente, carrettiere); the house's Pasquale, born 20 April 1867 (Nascite 1867 act 50, to Angelo Falco di Vincenzo and Maria Cimmino fu Alessandro), would be 28 in January 1896, against the 29 written in the act (ages are guessed). The marriage act itself is to be found at Paolisi, not at Arienzo, and is not read here.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2246 (left page), Pubblicazioni 1896 Parte II atto 1 — READ FROM THE IMAGE, level 12, with the groom's and bride's cells zoomed at level 13 (z711, z712), 13 November 2026"
 }
 ],
 "sources": [
