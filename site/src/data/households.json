@@ -11715,9 +11715,9 @@
     "role": "grandchild",
     "event": "death",
     "date": "17 Jun 1888",
-    "place": "Arienzo, Corso Caudino 87",
-    "evidence": "Arienzo, Morti 1888, act 62: Raffaele Liparulo, ten months, son of Gaetano, contadino, and of Antonia Falco, contadina, died at 2.30 a.m. on 17 June 1888 in Corso Caudino (no. 87 read). *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.***",
-    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1323, Morti  atto 62 — read by a delegated reader and independently re-read by a second (V353)"
+    "place": "Arienzo, Corso Caudino 79",
+    "evidence": "Arienzo, *Morti* **1888**, **act 62** (declared **17 June 1888**, 9.10 a.m., before Biagio Diglio, assessore delegato by act of the Sindaco of 11 November of the year before): the declarants are «*Crescenzo Diglio, di anni quarantatre, contadino*» and «*Giuseppe Morgillo, di anni sessantatre, contadino*», who declared that at 2.30 in the morning of the same day (level 13, z445), in the house at «*Corso Caudino*, al numero *settantanove*» (79; the last syllable of the word is the least sharp part of the line, z445), died «***Liparulo Raffaele**, di mesi dieci*», «*contadino*» in the child's own box, born at Arienzo, «*da **Gaetano**, contadino, … e da **Antonia Falco**, contadina*» (z445, z446). Witnesses Antonio d'Onofrio 68 and Andrea Saccone 69, scriventi; the declarants could not write. **WAS A DELEGATED READING; NOW THE REGISTER ITSELF.** Parents, age and the street are as the earlier readers had them. **The house number differs:** the earlier row read «no. 87»; the image reads «settantanove» (79), which is the house of the child's birth on 12 August 1887 (Nascite 1887 act 99, held in this household), and ten months and five days from that birth to 17 June 1888 fits «mesi dieci». The mother is Antonia Falco, born 22 February 1848, who married Gaetano Liparulo in 1869 (rows in this household).",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1323 (left page), Morti 1888 atto 62 — READ FROM THE IMAGE, level 13, 13 November 2026 (z445, z446; ark 3:1:3QS7-997F-MZMY); earlier source: a delegated reader and a second reader (V353)"
    },
    {
     "hid": "angelo-falco-annamaria-cimmino-corso-caudino",
@@ -13125,6 +13125,17 @@
     "place": "Arienzo",
     "evidence": "Named as the father and the declarant in the birth act of his daughter Costanza (Nascite 1888, act 23, 1 February 1888), read from the image: «*Antonio Falco, di anni quarantaquattro, agricoltore, domiciliato in Arienzo*» (level 13, z392); the house is via Orticelli no. 1. He did not sign (the act says the intervenuti could not write).",
     "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1250 (left page, then the top of the right page), Nascite 1888 atto 23 — READ FROM THE IMAGE, level 12, with the declarant's block, the address and mother, and the witnesses zoomed at level 13 (z392, z393, z394), 13 November 2026 (earlier: read by a delegated reader and independently re-read by a verifier, V341)"
+   },
+   {
+    "hid": "antonio-falco-carmela-guida",
+    "household": "Antonio Falco & Carmela Guida",
+    "person": "Antonio Falco",
+    "role": "witness",
+    "event": "named as a declarant at a death",
+    "date": "23 May 1888",
+    "place": "Arienzo, via Orticelli 16",
+    "evidence": "Arienzo, *Morti* **1888**, **act 55** (declared **23 May 1888**, 9.30 a.m., before Biagio Diglio, assessore delegato; level 13, z442): the declarants are «*Salvatore Crisci, di anni trentasei, calzolaio*» and «***Antonio Falco**, di anni **quarantatre**, agricoltore*» (level 13, z443), both domiciled at Arienzo, who declared that at 11.30 in the evening of the day before, in the house at «*via Orticelli*, al numero *sedici*» (16) (z444), died «*Maria Carmina Ferrara*», aged «*mesi dieci*», born at Arienzo, «*da **Pasquale**, agricoltore, … e da **Luigia Crisci***» (z444). The declarants could not write. **A SIGHTING, NOT A PLACING:** nothing in the act says whose son Antonio Falco is or whether he is a relation of the dead child; no kinship claimed. Placed in this household only by the name, the trade and the street, as the January 1886 declarant at the same house number, via Orticelli 16, and the Antonio Falco, 43, agricoltore, who witnessed Nascite 1887 act 114 (Maria Falco of Giuseppe, held in the household of Giuseppe Falco & Nicoletta Nuzzo); his age here is 43, as there, and 40 in January 1886: ages are guessed. The pairing with a Crisci calzolaio as co-declarant recurs.",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1321 (right page), Morti 1888 atto 55 — READ FROM THE IMAGE, level 13, 13 November 2026 (z442-z444; ark 3:1:3QSQ-G97F-MZ7Q)"
    },
    {
     "hid": "antonio-falco-carmela-guida",
