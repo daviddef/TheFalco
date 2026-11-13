@@ -3673,7 +3673,7 @@ remaining 1,430:
 
 **Nascite 1895, act 86** — «*è comparso **CLEMENTE FALCO**, di anni **QUARANTA**, ***trainante*** …
 nella casa posta in **CORSO CAUDINO** al numero **CINQUANTAQUATTRO**, da **GAETANA CRISPO sua moglie
-legittima** … a cui dà il nome di **FRANCESCO***», 26 December 1895.
+legittima** … a cui dà il nome di **FRANCESCO***», born 26 July 1895 (declared 29 July; first written here as 26 December, corrected 13 Nov 2026 from level 13).
 
 > **A CRESCENZO FALCO was alive and resident at Arienzo in September 1888**, named in his daughter
 > Lucia's marriage act. If **Morti 1898 act 46** is that man, it dates his death — and that is the
