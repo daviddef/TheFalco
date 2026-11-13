@@ -698,6 +698,28 @@ for nm in sorted(tr_by_name):
                  years(_t.get("d")), "register birth after tree death")):
             if _bset and _dset and min(_bset) > max(_dset):
                 _clash.append(f"{_why} — born {min(_bset)}, died {max(_dset)}")
+        # AND THE TREE'S OWN CHILDREN, WHICH ARE IMPOSSIBILITY TOO.
+        #
+        # 13 November 2026: the register's ANGELO MARTONE, born 17 November
+        # 1891 at Corso Caudino 87 to Francescantonio Martone and Carmela
+        # Falco, merged "on name alone" with the tree's undated ANGELO MARTONE,
+        # husband of Giuseppa Crisci and father of ANNA MARTONE, born 1846 —
+        # a baby of 1891 drawn as his own supposed daughter's father forty-five
+        # years earlier, and the tree man's published page address taken from
+        # under him. The tree person had no dates of his own, so neither pair
+        # above could see it; his CHILD's birth year could. A parent cannot be
+        # born after his child, so when the register's birth year for this
+        # person is later than the birth year of any child the tree gives him,
+        # the two are not the same man.
+        _hb = years(*[e.get("date") for e in hh_people[hk]["events"]
+                      if own_event(e.get("event"), "birth")])
+        if _hb:
+            for _r in (_t.get("relatives") or []):
+                if str(_r.get("rel", "")).strip().lower().split(" ")[-1] in ("son", "daughter", "child"):
+                    _cb = years((by_id.get(_r.get("id")) or {}).get("b"))
+                    if _cb and min(_hb) > max(_cb):
+                        _clash.append(f"register birth {min(_hb)} is after the tree child's birth {max(_cb)}")
+                        break
         if _clash:
             refused.append((nm + " — " + "; ".join(_clash), len(tids)))
         else:

@@ -29281,6 +29281,49 @@
 "siblings": []
 },
 {
+"slug": "carmela-falco-of-francescantonio-martone-carmela-fa",
+"name": "Carmela Falco (wife of Francescantonio Martone, 1891)",
+"surname": "FALCO",
+"household": "Francescantonio Martone & Carmela Falco",
+"hid": "francescantonio-martone-carmela-falco",
+"role": "mother",
+"events": [
+{
+"event": "named as mother in her son's birth act",
+"date": "17 Nov 1891",
+"place": "Arienzo, Corso Caudino 87",
+"evidence": "**Named as the child's mother, with her own surname Falco**, at Corso Caudino 87, in the act of 19 November 1891. Arienzo, *Nascite* **1891**, **Parte I, act 140** (declared 19 November 1891, 9.30 a.m., Casa Comunale, before Paride Guerriero, assessore delegato con atto del Sindaco in data 24 Settembre): «*è comparso **Francescantonio Martone**, di anni **trentatre**, **commerciante**, domiciliato in Arienzo*», who declared that at 10.30 in the morning «*del dì **diciassette** del corrente mese, nella casa posta in **Corso Caudino** al numero **ottantasette**, da **Carmela Falco** sua moglie legittima, donna di casa seco lui convivente, è nato un bambino di sesso maschile*» to whom he gives the name «*Angelo*» (level 13, z550). Witnesses (level 12): Pasquale Gra[v]ia, 68, and Gabriele Fuccia, 63, both contadini; the declarant alone signed, «Francesco Antonio Martone». **The surname Falco is the mother's own, written out in the act, and the act names no father of hers**; this archive does not know her, and she is NOT claimed as a daughter of any Falco household already held here. The husband is a trader («commerciante») at Corso Caudino, not a labourer, and is not seen elsewhere in this archive's households. ",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1674 (left page, then the top of the right page), Nascite 1891 atto 140 — READ FROM THE IMAGE, level 12, with the declarant block and the later-hand margin zoomed at level 13 (z550, z551), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "francescantonio-martone",
+"name": "Francescantonio Martone (of Corso Caudino, 1891)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "angelo-martone-2",
+"name": "Angelo Martone (of Francescantonio, b. 1891)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
+},
+{
 "slug": "carmela-falco-3",
 "name": "Carmela Falco",
 "surname": "FALCO",
@@ -72246,6 +72289,52 @@
 "noKin": "attended-the-act"
 },
 {
+"slug": "angelo-martone-2",
+"name": "Angelo Martone (of Francescantonio, b. 1891)",
+"surname": "MARTONE",
+"household": "Francescantonio Martone & Carmela Falco",
+"hid": "francescantonio-martone-carmela-falco",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "17 Nov 1891",
+"place": "Arienzo, Corso Caudino 87",
+"evidence": "**Born at 10.30 in the morning of 17 November 1891** at Corso Caudino 87, declared on the 19th. Arienzo, *Nascite* **1891**, **Parte I, act 140** (declared 19 November 1891, 9.30 a.m., Casa Comunale, before Paride Guerriero, assessore delegato con atto del Sindaco in data 24 Settembre): «*è comparso **Francescantonio Martone**, di anni **trentatre**, **commerciante**, domiciliato in Arienzo*», who declared that at 10.30 in the morning «*del dì **diciassette** del corrente mese, nella casa posta in **Corso Caudino** al numero **ottantasette**, da **Carmela Falco** sua moglie legittima, donna di casa seco lui convivente, è nato un bambino di sesso maschile*» to whom he gives the name «*Angelo*» (level 13, z550). Witnesses (level 12): Pasquale Gra[v]ia, 68, and Gabriele Fuccia, 63, both contadini; the declarant alone signed, «Francesco Antonio Martone». **The surname Falco is the mother's own, written out in the act, and the act names no father of hers**; this archive does not know her, and she is NOT claimed as a daughter of any Falco household already held here. The husband is a trader («commerciante») at Corso Caudino, not a labourer, and is not seen elsewhere in this archive's households. **A later hand in the left margin** (level 13, z551): «*Deceduto in Arienzo* [day and month read «31·8», the first figure possibly «21»] *·60*», followed by the stamp of Santa Maria Capua Vetere dated 6-2-62 and the Cancelliere's signature: a death note of 1960 on the child's own birth act, a later hand and not a register act of this archive, **not yet opened** in the Morti series.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1674 (left page, then the top of the right page), Nascite 1891 atto 140 — READ FROM THE IMAGE, level 12, with the declarant block and the later-hand margin zoomed at level 13 (z550, z551), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "francescantonio-martone",
+"name": "Francescantonio Martone (of Corso Caudino, 1891)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "carmela-falco-of-francescantonio-martone-carmela-fa",
+"name": "Carmela Falco (wife of Francescantonio Martone, 1891)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "17 Nov 1891",
+"dateFrom": {
+"b": "act"
+}
+},
+{
 "slug": "angelo-martone",
 "name": "Angelo Martone",
 "surname": "MARTONE",
@@ -72271,9 +72360,8 @@
 {
 "slug": "anna-martone",
 "name": "Anna Martone (Maione / Majone)",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 }
@@ -72296,9 +72384,8 @@
 {
 "slug": "angelo-martone",
 "name": "Angelo Martone",
-"via": "register",
+"via": "tree",
 "vias": [
-"register",
 "tree"
 ]
 },
@@ -72416,6 +72503,49 @@
 "children": [],
 "siblings": [],
 "noKin": "attended-the-act"
+},
+{
+"slug": "francescantonio-martone",
+"name": "Francescantonio Martone (of Corso Caudino, 1891)",
+"surname": "MARTONE",
+"household": "Francescantonio Martone & Carmela Falco",
+"hid": "francescantonio-martone-carmela-falco",
+"role": "father",
+"events": [
+{
+"event": "declared his child's birth",
+"date": "19 Nov 1891",
+"place": "Arienzo, Corso Caudino 87",
+"evidence": "**Declared the birth himself** — at 9.30 a.m. on 19 November 1891, two days after it. Arienzo, *Nascite* **1891**, **Parte I, act 140** (declared 19 November 1891, 9.30 a.m., Casa Comunale, before Paride Guerriero, assessore delegato con atto del Sindaco in data 24 Settembre): «*è comparso **Francescantonio Martone**, di anni **trentatre**, **commerciante**, domiciliato in Arienzo*», who declared that at 10.30 in the morning «*del dì **diciassette** del corrente mese, nella casa posta in **Corso Caudino** al numero **ottantasette**, da **Carmela Falco** sua moglie legittima, donna di casa seco lui convivente, è nato un bambino di sesso maschile*» to whom he gives the name «*Angelo*» (level 13, z550). Witnesses (level 12): Pasquale Gra[v]ia, 68, and Gabriele Fuccia, 63, both contadini; the declarant alone signed, «Francesco Antonio Martone». **The surname Falco is the mother's own, written out in the act, and the act names no father of hers**; this archive does not know her, and she is NOT claimed as a daughter of any Falco household already held here. The husband is a trader («commerciante») at Corso Caudino, not a labourer, and is not seen elsewhere in this archive's households. ",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1674 (left page, then the top of the right page), Nascite 1891 atto 140 — READ FROM THE IMAGE, level 12, with the declarant block and the later-hand margin zoomed at level 13 (z550, z551), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [
+{
+"slug": "carmela-falco-of-francescantonio-martone-carmela-fa",
+"name": "Carmela Falco (wife of Francescantonio Martone, 1891)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"children": [
+{
+"slug": "angelo-martone-2",
+"name": "Angelo Martone (of Francescantonio, b. 1891)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"siblings": []
 },
 {
 "slug": "gennaro-martone",
