@@ -72487,6 +72487,36 @@
 "siblings": []
 },
 {
+"slug": "vincenza-martone",
+"name": "Vincenza Martone (of Antonio Martone and Carmela Falco, b. 1889)",
+"surname": "MARTONE",
+"household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+"hid": "angelo-falco-annamaria-cimmino-corso-caudino",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "4 Oct 1889",
+"place": "Arienzo, Corso Caudino 77",
+"evidence": "Arienzo, *Nascite* **1889**, **act 128** (declared 6 October 1889, 11.10 a.m., before Aurelio Casale, commissario straordinario; the number and the witnesses' lines read at level 12): «*Martone Vincenza*», female, born at 3 p.m. on the 4th of the month («*pomeridiane tre e minuti —, del dì quattro*», level 13, z487) in the house at Corso Candino [Caudino], no. 77 («*settantasette*», level 13, z487), declared by her father «***Francesco Antonio Martone**, di anni **trentuno**» (level 13, z486; the trade word is not settled here: the 1887 act for his son Gennaro calls him cappellaio, 26, and the 1897 death of his son Giovanni calls him bottaio) «*da **Carmela Falco** sua moglie legittima cucitrice seco lui convivente*» (level 13, z487), and named «*Vincenza*» — the name of the groom's mother, Vincenza di Lucia, as Gennaro was named for the groom's father. Witnesses «*Pasquale Perrotta, di anni trentuno, sarto*» (the Pasquale Perrotta, 32, sarto, who witnessed Gennaro's birth in 1887) and «*Gaetano Liparulo, di anni trentatré, sarto*»; the declarant alone signed «*Francesco Antonio Martone*». The margin was not read at level 13. PLACED in this household on the mother's name and trade, the father's two names and the street: Carmela Falco, daughter of Angelo and Maria Cimmino, cucitrice, married Francescantonio Martone of San Felice a Cancello, son of Gennaro and Vincenza di Lucia, on 25 June 1886 (Matrimoni 1886 act 14, held here); the same couple's Gennaro (born 3 October 1887) is held here, and their son Giovanni died at Corso Caudino 88 in 1897. The father's age is thirty-one here against twenty-eight in 1886 and twenty-six in 1887: ages in these registers are guessed. This is the second child of the marriage with a birth act held here.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1415 (left page; witnesses on the right page), Nascite 1889 atto 128 — READ FROM THE IMAGE, level 13 for the declarant, hour, date, house and mother (z486, z487), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "4 Oct 1889",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "antonio-mauro",
 "name": "Antonio Mauro",
 "surname": "MAURO",
