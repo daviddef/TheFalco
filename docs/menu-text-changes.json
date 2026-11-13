@@ -5,27 +5,15 @@
  "site_changes": [
   {
    "page": "/sources/",
-   "why": "added at the top: the short Atlas note (what only this archive holds / the Atlas); added near the end: a Deep dives section linking Antenati, The Processetti, Holdings and The Library; nothing removed"
+   "why": "the Deep dives list gains one entry, The DNA (the page was already in the Start menu; it now sits with the other deep dives); nothing removed"
   },
   {
-   "page": "/antenati/",
-   "why": "added at the top: the short Atlas note; nothing removed"
+   "page": "/research/sources-and-method/",
+   "why": "the Deep dives list gains the same entry, The DNA; nothing removed"
   },
   {
-   "page": "/holdings/",
-   "why": "added at the top: the short Atlas note; two headings gained ids (lies, unreachable); nothing removed"
-  },
-  {
-   "page": "/the-library/",
-   "why": "added at the top: the short Atlas note; nothing removed"
-  },
-  {
-   "page": "/part/how-we-know/",
-   "why": "the book's part page lists the three new Research chapters (Research, To do, Sources & method) first, so the chapters after them are numbered vi.4 to vi.17 instead of vi.1 to vi.14 and the count reads 17; every one of the 14 existing chapters is still listed, in the same order, none removed"
-  },
-  {
-   "page": "/contents/",
-   "why": "the contents lists the same three new Research chapters, and the part VI chapter numbers shift by three; every existing chapter is still listed, none removed"
+   "page": "/research/",
+   "why": "the hub's Deep dives list gains the same entry, The DNA; nothing removed"
   }
  ]
 }
