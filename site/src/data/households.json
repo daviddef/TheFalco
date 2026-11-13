@@ -8789,6 +8789,17 @@
    {
     "hid": "matteo-falco-alessandra-crisci",
     "household": "Matteo Falco & Alessandra Crisci",
+    "person": "Domenico Biondo (of Nicola Biondo and Clementina Falco, d. 1890)",
+    "role": "grandchild",
+    "event": "birth",
+    "date": "22 Aug 1889",
+    "place": "Arienzo, via Orticelli 20",
+    "evidence": "Arienzo, *Nascite* **1889**, **act 101** (declared 25 August 1889, 10.20 a.m., before Aurelio Casale, commissario straordinario): «*Biondo Domenico*», male, born at 8.25 p.m. on the 22nd of the month («*pomeridiane otto e minuti venticinque, del dì ventidue*», level 13, z481) in the house at via Orticelli, no. 20 («*venti*», level 13, z481), declared by his father «***Nicola Biondo**, di anni **trentotto**, **secatore***» (level 13, z480) «*da **Clementina Falco** sua moglie legittima contadina seco lui convivente*» (level 13, z481), and named «*Domenico*». Witnesses «*Raffaele Ruotolo, di anni quaranta, contadino*» and «***Antonio Falco**, di anni **trentacinque**, contadino*», both resident in the comune (right-hand page, level 13, z482; the age word is «trentacinque», a different age from the 40, 41 and 43 the same name carries in other Arienzo acts of 1887–1889, so it is one more guess in a run of guesses and it identifies no man); the act records that they could not write. No marginal note was seen on the left page at level 12; the right-hand margin was blank. **THE BIRTH OF A CHILD WHOSE DEATH WAS ALREADY HELD.** The household carries Domenico's death (Morti 1890, act 77, 22 August 1890, aged one, at via Orticelli 20, a delegated reading): this act is the birth it implies, to the day, and the father's age, the street, house number and trade (secatore here, carpentiere in the death row) agree with the household's other Biondo rows (Silvestro 1886, Rosa 1885). The mother, Clementina Falco (b. 1848 of Matteo, d. 20 Sept 1900), is the one this household already holds; the Falco witness Antonio Falco is NOT placed.",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1405 (left page; witnesses on the right page), Nascite 1889 atto 101 — READ FROM THE IMAGE, level 13 for the declarant, hour, date, house, mother and the witnesses (z480, z481, z482), 13 November 2026"
+   },
+   {
+    "hid": "matteo-falco-alessandra-crisci",
+    "household": "Matteo Falco & Alessandra Crisci",
     "person": "Alessandra Saccavino (of Pasquale Saccavino & Domenica Falco, b. 1884)",
     "role": "grandchild",
     "event": "birth",
@@ -15372,8 +15383,8 @@
     "event": "birth",
     "date": "27 Aug 1889",
     "place": "Arienzo",
-    "evidence": "Arienzo, *Nascite* **1889**, **act 103**: **MARIA FALCO**, born **27 Aug 1889**, to **Giovanni Falco** and **Giuseppa Martone**; margin: name box: Numero centotre, Falco Maria; no note. Visto e verificato in Arienzo 10 Sep 1889 il Pretore below. *Read from the FamilySearch image by a delegated reader and independently re-read by a second reader; **not yet re-opened by the archive's own hand.***",
-    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1406, Nascite 1889 atto 103 — delegated reader, then independently re-read by a verifier (V366)"
+    "evidence": "Arienzo, *Nascite* **1889**, **act 103** (declared 29 August 1889, 9.20 a.m., before Aurelio Casale, commissario straordinario; the day of declaration read at level 12 only): «*Falco Maria*», female, born at 8.30 p.m. on the 27th of the month («*pomeridiane otto e minuti trenta, del dì ventisette*», level 13, z484) in the house at via Orticelli, no. 2 («*due*», level 13, z484), declared by her father «***Giovanni Falco**, di anni **trentanove**, contadino*» (level 13, z483) «*da **Giuseppa Martone** sua moglie legittima, contadina seco lui convivente*» (level 13, z484). Witnesses «***Giuseppe Falco**, di anni **trentotto**, contadino*» and «*Salvatore Crisci, di anni trentuno, calzolaio*» (level 13, z485); neither could write. The page carries a later-hand verification line, «*Visto e verificato in Arienzo li 10 Settembre 1889 il Pretore*» (level 12, signature not read), and no marginal note. **WAS A DELEGATED READING; NOW READ FROM THE IMAGE AT LEVEL 13.** Everything the delegated rows gave (father Giovanni Falco, mother Giuseppa Martone, born 27 August 1889, via Orticelli 2) is confirmed. The father's age is thirty-nine here against thirty-four in the 1886 act for his son Carmine; ages in these registers are guessed. The Falco witness, Giuseppe Falco, 38, contadino, is another man of that name whom no act yet places: his ages in the 1889 acts are 43, 40 and now 38.",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1406 (left page), Nascite 1889 atto 103 — READ FROM THE IMAGE, level 13 for the declarant, hour, date, house, mother and witnesses (z483, z484, z485), 13 November 2026 (earlier source: a delegated reader and a verifier, V366)"
    },
    {
     "hid": "giovanni-falco-giuseppa-martone",
