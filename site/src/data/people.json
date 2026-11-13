@@ -31415,6 +31415,13 @@
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2569 (left page), Nascite 1898 atto 97 — READ FROM THE IMAGE, level 12 for the whole act and level 13 for the date and hour of declaration, the declarant, the street, the house number, the mother's name and the child's name (z788, z789), 13 November 2026 (earlier source: a delegated reader and a verifier, V436)"
 },
 {
+"event": "named as a witness at a birth",
+"date": "22 Dec 1899",
+"place": "Arienzo, Corso Caudino 83",
+"evidence": "Arienzo, *Nascite* **1899**, **Parte I, act 137** (declared 22 December 1899, 9.30 a.m., Casa Comunale, before Pasquale Gesue, assessore delegato con atto del Sindaco in data nove settembre): the birth of «Crisci Caterina», declared by her father Luigi Crisci, 25, calzolaio, born on the 18th at 8.20 in the evening at Corso Caudino no. 83 of Felicia Ferriello his wife. The witnesses, on the top of the right page (level 13, z822): «*Luigi Perrotta, di anni quaranta, cantiniere*» and «***Carmine Falco**, di anni **quarantasei**, **trainante***», both resident in the comune; neither could write. **IDENTITY INFERRED**, not stated: the act does not say whose son he is and gives no address for a witness. Two ties beyond the name: the trade «trainante», which is this household's own trade in the acts of 1893 and 1898, and the age, 46, one year above the 45 of the August 1898 act (the man was born on 14 January 1852, so 47 in December 1899: ages scatter, nothing contradicts it). The act's house, Corso Caudino 83, is the household's street. A second Carmine Falco, born in 1850 (household of Raffaele Falco & Angela Rosa Morgillo), would be about 49, and no trade of his is held; he is not excluded by anything but the age.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2723 (left page for the act; the witness line on the top of the right page), Nascite 1899 Parte I atto 137 — READ FROM THE IMAGE, level 12, the witness line zoomed at level 13 (z822), 13 November 2026 (ark 3:1:3QS7-997F-MWZV)"
+},
+{
 "event": "birth",
 "date": "14 Jan 1852",
 "place": "Arienzo, strada Capodiconca",
