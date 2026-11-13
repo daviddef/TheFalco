@@ -69785,6 +69785,36 @@
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
+"slug": "carmela-fuccio-2",
+"name": "Carmela Fuccio (of Raffaele Fuccio and Andreana Falco, b. 1881)",
+"surname": "FUCCIO",
+"household": "Andrea Falco & Maria Carmela Buono",
+"hid": "andrea-falco-maria-carmela-buono",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "30 Dec 1881",
+"place": "Arienzo, Corso Caudino 11",
+"evidence": "Arienzo, *Nascite* **1882**, **act 3** (declared 2 January 1882, 10.50 a.m., Casa comunale, before Alfonso Cioffari, assessore delegato con atto del Sindaco in data sei dicembre 1881): «*è comparso **Raffaele Fuccio**, di anni **ventotto**, **sarto**, domiciliato in questo comune*» (level 13, z837), who declared that at 1.30 in the morning «*del dì trenta del passato mese*» (30 December 1881), «*nella casa posta in via Corso Caudino al numero undici, da **Andreana Falco** sua moglie, cucitrice, seco lui convivente*» (level 13, z837), was born a female child, to whom he gives the name «*Carmela, e che è gemella con altro cui concerne l'atto seguente*»: the twin of Marianna, act 4. The declarant also attests that this child is «*il primo nato*». Name box «*Fuccio Carmela*» (level 13, z836). Witnesses «*Diglio Gennaro, di anni trentaquattro, sarto*» and «*Pasquale Grossia* [surname read at level 12, not zoomed], di anni quarantadue, fruttaiuolo»; only the declarant signed. **A later hand in the right-hand margin** (level 13, z836): «*Con atto 11 Sett. 1902 N. 11 in Arienzo la Fuccio sposò Liparulo Pietro*» followed by the officer's signature. That is a marriage of **Matrimoni 1902 act 11**, 11 September 1902, **not yet opened here**: a lead from the margin, not a record, and no marriage row is written for it until the act itself is read. **The couple, and why the child is placed here.** The mother's name, Andreana Falco, is written out in full, and the father is a sarto named Raffaele Fuccio living at Corso Caudino no. 11, which is the address of the household's birth of Matilde Fuccio in 1887 (Nascite 1887 act 26); his stated age, 28, sits in the series 25 (1875), 34 (1887), 36 (1889), 40 (1893), 43 (1896), 45 (1898), 46 (1899), which is one birth year within the scatter of guessed ages. ",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 534 (right page), Nascite 1882 atto 3 — READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant, hour, street and mother's lines (z837) and the right-hand margin (z836), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "30 Dec 1881",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "carmela-fuccio",
 "name": "Carmela? Fuccio (Zampiello)",
 "surname": "FUCCIO",
@@ -69876,6 +69906,43 @@
 "treeId": 4506610
 },
 {
+"slug": "marianna-fuccio",
+"name": "Marianna Fuccio (of Raffaele Fuccio and Andreana Falco, b. 1881)",
+"surname": "FUCCIO",
+"household": "Andrea Falco & Maria Carmela Buono",
+"hid": "andrea-falco-maria-carmela-buono",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "30 Dec 1881",
+"place": "Arienzo, Corso Caudino 11",
+"evidence": "Arienzo, *Nascite* **1882**, **act 4** (declared 2 January 1882, 10.50 a.m., Casa comunale, before Alfonso Cioffari, assessore delegato con atto del Sindaco in data sei dicembre 1881): «*è comparso **Raffaele Fuccio**, di anni **ventotto**, **sarto**, domiciliato in questo comune*» (level 13, z834), who declared that at 2 in the morning «*del dì trenta del passato mese*» (30 December 1881), «*nella casa posta in via Corso Caudino al numero undici, da **Andreana Falco** sua moglie, cucitrice, seco lui convivente*» (level 13, z834), was born a female child, to whom he gives the name «*Marianna, che è gemella con altro cui concerne l'atto precedente*»: the twin of Carmela, act 3. The declarant also attests that this child is «*il secondo nato*». Name box «*Fuccio Marianna*». Witnesses «*Diglio Gennaro, di anni trentaquattro, sarto*» and «*Pasquale Grossia* [surname read at level 12, not zoomed], di anni quarantadue, fruttaiuolo»; only the declarant signed. **A later hand in the left margin** (level 13, z835): «*Con atto 19 Febbraio 1900 N. 5 in Arienzo la Fuccio sposò Giuseppe Ferraro*» followed by the officer's signature. Marianna is the bride of Pubblicazioni 1900 act 4 (the banns row below, whose bride is 18 on 1 February 1900 and so born within weeks of 30 December 1881); the marriage act itself, **Matrimoni 1900 act 5**, 19 February 1900, is **not yet opened here**: a lead from the margin, not a record. **The couple, and why the child is placed here.** Same declarant, trade, wife and street as Carmela's act 3, of which this is the second twin; see that row for the address tie to the household's birth of 1887. ",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 535 (left page), Nascite 1882 atto 4 — READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant, hour, street and mother's lines (z834) and the left margin (z835), 13 November 2026"
+},
+{
+"event": "marriage banns",
+"date": "1 Feb 1900",
+"place": "Arienzo",
+"evidence": "Arienzo, *Pubblicazioni di matrimonio* **1900**, **Parte I, act 4** (name box «*Ferraro Giuseppe / Fuccio Marianna*»; the request taken on 1 February 1900, 9.30 a.m., Casa Comunale, before Pasquale Gesue, assessore delegato con atto del Sindaco in data nove settembre 1899; posted on Sunday 4 February, again on 11 February, and left up until 15 February): the groom «*Ferraro Giuseppe*, di anni quarantasei, commerciante, residente in Arienzo, figlio del fu Michele … e della fu De Luca Agnese», born at San Felice a Cancello, and the bride «*E' pure comparsa: **Fuccio Marianna**, di anni **diciotto**, donna di casa, residente in Arienzo, figlia d' **Raffaele**, di anni **quarantatre**, **cantiniere**, residente in Arienzo, e figlia d' **Falco Andreana**, donna di casa, residente in Arienzo*» (level 13, z833). The groom is a widower: the documents are the copy of his birth act from the Ufficiale dello Stato Civile of San Felice a Cancello (dated 14 October, the year read at level 12 as 1895), the copy of the bride's birth act issued by the officer on 29 January, and «*copia dell'atto di morte di Giulia Senanes già moglie dello sposo*»; the Morti 1899 index of this walk lists a «*Senanes Giulia*» at number 25. **The bride's parents appeared**: «*sono altresì comparsi i genitori della sposa, i quali prestano il loro consenso*», and the act was signed by all but «*la madre della sposa ch'è analfabeta*»: so **Andreana Falco, the bride's mother, was alive and present on 1 February 1900**. Witnesses «*Alfonso Anzevino, di anni sessanta*» and «*Raffaele Troisi, di anni quarantadue*», messi comunali. **The tie, and its limits.** The bride is placed here by both parents' names (the mother's own surname written out) and by her age, 18, which is exactly that of Marianna Fuccio, born at Corso Caudino 11 on 30 December 1881 to Andreana Falco and Raffaele Fuccio (the household's birth row above, Nascite 1882 act 4), whose birth-act margin names this very marriage: «*Con atto 19 Febbraio 1900 N. 5 … la Fuccio sposò Giuseppe Ferraro*». **The father's trade is written cantiniere here and sarto in every other act of this couple, and his age is 43 (45 in Rosa's banns of 1898, 46 in the birth of June 1899): ages are guessed and a man may keep two trades, but this act does not settle the trade.** The marriage act itself (Matrimoni 1900 act 5) is **not yet opened**, so no marriage row is written. ",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2763 (right page), Pubblicazioni di matrimonio 1900, Parte I, atto 4 — READ FROM THE IMAGE, level 12 for the whole act and level 13 for the bride's lines (z833), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "30 Dec 1881",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "matilde-fuccio",
 "name": "Matilde Fuccio (of Raffaele Fuccio and Andreana Falco, b. 1887)",
 "surname": "FUCCIO",
@@ -69917,15 +69984,22 @@
 "event": "marriage banns",
 "date": "2 Aug 1898",
 "place": "Arienzo",
-"evidence": "Arienzo, *Pubblicazioni di matrimonio* **1898**, **Parte I, act 14** (request made on «*addì due di Agosto*» 1898, 10.20 a.m., Casa Comunale, before Raffaele De Musso, assessore delegato; first publication Sunday 7 August, second Sunday 14 August, posted until 17 August): the name box reads «*Crispo Pasquale / Fuccio Rosa*», and the act's own line «*E' pure comparsa: **Fuccio Rosa**, di anni **ventitre**, **cucitrice**, residente in Arienzo, figlia di **Raffaele**, di anni **quarantacinque**, **sarto**, residente in Arienzo, e figlia di **Falco Andreana**, donna di casa, residente in Arienzo*» (level 13, z771). She is born in Arienzo. **The tie, and its limits.** Both parents are named, the mother with her own surname Falco written out, and the father is a sarto named Raffaele — the same pair, the same trade and the same surname as the household's births of 1887, 1889, 1893 and 1896 and its death act of 1895 (the father's stated age runs 34, 36, 40, 43 and now 45; ages are guessed). **PLACED here on the same footing as those acts, medium confidence, identity INFERRED and not stated by any act:** the household's Andreana Falco (b. 1854) married Angelo Raffaele Faccia on 3 March 1875, and a Raffaele Fuccio, sarto, fits that husband by name spelt three ways, trade and age; but this act, like the births, names neither Faccia, the 1875 marriage nor Andrea Falco, and the Faccia/Fuccio/Fuccia spelling is the one open link. Her stated age would put her birth about the time of that marriage; ages are guessed and it is not used. No consent clause: the act does not say the parents appeared. The bride signed («*Fuccio Rosa*»). The documents named are the copies of both spouses' birth acts, issued that day by the officer himself, so her own birth act is in the Arienzo register and is **not yet read**. The groom is a sarto, 26, of Arienzo, son of Gioacchino, sarto, 63, and of Celentano Maria; the witnesses are «*Alfonso Anzevino, di anni cinquantotto, messo comunale*» and Raffaele Troisi, 41, messo comunale. The marriage itself (Matrimoni 1898) is **not yet read**; no marriage row is written until the act is.",
+"evidence": "Arienzo, *Pubblicazioni di matrimonio* **1898**, **Parte I, act 14** (request made on «*addì due di Agosto*» 1898, 10.20 a.m., Casa Comunale, before Raffaele De Musso, assessore delegato; first publication Sunday 7 August, second Sunday 14 August, posted until 17 August): the name box reads «*Crispo Pasquale / Fuccio Rosa*», and the act's own line «*E' pure comparsa: **Fuccio Rosa**, di anni **ventitre**, **cucitrice**, residente in Arienzo, figlia di **Raffaele**, di anni **quarantacinque**, **sarto**, residente in Arienzo, e figlia di **Falco Andreana**, donna di casa, residente in Arienzo*» (level 13, z771). She is born in Arienzo. **The tie, and its limits.** Both parents are named, the mother with her own surname Falco written out, and the father is a sarto named Raffaele — the same pair, the same trade and the same surname as the household's births of 1887, 1889, 1893 and 1896 and its death act of 1895 (the father's stated age runs 34, 36, 40, 43 and now 45; ages are guessed). **PLACED here on the same footing as those acts, medium confidence, identity INFERRED and not stated by any act:** the household's Andreana Falco (b. 1854) married Angelo Raffaele Faccia on 3 March 1875, and a Raffaele Fuccio, sarto, fits that husband by name spelt three ways, trade and age; but this act, like the births, names neither Faccia, the 1875 marriage nor Andrea Falco, and the Faccia/Fuccio/Fuccia spelling is the one open link. Her stated age would put her birth about the time of that marriage; ages are guessed and it is not used. No consent clause: the act does not say the parents appeared. The bride signed («*Fuccio Rosa*»). The documents named are the copies of both spouses' birth acts, issued that day by the officer himself, so her own birth act is in the Arienzo register; it is now read and held in this household (Nascite 1875 act 118, 14 Nov 1875), and its margin names this marriage. The groom is a sarto, 26, of Arienzo, son of Gioacchino, sarto, 63, and of Celentano Maria; the witnesses are «*Alfonso Anzevino, di anni cinquantotto, messo comunale*» and Raffaele Troisi, 41, messo comunale. The marriage itself is the household's marriage row of 7 Nov 1898 (Matrimoni 1898 act 26).",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2494 (right page), Pubblicazioni di matrimonio 1898, Parte I, atto 14 — READ FROM THE IMAGE, level 12 for the whole act and level 13 for the bride's lines (z771), 13 November 2026"
 },
 {
 "event": "marriage",
 "date": "7 Nov 1898",
 "place": "Arienzo, Casa Comunale",
-"evidence": "Arienzo, *Matrimoni* **1898**, **Parte I, act 26** (**7 November 1898**, 1.02 p.m., Casa Comunale, before Alfonso De Nuptiis, assessore funzionante da Sindaco per il titolare e per l'assessore delegato assenti; name box «*Crispo Pasquale / Fuccio Rosa*»): «***Crispo Pasquale**, di anni **ventisei**, sarto, nato in Arienzo, residente in Arienzo, figlio di **Gioacchino**, residente in Arienzo, e di Celentano Maria*» and «***Fuccio Rosa**, di anni **ventitre**, cucitrice, nata in Arienzo, residente in Arienzo, figlia di **Raffaele**, residente in Arienzo, e di **Falco Andreana**, residente in Arienzo*» (level 13, z776). Witnesses the messi comunali Alfonso Anzevino, 58, and Raffaele Troisi, 41; one document, the certificate of the banns at Arienzo, «*la prima addì sette e la seconda addì quattordici del mese di Agosto corrente anno, senza che si fossero prodotte opposizioni*». Both spouses signed. No consent clause (both spouses were of age). **THE BANNS OF 2 AUGUST 1898, FOLLOWED TO THE WEDDING.** The request held in this house (Pubblicazioni 1898 Parte I act 14, leaf 2494) names the same two spouses, the same ages (26 and 23) and the same four parents, and was published on Sundays 7 and 14 August; this act cites exactly those two dates, so the two acts are one marriage, read from both sides, three months apart. **WHAT THIS DOES AND DOES NOT SETTLE.** It confirms that the bride's mother is written «Falco Andreana» and her father «Raffaele», both alive and resident at Arienzo on 7 November 1898; it does not say that she is the Andreana Falco of this household, and it names neither Faccia, the 1875 marriage nor Andrea Falco. The placement stays **medium confidence, identity inferred**, on the same footing as the household's births of 1887, 1889, 1893 and 1896 and the death of 1895 (a sarto named Raffaele and an Andreana Falco, the surname Fuccio/Faccia/Fuccia spelt three ways). The bride's own birth act (Arienzo, about 1875) is **not yet read**; neither is the groom's. The stated age (23) is not used.",
+"evidence": "Arienzo, *Matrimoni* **1898**, **Parte I, act 26** (**7 November 1898**, 1.02 p.m., Casa Comunale, before Alfonso De Nuptiis, assessore funzionante da Sindaco per il titolare e per l'assessore delegato assenti; name box «*Crispo Pasquale / Fuccio Rosa*»): «***Crispo Pasquale**, di anni **ventisei**, sarto, nato in Arienzo, residente in Arienzo, figlio di **Gioacchino**, residente in Arienzo, e di Celentano Maria*» and «***Fuccio Rosa**, di anni **ventitre**, cucitrice, nata in Arienzo, residente in Arienzo, figlia di **Raffaele**, residente in Arienzo, e di **Falco Andreana**, residente in Arienzo*» (level 13, z776). Witnesses the messi comunali Alfonso Anzevino, 58, and Raffaele Troisi, 41; one document, the certificate of the banns at Arienzo, «*la prima addì sette e la seconda addì quattordici del mese di Agosto corrente anno, senza che si fossero prodotte opposizioni*». Both spouses signed. No consent clause (both spouses were of age). **THE BANNS OF 2 AUGUST 1898, FOLLOWED TO THE WEDDING.** The request held in this house (Pubblicazioni 1898 Parte I act 14, leaf 2494) names the same two spouses, the same ages (26 and 23) and the same four parents, and was published on Sundays 7 and 14 August; this act cites exactly those two dates, so the two acts are one marriage, read from both sides, three months apart. **WHAT THIS DOES AND DOES NOT SETTLE.** It confirms that the bride's mother is written «Falco Andreana» and her father «Raffaele», both alive and resident at Arienzo on 7 November 1898; it does not say that she is the Andreana Falco of this household, and it names neither Faccia, the 1875 marriage nor Andrea Falco. The placement stays **medium confidence, identity inferred**, on the same footing as the household's births of 1887, 1889, 1893 and 1896 and the death of 1895 (a sarto named Raffaele and an Andreana Falco, the surname Fuccio/Faccia/Fuccia spelt three ways). The bride's own birth act is Nascite 1875 act 118 (14 Nov 1875), read from the image and held in this household, and its margin names this marriage; the groom's birth act is **not yet read**. The stated age (23) is not used.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2525 (right page), Matrimoni 1898, Parte I, atto 26 — READ FROM THE IMAGE, level 12 for the whole act and level 13 for the date, the officer and both spouses' lines (z776), 13 November 2026"
+},
+{
+"event": "birth",
+"date": "14 Nov 1875",
+"place": "Arienzo, via Sant'Andrea",
+"evidence": "Arienzo, *Nascite* **1875**, **act 118** (declared 14 November 1875, 9.50 a.m., Casa comunale, before Cavaliere Nicola Finelli, Sindaco, as Ufficiale dello Stato Civile): «*è comparso **Raffaele Fucio**, di anni **venticinque**, **sarto**, domiciliato in Arienzo*» (level 13, z839), who declared that at 2.30 in the morning «*del dì quattordici del corrente mese, nella casa posta in Via Sant'Andrea al numero sedici, da **Andreana Falco** sua moglie, tessitrice, seco lui convivente*» (level 13, z839) was born a female child, to whom he gives the name «*Rosa*». Name box «*Fucio Rosa*» (level 13, z838). Witnesses «*Crisci Giuseppe, di anni ventisette, calzolaio*» and «*Gaetano Crisci, di anni quarantadue, agricoltore*» (level 12); the act was read to them and they could not sign. **A later hand in the left margin** (level 13, z838; the left edge of the note is cut by the page edge, and the act number reads 26 or 76): «*Con atto 7 Novembre 1898 n. 26 in Arienzo la Fucio sposò Pasquale Crispo*» followed by the officer's signature. That is the marriage already held in this household (Matrimoni 1898 act 26, 7 Nov 1898), so the margin ties this birth to the bride of 1898 in the clerk's own words, and the two acts now cite each other. **Spelling and age.** The father's surname is written Fucio here, Fuccio, Fucci, Fuccia and Faccia in the household's other acts; by his wife's full name, his trade and the series it is one man, not two families. His stated age, 25, is four years above the 21 of Angelo Raffaele Faccia's own marriage act of 3 March 1875, eight months earlier: ages are guessed. A second Andreana Falco, wife of Nicola Migliore, is noted in the same year's register (act 96, via Sant'Andrea 4; noted at the walk, not re-read here) and is a different woman. ",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 988 (left page), Nascite 1875 atto 118 — READ FROM THE IMAGE, level 12 for the whole act and level 13 for the name box and the left margin (z838) and the declarant, hour, street and mother's lines (z839), 13 November 2026"
 }
 ],
 "sources": [
@@ -69936,6 +70010,10 @@
 "spouses": [],
 "children": [],
 "siblings": [],
+"b": "14 Nov 1875",
+"dateFrom": {
+"b": "act"
+},
 "noKin": "no-edge-recorded"
 },
 {
