@@ -70407,6 +70407,36 @@
 "noKin": "attended-the-act"
 },
 {
+"slug": "clemente-guida",
+"name": "Clemente Guida (of Francesco Guida & Pasqualina Falco, b. 1899)",
+"surname": "GUIDA",
+"household": "Pasquale Falco & Maria Amalia Guida",
+"hid": "pasquale-falco-maria-amalia-guida",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "11 Mar 1899",
+"place": "Arienzo, via Maddalena 2",
+"evidence": "Arienzo, *Nascite* **1899**, **Parte I, act 24** («*Numero Ventiquattro*», name box «*Guida Clemente*»; declared 13 March 1899, 9.05 a.m., Casa Comunale, before Raffaele De Musso, assessore delegato): «*è comparso **Francesco Guida**, di anni **trentasette**, **contadino**, domiciliato in Arienzo*», who declared that at three-thirty in the morning «*del dì **undici** del corrente mese, nella casa posta in **Via Maddalena** al numero **due**, da **Pasqualina Falco** sua moglie legittima, contadina seco lui convivente*» was born a male child, to whom he gives the name «*Clemente*» (level 13, z814). Witnesses «*Ignazio Guida, di anni quaranta, contadino*» and «*Luigi Crisci, di anni cinquantuno, contadino*», both resident in the comune; the act was read, the declarant alone signed («*Guida Francesco*») and the witnesses declared themselves unable to write. No later-hand margin is written on the act. **Why the child is placed in this house, and not on the mother's name alone.** The mother's name, Pasqualina Falco, is written out; the husband is a Francesco Guida, contadino, aged 37, and this house already holds the marriage of Pasqualina Falco (born 1 February 1877, daughter of Pasquale Falco and Maria Amalia Guida) to a Guida Francesco, 34, contadino, at Arienzo on 23 November 1896 (Matrimoni 1896 act 28, with its banns), whose ages differ by three years over two years and four months (ages are guessed). **Not the other Pasqualina Falco of Arienzo:** the Pasqualina Falco born 22 January 1878 (daughter of Vincenzo Falco and Angela Pellone) married Raffaele Crisci on 25 May 1899 (Matrimoni 1899 act 12; neither act of the banns or the marriage names an earlier husband), so she is not known as anyone's wife on 11 March 1899. The act names no father or mother of the mother, so the placement rests on the pair of names, the husband's trade and age, and the dates of the two Pasqualinas' known marriages.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2683 (right page), Nascite 1899 Parte I atto 24 — READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant's line, the hour, the street and the mother's line (z814), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "11 Mar 1899",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "francesco-guida",
 "name": "Francesco Guida",
 "surname": "GUIDA",
