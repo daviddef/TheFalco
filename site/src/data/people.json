@@ -3860,6 +3860,13 @@
 "place": "Arienzo, Corso Caudino 68",
 "evidence": "Arienzo, Morti 1898, act 58, 25 September 1898: Salvatore Arricale, four months and three days, died that morning at ten, son of Raffaele Arricale, trainante, and Costanza Falco, donna di casa, via Corso Caudino no. 68. *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.***",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2615, Morti  atto 58 — read by a delegated reader and independently re-read by a second (V442)"
+},
+{
+"event": "birth",
+"date": "21 May 1898",
+"place": "Arienzo, Corso Caudino 59",
+"evidence": "Arienzo, *Nascite* **1898**, **Parte I, act 53** (declared **24 May 1898**, 9.40 a.m., Casa Comunale, before Raffaele De Musso, assessore delegato): «*è comparso **Raffaele Arricale**, di anni **quaranta**, **trainante**, domiciliato in Arienzo*» (level 13, z783), who declared that at 4 in the morning «*del dì **ventuno** del corrente mese, nella casa posta in **Corso Caudino** al numero **cinquantanove**, da **Costanza Falco** sua moglie legittima, donna di casa seco lui convivente, è nato un bambino di sesso maschile*» to whom he gives the name «***Salvatore***» (level 13, z783, z784). Witnesses «*Raffaele Vitrone* [the surname not settled at level 12], *di anni cinquantadue, barbiere*» and «*Antonio Carfora, di anni trentadue, calzolaio*» (level 12); the act was read to them and they could not write. **Why the child is placed in this household, and not on the names alone.** Three ties, none of them the stated age: (1) the pair, **Raffaele Arricale, trainante** and **Costanza Falco**, is the pair this house already holds in its other Arricale acts, with the same father's trade and the same mother's written name; (2) the street and the house, **Corso Caudino 59**, are the address of this couple's births of 1889 and 1896 already held here; (3) the Morti 1898 act 58 (25 September 1898), held here from two delegated readers, is the death of a **Salvatore Arricale, son of Raffaele Arricale, trainante, and Costanza Falco**, aged four months, the same given name and the same parents, four months after this birth. **A small disagreement, stated and not smoothed.** The death act gives the age as four months and three days; from 21 May to 25 September is four months and four days. Ages are the clerk's reckoning, the birth act's «ventuno» was read at level 13, and the death act was not re-opened by the archive's own hand here, so the one day is left as it stands. **The death row of this person remains a delegated reading** and is not upgraded by this act. **Layout.** Leaf 2553 is a second exposure of the opening of leaf 2552 (the same acts 52 to 54 on both), so this act is cited from 2552.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2552 (left page, bottom act; a second exposure of the same opening is leaf 2553), Nascite 1898 atto 53 — READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant, the date, the street, the house number and the mother's name (z783, z784), 13 November 2026"
 }
 ],
 "sources": [
@@ -3870,10 +3877,12 @@
 "spouses": [],
 "children": [],
 "siblings": [],
-"d": "25 Sep 1898",
+"b": "21 May 1898",
 "dateFrom": {
+"b": "act",
 "d": "act"
 },
+"d": "25 Sep 1898",
 "noKin": "no-edge-recorded"
 },
 {
