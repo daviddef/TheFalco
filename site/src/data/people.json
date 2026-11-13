@@ -25464,6 +25464,14 @@
 "children": [],
 "siblings": [
 {
+"slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
+"name": "Carmine Antonio (Carminantonio) Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
 "slug": "giovanna-falco-of-raffaele-falco-costanza-maione",
 "name": "Giovanna Falco (of Raffaele, b. 1898)",
 "via": "register",
@@ -30623,6 +30631,13 @@
 "place": "Sydney Airport",
 "evidence": "The same class 125A visa as his wife's — issued at Rome on 18 July 1978, valid to 17 July 1979, single entry, six months, employment prohibited — stamped «*Permitted to enter Australia — 26 Aug 1978 — Sydney Airport*». **The two of them landed together.** His passport also carries the Australian alien-registration card, with its departure boxes blank: no departure was ever written on it. He had already been given a visa on 20 August 1976, multiple entry, three months, valid to 19 August 1977.",
 "ark": "Family papers — Italian passport, Questura di Benevento, 5 August 1976 — READ FROM THE IMAGE"
+},
+{
+"event": "birth",
+"date": "11 Jan 1901",
+"place": "Arienzo, via Camellara",
+"evidence": "Arienzo, *Nascite* **1901**, **Parte I, act 8** (declared **13 January 1901**, 11.40 a.m., Casa Comunale, before Pasquale Gesue, assessore delegato con atto del Sindaco in data 9 September 1899): «*è comparso **Raffaele Falco**, di anni **ventisette**, **contadino**, domiciliato in Arienzo*» (level 13, z878), who declared that at 6.30 in the evening «*del dì undici del corrente mese, nella casa posta in **via Camellara***» (the number left blank), «*da **Costanza Maione** sua moglie legittima, contadina, seco lui convivente, è nato un bambino di sesso maschile*», to whom he gives the name «***Carminantonio***» (level 13, z877; the name box in the margin reads *Falco Carminantonio*). Witnesses «*Francesco Maione, di anni cinquantasette, contadino*» and «*Gennaro Carfora, di anni trentotto, contadino*» (level 13, z879); the act was read to them and nobody signed, all being illiterate. **The tie to this house** is by the father's name, trade and street (Raffaele Falco, contadino, via Camellara, as in this house's act of 1898), by the mother's full name written out, Costanza Maione, and by the child's name, which is the paternal grandfather's (Carminantonio, the husband of Giovanna Arricale); the father's age is 24 in 1897, 25 in 1898 and 27 here (ages are guessed). **The tie to the next generation** does not rest on a name: the Italian passport of Carminantonio Falco of Forchia (Questura di Benevento, 5 August 1976, held in his own house) gives his birth as «*Arienzo (CE), 11/1/1901*», the day and the town of this act. The register records the birth and no later event; no margin note was seen on the act.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 47 (left page foot, then the head of the right page), Nascite 1901 Parte I atto 8 - READ FROM THE IMAGE, level 12, with the declarant's line, the street, the mother's name and the child's name zoomed at level 13 (z877, z878) and the witnesses at level 13 (z879), 13 November 2026"
 }
 ],
 "sources": [
@@ -30637,6 +30652,7 @@
 "via": "line",
 "vias": [
 "line",
+"register",
 "tree"
 ]
 },
@@ -30648,6 +30664,14 @@
 "tree"
 ],
 "superseded": "The family tree makes this person a parent of generation 7. This archive does not: it identifies generation 6 as Raffaele Falco. The reasoning is on the Method page."
+},
+{
+"slug": "costanza-maione",
+"name": "Costanza Maione",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "spouses": [
@@ -30753,13 +30777,29 @@
 "vias": [
 "tree"
 ]
+},
+{
+"slug": "anna-falco-of-raffaele-falco-costanza-maione",
+"name": "Anna Falco (of Raffaele, b. 1904)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanna-falco-of-raffaele-falco-costanza-maione",
+"name": "Giovanna Falco (of Raffaele, b. 1898)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "mergedOn": "the same generation of the direct line — name and spouse both agree",
 "treeId": 4000091,
-"b": "Jan 11 1901",
+"b": "11 Jan 1901",
 "dateFrom": {
-"b": "tree",
+"b": "act",
 "d": "tree",
 "bp": "tree"
 },
@@ -42779,6 +42819,14 @@
 "spouses": [],
 "children": [],
 "siblings": [
+{
+"slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
+"name": "Carmine Antonio (Carminantonio) Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
 {
 "slug": "anna-falco-of-raffaele-falco-costanza-maione",
 "name": "Anna Falco (of Raffaele, b. 1904)",
@@ -63895,6 +63943,13 @@
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2610 (left page), Morti 1898 atto 38 — READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarants' names, ages and trades and the street and house of death (z802), 13 November 2026"
 },
 {
+"event": "named as father in his child's birth act",
+"date": "11 Jan 1901",
+"place": "Arienzo, via Camellara",
+"evidence": "Named as the father and the declarant in the birth act of 11 Jan 1901 (Nascite 1901 Parte I act 8, declared 13 January 1901): «*Raffaele Falco, di anni ventisette, contadino*», of via Camellara (read from the image at level 13, z878).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 47 (left page foot, then the head of the right page), Nascite 1901 Parte I atto 8 - READ FROM THE IMAGE, level 12, with the declarant's line, the street, the mother's name and the child's name zoomed at level 13 (z877, z878) and the witnesses at level 13 (z879), 13 November 2026"
+},
+{
 "event": "birth",
 "date": "6 Apr 1873",
 "place": "Arienzo",
@@ -63968,6 +64023,7 @@
 "via": "line",
 "vias": [
 "line",
+"register",
 "tree"
 ]
 },
@@ -72175,6 +72231,13 @@
 "place": "Arienzo, Casa Comunale",
 "evidence": "Arienzo, *Matrimoni* **1897**, **act 21** (**26 September 1897**, 11.10 a.m., Casa Comunale, before Raffaele De Muro, assessore delegato con atto del Sindaco in data 5 January 1897): the groom «***Falco Raffaele***», «*di anni **ventiquattro**, contadino, nato in Arienzo, residente in Arienzo*», «*figlio di **Carminantonio**, residente in Arienzo, e di **Arricale Giovanna**, residente in Arienzo*» (level 13, z755); the bride «***Maione Costanza***», 21, contadina, born and resident at Arienzo, «*figlia di **Aniello**, residente in Arienzo, e di **Martone Anna**, residente in Arienzo*». Witnesses the messi comunali Raffaele Troisi, 40, and Michele Ruggiero, 26. The certificate of the publications is cited, «*la prima il dodici e la seconda il diciannove corrente mese ed anno, senza che si fossero prodotte opposizioni*» (Pubblicazioni 1897 act 16, 2377 right); the groom's parents consented as the request for banns shows, and the spouses declared themselves illiterate. **The couple's own wedding:** the bride is the Costanza Maione named as the mother in this house's two birth acts (1898, 1904); her parents' names, Aniello and Martone Anna, are those given for her in the banns of 9 September 1897.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2398 (left page; a second exposure of the same opening on 2399), Matrimoni 1897 atto 21 — READ FROM THE IMAGE, level 12, with the date and the groom's cells zoomed at level 13 (z755), 13 November 2026 (first read and tied through the printed tavola on 9 November 2026)"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "11 Jan 1901",
+"place": "Arienzo, via Camellara",
+"evidence": "Named as the mother in the birth act of 11 Jan 1901 (Nascite 1901 Parte I act 8): «*Costanza Maione sua moglie legittima, contadina, seco lui convivente*», via Camellara (read from the image at level 13, z877).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 47 (left page foot, then the head of the right page), Nascite 1901 Parte I atto 8 - READ FROM THE IMAGE, level 12, with the declarant's line, the street, the mother's name and the child's name zoomed at level 13 (z877, z878) and the witnesses at level 13 (z879), 13 November 2026"
 }
 ],
 "sources": [
@@ -72194,6 +72257,14 @@
 }
 ],
 "children": [
+{
+"slug": "carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann",
+"name": "Carmine Antonio (Carminantonio) Falco",
+"via": "register",
+"vias": [
+"register"
+]
+},
 {
 "slug": "anna-falco-of-raffaele-falco-costanza-maione",
 "name": "Anna Falco (of Raffaele, b. 1904)",
