@@ -69044,6 +69044,36 @@
 "treeId": 4512548
 },
 {
+"slug": "luigia-fucci",
+"name": "Luigia Fucci (of Raffaele Fucci and Andreana Falco, b. 1893)",
+"surname": "FUCCI",
+"household": "Andrea Falco & Maria Carmela Buono",
+"hid": "andrea-falco-maria-carmela-buono",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "Jun 1893",
+"place": "Arienzo, Corso Caudino 9",
+"evidence": "Arienzo, *Nascite* **1893**, **act 83** (declared 25 June 1893, 9.10 a.m., Casa Comunale, before Cavalier Paride Guerriero, assessore delegato con atto del Sindaco in data 24 settembre 1891): «*è comparso **Raffaele Fucci**, di anni **quaranta**, **sarto**, domiciliato in Arienzo*» (level 13, z599), who declared that at 8.30 in the evening «*del dì …*» of the current month, «*nella casa posta in Corso Caudino al numero **nove**, da **Andreana Falco** sua moglie legittima, donna di casa seco lui convivente, è nato un bambino di sesso femminile*» to whom he gives the name «*Luigia*». **The day of birth is NOT settled:** the word after «del dì» is a short, compressed «vent…mo» (level 13, z600) that is not read as a number of June with confidence, so the date is given as June 1893 and the declaration date, 25 June, is the only day that is certain. The surname is written «Fucci» in the name box, the declarant line and his signature «Raffaele Fucci»; the household's other acts write Fuccio (1887, 1889) and the 1895 death act Fuccia. Witnesses «*Francesco Crisci, di anni ventisei, sarto*» and «*Domenico Diglio, di anni quarantadue, sarto*»; read to the declarant, who alone signed, the witnesses being illiterate. **The tie.** Husband and wife are identified as in the household's other acts by the husband's forename and trade (Raffaele, sarto), the mother's own full name, written out, and the house, Corso Caudino 9, which is the address of the household's 1889 birth act and of the 1895 death act of a Luigia aged two. That Luigia, daughter of the same two parents at the same house, two years later, is almost certainly this child (the name, the parents and the age agree); the two rows are kept apart because the name is spelt differently and the identity rests on that agreement, not on a margin. No later-hand margin is on the act. Ages are guessed.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1895 (left page, then the top of the right page), Nascite 1893 atto 83 — READ FROM THE IMAGE, level 12, with the declarant's name, age, trade, house number and the mother's name zoomed at level 13 (z599, z600), 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "Jun 1893",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "luigia-fuccia",
 "name": "Luigia Fuccia (of Raffaele Fuccia and Andreana Falco, d. 1895)",
 "surname": "FUCCIA",
