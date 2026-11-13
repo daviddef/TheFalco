@@ -18904,13 +18904,23 @@
 }
 },
 {
-"slug": "agnese-di-lucia",
-"name": "Agnese di Lucia (Falco)",
+"slug": "agnese-di-lucia-2",
+"name": "Agnese Di Lucia (widow of Matteo Falco, d. 1880)",
 "surname": "DI LUCIA",
-"household": null,
-"role": null,
-"events": [],
+"household": "Gioacchino Falco (strada Camellara)",
+"hid": "gioacchino-falco-strada-camellara",
+"role": "wife of the son",
+"events": [
+{
+"event": "death",
+"date": "14 Jan 1900",
+"place": "Arienzo, via Orticelli 6",
+"evidence": "Arienzo, *Morti* **1900**, **Parte I, act 1** (14 January 1900, 9.20 a.m., Casa Comunale, before Pasquale Gesue, assessore delegato): declarants **Salvatore Crisci**, 44, calzolaio, and **Luigi Morgillo**, 30, contadino, declared that at 1.10 that morning, in via Orticelli no. 6, «*è morta **Agnese Di Lucia**, di anni **novanta**, donna di casa, residente in Arienzo, nata in San Felice a Cancello, dal fu **Francesco** … e da madre ignota … **vedova in seconde nozze di Matteo Falco***» (level 13, z861, z862; name box «Di Lucia Agnese», z863). Witnesses Alfonso Anzevino and Raffaele Troisi, the municipal ushers. **Why she is placed here.** The Morti 1880 act 31 already held in this household names the dead man's wife «*marito di Agnese di Lucio*»; this act names the dead woman's husband «Matteo Falco»: the wife's name in one act and the husband's name in the other, with Matteo Falco (son of Gioacchino and Vittoria Cimmino, d. 7 April 1880) as the only man of that name whose death-year fits a widow of 1900. The family tree independently holds a Matteo Falco d. 7 April 1880 whose wife is Agnese di Lucia. The ages agree within what the clerks guess (she ninety in 1900, he seventy-three in 1880; ages are guessed). The other Matteo Falco of this archive (died 1867, wife Alessandra Crisci) is excluded by his wife's name. **What the act does not say.** It calls her «vedova in seconde nozze» (widow of a second marriage) and does not say whether Matteo was her first or her second husband; it names no age, father or death of his. Her father is the late Francesco and her mother is unknown. The house, via Orticelli 6, is not the Corso Caudino 57 of Matteo's death, and no part of the tie rests on it. The surname is written Di Lucio in 1880 and Di Lucia in 1900.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2863 (left page; second exposure on leaf 2864), Morti 1900 Parte I atto 1 — READ FROM THE IMAGE, level 12, with the declarants, the deceased's line and the husband's name zoomed at level 13 (z861-z863), 13 November 2026"
+}
+],
 "sources": [
+"register",
 "tree"
 ],
 "living": false,
@@ -18927,13 +18937,16 @@
 ],
 "children": [],
 "siblings": [],
+"mergedOn": "name alone",
 "treeId": 4512479,
 "bp": "Arienzo, Caserta, Campania, Italia",
 "dateFrom": {
 "bp": "tree",
-"dp": "tree"
+"dp": "tree",
+"d": "act"
 },
-"dp": "Arienzo, Caserta, Campania, Italia"
+"dp": "Arienzo, Caserta, Campania, Italia",
+"d": "14 Jan 1900"
 },
 {
 "slug": "angela-di-lucia",
@@ -55281,7 +55294,7 @@
 ],
 "spouses": [
 {
-"slug": "agnese-di-lucia",
+"slug": "agnese-di-lucia-2",
 "name": "Agnese di Lucia (Falco)",
 "via": "tree",
 "vias": [
