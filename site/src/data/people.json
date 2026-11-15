@@ -11444,6 +11444,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "vincenza-crisci",
+"name": "Vincenza Crisci (of Pasquale Crisci and Francesca Falco, bride in 1907)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "4 Nov 1886",
@@ -11662,6 +11670,14 @@
 {
 "slug": "maria-crisci-of-pasquale-crisci-francesca-falco",
 "name": "Maria Crisci (of Pasquale Crisci and Francesca Falco, aged 20 in 1896)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenza-crisci",
+"name": "Vincenza Crisci (of Pasquale Crisci and Francesca Falco, bride in 1907)",
 "via": "register",
 "vias": [
 "register"
@@ -12871,6 +12887,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "vincenza-crisci",
+"name": "Vincenza Crisci (of Pasquale Crisci and Francesca Falco, bride in 1907)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "mergedOn": "name alone",
@@ -13454,6 +13478,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "vincenza-crisci",
+"name": "Vincenza Crisci (of Pasquale Crisci and Francesca Falco, bride in 1907)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "22 Jan 1885",
@@ -13547,6 +13579,14 @@
 {
 "slug": "angelo-crisci-of-pasquale-crisci-francesca-falco",
 "name": "Angelo Crisci (of Pasquale, b. 1882)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenza-crisci",
+"name": "Vincenza Crisci (of Pasquale Crisci and Francesca Falco, bride in 1907)",
 "via": "register",
 "vias": [
 "register"
@@ -14354,6 +14394,14 @@
 {
 "slug": "angelo-crisci-of-pasquale-crisci-francesca-falco",
 "name": "Angelo Crisci (of Pasquale, b. 1882)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenza-crisci",
+"name": "Vincenza Crisci (of Pasquale Crisci and Francesca Falco, bride in 1907)",
 "via": "register",
 "vias": [
 "register"
@@ -15287,6 +15335,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "vincenza-crisci",
+"name": "Vincenza Crisci (of Pasquale Crisci and Francesca Falco, bride in 1907)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -15670,6 +15726,13 @@
 "place": "Arienzo, Casa Comunale",
 "evidence": "Named as the groom's father in the banns of 30 Dec 1905 (Pubblicazioni 1905 Parte II act 13): «*Pasquale, di professione contadino, domiciliato in Arienzo*», written without «fu», so living (level 13, z1017).",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 511 (foot of the left page, then the right page), Pubblicazioni di matrimonio 1905 Parte II atto 13 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line, both parents' lines and the bride's line (z1017, z1018), 15 November 2026"
+},
+{
+"event": "named as father in his daughter's marriage banns",
+"date": "13 Mar 1907",
+"place": "Arienzo",
+"evidence": "Named as the bride's father in the banns of 13 Mar 1907 (Pubblicazioni 1907 act 7): «*Pasquale, di anni settantuno, contadino, residente in Arienzo*», alive that day (level 13, z1086).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 744 (left page), Pubblicazioni di matrimonio 1907 Parte I atto 7 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the bride's line, her father's line and her mother's name (z1086), 15 November 2026"
 }
 ],
 "sources": [
@@ -15757,6 +15820,14 @@
 {
 "slug": "angelo-crisci-of-pasquale-crisci-francesca-falco",
 "name": "Angelo Crisci (of Pasquale, b. 1882)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenza-crisci",
+"name": "Vincenza Crisci (of Pasquale Crisci and Francesca Falco, bride in 1907)",
 "via": "register",
 "vias": [
 "register"
@@ -16266,6 +16337,105 @@
 "dateFrom": {
 "d": "act"
 }
+},
+{
+"slug": "vincenza-crisci",
+"name": "Vincenza Crisci (of Pasquale Crisci and Francesca Falco, bride in 1907)",
+"surname": "CRISCI",
+"household": "Pasquale Crisci & Francesca Falco",
+"hid": "pasquale-crisci-francesca-falco",
+"role": "child",
+"events": [
+{
+"event": "marriage banns",
+"date": "13 Mar 1907",
+"place": "Arienzo",
+"evidence": "Arienzo, *Pubblicazioni di matrimonio* **1907**, **Parte I, act 7** (name box «*Di Lucia Ferdinando / Crisci Vincenza*»; the request taken on **13 March 1907**, 11.40 a.m., Casa Comunale, before Cavalier Marcellino Guerriero, sindaco; posted on Sunday 17 March, again on 24 March, and left up until 28 March): the groom «*Di Lucia Ferdinando*, di anni trentaquattro, calzolaio, residente in Arienzo, figlio del fu Tommaso … e della fu Maria Grazia Giglio», and the bride «*Crisci Vincenza*, di anni **ventinove**, **contadina**, residente in Arienzo, figlia d'i **Pasquale**, di anni **settantuno**, **contadino**, residente in Arienzo, e figlia d'i **Francesca Falco**, **contadina**, residente in Arienzo» (level 13, z1086), both born at Arienzo. Witnesses Alfonso Anzevino, 67, and Clemente Guida, 57, messi comunali; the groom and the witnesses signed, the bride declaring herself illiterate. **The tie to this house** is by both parents: the father's forename and trade (Pasquale, contadino) and the mother's own name written out («Francesca Falco, contadina»), both resident at Arienzo, as in this house's acts from 1873 to 1905, and the wife written without «fu», so living, as she is in the banns of 30 December 1905 and until her death on 25 May 1909 at via Camellara 7. A bride of 29 in 1907 is born about 1878, between this house's children of 1873 and of 1882; the father's age is 40 in 1882 and 71 here (ages are guessed). The act gives no date of birth and none is claimed; the marriage itself is in the Matrimoni of 1907 or later.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 744 (left page), Pubblicazioni di matrimonio 1907 Parte I atto 7 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the bride's line, her father's line and her mother's name (z1086), 15 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "pasquale-crisci-2",
+"name": "Pasquale Crisci (of via Camellara)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-pasquale-crisci-francesca-falco",
+"name": "Francesca Falco (of via Camellara, 1885)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "domenico-crisci-of-pasquale-crisci-francesca-falco",
+"name": "Domenico Crisci (of Pasquale, b. 1885)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-crisci",
+"name": "Angela Crisci (of Pasquale, d. 1903)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clemente-crisci-2",
+"name": "Clemente Crisci (of Pasquale, d. 1873)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenico-crisci-of-pasquale-crisci-francesca-falco-2",
+"name": "Domenico Crisci (the first, of Pasquale, d. 1873)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-crisci",
+"name": "Giuseppe Crisci (of Pasquale, b. 1889)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-crisci-of-pasquale-crisci-francesca-falco",
+"name": "Maria Crisci (of Pasquale Crisci and Francesca Falco, aged 20 in 1896)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-crisci-of-pasquale-crisci-francesca-falco",
+"name": "Angelo Crisci (of Pasquale, b. 1882)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
 },
 {
 "slug": "vincenzo-crisci-of-domenico-crisci-margarita-falco",
@@ -19960,6 +20130,32 @@
 "d": "Dec 20 1830",
 "bp": "Santa Maria A Vico, Nola, Terra Di Lavoro",
 "dp": "Santa Maria a Vico, Caserta, Campania, Italia"
+},
+{
+"slug": "ferdinando-di-lucia",
+"name": "Ferdinando di Lucia (of the late Tommaso, groom in 1907)",
+"surname": "DI LUCIA",
+"household": "Pasquale Crisci & Francesca Falco",
+"hid": "pasquale-crisci-francesca-falco",
+"role": "married in",
+"events": [
+{
+"event": "marriage banns",
+"date": "13 Mar 1907",
+"place": "Arienzo",
+"evidence": "The other party to the banns of 13 Mar 1907 (Pubblicazioni 1907 act 7): Di Lucia Ferdinando, 34, calzolaio, born and living at Arienzo, son of the late Tommaso and of the late Maria Grazia Giglio. No tie to any house is claimed for him.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 744 (left page), Pubblicazioni di matrimonio 1907 Parte I atto 7 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the bride's line, her father's line and her mother's name (z1086), 15 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "filomena-di-lucia",
@@ -40460,6 +40656,13 @@
 "place": "Arienzo, Casa Comunale",
 "evidence": "Named as the groom's mother in the banns of 30 Dec 1905 (Pubblicazioni 1905 Parte II act 13): «*Falco Francesca, di professione contadina, domiciliata in detto Comune*» (Arienzo), written without «fu», so living; she died on 25 May 1909 (level 13, z1017, z1018).",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 511 (foot of the left page, then the right page), Pubblicazioni di matrimonio 1905 Parte II atto 13 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line, both parents' lines and the bride's line (z1017, z1018), 15 November 2026"
+},
+{
+"event": "named as mother in her daughter's marriage banns",
+"date": "13 Mar 1907",
+"place": "Arienzo",
+"evidence": "Named as the bride's mother in the banns of 13 Mar 1907 (Pubblicazioni 1907 act 7): «*Francesca Falco, contadina, residente in Arienzo*», written without «fu», so living that day (level 13, z1086).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 744 (left page), Pubblicazioni di matrimonio 1907 Parte I atto 7 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the bride's line, her father's line and her mother's name (z1086), 15 November 2026"
 }
 ],
 "sources": [
@@ -40529,6 +40732,14 @@
 {
 "slug": "angelo-crisci-of-pasquale-crisci-francesca-falco",
 "name": "Angelo Crisci (of Pasquale, b. 1882)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenza-crisci",
+"name": "Vincenza Crisci (of Pasquale Crisci and Francesca Falco, bride in 1907)",
 "via": "register",
 "vias": [
 "register"
