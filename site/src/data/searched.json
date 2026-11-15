@@ -5461,5 +5461,61 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Morti 1905 (Parte I, 80 acts; Parte II, no acts; annual index)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "594-620",
+  "walked": true,
+  "when": "1905 (MC55-RM9 images 594–620: Morti 1905, Parte I acts 1–80 and Parte II without acts, both closed 1 January 1906, and the Indice annuale)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo death register of 1905 (MC55-RM9 594–620), read in full**",
+  "got": "Images 594–620 read, both pages of every leaf: the cover (594) and the Parte I title page (595), 80 acts of deaths at Arienzo from January to 31 December 1905 (595–615, with 616 a second exposure of 615), the closing note of Parte I (615), the Parte II title page (617), the closing note of Parte II, which holds no act (618), and the annual index (619–620), which enters no Falco as a decedent. No act of the year is for a Falco. Three acts name a Falco in a spouse, parent or declarant cell and are placed, each on at least two independent ties. Act 21 (12 April 1905, via Camellara 27): Maria di Guida, wife of Clemente Morgillo, whose parents Fabrizio and Teresa Vaccina match the marriage acts of 1869 for Maria Amalia di Guida and her sister Carmela, and whose declarant is Antonio Falco, 60, her sister's husband; she stands in the house of Pasquale Falco and Maria Amalia Guida and her sister's husband in his own. Act 27 (14 May 1905): Raffaele Morgillo, widower of Angela Maria Falco, re-opened from the image at level 13 after a delegated reading, in the house of Giuseppe Falco and Antonia di Guida. Act 52 (30 August 1905, via Orticelli 9): Giovanna d'Ambrosio, 93, widow of Michele Falco, re-opened from the image at level 13 after a delegated reading, in the house of Michele Falco and Maria Giovanna Ambrogio. The other 77 acts name no Falco in a deceased, parent, spouse, declarant, witness or margin cell. Registrar of the year: Alfonso de Nuptiis, assessore delegato on the sindaco's act of 30 October 1902 and then of 18 August 1905, with the sindaco Nicola Finelli signing some acts; the usual witnesses were two messi comunali; the Pretore adds visas in the margins.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/maria-amalia-di-guida/",
+    "Maria Amalia di Guida"
+   ],
+   [
+    "/people/clemente-morgillo/",
+    "Clemente Morgillo"
+   ],
+   [
+    "/people/antonio-falco-of-antonio-falco-carmela-guida/",
+    "Antonio Falco"
+   ],
+   [
+    "/people/raffaele-morgillo-of-giuseppe-falco-antonia-di-guida/",
+    "Raffaele Morgillo"
+   ],
+   [
+    "/people/giovanna-d-ambrogio/",
+    "Giovanna d'Ambrogio"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Deaths",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
