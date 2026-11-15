@@ -5169,5 +5169,53 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Nascite 1904 (Parte I 124 acts, Parte II 1 act)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "399-450",
+  "walked": true,
+  "when": "1904 (MC55-RM9 images 399–450: the Nascite register of 1904, cover, Parte I acts 1–124 closed 1 January 1905, Parte II act 1, annual index)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo birth register of 1904 (MC55-RM9 399–450), read in full, with its annual index**",
+  "got": "Images 399–450 read, both pages of every leaf: Parte I, printed forms, 124 acts, and Parte II, one act (a transcription from Buenos Aires, no Falco), then the annual index, which names Falco three times (acts 2, 10 and 80). Terms tried: Falco, De Falco, Falcone. Act 2 (10 January, Giuseppe) and act 10 (12 February, Lucia) were re-read at level 13 and agree with the houses that hold them. Act 80 (Anna, born 7 September to Raffaele Falco, contadino, and Costanza Maione, via Camellara) was re-opened at level 13 and its house rows rewritten from the archive's own reading. Acts 109 (Carmine Arricale, 18 November) and 122 (Alfonso Anzivino, 19 December) were each placed in the Andrea Falco and Maria Carmela Buono house by both parents' full names, trade, age and the 1903 banns and marriage held there. A Falco witness in act 67 (Antonio Falco, 51, colono) is recorded and not placed. No other Falco appears in a party, parent, declarant or witness cell; near-names are not counted.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/anna-falco-of-raffaele-falco-costanza-maione/",
+    "Anna Falco (of Raffaele, b. 1904)"
+   ],
+   [
+    "/people/carmine-arricale-of-andrea-falco-maria-carmela-buono/",
+    "Carmine Arricale (of Antonio Arricale and Grazia Maria Anzivino, b. 1904)"
+   ],
+   [
+    "/people/alfonso-anzivino/",
+    "Alfonso Anzivino (of Valeriano Anzivino and Pasqua Porrino, b. 1904)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Births",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
