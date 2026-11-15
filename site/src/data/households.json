@@ -10158,6 +10158,50 @@
     "place": "Arienzo",
     "evidence": "The other party to the banns of 21 May 1904 (Pubblicazioni 1904 act 8): Iannone Maria Lucia, 27, donna di casa, born at Arienzo, daughter of Girolamo, falegname, and of Palladino Carmela (level 13, z967).",
     "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 355 (right page), Pubblicazioni di matrimonio 1904 Parte I atto 8 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line, the date, the bride's line and the documents (z965 to z968), 15 November 2026"
+   },
+   {
+    "hid": "antonio-mauro-sara-falco",
+    "household": "Antonio Mauro & Sara Falco",
+    "person": "Vincenzo Mauro (of Antonio, b. 1863)",
+    "role": "child",
+    "event": "marriage (second marriage)",
+    "date": "6 Jul 1904",
+    "place": "Arienzo, Casa Comunale",
+    "evidence": "Arienzo, *Matrimoni* **1904**, **Parte I, act 11** (name box «*Mauro Vincenzo / Iannone Maria Lucia*»; solemnised on **6 July 1904**, 11.30 a.m., Casa Comunale, before Alfonso de Nuptiis, assessore delegato): the groom «*Mauro Vincenzo*, di anni **quaranta**, **sarto**, nato in Arienzo, residente in Arienzo, figlio del fu **Antonio** e della fu **Falco Sara**» (level 13, z976), and the bride «*Iannone Maria Lucia*, di anni ventisette, donna di casa, nata in Arienzo, residente in Arienzo, figlia di **Girolamo** e di **Palladino Carmela**, entrambi residenti in Arienzo» (level 13, z977). The banns were posted at Arienzo on 22 and 29 May 1904, without opposition (level 13, z978). Witnesses Alfonso Anzevino, 64, messo comunale, and Clemente Guida, 44, messo comunale; the spouses declared themselves unlettered and only the witnesses signed. **This is the marriage that the banns of 21 May 1904 announced** (Pubblicazioni 1904 Parte I act 8), the same two parties, the same ages and the same parents on both acts. **The tie to this house** is the one made there, by both parents' names written out, the trade and the exact age: Antonio Mauro and the late Falco Sara, parents of Vincenzo Mauro, born 19 Nov 1863 and married to d'Addio Rosolina Nicolina on 26 Jul 1888; he is 40 here, exact for a man born in November 1863, a «sarto» in 1888 and in 1904, and «fu Falco Sara» is exact for a mother who died on 22 Oct 1886. The act says nothing of the first wife; the bride is a spinster and the groom a widower by the banns act. It gives no date of birth for either party and none is claimed.",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 387 (left page), Matrimoni 1904 Parte I atto 11 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line with both parents, the bride's line with both parents, and the banns note (z976, z977, z978), 15 November 2026"
+   },
+   {
+    "hid": "antonio-mauro-sara-falco",
+    "household": "Antonio Mauro & Sara Falco",
+    "person": "Antonio Mauro",
+    "role": "father",
+    "event": "named as the late father in his son's marriage act",
+    "date": "6 Jul 1904",
+    "place": "Arienzo, Casa Comunale",
+    "evidence": "Named as the late father in his son's marriage act of 6 Jul 1904 (Matrimoni 1904 Parte I act 11): «*figlio del fu Antonio*» (level 13, z976).",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 387 (left page), Matrimoni 1904 Parte I atto 11 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line with both parents, the bride's line with both parents, and the banns note (z976, z977, z978), 15 November 2026"
+   },
+   {
+    "hid": "antonio-mauro-sara-falco",
+    "household": "Antonio Mauro & Sara Falco",
+    "person": "Sara Falco",
+    "role": "mother",
+    "event": "named as the late mother in her son's marriage act",
+    "date": "6 Jul 1904",
+    "place": "Arienzo, Casa Comunale",
+    "evidence": "Named as the late mother in her son's marriage act of 6 Jul 1904 (Matrimoni 1904 Parte I act 11): «*e della fu Falco Sara*» (level 13, z976); written with «fu», so dead by that day, as the death act of 22 Oct 1886 shows.",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 387 (left page), Matrimoni 1904 Parte I atto 11 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line with both parents, the bride's line with both parents, and the banns note (z976, z977, z978), 15 November 2026"
+   },
+   {
+    "hid": "antonio-mauro-sara-falco",
+    "household": "Antonio Mauro & Sara Falco",
+    "person": "Maria Lucia Iannone (bride in 1904)",
+    "role": "married in",
+    "event": "marriage",
+    "date": "6 Jul 1904",
+    "place": "Arienzo, Casa Comunale",
+    "evidence": "The bride in the marriage act of 6 Jul 1904 (Matrimoni 1904 Parte I act 11): Iannone Maria Lucia, 27, donna di casa, born and resident at Arienzo, daughter of Girolamo and of Palladino Carmela (level 13, z977).",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 387 (left page), Matrimoni 1904 Parte I atto 11 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line with both parents, the bride's line with both parents, and the banns note (z976, z977, z978), 15 November 2026"
    }
   ]
  },
