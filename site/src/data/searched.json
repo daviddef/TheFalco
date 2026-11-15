@@ -6481,5 +6481,89 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Matrimoni 1909 (Parte I, 36 acts; Parte II Serie A and Serie B, no act; annual index)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "1089-1115",
+  "walked": true,
+  "when": "1909 (MC55-RM9 images 1089–1115: Matrimoni 1909, cover and title page, Parte I acts 1–36 closed 1 January 1910 with the Pretore's visa of 14 January 1910, Parte II Serie A and Serie B, each closed 1 January 1910 with no act, and the Indice annuale)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo marriage register of 1909 (MC55-RM9 1089–1115), read in full**",
+  "got": "Images 1089–1115 read, both pages of every leaf: the cover (1089) and the title page (1090–1091), Parte I, 36 printed-form acts celebrated at the Casa Comunale from January to December 1909 (1092–1109, one act to a page), the closure of Parte I («trentasei atti», closed 1 January 1910, visa 14 January 1910), Parte II Serie A (1110–1111) and Serie B (1112–1113), each with its title page, its blank forms and its closure «che non contiene alcun atto», and the Indice annuale (1114–1115), 36 entries in the groom's alphabetical order. Three acts name a Falco and each is placed in a house on at least two independent ties, never on a name alone, and each was read from the image at level 13 for the parents' lines. Act 5 (6 February 1909): Anzevino Lelio married Diglio Marianna; his mother is written Marianna Falco, in the house of Andrea Falco and Maria Carmela Buono, beside the banns of 20 January 1909 and his birth of 1890. Act 13 (19 April 1909): Giglio Vincenzo married Morgillo Marianna; his late mother is written Filomena Falco, in the house of Vincenzo Falco and Andreana Crisci, beside the banns of 27 February 1909. Act 32 (14 November 1909): Ruotolo Raffaele married Falco Maria, in the house of Giuseppe Falco and Nicoletta Nuzzo, beside the banns of 2 October 1909 and the birth of 1887; both her parents are named. Each marriage act quotes its banns' posting dates. The Indice annuale lists Falco once only, the bride of act 32 (z1169); it lists the spouses and not their mothers, so it does not show acts 5 and 13, which were found by reading the acts. Near-names seen and not counted: a different Raffaele Ruotolo, 22, son of Antonio, married on 13 February 1909 (act 7) and is not tied to the Ruotolo of act 32; the marriage of Arricale and Rivetti, whose banns were requested from San Felice a Cancello on 7 May 1909, is in none of the 36 acts and Parte II holds none. The registrar is Alfonso de Nuptiis, assessore delegato on the sindaco's act of 23 August 1908 (added 24 August), or the sindaco Giacomo De Falco, who signs as registrar and is never a party. Witnesses are mostly the messi comunali Alfonso Anzevino and Felice Sorice. The other acts name no Falco in a groom, bride, parent or witness cell. No second exposure was seen on any leaf.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/lelio-anzivino-of-andrea-falco-maria-carmela-buono/",
+    "Lelio Anzivino (of Alfonso and Marianna Falco, b. 1890)"
+   ],
+   [
+    "/people/angela-marianna-diglio/",
+    "Angela Marianna Diglio (bride in 1909)"
+   ],
+   [
+    "/people/marianna-falco-2/",
+    "Marianna Falco (of Andrea, b. 1851)"
+   ],
+   [
+    "/people/luigi-alfonso-paolo-anzivino/",
+    "Luigi Alfonso Paolo Anzivino"
+   ],
+   [
+    "/people/vincenzo-giglio/",
+    "Vincenzo Giglio (of Luigi Giglio and Filomena Falco, groom in 1909)"
+   ],
+   [
+    "/people/marianna-morgillo/",
+    "Marianna Morgillo (bride in 1909)"
+   ],
+   [
+    "/people/maria-filomena-falco/",
+    "Maria Filomena Falco (of Vincenzo, b. 1840)"
+   ],
+   [
+    "/people/luigi-giglio/",
+    "Luigi Giglio"
+   ],
+   [
+    "/people/maria-falco-of-giuseppe-falco-nicoletta-nuzzo/",
+    "Maria Falco (of Giuseppe, b. 1887)"
+   ],
+   [
+    "/people/raffaele-ruotolo-of-giuseppe-falco-nicoletta-nuzzo/",
+    "Raffaele Ruotolo"
+   ],
+   [
+    "/people/giuseppe-falco-of-giuseppe-falco-nicoletta-nuzzo/",
+    "Giuseppe Falco (of Matteo, b. c.1842)"
+   ],
+   [
+    "/people/nicoletta-nuzzo-of-giuseppe-falco-nicoletta-nuzzo/",
+    "Nicoletta Nuzzo"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Marriage",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
