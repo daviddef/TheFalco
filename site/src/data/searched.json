@@ -6309,5 +6309,69 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "walked": true,
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "book": "Morti 1909 (Parte I, 91 acts; Parte II Serie A, 1 act, Serie B and C empty; annual index)",
+  "pages": "1019-1053",
+  "when": "1909 (MC55-RM9 images 1019–1053: Morti 1909, Parte I acts 1–91, Parte II Serie A act 1 and Serie B and C empty, all closed 1 January 1910, and the Indice annuale)",
+  "what": "**Every act of the Arienzo death register of 1909 (MC55-RM9 1019–1053), read in full**",
+  "got": "Images 1019–1053 read, both pages of every leaf: the board and its label (1019), the inside of the board and the Parte I title page (1020), Parte I, 91 printed-form acts drawn from 2 January to 29 December 1909 (1021–1044, mostly four acts to a leaf), the close of Parte I, «contenente novantuno atti», on 1 January 1910 by Alfonso de Nuptiis, assessore delegato on the sindaco's act of 23 August 1908 (read at level 13, z1151), with the Pretore's visa of January 1910 (the day not settled), Parte II Serie A (1046–1047), one act only, the transcription of a death act of Arona, Parte II Serie B (1048–1049) and Serie C (1050–1051), each closed with no act at all, and the Indice annuale (1052–1053). Images 1023 and 1045 are second exposures of the openings of 1022 and 1044 and add no pages. One act names a Falco and it is placed in a house on at least two independent ties, never on a name alone: act 43 (death of 25 May 1909, via Camellara 7): the decedent Francesca Falco, 65, contadina, born at Santa Maria a Vico, wife of Pasquale Crisci, in the house of Pasquale Crisci and Francesca Falco, the same two names and the same street as the banns of 1907 and the births of 1873 to 1882, upgraded in place from the delegated reading to a reading from the image (z1147, z1148, z1149). The Indice annuale lists the deceased only; its F group, read at level 13 (z1152), is Fuccia Francesca 23, Fierro Fabio 25 and Falco Francesca 43, so the one Falco act of the register was found in it as the control, and a Falco who is a mother, a husband, a declarant or a witness is reached only by the pages, which were all read. Searched in the terms Falco, De Falco and Falcone, and the catalogue's coverage check for the family passed with those three terms. Near-names seen and not counted: Fuccio and Fuccia (acts 23, 57 and 64, read at level 13, z1146 and z1150, F-u-c-c-i-o with no l), Fierro (act 25), Fasio (act 46), Anzivino, Arricale, Marotta, Morgillo, Diglio, Rivetti and Carfora among many; a second Pasquale Crisci is the husband in act 47 (wife Margherita De Lucia) and is not the husband of act 43 and is placed on nothing. Registrar throughout Alfonso de Nuptiis; witnesses mostly the messi comunali Alfonso Anzevino and Felice Sorice. The other acts name no Falco in a decedent, parent, spouse, declarant or witness cell.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/francesca-falco-of-pasquale-crisci-francesca-falco/",
+    "Francesca Falco (of via Camellara, 1885)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Death",
+   "Falco",
+   "full walk"
+  ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "walked": true,
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "book": "Cittadinanza 1909 (2 acts)",
+  "pages": "1054-1056",
+  "when": "1909 (MC55-RM9 images 1054–1056: Cittadinanza 1909, the whole register of two acts, closed 1 January 1910)",
+  "what": "**The whole Arienzo register of acts of citizenship for 1909 (MC55-RM9 1054–1056), read in full**",
+  "got": "Images 1054–1056 read, both pages of every leaf: the board and its label (1054), the blank page and the title page with the vidimazione of 26 November 1908 (1055), and the two acts and the closure (1056): a declaration of 13 January 1909 by a woman born at Santa Maria a Vico who transfers her residence to Arienzo, and a declaration of 19 April 1909 by a man born at Arienzo who transfers his residence to Moiano, with the Pretore's visas of 12 May and 16 September 1909 and the close «due atti» on 1 January 1910 by Alfonso de Nuptiis. Searched in the terms Falco, De Falco and Falcone; the catalogue's coverage check for the family passed with those three terms; none is in the name box, a party or a witness cell of either act. Near-names seen and not counted: Grieco (act 1) and Fuccio (act 2).",
+  "outcome": "nothing",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Citizenship",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
