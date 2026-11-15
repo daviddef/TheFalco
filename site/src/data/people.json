@@ -2698,6 +2698,13 @@
 "place": "Arienzo, Corso Caudino",
 "evidence": "Named as the mother in the birth act of 18 Nov 1904 (Nascite 1904 Parte I act 109): «*Grazia Maria Anzivino sua moglie legittima, sarta, seco lui convivente*», Corso Caudino (read from the image at level 13, z990).",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 440 (left page, then the head of the right page), Nascite 1904 Parte I atto 109 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant's line, the street and the mother's name (z990) and the margin note (z991), 15 November 2026"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "10 May 1907",
+"place": "Arienzo",
+"evidence": "Named as the mother in the birth act of 10 May 1907 (Nascite 1907 Parte I act 37, declared 12 May 1907): «*Grazia Maria Anzivino sua moglie legittima, sarta, seco lui convivente*», via Sant'Andrea (read from the image at level 13, z1093).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 805 (left page), Nascite 1907 Parte I atto 37 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant's line, the street and the mother's name (z1093), 15 November 2026"
 }
 ],
 "sources": [
@@ -2846,6 +2853,36 @@
 "noKin": "married-in"
 },
 {
+"slug": "margherita-anzivino",
+"name": "Margherita Anzivino (of Valeriano Anzivino and Pasqua Porrino, b. 1907)",
+"surname": "ANZIVINO",
+"household": "Andrea Falco & Maria Carmela Buono",
+"hid": "andrea-falco-maria-carmela-buono",
+"role": "great-grandchild",
+"events": [
+{
+"event": "birth",
+"date": "19 Feb 1907",
+"place": "Arienzo",
+"evidence": "Arienzo, *Nascite* **1907**, **Parte I, act 11** (name box «*Anzivino Margherita*»; declared **19 February 1907**, 10.20 a.m., Casa Comunale, before Agostino Crisci, assessore delegato on the Sindaco's act of 26 August 1906): «*è comparso **Valeriano Anzivino**, di anni **trenta**, **calzolaio**, domiciliato in Arienzo*» (level 13, z1094), who declared that at 5.30 in the morning of the nineteenth of the month, «*nella casa posta in **Corso Caudino** al numero ventisette*», «*da **Pasqua Porrino** sua moglie legittima, donna di casa, seco lui convivente, è nato un bambino di sesso femminile*», to whom he gives the name «***Margherita***». Witnesses, read at level 12: Antonio Diglio, 73, mediatore, and Raffaele Vitone (as read), 58, barbiere; the act was read to them and nobody signed, all being illiterate. No later hand was seen in the margin. **The tie to this house** is by both parents' full names and the earlier acts held here: the declarant «*Valeriano Anzivino*», calzolaio, and «*Pasqua Porrino sua moglie legittima*» are the groom and bride of the banns of 16 Sep 1903 and the marriage of 21 Oct 1903, where Valeriano is a son of Alfonso Anzivino and Marianna Falco, and they are the parents of the birth of 19 Dec 1904 in Corso Caudino (Nascite 1904 act 122); the groom was 28 in 1903 and 1904 and is 30 here (ages are guessed). The act names no Falco and gives the child no date of birth beyond the one declared.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 796 (left page), Nascite 1907 Parte I atto 11 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant's line, the street and the mother's name (z1094), 15 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "19 Feb 1907",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "valeriano-anzivino",
 "name": "Valeriano Anzivino (of Alfonso Anzivino and Marianna Falco, groom in 1903)",
 "surname": "ANZIVINO",
@@ -2873,6 +2910,13 @@
 "place": "Arienzo, Corso Caudino",
 "evidence": "Named as the father and the declarant in the birth act of 19 Dec 1904 (Nascite 1904 Parte I act 122, declared 22 December 1904): «*Valeriano Anzivino, di anni ventotto, calzolaio*», of Corso Caudino (read from the image at level 12, the house and the mother at level 13, z992).",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 444 (left page, then the head of the right page), Nascite 1904 Parte I atto 122 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the house, the mother's name and the child's name (z992, z993), 15 November 2026"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "19 Feb 1907",
+"place": "Arienzo",
+"evidence": "Named as the father and the declarant in the birth act of 19 Feb 1907 (Nascite 1907 Parte I act 11, declared the same day): «*Valeriano Anzivino, di anni trenta, calzolaio, domiciliato in Arienzo*», of Corso Caudino (read from the image at level 13, z1094).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 796 (left page), Nascite 1907 Parte I atto 11 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant's line, the street and the mother's name (z1094), 15 November 2026"
 }
 ],
 "sources": [
@@ -3154,6 +3198,13 @@
 "place": "Arienzo, Corso Caudino",
 "evidence": "Named as the father and the declarant in the birth act of 18 Nov 1904 (Nascite 1904 Parte I act 109, declared 21 November 1904): «*Antonio Arricale, di anni quarantuno, sarto*», of Corso Caudino (read from the image at level 13, z990).",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 440 (left page, then the head of the right page), Nascite 1904 Parte I atto 109 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant's line, the street and the mother's name (z990) and the margin note (z991), 15 November 2026"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "10 May 1907",
+"place": "Arienzo",
+"evidence": "Named as the father and the declarant in the birth act of 10 May 1907 (Nascite 1907 Parte I act 37, declared 12 May 1907): «*Antonio Arricale, di anni quarantasei, sarto, domiciliato in Arienzo*», of via Sant'Andrea (read from the image at level 13, z1093).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 805 (left page), Nascite 1907 Parte I atto 37 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant's line, the street and the mother's name (z1093), 15 November 2026"
 }
 ],
 "sources": [
@@ -4055,6 +4106,36 @@
 "children": [],
 "siblings": [],
 "b": "16 Aug 1878",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
+"slug": "marianna-arricale",
+"name": "Marianna Arricale (of Antonio Arricale and Grazia Maria Anzivino, b. 1907)",
+"surname": "ARRICALE",
+"household": "Andrea Falco & Maria Carmela Buono",
+"hid": "andrea-falco-maria-carmela-buono",
+"role": "great-grandchild",
+"events": [
+{
+"event": "birth",
+"date": "10 May 1907",
+"place": "Arienzo",
+"evidence": "Arienzo, *Nascite* **1907**, **Parte I, act 37** (name box «*Arricale Marianna*»; declared **12 May 1907**, 10.50 a.m., Casa Comunale, before the sindaco Cavalier Marcellino Guerriero): «*è comparso **Antonio Arricale**, di anni **quarantasei**, **sarto**, domiciliato in Arienzo*» (level 13, z1093), who declared that at 10.30 in the morning of the tenth of the month, «*nella casa posta in via **Sant'Andrea** al numero ventiquattro*», «*da **Grazia Maria Anzivino** sua moglie legittima, sarta, seco lui convivente, è nato un bambino di sesso femminile*» (the surname written «Ausivi|no» across the line end, read at level 13), to whom he gives the name «***Marianna***». Witnesses, read at level 12: Clemente Giglio, 48, calzolaio, and Vincenzo Morgillo, 40, bracciale; the act was read to them and nobody signed, all being illiterate. A later hand in the margin records her death at Arienzo in 1966. **The tie to this house** is by both parents' full names and the earlier acts held here: the declarant «*Antonio Arricale*, sarto» and «*Grazia Maria Anzivino, sarta*» are the groom and bride of the banns of 27 Nov 1903 and the marriage of 13 Dec 1903, where she is a daughter of Alfonso Anzivino and Marianna Falco, and they are the parents of the birth of 18 Nov 1904 (Nascite 1904 act 109); the father was 41 in 1904 and is 46 here (ages are guessed). The child bears the name of her mother's mother, Marianna Falco. The act names no Falco.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 805 (left page), Nascite 1907 Parte I atto 37 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant's line, the street and the mother's name (z1093), 15 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "10 May 1907",
 "dateFrom": {
 "b": "act"
 },
@@ -82801,6 +82882,13 @@
 "place": "Arienzo, Corso Caudino",
 "evidence": "Named as the mother in the birth act of 19 Dec 1904 (Nascite 1904 Parte I act 122): «*Pasqua Porrino sua moglie legittima, sarta, seco lui convivente*», Corso Caudino (read from the image at level 13, z992).",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 444 (left page, then the head of the right page), Nascite 1904 Parte I atto 122 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the house, the mother's name and the child's name (z992, z993), 15 November 2026"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "19 Feb 1907",
+"place": "Arienzo",
+"evidence": "Named as the mother in the birth act of 19 Feb 1907 (Nascite 1907 Parte I act 11): «*Pasqua Porrino sua moglie legittima, donna di casa, seco lui convivente*», Corso Caudino (read from the image at level 13, z1094).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 796 (left page), Nascite 1907 Parte I atto 11 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant's line, the street and the mother's name (z1094), 15 November 2026"
 }
 ],
 "sources": [
