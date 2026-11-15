@@ -2578,6 +2578,36 @@
 "noKin": "no-edge-recorded"
 },
 {
+"slug": "alfonso-anzivino",
+"name": "Alfonso Anzivino (of Valeriano Anzivino and Pasqua Porrino, b. 1904)",
+"surname": "ANZIVINO",
+"household": "Andrea Falco & Maria Carmela Buono",
+"hid": "andrea-falco-maria-carmela-buono",
+"role": "great-grandchild",
+"events": [
+{
+"event": "birth",
+"date": "19 Dec 1904",
+"place": "Arienzo, Corso Caudino",
+"evidence": "Arienzo, *Nascite* **1904**, **Parte I, act 122** (name box «*Anzivino Alfonso*»; declared **22 December 1904**, 11.10 a.m., Casa Comunale, before Alfonso de Nuptiis, assessore delegato con atto del Sindaco del trenta Ottobre 1902): «*è comparso **Valeriano Anzivino**, di anni **ventotto**, **calzolaio**, domiciliato in Arienzo*», who declared that at 10.30 in the evening of the nineteenth of the month, «*nella casa posta in **Corso Caudino** al numero diciotto*», «*da **Pasqua Porrino** sua moglie legittima, sarta, seco lui convivente, è nato un bambino di sesso maschile*», to whom he gives the name «***Alfonso***» (level 13, z992, z993). Witnesses, read at level 12: Pasquale Mauro, barbiere, thirty, and Francesco Verdicchio, panettiere, forty; the act was read to them and nobody signed, all being illiterate. **The tie to this house** is by both parents' full names and the earlier acts held here: the declarant «*Valeriano Anzivino*», calzolaio, and «*Pasqua Porrino sua moglie legittima, sarta*» are the groom and bride of the banns of 16 Sep 1903 and the marriage of 21 Oct 1903, where Valeriano is a son of Alfonso Anzivino and Marianna Falco (b. 1851, daughter of Andrea Falco and Maria Carmela Buono) and Pasqua is a daughter of Giuseppe, orefice, born at Naples; the trade is the same, the age is 28 there and 28 here (ages are guessed), the couple live in Corso Caudino, and the child is given the name Alfonso, which is the paternal grandfather's. In the same register Alfonso Anzivino, messo comunale, 64, stands as witness to another act of 23 Nov 1904 (act 111). The register records the birth and no later event; no margin note was seen on the act.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 444 (left page, then the head of the right page), Nascite 1904 Parte I atto 122 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the house, the mother's name and the child's name (z992, z993), 15 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "19 Dec 1904",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "fabrizio-anzivino",
 "name": "Fabrizio Anzivino (of Alfonso and Marianna Falco, d. 1892)",
 "surname": "ANZIVINO",
@@ -2789,6 +2819,13 @@
 "place": "Arienzo",
 "evidence": "Arienzo, *Matrimoni* **1903**, **Parte I, act 16** (name box «*Anzivino Valeriano / Porrino Pasqua*»; celebrated on **21 October 1903**, 11.40 a.m., Casa Comunale, before Alfonso de Nuptiis, assessore delegato con atto del Sindaco del 30 Ottobre 1902): the groom «*Anzivino Valeriano*, di anni **ventotto**, **calzolaio**, nato in Arienzo, residente in Arienzo, figlio d'**Alfonso**, residente in Arienzo, e di **Falco Marianna**, residente in Arienzo» (level 13, z939), and the bride «*Porrino Pasqua*, di anni ventisette, cucitrice, nata in Napoli, residente in Arienzo, figlia di Giuseppe e di Diglio Pasqualina». The certificate presented is that of the banns at Arienzo, posted on 20 and 27 September 1903, without opposition: the banns of Pubblicazioni 1903 act 15, already held in this house. Witnesses Clemente Guida, 43, and Simone d'Ambrosio, 50 (Alfonso Anzevino, the groom's father, is not a witness in this act); the act was read and signed by all, the groom «*Valerio Anzevino*» and the bride «*Porrino Pasqualina*» (as read, level 12; the act's text writes Pasqua). **The tie to this house** is by the banns act: the same groom, the same age and trade, the same bride and her parents, and both of the groom's parents named, Alfonso and «*Falco Marianna*», as in the banns (which tie them to Marianna Falco, b. 1851, daughter of Andrea Falco and Maria Carmela Buono, and her marriage of 1870). The act records the marriage and no later event; no margin note was seen on it.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 267 (right page), Matrimoni 1903 Parte I atto 16 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line, the father's line, the mother's name and the bride's name (z939), 15 November 2026"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "19 Dec 1904",
+"place": "Arienzo, Corso Caudino",
+"evidence": "Named as the father and the declarant in the birth act of 19 Dec 1904 (Nascite 1904 Parte I act 122, declared 22 December 1904): «*Valeriano Anzivino, di anni ventotto, calzolaio*», of Corso Caudino (read from the image at level 12, the house and the mother at level 13, z992).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 444 (left page, then the head of the right page), Nascite 1904 Parte I atto 122 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the house, the mother's name and the child's name (z992, z993), 15 November 2026"
 }
 ],
 "sources": [
@@ -81145,6 +81182,13 @@
 "place": "Arienzo",
 "evidence": "The bride in the marriage of 21 Oct 1903 (Matrimoni 1903 act 16): Porrino Pasqua, 27, born at Naples, resident at Arienzo, daughter of Giuseppe and of Diglio Pasqualina; she signs «Porrino Pasqualina» (as read).",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 267 (right page), Matrimoni 1903 Parte I atto 16 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line, the father's line, the mother's name and the bride's name (z939), 15 November 2026"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "19 Dec 1904",
+"place": "Arienzo, Corso Caudino",
+"evidence": "Named as the mother in the birth act of 19 Dec 1904 (Nascite 1904 Parte I act 122): «*Pasqua Porrino sua moglie legittima, sarta, seco lui convivente*», Corso Caudino (read from the image at level 13, z992).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 444 (left page, then the head of the right page), Nascite 1904 Parte I atto 122 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the house, the mother's name and the child's name (z992, z993), 15 November 2026"
 }
 ],
 "sources": [
