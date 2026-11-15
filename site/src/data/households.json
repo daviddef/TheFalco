@@ -7074,6 +7074,50 @@
     "place": "Arienzo",
     "evidence": "The other party to the banns of 22 Jan 1906 (Pubblicazioni 1906 act 2): Biondo Vincenzo, 29, contadino, of San Felice a Cancello, son of Clemente and Teresa Ferraro. No tie to any other house in this archive is claimed.",
     "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 623 (right page; leaf 624 is a second exposure of the same leaf), Pubblicazioni di matrimonio 1906 Parte I atto 2 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the bride's line and both parents' lines (z1043), 15 November 2026"
+   },
+   {
+    "hid": "pasquale-falco-maria-amalia-guida",
+    "household": "Pasquale Falco & Maria Amalia Guida",
+    "person": "Teresa Falco (of Pasquale, b. 1879)",
+    "role": "child",
+    "event": "marriage",
+    "date": "12 Feb 1906",
+    "place": "Arienzo, Casa Comunale",
+    "evidence": "Arienzo, *Matrimoni* **1906**, **Parte I, act 5** (name box «*Biondo Vincenzo / Falco Teresa*»; celebrated on **12 February 1906**, 11.10 a.m., Casa Comunale, before Alfonso de Nuptiis, assessore delegato con atto del Sindaco del diciotto agosto 1905): the groom «*Biondo Vincenzo*, di anni ventinove, contadino, nato in San Felice a Cancello, residente in San Felice a Cancello, figlio di Clemente, e di Teresa Ferraro» (level 13, z1064), and the bride «***Falco Teresa***, di anni **ventisei**, contadina, nata in **Arienzo**, residente in Arienzo, figlia **del fu Pasquale**, e **della fu Maria Amalia Guida**» (level 13, z1065). The documents are the certificate of the banns made at San Felice a Cancello, the first on 28 January and the second on 4 February 1906, and that of the banns made on the same days at Arienzo, without opposition: the banns of Pubblicazioni 1906 Parte I act 2, held in this house. Witnesses Alfonso Anzevino, 65, messo comunale, and Felice Sorice, 35, guardia municipale, both resident at Arienzo; the bride signed «*Teresina Falco*» and the witnesses signed, the groom declaring himself unable to write. **The tie to this house** is by both parents and the age: the father's forename Pasquale and the mother's own name «*Maria Amalia Guida*» written out, both marked «fu», the bride born and living at Arienzo, and her age of 26, which fits the birth of 29 Mar 1879 held in this house (ages are guessed, and this one is within a year); and by the banns, whose names and dates this act repeats. She is not the Falco Maria Teresa of Paolisi who is a bride in Pubblicazioni 1906 Parte II act 16: that woman's parents are Pasquale and Cioffi Angela.",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 651 (left page), Matrimoni 1906 Parte I atto 5 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line and the bride's line with both her parents (z1064, z1065), 15 November 2026"
+   },
+   {
+    "hid": "pasquale-falco-maria-amalia-guida",
+    "household": "Pasquale Falco & Maria Amalia Guida",
+    "person": "Pasquale Falco",
+    "role": "father",
+    "event": "named as dead in his daughter's marriage act",
+    "date": "12 Feb 1906",
+    "place": "Arienzo, Casa Comunale",
+    "evidence": "Named as the bride's father in the marriage act of 12 Feb 1906 (Matrimoni 1906 Parte I act 5): «*figlia del **fu Pasquale***», dead that day (level 13, z1065).",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 651 (left page), Matrimoni 1906 Parte I atto 5 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line and the bride's line with both her parents (z1064, z1065), 15 November 2026"
+   },
+   {
+    "hid": "pasquale-falco-maria-amalia-guida",
+    "household": "Pasquale Falco & Maria Amalia Guida",
+    "person": "Maria Amalia di Guida",
+    "role": "married in",
+    "event": "named as dead in her daughter's marriage act",
+    "date": "12 Feb 1906",
+    "place": "Arienzo, Casa Comunale",
+    "evidence": "Named as the bride's mother in the marriage act of 12 Feb 1906 (Matrimoni 1906 Parte I act 5): «*e **della fu Maria Amalia Guida***», dead that day (level 13, z1065).",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 651 (left page), Matrimoni 1906 Parte I atto 5 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line and the bride's line with both her parents (z1064, z1065), 15 November 2026"
+   },
+   {
+    "hid": "pasquale-falco-maria-amalia-guida",
+    "household": "Pasquale Falco & Maria Amalia Guida",
+    "person": "Vincenzo Biondo (of Clemente, groom in 1906)",
+    "role": "married in",
+    "event": "marriage",
+    "date": "12 Feb 1906",
+    "place": "Arienzo, Casa Comunale",
+    "evidence": "The groom in the marriage act of 12 Feb 1906 (Matrimoni 1906 Parte I act 5): Biondo Vincenzo, 29, contadino, born and living at San Felice a Cancello, son of Clemente and of Teresa Ferraro (level 13, z1064).",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 651 (left page), Matrimoni 1906 Parte I atto 5 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line and the bride's line with both her parents (z1064, z1065), 15 November 2026"
    }
   ]
  },
@@ -15834,6 +15878,50 @@
     "place": "Arienzo, Casa Comunale",
     "evidence": "The other party to the banns of 18 Aug 1905 (Pubblicazioni 1905 Parte I act 29): Concetta Ferriello, 22, cucitrice, born at San Felice a Cancello, daughter of the late Andrea and of Brigida Fierro. Her name is the one the later-hand margin of the groom's birth act of 1880 gives for his wife.",
     "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 499 (left page), Pubblicazioni di matrimonio 1905 Parte I atto 29 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line, both parents' lines and the document lines (z1012, z1016), 15 November 2026"
+   },
+   {
+    "hid": "carmino-falco-giovanna-pellone",
+    "household": "Carmino Falco & Giovanna Pellone",
+    "person": "Luigi Falco (of Carmine, b. 1880)",
+    "role": "child",
+    "event": "marriage",
+    "date": "17 Jan 1906",
+    "place": "Arienzo, Casa Comunale",
+    "evidence": "Arienzo, *Matrimoni* **1906**, **Parte I, act 2** (name box «*Falco Luigi / Ferriello Concetta*»; celebrated on **17 January 1906**, 11.50 a.m., Casa Comunale, before Alfonso de Nuptiis, assessore delegato con atto del Sindaco del diciotto agosto 1905): the groom «***Falco Luigi***, di anni **venticinque**, **calzolaio**, nato in Arienzo, residente in Arienzo, figlio di **Carmine**, residente in Arienzo, e di **Giovanna Pellone**, residente in Arienzo» (level 13, z1059), and the bride «*Ferriello Concetta*, di anni ventidue, cucitrice, nata in San Felice a Cancello, residente in Arienzo, figlia del fu Andrea, e di Brigida Fierro, residente in Arienzo» (level 13, z1060). The document is the certificate of the banns made at Arienzo, the first on 20 and the second on 27 August 1905, without opposition (level 13, z1062): the banns of Pubblicazioni 1905 Parte I act 29, held in this house. Witnesses «*il Signor Daniele Sorice*», 64, benestante, and Francesco Gagliardi, 44, commerciante, both resident at Arienzo (level 13, z1061); the groom and the bride signed «*Luigi Falco*» and «*Concetta Ferriello*», and before the signatures a note cancels the words «Gennaro d'Onofrio Teresa d'Onofrio», written by mistake (they are the couple of act 1, on the facing leaf). **The tie to this house** is by both parents' names, Carmine and Giovanna Pellone, both of Arienzo and neither marked «fu», as in this house's acts; by the age, 25 on 17 January 1906 for a birth on 16 June 1880 (act 67 of Nascite 1880); and by the banns, whose names, ages, trade, dates of posting and bride are those of this house's row of 18 August 1905. The marriage is the one the later-hand note in the margin of the 1880 birth act gives as «17 …/190…, Falco sposo Ferriello Concetta»: this act dates it 17 January 1906, so the note's day agrees; that birth act has not been re-opened by this archive and is not re-read here.",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 649 (right page), Matrimoni 1906 Parte I atto 2 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's and the bride's lines, the witnesses and the documents (z1059, z1060, z1061, z1062), 15 November 2026"
+   },
+   {
+    "hid": "carmino-falco-giovanna-pellone",
+    "household": "Carmino Falco & Giovanna Pellone",
+    "person": "Carmino Falco (of Corso Caudino)",
+    "role": "father",
+    "event": "named as father in his son's marriage act",
+    "date": "17 Jan 1906",
+    "place": "Arienzo, Casa Comunale",
+    "evidence": "Named as the groom's father in the marriage act of 17 Jan 1906 (Matrimoni 1906 Parte I act 2): «*figlio di **Carmine**, residente in Arienzo*», not marked «fu», so alive that day (level 13, z1059). The act gives no age or trade for him.",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 649 (right page), Matrimoni 1906 Parte I atto 2 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's and the bride's lines, the witnesses and the documents (z1059, z1060, z1061, z1062), 15 November 2026"
+   },
+   {
+    "hid": "carmino-falco-giovanna-pellone",
+    "household": "Carmino Falco & Giovanna Pellone",
+    "person": "Giovanna Pellone",
+    "role": "mother",
+    "event": "named as living in her son's marriage act",
+    "date": "17 Jan 1906",
+    "place": "Arienzo, Casa Comunale",
+    "evidence": "Named as the groom's mother in the marriage act of 17 Jan 1906 (Matrimoni 1906 Parte I act 2): «*e di **Giovanna Pellone**, residente in Arienzo*», not marked «fu», so alive that day (level 13, z1059).",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 649 (right page), Matrimoni 1906 Parte I atto 2 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's and the bride's lines, the witnesses and the documents (z1059, z1060, z1061, z1062), 15 November 2026"
+   },
+   {
+    "hid": "carmino-falco-giovanna-pellone",
+    "household": "Carmino Falco & Giovanna Pellone",
+    "person": "Concetta Ferriello (bride in 1905)",
+    "role": "married in",
+    "event": "marriage",
+    "date": "17 Jan 1906",
+    "place": "Arienzo, Casa Comunale",
+    "evidence": "The bride in the marriage act of 17 Jan 1906 (Matrimoni 1906 Parte I act 2): Ferriello Concetta, 22, cucitrice, born at San Felice a Cancello, living at Arienzo, daughter of the late Andrea and of Brigida Fierro (level 13, z1060).",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 649 (right page), Matrimoni 1906 Parte I atto 2 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's and the bride's lines, the witnesses and the documents (z1059, z1060, z1061, z1062), 15 November 2026"
    }
   ]
  },
@@ -18391,6 +18479,50 @@
     "place": "Arienzo",
     "evidence": "The other party to the banns of 13 Jun 1906 (Pubblicazioni 1906 act 11): Telese Pasquale, 34, caffettiere, born at Santamaria a Vico, resident at Arienzo, son of the late Alfonso and of Rosa Caprio. No tie to him beyond this act is claimed.",
     "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 629 (left page), Pubblicazioni di matrimonio 1906 Parte I atto 11 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the bride's lines, the mother's name and the groom's line (z1045), 15 November 2026"
+   },
+   {
+    "hid": "andrea-falco-maria-carmela-buono",
+    "household": "Andrea Falco & Maria Carmela Buono",
+    "person": "Andrea Anzivino (of Alfonso Anzivino and Marianna Falco, groom in 1906)",
+    "role": "grandchild",
+    "event": "marriage",
+    "date": "8 Feb 1906",
+    "place": "Arienzo, Casa Comunale",
+    "evidence": "Arienzo, *Matrimoni* **1906**, **Parte I, act 4** (name box «*Anzevino Andrea / Laudando Felicia*»; celebrated on **8 February 1906**, 11.20 a.m., Casa Comunale, before Alfonso de Nuptiis, assessore delegato con atto del Sindaco del diciotto agosto 1905): the groom «***Anzevino Andrea***, di anni **ventitre**, **barbiere**, nato in Arienzo, residente in Arienzo, figlio d'**Alfonso**, residente in Arienzo, e di **Marianna Falco**, residente in Arienzo» (level 13, z1063; the leaf is framed shifted to the left and the first letters of each line are cut), and the bride «*Laudando Felicia*, di anni ventitre, donna di casa, nata in Arienzo, residente in Arienzo, figlia di Biagio, e di Lucia Zimbardo». The document is the certificate of the banns made at Arienzo, the first on 28 January and the second on 4 February 1906, without opposition: the banns of Pubblicazioni 1906 Parte I act 3, requested on 25 January and held in this house. The parents of the groom consented, as the request for the banns shows; witnesses Michele Albero, 49, ufficiale giudiziario, and a second man, 47, scrivente, both resident at Arienzo; the groom signed «*Andrea Anzevino*» and the bride declared herself unable to write. **The tie to this house** is by both parents' names, Alfonso and Marianna Falco written out, both of Arienzo; by the groom's name, age and trade, which are those of the banns of 25 January (barbiere, 23); and by the dates of posting, which are those of the banns of that act. This house holds Marianna Falco (b. 25 Jul 1851, daughter of Andrea Falco and Maria Carmela Buono) and her marriage to Luigi Alfonso Paolo Anzivino, called Alfonso, on 7 Aug 1870; the act gives no date of birth for the groom and none is claimed.",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 650 (right page, framed shifted to the left), Matrimoni 1906 Parte I atto 4 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line and his parents (z1063), 15 November 2026"
+   },
+   {
+    "hid": "andrea-falco-maria-carmela-buono",
+    "household": "Andrea Falco & Maria Carmela Buono",
+    "person": "Marianna Falco (of Andrea, b. 1851)",
+    "role": "child",
+    "event": "named as living in her son's marriage act",
+    "date": "8 Feb 1906",
+    "place": "Arienzo, Casa Comunale",
+    "evidence": "Named as the groom's mother in the marriage act of 8 Feb 1906 (Matrimoni 1906 Parte I act 4): «*e di **Marianna Falco**, residente in Arienzo*», not marked «fu», so alive that day (level 13, z1063).",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 650 (right page, framed shifted to the left), Matrimoni 1906 Parte I atto 4 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line and his parents (z1063), 15 November 2026"
+   },
+   {
+    "hid": "andrea-falco-maria-carmela-buono",
+    "household": "Andrea Falco & Maria Carmela Buono",
+    "person": "Luigi Alfonso Paolo Anzivino",
+    "role": "married in",
+    "event": "named as father in his son's marriage act",
+    "date": "8 Feb 1906",
+    "place": "Arienzo, Casa Comunale",
+    "evidence": "Named as the groom's father in the marriage act of 8 Feb 1906 (Matrimoni 1906 Parte I act 4): «*figlio d'**Alfonso**, residente in Arienzo*», not marked «fu», so alive that day (level 13, z1063). The act gives no age or trade for him.",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 650 (right page, framed shifted to the left), Matrimoni 1906 Parte I atto 4 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line and his parents (z1063), 15 November 2026"
+   },
+   {
+    "hid": "andrea-falco-maria-carmela-buono",
+    "household": "Andrea Falco & Maria Carmela Buono",
+    "person": "Felicia Laudando (bride in 1906)",
+    "role": "married in",
+    "event": "marriage",
+    "date": "8 Feb 1906",
+    "place": "Arienzo, Casa Comunale",
+    "evidence": "The bride in the marriage act of 8 Feb 1906 (Matrimoni 1906 Parte I act 4): Laudando Felicia, 23, donna di casa, born and living at Arienzo, daughter of Biagio and of Lucia Zimbardo.",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 650 (right page, framed shifted to the left), Matrimoni 1906 Parte I atto 4 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line and his parents (z1063), 15 November 2026"
    }
   ]
  },
