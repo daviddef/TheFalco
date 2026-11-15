@@ -5389,5 +5389,53 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Nascite 1905 (Parte I, 135 acts; Parte II, no acts; annual index)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "539-590",
+  "walked": true,
+  "when": "1905 (MC55-RM9 images 539–590: Nascite 1905, Parte I acts 1–135 and Parte II without acts, both closed 1 January 1906, and the Indice annuale)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo birth register of 1905 (MC55-RM9 539–590), read in full**",
+  "got": "Images 539–590 read, both pages of every leaf: the cover (539) and the Parte I title page (540), 135 acts declared at Arienzo from 2 January to 30 December 1905 (541–586, with a second exposure at 554 of the leaf at 553), the closing note of Parte I (586), the Parte II title page (587), the closing note of Parte II, which holds no act (588), and the annual index (588–590, the page at 589 being a second exposure of 588), whose only Falco is the child of act 48. One act names a Falco as the father and is placed. Act 48 (declared 10 April 1905): Giovanni, born on 8 April 1905 in via Orticelli to Crescenzo Falco, 23, contadino, and Maria Rosa Martone, with a later marginal note of his death; the act had been read earlier by delegation and was re-opened from the image at level 13, and it now stands in the house of Crescenzo Falco and Maria Rosa Martone. Two Falco witnesses are seen and left unplaced because no street, relation or wife ties either to a house: Giuseppe Falco, 30, contadino, at act 48, and Pasquale Falco, 30, trainante, at act 84. The other 133 acts name no Falco in a father, mother, declarant, witness or margin cell. Registrar of the year: Alfonso de Nuptiis, assessore delegato, with the sindaco Nicola Finelli signing some acts; many declarations are made by the midwife Giovanna Lettieri for husbands who had emigrated to New York; the Pretore adds visas in the margins.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/crescenzo-falco-of-crescenzo-falco-maria-rosa-martone/",
+    "Crescenzo Falco"
+   ],
+   [
+    "/people/giovanni-falco-of-crescenzo-falco-maria-rosa-martone/",
+    "Giovanni Falco (of Crescenzo, b. 1905)"
+   ],
+   [
+    "/people/maria-rosa-martone/",
+    "Maria Rosa Martone"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Births",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
