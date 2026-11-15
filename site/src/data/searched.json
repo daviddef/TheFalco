@@ -4553,5 +4553,57 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Pubblicazioni di matrimonio 1902 (Parte I of 11 acts, Parte II of 9 acts)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "130-143",
+  "walked": true,
+  "when": "1902 (MC55-RM9 leaves 130–143: Pubblicazioni di matrimonio 1902, cover label and title page, Parte I acts 1–11 closed 1 January 1903, Parte II title and acts 1–9 (banns requested by other comuni) closed 1 January 1903)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo marriage-banns register of 1902 (MC55-RM9 130–143), read in full**",
+  "got": "Images 130–143 read, both pages of every leaf; the two parts hold 11 and 9 acts, as their closing notes say. Falco is in two acts. Act 8 of Parte I (14 June 1902) is the banns of Pietro Liparulo and Carmela Fuccio: the bride's mother is written «Falco Andreana» and her father is Raffaele, a sarto; the bride is the child of that pair born at the end of 1881 (the margin of her birth act names the same groom), and the act shows her mother alive and not present to consent. Act 9 of Parte I (20 August 1902) is the banns of Francesco Esposito and Angela Rosa Falco, daughter of Carminantonio and Giovanna Arricale, already placed from a delegated reading and read again here. Both are in their households with the parents' names, the age or the groom as independent ties. No Falco in any act of Parte II. The marriage act of Liparulo and Fuccio (Matrimoni 1902 act 11, dated 15 September, not 11 as its birth-act margin has it) was read in the next register and will be closed with that leg.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/carmela-fuccio-2/",
+    "Carmela Fuccio (of Raffaele Fuccio and Andreana Falco, b. 1881)"
+   ],
+   [
+    "/people/pietro-liparulo/",
+    "Pietro Liparulo (of Gennaro)"
+   ],
+   [
+    "/people/andreana-falco-of-andrea-falco-maria-carmela-buono/",
+    "Andreana Falco (of Andrea, b. 1854)"
+   ],
+   [
+    "/people/angela-rosa-falco/",
+    "Angela Rosa Falco"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Marriages",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
