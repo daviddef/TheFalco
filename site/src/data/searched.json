@@ -6153,5 +6153,49 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "walked": true,
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "book": "Pubblicazioni di matrimonio 1908 (Parte I, 34 acts; Parte II, 9 acts)",
+  "pages": "910-936",
+  "when": "1908 (MC55-RM9 images 910–936: Pubblicazioni di matrimonio 1908, Parte I acts 1–34 and Parte II acts 1–9, both closed 1 January 1909, Pretore's visa 14 January 1909)",
+  "what": "**Every act of the Arienzo marriage-banns register of 1908 (MC55-RM9 910–936), read in full**",
+  "got": "Images 910–936 read, both pages of every leaf: the cover (910) and the title page of Parte I (911, forty-four folios, visaed on 31 December 1907), Parte I, 34 printed-form requests for banns drawn from 11 January to 12 December 1908 (912–929, two acts to a page), the close of Parte I, «contenente trentaquattro atti», on 1 January 1909 (929), the title page of Parte II (930), and Parte II, nine acts, each the transcription of a request from another comune with the Arienzo postings in the margin, from 26 January to 5 December 1908 (931–936), closed on 1 January 1909. The register has no annual index. Two leaves are second exposures of the opening before them and add no pages (921 of 920, 933 of 932). The registrar is the sindaco Marcellino Guerriero to 25 June, Tommaso Aquarulo as assessore anziano from March, Biagio Diglio as consigliere anziano on 25 July and 1 August, Giacomo De Falco as sindaco in the head and the signature of act 19 (22 August), and Alfonso de Nuptiis as assessore delegato for most acts from 1 September. Two acts name a Falco as the mother of a party. Parte I act 16 (26 June 1908): Morgillo Luciano, 32, colono, of San Felice a Cancello, son of Pietro and Rosa Merola, and Ferrara Agnese, 25, contadina, of Arienzo, daughter of Giovanni, 60, colono, and Maria Falco, written without «fu» (the line read at level 13, z1130 and z1131); it is placed in the house of Matteo Falco and Alessandra Crisci on both parents written out, the daughter's age falling in the gap between that couple's children of 1879 and 1885, and the name Agnese of the child who died in 1879 (a likelihood, not a proof), and it is entered there together with the marriage act of 19 July 1908 (Matrimoni 1908 act 20), read from the image in the next leg. Parte II act 2 (14 March 1908): Morgillo Pasquale, a minor, of Arienzo, son of Francesco and Carfora Giuseppa, and Di Caprio Vincenza, of Maddaloni, resident at Santa Maria a Vico, daughter of the late Saverio and Caterina Falco, contadina, resident at Santa Maria a Vico (level 13, z1132); she is of another comune and no independent tie to any Arienzo Falco house is found, so no household row is written and no person page claims her. A third sighting is a registrar only: Giacomo De Falco, sindaco, in the head and signature of Parte I act 19, which is no party, parent or witness. Searched in the terms Falco, De Falco and Falcone, and the catalogue's coverage check for the family passed with those three terms. Near-names seen and not counted: Annecchino (act 7, the mother of a Forchia bride, no tie to the Annecchino line claimed), Carfora (acts 14, 15, 28, 29 and 32, and the groom's mother of Parte II act 2), Fuccio (act 23, and Parte II act 7, no tie to the Fuccio and Falco marriage claimed), Rivetti (acts 24 and 32), Arricale (acts 12 and 25), Maione, Ferraro (act 23, a groom's mother), Zucci (act 10), Diglio and Morgillo among many. The other acts name no Falco in a groom, bride, parent or witness cell.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/agnese-ferrara-of-matteo-falco-alessandra-crisci/",
+    "Agnese Ferrara (of Giovanni Ferraro and Maria Falco, bride in 1908)"
+   ],
+   [
+    "/people/luciano-morgillo/",
+    "Luciano Morgillo (of Pietro and Rosa Merola, groom in 1908)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Marriage banns",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
