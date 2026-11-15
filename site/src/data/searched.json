@@ -5437,5 +5437,29 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Cittadinanza 1905 (2 acts)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "591-593",
+  "walked": true,
+  "when": "1905 (MC55-RM9 images 591–593: Cittadinanza 1905, two acts, closed 1 January 1906)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo citizenship register of 1905 (MC55-RM9 591–593), read in full**",
+  "got": "Images 591–593 read, both pages of every leaf: the cover (591), the title page with the Tribunale's authorisation of 15 October 1904 (592), and the two acts of the year (593), each a declaration of a change of residence to Arienzo, one of 7 March 1905 and one of 9 August 1905, both by men born at San Felice a Cancello, with the closing note of 1 January 1906 and the Pretore's visas. No Falco appears as declarant, witness, signature or margin cell; the witnesses are the municipal officers Alfonso Anzevino, Simone d'Ambrosio and Clemente Guida. Searched as Falco, De Falco and Falcone (the catalogue's terms; cover exits 0). Nothing was placed in any household.",
+  "outcome": "nothing",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Citizenship",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
