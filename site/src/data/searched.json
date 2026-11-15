@@ -4893,5 +4893,97 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Cittadinanze 1903 (seven acts)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "273-277",
+  "walked": true,
+  "when": "1903 (MC55-RM9 leaves 273–277: the cover label and title page of the Cittadinanze register, seven acts of 1903, the closing note of 1 January 1904)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo citizenship register of 1903 (MC55-RM9 273–277), read in full**",
+  "got": "Images 273–277 read, both pages of every leaf. The register holds seven acts, all transfers of residence to Arienzo from Santa Maria a Vico (acts 1 to 6) and San Felice a Cancello (act 7); it closes on 1 January 1904, with the Pretore's visa of 15 January 1904. No Falco and no near-name in any cell.",
+  "outcome": "nothing",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Citizenship",
+   "Falco",
+   "full walk"
+  ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Nascite 1903 (Parte I of 111 acts, Parte II of 2 acts, annual index)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "278-321",
+  "walked": true,
+  "when": "1903 (MC55-RM9 leaves 278–321: Nascite 1903, cover, title leaf with the vidimazione, Parte I acts 1–111 closed 1 January 1904, Parte II of two acts, and the annual index)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo birth register of 1903 (MC55-RM9 278–321), read in full**",
+  "got": "Images 278–321 read, both pages of every leaf; 111 acts in Parte I and two in Parte II (two late or rectified entries ordered by the Tribunale of Santa Maria Capua Vetere, neither of them a Falco), as the two closing notes and the annual index say. Image 296 is a second exposure of the opening on 295 and is not counted as new pages. Falco as a child: one, act 87 (22 Oct 1903, Corso Caudino 33), a natural daughter of Carmela Falco, 33, contadina, no father named; the household was first made from a delegated reading and is now re-opened by the archive's own hand at level 13 (the day of birth, the street and number, and the witness's age are corrected; the mother is attached to no other Carmela Falco). Falco as a mother of a child under another name: act 2 (1 Jan 1903), Maria Arricale, daughter of Raffaele Arricale and Costanza Falco, placed in the Luigi Falco and Carolina Cimmino house by both parents' names, the trade and the street; act 11 (11 Feb 1903), Genoveffa Emilia Martone, daughter of Francescantonio Martone, commerciante, and Carmela Falco, placed in the Martone and Falco house by the compound forename, the trade, the street and the mother's full name; act 69 (22 Aug 1903, Corso Caudino 73), Arturo Teodoro Porpora, born to Angela Falco, wife of Stefano Porpora, professore di musica, domiciled in New York, the birth reported by the levatrice, and left UNPLACED because the act names neither of her parents. Falco as witness only: Giovanni Falco, 54, contadino (act 29), Gioacchino Falco, 55, contadino (act 75) and Pasquale Falco, 32, trainante (act 76), none placed. The annual index lists one Falco line, Falco Paola 87, because it files each act under the child; the other Falco-mother acts are found only by the walk.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/maria-arricale-of-luigi-falco-carolina-cimmino-2/",
+    "Maria Arricale (of Raffaele Arricale and Costanza Falco, b. 1903)"
+   ],
+   [
+    "/people/raffaele-arricale-of-luigi-falco-carolina-cimmino/",
+    "Raffaele Arricale"
+   ],
+   [
+    "/people/costanza-falco-of-luigi-falco-carolina-cimmino-2/",
+    "Costanza Falco (of Luigi, b. 1862)"
+   ],
+   [
+    "/people/genoveffa-emilia-martone/",
+    "Genoveffa Emilia Martone (of Francescantonio Martone and Carmela Falco, b. 1903)"
+   ],
+   [
+    "/people/francescantonio-martone/",
+    "Francescantonio Martone (of Corso Caudino, 1891)"
+   ],
+   [
+    "/people/carmela-falco-of-francescantonio-martone-carmela-fa/",
+    "Carmela Falco (wife of Francescantonio Martone, 1891)"
+   ],
+   [
+    "/people/carmela-paola-falco/",
+    "Carmela Paola Falco (b. 1903, d. 1904)"
+   ],
+   [
+    "/people/carmela-falco-of-carmela-falco-unmarried-1903/",
+    "Carmela Falco"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Births",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
