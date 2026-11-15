@@ -5325,5 +5325,69 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Matrimoni 1905 (Parte I, 36 acts; Parte II, 2 transcriptions; annual index)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "513-538",
+  "walked": true,
+  "when": "1905 (MC55-RM9 leaves 513–538: Matrimoni 1905, Parte I acts 1–36 and Parte II acts 1–2, both parts closed 1 January 1906, and the Indice annuale)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo marriage register of 1905 (MC55-RM9 513–538), read in full**",
+  "got": "Images 513–538 read, both pages of every leaf: the title page of Parte I (513), 36 acts celebrated at Arienzo from 7 January to 27 December 1905 (514–532), the Parte II title page (533) with two transcriptions, one of a marriage celebrated at the Italian consulate at Marseille in 1904 and one of a marriage celebrated at Sant'Elia a Pianisi in March 1905 (534–535), both parts closed on 1 January 1906 (532, 536), and the annual index (537–538), whose only Falco is the groom of act 33. Three acts name a Falco and are placed, each as the wedding of banns already held and by independent ties, not by the name alone. Act 2 (8 January 1905): Arcangelo Crisci and Antonia Morgillo, the groom's mother Filomena Falco and the bride's mother Vincenza Falco both living and both fathers dead, in the house of Matteo Falco and Alessandra Crisci, which already held the banns of 21 November 1904. Act 8 (28 April 1905): Nicola Biondo, widower of Clementina Falco, and Maria Nicoletta Celentano, the wedding of the banns of 15 April 1905, the groom's age read 52 here against 42 in the banns. Act 33 (16 November 1905): Angelo Falco, 24, calzolaio, son of the late Vincenzo and of Angela Pellone, and Maria Luigia Gagliardi, whose mother is written De Lucia; this act settles the join of the groom to the head of the house of Angelo Falco and Maria Luigia Gagliardi, by the wife's full name and the daughter born eleven months later. The other 33 acts of Parte I and both acts of Parte II name no Falco in a groom, bride, parent, witness or margin cell. Registrar of the year: Alfonso de Nuptiis, assessore delegato, with the sindaco Nicola Finelli signing some acts; witnesses mostly Alfonso Anzevino, 65, messo comunale, with Clemente Guida, 45, or Simone d'Ambrosio, 51; the Pretore, V. Santulli, adds visas in the margins.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/arcangelo-lorenzo-crisci/",
+    "Arcangelo Lorenzo Crisci (of Antonio Crisci and Filomena Falco, b. 1872)"
+   ],
+   [
+    "/people/antonia-morgillo-of-matteo-falco-alessandra-crisci/",
+    "Antonia Morgillo (of Carmine Morgillo and Vincenza Falco, bride in 1904)"
+   ],
+   [
+    "/people/nicola-biondo-2/",
+    "Nicola Biondo"
+   ],
+   [
+    "/people/clementina-falco-of-matteo-falco-alessandra-crisci/",
+    "Clementina Falco (of Matteo, b. 1848)"
+   ],
+   [
+    "/people/maria-nicoletta-celentano/",
+    "Maria Nicoletta Celentano (bride in 1905)"
+   ],
+   [
+    "/people/angelo-falco-of-angelo-falco-maria-luigia-gagliard/",
+    "Angelo Falco"
+   ],
+   [
+    "/people/maria-luigia-gagliardi-of-angelo-falco-annamaria-cimmino-cor/",
+    "Maria Luigia Gagliardi (bride in 1905)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Marriages",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
