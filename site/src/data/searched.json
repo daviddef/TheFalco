@@ -6841,5 +6841,46 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "antenati",
+  "book": "Matrimoni 1906 (San Martino Valle Caudina; images 5-9 only)",
+  "bookPlace": "San Martino Valle Caudina civil registry (Archivio di Stato di Avellino)",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua608134",
+  "pages": "5-9",
+  "walked": false,
+  "when": "1906 (San Martino Valle Caudina, Matrimoni 1906, acts 2 to 6, 18 to 27 January 1906)",
+  "src": "Antenati, Archivio di Stato di Avellino, Stato civile italiano, San Martino Valle Caudina, Matrimoni 1906 (an_ua608134, 75 images). Images 5 to 9 only were opened, to find one marriage whose banns were requested at Arienzo; the rest of the volume was not read.",
+  "what": "**One marriage of a Falco son: Angelo Crisci, son of Pasquale Crisci and Francesca Falco, at the bride's comune, 25 January 1906**",
+  "got": "Image 8 is act 5, drawn 25 January 1906, 11.30 a.m., before the sindaco Generoso Vitagliano: Angelo Crisci, celibe, contadino, born at Arienzo, son of Pasquale and of Falco Francesca, both of Arienzo, married Maria Assunta Caserta, nubile, 31, contadina, born and living at San Martino, daughter of the late Pompilio and of Antonia Testa. The act cites the Arienzo banns by date (31 December 1905 and the seventh of the month) and the groom's parents' consent. It was read from the full page at 2400 px wide and the two margins and the right-hand edge were cropped; the groom's age cell and one witness's age were not read. Entered in the Pasquale Crisci and Francesca Falco house. Act 2 (image 5) was read in full and names no Falco; acts 3, 4 and 6 (images 6, 7 and 9) were read only as far as the name box and the parties' opening lines, which name no Falco.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/angelo-crisci-of-pasquale-crisci-francesca-falco/",
+    "Angelo Crisci (of Pasquale, b. 1882)"
+   ],
+   [
+    "/people/maria-assunta-caserta/",
+    "Maria Assunta Caserta (bride in 1905)"
+   ]
+  ],
+  "tags": [
+   "Antenati",
+   "San Martino Valle Caudina",
+   "Marriage",
+   "Falco",
+   "Crisci"
+  ]
  }
 ]
