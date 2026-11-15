@@ -4760,6 +4760,13 @@
 "place": "Arienzo",
 "evidence": "«*1.° **BIONDO NICOLA**, di anni **VENTISEI**, ***secatore***, nato in ARIENZO, residente in Arienzo, figlio di **SILVESTRO**, residente in Arienzo, e di **MARIA MORGILLO**, residente in Arienzo*» — same act. A **sawyer**, born about 1852.\n\n**His parents are new to this archive**, and **both were alive in September 1878**, neither marked *fu*. *The family tree carries a Nicola Biondo born 1852 married to Clementina Falco and nothing else about him; this act gives him a trade and a generation above.*",
 "ark": "3:1:3QS7-997F-M728 — FamilySearch MC55-VNL img 54 left page, Arienzo Matrimoni 1878 Parte I act 13 — READ FROM THE IMAGE"
+},
+{
+"event": "marriage banns (second marriage)",
+"date": "15 Apr 1905",
+"place": "Arienzo, Casa Comunale",
+"evidence": "Arienzo, *Pubblicazioni di matrimonio* **1905**, **Parte I, act 13** (name box «*Biondo Nicola / Celentano Maria Nicoletta*»; the request taken on **15 April 1905**, 1.20 p.m., Casa Comunale, before Alfonso de Nuptiis, assessore delegato con atto del Sindaco del trenta ottobre 1902; posted on Sunday 16 April, again on 23 April, and left up until 27 April): the groom «***Biondo Nicola***, di anni **quarantadue**, **carpentiere**, residente in Arienzo, figlio del fu **Silvestro** … e figlio della fu **Morgillo Maria**» (level 13, z1011), born at Arienzo, and the bride «***Celentano Maria Nicoletta***, di anni cinquantatre, donna di casa, residente in Arienzo, figlia del fu Giuseppe … e figlia della fu Bernardo Maria Luigia», born at Arienzo. Both parties are widowed. The documents are the copies of both birth acts issued by the registrar the day before, «*la copia dell'atto di morte di **Clementina Falco**, già moglie dello sposo, rilasciata pure da me in data di ieri*» (level 13, z1010), and the copy of the death act of Biagio Arricale, «*già marito della sposa*», issued by the Ufficiale dello Stato Civile of San Felice a Cancello on 11 April, from which it appears that he died there on 30 January 1897 (level 13, z1010). Witnesses Alfonso Anzevino, 65, and Clemente Guida, 45, messi comunali; the act was read to those present and signed by the two witnesses, the parties declaring themselves illiterate. In the margin, the Pretore's visa «*Visto in Arienzo, oggi 7 maggio 1905*». **The tie to this house** is by the dead wife and her husband's name: the groom is a widower whose former wife was «Clementina Falco», the death act issued by the Arienzo registrar that day, and he is called Nicola Biondo; this house holds Clementina Falco, daughter of Matteo Falco and Alessandra Crisci, her marriage to Nicola Biondo on 1 September 1878 (Matrimoni 1878 act 13) and her death at Arienzo on 20 September 1900, written there as «moglie di Nicola Biondo» (Morti 1900 act 70). The groom's parents are the same names as in the 1878 marriage act, Silvestro and Maria Morgillo, then both living and now both written «fu» (the banns read «figlio del fu Silvestro e della fu Morgillo Maria», level 13, z1011). **What disagrees is the age**: «quarantadue» here (level 13, z1011) against «ventisei» in 1878, which would be about 53 in 1905; ages are guessed in these acts, and this one is eleven years off, so the age is not counted as a tie. The trade is «carpentiere» here and «secatore» in 1878, and is not counted either. The dead wife's death act is not dated or described in the banns; the house's own act of 20 Sep 1900 is the only death of a Clementina Falco, wife of Nicola Biondo, that has been read. The banns give no date of birth for either party and none is claimed; the marriage itself is not yet read.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 491 (left page), Pubblicazioni di matrimonio 1905 Parte I atto 13 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's and bride's lines and the document lines naming the dead wife and the bride's former husband (z1010, z1011), 15 November 2026"
 }
 ],
 "sources": [
@@ -7504,6 +7511,32 @@
 "dateFrom": {
 "d": "act"
 }
+},
+{
+"slug": "maria-nicoletta-celentano",
+"name": "Maria Nicoletta Celentano (bride in 1905)",
+"surname": "CELENTANO",
+"household": "Matteo Falco & Alessandra Crisci",
+"hid": "matteo-falco-alessandra-crisci",
+"role": "married in",
+"events": [
+{
+"event": "marriage banns",
+"date": "15 Apr 1905",
+"place": "Arienzo, Casa Comunale",
+"evidence": "The other party to the banns of 15 Apr 1905 (Pubblicazioni 1905 Parte I act 13): Maria Nicoletta Celentano, 53, donna di casa, born at Arienzo, daughter of the late Giuseppe and the late Maria Luigia Bernardo, widow of Biagio Arricale, who died at San Felice a Cancello on 30 January 1897. No tie to any other house is claimed.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 491 (left page), Pubblicazioni di matrimonio 1905 Parte I atto 13 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's and bride's lines and the document lines naming the dead wife and the bride's former husband (z1010, z1011), 15 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "alessandro-cimmino",
@@ -34821,6 +34854,13 @@
 "place": "Arienzo, via Orticelli 20",
 "evidence": "Arienzo, *Morti* **1900**, **Parte I, act 70** (21 September 1900, 9.20 a.m., Casa Comunale, before Pasquale Gesue, assessore delegato): the declarants Giuseppe Crisci, 56, calzolaio, and Carmine Basilicata (surname as read), 30, contadino, declared that at 5.10 p.m. of the day before, in via Orticelli no. 20, «*è morta **Clementina Falco**, di anni **cinquantadue**, contadina, residente in Arienzo, nata in Arienzo, da **fu Matteo**, … e dalla **fu Alessandra Crisci**, … **moglie di Nicola Biondo***» (level 13, z868; name box «Falco Clementina», number «Settanta»). Witnesses Alfonso Anzevino and Raffaele Troisi (z869). **Why she is this household's child.** The household already holds her baptism-year birth (December 1848), her marriage to Nicola Biondo on 1 September 1878 and the Biondo grandchildren who died or were born at via Orticelli 20; this act gives the same father's and mother's names, the same husband and the same address, and fifty-two in 1900 agrees with born 1848 (ages are guessed). Until 13 November 2026 this row rested on two delegated transcriptions (V471) and was marked not yet re-opened by the archive's own hand; it has now been re-opened and the reading stands.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2882 (left page), Morti 1900 atto 70 — READ FROM THE IMAGE, level 12, with the deceased's line, parents and husband zoomed at level 13 (z868, z869), 13 November 2026; first read by a delegated reader and independently by a second (V471)"
+},
+{
+"event": "named as the dead first wife in her widower's second banns",
+"date": "15 Apr 1905",
+"place": "Arienzo, Casa Comunale",
+"evidence": "Named as the groom's former wife in his second marriage banns of 15 Apr 1905 (Pubblicazioni 1905 Parte I act 13): «*la copia dell'atto di morte di Clementina Falco, già moglie dello sposo, rilasciata pure da me in data di ieri*» (level 13, z1010); no day, age or street of her death is given in the banns, and this house holds her death act of 20 Sep 1900.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 491 (left page), Pubblicazioni di matrimonio 1905 Parte I atto 13 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's and bride's lines and the document lines naming the dead wife and the bride's former husband (z1010, z1011), 15 November 2026"
 }
 ],
 "sources": [
