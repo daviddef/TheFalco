@@ -630,12 +630,33 @@ _TREE_YIELDED = []   # (slug, field, what the registers said, what the tree said
 merge = {}      # tree id -> household key
 basis = {}      # tree id -> why
 refused = []
+# A "split" in person-joins.json is a human saying two records are NOT one
+# person although a name would join them. The name-alone pass reads it. It is
+# the exact opposite of a join and carries its reason like one; a key that does
+# not exist is a hard stop. (Added 15 Nov 2026: the tree's «Filomena Falco
+# (Crisci)», born 1839, answers to «Filomena Crisci» in forms(), and a bride of
+# 1906 with that name and no birth act would have taken her address.)
+_SPLIT = set()
+for _j in _pj:
+    if _j.get("kind") != "split":
+        continue
+    if _j["record"] not in hh_people:
+        raise SystemExit(f"person-joins.json: no household record «{_j['record']}» — fix the key")
+    if str(_j["tree"]) not in {str(i) for i in by_id}:
+        raise SystemExit(f"person-joins.json: no tree person {_j['tree']} — fix the id")
+    if not _j.get("reason"):
+        raise SystemExit("person-joins.json: a split carries its reason")
+    _SPLIT.add((str(_j["tree"]), _j["record"]))
+
 for nm in sorted(tr_by_name):
     tids = sorted(tr_by_name[nm] - set(merge))
     hks = sorted((hh_by_name.get(nm) or set()) - set(merge.values()))
     if not tids or len(hks) != 1:
         continue
     hk = hks[0]
+    tids = [t for t in tids if (str(t), hk) not in _SPLIT]
+    if not tids:
+        continue
     hy = years(*[e.get("date") for e in hh_people[hk]["events"]],
                *[e.get("evidence") for e in hh_people[hk]["events"]])
     scored = [(len(hy & years(by_id[t].get("b"), by_id[t].get("d"))), t) for t in tids]

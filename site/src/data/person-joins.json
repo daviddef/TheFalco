@@ -89,7 +89,7 @@
    "kind": "child-head",
    "child": "vincenzo-falco-andreana-crisci|Andrea Falco",
    "head": "andrea-falco-maria-carmela-buono|Andrea Falco (of Maria Carmela Buono)",
-   "reason": "The household's Andrea married Maria Carmela Buono on 24 May 1846 (civil; church 21 May); the Nati of 1857 and 1861 name an Andrea Falco, calessiere, married to Carmela Bruno/Buono, on the Camellara. The join rests on the husband's and wife's names together; no act yet says «figlio di Vincenzo» of the calessiere himself."
+   "reason": "The household's Andrea married Maria Carmela Buono on 24 May 1846 (civil; church 21 May); the Nati of 1857 and 1861 name an Andrea Falco, calessiere, married to Carmela Bruno/Buono, on the Camellara. The join rests on the husband's and wife's names together; no act yet says «figlio di Vincenzo» of the calessiere himself. CONFIRMED BY HIS DEATH ACT, 15 March 1901 (Morti 1901 Parte I act 19): «Andrea Falco, di anni settantanove, possidente … dal fu Vincenzo … e dalla fu Andreana Crisci … marito di Carmela Buono» — the filiation the join lacked, with the wife's name and an age that is exact for 1 December 1821."
   },
   {
    "kind": "child-head",
@@ -174,6 +174,24 @@
    "tree": 4512473,
    "record": "gioacchino-falco-strada-camellara|Matteo Falco (d. 1880)",
    "reason": "The register's Matteo Falco died at Arienzo on 7 April 1880 (Morti 1880 act 31), son of the late Gioacchino Falco and the late Vittoria Cimmino, husband of Agnese di Lucio, aged seventy-three — so born about 1807. The tree's Matteo Falco was born 1807, died 7 April 1880 at Arienzo, son of Gioacchino Falco and Vittoria Cimmino, husband of Agnese di Lucia. The day, the place, both parents' names, the wife's name and the age all agree, and nothing in either record contradicts the other. The builder did not join them because the register's name carries a qualifier and the household's father is a second record of the tree's Gioacchino, so no name test could count. Not the Matteo Falco of the Contrada Camellara (b. 1810, d. 12 Dec 1867, husband of Alessandra Crisci)."
+  },
+  {
+   "kind": "child-head",
+   "child": "raffaele-falco-costanza-maione|Carmine Antonio (Carminantonio) Falco (of Raffaele, b. 1901)",
+   "head": "carmine-antonio-falco-filomena-annecchino|Carmine Antonio (Carminantonio) Falco",
+   "reason": "Nascite 1901 Parte I act 8 (declared 13 Jan 1901): Carminantonio, born 11 Jan 1901 at Arienzo, via Camellara, to Raffaele Falco, contadino, and Costanza Maione. The Italian passport of Carminantonio Falco of Forchia (Questura di Benevento, 5 Aug 1976) gives his birth as Arienzo, 11/1/1901: the day and the town of this act, and a name that is the paternal grandfather's. The passport entry is the one already read and published in his own house. The act names no later event."
+  },
+  {
+   "kind": "child-head",
+   "child": "angelo-falco-annamaria-cimmino-corso-caudino|Angelo Falco (of Vincenzo, b. 1880)",
+   "head": "angelo-falco-maria-luigia-gagliardi|Angelo Falco",
+   "reason": "Matrimoni 1905 Parte I act 33 (16 Nov 1905): Falco Angelo, 24, calzolaio, born at Arienzo, son of the late Vincenzo and of Angela Pellone, married Gagliardi Maria Luigia, 24, daughter of Carmine and Maria Grazia De Lucia; the banns of 2 Sep 1905 (Pubblicazioni 1905 act 33) tie the groom to the birth of 24 Dec 1880 by his parents' names, the dead father and the age. The head of the house Angelo Falco & Maria Luigia Gagliardi is the husband of a Maria Luigia Gagliardi, and their daughter Angela was born on 12 Oct 1906, eleven months after the wedding (Nascite 1906 act 94, delegated reading, not yet re-opened). The wife's three names are the tie; no later event is claimed."
+  },
+  {
+   "kind": "split",
+   "tree": "4512427",
+   "record": "luigi-falco-maria-perrotta|Filomena Crisci (of Antonio Crisci and Barbera Falco, bride in 1906)",
+   "reason": "The tree's Filomena Falco (Crisci), born 1839 to Matteo Falco and Alessandra Crisci, married Antonio Crisci, 45, son of Arcangelo (Matrimoni 1870 act 19). The bride of Pubblicazioni 1906 Parte I act 21 is Crisci Filomena, 20, daughter of the late Antonio Crisci and of the living Barbara Falco of Maddaloni: a different mother, a different generation, and a different Antonio (the father of the Barbera Falco union is 28 in 1877, son of Francesco). forms() lets «Filomena Falco (Crisci)» answer to «Filomena Crisci»; this entry stops the name-alone pass from joining them."
   }
  ]
 }

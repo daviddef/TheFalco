@@ -111,12 +111,22 @@
    "lon": 14.4971,
    "region": "campania"
   },
-  "Arienzo, Corso Caudino 28": {
+  "Arienzo, Corso Caudino 12": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Corso Caudino 33": {
    "lat": 41.0243,
    "lon": 14.4971,
    "region": "campania"
   },
   "Arienzo, Corso Caudino 54": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Corso Caudino 55": {
    "lat": 41.0243,
    "lon": 14.4971,
    "region": "campania"
@@ -207,6 +217,11 @@
    "region": "campania"
   },
   "Arienzo, Corso Caudino 85": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, Corso Caudino 86": {
    "lat": 41.0243,
    "lon": 14.4971,
    "region": "campania"
@@ -531,6 +546,11 @@
    "lon": 14.4971,
    "region": "campania"
   },
+  "Arienzo, via Camellara 13": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
   "Arienzo, via Camellara 14": {
    "lat": 41.0243,
    "lon": 14.4971,
@@ -557,6 +577,21 @@
    "region": "campania"
   },
   "Arienzo, via Camellara 20": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Camellara 24": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Camellara 27": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Camellara 29": {
    "lat": 41.0243,
    "lon": 14.4971,
    "region": "campania"
@@ -666,6 +701,11 @@
    "lon": 14.4971,
    "region": "campania"
   },
+  "Arienzo, via Crisci 2": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
   "Arienzo, via Maddalena 2": {
    "lat": 41.0243,
    "lon": 14.4971,
@@ -751,6 +791,11 @@
    "lon": 14.4971,
    "region": "campania"
   },
+  "Arienzo, via Sant'Andrea 15": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
   "Arienzo, via Sant'Andrea 18": {
    "lat": 41.0243,
    "lon": 14.4971,
@@ -761,12 +806,27 @@
    "lon": 14.4971,
    "region": "campania"
   },
+  "Arienzo, via Sant'Andrea 20": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
   "Arienzo, via Sant'Andrea 4": {
    "lat": 41.0243,
    "lon": 14.4971,
    "region": "campania"
   },
+  "Arienzo, via Sant'Andrea 5": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
   "Arienzo, via Sant'Andrea 9": {
+   "lat": 41.0243,
+   "lon": 14.4971,
+   "region": "campania"
+  },
+  "Arienzo, via Torrette 5": {
    "lat": 41.0243,
    "lon": 14.4971,
    "region": "campania"
@@ -1009,6 +1069,11 @@
   "San Felice, Caserta, Campania, Italia": {
    "lat": 41.0124,
    "lon": 14.483,
+   "region": "campania"
+  },
+  "San Martino Valle Caudina, Casa Comunale": {
+   "lat": 41.02,
+   "lon": 14.65,
    "region": "campania"
   },
   "Santa Maria A Vico, Nola, Terra Di Lavoro": {
