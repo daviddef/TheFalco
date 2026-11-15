@@ -6017,5 +6017,73 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "walked": true,
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "book": "Cittadinanza 1907 (2 acts; title page and close)",
+  "pages": "846-848",
+  "when": "1907 (MC55-RM9 images 846–848: Cittadinanza 1907, the cover label, the title page, acts 1–2 and the close, closed 1 January 1908, Pretore's visa 15 January 1908)",
+  "what": "**Every act of the Arienzo register of citizenship acts of 1907 (MC55-RM9 846–848), read in full**",
+  "got": "Images 846–848 read, both pages of every leaf: the cover label (846), the title page of the Registro degli atti di cittadinanza, anno 1907, Ufficio unico, four sheets vidimated at Santa Maria Capua Vetere on 14 December 1906 under the delegation of 5 December 1906 (847, its left page blank), and the whole of the register (848): two acts, no more. Act 1 (27 September 1907): a man of Arienzo declares that he is moving his residence to Pratella. Act 2 (15 October 1907): a tailor born at San Felice a Cancello declares that he is moving his residence to Arienzo. The register is closed on 1 January 1908, with the Pretore's visas of 12 May 1907, 15 September 1907 and 15 January 1908. This year's Cittadinanza register is bound after Nascite and before Morti, not after Matrimoni as in other years. Searched for the surname in the terms Falco, De Falco and Falcone, in every person, parent, witness and margin cell of the two acts, and the catalogue's coverage check for the family passed with those three terms: nothing in any of them. Near-names seen and not counted: none. A nil for a register of two acts; it says nothing about 1908 or later years.",
+  "outcome": "nothing",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Citizenship",
+   "Falco",
+   "full walk"
+  ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "walked": true,
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "book": "Morti 1907 (Parte I, 86 acts; Parte II, 3 acts; annual index)",
+  "pages": "849-878",
+  "when": "1907 (MC55-RM9 images 849–878: Morti 1907, Parte I acts 1–86, Parte II acts 1–3, both closed 1 January 1908, Pretore's visa 15 January 1908, and the Indice annuale)",
+  "what": "**Every act of the Arienzo death register of 1907 (MC55-RM9 849–878), read in full**",
+  "got": "Images 849–878 read, both pages of every leaf: the cover label (849), the title page of Parte I with 44 sheets vidimated on 14 December 1906 (850, and a second exposure of it at 851 that adds no pages), Parte I, 86 printed-form acts from 3 January to 27 December 1907 (852–873, two acts to a page), the blank right page of 873, the Parte II cover (874), Parte II (875–876), three transcribed acts of men who died away from Arienzo (at Rome, New Haven in Connecticut and Naples), and the Indice annuale (877–878). Parte I is closed with «ottantasei» acts and Parte II with «tre atti», both on 1 January 1908, with the Pretore's visas of 12 May, 15 September 1907 and 15 January 1908. No Falco is among the dead. One act names a Falco as the mother of the deceased: act 82 (16 December 1907, via Cumellara 7), Ferrara Nunziata, 22, daughter of Giovanni, colono, and Maria Falco, contadina; it was already held in the Matteo Falco and Alessandra Crisci house from the image on 3 November, was re-read here at level 13 and agrees in every word, and its tie rests on the names, the street and the mother's trade, as that row says. Two further Falco names occur only as declarants and are not placed in any house on a name and a trade: Giovanni Falco, contadino, 55 in act 1 and 62 in act 13, and Pasquale Falco, trainante, 37, in act 44. The Indice annuale lists the dead only, so it has no Falco entry and cannot reach the mother of act 82, which sits under her daughter's surname; it does list Ferrara Nunziata at 82 and the three Parte II acts as read. Searched in the terms Falco, De Falco and Falcone. Near-names seen and not counted: Ferraro Maria Agnese of act 86 (her father is Giuseppe, commerciante, not the Giovanni Ferrara of act 82), and Anzivino, Laudanno and Martone, whose acts name other fathers and mothers. Registrars: Agostino Crisci, assessore delegato on the sindaco's act of 26 August 1906, for acts 1 to 4 and for Parte II act 1; the sindaco Marcellino Guerriero for the others. Witnesses are the messi comunali Alfonso Anzevino, Clemente Guida and Felice Sorice.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/nunziata-ferrara/",
+    "Nunziata Ferrara (of Giovanni, d. 1907)"
+   ],
+   [
+    "/people/maria-falco-2/",
+    "Maria Falco (Ferrara)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Death",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
