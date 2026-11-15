@@ -4391,5 +4391,67 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Nascite 1901 (Parte I of 130 acts, empty Parte II, annual index)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "43-94",
+  "walked": true,
+  "when": "1901 (MC55-RM9 leaves 43–94: Nascite 1901, cover, Parte I acts 1–130 closed 1 January 1902, the cover and closing note of an empty Parte II, and the two-page annual index; images 92 and 93 are two exposures of one opening)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo birth register of 1901 (MC55-RM9 43–94), read in full**",
+  "got": "Images 43–94 read, both pages of every leaf. Two births of this line are in it: Carminantonio Falco, born 11 January 1901 to Raffaele Falco, contadino, and Costanza Maione, via Camellara (act 8), and Giovanni Falco, born 10 December 1901 to Pasquale Falco, trainante, and Angelamaria Attanasio, corso Caudino (act 123). The first is the birth that the 1976 passport of the next generation's Carminantonio Falco gives by day and town; the second fills the gap between the children of 1899 and 1904 in his parents' house. Both are in households with the father's name and trade, the mother's full name and the street as ties. The annual index lists exactly those two Falco entries (8 and 123) and De Falco Salvatore (104). Not placed, left as leads: Carmela Falco as the natural mother in act 63 (via Camellara), the De Falco gentry birth at act 104 (corso Candino), the Falco names at act 21 (Gioacchino) and act 41 (Raffaele), and Pasquale Falco, 37, trainante, witness at act 30.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/giovanni-falco-of-pasquale-falco-angela-maria-attana/",
+    "Giovanni Falco (of Pasquale, b. 1901)"
+   ],
+   [
+    "/people/carmine-antonio-falco-of-carmine-antonio-falco-filomena-ann/",
+    "Carmine Antonio (Carminantonio) Falco"
+   ],
+   [
+    "/people/raffaele-falco-of-raffaele-falco-costanza-maione/",
+    "Raffaele Falco"
+   ],
+   [
+    "/people/costanza-maione/",
+    "Costanza Maione"
+   ],
+   [
+    "/people/pasquale-falco-of-pasquale-falco-angela-maria-attana/",
+    "Pasquale Falco"
+   ],
+   [
+    "/people/angelamaria-attanasio/",
+    "Angelamaria Attanasio"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Births",
+   "Deaths",
+   "Marriages",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
