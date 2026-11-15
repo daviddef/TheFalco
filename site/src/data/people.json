@@ -27784,6 +27784,13 @@
 "place": "Santa Maria a Vico",
 "evidence": "Santa Maria a Vico, *Atti di matrimonio* **1910**, **act 31** (name box «*Ruotolo Clemente / Falco Annunziata*», «Numero 31»; drawn **8 August 1910**, 12.30 p.m. (the hour as I read it), in the Casa Comunale, before the sindaco's delegate, an ufficiale dello stato civile whose name I did not read): the groom «***Ruotolo Clemente***, di anni **ventisette** (as I read it), *contadino*, nato in **Arienzo**, residente in **Arienzo**, figlio d**i Pasquale**, residente in Arienzo, e d**i Falco Felicia**, residente in Arienzo», and the bride «***Falco Annunziata***, di anni **trentaquattro**, *colona*, nata in **Santa Maria a Vico**, residente in Santa Maria a Vico, figlia di **Giuseppe**, residente in Santa Maria a Vico, e della **fu Verdicchio Orsola**» (level 13). The act says the certificates of the banns were inserted in the volume of the annexes and that nothing stood against the marriage; the spouses each answered yes and were declared united. Witnesses: «Nuzzo Domenico fu Vincenzo», fifty, and a second man «… Vincenzo fu Raffaele», thirty-seven (his surname not settled at level 13), both of the comune; their trades are not read. No margin note was read in the crops taken (the act's lower half and the signatures were not read). **The tie to these houses** is by both parents' names written out on each side, by the birthplaces, and by the banns: the groom's parents Pasquale and Falco Felicia and his birth at Arienzo, and the bride's father Giuseppe and her dead mother Orsola Verdicchio, are the names of the banns of 18 July 1910 (Pubblicazioni 1910 Parte II Serie A act 7) in both houses, and the margin of the groom's birth act (Nascite 1883 act 66) names this marriage by act and date. The groom's age agrees with his birth of 27 May 1883 (27 years and 2 months); the bride's age of 34 puts her birth near 1876, after her parents' marriage of 1869, and her own birth act has not been read.",
 "ark": "FamilySearch Santa Maria a Vico civil registers (collection 2043630, MC5R-C6D), Matrimoni 1910, image 775 (left page) atto 31 - READ FROM THE IMAGE, level 13 in four bands (the date and officer, both spouses' lines, both pairs of parents, the witnesses), 15 November 2026 (the register of the BRIDE's comune; earlier: the banns only, Arienzo Pubblicazioni 1910 Parte II Serie A act 7, and the margin of Nascite 1883 act 66)"
+},
+{
+"event": "birth",
+"date": "23 Dec 1875",
+"place": "Santa Maria a Vico",
+"evidence": "Santa Maria a Vico, *Estratto dal registro dei nati dell'anno 1875* (the copy certified for the marriage of 1910), **Numero 220**, name line «*Falco Annunziata*»: «*L'anno milleottocentosettantacinque, addì ventisette di Dicembre, a ore antimeridiane nove e minuti venti, nella Casa Comunale. Avanti di me Gabriele Bernardo, Sindaco, Ufficiale dello Stato Civile del Comune di Santa Maria a Vico, è comparso **Giuseppe Falco**, di anni **trentatré**, **colono**, domiciliato in Santa Maria a Vico, il quale mi ha dichiarato che alle ore antimeridiane quattro e minuti trenta del dì ventitré del corrente mese, nella casa posta in via [Sadaceste, not settled] al numero **undici**, da **Orsola Verdicchio** sua moglie, colona, seco lui convivente, è nato un bambino di sesso **femminile** che egli mi presenta e a cui dà il nome di **Annunciata***» (level 13). Witnesses «*Marletta Pietro*, di anni sessantotto» (his trade not settled) and «*Fabrizio De Luca*» (the line is cut at the foot of the page; his age and trade were not read). The leaf is the right page of an opening of the annexes of the Santa Maria a Vico register of 1910, where the copy of the birth act was filed with the marriage of Annunziata Falco and Clemente Ruotolo; the left page of the same opening is the end of another certified copy, dated at Arienzo on 21 June 1910 (read at level 12 only, not used here). **The tie to this house** is by both parents' names, written out and matching the marriage act of 1910 (Matrimoni 1910 act 31: «*figlia di Giuseppe … e della fu Verdicchio Orsola*»): a Giuseppe Falco, colono, of Santa Maria a Vico, and Orsola Verdicchio, his wife; this house holds their marriage of 1869 and the death of their son Antonio in 1874; the child's name, Annunziata, is the bride's; and her age of thirty-four at the marriage of 8 Aug 1910 agrees with a birth on 23 December 1875 (thirty-four years and seven months). The father's age of thirty-three here puts his birth near 1842 (ages are guessed). The leaf is a copy, not the register: the act itself, Nascite 1875 act 220, is in MC5R-M2Q (images 1281 to 1370) and has not been opened.",
+"ark": "FamilySearch Santa Maria a Vico civil registers (collection 2043630, MC5R-D3D Allegati 1908-1910), image 1233 (right page), the copy of Nascite 1875 act 220 filed with the marriage of 8 Aug 1910 (Matrimoni 1910 act 31) - READ FROM THE IMAGE at level 12 for the page and level 13 for the whole act as far as the first witness, 15 November 2026; found by the collection's full-text search on «Verdicchio Falco», then read on the image (the machine text is a finding aid and was not relied on)"
 }
 ],
 "sources": [
@@ -27794,6 +27801,10 @@
 "spouses": [],
 "children": [],
 "siblings": [],
+"b": "23 Dec 1875",
+"dateFrom": {
+"b": "act"
+},
 "noKin": "no-edge-recorded"
 },
 {
@@ -48409,6 +48420,13 @@
 "place": "Santa Maria a Vico",
 "evidence": "Named as the bride's father in her marriage act of 8 Aug 1910 (Santa Maria a Vico, Matrimoni 1910 act 31): «*figlia di Giuseppe, residente in Santa Maria a Vico*», written without «fu», so alive that day, while her mother is «fu» (level 13).",
 "ark": "FamilySearch Santa Maria a Vico civil registers (collection 2043630, MC5R-C6D), Matrimoni 1910, image 775 (left page) atto 31 - READ FROM THE IMAGE, level 13 in four bands (the date and officer, both spouses' lines, both pairs of parents, the witnesses), 15 November 2026 (the register of the BRIDE's comune; earlier: the banns only, Arienzo Pubblicazioni 1910 Parte II Serie A act 7, and the margin of Nascite 1883 act 66)"
+},
+{
+"event": "named as declarant and father in his daughter's birth",
+"date": "23 Dec 1875",
+"place": "Santa Maria a Vico",
+"evidence": "Named as the declarant and the father in his daughter's birth act, 27 Dec 1875 (Santa Maria a Vico, Nascite 1875 act 220, copy filed in 1910): «*Giuseppe Falco, di anni trentatré, colono, domiciliato in Santa Maria a Vico*» (level 13).",
+"ark": "FamilySearch Santa Maria a Vico civil registers (collection 2043630, MC5R-D3D Allegati 1908-1910), image 1233 (right page), the copy of Nascite 1875 act 220 filed with the marriage of 8 Aug 1910 (Matrimoni 1910 act 31) - READ FROM THE IMAGE at level 12 for the page and level 13 for the whole act as far as the first witness, 15 November 2026; found by the collection's full-text search on «Verdicchio Falco», then read on the image (the machine text is a finding aid and was not relied on)"
 }
 ],
 "sources": [
@@ -90341,6 +90359,13 @@
 "place": "Santa Maria a Vico",
 "evidence": "Named as the bride's dead mother in her daughter's marriage act of 8 Aug 1910 (Santa Maria a Vico, Matrimoni 1910 act 31): «*della fu Verdicchio Orsola*» (level 13), dead before that day.",
 "ark": "FamilySearch Santa Maria a Vico civil registers (collection 2043630, MC5R-C6D), Matrimoni 1910, image 775 (left page) atto 31 - READ FROM THE IMAGE, level 13 in four bands (the date and officer, both spouses' lines, both pairs of parents, the witnesses), 15 November 2026 (the register of the BRIDE's comune; earlier: the banns only, Arienzo Pubblicazioni 1910 Parte II Serie A act 7, and the margin of Nascite 1883 act 66)"
+},
+{
+"event": "named as mother in her daughter's birth",
+"date": "23 Dec 1875",
+"place": "Santa Maria a Vico",
+"evidence": "Named as the mother in her daughter's birth act, 27 Dec 1875 (Santa Maria a Vico, Nascite 1875 act 220, copy filed in 1910): «*da Orsola Verdicchio sua moglie, colona, seco lui convivente*», the child born at 4.30 a.m. on 23 December 1875 (level 13).",
+"ark": "FamilySearch Santa Maria a Vico civil registers (collection 2043630, MC5R-D3D Allegati 1908-1910), image 1233 (right page), the copy of Nascite 1875 act 220 filed with the marriage of 8 Aug 1910 (Matrimoni 1910 act 31) - READ FROM THE IMAGE at level 12 for the page and level 13 for the whole act as far as the first witness, 15 November 2026; found by the collection's full-text search on «Verdicchio Falco», then read on the image (the machine text is a finding aid and was not relied on)"
 }
 ],
 "sources": [

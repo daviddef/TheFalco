@@ -6933,5 +6933,52 @@
    "Falco",
    "Ruotolo"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Santa Maria a Vico, civil registration (Tribunale) 1866–1929",
+  "waypoint": "MC5R-D3D",
+  "book": "Allegati (nati, pubblicazioni, matrimoni, morti) 1908–1910 (Santa Maria a Vico; one leaf, image 1233)",
+  "bookPlace": "Santa Maria a Vico civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "1233",
+  "walked": false,
+  "when": "1875 (a copy of Santa Maria a Vico Nascite 1875 act 220, filed in the annexes of 1910; MC5R-D3D image 1233, right page)",
+  "src": "Found by the collection's own full-text search on two surnames (the machine text is a finding aid), then read on the image: one leaf only; the rest of the annexes volume was not read. The act itself, in the Nati register of 1875 (MC5R-M2Q), was not opened.",
+  "what": "**A birth act reached through a marriage annex: Annunziata Falco, daughter of Giuseppe Falco and Orsola Verdicchio of Santa Maria a Vico, born 23 December 1875**",
+  "got": "Image 1233 right page is a certified copy of Nascite 1875 act 220, declared 27 December 1875 by Giuseppe Falco, 33, colono, of Santa Maria a Vico: a girl born at 4.30 a.m. on 23 December, in a house in a street whose name I could not settle, number eleven, to Orsola Verdicchio his wife, colona, named Annunciata. Witnesses Marletta Pietro, 68, and Fabrizio De Luca (the page is cut at the foot, so his age and the rest were not read). It was filed with her marriage of 8 August 1910 (act 31) and settles her birth date; her age of 34 at the marriage agrees. Entered in the house of Antonio Falco and Vincenza della Zorca, on both parents' names written out, her given name and the marriage of 1869 already in the house.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/annunciata-falco/",
+    "Annunciata Falco (of Giuseppe Falco & Orsola Verdicchio, bride in 1910)"
+   ],
+   [
+    "/people/giuseppe-falco-of-antonio-falco-vincenza-della-zorca/",
+    "Giuseppe Falco (of Antonio, of Santa Maria a Vico)"
+   ],
+   [
+    "/people/orsola-verdicchio-2/",
+    "Orsola Verdicchio"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Santa Maria a Vico",
+   "Birth",
+   "Falco",
+   "Verdicchio"
+  ]
  }
 ]
