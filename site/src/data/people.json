@@ -63272,6 +63272,13 @@
 "place": "Arienzo, Casa Comunale",
 "evidence": "Arienzo, *Pubblicazioni di matrimonio* **1896**, **act 32** (31 October 1896, 11.10 a.m., Casa Comunale, before Cav. Paride Guerriero, assessore delegato; first publication 1 November, second 8 November, posted to 12 November): the bride is «*Falco Pasqualina*», «*di anni **diciannove**, contadina*», «*figlia del fu **Pasquale***» and «*di **Guida Maria Amalia**, contadina*» (level 13, z700), the groom «*Guida Francesco*», 34, contadino, son of the late Pasquale and of «*Crisci Clementina*», contadina (level 13, z700). The bride's mother appears and consents; the act cites the copy of the death act of the bride's father and a copy of the death act of a former wife of the groom (her surname is not settled at level 12). **This is the banns act of the marriage already held in this house** (Matrimoni 1896 act 28, 23 November 1896, a delegated reading not yet re-opened here): the same two spouses, the same ages (19 and 34), the same four parents' names, now read from the image by this archive. **Tie, independent of the name:** a bride whose father is dead and whose mother is Maria Amalia Guida, aged 19 in 1896, is the Pasqualina of this house, born 1 February 1877 (Nascite 1877 act 20, re-opened at level 13), whose father Pasquale Falco died on 26 September 1883 (Morti 1883 act 60, read from the image) and whose mother Maria Amalia Guida survived him (ages are the acts' own and are guessed; the two agree to the year). The marriage act itself stays to be opened in the Matrimoni 1896 run of this walk.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2239 (right page), Pubblicazioni 1896 atto 32 — READ FROM THE IMAGE, level 12, with the bride's and groom's cells zoomed at level 13 (z700), 13 November 2026"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "17 Aug 1909",
+"place": "Arienzo, via Crisci 2",
+"evidence": "Named as the mother in the birth act of 17 Aug 1909 (Nascite 1909 Parte I act 97): «*Pasqualina Falco sua moglie legittima, contadina, seco lui convivente*», via Crisci no. 2 (read from the image at level 13, z1179).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 1151 (left page foot, then the head of the right page; leaf 1152 is a second exposure of the same opening), Nascite 1909 Parte I atto 97 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the mother's line (z1179), 15 November 2026"
 }
 ],
 "sources": [
@@ -73387,6 +73394,36 @@
 "noKin": "no-edge-recorded"
 },
 {
+"slug": "concetta-guida",
+"name": "Concetta Guida (of Francesco Guida & Pasqualina Falco, b. 1909)",
+"surname": "GUIDA",
+"household": "Pasquale Falco & Maria Amalia Guida",
+"hid": "pasquale-falco-maria-amalia-guida",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "17 Aug 1909",
+"place": "Arienzo, via Crisci 2",
+"evidence": "Arienzo, *Nascite* **1909**, **Parte I, act 97** (name box «*Guida Concetta*», «Numero novantasette»; declared **19 August 1909**, 10.30 a.m., Casa Comunale, before Alfonso de Nuptiis, assessore delegato on the Sindaco's act of 23 August 1908): «*è comparso **Francesco Guida**, di anni **quarantasette**, **contadino**, domiciliato in Arienzo*», who declared that at 6.30 in the afternoon of the 17th «*nella casa posta in **via Crisci** al numero **due**, da **Pasqualina Falco** sua moglie legittima, contadina, seco lui convivente, è nato un bambino di sesso femminile*», to whom he gives the name «***Concetta***» (level 13, z1179). Witnesses «*Fabrizio Guida*, di anni cinquantasette, mediatore» and «*Alfonso Crisci*, di anni quarantadue, contadino»; the act was read and nobody signed, all being illiterate. No later hand was seen in the margin. **The tie to this house** is the couple's own two names, written out, with the husband's trade and age: Francesco Guida, contadino, 34 in the marriage of 23 November 1896 and 37 in the birth of 1899, is 47 here (34 plus 13; ages are guessed), and Pasqualina Falco is the wife named in both of those acts. The only other Pasqualina Falco this archive holds as a wife died in 1902, so she cannot be the mother of a child of 1909. The street is not a tie: the act of 1899 gives via Maddalena no. 2 and this one via Crisci no. 2, the same number. The act gives no later date and none is claimed; the margin of her own birth act of 1877 carries a later-hand death note.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 1151 (left page foot, then the head of the right page; leaf 1152 is a second exposure of the same opening), Nascite 1909 Parte I atto 97 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the mother's line (z1179), 15 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "17 Aug 1909",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "francesco-guida",
 "name": "Francesco Guida",
 "surname": "GUIDA",
@@ -73400,6 +73437,13 @@
 "place": "Arienzo, Casa Comunale",
 "evidence": "Arienzo, *Matrimoni* **1896**, **act 28** (23 November 1896): «*Guida Francesco*», 34, contadino, born and resident at Arienzo, son of the late Pasquale and of «***Crisci** Clementina*» (level 13, z724: the earlier reading's «Clementina Guida» is corrected here, and the banns act of 31 October 1896 gives the same Crisci Clementina). He signed. Placed in this house as the husband of Pasqualina Falco of the row above, on the act's own words; his own parents' household is not identified here.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2268 (right page), Matrimoni 1896 atto 28 — READ FROM THE IMAGE, level 12, with the bride's and groom's lines and both mothers zoomed at level 13 (z723, z724), 13 November 2026 (earlier source: a delegated reading, kept in the earlier rows of this house)"
+},
+{
+"event": "named as father and declarant in his child's birth act",
+"date": "17 Aug 1909",
+"place": "Arienzo, via Crisci 2",
+"evidence": "Named as the father and the declarant in the birth act of 17 Aug 1909 (Nascite 1909 Parte I act 97, declared 19 August 1909): «*Francesco Guida, di anni quarantasette, contadino, domiciliato in Arienzo*», of via Crisci no. 2 (read from the image at level 12; the mother's line at level 13, z1179).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 1151 (left page foot, then the head of the right page; leaf 1152 is a second exposure of the same opening), Nascite 1909 Parte I atto 97 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the mother's line (z1179), 15 November 2026"
 }
 ],
 "sources": [
