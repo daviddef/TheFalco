@@ -11600,6 +11600,13 @@
 "place": "Arienzo, via Sant'Andrea",
 "evidence": "Arienzo, *Nascite* **1900**, **Parte I, act 20** («*Numero Venti*»; declared 14 March 1900, 9.10 a.m., Casa Comunale, before Pasquale Gesue, assessore delegato con atto del Sindaco in data nove settembre 1899): «*è comparso **Raffaele Crisci**, di anni **ventisette**, **calzolaio**, domiciliato in Arienzo*» (level 13, z845), who declared that at 7 in the morning «*del dì dodici del corrente mese, nella casa posta in via Sant'Andrea al numero uno, da **Pasqualina Falco** sua moglie legittima, donna di casa seco lui convivente*» (level 13, z845) a male child was born, to whom he gives the name «*Antonio*». Witnesses «*Tommaso de Lucia, di anni sessantuno, calzolaio*» and «*Clemente Diglio, di anni cinquantadue, bracciale*» (level 13, z846), both resident in the commune; the act was read to them and the declarant alone signed, the witnesses being unable to write (the signature line is hurried and is read as the declarant's name, level 13, z846). No later-hand margin note is beside the act. **Why the child is placed in this household, and not on the name.** Three ties, none of them a guess from the name. (1) The mother's own name is written out, **Pasqualina Falco**, and she is described as the wife of a **Raffaele Crisci, calzolaio**: the marriage act of 25 May 1899 held in this household is between **Crisci Raffaele, calzolaio**, and **Falco Pasqualina**, and the child was born nine months and eighteen days after it. (2) The husband's trade is the same in the banns, the marriage and this act (the ages are 25 in 1899 and 27 here, and ages are guessed). (3) Her death act of 1 June 1902, also held here, calls her the wife of Raffaele Crisci and puts her at **via Sant'Andrea no. 2**; this act puts the family at **via Sant'Andrea no. 1**, the same street and the next number. **Not the other Pasqualina Falco**, who was born in 1877 to Pasquale Falco and Maria Amelia Guida and married Francesco Guida in 1896 (their household holds her). **Not the other Raffaele Crisci of the same week**: act 19 of this register (13 March 1900, a stillborn girl Carmela) names Raffaele Crisci, 27, colono, of Corso Caudino no. 104, whose wife is Papa Mariarosa; the trade, the address and the wife all differ. **The name Antonio** is the name of the groom's father (the banns of 1899 call him Antonio, pipernière), which is the usual naming of a first son but is not counted as a tie. This is the first child of the couple that any act held here names; the witness Tommaso de Lucia is not otherwise placed. **Not yet traced after birth:** no death act of an Antonio Crisci of this couple has been read.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2813 (left page, then the top of the right page), Nascite 1900 Parte I atto 20 — READ FROM THE IMAGE, level 12 for the whole act, level 13 for the declarant's block, the house and the mother (z845) and for the witnesses and the signature line (z846), 13 November 2026"
+},
+{
+"event": "death",
+"date": "23 Dec 1902",
+"place": "Arienzo, via Sant'Andrea 5",
+"evidence": "Arienzo, *Morti* **1902**, **Parte I, act 83** («*Numero Ottantatre*, *Crisci Antonio*»; recorded **23 December 1902**, 10.00 a.m., Casa Comunale, before Alfonso de Nuptiis, assessore delegato con atto del Sindaco in data trenta Ottobre 1902): the declarants «*Nicola Pellone, di anni trentotto, sarto*» and «*Pasquale Mauro, di anni ventinove, barbiere*» declared that at one in the morning of the same day «*nella casa posta in **via Sant'Andrea** al numero **cinque***» died «***Antonio Crisci**, di anni **due e mesi nove**, residente in Arienzo, nato in Arienzo, da **Raffaele**, **calzolaio**, e dalla *fu* **Pasqualina Falco***» (level 13, z933). Witnesses Alfonso Anzevino, 62 (as read), and Clemente Guida, 41, messi comunali; nobody could write and the act was signed by the officer alone. **The tie to this house** is by both parents (Raffaele Crisci, calzolaio, and Pasqualina Falco, who is written here as already dead, as this house's act of 1 June 1902 shows), by the street (via Sant'Andrea, as at his birth), and by the arithmetic: two years and nine months before 23 December 1902 is March 1900, and this house holds his birth on 12 March 1900 (Nascite 1900 act 20). The house number, 5, differs from the numbers written for his mother's death (2) and his sister's birth (20); street numbers in via Sant'Andrea are not stable in these acts and are not used as a tie. His mother had died on 1 June 1902 and his sister Soccorrina had been born on 18 May 1902; he was the elder child of the couple.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 229 (right page), Morti 1902 Parte I atto 83 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the street, the age, the father's trade and the mother's name (z933), 15 November 2026"
 }
 ],
 "sources": [
@@ -11612,8 +11619,10 @@
 "siblings": [],
 "b": "12 Mar 1900",
 "dateFrom": {
-"b": "act"
+"b": "act",
+"d": "act"
 },
+"d": "23 Dec 1902",
 "noKin": "no-edge-recorded"
 },
 {
