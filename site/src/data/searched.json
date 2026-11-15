@@ -5041,5 +5041,65 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Pubblicazioni di matrimonio 1904 (Parte I printed forms, 28 acts; Parte II requests from other comuni, 18 acts)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "350-375",
+  "walked": true,
+  "when": "1904 (MC55-RM9 leaves 350–375: Pubblicazioni di matrimonio 1904, Parte I acts 1–28 and Parte II acts 1–18, closed 1 January 1905)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo marriage banns of 1904 (MC55-RM9 350–375), read in full**",
+  "got": "Images 350–375 read, both pages of every leaf: Parte I, 28 printed-form acts (350–366), and Parte II, 18 acts (367–375), each a request received from another comune and copied in quotation marks, closed by the registrar on 1 January 1905 with a Pretore visa of 16 January 1905. Three acts name a Falco and are placed, each by independent ties and not by the name alone. Parte I act 8 (second banns 21 May 1904): the groom's mother is written «Falco Sara» and his father is dead; tied to the house of Antonio Mauro and Sara Falco by both parents' names, trade and exact age, and the 1888 marriage act. Parte I act 25 (banns of 21 Nov 1904): the groom's mother is Falco Filomena and the bride's mother Falco Vincenza, both living; tied to the house of Matteo Falco and Alessandra Crisci by both parents, trade, exact age and the fathers' deaths in 1897. Parte II act 7 (request of Cervinara received 9 May 1904): Falco Crescenzo, son of Giovanni and Martone Giuseppa, and Martone Maria Rosa; tied to the house of Crescenzo Falco and Maria Rosa Martone by the bride's full name, which is the mother's name in that house's births of 1905 and 1907, and by both parents' names; which of the two Crescenzo of the parents' house is the groom is NOT settled, and no join is made. Registrar and witnesses of the year: Alfonso de Nuptiis, assessore delegato; messo comunale Alfonso Anzevino, 64, and Clemente Guida, 44; guardia municipale Simone d'Ambrosio, 51.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/vincenzo-mauro/",
+    "Vincenzo Mauro (of Antonio, b. 1863)"
+   ],
+   [
+    "/people/maria-lucia-iannone/",
+    "Maria Lucia Iannone (bride in 1904)"
+   ],
+   [
+    "/people/arcangelo-lorenzo-crisci/",
+    "Arcangelo Lorenzo Crisci (of Antonio Crisci and Filomena Falco, b. 1872)"
+   ],
+   [
+    "/people/antonia-morgillo-of-matteo-falco-alessandra-crisci/",
+    "Antonia Morgillo (of Carmine Morgillo and Vincenza Falco, bride in 1904)"
+   ],
+   [
+    "/people/crescenzo-falco-of-crescenzo-falco-maria-rosa-martone/",
+    "Crescenzo Falco"
+   ],
+   [
+    "/people/maria-rosa-martone/",
+    "Maria Rosa Martone"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Banns",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
