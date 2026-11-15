@@ -5773,5 +5773,65 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Pubblicazioni di matrimonio 1907 (Parte I, 38 acts; Parte II, 10 acts)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "739-765",
+  "walked": true,
+  "when": "1907 (MC55-RM9 images 739–765: Pubblicazioni di matrimonio 1907, Parte I acts 1–38, closed 1 January 1908, and Parte II acts 1–10, closed 1 January 1908, Pretore's visas 27 December 1906, 12 May, 15 September 1907 and 15 January 1908)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every banns act of the Arienzo register of 1907 (MC55-RM9 739–765), read in full**",
+  "got": "Images 739–765 read, both pages of every leaf: the cover and title page, Parte I, 38 printed-form acts taken at the Casa Comunale through 1907 (two acts to an image, one to each page), and Parte II (760–765), ten acts, every one a request sent from another comune (Santa Maria a Vico, Arpaia, Forchia, San Felice a Cancello, Cervinara) for the banns to be posted at Arienzo as well, closed 1 January 1908 with the Pretore's visa of 15 January 1908. Four acts of Parte I name a Falco, and each is placed in a house on at least two independent ties, never on a name alone. Act 7 (13 March 1907): Di Lucia Ferdinando, 29, married Crisci Vincenza, daughter of Pasquale Crisci, 71, contadino, and Francesca Falco, contadina, in the house of Pasquale Crisci and Francesca Falco. Act 13 (14 May): Di Silvio Antonio married Spunzo Giuliana, 18, daughter of Pasquale, 59, bracciante, and Carmina Falco, in the house of Michele Falco and Maria Giovanna Ambrogio; her birth act of 1888 writes her name Giuliano. Act 32 (20 November): Cangiano Vincenzo married Falco Assunta, 21, sarta, daughter of Antonio, 63, contadino, and Carmela Guida, in the house of Antonio Falco and Carmela Guida; the delegated reading of this wedding is now the archive's own. Act 34 (30 November): Biondo Giuseppe, whose late mother is Clementina Falco, married Diglio Felicia, in the house of Matteo Falco and Alessandra Crisci, on his birth act of 1882 and the margin of the bride's birth act of 1880. Each wedding is to be read in Matrimoni 1907 and 1908. The delegated acts of Parte II name no Falco in any groom, bride, parent or witness cell, and neither does any other act of Parte I. No annual index closes the register, and no Cittadinanze 1907 sits between it and the Matrimoni label at 766. Near-names seen and not counted: Morgillo (Parte I acts 12, 15, 20, 27), Frasca (19), Anzivino (22, a bride; Anzevino is the witness in most acts), Spunzo (29 and Parte II act 6, the groom's mother Maria Rosa Spunzo, a different woman), Arricale (Parte II act 3) and Crisci (Parte II acts 1, 7 and 10). Registrars: Agostino Crisci, assessore delegato on the sindaco's act of 26 August 1906, for Parte I acts 1–4; the sindaco Cavalier Marcellino Guerriero from act 5. Witnesses are mostly the messi comunali Alfonso Anzevino and Clemente Guida, or Felice Sorice. No second exposure was seen on any leaf.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/vincenza-crisci/",
+    "Vincenza Crisci (of Pasquale Crisci and Francesca Falco, bride in 1907)"
+   ],
+   [
+    "/people/giuliano-spunzo/",
+    "Giuliano Spunzo (of Pasquale Spunzo & Maria Carmina Falco, b. 1888)"
+   ],
+   [
+    "/people/pasquale-spunzo-of-michele-falco-maria-giovanna-ambro/",
+    "Pasquale Spunzo (husband of Maria Carmina Falco)"
+   ],
+   [
+    "/people/assunta-falco-2/",
+    "Assunta Falco (of Antonio, b. 1886)"
+   ],
+   [
+    "/people/giuseppe-biondo-2/",
+    "Giuseppe Biondo (of Nicola Biondo and Clementina Falco, groom in 1907)"
+   ],
+   [
+    "/people/clementina-falco-of-matteo-falco-alessandra-crisci/",
+    "Clementina Falco (of Matteo, b. 1848)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Marriage banns",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
