@@ -16982,8 +16982,8 @@
     "event": "marriage",
     "date": "14 Nov 1909",
     "place": "Arienzo, Casa Comunale",
-    "evidence": "Matrimoni 1909 act 32 (Arienzo): Maria Falco, contadina, aged 22, daughter of Giuseppe and Nicoletta Nuzzo, marries Raffaele Ruotolo, colono, aged 32, son of the late Vincenzo and Lucia Pesce. Margin: name box: Numero trentadue, Ruotolo Raffaele, Falco Maria. *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.***",
-    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 1107, Matrimoni 1909 atto 32 — read by a delegated reader and independently re-read by a second (V186)"
+    "evidence": "Arienzo, *Matrimoni* **1909**, **Parte I, act 32** (name box «*Ruotolo Raffaele / Falco Maria*», «Numero Trentadue»; celebrated **14 November 1909**, 11.40 a.m., Casa Comunale, before **Giacomo De Falco, Sindaco**, the registrar, who signs «G. De Falco» and is not a party, a witness or a parent): the groom «*Ruotolo Raffaele*, di anni **trentadue**, **colono**, nato in Santamaria a Vico, residente in Arienzo, figlio **del fu Vincenzo** … e di **Lucia Pesce**, residente in Arienzo», and the bride «***Falco Maria***, di anni **ventidue**, **contadina**, nata in Arienzo, residente in Arienzo, figlia di **Giuseppe**, residente in Arienzo, e di **Nicoletta Nuzzo**, residente in Arienzo» (level 13, z1167), were united in marriage; the witnesses were Nicola Bernardo, 38, possidente, and Alfonso Anzevino, 69, messo comunale (neither tied to this house). The certificate of the banns at Arienzo gives the first posting on 3 and the second on 10 October, without opposition, the same days as the banns act (Pubblicazioni 1909 Parte I act 31, 2 October 1909); the groom signed with a cross before his name and the witnesses signed, the bride declaring herself illiterate. No later hand was seen in the margin. **WAS A DELEGATED READING; NOW THE ACT.** The names, ages, trades, birthplace and both sets of parents are confirmed on the image, and the act adds the registrar, the hour, the witnesses and the posting dates. The tie to this house is the one the banns give and the act repeats: both the bride's parents written out (Giuseppe and Nicoletta Nuzzo), her age against the birth of 22 September 1887 (22 years on 14 November 1909), and the quoted banns.",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 1107 (right page), Matrimoni 1909 Parte I atto 32 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's and the bride's lines and both her parents' names (z1167), 15 November 2026 (earlier: delegated reader, then independently re-read by a second, V186)"
    },
    {
     "hid": "giuseppe-falco-nicoletta-nuzzo",
@@ -16993,8 +16993,8 @@
     "event": "marriage",
     "date": "14 Nov 1909",
     "place": "Arienzo, Casa Comunale",
-    "evidence": "The other party to the marriage of 14 Nov 1909 (Matrimoni 1909, act 32): Raffaele Ruotolo, colono, 32, born Santa Maria a Vico, son of the late Vincenzo and Lucia Pesce.",
-    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 1107, Matrimoni 1909 atto 32 — read by a delegated reader and independently re-read by a second (V186)"
+    "evidence": "The other party to the marriage of 14 Nov 1909 (Matrimoni 1909 act 32): Raffaele Ruotolo, colono, 32, born at Santa Maria a Vico and living at Arienzo, son of the late Vincenzo and of Lucia Pesce (level 13, z1167). He is the groom of the banns of 2 Oct 1909; a different Raffaele Ruotolo (22, son of Antonio) married at Arienzo on 13 Feb 1909 and is not this man.",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 1107 (right page), Matrimoni 1909 Parte I atto 32 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's and the bride's lines and both her parents' names (z1167), 15 November 2026 (earlier: delegated reader, then independently re-read by a second, V186)"
    },
    {
     "hid": "giuseppe-falco-nicoletta-nuzzo",
@@ -17050,6 +17050,28 @@
     "place": "Arienzo",
     "evidence": "The other party to the banns of 2 Oct 1909 (Pubblicazioni 1909 act 31): Ruotolo Raffaele, 32, colono, born at Santa Maria a Vico and living at Arienzo, son of the late Vincenzo and of Lucia Pesce; he is the groom of the marriage of 14 Nov 1909 already held in this house.",
     "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 1074 (left page), Pubblicazioni di matrimonio 1909 Parte I atto 31 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line and the bride's and her parents' lines (z1157, z1158), 15 November 2026"
+   },
+   {
+    "hid": "giuseppe-falco-nicoletta-nuzzo",
+    "household": "Giuseppe Falco & Nicoletta Nuzzo",
+    "person": "Giuseppe Falco (of Matteo, b. c.1842)",
+    "role": "father",
+    "event": "named as father in his daughter's marriage act",
+    "date": "14 Nov 1909",
+    "place": "Arienzo, Casa Comunale",
+    "evidence": "Named as the bride's father in the marriage act of 14 Nov 1909 (Matrimoni 1909 act 32): «*figlia di Giuseppe, residente in Arienzo*», living that day (level 13, z1167).",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 1107 (right page), Matrimoni 1909 Parte I atto 32 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's and the bride's lines and both her parents' names (z1167), 15 November 2026 (earlier: delegated reader, then independently re-read by a second, V186)"
+   },
+   {
+    "hid": "giuseppe-falco-nicoletta-nuzzo",
+    "household": "Giuseppe Falco & Nicoletta Nuzzo",
+    "person": "Nicoletta Nuzzo",
+    "role": "mother",
+    "event": "named as mother in her daughter's marriage act",
+    "date": "14 Nov 1909",
+    "place": "Arienzo, Casa Comunale",
+    "evidence": "Named as the bride's mother in the marriage act of 14 Nov 1909 (Matrimoni 1909 act 32): «*e di Nicoletta Nuzzo, residente in Arienzo*», living that day (level 13, z1167).",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 1107 (right page), Matrimoni 1909 Parte I atto 32 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's and the bride's lines and both her parents' names (z1167), 15 November 2026 (earlier: delegated reader, then independently re-read by a second, V186)"
    }
   ]
  },
