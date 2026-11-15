@@ -4833,5 +4833,65 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Matrimoni 1903 (Parte I of 19 acts, Parte II with no acts, annual index)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "257-272",
+  "walked": true,
+  "when": "1903 (MC55-RM9 leaves 257–272: Matrimoni 1903, cover, black inside board and title leaf with the vidimazione, Parte I acts 1–19 closed 1 January 1904, Parte II closed with no acts, and the annual index)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo marriage register of 1903 (MC55-RM9 257–272), read in full**",
+  "got": "Images 257–272 read, both pages of every leaf; 19 acts in Parte I, none in Parte II, as the two closing notes and the annual index say. Image 262 is a second exposure of the opening on 261 (acts 5 and 6) and is not counted as new pages. Falco as a party: none. Falco as a parent: act 16 (21 Oct 1903) is the marriage of Valeriano Anzivino, 28, calzolaio, son of Alfonso and Marianna Falco, to Pasqua Porrino, 27, born at Naples, and act 19 (13 Dec 1903) is the marriage of Grazia Maria Anzivino, 25, cucitrice, daughter of the same parents, to Antonio Arricale, 40, sarto; both are the marriages that the banns of Pubblicazioni 1903 acts 15 and 20 announced, and both are placed in the Andrea Falco and Maria Carmela Buono house by both parents' names and by the banns already held there. Alfonso Anzevino, the messo comunale (62, from September 63), witnesses sixteen of the nineteen acts: all but act 2 and the marriages of his own two children, acts 16 and 19. Left unplaced: Annecchino Giuseppe of Forchia × Diglio Vittoria (act 4), whose mother is Piscitelli, not the Mariantonia Carfora of the Annecchino house held; Names met that are also in other houses here (Rivetti, Diglio, Migliore, Carfora, Ruotolo) are not tied to any house by the acts. The annual index lists all nineteen acts and no Falco line.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/valeriano-anzivino/",
+    "Valeriano Anzivino (of Alfonso Anzivino and Marianna Falco, groom in 1903)"
+   ],
+   [
+    "/people/grazia-maria-anzivino/",
+    "Grazia Maria Anzivino (of Alfonso Anzivino and Marianna Falco, bride in 1903)"
+   ],
+   [
+    "/people/marianna-falco-2/",
+    "Marianna Falco (of Andrea, b. 1851)"
+   ],
+   [
+    "/people/luigi-alfonso-paolo-anzivino/",
+    "Luigi Alfonso Paolo Anzivino"
+   ],
+   [
+    "/people/pasqua-porrino/",
+    "Pasqua Porrino (bride in 1903)"
+   ],
+   [
+    "/people/antonio-arricale-of-andrea-falco-maria-carmela-buono/",
+    "Antonio Arricale (of Carmine, groom in 1903)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Marriages",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
