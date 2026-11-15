@@ -5125,5 +5125,49 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Matrimoni 1904 (Parte I 26 acts, Parte II 1 act)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "379-398",
+  "walked": true,
+  "when": "1904 (MC55-RM9 leaves 379–398: the Matrimoni register of 1904, Parte I acts 1–26 and Parte II act 1, closed 1 January 1905, then its annual index, exposed twice)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo marriage register of 1904 (MC55-RM9 379–398, with its annual index), read in full**",
+  "got": "Images 379–398 read, both pages of every leaf: Parte I, printed forms, 26 acts (the title page is exposed twice, on 381), and Parte II, ruled pages, one act, both closed 1 January 1905 by the assessore delegato; the annual index (27 couples, 26 in Parte I and 1 in Parte II) is exposed twice, on 397 and 398, and has no Falco in either column. Terms tried: Falco, De Falco, Falcone. Act 11 (6 July 1904) is the marriage of Vincenzo Mauro and Maria Lucia Iannone, the marriage the banns of 21 May announced; the groom's mother is named as the late Falco Sara, and the act is joined to the Antonio Mauro and Sara Falco house by both parents, trade and exact age. No other Falco appears in a party, parent or witness cell; near-names are not counted.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/vincenzo-mauro/",
+    "Vincenzo Mauro (of Antonio, b. 1863)"
+   ],
+   [
+    "/people/maria-lucia-iannone/",
+    "Maria Lucia Iannone (bride in 1904)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Marriages",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
