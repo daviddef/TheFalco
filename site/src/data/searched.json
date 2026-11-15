@@ -5101,5 +5101,29 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Cittadinanze 1904 (two acts)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "376-378",
+  "walked": true,
+  "when": "1904 (MC55-RM9 leaves 376–378: the cover label and title page of the Cittadinanze register, two acts of 1904, the closing note of 1 January 1905)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo citizenship register of 1904 (MC55-RM9 376–378), read in full**",
+  "got": "Images 376–378 read, both pages of every leaf. The register holds two acts, both declarations by one family of professional men that they are leaving Arienzo for Rome, with the notary and a surveyor as witnesses; it closes on 1 January 1905, with Pretore visas of 11 May 1904, 14 September 1904 and 16 January 1905. Terms tried: Falco, De Falco, Falcone. No Falco and no near-name in any cell.",
+  "outcome": "nothing",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Citizenship",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
