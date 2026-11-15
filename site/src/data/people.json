@@ -19090,6 +19090,13 @@
 "place": "Arienzo, Casa Comunale",
 "evidence": "The other party to the marriage of 2 Jul 1869 (Matrimoni 1869, act 25): Maria Amalia di Guida, nubile, 22, contadina, daughter of the late Fabrizio and of Teresa Vaccina (living, filatrice).",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 401, Matrimoni 1869 atto 25 — read by a delegated reader and independently re-read by a second (V030)"
+},
+{
+"event": "death (named «Maria di Guida», wife of Clemente Morgillo)",
+"date": "11 Apr 1905",
+"place": "Arienzo, via Camellara 27",
+"evidence": "Arienzo, *Morti* **1905**, **Parte I, act 21** (name box «*Di Guida Maria*»; declared **12 April 1905**, 9.25 a.m., Casa Comunale, before Alfonso de Nuptiis, assessore delegato): the declarants «***Antonio Falco***, di anni **sessanta**, contadino, domiciliato in Arienzo» (level 13, z1039) and «*Salvatore Diglio*, di anni cinquanta, contadino» declared that at twelve noon on the day before, «*nella casa posta in **via Cumellara** al numero ventisette*», died «***Maria di Guida***, di anni **cinquantotto**, contadina, residente in Arienzo, nata in Arienzo, da fu **Fabrizio**, e da fu **Teresa Vaccina**, ***moglie di Clemente Morgillo***» (level 13, z1040). Witnesses Alfonso Anzevino, 65, and Clemente Guida, 45, both messo comunale; read to all, signed by the two witnesses, the declarants declaring themselves illiterate. **The tie to this house** is by the deceased's parents and her age, not by her forename, which the act writes «Maria» only: she is the daughter of the late Fabrizio and Teresa Vaccina, the filiation of Maria Amalia di Guida in her marriage to Pasquale Falco on 2 July 1869 (Matrimoni 1869 act 25, held in this house), where she is 22, so b. c.1847 and 58 here (ages are guessed). Her husband's name agrees with the later record of that widow: Nascite 1885 act 57 (declared 12 May 1885 by Clemente Morgillo, 38, who names «*Maria Amalia Guido sua moglie*», read at level 13, z283) and Matrimoni 1884 act 12 (Morgillo Clemente and di Guida Maria Amalia, read at level 12), neither yet entered in this house, so the remarriage rests on those two acts, on the parents and on the age together. **The declarant is her brother-in-law**: Antonio Falco's wife Carmela di Guida is «*figlia del fu Fabrizio e della vivente Teresa Vaccina*» in Matrimoni 1869 act 22 (held in the house of Antonio Falco and Carmela Guida), so the two women are sisters, and Antonio Falco's 60 here sits with the 26 of 1869 (ages are guessed). The act gives no date of birth and none is claimed.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 601 (left page), Morti 1905 atto 21 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant's line (z1039) and the deceased's lines (z1040), 15 November 2026"
 }
 ],
 "sources": [
@@ -19100,6 +19107,10 @@
 "spouses": [],
 "children": [],
 "siblings": [],
+"d": "11 Apr 1905",
+"dateFrom": {
+"d": "act"
+},
 "noKin": "married-in"
 },
 {
@@ -27861,6 +27872,13 @@
 "place": "Arienzo, via Orticelli 3",
 "evidence": "Arienzo, *Morti* **1886**, **act 61**: Antonia Buotolo, aged one, daughter of Raffaele Buotolo, contadino, and Francesca Diglio, contadina, died at 4.30 a.m. on 6 September 1886 at via Orticelli no. 3; declared at 8.10 a.m. the same day before the delegated councillor Notar Parido Guerriero by «***Antonio Falco, di anni quarantadue, contadino***» (level 13, z341; the date line z340) and Salvatore Crisci, 26, calzolaio; the declarants did not sign. A SIGHTING, NOT A PLACING: no kinship is stated or claimed. **The same house number as act 10 (31 January 1886)**, where Giovanni Falco and a Raffaele Buotolo, 42, declared the death of Rosa Viglietta, whose mother was a Rachele Buotolo (row above for Giovanni): the Buotolo household at via Orticelli no. 3 is the common point of two Falco declarants within the year. Forty on 25 January (act 8), forty-two on 30 January (Nascite 1886 act 17), forty-eight on 29 April (act 35), forty-six on 29 July (act 51, held) and forty-two here: ages are guessed in these registers, and whether one man or two stand behind these Antonio Falco sightings is not settled.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1076 (left page), Morti 1886 atto 61 — READ FROM THE IMAGE, level 13, 13 November 2026"
+},
+{
+"event": "named as a declarant at a death",
+"date": "12 Apr 1905",
+"place": "Arienzo, via Camellara 27",
+"evidence": "Arienzo, *Morti* **1905**, **Parte I, act 21**: named as the first declarant, «***Antonio Falco***, di anni **sessanta**, contadino, domiciliato in Arienzo» (level 13, z1039), of the death on 11 April 1905, at «*via Cumellara al numero ventisette*», of «*Maria di Guida*, di anni cinquantotto, … da fu Fabrizio e da fu Teresa Vaccina, moglie di Clemente Morgillo» (level 13, z1040). **The tie to this house** is the deceased's parentage: Fabrizio and Teresa Vaccina are the parents of Antonio Falco's wife, Carmela di Guida, in Matrimoni 1869 act 22 (24 June 1869, held in this house), so the deceased is his wife's sister, and the same woman as the Maria Amalia di Guida who married Pasquale Falco in July 1869 (see that house); trade and town agree with the Antonio Falco of this house, and 60 sits with the 26 of 1869 (ages are guessed). Whether his own address in 1905 was also in via Camellara is not stated.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 601 (left page), Morti 1905 atto 21 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant's line (z1039) and the deceased's lines (z1040), 15 November 2026"
 }
 ],
 "sources": [
@@ -78239,6 +78257,32 @@
 "siblings": []
 },
 {
+"slug": "clemente-morgillo",
+"name": "Clemente Morgillo",
+"surname": "MORGILLO",
+"household": "Pasquale Falco & Maria Amalia Guida",
+"hid": "pasquale-falco-maria-amalia-guida",
+"role": "married in",
+"events": [
+{
+"event": "named as her husband in her death act",
+"date": "11 Apr 1905",
+"place": "Arienzo, via Camellara 27",
+"evidence": "Named as the deceased's husband in the death act of 12 Apr 1905 (Morti 1905 Parte I act 21): «*moglie di Clemente Morgillo*» (level 13, z1040); no age, trade or street is given for him in this act.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 601 (left page), Morti 1905 atto 21 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant's line (z1039) and the deceased's lines (z1040), 15 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"noKin": "married-in"
+},
+{
 "slug": "clementina-morgillo",
 "name": "Clementina Morgillo",
 "surname": "MORGILLO",
@@ -79601,8 +79645,8 @@
 "event": "death",
 "date": "14 May 1905",
 "place": "Arienzo, via Porrini 5",
-"evidence": "Arienzo, Morti 1905, act 27: Raffaele Morgillo, contadino, 78, son of the late Nicola and the late Marzia Majone and widower of Angela Maria Falco, died at 6.30 a.m. on 14 May 1905 in via Porrini no. 5. *Read from the FamilySearch image by two readers; matched to this household by a text pass from both transcriptions; **not yet re-opened by the archive's own hand.***",
-"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 602, Morti 1905 atto 27 — read by a delegated reader and independently re-read by a second (V139)"
+"evidence": "Arienzo, *Morti* **1905**, **Parte I, act 27** (name box «*Morgillo Raffaele*»; declared **14 May 1905**, 12 noon, Casa Comunale, before Alfonso de Nuptiis, assessore delegato con atto del Sindaco del trenta Ottobre 1902): the declarants «*Gabriele Fuccio*, di anni quarantacinque, pastore» and «*Angelo Grassia*, di anni quarantasette, contadino», both of Arienzo, declared that at 6.30 that morning, «*nella casa posta in via Porrini al numero cinque*», died «***Raffaele Morgillo***, di anni **settantotto**, contadino, residente in Arienzo, nato in Arienzo, da fu **Nicola**, e da fu **Marzia Majone**, ***vedovo di Angela Maria Falco***» (level 13, z1041). Witnesses Alfonso Anzevino, 65, and Clemente Guida, 45, both messo comunale; read to all, signed by the two witnesses, the declarants declaring themselves illiterate. **The tie to this house** is the wife's full name, «*Angela Maria Falco*», written out as the widower's late wife: this house holds Angela Maria Falco (b. 19 Jan 1822, daughter of Giuseppe Falco and Antonia di Guida) and her marriage in November 1857 (Matrimoni 1857 act 26); the husband's own parents, Nicola and Marzia Maione, are not matched to any other house. A man of 78 in 1905 is b. c.1827, and ages are guessed. The act gives no date for Angela Maria's death and none is claimed. This row replaces the one read earlier by delegation (V139); the words, the number and the street agree.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 602 (right page), Morti 1905 atto 27 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the deceased's lines (z1041), 15 November 2026"
 }
 ],
 "sources": [
