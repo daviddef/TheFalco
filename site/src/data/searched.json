@@ -4985,5 +4985,61 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Morti 1903 (Parte I of 82 acts, Parte II none, annual index)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "322-349",
+  "walked": true,
+  "when": "1903 (MC55-RM9 leaves 322–349: Morti 1903, cover, title leaf, Parte I acts 1–82 closed 1 January 1904, Parte II with no act, and the annual index)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo death register of 1903 (MC55-RM9 322–349), read in full**",
+  "got": "Images 322–349 read, both pages of every leaf; 82 acts in Parte I, as the closing note says, and none in Parte II. Image 325 is a second exposure of the opening on 324 and is not counted as new pages. The annual index (two pages) lists two Falco rows, Falco Lucia 11 and Falco Pasqua 28, and both match acts read in full. Falco as the dead: act 11 (24 Feb 1903), Lucia Falco, 47, daughter of the late Crescenzo and the late Maria Morgillo, wife of Clemente Porrino, via Orticelli 8; act 28 (22 Apr 1903), Pasqua Falco, 80, daughter of the late Giuseppe and the late Gelsomina Vigliotta, wife of Pasquale Carfora, via Camellara 2. Both had been placed from a delegated reading and are now re-opened by the archive's own hand at level 13, each tied by both parents, husband, street and age. Falco as a mother under another name: act 52 (5 Aug 1903), Angela Crisci, 17, daughter of Pasquale Crisci and Francesca Falco, via Camellara 29, which the index files under Crisci. A Falco declarant, Antonio Falco, contadino (50 in act 28, 56 in act 52), is named in both and is left UNPLACED, since the name and the street are the only ties.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/lucia-falco-of-crescenzo-falco-angela-maria-morgi/",
+    "Lucia Falco"
+   ],
+   [
+    "/people/clemente-porrino-of-crescenzo-falco-angela-maria-morgi/",
+    "Clemente Porrino (b. c.1858)"
+   ],
+   [
+    "/people/pasquale-carfora-of-giuseppe-falco-gelsomina-vigliotta/",
+    "Pasquale Carfora"
+   ],
+   [
+    "/people/angela-crisci/",
+    "Angela Crisci (of Pasquale, d. 1903)"
+   ],
+   [
+    "/people/francesca-falco-of-pasquale-crisci-francesca-falco/",
+    "Francesca Falco (of via Camellara, 1885)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Deaths",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
