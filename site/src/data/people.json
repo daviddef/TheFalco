@@ -3859,6 +3859,36 @@
 "noKin": "no-edge-recorded"
 },
 {
+"slug": "maria-arricale-of-luigi-falco-carolina-cimmino-2",
+"name": "Maria Arricale (of Raffaele Arricale and Costanza Falco, b. 1903)",
+"surname": "ARRICALE",
+"household": "Luigi Falco & Carolina Cimmino",
+"hid": "luigi-falco-carolina-cimmino",
+"role": "grandchild",
+"events": [
+{
+"event": "birth",
+"date": "1 Jan 1903",
+"place": "Arienzo, Corso Caudino",
+"evidence": "Arienzo, *Nascite* **1903**, **Parte I, act 2** (name box «*Arricale Maria*»; declared **4 January 1903**, 11.45 a.m., Casa Comunale, before Alfonso de Nuptiis, assessore delegato con atto del Sindaco in data trenta Ottobre 1902): «*è comparso **Raffaele Arricale**, di anni **cinquanta**, **trainante**, domiciliato in Arienzo*» (level 13, z941), who declared that at 6.30 in the morning «*del dì primo del corrente mese, nella casa posta in **Corso Caudino***» (the house number is written out in words and was not settled at level 13: the word could be read as forty-eight or as eighty-eight, and the acts of 1901 and 1904 in this house give 88, so no number is claimed), «*da **Costanza Falco** sua moglie legittima, donna di casa, seco lui convivente, è nato un bambino di sesso femminile*», to whom he gives the name «***Maria***» (level 13, z942, z943). Witnesses «*Pasquale Perrotta, di anni cinquanta, bettoliere*» and «*Raffaele Sanzone, di anni quaranta, fabbro-ferraio*» (level 12), both resident in the commune; the act was read to them and none signed, all being unable to write. No later-hand note was seen on this act. **The ties to this house** are three and independent of one another: the father's name, trade and street (Raffaele Arricale, trainante, Corso Caudino, as in this house's births of 1900 and the death of 1904); the mother's full name written out, Costanza Falco, wife and living with him, the pair married here in July 1880; and the child's name, which repeats the name of the daughter Maria who died on 18 Sep 1901 (the same house's Morti 1901 act 68), a practice, not a proof. Pasquale Perrotta, bettoliere, is also the declarant of that death in 1901. The father's age is 50 in 1900 and 50 here (ages are guessed). The register records the birth and no later event; no marriage or death is claimed for this child.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 280 (left page, lower act, then the head of the right page), Nascite 1903 Parte I atto 2 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant's block and trade (z941), the street, the mother and the child's name (z942, z943), 15 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"b": "1 Jan 1903",
+"dateFrom": {
+"b": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "pasqua-arricale",
 "name": "Pasqua Arricale (the first, d. 1884)",
 "surname": "ARRICALE",
@@ -4000,6 +4030,13 @@
 "place": "Arienzo, Casa Comunale",
 "evidence": "The other party to the marriage of 15 Jul 1880 (Matrimoni , act 10): Raffaele Arricale, 27, vetturale, son of Carmine and Pasqua Rivetti; witnesses Andrea Saccone 61 and Luigi Crisci 48, scriventi; consent of the bride's family council.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 287, Matrimoni  atto 10 — read by a delegated reader and independently re-read by a second (V227)"
+},
+{
+"event": "named as father in his child's birth act",
+"date": "1 Jan 1903",
+"place": "Arienzo, Corso Caudino",
+"evidence": "Named as the father and the declarant in the birth act of 1 Jan 1903 (Nascite 1903 Parte I act 2, declared 4 January 1903): «*Raffaele Arricale, di anni cinquanta, trainante*», of Corso Caudino (read from the image at level 13, z941).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 280 (left page, lower act, then the head of the right page), Nascite 1903 Parte I atto 2 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant's block and trade (z941), the street, the mother and the child's name (z942, z943), 15 November 2026"
 }
 ],
 "sources": [
@@ -35288,6 +35325,13 @@
 "place": "Arienzo, Corso Caudino 88",
 "evidence": "Named as the mother in the death act of her daughter Maria, 18 September 1901 (Morti 1901 Parte I act 68): «*da Raffaele, trainante … e da Costanza Falco, fruttivendola*» (read from the image at level 13, z896); she is not among the declarants.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 117 (right page, lower act), Morti 1901 Parte I atto 68 - READ FROM THE IMAGE, level 12, with the declarants (z895) and the street, the child and her parents (z896) at level 13, 15 November 2026"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "1 Jan 1903",
+"place": "Arienzo, Corso Caudino",
+"evidence": "Named as the mother in the birth act of 1 Jan 1903 (Nascite 1903 Parte I act 2): «*Costanza Falco sua moglie legittima, donna di casa, seco lui convivente*», Corso Caudino (read from the image at level 13, z942).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 280 (left page, lower act, then the head of the right page), Nascite 1903 Parte I atto 2 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant's block and trade (z941), the street, the mother and the child's name (z942, z943), 15 November 2026"
 }
 ],
 "sources": [
