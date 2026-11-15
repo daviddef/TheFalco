@@ -7365,6 +7365,32 @@
 "noKin": "ancestor-in-another-act"
 },
 {
+"slug": "maria-assunta-caserta",
+"name": "Maria Assunta Caserta (bride in 1905)",
+"surname": "CASERTA",
+"household": "Pasquale Crisci & Francesca Falco",
+"hid": "pasquale-crisci-francesca-falco",
+"role": "married in",
+"events": [
+{
+"event": "marriage banns",
+"date": "30 Dec 1905",
+"place": "Arienzo, Casa Comunale",
+"evidence": "The other party to the banns of 30 Dec 1905 (Pubblicazioni 1905 Parte II act 13): Maria Assunta Caserta, 31, contadina, born and living at San Martino Valle Caudina, daughter of the late Pompilio, contadino, and of Antonia Testa. No tie to any other house is claimed.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 511 (foot of the left page, then the right page), Pubblicazioni di matrimonio 1905 Parte II atto 13 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line, both parents' lines and the bride's line (z1017, z1018), 15 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"noKin": "married-in"
+},
+{
 "slug": "letizia-casolla-casella",
 "name": "Letizia Casolla / Casella (Falcone)",
 "surname": "CASOLLA / CASELLA",
@@ -11250,6 +11276,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "angelo-crisci-of-pasquale-crisci-francesca-falco",
+"name": "Angelo Crisci (of Pasquale, b. 1882)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "4 Nov 1886",
@@ -11376,6 +11410,108 @@
 ]
 }
 ]
+},
+{
+"slug": "angelo-crisci-of-pasquale-crisci-francesca-falco",
+"name": "Angelo Crisci (of Pasquale, b. 1882)",
+"surname": "CRISCI",
+"household": "Pasquale Crisci & Francesca Falco",
+"hid": "pasquale-crisci-francesca-falco",
+"role": "child",
+"events": [
+{
+"event": "birth",
+"date": "22 Jul 1882",
+"place": "Arienzo, via Camellara 8",
+"evidence": "Arienzo, *Nascite* **1882**, **act 103** (declared **23 July 1882**, 9.15 a.m.; born at 7.30 p.m. on 22 July «*in via Cumellara*» [Camellara], no. 8): **Crisci Angelo**, declared by his father «***Pasquale Crisci**, di anni quaranta, contadino*»; mother «***Francesca Falco** sua moglie, contadina, seco lui convivente*» (the street, the number and the mother's name read at level 13, z106). Witnesses Clemente Porrino, 22, and Pasquale Carfora, 56, both contadini and illiterate; no margin note. **This act was found in the walk of the Nascite 1882 register on 13 November 2026 and was not held in the household until the banns of 30 December 1905 named the son again.** The father's age, 40 here, agrees with the 41 of the birth act of January 1885 held in this house, and the street is the same one with another number (8 here, 7 in 1885; house numbers in these acts are not reliable).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL image 568, Nascite 1882 atto 103 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the street, the number and the mother's name (z106), 13 November 2026"
+},
+{
+"event": "marriage banns (requested at San Martino Valle Caudina)",
+"date": "30 Dec 1905",
+"place": "Arienzo, Casa Comunale",
+"evidence": "Arienzo, *Pubblicazioni di matrimonio* **1905**, **Parte II, act 13** (a request sent to Arienzo by the Ufficiale dello Stato Civile of San Martino Valle Caudina, dated there **21 December 1905**, and entered at Arienzo on **30 December 1905**, 11.10 a.m., Casa Comunale, before Alfonso de Nuptiis, assessore delegato; posted on Sunday 31 December 1905, again on 7 January 1906): the groom «***Crisci Angelo***, celibe, di anni **ventitre**, di professione **contadino**, nato in Arienzo e domiciliato in detto Comune, figlio di **Pasquale**, di professione contadino, domiciliato in Arienzo, e di **Falco Francesca**, di professione contadina, domiciliata in detto Comune» (level 13, z1017, z1018), and the bride «*Caserta Maria Assunta*, di anni trentuno, di professione contadina, nata in S. Martino» (Valle Caudina) and living there, daughter of the late Pompilio, contadino, and of Antonia Testa, contadina. The act is the copy of a request, signed there by the Ufficiale of San Martino, and the Arienzo clerk adds that he ordered the postings at once and filed the authenticated request in the volume of the allegati; the act carries no signature of the parties or of witnesses. **The tie to this house** is by both parents: the father's forename Pasquale and his trade, and the mother's own name written out, «Falco Francesca», both living and both at Arienzo; this house holds Pasquale Crisci and Francesca Falco, married, of via Camellara, with children born from 1873 to 1889 and her death on 25 May 1909. **The tie that is not a name** is the birth act of 22 July 1882 (Nascite 1882 act 103, now held in this house): a son Angelo to the same two parents, which makes the groom 23 on 30 December 1905, the age written here. The marriage itself is not yet read.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 511 (foot of the left page, then the right page), Pubblicazioni di matrimonio 1905 Parte II atto 13 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line, both parents' lines and the bride's line (z1017, z1018), 15 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "pasquale-crisci-2",
+"name": "Pasquale Crisci (of via Camellara)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "francesca-falco-of-pasquale-crisci-francesca-falco",
+"name": "Francesca Falco (of via Camellara, 1885)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "domenico-crisci-of-pasquale-crisci-francesca-falco",
+"name": "Domenico Crisci (of Pasquale, b. 1885)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angela-crisci",
+"name": "Angela Crisci (of Pasquale, d. 1903)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clemente-crisci-2",
+"name": "Clemente Crisci (of Pasquale, d. 1873)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "domenico-crisci-of-pasquale-crisci-francesca-falco-2",
+"name": "Domenico Crisci (the first, of Pasquale, d. 1873)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giuseppe-crisci",
+"name": "Giuseppe Crisci (of Pasquale, b. 1889)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "maria-crisci-of-pasquale-crisci-francesca-falco",
+"name": "Maria Crisci (of Pasquale Crisci and Francesca Falco, aged 20 in 1896)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "22 Jul 1882",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "aniello-crisci-of-gioacchino-crisci-francesca-falco",
@@ -12539,6 +12675,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "angelo-crisci-of-pasquale-crisci-francesca-falco",
+"name": "Angelo Crisci (of Pasquale, b. 1882)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "mergedOn": "name alone",
@@ -13114,6 +13258,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "angelo-crisci-of-pasquale-crisci-francesca-falco",
+"name": "Angelo Crisci (of Pasquale, b. 1882)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "22 Jan 1885",
@@ -13199,6 +13351,14 @@
 {
 "slug": "maria-crisci-of-pasquale-crisci-francesca-falco",
 "name": "Maria Crisci (of Pasquale Crisci and Francesca Falco, aged 20 in 1896)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-crisci-of-pasquale-crisci-francesca-falco",
+"name": "Angelo Crisci (of Pasquale, b. 1882)",
 "via": "register",
 "vias": [
 "register"
@@ -13965,6 +14125,14 @@
 {
 "slug": "maria-crisci-of-pasquale-crisci-francesca-falco",
 "name": "Maria Crisci (of Pasquale Crisci and Francesca Falco, aged 20 in 1896)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-crisci-of-pasquale-crisci-francesca-falco",
+"name": "Angelo Crisci (of Pasquale, b. 1882)",
 "via": "register",
 "vias": [
 "register"
@@ -14890,6 +15058,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "angelo-crisci-of-pasquale-crisci-francesca-falco",
+"name": "Angelo Crisci (of Pasquale, b. 1882)",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ]
 },
@@ -15259,6 +15435,20 @@
 "place": "Arienzo, via Camellara 33",
 "evidence": "Arienzo, *Nascite* **1889**, **act 155** (17 November 1889, 9.20 a.m.): «***Pasquale Crisci**, di anni **quarantatre**, contadino*» declared the birth of his son Giuseppe, born at via Camellara 33 on 16 November 1889 (level 13, z490); he could not write. Forty-four in the 1886 act for Angela; ages are guessed.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1424 (left page; witnesses on the right page), Nascite 1889 atto 155 — READ FROM THE IMAGE, level 13 for the father's line, the street, the house number and the mother's name (z490), the margin at level 13 (z489, z491), 13 November 2026"
+},
+{
+"event": "declared his child's birth",
+"date": "23 Jul 1882",
+"place": "Arienzo, via Camellara 8",
+"evidence": "Named as the father and the declarant in the birth act of 22 Jul 1882 (Nascite 1882 act 103, declared 23 July 1882): «*Pasquale Crisci, di anni quaranta, contadino*», of via Camellara (level 12).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL image 568, Nascite 1882 atto 103 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the street, the number and the mother's name (z106), 13 November 2026"
+},
+{
+"event": "named as father in his son's marriage banns",
+"date": "30 Dec 1905",
+"place": "Arienzo, Casa Comunale",
+"evidence": "Named as the groom's father in the banns of 30 Dec 1905 (Pubblicazioni 1905 Parte II act 13): «*Pasquale, di professione contadino, domiciliato in Arienzo*», written without «fu», so living (level 13, z1017).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 511 (foot of the left page, then the right page), Pubblicazioni di matrimonio 1905 Parte II atto 13 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line, both parents' lines and the bride's line (z1017, z1018), 15 November 2026"
 }
 ],
 "sources": [
@@ -15338,6 +15528,14 @@
 {
 "slug": "maria-crisci-of-pasquale-crisci-francesca-falco",
 "name": "Maria Crisci (of Pasquale Crisci and Francesca Falco, aged 20 in 1896)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-crisci-of-pasquale-crisci-francesca-falco",
+"name": "Angelo Crisci (of Pasquale, b. 1882)",
 "via": "register",
 "vias": [
 "register"
@@ -39802,6 +40000,20 @@
 "place": "Arienzo, via Camellara 33",
 "evidence": "Arienzo, *Nascite* **1889**, **act 155** (17 November 1889): named as the mother of Giuseppe Crisci, born at via Camellara 33 on 16 November 1889: «*da **Francesca Falco** sua moglie legittima contadina seco lui convivente*» (level 13, z490). A further child of this couple with a birth act held here (Domenico 1885, Angela 1886); the act gives no parents for her.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1424 (left page; witnesses on the right page), Nascite 1889 atto 155 — READ FROM THE IMAGE, level 13 for the father's line, the street, the house number and the mother's name (z490), the margin at level 13 (z489, z491), 13 November 2026"
+},
+{
+"event": "named as mother in her child's birth act",
+"date": "23 Jul 1882",
+"place": "Arienzo, via Camellara 8",
+"evidence": "Named as the mother in the birth act of 22 Jul 1882 (Nascite 1882 act 103): «*Francesca Falco sua moglie, contadina, seco lui convivente*», via Camellara no. 8 (read at level 13, z106).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL image 568, Nascite 1882 atto 103 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the street, the number and the mother's name (z106), 13 November 2026"
+},
+{
+"event": "named as mother in her son's marriage banns",
+"date": "30 Dec 1905",
+"place": "Arienzo, Casa Comunale",
+"evidence": "Named as the groom's mother in the banns of 30 Dec 1905 (Pubblicazioni 1905 Parte II act 13): «*Falco Francesca, di professione contadina, domiciliata in detto Comune*» (Arienzo), written without «fu», so living; she died on 25 May 1909 (level 13, z1017, z1018).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 511 (foot of the left page, then the right page), Pubblicazioni di matrimonio 1905 Parte II atto 13 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line, both parents' lines and the bride's line (z1017, z1018), 15 November 2026"
 }
 ],
 "sources": [
@@ -39863,6 +40075,14 @@
 {
 "slug": "maria-crisci-of-pasquale-crisci-francesca-falco",
 "name": "Maria Crisci (of Pasquale Crisci and Francesca Falco, aged 20 in 1896)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-crisci-of-pasquale-crisci-francesca-falco",
+"name": "Angelo Crisci (of Pasquale, b. 1882)",
 "via": "register",
 "vias": [
 "register"
