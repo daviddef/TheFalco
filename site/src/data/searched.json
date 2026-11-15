@@ -5265,5 +5265,65 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Pubblicazioni di matrimonio 1905 (Parte I printed forms, 39 acts; Parte II requests from other comuni, 13 acts)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "483-511",
+  "walked": true,
+  "when": "1905 (MC55-RM9 leaves 483–511: Pubblicazioni di matrimonio 1905, Parte I acts 1–39 and Parte II acts 1–13, both parts closed 1 January 1906)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo marriage banns of 1905 (MC55-RM9 483–511), read in full**",
+  "got": "Images 483–511 read, both pages of every leaf: the cover label (483), Parte I, 39 printed-form acts requested at Arienzo from 21 January to 6 December 1905 (484–504; a blank form on the foot of 504), and Parte II, 13 acts, each a request received from another comune and copied in quotation marks (505–511), both parts closed by the registrar on 1 January 1906 with a Pretore visa of 15 January 1906. The volume carries no annual index. Five acts name a Falco and are placed, each by independent ties and not by the name alone. Parte I act 2 (21 January 1905): the groom Raffaele Crisci is a widower of Pasqualina Falco, who died on 1 June 1902; placed in the house of Angelo Falco and Annamaria Cimmino by the dead wife's date and the husband's parents, trade and age tied to the 1899 marriage held there. Parte I act 13 (15 April 1905): the groom Nicola Biondo is a widower of Clementina Falco; placed in the house of Matteo Falco and Alessandra Crisci by the wife's name, her death in 1900 and the groom's parents' names as in the 1878 marriage act, the groom's age disagreeing (42 against about 53). Parte I act 29 (18 August 1905): Falco Luigi, 25, calzolaio, son of Carmine and Giovanna Pellone, and Ferriello Concetta; placed in the house of Carmine Falco and Giovanna Pellone by both parents' names, the age, and the bride's name given in the margin of his 1880 birth act, the father's age disagreeing (49 against 53). Parte I act 33 (2 September 1905): Falco Angelo, 24, calzolaio, son of the late Vincenzo and of Angela Pellone, and Gagliardi Maria Luigia; placed in the house of Angelo Falco and Annamaria Cimmino by the dead father, the mother, the age, and the bride's name given in the margin of his 1880 birth act. Parte II act 13 (request of San Martino Valle Caudina, entered 30 December 1905): Crisci Angelo, 23, contadino, son of Pasquale and of Falco Francesca, and Caserta Maria Assunta; placed in the house of Pasquale Crisci and Francesca Falco by both parents' names and the birth act of 22 July 1882 (Nascite 1882 act 103), which the house had not held and now does. The groom of act 33 has his own household (Angelo Falco and Maria Luigia Gagliardi, a daughter born 12 October 1906); the join to it is left for the Matrimoni 1905 act, which will name the parents. Registrar and witnesses of the year: Alfonso de Nuptiis, assessore delegato, and the sindaco Nicola Finelli for three acts in August; messo comunale Alfonso Anzevino, 65, and Clemente Guida, 45; guardia municipale Simone d'Ambrosio, 51; Raffaele Troisi, 43, for two acts in September.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/raffaele-crisci-of-angelo-falco-annamaria-cimmino-cor/",
+    "Raffaele Crisci (of Antonio, calzolaio, husband of Pasqualina Falco, groom in 1905)"
+   ],
+   [
+    "/people/pasqualina-falco-of-angelo-falco-annamaria-cimmino-cor/",
+    "Pasqualina Falco (of Vincenzo, b. 1878)"
+   ],
+   [
+    "/people/clementina-falco-of-matteo-falco-alessandra-crisci/",
+    "Clementina Falco (of Matteo, b. 1848)"
+   ],
+   [
+    "/people/luigi-falco-of-carmino-falco-giovanna-pellone-2-2/",
+    "Luigi Falco (of Carmine, b. 1880)"
+   ],
+   [
+    "/people/angelo-falco-of-angelo-falco-annamaria-cimmino-cor-2/",
+    "Angelo Falco (of Vincenzo, b. 1880)"
+   ],
+   [
+    "/people/angelo-crisci-of-pasquale-crisci-francesca-falco/",
+    "Angelo Crisci (of Pasquale, b. 1882)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Banns",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
