@@ -5217,5 +5217,53 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Morti 1904 (Parte I 92 acts, Parte II no act)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "450-480",
+  "walked": true,
+  "when": "1904 (MC55-RM9 images 450–480: the Morti register of 1904, cover, Parte I acts 1–92 closed 1 January 1905, Parte II closed with no act, annual index)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo death register of 1904 (MC55-RM9 450–480), read in full, with its annual index**",
+  "got": "Images 450–480 read, both pages of every leaf: Parte I, printed forms, 92 acts, then Parte II, which its closing note says holds no act, then the annual index (two written pages and a ruled blank). The index names one Falco as the dead person, Carmela (act 34), and that act was re-opened at level 13: Carmela Paola Falco died on 18 June 1904 (the act was made on the 19th), and the house's delegated reading was corrected. Terms tried: Falco, De Falco, Falcone. Act 60 (Francesco Arricale, 9 years 5 months, son of Raffaele Arricale and Costanza Falco, died 11 September 1904 at Corso Caudino 88) was re-opened at level 13 and its house row rewritten from the archive's own reading. Act 82 (Pasquale Carfora, 72, colono, via Allegria, died 25 November 1904, widower of Pasqua Falco) was placed in the Giuseppe Falco and Gelsomina Vigliotta house by the widow clause and her 1880 second marriage and 1903 death held there; his parents, Antonio and Giuseppa Perreca, are recorded and not joined to the Carfora house of the same names. Falco declarants or witnesses are recorded and not placed: Angelo Falco, 68, trainante (act 1); Pasquale Falco, 46, contadino (act 2); Pasquale Falco, 34, trainante (act 41); Gioacchino Falco, 70, contadino, via Orticelli 2 (act 46); Pasquale Falco, 33, trainante (act 60); Giovanni Falco, 58, contadino (act 90). No other Falco appears in a party, parent, declarant or witness cell; near-names are not counted.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/carmela-paola-falco/",
+    "Carmela Paola Falco (b. 1903, d. 1904)"
+   ],
+   [
+    "/people/francesco-arricale-of-luigi-falco-carolina-cimmino/",
+    "Francesco Arricale (of Raffaele Arricale and Costanza Falco, d. 1904)"
+   ],
+   [
+    "/people/pasquale-carfora-of-giuseppe-falco-gelsomina-vigliotta/",
+    "Pasquale Carfora"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Deaths",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
