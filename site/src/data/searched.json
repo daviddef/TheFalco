@@ -6085,5 +6085,73 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "walked": true,
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "book": "Morti 1908 (Parte I, 98 acts; Parte II, no acts; annual index)",
+  "pages": "880-909",
+  "when": "1908 (MC55-RM9 images 880–909: Morti 1908, Parte I acts 1–98, Parte II with no act, both closed 1 January 1909, and the Indice annuale)",
+  "what": "**Every act of the Arienzo death register of 1908 (MC55-RM9 880–909), read in full**",
+  "got": "Images 880–909 read, both pages of every leaf: the title page (880), Parte I, 98 printed-form acts from January to 30 December 1908 (880–905, two acts to a page), the blank right page of 905 and a blank left page of 906, the Parte II cover (906), the closing note of Parte II, which «non contiene alcun atto» and is closed on 1 January 1909 by Alfonso de Nuptiis, assessore delegato on the sindaco's act of 23 August 1908 (907), and the Indice annuale (908–909, the last page blank). Parte I is closed with «novantotto» acts on 1 January 1909. The registrar is the sindaco Marcellino Guerriero to 17 June, Tommaso Aquarulo as assessore anziano from 5 July, Biagio Diglio as consigliere anziano from 20 July, Giacomo De Falco as sindaco in the heads of acts 61, 69 and 95 (25 August, 23 September, 28 December), and Alfonso de Nuptiis as assessore delegato for most acts from 24 August. Three Falco are among the dead, each placed in a house on the parents, the street and the child's own birth, never on a name alone: act 3 (13 January, Corso Caudino 83), Falco Clemente, 3 months, son of Pasquale, trainante, and Angelamaria Attanasio; act 44 (16 June, via Orticelli 2), Falco Giuseppe, 8 months, son of Crescenzo, contadino, and Maria Rosa Martone, the child of the birth act of 3 October 1907, whose declarants Giovanni Falco, 58, and Giuseppe Falco, 60, both contadini, are not placed; and act 93 (26 December, Corso Caudino 94), Falco Carolina, 15 years 9 months, daughter of Carmine, trainante, and Giovanna Pellone, the girl born on 23 March 1893. Two acts name a Falco as the mother of the deceased: act 76 (1 November, via Cumellara 14), Arricale Carolina, 12, and act 89 (15 December, Corso Caudino 88), Arricale Maria, 6, both daughters of Raffaele Arricale, trainante, and Costanza Falco, casalinga; the delegated reading of act 89 gave the house number 28 and the image gives 88, so the held row was corrected. All five held readings of this register (acts 3, 44, 76, 89, 93) are now re-opened from the image and each agrees with the delegated reading in every other word. One further act, 40 (31 May, via Cumellara 13), Di Silvio Maria Michela Raffaela, 24 days, names the mother Giuliana Spunzo and the father Antonio, falegname; it is placed in the Falco and Ambrogio house as probable, on the couple's two names and the banns of 14 May 1907, and the street and the father's trade differ from the earlier acts. The Indice annuale lists three Falco, 3, 44 and 93 (a first number 17 is struck through beside 93), as the acts read; it lists the dead only, so it does not reach the mothers of acts 76 and 89. Searched in the terms Falco, De Falco and Falcone, and the catalogue's coverage check for the family passed with those three terms. Near-names seen and not counted: Sforza (the mother of act 32, a woman of Santa Maria a Vico, with no tie to the Sforza or Spunzo of the Falco house), Annecchino (a declarant of act 34), Arricale (the mother of act 60) and Maione (act 42, a child born at Forchia). The other acts name no Falco in a dead, parent, declarant or witness cell.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/clemente-francesco-falco/",
+    "Clemente Francesco Falco (of Pasquale, b. 1907)"
+   ],
+   [
+    "/people/giuseppe-falco-of-crescenzo-falco-maria-rosa-martone/",
+    "Giuseppe Falco (of Crescenzo, b. 1907)"
+   ],
+   [
+    "/people/carolina-falco-of-carmino-falco-giovanna-pellone-2-2/",
+    "Carolina Falco (of Carmine, b. 1893)"
+   ],
+   [
+    "/people/carolina-arricale/",
+    "Carolina Arricale (of Raffaele, d. 1908)"
+   ],
+   [
+    "/people/maria-arricale/",
+    "Maria Arricale (of Raffaele, d. 1908)"
+   ],
+   [
+    "/people/maria-michela-raffaela-di-silvio/",
+    "Maria Michela Raffaela di Silvio (of Antonio di Silvio & Giuliana Spunzo, b. 1908)"
+   ],
+   [
+    "/people/giuliano-spunzo/",
+    "Giuliano Spunzo (of Pasquale Spunzo & Maria Carmina Falco, b. 1888)"
+   ],
+   [
+    "/people/antonio-di-silvio/",
+    "Antonio di Silvio (of the late Raffaele, groom in 1907)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Death",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
