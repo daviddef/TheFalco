@@ -4773,5 +4773,65 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Pubblicazioni di matrimonio 1903 (Parte I of 22 acts, Parte II of 11 acts)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "235-256",
+  "walked": true,
+  "when": "1903 (MC55-RM9 leaves 235–256: Pubblicazioni 1903, cover and title leaf, Parte I acts 1–22 closed 1 January 1904, Parte II acts 1–11 closed 1 January 1904)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo banns register of 1903 (MC55-RM9 235–256), read in full**",
+  "got": "Images 235–256 read, both pages of every leaf; 22 acts in Parte I and 11 in Parte II (banns requested by Santa Maria a Vico, San Felice a Cancello, Salerno, Naples and Arpaia), as the two closing notes say. No annual index image was seen in this register. Falco as a party: Parte I act 15 (banns from 16 Sep 1903) is Valeriano Anzivino, 28, son of Alfonso Anzivino and Marianna Falco, and act 20 (banns from 27 Nov 1903) is Grazia Maria Anzivino, 25, daughter of the same parents; both are placed in the Andrea Falco and Maria Carmela Buono house by both parents' names, Marianna Falco being that house's daughter b. 1851, who married Alfonso Anzivino in 1870 and had four children there already held. Alfonso Anzivino is the messo comunale who witnesses these registers; he is 'possidente' in the 1870–1892 acts and 'messo comunale' from 1898, and no act explains the change, which the evidence states. Left unplaced: Annecchino Giuseppe of Forchia × Diglio Vittoria (Parte I act 7), who has no second tie; Morgillo Marco, sportaro, son of Domenico and Lettieri Angiola (Parte II act 8), read at level 12 only. Giacomo De Falco and the Parte II acts carry no Falco as a party.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/valeriano-anzivino/",
+    "Valeriano Anzivino (of Alfonso Anzivino and Marianna Falco, groom in 1903)"
+   ],
+   [
+    "/people/grazia-maria-anzivino/",
+    "Grazia Maria Anzivino (of Alfonso Anzivino and Marianna Falco, bride in 1903)"
+   ],
+   [
+    "/people/marianna-falco-2/",
+    "Marianna Falco (of Andrea, b. 1851)"
+   ],
+   [
+    "/people/luigi-alfonso-paolo-anzivino/",
+    "Luigi Alfonso Paolo Anzivino"
+   ],
+   [
+    "/people/pasqua-porrino/",
+    "Pasqua Porrino (bride in 1903)"
+   ],
+   [
+    "/people/antonio-arricale-of-andrea-falco-maria-carmela-buono/",
+    "Antonio Arricale (of Carmine, groom in 1903)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Banns",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
