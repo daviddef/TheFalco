@@ -4453,5 +4453,105 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Cittadinanze 1901 (two acts)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "95-97",
+  "walked": true,
+  "when": "1901 (MC55-RM9 leaves 95–97: the cover label and title page of the Cittadinanze register, two acts of 1901, the closing note of 1 January 1902)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo citizenship register of 1901 (MC55-RM9 95–97), read in full**",
+  "got": "Images 95–97 read, both pages of every leaf. The register holds two acts, both transfers of residence to Arienzo by one family from outside the commune, with the notary and a surveyor as witnesses; it closes on 1 January 1902. No Falco and no near-name in any cell.",
+  "outcome": "nothing",
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Births",
+   "Deaths",
+   "Marriages",
+   "Falco",
+   "full walk"
+  ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Morti 1901 (Parte I of 90 acts, Parte II of 2 acts, annual index)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "98-129",
+  "walked": true,
+  "when": "1901 (MC55-RM9 leaves 98–129: Morti 1901, cover label and title page, Parte I acts 1–90 closed 1 January 1902, Parte II acts 1–2 (deaths abroad, transcribed), and the two-page annual index; images 99 and 100 and images 125 and 126 are two exposures of one opening each)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo death register of 1901 (MC55-RM9 98–129), read in full**",
+  "got": "Images 98–129 read, both pages of every leaf. Five acts of this line are in it: the death of Andrea Falco, 79, on 15 March 1901 (act 19), a brother of the line's fourth generation, placed with his parents and with his wife; Gioacchino Falco as a declarant (act 13); the death of Lelio Librera on 2 July 1901 (act 39), husband of Angela Rosa Falco; the death of Angela Maria Morgillo on 16 July 1901 (act 43), widow of Crescenzo Falco, whose parents agree word for word with her marriage act; and the death of Maria Arricale, 18 months, on 18 September 1901 (act 68), whose mother is Costanza Falco and who is the girl born in 1900, so the Maria Arricale of 1908 is a different child. Each is in its household with the names, an age or a house as independent ties. The annual index lists one Falco entry (Andrea, 19) and De Falco Salvatore (81). Not placed, left as leads: Pasquale Falco, 32, trainante, a declarant at act 68, and the De Falco gentry infant at act 81.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/andrea-falco-2/",
+    "Andrea Falco (of Maria Carmela Buono)"
+   ],
+   [
+    "/people/maria-carmela-buono-of-andrea-falco-maria-carmela-buono/",
+    "Maria Carmela Buono"
+   ],
+   [
+    "/people/gioacchino-falco-of-gioacchino-falco-andreana-crisci/",
+    "Gioacchino Falco (of via Orticelli)"
+   ],
+   [
+    "/people/lelio-librera/",
+    "Lelio Librera"
+   ],
+   [
+    "/people/angela-rosa-falco-of-lelio-librera-angela-rosa-falco/",
+    "Angela Rosa Falco (wife of Lelio Librera)"
+   ],
+   [
+    "/people/angela-maria-morgillo-of-crescenzo-falco-angela-maria-morgi/",
+    "Angela Maria Morgillo"
+   ],
+   [
+    "/people/crescenzo-falco/",
+    "Crescenzo Falco"
+   ],
+   [
+    "/people/maria-arricale-of-luigi-falco-carolina-cimmino/",
+    "Maria Arricale (of Raffaele Arricale and Costanza Falco, b. 1900)"
+   ],
+   [
+    "/people/costanza-falco-of-luigi-falco-carolina-cimmino-2/",
+    "Costanza Falco (of Luigi, b. 1862)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Births",
+   "Deaths",
+   "Marriages",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
