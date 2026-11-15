@@ -12778,14 +12778,6 @@
 "vias": [
 "register"
 ]
-},
-{
-"slug": "raffaele-crisci",
-"name": "Raffaele Crisci",
-"via": "register",
-"vias": [
-"register"
-]
 }
 ],
 "siblings": [],
@@ -15461,16 +15453,7 @@
 "tree"
 ],
 "living": false,
-"parents": [
-{
-"slug": "crescenzo-crisci",
-"name": "Crescenzo Crisci",
-"via": "register",
-"vias": [
-"register"
-]
-}
-],
+"parents": [],
 "spouses": [
 {
 "slug": "francesca-crisci",
@@ -15524,7 +15507,7 @@
 }
 ],
 "siblings": [],
-"mergedOn": "name alone",
+"mergedOn": "the couple — his own name AND his wife's agree on both sides, and the pairing is unique in each direction",
 "treeId": 4512418,
 "b": "1811",
 "dateFrom": {
@@ -15534,6 +15517,32 @@
 },
 "bp": "Arienzo, Caserta, Campania, Italy",
 "d": "22 Aug 1879"
+},
+{
+"slug": "raffaele-crisci-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Raffaele Crisci (of Antonio, calzolaio, husband of Pasqualina Falco, groom in 1905)",
+"surname": "CRISCI",
+"household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+"hid": "angelo-falco-annamaria-cimmino-corso-caudino",
+"role": "married in",
+"events": [
+{
+"event": "marriage banns (second marriage)",
+"date": "21 Jan 1905",
+"place": "Arienzo, Casa Comunale",
+"evidence": "Arienzo, *Pubblicazioni di matrimonio* **1905**, **Parte I, act 2** (name box «*Crisci Raffaele / D'Ambrosio Rosa*»; the request taken on **21 January 1905**, 6.20 p.m., Casa Comunale, before Alfonso de Nuptiis, assessore delegato con atto del Sindaco del trenta ottobre 1902; posted on Sunday 22 January, again on 29 January, and left up until 2 February): the groom «***Crisci Raffaele***, di anni **trentuno**, **calzolaio**, residente in Arienzo, figlio d'**Antonio**, di anni sessantuno, pizzicagnolo (as read), residente in Arienzo, e figlio della fu **Lettieri Felicia**» (level 13, z1008), born at Arienzo, and the bride «***D'Ambrosio Rosa***, di anni ventotto, donna di casa, residente in Arienzo, figlia d'**Clemente**, di anni settantatre, possidente, residente in Arienzo, e figlia d'**Crisci Carmela**, donna di casa, residente in Arienzo» (level 13, z1009), born at Arienzo. The documents are the copies of both birth acts issued by the registrar that day and «*copia dell'atto di morte di **Pasqualina Falco**, già moglie dello sposo*», likewise issued that day, from which it appears that «*la Falco è morta in questo Comune il primo giugno millenovecentodue*» (level 13, z1007). Witnesses Alfonso Anzevino, 65, and Clemente Guida, 45, messi comunali; the act was read to those present and signed by the groom («Raffaele Crisci»), the bride («Rosa D'Ambrosio») and the two witnesses. **The tie to this house** is by the dead wife, named and dated: the groom is a widower whose former wife was «Pasqualina Falco» and whose death act, issued by the registrar that day, shows that she «è morta in questo Comune il primo giugno millenovecentodue» (level 13, z1007); this house holds the death of Pasqualina Falco, 24, wife of Raffaele Crisci, on 1 June 1902 (Morti 1902 act 28), on that day. The groom's particulars repeat the husband's in this house, written out in the marriage act of 25 May 1899: Raffaele Crisci, calzolaio, son of Antonio and the late Lettieri Felicia, aged 25 then and 31 here (ages are guessed). Their two children, Antonio (d. 23 Dec 1902) and Soccorrina (b. 18 May 1902), are held here; the banns do not name them and no child of the new marriage is claimed. The banns give no date of birth for either party and none is claimed; the marriage itself is not yet read.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 485 (right page), Pubblicazioni di matrimonio 1905 Parte I atto 2 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line, the father's and mother's names, the bride's lines and the document line naming the dead wife (z1007, z1008, z1009), 15 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "sante-crisci",
@@ -16446,6 +16455,32 @@
 ],
 "siblings": [],
 "treeId": 4512384
+},
+{
+"slug": "rosa-d-ambrosio",
+"name": "Rosa D'Ambrosio (of Clemente, bride in 1905)",
+"surname": "D'AMBROSIO",
+"household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+"hid": "angelo-falco-annamaria-cimmino-corso-caudino",
+"role": "married in",
+"events": [
+{
+"event": "marriage banns",
+"date": "21 Jan 1905",
+"place": "Arienzo, Casa Comunale",
+"evidence": "The other party to the banns of 21 Jan 1905 (Pubblicazioni 1905 Parte I act 2): Rosa d'Ambrosio, 28, donna di casa, born at Arienzo, daughter of Clemente, 73, possidente, and Carmela Crisci, donna di casa (level 13, z1009). No tie to any other house is claimed.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 485 (right page), Pubblicazioni di matrimonio 1905 Parte I atto 2 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line, the father's and mother's names, the bride's lines and the document line naming the dead wife (z1007, z1008, z1009), 15 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "cristina-adele-d-arcy",
@@ -61730,6 +61765,13 @@
 "place": "Arienzo, Casa Comunale",
 "evidence": "Arienzo, *Matrimoni* **1899**, **Parte I, act 12** («*Numero Dodici*»; solemnised 25 May 1899, at eleven-thirty in the morning, Casa Comunale, before Raffaele De Musso, assessore delegato con atto del Sindaco in data cinque Gennaio 1897): «***Crisci Raffaele**, di anni **venticinque**, calzolaio, nato in Arienzo, residente in Arienzo, figlio d'**Antonio**, residente in Arienzo, e della fu **Lettieri Felicia***» and «***Falco Pasqualina**, di anni **ventuno**, donna di casa, nata in Arienzo, residente in Arienzo, figlia del fu **Vincenzo** e di **Pellone Angela**, residente in Arienzo*» (level 13, z812). The certificate of the banns is quoted: first publication the sixteenth and the second the twenty-third of April of the same year, no opposition made; this is the banns act of 12 April 1899 already held in this household. Witnesses «*il Signor Eugenio Sorice*», aged thirty-five, and «*il Signor Pasquale Gesue*», both resident at Arienzo. The act was read to those present and the groom, the bride and the witnesses signed («Raffaele Crisci», «Pasqualina Falco», «Eugenio Sorice», «Pasquale Gesue»), so the bride's signature is her own hand. **Why this is the same woman as the one of the banns, and of this household.** The act repeats the banns' particulars exactly (groom's age 25, calzolaio, son of Antonio and the late Lettieri Felicia; bride's age 21, donna di casa, daughter of the late Vincenzo and of Pellone Angela), the groom is the husband named in her death act of 1 June 1902 here, and the margin of her birth act (Nascite 1878 act 10) points to an act of 25 May 1899, number 12, which is this one: the birth and the marriage now cite each other. **Not the other Pasqualina Falco**, whose marriage is Matrimoni 1896 act 28 in the household of Pasquale Falco and Maria Amelia Guida. The banns act and this act both name her father as dead, which fits the household. Her death three years later (Morti 1902 act 28, delegated reading) is a separate row.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2661 (right page; the left page of the same opening holds act 11), Matrimoni 1899 Parte I atto 12 — READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's and the bride's lines, ages and parents (z812), 13 November 2026"
+},
+{
+"event": "named as the dead first wife in her widower's second banns",
+"date": "21 Jan 1905",
+"place": "Arienzo, Casa Comunale",
+"evidence": "Named as the groom's former wife in his second marriage banns of 21 Jan 1905 (Pubblicazioni 1905 Parte I act 2): «*copia dell'atto di morte di Pasqualina Falco, già moglie dello sposo*», dead «*in questo Comune il primo giugno millenovecentodue*» (level 13, z1007); the day of her death in this house.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 485 (right page), Pubblicazioni di matrimonio 1905 Parte I atto 2 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line, the father's and mother's names, the bride's lines and the document line naming the dead wife (z1007, z1008, z1009), 15 November 2026"
 }
 ],
 "sources": [
