@@ -6197,5 +6197,57 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "walked": true,
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "book": "Matrimoni 1908 (Parte I, 36 acts; Parte II, 2 acts; annual index)",
+  "pages": "937-962",
+  "when": "1908 (MC55-RM9 images 937–962: Matrimoni 1908, Parte I acts 1–36 and Parte II acts 1–2, both closed 1 January 1909, Pretore's visa 14 January 1909, and the Indice annuale)",
+  "what": "**Every act of the Arienzo marriage register of 1908 (MC55-RM9 937–962), read in full**",
+  "got": "Images 937–962 read, both pages of every leaf: the cover (937) and the title page (938, thirty-four folios visaed on 23 December 1907), Parte I, 36 printed-form acts celebrated at the Casa Comunale from 6 January to 27 December 1908 (939–957), Parte II, two acts, each the transcription of a marriage celebrated elsewhere (Maddaloni; Boston), closed on 1 January 1909 and visaed on 14 January 1909 (958–960), and the Indice annuale (961–962, 36 entries in Parte 1a and 2 in Parte 2a, which agree with the acts read). Image 941 is a second exposure of 940 and adds no pages. The registrar is Marcellino Guerriero to act 18, Tommaso Aquarulo as assessore anziano for acts 19 and 20, and Alfonso de Nuptiis for most of the rest; Giacomo De Falco is the sindaco in acts 23, 28 and 33 and is a registrar only, no party, parent or witness. Two acts name a Falco, both as the mother of a party, and each is placed in the house of Matteo Falco and Alessandra Crisci on independent ties, never on a name alone. Act 1 (6 January 1908): Biondo Giuseppe, 24, carpentiere, son of Nicola and the late Clementina Falco, married Diglio Felicia, 27; the banns of 30 November 1907 were already entered, and the dead mother is read at level 13 (z1133). Act 20 (19 July 1908): Morgillo Luciano married Ferrara Agnese, 25, daughter of Giovanni and Maria Falco, read at level 13 (z1134), entered with the banns of 26 June 1908 (Pubblicazioni 1908 act 16); the tie is by both parents written out, the age series and the reused name Agnese, and no street is claimed. The Indice annuale lists no Falco as a groom or bride, which agrees with the acts: it does not list mothers, so it is a check on the spouses only. Searched in the terms Falco, De Falco and Falcone, and the catalogue's coverage check for the family passed with those three terms. Near-names seen and not counted: Carfora (acts 18 and 19), Fuccio (act 31), Annecchino (act 11, no tie to the Annecchino line claimed), Rivetti (act 4), Arricale, Maione, Morgillo (acts 17, 20 and 28), Ferrara (act 31, a groom's mother), Grieco, Diglio and Crisci among many. Act 16 (Nuzzo × Piscitelli) is the marriage named in the margin of Nascite 1907 act 133, and has no Falco. The other acts name no Falco in a groom, bride, parent or witness cell.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/giuseppe-biondo-2/",
+    "Giuseppe Biondo (of Nicola Biondo and Clementina Falco, groom in 1907)"
+   ],
+   [
+    "/people/felicia-diglio/",
+    "Felicia Diglio (of Bartolomeo, bride in 1907)"
+   ],
+   [
+    "/people/agnese-ferrara-of-matteo-falco-alessandra-crisci/",
+    "Agnese Ferrara (of Giovanni Ferraro and Maria Falco, bride in 1908)"
+   ],
+   [
+    "/people/luciano-morgillo/",
+    "Luciano Morgillo (of Pietro and Rosa Merola, groom in 1908)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Marriage",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
