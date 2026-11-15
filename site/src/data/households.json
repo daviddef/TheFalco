@@ -1737,6 +1737,17 @@
     "place": "Arienzo, Casa Comunale",
     "evidence": "Arienzo, *Matrimoni* **1899**, **Parte I, act 1** (21 January 1899, 11 a.m., Casa Comunale «*aperta al pubblico*», before Raffaele De Musso, assessore delegato con atto del Sindaco in data cinque gennaio 1897): the name box reads «*Giglio Giuseppe / Zimbardo Carmela*». The groom: «***Giglio Giuseppe**, di anni **venticinque**, sarto, nato in Arienzo, residente in Arienzo, figlio del fu **Luigi** … e del fu **Falco Filomena***» (level 13, z811; the mother's surname is written out, Falco). The bride: «*Zimbardo Carmela*, di anni *ventotto*, *donna di casa*, nata in Arienzo, figlia del fu Salvatore e di Migliore Teresa» (level 12). The officer read the articles 130, 131 and 132 of the Civil Code, asked each their consent, and pronounced them united. Witnesses Alfonso Anzevino, 59, and Raffaele Troisi, 42, both messi comunali. The document presented: the certificate of the publications made in this comune, **the first on the sixth and the second on the thirteenth of November 1898** without opposition — the dates of the banns row of this household (Pubblicazioni 1898 Parte I, act 26). The groom and bride declared themselves illiterate; the witnesses signed. **What this adds, and what it does not.** It is the marriage that the banns of 3 Nov 1898 announced, so the groom of these two acts is one man and the 21 January 1899 marriage is his. It does NOT add an independent tie to this household: the act names the groom's parents exactly as the banns do (Luigi, dead, and Filomena Falco, dead), and nothing in either act says Luigi was a Giglio of this house; the placement therefore rests on the same footing as the banns row — a name pair, the surname and both parents' deaths agreeing with this household's acts (Luigi Giglio d. 4 May 1887, Morti 1887 act 32; Maria Filomena Falco d. 16 Feb 1895 as «widow of Luigi Giglio», Morti 1895 act 11) — medium confidence, identity INFERRED. The groom's own birth act is still not read.",
     "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2655 (left page), Matrimoni 1899 Parte I, atto 1 — READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's and his mother's lines (z811), 13 November 2026"
+   },
+   {
+    "hid": "vincenzo-falco-andreana-crisci",
+    "household": "Vincenzo Falco & Andreana Crisci",
+    "person": "Andrea Falco",
+    "role": "child",
+    "event": "death",
+    "date": "15 Mar 1901",
+    "place": "Arienzo, via Sant'Andrea 15",
+    "evidence": "Died 15 March 1901 at Arienzo, via Sant'Andrea 15: Morti 1901 Parte I act 19, «*Andrea Falco, di anni settantanove, possidente … dal fu Vincenzo … e dalla fu Andreana Crisci … marito di Carmela Buono*» (read from the image at level 13, z890). See his own household, Andrea Falco and Maria Carmela Buono, where the act is told in full. Born 1 December 1821, so seventy-nine years and three months old.",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 105 (right page), Morti 1901 Parte I atto 19 - READ FROM THE IMAGE, level 12, with the deceased's line, the parents and the wife (z890) and the declarants (z891) at level 13, 15 November 2026"
    }
   ]
  },
@@ -15852,6 +15863,17 @@
     "place": "Arienzo",
     "evidence": "Named as the mother in the birth act of 8 Jul 1891: Andreana Crisci.",
     "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1655, Nascite 1891 atto 84 — delegated reader, then independently re-read by a verifier (V379)"
+   },
+   {
+    "hid": "gioacchino-falco-andreana-crisci",
+    "household": "Gioacchino Falco & Andreana Crisci",
+    "person": "Gioacchino Falco (of via Orticelli)",
+    "role": "father",
+    "event": "named as declarant in a death act",
+    "date": "19 Feb 1901",
+    "place": "Arienzo, via Orticelli 8",
+    "evidence": "Arienzo, *Morti* **1901**, **Parte I, act 13** (drawn on **19 February 1901**, 9.20 a.m., Casa Comunale, before Pasquale Gesue, assessore delegato): the first declarant is «***Gioacchino Falco**, di anni **cinquantacinque**, **contadino**, domiciliato in Arienzo*» (level 13, z889; the scribe's capital F is written like a J), with «*Pasquale Spinzo*» (surname as read), 57, contadino, declaring that at 2.50 in the morning of that day, «*in via Orticelli al numero otto*», died Maria Rosa Morgillo, 74, widow of Silvestro Biondo, daughter of the late Pascale and the late Mariangela di Nuzzo. **The ties to this house**: the name and the trade (Gioacchino Falco, contadino, was the father in this house's act of 1891, then fifty); and the house itself, via Orticelli number eight, which is where this house's births and deaths are recorded from 1878 to 1891 (and where other Falco households recorded theirs to 1895). The age is fifty-five here and fifty ten years before (ages are guessed). The same age, fifty-five, and the same trade are given for a Gioacchino Falco who witnessed a birth in the same register three weeks earlier (Nascite 1901 act 21, no street given); that is a lead and is not claimed here. The act does not say how the dead woman was related to him. It names him as a declarant and nothing more.",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 104 (left page), Morti 1901 Parte I atto 13 - READ FROM THE IMAGE, level 12, with the declarants and the street at level 13 (z889), 15 November 2026"
    }
   ]
  },
@@ -17170,6 +17192,28 @@
     "place": "Arienzo, Casa Comunale",
     "evidence": "Arienzo, *Matrimoni* **1900**, **Parte I, act 5** (name box «*Ferrara Giuseppe / Fuccio Marianna*»; 19 February 1900, 11.40 a.m., Casa Comunale, before Pasquale Gesue, assessore delegato con atto del Sindaco in data nove settembre 1899): the groom «*Ferrara Giuseppe*, di anni *quarantasei*, *commerciante*, nato in San Felice a Cancello, residente in Arienzo, figlio del fu *Michele* … e della fu *De Lucia Agnese*», and the bride «*Fuccio Marianna*, di anni **diciotto**, donna di casa, nata in Arienzo, residente in Arienzo, figlia di **Raffaele** … e di **Falco Andreana**, residente in Arienzo» (level 13, z843: the mother's surname Falco and her given name Andreana written out). The act pronounces them married. Banns «*la prima il quattro e la seconda il giorno undici corrente mese*» (4 and 11 February), no opposition; «*Al presente matrimonio prestarono consenso i genitori della sposa, come risulta dall'atto di richiesta di pubblicazioni*». Witnesses «*Alfonso Anzevino*, di anni sessanta» and «*Raffaele Troisi*, di anni quarantadue», messi comunali; the groom, the bride and the witnesses all signed (the bride's signature reads «*Marianna Fuccio*»). **Why this bride is Marianna of this household.** Three ties beyond the name, none of them inferred from a common name alone: (1) both parents are named, and the mother's own surname is written out, as in the banns act 4 of 1 February 1900 in which Andreana Falco appeared, was alive and consented; (2) the bride's age, 18, is exactly that of Marianna Fuccio born on 30 December 1881 (ages in these acts are guessed, but this one agrees with the birth act); (3) the later-hand margin of that birth act (Nascite 1882 act 4) names this very act: «*Con atto 19 Febbraio 1900 N. 5 in Arienzo la Fuccio sposò Giuseppe Ferraro*», the date and number matching this act. The groom is a widower, a man of San Felice a Cancello living at Arienzo, whose first wife's death copy is among the banns documents; nothing in this act adds to what the banns say of him. **The father's trade is not stated in this act**, so the cantiniere and sarto of the other acts are not touched by it. The year and day are read from the act's own opening line at level 12.",
     "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 2786 (left page), Matrimoni 1900, Parte I, atto 5 — READ FROM THE IMAGE, level 12 for the whole act and level 13 for the bride's lines and her mother's name (z843), 13 November 2026"
+   },
+   {
+    "hid": "andrea-falco-maria-carmela-buono",
+    "household": "Andrea Falco & Maria Carmela Buono",
+    "person": "Andrea Falco (of Maria Carmela Buono)",
+    "role": "father",
+    "event": "death",
+    "date": "15 Mar 1901",
+    "place": "Arienzo, via Sant'Andrea 15",
+    "evidence": "Arienzo, *Morti* **1901**, **Parte I, act 19** (drawn on **16 March 1901**, 8.30 a.m., Casa Comunale, before Pasquale Gesue, assessore delegato con atto del Sindaco in data 9 September 1899): declarants «*Francesco Crisci, di anni ventotto, calzolaio*» and «*Gennaro Perrotta, di anni trenta, sarto*», both of Arienzo (level 13, z891), who declared that at 7.40 in the evening «*di ieri*», in the house «*in via Sant'Andrea al numero quindici*», «*è morto **Andrea Falco**, di anni **settantanove**, **possidente**, residente in Arienzo, nato in Arienzo, dal fu **Vincenzo** … e dalla fu **Andreana Crisci** … **marito di Carmela Buono***» (level 13, z890; the wife's surname is read «Buono»; the name box in the margin reads *Falco Andrea*). Witnesses the messi comunali Alfonso Anzevino, 61, and Raffaele Troisi, 43; the declarants were illiterate. **He died on 15 March 1901.** **The ties to this house are four and independent of one another**: his own name; his parents, the late Vincenzo and the late Andreana Crisci, who are this household's head and mother (the act gives the filiation that the join of this house to its own head had lacked); his wife's name, Carmela Buono; and his age, seventy-nine, which is exact for a man born on 1 December 1821 (seventy-nine years and three months). The trade is new: *possidente*, where the births of 1847 to 1865 call him contadino and calessiere; the street, via Sant'Andrea, is the one where his daughter was born in 1851. «*Marito di*» and not «*vedovo di*»: his wife was alive on 15 March 1901. The register records the death and no margin note was seen on the act.",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 105 (right page), Morti 1901 Parte I atto 19 - READ FROM THE IMAGE, level 12, with the deceased's line, the parents and the wife (z890) and the declarants (z891) at level 13, 15 November 2026"
+   },
+   {
+    "hid": "andrea-falco-maria-carmela-buono",
+    "household": "Andrea Falco & Maria Carmela Buono",
+    "person": "Maria Carmela Buono",
+    "role": "mother",
+    "event": "named as wife in her husband's death act",
+    "date": "15 Mar 1901",
+    "place": "Arienzo, via Sant'Andrea 15",
+    "evidence": "Named as the wife of the dead man in the death act of 15 March 1901 (Morti 1901 Parte I act 19): «*marito di Carmela Buono*» — «marito», not «vedovo», so she was alive on that day (read from the image at level 13, z890).",
+    "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 105 (right page), Morti 1901 Parte I atto 19 - READ FROM THE IMAGE, level 12, with the deceased's line, the parents and the wife (z890) and the declarants (z891) at level 13, 15 November 2026"
    }
   ]
  },
