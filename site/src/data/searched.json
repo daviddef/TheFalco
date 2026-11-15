@@ -6249,5 +6249,65 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "walked": true,
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "book": "Nascite 1908 (Parte I, 145 acts; Parte II, 2 acts; annual index)",
+  "pages": "963-1018",
+  "when": "1908 (MC55-RM9 images 963–1018: Nascite 1908, Parte I acts 1–145 and Parte II acts 1–2, both closed 1 January 1909, Pretore's visa 14 January 1909, and the Indice annuale)",
+  "what": "**Every act of the Arienzo birth register of 1908 (MC55-RM9 963–1018), read in full**",
+  "got": "Images 963–1018 read, both pages of every leaf: the cover (963 and 964) and the title page of Parte I, 145 printed-form acts drawn from 1 January to 31 December 1908 (from 966 to 1014, three acts to a leaf), the close of Parte I, «contenente centoquarantacinque atti», on 1 January 1909 by Alfonso de Nuptiis, assessore delegato on the sindaco's act of 24 August 1908, with the Pretore's visa of 14 January 1909 (1014, read at level 13, z1144), blank forms to the end of that leaf, the Parte II cover (1015 and 1016), Parte II, two acts, each the transcription of a birth certificate from another place (a Milan act of 25 December 1907 and a Brooklyn baptism of 8 December 1907, both received in 1908; 1016–1017), closed on 1 January 1909 with the same visa, and the Indice annuale (1017–1018), which lists the child only and not the mother. Two Falco mothers are in the acts and both are placed in a house on at least two independent ties, never on a name alone. Act 58 (8 May 1908, via Camellara 13): Maria Michela Raffaela di Silvio, born to Antonio di Silvio and Giuliana Spunzo, whose mother is named in the banns of 14 May 1907 as Carmina Falco, in the house of Michele Falco and Maria Giovanna Ambrogio, beside the banns of 1907 and the marriage and the child's death (read at level 13, z1139). Act 115 (23 October 1908, via Torrette 5): Vincenza Cangiano, born to Vincenzo Cangiano, 26, cocchiere, and Assunta Falco, whose banns of 20 November 1907 and marriage of 19 December 1907 are already in the house of Antonio Falco and Carmela Guida, the child born ten months after the wedding (z1143). Two sightings are a witness only and are kept unplaced: Pasquale Falco, 41, trainante, a witness of act 48, and Pasquale Falco, 40, trainante, a witness of act 110 (z1141); a witness's residence is «questo Comune» only, and a name, a trade and an age are a lead and no tie. Act 48 and act 110 name no mother or father Falco. The Indice annuale holds no Falco, De Falco or Falcone as a child's surname; it carries the two Falco-mother acts under their children's surnames (Di Silvio Maria Michela 58 and Cangiano Vincenza 115), so those two controls were found in it and the pages are the instrument for mothers and witnesses. Searched in the terms Falco, De Falco and Falcone, and the catalogue's coverage check for the family passed with those three terms. Near-names seen and not counted: Fabozzi (Parte II act 1, the mother of a child born at Milan, read at level 13, z1145; not Falco), Fuccio and Fucci, Arricale, Anzevino and Anzivino, Carfora, Annecchino, Morgillo, Diglio and Rivetti among many. Later-hand margins on 1908 births carry marriages of 1936 to 1944 and a death of 1971; none is a Falco and none is evidence for a birth. Registrars: Marcellino Guerriero as sindaco to the summer, Giacomo De Falco as sindaco from 25 August to 16 October (a registrar in the signature, not a party), Tommaso Aquarulo as assessore anziano, and Alfonso de Nuptiis as assessore delegato. Image 965 is a second exposure of the opening before it and adds no pages. The other acts name no Falco in a child, parent or witness cell.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/maria-michela-raffaela-di-silvio/",
+    "Maria Michela Raffaela di Silvio (of Antonio di Silvio & Giuliana Spunzo, b. 1908)"
+   ],
+   [
+    "/people/giuliano-spunzo/",
+    "Giuliano Spunzo (of Pasquale Spunzo & Maria Carmina Falco, b. 1888)"
+   ],
+   [
+    "/people/antonio-di-silvio/",
+    "Antonio di Silvio (of the late Raffaele, groom in 1907)"
+   ],
+   [
+    "/people/vincenza-cangiano/",
+    "Vincenza Cangiano (of Vincenzo Cangiano and Assunta Falco, b. 1908)"
+   ],
+   [
+    "/people/assunta-falco-2/",
+    "Assunta Falco (of Antonio, b. 1886)"
+   ],
+   [
+    "/people/vincenzo-cangiano/",
+    "Vincenzo Cangiano (of the late Domenico, groom in 1907)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Birth",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
