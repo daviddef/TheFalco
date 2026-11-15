@@ -5589,5 +5589,81 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Matrimoni 1906 (Parte I, 26 acts; Parte II, 1 act; annual index)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "647-665",
+  "walked": true,
+  "when": "1906 (MC55-RM9 images 647–665: Matrimoni 1906, Parte I acts 1–26 and Parte II act 1, both closed 1 January 1907, Pretore's visa 16 January 1907, and the Indice annuale)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo marriage register of 1906 (MC55-RM9 647–665), read in full**",
+  "got": "Images 647–665 read, both pages of every leaf: the cover (647) and the title page (648), Parte I, 26 printed-form acts celebrated at the Casa Comunale from 4 January to 31 December 1906 (649–661, one act to a page), a blank leaf and the Parte II cover (662), Parte II (663–664), one act only, a transcription of a court sentence of Santa Maria Capua Vetere correcting a surname in acts of Santa Maria a Vico and Arienzo, and the Indice annuale (665); the register's one end note is dated 1 January 1907 and the Pretore's visas 9 May, 16 September 1906 and 16 January 1907. Five acts name a Falco and each is placed in a house on at least two independent ties, never on a name alone. Act 2 (17 January 1906): Falco Luigi, 25, calzolaio, son of Carmine and Giovanna Pellone, married Ferriello Concetta, in the house of Carmine Falco and Giovanna Pellone, the marriage whose banns were read in Pubblicazioni 1905 act 29. Act 4 (8 February): Anzevino Andrea, 23, son of Alfonso and Marianna Falco, married Laudando Felicia, in the house of Andrea Falco and Maria Carmela Buono. Act 5 (12 February): Biondo Vincenzo married Falco Teresa, 26, daughter of the late Pasquale and the late Maria Amalia Guida, in the house of Pasquale Falco and Maria Amalia Guida. Act 11 (28 June): Telese Pasquale married Arricale Maria Carmela, 27, daughter of the late Vincenzo and Concetta Falco, in the house of Andrea Falco and Maria Carmela Buono; the spouses recognise a son born in 1903, whose birth act is not held in this volume. Act 21 (2 December): Morgillo Vincenzo, 25, son of the late Carmine and Vincenza Falco, married Diglio Sabata, in the house of Matteo Falco and Alessandra Crisci; it is the marriage named in the margin of his birth act of 1881 (day, month, number and last digit of the year agree). Act 22 (10 December): Maione Raffaele married Crisci Filomena, 20, daughter of the late Antonio and Barbara Falco of Maddaloni, in the house of Luigi Falco and Maria Perrotta, worded as probable. The Indice annuale lists Falco in two entries only, acts 2 and 5, as the acts read; it does not list a Falco who is a mother, so it is a check on the grooms and brides and no more. Near-names seen and not counted: Anzivino Anna, daughter of the late Vincenzo (act 16; her father is not Alfonso and no tie to the Anzivino house is claimed) and Frasca (act 19, a bride's late mother). Registrars: Alfonso de Nuptiis, assessore delegato on the sindaco's act of 18 August 1905, to act 13; the sindaco Marcellino Guerriero for acts 14, 15 and 26; Agostino Crisci, assessore delegato on the sindaco's act of 26 August 1906, from act 16 and for the one act of Parte II. Witnesses are almost always the messi comunali Alfonso Anzevino and Clemente Guida, or Felice Sorice. The other acts name no Falco in a groom, bride, parent or witness cell. No second exposure was seen on any leaf.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/luigi-falco-of-carmino-falco-giovanna-pellone-2-2/",
+    "Luigi Falco (of Carmine, b. 1880)"
+   ],
+   [
+    "/people/andrea-anzivino/",
+    "Andrea Anzivino (of Alfonso Anzivino and Marianna Falco, groom in 1906)"
+   ],
+   [
+    "/people/marianna-falco-2/",
+    "Marianna Falco (of Andrea, b. 1851)"
+   ],
+   [
+    "/people/teresa-falco-of-pasquale-falco-maria-amalia-guida/",
+    "Teresa Falco (of Pasquale, b. 1879)"
+   ],
+   [
+    "/people/maria-carmela-arricale/",
+    "Maria Carmela Arricale (of Vincenzo Arricale and Maria Concetta Falco, b. 1878)"
+   ],
+   [
+    "/people/maria-concetta-falco-2/",
+    "Maria Concetta Falco (of Andrea, b. 1847)"
+   ],
+   [
+    "/people/vincenzo-pio-morgillo/",
+    "Vincenzo Pio Morgillo (of Carmine Morgillo and Vincenza Falco, b. 1881, groom in 1906)"
+   ],
+   [
+    "/people/vincenza-falco-of-matteo-falco-alessandra-crisci/",
+    "Vincenza Falco"
+   ],
+   [
+    "/people/filomena-crisci/",
+    "Filomena Crisci (of Antonio Crisci and Barbera Falco, bride in 1906)"
+   ],
+   [
+    "/people/barbera-falco/",
+    "Barbera Falco (of Luigi, b. c.1852)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Marriage",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
