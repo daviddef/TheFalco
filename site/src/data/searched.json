@@ -5665,5 +5665,65 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Nascite 1906 (Parte I, 123 acts; Parte II, 2 acts; annual index)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "668-712",
+  "walked": true,
+  "when": "1906 (MC55-RM9 images 668–712: Nascite 1906, Parte I acts 1–123 closed 1 January 1907, Parte II acts 1–2, and the Indice annuale)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo birth register of 1906 (MC55-RM9 668–712), read in full**",
+  "got": "Images 668–712 read, both pages of every leaf: Parte I, 123 printed-form acts, three to an image (668–708), closed by the assessore delegato on 1 January 1907; Parte II (709–711), two acts only, a late declaration by order of the Tribunale of Santa Maria Capua Vetere (a birth of 1887) and an act transcribed from Gragnano, closed the same day with the Pretore's visas of 9 May and 16 September 1906 and 16 January 1907; and the Indice annuale (711–712), whose Falco entries are three, acts 23, 67 and 94, the same three that the acts themselves give. Three acts name a Falco, each as the father's name and each placed in a house on independent ties, never on a name alone. Act 23 (22 February 1906): Falco Maria Ida, daughter of Pasquale Falco, 40, trainante, and Angelamaria Attanasio, Corso Caudino. Act 67 (5 July 1906): Falco Carminantonio, son of Angelo Falco, 45, contadino, and Vincenza de Lucia, via Camellara; the tie to the house rests on the wife's name, since the street and the father's age differ from the acts of 1900 and 1902, and the act says so. Act 94 (12 October 1906): Falco Angela, daughter of Angelo Falco, 26, calzolaio, and Maria Luigia Gagliardi, via Sant'Andrea, eleven months after their marriage of 16 November 1905. The household rows for all three had been read before only by a delegated reader and are now replaced by the archive's own reading at level 13. No act names a Falco as a mother, a declarant's wife's mother or a witness, and no margin note beside a Falco act was seen. Near-names seen and not counted: Fuccio (acts 14 and 55), Frasco and Frasca (acts 88, 122), Ferraro (55), Ferriello (120) and an Annecchino (act 111), the last not claimed for any house. Registrars: Alfonso de Nuptiis, assessore, acts 1–69 (67–69 as assessore anziano acting for the sindaco); the sindaco Marcellino Guerriero, acts 70–84; Agostino Crisci, assessore delegato on the sindaco's act of 26 August 1906, acts 85–123 and Parte II. No second exposure was seen on any leaf.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/maria-ida-falco/",
+    "Maria Ida Falco (of Pasquale, b. 1906)"
+   ],
+   [
+    "/people/angelamaria-attanasio/",
+    "Angelamaria Attanasio"
+   ],
+   [
+    "/people/carminantonio-falco/",
+    "Carminantonio Falco (of Angelo, b. 1906)"
+   ],
+   [
+    "/people/vincenza-de-lucia-2/",
+    "Vincenza de Lucia"
+   ],
+   [
+    "/people/angela-falco-of-angelo-falco-maria-luigia-gagliard/",
+    "Angela Falco (of Angelo, b. 1906)"
+   ],
+   [
+    "/people/maria-luigia-gagliardi/",
+    "Maria Luigia Gagliardi"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Birth",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
