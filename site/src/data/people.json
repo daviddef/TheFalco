@@ -7762,6 +7762,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-maria-luigia-gagliard",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [],
@@ -21751,6 +21759,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-maria-luigia-gagliard",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "2 Aug 1861",
@@ -24713,6 +24729,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-maria-luigia-gagliard",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "siblings": [
@@ -24841,43 +24865,6 @@
 "dateFrom": {
 "b": "act"
 }
-},
-{
-"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor-2",
-"name": "Angelo Falco (of Vincenzo, b. 1880)",
-"surname": "FALCO",
-"household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
-"hid": "angelo-falco-annamaria-cimmino-corso-caudino",
-"role": "grandchild",
-"events": [
-{
-"event": "birth",
-"date": "24 Dec 1880",
-"place": "Arienzo",
-"evidence": "Arienzo, *Nascite* **1880**, **act 120**: **ANGELO FALCO**, born **24 Dec 1880**, to **Vincenzo Falco** and **Angela Pellone**; margin: Name box 'Numero Centoventi / Falco Angelo'; marginal note in later hand, read: «Con atto 16/?/08 [month digit unclear; year 08 = 1908?] ... in Arienzo il Falco sposò la Gagliardi Maria» + illegible signature. *Read from the FamilySearch image by a delegated reader and independently re-read by a second reader; **not yet re-opened by the archive's own hand.***",
-"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 345, Nascite 1880 atto 120 — delegated reader, then independently re-read by a verifier (V233)"
-},
-{
-"event": "marriage banns",
-"date": "2 Sep 1905",
-"place": "Arienzo, Casa Comunale",
-"evidence": "Arienzo, *Pubblicazioni di matrimonio* **1905**, **Parte I, act 33** (name box «*Falco Angelo / Gagliardi Maria Luigia*»; the request taken on **2 September 1905**, 11.30 a.m., Casa Comunale, before Alfonso de Nuptiis, assessore delegato; posted on Sunday 3 September, again on 10 September, and left up until 14 September): the groom «***Falco Angelo***, di anni **ventiquattro**, **calzolaio**, residente in Arienzo, figlio del fu **Vincenzo** … e figlio di **Angela Pellone**, donna di casa, residente in Arienzo» (level 13, z1013), born at Arienzo, and the bride «*Gagliardi Maria Luigia*, di anni ventiquattro, donna di casa, residente in Arienzo, figlia di Carmine, di anni cinquantatre, agente daziario, e di Maria Grazia de Luca, donna di casa» (level 13, z1014), born at Arienzo. The documents are the copies of both birth acts issued by the registrar that day and «*copia dell'atto di morte del padre dello sposo*» issued the same day; «*è altresì comparsa la madre dello sposo, la quale presta il suo consenso al presente matrimonio*» (level 13, z1015). Witnesses Simone d'Ambrosio, 51, guardia municipale, and Clemente Guida, 45, messo comunale; the act was read to all present and signed by the groom, the bride and the two witnesses. **The tie to this house** is by the three names and the dead father: the groom is the son of a Vincenzo, now dead, and of Angela Pellone, and this house holds the man: Vincenzo Falco, son of Angelo, whose birth act of 1850 carries the margin of his marriage to Angela Pellone in December 1874, and who died at Corso Caudino on 12 September 1889; by the groom's age, 24 in September 1905 for a birth on 24 December 1880; and by the bride: the later-hand note in the margin of this house's birth act of 1880 (Nascite 1880 act 120, read by a delegated reader and not yet re-opened) gives «il Falco sposò la Gagliardi Maria», the bride's surname and first name written here. That margin gives its date as 1908 in the delegated reading, which is later than these banns of 1905. The marriage act itself is not yet read.",
-"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 501 (left page), Pubblicazioni di matrimonio 1905 Parte I atto 33 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's and mother's lines, the bride's lines and the document lines (z1013, z1014, z1015), 15 November 2026"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [],
-"children": [],
-"siblings": [],
-"b": "24 Dec 1880",
-"dateFrom": {
-"b": "act"
-},
-"noKin": "no-edge-recorded"
 },
 {
 "slug": "angelo-falco-of-giuseppe-falco-rosa-sposito",
@@ -25418,13 +25405,58 @@
 "place": "Arienzo",
 "evidence": "Named as the father in the birth act of 12 Oct 1906: Angelo Falco.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 699, Nascite 1906 atto 94 — delegated reader, then independently re-read by a verifier (V155)"
+},
+{
+"event": "marriage",
+"date": "16 Nov 1905",
+"place": "Arienzo, Casa Comunale",
+"evidence": "The groom of the marriage of 16 Nov 1905 (Matrimoni 1905 Parte I act 33): «*Falco Angelo*, di anni ventiquattro, calzolaio, nato in Arienzo», son of the late Vincenzo and of Angela Pellone, who married «*Gagliardi Maria Luigia*» (level 13, z1026, z1029). The couple of this house, whose daughter Angela was born on 12 Oct 1906: the same Angelo, the same wife's two forenames and surname, and a birth eleven months after the wedding. The full argument is in the Corso Caudino house, where the groom's parents and his birth of 24 Dec 1880 are held.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 531 (left page), Matrimoni 1905 Parte I atto 33 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line with his father and mother (z1026), the certificate of the banns (z1027, z1028) and the bride's line with her parents (z1029), 15 November 2026"
+},
+{
+"event": "birth",
+"date": "24 Dec 1880",
+"place": "Arienzo",
+"evidence": "Arienzo, *Nascite* **1880**, **act 120**: **ANGELO FALCO**, born **24 Dec 1880**, to **Vincenzo Falco** and **Angela Pellone**; margin: Name box 'Numero Centoventi / Falco Angelo'; marginal note in later hand, read: «Con atto 16/?/08 [month digit unclear; year 08 = 1908?] ... in Arienzo il Falco sposò la Gagliardi Maria» + illegible signature. *Read from the FamilySearch image by a delegated reader and independently re-read by a second reader; **not yet re-opened by the archive's own hand.***",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 345, Nascite 1880 atto 120 — delegated reader, then independently re-read by a verifier (V233)"
+},
+{
+"event": "marriage banns",
+"date": "2 Sep 1905",
+"place": "Arienzo, Casa Comunale",
+"evidence": "Arienzo, *Pubblicazioni di matrimonio* **1905**, **Parte I, act 33** (name box «*Falco Angelo / Gagliardi Maria Luigia*»; the request taken on **2 September 1905**, 11.30 a.m., Casa Comunale, before Alfonso de Nuptiis, assessore delegato; posted on Sunday 3 September, again on 10 September, and left up until 14 September): the groom «***Falco Angelo***, di anni **ventiquattro**, **calzolaio**, residente in Arienzo, figlio del fu **Vincenzo** … e figlio di **Angela Pellone**, donna di casa, residente in Arienzo» (level 13, z1013), born at Arienzo, and the bride «*Gagliardi Maria Luigia*, di anni ventiquattro, donna di casa, residente in Arienzo, figlia di Carmine, di anni cinquantatre, agente daziario, e di Maria Grazia de Luca, donna di casa» (level 13, z1014), born at Arienzo. The documents are the copies of both birth acts issued by the registrar that day and «*copia dell'atto di morte del padre dello sposo*» issued the same day; «*è altresì comparsa la madre dello sposo, la quale presta il suo consenso al presente matrimonio*» (level 13, z1015). Witnesses Simone d'Ambrosio, 51, guardia municipale, and Clemente Guida, 45, messo comunale; the act was read to all present and signed by the groom, the bride and the two witnesses. **The tie to this house** is by the three names and the dead father: the groom is the son of a Vincenzo, now dead, and of Angela Pellone, and this house holds the man: Vincenzo Falco, son of Angelo, whose birth act of 1850 carries the margin of his marriage to Angela Pellone in December 1874, and who died at Corso Caudino on 12 September 1889; by the groom's age, 24 in September 1905 for a birth on 24 December 1880; and by the bride: the later-hand note in the margin of this house's birth act of 1880 (Nascite 1880 act 120, read by a delegated reader and not yet re-opened) gives «il Falco sposò la Gagliardi Maria», the bride's surname and first name written here. That margin gives its date as 1908 in the delegated reading, which is later than these banns of 1905. The marriage act itself is not yet read.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 501 (left page), Pubblicazioni di matrimonio 1905 Parte I atto 33 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's and mother's lines, the bride's lines and the document lines (z1013, z1014, z1015), 15 November 2026"
+},
+{
+"event": "marriage",
+"date": "16 Nov 1905",
+"place": "Arienzo, Casa Comunale",
+"evidence": "Arienzo, *Matrimoni* **1905**, **Parte I, act 33** (**16 November 1905**, 4.30 p.m., Casa Comunale, before Alfonso de Nuptiis, assessore delegato; name box «*Falco Angelo / Gagliardi Maria Luigia*»): «***Falco Angelo***, di anni **ventiquattro**, **calzolaio**, nato in Arienzo, residente in Arienzo, figlio del fu **Vincenzo** e di **Angela Pellone**, residente in Arienzo» (level 13, z1026), and «***Gagliardi Maria Luigia***, di anni ventiquattro, donna di casa, nata in Arienzo, residente in Arienzo, figlia di **Carmine** e di **Maria Grazia De Lucia**» (level 13, z1029). One document, the certificate of the banns held at Arienzo, whose two Sundays are «il tre» and «il dieci» (level 13, z1027 and z1028; the month word is compressed and is not used); «*prestò consenso la madre dello sposo, essendo morto il padre di lui, come risulta dall'atto di richiesta di pubblicazioni*». Witnesses Alfonso Anzevino, 65, messo comunale, and Simone d'Ambrosio, 51, guardia municipale; the groom signed «*Angelo Falco*» and the bride «*Maria Luigia Gagliardi*». No margin note was seen. **THE BANNS OF 2 SEPTEMBER 1905, FOLLOWED TO THE WEDDING.** The request held in this house (Pubblicazioni 1905 Parte I act 33) names the same two spouses, the same ages (24 and 24), the same trade and the same dead father and living mother, and its Sundays, 3 and 10 September 1905, are the days this act cites; the two acts are one marriage read from both sides. The tie to this house is the banns' own (the dead father Vincenzo Falco, son of Angelo, who died at Corso Caudino on 12 Sep 1889; the mother Angela Pellone; the age exact for a birth on 24 Dec 1880), and it is now doubly held: the bride's name is the one the later-hand margin of the groom's birth act (Nascite 1880 act 120) gives for his wife. **The banns' transcription of the bride's mother as «de Luca» is superseded** by this act's level-13 reading «De Lucia»; that line of the banns is queued to be re-zoomed. **He is the head of a house of his own**: the couple's daughter Angela was born on 12 Oct 1906, eleven months after this wedding, to Angelo Falco and Maria Luigia Gagliardi (Nascite 1906 act 94, read by a delegated reader and not yet re-opened by the archive's own hand).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 531 (left page), Matrimoni 1905 Parte I atto 33 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line with his father and mother (z1026), the certificate of the banns (z1027, z1028) and the bride's line with her parents (z1029), 15 November 2026"
 }
 ],
 "sources": [
 "register"
 ],
 "living": false,
-"parents": [],
+"parents": [
+{
+"slug": "angelo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angelo Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "annamaria-cimmino",
+"name": "Annamaria Cimmino",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "spouses": [
 {
 "slug": "maria-luigia-gagliardi",
@@ -25445,7 +25477,76 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [
+{
+"slug": "carmela-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Carmela Falco (of Angelo, b. c.1863)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "vincenzo-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Vincenzo Falco (of Angelo, d. 1889)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "alfonso-isidoro-falco",
+"name": "Alfonso Isidoro Falco (of Angelo, b. 1861)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "costanza-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Costanza Falco (of Angelo, b. 1855)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "antonia-falco-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Antonia Falco (of Angelo, b. 1848)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "pasquale-falco-of-angelo-falco-annamaria-cimmino-cor-2",
+"name": "Pasquale Falco (of Angelo, b. 1867)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "clemente-falco-of-clemente-falco-gaetana-crispo",
+"name": "Clemente Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giovanbattista-falco",
+"name": "Giovanbattista Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"b": "24 Dec 1880",
+"dateFrom": {
+"b": "act"
+}
 },
 {
 "slug": "angelo-falco",
@@ -26849,6 +26950,14 @@
 {
 "slug": "giovanbattista-falco",
 "name": "Giovanbattista Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-maria-luigia-gagliard",
+"name": "Angelo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -29989,6 +30098,14 @@
 {
 "slug": "giovanbattista-falco",
 "name": "Giovanbattista Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-maria-luigia-gagliard",
+"name": "Angelo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -34623,6 +34740,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-maria-luigia-gagliard",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "28 Feb 1858",
@@ -35512,6 +35637,14 @@
 {
 "slug": "giovanbattista-falco",
 "name": "Giovanbattista Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-maria-luigia-gagliard",
+"name": "Angelo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -42787,6 +42920,14 @@
 {
 "slug": "clemente-falco-of-clemente-falco-gaetana-crispo",
 "name": "Clemente Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-maria-luigia-gagliard",
+"name": "Angelo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -60679,6 +60820,14 @@
 "vias": [
 "register"
 ]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-maria-luigia-gagliard",
+"name": "Angelo Falco",
+"via": "register",
+"vias": [
+"register"
+]
 }
 ],
 "b": "20 Apr 1867",
@@ -67970,6 +68119,13 @@
 "place": "Arienzo, Casa Comunale",
 "evidence": "Named as the dead father in his son's marriage banns of 2 Sep 1905 (Pubblicazioni 1905 Parte I act 33): «*figlio del fu Vincenzo*» (level 13, z1013), his death act among the documents, issued by the registrar that day; this house holds his death at Corso Caudino on 12 Sep 1889.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 501 (left page), Pubblicazioni di matrimonio 1905 Parte I atto 33 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's and mother's lines, the bride's lines and the document lines (z1013, z1014, z1015), 15 November 2026"
+},
+{
+"event": "named as the dead father in his son's marriage",
+"date": "16 Nov 1905",
+"place": "Arienzo, Casa Comunale",
+"evidence": "Named as the groom's late father in the marriage of 16 Nov 1905 (Matrimoni 1905 act 33): «*figlio del fu Vincenzo*», so dead by that day (level 13, z1026); this house holds his death at Corso Caudino on 12 Sep 1889.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 531 (left page), Matrimoni 1905 Parte I atto 33 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line with his father and mother (z1026), the certificate of the banns (z1027, z1028) and the bride's line with her parents (z1029), 15 November 2026"
 }
 ],
 "sources": [
@@ -68048,6 +68204,14 @@
 {
 "slug": "giovanbattista-falco",
 "name": "Giovanbattista Falco (of Corso Caudino)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "angelo-falco-of-angelo-falco-maria-luigia-gagliard",
+"name": "Angelo Falco",
 "via": "register",
 "vias": [
 "register"
@@ -71323,6 +71487,13 @@
 "place": "Arienzo, Casa Comunale",
 "evidence": "The other party to the banns of 2 Sep 1905 (Pubblicazioni 1905 Parte I act 33): Maria Luigia Gagliardi, 24, donna di casa, born at Arienzo, daughter of Carmine, 53, agente daziario, and of Maria Grazia de Luca. Her surname and first name are those the later-hand margin of the groom's birth act of 1880 gives for his wife.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 501 (left page), Pubblicazioni di matrimonio 1905 Parte I atto 33 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's and mother's lines, the bride's lines and the document lines (z1013, z1014, z1015), 15 November 2026"
+},
+{
+"event": "marriage",
+"date": "16 Nov 1905",
+"place": "Arienzo, Casa Comunale",
+"evidence": "The other party to the marriage of 16 Nov 1905 (Matrimoni 1905 Parte I act 33): «*Gagliardi Maria Luigia*», 24, donna di casa, born and resident at Arienzo, daughter of Carmine and Maria Grazia De Lucia (level 13, z1029); the bride of the banns of 2 Sep 1905 (Pubblicazioni 1905 act 33). She is the wife of the house `Angelo Falco & Maria Luigia Gagliardi`, where she is the mother of Angela, born 12 Oct 1906.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 531 (left page), Matrimoni 1905 Parte I atto 33 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line with his father and mother (z1026), the certificate of the banns (z1027, z1028) and the bride's line with her parents (z1029), 15 November 2026"
 }
 ],
 "sources": [
@@ -71349,6 +71520,13 @@
 "place": "Arienzo",
 "evidence": "Named as the mother in the birth act of 12 Oct 1906: Maria Luigia Gagliardi.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 699, Nascite 1906 atto 94 — delegated reader, then independently re-read by a verifier (V155)"
+},
+{
+"event": "marriage",
+"date": "16 Nov 1905",
+"place": "Arienzo, Casa Comunale",
+"evidence": "The bride of the marriage of 16 Nov 1905 (Matrimoni 1905 Parte I act 33): «*Gagliardi Maria Luigia*», 24, donna di casa, born and resident at Arienzo, daughter of Carmine and Maria Grazia De Lucia (level 13, z1029); mother of the Angela born on 12 Oct 1906 held in this house.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 531 (left page), Matrimoni 1905 Parte I atto 33 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line with his father and mother (z1026), the certificate of the banns (z1027, z1028) and the bride's line with her parents (z1029), 15 November 2026"
 }
 ],
 "sources": [
@@ -80417,6 +80595,32 @@
 "place": "Arienzo",
 "evidence": "Arienzo, *Matrimoni* **1893**, **Parte I, act 3** (celebrated 16 February 1893, 11.10 a.m., Casa Comunale, before Paride Guerriero, assessore delegato; level 13, z606): the spouses appeared and asked to be united in marriage. «***Crisci Antonio**, di anni **cinquanta**, cantiniere, nato in Arienzo, residente in Arienzo, figlio del fu **Luigi**, residente in vita in Arienzo, e della fu **Mariantonia Venafra***» (level 13, z606); «***Pellone Angela**, di anni **quaranta**, donna di casa, nata in Arienzo, residente in Arienzo, figlia del fu **Pascale** [sic, for Pasquale], residente in vita in Arienzo, e della fu **Carmela Crisci***» (level 13, z607). The banns were published on 5 and 12 February 1893 (level 12). Witnesses are the register's usual pair, d'Onofrio and Savone (level 12). **The act does not name Vincenzo Falco**: it carries the spouses' parents and ages, and the identification of this bride as the widow of Vincenzo Falco rests on the request for the banns (Pubblicazioni 1893 Parte I act 6, 3 February 1893), which names her first husband and the date he died, 13 September 1889, the date of his Morti 1889 act 57. The mother's surname is read **Venafra** at level 13 (the banns act read it as «Vanafra» at level 12, which is superseded). Ages are guessed; the groom is 50 here as in the banns act.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 1948 (left page), Matrimoni 1893, Parte I, atto 3 — READ FROM THE IMAGE, level 12, with the date line, the groom's lines (z606) and the bride's lines (z607) zoomed at level 13, 13 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"noKin": "married-in"
+},
+{
+"slug": "angela-pellone-of-angelo-falco-annamaria-cimmino-cor",
+"name": "Angela Pellone",
+"surname": "PELLONE",
+"household": "Angelo Falco & Annamaria Cimmino (Corso Caudino)",
+"hid": "angelo-falco-annamaria-cimmino-corso-caudino",
+"role": "married in",
+"events": [
+{
+"event": "named as the living mother consenting in her son's marriage",
+"date": "16 Nov 1905",
+"place": "Arienzo, Casa Comunale",
+"evidence": "Named as the groom's living mother in the marriage of 16 Nov 1905 (Matrimoni 1905 act 33): «*Angela Pellone*, residente in Arienzo», who gave her consent, the groom's father being dead (level 13, z1026).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 531 (left page), Matrimoni 1905 Parte I atto 33 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line with his father and mother (z1026), the certificate of the banns (z1027, z1028) and the bride's line with her parents (z1029), 15 November 2026"
 }
 ],
 "sources": [
