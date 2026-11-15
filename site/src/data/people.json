@@ -6068,6 +6068,13 @@
 "place": "Arienzo",
 "evidence": "Named as the mother in the birth act of 13 Oct 1864: La Signora **DONNA TERESA BUONOCORE**, thirty-six.",
 "ark": "ANTENATI an_ua14461 (Arienzo, Nati 1864) atto 117, img 65 right — READ FROM THE IMAGE"
+},
+{
+"event": "named as dead mother in her son's marriage banns",
+"date": "5 Nov 1910",
+"place": "Arienzo, Casa Comunale",
+"evidence": "Named as the groom's mother, dead («*e della fu Teresa Buonocore*»), in the banns of 5 Nov 1910 (Pubblicazioni 1910 act 36), with the groom's father Bartolomeo, also dead (level 13, z1212).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 1296 (right page), Pubblicazioni di matrimonio 1910 Parte I atto 36 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line with both parents' names (z1212), 15 November 2026"
 }
 ],
 "sources": [
@@ -6089,6 +6096,14 @@
 {
 "slug": "eduardo-de-falco",
 "name": "Eduardo de Falco (of Bartolomeo, b. 1864)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giacomo-de-falco",
+"name": "Giacomo de Falco (of Bartolomeo & Teresa Buonocore, groom in 1910)",
 "via": "register",
 "vias": [
 "register"
@@ -17820,6 +17835,13 @@
 "place": "Arienzo",
 "evidence": "Named as the father in the birth act of 13 Oct 1864: Il Signor **DON BARTOLOMEO DE FALCO**, forty-four, *proprietario*, «*fu Don Onofrio*» — he declared the child himself and **signed his own name**.",
 "ark": "ANTENATI an_ua14461 (Arienzo, Nati 1864) atto 117, img 65 right — READ FROM THE IMAGE"
+},
+{
+"event": "named as dead father in his son's marriage banns",
+"date": "5 Nov 1910",
+"place": "Arienzo, Casa Comunale",
+"evidence": "Named as the groom's father, dead («*figlio del fu Bartolomeo*»), in the banns of 5 Nov 1910 (Pubblicazioni 1910 act 36), with the groom's mother Teresa Buonocore, also dead (level 13, z1212). His forename is the act's; the act gives no title and no trade for him.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 1296 (right page), Pubblicazioni di matrimonio 1910 Parte I atto 36 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line with both parents' names (z1212), 15 November 2026"
 }
 ],
 "sources": [
@@ -17841,6 +17863,14 @@
 {
 "slug": "eduardo-de-falco",
 "name": "Eduardo de Falco (of Bartolomeo, b. 1864)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "giacomo-de-falco",
+"name": "Giacomo de Falco (of Bartolomeo & Teresa Buonocore, groom in 1910)",
 "via": "register",
 "vias": [
 "register"
@@ -17927,11 +17957,71 @@
 ],
 "spouses": [],
 "children": [],
-"siblings": [],
+"siblings": [
+{
+"slug": "giacomo-de-falco",
+"name": "Giacomo de Falco (of Bartolomeo & Teresa Buonocore, groom in 1910)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
 "b": "13 Oct 1864",
 "dateFrom": {
 "b": "act"
 }
+},
+{
+"slug": "giacomo-de-falco",
+"name": "Giacomo de Falco (of Bartolomeo & Teresa Buonocore, groom in 1910)",
+"surname": "DE FALCO",
+"household": "Don Bartolomeo de Falco & Donna Teresa Buonocore",
+"hid": "bartolomeo-de-falco-teresa-buonocore",
+"role": "child",
+"events": [
+{
+"event": "marriage banns",
+"date": "5 Nov 1910",
+"place": "Arienzo, Casa Comunale",
+"evidence": "Arienzo, *Pubblicazioni di matrimonio* **1910**, **Parte I, act 36** (the request taken on **5 November 1910**, 7.40 p.m., Casa Comunale, before the consigliere anziano acting as sindaco on the resignation of the titular and of all the assessori; posted on Sunday 6 and 13 November, and left up until 17 November): the groom «***Il Signor Giacomo de Falco***, di anni **cinquantadue**, **possidente**, residente in Arienzo, **figlio del fu Bartolomeo** … **e della fu Teresa Buonocore**» (level 13, z1212), born at Napoli, and the bride «*La Signorina Paolina Rivetti*, di anni ventuno, gentildonna, figlia di Domenico, di anni cinquanta, possidente, e della Signora Giovannina d'Onofrio». The witnesses are Gennaro Guida, 57, sacerdote, and Luigi Rivetti, 38, possidente. The documents include the groom's birth copy from Napoli (4 November) and the death copy of **Giuseppa Genuè, his former wife** (Napoli, 18 October); all signed, the groom «Giacomo De Falco». **The tie to this house** is by both parents' names, written out: the father's forename Bartolomeo, dead, and the mother's own maiden name Buonocore, dead, which is distinctive and is the name of the Donna Teresa Buonocore of the birth of 1864; the groom is a possidente of the rank this house holds (Don, proprietario), not a labourer, and born at Napoli, as the Commendatore Bartolomeo de Falco is (whom the other house of that name holds, and whom the 1864 act doubts is of Arienzo). A groom of 52 in 1910 is born about 1858, six years before the birth of 1864 in this house, to a mother 36 in 1864 (ages are guessed). The act does not name the grandfather Onofrio and does not say which of the two Bartolomeo de Falco this is. **NO KINSHIP TO THE LABOURING FALCO LINE IS CLAIMED**, as this house says. A Giacomo De Falco sat as sindaco and registrar in 1909 and 1910 (Nascite 1909 act 138, Nascite 1910 act 58): the name is the same and the act says nothing that joins the two; he is not claimed as the same man here.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 1296 (right page), Pubblicazioni di matrimonio 1910 Parte I atto 36 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line with both parents' names (z1212), 15 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [
+{
+"slug": "don-bartolomeo-de-falco",
+"name": "Don Bartolomeo de Falco (of Teresa Buonocore)",
+"via": "register",
+"vias": [
+"register"
+]
+},
+{
+"slug": "donna-teresa-buonocore",
+"name": "Donna Teresa Buonocore",
+"via": "register",
+"vias": [
+"register"
+]
+}
+],
+"spouses": [],
+"children": [],
+"siblings": [
+{
+"slug": "eduardo-de-falco",
+"name": "Eduardo de Falco (of Bartolomeo, b. 1864)",
+"via": "register",
+"vias": [
+"register"
+]
+}
+]
 },
 {
 "slug": "vincenza-de-lucia-2",
@@ -73197,6 +73287,32 @@
 "noKin": "attended-the-act"
 },
 {
+"slug": "giuseppa-genue",
+"name": "Giuseppa Genuè (former wife of Giacomo de Falco)",
+"surname": "GENUÈ",
+"household": "Don Bartolomeo de Falco & Donna Teresa Buonocore",
+"hid": "bartolomeo-de-falco-teresa-buonocore",
+"role": "married in",
+"events": [
+{
+"event": "named as dead in her husband's marriage banns",
+"date": "5 Nov 1910",
+"place": "Arienzo, Casa Comunale",
+"evidence": "Named in the banns of 5 Nov 1910 (Pubblicazioni 1910 act 36) as the groom's former wife, dead: the documents include «*copia dell'atto di morte di Giuseppa Genuè*» from Napoli, issued 18 October 1910. No tie to any house is claimed for her.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 1296 (right page), Pubblicazioni di matrimonio 1910 Parte I atto 36 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line with both parents' names (z1212), 15 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"noKin": "married-in"
+},
+{
 "slug": "domenico-giglio",
 "name": "Domenico Giglio",
 "surname": "GIGLIO",
@@ -86148,6 +86264,32 @@
 }
 ],
 "siblings": []
+},
+{
+"slug": "paolina-rivetti",
+"name": "Paolina Rivetti (of Domenico, bride in 1910)",
+"surname": "RIVETTI",
+"household": "Don Bartolomeo de Falco & Donna Teresa Buonocore",
+"hid": "bartolomeo-de-falco-teresa-buonocore",
+"role": "married in",
+"events": [
+{
+"event": "marriage banns",
+"date": "5 Nov 1910",
+"place": "Arienzo, Casa Comunale",
+"evidence": "The other party to the banns of 5 Nov 1910 (Pubblicazioni 1910 act 36): Paolina Rivetti, 21, gentildonna, born and living at Arienzo, daughter of Domenico, 50, possidente, and Giovannina d'Onofrio. No tie to any house is claimed for her.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 1296 (right page), Pubblicazioni di matrimonio 1910 Parte I atto 36 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the groom's line with both parents' names (z1212), 15 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"noKin": "married-in"
 },
 {
 "slug": "paolo-rivetti",
