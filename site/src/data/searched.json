@@ -6565,5 +6565,61 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Nascite 1909 (Parte I, 144 acts numbered 1-146; Parte II Serie A empty, Serie B 1 act; annual index)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "1116-1176",
+  "walked": true,
+  "when": "1909 (MC55-RM9 images 1116–1176: Nascite 1909, Parte I acts 1–146 closed 1 January 1910, Parte II Serie A empty, Parte II Serie B one act, and the Indice annuale)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo birth register of 1909 (MC55-RM9 1116–1176), read in full**",
+  "got": "Images 1116–1176 read, both pages of every leaf: the cover (1116) and the title page (1117), Parte I, 144 printed-form acts drawn from 4 January to 27 December 1909 (1118–1170, two acts to a page, one to a half-page), the close of Parte I on 1 January 1910 stating 146 acts, Parte II Serie A with its cover and one opening of blank forms and no act (1171–1172), Parte II Serie B with its cover and one act, the transcription of a copy of a birth act of Cairo in Egypt (1173–1174), and the Indice annuale (1175–1176). The numbers run 1 to 146 with numbers 22 and 47 never used: the leaves do not have them, and the Indice annuale, which I wrote out number by number, lists 144 numbers for Parte I, none twice, and lacks the same two, so the stated total of 146 is the last number and 144 is the count of acts. Act 96's number box is a correction («sessanta due dico novantasei») and the index files it at 96. The register's end notes are dated 1 January 1910 and the Pretore's visas 12 May 1909 (after act 50), 14 September 1909 (after act 106) and 14 June 1910 (read at level 13, the month word cramped). Two Falco acts are placed in houses on at least two independent ties each, never on a name alone. Act 30 (6 March 1909): Falco Clemente Basilio, son of Pasquale Falco and Angelamaria Attanasio, upgraded in place from the earlier reading to the image, in the house of Pasquale Falco and Angela Maria Attanasio; it is the one Falco in the Indice annuale (Falco Clemente, 30, read at level 13). Act 97 (17 August 1909): Guida Concetta, born to Francesco Guida and Pasqualina Falco, the mother read as Falco at level 13, placed in the house of Pasquale Falco and Maria Amalia Guida on the two spouses' names, his trade and his age, and not on the street; the Indice annuale lists the child only and so does not show a Falco mother. Falco witnesses left unplaced: Carmine Falco, 53, trainante, in acts 5 and 71 (probably one man), and Antonio Falco, 50, contadino, in act 23. A De Falco appears once as an officer and not as a party: in act 138 the sindaco Giacomo De Falco took the act himself, the assessore being the child's family (level 13). Near-names seen and not counted: Annecchino (act 15, the child), Arricale (acts 104 and 125), Biondo (act 107), Maione (acts 10, 13, 143 and 144), Carfora (several acts, witnesses and a child), Giglio (act 141). Registrars: Alfonso de Nuptiis, assessore delegato on the sindaco's act of 23 August 1908, approved 24 August, for the acts read apart from act 138. Five leaves are second exposures of the opening before them and add no pages: 1136, 1147, 1152, 1162 and 1164 (1164 with a printed 1957 annotation slip pasted over it); the pages of all five were read. Later-hand margin notes on several births of this year record marriages and deaths of later years, between 1910 and 1958, and I read none that names a Falco. Parte II Serie A holds no act and Serie B one, so no Falco is in either.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/clemente-basilio-falco/",
+    "Clemente Basilio Falco (of Pasquale, b. 1909)"
+   ],
+   [
+    "/people/angelamaria-attanasio/",
+    "Angelamaria Attanasio"
+   ],
+   [
+    "/people/concetta-guida/",
+    "Concetta Guida (of Francesco Guida & Pasqualina Falco, b. 1909)"
+   ],
+   [
+    "/people/francesco-guida/",
+    "Francesco Guida"
+   ],
+   [
+    "/people/pasqualina-falco-of-pasquale-falco-maria-amalia-guida/",
+    "Pasqualina Falco (of Pasquale, b. 1877)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Birth",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
