@@ -23362,6 +23362,13 @@
 "place": "Arienzo, strada Capodiconca",
 "evidence": "Named as the mother in the birth act of 27 Jan 1865: ANGELA ROSA FALCO, about thirty.",
 "ark": "ANTENATI an_ua14462 (Arienzo, Nati 1865) atto 13, img 9 right — READ FROM THE IMAGE"
+},
+{
+"event": "named as wife in her husband's death act",
+"date": "2 Jul 1901",
+"place": "Arienzo, Corso Caudino 55",
+"evidence": "Named as the wife of the dead man in the death act of 2 July 1901 (Morti 1901 Parte I act 39): «*marito di Angela Rosa Falco*» — «marito», not «vedovo», so she was alive on that day (read from the image at level 13, z892).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 110 (left page), Morti 1901 Parte I atto 39 - READ FROM THE IMAGE, level 12, with the deceased's line, the parents and the wife zoomed at level 13 (z892), 15 November 2026"
 }
 ],
 "sources": [
@@ -35630,6 +35637,13 @@
 "place": "Arienzo, strada Camellara",
 "evidence": "Named as the father in the birth act of 5 Mar 1850: CRESCENZO FALCO, thirty, contadino, strada Camellara — declarant.",
 "ark": "ANTENATI an_ua14447 (Arienzo, Nati 1850) atto 22, img 30 right + 31 left — READ FROM THE IMAGE"
+},
+{
+"event": "named as the late husband in his widow's death act",
+"date": "16 Jul 1901",
+"place": "Arienzo, via Orticelli 2",
+"evidence": "Named as her late husband in the death act of 16 July 1901 (Morti 1901 Parte I act 43): «*vedova di Crescenzo Falco*» — «vedova», so he was dead before that day, as his death act of 1 August 1898 says (read from the image at level 13, z893).",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 111 (right page), Morti 1901 Parte I atto 43 - READ FROM THE IMAGE, level 12, with the deceased's line, the parents and the widowhood zoomed at level 13 (z893, z894), 15 November 2026"
 }
 ],
 "sources": [
@@ -71782,6 +71796,13 @@
 "place": "Arienzo, strada Capodiconca",
 "evidence": "Named as the father in the birth act of 27 Jan 1865: LELIO LIBRERA «*fu Giovanni*», thirty, *sartore*, Capodiconca.",
 "ark": "ANTENATI an_ua14462 (Arienzo, Nati 1865) atto 13, img 9 right — READ FROM THE IMAGE"
+},
+{
+"event": "death",
+"date": "2 Jul 1901",
+"place": "Arienzo, Corso Caudino 55",
+"evidence": "Arienzo, *Morti* **1901**, **Parte I, act 39** (drawn on **2 July 1901**, 11.46 a.m., Casa Comunale, before Pasquale Gesue, assessore delegato con atto del Sindaco in data 9 September 1899): declarants «*Filippo Giglio, di anni sessantotto, bracciale*» and «*Pietro Trusio*» (surname as read), 39, trainante, both of Arienzo, who declared that at 10.30 that morning «*di oggi*», in the house «*in Corso Caudino al numero cinquantacinque*», «*è morto **Lelio Librera**, di anni **sessantasei**, **sarto**, residente in Arienzo, nato in Arienzo, dal fu **Giovanni** … e dalla fu **Anna Maria Rivetti** … **marito di Angela Rosa Falco***» (level 13, z892; the name box in the margin reads *Librera Lelio*). Witnesses the messo comunale Raffaele Troisi, 43, and the guardia municipale Simone d'Ambrosio, 48; the declarants were illiterate. **He died on 2 July 1901.** **The ties to this house are four and independent of one another**: his own name; his father, the late Giovanni, as in the birth acts of 1865 and 1867; his trade, sarto (sartore in 1865); and his wife, Angela Rosa Falco, with an age that fits: thirty in January 1865 gives b. c.1835 and sixty-six here (ages are guessed). **New in this act**: his mother's name, the late Anna Maria Rivetti; and the street, Corso Caudino, where the births of 1865 and 1867 have Capodiconca. «*Marito di*» and not «*vedovo di*»: his wife was alive on 2 July 1901, and the death act of their daughter Pasqualina in 1902 names him as dead. The register records the death and no margin note was seen on the act.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 110 (left page), Morti 1901 Parte I atto 39 - READ FROM THE IMAGE, level 12, with the deceased's line, the parents and the wife zoomed at level 13 (z892), 15 November 2026"
 }
 ],
 "sources": [
@@ -71817,7 +71838,11 @@
 ]
 }
 ],
-"siblings": []
+"siblings": [],
+"d": "2 Jul 1901",
+"dateFrom": {
+"d": "act"
+}
 },
 {
 "slug": "maria-carmina-librera",
@@ -75919,6 +75944,13 @@
 "ark": "ANTENATI an_ua14447 (Arienzo, Nati 1850) atto 22, img 30 right + 31 left — READ FROM THE IMAGE"
 },
 {
+"event": "death",
+"date": "16 Jul 1901",
+"place": "Arienzo, via Orticelli 2",
+"evidence": "Arienzo, *Morti* **1901**, **Parte I, act 43** (drawn on **17 July 1901**, 9.10 a.m., Casa Comunale, before Pasquale Gesue, assessore delegato): declarants «*Salvatore Sansone, di anni trentasette, calzolaio*» and «*Pasquale Ferrara, di anni quarantasette, contadino*», both of Arienzo (level 13, z894), who declared that at 10.50 in the evening «*di ieri*», in the house «*in via Orticelli al numero due*», «*è morta **Angela Maria Morgillo**, di anni **settantanove**, **contadina**, residente in Arienzo, nata in Arienzo, dal fu **Gennaro** … e dalla fu **Maria Felice Sansone** … **vedova di Crescenzo Falco***» (level 13, z893; the name box in the margin reads *Morgillo Angela Maria*). Witnesses the guardia municipale Simone d'Ambrosio, 48, and the messo comunale Alfonso Anzevino, 61; the declarants were illiterate. **She died on 16 July 1901.** **The ties to this house are four and independent of one another**: her own name, with both the forenames her marriage act gives; her parents, the late Gennaro and the late Maria Felice Sansone, exactly as in her marriage act of 2 February 1845 and her birth act of 2 August 1822; her widowhood of Crescenzo Falco, who died on 1 August 1898; and the house, via Orticelli number two, which is the house where Crescenzo died. Her age, seventy-nine, is a year over the seventy-eight years and eleven months that her birth date gives (ages are guessed). The act does not say how the declarant Salvatore Sansone was related to her; the surname is her mother's, and that is noted, not claimed. The register records the death and no margin note was seen on the act.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 111 (right page), Morti 1901 Parte I atto 43 - READ FROM THE IMAGE, level 12, with the deceased's line, the parents and the widowhood zoomed at level 13 (z893, z894), 15 November 2026"
+},
+{
 "event": "marriage",
 "date": "2 Feb 1845",
 "place": "Arienzo, strada Cappuccini",
@@ -76018,8 +76050,10 @@
 "siblings": [],
 "b": "2 Aug 1822",
 "dateFrom": {
-"b": "act"
-}
+"b": "act",
+"d": "act"
+},
+"d": "16 Jul 1901"
 },
 {
 "slug": "angela-morgillo",
