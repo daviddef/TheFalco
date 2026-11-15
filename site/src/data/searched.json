@@ -6373,5 +6373,113 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Pubblicazioni di matrimonio 1909 (Parte I, 38 acts; Parte II Serie A, 13 acts; Serie B, 2 acts)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "1057-1088",
+  "walked": true,
+  "when": "1909 (MC55-RM9 images 1057–1088: Pubblicazioni di matrimonio 1909, Parte I acts 1–38, Parte II Serie A acts 1–13 and Serie B acts 1–2, each part closed 1 January 1910)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo marriage-banns register of 1909 (MC55-RM9 1057–1088), read in full**",
+  "got": "Images 1057–1088 read, both pages of every leaf: the board and its label (1057), the title of Parte I, vidimated by the Pretore on 17 December 1908 (1058), Parte I, 38 acts of banns requested from 9 January to 12 December 1909 (1059–1077, two acts to a leaf) and its close, «contenente trentotto atti», on 1 January 1910 by Alfonso de Nuptiis, assessore delegato on the sindaco's act of 23 August 1908, with the Pretore's visa of 14 January 1910 (z1159); Parte II Serie A (1078–1085), 13 transcribed requests from other comuni, one act to a page, 24 January to 18 December 1909, closed «tredici atti»; and Serie B (1086–1088), 2 transcribed requests (Montesarchio and Limatola), closed «due atti», with a ruled blank page after it. The register has no annual index and no Serie C: none was found on any of the 32 images. Five acts name a Falco, each a mother or a bride, and each is placed in a house on at least two independent ties, never on a name alone. Parte I act 3 (20 January): Anzevino Lelio, 18, barbiere, whose mother is written Marianna Falco, in the house of Andrea Falco and Maria Carmela Buono (z1153). Act 9 (6 February): Savino Antonio and Anzivino Clementina, 24, whose mother is written Marianna Falco, in the same house (z1154). Act 12 (27 February): Giglio Vincenzo and Morgillo Marianna, the groom's mother written the late Filomena Falco, in the house of Vincenzo Falco and Andreana Crisci (z1155); its marriage act of 1909 is held back until read from the image. Act 31 (2 October): Ruotolo Raffaele, 32, and Falco Maria, 22, daughter of Giuseppe, 68, colono, and Nicoletta Nuzzo, in the house of Giuseppe Falco and Nicoletta Nuzzo (z1157, z1158). Parte II Serie A act 5 (7 May, a request from San Felice a Cancello): Arricale Clemente and Rivetti Maria, the groom's mother written Falco Costanza, in the house of Luigi Falco and Carolina Cimmino (z1161); the groom is written «minore» against a birth of 1887, noted in the house and no tie rests on it. The register has no index, so the pages were the only instrument and every one was read. Near-names seen and not counted: Falciani (Serie A act 12, the groom's late mother, F-a-l-c-i-a-n-i read at level 13, z1162); Arricale (Parte I acts 20 and 28, Serie A act 5), Maione, Marotta, Pellone, Annecchino, Nuzzo, Crisci and Morgillo, which turn up in many acts and are placed on nothing here. The sindaco Giacomo De Falco is the registrar of acts 30 and 37 (z1156, z1160): a registrar's cell, not a party, witness or parent, and no tie to any house is claimed. The closing date of Serie B (1 January 1910) precedes the second posting of its act 2 (2 January 1910), a clerk's slip recorded as written (z1164). Second exposures and later-hand margins: none. The other acts name no Falco in a groom, bride, parent, witness or registrar cell.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/angela-marianna-diglio/",
+    "Angela Marianna Diglio (bride in 1909)"
+   ],
+   [
+    "/people/antonio-savino/",
+    "Antonio Savino (of Vincenzo, groom in 1909)"
+   ],
+   [
+    "/people/clementina-anzivino/",
+    "Clementina Anzivino (of Alfonso Anzivino and Marianna Falco, bride in 1909)"
+   ],
+   [
+    "/people/lelio-anzivino-of-andrea-falco-maria-carmela-buono/",
+    "Lelio Anzivino (of Alfonso and Marianna Falco, b. 1890)"
+   ],
+   [
+    "/people/luigi-alfonso-paolo-anzivino/",
+    "Luigi Alfonso Paolo Anzivino"
+   ],
+   [
+    "/people/marianna-falco-2/",
+    "Marianna Falco (of Andrea, b. 1851)"
+   ],
+   [
+    "/people/giuseppe-falco-of-giuseppe-falco-nicoletta-nuzzo/",
+    "Giuseppe Falco (of Matteo, b. c.1842)"
+   ],
+   [
+    "/people/maria-falco-of-giuseppe-falco-nicoletta-nuzzo/",
+    "Maria Falco (of Giuseppe, b. 1887)"
+   ],
+   [
+    "/people/nicoletta-nuzzo-of-giuseppe-falco-nicoletta-nuzzo/",
+    "Nicoletta Nuzzo"
+   ],
+   [
+    "/people/raffaele-ruotolo-of-giuseppe-falco-nicoletta-nuzzo/",
+    "Raffaele Ruotolo"
+   ],
+   [
+    "/people/clemente-arricale/",
+    "Clemente Arricale (of Raffaele, b. 1887)"
+   ],
+   [
+    "/people/costanza-falco-of-luigi-falco-carolina-cimmino-2/",
+    "Costanza Falco (of Luigi, b. 1862)"
+   ],
+   [
+    "/people/maria-rivetti-of-luigi-falco-carolina-cimmino/",
+    "Maria Rivetti (bride in 1909)"
+   ],
+   [
+    "/people/raffaele-arricale-of-luigi-falco-carolina-cimmino/",
+    "Raffaele Arricale"
+   ],
+   [
+    "/people/luigi-giglio/",
+    "Luigi Giglio"
+   ],
+   [
+    "/people/maria-filomena-falco/",
+    "Maria Filomena Falco (of Vincenzo, b. 1840)"
+   ],
+   [
+    "/people/marianna-morgillo/",
+    "Marianna Morgillo (bride in 1909)"
+   ],
+   [
+    "/people/vincenzo-giglio/",
+    "Vincenzo Giglio (of Luigi Giglio and Filomena Falco, groom in 1909)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Marriage banns",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
