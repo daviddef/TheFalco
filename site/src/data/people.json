@@ -5330,6 +5330,32 @@
 "bp": "Arienzo, Caserta, Campania, Italia"
 },
 {
+"slug": "vincenzo-biondo",
+"name": "Vincenzo Biondo (of Clemente, groom in 1906)",
+"surname": "BIONDO",
+"household": "Pasquale Falco & Maria Amalia Guida",
+"hid": "pasquale-falco-maria-amalia-guida",
+"role": "married in",
+"events": [
+{
+"event": "marriage banns",
+"date": "22 Jan 1906",
+"place": "Arienzo",
+"evidence": "The other party to the banns of 22 Jan 1906 (Pubblicazioni 1906 act 2): Biondo Vincenzo, 29, contadino, of San Felice a Cancello, son of Clemente and Teresa Ferraro. No tie to any other house in this archive is claimed.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 623 (right page; leaf 624 is a second exposure of the same leaf), Pubblicazioni di matrimonio 1906 Parte I atto 2 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the bride's line and both parents' lines (z1043), 15 November 2026"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"noKin": "married-in"
+},
+{
 "slug": "anna-bucolo",
 "name": "Anna Bucolo (Servodio)",
 "surname": "BUCOLO",
@@ -19097,6 +19123,13 @@
 "place": "Arienzo, via Camellara 27",
 "evidence": "Arienzo, *Morti* **1905**, **Parte I, act 21** (name box «*Di Guida Maria*»; declared **12 April 1905**, 9.25 a.m., Casa Comunale, before Alfonso de Nuptiis, assessore delegato): the declarants «***Antonio Falco***, di anni **sessanta**, contadino, domiciliato in Arienzo» (level 13, z1039) and «*Salvatore Diglio*, di anni cinquanta, contadino» declared that at twelve noon on the day before, «*nella casa posta in **via Cumellara** al numero ventisette*», died «***Maria di Guida***, di anni **cinquantotto**, contadina, residente in Arienzo, nata in Arienzo, da fu **Fabrizio**, e da fu **Teresa Vaccina**, ***moglie di Clemente Morgillo***» (level 13, z1040). Witnesses Alfonso Anzevino, 65, and Clemente Guida, 45, both messo comunale; read to all, signed by the two witnesses, the declarants declaring themselves illiterate. **The tie to this house** is by the deceased's parents and her age, not by her forename, which the act writes «Maria» only: she is the daughter of the late Fabrizio and Teresa Vaccina, the filiation of Maria Amalia di Guida in her marriage to Pasquale Falco on 2 July 1869 (Matrimoni 1869 act 25, held in this house), where she is 22, so b. c.1847 and 58 here (ages are guessed). Her husband's name agrees with the later record of that widow: Nascite 1885 act 57 (declared 12 May 1885 by Clemente Morgillo, 38, who names «*Maria Amalia Guido sua moglie*», read at level 13, z283) and Matrimoni 1884 act 12 (Morgillo Clemente and di Guida Maria Amalia, read at level 12), neither yet entered in this house, so the remarriage rests on those two acts, on the parents and on the age together. **The declarant is her brother-in-law**: Antonio Falco's wife Carmela di Guida is «*figlia del fu Fabrizio e della vivente Teresa Vaccina*» in Matrimoni 1869 act 22 (held in the house of Antonio Falco and Carmela Guida), so the two women are sisters, and Antonio Falco's 60 here sits with the 26 of 1869 (ages are guessed). The act gives no date of birth and none is claimed.",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 601 (left page), Morti 1905 atto 21 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the declarant's line (z1039) and the deceased's lines (z1040), 15 November 2026"
+},
+{
+"event": "named as dead in her daughter's marriage banns",
+"date": "22 Jan 1906",
+"place": "Arienzo",
+"evidence": "Named as the bride's late mother in the banns of 22 Jan 1906 (Pubblicazioni 1906 act 2): «*figlia della fu Maria Amalia Guida*» (level 13, z1043), so dead by that day. It does not give a date of death; Morti 1905 act 21 gives 11 Apr 1905 for the woman placed here as «Maria di Guida, wife of Clemente Morgillo».",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 623 (right page; leaf 624 is a second exposure of the same leaf), Pubblicazioni di matrimonio 1906 Parte I atto 2 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the bride's line and both parents' lines (z1043), 15 November 2026"
 }
 ],
 "sources": [
@@ -60384,6 +60417,13 @@
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-FNT leaf 401, Matrimoni 1869 atto 25 — read by a delegated reader and independently re-read by a second (V030)"
 },
 {
+"event": "named as dead in his daughter's marriage banns",
+"date": "22 Jan 1906",
+"place": "Arienzo",
+"evidence": "Named as the bride's late father in the banns of 22 Jan 1906 (Pubblicazioni 1906 act 2): «*figlia del fu Pasquale*» (level 13, z1043), so dead by that day; the act gives no surname for him beyond the bride's own.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 623 (right page; leaf 624 is a second exposure of the same leaf), Pubblicazioni di matrimonio 1906 Parte I atto 2 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the bride's line and both parents' lines (z1043), 15 November 2026"
+},
+{
 "event": "death",
 "date": "26 Sep 1883",
 "place": "Arienzo, via Camellara 5",
@@ -66903,6 +66943,13 @@
 "place": "Arienzo",
 "evidence": "Arienzo, *Nascite* **1879**, **act 31**: **TERESA FALCO**, born **29 Mar 1879**, to **Pasquale Falco** and **Maria Amalia Guida**; margin: YES, diagonal pencil/ink note in left margin, 3 lines, partly legible: «Con atto N. [?7/17] [Febbrajo?/Gebbrajo] [yr?] in Arienzo Falco [?] ... Vincenzo» (marriage-type note; date digits and groom not securely read; native resolution too low). *Read from the FamilySearch image by a delegated reader and independently re-read by a second reader; **not yet re-opened by the archive's own hand.***",
 "ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-VNL leaf 190, Nascite 1879 atto 31 — delegated reader, then independently re-read by a verifier (V214)"
+},
+{
+"event": "marriage banns",
+"date": "22 Jan 1906",
+"place": "Arienzo",
+"evidence": "Arienzo, *Pubblicazioni di matrimonio* **1906**, **Parte I, act 2** (name box «*Biondo Vincenzo / Falco Teresa*»; the request taken on **22 January 1906**, 10.30 a.m., Casa Comunale, before Alfonso de Nuptiis, assessore delegato con atto del Sindaco del diciotto agosto 1905; posted on Sunday 28 January, again on 4 February, and left up until 8 February): the groom «*Biondo Vincenzo*, di anni ventinove, contadino, residente in San Felice a Cancello, figlio di Clemente, di anni cinquantasette, contadino, e di Teresa Ferraro, contadina», born at San Felice a Cancello, and the bride «***Falco Teresa***, di anni **ventisei**, contadina, residente in **Arienzo**, figlia **del fu Pasquale** … e figlia **della fu Maria Amalia Guida**» (level 13, z1043), born at Arienzo. The groom had lived at San Felice a Cancello for a year and the bride at Arienzo; the publications were to be made at San Felice a Cancello and at Arienzo. The documents are the copy of the groom's birth act issued by the Ufficiale dello Stato Civile of San Felice a Cancello on the 20th of the month and the copy of the bride's birth act issued by the registrar that day. Witnesses Alfonso Anzevino, 66, and Clemente Guida, 46, messi comunali; the bride and the witnesses signed. **The tie to this house** is by both parents and the age: the father's forename Pasquale, the mother's own name «*Maria Amalia Guida*» written out, the bride's residence at Arienzo, and her age of 26, which fits the birth of 29 Mar 1879 held in this house (ages are guessed, and this one is within a year). Both parents are written «fu», which fits Pasquale's death of 1883 (held here) and the death of Maria Amalia di Guida on 11 Apr 1905 (Morti 1905 act 21, in this house). The mother's name and the father's forename together are not common at Arienzo; no other house holds them. The act gives no date of birth and none is claimed. The marriage itself is not read here.",
+"ark": "FamilySearch Arienzo civil registers 1866-1910, MC55-RM9 leaf 623 (right page; leaf 624 is a second exposure of the same leaf), Pubblicazioni di matrimonio 1906 Parte I atto 2 - READ FROM THE IMAGE, level 12 for the whole act and level 13 for the bride's line and both parents' lines (z1043), 15 November 2026"
 }
 ],
 "sources": [
