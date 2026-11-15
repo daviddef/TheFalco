@@ -4713,5 +4713,65 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Morti 1902 (Parte I of 85 acts, Parte II of 1 act, annual index)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "207-234",
+  "walked": true,
+  "when": "1902 (MC55-RM9 leaves 207–234: Morti 1902, cover, black inside board and title leaf with the vidimazione, Parte I acts 1–85 closed 1 January 1903, Parte II act 1 of 1, and the annual index)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo death register of 1902 (MC55-RM9 207–234), read in full**",
+  "got": "Images 207–234 read, both pages of every leaf; 85 acts in Parte I and one transcribed Naples act in Parte II, as the closing notes and the annual index say. Falco as a party: act 28 (1 Jun 1902, via Sant'Andrea 2) is the death of Pasqualina Falco, wife of Raffaele Crisci, calzolaio, re-opened from the image; her daughter Soccorrina (Nascite 1902 act 49, b. 18 May 1902) is placed in her house, and an earlier note that the mother had no household was wrong and is corrected. Act 83 (23 Dec 1902, via Sant'Andrea 5) is the death of Antonio Crisci, 2 years 9 months, son of Raffaele Crisci and the late Pasqualina Falco, placed in the same house by both parents and by his birth of 12 March 1900 already held there. Act 36 (18 Jun 1902) is the death of Tommaso Crisci, son of the late Aniello and the late Giovanna Falco, kept in the Aniello Crisci and Giovanna Falco house by both parents and by villaggio Crisci 4, the house of Aniello's death in 1884. Act 60 (9 Oct 1902) is the death of Pasqualina Librera, daughter of Lelio Librera and Angela Rosa Falco, re-opened in the Librera house with the mother entered as named living. Act 34 (Zimbardo Giuseppe, mother Carmela Falco) was re-read and stays unplaced. Left unplaced, on a name and a trade or age alone: Antonio Falco as declarant at acts 21 and 32 (via Cunellara), Giuseppe Falco, 60, declarant at act 62; Giacomo De Falco appears only as the registrar for acts 56–60. The annual index lists one Falco entry, act 28.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/pasqualina-falco-of-angelo-falco-annamaria-cimmino-cor/",
+    "Pasqualina Falco (of Vincenzo, b. 1878)"
+   ],
+   [
+    "/people/soccorrina-crisci/",
+    "Soccorrina Crisci (of Raffaele Crisci and Pasqualina Falco, b. 1902)"
+   ],
+   [
+    "/people/antonio-crisci-of-angelo-falco-annamaria-cimmino-cor/",
+    "Antonio Crisci (of Raffaele Crisci and Pasqualina Falco, b. 1900)"
+   ],
+   [
+    "/people/tommaso-crisci/",
+    "Tommaso Crisci (of Aniello, d. 1902)"
+   ],
+   [
+    "/people/pasqualina-librera/",
+    "Pasqualina Librera (of Lelio, b. 1865)"
+   ],
+   [
+    "/people/angela-rosa-falco-of-lelio-librera-angela-rosa-falco/",
+    "Angela Rosa Falco (wife of Lelio Librera)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Deaths",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
