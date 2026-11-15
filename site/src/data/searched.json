@@ -4657,5 +4657,61 @@
    "Falco",
    "full walk"
   ]
+ },
+ {
+  "searchedOn": "2026-11-15",
+  "provider": "familysearch",
+  "film": "collection 2043630 — Arienzo, civil registration (Tribunale) 1866–1910",
+  "waypoint": "MC55-RM9",
+  "book": "Nascite 1902 (Parte I of 127 acts, Parte II of 2 acts, annual index)",
+  "bookPlace": "Arienzo civil registry",
+  "url": "https://www.familysearch.org/search/collection/2043630",
+  "pages": "157-206",
+  "walked": true,
+  "when": "1902 (MC55-RM9 leaves 157–206: Nascite 1902, cover, title leaf with the vidimazione, Parte I acts 1–127 closed 1 January 1903, a second exposure of one leaf, Parte II acts 1–2, and the annual index)",
+  "src": "The full Arienzo walk, RM9 leg: both pages of every leaf displayed at DeepZoom level 12, every Falco or near-name cell zoomed to level 13, each batch logged only after all six pages had been read.",
+  "what": "**Every act of the Arienzo birth register of 1902 (MC55-RM9 157–206), read in full**",
+  "got": "Images 157–206 read, both pages of every leaf; 127 acts in Parte I and 2 transcribed foreign acts in Parte II, as the closing notes and the annual index say. Image 201 is a second exposure of image 200 (the same acts 124–126 and margins) and adds no page. Act 47 (19 May 1902, via Orticelli 19) is the birth of Maria Felicia Falco, daughter of Angelo Falco, contadino, and Vincenza de Lucia; it was already in her house from a delegated reading and was re-read from the image, and its evidence replaced. Act 57 (7 Jun 1902, Corso Caudino 12) is the birth of a child of Raffaele Fuccio, sarto, and Andreana Falco, placed in the Andrea Falco house on the mother's full name, the father's trade and the street (the same pattern as the couple's other acts); identity is inferred and stated so. The annual index lists one Falco entry, act 47. Left unplaced, on a name and a trade alone: Falco as mother at act 49, Falco witnesses at acts 14, 47, 67 and 123; Giacomo De Falco appears only as the officiating registrar for acts 95–99.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/",
+    "The People"
+   ]
+  ],
+  "for": [
+   [
+    "/people/maria-felicia-falco/",
+    "Maria Felicia Falco (of Angelo, b. 1902)"
+   ],
+   [
+    "/people/angelo-falco-of-angelo-falco-vincenza-de-lucia/",
+    "Angelo Falco"
+   ],
+   [
+    "/people/vincenza-de-lucia-2/",
+    "Vincenza de Lucia"
+   ],
+   [
+    "/people/andrea-fuccio/",
+    "Andrea Fuccio (of Raffaele Fuccio and Andreana Falco, b. 1902)"
+   ],
+   [
+    "/people/andreana-falco-of-andrea-falco-maria-carmela-buono/",
+    "Andreana Falco (of Andrea, b. 1854)"
+   ]
+  ],
+  "tags": [
+   "FamilySearch",
+   "Arienzo",
+   "Civil registration",
+   "Births",
+   "Falco",
+   "full walk"
+  ]
  }
 ]
