@@ -315,6 +315,18 @@ def build(a, rep):
         if not src.get("living"):
             if FULLDATE.match(str(src.get("b") or "")): p["bd"] = src["b"]
             if FULLDATE.match(str(src.get("d") or "")): p["dd"] = src["d"]
+    # CORRECTIONS COUNT (cx): how many rows of site/src/data/corrections.json name this person in their explicit `who` list (person slugs). A count only, never what a
+    # correction says; omitted when 0; never for a living person (a `who` that names one stops the build) and only for people drawn here. The person page prints the same
+    # count from the same field, so the two agree.
+    cxn = collections.Counter(s for r in jl(os.path.join(DATA, "corrections.json")) for s in (r.get("who") or []))
+    unknown = [s for s in cxn if s not in by]
+    if unknown: sys.exit("corrections.json `who` names a slug that is not in people.json: %s" % unknown[:5])
+    livewho = [s for s in cxn if by[s].get("living")]
+    if livewho: sys.exit("corrections.json `who` names a living person: %s" % livewho[:5])
+    for p in t["people"]:
+        if cxn.get(p["id"]): p["cx"] = cxn[p["id"]]
+    rep["people_with_corrections_count"] = sum(1 for p in t["people"] if "cx" in p)
+    rep["people_named_in_corrections_but_not_drawn"] = sorted(s for s in cxn if s not in {p["id"] for p in t["people"]})
     leak = [p["id"] for p in t["people"] if ("bd" in p or "dd" in p) and by[p["id"]].get("living")]
     if leak: sys.exit("a living person carries a full date in the tree: %s" % leak[:5])
     rep["people_with_full_birth_date"] = sum(1 for p in t["people"] if "bd" in p)

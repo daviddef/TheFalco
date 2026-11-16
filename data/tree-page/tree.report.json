@@ -174,8 +174,10 @@
    "f": 185
   },
   "child_links_with_one_parent_only_because_the_pair_came_out_one_sex": 0,
-  "place_strings_from_era_ground": 37,
+  "place_strings_from_era_ground": 0,
   "place_strings_from_additions": 0,
+  "people_with_corrections_count": 4,
+  "people_named_in_corrections_but_not_drawn": [],
   "people_with_full_birth_date": 418,
   "people_with_full_death_date": 264,
   "people_drawn_at_a_relatives_birth_place": 282,
