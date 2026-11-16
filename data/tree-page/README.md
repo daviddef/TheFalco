@@ -38,7 +38,7 @@ Added 16 November 2026.
 Every dead person the archive publishes who the maps skip is listed in `tree.json` `undrawn` as an unplaced card (the Roots page lists them under «Not drawn yet»,
 the Atlas Tree Canvas draws them): `id, name, why, sex, given, sur, by, dy, bye, dye, bd, dd, father, mother, spouse, kids, role, page` and `placeholder: true`
 where there is no usable name (the card is «Unknown», with its family links). `why`: `year` (no year at all), `other` (a year, but not drawn), `conflict` (a death
-before the estimated birth: the 23 carry the death only, the estimate is dropped). A link names only someone the tree carries. **Living (47, David's ruling of 17 November 2026):** `why: "living"`, `living: true`, and ONLY `id, name, sex, given, sur, father, mother, spouse, kids` (no dates, place, role, page link or count; the builder asserts it and refuses to write them unless `/roots/` and `/roots/view.html` are noindex). **Never listed, never named:** anyone held back for a living neighbour, anyone born inside the 110-year floor with no death. Added 17 November 2026.
+before the estimated birth: the 23 carry the death only, the estimate is dropped). A link names only someone the tree carries. **Living and possibly living (David's rulings of 17 November 2026; first the 47 flagged living, then the 12 beside a living person and the 2 born inside the 110-year floor with no death, 61 in all):** `why: "living"`, `living: true`, and ONLY `id, name, sex, given, sur, father, mother, spouse, kids` (no dates, place, role, page link or count; the builder asserts it and refuses to write them unless `/roots/` and `/roots/view.html` are noindex). Nobody possibly living is left out of `undrawn`. Added 17 November 2026.
 
 ## What is and is not on the page
 

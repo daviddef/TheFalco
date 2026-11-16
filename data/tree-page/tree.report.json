@@ -181,18 +181,15 @@
   "people_with_full_birth_date": 418,
   "people_with_full_death_date": 264,
   "people_drawn_at_a_relatives_birth_place": 282,
-  "undrawn_listed": 437,
+  "undrawn_listed": 451,
   "undrawn_by_why": {
    "year": 270,
    "other": 97,
-   "living": 47,
+   "living": 61,
    "conflict": 23
   },
   "undrawn_placeholders": 1,
-  "undrawn_held_out_and_not_named": {
-   "held back for a living neighbour": 12,
-   "birth inside the 110-year floor, no death (possibly living)": 2
-  },
+  "undrawn_held_out_and_not_named": {},
   "colour_families": [
    "Falco",
    "Crisci",
