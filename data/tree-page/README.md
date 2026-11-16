@@ -33,6 +33,14 @@ is present **only when a day is known and nothing approximates it**: a year, a m
 living-by-inference), tests `living` again, and refuses to write if a living person carries either field. The Atlas Tree Canvas reads them for its research brief.
 Added 16 November 2026.
 
+## The people the maps do not draw (`undrawn` in `tree.json`)
+
+Every dead person the archive publishes who the maps skip is listed in `tree.json` `undrawn` as an unplaced card (the Roots page lists them under «Not drawn yet»,
+the Atlas Tree Canvas draws them): `id, name, why, sex, given, sur, by, dy, bye, dye, bd, dd, father, mother, spouse, kids, role, page` and `placeholder: true`
+where there is no usable name (the card is «Unknown», with its family links). `why`: `year` (no year at all), `other` (a year, but not drawn), `conflict` (a death
+before the estimated birth: the 23 carry the death only, the estimate is dropped). A link names only someone the tree carries. **Never listed, never named:** anyone
+people.json flags living, anyone held back for a living neighbour, anyone born inside the 110-year floor with no death. Added 17 November 2026.
+
 ## What is and is not on the page
 
 - **No living person.** The people are `site/src/data/people.json`, less everyone it flags `living` (47), anyone `data/living-by-inference.json` lists, an
