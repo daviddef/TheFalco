@@ -47,6 +47,9 @@ ATLAS_CANDIDATES = [os.environ.get("RECORD_ATLAS", ""), os.path.expanduser("~/Pr
 INPUTS = [os.path.join(DATA, "people.json"), os.path.join(ROOT, "data", "living-by-inference.json"),
           os.path.join(ROOT, "data", "era-ground.tsv"), os.path.join(ROOT, "data", "era-towns.tsv")]
 
+_MON = r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*"
+FULLDATE = re.compile(r"^(?:\d{1,2} %s \d{4}|%s \d{1,2} \d{4})$" % (_MON, _MON))   # "22 Feb 1882" | "Mar 19 1950" | "June 7 1878": a day is present and nothing approximates it
+
 def jl(path): return json.load(io.open(path, encoding="utf-8"))
 def run(args):
     print("$", " ".join(os.path.relpath(a, ROOT) if os.path.isabs(a) and a.startswith(ROOT) else a for a in args)); r = subprocess.run(args)
@@ -305,6 +308,17 @@ def build(a, rep):
             lim = bounds[p["id"]]
             if p.get("dy") is None or p["dy"] > lim: p["dy"] = lim
             p["dye"] = True
+        # FULL DATES (bd, dd): people.json's own `b` / `d` string, byte for byte as the person page prints it ("22 Feb 1882", "Mar 19 1950", "June 7 1878"), only where
+        # a day is known and nothing approximates it. A year, a month and year, "Circa 1850", "before 5 Mar 1840" or "dead by ..." gets NO field (by / dy and bye / dye
+        # carry those). Dead people only: this loop sees only the people who_is_drawable() let through (never living, never living-by-inference); the `living` test is a
+        # second belt, and the check after the loop refuses to write if any person carries bd / dd while people.json flags them living.
+        if not src.get("living"):
+            if FULLDATE.match(str(src.get("b") or "")): p["bd"] = src["b"]
+            if FULLDATE.match(str(src.get("d") or "")): p["dd"] = src["d"]
+    leak = [p["id"] for p in t["people"] if ("bd" in p or "dd" in p) and by[p["id"]].get("living")]
+    if leak: sys.exit("a living person carries a full date in the tree: %s" % leak[:5])
+    rep["people_with_full_birth_date"] = sum(1 for p in t["people"] if "bd" in p)
+    rep["people_with_full_death_date"] = sum(1 for p in t["people"] if "dd" in p)
     rep["people_drawn_at_a_relatives_birth_place"] = bpe
     t["lines"] = [{"sur": g[1], "host": HOST} for g in top] + [{"sur": "Other", "host": HOST}]
     t["meta"].update({"rowLabel": "Surname family", "lineLabel": "Surname family"})

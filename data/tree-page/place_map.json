@@ -1735,5 +1735,338 @@
   "atlas_id": null,
   "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
   "suggest": []
+ },
+ "Arienzo, Corso Caudino 69": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, Corso Caudino 33": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Sant'Andrea 15": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, piazza Valletta 1": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Camellara 24": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Camellara 27": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Camellara 29": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Corso Caudino 67": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Sant'Andrea 9": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Corso Caudino": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Corso Caudino 71": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Orticelli 12": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Orticelli 16": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Orticelli 5": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, Corso Caudino 11": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, Corso Caudino 79": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, Corso Caudino 84": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, Corso Allegria 4": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Castelpoto 5": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, Corso Caudino 85": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, Corso Caudino 86": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Castelpoto 2": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, Corso Caudino 59": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Camellara 33": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, Contrada Porta di sopra": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, Corso Caudino 89": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, Corso Caudino 108": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Maddalena 2": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Camellara 1": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, Corso Caudino 55": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, Corso Caudino 12": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Sant'Andrea 20": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Sant'Andrea 5": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Camellara 13": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Torrette 5": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "Arienzo, via Crisci 2": {
+  "name": "Arienzo",
+  "lat": 41.0243,
+  "lon": 14.4971,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "arienzo",
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (cache (Arienzo, Caserta, Campania)); country by the Atlas's geo.country_of"
+ },
+ "San Martino Valle Caudina, Casa Comunale": {
+  "name": "San Martino Valle Caudina",
+  "lat": 41.02,
+  "lon": 14.65,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv town; point from data/era-towns.tsv (hand-placed, approximate (about 41.02 N 14.65 E, in the Valle Caudina east of Arienzo); the check only needs the region); country by the Atlas's geo.country_of"
  }
 }

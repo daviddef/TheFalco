@@ -1,12 +1,12 @@
 {
- "individuals": 1037,
- "kept": 729,
- "living": 201,
+ "individuals": 1170,
+ "kept": 802,
+ "living": 265,
  "living_policy": "omit",
- "undated_dropped": 293,
- "birth_year_estimated": 261,
- "death_year_estimated": 490,
- "placed_from_relative": 284,
+ "undated_dropped": 353,
+ "birth_year_estimated": 258,
+ "death_year_estimated": 547,
+ "placed_from_relative": 282,
  "dropped_unplaced": 8,
  "unresolved_places": {
   "—": 4,
@@ -18,6 +18,12 @@
  "focus": "matteo-falco-of-matteo-falco-alessandra-crisci",
  "conflicts": [
   {
+   "id": "antonia-carfora",
+   "born": 1848,
+   "died": 1828,
+   "birth_is_an_estimate": true
+  },
+  {
    "id": "domenico-carfora",
    "born": 1817,
    "died": 1813,
@@ -25,13 +31,13 @@
   },
   {
    "id": "clemente-crisci-2",
-   "born": 1887,
+   "born": 1877,
    "died": 1873,
    "birth_is_an_estimate": true
   },
   {
    "id": "domenico-crisci-of-pasquale-crisci-francesca-falco-2",
-   "born": 1887,
+   "born": 1877,
    "died": 1873,
    "birth_is_an_estimate": true
   },
@@ -45,6 +51,12 @@
    "id": "domenico-di-guida-of-angelandrea-di-guida-teresa-viglio",
    "born": 1817,
    "died": 1814,
+   "birth_is_an_estimate": true
+  },
+  {
+   "id": "teresa-di-guida",
+   "born": 1820,
+   "died": 1810,
    "birth_is_an_estimate": true
   },
   {
@@ -145,35 +157,37 @@
   }
  ],
  "adapter": {
-  "people_in_people_json": 1097,
+  "people_in_people_json": 1230,
   "living_flag_in_people_json": 47,
   "living_by_inference_extra": 0,
   "undated_beside_a_living_person_omitted": 12,
   "no_name_not_drawn": 1,
-  "offered_to_the_converter": 1037,
+  "offered_to_the_converter": 1170,
   "sex_from": {
-   "none": 712,
-   "role": 315,
-   "event": 10
+   "none": 796,
+   "role": 318,
+   "event": 56
   },
   "sex_counts_offered": {
-   "u": 712,
-   "m": 166,
-   "f": 159
+   "u": 796,
+   "m": 189,
+   "f": 185
   },
   "child_links_with_one_parent_only_because_the_pair_came_out_one_sex": 0,
-  "place_strings_from_era_ground": 0,
+  "place_strings_from_era_ground": 37,
   "place_strings_from_additions": 0,
-  "people_drawn_at_a_relatives_birth_place": 284,
+  "people_with_full_birth_date": 418,
+  "people_with_full_death_date": 264,
+  "people_drawn_at_a_relatives_birth_place": 282,
   "colour_families": [
    "Falco",
    "Crisci",
    "Morgillo",
    "Annecchino",
+   "Arricale",
    "Zampiello",
-   "di Guida",
-   "Cioffi"
+   "di Guida"
   ]
  },
- "people_drawn": 708
+ "people_drawn": 779
 }

@@ -24,6 +24,15 @@ python3 tools/build-tree-page.py --check   # exit 1 if the page is older than th
 Needs the Record Atlas checkout (`RECORD_ATLAS`, default `~/Projects/Family Projects/Record Atlas`), read only. The skill's scripts are vendored in
 `tools/tree-page/` (the family-tree-page skill, template 1.7.0), so CI and other sessions do not depend on `~/.claude`.
 
+## Full dates in `tree.json` (`bd`, `dd`)
+
+Per person, optional: `bd` = full birth date, `dd` = full death date, each the archive's own `people.json` `b` / `d` string **byte for byte**, which is what the
+person page prints. The shapes are this archive's own, not ISO: `22 Feb 1882` (day, month, year), `Mar 19 1950` and `June 7 1878` (month, day, year). The field
+is present **only when a day is known and nothing approximates it**: a year, a month and year, `Circa 1850`, `before 5 Mar 1840` and `dead by ...` get none
+(`by` / `dy` and the `bye` / `dye` flags carry those). Dead people only: the builder sees only people `who_is_drawable()` lets through (never `living`, never
+living-by-inference), tests `living` again, and refuses to write if a living person carries either field. The Atlas Tree Canvas reads them for its research brief.
+Added 16 November 2026.
+
 ## What is and is not on the page
 
 - **No living person.** The people are `site/src/data/people.json`, less everyone it flags `living` (47), anyone `data/living-by-inference.json` lists, an
