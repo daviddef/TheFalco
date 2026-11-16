@@ -363,7 +363,12 @@ def undrawn_people(allp, t, sexes_all, rep):
     for p in allp:
         s = p["slug"]
         if s in drawn: continue
-        if p.get("living"): skipped["flagged living"] += 1; continue
+        if p.get("living"):
+            # a LIVING CARD (David, 17 Nov 2026): name and family links only. No dates, place, role, page link or count; `living: true`. The Roots pages that carry it are noindex.
+            g, sur = split_name(p); f, m, sp, kids = links(p)
+            e = {"id": s, "name": clean_base(p.get("name")), "why": "living", "sex": sexes_all[s][0], "given": g, "sur": sur,
+                 "father": f, "mother": m, "spouse": sp, "kids": kids, "living": True}
+            out.append(e); why_n["living"] += 1; continue
         if s in HELD["adj"]: skipped["held back for a living neighbour"] += 1; continue
         b, d = p.get("b") or "", p.get("d") or ""
         by_, dy_ = _year(b), _year(d)
@@ -386,7 +391,17 @@ def undrawn_people(allp, t, sexes_all, rep):
         why_n[why] += 1; out.append(e)
     rep["undrawn_listed"] = len(out); rep["undrawn_by_why"] = dict(why_n); rep["undrawn_placeholders"] = sum(1 for e in out if e.get("placeholder"))
     rep["undrawn_held_out_and_not_named"] = dict(skipped)
-    assert not any(by[e["id"]].get("living") for e in out), "a living person in the undrawn list"
+    LIVING_KEYS = {"id", "name", "why", "sex", "given", "sur", "father", "mother", "spouse", "kids", "living"}
+    for e in out:
+        if by[e["id"]].get("living"):
+            assert set(e) == LIVING_KEYS and e["living"] is True, "a living card carries more than name and family: %s" % e["id"]
+        else:
+            assert "living" not in e, "a non-living card is marked living: %s" % e["id"]
+    # living cards go out only on pages that are noindex: refuse to write them if either Roots page is indexable
+    if any(e.get("living") for e in out):
+        for f_ in ("index.astro", "view.html.js"):
+            src_ = io.open(os.path.join(DATA, "..", "pages", "roots", f_), encoding="utf-8").read()
+            if "noindex" not in src_: sys.exit("living cards are in tree.json but site/src/pages/roots/%s is not noindex" % f_)
     # a link may only name someone this tree carries: a living relative, or one held back, is not named by id either
     ids = drawn | {e["id"] for e in out}
     for e in out:
