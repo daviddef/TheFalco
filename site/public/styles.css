@@ -815,3 +815,9 @@ main:has(+ .bk-foot){padding-bottom:0}
 /* The kit's <Rec> draws a record link as a.rec (the linking standard's L3). This stylesheet's own .rec is a three-column grid
    for a row of the record tables, so the link has to take none of it: it is an ordinary inline link in the author's sentence. */
 a.rec{display:inline;grid-template-columns:none;font-family:inherit;font-size:inherit;padding:0;border:0}
+
+/* The Tree Canvas icon (estate spec, 16 Nov 2026): round, the same 34px as the pulse buttons, orange, white glyph; hover and focus darker, ring kept visible. */
+header.site nav.topnav a.tcbtn{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;width:34px;height:34px;margin-left:6px;padding:0;border-radius:50%;
+  border:1px solid #D9822B;background:#D9822B;color:#fff;text-decoration:none;line-height:1}
+header.site nav.topnav a.tcbtn:hover,header.site nav.topnav a.tcbtn:focus-visible{background:#C4721F;border-color:#C4721F;color:#fff}
+header.site nav.topnav a.tcbtn:focus-visible{outline:2px solid #C4721F;outline-offset:2px}
