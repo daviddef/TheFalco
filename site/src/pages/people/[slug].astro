@@ -260,7 +260,7 @@ const dek = p.living
         and the reader is told.</p>
       ) : null}
       {CX ? (
-        <p class="small"><strong>✎ {CX} {CX === 1 ? "correction" : "corrections"}</strong> on this archive's <a href={u("/corrections/")}>corrections page</a> {CX === 1 ? "names" : "name"} this person.</p>
+        <p class="small"><strong>{`✎ ${CX} ${CX === 1 ? "correction" : "corrections"}`}</strong>{" on this archive's "}<a href={u("/corrections/")}>corrections page</a>{` ${CX === 1 ? "names" : "name"} this person.`}</p>
       ) : null}
       {clashOther.length ? (
         <p class="warn"><strong>More than one person in this row carries the same name</strong> —
