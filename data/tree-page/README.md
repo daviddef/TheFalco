@@ -38,12 +38,11 @@ Added 16 November 2026.
 Every dead person the archive publishes who the maps skip is listed in `tree.json` `undrawn` as an unplaced card (the Roots page lists them under «Not drawn yet»,
 the Atlas Tree Canvas draws them): `id, name, why, sex, given, sur, by, dy, bye, dye, bd, dd, father, mother, spouse, kids, role, page` and `placeholder: true`
 where there is no usable name (the card is «Unknown», with its family links). `why`: `year` (no year at all), `other` (a year, but not drawn), `conflict` (a death
-before the estimated birth: the 23 carry the death only, the estimate is dropped). A link names only someone the tree carries. **Never listed, never named:** anyone
-people.json flags living, anyone held back for a living neighbour, anyone born inside the 110-year floor with no death. Added 17 November 2026.
+before the estimated birth: the 23 carry the death only, the estimate is dropped). A link names only someone the tree carries. **Living (47, David's ruling of 17 November 2026):** `why: "living"`, `living: true`, and ONLY `id, name, sex, given, sur, father, mother, spouse, kids` (no dates, place, role, page link or count; the builder asserts it and refuses to write them unless `/roots/` and `/roots/view.html` are noindex). **Never listed, never named:** anyone held back for a living neighbour, anyone born inside the 110-year floor with no death. Added 17 November 2026.
 
 ## What is and is not on the page
 
-- **No living person.** The people are `site/src/data/people.json`, less everyone it flags `living` (47), anyone `data/living-by-inference.json` lists, an
+- **No living person is drawn on the maps** (but see `undrawn`: the 47 flagged living are carried there as name-and-family-only cards, and both Roots pages are noindex). The people are `site/src/data/people.json`, less everyone it flags `living` (47), anyone `data/living-by-inference.json` lists, an
   undated person beside a living one, and a person with no name. The converter adds its floor: nobody with no death recorded and a birth year (estimated
   ones included) after 1916. The page's own check fails the build on a living person's name.
 - **Not drawn, and why** (of 1,097 in people.json, 708 are drawn): 47 living; 13 held back by this adapter; 300 with no birth year, recorded or estimable
