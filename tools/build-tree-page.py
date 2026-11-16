@@ -346,8 +346,7 @@ def _year(s):
 
 def undrawn_people(allp, t, sexes_all, rep):
     """EVERY dead person the archive publishes who the maps did not draw, as an unplaced card (the Atlas Tree Canvas draws `undrawn` entries that carry details; the
-    Roots page lists them under «Not drawn yet»). Never a living person: anyone people.json flags living, anyone held back for a living neighbour (12) and anyone with a
-    birth inside the converter's 110-year floor and no death (possibly living) stays out, unnamed. Placeholders (no usable name) are drawn as «Unknown» with their family
+    Roots page lists them under «Not drawn yet»). A person who is living, possibly living (flagged living, held back for a living neighbour, or a birth inside the converter's 110-year floor with no death) is carried only as a name-and-family card with `living: true`, never with a date. Placeholders (no usable name) are drawn as «Unknown» with their family
     links and `placeholder: true`. The 23 whose death precedes their estimated birth carry the death only (the estimate is dropped) and `why: "conflict"`.
     Fields: id, name, why, given, sur, sex, by, dy, bye, dye, bd, dd, father, mother, spouse, kids, role, page, placeholder. Dates are people.json's own strings
     (bd / dd only where a day is known), the same rule as the drawn people."""
@@ -360,20 +359,23 @@ def undrawn_people(allp, t, sexes_all, rep):
         f = men[0] if men else (unk.pop(0) if unk else None); m = wom[0] if wom else (unk.pop(0) if unk else None)
         return f, m, [r["slug"] for r in p.get("spouses") or [] if r["slug"] in by], [r["slug"] for r in p.get("children") or [] if r["slug"] in by]
     out, why_n, skipped = [], collections.Counter(), collections.Counter()
+    LIVING_IDS = set()
     for p in allp:
         s = p["slug"]
         if s in drawn: continue
-        if p.get("living"):
-            # a LIVING CARD (David, 17 Nov 2026): name and family links only. No dates, place, role, page link or count; `living: true`. The Roots pages that carry it are noindex.
+        b0, d0 = p.get("b") or "", p.get("d") or ""
+        by0 = _year(b0)
+        # possibly living: flagged living, held back for a living neighbour, or a birth inside the 110-year floor with no death (and not a recorded conflict)
+        poss = bool(p.get("living") or s in HELD["adj"] or (s not in CONFLICTS and not d0 and by0 is not None and by0 > floor))
+        if poss:
+            # a LIVING CARD (David, 17 Nov 2026; widened the same day to the 12 beside a living person and the 2 inside the floor): name and family links only. No dates, place, role, page link or count; `living: true`. The Roots pages that carry it are noindex.
             g, sur = split_name(p); f, m, sp, kids = links(p)
             e = {"id": s, "name": clean_base(p.get("name")), "why": "living", "sex": sexes_all[s][0], "given": g, "sur": sur,
                  "father": f, "mother": m, "spouse": sp, "kids": kids, "living": True}
-            out.append(e); why_n["living"] += 1; continue
-        if s in HELD["adj"]: skipped["held back for a living neighbour"] += 1; continue
+            out.append(e); why_n["living"] += 1; LIVING_IDS.add(s); continue
         b, d = p.get("b") or "", p.get("d") or ""
         by_, dy_ = _year(b), _year(d)
         if s in CONFLICTS: why, by_, b = "conflict", None, ""
-        elif not d and by_ is not None and by_ > floor: skipped["birth inside the 110-year floor, no death (possibly living)"] += 1; continue
         elif by_ is None and dy_ is None: why = "year"
         else: why = "other"
         base = clean_base(p.get("name"))
@@ -393,7 +395,7 @@ def undrawn_people(allp, t, sexes_all, rep):
     rep["undrawn_held_out_and_not_named"] = dict(skipped)
     LIVING_KEYS = {"id", "name", "why", "sex", "given", "sur", "father", "mother", "spouse", "kids", "living"}
     for e in out:
-        if by[e["id"]].get("living"):
+        if e["id"] in LIVING_IDS:
             assert set(e) == LIVING_KEYS and e["living"] is True, "a living card carries more than name and family: %s" % e["id"]
         else:
             assert "living" not in e, "a non-living card is marked living: %s" % e["id"]
