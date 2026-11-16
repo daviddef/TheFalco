@@ -3405,6 +3405,8 @@ register**.
 
 ### ANDREANA CRISCI HAS A DEATH WINDOW AT LAST
 
+> **CORRECTED 16 November 2026 — this passage is wrong about 1876.** Andreana Crisci **is** in the 1876 deaths: *Morti 1876, act 53*, 24 July 1876, Via Orticelli no. 10, aged eighty-one, «vedova di Vincenzo Falco», daughter of the late Arcangelo and the late Sara Ruggiero (re-opened from the image on 13 November 2026, `MC55-FNT` image 1132, level 13). The window is **closed, not eleven years wide**, and the earlier sweep of 1876 that put her «in none of them» missed the act. The household row that carries the old window says the same in its first words.
+
 **Alive 15 May 1875** — her husband's death act calls him «*marito di* CRISCI ANDREANA», not *vedovo*.
 **Dead by 22 October 1886** — «*dalla **fu** ANDREANA CRISCI*».
 
@@ -3498,6 +3500,8 @@ dead at sixty-two seven months later. **Three ages, three acts, one man, born ab
 > in fourteen months.**
 
 ## And a second wife of this line vanishes from the registers
+
+> **CORRECTED 16 November 2026 — this passage is wrong about 1876.** Andreana Crisci **is** in the 1876 deaths: *Morti 1876, act 53*, 24 July 1876, Via Orticelli no. 10, aged eighty-one, «vedova di Vincenzo Falco», daughter of the late Arcangelo and the late Sara Ruggiero (re-opened from the image on 13 November 2026, `MC55-FNT` image 1132, level 13). The window is **closed, not eleven years wide**, and the earlier sweep of 1876 that put her «in none of them» missed the act. The household row that carries the old window says the same in its first words.
 
 **Raffaele's act calls his mother «dalla fu ANDREANA CRISCI».** The eleven-year window her daughter
 Sara's act gave that afternoon closes to **15 May 1875 – 21 April 1880** — and **every month of it is
@@ -3952,3 +3956,68 @@ Read from the images, both pages of every leaf, level 12; every Falco or near-na
 - **Morti 1896, read in full (13 November 2026): Parte I acts 1–99 on images 2339–2363, Parte II no act (2364–2365), index 2365–2366.** Image 2338 is a second exposure of the title page (2337) and carries no acts. Layout: two acts to a page, each in its own box, the deceased's name in the outer-margin box and a numbered header; every act is complete on its own page. Officers: Nicola Finelli (assessore anziano acting as sindaco) to act 12, Paride Guerriero (assessore delegato by act of 28 January 1896) from act 13 (2 February) to act 85 (15 November), Raffaele De Muro (assessore anziano funzionante pel Sindaco assente) from act 86 (22 November); Parte I closed 1 January 1897, verified 30 January 1897. The witnesses of every act are the two messi comunali (Raffaele, whose surname is not settled at level 12 and is written Trozzi or Troisi, and Michele Ruggiero), so no act's witnesses are evidence for anything.
 - **Falco in Morti 1896:** none as the deceased, in any of the 99 acts or in the index (the F group holds Finelli Alberto 80 alone, the foot of the page zoomed). **Act 11**, Crisci Teresa: the declarant is **Antonio Falco, 43, contadino, via Camellara 4** (level 13), attached to no household. **Act 33**, Piscitelli Francesco: «marito di Filomena Annecchino», no link claimed to the tree's Filomena Annecchino. **Act 56**, Pasquale Saccavino (9 July 1896, via Camellara 2, «marito di Domenica Falo», the surname written without the c): the household row was a delegated, medium-confidence reading and is now **read from the image at level 13**, the independent tie being the parents' names, which agree with Matrimoni 1881 act 12, plus the Camellara street. **Act 16**, Damasco Salvatore, carries a later margin note (3 November 1897) correcting the surname to De Masco.
 - **The next book is Pubblicazioni 1897**, whose board cover is image 2367 (2368 onward). The 1897 registers (Pubblicazioni, Matrimoni, Nascite, Morti) and everything to image 2898 of `MC55-VNL` are not yet read.
+
+## The full walk, 1901–1910: every book of `MC55-RM9` that holds a Falco act (15 November 2026)
+
+Added 16 November 2026 to close a gap: this log stopped at 1896 while the walk went on to 1910. This section is an **index**, built from the
+Falco archive's own search rows (`site/src/data/searched.json`, entries 257 to 303, counting from 0; entry 256 is the earlier VNL roll); each row's *got* field is the book-by-book account — acts counted,
+leaves, second exposures, near-names seen and not counted, Falco acts placed and Falco sightings left unplaced. Nothing here is a second reading.
+Every Falco act of 1905–1910 has a line in [arienzo-1866-1910-falco-acts.md](arienzo-1866-1910-falco-acts.md) (V131 to V200), and those that the walk re-read
+from the image say so in their last column. Falco declarants and witnesses held unplaced: [unplaced-falco-witnesses-1907-1910.md](unplaced-falco-witnesses-1907-1910.md).
+Walked means every act of every leaf displayed at level 12, every Falco or near-name cell at level 13; the images are the `MC55-RM9` numbering.
+
+| book (as the row names it) | images | walked |
+|---|---|---|
+| Civil registers (births, deaths, marriages, banns) 1901-1910 | 1-21 | no |
+| Pubblicazioni 1901 Parte II and Matrimoni 1901 (Parte I and II, annual index) | 22-42 | yes |
+| Nascite 1901 (Parte I of 130 acts, empty Parte II, annual index) | 43-94 | yes |
+| Cittadinanze 1901 (two acts) | 95-97 | yes |
+| Morti 1901 (Parte I of 90 acts, Parte II of 2 acts, annual index) | 98-129 | yes |
+| Pubblicazioni di matrimonio 1902 (Parte I of 11 acts, Parte II of 9 acts) | 130-143 | yes |
+| Matrimoni 1902 (Parte I of 14 acts, Parte II of 1 act, annual index) | 144-156 | yes |
+| Nascite 1902 (Parte I of 127 acts, Parte II of 2 acts, annual index) | 157-206 | yes |
+| Morti 1902 (Parte I of 85 acts, Parte II of 1 act, annual index) | 207-234 | yes |
+| Pubblicazioni di matrimonio 1903 (Parte I of 22 acts, Parte II of 11 acts) | 235-256 | yes |
+| Matrimoni 1903 (Parte I of 19 acts, Parte II with no acts, annual index) | 257-272 | yes |
+| Cittadinanze 1903 (seven acts) | 273-277 | yes |
+| Nascite 1903 (Parte I of 111 acts, Parte II of 2 acts, annual index) | 278-321 | yes |
+| Morti 1903 (Parte I of 82 acts, Parte II none, annual index) | 322-349 | yes |
+| Pubblicazioni di matrimonio 1904 (Parte I printed forms, 28 acts; Parte II requests from other comuni, 18 acts) | 350-375 | yes |
+| Cittadinanze 1904 (two acts) | 376-378 | yes |
+| Matrimoni 1904 (Parte I 26 acts, Parte II 1 act) | 379-398 | yes |
+| Nascite 1904 (Parte I 124 acts, Parte II 1 act) | 399-450 | yes |
+| Morti 1904 (Parte I 92 acts, Parte II no act) | 450-480 | yes |
+| Pubblicazioni di matrimonio 1905 (Parte I printed forms, 39 acts; Parte II requests from other comuni, 13 acts) | 483-511 | yes |
+| Matrimoni 1905 (Parte I, 36 acts; Parte II, 2 transcriptions; annual index) | 513-538 | yes |
+| Nascite 1905 (Parte I, 135 acts; Parte II, no acts; annual index) | 539-590 | yes |
+| Cittadinanza 1905 (2 acts) | 591-593 | yes |
+| Morti 1905 (Parte I, 80 acts; Parte II, no acts; annual index) | 594-620 | yes |
+| Pubblicazioni di matrimonio 1906 (Parte I, 28 acts; Parte II, 16 acts) | 621-646 | yes |
+| Matrimoni 1906 (Parte I, 26 acts; Parte II, 1 act; annual index) | 647-665 | yes |
+| Nascite 1906 (Parte I, 123 acts; Parte II, 2 acts; annual index) | 668-712 | yes |
+| Cittadinanze 1906 (2 acts) | 713-715 | yes |
+| Morti 1906 (Parte I, 69 acts; Parte II, no acts; annual index) | 716-738 | yes |
+| Pubblicazioni di matrimonio 1907 (Parte I, 38 acts; Parte II, 10 acts) | 739-765 | yes |
+| Matrimoni 1907 (Parte I, 34 acts; Parte II, 1 act; annual index) | 768-789 | yes |
+| Nascite 1907 (Parte I, 133 acts; Parte II, 4 acts; annual index) | 790-845 | yes |
+| Cittadinanza 1907 (2 acts; title page and close) | 846-848 | yes |
+| Morti 1907 (Parte I, 86 acts; Parte II, 3 acts; annual index) | 849-878 | yes |
+| Morti 1908 (Parte I, 98 acts; Parte II, no acts; annual index) | 880-909 | yes |
+| Pubblicazioni di matrimonio 1908 (Parte I, 34 acts; Parte II, 9 acts) | 910-936 | yes |
+| Matrimoni 1908 (Parte I, 36 acts; Parte II, 2 acts; annual index) | 937-962 | yes |
+| Nascite 1908 (Parte I, 145 acts; Parte II, 2 acts; annual index) | 963-1018 | yes |
+| Morti 1909 (Parte I, 91 acts; Parte II Serie A, 1 act, Serie B and C empty; annual index) | 1019-1053 | yes |
+| Cittadinanza 1909 (2 acts) | 1054-1056 | yes |
+| Pubblicazioni di matrimonio 1909 (Parte I, 38 acts; Parte II Serie A, 13 acts; Serie B, 2 acts) | 1057-1088 | yes |
+| Matrimoni 1909 (Parte I, 36 acts; Parte II Serie A and Serie B, no act; annual index) | 1089-1115 | yes |
+| Nascite 1909 (Parte I, 144 acts numbered 1-146; Parte II Serie A empty, Serie B 1 act; annual index) | 1116-1176 | yes |
+| Morti 1910 (Parte I, 77 acts; Parte II Serie A 1 act, Serie B none, Serie C 1 act; annual index) | 1180-1209 | yes |
+| Nascite 1910 (Parte I, 150 acts; Parte II Serie A empty, Serie B 4 acts; annual index) | 1210-1275 | yes |
+| Pubblicazioni di matrimonio 1910 (Parte I, 39 acts; Parte II Serie A, 9 acts; Serie B, 1 act) | 1276-1308 | yes |
+| Matrimoni 1910 (Parte I, 36 acts; Parte II Serie A, 2 acts; Serie B, no act; annual index) | 1309-1337 | yes |
+
+What the table does not settle:
+
+- **Row 257** is the first row of the roll: its `pages` field says 1–21, but its text says only images 1–3 were read (a filming slate and two resolution targets). Images 4–21, which should be Pubblicazioni 1901 Parte I, have **no row of their own** here; the walk commits record that book closing at 27 acts, but this index cannot show the images behind it. Nothing in it is a nil.
+- **No row** exists for a Cittadinanze book of 1908 or of 1910, nor for Pubblicazioni di matrimonio 1901 Parte I as a walked book. I did not establish whether the roll carries those books.
+- **1897–1900** lie in the `MC55-VNL` roll, whose single row (256) ends at Morti 1900; it is not repeated in this table.
