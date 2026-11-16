@@ -113,6 +113,8 @@ def sex_table(people):
         else: out[p["slug"]] = ("u", "none")
     return out
 
+HELD = {"adj": set(), "noname": set()}   # slugs who_is_drawable held back for a living neighbour / for no name; the undrawn list needs them
+CONFLICTS = {}                                    # the people drop_conflicts removed, by slug
 def who_is_drawable(all_people, rep):
     """The archive's own flag, then the extra belts. Returns the people who may go into the GEDCOM at all."""
     inf = jl(os.path.join(ROOT, "data", "living-by-inference.json"))
@@ -128,9 +130,9 @@ def who_is_drawable(all_people, rep):
     for p in all_people:
         if p["slug"] in living: continue
         if not dated(p) and any(r["slug"] in living for k in ("parents", "spouses", "children") for r in p.get(k) or []):
-            adj += 1; continue
+            adj += 1; HELD["adj"].add(p["slug"]); continue
         if not clean_base(p["name"]) or p.get("surname") in (None, "", "—") or "unnamed" in p["name"].lower():
-            noname += 1; continue
+            noname += 1; HELD["noname"].add(p["slug"]); continue
         keep.append(p)
     rep["undated_beside_a_living_person_omitted"] = adj
     rep["no_name_not_drawn"] = noname
@@ -335,8 +337,64 @@ def build(a, rep):
     t["lines"] = [{"sur": g[1], "host": HOST} for g in top] + [{"sur": "Other", "host": HOST}]
     t["meta"].update({"rowLabel": "Surname family", "lineLabel": "Surname family"})
     drop_conflicts(t, tree)
+    t["undrawn"] = undrawn_people(allp, t, sexes_all=sex_table(allp), rep=rep)
     io.open(tree, "w", encoding="utf-8").write(json.dumps(t, ensure_ascii=False, separators=(",", ":")))
     rep["colour_families"] = [g[1] for g in top]
+
+def _year(s):
+    m = re.search(r"\b(\d{4})\b", str(s or "")); return int(m.group(1)) if m else None
+
+def undrawn_people(allp, t, sexes_all, rep):
+    """EVERY dead person the archive publishes who the maps did not draw, as an unplaced card (the Atlas Tree Canvas draws `undrawn` entries that carry details; the
+    Roots page lists them under «Not drawn yet»). Never a living person: anyone people.json flags living, anyone held back for a living neighbour (12) and anyone with a
+    birth inside the converter's 110-year floor and no death (possibly living) stays out, unnamed. Placeholders (no usable name) are drawn as «Unknown» with their family
+    links and `placeholder: true`. The 23 whose death precedes their estimated birth carry the death only (the estimate is dropped) and `why: "conflict"`.
+    Fields: id, name, why, given, sur, sex, by, dy, bye, dye, bd, dd, father, mother, spouse, kids, role, page, placeholder. Dates are people.json's own strings
+    (bd / dd only where a day is known), the same rule as the drawn people."""
+    drawn = {p["id"] for p in t["people"]}
+    by = {p["slug"]: p for p in allp}
+    floor = datetime.date.today().year - 110
+    def links(p):
+        par = [r["slug"] for r in p.get("parents") or [] if r["slug"] in by]
+        men = [s for s in par if sexes_all[s][0] == "m"]; wom = [s for s in par if sexes_all[s][0] == "f"]; unk = [s for s in par if sexes_all[s][0] == "u"]
+        f = men[0] if men else (unk.pop(0) if unk else None); m = wom[0] if wom else (unk.pop(0) if unk else None)
+        return f, m, [r["slug"] for r in p.get("spouses") or [] if r["slug"] in by], [r["slug"] for r in p.get("children") or [] if r["slug"] in by]
+    out, why_n, skipped = [], collections.Counter(), collections.Counter()
+    for p in allp:
+        s = p["slug"]
+        if s in drawn: continue
+        if p.get("living"): skipped["flagged living"] += 1; continue
+        if s in HELD["adj"]: skipped["held back for a living neighbour"] += 1; continue
+        b, d = p.get("b") or "", p.get("d") or ""
+        by_, dy_ = _year(b), _year(d)
+        if s in CONFLICTS: why, by_, b = "conflict", None, ""
+        elif not d and by_ is not None and by_ > floor: skipped["birth inside the 110-year floor, no death (possibly living)"] += 1; continue
+        elif by_ is None and dy_ is None: why = "year"
+        else: why = "other"
+        base = clean_base(p.get("name"))
+        placeholder = s in HELD["noname"] or not base or "unnamed" in base.lower() or p.get("surname") in (None, "", "—")
+        f, m, sp, kids = links(p)
+        e = {"id": s, "name": "Unknown" if placeholder else base, "why": why, "sex": sexes_all[s][0]}
+        if not placeholder:
+            g, sur = split_name(p); e["given"] = g; e["sur"] = sur
+        e.update({"by": by_, "dy": dy_, "bye": bool(by_ is not None and not FULLDATE.match(b) and not re.fullmatch(r"\d{4}", b.strip())),
+                  "dye": bool(dy_ is not None and not FULLDATE.match(d) and not re.fullmatch(r"\d{4}", d.strip())),
+                  "father": f, "mother": m, "spouse": sp, "kids": kids, "role": p.get("role") or None, "page": "/people/%s/" % s})
+        if FULLDATE.match(b): e["bd"] = b
+        if FULLDATE.match(d): e["dd"] = d
+        if placeholder: e["placeholder"] = True
+        why_n[why] += 1; out.append(e)
+    rep["undrawn_listed"] = len(out); rep["undrawn_by_why"] = dict(why_n); rep["undrawn_placeholders"] = sum(1 for e in out if e.get("placeholder"))
+    rep["undrawn_held_out_and_not_named"] = dict(skipped)
+    assert not any(by[e["id"]].get("living") for e in out), "a living person in the undrawn list"
+    # a link may only name someone this tree carries: a living relative, or one held back, is not named by id either
+    ids = drawn | {e["id"] for e in out}
+    for e in out:
+        for k in ("father", "mother"):
+            if e[k] not in ids: e[k] = None
+        e["spouse"] = [x for x in e["spouse"] if x in ids]; e["kids"] = [x for x in e["kids"] if x in ids]
+    out.sort(key=lambda e: (e["name"], e["id"]))
+    return out
 
 def drop_conflicts(t, tree):
     """A person whose recorded death comes before their birth, or more than 110 years after it, is not one life. They are not drawn, they are named in tree.report.json (conflicts) for the
@@ -345,6 +403,8 @@ def drop_conflicts(t, tree):
     rep_path = os.path.splitext(tree)[0] + ".report.json"; rep = jl(rep_path)
     rep["conflicts"] = [{"id": p["id"], "born": p["by"], "died": p["dy"], "birth_is_an_estimate": bool(p.get("bye"))} for p in t["people"] if p["id"] in bad]
     if bad:
+        for p in t["people"]:
+            if p["id"] in bad: CONFLICTS[p["id"]] = p
         t["people"] = [p for p in t["people"] if p["id"] not in bad]
         for p in t["people"]:
             for k in ("father", "mother"):
