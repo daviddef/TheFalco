@@ -3591,6 +3591,12 @@
   "now": "**UNMERGED. THEY ARE TWO WOMEN AND THE TREE'S IS NOT THIS ARCHIVE'S.**\n\n**FRANCESCO FALCO AND MADDALENA SICILIATTO APPEAR NOWHERE IN THE REGISTER WORK.** Every row carrying the name Siciliatto in this archive is marked «*The family tree (unverified unless a record is cited)*»; there are **none** in `households.tsv` and **none** in the reading notes. The tree gives Francesco Falco's own parents as «*[Unconfirmed Family] Falco*» and «*Unknown Falco*». **The 1772 woman rests on nothing this archive has read.**\n\nShe keeps her own page, marked tree-only, because **an unverified person is not a deleted person** — she is somebody the tree believes in and this archive cannot corroborate, which is a thing worth saying rather than hiding.\n\n**AND THE RULE IS FIXED, AT THE SECOND ATTEMPT.** The first repair refused «name alone» wherever the years failed to overlap. **It cost TEN merges to save ONE, and nine of the ten were correct** — *Alessandra Crisci* has a tree birth of **1817** and a register marriage of **1834**, years that never overlap and never contradict, **because a birth year and a marriage year never do**. *Absence of agreement is not disagreement, and the first rule could not tell them apart.* It was reverted inside the hour.\n\n**The rule now compares LIKE WITH LIKE** — the household's **birth** event against the tree's `b`, its **death** event against the tree's `d` — and refuses only when one of those pairs both exists and disagrees. It refuses **exactly one** merge, and says why: «*angela maria falco — birth [1822] vs tree [1772]*». **The other fourteen «name alone» merges stand.**\n\n**HOW IT WAS FOUND.** Not by a name check — by a **date** check written the same day for a different fault. When Luigi Falco was merged, the tree's dates overwrote the registers', and the repair for that added a line printing every act that contradicts a tree date. **It fired on its first run and this is what it found.**",
   "who": [
    "angela-maria-falco"
+  ],
+  "for": [
+   [
+    "/people/angela-maria-falco/",
+    "Angela Maria Falco"
+   ]
   ]
  },
  {
@@ -3630,6 +3636,12 @@
   "now": "**REFUSED, AND THE RULE NOW DISTINGUISHES DISAGREEMENT FROM IMPOSSIBILITY.**\n\nThe 23 September guard was right to allow non-overlapping years: *a birth year and a marriage year never overlap and never contradict*, and refusing that cost ten good merges before it was reverted. **But a tree birth against a register death CAN contradict, because nobody dies before they are born.** `build_people.py` now refuses a «name alone» merge when the two sides' dates could not both be true — and only then.\n\n**Each woman now stands on her own page**: `/carmina-falco/` and `/pasqualina-falco/` hold the women the **registers** record, with their death acts; `/carmina-falco-2/` and `/pasqualina-falco-2/` hold the women the **family tree** records, with their births and no act behind them.\n\n**AND THE REPAIR BROKE SOMETHING WORSE BEFORE IT WAS CAUGHT.** Unmerging made both halves claim one address, and the loser was **deleted with no line of output at all** — two documented deaths, 19 December 1832 and 14 September 1836, simply ceased to exist while every gate stayed green.\n\n**The cause is in `person-slugs.json`: 34 slugs are frozen to TWO keys**, a household key and a tree key. That is correct while two halves are merged — one person, one address. **It becomes a trap the moment a merge is withdrawn**, because the branch that reads a frozen slug had no collision guard and the tree half overwrote the register half.\n\n**The register half now keeps the address** — it is the half with an act behind it, and this archive ranks a document above a tree everywhere else. The tree half moves, **the move is printed every build**, and the ledger entry is **repointed** rather than left asserting an address it no longer owns. *A slug taken away from somebody must never be silent.*",
   "who": [
    "carmina-falco"
+  ],
+  "for": [
+   [
+    "/people/carmina-falco/",
+    "Carmina Falco"
+   ]
   ]
  },
  {
@@ -3642,6 +3654,12 @@
   "now": "**THEY ARE TWO BROTHERS, AND THIS ARCHIVE HAD ALREADY SAID SO — on the acts themselves.** The 1816 birth is annotated «*a FIRST child of this name, two years before the Raffaele of 10 May 1818*», and the 1817 burial «*THIS IS THE BURIAL OF THE FIRST RAFFAELE, born 25 April 1816 … the Raffaele of 10 May 1818 is the one who lived*». **The finding was made, written down, and then collapsed by a person-builder that keys on the name string.**\n\n**Split, using this archive's own convention — a qualifier at the END of the name.** `Raffaele Falco (the first, 1816-1817)` takes the 1816 birth and the 1817 burial, *aged about eighteen months, which the act states*. **`Raffaele Falco` keeps his name, his address and his place in the direct line**, with the birth of 10 May 1818 and the baptism — because he is generation four, `line.json` names him plainly, and a qualifier on him would have moved a page the line depends on.\n\n*This is the [[two-giovanni-falco]] pattern for the third time: one household, two sons of one name, and a file that could not hold both. The impossible date was the symptom; the lost brother was the fault.*",
   "who": [
    "raffaele-falco-of-vincenzo-falco-andreana-crisci"
+  ],
+  "for": [
+   [
+    "/people/raffaele-falco-of-vincenzo-falco-andreana-crisci/",
+    "Raffaele Falco"
+   ]
   ]
  },
  {
@@ -3785,7 +3803,13 @@
   "by": "reading the Santa Maria a Vico marriage index of 1885 and then the act behind it",
   "what": "There are TWO Nicoletta Nuzzo, and the archive's own record is what proves it",
   "was": "**«Nicoletta Nuzzo» has stood in this archive as one name belonging to one woman** — the wife of **Giuseppe Falco**, named in her daughter Maria's Arienzo birth act of 22 September 1887. **A Nicoletta Nuzzo marrying at Santa Maria a Vico, where the Nuzzo are a resident family, would have been the obvious candidate for her — or for her remarriage as a widow, which would have dated Giuseppe's death.**",
-  "now": "**She is a different woman, and the act says so.** Santa Maria a Vico, **marriage act 28 of 1885, 30 August, ten fifteen in the morning**: «*Guida Antonio, di anni sessantasette, contadino … figlio del fu Lorenzo e della fu Pascarella Lucia … **Nuzzo Nicoletta, di anni CINQUANTATRÉ, contadina, nata in Santamaria a Vico** … **figlia del fu DOMENICO** … e di **Mª fu STOLA MARIANTONIA***».\n\n**A woman cannot be married to Giuseppe Falco at Arienzo in September 1887 and marrying Antonio Guida at Santa Maria a Vico in August 1885.** *«da **NICOLETTA NUZZO sua moglie, contadina, seco lui convivente**» — Arienzo birth act 114 of 1887, read from the image on 8 October.*\n\n**So the second woman is now fully named rather than left as a shadow: Nicoletta Nuzzo, born about 1832 at Santa Maria a Vico, daughter of the late Domenico Nuzzo and the late Mariantonia Stola.** **NOTHING IS MERGED, and nothing is claimed about kinship between the two.** She is written down so that the next search for «Nicoletta Nuzzo at Santa Maria a Vico» does not stop at her and think it has arrived.\n\n*One more thing that does not fit, offered as such and not as proof: ours was married to a man who was **46 in 1887**, so born about **1841**; this one was born about **1832**.*"
+  "now": "**She is a different woman, and the act says so.** Santa Maria a Vico, **marriage act 28 of 1885, 30 August, ten fifteen in the morning**: «*Guida Antonio, di anni sessantasette, contadino … figlio del fu Lorenzo e della fu Pascarella Lucia … **Nuzzo Nicoletta, di anni CINQUANTATRÉ, contadina, nata in Santamaria a Vico** … **figlia del fu DOMENICO** … e di **Mª fu STOLA MARIANTONIA***».\n\n**A woman cannot be married to Giuseppe Falco at Arienzo in September 1887 and marrying Antonio Guida at Santa Maria a Vico in August 1885.** *«da **NICOLETTA NUZZO sua moglie, contadina, seco lui convivente**» — Arienzo birth act 114 of 1887, read from the image on 8 October.*\n\n**So the second woman is now fully named rather than left as a shadow: Nicoletta Nuzzo, born about 1832 at Santa Maria a Vico, daughter of the late Domenico Nuzzo and the late Mariantonia Stola.** **NOTHING IS MERGED, and nothing is claimed about kinship between the two.** She is written down so that the next search for «Nicoletta Nuzzo at Santa Maria a Vico» does not stop at her and think it has arrived.\n\n*One more thing that does not fit, offered as such and not as proof: ours was married to a man who was **46 in 1887**, so born about **1841**; this one was born about **1832**.*",
+  "for": [
+   [
+    "/people/nicoletta-nuzzo/",
+    "Nicoletta Nuzzo"
+   ]
+  ]
  },
  {
   "when": "2026-10-09",
@@ -3803,7 +3827,13 @@
   "by": "reading the act behind an index line this archive had already published a conclusion about",
   "what": "Filomena Falco of Santa Maria a Vico was published as «a third woman of the name». She is the sister of a woman in this archive's own new household",
   "was": "**«A Falco woman marrying at Santa Maria a Vico in 1881, daughter of a dead Antonio Falco … She is a third woman of the name, and her father is a dead Antonio Falco who is not the Antonio Falco × Carmela Guida of this archive.** *The act itself, number 30 of 1881, is unread.*»\n\n*Written on the morning of 9 October 2026 from the yearly index alone.*",
-  "now": "**The act is read, and she is not a stranger.** Santa Maria a Vico, act 30 of 1881, 15 October: «*FALCO FILOMENA, di anni VENTISEI, COLONA, **NATA IN SANTAMARIA A VICO** … **FIGLIA DEL FU ANTONIO** … e di **DELLA TORRE VINCENZA***».\n\n**Same father, same mother, same comune as LUCIA FALCO**, married at the same town on 28 December 1872 — «*figlia di Antonio e di Vincenza della [Torre], coloni, residenti colla figlia*». **They are sisters**, and Filomena belongs to the household `antonio-falco-vincenza-della-zorca`.\n\n**What the half-read index got right**: this Antonio is NOT the archive's Antonio Falco × Carmela Guida. **What it got wrong**: calling her a third unconnected woman, on an index line, when one act would have placed her. *The rule that produced the error is the archive's own and was stated the same day: **an index line is a finding aid, never a reading.** It was followed for the groom and not for the bride.*\n\n**Two things the act gives that the index could not.** She was **born at Santa Maria a Vico about 1855**, so the Falco household was there by 1855. And **Antonio Falco died between 28 December 1872 and 15 October 1881** — a bracket of under nine years in a town whose death registers are open."
+  "now": "**The act is read, and she is not a stranger.** Santa Maria a Vico, act 30 of 1881, 15 October: «*FALCO FILOMENA, di anni VENTISEI, COLONA, **NATA IN SANTAMARIA A VICO** … **FIGLIA DEL FU ANTONIO** … e di **DELLA TORRE VINCENZA***».\n\n**Same father, same mother, same comune as LUCIA FALCO**, married at the same town on 28 December 1872 — «*figlia di Antonio e di Vincenza della [Torre], coloni, residenti colla figlia*». **They are sisters**, and Filomena belongs to the household `antonio-falco-vincenza-della-zorca`.\n\n**What the half-read index got right**: this Antonio is NOT the archive's Antonio Falco × Carmela Guida. **What it got wrong**: calling her a third unconnected woman, on an index line, when one act would have placed her. *The rule that produced the error is the archive's own and was stated the same day: **an index line is a finding aid, never a reading.** It was followed for the groom and not for the bride.*\n\n**Two things the act gives that the index could not.** She was **born at Santa Maria a Vico about 1855**, so the Falco household was there by 1855. And **Antonio Falco died between 28 December 1872 and 15 October 1881** — a bracket of under nine years in a town whose death registers are open.",
+  "for": [
+   [
+    "/people/filomena-falco/",
+    "Filomena Falco"
+   ]
+  ]
  },
  {
   "when": "2026-10-09",
@@ -3821,7 +3851,13 @@
   "by": "finding Giuseppe Falco's 1869 marriage in the Santa Maria a Vico index and checking the exclusion that had been published against it",
   "what": "A Giuseppe Falco was ruled out of this line by reading two of his SISTERS as two of his daughters",
   "was": "**«HE IS NOT THIS ARCHIVE'S GIUSEPPE FALCO. Ours was married to Nicoletta Nuzzo and was fathering children by her at Arienzo through exactly these years — Filomena in 1872, Vincenza in 1874 — so he cannot also be the husband of Orsola Verdicchio in the same two years. That is the whole of the argument, and it is an argument from dates, not from a feeling about the name.»**\n\n*Published earlier the same day, on the household of **Giuseppe Falco × Orsola Verdicchio** of Via Sant'Apollonia, Santa Maria a Vico, whose two-year-old son died there in 1874.*",
-  "now": "**FILOMENA FALCO (1872) AND VINCENZA FALCO (1874) ARE GIUSEPPE'S SISTERS, NOT HIS CHILDREN.** They are daughters of **Matteo Falco × Alessandra Crisci**, and each appears in this archive as the **MOTHER** in her own child's Arienzo birth act — *Crisci Arcangelo*, 11 August 1872, and *Morgillo Alessandra*, 8 May 1874. **The exclusion rested on reading two of his sisters as two of his daughters, in data this archive had written up itself the day before.**\n\n**The only dated evidence joining our Giuseppe to Nicoletta Nuzzo is 22 September 1887**, their daughter Maria's birth act. Before that date this archive holds nothing whatever about his marriage.\n\n**SO HE IS NOT EXCLUDED.** *A man born about 1841 is **twenty-eight** in 1869; if Orsola Verdicchio died in the later 1870s, a second marriage to Nicoletta Nuzzo before 1887 is ordinary and common.*\n\n**And the marriage exists and is located**: the «Indice Alfabetico dei Matrimoni dell'anno 1869» at Santa Maria a Vico, `MC5R-M2Q` image 517, entry 22 — «**Falco Giuseppe con Verdicchio Orsola — 25**». **ACT 25 OF 1869 IS UNREAD, AND IT IS NOW THE MOST IMPORTANT UNREAD DOCUMENT IN THIS SEARCH**: it will give the groom's age, his birthplace and his parents.\n\n*Nothing is merged either way; the two households are held apart until the act is read.* **The lesson is the archive's own and it was broken here: a negative argued from dates is only as good as the dates, and these were not checked against the household they came from.**"
+  "now": "**FILOMENA FALCO (1872) AND VINCENZA FALCO (1874) ARE GIUSEPPE'S SISTERS, NOT HIS CHILDREN.** They are daughters of **Matteo Falco × Alessandra Crisci**, and each appears in this archive as the **MOTHER** in her own child's Arienzo birth act — *Crisci Arcangelo*, 11 August 1872, and *Morgillo Alessandra*, 8 May 1874. **The exclusion rested on reading two of his sisters as two of his daughters, in data this archive had written up itself the day before.**\n\n**The only dated evidence joining our Giuseppe to Nicoletta Nuzzo is 22 September 1887**, their daughter Maria's birth act. Before that date this archive holds nothing whatever about his marriage.\n\n**SO HE IS NOT EXCLUDED.** *A man born about 1841 is **twenty-eight** in 1869; if Orsola Verdicchio died in the later 1870s, a second marriage to Nicoletta Nuzzo before 1887 is ordinary and common.*\n\n**And the marriage exists and is located**: the «Indice Alfabetico dei Matrimoni dell'anno 1869» at Santa Maria a Vico, `MC5R-M2Q` image 517, entry 22 — «**Falco Giuseppe con Verdicchio Orsola — 25**». **ACT 25 OF 1869 IS UNREAD, AND IT IS NOW THE MOST IMPORTANT UNREAD DOCUMENT IN THIS SEARCH**: it will give the groom's age, his birthplace and his parents.\n\n*Nothing is merged either way; the two households are held apart until the act is read.* **The lesson is the archive's own and it was broken here: a negative argued from dates is only as good as the dates, and these were not checked against the household they came from.**",
+  "for": [
+   [
+    "/people/giuseppe-falco/",
+    "Giuseppe Falco"
+   ]
+  ]
  },
  {
   "when": "2026-10-09",
@@ -3839,7 +3875,13 @@
   "by": "reading the marriage act this archive had only ever held as a date",
   "what": "PASQUA FALCO WAS ALIVE ON 18 NOVEMBER 1872 — and the archive's published position was that she stood on two documents, neither of which had been read as an act",
   "was": "**«So she stands on two documents, and both are her daughter's**: the birth act of 22 December 1848, which gives her age, her street and her husband, and **the marriage record of 18 November 1872**, which names her as the bride's mother. What is left is reading, not searching.»\n\n*And before that: she is absent from Arienzo's death registers of **1816–1858**, which were read out; **1822's tavola is torn and folded exactly where FALCO falls**, and **1823's column is obscured**.*",
-  "now": "**The «marriage record» is now the marriage ACT, read from the image.** Arienzo, **atto 35 of 1872**, `MC55-FNT` image 710 — out of the register series this archive had published as lost:\n\n> «*…e **GIOVANNA ARRICALE**, contadina, di anni ventiquattro compiti … figlia del **fu FRANCESCO** e **DELLA VIVENTE PASQUA FALCO, contadina, DOMICILIATA CON LA FIGLIA***»\n\n**She was alive on 18 November 1872, aged about forty-nine, and living in her daughter's house.** *A margin annotation gives a date; only the act gives a condition.*\n\n**AND THAT MAKES HER DEATH FINDABLE.** *She died after 18 November 1872. **Arienzo's death registers from 1866 are in collection 2043630 and are open** — and a death act of that period gives the dead woman's **age**, her **BIRTHPLACE** and her **PARENTS**, which is everything this archive has never been able to establish for her. **The months spent on 1816–1858 were spent in the wrong half-century.***\n\n*Also new from the same act: **FRANCESCO ARRICALE was dead by November 1872** — «del fu Francesco» — and he was twenty-four at his daughter's birth in December 1848, so he died before forty-eight.*"
+  "now": "**The «marriage record» is now the marriage ACT, read from the image.** Arienzo, **atto 35 of 1872**, `MC55-FNT` image 710 — out of the register series this archive had published as lost:\n\n> «*…e **GIOVANNA ARRICALE**, contadina, di anni ventiquattro compiti … figlia del **fu FRANCESCO** e **DELLA VIVENTE PASQUA FALCO, contadina, DOMICILIATA CON LA FIGLIA***»\n\n**She was alive on 18 November 1872, aged about forty-nine, and living in her daughter's house.** *A margin annotation gives a date; only the act gives a condition.*\n\n**AND THAT MAKES HER DEATH FINDABLE.** *She died after 18 November 1872. **Arienzo's death registers from 1866 are in collection 2043630 and are open** — and a death act of that period gives the dead woman's **age**, her **BIRTHPLACE** and her **PARENTS**, which is everything this archive has never been able to establish for her. **The months spent on 1816–1858 were spent in the wrong half-century.***\n\n*Also new from the same act: **FRANCESCO ARRICALE was dead by November 1872** — «del fu Francesco» — and he was twenty-four at his daughter's birth in December 1848, so he died before forty-eight.*",
+  "for": [
+   [
+    "/people/pasqua-falco/",
+    "Pasqua Falco"
+   ]
+  ]
  },
  {
   "when": "2026-10-09",
@@ -3848,7 +3890,13 @@
   "by": "mapping Arienzo's own volume by its covers and reading the margin headings of the 1872 marriage register",
   "what": "Generation five's marriage act is recovered from the registers this archive had published as lost",
   "was": "**«MARRIED GIOVANNA ARRICALE ON 18 NOVEMBER 1872 AT ARIENZO — the date, not just the year.»** *Held from a **margin annotation** on Giovanna's own birth act, certified at Caserta on 4 June 1884, and from the **1897 processetto** of their son Raffaele. **Neither is the act.***",
-  "now": "**THE ACT IS READ.** Arienzo, **atto 35 of 1872**, `MC55-FNT` image 710, headed in the margin «*N.º 35 — Matrimonio che si contrae tra **CARMINE ANTONIO FALCO** e **GIOVANNA ARRICALE***»:\n\n> «*…sono comparsi **CARMINE ANTONIO FALCO, CONTADINO, DI ANNI VENTIDUE COMPITI, nato e domiciliato in ARIENZO, FIGLIO DI RAFFAELE E ANGELAROSA MORGILLO, contadini, DOMICILIATI COL FIGLIO**; e **GIOVANNA ARRICALE, contadina, di anni VENTIQUATTRO COMPITI** … **figlia del fu FRANCESCO e della vivente PASQUA FALCO***» — **18 November 1872 at three in the afternoon**, before **Nicola Finelli, Sindaco**, witnesses **Gennaro Imbimbo fu Vincenzo, 60** and **Andrea Saccone fu Domenico, 53**, both *scribenti*. Publications **27 October** and **3 November**.\n\n**It pays three times over the date it confirms:**\n\n**«DI ANNI VENTIDUE COMPITI»** puts his birth between November 1849 and November 1850 — and this archive holds his birth act, **10 July 1850**. *Two registers, eighty-six images apart, agree to the month.*\n\n**«DOMICILIATI COL FIGLIO»** — **Raffaele Falco and Angelarosa Morgillo were alive and under their son's roof** on that day. *And the clerk writes **ANGELAROSA**, one word, where this archive has «Angela Rosa» and «Maria Rosa»; the variant is recorded and not resolved.*\n\n**«DELLA VIVENTE PASQUA FALCO»** — which is a correction of its own, published beside this one.\n\n*And the act is a Falco marrying into a Falco: the groom is one, the bride's mother is another. **No relationship between them is claimed.** This archive does not join people on a surname, least of all this one.*"
+  "now": "**THE ACT IS READ.** Arienzo, **atto 35 of 1872**, `MC55-FNT` image 710, headed in the margin «*N.º 35 — Matrimonio che si contrae tra **CARMINE ANTONIO FALCO** e **GIOVANNA ARRICALE***»:\n\n> «*…sono comparsi **CARMINE ANTONIO FALCO, CONTADINO, DI ANNI VENTIDUE COMPITI, nato e domiciliato in ARIENZO, FIGLIO DI RAFFAELE E ANGELAROSA MORGILLO, contadini, DOMICILIATI COL FIGLIO**; e **GIOVANNA ARRICALE, contadina, di anni VENTIQUATTRO COMPITI** … **figlia del fu FRANCESCO e della vivente PASQUA FALCO***» — **18 November 1872 at three in the afternoon**, before **Nicola Finelli, Sindaco**, witnesses **Gennaro Imbimbo fu Vincenzo, 60** and **Andrea Saccone fu Domenico, 53**, both *scribenti*. Publications **27 October** and **3 November**.\n\n**It pays three times over the date it confirms:**\n\n**«DI ANNI VENTIDUE COMPITI»** puts his birth between November 1849 and November 1850 — and this archive holds his birth act, **10 July 1850**. *Two registers, eighty-six images apart, agree to the month.*\n\n**«DOMICILIATI COL FIGLIO»** — **Raffaele Falco and Angelarosa Morgillo were alive and under their son's roof** on that day. *And the clerk writes **ANGELAROSA**, one word, where this archive has «Angela Rosa» and «Maria Rosa»; the variant is recorded and not resolved.*\n\n**«DELLA VIVENTE PASQUA FALCO»** — which is a correction of its own, published beside this one.\n\n*And the act is a Falco marrying into a Falco: the groom is one, the bride's mother is another. **No relationship between them is claimed.** This archive does not join people on a surname, least of all this one.*",
+  "for": [
+   [
+    "/people/carmine-antonio-falco/",
+    "Carmine Antonio (Carminantonio) Falco"
+   ]
+  ]
  },
  {
   "when": "2026-10-09",
@@ -3857,7 +3905,13 @@
   "by": "reading her daughter Vincenza's marriage act in Arienzo's register of 1871",
   "what": "ALESSANDRA CRISCI'S DEATH IS DATED FOR THE FIRST TIME — before 8 October 1871",
   "was": "**Nothing dated her death at all.** *She married **Matteo Falco** on 24 January 1834 and bore nine children between 1834 and 1852. After the last of them this archive held not one document for her, and her death fell in the window whose registers it had published as lost.*",
-  "now": "**Arienzo, marriage act 21 of 1871, `MC55-FNT` image 605, read from the image:**\n\n> «*…e **VINCENZA FALCO, CONTADINA, DI ANNI VENTINOVE COMPITI**, nata e domiciliata in questo medesimo Comune di Arienzo, **FIGLIA DE' FURONO MATTEO E ALESSANDRA CRISCI***»\n\n**«FURONO» IS PLURAL, AND IT IS THE CLERK'S OWN WORD** — four lines above he writes «*figlio de' **furono** Antonio e Felicia Majone*» for the groom's two dead parents. *The phrase was taken back to the manuscript at magnification before this was written, because a singular «fu» would have said something quite different.*\n\n**So both parents were dead by 8 October 1871.**\n\n- **ALESSANDRA CRISCI's death is now bracketed: after September 1852 and before October 1871.** *Arienzo's death registers from 1866 are open in this collection, so the last five years of that bracket can be read out.*\n- **MATTEO FALCO's death moves back three years.** *The 1874 birth extract had him as «fu Matteo»; this says he was already dead in 1871.*\n\n*The act also confirms Vincenza's birth independently: «di anni VENTINOVE COMPITI» in October 1871 puts it between October 1841 and October 1842, and this archive holds her birth act of **18 May 1842**.*"
+  "now": "**Arienzo, marriage act 21 of 1871, `MC55-FNT` image 605, read from the image:**\n\n> «*…e **VINCENZA FALCO, CONTADINA, DI ANNI VENTINOVE COMPITI**, nata e domiciliata in questo medesimo Comune di Arienzo, **FIGLIA DE' FURONO MATTEO E ALESSANDRA CRISCI***»\n\n**«FURONO» IS PLURAL, AND IT IS THE CLERK'S OWN WORD** — four lines above he writes «*figlio de' **furono** Antonio e Felicia Majone*» for the groom's two dead parents. *The phrase was taken back to the manuscript at magnification before this was written, because a singular «fu» would have said something quite different.*\n\n**So both parents were dead by 8 October 1871.**\n\n- **ALESSANDRA CRISCI's death is now bracketed: after September 1852 and before October 1871.** *Arienzo's death registers from 1866 are open in this collection, so the last five years of that bracket can be read out.*\n- **MATTEO FALCO's death moves back three years.** *The 1874 birth extract had him as «fu Matteo»; this says he was already dead in 1871.*\n\n*The act also confirms Vincenza's birth independently: «di anni VENTINOVE COMPITI» in October 1871 puts it between October 1841 and October 1842, and this archive holds her birth act of **18 May 1842**.*",
+  "for": [
+   [
+    "/people/alessandra-crisci/",
+    "Alessandra Crisci"
+   ]
+  ]
  },
  {
   "when": "2026-10-09",
@@ -4451,6 +4505,12 @@
   "why": "**NO REPLACEMENT DIGIT, ON PURPOSE.** 1777 fits a wife of a man born in 1779 on the face of it, and writing it would have turned an inference into a reading. A date that is impossible is withdrawn; a date that is merely plausible is not supplied. Rule: `site/src/data/tree-date-verdicts.json`, applied by `tools/build_people.py`; `check:kin` is now held at 0.",
   "who": [
    "vittoria-cimmino-2"
+  ],
+  "for": [
+   [
+    "/people/vittoria-cimmino-2/",
+    "Vittoria Cimmino"
+   ]
   ]
  },
  {

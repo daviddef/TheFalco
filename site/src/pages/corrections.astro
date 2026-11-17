@@ -5,8 +5,19 @@ import { u } from "../lib/url.js";
 import { md } from "../lib/md.js";
 import plates from "../data/plates.json";
 import C from "../data/corrections.json";
-const rows = [...C].sort((a, b) => b.when.localeCompare(a.when) ||
-  (a.sev === b.sev ? 0 : a.sev === "major" ? -1 : 1));
+import { corrIdMap } from "@daviddef/archive-kit/lib/corrections.js";
+import { placeIndex } from "@daviddef/archive-kit/lib/placelinks.js";
+import placeRows from "../data/correction-places.json";
+import placeFlags from "../data/correction-place-flags.json";
+/* FILE order, the same array buildPulse gets (src/lib/pulse.js), so the anchors match What's new. No sort of our own: the Corrections component sorts
+   newest first by `when` (sort="date"); a sort by severity here is what scattered the dates. */
+const rows = C;
+const ids = corrIdMap(rows);
+/* the kit's flag art, emitted as real files (?no-inline: Vite would otherwise inline each small SVG as a data URI at every use, +0.5 MB): placeIndex asks for the address of a flag file by name */
+const FLAGS = import.meta.glob("../../node_modules/@daviddef/archive-kit/kit/data/flags/*.svg", { eager: true, query: "?no-inline", import: "default" });
+const flagUrl = (svg) => { const k = Object.keys(FLAGS).find((f) => f.endsWith("/" + svg)); return k ? FLAGS[k] : ""; };
+/* places that have a page (/places/<slug>/); a place named in prose links to it, with the flag of the state that held it in that sentence's year */
+const places = placeIndex(placeRows, placeFlags, flagUrl);
 const KIND = { reading: "a misreading", claim: "an argument", identification: "an identification",
                code: "a fault in the software", privacy: "a privacy failure" };
 const n = (k) => rows.filter((r) => r.what === k).length;
@@ -22,18 +33,9 @@ const published = new Set(plates.map(p => String(p.f).replace(/\.jpg$/, "")));
    claim it killed, and a reader landing on the old one was told nothing. Each
    superseded entry now names its successor and links to it. Nothing is deleted:
    the stale text stays, struck through, under the notice. */
-/* ONE slug for the section id AND for the link to it. The first version
-   encodeURIComponent'd the href while the id stayed raw, so five supersession
-   links pointed at anchors that did not exist — caught by checkarchive, which
-   compares them literally and was right to. */
-const slug = (when, what) =>
-  (when + "-" + what).toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 90);
-/* The kit's Corrections component runs u() over this href, and u() prepends the
-   deployment base to anything — including a bare "#fragment", which became
-   /TheFalco/#slug and pointed at the site root. So hand it a site-root PATH and
-   let u() do what it is for. */
-const anchor = (when, what) => "/corrections/#" + slug(when, what);
+/* A superseded entry names the entry that overturned it ({when, what}); link to that entry's kit anchor (corrIdMap). The base is added by u(). */
+const byKey = new Map(rows.map((r) => [r.when + "\u0000" + r.what, r]));
+const anchor = (when, what) => { const t = byKey.get(when + "\u0000" + what); return "/corrections/#" + (t ? ids.get(t) : ""); };
 const stale = rows.filter((r) => r.superseded).length;
 ---
 <Base title="Corrections"
@@ -74,8 +76,9 @@ const stale = rows.filter((r) => r.superseded).length;
     were names being hunted.</p>
   </div>
 
-  <Corrections u={u} rows={rows.map((r) => ({
-    id: slug(r.when, r.what),
+  <Corrections u={u} places={places} rows={rows.map((r) => ({
+    id: ids.get(r),
+    about: r.for,
     when: r.when,
     kind: KIND[r.what] || r.what,
     sev: r.sev,
