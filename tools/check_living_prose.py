@@ -76,6 +76,8 @@ HAND_EDITED = {
 GENERATED = {
     "atlas-surname-falco.json",  # pull_surname_catalogue.py: a snapshot of the Record Atlas's surname catalogue (spellings, no persons)
     "changes.json",         # build_changes.py, from git
+    "correction-place-flags.json",  # build_correction_places.py, the kit's placeflags.py over era-snapshot.json: flag files by year per place, no names of people
+    "correction-places.json",       # build_correction_places.py, from public/atlas-data.json: place names and their /places/ page, no persons
     "direct-line.json",     # the kit's directline.py, from story.json's ribbon (checked with --check): slugs, generations, names
     "family-blocks.json",   # build_family_lines.py: the family pages with no ribbon, their connection blocks (checked with --check)
     "family-lines.json",    # build_family_lines.py: the family ribbons from people.json and the Spine (checked with --check)
