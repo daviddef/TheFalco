@@ -6,10 +6,11 @@
   "scripts": {
     "dev": "astro dev --port 4322",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run check:pin && npm run check:records && npm run atlas && npm run publish:index && astro build && npm run autolink && npm run check && npm run sitemap && npm run check:living && npm run check:living2 && npm run check:living-prose && npm run check:living-feed && npm run check:links && npm run check:story && npm run check:directline && npm run check:familylines && npm run check:familyribbon && npm run check:ribbonflags && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:households && npm run check:fscite && npm run check:corrections && npm run check:prose && npm run check:evidence && npm run check:sources && npm run check:pages && npm run check:inline && npm run check:rows && npm run check:nav && npm run check:book && npm run check:pulse && npm run check:row-pages && npm run check:lines && npm run check:standard && npm run check:era-ground && npm run check:era && npm run check:era:selftest",
+    "build": "npm run check:pin && npm run check:records && npm run atlas && npm run publish:index && npm run correction-places && astro build && npm run autolink && npm run check && npm run sitemap && npm run check:living && npm run check:living2 && npm run check:living-prose && npm run check:living-feed && npm run check:links && npm run check:story && npm run check:directline && npm run check:familylines && npm run check:familyribbon && npm run check:ribbonflags && npm run check:kin && npm run check:templates && npm run check:kit && npm run check:worklist && npm run check:covers && npm run check:households && npm run check:fscite && npm run check:corrections && npm run check:prose && npm run check:evidence && npm run check:sources && npm run check:pages && npm run check:inline && npm run check:rows && npm run check:nav && npm run check:book && npm run check:pulse && npm run check:row-pages && npm run check:lines && npm run check:standard && npm run check:era-ground && npm run check:era && npm run check:era:selftest",
     "preview": "astro preview --port 4322",
     "check": "python3 ../tools/check_release.py",
     "build:nocheck": "astro build",
+    "correction-places": "python3 ../tools/build_correction_places.py",
     "autolink": "python3 ../tools/build_names_index.py && python3 node_modules/@daviddef/archive-kit/kit/tools/autolink.py --dist dist --index ../private/names-index.json --living ../private/living-links.json --allow-prefix /people/ --allow-prefix /who/",
     "check:links": "python3 node_modules/@daviddef/archive-kit/kit/tools/checklinks.py --dist dist --index ../private/names-index.json --living ../private/living-links.json --floor .linkfloor.json --allow-prefix /people/ --allow-prefix /who/",
     "sitemap": "python3 node_modules/@daviddef/archive-kit/kit/tools/sitemap.py",
@@ -54,7 +55,7 @@
     "check:kin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkkin.py --require --data src/data/people.json --born b --died d --max 0"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#cc1e7b3c63983c53f1226e0d0d3310aeea52a826",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#eb8ce427a374dff015981e7a11a599d18054acf3",
     "astro": "^5.18.2"
   },
   "devDependencies": {

@@ -1,0 +1,217 @@
+{
+ "Arienzo": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1941,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1952,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ },
+ "San Felice a Cancello": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1941,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1952,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ },
+ "Arpaia": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1941,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1952,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ },
+ "Forchia": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1941,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1952,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ },
+ "Benevento": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": []
+ },
+ "Brisbane": {
+  "today": {
+   "svg": "australia-flags--era-1901.svg",
+   "label": "Australia"
+  },
+  "eras": [
+   [
+    1843,
+    1854,
+    "uk-flags--era-1801.svg",
+    "Britain and its colonies"
+   ],
+   [
+    1865,
+    1896,
+    "uk-flags--era-1801.svg",
+    "Britain and its colonies"
+   ],
+   [
+    1907,
+    1990,
+    "australia-flags--era-1901.svg",
+    "Australia"
+   ]
+  ]
+ },
+ "Paolisi": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1941,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1952,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ },
+ "Santa Maria a Vico": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1941,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1952,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ },
+ "Airola": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1941,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1952,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ }
+}
