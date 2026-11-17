@@ -13,8 +13,8 @@ import placeFlags from "../data/correction-place-flags.json";
    newest first by `when` (sort="date"); a sort by severity here is what scattered the dates. */
 const rows = C;
 const ids = corrIdMap(rows);
-/* the kit's flag art, served from the build: placeIndex asks for the address of a flag file by name */
-const FLAGS = import.meta.glob("../../node_modules/@daviddef/archive-kit/kit/data/flags/*.svg", { eager: true, query: "?url", import: "default" });
+/* the kit's flag art, emitted as real files (?no-inline: Vite would otherwise inline each small SVG as a data URI at every use, +0.5 MB): placeIndex asks for the address of a flag file by name */
+const FLAGS = import.meta.glob("../../node_modules/@daviddef/archive-kit/kit/data/flags/*.svg", { eager: true, query: "?no-inline", import: "default" });
 const flagUrl = (svg) => { const k = Object.keys(FLAGS).find((f) => f.endsWith("/" + svg)); return k ? FLAGS[k] : ""; };
 /* places that have a page (/places/<slug>/); a place named in prose links to it, with the flag of the state that held it in that sentence's year */
 const places = placeIndex(placeRows, placeFlags, flagUrl);
