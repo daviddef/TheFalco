@@ -6980,5 +6980,43 @@
    "Falco",
    "Verdicchio"
   ]
+ },
+ {
+  "searchedOn": "2026-11-22",
+  "provider": "antenati",
+  "book": "Morti 1940 (Montesarchio; image 86 only)",
+  "bookPlace": "Montesarchio civil registry (Archivio di Stato di Benevento)",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2241604",
+  "pages": "85-86, 98-99",
+  "walked": false,
+  "when": "1940 (Montesarchio, Morti 1940, Parte I acts 163-166, 5 to 7 November 1940)",
+  "src": "Antenati, Archivio di Stato di Benevento, Stato civile italiano, Montesarchio, Morti 1940 (an_ua2241604, 123 images). Images 85-86 and 98-99 were opened, to find one death act named in Antenati's name index; the rest of the volume was not read. Antenati's name index holds 71 Arricale (Forchia 26, Paolisi 21, Montesarchio 10, San Bartolomeo in Galdo 8, Arpaia 4; 1878 to 1942) and none at Arienzo, whose registers are not name-indexed; it holds Falco at Forchia, Paolisi, Moiano and Arpaia from 1861 on.",
+  "what": "**One death of an Arienzo-born Arricale, found through Antenati's name index: Alfonso Arricale, Montesarchio, 5 November 1940, son of «fu Vincenzo» and «fu Falco Concetta»**",
+  "got": "Image 86 (right page) is act 165, drawn 7 November 1940, for a death at 9 p.m. on 5 November 1940: Arricale Alfonso, aged about 66, born at Arienzo, son of the late Vincenzo and the late Falco Concetta, a widower. Placed in the house of Andrea Falco and Maria Carmela Buono as a son of Vincenzo Arricale and Maria Concetta Falco, on the parents' names, the birthplace and the age window; not proved, and the birth act (Arienzo Nascite 1874, about 19 August) would settle it. The age's leading mark, the declarant's age and the street's initial are not settled at the level read. Images 98-99 are blank forms and the Parte II cover. Near-names not counted: none read.",
+  "outcome": "found",
+  "ev": [
+   [
+    "/households/",
+    "Households"
+   ],
+   [
+    "/people/alfonso-arricale/",
+    "Alfonso Arricale"
+   ]
+  ],
+  "for": [
+   [
+    "/people/alfonso-arricale/",
+    "Alfonso Arricale"
+   ]
+  ],
+  "tags": [
+   "Antenati",
+   "Montesarchio",
+   "Civil registration",
+   "Death",
+   "Arricale",
+   "Falco"
+  ]
  }
 ]

@@ -3101,6 +3101,36 @@
 "rel": "relative"
 },
 {
+"slug": "alfonso-arricale",
+"name": "Alfonso Arricale (of Vincenzo Arricale and Maria Concetta Falco, b. c.1874)",
+"surname": "ARRICALE",
+"household": "Andrea Falco & Maria Carmela Buono",
+"hid": "andrea-falco-maria-carmela-buono",
+"role": "grandchild",
+"events": [
+{
+"event": "death",
+"date": "5 Nov 1940",
+"place": "Montesarchio",
+"evidence": "Montesarchio, *Morti* **1940**, **Parte I, act 165** (name box «*Arricale Alfonso*», «Numero 165»; drawn **7 November 1940**, 10.05 a.m., Casa Comunale, before the segretario comunale «*Dottor … Stanislao*» (forename not settled), acting under a delegation from the podestà dated 27 August 1940): the declarant «*Russo Giuseppe di fu Gregorio*», carpenter («*carpentiere*»), of Montesarchio (his age is cut by the page edge in the crop), with the witnesses «*Stiani Emilio*» and «*Romano Antonio*» (their ages and trades read at level 12 only, not recorded here), declared that at 9 p.m. («*ventuno*») on 5 November 1940 «*nella casa posta in via L. Reggio N° 1*» (the street's first word read at level 13, the initial not settled) died **Arricale Alfonso**, age written «*66 m. 2 g. 17*» with a stray mark before the 66 (level 13, the 2 and 17 not settled), living at Montesarchio, **born at Arienzo** («*nat in Arienzo*»), «*da fu Vincenzo*» and «*da fu Falco Concetta*» both living at Arienzo in life, and a widower («*vedovo*»; the index names his wife Pasqualina Petracca). **Read from the image, and found through Antenati's name index** (Montesarchio is name-indexed for 1940; Arienzo is not). **THE TIE TO THIS HOUSE IS BY THE PARENTS' NAMES, THE BIRTHPLACE AND THE AGE WINDOW; NOT BY THE BIRTH ACT.** The house holds the marriage of Vincenzo Arricale and Maria Concetta Falco of Arienzo on 24 October 1870 and their children of 1878 and 1882; an Arienzo-born son of «Vincenzo» and «Falco Concetta», both dead by 1940, aged about 66 in November 1940 (born about August 1874, four years after the marriage and four before Maria Carmela), fits that couple. It is not proved: Vincenzo Arricale (d. 1890) is not named with his surname in the act, and a second Falco Concetta is not excluded. **The birth act, Arienzo Nascite 1874 (about 19 August), would settle it**, and is in the Tribunale copy (MC55-FNT), not on Antenati.",
+"ark": "Antenati, Archivio di Stato di Benevento, Stato civile italiano, Montesarchio, Morti 1940 (an_ua2241604), image 86 (right page), act 165 - READ FROM THE IMAGE through the Antenati IIIF host at 2600 px, 22 November 2026; found by Antenati's name index (Arricale, Montesarchio)"
+}
+],
+"sources": [
+"register"
+],
+"living": false,
+"parents": [],
+"spouses": [],
+"children": [],
+"siblings": [],
+"d": "5 Nov 1940",
+"dateFrom": {
+"d": "act"
+},
+"noKin": "no-edge-recorded"
+},
+{
 "slug": "angelo-raffaele-arricale",
 "name": "Angelo Raffaele Arricale",
 "surname": "ARRICALE",
