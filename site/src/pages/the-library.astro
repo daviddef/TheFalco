@@ -7,7 +7,6 @@ import sources from "../data/sources.json";
 import log from "../data/researchlog.json";
 import D from "../data/diaspora.json";
 const groups = [...new Set(sources.map((s) => s.g))];
-const GH = "https://github.com/daviddef/TheFalco/blob/main/data/";
 const FILES = [
   ["antenati-processetti.tsv", "The marriage-dossier (processetti) volumes, by town, with arks — read and unread"],
   ["antenati-falco-by-town.tsv", "Falco, Zampiello and Annecchino counts across the valley"],
@@ -64,13 +63,13 @@ const procVols = D.processetti.reduce((a, r) => a + (+r.processetti_volumes || 0
   ))}
 
   <h2>The working data, in the open</h2>
-  <p>Every table behind this site is plain text in the repository, <strong>so the working can be
+  <p>Every table behind this site is plain text, <strong>so the working can be
   checked rather than trusted</strong>.</p>
   <div class="scroll"><table>
     <thead><tr><th>File</th><th>What it holds</th></tr></thead>
     <tbody>
       {FILES.map(([f, d]) => (
-        <tr><td><a href={GH + f} rel="noopener" class="mono small">{f} ↗</a></td>
+        <tr><td class="mono small">{f}</td>
           <td class="small">{d}</td></tr>
       ))}
     </tbody>

@@ -12,11 +12,12 @@ for (const c of changes) {
   byDay[byDay.length - 1].rows.push(c);
 }
 const n = (k) => changes.filter((c) => c.kind === k).length;
-const REPO = "https://github.com/daviddef/TheFalco/commit/";
+/* 23 November 2026 (estate clean-up): no link to GitHub on a public page. The commit is named by its short hash, as text. */
+const hash = (c) => ` <span class="mono small dim">${String(c.sha || "").slice(0, 7)}</span>`;
 ---
 <Base title="What changed"
       eyebrow={`${changes.length} changes, ${byDay.length} working days`}
-      dek="Generated from this archive's own commit history, not written by hand — so it cannot drift from what actually happened. Every entry is a real commit and links to it.">
+      dek="Generated from this archive's own commit history, not written by hand — so it cannot drift from what actually happened. Every entry is a real commit, named by its short hash.">
 
   <div class="card" style="margin-bottom:1.2rem">
     <p><strong>This page is not a summary. It is the log.</strong> It is built by
@@ -37,10 +38,9 @@ const REPO = "https://github.com/daviddef/TheFalco/commit/";
   <Changes u={u} days={byDay.map((d) => ({
     when: d.day,
     entries: d.rows.map((c) => ({
-      title: c.title,
+      title: c.title + hash(c),
       kind: KIND[c.kind] || c.kind,
       did: marks(c.summary || ""),
-      href: REPO + c.sha,
     })),
   }))} />
 

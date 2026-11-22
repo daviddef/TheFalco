@@ -4,7 +4,6 @@ import { u } from "../lib/url.js";
 import { md } from "../lib/md.js";
 import Documents from "@daviddef/archive-kit/components/Documents.astro";
 import plates from "../data/plates.json";
-const REPO = "https://github.com/daviddef/TheFalco";
 const registers = plates.filter(p => p.k === "register");
 const photos = plates.filter(p => p.k !== "register");
 
@@ -65,20 +64,17 @@ const index = [...registers, ...photos].map((p) => ({
 
   <h2>The written record</h2>
   <p>Behind these images sit the files that carry every citation in the archive. They are plain
-  tab-separated text, kept public so the working can be checked rather than trusted.</p>
+  tab-separated text, so the working can be checked rather than trusted.</p>
   <ul>
-    <li><a href={REPO + "/blob/main/data/record-citations.tsv"}>record-citations.tsv</a> — every
+    <li><span class="mono">record-citations.tsv</span> — every
     record citation, with its archival reference.</li>
-    <li><a href={REPO + "/blob/main/data/households.tsv"}>households.tsv</a> — every register entry
+    <li><span class="mono">households.tsv</span> — every register entry
     behind the households, quoted in the words of the record.</li>
-    <li><a href={REPO + "/blob/main/data/direct-line.tsv"}>direct-line.tsv</a> — the generations, and
+    <li><span class="mono">direct-line.tsv</span> — the generations, and
     the evidence for each join.</li>
   </ul>
-  <p class="small">The page-by-page reading logs for the civil death registers —
-  <a href={REPO + "/blob/main/notes/1833-death-register-progress.md"}>1833</a>,
-  <a href={REPO + "/blob/main/notes/1834-death-register-progress.md"}>1834</a>,
-  <a href={REPO + "/blob/main/notes/1835-death-register-progress.md"}>1835</a>,
-  <a href={REPO + "/blob/main/notes/1836-death-register-progress.md"}>1836</a> — record every act
+  <p class="small">The page-by-page reading logs for the civil death registers
+  (1833, 1834, 1835 and 1836, listed on the <a href={u("/research-log/")}>Research Log</a>) record every act
   read, not only the ones that mattered, so that nobody has to read them again.
   Full list of sources on the <a href={u("/sources/")}>Sources</a> page.</p>
 <style is:global>
