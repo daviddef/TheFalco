@@ -4,6 +4,8 @@ import Places from "@daviddef/archive-kit/components/Places.astro";
 import places from "../data/places.json";
 import atlas from "../../public/atlas-data.json";
 import { u } from "../lib/url.js";
+import ResearchList from "@daviddef/archive-kit/components/ResearchList.astro";
+import { PLACE_STORIES } from "../lib/site-menu.js";
 import nf from "../data/namefold.json";   /* variant -> canonical, for search only */
 ---
 <Base title="Places">
@@ -38,6 +40,12 @@ import nf from "../data/namefold.json";   /* variant -> canonical, for search on
         <td>Archivio di Stato di Benevento, 1810–1942; and the Archdiocese of Benevento church records, 1575–1908</td></tr>
     </tbody>
   </table></div>
+
+<section class="blk" id="place-stories">
+  <h2>The place stories</h2>
+  <p class="dek">Pages about one place, one street or one journey. The Atlas and the line's moves are in the menu; these are the rest.</p>
+  <ResearchList items={PLACE_STORIES} />
+</section>
 
 <section class="blk" id="every-place">
   <h2>Every place with a page of its own</h2>

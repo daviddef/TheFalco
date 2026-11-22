@@ -1,0 +1,17 @@
+---
+/* DEEP DIVES: the hub for every study of one body of records, and the working notes. 23 November 2026 (the estate clean-up): the Research
+   menu keeps ONE "Deep dives" heading that opens this page. The list is lib/research-menu.js, the one that draws the menu. */
+import Base from "../../../layouts/Base.astro";
+import ResearchList from "@daviddef/archive-kit/components/ResearchList.astro";
+import { u } from "../../../lib/url.js";
+import { DEEP_DIVES } from "../../../lib/research-menu.js";
+import { blurbOf } from "../../../lib/research-counts.js";
+const items = DEEP_DIVES.items.map((x) => ({ href: x.href, label: x.label, atlas: x.atlas, blurb: blurbOf(x) }));
+---
+<Base title="Deep dives" eyebrow="Research · studies of one body of records"
+      dek="A single body of records studied on its own, at length, and the working notes behind them. Each study is also linked from the Sources page.">
+  <section class="blk">
+    <ResearchList items={items} />
+    <p class="cap" style="margin-top:22px">The rest of Research: <a href={u("/research/to-do/")}>To do</a> · <a href={u("/whats-new/")}>What's new</a> · <a href={u("/research/sources-and-method/")}>Sources &amp; method</a> · <a href={u("/research/")}>all of it on one page</a>.</p>
+  </section>
+</Base>

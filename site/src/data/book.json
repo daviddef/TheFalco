@@ -127,6 +127,12 @@
           "group": "The line, drawn"
         },
         {
+          "path": "/drawn/",
+          "title": "Drawn",
+          "blurb": "Every page that draws the family rather than listing it: the line, the trees, the blood relatives, the years.",
+          "group": "The line, drawn"
+        },
+        {
           "path": "/direct-line/",
           "title": "The Spine",
           "blurb": "From the Arienzo of the 1730s to Brisbane, each generation joined to the one above it by a record that names a father, except the first.",
@@ -417,6 +423,12 @@
           "path": "/research/sources-and-method/",
           "title": "Sources & method",
           "blurb": "What this archive stands on, how it grades a claim, and the longer studies of one body of records.",
+          "group": "What it rests on"
+        },
+        {
+          "path": "/research/deep-dives/",
+          "title": "Deep dives",
+          "blurb": "Single bodies of records studied at length, and the working notes behind them.",
           "group": "What it rests on"
         },
         {

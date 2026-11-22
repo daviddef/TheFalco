@@ -1,0 +1,14 @@
+---
+/* DRAWN: the hub for every page that draws the family. 23 November 2026 (the estate clean-up): the People menu keeps Lists and ONE
+   link, "Drawn"; the pages themselves keep their addresses. The list is lib/site-menu.js DRAWN, the one the menu's hub link stands for. */
+import Base from "../layouts/Base.astro";
+import ResearchList from "@daviddef/archive-kit/components/ResearchList.astro";
+import { DRAWN } from "../lib/site-menu.js";
+---
+<Base title="Drawn"
+      eyebrow="The family, drawn"
+      dek="Every page that draws the family rather than listing it: the line, the trees, the blood relatives, the years. Each page keeps its own address; this is where they are gathered.">
+  <section class="blk">
+    <ResearchList items={DRAWN} />
+  </section>
+</Base>

@@ -17,8 +17,8 @@ only the family tree holds is not a join. No generation, origin or spouse is typ
 are people.json's, its origin is the person's birth place (or 'place not known'), its spouse the other parent of the next
 card (only where that link is documented; otherwise 'spouse not named in the records').
 
-WHICH PAGES. The family pages are the ones in the site menu's "Places & families" group (layouts/Base.astro; "The families" until the
-13 November 2026 menu regroup, which also took the non-family pages of "People & places" into the same group) and every page
+WHICH PAGES. The family pages are the ones the site menu names (NAMED in lib/site-menu.js) plus the ones /families/ lists (FAMILY_PAGES there; they left
+the menu on 23 November 2026, when the menu came down to four named families) and every page
 /families/<slug>/ of families.json. /families/ (the index) and /wider-family/ are lists of families, not one family, and
 /liguori/ is a page about one man (the bishop next door), not a family of this line.
 
@@ -203,11 +203,16 @@ def chapter_children(chapter):
 
 # ---------------------------------------------------------------- the family pages
 def menu_families():
-    src = open(os.path.join(ROOT, "site", "src", "layouts", "Base.astro"), encoding="utf-8").read()
-    m = re.search(r'\["Places & families",\s*\[(.*?)\]\]\]', src, re.S)
-    if not m:
-        sys.exit("build_family_lines: the menu has no «Places & families» group (site/src/layouts/Base.astro)")
-    return re.findall(r'\["(/[^"]*)",\s*"([^"]*)"\]', m.group(1))
+    """The family pages: the four named in the menu (NAMED) and the six listed on /families/ (FAMILY_PAGES), both in site/src/lib/site-menu.js,
+    A to Z by label, which is the order the old «Places & families» menu group listed them in (23 November 2026: the menu names four, the
+    /families/ index carries the rest, and a family page does not lose its ribbon because it left the menu)."""
+    src = open(os.path.join(ROOT, "site", "src", "lib", "site-menu.js"), encoding="utf-8").read()
+    m = re.search(r'const NAMED = \[(.*?)\];', src, re.S)
+    n = re.search(r'export const FAMILY_PAGES = \[(.*?)\n\];', src, re.S)
+    if not m or not n:
+        sys.exit("build_family_lines: site/src/lib/site-menu.js has no NAMED or FAMILY_PAGES list")
+    found = re.findall(r'\["(/[^"]*)",\s*"([^"]*)"\]', m.group(1)) + re.findall(r'href:\s*"(/[^"]*)",\s*label:\s*"([^"]*)"', n.group(1))
+    return sorted(found, key=lambda x: x[1].lower())
 
 
 def written_up():
