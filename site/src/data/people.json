@@ -8086,43 +8086,6 @@
 "noKin": "ancestor-in-another-act"
 },
 {
-"slug": "rosa-ceglia-of-sabatino-annecchino-mariantonia-ca",
-"name": "Rosa Ceglia",
-"surname": "CEGLIA",
-"household": "Sabatino Annecchino & Mariantonia Carfora",
-"hid": "sabatino-annecchino-mariantonia-carfora",
-"role": "grandmother",
-"events": [
-{
-"event": "death window",
-"date": "before 21 Jan 1860",
-"place": "Forchia",
-"evidence": "**DATED, AND SHE WAS NOT A FORCHIA WOMAN.** «*e di **ROSA CEGLIA defunta***» was all the marriage act gave. Her **death extract is document 3 of the 1860 dossier**: Forchia, act **4**, **4 April 1852**, at seven in the morning, in her own house — **ROSA CEGLIA, VEDOVA DI CARMINE ANNECCHINO, born in ARPAIA, sixty-two, FILATRICE, of the MASSERIA DE' PRETI, daughter of ANTONIO CEGLIA and GRAZIA VITAGLIANO, both dead**.\n\n**Born at ARPAIA** — the Zampiello town, which this family reaches from a different direction entirely. **Nothing is claimed from that; Arpaia is four kilometres from Forchia.** Declared by **Crescenzo Stroffolino**, forty-two, and **NICOLA ANNECCHINO**, forty-four, colono of the same masseria — **an Annecchino declaring an Annecchino's widow's death, and the act does not say how he is kin.**",
-"ark": "ANTENATI an_ua14207 (Arienzo processetti 1860) bundle 3, imgs 25-42"
-},
-{
-"event": "death",
-"date": "4 Apr 1852",
-"place": "Forchia",
-"evidence": "**Forchia, Morti 1852, act 4** — document 3 of the 1860 dossier. Sixty-two, *filatrice*, widow of Carmine Annecchino, born at **ARPAIA**; her parents **ANTONIO CEGLIA** and **GRAZIA VITAGLIANO**, both dead.",
-"ark": "ANTENATI an_ua14207 (Arienzo processetti 1860) bundle 3, imgs 25-42"
-}
-],
-"sources": [
-"register"
-],
-"living": false,
-"parents": [],
-"spouses": [],
-"children": [],
-"siblings": [],
-"d": "4 Apr 1852",
-"dateFrom": {
-"d": "act"
-},
-"noKin": "ancestor-in-another-act"
-},
-{
 "slug": "rosa-ceglia-of-carmine-annecchino-rosa-ceglia",
 "name": "Rosa Ceglia",
 "surname": "CEGLIA",
@@ -8135,6 +8098,20 @@
 "date": "4 Apr 1852",
 "place": "Forchia",
 "evidence": "**Forchia, Morti 1852, act 4, 4 April 1852**, at seven in the morning: «*è morta nella sua casa **ROSA CEGLIA, VEDOVA DI CARMINE ANNECCHINO**, nata in **ARPAIA**, di anni **sessantadue**, di professione **FILATRICE**, domiciliata ivi nella **Masseria de' Preti**, figlia di **ANTONIO CEGLIA defunto** … e di **GRAZIA VITAGLIANO defunta***». Declared by **Crescenzo Stroffolino**, forty-two, colono of the same masseria, and **NICOLA ANNECCHINO**, forty-four.\n\n**She outlived her husband by fourteen years and spun for a living**; she is thirty in her son's 1825 birth act and sixty-two here, which are five years apart.",
+"ark": "ANTENATI an_ua14207 (Arienzo processetti 1860) bundle 3, imgs 25-42"
+},
+{
+"event": "death window",
+"date": "before 21 Jan 1860",
+"place": "Forchia",
+"evidence": "**DATED, AND SHE WAS NOT A FORCHIA WOMAN.** «*e di **ROSA CEGLIA defunta***» was all the marriage act gave. Her **death extract is document 3 of the 1860 dossier**: Forchia, act **4**, **4 April 1852**, at seven in the morning, in her own house — **ROSA CEGLIA, VEDOVA DI CARMINE ANNECCHINO, born in ARPAIA, sixty-two, FILATRICE, of the MASSERIA DE' PRETI, daughter of ANTONIO CEGLIA and GRAZIA VITAGLIANO, both dead**.\n\n**Born at ARPAIA** — the Zampiello town, which this family reaches from a different direction entirely. **Nothing is claimed from that; Arpaia is four kilometres from Forchia.** Declared by **Crescenzo Stroffolino**, forty-two, and **NICOLA ANNECCHINO**, forty-four, colono of the same masseria — **an Annecchino declaring an Annecchino's widow's death, and the act does not say how he is kin.**",
+"ark": "ANTENATI an_ua14207 (Arienzo processetti 1860) bundle 3, imgs 25-42"
+},
+{
+"event": "death",
+"date": "4 Apr 1852",
+"place": "Forchia",
+"evidence": "**Forchia, Morti 1852, act 4** — document 3 of the 1860 dossier. Sixty-two, *filatrice*, widow of Carmine Annecchino, born at **ARPAIA**; her parents **ANTONIO CEGLIA** and **GRAZIA VITAGLIANO**, both dead.",
 "ark": "ANTENATI an_ua14207 (Arienzo processetti 1860) bundle 3, imgs 25-42"
 }
 ],
