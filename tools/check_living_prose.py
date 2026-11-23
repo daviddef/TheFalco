@@ -79,6 +79,8 @@ GENERATED = {
     "correction-place-flags.json",  # build_correction_places.py, the kit's placeflags.py over era-snapshot.json: flag files by year per place, no names of people
     "correction-places.json",       # build_correction_places.py, from public/atlas-data.json: place names and their /places/ page, no persons
     "direct-line.json",     # the kit's directline.py, from story.json's ribbon (checked with --check): slugs, generations, names
+    "given-names.json",     # atlas_given_names.py (npm run given-names): a snapshot of the Record Atlas's given-name catalogue (forms by language, evidence kinds, no persons), with this archive's counts laid over it
+    "givennames.json",      # tools/given_names.py: counts of forms over the people who are not living (no names, no slugs, no living person counted)
     "family-blocks.json",   # build_family_lines.py: the family pages with no ribbon, their connection blocks (checked with --check)
     "family-lines.json",    # build_family_lines.py: the family ribbons from people.json and the Spine (checked with --check)
     "era-places.json",      # build_era.py, from data/era-ground.tsv and era-towns.tsv: place strings and a region id, no names
