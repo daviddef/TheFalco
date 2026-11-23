@@ -17,8 +17,8 @@ import { allBearersLiving } from "../../lib/people.js";
 import { u } from "../../lib/url.js";
 import { md } from "../../lib/md.js";
 import register from "../../data/register.json";
-import { people } from "../../lib/people.js";
 import { writtenUp } from "../../lib/writtenup.js";
+import { bearersOfWritten, whereHeld } from "../../lib/namesets.js";
 
 const bare = (n) => String(n || "").replace(/\s*\(.*?\)\s*/g, " ")
   .replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim();
@@ -48,10 +48,9 @@ export function getStaticPaths() {
 const { name, rows } = Astro.props;
 const surname = (rows.find((r) => r.surname && r.surname !== "?") || {}).surname || "";
 const wu = writtenUp(surname);
-/* «Pasquale Falco detto Zimbardo» is a Pasquale Falco who was called Zimbardo: the page of the name lists him. The comparison
-   was exact, so he was the one of twenty Pasquale Falco person pages this name page did not link (5 November 2026). */
-const unalias = (n) => bare(n).replace(/\s+detto\s+.+$/i, "").toLowerCase();
-const identified = people.filter((p) => unalias(p.name) === name.toLowerCase());
+/* Who the archive has identified under this name: the rule is the person page's too (lib/namesets.js), so this card and a person's
+   "Others of the same name" cannot disagree. «Pasquale Falco detto Zimbardo» is a Pasquale Falco who was called Zimbardo. */
+const identified = bearersOfWritten(name);
 
 const KIND = { swept: "read off a register", index: "a name index", tree: "the family tree",
                cited: "a cited document", burial: "a burial record", record: "a record",
@@ -103,9 +102,7 @@ const withLink = rows.filter((r) => r.link).length;
         <ul style="margin:.3rem 0">
           {identified.map((p) => (
             <li><a href={u("/people/" + p.slug)}><strong>{p.name}</strong></a>
-              <span class="small"> — {p.gen ? `generation ${p.gen} of the direct line`
-                : p.household ? `in the household of ${p.household}`
-                : p.living ? ("living" + (p.place ? ", " + p.place : "")) : "from the family tree"}</span></li>
+              <span class="small"> — {whereHeld(p)}</span></li>
           ))}
         </ul>
       ) : (

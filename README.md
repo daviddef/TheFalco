@@ -48,6 +48,18 @@ nor the search index; an undated person with a living parent is not published; a
 (`kit/tools/living_rule.py`). A removal request is honoured within days, without argument and
 without requiring a reason.
 
+### One page per person, and the name pages
+
+A person has one page, `/people/<slug>/`. When other people in the archive carry the same name, the page ends with "Others of the same name"
+(`#namesakes`, the list inside it at `#others-of-this-name`): one link to each of THEIR pages, with their years where the rule allows and where the
+archive holds them. The rule is the one `/who/` has always used and is written once, in `site/src/lib/namesets.js`: a parenthesis that tells two apart
+is dropped, so is a `detto` nickname, case is folded, and nothing else (an accent or a question mark is another name). People are never merged on a name.
+
+`/who/<name>/` is **not** a redirect here, as it is on Booyzen. It is a page about a NAME, not a person: it gathers every register row that carries the
+name (5,111 names; 4,369 of them have no person page at all, and the rows live nowhere else). Its "Has the archive identified anyone of this name?"
+card is made by the same rule, so it and a person's own list cannot disagree. `npm run check:namesakes` (`tools/checknamesakes.py`, with a planted
+fault for each rule) derives the sets again, in Python, from `people.json` and checks them against the built pages.
+
 ## Running it
 
 ```bash
