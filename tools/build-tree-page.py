@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Roots & Routes: the tree page for this archive, built from this archive's own committed data.
+"""Roots & Routes: the tree viewer behind the «Where they lived» frame on a person's page, built from this archive's own committed data.
+(23 November 2026: the standalone /roots/ page was removed, and /roots redirects to /trees/. The viewer, its data and this builder stay because
+/roots/view.html is the frame a person's page embeds, and the Record Atlas Tree Canvas reads tree.json.)
 
-    python3 tools/build-tree-page.py   # rebuild data/tree-page/ (tree.json, atlas-data.json, roots.html, roots.embed.html)
+    python3 tools/build-tree-page.py   # rebuild data/tree-page/ (tree.json, atlas-data.json, roots.html)
     python3 tools/build-tree-page.py --check            # exit 1 if the page is older than the data it was built from
 
 WHERE THE PEOPLE COME FROM. There is no committed GEDCOM (the tree export is private and carries every living person). The people are the ones
@@ -399,9 +401,9 @@ def undrawn_people(allp, t, sexes_all, rep):
             assert set(e) == LIVING_KEYS and e["living"] is True, "a living card carries more than name and family: %s" % e["id"]
         else:
             assert "living" not in e, "a non-living card is marked living: %s" % e["id"]
-    # living cards go out only on pages that are noindex: refuse to write them if either Roots page is indexable
+    # living cards go out only on pages that are noindex: refuse to write them if the page that carries them is indexable
     if any(e.get("living") for e in out):
-        for f_ in ("index.astro", "view.html.js"):
+        for f_ in ("view.html.js",):
             src_ = io.open(os.path.join(DATA, "..", "pages", "roots", f_), encoding="utf-8").read()
             if "noindex" not in src_: sys.exit("living cards are in tree.json but site/src/pages/roots/%s is not noindex" % f_)
     # a link may only name someone this tree carries: a living relative, or one held back, is not named by id either
@@ -461,9 +463,6 @@ def main():
     write_roots_links(tree)
     tpl = os.path.join(TP, "tree-views.template.html")
     run([sys.executable, os.path.join(TP, "build_page.py"), "--template", tpl, "--tree", tree, "--atlas-data", ad, "--out", page, "--ext", EXT])
-    embed = os.path.join(OUT, "roots.embed.html")
-    run([sys.executable, os.path.join(TP, "build_page.py"), "--template", tpl, "--tree", tree, "--atlas-data", ad, "--out", embed, "--embed", "--ext", EXT])
     run([sys.executable, os.path.join(TP, "check_tree_page.py"), "--tree", tree, "--atlas-data", ad, "--page", page])
-    run([sys.executable, os.path.join(TP, "check_tree_page.py"), "--tree", tree, "--atlas-data", ad, "--page", embed])
 
 if __name__ == "__main__": main()

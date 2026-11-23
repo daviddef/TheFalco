@@ -6,7 +6,6 @@ import { u } from "../lib/url.js";
 import { md, bare } from "../lib/md.js";
 import raw from "../data/searched.json";
 import nf from "../data/namefold.json";   /* variant -> canonical, for search only */
-const REPO = "https://github.com/daviddef/TheFalco";
 
 /* What has been read, page by page, and what was in it — including the years
    that held nothing. A null is a result: it is what stops the next person
@@ -77,7 +76,7 @@ const num = (n) => WORD[n] || String(n);
     invites the next person to repeat every search that failed. <strong>{nils} of the {rows.length}
     searches below returned nothing</strong>, and several of those nulls overturned or unsettled
     something this archive had been relying on. Every register read act by act is logged in the
-    <a href={REPO + "/tree/main/notes"}>reading logs</a>, with each father's age, trade and street.</p>
+    <a href={u("/research-log/")}>reading logs</a>, with each father's age, trade and street.</p>
     <p class="small" style="margin-top:.6rem"><strong>The outcome words are this archive's own, and
     they are not interchangeable.</strong> <em>No Falco</em> means a volume was read end to end and
     the family is not in it. <em>Not there</em> means the one record sought is missing from a source

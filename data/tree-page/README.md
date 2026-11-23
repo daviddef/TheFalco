@@ -1,8 +1,10 @@
 # Roots & Routes (the tree page)
 
 Ten views of the people this archive holds who have died: hourglass, fan, whole-tree and close-family maps, Atlas map, movements, kinship, place lanes,
-eras, lifespans, an Orphans tab, the five animated views (Night sky, Ink ledger, Household, Generations, Where they lived) and a Surnames cloud. It is served
-at `/roots/`.
+eras, lifespans, an Orphans tab, the five animated views (Night sky, Ink ledger, Household, Generations, Where they lived) and a Surnames cloud.
+**23 November 2026: the standalone page at `/roots/` was removed** (the Tree Canvas on recordatlas.org replaced it estate-wide) and `/roots/` redirects to `/trees/`.
+The viewer is still built and served bare at `/roots/view.html`, because that is the frame behind «Where they lived» on a person's page; `tree.json` is also read
+by the Record Atlas Tree Canvas.
 
 | File | What it is | Edit by hand? |
 |---|---|---|
@@ -10,7 +12,7 @@ at `/roots/`.
 | `place_map.json` | each place string with coordinates, country and Record Atlas id | no, generated (see below) |
 | `place-additions.json` | place strings decided by hand, each with its reason | yes, with a reason |
 | `atlas-data.json` | the Record Atlas slice: outlines, regimes, flags, events, collections | no, generated |
-| `roots.html`, `roots.embed.html` | the page, whole and as a fragment for the site layout | no, generated |
+| `roots.html` | the viewer, whole, served bare at `/roots/view.html` for the frames on a person's page | no, generated |
 | `tree.report.json` | counts, the adapter's own numbers, and the 21 people whose estimated birth falls after their recorded death | read it |
 | `people.ged`, `slugs.json` | intermediates, not committed | no |
 

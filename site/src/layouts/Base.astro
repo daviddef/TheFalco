@@ -5,7 +5,7 @@ import { versioner } from "@daviddef/archive-kit/lib/assetv.js";
 /* every public asset gets a fingerprint, so a fix is never served stale */
 const v = versioner();
 import { u } from "../lib/url.js";
-import { navGroups } from "../lib/research-menu.js";
+import { MENU } from "../lib/site-menu.js";
 import SiblingArchives from "@daviddef/archive-kit/components/SiblingArchives.astro";
 import SkipLink from "@daviddef/archive-kit/components/SkipLink.astro";
 import SocialHead from "@daviddef/archive-kit/components/SocialHead.astro";
@@ -38,24 +38,8 @@ const _fallback = `${title === SITE ? "Home page" : title} \u2014 a page of The 
 const _d = _lead.length >= 30 ? _lead : _fallback;
 const metaDesc = _d.length <= 200 ? _d
   : _d.slice(0, 199).replace(/\s+\S*$/, "").replace(/[\s,;:\u2014-]+$/, "") + "\u2026";
-const nav = [
-  /* 13 November 2026 (the menu regroup, PR A): six menus. Start holds only Home, The story and About (What's new is in Research, its
-     group head). The drawn pages sit under People, in a "Drawn" sub-head. Places & families follows the family-menu rule (David, 12 Nov):
-     the families index first; this archive's own line is The Spine, which leads the Our line menu and is not repeated here; then the other
-     surnames A to Z (accents folded); then the pages that are not a surname. A family page leaves the menu only where the /families/ index
-     links the same address (Morgillo, Cioffi, Annecchino and Crisci stay as the four largest); Zampiello, Maione, Carfora, Rivetti, Ferrara
-     and The Bishop stay until the index links them (docs/menu-a-reach.md). No address changed and no page was edited. */
-  ["Start", [["/", "Home"], ["/story/", "The story"], ["/about/", "About"]]],
-  ["Our line", [["/direct-line/", "The Spine"], ["/australia/", "Australia"], ["/lines/", "Where they went"]]],
-  ["People", [["/people/", "The People"], ["/who/", "Every Name"], ["/register/", "The Register"], ["/households/", "Households"], ["/marriages/", "The Marriages"], ["/graves/", "Graves"], { sub: "Drawn" }, ["/tree/", "Our line, drawn"], ["/trees/", "The trees"], ["/roots/", "Roots & Routes"], ["/timeline/", "The Timeline"], ["/bloodline/", "Blood relatives, drawn"]]],
-  ["Places & families", [["/families/", "The Families"], ["/annecchino/", "Annecchino"], ["/carfora/", "Carfora"], ["/families/cioffi/", "Cioffi"], ["/crisci/", "Crisci"], ["/ferrara/", "Ferrara"], ["/maione/", "Maione"], ["/morgillo/", "Morgillo"], ["/rivetti/", "Rivetti"], ["/zampiello/", "Zampiello"], ["/wider-family/", "The Wider Family"], ["/liguori/", "The Bishop"], ["/atlas/", "The Atlas"], ["/places/", "Places"], ["/walk/", "Walk the Line"], ["/journeys/", "Journeys"], ["/arienzo/", "Arienzo"], ["/camellara/", "Strada Camellara"], ["/valle-caudina/", "Valle Caudina"], ["/rule/", "Under Whose Rule"], ["/diaspora/", "Where the Name Went"]]],
-  ["The name", [["/name/", "The Name"], ["/which-falco/", "Which Falco?"], ["/namesakes/", "Namesakes"], ["/arms/", "Arms"]]],
-  /* 12 November 2026 (the research-menu trial, wave 3): "Evidence" and "Investigations" are one "Research" menu with three groups.
-     The list is lib/research-menu.js (the header, the drawer and the group pages all read it). A menu is a flat list of [href, label],
-     or a list of groups { head, href, items }, an item being [href, label] or { sub } (a plain sub-label). Every address of the two old
-     menus is still a built page; none moved. */
-  ["Research", navGroups],
-];
+/* THE MENU is lib/site-menu.js (23 November 2026, estate clean-up): the header, the drawer and the hub pages all read it. */
+const nav = MENU;
 
 const here = Astro.url.pathname.replace(/\/$/, "");
 const on = (h) => here === u(h).replace(/\/$/, "");
@@ -120,13 +104,13 @@ const thisArchive =
         <details class="menu">
           <summary>{label}</summary>
           {links[0] && links[0].items
-            ? <div class="panel wide">
+            ? <div class={"panel wide" + (links.length < 3 ? " w2" : "")}>
                 {links.map((g) => (
                   <div class="pg">
-                    <a href={u(g.href)} class={"ph" + (on(g.href) ? " on" : "")}>{g.head}</a>
+                    {g.href ? <a href={u(g.href)} class={"ph" + (on(g.href) ? " on" : "")}>{g.head}</a> : <span class="ps">{g.head}</span>}
                     {g.items.map((x) => Array.isArray(x)
                       ? <a href={u(x[0])} class={on(x[0]) ? "on" : ""}>{x[1]}</a>
-                      : <span class="ps">{x.sub}</span>)}
+                      : x.href ? <a href={u(x.href)} class={"ph" + (on(x.href) ? " on" : "")}>{x.sub}</a> : <span class="ps">{x.sub}</span>)}
                   </div>))}
               </div>
             : <div class={links.length > 16 ? "panel cols" : "panel"} style={links.length > 16 ? `--rows:${Math.ceil(links.length / 2)}` : undefined}>
@@ -147,10 +131,10 @@ const thisArchive =
         {links[0] && links[0].items
           ? links.map((g) => (
               <div class="dsub">
-                <a href={u(g.href)} class={"ph" + (on(g.href) ? " on" : "")}>{g.head}</a>
+                {g.href ? <a href={u(g.href)} class={"ph" + (on(g.href) ? " on" : "")}>{g.head}</a> : <span class="ps">{g.head}</span>}
                 {g.items.map((x) => Array.isArray(x)
                   ? <a href={u(x[0])} class={on(x[0]) ? "on" : ""}>{x[1]}</a>
-                  : <span class="ps">{x.sub}</span>)}
+                  : x.href ? <a href={u(x.href)} class={"ph" + (on(x.href) ? " on" : "")}>{x.sub}</a> : <span class="ps">{x.sub}</span>)}
               </div>))
           : links.map((x) => Array.isArray(x) ? <a href={u(x[0])} class={on(x[0]) ? "on" : ""}>{x[1]}</a> : <span class="ps">{x.sub}</span>)}
       </div>
@@ -196,7 +180,6 @@ const thisArchive =
       <a href={u("/privacy/")}>Privacy</a> ·
       <a href={u("/open-questions/")}>Open questions</a> ·
       <a href={u("/corrections/")}>Corrections</a> ·
-      <a href="https://github.com/daviddef/TheFalco">The repository</a> ·
       Corrections are the most valuable thing you can send</p>
     <VisitCount code={thisArchive?.counter} />
   </div>

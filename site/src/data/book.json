@@ -127,9 +127,9 @@
           "group": "The line, drawn"
         },
         {
-          "path": "/roots/",
-          "title": "Roots & Routes",
-          "blurb": "Everyone in the archive who has died, drawn ten ways: by generation, by place, by era, and as the route a life took.",
+          "path": "/drawn/",
+          "title": "Drawn",
+          "blurb": "Every page that draws the family rather than listing it: the line, the trees, the blood relatives, the years.",
           "group": "The line, drawn"
         },
         {
@@ -423,6 +423,12 @@
           "path": "/research/sources-and-method/",
           "title": "Sources & method",
           "blurb": "What this archive stands on, how it grades a claim, and the longer studies of one body of records.",
+          "group": "What it rests on"
+        },
+        {
+          "path": "/research/deep-dives/",
+          "title": "Deep dives",
+          "blurb": "Single bodies of records studied at length, and the working notes behind them.",
           "group": "What it rests on"
         },
         {

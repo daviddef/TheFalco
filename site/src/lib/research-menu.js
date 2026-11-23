@@ -17,7 +17,6 @@ export const RESEARCH = [
       { href: "/searched/", label: "What Has Been Read", asks: "What was looked at, and what did it not turn up?" },
       { href: "/corrections/", label: "Corrections", asks: "What did this archive get wrong?" },
       { href: "/changes/", label: "What changed", asks: "What happened, most recent first?" },
-      { href: "/research-log/", label: "Research Log", blurb: "The working notes, one file per register volume, written while reading and never tidied afterwards." },
     ] },
   { id: "sources-and-method", head: "Sources & method", href: "/research/sources-and-method/",
     dek: "What this archive stands on, how it grades a claim, and the longer studies of one body of records.",
@@ -26,7 +25,7 @@ export const RESEARCH = [
       { href: "/method/", label: "Method", asks: "What would make you believe or not believe this?" },
       { href: "/documents/", label: "Documents", asks: "What is reproduced whole, and what does it say?" },
       { href: "/gallery/", label: "Gallery", asks: "What do the pages themselves look like?" },
-      { sub: "Deep dives", id: "deep-dives",
+      { sub: "Deep dives", id: "deep-dives", href: "/research/deep-dives/",
         note: "A single body of records studied on its own, at length. Each is also linked from the Sources page.",
         items: [
           { href: "/antenati/", label: "Antenati", atlas: true, blurb: "What the Italian State Archives' portal holds for Arienzo and Benevento, opened by hand, and the two questions it answered that were not the answers we wanted." },
@@ -34,15 +33,20 @@ export const RESEARCH = [
           { href: "/holdings/", label: "Holdings", atlas: true, blurb: "A map of the registers themselves: what exists, where, and what does not, so that no gap is found twice." },
           { href: "/the-library/", label: "The Library", atlas: true, blurb: "The bibliography: the record sets read, the working data kept in the open, and the much larger body not yet touched." },
           { href: "/dna/", label: "The DNA", blurb: "Two DNA tests, eight generations deep: what the result confirms, what it refuses to claim, and how far back it can see." },
+          /* the working notes are a local page too: on the hub, and not in the menu (23 November 2026). `hubOnly` keeps it out of the Sources page's list of studies. */
+          { href: "/research-log/", label: "Research Log", hubOnly: true, blurb: "The working notes, one file per register volume, written while reading and never tidied afterwards." },
         ] },
     ] },
 ];
 /* the header menu's shape: [group, ...] with { head, href, items: [[href, label] | { sub }] } */
 export const navGroups = RESEARCH.map((g) => ({
   head: g.head, href: g.href,
-  items: g.items.flatMap((x) => x.sub ? [{ sub: x.sub }, ...x.items.map((y) => [y.href, y.label])] : [[x.href, x.label]]),
+  /* a sub-group shows in the menu as ONE heading that is a link to its hub; what is inside it is on the hub (23 November 2026) */
+  items: g.items.flatMap((x) => x.sub ? [{ sub: x.sub, href: x.href }] : [[x.href, x.label]]),
 }));
 
+/* the deep-dives sub-group: the hub /research/deep-dives/ reads it */
+export const DEEP_DIVES = RESEARCH.flatMap((g) => g.items).find((x) => x.id === "deep-dives");
+
 /* the deep dives, for the Sources page: [[label, href, blurb]] */
-export const deepDives = RESEARCH.flatMap((g) => g.items).filter((x) => x.id === "deep-dives").flatMap((x) => x.items)
-  .map((d) => [d.label, d.href, d.blurb]);
+export const deepDives = DEEP_DIVES.items.filter((d) => !d.hubOnly).map((d) => [d.label, d.href, d.blurb]);

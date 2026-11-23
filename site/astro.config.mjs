@@ -30,6 +30,10 @@ const redirects = Object.fromEntries([
      /marriages. The old address has been published and linked, so it redirects
      rather than 404s. */
   ["/married-in", `${BASE}/marriages`],
+  /* 23 November 2026 (estate clean-up): this archive's own Roots & Routes page was removed (the Tree Canvas on recordatlas.org replaced it
+     estate-wide). Its old address keeps answering and goes to this archive's own tree page. Only /roots/ itself moved: /roots/view.html stays,
+     because it is the frame behind «Where they lived» on a person's page. The redirect stub is not in the sitemap (tools/sitemap.py skips stubs). */
+  ["/roots", `${BASE}/trees/`],
 ]);
 
 // Served from its own host since 12 October 2026 — falco.defranceski.com.

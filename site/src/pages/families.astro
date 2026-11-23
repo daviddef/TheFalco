@@ -7,6 +7,8 @@ import households from "../data/households.json";
 import line from "../data/line.json";
 import { findPerson } from "../lib/people.js";
 import { stats } from "../lib/familystats.js";
+import ResearchList from "@daviddef/archive-kit/components/ResearchList.astro";
+import { FAMILY_PAGES } from "../lib/site-menu.js";
 
 const rows = (sn) => register.filter((r) => r.surname === sn).length;
 /* 22 September 2026. «Eleven families» was typed in the eyebrow and the
@@ -113,6 +115,12 @@ const otherGroups = [{
     <a href={u("/register/")}>the register</a>, which includes surname-index hits — a count is a measure
     of what has been gathered, not of proven kinship.</p>
   </div>
+
+  <section class="blk" id="family-pages">
+    <h2>A page of its own</h2>
+    <p class="dek">The families that have a story page, beyond the four named in the menu (Annecchino, Cioffi, Crisci and Morgillo), and the page about the wider family. The cards further down give each name's counts and the people who bear it.</p>
+    <ResearchList items={FAMILY_PAGES} />
+  </section>
 
   <section class="blk">
     <Families groups={groups} u={u} />
