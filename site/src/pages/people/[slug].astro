@@ -3,6 +3,7 @@ import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
 import { md } from "../../lib/md.js";
 import { people, bySlug } from "../../lib/people.js";
+import { othersOf, whereHeld, whoSlugOf } from "../../lib/namesets.js";
 import households from "../../data/households.json";
 import plates from "../../data/plates.json";
 import EraNote from "@daviddef/archive-kit/components/EraNote.astro";
@@ -43,7 +44,6 @@ const firstSentence = (s) => {
   return (m ? m[0] : t).trim();
 };
 
-const sameName = people.filter((q) => q.slug !== p.slug && clean(q.name) === clean(p.name));
 const ownHouse = p.household
   ? households.find((h) => h.name.split(/\s*&\s*/).some((n) => clean(n) === clean(p.name)))
   : null;
@@ -139,6 +139,17 @@ const relCanon = (q, extra = {}) => ({ id: q.slug, born: canonDate(q.b), died: c
 const relLiving = (q) => !!q.living || isLivingKit(relCanon(q), RULE);
 const relHeld = (q) => !q.living && isHeldOutKit(relCanon(q), { ...RULE, parentLiving: (q.parents || []).some((x) => { const pq = bySlug.get(x.slug); return pq && relLiving(pq); }) });
 const yearIf = (v) => (canonDate(v) ? gedYear(v) : null);
+/* OTHERS OF THE SAME NAME (one page per person, 23 November 2026). The people whose name /who/ reads as this one (lib/namesets.js: the parenthesis and
+   a «detto» nickname dropped, case folded), each a link to THEIR page with the years and the place the archive holds them. A living person is a name and
+   where they are held, and a person the kit holds out has no years: nothing here shows more than /who/<name>/ showed. This archive does not merge on a name,
+   and says so; the /who/ page of the name, which gathers every record that carries it, stays and is linked from here. */
+const SAME = p.living ? [] : othersOf(p);
+const lifeOf = (q) => {
+  if (relLiving(q) || relHeld(q) || /\d{4}/.test(q.name)) return "";   // a name that already carries the years (its parenthesis) is not told them twice
+  const b = yearIf(q.b), d = yearIf(q.d);
+  return b && d ? (b === d ? `${b}` : `${b}–${d}`) : d ? `d. ${d}` : b ? `b. ${b}` : "";
+};
+const WHOPAGE = SAME.length ? whoSlugOf(p.name) : null;
 const cardOf = (e, rel) => {
   const q = bySlug.get(e.slug);
   if (!q || e.superseded || relHeld(q)) return null;
@@ -325,14 +336,15 @@ const dek = p.living
       <p class="small"><a href={u("/register/") + "?q=" + encodeURIComponent(clean(p.name))}>Every record naming {clean(p.name)} →</a></p>
     </Fragment>
 
-    {sameName.length ? (
+    {SAME.length ? (
       <Fragment slot="namesakes">
         <p class="small">This parish repeats its names relentlessly — there are three Maria Falco and
         four Pasquale. <strong>These are different people, kept apart on purpose rather than merged
         into one.</strong></p>
-        <ul>{sameName.map((q) => (
-          <li><a href={u("/people/" + q.slug)}>{q.name}</a>
-            <span class="small"> — {q.household || (q.living ? ("living" + (q.place ? ", " + q.place : "")) : "from the family tree")}</span></li>
+        {WHOPAGE ? <p class="small"><a href={u("/who/" + WHOPAGE + "/")}>Every register record that carries the name →</a></p> : null}
+        <ul id="others-of-this-name" class="oth-list">{SAME.map((q) => (
+          <li><a href={u("/people/" + q.slug + "/")}>{q.name}</a>
+            <span class="small"> — {lifeOf(q) ? lifeOf(q) + ", " : ""}{whereHeld(q)}</span></li>
         ))}</ul>
       </Fragment>
     ) : null}
