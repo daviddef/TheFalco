@@ -469,6 +469,7 @@ for nm, ck, hk in sorted(cands):
 _PJ = path("site", "src", "data", "person-joins.json")
 _pj = json.load(open(_PJ, encoding="utf-8")).get("joins", []) if os.path.exists(_PJ) else []
 _pj_done = 0
+_no_child_edge = set()   # joined records that are NOT a child in their own house
 for _j in _pj:
     if _j.get("kind") != "child-head":
         continue
@@ -485,12 +486,20 @@ for _j in _pj:
         continue
     same_person = _trial
     _pj_done += 1
+    if _j.get("recordedAs") in ("grandparent", "kin-named"):
+        # The joined record is a grandparent (or other kin) named in the house,
+        # not a child of it. It must NOT make the person a child of that house's
+        # couple: «alsoChildIn» is what the parent edges are read from. (Rosa
+        # Ceglia is the grandmother in her son Sabatino's house; without this
+        # the join made her Sabatino's child and the build refused to write.)
+        _no_child_edge.add(_ck)
 print(f"  joins said outright, register to register: {_pj_done}")
 
 for child_k, head_k in same_person.items():
     head, kid = hh_people[head_k], hh_people[child_k]
     head["events"] += kid["events"]
-    head.setdefault("alsoChildIn", kid["household"])
+    if child_k not in _no_child_edge:
+        head.setdefault("alsoChildIn", kid["household"])
 hh_order = [k for k in hh_order if k not in same_person]
 for k in list(hh_people):
     if k in same_person: del hh_people[k]

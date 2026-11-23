@@ -928,10 +928,10 @@
   {
    "n": 107,
    "what": "JOIN ROSA CEGLIA'S TWO PAGES — the builder refuses it, so a human has to find out why.",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-10-18",
-   "note": "Rosa Ceglia (d. 4 April 1852) is the head of her own household and also the «grandmother» of her son Sabatino's household. Her husband's two pages were joined by `person-joins.json`; **hers cannot be: the join makes people their own ancestors** (Carmine Maria, Giacomo b. c.1817, Maria Filomena and Maria Lucia Annecchino among them) and the builder refuses to write it. *Why the same join works for him and not for her has not been traced.* Until then she has two pages, both with the same death act."
+   "note": "Rosa Ceglia (d. 4 April 1852) is the head of her own household and also the «grandmother» of her son Sabatino's household. Her husband's two pages were joined by `person-joins.json`; **hers cannot be: the join makes people their own ancestors** (Carmine Maria, Giacomo b. c.1817, Maria Filomena and Maria Lucia Annecchino among them) and the builder refuses to write it. *Why the same join works for him and not for her has not been traced.* Until then she has two pages, both with the same death act.\n\n**22 November 2026 — TRACED AND JOINED.** *Why the same join works for her husband and not for her:* the builder sets `alsoChildIn` from the joined record's own house, and the next step reads that as «this person is also a child of the couple in that house». Rosa Ceglia is a **grandmother** in her son Sabatino's household, not a child, so the join made her Sabatino's and Mariantonia Carfora's child, and Sabatino her parent as well as her child; the self-check then refused to write («parent AND child of one person»; nine people their own ancestor, Carmine Maria, Giacomo b. c.1817, Maria Filomena and Maria Lucia Annecchino among them). Her husband's join passed only because an earlier join of his (from his own parents' house) set `alsoChildIn` first, and `setdefault` kept it. **Fix:** a join in `person-joins.json` may say `\"recordedAs\": \"grandparent\"` (or `\"kin-named\"`); the builder then sets no child edge for it. It is opt-in, so no existing join changes (a role-based rule was tried first and was refused: it moved edges on Angelo Falco's family). **Result:** Rosa Ceglia is one page (`rosa-ceglia-of-carmine-annecchino-rosa-ceglia`), the second address redirects to it, her death act of 4 April 1852 is on it, and nothing else in `people.json` differs."
   },
   {
    "n": 108,

@@ -192,6 +192,13 @@
    "tree": "4512427",
    "record": "luigi-falco-maria-perrotta|Filomena Crisci (of Antonio Crisci and Barbera Falco, bride in 1906)",
    "reason": "The tree's Filomena Falco (Crisci), born 1839 to Matteo Falco and Alessandra Crisci, married Antonio Crisci, 45, son of Arcangelo (Matrimoni 1870 act 19). The bride of Pubblicazioni 1906 Parte I act 21 is Crisci Filomena, 20, daughter of the late Antonio Crisci and of the living Barbara Falco of Maddaloni: a different mother, a different generation, and a different Antonio (the father of the Barbera Falco union is 28 in 1877, son of Francesco). forms() lets «Filomena Falco (Crisci)» answer to «Filomena Crisci»; this entry stops the name-alone pass from joining them."
+  },
+  {
+   "kind": "child-head",
+   "recordedAs": "grandparent",
+   "child": "sabatino-annecchino-mariantonia-carfora|Rosa Ceglia",
+   "head": "carmine-annecchino-rosa-ceglia|Rosa Ceglia",
+   "reason": "Rosa Ceglia died 4 April 1852 at Forchia. Her own household (Carmine Annecchino and Rosa Ceglia) holds that death, with her as the mother of Sabatino; her son Sabatino's household names her as the grandmother (the death window before the marriage of 21 January 1860, and the same death of 4 April 1852 at Forchia). Same name, same death date and place, and her husband's two records are already joined the same way. The record in Sabatino's house is a grandmother, not a child, so it is marked recordedAs: grandparent and sets no child edge."
   }
  ]
 }
