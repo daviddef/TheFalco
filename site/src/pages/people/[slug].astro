@@ -4,6 +4,8 @@ import { u } from "../../lib/url.js";
 import { md } from "../../lib/md.js";
 import { people, bySlug } from "../../lib/people.js";
 import { othersOf, whereHeld, whoSlugOf } from "../../lib/namesets.js";
+import { dossierOf } from "../../lib/dossier.js";
+import NameDossier from "../../components/NameDossier.astro";
 import households from "../../data/households.json";
 import plates from "../../data/plates.json";
 import EraNote from "@daviddef/archive-kit/components/EraNote.astro";
@@ -150,6 +152,11 @@ const lifeOf = (q) => {
   return b && d ? (b === d ? `${b}` : `${b}–${d}`) : d ? `d. ${d}` : b ? `b. ${b}` : "";
 };
 const WHOPAGE = SAME.length ? whoSlugOf(p.name) : null;
+/* WHAT OF THE NAME'S REGISTER PAGE IS ABOUT THIS PERSON (one page per person, dossiers, 23 November 2026; lib/dossier.js says which rows and why). A living person
+   and a person the kit holds out are folded nothing. A person who shares a name and has no row of their own to show is told nothing here: "Others of the same name"
+   above already links the name's page. */
+const DOSSIER = p.living ? null : dossierOf(p, relLiving(p) || relHeld(p));
+const showDossier = !!DOSSIER && !DOSSIER.held && (DOSSIER.folded.length > 0 || (DOSSIER.other > 0 && !SAME.length));
 const cardOf = (e, rel) => {
   const q = bySlug.get(e.slug);
   if (!q || e.superseded || relHeld(q)) return null;
@@ -369,6 +376,12 @@ const dek = p.living
     {ownHouse ? (
       <PersonSection kind="more" title="The household as the registers built it">
         <HouseholdTree household={ownHouse} years />
+      </PersonSection>
+    ) : null}
+
+    {showDossier ? (
+      <PersonSection kind="more" title="From this name's register page">
+        <NameDossier d={DOSSIER} name={p.name} u={u} md={md} />
       </PersonSection>
     ) : null}
   </PersonPage>

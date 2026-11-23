@@ -1,0 +1,50 @@
+---
+/* THE REGISTER PAGE OF A PERSON'S NAME, as it bears on this person (one page per person, dossiers, 23 November 2026).
+ * /who/<name>/ stays: it is a page about a NAME and gathers every register row that carries it. What this section does is small and says what
+ * it does: it repeats, word for word and with its source link, the rows the DATA ties to this person (lib/dossier.js: why), and it counts the
+ * rest and links them without claiming them. Nothing here is written for the page; a row is a register row.
+ *
+ * PROPS  d     what lib/dossier.js dossierOf(p) returned
+ *        name  the person's name, for the sentence
+ *        u     the archive's url()
+ *        md    the archive's md()
+ */
+const { d, name, u, md } = Astro.props;
+const plain = String(name || "").replace(/\s*\(.*?\)\s*/g, " ").replace(/\s+/g, " ").trim();
+const n = d.folded.length;
+const WHY = {
+  page: (r) => "Why it is here: it is a line of the register page this person's own record above already cites.",
+  parents: (r) => "Why it is here: it names the same two parents this page draws for this person, on a day of one of their own events.",
+};
+const LINK = { swept: "register image", index: "surname index", record: "record", cited: "record", parish: "parish register", civil: "civil register", parsed: "parish register", burial: "burial", file: "file" };
+---
+<p class="small">The register page of the name, <a href={u("/who/" + d.slug + "/")}>«{plain}»</a>, gathers every record in this archive that carries it:
+<strong>{d.total}</strong> of them{d.own > 0 ? ` (${d.own} ${d.own === 1 ? "is" : "are"} this archive's own household or tree ${d.own === 1 ? "entry" : "entries"}, which its people pages already draw)` : ""}. <strong>It gathers them because they share a name, and for no other reason</strong>; this archive does not merge on a name.
+{n ? <span> {n === 1 ? "One of them" : n + " of them"} {n === 1 ? "shares" : "share"} something checkable with this person's own record (the reason is under {n === 1 ? "it" : "each"}) and {n === 1 ? "is" : "are"} repeated here, word for word, with {n === 1 ? "its" : "their"} source.</span> : null}</p>
+{n ? (
+  <ul class="dos-list" id="from-the-name-page">
+    {d.folded.map((r) => (
+      <li data-who-row={r.id}>
+        <div class="dos-t"><span class="dos-as">As written: <strong>{r.name}</strong></span></div>
+        <div class="small"><Fragment set:html={md(r.detail, u)} /></div>
+        <div class="small dos-src">
+          {r.link ? <a href={r.link} rel="noopener">{LINK[r.kind] || "source"} ↗</a> : <span class="dim">no public link</span>}
+          <span class="dim"> · {r.source}</span>
+        </div>
+        <div class="small dos-why">{WHY[r.why](r)}</div>
+      </li>
+    ))}
+  </ul>
+) : null}
+{d.other > 0 ? (
+  <p class="small"><strong>{d.other}</strong> other record{d.other === 1 ? "" : "s"} on the name's page {d.other === 1 ? "carries" : "carry"} the name «{plain}» and
+  {d.other === 1 ? " is" : " are"} not tied to this person: they are there for the name alone, and may be other people of it.
+  <a href={u("/who/" + d.slug + "/")}>Read them on the name's page →</a></p>
+) : null}
+<style>
+  .dos-list { list-style: none; margin: .6rem 0; padding: 0; }
+  .dos-list li { margin: .5rem 0; padding: .55rem .75rem; border-left: 3px solid var(--rule); background: var(--panel-2); overflow-wrap: anywhere; }
+  .dos-as { font-size: .86rem; }
+  .dos-src { margin-top: .25rem; }
+  .dos-why { margin-top: .25rem; font-style: italic; }
+</style>

@@ -45,8 +45,10 @@ const isName = (n) => {
   const t = String(n || "").trim();
   return t.length >= 2 && t.length <= 64 && t.split(/\s+/).length <= 7 && !/[.;:\u2014]\s|\u00ab|\u00bb|\bthe\b|\bnot an\b/i.test(t);
 };
+/** The slug of the /who/ page a register row is listed on, or null (the row's name is not a name the register writes a page for). */
+export const whoSlugOfRow = (r) => { const n = bare(r.name); if (!isName(n)) return null; return slugify(n) || null; };
 const WHO = new Set();
-for (const r of register) { const n = bare(r.name); if (isName(n)) { const k = slugify(n); if (k) WHO.add(k); } }
+for (const r of register) { const k = whoSlugOfRow(r); if (k) WHO.add(k); }
 
 /** The slug of the /who/ page that gathers the register's records of this person's name, or null. */
 export const whoSlugOf = (name) => {
