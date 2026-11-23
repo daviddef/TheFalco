@@ -31,7 +31,7 @@ export const MENU = [
     { head: "Places", href: "/places/", items: [["/atlas/", "The Atlas"]] },
     { head: "The families", items: [["/families/", "All the families"], ...NAMED] },
   ]],
-  ["The name", [["/name/", "The Name"], ["/which-falco/", "Which Falco?"], ["/namesakes/", "Namesakes"], ["/arms/", "Arms"]]],
+  ["The name", [["/name/", "The Name"], ["/your-name/", "The forenames"], ["/which-falco/", "Which Falco?"], ["/namesakes/", "Namesakes"], ["/arms/", "Arms"]]],
   /* "Research" is lib/research-menu.js: three groups, the canon's eight core pages, Documents and Gallery, and ONE "Deep dives" heading
      that opens the hub /research/deep-dives/. */
   ["Research", navGroups],

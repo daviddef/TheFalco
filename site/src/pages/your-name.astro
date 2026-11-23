@@ -1,0 +1,79 @@
+---
+import Base from "../layouts/Base.astro";
+import SayYourName from "@daviddef/archive-kit/components/SayYourName.astro";
+import { u } from "../lib/url.js";
+/* THE FORMS ARE NOT KEPT HERE. Every form of a given name, by language, and whether a family archive has met it on a
+   record, is kept ONCE, in Record Atlas (data/given-name-families.json, written only through scripts/given_name_variants.py)
+   and fetched into src/data/given-names.json at build time by the Archive Kit's tools/atlas_given_names.py, with this
+   archive's own counts laid over it (`seen` = here, `seenAll` = every archive). The counts are tools/given_names.py's, from the
+   people who have a page here; living people and the register rows are not counted. A form met here that the Atlas lacks is
+   added to the Atlas with its evidence, never to this page (the build gate is `--strict`). */
+import G from "../data/given-names.json";
+import gn from "../data/givennames.json";
+
+/* THE THREE LANGUAGES THIS ARCHIVE'S RECORDS ARE WRITTEN IN. The catalogue holds fifty; a card for each would be forty-seven
+   empty ones on a page about an Italian family. Latin is the priest of Arienzo; Italian is the civil clerk, and the family
+   tree; English is Brisbane. A form in another language is not dropped from the Atlas, only from this page. */
+const SHOW = [
+  ["latin", "Latin", "The language of the parish registers of Arienzo and the Valle Caudina: the name as the priest wrote it, in the case the sentence needed."],
+  ["italian", "Italian", "What a civil clerk wrote, and what the family called itself. Many forms here are the southern spellings of a name (Aniello, Pasqualino), not a mistake for the standard one."],
+  ["english", "English", "The form at arrival: what a clerk in Brisbane made of a name brought from Arienzo."],
+];
+const keep = new Set(SHOW.map(([k]) => k));
+const rows = G.rows
+  .map((r) => ({
+    canon: r.canon, sex: r.sex, slips: r.slips, notSame: r.notSame,
+    langs: Object.fromEntries(Object.entries(r.langs || {}).filter(([k]) => keep.has(k))
+      .map(([k, fs]) => [k, fs.map((f) => ({ form: f.form, seen: f.seen, note: f.note, notNominative: f.notNominative }))])),
+  }))
+  .filter((r) => Object.values(r.langs).some((fs) => fs.length));
+
+const forms = rows.flatMap((r) => Object.values(r.langs).flat());
+const metHere = forms.filter((f) => f.seen > 0).length;
+const observed = Object.entries(gn.observed);
+const top = observed.slice(0, 8);
+const asOne = observed.filter(([f]) => /^(Mariantonia|Annamaria|Angelamaria|Francescantonio|Pasqualantonio|Angelantonio|Carminantonio|Carlantonio|Angelandrea|Giovanbattista|Michel'?angelo)$/i.test(f));
+const joined = asOne.reduce((n, [, c]) => n + c, 0);
+---
+<Base title="The forenames"
+  eyebrow="Every form of a forename the registers may have written, from the Record Atlas"
+  dek="One person, written down in Latin by the priest and in Italian by the clerk. Type a forename and see every form the same human being would have been entered under.">
+
+  <section class="prose">
+    <p>A <strong>Giovanni</strong> in a civil register and a <strong>Joannes</strong> in a parish one are the same man, and an
+    index that treats them as two will never join a family up. This is the archive's own answer to the question every
+    search of a register begins with: <em>what else might the clerk have written?</em></p>
+
+    <p><strong>A name you have looked up is a link you can send.</strong> The address bar follows the search, for example
+    <span class="mono">?n=Joannes</span>, so a card can go to a cousin or an archivist and open on exactly what you were looking at.</p>
+
+    <p><strong>Two kinds of cell.</strong> A form printed plainly is one this archive has met on the record of a person who has
+    a page here. A form marked <span style="font-style:italic;opacity:.75">like this<sup>°</sup></span> is a <strong>lookup aid</strong>: the right form in that
+    language to type into an index tomorrow, not something written down here yet. <strong>{metHere} of the {forms.length} forms
+    below are met here; {forms.length - metHere} are aids.</strong> Nothing on this page is decided by hand: the forms are kept
+    once, in <a href="https://recordatlas.org/your-name/">Record Atlas</a>, each with the evidence for it, and this page is read
+    from that catalogue when the site is built.</p>
+  </section>
+
+  <SayYourName rows={rows} u={u}
+    langs={SHOW.map(([key, label, note]) => ({ key, label, note }))}
+    chips={["Giovanni", "Joannes", "Pasquale", "Raffaele", "Gennaro", "Carmine", "Giuseppe", "Mariantonia", "Aniello"]} />
+
+  <section class="prose">
+    <h2>What this archive counts, and what it does not</h2>
+    <p>The counts above are of <strong>people</strong>, not of register rows: how many of the {gn.people.toLocaleString()} people
+    this archive holds who are not living bear each forename, each person once per form. <strong>No living person is counted,
+    and no register row</strong>: the 13,498 rows behind <a href={u("/who/")}>Every Name</a> are index entries and machine
+    readings, several to one man, and a count of them would say how often a clerk wrote a name, not how many people bore it.
+    Two forenames ("Maria Giuseppa") are two forms, each counted once for that person.</p>
+    <p>The commonest, among the people here: {top.map(([f, n], i) => (<span><strong>{f}</strong> {n}{i < top.length - 1 ? ", " : "."}</span>))}
+    That repetition is why <a href={u("/which-falco/")}>a forename and a surname are not enough to name a person</a>, and why this
+    archive never joins two people on a name.</p>
+    <p><strong>Some forenames are written as one word</strong>: <em>Mariantonia, Francescantonio, Pasqualantonio, Angelantonio,
+    Giovanbattista</em> and others, {asOne.length} of them, held by {joined} people. A search for <em>Maria</em> or
+    <em>Antonio</em> alone does not reach them, and the registers do not always write them the same way
+    ("Carl'Antonio", "Carlantonio"); the Atlas keeps each as a name of its own, with the way it was written.</p>
+    <p class="small">The surname has its own page, <a href={u("/name/")}>The Name</a>; its spellings are kept in the same Atlas, in
+    <a href="https://recordatlas.org/surname/falco/">its catalogue of surnames</a>.</p>
+  </section>
+</Base>

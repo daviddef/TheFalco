@@ -60,6 +60,16 @@ name (5,111 names; 4,369 of them have no person page at all, and the rows live n
 card is made by the same rule, so it and a person's own list cannot disagree. `npm run check:namesakes` (`tools/checknamesakes.py`, with a planted
 fault for each rule) derives the sets again, in Python, from `people.json` and checks them against the built pages.
 
+### The forenames (`/your-name/`)
+
+"The forenames" (menu: The name) is the Kit's `SayYourName` box over the Record Atlas's given-name catalogue (`https://recordatlas.org/given-names.json`):
+type a forename and see every form of it in Latin, Italian and English, the ones this archive has met marked plainly and the rest as lookup aids.
+**No table of forms is kept here.** `site/src/data/given-names.json` is the catalogue as fetched (`npm run given-names`, which runs
+`tools/given_names.py` and then the Kit's `atlas_given_names.py --seen ... --strict`); `site/src/data/givennames.json` holds only counts. The counts are of
+the **people** in `people.json` who are not living, each person once per forename (a person's two forenames are two forms); the 13,498 register rows behind
+`/who/` and every living person are not counted. `npm run check:given-names` (in the build, offline) fails if a form the records hold is not in the committed
+catalogue: the fix is `given_name_variants.py add` in Record Atlas (with its evidence), `publish`, then `npm run given-names`, never a local table.
+
 ## Running it
 
 ```bash

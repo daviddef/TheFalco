@@ -94,6 +94,12 @@
           "group": "The name"
         },
         {
+          "path": "/your-name/",
+          "title": "The forenames",
+          "blurb": "Type a forename and see every form of it the registers may have written, from the Record Atlas, with the ones met here marked.",
+          "group": "The name"
+        },
+        {
           "path": "/arms/",
           "title": "Arms",
           "blurb": "No coat of arms belongs to this family, though several are sold as though one did.",
