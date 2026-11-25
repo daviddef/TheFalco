@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import AncChart from "@daviddef/archive-kit/components/AncChart.astro";
+import CanvasLink from "@daviddef/archive-kit/components/CanvasLink.astro";
 import { lineage } from "@daviddef/archive-kit/lib/ahnen.js";
 import { u } from "../lib/url.js";
 import { people, bySlug } from "../lib/people.js";
@@ -126,6 +127,8 @@ const dates = (r) => {
     <a href={u("/direct-line/")}>The direct line</a> argues each generation act by act;
     this page is the shape of it.</p>
   </div>
+
+  <CanvasLink archive="falco" person="matteo-falco-of-matteo-falco-francesca-crisci" />
 
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.6rem;margin:1rem 0">
     <div class="card" style="padding:10px 14px"><div class="mono" style="font-size:1.5rem">{rows.length}</div><div class="small">generations</div></div>
